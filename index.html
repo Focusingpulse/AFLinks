@@ -16,8 +16,6 @@
             --text-dim: #8a9bae;
             --border: #253242;
             --category-bg: #1a2634;
-            --success: #4ade80;
-            --warning: #fbbf24;
             --shadow: 0 4px 12px rgba(0,0,0,0.35);
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -357,24 +355,39 @@
             background: var(--accent);
             color: var(--bg);
         }
-        .modal .view-link.disabled {
-            background: var(--surface-hover);
-            color: var(--text-dim);
-            cursor: not-allowed;
-        }
-        .aetherforce-link {
-            margin-top: 12px;
-            padding: 12px;
+        .af-section {
+            margin-top: 14px;
+            padding: 14px;
             background: var(--accent-glow);
             border: 1px solid var(--accent-dim);
             border-radius: 10px;
-            font-size: 0.79rem;
         }
-        .aetherforce-link strong {
+        .af-section-title {
+            font-size: 0.8rem;
+            font-weight: 600;
             color: var(--accent);
+            margin-bottom: 8px;
         }
-        .aetherforce-link a {
+        .af-link {
+            display: inline-block;
+            font-size: 0.78rem;
+            padding: 5px 12px;
+            margin: 3px 0;
+            border-radius: 6px;
+            background: rgba(79, 195, 247, 0.08);
             color: var(--accent);
+            text-decoration: none;
+            border: 1px solid var(--accent-dim);
+            transition: background 0.15s;
+        }
+        .af-link:hover {
+            background: var(--accent-dim);
+            color: #fff;
+        }
+        .af-link-type {
+            font-size: 0.68rem;
+            opacity: 0.6;
+            margin-left: 4px;
         }
         .loading {
             text-align: center;
@@ -389,16 +402,39 @@
         }
         .footer {
             max-width: 1400px;
-            margin: 30px auto;
-            padding: 0 18px;
+            margin: 30px auto 0;
+            padding: 24px 18px;
             text-align: center;
             font-size: 0.75rem;
             color: var(--text-dim);
             border-top: 1px solid var(--border);
-            padding-top: 20px;
         }
         .footer a {
             color: var(--accent);
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 14px;
+            margin-top: 10px;
+        }
+        .footer-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            font-size: 0.78rem;
+        }
+        .footer-links a:hover {
+            background: var(--surface-hover);
         }
         @media (max-width: 768px) {
             .main-container {
@@ -480,6 +516,13 @@
         Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> ·
         Data from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> ·
         Taxonomy from <a href="https://www.aetherforce.energy" target="_blank">Aetherforce</a>
+        <div class="footer-links">
+            <a href="https://www.aetherforce.energy" target="_blank">🌐 Aetherforce</a>
+            <a href="https://www.aetherforce.energy/resources/articles/" target="_blank">📖 Articles</a>
+            <a href="https://www.aetherforce.energy/shop-2" target="_blank">🛒 Shop</a>
+            <a href="https://www.aetherforce.energy/resources/links/" target="_blank">🔗 Resource Guide</a>
+            <a href="https://t.me/aetherforceposts" target="_blank">💬 Telegram</a>
+        </div>
     </footer>
 
     <script>
@@ -491,65 +534,311 @@
         const PAGE_SIZE = 60;
         let currentPage = 0;
 
-        const aetherforceWikiMap = {
-            "Aether Physics": "aether-theories",
-            "Agriculture": "regenerative-agriculture",
-            "Architecture": "regenerative-agriculture",
-            "Biology": "new-biology-morphic-fields",
-            "Borderland Research": "aether-theories",
-            "Chemistry": "material-sciences",
-            "Consciousness": "aether-theories",
-            "Crystals": "geometry-harmonics",
-            "Electric Universe": "plasma-cosmology",
-            "Fallacies of Standard Model": "standard-model-fallacies",
-            "Geometry": "geometry-harmonics",
-            "Goethean Science": "goethean-science",
-            "Gravity": "aether-theories",
-            "Language": "goethean-science",
-            "Life Force": "aether-theories",
-            "Light": "light-colour-optics",
-            "Magnetism": "aether-theories",
-            "Natural Philosophy": "goethean-science",
-            "Psychotronics": "radionics-radiesthesia-psychotronics",
-            "Renewable Energy": "aether-theories",
-            "Suppression": "aether-theories",
-            "Time": "aether-theories",
-            "Water": "water-structure-memory",
-            "Material Sciences": "material-sciences",
-            "Transhumanism": "transhumanism-geo-engineering",
-            "Energy Generation": "aether-theories",
-            "Health Medicine": "new-biology-morphic-fields",
-            "Transportation": "aether-theories",
-            "Environmental": "water-structure-memory",
-            "Construction": "material-sciences"
+        // ─── Aetherforce live content mapping ───
+        // Only links to pages that actually exist and have real content.
+        // No wiki placeholder links — those are all empty templates.
+
+        const AF_BASE = 'https://www.aetherforce.energy';
+        const AF_ARTICLES = AF_BASE + '/resources/articles/';
+        const AF_SHOP = AF_BASE + '/shop-2';
+        const AF_LINKS = AF_BASE + '/resources/links/';
+
+        // Shop section anchors (based on page structure)
+        const AF_SHOP_SECTIONS = {
+            'coherent_field': AF_SHOP + '#coherent-field-generators',
+            'radionics': AF_SHOP + '#radionics-radiesthesia-and-shape-power',
+            'brainwave': AF_SHOP + '#brainwave-and-bio-field-entrainment',
+            'water_nutrition': AF_SHOP + '#water-revitalization-and-nutrition',
+            'info_ecosystem': AF_SHOP + '#informational-ecosystem'
         };
 
-        const aetherforceArticleMap = {
-            "Aether Physics": ["The Book of the Damned by Charles Fort", "Formative Powers of the Living – Wolfgang Peter"],
-            "Goethean Science": ["New Organs of Perception: Goethean Science as a Cultural Therapeutics", "Goethe and the Evolution of Science – Craig Holdrege", "All Science Must Be Rooted in Experience by Stephen Talbott", "Metamorphosis and Metamorphic Thinking by Craig Holdrege"],
-            "Geometry": ["Harmonics as A Science – Hans Kayser"],
-            "Biology": ["The Embryo's Eloquent Form – About the Embryology of Jaap Van Der Wal"],
-            "Psychotronics": ["Organon & Imago – Radionics, Thoughts & Resonant Patterns by H. Philippi, D. Sc."]
+        // Links page section anchors (based on page structure)
+        const AF_LINKS_SECTIONS = {
+            'magnetism': AF_LINKS + '#magnetism',
+            'electric_universe': AF_LINKS + '#electric-plasma-universe',
+            'water': AF_LINKS + '#water',
+            'light': AF_LINKS + '#light-optics',
+            'walter_russell': AF_LINKS + '#walter-russell',
+            'tesla': AF_LINKS + '#nikola-tesla',
+            'kozyrev': AF_LINKS + '#kozyrev-torsion-russian-cosmism',
+            'scalar': AF_LINKS + '#scalar-longitudinal-science',
+            'goethean': AF_LINKS + '#goethean-science',
+            'orgonomy': AF_LINKS + '#orgonomy',
+            'cymatics': AF_LINKS + '#cymatics',
+            'harmonics': AF_LINKS + '#harmonics',
+            'biofield': AF_LINKS + '#biofield-science-electrobiology',
+            'psi': AF_LINKS + '#psi-remote-viewing',
+            'crystallography': AF_LINKS + '#crystallography',
+            'radionics': AF_LINKS + '#radionics',
+            'radiesthesia': AF_LINKS + '#radiesthesia',
+            'weather': AF_LINKS + '#weather-engineering',
+            'sacred_geometry': AF_LINKS + '#sacred-geometry',
+            'esoterica': AF_LINKS + '#esoterica',
+            'alchemy': AF_LINKS + '#alchemy'
+        };
+
+        // Real articles on Aetherforce (title -> URL slug)
+        const AF_REAL_ARTICLES = [
+            { title: "The Book of the Damned by Charles Fort", cats: ["Aether Physics", "Suppression", "Borderland Research"] },
+            { title: "New Organs of Perception: Goethean Science as a Cultural Therapeutics", cats: ["Goethean Science", "Consciousness"] },
+            { title: "Goethe and the Evolution of Science – Craig Holdrege", cats: ["Goethean Science"] },
+            { title: "Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison", cats: ["Natural Philosophy", "Fallacies of Standard Model"] },
+            { title: "Formative Powers of the Living – Wolfgang Peter", cats: ["Aether Physics", "Life Force"] },
+            { title: "All Science Must Be Rooted in Experience by Stephen Talbott", cats: ["Goethean Science"] },
+            { title: "Sorce Theory & SpinbitZ – Joel Morrison", cats: ["Aether Physics", "Natural Philosophy"] },
+            { title: "Judgment through Intuitive Perception – Johann Wolfgang von Goethe", cats: ["Goethean Science"] },
+            { title: "Polarity by Johann Wolfgang von Goethe", cats: ["Goethean Science"] },
+            { title: "Empirical Observation and Science by Johann Wolfgang von Goethe", cats: ["Goethean Science"] },
+            { title: "Harmonics as A Science – Hans Kayser", cats: ["Geometry", "Crystals"] },
+            { title: "Metamorphosis and Metamorphic Thinking by Craig Holdrege", cats: ["Goethean Science", "Biology"] },
+            { title: "Metamorphosis of Plants – Johann Wolfgang von Goethe", cats: ["Biology", "Agriculture"] },
+            { title: "The Embryo's Eloquent Form – About the Embryology of Jaap Van Der Wal", cats: ["Biology"] },
+            { title: "Organon & Imago – Radionics, Thoughts & Resonant Patterns by H. Philippi, D. Sc.", cats: ["Psychotronics"] },
+            { title: "The Form of Wholeness: Multiplicity and Unity", cats: ["Geometry"] },
+            { title: "Qualities by Stephen L. Talbott", cats: ["Goethean Science"] },
+            { title: "What Are Qualities by Stephen L. Talbott", cats: ["Goethean Science"] }
+        ];
+
+        // Category -> Aetherforce links (only live, working pages)
+        const aetherforceCategoryMap = {
+            "Aether Physics": {
+                articles: ["The Book of the Damned by Charles Fort", "Formative Powers of the Living – Wolfgang Peter", "Sorce Theory & SpinbitZ – Joel Morrison"],
+                shop: AF_SHOP_SECTIONS.coherent_field,
+                shopLabel: "Coherent Field Generators",
+                links: null
+            },
+            "Agriculture": {
+                articles: ["Metamorphosis of Plants – Johann Wolfgang von Goethe"],
+                shop: AF_SHOP_SECTIONS.water_nutrition,
+                shopLabel: "Water Revitalization & Nutrition",
+                links: null
+            },
+            "Architecture": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.sacred_geometry,
+                linksLabel: "Sacred Geometry Resources"
+            },
+            "Biology": {
+                articles: ["The Embryo's Eloquent Form – About the Embryology of Jaap Van Der Wal", "Metamorphosis and Metamorphic Thinking by Craig Holdrege", "Metamorphosis of Plants – Johann Wolfgang von Goethe"],
+                shop: null,
+                links: AF_LINKS_SECTIONS.biofield,
+                linksLabel: "Biofield Science Resources"
+            },
+            "Borderland Research": {
+                articles: ["The Book of the Damned by Charles Fort"],
+                shop: null,
+                links: null
+            },
+            "Chemistry": {
+                articles: [],
+                shop: AF_SHOP_SECTIONS.water_nutrition,
+                shopLabel: "Water Revitalization & Nutrition",
+                links: AF_LINKS_SECTIONS.alchemy,
+                linksLabel: "Alchemy Resources"
+            },
+            "Consciousness": {
+                articles: ["New Organs of Perception: Goethean Science as a Cultural Therapeutics"],
+                shop: AF_SHOP_SECTIONS.brainwave,
+                shopLabel: "Brainwave & Bio-Field Entrainment",
+                links: AF_LINKS_SECTIONS.psi,
+                linksLabel: "PSI & Remote Viewing Resources"
+            },
+            "Crystals": {
+                articles: ["Harmonics as A Science – Hans Kayser"],
+                shop: null,
+                links: AF_LINKS_SECTIONS.crystallography,
+                linksLabel: "Crystallography Resources"
+            },
+            "Electric Universe": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.electric_universe,
+                linksLabel: "Electric Plasma Universe Resources"
+            },
+            "Fallacies of Standard Model": {
+                articles: ["Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison"],
+                shop: null,
+                links: null
+            },
+            "Geometry": {
+                articles: ["Harmonics as A Science – Hans Kayser", "The Form of Wholeness: Multiplicity and Unity"],
+                shop: null,
+                links: AF_LINKS_SECTIONS.sacred_geometry,
+                linksLabel: "Sacred Geometry Resources"
+            },
+            "Goethean Science": {
+                articles: [
+                    "New Organs of Perception: Goethean Science as a Cultural Therapeutics",
+                    "Goethe and the Evolution of Science – Craig Holdrege",
+                    "All Science Must Be Rooted in Experience by Stephen Talbott",
+                    "Judgment through Intuitive Perception – Johann Wolfgang von Goethe",
+                    "Polarity by Johann Wolfgang von Goethe",
+                    "Empirical Observation and Science by Johann Wolfgang von Goethe",
+                    "Metamorphosis and Metamorphic Thinking by Craig Holdrege",
+                    "Qualities by Stephen L. Talbott",
+                    "What Are Qualities by Stephen L. Talbott"
+                ],
+                shop: null,
+                links: AF_LINKS_SECTIONS.goethean,
+                linksLabel: "Goethean Science Resources"
+            },
+            "Gravity": {
+                articles: [],
+                shop: null,
+                links: null
+            },
+            "Language": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.goethean,
+                linksLabel: "Goethean Science Resources"
+            },
+            "Life Force": {
+                articles: ["Formative Powers of the Living – Wolfgang Peter"],
+                shop: AF_SHOP_SECTIONS.coherent_field,
+                shopLabel: "Coherent Field Generators",
+                links: AF_LINKS_SECTIONS.orgonomy,
+                linksLabel: "Orgonomy Resources"
+            },
+            "Light": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.light,
+                linksLabel: "Light & Optics Resources"
+            },
+            "Magnetism": {
+                articles: [],
+                shop: AF_SHOP_SECTIONS.coherent_field,
+                shopLabel: "Coherent Field Generators",
+                links: AF_LINKS_SECTIONS.magnetism,
+                linksLabel: "Magnetism Resources"
+            },
+            "Natural Philosophy": {
+                articles: ["Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison", "Sorce Theory & SpinbitZ – Joel Morrison"],
+                shop: null,
+                links: null
+            },
+            "Psychotronics": {
+                articles: ["Organon & Imago – Radionics, Thoughts & Resonant Patterns by H. Philippi, D. Sc."],
+                shop: AF_SHOP_SECTIONS.radionics,
+                shopLabel: "Radionics, Radiesthesia & Shape Power",
+                links: AF_LINKS_SECTIONS.radionics,
+                linksLabel: "Radionics Resources"
+            },
+            "Renewable Energy": {
+                articles: [],
+                shop: AF_SHOP_SECTIONS.coherent_field,
+                shopLabel: "Coherent Field Generators",
+                links: null
+            },
+            "Suppression": {
+                articles: ["The Book of the Damned by Charles Fort"],
+                shop: null,
+                links: null
+            },
+            "Time": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.kozyrev,
+                linksLabel: "Kozyrev, Torsion & Russian Cosmism"
+            },
+            "Water": {
+                articles: [],
+                shop: AF_SHOP_SECTIONS.water_nutrition,
+                shopLabel: "Water Revitalization & Nutrition",
+                links: AF_LINKS_SECTIONS.water,
+                linksLabel: "Water Resources"
+            },
+            "Material Sciences": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.alchemy,
+                linksLabel: "Alchemy Resources"
+            },
+            "Transhumanism": {
+                articles: [],
+                shop: null,
+                links: null
+            },
+            "Energy Generation": {
+                articles: [],
+                shop: AF_SHOP_SECTIONS.coherent_field,
+                shopLabel: "Coherent Field Generators",
+                links: null
+            },
+            "Health Medicine": {
+                articles: [],
+                shop: AF_SHOP_SECTIONS.water_nutrition,
+                shopLabel: "Water Revitalization & Nutrition",
+                links: AF_LINKS_SECTIONS.biofield,
+                linksLabel: "Biofield Science Resources"
+            },
+            "Transportation": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.electric_universe,
+                linksLabel: "Electric Plasma Universe Resources"
+            },
+            "Environmental": {
+                articles: [],
+                shop: AF_SHOP_SECTIONS.water_nutrition,
+                shopLabel: "Water Revitalization & Nutrition",
+                links: AF_LINKS_SECTIONS.water,
+                linksLabel: "Water Resources"
+            },
+            "Construction": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.sacred_geometry,
+                linksLabel: "Sacred Geometry Resources"
+            }
         };
 
         function getBestUrl(item) {
-            // 1. Direct Rex Research source URL if available
             if (item.source_url && item.source_url.startsWith('http')) {
                 return { url: item.source_url, label: 'View on Rex Research →', type: 'rex' };
             }
-            // 2. Patent link to Google Patents
             if (item.patent_numbers && item.patent_numbers.length > 0) {
                 const pat = item.patent_numbers[0].replace(/\s+/g, '');
                 return { url: `https://patents.google.com/patent/${pat}`, label: `View Patent ${pat} →`, type: 'patent' };
             }
-            // 3. Try to guess Rex Research URL from filename patterns
             if (item.filename && item.filename.match(/\.(pdf|htm|html)\.md$/i)) {
                 const base = item.filename.replace(/\.md$/i, '');
                 return { url: `https://www.rexresearch.com/${base}`, label: 'Try Rex Research →', type: 'guess' };
             }
-            // 4. Search Rex Research by title
             const query = encodeURIComponent(item.title || item.filename);
             return { url: `https://www.rexresearch.com/search.htm?q=${query}`, label: 'Search Rex Research →', type: 'search' };
+        }
+
+        function getAetherforceLinks(categories) {
+            const results = [];
+            const seen = new Set();
+            (categories || []).forEach(cat => {
+                const mapping = aetherforceCategoryMap[cat];
+                if (!mapping) return;
+
+                // Articles
+                (mapping.articles || []).forEach(title => {
+                    if (!seen.has('art:' + title)) {
+                        seen.add('art:' + title);
+                        results.push({ type: 'article', label: title, url: AF_ARTICLES });
+                    }
+                });
+
+                // Shop
+                if (mapping.shop && !seen.has('shop:' + mapping.shop)) {
+                    seen.add('shop:' + mapping.shop);
+                    results.push({ type: 'shop', label: mapping.shopLabel, url: mapping.shop });
+                }
+
+                // Links
+                if (mapping.links && !seen.has('links:' + mapping.links)) {
+                    seen.add('links:' + mapping.links);
+                    results.push({ type: 'links', label: mapping.linksLabel, url: mapping.links });
+                }
+            });
+            return results;
         }
 
         async function loadIndex() {
@@ -693,24 +982,39 @@
             if (!item) return;
 
             const link = getBestUrl(item);
-            const wikiSlug = aetherforceWikiMap[item.categories?.[0]] || '';
-            const wikiUrl = wikiSlug ? `https://www.aetherforce.energy/wiki/${wikiSlug}/` : 'https://www.aetherforce.energy/aether-force-wiki/';
+            const afLinks = getAetherforceLinks(item.categories);
 
-            const relatedArticles = [];
-            (item.categories || []).forEach(cat => {
-                if (aetherforceArticleMap[cat]) {
-                    aetherforceArticleMap[cat].forEach(a => {
-                        if (!relatedArticles.includes(a)) relatedArticles.push(a);
+            let afHtml = '';
+            if (afLinks.length > 0) {
+                const articleLinks = afLinks.filter(l => l.type === 'article');
+                const shopLinks = afLinks.filter(l => l.type === 'shop');
+                const resourceLinks = afLinks.filter(l => l.type === 'links');
+
+                let inner = '';
+                if (articleLinks.length > 0) {
+                    inner += `<div class="af-section-title">📖 Related Articles</div>`;
+                    articleLinks.forEach(l => {
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank">${escapeHtml(l.label)}<span class="af-link-type">article</span></a><br>`;
                     });
                 }
-            });
+                if (shopLinks.length > 0) {
+                    inner += `<div class="af-section-title" style="margin-top:10px;">🛒 Shop</div>`;
+                    shopLinks.forEach(l => {
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank">${escapeHtml(l.label)}<span class="af-link-type">shop</span></a><br>`;
+                    });
+                }
+                if (resourceLinks.length > 0) {
+                    inner += `<div class="af-section-title" style="margin-top:10px;">🔗 Resource Guide</div>`;
+                    resourceLinks.forEach(l => {
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank">${escapeHtml(l.label)}<span class="af-link-type">resources</span></a><br>`;
+                    });
+                }
 
-            const articlesHtml = relatedArticles.length > 0
-                ? `<div class="aetherforce-link">
-                    <strong>📚 Related Aetherforce Articles:</strong><br>
-                    ${relatedArticles.map(a => `• ${escapeHtml(a)}`).join('<br>')}
-                   </div>`
-                : '';
+                afHtml = `<div class="af-section">
+                    <div class="af-section-title" style="margin-bottom:4px;">On Aetherforce</div>
+                    ${inner}
+                </div>`;
+            }
 
             const modal = document.getElementById('modal');
             modal.innerHTML = `
@@ -725,15 +1029,10 @@
                     <div><strong>File:</strong> ${escapeHtml(item.filename)}</div>
                     <div><strong>Size:</strong> ${formatSize(item.size_bytes)}</div>
                     <div><strong>Type:</strong> ${item.type}</div>
-                    ${item.source_url ? `<div><strong>Rex Research Source:</strong> <a href="${escapeHtml(item.source_url)}" target="_blank">${escapeHtml(item.source_url)}</a></div>` : ''}
+                    ${item.source_url ? `<div><strong>Rex Research Source:</strong> <a href="${escapeHtml(item.source_url)}" target="_blank" style="color:var(--accent);">${escapeHtml(item.source_url)}</a></div>` : ''}
                 </div>
                 <a class="view-link" href="${escapeHtml(link.url)}" target="_blank">${escapeHtml(link.label)}</a>
-                <div class="aetherforce-link">
-                    <strong>🔗 Aetherforce Connection:</strong><br>
-                    This document is categorized under <strong>${(item.categories || []).join(', ') || 'Uncategorized'}</strong>.<br>
-                    <a href="${wikiUrl}" target="_blank" style="color: var(--accent);">Browse related Aetherforce wiki content →</a>
-                </div>
-                ${articlesHtml}
+                ${afHtml}
             `;
             document.getElementById('modalOverlay').classList.add('active');
         }
