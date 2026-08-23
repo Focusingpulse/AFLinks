@@ -26,33 +26,47 @@
             min-height: 100vh;
             line-height: 1.5;
         }
-        header {
-            background: linear-gradient(135deg, #0a1622 0%, #152233 100%);
+        /* ─── Hero ─── */
+        .hero {
+            background: linear-gradient(135deg, #0a1622 0%, #152233 60%, #0d1b2a 100%);
             border-bottom: 1px solid var(--border);
-            padding: 18px 20px;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: var(--shadow);
+            padding: 28px 20px 18px;
+            text-align: center;
         }
-        .header-content {
-            max-width: 1400px;
-            margin: 0 auto;
-        }
-        header h1 {
-            font-size: 1.35rem;
+        .hero h1 {
+            font-size: 1.6rem;
             font-weight: 700;
             color: var(--accent);
-            margin-bottom: 4px;
             letter-spacing: -0.02em;
+            margin-bottom: 6px;
         }
-        header p {
-            font-size: 0.82rem;
+        .hero p {
+            font-size: 0.85rem;
             color: var(--text-dim);
+            max-width: 600px;
+            margin: 0 auto;
         }
+        .hero-af-link {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 20px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .hero-af-link:hover {
+            background: var(--accent);
+            color: var(--bg);
+        }
+        /* ─── Search bar ─── */
         .search-bar {
             max-width: 1400px;
-            margin: 14px auto 0;
+            margin: 14px auto;
+            padding: 0 20px;
             display: flex;
             gap: 10px;
             align-items: center;
@@ -104,6 +118,7 @@
             color: var(--text-dim);
             white-space: nowrap;
         }
+        /* ─── Main layout ─── */
         .main-container {
             display: flex;
             max-width: 1400px;
@@ -209,6 +224,7 @@
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 12px;
         }
+        /* ─── Cards ─── */
         .card {
             background: var(--surface);
             border: 1px solid var(--border);
@@ -262,24 +278,35 @@
             align-items: center;
             gap: 4px;
         }
-        .card-actions {
-            display: flex;
-            gap: 8px;
-            margin-top: 10px;
-        }
-        .card-actions a {
-            font-size: 0.74rem;
-            padding: 5px 10px;
+        /* AF badge on card — shows this has Aetherforce content */
+        .card-af-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.68rem;
+            padding: 3px 8px;
             border-radius: 6px;
-            background: var(--category-bg);
+            background: var(--accent-glow);
             color: var(--accent);
+            border: 1px solid var(--accent-dim);
+            margin-top: 8px;
+        }
+        .card-af-badge.none {
+            display: none;
+        }
+        .card-source-link {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            margin-top: 6px;
+        }
+        .card-source-link a {
+            color: var(--text-dim);
             text-decoration: none;
-            border: 1px solid var(--border);
         }
-        .card-actions a:hover {
-            background: var(--accent-dim);
-            color: #fff;
+        .card-source-link a:hover {
+            color: var(--accent);
         }
+        /* ─── Modal ─── */
         .modal-overlay {
             display: none;
             position: fixed;
@@ -338,68 +365,88 @@
         .modal .close-btn:hover {
             color: var(--accent);
         }
-        .modal .view-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            margin-top: 14px;
-            padding: 9px 16px;
-            background: var(--accent-dim);
-            color: var(--accent);
-            border-radius: 8px;
-            text-decoration: none;
-            font-size: 0.84rem;
-            font-weight: 500;
-        }
-        .modal .view-link:hover {
-            background: var(--accent);
-            color: var(--bg);
-        }
+        /* AF section — the star of the modal */
         .af-section {
             margin-top: 14px;
-            padding: 14px;
+            padding: 16px;
             background: var(--accent-glow);
             border: 1px solid var(--accent-dim);
-            border-radius: 10px;
+            border-radius: 12px;
+        }
+        .af-section-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        .af-section-logo {
+            font-size: 1.1rem;
         }
         .af-section-title {
-            font-size: 0.8rem;
-            font-weight: 600;
+            font-size: 0.9rem;
+            font-weight: 700;
             color: var(--accent);
-            margin-bottom: 8px;
         }
         .af-link {
-            display: inline-block;
-            font-size: 0.78rem;
-            padding: 5px 12px;
-            margin: 3px 0;
-            border-radius: 6px;
-            background: rgba(79, 195, 247, 0.08);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            padding: 8px 12px;
+            margin: 4px 0;
+            border-radius: 8px;
+            background: rgba(79, 195, 247, 0.06);
             color: var(--accent);
             text-decoration: none;
             border: 1px solid var(--accent-dim);
-            transition: background 0.15s;
+            transition: all 0.15s;
         }
         .af-link:hover {
             background: var(--accent-dim);
             color: #fff;
         }
         .af-link-type {
-            font-size: 0.68rem;
-            opacity: 0.6;
-            margin-left: 4px;
+            font-size: 0.65rem;
+            opacity: 0.5;
+            margin-left: auto;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
-        .loading {
-            text-align: center;
-            padding: 60px;
+        .af-link-icon {
+            font-size: 0.85rem;
+        }
+        /* Rex source — secondary, below AF */
+        .rex-source {
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid var(--border);
+        }
+        .rex-source-title {
+            font-size: 0.75rem;
+            font-weight: 600;
             color: var(--text-dim);
-            font-size: 1rem;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
-        .no-results {
-            text-align: center;
-            padding: 40px;
+        .rex-source-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            background: var(--surface);
             color: var(--text-dim);
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.82rem;
+            border: 1px solid var(--border);
+            transition: all 0.15s;
         }
+        .rex-source-link:hover {
+            color: var(--accent);
+            border-color: var(--accent-dim);
+        }
+        /* ─── Footer ─── */
         .footer {
             max-width: 1400px;
             margin: 30px auto 0;
@@ -420,69 +467,78 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 14px;
-            margin-top: 10px;
+            gap: 10px;
+            margin-top: 12px;
         }
         .footer-links a {
             display: inline-flex;
             align-items: center;
-            gap: 4px;
-            padding: 4px 10px;
-            border-radius: 6px;
+            gap: 5px;
+            padding: 6px 14px;
+            border-radius: 8px;
             background: var(--surface);
             border: 1px solid var(--border);
-            font-size: 0.78rem;
+            font-size: 0.8rem;
+            font-weight: 500;
         }
         .footer-links a:hover {
             background: var(--surface-hover);
+            border-color: var(--accent-dim);
+        }
+        .footer-credit {
+            margin-top: 14px;
+            font-size: 0.72rem;
+            opacity: 0.7;
+        }
+        /* ─── Loading / no results ─── */
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: var(--text-dim);
+            font-size: 1rem;
+        }
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-dim);
         }
         @media (max-width: 768px) {
+            .hero { padding: 20px 16px 14px; }
+            .hero h1 { font-size: 1.3rem; }
             .main-container {
                 flex-direction: column;
                 padding: 12px;
                 gap: 12px;
             }
-            .sidebar {
-                width: 100%;
-            }
+            .sidebar { width: 100%; }
             .category-list {
                 max-height: none;
                 flex-direction: row;
                 flex-wrap: wrap;
                 gap: 5px;
             }
-            .category-item {
-                display: inline-flex;
-                padding: 6px 10px;
-            }
-            .results-grid {
-                grid-template-columns: 1fr;
-            }
-            .search-bar {
-                flex-direction: column;
-                gap: 8px;
-            }
-            .stats {
-                text-align: center;
-            }
-            .btn {
-                width: 100%;
-            }
+            .category-item { display: inline-flex; padding: 6px 10px; }
+            .results-grid { grid-template-columns: 1fr; }
+            .search-bar { flex-direction: column; gap: 8px; padding: 0 12px; }
+            .stats { text-align: center; }
+            .btn { width: 100%; }
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1>Aetherforce Knowledge Vault</h1>
-            <p>5,810 primary source documents — patents, papers & research from Rex Research, mapped to Aetherforce's living science taxonomy</p>
-            <div class="search-bar">
-                <input type="text" id="search" placeholder="Search by title, inventor, patent number, or topic..." autocomplete="off">
-                <button class="btn btn-primary" id="randomBtn" onclick="showRandom()">🎲 Random</button>
-                <span class="stats" id="stats">Loading...</span>
-            </div>
-        </div>
-    </header>
+    <!-- Hero: Aetherforce front and center -->
+    <div class="hero">
+        <h1>Aetherforce Knowledge Vault</h1>
+        <p>Explore 5,810 primary source documents — patents, papers & research — powering Aetherforce's living science archive. Each document connects to Aetherforce articles, shop, and community resources.</p>
+        <a class="hero-af-link" href="https://www.aetherforce.energy" target="_blank">Visit Aetherforce →</a>
+    </div>
+
+    <!-- Search -->
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search by title, inventor, patent number, or topic..." autocomplete="off">
+        <button class="btn btn-primary" onclick="showRandom()">🎲 Random</button>
+        <span class="stats" id="stats">Loading...</span>
+    </div>
 
     <div class="main-container">
         <div class="sidebar">
@@ -512,16 +568,17 @@
         <div class="modal" id="modal"></div>
     </div>
 
+    <!-- Footer: Aetherforce ecosystem links -->
     <footer class="footer">
-        Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> ·
-        Data from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> ·
-        Taxonomy from <a href="https://www.aetherforce.energy" target="_blank">Aetherforce</a>
         <div class="footer-links">
             <a href="https://www.aetherforce.energy" target="_blank">🌐 Aetherforce</a>
             <a href="https://www.aetherforce.energy/resources/articles/" target="_blank">📖 Articles</a>
             <a href="https://www.aetherforce.energy/shop-2" target="_blank">🛒 Shop</a>
             <a href="https://www.aetherforce.energy/resources/links/" target="_blank">🔗 Resource Guide</a>
             <a href="https://t.me/aetherforceposts" target="_blank">💬 Telegram</a>
+        </div>
+        <div class="footer-credit">
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a>
         </div>
     </footer>
 
@@ -535,15 +592,11 @@
         let currentPage = 0;
 
         // ─── Aetherforce live content mapping ───
-        // Only links to pages that actually exist and have real content.
-        // No wiki placeholder links — those are all empty templates.
-
         const AF_BASE = 'https://www.aetherforce.energy';
         const AF_ARTICLES = AF_BASE + '/resources/articles/';
         const AF_SHOP = AF_BASE + '/shop-2';
         const AF_LINKS = AF_BASE + '/resources/links/';
 
-        // Shop section anchors (based on page structure)
         const AF_SHOP_SECTIONS = {
             'coherent_field': AF_SHOP + '#coherent-field-generators',
             'radionics': AF_SHOP + '#radionics-radiesthesia-and-shape-power',
@@ -552,7 +605,6 @@
             'info_ecosystem': AF_SHOP + '#informational-ecosystem'
         };
 
-        // Links page section anchors (based on page structure)
         const AF_LINKS_SECTIONS = {
             'magnetism': AF_LINKS + '#magnetism',
             'electric_universe': AF_LINKS + '#electric-plasma-universe',
@@ -577,7 +629,6 @@
             'alchemy': AF_LINKS + '#alchemy'
         };
 
-        // Real articles on Aetherforce (title -> URL slug)
         const AF_REAL_ARTICLES = [
             { title: "The Book of the Damned by Charles Fort", cats: ["Aether Physics", "Suppression", "Borderland Research"] },
             { title: "New Organs of Perception: Goethean Science as a Cultural Therapeutics", cats: ["Goethean Science", "Consciousness"] },
@@ -599,73 +650,59 @@
             { title: "What Are Qualities by Stephen L. Talbott", cats: ["Goethean Science"] }
         ];
 
-        // Category -> Aetherforce links (only live, working pages)
         const aetherforceCategoryMap = {
             "Aether Physics": {
                 articles: ["The Book of the Damned by Charles Fort", "Formative Powers of the Living – Wolfgang Peter", "Sorce Theory & SpinbitZ – Joel Morrison"],
-                shop: AF_SHOP_SECTIONS.coherent_field,
-                shopLabel: "Coherent Field Generators",
+                shop: AF_SHOP_SECTIONS.coherent_field, shopLabel: "Coherent Field Generators",
                 links: null
             },
             "Agriculture": {
                 articles: ["Metamorphosis of Plants – Johann Wolfgang von Goethe"],
-                shop: AF_SHOP_SECTIONS.water_nutrition,
-                shopLabel: "Water Revitalization & Nutrition",
+                shop: AF_SHOP_SECTIONS.water_nutrition, shopLabel: "Water Revitalization & Nutrition",
                 links: null
             },
             "Architecture": {
                 articles: [],
                 shop: null,
-                links: AF_LINKS_SECTIONS.sacred_geometry,
-                linksLabel: "Sacred Geometry Resources"
+                links: AF_LINKS_SECTIONS.sacred_geometry, linksLabel: "Sacred Geometry Resources"
             },
             "Biology": {
                 articles: ["The Embryo's Eloquent Form – About the Embryology of Jaap Van Der Wal", "Metamorphosis and Metamorphic Thinking by Craig Holdrege", "Metamorphosis of Plants – Johann Wolfgang von Goethe"],
                 shop: null,
-                links: AF_LINKS_SECTIONS.biofield,
-                linksLabel: "Biofield Science Resources"
+                links: AF_LINKS_SECTIONS.biofield, linksLabel: "Biofield Science Resources"
             },
             "Borderland Research": {
                 articles: ["The Book of the Damned by Charles Fort"],
-                shop: null,
-                links: null
+                shop: null, links: null
             },
             "Chemistry": {
                 articles: [],
-                shop: AF_SHOP_SECTIONS.water_nutrition,
-                shopLabel: "Water Revitalization & Nutrition",
-                links: AF_LINKS_SECTIONS.alchemy,
-                linksLabel: "Alchemy Resources"
+                shop: AF_SHOP_SECTIONS.water_nutrition, shopLabel: "Water Revitalization & Nutrition",
+                links: AF_LINKS_SECTIONS.alchemy, linksLabel: "Alchemy Resources"
             },
             "Consciousness": {
                 articles: ["New Organs of Perception: Goethean Science as a Cultural Therapeutics"],
-                shop: AF_SHOP_SECTIONS.brainwave,
-                shopLabel: "Brainwave & Bio-Field Entrainment",
-                links: AF_LINKS_SECTIONS.psi,
-                linksLabel: "PSI & Remote Viewing Resources"
+                shop: AF_SHOP_SECTIONS.brainwave, shopLabel: "Brainwave & Bio-Field Entrainment",
+                links: AF_LINKS_SECTIONS.psi, linksLabel: "PSI & Remote Viewing Resources"
             },
             "Crystals": {
                 articles: ["Harmonics as A Science – Hans Kayser"],
                 shop: null,
-                links: AF_LINKS_SECTIONS.crystallography,
-                linksLabel: "Crystallography Resources"
+                links: AF_LINKS_SECTIONS.crystallography, linksLabel: "Crystallography Resources"
             },
             "Electric Universe": {
                 articles: [],
                 shop: null,
-                links: AF_LINKS_SECTIONS.electric_universe,
-                linksLabel: "Electric Plasma Universe Resources"
+                links: AF_LINKS_SECTIONS.electric_universe, linksLabel: "Electric Plasma Universe Resources"
             },
             "Fallacies of Standard Model": {
                 articles: ["Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison"],
-                shop: null,
-                links: null
+                shop: null, links: null
             },
             "Geometry": {
                 articles: ["Harmonics as A Science – Hans Kayser", "The Form of Wholeness: Multiplicity and Unity"],
                 shop: null,
-                links: AF_LINKS_SECTIONS.sacred_geometry,
-                linksLabel: "Sacred Geometry Resources"
+                links: AF_LINKS_SECTIONS.sacred_geometry, linksLabel: "Sacred Geometry Resources"
             },
             "Goethean Science": {
                 articles: [
@@ -680,118 +717,87 @@
                     "What Are Qualities by Stephen L. Talbott"
                 ],
                 shop: null,
-                links: AF_LINKS_SECTIONS.goethean,
-                linksLabel: "Goethean Science Resources"
+                links: AF_LINKS_SECTIONS.goethean, linksLabel: "Goethean Science Resources"
             },
-            "Gravity": {
-                articles: [],
-                shop: null,
-                links: null
-            },
+            "Gravity": { articles: [], shop: null, links: null },
             "Language": {
                 articles: [],
                 shop: null,
-                links: AF_LINKS_SECTIONS.goethean,
-                linksLabel: "Goethean Science Resources"
+                links: AF_LINKS_SECTIONS.goethean, linksLabel: "Goethean Science Resources"
             },
             "Life Force": {
                 articles: ["Formative Powers of the Living – Wolfgang Peter"],
-                shop: AF_SHOP_SECTIONS.coherent_field,
-                shopLabel: "Coherent Field Generators",
-                links: AF_LINKS_SECTIONS.orgonomy,
-                linksLabel: "Orgonomy Resources"
+                shop: AF_SHOP_SECTIONS.coherent_field, shopLabel: "Coherent Field Generators",
+                links: AF_LINKS_SECTIONS.orgonomy, linksLabel: "Orgonomy Resources"
             },
             "Light": {
                 articles: [],
                 shop: null,
-                links: AF_LINKS_SECTIONS.light,
-                linksLabel: "Light & Optics Resources"
+                links: AF_LINKS_SECTIONS.light, linksLabel: "Light & Optics Resources"
             },
             "Magnetism": {
                 articles: [],
-                shop: AF_SHOP_SECTIONS.coherent_field,
-                shopLabel: "Coherent Field Generators",
-                links: AF_LINKS_SECTIONS.magnetism,
-                linksLabel: "Magnetism Resources"
+                shop: AF_SHOP_SECTIONS.coherent_field, shopLabel: "Coherent Field Generators",
+                links: AF_LINKS_SECTIONS.magnetism, linksLabel: "Magnetism Resources"
             },
             "Natural Philosophy": {
                 articles: ["Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison", "Sorce Theory & SpinbitZ – Joel Morrison"],
-                shop: null,
-                links: null
+                shop: null, links: null
             },
             "Psychotronics": {
                 articles: ["Organon & Imago – Radionics, Thoughts & Resonant Patterns by H. Philippi, D. Sc."],
-                shop: AF_SHOP_SECTIONS.radionics,
-                shopLabel: "Radionics, Radiesthesia & Shape Power",
-                links: AF_LINKS_SECTIONS.radionics,
-                linksLabel: "Radionics Resources"
+                shop: AF_SHOP_SECTIONS.radionics, shopLabel: "Radionics, Radiesthesia & Shape Power",
+                links: AF_LINKS_SECTIONS.radionics, linksLabel: "Radionics Resources"
             },
             "Renewable Energy": {
                 articles: [],
-                shop: AF_SHOP_SECTIONS.coherent_field,
-                shopLabel: "Coherent Field Generators",
+                shop: AF_SHOP_SECTIONS.coherent_field, shopLabel: "Coherent Field Generators",
                 links: null
             },
             "Suppression": {
                 articles: ["The Book of the Damned by Charles Fort"],
-                shop: null,
-                links: null
+                shop: null, links: null
             },
             "Time": {
                 articles: [],
                 shop: null,
-                links: AF_LINKS_SECTIONS.kozyrev,
-                linksLabel: "Kozyrev, Torsion & Russian Cosmism"
+                links: AF_LINKS_SECTIONS.kozyrev, linksLabel: "Kozyrev, Torsion & Russian Cosmism"
             },
             "Water": {
                 articles: [],
-                shop: AF_SHOP_SECTIONS.water_nutrition,
-                shopLabel: "Water Revitalization & Nutrition",
-                links: AF_LINKS_SECTIONS.water,
-                linksLabel: "Water Resources"
+                shop: AF_SHOP_SECTIONS.water_nutrition, shopLabel: "Water Revitalization & Nutrition",
+                links: AF_LINKS_SECTIONS.water, linksLabel: "Water Resources"
             },
             "Material Sciences": {
                 articles: [],
                 shop: null,
-                links: AF_LINKS_SECTIONS.alchemy,
-                linksLabel: "Alchemy Resources"
+                links: AF_LINKS_SECTIONS.alchemy, linksLabel: "Alchemy Resources"
             },
-            "Transhumanism": {
-                articles: [],
-                shop: null,
-                links: null
-            },
+            "Transhumanism": { articles: [], shop: null, links: null },
             "Energy Generation": {
                 articles: [],
-                shop: AF_SHOP_SECTIONS.coherent_field,
-                shopLabel: "Coherent Field Generators",
+                shop: AF_SHOP_SECTIONS.coherent_field, shopLabel: "Coherent Field Generators",
                 links: null
             },
             "Health Medicine": {
                 articles: [],
-                shop: AF_SHOP_SECTIONS.water_nutrition,
-                shopLabel: "Water Revitalization & Nutrition",
-                links: AF_LINKS_SECTIONS.biofield,
-                linksLabel: "Biofield Science Resources"
+                shop: AF_SHOP_SECTIONS.water_nutrition, shopLabel: "Water Revitalization & Nutrition",
+                links: AF_LINKS_SECTIONS.biofield, linksLabel: "Biofield Science Resources"
             },
             "Transportation": {
                 articles: [],
                 shop: null,
-                links: AF_LINKS_SECTIONS.electric_universe,
-                linksLabel: "Electric Plasma Universe Resources"
+                links: AF_LINKS_SECTIONS.electric_universe, linksLabel: "Electric Plasma Universe Resources"
             },
             "Environmental": {
                 articles: [],
-                shop: AF_SHOP_SECTIONS.water_nutrition,
-                shopLabel: "Water Revitalization & Nutrition",
-                links: AF_LINKS_SECTIONS.water,
-                linksLabel: "Water Resources"
+                shop: AF_SHOP_SECTIONS.water_nutrition, shopLabel: "Water Revitalization & Nutrition",
+                links: AF_LINKS_SECTIONS.water, linksLabel: "Water Resources"
             },
             "Construction": {
                 articles: [],
                 shop: null,
-                links: AF_LINKS_SECTIONS.sacred_geometry,
-                linksLabel: "Sacred Geometry Resources"
+                links: AF_LINKS_SECTIONS.sacred_geometry, linksLabel: "Sacred Geometry Resources"
             }
         };
 
@@ -817,28 +823,26 @@
             (categories || []).forEach(cat => {
                 const mapping = aetherforceCategoryMap[cat];
                 if (!mapping) return;
-
-                // Articles
                 (mapping.articles || []).forEach(title => {
                     if (!seen.has('art:' + title)) {
                         seen.add('art:' + title);
                         results.push({ type: 'article', label: title, url: AF_ARTICLES });
                     }
                 });
-
-                // Shop
                 if (mapping.shop && !seen.has('shop:' + mapping.shop)) {
                     seen.add('shop:' + mapping.shop);
                     results.push({ type: 'shop', label: mapping.shopLabel, url: mapping.shop });
                 }
-
-                // Links
                 if (mapping.links && !seen.has('links:' + mapping.links)) {
                     seen.add('links:' + mapping.links);
                     results.push({ type: 'links', label: mapping.linksLabel, url: mapping.links });
                 }
             });
             return results;
+        }
+
+        function hasAetherforceContent(categories) {
+            return getAetherforceLinks(categories).length > 0;
         }
 
         async function loadIndex() {
@@ -860,11 +864,9 @@
                     if (cat) catCounts[cat] = (catCounts[cat] || 0) + 1;
                 });
             });
-
             const sorted = Object.entries(catCounts).sort((a, b) => b[1] - a[1]);
             const list = document.getElementById('categoryList');
             list.innerHTML = '';
-
             sorted.forEach(([cat, count]) => {
                 const div = document.createElement('div');
                 div.className = 'category-item';
@@ -939,6 +941,7 @@
 
             results.innerHTML = shown.map(item => {
                 const link = getBestUrl(item);
+                const hasAF = hasAetherforceContent(item.categories);
                 return `
                 <div class="card" onclick="showDetail(${item.id})">
                     <div class="card-title">${escapeHtml(item.title || item.filename)}</div>
@@ -951,8 +954,9 @@
                         ${item.type === 'media' ? '<span>🎬 media</span>' : ''}
                         <span>📦 ${formatSize(item.size_bytes)}</span>
                     </div>
-                    <div class="card-actions" onclick="event.stopPropagation()">
-                        <a href="${escapeHtml(link.url)}" target="_blank">${escapeHtml(link.label)}</a>
+                    ${hasAF ? '<div class="card-af-badge">⚡ Has Aetherforce content</div>' : ''}
+                    <div class="card-source-link" onclick="event.stopPropagation()">
+                        <a href="${escapeHtml(link.url)}" target="_blank">📄 Source: Rex Research</a>
                     </div>
                 </div>
             `}).join('');
@@ -984,6 +988,7 @@
             const link = getBestUrl(item);
             const afLinks = getAetherforceLinks(item.categories);
 
+            // Build Aetherforce section FIRST — it's the star
             let afHtml = '';
             if (afLinks.length > 0) {
                 const articleLinks = afLinks.filter(l => l.type === 'article');
@@ -992,29 +997,46 @@
 
                 let inner = '';
                 if (articleLinks.length > 0) {
-                    inner += `<div class="af-section-title">📖 Related Articles</div>`;
+                    inner += `<div class="af-section-title">📖 Articles</div>`;
                     articleLinks.forEach(l => {
-                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank">${escapeHtml(l.label)}<span class="af-link-type">article</span></a><br>`;
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank"><span class="af-link-icon">📄</span> ${escapeHtml(l.label)}<span class="af-link-type">Read</span></a>`;
                     });
                 }
                 if (shopLinks.length > 0) {
                     inner += `<div class="af-section-title" style="margin-top:10px;">🛒 Shop</div>`;
                     shopLinks.forEach(l => {
-                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank">${escapeHtml(l.label)}<span class="af-link-type">shop</span></a><br>`;
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank"><span class="af-link-icon">🛒</span> ${escapeHtml(l.label)}<span class="af-link-type">Browse</span></a>`;
                     });
                 }
                 if (resourceLinks.length > 0) {
-                    inner += `<div class="af-section-title" style="margin-top:10px;">🔗 Resource Guide</div>`;
+                    inner += `<div class="af-section-title" style="margin-top:10px;">🔗 Resources</div>`;
                     resourceLinks.forEach(l => {
-                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank">${escapeHtml(l.label)}<span class="af-link-type">resources</span></a><br>`;
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank"><span class="af-link-icon">🔗</span> ${escapeHtml(l.label)}<span class="af-link-type">Explore</span></a>`;
                     });
                 }
 
                 afHtml = `<div class="af-section">
-                    <div class="af-section-title" style="margin-bottom:4px;">On Aetherforce</div>
+                    <div class="af-section-header">
+                        <span class="af-section-logo">⚡</span>
+                        <span class="af-section-title">On Aetherforce</span>
+                    </div>
                     ${inner}
                 </div>`;
+            } else {
+                afHtml = `<div class="af-section" style="text-align:center;">
+                    <div class="af-section-title">No Aetherforce content mapped yet for this topic</div>
+                    <a class="af-link" href="${AF_BASE}" target="_blank" style="justify-content:center;"><span class="af-link-icon">🌐</span> Explore Aetherforce<span class="af-link-type">Visit</span></a>
+                </div>`;
             }
+
+            // Rex source — SECOND, below Aetherforce
+            const rexHtml = `<div class="rex-source">
+                <div class="rex-source-title">Primary Source Archive</div>
+                <a class="rex-source-link" href="${escapeHtml(link.url)}" target="_blank">
+                    📄 ${escapeHtml(link.label)}
+                </a>
+                ${item.source_url ? `<div style="margin-top:6px; font-size:0.72rem; color:var(--text-dim);">${escapeHtml(item.source_url)}</div>` : ''}
+            </div>`;
 
             const modal = document.getElementById('modal');
             modal.innerHTML = `
@@ -1029,10 +1051,9 @@
                     <div><strong>File:</strong> ${escapeHtml(item.filename)}</div>
                     <div><strong>Size:</strong> ${formatSize(item.size_bytes)}</div>
                     <div><strong>Type:</strong> ${item.type}</div>
-                    ${item.source_url ? `<div><strong>Rex Research Source:</strong> <a href="${escapeHtml(item.source_url)}" target="_blank" style="color:var(--accent);">${escapeHtml(item.source_url)}</a></div>` : ''}
                 </div>
-                <a class="view-link" href="${escapeHtml(link.url)}" target="_blank">${escapeHtml(link.label)}</a>
                 ${afHtml}
+                ${rexHtml}
             `;
             document.getElementById('modalOverlay').classList.add('active');
         }
