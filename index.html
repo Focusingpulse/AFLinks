@@ -16,6 +16,12 @@
             --text-dim: #8a9bae;
             --border: #253242;
             --category-bg: #1a2634;
+            --meta-bg: #1e1a34;
+            --meta-accent: #b39ddb;
+            --meta-border: #4a3a6b;
+            --patent-bg: #1a2e1e;
+            --patent-accent: #81c784;
+            --patent-border: #2e6b3a;
             --shadow: 0 4px 12px rgba(0,0,0,0.35);
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -118,6 +124,25 @@
             color: var(--text-dim);
             white-space: nowrap;
         }
+        /* ─── Mobile sidebar toggle ─── */
+        .sidebar-toggle {
+            display: none;
+            padding: 10px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 0.85rem;
+            cursor: pointer;
+            margin: 0 12px 8px;
+            align-items: center;
+            gap: 8px;
+            max-width: 1400px;
+        }
+        .sidebar-toggle:hover {
+            background: var(--surface-hover);
+            border-color: var(--accent-dim);
+        }
         /* ─── Main layout ─── */
         .main-container {
             display: flex;
@@ -139,11 +164,67 @@
             padding-bottom: 8px;
             border-bottom: 1px solid var(--border);
         }
+        /* ─── Meta-category list ─── */
+        .meta-category-list {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            max-height: 30vh;
+            overflow-y: auto;
+            padding-right: 4px;
+            margin-bottom: 16px;
+        }
+        .meta-category-list::-webkit-scrollbar { width: 6px; }
+        .meta-category-list::-webkit-scrollbar-track { background: transparent; }
+        .meta-category-list::-webkit-scrollbar-thumb { background: var(--meta-border); border-radius: 3px; }
+        .meta-category-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 7px 11px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.12s;
+            font-size: 0.82rem;
+            user-select: none;
+            border: 1px solid transparent;
+        }
+        .meta-category-item:hover {
+            background: var(--surface-hover);
+            border-color: var(--meta-border);
+        }
+        .meta-category-item.active {
+            background: var(--meta-bg);
+            color: var(--meta-accent);
+            border-color: var(--meta-border);
+        }
+        .meta-category-count {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            background: var(--surface);
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+        .meta-category-item.active .meta-category-count {
+            background: rgba(179, 157, 219, 0.15);
+            color: var(--meta-accent);
+        }
+        .meta-section-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--meta-accent);
+            margin-bottom: 8px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--meta-border);
+            opacity: 0.8;
+        }
+        /* ─── Category list ─── */
         .category-list {
             display: flex;
             flex-direction: column;
             gap: 3px;
-            max-height: 62vh;
+            max-height: 40vh;
             overflow-y: auto;
             padding-right: 4px;
         }
@@ -167,6 +248,9 @@
         .category-item.active {
             background: var(--accent-dim);
             color: #fff;
+        }
+        .category-item.dimmed {
+            opacity: 0.35;
         }
         .category-count {
             font-size: 0.72rem;
@@ -219,6 +303,32 @@
             font-size: 0.84rem;
             color: var(--text-dim);
         }
+        .active-filter-display {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+        .active-filter-chip {
+            font-size: 0.72rem;
+            padding: 3px 10px;
+            border-radius: 12px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            border: 1px solid var(--accent-dim);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .active-filter-chip.meta {
+            background: var(--meta-bg);
+            color: var(--meta-accent);
+            border-color: var(--meta-border);
+        }
+        .active-filter-chip:hover {
+            opacity: 0.8;
+        }
         .results-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -241,6 +351,15 @@
             transform: translateY(-2px);
             box-shadow: var(--shadow);
         }
+        .card-researcher {
+            font-size: 0.76rem;
+            color: var(--meta-accent);
+            margin-bottom: 4px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
         .card-title {
             font-size: 0.88rem;
             font-weight: 600;
@@ -250,6 +369,17 @@
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
+        }
+        .card-preview {
+            font-size: 0.76rem;
+            color: var(--text-dim);
+            line-height: 1.4;
+            margin-bottom: 8px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            font-style: italic;
         }
         .card-categories {
             display: flex;
@@ -264,6 +394,29 @@
             background: var(--category-bg);
             color: var(--accent);
             border: 1px solid var(--border);
+        }
+        .meta-tag {
+            font-size: 0.66rem;
+            padding: 2px 7px;
+            border-radius: 10px;
+            background: var(--meta-bg);
+            color: var(--meta-accent);
+            border: 1px solid var(--meta-border);
+        }
+        .patent-tag {
+            font-size: 0.66rem;
+            padding: 2px 7px;
+            border-radius: 10px;
+            background: var(--patent-bg);
+            color: var(--patent-accent);
+            border: 1px solid var(--patent-border);
+            font-family: 'SF Mono', 'Consolas', monospace;
+        }
+        .card-patents {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-bottom: 6px;
         }
         .card-meta {
             display: flex;
@@ -331,6 +484,15 @@
             padding: 22px;
             box-shadow: var(--shadow);
         }
+        .modal .modal-researcher {
+            font-size: 0.9rem;
+            color: var(--meta-accent);
+            font-weight: 600;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
         .modal h2 {
             color: var(--accent);
             margin-bottom: 14px;
@@ -342,7 +504,54 @@
             display: flex;
             flex-wrap: wrap;
             gap: 5px;
+            margin-bottom: 10px;
+        }
+        .modal .modal-meta-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
             margin-bottom: 14px;
+        }
+        .modal .modal-patents {
+            margin-bottom: 14px;
+        }
+        .modal .modal-patents-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--patent-accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+        .modal .modal-patent-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .modal .modal-preview {
+            margin-bottom: 14px;
+            padding: 12px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+        }
+        .modal .modal-preview-label {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+        .modal .modal-preview-text {
+            font-size: 0.82rem;
+            color: var(--text);
+            line-height: 1.5;
+            white-space: pre-wrap;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
         .modal .modal-meta {
             display: flex;
@@ -502,17 +711,32 @@
             padding: 40px;
             color: var(--text-dim);
         }
+        /* ─── Mobile responsive ─── */
         @media (max-width: 768px) {
             .hero { padding: 20px 16px 14px; }
             .hero h1 { font-size: 1.3rem; }
+            .sidebar-toggle {
+                display: flex;
+            }
             .main-container {
                 flex-direction: column;
                 padding: 12px;
                 gap: 12px;
             }
-            .sidebar { width: 100%; }
+            .sidebar {
+                width: 100%;
+                display: none;
+            }
+            .sidebar.open {
+                display: block;
+            }
+            .meta-category-list {
+                max-height: 35vh;
+            }
             .category-list {
-                max-height: none;
+                max-height: 35vh;
+            }
+            .category-list {
                 flex-direction: row;
                 flex-wrap: wrap;
                 gap: 5px;
@@ -522,6 +746,8 @@
             .search-bar { flex-direction: column; gap: 8px; padding: 0 12px; }
             .stats { text-align: center; }
             .btn { width: 100%; }
+            .modal { max-height: 90vh; padding: 16px; }
+            .modal h2 { font-size: 1rem; }
         }
     </style>
 </head>
@@ -529,7 +755,7 @@
     <!-- Hero: Aetherforce front and center -->
     <div class="hero">
         <h1>Aetherforce Knowledge Vault</h1>
-        <p>Explore 5,810 primary source documents — patents, papers & research — powering Aetherforce's living science archive. Each document connects to Aetherforce articles, shop, and community resources.</p>
+        <p>Explore 5,811 primary source documents — patents, papers & research — powering Aetherforce's living science archive. Each document connects to Aetherforce articles, shop, and community resources.</p>
         <a class="hero-af-link" href="https://www.aetherforce.energy" target="_blank">Visit Aetherforce →</a>
     </div>
 
@@ -540,8 +766,15 @@
         <span class="stats" id="stats">Loading...</span>
     </div>
 
+    <!-- Mobile sidebar toggle -->
+    <button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">
+        <span>☰</span> Filters & Categories
+    </button>
+
     <div class="main-container">
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
+            <div class="meta-section-label">Meta-Categories</div>
+            <div class="meta-category-list" id="metaCategoryList"></div>
             <h2>Categories</h2>
             <div class="category-list" id="categoryList"></div>
             <div class="filter-section">
@@ -558,6 +791,7 @@
         <div class="content">
             <div class="results-header">
                 <span class="results-count" id="resultsCount"></span>
+                <div class="active-filter-display" id="activeFilterDisplay"></div>
             </div>
             <div class="results-grid" id="results"></div>
             <div class="loading" id="loading">Loading index...</div>
@@ -585,11 +819,31 @@
     <script>
         let allData = [];
         let activeCategory = null;
+        let activeMetaCategory = null;
         let searchTerm = '';
         let typeFilter = 'all';
         let visibleCount = 0;
         const PAGE_SIZE = 60;
         let currentPage = 0;
+
+        // ─── Meta-category to sub-category mapping ───
+        const metaCategoryMap = {
+            "Aether, Light & Electricity": ["Aether Physics", "Light", "Magnetism", "Life Force"],
+            "Plasma, Torsion & Cosmology": ["Electric Universe", "Time", "Gravity"],
+            "Goethean & Anthroposophical Science": ["Goethean Science", "Natural Philosophy", "Language"],
+            "Radionics, Radiesthesia & Shape Power": ["Psychotronics"],
+            "Optics & Colour Therapy": ["Light", "Crystals"],
+            "Biological & Morphogenetic Science": ["Biology", "Health Medicine", "Consciousness"],
+            "Water Structure & Memory": ["Water", "Environmental"],
+            "Sacred & Projective Geometry": ["Geometry", "Architecture", "Construction"],
+            "Regenerative Agriculture": ["Agriculture"],
+            "Material Sciences & Alchemy": ["Chemistry", "Material Sciences"],
+            "Transhumanism & Psychotronic Warfare": ["Transhumanism", "Suppression"],
+            "Energy & Transportation": ["Energy Generation", "Renewable Energy", "Transportation"],
+            "Challenges to the Standard Model": ["Fallacies of Standard Model", "Borderland Research"],
+            "Harmonics, Rhythms & Cycles": ["Geometry", "Time", "Crystals"],
+            "Weather & Geo-Engineering": ["Environmental", "Transhumanism"]
+        };
 
         // ─── Aetherforce live content mapping ───
         const AF_BASE = 'https://www.aetherforce.energy';
@@ -847,14 +1101,58 @@
 
         async function loadIndex() {
             try {
-                const response = await fetch('index.json');
+                const response = await fetch('./index.json');
                 allData = await response.json();
                 document.getElementById('loading').style.display = 'none';
+                buildMetaCategoryList();
                 buildCategoryList();
                 renderResults();
             } catch (e) {
                 document.getElementById('loading').textContent = 'Error loading index: ' + e.message;
             }
+        }
+
+        function buildMetaCategoryList() {
+            const metaCounts = {};
+            allData.forEach(item => {
+                (item.meta_categories || []).forEach(mc => {
+                    if (mc) metaCounts[mc] = (metaCounts[mc] || 0) + 1;
+                });
+            });
+            const sorted = Object.entries(metaCounts).sort((a, b) => b[1] - a[1]);
+            const list = document.getElementById('metaCategoryList');
+            list.innerHTML = '';
+            sorted.forEach(([mc, count]) => {
+                const div = document.createElement('div');
+                div.className = 'meta-category-item';
+                div.dataset.metaCategory = mc;
+                div.innerHTML = `<span>${escapeHtml(mc)}</span><span class="meta-category-count">${count}</span>`;
+                div.onclick = () => toggleMetaCategory(mc);
+                list.appendChild(div);
+            });
+        }
+
+        function toggleMetaCategory(mc) {
+            activeMetaCategory = activeMetaCategory === mc ? null : mc;
+            document.querySelectorAll('.meta-category-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.metaCategory === activeMetaCategory);
+            });
+            // When a meta-category is selected, dim non-matching categories
+            updateCategoryListDimming();
+            currentPage = 0;
+            renderResults();
+            updateClearFilters();
+        }
+
+        function updateCategoryListDimming() {
+            if (!activeMetaCategory) {
+                document.querySelectorAll('.category-item').forEach(el => el.classList.remove('dimmed'));
+                return;
+            }
+            const subCats = metaCategoryMap[activeMetaCategory] || [];
+            document.querySelectorAll('.category-item').forEach(el => {
+                el.classList.toggle('dimmed', !subCats.includes(el.dataset.category));
+            });
         }
 
         function buildCategoryList() {
@@ -871,7 +1169,7 @@
                 const div = document.createElement('div');
                 div.className = 'category-item';
                 div.dataset.category = cat;
-                div.innerHTML = `<span>${cat}</span><span class="category-count">${count}</span>`;
+                div.innerHTML = `<span>${escapeHtml(cat)}</span><span class="category-count">${count}</span>`;
                 div.onclick = () => toggleCategory(cat);
                 list.appendChild(div);
             });
@@ -887,26 +1185,56 @@
             updateClearFilters();
         }
 
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+        }
+
         function clearAllFilters() {
             activeCategory = null;
+            activeMetaCategory = null;
             searchTerm = '';
             typeFilter = 'all';
             document.getElementById('search').value = '';
             document.getElementById('typeFilter').value = 'all';
             document.querySelectorAll('.category-item').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.meta-category-item').forEach(el => el.classList.remove('active'));
+            updateCategoryListDimming();
             currentPage = 0;
             renderResults();
             updateClearFilters();
         }
 
         function updateClearFilters() {
-            document.getElementById('clearFilters').style.display = (activeCategory || searchTerm || typeFilter !== 'all') ? 'block' : 'none';
+            document.getElementById('clearFilters').style.display = (activeCategory || activeMetaCategory || searchTerm || typeFilter !== 'all') ? 'block' : 'none';
+            // Build active filter chips
+            const chipContainer = document.getElementById('activeFilterDisplay');
+            chipContainer.innerHTML = '';
+            if (activeMetaCategory) {
+                const chip = document.createElement('span');
+                chip.className = 'active-filter-chip meta';
+                chip.innerHTML = `${escapeHtml(activeMetaCategory)} ✕`;
+                chip.onclick = () => toggleMetaCategory(activeMetaCategory);
+                chipContainer.appendChild(chip);
+            }
+            if (activeCategory) {
+                const chip = document.createElement('span');
+                chip.className = 'active-filter-chip';
+                chip.innerHTML = `${escapeHtml(activeCategory)} ✕`;
+                chip.onclick = () => toggleCategory(activeCategory);
+                chipContainer.appendChild(chip);
+            }
         }
 
         function getFiltered() {
             return allData.filter(item => {
                 if (typeFilter !== 'all' && item.type !== typeFilter) return false;
                 if (activeCategory && !(item.categories || []).includes(activeCategory)) return false;
+                if (activeMetaCategory) {
+                    const subCats = metaCategoryMap[activeMetaCategory] || [];
+                    const itemCats = item.categories || [];
+                    // Document must have at least one sub-category from the meta-category
+                    if (!subCats.some(sc => itemCats.includes(sc))) return false;
+                }
                 if (searchTerm) {
                     const s = searchTerm.toLowerCase();
                     const haystack = (
@@ -914,7 +1242,9 @@
                         (item.filename || '') + ' ' +
                         (item.primary_person || '') + ' ' +
                         (item.patent_numbers || []).join(' ') + ' ' +
-                        (item.categories || []).join(' ')
+                        (item.categories || []).join(' ') + ' ' +
+                        (item.meta_categories || []).join(' ') + ' ' +
+                        (item.content_preview || '')
                     ).toLowerCase();
                     if (!haystack.includes(s)) return false;
                 }
@@ -942,15 +1272,23 @@
             results.innerHTML = shown.map(item => {
                 const link = getBestUrl(item);
                 const hasAF = hasAetherforceContent(item.categories);
+                const cats = (item.categories || []).slice(0, 4);
+                const metaCats = (item.meta_categories || []).slice(0, 2);
+                const patents = (item.patent_numbers || []).slice(0, 3);
+                const preview = item.content_preview || '';
+                const researcher = item.primary_person || '';
+
                 return `
                 <div class="card" onclick="showDetail(${item.id})">
+                    ${researcher ? `<div class="card-researcher">👤 ${escapeHtml(researcher)}</div>` : ''}
                     <div class="card-title">${escapeHtml(item.title || item.filename)}</div>
+                    ${preview ? `<div class="card-preview">${escapeHtml(preview.substring(0, 150))}${preview.length > 150 ? '…' : ''}</div>` : ''}
                     <div class="card-categories">
-                        ${(item.categories || []).slice(0, 4).map(c => `<span class="category-tag">${escapeHtml(c)}</span>`).join('')}
+                        ${metaCats.map(mc => `<span class="meta-tag">${escapeHtml(mc)}</span>`).join('')}
+                        ${cats.map(c => `<span class="category-tag">${escapeHtml(c)}</span>`).join('')}
                     </div>
+                    ${patents.length > 0 ? `<div class="card-patents">${patents.map(p => `<span class="patent-tag">${escapeHtml(p)}</span>`).join('')}${item.patent_numbers.length > 3 ? `<span class="patent-tag">+${item.patent_numbers.length - 3}</span>` : ''}</div>` : ''}
                     <div class="card-meta">
-                        ${item.primary_person ? `<span>👤 ${escapeHtml(item.primary_person)}</span>` : ''}
-                        ${(item.patent_numbers && item.patent_numbers.length > 0) ? `<span>📋 ${escapeHtml(item.patent_numbers[0])}${item.patent_numbers.length > 1 ? ' +' + (item.patent_numbers.length - 1) : ''}</span>` : ''}
                         ${item.type === 'media' ? '<span>🎬 media</span>' : ''}
                         <span>📦 ${formatSize(item.size_bytes)}</span>
                     </div>
@@ -987,6 +1325,10 @@
 
             const link = getBestUrl(item);
             const afLinks = getAetherforceLinks(item.categories);
+            const metaCats = item.meta_categories || [];
+            const patents = item.patent_numbers || [];
+            const preview = item.content_preview || '';
+            const researcher = item.primary_person || '';
 
             // Build Aetherforce section FIRST — it's the star
             let afHtml = '';
@@ -1038,16 +1380,44 @@
                 ${item.source_url ? `<div style="margin-top:6px; font-size:0.72rem; color:var(--text-dim);">${escapeHtml(item.source_url)}</div>` : ''}
             </div>`;
 
+            // Meta-categories section
+            const metaCatsHtml = metaCats.length > 0
+                ? `<div class="modal-meta-categories">${metaCats.map(mc => `<span class="meta-tag">${escapeHtml(mc)}</span>`).join('')}</div>`
+                : '';
+
+            // Patents section
+            const patentsHtml = patents.length > 0
+                ? `<div class="modal-patents">
+                    <div class="modal-patents-label">📋 Patent Numbers</div>
+                    <div class="modal-patent-tags">${patents.map(p => `<span class="patent-tag">${escapeHtml(p)}</span>`).join('')}</div>
+                </div>`
+                : '';
+
+            // Content preview section
+            const previewHtml = preview
+                ? `<div class="modal-preview">
+                    <div class="modal-preview-label">Content Preview</div>
+                    <div class="modal-preview-text">${escapeHtml(preview)}</div>
+                </div>`
+                : '';
+
+            // Researcher prominent display
+            const researcherHtml = researcher
+                ? `<div class="modal-researcher">👤 ${escapeHtml(researcher)}</div>`
+                : '';
+
             const modal = document.getElementById('modal');
             modal.innerHTML = `
                 <span class="close-btn" onclick="closeModal()">&times;</span>
+                ${researcherHtml}
                 <h2>${escapeHtml(item.title || item.filename)}</h2>
                 <div class="modal-categories">
                     ${(item.categories || []).map(c => `<span class="category-tag">${escapeHtml(c)}</span>`).join('')}
                 </div>
+                ${metaCatsHtml}
+                ${patentsHtml}
+                ${previewHtml}
                 <div class="modal-meta">
-                    ${item.primary_person ? `<div><strong>Researcher/Inventor:</strong> ${escapeHtml(item.primary_person)}</div>` : ''}
-                    ${(item.patent_numbers && item.patent_numbers.length > 0) ? `<div><strong>Patent Numbers:</strong> ${(item.patent_numbers || []).map(p => escapeHtml(p)).join(', ')}</div>` : ''}
                     <div><strong>File:</strong> ${escapeHtml(item.filename)}</div>
                     <div><strong>Size:</strong> ${formatSize(item.size_bytes)}</div>
                     <div><strong>Type:</strong> ${item.type}</div>
@@ -1065,7 +1435,7 @@
 
         function escapeHtml(str) {
             if (!str) return '';
-            return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
         }
 
         function formatSize(bytes) {
