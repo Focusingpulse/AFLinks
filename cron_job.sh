@@ -5,25 +5,41 @@
 set -uo pipefail
 
 REPO=/root/workspace/AFLinks
-FAMILY=/root/workspace/cron-coordination/family.py
 cd "$REPO"
+
+# Locate the shared coordination repo (attached shared memory). Falls back to
+# the old local path if the shared mount isn't present on this machine.
+FAMILY=""
+for cand in \
+  "$MEMORY_DIR/../cron-coordination/family.py" \
+  /root/workspace/cron-coordination/family.py \
+  /root/workspace/.letta/agents/agent-b73ac550-5671-471e-b3e1-721f948ea063/cron-coordination/family.py; do
+  if [ -f "$cand" ]; then FAMILY="$cand"; break; fi
+done
+if [ -z "$FAMILY" ]; then
+  echo "WARN: cron-coordination shared repo not found; running uncoordinated"
+  FAMILY=/root/workspace/cron-coordination/family.py
+  [ -f "$FAMILY" ] || FAMILY=""
+fi
 
 # --- Family gate: respect shared budget ---
 echo "[0] Family check"
-if ! python3 "$FAMILY" run-gate --member aflinks --essential 2>/dev/null; then
-  # fallback: read ledger directly via small inline check
-  MODE=$(python3 -c "import json;d=json.load(open('${FAMILY%/*}/cron_ledger.json'));print(d.get('family_budget',{}).get('mode','high'))" 2>/dev/null || echo high)
-  if [ "$MODE" = "low" ]; then
-    echo "  Family budget LOW — aflinks skipping non-essential batch this cycle"
-    python3 "$FAMILY" check-in --member aflinks --status skipped --summary "budget low, skipped" 2>/dev/null || true
-    exit 0
+if [ -n "$FAMILY" ]; then
+  if ! python3 "$FAMILY" run-gate --member aflinks --essential 2>/dev/null; then
+    # fallback: read ledger directly via small inline check
+    MODE=$(python3 -c "import json;d=json.load(open('${FAMILY%/*}/cron_ledger.json'));print(d.get('family_budget',{}).get('mode','high'))" 2>/dev/null || echo high)
+    if [ "$MODE" = "low" ]; then
+      echo "  Family budget LOW — aflinks skipping non-essential batch this cycle"
+      python3 "$FAMILY" check-in --member aflinks --status skipped --summary "budget low, skipped" 2>/dev/null || true
+      exit 0
+    fi
   fi
-fi
 
-# --- Watchdog: note any stale siblings ---
-STALE=$(python3 "$FAMILY" staleness 2>/dev/null || echo "")
-if [ -n "$STALE" ]; then
-  echo "  Watchdog: $STALE"
+  # --- Watchdog: note any stale siblings ---
+  STALE=$(python3 "$FAMILY" staleness 2>/dev/null || echo "")
+  if [ -n "$STALE" ]; then
+    echo "  Watchdog: $STALE"
+  fi
 fi
 
 echo "[1/5] Pull latest"
@@ -54,8 +70,10 @@ Co-Authored-By: Letta Code <noreply@letta.com>"
 fi
 
 echo "[5/5] Family check-in"
-python3 "$FAMILY" check-in --member aflinks --status ok --summary "$SUMMARY" --entries-count "$ENTRIES" 2>/dev/null || true
-python3 "$FAMILY" archive-growth --entries "$ENTRIES" 2>/dev/null || true
+if [ -n "$FAMILY" ]; then
+  python3 "$FAMILY" check-in --member aflinks --status ok --summary "$SUMMARY" --entries-count "$ENTRIES" 2>/dev/null || true
+  python3 "$FAMILY" archive-growth --entries "$ENTRIES" 2>/dev/null || true
+fi
 
 # --- Completion check ---
 if [ -f ALL_SITES_COMPLETE.txt ]; then
