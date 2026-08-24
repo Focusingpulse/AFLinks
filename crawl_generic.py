@@ -4,6 +4,7 @@ Generic crawler for multiple site types:
 - apache_dir: Apache directory listings (like tuks.nl)
 - html_link_scrape: HTML pages with links to PDFs/docs
 - api_listing: Structured listing pages (like viXra.org)
+- wayback_scrape: Scrape archived pages from Wayback Machine (for dead sites)
 
 Usage: python crawl_generic.py <site_name>
 Reads site_queue.json for site config, outputs <site_name>_filelist.json
@@ -192,6 +193,63 @@ def crawl_vixra(url, visited, files, base_url, max_pages=50):
         
         time.sleep(0.5)
 
+def crawl_wayback(url, visited, files, base_url, original_domain, depth=0, max_depth=4):
+    """Scrape a dead site via Wayback Machine archives."""
+    if url in visited or depth > max_depth:
+        return
+    visited.add(url)
+    print(f"  WAYBACK: {url}", flush=True)
+    
+    data = fetch_url(url, timeout=20)
+    if data is None:
+        return
+    
+    text = data.decode('utf-8', errors='replace')
+    
+    # Remove Wayback Machine toolbar/rewriting to find original links
+    # Wayback rewrites links like: /web/20180101/http://site.com/page
+    # We want to find the original URLs and reconstruct them
+    
+    doc_extensions = r'\.(?:pdf|PDF|doc|DOC|rtf|RTF|txt|TXT|mp3|MP3|mp4|MP4|zip|ZIP|epub|EPUB)'
+    
+    # Find document links (PDFs, docs, etc.)
+    # Wayback-rewritten links contain the original URL
+    for m in re.finditer(r'href=["\'](?:https?://web\.archive\.org/web/\d+/)?(https?://[^"\']+)' + doc_extensions + r')["\']', text, re.I):
+        full_url = m.group(1)
+        # Strip wayback prefix if present
+        if 'web.archive.org' in full_url:
+            # Extract original URL from wayback format
+            orig_match = re.search(r'web/\d+/(https?://.+)', full_url)
+            if orig_match:
+                full_url = orig_match.group(1)
+        if original_domain in full_url:
+            filename = full_url.split('/')[-1]
+            # Clean wayback artifacts from filename
+            filename = re.sub(r'\.html?$', '', filename)
+            files.append({"url": full_url, "filename": filename, "wayback": True})
+    
+    # Also look for links to other pages on the same site (for recursive crawling)
+    if depth < max_depth:
+        for m in re.finditer(r'href=["\'](?:https?://web\.archive\.org/web/(\d+)/)?(https?://[^"\']+)["\']', text, re.I):
+            link = m.group(2)
+            # Only follow links to the original domain
+            if original_domain not in link:
+                continue
+            # Skip external links, anchors, etc.
+            if link.startswith('#') or link.startswith('javascript:'):
+                continue
+            
+            # Reconstruct as a Wayback URL
+            timestamp = m.group(1) or ''
+            if timestamp:
+                wayback_url = f"https://web.archive.org/web/{timestamp}/{link}"
+            else:
+                wayback_url = f"https://web.archive.org/web/2018/{link}"
+            
+            if wayback_url not in visited:
+                time.sleep(0.3)
+                crawl_wayback(wayback_url, visited, files, base_url, original_domain, depth + 1, max_depth)
+
 def main():
     if len(sys.argv) < 2:
         print("Usage: python crawl_generic.py <site_name>")
@@ -225,6 +283,15 @@ def main():
     visited = set()
     files = []
     
+    # For wayback scraping, extract the original domain
+    original_domain = ""
+    if crawl_type == "wayback_scrape":
+        # base_url is like https://web.archive.org/web/2018/http://borderlands.de
+        domain_match = re.search(r'web/\d+/(https?://(.+?))', base_url)
+        if domain_match:
+            original_domain = domain_match.group(2)
+            print(f"Original domain: {original_domain}")
+    
     for path in crawl_paths:
         url = base_url + path
         if crawl_type == "apache_dir":
@@ -233,6 +300,8 @@ def main():
             crawl_html_links(url, visited, files, base_url)
         elif crawl_type == "api_listing":
             crawl_vixra(url, visited, files, base_url)
+        elif crawl_type == "wayback_scrape":
+            crawl_wayback(url, visited, files, base_url, original_domain)
         time.sleep(0.3)
     
     # Deduplicate by URL

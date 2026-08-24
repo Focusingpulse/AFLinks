@@ -103,6 +103,22 @@
       "crawl_type": "html_link_scrape",
       "crawl_paths": ["/"],
       "notes": "M.E.R.L.I.B. - Magnetic Energy Research Library and Information Bureau"
+    },
+    {
+      "name": "borderlands.de",
+      "status": "pending",
+      "base_url": "https://web.archive.org/web/2018/http://borderlands.de",
+      "crawl_type": "wayback_scrape",
+      "crawl_paths": ["/"],
+      "notes": "Borderland Sciences Research Foundation - major fringe science archive. Site is down, scraping from Wayback Machine. Look for PDF/article links in archived pages."
+    },
+    {
+      "name": "keychests.com",
+      "status": "pending",
+      "base_url": "https://web.archive.org/web/2017/http://www.keychests.com",
+      "crawl_type": "wayback_scrape",
+      "crawl_paths": ["/browse", "/files-a/", "/files-b/", "/files-c/", "/files-d/", "/files-e/", "/files-0/", "/files-1/", "/files-2/", "/files-3/", "/files-4/", "/files-5/", "/files-6/", "/files-7/", "/files-8/", "/files-9/"],
+      "notes": "Old file-sharing site used by Aetherforce community. Domain is dead (parked on HugeDomains). Scraping Wayback Machine for file listings. Actual downloads may be dead but we can catalog what was there."
     }
   ]
 }
