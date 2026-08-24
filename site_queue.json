@@ -2,7 +2,7 @@
   "sites": [
     {
       "name": "tuks.nl",
-      "status": "in_progress",
+      "status": "site_down",
       "base_url": "http://www.tuks.nl",
       "crawl_type": "apache_dir",
       "crawl_paths": [
@@ -14,13 +14,14 @@
     },
     {
       "name": "lenr-canr.org",
-      "status": "pending",
+      "status": "crawled",
       "base_url": "https://lenr-canr.org",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "LENR/cold fusion document archive ~1000+ docs. Look for PDF links in article listings."
+      "notes": "LENR/cold fusion document archive ~1000+ docs. Look for PDF links in article listings.",
+      "file_count": 24
     },
     {
       "name": "viXra.org",

@@ -66,8 +66,8 @@ def main():
     for s in queue["sites"]:
         paths = get_paths(s["name"])
         
-        # Skip complete sites
-        if os.path.exists(paths["complete"]) or s["status"] == "complete":
+        # Skip complete or down sites
+        if os.path.exists(paths["complete"]) or s["status"] in ("complete", "site_down"):
             continue
         
         # Check if tuks.nl is done (special case - it was started separately)
