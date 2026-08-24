@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Aetherforce Vault</title>
+<style>
+:root {
+  --bg: #0c0a08;
+  --bg2: #1a1410;
+  --stone: #2a2218;
+  --stone-hi: #3a3024;
+  --gold: #c9a84c;
+  --gold-bright: #e8c860;
+  --gold-dim: #8a7430;
+  --copper: #b87333;
+  --bronze: #8c6a3e;
+  --text: #d4c8a8;
+  --text-dim: #8a7e60;
+  --text-faint: #5a4e38;
+  --glow: rgba(201,168,76,0.25);
+  --glow-strong: rgba(201,168,76,0.5);
+  --locked: #3a2a1a;
+  --transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(184,115,51,0.04) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 60%, rgba(140,106,62,0.03) 0%, transparent 40%),
+    var(--bg);
+  color: var(--text);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* === Stone texture overlay === */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.02) 3px, rgba(0,0,0,0.02) 6px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* === Header === */
+header {
+  text-align: center;
+  padding: 28px 16px 8px;
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--glow), 0 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+}
+header h1 .ornament {
+  color: var(--gold-dim);
+  font-size: 0.8rem;
+  vertical-align: middle;
+  margin: 0 8px;
+}
+header p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+header .af-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 18px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 2px;
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+}
+header .af-link:hover {
+  background: var(--gold-dim);
+  color: var(--bg);
+  box-shadow: 0 0 15px var(--glow);
+}
+
+/* === The Key (Dial) === */
+.key-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 8px;
+  position: relative;
+  z-index: 1;
+}
+.key-dial {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 35%, var(--stone-hi), var(--stone) 40%, var(--bg2) 80%);
+  border: 3px solid var(--bronze);
+  box-shadow:
+    0 0 40px rgba(0,0,0,0.6),
+    inset 0 0 30px rgba(0,0,0,0.4),
+    inset 0 0 10px var(--gold-dim);
+  cursor: grab;
+  transition: transform var(--transition);
+  user-select: none;
+}
+.key-dial:active { cursor: grabbing; }
+.key-dial::before {
+  content: '';
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px; height: 80px;
+  border-radius: 50%;
+  border: 2px solid var(--gold-dim);
+  background: radial-gradient(circle, var(--stone), var(--bg2));
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
+.key-notch {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Palatino Linotype', Georgia, serif;
+  background: var(--stone);
+  border: 2px solid var(--bronze);
+  color: var(--text-dim);
+  transition: all var(--transition);
+  cursor: pointer;
+  z-index: 2;
+}
+.key-notch:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+  box-shadow: 0 0 10px var(--glow);
+}
+.key-notch.active {
+  background: linear-gradient(135deg, var(--gold-bright), var(--gold), var(--gold-dim));
+  color: var(--bg);
+  border-color: var(--gold-bright);
+  box-shadow: 0 0 20px var(--glow-strong), inset 0 0 8px rgba(255,255,255,0.2);
+  transform: scale(1.2);
+}
+.key-center {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+  z-index: 1;
+}
+.key-center .lens-name {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.key-center .lens-num {
+  font-size: 2.8rem;
+  color: var(--gold);
+  font-weight: bold;
+  line-height: 1;
+  text-shadow: 0 0 15px var(--glow);
+}
+
+/* === Lens description (scroll plaque) === */
+.plaque {
+  text-align: center;
+  padding: 8px 20px 16px;
+  max-width: 580px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.plaque h2 {
+  font-size: 1.15rem;
+  color: var(--gold);
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.plaque p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  line-height: 1.6;
+  font-style: italic;
+}
+
+/* === Vesica compare mode === */
+.vesica-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 0;
+  position: relative;
+  z-index: 1;
+}
+.vesica-container.show { display: flex; }
+.vesica-select {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding: 4px 0 12px;
+  flex-wrap: wrap;
+}
+.vesica-select select {
+  background: var(--stone);
+  color: var(--text);
+  border: 1px solid var(--bronze);
+  padding: 6px 10px;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.vesica-select select:focus { outline: none; border-color: var(--gold); }
+.vesica-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 140px;
+}
+.vesica-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--gold-dim);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--gold);
+  text-align: center;
+  background: radial-gradient(circle, rgba(201,168,76,0.04), transparent);
+  position: relative;
+  z-index: 1;
+}
+.vesica-circle.right { margin-left: -50px; }
+.vesica-overlap {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: var(--gold-bright);
+  text-align: center;
+  z-index: 0;
+  width: 100px;
+  font-style: italic;
+}
+
+/* === Focus mode === */
+.focus-mode {
+  display: none;
+  padding: 16px 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.focus-mode.show { display: block; }
+.focus-mode .focus-select {
+  display: block;
+  margin: 0 auto 16px;
+  background: var(--stone);
+  color: var(--text);
+  border: 1px solid var(--bronze);
+  padding: 10px 16px;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 0.88rem;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+}
+.focus-mode .focus-select:focus { outline: none; border-color: var(--gold); }
+.focus-scroll {
+  background: linear-gradient(135deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.focus-scroll::before {
+  content: '\1F4DC';
+  position: absolute;
+  top: 8px; right: 12px;
+  font-size: 1.2rem;
+  opacity: 0.3;
+}
+.focus-scroll h3 {
+  font-size: 0.95rem;
+  color: var(--gold);
+  font-weight: normal;
+  margin-bottom: 6px;
+  padding-right: 30px;
+}
+.focus-scroll p {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+.focus-scroll .meta {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  margin-top: 6px;
+}
+
+/* === Chests grid === */
+.vault-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Group header */
+.group-header {
+  grid-column: 1 / -1;
+  padding: 14px 0 6px;
+  margin-top: 8px;
+  border-bottom: 1px solid var(--bronze);
+  position: relative;
+}
+.group-header h3 {
+  font-size: 1.05rem;
+  color: var(--gold);
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.group-header .group-icon {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+.group-header.obscured-header {
+  border-bottom-color: var(--text-faint);
+}
+.group-header.obscured-header h3 {
+  color: var(--text-faint);
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: 0.85rem;
+}
+
+/* Chest card */
+.chest {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-radius: 6px;
+  padding: 16px;
+  transition: all var(--transition);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.chest::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+.chest.unlocked {
+  border-color: var(--gold-dim);
+  box-shadow: 0 0 15px rgba(201,168,76,0.08);
+  opacity: 1;
+  filter: none;
+}
+.chest.unlocked::before { opacity: 1; }
+.chest.unlocked:hover {
+  border-color: var(--gold);
+  box-shadow: 0 0 25px var(--glow);
+  transform: translateY(-2px);
+}
+.chest.locked {
+  opacity: 0.35;
+  filter: blur(2px) grayscale(0.7);
+  transform: scale(0.97);
+}
+.chest.locked:hover {
+  opacity: 0.5;
+  filter: blur(1px) grayscale(0.4);
+}
+.chest.partial {
+  opacity: 0.65;
+  filter: blur(0.5px);
+}
+
+/* Chest content */
+.chest-icon {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+  display: block;
+  transition: all var(--transition);
+}
+.chest.unlocked .chest-icon { text-shadow: 0 0 10px var(--glow); }
+.chest.locked .chest-icon { filter: grayscale(1) brightness(0.5); }
+
+.chest h4 {
+  font-size: 0.92rem;
+  color: var(--text);
+  margin-bottom: 4px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+.chest.locked h4 { color: var(--text-faint); }
+
+.chest .count {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+.chest.locked .count { color: var(--text-faint); }
+
+.chest .lens-label {
+  font-size: 0.72rem;
+  color: var(--gold);
+  margin-top: 8px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+.chest.locked .lens-label { color: var(--text-faint); }
+.chest.partial .lens-label { color: var(--text-dim); }
+
+.chest .lock-state {
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  margin-top: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.chest.unlocked .lock-state { color: var(--gold-dim); }
+
+/* === Stats === */
+.stats {
+  text-align: center;
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  padding: 12px 0 20px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 1px;
+}
+.stats span { color: var(--gold); }
+
+/* === Mobile === */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.2rem; letter-spacing: 2px; }
+  .key-dial { width: 170px; height: 170px; }
+  .key-notch { width: 32px; height: 32px; font-size: 0.95rem; }
+  .key-center .lens-num { font-size: 2.2rem; }
+  .vault-grid { grid-template-columns: 1fr; padding: 12px; }
+  .vesica-circle { width: 110px; height: 110px; font-size: 0.65rem; }
+  .vesica-circle.right { margin-left: -35px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span class="ornament">&#10086;</span> The Aetherforce Vault <span class="ornament">&#10086;</span></h1>
+  <p>The archive never moves. The eye moves.</p>
+  <a class="af-link" href="https://www.aetherforce.energy" target="_blank">Enter Aetherforce &#8594;</a>
+</header>
+
+<!-- The Key -->
+<div class="key-container">
+  <div class="key-dial" id="dial">
+    <div class="key-center">
+      <div class="lens-name" id="lensName">FOCUS</div>
+      <div class="lens-num" id="lensNum">1</div>
+    </div>
+  </div>
+</div>
+
+<div class="plaque" id="plaque">
+  <h2 id="lensTitle">Sealed Focus</h2>
+  <p id="lensBody">One key. One chest. The vault collapses to a single stream — read close, no other noise.</p>
+</div>
+
+<!-- Vesica compare mode -->
+<div class="vesica-container" id="vesicaContainer">
+  <div class="vesica-select">
+    <select id="vesicaLeft"></select>
+    <select id="vesicaRight"></select>
+  </div>
+  <div class="vesica-visual">
+    <div class="vesica-circle" id="vesicaLeftLabel">&#8212;</div>
+    <div class="vesica-circle right" id="vesicaRightLabel">&#8212;</div>
+    <div class="vesica-overlap" id="vesicaOverlap">the seam between</div>
+  </div>
+</div>
+
+<!-- Focus mode -->
+<div class="focus-mode" id="focusMode">
+  <select class="focus-select" id="focusSelect"></select>
+  <div id="focusResults"></div>
+</div>
+
+<!-- Stats -->
+<div class="stats" id="stats">
+  <span id="statTotal">6,562</span> scrolls catalogued &middot; <span id="statVisible">23</span> chests visible
+</div>
+
+<!-- Chests -->
+<div class="vault-grid" id="vaultGrid"></div>
+
+<script>
+const META_CATEGORIES = [
+  { name: "Energy & Transportation", count: 2802 },
+  { name: "Aether, Light & Electricity", count: 1893 },
+  { name: "Biological & Morphogenetic Science", count: 1472 },
+  { name: "Material Sciences & Alchemy", count: 883 },
+  { name: "Water Structure & Memory", count: 868 },
+  { name: "Plasma, Torsion & Cosmology", count: 715 },
+  { name: "Challenges to the Standard Model", count: 714 },
+  { name: "Weather & Geo-Engineering", count: 713 },
+  { name: "Transhumanism & Psychotronic Warfare", count: 625 },
+  { name: "Alternative Energy Technologies", count: 611 },
+  { name: "Patents & Inventions", count: 474 },
+  { name: "Harmonics, Rhythms & Cycles", count: 473 },
+  { name: "Optics & Colour Therapy", count: 403 },
+  { name: "Electromagnetic Theory", count: 338 },
+  { name: "Geopolitics & Hidden History", count: 306 },
+  { name: "Sacred & Projective Geometry", count: 271 },
+  { name: "Regenerative Agriculture", count: 259 },
+  { name: "Goethean & Anthroposophical Science", count: 136 },
+  { name: "Reference & Technical Data", count: 86 },
+  { name: "Radionics, Radiesthesia & Shape Power", count: 57 },
+  { name: "Biology, Health & Medicine", count: 36 },
+  { name: "Environment & Climate", count: 35 },
+  { name: "Media & Interviews", count: 14 }
+];
+
+const LENSES = {
+  1: {
+    name: "FOCUS",
+    title: "Sealed Focus",
+    body: "One key. One chest. The vault collapses to a single stream — read close, no other noise. Pick a chest and open it alone.",
+    type: "focus"
+  },
+  2: {
+    name: "COMPARE",
+    title: "The Vesica — Two Keys",
+    body: "Two chests overlap. Where they cross, the seam reveals scrolls that live in both worlds. Choose two and see what emerges between them.",
+    type: "vesica"
+  },
+  3: {
+    name: "MOTION",
+    title: "The Three Movements",
+    body: "Origin \u2192 Process \u2192 Finish. The smallest key that still tells a story. Everything is either a spark, a working, or a record.",
+    type: "groups",
+    groups: [
+      { label: "Origin \u2014 The Spark", icon: "\u269C", cats: ["Challenges to the Standard Model", "Geopolitics & Hidden History", "Goethean & Anthroposophical Science", "Media & Interviews"] },
+      { label: "Process \u2014 The Working", icon: "\u2692", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory", "Plasma, Torsion & Cosmology", "Patents & Inventions", "Material Sciences & Alchemy", "Harmonics, Rhythms & Cycles"] },
+      { label: "Finish \u2014 The Record", icon: "\u270E", cats: ["Biological & Morphogenetic Science", "Water Structure & Memory", "Weather & Geo-Engineering", "Optics & Colour Therapy", "Sacred & Projective Geometry", "Regenerative Agriculture", "Biology, Health & Medicine", "Environment & Climate", "Reference & Technical Data", "Radionics, Radiesthesia & Shape Power", "Transhumanism & Psychotronic Warfare"] }
+    ]
+  },
+  4: {
+    name: "ELEMENTS",
+    title: "The Four Elements",
+    body: "Earth, Water, Air, Fire \u2014 the classical cut. The simplest key that still holds a shape. Scrolls that fit no element stay locked in the dark.",
+    type: "groups",
+    groups: [
+      { label: "Earth \u2014 Material & Structure", icon: "\u26B0", cats: ["Material Sciences & Alchemy", "Regenerative Agriculture", "Geopolitics & Hidden History", "Reference & Technical Data", "Environment & Climate"] },
+      { label: "Water \u2014 Flow & Memory", icon: "\u2652", cats: ["Water Structure & Memory", "Biology, Health & Medicine", "Biological & Morphogenetic Science", "Weather & Geo-Engineering"] },
+      { label: "Air \u2014 Thought & Pattern", icon: "\u2744", cats: ["Challenges to the Standard Model", "Harmonics, Rhythms & Cycles", "Sacred & Projective Geometry", "Goethean & Anthroposophical Science", "Optics & Colour Therapy", "Media & Interviews"] },
+      { label: "Fire \u2014 Energy & Transformation", icon: "\u2672", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory", "Plasma, Torsion & Cosmology", "Patents & Inventions", "Transhumanism & Psychotronic Warfare", "Radionics, Radiesthesia & Shape Power"] }
+    ]
+  },
+  5: {
+    name: "PHASES",
+    title: "The Five Phases (Chinese)",
+    body: "Wood, Fire, Earth, Metal, Water \u2014 the Chinese traditional cut. Each phase generates and destroys another. Scrolls shift meaning depending on which phase holds them.",
+    type: "groups",
+    groups: [
+      { label: "Wood \u2014 Growth & Life", icon: "\u2618", cats: ["Biological & Morphogenetic Science", "Regenerative Agriculture", "Biology, Health & Medicine", "Goethean & Anthroposophical Science"] },
+      { label: "Fire \u2014 Energy & Combustion", icon: "\u2672", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Plasma, Torsion & Cosmology", "Transhumanism & Psychotronic Warfare"] },
+      { label: "Earth \u2014 Material & Ground", icon: "\u26B0", cats: ["Material Sciences & Alchemy", "Geopolitics & Hidden History", "Environment & Climate", "Weather & Geo-Engineering", "Reference & Technical Data"] },
+      { label: "Metal \u2014 Structure & Conduct", icon: "\u2692", cats: ["Electromagnetic Theory", "Aether, Light & Electricity", "Patents & Inventions", "Radionics, Radiesthesia & Shape Power", "Sacred & Projective Geometry"] },
+      { label: "Water \u2014 Flow & Memory", icon: "\u2652", cats: ["Water Structure & Memory", "Harmonics, Rhythms & Cycles", "Optics & Colour Therapy", "Challenges to the Standard Model", "Media & Interviews"] }
+    ]
+  },
+  6: {
+    name: "FACETS",
+    title: "The Six Directions",
+    body: "Six facets of the vault \u2014 like faces of a crystal. Each direction sees a different side of the same body. Nothing is hidden; everything is partial.",
+    type: "groups",
+    groups: [
+      { label: "North \u2014 Theory & Challenge", icon: "\u2735", cats: ["Challenges to the Standard Model", "Electromagnetic Theory", "Goethean & Anthroposophical Science"] },
+      { label: "South \u2014 Application & Device", icon: "\u2736", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Patents & Inventions", "Radionics, Radiesthesia & Shape Power"] },
+      { label: "East \u2014 Energy & Field", icon: "\u2737", cats: ["Aether, Light & Electricity", "Plasma, Torsion & Cosmology", "Harmonics, Rhythms & Cycles"] },
+      { label: "West \u2014 Life & Form", icon: "\u2738", cats: ["Biological & Morphogenetic Science", "Water Structure & Memory", "Biology, Health & Medicine", "Regenerative Agriculture"] },
+      { label: "Above \u2014 Vision & Pattern", icon: "\u2739", cats: ["Sacred & Projective Geometry", "Optics & Colour Therapy", "Media & Interviews"] },
+      { label: "Below \u2014 Ground & Record", icon: "\u273A", cats: ["Material Sciences & Alchemy", "Geopolitics & Hidden History", "Weather & Geo-Engineering", "Reference & Technical Data", "Environment & Climate", "Transhumanism & Psychotronic Warfare"] }
+    ]
+  },
+  7: {
+    name: "PLANES",
+    title: "The Seven Planes of Nature",
+    body: "Physical \u2192 Vitality \u2192 Emotional \u2192 Mental \u2192 Archetypal \u2192 Spiritual \u2192 Divine. The planes interpenetrate \u2014 they don't stack. Each scroll resonates across all seven, but each lens shows which plane it speaks from loudest.",
+    type: "groups",
+    groups: [
+      { label: "Physical \u2014 The Hardware", icon: "\u2692", cats: ["Patents & Inventions", "Material Sciences & Alchemy", "Reference & Technical Data"] },
+      { label: "Vitality \u2014 The Energy", icon: "\u26A1", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory"] },
+      { label: "Emotional \u2014 The Feeling", icon: "\u266F", cats: ["Water Structure & Memory", "Optics & Colour Therapy", "Harmonics, Rhythms & Cycles"] },
+      { label: "Mental \u2014 The Theory", icon: "\u2735", cats: ["Challenges to the Standard Model", "Plasma, Torsion & Cosmology", "Goethean & Anthroposophical Science"] },
+      { label: "Archetypal \u2014 The Pattern", icon: "\u2731", cats: ["Sacred & Projective Geometry", "Radionics, Radiesthesia & Shape Power", "Weather & Geo-Engineering"] },
+      { label: "Spiritual \u2014 The Living", icon: "\u2618", cats: ["Biological & Morphogenetic Science", "Biology, Health & Medicine", "Regenerative Agriculture", "Environment & Climate"] },
+      { label: "Divine \u2014 The Why", icon: "\u2727", cats: ["Geopolitics & Hidden History", "Transhumanism & Psychotronic Warfare", "Media & Interviews"] }
+    ]
+  }
+};
+
+const DIAL_POSITIONS = {
+  1: { angle: -90 },
+  2: { angle: -39 },
+  3: { angle: 13 },
+  4: { angle: 64 },
+  5: { angle: 116 },
+  6: { angle: 167 },
+  7: { angle: 219 }
+};
+
+let currentLens = 1;
+
+function buildDial() {
+  const dial = document.getElementById('dial');
+  const radius = 85;
+  for (let n = 1; n <= 7; n++) {
+    const rad = DIAL_POSITIONS[n].angle * Math.PI / 180;
+    const x = Math.cos(rad) * radius;
+    const y = Math.sin(rad) * radius;
+    const notch = document.createElement('div');
+    notch.className = 'key-notch';
+    notch.textContent = n;
+    notch.style.left = `calc(50% + ${x}px - 20px)`;
+    notch.style.top = `calc(50% + ${y}px - 20px)`;
+    notch.dataset.lens = n;
+    notch.addEventListener('click', () => setLens(n));
+    dial.appendChild(notch);
+  }
+}
+
+function setLens(n) {
+  currentLens = n;
+  const lens = LENSES[n];
+  document.querySelectorAll('.key-notch').forEach(el => {
+    el.classList.toggle('active', parseInt(el.dataset.lens) === n);
+  });
+  document.getElementById('lensName').textContent = lens.name;
+  document.getElementById('lensNum').textContent = n;
+  document.getElementById('lensTitle').textContent = lens.title;
+  document.getElementById('lensBody').textContent = lens.body;
+  document.getElementById('vesicaContainer').classList.toggle('show', n === 2);
+  document.getElementById('focusMode').classList.toggle('show', n === 1);
+  document.getElementById('vaultGrid').style.display = (n === 1) ? 'none' : 'grid';
+
+  if (n === 1) renderFocusMode();
+  else if (n === 2) renderVesicaMode();
+  else renderGroupMode(lens);
+}
+
+function renderGroupMode(lens) {
+  const grid = document.getElementById('vaultGrid');
+  grid.innerHTML = '';
+  const groupedCats = new Set();
+  lens.groups.forEach(g => g.cats.forEach(c => groupedCats.add(c)));
+
+  lens.groups.forEach((group, gi) => {
+    const header = document.createElement('div');
+    header.className = 'group-header';
+    header.innerHTML = `<h3><span class="group-icon">${group.icon}</span>${group.label}</h3>`;
+    grid.appendChild(header);
+
+    group.cats.forEach(catName => {
+      const cat = META_CATEGORIES.find(c => c.name === catName);
+      if (cat) grid.appendChild(createChest(cat, group.label, true));
+    });
+  });
+
+  const obscured = META_CATEGORIES.filter(c => !groupedCats.has(c.name));
+  if (obscured.length > 0) {
+    const header = document.createElement('div');
+    header.className = 'group-header obscured-header';
+    header.innerHTML = `<h3>Locked \u2014 no key fits in this lens</h3>`;
+    grid.appendChild(header);
+    obscured.forEach(cat => grid.appendChild(createChest(cat, null, false)));
+  }
+
+  updateStats(groupedCats.size);
+}
+
+function createChest(cat, groupLabel, unlocked) {
+  const chest = document.createElement('div');
+  chest.className = 'chest ' + (unlocked ? 'unlocked' : 'locked');
+  const icon = unlocked ? '\u{1F4DC}' : '\u{1F512}';
+  const lockState = unlocked ? 'Unlocked' : 'Locked';
+  const label = groupLabel || '\u2014 locked \u2014';
+  chest.innerHTML = `
+    <span class="chest-icon">${icon}</span>
+    <h4>${cat.name}</h4>
+    <div class="count">${cat.count.toLocaleString()} scrolls</div>
+    <div class="lens-label">${label}</div>
+    <div class="lock-state">${lockState}</div>
+  `;
+  return chest;
+}
+
+function renderFocusMode() {
+  const select = document.getElementById('focusSelect');
+  select.innerHTML = '<option value="">\u2014 Choose a chest to open \u2014</option>' +
+    META_CATEGORIES.map(c => `<option value="${c.name}">${c.name} (${c.count})</option>`).join('');
+  document.getElementById('focusResults').innerHTML =
+    '<p style="text-align:center;color:var(--text-dim);font-size:0.85rem;padding:20px;font-style:italic;">Pick a chest above. The vault will collapse to just that one.</p>';
+  updateStats(1);
+}
+
+function renderVesicaMode() {
+  const leftSel = document.getElementById('vesicaLeft');
+  const rightSel = document.getElementById('vesicaRight');
+  const options = META_CATEGORIES.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+  leftSel.innerHTML = options;
+  rightSel.innerHTML = options;
+  leftSel.value = "Aether, Light & Electricity";
+  rightSel.value = "Water Structure & Memory";
+  updateVesicaDisplay();
+  leftSel.onchange = updateVesicaDisplay;
+  rightSel.onchange = updateVesicaDisplay;
+
+  const grid = document.getElementById('vaultGrid');
+  grid.innerHTML = '';
+  META_CATEGORIES.forEach(cat => {
+    const inLeft = cat.name === leftSel.value;
+    const inRight = cat.name === rightSel.value;
+    const inBoth = inLeft && inRight;
+    const cls = inBoth ? 'unlocked' : (inLeft || inRight ? 'partial' : 'locked');
+    const chest = document.createElement('div');
+    chest.className = 'chest ' + cls;
+    let label = '';
+    if (inBoth) label = '\u25C6 In the seam \u2014 both keys';
+    else if (inLeft) label = 'Left key only';
+    else if (inRight) label = 'Right key only';
+    else label = '\u2014 locked \u2014';
+    const icon = inBoth ? '\u{1F4DC}' : (inLeft || inRight ? '\u{1F4DC}' : '\u{1F512}');
+    const lockState = inBoth ? 'Seam revealed' : (inLeft || inRight ? 'Partially open' : 'Locked');
+    chest.innerHTML = `
+      <span class="chest-icon">${icon}</span>
+      <h4>${cat.name}</h4>
+      <div class="count">${cat.count.toLocaleString()} scrolls</div>
+      <div class="lens-label">${label}</div>
+      <div class="lock-state">${lockState}</div>
+    `;
+    grid.appendChild(chest);
+  });
+  updateStats(2);
+}
+
+function updateVesicaDisplay() {
+  const leftVal = document.getElementById('vesicaLeft').value;
+  const rightVal = document.getElementById('vesicaRight').value;
+  document.getElementById('vesicaLeftLabel').textContent = leftVal.substring(0, 22);
+  document.getElementById('vesicaRightLabel').textContent = rightVal.substring(0, 22);
+  document.getElementById('vesicaOverlap').textContent = leftVal === rightVal ? 'same chest' : 'the seam between';
+
+  document.querySelectorAll('.chest').forEach((chest, i) => {
+    const cat = META_CATEGORIES[i];
+    const inLeft = cat.name === leftVal;
+    const inRight = cat.name === rightVal;
+    const inBoth = inLeft && inRight;
+    chest.className = 'chest ' + (inBoth ? 'unlocked' : (inLeft || inRight ? 'partial' : 'locked'));
+    const labelEl = chest.querySelector('.lens-label');
+    const lockEl = chest.querySelector('.lock-state');
+    const iconEl = chest.querySelector('.chest-icon');
+    if (inBoth) {
+      labelEl.textContent = '\u25C6 In the seam \u2014 both keys';
+      labelEl.style.color = 'var(--gold)';
+      lockEl.textContent = 'Seam revealed';
+      lockEl.style.color = 'var(--gold-dim)';
+      iconEl.textContent = '\u{1F4DC}';
+    } else if (inLeft) {
+      labelEl.textContent = 'Left key only';
+      labelEl.style.color = 'var(--text-dim)';
+      lockEl.textContent = 'Partially open';
+      lockEl.style.color = 'var(--text-faint)';
+      iconEl.textContent = '\u{1F4DC}';
+    } else if (inRight) {
+      labelEl.textContent = 'Right key only';
+      labelEl.style.color = 'var(--text-dim)';
+      lockEl.textContent = 'Partially open';
+      lockEl.style.color = 'var(--text-faint)';
+      iconEl.textContent = '\u{1F4DC}';
+    } else {
+      labelEl.textContent = '\u2014 locked \u2014';
+      labelEl.style.color = 'var(--text-faint)';
+      lockEl.textContent = 'Locked';
+      lockEl.style.color = 'var(--text-faint)';
+      iconEl.textContent = '\u{1F512}';
+    }
+  });
+}
+
+function updateStats(visible) {
+  document.getElementById('statVisible').textContent = visible;
+}
+
+buildDial();
+setLens(1);
+</script>
+
+</body>
+</html>
