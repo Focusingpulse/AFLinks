@@ -1,0 +1,108 @@
+{
+  "sites": [
+    {
+      "name": "tuks.nl",
+      "status": "in_progress",
+      "base_url": "http://www.tuks.nl",
+      "crawl_type": "apache_dir",
+      "crawl_paths": ["/pdf/", "/docs/", "/WFCProject/"],
+      "notes": "Arend Lammertink's archive - Eric Dollard, Tesla, parametric excitation, patents"
+    },
+    {
+      "name": "lenr-canr.org",
+      "status": "pending",
+      "base_url": "https://lenr-canr.org",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "LENR/cold fusion document archive ~1000+ docs. Look for PDF links in article listings."
+    },
+    {
+      "name": "viXra.org",
+      "status": "pending",
+      "base_url": "https://vixra.org",
+      "crawl_type": "api_listing",
+      "crawl_paths": ["/list/"],
+      "notes": "46000+ preprints. Has listing pages by category. Download PDFs from each listing page."
+    },
+    {
+      "name": "i-sis.org.uk",
+      "status": "pending",
+      "base_url": "https://www.i-sis.org.uk",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/", "/all.php"],
+      "notes": "ISIS reports ~2000 reports. Science and society topics including GMO, energy, health."
+    },
+    {
+      "name": "filestore.orgfree.com",
+      "status": "pending",
+      "base_url": "http://filestore.orgfree.com",
+      "crawl_type": "apache_dir",
+      "crawl_paths": ["/"],
+      "notes": "~200+ PDFs on alternative science topics"
+    },
+    {
+      "name": "ether.sciences.free.fr",
+      "status": "pending",
+      "base_url": "http://ether.sciences.free.fr",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "~50+ patent PDFs related to ether/aether science"
+    },
+    {
+      "name": "padrak.com/ine",
+      "status": "pending",
+      "base_url": "http://padrak.com/ine",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "~130+ device pages, INE (Institute for New Energy) directory"
+    },
+    {
+      "name": "psionicresearch.com",
+      "status": "pending",
+      "base_url": "https://psionicresearch.com",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "Psionics and radionics research"
+    },
+    {
+      "name": "strikefoundation.earth",
+      "status": "pending",
+      "base_url": "https://strikefoundation.earth",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "Alternative science and energy research"
+    },
+    {
+      "name": "cernohajev.omeka.net",
+      "status": "pending",
+      "base_url": "https://cernohajev.omeka.net",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "Historical archive, Omeka-based digital collection"
+    },
+    {
+      "name": "magneticenergy.org",
+      "status": "pending",
+      "base_url": "http://magneticenergy.org",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "Magnetic energy technology, Tom Bearden related"
+    },
+    {
+      "name": "newphysics.se",
+      "status": "pending",
+      "base_url": "https://newphysics.se",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "Swedish alternative physics site"
+    },
+    {
+      "name": "merlib.lackluster.org",
+      "status": "pending",
+      "base_url": "http://merlib.lackluster.org",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": ["/"],
+      "notes": "M.E.R.L.I.B. - Magnetic Energy Research Library and Information Bureau"
+    }
+  ]
+}
