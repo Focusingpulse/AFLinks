@@ -8,7 +8,7 @@ Usage: python process_generic_cloud.py <site_name>
 import os, re, json, time, tempfile, subprocess, urllib.parse, urllib.request, sys
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-BUDGET = 480  # 8 minutes
+BUDGET = 1500  # seconds - ~510 files per run (raised for economy: fewer wakes, more work)
 
 def get_paths(site_name):
     """Get file list and progress paths for a site."""

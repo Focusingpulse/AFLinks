@@ -13,7 +13,7 @@ FILELIST = os.path.join(SCRIPT_DIR, "tuks_filelist.json")
 OUTPUT = os.path.join(SCRIPT_DIR, "tuks_entries.json")
 PROGRESS = os.path.join(SCRIPT_DIR, "tuks_progress.json")
 INDEX_PATH = os.path.join(SCRIPT_DIR, "index.json")
-BUDGET = 500  # seconds - process ~170 files per run
+BUDGET = 1500  # seconds
 
 def load_progress():
     if os.path.exists(PROGRESS):
