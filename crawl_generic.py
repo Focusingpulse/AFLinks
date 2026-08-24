@@ -17,7 +17,9 @@ QUEUE_PATH = os.path.join(SCRIPT_DIR, "site_queue.json")
 def fetch_url(url, timeout=20):
     try:
         req = urllib.request.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5'
         })
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return resp.read()
@@ -133,63 +135,94 @@ def crawl_html_links(url, visited, files, base_url, depth=0, max_depth=3):
             time.sleep(0.3)
             crawl_html_links(full_url, visited, files, base_url, depth + 1, max_depth)
 
-def crawl_vixra(url, visited, files, base_url, max_pages=50):
-    """Crawl viXra.org listing pages."""
-    # viXra has listing pages like /list/0001/0001, /list/0002/0001, etc.
-    # Each listing page has links to individual paper pages
-    # Each paper page has a link to the PDF
+def crawl_vixra(url, visited, files, base_url, max_pages=50, max_months_per_cat=5):
+    """Crawl viXra.org listing pages.
+    
+    viXra.org structure:
+    - Main page (https://vixra.org/) has category links like href="hep", href="qgst"
+    - Each category page (https://vixra.org/hep) has direct PDF links at /pdf/XXXX.XXXXv1.pdf
+    - Category pages also have month archive links like href="0702", href="0802" (relative to category)
+    - Month archives (https://vixra.org/hep/0702) also have direct PDF links
+    
+    To keep crawl time reasonable for hourly cron, we skip the "all" category
+    (redundant - all papers appear in specific categories) and limit month archives
+    per category. Subsequent runs can pick up more months via the progress file.
+    """
     
     print(f"  Crawling viXra listings...", flush=True)
     
-    # Start with the main listing page
+    # Start with the main page to find category links
     data = fetch_url(url)
     if data is None:
         return
     
     text = data.decode('utf-8', errors='replace')
     
-    # Find category links
-    category_links = re.findall(r'href=["\'](/list/[^"\']+)["\']', text)
-    category_links = list(set(category_links))[:max_pages]
-    print(f"  Found {len(category_links)} category listing pages", flush=True)
+    # viXra category names from the homepage (short codes like hep, qgst, astro, etc.)
+    # They appear as href="hep", href="qgst", etc. - relative links
+    # Skip "all" - it's redundant (every paper appears in its specific category)
+    category_codes = [
+        'hep', 'qgst', 'relcos', 'astro', 'quant', 'nucl', 'condmt', 'therm',
+        'class', 'geop', 'clim', 'mathph', 'histph', 'setlog', 'numth', 'combgt',
+        'alg', 'geom', 'top', 'anal', 'stat', 'math', 'dsp', 'dsalg', 'ai',
+        'bioch', 'phbio', 'mind', 'qbio', 'chem', 'arch', 'ling', 'econ'
+    ]
     
-    for cat_link in category_links[:max_pages]:
-        cat_url = urllib.parse.urljoin(base_url, cat_link)
+    # Verify which categories exist on the page
+    found_cats = []
+    for cat in category_codes:
+        if f'href="{cat}"' in text:
+            found_cats.append(cat)
+    
+    print(f"  Found {len(found_cats)} categories (excluding 'all')", flush=True)
+    
+    for cat in found_cats[:max_pages]:
+        cat_url = f"{base_url.rstrip('/')}/{cat}"
         if cat_url in visited:
             continue
         visited.add(cat_url)
         
-        print(f"  LIST: {cat_url}", flush=True)
+        print(f"  CAT: {cat_url}", flush=True)
         cat_data = fetch_url(cat_url)
         if cat_data is None:
             continue
         
         cat_text = cat_data.decode('utf-8', errors='replace')
         
-        # Find paper page links
-        paper_links = re.findall(r'href=["\'](/abs/[^"\']+)["\']', cat_text)
+        # Collect PDF links directly from the category page (current month)
+        pdf_links = re.findall(r'href=["\'](/pdf/[^"\']+\.pdf)["\']', cat_text)
+        for pdf_path in pdf_links:
+            pdf_url = urllib.parse.urljoin(base_url, pdf_path)
+            filename = pdf_url.split('/')[-1]
+            files.append({"url": pdf_url, "filename": filename})
         
-        for paper_link in paper_links:
-            paper_url = urllib.parse.urljoin(base_url, paper_link)
+        # Find month archive links (like href="0702", href="0802", etc.)
+        # These are relative to the category, so they resolve to /hep/0702
+        month_links = re.findall(r'href=["\'](\d{4})["\']', cat_text)
+        month_links = sorted(list(set(month_links)), reverse=True)  # newest first
+        
+        # Only crawl the most recent N months per category to keep runtime bounded
+        for month in month_links[:max_months_per_cat]:
+            month_url = f"{cat_url}/{month}"
+            if month_url in visited:
+                continue
+            visited.add(month_url)
             
-            # Check if we already have this paper
-            paper_data = fetch_url(paper_url)
-            if paper_data is None:
+            print(f"    MONTH: {month_url}", flush=True)
+            month_data = fetch_url(month_url)
+            if month_data is None:
                 continue
             
-            paper_text = paper_data.decode('utf-8', errors='replace')
+            month_text = month_data.decode('utf-8', errors='replace')
             
-            # Find PDF link
-            pdf_match = re.search(r'href=["\']([^"\']+\.pdf)["\']', paper_text, re.I)
-            if pdf_match:
-                pdf_link = pdf_match.group(1)
-                if pdf_link.startswith('http'):
-                    pdf_url = pdf_link
-                else:
-                    pdf_url = urllib.parse.urljoin(paper_url, pdf_link)
-                
+            # Collect PDF links from month archive
+            month_pdfs = re.findall(r'href=["\'](/pdf/[^"\']+\.pdf)["\']', month_text)
+            for pdf_path in month_pdfs:
+                pdf_url = urllib.parse.urljoin(base_url, pdf_path)
                 filename = pdf_url.split('/')[-1]
                 files.append({"url": pdf_url, "filename": filename})
+            
+            time.sleep(0.3)
         
         time.sleep(0.5)
 

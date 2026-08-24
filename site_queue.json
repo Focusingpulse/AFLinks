@@ -14,7 +14,7 @@
     },
     {
       "name": "lenr-canr.org",
-      "status": "crawled",
+      "status": "complete",
       "base_url": "https://lenr-canr.org",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
@@ -25,13 +25,14 @@
     },
     {
       "name": "viXra.org",
-      "status": "pending",
+      "status": "crawled",
       "base_url": "https://vixra.org",
       "crawl_type": "api_listing",
       "crawl_paths": [
-        "/list/"
+        "/"
       ],
-      "notes": "46000+ preprints. Has listing pages by category. Download PDFs from each listing page."
+      "notes": "46000+ preprints. Has listing pages by category. Download PDFs from each listing page.",
+      "file_count": 6923
     },
     {
       "name": "i-sis.org.uk",
