@@ -757,6 +757,7 @@
         <h1>Aetherforce Knowledge Vault</h1>
         <p>Explore 6,562 primary source documents — patents, papers & research — powering Aetherforce's living science archive. Each document connects to Aetherforce articles, shop, and community resources.</p>
         <a class="hero-af-link" href="https://www.aetherforce.energy" target="_blank">Visit Aetherforce →</a>
+        <a class="hero-af-link" href="./vault.html" style="margin-left:8px;border-color:var(--accent-dim);">🗝 Enter the Vault</a>
     </div>
 
     <!-- Search -->
@@ -1107,6 +1108,14 @@
                 buildMetaCategoryList();
                 buildCategoryList();
                 renderResults();
+                // Check URL params for auto-filtering (from vault links)
+                const params = new URLSearchParams(window.location.search);
+                const cat = params.get('cat');
+                if (cat) {
+                    toggleMetaCategory(cat);
+                    document.getElementById('search').value = cat;
+                    document.getElementById('search').dispatchEvent(new Event('input'));
+                }
             } catch (e) {
                 document.getElementById('loading').textContent = 'Error loading index: ' + e.message;
             }

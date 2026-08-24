@@ -491,6 +491,7 @@ header .af-link:hover {
   <h1><span class="ornament">&#10086;</span> The Aetherforce Vault <span class="ornament">&#10086;</span></h1>
   <p>The archive never moves. The eye moves.</p>
   <a class="af-link" href="https://www.aetherforce.energy" target="_blank">Enter Aetherforce &#8594;</a>
+  <a class="af-link" href="./index.html" style="margin-left:8px;border-color:var(--bronze);">&#128218; Back to Archive</a>
 </header>
 
 <!-- The Key -->
@@ -727,12 +728,15 @@ function createChest(cat, groupLabel, unlocked) {
   const icon = unlocked ? '\u{1F4DC}' : '\u{1F512}';
   const lockState = unlocked ? 'Unlocked' : 'Locked';
   const label = groupLabel || '\u2014 locked \u2014';
+  const link = `./index.html?cat=${encodeURIComponent(cat.name)}`;
   chest.innerHTML = `
-    <span class="chest-icon">${icon}</span>
-    <h4>${cat.name}</h4>
-    <div class="count">${cat.count.toLocaleString()} scrolls</div>
-    <div class="lens-label">${label}</div>
-    <div class="lock-state">${lockState}</div>
+    <a href="${link}" style="text-decoration:none;color:inherit;display:block;">
+      <span class="chest-icon">${icon}</span>
+      <h4>${cat.name}</h4>
+      <div class="count">${cat.count.toLocaleString()} scrolls</div>
+      <div class="lens-label">${label}</div>
+      <div class="lock-state">${lockState}</div>
+    </a>
   `;
   return chest;
 }
@@ -741,6 +745,12 @@ function renderFocusMode() {
   const select = document.getElementById('focusSelect');
   select.innerHTML = '<option value="">\u2014 Choose a chest to open \u2014</option>' +
     META_CATEGORIES.map(c => `<option value="${c.name}">${c.name} (${c.count})</option>`).join('');
+  select.onchange = function() {
+    const val = this.value;
+    if (val) {
+      window.location.href = `./index.html?cat=${encodeURIComponent(val)}`;
+    }
+  };
   document.getElementById('focusResults').innerHTML =
     '<p style="text-align:center;color:var(--text-dim);font-size:0.85rem;padding:20px;font-style:italic;">Pick a chest above. The vault will collapse to just that one.</p>';
   updateStats(1);
@@ -774,12 +784,15 @@ function renderVesicaMode() {
     else label = '\u2014 locked \u2014';
     const icon = inBoth ? '\u{1F4DC}' : (inLeft || inRight ? '\u{1F4DC}' : '\u{1F512}');
     const lockState = inBoth ? 'Seam revealed' : (inLeft || inRight ? 'Partially open' : 'Locked');
+    const link = `./index.html?cat=${encodeURIComponent(cat.name)}`;
     chest.innerHTML = `
-      <span class="chest-icon">${icon}</span>
-      <h4>${cat.name}</h4>
-      <div class="count">${cat.count.toLocaleString()} scrolls</div>
-      <div class="lens-label">${label}</div>
-      <div class="lock-state">${lockState}</div>
+      <a href="${link}" style="text-decoration:none;color:inherit;display:block;">
+        <span class="chest-icon">${icon}</span>
+        <h4>${cat.name}</h4>
+        <div class="count">${cat.count.toLocaleString()} scrolls</div>
+        <div class="lens-label">${label}</div>
+        <div class="lock-state">${lockState}</div>
+      </a>
     `;
     grid.appendChild(chest);
   });
