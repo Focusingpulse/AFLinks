@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Aetherforce Vault — Lens Dial</title>
+<style>
+:root {
+  --bg: #0a0a12;
+  --bg2: #12121e;
+  --card: #1a1a2e;
+  --card-hi: #22223a;
+  --text: #e0e0f0;
+  --text-dim: #8888aa;
+  --text-faint: #444466;
+  --accent: #d4a843;
+  --accent2: #6b8fce;
+  --accent3: #c05050;
+  --border: #2a2a44;
+  --glow: rgba(212,168,67,0.3);
+  --blur: 3px;
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* === Header === */
+header {
+  text-align: center;
+  padding: 20px 16px 8px;
+}
+header h1 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: var(--accent);
+  text-shadow: 0 0 20px var(--glow);
+}
+header p {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-top: 4px;
+  font-style: italic;
+}
+
+/* === Dial === */
+.dial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 12px;
+  position: relative;
+}
+.dial {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, var(--bg2), var(--bg));
+  border: 2px solid var(--border);
+  box-shadow: 0 0 30px rgba(0,0,0,0.5), inset 0 0 20px rgba(0,0,0,0.3);
+  cursor: grab;
+  transition: transform var(--transition);
+  user-select: none;
+}
+.dial:active { cursor: grabbing; }
+.dial-notch {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Georgia', serif;
+  background: var(--card);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  transition: all var(--transition);
+  cursor: pointer;
+}
+.dial-notch:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.dial-notch.active {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+  box-shadow: 0 0 15px var(--glow);
+  transform: scale(1.15);
+}
+.dial-center {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+.dial-center .lens-name {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.dial-center .lens-num {
+  font-size: 2.5rem;
+  color: var(--accent);
+  font-weight: bold;
+  line-height: 1;
+}
+
+/* === Lens description === */
+.lens-desc {
+  text-align: center;
+  padding: 4px 20px 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.lens-desc h2 {
+  font-size: 1.1rem;
+  color: var(--accent2);
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+.lens-desc p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+/* === Vesica compare mode === */
+.vesica-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 16px 0;
+  position: relative;
+  min-height: 120px;
+}
+.vesica-container.show { display: flex; }
+.vesica-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 2px solid var(--accent2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: var(--accent2);
+  text-align: center;
+  background: rgba(107,143,206,0.05);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.vesica-circle:hover { border-color: var(--accent); color: var(--accent); }
+.vesica-circle.right { margin-left: -60px; }
+.vesica-overlap {
+  position: absolute;
+  width: 100px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: var(--accent);
+  text-align: center;
+  z-index: 0;
+  pointer-events: none;
+}
+.vesica-select {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding: 8px 0;
+}
+.vesica-select select {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.vesica-select select:focus { outline: none; border-color: var(--accent); }
+
+/* === Category grid === */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  padding: 12px 16px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+  transition: all var(--transition);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.cat-card.revealed {
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(212,168,67,0.15);
+  opacity: 1;
+  filter: none;
+}
+.cat-card.obscured {
+  opacity: 0.3;
+  filter: blur(var(--blur)) grayscale(0.8);
+  transform: scale(0.97);
+}
+.cat-card.partial {
+  opacity: 0.6;
+  filter: blur(1px);
+}
+.cat-card h3 {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 4px;
+  font-weight: normal;
+}
+.cat-card .count {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+.cat-card .lens-label {
+  font-size: 0.7rem;
+  color: var(--accent);
+  margin-top: 6px;
+  font-style: italic;
+}
+.cat-card .source-list {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+/* === Focus mode (lens 1) === */
+.focus-mode {
+  display: none;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.focus-mode.show { display: block; }
+.focus-mode .focus-select {
+  display: block;
+  margin: 0 auto 16px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+}
+.focus-mode .focus-select:focus { outline: none; border-color: var(--accent); }
+.focus-doc {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 10px;
+  transition: all var(--transition);
+}
+.focus-doc h3 {
+  font-size: 0.95rem;
+  color: var(--accent);
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+.focus-doc p {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+.focus-doc .meta {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  margin-top: 6px;
+}
+
+/* === Stats bar === */
+.stats {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  padding: 8px 0;
+}
+.stats span { color: var(--accent2); }
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.2rem; }
+  .dial { width: 160px; height: 160px; }
+  .dial-notch { width: 30px; height: 30px; font-size: 0.9rem; }
+  .categories { grid-template-columns: 1fr; padding: 12px; }
+  .vesica-circle { width: 120px; height: 120px; font-size: 0.7rem; }
+  .vesica-circle.right { margin-left: -40px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>THE AETHERFORCE VAULT</h1>
+  <p>The archive never moves. The eye moves.</p>
+</header>
+
+<!-- Lens Dial -->
+<div class="dial-container">
+  <div class="dial" id="dial">
+    <div class="dial-center">
+      <div class="lens-name" id="lensName">FOCUS</div>
+      <div class="lens-num" id="lensNum">1</div>
+    </div>
+  </div>
+</div>
+
+<div class="lens-desc" id="lensDesc">
+  <h2 id="lensTitle">Sealed Focus</h2>
+  <p id="lensBody">One lens. One view. The archive collapses to a single stream — read close, no category noise.</p>
+</div>
+
+<!-- Vesica compare mode (shown at lens 2) -->
+<div class="vesica-container" id="vesicaContainer">
+  <div class="vesica-select">
+    <select id="vesicaLeft"></select>
+    <select id="vesicaRight"></select>
+  </div>
+  <div style="display:flex;align-items:center;justify-content:center;width:100%;">
+    <div class="vesica-circle" id="vesicaLeftLabel">—</div>
+    <div class="vesica-circle right" id="vesicaRightLabel">—</div>
+    <div class="vesica-overlap" id="vesicaOverlap">intersection</div>
+  </div>
+</div>
+
+<!-- Focus mode (shown at lens 1) -->
+<div class="focus-mode" id="focusMode">
+  <select class="focus-select" id="focusSelect"></select>
+  <div id="focusResults"></div>
+</div>
+
+<!-- Stats -->
+<div class="stats" id="stats">
+  <span id="statTotal">6,562</span> documents · <span id="statVisible">23</span> categories visible
+</div>
+
+<!-- Category cards -->
+<div class="categories" id="categories"></div>
+
+<script>
+// === Data ===
+const META_CATEGORIES = [
+  { name: "Energy & Transportation", count: 2802 },
+  { name: "Aether, Light & Electricity", count: 1893 },
+  { name: "Biological & Morphogenetic Science", count: 1472 },
+  { name: "Material Sciences & Alchemy", count: 883 },
+  { name: "Water Structure & Memory", count: 868 },
+  { name: "Plasma, Torsion & Cosmology", count: 715 },
+  { name: "Challenges to the Standard Model", count: 714 },
+  { name: "Weather & Geo-Engineering", count: 713 },
+  { name: "Transhumanism & Psychotronic Warfare", count: 625 },
+  { name: "Alternative Energy Technologies", count: 611 },
+  { name: "Patents & Inventions", count: 474 },
+  { name: "Harmonics, Rhythms & Cycles", count: 473 },
+  { name: "Optics & Colour Therapy", count: 403 },
+  { name: "Electromagnetic Theory", count: 338 },
+  { name: "Geopolitics & Hidden History", count: 306 },
+  { name: "Sacred & Projective Geometry", count: 271 },
+  { name: "Regenerative Agriculture", count: 259 },
+  { name: "Goethean & Anthroposophical Science", count: 136 },
+  { name: "Reference & Technical Data", count: 86 },
+  { name: "Radionics, Radiesthesia & Shape Power", count: 57 },
+  { name: "Biology, Health & Medicine", count: 36 },
+  { name: "Environment & Climate", count: 35 },
+  { name: "Media & Interviews", count: 14 }
+];
+
+// === Lens definitions ===
+// Each lens maps meta-categories to groups. Categories not in any group are "obscured."
+const LENSES = {
+  1: {
+    name: "FOCUS",
+    title: "Sealed Focus",
+    body: "One lens. One view. The archive collapses to a single stream — read close, no category noise. Pick a category and zoom in.",
+    type: "focus"
+  },
+  2: {
+    name: "COMPARE",
+    title: "Vesica — Compare & Contrast",
+    body: "Two lenses overlap. Where they cross, the vesica reveals documents that live in both worlds. Drag two categories together and see what emerges between them.",
+    type: "vesica"
+  },
+  3: {
+    name: "MOTION",
+    title: "The Three Movements",
+    body: "Origin → Process → Finish. The smallest number that still tells a story. Everything in the archive is either a spark, a working machine, or a record of what happened.",
+    type: "groups",
+    groups: [
+      { label: "Origin — The Spark", cats: ["Challenges to the Standard Model", "Geopolitics & Hidden History", "Goethean & Anthroposophical Science", "Media & Interviews"] },
+      { label: "Process — The Working", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory", "Plasma, Torsion & Cosmology", "Patents & Inventions", "Material Sciences & Alchemy", "Harmonics, Rhythms & Cycles"] },
+      { label: "Finish — The Record", cats: ["Biological & Morphogenetic Science", "Water Structure & Memory", "Weather & Geo-Engineering", "Optics & Colour Therapy", "Sacred & Projective Geometry", "Regenerative Agriculture", "Biology, Health & Medicine", "Environment & Climate", "Reference & Technical Data", "Radionics, Radiesthesia & Shape Power", "Transhumanism & Psychotronic Warfare"] }
+    ]
+  },
+  4: {
+    name: "CLASSICAL",
+    title: "The Four Elements",
+    body: "Earth, Water, Air, Fire — the Western classical cut. The simplest lens that still holds a shape. Documents that don't fit any element blur into the background.",
+    type: "groups",
+    groups: [
+      { label: "Earth — Material & Structure", cats: ["Material Sciences & Alchemy", "Regenerative Agriculture", "Geopolitics & Hidden History", "Reference & Technical Data", "Environment & Climate"] },
+      { label: "Water — Flow & Memory", cats: ["Water Structure & Memory", "Biology, Health & Medicine", "Biological & Morphogenetic Science", "Weather & Geo-Engineering"] },
+      { label: "Air — Thought & Pattern", cats: ["Challenges to the Standard Model", "Harmonics, Rhythms & Cycles", "Sacred & Projective Geometry", "Goethean & Anthroposophical Science", "Optics & Colour Therapy", "Media & Interviews"] },
+      { label: "Fire — Energy & Transformation", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory", "Plasma, Torsion & Cosmology", "Patents & Inventions", "Transhumanism & Psychotronic Warfare", "Radionics, Radiesthesia & Shape Power"] }
+    ]
+  },
+  5: {
+    name: "ELEMENTS",
+    title: "The Five Elements (Chinese)",
+    body: "Wood, Fire, Earth, Metal, Water — the Chinese traditional cut. Each element generates and destroys another. Documents shift meaning depending on which phase holds them.",
+    type: "groups",
+    groups: [
+      { label: "Wood — Growth & Life", cats: ["Biological & Morphogenetic Science", "Regenerative Agriculture", "Biology, Health & Medicine", "Goethean & Anthroposophical Science"] },
+      { label: "Fire — Energy & Combustion", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Plasma, Torsion & Cosmology", "Transhumanism & Psychotronic Warfare"] },
+      { label: "Earth — Material & Ground", cats: ["Material Sciences & Alchemy", "Geopolitics & Hidden History", "Environment & Climate", "Weather & Geo-Engineering", "Reference & Technical Data"] },
+      { label: "Metal — Structure & Conduct", cats: ["Electromagnetic Theory", "Aether, Light & Electricity", "Patents & Inventions", "Radionics, Radiesthesia & Shape Power", "Sacred & Projective Geometry"] },
+      { label: "Water — Flow & Memory", cats: ["Water Structure & Memory", "Harmonics, Rhythms & Cycles", "Optics & Colour Therapy", "Challenges to the Standard Model", "Media & Interviews"] }
+    ]
+  },
+  6: {
+    name: "FORM",
+    title: "The Six Directions",
+    body: "Six facets of the vault — like faces of a crystal. Each direction sees a different side of the same body. Nothing is hidden; everything is partial.",
+    type: "groups",
+    groups: [
+      { label: "North — Theory & Challenge", cats: ["Challenges to the Standard Model", "Electromagnetic Theory", "Goethean & Anthroposophical Science"] },
+      { label: "South — Application & Device", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Patents & Inventions", "Radionics, Radiesthesia & Shape Power"] },
+      { label: "East — Energy & Field", cats: ["Aether, Light & Electricity", "Plasma, Torsion & Cosmology", "Harmonics, Rhythms & Cycles"] },
+      { label: "West — Life & Form", cats: ["Biological & Morphogenetic Science", "Water Structure & Memory", "Biology, Health & Medicine", "Regenerative Agriculture"] },
+      { label: "Up — Vision & Pattern", cats: ["Sacred & Projective Geometry", "Optics & Colour Therapy", "Media & Interviews"] },
+      { label: "Down — Ground & Record", cats: ["Material Sciences & Alchemy", "Geopolitics & Hidden History", "Weather & Geo-Engineering", "Reference & Technical Data", "Environment & Climate", "Transhumanism & Psychotronic Warfare"] }
+    ]
+  },
+  7: {
+    name: "PLANES",
+    title: "The Seven Planes of Nature",
+    body: "Physical → Vitality → Emotional → Mental → Archetypal → Spiritual → Divine. Karim's planes interpenetrate — they don't stack. A single document resonates across all planes, but each lens shows which plane it speaks from loudest.",
+    type: "groups",
+    groups: [
+      { label: "Physical — The Hardware", cats: ["Patents & Inventions", "Material Sciences & Alchemy", "Reference & Technical Data"] },
+      { label: "Vitality — The Energy", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory"] },
+      { label: "Emotional — The Feeling", cats: ["Water Structure & Memory", "Optics & Colour Therapy", "Harmonics, Rhythms & Cycles"] },
+      { label: "Mental — The Theory", cats: ["Challenges to the Standard Model", "Plasma, Torsion & Cosmology", "Goethean & Anthroposophical Science"] },
+      { label: "Archetypal — The Pattern", cats: ["Sacred & Projective Geometry", "Radionics, Radiesthesia & Shape Power", "Weather & Geo-Engineering"] },
+      { label: "Spiritual — The Living", cats: ["Biological & Morphogenetic Science", "Biology, Health & Medicine", "Regenerative Agriculture", "Environment & Climate"] },
+      { label: "Divine — The Why", cats: ["Geopolitics & Hidden History", "Transhumanism & Psychotronic Warfare", "Media & Interviews"] }
+    ]
+  }
+};
+
+// === Dial positions (1-7 arranged in circle) ===
+const DIAL_POSITIONS = {
+  1: { angle: -90, label: "1" },
+  2: { angle: -39, label: "2" },
+  3: { angle: 13, label: "3" },
+  4: { angle: 64, label: "4" },
+  5: { angle: 116, label: "5" },
+  6: { angle: 167, label: "6" },
+  7: { angle: 219, label: "7" }
+};
+
+let currentLens = 1;
+
+// === Build dial notches ===
+function buildDial() {
+  const dial = document.getElementById('dial');
+  const radius = 78;
+  for (let n = 1; n <= 7; n++) {
+    const pos = DIAL_POSITIONS[n];
+    const rad = pos.angle * Math.PI / 180;
+    const x = Math.cos(rad) * radius;
+    const y = Math.sin(rad) * radius;
+    const notch = document.createElement('div');
+    notch.className = 'dial-notch';
+    notch.textContent = n;
+    notch.style.left = `calc(50% + ${x}px - 18px)`;
+    notch.style.top = `calc(50% + ${y}px - 18px)`;
+    notch.dataset.lens = n;
+    notch.addEventListener('click', () => setLens(n));
+    dial.appendChild(notch);
+  }
+}
+
+// === Set lens ===
+function setLens(n) {
+  currentLens = n;
+  const lens = LENSES[n];
+  
+  // Update dial
+  document.querySelectorAll('.dial-notch').forEach(el => {
+    el.classList.toggle('active', parseInt(el.dataset.lens) === n);
+  });
+  document.getElementById('lensName').textContent = lens.name;
+  document.getElementById('lensNum').textContent = n;
+  document.getElementById('lensTitle').textContent = lens.title;
+  document.getElementById('lensBody').textContent = lens.body;
+  
+  // Show/hide special modes
+  document.getElementById('vesicaContainer').classList.toggle('show', n === 2);
+  document.getElementById('focusMode').classList.toggle('show', n === 1);
+  document.getElementById('categories').style.display = (n === 1) ? 'none' : 'block';
+  
+  if (n === 1) {
+    renderFocusMode();
+  } else if (n === 2) {
+    renderVesicaMode();
+  } else {
+    renderGroupMode(lens);
+  }
+}
+
+// === Render group mode (lenses 3-7) ===
+function renderGroupMode(lens) {
+  const container = document.getElementById('categories');
+  container.innerHTML = '';
+  
+  // Determine which cats are in groups
+  const groupedCats = new Set();
+  lens.groups.forEach(g => g.cats.forEach(c => groupedCats.add(c)));
+  
+  // Render group headers with their categories
+  lens.groups.forEach((group, gi) => {
+    const groupEl = document.createElement('div');
+    groupEl.style.gridColumn = '1 / -1';
+    groupEl.style.padding = '12px 0 4px';
+    groupEl.style.borderTop = gi > 0 ? '1px solid var(--border)' : 'none';
+    groupEl.innerHTML = `<h3 style="font-size:1rem;color:var(--accent);font-weight:normal;letter-spacing:1px;">${group.label}</h3>`;
+    container.appendChild(groupEl);
+    
+    group.cats.forEach(catName => {
+      const cat = META_CATEGORIES.find(c => c.name === catName);
+      if (cat) {
+        container.appendChild(createCard(cat, group.label, true));
+      }
+    });
+  });
+  
+  // Render obscured categories (not in any group)
+  const obscured = META_CATEGORIES.filter(c => !groupedCats.has(c.name));
+  if (obscured.length > 0) {
+    const obsHeader = document.createElement('div');
+    obsHeader.style.gridColumn = '1 / -1';
+    obsHeader.style.padding = '12px 0 4px';
+    obsHeader.style.borderTop = '1px solid var(--border)';
+    obsHeader.innerHTML = `<h3 style="font-size:0.85rem;color:var(--text-faint);font-style:italic;">Obscured — no slot in this lens</h3>`;
+    container.appendChild(obsHeader);
+    
+    obscured.forEach(cat => {
+      container.appendChild(createCard(cat, null, false));
+    });
+  }
+  
+  updateStats(lens.groups.length, groupedCats.size);
+}
+
+// === Create category card ===
+function createCard(cat, groupLabel, revealed) {
+  const card = document.createElement('div');
+  card.className = 'cat-card ' + (revealed ? 'revealed' : 'obscured');
+  card.innerHTML = `
+    <h3>${cat.name}</h3>
+    <div class="count">${cat.count.toLocaleString()} documents</div>
+    ${groupLabel ? `<div class="lens-label">${groupLabel}</div>` : '<div class="lens-label" style="color:var(--text-faint)">— obscured —</div>'}
+  `;
+  return card;
+}
+
+// === Focus mode (lens 1) ===
+function renderFocusMode() {
+  const select = document.getElementById('focusSelect');
+  select.innerHTML = '<option value="">— Pick a category to zoom into —</option>' +
+    META_CATEGORIES.map(c => `<option value="${c.name}">${c.name} (${c.count})</option>`).join('');
+  
+  document.getElementById('focusResults').innerHTML = 
+    '<p style="text-align:center;color:var(--text-dim);font-size:0.85rem;padding:20px;">Choose a category above. The archive will collapse to just that one view.</p>';
+  
+  updateStats(1, 1);
+}
+
+// === Vesica mode (lens 2) ===
+function renderVesicaMode() {
+  const leftSel = document.getElementById('vesicaLeft');
+  const rightSel = document.getElementById('vesicaRight');
+  
+  const options = META_CATEGORIES.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+  leftSel.innerHTML = options;
+  rightSel.innerHTML = options;
+  
+  // Default: pick two interesting ones
+  leftSel.value = "Aether, Light & Electricity";
+  rightSel.value = "Water Structure & Memory";
+  
+  updateVesicaDisplay();
+  
+  leftSel.onchange = updateVesicaDisplay;
+  rightSel.onchange = updateVesicaDisplay;
+  
+  // Render all categories with partial opacity
+  const container = document.getElementById('categories');
+  container.innerHTML = '';
+  META_CATEGORIES.forEach(cat => {
+    const inLeft = cat.name === leftSel.value;
+    const inRight = cat.name === rightSel.value;
+    const inBoth = inLeft && inRight;
+    const cls = inBoth ? 'revealed' : (inLeft || inRight ? 'partial' : 'obscured');
+    const card = document.createElement('div');
+    card.className = 'cat-card ' + cls;
+    let label = '';
+    if (inBoth) label = '◆ In the vesica — both lenses';
+    else if (inLeft) label = 'Left lens only';
+    else if (inRight) label = 'Right lens only';
+    else label = '— obscured —';
+    card.innerHTML = `
+      <h3>${cat.name}</h3>
+      <div class="count">${cat.count.toLocaleString()} documents</div>
+      <div class="lens-label" style="color:${inBoth ? 'var(--accent)' : 'var(--text-faint)'}">${label}</div>
+    `;
+    container.appendChild(card);
+  });
+  
+  updateStats(2, 2);
+}
+
+function updateVesicaDisplay() {
+  const leftVal = document.getElementById('vesicaLeft').value;
+  const rightVal = document.getElementById('vesicaRight').value;
+  document.getElementById('vesicaLeftLabel').textContent = leftVal.substring(0, 20);
+  document.getElementById('vesicaRightLabel').textContent = rightVal.substring(0, 20);
+  
+  const intersection = leftVal === rightVal ? leftVal : 'shared boundary';
+  document.getElementById('vesicaOverlap').textContent = intersection;
+  
+  // Update cards
+  document.querySelectorAll('.cat-card').forEach((card, i) => {
+    const cat = META_CATEGORIES[i];
+    const inLeft = cat.name === leftVal;
+    const inRight = cat.name === rightVal;
+    const inBoth = inLeft && inRight;
+    card.className = 'cat-card ' + (inBoth ? 'revealed' : (inLeft || inRight ? 'partial' : 'obscured'));
+    const labelEl = card.querySelector('.lens-label');
+    if (inBoth) { labelEl.textContent = '◆ In the vesica — both lenses'; labelEl.style.color = 'var(--accent)'; }
+    else if (inLeft) { labelEl.textContent = 'Left lens only'; labelEl.style.color = 'var(--text-dim)'; }
+    else if (inRight) { labelEl.textContent = 'Right lens only'; labelEl.style.color = 'var(--text-dim)'; }
+    else { labelEl.textContent = '— obscured —'; labelEl.style.color = 'var(--text-faint)'; }
+  });
+}
+
+// === Stats ===
+function updateStats(visibleCats, totalVisible) {
+  document.getElementById('statVisible').textContent = totalVisible;
+}
+
+// === Init ===
+buildDial();
+setLens(1);
+</script>
+
+</body>
+</html>
