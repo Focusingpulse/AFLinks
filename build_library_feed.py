@@ -88,19 +88,29 @@ def main():
 
     # --- 2. Latest translations ---
     tdir = os.path.join(LL, "translations")
+    translations_outdir = os.path.join(AFLINKS, "translations")
     if os.path.isdir(tdir):
+        os.makedirs(translations_outdir, exist_ok=True)
         for path in sorted(glob.glob(os.path.join(tdir, "*.md")), reverse=True):
             meta, title, body = parse_md_frontmatter(path)
             domain = meta.get("Domain") or meta.get("domain") or ""
             src = meta.get("Source URL") or meta.get("source_url") or ""
             lang = meta.get("Language") or meta.get("language") or ""
+            fname = os.path.basename(path)
+            # Copy the full translation into the site repo so the page can serve it
+            try:
+                import shutil
+                shutil.copy2(path, os.path.join(translations_outdir, fname))
+            except Exception as e:
+                print(f"  WARN: could not copy translation {fname}: {e}", flush=True)
             feed["latest_translations"].append({
-                "date": os.path.basename(path)[:10],
+                "date": fname[:10],
                 "title": title,
                 "domain": domain,
                 "source_url": src,
                 "language": lang,
-                "file": os.path.basename(path),
+                "file": fname,
+                "content_file": f"translations/{fname}",
                 "excerpt": body.strip()[:220],
             })
 
