@@ -56,6 +56,9 @@ echo "$OUT" | tail -25
 ENTRIES=$(python3 -c "import json;d=json.load(open('index.json'));print(len(d))" 2>/dev/null || echo "?")
 SUMMARY=$(echo "$OUT" | grep -E "Processing|Total entries|Progress|New:|Existing:" | tail -4 | tr '\n' ' ' | cut -c1-280)
 
+echo "[3b/5] Rebuild Living Library feed from growing DB"
+python3 build_library_feed.py 2>&1 | tail -3
+
 echo "[4/5] Commit and push progress"
 git add -A
 if git diff --cached --quiet; then
