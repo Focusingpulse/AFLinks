@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Aetherforce Living Library</title>
+<style>
+:root {
+  --bg: #0c0a08;
+  --bg2: #1a1410;
+  --stone: #2a2218;
+  --stone-hi: #3a3024;
+  --gold: #c9a84c;
+  --gold-bright: #e8c860;
+  --gold-dim: #8a7430;
+  --copper: #b87333;
+  --bronze: #8c6a3e;
+  --text: #d4c8a8;
+  --text-dim: #8a7e60;
+  --text-faint: #5a4e38;
+  --glow: rgba(201,168,76,0.25);
+  --glow-strong: rgba(201,168,76,0.5);
+  --green: #7a9a5a;
+  --green-glow: rgba(122,154,90,0.2);
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(122,154,90,0.04) 0%, transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  min-height: 100vh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.02) 3px, rgba(0,0,0,0.02) 6px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+header {
+  text-align: center;
+  padding: 28px 16px 8px;
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--glow), 0 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+}
+header h1 .ornament { color: var(--gold-dim); font-size: 0.8rem; margin: 0 8px; }
+header p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--gold-dim);
+  color: var(--bg);
+  border-color: var(--gold);
+  box-shadow: 0 0 15px var(--glow);
+}
+
+/* Stats band */
+.stats-band {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  max-width: 900px;
+  margin: 20px auto 8px;
+  padding: 0 16px;
+  position: relative;
+  z-index: 1;
+}
+.stat {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-radius: 6px;
+  padding: 14px 10px;
+  text-align: center;
+  transition: all var(--transition);
+}
+.stat:hover { border-color: var(--gold); box-shadow: 0 0 12px var(--glow); }
+.stat .num {
+  font-size: 1.7rem;
+  color: var(--gold);
+  font-weight: bold;
+  line-height: 1.1;
+  text-shadow: 0 0 12px var(--glow);
+}
+.stat .lbl {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 4px;
+}
+
+/* Section headers */
+.section {
+  max-width: 1000px;
+  margin: 24px auto;
+  padding: 0 16px;
+  position: relative;
+  z-index: 1;
+}
+.section h2 {
+  font-size: 1.1rem;
+  color: var(--gold);
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--bronze);
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section h2 .sub {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  font-style: italic;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Translation cards */
+.translation-card {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-left: 3px solid var(--gold-dim);
+  border-radius: 6px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  transition: all var(--transition);
+}
+.translation-card:hover { border-color: var(--gold); transform: translateX(2px); }
+.translation-card h3 {
+  font-size: 0.95rem;
+  color: var(--gold-bright);
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+.translation-card .meta {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+.translation-card .meta span { margin-right: 10px; }
+.translation-card .lang-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid var(--green);
+  color: var(--green);
+  border-radius: 2px;
+  font-size: 0.65rem;
+  letter-spacing: 1px;
+}
+.translation-card .excerpt {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  line-height: 1.5;
+}
+.translation-card .src-link {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.72rem;
+  color: var(--gold);
+  text-decoration: none;
+}
+.translation-card .src-link:hover { text-shadow: 0 0 8px var(--glow); }
+
+/* Scout find cards */
+.find-group {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-radius: 6px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+.find-group .fg-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.find-group .fg-head h3 {
+  font-size: 0.9rem;
+  color: var(--gold);
+  font-weight: normal;
+}
+.find-group .fg-head .fg-lang {
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  letter-spacing: 1px;
+}
+.find-group ul { list-style: none; }
+.find-group li {
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--bronze);
+  font-size: 0.82rem;
+}
+.find-group li:last-child { border-bottom: none; }
+.find-group li .find-title { color: var(--text); }
+.find-group li .find-desc { color: var(--text-dim); }
+.find-group li a {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.7rem;
+  margin-left: 6px;
+}
+.find-group li a:hover { text-shadow: 0 0 8px var(--glow); }
+
+/* Researcher chips */
+.researcher-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+}
+.researcher {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-radius: 6px;
+  padding: 12px 14px;
+  transition: all var(--transition);
+}
+.researcher:hover { border-color: var(--gold); box-shadow: 0 0 12px var(--glow); }
+.researcher h4 {
+  font-size: 0.9rem;
+  color: var(--gold-bright);
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+.researcher .domains { font-size: 0.7rem; color: var(--text-dim); margin-bottom: 4px; }
+.researcher .stats-row {
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  display: flex;
+  gap: 12px;
+}
+.researcher a {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.68rem;
+  color: var(--gold);
+  text-decoration: none;
+}
+.researcher a:hover { text-shadow: 0 0 8px var(--glow); }
+
+/* Domain connections */
+.domain-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+}
+.domain {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-radius: 6px;
+  padding: 12px 14px;
+}
+.domain h4 {
+  font-size: 0.85rem;
+  color: var(--gold);
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+.domain .cats { font-size: 0.7rem; color: var(--text-dim); line-height: 1.5; }
+.domain .conns { font-size: 0.68rem; color: var(--green); margin-top: 6px; }
+
+/* Loading / empty */
+.loading, .empty {
+  text-align: center;
+  color: var(--text-dim);
+  font-style: italic;
+  padding: 30px 0;
+  font-size: 0.85rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 24px 16px 30px;
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  position: relative;
+  z-index: 1;
+  letter-spacing: 1px;
+}
+footer a { color: var(--gold); text-decoration: none; }
+
+/* Mobile */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.2rem; letter-spacing: 2px; }
+  .stat .num { font-size: 1.3rem; }
+  .stats-band { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span class="ornament">&#10086;</span> The Living Library <span class="ornament">&#10086;</span></h1>
+  <p>The archive never stops growing. Scouts hunt, curators translate, and every find links back to the source.</p>
+  <div class="nav-links">
+    <a href="./index.html">&#128218; Archive</a>
+    <a href="./vault.html">&#128273; Vault</a>
+    <a href="https://www.aetherforce.energy" target="_blank">Aetherforce &#8594;</a>
+    <a href="#" class="here">&#128216; Living Library</a>
+  </div>
+</header>
+
+<!-- Stats -->
+<div class="stats-band" id="statsBand">
+  <div class="stat"><div class="num">&#8230;</div><div class="lbl">Researchers</div></div>
+  <div class="stat"><div class="num">&#8230;</div><div class="lbl">Patents</div></div>
+  <div class="stat"><div class="num">&#8230;</div><div class="lbl">Categories</div></div>
+  <div class="stat"><div class="num">&#8230;</div><div class="lbl">Archive Docs</div></div>
+  <div class="stat"><div class="num">&#8230;</div><div class="lbl">Meta-Categories</div></div>
+</div>
+
+<!-- Translations -->
+<div class="section" id="translationsSection">
+  <h2>Fresh Translations <span class="sub">first-ever English translations, from the vault's multilingual scouts</span></h2>
+  <div id="translationsList"><div class="loading">Loading translations...</div></div>
+</div>
+
+<!-- Scout finds -->
+<div class="section" id="findsSection">
+  <h2>New Multilingual Finds <span class="sub">scouts working in German, French, Spanish, Italian, Russian, Japanese &amp; more</span></h2>
+  <div id="findsList"><div class="loading">Loading finds...</div></div>
+</div>
+
+<!-- Researchers -->
+<div class="section" id="researchersSection">
+  <h2>Researchers in the Vault</h2>
+  <div class="researcher-grid" id="researcherGrid"></div>
+</div>
+
+<!-- Domains -->
+<div class="section" id="domainsSection">
+  <h2>How the Domains Connect</h2>
+  <div class="domain-list" id="domainList"></div>
+</div>
+
+<footer>
+  <p>Powered by the growing <strong>Living Library</strong> — seeds, scouts, and translations from around the world, linked to the <a href="./index.html">Aetherforce Knowledge Vault</a> and <a href="https://www.aetherforce.energy" target="_blank">aetherforce.energy</a>.</p>
+</footer>
+
+<script>
+async function loadFeed() {
+  try {
+    const res = await fetch('./library_feed.json', { cache: 'no-store' });
+    const feed = await res.json();
+    renderStats(feed.library);
+    renderTranslations(feed.latest_translations);
+    renderFinds(feed.latest_finds);
+    renderResearchers(feed.top_researchers);
+    renderDomains(feed.domains);
+  } catch (e) {
+    document.querySelectorAll('.loading').forEach(el => el.textContent = 'Feed not found yet — the library is still seeding. Check back soon.');
+  }
+}
+
+function renderStats(lib) {
+  if (!lib) return;
+  const map = [
+    ['Researchers', lib.researchers],
+    ['Patents', lib.patents],
+    ['Categories', lib.categories],
+    ['Archive Docs', lib.archive_entries || lib.aflinks_docs],
+    ['Meta-Categories', lib.meta_categories],
+  ];
+  const band = document.getElementById('statsBand');
+  band.innerHTML = '';
+  map.forEach(([lbl, num]) => {
+    const d = document.createElement('div');
+    d.className = 'stat';
+    d.innerHTML = `<div class="num">${num == null ? '\u2014' : Number(num).toLocaleString()}</div><div class="lbl">${lbl}</div>`;
+    band.appendChild(d);
+  });
+}
+
+function renderTranslations(list) {
+  const el = document.getElementById('translationsList');
+  if (!list || !list.length) { el.innerHTML = '<div class="empty">No translations yet — the curator is working.</div>'; return; }
+  el.innerHTML = '';
+  list.forEach(t => {
+    const card = document.createElement('div');
+    card.className = 'translation-card';
+    const lang = t.language ? `<span class="lang-badge">${t.language}</span>` : '';
+    card.innerHTML = `
+      <h3>${t.title}</h3>
+      <div class="meta">${lang}${t.domain ? '<span>' + t.domain + '</span>' : ''}<span>${t.date}</span></div>
+      <div class="excerpt">${t.excerpt || ''}</div>
+      ${t.source_url ? `<a class="src-link" href="${t.source_url}" target="_blank">View original source &#8599;</a>` : ''}
+    `;
+    el.appendChild(card);
+  });
+}
+
+function renderFinds(groups) {
+  const el = document.getElementById('findsList');
+  if (!groups || !groups.length) { el.innerHTML = '<div class="empty">No finds yet — scouts are out searching.</div>'; return; }
+  el.innerHTML = '';
+  groups.forEach(g => {
+    if (!g.finds || !g.finds.length) return;
+    const grp = document.createElement('div');
+    grp.className = 'find-group';
+    const items = g.finds.map(f => {
+      const url = f.url ? `<a href="${f.url}" target="_blank">source &#8599;</a>` : '';
+      return `<li><span class="find-title">${f.title}</span><span class="find-desc"> — ${f.description}</span>${url}</li>`;
+    }).join('');
+    grp.innerHTML = `
+      <div class="fg-head">
+        <h3>${g.scout ? 'Scout ' + g.scout : 'Scout report'} — ${g.date}</h3>
+        <span class="fg-lang">${g.languages || ''}</span>
+      </div>
+      <ul>${items}</ul>
+    `;
+    el.appendChild(grp);
+  });
+}
+
+function renderResearchers(list) {
+  const el = document.getElementById('researcherGrid');
+  if (!list || !list.length) { el.innerHTML = '<div class="empty">Researcher index is seeding.</div>'; return; }
+  el.innerHTML = '';
+  list.forEach(r => {
+    const card = document.createElement('div');
+    card.className = 'researcher';
+    const domains = r.domains.join(' · ');
+    const src = r.sources[0] ? `<a href="${r.sources[0]}" target="_blank">view sources &#8599;</a>` : '';
+    card.innerHTML = `
+      <h4>${r.name}</h4>
+      <div class="domains">${domains}</div>
+      <div class="stats-row"><span>${r.source_count} sources</span><span>${r.patents} patents</span></div>
+      ${src}
+    `;
+    el.appendChild(card);
+  });
+}
+
+function renderDomains(list) {
+  const el = document.getElementById('domainList');
+  if (!list || !list.length) { el.innerHTML = '<div class="empty">Concept map is building.</div>'; return; }
+  el.innerHTML = '';
+  list.forEach(d => {
+    const card = document.createElement('div');
+    card.className = 'domain';
+    const cats = d.categories.join(', ');
+    const conns = d.connections.length
+      ? 'connects: ' + d.connections.map(c => c.to).join(', ')
+      : '';
+    card.innerHTML = `
+      <h4>${d.name}</h4>
+      <div class="cats">${cats}</div>
+      ${conns ? `<div class="conns">${conns}</div>` : ''}
+    `;
+    el.appendChild(card);
+  });
+}
+
+loadFeed();
+</script>
+
+</body>
+</html>
