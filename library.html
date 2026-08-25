@@ -468,6 +468,12 @@ footer a { color: var(--gold); text-decoration: none; }
   <div class="stat"><div class="num">&#8230;</div><div class="lbl">Meta-Categories</div></div>
 </div>
 
+<!-- Atsyukovsky books -->
+<div class="section" id="booksSection">
+  <h2>Atsyukovsky — Full 5-Volume Set <span class="sub">etherodynamics, translated to English over time; originals preserved for download</span></h2>
+  <div id="booksList"><div class="loading">Loading book set...</div></div>
+</div>
+
 <!-- Translations -->
 <div class="section" id="translationsSection">
   <h2>Fresh Translations <span class="sub">first-ever English translations, from the vault's multilingual scouts</span></h2>
@@ -512,6 +518,7 @@ async function loadFeed() {
     const res = await fetch('./library_feed.json', { cache: 'no-store' });
     const feed = await res.json();
     renderStats(feed.library);
+    renderAtsyukovsky(feed.atsuyskovsky_books);
     renderTranslations(feed.latest_translations);
     renderFinds(feed.latest_finds);
     renderResearchers(feed.top_researchers);
@@ -521,8 +528,55 @@ async function loadFeed() {
   }
 }
 
+function renderAtsyukovsky(books) {
+  const el = document.getElementById('booksList');
+  if (!books || !books.length) { el.innerHTML = '<div class="empty">Book set coming soon.</div>'; return; }
+  el.innerHTML = '';
+  books.forEach(b => {
+    const card = document.createElement('div');
+    card.className = 'translation-card';
+    if (b.progress_done !== undefined) {
+      const pct = Math.round(b.progress_done / b.progress_total * 100);
+      const barStyle = 'height:6px;background:var(--bg2);border-radius:3px;overflow:hidden;margin:8px 0;';
+      const fillStyle = `height:100%;width:${pct}%;background:var(--green);border-radius:3px;`;
+      card.innerHTML = `
+        <h3>${b.title}</h3>
+        <div class="meta"><span>${b.progress_done}/${b.progress_total} chunks translated</span><span>${pct}%</span></div>
+        <div style="${barStyle}"><div style="${fillStyle}"></div></div>
+        <div class="excerpt">Translating the full 320-page volume, one section at a time. New chapters appear here automatically as the background translation runs.</div>
+        ${b.assembled ? '<span class="read-btn" onclick="openAssembled()">Read current translation &#128214;</span>' : ''}
+      `;
+    } else {
+      const src = b.pdf ? `<a class="src-link" href="./${b.pdf}" target="_blank">Download original PDF (${b.size_mb}MB) &#8595;</a>` : '';
+      card.innerHTML = `
+        <h3>Volume ${b.volume} — ${b.title}</h3>
+        <div class="meta"><span>Original Russian</span></div>
+        <div class="excerpt">Preserved from the original source. Full English translation in progress.</div>
+        ${src}
+      `;
+    }
+    el.appendChild(card);
+  });
+}
+
+async function openAssembled() {
+  const overlay = document.getElementById('readerOverlay');
+  document.getElementById('readerTitle').textContent = 'Atsyukovsky — Book 5 (Assembled English Translation)';
+  document.getElementById('readerMeta').innerHTML = '<span>Full volume translation in progress</span>';
+  document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading translation...</div>';
+  overlay.classList.add('show');
+  document.body.style.overflow = 'hidden';
+  try {
+    const res = await fetch('./sources/atsyukovsky/Book5_full_translation.md', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const text = await res.text();
+    document.getElementById('readerBody').innerHTML = miniMarkdown(text);
+  } catch (e) {
+    document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Translation not published yet — check back after the next translation pass.</div>';
+  }
+}
+
 function renderStats(lib) {
-  if (!lib) return;
   const map = [
     ['Researchers', lib.researchers],
     ['Patents', lib.patents],

@@ -86,6 +86,57 @@ def main():
         "aflinks_docs": tax.get("aflinks_total_docs"),
     }
 
+    # --- 1b. Atsyukovsky book set (preserved PDFs + translation progress) ---
+    books_dir = os.path.join(AFLINKS, "books", "atsyukovsky")
+    ats_dir = os.path.join(LL, "sources", "atsyukovsky")
+    bookset = []
+    if os.path.isdir(books_dir) and os.path.isdir(ats_dir):
+        titles = {
+            "Book1": "Methodological Crisis of Modern Theoretical Physics",
+            "Book2": "Methodology of Ether Dynamics & Structure of Matter",
+            "Book3": "Etherdynamic Foundations of Cosmology & Cosmogony",
+            "Book4": "Etherdynamic Foundations of Electromagnetic & Optical Phenomena",
+            "Book5": "Initial Etherdynamic Experiments and Technologies",
+        }
+        for bn, title in titles.items():
+            pdf = os.path.join(books_dir, f"Atsyukovsky_{bn}.pdf")
+            if os.path.exists(pdf):
+                entry = {
+                    "volume": bn.replace("Book", ""),
+                    "title": title,
+                    "pdf": f"books/atsyukovsky/{os.path.basename(pdf)}",
+                    "size_mb": round(os.path.getsize(pdf) / 1e6, 1),
+                }
+                bookset.append(entry)
+        # translation progress
+        manifest = os.path.join(ats_dir, "chunks", "manifest.json")
+        translation_ok = False
+        if os.path.exists(manifest):
+            mf = load_json(manifest)
+            done = 0
+            for c in mf.get("chunks", []):
+                if os.path.exists(os.path.join(ats_dir, "chunks", c["file"].replace(".txt", ".en.txt"))):
+                    done += 1
+            if done > 0:
+                translation_ok = True
+                # Publish the assembled translation into the site repo
+                try:
+                    import shutil
+                    src_asm = os.path.join(ats_dir, "Book5_full_translation.md")
+                    dst_asm = os.path.join(AFLINKS, "sources", "atsyukovsky", "Book5_full_translation.md")
+                    os.makedirs(os.path.dirname(dst_asm), exist_ok=True)
+                    shutil.copy2(src_asm, dst_asm)
+                except Exception as e:
+                    print(f"  WARN: could not publish assembled translation: {e}", flush=True)
+            bookset.append({
+                "volume": "5",
+                "title": "Book 5 — Full English Translation (in progress)",
+                "progress_done": done,
+                "progress_total": mf.get("total_chunks", 220),
+                "assembled": "sources/atsyukovsky/Book5_full_translation.md" if translation_ok else None,
+            })
+    feed["atsuyskovsky_books"] = bookset
+
     # --- 2. Latest translations ---
     tdir = os.path.join(LL, "translations")
     translations_outdir = os.path.join(AFLINKS, "translations")

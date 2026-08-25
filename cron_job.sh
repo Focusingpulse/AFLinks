@@ -57,6 +57,11 @@ ENTRIES=$(python3 -c "import json;d=json.load(open('index.json'));print(len(d))"
 SUMMARY=$(echo "$OUT" | grep -E "Processing|Total entries|Progress|New:|Existing:" | tail -4 | tr '\n' ' ' | cut -c1-280)
 
 echo "[3b/5] Rebuild Living Library feed from growing DB"
+# Pull the living-library shared repo so the feed reflects the latest translations/finds
+LL="$MEMORY_DIR/../living-library"
+if [ -d "$LL" ]; then
+  git -C "$LL" pull --rebase --quiet origin main 2>&1 | tail -1 || true
+fi
 python3 build_library_feed.py 2>&1 | tail -3
 
 echo "[4/5] Commit and push progress"

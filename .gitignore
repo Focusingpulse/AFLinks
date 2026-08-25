@@ -18,3 +18,11 @@ docs/
 *.zip
 *.doc
 *.docx
+
+# Exception: published book set + translations for the Living Library page
+!books/
+!books/**
+!books/**/*.pdf
+!sources/
+!sources/**
+!sources/**/*.md
