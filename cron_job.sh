@@ -43,13 +43,15 @@ if [ -n "$FAMILY" ]; then
 fi
 
 echo "[1/5] Pull latest"
+git stash --quiet 2>/dev/null || true
 git pull --rebase --quiet origin main 2>&1 | tail -1 || git pull --quiet origin main 2>&1 | tail -1
+git stash pop --quiet 2>/dev/null || true
 
 echo "[2/5] Ensure pypdfium2 (skip if present)"
-python3 -c "import pypdfium2; print('already installed')" 2>/dev/null || pip install -q pypdfium2 2>&1 | tail -1
+python3 -c "import pypdfium2; print('already installed')" 2>/dev/null || pip install --break-system-packages -q pypdfium2 2>&1 | tail -1
 
-echo "[3/5] Run queue (scrape/process next batch)"
-OUT=$(python3 run_queue.py 2>&1)
+echo "[3/5] Run queue (scrape/process next batch, 280s timeout)"
+OUT=$(timeout 280 python3 run_queue.py 2>&1)
 echo "$OUT" | tail -25
 
 # Extract progress summary for the ledger
