@@ -35,6 +35,13 @@ def load_json(path, default=None):
     except Exception:
         return default if default is not None else {}
 
+
+def load_concepts(path=None):
+    """Load the curated concept vocabulary (taxonomy/concepts.json)."""
+    path = path or os.path.join(AFLINKS, "taxonomy", "concepts.json")
+    data = load_json(path, {})
+    return data.get("concepts", [])
+
 def parse_md_frontmatter(path):
     """Parse markdown with YAML-ish frontmatter. Returns (meta dict, title, body)."""
     with open(path, encoding="utf-8") as f:
@@ -244,6 +251,9 @@ def main():
     doc_titles = {}
     meta_cats = {}
     doc_cats = {}
+    concept_names = {}
+    meta_concepts = {}
+    doc_concepts = {}
     try:
         for x in docs:
             did = x.get("id")
@@ -252,21 +262,31 @@ def main():
             sid = str(did)
             title = (x.get("title") or x.get("filename") or "").strip()
             subs = x.get("categories") or []
+            con = x.get("concepts") or []
             doc_titles[sid] = title
             doc_cats[sid] = subs
+            doc_concepts[sid] = con
             for mc in (x.get("meta_categories") or []):
                 if mc:
                     cat_index.setdefault(mc, []).append(sid)
                     if mc not in meta_cats:
                         meta_cats[mc] = set()
                     meta_cats[mc].update(subs)
+                    for cid in con:
+                        meta_concepts.setdefault(mc, set()).add(cid)
+        vocab = load_concepts() if os.path.exists(os.path.join(AFLINKS, "taxonomy", "concepts.json")) else []
+        concept_names = {c["id"]: c.get("name") or c["id"] for c in vocab}
     except Exception:
         cat_index, doc_titles, meta_cats, doc_cats = {}, {}, {}, {}
+        meta_concepts, concept_names = {}, {}
     feed["seam"] = {
         "category_index": cat_index,
         "doc_titles": doc_titles,
         "meta_cats": {k: sorted(v) for k, v in meta_cats.items()},
         "doc_cats": doc_cats,
+        "meta_concepts": {k: sorted(v) for k, v in meta_concepts.items()},
+        "concept_names": concept_names,
+        "doc_concepts": doc_concepts,
     }
 
     out = os.path.join(AFLINKS, "library_feed.json")

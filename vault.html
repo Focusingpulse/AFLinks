@@ -351,6 +351,20 @@ header .af-link:hover {
   font-size: 0.72rem;
 }
 .seam-chip-more { color: var(--text-faint); }
+.seam-concept-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  width: 100%;
+}
+.seam-chip.concept {
+  border-color: var(--bronze);
+  color: var(--bronze);
+  background: rgba(192,140,90,0.06);
+}
 .seam-section-lbl {
   color: var(--gold-dim);
   font-size: 0.72rem;
@@ -984,18 +998,28 @@ function computeSeam(leftVal, rightVal) {
   const shared = lsubs.filter(s => rsubs.includes(s));
   const sharedSet = new Set(shared);
 
-  // Crossings: a doc reaches the OTHER side via a sub-category the other side
-  // also uses, even though it isn't tagged with the other meta itself.
+  // Shared concepts (L2): ideas both themes reach for, even over different sub-cats.
+  const lcon = SEAM_INDEX.meta_concepts[leftVal] || [];
+  const rcon = SEAM_INDEX.meta_concepts[rightVal] || [];
+  const sharedConcepts = lcon.filter(cid => rcon.includes(cid));
+  const sharedConceptSet = new Set(sharedConcepts);
+
+  // Crossings: a doc reaches the OTHER side via a shared sub-category OR a
+  // shared concept, even though it isn't tagged with the other meta itself.
   const leftReach = [], rightReach = [];
   for (const id of li) {
     if (rs.has(id)) continue;
-    if ((SEAM_INDEX.doc_cats[id] || []).some(c => sharedSet.has(c))) leftReach.push(id);
+    const subs = SEAM_INDEX.doc_cats[id] || [];
+    const cons = SEAM_INDEX.doc_concepts[id] || [];
+    if (subs.some(c => sharedSet.has(c)) || cons.some(c => sharedConceptSet.has(c))) leftReach.push(id);
   }
   for (const id of ri) {
     if (ls.has(id)) continue;
-    if ((SEAM_INDEX.doc_cats[id] || []).some(c => sharedSet.has(c))) rightReach.push(id);
+    const subs = SEAM_INDEX.doc_cats[id] || [];
+    const cons = SEAM_INDEX.doc_concepts[id] || [];
+    if (subs.some(c => sharedSet.has(c)) || cons.some(c => sharedConceptSet.has(c))) rightReach.push(id);
   }
-  return { both, onlyLeft: li.length, onlyRight: ri.length, leftReach, rightReach, shared };
+  return { both, onlyLeft: li.length, onlyRight: ri.length, leftReach, rightReach, shared, sharedConcepts };
 }
 
 function renderSeam(leftVal, rightVal) {
@@ -1024,13 +1048,20 @@ function renderSeam(leftVal, rightVal) {
 
   const seam = computeSeam(leftVal, rightVal);
 
-  // --- Shared ground chips ---
+  // --- Shared ground chips (sub-categories + concepts) ---
   const groundChips = seam.shared.slice(0, 6)
     .map(g => `<span class="seam-chip">${escapeHtml(g)}</span>`).join('');
-  groundEl.innerHTML = seam.shared.length
+  const conceptNames = (SEAM_INDEX.concept_names || {});
+  const sharedConcepts = seam.sharedConcepts || [];
+  const conceptChips = sharedConcepts.slice(0, 5)
+    .map(cid => `<span class="seam-chip concept">${escapeHtml(conceptNames[cid] || cid)}</span>`).join('');
+  const conceptBlob = sharedConcepts.length
+    ? `<div class="seam-concept-row"><span class="seam-chip-lbl">shared concept</span> ${conceptChips}${sharedConcepts.length > 5 ? `<span class="seam-chip-more">+${(sharedConcepts.length - 5)}</span>` : ''}</div>`
+    : '';
+  groundEl.innerHTML = (seam.shared.length
     ? `<span class="seam-chip-lbl">shared ground</span> ${groundChips}` +
       (seam.shared.length > 6 ? `<span class="seam-chip-more">+${(seam.shared.length - 6)} more</span>` : '')
-    : '<span class="seam-chip-lbl">no shared sub-categories yet</span>';
+    : '<span class="seam-chip-lbl">no shared sub-categories yet</span>') + conceptBlob;
 
   // Exact overlap documents (tagged with BOTH themes)
   const bothCap = Math.min(seam.both.length, 12);

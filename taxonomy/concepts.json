@@ -1,0 +1,38 @@
+{
+  "_about": {
+    "version": "0.1.0",
+    "description": "Curated concept vocabulary for the Aetherforce Knowledge Vault. This is the single source of truth that collapses raw text terms into normalized concepts, then groups concepts into themes (meta-categories), then lets thought-clusters emerge from co-occurrence. Rebuilt/derived by the tag_concepts.py pipeline.",
+    "layering": {
+      "L1_terms": "Raw vocabulary captured from text (filenames, titles, previews), normalized via aliases.",
+      "L2_concepts": "Canonical ideas (ids below). Terms collapse into these.",
+      "L3_themes": "Concept groups = the meta-categories (23), derived by assigning each concept a theme.",
+      "L4_clusters": "EMERGENT, not curated: which concepts co-occur across the corpus (computed at query time)."
+    }
+  },
+  "concepts": [
+    { "id": "aether", "name": "Aether / Ether Theories", "aliases": ["aether", "ether", "etherodynamic", "luminiferous", "aether wind", "ether wind"], "theme": "Aether, Light & Electricity", "note": "Broad ether-based physics; distinct from the Aetherforce brand layer." },
+    { "id": "scalar", "name": "Scalar Wave Phenomena", "aliases": ["scalar wave", "scalar field", "longitudinal wave", "scalar electromagnet", "scalar"], "theme": "Aether, Light & Electricity" },
+    { "id": "torsion", "name": "Torsion Fields", "aliases": ["torsion field", "torsion", "spin field", "axion"], "theme": "Plasma, Torsion & Cosmology" },
+    { "id": "zero_point", "name": "Zero-Point / Vacuum Energy", "aliases": ["zero point", "zeropoint", "zero-point", "vacuum energy", "vacuum fluctuation", "casmir", "casimir", "free energy"], "theme": "Alternative Energy Technologies" },
+    { "id": "overunity", "name": "Overunity / Free Energy", "aliases": ["overunity", "over-unity", "over unit", "overunit", "free energy", "perpetual"], "theme": "Alternative Energy Technologies" },
+    { "id": "cold_fusion", "name": "LENR / Cold Fusion", "aliases": ["cold fusion", "low energy nuclear", "lenr", "lattice", "palladium"], "theme": "Alternative Energy Technologies" },
+    { "id": "tesla", "name": "Tesla Technologies", "aliases": ["tesla", "wardenclyffe", "magnifying transmitter"], "theme": "Aether, Light & Electricity", "tags": ["Tesla"] },
+    { "id": "keely", "name": "Keely / Sympathetic Vibration", "aliases": ["keely", "sympathetic vibration", "hydrovacuum"], "theme": "Aether, Light & Electricity" },
+    { "id": "schauberger", "name": "Schauberger / Implosion", "aliases": ["schauberger", "implosion", "repulsine", "vortex energy"], "theme": "Water Structure & Memory" },
+    { "id": "water_memory", "name": "Water Structure & Memory", "aliases": ["water memory", "water structure", "structured water", "exclusion zone", "fourth phase", "leinenger"], "theme": "Water Structure & Memory" },
+    { "id": "morphic", "name": "Morphogenic / Morphic Fields", "aliases": ["morphic", "morphogen", "formative causation", "sheldrake"], "theme": "Biological & Morphogenetic Science" },
+    { "id": "radionics", "name": "Radionics / Radiesthesia", "aliases": ["radion", "radiesthesia", "black box", "rhythm box", "orgone", "dowsing"], "theme": "Radionics, Radiesthesia & Shape Power" },
+    { "id": "psychotronic", "name": "Psychotronic / Mind-Matter", "aliases": ["psychotronic", "telekinesis", "telepath", "psionic", "mind machine", "remote influence"], "theme": "Transhumanism & Psychotronic Warfare" },
+    { "id": "biophoton", "name": "Biophotonics", "aliases": ["biophoton", "bio-photon", "bio photon", "light emission"], "theme": "Biological & Morphogenetic Science" },
+    { "id": "electrogravitics", "name": "Electrogravitics / Anti-Gravity", "aliases": ["electrogravit", "antigrav", "anti-grav", "biefeld-brown", "torsion drive"], "theme": "Alternative Energy Technologies" },
+    { "id": "vortex", "name": "Vortex / Implosion Dynamics", "aliases": ["vortex", "implosion", "cyclonic", "counter-rotat", "counter rotat"], "theme": "Water Structure & Memory" },
+    { "id": "geometry_sacred", "name": "Sacred Geometry / Harmonics", "aliases": ["sacred geomet", "golden", "fibonacci", "phi", "platonic", "rodin", "toroid", "harmonics"], "theme": "Sacred & Projective Geometry" },
+    { "id": "crystal", "name": "Crystals / Crystal Energy", "aliases": ["crystal", "quartz", "amythyst", "piezoelectric"], "theme": "Material Sciences & Alchemy" },
+    { "id": "ether_electric", "name": "Electric Universe", "aliases": ["electric universe", "plasma cosmolog", "thunderbolt", "electrical universe"], "theme": "Plasma, Torsion & Cosmology" },
+    { "id": "suppression", "name": "Conspiracy / Suppression", "aliases": ["suppression", "conspiracy", "suppresed", "suppressed", "hush"], "theme": "Geopolitics & Hidden History" },
+    { "id": "transhuman", "name": "Transhumanism", "aliases": ["transhuman", "posthuman", "cyborg", "augmentation"], "theme": "Transhumanism & Psychotronic Warfare" },
+    { "id": "regenerative", "name": "Regenerative Agriculture", "aliases": ["regenerative", "permaculture", "soil", "compost", "polyculture", "cover ?crop"], "theme": "Regenerative Agriculture" },
+    { "id": "borderland", "name": "Borderland Research", "aliases": ["borderland", "frontier science", "fringe"], "theme": "Challenges to the Standard Model" },
+    { "id": "consciousness", "name": "Consciousness Studies", "aliases": ["consciousness", "non-ordinary ordinary states"], "theme": "Biological & Morphogenetic Science", "tags": ["Consciousness"] }
+  ]
+}

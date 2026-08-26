@@ -64,6 +64,9 @@ LL="$MEMORY_DIR/../living-library"
 if [ -d "$LL" ]; then
   git -C "$LL" pull --rebase --quiet origin main 2>&1 | tail -1 || true
 fi
+# Tag new documents with concepts (deterministic, cheap) BEFORE the feed build,
+# so the seam/comparison layers stay fresh as the archive grows.
+python3 tag_concepts.py 2>&1 | head -2
 python3 build_library_feed.py 2>&1 | tail -3
 
 echo "[4/5] Commit and push progress"
