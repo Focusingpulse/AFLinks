@@ -466,7 +466,7 @@ footer a { color: var(--gold); text-decoration: none; }
   <div class="stat"><div class="num">&#8230;</div><div class="lbl">Categories</div></div>
   <div class="stat"><div class="num">&#8230;</div><div class="lbl">Archive Docs</div></div>
   <div class="stat"><div class="num">&#8230;</div><div class="lbl">Meta-Categories</div></div>
-  <div class="stat"><div class="num">&#8230;</div><div class="lbl">Translations Done</div></div>
+  <div class="stat"><div class="num">&#8230;</div><div class="lbl">Translations Published</div></div>
   <div class="stat"><div class="num">&#8230;</div><div class="lbl">Pages Translated</div></div>
 </div>
 
@@ -585,7 +585,7 @@ function renderStats(lib) {
     ['Categories', lib.categories],
     ['Archive Docs', lib.archive_entries || lib.aflinks_docs],
     ['Meta-Categories', lib.meta_categories],
-    ['Translations Done', lib.translations],
+    ['Translations Published', lib.translations],
     ['Pages Translated', lib.pages_translated],
   ];
   const band = document.getElementById('statsBand');
