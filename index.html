@@ -756,6 +756,7 @@
     <div class="hero">
         <h1>Aetherforce Knowledge Vault</h1>
         <p>Explore <span id="heroDocCount">6,562</span> primary source documents — patents, papers &amp; research — powering Aetherforce's living science archive. Each document connects to Aetherforce articles, shop, and community resources.</p>
+        <p class="hero-trans">■ <span id="heroTransCount">…</span> translations done · <span id="heroPagesCount">…</span> pages translated &amp; growing</p>
         <a class="hero-af-link" href="https://www.aetherforce.energy" target="_blank">Visit Aetherforce →</a>
         <a class="hero-af-link" href="./vault.html" style="margin-left:8px;border-color:var(--accent-dim);">🗝 Enter the Vault</a>
         <a class="hero-af-link" href="./library.html" style="margin-left:8px;border-color:var(--accent-dim);">📚 Living Library</a>
@@ -1109,6 +1110,18 @@
                 const response = await fetch('./index.json');
                 allData = await response.json();
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
+                // Live translation counters from the Living Library feed
+                try {
+                    const feedRes = await fetch('./library_feed.json', { cache: 'no-store' });
+                    const feed = await feedRes.json();
+                    const lib = feed.library || {};
+                    if (lib.translations != null) {
+                        document.getElementById('heroTransCount').textContent = Number(lib.translations).toLocaleString();
+                    }
+                    if (lib.pages_translated != null) {
+                        document.getElementById('heroPagesCount').textContent = Number(lib.pages_translated).toLocaleString();
+                    }
+                } catch (e) { /* feed optional; hero keeps working without it */ }
                 document.getElementById('loading').style.display = 'none';
                 buildMetaCategoryList();
                 buildCategoryList();

@@ -91,12 +91,15 @@ def main():
         "categories": len(tax.get("categories", {})),
         "meta_categories": len(tax.get("meta_categories", {})),
         "aflinks_docs": tax.get("aflinks_total_docs"),
+        "translations": 0,
+        "pages_translated": 0,
     }
 
     # --- 1b. Atsyukovsky book set (preserved PDFs + translation progress) ---
     books_dir = os.path.join(AFLINKS, "books", "atsyukovsky")
     ats_dir = os.path.join(LL, "sources", "atsyukovsky")
     bookset = []
+    book5_pages = 0
     if os.path.isdir(books_dir) and os.path.isdir(ats_dir):
         titles = {
             "Book1": "Methodological Crisis of Modern Theoretical Physics",
@@ -126,6 +129,7 @@ def main():
                     done += 1
             if done > 0:
                 translation_ok = True
+                book5_pages = done
                 # Publish the assembled translation into the site repo
                 try:
                     import shutil
@@ -147,10 +151,20 @@ def main():
     # --- 2. Latest translations ---
     tdir = os.path.join(LL, "translations")
     translations_outdir = os.path.join(AFLINKS, "translations")
+    translations_done = 0
+    pages_translated = book5_pages
     if os.path.isdir(tdir):
         os.makedirs(translations_outdir, exist_ok=True)
         for path in sorted(glob.glob(os.path.join(tdir, "*.md")), reverse=True):
             meta, title, body = parse_md_frontmatter(path)
+            translations_done += 1
+            # Count pages: use [pN] page markers when present, else estimate by length
+            markers = re.findall(r"\[p\s*\d+\]", body)
+            if markers:
+                nums = [int(m.replace("[p", "").replace("]", "").strip()) for m in markers]
+                pages_translated += max(nums)
+            else:
+                pages_translated += max(1, round(len(body) / 3000))
             domain = meta.get("Domain") or meta.get("domain") or ""
             src = meta.get("Source URL") or meta.get("source_url") or ""
             lang = meta.get("Language") or meta.get("language") or ""
@@ -171,6 +185,8 @@ def main():
                 "content_file": f"translations/{fname}",
                 "excerpt": body.strip()[:220],
             })
+    feed["library"]["translations"] = translations_done
+    feed["library"]["pages_translated"] = pages_translated
 
     # --- 3. Latest finds (scout sources) ---
     sdir = os.path.join(LL, "sources")
