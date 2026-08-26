@@ -848,8 +848,28 @@ function updateStats(visible) {
   document.getElementById('statVisible').textContent = visible;
 }
 
+// Live counts: pull the small, every-scrape feed (not the full 8MB+ index),
+// so the vault total + every chest stays current as new archives come online.
+async function loadLiveStats() {
+  try {
+    const res = await fetch('./library_feed.json', { cache: 'no-store' });
+    const feed = await res.json();
+    const lib = feed.library || {};
+    if (typeof lib.archive_entries === 'number') {
+      document.getElementById('statTotal').textContent = lib.archive_entries.toLocaleString();
+    }
+    const counts = lib.meta_counts || {};
+    META_CATEGORIES.forEach(c => { c.count = counts[c.name] || 0; });
+    // Rebuild the current lens so chest totals + focus select show live numbers
+    setLens(currentLens);
+  } catch (e) {
+    /* keep hardcoded fallback if the feed isn't published yet */
+  }
+}
+
 buildDial();
 setLens(1);
+loadLiveStats();
 </script>
 
 </body>

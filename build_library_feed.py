@@ -218,12 +218,20 @@ def main():
             ][:5],
         })
 
-    # --- 6. AFLinks index count (live) ---
+    # --- 6. AFLinks index count (live) + meta-category counts for the vault ---
     try:
         with open(os.path.join(AFLINKS, "index.json"), encoding="utf-8") as f:
-            feed["library"]["archive_entries"] = len(json.load(f))
+            docs = json.load(f)
+        feed["library"]["archive_entries"] = len(docs)
+        mc = {}
+        for d in docs:
+            for m in (d.get("meta_categories") or []):
+                if m:
+                    mc[m] = mc.get(m, 0) + 1
+        feed["library"]["meta_counts"] = mc
     except Exception:
         feed["library"]["archive_entries"] = None
+        feed["library"]["meta_counts"] = {}
 
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:

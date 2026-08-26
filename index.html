@@ -755,7 +755,7 @@
     <!-- Hero: Aetherforce front and center -->
     <div class="hero">
         <h1>Aetherforce Knowledge Vault</h1>
-        <p>Explore 6,562 primary source documents — patents, papers & research — powering Aetherforce's living science archive. Each document connects to Aetherforce articles, shop, and community resources.</p>
+        <p>Explore <span id="heroDocCount">6,562</span> primary source documents — patents, papers &amp; research — powering Aetherforce's living science archive. Each document connects to Aetherforce articles, shop, and community resources.</p>
         <a class="hero-af-link" href="https://www.aetherforce.energy" target="_blank">Visit Aetherforce →</a>
         <a class="hero-af-link" href="./vault.html" style="margin-left:8px;border-color:var(--accent-dim);">🗝 Enter the Vault</a>
         <a class="hero-af-link" href="./library.html" style="margin-left:8px;border-color:var(--accent-dim);">📚 Living Library</a>
@@ -1105,6 +1105,7 @@
             try {
                 const response = await fetch('./index.json');
                 allData = await response.json();
+                document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
                 document.getElementById('loading').style.display = 'none';
                 buildMetaCategoryList();
                 buildCategoryList();
