@@ -237,23 +237,36 @@ def main():
     # Compact: meta-category -> [doc ids] + id -> title. Lets the vault compute
     # the REAL overlap between any two categories (documents tagged with BOTH) in
     # memory, without loading the full multi-MB index. Grows safely with the archive.
+    # Also carries the sub-category layer (meta_cats + doc_cats) so the vault can
+    # surface *crossings* — documents that share ground with BOTH themes even when
+    # no doc is tagged with both (fixes the empty-seam problem from the data model).
     cat_index = {}
     doc_titles = {}
+    meta_cats = {}
+    doc_cats = {}
     try:
         for x in docs:
             did = x.get("id")
             if did is None:
                 continue
             sid = str(did)
-            doc_titles[sid] = (x.get("title") or x.get("filename") or "").strip()
+            title = (x.get("title") or x.get("filename") or "").strip()
+            subs = x.get("categories") or []
+            doc_titles[sid] = title
+            doc_cats[sid] = subs
             for mc in (x.get("meta_categories") or []):
                 if mc:
                     cat_index.setdefault(mc, []).append(sid)
+                    if mc not in meta_cats:
+                        meta_cats[mc] = set()
+                    meta_cats[mc].update(subs)
     except Exception:
-        cat_index, doc_titles = {}, {}
+        cat_index, doc_titles, meta_cats, doc_cats = {}, {}, {}, {}
     feed["seam"] = {
         "category_index": cat_index,
         "doc_titles": doc_titles,
+        "meta_cats": {k: sorted(v) for k, v in meta_cats.items()},
+        "doc_cats": doc_cats,
     }
 
     out = os.path.join(AFLINKS, "library_feed.json")

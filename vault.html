@@ -333,6 +333,56 @@ header .af-link:hover {
   font-style: italic;
   padding: 14px 20px;
 }
+.vesica-shared {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin: 6px 0 4px;
+  font-size: 0.72rem;
+}
+.seam-chip-lbl { color: var(--text-faint); font-style: italic; }
+.seam-chip {
+  padding: 2px 8px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 10px;
+  color: var(--gold);
+  background: rgba(201,168,76,0.06);
+  font-size: 0.72rem;
+}
+.seam-chip-more { color: var(--text-faint); }
+.seam-section-lbl {
+  color: var(--gold-dim);
+  font-size: 0.72rem;
+  font-style: italic;
+  text-align: center;
+  margin: 8px 0 2px;
+  letter-spacing: 0.03em;
+}
+.seam-cross-hint {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  margin: 2px 0 4px;
+}
+.seam-row.cross { color: var(--bronze); }
+.seam-row.cross .cross-side {
+  font-size: 0.62rem;
+  color: var(--text-faint);
+  margin-left: 6px;
+  flex-shrink: 0;
+}
+.seam-row.cross .cross-side.l { color: var(--gold-dim); }
+.seam-row.cross .cross-side.r { color: var(--bronze); }
+.seam-empty {
+  color: var(--text-dim);
+  font-size: 0.75rem;
+  font-style: italic;
+  display: block;
+  padding: 8px;
+}
 
 /* === Focus mode === */
 .focus-mode {
@@ -586,6 +636,7 @@ header .af-link:hover {
     <div class="vesica-overlap" id="vesicaOverlap">the seam between</div>
   </div>
   <h3 class="vesica-seam-title" id="vesicaSeamTitle">Documents in the seam</h3>
+  <div class="vesica-shared" id="vesicaShared"></div>
   <div class="vesica-counts" id="vesicaCounts"></div>
   <div class="vesica-seam-list" id="vesicaSeamList"></div>
 </div>
@@ -916,7 +967,10 @@ function escapeHtml(s) {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 }
 
-// Resolve the real overlap between two themes: documents tagged with BOTH.
+// Resolve what lives between two themes: exact overlaps PLUS crossings
+// (documents on either side whose sub-categories touch the other side's
+// vocabulary). This fixes the empty-seam problem — nearly half of category pairs
+// have no doc tagged with BOTH, but most still share real ground underneath.
 function computeSeam(leftVal, rightVal) {
   if (!SEAM_INDEX || leftVal === rightVal) return null;
   const li = SEAM_INDEX.category_index[leftVal] || [];
@@ -924,11 +978,24 @@ function computeSeam(leftVal, rightVal) {
   const rs = new Set(ri);
   const ls = new Set(li);
   const both = li.filter(id => rs.has(id));
-  return {
-    both,
-    onlyLeft: li.filter(id => !rs.has(id)),
-    onlyRight: ri.filter(id => !ls.has(id)),
-  };
+
+  const lsubs = SEAM_INDEX.meta_cats[leftVal] || [];
+  const rsubs = SEAM_INDEX.meta_cats[rightVal] || [];
+  const shared = lsubs.filter(s => rsubs.includes(s));
+  const sharedSet = new Set(shared);
+
+  // Crossings: a doc reaches the OTHER side via a sub-category the other side
+  // also uses, even though it isn't tagged with the other meta itself.
+  const leftReach = [], rightReach = [];
+  for (const id of li) {
+    if (rs.has(id)) continue;
+    if ((SEAM_INDEX.doc_cats[id] || []).some(c => sharedSet.has(c))) leftReach.push(id);
+  }
+  for (const id of ri) {
+    if (ls.has(id)) continue;
+    if ((SEAM_INDEX.doc_cats[id] || []).some(c => sharedSet.has(c))) rightReach.push(id);
+  }
+  return { both, onlyLeft: li.length, onlyRight: ri.length, leftReach, rightReach, shared };
 }
 
 function renderSeam(leftVal, rightVal) {
@@ -936,43 +1003,100 @@ function renderSeam(leftVal, rightVal) {
   const countsEl = document.getElementById('vesicaCounts');
   const titleEl = document.getElementById('vesicaSeamTitle');
   const listEl = document.getElementById('vesicaSeamList');
+  const groundEl = document.getElementById('vesicaShared');
 
   if (!SEAM_INDEX) {
     overlapLbl.textContent = 'the seam between';
     titleEl.textContent = 'Documents in the seam';
     countsEl.innerHTML = '';
+    groundEl.innerHTML = '';
     listEl.innerHTML = '<p class="seam-hint">Loading the vault index…</p>';
     return;
   }
   if (leftVal === rightVal) {
     overlapLbl.textContent = 'same chest \u2014 pick two';
-    titleEl.textContent = 'Documents in the seam';
+    titleEl.textContent = 'Documents between the themes';
     countsEl.innerHTML = '';
+    groundEl.innerHTML = '';
     listEl.innerHTML = '<p class="seam-hint">Choose two different themes to unlock what lives between them.</p>';
     return;
   }
 
   const seam = computeSeam(leftVal, rightVal);
-  overlapLbl.textContent = seam.both.length.toLocaleString() + ' in the seam';
-  titleEl.textContent = seam.both.length + ' document' + (seam.both.length === 1 ? '' : 's') + ' carry both themes';
 
-  countsEl.innerHTML =
-    `<div class="seam-count"><b>${seam.onlyLeft.length.toLocaleString()}</b><span>left-only</span></div>` +
-    `<div class="seam-count seam"><b>${seam.both.length.toLocaleString()}</b><span>the seam</span></div>` +
-    `<div class="seam-count"><b>${seam.onlyRight.length.toLocaleString()}</b><span>right-only</span></div>`;
+  // --- Shared ground chips ---
+  const groundChips = seam.shared.slice(0, 6)
+    .map(g => `<span class="seam-chip">${escapeHtml(g)}</span>`).join('');
+  groundEl.innerHTML = seam.shared.length
+    ? `<span class="seam-chip-lbl">shared ground</span> ${groundChips}` +
+      (seam.shared.length > 6 ? `<span class="seam-chip-more">+${(seam.shared.length - 6)} more</span>` : '')
+    : '<span class="seam-chip-lbl">no shared sub-categories yet</span>';
 
+  // Exact overlap documents (tagged with BOTH themes)
+  const bothCap = Math.min(seam.both.length, 12);
   const seamLink = `./index.html?cat=${encodeURIComponent(leftVal)}&cat=${encodeURIComponent(rightVal)}`;
-  const cap = Math.min(seam.both.length, 24);
-  let html = '';
-  for (let k = 0; k < cap; k++) {
+  let bothHtml = '';
+  for (let k = 0; k < bothCap; k++) {
     const id = seam.both[k];
+    const t = (SEAM_INDEX.doc_titles[id] || 'Untitled document');
+    bothHtml += `<a class="seam-row" href="${seamLink}" title="${escapeHtml(t)}"><span class="seam-bullet">&#10086;</span>${escapeHtml(t)}</a>`;
+  }
+  if (seam.both.length > bothCap) {
+    bothHtml += `<a class="seam-row seam-more" href="${seamLink}">&#10086; See all ${(seam.both.length - bothCap).toLocaleString()} exact overlaps &#8594;</a>`;
+  }
+
+  // Crossings: docs near the seam via shared sub-categories
+  const crossingIds = [...seam.leftReach, ...seam.rightReach];
+  const ccap = Math.min(crossingIds.length, 12);
+  let crossesHtml = '';
+  for (let k = 0; k < ccap; k++) {
+    const id = crossingIds[k];
     const t = (SEAM_INDEX.doc_titles[id] || 'Untitled document').slice(0, 90);
-    html += `<a class="seam-row" href="${seamLink}" title="${escapeHtml(t)}"><span class="seam-bullet">&#10086;</span>${escapeHtml(t)}</a>`;
+    const inLeft = seam.leftReach.includes(id);
+    crossesHtml += `<a class="seam-row cross" href="${seamLink}" title="${escapeHtml(t)}"><span class="seam-bullet">&#10086;</span>${escapeHtml(t)}<span class="cross-side ${inLeft ? 'l' : 'r'}">${inLeft ? 'left' : 'right'}</span></a>`;
   }
-  if (seam.both.length > cap) {
-    html += `<a class="seam-row seam-more" href="${seamLink}">&#10086; See all ${(seam.both.length - cap).toLocaleString()} more documents in this seam &#8594;</a>`;
+  if (crossingIds.length > ccap) {
+    crossesHtml += `<a class="seam-row seam-more" href="${seamLink}">&#10086; ${(crossingIds.length - ccap).toLocaleString()} more crossings &#8594;</a>`;
   }
-  listEl.innerHTML = html || '<p class="seam-hint">No documents live in both of these themes yet.</p>';
+
+  // --- Headline + three-way counts ---
+  if (seam.both.length >= 1 && seam.leftReach.length + seam.rightReach.length === 0) {
+    // Classic seam: only exact overlaps
+    overlapLbl.textContent = seam.both.length.toLocaleString() + ' in the seam';
+    titleEl.textContent = seam.both.length + ' document' + (seam.both.length === 1 ? '' : 's') + ' carry both themes';
+    countsEl.innerHTML =
+      `<div class="seam-count"><b>${seam.onlyLeft.toLocaleString()}</b><span>left-only</span></div>` +
+      `<div class="seam-count seam"><b>${seam.both.length.toLocaleString()}</b><span>the seam</span></div>` +
+      `<div class="seam-count"><b>${seam.onlyRight.toLocaleString()}</b><span>right-only</span></div>`;
+    listEl.innerHTML = bothHtml || '<p class="seam-hint">No documents live in both of these themes yet.</p>';
+  } else if (seam.leftReach.length + seam.rightReach.length > 0) {
+    // Crossings exist: show the fabric, not an empty answer
+    const total = seam.both.length + seam.leftReach.length + seam.rightReach.length;
+    overlapLbl.textContent = (seam.both.length + (seam.leftReach.length + seam.rightReach.length)).toLocaleString() + ' connected';
+    titleEl.textContent = seam.both.length
+      ? seam.both.length + ' carry both themes, and ' + (seam.leftReach.length + seam.rightReach.length).toLocaleString() + ' cross the shared ground'
+      : 'Nothing holds both themes yet \u2014 but ' + total.toLocaleString() + ' documents cross the shared ground between them';
+    countsEl.innerHTML =
+      `<div class="seam-count"><b>${seam.both.length.toLocaleString()}</b><span>in both</span></div>` +
+      `<div class="seam-count seam"><b>${(seam.leftReach.length + seam.rightReach.length).toLocaleString()}</b><span>crossings</span></div>` +
+      `<div class="seam-count"><b>${(seam.onlyLeft + seam.onlyRight).toLocaleString()}</b><span>one-side</span></div>`;
+    let html = bothHtml;
+    if (seam.both.length) html += '<div class="seam-section-lbl">are in both themes</div>';
+    else html += '<div class="seam-section-lbl">nearest crossings' +
+      (seam.leftReach.length && seam.rightReach.length ? ' \u2014 from both sides' : '') + '</div>';
+    html += '<div class="seam-cross-hint">' +
+      (seam.leftReach.length ? '<span>left reaches through</span>' : '') +
+      (seam.rightReach.length ? '<span>right reaches through</span>' : '') + '</div>';
+    html += crossesHtml;
+    listEl.innerHTML = html;
+  } else {
+    // Both empty: be honest
+    overlapLbl.textContent = 'no connection yet';
+    titleEl.textContent = 'These two themes have not crossed in the archive yet';
+    countsEl.innerHTML =
+      `<span class="seam-empty">As the archive grows, seams will surface here.</span>`;
+    listEl.innerHTML = '<p class="seam-hint">Try two themes that share more ground, or watch this space after the next scrape \u2014 the archive adds hundreds of documents each cycle.</p>';
+  }
 }
 
 function updateStats(visible) {
