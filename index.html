@@ -889,6 +889,28 @@
             'alchemy': AF_LINKS + '#alchemy'
         };
 
+        // Exact permalink for each known Aetherforce article (verified live).
+        const AF_ARTICLE_URLS = {
+            "The Book of the Damned by Charles Fort": AF_BASE + "/the-book-of-the-damned-by-charles-fort/",
+            "New Organs of Perception: Goethean Science as a Cultural Therapeutics": AF_BASE + "/new-organs-of-perception-goethean-science-as-a-cultural-therapeutics/",
+            "Goethe and the Evolution of Science – Craig Holdrege": AF_BASE + "/goethe-and-the-evolution-of-science/",
+            "Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison": AF_BASE + "/nondual-rational-empiricism-the-ontic-shadow-of-post-modernity-by-joel-morrison/",
+            "Formative Powers of the Living – Wolfgang Peter": AF_BASE + "/formative-powers-of-the-living-wolfgang-peter/",
+            "All Science Must Be Rooted in Experience by Stephen Talbott": AF_BASE + "/all-science-must-be-rooted-in-experience-by-stephen-talbott-2/",
+            "Sorce Theory & SpinbitZ – Joel Morrison": AF_BASE + "/sorce-theory-spinbitz-joel-morrison/",
+            "Judgment through Intuitive Perception – Johann Wolfgang von Goethe": AF_BASE + "/judgment-through-intuitive-perception-johann-wolfgang-von-goethe/",
+            "Polarity by Johann Wolfgang von Goethe": AF_BASE + "/polarity-by-johann-wolfgang-von-goethe/",
+            "Empirical Observation and Science by Johann Wolfgang von Goethe": AF_BASE + "/empirical-observation-and-science/",
+            "Harmonics as A Science – Hans Kayser": AF_BASE + "/harmonics-as-a-science-hans-kayser/",
+            "Metamorphosis and Metamorphic Thinking by Craig Holdrege": AF_BASE + "/metamorphosis-and-metamorphic-thinking-by-craig-holdrege/",
+            "Metamorphosis of Plants – Johann Wolfgang von Goethe": AF_BASE + "/metamorphosis-of-plants-johann-wolfgang-von-goethe/",
+            "The Embryo's Eloquent Form – About the Embryology of Jaap Van Der Wal": AF_BASE + "/the-embryos-eloquent-form-about-the-embryology-of-jaap-van-der-wal/",
+            "Organon & Imago – Radionics, Thoughts & Resonant Patterns by H. Philippi, D. Sc.": AF_BASE + "/organon-imago-radionics-thoughts-resonant-patterns-by-h-philippi-d-sc/",
+            "The Form of Wholeness: Multiplicity and Unity": AF_BASE + "/the-form-of-wholeness-multiplicity-and-unity/",
+            "Qualities by Stephen L. Talbott": AF_BASE + "/qualities-by-stephen-l-talbott/",
+            "What Are Qualities by Stephen L. Talbott": AF_BASE + "/what-are-qualities-by-stephen-l-talbott/",
+        };
+
         const AF_REAL_ARTICLES = [
             { title: "The Book of the Damned by Charles Fort", cats: ["Aether Physics", "Suppression", "Borderland Research"] },
             { title: "New Organs of Perception: Goethean Science as a Cultural Therapeutics", cats: ["Goethean Science", "Consciousness"] },
@@ -1058,6 +1080,36 @@
                 articles: [],
                 shop: null,
                 links: AF_LINKS_SECTIONS.sacred_geometry, linksLabel: "Sacred Geometry Resources"
+            },
+            "Energy": {
+                articles: ["Harmonics as A Science – Hans Kayser", "Formative Powers of the Living – Wolfgang Peter"],
+                shop: AF_SHOP_SECTIONS.coherent_field, shopLabel: "Coherent Field Generators",
+                links: AF_LINKS_SECTIONS.harmonics, linksLabel: "Harmonics Resources"
+            },
+            "Alternative Physics": {
+                articles: ["Sorce Theory & SpinbitZ – Joel Morrison", "Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison"],
+                shop: null,
+                links: AF_LINKS_SECTIONS.scalar, linksLabel: "Scalar & Longitudinal Science Resources"
+            },
+            "Quantum & Relativity": {
+                articles: ["Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison"],
+                shop: null,
+                links: AF_LINKS_SECTIONS.scalar, linksLabel: "Scalar & Longitudinal Science Resources"
+            },
+            "Electromagnetism": {
+                articles: ["Formative Powers of the Living – Wolfgang Peter"],
+                shop: AF_SHOP_SECTIONS.coherent_field, shopLabel: "Coherent Field Generators",
+                links: AF_LINKS_SECTIONS.magnetism, linksLabel: "Magnetism Resources"
+            },
+            "Conspiracy / Politics": {
+                articles: ["The Book of the Damned by Charles Fort"],
+                shop: null,
+                links: AF_LINKS_SECTIONS.esoterica, linksLabel: "Esoterica Resources"
+            },
+            "Patents": {
+                articles: [],
+                shop: null,
+                links: AF_LINKS_SECTIONS.radionics, linksLabel: "Radionics Resources"
             }
         };
 
@@ -1077,7 +1129,7 @@
             return { url: `https://www.rexresearch.com/search.htm?q=${query}`, label: 'Search Rex Research →', type: 'search' };
         }
 
-        function getAetherforceLinks(categories) {
+        function getAetherforceLinks(categories, seed) {
             const results = [];
             const seen = new Set();
             (categories || []).forEach(cat => {
@@ -1086,7 +1138,8 @@
                 (mapping.articles || []).forEach(title => {
                     if (!seen.has('art:' + title)) {
                         seen.add('art:' + title);
-                        results.push({ type: 'article', label: title, url: AF_ARTICLES });
+                        // Link to the EXACT article, never the generic index page
+                        results.push({ type: 'article', label: title, url: AF_ARTICLE_URLS[title] || AF_ARTICLES });
                     }
                 });
                 if (mapping.shop && !seen.has('shop:' + mapping.shop)) {
@@ -1103,6 +1156,58 @@
 
         function hasAetherforceContent(categories) {
             return getAetherforceLinks(categories).length > 0;
+        }
+
+        // Curated "best of Aetherforce" destinations, all specific verified pages.
+        // Used so a doc with no mapped category still lands on good, specific,
+        // relevant content — picked deterministically per doc so random is varied.
+        const AF_FEATURED = [
+            { type: 'article', label: "The Book of the Damned by Charles Fort",
+              url: AF_ARTICLE_URLS["The Book of the Damned by Charles Fort"], icon: '📄', tag: 'Read' },
+            { type: 'article', label: "Formative Powers of the Living – Wolfgang Peter",
+              url: AF_ARTICLE_URLS["Formative Powers of the Living – Wolfgang Peter"], icon: '📄', tag: 'Read' },
+            { type: 'article', label: "Sorce Theory & SpinbitZ – Joel Morrison",
+              url: AF_ARTICLE_URLS["Sorce Theory & SpinbitZ – Joel Morrison"], icon: '📄', tag: 'Read' },
+            { type: 'shop', label: "Coherent Field Generators",
+              url: AF_SHOP_SECTIONS.coherent_field, icon: '🛒', tag: 'Browse' },
+            { type: 'shop', label: "Radionics, Radiesthesia & Shape Power",
+              url: AF_SHOP_SECTIONS.radionics, icon: '🛒', tag: 'Browse' },
+            { type: 'shop', label: "Brainwave & Bio-Field Entrainment",
+              url: AF_SHOP_SECTIONS.brainwave, icon: '🛒', tag: 'Browse' },
+            { type: 'links', label: "Magnetism Resources",
+              url: AF_LINKS_SECTIONS.magnetism, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Kozyrev, Torsion & Russian Cosmism",
+              url: AF_LINKS_SECTIONS.kozyrev, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Sacred Geometry Resources",
+              url: AF_LINKS_SECTIONS.sacred_geometry, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Scalar & Longitudinal Science Resources",
+              url: AF_LINKS_SECTIONS.scalar, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Water Resources",
+              url: AF_LINKS_SECTIONS.water, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Psychology / PSI & Remote Viewing Resources",
+              url: AF_LINKS_SECTIONS.psi, icon: '🔗', tag: 'Explore' },
+        ];
+
+        function getFeaturedAetherforce(seed, metaCats) {
+            // Prefer a themed match from meta-categories; else rotate deterministically by seed.
+            const themed = {
+                "Energy & Transportation": AF_FEATURED[0], // Book of the Damned (science-adjacent editorial)
+                "Aether, Light & Electricity": AF_FEATURED[1],
+                "Biological & Morphogenetic Science": AF_FEATURED[7],
+                "Water Structure & Memory": AF_FEATURED[10],
+                "Sacred & Projective Geometry": AF_FEATURED[8],
+                "Plasma, Torsion & Cosmology": AF_FEATURED[6],
+                "Electromagnetic Theory": AF_FEATURED[3],
+                "Alternative Energy Technologies": AF_FEATURED[5],
+            };
+            for (let i = 0; i < (metaCats || []).length; i++) {
+                const hit = themed[metaCats[i]];
+                if (hit) return hit;
+            }
+            const base = (seed === undefined || seed === null) ? '' : String(seed);
+            let hash = 0;
+            for (let i = 0; i < base.length; i++) { hash = (hash * 31 + base.charCodeAt(i)) >>> 0; }
+            return AF_FEATURED[hash % AF_FEATURED.length];
         }
 
         async function loadIndex() {
@@ -1408,9 +1513,18 @@
                     ${inner}
                 </div>`;
             } else {
-                afHtml = `<div class="af-section" style="text-align:center;">
-                    <div class="af-section-title">No Aetherforce content mapped yet for this topic</div>
-                    <a class="af-link" href="${AF_BASE}" target="_blank" style="justify-content:center;"><span class="af-link-icon">🌐</span> Explore Aetherforce<span class="af-link-type">Visit</span></a>
+                // No mapped category — land on a specific, relevant featured destination
+                // (deterministic per doc, so random stays varied and never generic).
+                const f = getFeaturedAetherforce(item.id || item.title || item.filename, metaCats);
+                const sectionLabel = f.type === 'article' ? '📖 Articles' : (f.type === 'shop' ? '🛒 Shop' : '🔗 Resources');
+                const inner = `<a class="af-link" href="${escapeHtml(f.url)}" target="_blank"><span class="af-link-icon">${f.icon}</span> ${escapeHtml(f.label)}<span class="af-link-type">${f.tag}</span></a>`;
+                afHtml = `<div class="af-section">
+                    <div class="af-section-header">
+                        <span class="af-section-logo">⚡</span>
+                        <span class="af-section-title">On Aetherforce</span>
+                    </div>
+                    <div class="af-section-title" style="margin-top:6px;">${sectionLabel}</div>
+                    ${inner}
                 </div>`;
             }
 
