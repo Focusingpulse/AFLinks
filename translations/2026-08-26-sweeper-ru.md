@@ -1,201 +1,90 @@
 ---
-description: English translation of Akimov & Shipov "Torsion Fields and Their Experimental Manifestations" - foundational Russian-language paper on torsion field theory and claimed applications. Translated from Russian with full provenance.
+description: English translation of Lebedkin's STPK model — LENR mechanism via coherent reassembly of proton loops in nanostructured palladium. Brand new June 2026 preprint with testable predictions. Translated from Russian by translation-sweeper cron.
+date: 2026-08-26
+translator: translation-sweeper
 source_language: Russian
 geographic_origin: Russia
-author: A.E. Akimov, G.I. Shipov
-work_type: theoretical/experimental synthesis
-practical_applicability: conceptual - claims practical applications but none independently verified by mainstream physics
-source_url: https://www.trinitas.ru/rus/doc/0231/004a/02310004.htm
-host: Academy of Trinitarism (trinitas.ru)
-host_stability: fragile - old Russian web architecture, potentially endangered
-translated_date: 2026-08-26
-translator: Translation Sweeper (automated)
+author: Valentin Lebedkin
+work_type: theoretical
+practical_applicability: potentially buildable — proposes scalable silicon wafer platform with individual nanoparticle addressing; engineering calculations provided for lab verification
+source_url: https://doi.org/10.24108/preprints-3115604
+host: preprints.ru (Russian preprint server)
+host_stability: stable — DOI-registered
+published: 2026-06-18
+license: CC BY 4.0
 ---
 
-# Torsion Fields and Their Experimental Manifestations
+# STPK: Mechanism of Cold Fusion (LENR) as Coherent Reassembly of Proton Loops
 
-**Authors:** A.E. Akimov, G.I. Shipov
-**Host:** Institute of Vacuum Physics - Academy of Trinitarism (trinitas.ru)
-**Original language:** Russian
+**Original title:** СТПК: Механизм холодного синтеза (LENR) как когерентная пересборка протонных петель
+
+**Author:** Valentin Lebedkin (h-index 0, 0 citations, corresponding author)
+
+**Published:** 2026-06-18 (preprint)
+
+**License:** Creative Commons Attribution 4.0 (CC BY 4.0)
+
+**Source:** https://doi.org/10.24108/preprints-3115604
 
 ---
 
 ## Provenance
 
-- **Source language:** Russian (ru)
-- **Geographic origin:** Russia - authors are Russian researchers, hosted on trinitas.ru (Russian Academy of Trinitarism)
-- **Researchers:** A.E. Akimov (director, ISTC VENT), G.I. Shipov (theoretical physicist, author of "Theory of Physical Vacuum" [13])
-- **Work type:** Theoretical/experimental synthesis - presents theoretical framework for torsion fields (fields of rotation) based on Cartan geometry and Shipov's vacuum theory, plus claimed experimental results in materials science, communication, geophysics, and astrophysics
-- **Practical applicability:** flag: false - conceptual. The paper claims practical applications (materials processing, communication, propulsion, geophysics) but none have been independently verified by mainstream physics. Torsion field theory is considered pseudoscientific by the mainstream physics community. The historical and cultural significance of the document is high regardless, as it represents a major strand of Russian alternative physics from the 1980s-1990s.
-- **Domains:** Torsion physics; Aether theories; Alternative physics; Vacuum energy; Russian alternative science
-- **Host stability:** Fragile - trinitas.ru uses old Russian web architecture, potentially endangered
+- **Source language:** Russian
+- **Geographic origin:** Russia — Valentin Lebedkin, independent researcher
+- **Work type:** Theoretical — proposes novel LENR mechanism through coherent reassembly of proton loops in nanostructured palladium
+- **Practical applicability:** Potentially buildable — proposes a scalable silicon wafer platform with individual nanoparticle addressing and PC control, plus integrated energy balance circuit. Engineering calculations for an experimental setup are provided, confirming feasibility of empirical verification under standard laboratory conditions. No fitting parameters used.
+- **Key entities:** Valentin Lebedkin, STPK model (Свет-Тик-Присутствие-Когерентность / Light-Tick-Presence-Coherence), LENR, proton loops, Pd nanoparticles, Coulomb barrier, coherence, silicon wafer platform
+- **Verification status:** Unverified — new preprint (June 2026); claims testability in standard lab conditions; awaits experimental confirmation
 
 ---
 
-## Table of Contents
+## Abstract
 
-1. Introduction
-2. Torsion Energy Sources
-3. Torsion Propulsion
-4. Torsion Technologies for Material Production
-5. Torsion Communication and Information Transmission
-6. Torsion Geophysics
-7. Torsion Astrophysics
-8. Conclusions
+Within the framework of the "Light — Tick — Presence — Coherence" (STPK) model, a mechanism for low-energy nuclear reactions (LENR) is proposed and quantitatively justified, requiring neither high temperatures nor high pressure. It is shown that in nanostructured palladium saturated with deuterium, at temperatures of 300–400 °C, a coherence threshold of proton loops is achieved at which the Coulomb barrier vanishes through synchronization of internal Light cycles. The critical parameters necessary for initiating the process are analytically computed: the required coherence C_crit ≈ 0.9997, the minimum coherent domain size N_min ≈ 3000 protons (corresponding to Pd nanoparticles 10–15 nm in diameter), and the critical temperature T_crit ≈ 600 K. Based on these results, a scalable technological platform on standard silicon wafers is proposed, with individual nanoparticle addressing and PC-based control, as well as an integrated energy balance circuit. Engineering calculations for the experimental setup parameters confirm the possibility of empirical verification of the model under standard laboratory conditions. The results contain no fitting parameters and describe a systematic path toward controlled cold nuclear fusion.
+
+**Keywords:** cold fusion, LENR, coherent reassembly, proton loops, palladium nanoparticles, silicon wafer, Coulomb barrier, coherence, STPK model
 
 ---
 
-## 1. Introduction
+## Key Technical Claims
 
-The adequacy of our understanding of Nature is proportional to our knowledge of the laws operating within it. The history of natural science over at least the last century demonstrates that the appearance of experimental results that cannot be explained within the framework of accepted scientific concepts is a direct indication of the incompleteness of our knowledge about Nature. Over recent decades, it has been constantly asserted that all known phenomena of Nature and experimental results are exhaustively explained by four known interactions: electromagnetism, gravity, strong and weak interactions. However, over the past fifty years, approximately twenty experimental results have accumulated that have not found explanation within the framework of these interactions [1].
+1. **Coherence threshold:** C_crit ≈ 0.9997 — the degree of synchronization required among proton loops for the Coulomb barrier to vanish
+2. **Minimum domain size:** N_min ≈ 3000 protons, corresponding to Pd nanoparticles 10–15 nm in diameter
+3. **Critical temperature:** T_crit ≈ 600 K (approximately 300–400 °C operating range)
+4. **Mechanism:** The Coulomb barrier disappears through synchronization of internal "Light" cycles within the STPK framework — not through tunneling or high-energy collision
+5. **No fitting parameters:** All critical values are analytically derived, not empirically fitted
 
-Independently of this dramatic situation, the search for new long-range interactions continued from the 1930s onward. One can point to the work of G. Tetrode [2] and A.D. Fokker [3], and later J. Wheeler and R. Feynman [4,5]. However, these works did not receive proper development. The exception is the concepts of torsion fields.
+## Proposed Experimental Platform
 
-The theory of torsion fields (fields of rotation) is a traditional direction in theoretical physics, tracing back to work from the second half of the last century. In its modern form, torsion field theory was formulated thanks to the ideas of Elie Cartan, who first clearly and definitively pointed to the existence in Nature of fields generated by the density of angular momentum of rotation. To date, the bibliography of world periodicals on torsion fields numbers up to 10,000 articles by approximately one hundred authors. More than half of these theorists work in Russia.
+- Standard silicon wafers as the substrate
+- Individual addressing and control of Pd nanoparticles from a PC
+- Integrated energy balance circuit for real-time measurement
+- Engineering calculations provided for a complete experimental setup
+- Designed for verification under standard laboratory conditions (no exotic equipment required)
 
-Despite a sufficiently developed theoretical apparatus, torsion fields remained only a theoretical object until the early 1970s. Moreover, there existed a theoretical conclusion that, since the constant of spin-torsion interactions is proportional to the product G x h-bar (G - gravitational constant, h-bar - Planck constant), i.e., it is almost 30 orders of magnitude weaker than gravitational interactions, then even if torsion effects exist in Nature, they cannot make a noticeable contribution to observable phenomena. However, in the early 1970s, through the work of F. Hehl [6-8], T. Kibble [9], D. Sciama [10] and others, it was shown that this conclusion is valid not for torsion fields in general, but only for static torsion fields generated by spinning sources without radiation. In the following 20 years, a large number of works on the theory of dynamic torsion appeared, showing that the Lagrangian of a spinning source with radiation includes up to a dozen terms with constants that do not depend on either G or h-bar, and regarding which the theory imposes no requirement of their necessary smallness.
+## Topics (as classified by preprint server)
 
-Only in the early 1980s in Russia was attention drawn to the global significance of the conclusions of dynamic torsion field theory. With the creation in the 1980s - for the first time in the world, in Russia - of torsion field generators, targeted research was deployed and carried out in many directions to find manifestations of torsion fields, which yielded a large volume of practical results.
+- Catalysts for Methane Reforming
+- Advanced Materials and Composites
+- Machine Learning in Materials Science
 
-### The EGS-Concept Framework
+## References
 
-The authors introduce the concept of the Physical Vacuum as a material medium, isotropically filling all space, having a quantum structure and being unobservable (on average) in the unperturbed state. They return to P. Dirac electron-positron model of the Vacuum in a modified interpretation, considering the Vacuum as a system of ring wave packets of electrons and positrons (rather than actual electron-positron pairs). When the ring wave packets of electrons and positrons are nested within each other with opposite spins, the system is self-compensated in charge, classical spin, and magnetic moment. This nested structure is called a **phyton** (Fig. 1A). The dense packing of phytons serves as a simplified model of the Physical Vacuum (Fig. 1B).
-
-Three perturbation cases are considered:
-
-1. **Charge perturbation (q):** Produces charge polarization of the Vacuum, interpreted as an electromagnetic field (E-field). Well known in QED; the Lamb shift is explained through this mechanism.
-
-2. **Mass perturbation (m):** Produces symmetric oscillations of phyton elements along the axis toward the center of the perturbing object - spin longitudinal polarization, interpreted as a gravitational field (G-field). Connects to Sakharov induced gravity [25]. Bunin [29] and Dubrovsky [30] showed that if gravitational waves are longitudinal waves in the elastic Vacuum, their velocity would be on the order of 10^9 x c. If gravitation is connected with longitudinal spin polarization, then antigravity does not exist.
-
-3. **Classical spin perturbation (s):** Produces transverse spin polarization of the Vacuum, interpreted as a spin/torsion field (S-field). The spins of phytons coinciding with the source spin retain orientation; those opposite undergo inversion. This approach is consonant with ideas about torsion fields as a condensate of fermion pairs [37].
-
-The unified medium - the Physical Vacuum - can exist in different polarization (phase) states, called **EGS-states**: Electromagnetic (E), Gravitational (G), and Spin/Torsion (S). All three fields are universal (first-class fields in Utiyama terminology), manifesting at both microscopic and macroscopic levels.
-
-### Key Properties of Torsion Fields
-
-1. Unlike electromagnetism (like charges repel), in torsion fields like charges attract and opposite charges repel.
-2. Torsion fields only change the spin state of affected objects.
-3. Torsion fields pass through physical media without interaction or losses. Soviet physicists showed spin signals cannot be screened.
-4. Group velocity of torsion waves is no less than 10^9 x c. This enables communication over galactic distances without signal delay.
-5. All substances with nonzero collective spin possess their own torsion field, with spatial-frequency structure determined by chemical composition and molecular/crystal structure.
-6. Torsion fields possess memory: spatial spin structures persist after the torsion source moves away.
-
+1. M. Fleischmann, S. Pons. "Electrochemically induced nuclear fusion of deuterium." *Journal of Electroanalytical Chemistry* 261(2):301–308, 1989. doi:10.1016/0022-0728(89)80006-3
+2. E. K. Storms. *The Science of Low Energy Nuclear Reactions.* World Scientific, 2007. doi:10.1142/6425
 
 ---
 
-## 2. Torsion Energy Sources
+## Translator's Notes
 
-Over the past nearly 20 years, many authors have pointed to the potential possibility of obtaining energy from the Physical Vacuum. The usual objections reference the need for anomalously high electric potentials (~10^16 V/cm). These objections would be valid for charge polarization states, but the authors discuss spin polarization of non-electromagnetic nature.
+This is a brand-new preprint (June 2026) from a Russian researcher with no prior publication record (h-index 0). The STPK framework ("Light-Tick-Presence-Coherence") appears to be a novel theoretical construct not previously published in mainstream physics literature. The model's claims are extraordinary — that the Coulomb barrier can be overcome through coherence/synchronization rather than energy — but the author provides specific, testable numerical predictions (coherence threshold, nanoparticle size, temperature) and a concrete experimental platform design.
 
-The traditional viewpoint asserts that since the Physical Vacuum is a system with minimum energy, no energy can be extracted. However, the Vacuum is a dynamic system with intense fluctuations that can serve as an energy source. Zeldovich, Dolgov, and Sazhin [28] showed the vacuum energy is nonzero: the vacuum as the lowest energy state has a nonzero energy density. According to Wheeler [39], the Planck energy density is ~10^94 g/cm^3, compared to nuclear matter density of 10^14 g/cm^3.
+**Caveats:**
+- The STPK framework itself is not established in mainstream physics
+- The concept of "internal Light cycles" is not standard physics terminology
+- The preprint has 0 citations and is from a researcher with no visible prior track record
+- The mechanism proposed (Coulomb barrier vanishing via synchronization) contradicts standard quantum mechanics understanding of nuclear interactions
+- However, the specific numerical predictions and proposed experimental platform make this falsifiable, which is notable for LENR literature
 
-Two key conclusions: (1) Vacuum fluctuation energy is very large compared to any other energy type. (2) The small torsion energy required for spin polarization gives hope that torsion perturbations could release vacuum fluctuation energy. The authors reference experimental results by Muro, King, Nipper and others showing COP up to 300-500% [50,51], which from this perspective represent open systems obtaining energy from the vacuum through weak torsion interaction.
-
----
-
-## 3. Torsion Propulsion
-
-The authors predict a new class of reference frames called **accelerated locally Lorentzian reference frames of the second kind**. Unlike Einstein first-kind frames, these form when compensated inertial forces act on the center of mass of an isolated system. Example: the center of mass of a rotating gyroscope is at rest or moves uniformly; if the equilibrium of inertial forces is disrupted, the center of mass accelerates under internal uncompensated forces.
-
-This does not contradict the conservation of momentum theorem because inertial forces do not satisfy Newton third law (their source body cannot be identified) and do not fall under the internal/external force distinction.
-
-A **four-dimensional gyroscope** is proposed: a central mass M with two masses m rotating synchronously toward each other. The system is called four-dimensional because rotation occurs along spatial angle phi and space-time angle theta, connected by d-theta/dt = v/c.
-
-Russian engineer V.N. Tolchin [48] first realized this as an **inertioid** at the Perm Machine-Building Plant. His device uses a motor-brake to implement self-action in sectors 330-360 degrees and 160-180 degrees, achieving center-of-mass velocity changes from 0 to ~10 cm/s. Tolchin experiments indicate the reality of this new class of accelerated reference frames.
-
----
-
-## 4. Torsion Technologies for Material Production
-
-During melt cooling, ions must occupy crystal lattice positions and spins must orient along lattice edges. External torsion field action on a melt changes only the spin state of free atoms.
-
-**Isotropic torsion radiation** on a melt: with sufficient exposure, all atoms transition to unidirectional spin orientation, creating mutual torsion attraction. Even during slow cooling, the strong torsion attraction prevents atoms from orienting along lattice edges, resulting in an amorphous (quasi-glass) structure.
-
-**Anisotropic torsion radiation**: either crystallization occurs with a lattice induced by the external torsion field structure, or torsion-induced lattice defects arise.
-
-All predicted results were experimentally confirmed at the Institute of Problems of Materials Science (Academy of Sciences of Ukraine) jointly with ISTC VENT during 1989-1993:
-
-- **Tin**: After torsion exposure at 8 Hz, the metal showed larger, nearly identical grains with isotropic structure. Grains lacked integral crystal lattice, forming a highly dispersed state close to absolute amorphization [41].
-- **Copper**: Changes in grain structure and appearance of twins were observed [42].
-- **Industrial demonstrations** (1994-1995): Structural changes in metals demonstrated on industrial smelting furnaces. Torsion effects penetrated all-metal grounded Tamman furnaces (confirming non-screenability). Structural rearrangement of up to 200 kg of steel was achieved with a torsion generator consuming only 10 mW - confirming the informational rather than energetic character of torsion effects.
-
----
-
-## 5. Torsion Communication and Information Transmission
-
-Traditional radio communication faces fundamental limitations: inverse-square law attenuation, absorption by media, signal delay at light speed, inability to communicate through plasma (re-entry blackout), and approaches to Shannon limits.
-
-Torsion communication overcomes all these problems because torsion radiation: (1) is not attenuated with distance, (2) is not absorbed by natural media, (3) has group velocity >= 10^9 x c. This enables underwater, underground, and through-plasma communication with low transmitter power, and real-time communication across galactic distances.
-
-**First experiment (April 1986, Moscow):** Binary torsion signals transmitted over 22 km through dense urban construction (equivalent to 50+ m of reinforced concrete). The start-stop telegraph code M2 was received without errors with transmitter power of only 30 mW. In zero-distance control experiments, signal intensity did not change, confirming non-attenuation.
-
----
-
-## 6. Torsion Geophysics
-
-Since all molecules and crystals have defined mutual spin orientations, they possess characteristic torsion fields. Because torsion fields are not absorbed and do not diminish with distance, a mineral deposit at any depth creates the same characteristic torsion field outside the planet as if it were on the surface. Registering torsion field spatial-frequency structures can reveal planetary internal structure.
-
-The authors discovered that photographs contain invisible torsion images alongside visible optical images: torsion fields of photographed objects alter the spin orientation of emulsion atoms. A procedure was developed to extract and process these torsion images:
-
-1. A slide/photograph is illuminated by an isotropic broadband torsion radiation generator
-2. The emulsion spin structure acts as a two-dimensional spin modulator
-3. The modulated radiation reproduces the spatial torsion field captured during photography
-4. Two-dimensional spin filters select characteristic frequencies of sought substances
-5. Filtered radiation is recorded on special photographic material
-
-This was implemented in a hardware complex for torsion image processing. Fig. 8 shows an IR image of Earth surface (8A) and the same section after torsion processing (8B), revealing geophysical heterogeneity structure. These methods are especially valuable for studying planets and satellites where traditional geophysical methods cannot be deployed.
-
----
-
-## 7. Torsion Astrophysics
-
-Modern observational astronomy works only with visible objects. Given light travel times of thousands of years, astronomy is actually paleoastronomy - we study what no longer exists. Torsion fields, with superluminal velocity (>= 10^9 x c), could reveal the true distribution of stars in real time.
-
-First experimental results on fixing stars in their true positions were performed by N.A. Kozyrev [45], and later M.M. Lavrentiev, I.A. Eganova [46], and A.F. Pugach [47].
-
-A second problem: if only electromagnetism and gravity (both limited to c) exist, interaction time across the observable Universe would be comparable to the age of the Universe, meaning most distant objects do not interact - the Universe cannot be a coherent system. Yet stars form a cellular structure, implying some physical interaction maintains it. Torsion fields at 10^9 x c could provide this connectivity. The hidden mass problem may partly stem from not accounting for torsion interactions.
-
-Torsion processing of solar images reveals internal structure and dynamics (Fig. 9). Processing of eclipse photographs reveals large-scale structure of the Physical Vacuum across cosmic spaces (Fig. 10), potentially confirming the holographic Vacuum hypothesis of Ablekov, Bohm, and Pribram.
-
----
-
-## 8. Conclusions
-
-Not only theoretical but numerous experimental results indicate that torsion fields are an important reality of Nature. The presented information reflects only a small part of the large-scale research conducted, involving more than fifty scientific organizations. The results substantially change our understanding of the structure of the world, suggesting that the formulated scientific concepts constitute a new scientific paradigm, destined to play a perhaps more serious role than the progress in physics in the ending 20th century.
-
-The authors conclude: technologies of the 21st century will be torsion technologies.
-
----
-
-## Translator Notes
-
-This paper is historically significant as a primary source of Russian torsion field research from the 1980s-1990s. Key context:
-
-- **A.E. Akimov** directed the International Center for Vent Informatics (ISTC VENT) and was a central figure in Soviet/Russian torsion field research.
-- **G.I. Shipov** authored "Theory of Physical Vacuum" (1993), the theoretical foundation referenced here.
-- **Torsion field theory** is considered pseudoscientific by the mainstream physics community. The claimed experimental results (materials processing, communication, geophysics) have not been independently verified by mainstream laboratories.
-- The work of N.A. Kozyrev [45] referenced in the astrophysics section is itself controversial but historically significant in Russian alternative physics.
-- The phyton model and EGS-concept represent a distinctive Russian approach to vacuum physics, connecting Dirac electron-positron models with Cartan torsion geometry and Sakharov induced gravity.
-- Despite the controversial scientific status, this document is an important primary source for understanding the Russian alternative physics tradition and its technological aspirations.
-- The host (trinitas.ru) is old Russian web architecture and potentially fragile - high preservation priority.
-
----
-
-## Key References (from original)
-
-1. Akimov A.E. Heuristic discussion of the problem of searching for new long-range interactions. EGS-concepts. ISTC VENT, 1991, preprint 7A.
-2. Tetrode H. Uber den Wirkungszusammenhang der Welt. Zeit. fur Physic, 1922, Bd.10.
-3. Fokker A.D. Ein invarianter Variationssatz. Zeit. fur Physic, 1929, Bd.58.
-4. Wheeler J.A., Feynman R.P. Rev.Mod.Phys., 1945, 17, N 1.
-5. Wheeler J.A., Feynman R.P. Rev.Mod.Phys., 1949, 21, N 3.
-6. Hehl F.W. Spin and Torsion in General Relativity. GRG. 1973. N 4.
-7. Hehl F.W. et al. General relativity with spin and torsion. Rev. mod. Phys., 1976, N 3.
-8. Hehl F.W. On the Kinematics of Torsion Space-Time. Found. Phys., 1985.
-9. Kibble T.W.B. Lorentz Invariance and the Gravitational Field. J. Math. Phys., 1961.
-10. Sciama D.W. The Physical Structure of General Relativity. Rev. Mod. Phys., 1964.
-13. Shipov G.I. Theory of Physical Vacuum. M.: NT-Center, 1993, 362 pp.
-23. Zeldovich Ya.B. Interpretation of electrodynamics as a consequence of quantum theory. JETP Letters, 1967.
-25. Sakharov A.D. Vacuum quantum fluctuations in curved space and gravity theory. DAN, 1967.
-39. Wheeler J.A. Einstein vision. Mir, M., 1970.
-45. Kozyrev N.A. (astronomical observations of true stellar positions)
-48. Tolchin V.N. (inertioid experiments, Perm Machine-Building Plant)
+**Significance:** Even if the theoretical framework proves incorrect, the experimental design (nanostructured Pd on silicon wafers with individual nanoparticle control) is a genuinely novel approach to LENR experimentation that could yield interesting results regardless of the underlying theory's validity.
