@@ -157,14 +157,6 @@ def main():
         os.makedirs(translations_outdir, exist_ok=True)
         for path in sorted(glob.glob(os.path.join(tdir, "*.md")), reverse=True):
             meta, title, body = parse_md_frontmatter(path)
-            translations_done += 1
-            # Count pages: use [pN] page markers when present, else estimate by length
-            markers = re.findall(r"\[p\s*\d+\]", body)
-            if markers:
-                nums = [int(m.replace("[p", "").replace("]", "").strip()) for m in markers]
-                pages_translated += max(nums)
-            else:
-                pages_translated += max(1, round(len(body) / 3000))
             domain = meta.get("Domain") or meta.get("domain") or ""
             src = meta.get("Source URL") or meta.get("source_url") or ""
             lang = meta.get("Language") or meta.get("language") or ""
@@ -185,6 +177,23 @@ def main():
                 "content_file": f"translations/{fname}",
                 "excerpt": body.strip()[:220],
             })
+    # Count only translations PUBLISHED in the site repo (files that actually
+    # exist after the copy), so the counter never claims more than is readable.
+    if os.path.isdir(translations_outdir):
+        for pub in sorted(glob.glob(os.path.join(translations_outdir, "*.md")), reverse=True):
+            translations_done += 1
+            try:
+                with open(pub, encoding="utf-8") as f:
+                    raw = f.read()
+            except Exception:
+                continue
+            # Count pages: use [pN] page markers when present, else estimate by length
+            markers = re.findall(r"\[p\s*\d+\]", raw)
+            if markers:
+                nums = [int(m.replace("[p", "").replace("]", "").strip()) for m in markers]
+                pages_translated += max(nums)
+            else:
+                pages_translated += max(1, round(len(raw) / 3000))
     feed["library"]["translations"] = translations_done
     feed["library"]["pages_translated"] = pages_translated
 
