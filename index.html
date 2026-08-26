@@ -822,6 +822,9 @@
         let allData = [];
         let activeCategory = null;
         let activeMetaCategory = null;
+        // Exact-set filter: a document must carry ALL of these meta-categories.
+        // Used by the vault's Vesica seam links (?cat=A&cat=B) to show overlaps.
+        let seamCats = [];
         let searchTerm = '';
         let typeFilter = 'all';
         let visibleCount = 0;
@@ -1112,11 +1115,14 @@
                 renderResults();
                 // Check URL params for auto-filtering (from vault links)
                 const params = new URLSearchParams(window.location.search);
-                const cat = params.get('cat');
-                if (cat) {
-                    toggleMetaCategory(cat);
-                    document.getElementById('search').value = cat;
-                    document.getElementById('search').dispatchEvent(new Event('input'));
+                const cats = params.getAll('cat');
+                if (cats.length) {
+                    seamCats = cats;
+                    // Fill the search box as a hint, then render the seam set
+                    document.getElementById('search').value = cats.join(' ');
+                    buildCategoryList();
+                    renderResults();
+                    updateClearFilters();
                 }
             } catch (e) {
                 document.getElementById('loading').textContent = 'Error loading index: ' + e.message;
@@ -1203,6 +1209,7 @@
         function clearAllFilters() {
             activeCategory = null;
             activeMetaCategory = null;
+            seamCats = [];
             searchTerm = '';
             typeFilter = 'all';
             document.getElementById('search').value = '';
@@ -1216,10 +1223,17 @@
         }
 
         function updateClearFilters() {
-            document.getElementById('clearFilters').style.display = (activeCategory || activeMetaCategory || searchTerm || typeFilter !== 'all') ? 'block' : 'none';
+            document.getElementById('clearFilters').style.display = (activeCategory || activeMetaCategory || seamCats.length || searchTerm || typeFilter !== 'all') ? 'block' : 'none';
             // Build active filter chips
             const chipContainer = document.getElementById('activeFilterDisplay');
             chipContainer.innerHTML = '';
+            seamCats.forEach(sc => {
+                const chip = document.createElement('span');
+                chip.className = 'active-filter-chip meta';
+                chip.innerHTML = `${escapeHtml(sc)} ✕`;
+                chip.onclick = () => { seamCats = seamCats.filter(x => x !== sc); buildCategoryList(); renderResults(); updateClearFilters(); };
+                chipContainer.appendChild(chip);
+            });
             if (activeMetaCategory) {
                 const chip = document.createElement('span');
                 chip.className = 'active-filter-chip meta';
@@ -1240,6 +1254,11 @@
             return allData.filter(item => {
                 if (typeFilter !== 'all' && item.type !== typeFilter) return false;
                 if (activeCategory && !(item.categories || []).includes(activeCategory)) return false;
+                // Seam filter: must carry EVERY selected meta-category (AND)
+                if (seamCats.length) {
+                    const mcs = item.meta_categories || [];
+                    if (!seamCats.every(sc => mcs.includes(sc))) return false;
+                }
                 if (activeMetaCategory) {
                     const subCats = metaCategoryMap[activeMetaCategory] || [];
                     const itemCats = item.categories || [];

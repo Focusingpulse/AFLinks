@@ -233,6 +233,29 @@ def main():
         feed["library"]["archive_entries"] = None
         feed["library"]["meta_counts"] = {}
 
+    # --- 7. Seam index for the Vesica (compare/contrast) lens ---
+    # Compact: meta-category -> [doc ids] + id -> title. Lets the vault compute
+    # the REAL overlap between any two categories (documents tagged with BOTH) in
+    # memory, without loading the full multi-MB index. Grows safely with the archive.
+    cat_index = {}
+    doc_titles = {}
+    try:
+        for x in docs:
+            did = x.get("id")
+            if did is None:
+                continue
+            sid = str(did)
+            doc_titles[sid] = (x.get("title") or x.get("filename") or "").strip()
+            for mc in (x.get("meta_categories") or []):
+                if mc:
+                    cat_index.setdefault(mc, []).append(sid)
+    except Exception:
+        cat_index, doc_titles = {}, {}
+    feed["seam"] = {
+        "category_index": cat_index,
+        "doc_titles": doc_titles,
+    }
+
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=2)

@@ -269,6 +269,70 @@ header .af-link:hover {
   width: 100px;
   font-style: italic;
 }
+/* === Seam (compare/contrast) panel === */
+.vesica-seam-title {
+  margin: 2px 0 6px;
+  font-size: 0.85rem;
+  color: var(--gold);
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.vesica-counts {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 0 10px;
+}
+.vesica-counts .seam-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  padding: 6px 14px;
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  background: var(--stone);
+}
+.vesica-counts .seam-count b {
+  font-size: 1rem;
+  color: var(--text);
+}
+.vesica-counts .seam-count.seam {
+  border-color: var(--gold-dim);
+  background: radial-gradient(circle, rgba(201,168,76,0.06), transparent);
+}
+.vesica-counts .seam-count.seam b { color: var(--gold); }
+.vesica-seam-list {
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.seam-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.78rem;
+  line-height: 1.15;
+  padding: 3px 8px;
+  border-radius: 2px;
+  border-bottom: 1px solid rgba(201,168,76,0.12);
+}
+.seam-row:hover { color: var(--gold-bright); text-shadow: 0 0 6px rgba(201,168,76,0.35); }
+.seam-row .seam-bullet { color: var(--gold); font-size: 0.6rem; }
+.seam-row.seam-more { color: var(--bronze); font-style: italic; text-align: center; }
+.seam-hint {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  font-style: italic;
+  padding: 14px 20px;
+}
 
 /* === Focus mode === */
 .focus-mode {
@@ -521,6 +585,9 @@ header .af-link:hover {
     <div class="vesica-circle right" id="vesicaRightLabel">&#8212;</div>
     <div class="vesica-overlap" id="vesicaOverlap">the seam between</div>
   </div>
+  <h3 class="vesica-seam-title" id="vesicaSeamTitle">Documents in the seam</h3>
+  <div class="vesica-counts" id="vesicaCounts"></div>
+  <div class="vesica-seam-list" id="vesicaSeamList"></div>
 </div>
 
 <!-- Focus mode -->
@@ -805,7 +872,6 @@ function updateVesicaDisplay() {
   const rightVal = document.getElementById('vesicaRight').value;
   document.getElementById('vesicaLeftLabel').textContent = leftVal.substring(0, 22);
   document.getElementById('vesicaRightLabel').textContent = rightVal.substring(0, 22);
-  document.getElementById('vesicaOverlap').textContent = leftVal === rightVal ? 'same chest' : 'the seam between';
 
   document.querySelectorAll('.chest').forEach((chest, i) => {
     const cat = META_CATEGORIES[i];
@@ -842,11 +908,80 @@ function updateVesicaDisplay() {
       iconEl.textContent = '\u{1F512}';
     }
   });
+
+  renderSeam(leftVal, rightVal);
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+// Resolve the real overlap between two themes: documents tagged with BOTH.
+function computeSeam(leftVal, rightVal) {
+  if (!SEAM_INDEX || leftVal === rightVal) return null;
+  const li = SEAM_INDEX.category_index[leftVal] || [];
+  const ri = SEAM_INDEX.category_index[rightVal] || [];
+  const rs = new Set(ri);
+  const ls = new Set(li);
+  const both = li.filter(id => rs.has(id));
+  return {
+    both,
+    onlyLeft: li.filter(id => !rs.has(id)),
+    onlyRight: ri.filter(id => !ls.has(id)),
+  };
+}
+
+function renderSeam(leftVal, rightVal) {
+  const overlapLbl = document.getElementById('vesicaOverlap');
+  const countsEl = document.getElementById('vesicaCounts');
+  const titleEl = document.getElementById('vesicaSeamTitle');
+  const listEl = document.getElementById('vesicaSeamList');
+
+  if (!SEAM_INDEX) {
+    overlapLbl.textContent = 'the seam between';
+    titleEl.textContent = 'Documents in the seam';
+    countsEl.innerHTML = '';
+    listEl.innerHTML = '<p class="seam-hint">Loading the vault index…</p>';
+    return;
+  }
+  if (leftVal === rightVal) {
+    overlapLbl.textContent = 'same chest \u2014 pick two';
+    titleEl.textContent = 'Documents in the seam';
+    countsEl.innerHTML = '';
+    listEl.innerHTML = '<p class="seam-hint">Choose two different themes to unlock what lives between them.</p>';
+    return;
+  }
+
+  const seam = computeSeam(leftVal, rightVal);
+  overlapLbl.textContent = seam.both.length.toLocaleString() + ' in the seam';
+  titleEl.textContent = seam.both.length + ' document' + (seam.both.length === 1 ? '' : 's') + ' carry both themes';
+
+  countsEl.innerHTML =
+    `<div class="seam-count"><b>${seam.onlyLeft.length.toLocaleString()}</b><span>left-only</span></div>` +
+    `<div class="seam-count seam"><b>${seam.both.length.toLocaleString()}</b><span>the seam</span></div>` +
+    `<div class="seam-count"><b>${seam.onlyRight.length.toLocaleString()}</b><span>right-only</span></div>`;
+
+  const seamLink = `./index.html?cat=${encodeURIComponent(leftVal)}&cat=${encodeURIComponent(rightVal)}`;
+  const cap = Math.min(seam.both.length, 24);
+  let html = '';
+  for (let k = 0; k < cap; k++) {
+    const id = seam.both[k];
+    const t = (SEAM_INDEX.doc_titles[id] || 'Untitled document').slice(0, 90);
+    html += `<a class="seam-row" href="${seamLink}" title="${escapeHtml(t)}"><span class="seam-bullet">&#10086;</span>${escapeHtml(t)}</a>`;
+  }
+  if (seam.both.length > cap) {
+    html += `<a class="seam-row seam-more" href="${seamLink}">&#10086; See all ${(seam.both.length - cap).toLocaleString()} more documents in this seam &#8594;</a>`;
+  }
+  listEl.innerHTML = html || '<p class="seam-hint">No documents live in both of these themes yet.</p>';
 }
 
 function updateStats(visible) {
   document.getElementById('statVisible').textContent = visible;
 }
+
+// Compact seam index loaded from the feed: category -> [doc ids] + id -> title.
+// Lets the Vesica lens resolve real cross-category overlaps without the full index.
+let SEAM_INDEX = null;
 
 // Live counts: pull the small, every-scrape feed (not the full 8MB+ index),
 // so the vault total + every chest stays current as new archives come online.
@@ -860,6 +995,7 @@ async function loadLiveStats() {
     }
     const counts = lib.meta_counts || {};
     META_CATEGORIES.forEach(c => { c.count = counts[c.name] || 0; });
+    SEAM_INDEX = feed.seam || null;
     // Rebuild the current lens so chest totals + focus select show live numbers
     setLens(currentLens);
   } catch (e) {
