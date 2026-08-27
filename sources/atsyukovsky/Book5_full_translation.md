@@ -803,3 +803,279 @@ From this it follows that measurements of the ether wind velocity must be conduc
 
 ---
 
+
+### SOURCE SECTION: Chapter 1.
+
+[p44]
+44                                                                                                        Chapter 3.
+obtained by Miller (8-10 km/s), since Miller placed the measuring
+apparatus (interferometer) in a light plywood structure that weakly
+retards the ether flows.
+4. In order to reveal the fine structure of the variation of the
+ether wind velocity, it is necessary to conduct round-the-clock and
+year-round measurements of the ether wind velocity with a periodicity
+of no more than 5 minutes, and possibly continuously.
+As for the instrument for measuring the ether wind, the
+properties of the ether arising from its gas-like nature — pressure
+on objects, viscosity, and other parameters — can be utilized.
+
+Setting Up Ether Wind Research
+Taking into account the methodological features of measuring the
+ether wind velocity listed above made it possible to avoid the
+fundamental methodological errors committed by all researchers
+of the ether wind velocity except Miller.
+The goal of the experiment was to confirm the existence of the
+ether wind in nature and to confirm the possibility of measuring it
+by a non-interferometric method, moreover not of the second but of
+the first order, which makes it possible to increase the effect by 4-5
+orders of magnitude and thereby sharply reduce the requirements
+on the measuring instrument.
+As the location for the experiment, a separate room was chosen
+on the 9th floor of the LSK building (laboratory and test facility) of
+the Branch of LII (later — NIIAO) on the territory of the Flight
+Research Institute in the city of Zhukovsky, Moscow Region.
+As the measuring instrument, an ordinary laser (LG-65) was
+chosen, based on the assumption that ether flows, blowing past
+the laser beam, would bend it in the same way that an ordinary
+wind bends a cantilevered beam. The deviation of the beam from
+its neutral position can be detected by photodiodes that register
+the position of the light spot.
+The use of conventional light sources for the stated purpose
+was rejected, since a conventional source produces
+
+[p45]
+Ether Wind Research                                                                 45
+relatively short photons, which would simply be carried along
+by the ether wind, whereas a laser beam represents a single
+system and is quite analogous to a cantilevered beam;
+consequently, it would bend, and the deviation of the beam
+would be proportional to the square of its length.
+
+Fig. 1. Diagram of ether wind velocity measurement using a laser
+beam: 1 — laser; 2 — detector; 3 — photoresistors; 4 — ground glass;
+5 — opaque partition; 6 — vertical beam deflection signal amplifier;
+7 — horizontal beam deflection signal amplifier.
+The deviation of the laser beam spot from its undisturbed
+position is registered by two pairs of photodiodes or photoresistors
+connected respectively into two bridge electronic circuits. One
+pair of photodiodes (photoresistors) is arranged horizontally and
+registers the deviation of the beam in the horizontal plane; the
+second pair is arranged vertically and registers the deviation of
+the beam in the vertical plane.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p46]
+46                                                                                                        Chapter 3.
+To increase the sensitivity of the instrument by increasing the
+length of the laser beam, multiple reflection of the beam from
+surface-reflecting mirrors can be employed.
+The experiment used an optical bench 1.2 m in length, 15 cm
+in width, and 8 cm in thickness, made of artificial granite. The
+bench was placed on two cushions resting on two chairs, which
+prevented the influence of possible vibrations. A constant
+temperature was maintained in the room.
+The setup employed a gas laser LG-65; the detector used four
+FS-1 type photoresistors arranged in a cross pattern — two
+vertically and two horizontally. Ground glass was placed in front
+of the photoresistors to ensure light diffusion, and the entire
+detector was housed in an aluminum tube 15 cm long, blackened
+on the inside to prevent external light exposure. The total length
+of the laser beam was 7 m.
+Recording was done on a standard industrial strip-chart recorder
+with a paper tape width of 27 cm. The tape advance speed was
+0.1 cm/min. The horizontal and vertical deviations of the laser
+beam from its neutral position were recorded simultaneously.
+
+Result of the Experiment
+Although it was not possible to conduct systematic studies of the
+ether wind velocity during the entire time of the experiments, nor
+to estimate its magnitude, it should be considered that periodic
+diurnal deviations of the laser beam in the horizontal plane and in
+the vertical plane did occur, with the horizontal plane deviations
+being 2-5 times greater than the vertical ones.
+The main result is that the confirmation of the possibility of
+using the physical effect of laser beam deviation from the neutral
+position under the influence of ether flows can be considered
+established. This thereby confirms the possibility of subsequently
+creating a first-order ether wind velocity measuring instrument,
+which in turn will make it possible to proceed to mass-scale and
+systematic studies of the ether wind.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p47]
+Ether Wind Research                                                                 47
+The second result is the fact of diurnal variation in the deviation
+of the laser beam, which can be interpreted as a diurnal variation
+in the change of direction of the ether wind.
+The third result is the unexpected (for the authors) appearance
+of periodic oscillations of the laser beam with periods ranging
+from fractions of a minute to several hours, which can be
+interpreted as the influence of additional disturbances associated
+with solar radiation, expressed in the ether flows ejected by it.
+As conclusions, it should also be noted that it is advisable to
+create portable instruments and mass-produce them for systematic
+studies of the ether wind at various points on the Earth at different
+altitudes, including mountains and various aircraft, including
+artificial Earth satellites, at different times of the year and day.
+Ether wind research should be continued.
+
+1.3.2. Ether Wind Research Using a Millimeter-Wave
+Radio Interferometer
+
+Yu. M. Galaev
+Institute of Radio Physics and Electronics, National Academy of Sciences
+of Ukraine, Kharkov
+
+In this work, a first-order method and device for measuring the
+anisotropy of radio wave propagation velocity are proposed.
+The operation of the method and device is based on the patterns
+of viscous medium flow near an interface and the propagation of
+millimeter-range radio waves near the Earth's surface within
+line-of-sight [23−26]. The operating principle can be explained as
+follows. Let us place a radio interferometer near the Earth's
+surface, in which radio waves arrive at the observation point of
+the interference pattern after propagating at different heights
+above the Earth's surface. If we now rotate the radio
+interferometer in the flow of the physical vacuum, then within
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p48]
+48                                                                                                        Chapter 3.
+the framework of the initial hypothesis, owing to the abovementioned
+properties of the physical vacuum — the effects of anisotropy and
+height — the interference pattern should shift relative to its
+initial position. Such a radio interferometer is sensitive to the
+difference in the velocities of the physical vacuum flow at the
+heights where the radio interferometer beams are located. In other
+words, the proposed measurement method is sensitive to the
+magnitude of the gradient of the vertical profile of the physical
+vacuum flow velocity. The measurement method is a first-order
+method, since it does not require returning the emitted radio waves
+to their point of origin.
+The measurement method was implemented using a ground-based
+radio line-of-sight link, in which the main mechanism of field
+formation at the receiving point is the interference of the direct
+wave and waves reflected from the Earth's surface [25]. Such a
+radio link can be regarded as a radio interferometer with vertical
+beam arrangement. To eliminate the influence of isotropic effects
+on measurement accuracy — for example, the influence of
+variations in the parameters of the vertical profile of the
+atmospheric refractive index — the provisions of the reciprocity
+principle in electrodynamics were used. According to the
+reciprocity principle, the conditions of radio wave propagation
+from one point to another are exactly the same as in the reverse
+direction, and this symmetry does not depend on the properties of
+the intervening space, which is merely assumed to be isotropic
+[27]. Consequently, if a radio link with counter-propagating radio
+waves is used, then by subtracting the results of simultaneous
+interference measurements at both points, isotropic effects can
+be eliminated and anisotropy effects thereby isolated. A radio link
+with counter-propagating radio waves and the means for measuring
+radio wave interference can be regarded as a radio interferometer
+for studying the isotropy of space near the Earth's surface.
+Let us consider the features of implementing the proposed
+measurement method. Fig. 1 shows a diagram of the possible
+placement of the radio link on the terrain. In the figure, the
+letters "A" and "B" denote the transceiver antennas of the
+corresponding radio link points,
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p49]
+Ether Wind Research                                                                 49
+F(∆α) — normalized antenna directivity characteristics.
+The length of the radio link AB = r. The antennas are elevated
+above the flat Earth's surface to a height Zup >> λ, where λ is the
+radio wavelength. In radio links, the axes of the antenna directivity
+patterns usually coincide with the line AB (α = 0). Two waves arrive
+at each of the points "A" and "B": the direct wave, along the
+trajectory AB at height Zup, and the wave along the trajectory ACB,
+reflected from the Earth's surface at point C. The letter ψ denotes
+the grazing angle. The average height of the trajectory ACB is Zl.
+The angle between the directions of propagation of the direct
+waves and the waves reflected from the Earth's surface is denoted
+as ∆α. The arrows Wr up and Wrl show the direction of the radial
+component of the physical vacuum flow velocity, i.e., the
+component acting along the radio link. The lengths of the arrows
+are proportional to the velocities of the physical vacuum motion
+at heights Zup and Zl.
+In real radio links, Zup << r, and therefore the angles ψ and ∆α
+are small and measured in fractions of a degree. In Fig. 1, for
+clarity, the vertical scale is stretched, so the angles ψ and ∆α do
+not reflect the actual values. The radio link shown in Fig. 1 can be
+regarded as a radio interferometer with vertical beam arrangement.
+Due to the diurnal rotation of the Earth, such a radio interferometer
+rotates in the flow of the physical vacuum.
+To measure the parameters of radio wave interference, at each
+point of the radio link ("A" and "B") the method for measuring
+radio path characteristics proposed in [28] was employed. This
+made it possible to substantially facilitate the task of creating
+and operating the transceiver devices of the radio link, since the
+method [28] does not require the use of coherent radiation sources
+for phase measurements.
+
+[p50]
+50                                                                                                        Chapter 3.
+
+Fig. 1. Experimental setup diagram
+
+The operating principle of the method [28] is as follows. From
+the transmitting point, a probing modulated signal I is emitted
+with carrier frequency f0 and lower (f1 = f0 − Fm) and upper
+(f2 = f0 + Fm) sideband components, where Fm is the modulation
+frequency. During propagation, each ith component of signal I
+acquires a phase increment ϕi = kiLp, where: ki is the wave
+number, Lp is the propagation distance (indices i = 0,1,2
+correspond to frequencies f0, f1, f2). In the receiver, the received
+signal component with frequency f0 is separately multiplied
+with each of the sideband components, and the phase shift ∆ϕ is
+measured between the multiplication results having difference
+frequencies. The expression for ∆ϕ has the form:
+
+)
+(
+)
+(
+0
+2
+1
+0
+ϕ
+ϕ
+ϕ
+ϕ
+ϕ
+−
+−
+−
+=
+∆
+.                                                         (2)
+
+Such a combination of phases is invariant to a change in the
+origin of time and was given the name "phase invariant" in [29].
+...The proposed measurement method is sensitive to the sought
+effects of anisotropic radio wave propagation.
+
+
+---
+
