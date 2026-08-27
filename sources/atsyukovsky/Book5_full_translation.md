@@ -271,3 +271,424 @@ The history of searches for ether wind is one of the most confused histories of 
 
 ---
 
+
+### SOURCE SECTION: Глава 1.
+
+[p15]
+Ether Wind Research                                                                 15
+As has recently become clear, quite extensive work has been carried out in the field of ether wind research by a number of scientists. Some of them yielded exceptionally rich positive material. Among these, first and foremost, one must include the research conducted by the remarkable American scientist, professor at the Case School of Applied Science, Dayton Clarence Miller, who devoted practically his entire life to these investigations. It is not his fault, but rather his and our misfortune, that all the results obtained by him and his group were classified by the scientist's contemporaries and later theoretical physicists as "unrecognized." By 1933, when Miller's research was completed, the school of relativists — followers of A. Einstein's special theory of relativity — stood firmly on its feet and vigilantly ensured that nothing could shake its foundations. This "non-recognition" was also facilitated by the results of certain experiments in which the authors themselves, without wishing to, made errors and did not obtain the desired effect. They should not be accused of deliberate intent in such outcomes: they simply did not understand the nature of the ether, its properties, its interaction with matter, and therefore, when conducting their experiments, they made fundamental errors that prevented them from achieving success. Among such errors, in particular, is the shielding of the interferometer — the primary instrument used for ether wind research — with a metal screen. Metal, as it has now become clear, reflects not only electromagnetic waves but also any ether currents, and therefore measuring the velocity of ether flows inside a closed metal box is like trying to measure the wind blowing outside by looking at an anemometer installed in a tightly sealed room. For all the absurdity of such an experiment, alas, that is exactly what happened. The reader can verify this by reading the articles of R. Kennedy, K. Illingworth, E. Stahel, and A. Piccard. Among other errors are attempts to detect the Doppler effect allegedly arising from the ether wind when the source and receiver of electromagnetic oscillations are mutually stationary. And this, alas, is not an invention: it was precisely on
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p16]
+16                                                                                                        Chapter 3.
+On this basis, an experiment was conducted in 1958-1962 by the group of J. Cedarholm and C. Townes. This experiment could not yield anything positive, because the ether wind produces a phase shift of the oscillation, and does not change its frequency at all, and no high sensitivity of the instrument to frequency change will help here.
+However, one way or another, in the correct experiments of a number of researchers — D. Miller, E. Morley, and A. Michelson himself during the period 1905–1933 — the ether wind was detected, and the value of its velocity and direction were determined with fairly good accuracy for that time. It turned out that the direction of this wind does not coincide with the direction of the Earth's motion, as was initially assumed, but is almost perpendicular to it. It was found that the orbital component of the Earth's velocity is barely noticeable against the background of the large cosmic velocity of the ether flowing past the Solar System. The reasons for this, as well as the reasons for the decrease in the relative velocity of the ether and the Earth with decreasing altitude above the Earth's surface, remained unexplained at the time. But today, in connection with the emergence of etherodynamics — a new field of physics based on the concept of a gas-like ether existing in nature — these puzzling questions have been resolved. From the standpoint of regarding the ether as an ordinary viscous compressible gas, one can impartially evaluate all the data obtained by Morley, Miller, and Michelson on the ether wind, as well as assess all the errors made by researchers who obtained "null results."
+Etherodynamics is today taking only its first steps. The prevailing school of relativists still ignores the ether, and therefore a struggle for its recognition is underway. It will inevitably be crowned with success, because only through the path of recognizing the ether is it possible to uncover the internal mechanism of physical phenomena, to understand their essence, which is today undoubtedly necessary for all fields of natural science. For without this, it becomes impossible to advance in many applied directions. However, a prejudice regarding the "negative result" of Michelson's 1881 experiment still hangs over the recognition of the ether, and
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p17]
+Ether Wind Research                                                                 17
+1887. In order to dispel this prejudice, it was necessary to publish a collection of translations of the original articles by the authors of the ether wind experiments [5].
+Today, it is necessary to once again set up experiments to detect the ether wind, but taking into account the errors previously made and on a modern basis — with automatic recording and computerized processing of measurement results, at various altitudes, including placing instruments on artificial Earth satellites (AES). For this, it is not necessary to use interferometers; one can proceed much more simply — by determining the deviation of a laser beam from its mean position, since it has been established that the ether wind deflects a laser beam in the same way that an ordinary wind deflects a cantilevered beam from its normal position.
+The state of the ether, its density, viscosity, direction, and velocity of flows in near-Earth space must be known, because it is through the ether that space exerts its influence on terrestrial processes. Knowledge of the ether's parameters will allow a new approach to forecasting many events on Earth — climatic, geological, physiological, and many others — as well as accounting for a number of phenomena in space itself, including satellite flights, and interplanetary and, in the future, interstellar flights.
+In the meantime, since the "null results" of A. Michelson's first experiments led to the non-recognition of the existence in nature not only of the ether wind but of the ether itself, it seems useful to recall, at least briefly, the history of its search.
+Those who show interest in this problem can be referred to the book "The Ether Wind" [5], which for the first time in Russian publishes translations of the original articles by researchers of the ether wind, from A. Michelson (1881) to C. Townes (1962).
+
+[p18]
+18                                                                                                        Chapter 3.
+1.2. Experiments that yielded inconclusive or positive results
+
+In 1881, the American scientist A. Michelson made the first attempt to detect the ether wind, for which he built a cross-shaped interferometer, the diagram of which is shown in Fig. 3.1.
+
+Fig. 1.1. Diagram of A. Michelson's interferometer (Vavilov, p. 28)
+
+Michelson's apparatus is designed so that it contains two light beams that travel along paths positioned at right angles to each other and interfere with one another. The beam that travels in the direction of the Earth's motion will actually travel a fraction of a wavelength δ more than it would if the Earth were at rest. The second beam, traveling at right angles to the motion, will not experience this effect.
+If the apparatus is rotated by 90° so that the second beam travels in the direction of the Earth's motion, then its path will increase by δ. The total change in the position of the interference fringes will amount to 2δ, a quantity that, as Michelson initially believed, would be easily measurable.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p19]
+Ether Wind Research                                                                 19
+Since, in order to produce an interference pattern, the light beams must necessarily return to the light source, this is a second-order experiment, in which the sought effect is determined by the second power of the ratio of the Earth's orbital velocity v to the speed of light c, namely:
+
+              v 2
+δ = 2D ——,
+              c 2
+
+where D is the optical path length of the light beam, equal to 1200 mm in Michelson's apparatus.
+If one relies on the premises built into the experiment — that the ether is all-penetrating and experiences no deceleration when passing through objects and media, for example through the surface layer of the Earth (the experiment was conducted in the basement of the University of Berlin, and then in the basement of the university in Potsdam), that the nature of light is of a wave character and light is therefore fully entrained by the moving ether, and taking into account that the Earth's orbital velocity is about 30 km/s — the total shift of the interference pattern when the interferometer is rotated will amount to 0.04 of a wavelength of light, i.e., the interference fringes will shift by 0.04 of a fringe spacing. But this is only on the condition that the ether encounters no obstacles in its propagation through the atmosphere and the layer of earth separating the instrument from the Earth's surface.
+Figure 3.2 shows the instrument itself, in which the entire optical part is mounted on a rotating base.
+Michelson writes:
+"The apparatus was first set up on a stone foundation in the basement of the Physical Institute in Berlin. The very first observation showed that, due to the extraordinary sensitivity of the instrument to vibrations, the work could not be carried out during the day. The experiments were then tried at night. When the mirrors were set at the midpoint of the arms, the fringes became visible, but
+
+[p20]
+20                                                                                                        Chapter 3.
+their position could not be measured until midnight, and thereafter — only at certain intervals. When the mirrors were moved to the ends of the arms, the fringes were visible only sporadically.
+
+3.2. Michelson's 1881 interferometer
+
+It then became clear that the experiments could not be performed in Berlin, and the apparatus was moved to the Astrophysical Laboratory in Potsdam. But even here, the ordinary stone supports did not meet the requirements, and the apparatus was moved again, this time to a basement whose circular walls served as the foundation for the support of the equatorial (stationary telescope — V.A.).
+Under ordinary conditions, the fringes were very indistinct and difficult to measure; the instrument was so sensitive that even footsteps on the sidewalk a hundred meters from the observatory caused the complete disappearance of the fringes!"
+As a result of processing the measurements, it was found that there were small displacements of the interference fringes. Michelson then writes:
+"The small displacements -0.004 and -0.015 are simply experimental errors.
+The results obtained, however, are more clearly shown by plotting the actual curve together with the curve that should be
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p21]
+Ether Wind Research                                                                 21
+constructed if the theory is correct. This is shown in Fig. 1.4 (here — Fig. 3.3 — V.A.).
+
+
+
+Fig. 3.3. Measurement results: the curve obtained by Michelson from processing the interferometer readings (———) and the theoretical curve (- - - - ). The abscissa axis shows the angle of rotation of the interferometer; two periods of the theoretical curve correspond to one full revolution; the ordinate axis shows the displacement of the interference fringes in fractions of the distance between the centers of adjacent fringes.
+
+The dashed curve is drawn based on the assumption that the expected displacement is 1/10 of the distance between the interference fringes, but if this displacement is only 1/100, then the broken line will be even closer to a straight line.
+These results can be interpreted (! — V.A.) as the absence of displacement of the interference fringes. The result of the stationary ether hypothesis thus proves to be incorrect, from which follows the conclusion: this hypothesis is erroneous.
+…we would not be inclined to believe without explicit confirmation that the ether moves freely through the solid mass of the Earth."
+
+A. Michelson. The Relative Motion of the Earth and the Luminiferous Ether. 1881. In Russian in the collection "The Ether Wind." Ed. by Dr. Tech. Sci. V.A. Atsyukovsky. Moscow: Energoatomizdat, 1993. pp. 6-7. Translated from English by L.S. Knyazeva.
+
+In 1887, Michelson enlisted the help of Professor E. Morley. The interferometer was placed on a marble slab, which was mounted on a wooden ring-shaped float floating in a trough filled with mercury (Fig. 3.4).
+
+[p22]
+22                                                                                                        Chapter 3.
+
+                             Fig. 3.4. Michelson-Morley interferometer
+
+The stone on which all the optical elements were placed had an area of 1.5 m² and a thickness of 0.3 m. It was placed on an annular wooden raft with an outer diameter of 1.5 m, an inner diameter of 0.7 m, and a thickness of 0.3 m. The raft rested on mercury poured into a trough cast from iron, 1.5 cm thick and of such dimensions that a gap of 1 cm remained around the raft. The cast-iron mold rested on a cement base and on a low brick foundation shaped as a simple octagon.
+This arrangement of the interferometer eliminated vibrational interference, and rotation of the apparatus then proceeded without introducing additional distortions. In addition, the number of reflections from the mirrors was increased, which made it possible to increase the optical path length by a factor of 10 compared to the previous value.
+The authors describe in detail the adjustment methods they used for the mirrors (three types — by height and by azimuth), as well as the observation method.
+The observations were conducted as follows: 16 marks were inscribed at equal distances around the circumference of the iron-cast platform. The apparatus rotated very slowly (one revolution in 6 minutes), and after a few minutes the wire crosshair of the micrometer was set on the sharpest of the in-
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p23]
+Investigations of the ether wind                                                                 23
+interference fringes at the moment of passing one of the marks.
+The movement was so slow that this could be done
+accurately and precisely.
+It was found that when maintaining a slow, uniform
+motion of the apparatus, the results were much more
+uniform and consistent than when the stone was
+stopped for each observation, due to the fact that deformation
+effects may be observed for at least half a minute
+after the stone has been stopped, because at that time
+the influence of temperature change begins to take effect.
+The results of the observations are presented graphically in Fig. 3.5.
+The upper curve is the daytime observations, the lower one is the evening
+observations. The dashed curves represent 1/8 of the theoretical
+displacement.
+
+
+
+Fig. 3.5. Results of ether wind observations. On the abscissa axis — the angle
+of rotation of the interferometer, on the ordinate axis — the values of displacement
+of interference fringes in wavelengths of light. The theoretical curve is shown by strokes:
+the calculation is made from the assumption that the ether wind has a direction opposite
+to the motion of the Earth in the plane of the ecliptic.
+
+The authors write:
+"It seems quite fair to conclude from the figure that if
+there is any displacement due to the relative motion of the Earth and
+the luminiferous ether, it cannot be greater than 0.01 of the
+distance between the fringes.
+...If now, on the basis of this work, it could be
+quite legitimately concluded that the ether is at rest
+relative to the Earth, and according to Lorentz there may not exist
+
+[p24]
+24                                                                                                        Chapter 3.
+a velocity potential, then Lorentz's own theory also turns
+out to be untenable."
+In an addendum to the article, the authors write:
+"From the above it is evident that it is hopeless to attempt
+to solve the question of the motion of the Solar System by means of observations
+of optical phenomena on the surface of the Earth. But it is not impossible to
+detect relative motion with an apparatus similar to that
+used in the described experiments, at moderate altitudes above
+sea level, for example, at the summit of an isolated mountain. Prob-
+ably, if the experiment is ever to be conducted under such
+conditions, the housing of the apparatus should be made of glass
+or absent altogether."
+S.I. Vavilov provides a table showing the data
+from his processing of the ether wind measurement results
+of Michelson-Morley. In Fig. 3.6, a graph of the displacements is plotted according to the table
+calculated by Vavilov.
+
+
+
+Fig. 3.6. Graph of fringe displacement, calculated by S.I. Vavilov
+
+As can be seen from the graph, the second harmonic
+corresponding to the ether wind is quite clearly visible. As for
+the fact that the maximum displacement of interference fringes is 10
+times smaller than the theoretical value, taking into account the fact
+that the fringe displacement is proportional to the square of the ratio of the relative
+velocity of the ether and the Earth to the speed of light, it must be
+stated that in the considered experiment of Michelson-Morley, the existence of an ether wind was de-
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p25]
+Investigations of the ether wind                                                                 25
+tected, the velocity of which constituted from 3 to 6 km/s, which did not correspond to the "theoretical" value of 30 km/s, but, however, was by no means a "null" result.
+A. Michelson and E. Morley. On the relative motion of the Earth and the luminiferous ether. Ibid., pp. 17-32. Trans. from English by L.S. Knyazeva.
+S.I. Vavilov. Experimental foundations of the theory of relativity. In: Collected works, vol. IV. Moscow: Academy of Sciences USSR, 1956. P. 33.
+
+A result was obtained in the form of an ether wind velocity of 3 km/s. This contradicted the initial premise, according to which the ether wind velocity was expected to be 30 km/s (the orbital velocity of the Earth). The suggestion arose that under the influence of the ether wind, the lengths of the interferometer arms contract, which nullifies the effect, or that the velocity of the ether flow decreases with decreasing altitude. It was decided to continue the work, raising the interferometer to an elevation above the Earth's surface.
+
+In 1904-1905, Michelson did not participate in the further investigations of the ether wind; they were conducted by Professors E. Morley and D.C. Miller — a professor at the Case School of Applied Science.
+The first investigations aimed to test the hypothesis
+of Fitzgerald and Lorentz that during motion through the ether, the dimensions of the apparatus may change.
+To investigate this question, two instruments were constructed. In the first, the sandstone used in 1887 was employed, bordered by boards of white pine. The structural cross-section was built from beams 14 inches (355 mm) wide, 2 inches (51 mm) thick, and 14 feet (427 cm) long. The whole assembly was placed on a circular float, which was placed in a barrel filled with mercury and could rotate in it. In Fig. 3.7, a non-scale optical diagram of the interferometer is shown.
+
+[p26]
+26                                                                                                        Chapter 3.
+
+                                                   a)
+
+
+                                            b)
+
+Fig. 3.7. Morley-Miller interferometer: a) general view; b) optical diagram
+
+The authors describe the methodology of the experiment.
+"One observer walked in a circle together with the moving
+apparatus. His eye was constantly at the telescope, so he maintained
+the rotation of the instrument by means of irregular gentle pushes
+through a rope, secured so as not to introduce any
+strain into the arms of the apparatus. The room was darkened. A second
+observer also walked in a circle together with the apparatus. When the index
+was set at one of the sixty equally spaced marks, the second observer
+called out the azimuth or gave some other signal. The first
+observer read the readings for the given azimuth, which the second observer
+recorded. The next azimuth was called, the readings were taken, and so on.
+Some time, however, was spent correcting excessive displacement of the interference
+fringes caused by temperature changes: during this time, observations were
+suspended.
+This work requires patience and self-control, without which it is impossible
+to conduct work of this kind. Runs of twenty or
+thirty turns, involving 320 or 480 readings, were
+a common occurrence. A run of thirty turns meant that the observer,
+who had to take sixty readings per turn in 65 or 75 seconds, walked half a mile,
+straining to keep his eye at the eyepiece, so as not to interrupt observations for half an hour.
+This work is, of course, very exhausting.
+
+...we planned to build a new apparatus and conducted several
+experiments to verify, although it was well
+known, whether the difference in magnetic attraction of the iron
+parts of our apparatus would affect our observations. However, the
+observations gave the same result as before. We investigated
+how far the interference fringes are displaced under the
+influence of an iron weight of 100 g, and confirmed what was
+known before: terrestrial magnetism is not a disturbing factor.
+In the second apparatus, all optical paths ran along a steel
+frame, made of plates and angle iron, somewhat
+resembling bridge blocks. At the ends, frames are suspended
+holding the mirrors; pine rods are inserted into the frames,
+running the full length through brass tubes, so that the position
+of the mirrors depends only on the length of the pine rods. This design
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p27]
+Investigations of the ether wind                                                                 27
+strain into the arms of the apparatus. The room was darkened. A second observer also walked in a circle together with the apparatus. When the index was set at one of the sixty equally spaced marks, the second observer called out the azimuth or gave some other signal. The first observer read the readings for the given azimuth, which the second observer recorded. The next azimuth was called, the readings were taken, and so on. Some time, however, was spent correcting excessive displacement of the interference fringes caused by temperature changes: during this time, observations were suspended.
+This work requires patience and self-control, without which it is impossible to conduct work of this kind. Runs of twenty or thirty turns, involving 320 or 480 readings, were a common occurrence. A run of thirty turns meant that the observer, who had to take sixty readings per turn in 65 or 75 seconds, walked half a mile, straining to keep his eye at the eyepiece, so as not to interrupt observations for half an hour. This work is, of course, very exhausting.
+
+...we planned to build a new apparatus and conducted several experiments to verify, although it was well known, whether the difference in magnetic attraction of the iron parts of our apparatus would affect our observations. However, the observations gave the same result as before. We investigated how far the interference fringes are displaced under the influence of an iron weight of 100 g, and confirmed what was known before: terrestrial magnetism is not a disturbing factor.
+In the second apparatus, all optical paths ran along a steel frame, made of plates and angle iron, somewhat resembling bridge blocks. At the ends, frames are suspended holding the mirrors; pine rods are inserted into the frames, running the full length through brass tubes, so that the position of the mirrors depends only on the length of the pine rods. This design
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p28]
+28                                                                                                        Chapter 3.
+allows convenient replacement of the rods with others made of a different material, so that the experiment can easily be used to test whether the dimensions of different materials depend differently on motion through the ether.
+Observations were conducted according to the same scheme as when using the preliminary apparatus.
+We obtained 260 complete observations, each consisting of readings at sixteen azimuths around the circle. From the data on the annual motion of the Earth, its velocity together with the velocity of the Solar System's motion can be taken as 33.5 km/s. The speed of light is 300,000 km/s; the ratio of the squares of the velocities is 0.72·10⁻⁸. The path length of the beam in our apparatus was 3224 cm, a distance containing 5.5·10⁷ wavelengths of sodium light. The expected effect appears twice during a rotation through 90°; the displacement of interference fringes according to simple kinematic theory amounts to 1.1·10⁻⁸ – 0.72·10⁻⁸. This is 1.5 wavelengths.
+Averaging the observation data yielded 0.0076 of a wavelength, so we could declare that the experiment showed: if there is some effect of natural origin, it amounts to no more than one hundredth of the calculated value.
+...One might think that the conducted experiment proved only that in a quiet basement room the ether is dragged along with it. Therefore we wish to raise the placement of the apparatus to a hill, covering it only with a transparent enclosure, in order to see whether any effect can be detected."
+E. Morley and D. Miller. Report on the experiment to detect the "Fitzgerald-Lorentz effect." Ibid., pp. 35-42.
+
+The results of Morley and Miller's observations on the investigations of the ether wind in 1904-1905 were published in the winter of 1905. In a report read before the Washington Academy of Sciences, Professor D.C. Miller writes:
+"It was at this time that Einstein became interested in the question. He published in 1905 a paper entitled 'Electrodynamics of
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p29]
+Investigations of the ether wind                                                                 29
+Moving Bodies.' This work was the first in a long series of papers by Einstein and others that developed modern relativity theory. In the aforementioned work, Einstein puts forward the principle of the constancy of the speed of light, asserting that for an observer on the moving Earth, the measured speed of light must be constant, regardless of the direction and velocity of the Earth's motion. The chief physical factor of the theory of relativity is the assumption that experiments with the ether wind yielded a definite result. However, the interpretation of this experiment was unacceptable to the author (italics mine — V.A.), and further observations were undertaken to resolve the question.
+In the autumn of 1905, Morley and Miller moved the interferometer to the Euclid Heights near Cleveland, at an elevation of approximately 300 feet above Lake Erie, to a location free from all obstructions and structures. Five series of observations were carried out (1905-1906), which gave a definite positive effect amounting to approximately 1/10 of the expected wind. There was a suspicion that this could have been caused by the influence of temperature, but there was no direct evidence of this.
+At an altitude of 250 m above sea level (the Euclid Heights near Lake Erie), an ether wind velocity of 3-3.5 km/s was obtained. The result was confident but inexplicable. Reports and articles were written. They wanted to continue the work, but the plot of land was taken away, and the work was postponed.
+
+In 1905, A. Einstein published his famous article 'On the Electrodynamics of Moving Bodies,' in which he writes that upon introducing two premises — the first, "that for all coordinate systems for which the equations of mechanics are valid, the same electrodynamical laws are valid," and the second, that light in empty space always propagates with a definite velocity independent of the state of the emitting body — then "the introduction of the 'luminiferous ether' will prove superfluous, since in the proposed theory no 'absolutely resting space' endowed with special properties is introduced, nor any point of space,
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p30]
+30                                                                                                        Chapter 3.
+in which electromagnetic processes take place, no velocity vector is ascribed to it."
+A. Einstein. On the Electrodynamics of Moving Bodies. Collected Scientific Works. M.: Nauka, 1965. Pp. 7-8.
+
+1910. A. Einstein, in the article "The Principle of Relativity and Its Consequences," referring to Fizeau's experiment on the dragging of light by a moving liquid (water), conducted in 1851, writes:
+"Thus, light is partially dragged by the moving liquid. This experiment rejects the hypothesis of complete aether dragging. Consequently, two possibilities remain.
+1. The aether is completely stationary, i.e., it does not participate in the motion of matter at all.
+2. The aether is dragged by moving matter, but it moves at a velocity different from the velocity of the matter.
+The development of the second hypothesis requires the introduction of some assumptions regarding the relationship between the aether and moving matter. The first possibility is very simple, and for its development on the basis of Maxwell's theory, no additional hypothesis is needed that could complicate the foundations of the theory."
+And further:
+"It follows from this that a satisfactory theory cannot be created without abandoning the existence of a certain medium filling all of space."
+This is the entire justification for the absence of aether in nature: with the aether, the theory turns out to be too complicated!
+A. Einstein. The Principle of Relativity and Its Consequences. Same source, pp. 140, 145-146.
+
+1914. M. Sagnac publishes the results of experiments on measuring the angular velocity of a platform on which light from a source placed on it, by means of mirrors, circuits the platform along its periphery both clockwise and counterclockwise. A displacement of interference fringes is detected, the magnitude of which is proportional to the angular velocity of the platform. A similar
+
+[p31]
+Studies of the Aether Wind                                                                 31
+experiment was conducted by F. Harres (Jena, 1912). At present, the Sagnac effect is used in laser gyros (angular velocity sensors), manufactured by industry in many thousands of units.
+
+                                        Fig. 3.8. Sagnac's Interferometer
+
+S.I. Vavilov, in the book "Experimental Foundations of the Theory of Relativity," writes:
+"If the Sagnac phenomenon had been discovered before the null results of second-order experiments were clarified, it would, of course, have been regarded as a brilliant experimental proof of the existence of the aether. But in the situation that arose in theoretical physics after the Michelson experiment, the Sagnac experiment explained little. Sagnac's small interferograph detects an 'optical vortex,' consequently, it does not drag the aether along with it. Such is the only possible interpretation of this experiment on the basis of the concept of the aether."
+S.I. Vavilov. "Experimental Foundations of the Theory of Relativity" (1928). Collected Works, vol. IV. M.: USSR Academy of Sciences Publishing House, 1956. Pp. 52-57.
+
+1915. A. Einstein, in the second part of the article "The Theory of Relativity," formulates for the first time the fundamental principle of the General Theory of Relativity:
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p32]
+32                                                                                                        Chapter 3.
+"…the properties of measuring rods and clocks (geometry or, in general, the metric) in this continuum (the four-dimensional space-time continuum — V.A.) are determined by the gravitational field; the latter, thus, represents a physical state of space that simultaneously determines gravitation, inertia, and the metric. This constitutes the deepening and unification of the foundations of physics achieved thanks to the general theory of relativity."
+A. Einstein. The Theory of Relativity (1915). Collected Scientific Works. M.: Nauka, 1965, P. 424.
+
+1920. A. Einstein, in the article "Ether and the Theory of Relativity," writes that "…the general theory of relativity endows space with physical properties; thus, in this sense, the aether exists. According to the general theory of relativity, space is inconceivable without the aether; indeed, in such space not only would the propagation of light be impossible, but measuring rods and clocks could not exist, and there would be no space-time distances in the physical sense of the word. However, this aether cannot be conceived as consisting of parts traceable through time (parts exist in space, in time — processes! — V.A.); only ponderable matter possesses such a property; likewise, the concept of motion cannot be applied to it."
+A. Einstein. Ether and the Theory of Relativity (1920). Same source, P. 689.
+
+1924. A. Einstein, in the article "On the Aether," reports that "…we cannot do without the aether in theoretical physics, i.e., without a continuum endowed with physical properties, for the general theory of relativity, whose fundamental ideas physicists will probably always adhere to (?! — V.A.), excludes direct action at a distance; but every theory of contiguous action presupposes the existence of continuous fields, and consequently, the existence of the aether."
+A. Einstein. "On the Aether." Same source, vol. 2, 1966, P. 160.
+
+[p33]
+Studies of the Aether Wind                                                                 33
+1925. A. Michelson and H. Gale, in the article "The Effect of the Earth's Rotation on the Velocity of Light," published the results of experiments on measuring the speed of light in iron pipes 305 mm in diameter, laid on the ground on Mount Wilson along the perimeter of a rectangle measuring 620×340 m, from which the air had been evacuated. The results clearly recorded the rotation of the Earth, which could be explained only by the presence in the pipes of an aether stationary relative to world space.
+
+           Fig. 3.9. Diagram of the experiment by A. Michelson and H. Gale
+
+A. Michelson and H. Gale. The Effect of the Earth's Rotation on the Velocity of Light.
+In Russian, in the collection "Aether Wind." Ed. by Dr. Tech. Sci. V.A. Atsyukovsky.
+M.: Energoatomizdat, 1993. Pp. 22-61. Transl. from English by L.S. Knyazeva.
+
+In 1925, D.C. Miller, at the Washington Academy of Sciences, delivered a lecture titled "The Aether Wind," in which he concisely presented the results of his experiments on detecting the aether wind.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p34]
+34                                                                                                        Chapter 3.
+positive results of work on detecting the aether wind on Mount Wilson at an altitude of 6000 feet (1860 m).
+Professor Morley withdrew from active work in 1906, and the continuation of the experiments passed into the hands of D.C. Miller.
+Miller writes:
+"The publication of the results of observations of the solar eclipse of 1919, which were interpreted as a confirmation of the theory of relativity, reawakened interest in aether wind experiments.
+The experiments were continued and transferred to the Mount Wilson Observatory. The apparatus was essentially the same as that used by Morley and Miller in 1904, 1905, and 1906. Observations were also conducted at the end of 1921 and again in 1924 and 1925.
+In total, about 5000 individual measurements of the aether wind were made on Mount Wilson at various hours of the day and night. These observations were consolidated into 204 different series, each series corresponding to one hour of time. Observations were made at four different times of the year:
+
+1.        April 15, 1921  — 117 series of observations;
+2.         December 8, 1921 —   42 series;
+3.         September 5, 1924 —  10 series;
+4.         April 1, 1925   —   35 series.
+
+The very first observations, made in March 1921, yielded a positive effect corresponding to a real aether wind, as if it were caused by the relative motion of the Earth and the aether at a velocity of approximately 10 km/s. However, before publishing this result, it seemed necessary to investigate all possible causes that could produce an effect similar to that of the aether wind. These possible causes could be reduced to magnetic deformations of the steel frame of the interferometer and the effects of radiant heat. In order to completely eliminate the influence of radiant heat, all metal parts of the interferometer were completely covered with a layer of cork about one inch thick. Fifty series of observations made under these conditions revealed —
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p35]
+Studies of the Aether Wind                                                                 35
+revealed a periodic displacement of fringes, coinciding with the previous observations.
+In the summer of 1921, the steel frame of the interferometer was disassembled. In its place, on a mercury float, a concrete foundation reinforced with brass rods was installed. New supports made of aluminum and brass were made for the optical parts. Thus, the apparatus was completely immune to magnetic influences, and the possibility of heating was greatly reduced.
+In December (4-11) 1921, about 900 individual observations were conducted, consolidated into 42 series. The results with such a non-magnetic interferometer yielded a positive effect corresponding to an aether wind of exactly the same velocity and direction as those obtained in April 1921.
+Numerous variations of experimental conditions were tried. Observations were conducted with the interferometer rotating clockwise and counterclockwise, at fast rotation (one revolution per 40 seconds) and at slow rotation (one revolution per 85 seconds), with a heavy weight placed on the bracket of the tube and then on the bracket of the lamp, with the float raised high above the mercury level because first one quadrant and then another was loaded. The assistant recording the observations walked around or stood in various parts of the room, far from the apparatus or close to it. None of these variations had any effect on the results of the observations.
+Then the entire apparatus was moved back to Cleveland. During 1922 and 1923, many tests were conducted under various controllable conditions and with various modifications in the arrangement of the apparatus parts.
+…After the completion of the described experiments, the interferometer was again moved to Mount Wilson. In 1921, the apparatus had been located in a deep canyon. I feared that air currents and the asymmetrical distribution of rock formations in the canyon might introduce undesirable disturbances. In August 1924, a new site was chosen on a slightly rounded hill, away from canyons. The housing for the interferometer was erected so that its orientation —
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p36]
+36                                                                                                        Chapter 3.
+— the direction of the roof ridge and the placement of doors — was 90° from the 1921 orientation. The interferometer was in all details the same as that used in Cleveland in July 1924. In September (the 4th, 5th, and 6th of 1924), 275 measurements of fringe displacement were conducted, with the measurements arranged in 10 series. The observations revealed a definite displacement, in contrast to the insignificant results obtained in Cleveland.
+The aether wind corresponding to this displacement in velocity and direction fully corresponded to that first observed at Mount Wilson. Some of the measurements were conducted under conditions where the light paths were covered with glass boxes lined with corrugated paper, which, as experience in Cleveland had shown, completely eliminated the influence of radiant heat. However, these covers did not change the result in the least, from which it follows that such influences are altogether absent.
+Observations at Mount Wilson were resumed on March 27, 1925, and continued until April 5. During this interval, 1600 measurements were made, consolidated into 35 series. The interferometer was the same as in September 1924.
+During this period, conditions for observation were exceptionally good. Fog prevailed for some time, maintaining a very uniform temperature. Four precision thermometers were hung on the outer windows of the housing; in many cases, temperature variations did not exceed 0.1° and were usually less than 0.4°. However, even a change of several degrees, which could cause a constant displacement of the interference fringes, cannot change the periodic displacement either in magnitude or in direction.
+The observations in April 1925 yielded results completely identical to the results of 1921, despite the fact that the interferometer had been rebuilt, that a different illumination system and different observation methods were used, and despite the fact, finally, that the interferometer was installed in a different location and in a differently oriented building.
+
+[p37]
+Studies of the Aether Wind                                                                 37
+The described experiments, carried out at Mount Wilson during 1921–1925, lead to the conclusion that there exists a definite displacement of the interference fringes such as would be caused by a relative motion of the Earth and the aether at this observatory with a velocity of approximately 10 km/s, i.e., about one-third of the Earth's orbital velocity.
+
+                                 1)                                                                  2)
+
+       Fig. 3.10. Superposition of theoretical curves (smooth curve)
+        with experimental results (broken line): 1) azimuth; 2) velocity;
+        a) April 1, 1925; b) August 1, 1925; c) September 15, 1925
+
+Comparing this result with the previous results obtained in Cleveland, the idea suggests itself of a partial dragging of the aether, which decreases with altitude."
+
+
+---
+
