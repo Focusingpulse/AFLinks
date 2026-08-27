@@ -692,3 +692,114 @@ Comparing this result with the previous results obtained in Cleveland, the idea 
 
 ---
 
+
+### SOURCE SECTION: Глава 1.
+
+[p38]
+38                                                                                                        Chapter 3.
+D.C. Miller. The Ether Wind. A report read at the Washington Academy of Sciences. Trans. from English by S.I. Vavilov. Ibid., pp. 62-67.
+
+1926. D.C. Miller publishes an extensive article "The Significance of Experiments on the Detection of the Ether Wind in 1925 at Mount Wilson." The article provides a detailed account of the instrument description, the methodology of conducting the experiments and processing the results. It is shown that the ether wind has not an orbital but a galactic direction and has an apex in the constellation Draco (65° N, 17 h). The speed of the ether wind at an altitude of 6000 feet is 8-10 km/s.
+D.C. Miller. The Significance of Experiments on the Detection of the Ether Wind in 1925 at Mount Wilson. Trans. from English by V.M. Vakhnina. Ibid. pp. 71-94.
+
+1926-1927. R. Kennedy and then K. Illingworth published the results of ether wind measurements at Mount Wilson using a small (1 m optical path length) interferometer sealed in a metal box and filled with helium.
+
+
+
+                               Fig. 3.11. Diagram of Kennedy's interferometer
+
+[p39]
+Investigations of the Ether Wind                                                                 39
+To increase sensitivity, they used a stepped mirror. The result was inconclusive, within the limits of error.
+R.J. Kennedy. A Refinement of the Michelson-Morley Experiment. Trans. from English by V.A. Atsyukovsky. Ibid., pp. 95-104.
+K.K. Illingworth. A Repetition of the Michelson-Morley Experiment Using Kennedy's Refinement. Trans. from English by L.S. Knyazeva. Ibid., pp. 105-111. 1927. February 4 and 5.
+
+A Conference was held at the Mount Wilson Observatory to discuss the results obtained by various researchers in ether wind experiments. Leading scientists of the time participated. D.C. Miller and R. Kennedy gave presentations. The former reported his results, the latter reported that he had obtained nothing. The conference thanked them for their interesting communications but drew no conclusions.
+Conference on the Michelson-Morley Experiment, held at the Mount Wilson Observatory, Pasadena, California, February 4 and 5, 1927. Trans. from English by V.A. Atsyukovsky and L.S. Knyazeva. Ibid., pp. 112-173.
+
+1927. On June 20 at 10 o'clock in the evening, aboard the balloon "Helvetia," A. Piccard and E. Stahel ascended an interferometer to an altitude of 2600 m. A small interferometer was used, and 96 rotations were made. The result was inconclusive.
+The experiment was repeated on Mount Rigi at an altitude of 1800 m above sea level. A value of 1.4 km/s was obtained with an instrument error of 2.5 km/s. The conclusion was drawn that no ether wind exists.
+E. Stahel. Michelson's Experiment on a Free Balloon. Trans. from German by S.F. Ivanov. Ibid., pp. 173-175.
+A. Piccard and E. Stahel. Michelson's Experiment Conducted on Mount Rigi at an Altitude of 1800 m Above Sea Level. Trans. from German by S.F. Ivanov. Ibid., pp. 175-177.
+
+1929. A. Michelson, together with his assistants F. Pease and F. Pearson, again conducted an experiment to detect the ether wind, this time at Mount Wilson in a specially constructed
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p40]
+40                                                                                                        Chapter 3.
+purpose-built foundation house for this purpose. A result on the order of 6 km/s was obtained.
+A.A. Michelson, F.G. Pease, F. Pearson. A Repetition of the Michelson-Morley Experiment. Trans. from English by V.A. Atsyukovsky. Ibid., pp. 177-178.
+F.G. Pease. The Ether Wind Experiment and the Determination of the Absolute Motion of the Earth. Trans. from English by L.S. Knyazeva. Ibid., pp. 179-185.
+
+1933. D.C. Miller published a major summary article on his work. It received no resonance in the scientific community.
+D.C. Miller. The Ether Wind Experiment and the Determination of the Absolute Motion of the Earth. Trans. from English by V.A. Atsyukovsky. Ibid., pp. 185-259.
+
+1958. A group of authors led by the inventor of masers, Nobel Prize laureate C. Townes, conducted an experiment using masers. Two masers were placed on a rotating platform, their emissions directed toward each other. The beat frequency was on the order of 20 kHz. If an ether wind were present, a change in the received frequency was expected due to the Doppler effect. According to the authors' reasoning, rotation of the platform should have changed the frequency ratio, which was not observed. The conclusion was drawn that no ether wind exists in nature, and consequently, no ether.
+J.P. Cedarholm, G.F. Bland, B.L. Havens, C.H. Townes. A New Experimental Test of the Special Theory of Relativity. Trans. from English by V.A. Atsyukovsky. Ibid., pp. 259-262.
+J.P. Cedarholm, C.H. Townes. A New Experimental Test of the Special Theory of Relativity. Trans. from English by V.A. Atsyukovsky. Ibid., pp. 262-267.
+
+1993. V.A. Atsyukovsky collected and for the first time translated into Russian the principal articles by the authors of experiments on the investigation of the ether wind. In the concluding article to the collection "The Ether Wind," the entire problematics, the errors committed by the authors of the experiments, and the tasks for further investigation are examined
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p41]
+Investigations of the Ether Wind                                                                 41
+of the ether wind. The article demonstrates the fundamental significance of such work for the fate of natural science, since confirmation of the presence of the ether wind at the Earth's surface automatically means the existence of ether in nature, and this fundamentally changes the entire theoretical foundation of natural science and opens up many new research and applied directions. The same article shows the possibility of creating a first-order instrument based on a laser: under the action of the ether wind, a laser beam will deviate from a straight-line direction, similar to an elastic cantilevered beam under wind load. With an optical path length on the order of 5-10 m and an ether wind speed of 3 km/s, a beam deviation of 0.1-0.3 mm can be expected, which is readily detectable by bridge photodetectors with an amplifier.
+V.A. Atsyukovsky. The Ether Wind: Problems, Errors, Tasks. Ibid., pp. 268-288.
+
+2000. Yu.M. Galaev, a researcher at the Kharkov Institute of Radiophysics, published data from ether wind measurements in the radio wave range at a wavelength of 8 mm over a 13 km baseline. The velocity gradient of the ether wind and the rotation of the Earth were utilized. Data were recorded automatically throughout 1998 and then statistically processed. The presence of an ether wind at the Earth's surface in the vicinity of Kharkov of approximately 1500 m/s was revealed, generally corresponding to Miller's 1925 data. The difference could be explained by the different altitude of the experiment site and the presence of different local features.
+Yu.M. Galaev. Ether Wind Effects in Radio Wave Propagation Experiments. Radiophysics and Electronics. Vol. 5, No. 1. pp. 119-132. Kharkov: National Academy of Sciences of Ukraine. 2000.
+
+Thus, the existence of an ether wind blowing past the Earth has been confirmed experimentally both in the past and at present.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p42]
+42                                                                                                        Chapter 3.
+1.3. Modern Experiments Yielding Positive Results
+
+1.3.1. Investigation of the Ether Wind Using a Laser
+
+V.A. Atsyukovsky
+State University of Management, Moscow
+
+Below is a brief description of experiments on the investigation of the galactic ether wind, conducted by the author and his assistant Mikhail Efimovich Pavlenko, now deceased, during their work at the Scientific Research Institute of Aviation Equipment, located in the city of Zhukovsky, Moscow Region, in the period from 1990 to 2000. Unfortunately, due to a number of circumstances and the workload of the main research topics, these studies were of a merely episodic nature, although they did allow some preliminary conclusions to be drawn that can be used in further investigations of the ether wind using methods significantly simpler than those available to A. Michelson and his followers. And this means that investigations of the ether wind blowing past the globe may in the near future become widespread and systematic.
+
+All investigations of the ether wind from the end of the 19th century and the first half of the 20th century that did not yield positive results failed to take into account the gas-like structure of the ether, idealized the properties of the ether, and therefore committed serious methodological and instrumental errors that led to the negative outcome of their experiments.
+
+The measurement of the ether wind must be based on the conception of the ether as a gas-like medium obeying all the known laws of an ordinary real, i.e., viscous and compressible, gas. This requires taking into account a number of circumstances.
+
+1. The flows of ether blowing past the Earth must be decelerated by the atmosphere and, consequently, with a decrease in the altitude of the measurement point, the relative velocity of the ether flows — the ether
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p43]
+Investigations of the Ether Wind                                                                 43
+wind relative to the Earth's surface should decrease, and in basement premises the measurement of the velocity of ether flows relative to the Earth's surface becomes impossible due to the deceleration of ether flows by earth strata; this circumstance was confirmed by the experiments of Michelson and Morley of 1881 and 1887, conducted in a basement room, and subsequently by the work of Morley and Miller of 1905, carried out at Euclid Heights (altitude 250 m above sea level), which obtained an ether flow velocity on the order of 3-3.5 km/s, and especially by the investigations of D.C. Miller, carried out in 1921-1925 at the Mount Wilson Observatory at an altitude of 1860 m, which obtained a velocity on the order of 8-10 km/s.
+
+From this it follows that measurements of the ether wind velocity must be conducted at the greatest possible height relative to the Earth's surface and, if possible, far from local objects located at the same elevation.
+
+2. Since Miller established that the apex of the ether wind is 26° from the celestial pole, the zero position of any instrument used in the experiment must be taken as the direction toward the north. Then the daily rotation of the Earth will lead to a symmetrical deviation of the ether wind direction over the course of a day.
+
+3. Since the ether is a real gas, it must be decelerated by any objects, especially metallic ones, having a Fermi surface; therefore, the room in which the ether wind velocity is to be measured should have, if possible, thin walls and preferably should not contain metallic inclusions. The necessity of this was confirmed by the experiments of Piccard and Stahel (1926), as well as Kennedy and Illingworth (1927), who enclosed their interferometers in metal boxes and consequently obtained no positive results, even though they conducted measurements at high altitude. Furthermore, the later (1928-1929) experiments of Michelson, Pease, and Pearson, conducted at the Mount Wilson Observatory in a specially built foundation house, although they yielded a positive result (6 km/s), it was smaller than that obtained
+
+
+---
+
