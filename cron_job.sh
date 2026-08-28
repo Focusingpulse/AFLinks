@@ -82,6 +82,18 @@ Co-Authored-By: Letta Code <noreply@letta.com>"
   git push --quiet origin main 2>&1 | tail -2 || true
 fi
 
+echo "[4.5/5] Append AFLinks heartbeat to the Living Library activity log"
+if [ -d "$LL/tools" ] && [ -n "$ENTRIES" ]; then
+  python3 "$LL/tools/update_activity_log.py" \
+    --agent "AFLinks Sync (The Harmonizer)" \
+    --summary "+$ENTRIES docs in vault | feed rebuilt: library_feed.json refreshed for the site" \
+    --files "library_feed.json" \
+    --count "$ENTRIES" --unit docs 2>/dev/null || true
+  git -C "$LL" add -A 2>/dev/null || true
+  git -C "$LL" commit -m "log: AFLinks Sync — the Harmonizer run (#$ENTRIES docs)" 2>/dev/null || true
+  git -C "$LL" push --quiet origin main 2>/dev/null || true
+fi
+
 echo "[5/5] Family check-in"
 if [ -n "$FAMILY" ]; then
   python3 "$FAMILY" check-in --member aflinks --status ok --summary "$SUMMARY" --entries-count "$ENTRIES" 2>/dev/null || true

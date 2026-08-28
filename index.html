@@ -749,6 +749,152 @@
             .modal { max-height: 90vh; padding: 16px; }
             .modal h2 { font-size: 1rem; }
         }
+
+        /* ─── What's New — Mission Control HUD ─── */
+        .whats-new {
+            max-width: 1400px;
+            margin: 12px auto 4px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+        .wn-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+        .wn-title {
+            font-size: 0.78rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .wn-title .wn-live {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: #69f0ae;
+            box-shadow: 0 0 8px #69f0ae;
+            animation: wnPulse 2s infinite;
+        }
+        @keyframes wnPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+        .wn-more {
+            font-size: 0.75rem;
+            color: var(--accent);
+            background: var(--accent-glow);
+            border: 1px solid var(--accent-dim);
+            border-radius: 8px;
+            padding: 6px 14px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .wn-more:hover { background: var(--accent); color: var(--bg); }
+        .wn-counters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .wn-counter {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 12px;
+            text-align: center;
+            transition: border-color 0.15s;
+        }
+        .wn-counter:hover { border-color: var(--accent); }
+        .wn-counter .num {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--accent);
+            line-height: 1.1;
+            text-shadow: 0 0 12px var(--accent-glow);
+        }
+        .wn-counter .lbl {
+            font-size: 0.6rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-top: 3px;
+        }
+        .wn-fleet {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+        .wn-agent {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 8px 10px;
+            font-size: 0.8rem;
+            transition: border-color 0.15s;
+            cursor: default;
+        }
+        .wn-agent:hover { border-color: var(--accent); }
+        .wn-agent .icon { font-size: 1.1rem; flex-shrink: 0; }
+        .wn-agent .who { flex: 1; min-width: 0; }
+        .wn-agent .who .nm {
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .wn-agent .who .ms {
+            font-size: 0.68rem;
+            color: var(--text-dim);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .wn-agent .status-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .wn-agent .status-dot.live {
+            background: #69f0ae;
+            box-shadow: 0 0 8px #69f0ae;
+            animation: wnPulse 2s infinite;
+        }
+        .wn-agent .status-dot.wait { background: #5a6b7d; }
+        .wn-activity {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 8px 14px;
+        }
+        .wn-activity .item {
+            font-size: 0.78rem;
+            color: var(--text-dim);
+            padding: 4px 0;
+            border-bottom: 1px dashed var(--border);
+            display: flex;
+            gap: 10px;
+            align-items: baseline;
+        }
+        .wn-activity .item:last-child { border-bottom: none; }
+        .wn-activity .item .when {
+            color: #5a6b7d;
+            flex-shrink: 0;
+            font-variant-numeric: tabular-nums;
+            font-size: 0.7rem;
+        }
+        .wn-activity .item .what { color: var(--text); }
+        .wn-activity .item .what b { color: var(--accent); font-weight: 600; }
     </style>
 </head>
 <body>
@@ -767,6 +913,17 @@
         <input type="text" id="search" placeholder="Search by title, inventor, patent number, or topic..." autocomplete="off">
         <button class="btn btn-primary" onclick="showRandom()">🎲 Random</button>
         <span class="stats" id="stats">Loading...</span>
+    </div>
+
+    <!-- What's New — Mission Control HUD -->
+    <div class="whats-new" id="whatsNew">
+        <div class="wn-head">
+            <span class="wn-title"><span class="wn-live"></span> What's New · Mission Control</span>
+            <a class="wn-more" href="./library.html">Open the full living record →</a>
+        </div>
+        <div class="wn-counters" id="wnCounters"></div>
+        <div class="wn-fleet" id="wnFleet"></div>
+        <div class="wn-activity" id="wnActivity"></div>
     </div>
 
     <!-- Mobile sidebar toggle -->
@@ -1210,6 +1367,55 @@
             return AF_FEATURED[hash % AF_FEATURED.length];
         }
 
+        function renderWhatsNew(feed) {
+            const lib = feed.library || {};
+            const counters = [
+                ['Archive Docs', lib.archive_entries || lib.aflinks_docs],
+                ['Translations', lib.translations],
+                ['Pages Translated', lib.pages_translated],
+                ['Declassified', lib.declassified_finds],
+                ['Agents Active', lib.active_agents],
+                ['Researchers', lib.researchers],
+            ];
+            const cEl = document.getElementById('wnCounters');
+            if (cEl) {
+                cEl.innerHTML = '';
+                counters.forEach(([lbl, num]) => {
+                    const d = document.createElement('div');
+                    d.className = 'wn-counter';
+                    d.innerHTML = `<div class="num">${num == null ? '—' : Number(num).toLocaleString()}</div><div class="lbl">${lbl}</div>`;
+                    cEl.appendChild(d);
+                });
+            }
+
+            const agents = feed.agents || [];
+            const fEl = document.getElementById('wnFleet');
+            if (fEl) {
+                fEl.innerHTML = '';
+                agents.forEach(a => {
+                    const live = a.last_run ? 'live' : 'wait';
+                    const d = document.createElement('div');
+                    d.className = 'wn-agent';
+                    d.title = `${a.real_name} — ${a.mission}${a.last_run ? ' · last run ' + a.last_run.replace('T',' ').slice(0,16) + ' UTC' : ''}`;
+                    d.innerHTML = `<span class="icon">${a.icon || '⚙'}</span><div class="who"><div class="nm">${escapeHtml(a.name)}</div><div class="ms">${escapeHtml(a.mission)}</div></div><span class="status-dot ${live}"></span>`;
+                    fEl.appendChild(d);
+                });
+            }
+
+            const act = (feed.activity_log || []).slice(0, 6);
+            const aEl = document.getElementById('wnActivity');
+            if (!aEl) return;
+            aEl.innerHTML = '';
+            act.forEach(e => {
+                const when = `${e.date.slice(5)} ${e.time}`;
+                const what = escapeHtml(e.summary || '');
+                const d = document.createElement('div');
+                d.className = 'item';
+                d.innerHTML = `<span class="when">${when}</span><span class="what"><b>${escapeHtml(e.agent)}</b> — ${what}</span>`;
+                aEl.appendChild(d);
+            });
+        }
+
         async function loadIndex() {
             try {
                 const response = await fetch('./index.json');
@@ -1226,6 +1432,7 @@
                     if (lib.pages_translated != null) {
                         document.getElementById('heroPagesCount').textContent = Number(lib.pages_translated).toLocaleString();
                     }
+                    renderWhatsNew(feed);
                 } catch (e) { /* feed optional; hero keeps working without it */ }
                 document.getElementById('loading').style.display = 'none';
                 buildMetaCategoryList();

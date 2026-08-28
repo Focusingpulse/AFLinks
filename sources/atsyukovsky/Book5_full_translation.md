@@ -1079,3 +1079,566 @@ effects of anisotropic radio wave propagation.
 
 ---
 
+
+### SOURCE SECTION: Chapter 1.
+
+[p51]
+Studies of Ether Wind                                                                    51
+Experimental Radio Link. The validation of the proposed measurement method was carried out using a ground-based line-of-sight radio link with a length of 13 km. The profile of the radio link is shown in Fig. 2. For clarity of terrain display, the vertical scale is stretched. The abscissa axis shows the values of the radio link length in kilometers, and the ordinate axis shows the heights above sea level in meters. In the figure, points "A" and "B" are the terminal transceiver points of the radio link. Point "A" was located on the northern outskirts of Kharkov, point "B" – in the village "Russkie Tishki." Identical transceiver mirror antennas with beamwidths of ≈ 0.5° were installed at the radio link points. The antenna of point "A," at its location, was raised 30 m from the ground surface, and the antenna of point "B" was raised 12 m. The top of hill D and the terrain in the area of point C have grass cover.
+
+Fig. 2. Profile of the experimental radio link
+
+The top of hill E is occupied by forest plantations. The average height of the trajectory AB above the ground surface Zup ≈ 42 m. The clearance value above the summit D is H1 ≈ 25.3 m. The clearance value above point C is H2 ≈ 24 m. The distance from point "A" to summit D is r1 ≈ 2200 m. The azimuth of the radio link a, measured at point "A" relative to the meridian, is a ≈ 45°. To clarify the mechanism of field formation in the radio link, the vertical structure of the field was measured at point "A." The measurements were performed in summer, in the month of August
+
+[p52]
+52                                                                                                        Chapter 3.
+using the antenna of point "B" transmitting at the carrier frequency of the probing signal of this point f0B. Vertical sounding was performed using an auxiliary receiving device equipped with an antenna with a relatively wide beamwidth (≈10°). The measurement results are shown by dots on the left fragment of Fig. 3. The solid line approximates the observed field structure. The abscissa axis shows the ratio of the received signal power P to the conventional power level P0, in decibels. The ordinate axis shows the height of the auxiliary receiving device in meters, starting from the level of the antenna location at point "A." In Fig. 3, it can be seen that the vertical field structure contains two main components.
+
+Fig. 3. Vertical structure of the field
+
+The first is represented by several periods of variation, the second – only by part of its period. The measured structure can be described by the interference of three waves: the direct wave, which propagates along the path BA; the wave reflected from summit D and propagating along the path BDA; and the wave reflected from the Earth's surface in the vicinity of point C, propagating along the path BCA. The solution to the problem of interference of multiple waves is presented in work [25].
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p53]
+Studies of Ether Wind                                                                    53
+...Equipment.
+The terminal points of the radio link (Fig. 2) were equipped with identical sets of transceiver and recording equipment. At each point of the radio link, the same mirror-type antenna was used for transmitting and receiving probing signals. The antennas at both points are identical. Mirror diameters are 1.1 m. The antennas are mounted on supports made of structural steel. The supports are equipped with rotation mechanisms for pointing the antennas in azimuth and elevation. Fig. 4 shows the external appearance of the transceiver device at point "A." The device is placed on the roof of a building.
+
+Fig. 4. Measurement point "A," Kharkov
+
+Fig. 4 shows the device with antennas of different diameters. In the present work, only the larger diameter antenna was used for signal transmission and reception. At point "B," a similar device was placed as shown by the arrow in Fig. 5. On the support structures, in addition to the antennas, containers with microwave units of the transceiver points were placed. Low-frequency units and recording equipment were located in building premises. The carrier oscillation generators had frequencies of about 37 GHz, and the modulation oscillation generators had frequencies of about 0.5 GHz. For separating
+
+[p54]
+54                                                                                                        Chapter 3.
+the transmitted and received signals, the nominal values of the carrier and modulation oscillation frequencies differed. At point "A," the carrier frequency was f0A = 36.95 GHz, and at point "B," the carrier frequency was f0B = 37 GHz (a difference of 50 MHz). Accordingly, the modulation frequencies had values FmA = 0.47 GHz and FmB = 0.5 GHz (a difference of 30 MHz).
+The output power of each transmitting device, built on Gunn diodes, was about 70 mW. The operating mode of the generators was continuous. The carrier and modulation oscillation generators with associated units were placed in thermostats and covered by automatic frequency tuning systems. The measurement complex underwent comprehensive laboratory and field tests in the ambient temperature range of −25°C ...+35°C. The tests were performed under various meteorological conditions and in all seasons of the year.
+
+Fig. 5. Measurement point "B," village Russkie Tishki
+
+For recording the measurement results of the phase invariants ΔϕA and ΔϕB, chart recorders were used at both terminal points. At point "A," the amplitude of the received signal was additionally recorded. This information made it possible to identify time intervals during which hydrometeors fell
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p55]
+Studies of Ether Wind                                                                    55
+(rain, snow), which was not always possible to determine visually. The amplitude channel also performed the function of continuous monitoring of the measuring system operation. Analysis of the actual equipment characteristics and its test results showed that the resulting root-mean-square equipment error in measuring the quantity Φ does not exceed σΦ ≤ 2.4°. It is shown below that the sensitivity of the manufactured radio interferometer to the value of anisotropy in the radio wave propagation velocity is Wh min ≈ 108 m/s.
+
+Measurement Methodology. Probing signals IA and IB were emitted towards each other from points "A" and "B," respectively. Simultaneously, at each point, reception of probing signals and their processing was carried out according to the adopted measurement method. At both points, the measured values of quantities ΔϕA and ΔϕB were recorded on chart recorder tapes. Time marks were generated at point "A" and transmitted to point "B" using signal IA. In this way, time marks were synchronously recorded by chart recorders at both points. Measurements were conducted continuously and around the clock. Calibration of the equipment and monitoring of its functioning was carried out using an autonomous device that generated test signals with controlled parameters and spectra analogous to those of the probing signals.
+
+Measurement Results. In accordance with the research objectives, the results of the present work will be considered in parallel with the results of experiments [15,16], [5−7,14], and [13]. The named four experiments, including the present experiment, were performed at different points on the Earth using three different measurement methods and in different ranges of electromagnetic waves. The discussed results of the present work pertain to a series of measurements conducted in the millimeter radio wave range over a period of 6 months of the year (from August to January) using the described first-order measurement method (Ukraine). The total
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p56]
+56                                                                                                        Chapter 3.
+continuous measurement time in this series amounted to 1288 hours.
+Experiment [15,16] was performed using a first-order optical measurement method (Ukraine). Experiments [5−7,14] (USA) and [13] (USA) were performed using second-order optical measurement methods, specifically cross-shaped Michelson interferometers. The operation of the measurement methods applied in the present work and in experiments [15,16], [5−7,14], and [13] is based on concepts of wave propagation in a moving medium, the properties of which determine the speed of electromagnetic wave propagation. Within the framework of the initial hypothesis, this makes it possible to interpret the results of the named experiments in terms of anisotropy in the speed of electromagnetic wave propagation.
+
+Let us consider the manifestation of the sought effects in experiments on electromagnetic wave propagation.
+The fragments of Fig. 9 present the average results of experiment [15,16] (Fig. 9a), the present work (Fig. 9b), and experiment [5−7] (Fig. 9c), which were obtained in different years during the August epoch. The term "epoch" is borrowed from astronomy, in which observations from different years, performed in the same months, are attributed to observations of a single epoch. The results of experiment [13] are not presented in Fig. 9, since the authors limited themselves only to information about the maximum value of the anisotropy they measured, Wh ≈ 6000 m/s. The ordinate axes show the values of anisotropy Wh in m/s, and the abscissa axes show solar time of day Tm in hours. The vertical strokes denote confidence intervals. Each fragment of Fig. 9 illustrates the manifestation of the sought anisotropy effect. In experiments [15,16], [5−7,14], [13], the anisotropy effect was detected by rotation of optical interferometers, while in the present work, counter-propagation of radio waves was used. The results of the considered experiments showed that the anisotropy value changes during the day, and such changes have a similar character. Thus, the correlation coefficients ℜ, calculated between the dependencies Wh(Tm), lie in
+
+[p57]
+Studies of Ether Wind                                                                    57
+the range 0.73 ≤ ℜ ≤ 0.85.
+
+Fig. 9. Change in anisotropy during the August epoch according to data from various experiments: a) experiment [15,16]; b) present work; c) experiment [5−7]
+
+In works [5−7, 14], the change in anisotropy during the day is explained by the motion of the Solar System toward the apex with coordinates close to the coordinates of the north pole of the ecliptic. In this case, due to the Earth's daily rotation, the projection of the relative velocity vector onto the horizontal plane of the instrument and, consequently, the anisotropy value Wh will
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p58]
+58                                                                                                        Chapter 3.
+change during the day. Such an explanation does not contradict the results of the present work and can be accepted as initial.
+
+The results of the present work and experiments [15,16], [5−7,14], [13] illustrate the manifestation of another sought effect – the height effect. In these four experiments, measurements were performed at five different heights: 1.6 m and 4.75 m in experiment [15,16]; 42 m in the present work; 265 m and 1830 m in experiment [5−7,14] (Cleveland and Mount Wilson Observatory, respectively). In experiment [13], measurements were also conducted at Mount Wilson Observatory. The manifestation of the height effect can be seen both in the fragments of Fig. 9, noting, for example, the maximum values of anisotropy Wh, and in Fig. 10, which shows the dependence of anisotropy Wh on the height Z of the measuring device location above the Earth's surface.
+
+For constructing Fig. 10, averages of the maximum anisotropy values measured in the present work and in experiments [15,16], [5−7,14], [13] were used. The abscissa and ordinate axes show the values of logarithms of the ratios Wh/W* and Z/Z*, respectively. The values of quantities W* and Z* were taken equal to 1 m/s and 1 m, respectively. For clarity, on the upper and right parts of Fig. 10, the coordinate axes show the values of Wh in m/s and Z in meters. In Fig. 10, it can be seen that the results of various experiments follow a single pattern and are located near a straight line. In the height range from 1.6 m to 1830 m, the anisotropy value increases from 200 m/s to 10000 m/s, which constitutes from 6.7×10⁻⁷ to 3.3×10⁻⁵ of the speed of light, respectively.
+
+The experimental results presented in Fig. 9 and Fig. 10 illustrate the high correlation between results of various experiments, the observability of the phenomenon of anisotropic propagation of electromagnetic waves, the reproducibility of the phenomenon's properties under various observation conditions, and the reproducibility of the phenomenon's properties when using different methods of experimental research and different ranges of electromagnetic waves. All this provides grounds for positively evaluating the reliability of the results
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p59]
+Investigations of the Aether Wind                                                                 59
+of the results of the experiments under discussion. It should be noted that the measured values of anisotropy are relatively small, and in many practical cases they can be neglected. In this sense, the space near the Earth's surface can be considered isotropic, with an accuracy that depends on the time of day and on the altitude above the Earth's surface. The data presented in Fig. 9 and Fig. 10 can be regarded as the boundaries of applicability of the concept of optical isotropy of space near the Earth's surface.
+
+Fig. 10. Dependence of the magnitude of anisotropy on altitude above the Earth's surface according to data from various experiments: 1 — experiment [15,16]; 2 — present work; 3 — experiment [5−7]; 4 — experiment [13]
+
+The results of the present work and of experiments [15,16, 5−7, 13] make it possible to show that the negative results of experiments [20,22] can be explained by insufficient sensitivity of the interferometers used. Thus, in Fig. 10
+
+[p60]
+60                                                                                                        Chapter 3.
+it can be seen that near the Earth's surface the magnitude of anisotropy does not exceed 200 m/s. Consequently, in experiments [20,22], performed in basement rooms, the sensitivity of the interferometers Wmin to the magnitude of anisotropy should be no worse than 200 m/s. Let us calculate the sensitivity of the interferometers in experiments [20,22].
+We shall assume that the value Wmin corresponds to a fringe shift Dmin ≈ 0.04. Such a shift was expected to be observed, for example, in experiment [20]. From expression (1) we find
+
+Wmin = (c / λ) · (Dmin / l)                             (36)
+
+In experiments [20], [22] the path lengths l were 2.4 m and 22 m respectively, and the wavelengths λ ≈ 6·10⁻⁷ m. Using expression (36) we obtain that in experiment [20] Wmin ≈ 30000 m/s, and in experiment [22] Wmin ≈ 10000 m/s. Consequently, in experiments [20] and [22] the sensitivity of the interferometers was insufficient. The result of the estimate just performed can be shown more clearly if we calculate the path lengths l required to build a cross-shaped Michelson optical interferometer with a sensitivity to light-speed anisotropy of Wmin ≈ 200 m/s. From expression (1) we find
+
+l = (c / W) · (D / λ)                               (37)
+
+Substituting into expression (37) the values D = 0.04, λ ≈ 6·10⁻⁷ m, and W = 200 m/s, we obtain l ≈ 54000 m. One may assume that the task of manufacturing a cross-shaped optical interferometer with path lengths l ≈ 54000 m is most likely technically unfeasible. Consequently, in experiments [20] and [22] the anisotropy of space could not have been detected, for a single instrumental reason — in those experiments, second-order interferometers of insufficient sensitivity were used.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p61]
+Investigations of the Aether Wind                                                                 61
+It is appropriate to once again emphasize the advantage of the first-order measurement method proposed in works [15,16]. One can calculate that near the Earth's surface, with an anisotropy magnitude of ≈ 200 m/s and all other conditions being equal, the proposed first-order optical method is one and a half million times more sensitive than the second-order Michelson interferometer method. This circumstance complicates the applicability of the Michelson interferometer for studying the anisotropy of the speed of light near the Earth's surface. The estimate performed is also valid with respect to experiments [8−11]. Furthermore, the results of the present work and of work [16] allow us to suggest that the properties of physical vacuum flows are similar to the properties of known gas flows — to flow around obstacles and to flow in guiding systems. In experiments [8−11] this circumstance could have been the cause of unsuccessful attempts to reveal the anisotropic properties of space using instruments enclosed in hermetically sealed metal chambers.
+
+The results of the present work and of work [16] made it possible to show the possible causes of the negative results of modern experimental attempts to detect the anisotropic properties of space, for example [37−40]. In work [37] an optical measuring device was used whose scheme and operation are fundamentally no different from the device used by M. Hoek in 1868 [41]. In both cases the authors expected to observe a shift of interference fringes proportional to the first power of the ratio of the anisotropy magnitude to the speed of light. Experiments [37] and [41] yielded negative results — no anisotropy of space was observed. Hoek's error was analyzed repeatedly. Thus, in work [21] it was conclusively shown that taking into account the Fresnel drag coefficient leads to compensation of the first-order effect that could have been caused by the motion of the Earth, and which was expected to be observed in experiment [41]. This conclusion of work [21] fully applies to work [37] as well. In another case, in such experiments as [38−40], the errors of experiments were repeated —
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p62]
+62                                                                                                        Chapter 3.
+ments [8−11, 42] in which the measuring devices are completely enclosed in metal screens. As a consequence, the results of experiments [38−40] are identical to the results of experiments [8−11, 42] — the sought-after anisotropy effect was not observed. The inapplicability of massive screens in such experiments was first noted in works [22,14]. It remains to add that the authors of experiments [38−40] developed reliable methods for shielding the processes occurring in the external physical vacuum from the processes in the vacuum inside the experimental apparatus; however, it is not possible to study the properties of the surrounding space using measuring devices separated from that space. One may assume that the instrumental errors of works [37−40] are of a general nature. In setting up the experiments, the authors declined to consider possible physical causes that would give rise to the spatial anisotropy they sought. Otherwise, the instrumental and methodological approaches of their searches would have been different.
+
+In conclusion, we note the following. In this work an attempt has been made to interpret the results of the investigation within the framework of the working hypothesis of a viscous gas-like physical vacuum. In works [5−7,14] the results of the experiment are explained as the result of the relative motion of the observer and the aether — the medium responsible for the propagation of electromagnetic waves. In experiment [15] the same goal was pursued using a model of a viscous gas-like aether, developed in work [43]. One can see that the results of the present work and of works [5−7,14], [15,16] do not contradict the basic propositions of either the hypothesis of a viscous physical vacuum or the hypothesis of a viscous gas-like aether, which at first glance gives grounds to consider these hypotheses equivalent. Nevertheless, the hypotheses are competing. Indeed, the quantum field theory concept of virtual particles of the physical vacuum requires the introduction of an additional assumption about the presence in the vacuum of a "building material" for such particles, which is not provided for by existing theory. Within the framework of the aether hypothesis, such problems
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p63]
+Investigations of the Aether Wind                                                                 63
+are resolved by the concept of the existence of aether particles as the building material of material formations, and the concept of the existence of virtual formations becomes superfluous. The task of describing the mechanisms of interactions becomes fundamentally solvable within the framework of modern hydrodynamics. This makes the hypothesis of a viscous gas-like aether attractive for broad study [43−51]. The situation that has arisen can be resolved only through new observations and experiments, which is possible only with the application of new methods and means of measurement.
+
+Conclusions. The following main results have been obtained in this work.
+
+A working hypothesis has been proposed concerning the properties of space, within the framework of which the anisotropy of the speed of propagation of radio waves is caused by the relative motion of the observer and a viscous gas-like physical vacuum.
+
+A first-order method and device have been developed for direct measurement of the anisotropy of the speed of propagation of millimeter-range radio waves. A radio interferometer has been built with a sensitivity to the magnitude of anisotropy of the speed of propagation of radio waves of 108 m/s.
+
+Within the framework of the working hypothesis, the effects of anisotropy that can be observed in experiments on the propagation of radio waves near the Earth's surface have been determined. A series of experimental investigations has been carried out. The manifestation of the predicted effects has been demonstrated. The following have been measured: the magnitude of anisotropy, the variation of the anisotropy magnitude during the course of a day, and the increase of the anisotropy magnitude with increasing altitude above the Earth's surface. It has been experimentally shown that at the altitude of the radio interferometer above the Earth's surface (≈ 42 m), the magnitude of the anisotropy of the speed of propagation of radio waves did not exceed 1400 m/s.
+
+The results of the work have been compared with the results of preceding optical experiments. The observability, repeatability, and reproducibility of the variation of the anisotropy magnitude during the course of a day in experiments conducted in different years, in
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p64]
+64                                                                                                        Chapter 3.
+different geographic conditions using different measurement methods and different ranges of electromagnetic waves, which gives grounds for a positive assessment of the reliability of the results obtained.
+
+Thus, in this work a first-order measurement method and device have been developed that are sensitive to the anisotropy of the speed of propagation of radio waves. The results of the experimental testing of the method and device showed that near the Earth's surface the space can be considered isotropic with an accuracy depending on the altitude above this surface and the time of day. The results of the work can be used for the development of radio measurement instruments and for the advancement of concepts about the properties of the surrounding space.
+
+References:
+
+1. Ragulsky V.V. Experimental investigation of the optical isotropy of space // Uspekhi Fizicheskikh Nauk. 1997. Vol. 167, No. 9. P. 1022-1024.
+2. Malykin G.B. On the possibility of experimental verification of the second postulate of the special theory of relativity // Uspekhi Fizicheskikh Nauk. 2004. Vol. 174, No. 7. P. 801-804.
+3. Ginzburg V.L. On superconductivity and superfluidity (what I managed and what I did not manage to do), and also on the "physical minimum" at the beginning of the 21st century (Nobel lecture) // Uspekhi Fizicheskikh Nauk. 2004. Vol. 174, No. 11. P. 1240-1255.
+4. Atsyukovsky V.A. Concepts of Modern Natural Science. History. Present. Problems. Prospects. A Course of Lectures. Moscow: MSEU Publishing House, 2000. 446 p.
+5. Miller D.C. Ether drift experiments at Mount Wilson solar observatory // Phys. Rev. 1922. Vol. 19. P. 407-408.
+6. Miller D.C. Ether-drift experiments at Mount Wilson // Proceedings. Nat. Acad. Sciences. 1925. Vol. 11. P. 306-314.
+7. Miller D.C. Significance of the ether-drift experiments of 1925 at Mount Wilson // Science. 1926. Vol. 63. P. 433-443.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p65]
+Исследования эфирного ветра                                                                 65
+8. Kennedy R.J. A refinement of the Michelson - Morley experi-
+ment // Proc. Nat. Acad. Sci. of USA. 1926. Vol. 12. P. 621-629.
+9. Illingworth K.K. A repetition of the Michelson - Morley experi-
+ment using Kennedy's refinement // Physical Review. 1927. Vol. 30. P.
+692-696.
+10. Stahel E. Das Michelson − Experiment, ausgefurt im Freibal-
+lon // Die Naturwissenschaften, Heft 41. 1926. B. 8, Nu.10. S. 935-936.
+11. Joos G. Die Jenaer Widerholung des Mihelsonversuchs. // An-
+nalen der Physik. 1930. B. 7. S. 385-407.
+12. Shankland R.S., McCuskey S.W., Leone F.C. and Kuerti G.
+New Analysis of the Interferometer Observations of Dayton C.Miller //
+Reviews of Modern Physics. 1955. Vol. 27, No. 2. P. 167-178.
+13. Michelson A.A., Pease F.G., Pearson F. Repetition of the
+Michelson − Morley experiment // Journal of the Optical Society of
+America and Review of Scientific Instruments. 1929. Vol. 18, No. 3. P.
+181-182.: also in Nature. 1929. 19 Jan. P. 88.
+14. Miller D.C. The ether-drift experiment and the determination of
+the absolute motion of the Earth // Reviews of Modern Physics. 1933.
+Vol. 5, No. 3. P. 203-242.
+15. Galaev Yu.M. The measuring of ether-drift velocity and kine-
+matic ether viscosity within optical waves band //
+Space-time & Substance. Kharkov: Research and Technological Institute of
+Transcription, Translation and Replication. 2002. Vol. 3 No. 5(15). P.
+207-224. < http://www.spacetime.narod.ru/0015-pdf.zip >
+16. Galaev Yu.M. An optical interferometer for measuring the anisotropy of the speed of light. // Technology of Instrument Engineering. — Kharkov: Research and Technological Institute of Instrument Engineering. 2006. No. 2. P. 8-21.
+17. Quantum field theory. — In the book: Encyclopedia of Physics. M.: Soviet Encyclopedia, 1990. Vol. 2. P. 300-308.
+18. Physical vacuum. — In the book: Great Soviet Encyclopedia. — M.: Soviet Encyclopedia, Third Edition, 1971. Vol. 4. P. 241.
+19. Fizeau experiment. In the book: Encyclopedia of Physics. M.: Great
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p66]
+66                                                                                                        Глава 3.
+Russian Encyclopedia, 1998. Vol. 5. P. 322;    Fizeau H. Sur les
+Hypothèses rélatives à l'éther lumineux et sur un experiment qui parait
+demontrer, que le mouvement des corps change la vitesse, avec laquelle
+la lumière se propage dans leur interieur // Comtes Rendus. 1851. Vol.
+33. P. 349-355
+20. Michelson A.A. The relative motion of the Earth and the Lumi-
+niferous ether // The American Journal of Science. 1881. III series, Vol.
+22, No. 128. P. 120-129.    Michelson experiment. In the book: Encyclopedia of Physics. M.: Great Russian Encyclopedia, 1992. Vol. 3. P. 27-28.
+21. Frankfurt U.N., Frenk A.M. Optics of moving media.
+M.: Nauka, 1972. 212 p.
+22. Michelson A.A. Morley E.W. The relative motion of the Earth
+and the luminiferous aether. The American Journal of Science. Third
+Series. 1887. Vol. 34. P. 333-345.   Philosophical Magazine. 1887. Vol.
+24. P. 449-463.
+23. Loitsyansky L.G. Mechanics of fluid and gas. M.: Nauka,
+1973. 848 p. Slezkin N.A. Dynamics of a viscous incompressible fluid. M.: Gostekhizdat, 1955. 520 p.
+24. Kalinin A.I., Cherenkova E.L. Propagation of radio waves
+and operation of radio links. M.: Svyaz, 1971. 440 p.
+25. Kulemin G.P., Razzassovsky V.B. Scattering of millimeter
+radio waves by the Earth's surface at small angles.  Kiev:
+Naukova Dumka, 1987. 232 p.
+26. Nikolsky V.V., Nikolskaya T.I. Electrodynamics and
+propagation of radio waves.  M.: Nauka, 1989. 544 p.
+27. Galaev Yu.M., Zhukov B.V. Author's certificate 1337829 USSR, IPC4
+G01R29/00. Method for measuring characteristics of radio paths //
+Bulletin of Inventions. 1987. No. 34. P. 183.
+28. Zverev V.A. Modulation method for measuring ultrasound
+dispersion // Reports of the USSR Academy of Sciences. 1953. Vol. 91, No. 4. P. 91-794.
+29. Vyaltseva E.E. Variability of the refractive index
+of the atmosphere for UHF in the boundary layer // Meteorology and
+Hydrology. 1972. No. 2. P. 8-14.
+30. Vyaltseva E.E. Variability of the refractive index of
+air for UHF in the 300-meter layer in winter // Transactions of IEM. 1974. Issue.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p67]
+Исследования эфирного ветра                                                                 67
+6(44). P. 99-105.
+31. Lipatov G.N., Aksakova O.Ya. Some features of the diurnal variation and vertical profile of the radio wave refractive index in the lower 500-meter layer of the atmosphere // Transactions of Central VGMO. 1977, issue 9. P. 71-78
+32. Galaev Yu.M., Zhukov B.V., Kivva F.V. Variability of the bandwidth of a surface-level communication line in the millimeter radio wave range // Scientific instrumentation in mm and sub-mm radio wave ranges: Collection of scientific papers. Kharkov: Institute of Radiophysics and Electronics of the Ukrainian Academy of Sciences. 1992. P. 63-72.
+33. Kivva F.V., Galaev Yu.M. Dispersion effects in frequency windows of mm wave range radio waves // Atmospheric Propagation Technical Exchange Proceedings: ARL, Orlando, FL, USA. 1993. P. 509–517.
+34. Galaev Yu.M. Model of radio wave dispersion in atmosphere // Atmospheric Propagation and Remote Sensing III: Edited by Walter A.Flood and Walter B.Miller, Proc. SPIE 2222. 1994. P. 851-861.
+35. Rumshisky L.Z. Mathematical processing of experimental results. M.: Nauka, 1971. 192 p.
+36. Ragulsky V. Determination of light velocity dependence on direction of propagation // Physical letters A. 1997. Vol. 235, No. 2. P. 125-128.
+37. Herrman S., Senger A., Kovalchuk E., Müller H. and Peters A. Test of the Isotropy of the Speed of Light Using a Continuously Rotating Optical Resonator // Physical review letters. 2005. Vol .95. P. 150401.
+38. Antonioni P., Okhapkin M., Goklu E. and Schiller S. Test of Constancy of Speed of Light with Rotating Cryogenic Optical resonators // Physical Review. 2005. Vol. A72. P. 066102.
+39. Stanwix P.L., Tobar M.E., Wolf P., Susli M., Locke C.R., Ivanov E.N., Winterflood J. and Kann F. Test of Lorentz Invariance in Electrodynamics Using Cryogenic Sapphire Microwave Oscillators // Physical Review letters. 2005. Vol. 95. P. 040404.
+40. Hoek M. Determination de la vitesse avec laquelle est entrainéс une onde lumineuse traversant un milieu en mouvement // Arch. Neerl.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p68]
+68                                                                                                        Глава 3.
+1868. Vol. 3. P. 180-185;  1869. Vol. 4. P. 443-450.
+41. Essen L. A new ether drift experiment // Nature. 1955. Vol. 175. P. 793-794.
+42. Atsyukovsky V.A. General ether dynamics. Modeling of structures of matter and fields on the basis of conceptions of a gas-like ether. M.: Energoatomizdat, 1990. 280 p.
+43. Atsyukovsky V.A. General ether dynamics. Modeling of structures of matter and fields on the basis of conceptions of a gas-like ether. Second edition. M.: Energoatomizdat, 2003. 584 p.
+44. Galaev Yu.M. Effects of ether wind in experiments on radio wave propagation // Radiophysics and Electronics. Kharkov: Institute of Radiophysics and Electronics of the National Academy of Sciences of Ukraine. 2000. Vol. 5, No. 1. P. 119-132.
+45. Galaev Yu.M. Etheral wind in experience of millimetric radiowaves propagation // Spacetime & Substance. Kharkov: Research and Technological Institute of Transcription, Translation and Replication. 2001. Vol. 2 No. 5(10). P. 211-225. < http://www.spacetime.narod.ru/0010-pdf.zip >.
+46. Khoroshun L.P. Equations of electromagnetomechanics of dielectrics and a model of the world ether // Reports of the National Academy of Sciences of Ukraine. 2003. Mathematics, Natural Sciences, Technical Sciences No. 10. P. 62-69.
+47. Khoroshun L.P. Two-continuum mechanics of dielectrics as a basis for electromagnetomechanics // Applied Mechanics. Kiev: Institute of Mechanics of the National Academy of Sciences of Ukraine. 2003. Vol. 39, No. 8. P. 28-47.
+48. Khoroshun L.P. Construction of dynamic equations of electromagnetomechanics of dielectrics and piezoelectrics on the basis of two-continuum mechanics // Physical-Mathematical Modeling and Information Technologies. Scientific collection. Lviv: Center for Mathematical Modeling of the Institute of Applied Problems of Mechanics. National Academy of Sciences of Ukraine. 2006. Issue 3. P. 177-198.
+49. Khoroshun L.P. General dynamic equations of electromagnetomechanics of dielectrics and piezoelectrics //
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p69]
+Исследования эфирного ветра                                                                 69
+Applied Mechanics. Kiev: Institute of Mechanics of the National Academy of Sciences of Ukraine. — 2006. Vol. 42, No. 4. P. 46-61.
+50. Kupryaev N.V. Electrodynamics from the standpoint of a stationary ether // News of Higher Educational Institutions. Physics. Tomsk: Siberian Physical-Technical Institute. 2006. No. 10. P. 8-18.
+
+
+1.3.3. Optical interferometer for measuring the anisotropy of the speed of light
+
+Yu.M. Galaev
+Institute of Radiophysics and Electronics of the National Academy of Sciences of Ukraine, Kharkov
+
+A method and device are proposed for measuring the anisotropy of the speed of light in viscous media. A measuring device has been fabricated and its experimental testing has been carried out. The test results are compared with the results of preceding experiments. The observability, reproducibility, and repeatability of effects of anisotropic light propagation are demonstrated. The device can be used for studying gas flow in pipes.
+
+In the present work, a method and device of first order are proposed for direct measurement of the effects of anisotropic light propagation, the action of which is based on the laws known in hydrodynamics for the development of flows of viscous liquid and gaseous media in pipes [22,23]. The principle of operation can be explained as follows. Let us place a segment of pipe in a gas flow such that the longitudinal axis of the pipe is perpendicular to the flow velocity vector. In this case, both open ends of the pipe are in identical conditions relative to the external gas flow. No pressure differential of the gas arises at the ends of the pipe, and the gas inside the pipe is stationary. Now let us rotate the pipe so that the gas flow velocity vector is directed along the axis of the pipe. In this case, the dynamic pressure of the gas will create a pressure differential at the ends of the pipe, under the action of which a gas flow develops in the pipe. The time of development of the gas flow in the pipe and
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p70]
+70                                                                                                        Chapter 3.
+the steady-state flow velocity of the gas are determined by the values of the kinematic viscosity of the gas, the geometric dimensions of the pipe, and the velocity of the external gas flow [22,23]. It is important to note that the development of the gas flow in the pipe, up to the steady-state value of the flow velocity, takes a finite period of time. The considered idea makes it possible to propose a measurement method sensitive to the anisotropy of the speed of light, and a device design for measuring the magnitude of the anisotropy and the kinematic viscosity of the physical vacuum. Thus, according to the original hypothesis, the properties of the physical vacuum determine the speed of propagation of electromagnetic waves. This means that the velocity of an electromagnetic wave relative to an observer is the vector sum of the wave velocity relative to the physical vacuum and the velocity of the physical vacuum relative to the observer. In this case, if one constructs an optical interferometer in which one light beam passes inside a hollow pipe and the other outside the pipe, in the external flow of the physical vacuum, and rotates the interferometer in the flow of the physical vacuum, then one can expect that during the period of establishment of the physical vacuum motion in the pipe, a displacement of the interference fringes relative to their initial position should be observed. Moreover, the magnitude of the fringe displacement will be proportional to the velocity of the external flow of the physical vacuum, i.e., to the magnitude of the anisotropy of the speed of light, and the time of return of the fringes to their initial position will be proportional to the value of the kinematic viscosity of the physical vacuum. The proposed method and measurement device are a first-order method and device, since there is no need to return the light beam to its starting point. Let us consider the possibility of their implementation.
+
+To describe the motion of the physical vacuum in pipes, we shall use the mathematical apparatus of hydrodynamics, which has been developed in works [22,23] for subsonic velocities of liquid and gas flows.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p71]
+Ether wind research                                                                  71
+
+
+                                                 Fig. 1. Pipe in a gas flow
+
+Figure 1 shows a segment of a circular cylindrical metal pipe of length lp, which is situated in a flow of the physical vacuum. The direction of the flow is indicated by thin inclined lines with arrows. The longitudinal axis of the pipe is horizontal and, together with the velocity vector of the physical vacuum, lies in a vertical plane represented by the plane of the figure. We shall assume that the flow of the physical vacuum acting on the external surface of the pipe does not set the vacuum inside the pipe in motion, since these parts of space are separated by the metal wall of the pipe. (Here we take into account the aforementioned assumption by Miller regarding the screening effect of metallic coatings on the optical paths of interferometers [14].) The horizontal component of the velocity of the physical vacuum flow Wh, acting from the open end of the pipe, creates a motion of the vacuum in the pipe with velocity wpa. Consequently, the metal pipe is a guiding system for the flow of the physical vacuum. Let us rotate the pipe in the horizontal plane so that its longitudinal axis assumes a position perpendicular to the plane of Fig. 1 or, equivalently, perpendicular to the velocity vector of the physical vacuum. In this position, both open ends of the pipe are in identical conditions relative to the flow of the physical vacuum, the pressure differential ∆p over the pipe segment of length lp is zero, and in accordance with expression (5), the velocity of the vacuum motion in the pipe is zero. At time t0, let us rotate the pipe back to its original position. In this case, the open
+
+[p72]
+72                                                                                                        Chapter 3.
+ends of the pipe are in different conditions relative to the flow of the physical vacuum. The horizontal component of the velocity Wh will create a pressure differential ∆p over the pipe segment, under the action of which a motion of the physical vacuum will develop in the pipe.
+
+
+         Fig. 2. Time variation of the velocity of fluid motion in a pipe
+
+Let us pass a light beam along the axis of the pipe.
+
+It can be written that the phase of the light wave over the segment of length lp will change by the amount ϕ
+
+ϕ = 2πflp / V                                               (11)
+
+where f is the frequency of the electromagnetic wave; V is the speed of light in the pipe. According to the original hypothesis, the properties of the physical vacuum determine the speed of propagation of electromagnetic waves. It follows from this that if a flow of the physical vacuum exists in a pipe of length lp, the velocity of which changes with time, then the phase of the light wave over the pipe segment of length lp will also change with time in accordance with the time variation of the velocity of the physical vacuum motion wp(t). Then expression (11) takes the form
+
+ϕ(t) = 2πflp / (c ± wp(t))                                  (12)
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p73]
+Ether wind research                                                                  73
+where c is the speed of light in the physical vacuum that is stationary relative to the observer. In expression (12), the "+" sign applies when the direction of light propagation coincides with the direction of motion of the physical vacuum in the pipe, and the "−" sign when these directions are opposite. The quantity ϕ(t) can be measured by means of an optical interferometer.
+
+In the present work, a Rozhdestvensky interferometer scheme [24] is used. Figure 3 shows a schematic of the interferometer with the pipe and its main components: 1 — illuminator; 2 — metal pipe segment; 3 — eyepiece with scale; P1, P2 — flat semi-transparent plates; M1, M2 — mirrors. The path of the rays is shown by thick lines with arrows. One of the light beams passes along the axis of the pipe and is shown in the figure by a dashed line. The pipe length lp ≈ P1M2. The components P1, M1 and P2, M2 are set pairwise parallel.
+
+
+         Fig. 3. Schematic of the optical interferometer
+
+M1 and M2 are set at a small angle relative to each other. The angles i1, i2 are the angles between the normals to the planes of mirrors M1, M2 and the rays incident upon them. The distances P1M1 = M2P2 = l1, M1P2 = P1M2 ≈ lp. In the classical case, if the motion of the physical vacuum is not taken into account, the action of the interferometer reduces to the following. A light beam of wavelength λ is split by plate P1
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p74]
+74                                                                                                        Chapter 3.
+P1 into two beams, which after reflection from mirrors M1 and M2 and passage through plate P2 become parallel with a phase difference [24]
+
+δ = 4π(l1/cos i1 − l1/cos i2) / λ                           (13)
+
+The angles i1, i2 are set during adjustment of the interferometer so that an interference pattern is observed in eyepiece 3. (The adjustment components are conventionally not shown in the schematic.) In a tuned interferometer, the quantity δ = const. On the right side of Fig. 3, the family of arrows indicates the motion of the physical vacuum with velocity Wh. If the interferometer components are placed on a horizontal rotating platform, such a device can be rotated in the flow of the physical vacuum. The axis of rotation is perpendicular to the plane of the figure and is denoted as Ai.
+
+Let us consider the operation of the interferometer with the pipe (Fig. 3) in the flow of the physical vacuum. The position of the interference fringes relative to the scale of eyepiece 3 is determined by the phase difference of the light beams that propagate along the paths P1M2P2 and P1M1P2.
+
+The operation of the interferometer with the pipe in the steady-state regime does not differ from the operation of the Rozhdestvensky interferometer. In both interferometers, the position of the interference fringes is determined by the initial phase difference δ. The interferometer with the pipe in the steady-state regime is not sensitive to the velocity of the physical vacuum motion, and by means of such a device one cannot demonstrate the presence or absence of optical anisotropy of space caused by the motion of the vacuum.
+
+In the dynamic regime of operation of the interferometer, the time variation of the normalized fringe displacement of the interference pattern D(t)/D(t0) will have the form shown in Fig. 4. Figure 4 illustrates the conclusion made above, that the interferometer with the pipe in the dynamic regime of operation is
+
+[p75]
+Ether wind research                                                                  75
+sensitive to the velocity of the external flow of the physical vacuum Wh, and by means of such a device one can demonstrate the presence or absence of optical anisotropy of space caused by such motion. From Fig. 4 and expression (22) it follows that if at time t0 the magnitude of the fringe displacement D(t0) is measured
+
+
+         Fig. 4. Displacement of interference fringes in the dynamic regime of interferometer operation
+
+relative to their initial position on the scale of the interferometer eyepiece, then the velocity of the physical vacuum motion Wh can be found
+
+Wh = (c/λ)(D(t0)/lp) ± 1                                     (24)
+
+Expressions (22), (24) and Fig. 4 illustrate the feasibility of the proposed method for direct measurement of the anisotropy of the speed of light, in which there is no need, as in the Michelson interferometer, to return the light beam to its starting point. In expression (22), the measured quantity D is proportional to the first power of the ratio of the physical vacuum velocity (the magnitude of anisotropy) to the speed of light (Wh/c).
+
+Consequently, the proposed method and device are a first-order method and device for direct measurement of the anisotropy of the speed of light.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p76]
+76                                                                                                        Chapter 3.
+
+Block diagram of the measuring device
+
+A schematic drawing of the manufactured interferometer is shown in Fig. 5 (top view). The designations of the main components adopted in Fig. 3 are retained here. Additionally shown are: 4, 5 — interferometer adjustment components; 6, 7 — mounts for securing the semi-transparent plates and mirrors;
+
+
+         Fig. 5. Interferometer design
+
+8 — interferometer frame; 9 — illuminator power supply; 10 — illuminator switch; 11 — eyepiece mounting assembly; 12 — heat-insulating housing (cross-section); 13 — removable wall of the housing on the eyepiece side. Frame 8 is made of steel profile with a U-shaped cross-section. The wall thickness of the profile is 0.007 m. The height of the profile is 0.02 m. The length of the frame is 0.7 m, the width is 0.1 m. The interferometer components are mounted on the flat surface of the frame. Mounts 6 and 7 are made of rectangular copper tubes with an internal cross-section of 0.01 m × 0.023 m. The light beams pass inside these tubes. The distance between the beams P1M2 and M1P2 is 0.12 m. Semi-transparent plates are installed at points P1, P2 on the mounts, and mirrors at points M1, M2. In the manufactured interferometer, flat-parallel glass plates 0.007 m thick are used as the semi-transparent plates. The glass plates and mirrors are held on mounts 6 and 7 by means of springs. The glass plates, mirrors, and their mounting assemblies are
+
+[p77]
+Ether wind research                                                                  77
+conventionally not shown in Fig. 5. Components 4 and 5 allow the position of mounts 6 and 7 to be changed in two mutually perpendicular planes. Pipe 2 is steel with an internal radius ap = 0.0105 m. The pipe length lp = 0.48 m. The pipe mounting assemblies are conventionally not shown. A semiconductor laser with a wavelength λ ≈ 6.5×10⁻⁷ m is used as the illuminator. Eyepiece 3 with a scale allows measuring a minimum interference fringe displacement of Dmin = 0.05. The optical paths are arranged parallel to the plane of the frame. Fig. 6 shows a photograph of the interferometer. The top and side fragments of the protective housing have been removed. In the working position, the interferometer is fully enclosed by housing 12 and placed on a table of dielectric material 0.02 m thick. Rotation of the interferometer is provided by a rotating device located between the table and the support. The support design ensures installation of the interferometer in a horizontal position.
+
+
+         Fig. 6. Photograph of the interferometer
+
+Housing 12 is made of rigid foamed thermal insulation material and in cross-section represents a rectangular tube with internal dimensions: width bc = 0.22 m, height hc = 0.11 m, length lc = 0.8 m. The wall thickness of the housing is 0.06 m. Wall 13 is made of soft thermal insulation material. Fig. 7 shows a photograph of the interferometer at the measurement station. The support, the rotating device circle, the table, and the interferometer in its protective housing are visible.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p78]
+78                                                                                                        Chapter 3.
+
+
+Fig.7. Interferometer at the measurement station
+
+Let us note the features of the operation of the manufactured interferometer. Unlike the scheme shown in Fig.3, the actual design contains a housing 12, which can significantly affect the operation of the interferometer. Let us consider the movement of physical vacuum through the material of housing 12 as the movement of gas through a porous medium, which allows us to apply the principles of filtration theory [25]. Let a flow of physical vacuum move from right to left in Fig.5. We conventionally distinguish three parts in the flow. The first part moves outside housing 12, the second — inside the side walls of the housing, and the third passes through both end walls of the housing and moves in the internal cavity of the housing. It is known that the filtration velocity Wf is determined by Darcy's law Wf = kf hν L−1, where kf is the empirical filtration coefficient; hν is the head loss over the filtration path length L. According to Darcy's law, the flow velocity during filtration is inversely proportional to the filtration path length. It can be seen that of the three parts of the physical vacuum flow distinguished above, the second part, moving inside the side walls of the housing, has the lowest velocity, since it
+
+[p79]
+Research on the aether wind                                                                 79
+has the greatest filtration path length L, equal to the length of the housing. According to Bernoulli's equation, in the part of the gas flow moving at a lower velocity, the pressure is highest [22,23]. Consequently, in the part of the physical vacuum flow moving through the thickness of the side walls of the housing, the pressure is higher than in the adjacent parts of the flow. This part of the flow, with elevated internal pressure, acts as the wall of a pipe, which, relative to the housing of the interferometer, separates the physical vacuum flow into external and internal. From this follows a conclusion important for the further analysis of the operation of the manufactured interferometer — the protective housing of the interferometer, made of a porous dielectric thermally insulating material, acts as a guiding system with respect to the physical vacuum flow. (The results of experimental verification of this assumption are presented below in the section "testing the interferometer.") In this case, the flow of physical vacuum external to pipe 2 should be understood as the movement of physical vacuum in the internal cavity of housing 12, in which, as in pipe 2, starting from the moment t0, a movement of physical vacuum will develop.
+
+Fig.8 shows, in normalized form, the result of the calculation of the dependence D(t)
+
+
+Fig.8. Change in the displacement of the interference fringe pattern over time
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p80]
+80                                                                                                        Chapter 3.
+The expected duration of the dynamic regime of interferometer operation td ≈ 10.3 sec. The quantities D(tm) and td in the proposed measurement method are measurable. From Fig. 8 it follows that to perform a single measurement of the displacement of the interference fringe pattern D(tm), the time tsD = tm is required. Accordingly, for a single measurement of the duration of the dynamic regime of interferometer operation td, the time tsd = td is required. The relatively small values of the duration of single measurements of the quantities D(tm) and td substantially ease the requirements for the thermal protection parameters of the interferometer. According to Fig.8, the thermal protection must be such that during measurements of D(tm), the rate of thermal drift of the interference fringes VD does not exceed the value VD = Dmin / tsD, or VD < 0.06 fringes/sec, and during measurements of the duration of the dynamic regime of interferometer operation td, the value VD must not exceed VD = Dmin / tsd, or VD < 0.0048 fringes/sec.
+
+Testing the interferometer. The tests included static and dynamic tests of the rigidity of the manufactured interferometer's structure and the interferometer's resistance to thermal effects. At the final stage of testing, the value of the kinematic viscosity of the physical vacuum was measured, which made it possible to experimentally refine the metrological properties of the interferometer.
+
+The rigidity of the interferometer was checked by two methods. By the first method, the interferometer was placed on a solid horizontal surface. One edge of the frame was raised so that the angle of inclination of the frame plane to the surface plane reached ≈ 20°. In this position of the frame, the displacement of the interference fringe pattern due to elastic deformations of the interferometer did not exceed 0.3 fringes (D ≤ 0.3). By the second method, the rigidity of the interferometer was checked in assembled form, in the working position. Inclination angles of the interferometer up to 10° were created by tilting the specimen stage. No noticeable displacement
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p81]
+Research on the aether wind                                                                 81
+no displacement of fringes was observed. Consequently, within the indicated limits, the manufactured interferometer is insensitive to errors in its installation in the horizontal position.
+
+The resistance of the interferometer to shock loads was checked. Light strikes on the interferometer frame, specimen stage, and support caused trembling of the interference fringe pattern for fractions of a second. At the same time, the interference pattern was not destroyed. After the shock loads ceased, the fringes maintained their initial position.
+
+Tests of the interferometer at the site chosen for experimental studies showed the following. Movement of pedestrians and automobiles within 20 meters of the interferometer installation site, and movement of the observer in the immediate vicinity of the installation site, did not cause noticeable displacement or trembling of the fringes. In windy weather, at wind speeds up to 6 m/sec, the interference pattern is stable. Consequently, the terrain chosen for the placement of the measurement station is suitable for conducting systematic measurements in the optical wavelength range.
+
+Thermal tests of the interferometer under field conditions were conducted in the summer season, in cloudless weather. Various azimuthal orientations of the interferometer were set. In a stationary position, the interferometer was heated by solar radiation. Over a period of 30 minutes, the displacement of fringes did not exceed the value D = 0.35 (VD ≈ 0.0002 fringes/sec). Consequently, the design of the interferometer and the quality of its thermal protection are such that they allow single measurements to be performed under field conditions, with a measurement procedure duration of up to 250 sec, which substantially exceeds the required duration of a single measurement procedure (≈ 15 sec).
+
+The principle of operation of the measurement method made it possible to perform dynamic tests of the rigidity of the interferometer structure in the working position. In this case, the test procedures did not differ from the procedures of the accepted measurement methodology. The essence of the tests is as follows. Let each
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p82]
+82                                                                                                        Chapter 3.
+of the light rays passes along the axes of pipes with equal geometric dimensions. Then in the dynamic regime of interferometer operation, the processes of establishing the movements of physical vacuum in each of such pipes are identical. In this case, according to expression (36), the displacement of the interference fringe pattern D(t) must equal zero, and this must hold provided the structure is sufficiently rigid. The tests were performed under field conditions in various seasons of the year and at various times of day. Pipes of equal geometric dimensions, made from both homogeneous and heterogeneous materials (metal, opaque dielectric, glass), were used. In all cases, after rotating the interferometer, no noticeable displacement of the interference fringes was observed. With the exception of attempts to apply an abrupt, non-specific cessation of interferometer rotation, for the purpose of observing the effects of elastic deformation of the interferometer structure. In such attempts, a fringe displacement of magnitude D ≤ 0.2 was observed for fractions of a second, after which the fringes returned to their original position. The results of the dynamic tests showed that the rigidity of the manufactured interferometer structure is sufficient for performing the procedures provided by the measurement methodology.
+
+An important result of this stage of testing was the experimental confirmation of the concept that, for physical vacuum flows, pipes made of dielectrics can serve as guiding systems just as well as metal pipes.
+
+Dynamic tests of the interferometer with two pipes of equal dimensions made it possible to remove the assumption about the possible influence of internal temperature effects on the measurement results. Thus, one can assume that under field conditions, individual components of the instrument may have different temperatures. As a consequence, in the dynamic regime of operation, air flows inside the housing, in different parts of the instrument, may acquire different temperatures, which can lead to measurement errors. The test results showed that if the made assumption
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p83]
+Research on the aether wind                                                                 83
+assumption holds true, then its influence is small and lies below the sensitivity threshold of the manufactured interferometer.
+
+Dynamic tests of the interferometer confirmed the well-known result that the movement of a uniform air flow in the optical paths of the interferometer does not lead to noticeable measurement errors [20]. Nevertheless, an assessment of the maximum possible value of such an error was performed. It was assumed that air with a refractive index n = 1.0004 moves at a velocity V = 10 m/sec in only one pipe of the interferometer (the value of V was taken to be substantially larger than expected). Taking into account the Fresnel drag coefficient k = 1−n−2, it can be obtained that the displacement of the interference fringe pattern caused by such air movement does not exceed the value D ≈ 3.5⋅10−6, which is 14,000 times smaller than the minimum observable value Dmin = 0.05.
+
+The final stage of testing consisted of a setup series of measurements performed with the aim of refining the metrological properties of the interferometer. It was experimentally established that after the end of the dynamic regime of interferometer operation, no noticeable displacement of the interference fringes relative to their initial position was observed, i.e., the fringe displacement D(t)t→∞ ≈ 0. This result does not contradict assumptions (17) and (34) about the low resistance of the interferometer pipes to the movement of physical vacuum inside these pipes. In this case, one can consider that
+
+
+.
+)
+(
+)
+(
+h
+t
+c
+t
+p
+W
+t
+W
+t
+w
+≈
+≈
+∞
+→
+∞
+→
+
+
+(37)
+
+In other words, expression (37) shows that in the steady-state regime of interferometer operation (at t→∞), the velocities of physical vacuum movement in the pipes wp(t) and Wc(t) differed so little from each other and from the velocity of the external flow Wh, that the value of D lay below the sensitivity threshold of the interferometer. This experimental result was used
+
+
+---
+

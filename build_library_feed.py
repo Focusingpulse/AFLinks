@@ -28,6 +28,116 @@ def find_living_library():
 LL = find_living_library()
 AFLINKS = os.environ.get("AFLINKS_DIR", "/root/workspace/AFLinks")
 
+# ─── Agent fleet: cool names + missions, shown on the site HUD ───
+AGENT_FLEET = [
+    {"member": "polyglot-scout-a", "name": "The Night Scout", "real_name": "Polyglot Scout A",
+     "mission": "Hunts the global web in 2-3 rotating languages overnight for rare and vanishing research.",
+     "schedule": "nightly 10pm MDT", "icon": "🌙"},
+    {"member": "polyglot-scout-b", "name": "The Dawn Scout", "real_name": "Polyglot Scout B",
+     "mission": "Second overnight sweep in a different set of languages — catches what the first pass missed.",
+     "schedule": "nightly 2am MDT", "icon": "🌅"},
+    {"member": "translation-curator", "name": "The Scribe", "real_name": "Translation Curator",
+     "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
+     "schedule": "daily, offset hours", "icon": "✒️"},
+    {"member": "translation-sweeper", "name": "The Weaver", "real_name": "Translation Sweeper",
+     "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
+     "schedule": "every 2h + overnight", "icon": "🧵"},
+    {"member": "db-entity-extractor", "name": "The Archivist", "real_name": "DB Entity Extractor",
+     "mission": "Catalogs every researcher and work into the dual-index database with practical-applicability flags.",
+     "schedule": "daily 6pm MDT", "icon": "🗂️"},
+    {"member": "aflinks", "name": "The Harmonizer", "real_name": "AFLinks Sync",
+     "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
+     "schedule": "daily 3am MDT", "icon": "🎵"},
+    {"member": "archive-raid", "name": "The Rescuer", "real_name": "Archive Raid",
+     "mission": "Deep hunts for disappearing, endangered, and rare texts before they vanish from the web.",
+     "schedule": "weekly Sunday", "icon": "🚁"},
+    {"member": "patent-watch", "name": "The Sentinel", "real_name": "Patent Watch",
+     "mission": "Scans global patent databases for quiet new filings across the target domains.",
+     "schedule": "weekly Thursday", "icon": "📜"},
+    {"member": "wizard", "name": "The Diver", "real_name": "Deep-Dive Morning",
+     "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
+     "schedule": "daily 9am MDT", "icon": "🤿"},
+    {"member": "book5-translate", "name": "The Chronicler", "real_name": "Book5 Translate",
+     "mission": "Long-haul translation of Atsyukovsky Book 5 — one chunk at a time, through the night.",
+     "schedule": "overnight hourly", "icon": "📖"},
+]
+
+
+def find_cron_ledger():
+    """Resolve the shared cron-coordination ledger (sibling shared repo)."""
+    candidates = []
+    if "MEMORY_DIR" in os.environ:
+        candidates.append(os.path.join(os.environ["MEMORY_DIR"], "..", "cron-coordination", "cron_ledger.json"))
+    candidates += [
+        "/root/workspace/.letta/agents/agent-75b8d29e-76c1-4223-89f5-b2f8708be460/cron-coordination/cron_ledger.json",
+        "/root/workspace/cron-coordination/cron_ledger.json",
+    ]
+    for cand in candidates:
+        if os.path.isfile(cand):
+            return cand
+    return None
+
+
+def parse_activity_log(path):
+    """Parse ACTIVITY-LOG.md into {date, time, agent, summary} entries, newest first."""
+    entries = []
+    try:
+        with open(path, encoding="utf-8") as f:
+            raw = f.read()
+    except Exception:
+        return entries
+    current_date = None
+    for line in raw.splitlines():
+        dm = re.match(r"^## (\d{4}-\d{2}-\d{2})$", line.strip())
+        if dm:
+            current_date = dm.group(1)
+            continue
+        em = re.match(r"^### (.+?) — (\d{2}:\d{2}) UTC$", line.strip())
+        if em and current_date:
+            agent = em.group(1).strip()
+            time = em.group(2)
+            entries.append({"date": current_date, "time": time, "agent": agent, "summary": ""})
+            continue
+        if entries and current_date:
+            last = entries[-1]
+            sm = re.match(r"^\*\*\+?([\d.,]+)\s*([^*]+?)\*\*\s*[—-]?\s*(.*)$", line.strip())
+            if sm:
+                if not last["summary"]:
+                    last["summary"] = f"+{sm.group(1)} {sm.group(2).strip()}" + (f" — {sm.group(3).strip()}" if sm.group(3).strip() else "")
+            elif line.strip() and not line.strip().startswith(("-", ">", "#", "---")):
+                if not last["summary"]:
+                    last["summary"] = line.strip()[:220]
+    entries = [e for e in entries if e["summary"]]
+    # Strip markdown backticks + link syntax for clean display on the site
+    for e in entries:
+        s = e["summary"]
+        s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
+        s = s.replace("`", "")
+        e["summary"] = s.strip()
+    entries.sort(key=lambda e: (e["date"], e["time"]), reverse=True)
+    return entries[:50]
+
+
+def parse_declassified(LL):
+    """Collect declassified finds: country, title, description."""
+    finds = []
+    ddir = os.path.join(LL, "declassified")
+    if not os.path.isdir(ddir):
+        return finds
+    for path in sorted(glob.glob(os.path.join(ddir, "*", "*.md"))):
+        if os.path.basename(path) in ("INDEX.md", "README.md"):
+            continue
+        country = os.path.basename(os.path.dirname(path))
+        meta, title, body = parse_md_frontmatter(path)
+        description = meta.get("description", "")
+        finds.append({
+            "country": country,
+            "title": title,
+            "description": description[:180],
+            "file": f"declassified/{country}/{os.path.basename(path)}",
+        })
+    return finds
+
 def load_json(path, default=None):
     try:
         with open(path, encoding="utf-8") as f:
@@ -77,6 +187,9 @@ def main():
         "latest_finds": [],
         "top_researchers": [],
         "domains": [],
+        "agents": [],
+        "activity_log": [],
+        "declassified": [],
     }
 
     # --- 1. Database counts ---
@@ -93,6 +206,8 @@ def main():
         "aflinks_docs": tax.get("aflinks_total_docs"),
         "translations": 0,
         "pages_translated": 0,
+        "declassified_finds": 0,
+        "active_agents": 0,
     }
 
     # --- 1b. Atsyukovsky book set (preserved PDFs + translation progress) ---
@@ -313,6 +428,27 @@ def main():
         "concept_names": concept_names,
         "doc_concepts": doc_concepts,
     }
+
+    # --- 8. Agent fleet (HUD) + activity log + declassified finds ---
+    ledger_path = find_cron_ledger()
+    members = load_json(ledger_path, {}).get("members", {}) if ledger_path else {}
+    fleet = []
+    for a in AGENT_FLEET:
+        rec = members.get(a["member"], {})
+        fleet.append({
+            **a,
+            "last_run": rec.get("last_run"),
+            "last_status": rec.get("last_status"),
+            "last_summary": rec.get("last_summary", ""),
+        })
+    feed["agents"] = fleet
+    feed["library"]["active_agents"] = sum(1 for a in fleet if a.get("last_run"))
+
+    feed["activity_log"] = parse_activity_log(os.path.join(LL, "ACTIVITY-LOG.md"))
+
+    d_finds = parse_declassified(LL)
+    feed["declassified"] = d_finds
+    feed["library"]["declassified_finds"] = len(d_finds)
 
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:

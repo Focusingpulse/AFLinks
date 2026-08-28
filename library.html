@@ -444,6 +444,109 @@ footer a { color: var(--gold); text-decoration: none; }
   .stat .num { font-size: 1.3rem; }
   .stats-band { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* Fleet grid */
+.fleet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+}
+.fleet-card {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-radius: 6px;
+  padding: 12px 14px;
+  transition: all var(--transition);
+}
+.fleet-card:hover { border-color: var(--gold); box-shadow: 0 0 12px var(--glow); }
+.fleet-card .fc-real {
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+.fleet-card .fc-name {
+  font-size: 0.95rem;
+  color: var(--gold-bright);
+  letter-spacing: 1px;
+}
+.fleet-card .fc-mission {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin: 4px 0;
+}
+.fleet-card .fc-status {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+}
+.fleet-card .fc-last {
+  font-size: 0.72rem;
+  color: var(--text);
+  font-style: italic;
+  border-top: 1px dashed var(--bronze);
+  padding-top: 5px;
+  margin-top: 5px;
+}
+.fleet-card .fc-status .dot {
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.fleet-card .fc-status .dot.ok { background: var(--green); box-shadow: 0 0 6px var(--green-glow); }
+.fleet-card .fc-status .dot.none { background: var(--text-faint); }
+
+/* Activity log entries */
+.log-entry {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-left: 3px solid var(--green);
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  transition: all var(--transition);
+}
+.log-entry:hover { border-color: var(--green); transform: translateX(2px); }
+.log-entry .le-when {
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.log-entry .le-agent {
+  font-size: 0.85rem;
+  color: var(--gold-bright);
+  margin: 2px 0;
+}
+.log-entry .le-summary { font-size: 0.8rem; color: var(--text); }
+
+/* Declassified cards */
+.declass-card {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-left: 3px solid var(--copper);
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  transition: all var(--transition);
+}
+.declass-card:hover { border-color: var(--copper); transform: translateX(2px); }
+.declass-card .dc-country {
+  font-size: 0.68rem;
+  color: var(--copper);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.declass-card h3 {
+  font-size: 0.9rem;
+  color: var(--gold-bright);
+  font-weight: normal;
+  margin: 3px 0;
+}
+.declass-card p { font-size: 0.78rem; color: var(--text-dim); }
 </style>
 </head>
 <body>
@@ -468,6 +571,24 @@ footer a { color: var(--gold); text-decoration: none; }
   <div class="stat"><div class="num">&#8230;</div><div class="lbl">Meta-Categories</div></div>
   <div class="stat"><div class="num">&#8230;</div><div class="lbl">Translations Published</div></div>
   <div class="stat"><div class="num">&#8230;</div><div class="lbl">Pages Translated</div></div>
+</div>
+
+<!-- The Fleet -->
+<div class="section" id="fleetSection">
+  <h2>The Fleet <span class="sub">agents working in the background — each with a mission; the library grows because they work</span></h2>
+  <div class="fleet-grid" id="fleetGrid"><div class="loading">Loading fleet status...</div></div>
+</div>
+
+<!-- Declassified records -->
+<div class="section" id="declassifiedSection">
+  <h2>Declassified Records <span class="sub">newly-opened government documents, tracked by country with cross-references</span></h2>
+  <div id="declassifiedList"><div class="loading">Loading declassified finds...</div></div>
+</div>
+
+<!-- Activity log -->
+<div class="section" id="activitySection">
+  <h2>The Living Log <span class="sub">every agent run, recorded as it happens — the heartbeat of the library</span></h2>
+  <div id="activityList"><div class="loading">Loading activity...</div></div>
 </div>
 
 <!-- Atsyukovsky books -->
@@ -520,6 +641,9 @@ async function loadFeed() {
     const res = await fetch('./library_feed.json', { cache: 'no-store' });
     const feed = await res.json();
     renderStats(feed.library);
+    renderFleet(feed.agents);
+    renderDeclassified(feed.declassified);
+    renderActivity(feed.activity_log);
     renderAtsyukovsky(feed.atsuyskovsky_books);
     renderTranslations(feed.latest_translations);
     renderFinds(feed.latest_finds);
@@ -576,6 +700,58 @@ async function openAssembled() {
   } catch (e) {
     document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Translation not published yet — check back after the next translation pass.</div>';
   }
+}
+
+function renderFleet(agents) {
+  const el = document.getElementById('fleetGrid');
+  if (!agents || !agents.length) { el.innerHTML = '<div class="empty">Fleet status coming soon — the agents are waking up.</div>'; return; }
+  el.innerHTML = '';
+  agents.forEach(a => {
+    const ok = a.last_run ? 'ok' : 'none';
+    const status = a.last_run
+      ? `last run ${a.last_run.replace('T', ' ').slice(0, 16)} UTC — ${a.last_status || ''}`
+      : 'awaiting first run';
+    const summary = a.last_summary ? `<div class="fc-last">${a.last_summary.substring(0, 140)}</div>` : '';
+    const d = document.createElement('div');
+    d.className = 'fleet-card';
+    d.innerHTML = `
+      <div class="fc-real">${a.icon || '⚙'} ${a.real_name} · ${a.schedule || ''}</div>
+      <div class="fc-name">${a.name}</div>
+      <div class="fc-mission">${a.mission}</div>
+      ${summary}
+      <div class="fc-status"><span class="dot ${ok}"></span>${status}</div>`;
+    el.appendChild(d);
+  });
+}
+
+function renderDeclassified(finds) {
+  const el = document.getElementById('declassifiedList');
+  if (!finds || !finds.length) { el.innerHTML = '<div class="empty">Declassified records coming soon.</div>'; return; }
+  el.innerHTML = '';
+  finds.forEach(f => {
+    const d = document.createElement('div');
+    d.className = 'declass-card';
+    d.innerHTML = `
+      <div class="dc-country">${f.country}</div>
+      <h3>${f.title}</h3>
+      <p>${f.description || ''}</p>`;
+    el.appendChild(d);
+  });
+}
+
+function renderActivity(entries) {
+  const el = document.getElementById('activityList');
+  if (!entries || !entries.length) { el.innerHTML = '<div class="empty">No runs recorded yet — the fleet is just waking up.</div>'; return; }
+  el.innerHTML = '';
+  entries.forEach(e => {
+    const d = document.createElement('div');
+    d.className = 'log-entry';
+    d.innerHTML = `
+      <div class="le-when">${e.date} · ${e.time} UTC</div>
+      <div class="le-agent">${e.agent}</div>
+      <div class="le-summary">${e.summary || ''}</div>`;
+    el.appendChild(d);
+  });
 }
 
 function renderStats(lib) {
