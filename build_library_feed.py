@@ -82,6 +82,9 @@ AGENT_FLEET = [
     {"member": "book5-translate", "name": "The Chronicler", "real_name": "Book5 Translate",
      "mission": "Long-haul translation of Atsyukovsky Book 5 — one chunk at a time, through the night.",
      "schedule": "overnight hourly", "icon": "📖"},
+    {"member": "translation-qc", "name": "The Review Gate", "real_name": "Forge (Translation QC)",
+     "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
+     "schedule": "4h sessions + daily research", "icon": "⚒️"},
 ]
 
 

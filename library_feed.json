@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T01:01:12Z",
+  "generated_at": "2026-08-29T01:07:49Z",
   "library": {
     "researchers": 938,
     "patents": 2332,
@@ -9,7 +9,7 @@
     "translations": 24,
     "pages_translated": 203,
     "declassified_finds": 16,
-    "active_agents": 8,
+    "active_agents": 9,
     "archive_entries": 10882,
     "meta_counts": {
       "Challenges to the Standard Model": 3833,
@@ -799,9 +799,33 @@
       "last_run": "2026-08-27T13:01:48Z",
       "last_status": "ok",
       "last_summary": "+5 chunks since last run (30->35) | now 35/220, next: chunk 036"
+    },
+    {
+      "member": "translation-qc",
+      "name": "The Review Gate",
+      "real_name": "Forge (Translation QC)",
+      "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
+      "schedule": "4h sessions + daily research",
+      "icon": "⚒️",
+      "last_run": "2026-08-29T01:01:40Z",
+      "last_status": "ok",
+      "last_summary": "patched build_library_feed.py: preserves declassified counter (was zeroing on Windows), marker-based Book5 clobber guard, regression warnings. Rebuilt feed: 24 published translations. CAVEAT: patch may not be perfect - script is path/env sensitive (cloud vs Windows); check WARN lines in cron log"
     }
   ],
-  "activity_log": [],
+  "activity_log": [
+    {
+      "date": "2026-08-29",
+      "time": "19:00",
+      "agent": "Forge",
+      "summary": "+1 patch — patched build_library_feed.py (preserve declassified count, marker-based Book5 guard, regression warnings); rebuilt feed to 24 published translations"
+    },
+    {
+      "date": "2026-08-29",
+      "time": "18:00",
+      "agent": "Forge",
+      "summary": "+5 translations — claimed, translated, and published 5 outer-ring documents (Form Waves, Sacred Geometry & Frequencies, Sheldrake Morphic Resonance, Sound Geometry, Psicogeometría) — radiesthesia/radionics, morphic fields, subtle energies; see translations/"
+    }
+  ],
   "declassified": [
     {
       "country": "china",
