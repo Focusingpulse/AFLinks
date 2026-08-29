@@ -537,11 +537,24 @@ def main():
         # Self-contained status file overrides/supplements the shared ledger
         if a["member"] in status_overrides:
             rec = {**rec, **status_overrides[a["member"]]}
+        # PRESERVE live dots: if this run has no last_run for a member who
+        # already shows a dot in the previous feed (stale ledger / sandbox
+        # without the shared repo), fall back to the previous feed's value
+        # instead of blanking it. A rebuild must never regress a live dot just
+        # because it ran against an out-of-date cron_ledger.json. Freshest
+        # non-null value wins.
+        prev_a = {}
+        prev_agents = (prev_feed or {}).get("agents", [])
+        if isinstance(prev_agents, list):
+            for _a in prev_agents:
+                if isinstance(_a, dict) and _a.get("member") == a["member"]:
+                    prev_a = _a
+                    break
         fleet.append({
             **a,
-            "last_run": rec.get("last_run"),
-            "last_status": rec.get("last_status"),
-            "last_summary": rec.get("last_summary", ""),
+            "last_run": rec.get("last_run") or prev_a.get("last_run"),
+            "last_status": rec.get("last_status") or prev_a.get("last_status"),
+            "last_summary": rec.get("last_summary") or prev_a.get("last_summary", ""),
         })
     feed["agents"] = fleet
     feed["library"]["active_agents"] = sum(1 for a in fleet if a.get("last_run"))
