@@ -85,6 +85,9 @@ AGENT_FLEET = [
     {"member": "translation-qc", "name": "The Review Gate", "real_name": "Forge (Translation QC)",
      "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
      "schedule": "4h sessions + daily research", "icon": "⚒️"},
+    {"member": "scout", "name": "The Scout Growth Captain", "real_name": "Scooter (Growth Scout)",
+     "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
+     "schedule": "every 4h + rotating subtle-energy sweeps", "icon": "🔭"},
 ]
 
 
