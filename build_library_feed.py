@@ -507,17 +507,24 @@ def main():
     members = load_json(ledger_path, {}).get("members", {}) if ledger_path else {}
     fleet = []
 
-    # Drunvalo keeps a self-contained status file INSIDE this repo so his crons
-    # (which run in the cloud sandbox, outside the shared cron-coordination repo)
+    # Some members keep a self-contained status file INSIDE this repo so their
+    # crons — which run outside the shared cron-coordination repo's push path —
     # can report reliably. The site merges it into the fleet card.
-    DRUNVALO_STATUS = os.path.join(AFLINKS, "drunvalo", "status.json")
-    drunvalo_status = load_json(DRUNVALO_STATUS, {})
+    STATUS_FILES = {
+        "drunvalo": os.path.join(AFLINKS, "drunvalo", "status.json"),
+        "cure-8er": os.path.join(AFLINKS, "synthesist", "status.json"),
+    }
+    status_overrides = {}
+    for member, spath in STATUS_FILES.items():
+        st = load_json(spath, {})
+        if st:
+            status_overrides[member] = st
 
     for a in AGENT_FLEET:
         rec = members.get(a["member"], {})
-        # Drunvalo's own status file overrides/supplements the shared ledger
-        if a["member"] == "drunvalo" and drunvalo_status:
-            rec = {**rec, **drunvalo_status}
+        # Self-contained status file overrides/supplements the shared ledger
+        if a["member"] in status_overrides:
+            rec = {**rec, **status_overrides[a["member"]]}
         fleet.append({
             **a,
             "last_run": rec.get("last_run"),
@@ -527,16 +534,18 @@ def main():
     feed["agents"] = fleet
     feed["library"]["active_agents"] = sum(1 for a in fleet if a.get("last_run"))
 
-    # Activity log: living library log PLUS Drunvalo's own activity file
-    # (drunvalo/ACTIVITY.md in this repo), so his runs appear in "what's new".
+    # Activity log: living library log PLUS per-agent activity files
+    # (drunvalo/ACTIVITY.md, synthesist/ACTIVITY.md in this repo), so runs from
+    # agents outside the shared repo appear in "what's new".
     feed["activity_log"] = parse_activity_log(os.path.join(LL, "ACTIVITY-LOG.md"))
-    drunvalo_activity = parse_activity_log(os.path.join(AFLINKS, "drunvalo", "ACTIVITY.md"))
-    if drunvalo_activity:
-        # Merge dedupe: keep living-library entries, prepend Drunvalo's own.
-        merged = drunvalo_activity + [
+    local_activity = parse_activity_log(os.path.join(AFLINKS, "drunvalo", "ACTIVITY.md"))
+    local_activity += parse_activity_log(os.path.join(AFLINKS, "synthesist", "ACTIVITY.md"))
+    if local_activity:
+        # Merge dedupe: keep living-library entries, prepend local agent entries.
+        merged = local_activity + [
             e for e in feed["activity_log"]
             if not any(d.get("date") == e.get("date") and d.get("time") == e.get("time")
-                       and d.get("agent") == e.get("agent") for d in drunvalo_activity)
+                       and d.get("agent") == e.get("agent") for d in local_activity)
         ]
         merged.sort(key=lambda e: (e.get("date", ""), e.get("time", "")), reverse=True)
         feed["activity_log"] = merged[:60]

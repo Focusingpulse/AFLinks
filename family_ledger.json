@@ -1,0 +1,98 @@
+{
+  "version": "0.1.0",
+  "created": "2026-08-29T17:35:15.889088+00:00",
+  "members": {
+    "synthesist": {
+      "role": "analysis",
+      "joined": "2026-08-29T17:35:15.889111+00:00",
+      "total_checkins": 2,
+      "total_checkouts": 2
+    }
+  },
+  "checkins": [
+    {
+      "agent": "synthesist",
+      "role": "analysis",
+      "task": "First synthesis document: vacuum-as-actor tracing torsion/ether/scalar-field arc through the collection",
+      "timestamp": "2026-08-29T17:35:15.889111+00:00"
+    },
+    {
+      "agent": "synthesist",
+      "role": "analysis",
+      "task": "Set up translation pipeline and daily review crons",
+      "timestamp": "2026-08-29T17:46:00.972660+00:00"
+    }
+  ],
+  "checkouts": [
+    {
+      "agent": "synthesist",
+      "task": "First synthesis document",
+      "delta": "Created synthesis/2026-08-29-vacuum-as-actor-torsion-ether-scalar-fields.md (12 sources, 10 sections). Created database/person-index.json (15 persons). Created database/research-index.json (10 works). Created family.py ledger. Checked in as member.",
+      "timestamp": "2026-08-29T17:35:19.399365+00:00"
+    },
+    {
+      "agent": "synthesist",
+      "task": "Translation infrastructure",
+      "delta": "Created translate_pipeline.py (extract/status/next/done). Extracted all 5 Atsyukovsky books (310 chunks total). Created 3 crons: daily-review (daily 9am MDT), translate-gear1 (2h, free models), translate-gear2 (6h, credits). Updated memory.",
+      "timestamp": "2026-08-29T17:46:01.397082+00:00"
+    }
+  ],
+  "upgrade_bank": [
+    {
+      "id": "upgrade-001",
+      "proposed_by": "synthesist",
+      "target": "GINGER experiment and Lense-Thirring frame-dragging",
+      "rationale": "Mainstream GR counterpart to torsion. Bridge from Russian torsion theory to Western experiments. Missing from collection.",
+      "status": "proposed",
+      "timestamp": "2026-08-29T17:35:23.741717+00:00"
+    },
+    {
+      "id": "upgrade-002",
+      "proposed_by": "synthesist",
+      "target": "Magnitsky full derivations from Complex Systems journal No.4 2019",
+      "rationale": "Verify extraordinary claim of deriving electron/proton/neutron masses from ether equations. Only abstract in collection.",
+      "status": "proposed",
+      "timestamp": "2026-08-29T17:35:24.617368+00:00"
+    },
+    {
+      "id": "upgrade-003",
+      "proposed_by": "synthesist",
+      "target": "Hehl Kibble Sciama original papers on dynamic torsion 1970s",
+      "rationale": "Theoretical foundation Akimov cites. Mainstream physics papers that opened door to dynamic torsion.",
+      "status": "proposed",
+      "timestamp": "2026-08-29T17:35:25.504947+00:00"
+    },
+    {
+      "id": "upgrade-004",
+      "proposed_by": "synthesist",
+      "target": "Kozyrev complete works on causal mechanics",
+      "rationale": "Repeatedly cited by Shipov but no primary sources in collection. High priority.",
+      "status": "proposed",
+      "timestamp": "2026-08-29T17:35:26.431035+00:00"
+    },
+    {
+      "id": "upgrade-005",
+      "proposed_by": "synthesist",
+      "target": "Michaud confined electromagnetic field theory",
+      "rationale": "Bridge Maillot cites between confined EM and vacuum tension. Only referenced not in collection.",
+      "status": "proposed",
+      "timestamp": "2026-08-29T17:35:30.428325+00:00"
+    },
+    {
+      "id": "upgrade-006",
+      "proposed_by": "synthesist",
+      "target": "Rene Thom catastrophe theory and morphogenesis",
+      "rationale": "Mathematical bridge between Sheldrake morphic fields and torsion geometry. Thom cited by Sheldrake.",
+      "status": "proposed",
+      "timestamp": "2026-08-29T17:35:31.294479+00:00"
+    },
+    {
+      "id": "upgrade-007",
+      "proposed_by": "synthesist",
+      "target": "Cross-cultural torsion experiments testing Russian claims on Western galactic data",
+      "rationale": "No experimental cross-reference between Russian torsion and French scalar field programs. Critical gap.",
+      "status": "proposed",
+      "timestamp": "2026-08-29T17:35:32.184364+00:00"
+    }
+  ]
+}
