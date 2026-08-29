@@ -1642,3 +1642,546 @@ In other words, expression (37) shows that in the steady-state regime of interfe
 
 ---
 
+
+### SOURCE SECTION: Chapter 1.
+
+[p84]
+84                                                                                                        Chapter 3.
+van when deriving relation (18). The results of the final stage of testing the manufactured interferometer showed that the measured dependencies D(t) do not contradict the initial theoretical concepts of the measurement method's operation, which are shown in Fig. 8. Thus, the measured value of the quantity tm ≈ 1 sec; the measured values of the duration of the dynamic operating mode of the interferometer lay within the range td ≈ 10…13 sec. The ambiguity of the measured values of the quantity td was due, first and foremost, to the difficulties of visual reading of small values of the slowly changing quantity D at the end of the dynamic regime, i.e., at t → td.
+
+The test results showed that within the framework of the adopted measurement methodology, the interferometer is stable with respect to mechanical and thermal influences.
+
+Measurement methodology. The measurement station is located 13 km from the northern outskirts of the city of Kharkov. Two positions were equipped at the station. At position No. 1, the interferometer was installed at a height of 1.6 m above the ground surface. At position No. 2, at a height of 4.75 m. The existence of such two positions was required for observing the "height effect." Measurements were carried out cyclically. The duration of one cycle was 25–26 hours. Over the course of one month, 2–4 cycles were performed. Each cycle contained the following procedures. The interferometer was installed at the position so that the plane of its rotation was horizontal. After installation, the interferometer was kept under the new temperature conditions for one hour (the instrument was stored indoors). A single reading of the measured quantities was performed according to the following scheme. The longitudinal axis of the interferometer was set along the meridian, so that illuminator 1 was facing north. In this initial position, in the steady-state operating mode of the interferometer, the observer registered the initial position of the fringes of the interference pattern relative to the eyepiece scale. This initial position of the fringes was assigned the value of the quantity
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p85]
+Ether wind research                                                                 85
+D = 0. Then the observer changed position — took the place at the illuminator. The interferometer was rotated by 180°. The rotation was performed in approximately three seconds. During the rotation, the flow of physical vacuum in the pipes was interrupted. The interferometer transitioned into the dynamic operating mode, described by expression (36). In the dynamic operating mode of the interferometer, the observer read off the maximum value of the fringe displacement D(tm) and the time of return of the fringes td to their initial position. After the time td elapsed, the interferometer returned to the steady-state operating mode and was rotated back to its initial position. During the time of a single measurement (up to 10 minutes), 5–7 single readings of the measured quantities were performed. The mean value of the readings was taken as the measured value of the quantities D(Tm) and td, where Tm is the mean solar time of the measurement.
+
+Processing of measurement results. The measurement results are presented in the form of tables of values D(Tm). These data were used to compute the values of the anisotropy of the speed of light Wh. The computations were performed using expression (42). Further processing included standard procedures adopted in processing experimental results [26]. The following were computed: the change in the anisotropy value over the course of a day; the mean change in the anisotropy value over the course of a yearly epoch; the root-mean-square deviations of the anisotropy value from the mean value σW; the correlation coefficients r between the results of various experiments. Confidence estimates of mean values were computed with a reliability of 0.95.
+
+Measurement results. In accordance with the objectives of the research, the results of this work are considered in parallel with the results of experiments [15], [5–7,14] and [13]. The named four experiments were performed at different points on the globe using three different measurement methods and in different ranges of electromagnetic waves. The discussed results
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p86]
+86                                                                                                        Chapter 3.
+of the present work belong to a series of measurements conducted using the first-order optical measurement method described above, from August 2001 to January 2002 (Ukraine). Over the course of the series, 2322 readings of the measured quantity were performed. Experiment [15] (Ukraine, 1998–1999) was performed in the millimeter radio wave range using a first-order measurement method. Experiments [5–7,14] (USA, 1921–1926) and [13] (USA, 1929) were performed using second-order optical measurement methods, employing cross-shaped interferometers built according to the Michelson scheme. The operation of the measurement methods used in the listed experiments is based on concepts of wave propagation in a moving medium, the properties of which determine the speed of propagation of electromagnetic waves. Within the framework of the initial hypothesis, this makes it possible to interpret the results of the named experiments in terms of the anisotropy of the speed of light. Let us consider the manifestation of the sought effects: anisotropy, height, and the hydrodynamic effect, in experiments on the propagation of electromagnetic waves.
+
+The fragments of Fig. 9 present the mean results of the present work (Fig. 9a), experiment [15] (Fig. 9b), and experiment [5–7,14] (Fig. 9c), obtained in different years during the August epoch. The term "epoch" is borrowed from astronomy, in which observations from different years performed in the same-named months are attributed to observations of a single epoch. The results of experiment [13] are not presented in Fig. 9, since the authors limited themselves to only information about the maximum value of the anisotropy they measured, Wh ≈ 6000 m/sec. The ordinate axes show the values of the anisotropy Wh in m/sec, and the abscissa axes show the solar time of day Tm in hours. Vertical dashes indicate confidence intervals. Each fragment of Fig. 9 illustrates the manifestation of the sought anisotropy effect. In the present work and in experiments [5–7,14], [13], the anisotropy effect was detected by rotating optical interferometers; in
+
+[p87]
+Ether wind research                                                                 87
+experiment [15], simultaneous counter-propagation of radio waves was used.
+
+Fig. 9. Change in the anisotropy value during the August epoch according to data from various experiments: a) present work, b) experiment [15], c) experiment [7]
+
+The results of all three experiments showed that the anisotropy value changes over the course of a day, and such changes have a similar character. Thus, the correlation coefficients r computed between the dependencies Wh(Tm) lie in the range 0.73 ≤ r ≤ 0.85. In works [5–7,14], the change in the anisotropy value over the course of a day is explained by the motion of the Solar System toward the apex with coordinates close to the coordinates of the north pole of the ecliptic. In this case, the projection of the relative velocity vector onto the horizontal plane of the instrument and, consequently,
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p88]
+88                                                                                                        Chapter 3.
+the anisotropy value Wh will change over the course of a day. Such an explanation does not contradict the results of the present work and can be accepted as the starting point.
+
+The results of the present work and experiments [15], [5–7,14], [13] illustrate the manifestation of another sought effect — the height effect. In these four experiments, measurements were performed at five different heights: 1.6 m and 4.75 m in the present work; 42 m in experiment [15]; 265 m and 1830 m in experiment [5–7,14] (Cleveland and Mount Wilson Observatory, respectively). In experiment [13], measurements were also performed at Mount Wilson Observatory. The manifestation of the height effect can be seen both in the fragments of Fig. 9, by noting, for example, the maximum values of the anisotropy Wh, and in Fig. 10, which presents the dependence of the anisotropy Wh on the height Z of the location of the measuring instruments above the Earth's surface. Fig. 10 uses the mean of the maximum values of the anisotropy measured in the present work and in experiments [15], [5–7,14], [13]. The abscissa and ordinate axes show the values of the logarithms of the ratios Wh/W* and Z/Z*, respectively. The values of the quantities W* and Z* were taken equal to 1 m/sec and 1 m, respectively. For clarity, the upper and right-hand parts of Fig. 10 show the values of Wh in m/sec and Z in meters along the coordinate axes. It can be seen that the results of the various experiments follow a single regularity and lie near a straight line. In the height range from 1.6 m to 1830 m, the anisotropy value increases with increasing height above the Earth's surface from 200 m/sec to 10000 m/sec, constituting from 6.7×10⁻⁷ to 3.3×10⁻⁵ of the speed of light, respectively.
+
+The existence of the sought hydrodynamic effect is demonstrated by the following. The work employs the theory of flows of viscous media in pipes, developed in works [22,23], which made it possible, within the framework of the initial hypothesis, to propose: a method and device of the first order for direct measurement of the anisotropy of the speed of light; a method and device for measuring the kinematic viscosity of the physical
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p89]
+Ether wind research                                                                 89
+vacuum; a method for calculating the design parameters of the measuring device and its expected metrological properties. The test results of the manufactured device do not contradict the calculation results. The measurement results obtained at different heights above the Earth's surface do not contradict the known regularities in hydrodynamics for the flow of viscous media near an interface [22,23]. Consequently, the idea of the measurement method, the test results of the measuring device, and the results of experimental studies provide grounds to believe that the manifestation of the hydrodynamic effect has been experimentally demonstrated.
+
+Fig. 10. Dependence of the anisotropy value on height above the Earth's surface: 1 — present work; 2 — experiment [15]; 3 — experiment [5–7]; 4 — experiment [13]
+
+The experimental results presented in Fig. 9, 10 illustrate the observability of the phenomenon of anisotropic propagation of electromagnetic waves, the repeatability of the phenomenon's properties under various observation conditions, and the reproducibility of the phenomenon's properties when using different methods of experimental investigation and different ranges of electromagnetic waves. The high values of the correlation coefficients between the results
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p90]
+90                                                                                                        Chapter 3.
+of various experiments, presented in Fig. 9, provide grounds to positively evaluate their reliability. The measured anisotropy values are relatively small, and in many practical cases they can be neglected. In this sense, the space near the Earth's surface can be considered isotropic with accuracy depending on the time of day and altitude above the Earth's surface. The results of experiments shown in Fig. 9 and Fig. 10 can be considered as boundaries of applicability of the concept of optical isotropy of space near the Earth's surface.
+
+The results of the present work make it possible to show that the negative results of experiments [19,21] can be explained by insufficient sensitivity of the interferometers used. In Fig. 10 it can be seen that near the Earth's surface the anisotropy value does not exceed 200 m/s. Consequently, in experiments [19,21] performed in basement premises, the sensitivity of interferometers Wmin to the anisotropy value should be no worse than 200 m/s.
+
+Let us calculate the sensitivity of interferometers in experiments [19,21]. Let us assume that a fringe shift Dmin ≈ 0.04 corresponds to the value Wmin. Such a fringe shift was expected to be observed in experiment [21]. From expression (1) we find:
+
+(43)
+
+In experiments [19], [21] the ray lengths l were 2.4 m and 22 m, wavelengths λ ≈ 6⋅10−7 m. Using expression (43), we obtain that in experiment [19] Wmin ≈ 30000 m/s, and in experiment [21] Wmin ≈ 10000 m/s. Consequently, in experiments [19], [21] the sensitivity of interferometers was insufficient. The result of the just-completed estimate can be shown more clearly if we calculate the ray lengths l required to construct a cross-shaped interferometer
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p91]
+Studies of ether wind                                                                 91
+Michelson with sensitivity to light speed anisotropy Wmin ≈ 200 m/s. From expression (1) we find:
+
+(44)
+
+Substituting into expression (44) the values D = 0.04, λ ≈ 6⋅10−7 m; and W = 200 m/s. We obtain l ≈ 54000 m. It can be assumed that the task of manufacturing a cross-shaped optical interferometer with ray lengths l ≈ 54000 m is most likely technically unrealistic. Consequently, in experiments [19] and [21] the light speed anisotropy could not be detected due to a single instrumental reason—second-order interferometers with insufficient sensitivity were used in the experiments. It is appropriate to once again emphasize the advantage of the first-order measurement method proposed in the present work. It can be calculated that near the Earth's surface, with a light speed anisotropy value of ≈ 200 m/s and other conditions being equal, the first-order method is one and a half million times more sensitive than the second-order Michelson interferometer method.
+
+This circumstance complicates the applicability of the Michelson interferometer for studying light speed anisotropy near the Earth's surface.
+
+The performed estimate is also valid for such experiments as [8−11]. Moreover, the results of interferometer tests presented above with pipes made of various materials, the calculated and measured values of the kinematic viscosity of the physical vacuum, allow us to assume that the properties of physical vacuum flows are close to the properties of known gas flows—to flow around obstacles and flow in guiding systems. In experiments [8−11] this circumstance could be the reason for unsuccessful attempts to reveal the anisotropic properties of space using instruments enclosed in hermetically sealed metal chambers.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p92]
+92                                                                                                        Chapter 3.
+The results of the present work made it possible to show possible reasons for the negative results of modern experimental attempts to detect anisotropic properties of space, for example, [27−30]. In work [27] an optical measuring device was used, the scheme and operation of which are fundamentally no different from the device used by M. Hock in 1868 [31]. In both cases, the authors expected to observe a shift of interference fringes proportional to the first power of the ratio of the anisotropy value to the speed of light. Experiments [27] and [31] gave negative results—optical anisotropy of space was not observed. Hock's error was repeatedly analyzed, for example, in work [20], where it was exhaustively shown that taking into account the Fresnel dragging coefficient leads to compensation of the first-order effect that could have been caused by the Earth's motion, and which was expected to be observed in experiment [31]. The conclusion of work [20] fully applies to work [27] as well. In another case, in such experiments as [28−30], the errors of experiments [8−11, 32] were repeated, in which the measuring devices are completely enclosed in metal screens. As a consequence, the results of experiments [28−30] are identical to the results of experiments [8−11, 32]—the sought anisotropy effect was not observed. The inapplicability of massive screens in such experiments was first noted in works [21,14]. It remains to add that the authors of experiments [28−30] developed reliable methods for shielding physical processes occurring in the external physical vacuum from processes in the vacuum inside the experimental setup, however, it is not possible to study the properties of surrounding space using measuring devices separated from that space. It can be assumed that the instrumental errors of works [27−30] are of a general nature. When setting up experiments, the authors refused to attempt to consider possible physical reasons determining the anisotropy of space they were seeking.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p93]
+Studies of ether wind                                                                 93
+Otherwise, the instrumental and methodological techniques of their searches would have been different.
+
+In conclusion, we note the following. The work attempted to interpret the research results within the framework of the working hypothesis about a viscous gas-like physical vacuum. In works [5−7,14] the results of the experiment are explained as a result of the relative motion of the observer and the ether—the medium responsible for the propagation of electromagnetic waves. In experiment [15], the model of a viscous gas-like ether developed in work [33] was used for the same purpose. It can be seen that the results of the present work and experiments [5−7,14], [15] do not contradict the main provisions of either the hypothesis of a viscous physical vacuum or the hypothesis of a viscous gas-like ether, which, at first glance, gives grounds to consider these hypotheses equivalent. Nevertheless, the hypotheses are competing. Indeed, the quantum field theory concept of virtual particles of the physical vacuum requires introducing an additional assumption about the presence in the vacuum of "building" material for such particles, which is not provided for by the existing theory. Within the framework of the ether hypothesis, such problems are resolved by the concept of the existence of ether particles as building material for material formations, and the concept of the existence of virtual formations becomes superfluous. The task of describing interaction mechanisms becomes fundamentally solvable within the framework of modern hydrodynamics. This makes the hypothesis of a viscous gas-like ether attractive for broad study [33−39]. The created situation can be resolved only through new observations and experiments, which is possible only with the application of new methods and means of measurement.
+
+Conclusions. The following main results were obtained in the work.
+
+A working hypothesis on optical anisotropy of space was proposed, within the framework of which the anisotropy of the speed of light is caused by the motion of a viscous gas-like physical vacuum. The kinematic viscosity of vacuum νс ≈ 7⋅10−5 m²/s was calculated.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 1.
+
+[p94]
+94                                                                                                        Chapter 3.
+A first-order measurement method and device scheme for direct measurement of light speed anisotropy and kinematic viscosity of the physical vacuum were proposed. Methods for calculating the design parameters of the device and its metrological properties were proposed. A measuring device with sensitivity to the light speed anisotropy value of 26 m/s was manufactured and tested.
+
+Within the framework of the working hypothesis, anisotropy effects that can be observed in experiments near the Earth's surface were determined. A series of experimental studies was performed. The predicted effects were experimentally demonstrated. The following were measured: anisotropy value, change in anisotropy value during the day, kinematic viscosity of the physical vacuum νe ≈ 6.24⋅10−5 m²/s, increase in anisotropy value with increasing height above the Earth's surface.
+
+It was shown that at heights up to 2 m from the Earth's surface, the light speed anisotropy value does not exceed 200 m/s, and in such conditions the practical possibility of studying space properties by second-order measurement methods, for example, by the Michelson interferometer, is excluded.
+
+The measurement results were compared with the results of previous experiments. The observability, reproducibility and repeatability of light speed anisotropy effects in experiments performed in various geographical conditions using various measurement methods and various ranges of electromagnetic waves were shown, which provides grounds for positively evaluating the reliability of the results of the present work.
+
+The proposed first-order measurement method and device can be applied both for studying the features of light propagation in viscous media and for studying flows of viscous media in guiding systems, for example, liquids and gases in pipes.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p95]
+Studies of the Ether Wind                                                                 95
+Literature:
+1. Ragulsky V.V. Experimental investigation of optical isotropy of space // Uspekhi Fizicheskikh Nauk. 1997. Vol. 167, No. 9. P. 1022-1024.
+2. Malykin G.B. On the possibility of experimental verification of the second postulate of the special theory of relativity // Uspekhi Fizicheskikh Nauk. 2004. Vol. 174, No. 7. P. 801-804.
+3. Ginzburg V.L. On superconductivity and superfluidity (what I managed to do, and what I did not), and also on the "physical minimum" at the beginning of the 21st century (Nobel lecture) // Uspekhi Fizicheskikh Nauk. 2004. Vol. 174, No. 11. P. 1240-1255.
+4. Atsyukovsky V.A. Concepts of modern natural science. History. Modernity. Problems. Prospects. A course of lectures. M.: MSEU, 2000. 446 p.
+5. Miller D.C. Ether drift experiments at Mount Wilson solar observatory // Phys. Rev. 1922. Vol. 19. P. 407-408.
+6. Miller D.C. Ether-drift experiments at Mount Wilson // Proceedings. Nat. Acad. Sciences. 1925. Vol. 11. P. 306-314.
+7. Miller D.C. Significance of the ether-drift experiments of 1925 at Mount Wilson // Science. 1926. Vol. 63, No. 1635. P. 433-443.
+8. Kennedy R.J. A refinement of the Michelson–Morley experiment // Proc. Nat. Acad. Sci. of USA. 1926. Vol. 12. P. 621-629.
+9. Illingworth K.K. A repetition of the Michelson–Morley experiment using Kennedy's refinement // Physical Review. 1927. Vol. 30. P. 692-696.
+10. Stahel E. Das Michelson Experiment, ausgeführt im Freiballon // Die Naturwissenschaften, Heft 41. 1926. B. 8, Nu. 10. S. 935-936.
+11. Joos G. Die Jenaer Wiederholung des Michelsonversuchs // Annalen der Physik. 1930. B. 7. S. 385-407.
+12. Shankland R.S., McCuskey S.W., Leone F.C. and Kuerti G. New Analysis of the Interferometer Observations of Dayton C. Miller // Reviews of Modern Physics. 1955. Vol. 27, No. 2. P. 167-178.
+13. Michelson A.A., Pease F.G., Pearson F. Repetition of the Michelson–Morley experiment // Journal of the Optical Society of
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p96]
+96                                                                                                        Chapter 3.
+America and Review of Scientific Instruments. 1929. Vol. 18, No. 3. P. 181-182.
+14. Miller D.C. The ether-drift experiment and the determination of the absolute motion of the Earth // Reviews of Modern Physics. 1933. Vol. 5, No. 3. P. 203-242.
+15. Galaev Yu.M. Effects of the ether wind in experiments on radio wave propagation // Radiophysics and Electronics. Kharkov: Institute of Radiophysics and Electronics of the National Academy of Sciences of Ukraine. 2000. Vol. 5, No. 1. P. 119-132.
+16. Quantum field theory. — In: Physical Encyclopedia. M.: Soviet Encyclopedia, 1990. Vol. 2. P. 300-308.
+17. Physical vacuum. — In: Great Soviet Encyclopedia. M.: Soviet Encyclopedia, Third Edition, 1971. Vol. 4. P. 241.
+18. Fizeau experiment. In: Physical Encyclopedia. M.: Great Russian Encyclopedia, 1998. Vol. 5. P. 322.
+19. Michelson A.A. The relative motion of the Earth and the luminiferous ether // The American Journal of Science. 1881. III series, Vol. 22, No. 128. P. 120-129.
+20. Frankfurt U.N., Frenk A.M. Optics of moving media. M.: Nauka, 1972. 212 p.
+21. Michelson A.A., Morley E.W. The relative motion of the Earth and the luminiferous aether. The American Journal of Science. Third Series. 1887. Vol. 34. P. 333-345.
+22. Loitsyansky L.G. Mechanics of fluid and gas. M.: Nauka, 1973. 848 p.
+23. Slezkin N.A. Dynamics of a viscous incompressible fluid. M.: Gostekhizdat, 1955. 520 p.
+24. Rautian S.G. Rozhdestvensky interferometer. In: Physical Encyclopedic Dictionary. M.: Soviet Encyclopedia, 1962. Vol. 2. P. 203.
+25. Filtration. In: Physical Encyclopedia. M.: Great Russian Encyclopedia, 1998. Vol. 5. P. 323.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p97]
+Studies of the Ether Wind                                                                 97
+26. Rumshinsky L.Z. Mathematical processing of experimental results. M.: Nauka, 1971. 192 p.
+27. Ragulsky V. Determination of light velocity dependence on direction of propagation // Physical Letters A. 1997. Vol. 235, No. 2. P. 125-128.
+28. Herrman S., Senger A., Kovalchuk E., Müller H. and Peters A. Test of the Isotropy of the Speed of Light Using a Continuously Rotating Optical Resonator // Physical Review Letters. 2005. Vol. 95. P. 150401.
+29. Antonioni P., Okhapkin M., Goklu E. and Schiller S. Test of Constancy of Speed of Light with Rotating Cryogenic Optical Resonators // Physical Review. 2005. Vol. A72. P. 066102.
+30. Stanwix P.L., Tobar M.E., Wolf P., Susli M., Locke C.R., Ivanov E.N., Winterflood J. and Kann F. Test of Lorentz Invariance in Electrodynamics Using Cryogenic Sapphire Microwave Oscillators // Physical Review Letters. 2005. Vol. 95. P. 040404.
+31. Hoek M. Détermination de la vitesse avec laquelle est entraînée une onde lumineuse traversant un milieu en mouvement // Arch. Neerl. 1868. Vol. 3. P. 180-185; 1869. Vol. 4. P. 443-450.
+32. Essen L. A new ether drift experiment // Nature. 1955. Vol. 175. P. 793-794.
+33. Atsyukovsky V.A. General ether dynamics. Modeling of structures of matter and fields on the basis of concepts about a gas-like ether. M.: Energoatomizdat, 1990. 280 p.
+34. Atsyukovsky V.A. General ether dynamics. Modeling of structures of matter and fields on the basis of concepts about a gas-like ether. Second edition. M.: Energoatomizdat, 2003. 584 p.
+35. Galaev Yu.M. The measuring of ether-drift velocity and kinematic ether viscosity within optical waves band // Spacetime & Substance. Kharkov: Research and Technological Institute of Transcription, Translation and Replication. 2002. Vol. 3, No. 5(15). P. 207-224. (http://www.spacetime.narod.ru/0015-pdf.zip).
+36. Khoroshun L.P. Equations of electromagnetomechanics of dielectrics and a model of the world ether // Reports of the National Academy of Sciences of Ukraine,
+
+[p98]
+98                                                                                                        Chapter 3.
+2003. Mathematics, Natural Sciences, Technical Sciences No. 10. P. 62-69.
+37. Khoroshun L.P. Two-continuum mechanics of dielectrics as a basis of electromagnetomechanics // Applied Mechanics. Kiev: Institute of Mechanics of the National Academy of Sciences of Ukraine. 2003. Vol. 39, No. 8. P. 28-47.
+38. Khoroshun L.P. Construction of dynamic equations of electromagnetomechanics of dielectrics and piezoelectrics on the basis of two-continuum mechanics // Physics-Mathematical Modeling and Information Technologies. Scientific Collection. Lviv: Center for Mathematical Modeling, Institute of Applied Problems of Mechanics and Mathematics, National Academy of Sciences of Ukraine. 2006. Issue 3. P. 177-198.
+39. Khoroshun L.P. General dynamic equations of electromagnetomechanics of dielectrics and piezoelectrics // Applied Mechanics. Kiev: Institute of Mechanics of the National Academy of Sciences of Ukraine. 2006. Vol. 42, No. 4. P. 46-61.
+
+[p99]
+Studies of the Geopathogenic Field and Pathogenic Field Accompanying High-Frequency Electromagnetic Phenomena          99
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+Chapter 2. Studies of the Geopathogenic Field and the Pathogenic Field Accompanying High-Frequency Electromagnetic Phenomena
+
+2.1. Absorption of Ether by the Earth and Geopathogenic Radiation
+
+As shown in Section 6.4 "Gravity and Expansion of the Earth" of Book 3 of this five-volume work, the Earth, like all celestial bodies, continuously absorbs ether from the surrounding space. This is caused by the fact that protons and electron shells, like any gas vortices, have a lower temperature than the gas surrounding them. The temperature difference leads to a pressure difference, and this pressure difference forces the ether surrounding celestial bodies to move toward the protons throughout the entire volume of the celestial body. The ether is then absorbed by the protons, increasing their mass and slowing their rotation; a restructuring of the matter of celestial bodies takes place, and new matter is formed, which emerges onto the Earth's surface as a system of rift ridges, mountains, and islands.
+
+Not all of the incoming ether is assimilated by the Earth's matter; part of it, having undergone adiabatic changes, bursts to the surface either in the form of helical streams, which is perceived as geopathogenic radiation, or in the form of ether ejections, forming toroids — future comets — carrying surface rock into space and leaving astroblemes on the Earth's surface: ring-shaped craters with a mound at the bottom and a ring uplift at the periphery.
+
+Powerful ether ejections leading to the formation of comets and astroblemes are not frequent, but there are many geopathogenic zones on Earth, numbering in the millions; they exist in apartments, office and industrial premises, as well as on highways, causing numerous accidents and casualties whose causes cannot be established under the existing methodology — they are usually attributed to the so-called "human factor."
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+[p100]
+100                                                                                                       Chapter 2.
+factor," i.e., errors made by drivers of vehicles, which of course also occur in their own right.
+Existing methods for detecting geopathogenic zones generally come down to the fact that certain people possessing a strong personal biofield can detect such zones either with the help of L-shaped wire rods, which in the operator's hands turn toward each other (Fig. 2.1), or with the help of a pendulum — a metal object suspended on a thread, which begins to move in a circle over a zone. These methods produce results, but they are to a certain degree subjective in nature, arousing the distrust of those around. Therefore, it is necessary to have instrumental methods for detecting such zones. But first of all, it must be confirmed that flows of ether from space do indeed enter the Earth's surface and that they are capable of creating helical streams of the same ether emerging from the Earth.
+
+A simple laboratory experiment to determine that flows of ether from space move into the depths of the Earth and that they are capable of creating vertical helical streams was conducted by Alexei Germanovich Leontyev (Naro-Fominsk, Moscow region) in 2009. He also developed a field instrument implementing the idea of bending a laser beam when crossing a geopathogenic zone.
+
+
+2.2. On Some Possibilities for Predicting Earthquakes and Volcanic Eruptions
+
+At present, earthquake prediction is one of the most pressing problems of our time. Earthquakes have occurred and will continue to occur suddenly, simultaneously causing landslides, tsunamis, and liquefaction of soils beneath buildings, leading to the destruction of densely populated residential areas. The lives of many thousands and even millions of people directly depend on the solution of this problem.
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+[p101]
+Research on geopathogenic fields and pathogenic fields accompanying high-frequency electromagnetic phenomena          101
+of people, the integrity of major cities such as Tokyo (Japan), Seattle (USA) and many others, over which in recent decades the threat of disappearing from the face of the Earth has arisen.
+Currently, methods of statistical analysis are widely used for earthquake prediction, by means of which seismic activity maps, ground-shaking maps, and earthquake recurrence graphs are compiled, making it possible to identify in advance the areas where earthquakes should be expected. There is also a method of earthquake prediction using "precursors" — weak tremors that precede strong earthquakes. However, there are practically no instrumental methods that would allow predicting earthquakes on the eve of their occurrence, although the existence of such methods would allow people to leave buildings in time, and this would avoid many casualties.
+The problem could be partially solved if it were possible to predict the increase in the stress of deep-seated rock formations over large areas, the possibility of which is in principle indicated by the fact that several days before underground tremors, animals and birds tend to leave the site of a future earthquake. This means that some kind of energy is emitted from the body of the Earth before an earthquake, which living organisms can sense.
+In ancient Japan, there existed a device consisting of a piece of natural magnetic iron ore (magnetite) tied to a vertically standing board, beneath which a copper basin was placed. The piece of ore was held by an iron axe. Immediately before an earthquake, the magnetic ore became demagnetized, the axe fell into the basin, a ringing sound was produced, and upon this signal people were supposed to immediately leave their dwellings. This means that some kind of energy capable of demagnetizing natural iron ore was being emitted from the body of the Earth at that location.
+The author of this article devoted many years to studying the problem of the aether and found, in particular, that flows of aether, washing over
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+[p102]
+102                                                                                                       Chapter 2.
+the Earth's globe from space, are capable of deflecting a laser beam over sufficiently large distances (tenths of a millimeter), which makes it possible to estimate the speed of such flows. The author also found that in places of so-called geopathogenic zones, the emergence of helical aether flows from the body of the Earth occurs vertically upward, and such flows pierce through multi-story buildings. These flows adversely affect people's health. Such flows can be stationary, but they can also be wandering, causing adverse and difficult-to-explain phenomena in houses and workplaces and, especially, on roads, where the activation of these radiations leads to numerous accidents. A characteristic feature of these radiations is their high penetrating ability even through metal sheets, which reflect them only partially: during the crossing of zones in motor vehicles, they are easily detected by operators using wire frames.
+Currently, a simple method has been found for the instrumental detection of such radiations, based on the physical effect of the bending of a laser beam when positioned above a geopathogenic zone, as well as their neutralization (dissipation) by means of chaotically tangled thin wire, which will make it possible, in the near future, to render premises and roads safe to a certain degree.
+There is every reason to believe that with the increase in mechanical stress in the depths of the Earth, which precedes an earthquake, helical flows of aether are also emitted from the body of the Earth, which can be detected by means of a laser device. This device is analogous to the device described above for the detection of geopathogenic zones. If necessary, the device can be equipped with telemetry for transmitting readings to a central station. No special requirements are imposed on the calibration of the device. The device is inexpensive, reliable in operation, and practically requires no maintenance other than battery replacement or accumulator charging. If necessary, mass production of such devices can be easily arranged, which will make it possible to
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+[p103]
+Research on geopathogenic fields and pathogenic fields accompanying high-frequency electromagnetic phenomena          103
+to cover significant areas with measurements. If the author's assumptions prove correct, this will bring the problem of earthquake prediction closer to a solution.
+
+
+2.3. Investigation of geopathogenic zones using a laser measuring device and a wire neutralizer
+
+V.A. Atsyukovsky, A.G. Leontyev
+
+Statement of the problem
+Across the entire surface of the Earth, so-called geopathogenic zones are scattered, i.e., zones from which aether-dynamic radiation emanates, the nature and structure of which have been practically unstudied to this day. These zones negatively affect people's health [Atsyukovsky V.A., Vasiliev V.G. Detection and Neutralization of Geopathogenic Radiation of the Earth. Moscow: "Petit," 2007], as well as the operation of instruments and equipment. Detection of such zones up to the present time is performed manually by operators using wire frames — wires bent in the shape of the letter G, each placed with one end into a wooden or plastic handle, in which the frame can freely rotate. The operator holds the frames in front of himself parallel to each other, tilting them slightly away from himself. When passing through a geopathogenic zone, the frames cross, and upon exiting the zone, they return to their parallel position.
+Despite the effective use of such frames in searching for geopathogenic zones (in the Middle Ages, a freshly picked forked branch from a tree was used for this purpose and for finding underground water and ores), and precisely because without a trained operator neither the branches nor the frames work, the very fact of the presence of an operator, i.e., subjectivity, raises doubts about its reliability in outside observers. Therefore, the detection of geopathogenic zones has not been systematic up to now
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+[p104]
+104                                                                                                       Chapter 2.
+character. Methods for neutralizing geopathogenic zones have also been practically not implemented.
+Formulation of the problem
+It is required to find instrumental methods for the detection and elimination of geopathogenic zones. Presumably, the radiation in geopathogenic zones is a helical flow of aether streaming vertically upward from the body of the Earth, which can be detected by means of the vertical deflection of a laser beam from its initial horizontal position. This deflection is related to the mechanical action of the aether flow on the beam, similar to how an ordinary wind deflects a cantilever-mounted beam from its neutral position. Thus, recording the deflection of the laser beam from its neutral position makes it possible to detect a geopathogenic zone by an instrumental method.
+As for the neutralization of the radiation, it is presumed that a method of dissipating the radiation by means of a chaotically tangled skein of wire through which the radiation passes can be used: the passage of the aether flow through the voids of the skein should lead to the appearance of numerous small vortex toroidal structures, which will scatter in all directions and thereby scatter the entire flow, destructuring and neutralizing it.
+
+Setup of the experiment
+As a measuring device for detecting a geopathogenic zone, a laser diode with a red beam was used, whose wavelength is approximately 640 nm; in some cases, photodiodes were used as photodetectors, and in others, photoresistors.
+The laser beam is passed between two parallel mirrors to increase the path length of the laser, since the deflection of the beam under the action of the load (aether flows) is proportional to the square of the beam length (of a cantilever-mounted beam)
+
+[p105]
+Research on geopathogenic fields and pathogenic fields accompanying high-frequency electromagnetic phenomena          105
+Both photodiodes or photoresistors are positioned one above the other, separated by an opaque partition, with frosted glass positioned in front of them to scatter the laser beam. In the neutral position, the beam illuminates both photodiodes (photoresistors) equally, and when deflected under the action of the aether flow, the beam shifts, and one diode (photoresistor) is illuminated more, the other less, thereby unbalancing the bridge; the resulting signal is transmitted through an amplifier to a microammeter, whose needle deflection from the neutral position indicates the presence of a zone.
+.
+                             5
+
+                               3
+             1                                                                       4
+                                                 2
+
+Fig. 2. Schematic of the optical path of POGIZ: 1 — laser; 2 — laser beam; 3, 4 — mirrors; 5 — photodetector
+
+
+    Fig. 3. Laboratory prototype of the laser geopathogenic zone measuring device (development by A.G. Leontyev, Naro-Fominsk, Moscow Region)
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+[p106]
+106                                                                                                       Chapter 2.
+
+
+
+
+a)
+
+
+b)
+
+Fig. 4. Field version of the prototype laser geopathogenic zone measuring device (development by A.G. Leontyev, Naro-Fominsk, Moscow Region):
+a) side view; b) top view
+
+[p107]
+Research on geopathogenic fields and pathogenic fields accompanying high-frequency electromagnetic phenomena          107
+As a zone neutralizer, a chaotically tangled skein of copper lacquered wire approximately 100 m in length and 0.12 to 0.18 mm in diameter was used. The skein is flattened into a patty approximately 80-100 mm in diameter and placed in a paper envelope. The presence of a zone is recorded by the deflection of the microammeter needle from the neutral position; neutralization of the zone after the wire neutralizer is placed in it is recorded by the return of the microammeter needle to the neutral position.
+
+Results of the experiment
+Using wire frames, the operator located a geopathogenic zone; introducing the device into it caused the microammeter needle to deflect. Introducing the wire neutralizer into the zone resulted in a practically instantaneous destruction of the zone, which was recorded by the restoration of the neutral position of the microammeter needle.
+When the neutralizer was removed from the zone, the microammeter needle slowly returned to the neutral position. It was thereby discovered that the time of zone recovery depends on the time the neutralizer spent in the zone: if the neutralizer was in the zone for no more than 1-2 seconds, the zone recovers in 15-20 seconds; if the time the neutralizer spends in the zone is 3-5 minutes, the zone recovers in 30-40 minutes; if the time spent is at least a day, the recovery of the zone can take several days.
+It was also established that the radiation indeed comes from the body of the Earth, since during a brief stay of the neutralizer in the zone, the radiation is eliminated above the neutralizer but is preserved below it, which was verified on the staircases of residential buildings. The most effective method of neutralization in residential buildings and workplaces proved to be placing the neutralizer under
+
+
+---
+
+
+### SOURCE SECTION: Chapter 2.
+
+[p108]
+108                                                                                                       Chapter 2.
+neutralizer in the basements of buildings, the radiation is neutralized on all floors of the building at once.
+
+Conclusions
+
+The experiments conducted confirmed the following propositions:
+
+1. Geopathogenic radiation is a spiral flow of ether directed vertically upward from the body of the Earth and possesses high penetrating ability, piercing through the floors of multi-story buildings;
+
+2. The radiation exerts an influence on the position of a horizontally oriented laser beam, causing it to deflect upward, similar to how an ordinary wind deflects a cantilever-mounted beam. This establishes the foundation for creating a measuring instrument for detecting geopathogenic zones of any origin;
+
+3. The developed method for neutralizing the geopathogenic radiation of the Earth has shown high effectiveness and can be recommended, at minimum, for neutralizing geopathogenic radiation in apartments and office spaces.
+
+4. Research should continue on the detection and neutralization of geopathogenic zones as applied to buildings dangerous to human life, poltergeist phenomena, accident-prone sections of automobile roads for improving the safety of people in them, as well as volcanic and seismic zones for predicting their possible activation (animals and birds sense the approach of activity and leave these areas in advance) and for taking timely necessary measures to save people and minimize possible damage.
+
+5. It is advisable to determine the possibility of applying the instrument in other areas — when geopathogenic zones are traversed by moving objects: ground transport, sea and submarine vessels, air transport and artificial Earth satellites, as well as for studying the ether wind blowing over the Earth, and for predicting earthquakes and volcanic eruptions, since all fauna seeks to leave the sites of future earthquakes and
+
+
+---
+
+
+### SOURCE SECTION: Chapter 2.
+
+[p109]
+Investigation of geopathogenic field and pathogenic field accompanying high-frequency electromagnetic phenomena          109
+eruptions several days before the events. This means that etheric vortex flows are already emanating from the body of the Earth, which implies the fundamental possibility of their advance detection.
+
+
+2.4. Investigation of vertical ether flows using the "corbio" of B.P. Dodonov
+
+A.G. Leontiev
+
+The medical biologist Boris Petrovich Dodonov and his son Roman Borisovich Dodonov spent many years studying the influence of various objects on the energy of the human biofield and developed a biofield corrector, which they named "corbio." The corrector is a cylinder made of wood, metal, or other materials, with grooves cut into it (Fig. 2.2).
+
+When an ether stream coming from space into the Earth strikes the metallic modulator (Fig. 2), it reflects off the metal surface and, due to the grooves, spirals, simultaneously compressing. When it strikes the wooden modulator (Fig. 3), the ether stream passes through, but also spiraling. In both cases, the stream possesses an energetic effect and in some cases can be used for replenishing and correcting the human biofield, which can be used for medical purposes.
+
+The biofield correctors are recommended by the authors for use in medical technology for correcting the human biofield, which promotes the harmonization of one's own energy field, which determines the state of one's health.
+
+Since it is directly evident from the configuration of the corrector that it is designed to convert linear ether flows into vortex flows, the idea arose to use the corrector for demonstrating the swirling of ether flows entering the Earth from space.
+
+[p110]
+110                                                                                                       Chapter 2.
+When an ether stream coming from space into the Earth strikes the metallic modulator (Fig. 2), it reflects off the metal surface and, due to the grooves, spirals, simultaneously compressing. When it strikes the wooden modulator (Fig. 3), the ether stream passes through, but also spiraling. In both cases, the stream possesses an energetic effect and in some cases can be used for replenishing and correcting the human biofield, which can be used for medical purposes.
+
+
+Fig. 2.2. Structure of the Dodonov biofield corrector:
+
+
+---
+
+
+### SOURCE SECTION: Chapter 2.
+
+[p111]
+Investigation of geopathogenic field and pathogenic field accompanying high-frequency electromagnetic phenomena          111
+Fig. 1. Dodonov biofield corrector "KORBIO"; Fig. 2. Top view, cylindrical and polygonal forms; Fig. 3. Cross-sections of the channel per Fig. 1 and 2.
+
+The biofield correctors are recommended by the authors for use in medical technology for correcting the human biofield, which promotes the harmonization of one's own energy field, which determines the state of one's health.
+
+Since it is directly evident from the configuration of the corrector that it is designed to convert linear ether flows into vortex flows, the idea arose to use the corrector for demonstrating the swirling of ether flows entering the Earth from space.
+
+Objective of the experiment
+
+Creation of an apparatus for demonstrating the process of swirling of ether flows entering the Earth from space.
+
+Essence of the experiment
+
+Ink is lowered through a tube to the bottom of a jar of water, where it spreads across the bottom of the jar. Then a corbio — the Dodonov bio-corrector — is placed on the jar. In the second variant, the metallic corrector is placed under the jar with the grooves facing upward; otherwise, no effect is produced.
+
+Expected effect — due to the formation of a toroidal ether vortex in the jar, the ink should gather at the bottom of the jar into an increasingly smaller round disk, which should extend upward in accordance with the structure of the toroidal ether vortex.
+
+Conducting the experiment
+
+For the experiment, correctors made of metal and wood were fabricated (Fig. 2.3).
+
+[p112]
+112                                                                                                       Chapter 2.
+
+Fig. 2. Steel modulator of B.P. Dodonov (corbio), producing directed spiral pathogenic radiation
+
+                          a)                                               b)
+
+Fig. 3. Wooden modulators of B.P. Dodonov for biofield correction: a) left-hand spiral; b) right-hand spiral
+
+[p113]
+Investigation of geopathogenic field and pathogenic field accompanying high-frequency electromagnetic phenomena          113
+
+                          a)                                               b)
+
+                       c)                                                   d)
+Fig. 2.4. Formation of an ink vortex in a jar of water after placing a wooden Dodonov corrector on it: a) half an hour after placement; b) one hour after placement; c) one and a half hours after placement; d) 15 minutes after removing the corrector from the jar.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 2.
+
+[p114]
+114                                                                                                       Chapter 2.
+In one case, the metallic corrector is placed under the jar; in the second, the wooden corrector is placed on the jar. The result is practically the same, but the effect when the metallic corrector is placed under the jar is somewhat smaller than when the wooden corrector is placed on top of the jar.
+
+The duration of the experiment is 1.5–2 hours from the moment the corbio is placed on the jar. As a result, as expected, the ink from the entire area of the jar gathers toward its center, and from the ink "disk" a column of ink extends upward, while the "disk" itself takes the shape of a funnel with its narrow part pointing upward (Fig. 2.3).
+
+Conclusions
+
+It should be concluded that the experiment confirmed the presence of an ether flow entering the Earth from space, since there are no other causes for the formation of a vortex in the jar. Furthermore, the experiment confirmed the possibility of swirling a laminar ether stream by means of spiral modulators of the Dodonov corbio type.
+
+In principle, this implies the future possibility of using Dodonov modulators as reference standards for calibrating instruments designed to detect geopathogenic zones.
+
+[p115]
+Investigation of geopathogenic field and pathogenic field accompanying high-frequency electromagnetic phenomena          115
+2.5. Investigation of the influence of geopathogenic radiation on metallic surfaces
+
+V.A. Atsyukovsky, A.G. Leontiev
+
+Statement of the problem
+
+Given that when a gas flow slides along the surface of a plate, the gas pressure decreases, it is expedient to verify this circumstance, since it means that the plate will be acted upon by pressure from the opposite side, displacing the plate toward the zone. The verification can be carried out using torsion balances and Dodonov modulators, which convert the ether flow absorbed by the Earth, moving vertically from top to bottom.
+
+
+                        1
+
+
+                                                   4                 6
+                                    3                                                      7
+                                                           5
+                                                            6
+                        2
+
+Fig. 2.5. Diagram of the balance for determining the influence of Dodonov modulators on a metallic plate: 1. Wooden modulator — when placed above the metallic plate, the plate should move upward; 2. Metallic modulator — when placed under the metallic plate, the plate should move downward; 3. Thin metallic plate 30×30 cm, 0.5 mm thick. Mounted on the end of the beam 4, about one meter long; 5. Thin steel wire on which the beam is mounted, the wire is stretched between supports 6; 7. Counterweight balancing plate 3.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 2.
+
+[p116]
+116                                                                                                       Chapter 2.
+The metallic modulator should reflect the laminar ether flow and convert it into a vortex flow; the wooden modulator should allow the laminar ether flow to pass through and convert it into a vortex flow. Therefore, the metallic modulator should be placed under the metallic plate mounted on one end of the balance beam, and the wooden modulator above the plate. Expected effect: the metallic modulator should deflect the plate downward, and the wooden modulator should deflect the plate upward.
+
+Setup of the experiment
+
+To test the proposed hypothesis, torsion balances were used — a wooden beam 1.2 m long, suspended by a thread from a support.
+
+At one end of the beam, a tin plate with an area of 0.1 m² is mounted; at the opposite end of the beam, there is a counterweight selected so that the beam is in a horizontal position. A laser pointer is mounted on the beam, casting a beam onto a wall, on which a mark for the neutral position of the beam is made, from which the deflection is recorded.
+
+Fig. 2.6. Torsion balances for testing the influence of geopathogenic radiation on metallic surfaces: general view
+
+[p117]
+Investigation of geopathogenic field and pathogenic field accompanying high-frequency electromagnetic phenomena          117
+
+Result of the experiment
+
+When the metallic modulator is placed under the suspended tin plate, the equilibrium of the balance is disrupted, and the plate deflects downward toward the modulator by an angle on the order of 10–15'. When the wooden modulator is placed above the plate, it deflects upward by approximately the same angle.
+
+Fig. 2.7. Torsion balances for testing the influence of geopathogenic radiation on metallic surfaces: installation of the Dodonov modulator under the tin plate mounted on the balance beam.
+
+Conclusions
+1. The experiment confirmed:
+— the proposition of etherodynamics that a flow of ether enters the Earth;
+— the proposition of etherodynamics about the possible force influence of geopathogenic radiation on metallic surfaces, which in some cases may prove to be the cause of accidents and catastrophes of air and sea vessels;
+— the possibility of creating, by means of a metallic Dodonov modulator, a simulation of geopathogenic radiation of the Earth, which
+
+
+---
+
