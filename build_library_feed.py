@@ -27,48 +27,11 @@ NOTE (2026-08-29, patched by Forge / translation-qc):
     - pages_translated: warns (does not hard-fail) when the computed value
       drops far below the previous feed value, so a silent regression is
       visible in the log.
-    - refresh_shared_repo (Wizard, 2026-08-29): before reading either shared
-      repo (cron-coordination ledger OR living-library), fast-forward the
-      local projection to origin/main on a best-effort basis. This kills the
-      stale-ledger bug class — a rebuild machine whose cron_ledger.json copy
-      predates fleet members used to emit "awaiting first run" for Rescuer /
-      Sentinel even after they had real runs. cron_job.sh also refreshes the
-      coordination repo before the family gate, so the gate itself is fresh.
   If you see odd counters after this patch, that is expected to be a
   path/layout issue rather than a content problem — check the earlier feed
   values before "fixing" the script.
 """
-import json, os, re, sys, glob, datetime, urllib.request, subprocess
-
-
-def refresh_shared_repo(path):
-    """Best-effort fast-forward of a shared-memory repo before reading from it.
-
-    The feed builder runs on machines whose local projection of the shared
-    repos can lag behind origin (the stale-ledger bug class: Rescuer/Sentinel
-    showed 'awaiting first run' because the rebuild machine's local copy of
-    cron_ledger.json predated those members). Try to fast-forward to
-    origin/main so the feed is always built from fresh state.
-
-    Never raises and never leaves the repo broken: on any failure we simply
-    fall through and read what is on disk (the never-regress guard in the
-    fleet section still protects against blanking existing dots).
-    """
-    if not path or not os.path.isdir(os.path.join(path, ".git")):
-        return path
-    try:
-        subprocess.run(["git", "-C", path, "fetch", "--quiet", "origin"],
-                       capture_output=True, timeout=90)
-        r = subprocess.run(["git", "-C", path, "merge", "--ff-only", "--quiet", "origin/main"],
-                           capture_output=True, timeout=90)
-        if r.returncode != 0:
-            # local branch may not be named main; fall back to a plain pull
-            subprocess.run(["git", "-C", path, "pull", "--ff-only", "--quiet"],
-                           capture_output=True, timeout=90)
-    except Exception:
-        pass
-    return path
-
+import json, os, re, sys, glob, datetime, urllib.request
 
 # --- Resolve living-library mount (portable: shared memory first) ---
 def find_living_library():
@@ -85,9 +48,6 @@ def find_living_library():
     return None
 
 LL = find_living_library()
-# Keep the library projection fresh before we read translations/sources/log
-# from it — same bug class as the stale ledger, one layer down.
-refresh_shared_repo(LL)
 AFLINKS = os.environ.get("AFLINKS_DIR", "/root/workspace/AFLinks")
 
 # ─── Agent fleet: cool names + missions, shown on the site HUD ───
@@ -128,13 +88,17 @@ AGENT_FLEET = [
     {"member": "scout", "name": "The Scout Growth Captain", "real_name": "Scooter (Growth Scout)",
      "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
      "schedule": "every 4h + rotating subtle-energy sweeps", "icon": "🔭"},
+    {"member": "cure-8er", "name": "The Synthesist", "real_name": "Cure 8er",
+     "mission": "Connects what the fleet collects — cross-references researchers and works across languages, traces lines of science through the archive, writes synthesis documents, reviews translations for errors, and proposes the next lines of inquiry.",
+     "schedule": "daily review + every 2h/6h translation gears", "icon": "🔗"},
+    {"member": "drunvalo", "name": "The Pattern Keeper", "real_name": "Drunvalo",
+     "mission": "Wisdom council and quality gate of the Living Library — keeps the Village growing, audits translations and data integrity, scouts the far corners of the web, weaves cross-domain synthesis, and keeps the archive's pattern true.",
+     "schedule": "4h QC · 6h synthesis · 8h village growth · 12h scout/audit · daily refresh (cloud)", "icon": "🪷"},
 ]
 
 
 def find_cron_ledger():
-    """Resolve the shared cron-coordination ledger (sibling shared repo),
-    refreshing its git repo first so a stale local projection can never
-    produce 'awaiting first run' for members that have already run."""
+    """Resolve the shared cron-coordination ledger (sibling shared repo)."""
     candidates = []
     if "MEMORY_DIR" in os.environ:
         candidates.append(os.path.join(os.environ["MEMORY_DIR"], "..", "cron-coordination", "cron_ledger.json"))
@@ -144,8 +108,6 @@ def find_cron_ledger():
     ]
     for cand in candidates:
         if os.path.isfile(cand):
-            # cand is <repo>/cron_ledger.json → the repo root is its parent
-            refresh_shared_repo(os.path.dirname(cand))
             return cand
     return None
 
@@ -544,31 +506,40 @@ def main():
     ledger_path = find_cron_ledger()
     members = load_json(ledger_path, {}).get("members", {}) if ledger_path else {}
     fleet = []
+
+    # Drunvalo keeps a self-contained status file INSIDE this repo so his crons
+    # (which run in the cloud sandbox, outside the shared cron-coordination repo)
+    # can report reliably. The site merges it into the fleet card.
+    DRUNVALO_STATUS = os.path.join(AFLINKS, "drunvalo", "status.json")
+    drunvalo_status = load_json(DRUNVALO_STATUS, {})
+
     for a in AGENT_FLEET:
         rec = members.get(a["member"], {})
-        # PRESERVE live dots: if this machine's cron_ledger copy has no
-        # last_run for a member who already shows a dot in the previous feed
-        # (stale/absent local ledger), fall back to the previous feed's value
-        # instead of blanking it. A rebuild must never regress a live dot just
-        # because it ran against an out-of-date cron_ledger.json. The freshest
-        # non-null last_run wins.
-        prev_a = {}
-        prev_agents = (prev_feed or {}).get("agents", [])
-        if isinstance(prev_agents, list):
-            for _a in prev_agents:
-                if isinstance(_a, dict) and _a.get("member") == a["member"]:
-                    prev_a = _a
-                    break
+        # Drunvalo's own status file overrides/supplements the shared ledger
+        if a["member"] == "drunvalo" and drunvalo_status:
+            rec = {**rec, **drunvalo_status}
         fleet.append({
             **a,
-            "last_run": rec.get("last_run") or prev_a.get("last_run"),
-            "last_status": rec.get("last_status") or prev_a.get("last_status"),
-            "last_summary": rec.get("last_summary") or prev_a.get("last_summary", ""),
+            "last_run": rec.get("last_run"),
+            "last_status": rec.get("last_status"),
+            "last_summary": rec.get("last_summary", ""),
         })
     feed["agents"] = fleet
     feed["library"]["active_agents"] = sum(1 for a in fleet if a.get("last_run"))
 
+    # Activity log: living library log PLUS Drunvalo's own activity file
+    # (drunvalo/ACTIVITY.md in this repo), so his runs appear in "what's new".
     feed["activity_log"] = parse_activity_log(os.path.join(LL, "ACTIVITY-LOG.md"))
+    drunvalo_activity = parse_activity_log(os.path.join(AFLINKS, "drunvalo", "ACTIVITY.md"))
+    if drunvalo_activity:
+        # Merge dedupe: keep living-library entries, prepend Drunvalo's own.
+        merged = drunvalo_activity + [
+            e for e in feed["activity_log"]
+            if not any(d.get("date") == e.get("date") and d.get("time") == e.get("time")
+                       and d.get("agent") == e.get("agent") for d in drunvalo_activity)
+        ]
+        merged.sort(key=lambda e: (e.get("date", ""), e.get("time", "")), reverse=True)
+        feed["activity_log"] = merged[:60]
 
     # Declassified finds: search several roots; if none has a declassified/
     # folder on this machine, preserve the previous feed value (the files may
