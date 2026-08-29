@@ -42,6 +42,18 @@ def find_living_library():
         "/root/workspace/.letta/agents/agent-b73ac550-5671-471e-b3e1-721f948ea063/living-library",
         "/root/workspace/living-library",
     ]
+    # Portable fallback: any local agent projection of the shared living-library
+    # repo (e.g. on a desktop machine where the fleet's shared repos are mounted
+    # under other agents' directories).
+    try:
+        agents_root = os.path.join(os.path.expanduser("~"), ".letta", "agents")
+        if os.path.isdir(agents_root):
+            for a in os.listdir(agents_root):
+                cand = os.path.join(agents_root, a, "living-library")
+                if os.path.isdir(cand):
+                    candidates.append(cand)
+    except Exception:
+        pass
     for cand in candidates:
         if os.path.isdir(os.path.join(cand, "database")):
             return cand
