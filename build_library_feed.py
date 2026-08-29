@@ -8,6 +8,28 @@ AFLinks site, so the public site grows as the database grows.
 
 Writes to /root/workspace/AFLinks/library_feed.json (or $AFLINKS_DIR).
 Pure stdlib. Runs inside the aflinks cron; safe to run any time.
+
+NOTE (2026-08-29, patched by Forge / translation-qc):
+  This script was patched to be more robust when run on different machines
+  (cloud sandbox vs Sandra's Windows machine). Changes:
+    - declassified_finds: searches several locations for the declassified
+      folder, and if none is found PRESERVES the previous feed value instead
+      of zeroing the counter. May still be imperfect: if the declassified
+      files live only in a cloud-only path, this counter may lag until a
+      cloud run refreshes it.
+    - Book5 copy: only overwrites the site's Book5_full_translation.md when
+      the incoming source has MORE [pN] page markers than the published copy
+      (or the destination is missing). A truncated in-progress assembly (e.g.
+      first half of the book) is a strict subset of the fuller published copy
+      and will not clobber it. Not perfect: if pages are ever re-numbered or
+      a full rewrite has fewer markers than the old copy, it will be skipped
+      with a WARN instead of published — check the log.
+    - pages_translated: warns (does not hard-fail) when the computed value
+      drops far below the previous feed value, so a silent regression is
+      visible in the log.
+  If you see odd counters after this patch, that is expected to be a
+  path/layout issue rather than a content problem — check the earlier feed
+  values before "fixing" the script.
 """
 import json, os, re, sys, glob, datetime, urllib.request
 
@@ -118,25 +140,36 @@ def parse_activity_log(path):
     return entries[:50]
 
 
-def parse_declassified(LL):
-    """Collect declassified finds: country, title, description."""
-    finds = []
-    ddir = os.path.join(LL, "declassified")
-    if not os.path.isdir(ddir):
-        return finds
-    for path in sorted(glob.glob(os.path.join(ddir, "*", "*.md"))):
-        if os.path.basename(path) in ("INDEX.md", "README.md"):
+def parse_declassified(roots):
+    """Collect declassified finds across candidate roots.
+
+    Returns (found_dir, finds). found_dir is True if any root actually has a
+    declassified/ folder (even if it parses to zero finds); False means none
+    of the roots have one, so the caller should consider preserving the
+    previous feed value instead of zeroing the counter.
+    """
+    found_dir = False
+    for root in roots:
+        ddir = os.path.join(root, "declassified")
+        if not os.path.isdir(ddir):
             continue
-        country = os.path.basename(os.path.dirname(path))
-        meta, title, body = parse_md_frontmatter(path)
-        description = meta.get("description", "")
-        finds.append({
-            "country": country,
-            "title": title,
-            "description": description[:180],
-            "file": f"declassified/{country}/{os.path.basename(path)}",
-        })
-    return finds
+        found_dir = True
+        finds = []
+        for path in sorted(glob.glob(os.path.join(ddir, "*", "*.md"))):
+            if os.path.basename(path) in ("INDEX.md", "README.md"):
+                continue
+            country = os.path.basename(os.path.dirname(path))
+            meta, title, body = parse_md_frontmatter(path)
+            description = meta.get("description", "")
+            finds.append({
+                "country": country,
+                "title": title,
+                "description": description[:180],
+                "file": f"declassified/{country}/{os.path.basename(path)}",
+            })
+        if finds:
+            return (True, finds)
+    return (found_dir, [])
 
 def load_json(path, default=None):
     try:
@@ -191,6 +224,10 @@ def main():
         "activity_log": [],
         "declassified": [],
     }
+    # Previous feed (if any): used to preserve counts that can't be derived on
+    # this machine (e.g. declassified finds living in a cloud-only path) and to
+    # warn on large regressions instead of silently publishing them.
+    prev_feed = load_json(os.path.join(AFLINKS, "library_feed.json"))
 
     # --- 1. Database counts ---
     tax = load_json(os.path.join(LL, "database/taxonomy/taxonomy.json"))
@@ -245,13 +282,32 @@ def main():
             if done > 0:
                 translation_ok = True
                 book5_pages = done
-                # Publish the assembled translation into the site repo
+                # Publish the assembled translation into the site repo.
+                # Guard: only overwrite when the incoming source has MORE
+                # [pN] page markers than what's already published (or the
+                # destination is missing). A truncated in-progress assembly
+                # (e.g. first half of the book) is a STRICT SUBSET of the
+                # fuller published copy and must never clobber it — size is
+                # not a reliable proxy, page markers are.
                 try:
                     import shutil
                     src_asm = os.path.join(ats_dir, "Book5_full_translation.md")
                     dst_asm = os.path.join(AFLINKS, "sources", "atsyukovsky", "Book5_full_translation.md")
-                    os.makedirs(os.path.dirname(dst_asm), exist_ok=True)
-                    shutil.copy2(src_asm, dst_asm)
+                    if os.path.isfile(src_asm):
+                        with open(src_asm, encoding="utf-8") as f:
+                            src_markers = len(re.findall(r"\[p\s*\d+\]", f.read()))
+                        dst_markers = 0
+                        if os.path.isfile(dst_asm):
+                            with open(dst_asm, encoding="utf-8") as f:
+                                dst_markers = len(re.findall(r"\[p\s*\d+\]", f.read()))
+                        if not os.path.isfile(dst_asm) or (src_markers > dst_markers and src_markers > 0):
+                            os.makedirs(os.path.dirname(dst_asm), exist_ok=True)
+                            shutil.copy2(src_asm, dst_asm)
+                            print(f"  Book5 assembly updated ({src_markers} [pN] markers vs {dst_markers} before)", flush=True)
+                        else:
+                            print(f"  WARN: skipping Book5 overwrite (src {src_markers} [pN] markers <= dst {dst_markers}); keeping fuller existing copy", flush=True)
+                    else:
+                        print("  WARN: Book5_full_translation.md not found in library; leaving site copy as-is", flush=True)
                 except Exception as e:
                     print(f"  WARN: could not publish assembled translation: {e}", flush=True)
             bookset.append({
@@ -311,6 +367,11 @@ def main():
                 pages_translated += max(1, round(len(raw) / 3000))
     feed["library"]["translations"] = translations_done
     feed["library"]["pages_translated"] = pages_translated
+    # Warn on a large unexplained regression vs the previous feed (e.g. the
+    # declassified / Book5 path issues above) so it is visible in the cron log.
+    prev_pages = ((prev_feed or {}).get("library") or {}).get("pages_translated")
+    if prev_pages and pages_translated < prev_pages * 0.6:
+        print(f"  WARN: pages_translated dropped {prev_pages} -> {pages_translated}; check paths / counting before trusting this feed", flush=True)
 
     # --- 3. Latest finds (scout sources) ---
     sdir = os.path.join(LL, "sources")
@@ -446,14 +507,22 @@ def main():
 
     feed["activity_log"] = parse_activity_log(os.path.join(LL, "ACTIVITY-LOG.md"))
 
-    d_finds = parse_declassified(LL)
+    # Declassified finds: search several roots; if none has a declassified/
+    # folder on this machine, preserve the previous feed value (the files may
+    # live in a cloud-only path) instead of silently zeroing the counter.
+    d_roots = [LL, os.path.join(AFLINKS, "sources"), AFLINKS]
+    d_found, d_finds = parse_declassified(d_roots)
+    prev_declassified = (prev_feed or {}).get("declassified", [])
+    if not d_found and prev_declassified:
+        print(f"  WARN: no declassified/ dir found on this machine; preserving previous count ({len(prev_declassified)})", flush=True)
+        d_finds = prev_declassified
     feed["declassified"] = d_finds
     feed["library"]["declassified_finds"] = len(d_finds)
 
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=2)
-    print(f"library_feed.json written: {len(feed['latest_translations'])} translations, "
+    print(f"library_feed.json written: {translations_done} published translations, "
           f"{len(feed['latest_finds'])} scout reports, {len(feed['top_researchers'])} researchers, "
           f"{len(feed['domains'])} domains")
     print(f"DB: {feed['library']['researchers']} researchers, {feed['library']['patents']} patents, "
