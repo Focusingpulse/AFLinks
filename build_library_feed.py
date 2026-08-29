@@ -27,11 +27,48 @@ NOTE (2026-08-29, patched by Forge / translation-qc):
     - pages_translated: warns (does not hard-fail) when the computed value
       drops far below the previous feed value, so a silent regression is
       visible in the log.
+    - refresh_shared_repo (Wizard, 2026-08-29): before reading either shared
+      repo (cron-coordination ledger OR living-library), fast-forward the
+      local projection to origin/main on a best-effort basis. This kills the
+      stale-ledger bug class — a rebuild machine whose cron_ledger.json copy
+      predates fleet members used to emit "awaiting first run" for Rescuer /
+      Sentinel even after they had real runs. cron_job.sh also refreshes the
+      coordination repo before the family gate, so the gate itself is fresh.
   If you see odd counters after this patch, that is expected to be a
   path/layout issue rather than a content problem — check the earlier feed
   values before "fixing" the script.
 """
-import json, os, re, sys, glob, datetime, urllib.request
+import json, os, re, sys, glob, datetime, urllib.request, subprocess
+
+
+def refresh_shared_repo(path):
+    """Best-effort fast-forward of a shared-memory repo before reading from it.
+
+    The feed builder runs on machines whose local projection of the shared
+    repos can lag behind origin (the stale-ledger bug class: Rescuer/Sentinel
+    showed 'awaiting first run' because the rebuild machine's local copy of
+    cron_ledger.json predated those members). Try to fast-forward to
+    origin/main so the feed is always built from fresh state.
+
+    Never raises and never leaves the repo broken: on any failure we simply
+    fall through and read what is on disk (the never-regress guard in the
+    fleet section still protects against blanking existing dots).
+    """
+    if not path or not os.path.isdir(os.path.join(path, ".git")):
+        return path
+    try:
+        subprocess.run(["git", "-C", path, "fetch", "--quiet", "origin"],
+                       capture_output=True, timeout=90)
+        r = subprocess.run(["git", "-C", path, "merge", "--ff-only", "--quiet", "origin/main"],
+                           capture_output=True, timeout=90)
+        if r.returncode != 0:
+            # local branch may not be named main; fall back to a plain pull
+            subprocess.run(["git", "-C", path, "pull", "--ff-only", "--quiet"],
+                           capture_output=True, timeout=90)
+    except Exception:
+        pass
+    return path
+
 
 # --- Resolve living-library mount (portable: shared memory first) ---
 def find_living_library():
@@ -48,6 +85,9 @@ def find_living_library():
     return None
 
 LL = find_living_library()
+# Keep the library projection fresh before we read translations/sources/log
+# from it — same bug class as the stale ledger, one layer down.
+refresh_shared_repo(LL)
 AFLINKS = os.environ.get("AFLINKS_DIR", "/root/workspace/AFLinks")
 
 # ─── Agent fleet: cool names + missions, shown on the site HUD ───
@@ -92,7 +132,9 @@ AGENT_FLEET = [
 
 
 def find_cron_ledger():
-    """Resolve the shared cron-coordination ledger (sibling shared repo)."""
+    """Resolve the shared cron-coordination ledger (sibling shared repo),
+    refreshing its git repo first so a stale local projection can never
+    produce 'awaiting first run' for members that have already run."""
     candidates = []
     if "MEMORY_DIR" in os.environ:
         candidates.append(os.path.join(os.environ["MEMORY_DIR"], "..", "cron-coordination", "cron_ledger.json"))
@@ -102,6 +144,8 @@ def find_cron_ledger():
     ]
     for cand in candidates:
         if os.path.isfile(cand):
+            # cand is <repo>/cron_ledger.json → the repo root is its parent
+            refresh_shared_repo(os.path.dirname(cand))
             return cand
     return None
 

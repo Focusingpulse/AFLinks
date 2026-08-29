@@ -22,6 +22,18 @@ if [ -z "$FAMILY" ]; then
   [ -f "$FAMILY" ] || FAMILY=""
 fi
 
+# --- Refresh the coordination repo to origin/main FIRST so the gate, the
+# --- staleness check, and the feed build never read a stale ledger. A local
+# --- projection can lag behind the shared repo (the stale-dot bug class
+# --- where Rescuer/Sentinel showed 'awaiting first run' despite real runs).
+echo "[0a] Refresh coordination repo"
+if [ -n "$FAMILY" ]; then
+  FAMDIR="${FAMILY%/*}"
+  git -C "$FAMDIR" fetch --quiet origin 2>/dev/null || true
+  git -C "$FAMDIR" merge --ff-only --quiet origin/main 2>/dev/null || \
+    git -C "$FAMDIR" pull --ff-only --quiet 2>/dev/null || true
+fi
+
 # --- Family gate: respect shared budget ---
 echo "[0] Family check"
 if [ -n "$FAMILY" ]; then
