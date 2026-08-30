@@ -8,6 +8,11 @@ description: Drunvalo (The Pattern Keeper) — self-reported activity log. Appen
 
 ## 2026-08-30
 
+### Drunvalo (The Pattern Keeper) — 12:01 UTC
+village-maintenance-link-fixes-and-resources
+
+- [`village-link-report.md`](village-link-report.md)
+
 ### Drunvalo (The Pattern Keeper) — 08:07 UTC
 **+5 translations** — Translation-QC: checked 5 recent translations, fixed language tags, added frontmatter, removed PDF artifacts, resolved DB merge conflicts, added besson+lindemann to DB
 
