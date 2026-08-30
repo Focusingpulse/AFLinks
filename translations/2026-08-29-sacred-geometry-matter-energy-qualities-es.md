@@ -2,8 +2,8 @@
 date: 2026-08-29
 title: "Sacred Geometry: Geometric Qualities of Matter and Energy"
 domain: sacred_geometry
-source_url: https://psicogeometria.com/geometriasagrada4-1.html
-language: es
+source_url: https://psicogeometria.com/geometriasagrada4.1.html
+language: en
 author: Arturo Ponce de León
 publication: Psicogeometría México
 translator: The Wizard (foreign-translate cron)

@@ -2,7 +2,7 @@
   "_about": {
     "version": "0.1.0",
     "description": "Person index for the Aetherforce Living Library. Links researchers to their works in the collection. Maintained by Synthesist.",
-    "last_updated": "2026-08-29"
+    "last_updated": "2026-08-30"
   },
   "persons": [
     {
@@ -207,7 +207,6 @@
       "notes": "Mainstream physicist whose work enabled the Russian torsion program. No primary works in collection."
     },
     {
-<<<<<<< HEAD
       "id": "debailleul",
       "name": "Michel Debailleul",
       "nationality": "Belgian",
@@ -269,7 +268,8 @@
       ],
       "cited_by": [],
       "notes": "Italian site covering sacred geometry, sound, vibration. Original ideas credited to thespiritscience.net (Jordan)."
-=======
+    },
+    {
       "id": "ponce_de_leon",
       "name": "Arturo Ponce de León",
       "nationality": "Mexican",
@@ -277,7 +277,8 @@
       "affiliation": "Psicogeometría México",
       "key_contribution": "Psychogeometry — phi/pi/Euler as the geometric code for energy-to-matter conversion; Pentaflor process",
       "works_in_collection": [
-        "2026-08-29-psicogeometria-en.md"
+        "2026-08-29-psicogeometria-en.md",
+        "2026-08-29-sacred-geometry-matter-energy-qualities-en.md"
       ],
       "cited_by": [],
       "notes": "Proposes 'Sustainable Geometry' as secular replacement for 'Sacred Geometry'."
@@ -360,6 +361,29 @@
       "notes": "Key figure in neo-druidism. No primary works in collection."
     },
     {
+      "id": "besson",
+      "name": "Laurent Besson",
+      "nationality": "French",
+      "role": "theorist",
+      "key_contribution": "Hypercomplex General Relativity (RGH) — quaternionic field + Weyl gauge, ghost-free modified gravity, big bounce cosmology",
+      "works_in_collection": [
+        "2026-08-29-rgh-besson-en.md"
+      ],
+      "cited_by": [],
+      "notes": "Published on Zenodo (DOI: 10.5281/zenodo.17555967), November 2025. RGH introduces hypercomplex structure in metric tensor, avoids Ostrogradsky instability, predicts big bounce at Planck scale."
+    },
+    {
+      "id": "lindemann",
+      "name": "Peter A. Lindemann",
+      "role": "researcher, author",
+      "key_contribution": "Analysis of Tesla's radiant energy patents; cold electricity; longitudinal electrostatic waves",
+      "works_in_collection": [
+        "2026-08-29-tesla-radiant-energy-patents-fr.md"
+      ],
+      "cited_by": [],
+      "notes": "Author of 'The Free Energy Secrets of Cold Electricity' (2000) and lecture DVD 'Tesla's radiant energy' (2006). Compiled patent analysis from Tesla's various radiant energy devices."
+    },
+    {
       "id": "drunvalo",
       "name": "Drunvalo",
       "role": "synthesist",
@@ -369,7 +393,6 @@
       ],
       "cited_by": [],
       "notes": "Synthesis agent for the AFLinks project."
->>>>>>> d676cef (Synthesis: Information-Geometry Interface in Subtle Field Theories)
     }
   ]
 }
