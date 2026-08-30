@@ -300,11 +300,28 @@ def main():
     # --- 1. Database counts ---
     tax = load_json(os.path.join(LL, "database/taxonomy/taxonomy.json"))
     researchers = load_json(os.path.join(LL, "database/entities/researcher-index.json"))
+    persons = load_json(os.path.join(LL, "database/persons/person-index.json"))
     patents = load_json(os.path.join(LL, "database/patents/patent-index.json"))
     concept = load_json(os.path.join(LL, "database/taxonomy/concept-map.json"))
 
+    # Unified researcher table for counts + top-researcher ranking.
+    # The dual-index person-index (database/persons/person-index.json) is now canonical;
+    # the legacy researcher-index is a fallback during the transition.
+    person_recs = persons.get("persons", {}) if isinstance(persons, dict) else {}
+    legacy_recs = researchers.get("researchers", {}) if isinstance(researchers, dict) else {}
+    # Legacy files also carried the older "entities"/"total_entities" shape.
+    if not isinstance(person_recs, dict) or not person_recs:
+        person_recs = {}
+    if not isinstance(legacy_recs, dict) or not legacy_recs:
+        legacy_recs = researchers.get("entities", {}) if isinstance(researchers, dict) else {}
+        if not isinstance(legacy_recs, dict):
+            legacy_recs = {}
+    researchers_by_name = person_recs or legacy_recs
+    # Prefer the richer/canonical count, but never regress below the legacy table.
+    researcher_count = max(len(person_recs), len(legacy_recs)) if (person_recs or legacy_recs) else 0
+
     feed["library"] = {
-        "researchers": researchers.get("total_entities", len(researchers.get("entities", {}))),
+        "researchers": researcher_count,
         "patents": patents.get("total_patents", len(patents.get("patents", {}))),
         "categories": len(tax.get("categories", {})),
         "meta_categories": len(tax.get("meta_categories", {})),
@@ -465,20 +482,38 @@ def main():
                 "finds": finds[:8],
             })
 
-    # --- 4. Top researchers (by source_count) ---
-    ents = researchers.get("entities", {})
+    # --- 4. Top researchers (by source/domain weight) ---
+    def _src_count(rec):
+        srcs = rec.get("sources")
+        if isinstance(srcs, (list, tuple)):
+            return len(srcs)
+        return rec.get("source_count", 0) or 0
+
+    def _display_name(name, rec):
+        kn = rec.get("known_as")
+        if isinstance(kn, (list, tuple)) and kn and isinstance(kn[0], str) and kn[0].strip():
+            return kn[0]
+        for k in ("romanized_name", "name"):
+            v = rec.get(k)
+            if isinstance(v, str) and v.strip():
+                return v
+        return name
+
     ranked = sorted(
-        ents.items(),
-        key=lambda kv: (kv[1].get("source_count", 0), len(kv[1].get("patents", []))),
+        researchers_by_name.items(),
+        key=lambda kv: (
+            _src_count(kv[1]),
+            len(kv[1].get("domains", [])) if isinstance(kv[1].get("domains"), (list, tuple)) else 0,
+        ),
         reverse=True,
     )[:12]
     feed["top_researchers"] = [
         {
-            "name": name.title(),
+            "name": _display_name(name, rec),
             "domains": rec.get("domains", [])[:3],
             "sources": rec.get("sources", [])[:2],
-            "source_count": rec.get("source_count", 0),
-            "patents": len(rec.get("patents", [])),
+            "source_count": _src_count(rec),
+            "patents": len(rec.get("patents", [])) if isinstance(rec.get("patents"), (list, tuple)) else 0,
         }
         for name, rec in ranked
     ]
