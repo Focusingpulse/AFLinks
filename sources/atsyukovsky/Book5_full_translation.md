@@ -808,60 +808,64 @@ From this it follows that measurements of the ether wind velocity must be conduc
 
 [p44]
 44                                                                                                        Chapter 3.
-obtained by Miller (8-10 km/s), since Miller placed the measuring
-apparatus (interferometer) in a light plywood structure that weakly
-retards the ether flows.
-4. In order to reveal the fine structure of the variation of the
-ether wind velocity, it is necessary to conduct round-the-clock and
-year-round measurements of the ether wind velocity with a periodicity
-of no more than 5 minutes, and possibly continuously.
-As for the instrument for measuring the ether wind, the
-properties of the ether arising from its gas-like nature — pressure
-on objects, viscosity, and other parameters — can be utilized.
+ny Miller (8-10 km/s), since Miller placed the measuring
+apparatus (interferometer) in a light plywood structure,
+weakly retarding the ether flows.
+4. In order to reveal the fine structure of the variation of
+the ether wind velocity, it is necessary to conduct round-the-clock
+and year-round measurements of the ether wind velocity with a
+periodicity of no more than 5 minutes, and possibly continuously.
+As an instrument for measuring the ether wind, properties
+of the ether arising from its gas-like nature can be used —
+pressure on objects, viscosity, and other parameters.
 
-Setting Up Ether Wind Research
-Taking into account the methodological features of measuring the
-ether wind velocity listed above made it possible to avoid the
-fundamental methodological errors committed by all researchers
-of the ether wind velocity except Miller.
-The goal of the experiment was to confirm the existence of the
-ether wind in nature and to confirm the possibility of measuring it
-by a non-interferometric method, moreover not of the second but of
-the first order, which makes it possible to increase the effect by 4-5
-orders of magnitude and thereby sharply reduce the requirements
-on the measuring instrument.
-As the location for the experiment, a separate room was chosen
-on the 9th floor of the LSK building (laboratory and test facility) of
-the Branch of LII (later — NIIAO) on the territory of the Flight
-Research Institute in the city of Zhukovsky, Moscow Region.
+Setting up ether wind research
+
+Taking into account the methodological features of measuring
+the ether wind velocity listed above allowed avoiding the
+main methodological errors made by all researchers of the
+ether wind velocity, except Miller.
+The goal of the experiment was to confirm the existence in
+nature of the ether wind and to confirm the possibility of
+measuring it by a non-interferometric method, moreover not of
+the second but of the first order, allowing an increase in the
+effect by 4-5 orders of magnitude and thereby sharply reducing
+the requirements for the measuring instrument.
+As the location for the experiment, a separate room was chosen,
+located on the 9th floor of the LSK building (laboratory-test
+building) of the Branch of LII (later — NIIAO) on the territory
+of the Flight Research Institute in the city of Zhukovsky,
+Moscow Region.
 As the measuring instrument, an ordinary laser (LG-65) was
-chosen, based on the assumption that ether flows, blowing past
-the laser beam, would bend it in the same way that an ordinary
-wind bends a cantilevered beam. The deviation of the beam from
-its neutral position can be detected by photodiodes that register
-the position of the light spot.
-The use of conventional light sources for the stated purpose
-was rejected, since a conventional source produces
+chosen, based on the assumption that ether flows, blowing
+past the laser beam, would bend it similarly to how an ordinary
+wind bends a cantilever-mounted beam. The deviation of the beam
+from its neutral position can be detected using photodiodes
+that record the position of the light spot.
+The use of conventional light sources for the stated
+purpose was rejected, since a conventional source forms
 
 [p45]
-Ether Wind Research                                                                 45
-relatively short photons, which would simply be carried along
-by the ether wind, whereas a laser beam represents a single
-system and is quite analogous to a cantilevered beam;
-consequently, it would bend, and the deviation of the beam
-would be proportional to the square of its length.
+Ether wind research                                                                 45
+relatively short photons, which will be simply carried away
+by the ether wind, whereas a laser beam represents a
+unified system and is quite analogous to a cantilever-mounted
+beam; consequently, it will bend, and the deviation of the beam
+will be proportional to the square of its length.
 
-Fig. 1. Diagram of ether wind velocity measurement using a laser
-beam: 1 — laser; 2 — detector; 3 — photoresistors; 4 — ground glass;
-5 — opaque partition; 6 — vertical beam deflection signal amplifier;
-7 — horizontal beam deflection signal amplifier.
+
+Fig. 1. Schematic of measuring the ether wind velocity using a laser
+beam: 1 — laser; 2 — detector; 3 — photoresistors; 4 — frosted
+glass; 5 — opaque partition; 6 — signal amplifier for vertical
+beam deflection; 7 — signal amplifier for horizontal
+beam deflection.
 The deviation of the laser beam spot from its undisturbed
-position is registered by two pairs of photodiodes or photoresistors
+position is recorded by two pairs of photodiodes or photoresistors
 connected respectively into two bridge electronic circuits. One
-pair of photodiodes (photoresistors) is arranged horizontally and
-registers the deviation of the beam in the horizontal plane; the
-second pair is arranged vertically and registers the deviation of
-the beam in the vertical plane.
+pair of photodiodes (photoresistors) is positioned horizontally and
+records the deviation of the beam in the horizontal plane; the second
+pair is positioned vertically and records the deviation of the beam
+in the vertical plane.
 
 
 ---
@@ -2181,6 +2185,325 @@ Conclusions
 — the proposition of etherodynamics that a flow of ether enters the Earth;
 — the proposition of etherodynamics about the possible force influence of geopathogenic radiation on metallic surfaces, which in some cases may prove to be the cause of accidents and catastrophes of air and sea vessels;
 — the possibility of creating, by means of a metallic Dodonov modulator, a simulation of geopathogenic radiation of the Earth, which
+
+
+---
+
+
+### SOURCE SECTION: Chapter 2.
+
+[p118]
+118                                                                                                       Chapter 2.
+may be used in the future for calibration of measurement
+systems designed for the detection of geopathogenic
+radiation.
+2. The advisability of installing on large moving
+objects instruments capable of detecting and recording the
+entry of these objects into geopathogenic zones for the prevention of
+accidents.
+
+
+2.6. Detection of pathogenic radiation in electromagnetic
+phenomena
+
+V.A. Atsyukovsky
+
+Statement of the problem
+A hypothesis arose that the various effects of
+high-frequency currents on living organisms are not only,
+and perhaps not so much, the result of the influence of high-frequency
+magnetic fields, but rather the result of pathogenic radiation
+accompanying that field. In principle, pathogenic
+radiation may accompany various electromagnetic phenomena,
+which requires verification.
+
+Setup of the experiment
+To determine whether pathogenic radiation is present in a
+high-frequency electromagnetic field, a Rumkorff coil
+with a spark gap was used (Fig. 2.7).
+A Rumkorff coil consists of an iron core on which
+two coils are wound — a primary coil with a relatively
+small number of turns, and a secondary coil with a significantly
+larger number of turns. The primary coil is powered from
+a direct current source, in series with an interrupter
+that breaks the circuit. When the circuit is broken, a self-induction
+e.m.f. arises, and a high-voltage peak appears in the secondary
+circuit, causing a spark in the spark gap connected to the
+
+[p119]
+Studies of geopathogenic field and pathogenic field accompanying
+high-frequency electromagnetic phenomena          119
+secondary winding. The device is widely used in various
+ignition systems, for example, in automobile engines.
+However, the fact that pathogenic radiation is excited in the
+vicinity of a Rumkorff coil has not been known until now.
+
+Conducting the experiment
+The appearance of a pathogenic field above the Rumkorff coil
+with a spark gap was tested using wire frames. The
+operator held the frames above the coil parallel to each other and
+slightly tilted forward. After the coil was switched on, the frames
+remained motionless for some time (about 5–7 seconds), and then
+crossed, remaining in that position for the entire
+time the coil was on.
+
+
+Fig. 2.7. Detection of pathogenic radiation in the vicinity of a Rumkorff
+coil using wire frames.
+
+After the Rumkorff coil was switched off, the frames remained
+motionless and crossed for 10–12 seconds, and then slowly
+moved apart, returning to a parallel position relative to each other.
+
+[p120]
+120                                                                                                       Chapter 2.
+
+Conclusions
+The high-frequency electromagnetic field produced by an operating
+Rumkorff coil with a spark gap is accompanied by the
+appearance of a pathogenic field, which may be the cause of
+certain phenomena attributed to high-frequency
+radiation. The effect obtained requires further
+investigation.
+
+[p121]
+Study of the absorption of carbon dioxide from air by plants   121
+
+
+---
+
+
+﻿### SOURCE SECTION: Chapter 3.
+
+Chapter 3. Study of the absorption of carbon dioxide by plants
+from air
+
+3.1. State of the problem
+
+As is known, in biology there exists a concept that photosynthesis is the formation, by higher plants, algae, and photosynthetic bacteria, of complex organic substances necessary for the vital activity of both the plants themselves and all other organisms, from simple compounds (for example, carbon dioxide and water) by means of light energy absorbed by chlorophyll and other photosynthetic pigments. This is one of the most important biological processes, constantly occurring on our planet on an enormous scale.
+
+As a result of photosynthesis, the vegetation of the globe annually produces more than 100 billion tons of organic matter (about half of this quantity comes from the photosynthesis of seas and oceans), absorbing in the process about 200 billion tons of CO2 and releasing into the external environment about 145 billion tons of free oxygen. It is believed that thanks to photosynthesis, all the oxygen of the atmosphere is produced [1. Nichiporovich A.A. Photosynthesis. Great Soviet Encyclopedia, 3rd ed. Vol. 27, pp. 592-595. Moscow: Great Soviet Encyclopedia, 1977].
+
+Without calling into question the existence in nature of the aforementioned processes, it is nevertheless necessary to doubt that the construction of the bodies of plants, algae, and photosynthetic bacteria proceeds through their assimilation of carbon dioxide from the air, rather than by some other means. The basis for such doubt is the fact of the discrepancy between the percentage of carbon content in the body of plants (on the order of 13% of plant mass) and the carbon content in the air (at 0.03% carbon dioxide content in the air, the share of carbon is no more than 0.01%). Thus, bearing in mind that 1 m3 of air weighs 1 kg, to produce 1 kg of plant mass it would be necessary to expend 1300 m3 of air, on the condition that all the carbon dioxide in the air is assimilated by the plants, which cannot be the case.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p122]
+122                                                                                                     Chapter 3.
+
+As I.N. Galkin calculated [I.N. Galkin. Respiration of Plants.], to provide plants with carbon through the absorption of carbon dioxide from the atmosphere, a wind blowing at a speed of hundreds of thousands of kilometers per second would be needed, which in reality does not exist.
+
+Doubts also arise from the fact that in spring, when water is abundant, sunlight is bright, and there is no wind at all, plant growth is most intensive, so there can be no question of plant growth solely through the assimilation of carbon from the air during this season.
+
+The question arises: by what mechanism could such intensive plant growth occur, if not through carbon contained in the air? For a possible answer to this question, one should turn to the etherodynamic concepts of the structure of the nuclei of carbon, nitrogen, and oxygen atoms.
+
+As is known, the main isotope of carbon is the isotope 12C; its nucleus consists of three alpha particles — the most stable particle, composed of two protons and two neutrons. The nuclei of nitrogen and oxygen atoms each consist of a carbon nucleus with the addition to the carbon nucleus of a proton or deuteron (i.e., a proton and a neutron) in nitrogen, and in the oxygen atom, yet another alpha particle, connected to the carbon nucleus, as are all nucleons, by the forces of the strong nuclear interaction.
+
+Water, which is a necessary condition for plant growth, as is known, contains in its molecule one oxygen atom and two hydrogen atoms, and although the generally accepted formula for water is H2O, considering that both hydrogen atoms are bonded to oxygen and not to each other, it would be more accurate to describe the formula for water as H-O-H. At the basis of plant cellulose lies the molecule H-C-H, which can be chemically transformed into other carbon- and hydrogen-containing molecules. Thus, if it were possible to remove one alpha particle from the oxygen nucleus contained in water, an H-O-H chain would immediately form, suitable as a basis for the building material of plants.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p123]
+Investigation of the absorption of carbon dioxide from air by plants   123
+
+One fact draws attention: plant leaves are green because they absorb the red component of the solar spectrum, i.e., the weakest part of the solar spectrum, although the spectrum also contains stronger green, blue, and violet components. This means that of the entire composition of the solar spectrum, the plant assimilates only that which corresponds to the resonance of internal processes.
+
+Red light corresponds to a wavelength on the order of 700 nm, and a frequency on the order of 4·10¹⁴ Hz, with a period of 2.5·10⁻¹⁴ s.
+
+The field of the strong nuclear interaction establishes an equilibrium position of nucleons at a distance between nucleons on the order of 10⁻¹⁶ m; deviation of a nucleon in any direction creates forces that return the nucleon to this equilibrium position, i.e., the strong nuclear interaction acts as a spring. An alpha particle held by these forces in an equilibrium position has mass. Consequently, this system has a resonant frequency. Calculations have shown that the resonance frequency for this case is on the order of 10³⁸ Hz, which corresponds to a period of 10⁻³⁸ s.
+
+When the alpha particle, which is more weakly bound to the rest than the others, is driven at resonance, and the oscillation amplitude is gradually increased, a moment arrives when the amplitude exceeds the distance at which the repulsive forces of the electrostatic field exceed the attractive forces of the strong nuclear interaction, and the alpha particle flies out of the nucleus, leaving three interacting alpha particles in what is now a carbon nucleus.
+
+This resonance does not necessarily have to be caused by the same excitation frequency. It is quite sufficient if such excitation is caused by pushes — impulses — whose duration does not exceed the half-period of the resonant frequency.
+
+In accordance with the concepts of etherodynamics, the electron shell of an atom is an attached ether vortex of the toroidal type, in which the flow velocities of ether in the inner part near the atomic nucleus are on the order of 10²¹ m/s, and on the outer part on the order of 10¹¹ m/s. Adjacent to the electron shell is
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p124]
+124                                                                                                     Chapter 3.
+
+an attached vortex — the Van der Waals shell, in which the velocity ratio in the inner part is on the order of 10¹¹ m/s, and on the outer part amounts to only tens of meters per second. Throughout the body of the shell, the Van der Waals vortex has a wide spectrum of velocities ranging from tens to many billions of meters per second.
+
+A photon, in accordance with the concepts of etherodynamics, has a structure consisting of many linear ether vortices united into a single system and containing millions of vortices in its composition (according to data from opticians, each photon consists of millions of oscillations [Gadzhiev. Optics]). But the linear vortices forming the photon (see Book 4) have a core in the middle — a narrow part with a diameter on the order of 10⁻¹⁶ m, in which the density is elevated and the velocities many times exceed the speed of light. Having penetrated the upper layers of the attached vortex of the electron shell, the photon transfers to it part of its mass and part of its energy, which deform it and then participate in the motion of the ether flows of this shell, increasing the velocity of motion and reducing their dimensions as they advance toward the inner region due to the increase in flow density near the nucleus. Passing near the nucleus, the excitation through the internucleon gap induces the same excitation in the nucleus, causing oscillations of the alpha particle weakly bound to the rest of the nucleus, which, having swung, after some time moves beyond the internucleon layer and flies out of the nucleus.
+
+Thus, it can be assumed that the main building material for the body of plants is carbon obtained through the transmutation of the oxygen in water. A consequence of this process should be the emission of helium by all growing and, even more so, flowering plants, which is subject to further verification.
+
+It should be noted that verification of this circumstance can be carried out by detecting alpha particles, which, if the hypothesis is correct, should be emitted from the leaves.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p125]
+Investigation of the absorption of carbon dioxide from air by plants   125
+
+Problem Statement
+
+Verification of the proposed assumption that carbon is formed from the oxygen of water with the help of chlorophyll can conveniently be carried out using houseplants, isolating them from air while ensuring the supply of water and light. The plants should be grown on soil as free from impurities as possible, for example, on pure sand.
+
+Experimental Setup
+
+The necessary experiments were performed by I.N. Galkin (in the town of Alekseyevka, Belgorod region) and then by A.V. Shestopalov (Moscow), who arrived at similar conclusions earlier and independently of each other and of the author of this book.
+
+The experimental methodology developed by I.N. Galkin consisted of isolating various houseplants from external air with a transparent film, and in some cases introducing bottled nitrogen or an inert gas under the film. A.V. Shestopalov placed plants in glass vessels. Plant growth was evaluated over the course of several months. It was found that isolating the plants from external air had no effect whatsoever on their growth.
+
+Below are the articles by I.N. Galkin and A.V. Shestopalov, which describe the experiments they conducted, proving that plant growth is not carried out through carbon dioxide contained in the air. The text is presented in the authors' (I.N. Galkin's and A.V. Shestopalov's) own wording, apart from editorial corrections.
+
+3.2. Photosynthesis: Experiments Do Not Confirm the Existence of Aerial Nutrition and Respiration of Plants
+
+I.N. Galkin
+
+As is known, it has long been established in science that the carbon incorporated into the building material of plants is obtained by plants
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p126]
+126                                                                                                     Chapter 3.
+
+from the air, by assimilating carbon dioxide from the atmosphere. However, experiments specially conducted to verify this proposition did not confirm the existence of aerial nutrition and respiration of plants.
+
+Nutrition and respiration are vital necessities. Without respiration, animals die almost immediately, and without nutrition they die after a few days or begin to devour each other. In the plant world, the vital need for water is known: if the roots of a plant are completely stripped, the death of the plant is inevitable. But nothing is known about the death of plants from carbon starvation or from suffocation. Not a single experiment confirming the death of a plant in the absence of carbon dioxide or oxygen has been published in the scientific and educational literature. The entire history of writing, starting from cave paintings, has not recorded a single such case. The terms "carbon starvation of plants" and "oxygen starvation of plants" do not exist in the science of plants, in practical horticulture, or in everyday life.
+
+Regarding the isolation of plants from the atmosphere, the following should be noted specifically. Plants have no organs of movement or respiration. The only way to receive new portions of carbon dioxide and oxygen is wind. Let us calculate the necessary wind speed. Per one square meter of leaf area, a plant accumulates 1–2 grams of dry matter per hour, which consists of 45% carbon. That is, per hour the plant accumulates 0.45–0.9 grams of carbon for each square meter of leaves. A cubic meter of air at the Earth's surface weighs 1290 grams. The air contains 0.03–0.04% carbon dioxide; converted to carbon, this is 0.01%. Consequently, one cubic meter of air contains 0.129 grams of carbon, and the plant must draw carbon from no less than three cubic meters of air for its normal development. A plant cannot inhale air. Could it be that the plant is capable of assimilating carbon dioxide through external contact by some method not yet known to us? Let us mentally slice three cubic meters of air into plates one molecule of carbon dioxide thick; we obtain three billion
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p127]
+Investigation of the absorption of carbon dioxide from air by plants   127
+
+nanometer-thick plates. Let us "slide" them over the course of an hour across the surface of one square meter of leaves. Three billion meters per hour. That is, the necessary wind speed equals three million kilometers per hour! An unreal wind — and even this is on the condition of 100% assimilation of carbon dioxide, which never happens. All plants on the planet are isolated from atmospheric carbon, because there is none there — only pitiful traces.
+
+In connection with the doubts that arose regarding the correctness of the official theory of photosynthesis — that plants grow through the absorption of carbon from the air — I set up several experiments to verify this proposition. The experiments were conducted on houseplants:
+
+- geranium (pelargonium);
+- aloe;
+- kalanchoe;
+- cactus "Sea Urchin" (astrophytum asterias);
+- dwarf hot pepper;
+- dwarf cherry tomatoes;
+- indoor bindweed (convolvulus);
+- gatsaniya;
+- ordinary tomatoes and cucumbers.
+
+Experiment 1. According to the modern theory of photosynthesis, a plant breathes air, assimilating carbon dioxide from the air (its content amounts to only 0.03%), and deprived of air it should perish.
+
+In the experiments of this series, the leaf portions of plants — and some plants in their entirety — were carefully isolated with transparent film or glass, or placed in jars, test tubes, flasks, and dry aquariums with a 100% guarantee of preventing the ingress of fresh air. Instead of perishing, the experimental plants either began to grow and bear fruit better than the control plants left under normal conditions, or showed no reaction to the change in conditions. There were no cases of plant death
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p128]
+128                                                                                                     Chapter 3.
+
+at all. The duration of each experiment was no less than three months.
+
+The experiments on plant isolation used ordinary houseplants of tropical origin found in every home. To investigate the effect of isolating plants from the atmosphere on fruiting, a dwarf tomato variety "Malyutka" and hot pepper variety "Ogonёk" were used. The experiments always involved healthy, well-formed plants with a good root system. The experimental plants were placed on windowsills, on a balcony, at a dacha in a greenhouse, and in open ground. Next to each isolated plant, an identical but non-isolated control plant was always placed. For the experiments, intact transparent cellophane or polyethylene bags were used, into which the pot with the plant or the leaf portion of the plant was placed. Plastic beverage bottles are very convenient for experiments. Some soil is placed in a bottle (0.3 liters or more), seeds of any desired plant are put inside (cucumbers, tomatoes, potato sprouts, acorns, birch and maple seeds, flower seeds), the bottle is laid on its side, a small amount of water is added for irrigation, the cap is tightly screwed on, and the bottle is placed in the light but in such a way that it does not overheat. All of this is very visual and convincing. I always recommend performing this experiment on forums. Skeptics stop doubting after doing it.
+
+Glassware used included jars from 0.3 to 10 liters and aquariums closed at the top with glass. For experiments on growing plants from tissue culture cells, ordinary test tubes and small flasks were used. Tissue culture is always grown in tightly closed, transparent vessels of small volume, otherwise drying and death occur. Knowledgeable people — breeders and businesspeople — all over the Earth daily place tissue culture cells into test tubes and observe the results of millions of acts of isolating the plants grown from these cells from atmospheric carbon and oxygen. And they see nothing — no effect of atmospheric carbon on plant growth!
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p129]
+Investigation of the absorption of carbon dioxide from air by plants   129
+
+Experiment 2. It is known that improved nutrition increases the growth and fruiting of plants and animals. For this purpose, a transparent bag was placed over the leaf portion of a plant, tied at the stem, and carbon dioxide was supplied into the bag from a cylinder. According to the official version, this improved the plant's nutrition. The gas was supplied at varying intensities. However, the plant did not improve its growth and fruiting but deteriorated. Then, without stopping the supply of carbon dioxide, oxygen from an oxygen cylinder was also fed into the bag with the plant. Thus, ideal conditions for nutrition and respiration were created. However, the plant not only failed to improve its growth and fruiting but deteriorated further, possibly due to the formation of an acidic environment. The duration of each experiment was also no less than three months.
+
+Experiment 3. As is known, plants release both oxygen and carbon dioxide. To eliminate any doubt about whether plants use or do not use their own waste gases, an experiment was conducted with blowing nitrogen and argon through the plants.
+
+Nitrogen was supplied from below into a bag placed over the leaf portion of a plant, exiting to the atmosphere through an opening at the top. The same experiment was conducted using argon. In both cases, the plants did not die and showed no reaction to the change in living conditions.
+
+The experiments used vegetable plants intended for protected cultivation, as well as dwarf varieties of tomatoes and peppers. Plants of tropical origin were also used. The duration of each experiment was 4 months. Twenty experiments were conducted on five polyethylene sleeves. Next to each experimental plant in nitrogen, an identical control plant grew without film in the open air.
+
+In all experiments, the plants under film in nitrogen developed and bore fruit no worse than, or better than, the control plants without film in the air. This was expressed in the fact that upon weighing at the end of the experiment, it turned out that the plants in nitrogen had accumulated
+
+[p130]
+130                                                                                                     Chapter 3.
+
+more biomass over the same period of time and yielded a larger harvest than the control plants.
+
+Experiments on growing plants in nitrogen are simple and can be reproduced by anyone.
+
+Fig. 1. Setup for growing a plant in nitrogen (illustration)
+
+Experiment 4. To measure the pressure in plant leaves, an experiment was conducted with hermetic isolation of plants from the atmosphere.
+
+A glass carboy with an airtight lid was taken, mineral soil was placed inside, and a small bottle with nutrient solution and a watering device was placed within. A plant was planted in the carboy (in a separate experiment, seeds were planted).
+
+A barometer and a thermometer were also placed inside the carboy. Then several disinfection procedures were carried out, and to prevent rotting inside the carboy, it was purged with nitrogen, after which it was hermetically sealed with a tin
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p131]
+Investigation of the absorption of carbon dioxide from air by plants   131
+
+lid. An identical sealed carboy without a plant was placed nearby.
+
+The pressure inside the carboy with the plant gradually rose to a level significantly above atmospheric (up to 1000 mmHg), the proportions of the plant began to change, growth accelerated, and fruiting increased.
+
+Thus it was proven that air cannot enter the interior of leaves, since the pressure inside the leaves exceeds atmospheric pressure.
+
+Seeds contain little organic matter. When the plants grew and bore fruit, the amount of organic matter became substantial. The organic matter multiplied. That is, in plant leaves, the multiplication of organic matter occurs on water during daylight hours — this is an indisputable fact. There is no synthesis in plant leaves.
+
+All experiments used control plants kept under normal conditions. The duration of each experiment was no less than three months. In the last experiment, disinfection had to be carried out especially carefully, since in an oxygen-free environment the plants were susceptible to disease.
+
+Conclusions
+
+From the above it follows that, contrary to the official theory, in reality plants take nothing from the air. But when seeds, which contain little organic matter, germinate and the plants bear fruit, organic matter multiplies. This is possible only from water and only during daylight hours. There is no synthesis in the form in which modern plant science presents it; the question of how carbon is formed from water should be investigated separately.
+
+It should be noted that the results of the conducted experiments are confirmed by all of agricultural practice — scientists, agronomists, and ordinary people confidently isolate plants from the atmosphere, in greenhouses in particular, knowing that for plants this will only be better.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p132]
+132                                                                                                     Chapter 3.
+
+3.3. Verification of the Version That No Absorption of Carbon Dioxide Occurs During Photosynthesis
+
+A.V. Shestopalov
+
+Problem Statement
+
+The idea of aerial nutrition of plants was first expressed in 1753 by M.V. Lomonosov, who noted that lush trees growing on nutrient-poor sand cannot obtain through their roots the necessary quantity of nutrients, and concluded that plants receive nutrition through their leaves from the air [1].
+
+All subsequent research only confirmed and developed this thesis. It gradually became clear that plants in the light assimilate carbon dioxide from the air, release oxygen, and as a result form organic substances, storing in them the energy of sunlight. In the second half of the 19th century, K.A. Timiryazev showed that the energy of sunlight is introduced into the chain of photosynthetic transformations through the green pigment of plants — chlorophyll: the action spectrum of photosynthesis corresponds to the light absorption spectrum of chlorophyll, and the intensity of photosynthesis increases with increasing light intensity. Hence, modern textbooks prescribe that plants form carbohydrates from carbon dioxide and water. In this case, the role of light is assumed to be minor (short-lived light chemical reactions and prolonged dark reactions). Dark reactions were discovered in 1905 and proven in 1937. In 1931, the concept of photosynthesis as an oxidation-reduction process was established, in which the reduction of CO2 is carried out simultaneously with the oxidation of a hydrogen donor. In 1941, A.P. Vinogradov et al. established that the source of oxygen released during photosynthesis in higher plants and algae is water, not CO2, as had been previously believed. From the mid-20th century, the study of photosynthesis was advanced by the development of new research methods
 
 
 ---
