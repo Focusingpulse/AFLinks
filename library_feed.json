@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T21:01:57Z",
+  "generated_at": "2026-08-30T00:03:55Z",
   "library": {
     "researchers": 938,
     "patents": 2339,
@@ -7,7 +7,7 @@
     "meta_categories": 24,
     "aflinks_docs": 10882,
     "translations": 49,
-    "pages_translated": 462,
+    "pages_translated": 463,
     "declassified_finds": 16,
     "active_agents": 14,
     "archive_entries": 11352,
@@ -1009,9 +1009,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-08-29T15:03:54Z",
+      "last_run": "2026-08-29T21:02:12Z",
       "last_status": "ok",
-      "last_summary": "+0 docs since last run (still 10882) | rebuilt 4 legacy files from live index (cron test)"
+      "last_summary": "sync: 11352 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -1103,6 +1103,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-08-29",
+      "time": "21:02",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+11352 docs — +11352 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-08-29",
       "time": "20:06",
@@ -1470,7 +1476,7 @@
     {
       "volume": "5",
       "title": "Book 5 — Full English Translation (in progress)",
-      "progress_done": 92,
+      "progress_done": 93,
       "progress_total": 220,
       "assembled": "sources/atsyukovsky/Book5_full_translation.md"
     }
