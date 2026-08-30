@@ -3005,3 +3005,415 @@ load resistance was necessary to remove capacitive
 
 ---
 
+
+### SOURCE SECTION: Chapter 5.
+
+[p151]
+Experiments in the Field of Electromagnetic Phenomena                   151
+component of the interference, which could not be fully achieved.
+Then the conductors were swapped according to the circuit.
+A current of 3 A was passed, frequencies from 500 to 4000 Hz were used, all measurements were made using magnetoelectric instruments with thermocouples. The measurement results are summarized in Tables 1.1 and 1.2.
+
+EMF on the secondary wire with current in the primary wire of 3 A,
+conductor length 1.7 m
+Table 1.1
+Frequency, Hz
+Diameter of
+primary
+wire, mm
+Diameter of
+secondary
+wire, mm
+500
+1000
+2000
+3000
+4000
+0.5
+6.5
+10 mV
+19
+44
+83
+122
+6.5
+0.5
+15
+32
+64
+99
+125
+K2tr/k1tr
+1.5
+1.68
+1.45
+1.08
+1.025
+
+
+Recalculation of EMF on the secondary wire with current in the primary
+wire of 1 A, conductor length 1 m.
+Table 1.2
+Frequency, Hz
+Diameter of
+primary
+wire, mm
+Diameter of
+secondary
+wire, mm
+500
+1000
+2000
+3000
+4000
+0.5
+6.5
+2 mV
+3.8
+8.8
+16.6
+24.4
+6.5
+0.5
+3
+6.4
+12.8
+19.8
+25
+k2tr/k1tr
+1.5
+1.68
+1.45
+1.08
+1.025
+
+As can be seen from the tables, the mutual inductance coefficient of conductors actually depends on which of them is primary and which is secondary. For 1000 Hz, the calculated value of EMF induced from the primary conductor of smaller diameter to the secondary conductor of larger diameter with simple proportionality should be only 0.09 mV, and when the conductors are swapped – 1.16 mV. And although the ratios obtained are different, which can be explained, for example, by the fact that with such proximity of conductors one can no longer consider the entire current concentrated in their axial lines,
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p152]
+152                                                                                                      Chapter 4.
+as well as the presence of capacitive (electrodynamic) coupling between
+conductors, the dependence of the mutual inductance coefficient on
+the ratio of wire diameters can be considered confirmed at a qualitative level.
+Thus, the possibility and expediency of introducing into electrical engineering the concept of mutual inductance of conductors is experimentally confirmed, on the basis of which one can already determine the mutual inductance of circuits by performing the corresponding integration.
+When considering the relationship not between circuits, as follows from Maxwell's equations and Faraday's law, but between wires, one should distinguish between electrodynamic interference and electromagnetic interference. The first is related to the change in the magnitude of electrical voltage in the primary power wire; it exists even when the current in the primary wire is negligibly small; the second is related to the change in the magnitude of electric current in the primary wire; it exists even when the voltage in the primary wire is negligibly small.
+Electrodynamic interference penetrates due to the propagation around the power wire of the electric field (electric induction) through mutual capacitance (Fig. 1.4); electromagnetic interference penetrates due to the propagation around the power wire of the magnetic field (magnetic induction) through mutual inductance (Fig. 1.5). Accordingly, the measures to combat them are different.
+In a first approximation, the value of the induced electrodynamic interference is determined by the expression:
+
+           C1             zн                                          L
+Uп = ————·————; zв =      ——   ;                             (1.8)
+        С +С1      zн +  zв                      C
+
+
+where zв – wave impedance of the communication line.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p153]
+Experiments in the Field of Electromagnetic Phenomena                   153
+
+
+Fig. 1.4. Equivalent circuit of electrodynamic coupling of circuits: U1 –
+voltage in the primary circuit; U2 – voltage of the useful signal; Uп – voltage
+of interference in the secondary circuit; Сi, Gi – mutual specific distributed
+capacitance and conductance of the primary and secondary circuits; L, R, С. G –
+specific distributed inductance, resistance, capacitance and conductance
+of the secondary circuit, Е0 – useful signal, zi – internal resistance
+of the source of the useful signal; , zн – load resistance
+
+This expression is valid only for unshielded wires. If the information wires are shielded and the shields are grounded at both ends in all circuit breaks, for example, in connectors or junction blocks, then the interference is diverted to ground provided, however, that the inductive resistance of the grounding can be neglected. It should not be forgotten that the inductance of one meter of wire averages from 0.5 to 2 µH/m. Since the pulse voltage during switching of the primary circuit can reach hundreds of volts with pulse durations from fractions to tens of microseconds, it is advisable to make information wires, especially those lying in bundles shared with power wires, shielded, while paying attention to the quality of shield grounding. It should also be noted that other wires located in the same bundles do not shield the interference, but on the contrary, contribute to its penetration.
+
+[p154]
+154                                                                                                      Chapter 4.
+Penetration of electromagnetic interference from the power wire into information wires is carried out through mutual inductance (Fig. 4.5).
+
+
+Fig. 1.5. Equivalent circuit of electromagnetic coupling of circuits: М – coefficient of mutual inductance; i1 – current in the primary circuit; Uп – voltage of interference in the secondary circuit; L, R – specific distributed inductance and resistance of the secondary circuit; С, G, capacitance and conductance of losses of the secondary circuit; Е0 – useful signal; zi– internal resistance of the source of the useful signal;  zн - load resistance
+
+The electromagnetic interference voltage is determined by the expression:
+
+              дi1
+Uп = М ——,                                                                         (1.9)
+              дt
+
+where М – coefficient of mutual induction of the power wire creating interference and the information wire receiving it. For sinusoidal current
+
+Uп = kмf i1l;  kм = 2πМ, V·s·A–1·m–1.                                      (1.10)
+
+The measured values of the coupling coefficient kм for a number of aviation onboard wires are:
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p155]
+Experiments in the Field of Electromagnetic Phenomena                   155
+– for wires of type BPVL with cross-section from 0.35 to 1 mm2  kм =
+(5.65 ÷ 5.25) ·10–6 V·s·A–1·m–1;
+– for a pair of wires of type BPVL-BPVLE of the same cross-sections kм =
+(4.5 ÷ 4) ·10–6 V·s·A–1·m–1;
+– for a pair of wires of type BPVLE of the same cross-sections  kм = (3.8 ÷
+3.5) ·10–6 V·s·A–1·m–1.
+For wires of other cross-sections, the value of kм can be
+determined from the expression
+
+            7·10–6                                                     D1 + D2
+  kм = ———— V·s·A–1·m–1;     d = ————.                     (1.11)
+               d                                           4
+
+where d, cm – distance between the axes of the power and information wires, D1 and D2 – their outer diameters, including insulation.
+
+
+Fig. 1.6. Results of experimental determination of the relationship
+of wires of type BPVL and BPVLE of various cross-sections (wire cross-sections are given
+in mm2)
+
+[p156]
+156                                                                                                      Chapter 4.
+In Fig. 1.6, the measured values of interference voltage arising on the secondary wire at various frequencies of current in the primary wire are given.
+Thus, at a frequency of 400 Hz, a wire length of 20 m, and a cross-section of shielded wires BPVLE of 0.35 mm2, the value of the induced interference will be 30.3 mV, which for sine-cosine transformers will give an additional measurement error of the shaft rotation angle of 12 arc minutes, which is significantly greater than the converter's own error. For the same conditions, but with pulse interference and an equivalent frequency of 1 MHz, the value of the induced interference in unshielded wires will be about 600-800 V, in shielded wires significantly less, only a few volts, but also sufficient to disrupt the transmitted digital information.
+There is a mistaken opinion that interference can be reduced by loading the secondary wire with a relatively low resistance, but this is not the case. In Fig. 1.7, the dependencies of interference voltage change on the load value on the secondary wire are given.
+
+
+Fig. 1.7. Dependence of voltage on the secondary conductor during electromagnetic coupling between shielded wires of type BPVL-0.5 on frequency at different loads (experimental data)
+
+[p157]
+Experiments in the Field of Electromagnetic Phenomena                   157
+As can be seen, the interference value practically does not depend on the load down to units of Ohms. It is impossible to get rid of interference in this way.
+Practically the only way to get rid of electromagnetic interference and remnants of electrodynamic interference is to transmit and receive information in a differential manner (Figs. 1.8, 1.9).
+
+
+Fig. 1.8. Interaction of electromagnetic interference with a bifilar wire: 1 – source of interference; 2 – signal source; 3 – communication line; 4 – differential receiver
+
+
+Fig. 1.9. Separation of useful signal from interference in a differential signal receiver using RZ-code ("return to zero")
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p158]
+158                                                                                                      Chapter 4.
+Transmission of digital and analog information is performed by a twisted pair of wires placed in a common shield grounded in all break points. Twist pitch – 2-3 cm, twisting is necessary for balancing the induced interference. Existing output formers provide pulse amplitude of 5 ± 0.5 V, permissible load resistance of 400 Ohms, receiver input resistance of at least 40 kOhm, i.e. one former provides up to one hundred receivers. There is no galvanic isolation of receivers here, and it is not required.
+This takes into account the circumstance that the throughput of such a bifilar communication line, not matched with the load (not having low-impedance matching resistors at the ends), with a trapezoidal pulse shape using wires of any cross-section is about 50 Mbit·m/s. With an average wire length of 10 m (on heavy aircraft), the throughput of the bifilar communication line is 5 Mbit/s, while the information content of the entire set of signals of the flight-navigation complex is no more than 1 Kbit/s. This allows sequential transmission of sequential codes using relatively low transmission frequencies from the series 12.5; 50; 100; 250; 500; 1000 Kbit/s. The preferred frequency is 100 Kbit/s, which is proposed to be fixed as the main one in advanced aircraft. Transmission is performed using the so-called RZ-code ("return to zero"), in which each bit ("1" or "0") is represented by a separate pulse of positive or negative polarity, respectively, with a pause between pulses. Transmission and reception of pulses is performed in a differential manner, which eliminates the influence of interference on the quality of received information.
+Information is transmitted cyclically with a frequency determined by the dynamics of the transmitted parameters; at the receiver input, information is monitored by a number of signs (cyclicity check of receipt, check by the number of ones in a word, etc.). Transmission of any viruses via such communication from one system to another is fundamentally impossible.
+Of course, this does not apply to individual communication lines in which large arrays of information are transmitted, but usually there are few such communication lines, and they require a different approach.
+With respect to aviation onboard equipment, this method of information transmission, which provided it with high noise immunity, was developed in the USSR [1-4] and since then has found wide application worldwide [5]. Both during bench tests [4] and during the entire time (more than 20 years) of operation of aviation with onboard digital equipment, not a single information failure was recorded. The cited literature [6] provides all the technical details necessary for implementing this communication method.
+It can be hoped that the described method of information transmission, which has proven itself so well in aviation, may prove useful in other information-measurement and control equipment complexes used in energy, industrial, and transport facilities.
+When testing communication lines for noise immunity, a simple method can be used of wrapping the communication line being tested with a wire carrying reference interference, while the return wire can be at an arbitrary distance, as not affecting the results. This would be impossible to do on the basis of Faraday's and Maxwell's laws, according to which the induced interference directly depends on the circuit area, i.e., on the location of the return wire.
+
+References
+1. Atsyukovsky V.A. Construction of communication systems for onboard equipment complexes of aircraft. M.: Mashinostroenie, 1976.
+2. GOST 18977-79(73). Complexes of onboard equipment of airplanes and helicopters. Types of functional communications. Types and levels of electrical signals.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p159]
+Experiments in the Field of Electromagnetic Phenomena                   159
+in a word, etc.). Transmission of any viruses via such communication from
+one system to another is fundamentally impossible.
+Of course, this does not apply to individual communication lines in which
+large arrays of information are transmitted, but usually
+there are few such communication lines, and they require a different approach.
+With respect to aviation onboard equipment
+this method of information transmission, which provided it with high
+noise immunity, was developed in the USSR [1-4] and since then
+has found wide application worldwide [5]. Both during tests
+on stands [4] and during the entire time (more than 20 years) of operation
+of aviation with onboard digital equipment, not a single
+information failure was recorded. In the cited literature [6]
+all the technical details necessary for implementing this
+communication method are provided.
+It can be hoped that the described method of information transmission, which has proven itself so well in aviation, may
+prove useful in other information-measurement and
+control equipment complexes used in energy,
+industrial, and transport facilities.
+When testing communication lines for noise immunity, a simple method can be used of wrapping the tested communication line with a wire carrying reference interference, and the return wire can be at an arbitrary distance, as not
+affecting the results. This would be impossible to do based
+on Faraday's and Maxwell's laws, in accordance with which
+the induced interference directly depends on the area of the
+circuit, i.e., on the location of the return wire.
+
+References
+1. Atsyukovsky V.A. Construction of communication systems for complexes
+of onboard equipment of aircraft. M.: Mashinostroenie, 1976.
+2. GOST 18977-79(73). Complexes of onboard equipment
+of airplanes and helicopters. Types of functional communications. Types and
+levels of electrical signals.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p160]
+160                                                                                                      Chapter 4.
+3. RTM 1495-75AT. Guiding technical material
+of aviation technology. Information exchange by bipolar code
+in aircraft equipment. M.: NIISU, 1975.
+4. GOST 26807-86. Onboard digital equipment of airplanes
+and helicopters. Methods of bench tests for operability
+under conditions of electromagnetic influences. M.: Publishing House
+of Standards, 1986
+5. ARINC-429. MARK 33. Digital Information Transfer System
+– DITS. AEEC. 1977.
+6. Atsyukovsky V.A. Fundamentals of organization of digital
+communication systems in complex information-measurement
+complexes. M.: Energoatomizdat, 2001.
+
+
+5.2. Verification of the Total Current Law
+
+
+Statement of the Problem
+As is known, the power of any power device – an engine
+or generator – is determined by the energy stored in the
+air gap of the stator part. Everywhere, in both engines and
+generators, a magnetic field is used rather than an electric field.
+This is related to the fact that in a magnetic field one can achieve
+significantly greater energy storage than in an electric field, in addition,
+working with a magnetic field is incomparably safer
+than with an electric field.
+Indeed, the energy of an electric field placed in a gap
+of millimeter thickness, with an area of 1 m2, and a maximum
+permissible electric field strength E = 1 kV/mm
+(after which breakdown of the air gap begins) is
+
+          εo E2        8.85·10–12·106
+we = ——— =  —————— = 4.43·10–6J/m·mm.          (2.1)
+             2                  2
+
+[p161]
+Experiments in the Field of Electromagnetic Phenomena                   161
+And for a magnetic field at a quite moderate density
+of H = 10 A/m and a magnetic core with relative magnetic
+permeability of µ = 400, the energy in the same gap is:
+
+          µ·µo·Н2    400·1.25·10–6·102
+we = ——— =  ———————— = 2.5·10–2J/m·mm;    (2.2)
+             2                  2
+or 5.6·103 times greater and at the same time no dangers arise.
+However, in this case one should be convinced that the magnetic
+field strength is calculated correctly.
+To verify the latter circumstance, a corresponding experiment was conducted.
+
+Formulation of the Problem
+As is known, the Total Current Law
+
+i =  ∫ Hdl,  H = i/2πr,                                                                (2.3)
+
+expresses the relationship between the magnitude of current i, A, flowing
+in a conductor, and the magnetic field strength H, A/m, created
+by it at a distance r, m, from the conductor axis. As can be seen,
+here there is a hyperbolic law of decrease of magnetic
+field strength with increasing distance. The strengths
+of the same magnetic field at different distances from the
+conductor axis will relate as
+
+  Н1         r2
+—— = —— .                                                                           (2.4)
+  Н2         r1
+
+Due to the absence of experimental verification of the validity
+of this Law in the literature, as well as due to the
+assumption of inaccuracy of the formula expression due to
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p162]
+162                                                                                                      Chapter 4.
+to the compressibility of the ether and, consequently, the compressibility of the magnetic field, which is not accounted for by the total current law, there arose a need to conduct an appropriate experiment.
+
+Setting Up the Experiment
+The experiment is set up according to the scheme of experiment 1.3; the circuit parameters and frequencies are the same, but the experiment is conducted at different current values and at different distances d between the nearest conductors of the circuits.
+Due to the fact that the EMF induced on the secondary circuit is proportional to the change of the magnetic field, and also due to the fact that in expression 2.4 the ratio H1/H2 can be replaced by the ratio e1/e2, then
+
+  Н1         е1         r2
+—— = —— = ——.                                                                (2.5)
+ Н2           е2         r1
+
+The distant conductors of the circuits are moved to a distance at which their influence does not have a noticeable effect on the measurement results (a distance of 0.5-1 m is sufficient). Then, within 2-20 mm, the distance d between the nearest conductors of the circuits is changed. Current values in the primary conductor are set to 0.1; 1.0 and 10 A at all frequencies used for measurements (a signal generator with a step-down transformer at the output is used).
+The expected dependence is shown in Fig. 2.1 (lower curve).
+
+
+Experiment Result
+The experiment result showed that the expected dependence according to the total current law is fulfilled only at small currents and, accordingly, small magnetic field strengths; at currents already starting from 0.1 A, these differences are significant, and at currents of 1 or more amperes they differ from the calculated value by 2 or more
+
+[p163]
+Experiments in the Field of Electromagnetic Phenomena                   163
+times. And this means that corresponding corrections must be introduced into all calculations of power magnetic fields.
+
+
+
+Fig. 2.1. Experimental studies of the total current law:
+a – mechanical analogy – change in the flow velocity of a compressible fluid set in motion by a paddle wheel; b – change in magnetic field strength depending on distance from the conductor axis; 1 – theoretical curve calculated from the condition of constant circulation of the magnetic field; 2 – experimental results at current I = 1 A;   3 – experimental results at current I = 10 A. Measurements were performed at frequencies of 50, 400, and 1000 Hz
+
+Conclusions
+Experimental verification of the total current law showed that it is necessary to introduce into electrodynamics an additional parameter – the degree of compression of the magnetic field – and that it is necessary to correspondingly clarify the dependencies in which the magnetic field strength or magnetic induction appears in one way or another.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p164]
+164                                                                                                      Chapter 4.
+5.3. Transfer of Energy Between Windings in a Transformer
+
+
+Statement of the Problem
+The mechanism of energy transfer from the primary winding to the secondary in transformers with an iron core is not described sufficiently clearly. In it, the reasons why a decrease in load resistance in the secondary winding of a transformer causes an increase in current in its primary winding are not sufficiently clear. The usual explanation is that the compensation of the magnetic field created by the current of the primary winding by the magnetic field created by the current of the secondary winding produces such an effect. However, in that case the inductance of the primary winding should decrease and the reactive component of the primary winding current should increase, rather than the active component, as actually happens.
+Since energy transfer can occur only through the magnetic field created by the current flowing in the primary winding, the assumption arose that the phenomenon occurs due to the fact that the gradient of the magnetic field strength changes with an increase in current in the secondary winding, and this leads to an increase in current in the primary winding. Since the magnetic field should weaken with distance from the primary winding, the transformation ratio should depend on the mutual arrangement of the turns of the primary and secondary windings, actually independently of the value of the magnetic permeability of the core.
+
+
+Setting Up the First Experiment
+The diagram of the first experiment is shown in Fig. 3.1.
+It is assumed that the EMF in the secondary circuit is induced not through the core, but by the magnetic field propagating inside the core window. Since with increasing distance from the primary winding the magnetic field strength will decrease, there will be a gradient of magnetic field strength in the window space. This gradient will increase as energy is consumed by the magnetic field of the secondary winding, which can be detected by the appearance of EMF on the measuring winding. This EMF should be proportional to the current value in the secondary winding.
+
+
+
+Fig. 3.1. Change in the gradient of magnetic field strength in a transformer with a change in load on the secondary winding: a – diagram of placement of windings in the experiment; b – electrical diagram of the experiment; c – change in EMF on the measuring winding when the load on the secondary winding changes; d – equivalent mechanical diagram of energy transfer in a gas pipeline; I – position of the elastic wall at low pressure; II – position of the elastic wall at high pressure; d – pressure diagram in the gas pipeline; e – velocity diagram in the gas pipeline
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p166]
+166                                                                                                      Chapter 4.
+Thus, it is necessary to install three windings on the transformer core – primary and secondary, spaced as far apart from each other as possible, and a third – measuring winding consisting of two identical halves connected in opposition to each other; the measuring winding is connected to a measuring voltmeter.
+
+Conducting the Experiment
+On the transformer core made of transformer iron Sh-40, primary and secondary multilayer windings of 100 turns each, 5 mm wide, are mounted. The windings are installed at the edges of the center core. Between them is located a third winding consisting of two adjacent turns connected in opposition to each other. This winding is the measuring winding. The secondary winding is loaded with a variable resistor; an ammeter for measuring current is included in its circuit. The measuring winding is connected to a millivoltmeter.
+As expected, when the load resistance in the secondary circuit decreases and the corresponding current in that circuit increases, the voltage on the measuring winding grows proportionally to the current value, which confirms the expressed assumption that energy transfer from the primary winding to the secondary occurs not through the core, but through a change in the gradient of the magnetic field strength created by the current flowing in the primary winding.
+
+Conclusions
+The conducted experiment allows for a better understanding of the physics of the energy transfer process using the magnetic field created by current, and allows one to propose that, due to the decrease in magnetic field strength with increasing distance from the primary winding, the transformation ratio will depend on the mutual arrangement of the primary and secondary windings.
+
+
+---
+

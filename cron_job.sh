@@ -70,6 +70,11 @@ echo "$OUT" | tail -25
 ENTRIES=$(python3 -c "import json;d=json.load(open('index.json'));print(len(d))" 2>/dev/null || echo "?")
 SUMMARY=$(echo "$OUT" | grep -E "Processing|Total entries|Progress|New:|Existing:" | tail -4 | tr '\n' ' ' | cut -c1-280)
 
+echo "[3a/5] Merge processed progress into index.json (timeout-safe)"
+# Standalone merge: even if the 280s queue run was killed mid-batch, whatever
+# entries were saved to *_progress.json still land in index.json.
+python3 merge_all_progress.py 2>&1 | tail -4
+
 echo "[3b/5] Rebuild Living Library feed from growing DB"
 # Pull the living-library shared repo so the feed reflects the latest translations/finds
 LL="$MEMORY_DIR/../living-library"
