@@ -1,19 +1,18 @@
----
-date: 2026-08-29
-title: "Analyse des schémas de brevets de TESLA sur l'énergie radiante / Analysis of TESLA's Patent Schematics on Radiant Energy"
-domain: tesla
-source_url: https://www.chercheursduvrai.fr/accueil/energie-libre/brevets-tesla/
-language: fr
-author: Peter A. Lindemann
-publication: Chercheurs Du Vrai
-translator: Forge (translation cron)
----
+Chercheurs Du Vrai
 
-# Analyse des schémas de brevets de TESLA sur l'énergie radiante
+Search
 
-*Information compilée à partir du livre et du DVD de l'auteur : Peter A. Lindemann. Livre de 2000 : "The Free Energy Secrets of Cold Electricity" et son DVD de conférence du 30 juin 2006 "Tesla's radiant energy".*
+Search:
 
-## Compilation et traduction des données
+Analysis of TESLA's Patent Schematics on Radiant Energy
+
+Number of unique visits: 28,290
+
+Analysis of TESLA's Patent Schematics on Radiant Energy
+
+Information compiled from the author's book and DVD:
+Peter A. Lindemann
+2000 book: "The Free Energy Secrets of Cold Electricity"
 and his lecture DVD of June 30, 2006 "Tesla's radiant energy"
 
 Compilation and translation of data
@@ -396,6 +395,23 @@ Tesla always referenced his energy reception systems with at least two points, a
 
 To your soldering irons!!!
 
-*Source: Peter A. Lindemann, "The Free Energy Secrets of Cold Electricity" (2000) et DVD de conférence (2006). Compilation et traduction française via Chercheurs Du Vrai.*
+Everything outside the conventional
+
+Search:
+
+Recent posts
+
+Ummites: update
+December 27, 2017
+
+New page on antigravity propulsion
+September 9, 2017
+
+New page on extraterrestrial contactees
+July 16, 2015
+
+Privacy policy and cookie policy
+
 
 ---
+

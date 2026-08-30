@@ -2508,3 +2508,500 @@ All subsequent research only confirmed and developed this thesis. It gradually b
 
 ---
 
+
+﻿### SOURCE SECTION: Chapter 3.
+
+[p133]
+Investigation of the absorption of carbon dioxide by plants from air   133
+(gas analysis, isotope methods, spectroscopy, electron microscopy, etc.), which made it possible to develop concepts about the subtle mechanisms of chlorophyll's participation in photosynthesis [2].
+In the same review on plant physiology, it is erroneously assumed that the entire oxygen of the atmosphere is formed thanks to photosynthesis (in geology it is known to be of abyssal origin). The same review presents impressive figures: as a result of photosynthesis, the vegetation of the globe annually produces more than 100 billion tons of organic matter (about half of this amount comes from the photosynthesis of marine and ocean plants), assimilating about 200 billion tons of CO2 and releasing into the external environment about 145 billion tons of free oxygen. However, it is not explained how carbon dioxide is collected and transported to the leaves in windless weather, and in general where plants get it, since there is none in the Earth's atmosphere. We have a binary atmosphere: 80% nitrogen and 20% oxygen, and if one searches very carefully, one can find 1% argon — the remaining gases are in traces, including carbon dioxide at 0.03-0.04%. In my opinion, to this day there is no generally accepted mechanism of photosynthesis. After the works of Atsyukovsky V.A. [3] on the fact that nuclei consist of alpha particles, and that by removing one alpha particle, the oxygen of water is converted into the carbon of cellulose, it becomes clear that for plant nutrition the only essential components are water and sunlight. Experiments conducted by Galkin I.N. [4] on isolating plant canopies from carbon dioxide showed that plants supposedly do not need carbon dioxide. But the doubt remained that plants could obtain it from water through their roots. For this purpose, I conducted several experiments on growing plants under glass covers ventilated with air purified of carbon dioxide by alkali. Over three summer months, spanning partial May and September of 2009, three series of experiments were conducted, conventionally called "experiments No. 1, No. 3, and No. 5" [5]. The goal of experiment No. 1: to determine whether plants would grow at all under the conditions of the planned experiment; to determine which plants are best
+
+
+---
+
+
+### SOURCE SECTION: Глава 3.
+
+[p134]
+134                                                                                                     Chapter 3.
+to use; to develop the methodology for conducting the experiment.
+Goal of Experiment No. 3: taking into account the experience gained, to conduct
+an experiment under ventilated glass hoods, with low-growing
+plants planted in pots equipped with holes
+in the bottom for water drainage. Goal of Experiment No. 5: to practically
+repeat the previous experiment, maximally excluding the
+entry of potentially harmful chemical substances (phenolphthalein,
+potassium hydroxide, etc.) under the hoods.
+
+Experiment No. 1 (04.26–08.05.2009). The experiment was
+unsuccessful; the plants were chosen incorrectly (peas and beans did not
+fit in the glass vessel); due to the absence of holes in the bottom,
+water did not drain completely, which promoted the appearance of
+fungi (mold). The details of this experiment are not described in this
+article, since the isolation of plants from carbon dioxide
+was never reached; it was limited to achieving the goal indicated above
+and did not receive further development.
+
+Experiment No. 3 (05.28–07.21.2009). The experimental setup
+consisted of plants placed under glass hoods, the lower part
+immersed in water poured into a tray. At the same time, the plants were
+in plastic pots having a hole in the bottom for water drainage
+and standing on a slight elevation, so as not to have contact with
+the water in the tray. Through the upper part of the hoods, the following
+were supplied: once a day in measured
+quantities, water for irrigation, and continuously, air for
+ventilation. In total there were 4 hoods; two of them were
+ventilated with air chemically purified of carbon dioxide
+gas, and the other two with ordinary air. From each pair, in one
+hood the plants were watered with water deprived of carbon dioxide
+by boiling, and in the other hood with ordinary settled raw
+water. The plants were planted (seeds sown) in washed
+river sand. The test plants were spinach and sorrel
+in equal proportions. The experiment took place in a residential
+room at normal temperature. All plants were watered with the same
+
+
+---
+
+
+### SOURCE SECTION: Глава 3.
+
+[p135]
+Investigation of Carbon Dioxide Absorption by Plants from Air   135
+with the same amount of water and ventilated by a compressor with the same
+air flow rate through one hood of about 0.5 L/min.
+The travel length of air bubbles in the purification bubbler was
+approximately 35-45 cm. General view of the setup in Fig. 1.
+The duration of purification was determined by calculation,
+based on the concentration of potassium hydroxide, and was taken to be no more
+than half of the calculated time. In the experiment, 205 g
+of alkali was used, which at a ventilation rate through the purification
+bubbler of 1 L/min should be enough for 38 and a half days, i.e., for
+half the period one can accept 19-20 days. The KOH concentration
+was determined and verified by several methods: gravimetric,
+acid titration, and pH-metry, and actually fluctuated
+during the experiment within 4-6%. At the end of the experiment,
+the air purification quality was checked by passing
+it through a saturated solution of calcium hydroxide. Turbidity of the
+indicator during bubbling with ordinary air occurred
+after 15 minutes, while turbidity during bubbling with purified
+air during the experiment was not noted even once over
+the course of an hour or more.
+
+
+
+Fig. 1. General view of Experiment No. 3.
+
+[p136]
+136                                                                                                     Chapter 3.
+Experiment No. 5 (08.14–09.26.2009). The same as
+Experiment No. 3, differing by: design features of the
+purification bubbler, allowing reagent to be added and samples to be taken
+during the experiment; the presence of a large (about three
+liters) cotton filter in a wide pipe; the design of the barrier
+bubbler allowing water to be replaced at any time; the type of test plants
+(exclusively only sorrel); the use for irrigation of two test plants,
+with different ventilation schemes, of ordinary tap settled water.
+The general view of the setup is shown in Fig. 2.
+Due to minor differences in Experiments No. 3 and No. 5, not
+affecting the overall picture of results, the following description
+concerns both experiments. All experiments were documented
+by daily video and photography; files are posted
+on the internet and systematized on blogs (diaries); the link
+is at http://www.shestopalov.org/fotosintez [5].
+Experiments No. 3 and No. 5 consisted of two stages of plant testing:
+1) from the moment of seed sowing; 2) developing for some
+time (about two weeks) prior to that outside the hood. For this,
+8 pots with sown seeds were taken, which were divided
+into "main" and "duplicates" equally, i.e., 4 pots each.
+
+
+Fig. 2. General view of Experiment No. 5.
+
+
+---
+
+
+### SOURCE SECTION: Глава 3.
+
+[p137]
+Investigation of Carbon Dioxide Absorption by Plants from Air   137
+
+As a result of the experiments, it was established that plants
+germinate and grow during the first week equally, regardless of
+the ventilation atmosphere and the carbon dioxide content in
+the water used for irrigation. The so-called "forcing" can
+explain such behavior for plants with a large bulb
+or seed, such as peas or beans, and
+appears absolutely unconvincing for sorrel, whose seeds
+are so small that there is nothing to compare them with (Fig. 3).
+
+
+Fig. 3. Sorrel seeds.
+
+After "forcing," growth slows down and after two weeks it
+becomes obvious that plants ventilated with air without
+carbon dioxide perish. After three weeks, complete death.
+After replacing the main set of test plants with duplicates, everything
+repeats: after two weeks it becomes obvious that plants
+ventilated with air without carbon dioxide perish, and
+approximately after three weeks, complete death. The timing may vary
+plus or minus a couple of days, but for simplicity of memorization, they are rounded
+to weeks. The presence of carbon dioxide in water somewhat prolongs
+the life span of plants, but the presence of discomfort is obvious (Fig. 4).
+From the conducted experiments, it follows that carbon dioxide is
+needed by plants, but why is not yet known; perhaps, similar to
+how a human needs sodium chloride, without which a
+person dies. However, as is known, a human does not feed on rock salt.
+
+[p138]
+138                                                                                                     Chapter 3.
+
+
+Fig. 4. After three weeks of ventilation with purified air.
+
+Thus, there are no grounds to consider that the masses of wood and leaves
+are formed from carbon dioxide, which is practically absent in the
+Earth's atmosphere. An experimental verification
+of the mechanism of photosynthesis, as cold transmutation of oxygen nuclei
+of water into carbon nuclei, appears possible to carry out
+only using a methodology fundamentally different from the one used,
+without isolating plants under glass hoods, but with
+the application of an alpha particle detector.
+
+References
+1. Rubin B.A. — http://www.help-rus-student.ru/text/83/961.htm
+2. Nichiporovich A.A. — http://www.cultinfo.ru/fulltext/1/001/
+008/117/264.htm
+3. Atsyukovsky V.A. — http://www.atsuk.dart.ru
+4. Galkin I.N. — http://blogs.mail.ru/mail/oneeno50
+5. Shestopalov A.V. — http://www.shestopalov.org/fotosintez
+
+[p139]
+Investigations of Lepton Foam                                                            139
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+Chapter 4. Investigations of Lepton Foam
+
+4.1. Force Influence of Covalent Reaction on a Metal Sail
+
+Problem Statement
+As shown in section 3.2. Covalent Bonds and Chemodynamic
+Interaction of Part 2 of Book 2 of this collection of books
+"Foundations of Etherdynamic Natural Science," upon formation of
+a covalent bond, the total current line of the common attached
+vortex (the electron shell of the atom) turns out to be shorter than the
+sum of the lengths of the current lines of the separate atoms; at the moment of formation
+of a covalent chemical bond, part of the compacted screwed
+ether turns out to be ejected from the molecule. Such a piece of
+vortex cannot exist in the same form, and it will either be
+absorbed in another place where a molecular decomposition reaction is occurring,
+or it will transform into a toroidal vortex of weakly compressed ether,
+which can be conventionally called a lepton, since its mass
+is less than the mass of an electron. Calculation shows that the mass of such
+a toroid is about 0.0001 of the electron mass, but its diameter
+is about 0.01 mm.
+As a result of a covalent reaction, a lepton
+foam should form, consisting of many leptons invisible to the eye,
+acting on metal surfaces, since
+between the lepton foam and the Fermi surface of a metal
+plate, a gradient of ether velocity should arise, lowering
+the ether pressure on the plate surface. This should
+lead to forces tending to bring the plate closer to the site
+of the covalent reaction, and then, after some time, the lepton formations should self-destruct, which will
+lead to the appearance of forces pushing the plate away from the site
+of the reaction. Upon completion of the process, the forces should disappear. All
+this can be verified using sensitive torsion balances.
+
+[p140]
+140                                                                                                       Chapter 4.
+Experimental Setup
+
+To verify this circumstance, special torsion balances were constructed,
+on one of the balance beam arms of which an aluminum
+plate (sail) is fixed, connected to the metal body of the balance through a 10-megohm resistance to
+avoid possible electrostatic influence; the body was grounded
+to a steam heating radiator.
+
+
+Fig. 4.1. Diagram of the laboratory experiment to detect
+lepton foam during the formation of a covalent chemical bond (a) and the graph of the
+sail deflection of the balance during the chemical reaction (b):
+1 — beaker with chemical reagents; 2 — torsion balance; 3 — laser;
+4 — recorder.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p141]
+Investigations of Lepton Foam                                                            141
+At the center of the torsion balance beam, a mirror
+measuring 2x2 mm was glued, which was illuminated by a stationary
+laser pointer; the reflected beam hit the carriage of a recorder
+tracking the beam position.
+A plastic beaker was placed opposite the sail at
+a distance of 10 cm. The reaction involved dry alkali KOH and concentrated
+sulfuric or hydrochloric acid.
+
+Experimental Result
+During the reaction, the sail was first attracted to the
+reaction, and then, after its completion, moved away from it to the maximum
+distance (to the stop) and after 1.5–2 hours returned back.
+The same result was obtained if the reaction was conducted in the same
+beaker placed on a wooden or foam block far from the balance.
+Subsequently bringing this block to the balance
+produced the same result. Everything was recorded by an automatic
+recorder.
+The explanation of the experimental results lies in the fact that
+during the chemical reaction and formation of lepton foam, leptons
+touch the sail. Since the motion of ether on
+the surface of leptons at any orientation is always parallel to the plane of the sail, a gradient of ether velocities is formed with
+reduced pressure. The sail begins to be attracted to the reacting
+substances.
+After completion of the reaction, the lepton foam begins to diffuse,
+and primarily the leptons that ended up in the upper layer of the foam are destroyed, since the velocity gradient on
+their surface is smaller than that of the internal leptons; consequently, viscosity is higher and the lifetime of the surface
+leptons is shorter. But leptons, like any vortices, had an ether density higher than the ether density in free
+space. Therefore, ether pressure increases, and the sail is pushed
+away. After all leptons have diffused, the pressure
+in the ether equalizes, and the spring returns the balance beam
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p142]
+142                                                                                                       Chapter 4.
+to its initial state. Different substances give different
+deflections, but the character of the balance behavior is preserved.
+
+Conclusions
+During covalent reactions, lepton foam is released, which exerts a force effect on a metal plate.
+This interaction between chemical substances conducting the reaction and the metal plate can be
+called chemodynamic, which cannot be reduced to any of the existing fundamental interactions —
+strong and weak nuclear, electromagnetic, and gravitational. It is expedient to continue research to determine quantitative values of the parameters of this phenomenon.
+
+
+4.2. Influence of Lepton Foam on Photographic Paper Sensitivity
+
+Problem Statement
+Experiments with "lepton foam" were conducted by first-year students of the Chemistry and Physics Faculties of Moscow State University, Yu.D. Lobarev and V.A. Serebryannikov in 2000. They suggested that lepton foam should affect the sensitivity of photographic paper, which served as the reason for conducting the experiment.
+
+Experimental Setup
+A plastic beaker with sodium hydroxide was placed on a sheet of photographic paper, placed in an envelope of black dense paper to avoid exposure. Sodium hydroxide and acetic acid entered into reaction. Then the photographic paper was removed from the envelope in a dark room, exposed to weak white light, and developed.
+
+[p143]
+Investigations of Lepton Foam                                                            143
+Experimental Result
+After developing the photographic paper, it turned out that the entire field had blackened, except
+for the area on which the beaker with reagents had stood, which remained white, as if not exposed. Thus, it was discovered that:
+1. "lepton foam" or some radiation unknown until now exists during a covalent reaction;
+2. this radiation is capable of influencing the properties of the chemical composition of the photoemulsion and leads to a decrease in its sensitivity to light.
+
+Conclusion
+The experiment confirmed that during a covalent reaction, radiation is released, presumably in the form of lepton foam, penetrating through dense paper and leading to a significant decrease in the sensitivity of photographic paper, i.e., affecting the structure and possibly the chemical composition of the photoemulsion. Experiments in this direction should be continued.
+
+
+4.3. Influence of Lepton Foam on Dielectric Permittivity
+
+Problem Statement
+Since any gas vortex structure always has a density higher than the same gas in free space, and dielectric permittivity is the density of gas-like ether, there is a probability that the dielectric permittivity in the space near an ongoing covalent reaction will be higher than usual. Verification of this assumption can be performed by measuring the capacitance of an air capacitor placed near reagents participating in a covalent reaction.
+
+Experimental Setup
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p144]
+144                                                                                                       Chapter 4.
+The experiment was conducted by first-year students of the Chemistry and Physics Faculties of Moscow State University, Yu.D. Lobarev and V.A. Serebryannikov in 2000. The experiment used a plastic beaker in which sodium bicarbonate was placed, which was then poured with acetic acid from a pipette. A ceramic capacitor with a capacitance of 3000 pF was connected to a laboratory capacitance meter; the capacitor itself was placed in immediate proximity to the beaker with reagents.
+
+Experimental Result
+At the beginning of the reaction, within a few seconds, the capacitor capacitance increased by approximately 1% and remained constant while the reaction was proceeding, and then over the course of two and a half hours the capacitance value returned to its initial state.
+
+Conclusion
+The experiment proved that directly near a covalent reaction, the dielectric permittivity of space increases, which confirms the initial assumption that during a covalent reaction, radiation of the lepton foam type is released, increasing the value of dielectric permittivity.
+
+[p145]
+Experiments in the Field of Electromagnetic Phenomena                   145
+
+
+---
+
+
+### SOURCE SECTION: Глава 5.
+
+Chapter 5. Experiments in the Field of Electromagnetic Phenomena
+
+5.1. Mutual Inductance of Conductors
+
+Problem Statement
+Currently, information-measurement complexes of electronic equipment have found wide application, consisting of tens and hundreds of electronic and actuator devices, for example, flight-navigation complexes of aircraft, ships, industrial automated lines, etc. In all these complexes, transmission of signals carrying information about various physical parameters occurs through wired communication lines between the systems comprising them. For accurate and reliable operation of the complexes, it is necessary that signal transmission through wires occurs with the necessary speed and high reliability. And one of the main factors preventing these requirements is electromagnetic interference induced on communication lines by power wires, i.e., power wires connected to various energy sources. It is in these that powerful impulses arise, related to the switching of energy consumers, especially all kinds of inductances — relay and contactor windings. These impulses penetrate into information links through capacitive coupling (electrodynamic interference) and through mutual inductance (electromagnetic interference).
+There are various methods of combating such interference. Methods of shunting relay and contactor windings with spark-suppressing circuits — diodes and capacitor-resistor circuits — are widespread, but suppression does not occur completely, and besides, the inductance of the supply wires, amounting to tens of microhenries, is not taken into account.
+
+
+---
+
+
+### SOURCE SECTION: Глава 5.
+
+[p146]
+146                                                                                                      Chapter 4.
+Electrodynamic interference penetrates into information
+wires through mutual capacitance between power and information
+wires lying in a common bundle, and protection from
+electrodynamic interference related to impulse voltage surges
+up to 600 Volts in amplitude and from 0.1 to 10 μs in
+duration occurs quite successfully by shielding the wires of information links with grounding of all
+screen breaks. However, screens practically do not protect against
+electromagnetic interference related to the penetration of magnetic
+field caused by current pulsations through the screen, and it is
+here that the danger of interference induction on information
+signals lies. Separating wires to distances ensuring
+reduction of interference level to permissible values, in most
+cases, especially on moving objects, is not
+possible.
+To determine the level of induced electromagnetic interference, it would be logical by analogy with mutual capacitance to introduce the concept of mutual induction between interference-carrying and information wires, i.e., by introducing the concept of mutual inductance of wires, but such a concept is absent in electrical engineering. In
+electrical engineering, there is a concept of mutual inductance of circuits,
+although logically each circuit consists of conductors and
+mutual inductance of circuits should be calculated through mutual
+inductances of the conductors comprising them, but the concept of mutual
+inductance of circuits does not enter into the expressions themselves for mutual
+inductance of conductors. It is precisely this circumstance that forced the author
+to conduct appropriate research based on etherdynamic
+ideas about the propagation of electromagnetic waves.
+
+Problem Formulation
+As is known, in theoretical electrical engineering, the concept of mutual
+inductance of conductors is absent, although there is a concept of
+mutual inductance of circuits. In accordance with Faraday's law, on
+
+[p147]
+Experiments in the Field of Electromagnetic Phenomena                   147
+a circuit lying in the x-y plane, the emf e_xy is determined by the expression
+
+                ∂B_z
+e_xy =  – S ——;                                                                         (1.1)
+                 ∂t
+
+where S is the circuit area, B_z is the magnetic induction B_z = μH_z; μ is the
+magnetic permeability; H_z is the magnetic field strength
+(Fig. 1.1)
+
+
+Fig. 1.1. Induction of EMF in a circuit: a — according to Faraday and Maxwell; b — in reality
+
+From the expression it follows that the magnetic field changes in
+strength without changing its position in space, and the induced EMF is formed at the periphery of the field, and the magnetic field itself does not cross the circuit conductors.
+If two circuits lie in one plane (Fig. 1.2), and an alternating current flows in the first circuit, then the magnetic field strength penetrating the second circuit will be determined in accordance with the Total Current Law
+
+i =  ∫ Hdl,  H = i/2πr,                                                                (1.2)
+
+
+---
+
+
+### SOURCE SECTION: Глава 5.
+
+[p148]
+148                                                                                                      Chapter 4.
+where i is the current magnitude, r is the distance from the wire center.
+
+
+Fig. 1.2. Penetration of magnetic field created by one circuit into the second circuit.
+
+In this case, the EMF induced in the second circuit is determined as
+
+                ∂B_z
+e_xy =  – S ——;                                                                         (1.3)
+                 ∂t
+
+            μl∂i    d+h   dr           d+2h   dr           μi            d+h                   d+2h
+e_1 =   ——   ( ∫   ——   –     ∫   ——) = —— (ln r |     – ln r |    ) =
+           2π ∂t     d      r                      d+h       r           2π
+ d                        d+h
+
+      μl∂i         ( d + h)²             μl∂i
+=   ——  ln ————— =   ——  f₁(h/d)                               (1.4)
+     2π∂t        d (d + 2h)           2π∂t
+
+
+For h >> d we obtain:
+
+          μl∂i        ( d + h)²            μl∂i         h
+e_1 =   ——  ln ————— =  ——  ln ——                           (1.5)
+         2π ∂t         d (d + 2h)       2π ∂t      2d
+
+[p149]
+Experiments in the Field of Electromagnetic Phenomena                   149
+The function f₁(h/d) is shown in Fig. 1.3.
+In accordance with etherdynamic concepts, the
+process develops differently. The magnetic wave created by the current-carrying conductor first crosses the nearest conductor of the second circuit, and then, in weakened form, crosses the second conductor of the same circuit, creating in it an EMF of opposite direction and reduced magnitude. The same
+occurs from the other conductor of the first circuit. In this
+case, the EMF on the second circuit will be
+
+           μll₀ ∂i            2d                  d            μill₀ ∂i
+e_2 =   ———  (1 –  ———   +   ———) = ——— f₂(h/d),      (1.6)
+           2πd∂t           d + h            d + 2h        2πd∂t
+
+here l₀ = 1 m (in the SI system) is the scale coefficient.
+The function f₂ is also shown in Fig. 1.3.
+As seen from the graphs, the functions f₁ and f₂ diverge significantly: the first goes into logarithmic infinity, the second saturates. At h/d = 10, the ratio of function values turns out to be more than 4.
+Conducted experiments confirmed the f₂ dependence.
+
+
+Fig. 1.3. Results of induced EMF measurement in a flat circuit: dependence f₁ (h/d) ~ M₁ and dependence f₂ (h/d) ~ M₂.
+
+
+---
+
+
+### SOURCE SECTION: Глава 5.
+
+[p150]
+150                                                                                                      Chapter 4.
+Experimental Setup
+When verifying the obtained dependencies, it is expedient to
+use copper wire without insulation with a diameter of about 0.5–
+1 mm, with a circuit side length l of 0.5 m or more, changing the
+distance d from 2–3 mm to tens of centimeters. Measurements should be
+performed in the audio frequency range. The experimental diagram
+is conducted in accordance with Fig. 1.2.
+
+Conclusions
+From the above, it follows that it is expedient to introduce into electrical engineering the concept of the mutual inductance coefficient of conductors, equal for parallel conductors to the value
+
+            e₂                  μll₀
+M =  ——— = —— .                                                              (1.7)
+          ∂i₁/∂t       2πd
+
+Based on the obtained results, it became possible to introduce into electrical engineering the concept of mutual inductance of conductors.
+
+Practical Application of Results
+To verify the dependence of the mutual inductance coefficient on
+the diameters of interacting conductors, an experiment was conducted to
+determine the magnitude of EMF induced from one
+conductor to another. In this case, the conductor diameters were
+significantly different (0.5 mm and 5 mm), with one of them being
+covered with polyvinyl chloride and fabric insulation (the outer
+diameter of the conductor with insulation was 6.5 mm), the second — with lacquer
+insulation. The center-to-center distance was 3.5 mm. The conductors
+were in close contact with each other. The load on the second (measuring) conductor varied from 10 to 1/3 Ohm. Such a small
+load resistance was necessary to remove capacitive
+
+
+---
+
