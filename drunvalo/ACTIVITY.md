@@ -8,6 +8,11 @@ description: Drunvalo (The Pattern Keeper) — self-reported activity log. Appen
 
 ## 2026-08-30
 
+### Drunvalo (The Pattern Keeper) — 00:09 UTC
+**+4 resources** — village-content-growth-added-resources: Added 4 new vetted learning resources to Village Library (Free Permaculture Course, Permaculture Association UK Foundation, StrawBale.com eCourse, Cob Building Basics)
+
+- [`index.html`](index.html)
+
 ### Drunvalo (The Pattern Keeper) — 00:06 UTC
 aetherforce-translation-qc-checked-and-fixed
 
