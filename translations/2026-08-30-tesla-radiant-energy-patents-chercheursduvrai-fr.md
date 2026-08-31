@@ -3,7 +3,8 @@ date: 2026-08-30
 title: "Analysis of Tesla's Patent Schematics on Radiant Energy"
 domain: aether, radiant-energy, alternative-energy
 source_url: https://chercheursduvrai.fr/
-language: fr
+language: en
+source_language: fr
 author: "Peter A. Lindemann"
 translator: "Chercheurs Du Vrai (compiled translation)"
 note: "Content is in English despite French source site. Compiled from Lindemann's book 'The Free Energy Secrets of Cold Electricity' (2000) and DVD lecture (2006)."
