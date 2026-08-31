@@ -1,15 +1,14 @@
-Run an AFLinks site-scrape worker batch on the cloud sandbox for site: i-sis.org.uk (~2000 ISIS reports). The sandbox may have been RESET — bootstrap from GitHub FIRST.
+Run the ISIS Scout (scout of the i-sis.org.uk archive, ~2000 reports) on the cloud sandbox. The sandbox may have been RESET — bootstrap from GitHub FIRST.
 
 1) BOOTSTRAP: if /root/workspace/AFLinks/.git does not exist: git clone https://github.com/Focusingpulse/AFLinks.git /root/workspace/AFLinks
 2) PULL: cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
 3) FAMILY GATE: python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member aflinks-worker-isis — if it exits non-zero (budget LOW), do NO work, no commit, no push; say "aflinks-worker-isis skipped (family budget low)" and stop. If the member is unknown to family.py, add it via family.py's member registration (or just proceed — the gate is advisory).
-4) CRAWL if needed: if i-sis.org.uk_filelist.json does not exist, run: python3 crawl_generic.py i-sis.org.uk  (writes the file list)
-5) PROCESS BATCH: python3 process_generic_cloud.py i-sis.org.uk  — downloads files, extracts text, saves to i-sis.org.uk_progress.json + i-sis.org.uk_entries.json within its time budget. Do NOT touch other sites' progress files.
+4) GEAR READ: GEAR=$(python3 $MEMORY_DIR/../cron-coordination/family.py gear | head -1)
+   - overdrive: MAX_BATCH = full budget (process_generic_cloud.py runs its full time budget)
+   - quota:    MAX_BATCH = single modest batch; be economical
+5) SCOUT + PROCESS BATCH: python3 process_generic_cloud.py i-sis.org.uk  — downloads files, extracts text, saves to i-sis.org.uk_progress.json + i-sis.org.uk_entries.json within its time budget. Do NOT touch other sites' progress files.
+   SCOUT EXTRA (overdrive only): after processing, run the researcher sweep to keep the map growing — python3 - <<'EOF' ... (see add_researchers_sweep.py if present, else skip; never invent new files) ... EOF
 6) MERGE: python3 merge_all_progress.py  (idempotent; merges this site's entries into index.json)
-7) REBUILD DERIVED (CRITICAL for the live ledger — the site counter reads library_feed.json + search_index.json, and they drift if not rebuilt after every index.json change):
-   AFLINKS_DIR=/root/workspace/AFLinks python3 build_library_feed.py
-   python3 build_slim_index.py
-8) PULL AGAIN before push (other workers / the main aflinks-sync cron may have pushed): git pull --rebase --quiet origin main
-9) COMMIT + PUSH: ENTRIES=$(python3 -c "import json;print(len(json.load(open('index.json'))))"); git add -A; git commit -m "AFLinks worker: i-sis batch, archive at $ENTRIES docs" --author "aflinks-worker <aflinks-cron@letta.com>"; git push origin main (with Co-Authored-By: Letta Code trailer).
-10) CHECK-IN: python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member aflinks-worker-isis --status ok --summary "i-sis batch done, archive $ENTRIES"
-11) Report ONE line: files processed this run, archive count.
+7) REBUILD (mandatory after ANY index.json change): AFLINKS_DIR=/root/workspace/AFLinks python3 build_library_feed.py && python3 build_slim_index.py
+8) COMMIT + PUSH: git add index.json library_feed.json search_index.json <site>_progress.json <site>_entries.json *filelist.json (as present); git commit -m "ISIS scout: N more documents archived"; git push origin main
+9) CHECK IN: python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member aflinks-worker-isis --status ok --summary "ISIS scout batch done"

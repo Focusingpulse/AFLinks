@@ -553,7 +553,7 @@ def main():
             len(kv[1].get("domains", [])) if isinstance(kv[1].get("domains"), (list, tuple)) else 0,
         ),
         reverse=True,
-    )[:12]
+    )[:24]
     feed["top_researchers"] = [
         {
             "name": _display_name(name, rec),

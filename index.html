@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aetherforce Knowledge Vault</title>
+    <title>Aetherforce Treasure Vault — Pirate's Paradise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <style>
         :root {
             --bg: #0b0f14;
@@ -23,6 +26,10 @@
             --patent-accent: #81c784;
             --patent-border: #2e6b3a;
             --shadow: 0 4px 12px rgba(0,0,0,0.35);
+            --gold: #e8b64c;
+            --gold-bright: #ffd166;
+            --sea-deep: #03171e;
+            --sea-teal: #17b8a9;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
@@ -895,18 +902,324 @@
         }
         .wn-activity .item .what { color: var(--text); }
         .wn-activity .item .what b { color: var(--accent); font-weight: 600; }
+        /* ═══════════════ PIRATE'S PARADISE — Key Chest Dial ═══════════════ */
+        .pirate-hero {
+            background:
+                radial-gradient(1200px 500px at 50% -120px, rgba(23,184,169,0.22), transparent 60%),
+                radial-gradient(900px 400px at 85% 110%, rgba(232,182,76,0.12), transparent 60%),
+                linear-gradient(165deg, #03171e 0%, #06232c 45%, #051d26 100%);
+            border-bottom: 1px solid rgba(232,182,76,0.28);
+            position: relative;
+            overflow: hidden;
+            padding: 40px 20px 42px;
+        }
+        .pirate-hero .hero-kicker {
+            display: inline-block;
+            font-size: 0.72rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            border: 1px solid rgba(232,182,76,0.35);
+            border-radius: 999px;
+            padding: 4px 14px 4px 10px;
+            margin-bottom: 10px;
+            background: rgba(232,182,76,0.08);
+            font-weight: 700;
+        }
+        .pirate-hero h1 {
+            font-family: 'Pirata One', 'Georgia', serif;
+            font-weight: 400;
+            font-size: 2.4rem;
+            letter-spacing: 1px;
+            color: var(--gold-bright);
+            text-shadow: 0 0 24px rgba(232,182,76,0.35), 0 2px 0 rgba(0,0,0,0.5);
+            margin-bottom: 8px;
+        }
+        .pirate-hero p {
+            color: #bfd8d4;
+            max-width: 640px;
+        }
+        .pirate-hero .hero-trans {
+            color: var(--gold);
+            font-size: 0.78rem;
+            margin-top: 8px;
+            letter-spacing: 0.5px;
+        }
+        .hero-actions { margin-top: 16px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+        .hero-af-link { border: 1px solid rgba(232,182,76,0.4); background: rgba(232,182,76,0.1); color: var(--gold-bright); }
+        .hero-af-link:hover { background: var(--gold); color: #052028; }
+        /* key dial */
+        .keydial {
+            max-width: 1400px;
+            margin: 10px auto 6px;
+            padding: 18px 20px 22px;
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(180deg, rgba(9,34,42,0.85), rgba(7,26,33,0.9));
+            border: 1px solid rgba(232,182,76,0.22);
+            border-radius: 16px;
+        }
+        .kd-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 14px;
+        }
+        .kd-title {
+            font-family: 'Pirata One', 'Georgia', serif;
+            font-size: 1.45rem;
+            color: var(--gold-bright);
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .kd-sub {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .kd-stage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+        }
+        .kd-rings {
+            position: relative;
+            width: min(88vw, 430px);
+            height: min(88vw, 430px);
+            max-height: 430px;
+        }
+        .kd-rings svg.outer-ring { width: 100%; height: 100%; display: block; }
+        /* inner subject dial */
+        .kd-inner {
+            position: absolute;
+            inset: 22%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-content: center;
+            gap: 6px;
+            padding: 6px;
+            border-radius: 50%;
+            background: radial-gradient(circle at 35% 30%, #10323c, #08232c 70%);
+            border: 1px solid rgba(232,182,76,0.35);
+            box-shadow: inset 0 0 30px rgba(0,0,0,0.55), 0 0 24px rgba(23,184,169,0.08);
+        }
+        .kd-inner { grid-template-columns: repeat(3, 1fr); align-content: space-evenly; gap: 5px; padding: 10px; }
+        @media (max-width: 520px) {
+            .kd-inner { grid-template-columns: 1fr; gap: 4px; padding: 10px; inset: 26%; }
+        }
+        .kc-chip {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background: rgba(10,32,39,0.9);
+            border: 1px solid rgba(232,182,76,0.25);
+            border-radius: 999px;
+            padding: 5px 9px;
+            font-size: 0.68rem;
+            color: #cfe3df;
+            cursor: pointer;
+            transition: all 0.15s;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-width: 0;
+        }
+        .kc-chip .cnt { color: var(--gold); opacity: 0.85; font-size: 0.62rem; margin-left: auto; flex-shrink: 0; }
+        .kc-chip:hover { border-color: var(--gold); background: rgba(232,182,76,0.12); }
+        .kc-chip.sel { border-color: var(--gold-bright); background: rgba(232,182,76,0.2); color: #fff3d6; box-shadow: 0 0 10px rgba(232,182,76,0.3); }
+        .kc-chip.ghost { opacity: 0.24; pointer-events: none; }
+        /* hub: keyhole + chest */
+        .kd-hub {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 27%;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            background: radial-gradient(circle at 40% 35%, #18404a, #0a2831 75%);
+            border: 2px solid rgba(232,182,76,0.55);
+            box-shadow: 0 0 18px rgba(232,182,76,0.25), inset 0 0 14px rgba(0,0,0,0.6);
+            transition: box-shadow 0.3s;
+            z-index: 2;
+            cursor: pointer;
+        }
+        .kd-hub.open { box-shadow: 0 0 26px rgba(255,209,102,0.5), inset 0 0 14px rgba(0,0,0,0.6); }
+        .kd-hub .hub-lens {
+            font-size: 0.6rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #9fc0bb;
+            max-width: 90%;
+            text-align: center;
+            line-height: 1.2;
+        }
+        .kd-hub .hub-subj {
+            font-family: 'Pirata One', serif;
+            font-size: 0.95rem;
+            color: var(--gold-bright);
+            max-width: 92%;
+            text-align: center;
+            line-height: 1.1;
+        }
+        .kd-hub .hub-chest {
+            width: 46%;
+            aspect-ratio: 1;
+            background: url('images/chest-open.png') center/contain no-repeat;
+            filter: drop-shadow(0 0 8px rgba(255,209,102,0.45));
+            transition: transform 0.25s;
+        }
+        .kd-hub.closed .hub-chest { background-image: url('images/chest-closed.png'); filter: drop-shadow(0 0 4px rgba(0,0,0,0.6)) brightness(0.75); transform: scale(0.92); }
+        .kd-hub::after {
+            content: '';
+            position: absolute;
+            inset: -12%;
+            border-radius: 50%;
+            border: 2px solid rgba(232,182,76,0.25);
+            background: radial-gradient(circle at 50% 50%, transparent 55%, rgba(232,182,76,0.06));
+            pointer-events: none;
+        }
+        .kd-spin-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: center; }
+        .kd-spin {
+            font-family: 'Pirata One', serif;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            padding: 8px 22px;
+            border-radius: 999px;
+            border: 1px solid var(--gold);
+            background: linear-gradient(180deg, #f4c95d, #d9962b);
+            color: #231503;
+            cursor: pointer;
+            box-shadow: 0 3px 10px rgba(232,182,76,0.3);
+            transition: transform 0.12s, box-shadow 0.12s;
+        }
+        .kd-spin:hover { transform: translateY(-1px); box-shadow: 0 5px 14px rgba(232,182,76,0.4); }
+        .kd-spin:active { transform: translateY(1px); }
+        .kd-nav {
+            font-size: 0.9rem;
+            padding: 6px 12px;
+            border-radius: 999px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.05);
+            color: #cfe3df;
+            cursor: pointer;
+        }
+        .kd-nav:hover { border-color: var(--gold); color: var(--gold-bright); }
+        .kd-readout {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            letter-spacing: 0.5px;
+            text-align: center;
+            min-height: 18px;
+        }
+        /* treasure spill */
+        .kd-spill { display: none; width: 100%; margin-top: 6px; }
+        .kd-spill.show { display: block; animation: spillIn 0.4s ease; }
+        @keyframes spillIn { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+        .kd-spill-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+        .kd-spill-title {
+            font-family: 'Pirata One', serif;
+            font-size: 1.15rem;
+            color: var(--gold-bright);
+        }
+        .kd-spill-title .crumbs { font-size: 0.8rem; color: var(--text-dim); font-family: system-ui, sans-serif; letter-spacing: 0.3px; }
+        .kd-open-all {
+            font-size: 0.75rem;
+            color: #0d2b33;
+            background: var(--gold);
+            border-radius: 999px;
+            padding: 6px 14px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .kd-open-all:hover { background: var(--gold-bright); }
+        .kd-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; }
+        .kd-card {
+            background: linear-gradient(180deg, rgba(20,26,33,0.6), rgba(12,20,24,0.85));
+            border: 1px solid rgba(232,182,76,0.15);
+            border-radius: 12px;
+            padding: 10px 12px;
+            cursor: pointer;
+            transition: all 0.15s;
+            border-left: 3px solid rgba(232,182,76,0.5);
+        }
+        .kd-card:hover { border-color: var(--gold); transform: translateY(-1px); background: rgba(232,182,76,0.07); }
+        .kd-card .t {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .kd-card .s {
+            font-size: 0.68rem;
+            color: var(--text-dim);
+            margin-top: 3px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .kd-card .m { font-size: 0.62rem; color: var(--gold); margin-top: 4px; opacity: 0.85; }
+        .kd-toast {
+            position: fixed;
+            bottom: 18px;
+            left: 50%;
+            transform: translateX(-50%) translateY(80px);
+            background: rgba(8,26,32,0.95);
+            border: 1px solid var(--gold);
+            color: var(--gold-bright);
+            padding: 10px 18px;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            z-index: 99;
+            transition: transform 0.3s;
+            pointer-events: none;
+            font-family: 'Pirata One', serif;
+            letter-spacing: 0.5px;
+        }
+        .kd-toast.show { transform: translateX(-50%) translateY(0); }
+        @media (max-width: 480px) {
+            .pirate-hero h1 { font-size: 1.7rem; }
+            .kd-list { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
-    <!-- Hero: Aetherforce front and center -->
-    <div class="hero">
-        <h1>Aetherforce Knowledge Vault</h1>
-        <p>Explore <span id="heroDocCount">6,562</span> primary source documents — patents, papers &amp; research — powering Aetherforce's living science archive. Each document connects to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">■ <span id="heroTransCount">…</span> translations published · <span id="heroPagesCount">…</span> pages translated &amp; growing</p>
-        <a class="hero-af-link" href="https://www.aetherforce.energy" target="_blank">Visit Aetherforce →</a>
-        <a class="hero-af-link" href="./vault.html" style="margin-left:8px;border-color:var(--accent-dim);">🗝 Enter the Vault</a>
-        <a class="hero-af-link" href="./library.html" style="margin-left:8px;border-color:var(--accent-dim);">📚 Living Library</a>
+    <!-- Hero: pirate's paradise, Aetherforce front and center -->
+    <div class="hero pirate-hero">
+        <span class="hero-kicker">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
+        <h1>Aetherforce Treasure Vault</h1>
+        <p>Explore <span id="heroDocCount">6,562</span> primary source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Each one cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">…</span> translations published · <span id="heroPagesCount">…</span> pages translated &amp; growing</p>
+        <div class="hero-actions">
+            <a class="hero-af-link" href="https://www.aetherforce.energy" target="_blank">Visit Aetherforce →</a>
+            <a class="hero-af-link" href="./vault.html">🗝 Enter the Vault</a>
+            <a class="hero-af-link" href="./library.html">⚓ Living Library</a>
+        </div>
     </div>
+    <div class="wave-divider" aria-hidden="true"></div>
 
     <!-- Search -->
     <div class="search-bar">
@@ -925,6 +1238,33 @@
         <div class="wn-fleet" id="wnFleet"></div>
         <div class="wn-activity" id="wnActivity"></div>
     </div>
+
+    <!-- Key Chest Dial — spin the rings, unlock the treasure -->
+    <div class="keydial" id="keyDial">
+        <div class="kd-head">
+            <span class="kd-title"><span class="key-icon"></span> Key &amp; Chest — Spin the Dial</span>
+            <span class="kd-sub">pick a treasure lane · open a chest · see what's newest inside</span>
+        </div>
+        <div class="kd-stage">
+            <div class="kd-rings" id="kdRings">
+                <svg class="outer-ring" id="kdOuter" viewBox="0 0 440 440" aria-label="Subject dial: spin to choose a lens"></svg>
+                <div class="kd-inner" id="kdInner"></div>
+                <div class="kd-hub closed" id="kdHub" title="Open the chest">
+                    <span class="hub-lens" id="kdHubLens">—</span>
+                    <span class="hub-subj" id="kdHubSubj">pick a lane</span>
+                    <span class="hub-chest" id="kdHubChest"></span>
+                </div>
+            </div>
+            <div class="kd-spin-row">
+                <button class="kd-nav" id="kdPrev" title="Previous lens">◀</button>
+                <button class="kd-spin" id="kdSpin">⚓ Spin the Dial</button>
+                <button class="kd-nav" id="kdNext" title="Next lens">▶</button>
+            </div>
+            <div class="kd-readout" id="kdReadout"></div>
+            <div class="kd-spill" id="kdSpill"></div>
+        </div>
+    </div>
+    <div class="kd-toast" id="kdToast"></div>
 
     <!-- Mobile sidebar toggle -->
     <button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">
@@ -1515,6 +1855,223 @@
             });
         }
 
+        /* ─── Key Chest Dial — spin the rings, unlock the treasure ──── */
+        let seamData = null;
+        let kdLenses = [];
+        let kdSelLens = 0;
+        let kdSelSubj = null;
+        let kdSubjCounts = {};
+        let kdSpinRot = 0;
+        let kdSpinning = false;
+
+        function kdToastm(msg) {
+            const t = document.getElementById('kdToast');
+            if (!t) return;
+            t.textContent = msg;
+            t.classList.add('show');
+            clearTimeout(kdToastm._t);
+            kdToastm._t = setTimeout(() => t.classList.remove('show'), 2400);
+        }
+
+        function kdPolar(cx, cy, r, deg) {
+            const rad = deg * Math.PI / 180;
+            return [cx + r * Math.cos(rad), cy + r * Math.sin(rad)];
+        }
+
+        function kdWedgePath(cx, cy, r1, r2, a0, a1) {
+            const p0 = kdPolar(cx, cy, r1, a0), p1 = kdPolar(cx, cy, r2, a0);
+            const p2 = kdPolar(cx, cy, r2, a1), p3 = kdPolar(cx, cy, r1, a1);
+            return `M ${p0[0].toFixed(2)} ${p0[1].toFixed(2)} L ${p1[0].toFixed(2)} ${p1[1].toFixed(2)} A ${r2} ${r2} 0 0 1 ${p2[0].toFixed(2)} ${p2[1].toFixed(2)} L ${p3[0].toFixed(2)} ${p3[1].toFixed(2)} A ${r1} ${r1} 0 0 0 ${p0[0].toFixed(2)} ${p0[1].toFixed(2)} Z`;
+        }
+
+        function kdBuildSubjectCounts() {
+            kdSubjCounts = {};
+            allData.forEach(it => {
+                (it.categories || []).forEach(c => { if (c) kdSubjCounts[c] = (kdSubjCounts[c] || 0) + 1; });
+            });
+        }
+
+        function kdAvailableLenses() {
+            if (seamData && seamData.category_index) {
+                return Object.keys(seamData.category_index)
+                    .map(n => ({ name: n, n: (seamData.category_index[n] || []).length }))
+                    .sort((a, b) => b.n - a.n);
+            }
+            const m = metaCategoryMap;
+            return Object.keys(m).map(n => ({
+                name: n,
+                n: allData.filter(it => (it.meta_categories || []).includes(n) ||
+                    (m[n] || []).some(s => (it.categories || []).includes(s))).length
+            })).sort((a, b) => b.n - a.n);
+        }
+
+        function kdSubjectsFor(lensName) {
+            const subs = (seamData && seamData.meta_cats && seamData.meta_cats[lensName]) ||
+                (metaCategoryMap[lensName] || []);
+            return subs
+                .map(s => ({ name: s, n: kdSubjCounts[s] || 0 }))
+                .sort((a, b) => b.n - a.n);
+        }
+
+        function kdRenderOuter(selIdx) {
+            const svg = document.getElementById('kdOuter');
+            const cx = 220, cy = 220;
+            const N = kdLenses.length;
+            let h = '';
+            h += `<circle cx="${cx}" cy="${cy}" r="204" fill="none" stroke="rgba(232,182,76,0.18)" stroke-width="3"/>`;
+            h += `<circle cx="${cx}" cy="${cy}" r="148" fill="none" stroke="rgba(232,182,76,0.08)" stroke-width="1" stroke-dasharray="2 6"/>`;
+            for (let i = 0; i < N; i++) {
+                const a0 = N === 1 ? 0 : (i * 360) / N;
+                const [x1, y1] = kdPolar(cx, cy, 188, a0);
+                const [x2, y2] = kdPolar(cx, cy, 202, a0);
+                const active = i === selIdx;
+                h += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="${active ? '#ffd166' : 'rgba(232,182,76,0.4)'}" stroke-width="${active ? 4 : 2}" stroke-linecap="round"/>`;
+                if (N <= 24) {
+                    const [lx, ly] = kdPolar(cx, cy, 172, a0);
+                    h += `<text x="${lx.toFixed(2)}" y="${ly.toFixed(2)}" fill="${active ? '#ffd166' : '#7fa8a3'}" font-size="10.5" text-anchor="middle" dominant-baseline="middle" font-family="'Pirata One',serif">${escapeHtml(kdLenses[i].name.slice(0, 14))}</text>`;
+                }
+            }
+            if (N > 1) {
+                const step = 360 / N;
+                const a0 = selIdx * step - step * 0.42, a1 = selIdx * step + step * 0.42;
+                h += `<path d="${kdWedgePath(cx, cy, 150, 204, a0, a1)}" fill="rgba(255,209,102,0.14)" stroke="rgba(255,209,102,0.55)" stroke-width="1.5"/>`;
+            }
+            svg.innerHTML = h;
+        }
+
+        function kdRenderInner() {
+            const el = document.getElementById('kdInner');
+            const lens = kdLenses[kdSelLens];
+            el.innerHTML = '';
+            if (!lens) return;
+            kdLensSubjs = kdSubjectsFor(lens.name);
+            const show = kdLensSubjs.slice(0, 7);
+            const hasMore = kdLensSubjs.length > 7;
+            show.forEach(s => {
+                const b = document.createElement('button');
+                b.className = 'kc-chip' + (s.name === kdSelSubj ? ' sel' : '');
+                b.innerHTML = `<span style="overflow:hidden;text-overflow:ellipsis">${escapeHtml(s.name)}</span><span class="cnt">${s.n.toLocaleString()}</span>`;
+                b.title = `${s.name} — ${s.n.toLocaleString()} documents`;
+                b.onclick = () => kdOpenSubject(s.name);
+                el.appendChild(b);
+            });
+            if (hasMore) {
+                const b = document.createElement('button');
+                b.className = 'kc-chip' + (!kdSelSubj ? ' sel' : '');
+                b.innerHTML = `<span>⚓ All of ${escapeHtml(lens.name.slice(0, 18))}</span><span class="cnt">${lens.n.toLocaleString()}</span>`;
+                b.onclick = () => kdOpenSubject(null);
+                el.appendChild(b);
+            }
+            if (!show.length && !hasMore) {
+                el.innerHTML = `<div style="color:#7fa8a3;font-size:0.66rem;text-align:center;grid-column:1/-1;align-self:center">No subjects tagged yet</div>`;
+            }
+        }
+
+        function kdNewestIn(cats, metaCats, n) {
+            const out = [];
+            for (let i = allData.length - 1; i >= 0 && out.length < n; i--) {
+                const it = allData[i];
+                if (cats && !(it.categories || []).some(c => cats.includes(c))) continue;
+                if (metaCats && !(it.meta_categories || []).some(m => metaCats.includes(m))) continue;
+                if (!cats && !metaCats) break;
+                out.push(it);
+            }
+            return out;
+        }
+
+        function kdOpenSubject(subjName) {
+            const lens = kdLenses[kdSelLens];
+            if (!lens) return;
+            kdSelSubj = subjName;
+            const hub = document.getElementById('kdHub');
+            hub.classList.remove('closed'); hub.classList.add('open');
+            document.getElementById('kdHubLens').textContent = lens.name;
+            document.getElementById('kdHubSubj').textContent = subjName || ('All of ' + lens.name.slice(0, 22));
+            kdRenderInner();
+            const spill = document.getElementById('kdSpill');
+            const list = subjName
+                ? kdNewestIn([subjName], null, 6)
+                : kdNewestIn(null, [lens.name], 6);
+            const count = subjName ? (kdSubjCounts[subjName] || 0) : lens.n;
+            const crumbs = subjName ? `${lens.name} · ${subjName}` : `${lens.name} · whole lens`;
+            const cards = list.map(it => {
+                const cats = (it.meta_categories || []).slice(0, 2).concat((it.categories || []).slice(0, 2));
+                const prev = (it.content_preview || '').replace(/!\[[^\]]*\]\([^)]*\)/gi, '').trim().slice(0, 140);
+                return `<div class="kd-card" onclick="showDetail(${it.id})">
+                    <div class="t">${escapeHtml(it.title || it.filename)}</div>
+                    ${prev ? `<div class="s">${escapeHtml(prev)}</div>` : ''}
+                    <div class="m">${cats.map(c => escapeHtml(c)).join(' · ') || 'treasure'}</div>
+                </div>`;
+            }).join('');
+            const subjQuery = subjName ? `?subj=${encodeURIComponent(subjName)}` : `?cat=${encodeURIComponent(lens.name)}`;
+            spill.innerHTML = `
+                <div class="kd-spill-head">
+                    <span class="kd-spill-title">⚓ ${escapeHtml((subjName || lens.name).slice(0, 40))} <span class="crumbs">(${count.toLocaleString()} in the vault)</span></span>
+                    <a class="kd-open-all" href="./index.html${subjQuery}" target="_blank">Open all in the Archive →</a>
+                </div>
+                <div class="kd-list">${cards || '<div style="color:#7fa8a3;font-size:0.75rem">No documents tagged here yet — the scouts are still digging.</div>'}</div>`;
+            spill.classList.remove('show'); void spill.offsetWidth; spill.classList.add('show');
+            kdReadout();
+        }
+
+        function kdReadout() {
+            const r = document.getElementById('kdReadout');
+            const lens = kdLenses[kdSelLens];
+            if (!r || !lens) return;
+            r.innerHTML = `Landed on <b style="color:var(--gold-bright)">${escapeHtml(lens.name)}</b> — ${lens.n.toLocaleString()} documents. Tap a chest below the dial, touch the key, or <span style="color:var(--gold-bright);cursor:pointer" onclick="document.getElementById('kdSpin').click()">spin again</span>.`;
+        }
+
+        function kdSpinTo(idx, animate) {
+            const N = kdLenses.length;
+            if (N < 2) { kdSelLens = 0; kdRenderOuter(0); kdSpinSel(); return; }
+            if (!animate) { kdSelLens = idx; kdRenderOuter(idx); kdSpinSel(); return; }
+            const old = kdSelLens;
+            let delta = ((idx - old) % N + N) % N;
+            const turns = 2 + Math.floor(Math.random() * 2);
+            kdSpinRot += turns * 360 + delta * (360 / N);
+            kdSelLens = idx;
+            const svg = document.getElementById('kdOuter');
+            svg.style.transition = 'transform 1.9s cubic-bezier(0.16,0.9,0.26,1)';
+            svg.style.transform = `rotate(${kdSpinRot}deg)`;
+            kdSpinning = true;
+            timeoutKd = setTimeout(() => {
+                kdSpinning = false;
+                kdRenderOuter(idx);
+                svg.style.transition = 'none';
+                svg.style.transform = 'rotate(0deg)';
+                kdSpinSel();
+            }, 2000);
+        }
+        let timeoutKd = null;
+
+        function kdSpinSel() {
+            const lens = kdLenses[kdSelLens];
+            if (!lens) return;
+            const subs = kdSubjectsFor(lens.name);
+            kdSelSubj = subs.length ? subs[0].name : null;
+            kdRenderInner();
+            kdOpenSubject(kdSelSubj);
+        }
+
+        function kdInit() {
+            kdBuildSubjectCounts();
+            kdLenses = kdAvailableLenses();
+            if (!kdLenses.length) { const d = document.getElementById('keyDial'); if (d) d.style.display = 'none'; return; }
+            kdRenderOuter(0);
+            const prev = document.getElementById('kdPrev'), next = document.getElementById('kdNext'), spin = document.getElementById('kdSpin');
+            prev.addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens - 1 + kdLenses.length) % kdLenses.length, true); });
+            next.addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens + 1) % kdLenses.length, true); });
+            spin.addEventListener('click', () => { if (kdSpinning) return; kdSpinTo(Math.floor(Math.random() * kdLenses.length), true); });
+            const hub = document.getElementById('kdHub');
+            hub.addEventListener('click', () => { if (kdSelSubj) kdOpenSubject(kdSelSubj); else kdSpinSel(); });
+            // come alive: one free spin shortly after load
+            setTimeout(() => {
+                if (!kdSpinning && kdLenses.length > 1) {
+                    kdSpinTo(Math.floor(Math.random() * kdLenses.length), true);
+                }
+            }, 900);
+        }
+
         async function loadIndex() {
             try {
                 // Parse URL params FIRST so the seam fabric block below can
@@ -1522,6 +2079,8 @@
                 const params = new URLSearchParams(window.location.search);
                 const urlCats = params.getAll('cat');
                 if (urlCats.length) seamCats = urlCats;
+                const urlSubj = params.get('subj');
+                if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
                 // Load the SLIM search index (fast) — full records are
                 // fetched lazily per chunk when a detail modal opens.
                 const response = await fetch('./search_index.json');
@@ -1562,11 +2121,19 @@
                         const crossing = [...reach(la, new Set(lb)), ...reach(lb, new Set(la))];
                         seamFabric = { title: `${a} × ${b}`, ids: new Set([...both, ...crossing]) };
                     }
+                    seamData = feed.seam || null;
                     renderWhatsNew(feed);
-                } catch (e) { /* feed optional; hero keeps working without it */ }
+                    kdInit();
+                } catch (e) { /* feed optional; hero keeps working without it */
+                    // still try the dial from hardcoded fallback (seam missing)
+                    try { kdInit(); } catch (_e) {}
+                }
                 document.getElementById('loading').style.display = 'none';
                 buildMetaCategoryList();
                 buildCategoryList();
+                if (activeCategory) {
+                    document.querySelectorAll('.category-item').forEach(el => el.classList.toggle('active', el.dataset.category === activeCategory));
+                }
                 renderResults();
                 // URL param auto-filter (from vault links): seamCats was
                 // already parsed at the top of loadIndex for the seam fabric.
