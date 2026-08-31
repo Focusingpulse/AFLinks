@@ -169,6 +169,63 @@
         "/files-9/"
       ],
       "notes": "Old file-sharing site used by Aetherforce community. Domain is dead (parked on HugeDomains). Scraping Wayback Machine for file listings. Actual downloads may be dead but we can catalog what was there."
+    },
+    {
+      "name": "svpwiki.com",
+      "status": "pending",
+      "base_url": "https://svpwiki.com",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": [
+        "/",
+        "/sitemap.xml"
+      ],
+      "notes": "Dale Pond's SVPwiki — 500-page TikiWiki (Keely/SVP). Sitemap.xml exists; pages are tiki-index.php?page=X. HIGH VALUE — on-mission, alive, the man Chris is courting.",
+      "file_count": 0
+    },
+    {
+      "name": "infinite-energy.com",
+      "status": "pending",
+      "base_url": "https://infinite-energy.com",
+      "crawl_type": "wayback_scrape",
+      "crawl_paths": [
+        "/"
+      ],
+      "notes": "Infinite Energy Magazine articles online. Live site blocks bots (403); harvest via Wayback CDX. Decades of free articles.",
+      "file_count": 0
+    },
+    {
+      "name": "keelynet.com",
+      "status": "pending",
+      "base_url": "https://web.archive.org/web/2018/http://keelynet.com",
+      "crawl_type": "wayback_scrape",
+      "crawl_paths": [
+        "/"
+      ],
+      "notes": "KEELYNET (dead) — 474 archived PDFs in Wayback. John Keely / free energy personal site. THE rare gem source. Use wayback_scavenger.py.",
+      "file_count": 0
+    },
+    {
+      "name": "energeticforum.com",
+      "status": "pending",
+      "base_url": "https://www.energeticforum.com",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": [
+        "/",
+        "/forum/"
+      ],
+      "notes": "Energetic Forum — real researcher build logs. vBulletin; thread links need JS/browser. Hard scrape, high rarity. Use browser-use if wget fails.",
+      "file_count": 0
+    },
+    {
+      "name": "overunity.com",
+      "status": "pending",
+      "base_url": "https://overunity.com",
+      "crawl_type": "html_link_scrape",
+      "crawl_paths": [
+        "/forum/"
+      ],
+      "notes": "OverUnity forum — build logs, direct researcher comms. JS launcher gate; thread index may need browser. High rarity.",
+      "file_count": 0
     }
   ]
 }
