@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T12:01:46Z",
+  "generated_at": "2026-08-31T12:05:47Z",
   "library": {
     "researchers": 59,
     "patents": 2339,
@@ -7,7 +7,7 @@
     "meta_categories": 24,
     "aflinks_docs": 10882,
     "translations": 64,
-    "pages_translated": 576,
+    "pages_translated": 606,
     "declassified_finds": 16,
     "active_agents": 14,
     "archive_entries": 11982,
@@ -3139,9 +3139,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-08-31T00:08:51Z",
+      "last_run": "2026-08-31T12:03:54Z",
       "last_status": "ok",
-      "last_summary": "sync: 12452 docs, feed rebuilt, +470 new"
+      "last_summary": "sync: 11982 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -3183,9 +3183,9 @@
       "mission": "Long-haul translation of Atsyukovsky Book 5 — one chunk at a time, through the night.",
       "schedule": "overnight hourly",
       "icon": "📖",
-      "last_run": "2026-08-31T04:05:42Z",
+      "last_run": "2026-08-31T12:04:29Z",
       "last_status": "ok",
-      "last_summary": "translated chunks 140-154 this run (overdrive mode) | now 154/220, next: chunk 155 (gear: overdrive)"
+      "last_summary": "+30 chunks since last run (154->184) | now 184/220, next: chunk 185 (gear: overdrive)"
     },
     {
       "member": "translation-qc",
@@ -3227,12 +3227,24 @@
       "mission": "Wisdom council and quality gate of the Living Library — keeps the Village growing, audits translations and data integrity, scouts the far corners of the web, weaves cross-domain synthesis, and keeps the archive's pattern true.",
       "schedule": "4h QC · 6h synthesis · 8h village growth · 12h scout/audit · daily refresh (cloud)",
       "icon": "🪷",
-      "last_run": "2026-08-31T08:07:30Z",
+      "last_run": "2026-08-31T12:05:11Z",
       "last_status": "ok",
-      "last_summary": "village-content-growth-added-resources"
+      "last_summary": "village-maintenance-link-fixes-and-resources"
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-08-31",
+      "time": "12:05",
+      "agent": "Drunvalo (The Pattern Keeper)",
+      "summary": "village-maintenance-link-fixes-and-resources"
+    },
+    {
+      "date": "2026-08-31",
+      "time": "12:04",
+      "agent": "Book5 Translate",
+      "summary": "+30 chunks — Overdrive run: translated chunks 155-184 (30 chunks). Covered: wire inductance/Tesla transformer design, positive feedback systems, aetherodynamic generator schematics, Kapanadze generator, patent pages, Appendix 3 intro (critical analysis of relativity theory foundations), STR/GTR logic critique, experimental methodology. Now at 184/220 (84%)."
+    },
     {
       "date": "2026-08-31",
       "time": "08:10",
@@ -3580,18 +3592,6 @@
       "time": "23:16",
       "agent": "Translation Sweeper",
       "summary": "+4 chunks — Resumed Greek doc: Spyridis Theory of Everything (el). Translated chunks 21-24 (Platonic solids, intertransformation, crystallographic variations). Now at 24/37 chunks. 13 remaining."
-    },
-    {
-      "date": "2026-08-28",
-      "time": "21:46",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Continued Spyridis 'Platonic Theory of Everything' (Greek) — translated chunks 17-20, now 20/37 complete. Covers Plato's geometric atomism: right triangles as fundamental elements, correspondence of regular solids to the four elements, aether and the dodecahedron. Source already archived."
-    },
-    {
-      "date": "2026-08-28",
-      "time": "21:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No budget this cycle — checked in with heartbeat, no work done."
     }
   ],
   "declassified": [
@@ -3726,7 +3726,7 @@
     {
       "volume": "5",
       "title": "Book 5 — Full English Translation (in progress)",
-      "progress_done": 154,
+      "progress_done": 184,
       "progress_total": 220,
       "assembled": "sources/atsyukovsky/Book5_full_translation.md"
     }

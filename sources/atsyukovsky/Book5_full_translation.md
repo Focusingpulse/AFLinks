@@ -4354,3 +4354,801 @@ From the above it follows that to increase output power, one should find the opt
 
 ---
 
+
+### SOURCE SECTION: Глава 6.
+
+[p212]
+212                                                                                                      Глава 5.
+The measurements conducted showed that with an increase in wire cross-section, the specific inductance of the wire decreases. As the wire cross-section increases, its inductance decreases according to a logarithmic law (Table 6.1):
+
+Table 6.1.
+Wire cross-section, mm²   Specific inductance, µH/m
+               0.35                                      1.65
+               0.5                                        1.45
+               0.75                                      1.2
+               1.0                                        0.97
+When calculating the inductance of solenoids, the cross-section of the wires themselves is, as a rule, not taken into account; this is incorrect. Nevertheless, one of the ways to reduce inductance values to obtain short pulse fronts is to increase the cross-section of the coil wire.
+There is also a second method — increasing the active resistance of the circuit to reduce the circuit's time constant, but this method is disadvantageous, as it would require increasing the pulse power. In addition, at high frequencies the skin effect should play its role, according to which not the entire cross-section of the wire is utilized in the primary inductance coil, but only the surface layer, which leads to an increase in the active resistance of the circuit.
+Thus, increasing the cross-section of the primary winding wire is the best method for reducing the duration of pulse fronts, which is what was done in the Tesla transformer: the primary winding is made of thick wire with a cross-section of tens and hundreds of square millimeters.
+At a switch supply voltage of U = 1000 V, R = 100 Ω and a current of 10 A, the power dissipated at the switch will be 10 kW, and the delivered power, accounting for the loss to return power, will be 30 kW in the first case and 80 kW in the second.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p213]
+Aetherodynamic approaches to resolving the energy crisis                                                                                                  213
+Tesla used frequencies on the order of 200 kHz in his transformers; it may be assumed that such a frequency is optimal, at least for the initial stage of work.
+The calculation of the charging capacitance shunting the power supply of the electronic circuit is performed based on the relationship for electric charge:
+
+Q = CU = iT,                                                                          (5.20)
+
+we have:
+
+          iT
+C =  ——                                                                                 (5.21)
+          U
+
+If the entire electronic circuit is powered from a voltage of 100 V, then at a current of i = 1 A and a pulse duration of T = 10⁻⁶ s (F = 0.5 MHz), we obtain:
+
+C = 0.01 µF.
+
+However, this assumes a complete discharge of the capacitor, which is not advisable. In order for the capacitor to maintain the supply voltage within variations of no more than 1%, it must be increased by a factor of 100; therefore, for the given example, it is sufficient to have a shunting capacitance of 1 µF at an operating voltage of 100 V and frequency characteristics up to 1–2 MHz.
+At an operating voltage of 1000 V and a pulse current of 10 A, a capacitor of the same 1 µF is required at an operating voltage of 1000 V and the same frequency characteristics.
+Thus, the following principle of operation for a device for obtaining energy from the aether emerges.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p214]
+214                                                                                                      Глава 5.
+Current pulses with short fronts are fed into the primary (outer) winding of the transformer at the highest possible repetition rate. From the secondary winding, which has a greater number of turns than the primary, pulses are taken and passed through a rectifier diode to a capacitor shunting the power circuit of the pulse generator, thereby establishing a positive feedback loop designed to sustain the entire process. The initial startup of the entire circuit is accomplished from a starter — a separate power source for the pulse generator (mains, battery, accumulator), which is disconnected after the device enters operating mode.
+Energy for the external consumer is taken from a third winding, placed similarly to the secondary winding inside the primary winding. A rectifier diode is also connected to this third winding, followed by a smoothing capacitor. The resulting DC voltage can be used either directly or through appropriate converters that convert DC into the form of energy required by the consumer.
+
+6.8. Features of positive feedback and regulation of energy flows
+
+Self-sustaining of the process of extracting energy from the environment in any circuit is possible only if part of the obtained energy is directed to the input of the device; this means the system must be covered by positive feedback, and the gain of the closed loop must be equal to unity (Fig. 6.12).
+If less energy is returned to the system input than is needed to sustain the working process, the process will inevitably decay. The decay of a process, even one of an oscillatory nature, typically follows an exponential law, with the exponent having a negative sign.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p215]
+Aetherodynamic approaches to resolving the energy crisis                                                                                                  215
+If the gain of the closed loop is greater than unity, the system begins to accumulate energy; the process develops according to an exponential law, but the exponent has a positive sign, and the system runs away.
+In this case, the system contains some weakest link, which fails and interrupts the process. One variant of such an event is an explosion.
+
+
+Fig. 6.12. Energy installation covered by positive feedback: a) structure; b) decaying transient process; c) diverging transient process
+
+Ensuring an exact unity gain of the closed loop without regulation is practically impossible; in all cases, the operation of such a system will be unstable — it will either stop or run away.
+To prevent this, a regulator must necessarily be included in the system covered by positive feedback, whose task is to limit the portion of energy returned to the system input through the feedback loop. Such a regulator can be implemented in several ways.
+The first method is simple limitation of the feedback energy magnitude by some saturating element. Such elements can be any elements with nonlinear characteristics of the saturation type, such as iron saturation or Zener diodes. In the case of using a transformer with an iron core, increasing the voltage in the primary winding after core saturation does not lead to an increase in voltage at the secondary winding. In the case of using Zener diodes, excess energy is directed around the feedback circuit, thereby limiting the delivery of energy to the system input.
+
+[p216]
+216                                                                                                      Глава 5.
+6.9. Aetherodynamic energy generators
+
+6.9.1. Block diagram of the aetherodynamic energy generator mockup
+
+Based on the considerations expressed above, a schematic diagram of the aetherodynamic energy generator mockup can be proposed.
+The entire device consists of two units (Fig. 6.13):
+— an external power source serving as a starter for launching the circuit;
+— a pulse generator containing a Tesla transformer with three coils — a primary (outer) one and two secondary (inner) ones, one of which serves to create the positive feedback loop, and the second is the output coil, connected through a rectifier bridge to the load.
+With respect to the mockup, it is advisable to implement the coils in the following variant:
+1. Primary — 4–5 turns of wire 6–8 mm in diameter or flat busbar (copper or aluminum); coil diameter on the order of 15–20 cm, clearance between wires on the order of 4–6 mm;
+2. Secondary (feedback coil) — 10–20 turns of wire 1.5–2 mm in diameter, coil diameter on the order of 4–5 cm, clearance between wires on the order of 2–3 mm;
+3. Secondary (output) — turns selected depending on the magnitude of the output voltage obtained at the load, but
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p217]
+Aetherodynamic approaches to resolving the energy crisis                                                                                                  217
+this is probably only a few dozen turns of 0.5–1 mm wire.
+The second and third coils are positioned coaxially inside the primary winding; no core is needed. The number of turns in the feedback secondary winding should be selected during tuning.
+
+
+
+                               Energy generator       Tr
+                                                                                                В
+                                                                 W3
+                                                                 I2
+
+                                Feedback circuit
+  Starter                              Р2           U2                       W2
+
+                          U1         Р1
+          БП
+                             С1                             C2                           W1
+
+                                         Р3
+                                     I3                      I1
+
+
+Fig. 6.13. Variant of the block diagram of the mockup for obtaining energy from the aether:
+БП — power supply unit; Tr — transformer; W1 — primary coil of the transformer; W2 — feedback coil; W3 — output coil of the transformer;
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p218]
+218                                                                                                      Глава 5.
+C1 — charging capacitance for the power supply; C2 — tank capacitance (it is not established whether it is needed); Р1 — direct-coupling spark gap (breakdown voltage U1 on the order of 1 kV/mm); Р2 — feedback spark gap (or diode) (U2 > U1); Р3 — voltage-limiting spark gap (or circuit) (U3 > U2); I1 — current in the primary winding circuit of the transformer; I2 — current in the feedback circuit; I3 — current in the excess energy dump circuit; В — output.
+
+All components used must be sufficiently high-frequency and must have margins on operating voltages. The limiting frequencies for which all circuit components must be rated should be derived from the pulse front duration with some margin. For example, to ensure a pulse front duration of 0.1 µs, all components, including all microchips, transistors, capacitors, and diodes, must be capable of operating at frequencies of at least 5 MHz. Debugging of the device must be performed for each unit separately, taking into account their loading on subsequent circuits in the overall schematic.
+When selecting transformer winding parameters, it is necessary to proceed from the need to ensure two conditions:
+1. The output voltage at the output of winding II must exceed the supply voltage of the pulse generator;
+2. The output power must exceed that consumed by the pulse generator.
+Both of these conditions must be achieved in the open-loop mode; without their fulfillment, closing the positive feedback loop is meaningless.
+The task of selecting parameters (values of capacitances C1 and C2, the ratio of diameters and turns of the primary and secondary coils, values of voltages U1, U2, U3) is to make the feedback current I2 as large as possible with a corresponding decrease in current I1. The task will be accomplished if, in the presence of current I2, current I1 ceases completely. The emergence of current I3 in the limiting circuit indicates that excess energy is being obtained.
+In the power circuit of the primary winding, before the spark gap, it is probably advisable to install two series inductors,
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p219]
+Aetherodynamic approaches to resolving the energy crisis                                                                                                  219
+the first on the order of 10 mH, the second 1–2 mH; at the junction of the inductors, connect a capacitor with a value of first 10,000 pF, and the second (output, before the spark gap) — 1,000 pF.
+The filter capacitor installed after the rectifier and before the first inductor can be of any value, on the order of 0.1–10 µF, but at an appropriate voltage, probably on the order of 3 kV. The feedback should be routed to the first capacitor. All parameters are approximate.
+Debugging of the device must be performed for each unit separately, taking into account their loading on subsequent circuits in the overall schematic.
+When selecting transformer winding parameters, it is necessary to proceed from the need to ensure two conditions:
+1. The output voltage at the output of winding II must exceed the supply voltage of the pulse generator;
+2. The output power must exceed that consumed by the pulse generator.
+The task of selecting parameters (values of capacitances C1 and C2, the ratio of diameters and turns of the primary and secondary coils, values of voltages U1, U2, U3) is to make the feedback current I2 as large as possible with a corresponding decrease in current I1. The task will be accomplished if, in the presence of current I2, current I1 ceases completely. The emergence of current I3 in the limiting circuit indicates that excess energy is being obtained.
+A warning regarding safety should be given: it is not permissible to remain near the operating circuit for extended periods, as pulsating high-frequency magnetic fields have harmful effects. Therefore, one should follow a simple rule: all modifications to the circuit must be made only with the power turned off. Throughout the debugging process, power-up must be brief and only for the duration of taking instrument readings.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p220]
+220                                                                                                      Глава 5.
+This device was not built even as a mockup, although similar attempts were undertaken. The phenomenon itself was confirmed by the fact that there was an incident of breakdown between turns of the secondary winding, accompanied by a flame of green color approximately one centimeter high. However, it was not possible to reproduce the result, although it became clear that all of this requires systematic work, which could not be carried out at that time.
+
+
+6.9.2. Aetherodynamic generator of Tariel Kapanadze
+
+The Georgian inventor from Tskhaltubo (Georgia) Tariel Kapanadze developed his own circuit design for a device for obtaining energy from the aether, in which the resonance of windings is given particular importance. Having failed to obtain a patent for his invention in Russia, and not wishing to obtain one in Georgia, Kapanadze received it in Turkey (patent No. WO 2008/103129 A1, dated August 28, 2008). In 2007, he demonstrated a prototype installation started from a car battery, which was removed from the device after the process was initiated. Thereafter, the installation operated fully autonomously, self-sustaining and drawing energy from the aether. The total power generated by the Kapanadze installation was 5 kW: five identical incandescent lamps, each rated at 1 kW of power, glowed at full brightness. After the demonstration, the installation was disassembled.
+Kapanadze claimed that he had tested a device of a similar type with a power output of 200 kW, and thus, in principle, the energy problem is solved.
+In 2009, T. Kapanadze demonstrated a second prototype generating 3 kW of electric power, started not from a battery but from a "Krona" battery, and likewise operating autonomously after startup. The generator was assembled in a Plexiglas enclosure, and its entire internal structure was visible.
+
+[p221]
+Aetherodynamic approaches to resolving the energy crisis                                                                                                  221
+In the same year, T. Kapanadze, now in Turkey, developed a device generating 100 kW of electric power in the form of three-phase current at industrial frequency and voltage.
+Appendix 2 presents photographs of the Kapanadze prototypes and fragments of their demonstrations. The patent of T. Kapanadze is also provided there.
+
+References
+1. Atsyukovsky V.A. General aetherodynamics. Aetherodynamic modeling of structures of matter and fields based on concepts of a gaseous aether. 2nd ed. Moscow, Energoatomizdat, 2003.
+2. Atsyukovsky V.A. Physical foundations of electromagnetism and electromagnetic phenomena. Aetherodynamic interpretation. Moscow, URSS Publishing House, 2001.
+3. Atsyukovsky V.A. Energy around us. Moscow: "Petit," 2009.
+4. Atsyukovsky V.A. Device for producing electrical energy. Patent for invention No. 2261521. Priority of invention May 12, 2003.
+
+[p222]
+222                                                                     Patent of V.A. Atsyukovsky.
+                      Appendix 1
+
+Patent of V.A. Atsyukovsky
+
+[p223]
+ Device for producing electrical energy                        223
+
+[p224]
+224                                                                     Patent of V.A. Atsyukovsky.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p225]
+ Device for producing electrical energy                        225
+
+[p226]
+226                                                                     Patent of V.A. Atsyukovsky.
+7
+
+[p227]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 227
+Appendix 2
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze
+
+
+
+Fig. 1. 2007. Demonstration of the electric generator in operation
+
+
+
+Fig. 2. Interview of Kapanadze with a local newspaper correspondent
+
+[p228]
+228                                                                                          Appendix 2.
+
+
+
+Fig. 3. External view of the mockup
+
+
+
+Fig. 4. Air-core transformer
+
+[p229]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 229
+
+
+Fig. 5. Grounding radiator
+
+
+Fig. 6. Use of water pipe as grounding
+
+[p230]
+230                                                                                          Appendix 2.
+
+
+Fig. 7. Spark gap
+
+
+Fig. 8. Kilowatt load lamps
+
+[p231]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 231
+
+
+Fig. 9. Five one-kilowatt load lamps
+
+
+Fig. 10. Generation of 5 kW of electric power in autonomous mode
+with the starter (battery) disconnected
+
+[p232]
+232                                                                                          Appendix 2.
+
+
+Fig. 11. 2009. 3 kW generator in assembled form
+
+
+Fig. 12. Installation of the generator
+
+[p233]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 233
+
+
+Fig. 13. Generator, end view
+
+
+Fig. 14. Same
+
+[p234]
+234                                                                                          Appendix 2.
+
+
+Fig. 15. Generator, top view
+
+
+Fig. 16. Load variant — incandescent lamps with total power of 3 kW.
+
+[p235]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 235
+
+
+Fig. 17. Generator in operation: generated power 3 kW,
+startup from "Krona" battery
+
+[p236]
+236                                                                                          Appendix 2.
+
+[p237]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 237
+
+[p238]
+238                                                                                          Appendix 2.
+
+[p239]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 239
+
+[p240]
+240                                                                                          Appendix 2.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p241]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 241
+
+[p242]
+242                                                                                          Appendix 2.
+
+[p243]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 243
+
+[p244]
+244                                                                                          Appendix 2.
+
+[p245]
+Photographs of the demonstration of the electric generator mockup
+and patent of Tariel Kapanadze                                                                 245
+
+[p246]
+246                                                                                           Appendix 3.
+Appendix 3
+V.A. Atsyukovsky
+Critical analysis of the foundations of the theory of relativity
+Introduction………………………………………………………………..247
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+Chapter 1. Logical foundations of the theory of relativity……….250
+    1.1. On the initial postulates of the theory of relativity
+of A. Einstein……………………………………………………………250
+    1.2. Logic of the special theory of relativity…………...256
+    1.3. Logic of the general theory of relativity…………………...261
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+Chapter 2. On methodological features of experimental setup
+            and interpretation of their results…………266
+     2.1. Some methodological features of experimental setup
+and interpretation of their results……………………..266
+            2.2. Some features of the interpretation of experimental
+results…………………………………………………………………269
+
+
+---
+
+
+### SOURCE SECTION: Глава 3.
+
+Chapter 3. Experiments on the special theory of
+            relativity………………………………………………..272
+             3.1. Studies of the aether wind using interferometers
+with optical path length greater than 10 m…………………………...272
+             3.2. Studies of the aether wind using interferometers
+with optical path length less than 5 meters………………………277
+             3.3. Studies of the aether wind in partial vacuum……..278
+             3.4. Studies of the aether wind using masers……...279
+             3.5. Studies of rotational wind in the aether………….281
+             3.6. Studies of the dependence of mass on velocity using
+charged particles…………………………………………………….285
+             3.7. Studies of the dependence of the flow of time on
+velocity…………………………………………………………………...290
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+Chapter 4. Experiments on the general theory of relativity………293
+            4.1. Verification of the equivalence principle………………………293
+            4.2. Studies of gravitational spectral shift……..295
+            4.3. Studies of the "red shift of spectra of distant
+galaxies"…………………………………………………………………...297
+            4.4. Studies of the shift of the perihelion of Mercury's orbit…...299
+            4.5. Studies of the deflection of light by the Sun's mass…………..302
+            4.6. Experiments to detect gravitational waves…..308
+Conclusions…………………………………………………………………...311
+References……………………………………………………………….311
+
+[p247]
+Critical analysis of the foundations of the theory of relativity.                      247
+The formal teaching of Einstein is irrefutable,
+if (?!) his foundations and consequences are accurate
+S.I. Vavilov. Introduction to the book "Experimental
+foundations of the theory of relativity. 1928.
+In the book S.I. Vavilov Collected Works, vol. 4, p. 16.
+M.: USSR Academy of Sciences, 1956
+
+
+Introduction
+
+More than a hundred years have passed since the publication by A. Michelson of the results of his famous experiment to detect the aether wind. These results, which showed that at the Earth's surface level the aether wind is absent — although it was expected that its velocity would correspond to the Earth's orbital velocity around the Sun (30 km/s) — proved unexpected for many. The repetition of the experiment by A.A. Michelson and E.W. Morley (1886–1887) confirmed the result obtained. It was precisely this circumstance that served as the basis for A. Einstein's formulation of the special theory of relativity in 1905–1910, and the general theory of relativity in 1915–1916.
+The brilliant successes of the theory of relativity in the field of electrodynamics of moving bodies and in the field of motions at near-light velocities, along with well-known positive and practical results, also gave rise to certain philosophical interpretations. These extend the postulates, methods, and conclusions of the theory of relativity beyond the domain in which they have been validated, and therefore lead to incorrectness in the general philosophical sense. In these interpretations, it is held that the logical constructions of the theory of relativity have the force of absolute truth, and that its experimental confirmations are complete and exhaustive; criticism of the theory of relativity, formerly widely deployed on the pages of scientific journals, has practically disappeared since the second half of the 1960s.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p248]
+248                                                                                           Appendix 3.
+However, a number of propositions advanced by the theory of relativity continue to raise doubts, and the "experimental confirmations" are not always convincing. The conclusions derived from the postulates of the theory of relativity have far-reaching consequences. Thus, the conclusion of the special theory of relativity (STR) regarding the absence of the aether in nature deprives energy of its material carrier. The concept of "field as a special form of matter" is merely an attempt at terminological substitution, on the one hand, and on the other, a refusal to penetrate the mechanism of the structure of the field, replacing this mechanism with a mathematical description of the result of the field's action. This imposes limitations on human cognitive capabilities with respect to fields, which in turn leads to limitations in the ability to harness the forces of nature for practical activity.
+There are also a number of other propositions that claim to be of a fundamental nature but are in fact merely consequences of an unjustified extension of the domain of applicability of the initial postulates and logic of the theory of relativity, and whose correspondence to reality is far from obvious.
+In his Spencerian lecture "On the Method of Theoretical Physics" [2, p. 184], delivered in 1933, Einstein expounds his view of how theoretical physics should be constructed:
+"…the axiomatic foundation of theoretical physics cannot be extracted from experience, but must be freely invented… Experience may suggest the appropriate mathematical concepts to us, but they can in no way be derived from it. The truly creative principle, however, is inherent in mathematics itself. I therefore consider, to a certain extent, justified the belief of the ancients that pure thought is capable of comprehending reality."
+"…It should be agreed that the 'proximity' of the fundamental concepts and hypotheses of the theory to experience is an important advantage of the theory, and greater confidence in such a theory is, of course, op-"
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p249]
+Critical analysis of the foundations of the theory of relativity.                      249
+justified. Here there is less danger of going completely astray, in particular because it requires far less time and effort to refute such a theory by experiment. But again and again, as our knowledge deepens, we must relinquish this advantage in our striving for logical simplicity and unity of the foundations of physical theory" [3, p. 726].
+Comparing such statements with the known proposition of dialectical materialism that "the point of view of life, of practice, must be the first and fundamental point of view of the theory of knowledge" [1, p. 145], and that "the recognition of the objective lawfulness of nature and of the approximately faithful reflection of this lawfulness in the human mind is materialism" [1, p. 159], one can note a significant difference in the assessment of the role of practice in cognizing the laws of nature.
+Given the increasingly felt need for a rigorous substantiation of the general propositions of natural science, it is expedient to once again critically re-examine the initial postulates, logical constructions, and experimental confirmations of the theory of relativity, in order to reassess the worldview categories and to see whether it would not be more correct to draw upon other conceptions that were rejected by modern theoretical physics without sufficient justification.
+A critical re-examination of the logical foundations of the theory of relativity is all the more necessary because new theories have now appeared claiming the role of unifying theories of natural science, including various modernizations of A. Einstein's theory of relativity. While criticizing individual, often insignificant, flaws of the theory of relativity, these theories repeat its fundamental methodological errors, relying on arbitrarily chosen invariants, arbitrary postulates, reducing the entire diversity of real motions of matter — specific to each physical phenomenon — to space-time distortions.
+The author's viewpoint on the methodological problems associated with the theory of relativity is set forth in works [29, 30, 173].
+
+[p250]
+250                                                                                           Appendix 3.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+Chapter 1. Logical foundations of the theory of relativity
+
+1.1. On the initial postulates of the theory of relativity
+of A. Einstein
+
+As is known, the postulates of the special theory of relativity developed by A. Einstein [4, p. 10; 5, p. 152] are:
+1. The same course of all physical phenomena (mechanical, optical, thermal, etc.) in any inertial frames of reference;
+2. The independence of the speed of light propagation in vacuum from the motion of the light source, and its sameness in all directions.
+From the first postulate follows the impossibility of detecting the fact of uniform and rectilinear motion by means of any physical experiments conducted inside a moving laboratory.
+From the second — the impossibility of obtaining velocities exceeding the speed of light, and, moreover, the independence of the speed of light from the methods of observation and measurement.
+A consequence of these two postulates is the dependence of space, time, and mass on the velocity of motion of bodies, and a number of other propositions. Both are possible only if the world medium — the aether — does not exist in nature, for the existence of such an all-penetrating medium immediately provides methodological grounds for seeking ways to detect the motion of this medium through the laboratory, and consequently, for detecting the fact of the laboratory's motion through the aether without going beyond its confines. Such motion apparently cannot be detected by mechanical means, although this cannot be said in advance about optical methods. The presence of a medium also allows one to seek differences in the speed of light in the immediate vicinity of the source and at a distance from it, during motion of the laboratory and at rest, to exam-
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p251]
+Critical analysis of the foundations of the theory of relativity.                      251
+ine transitional processes during photon displacement, as would be justified for any gaseous or liquid medium.
+Thus, the question of the existence of a world medium — the aether — in nature is most intimately intertwined with the question of the legitimacy of adopting the fundamental postulates of the theory of relativity.
+As is known, A. Einstein arrived at the idea of the absence of the aether in nature based on analysis of the results of Fizeau's experiments in 1851 [6] and of Michelson, first conducted in 1880–1881 and then repeated together with Morley in 1886–1887 [7–9].
+The experiment conducted by Fizeau aimed to determine the speed of light in water moving along the direction of light propagation. As a result of processing the experimental data, it was shown that the speed of light in water has the value:
+
+        c                1
+u = —  ± ( 1 –   — ) v,
+        n                n²
+
+where c is the speed of light in vacuum, n is the refractive index of the medium, and v is the velocity of the medium (water).
+Thus, Fizeau's experiment proved that light is partially entrained by a moving medium.
+The Michelson–Morley experiment aimed to determine the value of the aether wind velocity, since it was assumed that the aether is not entrained by the Earth (Lorentz's hypothesis of a non-entrained aether). The results of the experiment showed that, at least within the accuracy of the experiments conducted, the aether wind at the Earth's surface is absent; consequently, the aether, if it exists, is fully entrained by the Earth.
+In the work "The Principle of Relativity and Its Consequences" (1910) [5, p. 140], A. Einstein, analyzing the results of Fizeau's experiment, arrives at the conclusion that the partial entrainment of light by a mov-
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p252]
+252                                                                                           Appendix 3.
+ing liquid "…rejects the hypothesis of complete entrainment of the aether. Consequently, two possibilities remain:
+1. The aether is completely stationary, that is, it takes absolutely no part in the motion of matter;
+2. The aether is entrained by moving matter, but it moves at a velocity different from the velocity of matter.
+The development of the second hypothesis requires the introduction of some assumptions regarding the relationship between the aether and moving matter. The first possibility is very simple (emphasis mine — V.A.), and for its development on the basis of Maxwell's theory, no additional hypothesis is needed that could complicate the foundations of the theory."
+Having then noted that Lorentz's theory of a stationary aether was not confirmed by the results of Michelson's experiment, and that thus a contradiction is present, Einstein states:
+"…it is impossible to create a satisfactory theory without abandoning the existence of a certain medium filling all space."
+From the above, it can be seen that A. Einstein, for the sake of the "simplicity" of the theory, deemed it possible to abandon a physical explanation of the contradiction between the conclusions drawn from the two indicated experiments. The second possibility noted by Einstein was never developed by any known physicist, although it is precisely this possibility that does not require abandoning the world medium — the aether.
+The abandonment of the need to account for the role of the physical carrier of energy of disturbances, which is the aether, is, first and foremost, an abandonment of the need to study the physical essence of phenomena. It is an attempt to limit a phenomenon to its formal-mathematical description, selecting the latter so that the conclusions following from the proposed fundamental relationships formally coincide with experimental data. The shortcomings of such an approach were pointed out in due time by a number of authors developing the so-called kinetic theory of matter [10–12].
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p253]
+Critical analysis of the foundations of the theory of relativity.                      253
+No mathematical derivations are capable of explaining the physical essence of a phenomenon if it is not embedded in the initial conditions. Explaining the physical essence means not describing the phenomenon, but uncovering its internal mechanism, tracing the cause-and-effect relationships between its components. Mere mathematical operations, including the mathematical operations of the theory of relativity, are insufficient for answering questions about the physical essence of the phenomena it examines.
+The abandonment of the energy carrier also implies, moreover, the recognition of the possibility of motion without matter and the conservation of energy in space without a material carrier at the moment when this energy, for example in electromagnetic form, has left one body and not yet reached a second — an example used by Maxwell [13, p. 253]. The reference to a "special form of matter — the field" does not change matters, since it explains nothing and does not reveal the mechanism of the structure of this "special form of matter." Thus, the development of the theory solely on the basis of the "first possibility" in the presence of the "second possibility" is clearly insufficiently justified.
+Apparently understanding this, in the work "Aether and the Theory of Relativity" (1920) [13, p. 253] A. Einstein changed his viewpoint on the existence of the aether:
+"In summary, it can be said that the general theory of relativity endows space with physical properties; in this sense, therefore, the aether exists. According to the general theory of relativity, space is unthinkable without the aether; indeed, in such space not only would the propagation of light be impossible, but scales and clocks could not exist, and there would be no space-time distances in the physical sense of the word."
+In the work "On the Aether" (1924) [15, p. 160] A. Einstein once again emphasizes:
+"We cannot do without the aether in theoretical physics, that is, a continuum endowed with physical properties, for
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p254]
+254                                                                                           Appendix 3.
+general theory of relativity, whose fundamental ideas physicists will probably always adhere to (?!) — V.A.), excludes direct action at a distance, while every theory of near-action presupposes the existence of continuous fields, and, consequently, the existence of the aether."
+Thus, it should be noted that the working approach used by Einstein, consisting in a preference for the "simpler" path of investigation, led to a contradiction: the special theory of relativity (STR) is incompatible with the idea of the existence of the aether in nature, while the general theory of relativity (GTR) is incompatible with the idea of the absence of the aether in nature — although both parts of the theory derive from the same postulates presented above, and moreover, the general theory of relativity is a direct continuation of the special theory of relativity, and both have the same author.
+It should be noted that work on detecting the aether wind was continued by E. Morley and D. Miller (1904–1905), then by D. Miller (1921–1925), and finally by A. Michelson himself (1929). These experiments yielded a positive result: the aether wind was detected, which unambiguously confirms the existence of the aether in nature and in principle leaves no room for the advancement of the above postulates of the theory of relativity.
+In recent years, works have begun to appear [16–19] in which the authors draw attention to the insufficiency of the initial propositions of A. Einstein's theory of relativity. It is pointed out, in particular, that questions of relativity were at one time developed by other investigators as well, in particular by H.A. Lorentz, who derived his transformations in 1904, that is, a year before Einstein created the theory of relativity [20], from the condition of the motion of charges relative to the aether. The transformations obtained, known to the whole world as "Lorentz transformations," were used by Einstein in the special theory of relativity as one of the pieces of evidence for the absence in na-
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p255]
+Critical analysis of the foundations of the theory of relativity.                      255
+ture of the aether. Questions of relativity were developed by the French mathematician Poincaré [21] and a number of other individuals.
+While recognizing that all motions can only be relative, these authors did not at all consider the abandonment of the aether to be a necessary condition for the correctness of this proposition; on the contrary, they pointed to the necessity of its existence. Their theories more closely reflect reality, but, unfortunately, are also not free from an unjustified extension of the domain of applicability of their conclusions and from idealization of the mathematical solutions obtained. Having no conception whatsoever of the nature of the aether, of the nature of fields, the indicated authors provided merely idealized models of certain phenomena, although less contradictory than F. Einstein's model.
+Every physical phenomenon is described by certain functional relationships between physical quantities. Depending on which of these quantities are or are assumed to be constant, independent of others, the remaining quantities turn out to be functions. Quantities that do not depend on others are physical invariants. From the postulates of the theory of relativity it follows that all events and all physical phenomena are considered in connection with the phenomenon of the propagation of light, and the speed of light (a particular property — the speed of a particular phenomenon — light) acts as a universal (!) physical invariant.
+However, it is obvious that only physical categories present in absolutely all physical phenomena at all levels of organization of matter can serve as universal physical invariants. Such invariants are the categories of motion, matter, space, and time. No particular properties of particular physical phenomena can serve as such. Bearing in mind that the majority of physical phenomena are not accompanied by the emission of light and have no relation to electromagnetism — for example, gravitational and nuclear phenomena — then to consider the speed of light as a universal invariant and to extend this quan-
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p256]
+256                                                                                           Appendix 3.
+tity as the starting point for the entire edifice of physics is, at the very least, without basis.
+From the above, it must be stated that in the selection of the postulates of the theory of relativity, its author A. Einstein made certain incorrect assumptions, since in all his reasoning the speed of light (a particular property — the speed of a particular phenomenon — light) was effectively adopted as a universal physical invariant.
+
+1.2. Logic of the STR — special theory of relativity
+
+The fundamental initial concept of the special theory of relativity is the notion of the simultaneity of occurring events.
+By the simultaneity of two events [4, p. 8] occurring at different points in space A and B, respectively, is meant such a course in time when an observer located at a third point C, stationary relative to points A and B and situated at equal distances from these points, receives a light signal from both events simultaneously.
+The observer having a certain finite velocity relative to point C, given the assumption of equality of the speed of light in stationary and moving coordinate systems, determines the non-simultaneity of arrival of the light signals. From this, the observer must conclude the non-simultaneity of the events, although for another observer at rest, located at the same point C, these events will still occur at the same moment in time. Based on this reasoning, Einstein drew the conclusion about the dependence of the flow of time on coordinates, on the velocity of motion, and also on the method of measurement.
+
+[p257]
+Critical analysis of the foundations of the theory of relativity.                      257
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p258]
+258                                                                                           Appendix 3.
+The use, for solving the problems posed by Einstein in the STR, of the assumption of equality of the speed of light in coordinate systems moving at different velocities contains a serious logical contradiction: one and the same process of light propagation turns out to be ambiguous.
+The interval between two events, taking into account the above-presented concept of the simultaneity of events, is determined by the expression:
+
+s² = (x₂ – x₁)² + (y₂ – y₁)² + (z₂ – z₁)² – c²(t₂ – t₁)².
+
+The magnitude of this interval is declared a universal physical invariant, that is, a quantity that is constant and unchanging in all processes, including nuclear and gravitational ones, although one of the components of this interval — the speed of light — has no relation whatsoever to them.
+Consideration of the motion of a point relative to another point leads in this case to the Lorentz transformations:
+
+                                                                         v
+                                                               t₀* – —— x₀*
+          x₀* – vt₀*                                                c²
+x =     _______   ;  y = y*; z = z*; t =         _______
+        √   1 – β²                                                                    √ 1 – β²
+
+where β = v/c is the relative velocity of motion of bodies; x*, y*, z*, t* are the coordinates of the moving point in the moving coordinate system; x, y, z, t are the coordinates of the moving point relative to the stationary coordinate system.
+Uniform motion along the x-axis is assumed. Based on the Lorentz transformations, the following are then derived:
+
+— the dependence of time on the velocity of motion of a body:
+
+[p259]
+Critical analysis of the foundations of the theory of relativity.                      259
+            t₀*
+t =      _______   ;
+        √   1 – β²
+
+— the change in the longitudinal dimensions of a body in the direction of motion:
+           _______
+l = l₀√   1 – β²    ;
+
+— the velocity addition rule:
+
+              u + v
+t =                       ;
+                 uv
+         1 + ——
+                 c²
+
+from which it follows that v < c and v = c only when u = c and v = c;
+
+— the dependence of momentum on velocity:
+
+                           mv₀                      m₀v
+p = mv =    _______     =       _______   ;
+               √   1 – β²                     √   1 – β²           ;
+
+where an arbitrary substitution of indices mv₀ = m₀v has been made, which is interpreted as the dependence of mass on velocity:
+
+                        m₀
+  m =     _______   ;
+           √   1 – β²
+
+and further — the dependence of heat and temperature on velocity:
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p260]
+260                                                                                           Appendix 3.
+                      dQ₀                        _______
+dQ =     _______   ;  T = T√   1 – β²    ;
+
+which further leads to the relationship between mass and energy:
+
+              ∆T
+∆m =  ———;   ∆T = mc² – m₀c²
+             c²
+
+and, finally,
+
+E = mc².
+
+Thus, the concept of simultaneity together with the concept of the interval determine, according to Einstein, on the one hand, the interrelationship of space and time, and on the other, the dependence of dimensions, mass, and energy on the velocity of motion of a body. Here the speed of light propagation acts as the fundamental quantity.
+Curious in this connection is the conclusion drawn by A. Einstein, and today generally accepted, regarding the limiting nature of the speed of light in the addition of velocities:
+"There cannot exist an interaction that can propagate faster than light in vacuum" [5].
+Having placed at the foundation of the concept of simultaneity the reasoning about light and having made a logical circle, A. Einstein arrived at the conclusion that the speed of light is the limiting magnitude of the velocity of motion.
+The question arises: could not some other speed be placed at the foundation of the concept of simultaneity — for example, the speed of sound propagating in some medium? It turns out that it can, and then, having performed all the same mathematical transformations, we logically arrive at the idea of the limiting nature and constancy of the speed of sound, although it is known that this is incorrect. Exactly the
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p261]
+Critical analysis of the foundations of the theory of relativity.                      261
+same way, one could adopt some hypothetical speed as the basis, and then arrive at the conclusion that it is impossible to exceed precisely this hypothetical speed.
+It should be recalled that A. Einstein's adoption of the speed of light as the basis derived from the above-presented interpretation of the results of the Fizeau and Michelson experiments. However, as shown above, this interpretation is not the only possible one. If one doubts the correctness and uniqueness of the explanation of the results of Michelson's experiments, it may turn out that the speed of light cannot be assigned such a fundamental character. And most importantly, the concept of simultaneity itself requires refinement: for two observers, the simultaneity of the same events will be different. Consequently, the observer does not provide an objective assessment of simultaneity; on the contrary, the course of events in time must appear as an objective reality, independent of the perceptions of observers, of what kind of signal communicates to the observer the fact of the course of events. In this case, the entire system of reasoning that extends the formulas of the special theory of relativity to general philosophical categories of space and time collapses, since there is no room left for the transformations of coordinates, time, longitudinal dimensions, velocity, momentum, heat, and temperature.
+Thus, the system of logical constructions of the special theory of relativity represents a closed circle, where the final reasoning and conclusions return to the initial concepts, and the subjective perception of events by observers is presented as the objective course of events (Fig. 1.1).
+
+1.3. Logic of the GTR — general theory of relativity
+
+Just as in the special theory of relativity, the fundamental initial concept in the general theory of relativity is the concept of the invariant — the square of the interval, which geometrically is an element of length [22–26].
+s² = (x₂ – x₁)² + (y₂ – y₁)² + (z₂ – z₁)² – c²(t₂ – t₁)².
+
+[p262]
+262                                                                                           Appendix 3.
+
+Here the concept of the interval contains an electromagnetic quantity — the speed of light, which has no relation whatsoever to gravitation, to which the general theory of relativity is devoted. It is expedient to recall that gravitational interaction is a fundamental interaction different from the electromagnetic one, and differing from it in interaction energy by 42 (!) orders of magnitude.
+The interval can be represented in the form of a tensor:
+
+ds² = (dx₁)² + (dx₂)² + (dx₃)² – (dx₀)²
+
+or in abbreviated form
+
+ds² = gᵢₖdxᵢdxₖ,
+
+so that
+
+g₀₀ = –1;  g₁₁ = g₂₂ = g₃₃ = 1; gᵢₖ = 0; when i ≠ k.
+
+This form of the tensor is called Galilean. The transition to a non-inertial coordinate system associated with an arbitrarily moving system means the introduction, in place of the four-dimensional coordinates, of new coordinates x¹ᵢ, related to the old ones through arbitrary functions fᵢ, so that
+
+x¹ᵢ = fᵢ(xᵢ).
+
+In this case
+
+          ∂xᵢ
+dxᵢ = —— dxⁱˡ,
+          ∂xⁱˡ
+
+so that in the new coordinate system
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p263]
+Critical analysis of the foundations of the theory of relativity.                      263
+
+ds² = g¹ᵢₖdx¹ᵢdx¹ₖ,
+
+where
+
+                 ∂xᵢ      ∂xₘ
+g¹ᵢₖ = gᵢₘ—— ·——
+                  ∂xⁱˡ   ∂xⁱᵏ
+
+— the metric tensor in the new non-inertial frame of reference.
+The fundamental proposition of the general theory of relativity — the theory of gravitation — is that even in the presence of a gravitational field potential created by bodies, the interval has the form
+
+ds² = g¹ᵢₖdx¹ᵢdx¹ₖ.
+
+The components of the metric tensor g¹ᵢₖ are functions satisfying the equations of the gravitational field, and the tensor cannot be reduced to the Galilean form. In this case, since ds is geometrically an element of length in space-time, and this space is non-Euclidean, it has curvature, and the degree of this curvature is determined by the gravitational potential. Bodies in such space move along curvilinear trajectories; in particular, light also undergoes deflection.
+From the above, the conclusion is drawn that the curvature of the motion of bodies and gravitation itself are consequences of the curvature of space at a given point. Thus, in accordance with the GTR, the introduction of mass into a spatial region causes a curvature of space-time in that region, which creates a gravitational potential in it.
+Further, a tensor expression is established that describes space in the region of action of gravitational potentials, from which follows
+
+[p264]
+264                                                                                           Appendix 3.
+
+
+---
+
+
+### SOURCE SECTION: Глава 1.
+
+[p265]
+Critical analysis of the foundations of the theory of relativity.                      265
+the property of curvature of space-time, and from this curvature it is explained that gravitation is a consequence of this curvature. That is, gravitation is explained by the presence of mass in space, and gravitation is explained by … gravitation!
+In the case considered, just as in the previous one, the logical chain of reasoning represents a circle, where the final link is a direct consequence of the first and is itself that very same link (Fig. 1.2), and although the general theory of gravitation, to the role of which the general theory of relativity aspires, is self-consistent within itself, one can by no means agree that such logic allows one to explain the nature of gravitation.
+The difference in the behavior (motion) of bodies and radiations in one and the same region of "curved" space, the dependence of their trajectories on initial velocity and acting forces, suggest that there are differences in the physical processes accompanying the motion of bodies and radiations in the region of gravitation, and that there is no curvature of space itself. There are physical processes, different for different forms of motion of matter, and the task is to elucidate the essence and features of each of them, rather than reducing them to the contrived category of "curvature of space-time."
+From the above it follows that A. Einstein's general theory of relativity is nothing more than one of possible mathematical techniques, in no way explaining the nature of gravitation. The system of logical constructions of the GTR is a circle closed upon itself, possessing no heuristic value.
+The reduction of the entire diversity of the motion of matter, including gravitational, in each physical phenomenon to space-time distortions removes the question of the internal essence of the phenomenon, thereby depriving the investigator of the possibility of uncovering its mechanism and limiting the cognition of nature.
+
+[p266]
+266                                                                                           Appendix 3.
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+Chapter 2. On methodological features of experimental setup and interpretation of their results
+
+2.1. Some methodological features of the setup and conduct of experiments
+
+When setting up any experiments, the researcher proceeds from their ultimate goal, on the one hand, and from his conception of the essence of the phenomenon being studied, on the other. Without a conception of the goal of the experiment, and also without a conception of the essence of the phenomenon, it is altogether impossible to set up an experiment, but these same conceptions are also the main interfering factors hindering the objective investigation of the subject and the objective evaluation of the results obtained.
+Indeed, one cannot set up an experiment without knowing or formulating what it is being conducted for. However, the choice of goal in itself largely predetermines the setup and methodology of the work, when quite definite results are expected. And since the results of any experiment are accompanied by errors, there is always the possibility of passing off the desired as the actual, especially if the expected result is at the limit of instrument sensitivity.
+In this regard, reasoning about the "crucial" experiment, which supposedly sheds light on the phenomenon under study, seems dubious, since for such cases especially careful preparation of the experiment, a large body of statistics, and an objective evaluation of the data are required. However, the paradigm in effect at the time of preparation and conduct of the experiment, as a rule, exerts such a substantial influence that there is no question of careful preparation, statistics, or objective processing of results, and the results obtained are easily passed off as confirmation of the prevailing paradigm if they do not contradict it. If they do contradict it, they are simply suppressed.
+
+
+---
+
+
+### SOURCE SECTION: Глава 2.
+
+[p267]
+Critical analysis of the foundations of the theory of relativity.                      267
+Many examples can be given of how this happens in practice.
+In 1919, A. Eddington on the island of Príncipe off the African coast conducted the first experiment to measure the deflection of starlight near the Sun during a solar eclipse. In 1922, Campbell and Trumpler conducted a similar experiment in northwestern Australia. The measurement result fell within the values predicted by Einstein, in the sense that it did not exceed them. This was immediately interpreted as a confirmation of Einstein's general theory of relativity. In general, the entire group of experiments in this direction is characterized by the fact that the processing of results is carried out in accordance with the theory they are supposed to confirm, i.e., in a highly non-objective manner.
+The results of Michelson's experiments are interpreted as negative or "null," despite the fact that a definite positive result was obtained in them.
+Experiments on the equivalence of gravitational and inertial masses for various materials are interpreted as confirmation of the propositions of the general theory of relativity, although ordinary mechanics never made any distinction between gravitational and inertial masses.
+And so forth.
+Let us consider the general sequence of setting up and conducting experiments, as well as the processing and interpretation of results (Fig. 2.1).
+The theoretical foundations used exert a decisive influence on the setup of the experiment, on the basis of which the researcher constructs a model of the phenomenon.
+The use of one or another model reveals the corresponding parameters, the interrelationship between which is sought in the course of conducting the experiment, as well as those interfering factors, invariably present in any experiment, which the experimenter is obliged to account for. Otherwise, the result of the action of these interfering factors may be interpreted as the main result of the experiment.
+
+[p268]
+268                                                                                           Appendix 3.
+
+Unfortunately, the total number of interfering factors is always and in principle infinitely large, so it is impossible to account for all of them. In this connection, only the significant factors, which are few, have to be taken into account, but then another problem arises — the problem of proving the significance or insignificance of one or another interfering factor specifically for the given experiment, pursuing the given concrete goal. An experiment may be interpreted incorrectly if significant interfering factors, i.e., factors affecting
+
+
+---
+
