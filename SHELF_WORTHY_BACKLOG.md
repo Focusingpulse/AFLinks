@@ -1,0 +1,50 @@
+# Shelf-Worthy Backlog — AFLinks
+
+Status of every visible feature, verified by live audit on 2026-08-31.
+Legend: ✅ verified working · 🔧 fixed this pass · ⚠️ known gap · 🧹 remove/hide
+
+## Data layer (the treasure)
+
+| Feature | Status | Notes |
+|---|---|---|
+| Archive index (11,982 docs) | ✅ | All categorized; 1,103 (9%) lack text previews (media/corrupt/await-OCR) |
+| Concept tags on every record | ✅ | `concepts` field present; tagger runs each sync |
+| Researcher index (59 DB / 1,193 extracted) | ✅ | Feed top-12 researchers render with sources |
+| Patent index (2,339 DB) | ✅ | Patent tags render on cards + modal |
+| viXra streaming | ✅ | 5,810+ entries merged; queue continues |
+| Atsyukovsky Book 5 translation | ✅ | 62 translations published; reader modal works |
+| Declassified records (16 finds, 9 countries) | 🔧 | Files now ship to site; cards open in reader modal (were unclickable) |
+| Scout finds | 🔧 | Empty find entries filtered — no more dead cards |
+| Slim search index | 🔧 | `search_index.json` 13.4MB vs 21MB full; detail modal lazy-loads chunked full records |
+
+## Link integrity (audited this pass)
+
+| Check | Result |
+|---|---|
+| Hardcoded remote URLs (51) — AF articles/shop/resources, Rex, GitHub, Telegram | ✅ 0 broken |
+| In-site assets (books/, sources/, translations/, index.json) | ✅ all present |
+| Dynamic source URLs (30-doc sample: viXra PDFs, tuks, rex) | ✅ 0 broken |
+| Declassified/ dir shipped | 🔧 was absent from site — now published |
+
+`audit_links.py` is the repeatable link-integrity layer (add to a weekly cron).
+
+## Remaining gaps (the real backlog)
+
+1. **AF category map coverage** — only 18 article permalinks for 47 categories; many categories fall back to AF Resources anchors (collection pages). Goal: verify + deep-link more AF articles per category, or drop the badge for that category. (The Ethics of this vault is specific pages, never generic.)
+2. **Category normalization** — 47 shallow buckets with near-duplicates (Biology vs Biology/Health, Water vs Water/Hydrogen). Normalize through the concept layer so filter dropdowns feel curated.
+3. **Search depth cap** — slim index searches title/categories/600-char preview. Full-doc search needs tokenized posting (Web Worker) — defer until 30k+.
+4. **1,103 docs without previews** — mostly media + corrupt PDFs. Cloud has no Tesseract; OCR batch on FocusOptimized (Windows) when convenient.
+5. **lens.html** — no data fetch; verify it's a static curated page vs a broken feature. If placeholder, hide it or wire it.
+6. **Declassified record content** — each md should carry real outbound URLs to the source; spot-verify all 16.
+7. **Vault seam/vesica** — data is rich (verified crossings); confirm every seam card opens a filtered view with results (no empty states).
+8. **Translation reader for Book 5** — progress bar + assembled reader confirmed working; verify chunk manifest stays current as book5-translate cron runs.
+
+## Scale agenda (target 20–30k docs)
+
+- viXra: 46k papers available; queue at ~6,923 crawled, processing continues every sync
+- Workers now live: i-sis.org.uk (~2k), padrak.com/ine (~130) — crons `aflinks-worker-isis`, `aflinks-worker-padrak`
+- Remaining sites available to take: ether.sciences.free.fr (~50), filestore.orgfree.com (~200), psionicresearch.com, strikefoundation.earth, cernohajev.omeka.net, magneticenergy.org, newphysics.se, merlib.lackluster.org, borderlands.de (Wayback), keychests.com (Wayback)
+- Each site = one worker (see PARALLEL_SCRAPE.md). Friend agents with spare accounts can each take one.
+
+## Rule of the vault
+Every visible card opens something real. Any feature that cannot be made functional gets hidden until it can — no "coming soon", no decorative text.
