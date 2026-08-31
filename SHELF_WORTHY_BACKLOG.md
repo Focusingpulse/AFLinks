@@ -31,7 +31,7 @@ Legend: ✅ verified working · 🔧 fixed this pass · ⚠️ known gap · 🧹
 ## Remaining gaps (the real backlog)
 
 1. ✅ **AF category map coverage — DEEP-LINKED (Aug 31)** — 48 categories now each carry 1-5 specific verified articles (93 total permalinks, all HTTP 200, WordPress REST inventory of 534 posts). Featured fallback extended 18 → 34. Automated consistency check: map titles === URL keys (no silent collection-page fallback). Only Finance/Economics intentionally unmapped (no honest AF article; featured fallback still gives specific pages).
-2. **Category normalization** — 47 shallow buckets with near-duplicates (Biology vs Biology/Health, Water vs Water/Hydrogen). Normalize through the concept layer so filter dropdowns feel curated.
+2. ✅ **Category normalization DONE (Aug 31)** — 47 → 44 canonical labels: Biology/Health→Biology, Water/Hydrogen→Water, Environmental→Environment/Climate (all zero-overlap splits, merged additively). Energy vs Energy Generation kept (genuinely distinct). `normalize_categories.py` idempotent; concept-map canonicalized; feed-builder guards against dead labels; AF map consolidated. Verified: 0 docs/feed entries with absorbed labels.
 3. **Search depth cap** — slim index searches title/categories/600-char preview. Full-doc search needs tokenized posting (Web Worker) — defer until 30k+.
 4. **1,103 docs without previews** — mostly media + corrupt PDFs. Cloud has no Tesseract; OCR batch on FocusOptimized (Windows) when convenient.
 5. **lens.html** — no data fetch; verify it's a static curated page vs a broken feature. If placeholder, hide it or wire it.
