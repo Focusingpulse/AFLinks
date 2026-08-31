@@ -54,3 +54,14 @@ docs/
 !SHELF_WORTHY_BACKLOG.md
 !PARALLEL_SCRAPE.md
 !link_audit_report.md
+
+# Exceptions: scout/forge reporting channel + contract doc
+!scout/
+!scout/**
+!scout/**/*.md
+!scout/**/*.json
+!forge/
+!forge/**
+!forge/**/*.md
+!forge/**/*.json
+!SCOUT_FORGE_REPORTING.md

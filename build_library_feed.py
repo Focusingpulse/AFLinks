@@ -459,21 +459,65 @@ def main():
         print(f"  WARN: pages_translated dropped {prev_pages} -> {pages_translated}; check paths / counting before trusting this feed", flush=True)
 
     # --- 3. Latest finds (scout sources) ---
+    # Scout reports arrive in several formats — polyglot scouts use numbered
+    # "N. **Title** — desc" lines with a URL; Scooter's growth scouts use a
+    # richer "### N. Title — desc" heading + "**Source URL:**" body. Parse
+    # any of them robustly so every scout's finds render on the site.
+    def parse_scout_finds(body):
+        finds = []
+        # 3a. Numbered bold-title lines: "12. **Title** — desc" (polyglot)
+        for m in re.finditer(r"^(\d+)\.\s+\*\*(.+?)\*\*\s*(?:—|-)+\s*(.+?)$",
+                             body, re.MULTILINE):
+            t, desc = m.group(2).strip(), m.group(3).strip()
+            u = re.search(r"(?:URLs?|Source URL|Link)s?:\s*(https?://\S+)",
+                          body[m.end():m.end()+600])
+            finds.append({"title": t, "description": desc,
+                          "url": u.group(1) if u else ""})
+        # 3b. Numbered headings: "### 13. Title — desc" + "**Source URL:**"
+        for m in re.finditer(r"^#{1,4}\s*(\d+)\.\s+(.+?)\s*(?:—|-|:)+\s*(.+?)$",
+                             body, re.MULTILINE):
+            t, desc = m.group(2).strip(), m.group(3).strip()
+            u = re.search(r"(?:URLs?|Source URL|Link)s?:\s*(https?://\S+)",
+                          body[m.end():m.end()+800])
+            finds.append({"title": t, "description": desc,
+                          "url": u.group(1) if u else ""})
+        # 3c. Bullet-title lines: "- **Title** — desc" or "- Title — desc"
+        for m in re.finditer(r"^[-\*]\s+(?:\*\*)?(.+?)(?:\*\*)?\s*(?:—|-|:)+\s*(.+?)$",
+                             body, re.MULTILINE):
+            t, desc = m.group(1).strip(), m.group(2).strip()
+            if t.lower().startswith(("title", "source", "url", "language", "gear", "run")):
+                continue
+            u = re.search(r"(?:URLs?|Source URL|Link)s?:\s*(https?://\S+)",
+                          body[m.end():m.end()+600])
+            finds.append({"title": t, "description": desc,
+                          "url": u.group(1) if u else ""})
+        # Dedupe by (title,url) keeping first occurrence
+        seen, out = set(), []
+        for f in finds:
+            k = (f["title"].lower()[:60], f["url"])
+            if k in seen:
+                continue
+            seen.add(k)
+            out.append(f)
+        return out
+
+    scout_roots = []
     sdir = os.path.join(LL, "sources")
     if os.path.isdir(sdir):
+        scout_roots.append(sdir)
+    # Also scan the public repo's own sources/ — Scooter/Forge push reports and
+    # translations there via GitHub (their shared-repo projections don't
+    # converge with this org's, but the public repo is a common channel).
+    repo_sources = os.path.join(AFLINKS, "sources")
+    if repo_sources != sdir and os.path.isdir(repo_sources):
+        scout_roots.append(repo_sources)
+
+    for sdir in scout_roots:
         for path in sorted(glob.glob(os.path.join(sdir, "*.md")), reverse=True):
             meta, title, body = parse_md_frontmatter(path)
             languages = meta.get("languages", "")
             scout = meta.get("scout", "")
-            # Extract find entries: numbered items with a **Title** line
-            finds = []
-            for m in re.finditer(r"^\d+\.\s+\*\*(.+?)\*\*\s*(?:—|-)+\s*(.+?)$", body, re.MULTILINE):
-                t = m.group(1).strip()
-                desc = m.group(2).strip()
-                # Grab the URL line after
-                url_match = re.search(r"URLs?: (https?://\S+)", body[m.end():m.end()+600])
-                url = url_match.group(1) if url_match else ""
-                finds.append({"title": t, "description": desc, "url": url})
+            finds = parse_scout_finds(body)
             # Only include a scout file if it actually parsed finds; empty
             # finds lists render as dead cards on the live site.
             if finds:
@@ -609,6 +653,11 @@ def main():
     STATUS_FILES = {
         "drunvalo": os.path.join(AFLINKS, "drunvalo", "status.json"),
         "cure-8er": os.path.join(AFLINKS, "synthesist", "status.json"),
+        # Scooter + Forge report through the public repo (their shared-repo
+        # projections don't converge with this org's ledger). Same pattern as
+        # drunvalo: cron writes scout/status.json + forge/status.json here.
+        "scout": os.path.join(AFLINKS, "scout", "status.json"),
+        "translation-qc": os.path.join(AFLINKS, "forge", "status.json"),
     }
     status_overrides = {}
     for member, spath in STATUS_FILES.items():
@@ -649,6 +698,8 @@ def main():
     feed["activity_log"] = parse_activity_log(os.path.join(LL, "ACTIVITY-LOG.md"))
     local_activity = parse_activity_log(os.path.join(AFLINKS, "drunvalo", "ACTIVITY.md"))
     local_activity += parse_activity_log(os.path.join(AFLINKS, "synthesist", "ACTIVITY.md"))
+    local_activity += parse_activity_log(os.path.join(AFLINKS, "scout", "ACTIVITY.md"))
+    local_activity += parse_activity_log(os.path.join(AFLINKS, "forge", "ACTIVITY.md"))
     if local_activity:
         # Merge dedupe: keep living-library entries, prepend local agent entries.
         merged = local_activity + [
