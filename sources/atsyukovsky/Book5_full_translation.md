@@ -3925,3 +3925,432 @@ In the middle of the 19th century, there was a years-long fierce dispute among n
 
 ---
 
+
+### SOURCE SECTION: Глава 6.
+
+[p190]
+190                                                                                                      Chapter 5.
+Friedrich Engels, who in his famous work "Dialectics of Nature" in the section "Measure of Motion — Work" showed that both measures of motion are valid, but only one of them — the quantity of motion — is valid for indestructible motion, while the second — energy — for destructible motion, i.e., that which transforms into heat.
+Engels writes: "In short, mv is mechanical motion measured by mechanical motion itself, mv²/2 is the same mechanical motion, but measured by its capacity to transform into a definite quantity of another form of motion. And we have seen that these two measures nevertheless do not contradict each other, because they are of different character."
+Since then, they have been used as such, though often forgetting that energy is a measure of the reserve of motion capable of converting into heat.
+
+Engels writes: "…by mv is measured 'motion transmitted and modified by mechanical devices,' thus, this measure is applicable to the lever and all forms derived from it — wheels, screws, etc. — in short, to all mechanical devices that transmit motion.
+But a very simple and by no means new consideration shows that here, to the same extent that mv holds, mv² also holds.
+Take some mechanical device in which the lever arms are in the ratio 4:1, and in which, accordingly, a weight of 1 kg balances a weight of 4 kg. By applying a completely negligible additional force to one arm, we can raise 1 kg by 20 m; the same additional force, applied then to the other arm, will raise 4 kg by 5 m, and moreover, the weight that gains the advantage will descend in the same time that the other weight requires for its rising. The masses and velocities here are inversely proportional to each other: mv, 1×20 = m'v', 4×5.
+If we then allow each of the weights — after they have been raised — to fall freely back to the original level, then the weight of 1 kg, having traversed a distance of 20 m, will acquire a velocity of 20 m/s (we take the acceleration due to gravity here as 10 m/s² in round numbers instead of 9.81 m/s²);
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p191]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      191
+The other weight of 4 kg, having traversed a distance of 5 m, will acquire a velocity of 10 m/s.
+
+mv² = 1×20×20 = 400 = m'v'² = 4×10×10 = 400.
+
+On the contrary, the times of fall here are different: the 4 kg traverses its 5 m in 1 second, while the 1 kg traverses its 20 m in 2 seconds. It goes without saying that we have here neglected the influence of friction and air resistance.
+
+But after each of both bodies has fallen from its height, its motion ceases. Thus, mv turns out here to be the measure of simply transferred, i.e., continuing motion, while mv² turns out to be the measure of vanished mechanical motion" [ibid., p. 73].
+
+But there is also a third conservation law — the Law of conservation of angular momentum, expressed as
+
+     L = mvR = const,                                                              (5.4)
+
+and it is valid for cases where mass moves along a trajectory with a variable radius R.
+
+But here, however, certain difficulties arise. Let us imagine that a body moves along a curve with a changing radius, for example, a ball moving along a groove with variable curvature (Fig. 6.3).
+
+If the radius of the trajectory decreases, then according to the law of conservation of angular momentum, the velocity must increase in inverse proportion to the ratio of the radii:
+
+                     R1
+      v2   =  v1 ——                                                                   (5.5)
+                     R2
+
+[p192]
+192                                                                                                      Chapter 5.
+But then the laws of conservation of momentum and conservation of energy are violated, because there is no evidence that energy is being supplied to the body moving along the trajectory.
+
+Fig. 6.3. Motion of a ball by inertia along a curvilinear groove
+
+If, however, the velocity is preserved, then both laws are satisfied, but then the law of conservation of angular momentum is violated. What is to be done?
+
+However, it turned out that motion along a curved trajectory can be accomplished in two ways — with energy input and without energy input, and these are completely different cases (Fig. 6.4).
+
+If a body moves around a cylinder, held by a thread winding onto the cylinder, then the center of the circle moves along the cylinder, and the radius decreases (Fig. 6.4a). In this case, the thread is taut at all times, and the body turns around a center located on the surface of the cylinder. Here the angle between the body's trajectory and the thread is 90°, and there is no projection of the thread's tension force onto the trajectory; because of this, there is no acceleration of the body, although the trajectory radius is changing! Exactly the same way it will change when a ball rolls along a groove with a variable radius, and in this case the ball's velocity of motion will change in direction but not in magnitude. Because no additional energy is supplied to it.
+
+If a body moves around a fixed center of rotation, then the motion will occur along a curve with a constant radius, and the body's trajectory represents a circle,
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p193]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      193
+because only a circle is a curve with a constant radius; there are no others. In this case, the angle between the body's trajectory and the thread is 90°, the force holding the thread gives no projection onto the trajectory. And if in this case there are no energy losses, and the body is already in motion, then it can rotate around the center for any length of time, and its velocity will remain constant (Fig. 6.4b).
+
+Fig. 6.4. Motion of a body along a curvilinear trajectory:
+a) around a cylinder; b) around a fixed center;
+c) cross-section of the lower part of a tornado.
+
+But if, during the motion of a mass around a fixed center, one pulls the thread, then the radius will begin to decrease, and the angle between the trajectory and the thread will no longer be 90°, but less. Then the force with which the thread is pulled will give a projection onto the trajectory, and the mass will begin to accelerate. Thus, the acceleration of the mass occurs at the expense of the energy invested by the one pulling the thread in moving the mass toward the center. An example of this is the motion of a figure skater who spins on ice, having first extended the arms out to the sides, and then pulling them in toward the body.
+
+[p194]
+194                                                                                                      Chapter 5.
+Calculation shows that with this method of reducing the radius, not only is the Law of conservation of angular momentum exactly satisfied, but also the Laws of conservation of momentum and energy, since the energy is added by an external source — the one pulling the thread.
+
+Thus, it turns out to be possible to convert the energy of thread tension into the energy of rotation of a body around a center. It has now been discovered that precisely such a mechanism underlies the energetics of gas vortices (Fig. 6.4v), and in this lies a great prospect for energy technology.
+
+6.4. On the energetics of gas vortices
+
+To verify the fact of compressibility of gas vortices, a so-called Wood's box was constructed (Fig. 6.5).
+
+                                1                        2                                 3
+Fig. 6.5. Formation of a gas toroidal vortex using a Wood's box: 1 — stage of toroid compression; 2 — stage of toroid expansion (diffusion); 3 — stage of toroid breakup.
+
+A Wood's box is an ordinary box of the type used for packaging parcels, but instead of a lid, an elastic membrane is mounted on it, and a hole 5-6 cm in diameter is drilled in the bottom. Inside, a "smoke charge" is placed, for example, a burning comb.
+
+A sharp blow to the membrane causes a ring vortex to be ejected from the hole in the box. To investigate the features of vortex formation, it is expedient to launch the vortex along a wall on which stripes are drawn. The vortex moves along the wall, and it can be seen that its motion consists of three stages.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p195]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      195
+1st stage — after exiting the hole, the toroidal vortex decreases in size; this process is the primary one. During the compression of the vortex, its energetics increase.
+2nd stage — the vortex increases in size and slows down, and the energy accumulated by the toroidal vortex is expended.
+3rd stage — the vortex stops and breaks up (diffuses). Here the weakened boundary layer is no longer able to withstand the centrifugal forces, and diffusion of the vortex occurs.
+
+Thus, this experiment, which any schoolchild can perform, confirms that in the initial stage, gas vortices are compressed by the surrounding atmosphere and, consequently, accumulate energy: the pressure of the atmosphere is converted into the kinetic energy of the vortex. The hypothesis was confirmed.
+
+As is known, tornadoes and typhoons appear on the globe from time to time, representing air vortices that destroy everything in their path — forests, cities and villages, draining swamps and lifting cows and frogs into the sky. Cyclones also frequently arise — zones of low pressure, which also represent air vortices. Cyclones move across the Earth's surface, carrying hurricanes, rains, and blizzards with them. The fact draws attention that both cyclones and especially tornadoes and typhoons possess great force and, consequently, carry much energy within them. The question arises: where did they get it?
+
+Several circumstances related to natural air vortices have been established. They all have densified walls and reduced pressure in the center — in cyclones, by 10-20%. The velocity of air mass movement in vortices constitutes a significant fraction of the speed of sound — up to half its value, i.e., on the order of 150 or even 200 meters per second, though this is only in tornadoes and typhoons. But even in cyclones, wind speeds can reach
+
+[p196]
+196                                                                                                      Chapter 5.
+20-30 m/s, and this is already a hurricane. The cyclones themselves move across the Earth's surface at a speed of 50-60, sometimes up to 100 km/h. This means that their speed of movement is comparable to the speed of air movement within the cyclone itself. And the air flows in all these formations — tornadoes, typhoons, and cyclones — move along a helical trajectory.
+
+Fig. 6.6. Cylindrical gas vortex: cross-section of the vortex (a); gas density distribution (b); diagram of tangential velocities (c); dependence of the angular velocity of gas rotation in the vortex on the radius (d)
+
+Studies of air vortices have shown that they all have a tubular structure, in which the walls of the vortex are densified, the central part is rarefied, and the rapidly rotating walls are separated from the surrounding environment by a boundary layer (Fig. 6.6).
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p197]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      197
+In this layer, a transition occurs from the relatively low air density in the space surrounding the vortex to the significantly higher air density in the vortex body. In the boundary layer, a transition of temperature also occurs — from relatively high in the environment to lower in the vortex body.
+
+In accordance with gas mechanics, the gradient of gas flow velocities, i.e., the ratio of the difference in flow velocities to the distance between flows, also leads to a redistribution of gas pressure within the boundary layer.
+
+As the central air flow is swirled, centrifugal force will begin to expel air molecules from the center to the periphery, and the pressure in the vortex center will begin to decrease. As the pressure decreases, external pressure will begin to compress the vortex, and its diameter will begin to decrease. Then, in accordance with the law of conservation of angular momentum, the rotation velocity will begin to increase, and the pressure in the center will decrease even more. An avalanche-like contraction of the vortex diameter will occur, with a corresponding increase in the linear velocity of air mass movement along its periphery, inversely proportional to the ratio of the vortex diameters at the beginning and end of the process. And if the initial vortex diameter was 1 km, and at the end of the process only 10 m, that is, the diameter contracted by 100 times, then the gas flow velocity will increase by 100 times, and the energy by 10,000 times. If the initial lateral wind velocity was only 1 m/s, then the velocity of the vortex wall movement at the end of the process will be 100 m/s, and this is already hurricane speed.
+
+It turns out that the formation of a vortex by the Earth's atmosphere occurs spontaneously, and in this process the potential energy of the air pressure surrounding the vortex is converted into the kinetic energy of vortex rotation. This process, undoubtedly existing in nature, completely contradicts the concepts of the Principles of thermodynamics, if viewed in a local region.
+
+However, this is not all.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p198]
+198                                                                                                      Chapter 5.
+Retention of densified gas in a localized space is possible only in the case of lowering its temperature. The fact of temperature lowering in air vortices and generally in gradient air flows is widely confirmed. This includes aircraft icing during flight, icing of air intakes, and the formation of hail in tornadoes with its horizontal ejection in a wide fan. But then the question arises: where does the energy of thermal motion of the gas that forms the tornado go? And the answer is: it is converted from thermal energy into the translational energy of gas flows in the tornado walls. The velocity of each gas molecule preserves its magnitude but is redistributed among directions, increasing in the direction of gas motion in the wall (tangential direction) and correspondingly decreasing the lateral component (normal direction). Therefore, the velocity of wall motion will be greater than follows from the ratio of radii. And in the given example, the velocity will be not 100, but 150 or 200 m/s.
+
+Thus, on the whole, air vortices, like any gas vortices, are a natural machine for processing the potential energy of pressure of the gas external to the vortex, conditioned by the thermal motion of its molecules, into the kinetic energy of vortex rotation. And if the potential energy of gas cannot be used practically, or at least is very difficult due to the absence of pressure gradients, then the kinetic energy can be used, for example, by placing a turbine in the vortex. True, in this case, the problem of vortex stability arises.
+
+From the above, it follows that a gas vortex is capable of converting thermal energy, represented by the chaotic motion of the vortex's own molecules and the molecules of the gas surrounding it, into ordered motion, which contradicts all known tenets of thermodynamics. But not entirely, since if we consider all components of the process located not in the vortex body but in the entire surrounding space, including other regions in which gas motion occurs completely unnoticed, then it will turn out that on average no thermodynamic
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p199]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      199
+laws are violated. The vortex is not infinite, and in another part of the vortex the gas flows are not compressed but, on the contrary, expanded. Here processes proceed in the reverse direction. If, moreover, we consider the process in time on average, then even more so it will turn out that there is no violation of the laws of thermodynamics, since energy can be neither created nor destroyed. Motion is eternal. However, after such purely mechanical transformations, the possibility is glimpsed of using the thermal energy of gas by converting it into the translational energy of the vortex walls.
+
+6.5. Vortex heat generators
+
+At present, many so-called heat generators have been invented and even put into mass production, in which the ratio of output power to input power exceeds unity.
+
+A distinctive feature of all these generators — vortex, cavitation, centrifugal, etc. — is that a water vortex is spun in them one way or another. Specifically, the presence of a water vortex raises the water temperature, and the energy of water heat at the device output turns out to be greater than the energy expended on forming this vortex.
+
+As is known, energy can be neither created nor destroyed, and if at the device output there is more energy than at the input, consequently, this device operates on the principle of a heat pump, and there exists an energy reservoir from which the additional energy is drawn. From the etherodynamic point of view, such a reservoir is the ether surrounding the device. The relative dielectric permittivity of water, as is known, equals 81. This means that water is capable of accumulating and densifying ether; the ether accumulated by water is relatively weakly bound to its molecules, and upon water rotation is ejected from it.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p200]
+200                                                                                                      Chapter 5.
+The lowering of ether pressure inside the water vortex leads to suction of ether along the vortex axis. Thus, an ether duplet is formed — ejection of ether along the vortex periphery and suction along its axis, which leads to the closing of ether flows: two toroidal vortices form around the water vortex (Fig. 6.7).
+
+               a)                            b)                                  c)
+
+Fig. 6.7. Formation of ether vortex toroids: a) initial stage; b) formation of ether toroids; c) compression of the ether toroid by external ether pressure
+
+As soon as the ether jets close, the external ether pressure will compress the formed ether vortices and drive them back into the water, thereby transferring their energy to it. This is precisely the additional energy due to which the water temperature rises. In all probability, this process repeats periodically, and this, in principle, can be detected using dowsing rods or special instruments based on the effect of laser beam deflection from its normal position, which can be recorded by photoelectric detectors.
+
+The outwardly simple vortex effect actually contains a complex gas-dynamic process occurring in a spatial turbulent flow of viscous compressible gas. This probably explains the failure of many attempts to find an analytical solution to the problem. However, on the basis of the conducted research, semi-empirical calculation methods were developed, both for the vortex effect itself and for certain types
+
+[p201]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      201
+of vortex apparatuses. On this basis, a period of its development and implementation in production began, mainly in the creation of vortex refrigeration-heating units, vortex cold chambers, vortex thermostats, and vortex vacuum pumps.
+
+The vortex effect or Ranque effect manifests itself in a swirled flow of viscous compressible gas and is realized in a very simple device called a vortex tube, a schematic design of which is shown in Fig. 6.8.
+
+Fig. 6.8. Schematic of the Ranque vortex tube
+
+When gas flows in through the nozzle, an intense circular flow is formed, whose near-axial layers are noticeably cooled and are discharged through the diaphragm opening in the form of a cold flow, while the peripheral layers are heated and flow out through the throttle in the form of a hot flow. As the throttle is closed, the general pressure level in the vortex tube rises, and the flow rate of the cold flow through the diaphragm opening increases with a corresponding decrease in the hot flow rate. In this case, the temperatures of the cold and hot flows also change. Various tube designs incorporate improvements that allow optimizing tube characteristics for specific purposes.
+
+It should be specially noted that in the Ranque vortex tube, the overall energy balance is preserved.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p202]
+202                                                                                                      Chapter 5.
+Potapov attempted to use water instead of air in the Ranque vortex tube, i.e., an incompressible liquid, and obtained an unexpected effect: along the axial line, not cold but warm water flowed out, while along the periphery, hot water flowed out. After calorimetric measurements, it was recognized that more thermal energy is released than is supplied — approximately 1.3 to 1.5 times more.
+
+Since it is clear to everyone that neither the creation nor destruction of energy is possible in principle, and only the transfer of energy from one place to another is possible, somewhere there must be a hidden source of the detected additional energy. As an explanation, some scientists suggested that in accordance with a somewhat modified Theory of Relativity, mass-to-energy conversion occurs in Potapov's heat generator, and moreover, cold nuclear fusion is also realized therein. However, such assumptions appear rather artificial.
+
+The mechanism ensuring the increase in water temperature in the snail of the Ranque tube is described above. This can occur periodically. However, another variant is also possible, when the ether that has exited outward is then sucked in along the tube ends, in which case this process occurs continuously. In all cases, additional compression of the formed ether vortex by external ether pressure occurs, and thereby the input of additional energy, which is then transferred to the water. To facilitate ether vortex formation, it is expedient to make the housing and other parts of the vortex tube not from metal but from any insulating material.
+
+Something similar has been discovered in devices that use or spontaneously form cavitation bubbles. In principle, the formation of bubbles should consume as much energy as is then released upon their collapse. But here, additional heat release is also detected, and it can be assumed that here too, a similar process occurs: capture of ether, then its vortex formation, compression of ether vortices by the surrounding ether with the input thereby into the vortices of additional energy, subsequent absorption of ether
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p203]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      203
+vortices by the same water and transfer of the accumulated energy to the water, thereby causing its additional heating.
+
+At present, both in Russia and throughout the world, several types of vortex heat generators of various capacities have been created. A diagram of one variant of a heat generator is shown in Fig. 6.9.
+
+                                                  2                          5
+
+                                                              3
+                                  1
+
+                      ˜              4
+
+Fig. 6.9. Schematic of a vortex water heat generator: 1 — motor; 2 — water cylinder; 3 — disks mounted on the motor shaft; 4 — water inlet; 5 — water outlet
+
+The heat generator shown in the diagram is an ordinary asynchronous motor coupled with a rotor placed in a thick-walled cylinder into which water flows. The rotor is a shaft on which flat disks are mounted. Rotation of the disks by the motor allows obtaining additional thermal energy greater than that expended by the motor. The developed pressure amounts to several tens of atmospheres. Measurements made by the authors confirmed the presence of excess energy with an overall efficiency on the order of 1.6 (in some samples up to 1.8).
+
+The heat generator is installed in a separate room to avoid both noise effects and possible etherodynamic radiation.
+
+While recognizing the usefulness of creating such or any other heat generators, one may, however, express doubt that even widespread application of similar devices
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p204]
+204                                                                                                      Chapter 5.
+will allow solving the energy problem. With a heat transfer coefficient of 1.3-1.5, the overall energy savings are not that great. Even if all thermal installations and engines in the world increased their efficiency, the energy problem would not be solved.
+
+6.6. Energy of the magnetic field of a current-carrying conductor
+
+As was shown above, during the compression of a gas vortex body, a transition occurs of the potential energy of the gas surrounding the vortex (gas pressure) into the kinetic energy of vortex rotation. This concerns any gas vortices — air and ether.
+
+Verification of the fact of compressibility of gas vortices was carried out using a Wood's box; verification of the fact of compressibility of a magnetic field was carried out using an experiment with two wire frames.
+
+Of all types of force fields, the magnetic field is the most convenient for practical conversion of the potential energy of ether into electrical energy. The magnetic field is energy-intensive, safe, easily created, capable of providing force interactions between various objects, and it is precisely this circumstance that allowed the application of magnetic systems in all kinds of energy installations, including generators and motors of the most diverse designs.
+
+Since the structure of the magnetic field is vortical, there appears the possibility of attempting to convert a relatively weak magnetic field into a stronger one, utilizing the potential energy of ether — its pressure.
+
+As is known, the energy contained in a magnetic field is determined by the expression
+
+          μ₀H²
+w = ∫ —— dV,  W                                                                          (5.6)
+            2
+
+where μ₀ = 4π·10⁻⁷, H/m — magnetic permeability of vacuum,
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p205]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      205
+H, A/m — magnetic field strength, V, m³ — volume of space filled by the magnetic field.
+
+The distribution of magnetic field strength around a current-carrying conductor is determined by the Ampère's circuital law
+
+∫ Hdl = i,                                                                                  (5.7)
+
+where l, m — length of the magnetic field line around the current-carrying conductor; i, A — magnitude of the current flowing through the conductor.
+
+From the Ampère's circuital law it follows that the magnitude of magnetic field strength at a distance R from the conductor is
+
+          i
+H = ——,                                                                                (5.8)
+        2πR
+
+and the ratio of magnetic field strengths at different distances must obey a hyperbolic law, i.e.
+
+  H₁        R₂
+—— = ——;                                                                           (5.9)
+ H₂         R₁
+
+and in relative coordinates can be represented as a hyperbola. However, direct measurements showed that this is not quite so. Already at a current of 0.1 A, the ratio of strengths differs substantially from the indicated distribution, and with increasing absolute magnitude of current, the deviation increases more and more (Fig. 6.10).
+
+There is a clear deviation of the actual magnetic field strength distribution from the hyperbolic law, with the deviation from this law in relative coordinates increasing with increasing absolute value of current in the conductor (Fig. 6.10, curves 2 and 3).
+
+[p206]
+206                                                                                                      Chapter 5.
+
+Fig. 6.10. Distribution of magnetic field strength around a current-carrying conductor
+
+The experimentally obtained deviation can be explained if we take into account the compressibility of ether and, as a consequence, the compressibility of all structures, including the magnetic field. The Ampère's circuital law turns out to be valid only for extremely small magnetic field strengths, for which compressibility can be neglected. But it is not completely valid for large currents, even on the order of 0.1 A. This means that in reality the magnetic field in a unit volume carries more energy than follows from the Ampère's circuital law and existing calculation methods.
+
+From the above it follows that a circuit with high-Q coils, tuned to resonance, must accumulate substantially more energy than follows from existing calculations, for energy is determined not only by the velocity of ether vortex flows that constitute the magnetic field, but also by their mass density. It is possible that this circumstance was taken into account by Nikola Tesla in constructing his high-frequency power transformers, in which resonance was necessarily used and in which high voltages, measured in millions of Volts, were obtained as a result.
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p207]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      207
+
+6.7. Peculiarities of Tesla transformer operation
+
+One of the Tesla transformer mock-ups and the radiation emanating from the upper part of the secondary (inner) winding is shown in Fig. 6.11.
+
+                                    a)                               b)
+
+Fig. 6.11. Tesla transformer: a) general view of a laboratory specimen;
+b) view of the discharge at the output of the secondary (inner) winding of the transformer
+
+A peculiarity of the Tesla transformer is that the primary winding is external and contains a very small number — only 4-6 turns — of thick wire, while the secondary winding is located inside the primary and contains a relatively large number (one hundred or more) of turns of thin wire. Moreover, the secondary winding in height substantially exceeds, by 2-5 times, the height of the primary winding. The diameter of the secondary winding is 4-5 times smaller than the diameter of the primary winding.
+
+[p208]
+208                                                                                                      Chapter 5.
+An obligatory part of the circuit in which the Tesla transformer is used is the spark gap, which, in all likelihood, contributes its share to the process of obtaining energy from the ether.
+
+That a discharge in vacuum possesses high energy is not difficult to verify by charging a high-voltage capacitor to several thousand volts and then discharging it onto two mutually independent electrodes of an old radio tube of the glass series. By gradually increasing the voltage and capacitance of the capacitor from 100 pF and upward, and connecting it to the tube electrodes, one can verify that, starting from a certain value, the electrodes inside the tube will begin to explode, so that only dust remains of them. The tube bulb remains intact. From this it follows that the vacuum discharge in itself has high energetics exceeding the energy contained in the capacitor being discharged onto the electrodes.
+
+It may be assumed that the Tesla transformer utilizes, primarily, the process of energy accumulation by the magnetic field in the space created by the primary winding, and then this energy is transferred to the secondary winding.
+
+If a current i, A flows in an inductor L, H, then the energy wL stored in the magnetic field will be
+
+               i²
+wL = L ——, J                                                                    (5.10)
+               2
+
+Attention is drawn to the fact that, unlike a capacitor C, F charged to voltage U, V, in which the stored energy wC, J is
+
+               U²
+wC = C ——, J,                                                                   (5.11)
+               2
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p209]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      209
+energy is preserved and can be stored indefinitely if there are no losses, in an inductor the energy disappears as soon as the current ceases to flow, and the energy stored in the magnetic field returns to the circuit that created the magnetic field. But if this energy returns not to the circuit that created the magnetic field but to another circuit in which energy can be accumulated, for example in a capacitor, then the total amount of energy will be proportional to the number of pulses, i.e.
+
+                  i²
+wL = N L ——, J                                                                (5.12)
+                  2
+
+Here it is assumed that the current value is established in each pulse in a vanishingly small time. By vanishingly small current establishment time in a pulse, one may mean the pulse front duration, incommensurably small compared to the duration of the pulse itself, i.e., approximately ten times smaller. Then the energy stored in a capacitor connected to the second circuit will grow indefinitely with time.
+
+The instantaneous power of each pulse having duration T will be:
+
+           Li²
+pL =  ——, W                                                                       (5.13)
+          2T
+
+and if the pulse form corresponds to a square wave, i.e., the pulse duration and pause duration are equal, then the total power will be:
+
+            FLi²
+PL =  ———, W,                                                                   (5.14)
+             4
+
+[p210]
+210                                                                                                      Chapter 5.
+
+If the radii of the primary winding r₁ and secondary winding r₂ are not equal, then
+
+              r₁
+2FLi²
+PL =  —————, W.                                                          (5.15)
+             4r₂²
+
+Here it should be noted that the ratio of radii should not be large, since the dependence here is nonlinear, and it remains to be established.
+
+The time constant of the switch-primary winding circuit of the transformer is
+
+TLR = L / R,                                                                            (5.16)
+
+where L — inductance of the primary winding, H, R — resistance of the switch in the open state.
+
+If the pulse duration equals the time constant of the switch-primary winding circuit, then during the pulse duration the current in the circuit will grow to a value of 0.632 of the full current when the circuit is supplied with direct current. Then the total limiting power that can be obtained will be:
+
+            0.632²Rr₁
+2i²                      r₁
+PL =  ——————— = 0.1Ri² ——,   W.                       (5.17)
+                    4r₂²                              r₂²
+
+With a radius ratio r₁/r₂ = 2, we obtain the value of limiting power
+
+PL =   0.4Ri²,   W.                                                               (5.18)
+
+
+---
+
+
+### SOURCE SECTION: Глава 6.
+
+[p211]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      211
+With a radius ratio r₁/r₂ = 3, we obtain:
+
+PL =   0.9Ri²,   W.                                                              (5.19)
+
+With a supply voltage U = 100 V and an open switch resistance of 100 Ohms, the current will be 1 A, and the limiting power obtained will be 40 W in the first case, and 90 W in the second. If switches capable of passing 10 A are used, then in the first case the limiting power will be 4 kW, in the second 9 kW. The power expended to maintain the process in both cases will be 0.1Ri², i.e., at a current of 1 A — 10 W, at a current of 10 A — 1 kW. This power is dissipated at the switch, which requires taking serious measures for its cooling.
+
+With an inductance value of the primary winding of 100 μH, the circuit time constant will be 10⁻⁴/100 = 10⁻⁶ s, consequently, the switching frequency will be 500 kHz, and taking into account the necessary steepness of fronts, the frequency characteristic of the switch must be no worse than 5 MHz.
+
+If the inductance of the primary winding is 100 μH = 10⁻⁴ H, and the pulse repetition frequency is 1 MHz = 10⁶ Hz, then with a pulse current of 1 A, the magnetic field power will be 100 W. At higher frequencies it will be correspondingly greater, if during the pulse duration the current in the primary winding has time to establish to its full value. In this case, the duration of both the leading and trailing edges must each be no more than 0.1 of the pulse duration itself.
+
+From the above it follows that to increase output power, one should find the optimal ratio of diameters of the primary and secondary windings, and also strive to increase the current switching frequency, which is possible only by increasing its resistance, which means increasing the supply voltage and correspondingly the power dissipated at the switch.
+
+
+---
+
