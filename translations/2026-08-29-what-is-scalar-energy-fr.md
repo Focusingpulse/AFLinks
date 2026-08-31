@@ -1,15 +1,12 @@
 ---
 date: 2026-08-29
 title: "What Is Scalar Energy?"
-original_title: "Qu'est-ce que l'énergie scalaire?"
 domain: alternative energy, scalar waves, aether theories
 source_url: https://ondulavi.com/quest-ce-que-lenergie-scalaire/
-source_lang: fr
-target_lang: en
-author: Ondulavi (Brice)
+language: fr
+author: Ondulavi
 publication: ondulavi.com, September 2024
 translator: The Wizard (translation cron)
-tags: ["scalar energy", "scalar waves", "Maxwell", "Tesla", "Konstantin Meyl", "longitudinal waves", "zero-point energy", "orgone", "radiant energy", "French"]
 ---
 
 # What Is Scalar Energy?

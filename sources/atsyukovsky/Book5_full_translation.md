@@ -3417,3 +3417,511 @@ The conducted experiment allows for a better understanding of the physics of the
 
 ---
 
+
+### SOURCE SECTION: Chapter 5.
+
+[p167]
+Experiments in the field of electromagnetic phenomena                   167
+Second experiment. Verification of the dependence of the transformation ratio on the arrangement of windings
+
+Statement of the problem
+At present, it is implied that the order of arrangement of windings on a transformer does not play a significant role, although practically always the primary winding is placed first, and secondary windings are placed above it. It is considered that such an arrangement is nevertheless better, since it reduces the stray magnetic field leakage. However, with a relative magnetic permeability of transformer iron equal to 400, stray fields should not exceed 0.5–1% of the total magnetic field magnitude, and at higher values of relative magnetic permeability this fraction should decrease. If this were so, then in a number of cases it would be much more convenient to wind the windings on independent coils, and then put them on a common core. However, such a practice did not take hold due to the deterioration of transformer parameters, and not only the fill factor, but also the discrepancy between transformation ratios and calculated values. Therefore, the task arose to verify the dependence of the transformation ratio on the arrangement of windings.
+
+Experimental setup
+On a ferrite ring with a relative magnetic permeability of 5000, two windings of 100 turns each of thin wire (diameter 0.1-0.2 mm) are placed, one fixed, the other movable, capable of moving along the core (Fig. 3.2a). The width of the windings is about 8-10 mm. The distance between the centers of the windings and the ratio of the EMF at the output of the secondary winding to the voltage at the primary winding are measured. An audio signal generator (GSS) was used as the AC voltage generator. The measurement is performed at different frequencies and at different voltages.
+
+[p168]
+168                                                                                                      Chapter 4.
+The experimental diagram is shown in Fig. 3.2.
+
+Fig. 3.2. Dependence of the relative value of the transformation ratio on the mutual arrangement of windings: a – diagram of the arrangement of windings on a ring core during the experiment; b – change in the transformation ratio when changing the distance between windings.
+
+Experimental result
+Fig. 3.2b shows the dependence of the change in the transformation ratio – the ratio of the EMF induced in the secondary winding to the EMF in the primary winding. As can be seen, the transformation ratio depends significantly on the mutual arrangement of the primary and secondary windings of the transformer.
+
+Conclusions
+The conducted experiments showed a significant dependence of the transformation ratio on the distance between windings (the difference reaches up to 11%), which corresponds to the ideas that the EMF in the secondary winding is induced not through the magnetic core, but through the window space, in which the magnetic field is distributed. At the same time, this confirms the conclusions of experiment No. 1 that it is necessary to consider mutual inductance
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p169]
+Experiments in the field of electromagnetic phenomena                   169
+The experiments conducted confirm the conclusions of experiment 1, namely that it is expedient to operate with concepts of mutual inductance of conductors rather than of contours. In practice, when it is necessary to spatially separate windings, for example in high-voltage transformers, it is necessary to increase the number of turns of the secondary winding compared to the number of turns calculated by the conventional method.
+
+
+
+5.4. Compensation of the electric field in a medium
+
+Statement of the problem
+In accordance with Faraday's law, the EMF e_xy on a contour lying in the x-y plane is determined by the expression
+
+                ∂B_z
+e_xy =  – S ——;                                                                         (4.1)
+                 ∂t
+
+where S is the area of the contour, B_z is the magnetic induction  B_z = µH_z; µ is the magnetic permeability; H_z is the magnetic field intensity (Fig. 4.1).
+
+From this law it is evident that a change in the magnetic field intensity over time induces a corresponding EMF at its periphery. On this basis, a stable conviction has formed that whenever the magnetic field intensity changes, an EMF always appears. Faraday's law in no way accounts for the influence of magnetic fields located outside the contour.
+
+Meanwhile, this is far from always the case, since in a continuous medium compensation of the influence of magnetic fields located inside and outside the contour will necessarily occur. This happens due to the fact that adjacent co-directional vortices of the
+
+[p170]
+170                                                                                                      Chapter 4.
+aether, having oppositely directed ether flows in their adjoining regions, create mutual compensation of fields (Fig. 4.1).
+
+
+
+
+Fig. 4.1. Field compensation: a— magnetic field in a distributed system of currents; b— electric field in a distributed system of magnetic fluxes
+
+
+
+
+Fig. 4.2. Emergence of a magnetic field at the boundary of a medium and inside a medium when an insulating volume is placed within it
+
+Consequently, accounting for fields external to the contour acquires fundamental significance.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p171]
+Experiments in the field of electromagnetic phenomena                   171
+Formulation of the problem
+It is necessary to verify the influence of a pulsating magnetic
+field, whose source is located outside the area of the measuring
+frame, on the EMF induced in the frame.
+
+Setup of the experiment
+On a flat plate made of insulating material, wire
+contours are arranged, through which alternating
+current is passed, creating an alternating magnetic field. The contours
+are connected to each other so as to form concentric
+rows, and so that the contours of these rows, when connected, are
+included in series, thereby ensuring phase
+synchrony of the magnetic field induced by the sources located
+inside the frame and the sources located outside
+the frame.
+
+Above the contours, measuring contours of various
+sizes are placed. In the experiment, the EMF on the measuring
+contours is measured when various rows of current-carrying
+contours, located inside and outside the measuring contour,
+are connected.
+
+Fig. 4.3. Change in EMF on measuring contours as the number of connected current-carrying contours increases: a — arrangement of measuring contours on a plate with current-carrying coils creating a magnetic field; b — EMF on the measuring contour as current-carrying coils are connected
+
+[p172]
+172                                                                                                      Chapter 4.
+Results of the experiment
+The experiment showed that as internal (relative to the measuring contour) current-carrying contours are connected, the EMF on the measuring contour increases; with the additional connection of contours external to the measuring frame, the EMF on the measuring contour decreases (Fig. 4.3). This confirms that the magnetic field whose source is located outside the frame compensates the influence of the magnetic field whose source is located inside the frame.
+
+Conclusions
+The results of the experiment show that the established opinion that upon any change of magnetic field in space an alternating electric field arises is incorrect. This is merely a special case, valid within the limits of an acceptable neglect of the influence of fields external to the measuring frame. In the general case, such fields must be taken into account. It also follows from this that in both the first and second Maxwell equations only processes on the surface of the electromagnetic wave are accounted for, while processes occurring in its depth are not accounted for.
+
+5.5. Compressibility of current
+
+Formulation of the problem
+As is known, the current density γ in a medium having conductivity σ, dielectric permittivity ε, and magnetic permeability µ is determined by the electric field intensity E as
+
+γ = (σ + ε d/dt)E.                                                                     (5.1)
+
+Since the electric field intensity and current density in a specific medium are related by a simple proportionality coefficient, and, as shown in the previous section, the propagation
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p173]
+Experiments in the Domain of Electromagnetic Phenomena                    173
+
+the variation of electric field intensity can occur in the
+longitudinal direction, then the propagation of current density can
+also have a wave character.
+
+However, the wave character of any disturbance can occur
+only when the material carrier of that disturbance is capable of
+compression, thereby forming a density gradient, which at a given
+point is the cause of the further progression of the process.
+
+Formulation of the Problem
+
+It is necessary to verify the fact of compression and wave
+propagation of electric current in a conductor.
+
+Setup of the Experiment
+
+To verify the fact of electric current compression, a switched
+circuit can be used. Since a potential difference is created at the
+contacts in a circuit break, then upon closing the contact it turns
+out that this potential difference is connected to a section of the
+circuit with zero resistance, which should cause a surge of current
+across this zero resistance. This surge will then propagate along
+the circuit. The diagram of the experiment is shown in
+Fig. 5.1a.
+
+Fig. 5.1. Experiment to determine the fact of current compressibility: a – diagram
+of taps from the conductor; b – pulses arising at the taps
+
+[p174]
+174                                                                                                      Chapter 4.
+
+The electric circuit consists of two segments of wire, each
+several meters long, connected at one end to an electric battery
+and at the other end to a periodically closing and opening contact.
+Taps branch off from the wires, soldered to the main circuit wire at
+distances of one meter apart. Upon closing the contact, pulses
+arise in the circuit that can be recorded by an oscilloscope. The
+fact is established that upon closing the contact, short pulses arise
+at each pair of taps, with the amplitude of the pulses being reduced
+and the duration increased at taps farther from the contact. This
+signifies initial compression and subsequent dissipation of current
+along the conductor. In principle, this can be characterized as a
+supertransient switching mode.
+
+Results of the Experiment
+
+The results of the experiment are shown in Fig. 5.1b. As can
+be seen, on the sections of conductor located near the periodically
+closing and opening contact, pulses arise whose amplitude is
+greater and duration shorter than on the distant sections.
+
+Conclusions
+
+The experiment confirms the fact of compressibility of
+electric current and the wave character of its propagation along a
+conductor. This process can be characterized as a supertransient
+process. The results of the experiment also confirm the need to
+refine the equations of electrodynamics in this domain as well.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p175]
+Experiments in the Domain of Electromagnetic Phenomena                    175
+5.6. Longitudinal Propagation of an Electric Wave
+
+1) Verification of the possibility of propagation of a longitudinal
+electric wave in a semiconductor medium in a rubber waveguide.
+
+Formulation of the Problem
+From Maxwell's third equation
+
+div D = ρ,                                                                                 (6.1)
+
+where D is the electric displacement equal to D = εε₀E, ε is the relative
+permittivity; ε₀ = 8.85·10⁻¹² F/m; E is the electric field intensity, V/m,
+ρ is the electric charge density, it follows that in the absence of charge
+
+div D = 0,                                                                                 (6.2)
+
+i.e.
+
+∂Dₓ       ∂Dᵧ      ∂D_z
+—— + —— + —— = 0.                                                         (6.3)
+∂x          ∂y        ∂z
+
+Equation 6.3 is of a purely static character; no temporal processes
+are provided for in it. This completely contradicts the nature of the
+electric field, which in vacuum can propagate only at the speed of light,
+defined as
+
+         1
+c = ———  ,                                                                            (6.4)
+       √ε₀μ₀
+
+[p176]
+176                                                                                                      Chapter 4.
+where ε₀ and μ₀ are respectively the permittivity and permeability
+of vacuum.
+
+Thus, there is a contradiction between theory and reality.
+Attention is drawn to the incompleteness of the derivation of Maxwell's
+third equation (Fig. 6.17).
+Along the x, y, and z axes, the components of electric induction
+Dₓ, Dᵧ, D_z enter the volume dxdydz. At the exit of the volume we
+have respectively (Fig. 6.1):
+
+         ∂Dₓ,              ∂Dᵧ,             ∂D_z
+Dₓ + —— ; Dᵧ  + —— ; D_z + —— ;                                       (6.5)
+                ∂x               ∂y                           ∂z
+
+subtracting the input components from which, we obtain equation
+6.3, and then equation 6.2.
+
+Fig. 6.1. On the derivation of the equations of propagation of electric
+induction
+
+In view of the fact that the change of electric displacement in time
+is not taken into account in such a derivation, Maxwell's third equation
+cannot in any way be considered complete.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p177]
+Experiments in the field of electromagnetic phenomena                   177
+In fact, at the output of the volume, the components of the induction vector will be equal to:
+
+         ∂Dx,      ∂Dx,             ∂Dy,      ∂Dy            ∂Dz       ∂Dz
+Dx + —— + ——;   Dy  + —— + ——; Dz + —— + ——;   (6.6)
+                   ∂x       ∂t                   ∂y            ∂t                          ∂z        ∂t
+
+
+and accordingly Maxwell's 3rd equation takes the form:
+
+             ∂D
+divD + —— = 0.
+             c ∂t
+
+where the speed c of wavefront propagation is related to the projections along the coordinate axes by the expression:
+
+   1          1          1           1
+—— = —— + —— + —— .
+  c²        cₓ²         cᵧ²                 cᵤ²
+
+
+The resulting equation is a first-degree wave equation, which shows that electric induction D propagates in the direction of vector D, i.e., in the longitudinal, not transverse direction. Dividing vector D by velocity vector c indicates that these vectors are collinear, i.e., parallel to each other. The solution to equation 6.7 will be the wave function:
+
+D(r – ct) = 0.                                                                            (6.9)
+
+It follows that a lumped-parameter dipole will radiate energy in all directions (Fig. 6.2), and if the distance between pulsating charges (electrodes) equals half the wavelength, then energy along the dipole axis
+
+[p178]
+178                                                                                                      Chapter 4.
+will be radiated significantly more intensely than perpendicular to the dipole (Fig. 6.19).
+
+
+
+Fig. 6.2. Energy radiation by a lumped-parameter dipole
+
+
+
+
+Fig. 6.3. Propagation of electric field by a lumped-parameter dipole in a thin layer of semiconducting medium. The longitudinal component is larger than the transverse component of the field
+
+Problem formulation
+It is necessary to verify the fact of electromagnetic wave propagation in the direction along the axis of a lumped-parameter dipole, as well as the independence of the received EMF value from distance when limiting the possibility of electromagnetic wave propagation in the direction perpendicular to the dipole axis.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p179]
+Experiments in the field of electromagnetic phenomena                   179
+Experimental setup
+To verify the proposed position on the existence of longitudinal waves, a lumped-parameter dipole was manufactured, i.e., a structure consisting of two electrodes to which voltages are applied in antiphase from an alternating current generator. To create a waveguide, a rubber garden hose filled with salted water was used (Fig. 6.4).
+
+
+
+
+Fig. 6.4. Schematic of the experiment to verify longitudinal radiation propagation of a lumped-parameter dipole:
+1 – rubber hose filled with salted water; 2 – electrodes of the radiating dipole; 3 – electrodes of the receiving dipole; G – generator; R – receiver; Cpar – conventional designation of parasitic capacitances
+
+Both the radiating and receiving dipoles were manufactured identically. The braid was removed from part of a coaxial cable, with insulation preserved. A metal round disk, with a diameter slightly smaller than the inner diameter of the hose, was soldered to the end of the remaining braid. A similar disk was soldered to the end of the core. The distance between disks for each dipole was 15 cm, with disk diameters of 20 mm.
+A standard signal generator was used as the generator, and a diode bridge with a microammeter served as the receiver.
+Twine was threaded inside the hose, with which the dipoles could be moved together and apart.
+Measurements were conducted at frequencies from 10 kHz to 10 MHz.
+
+[p180]
+180                                                                                                      Chapter 4.
+Experimental results
+At all frequencies in the range from 10 kHz to 10 MHz, propagation of longitudinal electric waves was observed.
+The signal variation with distance between dipoles is shown in Fig. 6.5.
+
+
+
+
+Fig. 6.5. Dependence of receiver signal on distance between dipoles for longitudinal energy radiation
+
+With changing distance between dipoles, the received signal was initially constant in magnitude, but from a certain distance began to attenuate. With increasing frequency, the signal at small dipole separation grows, but with increasing distance the signal at high frequency attenuates faster than the signal at low frequency. With increasing water salinity (increasing conductivity), the signal amplitude grows near the radiating electrode, but signal attenuation occurs over a shorter distance.
+
+Conclusions
+The experimental results confirmed the possibility of generation and reception of longitudinal electric radiation in water, and also confirmed the dependencies for propagation of longitudinal electric waves in a semiconducting medium – salted water.
+Confirmation of the existence of longitudinal radiation means that Maxwell's 3rd equation is quite incomplete, just as all Maxwell's equations do not fully reflect the essence of electromagnetic processes. This effectively confirms
+
+
+---
+
+
+### SOURCE SECTION: Chapter 5.
+
+[p181]
+Experiments in the field of electromagnetic phenomena                   181
+the necessity and timeliness of beginning a revision of the entire mathematical apparatus of electromagnetism. Confirmation of the existence of longitudinal radiation may also prove practically useful, but to obtain applied results, it is necessary to continue experimental research in this direction.
+
+2) Verification of longitudinal electric wave propagation in a marine environment
+
+Problem formulation
+The propagation of a longitudinal electromagnetic wave in a marine environment is being verified.
+
+Experimental setup
+Experiments were conducted on the Black Sea in the coastal zone under various conditions.
+Electric oscillations at a frequency of 1 MHz with square wave modulation at 1 kHz and power up to 400 W were generated by a specially manufactured generator powered by a silver-zinc battery. The actual radiator consisted of two electrodes made of stainless steel with an area of 1 square meter each. The electrodes were connected to the generator through specially manufactured cables and lowered into the water; the distance between transmitting electrodes was 9 m. To compensate for the distributed inductance of the cables, additional inductance and capacitance were connected in series, tuned to resonance.
+The receiver was a standard receiver accepting the frequency of 1 MHz, with output to a magnetoelectric instrument and headphones. The receiver was powered by batteries.
+The method of signal transmission between two dipoles mounted on 3-meter-long boards was also investigated
+
+[p182]
+182                                                                                                      Chapter 4.
+Experimental results
+A stable signal was received at a distance of 20 km; a specially created commission recorded a stable signal at a distance of 10 km, for which an appropriate protocol was drawn up. The signal propagated only in the surface layer of water, reaching no more than 2.5 m in depth. In the air, the signal was completely absent.
+A narrow directional pattern was recorded: the dipole axis must necessarily be aimed at the reception point.
+
+Conclusions
+
+The conducted research confirmed the possibility of propagation of high-frequency electric oscillations in seawater, but only in the surface layer. For propagation into depth, this method proved unsuitable.
+Although the experiments were qualitative in nature and cannot be considered complete, they confirmed the possibility of creating and receiving longitudinal electric waves in seawater in the surface layer.
+
+[p183]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      183
+
+
+---
+
+
+### SOURCE SECTION: Chapter 6.
+
+Chapter 6. Etherodynamic approaches to resolving the energy crisis
+
+6.1. General problem formulation
+
+As shown by etherodynamics, any energy in any physical phenomena and any physical interactions is based on the energy of thermal motion of amers – molecules of the ether. The ether is a gas-like medium, and the energy of amer motion is its internal potential energy. This energy is quite substantial, and its realization in the form of electrical energy could forever provide all of humanity with environmentally clean energy. Given the impending energy crisis, developing a method for directly obtaining electrical energy from the ether becomes a highly urgent task.
+Currently, numerous devices have been invented in which the efficiency, i.e., the ratio of released energy to expended energy, is greater than unity. Many of them are patented, many are implemented in the form of working prototypes. And practically all authors of these devices cannot explain where they obtain the additional energy. Not understanding the physical essence of the processes they use, they attempt to question existing physical laws, such as the Principles of thermodynamics, but this is incorrect. Such a path is a dead end, because, firstly, these laws are correct, and secondly, the authors, without understanding the processes they use, deprive themselves of the opportunity to improve their devices.
+In fact, in their attempts to explain the effects they obtained, they simply do not take all circumstances into account. And most often, they do not account for the presence of the ether surrounding their installations, from which these devices draw additional energy. It is precisely the formation of ether vortices in the space surrounding the device, and then their absorption, that explains all effects associated with increased energy at the output of these devices compared to the energy received by them
+
+
+---
+
+
+### SOURCE SECTION: Chapter 6.
+
+[p184]
+184                                                                                                      Chapter 5.
+at the input. And here, so-called heat pumps are of fundamental importance, in which the energy at their output always exceeds the energy expended to operate the device, and thus their efficiency always turns out to be greater than unity.
+
+6.2. Heat pumps
+
+Heat pumps are devices that forcibly extract heat from a cold body and transfer this heat to a hotter body.
+Before the invention of refrigerators, the very idea of heat pumps was considered to contradict the Second Law of Thermodynamics, according to which heat can spontaneously pass only from a hotter body to a less hot body. This principle, formulated in 1865 based on the Second Law of Thermodynamics by the Austrian scientist R. Clausius, led to ideas about "Heat death," which would inevitably overtake the Universe, since gradually all temperatures of all bodies in the Universe would equalize, and all processes would stop. This position immediately provoked protest from all physicists, who, however, could not say anything specific, because all thermodynamic processes known at that time confirmed the Second Law, against which there was nothing to oppose at that time.
+Refrigeration machines, or simply refrigerators, invented as early as the beginning of the 19th century by the Englishman J. Leslie, and then improved by the Frenchman F. Carré and the German F. Windhausen, cast doubt on the universal validity of the Principles of Thermodynamics, not in the sense of their invalidity, but in the sense of the assertion following from them about the fundamental impossibility of creating a perpetual motion machine.
+As is known, every refrigerator has a refrigeration or even freezer compartment from which heat is forcibly extracted and transferred to the environment, which has a higher temperature. It turns out that heat is extracted from a colder body and transferred to a hotter body. It turns out that heat is extracted from
+
+
+---
+
+
+### SOURCE SECTION: Chapter 6.
+
+[p185]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      185
+cold body and transferred to a hotter body using a refrigerant circulating between them – a liquid capable of turning into vapor and thereby extracting heat, and then in another place turning back into liquid, and thereby releasing heat. True, this liquid must be circulated forcibly using a special circulation pump, and therefore the word "spontaneously" present in the formulation of the Second Law turns out to be irrelevant. Still, not spontaneously, but forcibly, this somewhat changes the matter.
+The structural diagram of a refrigerator is shown in Fig. 6.1.
+
+
+Fig. 6.1. Structural diagram of a refrigerator
+1 - freezer compartment; 2 – calorifier releasing thermal energy into the environment; 3 – refrigerant circulating between the freezer compartment and calorifier; 4 – pump ensuring refrigerant circulation.
+
+As already indicated above, the motion of matter cannot be created or destroyed in any way. In the given example, the refrigerator consumes from the network energy in the amount necessary to set in motion the pump pumping the refrigerant, and at the calorifier it releases this energy plus that which it forcibly takes from the refrigeration compartment and products located in it. The overall energy balance is maintained, but the efficiency here, from the point of view of heat release, is always greater than unity. If the goal is not to heat a room using a refrigerator, but to lower the temperature of products stored in it, then the efficiency turns out to be negative, because the temperature in the refrigeration compartment drops, and heat is extracted. This
+
+
+---
+
+
+### SOURCE SECTION: Chapter 6.
+
+[p186]
+186                                                                                                      Chapter 5.
+once again demonstrates the need to clarify the very concept of efficiency – coefficient of useful (for the set goal) action.
+Thus, at the calorifier, which is the output of the refrigeration machine, more energy is released than was expended to ensure refrigerant circulation. And this means that the efficiency of any refrigerator is greater than unity. In some cases it reaches 3-4 or even 5. And this is very advantageous, because if the freezer compartment is placed in a river, lake or ocean, and the calorifier is placed in a house, then one can extract 3-4 times more energy from the water than if one directly heats the room with a simple stove. This has long been applied throughout the world and has been called "heat pumps." And a theory has even been developed in accordance with which heat pumps operate, without violating the principles of thermodynamics in the slightest.
+But then the temptation appears to close the system and force the refrigeration machine to work forever without any artificial energy supply to it.
+Why not? After all, the excess energy released at the calorifier, having a temperature higher than the freezer compartment, can be used to start the pump (Fig. 6.2).
+Then after the first push the whole system will begin to move and will not only pump coolant through the pipes, but also supply free energy to rooms for heating. But for this, the excess energy must be large and the product of this excess by the pump efficiency must be greater than unity. In short, more energy must be released than the pump consumes. But this has not yet been achieved.
+And although numerous heat pumps of the most diverse designs have been built throughout the world, which is very profitable for energy specialists, closing the system so that it could work forever has not yet been achieved by anyone.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 6.
+
+[p187]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      187
+Fig. 6.2. Modernized refrigerator diagram with system closure, transforming the refrigerator into a perpetual motion machine:
+1 - freezer compartment; 2 – calorifier releasing thermal energy into the environment; 3 – refrigerant circulating between the freezer compartment and calorifier; 4 – pump ensuring refrigerant circulation; 5 – feedback device converting calorifier energy into energy for the refrigerant pump.
+
+However, to this day no theorist has yet been found who would prove the fundamental impossibility of closing the refrigeration system and transferring it, so to speak, to self-service with the goal of performing the task of pumping heat from a colder river into a warmer room. Therefore, attempts to create such a closed system continue, and perhaps they will be crowned with success. This can be fully expected, because success is achieved not by those who know that it cannot be done, but by those who do not know this, and therefore do it. The history of inventions has confirmed this many times.
+
+However, there is another method of pumping energy from a certain reservoir to a consumer.
+Let us imagine such a variant. Behind a dam placed on a river, much water has accumulated, but the gravitational energy it possesses finds no outlet. But then the gates open, and water enters the turbines, which begin to rotate and generate the electrical energy we need. A similar process occurs when we turn on the light in our room. By pressing a button, we allow energy from the generator to enter the light bulb. The question arises, what is the efficiency of this process, can we divide the energy generated by the turbine or light bulb by the energy expenditure on
+
+
+---
+
+
+### SOURCE SECTION: Chapter 6.
+
+[p188]
+188                                                                                                      Chapter 5.
+raising the gate or pressing the button? Obviously we cannot, otherwise we would have to consider this efficiency equal to many thousands or even millions. But in reality, this is simply a different process, although an energetic one.
+
+6.3. On the motion of bodies along a curved trajectory
+
+There are many methods for converting energy from one form to another. This includes conversion of thermal energy into mechanical motion in thermal power installations, for example, in steam locomotives and steamships, conversion of water and air currents into electrical energy in hydraulic turbines and wind generators, and conversion of solar energy into electrical energy in selenium cells, and many others. But there is another purely mechanical method of converting energy of translational motion of bodies into their own rotational motion, which, on the one hand, is known to everyone, and on the other, has not yet been given due attention. In order to understand why it deserves special attention, it should be recalled that in mechanics there are three laws of conservation of motion.
+The first law of conservation is the Law of conservation of momentum. Its formulaic expression is
+
+      K = mv = const                                                                   (5.1)
+
+where m is the mass of the body, and v is the velocity of its motion.
+Previously, this law was called the law of conservation of living force, and later physicists named it the law of conservation of momentum, since there exists the relationship
+
+      K = mv = FT = P (impulse of force),                                  (5.2)
+
+where F is the force of action on a mass or of a mass on another body, and T is the time of action. There is doubt about the validity of such renaming, since in a flying body there is mass and velocity, but there is neither force nor time of its interaction with another body, and when they will appear is unknown to anyone. Therefore, the expression "impulse of force" corresponds to ideas that the very fact of the existence of this mass flying in space takes place only insofar as it can interact with someone. And if there is no such observable interaction, then whether the mass exists in reality or not is unimportant, since it cannot be observed. And this leads to great philosophical consequences.
+But the Law of conservation of momentum indeed manifests itself during the interaction of bodies, but only during their elastic collision. Bodies exchange momenta, i.e., impulses, and fly apart, each carrying away its share of momentum, the sum of which before and after collision remains unchanged. This constitutes the Law of conservation of momentum, also known as the Law of conservation of impulse.
+The second Law of conservation is the Law of conservation of energy. Its formulaic expression is
+
+        mv²
+W = —— = const                                                                     (5.3)
+          2
+
+and it differs mainly from the previous one in that the velocity of the body's motion is squared in it. This law is observed in all types of interactions, both elastic and inelastic.
+In the middle of the 19th century, there was a years-long fierce dispute among natural scientists about what type of "living force" should be used to measure motion – the product of mass and velocity, or energy, i.e., the product of half the mass and the square of velocity, since there were both such cases. Different scientists understood different measures of motion by "living force." Physicists then could not resolve this dispute, and a philosopher intervened in the matter
+
+
+---
+
+
+### SOURCE SECTION: Chapter 6.
+
+[p189]
+Etherodynamic approaches to resolving the energy crisis                                                                                                      189
+there is, but there is neither force nor time of its interaction with another body, and when they will appear is unknown to anyone. Therefore, the expression "impulse of force" corresponds to ideas that the very fact of the existence of this mass flying in space takes place only insofar as it can interact with someone. And if there is no such observable interaction, then whether the mass exists in reality or not is unimportant, since it cannot be observed. And this leads to great philosophical consequences.
+But the Law of conservation of momentum indeed manifests itself during the interaction of bodies, but only during their elastic collision. Bodies exchange momenta, i.e., impulses, and fly apart, each carrying away its share of momentum, the sum of which before and after collision remains unchanged. This constitutes the Law of conservation of momentum, also known as the Law of conservation of impulse.
+The second Law of conservation is the Law of conservation of energy. Its formulaic expression is
+
+        mv²
+W = —— = const                                                                     (5.3)
+          2
+
+and it differs mainly from the previous one in that the velocity of the body's motion is squared in it. This law is observed in all types of interactions, both elastic and inelastic.
+In the middle of the 19th century, there was a years-long fierce dispute among natural scientists about what type of "living force" should be used to measure motion – the product of mass and velocity, or energy, i.e., the product of half the mass and the square of velocity, since there were both such cases. Different scientists understood different measures of motion by "living force." Physicists then could not resolve this dispute, and a philosopher intervened in the matter
+
+
+---
+

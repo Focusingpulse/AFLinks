@@ -474,13 +474,16 @@ def main():
                 url_match = re.search(r"URLs?: (https?://\S+)", body[m.end():m.end()+600])
                 url = url_match.group(1) if url_match else ""
                 finds.append({"title": t, "description": desc, "url": url})
-            feed["latest_finds"].append({
-                "date": os.path.basename(path)[:10],
-                "file": os.path.basename(path),
-                "scout": scout,
-                "languages": languages,
-                "finds": finds[:8],
-            })
+            # Only include a scout file if it actually parsed finds; empty
+            # finds lists render as dead cards on the live site.
+            if finds:
+                feed["latest_finds"].append({
+                    "date": os.path.basename(path)[:10],
+                    "file": os.path.basename(path),
+                    "scout": scout,
+                    "languages": languages,
+                    "finds": finds[:8],
+                })
 
     # --- 4. Top researchers (by source/domain weight) ---
     def _src_count(rec):
@@ -520,13 +523,15 @@ def main():
 
     # --- 5. Domains from concept map ---
     for dn, info in concept.get("domains", {}).items():
+        occ = info.get("co_occur_categories", {}) or {}
+        # categories = top co-occurring sub-categories by strength
+        top_cats = sorted(occ.items(), key=lambda kv: -kv[1])[:6]
+        # connections = sorted neighbors (shared = co-occurrence strength)
+        conns = [{"to": c, "shared": s} for c, s in top_cats]
         feed["domains"].append({
             "name": dn,
-            "categories": info.get("categories", [])[:6],
-            "connections": [
-                {"to": conn, "shared": strength}
-                for conn, strength in info.get("connected_to", {}).items()
-            ][:5],
+            "categories": [c for c, _ in top_cats],
+            "connections": conns[:5],
         })
 
     # --- 6. AFLinks index count (live) + meta-category counts for the vault ---

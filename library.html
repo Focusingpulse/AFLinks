@@ -731,12 +731,32 @@ function renderDeclassified(finds) {
   finds.forEach(f => {
     const d = document.createElement('div');
     d.className = 'declass-card';
+    const fileUrl = f.file ? './' + f.file.replace(/^\.?\//, '') : '';
     d.innerHTML = `
       <div class="dc-country">${f.country}</div>
       <h3>${f.title}</h3>
-      <p>${f.description || ''}</p>`;
+      <p>${f.description || ''}</p>
+      ${fileUrl ? `<button class="read-btn" onclick="openDeclass('${fileUrl.replace(/'/g, "\\'")}')">Read the record &#128214;</button>` : ''}`;
     el.appendChild(d);
   });
+}
+
+/* Declassified record reader — opens the record markdown in the reader modal */
+async function openDeclass(file) {
+  const overlay = document.getElementById('readerOverlay');
+  document.getElementById('readerTitle').textContent = 'Declassified Record';
+  document.getElementById('readerMeta').innerHTML = '<span>Newly-opened document &middot; living library</span>';
+  document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading record...</div>';
+  overlay.classList.add('show');
+  document.body.style.overflow = 'hidden';
+  try {
+    const res = await fetch(file, { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const text = await res.text();
+    document.getElementById('readerBody').innerHTML = miniMarkdown(text);
+  } catch (e) {
+    document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Could not load the record. It may not be published on this site yet.</div>';
+  }
 }
 
 function renderActivity(entries) {
@@ -996,14 +1016,18 @@ function renderDomains(list) {
   list.forEach(d => {
     const card = document.createElement('div');
     card.className = 'domain';
-    const cats = d.categories.join(', ');
+    const cats = d.categories.length
+      ? d.categories.map(c => `<span class="cat-tag">${c}</span>`).join(' ')
+      : '';
     const conns = d.connections.length
-      ? 'connects: ' + d.connections.map(c => c.to).join(', ')
+      ? '<div class="conns">' + d.connections.map(c =>
+          `<a href="index.html?cat=${encodeURIComponent(c.to)}" target="_blank" class="conn-link">${c.to} <span class="conn-shared">${c.shared}</span></a>`
+        ).join(' · ') + '</div>'
       : '';
     card.innerHTML = `
       <h4>${d.name}</h4>
       <div class="cats">${cats}</div>
-      ${conns ? `<div class="conns">${conns}</div>` : ''}
+      ${conns}
     `;
     el.appendChild(card);
   });

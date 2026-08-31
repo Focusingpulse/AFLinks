@@ -978,6 +978,8 @@
 
     <script>
         let allData = [];
+        let fullManifest = null;
+        const fullCache = {};
         let activeCategory = null;
         let activeMetaCategory = null;
         // Exact-set filter: a document must carry ALL of these meta-categories.
@@ -1418,9 +1420,15 @@
 
         async function loadIndex() {
             try {
-                const response = await fetch('./index.json');
+                // Load the SLIM search index (fast) — full records are
+                // fetched lazily per chunk when a detail modal opens.
+                const response = await fetch('./search_index.json');
                 allData = await response.json();
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
+                try {
+                    const man = await fetch('./full_manifest.json', { cache: 'no-store' });
+                    fullManifest = await man.json();
+                } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
                     const feedRes = await fetch('./library_feed.json', { cache: 'no-store' });
@@ -1599,7 +1607,8 @@
                         (item.patent_numbers || []).join(' ') + ' ' +
                         (item.categories || []).join(' ') + ' ' +
                         (item.meta_categories || []).join(' ') + ' ' +
-                        (item.content_preview || '')
+                        (item.content_preview || '') + ' ' +
+                        (item.search_text || '')
                     ).toLowerCase();
                     if (!haystack.includes(s)) return false;
                 }
@@ -1677,6 +1686,35 @@
         function showDetail(id) {
             const item = allData.find(d => d.id === id);
             if (!item) return;
+
+            // If we have the manifest, upgrade to the FULL record (lazy chunk)
+            // before rendering, so the detail modal has source_url, concepts,
+            // and the complete preview.
+            if (fullManifest && fullManifest.chunks) {
+                const ch = fullManifest.chunks.find(c => id >= c.start && id < c.start + c.count);
+                if (ch && !fullCache[ch.file]) {
+                    fetch('./' + ch.file, { cache: 'no-store' })
+                        .then(r => r.json())
+                        .then(records => {
+                            fullCache[ch.file] = records;
+                            const full = records.find(d => d.id === id);
+                            if (full) renderDetail(full, item);
+                        })
+                        .catch(() => renderDetail(item)); // fall back to slim
+                    // render slim immediately for snappy response
+                    renderDetail(item);
+                    return;
+                }
+                if (ch && fullCache[ch.file]) {
+                    const full = fullCache[ch.file].find(d => d.id === id);
+                    renderDetail(full || item);
+                    return;
+                }
+            }
+            renderDetail(item);
+        }
+
+        function renderDetail(item) {
 
             const link = getBestUrl(item);
             const afLinks = getAetherforceLinks(item.categories);
