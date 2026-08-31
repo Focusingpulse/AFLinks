@@ -36,7 +36,7 @@ Legend: ✅ verified working · 🔧 fixed this pass · ⚠️ known gap · 🧹
 4. **1,103 docs without previews** — mostly media + corrupt PDFs. Cloud has no Tesseract; OCR batch on FocusOptimized (Windows) when convenient.
 5. **lens.html** — no data fetch; verify it's a static curated page vs a broken feature. If placeholder, hide it or wire it.
 6. **Declassified record content** — each md should carry real outbound URLs to the source; spot-verify all 16.
-7. **Vault seam/vesica** — data is rich (verified crossings); confirm every seam card opens a filtered view with results (no empty states).
+7. ✅ **Vault seam/vesica FIXED (Aug 31)** — audited all 276 meta pairs (0 dead). Fixed two click-through defects: (1) seam rows now open the FULL connected fabric (both + crossings) via ?seam=1, so crossing docs shown in the vault appear in the result set; (2) id-space mismatch (seam index string ids vs search index int ids) resolved with coercion — seam clicks previously landed empty. Verified: sample seam opens 2,670 real docs.
 8. **Translation reader for Book 5** — progress bar + assembled reader confirmed working; verify chunk manifest stays current as book5-translate cron runs.
 
 ## Scale agenda (target 20–30k docs)
