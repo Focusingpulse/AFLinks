@@ -81,3 +81,19 @@ letta cron add --name aflinks-worker-<site> \
 Same flow. Each agent takes one site and runs the 5 steps above. Their pushes
 merge cleanly because `merge_all_progress.py` is idempotent and `git pull
 --rebase` is a habit. No coordination needed beyond picking distinct sites.
+## LIVE LEDGER RULE (all workers — critical)
+
+**index.json is the single source of truth. `library_feed.json` (site HUD/counter)
+and `search_index.json` (search) are DERIVED artifacts.** If you change
+index.json and don't rebuild both, the numbers on the site drift apart.
+
+After ANY merge (step 6 in the flow above — or any index.json change), ALWAYS:
+
+```bash
+AFLINKS_DIR=/root/workspace/AFLinks python3 build_library_feed.py
+python3 build_slim_index.py
+```
+
+before committing/pushing. The site HUD counter, chest counts, seam index,
+latest-finds, and translations all come from those two files. Keep them
+current with index.json and the ledger stays alive.
