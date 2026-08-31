@@ -1,4 +1,4 @@
-﻿---
+---
 title: "A Universe Without Dark Matter?"
 original_title: "Un Univers sans matiere noire ?"
 author: "Gabriel Chardin (CNRS)"

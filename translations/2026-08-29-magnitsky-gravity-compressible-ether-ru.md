@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-08-29
 title: Magnitsky - Gravity in Compressible Oscillating Ether Theory
 domain: ether-physics

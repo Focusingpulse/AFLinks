@@ -2,7 +2,7 @@
   "_about": {
     "version": "0.1.0",
     "description": "Person index for the Aetherforce Living Library. Links researchers to their works in the collection. Maintained by Synthesist.",
-    "last_updated": "2026-08-31T18:00:00Z"
+    "last_updated": "2026-08-31T20:00:00Z"
   },
   "persons": [
     {
@@ -590,6 +590,58 @@
       ],
       "cited_by": [],
       "notes": "Published comprehensive article on form waves (March 2026)."
+    },
+    {
+      "id": "vassilatos",
+      "name": "Thomas Valone (Vassilatos)",
+      "role": "researcher, author",
+      "key_contribution": "Author of 'Secrets of Cold War Technology' and 'Lost Science — Vassilatos's compilations of Tesla's radiant energy experiments",
+      "works_in_collection": [],
+      "cited_by": ["lindemann"],
+      "notes": "Vassilatos's statements about Tesla's experiments are referenced extensively in Lindemann's patent analysis. No primary works in collection yet."
+    },
+    {
+      "id": "crookes",
+      "name": "Sir William Crookes",
+      "nationality": "British",
+      "dates": "1832–1919",
+      "role": "physicist, chemist",
+      "key_contribution": "Invented the radiometer; studied radiant matter from incandescent bodies — foundational to Tesla's radiant energy concept",
+      "works_in_collection": [],
+      "cited_by": ["lindemann"],
+      "notes": "Tesla's friendship and admiration for Crookes led to the term 'radiant energy'. Crookes's radiometer showed that emissions from heated matter carry physical force."
+    },
+    {
+      "id": "majorana_salvatore",
+      "name": "Salvatore Majorana",
+      "nationality": "Italian",
+      "role": "scientist",
+      "key_contribution": "LENR reactor research referenced in Corriere della Sera coverage of Prometheus reactor",
+      "works_in_collection": [],
+      "cited_by": ["prometheus"],
+      "notes": "Mentioned in press coverage of the Prometheus LENR reactor as 'the gentle reactor'. Not to be confused with physicist Ettore Majorana."
+    },
+    {
+      "id": "mendeleev",
+      "name": "Dmitri Mendeleev",
+      "nationality": "Russian",
+      "dates": "1834–1907",
+      "role": "chemist",
+      "title": "Creator of the Periodic Table",
+      "key_contribution": "Predicted two inert elements lighter than hydrogen; the lightest would be a gas penetrating everything — Tesla believed he had discovered this gas as the cause of the electrostatic field",
+      "works_in_collection": [],
+      "cited_by": ["lindemann"],
+      "notes": "Cited by Lindemann in the Tesla radiant energy analysis. Mendeleev's 1902 prediction of sub-hydrogen elements connects to Tesla's neutral particle theory."
+    },
+    {
+      "id": "denicolo",
+      "name": "Rosella Denicolò",
+      "nationality": "Italian",
+      "role": "journalist",
+      "key_contribution": "Interviewed Emilio Del Giudice on Gerald Pollack's fourth phase of water discovery for A.CS.I.",
+      "works_in_collection": [],
+      "cited_by": ["del_giudice"],
+      "notes": "Attributed as the interviewer in the Del Giudice/Pollack article from A.CS.I. CranioSacrale Italia."
     }
   ]
 }

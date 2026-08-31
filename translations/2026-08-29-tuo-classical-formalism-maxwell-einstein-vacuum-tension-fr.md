@@ -1,4 +1,4 @@
-﻿---
+---
 date: 2026-08-29
 title: TUO Classical Formalism - From Maxwell Einstein to Vacuum Tension Tv
 domain: ether-physics

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Form Waves: Origin, Principles, and Controversies"
 original_title: "Les ondes de forme"
 author: "Centre Ganesha / ChamanKa"
