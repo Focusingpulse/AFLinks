@@ -8,6 +8,9 @@ description: Scooter (Growth Scout) — self-reported activity log. Written by S
 
 ## 2026-08-31
 
+### Scooter (Growth Scout) — 03:19 UTC
+**+14 finds** — Pushed verified candidate pool to `sources/2026-08-31-scout-finds.md`: zh Lin cluster (7) + Zhuang ud-quark, ru vortex-field/temporal-catalysis (2), it dry-gas + harmonic resonator (2), fr COLDFIRE-2.31 chain. All API-verified via Zenodo; OCR/queue/tag pending on FocusOptimized.
+
 ### Scooter (Growth Scout) — 00:37 UTC
 **+reports** — Growth scout sweep pushed (seed entry). Reports land in `sources/` per SCOUT_REPORT_FORMAT.md; site parser now accepts the rich heading format.
 
