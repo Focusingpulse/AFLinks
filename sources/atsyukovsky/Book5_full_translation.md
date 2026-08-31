@@ -5152,3 +5152,537 @@ Unfortunately, the total number of interfering factors is always and in principl
 
 ---
 
+
+### SOURCE SECTION: Chapter 2.
+
+[p269]
+Critical analysis of the foundations of the theory of relativity.                      269
+on the outcome to a greater degree than is permitted by the magnitude of the permissible error. This means that assessments must be made of the possible influence of each interfering factor, for which there is reason to assume the possibility of their influence on the final result. Unfortunately, this is far from always done.
+
+As a result of conducting the experiment, functional dependencies of many variables are revealed, including unaccounted factors. In these dependencies there are outliers – excessively large deviations from the general mass of readings, which can be discarded without proper justification if only a certain model is taken into consideration. The same can be said about the choice of extrapolating dependencies. The choice of one or another of them and the determination of the area of propagation of extrapolating functions over the entire area of readings is also substantially determined by the choice of the initial theory and model of the phenomenon.
+
+As an example, we can cite the processing of results of experiments on the deviation of starlight by the Sun. Since there are no readings of stellar image deviations near the edge of the Sun due to the illumination of this region by the solar corona, the readings are processed statistically. However, during processing, hyperbolic extrapolation was adopted, which was determined by the general theory of relativity. This led to obtaining a result close to that predicted by this theory. If extrapolation had been performed in the usual way, the result would have been different.
+
+2.2. Some features of the interpretation of experimental results
+
+Despite the obviousness that obtaining expected results would seem to unambiguously confirm the tested theory, in reality this is not the case.
+
+The fact is that just as any number of factors can correspond to any (infinite) number of theories, so the result obtained from an experiment can fit and thereby
+
+
+---
+
+
+### SOURCE SECTION: Chapter 2.
+
+[p270]
+270                                                                                           Appendix 3.
+"confirm" any (infinite) number of theories, even mutually exclusive ones. An analogy for this is, for example, the fact that through a limited number of points one can draw any number of smooth curves, or that diverse causes can lead to one and the same consequence.
+
+An example is experiments to confirm the special theory of relativity, which, as a rule, confirm not the STR itself, as is usually presented, but only dependencies successfully approximated by Lorentz transformations. Essentially, they are that mathematical apparatus from which all other functional dependencies of STR flow. However, the Lorentz transformations themselves, proposed by him in 1904, that is, a year before the creation of STR, are based on a completely different idea than the special theory of relativity.
+
+In accordance with H.A. Lorentz's theory of a stationary ether, all bodies, having electrical connections between atoms and molecules, must change their dimensions when moving through the ether (the field of electric charges, in Lorentz's view, must deform, and the distances between atomic nuclei change). Deriving the corresponding dependencies led Lorentz to transformations that bear his name. Therefore, correspondence of the obtained results to Lorentz transformations does not at all mean confirmation of STR; this can also be interpreted as confirmation of Lorentz's theory of a stationary ether. Furthermore, gas-mechanical dependencies exist, in which instead of β – the ratio of the body's velocity to the speed of light – the Mach number M appears – the ratio of the body's velocity to the speed of sound in the gaseous medium. Up to the value β = M = 0.85, these dependencies give a result differing from Einstein's within units of percent. If the ether possesses a gas-like structure, then the results obtained in experiments on STR will well demonstrate the presence of a gas-like ether in nature.
+
+The interpretation of results is decisively influenced by the choice of invariants and the experimenters' ideas about the essence of
+
+
+---
+
+
+### SOURCE SECTION: Chapter 2.
+
+[p271]
+Critical analysis of the foundations of the theory of relativity.                      271
+the phenomenon. Here there are great possibilities for diverse interpretations of the results they obtain.
+
+Among all these questions, the problem of choosing general physical invariants has special importance. Thus, as a result of experiments to determine the mass of a particle as its velocity approaches the speed of light, a complex dependence is obtained linking the electric field strength of a capacitor and the magnetic field strength through which the particle flies, with its charge, flight velocity, trajectory curvature radius, and particle mass [27, p.175].
+
+Accepting the field strengths, particle charge, and interaction coefficient between the particle and electric and magnetic fields as invariants leads to the conclusion about the variability of mass. However, if mass is considered an invariant, the same dependence can be interpreted as detecting the dependence of charge magnitude on velocity, as was pointed out by Bush [28]. If mass, charge, and field magnitudes are considered unchanged and independent quantities, then the conclusion suggests itself about the variability of the Coulomb interaction coefficient between a moving charge and an electric field, which was drawn to the author's attention [29, p. 159]. There are grounds for such an interpretation, since the interaction of a particle and a field is determined by the relative velocity of field propagation and particle motion; as the velocity approaches the speed of field propagation, slip decreases, and therefore the force acting on the particle from the field must also decrease.
+
+From the above, it follows that when conducting any experiments, one must proceed from general physical invariants and take into account accompanying factors, as well as possible variants of interpreting experimental results. Not obtaining expected results in principle means imperfection of the initial ideas about the essence of the experiment; obtaining expected results means not confirmation of the initial ideas, but only non-contradiction to them.
+
+[p272]
+272                                                                                           Appendix 3.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+Chapter 3. Experiments on the special theory of relativity
+
+3.1. Investigations of the ether wind using an interferometer with an optical path length greater than 10 m.
+
+The essence of the phenomenon and the purpose of the experiment
+H.A. Lorentz's hypothesis of a stationary ether is being tested. In accordance with this hypothesis, during the Earth's orbital motion around the Sun, an ether wind should be observed on the Earth's surface, the speed of which should be 30 km/s. The purpose of the experiment is to reveal the fact of the presence and magnitude of the ether wind velocity.
+
+Scheme and methodology of the experiment
+
+Fig. 3.1. Scheme of an experiment to detect the ether wind using an interferometer
+
+In the experiment, an interferometer with two mutually perpendicular arms is used (Fig. 3.1).
+A displacement of the interferometer fringes is observed when the instrument is rotated by 90°. The expected magnitude of displacement is
+
+[p273]
+Critical analysis of the foundations of the theory of relativity.                      273
+               v²
+δ =  2D ——,
+                c²
+
+where D is the optical path length, v is the wind velocity.
+
+Time and place of the experiment [30]
+
+1. 1880, Berlin, altitude above sea level H ≤ 0 m. (Michelson);
+2. 1881-1882, Potsdam, H ≤ 0 m. (Michelson);
+3. 1887, Cleveland, USA, H ≤ 0 m. (Michelson and Morley);
+4. 1904-1905, Cleveland, USA, H = 250 m. (Morley and Miller);
+5. 1921-1925, Mount Wilson, USA, H = 1860 m (Miller);
+6. 1929, Mount Wilson, USA, H = 1860 m (Michelson, Pease and Pearson).
+
+Parameters of the instrument, measurement results and processing of results by authors [31, p. 27-52, 32-46]
+
+Year
+Authors
+D, m
+n/km/s
+H, m
+v, km/s
+1880
+1881-
+1882
+1887
+
+1904
+1905
+1921-
+1925
+1929
+Michelson
+Michelson
+
+Michelson and
+Morley
+Morley and Miller
+Morley and Miller
+Miller
+
+Michelson, Pease
+and Pearson
+1.2
+1.2
+
+11
+
+32
+32
+32
+
+25.9
+0.0013
+0.0013
+
+0.013
+
+0.04
+0.04
+0.04
+
+0.03
+< 0
+< 0
+
+< 0
+
+< 0
+
+< 0
+250
+1860
+
+1860
+< 18
+< 18
+
+≈ 3.5
+
+≈ 3
+≈ 3-3.5
+≈ 8-10
+
+≈ 6
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p274]
+274                                                                                           Appendix 3.
+Authors' conclusion
+There is no ether wind on the Earth's surface. The magnitude of the ether wind velocity increases with altitude.
+
+Comment (V.A.)
+1. S.I. Vavilov processed the primary data from the Michelson-Morley experiment (1887) and obtained the following table of interference fringe displacement [31, p.33]:
+
+Azimuth
+16
+1
+2
+3
+4
+5
+6
+7
+8
+Displacement
++0.02
++0.005
+0.00
+-0.01
+-0.03 -0.005
+0.00
++0.015
++0.02
+
+Azimuth
+9
+10
+11
+12
+   13
+14
+15
+16
+Displacement
+-0.02
+-0.0015
+0.00
++0.015
++0.02
++0.03
+0.00
+0.00
+
+From the table it follows that the maximum difference in fringe displacement is 0.06, which gives an ether wind velocity of 4.5 km/s, since a calculated velocity of 30 km/s corresponds to an interference fringe displacement of 0.4. However, here it is also necessary to take into account the direction of the ether wind, which was established by D.C. Miller later. According to his data, the wind direction is from the star "ζ" of the constellation Draco, which is 26° from the celestial Pole. Taking into account that the experiment was conducted in Cleveland (41° N latitude), the interferometer plane will rotate relative to the ether wind direction in the Earth's diurnal rotation from +15.5° to – 67.5°, which gives a sum of cosines cos15.5° + cos(–67.5°) = 1.34.
+
+Consequently, in the experiments of 1886-1887, Michelson and Morley obtained an ether wind velocity of
+
+         4.5
+v₀ = ——— = 3.4 km/s,
+                1.34
+
+and by no means zero, as is usually claimed.
+
+[p275]
+Critical analysis of the foundations of the theory of relativity.                      275
+These results correlate well (within the limits of measurement and calculation errors) with the data of Morley and Miller for 1904-1905, when they obtained an ether wind velocity of 3 km/s at an altitude of 250 m above sea level. However, here in processing the experimental results, the direction of the ether wind in near-Earth space was not yet taken into account. Taking into account that the experiment obtained not the full wind velocity value, but only its projection, the result obtained must be divided by each of the cosines, assuming that the ether wind velocity magnitude is in the range from
+
+                      3
+v₂₅₀ min = ————— = 3.1 km/s
+                  cos15.5°
+
+to
+
+                            3
+v₂₅₀ max = ————— = 7.8 km/s
+                 cos(–67.5°)
+
+And finally, at an altitude of 1860 m, the ether wind velocity was 8 to 10 km/s (according to Miller, 1925). The difference in the ether wind velocity obtained by Miller in this experiment, taking into account azimuth changes in the diurnal and annual rotations of the Earth, allowed determining the general-galactic direction of ether displacement in near-Earth space.
+At the same altitude in 1929, Michelson obtained a somewhat underestimated value of the ether wind velocity – 6 km/s, which is easily explained by the conditions of conducting the experiment. If Miller built a "light" house for conducting it, which Miller specifically mentions, attaching great importance to this, then Michelson built a fundamental building for conducting the experiment, which Michelson himself mentions. Natur-
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p276]
+276                                                                                           Appendix 3.
+-rally, the ether-dynamic resistance of the walls of Michelson's house must be higher than that of Miller's house, which explains the difference in the data obtained.
+
+2. The data obtained fit well into the theory of the boundary layer flowing around a sphere (Fig. 3.2) [47, p. 227-232], which indicates a gas-like structure of the ether. As shown by V.A. Atsyukovsky [29, p. 285], the Earth absorbs ether, which enters it at the second cosmic velocity equal to 11.18 km/s. This means that the horizontal component of the ether wind decays not at the Earth's surface, but at some depth.
+
+Fig. 3.2. Flow of gas around a sphere
+
+3. From the above it follows that:
+a) ether exists;
+b) Ether has a gas-like structure;
+c) the direction of the ether wind according to D.C. Miller – from the star "ζ" of the constellation Draco, which constitutes (26°, 17 h.10 min.);
+d) all components of the Earth's motion in the solar system, the motion of the Solar system in the Galaxy, and the motion of ether in the Galaxy are summed in the ether wind velocity. The total ether wind velocity relative to the Earth amounts, apparently, to tens of kilometers per second.
+
+[p277]
+Critical analysis of the foundations of the theory of relativity.                      277
+3.2. Investigations of the ether wind using interferometers with an optical path length less than 5 meters
+
+The essence of the phenomenon and the purpose of the experiment
+The same as in section 31.
+
+Scheme and methodology of conducting the experiment
+Similar to section 3.1.
+
+Time and place of conducting the experiment
+1. 1926. Pasadena, H = 1860 m. (Kennedy);
+2. 1926. Brussels, H = 2500 m. (Piccard and Stahel);
+3. 1927. Pasadena, H = 1860 m. (Illingworth.
+
+Parameters of the instrument, measurement results and processing of results by authors [31, p. 42-47; 43, p. 267-373, 48-53]
+
+Year
+Authors
+D, m
+n/km/s
+H, m
+v, km/s
+1926
+1926
+1927
+Kennedy
+Piccard and Stahel
+Illingworth
+2
+2.8
+2
+2·10⁻³
+4·10⁻³
+2·10⁻³
+1860
+2500
+1860
+0
+7
+1
+
+Authors' conclusion
+Kennedy and Illingworth – ether wind is absent; Piccard and Stahel – conclusions and results are uncertain.
+
+Comment (V.A.)
+With fringe edge blur from 10 to 15%, ensuring instrument sensitivity of (2-4)·10⁻³ fringes is impossible. Using such instruments for conducting these experiments is inadmissible. The experiments are not correct. The results are of no value whatsoever.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p278]
+278                                                                                           Appendix 3.
+3.3. Investigation of the ether wind in a partial vacuum
+
+The essence of the phenomenon and the purpose of the experiments
+Measuring the speed of light in a vacuum, determining the influence of the ether wind on the speed of light.
+
+Scheme and methodology of the experiment
+In an iron pipe with a diameter of 1 m, air has been partially evacuated to a pressure of 0.5-5 mm Hg. Using a rotating mirror, the time of light passage over a fixed distance (1650 m) is measured. If an ether wind is present, this time should be variable. The pipes are located at an altitude of 1860 m (Mount Wilson Observatory, Fig. 3.3).
+
+Fig. 3.3. Measuring the speed of light in pipes with a partial vacuum:
+a) experiment scheme; b) result of processing the obtained data
+
+Results of the experiment [54-55]
+The speed of light is on average constant; no direct influence of the ether wind has been noticed.
+
+Authors' conclusion
+There is no ether wind. Previous conclusions are apparently erroneous. There is no definitive opinion.
+
+[p279]
+Critical analysis of the foundations of the theory of relativity.                      279
+Comment (V.A.)
+The authors did not take into account the screening effect of the metal of the pipe walls, which possesses enormous ether-dynamic resistance. The ether inside the pipe turned out to be isolated from the external ether, which was pointed out by D.C. Miller. The methodological error committed indicates that neither A. Michelson himself nor his colleagues F. Pease and F. Pearson, who conducted the experiment, understood the nature of the ether.
+
+Conclusion
+The experiment is methodologically erroneous; its results are of no value whatsoever. A similar experiment could have succeeded if the pipes had been made of insulating material.
+
+3.4. Investigation of the ether wind using masers
+
+The essence of the phenomenon and the purpose of the experiment
+The same as in section 3.1.
+
+Scheme and methodology of conducting the experiment
+On a common rotating platform, two masers M1 and M2 (generators of high-frequency radiation) are installed so that radiation from one maser is directed in the direction, and from the second maser against the direction of the ether wind. The radiation is received by a plate on which, according to the authors' idea, an interference pattern is formed. The fringes shift with a frequency equal to the difference in maser frequencies (25 kHz). The difference frequency is received by a photodetector and determined by a frequency meter with high accuracy up to 10⁻¹¹ (Fig. 3.4).
+The authors assumed that the frequencies of the signals received at the plate would depend on the speed of the ether wind, and the frequency difference determined by the frequency meter would be proportional to the speed of the ether wind. Therefore, to determine the magnitude of the spee-
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p280]
+280                                                                                           Appendix 3.
+-d of the ether wind, the difference frequencies for various positions of the entire installation relative to the direction of the ether wind are compared (every 90°).
+
+Fig. 3.4. Scheme of an experiment to detect the ether wind using masers placed on a common rotating platform
+
+Time and place of conducting the experiment
+1958-1962, Columbia University, USA.
+
+Result of the experiment
+In all experiments, the frequency difference is completely absent at all positions of the platform.
+
+Authors' conclusion
+The ether wind is absent; consequently, there is no ether in nature.
+
+Comment (V.A.)
+The experiment conducted by C. Townes (Nobel Prize laureate) and his colleagues is methodologically incorrect, since with mutually stationary source and receiver of high-frequency oscillations relative to each other, the Doppler effect, which the authors counted on, is completely absent.
+
+[p281]
+Critical analysis of the foundations of the theory of relativity.                      281
+The magnitude of the ether wind velocity will only affect the phase difference of the received signals, which can hardly be measured with a moving interference pattern, but such a task was not even set.
+
+Conclusion
+The experiment is methodologically incorrectly set up and fundamentally cannot allow detecting the ether wind, even if it were present. The results are of no value whatsoever and only testify to the erroneous ideas of the authors about the essence of the Doppler effect.
+
+3.5. Investigations of the rotational effect in the ether
+
+The essence of the phenomenon and the purpose of the experiment [56-58]
+When rotating an interferometer in which light rays enclose a certain area, in a stationary ether, a displacement of interference fringes should be observed. The path difference of light rays passed along a closed curve should amount to
+
+          16πnS
+∆λ = ———,
+                c
+
+where n is the number of interferometer revolutions per second, S is the area enclosed by the light rays, c is the speed of light.
+
+The essence of the phenomenon and the purpose of the experiment
+On a common platform, mirrors are installed in such a way that light rays after splitting the original beam from the source pass along a closed contour and then are combined together, forming an interference pattern (Fig. 3.5)
+
+[p282]
+282                                                                                           Appendix 3.
+
+    
+     
+   
+Fig. 3.5. Scheme of an experiment to detect the Sagnac vortex effect
+
+A displacement of fringes is observed when the platform rotates.
+The effect received the name "Sagnac effect."
+
+Parameters of instruments and results of the experiment
+Year
+Authors
+S
+n, rev/s
+ ∆λcalc
+∆λexp
+Note
+1912
+ 
+Harris
+0.1 m²
+12.5
+Positive
+effect
+obtained
+Rotating
+platform,
+light path
+in glass
+1913
+Sagnac
+863
+cm²
+866
+cm²
+0.86
+2.35
+0.0297
+0.079
+0.0264
+0.077
+ 
+ 
+Rotating
+platform,
+light path
+in air
+1925-
+1926
+Pogany
+0.125
+m²
+20-30
+0.920
+0.920
+-“-
+1925
+Michel-
+son and
+Gale
+2·10⁴
+m²
+7.5·
+10⁻⁶
+0.236
+0.230
+Earth, light
+path
+in
+partial
+vacuum
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p283]
+Critical analysis of the foundations of the theory of relativity.                      283
+Time and place of conducting the experiment [31, p. 53-61, 108]
+1912. Jena, Germany (Harris);
+1913. Paris, France (Sagnac);
+1925-1926. Jena, Germany (Pogany);
+1925. Illinois, USA (Michelson and Gale).
+
+Authors' conclusions
+Ether undoubtedly exists; rotation of the platform, including the Earth, does not entrain the ether. The results of the experiment correspond to Lorentz's theory of a stationary ether.
+
+Comment (V.A.)
+1. In the opinion of S.I. Vavilov, "if the Sagnac phenomenon had been discovered before the zero results of second-order experiments were clarified, it would, of course, have been regarded as brilliant experimental proof of the ether" [31, p. 57].
+Regarding the Michelson-Gale experiments, Vavilov writes [31, p. 60]:
+"Thus, before us is again a positive effect, which by itself with surprising accuracy confirms the assumption about an unentrained ether, lagging behind during the Earth's diurnal rotation."
+2. Some researchers, including S.I. Vavilov, point out the contradiction between the "zero" results of second-order experiments and the positive results of experiments on the rotational effect, while simultaneously reporting that rotational effects do not contradict the theory of relativity, since this theory does not consider rotational motions. At the same time, S.I. Vavilov notes:
+"The simultaneous immobility and motion of the ether is mechanically, however, conceivable. For example, the Moon is, of course, entrained by the Earth in its motion around the Sun, but is completely uninvolved in the Earth's diurnal rotation" [31, p. 60].
+One cannot agree that there is no contradiction between the results of rotational experiments and the special theory of relativity
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p284]
+284                                                                                           Appendix 3.
+for two reasons: first, STR does not accept ether in principle, and rotational experiments, albeit through rotation, indicate the presence of ether in nature; second, the motion of light along the periphery of platforms is translational, like any motion on the periphery of a rotating body of non-zero dimensions. Another matter is that this translational motion is also accompanied by rotation of the light beam, but this does not change the essence of the matter.
+
+3. The results of rotational experiments are easily explained if one takes into account the low viscosity (internal friction) of the ether. The rotating platform does not have time to entrain the ether with its rotation. To ensure such entrainment, the ether inside the platform would need to be isolated from the external ether, and the platform would need to rotate in one direction for a sufficiently long time (possibly several days or even months). The situation is aggravated by the fact that ether is absorbed by the Earth [29, p. 285], therefore entrainment of ether by the Earth's rotation (Michelson-Gale experiment) compared to theoretical calculations (0.230 versus 0.236) testifies in favor of partial entrainment of ether by the Earth's rotation, most likely by the Earth's atmosphere.
+
+4. The Sagnac effect has currently found wide industrial application in strapdown laser inertial navigation systems, where it is used in angular velocity sensors (AVS) possessing high accuracy. Thus, no doubts currently arise regarding the presence of the effect.
+
+5. Taking into account the positive results of rotational experiments, as well as the positive results of second-order experiments of Michelson and Morley (1886-1887), Morley and Miller (1904-1905), Miller (1921-1925) and Michelson (1929), it should be considered unambiguous that ether – the medium filling world space – exists in nature, its structure is gas-like, and its viscosity is exceptionally small.
+
+[p285]
+Critical analysis of the foundations of the theory of relativity.                      285
+3.6 Investigations of the dependence of mass on velocity using charged particles
+
+The essence of the phenomenon and the purpose of the experiment
+
+In accordance with the provisions of STR, as the particle's velocity increases, its mass must increase according to the law:
+
+                       m₀
+  m =     _______   ;
+           √   1 – β²
+
+The purpose of the experiment is to determine the real increase in particle mass and compare the result with the indicated formula.
+
+Scheme and methodology of conducting the experiment
+
+Charged accelerated particles are passed through an electric field of a capacitor and a magnetic field of a permanent magnet; the trace from the particles is recorded on a photographic plate (Fig. 3.6).
+
+Fig. 3.6. Scheme of an experiment to investigate the dependence of particle mass on velocity
+
+
+---
+

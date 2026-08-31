@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-08-29
 title: "Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35"
 domain: geobiology

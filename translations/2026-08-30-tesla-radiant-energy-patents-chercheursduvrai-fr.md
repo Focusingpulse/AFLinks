@@ -1,16 +1,14 @@
----
-date: 2026-08-30
-title: "Analysis of Tesla's Patent Schematics on Radiant Energy"
-domain: aether, radiant-energy, alternative-energy
-source_url: https://chercheursduvrai.fr/
-language: en
-source_language: fr
-author: "Peter A. Lindemann"
-translator: "Chercheurs Du Vrai (compiled translation)"
-note: "Content is in English despite French source site. Compiled from Lindemann's book 'The Free Energy Secrets of Cold Electricity' (2000) and DVD lecture (2006)."
----
+Chercheurs Du Vrai
 
-# Analysis of Tesla's Patent Schematics on Radiant Energy
+Search
+
+Search:
+
+Analysis of TESLA's Patent Schematics on Radiant Energy
+
+Number of unique visits: 28,290
+
+Analysis of TESLA's Patent Schematics on Radiant Energy
 
 Information compiled from the author's book and DVD:
 Peter A. Lindemann
@@ -31,7 +29,8 @@ Assembling them together is the minimum necessary for the functional realization
 
 I quote Lindemann: "The effect was rare because it obviously required very strict electrical parameters. Tesla deduced this from the simple fact that the effect was very rarely observed by experimenters around the world. Moreover, he quickly noticed the abnormal characteristics attached to the phenomenon. Tesla knew that despite the extremely penetrating effects in each case, he had developed the only devices capable of achieving the maximal and 'complete' manifestation of charge compression. He had an apparatus without equal, capable of emitting an aspect of the electrostatic field that others apparently did not."
 
----
+———–
+
 In a forum Lindemann says: http://www.energeticforum.com/renewable-energy/473-radiant-energy.html#post2244
 
 
@@ -42,7 +41,8 @@ In his work Tesla called "method of conversion" the conversion of "normal electr
 
 The term "radiant energy" came from Tesla's friendship and admiration for Sir William Crookes who invented the radiometer, a device that Tesla called the most elegant motor ever built. Crookes was studying the effects related to emissions from incandescent matter. The question was, when a piece of matter is heated to the point that it emits light, what EXACTLY comes from the matter that carries these properties (heat and light) into the surrounding space? The radiometer showed that these emissions had mass and could carry a PHYSICAL FORCE to another object. Tesla came to believe that ANY source of light and heat, such as the Sun for example, emitted "that which" is emitted when MATTER RADIATES! Whatever it was, it was called "radiant matter." Since it could pass through the glass of the radiometer without causing the vacuum contained in the enclosure to cease, it was concluded that the particle size was INFINITESIMALLY SMALL. Tesla's subsequent experiments determined that these radiant matter particles were the primary CARRIERS of electrostatic charge.
 
----
+———–
+
 Complete list of sources used:
 
 Compilation of Tesla's patents compiled in PDF:
@@ -84,7 +84,8 @@ In this spark gap, Tesla blows hot air through the spark gap, and as indicated i
 
 Hot air quenched spark mechanism
 
----
+———–
+
 In a forum Lindemann says: http://www.energeticforum.com/renewable-energy/473-radiant-energy.html#post2397
 
 
@@ -105,7 +106,9 @@ In my DVD on Tesla's radiant energy I explored all of Tesla's patents and discus
 
 In the 1920s, as vacuum tubes began to spread, John Bedini and I believe Tesla went to see Lee DeForest who built him the first experimental Thyratrons. This is a family of control circuits specifically designed to produce unidirectional pulses, only when triggered, and then automatically cut off when the voltage drops to zero volts. This is what we see nowadays in the operation of the Thyristor, the simplest SCR switch. The problem is that today's SCRs are not designed to cut current fast enough for the needs of these circuits.
 
----
+———–
+
+
 ---
 
 
@@ -391,4 +394,24 @@ As long as we make closed-loop circuits with a ground reference, the "natural me
 Tesla always referenced his energy reception systems with at least two points, and left the energy-accumulating part as an open circuit; so that the "natural medium" could provide a potential difference between these two points. Energy could then be extracted from the circuit between these two reference points, at the rate of natural energy accumulation, depending on the size of the device used."
 
 To your soldering irons!!!
+
+Everything outside the conventional
+
+Search:
+
+Recent posts
+
+Ummites: update
+December 27, 2017
+
+New page on antigravity propulsion
+September 9, 2017
+
+New page on extraterrestrial contactees
+July 16, 2015
+
+Privacy policy and cookie policy
+
+
+---
 

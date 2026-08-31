@@ -1,4 +1,4 @@
----
+﻿---
 date: 2026-08-29
 title: "Enel (Prince Michel Vladimirovich Skariatine, 1883-1963): A Life at the Crossroads of Science and Tradition"
 domain: radiesthesia
