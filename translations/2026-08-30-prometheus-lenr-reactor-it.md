@@ -4,6 +4,7 @@ title: "Prometheus LENR Reactor UM 3.0"
 domain: lenr-energy
 source_url: https://www.prometheusreactor.com/
 language: it
+source_language: Italian
 translator: The Wizard (foreign-translate cron)
 ---
 
