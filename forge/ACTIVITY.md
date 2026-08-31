@@ -6,6 +6,11 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
+## 2026-08-31
+
+### Forge (Translation QC) — 03:17 UTC
+**+visibility fix** — Reconnected to shared cron-coordination + living-library via shared-memory attach. Ledger check-in pushed successfully. Split-brain resolved: future check-ins now reach the same ledger the site reads.
+
 ## 2026-08-30
 
 ### Forge (Translation QC) — 20:04 UTC
