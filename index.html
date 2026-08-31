@@ -990,28 +990,26 @@
         }
         .kd-rings {
             position: relative;
-            width: min(88vw, 430px);
-            height: min(88vw, 430px);
+            width: min(86vw, 430px);
+            height: min(86vw, 430px);
             max-height: 430px;
         }
         .kd-rings svg.outer-ring { width: 100%; height: 100%; display: block; }
         /* inner subject dial */
         .kd-inner {
-            position: absolute;
-            inset: 22%;
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            align-content: center;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
             gap: 6px;
-            padding: 6px;
-            border-radius: 50%;
-            background: radial-gradient(circle at 35% 30%, #10323c, #08232c 70%);
-            border: 1px solid rgba(232,182,76,0.35);
-            box-shadow: inset 0 0 30px rgba(0,0,0,0.55), 0 0 24px rgba(23,184,169,0.08);
+            width: 100%;
+            max-width: 640px;
+            margin: 4px auto 0;
+            padding: 8px;
+            border-radius: 14px;
+            background: rgba(9,34,42,0.55);
+            border: 1px solid rgba(232,182,76,0.18);
         }
-        .kd-inner { grid-template-columns: repeat(3, 1fr); align-content: space-evenly; gap: 5px; padding: 10px; }
-        @media (max-width: 520px) {
-            .kd-inner { grid-template-columns: 1fr; gap: 4px; padding: 10px; inset: 26%; }
+        @media (max-width: 480px) {
+            .kd-inner { grid-template-columns: 1fr 1fr; max-width: 100%; }
         }
         .kc-chip {
             display: flex;
@@ -1037,32 +1035,40 @@
         .kc-chip.ghost { opacity: 0.24; pointer-events: none; }
         /* hub: keyhole + chest */
         .kd-hub {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            width: 27%;
-            aspect-ratio: 1;
-            border-radius: 50%;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
-            gap: 2px;
-            background: radial-gradient(circle at 40% 35%, #18404a, #0a2831 75%);
+            gap: 12px;
+            width: auto;
+            max-width: 480px;
+            margin: 2px auto 0;
+            padding: 10px 22px;
+            border-radius: 999px;
+            background: linear-gradient(180deg, rgba(22,52,60,0.95), rgba(10,36,44,0.95));
             border: 2px solid rgba(232,182,76,0.55);
-            box-shadow: 0 0 18px rgba(232,182,76,0.25), inset 0 0 14px rgba(0,0,0,0.6);
+            box-shadow: 0 0 18px rgba(232,182,76,0.2), inset 0 0 14px rgba(0,0,0,0.5);
             transition: box-shadow 0.3s;
-            z-index: 2;
             cursor: pointer;
+            text-align: center;
         }
         .kd-hub.open { box-shadow: 0 0 26px rgba(255,209,102,0.5), inset 0 0 14px rgba(0,0,0,0.6); }
+        .kd-hub .hub-chest {
+            width: 52px;
+            height: 52px;
+            flex-shrink: 0;
+            background: url('images/chest-open.png') center/contain no-repeat;
+            filter: drop-shadow(0 0 8px rgba(255,209,102,0.45));
+            transition: transform 0.25s;
+        }
+        .kd-hub.closed .hub-chest { background-image: url('images/chest-closed.png'); filter: drop-shadow(0 0 4px rgba(0,0,0,0.6)) brightness(0.75); }
+        .kd-hub .hub-text { display: flex; flex-direction: column; align-items: center; min-width: 0; }
         .kd-hub .hub-lens {
             font-size: 0.6rem;
             letter-spacing: 1px;
-            text-transform: uppercase;
+            text-transorm: uppercase;
             color: #9fc0bb;
-            max-width: 90%;
+            max-width: 240px;
             text-align: center;
             line-height: 1.2;
         }
@@ -1070,26 +1076,9 @@
             font-family: 'Pirata One', serif;
             font-size: 0.95rem;
             color: var(--gold-bright);
-            max-width: 92%;
+            max-width: 240px;
             text-align: center;
             line-height: 1.1;
-        }
-        .kd-hub .hub-chest {
-            width: 46%;
-            aspect-ratio: 1;
-            background: url('images/chest-open.png') center/contain no-repeat;
-            filter: drop-shadow(0 0 8px rgba(255,209,102,0.45));
-            transition: transform 0.25s;
-        }
-        .kd-hub.closed .hub-chest { background-image: url('images/chest-closed.png'); filter: drop-shadow(0 0 4px rgba(0,0,0,0.6)) brightness(0.75); transform: scale(0.92); }
-        .kd-hub::after {
-            content: '';
-            position: absolute;
-            inset: -12%;
-            border-radius: 50%;
-            border: 2px solid rgba(232,182,76,0.25);
-            background: radial-gradient(circle at 50% 50%, transparent 55%, rgba(232,182,76,0.06));
-            pointer-events: none;
         }
         .kd-spin-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: center; }
         .kd-spin {
@@ -1200,9 +1189,38 @@
             letter-spacing: 0.5px;
         }
         .kd-toast.show { transform: translateX(-50%) translateY(0); }
+        /* golden marker at top of dial */
+        .kd-marker {
+            position: absolute;
+            top: -2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0; height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 18px solid #ffd166;
+            filter: drop-shadow(0 0 8px rgba(255,209,102,0.7));
+            z-index: 3;
+            pointer-events: none;
+        }
+        /* drag affordance */
+        .kd-rings { cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
+        .kd-rings.dragging { cursor: grabbing; }
+        /* ghosted lanes (lock-dial: only the top lane is lit) */
+        .kd-slice { fill: transparent; cursor: pointer; }
+        .kd-slice:hover { fill: rgba(255,209,102,0.08); }
+        .kd-rings .outer-ring text { transition: opacity 0.2s, fill 0.2s; }
+        .kd-rings .outer-ring text.ghost { opacity: 0.2; }
+        .kd-rings .outer-ring text.lit { opacity: 1; font-size: 12px; font-weight: 700; }
         @media (max-width: 480px) {
             .pirate-hero h1 { font-size: 1.7rem; }
             .kd-list { grid-template-columns: 1fr; }
+            .kd-hub { max-width: 94%; padding: 8px 14px; gap: 10px; }
+            .kd-hub .hub-chest { width: 46px; height: 46px; }
+            .kd-hub .hub-lens { font-size: 0.56rem; max-width: 170px; }
+            .kd-hub .hub-subj { font-size: 0.9rem; max-width: 170px; }
+            .kd-inner { grid-template-columns: 1fr 1fr; gap: 5px; }
+            .kc-chip { font-size: 0.66rem; padding: 5px 8px; }
         }
     </style>
 </head>
@@ -1248,13 +1266,15 @@
         <div class="kd-stage">
             <div class="kd-rings" id="kdRings">
                 <svg class="outer-ring" id="kdOuter" viewBox="0 0 440 440" aria-label="Subject dial: spin to choose a lens"></svg>
-                <div class="kd-inner" id="kdInner"></div>
-                <div class="kd-hub closed" id="kdHub" title="Open the chest">
+            </div>
+            <div class="kd-hub closed" id="kdHub" title="Open the chest">
+                <span class="hub-chest" id="kdHubChest"></span>
+                <span class="hub-text">
                     <span class="hub-lens" id="kdHubLens">—</span>
                     <span class="hub-subj" id="kdHubSubj">pick a lane</span>
-                    <span class="hub-chest" id="kdHubChest"></span>
-                </div>
+                </span>
             </div>
+            <div class="kd-inner" id="kdInner"></div>
             <div class="kd-spin-row">
                 <button class="kd-nav" id="kdPrev" title="Previous lens">◀</button>
                 <button class="kd-spin" id="kdSpin">⚓ Spin the Dial</button>
@@ -1855,14 +1875,16 @@
             });
         }
 
-        /* ─── Key Chest Dial — spin the rings, unlock the treasure ──── */
+        /* ─── Key Chest Dial — click, drag, or spin to choose your treasure ──── */
         let seamData = null;
         let kdLenses = [];
         let kdSelLens = 0;
         let kdSelSubj = null;
         let kdSubjCounts = {};
-        let kdSpinRot = 0;
+        let kdWheelRot = 0;
         let kdSpinning = false;
+        let timeoutKd = null;
+        let kdJustDragged = false;
 
         function kdToastm(msg) {
             const t = document.getElementById('kdToast');
@@ -1873,6 +1895,9 @@
             kdToastm._t = setTimeout(() => t.classList.remove('show'), 2400);
         }
 
+        function kdNormalize(a) { return ((a % 360) + 360) % 360; }
+        function kdStep() { return 360 / kdLenses.length; }
+
         function kdPolar(cx, cy, r, deg) {
             const rad = deg * Math.PI / 180;
             return [cx + r * Math.cos(rad), cy + r * Math.sin(rad)];
@@ -1882,6 +1907,11 @@
             const p0 = kdPolar(cx, cy, r1, a0), p1 = kdPolar(cx, cy, r2, a0);
             const p2 = kdPolar(cx, cy, r2, a1), p3 = kdPolar(cx, cy, r1, a1);
             return `M ${p0[0].toFixed(2)} ${p0[1].toFixed(2)} L ${p1[0].toFixed(2)} ${p1[1].toFixed(2)} A ${r2} ${r2} 0 0 1 ${p2[0].toFixed(2)} ${p2[1].toFixed(2)} L ${p3[0].toFixed(2)} ${p3[1].toFixed(2)} A ${r1} ${r1} 0 0 0 ${p0[0].toFixed(2)} ${p0[1].toFixed(2)} Z`;
+        }
+
+        // which lens is under the golden marker at the top of the wheel
+        function kdPointedAt(r) {
+            return Math.round(kdNormalize(-r) / kdStep()) % kdLenses.length;
         }
 
         function kdBuildSubjectCounts() {
@@ -1917,24 +1947,30 @@
             const svg = document.getElementById('kdOuter');
             const cx = 220, cy = 220;
             const N = kdLenses.length;
+            const step = kdStep();
             let h = '';
             h += `<circle cx="${cx}" cy="${cy}" r="204" fill="none" stroke="rgba(232,182,76,0.18)" stroke-width="3"/>`;
             h += `<circle cx="${cx}" cy="${cy}" r="148" fill="none" stroke="rgba(232,182,76,0.08)" stroke-width="1" stroke-dasharray="2 6"/>`;
+            // clickable lane slices (hit areas) — click a lane to go to it
             for (let i = 0; i < N; i++) {
-                const a0 = N === 1 ? 0 : (i * 360) / N;
+                const a0 = i * step - step / 2, a1 = i * step + step / 2;
+                h += `<path d="${kdWedgePath(cx, cy, 148, 206, a0, a1)}" class="kd-slice" onclick="kdPickLens(${i})" data-i="${i}"/>`;
+            }
+            for (let i = 0; i < N; i++) {
+                const a0 = i * step;
                 const [x1, y1] = kdPolar(cx, cy, 188, a0);
                 const [x2, y2] = kdPolar(cx, cy, 202, a0);
                 const active = i === selIdx;
                 h += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="${active ? '#ffd166' : 'rgba(232,182,76,0.4)'}" stroke-width="${active ? 4 : 2}" stroke-linecap="round"/>`;
-                if (N <= 24) {
+                if (N <= 26) {
                     const [lx, ly] = kdPolar(cx, cy, 172, a0);
-                    h += `<text x="${lx.toFixed(2)}" y="${ly.toFixed(2)}" fill="${active ? '#ffd166' : '#7fa8a3'}" font-size="10.5" text-anchor="middle" dominant-baseline="middle" font-family="'Pirata One',serif">${escapeHtml(kdLenses[i].name.slice(0, 14))}</text>`;
+                    h += `<text x="${lx.toFixed(2)}" y="${ly.toFixed(2)}" fill="${active ? '#ffd166' : '#8fb2ad'}" font-size="10.5" text-anchor="middle" dominant-baseline="middle" font-family="'Pirata One',serif" class="${active ? 'lit' : 'ghost'}">${escapeHtml(kdLenses[i].name.slice(0, 14))}</text>`;
                 }
             }
+            // selected wedge highlight
             if (N > 1) {
-                const step = 360 / N;
                 const a0 = selIdx * step - step * 0.42, a1 = selIdx * step + step * 0.42;
-                h += `<path d="${kdWedgePath(cx, cy, 150, 204, a0, a1)}" fill="rgba(255,209,102,0.14)" stroke="rgba(255,209,102,0.55)" stroke-width="1.5"/>`;
+                h += `<path d="${kdWedgePath(cx, cy, 150, 204, a0, a1)}" fill="rgba(255,209,102,0.20)" stroke="rgba(255,209,102,0.65)" stroke-width="1.5" pointer-events="none"/>`;
             }
             svg.innerHTML = h;
         }
@@ -1944,9 +1980,8 @@
             const lens = kdLenses[kdSelLens];
             el.innerHTML = '';
             if (!lens) return;
-            kdLensSubjs = kdSubjectsFor(lens.name);
-            const show = kdLensSubjs.slice(0, 7);
-            const hasMore = kdLensSubjs.length > 7;
+            const show = kdSubjectsFor(lens.name).slice(0, 7);
+            const hasMore = kdSubjectsFor(lens.name).length > 7;
             show.forEach(s => {
                 const b = document.createElement('button');
                 b.className = 'kc-chip' + (s.name === kdSelSubj ? ' sel' : '');
@@ -1960,8 +1995,7 @@
                 b.className = 'kc-chip' + (!kdSelSubj ? ' sel' : '');
                 b.innerHTML = `<span>⚓ All of ${escapeHtml(lens.name.slice(0, 18))}</span><span class="cnt">${lens.n.toLocaleString()}</span>`;
                 b.onclick = () => kdOpenSubject(null);
-                el.appendChild(b);
-            }
+                el.appendChild(b);            }
             if (!show.length && !hasMore) {
                 el.innerHTML = `<div style="color:#7fa8a3;font-size:0.66rem;text-align:center;grid-column:1/-1;align-self:center">No subjects tagged yet</div>`;
             }
@@ -1993,7 +2027,6 @@
                 ? kdNewestIn([subjName], null, 6)
                 : kdNewestIn(null, [lens.name], 6);
             const count = subjName ? (kdSubjCounts[subjName] || 0) : lens.n;
-            const crumbs = subjName ? `${lens.name} · ${subjName}` : `${lens.name} · whole lens`;
             const cards = list.map(it => {
                 const cats = (it.meta_categories || []).slice(0, 2).concat((it.categories || []).slice(0, 2));
                 const prev = (it.content_preview || '').replace(/!\[[^\]]*\]\([^)]*\)/gi, '').trim().slice(0, 140);
@@ -2018,31 +2051,47 @@
             const r = document.getElementById('kdReadout');
             const lens = kdLenses[kdSelLens];
             if (!r || !lens) return;
-            r.innerHTML = `Landed on <b style="color:var(--gold-bright)">${escapeHtml(lens.name)}</b> — ${lens.n.toLocaleString()} documents. Tap a chest below the dial, touch the key, or <span style="color:var(--gold-bright);cursor:pointer" onclick="document.getElementById('kdSpin').click()">spin again</span>.`;
+            r.innerHTML = `Landed on <b style="color:var(--gold-bright)">${escapeHtml(lens.name)}</b> — ${lens.n.toLocaleString()} documents. Click any lane, drag the wheel, or <span style="color:var(--gold-bright);cursor:pointer" onclick="document.getElementById('kdSpin').click()">spin for surprise</span>.`;
         }
 
-        function kdSpinTo(idx, animate) {
+        // animate the wheel so lens `idx` lands under the golden marker
+        function kdSpinTo(idx, animate, drama) {
             const N = kdLenses.length;
+            if (!N) return;
             if (N < 2) { kdSelLens = 0; kdRenderOuter(0); kdSpinSel(); return; }
-            if (!animate) { kdSelLens = idx; kdRenderOuter(idx); kdSpinSel(); return; }
-            const old = kdSelLens;
-            let delta = ((idx - old) % N + N) % N;
-            const turns = 2 + Math.floor(Math.random() * 2);
-            kdSpinRot += turns * 360 + delta * (360 / N);
+            if (!animate) { kdWheelRot = 0; kdSelLens = idx; kdRenderOuter(idx); kdSpinSel(); return; }
+            const targetR = kdNormalize(-idx * kdStep());
+            let delta = kdNormalize(targetR - kdWheelRot);
+            if (delta > 180) delta -= 360;
+            if (drama) {
+                const t = 2 + Math.floor(Math.random() * 2);
+                delta += (delta >= 0 ? 1 : -1) * t * 360;
+            }
+            kdWheelRot += delta;
             kdSelLens = idx;
             const svg = document.getElementById('kdOuter');
-            svg.style.transition = 'transform 1.9s cubic-bezier(0.16,0.9,0.26,1)';
-            svg.style.transform = `rotate(${kdSpinRot}deg)`;
+            const dur = drama ? 1900 : 650;
+            svg.style.transition = `transform ${dur}ms cubic-bezier(0.2, 1, 0.35, 1)`;
+            svg.style.transform = `rotate(${Math.round(kdWheelRot)}deg)`;
             kdSpinning = true;
+            clearTimeout(timeoutKd);
             timeoutKd = setTimeout(() => {
                 kdSpinning = false;
                 kdRenderOuter(idx);
                 svg.style.transition = 'none';
                 svg.style.transform = 'rotate(0deg)';
+                kdWheelRot = 0;
                 kdSpinSel();
-            }, 2000);
+            }, dur + 30);
         }
-        let timeoutKd = null;
+
+        // click a specific lane on the wheel — go straight to it
+        function kdPickLens(i) {
+            if (kdSpinning) return;
+            if (kdJustDragged) { kdJustDragged = false; return; }
+            if (i === kdSelLens) { kdSpinSel(); return; }
+            kdSpinTo(i, true, false);
+        }
 
         function kdSpinSel() {
             const lens = kdLenses[kdSelLens];
@@ -2058,18 +2107,58 @@
             kdLenses = kdAvailableLenses();
             if (!kdLenses.length) { const d = document.getElementById('keyDial'); if (d) d.style.display = 'none'; return; }
             kdRenderOuter(0);
-            const prev = document.getElementById('kdPrev'), next = document.getElementById('kdNext'), spin = document.getElementById('kdSpin');
-            prev.addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens - 1 + kdLenses.length) % kdLenses.length, true); });
-            next.addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens + 1) % kdLenses.length, true); });
-            spin.addEventListener('click', () => { if (kdSpinning) return; kdSpinTo(Math.floor(Math.random() * kdLenses.length), true); });
+            // golden marker + wheel chrome
+            const rings = document.getElementById('kdRings');
+            if (!document.querySelector('.kd-marker')) {
+                const m = document.createElement('div');
+                m.className = 'kd-marker'; m.setAttribute('aria-hidden', 'true');
+                rings.appendChild(m);
+            }
+            document.getElementById('kdPrev').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens - 1 + kdLenses.length) % kdLenses.length, true, false); });
+            document.getElementById('kdNext').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens + 1) % kdLenses.length, true, false); });
+            document.getElementById('kdSpin').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo(Math.floor(Math.random() * kdLenses.length), true, true); });
             const hub = document.getElementById('kdHub');
             hub.addEventListener('click', () => { if (kdSelSubj) kdOpenSubject(kdSelSubj); else kdSpinSel(); });
-            // come alive: one free spin shortly after load
-            setTimeout(() => {
-                if (!kdSpinning && kdLenses.length > 1) {
-                    kdSpinTo(Math.floor(Math.random() * kdLenses.length), true);
-                }
-            }, 900);
+            // grab the wheel and rotate it — release to land on whatever is under the marker
+            let drag = null;
+            const angle = (e, cx, cy) => Math.atan2(e.clientY - cy, e.clientX - cx) * 180 / Math.PI;
+            rings.addEventListener('pointerdown', e => {
+                if (kdSpinning) return;
+                if (e.target.closest && e.target.closest('.kc-chip,.kd-hub,.kd-nav,.kd-spin')) return;
+                drag = { id: e.pointerId, sx: e.clientX, sy: e.clientY, sr: kdWheelRot, moved: false };
+                try { rings.setPointerCapture(e.pointerId); } catch (_) {}
+                rings.classList.add('dragging');
+            });
+            rings.addEventListener('pointermove', e => {
+                if (!drag || drag.id !== e.pointerId) return;
+                const rect = rings.getBoundingClientRect();
+                const cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
+                const a0 = angle({ clientX: drag.sx, clientY: drag.sy }, cx, cy);
+                const a1 = angle(e, cx, cy);
+                let d = a1 - a0;
+                if (d > 180) d -= 360; if (d < -180) d += 360;
+                if (Math.abs(d) > 1) drag.moved = true;
+                kdWheelRot = drag.sr + d;
+                const svg = document.getElementById('kdOuter');
+                svg.style.transition = 'none';
+                svg.style.transform = `rotate(${Math.round(kdWheelRot)}deg)`;
+                const idx = kdPointedAt(kdWheelRot);
+                document.getElementById('kdReadout').innerHTML = `⚓ aiming at <b style="color:var(--gold-bright)">${escapeHtml(kdLenses[idx].name)}</b> — release to open`;
+            });
+            const endDrag = (e) => {
+                if (!drag) return;
+                const moved = drag.moved; const endR = kdWheelRot;
+                drag = null;
+                rings.classList.remove('dragging');
+                if (!moved) return;
+                kdJustDragged = true;
+                setTimeout(() => { kdJustDragged = false; }, 600);
+                kdSpinTo(kdPointedAt(endR), true, false);
+            };
+            rings.addEventListener('pointerup', endDrag);
+            rings.addEventListener('pointercancel', endDrag);
+            // open the top chest quietly — no surprise spin
+            kdSpinSel();
         }
 
         async function loadIndex() {
