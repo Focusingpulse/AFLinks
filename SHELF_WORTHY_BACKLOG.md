@@ -30,7 +30,7 @@ Legend: ✅ verified working · 🔧 fixed this pass · ⚠️ known gap · 🧹
 
 ## Remaining gaps (the real backlog)
 
-1. **AF category map coverage** — only 18 article permalinks for 47 categories; many categories fall back to AF Resources anchors (collection pages). Goal: verify + deep-link more AF articles per category, or drop the badge for that category. (The Ethics of this vault is specific pages, never generic.)
+1. ✅ **AF category map coverage — DEEP-LINKED (Aug 31)** — 48 categories now each carry 1-5 specific verified articles (93 total permalinks, all HTTP 200, WordPress REST inventory of 534 posts). Featured fallback extended 18 → 34. Automated consistency check: map titles === URL keys (no silent collection-page fallback). Only Finance/Economics intentionally unmapped (no honest AF article; featured fallback still gives specific pages).
 2. **Category normalization** — 47 shallow buckets with near-duplicates (Biology vs Biology/Health, Water vs Water/Hydrogen). Normalize through the concept layer so filter dropdowns feel curated.
 3. **Search depth cap** — slim index searches title/categories/600-char preview. Full-doc search needs tokenized posting (Web Worker) — defer until 30k+.
 4. **1,103 docs without previews** — mostly media + corrupt PDFs. Cloud has no Tesseract; OCR batch on FocusOptimized (Windows) when convenient.
