@@ -1,0 +1,22 @@
+Run the AFLinks sync job (The Harmonizer) on the cloud sandbox. The sandbox may have been RESET — bootstrap from GitHub FIRST, never assume local paths exist.
+
+1) BOOTSTRAP: if /root/workspace/AFLinks/.git does not exist: git clone https://github.com/Focusingpulse/AFLinks.git /root/workspace/AFLinks
+2) PULL: cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
+3) FAMILY GATE: python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member aflinks --essential — if it exits non-zero (budget LOW), do NO work, no commit, no check-in; say "aflinks-sync skipped (family budget low)" and stop.
+4) GEAR READ (scale effort by gear, never by guessing):
+   GEAR=$(python3 $MEMORY_DIR/../cron-coordination/family.py gear | head -1)
+- If $GEAR contains "overdrive": scrape = RUN QUEUE if runtime state exists, let it breathe up to the timeout.
+- Else (quota gear): maintenance core only — skip the queue scrape unless state exists AND the run will finish quickly; do not burn quota on crawling.
+5) PIPELINE (maintenance core is non-negotiable; scrape is gear-dependent):
+   a. Concept tagging: python3 tag_concepts.py
+   b. Rebuild feed: git -C $MEMORY_DIR/../living-library pull --rebase --quiet; then python3 build_library_feed.py
+   c. MERGE (timeout-safe, ALWAYS): python3 merge_all_progress.py — merges every site's *_progress.json entries into index.json idempotently. Even if the previous crawl was killed by the 280s timeout, the entries it saved still land in the index. THIS IS THE STEP THAT MOVES THE SITE COUNTER.
+   d. RUN QUEUE ONLY IF runtime state exists (site_queue.json has non-complete sites AND their filelist/progress files exist). If the sandbox was reset and state files are missing, SKIP the scrape — never re-crawl from scratch. In overdrive: python3 run_queue.py with timeout 280; if it exceeds the Bash tool timeout, run it in the background and wait. In quota gear: only run it if it can finish quickly, otherwise skip it.
+   e. MERGE AGAIN after scrape: python3 merge_all_progress.py (picks up any entries the scrape just saved to progress files).
+   f. SLIM INDEX (after final merge, BEFORE commit): python3 build_slim_index.py — regenerates search_index.json + full_NNNN.json chunks + full_manifest.json from the current index.json.
+6) COMMIT + PUSH: git add -A; git commit -m "AFLinks sync: feed rebuilt, archive at $ENTRIES docs" --author "aflinks-cron <aflinks-cron@letta.com>"; git push origin main (with Co-Authored-By: Letta Code trailer).
+7) HEARTBEAT: if ENTRIES is a number, append to the living-library activity log via python3 $MEMORY_DIR/../living-library/tools/update_activity_log.py --agent "AFLinks Sync (The Harmonizer)" --summary "+$ENTRIES docs in vault | feed rebuilt" --files "library_feed.json" --count "$ENTRIES" --unit docs, commit + push in the living-library repo.
+8) FAMILY CHECK-IN + ARCHIVE GROWTH (CRITICAL — this is how the shared ledger counter moves with the site counter):
+   python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member aflinks --status ok --summary "sync: $ENTRIES docs, feed rebuilt" --entries-count "$ENTRIES"
+   python3 $MEMORY_DIR/../cron-coordination/family.py archive-growth --entries "$ENTRIES"
+9) Report ONE line: archive count, whether scrape ran or was skipped, feed rebuilt status.
