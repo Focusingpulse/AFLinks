@@ -1065,7 +1065,7 @@ function renderSeam(leftVal, rightVal) {
 
   // Exact overlap documents (tagged with BOTH themes)
   const bothCap = Math.min(seam.both.length, 12);
-  const seamLink = `./index.html?cat=${encodeURIComponent(leftVal)}&cat=${encodeURIComponent(rightVal)}`;
+  const seamLink = `./index.html?cat=${encodeURIComponent(leftVal)}&cat=${encodeURIComponent(rightVal)}&seam=1`;
   let bothHtml = '';
   for (let k = 0; k < bothCap; k++) {
     const id = seam.both[k];

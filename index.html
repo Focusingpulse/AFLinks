@@ -985,6 +985,10 @@
         // Exact-set filter: a document must carry ALL of these meta-categories.
         // Used by the vault's Vesica seam links (?cat=A&cat=B) to show overlaps.
         let seamCats = [];
+        // Seam "fabric" mode: when arriving from the vault with &seam=1, filter
+        // to the full connected set — both-tagged docs PLUS crossings — so
+        // every row the vault displayed actually appears here.
+        let seamFabric = null; // { title, ids:Set }
         let searchTerm = '';
         let typeFilter = 'all';
         let visibleCount = 0;
@@ -1513,6 +1517,11 @@
 
         async function loadIndex() {
             try {
+                // Parse URL params FIRST so the seam fabric block below can
+                // use them (they were previously read after the feed fetch).
+                const params = new URLSearchParams(window.location.search);
+                const urlCats = params.getAll('cat');
+                if (urlCats.length) seamCats = urlCats;
                 // Load the SLIM search index (fast) — full records are
                 // fetched lazily per chunk when a detail modal opens.
                 const response = await fetch('./search_index.json');
@@ -1533,20 +1542,37 @@
                     if (lib.pages_translated != null) {
                         document.getElementById('heroPagesCount').textContent = Number(lib.pages_translated).toLocaleString();
                     }
+                    // Seam fabric mode (&seam=1): use the feed's seam index to
+                    // resolve the FULL connected set (both + crossings) for the
+                    // two meta-categories the vault compared.
+                    if (seamCats.length === 2 && feed.seam && new URLSearchParams(location.search).get('seam') === '1') {
+                        const S = feed.seam;
+                        const [a, b] = seamCats;
+                        const la = S.category_index[a] || [];
+                        const lb = S.category_index[b] || [];
+                        const both = la.filter(id => lb.includes(id));
+                        const shared = new Set((S.meta_cats[a] || []).filter(s => (S.meta_cats[b] || []).includes(s)));
+                        const sc = new Set((S.meta_concepts[a] || []).filter(c => (S.meta_concepts[b] || []).includes(c)));
+                        const docCats = S.doc_cats || {}, docCons = S.doc_concepts || {};
+                        const reach = (ids, otherSet) => ids.filter(id => {
+                            if (otherSet.has(id)) return false;
+                            const subs = docCats[id] || [], cons = docCons[id] || [];
+                            return subs.some(c => shared.has(c)) || cons.some(c => sc.has(c));
+                        });
+                        const crossing = [...reach(la, new Set(lb)), ...reach(lb, new Set(la))];
+                        seamFabric = { title: `${a} × ${b}`, ids: new Set([...both, ...crossing]) };
+                    }
                     renderWhatsNew(feed);
                 } catch (e) { /* feed optional; hero keeps working without it */ }
                 document.getElementById('loading').style.display = 'none';
                 buildMetaCategoryList();
                 buildCategoryList();
                 renderResults();
-                // Check URL params for auto-filtering (from vault links)
-                const params = new URLSearchParams(window.location.search);
-                const cats = params.getAll('cat');
-                if (cats.length) {
-                    seamCats = cats;
+                // URL param auto-filter (from vault links): seamCats was
+                // already parsed at the top of loadIndex for the seam fabric.
+                if (urlCats.length) {
                     // Fill the search box as a hint, then render the seam set
-                    document.getElementById('search').value = cats.join(' ');
-                    buildCategoryList();
+                    document.getElementById('search').value = urlCats.join(' ');
                     renderResults();
                     updateClearFilters();
                 }
@@ -1681,9 +1707,16 @@
                 if (typeFilter !== 'all' && item.type !== typeFilter) return false;
                 if (activeCategory && !(item.categories || []).includes(activeCategory)) return false;
                 // Seam filter: must carry EVERY selected meta-category (AND)
-                if (seamCats.length) {
+                if (seamCats.length && !seamFabric) {
                     const mcs = item.meta_categories || [];
                     if (!seamCats.every(sc => mcs.includes(sc))) return false;
+                }
+                // Seam FABRIC mode: filter to the full connected set (both +
+                // crossings) resolved from the feed's seam index.
+                if (seamFabric) {
+                    // seam index ids are JSON strings; search index ids are
+                    // ints — compare with coercion so they always match.
+                    if (!seamFabric.ids.has(String(item.id)) && !seamFabric.ids.has(item.id)) return false;
                 }
                 if (activeMetaCategory) {
                     const subCats = metaCategoryMap[activeMetaCategory] || [];
@@ -1715,11 +1748,13 @@
             const countEl = document.getElementById('resultsCount');
             const statsEl = document.getElementById('stats');
 
+            countEl.textContent = seamFabric
+                ? `${filtered.length} connected in the seam`
+                : `${filtered.length} documents found`;
+            statsEl.textContent = `${filtered.length.toLocaleString()} / ${allData.length.toLocaleString()}`;
+
             const shown = filtered.slice(0, (currentPage + 1) * PAGE_SIZE);
             visibleCount = shown.length;
-
-            countEl.textContent = `${filtered.length} documents found`;
-            statsEl.textContent = `${filtered.length.toLocaleString()} / ${allData.length.toLocaleString()}`;
 
             if (filtered.length === 0) {
                 results.innerHTML = '<div class="no-results">No documents match your filters.</div>';
