@@ -566,8 +566,19 @@ def main():
     ]
 
     # --- 5. Domains from concept map ---
+    # Guard: only surface connections that actually exist as categories in the
+    # live index (category normalization may have merged away old labels).
+    live_cats = set()
+    try:
+        with open(os.path.join(AFLINKS, "index.json"), encoding="utf-8") as f:
+            for _d in json.load(f):
+                for _c in (_d.get("categories") or []):
+                    live_cats.add(_c)
+    except Exception:
+        pass
     for dn, info in concept.get("domains", {}).items():
         occ = info.get("co_occur_categories", {}) or {}
+        occ = {c: s for c, s in occ.items() if c in live_cats}
         # categories = top co-occurring sub-categories by strength
         top_cats = sorted(occ.items(), key=lambda kv: -kv[1])[:6]
         # connections = sorted neighbors (shared = co-occurrence strength)
