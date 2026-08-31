@@ -10,15 +10,7 @@ translator: "Chercheurs Du Vrai (compiled translation)"
 note: "Content is in English despite French source site. Compiled from Lindemann's book 'The Free Energy Secrets of Cold Electricity' (2000) and DVD lecture (2006)."
 ---
 
-Search
-
-Search:
-
-Analysis of TESLA's Patent Schematics on Radiant Energy
-
-Number of unique visits: 28,290
-
-Analysis of TESLA's Patent Schematics on Radiant Energy
+# Analysis of Tesla's Patent Schematics on Radiant Energy
 
 Information compiled from the author's book and DVD:
 Peter A. Lindemann
@@ -404,24 +396,4 @@ As long as we make closed-loop circuits with a ground reference, the "natural me
 Tesla always referenced his energy reception systems with at least two points, and left the energy-accumulating part as an open circuit; so that the "natural medium" could provide a potential difference between these two points. Energy could then be extracted from the circuit between these two reference points, at the rate of natural energy accumulation, depending on the size of the device used."
 
 To your soldering irons!!!
-
-Everything outside the conventional
-
-Search:
-
-Recent posts
-
-Ummites: update
-December 27, 2017
-
-New page on antigravity propulsion
-September 9, 2017
-
-New page on extraterrestrial contactees
-July 16, 2015
-
-Privacy policy and cookie policy
-
-
----
 

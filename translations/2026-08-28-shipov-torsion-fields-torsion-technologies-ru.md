@@ -1,5 +1,17 @@
-TORSION FIELDS AND TORSION TECHNOLOGIES.1
-                                     G.I. Shipov
+---
+date: 2026-08-28
+title: "Torsion Fields and Torsion Technologies"
+domain: torsion-physics, theoretical-physics, vacuum-physics
+source_url: http://shipov-vacuum.com
+language: en
+source_language: ru
+author: "G.I. Shipov"
+translator: "The Wizard (foreign-translate cron)"
+---
+
+# Torsion Fields and Torsion Technologies
+
+**G.I. Shipov**
 
 http://shipov.com , http://shipov-vacuum.com
 
