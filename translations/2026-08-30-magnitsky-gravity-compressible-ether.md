@@ -3,7 +3,7 @@ date: 2026-08-30
 title: "Gravity in the Theory of Compressible Oscillating Ether"
 domain: theoretical-physics
 source_url: https://newinflow.ru/pdf/pub28.pdf
-language: ru
+language: en
 author: "N.A. Magnitsky"
 publication: "Complex Systems, No. 4 (33), 2019"
 ---

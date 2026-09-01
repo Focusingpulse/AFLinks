@@ -1,9 +1,21 @@
-TORSION FIELDS AND TORSION TECHNOLOGIES.1
-                                     G.I. Shipov
+---
+date: 2026-08-31
+title: "Torsion Fields and Torsion Technologies"
+domain: torsion-physics, theoretical-physics
+source_url: http://shipov.com
+language: en
+source_language: Russian
+author: "G.I. Shipov"
+translator: translator-foreign (automated cron)
+---
+
+# Torsion Fields and Torsion Technologies
+
+**G.I. Shipov**
 
 http://shipov.com , http://shipov-vacuum.com
 
-Introduction
+## Introduction
     In 1922, the French mathematician É. Cartan put forward a hypothesis [1] according to which
 the space around rotating matter must possess "torsion." In other words, the spinning top,
 familiar to all of us since childhood, twists the space around itself, which thereby ceases to be
