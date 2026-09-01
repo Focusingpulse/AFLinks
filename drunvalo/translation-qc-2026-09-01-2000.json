@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-09-01T20:07:59.146321+00:00",
+  "agent": "Drunvalo",
+  "cron": "aetherforce-translation-qc",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_checked": [
+    "translations/2026-08-31-compendium-vortex-physics-complete-de.md",
+    "translations/2026-08-31-shipov-torsion-fields-technologies-ru.md",
+    "translations/2026-08-31-tuo-wave-universe-theory-fr.md",
+    "translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md",
+    "translations/2026-08-30-prometheus-lenr-reactor-it.md"
+  ],
+  "issues_found_fixed": [
+    "BOM removed from compendium file",
+    "Language tags fixed: de->en fr->en it->en (all 5 files contain English translations)",
+    "Missing frontmatter added to tesla-radiant-energy-patents-chercheursduvrai-fr",
+    "Missing frontmatter added to tesla-radiant-energy-patents-fr (2026-08-29 duplicate)",
+    "Source URL added to Tesla translation: chercheursduvrai.fr",
+    "Duplicate translation marked: 2026-08-29-tesla-radiant-energy-patents-fr is duplicate of 2026-08-30 version",
+    "13 new researchers added to person-index.json: Filatov Tolchin Laithwaite Alcubierre Bauman Lugt Dollard Gray Michaud Fehlman Lehmann Waser Dzhanibekov",
+    "Research-index updated: authors source_urls language tags fixed",
+    "tag_concepts.py ran: 1887/13122 docs tagged"
+  ]
+}
