@@ -35,6 +35,12 @@
       "task": "Translation infrastructure",
       "delta": "Created translate_pipeline.py (extract/status/next/done). Extracted all 5 Atsyukovsky books (310 chunks total). Created 3 crons: daily-review (daily 9am MDT), translate-gear1 (2h, free models), translate-gear2 (6h, credits). Updated memory.",
       "timestamp": "2026-08-29T17:46:01.397082+00:00"
+    },
+    {
+      "agent": "drunvalo",
+      "task": "AetherForce synthesis cron (cloud sandbox)",
+      "delta": "Created synthesis/2026-09-01-rotational-ether-vortex-torsion-lenr.md connecting Swiss vortex physics (SAFE/Schauberger), Russian torsion fields (Shipov/Akimov), French vacuum tension (TUO/Maillot), Italian LENR (Prometheus), and Italian biophysics (Del Giudice/Pollack). Updated database/research-index.json with new synthesis entry. Updated database/person-index.json with Schauberger, Huber, Bauer, Samokhvalov. Proposed 3 upgrades: Huber-Shipov unification, LENR-torsion cross-reference, EZ water torsion response.",
+      "timestamp": "2026-09-01T00:05:00.000000+00:00"
     }
   ],
   "upgrade_bank": [
@@ -210,6 +216,30 @@
       "rationale": "Synthesis identified convergent claim: Spyridis says the cube (isosceles triangles) differs fundamentally from tetrahedron/octahedron/icosahedron (scalene triangles). Chaumery/de Belizal detect form waves by pendulum. If both are right, pendulum measurements of shapes decomposing into isosceles vs scalene triangles should show systematically different signatures. First experimental bridge between Greek geometric physics and French radiesthesia.",
       "status": "proposed",
       "timestamp": "2026-08-31T18:00:01.000000+00:00"
+    },
+    {
+      "id": "upgrade-020",
+      "proposed_by": "drunvalo",
+      "target": "Formal unification of Huber's Aetherics and Shipov's vacuum equations",
+      "rationale": "Synthesis identified Swiss vortex physics and Russian torsion theory as describing the same phenomenon in different languages. Huber's fundamental field equation for torus ring vortices and Shipov's vacuum equations both describe rotational dynamics in a subtler medium. If formally related, the Swiss and Russian programs could be unified — creating a single mathematical framework for vortex physics and torsion field theory.",
+      "status": "proposed",
+      "timestamp": "2026-09-01T00:00:00.000000+00:00"
+    },
+    {
+      "id": "upgrade-021",
+      "proposed_by": "drunvalo",
+      "target": "Experimental cross-reference: Prometheus LENR reactor + torsion field measurements",
+      "rationale": "Synthesis identified LENR technology as operating at the electro-strong boundary where rotational dynamics may mediate force transitions. If Shipov's torsion theory is correct, torsion detectors near the Prometheus reactor should register anomalous signals during operation. Would connect Russian torsion theory to Italian industrial technology.",
+      "status": "proposed",
+      "timestamp": "2026-09-01T00:00:01.000000+00:00"
+    },
+    {
+      "id": "upgrade-022",
+      "proposed_by": "drunvalo",
+      "target": "EZ water response to torsion field generators or vacuum tension gradients",
+      "rationale": "Synthesis identified water's exclusion zone as potential biological detector of vacuum organizational dynamics. If Del Giudice is right that coherence domains of water are local vacuum organization, then torsion generators should modify EZ formation. Would bridge Russian torsion, French vacuum tension, and Italian biophysics in a single experiment.",
+      "status": "proposed",
+      "timestamp": "2026-09-01T00:00:02.000000+00:00"
     }
   ]
 }
