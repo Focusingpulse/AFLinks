@@ -5686,3 +5686,471 @@ Fig. 3.6. Scheme of an experiment to investigate the dependence of particle mass
 
 ---
 
+
+### SOURCE SECTION: Chapter 3.
+
+[p286] 
+286                                                                                           Appendix 3. 
+The direction of the magnetic field is oriented in the same way as the electric field of a capacitor. Since the particles are charged, in the electric field they are deflected in the direction of the electric field lines, and then — in a direction perpendicular to the magnetic field lines, as a result of which the coordinates of the trace on the photographic plate turn out to be functions of the velocity and charge of the particles. 
+The emitted particles are accelerated either naturally (in the case of using radioactive isotopes) or forcibly (in the case of using accelerators), and a curved line is recorded on the photographic plate, the analysis of which makes it possible to reveal the dependence
+
+e
+— = f1(v),
+m
+
+and then, since the magnitude of the charge is considered known,
+
+m = f2(v).
+
+This last dependence is compared with the dependence
+
+                   m0                         v
+  m =     _______   ;  β = ——;
+           √   1 – β 2                  c
+
+Timing and parameters of the experiment [31, pp. 62–73; 78, pp. 59–77, 79–81, 262–272].
+
+1901–1906. Kaufmann [59–61] — by calculation, velocities up to β = 1.034 (?!) were investigated using the radioactivity of radium.
+1907–1909. Bucherer [62, 63, 64, 70, 71] — β ≤ 0.687 using the radioactivity of radium;
+
+[p287] 
+Critical analysis of the foundations of the theory of relativity.                      287 
+1914. Neumann [72] — β ≤ 0.85 using the radioactivity of radium;
+1916. Guy, Lavanchy [73, 74] — 0.22 ≤ β ≤ 0.49 using cathode rays;
+1933. Gerlach [75] using cathode rays;
+1935. Nacken [76] — β ≤ 0.7 using cathode rays.
+The results of calculations using the SRT formula relating the change in mass to the velocity of the particle's motion are used in the development of methods for accelerating heavy charged particles — protons, deuterons, alpha particles in a magnetic field [78, p. 272]. Failure to account for the increase in mass leads to loss of synchronization between the action of the accelerating field and the motion of the charged particle.
+
+Conclusion of the authors
+
+Kaufmann: conclusion indefinite.
+Bucherer: the principle of relativity is confirmed. At 0.3173 ≤ β ≤ 0.687, 1.752·10⁷ ≤ e/m ≤ 1.767·10⁷ was obtained.
+Neumann: at 0.3915 ≤ β ≤ 0.85, 1.67·10⁷ ≤ e/m ≤ 1.771·10⁷ was obtained. This means that if at β = 0.85 the mass increases approximately 3 times, then the charge also increases 3 (!) times.
+Guy and Lavanchy: the principle of relativity is confirmed. At 0.2581 ≤ β ≤ 0.4829, 1.041·10⁷ ≤ e/m ≤ 1.139·10⁷ was obtained.
+The need to introduce corrections for relativistic effects in accelerator calculations, according to the developers of accelerators and the experimenters working on them, unambiguously confirms the validity of SRT provisions.
+
+Comment (V.A.).
+1. A number of misunderstandings related to the experimental data obtained remain unresolved to the present time. These include, in particular:
+a) calculations performed by N.P. Kasterin [70], rechecked by N.N. Shaposhnikov [71], which showed that Bucherer's curves,
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p288]
+288                                                                                           Appendix 3.
+do not correspond to calculations performed in accordance with
+STO [Special Theory of Relativity];
+b) the results of Neumann, from which it follows that the charge
+of a particle spontaneously increases if its mass grows with increasing
+velocity;
+c) the results of Kaufman, from which it follows that some
+particles are ejected at superluminal velocity;
+2. As already indicated above, the obtained results can
+be interpreted also starting from the premise that the mass
+of the particle remains unchanged with increasing velocity:
+a) as a change in the charge of the particle [27, 28];
+b) as a change in the interaction coefficient of the electric
+and magnetic fields with the charge of the particle, since the
+magnitude of the interaction is determined by the magnitude of the
+slippage of the field relative to the particle, and this slippage
+decreases with increasing velocity [29], in which case the effective
+electric field strength
+will be equal to:
+
+                      v2
+E = Ee ( 1 – —— ),
+                       c 2
+
+that is, the force exerted on the particle by the electric
+field decreases with increasing velocity and becomes
+equal to zero when the particle velocity equals the speed of light,
+which explains all the effects;
+c) as a consequence of the ether obeying the laws of gas
+mechanics, in connection with which it is expedient to compare
+three expressions:
+
+                      m               1
+    P1 =   ——   =     _______    = 1 + 0,5 β 2 + 0,375 β 4 …
+               mo          √   1 – β 2
+
+[p289]
+Critical analysis of the foundations of the theory of relativity.                      289
+                                                           γ
+                      Pп                      γ -1          γ -1
+    P2 =   ——   =  (1 + ——— М2)      ;
+               Pст                    2
+                                                          γ
+                      ρп                      γ -1          γ -1
+    P3 =   ——   =  (1 + ——— М2)      ;
+               ρ ст                    2
+
+where γ = сР /сV – the adiabatic index of the gas, equal to 1.67
+for monatomic gases, 1.4 for diatomic gases, and approaching
+γ → 1 for all gases as temperature increases. M = v/сзв – the
+ratio of the body's velocity to the speed of sound.
+
+For γ = 1.67 we have:
+
+                             1
+    P2  =  (1 + — М 2)2,5 =  1 + 0,833 М2 + 0,208 М 4…;
+                       3
+
+                              1
+    P3  =  (1 + — М 2)2,5 =  1 + 0,5 М2 + 0,041 М 4…;
+                       3
+
+(at M = 1  P2  =  2.05,  P3  = 1.54)
+
+For γ = 1.67 we have:
+
+P2 = P3   =  1 + 0,5 М2 + 0,175 М 4  +…
+
+(at M = 1  P2  =  P3  = 1.7).
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p290]
+290                                                                                           Appendix 3.
+It is interesting to note that for the value β = M = 0.8, all the indicated dependencies approximate each other quite satisfactorily; noticeable divergence begins from values of 0.85-0.9, and only from this value can one make a choice between dependencies;
+d) as a consequence of mass increase due to the attachment of mass of the surrounding ether, which some authors have drawn attention to [69].
+The indicated variants by no means exhaust all possibilities. There also exist numerous other interpretations of effects currently interpreted as the effect of particle mass increase with increasing their velocity. Of course, in a real situation, not one but several causes actually operate simultaneously, yet practically they have never been analyzed by anyone.
+Thus, there are no grounds to unambiguously consider the results obtained in experiments as confirming precisely the Special Theory of Relativity: those of them that fit into the formulaic expressions of STR for particle mass increase with increasing velocity can be interpreted in various ways, and those of them that do not fit into these dependencies (the results of Kaufmann, Neumann, Bucherer) should be rechecked and interpreted differently, for example, from the standpoint of etherodynamics, which they do not contradict.
+
+3.7. Studies of the dependence of time flow on velocity
+
+Essence of the phenomenon and purpose of the experiment
+In accordance with the provisions of STR, as the velocity of a body increases, its proper time should increase compared to the time of a body at rest according to the law:
+
+                      τ₀                         v
+  τ =       _______   ;  β = ——.
+           √   1 – β²                    c
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p291]
+Critical analysis of the foundations of relativity theory.                      291
+The purpose of the experiment is to determine the real time for a moving body and to confirm the indicated dependency.
+
+  Scheme and methodology of conducting the experiment [78, p. 266; 82-86].
+As the moving body in the experiment, mesons are used, whose lifetime and corresponding paths are:
+for µ-mesons (muons) τ₀ = 2.2·10⁻⁶ s; l₀ = 600 m;
+for π-mesons (pions) τ₀ = 2.56·10⁻⁶ s; l₀ = 7.68 m.
+The fact of the presence of mesons born in the upper layers of the atmosphere (muons at altitude H ≈ 18000 m, pions at altitude H ≈ 46200 m) in the lower layers of the atmosphere is established, which makes it possible to perform calculations using the indicated formula.
+
+Parameters and results of the experiment
+1940-1941. Williams and Roberts [82] – observation of spontaneous decay of mesons in a Wilson chamber;
+1940-1941. Auger and Maze [83], Maze and Chamino [84], Chamino, Fréon, Maze [85] – observation of spontaneous decay using counters;
+1941. Rossi and Hall [86] – measurement of the path traversed by mesons with specific energies up to β ≈ 0.99;
+1838-1941. Ayres and Stilwell [89, 90] – observation with cathode ray tubes at β ≈ 0.004.
+
+Authors' conclusion
+The flow of time depends on the velocity of particle motion and agrees with STR calculations.
+
+Comment (V.A.)
+1. The very lengths of paths indicated for detecting mesons in the lower layers of the atmosphere are calculated on the basis of the given relativistic formula for time; for example, the path length for a pion of 46.2 km was obtained on the basis of the assumption that the pion velocity in the atmosphere is only 10⁻⁸ less than the speed of light.
+But such speed of light in the atmosphere decreases to a greater degree and constitutes 0.00073 c; it turns out that the pi-meson should overtake light. Thus, the calculations are not accurate, and in the case of mesons we can only speak of a qualitative picture of the phenomenon.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 3.
+
+[p292]
+292                                                                                           Appendix 3.
+2. The increase in path length of an unstable particle in the atmosphere can have several causes, for example:
+with an increase in the initial velocity of entry into the atmosphere, the time of particle interaction with air molecules is reduced, which leads to a decrease in the effect of the destabilizing factor;
+  with an increase in the velocity of particle motion in the gas-like ether, the velocity gradient in the boundary layer of ether surrounding the meson increases, as a result of which viscosity in the boundary layer decreases, and meson stability increases, since energy outflow into the surrounding ether decreases.
+From this it follows that the fact of increasing meson path length with increasing initial velocity does not speak of confirmation of STR, but of the presence of internal mechanisms of phenomena that are subject to study.
+Thus, the analysis of experiments conducted by various researchers for the purpose of confirming the provisions of Albert Einstein's Special Theory of Relativity has shown that in the process of conducting experiments many accompanying factors were not taken into account, and the results of these experiments had a directed interpretation aimed at confirming this theory at any cost, while there exist many other interpretations of the same results.
+
+[p293]
+Critical analysis of the foundations of relativity theory.                      293
+
+
+---
+
+
+### SOURCE SECTION: Chapter 4.
+
+Chapter 4. Experiments on the general theory of relativity
+
+4.1. Verification of the equivalence principle
+
+Essence of the phenomenon and purpose of the experiment [93-103].
+The ratio of inertial and gravitational masses is verified, which, in accordance with GTR, must be the same for all types of materials and reference frames.
+
+Methodology of the experiment
+1. On torsion balances, two identical masses of different material are mounted on opposite arms. If the ratio of inertial and gravitational masses for them is different, then due to the difference in moments from the centrifugal force of Earth's rotation and the gravitational force, a differential moment should be created, twisting the thread.
+2. The fall of a neutron beam with spins oriented first horizontally, then vertically in Earth's gravitational field is investigated for the purpose of revealing differences in the fall.
+
+Results of the experiment
+1890-1922. Eötvös [93-96] – equivalence of masses confirmed with error not exceeding 10⁻⁸.
+1910. Southerns [97] – equivalence of masses confirmed for radioactive substances.
+1917. Zeeman [98] – equivalence of masses qualitatively confirmed.
+1957-1963. Dicke [99, 100] – equivalence of masses established for gold and aluminum with error not exceeding 10⁻¹¹.
+1965. Dabbs [106] – equivalence of masses established for a neutron beam with error not exceeding 10⁻³.
+
+[p294]
+294                                                                                           Appendix 3.
+Authors' conclusions
+The conducted experiments unambiguously confirm the conclusions of GTR about the equivalence of gravitational and inertial masses. This means the equivalence of inertial reference frames. The General Theory of Relativity thereby received experimental confirmation.
+
+Comment (V.A.)
+1. The principle of equivalence of gravitational and inertial masses directly follows from Galileo-Newton mechanics, for which the ratio of gravitational and inertial masses is always the same regardless of the nature of the body, in all uniformly and rectilinearly moving (inertial) reference frames.
+Thus, all the listed experiments merely confirm ordinary classical mechanics. There are no grounds to attribute the confirmation of these provisions to the general theory of relativity.
+2. Despite the above, one can note the different nature of gravitation and inertia, which follows from the etherdynamic picture of the world [29]: gravitation is a manifestation of thermodiffusion processes in the ether, while inertial mass is an original property of matter. This means that in conditions other than on Earth's surface, for example, near large gravitational masses, or in their depths, where etherdynamic processes will be numerically somewhat different, the gravitational constant will be decreased, while the inertial mass will remain unchanged under all conditions.
+Such an experiment could in principle be conducted on Earth in deep mines. In this case, not different materials located together at the same level from the Earth's surface should be compared, but the same sample located first on the Earth's surface or at height, and then lowered into a mine.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 4.
+
+[p295]
+Critical analysis of the foundations of relativity theory.                      295
+4.2. Investigation of gravitational spectral shift
+
+Essence of the phenomenon and purpose of the experiment [22-25; 110]
+The flow of time in gravitational fields in accordance with GTR slows down; this means that all processes will also be slowed. The purpose of experiments is to confirm this circumstance.
+
+Methodology of experiments [111-116]
+1. The relative shift of the solar spectrum is investigated, equal according to theory to 2.12·10⁻⁶.
+2. The frequency shift of atomic radiation is investigated when changing the height of the source's location above Earth.
+
+Results of experiments
+1960. Pound, Rebka (USA) [111-113] (Jefferson Physical Laboratory) – obtained relative spectral shift of Fe⁵⁷ when changing height by 21 m of (5.13 ± 0.51)·10⁻¹⁵ with a predicted value of 4.92·10⁻¹⁵.
+1960. Cranshaw, Schiffer, Whitehead (USA) – investigated spectral shift of Fe⁵⁷ when changing height, obtained qualitative agreement of results with those predicted by GTR.
+1964. Melnikov (Pulkovo) [115] – study of solar spectrum shift, obtained qualitative agreement of results with GTR predictions.
+
+Authors' conclusions
+The provisions of GTR on time slowing in gravitational fields are confirmed.
+
+Comment (V.A.)
+1. The same result of gravitational spectral shift can be explained by a decrease in the elasticity of electromagnetic bonds of atoms in complex molecules, a decrease in nuclear bond energy
+
+[p296]
+296                                                                                           Appendix 3.
+and a decrease in the excited state energy of atoms when the gravitational potential changes.
+2. In accordance with the hypothesis of gas-like ether [29], gravitation is a manifestation of thermodiffusion processes in the ether. An increase in gravitational potential is associated with a decrease in the proper temperature of the ether and, consequently, a decrease in pressure in the ether. As a result, all types of bonds decrease in elasticity, and natural oscillation frequencies decrease for the same masses.
+3. The correctness of experiments raises certain doubts, which has been noted by a number of authors.
+The experiments conducted by Cranshaw and his group are criticized in the article by R. Pound and G. Rebka, where they write:
+"Our investigation shows that no conclusions whatsoever can be drawn from Cranshaw's experiment" [113, p. 482].
+However, the experiments of R. Pound and G. Rebka themselves can also be subject to doubt. They themselves showed that failure to account for a temperature difference of 1° between receiver and emitter produces the same effect as the one sought. The temperature during the experiment was accounted for by introducing corrections, and these corrections reached 5.5 times the magnitude of the determined value. There is no confidence in the accuracy of entering corrections.
+The results obtained by O.A. Melnikov were only qualitative in nature [116, p. 219], and it was noted that an exact calculation of the effect taking into account all interfering factors is so complex that it can hardly be performed at all.
+Thus, there are no grounds for an unambiguous assertion about confirmation of the GTR provision on the slowing of time flow as a result of the presence of gravitational potential.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 4.
+
+[p297]
+Critical analysis of the foundations of relativity theory.                      297
+4.3. Investigation of "red shift" of spectra of distant galaxies
+
+Essence of the phenomenon and purpose of the experiment
+In accordance with the conclusions of GTR, the Universe is expanding, as can be judged by the "red shift" of spectra of distant galaxies. According to GTR, "red shift" is the result of Doppler shift. In experiments, the magnitude of the shift is evaluated.
+
+Results of investigations
+1929. American astronomer E. Hubble established the fact of "red shift" and derived the dependence of "shift" on the distance to the object:
+
+       λ – λ₀          R
+z = ——— = H —,
+          λ₀                   c
+
+where H = 3·10⁻¹⁸ s⁻¹ is the Hubble constant, R is the distance to the object, λ₀ is the wavelength of emitted light; λ is the wavelength of received light; c is the speed of light.
+Hubble's law has been repeatedly verified by various astronomers [121] and corresponds to reality. In experiments, the spectrum of stars (galaxies) is compared with an ordinary spectrum. From the mutual arrangement of characteristic lines of the spectrum, the value of z is determined, and from brightness – the distance R. From this, the value of H is found, which turned out to be approximately the same for many measurements.
+
+Authors' conclusions
+The shift of spectra testifies to the Doppler effect, which means galaxies are moving away from each other; this means that
+
+[p298]
+298                                                                                           Appendix 3.
+the Universe is expanding, which confirms the conclusions of GTR and the validity of GTR itself.
+
+Comment (V.A.)
+1. If we substitute the expression of Planck's law into Hubble's law
+
+                 hc
+E = hν = ——,
+                   λ
+
+we obtain:
+
+       E – E₀      ∆E               R
+z = ——— = —— =  – H  —,
+          E                 E                       c
+
+or
+
+   dЕ                  R
+——— =  – H  —,
+     Е                         c
+
+From which
+
+Е = E₀ e^(–HR/c) = E₀ e^(–R/R₀);  R₀ = 10²⁶ m;
+
+or
+
+Е = E₀ e^(–Ht) = E₀ e^(–t/t₀);  t₀ = 10¹⁰ years.
+
+Consequently, "red shift" testifies not to "expansion of the Universe, but to the loss of energy by photons, for example, due to the viscosity of the ether filling outer space [29].
+
+
+---
+
+
+### SOURCE SECTION: Chapter 4.
+
+[p299]
+Critical analysis of the foundations of relativity theory.                      299
+2. There exists a significant number of most diverse explanations of the effect at the level of ordinary classical physics [122]; consequently, there are no grounds to believe that "red shift" of spectra of distant galaxies confirms GTR; it also fits within the framework of many other hypotheses and theories.
+
+4.4. Investigation of the shift of Mercury's orbital perihelion
+
+Essence of the phenomenon and purpose of investigations
+In accordance with the conclusions of GTR, the perihelion of Mercury's orbit should shift by 42.9" per century. The purpose of investigations is to establish the actual perihelion shift and compare the results of observations with GTR predictions.
+
+Results of investigations [31, p. 91-92, 123-137].
+1889. Le Verrier [31];
+1898. Newcomb [123] – calculations gave from 43.49";
+             Grossmann – calculations gave from 29" to 38";
+1926. Chazy [124, 125] – 34.96";
+1943. Clemence [126, 127] – 42.56"± 0.94";
+1956-1958. Duncombe [128, 129] – 43.11"± 0.45";
+1973. Morrison [136] – 41.9"± 0.54".
+
+Authors' conclusions
+The results of calculations performed on the basis of completed observations show that the actual shift of Mercury's perihelion corresponds to that predicted by GTR.
+
+Comment (V.A.)
+1. First of all, it should be noted that the experimental material yielded not the figure 43.49", as determined by Newcomb, but a smaller one. According to Grossmann this value amounted to 40", according to Chazy – 35". Closer results were given by the calculations of Clemence, Duncombe and Morrison, but in all cases there can be no question of coinci-
+
+
+---
+
+
+### SOURCE SECTION: Chapter 4.
+
+[p300]
+300                                                                                           Appendix 3.
+dence with error not exceeding 0.1", as is written in some of the literature. Kühnle [31, p. 91] gives the following table of perihelion rotation values for different planets obtained by calculation:
+
+№/№
+Planets
+ω
+Einstein
+Seeliger
+1
+2
+3
+4
+Mercury
+Venus
+Earth
+Mars
++ 6.18" ± 0.50"
++ 8.62" ± 0.50"
+– 0.08" ± 0.26"
++ 0.21" ± 0.13"
++ 0.86" ± 0.36"
++ 8.82"
++ 8.82"
++ 0.06"
++ 0.06"
++ 0.13"
++ 8.42"
++ 0.05"
++ 0.07"
++ 0.59"
+
+In the second column, the values of perihelion rotations multiplied by the eccentricities of the corresponding planets' orbits are compared.
+As S.I. Vavilov notes [31, p. 91], this value cannot be considered firmly established even for Mercury; in relation to other planets the uncertainty is even greater. Kühnle indicates that the usual calculation of perihelion rotation, when it is considered separately from the perturbation of other planetary elements, is essentially speaking not accurate. The connection of all elements is inseparable, and a change in some elements in calculations entails a change in others. But a complete exact solution of the problem presents insurmountable difficulties. Thus, the question of the magnitude of orbital perihelion rotation remains quite uncertain both in relation to the accuracy of observations and the accuracy of calculations [31, p. 91-92]. Consequently, one cannot consider reliable either the results of measurements of planetary orbit positions or the results of calculations taking into account even known perturbations.
+2. A number of authors draw attention to the fact that the real magnitude of Mercury's perihelion shift constitutes not 43" or 34" at all, but 532", which are caused by perturbations of other planets (for Earth this value constitutes 1154" per century [138, p. 119].
+
+
+---
+
+
+### SOURCE SECTION: Chapter 4.
+
+[p301]
+Critical analysis of the foundations of relativity theory.                      301
+The proper complete rotation of the perihelion [26, p. 253-254] constitutes 5557.74.18" ± 0.85" and only the difference equals 42.56" ± 0.94", i.e., the total rotation of the perihelion explained easily from the standpoint of Newtonian theory is 100 times greater than this difference. As J. Synge correctly noted [26, p. 254], "Such a mixture of Newtonian and Einsteinian theories is psychologically unpleasant, for these theories are based on too different initial concepts." However, one can firmly consider that such a mixture is altogether inadmissible.
+Some authors, pointing to the value of the observational component of Mercury's perihelion equal to 5024–5027" per century, note that "the already barely noticeable effect, which is a consequence of the general theory of relativity, turns out to be buried in a multitude of planetary orbit rotations having no relation to this theory" [31].
+3. There is a series of assumptions expressed by various authors about the causes of Mercury's perihelion motion, each of which individually is sufficient to explain this phenomenon, if it actually exists, which is also not obvious due to the reasons set forth above. Below are listed some of these assumptions:
+a) flattening of the Sun as a result of its rotation around its axis, which N.A. Tonella [78, p. 286] and R. Dicke [132] draw attention to. It is sufficient to have only 5·10⁻⁵ relative compression to completely explain the phenomena (for comparison, Earth has relative compression equal to 1:298.25 ≈ 3.3·10⁻³);
+b) rotation of the Sun, indicated by Roxburgh as a possible cause of Mercury's perihelion shift;
+c) mass ejected by the Sun in the form of photosphere, flares, prominences, granules and corpuscles;
+d) solar wind, whose velocity decreases as distance from the Sun increases, which gives an effect equivalent to non-constancy with distance from the Sun of the gravitational constant (an effect of 0.07% is sufficient), and so on.
+
+
+---
+
+
+### SOURCE SECTION: Chapter 4.
+
+[p302]
+302                                                                                           Appendix 3.
+Consequently, there are no reasons to consider the motion of Mercury's perihelion a consequence of the conclusions of relativity theory.
+
+4.5. Investigation of light deflection by the Sun's mass
+
+Essence of the phenomenon and purpose of investigations
+In accordance with the ideas of GTR, space in the region of gravitating masses is curved. A consequence of this should be the curving of a light beam passing near a gravitating mass. When a light beam passes near the Sun, the displacement of the star's visible image should constitute
+
+                 R☉
+δE = 1.75"—,
+                  R
+
+where R☉ is the radius of the Sun. According to Newton, at R = R☉ the deflection of the light beam will constitute only
+
+δN = 0.84".
+
+The purpose of the experiment is to find the difference in the position of the star's image at the edge of the Sun's disk:
+
+∆δ = 1.75" – 0.84" = 0.91".
+
+Scheme and methodology of the experiment
+The same section of sky is photographed twice:
+a) during a solar eclipse;
+b) in the absence of the Sun in the given section of sky (the time difference constitutes half a year).
+The obtained images are compared. The displacements of star images are measured and statistically processed, and then the overall result is extrapolated to the edge of the Sun's disk (due to
+
+[p303]
+Critical analysis of the foundations of relativity theory.                      303
+the solar corona, stars are not observed directly at the Sun's edge).
+Note: the angular size of the Sun constitutes 1919", of the Moon – 1985", i.e., a value 2000 times greater than the one sought).
+
+
+
+Figure 4.1. Scheme of experiment for revealing displacements of star images during the passage of light beams near the Sun
+
+Results of experiments [31, p. 79-89; 109, p. 30-35; 139-149].
+A summary table of results of experiments on investigating the deflection of light rays by the Sun's mass according to the authors' data is presented in Table 4.2.
+
+Authors' conclusions
+The results of measurement processing undoubtedly confirm the calculations of the general theory of relativity.
+
+Comment (V.A.)
+1. In processing the measurement results, a number of significant accompanying factors on which the measurement results directly depend were missed. According to Mitchell [149, p. 415], such factors are:
+a) distortions in the position of stars in the optical part of the apparatus;
+
+
+---
+
