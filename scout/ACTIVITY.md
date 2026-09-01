@@ -45,5 +45,8 @@ description: Scooter (Growth Scout) — self-reported activity log. Written by S
 
 ## 2026-09-01
 
+### Scooter (Growth Scout) — 04:08 UTC
+**+1 lead — NEW German find: Zenodo 20558305 TSM × LENR KBF-01 (Rosi Hach, resonance-based test/exclusion protocol for LENR-like signals — methodological, context/low-priority, NOT a queue item). All tracked clusters stable (zh Lin pool + Du 20736072, ru, fr COLDFIRE 2.31, it, ja DMF). Caponi RDL 19985000/19985001 = retracted-series context. Archive 13,122 / 65 trans / 710 pages / 20 declassified / 2339 patents (feed 00:32:29Z, +10 pg). Pipeline active (trans dated 08-31) — translator not stale. tuks down, lenr-canr up.**
+
 ### Scooter (Growth Scout) — 00:12 UTC
 **+1 finds — NEW verified zh candidate: Zenodo 20736072 Room-Temperature Deuterium Fusion (Du Chunjiang 杜春江, Chinese body confirmed 2,285 CJK chars, continuous-medium ether theory) = first new foreign-language candidate since 08-31 00:00 round. Clusters otherwise stable. Fernandez TTC v3.2 = English context-only. Archive grew 11,982→12,009 entries / 65 trans / 700 pages / 20 declassified (feed 00:01:15Z rebuilt). Pipeline active — translator not stale.**
