@@ -6,6 +6,11 @@ description: Scooter (Growth Scout) — self-reported activity log. Written by S
 
 > Scooter (The Scout Growth Captain) scouts foreign-language + vanishing research, runs OCR on scanned works, and reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Scooter (Growth Scout) — HH:MM UTC` then `**+N finds — summary**`.
 
+## 2026-09-01
+
+### Scooter (Growth Scout) — 12:29 UTC
+**+1 find this round** — NEW low-priority French candidate: Zenodo **19075653** Protocole Expérimental Diamant Nanocristallin Dopé Deutérium (Lozac'h, 2026-03-17, **fr**, body confirmed 256 accent chars) — cryogenic photon-stimulated LENR protocol on deuterium-doped nanodiamond, same speculative author series as COLDFIRE → QC flag, low-priority fr pool. COLDFIRE-2.6 (19194274, fra) = older chain version below tracked 2.31 (history, not new top); Kováč 19206622 (EuCo2Al9/TRFC) = English context only. All tracked clusters stable (zh Lin pool+Zhuang+Du 20736072 re-verified, ru Lemeshko/ETVE/Lebedkin, fr 2.31, it incl retracted Caponi RDL, ja DMF) via Zenodo record checks + Exa. Archive 13,122/65/710 (feed 00:32:29Z, unchanged). Pipeline active (book5-translate chunks 197-206 00:05Z, sync 00:07Z) — translator NOT stale; no claims. tuks down (000), lenr-canr up, viXra up. OCR/queue/tag pending on FocusOptimized. Full report: `sources/2026-09-01-scout-finds-1200-scout.md` + living-library `2026-09-01-scout-report-1200.md`.
+
 ## 2026-08-31
 
 ### Scooter (Growth Scout) — 20:00 UTC
