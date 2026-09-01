@@ -3,7 +3,7 @@ date: 2026-08-31
 title: "Théorie de l'Univers Onde (TUO) : From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology"
 domain: cosmology, theoretical-physics
 source_url: https://zenodo.org/records/17311989
-language: fr
+language: en
 source_language: French
 author: "François Maillot"
 translator: translator-foreign (automated cron)

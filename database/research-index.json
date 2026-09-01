@@ -657,7 +657,7 @@
         "lindemann"
       ],
       "date": "2000 (book), 2006 (DVD)",
-      "language": "fr",
+      "language": "en",
       "translated": true,
       "file": "2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md",
       "publication": "Chercheurs Du Vrai",
@@ -683,7 +683,8 @@
         "ondulavi-scalar-energy",
         "magnitsky-compressible-ether"
       ],
-      "status": "translated"
+      "status": "translated",
+      "source_url": "https://www.chercheursduvrai.fr/accueil/energie-libre/brevets-tesla/"
     },
     {
       "id": "synthesis-information-geometry-interface",
@@ -727,7 +728,7 @@
         "prometheus"
       ],
       "date": "2025",
-      "language": "it",
+      "language": "en",
       "translated": true,
       "file": "2026-08-30-prometheus-lenr-reactor-it.md",
       "themes": [
@@ -744,7 +745,8 @@
         "Reactor designed for European energy autonomy — no complex supply chain or critical raw materials"
       ],
       "cross_references": [],
-      "status": "translated"
+      "status": "translated",
+      "source_url": "https://www.prometheusreactor.com/"
     },
     {
       "id": "del-giudice-pollack-ez-water",
@@ -2291,7 +2293,7 @@
       "title": "tesla-radiant-energy-patents-fr",
       "authors": [],
       "date": "unknown",
-      "language": "fr",
+      "language": "en",
       "translated": true,
       "file": "2026-08-29-tesla-radiant-energy-patents-fr.md",
       "themes": [
@@ -2308,11 +2310,7 @@
         "free_energy"
       ],
       "key_claims": [
-        "Analysis of TESLA's Patent Schematics on Radiant Energy",
-        "Analysis of TESLA's Patent Schematics on Radiant Energy",
-        "Information compiled from the author's book and DVD:\nPeter A.",
-        "Lindemann\n2000 book: \"The Free Energy Secrets of Cold Electricity\"\nand his lecture DVD of June 30, 2006 \"Tesla's radiant energy\"",
-        "First and foremost, it should be known that there is no single patent that provides a step-by-step assembly guide for reproducing a perfectly functional radiant energy emission system, as Tesla was able to achieve during his research."
+        "Duplicate of lindemann-tesla-radiant-energy — same source, same content"
       ],
       "cross_references": [
         "akimov-shipov-torsion-manifestations",
@@ -2326,8 +2324,9 @@
         "akimov-shipov-torsion-field-research-ru",
         "akimov-shipov-torsion-field-ru-2026-08-28"
       ],
-      "status": "translated",
-      "source_url": ""
+      "status": "duplicate",
+      "source_url": "https://www.chercheursduvrai.fr/accueil/energie-libre/brevets-tesla/",
+      "duplicate_of": "lindemann-tesla-radiant-energy"
     },
     {
       "id": "theorie-phi-toulgoat-en",
@@ -2543,9 +2542,11 @@
     {
       "id": "compendium-vortex-physics-complete-de",
       "title": "Compendium of Vortex Physics (Schauberger) - Complete Translation",
-      "authors": [],
+      "authors": [
+        "safe_vortex"
+      ],
       "date": "unknown",
-      "language": "de",
+      "language": "en",
       "translated": true,
       "file": "2026-08-31-compendium-vortex-physics-complete-de.md",
       "themes": [
@@ -2595,9 +2596,11 @@
     {
       "id": "shipov-torsion-fields-technologies-ru",
       "title": "\"Torsion Fields and Torsion Technologies\"",
-      "authors": [],
+      "authors": [
+        "shipov"
+      ],
       "date": "unknown",
-      "language": "ru",
+      "language": "en",
       "translated": true,
       "file": "2026-08-31-shipov-torsion-fields-technologies-ru.md",
       "themes": [
@@ -2640,12 +2643,12 @@
     },
     {
       "id": "tuo-wave-universe-theory-fr",
-      "title": "tuo-wave-universe-theory-fr",
+      "title": "Théorie de l'Univers Onde (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravity and Cosmology",
       "authors": [
         "maillot-francois"
       ],
       "date": "unknown",
-      "language": "fr",
+      "language": "en",
       "translated": true,
       "file": "2026-08-31-tuo-wave-universe-theory-fr.md",
       "themes": [
@@ -2681,7 +2684,7 @@
         "besson-rgh-technical-analysis"
       ],
       "status": "translated",
-      "source_url": ""
+      "source_url": "https://zenodo.org/records/17311989"
     }
   ]
 }

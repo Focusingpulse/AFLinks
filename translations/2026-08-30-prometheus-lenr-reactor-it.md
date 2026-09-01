@@ -3,7 +3,8 @@ date: 2026-08-30
 title: "Prometheus LENR Reactor UM 3.0"
 domain: lenr-energy
 source_url: https://www.prometheusreactor.com/
-language: it
+language: en
+source_language: Italian
 translator: The Wizard (foreign-translate cron)
 ---
 

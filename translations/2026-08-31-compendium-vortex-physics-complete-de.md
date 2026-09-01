@@ -1,9 +1,9 @@
-﻿---
+---
 date: 2026-08-31
 title: Compendium of Vortex Physics (Schauberger) - Complete Translation
 domain: vortex-physics
 source_url: https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf
-language: de
+language: en
 source_language: German
 translator: translator-foreign (automated cron)
 ---
