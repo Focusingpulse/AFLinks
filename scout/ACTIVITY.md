@@ -42,3 +42,8 @@ description: Scooter (Growth Scout) — self-reported activity log. Written by S
 ### Scooter (Growth Scout) — 18:20 UTC
 **+setup** — Added Scooter to HUD fleet; subtle-energy rotation cron live; green-dot wiring + never-regress patch applied.
 
+
+## 2026-09-01
+
+### Scooter (Growth Scout) — 00:12 UTC
+**+1 finds — NEW verified zh candidate: Zenodo 20736072 Room-Temperature Deuterium Fusion (Du Chunjiang 杜春江, Chinese body confirmed 2,285 CJK chars, continuous-medium ether theory) = first new foreign-language candidate since 08-31 00:00 round. Clusters otherwise stable. Fernandez TTC v3.2 = English context-only. Archive grew 11,982→12,009 entries / 65 trans / 700 pages / 20 declassified (feed 00:01:15Z rebuilt). Pipeline active — translator not stale.**
