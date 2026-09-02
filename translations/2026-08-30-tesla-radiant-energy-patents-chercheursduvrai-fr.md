@@ -1,17 +1,4 @@
----
-date: 2026-08-30
-title: "Analysis of Tesla's Patent Schematics on Radiant Energy"
-domain: free-energy, tesla
-source_url: https://www.chercheursduvrai.fr/accueil/energie-libre/brevets-tesla/
-language: en
-source_language: French
-author: "Peter A. Lindemann"
-translator: translator-foreign (automated cron)
----
-
-# Analysis of Tesla's Patent Schematics on Radiant Energy
-
-**Source: Chercheurs Du Vrai**
+Chercheurs Du Vrai
 
 Search
 

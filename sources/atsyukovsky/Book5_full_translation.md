@@ -6154,3 +6154,756 @@ a) distortions in the position of stars in the optical part of the apparatus;
 
 ---
 
+
+### SOURCE SECTION: Глава 4.
+
+[p304]
+304                                                                                           Appendix 3.
+b) disturbing effects in the measurement of stellar images
+due to the fogging of the plate by the solar corona;
+c) systematic distortions in photography. Ross showed
+that the darkening portion of the corona must dry faster than the rest
+of the plate, possibly producing compression in the film within
+the corona image. It should be noted that 1" of deviation of a stellar
+image corresponds to only 0.01 mm on the plate, and
+the indicated distortions may be of the same or greater order
+of magnitude;
+d) abnormal refraction in the Earth's atmosphere;
+e) refraction in the solar atmosphere;
+f) annual refraction proposed by Courvoisier.
+2. Extrapolation of data is carried out into a region where there is not
+a single stellar image, since the near-solar region
+is fogged by the solar corona. In this case, extrapolation is performed
+using a hyperbola, which follows from Einstein's theory, since according to it
+
+                RC
+δE = 1.75" --.
+                 R
+
+Ordinary extrapolation by the mean value of all
+stellar image deviations gives a result substantially
+closer to that calculated by Newton. For example, in the experiments
+of 1922 this result amounts to 0.91", which is much closer to
+0.84" by Newton than to 1.75" by Einstein.
+3. The scatter of readings amounts to 2-3" in each direction from
+the calculated value for a given position of stars, which raises
+doubts about the reliability of the readings, which due to the smallness of the
+value must be made through a microscope, comparing two
+plates taken at an interval of half a year for each stellar
+image.
+As an example of the validity of the above, it is instructive
+to examine the data presented in S.I. Vavilov's book on
+the 1922 eclipse (materials of Campbell and Trümpler).
+
+[p305]
+Critical analysis of the theory of relativity.                      305
+Figure 4.2 shows the displacements of stars on the obtained
+photographs [31, p. 83, fig. 34]. Figure 4.3 presents the results
+of statistical processing of the displacements [31, p. 89, fig. 36].
+
+Fig. 4.2. Displacement of stellar images on photographic plates
+
+Fig. 4.3. Result of processing the displacements of stellar images
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p306]
+306                                                                                           Appendix 3.
+As can be seen from the figure, in the region of no less than one solar radius
+beyond its edge there are no stellar images, while the arithmetic
+mean deviation rests at a value of approximately
+0.91", and not at all at 1.75", as it should be according to Einstein's
+theory.
+Extrapolation of data by a hyperbola is, at the very least, doubtful,
+since it extends into an extremely remote region.
+4. Processing of tangential displacements of stellar images
+shows that in the region at a distance from the Sun of 1° to 1.5° there
+is a systematic displacement clockwise (a vortex), easily explained
+by the presence of the Moon's shadow cone. Air flows into the colder
+region, swirling in a funnel, as occurs in a bathtub when water drains.
+The flow of air toward the center of the cone, by virtue of the Fizeau
+effect, should additionally displace the stellar image toward the center.
+Such a displacement will occur in the same direction as the expected
+displacement due to the "curvature of space," which can explain
+the additional displacements obtained on the photographs, amounting
+to only 0.05" = 0.91" – 0.84".
+5. The influence of the solar atmosphere has not previously been
+taken into account. The total refraction of light in the Earth's atmosphere
+amounts to 70". The additional displacement of stellar images due to
+refraction in the solar atmosphere should be no less than 1" in order
+to fully explain all the effects, if they were in fact taking place.
+According to the obtained data, it is sufficient to have an additional
+refraction of only 0.1", which could occur even with a solar atmosphere
+density 40,000 times lower than that of the Earth's. Such an atmosphere
+would, of course, be perfectly transparent, so objections related to the
+assumption of opacity of the solar atmosphere fall away. It is now known
+that a solar atmosphere exists and that it is sufficiently rarefied. And
+although numerical estimates of its density are practically absent,
+nevertheless, there are no grounds to deny that it could have the indicated
+density.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p307]
+Critical analysis of the theory of relativity.                      307
+Date
+Station
+Result of
+extrapolation
+Observer
+Recalculation
+Sobral I
+
+1.98" ± 0.12"
+Crommelin
+Danjon
+2.05" ± 0.2"
+1919, 22.05
+Sobral II
+0.93" ± 0.3"
+Davidson
+Hockman
+2.16" ± 0.14"
+Principe
+1.61" ± 0.3"
+Kettingham
+Eddington
+
+Wallal I
+1.74" ± 0.3"
+Chang
+Young
+
+Wallal II
+1.72" ± 0.11"
+Campbell
+Trümpler
+Danjon
+2.05" ± 0.13"
+Dreyndlik
+2.07" ± ?
+Hockman
+2.14" ± 0.18"
+Jackson
+2.12" ± ?"
+Wallal III
+1.82" ± 0.15"
+Campbell
+Trümpler
+Danjon
+2.07" ± ?
+1922
+Cardillo-
+Downs
+1.77" ± 0.3"
+Davidson
+Lovell
+
+1929
+Tangekon
+2.24" ± 0.10"
+Freundlich
+Brunn
+Klüber
+Danjon
+2.04" ± 0.27"
+Jackson
+1.98" ± 0.14"
+Trümpler
+1.75" ± 0.19"
+Kuybyshevka
+2.71" ± 0.26"
+Mikhailov
+
+1936, 19.06
+Koshimizu
+2.13" ± 1.15"
+1.28" ± 2.67"
+Matsumuma
+
+1947, 20.05
+Bokuova
+2.01" ± 0.27"
+
+1952, 25.11
+Khartum
+1.70" ± 0.10"
+Van Biesbroeck
+
+In processing the results of the experiments, in none of them
+were estimates made of all the existing accompanying
+factors, each of which significantly influenced the
+final result. Thus, there are no grounds to consider the results
+of the conducted experiments as a confirmation of the general
+theory of relativity of A. Einstein.
+
+[p308]
+308                                                                                           Appendix 3.
+4.6. Experiments for the detection of
+gravitational waves
+
+Essence of the phenomenon and purpose of the experiment
+In accordance with the concepts of GTR, gravitational
+waves must exist, arising from the displacement of masses.
+
+Purpose of the experiment
+Detection of gravitational waves and thereby confirmation
+of GTR.
+
+Methodology of the experiment
+At a distance of several hundred (thousand) kilometers from
+each other, aluminum cylinders are installed, each 1.5 m in length
+and 1.5 tons in mass. The cylinders are suspended on thin
+threads from a steel frame, shock-absorbed with rubber (anti-seismic
+filter). The cylinder and frame are placed in a vacuum chamber.
+The entire apparatus is located far from industrial interference.
+Quartz or capacitive sensors convert the mechanical
+vibrations of the cylinder into electrical signals. The expected
+recorded amplitude at the ends of the cylinder is 2·10⁻¹⁶ m or
+(2·10⁻¹⁰ μm), which corresponds to an energy flux of 10⁻⁴ W·m⁻¹, and
+at the sensor itself even less.
+
+Results of the experiments
+Experiments for the detection of gravitational waves were
+conducted in the USA by J. Weber [165], in the USSR by
+V.B. Braginsky [161-164]. According to Weber, there are
+coincidences of cylinder oscillations, speaking in favor of their
+registration of gravitational waves arriving from space. According
+to V.B. Braginsky, nothing can be said about the results; at least
+up to 1987, no data on positive results were provided by him,
+despite years of recording sensor readings.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p309]
+Critical analysis of the theory of relativity.                      309
+Conclusions of the authors
+The authors' assessment of the results of the experiments is sufficiently
+indefinite and is not supported by any factual materials.
+
+Commentary (V.A.)
+1. Yu.S. Vladimirov [169] indicates that Weber probably
+failed to isolate himself from interference, for example, of the type of
+broad cosmic ray showers, the influence of dynamic gravitational
+fields in the induction zone.
+V.A. Adamyants, A.D. Alekseev, and N.N. Kolosnitsyn [170] point
+to the existence of magnetic interference, which was not taken into
+account by Weber.
+2. The requirements for displacement sensors are so vague (the
+required sensitivity of 2·10⁻¹⁶ m with the size of a free electron at
+10⁻¹⁵ m) that there is not the slightest certainty that a useful signal
+can be distinguished against the background of interference and noise,
+all the more so since, due to the short duration of the incoming signal,
+statistical processing of the signal is practically excluded.
+3. In the work [17] it is shown that, according to the assertion of
+some authors ([1-4] in the cited work), gravitational waves do not
+possess an energy-momentum; according to the assertion of others
+([15-18], same place), a conclusion is drawn about the transport of
+negative energy by gravitational waves, and according to still others
+([5-14], same place), positive energy. In the work itself it is shown
+that the formula for calculating the energy losses due to the emission
+of gravitational waves, first obtained by A. Einstein, is not a
+consequence of GTR, and the calculation of the "energy" and "momentum"
+of a system using any pseudo-tensor of energy-momentum has no physical
+meaning [171, p. 7].
+4. According to the concepts of GTR, the speed of propagation of
+gravitational waves is equal to the speed of light. Meanwhile, as early
+as 1787, P.S. Laplace [172] showed that to explain the cause of the
+secular acceleration of the Moon, it is necessary to assume that the
+speed of propagation of gravitation is no less than 5·10⁷ times
+greater than the speed of light (according to the calculations given
+in [29], 10¹³ times).
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p310]
+310                                                                                           Appendix 3.
+All of modern celestial mechanics proceeds from the concept
+of an infinitely large speed of propagation of the gravitational
+interaction of bodies, which follows from the fact that it uses only
+the static formulas of Newton and Kepler, which do not take into
+account retarded potentials. A discrepancy in speeds would
+inevitably lead to significant errors in the calculations of the
+positions of planets in the Solar System. Consequently, the speed
+of propagation of gravitation exceeds the speed of light many times
+over. At such speeds, the signal at the detector must inevitably
+turn out to be vanishingly small, since the decrease of the gradient
+in space is proportional to the increase in speed. The signal, given
+the existence of gravitational waves and their speed exceeding the
+speed of light by 5·10⁷ or 10¹³ times, will decrease compared to the
+calculated value by 5·10⁷ or 10¹³ times respectively, which leaves
+no hope for the detection of such a signal by modern measuring
+technology.
+The experience of celestial mechanics contradicts the conclusions
+of STR and GTR, and the negative results of Weber and Braginsky
+indirectly confirm the stated proposition. There are no grounds
+to consider that their experiments in any way confirmed the
+correctness of the general theory of relativity of A. Einstein.
+
+Thus, in all experiments conducted by various researchers
+for the purpose of confirming the General theory of relativity of
+A. Einstein, even significant factors capable of distorting the
+results were not taken into account, and the processing of the
+results was carried out not objectively but in such a way as to
+necessarily confirm the initial propositions of the General theory
+of relativity.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p311]
+Critical analysis of the theory of relativity.                      311
+Conclusions
+1. Analysis of the logical foundations of both the special and the
+general theory of relativity of A. Einstein shows that both parts
+of the theory:
+a) are based on arbitrarily selected and insufficiently justified
+postulates;
+b) improperly use the category of interval, a component of which
+is a particular property (speed) of a particular physical phenomenon
+(light), as a general physical invariant;
+c) have a logic closed upon itself, where the conclusions lead back
+to the initial proposition;
+d) contradict each other on a fundamental and essential question
+for them — the question of the existence of the aether.
+2. Analysis of the results of experiments conducted by various
+researchers for the purpose of testing the propositions of STR and GTR
+has shown that there do not exist experiments in which positive and
+unambiguously interpretable results have been obtained that confirm
+the propositions and conclusions of Einstein's theory of relativity.
+
+
+Literature
+1. Lenin V.I. Materialism and Empirio-criticism. Complete Collected
+Works, 5th ed. Vol. 18. 1961.
+2. Einstein A. On the method of theoretical physics. Collected
+Scientific Works. Moscow: Nauka. 1967. Vol. 4. P. 184.
+3. Einstein A. On the generalized theory of gravitation. Collected
+Scientific Works. Moscow: Nauka. 1966. Vol. 2. P. 719–731.
+4. Einstein A. On the electrodynamics of moving bodies. Collected
+Scientific Works. Moscow: Nauka. 1965. Vol. 1. P. 7–35.
+5. Einstein A. The principle of relativity and its consequences.
+Collected Scientific Works. Moscow: Nauka. 1965. Vol. 1. P. 138–164.
+6. Liotsi M. History of Physics: Translated from Italian by
+E.L. Burstein. Moscow: Mir, 1970.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p312]
+312                                                                                           Appendix 3.
+7. Michelson A.A. The Relative Motion of the Earth and the Luminiferous
+Aether. Amer. J. of Sci. (3). XXXII. 1881. P. 220; Amer. J. Phys. 1881. Vol.
+22. P. 120–129;
+8. Michelson A.A. Compt. Rend. 1882. Vol. 94. P. 520–523. Michelson
+A.A. The Relative Motion of the Earth and the Luminiferous Aether [93, p. 6–17].
+9. Michelson A.A., Morley E.W. The Relative Motion of the Medium on
+the Velocity of Light. Ibid. (3). XXXII. 1886. P. 337; The Relative Motion of
+the Earth and the Luminiferous Aether. Ibid. (3). XXXIV. 1887. P. 333; Phil.
+Mag. (4) XXIV. 1887. P. 449; Amer. J. Sci. 1887. Vol. 34. P. 333–345; Phil.
+Mag. 1887. Vol. 24. P. 120–129. Michelson A.A. and Morley E.W. On the
+Relative Motion of the Earth in the Luminiferous Aether [93, p. 17–31].
+10. Tseitlin Z.A. The Vortex Theory of Matter, Its Development and
+Significance. // Thomson J.J. Electricity and Matter. Moscow: Gosizdat. 1928.
+11. Mitkevich V.F. Basic Physical Views. Leningrad: ONTI, 1934.
+12. Timiryazev A.K. Kinetic Theory of Matter. 2nd ed. Moscow:
+Moscow State Univ. Press, 1954.
+13. Maxwell J.C. A Dynamical Theory of the Electromagnetic Field //
+Selected Works on the Theory of the Electromagnetic Field: Trans. from
+English by Z.A. Tseitlin. Moscow: Gostekhtheorizdat, 1952. P. 249–288.
+14. Einstein A. Aether and the Theory of Relativity (1920). Collected
+Scientific Works. Moscow: Nauka, 1965. Vol. 1. P. 682–689.
+15. Einstein A. On the Aether (1924). Same, Vol. 2. P. 154–160.
+16. Duffy M.C. Misconception about Ether. Indian J. of Theor. Phys.
+1980, 2.
+17. Denisov V.I., Logunov A.A. The Inertial Mass Defined in the General
+Theory of Relativity Has No Physical Meaning. Moscow: USSR Academy
+of Sciences Press, 1981.
+18. Brillouin L. A New Look at the Theory of Relativity. Moscow: Mir,
+1972.
+19. Tyapkin A.A. The Principle of Relativity. Moscow: Atomizdat, 1973.
+20. Lorentz H.A. De relative beweging van de aarde en den aether.
+Zittingsverslagen Kon. Akad. v. Wet. Amst. 1892. S. 74. Lorentz H.A. The
+Theory of Electrons and Its Application to the Phenomena of Light and
+Thermal Radiation: Trans. from English / Ed. by A.K. Timiryazev and
+Z.A. Tseitlin. Moscow: Gostekhtheorizdat, 1956.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p313]
+Critical analysis of the theory of relativity.                      313
+21. Poincaré A. Science and Method. Trans. from French // Ed. by
+V.F. Kagan. Odessa, 1910.
+22. Einstein A. On the Influence of Gravitation on the Propagation
+of Light. Collected Scientific Works. Moscow: Nauka, 1965. Vol. 1.
+P. 227–266.
+23. Einstein A. Draft of a Generalized Theory of Relativity.
+Collected Scientific Works. Moscow: Nauka, 1965. Vol. 1. P. 165–174.
+24. Einstein A. Formal Foundations of the General Theory of
+Relativity. Collected Scientific Works. Moscow: Nauka, 1965. Vol. 1.
+P. 326–384.
+25. Einstein A. Foundations of the General Theory of Relativity.
+Collected Scientific Works. Moscow: Nauka, 1965. Vol. 1. P. 452–504.
+26. Synge J. General Relativity. Trans. from English / Ed. by
+Z.A. Petrov. Moscow: IIL, 1963.
+27. Jammer M. The Concept of Mass in Classical and Modern Physics:
+Trans. from English by N.F. Ovchinnikov. Moscow: Progress, 1967. P. 199.
+28. Bush V. The Force Between Moving Charges // J. of Math. and Phys.
+1925–1926, 5. P. 192.
+29. Atsyukovsky V.A. General Ether Dynamics. Modeling the Structures
+of Matter and Fields on the Basis of Concepts of a Gas-like Aether.
+Moscow: Energoatomizdat, 2003.
+30. The Ether Wind. Collection of Articles 1881–1959 / Ed. by
+Dr. Tech. Sci. V.A. Atsyukovsky. Moscow: Energoatomizdat, 1993.
+31. Vavilov S.I. Experimental Foundations of the Theory of Relativity
+(1928) // Collected Works. Vol. 4. Moscow: USSR Academy of Sciences
+Press, 1956. P. 9–110.
+32. Frankfurt U.I., Frenk A.M. Optics of Moving Bodies. Moscow:
+Nauka, 1972.
+33. Michelson A.A. The Relative Motion of the Earth and the Luminiferous
+Aether. Amer. J. of Sci. (3). XXXII. 1881. P. 220; Amer. J. Phys. 1881.
+Vol. 22. P. 120–129; Compt. Rend. 1882. Vol. 94. P. 520–523. Michelson
+A.A. The Relative Motion of the Earth and the Luminiferous Aether
+[30, p. 6–17].
+34. Michelson A.A. The Effect of the Earth's Rotation on the Velocity
+of Light. The Astrophys. J., April 1925, 61, No. 5. P. 137–139.
+35. Michelson A.A., Morley E.W. The Relative Motion of the Medium
+on the Velocity of Light. Ibid. (3). XXXII. 1886. P. 337;
+36. Michelson A.A., Morley E.W. The Relative Motion of the Earth and
+the Luminiferous Aether. Ibid. (3). XXXIV. 1887. P. 333; Michelson A.A.
+and Morley E.W. On the Relative Motion of the Earth in the Luminiferous
+Aether [30, p. 17–31].
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p314]
+314                                                                                           Appendix 3.
+37. Michelson A.A. The Letter to Lord Kelvin. Phil. Mag. 1904, 8(6).
+P. 716–719.
+38. Morley E., Miller D. The Letter to Lord Kelvin. Phil. Mag. 1904,
+8(6). P. 753–754.
+39. Morley E., Miller D. Phil. Mag. 1905. Vol. 9. P. 680–685. Morley
+E.W., Miller D.C. Report on an Experiment to Detect the
+Fitzgerald-Lorentz Effect [93, p. 35–42].
+40. Miller D.C. Phys. Rev. 1922. Vol. 19. P. 407–408; Proc. Nat. Acad.
+Amer. 1925. Vol. 11. No. 6. P. 306–314;
+41. Miller D.C. Science. 1925. Vol. 61. No. 1590. P. 617–621. Miller
+D.C. The Ether Wind. Report Read at the Washington Academy of
+Sciences. UFN, 1925. Vol. 5. P. 177–185; [93, p. 62–71]
+42. Conference on Michelson-Morley Experiments. The Astrophysical
+J. 1928. Vol. 68, No. 5. P. 34–402. Conference on the Michelson-Morley
+Experiment, Held at the Mount Wilson Observatory. Pasadena,
+California, February 4 and 5, 1927 [93, p. 112–173].
+43. Miller D.C. The Ether-Drift Experiment and the Determination of
+the Absolute Motion of the Earth. 1933. Miller D.C. The Ether-Drift
+Experiment and the Determination of the Absolute Motion of the Earth
+[93, p. 185–259].
+44. Michelson A.A., Pease F.G., Pearson F. Repetition of the Michelson-
+Morley Experiments. J. of the Optical Society of America. 1929. Vol. 18.
+No. 3. P. 181–182; Michelson A.A., Pease F.G., Pearson F. Repetition
+of the Michelson-Morley Experiment [30, p. 177–178].
+45. Pease F.G. Ether Drift Data. Astron. Soc. of the Pacific. San
+Francisco, Calif. Aug. 1930. Vol. XLII, No. 248, P. 197–202; Pease
+F.G. Ether Drift Data [30, p. 179–185].
+46. Miller D.C. The Ether Wind // Uspekhi Fizicheskikh Nauk. Vol. 5,
+1925. P. 177–185.
+47. Schlichting H. Boundary Layer Theory. Trans. from German by
+L.G. Loitsyansky. Moscow: Nauka, 1974.
+48. Kennedy R.J. A Refinement of the Michelson-Morley Experiment //
+Proc. Nat. Ac. of USA. 1926, 12. P. 621.
+49. Guadet G. Rev. d'Optique. 1926, 5. P. 363.
+50. Piccard A. et Stahel E. Compt. Rend. 1926, 183. P. 420.
+51. Piccard A. und Stahel E. Naturwissenschaften, 1927, 15. P. 140.
+52. Piccard A., Stahel E. Compt. Rend. 1927, 184. P. 451.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p315]
+Critical analysis of the theory of relativity.                      315
+53. Illingworth K.K. A Repetition of the Michelson-Morley Experiment
+Using Kennedy's Refinement // Phys. Rev. 1927, 30. P. 692–696.
+54. Frankfurt U.I. Optics of Moving Media and the Special Theory of
+Relativity // Einstein Collection 1977 / Compiled by U.I. Frankfurt.
+Moscow: Nauka, 1980. P. 257–326.
+55. Pease F.G. Ether Drift Data. Astron. Soc. of the Pacific. San
+Francisco, Calif. Aug. 1930. Vol. XLII, No. 248, P. 197–202; Pease
+F.G. Ether Drift Data [30, p. 179–185].
+56. Jaseja T.S., Javan A., Murray J., Townes C.H. Test of Special
+Relativity or of the Isotropy of Space by Use of Infrared Maser //
+Phys. Rev. 1964, 133A. P. 1221–1225.
+57. Cedarholm J., Bland G., Havens B., Townes C.H. New Experimental
+Test of Special Relativity // Phys. Rev. 1958, 1. P. 342–343.
+58. Tarasov N.K. Michelson's Experiment. Great Soviet Encyclopedia,
+3rd ed. Vol. 15. Moscow: Soviet Encyclopedia, 1974. P. 218.
+59. Kaufmann W. Gött. Nachr. Math. Nat. Klasse. 1901. P. 143.
+60. Kaufmann W. Nachr. K. Gesel. d. Wiss. zu Göttingen. 1903. P. 98.
+61. Kaufmann W. Ann. d. Phys. 1906, 19. P. 487.
+62. Bucherer A.H. Phil. Mag. April 1907. P. 413.
+63. Bucherer A.H. Verh. Deutsch. Phys. Ges. 1908, 8. P. 688.
+64. Bucherer A.H. Die experimentelle Bestätigung des
+Relativitätsprinzips. 1909, 28. P. 513–536.
+65. Wolz K. Die Bestimmung von e/m₀ // Ann. d. Phys. Vol. 30.
+Leipzig, 1909, 28. P. 513–536.
+66. Hupka. Ann. d. Phys. 1910, 31. P. 169.
+67. Heil. Ann. d. Phys. 1910, 31. P. 523–530.
+68. Laub. Jahrb. d. Rad. u. Elektr. 1910. P. 405.
+69. Comstock D.F. The Relation of Mass to Energy // Phil. Mag. Jan.
+1908. 15 (6). P. 1–21.
+70. Kasterin N.P. On the Invalidity of Einstein's Principle of
+Relativity. Odessa, 1919.
+71. Shaposhnikov N.N. On the Article by N. Kasterin "Sur la non-
+concordance du principe de relativité." Proceedings of the Ivanovo-
+Voznesensk Polytechnic Institute. 1919, Issue 1. P. 1–5.
+72. Neumann G. Ann. d. Phys. 1914, 45. P. 529.
+73. Guye Ch., Lavanchy C. Arch. de Genève. 1916, 41. P. 286.
+74. Guye Ch., Lavanchy C. Arch. Sc. Phys. Nat. Genève. 1916, 41.
+P. 363–441.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p316]
+316                                                                                           Appendix 3.
+75. Gerlach W. Handbuch d. Phys. 1933, 22. P. 11.
+76. Nacken M. Ann. d. Phys. 1935, 25. P. 313.
+77. Locke W. Nuclear Physics of High-Energy Particles. Moscow:
+IIL, 1962.
+78. Tonnelat M.A. Foundations of Electromagnetism and the Theory of
+Relativity / Trans. from French by G.A. Zaitsev. Moscow: IIL, 1962.
+79. Blokhintsev D.I. The Justification of the Special Theory of
+Relativity by Experiments in the Field of High-Energy Physics //
+UFN. Vol. 89. Issue 2, 1966. P. 185–199.
+80. Schmidt-Ott V.D. Some New Measurements in Connection with the
+Proof of the Validity of the Special Theory of Relativity //
+UFN. Vol. 96. Issue 3. 1968. P. 519–527.
+81. Sokolov A.A., Ternov I.M. The Relativistic Electron. Moscow:
+Nauka, 1983.
+82. Williams, Roberts. Nature, 1940, 145. P. 102.
+83. Auger P., Maze. Compt. Rend. 1941, 213. P. 381.
+84. Maze, Chaminade. Compt. Rend. 1942, 214. P. 266.
+85. Rossi, Hall. Phys. Rev. 1941, 59. P. 223.
+86. Nereson, Rossi. Phys. Rev. 1943, 64. P. 109.
+87. Cacciapuoti, Riccioni. Ricerca Sci. 1941, 12. P. 873.
+88. Leprince-Ringuet L., Gorodetzky S. Compt. Rend. 1941, 213.
+P. 756.
+89. Ives H.E., Stillwell G.R. JOSA 1938, 28. P. 215.
+90. Ives H.E., Stillwell G.R. JOSA 1941, 31. P. 369.
+91. Putilov K.A., Fabrikant V.A. Course in Physics. Vol. 3. Moscow:
+Fizmatgiz, 1960.
+92. Mostepanenko M.V. The Materialist Essence of Einstein's Theory
+of Relativity. Moscow: Sotsekgiz, 1962.
+93. Eötvös R.V. Math. u. Naturwiss. Ber. Ungarn. 1890, 8. P. 65.
+94. Eötvös R.V. Beibl. Ann. d. Phys. 1891, 15. P. 688.
+95. Eötvös R.V. Ann. d. Phys. 1896, 59. P. 354.
+96. Eötvös R.V. Ann. d. Phys. 1922, 68. P. 11.
+97. Southerns L. Proc. Roy. Soc. 1910, 84. P. 325.
+98. Zeeman P. Proc. Amsterdam Acad. 1917, 20. P. 542.
+99. Dicke R.H. Rev. Mod. Phys. 1957, 29, 3. P. 355.
+100. Dicke R.H. Sci. Am. 1951, 205. P. 84.
+101. Roll P.G., Krotkov R., Dicke R.H. Ann. d. Phys. 1964, 29. P. 442.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p317]
+Critical analysis of the theory of relativity.                      317
+102. Weber J. General Relativity and Gravitational Waves. Trans.
+from English / Ed. by D.D. Ivanenko. Moscow: IIL, 1962.
+103. Dukkei P.A. Nature (England), 1966, 217. P. 5123–5166.
+104. Linets A.M. On the Question of the Experimental Verification of
+the Equality of Inertial and Gravitational Mass // JETP. Vol. 54.
+1968. Issue 6. P. 1772–1774.
+105. Stephenson L.M. Proc. Phys. Soc. 1967, 90. P. 601.
+106. Dabbs J.W., Harvey J.A., Paya D., Horstmann. Phys. Rev. 1965,
+139, 3B. P. 756.
+107. Braginsky V.B. Physical Experiments with Test Bodies. Moscow:
+Nauka, 1970.
+108. Braginsky V.B. Measurement of Small Forces in Physical
+Experiments. Moscow: Nauka, 1974.
+109. Piragas K.A. Experimental Foundations of the General Theory of
+Relativity. A Review. Kiev: ITF AN USSR Press, 1971.
+110. Petrov A.Z., Kaigorodov V.R., Abdulin M.I. Classification of
+Gravitational Fields of General Type by Motion Groups // Proceedings
+of Higher Educational Institutions. Mathematics. 1959, No. 6.
+111. Pound R. On the Weight of Photons // UFN. Vol. 72. Issue 4.
+P. 469.
+112. Pound R., Rebka G.A. Gravitational Red-Shift in Nuclear
+Resonance. In: Newest Problems of Gravitation / Ed. by D.D.
+Ivanenko. Moscow: IIL, 1961. P. 469.
+113. Pound R., Rebka G.A. The Effective Weight of Photons. In:
+Newest Problems of Gravitation / Ed. by D.D. Ivanenko. Moscow: IIL,
+1961. P. 474.
+114. Cranshaw T.E., Schiffer J.P., Whitehead A.B. Phys. Rev. Lett.
+1960, 4. P. 163.
+115. Melnikov S.A. Gravitational Red Shifts of Fraunhofer Iron Lines
+at the Center of the Sun. Izv. GAO No. 175. Vol. 23. Issue 5.
+Pulkovo, 1964.
+116. Baranov G.A. Gravitational Red Shift // Einstein Collection,
+1967. Moscow: Nauka, 1967. P. 215–232.
+117. Hubble E.P. A General Study of Diffuse Galactic Nebulae //
+Astrophys. J. 1922, 56. P. 3.
+118. Hubble E.P. Proc. Nat. Acad. Sci. 1929. 15, 3. P. 168.
+119. Hubble E.P. The Realm of the Nebulae. New Haven, London, 1936.
+120. Hubble E.P. The Observational Approach to Cosmology. Oxford,
+1937.
+121. Observational Foundations of Cosmology / Trans. from English /
+Ed. by Yu.P. Pskovsky and G.V. Sholomitsky. Moscow: Mir, 1965.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p318]
+318                                                                                           Appendix 3.
+122. Melnikov O.A., Popov V.S. Non-Doppler Explanations of the
+"Red Shift" in the Spectra of Distant Galaxies. In: Some Problems of
+Space Physics. Leningrad: Leningrad Branch of VAGO Press, 1974,
+No. 2. P. 9–32.
+123. Einstein A. Assessment of the Works of Simon Newcomb //
+Collected Scientific Works. Vol. 4. Moscow: Nauka, 1967. P. 112.
+124. Chazy J. C.R. Acad. Sci. Paris, 1926, 182. P. 1134.
+125. Chazy J. C.R. Compt. Rend. 1925, 181. P. 1053; 1926, 182.
+P. 1134.
+126. Clemence G.M. Astron. Papers Amer. Ephemer. 1943, 2. P. 1.
+127. Clemence G.M. Rev. Mod. Phys. 1947, 19. P. 361.
+128. Dicke R.H. Astron. J. 1956, 61. P. 174.
+129. Dicke R.H. Astron. Papers Amer. Ephemer. 1958, 16.
+130. Bertotti B., Brill D., Krotov R. Gravitation. New York, 1962.
+131. Dicke R.H. Nature, 1964, 202. P. 432.
+132. Dicke R.H., Goldenberg H.M. Phys. Rev. Lett. 1967, 18. P. 313.
+133. Shapiro I.I., Ash M.E., Smith W.B. Phys. Rev. Lett. 1968, 20.
+P. 1517.
+134. Shapiro I.I. Proc. of the Conference on Experimental Tests of
+Gravitation Theories. NASA-JPL Technical Memorandum, 1971, 33.
+P. 199.
+135. Shapiro I.I. Phys. Rev. Lett. 1972, 28. P. 1594.
+136. Morrison L.V., Ward C.G. Mon. Nat. R. Astr. Soc. 1975, 173.
+P. 183.
+137. Kostyukevich I.I., Ivanitskaya O.S. Systematization of
+Gravitational Effects Predicted by GTR. Minsk: Institute of Physics,
+Academy of Sciences of the BSSR Press, 1978. P. 24–25.
+138. Einstein and the Development of Physico-Mathematical Thought //
+Collection of Articles / Ed. by A.T. Grigoryan. Moscow: USSR Academy
+of Sciences Press, 1962.
+139. Frenkel Ya.I. Mechanical and Electromagnetic Properties of Light
+Atoms (Quanta) // UFN. Vol. 7. 1927. P. 108.
+140. Hopmann J. Phys. Zs. 1924, 178. P. 196.
+141. Kienle H. Ergebnisse der exakten Naturwissenschaften, 1924, 3.
+P. 55.
+142. Kleinert H. Die Prüfungsmöglichkeiten der Einsteinschen
+Relativitätstheorie, 1923.
+143. Esclangon E. Compt. Rend., 1924, 178. P. 196.
+144. Fesenkov V. Astronomical Evidence for the Principle of
+Relativity // Herald of the Communist Academy, 1925. Vol. 13. P. 200.
+
+
+---
+
+
+### SOURCE SECTION: Глава 4.
+
+[p319]
+Critical analysis of the theory of relativity.                      319
+145. Croze P. Rev. gén. d. Sci., 1926, 37. P. 389, 421.
+146. Kienle H. Phys. Zs., 1924, 25. P. 1.
+147. Kopff. Phys. Zs., 1924, 25. P. 95.
+148. Van Biesbroeck G. The Einstein Shift at the Eclipse of May 20,
+1927 in Brazil. The Astrophys. J. 1950, 55, 1182. P. 49–53.
+149. Mitchell S.A. Eclipses of the Sun // J. Col. Univ. Press, 1951, 18.
+150. Anderson A. Astroph. J. 1920, 52. P. 98.
+151. Anderson A. Nature, 1919–1920, 184.
+152. Poor. Science, 1923, 57. P. 613.
+153. Newall H.F. Monthly Notices, 1919, 80. P. 22.
+154. Steuern. Beob. Ergebn. Berlin, 1919. P. 5; 1920. P. 205–211.
+155. Schemstad G.A., Crammer R.A., Weiler K.W. Measurement of
+the Deflection of 9.602-GHz Radiation from 3C279 in the Solar
+Gravitational Field // Phys. Rev. Lett. 1970, 24. P. 1377.
+156. Campbell W.W., Trumpler R. Univ. Calif. Publish. Astr. Lick
+Obs. Bull. 1923, 11. P. 41; 1928, 13. P. 130.
+157. Möller C. The Theory of Relativity. 2nd ed. / Trans. from English
+by V.G. Lapchinsky. Moscow: Atomizdat, 1984. P. 354–356.
+158. Einstein A., Rosen N. J. Franklin Inst., 1937, 43. P. 223.
+159. Einstein A. Approximate Integration of the Equations of the
+Gravitational Field // Collected Scientific Works. Vol. 1. Moscow:
+Nauka, 1965. P. 631–646; On Gravitational Waves. Same. P. 631–646.
+160. Sudakov V.V. Gravitational Waves. FES. Vol. 1. Moscow:
+Soviet Encyclopedia, 1960. P. 488.
+161. Braginsky V.B. Gravitational Waves and Attempts to Detect Them
+// Earth and the Universe, 1965, No. 5.
+162. Braginsky V.B. Gravitational Radiation. Great Soviet
+Encyclopedia, 3rd ed. Vol. 7. Moscow: Soviet Encyclopedia, 1972.
+P. 200–201.
+163. Braginsky V.B. Gravitational Radiation and Prospects for Its
+Experimental Detection // UFN. Vol. 100. 1970. Issue 3. P. 433–446.
+164. Braginsky V.B., Rudenko V.N. Relativistic Gravitational
+Experiments // UFN. Vol. 100. 1970. Issue 3. P. 395.
+165. Weber J., Wheeler J. The Reality of Cylindrical Gravitational
+Waves of Einstein-Rosen // In: Newest Problems of Gravitation.
+Moscow: IIL, 1961. P. 289–308; Same. P. 446–468.
+166. Rosen N. Bull. Res. Council Israel, 1953, 3C. P. 395.
+167. Scheidegger A.E. Rev. Mod. Phys., 1953, 25. P. 451.
+
+[p320]
+320                                                                                           Appendix 3.
+168. Misner C., Thorne K., Wheeler J. Gravitation. W.H. Freeman & Co.,
+1973.
+169. Vladimirov Yu.S. Quantum Theory of Gravitation // Einstein
+Collection 1972. Moscow: Nauka, 1972.
+170. Adamyants R.A., Alekseev A.D., Kolosnitsyn N.N. Correlation of
+"Gravitational Signals" in Weber's Experiments with Solar and
+Terrestrial Magnetic Activity. JETP Letters, 1972, 15 (5). P. 277.
+171. Denisov V.I., Logunov A.A. Does Gravitational Radiation Exist in
+the General Theory of Relativity? Moscow: USSR Academy of Sciences
+Press, 1980. P. 13.
+172. Laplace P.S. Exposition du Système du Monde. Vols. 1, 2.
+St. Petersburg: "Obshchestvennaya Polza" Partnership, 1861.
+173. Atsyukovsky V.A. Materialism and Relativism. A Critique of the
+Methodology of Modern Theoretical Physics. Moscow:
+Energoatomizdat, 1992; Moscow: "Inzhener," 1993; 2nd ed. Moscow:
+"Petit," 2009.
+
+
+---
+
