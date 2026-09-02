@@ -1,9 +1,12 @@
 ---
 name: Field and Quantum Potential of Consciousness
-description: "Translation document."
+description: "Italian source translated to English. Model of consciousness as a quantum field based on the de Broglie-Bohm theory, by Antonio Manzalini. Published in Rivista Scienze Biofisiche (09/2022)."
+source_language: it
+target_language: en
+source_doi: https://doi.org/10.48274/IBI16
 ---
 
-Field and Quantum Potential of Consciousness
+# Field and Quantum Potential of Consciousness
 DOI: https://doi.org/10.48274/IBI16
 Author
 Antonio Manzalini (ORCID code 0000-0003-1633-3099)

@@ -6,32 +6,13 @@ target_language: en
 source_doi: https://doi.org/10.5281/zenodo.17311989
 ---
 
-Skip to main
+# TUO: Wave Universe Theory — From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology
 
- You are using an outdated browser. Please upgrade your browser to improve your experience.
+**Author:** François Maillot (Researcher)
 
-Published 2025
+**Published:** 2025 | Version v2 | Open Access
 
- | Version v2
-
-Publication
-
-Open
-
- Théorie de l'Univers Onde (TUO) : From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology.
-
-Authors/Creators
-
- MAILLOT, François
- (Researcher)
-
-Contributors
-
-Researcher:
-
- MAILLOT, François
-
-Description
+## Description
 
  This deposit presents two fundamental works establishing the theoretical framework of the Wave Universe Theory (TUO), a new unified approach to vacuum physics and gravitation.
 

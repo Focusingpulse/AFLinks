@@ -19,7 +19,6 @@ Euclidean. To verify this conclusion, theorists from various countries developed
 model of space possessing not only curvature (as in Einstein's theory of gravitation), but also
 torsion [2]. When a numerical evaluation of the effect produced by torsion was carried out, it
 turned out to be negligibly
-                                        60
 small, on the order of 10⁻⁶⁰. Therefore, theorists in many countries concluded
 that torsion effects (from the English word "torsion") cannot currently be detected in
 experiments.
@@ -57,7 +56,6 @@ only four of them) are associated with the rotation of matter [9]. Their action 
 objects is comparable to the action of gravitational forces, and sometimes exceeds them.
 Perhaps the greatest interest for direct verification of Cartan's hypothesis about the existence
 of a torsion field (field of inertia) around rotating matter is presented by the experiments of
-                                                                                    1
 Professor V.N. Samokhvalov, Doctor of Technical Sciences at Samara State University of
 Transport http://www.youtube.com/user/Begemotov?feature=guide . For this purpose, a
 vacuum chamber was created in which the pressure reached 0.0008 Torr. Inside the
@@ -110,7 +108,6 @@ which is physically interpreted as a field of inertia [8].
 ---
 
 
-2
 
    As is known, all material objects consist of elementary particles, the majority of which possess spin — an intrinsic mechanical angular momentum. Simply put, all objects represent a complex system of small gyroscopes, which, moreover, may possess charge (for example, the electron, proton). Therefore, it is not surprising when anomalous effects are observed not only in mechanics, but also in electrodynamics. The role of inertial fields (and, consequently, torsion fields) in the theory of elementary particles concerns modern theoreticians little. The only known researcher, American theoretical physicist A. Pais, expressed himself on this matter very precisely: "Moreover, in my opinion, the problem of the origin of inertial fields was and remains the most obscure question in the theory of particles and fields" [10]. Indeed, it was precisely in electrodynamics, in the study of radiation spectra of atomic systems consisting of elementary particles, that anomalous effects were discovered which could not be explained within the framework of "classical" electrodynamics, and for whose explanation the Schrödinger equation, guessed by E. Schrödinger, was introduced. Almost 90 years have passed since a new "quantum" mechanics was built on the basis of the Schrödinger equation, yet a fundamental description of quantum phenomena within the framework of existing physics has still not been found. The exception is the Theory of the Physical Vacuum [13].
 
@@ -128,7 +125,6 @@ which is physically interpreted as a field of inertia [8].
 
   The basic idea of the torsion generator's operation is clear from the above — the generator must control the spins of elementary particles using an electromagnetic field. The simplest equation that describes the change of spin under the action of an electromagnetic field is the Bloch equation [12]. For an electron, this equation is written as
 
-3
                               ds
                                 = -[L s],       L = eH / (2mc),                   (1)
                              dt
@@ -138,7 +134,6 @@ Fig 1.
 
 Figure 1 shows the appearance and internal structure of one of A.A. Akimov's torsion generators. Inside the conical chamber (on the right in the figure) are capacitor plates, between the plates of which a ferrite is placed. An alternating voltage from a standard signal generator is applied to the capacitor plates at the NMR frequency characteristic of the given metal. The magnetic field of the electromagnetic radiation "rocks" the spins inside the ferrite, creating torsion radiation. The conical chamber is made of bronze, has no openings, and is grounded, so the electromagnetic component of the radiation arising in the chamber is either not observed at all outside the chamber, or is negligible. The axial component (or spin wave) of the torsion radiation is taken from the apex of the cone by a single copper wire and directed to a conical antenna (a feature of the torsion signal).
 
-4
 
 
 ---
@@ -158,7 +153,6 @@ Without special additives, silumin turns out porous and unsuitable for manufactu
 
 Fig. 4
 
-5
 which was used in commercial melts by V.F. Panov's group. On the right, two samples of smelted steel before treatment with the generator (center) and after treatment (right) with the torsion generator http://second-physics.ru/moscow2012/moscow2012.pdf . The photographs show that the metal treated with torsion radiation exhibits grain refinement, which leads to a simultaneous increase in ductility and hardness of the metal.
 
     In the work of V.F. Panov's group, a Kurapov torsion generator was used, consuming only 50 W of electrical energy, while the amount of smelted metal with new properties ranged from 70 g to 400 tons! Using torsion technology (during 2001-2009), at metallurgical enterprises in Perm, Tula, Orsk, and other cities, 9,500 tons of metal were smelted. Samples of the smelted metal were studied at the Physico-Technical Institute of the Ural Branch of the Russian Academy of Sciences (Izhevsk), at the Institute of Machine Science of the Ural Branch of the Russian Academy of Sciences (Yekaterinburg), at the Federal State Unitary Enterprise "Center for Powder Materials Science" (Perm), and others.
@@ -187,7 +181,6 @@ which was used in commercial melts by V.F. Panov's group. On the right, two samp
 
 Fig. 5.
 
-6
 of magnifying objects 10^34 times, we would see the picture shown in Fig. 5 on the right. At Planck distances on the order of 10^-36 m, we would see energy fluctuations of the Physical Vacuum, which represent virtual quantum particles spontaneously born by the Physical Vacuum. This energy is capable of interacting not only with other quantum systems but, as it turned out, also with macroscopic objects. In Fig. 5, top left, two metal plates placed in a vacuum are shown. Fluctuations of vacuum photons will create pressure both inside the plates (to a lesser degree) and outside (much more strongly). As a result, an attractive force arises between the plates (the Casimir effect), which was theoretically calculated and experimentally confirmed. In Fig. 5, bottom left, a diagram is presented that explains the observed shift of the energy levels of the hydrogen atom under the action of fluctuations of the Physical Vacuum (the Lamb shift). This effect is observed as a result of the absorption and emission by the hydrogen atom of vacuum photons with a frequency of 1075 MHz. It is interesting to note that any atom of our body, and indeed all other objects consisting of atoms, constantly receives an energy supplement through fluctuations of the Physical Vacuum.
 
 In Russia and other countries, there exist scientific collectives that attempt to build energy installations capable of using the energy of vacuum fluctuations. However, as often happens, the first widely known vacuum installation in the world, "drawing" energy from the Physical Vacuum, was created by the Swiss Paul Bauman, a man far from science but a talented inventor. Fig. 6 shows one of the numerous variants of the Bauman generator. In the middle of the installation, a rotating disk is visible (there are two of them), which are initially started manually and then rotate constantly, while a load is permanently connected to the output terminals of the installation.
@@ -196,7 +189,6 @@ Fig. 6.
 
 In Fig. 6, lighting lamps with a total power of 200 W are used as the load. P. Bauman is the founder of the religious community Methernita, which built several such installations with power from 100 W to 30 kW. The total power of all installations is 750 kW http://www.macmep.ru/testatika/testatika.htm . The community built
 
-7
 in Linden, Switzerland, a number of hotels that, since 1980, have been heated and illuminated solely by the energy of the Physical Vacuum. It would seem — what could be simpler — for energy corporations to take P. Bauman's invention and use it to create a new efficient energy source, rather than pumping oil and gas from the depths of the Earth. However, this does not happen for two reasons:
 
 
@@ -247,7 +239,6 @@ time), εᵣ is the dielectric permittivity of the medium between the plates in 
 ---
 
 
-8
 we obtain C = 4πε₀εᵣR₁ or C = 4πε₀R₁, where εᵣ = 1 in vacuum. Mathematics knows of
 a geometry in which infinitely distant points behave on equal footing with finite ones. Such
 geometry is the Argand complex plane, on which Möbius fractional-linear
@@ -278,7 +269,6 @@ Fig.7.
 Coulomb field outside the sphere are shown. When the switch K is closed and a discharge of the sphere to
 ground occurs, an additional scalar field S = (1/rc) · ∂Q(t)/∂t arises, which generates a
 "longitudinal" magnetic force Fₘ = eSv/c [15], acting on the charge. This force acts
-9
 in systems with variable charge density (for example, in capacitors) and has been
 experimentally (in our time) detected in the experiments of G. Nikolaev [16].
 
@@ -307,7 +297,6 @@ In the theory of the Physical Vacuum [8], a formula was obtained that generalize
 formula E = mc². The fact is that all material objects, as stated
 above, consist of elementary particles, which are like small gyroscopes. How
 
-10
 these gyroscopes rotate inside the object determines its rest mass. Therefore, instead of
 Einstein's formula, we have
 
@@ -345,7 +334,6 @@ Nature loves to play jokes on the scientific world, presenting it, from time to 
 discoveries made by people far from science. Thus Thomas Brown, as a
 teenager (he was 15 years old at the time), in 1920 accidentally observed the movement of a
 Coolidge X-ray tube suspended on strings. When a high-voltage
-                                                                                    11
 DC voltage on the order of 30 kV was applied to the tube, it began to move. The Coolidge tube is
 a glass vessel filled with a technical vacuum, inside which
 a cathode and an anode are located. The cathode was heated by a tungsten filament and served as a source
