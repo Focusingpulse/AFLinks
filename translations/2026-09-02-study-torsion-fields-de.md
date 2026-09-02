@@ -1,12 +1,4 @@
----
-name: study-torsion-fields-de
-description: "Study on Torsion Fields — German source translated to English. Covers torsion field theory, applications in energy, ecology, medicine, and the physical vacuum. Attributed to Prof. Dr. N. Grachev, State Institute for Electronics and Mathematics, Moscow."
-source_language: de
-target_language: en
-source_url: https://tervica.de/index.php/forschungsberitchte/studie-ueber-die-torsionsfelder
----
-
-# Study on Torsion Fields
+Study on Torsion Fields
 
 1.1. State of the Problem of Torsion Fields
 
@@ -20,6 +12,7 @@ Torsion fields can be used as torsion energy sources, as torsion motors, as tors
 Almost 10 years have passed since these conclusions were formulated. Theoretical, experimental, and technological research in Russia and Ukraine has shown that torsion technologies are much more efficient than electromagnetic technologies.
 In other publications, successes in torsion metallurgy have already been reported, in which metal was specifically informed in the metal smelting section. Meanwhile, the properties of steel can be specifically influenced by torsion fields without metal smelting, and steel of the same quality is obtained.
 
+1
 Major environmental problems are caused by transportation using combustion engines, as used in cars, locomotives, ships, airplanes, and other vehicles. The transition to electric mobility offers only the illusion of cleaner energy, especially since the
 
 
@@ -47,6 +40,7 @@ H. R. Hertz considered it impossible to communicate using electromagnetic waves.
 This list could be continued indefinitely.
 Apparently Louis de Broglie is right when he called for repeatedly and profoundly rethinking the principles of scientific assessment according to which it is determined what is finally accepted and what is not.
 
+2
 As examples of the potential contained in the field of knowledge of torsion fields, reference has so far only been made to the areas of energy, transport/traffic, new materials, and information transmission.
 
 
@@ -77,6 +71,7 @@ The famous Russian geophysicist Dr. A.L. Dmitriev, a leading geophysicist of Sib
 
 As a geophysical response from the Sun in such regions, "plasmodia" appear on the Earth's surface — structures that arise under the influence of solar plasma. Thus the environmental problems are no longer limited to the Earth, but also influence the balance in the solar system between Earth and Sun, i.e. the solar influence on the Earth.
 
+3
 
 When listing all the problems mentioned, one gets a very unpleasant feeling; the situation seems absolutely desperate. Science offers no radical solutions for any of the global problems that could change the situation.
 
@@ -96,6 +91,7 @@ A number of experts, however, have said that F. Fukuyama is not right. As a scie
 
 The first such situation arose in a period well known to historians. This period, in which the hunter-gatherer way of life was exhausted and the already small population of the planet had halved, preceded the Neolithic Revolution. At that time the threat that the human species could be completely exterminated and wiped out was much greater than today. However, this did not happen. Methods of agriculture and the necessary
 
+4
 
 tools were developed. As a result of this development, the population increased tenfold within a short period. Humanity survived as a species!
 
