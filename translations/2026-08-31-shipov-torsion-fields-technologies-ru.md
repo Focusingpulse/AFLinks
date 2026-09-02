@@ -1,6 +1,9 @@
 ---
 name: Shipov — Torsion Fields and Torsion Technologies
-description: "G.I. Shipov, Russian source translated to English."
+description: "G.I. Shipov, Russian source translated to English. Covers torsion field theory, experimental evidence from gyroscopic systems, and torsion technologies in metallurgy, energy, and communications."
+source_language: ru
+target_language: en
+source_url: http://shipov.com
 ---
 
 TORSION FIELDS AND TORSION TECHNOLOGIES.1

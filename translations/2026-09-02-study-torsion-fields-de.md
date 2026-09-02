@@ -1,4 +1,11 @@
-Study on Torsion Fields
+---
+name: study-torsion-fields-de
+description: "Study on Torsion Fields — German source translated to English. Covers torsion field theory, applications in energy, ecology, medicine, and the physical vacuum. Attributed to Prof. Dr. N. Grachev, State Institute for Electronics and Mathematics, Moscow."
+source_language: de
+target_language: en
+---
+
+# Study on Torsion Fields
 
 1.1. State of the Problem of Torsion Fields
 
