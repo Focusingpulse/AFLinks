@@ -25,7 +25,7 @@
     },
     {
       "name": "viXra.org",
-      "status": "crawled",
+      "status": "complete",
       "base_url": "https://vixra.org",
       "crawl_type": "api_listing",
       "crawl_paths": [
@@ -36,7 +36,7 @@
     },
     {
       "name": "i-sis.org.uk",
-      "status": "pending",
+      "status": "crawl_failed",
       "base_url": "https://www.i-sis.org.uk",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
@@ -57,13 +57,14 @@
     },
     {
       "name": "ether.sciences.free.fr",
-      "status": "pending",
+      "status": "crawled",
       "base_url": "http://ether.sciences.free.fr",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "~50+ patent PDFs related to ether/aether science"
+      "notes": "~50+ patent PDFs related to ether/aether science",
+      "file_count": 39
     },
     {
       "name": "padrak.com/ine",
