@@ -254,7 +254,14 @@ def load_concepts(path=None):
     return data.get("concepts", [])
 
 def parse_md_frontmatter(path):
-    """Parse markdown with YAML-ish frontmatter. Returns (meta dict, title, body)."""
+    """Parse markdown with YAML-ish frontmatter. Returns (meta dict, title, body).
+
+    MemFS-validated shared-memory repos restrict frontmatter keys to name +
+    description, so translation files carry their original metadata (domain,
+    source_url, language, date, author...) as a "- **key:** value" block in
+    the body. This reader fills meta from frontmatter first, then from that
+    body block, and falls back to the `name` key for the title.
+    """
     with open(path, encoding="utf-8") as f:
         raw = f.read()
     meta = {}
@@ -266,11 +273,23 @@ def parse_md_frontmatter(path):
         for line in fm.splitlines():
             if ":" in line:
                 k, v = line.split(":", 1)
-                meta[k.strip()] = v.strip()
-    # First heading as title
-    h = re.search(r"^# (.+)$", body, re.MULTILINE)
-    if h:
-        title = h.group(1).strip()
+                meta[k.strip()] = v.strip().strip('"').strip("'")
+    # title from frontmatter `name` (memfs schema)
+    if meta.get("name"):
+        title = meta["name"]
+    # body metadata block: "- **key:** value" lines
+    for line in body.splitlines():
+        bm = re.match(r"^- \*\*([^:*]+):\*\*\s*(.*)$", line.strip())
+        if bm:
+            k, v = bm.group(1).strip(), bm.group(2).strip()
+            meta.setdefault(k, v)
+            meta.setdefault(k.lower(), v)
+            meta.setdefault(k.lower().replace(" ", "_"), v)
+    # First heading as title (only if we have no name yet)
+    if not meta.get("name"):
+        h = re.search(r"^# (.+)$", body, re.MULTILINE)
+        if h:
+            title = h.group(1).strip()
     return meta, title, body
 
 def main():
