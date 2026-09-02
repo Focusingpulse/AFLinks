@@ -1,19 +1,7 @@
----
-date: 2026-09-01
-title: Field and Quantum Potential of Consciousness
-domain: consciousness-studies
-source_url: https://doi.org/10.48274/IBI16
-language: en
-source_language: Italian
-translator: translator-foreign (automated cron)
-authors: Antonio Manzalini
----
-
-# Field and Quantum Potential of Consciousness
-
-**DOI:** https://doi.org/10.48274/IBI16
-
-**Author:** Antonio Manzalini (ORCID: 0000-0003-1633-3099)
+Field and Quantum Potential of Consciousness
+DOI: https://doi.org/10.48274/IBI16
+Author
+Antonio Manzalini (ORCID code 0000-0003-1633-3099)
 
 Abstract
 Living organisms, from a thermodynamic point of view, are similar to open systems that operate far from equilibrium. In fact, the metabolic processes of life are based on continuous internal flows and exchanges of energy, matter, and information between organisms and the surrounding environment.
