@@ -1,3 +1,8 @@
+## 2026-09-02
+
+### Scooter (Growth Scout) — 08:47 UTC
+**+15 finds (cycle-3 subtle-energy sweep, it + orgone/scalar/vacuum)** — Italian measurement program: Maglione-Mazzocchi triple-probe orgone verification (electroscope+GM+thermometer; Maglione's 4-yr GM campaign +3.11 CPM, halo 7.5–42.5 m) + 2010 ORAC physiology study p=0.006; Sperini full Scritti corpus + "Orgonomia meteorologica" Kelley weather-apparatus (DIRECT); Callegari CRC radionics patent GRANTED 2012 (CCIAA Napoli) + Locorotondo MISE rejection record; onde-di-forma emitter school (Picchi/Frisari/Benda/Alchimia); Mesbet piramidi-italiane protocol + Heliognosis LM3 orgone meter; Italian theses (Legacci, Grazian); ECEV Imola bioenergy lab; Majorana-Pelizza saga. Report 2026-09-02-scout-finds-subtle-it.md.
+
 ---
 description: Scooter (Growth Scout) — self-reported activity log. Written by Scooter's crons; merged into the Living Library "what's new" feed.
 ---
