@@ -1152,6 +1152,10 @@
         }
         .kd-spin:hover { transform: translateY(-1px); box-shadow: 0 5px 14px rgba(232,182,76,0.4); }
         .kd-spin:active { transform: translateY(1px); }
+        .kd-focus {
+            background: linear-gradient(180deg, #e8c860, #b8860b);
+            border-color: #ffd166;
+        }
         .kd-nav {
             font-size: 0.9rem;
             padding: 6px 12px;
@@ -1320,6 +1324,7 @@
             <div class="kd-spin-row">
                 <button class="kd-nav" id="kdPrev" title="Previous lens">◀</button>
                 <button class="kd-spin" id="kdSpin">⚓ Spin the Dial</button>
+                <button class="kd-spin kd-focus" id="kdFocusBtn" title="Jump to what the founders publish most">★ Founders&rsquo; Focus</button>
                 <button class="kd-nav" id="kdNext" title="Next lens">▶</button>
             </div>
             <div class="kd-readout" id="kdReadout"></div>
@@ -1956,18 +1961,35 @@
             });
         }
 
+        let kdFocus = null; // af_focus.json — the founding group's publishing focus
         function kdAvailableLenses() {
+            const byName = {};
             if (seamData && seamData.category_index) {
-                return Object.keys(seamData.category_index)
-                    .map(n => ({ name: n, n: (seamData.category_index[n] || []).length }))
-                    .sort((a, b) => b.n - a.n);
+                Object.keys(seamData.category_index).forEach(n => {
+                    byName[n] = { name: n, n: (seamData.category_index[n] || []).length };
+                });
+            } else {
+                const m = metaCategoryMap;
+                Object.keys(m).forEach(n => {
+                    byName[n] = {
+                        name: n,
+                        n: allData.filter(it => (it.meta_categories || []).includes(n) ||
+                            (m[n] || []).some(s => (it.categories || []).includes(s))).length
+                    };
+                });
             }
-            const m = metaCategoryMap;
-            return Object.keys(m).map(n => ({
-                name: n,
-                n: allData.filter(it => (it.meta_categories || []).includes(n) ||
-                    (m[n] || []).some(s => (it.categories || []).includes(s))).length
-            })).sort((a, b) => b.n - a.n);
+            const list = Object.values(byName);
+            const fp = (n) => (kdFocus && kdFocus.lenses && kdFocus.lenses[n]) || { af_posts: 0, pct: 0 };
+            // Order by founders' focus first (AF publishing weight), then doc count.
+            list.sort((a, b) => {
+                const da = fp(a.name).af_posts || 0, db = fp(b.name).af_posts || 0;
+                if (da !== db) return db - da;
+                return b.n - a.n;
+            });
+            return list;
+        }
+        function kdFocusOf(name) {
+            return (kdFocus && kdFocus.lenses && kdFocus.lenses[name]) || null;
         }
 
         function kdSubjectsFor(lensName) {
@@ -2008,10 +2030,21 @@
                 const active = i === selIdx;
                 const [x1, y1] = kdPolar(cx, cy, 186, a);
                 const [x2, y2] = kdPolar(cx, cy, 208, a);
+                const focus = kdFocusOf(kdLenses[i].name);
+                const isFocus = focus && focus.af_posts > 8;
                 if (active) {
                     ticks += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="#ffd166" stroke-width="4" stroke-linecap="round" style="filter: drop-shadow(0 0 6px rgba(255,209,102,0.9))"/>`;
+                    if (isFocus) {
+                        const [sx, sy] = kdPolar(cx, cy, 176, a);
+                        ticks += `<text x="${sx.toFixed(2)}" y="${(sy+4).toFixed(2)}" font-size="13" text-anchor="middle" fill="#ffd166" style="filter: drop-shadow(0 0 5px rgba(255,209,102,0.9))">★</text>`;
+                    }
                 } else {
-                    ticks += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="rgba(232,182,76,0.30)" stroke-width="2" stroke-linecap="round"/>`;
+                    ticks += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="${isFocus ? 'rgba(255,209,102,0.55)' : 'rgba(232,182,76,0.30)'}" stroke-width="${isFocus ? 2.5 : 2}" stroke-linecap="round"/>`;
+                    if (isFocus) {
+                        const [sx, sy] = kdPolar(cx, cy, 175, a);
+                        const smaller = N > 18 ? 7 : 9;
+                        ticks += `<text x="${sx.toFixed(2)}" y="${(sy+3).toFixed(2)}" font-size="${smaller}" text-anchor="middle" fill="rgba(255,209,102,0.6)">★</text>`;
+                    }
                 }
             }
             // minor marks between ticks
@@ -2035,7 +2068,8 @@
             const lens = kdLenses[selIdx];
             if (lens) {
                 document.getElementById('kdWinLens').textContent = lens.name;
-                document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' documents in this lane';
+                const f = kdFocusOf(lens.name);
+                document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
             }
         }
 
@@ -2213,7 +2247,8 @@
                 // live-fill the window while dragging
                 const lens = kdLenses[idx];
                 document.getElementById('kdWinLens').textContent = lens.name;
-                document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' documents in this lane';
+                const f = kdFocusOf(lens.name);
+                document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
                 document.getElementById('kdReadout').innerHTML = `⚓ aiming at <b style="color:var(--gold-bright)">${escapeHtml(lens.name)}</b> — release to lock it in`;
             });
             const endDrag = e => {
@@ -2245,6 +2280,13 @@
                 }
             });
 
+            const fb = document.getElementById('kdFocusBtn');
+            if (fb) fb.addEventListener('click', () => {
+                if (kdSpinning) return;
+                // top lane is already focus-ordered, so index 0 = top founders focus
+                kdSpinTo(0, true, false);
+                kdToastm('⚓ Straight to the founders\' focus — ' + kdLenses[0].name);
+            });
             document.getElementById('kdPrev').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens - 1 + kdLenses.length) % kdLenses.length, true, false); });
             document.getElementById('kdNext').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens + 1) % kdLenses.length, true, false); });
             document.getElementById('kdSpin').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo(Math.floor(Math.random() * kdLenses.length), true, true); });
@@ -2301,6 +2343,11 @@
                     }
                     seamData = feed.seam || null;
                     renderWhatsNew(feed);
+                    // founders' focus map (the founding group's publishing focus)
+                    try {
+                        const fr = await fetch('./af_focus.json', { cache: 'no-store' });
+                        kdFocus = await fr.json();
+                    } catch (e) { kdFocus = null; }
                     kdInit();
                 } catch (e) { /* feed optional; hero keeps working without it */
                     // still try the dial from hardcoded fallback (seam missing)
