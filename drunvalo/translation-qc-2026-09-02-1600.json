@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-09-02T16:06:48.361946+00:00",
+  "agent": "Drunvalo",
+  "cron": "aetherforce-translation-qc",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_checked": [
+    "translations/2026-09-02-study-torsion-fields-de.md",
+    "translations/2026-09-01-scalar-field-galactic-rotation.md",
+    "translations/2026-09-01-field-quantum-potential-consciousness-it.md",
+    "translations/2026-08-31-tuo-wave-universe-theory-fr.md",
+    "translations/2026-08-31-shipov-torsion-fields-technologies-ru.md"
+  ],
+  "issues_found_fixed": [
+    "study-torsion-fields-de: missing YAML frontmatter \u2014 added",
+    "field-quantum-potential-consciousness-it: git merge conflict markers \u2014 removed, frontmatter fixed",
+    "tuo-wave-universe-theory-fr: Zenodo page boilerplate (cookie notices, download buttons, DOI badge HTML) \u2014 removed",
+    "scalar-field-galactic-rotation: added source_language/target_language/source_doi to frontmatter",
+    "shipov-torsion-fields-technologies-ru: enriched frontmatter with source_language and source_url",
+    "person-index.json: added 7 missing researchers (Dmitriev, Grachev, de Broglie, Bohm, Valentini, Umezawa, Fukuyama)",
+    "research-index.json: added grachev-study-torsion-fields-de work entry, updated manzalini-consciousness-field cross-references"
+  ],
+  "db_entries_added": {
+    "persons": [
+      "dmitriev",
+      "grachev",
+      "de_broglie",
+      "bohm",
+      "valentini",
+      "umezawa",
+      "fukuyama"
+    ],
+    "works": [
+      "grachev-study-torsion-fields-de"
+    ]
+  }
+}
