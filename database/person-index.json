@@ -2,7 +2,7 @@
   "_about": {
     "version": "0.1.0",
     "description": "Person index for the Aetherforce Living Library. Links researchers to their works in the collection. Maintained by Synthesist.",
-    "last_updated": "2026-09-01"
+    "last_updated": "2026-09-02"
   },
   "persons": [
     {
@@ -921,6 +921,62 @@
         "shipov"
       ],
       "notes": "Soviet cosmonaut. Discovery was hidden for 10 years. Effect shows gyroscope axis periodically changes direction at equal intervals in free fall."
+    },
+    {
+      "id": "plato",
+      "name": "Plato",
+      "nationality": "Greek",
+      "dates": "c. 428–348 BC",
+      "role": "philosopher",
+      "key_contribution": "Timaeus dialogue — Platonic solids as structure of elements; geometry as key to physical reality",
+      "works_in_collection": [],
+      "cited_by": [
+        "spyridis"
+      ],
+      "notes": "Foundational figure for geometric physics tradition. Timaeus proposes that the four elements correspond to four Platonic solids."
+    },
+    {
+      "id": "kepler",
+      "name": "Johannes Kepler",
+      "nationality": "German",
+      "dates": "1571–1630",
+      "role": "astronomer, mathematician",
+      "key_contribution": "Mysterium Cosmographicum — attempt to relate planetary distances to Platonic solids; first mathematical cosmology",
+      "works_in_collection": [],
+      "cited_by": [
+        "spyridis"
+      ],
+      "notes": "Kepler's vision of geometric cosmology directly inspires Spyridis' Platonic Theory of Everything."
+    },
+    {
+      "id": "einstein",
+      "name": "Albert Einstein",
+      "nationality": "German-Swiss-American",
+      "dates": "1879–1955",
+      "role": "physicist",
+      "key_contribution": "General Relativity — spacetime geometry as source of gravitation; geometric foundation for modern physics",
+      "works_in_collection": [],
+      "cited_by": [
+        "shipov",
+        "maillot",
+        "benaros"
+      ],
+      "notes": "Shipov extends Einstein-Cartan geometry; Maillot bridges Einstein with TUO; Benaros references Einstein's cosmological constant."
+    },
+    {
+      "id": "maxwell",
+      "name": "James Clerk Maxwell",
+      "nationality": "Scottish",
+      "dates": "1831–1879",
+      "role": "physicist",
+      "key_contribution": "Maxwell's equations — unified electricity, magnetism, and light; foundation for electromagnetic theory",
+      "works_in_collection": [],
+      "cited_by": [
+        "meyl",
+        "maillot",
+        "magnitsky"
+      ],
+      "notes": "Meyl extends Maxwell to include scalar waves; Maillot bridges Maxwell with TUO; Magnitsky derives Maxwell-Lorentz from ether equations."
     }
   ]
 }
