@@ -1156,6 +1156,19 @@
             background: linear-gradient(180deg, #e8c860, #b8860b);
             border-color: #ffd166;
         }
+        .kd-modes { display: flex; gap: 4px; border: 1px solid rgba(232,182,76,0.3); border-radius: 999px; padding: 3px; }
+        .kd-mode {
+            font-size: 0.74rem; font-weight: 700;
+            letter-spacing: 0.5px;
+            border: none; background: none; color: var(--text-dim);
+            padding: 5px 12px; border-radius: 999px; cursor: pointer;
+            transition: all 0.15s;
+        }
+        .kd-mode.on { background: rgba(232,182,76,0.2); color: var(--gold-bright); box-shadow: 0 0 10px rgba(232,182,76,0.15) inset; }
+        .kd-mode:hover { color: var(--gold-bright); }
+        @media (max-width: 560px) {
+            .kd-modes { order: 3; width: 100%; justify-content: center; }
+        }
         .kd-nav {
             font-size: 0.9rem;
             padding: 6px 12px;
@@ -1302,6 +1315,10 @@
     <div class="keydial" id="keyDial">
         <div class="kd-head">
             <span class="kd-title"><span class="key-icon"></span> Key &amp; Chest — Spin the Dial</span>
+            <div class="kd-modes" id="kdModes" role="group" aria-label="Dial dimension">
+                <button class="kd-mode on" data-mode="focus" id="kdModeFocus" title="The founding group's publishing focus">★ Founders</button>
+                <button class="kd-mode" data-mode="paradigm" id="kdModeParadigm" title="Cross-cutting schools of thought — the way authors think">⚡ Paradigms</button>
+            </div>
             <span class="kd-sub">pick a treasure lane · open a chest · see what's newest inside</span>
         </div>
         <div class="kd-stage">
@@ -1925,6 +1942,9 @@
         /* ─── Key Chest Dial — lock wheel: drag to rotate, one big selection at the window ──── */
         let seamData = null;
         let kdLenses = [];
+        let kdMetaLenses = [];
+        let kdParadigm = [];
+        let kdMode = 'focus'; // 'focus' = founders' focus | 'paradigm' = paradigm map
         let kdSelLens = 0;
         let kdSelSubj = null;
         let kdSubjCounts = {};
@@ -1963,6 +1983,11 @@
 
         let kdFocus = null; // af_focus.json — the founding group's publishing focus
         function kdAvailableLenses() {
+            const ml = kdMetaAvailable();
+            kdMetaLenses = ml;
+            return ml;
+        }
+        function kdMetaAvailable() {
             const byName = {};
             if (seamData && seamData.category_index) {
                 Object.keys(seamData.category_index).forEach(n => {
@@ -1990,6 +2015,21 @@
         }
         function kdFocusOf(name) {
             return (kdFocus && kdFocus.lenses && kdFocus.lenses[name]) || null;
+        }
+        function kdParadigmList() {
+            if (!kdParadigm.length) return [];
+            return kdParadigm.slice().sort((a, b) => (b.af || 0) - (a.af || 0));
+        }
+        function kdSetMode(m) {
+            if (m === kdMode) return;
+            kdMode = m;
+            document.getElementById('kdModeFocus').classList.toggle('on', m === 'focus');
+            document.getElementById('kdModeParadigm').classList.toggle('on', m === 'paradigm');
+            kdSelLens = 0; kdSpinRot = 0; kdSelSubj = null;
+            kdLenses = m === 'paradigm' ? kdParadigmList() : (kdMetaLenses.length ? kdMetaLenses : kdAvailableLenses());
+            if (!kdLenses.length) return;
+            kdRenderLock(0);
+            kdSpinSel();
         }
 
         function kdSubjectsFor(lensName) {
@@ -2030,8 +2070,8 @@
                 const active = i === selIdx;
                 const [x1, y1] = kdPolar(cx, cy, 186, a);
                 const [x2, y2] = kdPolar(cx, cy, 208, a);
-                const focus = kdFocusOf(kdLenses[i].name);
-                const isFocus = focus && focus.af_posts > 8;
+                const focus = kdMode === 'paradigm' ? (kdLenses[i] || null) : kdFocusOf(kdLenses[i].name);
+                const isFocus = focus && (kdMode === 'paradigm' ? (focus.af && focus.af > 0) : (focus.af_posts > 8));
                 if (active) {
                     ticks += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="#ffd166" stroke-width="4" stroke-linecap="round" style="filter: drop-shadow(0 0 6px rgba(255,209,102,0.9))"/>`;
                     if (isFocus) {
@@ -2068,8 +2108,14 @@
             const lens = kdLenses[selIdx];
             if (lens) {
                 document.getElementById('kdWinLens').textContent = lens.name;
-                const f = kdFocusOf(lens.name);
-                document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
+                if (kdMode === 'paradigm') {
+                    const p = lens; // {n: docs, af: af_posts, span}
+                    document.getElementById('kdWinCount').textContent =
+                        `${p.n.toLocaleString()} docs · ★ ${p.af} AF posts · spans ${p.span} fields`;
+                } else {
+                    const f = kdFocusOf(lens.name);
+                    document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
+                }
             }
         }
 
@@ -2247,8 +2293,13 @@
                 // live-fill the window while dragging
                 const lens = kdLenses[idx];
                 document.getElementById('kdWinLens').textContent = lens.name;
-                const f = kdFocusOf(lens.name);
-                document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
+                if (kdMode === 'paradigm') {
+                    const p = lens;
+                    document.getElementById('kdWinCount').textContent = `${p.n.toLocaleString()} docs · ★ ${p.af} AF posts · spans ${p.span} fields`;
+                } else {
+                    const f = kdFocusOf(lens.name);
+                    document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
+                }
                 document.getElementById('kdReadout').innerHTML = `⚓ aiming at <b style="color:var(--gold-bright)">${escapeHtml(lens.name)}</b> — release to lock it in`;
             });
             const endDrag = e => {
@@ -2280,6 +2331,11 @@
                 }
             });
 
+            const mf = document.getElementById('kdModeFocus');
+            const mp = document.getElementById('kdModeParadigm');
+            mf.addEventListener('click', () => kdSetMode('focus'));
+            mp.addEventListener('click', () => kdSetMode('paradigm'));
+            // after warm-start, if paradigm data exists, first spin stays focus (user chooses)
             const fb = document.getElementById('kdFocusBtn');
             if (fb) fb.addEventListener('click', () => {
                 if (kdSpinning) return;
@@ -2348,6 +2404,14 @@
                         const fr = await fetch('./af_focus.json', { cache: 'no-store' });
                         kdFocus = await fr.json();
                     } catch (e) { kdFocus = null; }
+                    // paradigm map (cross-cutting schools of thought)
+                    try {
+                        const pr = await fetch('./paradigm_lenses.json', { cache: 'no-store' });
+                        const pj = await pr.json();
+                        kdParadigm = Object.entries(pj.lenses || {}).map(([id, d]) => ({
+                            id, name: d.name, n: d.docs || 0, af: d.af_posts || 0, span: d.silo_span || 0
+                        }));
+                    } catch (e) { kdParadigm = []; }
                     kdInit();
                 } catch (e) { /* feed optional; hero keeps working without it */
                     // still try the dial from hardcoded fallback (seam missing)

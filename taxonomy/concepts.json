@@ -1,38 +1,519 @@
 {
-  "_about": {
-    "version": "0.1.0",
-    "description": "Curated concept vocabulary for the Aetherforce Knowledge Vault. This is the single source of truth that collapses raw text terms into normalized concepts, then groups concepts into themes (meta-categories), then lets thought-clusters emerge from co-occurrence. Rebuilt/derived by the tag_concepts.py pipeline.",
-    "layering": {
-      "L1_terms": "Raw vocabulary captured from text (filenames, titles, previews), normalized via aliases.",
-      "L2_concepts": "Canonical ideas (ids below). Terms collapse into these.",
-      "L3_themes": "Concept groups = the meta-categories (23), derived by assigning each concept a theme.",
-      "L4_clusters": "EMERGENT, not curated: which concepts co-occur across the corpus (computed at query time)."
-    }
+ "_about": {
+  "version": "0.1.0",
+  "description": "Curated concept vocabulary for the Aetherforce Knowledge Vault. This is the single source of truth that collapses raw text terms into normalized concepts, then groups concepts into themes (meta-categories), then lets thought-clusters emerge from co-occurrence. Rebuilt/derived by the tag_concepts.py pipeline.",
+  "layering": {
+   "L1_terms": "Raw vocabulary captured from text (filenames, titles, previews), normalized via aliases.",
+   "L2_concepts": "Canonical ideas (ids below). Terms collapse into these.",
+   "L3_themes": "Concept groups = the meta-categories (23), derived by assigning each concept a theme.",
+   "L4_clusters": "EMERGENT, not curated: which concepts co-occur across the corpus (computed at query time)."
+  }
+ },
+ "concepts": [
+  {
+   "id": "aether",
+   "name": "Aether / Ether Theories",
+   "aliases": [
+    "aether",
+    "ether",
+    "etherodynamic",
+    "luminiferous",
+    "aether wind",
+    "ether wind"
+   ],
+   "theme": "Aether, Light & Electricity",
+   "note": "Broad ether-based physics; distinct from the Aetherforce brand layer."
   },
-  "concepts": [
-    { "id": "aether", "name": "Aether / Ether Theories", "aliases": ["aether", "ether", "etherodynamic", "luminiferous", "aether wind", "ether wind"], "theme": "Aether, Light & Electricity", "note": "Broad ether-based physics; distinct from the Aetherforce brand layer." },
-    { "id": "scalar", "name": "Scalar Wave Phenomena", "aliases": ["scalar wave", "scalar field", "longitudinal wave", "scalar electromagnet", "scalar"], "theme": "Aether, Light & Electricity" },
-    { "id": "torsion", "name": "Torsion Fields", "aliases": ["torsion field", "torsion", "spin field", "axion"], "theme": "Plasma, Torsion & Cosmology" },
-    { "id": "zero_point", "name": "Zero-Point / Vacuum Energy", "aliases": ["zero point", "zeropoint", "zero-point", "vacuum energy", "vacuum fluctuation", "casmir", "casimir", "free energy"], "theme": "Alternative Energy Technologies" },
-    { "id": "overunity", "name": "Overunity / Free Energy", "aliases": ["overunity", "over-unity", "over unit", "overunit", "free energy", "perpetual"], "theme": "Alternative Energy Technologies" },
-    { "id": "cold_fusion", "name": "LENR / Cold Fusion", "aliases": ["cold fusion", "low energy nuclear", "lenr", "lattice", "palladium"], "theme": "Alternative Energy Technologies" },
-    { "id": "tesla", "name": "Tesla Technologies", "aliases": ["tesla", "wardenclyffe", "magnifying transmitter"], "theme": "Aether, Light & Electricity", "tags": ["Tesla"] },
-    { "id": "keely", "name": "Keely / Sympathetic Vibration", "aliases": ["keely", "sympathetic vibration", "hydrovacuum"], "theme": "Aether, Light & Electricity" },
-    { "id": "schauberger", "name": "Schauberger / Implosion", "aliases": ["schauberger", "implosion", "repulsine", "vortex energy"], "theme": "Water Structure & Memory" },
-    { "id": "water_memory", "name": "Water Structure & Memory", "aliases": ["water memory", "water structure", "structured water", "exclusion zone", "fourth phase", "leinenger"], "theme": "Water Structure & Memory" },
-    { "id": "morphic", "name": "Morphogenic / Morphic Fields", "aliases": ["morphic", "morphogen", "formative causation", "sheldrake"], "theme": "Biological & Morphogenetic Science" },
-    { "id": "radionics", "name": "Radionics / Radiesthesia", "aliases": ["radion", "radiesthesia", "black box", "rhythm box", "orgone", "dowsing"], "theme": "Radionics, Radiesthesia & Shape Power" },
-    { "id": "psychotronic", "name": "Psychotronic / Mind-Matter", "aliases": ["psychotronic", "telekinesis", "telepath", "psionic", "mind machine", "remote influence"], "theme": "Transhumanism & Psychotronic Warfare" },
-    { "id": "biophoton", "name": "Biophotonics", "aliases": ["biophoton", "bio-photon", "bio photon", "light emission"], "theme": "Biological & Morphogenetic Science" },
-    { "id": "electrogravitics", "name": "Electrogravitics / Anti-Gravity", "aliases": ["electrogravit", "antigrav", "anti-grav", "biefeld-brown", "torsion drive"], "theme": "Alternative Energy Technologies" },
-    { "id": "vortex", "name": "Vortex / Implosion Dynamics", "aliases": ["vortex", "implosion", "cyclonic", "counter-rotat", "counter rotat"], "theme": "Water Structure & Memory" },
-    { "id": "geometry_sacred", "name": "Sacred Geometry / Harmonics", "aliases": ["sacred geomet", "golden", "fibonacci", "phi", "platonic", "rodin", "toroid", "harmonics"], "theme": "Sacred & Projective Geometry" },
-    { "id": "crystal", "name": "Crystals / Crystal Energy", "aliases": ["crystal", "quartz", "amythyst", "piezoelectric"], "theme": "Material Sciences & Alchemy" },
-    { "id": "ether_electric", "name": "Electric Universe", "aliases": ["electric universe", "plasma cosmolog", "thunderbolt", "electrical universe"], "theme": "Plasma, Torsion & Cosmology" },
-    { "id": "suppression", "name": "Conspiracy / Suppression", "aliases": ["suppression", "conspiracy", "suppresed", "suppressed", "hush"], "theme": "Geopolitics & Hidden History" },
-    { "id": "transhuman", "name": "Transhumanism", "aliases": ["transhuman", "posthuman", "cyborg", "augmentation"], "theme": "Transhumanism & Psychotronic Warfare" },
-    { "id": "regenerative", "name": "Regenerative Agriculture", "aliases": ["regenerative", "permaculture", "soil", "compost", "polyculture", "cover ?crop"], "theme": "Regenerative Agriculture" },
-    { "id": "borderland", "name": "Borderland Research", "aliases": ["borderland", "frontier science", "fringe"], "theme": "Challenges to the Standard Model" },
-    { "id": "consciousness", "name": "Consciousness Studies", "aliases": ["consciousness", "non-ordinary ordinary states"], "theme": "Biological & Morphogenetic Science", "tags": ["Consciousness"] }
-  ]
+  {
+   "id": "scalar",
+   "name": "Scalar Wave Phenomena",
+   "aliases": [
+    "scalar wave",
+    "scalar field",
+    "longitudinal wave",
+    "scalar electromagnet",
+    "scalar"
+   ],
+   "theme": "Aether, Light & Electricity"
+  },
+  {
+   "id": "torsion",
+   "name": "Torsion Fields",
+   "aliases": [
+    "torsion field",
+    "torsion",
+    "spin field",
+    "axion"
+   ],
+   "theme": "Plasma, Torsion & Cosmology"
+  },
+  {
+   "id": "zero_point",
+   "name": "Zero-Point / Vacuum Energy",
+   "aliases": [
+    "zero point",
+    "zeropoint",
+    "zero-point",
+    "vacuum energy",
+    "vacuum fluctuation",
+    "casmir",
+    "casimir",
+    "free energy"
+   ],
+   "theme": "Alternative Energy Technologies"
+  },
+  {
+   "id": "overunity",
+   "name": "Overunity / Free Energy",
+   "aliases": [
+    "overunity",
+    "over-unity",
+    "over unit",
+    "overunit",
+    "free energy",
+    "perpetual"
+   ],
+   "theme": "Alternative Energy Technologies"
+  },
+  {
+   "id": "cold_fusion",
+   "name": "LENR / Cold Fusion",
+   "aliases": [
+    "cold fusion",
+    "low energy nuclear",
+    "lenr",
+    "lattice",
+    "palladium"
+   ],
+   "theme": "Alternative Energy Technologies"
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla Technologies",
+   "aliases": [
+    "tesla",
+    "wardenclyffe",
+    "magnifying transmitter"
+   ],
+   "theme": "Aether, Light & Electricity",
+   "tags": [
+    "Tesla"
+   ]
+  },
+  {
+   "id": "keely",
+   "name": "Keely / Sympathetic Vibration",
+   "aliases": [
+    "keely",
+    "sympathetic vibration",
+    "hydrovacuum"
+   ],
+   "theme": "Aether, Light & Electricity"
+  },
+  {
+   "id": "schauberger",
+   "name": "Schauberger / Implosion",
+   "aliases": [
+    "schauberger",
+    "implosion",
+    "repulsine",
+    "vortex energy"
+   ],
+   "theme": "Water Structure & Memory"
+  },
+  {
+   "id": "water_memory",
+   "name": "Water Structure & Memory",
+   "aliases": [
+    "water memory",
+    "water structure",
+    "structured water",
+    "exclusion zone",
+    "fourth phase",
+    "leinenger"
+   ],
+   "theme": "Water Structure & Memory"
+  },
+  {
+   "id": "morphic",
+   "name": "Morphogenic / Morphic Fields",
+   "aliases": [
+    "morphic",
+    "morphogen",
+    "formative causation",
+    "sheldrake"
+   ],
+   "theme": "Biological & Morphogenetic Science"
+  },
+  {
+   "id": "radionics",
+   "name": "Radionics / Radiesthesia",
+   "aliases": [
+    "radion",
+    "radiesthesia",
+    "black box",
+    "rhythm box",
+    "orgone",
+    "dowsing"
+   ],
+   "theme": "Radionics, Radiesthesia & Shape Power"
+  },
+  {
+   "id": "psychotronic",
+   "name": "Psychotronic / Mind-Matter",
+   "aliases": [
+    "psychotronic",
+    "telekinesis",
+    "telepath",
+    "psionic",
+    "mind machine",
+    "remote influence"
+   ],
+   "theme": "Transhumanism & Psychotronic Warfare"
+  },
+  {
+   "id": "biophoton",
+   "name": "Biophotonics",
+   "aliases": [
+    "biophoton",
+    "bio-photon",
+    "bio photon",
+    "light emission"
+   ],
+   "theme": "Biological & Morphogenetic Science"
+  },
+  {
+   "id": "electrogravitics",
+   "name": "Electrogravitics / Anti-Gravity",
+   "aliases": [
+    "electrogravit",
+    "antigrav",
+    "anti-grav",
+    "biefeld-brown",
+    "torsion drive"
+   ],
+   "theme": "Alternative Energy Technologies"
+  },
+  {
+   "id": "vortex",
+   "name": "Vortex / Implosion Dynamics",
+   "aliases": [
+    "vortex",
+    "implosion",
+    "cyclonic",
+    "counter-rotat",
+    "counter rotat"
+   ],
+   "theme": "Water Structure & Memory"
+  },
+  {
+   "id": "geometry_sacred",
+   "name": "Sacred Geometry / Harmonics",
+   "aliases": [
+    "sacred geomet",
+    "golden",
+    "fibonacci",
+    "phi",
+    "platonic",
+    "rodin",
+    "toroid",
+    "harmonics"
+   ],
+   "theme": "Sacred & Projective Geometry"
+  },
+  {
+   "id": "crystal",
+   "name": "Crystals / Crystal Energy",
+   "aliases": [
+    "crystal",
+    "quartz",
+    "amythyst",
+    "piezoelectric"
+   ],
+   "theme": "Material Sciences & Alchemy"
+  },
+  {
+   "id": "ether_electric",
+   "name": "Electric Universe",
+   "aliases": [
+    "electric universe",
+    "plasma cosmolog",
+    "thunderbolt",
+    "electrical universe"
+   ],
+   "theme": "Plasma, Torsion & Cosmology"
+  },
+  {
+   "id": "suppression",
+   "name": "Conspiracy / Suppression",
+   "aliases": [
+    "suppression",
+    "conspiracy",
+    "suppresed",
+    "suppressed",
+    "hush"
+   ],
+   "theme": "Geopolitics & Hidden History"
+  },
+  {
+   "id": "transhuman",
+   "name": "Transhumanism",
+   "aliases": [
+    "transhuman",
+    "posthuman",
+    "cyborg",
+    "augmentation"
+   ],
+   "theme": "Transhumanism & Psychotronic Warfare"
+  },
+  {
+   "id": "regenerative",
+   "name": "Regenerative Agriculture",
+   "aliases": [
+    "regenerative",
+    "permaculture",
+    "soil",
+    "compost",
+    "polyculture",
+    "cover ?crop"
+   ],
+   "theme": "Regenerative Agriculture"
+  },
+  {
+   "id": "borderland",
+   "name": "Borderland Research",
+   "aliases": [
+    "borderland",
+    "frontier science",
+    "fringe"
+   ],
+   "theme": "Challenges to the Standard Model"
+  },
+  {
+   "id": "consciousness",
+   "name": "Consciousness Studies",
+   "aliases": [
+    "consciousness",
+    "non-ordinary ordinary states"
+   ],
+   "theme": "Biological & Morphogenetic Science",
+   "tags": [
+    "Consciousness"
+   ]
+  },
+  {
+   "id": "p_unity",
+   "name": "Unity of Forces \u2014 the Subtle Energy Spectrum",
+   "aliases": [
+    "unified field",
+    "unified force",
+    "subtle energy",
+    "one force",
+    "unity of force",
+    "universal force",
+    "single force",
+    "all forces",
+    "grand unified",
+    "theory of everything",
+    "unified theory",
+    "omnipresent",
+    "esoteric physics",
+    "spiritual physics"
+   ]
+  },
+  {
+   "id": "p_goethean",
+   "name": "Goethean Method \u2014 Non-Reductionist Science",
+   "aliases": [
+    "goethe",
+    "steiner",
+    "anthroposoph",
+    "goethean",
+    "holistic science",
+    "qualitative science",
+    "phenomenolog",
+    "metamorphosis",
+    "morpholog",
+    "formative forces",
+    "participatory science",
+    "organic science",
+    "nature study",
+    "imagination insight",
+    "exact sensorial"
+   ]
+  },
+  {
+   "id": "p_visualray",
+   "name": "Visual Ray & Alternative Optics",
+   "aliases": [
+    "visual ray",
+    "mysterious visual ray",
+    "extramission",
+    "intromission",
+    "spectrochrome",
+    "spectro-chrome",
+    "color therapy",
+    "colour therapy",
+    "chromotherapy",
+    "colored light",
+    "coloured light",
+    "dinshah",
+    "fischer",
+    "light and color",
+    "color healing",
+    "colour healing",
+    "optics"
+   ]
+  },
+  {
+   "id": "p_fieldphys",
+   "name": "Field Physics vs Reductionist Particle Models",
+   "aliases": [
+    "field theory",
+    "scalar wave",
+    "longitudinal",
+    "counterspace",
+    "counter-space",
+    "torsion",
+    "spin field",
+    "vacuum engine",
+    "ponderomotive",
+    "density of aether",
+    "non-linear",
+    "nonlinear",
+    "wave structure",
+    "standing wave",
+    "resonance",
+    "vibratory",
+    "sympathetic vibration"
+   ]
+  },
+  {
+   "id": "p_formative",
+   "name": "Formative Forces & Morphogenesis",
+   "aliases": [
+    "morphogen",
+    "morphic",
+    "formative causation",
+    "sheldrake",
+    "embryo",
+    "embryolog",
+    "plant metamorphos",
+    "biological field",
+    "morphogenetic field",
+    "vitalism",
+    "entelechy",
+    "life force",
+    "bios",
+    "biofield",
+    "electrobiolog"
+   ]
+  },
+  {
+   "id": "p_consciousness",
+   "name": "Consciousness & Matter \u2014 the Mind-Matter Bridge",
+   "aliases": [
+    "consciousness",
+    "mind and matter",
+    "mind-matter",
+    "observer",
+    "psychotron",
+    "telepath",
+    "psionic",
+    "remote viewing",
+    "mind machine",
+    "clairvoy",
+    "precognit",
+    "thought form",
+    "intention"
+   ]
+  },
+  {
+   "id": "p_electriccosmos",
+   "name": "Electric Universe & Plasma Cosmos",
+   "aliases": [
+    "electric universe",
+    "plasma cosmol",
+    "thunderbolt",
+    "electrical universe",
+    "plasma physics",
+    "charged plasma",
+    "solar electric",
+    "celestial plasma",
+    "electric sun",
+    "plasma discharge"
+   ]
+  },
+  {
+   "id": "p_wrongturn",
+   "name": "Suppressed Science & Documented Wrong Turns",
+   "aliases": [
+    "suppression",
+    "suppressed",
+    "conspiracy",
+    "cover-up",
+    "hushed",
+    "forgotten",
+    "rediscover",
+    "banned",
+    "hidden history",
+    "heretic",
+    "persecuted",
+    "ignored",
+    "ridiculed",
+    "suppressed science",
+    "lost science",
+    "fallacy",
+    "delusion",
+    "dogma",
+    "paradigm",
+    "heresy"
+   ]
+  },
+  {
+   "id": "p_bridge",
+   "name": "Cross-Field Bridges \u2014 Connectors Between Silos",
+   "aliases": [
+    "cross reference",
+    "cross-connection",
+    "interdisciplinary",
+    "inter-relationship",
+    "correspondence",
+    "analog",
+    "isomorphism",
+    "correlation between",
+    "bridge between",
+    "connecting",
+    "synthesis of",
+    "convergence",
+    "parallel between",
+    "unites",
+    "in common"
+   ]
+  },
+  {
+   "id": "p_nature",
+   "name": "Nature as Organism \u2014 Living Whole",
+   "aliases": [
+    "regenerative",
+    "permaculture",
+    "soil",
+    "compost",
+    "polyculture",
+    "water memory",
+    "ez water",
+    "exclusion zone",
+    "biochemic",
+    "living water",
+    "vital water",
+    "biodynamic",
+    "organism",
+    "ecolog",
+    "biosphere",
+    "symbiosis",
+    "self-organiz",
+    "autopoie"
+   ]
+  }
+ ]
 }
