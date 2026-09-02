@@ -1,3 +1,8 @@
+---
+name: TORSION FIELDS AND TORSION TECHNOLOGIES.1
+description: "Translation document."
+---
+
 TORSION FIELDS AND TORSION TECHNOLOGIES.1
                                      G.I. Shipov
 

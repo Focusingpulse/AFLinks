@@ -1,3 +1,8 @@
+---
+name: Shipov — Torsion Fields and Torsion Technologies
+description: "G.I. Shipov, Russian source translated to English."
+---
+
 TORSION FIELDS AND TORSION TECHNOLOGIES.1
                                      G.I. Shipov
 

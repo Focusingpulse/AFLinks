@@ -1,3 +1,8 @@
+---
+name: Magnitsky, 2019
+description: "Translation document."
+---
+
 Magnitsky, 2019
 
 UDC 51-72

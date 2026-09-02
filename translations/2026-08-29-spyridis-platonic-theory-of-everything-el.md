@@ -1,3 +1,8 @@
+---
+name: The Platonic Theory of Everything and
+description: "Translation document."
+---
+
 The Platonic Theory of Everything and
                     the Spyridis Unified Theory of the Electro-Strong Interaction
 

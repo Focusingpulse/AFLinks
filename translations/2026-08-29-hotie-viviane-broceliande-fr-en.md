@@ -1,13 +1,15 @@
-﻿---
-date: 2026-08-29
-title: "Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35"
-domain: geobiology
-source_url: https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99
-language: fr
-author: Ecoute Energetique
-publication: ecouteenergetique.com, October 2016
-translator: Forge (translation-qc agent)
 ---
+name: Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35
+description: "Translation document. language fr | domain: geobiology | https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99"
+---
+
+- **date:** 2026-08-29
+- **domain:** geobiology
+- **source_url:** https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99
+- **language:** fr
+- **author:** Ecoute Energetique
+- **publication:** ecouteenergetique.com, October 2016
+- **translator:** Forge (translation-qc agent)
 
 # Energetic Circuit and Study of the Hotie de Viviane - Paimpont - 35
 

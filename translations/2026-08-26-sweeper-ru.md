@@ -1,18 +1,21 @@
 ---
-description: English translation of Lebedkin's STPK model — LENR mechanism via coherent reassembly of proton loops in nanostructured palladium. Brand new June 2026 preprint with testable predictions. Translated from Russian by translation-sweeper cron.
-date: 2026-08-26
-translator: translation-sweeper
-source_language: Russian
-geographic_origin: Russia
-author: Valentin Lebedkin
-work_type: theoretical
-practical_applicability: potentially buildable — proposes scalable silicon wafer platform with individual nanoparticle addressing; engineering calculations provided for lab verification
-source_url: https://doi.org/10.24108/preprints-3115604
-host: preprints.ru (Russian preprint server)
-host_stability: stable — DOI-registered
-published: 2026-06-18
-license: CC BY 4.0
+name: STPK: Mechanism of Cold Fusion (LENR) as Coherent Reassembly of Proton Loops
+description: "Translation document. https://doi.org/10.24108/preprints-3115604"
 ---
+
+- **description:** English translation of Lebedkin's STPK model — LENR mechanism via coherent reassembly of proton loops in nanostructured palladium. Brand new June 2026 preprint with testable predictions. Translated from Russian by translation-sweeper cron.
+- **date:** 2026-08-26
+- **translator:** translation-sweeper
+- **source_language:** Russian
+- **geographic_origin:** Russia
+- **author:** Valentin Lebedkin
+- **work_type:** theoretical
+- **practical_applicability:** potentially buildable — proposes scalable silicon wafer platform with individual nanoparticle addressing; engineering calculations provided for lab verification
+- **source_url:** https://doi.org/10.24108/preprints-3115604
+- **host:** preprints.ru (Russian preprint server)
+- **host_stability:** stable — DOI-registered
+- **published:** 2026-06-18
+- **license:** CC BY 4.0
 
 # STPK: Mechanism of Cold Fusion (LENR) as Coherent Reassembly of Proton Loops
 

@@ -1,3 +1,8 @@
+---
+name: ACADEMY OF TRINITARIANISM
+description: "Translation document."
+---
+
 ACADEMY OF TRINITARIANISM
 
 

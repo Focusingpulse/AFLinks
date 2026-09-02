@@ -1,11 +1,13 @@
 ---
-date: 2026-08-30
-title: "Prometheus LENR Reactor UM 3.0"
-domain: lenr-energy
-source_url: https://www.prometheusreactor.com/
-language: it
-translator: The Wizard (foreign-translate cron)
+name: Prometheus LENR Reactor UM 3.0
+description: "Translation document. language it | domain: lenr-energy | https://www.prometheusreactor.com/"
 ---
+
+- **date:** 2026-08-30
+- **domain:** lenr-energy
+- **source_url:** https://www.prometheusreactor.com/
+- **language:** it
+- **translator:** The Wizard (foreign-translate cron)
 
 # Prometheus LENR Reactor UM 3.0
 

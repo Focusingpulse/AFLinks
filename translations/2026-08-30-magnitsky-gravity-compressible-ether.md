@@ -1,12 +1,14 @@
-﻿---
-date: 2026-08-30
-title: "Gravity in the Theory of Compressible Oscillating Ether"
-domain: theoretical-physics
-source_url: https://newinflow.ru/pdf/pub28.pdf
-language: ru
-author: "N.A. Magnitsky"
-publication: "Complex Systems, No. 4 (33), 2019"
 ---
+name: Gravity in the Theory of Compressible Oscillating Ether
+description: "Translation document. language ru | domain: theoretical-physics | https://newinflow.ru/pdf/pub28.pdf"
+---
+
+- **date:** 2026-08-30
+- **domain:** theoretical-physics
+- **source_url:** https://newinflow.ru/pdf/pub28.pdf
+- **language:** ru
+- **author:** N.A. Magnitsky
+- **publication:** Complex Systems, No. 4 (33), 2019
 
 # Gravity in the Theory of Compressible Oscillating Ether
 

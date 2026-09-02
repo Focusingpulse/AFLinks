@@ -1,13 +1,15 @@
 ---
-date: 2026-08-29
-title: "What Is Scalar Energy?"
-domain: alternative energy, scalar waves, aether theories
-source_url: https://ondulavi.com/quest-ce-que-lenergie-scalaire/
-language: fr
-author: Ondulavi
-publication: ondulavi.com, September 2024
-translator: The Wizard (translation cron)
+name: What Is Scalar Energy?
+description: "Translation document. language fr | domain: alternative energy, scalar waves, aether theories | https://ondulavi.com/quest-ce-que-lenergie-scalaire/"
 ---
+
+- **date:** 2026-08-29
+- **domain:** alternative energy, scalar waves, aether theories
+- **source_url:** https://ondulavi.com/quest-ce-que-lenergie-scalaire/
+- **language:** fr
+- **author:** Ondulavi
+- **publication:** ondulavi.com, September 2024
+- **translator:** The Wizard (translation cron)
 
 # What Is Scalar Energy?
 

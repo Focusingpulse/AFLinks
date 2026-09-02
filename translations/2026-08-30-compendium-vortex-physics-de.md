@@ -1,14 +1,16 @@
 ---
-date: 2026-08-30
-title: "Compendium of Vortex Physics (Part 1)"
-domain: vortex-physics
-source_url: https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf
-language: de
-author: Rudolf Fehlmann, Elisabeth Lehmann, André Waser, Dr. Jakob Huber
-publication: SAFE (Swiss Association for Free Energy), May 8, 1999
-translator: The Wizard (foreign-translate cron)
-note: "Partial translation — Introduction (chunks 7-10 of 108). Ongoing."
+name: Compendium of Vortex Physics (Part 1)
+description: "Translation document. language de | domain: vortex-physics | https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf"
 ---
+
+- **date:** 2026-08-30
+- **domain:** vortex-physics
+- **source_url:** https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf
+- **language:** de
+- **author:** Rudolf Fehlmann, Elisabeth Lehmann, André Waser, Dr. Jakob Huber
+- **publication:** SAFE (Swiss Association for Free Energy), May 8, 1999
+- **translator:** The Wizard (foreign-translate cron)
+- **note:** Partial translation — Introduction (chunks 7-10 of 108). Ongoing.
 
 # Compendium of Vortex Physics
 ## Version 1, Part 1

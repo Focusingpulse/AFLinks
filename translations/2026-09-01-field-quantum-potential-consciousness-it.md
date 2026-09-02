@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+---
+name: Field and Quantum Potential of Consciousness
+description: "Translation document."
+---
+
+>>>>>>> 4a51a99 (Sync normalized translations from living-library (memfs frontmatter))
 Field and Quantum Potential of Consciousness
 DOI: https://doi.org/10.48274/IBI16
 Author

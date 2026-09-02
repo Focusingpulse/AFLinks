@@ -1,14 +1,17 @@
 ---
-description: English translation of François Maillot's TUO (Wave Universe Theory) paper — vacuum tension field, covariant reformulation of gravitation and cosmology. Translated from French by translation-sweeper cron.
-date: 2026-08-26
-translator: translation-sweeper
-source_language: French
-geographic_origin: France
-work_type: theoretical
-practical_applicability: conceptual
-source_url: https://doi.org/10.5281/zenodo.17311741
-source_zenodo: https://zenodo.org/records/17311741
+name: Wave Universe Theory (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant…
+description: "Translation document. https://doi.org/10.5281/zenodo.17311741"
 ---
+
+- **description:** English translation of François Maillot's TUO (Wave Universe Theory) paper — vacuum tension field, covariant reformulation of gravitation and cosmology. Translated from French by translation-sweeper cron.
+- **date:** 2026-08-26
+- **translator:** translation-sweeper
+- **source_language:** French
+- **geographic_origin:** France
+- **work_type:** theoretical
+- **practical_applicability:** conceptual
+- **source_url:** https://doi.org/10.5281/zenodo.17311741
+- **source_zenodo:** https://zenodo.org/records/17311741
 
 # Wave Universe Theory (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravity and Cosmology
 

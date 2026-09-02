@@ -1,3 +1,8 @@
+---
+name: Sacred Geometry
+description: "Translation document."
+---
+
 Sacred Geometry
 
 Article #4.1 Geometric qualities of matter and energy
