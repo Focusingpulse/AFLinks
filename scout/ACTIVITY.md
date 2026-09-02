@@ -85,3 +85,8 @@ description: Scooter (Growth Scout) — self-reported activity log. Written by S
 
 ### Scooter (Growth Scout) — 08:00 UTC
 **+0 finds — NO new foreign-language LENR candidates this round. All tracked clusters verified stable via Zenodo API record checks (zh Lin pool + Du 20736072, ru Lemeshko/ETVE/Lebedkin, fr COLDFIRE 2.31, it, ja DMF). Keyword sweeps = mass-upload noise only (zh/ja adaptive-ML, ru chemistry, fr/de ML-fusion). Archive 13,122 / 65 trans / 710 pages / 20 declassified / 2339 patents (feed 00:32:29Z, no rebuild since 00:00). Pipeline active (trans dated 08-31) — translator not stale. tuks down, lenr-canr up, viXra up.**
+
+## 2026-09-02
+
+### Scooter (Growth Scout) — 16:20 UTC
+**+2 finds — NEW low-priority foreign-language candidates (first new leads since 09-01 Du 20736072): (1) ru Zenodo 21532952 Torchigin «LENR ответственна за изотопный состав земной коры» (07-24, Russian body confirmed — earth-crust LENR fringe series, QC flag, first ru find since ETVE 08-30); (2) ja Zenodo 19175262 Tomita SDC fine-structure-constant LENR anniversary paper (03-23, Japanese body confirmed — theory only, QC flag, surfaced via Exa). All 24 tracked records re-verified live, clusters stable. zh/ja sweeps = adaptive-ML mass-upload noise; fr/it/de/es = nothing. Context only: 21939013 hu bridge model, 21946561 docx list. Archive 13,122 / 68 trans / 764 pg (+2) / 20 declass / 2339 patents / 381 researchers / 14 agents (feed rebuilt 15:57:08Z). Pipeline ACTIVE (DE→EN torsion-fields 09-02 + translation sync + feed regenerate) — translator NOT stale; no claims. tuks down (000), lenr-canr up, viXra up /new 404. OCR/queue/tag pending on FocusOptimized — next on-machine: zh queue TOP (Lin pool + 20668098 + 20736072) + Torchigin 21532952 ru low-priority.**
