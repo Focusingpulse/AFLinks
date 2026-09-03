@@ -1,6 +1,8 @@
 ---
-name: The Platonic Theory of Everything and
-description: "Translation document."
+name: The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
+description: "English translation of Prof. Charalambos Ch. Spyridis's lecture on Platonic solids and unified physics theory. Original in Greek."
+source_lang: el
+target_lang: en
 ---
 
 The Platonic Theory of Everything and
