@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T21:03:16Z",
+  "generated_at": "2026-09-03T00:03:23Z",
   "library": {
     "researchers": 405,
     "patents": 2339,
@@ -47,7 +47,7 @@
       "language": "",
       "file": "2026-09-02-study-torsion-fields-de.md",
       "content_file": "translations/2026-09-02-study-torsion-fields-de.md",
-      "excerpt": "Study on Torsion Fields\n\n1.1. State of the Problem of Torsion Fields\n\nAt the beginning of the century, it was recognized that electromagnetic fields are force fields with great range, and it became possible to generate e"
+      "excerpt": "---\ndescription: \"translations/2026-09-02-study-torsion-fields-de.md\"\n---\nStudy on Torsion Fields\n\n1.1. State of the Problem of Torsion Fields\n\nAt the beginning of the century, it was recognized that electromagnetic fiel"
     },
     {
       "date": "2026-09-02",
@@ -57,7 +57,7 @@
       "language": "",
       "file": "2026-09-02-spyridis-platonic-theory-of-everything-el.md",
       "content_file": "translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md",
-      "excerpt": "The Platonic Theory of Everything and\n                    the Spyridis Unified Theory of the Electro-Strong Interaction\n\nPreface\n               Ladies and gentlemen,\n               the \"Theory of Everything\" is the Holy "
+      "excerpt": "---\ndescription: \"translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md\"\n---\nThe Platonic Theory of Everything and\n                    the Spyridis Unified Theory of the Electro-Strong Interaction\n\nPreface"
     },
     {
       "date": "2026-09-01",
@@ -3853,9 +3853,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-02T12:19:03Z",
+      "last_run": "2026-09-02T21:11:32Z",
       "last_status": "ok",
-      "last_summary": "Total entries: 39 Progress: 39/39 === Processing: ether.sciences.free.fr ===   Existing: 13122, New: 39, Total: 13161 "
+      "last_summary": "sync: 13122 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -3897,9 +3897,9 @@
       "mission": "Long-haul translation of Atsyukovsky Book 5 — one chunk at a time, through the night.",
       "schedule": "overnight hourly",
       "icon": "📖",
-      "last_run": "2026-09-02T12:00:39Z",
+      "last_run": "2026-09-03T00:00:53Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 220) | now 220/220, next: none (gear: overdrive) — Book 5 complete, no work needed"
+      "last_summary": "no chunks translated this run — all 220/220 already complete, translation fully done"
     },
     {
       "member": "translation-qc",
@@ -3947,6 +3947,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-02",
+      "time": "21:10",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+13122 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-02",
       "time": "20:05",
@@ -4300,12 +4306,6 @@
       "time": "08:47",
       "agent": "Translation Curator",
       "summary": "+2 translations — Overdrive run: completed Brazilian Scalar Energy Generator Patent WO2013155580A1 (pt->en, 11/11 chunks, assembled). Pushed Compendium of Vortex Physics (de->en) from 6/108 to 14/108 (chunks 7-14: introduction, history of vortex physics from Euler to Schauberger, timeline). Archived Brazilian patent HTML + Compendium PDF. Recorded 3 dead sources: MVP Vortex Motor (DOI dead), Tesla ether scalar waves (Academia.edu JS wall), TeslaVital radiant energy (404)."
-    },
-    {
-      "date": "2026-08-30",
-      "time": "08:18",
-      "agent": "Translation Sweeper",
-      "summary": "+14 chunks — Overdrive run: 14 chunks translated. Completed Prometheus LENR reactor (IT, 1/1) and Del Giudice/Pollack EZ Water article (IT, 5/5). Started Schauberger Vortex Physics compendium (DE, 6/108) and Brazilian scalar energy patent (PT, 2/11). 2 new full translations assembled. Backlog 213->211. Dead links: academia.edu Tesla article (JS wall), teslavital.fr (404), Zenodo MVP vortex (DOI not found)."
     }
   ],
   "declassified": [

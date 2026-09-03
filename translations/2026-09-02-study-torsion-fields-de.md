@@ -1,3 +1,11 @@
+---
+name: "2026-09-02-study-torsion-fields-de"
+description: "Auto-added frontmatter for living-library validation"
+---
+
+---
+description: "translations/2026-09-02-study-torsion-fields-de.md"
+---
 Study on Torsion Fields
 
 1.1. State of the Problem of Torsion Fields
@@ -406,4 +414,3 @@ Prof. Dr. N. Grachev.
 
 
 ---
-
