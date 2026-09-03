@@ -1452,11 +1452,11 @@
     </div>
     <div class="kd-toast" id="kdToast"></div>
 
-    <!-- Synthesis briefings — what the archive is learning, under the dial, above the archive -->
-    <section class="synth-strip" id="synthStrip" aria-label="Synthesis briefings">
+    <!-- Fleet briefings — what the agents are learning, under the dial, above the archive -->
+    <section class="synth-strip" id="synthStrip" aria-label="Fleet synthesis briefings">
         <div class="synth-head">
-            <span class="synth-title"><span class="synth-dot"></span>⚗ Synthesis Briefings · What We're Learning</span>
-            <a class="synth-more" href="./synthesis.html" id="synthMoreLink">All briefings →</a>
+            <span class="synth-title"><span class="synth-dot"></span>⚗ Fleet Briefings · What We're Learning</span>
+            <a class="synth-more" href="./synthesis.html" id="synthMoreLink">All reports →</a>
         </div>
         <div class="synth-grid" id="synthCards"></div>
     </section>
@@ -2050,7 +2050,7 @@
             });
         }
 
-        /* ═══ Synthesis briefing strip — latest briefings under the dial ═══ */
+        /* ═══ Fleet briefing strip — latest reports under the dial ═══ */
         function loadSynthStrip() {
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
@@ -2060,18 +2060,22 @@
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
                     if (!entries.length) { document.getElementById('synthStrip').style.display = 'none'; return; }
-                    if (moreEl) moreEl.textContent = `All ${entries.length} briefings →`;
-                    const latest = entries.slice(0, 3);
+                    if (moreEl) moreEl.textContent = `All ${entries.length} reports →`;
+                    // Forefront the analytical briefings (synthesis + paradigm signals),
+                    // fall back to the newest of everything if those are absent.
+                    const analytical = entries.filter(e => e.kind === 'synthesis' || e.kind === 'paradigm-signal');
+                    const latest = (analytical.length ? analytical : entries).slice(0, 3);
                     cardsEl.innerHTML = '';
                     latest.forEach(e => {
+                        const km = { synthesis: '⚗', 'paradigm-signal': '⚡', 'scout-finds': '🔭' }[e.kind] || '📄';
                         const card = document.createElement('a');
                         card.className = 'synth-card';
                         card.href = `./synthesis.html#${encodeURIComponent(e.slug || e.file)}`;
                         card.innerHTML = `
-                            <span class="sc-date">${e.date || ''}</span>
-                            <span class="sc-title">${escapeHtml(e.title)}</span>
+                            <span class="sc-date">${e.date || ''}${e.author ? ' · ' + escapeHtml(e.author) : ''}</span>
+                            <span class="sc-title">${km} ${escapeHtml(e.title)}</span>
                             ${e.teaser ? `<span class="sc-teaser">${escapeHtml(e.teaser)}</span>` : ''}
-                            <span class="sc-read">Read briefing →</span>
+                            <span class="sc-read">Read report →</span>
                         `;
                         cardsEl.appendChild(card);
                     });

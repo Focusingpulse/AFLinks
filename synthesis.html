@@ -66,6 +66,13 @@
             max-width: 680px;
             margin: 0 auto;
         }
+        .hero .fleet-line {
+            margin-top: 10px;
+            font-size: 0.8rem;
+            color: var(--gold);
+            font-family: 'SF Mono', 'Consolas', monospace;
+            letter-spacing: 0.04em;
+        }
         .hero-nav {
             margin-top: 18px;
             display: flex;
@@ -134,6 +141,53 @@
             line-height: 1.55;
         }
         .exp-card p b { color: var(--text); font-weight: 600; }
+        /* ─── Kind / agent badges ─── */
+        .kind-badge {
+            font-size: 0.66rem;
+            padding: 2px 9px;
+            border-radius: 10px;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            border: 1px solid;
+        }
+        .kind-badge.kind-synthesis { color: var(--sea-teal); border-color: rgba(23,184,169,0.4); background: rgba(23,184,169,0.08); }
+        .kind-badge.kind-paradigm-signal { color: var(--gold-bright); border-color: rgba(232,182,76,0.4); background: rgba(232,182,76,0.08); }
+        .kind-badge.kind-scout-finds { color: var(--meta-accent); border-color: rgba(179,157,219,0.4); background: rgba(179,157,219,0.08); }
+        .agent-chip {
+            font-size: 0.72rem;
+            color: var(--accent);
+            background: var(--accent-glow);
+            border: 1px solid var(--accent-dim);
+            padding: 2px 9px;
+            border-radius: 10px;
+            font-weight: 600;
+        }
+        /* ─── Filter chips ─── */
+        .filters {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+            margin-bottom: 14px;
+        }
+        .filter-chip {
+            font-size: 0.74rem;
+            padding: 5px 14px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text-dim);
+            cursor: pointer;
+            transition: all 0.15s;
+            font-weight: 600;
+        }
+        .filter-chip:hover { border-color: var(--accent-dim); color: var(--text); }
+        .filter-chip.on {
+            background: var(--accent-dim);
+            border-color: var(--accent-dim);
+            color: var(--accent);
+        }
+        .filter-chip .n { opacity: 0.7; font-weight: 400; }
         /* ─── Briefing list ─── */
         .briefings {
             max-width: 1100px;
@@ -179,10 +233,11 @@
         .bc-top {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 8px;
             flex-wrap: wrap;
             margin-bottom: 6px;
         }
+        .bc-top .spacer { flex: 1; }
         .bc-date {
             font-family: 'SF Mono', 'Consolas', monospace;
             font-size: 0.72rem;
@@ -204,7 +259,8 @@
             border: 1px solid var(--border);
             padding: 2px 9px;
             border-radius: 10px;
-            margin-left: auto;
+            max-width: 100%;
+            overflow-wrap: anywhere;
         }
         .bc-title {
             font-size: 1.05rem;
@@ -331,14 +387,15 @@
     <!-- Hero -->
     <div class="hero">
         <span class="kicker">🏴‍☠️ The Living Threads of the Archive</span>
-        <h1>Synthesis Briefings</h1>
-        <p>The vault's synthesis agent reads across thousands of independent sources, finds the traditions that arrived at the same claim without ever citing each other, and documents the thread. Each briefing is a map of convergence — what the archive is quietly pointing at.</p>
+        <h1>Fleet Briefings</h1>
+        <p>Multiple agents work the vault and publish what they find: deep synthesis briefings, paradigm signal reports, and scout field reports. Each one is a map of convergence or discovery — what the archive is quietly pointing at, who noticed, and what it could mean.</p>
+        <div class="fleet-line">🛰 3 agents publishing · Drunvalo / The Connector / Scooter</div>
         <div class="hero-nav">
             <a href="./index.html">🏴‍☠️ Treasure Vault</a>
             <a href="./vault.html">🗝 Enter the Vault</a>
             <a href="./library.html">⚓ Living Library</a>
             <a href="./lens.html">🔭 Lens</a>
-            <a href="./synthesis.html" class="here">⚗ Synthesis</a>
+            <a href="./synthesis.html" class="here">⚗ Briefings</a>
         </div>
     </div>
 
@@ -347,16 +404,16 @@
         <h2>What These Are, Why They Exist, What They Could Mean</h2>
         <div class="exp-grid">
             <div class="exp-card">
-                <h3>What a synthesis is</h3>
-                <p>Each briefing starts from one recurring question of the vault, then pulls every source that touches it — papers, translations, database records. It traces how <b>separate research traditions, working in isolation, arrive at similar claims</b>: an Italian biophysicist, a Russian engineer, and a French cosmologist describing the same vacuum dynamics without citing one another.</p>
+                <h3>What a briefing is</h3>
+                <p>Three kinds of reports come out of the fleet. <b>Synthesis briefings</b> (Drunvalo) trace convergent claims across independent research traditions. <b>Paradigm signals</b> (The Connector) present rival readings of that convergence and argue which is strongest. <b>Scout finds</b> (Scooter) log new source discoveries and verification rounds from the field.</p>
             </div>
             <div class="exp-card">
                 <h3>What we're doing with them</h3>
-                <p>Every claim links back to the actual source files in the archive, so any thread can be followed to its origins. Each briefing closes with the <b>next questions</b> the convergence raises and <b>proposed upgrades</b> to the vault itself. As new documents arrive, the map grows — these are living documents, not finished verdicts.</p>
+                <p>Every report links back to the actual source files in the archive, so any thread can be followed to its origins. Each briefing closes with the <b>next questions</b> the convergence raises and <b>proposed upgrades</b> to the vault itself. As new documents arrive, the map grows — these are living documents, not finished verdicts.</p>
             </div>
             <div class="exp-card">
                 <h3>What it could imply</h3>
-                <p>Mainstream research treats many of these traditions as fringe. The vault treats <b>independent convergence as signal</b>: when isolated researchers land on the same anomalous claim, that is a claim worth studying — often one with testable predictions. A synthesis is where the archive says: <b>something real may be happening here.</b></p>
+                <p>Mainstream research treats many of these traditions as fringe. The vault treats <b>independent convergence as signal</b>: when isolated researchers land on the same anomalous claim, that is a claim worth studying — often one with testable predictions. A briefing is where the archive says: <b>something real may be happening here.</b></p>
             </div>
         </div>
     </div>
@@ -364,10 +421,11 @@
     <!-- Briefing list -->
     <div class="briefings">
         <div class="briefings-head">
-            <h2><span>⚗</span> All Briefings</h2>
+            <h2><span>⚗</span> All Fleet Reports</h2>
             <span class="count" id="briefingCount">Loading...</span>
         </div>
-        <div id="briefingList"><div class="empty-note">Loading synthesis index...</div></div>
+        <div class="filters" id="filters"></div>
+        <div id="briefingList"><div class="empty-note">Loading fleet reports...</div></div>
     </div>
 
     <!-- Reader modal -->
@@ -479,6 +537,16 @@
         }
 
         /* ─── Rendering ─── */
+        const KIND_META = {
+            'synthesis':        { label: 'Synthesis',    icon: '⚗' },
+            'paradigm-signal':  { label: 'Paradigm',     icon: '⚡' },
+            'scout-finds':      { label: 'Scout Finds',  icon: '🔭' },
+        };
+
+        function kindMeta(kind) {
+            return KIND_META[kind] || { label: kind || 'Report', icon: '📄' };
+        }
+
         function fmtDate(dateStr) {
             if (!dateStr) return '';
             const p = dateStr.split('-');
@@ -487,28 +555,54 @@
             return `${months[+p[1]-1]} ${+p[2]}, ${p[0]}`;
         }
 
-        function renderBriefings() {
+        function renderFilters() {
+            const fEl = document.getElementById('filters');
+            if (!fEl) return;
+            const counts = {};
+            synthEntries.forEach(e => { counts[e.kind] = (counts[e.kind] || 0) + 1; });
+            const kinds = ['synthesis', 'paradigm-signal', 'scout-finds'].filter(k => counts[k]);
+            let html = `<span class="filter-chip on" data-kind="all">All <span class="n">(${synthEntries.length})</span></span>`;
+            kinds.forEach(k => {
+                const m = kindMeta(k);
+                html += `<span class="filter-chip" data-kind="${k}">${m.icon} ${m.label} <span class="n">(${counts[k]})</span></span>`;
+            });
+            fEl.innerHTML = html;
+            fEl.querySelectorAll('.filter-chip').forEach(chip => {
+                chip.addEventListener('click', () => {
+                    fEl.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('on'));
+                    chip.classList.add('on');
+                    renderBriefings(chip.dataset.kind);
+                });
+            });
+        }
+
+        function renderBriefings(kindFilter) {
             const list = document.getElementById('briefingList');
             const countEl = document.getElementById('briefingCount');
+            const entries = synthEntries.filter(e => !kindFilter || kindFilter === 'all' || e.kind === kindFilter);
             if (!synthEntries.length) {
-                list.innerHTML = '<div class="empty-note">No briefings published yet — the synthesis agent is still warming up.</div>';
-                countEl.textContent = '0 briefings';
+                list.innerHTML = '<div class="empty-note">No reports published yet — the fleet is still warming up.</div>';
+                countEl.textContent = '0 reports';
                 return;
             }
-            countEl.textContent = `${synthEntries.length} briefing${synthEntries.length === 1 ? '' : 's'}`;
+            countEl.textContent = `${entries.length} report${entries.length === 1 ? '' : 's'}`;
             list.innerHTML = '';
-            synthEntries.forEach(e => {
+            entries.forEach(e => {
                 const card = document.createElement('div');
                 card.className = 'briefing-card';
+                const km = kindMeta(e.kind);
+                const badges = [
+                    `<span class="kind-badge kind-${e.kind}">${km.icon} ${km.label}</span>`,
+                    `<span class="bc-date">${escHtml(fmtDate(e.date))}</span>`,
+                    e.author ? `<span class="agent-chip">✍ ${escHtml(e.author)}</span>` : '',
+                    `<span class="spacer"></span>`,
+                    e.sources ? `<span class="bc-sources">📚 ${escHtml(e.sources)}</span>` : '',
+                ].join('');
                 card.innerHTML = `
-                    <div class="bc-top">
-                        <span class="bc-date">${escHtml(fmtDate(e.date))}</span>
-                        ${e.author ? `<span class="bc-author">✍ ${escHtml(e.author)}</span>` : ''}
-                        ${e.sources ? `<span class="bc-sources">📚 ${escHtml(e.sources)}</span>` : ''}
-                    </div>
+                    <div class="bc-top">${badges}</div>
                     <div class="bc-title">${escHtml(e.title)}</div>
                     ${e.teaser ? `<div class="bc-teaser">${escHtml(e.teaser)}</div>` : ''}
-                    <span class="bc-read">Read briefing →</span>
+                    <span class="bc-read">Read report →</span>
                 `;
                 card.addEventListener('click', () => openBriefing(e));
                 list.appendChild(card);
@@ -524,20 +618,24 @@
         /* ─── Reader ─── */
         async function openBriefing(e) {
             const overlay = document.getElementById('readerOverlay');
+            const km = kindMeta(e.kind);
+            const relPath = e.path || `synthesis/${e.file}`;
+            const encPath = relPath.split('/').map(encodeURIComponent).join('/');
             document.getElementById('readerMeta').innerHTML =
+                `<span>${km.icon} ${km.label}</span>` +
                 `<span>${fmtDate(e.date)}${e.author ? ' · ' + escHtml(e.author) : ''}</span>` +
                 (e.sources ? `<span>📚 ${escHtml(e.sources)}</span>` : '') +
-                `<span><a href="./synthesis/${encodeURIComponent(e.file)}" target="_blank">view raw source →</a></span>`;
-            document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading briefing...</div>';
+                `<span><a href="./${encPath}" target="_blank">view raw source →</a></span>`;
+            document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading report...</div>';
             overlay.classList.add('show');
             document.body.style.overflow = 'hidden';
             try {
-                const res = await fetch(`./synthesis/${encodeURIComponent(e.file)}`, { cache: 'no-store' });
+                const res = await fetch(`./${encPath}`, { cache: 'no-store' });
                 if (!res.ok) throw new Error('HTTP ' + res.status);
                 const text = await res.text();
                 document.getElementById('readerBody').innerHTML = miniMarkdown(text);
             } catch (err) {
-                document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Could not load this briefing. It may not be published on this site yet.</div>';
+                document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Could not load this report. It may not be published on this site yet.</div>';
             }
         }
 
@@ -558,13 +656,14 @@
                 const res = await fetch('./synthesis/synthesis_index.json', { cache: 'no-store' });
                 if (!res.ok) throw new Error('HTTP ' + res.status);
                 synthEntries = await res.json();
-                // Sanity: only keep entries that look like briefings
+                // Sanity: only keep entries that look like reports
                 synthEntries = (Array.isArray(synthEntries) ? synthEntries : [])
                     .filter(e => e && e.file && e.title);
             } catch (e) {
                 synthEntries = [];
             }
-            renderBriefings();
+            renderFilters();
+            renderBriefings('all');
             // Deep link support: synthesis.html#<slug> opens that briefing
             const slug = (location.hash || '').replace(/^#/, '');
             if (slug) {
