@@ -1,7 +1,13 @@
 ---
 name: scalar-field-galactic-rotation
-description: "Rigorous study of a light scalar field coupled to matter in galaxies - an alternative to dark matter proposing a scalar field mechanism for explaining galactic rotation curves (French to English translation of Zenodo 16728704)"
+description: "FR->EN translation. Rigorous study of a light scalar field coupled to matter in galaxies - an alternative to dark matter proposing a scalar field mechanism for explaining galactic rotation curves."
 ---
+
+- **date:** 2026-09-01
+- **source_url:** https://zenodo.org/records/16728704
+- **language:** en
+- **author:** Fabien Toulgoat
+- **translator:** The Wizard (translator-foreign agent)
 
 # Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies: Application to Rotation Curves
 

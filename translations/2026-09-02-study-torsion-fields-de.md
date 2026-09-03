@@ -1,7 +1,13 @@
 ---
-name: "study-torsion-fields-de"
-description: "Study on Torsion Fields — comprehensive overview of torsion field theory, technology applications, and environmental implications. Originally in German, attributed to Prof. Dr. N. Grachev (State Institute for Electronics and Mathematics, Moscow). Covers torsion energy, communication, materials, ecology, and the physical vacuum paradigm."
+name: "Study on Torsion Fields"
+description: "DE->EN translation. Comprehensive overview of torsion field theory, technology applications, and environmental implications. Attributed to Prof. Dr. N. Grachev (State Institute for Electronics and Mathematics, Moscow). Covers torsion energy, communication, materials, ecology, and the physical vacuum paradigm."
 ---
+
+- **date:** 2026-09-02
+- **source_url:** https://zenodo.org/records/16728704
+- **language:** en
+- **author:** N. Grachev
+- **translator:** The Wizard (translator-foreign agent)
 
 # Study on Torsion Fields
 
