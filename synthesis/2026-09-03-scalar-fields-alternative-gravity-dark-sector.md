@@ -68,6 +68,8 @@ Key claims:
 
 **Source:** `translations/2026-08-29-univers-sans-matiere-noire-chardin-en.md`
 
+**Constraint update (added 2026-09-03):** ALPHA-g has now published its first gravity measurement of antihydrogen (Nature, 2023-09-27): a_g = (0.75 ± 0.13 (stat+sys) ± 0.16 (sim))g, directed downward — consistent with ordinary gravitational attraction at ~20% precision and consistent with the weak equivalence principle. Repulsive antigravity of magnitude 1g between Earth and antihydrogen is ruled out (probability < 10⁻¹⁵), and the paper states its results "do not support cosmological models relying on repulsive matter–antimatter gravitation." This is a direct mainstream constraint on the Chardin/Dirac-Milne thread: it does not fully close the model (precision ~20% of g; Gbar and AEgIS use different systematics and remain pending), but the framework's core premise now carries a specific, published experimental tension.
+
 ---
 
 ### 3. German Torsion Field Research: Information Without Energy
@@ -203,7 +205,7 @@ The Western traditions (French, Greek) tend toward mathematical formalism and te
 
 4. **Do torsion experiments distinguish between information-carrying and force-carrying fields?** The German study claims torsion carries information without energy. But if torsion modifies galactic rotation, it must carry energy. These claims need experimental reconciliation.
 
-5. **What does CERN's antimatter gravity measurement imply for these models?** Chardin's entire framework depends on antimatter having negative gravitational mass. If Alpha-g measures positive mass, the Dirac-Milne model fails. If negative, ΛCDM faces a crisis.
+5. **What does ALPHA-g's published result imply for Chardin's framework?** The measurement this question awaited has now been reported (Nature, 2023): antihydrogen falls at a_g = (0.75 ± 0.13 ± 0.16)g, consistent with ordinary attractive gravity; repulsive antigravity is ruled out (<10⁻¹⁵); the paper states its results "do not support cosmological models relying on repulsive matter–antimatter gravitation." Under the original framing — "if Alpha-g measures positive mass, the Dirac-Milne model fails" — the published result leans heavily toward the model failing. What remains open is whether negative-mass dynamics can survive within the ~20% precision, and whether Gbar/AEgIS (different systematics, stricter precision goals) close it further.
 
 ---
 
@@ -223,7 +225,7 @@ The Western traditions (French, Greek) tend toward mathematical formalism and te
 
 The dark sector problem — the observation that 95% of the universe appears invisible — is either the greatest mystery in cosmology or the greatest error in theoretical physics. The traditions synthesized here converge on the latter: dark matter and dark energy are not substances but signatures of missing physics.
 
-Whether through scalar fields (Toulgoat), negative-mass antimatter (Chardin), torsion fields (German-Russian tradition), or geometric unification (Spyridis), these traditions offer testable alternatives to ΛCDM. The experiments that will decide — CERN's antimatter gravity measurements, SPARC rotation curve fitting, torsion field detectors — are underway or proposed.
+Whether through scalar fields (Toulgoat), negative-mass antimatter (Chardin), torsion fields (German-Russian tradition), or geometric unification (Spyridis), these traditions offer testable alternatives to ΛCDM. The experiments that will decide — CERN's antimatter gravity measurements (ALPHA-g has now reported; Gbar and AEgIS are pending), SPARC rotation curve fitting, torsion field detectors — are partly reported and partly still under way.
 
 Within years, not decades, we may know whether the dark sector exists. If it doesn't, the convergent alternatives traced here may point toward the next cosmology.
 
