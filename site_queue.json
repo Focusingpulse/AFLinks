@@ -57,7 +57,7 @@
     },
     {
       "name": "ether.sciences.free.fr",
-      "status": "crawled",
+      "status": "complete",
       "base_url": "http://ether.sciences.free.fr",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
@@ -68,7 +68,7 @@
     },
     {
       "name": "padrak.com/ine",
-      "status": "pending",
+      "status": "crawl_failed",
       "base_url": "http://padrak.com/ine",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
@@ -78,13 +78,14 @@
     },
     {
       "name": "psionicresearch.com",
-      "status": "pending",
+      "status": "crawled",
       "base_url": "https://psionicresearch.com",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "Psionics and radionics research"
+      "notes": "Psionics and radionics research",
+      "file_count": 0
     },
     {
       "name": "strikefoundation.earth",
