@@ -1106,6 +1106,58 @@
         .hero-actions { margin-top: 16px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
         .hero-af-link { border: 1px solid rgba(232,182,76,0.4); background: rgba(232,182,76,0.1); color: var(--gold-bright); }
         .hero-af-link:hover { background: var(--gold); color: #052028; }
+        .hero-cta-main {
+            font-size: 1rem;
+            padding: 13px 28px;
+            background: var(--gold);
+            color: #052028;
+            border: 1px solid var(--gold-bright);
+            box-shadow: 0 0 24px rgba(232,182,76,0.35);
+            font-weight: 700;
+        }
+        .hero-cta-main:hover { background: var(--gold-bright); color: #052028; }
+        .hero-community {
+            margin: 20px auto 0;
+            max-width: 700px;
+            border: 1px solid rgba(232,182,76,0.28);
+            border-radius: 14px;
+            background: rgba(9, 26, 33, 0.75);
+            padding: 14px 18px 16px;
+        }
+        .hero-community .hc-title {
+            font-family: 'Pirata One', 'Georgia', serif;
+            color: var(--gold-bright);
+            font-size: 1.05rem;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .hero-community .hc-line {
+            color: #9fc0bb;
+            font-size: 0.82rem;
+            max-width: 560px;
+            margin: 0 auto 11px;
+        }
+        .hero-community .hc-links {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .hero-community .hc-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.8rem;
+            padding: 7px 15px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .hero-community .hc-link:hover { border-color: var(--gold); color: var(--gold-bright); background: rgba(232,182,76,0.08); }
         /* key dial */
         .keydial {
             max-width: 1400px;
@@ -1444,9 +1496,20 @@
         <p>Explore <span id="heroDocCount">6,562</span> primary source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Each one cross-linked to Aetherforce articles, shop, and community resources.</p>
         <p class="hero-trans">🗝 <span id="heroTransCount">…</span> translations published · <span id="heroPagesCount">…</span> pages translated &amp; growing</p>
         <div class="hero-actions">
-            <a class="hero-af-link" href="https://www.aetherforce.energy" target="_blank">Visit Aetherforce →</a>
+            <a class="hero-af-link hero-cta-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" href="./vault.html">🗝 Enter the Vault</a>
             <a class="hero-af-link" href="./library.html">⚓ Living Library</a>
+        </div>
+        <div class="hero-community">
+            <div class="hc-title">🏴‍☠️ This is the underground treasure-chest layer of Aetherforce</div>
+            <div class="hc-line">The archive is the map. The real treasure is the people — the community gathering, the connections being made as we build and grow. Join the crew on the main project and the socials.</div>
+            <div class="hc-links">
+                <a class="hc-link" href="https://www.aetherforce.energy" target="_blank">🌐 Aetherforce.energy</a>
+                <a class="hc-link" href="https://www.aetherforce.energy/resources/articles/" target="_blank">📖 Articles</a>
+                <a class="hc-link" href="https://www.aetherforce.energy/shop-2" target="_blank">🛒 Shop</a>
+                <a class="hc-link" href="https://www.aetherforce.energy/resources/links/" target="_blank">🔗 Resource Guide</a>
+                <a class="hc-link" href="https://t.me/aetherforceposts" target="_blank">💬 Telegram</a>
+            </div>
         </div>
     </div>
     <div class="wave-divider" aria-hidden="true"></div>
