@@ -25,7 +25,7 @@
     },
     {
       "name": "svpwiki.com",
-      "status": "pending",
+      "status": "crawled",
       "base_url": "https://svpwiki.com",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
@@ -33,7 +33,7 @@
         "/sitemap.xml"
       ],
       "notes": "Dale Pond's SVPwiki (15,000-page TikiWiki; Keely/SVP). ALIVE (HTTP 200) — flipped active->pending 2026-09-03 so run_queue crawls it; 0 files yet",
-      "file_count": 0
+      "file_count": 9
     },
     {
       "name": "infinite-energy.com",
