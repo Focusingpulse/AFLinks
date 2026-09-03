@@ -1,17 +1,15 @@
 # Village Link Report — 2026-09-03
 
-Checked **637** URLs: **612** OK, **17** HTTP errors, **0** redirects, **8** unreachable/timeouts.
+Checked **636** URLs: **613** OK, **17** HTTP errors, **0** redirects, **6** unreachable/timeouts.
 
-## Unreachable / timeout (8)
+## Unreachable / timeout (6)
 
 - `http://ia800306.us.archive.org/30/items/fe_The_Solar_Greenhouse_Book/The_Solar_Greenhouse_Book.pdf`  (error: URLError)
 - `http://uhspr.ca/merit-badges/`  (error: URLError)
 - `http://www.davidhuang.org`  (error: TimeoutError)
 - `http://www.dlive.tv/mavisfarmacy`  (error: URLError)
 - `http://www.theartisthomestead.com`  (error: TimeoutError)
-- `https://deptutor.info`  (error: URLError)
 - `https://mountainherbs.net/grown`  (error: URLError)
-- `https://www.motherearthnews.com/sustainable-living/green-homes/cob-building-basics-zm0z13onzrob/`  (error: TimeoutError)
 
 ## HTTP errors (17)
 
