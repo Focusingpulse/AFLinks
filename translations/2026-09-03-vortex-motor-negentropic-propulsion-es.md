@@ -1,11 +1,6 @@
 ---
 name: The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics
-description: ES->EN full translation of "El Motor de Vortice" by Juan Miguel Rivero y Hornos Tverjanovich (2025). A theoretical framework for a vortex-based propulsion device using ether implosion principles, inspired by Viktor Schauberger. Source: https://doi.org/10.5281/zenodo.17626722
-date: 2026-09-03
-title: "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics"
-domain: Alternative energy, Vortex physics, Schauberger technology, Ether theory
-source_url: https://doi.org/10.5281/zenodo.17626722
-language: es
+description: "ES->EN full translation of \"El Motor de Vortice\" by Juan Miguel Rivero y Hornos Tverjanovich (2025). A theoretical framework for a vortex-based propulsion device using ether implosion principles, inspired by Viktor Schauberger. Source: https://doi.org/10.5281/zenodo.17626722 | Date: 2026-09-03 | Domain: Alternative energy, Vortex physics, Schauberger technology, Ether theory | Language: es"
 ---
 
 # The Vortex Motor: Toward a Negentropic Propulsion Technology Based on the Dynamics of Ether Implosion
