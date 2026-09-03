@@ -1,12 +1,9 @@
 ---
-name: "2026-09-02-study-torsion-fields-de"
-description: "Auto-added frontmatter for living-library validation"
+name: "study-torsion-fields-de"
+description: "Study on Torsion Fields — comprehensive overview of torsion field theory, technology applications, and environmental implications. Originally in German, attributed to Prof. Dr. N. Grachev (State Institute for Electronics and Mathematics, Moscow). Covers torsion energy, communication, materials, ecology, and the physical vacuum paradigm."
 ---
 
----
-description: "translations/2026-09-02-study-torsion-fields-de.md"
----
-Study on Torsion Fields
+# Study on Torsion Fields
 
 1.1. State of the Problem of Torsion Fields
 
