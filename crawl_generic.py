@@ -9,10 +9,49 @@ Generic crawler for multiple site types:
 Usage: python crawl_generic.py <site_name>
 Reads site_queue.json for site config, outputs <site_name>_filelist.json
 """
-import os, re, json, time, urllib.parse, urllib.request, sys
+import os, re, json, time, signal, urllib.parse, urllib.request, sys
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 QUEUE_PATH = os.path.join(SCRIPT_DIR, "site_queue.json")
+
+# --- Progressive checkpointing ----------------------------------------------
+# Timeout-safe crawling: every N pages (or on SIGTERM) we save the visited set
+# + accumulated file list to <site>_crawl_state.json, so a run killed by the
+# cron's time budget resumes where it left off instead of losing everything.
+CHECKPOINT_EVERY = 20          # pages
+_last_checkpoint = [0.0]       # [timestamp]
+
+def _site_slug(site_name):
+    return site_name.replace('.', '_').replace('/', '_')
+
+def _save_checkpoint(site_name, visited, files):
+    """Write partial crawl state (visited urls + file list) to disk."""
+    state_path = os.path.join(SCRIPT_DIR, f"{_site_slug(site_name)}_crawl_state.json")
+    tmp = state_path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump({"visited": sorted(visited), "files": files}, f, ensure_ascii=False)
+    os.replace(tmp, state_path)  # atomic
+
+def _load_checkpoint(site_name):
+    state_path = os.path.join(SCRIPT_DIR, f"{_site_slug(site_name)}_crawl_state.json")
+    if not os.path.exists(state_path):
+        return None
+    try:
+        with open(state_path, "r", encoding="utf-8") as f:
+            state = json.load(f)
+        return state
+    except Exception:
+        return None
+
+def _maybe_checkpoint(site_name, visited, files, force=False):
+    global _last_checkpoint
+    now = time.time()
+    if force or (now - _last_checkpoint[0]) >= CHECKPOINT_EVERY:
+        try:
+            _save_checkpoint(site_name, visited, files)
+            _last_checkpoint[0] = now
+        except Exception as e:
+            print(f"  [checkpoint warn] {e}", flush=True)
 
 def fetch_url(url, timeout=20):
     try:
@@ -83,7 +122,7 @@ def crawl_apache_dir(url, visited, files, base_url, depth=0, max_depth=10):
         time.sleep(0.2)
         crawl_apache_dir(d, visited, files, base_url, depth + 1, max_depth)
 
-def crawl_html_links(url, visited, files, base_url, depth=0, max_depth=3):
+def crawl_html_links(url, visited, files, base_url, depth=0, max_depth=3, site_name=""):
     """Scrape HTML pages for links to documents."""
     if url in visited or depth > max_depth:
         return
@@ -110,6 +149,10 @@ def crawl_html_links(url, visited, files, base_url, depth=0, max_depth=3):
             if base_url in full_url:
                 files.append({"url": full_url, "filename": urllib.parse.unquote(link.split('/')[-1])})
     
+    # Timeout-safe: save what we have so far
+    if site_name:
+        _maybe_checkpoint(site_name, visited, files)
+    
     # Also look for HTML article pages (not just direct file links)
     if depth < max_depth:
         for m in re.finditer(r'href=["\']([^"\']+)["\']', text, re.I):
@@ -133,7 +176,7 @@ def crawl_html_links(url, visited, files, base_url, depth=0, max_depth=3):
             
             # Follow the link
             time.sleep(0.3)
-            crawl_html_links(full_url, visited, files, base_url, depth + 1, max_depth)
+            crawl_html_links(full_url, visited, files, base_url, depth + 1, max_depth, site_name)
 
 def crawl_vixra(url, visited, files, base_url, max_pages=50, max_months_per_cat=5):
     """Crawl viXra.org listing pages.
@@ -313,8 +356,29 @@ def main():
     print(f"Type: {crawl_type}")
     print(f"Base URL: {base_url}")
     
-    visited = set()
-    files = []
+    # Resume from a previous run's checkpoint if present (timeout-safe crawling)
+    state = _load_checkpoint(site_name)
+    if state:
+        visited = set(state.get("visited", []))
+        files = state.get("files", [])
+        print(f"[resume] loaded {len(visited)} visited, {len(files)} files from checkpoint")
+    else:
+        visited = set()
+        files = []
+    
+    # Save state on SIGTERM (the cron's timeout sends TERM — don't lose the run)
+    def _term_handler(signum, frame):
+        print(f"\n[signal] SIGTERM — saving checkpoint ({len(visited)} visited, {len(files)} files)", flush=True)
+        try:
+            _save_checkpoint(site_name, visited, files)
+            # also write the partial filelist so processing can start now
+            output_path = os.path.join(SCRIPT_DIR, f"{_site_slug(site_name)}_filelist.json")
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(files, f, ensure_ascii=False)
+        except Exception as e:
+            print(f"  [signal] checkpoint failed: {e}", flush=True)
+        sys.exit(0)
+    signal.signal(signal.SIGTERM, _term_handler)
     
     # For wayback scraping, extract the original domain
     original_domain = ""
@@ -330,7 +394,7 @@ def main():
         if crawl_type == "apache_dir":
             crawl_apache_dir(url, visited, files, base_url)
         elif crawl_type == "html_link_scrape":
-            crawl_html_links(url, visited, files, base_url)
+            crawl_html_links(url, visited, files, base_url, site_name=site_name)
         elif crawl_type == "api_listing":
             crawl_vixra(url, visited, files, base_url)
         elif crawl_type == "wayback_scrape":
@@ -346,12 +410,18 @@ def main():
             unique_files.append(f)
     
     # Save file list
-    output_path = os.path.join(SCRIPT_DIR, f"{site_name.replace('.', '_').replace('/', '_')}_filelist.json")
+    output_path = os.path.join(SCRIPT_DIR, f"{_site_slug(site_name)}_filelist.json")
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(unique_files, f, ensure_ascii=False, indent=2)
     
     print(f"\nTotal unique files found: {len(unique_files)}")
     print(f"Saved to {output_path}")
+    
+    # Clear checkpoint state on successful full completion
+    state_path = os.path.join(SCRIPT_DIR, f"{_site_slug(site_name)}_crawl_state.json")
+    if os.path.exists(state_path):
+        os.remove(state_path)
+        print(f"Checkpoint cleared (crawl completed)")
     
     # Update queue status
     site["status"] = "crawled"
