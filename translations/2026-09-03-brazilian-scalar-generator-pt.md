@@ -1,0 +1,1144 @@
+---
+name: "2026-09-03-brazilian-scalar-generator-pt"
+description: Full translation of "WO2013155580A1 — Apparatus for Scalar Energy Generation — Google Patents. Apparatus for Scalar Energy Generation. Download PDF. Info. Publication number: WO2013155580A1. PCT/BR2013/000122. BR2013000122W. WO2013155580A1. WO 2013155580 A1. WO2013155580 A1. WO 2013155580 A1. BR 2013000122 W. BR2013000122 W. BR2013000122W. WO 2013155580 A1. WO2013155580 A1. WO 2013155580 A1. Authority: WO. WIPO (PCT). Prior art keywords: scalar, energy, positive, negative, exciter circuit. Prior art date: 2012-04-16. Legal status (The legal status is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the status listed.): Ceased. Application number: PCT/BR2013/000122. Other languages: English (en), French (fr). Inventor: Marcelo Arthur MENDES WAECHTER. Current Assignee (The listed assignees may be inaccurate. Google has not performed a legal analysis and makes no representation or warranty as to the accuracy of the list.): Individual. Original Assignee: Individual. Priority date (The priority date is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the date listed.): 2012-04-16. Filing date: 2013-04-15. Publication date: 2013-10-24. 2013-04-15 — Application filed by Individual — filed — Critical. Individual. 2013-10-24 — Publication of WO2013155580A1 — publication — Critical. patent/WO2013155580A1/pt. 2014-10-16 — Anticipated expiration — legal-status — Critical. Status: Ceased — legal-status — Critical — Current. Links: Espacenet, Global Dossier, PatentScope, Discuss."
+---
+
+WO2013155580A1 — Apparatus for Scalar Energy Generation — Google Patents. Apparatus for Scalar Energy Generation. Download PDF. Info. Publication number: WO2013155580A1. PCT/BR2013/000122. BR2013000122W. WO2013155580A1. WO 2013155580 A1. WO2013155580 A1. WO 2013155580 A1. BR 2013000122 W. BR2013000122 W. BR2013000122W. WO 2013155580 A1. WO2013155580 A1. WO 2013155580 A1. Authority: WO. WIPO (PCT). Prior art keywords: scalar, energy, positive, negative, exciter circuit. Prior art date: 2012-04-16. Legal status (The legal status is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the status listed.): Ceased. Application number: PCT/BR2013/000122. Other languages: English (en), French (fr). Inventor: Marcelo Arthur MENDES WAECHTER. Current Assignee (The listed assignees may be inaccurate. Google has not performed a legal analysis and makes no representation or warranty as to the accuracy of the list.): Individual. Original Assignee: Individual. Priority date (The priority date is an assumption and is not a legal conclusion. Google has not performed a legal analysis and makes no representation as to the accuracy of the date listed.): 2012-04-16. Filing date: 2013-04-15. Publication date: 2013-10-24. 2013-04-15 — Application filed by Individual — filed — Critical. Individual. 2013-10-24 — Publication of WO2013155580A1 — publication — Critical. patent/WO2013155580A1/pt. 2014-10-16 — Anticipated expiration — legal-status — Critical. Status: Ceased — legal-status — Critical — Current. Links: Espacenet, Global Dossier, PatentScope, Discuss.
+
+
+---
+
+
+Classifications. A — Human Necessities. A61 — Medical or Veterinary Science; Hygiene. A61M — Devices for Introducing Media Into, or Onto, the Body; Devices for Transducing Body Media or for Taking Media from the Body; Devices for Producing or Ending Sleep or Stupor. A61M21/00 — Other devices or methods to cause a change in the state of consciousness; Devices for producing or ending sleep by mechanical, optical, or acoustical means, e.g. for hypnosis. A61M21/02 — Other devices or methods to cause a change in the state of consciousness; Devices for producing or ending sleep by mechanical, optical, or acoustical means, e.g. for hypnosis for inducing sleep or relaxation, e.g. by direct nerve stimulation, hypnosis, analgesia. A — Human Necessities. A61 — Medical or Veterinary Science; Hygiene. A61M — Devices for Introducing Media Into, or Onto, the Body; Devices for Transducing Body Media or for Taking Media from the Body; Devices for Producing or Ending Sleep or Stupor. A61M21/00 — Other devices or methods to cause a change in the state of consciousness; Devices for producing or ending sleep by mechanical, optical, or acoustical means, e.g. for hypnosis. A61M2021/0005 — Other devices or methods to cause a change in the state of consciousness; Devices for producing or ending sleep by mechanical, optical, or acoustical means, e.g. for hypnosis by the use of a particular sense, or stimulus. A61M2021/0011 — Other devices or methods to cause a change in the state of consciousness; Devices for producing or ending sleep by mechanical, optical, or acoustical means, e.g. for hypnosis by the use of a particular sense, or stimulus in a subliminal way, i.e. below the threshold of sensation. A — Human Necessities. A61 — Medical or Veterinary Science; Hygiene. A61M — Devices for Introducing Media Into, or Onto, the Body; Devices for Transducing Body Media or for Taking Media from the Body; Devices for Producing or Ending Sleep or Stupor. A61M21/00 — Other devices or methods to cause a change in the state of consciousness; Devices for producing or ending sleep by mechanical, optical, or acoustical means, e.g. for hypnosis. A61M2021/0005 — Other devices or methods to cause a change in the state of consciousness; Devices for producing or ending sleep by mechanical, optical, or acoustical means, e.g. for hypnosis by the use of a particular sense, or stimulus. A61M2021/0055 — Other devices or methods to cause a change in the state of consciousness; Devices for producing or ending sleep by mechanical, optical, or acoustical means, e.g. for hypnosis by the use of a particular sense, or stimulus with electric or electro-magnetic fields.
+
+
+---
+
+
+Definitions 
+ 
+ 
+ the present invention 
+ describes an apparatus for scalar power generation. More specifically, it comprises a household apparatus having an electronic circuit capable of generating a floating wave at a fixed frequency of 12 Hz, said frequency radiated through a transmitting antenna. 
+ 
+ 
+ 
+ Scalar energy 
+ is the wave generated by an electronic system that, from a group of electronic components, in joint operation, generates this harmonic scalar wave at a frequency of 12 Hz, with an oscillating voltage of 0.5 to 2 volts, radiated. in alternating voltage and current, with positive and negative waves not simultaneous, but interspersed, being positive time, negative time. 
+ 
+ 
+ 
+ scalar energy 
+ is energy that has magnitude but no specific direction, ie it manifests in all directions at once. 
+ 
+ 
+ 
+ Scalar energy 
+ has the characteristic of being in electrical equilibrium in its normal state, and is therefore not readily apparent to electromagnetism-based measuring instruments. 
+ 
+ 
+ 
+ Electroencephalographs 
+ can measure the electromagnetic waves generated by the brain, but each half of the brain is a scalar generator and the confluence of the two waves generated by each half generates an electromagnetic wave captured by the apparatus. 
+ 
+ 
+ 
+ magnets 
+ are the most visible form of scalar energy manifestation. 
+ 
+ 
+ 
+ Research by Davis and Rawis 
+ has shown that there is a region in the center of the magnet called the Bloch Wall where scalar energy is captured and its components form the characteristic polarities of the magnet. 
+ 
+ 
+ 
+ Each polarity 
+ has its own characteristics and can be used to control various organic processes. 
+ 
+ 
+ 
+ Dr. Valerie Hunt 
+ has been researching scalar energy in humans, with remarkable discoveries about human performance ability when she can access this energy field. 
+ 
+ 
+ 
+ the human body 
+ is a network with different forms of energy. It is this energy system that sustains the physical body. 
+ 
+ 
+ 
+ Each living cell in the body 
+ emits electromagnetic radiation, each of which has a positive and a negative polarity. 
+ 
+ 
+ 
+ the outside of the cell 
+ has a positive polarity and the inside a negative polarity. 
+ 
+ 
+ 
+ these polarities 
+ can be momentarily reversed by the action of ion charges on the membrane that conducts sodium ions out of the cell and pumps potassium ions into it. This movement of electrically charged ions at the cellular level forms the energy fields of the complex electromagnetic system of the human body. 
+ 
+ 
+ 
+ Energy medicine 
+ recognizes the subtle energy of the body as a living force that determines an individual's health and well-being. 
+ 
+ 
+ 
+ the physical body 
+ is seen as a vital energy network that has ramifications with the external world. Diseases then arise by imbalance, or weakening of the energy matrices. 
+ 
+ 
+ 
+ Scalar energy 
+ plays this role by facilitating energy flow and optimizing cellular functions. In the long run, this can slow aging and prevent the onset of disease. 
+ 
+ 
+ 
+ Figure 1 
+ shows a schematic diagram of the apparatus for scalar power generation. 
+ 
+ 
+ 
+ the apparatus for scalar power generation, object of the present invention 
+ comprises an electronic circuit capable of generating a floating wave at a fixed frequency of 12 Hz, said frequency radiated through an antenna, the wave of which propagates within a radius of up to two meters. distance from the floating wave source. 
+ 
+ 
+ 
+ a microcontroller (10) powered by a motor (11) 
+ is connected to a positive exciter circuit (20) and a negative exciter circuit (30). 
+ 
+ 
+ 
+ the microcontroller (10) 
+ sends a pulse to the positive exciter circuit (20), keeping the negative exciter circuit (30) inoperative. 
+ 
+ 
+ 
+ the microcontroller (10) 
+ shuts off the positive exciter circuit (20) while sending a pulse to the negative exciter circuit (30). This sequence is repeated indefinitely, always alternately, at a frequency of 12 Hz. 
+ 
+ 
+ 
+ Positive (20) and negative (30) exciter circuits 
+ present at the outputs the connection to a power converter unit (40), such as a transformer, which modifies the voltage and current for the scalar waveform, and then sends to the transmitting antenna (50) connected to the output of the power converter unit (40) to provide for floating wave conduction. 
+ 
+ 
+ 
+ a power converter unit (40) 
+ such as a transformer, which modifies the voltage and current for the scalar waveform, and then sends to the transmitting antenna (50) connected to the output of the power converter unit (40) to provide for floating wave conduction. 
+ 
+ 
+ 
+ the antenna 50 
+ is made of insulated conductive material to prevent direct contact with humans. 
+ 
+ 
+ 
+ the antenna (50) 
+ is applied at a minimum distance of 2 centimeters from the user. 
+ 
+ 
+ 
+ the floating wave source 
+ provides very low intensity waves with waves interspersed between neutrons and electrons or protons and electrons or positive and negative, with low voltage and low current, not harmful to humans.
+
+
+---
+
+
+Landscapes
+
+Health & Medical Sciences (AREA)
+Anesthesiology (AREA)
+Pain & Pain Management (AREA)
+Physics & Mathematics (AREA)
+Acoustics & Sound (AREA)
+Psychology (AREA)
+Engineering & Computer Science (AREA)
+Biomedical Technology (AREA)
+Heart & Thoracic Surgery (AREA)
+Hematology (AREA)
+Life Sciences & Earth Sciences (AREA)
+Animal Behavior & Ethology (AREA)
+General Health & Medical Sciences (AREA)
+Public Health (AREA)
+Veterinary Medicine (AREA)
+Magnetic Treatment Devices (AREA)
+
+Description
+
+APPARATUS FOR SCALAR ENERGY GENERATION
+FIELD OF THE INVENTION
+The present invention describes an apparatus for scalar energy generation. More specifically, it comprises a household apparatus equipped with an electronic circuit capable of generating a floating wave at a fixed frequency of 12 hertz, said frequency radiated through a transmitting antenna.
+
+BACKGROUND OF THE INVENTION
+Scalar energy is the wave generated by an electronic system that, from a group of electronic components operating in conjunction, generates this harmonic scalar wave at a frequency of 12 Hz, with an oscillating voltage of 0.5 to 2 volts, radiated in alternating voltage and current, with positive and negative waves that are not simultaneous but interspersed, being positive at one time, negative at another.
+
+Thus, scalar energy is energy that has magnitude but no specific direction, that is, it manifests in all directions simultaneously.
+
+Scalar energy has the characteristic of being in electrical equilibrium in its normal state, and therefore is not readily perceptible to measuring instruments based on electromagnetism.
+
+Scalar energy was discovered and worked with in a practical manner at the beginning of the 20th century by Nikola Tesla.
+
+However, over time, various researchers have attributed different names to scalar energy: Animal Magnetism (Mesmer), odic force (von Reichenbach), orgone (W. Reich), radiant energy (Tesla), eloptic energy (Hieronymus), among others. Furthermore, the Chinese call scalar energy Ch'i, the Japanese
+
+
+---
+
+
+call it Ki, and the Hindus call it prana.
+
+When two electromagnetic waves meet, they create a scalar wave and vice versa. Electroencephalographs can measure the electromagnetic waves generated by the brain, but each half of the brain is a scalar generator, and the confluence of the two waves generated by each half produces an electromagnetic wave captured by the apparatus.
+
+In another context, magnets are the most visible form of scalar energy manifestation. The research of Davis and Rawis showed that there is a region in the center of the magnet called the Bloch Wall, where scalar energy is captured and its components form the characteristic polarities of the magnet. Each polarity has its own characteristics and can be used to control various organic processes.
+
+The technical literature references studies on scalar energy with application in motors, such as Tesla's work.
+
+In Germany, Engineer Konstantin Meyl reproduced Tesla's experiments and wrote the book "Scalar Waves," where he demonstrates that the electro-electronic technology used is based on Maxwell's equations, which do not encompass the scalar portion of energy. He demonstrates, based on Faraday's practical experiments, that scalar energy is inherent to the energy generation process.
+
+Dr. Valerie Hunt has been researching scalar energy in humans, with remarkable discoveries about human performance capacity when one can access this energy field.
+
+In Brazil, researchers Cesar Sóos and Roberto Frascari have been developing technological and therapeutic applications with scalar
+
+
+---
+
+
+energy.
+
+The human body is a network with different forms of energy. This energy system is what sustains the physical body. Each living cell in the body emits electromagnetic radiation, each having a positive and a negative polarity. In general, the exterior of the cell has a positive polarity and the interior a negative polarity. However, these polarities can be momentarily reversed through the action of ion charges on the membrane that conducts sodium ions out of the cell and pumps potassium ions into it. This movement of electrically charged ions at the cellular level forms the energy fields of the complex electromagnetic system of the human body.
+
+Energy medicine recognizes the subtle energy of the body as a living force that determines an individual's health and well-being. In this approach, the physical body is seen as a network of vital energy that has ramifications with the external world. Diseases arise from imbalance or weakening of the energy matrices.
+
+Scalar energy plays this role by facilitating energy flow and optimizing cellular functions. In the long run, this can slow aging and prevent the onset of diseases.
+
+Accordingly, it is the object of the present invention to provide equipment that generates a floating wave at a fixed frequency of 12 hertz, such as scalar energy, for the health benefits of the user, particularly regarding the human immune system and blood circulation, said equipment being for household use.
+
+BRIEF DESCRIPTION OF THE FIGURE
+
+Figure 1 presents a schematic diagram of the apparatus for
+
+
+---
+
+
+scalar energy generation.
+
+DETAILED DESCRIPTION OF THE INVENTION
+
+The apparatus for scalar energy generation, object of the present invention, comprises an electronic circuit capable of generating a floating wave at a fixed frequency of 12 hertz, said frequency radiated through an antenna, whose wave propagates within a radius of up to two meters from the floating wave generating source.
+
+A microcontroller (10) powered by a motor (11) is connected to a positive exciter circuit (20) and a negative exciter circuit (30). The microcontroller (10) sends a pulse to the positive exciter circuit (20), keeping the negative exciter circuit (30) inoperative. Then, the microcontroller (10) shuts off the positive exciter circuit (20) while simultaneously sending a pulse to the negative exciter circuit (30). This sequence is repeated indefinitely, always alternately, at a frequency of 12 Hz.
+
+The positive (20) and negative (30) exciter circuits present at their outputs a connection to a power converter unit (40), such as a transformer, which modifies the voltage and current to the scalar waveform, then sending it to the transmitting antenna (50) connected at the output of the power converter unit (40) to provide for the conduction of the floating waves.
+
+The antenna (50) is manufactured from conductive material with insulation to prevent direct contact with humans.
+
+The antenna (50) is applied at a minimum distance of 2 centimeters from the user.
+
+The floating wave generating source provides very low intensity waves, with waves interspersed between neutrons and electrons, or protons and electrons, or positive and negative, with low voltage and low current, not harmful to humans.
+
+Claims
+
+CLAIMS:
+
+1. APPARATUS FOR SCALAR ENERGY GENERATION, characterized by comprising a microcontroller (10) connected to a positive exciter circuit (20) and a negative exciter circuit (30), said microcontroller (10) performing a sequence repeated indefinitely, always alternately, at a frequency of 12 Hz, sending a pulse to the positive exciter circuit (20) and keeping the negative exciter circuit (30) inoperative, and then shutting off the positive exciter circuit (20) and sending a pulse to the negative exciter circuit (30), said positive (20) and negative (30) exciter circuits presenting at their respective outputs a connection to a power converter unit (40) that modifies the voltage and current to the scalar waveform, then sending it to a transmitting antenna (50).
+
+2. APPARATUS FOR SCALAR ENERGY GENERATION, according to claim 1, characterized in that the antenna (50) is made of conductive material with insulation.
+
+PCT/BR2013/000122
+2012-04-16
+2013-04-15
+Apparatus for scalar energy generation
+
+Ceased
+
+WO2013155580A1 (pt)
+
+Applications Claiming Priority (2)
+
+Application Number | Priority Date | Filing Date | Title
+BR102012008851 | 2012-04-16 | | |
+BRBR10201200885-1 | 2012-04-16 | | |
+
+
+---
+
+
+Publications (1) 
+ 
+ 
+ 
+ Publication Number 
+ Publication Date 
+ 
+ 
+ 
+ 
+ 
+ WO2013155580A1 
+ 
+ true 
+ 
+ WO2013155580A1
+ ( pt )
+ 
+ 
+ 2013-10-24
+
+Family 
+ ID=49382725
+
+Family Applications (1) 
+ 
+ 
+ 
+ Application Number 
+ Title 
+ Priority Date 
+ Filing Date 
+ 
+ 
+ 
+ 
+ 
+ PCT/BR2013/000122 
+ Ceased 
+ 
+ 
+ WO2013155580A1 
+ ( pt )
+ 
+ 
+ 2012-04-16 
+ 2013-04-15 
+ Aparelho para geração de energia escalar
+
+Country Status (1) 
+ 
+ 
+ 
+ Country 
+ Link 
+ 
+ 
+ 
+ 
+ 
+ WO 
+ ( 1 )
+ 
+ 
+ 
+ 
+ WO2013155580A1 
+ ( pt )
+
+Cited By (2) 
+ 
+ * Cited by examiner, † Cited by third party 
+ 
+ 
+ Publication number 
+ Priority date 
+ Publication date 
+ Assignee 
+ Title 
+ 
+ 
+ 
+ 
+ 
+ 
+ WO2017026889A3 
+ ( en )
+ 
+ * 
+ 
+ 
+ 2015-08-11 
+ 2017-03-23 
+ Zazen Health Solutions Sdn Bhd. 
+ Device for generating high intensity scalar energy and method thereof 
+ 
+ 
+ 
+ 
+ 
+ WO2025248028A1 
+ ( fr )
+ 
+ 
+ 
+ 
+ 2024-05-30 
+ 2025-12-04 
+ Lipeo 
+ Ondes électromagnétiques longitudinales, visualisation et mesures
+
+Citations (5) 
+ 
+ * Cited by examiner, † Cited by third party 
+ 
+ 
+ Publication number 
+ Priority date 
+ Publication date 
+ Assignee 
+ Title 
+ 
+ 
+ 
+ 
+ 
+ 
+ US2482773A 
+ ( en )
+ 
+ * 
+ 
+ 
+ 1946-10-23 
+ 1949-09-27 
+ 
+ Thomas G Hieronymus 
+ 
+ Detection of emanations from materials and measurement of the volumes thereof 
+ 
+ 
+ 
+ 
+ 
+ US2969506A 
+ ( en )
+ 
+ * 
+ 
+ 
+ 1957-05-25 
+ 1961-01-24 
+ 
+ Tesla Np 
+ 
+ Low frequency amplifier excited by width modulated impulses 
+ 
+ 
+ 
+ 
+ 
+ US7194303B2 
+ ( en )
+ 
+ * 
+ 
+ 
+ 2001-11-05 
+ 2007-03-20 
+ 
+ Cameron Health, Inc. 
+ 
+ H-bridge with sensing circuit 
+ 
+ 
+ 
+ 
+ 
+ US20100254221A1 
+ ( en )
+ 
+ * 
+ 
+ 
+ 2007-04-12 
+ 2010-10-07 
+ 
+ Stephen Smith 
+ 
+ H-Bridge pulse generator 
+ 
+ 
+ 
+ 
+ 
+ US8088057B2 
+ ( en )
+ 
+ * 
+ 
+ 
+ 2005-02-01 
+ 2012-01-03 
+ 
+ James David Honeycutt 
+ 
+ Apparatus and methods to improve sleep, reduce pain and promote natural healing
+
+2013 
+ 
+ 
+ 2013-04-15 
+ WO 
+ PCT/BR2013/000122 
+ patent/WO2013155580A1/pt 
+ not_active 
+ Ceased
+
+Patent Citations (5) 
+ 
+ * Cited by examiner, † Cited by third party 
+ 
+ 
+ Publication number 
+ Priority date 
+ Publication date 
+ Assignee 
+ Title 
+ 
+ 
+ 
+ 
+ 
+ 
+ US2482773A 
+ ( en )
+ 
+ * 
+ 
+ 
+ 1946-10-23 
+ 1949-09-27 
+ Thomas G Hieronymus 
+ Detection of emanations from materials and measurement of the volumes thereof 
+ 
+ 
+ 
+ 
+ 
+ US2969506A 
+ ( en )
+ 
+ * 
+ 
+ 
+ 1957-05-25 
+ 1961-01-24 
+ Tesla Np 
+ Low frequency amplifier excited by width modulated impulses 
+ 
+ 
+ 
+ 
+ 
+ US7194303B2 
+ ( en )
+ 
+ * 
+ 
+ 
+ 2001-11-05 
+ 2007-03-20 
+ Cameron Health, Inc. 
+ H-bridge with sensing circuit 
+ 
+ 
+ 
+ 
+ 
+ US8088057B2 
+ ( en )
+ 
+ * 
+ 
+ 
+ 2005-02-01 
+ 2012-01-03 
+ James David Honeycutt 
+ Apparatus and methods to improve sleep, reduce pain and promote natural healing 
+ 
+ 
+ 
+ 
+ 
+ US20100254221A1 
+ ( en )
+ 
+ * 
+ 
+ 
+ 2007-04-12 
+ 2010-10-07 
+ Stephen Smith 
+ H-Bridge pulse generator
+
+
+---
+
+
+Cited By (2) 
+ 
+ * Cited by examiner, † Cited by third party 
+ 
+ 
+ Publication number 
+ Priority date 
+ Publication date 
+ Assignee 
+ Title 
+ 
+ 
+ 
+ 
+ 
+ 
+ WO2017026889A3 
+ ( en )
+ 
+ * 
+ 
+ 
+ 2015-08-11 
+ 2017-03-23 
+ Zazen Health Solutions Sdn Bhd. 
+ Device for generating high intensity scalar energy and method thereof 
+ 
+ 
+ 
+ 
+ 
+ WO2025248028A1 
+ ( fr )
+ 
+ 
+ 
+ 
+ 2024-05-30 
+ 2025-12-04 
+ Lipeo 
+ Ondes électromagnétiques longitudinales, visualisation et mesures
+
+
+---
+
+
+Similar Documents 
+ 
+ 
+ 
+ Publication 
+ Publication Date 
+ Title 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ US9636519B2 
+ ( en )
+ 
+ 
+ 
+ 
+ 
+ 2017-05-02 
+ 
+ 
+ 
+ Magnetic stimulation methods and devices for therapeutic treatments 
+ 
+ 
+ 
+ 
+ 
+ 
+ KR100841596B1 
+ ( ko )
+ 
+ 
+ 
+ 
+ 
+ 2008-06-26 
+ 
+ 
+ 
+ 자기장 치료기의 냉각 장치 
+ 
+ 
+ 
+ 
+ 
+ 
+ US11491342B2 
+ ( en )
+ 
+ 
+ 
+ 
+ 
+ 2022-11-08 
+ 
+ 
+ 
+ Magnetic stimulation methods and devices for therapeutic treatments 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN112221015A 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2021-01-15 
+ 
+ 
+ 
+ 一种通过电磁场分解脂肪组织的装置与方法 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Singh 
+ 
+ 
+ 
+ 
+ 2012 
+ 
+ 
+ Textbook of electrotherapy 
+ 
+ 
+ 
+ 
+ 
+ BR112012001065B8 
+ ( pt )
+ 
+ 
+ 
+ 
+ 
+ 2023-04-25 
+ 
+ 
+ 
+ Reator de ponto de estrela 
+ 
+ 
+ 
+ 
+ 
+ 
+ US3785383A 
+ ( en )
+ 
+ 
+ 
+ 
+ 
+ 1974-01-15 
+ 
+ 
+ 
+ Electrostatic wand 
+ 
+ 
+ 
+ 
+ 
+ 
+ CO2023004699A2 
+ ( es )
+ 
+ 
+ 
+ 
+ 
+ 2023-10-19 
+ 
+ 
+ 
+ Divisor de corriente antimagnética, medidor de potencia eléctrica y método para fabricar el divisor de corriente antimagnética 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN106236250A 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2016-12-21 
+ 
+ 
+ 
+ 可调节治疗深度的双极射频治疗装置 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN104993732B 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2017-06-13 
+ 
+ 
+ 
+ 一种用于无线电能传输的高倍频逆变电路 
+ 
+ 
+ 
+ 
+ 
+ 
+ ES1259227U 
+ ( es )
+ 
+ 
+ 
+ 
+ 
+ 2021-01-19 
+ 
+ 
+ 
+ Dispositivo de terapia diatermica sistemica 
+ 
+ 
+ 
+ 
+ 
+ 
+ KR101363629B1 
+ ( ko )
+ 
+ 
+ 
+ 
+ 
+ 2014-03-20 
+ 
+ 
+ 
+ 산업용 자화수 처리장치 
+ 
+ 
+ 
+ 
+ 
+ 
+ JP3215857U 
+ ( ja )
+ 
+ 
+ 
+ 
+ 
+ 2018-04-19 
+ 
+ 
+ 
+ フリーラジカルを無毒化するマイナス静電界発生装置 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN205624991U 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2016-10-12 
+ 
+ 
+ 
+ 一种电磁保健梳子 
+ 
+ 
+ 
+ 
+ 
+ 
+ RU2007132831A 
+ ( ru )
+ 
+ 
+ 
+ 
+ 
+ 2009-03-10 
+ 
+ 
+ 
+ Способ физиотерапевтического воздействия на кровь, лимфу, клеточно-межклеточную жидкость, сосудистую стенку при различных сосудистых и сердечно-сосудистых заболеваниях и устройство для его осуществления 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN204374709U 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2015-06-03 
+ 
+ 
+ 
+ 一种量子阵列系列治疗仪控制系统 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN204522001U 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2015-08-05 
+ 
+ 
+ 
+ 多功能电位治疗仪 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN211583760U 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2020-09-29 
+ 
+ 
+ 
+ 一种新型保健理疗带 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN206453845U 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2017-09-01 
+ 
+ 
+ 
+ 可调节治疗深度的双极射频治疗装置 
+ 
+ 
+ 
+ 
+ 
+ 
+ BR112019020128A8 
+ ( pt )
+ 
+ 
+ 
+ 
+ 
+ 2022-12-27 
+ 
+ 
+ 
+ Sistema para transferência de energia sem fio em um ambiente de alta tensão, disjuntor de alta tensão e uso do sistema 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN202654543U 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2013-01-09 
+ 
+ 
+ 
+ 一种带过电流保护装置的治疗仪 
+ 
+ 
+ 
+ 
+ 
+ 
+ CN215135978U 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2021-12-14 
+ 
+ 
+ 
+ 一种通过电磁场分解脂肪组织的装置 
+ 
+ 
+ 
+ 
+ 
+ 
+ RU2722354C1 
+ ( ru )
+ 
+ 
+ 
+ 
+ 
+ 2020-05-29 
+ 
+ 
+ 
+ Устройство для полостного физиотерапевтического воздействия (варианты) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Holmquest 
+ 
+ 
+ 
+ 
+ 1945 
+ 
+ 
+ Application of high frequency phenomena in medicine 
+ 
+ 
+ 
+ 
+ 
+ CN202446676U 
+ ( zh )
+ 
+ 
+ 
+ 
+ 
+ 2012-09-26 
+ 
+ 
+ 
+ 一种高频复合式全身热疗系统的加热床体
+
+
+---
+
+
+Legal Events 
+ 
+ 
+ 
+ Date 
+ Code 
+ Title 
+ Description 
+ 
+ 
+ 
+ 
+ 2013-12-11 
+ 121 
+ Ep: the epo has been informed by wipo that ep was designated in this application 
+ 
+ 
+ Ref document number :
+ 13777639 
+ 
+ 
+ Country of ref document :
+ EP 
+ 
+ 
+ Kind code of ref document :
+ A1 
+ 
+ 
+ 
+ 
+ 2014-10-16 
+ NENP 
+ Non-entry into the national phase 
+ 
+ 
+ Ref country code :
+ DE 
+ 
+ 
+ 
+ 
+ 2015-05-06 
+ 122 
+ Ep: pct application non-entry in european phase 
+ 
+ 
+ Ref document number :
+ 13777639 
+ 
+ 
+ Country of ref document :
+ EP 
+ 
+ 
+ Kind code of ref document :
+ A1
+
+
+---
+

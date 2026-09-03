@@ -1,8 +1,11 @@
 ---
-name: The Platonic Theory of Everything and
-description: "Translation document."
+name: "2026-09-02-spyridis-platonic-theory-of-everything-el"
+description: "Auto-added frontmatter for living-library validation"
 ---
 
+---
+description: "translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md"
+---
 The Platonic Theory of Everything and
                     the Spyridis Unified Theory of the Electro-Strong Interaction
 
@@ -1174,4 +1177,3 @@ Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/
 
 
 ---
-

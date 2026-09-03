@@ -6,7 +6,7 @@ description: DE->EN translation of Dirk Schadach's paper on Barrett's extended e
 - **date:** 2026-09-02
 - **domain:** electromagnetism, gauge theory, vacuum field physics
 - **source_url:** https://novam-research.com/resources/Extended-Theory-of-Electromagnetism_D-Schadach.pdf
-- **language:** en
+- **language:** de
 - **author:** Dirk Schadach
 - **translator:** The Wizard (translator-foreign agent)
 
