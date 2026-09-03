@@ -1,233 +1,233 @@
 {
-  "sites": [
-    {
-      "name": "tuks.nl",
-      "status": "site_down",
-      "base_url": "http://www.tuks.nl",
-      "crawl_type": "apache_dir",
-      "crawl_paths": [
-        "/pdf/",
-        "/docs/",
-        "/WFCProject/"
-      ],
-      "notes": "Arend Lammertink's archive - Eric Dollard, Tesla, parametric excitation, patents"
-    },
-    {
-      "name": "lenr-canr.org",
-      "status": "complete",
-      "base_url": "https://lenr-canr.org",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "LENR/cold fusion document archive ~1000+ docs. Look for PDF links in article listings.",
-      "file_count": 24
-    },
-    {
-      "name": "viXra.org",
-      "status": "complete",
-      "base_url": "https://vixra.org",
-      "crawl_type": "api_listing",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "46000+ preprints. Has listing pages by category. Download PDFs from each listing page.",
-      "file_count": 6923
-    },
-    {
-      "name": "i-sis.org.uk",
-      "status": "crawl_failed",
-      "base_url": "https://www.i-sis.org.uk",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/",
-        "/all.php"
-      ],
-      "notes": "ISIS reports ~2000 reports. Science and society topics including GMO, energy, health."
-    },
-    {
-      "name": "filestore.orgfree.com",
-      "status": "active",
-      "base_url": "http://filestore.orgfree.com",
-      "crawl_type": "apache_dir",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "~200+ PDFs on alternative science (Apache dir listing). FAST harvest - good scout target."
-    },
-    {
-      "name": "ether.sciences.free.fr",
-      "status": "complete",
-      "base_url": "http://ether.sciences.free.fr",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "~50+ patent PDFs related to ether/aether science",
-      "file_count": 39
-    },
-    {
-      "name": "padrak.com/ine",
-      "status": "crawl_failed",
-      "base_url": "http://padrak.com/ine",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "~130+ device pages, INE (Institute for New Energy) directory"
-    },
-    {
-      "name": "psionicresearch.com",
-      "status": "crawled",
-      "base_url": "https://psionicresearch.com",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "Psionics and radionics research",
-      "file_count": 0
-    },
-    {
-      "name": "strikefoundation.earth",
-      "status": "pending",
-      "base_url": "https://strikefoundation.earth",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "Alternative science and energy research"
-    },
-    {
-      "name": "cernohajev.omeka.net",
-      "status": "pending",
-      "base_url": "https://cernohajev.omeka.net",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "Historical archive, Omeka-based digital collection"
-    },
-    {
-      "name": "magneticenergy.org",
-      "status": "pending",
-      "base_url": "http://magneticenergy.org",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "Magnetic energy technology, Tom Bearden related"
-    },
-    {
-      "name": "newphysics.se",
-      "status": "pending",
-      "base_url": "https://newphysics.se",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "Swedish alternative physics site"
-    },
-    {
-      "name": "merlib.lackluster.org",
-      "status": "pending",
-      "base_url": "http://merlib.lackluster.org",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "M.E.R.L.I.B. - Magnetic Energy Research Library and Information Bureau"
-    },
-    {
-      "name": "borderlands.de",
-      "status": "pending",
-      "base_url": "https://web.archive.org/web/2018/http://borderlands.de",
-      "crawl_type": "wayback_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "Borderland Sciences Research Foundation - major fringe science archive. Site is down, scraping from Wayback Machine. Look for PDF/article links in archived pages."
-    },
-    {
-      "name": "keychests.com",
-      "status": "pending",
-      "base_url": "https://web.archive.org/web/2017/http://www.keychests.com",
-      "crawl_type": "wayback_scrape",
-      "crawl_paths": [
-        "/browse",
-        "/files-a/",
-        "/files-b/",
-        "/files-c/",
-        "/files-d/",
-        "/files-e/",
-        "/files-0/",
-        "/files-1/",
-        "/files-2/",
-        "/files-3/",
-        "/files-4/",
-        "/files-5/",
-        "/files-6/",
-        "/files-7/",
-        "/files-8/",
-        "/files-9/"
-      ],
-      "notes": "Old file-sharing site used by Aetherforce community. Domain is dead (parked on HugeDomains). Scraping Wayback Machine for file listings. Actual downloads may be dead but we can catalog what was there."
-    },
-    {
-      "name": "svpwiki.com",
-      "status": "active",
-      "base_url": "https://svpwiki.com",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/",
-        "/sitemap.xml"
-      ],
-      "notes": "Dale Pond's SVPwiki (15,000-page TikiWiki; Keely/SVP). ALIVE, on-mission, HIGH VALUE. sitemap.xml exists; pages are tiki-index.php?page=X. First scout should run crawl_generic.py svpwiki.com",
-      "file_count": 0
-    },
-    {
-      "name": "infinite-energy.com",
-      "status": "pending",
-      "base_url": "https://infinite-energy.com",
-      "crawl_type": "wayback_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "Infinite Energy Magazine articles online. Live site blocks bots (403); harvest via Wayback CDX. Decades of free articles.",
-      "file_count": 0
-    },
-    {
-      "name": "keelynet.com",
-      "status": "pending",
-      "base_url": "https://web.archive.org/web/2018/http://keelynet.com",
-      "crawl_type": "wayback_scrape",
-      "crawl_paths": [
-        "/"
-      ],
-      "notes": "KEELYNET (dead) — 474 archived PDFs in Wayback. John Keely / free energy personal site. THE rare gem source. Use wayback_scavenger.py.",
-      "file_count": 0
-    },
-    {
-      "name": "energeticforum.com",
-      "status": "pending",
-      "base_url": "https://www.energeticforum.com",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/",
-        "/forum/"
-      ],
-      "notes": "Energetic Forum — real researcher build logs. vBulletin; thread links need JS/browser. Hard scrape, high rarity. Use browser-use if wget fails.",
-      "file_count": 0
-    },
-    {
-      "name": "overunity.com",
-      "status": "pending",
-      "base_url": "https://overunity.com",
-      "crawl_type": "html_link_scrape",
-      "crawl_paths": [
-        "/forum/"
-      ],
-      "notes": "OverUnity forum — build logs, direct researcher comms. JS launcher gate; thread index may need browser. High rarity.",
-      "file_count": 0
-    }
-  ]
+ "sites": [
+  {
+   "name": "tuks.nl",
+   "status": "active",
+   "base_url": "http://www.tuks.nl",
+   "crawl_type": "apache_dir",
+   "crawl_paths": [
+    "/pdf/",
+    "/docs/",
+    "/WFCProject/"
+   ],
+   "notes": "Arend Lammertink's archive - Eric Dollard, Tesla, parametric excitation, patents — REACTIVATED 2026-09-03: site returned (HTTP 200), was wrongly marked site_down"
+  },
+  {
+   "name": "lenr-canr.org",
+   "status": "complete",
+   "base_url": "https://lenr-canr.org",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "LENR/cold fusion document archive ~1000+ docs. Look for PDF links in article listings.",
+   "file_count": 24
+  },
+  {
+   "name": "viXra.org",
+   "status": "complete",
+   "base_url": "https://vixra.org",
+   "crawl_type": "api_listing",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "46000+ preprints. Has listing pages by category. Download PDFs from each listing page.",
+   "file_count": 6923
+  },
+  {
+   "name": "i-sis.org.uk",
+   "status": "crawl_failed",
+   "base_url": "https://www.i-sis.org.uk",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/",
+    "/all.php"
+   ],
+   "notes": "ISIS reports ~2000 reports. Science and society topics including GMO, energy, health."
+  },
+  {
+   "name": "filestore.orgfree.com",
+   "status": "active",
+   "base_url": "http://filestore.orgfree.com",
+   "crawl_type": "apache_dir",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "~200+ PDFs on alternative science (Apache dir listing). FAST harvest - good scout target."
+  },
+  {
+   "name": "ether.sciences.free.fr",
+   "status": "complete",
+   "base_url": "http://ether.sciences.free.fr",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "~50+ patent PDFs related to ether/aether science",
+   "file_count": 39
+  },
+  {
+   "name": "padrak.com/ine",
+   "status": "crawl_failed",
+   "base_url": "http://padrak.com/ine",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "~130+ device pages, INE (Institute for New Energy) directory"
+  },
+  {
+   "name": "psionicresearch.com",
+   "status": "crawled",
+   "base_url": "https://psionicresearch.com",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "Psionics and radionics research",
+   "file_count": 0
+  },
+  {
+   "name": "strikefoundation.earth",
+   "status": "pending",
+   "base_url": "https://strikefoundation.earth",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "Alternative science and energy research"
+  },
+  {
+   "name": "cernohajev.omeka.net",
+   "status": "pending",
+   "base_url": "https://cernohajev.omeka.net",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "Historical archive, Omeka-based digital collection"
+  },
+  {
+   "name": "magneticenergy.org",
+   "status": "pending",
+   "base_url": "http://magneticenergy.org",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "Magnetic energy technology, Tom Bearden related"
+  },
+  {
+   "name": "newphysics.se",
+   "status": "pending",
+   "base_url": "https://newphysics.se",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "Swedish alternative physics site"
+  },
+  {
+   "name": "merlib.lackluster.org",
+   "status": "pending",
+   "base_url": "http://merlib.lackluster.org",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "M.E.R.L.I.B. - Magnetic Energy Research Library and Information Bureau"
+  },
+  {
+   "name": "borderlands.de",
+   "status": "pending",
+   "base_url": "https://web.archive.org/web/2018/http://borderlands.de",
+   "crawl_type": "wayback_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "Borderland Sciences Research Foundation - major fringe science archive. Site is down, scraping from Wayback Machine. Look for PDF/article links in archived pages."
+  },
+  {
+   "name": "keychests.com",
+   "status": "pending",
+   "base_url": "https://web.archive.org/web/2017/http://www.keychests.com",
+   "crawl_type": "wayback_scrape",
+   "crawl_paths": [
+    "/browse",
+    "/files-a/",
+    "/files-b/",
+    "/files-c/",
+    "/files-d/",
+    "/files-e/",
+    "/files-0/",
+    "/files-1/",
+    "/files-2/",
+    "/files-3/",
+    "/files-4/",
+    "/files-5/",
+    "/files-6/",
+    "/files-7/",
+    "/files-8/",
+    "/files-9/"
+   ],
+   "notes": "Old file-sharing site used by Aetherforce community. Domain is dead (parked on HugeDomains). Scraping Wayback Machine for file listings. Actual downloads may be dead but we can catalog what was there."
+  },
+  {
+   "name": "svpwiki.com",
+   "status": "active",
+   "base_url": "https://svpwiki.com",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/",
+    "/sitemap.xml"
+   ],
+   "notes": "Dale Pond's SVPwiki (15,000-page TikiWiki; Keely/SVP). ALIVE, on-mission, HIGH VALUE. sitemap.xml exists; pages are tiki-index.php?page=X. First scout should run crawl_generic.py svpwiki.com",
+   "file_count": 0
+  },
+  {
+   "name": "infinite-energy.com",
+   "status": "pending",
+   "base_url": "https://infinite-energy.com",
+   "crawl_type": "wayback_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "Infinite Energy Magazine articles online. Live site blocks bots (403); harvest via Wayback CDX. Decades of free articles.",
+   "file_count": 0
+  },
+  {
+   "name": "keelynet.com",
+   "status": "pending",
+   "base_url": "https://web.archive.org/web/2018/http://keelynet.com",
+   "crawl_type": "wayback_scrape",
+   "crawl_paths": [
+    "/"
+   ],
+   "notes": "KEELYNET (dead) — 474 archived PDFs in Wayback. John Keely / free energy personal site. THE rare gem source. Use wayback_scavenger.py.",
+   "file_count": 0
+  },
+  {
+   "name": "energeticforum.com",
+   "status": "pending",
+   "base_url": "https://www.energeticforum.com",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/",
+    "/forum/"
+   ],
+   "notes": "Energetic Forum — real researcher build logs. vBulletin; thread links need JS/browser. Hard scrape, high rarity. Use browser-use if wget fails.",
+   "file_count": 0
+  },
+  {
+   "name": "overunity.com",
+   "status": "pending",
+   "base_url": "https://overunity.com",
+   "crawl_type": "html_link_scrape",
+   "crawl_paths": [
+    "/forum/"
+   ],
+   "notes": "OverUnity forum — build logs, direct researcher comms. JS launcher gate; thread index may need browser. High rarity.",
+   "file_count": 0
+  }
+ ]
 }
