@@ -902,6 +902,108 @@
         }
         .wn-activity .item .what { color: var(--text); }
         .wn-activity .item .what b { color: var(--accent); font-weight: 600; }
+        /* ─── Synthesis briefings — what the archive is learning ─── */
+        .synth-strip {
+            max-width: 1300px;
+            margin: 4px auto 2px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+        .synth-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+        .synth-title {
+            font-size: 0.78rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--sea-teal);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .synth-title .synth-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--sea-teal);
+            box-shadow: 0 0 8px var(--sea-teal);
+        }
+        .synth-more {
+            font-size: 0.75rem;
+            color: var(--gold-bright);
+            background: rgba(232,182,76,0.07);
+            border: 1px solid rgba(232,182,76,0.3);
+            border-radius: 8px;
+            padding: 6px 14px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .synth-more:hover { background: var(--gold); color: var(--bg); }
+        .synth-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+        }
+        .synth-card {
+            background: linear-gradient(160deg, var(--surface), #101a25);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--sea-teal);
+            border-radius: 10px;
+            padding: 12px 14px;
+            cursor: pointer;
+            transition: border-color 0.15s, transform 0.1s, box-shadow 0.15s;
+        }
+        .synth-card:hover {
+            border-color: var(--sea-teal);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(23,184,169,0.10);
+        }
+        .synth-card .sc-date {
+            font-size: 0.7rem;
+            color: var(--gold);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .synth-card .sc-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 1.4;
+            margin-bottom: 6px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .synth-card .sc-teaser {
+            font-size: 0.78rem;
+            color: var(--text-dim);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .synth-card .sc-read {
+            font-size: 0.75rem;
+            color: var(--sea-teal);
+            font-weight: 600;
+            margin-top: 8px;
+            display: block;
+        }
+        .synth-card:hover .sc-read { color: var(--gold-bright); }
+        @media (max-width: 640px) {
+            .synth-grid { grid-template-columns: 1fr; }
+        }
         /* ═══════════════ PIRATE'S PARADISE — Key Chest Dial ═══════════════ */
         .pirate-hero {
             background:
@@ -1349,6 +1451,15 @@
         </div>
     </div>
     <div class="kd-toast" id="kdToast"></div>
+
+    <!-- Synthesis briefings — what the archive is learning, under the dial, above the archive -->
+    <section class="synth-strip" id="synthStrip" aria-label="Synthesis briefings">
+        <div class="synth-head">
+            <span class="synth-title"><span class="synth-dot"></span>⚗ Synthesis Briefings · What We're Learning</span>
+            <a class="synth-more" href="./synthesis.html" id="synthMoreLink">All briefings →</a>
+        </div>
+        <div class="synth-grid" id="synthCards"></div>
+    </section>
 
     <!-- Mobile sidebar toggle -->
     <button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">
@@ -1937,6 +2048,38 @@
                 d.innerHTML = `<span class="when">${when}</span><span class="what"><b>${escapeHtml(e.agent)}</b> — ${what}</span>`;
                 aEl.appendChild(d);
             });
+        }
+
+        /* ═══ Synthesis briefing strip — latest briefings under the dial ═══ */
+        function loadSynthStrip() {
+            const cardsEl = document.getElementById('synthCards');
+            const moreEl = document.getElementById('synthMoreLink');
+            if (!cardsEl) return;
+            fetch('./synthesis/synthesis_index.json', { cache: 'no-store' })
+                .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                .then(list => {
+                    const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
+                    if (!entries.length) { document.getElementById('synthStrip').style.display = 'none'; return; }
+                    if (moreEl) moreEl.textContent = `All ${entries.length} briefings →`;
+                    const latest = entries.slice(0, 3);
+                    cardsEl.innerHTML = '';
+                    latest.forEach(e => {
+                        const card = document.createElement('a');
+                        card.className = 'synth-card';
+                        card.href = `./synthesis.html#${encodeURIComponent(e.slug || e.file)}`;
+                        card.innerHTML = `
+                            <span class="sc-date">${e.date || ''}</span>
+                            <span class="sc-title">${escapeHtml(e.title)}</span>
+                            ${e.teaser ? `<span class="sc-teaser">${escapeHtml(e.teaser)}</span>` : ''}
+                            <span class="sc-read">Read briefing →</span>
+                        `;
+                        cardsEl.appendChild(card);
+                    });
+                })
+                .catch(() => {
+                    const strip = document.getElementById('synthStrip');
+                    if (strip) strip.style.display = 'none';
+                });
         }
 
         /* ─── Key Chest Dial — lock wheel: drag to rotate, one big selection at the window ──── */
@@ -2853,6 +2996,7 @@
         });
 
         loadIndex();
+        loadSynthStrip();
     </script>
 </body>
 </html>

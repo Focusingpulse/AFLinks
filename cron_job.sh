@@ -85,6 +85,8 @@ fi
 # so the seam/comparison layers stay fresh as the archive grows.
 python3 tag_concepts.py 2>&1 | head -2
 python3 build_library_feed.py 2>&1 | tail -3
+# Rebuild the synthesis index so the home strip and synthesis page stay fresh
+python3 build_synthesis_index.py 2>&1 | tail -2
 # Slim search index (fast phone loads) + chunked full records for the detail modal
 python3 build_slim_index.py 2>&1 | tail -2
 

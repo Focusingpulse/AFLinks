@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synthesis Briefings — The Aetherforce Treasure Vault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0b0f14;
+            --surface: #141c27;
+            --surface-hover: #1e2a38;
+            --accent: #4fc3f7;
+            --accent-dim: #2a6b85;
+            --accent-glow: rgba(79, 195, 247, 0.15);
+            --text: #e8eef4;
+            --text-dim: #8a9bae;
+            --border: #253242;
+            --gold: #e8b64c;
+            --gold-bright: #ffd166;
+            --sea-deep: #03171e;
+            --sea-teal: #17b8a9;
+            --sea-teal-dim: #0f5f58;
+            --shadow: 0 4px 12px rgba(0,0,0,0.35);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.5;
+        }
+        /* ─── Hero ─── */
+        .hero {
+            background:
+                radial-gradient(1200px 500px at 50% -120px, rgba(23,184,169,0.22), transparent 60%),
+                radial-gradient(900px 400px at 85% 110%, rgba(232,182,76,0.12), transparent 60%),
+                linear-gradient(165deg, #03171e 0%, #06232c 45%, #051d26 100%);
+            border-bottom: 1px solid rgba(232,182,76,0.28);
+            padding: 40px 20px 32px;
+            text-align: center;
+        }
+        .hero .kicker {
+            font-family: 'Pirata One', serif;
+            font-size: 1.1rem;
+            letter-spacing: 3px;
+            color: var(--gold);
+            display: block;
+            margin-bottom: 6px;
+            text-shadow: 0 0 18px rgba(232,182,76,0.4);
+        }
+        .hero h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--sea-teal);
+            letter-spacing: -0.02em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 24px var(--accent-glow);
+        }
+        .hero p {
+            font-size: 0.92rem;
+            color: var(--text-dim);
+            max-width: 680px;
+            margin: 0 auto;
+        }
+        .hero-nav {
+            margin-top: 18px;
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .hero-nav a {
+            display: inline-block;
+            padding: 8px 18px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.82rem;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .hero-nav a:hover {
+            background: var(--accent-dim);
+            border-color: var(--accent-dim);
+            color: var(--accent);
+        }
+        .hero-nav a.here {
+            background: var(--sea-teal-dim);
+            border-color: var(--sea-teal);
+            color: #fff;
+        }
+        /* ─── Explainer ─── */
+        .explainer {
+            max-width: 1100px;
+            margin: 26px auto 10px;
+            padding: 0 20px;
+        }
+        .explainer h2 {
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--gold);
+            text-align: center;
+            margin-bottom: 16px;
+            font-weight: 700;
+        }
+        .exp-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 12px;
+        }
+        .exp-card {
+            background: linear-gradient(160deg, var(--surface), #101a25);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px;
+        }
+        .exp-card:hover { border-color: var(--sea-teal-dim); }
+        .exp-card h3 {
+            font-size: 0.9rem;
+            color: var(--sea-teal);
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .exp-card p {
+            font-size: 0.82rem;
+            color: var(--text-dim);
+            line-height: 1.55;
+        }
+        .exp-card p b { color: var(--text); font-weight: 600; }
+        /* ─── Briefing list ─── */
+        .briefings {
+            max-width: 1100px;
+            margin: 22px auto 40px;
+            padding: 0 20px;
+        }
+        .briefings-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+        .briefings-head h2 {
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--sea-teal);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .briefings-head .count {
+            font-size: 0.75rem;
+            color: var(--text-dim);
+        }
+        .briefing-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 16px 18px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: border-color 0.15s, transform 0.1s, box-shadow 0.15s;
+        }
+        .briefing-card:hover {
+            border-color: var(--sea-teal);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 18px rgba(23,184,169,0.10);
+        }
+        .bc-top {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 6px;
+        }
+        .bc-date {
+            font-family: 'SF Mono', 'Consolas', monospace;
+            font-size: 0.72rem;
+            color: var(--gold);
+            background: rgba(232,182,76,0.08);
+            border: 1px solid rgba(232,182,76,0.25);
+            padding: 2px 9px;
+            border-radius: 10px;
+            letter-spacing: 0.04em;
+        }
+        .bc-author {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+        }
+        .bc-sources {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            background: var(--surface-hover);
+            border: 1px solid var(--border);
+            padding: 2px 9px;
+            border-radius: 10px;
+            margin-left: auto;
+        }
+        .bc-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 1.35;
+            margin-bottom: 6px;
+        }
+        .bc-teaser {
+            font-size: 0.84rem;
+            color: var(--text-dim);
+            line-height: 1.5;
+            margin-bottom: 8px;
+        }
+        .bc-read {
+            font-size: 0.78rem;
+            color: var(--sea-teal);
+            font-weight: 600;
+        }
+        .bc-read:hover { color: var(--gold-bright); }
+        .empty-note {
+            text-align: center;
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            padding: 40px 0;
+            font-style: italic;
+        }
+        /* ─── Reader modal ─── */
+        .reader-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(4, 10, 16, 0.88);
+            backdrop-filter: blur(3px);
+            z-index: 1000;
+            overflow-y: auto;
+            padding: 24px 16px;
+        }
+        .reader-overlay.show { display: block; }
+        .reader-modal {
+            max-width: 860px;
+            margin: 0 auto;
+            background: linear-gradient(165deg, #0e1620 0%, #101a25 100%);
+            border: 1px solid var(--sea-teal-dim);
+            border-radius: 14px;
+            padding: 26px 30px 30px;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 40px rgba(23,184,169,0.08);
+        }
+        .reader-close {
+            position: absolute;
+            top: 14px;
+            right: 16px;
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            font-size: 1.1rem;
+            cursor: pointer;
+            padding: 6px;
+            border-radius: 8px;
+            transition: all 0.15s;
+        }
+        .reader-close:hover { color: var(--gold); background: var(--surface-hover); }
+        .reader-src {
+            font-size: 0.74rem;
+            color: var(--text-dim);
+            margin-bottom: 14px;
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .reader-src a { color: var(--gold); text-decoration: none; border-bottom: 1px dotted rgba(232,182,76,0.4); }
+        .reader-src a:hover { color: var(--gold-bright); }
+        .reader-body h1 { font-size: 1.5rem; color: var(--sea-teal); margin: 0 0 8px; line-height: 1.3; }
+        .reader-body h2 { font-size: 1.15rem; color: var(--gold); margin: 22px 0 8px; font-weight: 700; }
+        .reader-body h3 { font-size: 1rem; color: var(--accent); margin: 18px 0 6px; font-weight: 600; }
+        .reader-body p { margin: 10px 0; color: var(--text); font-size: 0.92rem; line-height: 1.65; }
+        .reader-body ul, .reader-body ol { margin: 8px 0 8px 24px; }
+        .reader-body li { margin: 5px 0; color: var(--text); font-size: 0.9rem; line-height: 1.55; }
+        .reader-body blockquote {
+            border-left: 3px solid var(--gold);
+            background: rgba(232,182,76,0.05);
+            padding: 10px 16px;
+            margin: 12px 0;
+            color: var(--text-dim);
+            font-style: italic;
+        }
+        .reader-body table { border-collapse: collapse; margin: 12px 0; width: 100%; font-size: 0.85rem; }
+        .reader-body th, .reader-body td { border: 1px solid var(--border); padding: 6px 10px; text-align: left; }
+        .reader-body th { background: var(--surface-hover); color: var(--accent); font-weight: 600; }
+        .reader-body hr { border: none; border-top: 1px solid var(--border); margin: 20px 0; }
+        .reader-body a { color: var(--sea-teal); }
+        .reader-body strong { color: var(--gold-bright); }
+        .reader-body em { color: var(--text-dim); }
+        .reader-body code { background: var(--surface-hover); padding: 2px 6px; border-radius: 6px; font-size: 0.85em; color: var(--accent); }
+        .reader-loading { text-align: center; color: var(--text-dim); font-style: italic; padding: 40px 0; }
+        /* ─── Footer ─── */
+        .footer {
+            border-top: 1px solid var(--border);
+            padding: 24px 20px 30px;
+            text-align: center;
+        }
+        .footer-links {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+        .footer-links a { color: var(--text-dim); text-decoration: none; font-size: 0.8rem; }
+        .footer-links a:hover { color: var(--accent); }
+        .footer-credit { font-size: 0.72rem; color: #5a6b7d; }
+        .footer-credit a { color: #5a6b7d; }
+        .footer-credit a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 1.5rem; }
+            .reader-modal { padding: 20px 18px 24px; }
+            .bc-sources { margin-left: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero -->
+    <div class="hero">
+        <span class="kicker">🏴‍☠️ The Living Threads of the Archive</span>
+        <h1>Synthesis Briefings</h1>
+        <p>The vault's synthesis agent reads across thousands of independent sources, finds the traditions that arrived at the same claim without ever citing each other, and documents the thread. Each briefing is a map of convergence — what the archive is quietly pointing at.</p>
+        <div class="hero-nav">
+            <a href="./index.html">🏴‍☠️ Treasure Vault</a>
+            <a href="./vault.html">🗝 Enter the Vault</a>
+            <a href="./library.html">⚓ Living Library</a>
+            <a href="./lens.html">🔭 Lens</a>
+            <a href="./synthesis.html" class="here">⚗ Synthesis</a>
+        </div>
+    </div>
+
+    <!-- Explainer: what this means, what we're doing with it, what it implies -->
+    <div class="explainer">
+        <h2>What These Are, Why They Exist, What They Could Mean</h2>
+        <div class="exp-grid">
+            <div class="exp-card">
+                <h3>What a synthesis is</h3>
+                <p>Each briefing starts from one recurring question of the vault, then pulls every source that touches it — papers, translations, database records. It traces how <b>separate research traditions, working in isolation, arrive at similar claims</b>: an Italian biophysicist, a Russian engineer, and a French cosmologist describing the same vacuum dynamics without citing one another.</p>
+            </div>
+            <div class="exp-card">
+                <h3>What we're doing with them</h3>
+                <p>Every claim links back to the actual source files in the archive, so any thread can be followed to its origins. Each briefing closes with the <b>next questions</b> the convergence raises and <b>proposed upgrades</b> to the vault itself. As new documents arrive, the map grows — these are living documents, not finished verdicts.</p>
+            </div>
+            <div class="exp-card">
+                <h3>What it could imply</h3>
+                <p>Mainstream research treats many of these traditions as fringe. The vault treats <b>independent convergence as signal</b>: when isolated researchers land on the same anomalous claim, that is a claim worth studying — often one with testable predictions. A synthesis is where the archive says: <b>something real may be happening here.</b></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Briefing list -->
+    <div class="briefings">
+        <div class="briefings-head">
+            <h2><span>⚗</span> All Briefings</h2>
+            <span class="count" id="briefingCount">Loading...</span>
+        </div>
+        <div id="briefingList"><div class="empty-note">Loading synthesis index...</div></div>
+    </div>
+
+    <!-- Reader modal -->
+    <div class="reader-overlay" id="readerOverlay">
+        <div class="reader-modal">
+            <button class="reader-close" onclick="closeReader()" title="Close">&#10006;</button>
+            <div class="reader-src" id="readerMeta"></div>
+            <div class="reader-body" id="readerBody"><div class="reader-loading">Loading briefing...</div></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="https://www.aetherforce.energy" target="_blank">🌐 Aetherforce</a>
+            <a href="https://www.aetherforce.energy/resources/articles/" target="_blank">📖 Articles</a>
+            <a href="https://www.aetherforce.energy/resources/links/" target="_blank">🔗 Resource Guide</a>
+            <a href="https://t.me/aetherforceposts" target="_blank">💬 Telegram</a>
+        </div>
+        <div class="footer-credit">
+            An Aetherforce knowledge project · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a>
+        </div>
+    </footer>
+
+    <script>
+        /* ─── Data ─── */
+        let synthEntries = [];
+
+        /* Minimal markdown → HTML renderer (headings, bold/italic, links, lists,
+           blockquotes, tables, hr, paragraphs). Same renderer used by the
+           Living Library reader, so briefing markdown renders identically. */
+        function miniMarkdown(md) {
+            md = md.replace(/^---\s*\n[\s\S]*?\n---\s*\n/, '');
+            function esc(s) {
+                return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+            }
+            function inline(s) {
+                s = esc(s);
+                s = s.replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank">$1</a>');
+                s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+                s = s.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
+                s = s.replace(/`([^`]+)`/g, '<code>$1</code>');
+                return s;
+            }
+            const lines = md.split('\n');
+            const out = [];
+            let i = 0, listType = null, quote = [], table = [];
+            function flushList() { if (listType) { out.push(`</${listType}>`); listType = null; } }
+            function flushQuote() { if (quote.length) { out.push('<blockquote>' + quote.join('') + '</blockquote>'); quote = []; } }
+            function flushTable() {
+                if (table.length) {
+                    const header = table[0];
+                    const rows = table.slice(1);
+                    let h = '<table><thead><tr>';
+                    header.forEach(c => h += '<th>' + inline(c) + '</th>');
+                    h += '</tr></thead><tbody>';
+                    rows.forEach(r => { h += '<tr>'; r.forEach(c => h += '<td>' + inline(c) + '</td>'); h += '</tr>'; });
+                    out.push(h + '</tbody></table>');
+                    table = [];
+                }
+            }
+            while (i < lines.length) {
+                const raw = lines[i];
+                const line = raw.trimEnd();
+                const tMatch = line.match(/^\|(.+)\|\s*$/);
+                if (tMatch && lines[i+1] && /^\|[\s:|-]+\|\s*$/.test(lines[i+1].trim())) {
+                    flushList(); flushQuote();
+                    table = [tMatch[1].split('|').map(c => c.trim())];
+                    i += 2;
+                    while (i < lines.length && (lines[i].match(/^\|(.+)\|\s*$/))) {
+                        table.push(lines[i].match(/^\|(.+)\|\s*$/)[1].split('|').map(c => c.trim()));
+                        i++;
+                    }
+                    flushTable();
+                    continue;
+                }
+                if (/^(-{3,}|\*{3,})$/.test(line)) { flushList(); flushQuote(); flushTable(); out.push('<hr>'); i++; continue; }
+                const hm = line.match(/^(#{1,6})\s+(.+)$/);
+                if (hm) { flushList(); flushQuote(); flushTable(); const lvl = hm[1].length; out.push(`<h${lvl}>${inline(hm[2])}</h${lvl}>`); i++; continue; }
+                if (line.startsWith('>')) {
+                    flushList();
+                    const content = line.replace(/^>\s?/, '');
+                    if (content === '') { quote.push('</p><p>'); }
+                    else { quote.push('<p>' + inline(content) + '</p>'); }
+                    i++; continue;
+                }
+                const um = line.match(/^[-*]\s+(.+)$/);
+                const om = line.match(/^\d+\.\s+(.+)$/);
+                if (um || om) {
+                    flushQuote(); flushTable();
+                    const type = um ? 'ul' : 'ol';
+                    if (listType !== type) { flushList(); out.push(`<${type}>`); listType = type; }
+                    out.push('<li>' + inline((um || om)[1]) + '</li>');
+                    i++; continue;
+                }
+                if (line === '') { flushList(); flushQuote(); flushTable(); i++; continue; }
+                flushList(); flushQuote(); flushTable();
+                const para = [line];
+                i++;
+                while (i < lines.length && lines[i].trim() !== '' && !/^(#{1,6})\s/.test(lines[i]) && !/^\|/.test(lines[i]) && !/^>/.test(lines[i]) && !/^[-*]\s/.test(lines[i]) && !lines[i].trim().startsWith('|')) {
+                    if (lines[i].trim()) para.push(lines[i].trim());
+                    if (lines[i+1] && /^\|/.test(lines[i+1])) break;
+                    i++;
+                }
+                out.push('<p>' + para.map(inline).join(' ') + '</p>');
+            }
+            flushList(); flushQuote(); flushTable();
+            return out.join('\n');
+        }
+
+        /* ─── Rendering ─── */
+        function fmtDate(dateStr) {
+            if (!dateStr) return '';
+            const p = dateStr.split('-');
+            if (p.length !== 3) return dateStr;
+            const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+            return `${months[+p[1]-1]} ${+p[2]}, ${p[0]}`;
+        }
+
+        function renderBriefings() {
+            const list = document.getElementById('briefingList');
+            const countEl = document.getElementById('briefingCount');
+            if (!synthEntries.length) {
+                list.innerHTML = '<div class="empty-note">No briefings published yet — the synthesis agent is still warming up.</div>';
+                countEl.textContent = '0 briefings';
+                return;
+            }
+            countEl.textContent = `${synthEntries.length} briefing${synthEntries.length === 1 ? '' : 's'}`;
+            list.innerHTML = '';
+            synthEntries.forEach(e => {
+                const card = document.createElement('div');
+                card.className = 'briefing-card';
+                card.innerHTML = `
+                    <div class="bc-top">
+                        <span class="bc-date">${escHtml(fmtDate(e.date))}</span>
+                        ${e.author ? `<span class="bc-author">✍ ${escHtml(e.author)}</span>` : ''}
+                        ${e.sources ? `<span class="bc-sources">📚 ${escHtml(e.sources)}</span>` : ''}
+                    </div>
+                    <div class="bc-title">${escHtml(e.title)}</div>
+                    ${e.teaser ? `<div class="bc-teaser">${escHtml(e.teaser)}</div>` : ''}
+                    <span class="bc-read">Read briefing →</span>
+                `;
+                card.addEventListener('click', () => openBriefing(e));
+                list.appendChild(card);
+            });
+        }
+
+        function escHtml(s) {
+            return String(s == null ? '' : s)
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;');
+        }
+
+        /* ─── Reader ─── */
+        async function openBriefing(e) {
+            const overlay = document.getElementById('readerOverlay');
+            document.getElementById('readerMeta').innerHTML =
+                `<span>${fmtDate(e.date)}${e.author ? ' · ' + escHtml(e.author) : ''}</span>` +
+                (e.sources ? `<span>📚 ${escHtml(e.sources)}</span>` : '') +
+                `<span><a href="./synthesis/${encodeURIComponent(e.file)}" target="_blank">view raw source →</a></span>`;
+            document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading briefing...</div>';
+            overlay.classList.add('show');
+            document.body.style.overflow = 'hidden';
+            try {
+                const res = await fetch(`./synthesis/${encodeURIComponent(e.file)}`, { cache: 'no-store' });
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                const text = await res.text();
+                document.getElementById('readerBody').innerHTML = miniMarkdown(text);
+            } catch (err) {
+                document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Could not load this briefing. It may not be published on this site yet.</div>';
+            }
+        }
+
+        function closeReader() {
+            document.getElementById('readerOverlay').classList.remove('show');
+            document.body.style.overflow = '';
+        }
+        document.getElementById('readerOverlay').addEventListener('click', function(e) {
+            if (e.target === this) closeReader();
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeReader();
+        });
+
+        /* ─── Init ─── */
+        async function loadSynthesis() {
+            try {
+                const res = await fetch('./synthesis/synthesis_index.json', { cache: 'no-store' });
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                synthEntries = await res.json();
+                // Sanity: only keep entries that look like briefings
+                synthEntries = (Array.isArray(synthEntries) ? synthEntries : [])
+                    .filter(e => e && e.file && e.title);
+            } catch (e) {
+                synthEntries = [];
+            }
+            renderBriefings();
+            // Deep link support: synthesis.html#<slug> opens that briefing
+            const slug = (location.hash || '').replace(/^#/, '');
+            if (slug) {
+                const hit = synthEntries.find(e => e.slug === slug || e.file === slug);
+                if (hit) {
+                    renderBriefings();
+                    openBriefing(hit);
+                } else {
+                    document.getElementById('briefingList').scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        }
+        document.addEventListener('DOMContentLoaded', loadSynthesis);
+    </script>
+</body>
+</html>
