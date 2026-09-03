@@ -1,0 +1,27 @@
+AFLinks Zenodo-RH worker cron prompt (aflinks-worker-zenodo-rh)
+
+Run an AFLinks scrape worker batch on the cloud sandbox for site: zenodo-rh (the Recursive Harmonic cluster on Zenodo — Dean Kulik Nexus/RHA corpus, Bolt/Ceisiwr/Aureon RHC, Awen Grid, and the wider 60+ author scene). The sandbox may have been RESET — bootstrap from GitHub FIRST.
+
+1) BOOTSTRAP: if /root/workspace/AFLinks/.git does not exist: git clone https://github.com/Focusingpulse/AFLinks.git /root/workspace/AFLinks; then pip install --break-system-packages pypdfium2 2>/dev/null || true (process_zenodo.py falls back to pdftotext if pypdfium2 is missing — do not fail the run over it).
+
+2) PULL: cd /root/workspace/AFLinks && git pull --rebase --quiet origin main (other workers may have pushed).
+
+3) FAMILY GATE: python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member aflinks-worker-zenodo-rh — if it exits non-zero (budget LOW), do NO work, no commit, no push; say "aflinks-worker-zenodo-rh skipped (family budget low)" and stop.
+
+4) GEAR READ: GEAR=$(python3 $MEMORY_DIR/../cron-coordination/family.py gear | head -1). If $GEAR contains "overdrive": MAX=60 (capability). Else (quota): MAX=25 (economical).
+
+5) CRAWL (always — cheap, ~1-2 min; this cluster publishes new papers almost daily and the crawl picks them up): python3 crawl_zenodo.py. It queries the API for the cluster vocabulary + named authors, dedupes by conceptrecid, writes zenodo-rh_filelist.json. If the crawl API fails entirely, reuse the existing filelist if present.
+
+6) PROCESS BATCH: python3 process_zenodo.py --max $MAX — downloads PDFs, extracts text (pypdfium2 -> pdftotext -> abstract fallback), builds entries, saves zenodo-rh_progress.json + zenodo-rh_entries.json. Idempotent: skips DOIs already in index.json or progress. Do NOT touch other sites progress files.
+
+7) MERGE: python3 merge_all_progress.py (idempotent — only new source_urls get appended).
+
+8) REBUILD DERIVED (CRITICAL — the site counter reads these; they drift if not rebuilt after every index.json change): AFLINKS_DIR=/root/workspace/AFLinks python3 build_library_feed.py && python3 build_slim_index.py
+
+9) RESEARCHER SWEEP: python3 researcher_sweep.py 2 — it writes new names into the living-library researcher index ($MEMORY_DIR/../living-library/database/entities/researcher-index.json). If that file changed, cd $MEMORY_DIR/../living-library && git add database/entities/researcher-index.json && git commit -m "researchers: +N from zenodo-rh harvest" --author "aflinks-worker <aflinks-cron@letta.com>" && git push origin main (with Co-Authored-By: Letta Code trailer). This keeps the researcher map growing with the harvest.
+
+10) COMMIT + PUSH (AFLinks): cd /root/workspace/AFLinks && git pull --rebase --quiet origin main; ENTRIES=$(python3 -c "import json;print(len(json.load(open('index.json'))))"); git add crawl_zenodo.py process_zenodo.py zenodo-rh_filelist.json zenodo-rh_progress.json zenodo-rh_entries.json index.json library_feed.json search_index.json full_*.json full_manifest.json; git commit -m "AFLinks worker: zenodo-rh batch, archive at $ENTRIES docs" --author "aflinks-worker <aflinks-cron@letta.com>"; git push origin main (with Co-Authored-By: Letta Code trailer).
+
+11) CHECK-IN: python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member aflinks-worker-zenodo-rh --status ok --summary "zenodo-rh: +N docs, archive $ENTRIES" --entries-count $ENTRIES
+
+12) Report ONE line: files processed this run, archive count, whether crawl refreshed the filelist.
