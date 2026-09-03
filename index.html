@@ -75,6 +75,62 @@
             background: var(--accent);
             color: var(--bg);
         }
+        /* ─── Trivium / Quadrivium teaching nav ─── */
+        .teaching-nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 12px 20px 2px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 3;
+        }
+        .teaching-nav .tn-group {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 4px 6px;
+            background: rgba(20, 28, 39, 0.7);
+        }
+        .teaching-nav .tn-label {
+            font-size: 0.66rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            padding: 0 6px;
+            font-weight: 700;
+        }
+        .teaching-nav .tn-label.trivium { color: var(--sea-teal); }
+        .teaching-nav .tn-label.quadrivium { color: var(--gold); }
+        .teaching-nav a {
+            font-size: 0.76rem;
+            color: var(--text-dim);
+            text-decoration: none;
+            padding: 5px 11px;
+            border-radius: 999px;
+            transition: all 0.15s;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .teaching-nav a:hover { background: var(--surface-hover); color: var(--text); }
+        .teaching-nav a.here {
+            background: var(--accent-dim);
+            color: var(--accent);
+        }
+        .teaching-nav a.briefings-link {
+            color: var(--gold-bright);
+            border: 1px solid rgba(232,182,76,0.35);
+            background: rgba(232,182,76,0.07);
+        }
+        .teaching-nav a.briefings-link:hover { background: var(--gold); color: var(--bg); }
+        @media (max-width: 720px) {
+            .teaching-nav { flex-direction: column; }
+        }
         /* ─── Search bar ─── */
         .search-bar {
             max-width: 1400px;
@@ -1394,6 +1450,21 @@
         </div>
     </div>
     <div class="wave-divider" aria-hidden="true"></div>
+
+    <!-- Trivium / Quadrivium teaching nav — permanent, follows the learning path -->
+    <nav class="teaching-nav" aria-label="Teaching navigation">
+        <span class="tn-group">
+            <span class="tn-label trivium">✦ Trivium</span>
+            <a href="./index.html" class="here">🗝 Archive</a>
+            <a href="./vault.html">🔭 Vault</a>
+            <a href="./library.html">⚓ Living Library</a>
+        </span>
+        <span class="tn-group">
+            <span class="tn-label quadrivium">✦ Quadrivium</span>
+            <a href="./lens.html">💠 Lens</a>
+            <a href="./synthesis.html" class="briefings-link">⚗ Fleet Briefings</a>
+        </span>
+    </nav>
 
     <!-- Search -->
     <div class="search-bar">

@@ -48,6 +48,29 @@ header p {
   margin-top: 4px;
   font-style: italic;
 }
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 0.5px;
+  transition: all 0.15s;
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--accent-dim);
+  color: #fff;
+  border-color: var(--accent-dim);
+}
+.nav-links a.here { opacity: 0.95; }
 
 /* === Dial === */
 .dial-container {
@@ -328,6 +351,13 @@ header p {
 <header>
   <h1>THE AETHERFORCE VAULT</h1>
   <p>The archive never moves. The eye moves.</p>
+  <div class="nav-links">
+    <a href="./index.html">&#128218; Archive</a>
+    <a href="./vault.html">&#128273; Vault</a>
+    <a href="./library.html">&#9875; Living Library</a>
+    <a href="./synthesis.html">&#9879; Fleet Briefings</a>
+    <a href="#" class="here">&#128300; Lens</a>
+  </div>
 </header>
 
 <!-- Lens Dial -->

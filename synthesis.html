@@ -73,34 +73,57 @@
             font-family: 'SF Mono', 'Consolas', monospace;
             letter-spacing: 0.04em;
         }
-        .hero-nav {
-            margin-top: 18px;
+        /* ─── Trivium / Quadrivium teaching nav ─── */
+        .teaching-nav {
             display: flex;
-            gap: 8px;
-            justify-content: center;
             flex-wrap: wrap;
+            gap: 6px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 16px;
         }
-        .hero-nav a {
-            display: inline-block;
-            padding: 8px 18px;
-            background: var(--surface);
+        .teaching-nav .tn-group {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
             border: 1px solid var(--border);
-            border-radius: 10px;
+            border-radius: 999px;
+            padding: 4px 6px;
+            background: rgba(20, 28, 39, 0.7);
+        }
+        .teaching-nav .tn-label {
+            font-size: 0.64rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            padding: 0 6px;
+            font-weight: 700;
+        }
+        .teaching-nav .tn-label.trivium { color: var(--sea-teal); }
+        .teaching-nav .tn-label.quadrivium { color: var(--gold); }
+        .teaching-nav a {
+            font-size: 0.76rem;
             color: var(--text-dim);
             text-decoration: none;
-            font-size: 0.82rem;
-            font-weight: 600;
+            padding: 5px 11px;
+            border-radius: 999px;
             transition: all 0.15s;
+            font-weight: 600;
+            white-space: nowrap;
         }
-        .hero-nav a:hover {
+        .teaching-nav a:hover { background: var(--surface-hover); color: var(--text); }
+        .teaching-nav a.here {
             background: var(--accent-dim);
-            border-color: var(--accent-dim);
             color: var(--accent);
         }
-        .hero-nav a.here {
-            background: var(--sea-teal-dim);
-            border-color: var(--sea-teal);
-            color: #fff;
+        .teaching-nav a.briefings-link {
+            color: var(--gold-bright);
+            border: 1px solid rgba(232,182,76,0.35);
+            background: rgba(232,182,76,0.07);
+        }
+        .teaching-nav a.briefings-link:hover { background: var(--gold); color: var(--bg); }
+        @media (max-width: 720px) {
+            .teaching-nav { flex-direction: column; }
         }
         /* ─── Explainer ─── */
         .explainer {
@@ -390,12 +413,18 @@
         <h1>Fleet Briefings</h1>
         <p>Multiple agents work the vault and publish what they find: deep synthesis briefings, paradigm signal reports, and scout field reports. Each one is a map of convergence or discovery — what the archive is quietly pointing at, who noticed, and what it could mean.</p>
         <div class="fleet-line">🛰 3 agents publishing · Drunvalo / The Connector / Scooter</div>
-        <div class="hero-nav">
-            <a href="./index.html">🏴‍☠️ Treasure Vault</a>
-            <a href="./vault.html">🗝 Enter the Vault</a>
-            <a href="./library.html">⚓ Living Library</a>
-            <a href="./lens.html">🔭 Lens</a>
-            <a href="./synthesis.html" class="here">⚗ Briefings</a>
+        <div class="teaching-nav">
+            <span class="tn-group">
+                <span class="tn-label trivium">✦ Trivium</span>
+                <a href="./index.html">🗝 Archive</a>
+                <a href="./vault.html">🔭 Vault</a>
+                <a href="./library.html">⚓ Living Library</a>
+            </span>
+            <span class="tn-group">
+                <span class="tn-label quadrivium">✦ Quadrivium</span>
+                <a href="./lens.html">💠 Lens</a>
+                <a href="./synthesis.html" class="briefings-link here">⚗ Fleet Briefings</a>
+            </span>
         </div>
     </div>
 
