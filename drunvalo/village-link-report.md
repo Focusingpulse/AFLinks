@@ -1,16 +1,19 @@
-# Village Link Report — 2026-09-02
+# Village Link Report — 2026-09-03
 
-Checked **634** URLs: **611** OK, **18** HTTP errors, **0** redirects, **5** unreachable/timeouts.
+Checked **637** URLs: **612** OK, **17** HTTP errors, **0** redirects, **8** unreachable/timeouts.
 
-## Unreachable / timeout (5)
+## Unreachable / timeout (8)
 
 - `http://ia800306.us.archive.org/30/items/fe_The_Solar_Greenhouse_Book/The_Solar_Greenhouse_Book.pdf`  (error: URLError)
 - `http://uhspr.ca/merit-badges/`  (error: URLError)
+- `http://www.davidhuang.org`  (error: TimeoutError)
 - `http://www.dlive.tv/mavisfarmacy`  (error: URLError)
+- `http://www.theartisthomestead.com`  (error: TimeoutError)
 - `https://deptutor.info`  (error: URLError)
 - `https://mountainherbs.net/grown`  (error: URLError)
+- `https://www.motherearthnews.com/sustainable-living/green-homes/cob-building-basics-zm0z13onzrob/`  (error: TimeoutError)
 
-## HTTP errors (18)
+## HTTP errors (17)
 
 - [`http://byjillb.com`](http://byjillb.com)  (HTTP 404)
 - [`http://i109.photobucket.com/albums/n52/havlik1/permie%20pics2/permiepotrait3pdd.jpg[/img`](http://i109.photobucket.com/albums/n52/havlik1/permie%20pics2/permiepotrait3pdd.jpg[/img)  (HTTP 404)
@@ -27,7 +30,6 @@ Checked **634** URLs: **611** OK, **18** HTTP errors, **0** redirects, **5** unr
 - [`https://www.aku.si`](https://www.aku.si)  (HTTP 502)
 - [`https://www.allaboutbirds.org`](https://www.allaboutbirds.org)  (HTTP 403)
 - [`https://www.allaboutbirds.org/guide/`](https://www.allaboutbirds.org/guide/)  (HTTP 403)
-- [`https://www.instagram.com/wizard.mountainman/`](https://www.instagram.com/wizard.mountainman/)  (HTTP 429)
 - [`https://www.kickstarter.com/projects/positiverealfutures/an-actually-fun-tv-show-about-a-future-with-real-hope`](https://www.kickstarter.com/projects/positiverealfutures/an-actually-fun-tv-show-about-a-future-with-real-hope)  (HTTP 403)
 - [`https://www.patreon.com/slowfilms`](https://www.patreon.com/slowfilms)  (HTTP 403)
 
