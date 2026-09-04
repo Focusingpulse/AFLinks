@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:01:51Z",
+  "generated_at": "2026-09-04T12:04:45Z",
   "library": {
     "researchers": 970,
     "researchers_cataloged": 181,
@@ -11,9 +11,9 @@
     "pages_translated": 1150,
     "declassified_finds": 26,
     "active_agents": 14,
-    "archive_entries": 13565,
+    "archive_entries": 13605,
     "meta_counts": {
-      "Challenges to the Standard Model": 6052,
+      "Challenges to the Standard Model": 6065,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -28,12 +28,12 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 5426,
+      "Alternative Energy Technologies": 5452,
       "Patents & Inventions": 5701,
       "Geopolitics & Hidden History": 4170,
-      "Electromagnetic Theory": 1874,
+      "Electromagnetic Theory": 1894,
       "Reference & Technical Data": 652,
-      "Media & Interviews": 196,
+      "Media & Interviews": 197,
       "Environment & Climate": 763,
       "Biology, Health & Medicine": 1365,
       "Frontier Science": 22
@@ -4431,9 +4431,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-04T08:05:50Z",
+      "last_run": "2026-09-04T09:05:01Z",
       "last_status": "ok",
-      "last_summary": "sync: 13565 docs, feed rebuilt"
+      "last_summary": "sync: 13605 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4475,7 +4475,7 @@
       "mission": "Long-haul translation of Atsyukovsky Book 5 — one chunk at a time, through the night.",
       "schedule": "overnight hourly",
       "icon": "📖",
-      "last_run": "2026-09-04T09:00:32Z",
+      "last_run": "2026-09-04T12:01:03Z",
       "last_status": "ok",
       "last_summary": "+0 chunks since last run (still 220) | now 220/220, translation complete — no work needed (gear: overdrive)"
     },
@@ -4525,6 +4525,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-04",
+      "time": "12:01",
+      "agent": "Book5 Translate",
+      "summary": "+0 chunks — No-op: Book5 translation already complete at 220/220 chunks (100%). Heartbeat only."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "09:04",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+13605 docs — +40 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-04",
       "time": "09:00",
@@ -4872,18 +4884,6 @@
       "time": "12:06",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds this round — No new foreign-language LENR candidates after full Zenodo API + Exa sweeps; all tracked clusters verified stable (zh Lin pool, ru, fr COLDFIRE 2.31, it, ja DMF 20551471). zh/ja keyword sweeps = Zhang Jincheng adaptive-quantum-ML mass-upload noise (not LENR, context only). Archive 11,982 / 64 trans / 576 pg (feed 12:01Z, +2 trans since 08:00). Pipeline active (2 new translations today) — translator not stale. tuks.nl now parked placeholder. OCR/queue/tag pending on FocusOptimized."
-    },
-    {
-      "date": "2026-08-31",
-      "time": "12:06",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-08-31",
-      "time": "12:05",
-      "agent": "Drunvalo (The Pattern Keeper)",
-      "summary": "village-maintenance-link-fixes-and-resources"
     }
   ],
   "declassified": [
@@ -11137,7 +11137,20 @@
         "1244290",
         "1244327",
         "1244390",
-        "1244462"
+        "1244462",
+        "1244463",
+        "1244465",
+        "1244498",
+        "1244517",
+        "1244582",
+        "1244633",
+        "1244652",
+        "1244868",
+        "1244927",
+        "1244958",
+        "1245203",
+        "1245242",
+        "1245282"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -28163,7 +28176,33 @@
         "1244228",
         "1244327",
         "1244368",
-        "1244437"
+        "1244437",
+        "1244468",
+        "1244472",
+        "1244477",
+        "1244528",
+        "1244540",
+        "1244553",
+        "1244567",
+        "1244598",
+        "1244615",
+        "1244633",
+        "1244652",
+        "1244693",
+        "1244715",
+        "1244738",
+        "1244762",
+        "1244787",
+        "1244813",
+        "1244840",
+        "1244897",
+        "1244927",
+        "1244990",
+        "1245023",
+        "1245057",
+        "1245092",
+        "1245128",
+        "1245165"
       ],
       "Patents & Inventions": [
         "5814",
@@ -39914,7 +39953,27 @@
         "1244242",
         "1244257",
         "1244327",
-        "1244413"
+        "1244413",
+        "1244483",
+        "1244490",
+        "1244507",
+        "1244528",
+        "1244540",
+        "1244553",
+        "1244567",
+        "1244615",
+        "1244633",
+        "1244652",
+        "1244672",
+        "1244715",
+        "1244738",
+        "1244762",
+        "1244787",
+        "1244840",
+        "1244990",
+        "1245057",
+        "1245092",
+        "1245128"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -40766,7 +40825,8 @@
         "1239450",
         "1239808",
         "1241187",
-        "1244347"
+        "1244347",
+        "1245023"
       ],
       "Environment & Climate": [
         "62830",
@@ -56490,7 +56550,47 @@
       "1244390": "VladimirUtkin",
       "1244413": "Waveguides",
       "1244437": "Wheatstone - An Account of Some Experiments to Measure the Velocity of Electricity and the Duration of Electric Light",
-      "1244462": "William Avery - The Dispatch of Merchants - 1976"
+      "1244462": "William Avery - The Dispatch of Merchants - 1976",
+      "1244463": "Williamson and vd Mark  Is the electron a photon with toroidal topology",
+      "1244465": "Wire length Geometry Velocity Factor",
+      "1244468": "Witte Battery Bible 1922",
+      "1244472": "Yang and Pasko - Three-dimensional finite difference time domain modeling of Schumann resonances",
+      "1244477": "AIEE VOLXXXVIII PART1 1919 - Abnormal Voltages",
+      "1244483": "DL7JV- Capacitive Antennas",
+      "1244490": "HB9MTN CPACITIVE ANTENNAS",
+      "1244498": "pa0rdt whip",
+      "1244507": "Progress in Desingn of Extremely Short Transmitting Antennas - DL7PE - Microvert",
+      "1244517": "Fleischmann and Pons - Electrochemically induced nuclear fusion of deuterium - 1989",
+      "1244528": "Application of Transmission Line Resonators to HV RF Power Processing clemson 1987 114",
+      "1244540": "Corum-Tesla Coils and the Failure of Lumped-Element Circuit Theory",
+      "1244553": "Corum-Voltage Magnification by Standing Waves",
+      "1244567": "Nikola Tesla and the planetary radio signals",
+      "1244582": "Relativistic covariance and rotational electrodynamics",
+      "1244598": "RF Coils, Helical Resonators and Voltage Magnification by Coherent Spatial Modes - 2001",
+      "1244615": "Tesla's Colorado Springs receivers",
+      "1244633": "Tesla's Egg of Columbus, Radar Stealth, the Torsion Tensor, and the Philadelphia Experiment(raw)",
+      "1244652": "Tesla's Egg of Columbus, Radar Stealth, the Torsion Tensor, and the Philadelphia Experiment",
+      "1244672": "Toroidal helix antenna",
+      "1244693": "Cold electricity english",
+      "1244715": "L.M.D. waves in a Tesla Coil revised",
+      "1244738": "Tesla and cold electricity-revised English version",
+      "1244762": "Tesla wireless english",
+      "1244787": "Anderson - Multipactor experiment on a dielectric surface - RSINAK-72-7-3095-1",
+      "1244813": "Barnes - Studies of laser induced breakdown phenomena in liquid water - 1969",
+      "1244840": "Gaxiola - Dielectric Breakdown in Insulating Gases",
+      "1244868": "HAMMER etal: EXPERIMENTAL INVESTIGATION OF ULTRASHORT PULSE LASER-INDUCED BREAKDOWN THRESHOLDS",
+      "1244897": "Joshi - Microscopic analysis for water stressed by high electric fields in the prebreakdown regime - JAP 96",
+      "1244927": "Lee et al - Underwater Discharge Phenomena in Inhomogeneous Electric Fields Caused by Impulse Voltages - 2010",
+      "1244958": "Palanker - Pulsed Electron Avalanche Knife (PEAK) for Intraocular Surgery",
+      "1244990": "Pedersen - On the Electrical Breakdown of Gaseous Dielectrics - 1989",
+      "1245023": "Rogers et al - Plasma Sound Source Basic Research - 1997",
+      "1245057": "Saarela - Detection of laser induced dielectric breakdown in water using a laser doppler vibrometer",
+      "1245092": "Sharbaugh and Crowe - Liquid Dielectrics - 1954",
+      "1245128": "Sharma - Laser Induced Dielectric Breakdown and Mechanical Damage in Silicate Glasses - 1969",
+      "1245165": "Wadhwa - High Voltage Engineering - Breakdown Mechanism of Gaseous,Liquid and Solid Materials - 2012 sample",
+      "1245203": "78514076-Zilano-Older-Deleted-Posts-Don-Smith-Replication-Jan-16-2012",
+      "1245242": "78684817-Don-Smith-Rep-Zilano-Posts-Updated-Jan-11-2012",
+      "1245282": "79341827-Zilano-Important-Older-DS-Posts-Abridged"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -126156,6 +126256,152 @@
       ],
       "1244462": [
         "Borderland Research"
+      ],
+      "1244463": [
+        "Quantum & Relativity"
+      ],
+      "1244465": [
+        "Borderland Research"
+      ],
+      "1244468": [
+        "Energy"
+      ],
+      "1244472": [
+        "Energy"
+      ],
+      "1244477": [
+        "Energy"
+      ],
+      "1244483": [
+        "Electromagnetism"
+      ],
+      "1244490": [
+        "Electromagnetism"
+      ],
+      "1244498": [
+        "Borderland Research"
+      ],
+      "1244507": [
+        "Electromagnetism"
+      ],
+      "1244517": [
+        "Quantum & Relativity"
+      ],
+      "1244528": [
+        "Energy",
+        "Electromagnetism"
+      ],
+      "1244540": [
+        "Energy",
+        "Tesla"
+      ],
+      "1244553": [
+        "Energy",
+        "Electromagnetism"
+      ],
+      "1244567": [
+        "Energy",
+        "Electromagnetism",
+        "Tesla"
+      ],
+      "1244582": [
+        "Borderland Research"
+      ],
+      "1244598": [
+        "Energy"
+      ],
+      "1244615": [
+        "Energy",
+        "Tesla"
+      ],
+      "1244633": [
+        "Energy",
+        "Alternative Physics",
+        "Tesla"
+      ],
+      "1244652": [
+        "Energy",
+        "Alternative Physics",
+        "Tesla"
+      ],
+      "1244672": [
+        "Electromagnetism"
+      ],
+      "1244693": [
+        "Energy"
+      ],
+      "1244715": [
+        "Energy",
+        "Electromagnetism",
+        "Tesla"
+      ],
+      "1244738": [
+        "Energy",
+        "Tesla"
+      ],
+      "1244762": [
+        "Energy",
+        "Electromagnetism",
+        "Tesla"
+      ],
+      "1244787": [
+        "Energy",
+        "Dollard"
+      ],
+      "1244813": [
+        "Water / Hydrogen"
+      ],
+      "1244840": [
+        "Energy",
+        "Dollard"
+      ],
+      "1244868": [
+        "Borderland Research"
+      ],
+      "1244897": [
+        "Energy",
+        "Water / Hydrogen"
+      ],
+      "1244927": [
+        "Energy",
+        "Quantum & Relativity",
+        "Water / Hydrogen"
+      ],
+      "1244958": [
+        "Quantum & Relativity"
+      ],
+      "1244990": [
+        "Energy",
+        "Dollard"
+      ],
+      "1245023": [
+        "Energy",
+        "Music / Audio"
+      ],
+      "1245057": [
+        "Energy",
+        "Water / Hydrogen",
+        "Dollard"
+      ],
+      "1245092": [
+        "Energy",
+        "Dollard"
+      ],
+      "1245128": [
+        "Energy",
+        "Dollard"
+      ],
+      "1245165": [
+        "Energy"
+      ],
+      "1245203": [
+        "Borderland Research"
+      ],
+      "1245242": [
+        "Borderland Research"
+      ],
+      "1245282": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -149327,7 +149573,75 @@
       "1244390": [],
       "1244413": [],
       "1244437": [],
-      "1244462": []
+      "1244462": [],
+      "1244463": [
+        "geometry_sacred"
+      ],
+      "1244465": [],
+      "1244468": [],
+      "1244472": [
+        "p_fieldphys"
+      ],
+      "1244477": [],
+      "1244483": [],
+      "1244490": [],
+      "1244498": [],
+      "1244507": [],
+      "1244517": [],
+      "1244528": [],
+      "1244540": [
+        "tesla"
+      ],
+      "1244553": [],
+      "1244567": [
+        "tesla"
+      ],
+      "1244582": [],
+      "1244598": [],
+      "1244615": [
+        "tesla"
+      ],
+      "1244633": [
+        "torsion",
+        "tesla",
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "1244652": [
+        "torsion",
+        "tesla",
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "1244672": [
+        "geometry_sacred"
+      ],
+      "1244693": [],
+      "1244715": [
+        "tesla"
+      ],
+      "1244738": [
+        "tesla"
+      ],
+      "1244762": [
+        "tesla"
+      ],
+      "1244787": [],
+      "1244813": [],
+      "1244840": [],
+      "1244868": [],
+      "1244897": [],
+      "1244927": [],
+      "1244958": [],
+      "1244990": [],
+      "1245023": [],
+      "1245057": [],
+      "1245092": [],
+      "1245128": [],
+      "1245165": [],
+      "1245203": [],
+      "1245242": [],
+      "1245282": []
     }
   }
 }
