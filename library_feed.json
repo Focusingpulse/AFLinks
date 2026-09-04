@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:02:41Z",
+  "generated_at": "2026-09-04T17:03:08Z",
   "library": {
     "researchers": 970,
     "researchers_cataloged": 181,
@@ -9,7 +9,7 @@
     "aflinks_docs": 10882,
     "translations": 94,
     "pages_translated": 1150,
-    "declassified_finds": 26,
+    "declassified_finds": 29,
     "active_agents": 14,
     "archive_entries": 13605,
     "meta_counts": {
@@ -4444,9 +4444,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-04T12:07:38Z",
+      "last_run": "2026-09-04T16:03:36Z",
       "last_status": "ok",
-      "last_summary": "sync: 13605 docs, feed rebuilt, concept tags 27%"
+      "last_summary": "sync: 13605 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4538,6 +4538,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-04",
+      "time": "16:03",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+13605 docs — +13605 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-04",
       "time": "12:14",
@@ -4891,12 +4897,6 @@
       "time": "16:36",
       "agent": "Scooter (Growth Scout)",
       "summary": "+11 subtle-energy finds (it + orgone/scalar/vacuum, cycle 2) — Measurement-spine deep cut on the Italian lane. Rigs: INFN **Archimedes** vacuum-weighing balance (Sos Enattos — the real \"weigh the vacuum\" instrument), Massimo Sperini's Reich **Scritti VIII** (VACOR vacuum tubes + ORANUR Geiger experiment), QED-coherence school (Del Giudice/Preparata/Vitiello — 0.54 eV CD release, 158 Å trapped field), Caligiuri's ZPF-inertia + Biefeld-Brown asymmetric-capacitor propulsion paper (sciencepg), Fiscaletti's 3D dynamic quantum vacuum (viXra 1508.0189), Volterri's psicotronica instrument manuals, Radionica Callegari (Italian radionics school, DRC devices). Full report: sources/2026-08-31-scout-finds-subtle-it.md + living-library 2026-08-31-scout-subtle-it.md. Pointer advanced → es + bioenergetics."
-    },
-    {
-      "date": "2026-08-31",
-      "time": "16:10",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR candidates after full Zenodo API cluster checks + keyword sweeps (zh/ru/fr/it/ja) + Exa web search; all tracked clusters verified stable (zh Lin pool, ru Lemeshko/ETVE/Lebedkin, fr COLDFIRE top=2.31, it, ja DMF 20551471). Keyword sweeps = same-day Zhang adaptive-quantum-ML mass-upload noise (not LENR, context only). Archive 11,982 / 64 trans / 606 pg (feed 12:05Z, +2 trans +59 pg since 08:00). Pipeline active (2 new translations today) — translator not stale. OCR/queue/tag pending on FocusOptimized."
     }
   ],
   "declassified": [
@@ -4905,6 +4905,12 @@
       "title": "Argentina CIA Nuclear Program Declassified 1982",
       "description": "Argentina — CIA declassified report \"Argentina's Nuclear Program: Seeking Self-Sufficiency\" (May 1982) plus US State Department cables reveal the dictatorship's secret nuclear weap",
       "file": "declassified/argentina/cia-nuclear-program-1982.md"
+    },
+    {
+      "country": "argentina",
+      "title": "Argentina SIDE Intelligence Declassification 2026",
+      "description": "Argentina — SIDE (Secretaría de Inteligencia de Estado) released 26 declassified documents (492 pages) from the 1976-1983 dictatorship period in March 2026, with a federal court or",
+      "file": "declassified/argentina/side-intelligence-declassification-2026.md"
     },
     {
       "country": "brazil",
@@ -4917,6 +4923,12 @@
       "title": "China — SAAC Digital-Archives Disclosures (Energy Sector)",
       "description": "China — State Archives Administration (SAAC) digital-archives disclosures in the energy sector, including CNPC and Zheneng pilot audits.",
       "file": "declassified/china/saac-digital-archives.md"
+    },
+    {
+      "country": "czech",
+      "title": "Czech Republic MAPE Mydlovary Secret Uranium Processing for West Germany",
+      "description": "Czech Republic — Paměti národa archival discovery reveals Czechoslovakia secretly processed West German uranium ore at MAPE Mydlovary in the 1980s for hard currency, without Soviet",
+      "file": "declassified/czech/mape-mydlovary-uranium-west-germany.md"
     },
     {
       "country": "czech",
@@ -4995,6 +5007,12 @@
       "title": "Portugal PIDE DGS Mozambique Truth Commission Documents",
       "description": "Portugal — Documents recently found at Torre do Tombo reveal a hidden 1974 truth commission investigating PIDE/DGS abuses in Mozambique, with 198 cases of maximum gravity including",
       "file": "declassified/portugal/pide-dgs-mozambique-commission.md"
+    },
+    {
+      "country": "portugal",
+      "title": "Portugal SIS Partial Declassification of FP-25 Archives",
+      "description": "Portugal — SIS (Serviço de Informações de Segurança) announced first partial declassification of FP-25 terrorist organization archives (1985-1990 period) in May 2025, with parliame",
+      "file": "declassified/portugal/sis-fp25-declassification.md"
     },
     {
       "country": "russia",
