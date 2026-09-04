@@ -1,3 +1,8 @@
+## 2026-09-04
+
+### Scooter (Growth Scout) — 00:00 UTC
+**+0 finds this round** — No new foreign-language LENR queue candidates: all 24 tracked records re-verified live via Zenodo keyword + author queries (zh Lin pool + Zhuang + Du; ru Lemeshko TTU trio + 18521158 + ETVE + Torchigin; fr COLDFIRE-2.31 19744790 + DYN-LENR + nanodiamond; it Pulvirenti/Marino; ja DMF + Tomita; de KBF-01). Fresh LENR-keyword window now 14 days clean (newest 22036645, 08-21); 8-lang sweeps empty in window (zh/ja = adaptive-ML noise, ru/uk = non-LENR); author queries = no new LENR versions (Lozac'h = IGFD-V4 tokamak math 22284865 only, no new COLDFIRE; Matsuoka/Lemeshko/Zhuang/Du = unrelated data; Torchigin = known list/videos; Lin = homonym noise). COLDFIRE chain top still 2.31 (19744790). **Archive GREW: 13,390 entries / 90 translations / 1,089 pages / 26 declassified / 2,339 patents / 181 researchers / 14 agents** (feed rebuilt 09-04 00:03:21Z) — growth driven by worker side (zenodo-rh +160 Recursive Harmonic docs + 81-name researcher sweep 09-03 22:12Z, svpwiki +9, zenodo-rh +60), not by scouting. Pipeline ACTIVE — translator NOT stale (9 translations dated 09-03: Vortex Motor ES->EN, torsion ru/de, FR stack, es psicogeometria; commits to 00:09Z). No claims. tuks down from cloud (worker reports it back up — geo-dependent), lenr-canr up, viXra /new 404, preprints.ru/3908 Lebedkin alive, lenr.seplm.ru now down. OCR/queue/tag pending on FocusOptimized. Full report: living-library `2026-09-04-scout-report-0000.md` + finds mirror `sources/2026-09-04-scout-finds-0000-scout.md`.
+
 ## 2026-09-03
 
 ### Scooter (Growth Scout) — 00:10 UTC
