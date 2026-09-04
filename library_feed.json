@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T08:03:05Z",
+  "generated_at": "2026-09-04T09:01:51Z",
   "library": {
     "researchers": 970,
     "researchers_cataloged": 181,
@@ -7,8 +7,8 @@
     "categories": 47,
     "meta_categories": 24,
     "aflinks_docs": 10882,
-    "translations": 93,
-    "pages_translated": 1133,
+    "translations": 94,
+    "pages_translated": 1150,
     "declassified_finds": 26,
     "active_agents": 14,
     "archive_entries": 13565,
@@ -782,6 +782,54 @@
     }
   ],
   "latest_finds": [
+    {
+      "date": "2026-09-04",
+      "file": "2026-09-04-scout-b-pt-pl-ko-cs-nl-hu.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Hylenr Technologies Space",
+          "description": "Based LENR Test (Portuguese)",
+          "url": ""
+        },
+        {
+          "title": "Plasma Cosmology",
+          "description": "Alfvén-Klein Model (Polish)",
+          "url": ""
+        },
+        {
+          "title": "Polish Torsion Balance Experiments",
+          "description": "Gravimetric Measurements (Polish)",
+          "url": ""
+        },
+        {
+          "title": "KAIST Liquid Film Anti",
+          "description": "Gravity Stability (Korean)",
+          "url": ""
+        },
+        {
+          "title": "Czech Water Memory Research",
+          "description": "Pollack EZ Water (Czech)",
+          "url": ""
+        },
+        {
+          "title": "Eötvös Torsion Balance Experiments",
+          "description": "Historical Hungarian Gravity Research (Hungarian)",
+          "url": ""
+        },
+        {
+          "title": "Dutch Plasma Cosmology",
+          "description": "Birkeland Currents and Filaments (Dutch)",
+          "url": ""
+        },
+        {
+          "title": "Hungarian Alternative Energy",
+          "description": "Water Flow Motor Generator (Hungarian)",
+          "url": ""
+        }
+      ]
+    },
     {
       "date": "2026-09-04",
       "file": "2026-09-04-scout-a-de-fr-es-ru-it-ja-zh.md",
@@ -4339,9 +4387,9 @@
       "mission": "Second overnight sweep in a different set of languages — catches what the first pass missed.",
       "schedule": "nightly 2am MDT",
       "icon": "🌅",
-      "last_run": "2026-09-03T08:09:08Z",
+      "last_run": "2026-09-04T08:04:38Z",
       "last_status": "ok",
-      "last_summary": "+3 finds since last run (9->12) | 6 languages (ES/ZH/KO/PL/NL/CS), vortex engine, LENR breakthroughs, aether theories, torsion physics, morphic fields, cymatics (gear: overdrive)"
+      "last_summary": "+0 finds since last run (still 12) | pt/pl/ko/cs/nl/hu (gear: overdrive)"
     },
     {
       "member": "translation-curator",
@@ -4350,9 +4398,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-03T08:51:26Z",
+      "last_run": "2026-09-04T08:47:20Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (12->20) | translating Acqua Viva — Viktor Schauberger (it) 20/106 chunks | backlog 303 (gear: overdrive)"
+      "last_summary": "+10 chunks since last run (0->10) | translating Schauberger 'Wasser - das Blut der Erde' (de) 10/210 chunks | backlog 323 (gear: overdrive)"
     },
     {
       "member": "translation-sweeper",
@@ -4361,9 +4409,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-04T04:19:19Z",
+      "last_run": "2026-09-04T08:19:15Z",
       "last_status": "ok",
-      "last_summary": "+20 chunks | Reich Ether Physics DE 20/230 | assembled Shipov RU 15ch, Spyridis EL 37ch, TUO FR 3ch | backlog 313 wait (gear: overdrive)"
+      "last_summary": "+12 chunks this run (+44 total since last) | Acqua Viva (Schauberger) 64/106 | backlog 323 wait (gear: overdrive)"
     },
     {
       "member": "db-entity-extractor",
@@ -4383,7 +4431,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-04T04:08:50Z",
+      "last_run": "2026-09-04T08:05:50Z",
       "last_status": "ok",
       "last_summary": "sync: 13565 docs, feed rebuilt"
     },
@@ -4427,7 +4475,7 @@
       "mission": "Long-haul translation of Atsyukovsky Book 5 — one chunk at a time, through the night.",
       "schedule": "overnight hourly",
       "icon": "📖",
-      "last_run": "2026-09-04T08:00:54Z",
+      "last_run": "2026-09-04T09:00:32Z",
       "last_status": "ok",
       "last_summary": "+0 chunks since last run (still 220) | now 220/220, translation complete — no work needed (gear: overdrive)"
     },
@@ -4449,9 +4497,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-04T04:12:00Z",
+      "last_run": "2026-09-04T08:06:00Z",
       "last_status": "ok",
-      "last_summary": "04:00 round — 0 new foreign-language LENR queue candidates: all tracked clusters stable via Zenodo keyword+author re-sweeps (zh Lin+Zhuang+Du, ru Lemeshko/TTU/ETVE, fr COLDFIRE 2.31, it, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries no new LENR versions (Lozac'h = IGFD-V4 math only 22284865, Matsuoka = Co-Intelligence eng not LENR, Zhuang = 2 known eng records). ARCHIVE GREW: now 13,565 docs (latest sync feed) — worker-side growth continues. Translator ACTIVE (activity 09-03, DE->EN Barrett published) NOT stale. No claims. tuks down from cloud (worker reports up), lenr-canr up, viXra up, lenr.seplm.ru down. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "08:00 round — 0 new foreign-language LENR queue candidates: all 24 tracked clusters stable via Zenodo keyword+author re-sweeps (zh Lin+Zhuang+Du, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31, it, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries no new LENR versions (Lozac'h = IGFD-V4 math only 22284865, Matsuoka = lunar maps not LENR, Lemeshko = ML-eval, Zhuang = GHG data, Tomita = epigenetics). 1 context-only zh note: 22262820 Taiji Unified Field Theory (not LENR, -> subtle zh rotation). ARCHIVE 13,540 / 90 trans / 1,089 pg / 26 declass / 2339 patents / 970 researchers / 14 agents (feed 04:02Z). Translator ACTIVE (09-03) NOT stale. No claims. tuks down cloud, lenr-canr up, viXra 406/Mod_Security, lenr.seplm.ru down, preprints.ru up. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -4477,6 +4525,36 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-04",
+      "time": "09:00",
+      "agent": "Book5 Translate",
+      "summary": "+0 chunks — No-op heartbeat: Book 5 translation 100% complete (220/220 chunks). No work needed."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:47",
+      "agent": "Translation Curator",
+      "summary": "+10 chunks — Began full-document translation of Schauberger's 'Wasser – das Blut der Erde' (Water: The Blood of the Earth), a foundational German-language collection of Schauberger's writings on water, temperature gradients, and natural energy. Translated chunks 1-10 of 210 in overdrive mode. Source PDF re-archived (1.2MB). Also confirmed zenodo.15609842 DOI is dead and teslavital.fr source is non-substantive (shop page)."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:19",
+      "agent": "Translation Sweeper",
+      "summary": "+12 chunks — Translated chunks 53-64 of Acqua Viva (Schauberger) IT→EN. Topics: implosion machine, trout turbine, meeting with Hitler, Nuremberg water-electricity experiments, Mauthausen concentration camp, flying disc tests, biological agriculture techniques, traditional farming methods. 52→64/106 chunks complete."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:06",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds this round — No new foreign-language LENR queue candidates (2026-09-04 08:00 UTC, cloud round). All 24 tracked clusters verified stable via Zenodo keyword + author re-sweeps (zh Lin pool + Zhuang + Du, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lozac'h 22284865 = IGFD-V4 math only; Matsuoka = lunar maps/eDNA, Lemeshko = ML-eval, Zhuang = GHG data, Torchigin = LENR list doc, Tomita = epigenetics). 1 context-only zh note: 22262820 Taiji Unified Field Theory v5.4 (Sun Hechun, 09-03) — unified-field, NOT LENR, flagged for subtle-energy zh+sacred-geometry rotation. **Archive 13,540 entries / 90 translations / 1,089 pages / 26 declassified / 2,339 patents / 970 researchers (181 cataloged) / 14 agents** (feed rebuilt 09-04 04:02:44Z). Translator ACTIVE (09-03 translations) NOT stale. No claims. tuks down (000), lenr-canr up, viXra 406/Mod_Security (was 200 last round), lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-04-scout-report-0800.md + finds mirror sources/2026-09-04-scout-finds-0800-scout.md."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:04",
+      "agent": "Polyglot Scout B",
+      "summary": "+10 finds — 10 multilingual finds across Portuguese, Polish, Korean, Czech, Dutch, Hungarian. Highlights: Hylenr LENR space test, Schauberger vortex tech, plasma cosmology, Eötvös torsion experiments, gravity compensation systems, water memory research, alternative river energy. No declassified material this run."
+    },
     {
       "date": "2026-09-04",
       "time": "08:01",
@@ -4806,36 +4884,6 @@
       "time": "12:05",
       "agent": "Drunvalo (The Pattern Keeper)",
       "summary": "village-maintenance-link-fixes-and-resources"
-    },
-    {
-      "date": "2026-08-31",
-      "time": "12:04",
-      "agent": "Book5 Translate",
-      "summary": "+30 chunks — Overdrive run: translated chunks 155-184 (30 chunks). Covered: wire inductance/Tesla transformer design, positive feedback systems, aetherodynamic generator schematics, Kapanadze generator, patent pages, Appendix 3 intro (critical analysis of relativity theory foundations), STR/GTR logic critique, experimental methodology. Now at 184/220 (84%)."
-    },
-    {
-      "date": "2026-08-31",
-      "time": "08:10",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR candidates after full Zenodo API + Exa sweeps; all tracked clusters verified stable (zh Lin pool, ru, fr COLDFIRE 2.31, it, ja DMF 20551471). zh keyword sweep surfaced Ring Quantum Model cond-mat ontology uploads (not LENR, context only). Archive 11,982 / 62 trans / 547 pg (feed 03:36Z). Pipeline active via Forge commits 04:04–06:04Z — translator not stale. OCR/queue/tag pending on FocusOptimized."
-    },
-    {
-      "date": "2026-08-31",
-      "time": "08:07",
-      "agent": "Drunvalo (The Pattern Keeper)",
-      "summary": "+5 resources — village-content-growth-added-resources"
-    },
-    {
-      "date": "2026-08-31",
-      "time": "08:04",
-      "agent": "Drunvalo (The Pattern Keeper)",
-      "summary": "aetherforce-translation-qc-checked-and-fixed"
-    },
-    {
-      "date": "2026-08-31",
-      "time": "08:03",
-      "agent": "Polyglot Scout B",
-      "summary": "+12 finds — Overdrive run: 12 finds across 5 languages (IT/PT-BR/TR/PL/KR) — vortex physics, ether theory, water memory, scalar waves, dark matter alternatives, Keely ether generator, Schauberger Nazi-era Repulsin, Kim's Law viscoelastic spacetime"
     }
   ],
   "declassified": [
