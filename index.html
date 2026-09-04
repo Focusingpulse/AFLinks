@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aetherforce Treasure Vault — Pirate's Paradise</title>
+    <title>Aetherforce Knowledge Vault — Archive</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="description" content="Aetherforce Knowledge Vault — 13,540 searchable primary-source documents on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
+    <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
+    <meta property="og:description" content="13,540 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
+    <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+    <meta name="twitter:card" content="summary">
     <style>
         :root {
             --bg: #0b0f14;
@@ -14,6 +23,7 @@
             --surface-hover: #1e2a38;
             --accent: #4fc3f7;
             --accent-dim: #2a6b85;
+            --accent-dim-strong: #1c4a5e;
             --accent-glow: rgba(79, 195, 247, 0.15);
             --text: #e8eef4;
             --text-dim: #8a9bae;
@@ -174,9 +184,9 @@
             border-color: var(--accent-dim);
         }
         .btn-primary {
-            background: var(--accent-dim);
-            color: var(--accent);
-            border-color: var(--accent-dim);
+            background: var(--accent-dim-strong, #1c4a5e);
+            color: #d6eef9;
+            border-color: var(--accent-dim-strong, #1c4a5e);
         }
         .btn-primary:hover {
             background: var(--accent);
@@ -1476,7 +1486,7 @@
         @media (max-width: 480px) {
             .pirate-hero h1 { font-size: 1.7rem; }
             .kd-list { grid-template-columns: 1fr; }
-            .kd-lock-wrap { width: min(86vw, 340px); height: min(86vw, 340px); }
+            .kd-lock-wrap { width: min(78vw, 320px); height: min(78vw, 320px); }
             .kd-window { width: 66%; min-height: 56px; bottom: -10px; }
             .kd-window .win-lens { font-size: 1.15rem; }
             .kd-hub { max-width: 94%; padding: 8px 14px; gap: 10px; }
@@ -1489,12 +1499,13 @@
     </style>
 </head>
 <body>
+    <a class="skip-link" href="#results">Skip to results</a>
     <!-- Hero: pirate's paradise, Aetherforce front and center -->
     <div class="hero pirate-hero">
         <span class="hero-kicker">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1>Aetherforce Treasure Vault</h1>
-        <p>Explore <span id="heroDocCount">6,562</span> primary source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Each one cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">…</span> translations published · <span id="heroPagesCount">…</span> pages translated &amp; growing</p>
+        <p>Explore <span id="heroDocCount">13,540</span> primary source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Each one cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">90</span> translations published · <span id="heroPagesCount">1,089</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" href="./vault.html">🗝 Enter the Vault</a>
@@ -1518,23 +1529,41 @@
     <nav class="teaching-nav" aria-label="Archive navigation">
         <span class="tn-group">
             <span class="tn-label layers">✦ The Layers</span>
-            <a href="./index.html" class="here">🗝 Archive</a>
-            <a href="./vault.html">🔭 Vault</a>
-            <a href="./library.html">⚓ Living Library</a>
+            <a href="./index.html" class="here" title="Browse every document — patents, papers & research">🗝 Archive</a>
+            <a href="./vault.html" title="The seams — where categories cross-reference each other">🔭 Vault</a>
+            <a href="./library.html" title="Translations, researchers & the crew's finds">⚓ Living Library</a>
         </span>
         <span class="tn-group">
             <span class="tn-label scopes">✦ The Scopes</span>
-            <a href="./lens.html">💠 Lens</a>
-            <a href="./synthesis.html" class="briefings-link">⚗ Fleet Briefings</a>
+            <a href="./lens.html" title="Cross-reference analysis — how authors think">💠 Lens</a>
+            <a href="./synthesis.html" class="briefings-link" title="Reports — what the fleet is learning">⚗ Fleet Briefings</a>
+        </span>
+        <span class="tn-group">
+            <span class="tn-label scopes">✦ The Charts</span>
+            <a href="./about.html" title="Who built this, and why">🧭 About</a>
+            <a href="./methodology.html" title="How documents are sourced, curated & verified">📜 Methodology</a>
         </span>
     </nav>
 
     <!-- Search -->
     <div class="search-bar">
-        <input type="text" id="search" placeholder="Search by title, inventor, patent number, or topic..." autocomplete="off">
+        <input type="text" id="search" placeholder="Search by title, inventor, patent number, or topic..." autocomplete="off" aria-label="Search the archive">
         <button class="btn btn-primary" onclick="showRandom()">🎲 Random</button>
         <span class="stats" id="stats">Loading...</span>
     </div>
+
+    <noscript>
+        <div class="noscript-box">
+            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">13,540</span> documents</strong> are still yours to explore:</p>
+            <ul>
+                <li><a href="./stats.json">Live stats (small JSON — agents welcome)</a></li>
+                <li><a href="./index.html?cat=Aether%20Physics">Browse Aether Physics</a></li>
+                <li><a href="./index.html?cat=Energy">Browse Energy</a></li>
+                <li><a href="./index.html?cat=LENR%20%2F%20Cold%20Fusion">Browse LENR / Cold Fusion</a></li>
+                <li><a href="./about.html">About the Vault</a> · <a href="./methodology.html">Methodology</a></li>
+            </ul>
+        </div>
+    </noscript>
 
     <!-- What's New — Mission Control HUD -->
     <div class="whats-new" id="whatsNew">
@@ -1552,10 +1581,10 @@
         <div class="kd-head">
             <span class="kd-title"><span class="key-icon"></span> Key &amp; Chest — Spin the Dial</span>
             <div class="kd-modes" id="kdModes" role="group" aria-label="Dial dimension">
-                <button class="kd-mode on" data-mode="focus" id="kdModeFocus" title="The founding group's publishing focus">★ Founders</button>
-                <button class="kd-mode" data-mode="paradigm" id="kdModeParadigm" title="Cross-cutting schools of thought — the way authors think">⚡ Paradigms</button>
+                <button class="kd-mode on" data-mode="focus" id="kdModeFocus" title="The founding group's publishing focus" aria-pressed="true">★ Founders</button>
+                <button class="kd-mode" data-mode="paradigm" id="kdModeParadigm" title="Cross-cutting schools of thought — the way authors think" aria-pressed="false">⚡ Paradigms</button>
             </div>
-            <span class="kd-sub">pick a treasure lane · open a chest · see what's newest inside</span>
+            <span class="kd-sub">drag the ring or use ◀ ▶ to turn · click a lane to open a chest</span>
         </div>
         <div class="kd-stage">
             <div class="kd-lock-wrap" id="kdLockWrap">
@@ -1627,8 +1656,8 @@
         </div>
     </div>
 
-    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
-        <div class="modal" id="modal"></div>
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)" role="dialog" aria-modal="true" aria-label="Document details">
+        <div class="modal" id="modal" tabindex="-1"></div>
     </div>
 
     <!-- Footer: Aetherforce ecosystem links -->
@@ -2189,7 +2218,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json', { cache: 'no-store' })
+            fetch('./synthesis/synthesis_index.json?v=20260904002547')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -2306,6 +2335,8 @@
             kdMode = m;
             document.getElementById('kdModeFocus').classList.toggle('on', m === 'focus');
             document.getElementById('kdModeParadigm').classList.toggle('on', m === 'paradigm');
+            document.getElementById('kdModeFocus').setAttribute('aria-pressed', String(m === 'focus'));
+            document.getElementById('kdModeParadigm').setAttribute('aria-pressed', String(m === 'paradigm'));
             kdSelLens = 0; kdSpinRot = 0; kdSelSubj = null;
             kdLenses = m === 'paradigm' ? kdParadigmList() : (kdMetaLenses.length ? kdMetaLenses : kdAvailableLenses());
             if (!kdLenses.length) return;
@@ -2640,16 +2671,16 @@
                 if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
                 // Load the SLIM search index (fast) — full records are
                 // fetched lazily per chunk when a detail modal opens.
-                const response = await fetch('./search_index.json');
+                const response = await fetch('./search_index.json?v=20260904002547');
                 allData = await response.json();
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
                 try {
-                    const man = await fetch('./full_manifest.json', { cache: 'no-store' });
+                    const man = await fetch('./full_manifest.json?v=20260904002547');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json', { cache: 'no-store' });
+                    const feedRes = await fetch('./library_feed.json?v=20260904002547');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.translations != null) {
@@ -3092,13 +3123,29 @@
                 ${afHtml}
                 ${rexHtml}
             `;
-            document.getElementById('modalOverlay').classList.add('active');
+            const ovl = document.getElementById('modalOverlay');
+            ovl.classList.add('active');
+            ovl.querySelector('.modal').focus();
         }
 
         function closeModal(e) {
             if (e && e.target !== document.getElementById('modalOverlay')) return;
             document.getElementById('modalOverlay').classList.remove('active');
         }
+
+        // Modal accessibility: trap Tab inside the dialog, close on Escape.
+        document.addEventListener('keydown', function (e) {
+            const ovl = document.getElementById('modalOverlay');
+            if (!ovl.classList.contains('active')) return;
+            if (e.key === 'Escape') { closeModal(); return; }
+            if (e.key !== 'Tab') return;
+            const focusables = ovl.querySelectorAll('a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"])');
+            if (!focusables.length) return;
+            const first = focusables[0];
+            const last = focusables[focusables.length - 1];
+            if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        });
 
         function escapeHtml(str) {
             if (!str) return '';

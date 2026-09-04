@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Aetherforce Living Library — Pirate's Cove</title>
+<title>Aetherforce Knowledge Vault — Living Library</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="The Living Library — translations, researcher index, scout finds and activity behind the Aetherforce Knowledge Vault.">
+<meta property="og:title" content="Aetherforce Knowledge Vault — Living Library">
+<meta property="og:description" content="Translations, researchers and the crew's finds — the living layer of the Aetherforce Knowledge Vault.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/library.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
 <style>
 :root {
   --bg: #07131a;
@@ -561,6 +570,8 @@ footer a { color: var(--gold); text-decoration: none; }
     <a href="./lens.html">&#128300; Lens</a>
     <a href="./synthesis.html">&#9879; Fleet Briefings</a>
     <a href="#" class="here">&#9875; Living Library</a>
+    <a href="./about.html">&#129511; About</a>
+    <a href="./methodology.html">&#128220; Method</a>
   </div>
 </header>
 
@@ -640,7 +651,7 @@ footer a { color: var(--gold); text-decoration: none; }
 <script>
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json', { cache: 'no-store' });
+    const res = await fetch('./library_feed.json?v=20260904002547');
     const feed = await res.json();
     renderStats(feed.library);
     renderFleet(feed.agents);

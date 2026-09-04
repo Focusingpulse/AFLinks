@@ -3,10 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Synthesis Briefings — The Aetherforce Treasure Vault</title>
+    <title>Aetherforce Knowledge Vault — Fleet Briefings</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="description" content="Fleet Briefings — synthesis reports and what the Aetherforce Knowledge Vault crew is learning from 13,540 primary-source documents.">
+    <meta property="og:title" content="Aetherforce Knowledge Vault — Fleet Briefings">
+    <meta property="og:description" content="What the fleet is learning — synthesis reports from the Aetherforce Knowledge Vault.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/synthesis.html">
+    <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+    <meta name="twitter:card" content="summary">
     <style>
         :root {
             --bg: #0b0f14;
@@ -425,6 +434,11 @@
                 <a href="./lens.html">💠 Lens</a>
                 <a href="./synthesis.html" class="briefings-link here">⚗ Fleet Briefings</a>
             </span>
+            <span class="tn-group">
+                <span class="tn-label scopes">✦ The Charts</span>
+                <a href="./about.html">🧭 About</a>
+                <a href="./methodology.html">📜 Methodology</a>
+            </span>
         </div>
     </div>
 
@@ -682,7 +696,7 @@
         /* ─── Init ─── */
         async function loadSynthesis() {
             try {
-                const res = await fetch('./synthesis/synthesis_index.json', { cache: 'no-store' });
+                const res = await fetch('./synthesis/synthesis_index.json?v=20260904002547');
                 if (!res.ok) throw new Error('HTTP ' + res.status);
                 synthEntries = await res.json();
                 // Sanity: only keep entries that look like reports

@@ -1,0 +1,65 @@
+/* AFLinks shared tokens & global fixes (Sep 2026) — linked first by every page,
+   per-page inline styles stay in each document and override where needed. */
+
+/* One visible focus style for every keyboard interaction across the whole site. */
+:focus-visible {
+    outline: 2px solid var(--gold, #e8b64c);
+    outline-offset: 2px;
+    border-radius: 3px;
+}
+
+/* Skip link: hidden until focused. */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 9999;
+    background: var(--gold, #e8b64c);
+    color: #0b0f14;
+    padding: 8px 14px;
+    border-radius: 0 0 8px 0;
+    font-weight: 700;
+    text-decoration: none;
+}
+.skip-link:focus {
+    left: 0;
+}
+
+/* Motion-sensitive visitors: calm the dial, entrances, and live pulses. */
+@media (prefers-reduced-motion: reduce) {
+    .kd-lock,
+    .kd-hub,
+    .kd-spin,
+    .kd-spill,
+    .kd-lock-wrap,
+    [class*="spill"],
+    [class*="pulse"],
+    .wn-live {
+        animation: none !important;
+        transition: none !important;
+    }
+    * {
+        scroll-behavior: auto !important;
+    }
+}
+
+/* Modal focus target needs no default outline flash on open. */
+.modal:focus {
+    outline: none;
+}
+
+/* Themed no-JS notice (used with <noscript>). */
+.noscript-box {
+    max-width: 1000px;
+    margin: 0 auto 18px;
+    padding: 14px 18px;
+    border: 1px dashed var(--gold, #e8b64c);
+    border-radius: 10px;
+    background: rgba(10, 18, 24, 0.85);
+    color: var(--text, #e8eef4);
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+.noscript-box a {
+    color: var(--gold-bright, #ffd166);
+}

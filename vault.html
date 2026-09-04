@@ -3,7 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Aetherforce Vault</title>
+<title>Aetherforce Knowledge Vault — Vault</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="The Vault — cross-reference the seams between categories in the Aetherforce Knowledge Vault: 13,540 primary-source documents.">
+<meta property="og:title" content="Aetherforce Knowledge Vault — Vault">
+<meta property="og:description" content="The seams between categories — cross-reference connections across 13,540 primary-source documents.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/vault.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
 <style>
 :root {
   --bg: #0c0a08;
@@ -623,6 +632,8 @@ header .af-link:hover {
     <a class="af-link" href="./lens.html" style="margin-left:8px;border-color:var(--bronze);">&#128300; Lens</a>
     <a class="af-link" href="./synthesis.html" style="margin-left:8px;border-color:var(--bronze);">&#9879; Fleet Briefings</a>
     <a class="af-link" href="#" style="margin-left:8px;border-color:var(--bronze);">&#128273; Vault</a>
+    <a class="af-link" href="./about.html" style="margin-left:8px;border-color:var(--bronze);">&#129511; About</a>
+    <a class="af-link" href="./methodology.html" style="margin-left:8px;border-color:var(--bronze);">&#128220; Method</a>
   </div>
   <p>The archive never moves. The eye moves.</p>
   <a class="af-link" href="https://www.aetherforce.energy" target="_blank">Enter Aetherforce &#8594;</a>
@@ -670,7 +681,7 @@ header .af-link:hover {
 
 <!-- Stats -->
 <div class="stats" id="stats">
-  <span id="statTotal">6,562</span> scrolls catalogued &middot; <span id="statVisible">23</span> chests visible
+  <span id="statTotal">13,540</span> scrolls catalogued &middot; <span id="statVisible">23</span> chests visible
 </div>
 
 <!-- Chests -->
@@ -1149,7 +1160,7 @@ let SEAM_INDEX = null;
 // so the vault total + every chest stays current as new archives come online.
 async function loadLiveStats() {
   try {
-    const res = await fetch('./library_feed.json', { cache: 'no-store' });
+    const res = await fetch('./library_feed.json?v=20260904002547');
     const feed = await res.json();
     const lib = feed.library || {};
     if (typeof lib.archive_entries === 'number') {
