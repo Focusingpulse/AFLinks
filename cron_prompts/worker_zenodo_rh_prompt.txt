@@ -17,6 +17,7 @@ Run an AFLinks scrape worker batch on the cloud sandbox for site: zenodo-rh (the
 7) MERGE: python3 merge_all_progress.py (idempotent — only new source_urls get appended).
 
 8) REBUILD DERIVED (CRITICAL — the site counter reads these; they drift if not rebuilt after every index.json change): AFLINKS_DIR=/root/workspace/AFLinks python3 build_library_feed.py && python3 build_slim_index.py
+8.5) BAKE LIVE STATS (after rebuild, before commit): python3 bake_stats.py — bakes the real counts into the HTML + writes stats.json + versions the fetch URLs. Run every batch.
 
 9) RESEARCHER SWEEP: python3 researcher_sweep.py 2 — it writes new names into the living-library researcher index ($MEMORY_DIR/../living-library/database/entities/researcher-index.json). If that file changed, cd $MEMORY_DIR/../living-library && git add database/entities/researcher-index.json && git commit -m "researchers: +N from zenodo-rh harvest" --author "aflinks-worker <aflinks-cron@letta.com>" && git push origin main (with Co-Authored-By: Letta Code trailer). This keeps the researcher map growing with the harvest.
 

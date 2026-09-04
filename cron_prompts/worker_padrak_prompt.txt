@@ -9,6 +9,7 @@ Run an AFLinks site-scrape worker batch on the cloud sandbox for site: padrak.co
 7) REBUILD DERIVED (CRITICAL for the live ledger — the site counter reads library_feed.json + search_index.json, and they drift if not rebuilt after every index.json change):
    AFLINKS_DIR=/root/workspace/AFLinks python3 build_library_feed.py
    python3 build_slim_index.py
+7.5) BAKE LIVE STATS (after rebuild, before commit): python3 bake_stats.py — bakes the real counts into the HTML + writes stats.json + versions the fetch URLs. Run every batch.
 8) PULL AGAIN before push (other workers / the main aflinks-sync cron may have pushed): git pull --rebase --quiet origin main
 9) COMMIT + PUSH: ENTRIES=$(python3 -c "import json;print(len(json.load(open('index.json'))))"); git add -A; git commit -m "AFLinks worker: padrak batch, archive at $ENTRIES docs" --author "aflinks-worker <aflinks-cron@letta.com>"; git push origin main (with Co-Authored-By: Letta Code trailer).
 10) CHECK-IN: python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member aflinks-worker-padrak --status ok --summary "padrak batch done, archive $ENTRIES"

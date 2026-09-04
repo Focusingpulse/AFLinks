@@ -10,5 +10,6 @@ Run the ISIS Scout (scout of the i-sis.org.uk archive, ~2000 reports) on the clo
    SCOUT EXTRA (overdrive only): after processing, run the researcher sweep to keep the map growing — python3 - <<'EOF' ... (see add_researchers_sweep.py if present, else skip; never invent new files) ... EOF
 6) MERGE: python3 merge_all_progress.py  (idempotent; merges this site's entries into index.json)
 7) REBUILD (mandatory after ANY index.json change): AFLINKS_DIR=/root/workspace/AFLinks python3 build_library_feed.py && python3 build_slim_index.py
+7.5) BAKE LIVE STATS (after rebuild, before commit): python3 bake_stats.py — bakes the real counts into the HTML + writes stats.json + versions the fetch URLs. Run every batch.
 8) COMMIT + PUSH: git add index.json library_feed.json search_index.json <site>_progress.json <site>_entries.json *filelist.json (as present); git commit -m "ISIS scout: N more documents archived"; git push origin main
 9) CHECK IN: python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member aflinks-worker-isis --status ok --summary "ISIS scout batch done"
