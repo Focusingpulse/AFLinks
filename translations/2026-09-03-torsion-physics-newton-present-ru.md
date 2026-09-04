@@ -1,6 +1,6 @@
 ---
-name: "Torsion Physics from Newton to the Present Day. Part I"
-description: "RU->EN full translation of 'Torsion Physics from Newton to the Present Day. Part I' by G.I. Shipov (2022). Survey of generalizations of Newtonian mechanics showing implicit torsion field content, from D'Alembert to Einstein to quantum mechanics. Source: http://www.trinitas.ru/rus/doc/0016/000d/00161380.htm | Date: 2026-09-03 | Domain: Torsion physics, Vacuum mechanics, Unified field theory | Language: ru"
+name: "2026-09-03-torsion-physics-newton-present-ru"
+description: Full translation of "ACADEMY OF TRINITARIANISM"
 ---
 
 ACADEMY OF TRINITARIANISM
