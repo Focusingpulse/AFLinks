@@ -210,14 +210,15 @@
     },
     {
       "name": "i-sis.org.uk",
-      "status": "crawl_failed",
+      "status": "crawled",
       "base_url": "https://www.i-sis.org.uk",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/",
         "/all.php"
       ],
-      "notes": "ISIS reports ~2000 reports. Science and society topics including GMO, energy, health."
+      "notes": "ISIS reports ~2000 reports. Science and society topics including GMO, energy, health.",
+      "file_count": 20
     },
     {
       "name": "padrak.com/ine",
