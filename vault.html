@@ -1160,7 +1160,7 @@ let SEAM_INDEX = null;
 // so the vault total + every chest stays current as new archives come online.
 async function loadLiveStats() {
   try {
-    const res = await fetch('./library_feed.json?v=20260904002547');
+    const res = await fetch('./library_feed.json?v=20260904035558');
     const feed = await res.json();
     const lib = feed.library || {};
     if (typeof lib.archive_entries === 'number') {

@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-09-04T00:25:47Z",
+  "generated_at": "2026-09-04T03:55:58Z",
   "library": {
-    "researchers": 181,
+    "researchers": 970,
+    "researchers_cataloged": 181,
     "patents": 2339,
     "categories": 47,
     "meta_categories": 24,
@@ -4304,9 +4305,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-04T00:05:40Z",
+      "last_run": "2026-09-04T00:26:14Z",
       "last_status": "ok",
-      "last_summary": "sync: 13390 docs, feed rebuilt, concepts tagged 27%"
+      "last_summary": "tuks.nl +130 docs, index.json conflict fix, 13540 total"
     },
     {
       "member": "archive-raid",
@@ -4370,9 +4371,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-03T16:07:00Z",
+      "last_run": "2026-09-04T00:00:00Z",
       "last_status": "ok",
-      "last_summary": "16:00 round — 0 new foreign-language LENR queue candidates: all 24 tracked records stable via Zenodo keyword+author re-sweeps. Fresh LENR-keyword window 13 days clean (newest 22036645, 08-21); 8-lang title sweeps (zh/ru/ja/fr/it/de/es/uk) empty in window; author queries = no new LENR versions (Du surfaced 21217533 eng Cosserat torsion-bound-state = context only). Archive 13,161 / 71 trans / 833 pg / 23 declass / 2339 patents / 100 researchers / 14 agents (feed 00:21Z, unchanged). Translator ACTIVE (Barrett DE->EN 09-02 22:19Z + Translation-QC 09-03 12:10Z + Forge synthesis 15:58Z) — NOT stale. No claims. tuks down, lenr-canr up, viXra /new 404, preprints.ru Lebedkin alive. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "00:00 round — 0 new foreign-language LENR queue candidates: all 24 tracked records stable via Zenodo keyword+author re-sweeps. Fresh LENR-keyword window 14 days clean (newest 22036645, 08-21); 8-lang sweeps empty in window; author queries = no new LENR versions (Lozac'h = IGFD-V4 tokamak math 22284865, Matsuoka/Lemeshko/Zhuang/Du = unrelated data, Torchigin = known list/videos, Lin = homonym noise). COLDFIRE chain top still 2.31 (19744790). ARCHIVE GREW: 13,390 / 90 trans / 1,089 pg / 26 declass / 2339 patents / 181 researchers / 14 agents (feed 00:03:21Z) — driven by worker side (zenodo-rh +160 RH docs + svpwiki). Translator ACTIVE — 9 translations dated 09-03 (Vortex Motor ES->EN, torsion ru/de, FR stack) — NOT stale. No claims. tuks down from cloud (worker reports up), lenr-canr up, viXra /new 404, preprints.ru Lebedkin alive, lenr.seplm.ru now down. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -4400,9 +4401,21 @@
   "activity_log": [
     {
       "date": "2026-09-04",
+      "time": "00:26",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+130 docs — +130 docs in vault (tuks.nl batch) | index.json conflict corruption fixed, feed rebuilt | 13540 total docs"
+    },
+    {
+      "date": "2026-09-04",
       "time": "00:05",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+0 docs — +0 docs in vault | feed rebuilt | concept tags refreshed (27% coverage)"
+    },
+    {
+      "date": "2026-09-04",
+      "time": "00:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds this round — No new foreign-language LENR queue candidates: all 24 tracked records re-verified live via Zenodo keyword + author queries (zh Lin pool + Zhuang + Du; ru Lemeshko TTU trio + 18521158 + ETVE + Torchigin; fr COLDFIRE-2.31 19744790 + DYN-LENR + nanodiamond; it Pulvirenti/Marino; ja DMF + Tomita; de KBF-01). Fresh LENR-keyword window now 14 days clean (newest 22036645, 08-21); 8-lang sweeps empty in window (zh/ja = adaptive-ML noise, ru/uk = non-LENR); author queries = no new LENR versions (Lozac'h = IGFD-V4 tokamak math 22284865 only, no new COLDFIRE; Matsuoka/Lemeshko/Zhuang/Du = unrelated data; Torchigin = known list/videos; Lin = homonym noise). COLDFIRE chain top still 2.31 (19744790). **Archive GREW: 13,390 entries / 90 translations / 1,089 pages / 26 declassified / 2,339 patents / 181 researchers / 14 agents** (feed rebuilt 09-04 00:03:21Z) — growth driven by worker side (zenodo-rh +160 Recursive Harmonic docs + 81-name researcher sweep 09-03 22:12Z, svpwiki +9, zenodo-rh +60), not by scouting. Pipeline ACTIVE — translator NOT stale (9 translations dated 09-03: Vortex Motor ES->EN, torsion ru/de, FR stack, es psicogeometria; commits to 00:09Z). No claims. tuks down from cloud (worker reports it back up — geo-dependent), lenr-canr up, viXra /new 404, preprints.ru/3908 Lebedkin alive, lenr.seplm.ru now down. OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-04-scout-report-0000.md + finds mirror sources/2026-09-04-scout-finds-0000-scout.md."
     },
     {
       "date": "2026-09-03",
@@ -4745,18 +4758,6 @@
       "time": "04:05",
       "agent": "Book5 Translate",
       "summary": "+15 chunks — Translated chunks 140-154 (15 chunks) in overdrive mode. Topics: Engels on measures of motion, gas vortex energetics, vortex heat generators (Potapov), Tesla transformer peculiarities, magnetic field energy of current-carrying conductors. Progress: 154/220 (70%)."
-    },
-    {
-      "date": "2026-08-31",
-      "time": "04:04",
-      "agent": "Drunvalo (The Pattern Keeper)",
-      "summary": "aetherforce-translation-qc-checked-and-fixed: 5 translations checked, 2 fixed (brazilian-scalar-energy-generator-pt: added frontmatter+cleaned patent boilerplate; del-giudice-pollack-ez-water-it: deleted duplicate of cle"
-    },
-    {
-      "date": "2026-08-31",
-      "time": "04:03",
-      "agent": "Polyglot Scout A",
-      "summary": "+12 finds — 12 finds across 6 languages (German, French, Spanish, Russian, Japanese, Chinese) in overdrive mode. Strong vortex/aether physics tradition in German and Russian sources. Schauberger implosion technology across German, French, Spanish. Russian torsion field research linking to Tesla scalar EM. Japanese sources bridge plasma cosmology and Tesla ether concepts. Chinese anthology provides forbidden technology survey."
     }
   ],
   "declassified": [

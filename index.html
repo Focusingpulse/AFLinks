@@ -2218,7 +2218,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260904002547')
+            fetch('./synthesis/synthesis_index.json?v=20260904035558')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -2671,16 +2671,16 @@
                 if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
                 // Load the SLIM search index (fast) — full records are
                 // fetched lazily per chunk when a detail modal opens.
-                const response = await fetch('./search_index.json?v=20260904002547');
+                const response = await fetch('./search_index.json?v=20260904035558');
                 allData = await response.json();
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260904002547');
+                    const man = await fetch('./full_manifest.json?v=20260904035558');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260904002547');
+                    const feedRes = await fetch('./library_feed.json?v=20260904035558');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.translations != null) {

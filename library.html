@@ -651,7 +651,7 @@ footer a { color: var(--gold); text-decoration: none; }
 <script>
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json?v=20260904002547');
+    const res = await fetch('./library_feed.json?v=20260904035558');
     const feed = await res.json();
     renderStats(feed.library);
     renderFleet(feed.agents);

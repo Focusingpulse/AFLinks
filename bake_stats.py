@@ -62,12 +62,13 @@ def main() -> int:
     stats = {
         "docs": docs,
         "researchers": researchers,
+        "researchers_cataloged": lib.get("researchers_cataloged", researchers),
         "patents": patents,
         "categories": categories,
         "translations": translations,
         "pages_translated": pages_translated,
         "generated_at": generated_at,
-        "note": "Derived from index.json + library_feed.json by bake_stats.py. Raw HTML carries these numbers too.",
+        "note": "Derived from index.json + library_feed.json by bake_stats.py. Raw HTML carries these numbers too. 'researchers' = distinct named authors in the archive; 'researchers_cataloged' = curated researcher records.",
     }
     (ROOT / "stats.json").write_text(
         json.dumps(stats, indent=2, ensure_ascii=False), encoding="utf-8"

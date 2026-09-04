@@ -335,12 +335,39 @@ def main():
         legacy_recs = researchers.get("entities", {}) if isinstance(researchers, dict) else {}
         if not isinstance(legacy_recs, dict):
             legacy_recs = {}
-    researchers_by_name = person_recs or legacy_recs
-    # Prefer the richer/canonical count, but never regress below the legacy table.
-    researcher_count = max(len(person_recs), len(legacy_recs)) if (person_recs or legacy_recs) else 0
+    # Union the two tables by name so neither writer's additions are lost
+    # (person-index is canonical and preferred for ranking; the legacy table may
+    # hold swept names not yet curated into the person index).
+    researchers_by_name = dict(person_recs)
+    for name, rec in legacy_recs.items():
+        researchers_by_name.setdefault(name, rec)
+    researcher_count_cataloged = len(researchers_by_name)
+
+    # Archive-scale researcher count: distinct named authors (primary_person)
+    # in the current index.json. This is the number the site's stats band shows
+    # ("Researchers"): an honest, derived figure that tracks the whole archive,
+    # where the cataloged table is the curated subset.
+    researcher_count = researcher_count_cataloged
+    idx_path = os.path.join(AFLINKS, "index.json")
+    if os.path.isfile(idx_path):
+        try:
+            with open(idx_path, encoding="utf-8") as f:
+                idx = json.load(f)
+            seen = set()
+            for e in idx:
+                p = (e.get("primary_person") or "").strip()
+                if p and not re.match(r"^[\d\s]+$", p):
+                    seen.add(p)
+            if seen:
+                researcher_count = len(seen)
+        except Exception as exc:
+            print(f"WARN: could not scan index.json for distinct authors: {exc}")
+    # Prefer the archive count, but never regress below the cataloged table.
+    researcher_count = max(researcher_count, researcher_count_cataloged)
 
     feed["library"] = {
         "researchers": researcher_count,
+        "researchers_cataloged": researcher_count_cataloged,
         "patents": patents.get("total_patents", len(patents.get("patents", {}))),
         "categories": len(tax.get("categories", {})),
         "meta_categories": len(tax.get("meta_categories", {})),
