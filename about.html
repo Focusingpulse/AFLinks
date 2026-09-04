@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aetherforce Knowledge Vault — About</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="About the Aetherforce Knowledge Vault — who built it, why it exists, and how the archive crew works.">
+<meta property="og:title" content="Aetherforce Knowledge Vault — About">
+<meta property="og:description" content="The archive is the map. The real treasure is the people.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/about.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #0b0f14;
+  --surface: #141c27;
+  --surface-hover: #1e2a38;
+  --accent: #4fc3f7;
+  --text: #e8eef4;
+  --text-dim: #8a9bae;
+  --border: #253242;
+  --gold: #e8b64c;
+  --gold-bright: #ffd166;
+}
+* { box-sizing: border-box; }
+body {
+  background: linear-gradient(180deg, #0b0f14, #07131a);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.65;
+  margin: 0;
+  padding: 0 20px 60px;
+}
+.wrap { max-width: 900px; margin: 0 auto; }
+a { color: var(--accent); }
+.hero { padding: 40px 0 10px; text-align: center; }
+.hero-kicker { color: var(--gold); font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; }
+h1 { font-family: 'Pirata One', Georgia, serif; font-size: 2.6rem; color: var(--gold-bright); margin: 6px 0 10px; letter-spacing: 1px; }
+.hero p { color: var(--text-dim); max-width: 640px; margin: 0 auto; }
+.hr { width: 80px; height: 2px; background: var(--gold); margin: 28px auto; opacity: 0.5; }
+h2 { font-family: 'Pirata One', Georgia, serif; color: var(--gold-bright); font-size: 1.5rem; margin: 34px 0 8px; letter-spacing: 0.5px; }
+p { margin: 10px 0; }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin: 14px 0;
+}
+.card h3 { margin: 0 0 6px; color: var(--gold-bright); font-size: 1.05rem; }
+.card p { color: var(--text-dim); margin: 6px 0; }
+.fleet { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.fleet .card { margin: 0; }
+ul { margin: 8px 0; padding-left: 22px; }
+li { margin: 5px 0; }
+.note { font-size: 0.9rem; color: var(--text-dim); border-left: 3px solid var(--gold); padding-left: 14px; margin: 18px 0; }
+.back { display: inline-block; margin-top: 28px; color: var(--gold); text-decoration: none; }
+.back:hover { color: var(--gold-bright); }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 0; background: var(--gold); color: #0b0f14; padding: 8px 14px; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="wrap">
+  <div class="hero">
+    <span class="hero-kicker">Aetherforce Knowledge Vault</span>
+    <h1>About the Vault</h1>
+    <p>The archive is the map. The real treasure is the people — the community gathering, the connections being made as we build and grow.</p>
+  </div>
+  <div class="hr"></div>
+
+  <h2>What this is</h2>
+  <p>The Aetherforce Knowledge Vault is a growing, searchable archive of primary-source documents on the hidden sciences — patents, papers, and research from archives that mainstream indexing mostly ignores. It maps each document to the <a href="https://www.aetherforce.energy" target="_blank">Aetherforce</a> worldview: a living science of energy, consciousness, and nature, with no gatekeepers between a curious reader and the original text.</p>
+  <p>It is not just a pile of PDFs. Every document carries categories, concept tags, and cross-references, so you can browse by subject, by the <a href="./lens.html">way authors think</a>, or by the <a href="./vault.html">seams where categories connect</a>.</p>
+
+  <h2>Who built it</h2>
+  <p>Started as a personal project to preserve and connect material from <a href="https://rexresearch.com" target="_blank">Rex Research</a> and other fringe-science archives. It grew into a family-built, open, collaborative effort — including the fleet of small automated agents that scout, harvest, translate, and index around the clock. Live numbers are always available at <a href="./stats.json">stats.json</a>; the archive is rebuilt every few hours and grows with every harvest.</p>
+
+  <h2>The fleet — real, and explained</h2>
+  <p>You will see agent names on the archive page ("Scout-7", "Translator-Alpha", and friends). These are real automated scripts that run on a schedule — not people, and not decoration. They do concrete work:</p>
+  <div class="fleet">
+    <div class="card"><h3>Scouts</h3><p>Hunt archives and dead-web corners for new documents, find fresh leads, and report what they find back to the crew.</p></div>
+    <div class="card"><h3>Harvesters</h3><p>Download, deduplicate, and merge documents into the index — including rescuing dead domains through the Wayback Machine.</p></div>
+    <div class="card"><h3>Translators</h3><p>Translate rare papers (Russian, French, and more) into English and publish them in the Living Library.</p></div>
+    <div class="card"><h3>Reviewers</h3><p>A quality gate: check finds, verify links, and keep the archive honest before things go live.</p></div>
+  </div>
+  <p>When unusual documents or patterns surface, the fleet writes them up in <a href="./synthesis.html">Fleet Briefings</a>. Their activity log is visible on the <a href="./library.html">Living Library</a> page.</p>
+
+  <h2>Editorial standards</h2>
+  <ul>
+    <li><strong>Primary sources first.</strong> The archive prefers the original document over commentary about it.</li>
+    <li><strong>Provenance.</strong> Where a document came from, and when, is tracked for Wayback-rescued material.</li>
+    <li><strong>Preservation over curation purism.</strong> We index the record — including the wrong turns. Science's dead ends are data too.</li>
+    <li><strong>Honesty about coverage.</strong> The <a href="./methodology.html">Methodology</a> page says plainly what is indexed, what is not, and why.</li>
+    <li><strong>No ads, no tracking, no paywalls.</strong> This is a free, open archive. The source repository is public on GitHub.</li>
+  </ul>
+
+  <div class="note">A note on labeling: this material sits outside the mainstream consensus, and some of it is speculative, wrong, or long-ago debunked. That is exactly why it should be preserved and studied — a map of where science looked, and why some doors stayed closed.</div>
+
+  <h2>Join the crew</h2>
+  <ul>
+    <li>Explore the archive from the <a href="./index.html">Archive</a> page, or follow the seams in the <a href="./vault.html">Vault</a>.</li>
+    <li>Read the <a href="./methodology.html">Methodology</a> to understand how documents get here.</li>
+    <li>Find the community around the work at <a href="https://www.aetherforce.energy" target="_blank">Aetherforce.energy</a>.</li>
+    <li>The code and data are public: <a href="https://github.com/Focusingpulse/AFLinks" target="_blank">github.com/Focusingpulse/AFLinks</a>.</li>
+  </ul>
+
+  <a class="back" href="./index.html">← Back to the Archive</a>
+</div>
+</body>
+</html>

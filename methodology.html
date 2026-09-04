@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aetherforce Knowledge Vault — Methodology</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="How the Aetherforce Knowledge Vault sources, deduplicates, categorizes, and verifies its documents — including the honest limits.">
+<meta property="og:title" content="Aetherforce Knowledge Vault — Methodology">
+<meta property="og:description" content="How documents are sourced, curated, and verified — including the honest limits.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/methodology.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #0b0f14;
+  --surface: #141c27;
+  --surface-hover: #1e2a38;
+  --accent: #4fc3f7;
+  --text: #e8eef4;
+  --text-dim: #8a9bae;
+  --border: #253242;
+  --gold: #e8b64c;
+  --gold-bright: #ffd166;
+}
+* { box-sizing: border-box; }
+body {
+  background: linear-gradient(180deg, #0b0f14, #07131a);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.65;
+  margin: 0;
+  padding: 0 20px 60px;
+}
+.wrap { max-width: 900px; margin: 0 auto; }
+a { color: var(--accent); }
+.hero { padding: 40px 0 10px; text-align: center; }
+.hero-kicker { color: var(--gold); font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; }
+h1 { font-family: 'Pirata One', Georgia, serif; font-size: 2.6rem; color: var(--gold-bright); margin: 6px 0 10px; letter-spacing: 1px; }
+.hero p { color: var(--text-dim); max-width: 660px; margin: 0 auto; }
+.hr { width: 80px; height: 2px; background: var(--gold); margin: 28px auto; opacity: 0.5; }
+h2 { font-family: 'Pirata One', Georgia, serif; color: var(--gold-bright); font-size: 1.5rem; margin: 34px 0 8px; letter-spacing: 0.5px; }
+h3 { color: var(--gold-bright); font-size: 1.05rem; margin: 20px 0 6px; }
+p { margin: 10px 0; }
+ul { margin: 8px 0; padding-left: 22px; }
+li { margin: 5px 0; }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin: 12px 0; }
+.note { font-size: 0.9rem; color: var(--text-dim); border-left: 3px solid var(--gold); padding-left: 14px; margin: 18px 0; }
+.back { display: inline-block; margin-top: 28px; color: var(--gold); text-decoration: none; }
+.back:hover { color: var(--gold-bright); }
+.skip-link { position: absolute; left: -9999px; }
+.skip-link:focus { left: 0; background: var(--gold); color: #0b0f14; padding: 8px 14px; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="wrap">
+  <div class="hero">
+    <span class="hero-kicker">Aetherforce Knowledge Vault</span>
+    <h1>Methodology</h1>
+    <p>How documents get here, how they are organized, and — just as important — what we do not claim.</p>
+  </div>
+  <div class="hr"></div>
+
+  <h2>Sources &amp; harvesting</h2>
+  <p>The vault began with the <strong>Rex Research</strong> archive (the original 5,810 documents) and has grown by harvesting additional archives, each through its own crawler that downloads, extracts text, and merges into the unified index. Sources include:</p>
+  <ul>
+    <li><strong>Rex Research</strong> — the founding collection: patents, papers, and fringe-science documents.</li>
+    <li><strong>viXra</strong> — alternative preprint archive (large, but only partially indexed — see honest limits).</li>
+    <li><strong>tuks.nl</strong> — free-energy and electrogravity collection.</li>
+    <li><strong>lenr-canr.org</strong> — LENR / cold-fusion archive.</li>
+    <li><strong>keelynet.com</strong> — John Keely's original domain, <strong>rescued from the dead web</strong> via the Wayback Machine with provenance recorded.</li>
+    <li><strong>Zenodo (Recursive Harmonic cluster)</strong> — modern DOI-stable records.</li>
+    <li><strong>SVPwiki</strong> — Dale Pond's Keely/SVP wiki, harvested by an ongoing scout.</li>
+    <li>More are queued; the pipeline is designed so new archives can be added without touching the existing index.</li>
+  </ul>
+
+  <h2>Deduplication &amp; merging</h2>
+  <p>Each source crawls into its own queue. A merge step unifies everything into <code>index.json</code>, keyed by <code>source_url</code> so nothing is double-counted, and reassigns stable IDs. Every merge is idempotent — re-running it cannot corrupt the index.</p>
+
+  <h2>Categorization</h2>
+  <p>Documents are tagged against a fixed set of subject categories (e.g. Energy, Aether Physics, Water, Biology, LENR / Cold Fusion), plus a layer of &ldquo;meta-categories&rdquo; that group related subjects into lenses. Categories are normalized so old labels stay searchable even after renames, and the <a href="./vault.html">Vault's seam view</a> shows where categories genuinely overlap — with real cross-linked document counts, not guesses.</p>
+
+  <h2>Concept tagging &amp; paradigm lenses</h2>
+  <p>Beyond subjects, documents are tagged with cross-cutting concepts — the <a href="./lens.html">Lens</a> page turns these into two viewing modes: <strong>Founders' Focus</strong> (what the Aetherforce founding group actually publishes on) and <strong>Paradigm Map</strong> (schools of thought like the Goethean method, field physics, and suppressed science). The goal is to show how authors <em>think</em>, not just where documents sit.</p>
+
+  <h2>Previews &amp; text extraction</h2>
+  <p>Most documents carry a readable preview. Text is extracted directly from born-digital PDFs; scanned images go through OCR. Some entries are media wrappers (images, audio, or torrents rather than text) and cannot carry a text preview — the archive says so rather than pretending otherwise. The preview coverage rate is tracked and reported honestly.</p>
+
+  <h2>Translations</h2>
+  <p>The Living Library hosts translations of rare papers — including multi-volume works translated from Russian into English for the first time. Each translation is published with the source document, and the translation counter on the Archive page comes from the live feed.</p>
+
+  <h2>Update cadence</h2>
+  <p>The pipeline runs on a schedule (roughly every three hours for the core sync, plus dedicated workers for individual archives). After each run, the live index, search index, feed, and the numbers on every page are rebuilt from the same source of truth. If you want the current state as raw data: <a href="./stats.json">stats.json</a> is a small, agent-friendly summary.</p>
+
+  <h2>Honest limits</h2>
+  <p>Indexing the fringe means being honest about the fog:</p>
+  <ul>
+    <li><strong>Coverage is partial.</strong> viXra alone holds ~46,000 preprints; the vault indexes a fraction of them. A site being &ldquo;queued&rdquo; does not mean it is done.</li>
+    <li><strong>Some hosts are dead or hostile.</strong> Several high-value archives are bot-blocked or gone; the Wayback Machine recovers some, not all.</li>
+    <li><strong>Dead links happen.</strong> Some original hosts serve documents unreliably. Provenance fields record where a document was retrieved from.</li>
+    <li><strong>This is a preservation project, not an endorsement.</strong> Inclusion means &ldquo;this exists and is part of the record,&rdquo; not &ldquo;this is true.&rdquo;</li>
+  </ul>
+
+  <div class="note">The operational details live with the code: see <code>PARALLEL_SCRAPE.md</code> and <code>SHELF_WORTHY_BACKLOG.md</code> in the <a href="https://github.com/Focusingpulse/AFLinks" target="_blank">public repository</a>.</div>
+
+  <a class="back" href="./index.html">← Back to the Archive</a>
+</div>
+</body>
+</html>
