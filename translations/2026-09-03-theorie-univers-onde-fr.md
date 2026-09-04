@@ -1,21 +1,9 @@
 ---
-name: "2026-09-03-theorie-univers-onde-fr"
-description: Full translation of "Skip to main"
+name: "Wave Universe Theory (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravity and Cosmology"
+description: "FR->EN full translation of the Zenodo deposit page for 'Théorie de l'Univers Onde (TUO)' by François Maillot (2025). Describes two fundamental works establishing the TUO theoretical framework: classical formalism with vacuum tension field Tv, and the conceptual bridge from confined electromagnetism to cosmic vacuum tension. Source: https://doi.org/10.5281/zenodo.17311989 | Date: 2026-09-03 | Domain: Ether physics, Cosmology, Vacuum tension, Scalar field theory | Language: fr"
 ---
 
-Skip to main
-
- You are using an outdated browser. Please upgrade your browser to improve your experience.
-
-Published 2025
-
- | Version v2
-
-Publication
-
-Open
-
- Théorie de l'Univers Onde (TUO) : From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology.
+Théorie de l'Univers Onde (TUO) : From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology.
 
 Authors/Creators
 
@@ -240,11 +228,6 @@ Technical metadata
  October 10, 2025
 
 Jump up
-
-This site uses cookies. Find out more on how we use cookies
-
- Accept all cookies
- Accept only essential cookies
 
 
 ---

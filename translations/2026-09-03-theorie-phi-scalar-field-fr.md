@@ -1,9 +1,7 @@
 ---
-name: "2026-09-03-theorie-phi-scalar-field-fr"
-description: Full translation of "Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html"
+name: "Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies: Application to Rotation Curves"
+description: "FR->EN full translation of 'Rigorous study of a light scalar field coupled to matter in galaxies' by Fabien Toulgoat (2025). Alternative to dark matter using a light scalar field Φ coupled to baryonic density, with testable predictions on SPARC data. Source: self-published (author: fabientoulgoat@hotmail.com) | Date: 2026-09-03 | Domain: Galactic dynamics, Scalar field theory, Modified gravity, Dark matter alternatives | Language: fr"
 ---
-
-Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 Rigorous study of a light scalar field coupled to matter in galaxies:
                                         application to rotation curves
@@ -38,8 +36,6 @@ Table of Contents
                  12. Conclusion
                  13. References and technical appendices
 
-1 sur 11                                                                                                                     02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                    file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 1. Introduction
 
@@ -61,8 +57,6 @@ This work explores a third path: the hypothesis of a light scalar field Φ, coup
 The objective is to develop a rigorous theoretical framework, mathematically coherent, and empirically testable
             to quantitatively explain galactic rotation curves without recourse to non-baryonic dark matter.
 
-2 sur 11                                                                                                                     02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                        file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 2. Theoretical model and dimensional analysis
 
@@ -101,8 +95,6 @@ The linear coupling αΦρ represents the simplest interaction between the scala
                    • Effective theories of modified gravity
                    • Models with compactified extra dimensions
 
-3 sur 11                                                                                                                         02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                       file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 3. Klein-Gordon equation coupled to baryonic density
 
@@ -135,8 +127,6 @@ The equation exhibits several important characteristics:
                  • Local source: The field responds directly to baryonic density
                  • Exponential decay: Natural suppression at large distances
 
-4 sur 11                                                                                                                       02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                              file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 4. Solution for the potential Φ via Green's function
 
@@ -162,8 +152,6 @@ The solution exhibits the following limiting behaviors:
                  • r ≫ 1/m: Φ(r) ~ e-mr/r (exponential decay)
                  • m → 0: Recovery of the Coulomb potential (1/r)
 
-5 sur 11                                                                                                                              02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                        file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 5. Modification of the gravitational force and rotational velocity
 
@@ -192,8 +180,6 @@ where:
 • vNewton²(r) = GMenc(r)/r
                    • vscalar²(r) = r dΦ/dr
 
-6 sur 11                                                                                                                        02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                         file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 6. Modeling the galactic density
 
@@ -230,8 +216,6 @@ The density profile parameters are constrained by:
                  • Mass-to-light ratio Υ⋆
                  • Gas fraction fgas = Mgas/Mbar
 
-7 sur 11                                                                                                                         02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                            file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 7. Fitting methodology on SPARC data
 
@@ -278,8 +262,6 @@ To ensure the robustness of the analysis, we apply the following criteria:
 
 • Photometric quality: S/N > 10 in the 3.6 μm band
 
-8 sur 11                                                                                                                            02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...   file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 
 ---
@@ -289,8 +271,6 @@ Rigorous study of a light scalar field coupled to matter in galaxies ...   file:
                  • Kinematic resolution: > 10 independent points
                  • Inclination: 30° < i < 80° (avoid face-on and edge-on)
 
-9 sur 11                                                                                                   02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                    file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 8. Numerical implementation and parameter estimation
 
@@ -354,15 +334,12 @@ import numpy as np from scipy.optimize import minimize from scipy.integrate impo
 ---
 
 
-10 sur 11                                                                                                                    02/08/2025, 16:03
-Rigorous study of a light scalar field coupled to matter in galaxies ...                  file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 """ Analysis of a galaxy sample Args: sample_data: list of galaxy_data dictionaries Returns:
                results: ensemble statistics """ results = { 'galaxies': [], 'm_values': [], 'alpha_values': [],
                'chi2_values': [], 'lambda_compton_kpc': [] } for galaxy_data in sample_data: print(f"Fitting
                {galaxy_data['
 
-11 sur 11                                                                                                                 02/08/2025, 16:03
 
 
 ---

@@ -1,6 +1,6 @@
 ---
-name: "2026-09-03-tuo-classical-formalism-fr"
-description: Full translation of "Classical formalisms and correspondence with TUO:"
+name: "TUO Classical Formalisms: From Maxwell and Einstein to the Vacuum Tension Field Tv"
+description: "FR->EN full translation of 'Classical formalisms and correspondence with TUO' by François Maillot (2025). Mathematical correspondence between Wave Universe Theory (TUO) and classical electromagnetism, general relativity, and covariant Lagrangian field theory. Source: https://doi.org/10.5281/zenodo.17311742 | Date: 2026-09-03 | Domain: Ether physics, Cosmology, Vacuum tension, Scalar field theory | Language: fr"
 ---
 
 Classical formalisms and correspondence with TUO:
@@ -222,7 +222,7 @@ The scalar variation produces a surface term via integration by parts:
 ---
 
 
-﻿By imposing δTv|∂M = 0 (or equivalent Dirichlet conditions), the boundary term vanishes and the Euler–Lagrange equation follows: □Tv + V'(Tv) = 0. For the gravitational part, the variation of R also produces surface terms; these are compensated with the Gibbons–Hawking–York term SGHY = 8πG ∫∂M K √|h| dx.
+By imposing δTv|∂M = 0 (or equivalent Dirichlet conditions), the boundary term vanishes and the Euler–Lagrange equation follows: □Tv + V'(Tv) = 0. For the gravitational part, the variation of R also produces surface terms; these are compensated with the Gibbons–Hawking–York term SGHY = 8πG ∫∂M K √|h| dx.
 
 Appendix B. Bianchi Identities and Energy Exchange
    From the identities ∇μ Gμν = 0 follow the total conservation equations:
@@ -265,7 +265,7 @@ wv ≃ −1 and H² ≃ (8πG/3)V.
 ---
 
 
-﻿Oscillating regime (quadratic potential). For V = ½ mv² Tv², Tv oscillates at ω ≃ mv; on average wv → 0 (matter-like behavior); useful for modulating H(z) without Λ.
+Oscillating regime (quadratic potential). For V = ½ mv² Tv², Tv oscillates at ω ≃ mv; on average wv → 0 (matter-like behavior); useful for modulating H(z) without Λ.
 
 Appendix G. Background Equations in Redshift
    With d/dt = −(1 + z)H d/dz,
@@ -311,7 +311,7 @@ tension, the matrix of all physical structure.
 ---
 
 
-﻿References
+References
  [1] J. C. Maxwell, A Dynamical Theory of the Electromagnetic Field. Philosophical Transactions
      of the Royal Society of London, 155, 459–512 (1865).
  [2] A. Einstein, Die Grundlage der allgemeinen Relativitätstheorie. Annalen der Physik, 49,
