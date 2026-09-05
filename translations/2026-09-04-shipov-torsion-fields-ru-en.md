@@ -23,7 +23,9 @@ familiar to all of us since childhood, twists the space around itself, which the
 Euclidean. To verify this conclusion, theorists from various countries developed a theoretical
 model of space possessing not only curvature (as in Einstein's theory of gravitation), but also
 torsion [2]. When a numerical evaluation of the effect produced by torsion was carried out, it
-turned out to be negligibly small, on the order of 10⁻⁶⁰. Therefore, theorists in many countries concluded
+turned out to be negligibly
+                                        60
+small, on the order of 10⁻⁶⁰. Therefore, theorists in many countries concluded
 that torsion effects (from the English word "torsion") cannot currently be detected in
 experiments.
 This theoretical conclusion was made without analysis of existing experimental
