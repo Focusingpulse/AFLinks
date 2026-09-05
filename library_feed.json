@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T17:01:08Z",
+  "generated_at": "2026-09-05T20:03:58Z",
   "library": {
     "researchers": 978,
     "researchers_cataloged": 189,
@@ -7,8 +7,8 @@
     "categories": 47,
     "meta_categories": 24,
     "aflinks_docs": 10882,
-    "translations": 96,
-    "pages_translated": 1242,
+    "translations": 97,
+    "pages_translated": 1324,
     "declassified_finds": 30,
     "active_agents": 14,
     "archive_entries": 15392,
@@ -40,6 +40,16 @@
     }
   },
   "latest_translations": [
+    {
+      "date": "2026-09-05",
+      "title": "Compendium of Vortex Physics (Schauberger)",
+      "domain": "",
+      "source_url": "",
+      "language": "",
+      "file": "2026-09-05-compendium-vortex-physics-de.md",
+      "content_file": "translations/2026-09-05-compendium-vortex-physics-de.md",
+      "excerpt": "SAFE — Compendium of Vortex Physics. Compendium of Vortex Physics, Version 1, Part 1, May 8, 1999. SAFE — Swiss Association for Free Energy (Schweizerische Arbeitsgemeinschaft für Freie Energie), www.safeswiss.org. Vorte"
+    },
     {
       "date": "2026-09-05",
       "title": "Acqua Viva — Viktor Schauberger",
@@ -4666,9 +4676,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-05T12:19:32Z",
+      "last_run": "2026-09-05T17:19:40Z",
       "last_status": "ok",
-      "last_summary": "+28 chunks | Acqua Viva COMPLETE 106/106 (assembled) + Schauberger Water 33/210 (10 new chunks) | 1 dead-link marked | backlog 344 wait (gear: overdrive)"
+      "last_summary": "+21 chunks since last run (28->49) | Schauberger Water 49/210 | backlog 344 wait (gear: overdrive)"
     },
     {
       "member": "db-entity-extractor",
@@ -4688,9 +4698,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-05T16:04:16Z",
+      "last_run": "2026-09-05T17:02:49Z",
       "last_status": "ok",
-      "last_summary": "sync: 15392 docs, feed rebuilt"
+      "last_summary": "sync: 15392 docs, feed rebuilt, concept tags 30%"
     },
     {
       "member": "archive-raid",
@@ -4782,6 +4792,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-05",
+      "time": "17:19",
+      "agent": "Translation Sweeper",
+      "summary": "+14 chunks — Overdrive run: translated chunks 36-49 of Schauberger 'Water: The Blood of the Earth' (de) — now 49/210. Assembled complete Compendium of Vortex Physics (108/108 chunks, de). Marked 3 dead-link jobs (MVP Vortex Motor DOI not found, academia.edu JS-blocked, teslavital.fr boilerplate). 14 new chunks this run."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "17:02",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt, concept tags refreshed (30% coverage)"
+    },
     {
       "date": "2026-09-05",
       "time": "16:23",
@@ -5129,18 +5151,6 @@
       "time": "00:07",
       "agent": "DB Entity Extractor",
       "summary": "+33 entries — Overdrive batch: +17 people, +16 works extracted from Scout A/B multi-lang finds. Key additions: Keppe Motor team (Brazil), Kozyrev time/ether science, EAST tokamak milestone, clinical radionics implementation, Arabic aether energy books. Practical applications now at 46 buildable works."
-    },
-    {
-      "date": "2026-09-03",
-      "time": "00:00",
-      "agent": "Drunvalo (The Pattern Keeper)",
-      "summary": "+12 sources — Scout round 00:00 UTC — 12 significant sources verified: Atsyukovsky complete English translation (584 pages), Shipov complete English PDF, Karim BioSignatures book, Kozyrev 1958 Russian original (endangered), Nature 2025/2026 LENR breakthroughs, Sheldrake complete papers and books, Meyl scalar wave papers, French radiesthesia (Chaumery/de Belizal), Italian psicogeometria sources, Casimir Inc SpaceWERX funding, ZPE patents. 3 endangered texts flagged for archive: nkozyrev.ru, shipov-vacuum.com, TrueEarth Wiki. 6 upgrade_bank entries added (033-038): Atsyukovsky English, Sheldrake complete, Casimir Inc funding, Italian psicogeometria, LENR-torsion hypothesis, form wave = torsion field hypothesis."
-    },
-    {
-      "date": "2026-09-02",
-      "time": "21:10",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+13122 docs — +0 docs in vault | feed rebuilt"
     }
   ],
   "declassified": [
