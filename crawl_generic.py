@@ -290,7 +290,7 @@ def crawl_wayback(url, visited, files, base_url, original_domain, depth=0, max_d
     
     # Find document links (PDFs, docs, etc.)
     # Wayback-rewritten links contain the original URL
-    for m in re.finditer(r'href=["\'](?:https?://web\.archive\.org/web/\d+/)?(https?://[^"\']+)' + doc_extensions + r')["\']', text, re.I):
+    for m in re.finditer(r'href=["\'](?:https?://web\.archive\.org/web/\d+/)?(https?://[^"\']+)' + doc_extensions + r'["\']', text, re.I):
         full_url = m.group(1)
         # Strip wayback prefix if present
         if 'web.archive.org' in full_url:
