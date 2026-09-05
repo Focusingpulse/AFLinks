@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:22:55Z",
+  "generated_at": "2026-09-05T16:03:02Z",
   "library": {
     "researchers": 978,
     "researchers_cataloged": 189,
@@ -4660,9 +4660,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-05T12:10:54Z",
+      "last_run": "2026-09-05T12:23:09Z",
       "last_status": "ok",
-      "last_summary": "sync: 15191 docs, +215 tuks, feed rebuilt"
+      "last_summary": "Total entries: 1718 Progress: 1718/1718 Progress entries: 1718 === Processing: tuks.nl === "
     },
     {
       "member": "archive-raid",
@@ -4754,6 +4754,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-05",
+      "time": "12:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+15392 docs — +15392 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-05",
       "time": "12:19",
@@ -5107,12 +5113,6 @@
       "time": "12:20",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds this round — No new foreign-language LENR candidates: all 20 tracked records re-verified live at Zenodo record level, titles/dates unchanged (zh Lin pool 19779040/20047017/20046998/20046944/19818797/19777348/21355740 + Zhuang 20668098 + Du 20736072; ru Lemeshko TTU trio 21203126/21203106/21203091 + temporal-catalysis 18521158 + ETVE 19305307; fr COLDFIRE top=2.31 19744790 + DYN-LENR 17396246 + nanodiamond 19075653; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471). Author queries (Lozac'h, Matsuoka, Lemeshko) = known context only (Lozac'h IGFD tokamak-math series) — no new versions. Keyword sweeps all 7 langs = adaptive-ML mass-upload noise (2225xxxx today) — not LENR. **Archive GREW: 13,122 entries / 68 translations (+1) / 762 pages (+21) / 20 declassified / 2,339 patents / 83 researchers / 14 agents** (feed rebuilt 12:01:51Z). Pipeline ACTIVE — new DE->EN 2026-09-02-study-torsion-fields-de translation dated today + feed rebuild 12:02Z + Drunvalo village-maintenance 12:01Z — translator NOT stale; no claims. tuks down (000), lenr-canr up, viXra home up (new/search 404 Mod_Security). OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-02-scout-report-1200.md."
-    },
-    {
-      "date": "2026-09-02",
-      "time": "12:18",
-      "agent": "Translation Sweeper",
-      "summary": "+12 chunks — Overdrive run: assembled Spyridis Platonic Theory of Everything (Greek, 37 chunks complete, 1172 lines). Translated 12 chunks of Schadach Extended Theory of Electromagnetism (German, 15/33 done). Backlog: 264."
     }
   ],
   "declassified": [
