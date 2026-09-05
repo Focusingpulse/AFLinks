@@ -2,7 +2,7 @@
   "sites": [
     {
       "name": "tuks.nl",
-      "status": "active",
+      "status": "complete",
       "base_url": "http://www.tuks.nl",
       "crawl_type": "apache_dir",
       "crawl_paths": [
@@ -14,7 +14,7 @@
     },
     {
       "name": "keelynet.com",
-      "status": "pending",
+      "status": "crawl_failed",
       "base_url": "https://web.archive.org/web/2018/http://keelynet.com",
       "crawl_type": "wayback_scrape",
       "crawl_paths": [

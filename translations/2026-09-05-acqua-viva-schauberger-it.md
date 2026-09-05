@@ -1,10 +1,6 @@
 ---
 name: Acqua Viva — Viktor Schauberger
 description: Full English translation of Acqua Viva — Viktor Schauberger (Italian edition). Covers water vortex research, river engineering, forest ecology, implosion technology, appendices by Christopher Seebach and Peter Hewitt, notes and bibliography.
-source_url: "Italian edition of 'Living Water' (Acqua Viva) translated to English. Original English edition: Gateway Books, 1998. Italian edition: Nordio, 1990."
-language: it
-author: Viktor Schauberger
-translator: Olof Alexandersson (original Swedish/English)
 ---
 
 

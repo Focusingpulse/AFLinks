@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:03:02Z",
+  "generated_at": "2026-09-05T17:01:08Z",
   "library": {
     "researchers": 978,
     "researchers_cataloged": 189,
@@ -9,7 +9,7 @@
     "aflinks_docs": 10882,
     "translations": 96,
     "pages_translated": 1242,
-    "declassified_finds": 29,
+    "declassified_finds": 30,
     "active_agents": 14,
     "archive_entries": 15392,
     "meta_counts": {
@@ -2202,6 +2202,34 @@
           "title": "Author",
           "description": "N.A. Kozyrev",
           "url": "https://archive.org/details/kozyrev"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "file": "2026-09-05-scout-finds-1600-scout.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "EN/viXra",
+          "description": "zero new FL. viXra domain sweep = old EN theory only (2603.0129",
+          "url": ""
+        },
+        {
+          "title": "RU",
+          "description": "mainstream hot-fusion news only (Texatron vacuum-vessel 09-05, Pranos",
+          "url": ""
+        },
+        {
+          "title": "media",
+          "description": "tech.fr (FR): Parkhomov nickel-nanotube claim still circulating —",
+          "url": ""
+        },
+        {
+          "title": "lenr",
+          "description": "canr.org news archive stale (last June 2026).",
+          "url": ""
         }
       ]
     },
@@ -4660,9 +4688,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-05T12:23:09Z",
+      "last_run": "2026-09-05T16:04:16Z",
       "last_status": "ok",
-      "last_summary": "Total entries: 1718 Progress: 1718/1718 Progress entries: 1718 === Processing: tuks.nl === "
+      "last_summary": "sync: 15392 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4726,9 +4754,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-05T12:07:00Z",
+      "last_run": "2026-09-05T16:07:00Z",
       "last_status": "ok",
-      "last_summary": "12:00 round — 0 new foreign-language LENR queue candidates (18th clean round since 08-21); 13/13 tracked records verified live unchanged; fresh Zenodo window clean (238 records, newest = 17O brain-cancer eng noise); Exa EN/RU/ZH lanes = mainstream hot-fusion news only; media-tech.fr Parkhomov nickel-nanotube deuterium claim VERIFIED FALSE (no arXiv preprint exists, AI-generated site, do not chase); ARCHIVE GREW to 14,976 entries / 95 trans / 1,152 pg / 29 declass / 2339 patents / 975 researchers / 14 agents (index 08:09Z sync, +25 vs 04:00); translator ~36h silent (last 09-04) NOT stale, 48h window trips ~09-06 00:00Z; ICCF-27 wrapped, proceedings = likely next FL source; no claims; tuks down, lenr-canr up, viXra 406 (flapping), lenr.seplm.ru down, preprints.ru up. OCR/queue/tag pending FocusOptimized. Report living-library sources/2026-09-05-scout-report-1200.md"
+      "last_summary": "16:00 round — 0 new foreign-language LENR queue candidates (19th consecutive clean round since 08-21). 13/13 tracked records re-verified live, unchanged. Fresh Zenodo window clean (newest 22047981/22036645 08-21 eng). lenr.seplm.ru BACK UP after days down — deep-read: Kashchenko massive-electron-pairs trio (08-28, RU) context-only (underlying works 2022-25, 2025 Minsk monograph chapter pp.144-163 = watch-list RU translation candidate), New Fire Signal (New Fire Energy) = marketing closed, Meyer LENR book (08-12) pre-window. media-tech.fr Parkhomov claim still circulating = already verified FALSE 12:00, do not re-chase. Exa lanes = mainstream hot-fusion news only (Texatron, Pranos, Type One, Klimov marketing). ARCHIVE GREW to 15,392 entries / 96 translations / 1,242 pages / 29 declassified / 2,339 patents / 978 researchers / 14 agents (feed rebuilt 16:03:02Z; +416 vs 12:00 incl +215 tuks harvest at 12:10Z, +1 trans Acqua Viva IT→EN completed 12:18Z). Translator ACTIVE — NOT stale (staleness watch RESOLVED: Acqua Viva IT→EN done + sweeper 10 chunks Water:Blood of the Earth DE→EN 12:19Z). No claims. tuks down (000), lenr-canr up (200, news stale June), viXra /new 404 (flapping), lenr.seplm.ru up (200), preprints.ru up. OCR/queue/tag pending FocusOptimized. Push RESTORED this round. Full report: living-library sources/2026-09-05-scout-report-1600.md + finds mirror sources/2026-09-05-scout-finds-1600-scout.md"
     },
     {
       "member": "cure-8er",
@@ -4754,6 +4782,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-05",
+      "time": "16:23",
+      "agent": "translator-foreign",
+      "summary": "+0 chunks — Schauberger Luxembourg Patent (DE) manifest marked complete — translation already published 9/3"
+    },
+    {
+      "date": "2026-09-05",
+      "time": "16:07",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 16:00 UTC, cloud round; 19th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl/8.0 UA, 182 total LENR/CF records): nothing published after 08-21, fresh window still clean (newest 22047981/22036645, eng). All 13 tracked records re-verified live via GETs, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). NEW THIS ROUND: — lenr.seplm.ru BACK UP (200)** after being down from cloud since ~09-03 — deep-read recovered the 08-28 batch we missed: (1) M. Kashchenko massive-electron-pairs trio announcement (RKHTYA-27 2022 titanium-atom paper + 2025 Minsk monograph chapter pp.144-163 + magnetotactic-bacteria line) — underlying works all pre-window 2022-25 → CONTEXT ONLY; 2025 chapter = watch-list RU theory-translation candidate, natural pickup at RKHTYA-29 proceedings (Sep 28-Oct 2); (2) New Fire Signal (New Fire Energy AI terminal, content 08-28) = marketing, closed; (3) Meyer LENR book (08-12) = pre-window context; (4) compact fusion heater prototype (APOC Wire) = EN mainstream-fusion news. Exa sweeps: EN/viXra domain = zero new FL (all old EN theory); RU = hot-fusion news only (Texatron vacuum vessel 09-05, Pranos Pragya 09-03, Type One license 09-01, Klimov PVR-W = 2024 paper + LinkedIn marketing); media-tech.fr Parkhomov nickel-nanotube claim still circulating = ALREADY VERIFIED FALSE at 12:00 (no arXiv preprint), do not re-chase. lenr-canr.org news archive stale (last June 2026). **ARCHIVE GREW to 15,392 entries / 96 translations / 1,242 pages / 29 declassified / 2,339 patents / 978 researchers / 14 agents** (feed rebuilt 16:03:02Z; +416 vs 12:00: +215 tuks harvest 12:10Z +201 by 16:03Z; +1 trans = Acqua Viva IT→EN Schauberger completed 12:18Z, +90 pages). **Translator ACTIVE — NOT STALE (staleness watch RESOLVED)**: Acqua Viva IT→EN 106/106 done 12:18Z + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z. No claims. tuks down (000), lenr-canr up (200), viXra /new 404 (flapping), lenr.seplm.ru up (200), preprints.ru up. **AFLinks push RESTORED** (GETHUBFORGE valid this round). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-1600.md + finds mirror sources/2026-09-05-scout-finds-1600-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "16:04",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+15392 docs — +15392 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-05",
       "time": "12:23",
@@ -5095,24 +5141,6 @@
       "time": "21:10",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+13122 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-02",
-      "time": "20:05",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — NO new queue candidates: all 24 tracked records re-verified live at record level, titles/dates unchanged (zh Lin pool 19779040/20047017/20046998/20046944/19818797/19777348/21355740 + dedupe-pending 20020206 + Zhuang 20668098 + Du 20736072; ru Lemeshko TTU trio + 18521158 + ETVE 19305307 + Torchigin 21532952; fr COLDFIRE 2.31 19744790 + DYN-LENR 17396246 + nanodiamond 19075653; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471 + Tomita 19175262; de KBF-01 20558305). Keyword sweeps all 7 langs + variants + fresh-upload scan (≥09-01) = context/noise only; author queries (Lin/Lozac'h/Matsuoka/Lemeshko/Zhuang/Du) = no new LENR versions. 1 new context-only it lead: Morelli 20158981 (ita, Marchetti energy-model critique, LENR keyword but energy-economics — NOT a queue candidate). **Archive unchanged 13,122 entries / 68 translations / 764 pages / 20 declassified / 2,339 patents / 381 researchers / 14 agents** (feed 15:57:08Z, no rebuild since 16:00). Pipeline ACTIVE — translator NOT stale (09-02 DE→EN study-torsion-fields; public-repo commits today 16:07–16:59Z translation sync + Drunvalo + paradigm map). No claims. tuks down (000), lenr-canr up, viXra home up/new 404, preprints.ru/3908 Lebedkin alive. OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-02-scout-report-2000.md + finds mirror sources/2026-09-02-scout-finds-2000-scout.md."
-    },
-    {
-      "date": "2026-09-02",
-      "time": "16:20",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+2 finds — NEW low-priority foreign-language candidates (first new leads since 09-01 Du 20736072): (1) ru Zenodo 21532952 Torchigin «LENR ответственна за изотопный состав земной коры» (07-24, Russian body confirmed — earth-crust LENR fringe series, QC flag, first ru find since ETVE 08-30); (2) ja Zenodo 19175262 Tomita SDC fine-structure-constant LENR anniversary paper (03-23, Japanese body confirmed — theory only, QC flag, surfaced via Exa). All 24 tracked records re-verified live, clusters stable. zh/ja sweeps = adaptive-ML mass-upload noise; fr/it/de/es = nothing. Context only: 21939013 hu bridge model, 21946561 docx list. Archive 13,122 / 68 trans / 764 pg (+2) / 20 declass / 2339 patents / 381 researchers / 14 agents (feed rebuilt 15:57:08Z). Pipeline ACTIVE (DE→EN torsion-fields 09-02 + translation sync + feed regenerate) — translator NOT stale; no claims. tuks down (000), lenr-canr up, viXra up /new 404. OCR/queue/tag pending on FocusOptimized — next on-machine: zh queue TOP (Lin pool + 20668098 + 20736072) + Torchigin 21532952 ru low-priority."
-    },
-    {
-      "date": "2026-09-02",
-      "time": "12:20",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR candidates: all 20 tracked records re-verified live at Zenodo record level, titles/dates unchanged (zh Lin pool 19779040/20047017/20046998/20046944/19818797/19777348/21355740 + Zhuang 20668098 + Du 20736072; ru Lemeshko TTU trio 21203126/21203106/21203091 + temporal-catalysis 18521158 + ETVE 19305307; fr COLDFIRE top=2.31 19744790 + DYN-LENR 17396246 + nanodiamond 19075653; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471). Author queries (Lozac'h, Matsuoka, Lemeshko) = known context only (Lozac'h IGFD tokamak-math series) — no new versions. Keyword sweeps all 7 langs = adaptive-ML mass-upload noise (2225xxxx today) — not LENR. **Archive GREW: 13,122 entries / 68 translations (+1) / 762 pages (+21) / 20 declassified / 2,339 patents / 83 researchers / 14 agents** (feed rebuilt 12:01:51Z). Pipeline ACTIVE — new DE->EN 2026-09-02-study-torsion-fields-de translation dated today + feed rebuild 12:02Z + Drunvalo village-maintenance 12:01Z — translator NOT stale; no claims. tuks down (000), lenr-canr up, viXra home up (new/search 404 Mod_Security). OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-02-scout-report-1200.md."
     }
   ],
   "declassified": [
@@ -5133,6 +5161,12 @@
       "title": "Brazil Arquivo Nacional OVNI Document Update",
       "description": "Brazil — FAB transfers 18 new UFO/OVNI sighting dossiers from 2025 to the Arquivo Nacional, bringing total to 932 cases across 1,020 documents, publicly accessible via SIAN.",
       "file": "declassified/brazil/arquivo-nacional-ovni-update.md"
+    },
+    {
+      "country": "brazil",
+      "title": "US/Brazil — CIA 1963 Bahia OVNI Investigation Declassified (August 2026)",
+      "description": "US — CIA documents declassified about 1963 OVNI investigation in Conde, Bahia, Brazil. Reports of 'large metallic sphere with deceased occupant' investigated by US consulate, concl",
+      "file": "declassified/brazil/us-1963-bahia-ovni-investigation.md"
     },
     {
       "country": "china",
@@ -5213,12 +5247,6 @@
       "file": "declassified/japan/showa-100-exhibition.md"
     },
     {
-      "country": "poland",
-      "title": "Poland IPN Early SB Documents Recovery",
-      "description": "Poland — IPN recovers early Security Service (SB) documents from 1945–1956 from a deceased colonel's private collection, covering the formation of SB structures in Western Pomerani",
-      "file": "declassified/poland/ipn-sb-early-documents.md"
-    },
-    {
       "country": "portugal",
       "title": "Portugal PIDE DGS Mozambique Truth Commission Documents",
       "description": "Portugal — Documents recently found at Torre do Tombo reveal a hidden 1974 truth commission investigating PIDE/DGS abuses in Mozambique, with 198 cases of maximum gravity including",
@@ -5265,6 +5293,12 @@
       "title": "UK Nuclear Test Veterans Medical Records Review",
       "description": "UK — MoD releases five official reports on blood and urine testing during the nuclear testing programme (1952–1967), revealing secret Porton Down archive of 50,000 medical files.",
       "file": "declassified/uk/nuclear-test-veterans-records.md"
+    },
+    {
+      "country": "uk",
+      "title": "UK — STEP Fusion Project Risk Assessment Documents (June 2026)",
+      "description": "UK — Government contingency liability documents for STEP fusion project released after FOI challenge, revealing accident scenarios, radiation exposure risks, and taxpayer liability",
+      "file": "declassified/uk/step-fusion-risk-documents.md"
     },
     {
       "country": "ukraine",
