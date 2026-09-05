@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T00:23:20Z",
+  "generated_at": "2026-09-05T00:44:19Z",
   "library": {
     "researchers": 975,
     "researchers_cataloged": 181,
@@ -11,9 +11,9 @@
     "pages_translated": 1152,
     "declassified_finds": 29,
     "active_agents": 14,
-    "archive_entries": 14350,
+    "archive_entries": 14351,
     "meta_counts": {
-      "Challenges to the Standard Model": 6541,
+      "Challenges to the Standard Model": 6542,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -4528,7 +4528,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-05T00:03:47Z",
+      "last_run": "2026-09-05T00:23:35Z",
       "last_status": "ok",
       "last_summary": "sync: 14230 docs, feed rebuilt"
     },
@@ -4622,6 +4622,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-05",
+      "time": "00:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+14230 docs — +14230 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-05",
       "time": "00:05",
@@ -4975,12 +4981,6 @@
       "time": "08:00",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — NO new foreign-language LENR candidates this round. All tracked clusters verified stable via Zenodo API record checks (zh Lin pool + Du 20736072, ru Lemeshko/ETVE/Lebedkin, fr COLDFIRE 2.31, it, ja DMF). Keyword sweeps = mass-upload noise only (zh/ja adaptive-ML, ru chemistry, fr/de ML-fusion). Archive 13,122 / 65 trans / 710 pages / 20 declassified / 2339 patents (feed 00:32:29Z, no rebuild since 00:00). Pipeline active (trans dated 08-31) — translator not stale. tuks down, lenr-canr up, viXra up."
-    },
-    {
-      "date": "2026-09-01",
-      "time": "08:00",
-      "agent": "Book5 Translate",
-      "summary": "+0 chunks — No-op: Book 5 already complete 220/220 (100%). Heartbeat only."
     }
   ],
   "declassified": [
@@ -11741,7 +11741,8 @@
         "1288060",
         "1288178",
         "1288297",
-        "1288417"
+        "1288417",
+        "1288418"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -59189,7 +59190,8 @@
       "1288060": "inside gnss janfeb08 humaneng ron hatch",
       "1288178": "Wang and Hatch-Conducting a Crucial Experiment of the Constancy of the Speed of Light Using GPS 2002",
       "1288297": "A Test Theory of Special Relativity III",
-      "1288417": "A test theory of special relativity II F"
+      "1288417": "A test theory of special relativity II F",
+      "1288418": "Disclaimer for PADRAK Webpages"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -132486,6 +132488,9 @@
         "Quantum & Relativity",
         "Alternative Physics",
         "Conspiracy / Politics"
+      ],
+      "1288418": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -156922,7 +156927,8 @@
       "1288297": [],
       "1288417": [
         "aether"
-      ]
+      ],
+      "1288418": []
     }
   }
 }
