@@ -1,16 +1,6 @@
 ---
-name: Vortex Motor Negentropic Propulsion (ES→EN)
+name: Vortex Motor Negentropic Propulsion
 description: "Full English translation of 'El Motor de Vortice: Hacia una Tecnologia de Propulsion Negentropica' by Juan Miguel Rivero y Hornos Tverjanovich (2025). Spanish original on Zenodo (DOI: 10.5281/zenodo.17626722)."
----
-
-- **date:** 2026-09-04
-- **domain:** vortex-physics, ether-theory, propulsion
-- **source_url:** https://doi.org/10.5281/zenodo.17626722
-- **source_language:** es
-- **language:** es
-- **author:** Juan Miguel Rivero y Hornos Tverjanovich
-- **note:** This is a duplicate of 2026-09-03-vortex-motor-negentropic-propulsion-es.md (same source DOI). Kept as alternate translation.
-
 ---
 
 The Vortex Motor: Toward a Negentropic Propulsion Technology Based on the Implosion Dynamics of the Ether
