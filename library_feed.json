@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T01:02:22Z",
+  "generated_at": "2026-09-05T04:03:23Z",
   "library": {
     "researchers": 975,
     "researchers_cataloged": 189,
@@ -4528,9 +4528,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-05T00:23:35Z",
+      "last_run": "2026-09-05T01:02:59Z",
       "last_status": "ok",
-      "last_summary": "sync: 14230 docs, feed rebuilt"
+      "last_summary": "sync: 14951 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4572,7 +4572,7 @@
       "mission": "Long-haul translation of Atsyukovsky Book 5 — one chunk at a time, through the night.",
       "schedule": "overnight hourly",
       "icon": "📖",
-      "last_run": "2026-09-04T12:01:03Z",
+      "last_run": "2026-09-05T04:00:37Z",
       "last_status": "ok",
       "last_summary": "+0 chunks since last run (still 220) | now 220/220, translation complete — no work needed (gear: overdrive)"
     },
@@ -4622,6 +4622,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-05",
+      "time": "04:00",
+      "agent": "Book5 Translate",
+      "summary": "+0 chunks — No-op heartbeat: Book 5 translation 100% complete (220/220 chunks). No work needed."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "01:02",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt, 14951 total"
+    },
     {
       "date": "2026-09-05",
       "time": "00:23",
@@ -4969,18 +4981,6 @@
       "time": "16:03",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds this round — No new foreign-language LENR candidates: all tracked clusters verified stable via Zenodo record-level checks (zh Lin pool 8 + Zhuang 20668098 + Du 20736072, ru Lemeshko/TTU/ETVE + Lebedkin STPC, fr COLDFIRE top=2.31, it incl retracted Caponi, ja DMF 20551471) + keyword sweeps in all 7 watch languages = same-day adaptive-ML mass-upload noise (222xxxxx template titles), not LENR. Author-series continuity: Lozac'h (COLDFIRE) published 3 NEW French context records — IGFD-V4 divertor topological-regularization (22161510, 08-29), erratum (22215450, 08-31), isodynamic-rigidity note (22234456, 09-01) — tokamak plasma-edge math, NOT LENR, context only. Hamzah 22234168 (fa) = fringe spammer, context only. ⚠ Exa/web_search/fetch_webpage out of credits (402) this round — sweeps ran on direct curl/Zenodo API only. Archive 13,122/65 trans/710 pg (feed 00:32:29Z, unchanged). Pipeline active (book5-translate chunks 197-206 00:05Z + QC check-in 13:10Z) — translator NOT stale; no claims. tuks down (000), lenr-canr up, viXra up (archive enum blocked). OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-01-scout-report-1600.md."
-    },
-    {
-      "date": "2026-09-01",
-      "time": "12:29",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+1 find this round — NEW low-priority French candidate: Zenodo **19075653** Protocole Expérimental Diamant Nanocristallin Dopé Deutérium (Lozac'h, 2026-03-17, **fr**, body confirmed 256 accent chars) — cryogenic photon-stimulated LENR protocol on deuterium-doped nanodiamond, same speculative author series as COLDFIRE → QC flag, low-priority fr pool. COLDFIRE-2.6 (19194274, fra) = older chain version below tracked 2.31 (history, not new top); Kováč 19206622 (EuCo2Al9/TRFC) = English context only. All tracked clusters stable (zh Lin pool+Zhuang+Du 20736072 re-verified, ru Lemeshko/ETVE/Lebedkin, fr 2.31, it incl retracted Caponi RDL, ja DMF) via Zenodo record checks + Exa. Archive 13,122/65/710 (feed 00:32:29Z, unchanged). Pipeline active (book5-translate chunks 197-206 00:05Z, sync 00:07Z) — translator NOT stale; no claims. tuks down (000), lenr-canr up, viXra up. OCR/queue/tag pending on FocusOptimized. Full report: sources/2026-09-01-scout-finds-1200-scout.md + living-library 2026-09-01-scout-report-1200.md."
-    },
-    {
-      "date": "2026-09-01",
-      "time": "08:00",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR candidates this round. All tracked clusters verified stable via Zenodo API record checks (zh Lin pool + Du 20736072, ru Lemeshko/ETVE/Lebedkin, fr COLDFIRE 2.31, it, ja DMF). Keyword sweeps = mass-upload noise only (zh/ja adaptive-ML, ru chemistry, fr/de ML-fusion). Archive 13,122 / 65 trans / 710 pages / 20 declassified / 2339 patents (feed 00:32:29Z, no rebuild since 00:00). Pipeline active (trans dated 08-31) — translator not stale. tuks down, lenr-canr up, viXra up."
     }
   ],
   "declassified": [
