@@ -532,37 +532,7 @@ I saw the same sequence of a trout leaping a high
 waterfall. After decades of similar observations, like pearls
 on a string, I should be able to reach some
 conclusion. But no scientist has been able to explain this
-phenomenon to me. Reaching the lower curve of the waterfall,
-it fell and with a powerful thrust reached the upper curve of the
-waterfall. There, in the fast-flowing water, with a vigorous stroke
-of its tail, it disappeared. Thinking deeply, I filled my
-pipe and, returning home, smoked it to the end. Many times
-afterwards I saw the same sequence of a trout leaping a high
-waterfall. After decades of similar observations, like pearls
-on a string, I should be able to reach some
-conclusion. But no scientist has been able to explain this
-phenomenon to me. Like pearls on a string, I should be
-able to reach some conclusion. But no scientist has been able to
-explain this phenomenon to me. Like pearls on a string, I should be
-able to reach some conclusion. But
-no scientist was able to explain this phenomenon to me.
-Reaching the lower curve of the waterfall, it fell and with a powerful
-thrust reached the upper curve of the waterfall. There, in the
-fast-flowing water, with a vigorous stroke of its tail, it disappeared.
-Thinking deeply, I filled my pipe and, returning home, smoked it to
-the end. Many times afterwards I saw the same sequence of a trout
-leaping a high waterfall. After decades of similar observations,
-like pearls on a string, I should be able to reach some
-conclusion. But no scientist has been able to explain this phenomenon
-to me. Many times afterwards I saw the same sequence of a trout
-leaping a high waterfall. After decades of similar observations,
-like pearls on a string, I should be able to reach some
-conclusion. But no scientist has been able to explain this phenomenon
-to me. Many times afterwards I saw the same sequence of a trout
-leaping a high waterfall. After decades of similar observations,
-like pearls on a string, I should be able to reach some
-conclusion. But no scientist has been able to explain this phenomenon
-to me.
+phenomenon to me.
 
 
 ---
