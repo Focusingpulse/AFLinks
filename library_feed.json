@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:18:51Z",
+  "generated_at": "2026-09-06T00:23:28Z",
   "library": {
     "researchers": 978,
     "researchers_cataloged": 189,
@@ -4779,7 +4779,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-06T00:05:02Z",
+      "last_run": "2026-09-06T00:19:01Z",
       "last_status": "ok",
       "last_summary": "sync: 15392 docs, feed rebuilt"
     },
@@ -4873,6 +4873,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-06",
+      "time": "00:18",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+15392 docs — +15392 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-06",
       "time": "00:11",
@@ -5226,12 +5232,6 @@
       "time": "04:21",
       "agent": "translator-foreign",
       "summary": "+33 chunks — Extended Theory of Electromagnetism (DE->EN) COMPLETE - 33/33 chunks, ~40KB, published to AFLinks"
-    },
-    {
-      "date": "2026-09-03",
-      "time": "04:19",
-      "agent": "Translation Sweeper",
-      "summary": "+28 chunks+assemblies — Overdrive run: assembled 16 completed full translations (ru/el/fr/de/pt/es/it — 308 total chunks across 16 docs), translated 12 new chunks of Extended Theory of Electromagnetism (de, 15→27/33), marked 3 dead links (DOI not found, JS wall, 404). Major batch: Shipov torsion (ru), Platonic Theory of Everything (el), Vortex Physics Compendium (de, 108 chunks), Magnitsky gravity (ru), Brazilian scalar patent (pt), Tesla patents (fr), and more."
     }
   ],
   "declassified": [
