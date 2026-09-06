@@ -19,6 +19,7 @@ Usage:
 import argparse
 import json
 import os
+import re
 
 PREVIEW_LEN = 220
 SLIM_FIELDS = ["id", "title", "filename", "categories", "meta_categories",
@@ -73,6 +74,40 @@ def main():
     print(f"slim: {len(slim)} docs -> search_index.json ({slim_mb:.1f} MB)")
     print(f"full: {len(full)} docs -> {len(chunks)} chunks ({total_mb:.1f} MB total)")
     print(f"manifest: full_manifest.json")
+
+    # Chunked search by meta-category: the default phone path. Each
+    # meta-category gets its own slim chunk (a doc in N categories appears in
+    # N chunks) + a manifest so the front-end can lazy-fetch only the active
+    # lens's slice of the archive instead of the whole 18MB index. Chunk
+    # records DROP search_text (the 600-char slice) — category browsing
+    # matches on title/filename/person/patents/categories/preview, and the
+    # full search_index.json (with search_text) remains the "search all"
+    # fallback. Keeps the biggest chunk ~2MB raw instead of ~9MB.
+    chunk_dir = os.path.join(args.outdir, "search_chunks")
+    os.makedirs(chunk_dir, exist_ok=True)
+    by_meta = {}
+    for rec in slim:
+        mcs = rec.get("meta_categories") or []
+        if not mcs:
+            mcs = ["Uncategorized"]
+        for mc in mcs:
+            r = dict(rec)
+            r.pop("search_text", None)
+            by_meta.setdefault(mc, []).append(r)
+    search_manifest = {"version": 2, "generated_at": None, "chunks": {}}
+    import datetime
+    search_manifest["generated_at"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    for mc, recs in sorted(by_meta.items()):
+        slug = re.sub(r"[^a-z0-9]+", "-", mc.lower()).strip("-") or "uncategorized"
+        fname = f"{slug}.json"
+        with open(os.path.join(chunk_dir, fname), "w", encoding="utf-8") as f:
+            json.dump(recs, f)
+        search_manifest["chunks"][mc] = {"file": f"search_chunks/{fname}", "count": len(recs)}
+    with open(os.path.join(args.outdir, "search_manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(search_manifest, f, indent=1)
+    chunk_kb = sum(os.path.getsize(os.path.join(chunk_dir, c["file"].split("/")[-1])) for c in search_manifest["chunks"].values()) / 1024
+    biggest = max(search_manifest["chunks"].values(), key=lambda c: c["count"])
+    print(f"search chunks: {len(search_manifest['chunks'])} meta-categories -> search_chunks/ ({chunk_kb:.0f} KB total; biggest: {biggest['count']} docs)")
 
     _bake_live_stats()
 

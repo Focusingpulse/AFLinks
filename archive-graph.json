@@ -1,0 +1,5759 @@
+{
+ "_meta": {
+  "schema": "aflinks-graph-v1",
+  "version": 1,
+  "generated_at": "2026-09-06T02:49:53Z"
+ },
+ "stats": {
+  "concept": 78,
+  "person": 100,
+  "work": 105,
+  "translation": 62,
+  "edges": 453
+ },
+ "nodes": {
+  "concept": [
+   {
+    "id": "aether",
+    "name": "Aether / Ether Theories"
+   },
+   {
+    "id": "biophoton",
+    "name": "Biophotonics"
+   },
+   {
+    "id": "borderland",
+    "name": "Borderland Research"
+   },
+   {
+    "id": "cold_fusion",
+    "name": "LENR / Cold Fusion"
+   },
+   {
+    "id": "consciousness",
+    "name": "Consciousness Studies"
+   },
+   {
+    "id": "crystal",
+    "name": "Crystals / Crystal Energy"
+   },
+   {
+    "id": "d_aether physics",
+    "name": "Aether Physics"
+   },
+   {
+    "id": "d_agriculture",
+    "name": "Agriculture"
+   },
+   {
+    "id": "d_alternative physics",
+    "name": "Alternative Physics"
+   },
+   {
+    "id": "d_biology",
+    "name": "Biology"
+   },
+   {
+    "id": "d_borderland research",
+    "name": "Borderland Research"
+   },
+   {
+    "id": "d_chemistry",
+    "name": "Chemistry"
+   },
+   {
+    "id": "d_consciousness",
+    "name": "Consciousness"
+   },
+   {
+    "id": "d_conspiracy politics",
+    "name": "Conspiracy / Politics"
+   },
+   {
+    "id": "d_construction",
+    "name": "Construction"
+   },
+   {
+    "id": "d_cosmology",
+    "name": "Cosmology"
+   },
+   {
+    "id": "d_crystals",
+    "name": "Crystals"
+   },
+   {
+    "id": "d_dollard",
+    "name": "Dollard"
+   },
+   {
+    "id": "d_electric universe",
+    "name": "Electric Universe"
+   },
+   {
+    "id": "d_electromagnetism",
+    "name": "Electromagnetism"
+   },
+   {
+    "id": "d_energy",
+    "name": "Energy"
+   },
+   {
+    "id": "d_energy generation",
+    "name": "Energy Generation"
+   },
+   {
+    "id": "d_environment climate",
+    "name": "Environment / Climate"
+   },
+   {
+    "id": "d_fallacies of standard model",
+    "name": "Fallacies of Standard Model"
+   },
+   {
+    "id": "d_finance economics",
+    "name": "Finance / Economics"
+   },
+   {
+    "id": "d_geometry",
+    "name": "Geometry"
+   },
+   {
+    "id": "d_goethean science",
+    "name": "Goethean Science"
+   },
+   {
+    "id": "d_gravity",
+    "name": "Gravity"
+   },
+   {
+    "id": "d_health medicine",
+    "name": "Health Medicine"
+   },
+   {
+    "id": "d_language",
+    "name": "Language"
+   },
+   {
+    "id": "d_lenr cold fusion",
+    "name": "LENR / Cold Fusion"
+   },
+   {
+    "id": "d_life force",
+    "name": "Life Force"
+   },
+   {
+    "id": "d_light",
+    "name": "Light"
+   },
+   {
+    "id": "d_magnetism",
+    "name": "Magnetism"
+   },
+   {
+    "id": "d_material sciences",
+    "name": "Material Sciences"
+   },
+   {
+    "id": "d_music audio",
+    "name": "Music / Audio"
+   },
+   {
+    "id": "d_natural philosophy",
+    "name": "Natural Philosophy"
+   },
+   {
+    "id": "d_patents",
+    "name": "Patents"
+   },
+   {
+    "id": "d_psionics radionics",
+    "name": "Psionics / Radionics"
+   },
+   {
+    "id": "d_psychotronics",
+    "name": "Psychotronics"
+   },
+   {
+    "id": "d_quantum relativity",
+    "name": "Quantum & Relativity"
+   },
+   {
+    "id": "d_reference material",
+    "name": "Reference Material"
+   },
+   {
+    "id": "d_renewable energy",
+    "name": "Renewable Energy"
+   },
+   {
+    "id": "d_steinmetz",
+    "name": "Steinmetz"
+   },
+   {
+    "id": "d_suppression",
+    "name": "Suppression"
+   },
+   {
+    "id": "d_tesla",
+    "name": "Tesla"
+   },
+   {
+    "id": "d_time",
+    "name": "Time"
+   },
+   {
+    "id": "d_transhumanism",
+    "name": "Transhumanism"
+   },
+   {
+    "id": "d_transportation",
+    "name": "Transportation"
+   },
+   {
+    "id": "d_water",
+    "name": "Water"
+   },
+   {
+    "id": "electrogravitics",
+    "name": "Electrogravitics / Anti-Gravity"
+   },
+   {
+    "id": "ether_electric",
+    "name": "Electric Universe"
+   },
+   {
+    "id": "geometry_sacred",
+    "name": "Sacred Geometry / Harmonics"
+   },
+   {
+    "id": "keely",
+    "name": "Keely / Sympathetic Vibration"
+   },
+   {
+    "id": "morphic",
+    "name": "Morphogenic / Morphic Fields"
+   },
+   {
+    "id": "overunity",
+    "name": "Overunity / Free Energy"
+   },
+   {
+    "id": "p_bridge",
+    "name": "Cross-Field Bridges — Connectors Between Silos"
+   },
+   {
+    "id": "p_consciousness",
+    "name": "Consciousness & Matter — the Mind-Matter Bridge"
+   },
+   {
+    "id": "p_electriccosmos",
+    "name": "Electric Universe & Plasma Cosmos"
+   },
+   {
+    "id": "p_fieldphys",
+    "name": "Field Physics vs Reductionist Particle Models"
+   },
+   {
+    "id": "p_formative",
+    "name": "Formative Forces & Morphogenesis"
+   },
+   {
+    "id": "p_goethean",
+    "name": "Goethean Method — Non-Reductionist Science"
+   },
+   {
+    "id": "p_nature",
+    "name": "Nature as Organism — Living Whole"
+   },
+   {
+    "id": "p_unity",
+    "name": "Unity of Forces — the Subtle Energy Spectrum"
+   },
+   {
+    "id": "p_visualray",
+    "name": "Visual Ray & Alternative Optics"
+   },
+   {
+    "id": "p_wrongturn",
+    "name": "Suppressed Science & Documented Wrong Turns"
+   },
+   {
+    "id": "psychotronic",
+    "name": "Psychotronic / Mind-Matter"
+   },
+   {
+    "id": "radionics",
+    "name": "Radionics / Radiesthesia"
+   },
+   {
+    "id": "regenerative",
+    "name": "Regenerative Agriculture"
+   },
+   {
+    "id": "scalar",
+    "name": "Scalar Wave Phenomena"
+   },
+   {
+    "id": "schauberger",
+    "name": "Schauberger / Implosion"
+   },
+   {
+    "id": "suppression",
+    "name": "Conspiracy / Suppression"
+   },
+   {
+    "id": "tesla",
+    "name": "Tesla Technologies"
+   },
+   {
+    "id": "torsion",
+    "name": "Torsion Fields"
+   },
+   {
+    "id": "transhuman",
+    "name": "Transhumanism"
+   },
+   {
+    "id": "vortex",
+    "name": "Vortex / Implosion Dynamics"
+   },
+   {
+    "id": "water_memory",
+    "name": "Water Structure & Memory"
+   },
+   {
+    "id": "zero_point",
+    "name": "Zero-Point / Vacuum Energy"
+   }
+  ],
+  "person": [
+   {
+    "id": "atsyukovsky-va",
+    "name": "Vladimir Alekseevich Atsyukovsky",
+    "known_as": [
+     "V.A. Atsyukovsky",
+     "Vladimir Atsyukovsky",
+     "Ацюковский В.А."
+    ],
+    "domains": [
+     "Etherdynamic Natural Science (5-volume series)",
+     "Ether wind experiments using laser interferometry",
+     "Geopathogenic radiation detection methods"
+    ]
+   },
+   {
+    "id": "akimov-ae",
+    "name": "Anatoly Evgenievich Akimov",
+    "known_as": [
+     "A.E. Akimov",
+     "Акимов А.Е."
+    ],
+    "domains": [
+     "Torsion field theory and experimental claims",
+     "Industrial torsion generator development (1980s)"
+    ]
+   },
+   {
+    "id": "shipov-gi",
+    "name": "Gennady Ivanovich Shipov",
+    "known_as": [
+     "G.I. Shipov",
+     "Шипов Г.И."
+    ],
+    "domains": [
+     "Geometric torsion theory (A4 absolute parallelism)",
+     "Torsion field mathematics"
+    ]
+   },
+   {
+    "id": "galaev-yum",
+    "name": "Yuri M. Galaev",
+    "known_as": [
+     "Yu.M. Galaev",
+     "Галаев Ю.М."
+    ],
+    "domains": [
+     "Millimeter-wave interferometer for space isotropy investigation",
+     "Optical interferometer for measuring anisotropy of light speed"
+    ]
+   },
+   {
+    "id": "schauberger-viktor",
+    "name": "Viktor Schauberger",
+    "known_as": [
+     "Viktor Schauberger",
+     "Schauberger"
+    ],
+    "domains": [
+     "Implosion/vortex theory",
+     "Repulsine/Repulsator designs",
+     "Sogturbine designs"
+    ]
+   },
+   {
+    "id": "iguchi-kazumoto",
+    "name": "Iguchi Kazumoto",
+    "known_as": [
+     "Iguchi Kazumoto",
+     "井口和基"
+    ],
+    "domains": [
+     "The Simple Principle of Forgotten Free Energy (2013)",
+     "What Nikola Tesla Really Wanted to Tell Us About the Universe's Mechanism (series)"
+    ]
+   },
+   {
+    "id": "cosentino-angelo",
+    "name": "Angelo Cosentino",
+    "known_as": [
+     "Angelo Cosentino"
+    ],
+    "domains": [
+     "Einstein-Cartan torsion theory thesis"
+    ]
+   },
+   {
+    "id": "ginger-team",
+    "name": "GINGER Collaboration",
+    "known_as": [
+     "GINGER Team",
+     "GINGERINO Team"
+    ],
+    "domains": [
+     "Ring laser gyroscope measuring Lense-Thirring frame dragging"
+    ]
+   },
+   {
+    "id": "chimpel-eliot",
+    "name": "Eliot Chimpel",
+    "known_as": [
+     "Eliot Chimpel",
+     "E. Chimpel"
+    ],
+    "domains": [
+     "Ether-X cosmological model"
+    ]
+   },
+   {
+    "id": "toulgoat-fabien",
+    "name": "Fabien Toulgoat",
+    "known_as": [
+     "Fabien Toulgoat",
+     "F. Toulgoat"
+    ],
+    "domains": [
+     "Théorie Φ — scalar field coupled to baryonic matter"
+    ]
+   },
+   {
+    "id": "burtin-guillaume",
+    "name": "Guillaume Burtin",
+    "known_as": [
+     "Guillaume Burtin",
+     "G. Burtin"
+    ],
+    "domains": [
+     "Model Φₖ linking vacuum density to cosmic expansion via inertial buoyancy"
+    ]
+   },
+   {
+    "id": "tadokoro-makoto",
+    "name": "Makoto Tadokoro",
+    "known_as": [
+     "Makoto Tadokoro",
+     "Tadokoro Makoto"
+    ],
+    "domains": [
+     "Hierarchical structure and premelting state of nano-confined water (JACS 2025)"
+    ]
+   },
+   {
+    "id": "shinya-hiroaki",
+    "name": "Hiroaki Shinya",
+    "known_as": [
+     "Hiroaki Shinya",
+     "Shinya Hiroaki"
+    ],
+    "domains": [
+     "Discovery of chiral liquid crystal-like water at ice III interface"
+    ]
+   },
+   {
+    "id": "wu-miao",
+    "name": "Miao Wu",
+    "known_as": [
+     "Miao Wu",
+     "吴淼"
+    ],
+    "domains": [
+     "Evaporation-driven microrod power generation"
+    ]
+   },
+   {
+    "id": "lebedkin-valentin",
+    "name": "Valentin Lebedkin",
+    "known_as": [
+     "Valentin Lebedkin",
+     "Валентин Лебедкин"
+    ],
+    "domains": [
+     "STPK model — coherent proton loop reassembly for LENR"
+    ]
+   },
+   {
+    "id": "magnitsky-nikolai",
+    "name": "Nikolai Magnitsky",
+    "known_as": [
+     "N.A. Magnitsky",
+     "Н.А. Магницкий"
+    ],
+    "domains": [
+     "Compressible oscillating ether gravity theory"
+    ]
+   },
+   {
+    "id": "beauvais-francis",
+    "name": "Francis Beauvais",
+    "known_as": [
+     "Francis Beauvais",
+     "F. Beauvais"
+    ],
+    "domains": [
+     "Reinterpretation of Benveniste's experiments without water memory"
+    ]
+   },
+   {
+    "id": "petit-jean-pierre",
+    "name": "Jean-Pierre Petit",
+    "known_as": [
+     "Jean-Pierre Petit"
+    ],
+    "domains": [
+     "Janus bimetric cosmological model"
+    ]
+   },
+   {
+    "id": "boudet-alain",
+    "name": "Alain Boudet",
+    "known_as": [
+     "Alain Boudet"
+    ],
+    "domains": [
+     "41-page French synthesis on Tesla, ether, and scalar waves"
+    ]
+   },
+   {
+    "id": "al-halabi-alaa",
+    "name": "Alaa Al-Halabi",
+    "known_as": [
+     "Alaa Al-Halabi",
+     "علاء الحلبي"
+    ],
+    "domains": [
+     "30+ books on alternative physics including radiant electricity and ether concepts"
+    ]
+   },
+   {
+    "id": "turtur-claus",
+    "name": "Claus W. Turtur",
+    "known_as": [
+     "Claus W. Turtur",
+     "Claus Turtur"
+    ],
+    "domains": [
+     "Vacuum energy conversion from zero-point oscillations via rotational mechanics",
+     "Physical rotor apparatus to convert vacuum energy"
+    ]
+   },
+   {
+    "id": "zaitsev-fs",
+    "name": "F.S. Zaitsev",
+    "known_as": [
+     "F.S. Zaitsev",
+     "Зайцев Ф.С."
+    ],
+    "domains": [
+     "Mathematical modeling of EM and gravitational phenomena via ether continuum mechanics (3rd ed. 2023)"
+    ]
+   },
+   {
+    "id": "bychkov-vl",
+    "name": "V.L. Bychkov",
+    "known_as": [
+     "V.L. Bychkov",
+     "Бычков В.Л."
+    ],
+    "domains": [
+     "Mathematical modeling of EM and gravitational phenomena via ether continuum mechanics"
+    ]
+   },
+   {
+    "id": "meyl-konstantin",
+    "name": "Konstantin Meyl",
+    "known_as": [
+     "Konstantin Meyl",
+     "K. Meyl"
+    ],
+    "domains": [
+     "Scalar wave theory extending Maxwell's equations with potential vortices",
+     "Experimental kits demonstrating wireless energy transmission"
+    ]
+   },
+   {
+    "id": "kaznacheev-vlail",
+    "name": "Vlail Kaznacheev",
+    "known_as": [
+     "Vlail Kaznacheev",
+     "Казначеев В."
+    ],
+    "domains": [
+     "Decades of experiments with Kozyrev mirrors",
+     "Large-scale remote perception studies"
+    ]
+   },
+   {
+    "id": "trofimov-alexander",
+    "name": "Alexander Trofimov",
+    "known_as": [
+     "Alexander Trofimov",
+     "Трофимов А."
+    ],
+    "domains": [
+     "Kozyrev mirror experiments",
+     "Remote perception studies"
+    ]
+   },
+   {
+    "id": "li-sih-sen",
+    "name": "Li Sih-sen",
+    "known_as": [
+     "Li Sih-sen",
+     "李嗣涔",
+     "Lee Si-chen"
+    ],
+    "domains": [
+     "Torsion field science book (Japanese translation 2024)",
+     "Connecting qi, chakras, feng shui to torsion physics"
+    ]
+   },
+   {
+    "id": "rivero-juan",
+    "name": "Juan Miguel Rivero y Hornos Tverjanovich",
+    "known_as": [
+     "Juan Miguel Rivero y Hornos Tverjanovich",
+     "Juan Rivero"
+    ],
+    "domains": [
+     "Open-source vortex motor (MVP v1.0) with build instructions"
+    ]
+   },
+   {
+    "id": "huera-francisco",
+    "name": "Francisco Huera",
+    "known_as": [
+     "Francisco Huera"
+    ],
+    "domains": [
+     "VIV pendulum for ocean/river energy extraction"
+    ]
+   },
+   {
+    "id": "cedric-heliquantix",
+    "name": "Cédric (Héliquantix)",
+    "known_as": [
+     "Cédric (Héliquantix)",
+     "Héliquantix"
+    ],
+    "domains": [
+     "Open-source Phryll generator (v3/v4) based on Meyl's scalar wave demonstrator"
+    ]
+   },
+   {
+    "id": "antoine-d",
+    "name": "Antoine D.",
+    "known_as": [
+     "Antoine D."
+    ],
+    "domains": [
+     "Commercial scalar wave kit with frequency generator"
+    ]
+   },
+   {
+    "id": "zhang-jinlong",
+    "name": "Zhang Jinlong",
+    "known_as": [
+     "Zhang Jinlong",
+     "金龙章"
+    ],
+    "domains": [
+     "Scalar potential modulated ontological wave-field theory"
+    ]
+   },
+   {
+    "id": "sun-h",
+    "name": "Sun H",
+    "known_as": [
+     "Sun H"
+    ],
+    "domains": [
+     "Taiji Unified Field Theory — Yin-Yang field formalism"
+    ]
+   },
+   {
+    "id": "li-jitong",
+    "name": "Li Jitong",
+    "known_as": [
+     "Li Jitong",
+     "李季瞳"
+    ],
+    "domains": [
+     "Derivation of longitudinal and transverse gravitational waves"
+    ]
+   },
+   {
+    "id": "kahuda-frantisek",
+    "name": "František Kahuda",
+    "known_as": [
+     "František Kahuda",
+     "F. Kahuda"
+    ],
+    "domains": [
+     "Director of Psychoenergetic Laboratory (PEL) — only state-sponsored parapsychology lab in Eastern Bloc"
+    ]
+   },
+   {
+    "id": "pavlita-robert",
+    "name": "Robert Pavlita",
+    "known_as": [
+     "Robert Pavlita",
+     "R. Pavlita"
+    ],
+    "domains": [
+     "Biogenerators — metal devices charged with bioenergy, no moving parts"
+    ]
+   },
+   {
+    "id": "kafka-bretislav",
+    "name": "Břetislav Kafka",
+    "known_as": [
+     "Břetislav Kafka",
+     "B. Kafka"
+    ],
+    "domains": [
+     "Founder of Czech psychotronika",
+     "Hypnotized 15,000+ people over 38 years"
+    ]
+   },
+   {
+    "id": "rychnowski-franciszek",
+    "name": "Franciszek Rychnowski",
+    "known_as": [
+     "Franciszek Rychnowski",
+     "F. Rychnowski"
+    ],
+    "domains": [
+     "Discovery of elektroid/eteroid — unknown energy form (1896)",
+     "21 patents"
+    ]
+   },
+   {
+    "id": "maslowski-szymon",
+    "name": "Szymon Masłowski",
+    "known_as": [
+     "Szymon Masłowski",
+     "S. Masłowski"
+    ],
+    "domains": [
+     "Adaptive Relational Field Theory (ARFT) v7.0"
+    ]
+   },
+   {
+    "id": "spyridis-h",
+    "name": "H. Spyridis",
+    "known_as": [
+     "H. Spyridis",
+     "Spyridis"
+    ],
+    "domains": [
+     "Platonic Theory of Everything — electro-strong unification via Platonic solids"
+    ]
+   },
+   {
+    "id": "karydianakis-g",
+    "name": "G. Karydianakis",
+    "known_as": [
+     "G. Karydianakis",
+     "Karydianakis"
+    ],
+    "domains": [
+     "Synthesis of Pantachikinon theory with modern electrodynamics"
+    ]
+   },
+   {
+    "id": "fisher-john-c",
+    "name": "John C. Fisher",
+    "known_as": [
+     "John C. Fisher",
+     "John Fisher",
+     "J.C. Fisher"
+    ],
+    "domains": [
+     "Polyneutron/Neutron Isotope Theory of LENR",
+     "15 published + 14 unpublished working papers"
+    ]
+   },
+   {
+    "id": "naudin-jl",
+    "name": "JL Naudin",
+    "known_as": [
+     "JL Naudin",
+     "JLN Labs"
+    ],
+    "domains": [
+     "Vallée Synergetic Generator (VSG) project — freeware experimental logbook"
+    ]
+   },
+   {
+    "id": "fletcher-alan",
+    "name": "Alan Fletcher",
+    "known_as": [
+     "Alan Fletcher",
+     "Fletcher Automation Research"
+    ],
+    "domains": [
+     "Detailed thermal analysis of Rossi eCat claims"
+    ]
+   },
+   {
+    "id": "orymbetov-yerzhan",
+    "name": "Yerzhan Orymbetov",
+    "known_as": [
+     "Yerzhan Orymbetov",
+     "Orymbetov"
+    ],
+    "domains": [
+     "Fractal S-parameter medium-density modulation theory"
+    ]
+   },
+   {
+    "id": "pincak-richard",
+    "name": "Richard Pinčák",
+    "known_as": [
+     "Richard Pinčák",
+     "R. Pinčák"
+    ],
+    "domains": [
+     "Black hole information paradox resolution via Einstein-Cartan torsion in 7D G2-manifold"
+    ]
+   },
+   {
+    "id": "yin-xiong",
+    "name": "Xiong Yin",
+    "known_as": [
+     "Xiong Yin",
+     "Yin Xiong"
+    ],
+    "domains": [
+     "4D synergistic scheme for muon-catalyzed fusion Q>2"
+    ]
+   },
+   {
+    "id": "kou-wei",
+    "name": "Wei Kou",
+    "known_as": [
+     "Wei Kou",
+     "Kou Wei"
+    ],
+    "domains": [
+     "4D synergistic scheme for muon-catalyzed fusion"
+    ]
+   },
+   {
+    "id": "chen-xurong",
+    "name": "Xurong Chen",
+    "known_as": [
+     "Xurong Chen",
+     "Chen Xurong"
+    ],
+    "domains": [
+     "4D synergistic scheme for muon-catalyzed fusion"
+    ]
+   },
+   {
+    "id": "takahashi-akito",
+    "name": "Akito Takahashi",
+    "known_as": [
+     "Akito Takahashi",
+     "Takahashi Akito",
+     "高橋 Akito"
+    ],
+    "domains": [
+     "4H/TSC WS Fusion Theory",
+     "Compact fusion heater prototype (500W output)"
+    ]
+   },
+   {
+    "id": "tripathi-bindesh",
+    "name": "Bindesh Tripathi",
+    "known_as": [
+     "Bindesh Tripathi",
+     "B. Tripathi"
+    ],
+    "domains": [
+     "Cosmic magnetic field generation from velocity gradients in plasma (Nature 2026)"
+    ]
+   },
+   {
+    "id": "miller-earl",
+    "name": "Earl Miller",
+    "known_as": [
+     "Earl Miller",
+     "Earl K. Miller"
+    ],
+    "domains": [
+     "Traveling brain waves theory of consciousness"
+    ]
+   },
+   {
+    "id": "brincat-scott",
+    "name": "Scott Brincat",
+    "known_as": [
+     "Scott Brincat",
+     "S. Brincat"
+    ],
+    "domains": [
+     "Traveling brain waves theory (co-author)"
+    ]
+   },
+   {
+    "id": "roy-jefferson",
+    "name": "Jefferson Roy",
+    "known_as": [
+     "Jefferson Roy",
+     "J. Roy"
+    ],
+    "domains": [
+     "Traveling brain waves theory (co-author)"
+    ]
+   },
+   {
+    "id": "filimonenko-ivan",
+    "name": "Ivan Filimonenko",
+    "known_as": [
+     "Ivan Filimonenko",
+     "I.S. Filimonenko"
+    ],
+    "domains": [
+     "Soviet cold fusion claims (1957) — three facilities in Podolsk"
+    ]
+   },
+   {
+    "id": "benaros-pierre",
+    "name": "Pierre Benaros",
+    "known_as": [
+     "Pierre Benaros",
+     "P.A. Benaros"
+    ],
+    "domains": [
+     "Matter and Æther D duality framework"
+    ]
+   },
+   {
+    "id": "brandenburg-john",
+    "name": "John Brandenburg",
+    "known_as": [
+     "John Brandenburg",
+     "J.E. Brandenburg"
+    ],
+    "domains": [
+     "Electromagnetic coil dome for gravity modification (US20260072053A1)"
+    ]
+   },
+   {
+    "id": "chu-guozheng",
+    "name": "Chu Guozheng",
+    "known_as": [
+     "Chu Guozheng",
+     "褚果正"
+    ],
+    "domains": [
+     "Room-temp self-sustaining vacuum ZPE array generator (CN202610320749)"
+    ]
+   },
+   {
+    "id": "walnier-alexandre",
+    "name": "Alexandre Walnier",
+    "known_as": [
+     "Alexandre Walnier",
+     "A. Walnier"
+    ],
+    "domains": [
+     "Detailed Goethean observation methodology from Goetheanum tradition"
+    ]
+   },
+   {
+    "id": "bauer-wm",
+    "name": "Wilhelm Moritz Bauer",
+    "known_as": [
+     "W.M. Bauer",
+     "Wilhelm Bauer"
+    ],
+    "domains": [
+     "Postmodern Physics — Vortex Core Binding Energy (1965 dissertation rejected by University of Zürich)",
+     "Ätherphysik (1954)"
+    ]
+   },
+   {
+    "id": "waser-andre",
+    "name": "André Waser",
+    "known_as": [
+     "A. Waser"
+    ],
+    "domains": [
+     "Kompendium der Wirbelphysik (1999) — compilation of historical and contemporary vortex research"
+    ]
+   },
+   {
+    "id": "darpini-paolo",
+    "name": "Paolo D'Arpini",
+    "known_as": [
+     "P. D'Arpini"
+    ],
+    "domains": [
+     "Toroidal vortices theory connecting matter, gravity, and consciousness"
+    ]
+   },
+   {
+    "id": "petti-natale",
+    "name": "Natale Petti",
+    "known_as": [
+     "N. Petti"
+    ],
+    "domains": [
+     "Water as Field of Consciousness — extension of QED coherence domain theory"
+    ]
+   },
+   {
+    "id": "delgiudice-emilio",
+    "name": "Emilio Del Giudice",
+    "known_as": [
+     "E. Del Giudice"
+    ],
+    "domains": [
+     "QED coherence domains in water",
+     "Electromagnetic basis of life"
+    ]
+   },
+   {
+    "id": "preparata-giuliano",
+    "name": "Giuliano Preparata",
+    "known_as": [
+     "G. Preparata"
+    ],
+    "domains": [
+     "QED coherence domains — theoretical framework for collective phenomena in condensed matter"
+    ]
+   },
+   {
+    "id": "figueira-felipe",
+    "name": "Felipe Figueira",
+    "known_as": [
+     "F. Figueira"
+    ],
+    "domains": [
+     "Brazilian Portuguese translation of 'The Water Wizard' — 'A Inteligência das Águas'",
+     "Zenodo paper on Schauberger's permanent water culture"
+    ]
+   },
+   {
+    "id": "cunha-renato",
+    "name": "Renato Cunha",
+    "known_as": [
+     "R. Cunha"
+    ],
+    "domains": [
+     "Base-12 ether geometry framework for zero-point energy reactors"
+    ]
+   },
+   {
+    "id": "bal-cetin",
+    "name": "Çetin BAL",
+    "known_as": [
+     "C. BAL"
+    ],
+    "domains": [
+     "Comprehensive Turkish treatise on scalar EM engineering with coil designs"
+    ]
+   },
+   {
+    "id": "kim-changsik",
+    "name": "Chang Sik Kim",
+    "known_as": [
+     "C.S. Kim",
+     "Kim Chang Sik"
+    ],
+    "domains": [
+     "Viscoelastic spacetime model with Kim's Law E = κψ",
+     "Unified solution to dark sector and Hubble tension"
+    ]
+   },
+   {
+    "id": "manzalini-antonio",
+    "name": "Antonio Manzalini",
+    "known_as": [
+     "A. Manzalini"
+    ],
+    "domains": [
+     "Field and Quantum Potential of Consciousness — extension of de Broglie-Bohm pilot wave theory"
+    ]
+   },
+   {
+    "id": "damante-fabio",
+    "name": "Fabio Damante",
+    "known_as": [
+     "F. Damante"
+    ],
+    "domains": [
+     "Torsione Spazio Tempo e Gravitazione Torsionale a Spirale — reformulation of gravity from ascensional torsion"
+    ]
+   },
+   {
+    "id": "falace-luca",
+    "name": "Luca Falace",
+    "known_as": [
+     "L. Falace"
+    ],
+    "domains": [
+     "Creative Synchronism Theory — Extended Unified Field with experimental pilot studies"
+    ]
+   },
+   {
+    "id": "bulatov-artur",
+    "name": "Artur Bulatov",
+    "known_as": [
+     "A. Bulatov"
+    ],
+    "domains": [
+     "Study on Torsion Fields — German-language overview of Russian torsion research with 12,000+ title bibliography"
+    ]
+   },
+   {
+    "id": "schadach-d",
+    "name": "D. Schadach",
+    "known_as": [
+     "D. Schadach"
+    ],
+    "domains": [
+     "Extended Theory of Electromagnetism — vacuum field engineering via quaternion/Clifford algebra"
+    ]
+   },
+   {
+    "id": "furter-lm",
+    "name": "L.M. Furter",
+    "known_as": [
+     "L.M. Furter"
+    ],
+    "domains": [
+     "Doctoral dissertation on geopathic stress zones and dairy cow health using Geowave device"
+    ]
+   },
+   {
+    "id": "osaka-takuro",
+    "name": "Takuro Osaka",
+    "known_as": [
+     "Takuro Osaka",
+     "大坂琢磨"
+    ],
+    "domains": [
+     "Water sphere experiments aboard ISS KIBO module (2008-2011)"
+    ]
+   },
+   {
+    "id": "hagura-yukio",
+    "name": "Yukio Hagura",
+    "known_as": [
+     "Y. Hagura",
+     "萩原幸夫"
+    ],
+    "domains": [
+     "Historical research on ionospheric storms and solar activity correlation"
+    ]
+   },
+   {
+    "id": "etkin-valery",
+    "name": "Valery Abramovich Etkin",
+    "known_as": [
+     "V.A. Etkin",
+     "В.А. Эткин"
+    ],
+    "domains": [
+     "Proposal that ether is identical to cosmological 'hidden mass' (non-baryonic matter)"
+    ]
+   },
+   {
+    "id": "palenko-nikolai",
+    "name": "Nikolai Alekseevich Palenko",
+    "known_as": [
+     "N.A. Palenko",
+     "Н.А. Паленко"
+    ],
+    "domains": [
+     "Calculations for ether medium velocity near celestial bodies"
+    ]
+   },
+   {
+    "id": "skoropad-gyu",
+    "name": "G.Yu. Skoropad",
+    "known_as": [
+     "G.Yu. Skoropad"
+    ],
+    "domains": [
+     "Thesis on torsion fields summarizing Shipov's 7 levels of reality"
+    ]
+   },
+   {
+    "id": "slavutsky-gleb",
+    "name": "Gleb Slavutsky",
+    "known_as": [
+     "G. Slavutsky"
+    ],
+    "domains": [
+     "Unified Wave Cosmological Model (ЕВКМ) — Dec 2025 preprint"
+    ]
+   },
+   {
+    "id": "konjevic-bozidar",
+    "name": "Bozidar Konjevic",
+    "known_as": [
+     "B. Konjevic"
+    ],
+    "domains": [
+     "Motor sin consumo (zero-consumption motor) demonstrated at Universidad Politécnica de Valencia"
+    ]
+   },
+   {
+    "id": "jacobson-t",
+    "name": "T. Jacobson",
+    "known_as": [
+     "T. Jacobson"
+    ],
+    "domains": [
+     "Einstein-Aether theory (2005) — Lorentz-violating theory of gravity"
+    ]
+   },
+   {
+    "id": "shkatov-vt",
+    "name": "V.T. Shkatov",
+    "known_as": [
+     "V.T. Shkatov",
+     "Шкатов В.Т."
+    ],
+    "domains": [
+     "Development of TSM-021 torsimeter — first torsion field detector"
+    ]
+   },
+   {
+    "id": "samokhvalov-vn",
+    "name": "V.N. Samokhvalov",
+    "known_as": [
+     "V.N. Samokhvalov",
+     "Самохвалов В.Н."
+    ],
+    "domains": [
+     "Vacuum chamber experiments showing non-gravitational force coupling between rotating disks"
+    ]
+   },
+   {
+    "id": "gong-xianzhu",
+    "name": "Gong Xianzhu",
+    "known_as": [
+     "Gong Xianzhu",
+     "龚先祖"
+    ],
+    "domains": [
+     "EAST tokamak: 403-second steady-state high-confinement plasma operation"
+    ]
+   },
+   {
+    "id": "suzin-joseli-beatriz",
+    "name": "Joseli Beatriz Suzin",
+    "known_as": [
+     "Joseli Beatriz Suzin",
+     "J.B. Suzin"
+    ],
+    "domains": [
+     "Implementation of radiesthesia radionics in Brazilian public hospital integrative medicine program (MI-PICS)"
+    ]
+   },
+   {
+    "id": "keppe-norberto",
+    "name": "Norberto Keppe",
+    "known_as": [
+     "Norberto Keppe",
+     "Keppe"
+    ],
+    "domains": [
+     "Keppe Motor — resonant motor capturing scalar energy from vacuum",
+     "A Nova Física da Metafísica Desinvertida (1996)"
+    ]
+   },
+   {
+    "id": "soos-cesar",
+    "name": "Cesar Soós",
+    "known_as": [
+     "Cesar Soós",
+     "Soós"
+    ],
+    "domains": [
+     "Keppe Motor prototype development and mass production in China (2015)"
+    ]
+   },
+   {
+    "id": "frascari-roberto",
+    "name": "Roberto Frascari",
+    "known_as": [
+     "Roberto Frascari"
+    ],
+    "domains": [
+     "Keppe Motor STEM system development"
+    ]
+   },
+   {
+    "id": "frascari-alexandre",
+    "name": "Alexandre Frascari",
+    "known_as": [
+     "Alexandre Frascari"
+    ],
+    "domains": [
+     "Keppe Motor development"
+    ]
+   },
+   {
+    "id": "herbrand-ludwig",
+    "name": "Ludwig Herbrand",
+    "known_as": [
+     "Ludwig Herbrand",
+     "Herbrand"
+    ],
+    "domains": [
+     "Analysis of Schauberger's 1930 Strahlturbine patent"
+    ]
+   },
+   {
+    "id": "kim-sang-woo",
+    "name": "Sang-Woo Kim",
+    "known_as": [
+     "Sang-Woo Kim",
+     "Kim Sang-Woo"
+    ],
+    "domains": [
+     "Torsion as dynamic degree of freedom of quantum gravity — peer-reviewed paper"
+    ]
+   },
+   {
+    "id": "pak-dg",
+    "name": "D.G. Pak",
+    "known_as": [
+     "D.G. Pak",
+     "Pak"
+    ],
+    "domains": [
+     "Co-author: Torsion as dynamic degree of freedom of quantum gravity"
+    ]
+   },
+   {
+    "id": "lubawy-henryk",
+    "name": "Henryk Lubawy",
+    "known_as": [
+     "Henryk Lubawy",
+     "H. Lubawy"
+    ],
+    "domains": [
+     "SQUID magnetometer research on ELF fields and human detection"
+    ]
+   },
+   {
+    "id": "stavek-jiri",
+    "name": "Jiří Stávek",
+    "known_as": [
+     "Jiří Stávek",
+     "Stávek"
+    ],
+    "domains": [
+     "Electron catalysis framework for LENR — peer-reviewed 2025"
+    ]
+   },
+   {
+    "id": "dingel-daniel",
+    "name": "Daniel Dingel",
+    "known_as": [
+     "Daniel Dingel",
+     "Dingel"
+    ],
+    "domains": [
+     "Water-powered car claims — hydrogen-on-demand from water"
+    ]
+   },
+   {
+    "id": "wardenier-johannes",
+    "name": "Johannes Wardenier",
+    "known_as": [
+     "Johannes Wardenier",
+     "Wardenier"
+    ],
+    "domains": [
+     "Dutch free energy inventor mentioned alongside Tesla, Schauberger, Reich"
+    ]
+   },
+   {
+    "id": "hacheney-wilfried",
+    "name": "Wilfried Hacheney",
+    "known_as": [
+     "Wilfried Hacheney",
+     "Hacheney"
+    ],
+    "domains": [
+     "Lemniscate tube — figure-eight shaped water energizer"
+    ]
+   },
+   {
+    "id": "kozyrev-nikolai-a",
+    "name": "Nikolai Alexandrovich Kozyrev",
+    "known_as": [
+     "N.A. Kozyrev",
+     "Kozyrev",
+     "Козырев Н.А."
+    ],
+    "domains": [
+     "Time as physical force — causal mechanics",
+     "Spiral energy patterns in time flow"
+    ]
+   }
+  ],
+  "work": [
+   {
+    "id": "atsyukovsky-foundations-bk5",
+    "title": "Foundations of Etherdynamic Natural Science. Book 5. Initial Etherdynamic Experiments and Technologies",
+    "lang": "Russian",
+    "authors": [
+     "V.A. Atsyukovsky"
+    ],
+    "url": "https://surin-ether.narod.ru/olderfiles/1/Atsuk_5.pdf",
+    "host": "narod.ru",
+    "domains": [
+     "Aether Physics",
+     "Energy Generation",
+     "Electromagnetism",
+     "Environmental"
+    ]
+   },
+   {
+    "id": "schauberger-implosion-magazine",
+    "title": "Implosion Magazine — Complete Archived Issues",
+    "lang": "German",
+    "authors": [
+     "Viktor Schauberger",
+     "Aloys Kokaly"
+    ],
+    "url": "https://archive.org/details/Implosion_567",
+    "host": "archive.org",
+    "domains": [
+     "Alternative Energy",
+     "Water Structure",
+     "Vortex Technology",
+     "Natural Philosophy"
+    ]
+   },
+   {
+    "id": "akimov-shipov-torsion-fields",
+    "title": "Torsion Fields and Their Experimental Manifestations",
+    "lang": "Russian",
+    "authors": [
+     "A.E. Akimov",
+     "G.I. Shipov",
+     "V.N. Tunyak"
+    ],
+    "url": "https://www.trinitas.ru/rus/doc/0231/004a/02310004.htm",
+    "host": "trinitas.ru",
+    "domains": [
+     "Torsion Physics",
+     "Aether Physics",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "iguchi-forgotten-free-energy",
+    "title": "The Simple Principle of Forgotten Free Energy",
+    "lang": "Japanese",
+    "authors": [
+     "Iguchi Kazumoto"
+    ],
+    "url": "https://ci.nii.ac.jp/ncid/BC09086466",
+    "host": "ci.nii.ac.jp (CiNii)",
+    "domains": [
+     "Alternative Energy",
+     "Aether Theories",
+     "Tesla Studies"
+    ]
+   },
+   {
+    "id": "tokyo-univ-tesla-turbine",
+    "title": "Tesla Turbine/Pump Research",
+    "lang": "Japanese",
+    "authors": [
+     "Teramoto/Okamoto Laboratory"
+    ],
+    "url": "https://www.thermo.t.u-tokyo.ac.jp/tesla/",
+    "host": "u-tokyo.ac.jp",
+    "domains": [
+     "Alternative Energy",
+     "Exotic Materials"
+    ]
+   },
+   {
+    "id": "implosion-ev-archive",
+    "title": "Active Implosion Magazine Archive (Issues 112-189+)",
+    "lang": "German",
+    "authors": [
+     "Viktor Schauberger",
+     "Klaus Rauber",
+     "Jörg Schauberger"
+    ],
+    "url": "https://www.implosion-ev.de/index.php/zeitschrift/jahrgaenge/112-119",
+    "host": "implosion-ev.de",
+    "domains": [
+     "Alternative Energy",
+     "Water Structure",
+     "Vortex Technology"
+    ]
+   },
+   {
+    "id": "cosentino-einstein-cartan-thesis",
+    "title": "Torsion in Spacetime and Einstein-Cartan Theory",
+    "lang": "Italian",
+    "authors": [
+     "Angelo Cosentino"
+    ],
+    "url": "https://exa.ai/library/publication/tgm9x88q3fq",
+    "host": null,
+    "domains": [
+     "Torsion Physics",
+     "Gravity Control"
+    ]
+   },
+   {
+    "id": "gingerino-ring-laser",
+    "title": "GINGERINO: a high sensitivity ring laser gyroscope for fundamental and quantum physics investigation",
+    "lang": "English",
+    "authors": [
+     "GINGER Team"
+    ],
+    "url": "https://doi.org/10.3389/frqst.2024.1363409",
+    "host": null,
+    "domains": [
+     "Gravity Control",
+     "Torsion Physics",
+     "Frame Dragging"
+    ]
+   },
+   {
+    "id": "ether-x-cosmology",
+    "title": "Ether-X: Geometric Cosmological Model Without Dark Matter or Dark Energy",
+    "lang": "French",
+    "authors": [
+     "Eliot Chimpel"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.15188624",
+    "host": null,
+    "domains": [
+     "Aether Theories",
+     "Plasma Cosmology"
+    ]
+   },
+   {
+    "id": "theorie-phi",
+    "title": "Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies",
+    "lang": "French",
+    "authors": [
+     "Fabien Toulgoat"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.16728703",
+    "host": null,
+    "domains": [
+     "Aether Theories",
+     "Gravity Control"
+    ]
+   },
+   {
+    "id": "nano-confined-water-jacs",
+    "title": "Hierarchical Structure and Premelting State of Water Confined in Molecular Nanocrystal Pores",
+    "lang": "Japanese",
+    "authors": [
+     "Makoto Tadokoro",
+     "Fumiya Kobayashi",
+     "Tomoya Namiki"
+    ],
+    "url": "https://www.tus.ac.jp/today/archive/20250922_1128.html",
+    "host": "tus.ac.jp",
+    "domains": [
+     "Water Structure/Memory",
+     "Exotic Materials"
+    ]
+   },
+   {
+    "id": "chiral-water-ice3",
+    "title": "Discovery of Chiral Liquid Crystal-Like Water at High-Pressure Ice III Interface",
+    "lang": "Japanese",
+    "authors": [
+     "Hiroaki Shinya",
+     "Yuki Kimura",
+     "Hiroki Nada"
+    ],
+    "url": "https://www.tohoku.ac.jp/japanese/2024/01/press20240111-02-chiral.html",
+    "host": "tohoku.ac.jp",
+    "domains": [
+     "Water Structure/Memory",
+     "Exotic Materials",
+     "Geometry & Harmonics"
+    ]
+   },
+   {
+    "id": "evaporation-microrods",
+    "title": "Vertical microrods boost electricity generation from evaporation",
+    "lang": "English",
+    "authors": [
+     "Miao Wu",
+     "Tianyi Wang"
+    ],
+    "url": "https://techxplore.com/news/2026-08-vertical-microrods-boost-electricity-generation.html",
+    "host": null,
+    "domains": [
+     "Alternative Energy",
+     "Water-Energy Nexus"
+    ]
+   },
+   {
+    "id": "stpk-lenr-model",
+    "title": "STPK: LENR Mechanism via Coherent Proton Loop Reassembly",
+    "lang": "Russian",
+    "authors": [
+     "Valentin Lebedkin"
+    ],
+    "url": "https://doi.org/10.24108/preprints-3115604",
+    "host": null,
+    "domains": [
+     "LENR",
+     "Cold Fusion",
+     "Quantum Coherence"
+    ]
+   },
+   {
+    "id": "magnitsky-ether-gravity",
+    "title": "Gravity in Compressible Oscillating Ether Theory",
+    "lang": "Russian",
+    "authors": [
+     "N.A. Magnitsky"
+    ],
+    "url": "https://newinflow.ru/pdf/pub28.pdf",
+    "host": null,
+    "domains": [
+     "Aether Physics",
+     "Gravity Theory"
+    ]
+   },
+   {
+    "id": "benveniste-reinterpretation",
+    "title": "Benveniste's Experiments and Water Memory: Serendipity?",
+    "lang": "English",
+    "authors": [
+     "Francis Beauvais"
+    ],
+    "url": "https://doi.org/10.20944/preprints202301.0155.v4",
+    "host": null,
+    "domains": [
+     "Water Structure",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "boudet-tesla-ether",
+    "title": "Tesla, Ether, and Scalar Waves",
+    "lang": "French",
+    "authors": [
+     "Alain Boudet"
+    ],
+    "url": "https://www.academia.edu/124824578/Tesla_l%C3%A9ther_et_les_ondes_scalaires",
+    "host": null,
+    "domains": [
+     "Alternative Energy",
+     "Tesla Studies",
+     "Scalar Waves"
+    ]
+   },
+   {
+    "id": "janus-cosmology",
+    "title": "Janus Cosmological Model",
+    "lang": "French",
+    "authors": [
+     "Jean-Pierre Petit",
+     "Hicham Zejli"
+    ],
+    "url": "https://zenodo.org/records/13358867",
+    "host": null,
+    "domains": [
+     "Aether Theories",
+     "Plasma Cosmology",
+     "Gravity Control"
+    ]
+   },
+   {
+    "id": "turtur-vacuum-energy-conversion",
+    "title": "Conversion of Vacuum Energy from Electromagnetic Zero-Point Oscillations into Classical Mechanical Energy",
+    "lang": "German",
+    "authors": [
+     "Claus Wilhelm Turtur"
+    ],
+    "url": "http://hdl.handle.net/10419/39209",
+    "host": "handle.net",
+    "domains": [
+     "Zero-Point Energy",
+     "Vacuum Energy",
+     "Casimir Effect",
+     "Alternative Energy"
+    ]
+   },
+   {
+    "id": "zaitsev-bychkov-ether-mechanics",
+    "title": "Mathematical Modeling of Electromagnetic and Gravitational Phenomena by the Methodology of Continuous Media Mechanics",
+    "lang": "Russian",
+    "authors": [
+     "F.S. Zaitsev",
+     "V.L. Bychkov"
+    ],
+    "url": "https://doi.org/10.29003/m3445.978-5-317-06077-0",
+    "host": "doi.org",
+    "domains": [
+     "Aether Physics",
+     "Gravity Control",
+     "Torsion Physics"
+    ]
+   },
+   {
+    "id": "meyl-scalar-wave-docs",
+    "title": "Documentation on Scalar Wave Technology for the Experimental Kit and Power Kit for the Transmission of Electrical Scalar Waves",
+    "lang": "German",
+    "authors": [
+     "Konstantin Meyl"
+    ],
+    "url": "https://www.k-meyl.de/shop/product_info.php?products_id=73",
+    "host": "k-meyl.de",
+    "domains": [
+     "Scalar Waves",
+     "Tesla Technology",
+     "Alternative Energy"
+    ]
+   },
+   {
+    "id": "kaznacheev-trofimov-kozyrev-mirrors",
+    "title": "Distant Information Interactions Among People as the Cosmophysical Indicator of the Evolution of Intellect on Earth",
+    "lang": "Russian",
+    "authors": [
+     "Vlail Kaznacheev",
+     "Alexander Trofimov"
+    ],
+    "url": "http://physics.socionic.info/index.php/physics/article/view/364",
+    "host": "physics.socionic.info",
+    "domains": [
+     "Torsion Physics",
+     "Consciousness Studies",
+     "Morphic Fields"
+    ]
+   },
+   {
+    "id": "li-sih-sen-torsion-science",
+    "title": "The Science of Torsion Field: All About Wave Energy Across Dimensions",
+    "lang": "Japanese",
+    "authors": [
+     "Li Sih-sen"
+    ],
+    "url": "https://prtimes.jp/main/html/rd/p/000000001.000153563.html",
+    "host": "prtimes.jp",
+    "domains": [
+     "Torsion Physics",
+     "Consciousness Studies",
+     "Qi/氣"
+    ]
+   },
+   {
+    "id": "iguchi-scalar-wave-theory",
+    "title": "Does the Scalar Wave Exist? Part 1: Various Known Electromagnetic Field Theories / The True Cosmic Mechanism Nikola Tesla Really Wanted to Convey",
+    "lang": "Japanese",
+    "authors": [
+     "Kazumoto Iguchi"
+    ],
+    "url": "https://quasimoto.exblog.jp/18946831/",
+    "host": "exblog.jp",
+    "domains": [
+     "Scalar Waves",
+     "Aether Theories",
+     "Tesla Technology"
+    ]
+   },
+   {
+    "id": "rivero-vortex-motor-mvp",
+    "title": "The Vortex Motor (MVP v1.0): An Open-Source Negentropic Generator to Light an LED",
+    "lang": "Spanish",
+    "authors": [
+     "Juan Miguel Rivero y Hornos Tverjanovich"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.17635970",
+    "host": "Zenodo",
+    "domains": [
+     "Alternative Energy",
+     "Water Structure",
+     "Suppressed Technologies"
+    ]
+   },
+   {
+    "id": "teslaphoresis-nanotubes",
+    "title": "(same)",
+    "lang": "Spanish",
+    "authors": [
+     "Laura Castañeda"
+    ],
+    "url": "https://azulalcian.com/teslaforesis/",
+    "host": "azulalcian.com",
+    "domains": [
+     "Alternative Energy",
+     "Consciousness Studies",
+     "Exotic Materials",
+     "Nanotechnology"
+    ]
+   },
+   {
+    "id": "bladeless-tesla-turbine-2026",
+    "title": "Wireless energy: a bladeless Tesla turbine can convert static electricity into useful energy",
+    "lang": "Spanish",
+    "authors": [
+     "Multi-institutional team"
+    ],
+    "url": "https://computerhoday.20minutos.es/ciencia/energia-inalambrica-una-turbina-tesla-sin-aspas-es-capaz-convertir-electricidad-estatica-energia-util_6920492_0.html",
+    "host": "20minutos.es",
+    "domains": [
+     "Alternative Energy",
+     "Suppressed Technologies",
+     "Exotic Materials"
+    ]
+   },
+   {
+    "id": "hyperbolic-water-vortices",
+    "title": "(same)",
+    "lang": "Spanish",
+    "authors": [
+     "Walter Schauberger"
+    ],
+    "url": "https://app.jove.com/es/t/64516/preparation-of-free-surface-hyperbolic-water-vortices",
+    "host": "JoVE",
+    "domains": [
+     "Water Structure/Memory",
+     "Regenerative Agriculture",
+     "Alternative Energy"
+    ]
+   },
+   {
+    "id": "viv-pendulum-ocean-energy",
+    "title": "How to generate energy with a submerged pendulum and water vibration",
+    "lang": "Spanish",
+    "authors": [
+     "Francisco Huera"
+    ],
+    "url": "https://www.energias-renovables.com/energias_del_mar/un-ingeniero-espa-ol-desarrolla-un-nuevo-20260128",
+    "host": "energias-renovables.com",
+    "domains": [
+     "Alternative Energy",
+     "Water Structure"
+    ]
+   },
+   {
+    "id": "phryll-generator-v4",
+    "title": "Phryll Generator at Ufological Meetings / Measuring scalar waves and torsion fields with BioWell",
+    "lang": "French",
+    "authors": [
+     "Cédric (Héliquantix)"
+    ],
+    "url": "https://eolix.fr/conference-generateur-de-phryll/",
+    "host": "eolix.fr",
+    "domains": [
+     "Alternative Energy",
+     "Consciousness Studies",
+     "Torsion Physics"
+    ]
+   },
+   {
+    "id": "scalar-wave-kit-fr",
+    "title": "Experimental scalar wave field generator kit with frequency generator",
+    "lang": "French",
+    "authors": [
+     "Antoine D."
+    ],
+    "url": "https://geobionature.fr/produit/kit-experimental-generateur-de-champs-dondes-scalaires-avec-generateur-de-frequences/",
+    "host": "geobionature.fr",
+    "domains": [
+     "Radionics/Radiesthesia",
+     "Consciousness Studies",
+     "Regenerative Agriculture"
+    ]
+   },
+   {
+    "id": "scalar-waves-fr-overview",
+    "title": "Scalar Waves",
+    "lang": "French",
+    "authors": [],
+    "url": "https://www.mednat.fr/articles/les-ondes-scalaires",
+    "host": "mednat.fr",
+    "domains": [
+     "Alternative Energy",
+     "Consciousness Studies",
+     "Torsion Physics"
+    ]
+   },
+   {
+    "id": "scalar-energy-fr-overview",
+    "title": "What is scalar energy?",
+    "lang": "French",
+    "authors": [],
+    "url": "https://ondulavi.com/quest-ce-que-lenergie-scalaire/",
+    "host": "ondulavi.com",
+    "domains": [
+     "Alternative Energy",
+     "Consciousness Studies",
+     "Torsion Physics",
+     "Aether Theories"
+    ]
+   },
+   {
+    "id": "zhang-scalar-potential-theory",
+    "title": "Scalar Potential Modulated Ontological Wave-Field Theory: Gravity Essence and Mass-Energy Equation Correction Based on Local Mass-Energy Gradients",
+    "lang": "Chinese",
+    "authors": [
+     "Zhang Jinlong"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.20358750",
+    "host": "Zenodo",
+    "domains": [
+     "Gravity Control",
+     "Aether Theories",
+     "Torsion Physics"
+    ]
+   },
+   {
+    "id": "sun-taiji-unified-field",
+    "title": "Taiji Unified Field Theory: A Theoretical Framework Bridging Microscopic Gauge Interactions and Macroscopic Gravity via a Gauge-Singlet Scalar Mediator",
+    "lang": "Chinese",
+    "authors": [
+     "Sun H"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.20682795",
+    "host": "Zenodo",
+    "domains": [
+     "Gravity Control",
+     "Aether Theories",
+     "Torsion Physics",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "li-gravitational-wave-derivation",
+    "title": "Derivation of Longitudinal and Transverse Gravitational Waves in Memory-Particle Information Field Theory",
+    "lang": "Chinese",
+    "authors": [
+     "Li Jitong"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.20720646",
+    "host": "Zenodo",
+    "domains": [
+     "Gravity Control",
+     "Torsion Physics",
+     "Aether Theories"
+    ]
+   },
+   {
+    "id": "pincak-black-hole-torsion",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Richard Pinčák"
+    ],
+    "url": "https://lplac.org/article/unraveling-the-black-hole-mystery-a-new-theory-solves-the-information-paradox",
+    "host": "lplac.org",
+    "domains": [
+     "Torsion Physics",
+     "Einstein-Cartan Theory",
+     "Black Hole Physics"
+    ]
+   },
+   {
+    "id": "muon-catalyzed-fusion-q2",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Xiong Yin",
+     "Wei Kou",
+     "Xurong Chen"
+    ],
+    "url": "https://www.techtimes.com/articles/325658/20260826/fallout-season-2-cold-fusion-gets-real-muon-catalyzed-fusion-inches-toward-breakeven.htm",
+    "host": "techtimes.com",
+    "domains": [
+     "LENR",
+     "Muon-Catalyzed Fusion",
+     "Alternative Energy"
+    ]
+   },
+   {
+    "id": "takahashi-fusion-heater",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Akito Takahashi"
+    ],
+    "url": "https://www.einpresswire.com/article/929855834/world-s-first-compact-fusion-heater-prototype-using-a-new-light-hydrogen-fusion-principle",
+    "host": "einpresswire.com",
+    "domains": [
+     "LENR",
+     "Cold Fusion",
+     "Alternative Energy"
+    ]
+   },
+   {
+    "id": "cosmic-magnetic-field-dynamo",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Bindesh Tripathi"
+    ],
+    "url": "https://lifeimitatingdesign.com/article/unraveling-the-mystery-how-supercomputer-simulations-reveal-cosmic-magnetic-order",
+    "host": "lifeimitatingdesign.com",
+    "domains": [
+     "Plasma Cosmology",
+     "Cosmic Magnetism",
+     "Plasma Physics"
+    ]
+   },
+   {
+    "id": "mit-traveling-brain-waves",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Earl Miller",
+     "Scott Brincat",
+     "Jefferson Roy"
+    ],
+    "url": "https://gaya.one/en/human/consciousness/novaa-teoria-mit-soznanie-mozet-voznikat-iz-begusih-voln-mozga",
+    "host": "gaya.one",
+    "domains": [
+     "Consciousness Studies",
+     "Neuroscience"
+    ]
+   },
+   {
+    "id": "fisher-polyneutron-papers",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "John C. Fisher"
+    ],
+    "url": "http://markfisher.net/johnfisher/",
+    "host": "markfisher.net",
+    "domains": [
+     "LENR",
+     "Polyneutron Theory",
+     "Nuclear Physics"
+    ]
+   },
+   {
+    "id": "naudin-vsg-project",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "JL Naudin"
+    ],
+    "url": "http://jnaudin.free.fr/vsg/index.htm",
+    "host": "free.fr",
+    "domains": [
+     "Vacuum Energy",
+     "Synergetics",
+     "Alternative Energy"
+    ]
+   },
+   {
+    "id": "fletcher-ecat-analysis",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Alan Fletcher"
+    ],
+    "url": "http://lenr.qumbu.com/",
+    "host": "lenr.qumbu.com",
+    "domains": [
+     "LENR",
+     "Thermal Analysis"
+    ]
+   },
+   {
+    "id": "schauberger-patent-specs",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Viktor Schauberger"
+    ],
+    "url": "http://www.tuks.nl/Mirror/frankgermano_net/vs_waterconduit_patent.htm",
+    "host": "tuks.nl",
+    "domains": [
+     "Water Vortex",
+     "Implosion",
+     "Turbine Design"
+    ]
+   },
+   {
+    "id": "psychoenergetic-lab-prague",
+    "title": "Psychoenergetic Laboratory",
+    "lang": "Czech",
+    "authors": [
+     "František Kahuda"
+    ],
+    "url": "https://cs.wikipedia.org/wiki/Psychoenergetick%C3%A1_laborato%C5%99",
+    "host": "wikipedia.org",
+    "domains": [
+     "Consciousness Studies",
+     "Radionics/Radiesthesia",
+     "Borderland Research"
+    ]
+   },
+   {
+    "id": "pavlita-biogenerators",
+    "title": "The Case of Biogenerators / Unknown Energy",
+    "lang": "Czech",
+    "authors": [
+     "Robert Pavlita"
+    ],
+    "url": "https://www.cestypsychotroniky.cz/index.php/2023/09/07/pripad-biogeneratoru/",
+    "host": "cestypsychotroniky.cz",
+    "domains": [
+     "Radionics/Radiesthesia",
+     "Consciousness Studies",
+     "Suppressed Technologies"
+    ]
+   },
+   {
+    "id": "kafka-psychology-foundations",
+    "title": "New Foundations of Experimental Psychology / Parapsychology",
+    "lang": "Czech",
+    "authors": [
+     "Břetislav Kafka"
+    ],
+    "url": "https://www.lecitel.com/bretislav-kafka-okno-do-sveta-nevysvetlitelneho/",
+    "host": "lecitel.com",
+    "domains": [
+     "Consciousness Studies",
+     "Morphic Fields"
+    ]
+   },
+   {
+    "id": "rychnowski-elektroid",
+    "title": "The Universal Power Prototype 'Eteroid' / Electroid",
+    "lang": "German",
+    "authors": [
+     "Franciszek Rychnowski"
+    ],
+    "url": "https://pl.wikipedia.org/wiki/Elektroid",
+    "host": "wikipedia.org",
+    "domains": [
+     "Aether Theories",
+     "Alternative Energy",
+     "Exotic Materials"
+    ]
+   },
+   {
+    "id": "maslowski-arft",
+    "title": "Adaptive Relational Field Theory (ARFT) v7.0",
+    "lang": "Polish",
+    "authors": [
+     "Szymon Masłowski"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.19023617",
+    "host": "Zenodo",
+    "domains": [
+     "Aether Theories",
+     "Gravity Control",
+     "Torsion Physics",
+     "Plasma Cosmology"
+    ]
+   },
+   {
+    "id": "spyridis-platonic-theory",
+    "title": "Platonic Theory of Everything and Spyridis' Unified Theory of Electro-Strong Interaction",
+    "lang": "Greek",
+    "authors": [
+     "H. Spyridis"
+    ],
+    "url": "http://users.uoa.gr/~hspyridis/THEORYOFEVRYTHING.pdf",
+    "host": "users.uoa.gr",
+    "domains": [
+     "Geometry & Harmonics",
+     "Aether Theories",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "karydianakis-pantachikinon",
+    "title": "A Synthesis of the Theory of Pantachikinon and Modern Electrodynamics",
+    "lang": "Greek",
+    "authors": [
+     "G. Karydianakis"
+    ],
+    "url": "https://geocities.ws/yliko2016/Karydianakis/mia_synthesi.pdf",
+    "host": "geocities.ws",
+    "domains": [
+     "Aether Theories",
+     "Alternative Energy",
+     "Geometry & Harmonics"
+    ]
+   },
+   {
+    "id": "chimpel-ether-x",
+    "title": "Ether-X: A Geometric Reformulation Without Dark Matter or Dark Energy",
+    "lang": "French",
+    "authors": [
+     "Eliot Chimpel"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.15188624",
+    "host": "Zenodo",
+    "domains": [
+     "Aether Theories",
+     "Plasma Cosmology",
+     "Gravity Control"
+    ]
+   },
+   {
+    "id": "toulgoat-theorie-phi",
+    "title": "Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies",
+    "lang": "French",
+    "authors": [
+     "Fabien Toulgoat"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.16728703",
+    "host": "Zenodo",
+    "domains": [
+     "Aether Theories",
+     "Gravity Control",
+     "Torsion Physics"
+    ]
+   },
+   {
+    "id": "burtin-portance-vide",
+    "title": "Inertial Buoyancy of the Vacuum and Cosmic Expansion",
+    "lang": "French",
+    "authors": [
+     "Guillaume Burtin"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.16873518",
+    "host": "Zenodo",
+    "domains": [
+     "Aether Theories",
+     "Plasma Cosmology"
+    ]
+   },
+   {
+    "id": "benaros-aether-d",
+    "title": "Matter and Æther D: Two Regimes of the Same State of Cohesion",
+    "lang": "French",
+    "authors": [
+     "Pierre Benaros"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.20829887",
+    "host": "Zenodo",
+    "domains": [
+     "Aether Theories",
+     "Gravity Control",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "deba-cosmology",
+    "title": "DEBA: A Complete Cosmology Without Postulates",
+    "lang": "French",
+    "authors": [],
+    "url": "https://zenodo.org/records/18033125",
+    "host": "Zenodo",
+    "domains": [
+     "Aether Theories",
+     "Plasma Cosmology",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "beauvais-benveniste-reinterpretation",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Francis Beauvais"
+    ],
+    "url": "https://doi.org/10.20944/preprints202301.0155.v4",
+    "host": "Preprints.org",
+    "domains": [
+     "Water Structure/Memory",
+     "Consciousness Studies",
+     "Borderland Research"
+    ]
+   },
+   {
+    "id": "goethean-approach-fr",
+    "title": "The Goethean Approach to Nature",
+    "lang": "French",
+    "authors": [],
+    "url": "https://www.bio-dynamie.org/comprendre-la-biodynamie/principes/approche-sensible-du-vivant/approche-goetheenne-de-la-nature/",
+    "host": "bio-dynamie.org",
+    "domains": [
+     "Goethean Science",
+     "Regenerative Agriculture",
+     "Formative Causation"
+    ]
+   },
+   {
+    "id": "goethean-methodology-substack",
+    "title": "The Goethean Approach, or the Art of Staying Before the Phenomenon",
+    "lang": "French",
+    "authors": [
+     "Alexandre Walnier"
+    ],
+    "url": "https://consciencehumaine.substack.com/p/lapproche-goetheenne-ou-lart-de-rester",
+    "host": "substack.com",
+    "domains": [
+     "Goethean Science",
+     "Consciousness Studies",
+     "Formative Causation"
+    ]
+   },
+   {
+    "id": "molecule-water-field",
+    "title": "Limits of Observation: Why 'Water Structure' Remains Invisible",
+    "lang": "Japanese",
+    "authors": [],
+    "url": "https://arijics.com/info/invisible-water-structure/",
+    "host": "arijics.com",
+    "domains": [
+     "Water Structure/Memory",
+     "Alternative Energy",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "us12715620-zpe-gravity",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [],
+    "url": "https://patents.google.com/patent/US12715620",
+    "host": "USPTO",
+    "domains": [
+     "Gravity Control",
+     "Zero-Point Energy",
+     "Plasma Devices"
+    ]
+   },
+   {
+    "id": "us12695000-structured-vacuum",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [],
+    "url": "https://patents.google.com/patent/US12695000",
+    "host": "USPTO",
+    "domains": [
+     "Vacuum Energy",
+     "Scalar Fields",
+     "Topological Modulation"
+    ]
+   },
+   {
+    "id": "us20260072053-brandenburg-coil",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "John Brandenburg"
+    ],
+    "url": "https://patents.google.com/patent/US20260072053A1",
+    "host": "USPTO",
+    "domains": [
+     "Gravity Control",
+     "Electromagnetic Fields"
+    ]
+   },
+   {
+    "id": "us20260081042-lenr-heater",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [],
+    "url": "https://patents.google.com/patent/US20260081042A1",
+    "host": "USPTO",
+    "domains": [
+     "LENR",
+     "Heat Generation"
+    ]
+   },
+   {
+    "id": "wo2026028231-rydberg-lenr",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [],
+    "url": "https://patents.google.com/patent/WO2026028231",
+    "host": "WIPO",
+    "domains": [
+     "LENR",
+     "Rydberg Matter",
+     "Casimir Cavities"
+    ]
+   },
+   {
+    "id": "cn202610320749-zpe-array",
+    "title": "Room-temp self-sustaining vacuum ZPE array generator",
+    "lang": "Chinese",
+    "authors": [
+     "Chu Guozheng"
+    ],
+    "url": "Chinese patent filing",
+    "host": "CNIPA",
+    "domains": [
+     "Zero-Point Energy",
+     "Casimir Effect"
+    ]
+   },
+   {
+    "id": "kz427254-fractal-s-parameter",
+    "title": "(same)",
+    "lang": "Russian",
+    "authors": [
+     "Yerzhan Orymbetov"
+    ],
+    "url": "Kazpatent priority",
+    "host": "Kazpatent",
+    "domains": [
+     "Gravity Control",
+     "Torsion Physics"
+    ]
+   },
+   {
+    "id": "bauer-postmodern-physics",
+    "title": "Postmodern Physics — Vortex Core Binding Energy",
+    "lang": "German",
+    "authors": [
+     "Wilhelm Moritz Bauer"
+    ],
+    "url": "https://www.norbertmoch.de/_physik_technik_kosmologie/Postmoderne_Physik,_Wilhelm_Bauer,_Text/Postmoderne_Physik,_Wilhelm_M._Bauer.htm",
+    "host": null,
+    "domains": [
+     "Vortex Physics",
+     "Aether Theory",
+     "Alternative Cosmology"
+    ]
+   },
+   {
+    "id": "waser-wirbelphysik-kompendium",
+    "title": "Compendium of Vortex Physics",
+    "lang": "German",
+    "authors": [
+     "André Waser"
+    ],
+    "url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf",
+    "host": null,
+    "domains": [
+     "Vortex Physics",
+     "Aether Dynamics",
+     "Implosion Technology"
+    ]
+   },
+   {
+    "id": "darpini-toroidal-vortices",
+    "title": "Toroidal Vortices: Matter, Gravity and Consciousness",
+    "lang": "Italian",
+    "authors": [
+     "Paolo D'Arpini"
+    ],
+    "url": "http://riciclaggiodellamemoria.blogspot.com/2018/03/i-vortici-toroidali-materia-gravita-e.html",
+    "host": null,
+    "domains": [
+     "Vortex Physics",
+     "Aether Theory",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "petti-water-consciousness",
+    "title": "Water as a Field of Consciousness",
+    "lang": "Italian",
+    "authors": [
+     "Natale Petti"
+    ],
+    "url": "https://biopsicoquantistica.it/lacqua-come-campo-di-coscienza/",
+    "host": null,
+    "domains": [
+     "Water Structure/Memory",
+     "Consciousness Studies",
+     "Quantum Electrodynamics"
+    ]
+   },
+   {
+    "id": "figueira-inteligencia-aguas",
+    "title": "The Intelligence of Water",
+    "lang": "Portuguese",
+    "authors": [
+     "Felipe Figueira"
+    ],
+    "url": "https://bambualeditora.com.br/p/a-inteligencia-das-aguas/",
+    "host": null,
+    "domains": [
+     "Water Structure/Memory",
+     "Vortex Physics",
+     "Ecological Water Management"
+    ]
+   },
+   {
+    "id": "cunha-geometria-eter",
+    "title": "The Geometry of the Ether: How Base-12 Mathematics Unlocks Free Energy",
+    "lang": "Portuguese",
+    "authors": [
+     "Renato Cunha"
+    ],
+    "url": "https://www.stylourbano.com.br/a-geometria-do-eter-como-a-matematica-base-12-desbloqueia-a-energia-livre-e-ilimitada/",
+    "host": null,
+    "domains": [
+     "Aether Theories",
+     "Alternative Energy",
+     "Geometry & Harmonics"
+    ]
+   },
+   {
+    "id": "bal-scalar-tesla",
+    "title": "Scalar Tesla Waves and New Horizons",
+    "lang": "Turkish",
+    "authors": [
+     "Çetin BAL"
+    ],
+    "url": "http://www.zamandayolculuk.com/html-1/skalertesladalga.htm",
+    "host": null,
+    "domains": [
+     "Alternative Energy",
+     "Scalar Waves",
+     "Electrogravitics"
+    ]
+   },
+   {
+    "id": "kim-viscoelastic-spacetime",
+    "title": "Viscoelastic Spacetime and Kim's Law",
+    "lang": "Korean",
+    "authors": [
+     "Chang Sik Kim"
+    ],
+    "url": "https://exa.ai/library/publication/g8dytsfyvp2",
+    "host": null,
+    "domains": [
+     "Aether Theory",
+     "Gravity Control",
+     "Alternative Cosmology"
+    ]
+   },
+   {
+    "id": "alhalabi-radiant-electricity",
+    "title": "Radiant Electricity — Extracting Energy from the Disturbance of the Aetheric Vacuum",
+    "lang": "Arabic",
+    "authors": [
+     "Alaa Al-Halabi"
+    ],
+    "url": "https://pdfkutub.co/science-nature-78/",
+    "host": null,
+    "domains": [
+     "Aether Physics",
+     "Alternative Energy",
+     "Tesla Technology"
+    ]
+   },
+   {
+    "id": "alhalabi-electric-ether",
+    "title": "Electric Ether (Electro-Aether)",
+    "lang": "Arabic",
+    "authors": [
+     "Alaa Al-Halabi"
+    ],
+    "url": "https://kttabpdf.com/watch/25646-الكهرواثير",
+    "host": null,
+    "domains": [
+     "Aether Physics",
+     "Alternative Energy",
+     "Suppressed Technology"
+    ]
+   },
+   {
+    "id": "manzalini-consciousness-qft",
+    "title": "Field and Quantum Potential of Consciousness",
+    "lang": "Italian",
+    "authors": [
+     "Antonio Manzalini"
+    ],
+    "url": "https://www.scienzebiofisiche.it/pubblicazioni/Campo%20e%20Potenziale%20Quantistico%20della%20Coscienza.pdf",
+    "host": null,
+    "domains": [
+     "Consciousness Studies",
+     "Quantum Field Theory",
+     "Biophysics"
+    ]
+   },
+   {
+    "id": "damante-torsion-spacetime",
+    "title": "Spacetime Torsion and Spiral Gravitation",
+    "lang": "Italian",
+    "authors": [
+     "Fabio Damante"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.15152663",
+    "host": null,
+    "domains": [
+     "Torsion Physics",
+     "Gravity Control",
+     "Spacetime Geometry"
+    ]
+   },
+   {
+    "id": "falace-creative-synchronism",
+    "title": "The Creative Synchronism Theory",
+    "lang": "Italian",
+    "authors": [
+     "Luca Falace"
+    ],
+    "url": "https://doi.org/10.5281/zenodo.17080308",
+    "host": null,
+    "domains": [
+     "Consciousness Studies",
+     "Unified Field Theory",
+     "Gravity Control"
+    ]
+   },
+   {
+    "id": "bulatov-torsion-study",
+    "title": "Study on Torsion Fields",
+    "lang": "German",
+    "authors": [
+     "Artur Bulatov"
+    ],
+    "url": "https://tervica.de/images/tervica/StudieTorsionfelder.pdf",
+    "host": null,
+    "domains": [
+     "Torsion Physics",
+     "Aether Physics",
+     "Consciousness"
+    ]
+   },
+   {
+    "id": "schadach-extended-em",
+    "title": "Energy Transfer from the Vacuum Field",
+    "lang": "German",
+    "authors": [
+     "D. Schadach"
+    ],
+    "url": "https://novam-research.com/resources/Extended-Theory-of-Electromagnetism_D-Schadach.pdf",
+    "host": null,
+    "domains": [
+     "Vacuum Field Energy",
+     "Torsion Waves",
+     "Longitudinal EM"
+    ]
+   },
+   {
+    "id": "furter-geopathic-stress",
+    "title": "Geopathic Stress Zones and Their Effects on Dairy Cow Health",
+    "lang": "German",
+    "authors": [
+     "L.M. Furter"
+    ],
+    "url": "https://doi.org/10.5167/uzh-44913",
+    "host": null,
+    "domains": [
+     "Radiesthesia",
+     "Scalar Waves",
+     "Geopathic Stress"
+    ]
+   },
+   {
+    "id": "osaka-water-spheres",
+    "title": "Water Sphere Experiments in Microgravity",
+    "lang": "Japanese",
+    "authors": [
+     "Takuro Osaka"
+    ],
+    "url": "https://doi.org/10.3169/itej.65.1565",
+    "host": null,
+    "domains": [
+     "Water Structure/Memory",
+     "Fluid Dynamics",
+     "Microgravity"
+    ]
+   },
+   {
+    "id": "hagura-ionospheric-storms",
+    "title": "Research on Ionospheric Storms",
+    "lang": "Japanese",
+    "authors": [
+     "Yukio Hagura"
+    ],
+    "url": "https://doi.org/10.14989/161926",
+    "host": null,
+    "domains": [
+     "Ionospheric Physics",
+     "Solar-Terrestrial Relations"
+    ]
+   },
+   {
+    "id": "etkin-alternative-light-theory",
+    "title": "Alternative to the Electromagnetic Theory of Light",
+    "lang": "Russian",
+    "authors": [
+     "Valery Etkin"
+    ],
+    "url": "https://cyberleninka.ru/article/n/alternativa-elektromagnitnoy-teorii-sveta",
+    "host": null,
+    "domains": [
+     "Aether Theory",
+     "Alternative Cosmology"
+    ]
+   },
+   {
+    "id": "palenko-world-ether",
+    "title": "Does the World Ether Exist?",
+    "lang": "Russian",
+    "authors": [
+     "Nikolai Palenko"
+    ],
+    "url": "https://cyberleninka.ru/article/n/suschestvuet-li-mirovoy-efir",
+    "host": null,
+    "domains": [
+     "Aether Theory",
+     "Gravitation",
+     "Sagnac Effect"
+    ]
+   },
+   {
+    "id": "skoropad-torsion-fields",
+    "title": "Torsion Fields",
+    "lang": "Russian",
+    "authors": [
+     "G.Yu. Skoropad"
+    ],
+    "url": "http://essuir.sumdu.edu.ua/handle/123456789/4092",
+    "host": null,
+    "domains": [
+     "Torsion Physics",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "slavutsky-unified-cosmology",
+    "title": "Unified Wave Cosmological Model",
+    "lang": "Russian",
+    "authors": [
+     "Gleb Slavutsky"
+    ],
+    "url": "https://doi.org/10.24108/preprints-3114026",
+    "host": null,
+    "domains": [
+     "Cosmology",
+     "Cyclic Universe"
+    ]
+   },
+   {
+    "id": "konjevic-zero-consumption-motor",
+    "title": "Zero-Consumption Motor",
+    "lang": "Spanish",
+    "authors": [
+     "Bozidar Konjevic"
+    ],
+    "url": "https://www.locosporvalencia.com/2025/11/bozidar-konjevic-el-inventor-del-motor.html",
+    "host": null,
+    "domains": [
+     "Alternative Energy",
+     "Suppressed Technologies"
+    ]
+   },
+   {
+    "id": "shkatov-torsion-detection",
+    "title": "Detection of Torsion Fields",
+    "lang": "Russian",
+    "authors": [
+     "V.T. Shkatov"
+    ],
+    "url": "http://www.vixri.ru/d/Shkatov%20V.T.%20_Detektirovanie%20torsionnyx%20polej.pdf",
+    "host": "vixri.ru",
+    "domains": [
+     "Torsion Physics",
+     "Experimental"
+    ]
+   },
+   {
+    "id": "samokhvalov-torsion-experiments",
+    "title": "Experimental Confirmation of Torsion Field Effects",
+    "lang": "Russian",
+    "authors": [
+     "V.N. Samokhvalov"
+    ],
+    "url": "https://www.trinitas.ru/rus/doc/0231/004a/02311017.htm",
+    "host": "trinitas.ru",
+    "domains": [
+     "Torsion Physics",
+     "Experimental"
+    ]
+   },
+   {
+    "id": "east-tokamak-403-second-plasma",
+    "title": "EAST Superconducting Tokamak: 403-Second Steady-State Plasma Operation",
+    "lang": "Chinese",
+    "authors": [
+     "Gong Xianzhu"
+    ],
+    "url": "https://news.gzculture.net/gdft/zhuanjiaxuezhe/24569.html",
+    "host": "gzculture.net",
+    "domains": [
+     "Plasma Physics",
+     "Nuclear Fusion",
+     "Alternative Energy"
+    ]
+   },
+   {
+    "id": "suzin-radiesthesia-hospital",
+    "title": "Implementation of Radiesthesia Radionics in Integrative Medicine Outpatient Clinic",
+    "lang": "Portuguese",
+    "authors": [
+     "Joseli Beatriz Suzin"
+    ],
+    "url": "https://periodicos.newsciencepubl.com/arace/article/view/13121",
+    "host": null,
+    "domains": [
+     "Radionics/Radiesthesia",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "keppe-motor-resonant",
+    "title": "The Keppe Motor: Resonant Motor Technology from Inverted Physics",
+    "lang": "Portuguese",
+    "authors": [
+     "Norberto Keppe",
+     "Cesar Soós",
+     "Roberto Frascari"
+    ],
+    "url": "https://www.keppemotor.com/institucional/o-que-e-o-keppe-motor/",
+    "host": "keppemotor.com",
+    "domains": [
+     "Alternative Energy",
+     "Scalar Energy",
+     "Tesla Studies"
+    ]
+   },
+   {
+    "id": "herbrand-schauberger-turbine-analysis",
+    "title": "Dynamic Hydroelectric Energy — Viktor Schauberger's Suction Turbine",
+    "lang": "Spanish",
+    "authors": [
+     "Ludwig Herbrand"
+    ],
+    "url": "http://giurfa.com/schauberger.pdf",
+    "host": "giurfa.com",
+    "domains": [
+     "Water Structure/Memory",
+     "Alternative Energy",
+     "Vortex Technology"
+    ]
+   },
+   {
+    "id": "kim-pak-torsion-quantum-gravity",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Sang-Woo Kim",
+     "D.G. Pak"
+    ],
+    "url": "https://doi.org/10.1088/0264-9381/25/6/065011",
+    "host": "iop.org",
+    "domains": [
+     "Torsion Physics",
+     "Quantum Gravity",
+     "Gravity Control"
+    ]
+   },
+   {
+    "id": "lubawy-elf-detection",
+    "title": "Human as Detector of ELF Electromagnetic Fields",
+    "lang": "Polish",
+    "authors": [
+     "Henryk Lubawy"
+    ],
+    "url": "http://radionika.ugu.pl/problemy76.htm",
+    "host": "radionika.ugu.pl",
+    "domains": [
+     "Radionics/Radiesthesia",
+     "Consciousness Studies"
+    ]
+   },
+   {
+    "id": "stavek-lenr-electron-catalysis",
+    "title": "(same)",
+    "lang": "English",
+    "authors": [
+     "Jiří Stávek"
+    ],
+    "url": "https://doi.org/10.24018/ejphysics.2025.7.3.379",
+    "host": null,
+    "domains": [
+     "LENR/Cold Fusion",
+     "Nuclear Physics"
+    ]
+   },
+   {
+    "id": "kozyrev-time-ether-science",
+    "title": "Russian Physicist N.A. Kozyrev: Ether and Time Science",
+    "lang": "Turkish",
+    "authors": [
+     "Nikolai A. Kozyrev"
+    ],
+    "url": "https://www.leventaslan.com/tr-TR/bilimsel/rus-fizikci-nikolai-a-kozyrev-ile-eter-ve-zaman-bilimi",
+    "host": "leventaslan.com",
+    "domains": [
+     "Aether Physics",
+     "Torsion Physics",
+     "Consciousness Studies",
+     "Time Physics"
+    ]
+   },
+   {
+    "id": "manzalini-consciousness-quantum-field",
+    "title": "Field and Quantum Potential of Consciousness",
+    "lang": "Italian",
+    "authors": [
+     "Antonio Manzalini"
+    ],
+    "url": "https://www.scienzebiofisiche.it/pubblicazioni/Campo%20e%20Potenziale%20Quantistico%20della%20Coscienza.pdf",
+    "host": null,
+    "domains": [
+     "Consciousness Studies",
+     "Quantum Field Theory",
+     "Biophysics"
+    ]
+   },
+   {
+    "id": "schadach-vacuum-field-energy",
+    "title": "Energy Transfer from the Vacuum Field is Based on Non-Transverse Electromagnetic Effects",
+    "lang": "German",
+    "authors": [
+     "D. Schadach"
+    ],
+    "url": "https://novam-research.com/resources/Extended-Theory-of-Electromagnetism_D-Schadach.pdf",
+    "host": "novam-research.com",
+    "domains": [
+     "Vacuum Field Energy",
+     "Torsion Physics",
+     "Longitudinal EM Waves"
+    ]
+   },
+   {
+    "id": "bauer-vortex-physics",
+    "title": "Postmodern Physics — Vortex Core Binding Energy",
+    "lang": "German",
+    "authors": [
+     "Wilhelm Moritz Bauer"
+    ],
+    "url": "https://www.norbertmoch.de/_physik_technik_kosmologie/Postmoderne_Physik,_Wilhelm_Bauer,_Text/Postmoderne_Physik,_Wilhelm_M._Bauer.htm",
+    "host": "norbertmoch.de",
+    "domains": [
+     "Vortex Physics",
+     "Aether Theory",
+     "Alternative Cosmology"
+    ]
+   },
+   {
+    "id": "waser-vortex-compendium",
+    "title": "Compendium of Vortex Physics",
+    "lang": "German",
+    "authors": [
+     "André Waser"
+    ],
+    "url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf",
+    "host": "buch-der-synergie.de",
+    "domains": [
+     "Vortex Physics",
+     "Aether Dynamics",
+     "Free Energy"
+    ]
+   }
+  ],
+  "translation": [
+   {
+    "id": "t_compendium-vortex-physics-de",
+    "title": "Compendium of Vortex Physics (Schauberger)",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-05-compendium-vortex-physics-de.md"
+   },
+   {
+    "id": "t_acqua-viva-schauberger-it",
+    "title": "Acqua Viva — Viktor Schauberger",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-05-acqua-viva-schauberger-it.md"
+   },
+   {
+    "id": "t_vortex-motor-negentropic-propulsion-es",
+    "title": "Vortex Motor Negentropic Propulsion",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-04-vortex-motor-negentropic-propulsion-es.md"
+   },
+   {
+    "id": "t_tuo-theory-fr-en",
+    "title": "TUO - Theorie de l'Univers Onde (FR→EN)",
+    "lang": "fr",
+    "source_url": "https://doi.org/10.5281/zenodo.17311741",
+    "domain": "cosmology",
+    "file": "2026-09-04-tuo-theory-fr-en.md"
+   },
+   {
+    "id": "t_spyridis-theory-of-everything-el-en",
+    "title": "Spyridis - Platonic Theory of Everything and Unified Theory of Electro-Strong Interaction (EL→EN)",
+    "lang": "el",
+    "source_url": "http://users.uoa.gr/~hspyridis/THEORYOFEVRYTHING.pdf",
+    "domain": "unified-theory",
+    "file": "2026-09-04-spyridis-theory-of-everything-el-en.md"
+   },
+   {
+    "id": "t_shipov-torsion-fields-ru-en",
+    "title": "Shipov - Torsion Fields and Torsion Technologies (RU→EN)",
+    "lang": "ru",
+    "source_url": "http://einsteinandtesla.com/files/070313-spin-tors-1.pdf",
+    "domain": "torsion-fields",
+    "file": "2026-09-04-shipov-torsion-fields-ru-en.md"
+   },
+   {
+    "id": "t_vortex-motor-negentropic-propulsion-es",
+    "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-vortex-motor-negentropic-propulsion-es.md"
+   },
+   {
+    "id": "t_tuo-classical-formalism-fr",
+    "title": "2026-09-03-tuo-classical-formalism-fr",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-tuo-classical-formalism-fr.md"
+   },
+   {
+    "id": "t_torsion-physics-newton-present-ru",
+    "title": "2026-09-03-torsion-physics-newton-present-ru",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-torsion-physics-newton-present-ru.md"
+   },
+   {
+    "id": "t_theorie-univers-onde-fr",
+    "title": "2026-09-03-theorie-univers-onde-fr",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-theorie-univers-onde-fr.md"
+   },
+   {
+    "id": "t_theorie-phi-scalar-field-fr",
+    "title": "2026-09-03-theorie-phi-scalar-field-fr",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-theorie-phi-scalar-field-fr.md"
+   },
+   {
+    "id": "t_tesla-patents-radiant-energy-fr",
+    "title": "2026-09-03-tesla-patents-radiant-energy-fr",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-tesla-patents-radiant-energy-fr.md"
+   },
+   {
+    "id": "t_study-torsion-fields-de",
+    "title": "2026-09-03-study-torsion-fields-de",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-study-torsion-fields-de.md"
+   },
+   {
+    "id": "t_shipov-torsion-fields-ru",
+    "title": "2026-09-03-shipov-torsion-fields-ru",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-shipov-torsion-fields-ru.md"
+   },
+   {
+    "id": "t_schauberger-luxembourg-patent-1951-de",
+    "title": "Schauberger 1951 Luxembourg Patent — Method for Controlling Molecular Processes",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-schauberger-luxembourg-patent-1951-de.md"
+   },
+   {
+    "id": "t_psicogeometria-materia-energia-es",
+    "title": "2026-09-03-psicogeometria-materia-energia-es",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-psicogeometria-materia-energia-es.md"
+   },
+   {
+    "id": "t_prometheus-lenr-reactor-it",
+    "title": "2026-09-03-prometheus-lenr-reactor-it",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-prometheus-lenr-reactor-it.md"
+   },
+   {
+    "id": "t_platonic-theory-of-everything-el",
+    "title": "2026-09-03-platonic-theory-of-everything-el",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-platonic-theory-of-everything-el.md"
+   },
+   {
+    "id": "t_magnitsky-gravity-compressible-ether-ru",
+    "title": "2026-09-03-magnitsky-gravity-compressible-ether-ru",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-magnitsky-gravity-compressible-ether-ru.md"
+   },
+   {
+    "id": "t_field-quantum-potential-consciousness-it",
+    "title": "2026-09-03-field-quantum-potential-consciousness-it",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-field-quantum-potential-consciousness-it.md"
+   },
+   {
+    "id": "t_del-giudice-pollack-fourth-phase-water-it",
+    "title": "2026-09-03-del-giudice-pollack-fourth-phase-water-it",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-del-giudice-pollack-fourth-phase-water-it.md"
+   },
+   {
+    "id": "t_compendium-vortex-physics-de",
+    "title": "2026-09-03-compendium-vortex-physics-de",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-compendium-vortex-physics-de.md"
+   },
+   {
+    "id": "t_brazilian-scalar-generator-pt",
+    "title": "2026-09-03-brazilian-scalar-generator-pt",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-brazilian-scalar-generator-pt.md"
+   },
+   {
+    "id": "t_akimov-shipov-torsion-field-ru",
+    "title": "2026-09-03-akimov-shipov-torsion-field-ru",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-03-akimov-shipov-torsion-field-ru.md"
+   },
+   {
+    "id": "t_study-torsion-fields-de",
+    "title": "2026-09-02-study-torsion-fields-de",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-02-study-torsion-fields-de.md"
+   },
+   {
+    "id": "t_study-on-torsion-fields-de",
+    "title": "study-on-torsion-fields",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-02-study-on-torsion-fields-de.md"
+   },
+   {
+    "id": "t_spyridis-platonic-theory-of-everything-el",
+    "title": "2026-09-02-spyridis-platonic-theory-of-everything-el",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-02-spyridis-platonic-theory-of-everything-el.md"
+   },
+   {
+    "id": "t_extended-theory-of-electromagnetism-de-en",
+    "title": "Extended Theory of Electromagnetism",
+    "lang": "de",
+    "source_url": "https://novam-research.com/resources/Extended-Theory-of-Electromagnetism_D-Schadach.pdf",
+    "domain": "electromagnetism, gauge theory, vacuum field physics",
+    "file": "2026-09-02-extended-theory-of-electromagnetism-de-en.md"
+   },
+   {
+    "id": "t_scalar-field-galactic-rotation",
+    "title": "scalar-field-galactic-rotation",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-01-scalar-field-galactic-rotation.md"
+   },
+   {
+    "id": "t_field-quantum-potential-consciousness-it",
+    "title": "Field and Quantum Potential of Consciousness",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-09-01-field-quantum-potential-consciousness-it.md"
+   },
+   {
+    "id": "t_tuo-wave-universe-theory-fr",
+    "title": "TUO — Wave Universe Theory (French source)",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-31-tuo-wave-universe-theory-fr.md"
+   },
+   {
+    "id": "t_shipov-torsion-fields-technologies-ru",
+    "title": "Shipov — Torsion Fields and Torsion Technologies",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-31-shipov-torsion-fields-technologies-ru.md"
+   },
+   {
+    "id": "t_compendium-vortex-physics-complete-de",
+    "title": "Compendium of Vortex Physics (Schauberger) - Complete Translation",
+    "lang": "German",
+    "source_url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf",
+    "domain": "vortex-physics",
+    "file": "2026-08-31-compendium-vortex-physics-complete-de.md"
+   },
+   {
+    "id": "t_tesla-radiant-energy-patents-chercheursduvrai-fr",
+    "title": "Chercheurs Du Vrai",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md"
+   },
+   {
+    "id": "t_prometheus-lenr-reactor-it",
+    "title": "Prometheus LENR Reactor UM 3.0",
+    "lang": "it",
+    "source_url": "https://www.prometheusreactor.com/",
+    "domain": "lenr-energy",
+    "file": "2026-08-30-prometheus-lenr-reactor-it.md"
+   },
+   {
+    "id": "t_magnitsky-gravity-compressible-ether",
+    "title": "Gravity in the Theory of Compressible Oscillating Ether",
+    "lang": "ru",
+    "source_url": "https://newinflow.ru/pdf/pub28.pdf",
+    "domain": "theoretical-physics",
+    "file": "2026-08-30-magnitsky-gravity-compressible-ether.md"
+   },
+   {
+    "id": "t_del-giudice-pollack-fourth-phase-water-it",
+    "title": "Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water",
+    "lang": "Italian",
+    "source_url": "https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/",
+    "domain": "water-physics, biophysics, quantum-coherence",
+    "file": "2026-08-30-del-giudice-pollack-fourth-phase-water-it.md"
+   },
+   {
+    "id": "t_del-giudice-pollack-ez-water-it",
+    "title": "Link to Facebook. Link to X. Link to YouTube. Link to Instagram.",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-30-del-giudice-pollack-ez-water-it.md"
+   },
+   {
+    "id": "t_compendium-vortex-physics-de",
+    "title": "Compendium of Vortex Physics (Part 1)",
+    "lang": "de",
+    "source_url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf",
+    "domain": "vortex-physics",
+    "file": "2026-08-30-compendium-vortex-physics-de.md"
+   },
+   {
+    "id": "t_brazilian-scalar-energy-generator-pt",
+    "title": "WO2013155580A1 — Apparatus for Scalar Energy Generation — Google Patents. Apparatus for Sc…",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-30-brazilian-scalar-energy-generator-pt.md"
+   },
+   {
+    "id": "t_what-is-scalar-energy-fr",
+    "title": "What Is Scalar Energy?",
+    "lang": "fr",
+    "source_url": "https://ondulavi.com/quest-ce-que-lenergie-scalaire/",
+    "domain": "alternative energy, scalar waves, aether theories",
+    "file": "2026-08-29-what-is-scalar-energy-fr.md"
+   },
+   {
+    "id": "t_univers-sans-matiere-noire-chardin-fr-en",
+    "title": "A Universe Without Dark Matter?",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-29-univers-sans-matiere-noire-chardin-fr-en.md"
+   },
+   {
+    "id": "t_tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr",
+    "title": "TUO Classical Formalism - From Maxwell Einstein to Vacuum Tension Tv",
+    "lang": "fr",
+    "source_url": "https://zenodo.org/api/records/17311989/files/1_V.1.1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf/content",
+    "domain": "ether-physics",
+    "file": "2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md"
+   },
+   {
+    "id": "t_theorie-univers-onde-tuo-fr",
+    "title": "Skip to main",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-29-theorie-univers-onde-tuo-fr.md"
+   },
+   {
+    "id": "t_spyridis-platonic-theory-of-everything-el",
+    "title": "The Platonic Theory of Everything and",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-29-spyridis-platonic-theory-of-everything-el.md"
+   },
+   {
+    "id": "t_sacred-geometry-matter-energy-qualities-es",
+    "title": "Sacred Geometry: Geometric Qualities of Matter and Energy",
+    "lang": "es",
+    "source_url": "https://psicogeometria.com/geometriasagrada4-1.html",
+    "domain": "sacred_geometry",
+    "file": "2026-08-29-sacred-geometry-matter-energy-qualities-es.md"
+   },
+   {
+    "id": "t_psicogeometria-geometry-matter-energy-es",
+    "title": "Sacred Geometry",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-29-psicogeometria-geometry-matter-energy-es.md"
+   },
+   {
+    "id": "t_ondes-de-forme-vibratis-fr-en",
+    "title": "Form Waves: Meaning, Use, and Benefits (Vibratis)",
+    "lang": "fr",
+    "source_url": "https://vibratis.fr/ondes-de-forme/",
+    "domain": "radiesthesia",
+    "file": "2026-08-29-ondes-de-forme-vibratis-fr-en.md"
+   },
+   {
+    "id": "t_ondes-de-forme-centre-ganesha-fr-en",
+    "title": "Form Waves: Origin, Principles, and Controversies",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md"
+   },
+   {
+    "id": "t_magnitsky-gravity-compressible-ether-ru",
+    "title": "Magnitsky - Gravity in Compressible Oscillating Ether Theory",
+    "lang": "ru",
+    "source_url": "https://newinflow.ru/pdf/pub28.pdf",
+    "domain": "ether-physics",
+    "file": "2026-08-29-magnitsky-gravity-compressible-ether-ru.md"
+   },
+   {
+    "id": "t_hotie-viviane-broceliande-fr-en",
+    "title": "Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35",
+    "lang": "fr",
+    "source_url": "https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99",
+    "domain": "geobiology",
+    "file": "2026-08-29-hotie-viviane-broceliande-fr-en.md"
+   },
+   {
+    "id": "t_ether-einstein-constante-cosmologique-fr-en",
+    "title": "Einstein, the Ether, and the Cosmological Constant",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-29-ether-einstein-constante-cosmologique-fr-en.md"
+   },
+   {
+    "id": "t_enel-lettre-crocodile-fr-en",
+    "title": "Enel (Prince Michel Vladimirovich Skariatine, 1883-1963): A Life at the Crossroads of Science and Tradition",
+    "lang": "fr",
+    "source_url": "https://lettreducrocodile.over-blog.net/2020/04/enel.html",
+    "domain": "radiesthesia",
+    "file": "2026-08-29-enel-lettre-crocodile-fr-en.md"
+   },
+   {
+    "id": "t_torsion-physics-newton-to-present-ru",
+    "title": "ACADEMY OF TRINITARIANISM",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-28-torsion-physics-newton-to-present-ru.md"
+   },
+   {
+    "id": "t_theorie-phi-scalar-field-fr",
+    "title": "Rigorous study of a light scalar field coupled to matter in galaxies:…",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-28-theorie-phi-scalar-field-fr.md"
+   },
+   {
+    "id": "t_shipov-torsion-fields-torsion-technologies-ru",
+    "title": "TORSION FIELDS AND TORSION TECHNOLOGIES.1",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md"
+   },
+   {
+    "id": "t_magnitsky-gravity-ether-ru",
+    "title": "Magnitsky, 2019",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-28-magnitsky-gravity-ether-ru.md"
+   },
+   {
+    "id": "t_tuo-vacuum-tension-fr",
+    "title": "Wave Universe Theory (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant…",
+    "lang": "French",
+    "source_url": "https://doi.org/10.5281/zenodo.17311741",
+    "domain": "",
+    "file": "2026-08-26-tuo-vacuum-tension-fr.md"
+   },
+   {
+    "id": "t_sweeper-ru",
+    "title": "STPK: Mechanism of Cold Fusion (LENR) as Coherent Reassembly of Proton Loops",
+    "lang": "Russian",
+    "source_url": "https://doi.org/10.24108/preprints-3115604",
+    "domain": "",
+    "file": "2026-08-26-sweeper-ru.md"
+   },
+   {
+    "id": "t_sweeper-it",
+    "title": "Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-26-sweeper-it.md"
+   },
+   {
+    "id": "t_sweeper-fr",
+    "title": "Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacu…",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-25-sweeper-fr.md"
+   },
+   {
+    "id": "t_atsyukovsky-etherodynamics-ru",
+    "title": "Translation: Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5",
+    "lang": "",
+    "source_url": "",
+    "domain": "",
+    "file": "2026-08-25-atsyukovsky-etherodynamics-ru.md"
+   }
+  ]
+ },
+ "edges": [
+  {
+   "type": "authored_by",
+   "from": "work:atsyukovsky-foundations-bk5",
+   "to": "person:atsyukovsky-va"
+  },
+  {
+   "type": "domain",
+   "from": "work:atsyukovsky-foundations-bk5",
+   "to": "concept:Aether Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:atsyukovsky-foundations-bk5",
+   "to": "concept:Energy Generation"
+  },
+  {
+   "type": "domain",
+   "from": "work:atsyukovsky-foundations-bk5",
+   "to": "concept:Electromagnetism"
+  },
+  {
+   "type": "domain",
+   "from": "work:atsyukovsky-foundations-bk5",
+   "to": "concept:Environmental"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:schauberger-implosion-magazine",
+   "to": "person:schauberger-viktor"
+  },
+  {
+   "type": "domain",
+   "from": "work:schauberger-implosion-magazine",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:schauberger-implosion-magazine",
+   "to": "concept:Water Structure"
+  },
+  {
+   "type": "domain",
+   "from": "work:schauberger-implosion-magazine",
+   "to": "concept:Vortex Technology"
+  },
+  {
+   "type": "domain",
+   "from": "work:schauberger-implosion-magazine",
+   "to": "concept:Natural Philosophy"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:akimov-shipov-torsion-fields",
+   "to": "person:akimov-ae"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:akimov-shipov-torsion-fields",
+   "to": "person:shipov-gi"
+  },
+  {
+   "type": "domain",
+   "from": "work:akimov-shipov-torsion-fields",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:akimov-shipov-torsion-fields",
+   "to": "concept:Aether Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:akimov-shipov-torsion-fields",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:iguchi-forgotten-free-energy",
+   "to": "person:iguchi-kazumoto"
+  },
+  {
+   "type": "domain",
+   "from": "work:iguchi-forgotten-free-energy",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:iguchi-forgotten-free-energy",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:iguchi-forgotten-free-energy",
+   "to": "concept:Tesla Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:tokyo-univ-tesla-turbine",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:tokyo-univ-tesla-turbine",
+   "to": "concept:Exotic Materials"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:implosion-ev-archive",
+   "to": "person:schauberger-viktor"
+  },
+  {
+   "type": "domain",
+   "from": "work:implosion-ev-archive",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:implosion-ev-archive",
+   "to": "concept:Water Structure"
+  },
+  {
+   "type": "domain",
+   "from": "work:implosion-ev-archive",
+   "to": "concept:Vortex Technology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:cosentino-einstein-cartan-thesis",
+   "to": "person:cosentino-angelo"
+  },
+  {
+   "type": "domain",
+   "from": "work:cosentino-einstein-cartan-thesis",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:cosentino-einstein-cartan-thesis",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:gingerino-ring-laser",
+   "to": "person:ginger-team"
+  },
+  {
+   "type": "domain",
+   "from": "work:gingerino-ring-laser",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:gingerino-ring-laser",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:gingerino-ring-laser",
+   "to": "concept:Frame Dragging"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:ether-x-cosmology",
+   "to": "person:chimpel-eliot"
+  },
+  {
+   "type": "domain",
+   "from": "work:ether-x-cosmology",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:ether-x-cosmology",
+   "to": "concept:Plasma Cosmology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:theorie-phi",
+   "to": "person:toulgoat-fabien"
+  },
+  {
+   "type": "domain",
+   "from": "work:theorie-phi",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:theorie-phi",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:nano-confined-water-jacs",
+   "to": "person:tadokoro-makoto"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:nano-confined-water-jacs",
+   "to": "person:kobayashi-fumiya"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:nano-confined-water-jacs",
+   "to": "person:namiki-tomoya"
+  },
+  {
+   "type": "domain",
+   "from": "work:nano-confined-water-jacs",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:nano-confined-water-jacs",
+   "to": "concept:Exotic Materials"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:chiral-water-ice3",
+   "to": "person:shinya-hiroaki"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:chiral-water-ice3",
+   "to": "person:kimura-yuki"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:chiral-water-ice3",
+   "to": "person:nada-hiroki"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:chiral-water-ice3",
+   "to": "person:haba-tetsuya"
+  },
+  {
+   "type": "domain",
+   "from": "work:chiral-water-ice3",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:chiral-water-ice3",
+   "to": "concept:Exotic Materials"
+  },
+  {
+   "type": "domain",
+   "from": "work:chiral-water-ice3",
+   "to": "concept:Geometry & Harmonics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:evaporation-microrods",
+   "to": "person:wu-miao"
+  },
+  {
+   "type": "domain",
+   "from": "work:evaporation-microrods",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:evaporation-microrods",
+   "to": "concept:Water-Energy Nexus"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:stpk-lenr-model",
+   "to": "person:lebedkin-valentin"
+  },
+  {
+   "type": "domain",
+   "from": "work:stpk-lenr-model",
+   "to": "concept:LENR"
+  },
+  {
+   "type": "domain",
+   "from": "work:stpk-lenr-model",
+   "to": "concept:Cold Fusion"
+  },
+  {
+   "type": "domain",
+   "from": "work:stpk-lenr-model",
+   "to": "concept:Quantum Coherence"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:magnitsky-ether-gravity",
+   "to": "person:magnitsky-nikolai"
+  },
+  {
+   "type": "domain",
+   "from": "work:magnitsky-ether-gravity",
+   "to": "concept:Aether Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:magnitsky-ether-gravity",
+   "to": "concept:Gravity Theory"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:benveniste-reinterpretation",
+   "to": "person:beauvais-francis"
+  },
+  {
+   "type": "domain",
+   "from": "work:benveniste-reinterpretation",
+   "to": "concept:Water Structure"
+  },
+  {
+   "type": "domain",
+   "from": "work:benveniste-reinterpretation",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:boudet-tesla-ether",
+   "to": "person:boudet-alain"
+  },
+  {
+   "type": "domain",
+   "from": "work:boudet-tesla-ether",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:boudet-tesla-ether",
+   "to": "concept:Tesla Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:boudet-tesla-ether",
+   "to": "concept:Scalar Waves"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:janus-cosmology",
+   "to": "person:petit-jean-pierre"
+  },
+  {
+   "type": "domain",
+   "from": "work:janus-cosmology",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:janus-cosmology",
+   "to": "concept:Plasma Cosmology"
+  },
+  {
+   "type": "domain",
+   "from": "work:janus-cosmology",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:turtur-vacuum-energy-conversion",
+   "to": "person:turtur-claus"
+  },
+  {
+   "type": "domain",
+   "from": "work:turtur-vacuum-energy-conversion",
+   "to": "concept:Zero-Point Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:turtur-vacuum-energy-conversion",
+   "to": "concept:Vacuum Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:turtur-vacuum-energy-conversion",
+   "to": "concept:Casimir Effect"
+  },
+  {
+   "type": "domain",
+   "from": "work:turtur-vacuum-energy-conversion",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:zaitsev-bychkov-ether-mechanics",
+   "to": "person:zaitsev-fs"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:zaitsev-bychkov-ether-mechanics",
+   "to": "person:bychkov-vl"
+  },
+  {
+   "type": "domain",
+   "from": "work:zaitsev-bychkov-ether-mechanics",
+   "to": "concept:Aether Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:zaitsev-bychkov-ether-mechanics",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:zaitsev-bychkov-ether-mechanics",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:meyl-scalar-wave-docs",
+   "to": "person:meyl-konstantin"
+  },
+  {
+   "type": "domain",
+   "from": "work:meyl-scalar-wave-docs",
+   "to": "concept:Scalar Waves"
+  },
+  {
+   "type": "domain",
+   "from": "work:meyl-scalar-wave-docs",
+   "to": "concept:Tesla Technology"
+  },
+  {
+   "type": "domain",
+   "from": "work:meyl-scalar-wave-docs",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:kaznacheev-trofimov-kozyrev-mirrors",
+   "to": "person:kaznacheev-vlail"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:kaznacheev-trofimov-kozyrev-mirrors",
+   "to": "person:trofimov-alexander"
+  },
+  {
+   "type": "domain",
+   "from": "work:kaznacheev-trofimov-kozyrev-mirrors",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:kaznacheev-trofimov-kozyrev-mirrors",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:kaznacheev-trofimov-kozyrev-mirrors",
+   "to": "concept:Morphic Fields"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:li-sih-sen-torsion-science",
+   "to": "person:li-sih-sen"
+  },
+  {
+   "type": "domain",
+   "from": "work:li-sih-sen-torsion-science",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:li-sih-sen-torsion-science",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:li-sih-sen-torsion-science",
+   "to": "concept:Qi/氣"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:iguchi-scalar-wave-theory",
+   "to": "person:iguchi-kazumoto"
+  },
+  {
+   "type": "domain",
+   "from": "work:iguchi-scalar-wave-theory",
+   "to": "concept:Scalar Waves"
+  },
+  {
+   "type": "domain",
+   "from": "work:iguchi-scalar-wave-theory",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:iguchi-scalar-wave-theory",
+   "to": "concept:Tesla Technology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:rivero-vortex-motor-mvp",
+   "to": "person:rivero-juan"
+  },
+  {
+   "type": "domain",
+   "from": "work:rivero-vortex-motor-mvp",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:rivero-vortex-motor-mvp",
+   "to": "concept:Water Structure"
+  },
+  {
+   "type": "domain",
+   "from": "work:rivero-vortex-motor-mvp",
+   "to": "concept:Suppressed Technologies"
+  },
+  {
+   "type": "domain",
+   "from": "work:teslaphoresis-nanotubes",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:teslaphoresis-nanotubes",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:teslaphoresis-nanotubes",
+   "to": "concept:Exotic Materials"
+  },
+  {
+   "type": "domain",
+   "from": "work:teslaphoresis-nanotubes",
+   "to": "concept:Nanotechnology"
+  },
+  {
+   "type": "domain",
+   "from": "work:bladeless-tesla-turbine-2026",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:bladeless-tesla-turbine-2026",
+   "to": "concept:Suppressed Technologies"
+  },
+  {
+   "type": "domain",
+   "from": "work:bladeless-tesla-turbine-2026",
+   "to": "concept:Exotic Materials"
+  },
+  {
+   "type": "domain",
+   "from": "work:hyperbolic-water-vortices",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:hyperbolic-water-vortices",
+   "to": "concept:Regenerative Agriculture"
+  },
+  {
+   "type": "domain",
+   "from": "work:hyperbolic-water-vortices",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:viv-pendulum-ocean-energy",
+   "to": "person:huera-francisco"
+  },
+  {
+   "type": "domain",
+   "from": "work:viv-pendulum-ocean-energy",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:viv-pendulum-ocean-energy",
+   "to": "concept:Water Structure"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:phryll-generator-v4",
+   "to": "person:cedric-heliquantix"
+  },
+  {
+   "type": "domain",
+   "from": "work:phryll-generator-v4",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:phryll-generator-v4",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:phryll-generator-v4",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:scalar-wave-kit-fr",
+   "to": "person:antoine-d"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-wave-kit-fr",
+   "to": "concept:Radionics/Radiesthesia"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-wave-kit-fr",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-wave-kit-fr",
+   "to": "concept:Regenerative Agriculture"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-waves-fr-overview",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-waves-fr-overview",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-waves-fr-overview",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-energy-fr-overview",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-energy-fr-overview",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-energy-fr-overview",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:scalar-energy-fr-overview",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:zhang-scalar-potential-theory",
+   "to": "person:zhang-jinlong"
+  },
+  {
+   "type": "domain",
+   "from": "work:zhang-scalar-potential-theory",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:zhang-scalar-potential-theory",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:zhang-scalar-potential-theory",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:sun-taiji-unified-field",
+   "to": "person:sun-h"
+  },
+  {
+   "type": "domain",
+   "from": "work:sun-taiji-unified-field",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:sun-taiji-unified-field",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:sun-taiji-unified-field",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:sun-taiji-unified-field",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:li-gravitational-wave-derivation",
+   "to": "person:li-jitong"
+  },
+  {
+   "type": "domain",
+   "from": "work:li-gravitational-wave-derivation",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:li-gravitational-wave-derivation",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:li-gravitational-wave-derivation",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:pincak-black-hole-torsion",
+   "to": "person:pincak-richard"
+  },
+  {
+   "type": "domain",
+   "from": "work:pincak-black-hole-torsion",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:pincak-black-hole-torsion",
+   "to": "concept:Einstein-Cartan Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:pincak-black-hole-torsion",
+   "to": "concept:Black Hole Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:muon-catalyzed-fusion-q2",
+   "to": "person:yin-xiong"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:muon-catalyzed-fusion-q2",
+   "to": "person:kou-wei"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:muon-catalyzed-fusion-q2",
+   "to": "person:chen-xurong"
+  },
+  {
+   "type": "domain",
+   "from": "work:muon-catalyzed-fusion-q2",
+   "to": "concept:LENR"
+  },
+  {
+   "type": "domain",
+   "from": "work:muon-catalyzed-fusion-q2",
+   "to": "concept:Muon-Catalyzed Fusion"
+  },
+  {
+   "type": "domain",
+   "from": "work:muon-catalyzed-fusion-q2",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:takahashi-fusion-heater",
+   "to": "person:takahashi-akito"
+  },
+  {
+   "type": "domain",
+   "from": "work:takahashi-fusion-heater",
+   "to": "concept:LENR"
+  },
+  {
+   "type": "domain",
+   "from": "work:takahashi-fusion-heater",
+   "to": "concept:Cold Fusion"
+  },
+  {
+   "type": "domain",
+   "from": "work:takahashi-fusion-heater",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:cosmic-magnetic-field-dynamo",
+   "to": "person:tripathi-bindesh"
+  },
+  {
+   "type": "domain",
+   "from": "work:cosmic-magnetic-field-dynamo",
+   "to": "concept:Plasma Cosmology"
+  },
+  {
+   "type": "domain",
+   "from": "work:cosmic-magnetic-field-dynamo",
+   "to": "concept:Cosmic Magnetism"
+  },
+  {
+   "type": "domain",
+   "from": "work:cosmic-magnetic-field-dynamo",
+   "to": "concept:Plasma Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:mit-traveling-brain-waves",
+   "to": "person:miller-earl"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:mit-traveling-brain-waves",
+   "to": "person:brincat-scott"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:mit-traveling-brain-waves",
+   "to": "person:roy-jefferson"
+  },
+  {
+   "type": "domain",
+   "from": "work:mit-traveling-brain-waves",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:mit-traveling-brain-waves",
+   "to": "concept:Neuroscience"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:fisher-polyneutron-papers",
+   "to": "person:fisher-john-c"
+  },
+  {
+   "type": "domain",
+   "from": "work:fisher-polyneutron-papers",
+   "to": "concept:LENR"
+  },
+  {
+   "type": "domain",
+   "from": "work:fisher-polyneutron-papers",
+   "to": "concept:Polyneutron Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:fisher-polyneutron-papers",
+   "to": "concept:Nuclear Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:naudin-vsg-project",
+   "to": "person:naudin-jl"
+  },
+  {
+   "type": "domain",
+   "from": "work:naudin-vsg-project",
+   "to": "concept:Vacuum Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:naudin-vsg-project",
+   "to": "concept:Synergetics"
+  },
+  {
+   "type": "domain",
+   "from": "work:naudin-vsg-project",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:fletcher-ecat-analysis",
+   "to": "person:fletcher-alan"
+  },
+  {
+   "type": "domain",
+   "from": "work:fletcher-ecat-analysis",
+   "to": "concept:LENR"
+  },
+  {
+   "type": "domain",
+   "from": "work:fletcher-ecat-analysis",
+   "to": "concept:Thermal Analysis"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:schauberger-patent-specs",
+   "to": "person:schauberger-viktor"
+  },
+  {
+   "type": "domain",
+   "from": "work:schauberger-patent-specs",
+   "to": "concept:Water Vortex"
+  },
+  {
+   "type": "domain",
+   "from": "work:schauberger-patent-specs",
+   "to": "concept:Implosion"
+  },
+  {
+   "type": "domain",
+   "from": "work:schauberger-patent-specs",
+   "to": "concept:Turbine Design"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:psychoenergetic-lab-prague",
+   "to": "person:kahuda-frantisek"
+  },
+  {
+   "type": "domain",
+   "from": "work:psychoenergetic-lab-prague",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:psychoenergetic-lab-prague",
+   "to": "concept:Radionics/Radiesthesia"
+  },
+  {
+   "type": "domain",
+   "from": "work:psychoenergetic-lab-prague",
+   "to": "concept:Borderland Research"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:pavlita-biogenerators",
+   "to": "person:pavlita-robert"
+  },
+  {
+   "type": "domain",
+   "from": "work:pavlita-biogenerators",
+   "to": "concept:Radionics/Radiesthesia"
+  },
+  {
+   "type": "domain",
+   "from": "work:pavlita-biogenerators",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:pavlita-biogenerators",
+   "to": "concept:Suppressed Technologies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:kafka-psychology-foundations",
+   "to": "person:kafka-bretislav"
+  },
+  {
+   "type": "domain",
+   "from": "work:kafka-psychology-foundations",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:kafka-psychology-foundations",
+   "to": "concept:Morphic Fields"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:rychnowski-elektroid",
+   "to": "person:rychnowski-franciszek"
+  },
+  {
+   "type": "domain",
+   "from": "work:rychnowski-elektroid",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:rychnowski-elektroid",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:rychnowski-elektroid",
+   "to": "concept:Exotic Materials"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:maslowski-arft",
+   "to": "person:maslowski-szymon"
+  },
+  {
+   "type": "domain",
+   "from": "work:maslowski-arft",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:maslowski-arft",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:maslowski-arft",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:maslowski-arft",
+   "to": "concept:Plasma Cosmology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:spyridis-platonic-theory",
+   "to": "person:spyridis-h"
+  },
+  {
+   "type": "domain",
+   "from": "work:spyridis-platonic-theory",
+   "to": "concept:Geometry & Harmonics"
+  },
+  {
+   "type": "domain",
+   "from": "work:spyridis-platonic-theory",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:spyridis-platonic-theory",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:karydianakis-pantachikinon",
+   "to": "person:karydianakis-g"
+  },
+  {
+   "type": "domain",
+   "from": "work:karydianakis-pantachikinon",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:karydianakis-pantachikinon",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:karydianakis-pantachikinon",
+   "to": "concept:Geometry & Harmonics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:chimpel-ether-x",
+   "to": "person:chimpel-eliot"
+  },
+  {
+   "type": "domain",
+   "from": "work:chimpel-ether-x",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:chimpel-ether-x",
+   "to": "concept:Plasma Cosmology"
+  },
+  {
+   "type": "domain",
+   "from": "work:chimpel-ether-x",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:toulgoat-theorie-phi",
+   "to": "person:toulgoat-fabien"
+  },
+  {
+   "type": "domain",
+   "from": "work:toulgoat-theorie-phi",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:toulgoat-theorie-phi",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:toulgoat-theorie-phi",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:burtin-portance-vide",
+   "to": "person:burtin-guillaume"
+  },
+  {
+   "type": "domain",
+   "from": "work:burtin-portance-vide",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:burtin-portance-vide",
+   "to": "concept:Plasma Cosmology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:benaros-aether-d",
+   "to": "person:benaros-pierre"
+  },
+  {
+   "type": "domain",
+   "from": "work:benaros-aether-d",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:benaros-aether-d",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:benaros-aether-d",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:deba-cosmology",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:deba-cosmology",
+   "to": "concept:Plasma Cosmology"
+  },
+  {
+   "type": "domain",
+   "from": "work:deba-cosmology",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:beauvais-benveniste-reinterpretation",
+   "to": "person:beauvais-francis"
+  },
+  {
+   "type": "domain",
+   "from": "work:beauvais-benveniste-reinterpretation",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:beauvais-benveniste-reinterpretation",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:beauvais-benveniste-reinterpretation",
+   "to": "concept:Borderland Research"
+  },
+  {
+   "type": "domain",
+   "from": "work:goethean-approach-fr",
+   "to": "concept:Goethean Science"
+  },
+  {
+   "type": "domain",
+   "from": "work:goethean-approach-fr",
+   "to": "concept:Regenerative Agriculture"
+  },
+  {
+   "type": "domain",
+   "from": "work:goethean-approach-fr",
+   "to": "concept:Formative Causation"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:goethean-methodology-substack",
+   "to": "person:walnier-alexandre"
+  },
+  {
+   "type": "domain",
+   "from": "work:goethean-methodology-substack",
+   "to": "concept:Goethean Science"
+  },
+  {
+   "type": "domain",
+   "from": "work:goethean-methodology-substack",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:goethean-methodology-substack",
+   "to": "concept:Formative Causation"
+  },
+  {
+   "type": "domain",
+   "from": "work:molecule-water-field",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:molecule-water-field",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:molecule-water-field",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:us12715620-zpe-gravity",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:us12715620-zpe-gravity",
+   "to": "concept:Zero-Point Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:us12715620-zpe-gravity",
+   "to": "concept:Plasma Devices"
+  },
+  {
+   "type": "domain",
+   "from": "work:us12695000-structured-vacuum",
+   "to": "concept:Vacuum Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:us12695000-structured-vacuum",
+   "to": "concept:Scalar Fields"
+  },
+  {
+   "type": "domain",
+   "from": "work:us12695000-structured-vacuum",
+   "to": "concept:Topological Modulation"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:us20260072053-brandenburg-coil",
+   "to": "person:brandenburg-john"
+  },
+  {
+   "type": "domain",
+   "from": "work:us20260072053-brandenburg-coil",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:us20260072053-brandenburg-coil",
+   "to": "concept:Electromagnetic Fields"
+  },
+  {
+   "type": "domain",
+   "from": "work:us20260081042-lenr-heater",
+   "to": "concept:LENR"
+  },
+  {
+   "type": "domain",
+   "from": "work:us20260081042-lenr-heater",
+   "to": "concept:Heat Generation"
+  },
+  {
+   "type": "domain",
+   "from": "work:wo2026028231-rydberg-lenr",
+   "to": "concept:LENR"
+  },
+  {
+   "type": "domain",
+   "from": "work:wo2026028231-rydberg-lenr",
+   "to": "concept:Rydberg Matter"
+  },
+  {
+   "type": "domain",
+   "from": "work:wo2026028231-rydberg-lenr",
+   "to": "concept:Casimir Cavities"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:cn202610320749-zpe-array",
+   "to": "person:chu-guozheng"
+  },
+  {
+   "type": "domain",
+   "from": "work:cn202610320749-zpe-array",
+   "to": "concept:Zero-Point Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:cn202610320749-zpe-array",
+   "to": "concept:Casimir Effect"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:kz427254-fractal-s-parameter",
+   "to": "person:orymbetov-yerzhan"
+  },
+  {
+   "type": "domain",
+   "from": "work:kz427254-fractal-s-parameter",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:kz427254-fractal-s-parameter",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:bauer-postmodern-physics",
+   "to": "person:bauer-wm"
+  },
+  {
+   "type": "domain",
+   "from": "work:bauer-postmodern-physics",
+   "to": "concept:Vortex Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:bauer-postmodern-physics",
+   "to": "concept:Aether Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:bauer-postmodern-physics",
+   "to": "concept:Alternative Cosmology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:waser-wirbelphysik-kompendium",
+   "to": "person:waser-andre"
+  },
+  {
+   "type": "domain",
+   "from": "work:waser-wirbelphysik-kompendium",
+   "to": "concept:Vortex Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:waser-wirbelphysik-kompendium",
+   "to": "concept:Aether Dynamics"
+  },
+  {
+   "type": "domain",
+   "from": "work:waser-wirbelphysik-kompendium",
+   "to": "concept:Implosion Technology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:darpini-toroidal-vortices",
+   "to": "person:darpini-paolo"
+  },
+  {
+   "type": "domain",
+   "from": "work:darpini-toroidal-vortices",
+   "to": "concept:Vortex Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:darpini-toroidal-vortices",
+   "to": "concept:Aether Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:darpini-toroidal-vortices",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:petti-water-consciousness",
+   "to": "person:petti-natale"
+  },
+  {
+   "type": "domain",
+   "from": "work:petti-water-consciousness",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:petti-water-consciousness",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:petti-water-consciousness",
+   "to": "concept:Quantum Electrodynamics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:figueira-inteligencia-aguas",
+   "to": "person:figueira-felipe"
+  },
+  {
+   "type": "domain",
+   "from": "work:figueira-inteligencia-aguas",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:figueira-inteligencia-aguas",
+   "to": "concept:Vortex Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:figueira-inteligencia-aguas",
+   "to": "concept:Ecological Water Management"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:cunha-geometria-eter",
+   "to": "person:cunha-renato"
+  },
+  {
+   "type": "domain",
+   "from": "work:cunha-geometria-eter",
+   "to": "concept:Aether Theories"
+  },
+  {
+   "type": "domain",
+   "from": "work:cunha-geometria-eter",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:cunha-geometria-eter",
+   "to": "concept:Geometry & Harmonics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:bal-scalar-tesla",
+   "to": "person:bal-cetin"
+  },
+  {
+   "type": "domain",
+   "from": "work:bal-scalar-tesla",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:bal-scalar-tesla",
+   "to": "concept:Scalar Waves"
+  },
+  {
+   "type": "domain",
+   "from": "work:bal-scalar-tesla",
+   "to": "concept:Electrogravitics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:kim-viscoelastic-spacetime",
+   "to": "person:kim-changsik"
+  },
+  {
+   "type": "domain",
+   "from": "work:kim-viscoelastic-spacetime",
+   "to": "concept:Aether Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:kim-viscoelastic-spacetime",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:kim-viscoelastic-spacetime",
+   "to": "concept:Alternative Cosmology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:alhalabi-radiant-electricity",
+   "to": "person:alhalabi-alaa"
+  },
+  {
+   "type": "domain",
+   "from": "work:alhalabi-radiant-electricity",
+   "to": "concept:Aether Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:alhalabi-radiant-electricity",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:alhalabi-radiant-electricity",
+   "to": "concept:Tesla Technology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:alhalabi-electric-ether",
+   "to": "person:alhalabi-alaa"
+  },
+  {
+   "type": "domain",
+   "from": "work:alhalabi-electric-ether",
+   "to": "concept:Aether Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:alhalabi-electric-ether",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:alhalabi-electric-ether",
+   "to": "concept:Suppressed Technology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:manzalini-consciousness-qft",
+   "to": "person:manzalini-antonio"
+  },
+  {
+   "type": "domain",
+   "from": "work:manzalini-consciousness-qft",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:manzalini-consciousness-qft",
+   "to": "concept:Quantum Field Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:manzalini-consciousness-qft",
+   "to": "concept:Biophysics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:damante-torsion-spacetime",
+   "to": "person:damante-fabio"
+  },
+  {
+   "type": "domain",
+   "from": "work:damante-torsion-spacetime",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:damante-torsion-spacetime",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "domain",
+   "from": "work:damante-torsion-spacetime",
+   "to": "concept:Spacetime Geometry"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:falace-creative-synchronism",
+   "to": "person:falace-luca"
+  },
+  {
+   "type": "domain",
+   "from": "work:falace-creative-synchronism",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:falace-creative-synchronism",
+   "to": "concept:Unified Field Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:falace-creative-synchronism",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:bulatov-torsion-study",
+   "to": "person:bulatov-artur"
+  },
+  {
+   "type": "domain",
+   "from": "work:bulatov-torsion-study",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:bulatov-torsion-study",
+   "to": "concept:Aether Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:bulatov-torsion-study",
+   "to": "concept:Consciousness"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:schadach-extended-em",
+   "to": "person:schadach-d"
+  },
+  {
+   "type": "domain",
+   "from": "work:schadach-extended-em",
+   "to": "concept:Vacuum Field Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:schadach-extended-em",
+   "to": "concept:Torsion Waves"
+  },
+  {
+   "type": "domain",
+   "from": "work:schadach-extended-em",
+   "to": "concept:Longitudinal EM"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:furter-geopathic-stress",
+   "to": "person:furter-lm"
+  },
+  {
+   "type": "domain",
+   "from": "work:furter-geopathic-stress",
+   "to": "concept:Radiesthesia"
+  },
+  {
+   "type": "domain",
+   "from": "work:furter-geopathic-stress",
+   "to": "concept:Scalar Waves"
+  },
+  {
+   "type": "domain",
+   "from": "work:furter-geopathic-stress",
+   "to": "concept:Geopathic Stress"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:osaka-water-spheres",
+   "to": "person:osaka-takuro"
+  },
+  {
+   "type": "domain",
+   "from": "work:osaka-water-spheres",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:osaka-water-spheres",
+   "to": "concept:Fluid Dynamics"
+  },
+  {
+   "type": "domain",
+   "from": "work:osaka-water-spheres",
+   "to": "concept:Microgravity"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:hagura-ionospheric-storms",
+   "to": "person:hagura-yukio"
+  },
+  {
+   "type": "domain",
+   "from": "work:hagura-ionospheric-storms",
+   "to": "concept:Ionospheric Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:hagura-ionospheric-storms",
+   "to": "concept:Solar-Terrestrial Relations"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:etkin-alternative-light-theory",
+   "to": "person:etkin-valery"
+  },
+  {
+   "type": "domain",
+   "from": "work:etkin-alternative-light-theory",
+   "to": "concept:Aether Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:etkin-alternative-light-theory",
+   "to": "concept:Alternative Cosmology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:palenko-world-ether",
+   "to": "person:palenko-nikolai"
+  },
+  {
+   "type": "domain",
+   "from": "work:palenko-world-ether",
+   "to": "concept:Aether Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:palenko-world-ether",
+   "to": "concept:Gravitation"
+  },
+  {
+   "type": "domain",
+   "from": "work:palenko-world-ether",
+   "to": "concept:Sagnac Effect"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:skoropad-torsion-fields",
+   "to": "person:skoropad-gyu"
+  },
+  {
+   "type": "domain",
+   "from": "work:skoropad-torsion-fields",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:skoropad-torsion-fields",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:slavutsky-unified-cosmology",
+   "to": "person:slavutsky-gleb"
+  },
+  {
+   "type": "domain",
+   "from": "work:slavutsky-unified-cosmology",
+   "to": "concept:Cosmology"
+  },
+  {
+   "type": "domain",
+   "from": "work:slavutsky-unified-cosmology",
+   "to": "concept:Cyclic Universe"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:konjevic-zero-consumption-motor",
+   "to": "person:konjevic-bozidar"
+  },
+  {
+   "type": "domain",
+   "from": "work:konjevic-zero-consumption-motor",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:konjevic-zero-consumption-motor",
+   "to": "concept:Suppressed Technologies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:shkatov-torsion-detection",
+   "to": "person:shkatov-vt"
+  },
+  {
+   "type": "domain",
+   "from": "work:shkatov-torsion-detection",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:shkatov-torsion-detection",
+   "to": "concept:Experimental"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:samokhvalov-torsion-experiments",
+   "to": "person:samokhvalov-vn"
+  },
+  {
+   "type": "domain",
+   "from": "work:samokhvalov-torsion-experiments",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:samokhvalov-torsion-experiments",
+   "to": "concept:Experimental"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:east-tokamak-403-second-plasma",
+   "to": "person:gong-xianzhu"
+  },
+  {
+   "type": "domain",
+   "from": "work:east-tokamak-403-second-plasma",
+   "to": "concept:Plasma Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:east-tokamak-403-second-plasma",
+   "to": "concept:Nuclear Fusion"
+  },
+  {
+   "type": "domain",
+   "from": "work:east-tokamak-403-second-plasma",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:suzin-radiesthesia-hospital",
+   "to": "person:suzin-joseli-beatriz"
+  },
+  {
+   "type": "domain",
+   "from": "work:suzin-radiesthesia-hospital",
+   "to": "concept:Radionics/Radiesthesia"
+  },
+  {
+   "type": "domain",
+   "from": "work:suzin-radiesthesia-hospital",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:keppe-motor-resonant",
+   "to": "person:keppe-norberto"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:keppe-motor-resonant",
+   "to": "person:soos-cesar"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:keppe-motor-resonant",
+   "to": "person:frascari-roberto"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:keppe-motor-resonant",
+   "to": "person:frascari-alexandre"
+  },
+  {
+   "type": "domain",
+   "from": "work:keppe-motor-resonant",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:keppe-motor-resonant",
+   "to": "concept:Scalar Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:keppe-motor-resonant",
+   "to": "concept:Tesla Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:herbrand-schauberger-turbine-analysis",
+   "to": "person:herbrand-ludwig"
+  },
+  {
+   "type": "domain",
+   "from": "work:herbrand-schauberger-turbine-analysis",
+   "to": "concept:Water Structure/Memory"
+  },
+  {
+   "type": "domain",
+   "from": "work:herbrand-schauberger-turbine-analysis",
+   "to": "concept:Alternative Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:herbrand-schauberger-turbine-analysis",
+   "to": "concept:Vortex Technology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:kim-pak-torsion-quantum-gravity",
+   "to": "person:kim-sang-woo"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:kim-pak-torsion-quantum-gravity",
+   "to": "person:pak-dg"
+  },
+  {
+   "type": "domain",
+   "from": "work:kim-pak-torsion-quantum-gravity",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:kim-pak-torsion-quantum-gravity",
+   "to": "concept:Quantum Gravity"
+  },
+  {
+   "type": "domain",
+   "from": "work:kim-pak-torsion-quantum-gravity",
+   "to": "concept:Gravity Control"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:lubawy-elf-detection",
+   "to": "person:lubawy-henryk"
+  },
+  {
+   "type": "domain",
+   "from": "work:lubawy-elf-detection",
+   "to": "concept:Radionics/Radiesthesia"
+  },
+  {
+   "type": "domain",
+   "from": "work:lubawy-elf-detection",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:stavek-lenr-electron-catalysis",
+   "to": "person:stavek-jiri"
+  },
+  {
+   "type": "domain",
+   "from": "work:stavek-lenr-electron-catalysis",
+   "to": "concept:LENR / Cold Fusion"
+  },
+  {
+   "type": "domain",
+   "from": "work:stavek-lenr-electron-catalysis",
+   "to": "concept:Nuclear Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:kozyrev-time-ether-science",
+   "to": "person:kozyrev-nikolai-a"
+  },
+  {
+   "type": "domain",
+   "from": "work:kozyrev-time-ether-science",
+   "to": "concept:Aether Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:kozyrev-time-ether-science",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:kozyrev-time-ether-science",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:kozyrev-time-ether-science",
+   "to": "concept:Time Physics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:manzalini-consciousness-quantum-field",
+   "to": "person:manzalini-antonio"
+  },
+  {
+   "type": "domain",
+   "from": "work:manzalini-consciousness-quantum-field",
+   "to": "concept:Consciousness Studies"
+  },
+  {
+   "type": "domain",
+   "from": "work:manzalini-consciousness-quantum-field",
+   "to": "concept:Quantum Field Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:manzalini-consciousness-quantum-field",
+   "to": "concept:Biophysics"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:schadach-vacuum-field-energy",
+   "to": "person:schadach-d"
+  },
+  {
+   "type": "domain",
+   "from": "work:schadach-vacuum-field-energy",
+   "to": "concept:Vacuum Field Energy"
+  },
+  {
+   "type": "domain",
+   "from": "work:schadach-vacuum-field-energy",
+   "to": "concept:Torsion Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:schadach-vacuum-field-energy",
+   "to": "concept:Longitudinal EM Waves"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:bauer-vortex-physics",
+   "to": "person:bauer-wilhelm-moritz"
+  },
+  {
+   "type": "domain",
+   "from": "work:bauer-vortex-physics",
+   "to": "concept:Vortex Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:bauer-vortex-physics",
+   "to": "concept:Aether Theory"
+  },
+  {
+   "type": "domain",
+   "from": "work:bauer-vortex-physics",
+   "to": "concept:Alternative Cosmology"
+  },
+  {
+   "type": "authored_by",
+   "from": "work:waser-vortex-compendium",
+   "to": "person:waser-andre"
+  },
+  {
+   "type": "domain",
+   "from": "work:waser-vortex-compendium",
+   "to": "concept:Vortex Physics"
+  },
+  {
+   "type": "domain",
+   "from": "work:waser-vortex-compendium",
+   "to": "concept:Aether Dynamics"
+  },
+  {
+   "type": "domain",
+   "from": "work:waser-vortex-compendium",
+   "to": "concept:Free Energy"
+  },
+  {
+   "type": "mentions",
+   "from": "translation:t_compendium-vortex-physics-de",
+   "to": "person:schauberger-viktor"
+  },
+  {
+   "type": "mentions",
+   "from": "translation:t_acqua-viva-schauberger-it",
+   "to": "person:schauberger-viktor"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_tuo-theory-fr-en",
+   "to": "lang:fr"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_tuo-theory-fr-en",
+   "to": "concept:Cosmology"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_spyridis-theory-of-everything-el-en",
+   "to": "lang:el"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_spyridis-theory-of-everything-el-en",
+   "to": "concept:unified-theory"
+  },
+  {
+   "type": "translated",
+   "from": "translation:t_spyridis-theory-of-everything-el-en",
+   "to": "work:spyridis-platonic-theory"
+  },
+  {
+   "type": "mentions",
+   "from": "translation:t_spyridis-theory-of-everything-el-en",
+   "to": "person:spyridis-h"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_shipov-torsion-fields-ru-en",
+   "to": "lang:ru"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_shipov-torsion-fields-ru-en",
+   "to": "concept:torsion-fields"
+  },
+  {
+   "type": "mentions",
+   "from": "translation:t_schauberger-luxembourg-patent-1951-de",
+   "to": "person:schauberger-viktor"
+  },
+  {
+   "type": "mentions",
+   "from": "translation:t_spyridis-platonic-theory-of-everything-el",
+   "to": "person:spyridis-h"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_extended-theory-of-electromagnetism-de-en",
+   "to": "lang:de"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_extended-theory-of-electromagnetism-de-en",
+   "to": "concept:electromagnetism, gauge theory, vacuum field physics"
+  },
+  {
+   "type": "translated",
+   "from": "translation:t_extended-theory-of-electromagnetism-de-en",
+   "to": "work:schadach-vacuum-field-energy"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_compendium-vortex-physics-complete-de",
+   "to": "lang:german"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_compendium-vortex-physics-complete-de",
+   "to": "concept:Vortex Physics"
+  },
+  {
+   "type": "translated",
+   "from": "translation:t_compendium-vortex-physics-complete-de",
+   "to": "work:waser-vortex-compendium"
+  },
+  {
+   "type": "mentions",
+   "from": "translation:t_compendium-vortex-physics-complete-de",
+   "to": "person:schauberger-viktor"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_prometheus-lenr-reactor-it",
+   "to": "lang:it"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_prometheus-lenr-reactor-it",
+   "to": "concept:lenr-energy"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_magnitsky-gravity-compressible-ether",
+   "to": "lang:ru"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_magnitsky-gravity-compressible-ether",
+   "to": "concept:theoretical-physics"
+  },
+  {
+   "type": "translated",
+   "from": "translation:t_magnitsky-gravity-compressible-ether",
+   "to": "work:magnitsky-ether-gravity"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_del-giudice-pollack-fourth-phase-water-it",
+   "to": "lang:italian"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_del-giudice-pollack-fourth-phase-water-it",
+   "to": "concept:water-physics, biophysics, quantum-coherence"
+  },
+  {
+   "type": "mentions",
+   "from": "translation:t_del-giudice-pollack-fourth-phase-water-it",
+   "to": "person:delgiudice-emilio"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_compendium-vortex-physics-de",
+   "to": "lang:de"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_compendium-vortex-physics-de",
+   "to": "concept:Vortex Physics"
+  },
+  {
+   "type": "translated",
+   "from": "translation:t_compendium-vortex-physics-de",
+   "to": "work:waser-vortex-compendium"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_what-is-scalar-energy-fr",
+   "to": "lang:fr"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_what-is-scalar-energy-fr",
+   "to": "concept:alternative energy, scalar waves, aether theories"
+  },
+  {
+   "type": "translated",
+   "from": "translation:t_what-is-scalar-energy-fr",
+   "to": "work:scalar-energy-fr-overview"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr",
+   "to": "lang:fr"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr",
+   "to": "concept:ether-physics"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_sacred-geometry-matter-energy-qualities-es",
+   "to": "lang:es"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_sacred-geometry-matter-energy-qualities-es",
+   "to": "concept:sacred_geometry"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_ondes-de-forme-vibratis-fr-en",
+   "to": "lang:fr"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_ondes-de-forme-vibratis-fr-en",
+   "to": "concept:Radiesthesia"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_magnitsky-gravity-compressible-ether-ru",
+   "to": "lang:ru"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_magnitsky-gravity-compressible-ether-ru",
+   "to": "concept:ether-physics"
+  },
+  {
+   "type": "translated",
+   "from": "translation:t_magnitsky-gravity-compressible-ether-ru",
+   "to": "work:magnitsky-ether-gravity"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_hotie-viviane-broceliande-fr-en",
+   "to": "lang:fr"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_hotie-viviane-broceliande-fr-en",
+   "to": "concept:geobiology"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_enel-lettre-crocodile-fr-en",
+   "to": "lang:fr"
+  },
+  {
+   "type": "concept",
+   "from": "translation:t_enel-lettre-crocodile-fr-en",
+   "to": "concept:Radiesthesia"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_tuo-vacuum-tension-fr",
+   "to": "lang:french"
+  },
+  {
+   "type": "language",
+   "from": "translation:t_sweeper-ru",
+   "to": "lang:russian"
+  },
+  {
+   "type": "translated",
+   "from": "translation:t_sweeper-ru",
+   "to": "work:stpk-lenr-model"
+  }
+ ]
+}

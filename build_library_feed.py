@@ -913,8 +913,42 @@ def main():
                     break
         if frag >= 2:
             break
+    # Pattern signals from the paradigm fleet (kind=paradigm-signal) — the
+    # human-interface position: the front-end wire exists, the builder never
+    # emitted them. These are the archive's cross-domain pattern notes.
+    synth_path = os.path.join(AFLINKS, "synthesis", "synthesis_index.json")
+    synth = load_json(synth_path, [])
+    pcount = 0
+    for e in synth:
+        if e.get("kind") == "paradigm-signal":
+            news.append({
+                "date": e.get("date", ""),
+                "kind": "paradigm",
+                "title": e.get("title"),
+                "excerpt": (e.get("teaser") or e.get("description") or "")[:160],
+                "rarity": "pattern signal",
+                "href": "./synthesis.html#" + (e.get("slug") or e.get("file")),
+            })
+            pcount += 1
+            if pcount >= 2:
+                break
     news.sort(key=lambda n: n["date"], reverse=True)
     feed["news"] = news[:8]
+
+    # --- 9b. Entity graph (the contract agents read) ---
+    # Phase 1: archive-graph.json (nodes: person/work/translation/concept +
+    # typed edges) + curated-core-bindings.json. Serve the graph with the site
+    # and stamp its stats into the feed so the HUD can surface it.
+    graph_path = os.path.join(AFLINKS, "archive-graph.json")
+    g = load_json(graph_path)
+    if g:
+        feed["graph"] = {
+            "url": "archive-graph.json",
+            "generated_at": g.get("_meta", {}).get("generated_at", ""),
+            "stats": g.get("stats", {}),
+        }
+        feed["library"]["graph_edges"] = g.get("stats", {}).get("edges", 0)
+        feed["library"]["graph_nodes"] = sum(v for k, v in g.get("stats", {}).items() if k != "edges")
 
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:

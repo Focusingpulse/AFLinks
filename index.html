@@ -2287,7 +2287,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260906021833')
+            fetch('./synthesis/synthesis_index.json?v=20260906025205')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -2490,12 +2490,28 @@
             if (lens) {
                 document.getElementById('kdWinLens').textContent = lens.name;
                 if (kdMode === 'paradigm') {
-                    const p = lens; // {n: docs, af: af_posts, span}
+                    const p = lens; // {n: docs, af: af_posts, span, pct?}
+                    const pct = (p.pct != null) ? p.pct : (p.af && p.n ? Math.min(100, Math.round(p.af / p.n * 100)) : 0);
+                    // Coverage-vs-span verdict: wide span + thin archive = unexplored vein
+                    const verdict = (p.span >= 15 && pct < 10)
+                        ? ` unexplored vein — archive holds only ${pct}% of what Aetherforce covers across ${p.span} fields`
+                        : (pct >= 40 ? ` — well-covered ground (${pct}% of AF output)` : ` spans ${p.span} fields`);
                     document.getElementById('kdWinCount').textContent =
                         `${p.n.toLocaleString()} docs · ★ ${p.af} AF posts · spans ${p.span} fields`;
+                    const winCount = document.getElementById('kdWinCount');
+                    let badge = document.getElementById('kdVerdict');
+                    if (!badge) {
+                        badge = document.createElement('div');
+                        badge.id = 'kdVerdict';
+                        badge.style.cssText = 'font-size:0.62rem;color:var(--gold-bright);letter-spacing:0.4px;text-transform:uppercase;margin-top:2px;';
+                        winCount.parentNode.insertBefore(badge, winCount.nextSibling);
+                    }
+                    badge.textContent = (p.span >= 15 && pct < 10 ? '⚡ ' : '') + verdict;
                 } else {
                     const f = kdFocusOf(lens.name);
                     document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
+                    const badge = document.getElementById('kdVerdict');
+                    if (badge) badge.textContent = '';
                 }
             }
         }
@@ -2738,20 +2754,51 @@
                 if (urlCats.length) seamCats = urlCats;
                 const urlSubj = params.get('subj');
                 if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
-                // Load the SLIM search index (fast) — full records are
-                // fetched lazily per chunk when a detail modal opens.
-                const response = await fetch('./search_index.json?v=20260906021833');
-                allData = await response.json();
+                // Load the SLIM search index (fast). When arriving via a category deep
+                // link (?cat=X), fetch ONLY that meta-category's chunk from
+                // search_chunks/ (Phase 1: the phone path — ~0.2MB instead of
+                // the 18MB full index). Otherwise load the full slim index.
+                async function loadSearchIndex() {
+                    const params = new URLSearchParams(window.location.search);
+                    const catParam = params.get('cat');
+                    const fullIndex = async () => {
+                        const response = await fetch('./search_index.json?v=20260906025205');
+                        return response.json();
+                    };
+                    if (catParam) {
+                        try {
+                            const manRes = await fetch('./search_manifest.json?v=20260906021833');
+                            const man = await manRes.json();
+                            const chunk = man.chunks && man.chunks[catParam];
+                            if (chunk) {
+                                const cRes = await fetch('./' + chunk.file + '?v=20260906021833');
+                                const data = await cRes.json();
+                                if (data && data.length) return { data, chunkCat: catParam };
+                            }
+                        } catch (e) { /* fall through to full index */ }
+                    }
+                    return { data: await fullIndex(), chunkCat: null };
+                }
+                const loaded = await loadSearchIndex();
+                allData = loaded.data;
+                if (loaded.chunkCat) {
+                    // Chunk mode: seamCats already carries ?cat= (AND-filter).
+                    // Keep the hero total honest — archive count, not chunk size.
+                    activeMetaCategory = null;
+                }
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260906021833');
+                    const man = await fetch('./full_manifest.json?v=20260906025205');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260906021833');
+                    const feedRes = await fetch('./library_feed.json?v=20260906025205');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
+                    if (lib.archive_entries != null) {
+                        document.getElementById('heroDocCount').textContent = Number(lib.archive_entries).toLocaleString();
+                    }
                     if (lib.translations != null) {
                         document.getElementById('heroTransCount').textContent = Number(lib.translations).toLocaleString();
                     }
@@ -2790,7 +2837,8 @@
                         const pr = await fetch('./paradigm_lenses.json', { cache: 'no-store' });
                         const pj = await pr.json();
                         kdParadigm = Object.entries(pj.lenses || {}).map(([id, d]) => ({
-                            id, name: d.name, n: d.docs || 0, af: d.af_posts || 0, span: d.silo_span || 0
+                            id, name: d.name, n: d.docs || 0, af: d.af_posts || 0,
+                            span: d.silo_span || 0, pct: d.pct
                         }));
                     } catch (e) { kdParadigm = []; }
                     kdInit();
