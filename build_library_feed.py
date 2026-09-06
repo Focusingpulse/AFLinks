@@ -788,5 +788,26 @@ def main():
     print(f"DB: {feed['library']['researchers']} researchers, {feed['library']['patents']} patents, "
           f"{feed['library']['categories']} categories")
 
+    _bake_live_stats()
+
+def _bake_live_stats() -> None:
+    """Stamp fresh counts + cache-busting versions into the site HTML.
+
+    Ensures raw HTML always carries the current archive numbers, so bots and
+    agents that never execute JS still see the truth. Called automatically at
+    the end of every build — the cron prose checklist is not the only guard.
+    """
+    import subprocess
+    import sys
+    from pathlib import Path
+
+    here = Path(__file__).resolve().parent
+    subprocess.run(
+        [sys.executable, str(here / "bake_stats.py")],
+        cwd=here,
+        check=True,
+    )
+
+
 if __name__ == "__main__":
     main()
