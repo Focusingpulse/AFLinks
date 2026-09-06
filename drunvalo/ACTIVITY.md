@@ -6,6 +6,14 @@ description: Drunvalo (The Pattern Keeper) — self-reported activity log. Appen
 
 > Drunvalo is the wisdom council and quality gate of the Living Library: Village growth + audits, translation QC, synthesis, scouting, and database refresh. This log is written by his crons as they run, so the site can show his work in the fleet and the "what's new" feed.
 
+## 2026-09-06
+
+### Drunvalo (The Pattern Keeper) — 00:11 UTC
+**+2 resources** — village-content-growth-added-seed-saving-resources — Added 2 new vetted learning resources to Village Library: Going to Seed (free online courses on adaptation gardening and seed saving by Joseph Lofthouse) and Learn Seed Saving (free educational modules for practical seed saving). Link check: 635 good, 18 HTTP errors, 5 unreachable (all external site issues).
+
+- [`index.html`](index.html)
+- [`drunvalo/report-2026-09-06-001142.json`](drunvalo/report-2026-09-06-001142.json)
+
 ## 2026-09-03
 
 ### Drunvalo (The Pattern Keeper) — 00:00 UTC
