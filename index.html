@@ -881,9 +881,19 @@
             border-radius: 10px;
             padding: 10px 12px;
             text-align: center;
-            transition: border-color 0.15s;
+            transition: border-color 0.15s, box-shadow 0.15s;
+            display: block;
+            color: inherit;
+            text-decoration: none;
+            cursor: pointer;
         }
-        .wn-counter:hover { border-color: var(--accent); }
+        .wn-counter:hover { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent-dim); }
+        .wn-counter .lbl::after {
+            content: ' ↗';
+            opacity: 0;
+            transition: opacity 0.15s;
+        }
+        .wn-counter:hover .lbl::after { opacity: 1; }
         .wn-counter .num {
             font-size: 1.35rem;
             font-weight: 700;
@@ -950,6 +960,45 @@
             border-radius: 10px;
             padding: 8px 14px;
         }
+        /* What's New — fresh cargo: only-here items */
+        .wn-news {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+        .wn-news-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--gold);
+            border-radius: 8px;
+            padding: 8px 12px;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: border-color 0.15s, transform 0.15s;
+        }
+        .wn-news-item:hover { border-color: var(--gold); transform: translateX(2px); }
+        .wn-news-item .wnn-date { font-size: 0.68rem; color: #5a6b7d; font-variant-numeric: tabular-nums; }
+        .wn-news-item .wnn-title { font-size: 0.82rem; font-weight: 600; color: var(--text); margin: 2px 0; }
+        .wn-news-item .wnn-ex { font-size: 0.72rem; color: var(--text-dim); }
+        .wn-news-item .wnn-badge {
+            display: inline-block;
+            font-size: 0.6rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--gold-bright);
+            border: 1px solid var(--gold);
+            border-radius: 20px;
+            padding: 1px 8px;
+            margin-bottom: 3px;
+        }
+        .wn-news-item.kind-translation { border-left-color: var(--accent); }
+        .wn-news-item.kind-translation .wnn-badge { color: var(--accent); border-color: var(--accent-dim-strong); }
+        .wn-news-item.kind-declassified { border-left-color: var(--meta-accent); }
+        .wn-news-item.kind-declassified .wnn-badge { color: var(--meta-accent); border-color: var(--meta-border); }
+        .wn-news-item.kind-find { border-left-color: var(--patent-accent); }
+        .wn-news-item.kind-find .wnn-badge { color: var(--patent-accent); border-color: var(--patent-border); }
         .wn-activity .item {
             font-size: 0.78rem;
             color: var(--text-dim);
@@ -1505,7 +1554,7 @@
         <span class="hero-kicker">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1>Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">15,392</span> primary source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Each one cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">97</span> translations published · <span id="heroPagesCount">1,324</span> pages translated &amp; growing</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">56</span> translations published · <span id="heroPagesCount">877</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" href="./vault.html">🗝 Enter the Vault</a>
@@ -1572,6 +1621,7 @@
             <a class="wn-more" href="./library.html">Open the full living record →</a>
         </div>
         <div class="wn-counters" id="wnCounters"></div>
+        <div class="wn-news" id="wnNews"></div>
         <div class="wn-fleet" id="wnFleet"></div>
         <div class="wn-activity" id="wnActivity"></div>
     </div>
@@ -2167,22 +2217,41 @@
         function renderWhatsNew(feed) {
             const lib = feed.library || {};
             const counters = [
-                ['Archive Docs', lib.archive_entries || lib.aflinks_docs],
-                ['Translations', lib.translations],
-                ['Pages Translated', lib.pages_translated],
-                ['Declassified', lib.declassified_finds],
-                ['Agents Active', lib.active_agents],
-                ['Researchers', lib.researchers],
+                ['Archive Docs', lib.archive_entries || lib.aflinks_docs, './vault.html'],
+                ['Translations', lib.translations, './library.html#translationsSection'],
+                ['Pages Translated', lib.pages_translated, './library.html#translationsSection'],
+                ['Declassified', lib.declassified_finds, './library.html#declassifiedSection'],
+                ['Agents Active', lib.active_agents, './library.html#fleetSection'],
+                ['Researchers', lib.researchers, './library.html#researchersSection'],
             ];
             const cEl = document.getElementById('wnCounters');
             if (cEl) {
                 cEl.innerHTML = '';
-                counters.forEach(([lbl, num]) => {
-                    const d = document.createElement('div');
+                counters.forEach(([lbl, num, href]) => {
+                    const d = document.createElement('a');
                     d.className = 'wn-counter';
+                    d.href = href;
+                    d.title = `Open ${lbl.toLowerCase()} →`;
                     d.innerHTML = `<div class="num">${num == null ? '—' : Number(num).toLocaleString()}</div><div class="lbl">${lbl}</div>`;
                     cEl.appendChild(d);
                 });
+            }
+
+            const news = (feed.news || []).slice(0, 5);
+            const nEl = document.getElementById('wnNews');
+            if (nEl) {
+                if (!news.length) { nEl.style.display = 'none'; }
+                else {
+                    nEl.innerHTML = '';
+                    news.forEach(n => {
+                        const d = document.createElement('a');
+                        d.className = 'wn-news-item kind-' + (n.kind || '');
+                        d.href = n.href || '#';
+                        if (n.title) { d.title = n.title; }
+                        d.innerHTML = `<div class="wnn-date">${n.date || ''}</div><span class="wnn-badge">${escapeHtml(n.rarity || '')}</span><div class="wnn-title">${escapeHtml(n.title || '')}</div><div class="wnn-ex">${escapeHtml(n.excerpt || '')}</div>`;
+                        nEl.appendChild(d);
+                    });
+                }
             }
 
             const agents = feed.agents || [];
@@ -2218,7 +2287,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260906013647')
+            fetch('./synthesis/synthesis_index.json?v=20260906021833')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -2671,16 +2740,16 @@
                 if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
                 // Load the SLIM search index (fast) — full records are
                 // fetched lazily per chunk when a detail modal opens.
-                const response = await fetch('./search_index.json?v=20260906013647');
+                const response = await fetch('./search_index.json?v=20260906021833');
                 allData = await response.json();
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260906013647');
+                    const man = await fetch('./full_manifest.json?v=20260906021833');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260906013647');
+                    const feedRes = await fetch('./library_feed.json?v=20260906021833');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.translations != null) {

@@ -649,10 +649,13 @@ footer a { color: var(--gold); text-decoration: none; }
 </footer>
 
 <script>
+let LIVING_FEED = null;
+
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json?v=20260906013647');
+    const res = await fetch('./library_feed.json?v=20260906021833');
     const feed = await res.json();
+    LIVING_FEED = feed;
     renderStats(feed.library);
     renderFleet(feed.agents);
     renderDeclassified(feed.declassified);
@@ -662,8 +665,27 @@ async function loadFeed() {
     renderFinds(feed.latest_finds);
     renderResearchers(feed.top_researchers);
     renderDomains(feed.domains);
+    autoOpenFromHash();
   } catch (e) {
     document.querySelectorAll('.loading').forEach(el => el.textContent = 'Feed not found yet — the library is still seeding. Check back soon.');
+  }
+}
+
+/* Deep links: #trans-<file> opens that translation, #declass-<slug> a record */
+function _declassSlug(filepath) { return String(filepath || '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
+
+function autoOpenFromHash() {
+  const h = (location.hash || '').replace(/^#/, '');
+  if (!h || !LIVING_FEED) return;
+  if (h.indexOf('trans-') === 0) {
+    const file = h.slice(6);
+    const t = (LIVING_FEED.latest_translations || []).find(x => x.file === file);
+    if (t) { openReader(t); return; }
+  }
+  if (h.indexOf('declass-') === 0) {
+    const slug = h.slice(8);
+    const d = (LIVING_FEED.declassified || []).find(x => _declassSlug(x.file) === slug);
+    if (d) { openDeclass('./' + d.file.replace(/^\.?\//, '')); }
   }
 }
 
@@ -675,15 +697,16 @@ function renderAtsyukovsky(books) {
     const card = document.createElement('div');
     card.className = 'translation-card';
     if (b.progress_done !== undefined) {
+      const complete = b.progress_done >= b.progress_total;
       const pct = Math.round(b.progress_done / b.progress_total * 100);
       const barStyle = 'height:6px;background:var(--bg2);border-radius:3px;overflow:hidden;margin:8px 0;';
       const fillStyle = `height:100%;width:${pct}%;background:var(--green);border-radius:3px;`;
       card.innerHTML = `
         <h3>${b.title}</h3>
-        <div class="meta"><span>${b.progress_done}/${b.progress_total} chunks translated</span><span>${pct}%</span></div>
+        <div class="meta"><span>${b.progress_done}/${b.progress_total} chunks translated${complete ? ' — complete' : ''}</span><span>${pct}%</span></div>
         <div style="${barStyle}"><div style="${fillStyle}"></div></div>
-        <div class="excerpt">Translating the full 320-page volume, one section at a time. New chapters appear here automatically as the background translation runs.</div>
-        ${b.assembled ? '<span class="read-btn" onclick="openAssembled()">Read current translation &#128214;</span>' : ''}
+        <div class="excerpt">${complete ? 'Complete volume in English — every chunk translated and assembled, readable end to end.' : 'Translating the full 320-page volume, one section at a time. New chapters appear here automatically as the background translation runs.'}</div>
+        ${b.assembled ? `<span class="read-btn" onclick="openAssembled()">Read ${complete ? 'the full translation' : 'current translation'} &#128214;</span>` : ''}
       `;
     } else {
       const src = b.pdf ? `<a class="src-link" href="./${b.pdf}" target="_blank">Download original PDF (${b.size_mb}MB) &#8595;</a>` : '';
@@ -700,8 +723,12 @@ function renderAtsyukovsky(books) {
 
 async function openAssembled() {
   const overlay = document.getElementById('readerOverlay');
+  const b5 = (LIVING_FEED && LIVING_FEED.atsuyskovsky_books || []).find(b => b.volume === '5');
+  const complete = !!(b5 && b5.progress_done !== undefined && b5.progress_done >= b5.progress_total);
   document.getElementById('readerTitle').textContent = 'Atsyukovsky — Book 5 (Assembled English Translation)';
-  document.getElementById('readerMeta').innerHTML = '<span>Full volume translation in progress</span>';
+  document.getElementById('readerMeta').innerHTML = complete
+    ? '<span>Full volume &middot; complete in English (' + b5.progress_done + '/' + b5.progress_total + ' chunks)</span>'
+    : '<span>Full volume translation in progress</span>';
   document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading translation...</div>';
   overlay.classList.add('show');
   document.body.style.overflow = 'hidden';
@@ -744,6 +771,7 @@ function renderDeclassified(finds) {
   finds.forEach(f => {
     const d = document.createElement('div');
     d.className = 'declass-card';
+    d.id = 'declass-' + _declassSlug(f.file);
     const fileUrl = f.file ? './' + f.file.replace(/^\.?\//, '') : '';
     d.innerHTML = `
       <div class="dc-country">${f.country}</div>
@@ -814,6 +842,7 @@ function renderTranslations(list) {
   list.forEach(t => {
     const card = document.createElement('div');
     card.className = 'translation-card';
+    card.id = 'trans-' + t.file;
     const lang = t.language ? `<span class="lang-badge">${t.language}</span>` : '';
     card.innerHTML = `
       <h3>${t.title}</h3>

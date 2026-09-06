@@ -292,6 +292,51 @@ def parse_md_frontmatter(path):
             title = h.group(1).strip()
     return meta, title, body
 
+
+# ── Honest counting: translations are WORKS, not files ──────────────────────
+# Revision passes (sweeper, curator QC, re-runs) re-publish the same document
+# under new dated filenames. Counting every file inflates the real output
+# (97 files ≈ 30 distinct works). Dedupe by normalized title; newest revision
+# wins per work. The site's counters then under-promise instead of
+# over-promising — the direction Chris asked for.
+def _norm_key(s):
+    """Dedupe key for translation works: lower, strip date prefix and noise."""
+    s = re.sub(r"^(19|20)\d{2}[-_]\d{2}[-_]\d{2}[-_.]", "", (s or "").lower())
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    for w in ("on", "of", "the", "a", "to", "from", "and", "en", "fr", "it",
+              "ru", "de", "es", "el", "pt", "ja", "zh", "pl", "cs", "sr",
+              "uk", "ar", "nl", "full", "complete", "theory", "theorie",
+              "volume", "vol", "compendium", "translation", "translations"):
+        s = (" " + s + " ").replace(" " + w + " ", " ")
+    return re.sub(r"\s+", " ", s).strip()
+
+
+LANG_NAMES = {
+    "fr": "French", "de": "German", "it": "Italian", "ru": "Russian",
+    "es": "Spanish", "el": "Greek", "pt": "Portuguese", "pl": "Polish",
+    "cs": "Czech", "sr": "Serbian", "uk": "Ukrainian", "ar": "Arabic",
+    "ja": "Japanese", "zh": "Chinese", "nl": "Dutch",
+}
+
+def _lang_label(lang):
+    lang = (lang or "").strip()
+    if not lang:
+        return ""
+    code = lang.lower()
+    if code in LANG_NAMES:
+        return LANG_NAMES[code]
+    return lang.title() if re.fullmatch(r"[a-z]{2}", code) else lang
+
+
+# Hosts that die quietly: free/personal blog platforms. A find living there
+# is endangered regardless of the content's importance.
+FRAGILE_HOSTS = re.compile(
+    r"over-blog\.net|blogspot\.|wordpress\.com|free\.fr|tripod\.|geocities|"
+    r"nativeweb|angelfire|wixsite|weebly|\.info", re.I)
+
+def _declass_slug(filepath):
+    return re.sub(r"[^A-Za-z0-9]+", "-", filepath or "").strip("-")
+
 def main():
     if not LL:
         print("ERROR: living-library not found; aborting")
@@ -310,6 +355,7 @@ def main():
         "agents": [],
         "activity_log": [],
         "declassified": [],
+        "news": [],
     }
     # Previous feed (if any): used to preserve counts that can't be derived on
     # this machine (e.g. declassified finds living in a cloud-only path) and to
@@ -441,35 +487,63 @@ def main():
                         print("  WARN: Book5_full_translation.md not found in library; leaving site copy as-is", flush=True)
                 except Exception as e:
                     print(f"  WARN: could not publish assembled translation: {e}", flush=True)
+            book5_complete = done >= mf.get("total_chunks", 220)
             bookset.append({
                 "volume": "5",
-                "title": "Book 5 — Full English Translation (in progress)",
+                "title": f"Book 5 — Full English Translation ({'complete' if book5_complete else 'in progress'})",
                 "progress_done": done,
                 "progress_total": mf.get("total_chunks", 220),
                 "assembled": "sources/atsyukovsky/Book5_full_translation.md" if translation_ok else None,
             })
+            feed["library"]["book5_complete"] = book5_complete
     feed["atsuyskovsky_books"] = bookset
 
-    # --- 2. Latest translations ---
+    # --- 2. Latest translations (counted as distinct WORKS, not files) ---
+    # Revision passes re-publish the same document under new dated filenames;
+    # group by normalized title and keep the newest revision per work so the
+    # counter and the list never claim more than is truly translated.
     tdir = os.path.join(LL, "translations")
     translations_outdir = os.path.join(AFLINKS, "translations")
-    translations_done = 0
+    translation_works = []
+    translation_files = 0
     pages_translated = book5_pages
     if os.path.isdir(tdir):
         os.makedirs(translations_outdir, exist_ok=True)
+        by_key = {}
         for path in sorted(glob.glob(os.path.join(tdir, "*.md")), reverse=True):
             meta, title, body = parse_md_frontmatter(path)
+            fname = os.path.basename(path)
+            key = _norm_key(title or fname)
+            # reverse-sorted glob → first per key is the newest; keep the whole
+            # group so metadata can be inherited from older, richer revisions
+            by_key.setdefault(key, []).append((path, meta, title, body, fname))
+        for group in by_key.values():
+            path, meta, title, body, fname = group[0]
             domain = meta.get("Domain") or meta.get("domain") or ""
             src = meta.get("Source URL") or meta.get("source_url") or ""
-            lang = meta.get("Language") or meta.get("language") or ""
-            fname = os.path.basename(path)
-            # Copy the full translation into the site repo so the page can serve it
+            # Language: newest revision first, else inherit from any revision
+            # of the same work, else scan the metadata/title text for a name.
+            lang = ""
+            for _path, _meta, _title, _body, _fname in group:
+                lang = (_meta.get("source_language") or _meta.get("Language")
+                        or _meta.get("language") or "")
+                if lang:
+                    break
+            if not lang:
+                hay = (meta.get("description", "") + " " + title + " "
+                       + body[:300])
+                low = hay.lower()
+                for name in LANG_NAMES.values():
+                    if name.lower() in low:
+                        lang = name
+                        break
+            # Copy the newest revision into the site repo so the page can serve it
             try:
                 import shutil
                 shutil.copy2(path, os.path.join(translations_outdir, fname))
             except Exception as e:
                 print(f"  WARN: could not copy translation {fname}: {e}", flush=True)
-            feed["latest_translations"].append({
+            translation_works.append({
                 "date": fname[:10],
                 "title": title,
                 "domain": domain,
@@ -479,11 +553,14 @@ def main():
                 "content_file": f"translations/{fname}",
                 "excerpt": body.strip()[:220],
             })
-    # Count only translations PUBLISHED in the site repo (files that actually
-    # exist after the copy), so the counter never claims more than is readable.
+    # Count pages ONLY for the newest revision of each distinct work — old
+    # revision files are readable but must not inflate the page total.
     if os.path.isdir(translations_outdir):
-        for pub in sorted(glob.glob(os.path.join(translations_outdir, "*.md")), reverse=True):
-            translations_done += 1
+        for tw in translation_works:
+            pub = os.path.join(translations_outdir, tw["file"])
+            if not os.path.isfile(pub):
+                continue
+            translation_files += 1
             try:
                 with open(pub, encoding="utf-8") as f:
                     raw = f.read()
@@ -496,7 +573,9 @@ def main():
                 pages_translated += max(nums)
             else:
                 pages_translated += max(1, round(len(raw) / 3000))
-    feed["library"]["translations"] = translations_done
+    feed["latest_translations"] = translation_works
+    feed["library"]["translations"] = len(translation_works)
+    feed["library"]["translation_files"] = translation_files
     feed["library"]["pages_translated"] = pages_translated
     # Warn on a large unexplained regression vs the previous feed (e.g. the
     # declassified / Book5 path issues above) so it is visible in the cron log.
@@ -779,10 +858,69 @@ def main():
     feed["declassified"] = d_finds
     feed["library"]["declassified_finds"] = len(d_finds)
 
+    # --- 9. News — the "only here" strip for the What's New HUD ---
+    # News is what Chris asked for: freshly translated works, newly opened
+    # records, milestones, and finds on hosts that could vanish. Only claims
+    # things we can stand behind: "fresh from X", "newly opened", "host may
+    # vanish". Never "first-ever in English" — that needs verification.
+    news = []
+    today = datetime.date.today().isoformat()
+    if feed["library"].get("book5_complete"):
+        news.append({
+            "date": today,
+            "kind": "milestone",
+            "title": "Atsyukovsky Book 5 — complete in English",
+            "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, now readable end to end.",
+            "rarity": "milestone",
+            "href": "./library.html#booksSection",
+        })
+    for t in feed.get("latest_translations", [])[:3]:
+        ln = _lang_label(t.get("language"))
+        news.append({
+            "date": t["date"],
+            "kind": "translation",
+            "title": t["title"],
+            "excerpt": (t.get("excerpt") or "")[:160],
+            "rarity": ("fresh from " + ln) if ln else "fresh translation",
+            "href": "./library.html#trans-" + t["file"],
+            "source_url": t.get("source_url") or "",
+        })
+    for d in feed.get("declassified", [])[-2:]:
+        news.append({
+            "date": today,
+            "kind": "declassified",
+            "title": d.get("title"),
+            "excerpt": (d.get("description") or "")[:160],
+            "rarity": "newly opened",
+            "href": "./library.html#declass-" + _declass_slug(d.get("file")),
+        })
+    frag = 0
+    for s in feed.get("latest_finds", [])[:8]:
+        for f in s.get("finds", [])[:5]:
+            u = f.get("url") or ""
+            if FRAGILE_HOSTS.search(u):
+                news.append({
+                    "date": s.get("date", ""),
+                    "kind": "find",
+                    "title": f.get("title"),
+                    "excerpt": (f.get("description") or "")[:160],
+                    "rarity": "host may vanish",
+                    "href": u,
+                    "source_url": u,
+                })
+                frag += 1
+                if frag >= 2:
+                    break
+        if frag >= 2:
+            break
+    news.sort(key=lambda n: n["date"], reverse=True)
+    feed["news"] = news[:8]
+
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=2)
-    print(f"library_feed.json written: {translations_done} published translations, "
+    print(f"library_feed.json written: {len(translation_works)} translation works "
+          f"({translation_files} files), {len(feed['news'])} news items, "
           f"{len(feed['latest_finds'])} scout reports, {len(feed['top_researchers'])} researchers, "
           f"{len(feed['domains'])} domains")
     print(f"DB: {feed['library']['researchers']} researchers, {feed['library']['patents']} patents, "
