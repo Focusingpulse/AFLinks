@@ -27,7 +27,13 @@ decisions in `living-library/synthesis/2026-09-06-architecture-debate-dossier.md
 - [ ] **Curated-only tiny embeddings** (~150 works, <0.2MB uint8) — semantic recall on the gems.
 - [ ] **Timeline view** — only if a cheap date field materializes.
 
-## Kill / defer hard
+## Phase 4 — The Replication Yard (practical applications + people's lab)
+
+- [x] **Engine cadence up** — practicality-engine cron now 3x daily (06/14/22 UTC), one branded card per run, rotating fields. *2026-09-06*
+- [x] **Replication Yard pavilion on the main site** — library.html section fed by feed["practical"] (quests + dossiers + validations) with reader + submission invite + Permies credit. *2026-09-06 cbe7a34*
+- [ ] **Quest cards accumulating** — queue holds card 001 (Wasserwirbler, water); energy card next.
+- [ ] **Validations flowing** — first family attempts post results (Chris + family = first replicators).
+- [ ] **Uber-for-labs future** — lab registry + results-index page; scale home → network.
 
 - Backend API / Postgres / vector DB — a moving existential dependency on a $0 static budget.
 - Full 15k client-side embeddings — 23.6MB float32 is a phone killer.
