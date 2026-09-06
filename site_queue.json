@@ -222,13 +222,14 @@
     },
     {
       "name": "padrak.com/ine",
-      "status": "complete",
+      "status": "crawled",
       "base_url": "http://padrak.com/ine",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "~130+ device pages, INE (Institute for New Energy) directory"
+      "notes": "~130+ device pages, INE (Institute for New Energy) directory",
+      "file_count": 1
     }
   ]
 }
