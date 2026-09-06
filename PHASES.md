@@ -13,11 +13,11 @@ decisions in `living-library/synthesis/2026-09-06-architecture-debate-dossier.md
 
 ## Phase 2 — Pattern machinery (this month)
 
-- [ ] **Wrong-Turn Death Certificates** — claim/status(died|suppressed|continued)/cause/late-confirmation per primary source. Priority: Epstein/Pons/LENR, Schauberger 1951 patent, Magnitsky.
-- [ ] **Contradiction pass** — CONTRADICTS edges with quote + confidence on the testable cluster (Toulgoat ↔ TUO ↔ Besson).
-- [ ] **Tokenized rarity-ranked search** — replace substring scan; rare cross-category co-occurrence ranking ("gravitational shielding × plasma" surfaces because the pair is rare). Also makes the DEFAULT search payload lean (drop the 18MB fetch).
-- [ ] **Seeded Vesica** — "brightest seams" prefill from `connections.shared`.
-- [ ] **Retrieval-grounding rules** — canonical `@id` + quote-citation contract in the feed so synthesists stop hallucinating archive contents.
+- [x] **Tokenized rarity-ranked search** — `token_index.json` (10.8k tokens, ~400KB gzip) + IDF scoring in index.html. Rare cross-token matches rank first ("gravitational shielding × plasma" surfaces because the pair is rare). Substring fallback preserved. *2026-09-06 f035c76*
+- [x] **Seeded Vesica** — vault.html "⚓ Brightest seams" button cycles the top-5 most-connected theme pairs from the live seam index. *2026-09-06 f035c76*
+- [x] **Retrieval-grounding rules** — `retrieval_contract` block in library_feed.json (canonical doc:<id>, quote format, 5 no-fabrication rules). *2026-09-06 f035c76*
+- [ ] **Wrong-Turn Death Certificates** — schema + priority lineages in cron-coordination/DEATH-CERTIFICATES.md; durable cloud cron phase2-death-certs (daily 05:00 UTC) producing one per run. *fleet lane — running*
+- [ ] **Contradiction pass** — CONTRADICTS edges with quote + confidence on the testable cluster (Toulgoat ↔ TUO ↔ Besson). *fleet lane — next after death certs*
 
 ## Phase 3 — This quarter
 
