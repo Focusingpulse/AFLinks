@@ -950,6 +950,24 @@ def main():
         feed["library"]["graph_edges"] = g.get("stats", {}).get("edges", 0)
         feed["library"]["graph_nodes"] = sum(v for k, v in g.get("stats", {}).items() if k != "edges")
 
+    # --- 9c. Retrieval-grounding rules — the citation contract for entities ---
+    # Phase 2 (AI-entity position): agents and synthesists hallucinate archive
+    # contents when there's no id+quote grounding rule on the record. This is
+    # the difference between AI finding new science and AI inventing it.
+    feed["retrieval_contract"] = {
+        "version": 1,
+        "canonical_id": "doc:<id>",
+        "quote_format": "「exact quoted text」 — doc:<id> (title, host)",
+        "rules": [
+            "Every factual claim about archive content must cite doc:<id>.",
+            "Quotes must be verbatim from the document, never paraphrased as quotes.",
+            "A document's existence is not evidence its claims are true — patents are claims, not validations.",
+            "Contradictory documents must be cited as contradictions, not resolved silently.",
+            "Never fabricate links between documents; the archive-graph.json edges are the only sanctioned relationships.",
+        ],
+        "dereference": {"doc": "archive-graph.json nodes.work/translation -> index.json#id"},
+    }
+
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=2)

@@ -661,6 +661,7 @@ header .af-link:hover {
   <div class="vesica-select">
     <select id="vesicaLeft"></select>
     <select id="vesicaRight"></select>
+    <button id="vesicaSeeds" class="seam-more" title="Fill the two views with the archive's most-connected theme pairs" style="margin-left:6px;cursor:pointer;background:var(--bg2);border:1px solid var(--border);color:var(--gold);border-radius:20px;padding:4px 12px;font-size:0.78rem;">⚓ Brightest seams</button>
   </div>
   <div class="vesica-visual">
     <div class="vesica-circle" id="vesicaLeftLabel">&#8212;</div>
@@ -918,6 +919,8 @@ function renderVesicaMode() {
   updateVesicaDisplay();
   leftSel.onchange = updateVesicaDisplay;
   rightSel.onchange = updateVesicaDisplay;
+  const seedBtn = document.getElementById('vesicaSeeds');
+  if (seedBtn) { seedBtn.onclick = seedBrightestSeam; }
 
   const grid = document.getElementById('vaultGrid');
   grid.innerHTML = '';
@@ -993,6 +996,43 @@ function updateVesicaDisplay() {
   });
 
   renderSeam(leftVal, rightVal);
+}
+
+// ── Seeded Vesica: "Brightest seams" ────────────────────────────────────────
+// The archive already knows which theme pairs are most connected — hand the
+// human the hypothesis instead of making them invent it. Cycle the top 5
+// pairs (by exact overlap count) on each click.
+let topSeamsCache = null, topSeamsIdx = 0;
+function buildTopSeams() {
+  if (!SEAM_INDEX || !SEAM_INDEX.category_index) return [];
+  const cats = Object.keys(SEAM_INDEX.category_index);
+  const pairs = [];
+  for (let i = 0; i < cats.length; i++) {
+    for (let j = i + 1; j < cats.length; j++) {
+      const a = cats[i], b = cats[j];
+      const la = SEAM_INDEX.category_index[a] || [];
+      const lb = SEAM_INDEX.category_index[b] || [];
+      const rs = new Set(lb);
+      let both = 0;
+      for (let k = 0; k < la.length; k++) if (rs.has(la[k])) both++;
+      if (both > 0) pairs.push({ a, b, both });
+    }
+  }
+  pairs.sort((x, y) => y.both - x.both);
+  return pairs.slice(0, 5);
+}
+function seedBrightestSeam() {
+  if (!topSeamsCache) topSeamsCache = buildTopSeams();
+  if (!topSeamsCache.length) return;
+  const p = topSeamsCache[topSeamsIdx % topSeamsCache.length];
+  topSeamsIdx++;
+  const ls = document.getElementById('vesicaLeft');
+  const rs = document.getElementById('vesicaRight');
+  ls.value = p.a;
+  rs.value = p.b;
+  updateVesicaDisplay();
+  const hint = document.getElementById('vesicaSeamTitle');
+  if (hint) hint.textContent = `Brightest seam ${topSeamsIdx} of ${topSeamsCache.length} — ${p.both.toLocaleString()} documents in both`;
 }
 
 function escapeHtml(s) {
@@ -1160,7 +1200,7 @@ let SEAM_INDEX = null;
 // so the vault total + every chest stays current as new archives come online.
 async function loadLiveStats() {
   try {
-    const res = await fetch('./library_feed.json?v=20260906025205');
+    const res = await fetch('./library_feed.json?v=20260906031816');
     const feed = await res.json();
     const lib = feed.library || {};
     if (typeof lib.archive_entries === 'number') {

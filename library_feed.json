@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T02:52:05Z",
+  "generated_at": "2026-09-06T03:18:16Z",
   "library": {
     "researchers": 978,
     "researchers_cataloged": 189,
@@ -171220,6 +171220,21 @@
       "work": 105,
       "translation": 62,
       "edges": 453
+    }
+  },
+  "retrieval_contract": {
+    "version": 1,
+    "canonical_id": "doc:<id>",
+    "quote_format": "「exact quoted text」 — doc:<id> (title, host)",
+    "rules": [
+      "Every factual claim about archive content must cite doc:<id>.",
+      "Quotes must be verbatim from the document, never paraphrased as quotes.",
+      "A document's existence is not evidence its claims are true — patents are claims, not validations.",
+      "Contradictory documents must be cited as contradictions, not resolved silently.",
+      "Never fabricate links between documents; the archive-graph.json edges are the only sanctioned relationships."
+    ],
+    "dereference": {
+      "doc": "archive-graph.json nodes.work/translation -> index.json#id"
     }
   }
 }

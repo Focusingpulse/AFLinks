@@ -1726,6 +1726,32 @@
 
     <script>
         let allData = [];
+        let tokenIndex = null; // {N, tokens:{tok:{df,ids}}} — rarity-ranked search
+        let searchMemo = { term: null, scores: null }; // cached per-term scores
+        const SEARCH_STOP = new Set(['the','and','for','with','from','von','der','die','das','und','des','que','les','une','est','this','that','these','those','has','had','was','were','are','is','of','in','on','at','to','a','an','it','its','as','by','or','not','be','been','but','do','does','did','have','having','will','would','can','could','should','may','might','must','shall','about','into','over','under','again','further','then','once','here','there','when','where','why','how','all','any','both','each','few','more','most','other','some','such','only','own','same','so','than','too','very','etc']);
+        function tokenizeSearch(term) {
+            return (String(term || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').match(/[a-z0-9]{3,}/g) || [])
+                .filter(t => !SEARCH_STOP.has(t));
+        }
+        function computeSearchScores(term) {
+            const toks = tokenizeSearch(term);
+            if (!tokenIndex || !tokenIndex.tokens || !toks.length) return null;
+            const N = tokenIndex.N || 0;
+            const scores = new Map();
+            toks.forEach(t => {
+                const entry = tokenIndex.tokens[t];
+                if (!entry) return;
+                const idf = Math.log((N + 1) / (entry.df + 1)) + 1;
+                (entry.ids || []).forEach(id => scores.set(id, (scores.get(id) || 0) + idf));
+            });
+            return scores;
+        }
+        function searchScoresFor(term) {
+            if (searchMemo.term !== term) {
+                searchMemo = { term: term, scores: computeSearchScores(term) };
+            }
+            return searchMemo.scores;
+        }
         let fullManifest = null;
         const fullCache = {};
         let activeCategory = null;
@@ -2287,7 +2313,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260906025205')
+            fetch('./synthesis/synthesis_index.json?v=20260906031816')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -2762,7 +2788,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260906025205');
+                        const response = await fetch('./search_index.json?v=20260906031816');
                         return response.json();
                     };
                     if (catParam) {
@@ -2788,12 +2814,16 @@
                 }
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260906025205');
+                    const tokRes = await fetch('./token_index.json?v=20260906021833');
+                    tokenIndex = await tokRes.json();
+                } catch (e) { /* token search optional; substring fallback stays */ }
+                try {
+                    const man = await fetch('./full_manifest.json?v=20260906031816');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260906025205');
+                    const feedRes = await fetch('./library_feed.json?v=20260906031816');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -3011,20 +3041,40 @@
                 }
                 if (searchTerm) {
                     const s = searchTerm.toLowerCase();
-                    const haystack = (
-                        (item.title || '') + ' ' +
-                        (item.filename || '') + ' ' +
-                        (item.primary_person || '') + ' ' +
-                        (item.patent_numbers || []).join(' ') + ' ' +
-                        (item.categories || []).join(' ') + ' ' +
-                        (item.meta_categories || []).join(' ') + ' ' +
-                        (item.content_preview || '') + ' ' +
-                        (item.search_text || '')
-                    ).toLowerCase();
-                    if (!haystack.includes(s)) return false;
+                    // Phase 2: tokenized rarity-ranked search. Score docs by
+                    // summed IDF over matched query tokens; rare tokens (e.g.
+                    // "shielding" x "plasma") weight most — the blind-spot
+                    // detector. Falls back to substring scan if the token
+                    // index isn't loaded.
+                    const scores = searchScoresFor(searchTerm);
+                    if (scores) {
+                        if (!scores.has(item.id)) return false;
+                    } else {
+                        const haystack = (
+                            (item.title || '') + ' ' +
+                            (item.filename || '') + ' ' +
+                            (item.primary_person || '') + ' ' +
+                            (item.patent_numbers || []).join(' ') + ' ' +
+                            (item.categories || []).join(' ') + ' ' +
+                            (item.meta_categories || []).join(' ') + ' ' +
+                            (item.content_preview || '') + ' ' +
+                            (item.search_text || '')
+                        ).toLowerCase();
+                        if (!haystack.includes(s)) return false;
+                    }
                 }
                 return true;
             });
+
+            // Rank by search score when the token index is active — results
+            // surface the rarest matches first (pattern-spotting order).
+            if (searchTerm) {
+                const scores = searchScoresFor(searchTerm);
+                if (scores && filtered.length > 1) {
+                    filtered.sort((a, b) => (scores.get(b.id) || 0) - (scores.get(a.id) || 0));
+                }
+            }
+            return filtered;
         }
 
         function renderResults() {

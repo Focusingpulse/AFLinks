@@ -26,6 +26,24 @@ SLIM_FIELDS = ["id", "title", "filename", "categories", "meta_categories",
                "primary_person", "patent_numbers", "type", "size_bytes",
                "source_site", "content_preview"]
 
+# Phase 2: tokenized rarity-ranked search. Build a compact token index:
+# token -> {ids:[docId...], df:n} over the metadata + a short preview slice.
+# Tokens too common (df > cap) are dropped — they carry no signal. Stopwords
+# and short tokens are excluded. Size target: well under 1MB gzipped.
+TOKEN_MAX_DF = 6000
+TOKEN_PREVIEW_CHARS = 70
+STOPWORDS = set("""the and for with from von der die das und des que les une est et les
+this that these those has had was were are is of in on at to a an it its as by or
+not no be been being but do does did done have having will would can could should
+may might must shall about into over under again further then once here there when
+where why how all any both each few more most other some such only own same so
+than too very s t can just don now""".split())
+
+
+def tokenize(text):
+    toks = re.findall(r"[a-z0-9]{3,}", (text or "").lower())
+    return [t for t in toks if t not in STOPWORDS]
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -108,6 +126,38 @@ def main():
     chunk_kb = sum(os.path.getsize(os.path.join(chunk_dir, c["file"].split("/")[-1])) for c in search_manifest["chunks"].values()) / 1024
     biggest = max(search_manifest["chunks"].values(), key=lambda c: c["count"])
     print(f"search chunks: {len(search_manifest['chunks'])} meta-categories -> search_chunks/ ({chunk_kb:.0f} KB total; biggest: {biggest['count']} docs)")
+
+    # Phase 2: compact token index for rarity-ranked search. {token: {ids, df}}
+    # from title/filename/person/patents/categories/meta + short preview slice.
+    df = {}
+    post = {}
+    for rec in slim:
+        did = rec.get("id")
+        if did is None:
+            continue
+        hay = " ".join([
+            str(rec.get("title") or ""),
+            str(rec.get("filename") or ""),
+            str(rec.get("primary_person") or ""),
+            " ".join(rec.get("patent_numbers") or []),
+            " ".join(rec.get("categories") or []),
+            " ".join(rec.get("meta_categories") or []),
+            (rec.get("content_preview") or "")[:TOKEN_PREVIEW_CHARS],
+        ])
+        seen = set(tokenize(hay))
+        for t in seen:
+            post.setdefault(t, []).append(did)
+    token_index = {"N": len(slim), "tokens": {}}
+    for t, ids in post.items():
+        n = len(ids)
+        if n <= 1 or n > TOKEN_MAX_DF:
+            continue  # singletons add only noise; ultra-common add no rank signal
+        token_index["tokens"][t] = {"df": n, "ids": ids}
+    out_tok = os.path.join(args.outdir, "token_index.json")
+    with open(out_tok, "w", encoding="utf-8") as f:
+        json.dump(token_index, f, separators=(",", ":"))
+    tok_kb = os.path.getsize(out_tok) / 1024
+    print(f"token index: {len(token_index['tokens'])} tokens -> token_index.json ({tok_kb:.0f} KB)")
 
     _bake_live_stats()
 
