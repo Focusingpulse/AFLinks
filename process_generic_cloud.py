@@ -8,7 +8,8 @@ Usage: python process_generic_cloud.py <site_name>
 import os, re, json, time, tempfile, subprocess, urllib.parse, urllib.request, sys
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-BUDGET = 1500  # seconds - ~510 files per run (raised for economy: fewer wakes, more work)
+BUDGET = int(os.environ.get('PROCESS_BUDGET', '1500'))  # seconds; env override for cron turns
+USE_WAYBACK = os.environ.get('FETCH_WAYBACK', '') == '1'  # fetch html previews via Wayback (fast, for throttling sites)
 
 def get_paths(site_name):
     """Get file list and progress paths for a site."""
@@ -61,7 +62,9 @@ def extract_pdf_text(pdf_path, max_chars=2000):
         return ""
 
 def fetch_html_text(url, max_chars=2000):
-    data = fetch_url(url, timeout=15)
+    if USE_WAYBACK:
+        url = "https://web.archive.org/web/2024/" + url
+    data = fetch_url(url, timeout=30)
     if data is None: return ""
     text = data.decode('utf-8', errors='replace')
     text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL)
