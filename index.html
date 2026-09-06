@@ -11,7 +11,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="description" content="Aetherforce Knowledge Vault — 13,540 searchable primary-source documents on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
     <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
-    <meta property="og:description" content="13,540 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
+    <meta property="og:description" content="15,392 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
     <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
@@ -1504,8 +1504,8 @@
     <div class="hero pirate-hero">
         <span class="hero-kicker">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1>Aetherforce Treasure Vault</h1>
-        <p>Explore <span id="heroDocCount">13,540</span> primary source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Each one cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">90</span> translations published · <span id="heroPagesCount">1,089</span> pages translated &amp; growing</p>
+        <p>Explore <span id="heroDocCount">15,392</span> primary source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Each one cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">97</span> translations published · <span id="heroPagesCount">1,324</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" href="./vault.html">🗝 Enter the Vault</a>
@@ -1554,7 +1554,7 @@
 
     <noscript>
         <div class="noscript-box">
-            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">13,540</span> documents</strong> are still yours to explore:</p>
+            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">15,392</span> documents</strong> are still yours to explore:</p>
             <ul>
                 <li><a href="./stats.json">Live stats (small JSON — agents welcome)</a></li>
                 <li><a href="./index.html?cat=Aether%20Physics">Browse Aether Physics</a></li>
@@ -2218,7 +2218,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260904035558')
+            fetch('./synthesis/synthesis_index.json?v=20260906004119')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -2671,16 +2671,16 @@
                 if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
                 // Load the SLIM search index (fast) — full records are
                 // fetched lazily per chunk when a detail modal opens.
-                const response = await fetch('./search_index.json?v=20260904035558');
+                const response = await fetch('./search_index.json?v=20260906004119');
                 allData = await response.json();
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260904035558');
+                    const man = await fetch('./full_manifest.json?v=20260906004119');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260904035558');
+                    const feedRes = await fetch('./library_feed.json?v=20260906004119');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.translations != null) {
