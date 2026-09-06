@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:29:28Z",
+  "generated_at": "2026-09-06T14:50:13Z",
   "library": {
     "researchers": 978,
     "researchers_cataloged": 189,
@@ -42,7 +42,10 @@
       "Frontier Science": 63
     },
     "graph_edges": 453,
-    "graph_nodes": 345
+    "graph_nodes": 345,
+    "practical_quests": 1,
+    "replication_dossiers": 2,
+    "validations": 0
   },
   "latest_translations": [
     {
@@ -171440,5 +171443,34 @@
     "dereference": {
       "doc": "archive-graph.json nodes.work/translation -> index.json#id"
     }
+  },
+  "practical": {
+    "quests": [
+      {
+        "file": "synthesis/quest-queue/2026-09-06-wasserwirbler.md",
+        "date": "2026-09-06",
+        "title": "quest card 001 — Wasserwirbler water vortexer",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
+      }
+    ],
+    "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-06-dossier-002-eeman-circuit.md",
+        "date": "2026-09-06",
+        "title": "replication dossier 002 — Eeman relaxation circuit",
+        "status": "draft",
+        "excerpt": "# Replication Dossier 002 — The Eeman Relaxation Circuit\n\n## Source lineage\n\n- **L. E. Eeman (1876–1958)** — \"Cooperative Healing\" (1930s-40s); the self-connecting circuit family (relaxation coils, ra"
+      },
+      {
+        "file": "synthesis/replication/2026-09-06-dossier-001-wasserwirbler.md",
+        "date": "2026-09-06",
+        "title": "replication dossier 001 — Schauberger water vortexer",
+        "status": "draft",
+        "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
+      }
+    ],
+    "validations": [],
+    "queue_url": "synthesis/quest-queue/"
   }
 }

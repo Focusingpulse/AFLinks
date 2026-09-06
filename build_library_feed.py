@@ -1070,6 +1070,66 @@ def main():
         "dereference": {"doc": "archive-graph.json nodes.work/translation -> index.json#id"},
     }
 
+    # --- 9d. The Replication Yard — practical applications pavilion ---
+    # Chris (2026-09-06): the main site needs practical applications with a
+    # feedback loop — quest cards, replication dossiers, and incoming
+    # validations visible publicly, with a submission path. Reads the
+    # living-library synthesis folders; the site renders them.
+    practical = {"quests": [], "dossiers": [], "validations": [], "queue_url": None}
+    qdir = os.path.join(LL, "synthesis", "quest-queue")
+    if os.path.isdir(qdir):
+        for path in sorted(glob.glob(os.path.join(qdir, "*.md")), reverse=True):
+            base = os.path.basename(path)
+            if base.lower() == "readme.md":
+                continue
+            meta, title, body = parse_md_frontmatter(path)
+            # pull a rough status from body for cheap front-end filtering
+            status = "proposed"
+            m = re.search(r"status:\s*\*{0,2}(proposed|approved|merged|rejected)", body)
+            if m:
+                status = m.group(1)
+            practical["quests"].append({
+                "file": f"synthesis/quest-queue/{base}",
+                "date": base[:10],
+                "title": title,
+                "status": status,
+                "excerpt": (body.strip()[:200] or ""),
+            })
+    rdir = os.path.join(LL, "synthesis", "replication")
+    if os.path.isdir(rdir):
+        for path in sorted(glob.glob(os.path.join(rdir, "*.md")), reverse=True):
+            base = os.path.basename(path)
+            meta, title, body = parse_md_frontmatter(path)
+            status = "draft"
+            m = re.search(r"Status:\s*\*{0,2}([\w\-]+)", body)
+            if m:
+                status = m.group(1)
+            practical["dossiers"].append({
+                "file": f"synthesis/replication/{base}",
+                "date": base[:10],
+                "title": title,
+                "status": status,
+                "excerpt": (body.strip()[:200] or ""),
+            })
+    vdir = os.path.join(LL, "synthesis", "validations")
+    if os.path.isdir(vdir):
+        for path in sorted(glob.glob(os.path.join(vdir, "*.md")), reverse=True):
+            base = os.path.basename(path)
+            if base.lower() == "readme.md":
+                continue
+            meta, title, body = parse_md_frontmatter(path)
+            practical["validations"].append({
+                "file": f"synthesis/validations/{base}",
+                "date": base[:10],
+                "title": title,
+                "excerpt": (body.strip()[:200] or ""),
+            })
+    practical["queue_url"] = f"synthesis/quest-queue/"
+    feed["practical"] = practical
+    feed["library"]["practical_quests"] = len(practical["quests"])
+    feed["library"]["replication_dossiers"] = len(practical["dossiers"])
+    feed["library"]["validations"] = len(practical["validations"])
+
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(feed, f, ensure_ascii=False, indent=2)

@@ -616,6 +616,16 @@ footer a { color: var(--gold); text-decoration: none; }
   <div id="bridgesList"><div class="loading">Loading bridges...</div></div>
 </div>
 
+<!-- Replication Yard — practical applications + feedback loop -->
+<div class="section" id="yardSection">
+  <h2>⚗ The Replication Yard <span class="sub">practical applications — build it, test it, report back. Your home bench is a lab node.</span></h2>
+  <div class="yard-intro">
+    <p>Every quest here is a <strong>test of a claim, not an endorsement</strong>. Pick one, build it with ordinary materials, run the pre-registered protocol, and post your results — <strong>supports, refutes, or inconclusive all count</strong> (negative results are gold; they earn a Skeptic's Star). Two independent attempts move a verdict.</p>
+    <p class="yard-credit">Modeled on the Permies PEP/SKIP proof system and its "post the photo, earn the badge" loop — we're building the same honest proof culture for the technical and advanced stuff. Credit to the permaculture crew for the form we're refining.</p>
+  </div>
+  <div class="yard-grid" id="yardGrid"><div class="loading">Loading the yard...</div></div>
+</div>
+
 <!-- Translations -->
 <div class="section" id="translationsSection">
   <h2>Fresh Translations <span class="sub">first-ever English translations — cargo the multilingual scouts hauled back</span></h2>
@@ -659,7 +669,7 @@ let LIVING_FEED = null;
 
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json?v=20260906132928');
+    const res = await fetch('./library_feed.json?v=20260906145013');
     const feed = await res.json();
     LIVING_FEED = feed;
     renderStats(feed.library);
@@ -668,6 +678,7 @@ async function loadFeed() {
     renderActivity(feed.activity_log);
     renderAtsyukovsky(feed.atsuyskovsky_books);
     renderBridges(feed.bridges);
+    renderYard(feed.practical);
     renderTranslations(feed.latest_translations);
     renderFinds(feed.latest_finds);
     renderResearchers(feed.top_researchers);
@@ -840,6 +851,86 @@ function renderStats(lib) {
     d.innerHTML = `<div class="num">${num == null ? '\u2014' : Number(num).toLocaleString()}</div><div class="lbl">${lbl}</div>`;
     band.appendChild(d);
   });
+}
+
+function renderYard(practical) {
+  const el = document.getElementById('yardGrid');
+  const sec = document.getElementById('yardSection');
+  if (!el) return;
+  if (!practical || (!practical.quests.length && !practical.dossiers.length && !practical.validations.length)) {
+    el.innerHTML = '<div class="empty">The yard is being seeded — quest cards are queued and will appear here as they pass review.</div>';
+    return;
+  }
+  el.innerHTML = '';
+  const stat = (s) => `<span class="lang-badge sm" style="color:${s === 'refuted' ? 'var(--gold-bright)' : 'var(--accent)'};">${escapeHtml(s)}</span>`;
+  // Quest cards
+  practical.quests.slice(0, 4).forEach(q => {
+    const d = document.createElement('div');
+    d.className = 'translation-card';
+    d.innerHTML = `
+      <h3>🌀 ${escapeHtml(q.title)}</h3>
+      <div class="meta"><span>quest · ${escapeHtml(q.status)}</span><span>${q.date}</span></div>
+      <div class="excerpt">${escapeHtml(q.excerpt)}</div>
+      <span class="read-btn read-yard" data-file="${q.file}">Read quest card ⚡</span>
+    `;
+    el.appendChild(d);
+  });
+  // Dossiers
+  practical.dossiers.slice(0, 4).forEach(r => {
+    const d = document.createElement('div');
+    d.className = 'translation-card';
+    d.innerHTML = `
+      <h3>🧪 ${escapeHtml(r.title)}</h3>
+      <div class="meta"><span>dossier · ${escapeHtml(r.status)}</span><span>${r.date}</span></div>
+      <div class="excerpt">${escapeHtml(r.excerpt)}</div>
+      <span class="read-btn read-yard" data-file="${r.file}">Read protocol 🔬</span>
+    `;
+    el.appendChild(d);
+  });
+  // Validations
+  if (practical.validations.length) {
+    const v = practical.validations[0];
+    const card = document.createElement('div');
+    card.className = 'translation-card';
+    card.innerHTML = `
+      <h3>🌾 Latest validation</h3>
+      <div class="meta"><span>people's lab</span><span>${v.date}</span></div>
+      <div class="excerpt">${escapeHtml(v.excerpt)}</div>
+      <span class="read-btn read-yard" data-file="${v.file}">Read result</span>
+    `;
+    el.appendChild(card);
+  }
+  // Submission invite
+  const invite = document.createElement('div');
+  invite.className = 'translation-card';
+  invite.innerHTML = `
+    <h3>🔭 Build your own lab</h3>
+    <div class="excerpt">Garage bench, basement, spare room — every home is a lab node. Pick a quest, build it, run the protocol, post your numbers and photos. Supports, refutes, or inconclusive — all of it moves the archive.</div>
+    <span class="src-link">How to submit: post results to the living library validations channel, and share the photo + story on Permies.</span>
+  `;
+  el.appendChild(invite);
+
+  // wire the read buttons
+  el.querySelectorAll('.read-yard').forEach(btn => {
+    btn.addEventListener('click', () => openYardFile(btn.dataset.file));
+  });
+}
+
+async function openYardFile(file) {
+  const overlay = document.getElementById('readerOverlay');
+  document.getElementById('readerTitle').textContent = 'Replication Yard · record';
+  document.getElementById('readerMeta').innerHTML = '<span>source: living library</span>';
+  document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading record...</div>';
+  overlay.classList.add('show');
+  document.body.style.overflow = 'hidden';
+  try {
+    const res = await fetch('./' + file.replace(/^\.?\//, ''), { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const text = await res.text();
+    document.getElementById('readerBody').innerHTML = miniMarkdown(text);
+  } catch (e) {
+    document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Could not load the record — it may not be published to the site yet.</div>';
+  }
 }
 
 function renderBridges(bridges) {
