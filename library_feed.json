@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T03:18:16Z",
+  "generated_at": "2026-09-06T04:02:53Z",
   "library": {
     "researchers": 978,
     "researchers_cataloged": 189,
@@ -4617,7 +4617,7 @@
       "mission": "Long-haul translation of Atsyukovsky Book 5 — one chunk at a time, through the night.",
       "schedule": "overnight hourly",
       "icon": "📖",
-      "last_run": "2026-09-05T12:00:55Z",
+      "last_run": "2026-09-06T04:00:28Z",
       "last_status": "ok",
       "last_summary": "+0 chunks since last run (still 220) | now 220/220, translation complete — no work needed (gear: overdrive)"
     },
@@ -4667,6 +4667,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-06",
+      "time": "04:00",
+      "agent": "Book5 Translate",
+      "summary": "+0 chunks — No-op: Book5 translation already complete at 220/220 chunks (521KB assembled). Heartbeat only."
+    },
     {
       "date": "2026-09-06",
       "time": "00:18",
@@ -5020,12 +5026,6 @@
       "time": "16:07",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — NO new foreign-language LENR queue candidates. All 24 tracked records re-verified live via Zenodo keyword + author queries, clusters stable (zh Lin pool 7+dedupe+Zhuang 20668098+Du 20736072, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31+DYN-LENR+nanodiamond, it Pulvirenti/Marino, ja DMF+Tomita, de KBF-01). Fresh LENR-keyword window now 13 days clean (newest 22036645 08-21); 8-language title sweeps empty in window; author queries = no new LENR versions (Du surfaced 21217533 eng Cosserat torsion-bound-state electron = context only, NOT candidate). Context only: Joseph George Filled Atom (eng, known), Star Fusion QHET promo, RKhTYA & ShM-29 ru conference 09-28. Archive 13,161 / 71 trans / 833 pg / 23 declass / 2339 patents / 100 researchers / 14 agents (feed 00:21Z, unchanged). Translator ACTIVE — Barrett DE→EN 09-02 22:19Z + Translation-QC 09-03 12:10Z + Forge synthesis 15:58Z, NOT stale; no claims. tuks down (000), lenr-canr up, viXra /new 404, preprints.ru Lebedkin alive. OCR/queue/tag pending on FocusOptimized — next on-machine: zh queue TOP (Lin pool + 20668098 + 20736072) + Torchigin 21532952 ru low-priority. Report sources/2026-09-03-scout-finds-1600-scout.md + living-library 2026-09-03-scout-report-1600.md."
-    },
-    {
-      "date": "2026-09-03",
-      "time": "04:21",
-      "agent": "translator-foreign",
-      "summary": "+33 chunks — Extended Theory of Electromagnetism (DE->EN) COMPLETE - 33/33 chunks, ~40KB, published to AFLinks"
     }
   ],
   "declassified": [
