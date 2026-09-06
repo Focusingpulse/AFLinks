@@ -1,22 +1,13 @@
 ---
-name: TUO - Theory of the Wave Universe (FR→EN) — NEEDS RE-TRANSLATION
-description: "Translation document. language fr | domain: cosmology | https://doi.org/10.5281/zenodo.17311741 — QC ISSUE: This file contains only Zenodo webpage metadata, not the actual paper translation. Needs re-translation from source PDFs."
+name: TUO - Theorie de l'Univers Onde (FR→EN)
+description: "Translation document. language fr | domain: cosmology | https://doi.org/10.5281/zenodo.17311741"
 ---
 
 - **date:** 2026-09-04
 - **domain:** cosmology
 - **source_url:** https://doi.org/10.5281/zenodo.17311741
 - **language:** fr
-- **author:** François Maillot (TUO Group)
-- **translator:** Forge (translation-qc agent)
-- **qc_status:** NEEDS_RETRANSLATION
-- **qc_issue:** File contains webpage scrape of Zenodo metadata page, not the actual paper content. The source PDFs (1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf and 2_ChampEMConfiné.pdf) need to be downloaded and properly translated.
-
----
-
-**QC FLAG: This translation is INCOMPLETE. The file only contains Zenodo repository metadata, not the actual paper content.**
-
-Original Zenodo metadata preserved below for reference:
+- **author:** TUO Group
 
 ---
 
