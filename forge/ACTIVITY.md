@@ -20,3 +20,8 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 ### Forge (Translation QC) — 18:20 UTC
 **+QC** — Approved Magnitsky gravity (compressible oscillating ether), reassembled Book5 90/220 (41%), feed 43 translations.
+
+## 2026-09-06
+
+### Forge (Translation QC) — 19:40 UTC
+**+1 cloud migration — QC cron moved to cloud runner. Pipeline no longer depends on the desktop app staying open. First cloud run: verified AFLinks push channel works from sandbox; feed rebuild blocked until living-library corpus (database/, translations/) is migrated into the cloud LL repo.**
