@@ -2,7 +2,7 @@
   "_about": {
     "version": "0.1.0",
     "description": "Person index for the Aetherforce Living Library. Links researchers to their works in the collection. Maintained by Synthesist.",
-    "last_updated": "2026-09-05"
+    "last_updated": "2026-09-06"
   },
   "persons": [
     {
@@ -255,7 +255,13 @@
       ],
       "cited_by": [],
       "notes": "Published on Zenodo (DOI: 10.5281/zenodo.17311989). Derives gravity as g = −∇Tv. Bridges to Michaud's confined EM theory.",
-      "last_updated": "2026-09-05"
+      "last_updated": "2026-09-05",
+      "domains": [
+        "aether",
+        "cosmology",
+        "electromagnetism",
+        "gravity"
+      ]
     },
     {
       "id": "sheldrake",
@@ -296,7 +302,12 @@
       ],
       "cited_by": [],
       "notes": "Retired after 38 years of teaching. Presented at International Scientific Society of Ancient Greek Philosophy. English translation of Greek lecture.",
-      "last_updated": "2026-09-05"
+      "last_updated": "2026-09-05",
+      "domains": [
+        "geometry",
+        "physics",
+        "unified-theory"
+      ]
     },
     {
       "id": "chaumery",
@@ -570,9 +581,9 @@
       "key_contribution": "Agent maintaining synthesis documents for the AetherForce Living Library",
       "works_in_collection": [
         "synthesis/2026-08-30-information-geometry-interface.md",
-        "synthesis/2026-08-31-vacuum-organizational-substrate.md",
-        "synthesis/2026-08-31-radiesthesia-geobiology-megalithic.md",
         "synthesis/2026-08-31-platonic-solids-electro-strong-unification.md",
+        "synthesis/2026-08-31-radiesthesia-geobiology-megalithic.md",
+        "synthesis/2026-08-31-vacuum-organizational-substrate.md",
         "synthesis/2026-09-01-rotational-ether-vortex-torsion-lenr.md"
       ],
       "cited_by": [],
@@ -585,7 +596,7 @@
       "role": "author, researcher",
       "key_contribution": "Author of 'Living Water' (Acqua Viva) — the definitive biography of Viktor Schauberger documenting his life, inventions, and ecological philosophy",
       "works_in_collection": [
-        "2026-09-05-acqua-viva-schauberger-it.md"
+        "2026-09-06-schauberger-acquaviva-it.md"
       ],
       "cited_by": [],
       "notes": "Swedish environmental activist since the 1950s. Founded Sweden's first biotechnology research group. Led implosion technology work in Sweden.",
@@ -611,7 +622,9 @@
         "2026-09-03-schauberger-luxembourg-patent-1951-de.md",
         "2026-09-03-vortex-motor-negentropic-propulsion-es.md",
         "2026-09-04-vortex-motor-negentropic-propulsion-es.md",
-        "2026-09-05-acqua-viva-schauberger-it-en.md"
+        "2026-09-05-acqua-viva-schauberger-it-en.md",
+        "2026-09-05-compendium-vortex-physics-de-en.md",
+        "2026-09-06-schauberger-acquaviva-it.md"
       ],
       "cited_by": [
         "safe_vortex"
@@ -619,8 +632,12 @@
       "notes": "Central figure in vortex physics. Discovered two types of natural motion: centrifugal (pressure, entropy) and centripetal (suction, negentropy). Built implosion devices for water purification, energy generation, and propulsion. No primary works in collection yet — cited in SAFE Compendium.",
       "domains": [
         "aether",
+        "energy",
         "gravity",
-        "scalar"
+        "implosion",
+        "scalar",
+        "vortex",
+        "water"
       ],
       "last_updated": "2026-09-05"
     },
@@ -690,12 +707,18 @@
       "name": "Marcelo Arthur Mendes Waechter",
       "nationality": "Brazilian",
       "role": "inventor",
-      "key_contribution": "Patented apparatus for scalar energy generation at 12 Hz using alternating positive/negative exciter circuits and a transmitting antenna",
+      "key_contribution": "Scalar energy generator patent (WO2013155580A1) - household apparatus generating 12 Hz floating wave for health benefits",
       "works_in_collection": [
-        "2026-08-30-brazilian-scalar-energy-generator-pt.md"
+        "2026-08-30-brazilian-scalar-energy-generator-pt.md",
+        "2026-09-03-brazilian-scalar-generator-pt.md"
       ],
       "cited_by": [],
-      "notes": "Patent WO2013155580A1 (PCT/BR2013/000122). Status: Ceased. Household scalar energy device for health benefits."
+      "notes": "Brazilian inventor of scalar energy generation apparatus. Patent filed 2013, status Ceased.",
+      "domains": [
+        "aether",
+        "scalar"
+      ],
+      "last_updated": "2026-09-04"
     },
     {
       "id": "chardin",
@@ -1209,15 +1232,18 @@
     },
     {
       "id": "grachev",
-      "name": "N. Grachev",
+      "name": "Prof. Dr. N. Grachev",
       "nationality": "Russian",
-      "role": "physicist",
-      "key_contribution": "Author of Study on Torsion Fields; State Institute for Electronics and Mathematics, Moscow",
+      "role": "theorist",
+      "affiliation": "State Institute for Electronics and Mathematics, Moscow",
+      "key_contribution": "Comprehensive overview of torsion field theory, technology applications, and environmental implications; German translation source",
       "works_in_collection": [
-        "2026-09-02-study-torsion-fields-de.md"
+        "2026-09-02-study-torsion-fields-de.md",
+        "translations/2026-09-02-study-torsion-fields-de.md"
       ],
       "cited_by": [],
-      "notes": "Attributed author of the comprehensive study on torsion fields covering energy, ecology, and physical vacuum theory."
+      "notes": "Attributed author of the German study on torsion fields. Provides systematic overview of Russian torsion physics for Western audience.",
+      "domains": []
     },
     {
       "id": "de_broglie",
@@ -1295,19 +1321,6 @@
         "schadach"
       ],
       "notes": "Published 'Extended Theory of Electromagnetism' (1993). Barrett's gauge-theoretic extension of Maxwell provides the mathematical foundation for Schadach's applications to ZPE and longitudinal waves."
-    },
-    {
-      "id": "grachev",
-      "name": "Prof. Dr. N. Grachev",
-      "nationality": "Russian",
-      "role": "theorist",
-      "affiliation": "State Institute for Electronics and Mathematics, Moscow",
-      "key_contribution": "Comprehensive overview of torsion field theory, technology applications, and environmental implications; German translation source",
-      "works_in_collection": [
-        "translations/2026-09-02-study-torsion-fields-de.md"
-      ],
-      "cited_by": [],
-      "notes": "Attributed author of the German study on torsion fields. Provides systematic overview of Russian torsion physics for Western audience."
     },
     {
       "id": "rivero-hornos",
@@ -1426,43 +1439,6 @@
       "cited_by": [],
       "notes": "Auto-detected from translations",
       "last_updated": "2026-09-05"
-    },
-    {
-      "id": "waechter",
-      "name": "Marcelo Arthur Mendes Waechter",
-      "nationality": "Brazilian",
-      "role": "inventor",
-      "key_contribution": "Scalar energy generator patent (WO2013155580A1) - household apparatus generating 12 Hz floating wave for health benefits",
-      "works_in_collection": [
-        "2026-09-03-brazilian-scalar-generator-pt.md"
-      ],
-      "cited_by": [],
-      "notes": "Brazilian inventor of scalar energy generation apparatus. Patent filed 2013, status Ceased.",
-      "domains": [
-        "scalar",
-        "aether"
-      ],
-      "last_updated": "2026-09-04"
-    },
-    {
-      "id": "pollack",
-      "name": "Gerald H. Pollack",
-      "nationality": "American",
-      "role": "researcher",
-      "affiliation": "University of Washington, Seattle",
-      "key_contribution": "Fourth phase of water (EZ water) discovery - water near surfaces has different properties and readily yields electrons",
-      "works_in_collection": [
-        "2026-09-03-del-giudice-pollack-fourth-phase-water-it.md"
-      ],
-      "cited_by": [
-        "del_giudice"
-      ],
-      "notes": "Discovered exclusion zone (EZ) water - ordered water phase near hydrophilic surfaces. Author of \"The Fourth Phase of Water\".",
-      "domains": [
-        "water",
-        "aether"
-      ],
-      "last_updated": "2026-09-04"
     },
     {
       "id": "panov-vf",
@@ -1642,71 +1618,6 @@
       "last_updated": "2026-09-05"
     },
     {
-      "id": "schauberger",
-      "name": "Viktor Schauberger",
-      "nationality": "Austrian",
-      "dates": "1885–1958",
-      "role": "inventor, naturalist",
-      "affiliation": "Independent",
-      "key_contribution": "Water vortex dynamics, implosion technology, river engineering, forest ecology",
-      "works_in_collection": [
-        "2026-09-05-acqua-viva-schauberger-it.md",
-        "2026-09-05-compendium-vortex-physics-de.md"
-      ],
-      "cited_by": [],
-      "notes": "Austrian forest warden and inventor. Developed theories on water as a living organism, vortex dynamics, and implosion-based energy systems.",
-      "domains": [
-        "aether",
-        "vortex",
-        "water",
-        "implosion",
-        "energy"
-      ],
-      "last_updated": "2026-09-05"
-    },
-    {
-      "id": "spyridis",
-      "name": "Charalambos Ch. Spyridis",
-      "nationality": "Greek",
-      "role": "theorist",
-      "affiliation": "University of Athens",
-      "websites": [
-        "http://users.uoa.gr/~hspyridis/"
-      ],
-      "key_contribution": "Platonic Theory of Everything; Unified Theory of Electro-Strong Interaction",
-      "works_in_collection": [
-        "2026-09-04-spyridis-theory-of-everything-el-en.md"
-      ],
-      "cited_by": [],
-      "notes": "Professor at University of Athens. Work on Platonic solids and unified field theory.",
-      "domains": [
-        "unified-theory",
-        "geometry",
-        "physics"
-      ],
-      "last_updated": "2026-09-05"
-    },
-    {
-      "id": "maillot",
-      "name": "François Maillot",
-      "nationality": "French",
-      "role": "theorist",
-      "affiliation": "TUO Group",
-      "key_contribution": "Wave Universe Theory (TUO) — electromagnetic origin of vacuum, covariant reformulation of gravitation",
-      "works_in_collection": [
-        "2026-09-04-tuo-theory-fr-en.md"
-      ],
-      "cited_by": [],
-      "notes": "Developed TUO (Théorie de l'Univers Onde) framework for vacuum physics and gravitation.",
-      "domains": [
-        "cosmology",
-        "aether",
-        "gravity",
-        "electromagnetism"
-      ],
-      "last_updated": "2026-09-05"
-    },
-    {
       "id": "rivero-tverjanovich",
       "name": "Juan Miguel Rivero y Hornos Tverjanovich",
       "nationality": "International",
@@ -1734,7 +1645,8 @@
       "notable_works": [
         "Vassilatos source material on Tesla experiments"
       ],
-      "synthesis": "2026-09-05-longitudinal-waves-non-hertzian-electrodynamics"
+      "synthesis": "2026-09-05-longitudinal-waves-non-hertzian-electrodynamics",
+      "works_in_collection": []
     },
     {
       "id": "bauer-w",
@@ -1743,7 +1655,7 @@
       "role": "theorist",
       "key_contribution": "Derived Lamb vector from potential; formulated conditions for thermal-to-kinetic energy conversion in vortices",
       "works_in_collection": [
-        "2026-09-05-compendium-vortex-physics-de.md"
+        "2026-09-05-compendium-vortex-physics-de-en.md"
       ],
       "cited_by": [],
       "notes": "Physics diploma thesis at age 59. Advanced vortex theory as outsider.",
@@ -1761,7 +1673,7 @@
       "role": "theorist",
       "key_contribution": "Founded Aetherics — vortex-theoretical approach to non-material physics based on coupled vector fields",
       "works_in_collection": [
-        "2026-09-05-compendium-vortex-physics-de.md"
+        "2026-09-05-compendium-vortex-physics-de-en.md"
       ],
       "cited_by": [],
       "notes": "Dr. El.Eng. Developed fundamental field equation for ether vortex dynamics.",
@@ -1779,7 +1691,7 @@
       "role": "researcher",
       "key_contribution": "Wrote 'Vortex Flows in Nature and Technology' and 'Introduction to Vortex Theory' — first compendium of conventional vortex physics",
       "works_in_collection": [
-        "2026-09-05-compendium-vortex-physics-de.md"
+        "2026-09-05-compendium-vortex-physics-de-en.md"
       ],
       "cited_by": [],
       "notes": "Concluded scientific career in 1996 with publication of vortex theory compendium.",
@@ -1796,7 +1708,7 @@
       "role": "theorist",
       "key_contribution": "Developed potential vortex theory through extension of Maxwell's equations",
       "works_in_collection": [
-        "2026-09-05-compendium-vortex-physics-de.md"
+        "2026-09-05-compendium-vortex-physics-de-en.md"
       ],
       "cited_by": [],
       "notes": "Prof. Dr. El.Eng. Holistic field-theory-based approach to vortex dynamics.",
@@ -1814,7 +1726,7 @@
       "role": "theorist",
       "key_contribution": "Developed Kosmonen ether model based on vortices in 'The Kosmonen Space'",
       "works_in_collection": [
-        "2026-09-05-compendium-vortex-physics-de.md"
+        "2026-09-05-compendium-vortex-physics-de-en.md"
       ],
       "cited_by": [],
       "notes": "Dr. med. Based on Franz Anton Mesner's ether concepts.",
@@ -1832,7 +1744,7 @@
       "role": "theorist",
       "key_contribution": "Synthesis of vortex concepts in 'The Puzzling Nature'; co-author of SAFE compendium",
       "works_in_collection": [
-        "2026-09-05-compendium-vortex-physics-de.md"
+        "2026-09-05-compendium-vortex-physics-de-en.md"
       ],
       "cited_by": [],
       "notes": "El.Eng. Provided comparative overall view of vortex physics.",
@@ -1852,7 +1764,8 @@
         "Sacred Geometry: Geometric Qualities of Matter and Energy",
         "The Power of Life in Sacred Geometry and Biological Architecture"
       ],
-      "description": "Researcher and author on sacred geometry (psicogeometría). Developed the Pentaflor process model describing energy-to-matter transition through phi spiral, pi sphere, and euler solidification. Collaborates with Ninón Fregoso."
+      "description": "Researcher and author on sacred geometry (psicogeometría). Developed the Pentaflor process model describing energy-to-matter transition through phi spiral, pi sphere, and euler solidification. Collaborates with Ninón Fregoso.",
+      "works_in_collection": []
     },
     {
       "id": "del-giudice",
@@ -1864,7 +1777,8 @@
         "Water coherence domains theory",
         "Fröhlich-type coherent excitations in biological systems"
       ],
-      "description": "Italian physicist who extended quantum field theory to biological systems. Developed the theory of water coherence domains with Giuliano Preparata. Explained Pollack's exclusion zones through quantum field theory. Connected Szent-Györgyi's insight on water as electron donor to quantum coherence."
+      "description": "Italian physicist who extended quantum field theory to biological systems. Developed the theory of water coherence domains with Giuliano Preparata. Explained Pollack's exclusion zones through quantum field theory. Connected Szent-Györgyi's insight on water as electron donor to quantum coherence.",
+      "works_in_collection": []
     },
     {
       "id": "szent-gyorgyi",
@@ -1875,7 +1789,8 @@
       "key_works": [
         "What is Life? (1944 proposal on water and electrons)"
       ],
-      "description": "Nobel laureate who proposed in the 1950s that water is the source of electrons for the chemical reactions of life. His insight that it takes 12.6 eV to release an electron from isolated water but far less in biological contexts was confirmed by Pollack's exclusion zone research."
+      "description": "Nobel laureate who proposed in the 1950s that water is the source of electrons for the chemical reactions of life. His insight that it takes 12.6 eV to release an electron from isolated water but far less in biological contexts was confirmed by Pollack's exclusion zone research.",
+      "works_in_collection": []
     },
     {
       "id": "frohlich",
@@ -1887,7 +1802,8 @@
         "Fröhlich coherence (1968)",
         "Long-range coherence in biological systems"
       ],
-      "description": "Pioneered the concept that quantum coherence is an intrinsic property of living cells. His work on Fröhlich-type coherent excitations was carried forward by Del Giudice, Preparata, and others in quantum biophysics."
+      "description": "Pioneered the concept that quantum coherence is an intrinsic property of living cells. His work on Fröhlich-type coherent excitations was carried forward by Del Giudice, Preparata, and others in quantum biophysics.",
+      "works_in_collection": []
     },
     {
       "id": "prigogine",
@@ -1899,7 +1815,8 @@
         "Dissipative structures theory",
         "Order out of chaos"
       ],
-      "description": "Nobel laureate who developed the theory of dissipative structures — open systems far from thermodynamic equilibrium that maintain local order. His framework provides the thermodynamic basis for understanding implosion as a negentropic process."
+      "description": "Nobel laureate who developed the theory of dissipative structures — open systems far from thermodynamic equilibrium that maintain local order. His framework provides the thermodynamic basis for understanding implosion as a negentropic process.",
+      "works_in_collection": []
     },
     {
       "id": "hiley",
@@ -1911,7 +1828,8 @@
         "The Undivided Universe (with David Bohm)",
         "Active information and the quantum potential"
       ],
-      "description": "Collaborator with David Bohm on the de Broglie-Bohm pilot wave theory. Reinterpreted Eccles' proposal on a mental field in light of quantum potential and active information. Key figure in understanding quantum potential as active information."
+      "description": "Collaborator with David Bohm on the de Broglie-Bohm pilot wave theory. Reinterpreted Eccles' proposal on a mental field in light of quantum potential and active information. Key figure in understanding quantum potential as active information.",
+      "works_in_collection": []
     },
     {
       "id": "fregoso",
@@ -1922,7 +1840,65 @@
       "key_works": [
         "The Power of Life in Sacred Geometry and Biological Architecture (with Ponce de León)"
       ],
-      "description": "Collaborator with Arturo Ponce de León on psicogeometría. Co-author of 'The Power of Life in Sacred Geometry and Biological Architecture'."
+      "description": "Collaborator with Arturo Ponce de León on psicogeometría. Co-author of 'The Power of Life in Sacred Geometry and Biological Architecture'.",
+      "works_in_collection": []
+    },
+    {
+      "id": "seebach",
+      "name": "Christopher Seebach",
+      "nationality": "unknown",
+      "dates": "unknown",
+      "role": "researcher",
+      "key_contribution": "Contemporary vortex research applications (Appendix I of Acqua Viva)",
+      "works_in_collection": [
+        "2026-09-06-schauberger-acquaviva-it.md",
+        "2026-09-05-acqua-viva-schauberger-it-en.md"
+      ],
+      "cited_by": [],
+      "notes": "Contributed appendix on contemporary vortex applications to Acqua Viva (Schauberger) Italian edition.",
+      "domains": [
+        "vortex",
+        "water"
+      ],
+      "last_updated": "2026-09-06"
+    },
+    {
+      "id": "hewitt",
+      "name": "Peter Hewitt",
+      "nationality": "unknown",
+      "dates": "unknown",
+      "role": "researcher",
+      "key_contribution": "Physics and the Vortex appendix (Appendix II of Acqua Viva)",
+      "works_in_collection": [
+        "2026-09-06-schauberger-acquaviva-it.md",
+        "2026-09-05-acqua-viva-schauberger-it-en.md"
+      ],
+      "cited_by": [],
+      "notes": "Contributed appendix on physics and the vortex to Acqua Viva (Schauberger) Italian edition.",
+      "domains": [
+        "vortex",
+        "physics"
+      ],
+      "last_updated": "2026-09-06"
+    },
+    {
+      "id": "curry-lindahl",
+      "name": "Kai Curry-Lindahl",
+      "nationality": "Swedish",
+      "dates": "1921–1990",
+      "role": "zoologist, conservationist",
+      "key_contribution": "Preface to Acqua Viva (Schauberger) Italian edition",
+      "works_in_collection": [
+        "2026-09-06-schauberger-acquaviva-it.md",
+        "2026-09-05-acqua-viva-schauberger-it-en.md"
+      ],
+      "cited_by": [],
+      "notes": "Swedish zoologist and conservationist who wrote the preface to the Italian edition of Acqua Viva.",
+      "domains": [
+        "ecology",
+        "water"
+      ],
+      "last_updated": "2026-09-06"
     }
   ]
 }

@@ -1,14 +1,16 @@
 ---
 name: Compendium of Vortex Physics (Schauberger)
-description: "Translation document. language de | domain: vortex-physics | https://www.safeswiss.org"
+description: English translation of the Compendium of Vortex Physics, Version 1, Part 1 (1999). Published by SAFE — Swiss Association for Free Energy. Covers vortex physics working group research on Schauberger's theories of water movement, temperature gradients, river regulation, trout movement, aviation, and timber floating.
 ---
 
 - **date:** 2026-09-05
 - **domain:** vortex-physics
 - **source_url:** https://www.safeswiss.org
-- **language:** de
+- **source_language:** de
+- **language:** en
 - **author:** SAFE — Swiss Association for Free Energy (Vortex Physics Working Group)
 - **translator:** Forge (translation-qc agent)
+- **note:** Source URL (safeswiss.org) is no longer active — domain has expired. Content preserved from original document.
 
 ---
 

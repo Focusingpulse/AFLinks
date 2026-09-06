@@ -1,12 +1,13 @@
 ---
 name: Acqua Viva — Viktor Schauberger
-description: "Translation document. language it | domain: vortex-physics | https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf"
+description: English translation of Acqua Viva (Living Water) by Viktor Schauberger, from the Italian edition. Covers water vortex research, river engineering, forest ecology, implosion technology, and implosion theory.
 ---
 
 - **date:** 2026-09-05
 - **domain:** vortex-physics
 - **source_url:** https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf
-- **language:** it
+- **source_language:** it
+- **language:** en
 - **author:** Viktor Schauberger (compiled by Olof Alexandersson)
 - **translator:** Forge (translation-qc agent)
 

@@ -2,7 +2,7 @@
   "_about": {
     "version": "0.1.0",
     "description": "Research index for the Aetherforce Living Library. Links works to themes, concepts, and cross-references. Maintained by Synthesist.",
-    "last_updated": "2026-09-05"
+    "last_updated": "2026-09-06"
   },
   "works": [
     {
@@ -1306,7 +1306,11 @@
     {
       "id": "akimov-shipov-torsion-field-ru",
       "title": "akimov-shipov-torsion-field-ru",
-      "authors": [],
+      "authors": [
+        "shipov",
+        "akimov",
+        "cartan"
+      ],
       "date": "unknown",
       "language": "ru",
       "translated": true,
@@ -1325,7 +1329,8 @@
         "zero_point",
         "sacred_geometry",
         "consciousness",
-        "free_energy"
+        "free_energy",
+        "gravity"
       ],
       "key_claims": [
         "Introduction\nTorsion Energy Sources\nTorsion Propulsion\nTorsion Technologies for Material Production\nTorsion Means of Communication and Information Transmission\nTorsion Geophysics\nTorsion Astrophysics\nConclusions\nReferences",
@@ -1352,7 +1357,9 @@
     {
       "id": "magnitsky-gravity-compressible-ether-ru",
       "title": "magnitsky-gravity-compressible-ether-ru",
-      "authors": [],
+      "authors": [
+        "magnitsky"
+      ],
       "date": "unknown",
       "language": "ru",
       "translated": true,
@@ -1366,7 +1373,8 @@
         "aether",
         "scalar",
         "electrogravitics",
-        "compressible_ether"
+        "compressible_ether",
+        "gravity"
       ],
       "key_claims": [
         "UDC 51-72\n                                     GRAVITY IN THE THEORY OF\n                                      COMPRESSIBLE OSCILLATING ETHER\n                                  N.A.",
@@ -1434,7 +1442,10 @@
     {
       "id": "torsion-physics-newton-present-ru",
       "title": "torsion-physics-newton-present-ru",
-      "authors": [],
+      "authors": [
+        "shipov",
+        "cartan"
+      ],
       "date": "unknown",
       "language": "ru",
       "translated": true,
@@ -1448,7 +1459,8 @@
       "concepts": [
         "torsion",
         "aether",
-        "electrogravitics"
+        "electrogravitics",
+        "gravity"
       ],
       "key_claims": [
         "Shipov\nTorsion Physics from Newton to the Present Day.",
@@ -1704,7 +1716,8 @@
         "scalar",
         "electrogravitics",
         "sacred_geometry",
-        "scalar_field"
+        "scalar_field",
+        "gravity"
       ],
       "key_claims": [
         "Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html",
@@ -2926,7 +2939,8 @@
       "id": "field-quantum-potential-consciousness-it",
       "title": "Field and Quantum Potential of Consciousness",
       "authors": [
-        "manzalini"
+        "manzalini",
+        "del giudice"
       ],
       "date": "2022-09",
       "language": "it",
@@ -2939,7 +2953,9 @@
       ],
       "concepts": [
         "consciousness",
-        "zero_point"
+        "zero_point",
+        "aether",
+        "gravity"
       ],
       "key_claims": [
         "Consciousness is a quantum field whose potential is active information",
@@ -2956,7 +2972,11 @@
     {
       "id": "study-torsion-fields-de",
       "title": "Study on Torsion Fields",
-      "authors": [],
+      "authors": [
+        "shipov",
+        "akimov",
+        "cartan"
+      ],
       "date": "unknown",
       "language": "de",
       "translated": true,
@@ -2967,7 +2987,8 @@
       "concepts": [
         "torsion",
         "aether",
-        "zero_point"
+        "zero_point",
+        "gravity"
       ],
       "key_claims": [
         "Torsion fields carry information without energy",
@@ -3022,7 +3043,8 @@
       "id": "vortex-motor-negentropic-propulsion",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
       "authors": [
-        "rivero-hornos"
+        "rivero-hornos",
+        "rivero-tverjanovich"
       ],
       "date": "2025-11-17",
       "language": "es",
@@ -3052,7 +3074,19 @@
         "schauberger-compendium",
         "safe-vortex-compendium"
       ],
-      "status": "translated"
+      "status": "translated",
+      "domains": [
+        "aether",
+        "vortex",
+        "propulsion",
+        "energy"
+      ],
+      "source_url": "https://doi.org/10.5281/zenodo.17626722",
+      "description": "Propulsion technology based on implosion dynamics and vortex physics, drawing on Schauberger's work.",
+      "files": [
+        "2026-09-04-vortex-motor-negentropic-propulsion-es.md"
+      ],
+      "last_updated": "2026-09-05"
     },
     {
       "id": "prometheus-lenr-reactor-it",
@@ -3065,27 +3099,6 @@
       "themes": [],
       "concepts": [
         "lenr"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated"
-    },
-    {
-      "id": "torsion-physics-newton-present-ru",
-      "title": "RU->EN full translation of 'Torsion Physics from Newton to the Present Day. Part I' by G.I. Shipov (2022). Survey of generalizations of Newtonian mechanics showing implicit torsion field content, from D'Alembert to Einstein to quantum mechanics. Source: http://www.trinitas.ru/rus/doc/0016/000d/00161380.htm | Date: 2026-09-03 | Domain: Torsion physics, Vacuum mechanics, Unified field theory | Language: ru",
-      "authors": [
-        "shipov",
-        "cartan"
-      ],
-      "date": "2026-09-03",
-      "language": "ru",
-      "translated": true,
-      "file": "2026-09-03-torsion-physics-newton-present-ru.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity"
       ],
       "key_claims": [],
       "cross_references": [],
@@ -3106,25 +3119,6 @@
       "themes": [],
       "concepts": [
         "torsion",
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated"
-    },
-    {
-      "id": "field-quantum-potential-consciousness-it",
-      "title": "Full translation of \"Field and Quantum Potential of Consciousness",
-      "authors": [
-        "del giudice"
-      ],
-      "date": "2026-09-03",
-      "language": "it",
-      "translated": true,
-      "file": "2026-09-03-field-quantum-potential-consciousness-it.md",
-      "themes": [],
-      "concepts": [
         "aether",
         "gravity"
       ],
@@ -3349,28 +3343,6 @@
       "status": "translated"
     },
     {
-      "id": "akimov-shipov-torsion-field-ru",
-      "title": "Full translation of \"ACADEMY OF TRINITARIANISM",
-      "authors": [
-        "shipov",
-        "akimov",
-        "cartan"
-      ],
-      "date": "2026-09-03",
-      "language": "ru",
-      "translated": true,
-      "file": "2026-09-03-akimov-shipov-torsion-field-ru.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated"
-    },
-    {
       "id": "del-giudice-pollack-fourth-phase-water-it",
       "title": "Full translation of \"Link to Facebook. Link to X. Link to YouTube. Link to Instagram.",
       "authors": [
@@ -3415,43 +3387,6 @@
       "status": "translated"
     },
     {
-      "id": "theorie-phi-scalar-field-fr",
-      "title": "FR->EN full translation of 'Rigorous study of a light scalar field coupled to matter in galaxies' by Fabien Toulgoat (2025). Alternative to dark matter using a light scalar field Φ coupled to baryonic density, with testable predictions on SPARC data. Source: self-published (author: fabientoulgoat@hotmail.com) | Date: 2026-09-03 | Domain: Galactic dynamics, Scalar field theory, Modified gravity, Dark matter alternatives | Language: fr",
-      "authors": [],
-      "date": "2026-09-03",
-      "language": "fr",
-      "translated": true,
-      "file": "2026-09-03-theorie-phi-scalar-field-fr.md",
-      "themes": [],
-      "concepts": [
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated"
-    },
-    {
-      "id": "magnitsky-gravity-compressible-ether-ru",
-      "title": "Full translation of \"Magnitsky, 2019",
-      "authors": [
-        "magnitsky"
-      ],
-      "date": "2026-09-03",
-      "language": "ru",
-      "translated": true,
-      "file": "2026-09-03-magnitsky-gravity-compressible-ether-ru.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated"
-    },
-    {
       "id": "compendium-vortex-physics-de",
       "title": "Full translation of \"SAFE — Compendium of Vortex Physics. Compendium of Vortex Physics, Version 1, Part 1, May 8, 1999. SAFE — Swiss Association for Free Energy (Schweizerische Arbeitsgemeinschaft für Freie Energie), www.safeswiss.org. Vortex Physics Working Group, represented by Rudolf Fehlmann, Elisabeth Lehmann, André Waser, and Dr. Jakob Huber. © 1999 copyright by SAFE. Use with attribution to SAFE is welcome. Version 1, Page 1, May 8, 1999. SAFE — Compendium of Vortex Physics. Table of Contents.",
       "authors": [
@@ -3484,28 +3419,6 @@
       "file": "2026-08-29-tesla-radiant-energy-patents-fr.md",
       "themes": [],
       "concepts": [
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated"
-    },
-    {
-      "id": "study-torsion-fields-de",
-      "title": "Full translation of \"Study on Torsion Fields",
-      "authors": [
-        "shipov",
-        "akimov",
-        "cartan"
-      ],
-      "date": "2026-09-03",
-      "language": "de",
-      "translated": true,
-      "file": "2026-09-03-study-torsion-fields-de.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
         "aether",
         "gravity"
       ],
@@ -3713,7 +3626,7 @@
       "source_url": "Italian edition of 'Living Water' translated to English",
       "description": "Full English translation of Acqua Viva — Viktor Schauberger (Italian edition). Covers water vortex research, river engineering, forest ecology, implosion technology.",
       "files": [
-        "2026-09-05-acqua-viva-schauberger-it.md"
+        "2026-09-06-schauberger-acquaviva-it.md"
       ],
       "last_updated": "2026-09-05"
     },
@@ -3759,70 +3672,19 @@
       "last_updated": "2026-09-05"
     },
     {
-      "id": "vortex-motor-negentropic-propulsion",
-      "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on the Implosion Dynamics of the Ether",
-      "authors": [
-        "rivero-tverjanovich"
-      ],
-      "date": "2025",
-      "language": "es",
-      "domains": [
-        "aether",
-        "vortex",
-        "propulsion",
-        "energy"
-      ],
-      "source_url": "https://doi.org/10.5281/zenodo.17626722",
-      "description": "Propulsion technology based on implosion dynamics and vortex physics, drawing on Schauberger's work.",
-      "files": [
-        "2026-09-04-vortex-motor-negentropic-propulsion-es.md"
-      ],
-      "last_updated": "2026-09-05"
-    },
-    {
-      "title": "Analysis of Tesla Patent Schematics on Radiant Energy",
-      "authors": [
-        "Peter A. Lindemann",
-        "Nikola Tesla"
-      ],
-      "year": "2000",
-      "domain": "radiant-energy, longitudinal-waves, tesla",
-      "source": "translations/2026-09-03-tesla-patents-radiant-energy-fr.md",
-      "language": "fr",
-      "synthesis": "2026-09-05-longitudinal-waves-non-hertzian-electrodynamics"
-    },
-    {
       "title": "Extended Theory of Electromagnetism (Based on Barrett 1993)",
       "authors": [
         "Dirk Schadach",
-        "Thomas William Barrett"
+        "Thomas William Barrett",
+        "Peter A. Lindemann",
+        "Nikola Tesla",
+        "Drunvalo"
       ],
       "year": "1998",
       "domain": "gauge-theory, extended-electromagnetism, non-abelian",
       "source": "translations/2026-09-02-extended-theory-of-electromagnetism-de-en.md",
       "language": "de",
-      "synthesis": "2026-09-05-longitudinal-waves-non-hertzian-electrodynamics"
-    },
-    {
-      "title": "Longitudinal Waves and Non-Hertzian Electrodynamics: The Missing Physics of Radiant Energy",
-      "authors": [
-        "Drunvalo"
-      ],
-      "year": "2026",
-      "domain": "synthesis, longitudinal-waves, non-hertzian, torsion, scalar",
-      "source": "synthesis/2026-09-05-longitudinal-waves-non-hertzian-electrodynamics.md",
-      "language": "en",
-      "kind": "synthesis"
-    },
-    {
-      "title": "The Vortex Lineage: From Kelvin's Vortex Atom to Modern Free Energy Research",
-      "authors": [
-        "Drunvalo"
-      ],
-      "year": "2026",
-      "domain": "synthesis, vortex, history, kelvin, schauberger, safe, torsion",
-      "source": "synthesis/2026-09-06-vortex-lineage-kelvin-to-modern-free-energy.md",
-      "language": "en",
+      "synthesis": "2026-09-05-longitudinal-waves-non-hertzian-electrodynamics",
       "kind": "synthesis"
     },
     {
