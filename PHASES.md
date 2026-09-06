@@ -21,10 +21,10 @@ decisions in `living-library/synthesis/2026-09-06-architecture-debate-dossier.md
 
 ## Phase 3 — This quarter
 
-- [ ] **Re-try-now tags** — modern apparatus (micro-PIV, GPU CFD, nano-calorimetry) for died-untested claims.
-- [ ] **JSON-LD headers** — schema.org ScholarlyArticle/Person per doc page (ingestible by external agents).
-- [ ] **Bilingual bridge search surface** — translations frontmatter as the multilingual retrieval layer.
-- [ ] **Curated-only tiny embeddings** (~150 works, <0.2MB uint8) — semantic recall on the gems, not the noise.
+- [x] **JSON-LD headers** — static WebSite block in head + per-doc ScholarlyArticle on modal open (doc:<id> matching the retrieval contract). *2026-09-06 6acb5c9*
+- [x] **Bilingual bridge search surface** — "Bridges Between Languages" section on library.html; feed emits bridges from cross-language title-token clusters (conservative: normalized lang codes, revision dupes collapse, auto-hides when empty). *2026-09-06 6acb5c9*
+- [ ] **Re-try-now tags** — built on the death certificates (fleet lane; next after certs land).
+- [ ] **Curated-only tiny embeddings** (~150 works, <0.2MB uint8) — semantic recall on the gems.
 - [ ] **Timeline view** — only if a cheap date field materializes.
 
 ## Kill / defer hard
