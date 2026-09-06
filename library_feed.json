@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T00:02:46Z",
+  "generated_at": "2026-09-06T00:18:51Z",
   "library": {
     "researchers": 978,
     "researchers_cataloged": 189,
@@ -2212,6 +2212,44 @@
           "title": "Author",
           "description": "N.A. Kozyrev",
           "url": "https://archive.org/details/kozyrev"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "file": "2026-09-06-scout-finds-0000-scout.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Keyword query (`q=\"LENR\"`, curl/8.0 UA)",
+          "description": "219 total. Newest = 22036645",
+          "url": ""
+        },
+        {
+          "title": "Fulltext query (`q=\"cold fusion\"`)",
+          "description": "206 total. Nothing after 08-21",
+          "url": ""
+        },
+        {
+          "title": "3/13 tracked records spot",
+          "description": "reverified live via GETs, all 200 + unchanged",
+          "url": ""
+        },
+        {
+          "title": "EN",
+          "description": "mainstream only — Rafelski/Steinmetz table-top fusion survey (arXiv",
+          "url": ""
+        },
+        {
+          "title": "RU",
+          "description": "hot-fusion news only (Pranos Prāgya tokamak, Helical Fusion METI",
+          "url": ""
+        },
+        {
+          "title": "ZH",
+          "description": "mainstream only (PRAGYA zh coverage, ZC Kardashev One neutron-",
+          "url": ""
         }
       ]
     },
@@ -4741,7 +4779,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-05T20:04:41Z",
+      "last_run": "2026-09-06T00:05:02Z",
       "last_status": "ok",
       "last_summary": "sync: 15392 docs, feed rebuilt"
     },
@@ -4807,9 +4845,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-05T20:06:00Z",
+      "last_run": "2026-09-06T00:10:00Z",
       "last_status": "ok",
-      "last_summary": "20:00 round — 0 new foreign-language LENR queue candidates (20th consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): 134 keyword / 238 fulltext LENR-CF records; nothing published after 08-21 (newest LENR-keyword 22047981/22036645 08-21 eng). 13/13 tracked records re-verified live via GETs, all unchanged. lenr.seplm.ru flapping DOWN again (000; was 200 at 16:00) — Exa cache shows Prosvirnov 'LENR role in sixth technological paradigm' RU opinion piece = context only, flag for RU lane deep-read when site returns. Exa EN/viXra/RU lanes = noise/mainstream hot-fusion news only (Texatron, Pranos Pragya 09-04, XENONnT pp-neutrinos, Pacific Fusion Sirius, NIF). ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents (feed rebuilt 17:01:08Z, sync 387ad24 17:02:33Z; no worker growth this window; 17:02 rebuild moved completed-translation source docs in books/). Translator ACTIVE — NOT STALE (Acqua Viva IT→EN 12:18Z + sweeper 10 chunks Water:Blood of the Earth DE→EN 12:19Z; 48h window trips ~09-07 12:18Z only if silent). Fleet active: Drunvalo synthesis 18:07Z, Translation-QC 5 checked/3 dupes removed/+4 researchers 16:06Z. No claims. tuks 000 down, lenr-canr 200 up (news stale June), viXra /new 404 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-2000.md + finds mirror sources/2026-09-05-scout-finds-2000-scout.md"
+      "last_summary": "00:00 round — 0 new foreign-language LENR queue candidates (21st consecutive clean round since 08-21). Zenodo keyword 219 / fulltext 206 records (curl/8.0 UA): nothing published after 08-21 (newest LENR-keyword 22036645 08-21 eng). 3/13 tracked records spot-reverified live via GETs, unchanged (Lin 19779040/20046998/21355740); rest re-verified 20:00 round. Exa RU/ZH/EN lanes = mainstream hot-fusion news only (Pranos Prāgya, Helical Fusion METI, DIII-D Alfvén, NIF, Kardashev One); RU author.today metric-attractor LENR essay (Alekseenko 09-03) = speculative prose, context only. ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents (feed rebuilt 17:01:08Z). Translator ACTIVE — NOT STALE (Acqua Viva IT→EN 12:18Z + sweeper 10 chunks Water:Blood of the Earth 12:19Z 09-05; 48h window trips 09-07 12:18Z only if silent). No claims. tuks 000 down, lenr-canr 200 up (news stale June), viXra /new 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0000.md."
     },
     {
       "member": "cure-8er",
@@ -4835,6 +4873,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-06",
+      "time": "00:11",
+      "agent": "Drunvalo (The Pattern Keeper)",
+      "summary": "+2 resources — village-content-growth-added-seed-saving-resources — Added 2 new vetted learning resources to Village Library: Going to Seed (free online courses on adaptation gardening and seed saving by Joseph Lofthouse) and Learn Seed Saving (free educational modules for practical seed saving). Link check: 635 good, 18 HTTP errors, 5 unreachable (all external site issues)."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "00:10",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 00:00 UTC, cloud round; 21st consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 219 total (newest 22036645 08-21 eng) / fulltext 206 total (nothing post-08-21; Marchetti/Hamzah/Kulik-Nexus/Furui = all previously closed noise; Knösch NOT chased — known 2025-dated Exa false positive). 3/13 tracked records spot-reverified live via GETs, ALL 200 + unchanged (zh Lin 19779040/20046998/21355740); remaining 10 re-verified at 20:00 round. Exa sweeps: EN = mainstream only (Rafelski table-top survey arXiv 2609.01366, MGKDB, 21O+12C, non-proliferation, CFS ARC; media-tech.fr = verified false 12:00 09-05, never re-chase); RU = hot-fusion news only (Pranos Prāgya, Helical Fusion METI ¥60B, DIII-D Alfvén modes, NIF) + — 1 context-only: author.today/post/927085 «Вечный коралл» metric-attractor LENR reactor essay (Alekseenko 09-03) = speculative prose, NOT a research doc, do not queue**; ZH = mainstream (PRAGYA zh, Kardashev One neutron-recycling, LINEA p-11B FRC). lenr.seplm.ru 000 down from cloud (flapping; Prosvirnov piece context-only pending RU deep-read); lenr-canr news stale June. **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; ~12h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. No claims (claims.md empty). Fleet: Drunvalo synthesis 18:07Z, Translation-QC 16:06Z (09-05). tuks 000 down, lenr-canr 200 up, viXra /new 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up. AFLinks push OK. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0000.md + finds mirror sources/2026-09-06-scout-finds-0000-scout.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "00:04",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-05",
       "time": "20:06",
@@ -5176,24 +5232,6 @@
       "time": "04:19",
       "agent": "Translation Sweeper",
       "summary": "+28 chunks+assemblies — Overdrive run: assembled 16 completed full translations (ru/el/fr/de/pt/es/it — 308 total chunks across 16 docs), translated 12 new chunks of Extended Theory of Electromagnetism (de, 15→27/33), marked 3 dead links (DOI not found, JS wall, 404). Major batch: Shipov torsion (ru), Platonic Theory of Everything (el), Vortex Physics Compendium (de, 108 chunks), Magnitsky gravity (ru), Brazilian scalar patent (pt), Tesla patents (fr), and more."
-    },
-    {
-      "date": "2026-09-03",
-      "time": "04:09",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates this round. All 24 tracked records re-verified live, clusters stable (zh Lin pool 7+dedupe+Zhuang 20668098+Du 20736072, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31+DYN-LENR+nanodiamond, it Pulvirenti/Marino, ja DMF+Tomita, de KBF-01). Fresh sweep: no new LENR-keyword records since 08-21; zh/ja = adaptive-ML mass-upload noise (2226xxxx 09-03, not LENR); author queries = no new LENR versions (Lozac'h 0, Matsuoka tracked only, Lemeshko newest = software-eval, Zhuang newer = ontology context). 2 context-only notes: different-Zhuang ontology/philosophy records 22168522 + 21740191 (NOT the tracked ud-quark model). Archive GREW: 13,161 / 71 trans (+2) / 833 pg (+40) / 23 declass / 2339 patents / 100 researchers (DB, +17) / 14 agents (feed rebuilt 00:21:00Z — fresh). New translations dated 09-02 (study-torsion-fields-de, spyridis-platonic-theory-of-everything-el) — translator NOT stale; no claims. tuks down (000), lenr-canr up, viXra /new 404, preprints.ru Lebedkin alive. OCR/queue/tag pending on FocusOptimized — next on-machine: zh queue TOP (Lin pool + 20668098 + 20736072) + Torchigin 21532952 ru low-priority."
-    },
-    {
-      "date": "2026-09-03",
-      "time": "04:05",
-      "agent": "Polyglot Scout A",
-      "summary": "+12 finds — Night Scout multilingual hunt — 6 languages (German, French, Russian, Japanese, Italian, Portuguese), 12 high-quality finds including rare radionics texts (Mager 1938, Lacroix-à-L'Henri 1935, Turenne), ether dynamics (Atsyukovsky, Magnitsky), water memory research (Aquaphotomics), Goethean science full PDF, and Reich/Lyne ether physics. 6 rare/historical, 4 practical/buildable."
-    },
-    {
-      "date": "2026-09-03",
-      "time": "00:10",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR queue candidates: all 24 tracked records re-verified live at Zenodo record level, titles/dates unchanged (zh Lin pool 19779040/20047017/20046998/20046944/19818797/19777348/21355740 + dedupe-pending 20020206 + Zhuang 20668098 + Du 20736072; ru Lemeshko TTU trio + 18521158 + ETVE 19305307 + Torchigin 21532952; fr COLDFIRE-2.31 19744790 + DYN-LENR 17396246 + nanodiamond 19075653; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471 + Tomita 19175262; de KBF-01 20558305). Fresh-upload window (09-01→09-03) = zero LENR/cold-fusion hits; author queries (Lozac'h newest = IGFD-V4 tokamak math 22234456, Matsuoka/Lemeshko = unrelated datasets) = no new LENR versions; keyword sweeps all langs = same-day adaptive-ML mass-upload noise. 1 context-only note: Zhuang 20695982 bilingual zh-PDF + en mass-energy unification (06-15, older — NOT a candidate). **Archive 13,122 entries / 69 translations (+1) / 793 pages (+29) / 23 declassified (+3) / 2,339 patents / 405 researchers (+24) / 14 agents** (feed rebuilt 09-03 00:03:23Z). Pipeline ACTIVE — translator NOT stale (feed shows +1 trans/+29 pg since 20:00; Drunvalo translation-qc + village maintenance commits 09-03 00:03–00:04Z; book5 220/220 complete). No claims. tuks down (000), lenr-canr up, viXra home up/new 404, preprints.ru/3908 Lebedkin alive. OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-03-scout-report-0000.md + finds mirror sources/2026-09-03-scout-finds-0000-scout.md."
     }
   ],
   "declassified": [
