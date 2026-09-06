@@ -29,7 +29,6 @@ Acknowledgments
 The Mathematical Science and the Platonic Solids
                The Pythagoreans divided the Mathematical science into four parts. One part they attributed to "how many" (multitude) and the other to "how much" (magnitude). They further divided each of these two parts into two, for they said that "how many," that is, a quantity, either exists
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -61,7 +60,6 @@ by itself (expressed in absolute numbers), or is studied in relation to somethin
 
 Page 2
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -82,7 +80,6 @@ In the model for our planetary system, the German astronomer
                                                     belonging to spheres inscribed in or circumscribed about the
                                                     Platonic polyhedra.
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -109,7 +106,6 @@ The starting point of Kepler's efforts was the orbit of the Earth, which he took
 
 Page 4
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -167,7 +163,6 @@ Page 5
 ---
 
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                       The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                           Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -223,7 +218,6 @@ The tetrahedron symbolizes fire, because it is considered the most "mobile," the
 
 Page 6
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                       The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                           Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -275,7 +269,6 @@ The Platonic Polyhedra in Cosmology
                 The word aether is derived from the verb aithō, which means: to light up, to burn. (Great Lexicon of the Greek Language,
                H.G. Liddel – R. Scott).
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -315,7 +308,6 @@ Thus, then, he speaks in the Timaeus of:
 ---
 
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -369,7 +361,6 @@ We observe that in the hexahedron and the octahedron the sum of the number of fa
 
 Polar symmetry of cube and octahedron.
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -402,7 +393,6 @@ From the above it follows that in dual geometric polyhedra the number of faces o
 In dual geometric polyhedra the number of faces of one becomes the number of
                             vertices of the other and conversely.
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -434,7 +424,6 @@ The Locrians were an ancient Greek tribe that inhabited central Greece, specific
 
 The Epizephyrian Locrians were an ancient Greek colony in Lower Italy, on the Calabrian peninsula, northwest of Rhegium. It was founded around 680 to 670 BC by Locrians coming from both Opuntian and Ozolian Locris. The epithet
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
 
 The Platonic Theory of Everything and the Spyridis Unified Theory of Electro-Strong Interaction
 Charalambos Ch. Spyridis, Professor at the University of Athens
@@ -479,7 +468,6 @@ Epicurus will rely upon and expand the atomic theory, projecting a cosmological 
 
 Page 12
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
 
 The Platonic Theory of Everything and the Spyridis Unified Theory of Electro-Strong Interaction
 Charalambos Ch. Spyridis, Professor at the University of Athens
@@ -536,7 +524,6 @@ The other definition arose after Plato first, using the data of the second defin
 
 Page 14
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -559,7 +546,6 @@ It should be noted that the regular pentagonal bounding faces of the pentagonal 
 
 Plato constructs the aether from a third type of atomic right triangle, which resembles the Pythagorean right triangle with side lengths 3, 4, and 5, unless we take into account the statement of Plutarch of Chaeronea that each face of the pentagonal dodecahedron must consist of thirty primary (right) triangles.
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -662,7 +648,6 @@ Subdivision of an equilateral triangle into elementary "most
 
 Page 15
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -695,7 +680,6 @@ Subdivision of a square into elementary
 The tetrakis hexahedron belongs to the Holohedry of the
                                                            cubic system (hk0).
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -705,7 +689,6 @@ Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/
 
 Page 16
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -900,7 +883,6 @@ The final step toward the ultimate unification of all theories of Physics will b
 
 Page 21
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                         Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -942,7 +924,6 @@ In this regard, the polymath Michael Psellos is also cited (Psychological, Theol
 
 Page 22
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                         Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -984,7 +965,6 @@ As is known, crystals correspond to certain patterns of triple periodic repetiti
 
 Page 23
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                         The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                             Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -1014,7 +994,6 @@ Body-centered (I) Bravais lattice.
                    6.     the monoclinic and
                    7.     the triclinic.
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -1034,7 +1013,6 @@ tetragonal (P, I)
 
 trigonal (P)
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -1073,7 +1051,6 @@ The Spyridis Unified Theory of the Electro-Strong Interaction
                 THEODORIKAS S. STERGIOS, MINERALOGY PETROLOGY, ZITI Publications, p. 97, Thessaloniki,
                1996.
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -1120,7 +1097,6 @@ In the Timaeus and elsewhere Plato treats primitive parallelepipeds
                consists of two tetrahedra and one octahedron, as shown in detail in the two
                figures below.
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -1158,7 +1134,6 @@ The hexahedron yields 4 isosceles right triangles per face; consequently it yiel
                together in such a way that their spins S_φ, S_glu form an angle φ=χ+ω=104° 28' 39".
                In this case the spin of the graviton would equal 2.
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
                      The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
                                          Charalambos Ch. Spyridis, Professor at the University of Athens
 
@@ -1178,7 +1153,6 @@ Proof
                χ=75° 31' 21"
                ω=28° 57' 18"
 
-Print to PDF without this message by purchasing novaPDF (http://www.novapdf.com/)
 
 
 ---
