@@ -577,6 +577,108 @@ def main():
     feed["library"]["translations"] = len(translation_works)
     feed["library"]["translation_files"] = translation_files
     feed["library"]["pages_translated"] = pages_translated
+
+    # --- 2b. Bilingual bridges — the same idea across languages ---
+    # Phase 3: translations whose TITLES share significant tokens while their
+    # source languages differ — the same theory reconstructed independently in
+    # different linguistic silos (torsion in RU+DE, scalar field in FR+EN,
+    # vortex in DE+ES). Metadata domains are too sparse to group by, so group
+    # by normalized title tokens; require ≥2 shared tokens + different langs.
+    BRIDGE_STOP = set(LANG_NAMES.keys()) | set(LANG_NAMES.values()) | {
+        "translation", "theorie", "theory", "theories", "study", "studies",
+        "complete", "full", "part", "vol", "volume", "toward", "towards",
+        "matter", "gravity", "energy", "field", "research", "physics",
+        "physics:", "scientific", "sciences", "science", "new", "newton",
+        "present", "day", "newton", "based", "using", "their", "its",
+        "with", "from", "into", "under", "over", "about",
+    }
+    def norm_lang(s):
+        s = (s or "").lower().strip()
+        return re.sub(r"\s*\([a-z]{2}\)$", "", s).strip()
+
+    def _title_tokens(title):
+        toks = re.findall(r"[a-z0-9]{4,}", (title or "").lower())
+        out = []
+        for t in toks:
+            if t in BRIDGE_STOP or t.isdigit():
+                continue
+            out.append(t)
+        return set(out)
+
+    def _lang_of(tw, meta_scan):
+        l = norm_lang(tw.get("language") or "")
+        if l:
+            return l
+        hay = (tw.get("title") or "") + " " + meta_scan
+        m = re.search(r"\((?:FR|DE|RU|ES|IT|EL|PT|JA|ZH|PL|CS|SR|UK|AR|NL)\s*→", hay, re.I)
+        if m:
+            return m.group(1).lower()
+        m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl)$", tw.get("file") or "", re.I)
+        if m:
+            return m.group(1).lower()
+        low = hay.lower()
+        for c, n in LANG_NAMES.items():
+            if n.lower() in low or c in low.split():
+                return c
+        return ""
+
+    bridges = []
+    # collect token sets + languages first (meta_scan = description/domain text)
+    meta_of = {}
+    for tw in translation_works:
+        meta_of[tw["file"]] = " ".join([tw.get("domain") or "", tw.get("excerpt") or ""][:1])
+    tok_of = {}
+    for tw in translation_works:
+        tok_of[tw["file"]] = _title_tokens(tw["title"])
+    # union-find clusters over cross-language pairs with ≥2 shared tokens
+    parent = {tw["file"]: tw["file"] for tw in translation_works}
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]; x = parent[x]
+        return x
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[rb] = ra
+    files = [tw["file"] for tw in translation_works]
+    for i in range(len(files)):
+        for j in range(i + 1, len(files)):
+            a, b = files[i], files[j]
+            la, lb = _lang_of(translation_works[i], ""), _lang_of(translation_works[j], "")
+            if not la or not lb or la == lb:
+                continue
+            shared = tok_of[a] & tok_of[b]
+            if len(shared) >= 2:
+                union(a, b)
+    clusters = {}
+    for tw in translation_works:
+        clusters.setdefault(find(tw["file"]), []).append(tw)
+    for root, tws in clusters.items():
+        if len(tws) < 2:
+            continue
+        langs = []
+        for tw in tws:
+            l = _lang_of(tw, meta_of.get(tw["file"], ""))
+            # normalize full name -> code so chips are clean (fr, de, ru…)
+            code = next((c for c, n in LANG_NAMES.items() if n.lower() == norm_lang(l)), l)
+            if code and code not in langs:
+                langs.append(code)
+        if len(langs) < 2:
+            continue
+        # representative shared tokens → readable subject
+        tok_sets = [tok_of[tw["file"]] for tw in tws]
+        shared_toks = set.intersection(*tok_sets) if tok_sets else set()
+        if not shared_toks:
+            shared_toks = set.union(*tok_sets)
+        subject = " ".join(sorted(shared_toks)[:3]).title() or tws[0].get("domain") or tws[0]["title"]
+        bridges.append({
+            "domain": subject,
+            "langs": sorted(langs),
+            "works": sorted(tws, key=lambda t: t["date"], reverse=True),
+        })
+    bridges.sort(key=lambda b: (-len(b["langs"]), b["domain"]))
+    feed["bridges"] = bridges[:8]
+    feed["library"]["bridges"] = len(bridges)
     # Warn on a large unexplained regression vs the previous feed (e.g. the
     # declassified / Book5 path issues above) so it is visible in the cron log.
     prev_pages = ((prev_feed or {}).get("library") or {}).get("pages_translated")

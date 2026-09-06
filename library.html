@@ -610,6 +610,12 @@ footer a { color: var(--gold); text-decoration: none; }
   <div id="booksList"><div class="loading">Loading book set...</div></div>
 </div>
 
+<!-- Bridges — the same idea across languages -->
+<div class="section" id="bridgesSection">
+  <h2>Bridges Between Languages <span class="sub">the same idea, worked independently in different tongues — where linguistic silos hid a shared thread</span></h2>
+  <div id="bridgesList"><div class="loading">Loading bridges...</div></div>
+</div>
+
 <!-- Translations -->
 <div class="section" id="translationsSection">
   <h2>Fresh Translations <span class="sub">first-ever English translations — cargo the multilingual scouts hauled back</span></h2>
@@ -653,7 +659,7 @@ let LIVING_FEED = null;
 
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json?v=20260906080326');
+    const res = await fetch('./library_feed.json?v=20260906132928');
     const feed = await res.json();
     LIVING_FEED = feed;
     renderStats(feed.library);
@@ -661,6 +667,7 @@ async function loadFeed() {
     renderDeclassified(feed.declassified);
     renderActivity(feed.activity_log);
     renderAtsyukovsky(feed.atsuyskovsky_books);
+    renderBridges(feed.bridges);
     renderTranslations(feed.latest_translations);
     renderFinds(feed.latest_finds);
     renderResearchers(feed.top_researchers);
@@ -832,6 +839,35 @@ function renderStats(lib) {
     d.className = 'stat';
     d.innerHTML = `<div class="num">${num == null ? '\u2014' : Number(num).toLocaleString()}</div><div class="lbl">${lbl}</div>`;
     band.appendChild(d);
+  });
+}
+
+function renderBridges(bridges) {
+  const el = document.getElementById('bridgesList');
+  const sec = document.getElementById('bridgesSection');
+  if (!el) return;
+  if (!bridges || !bridges.length) { if (sec) sec.style.display = 'none'; return; }
+  if (sec) sec.style.display = '';
+  el.innerHTML = '';
+  bridges.forEach(b => {
+    const card = document.createElement('div');
+    card.className = 'translation-card';
+    const langChips = b.langs.map(l => `<span class="lang-badge">${escapeHtml(l)}</span>`).join('');
+    const workRows = b.works.slice(0, 4).map(w =>
+      `<div class="bridge-work" style="padding:2px 0;cursor:${w.content_file ? 'pointer' : 'default'};color:${w.content_file ? 'var(--text)' : 'var(--text-dim)'};">
+        <span class="lang-badge sm">${escapeHtml(w.language || '')}</span> ${escapeHtml(w.title)}
+      </div>`).join('');
+    card.innerHTML = `
+      <h3>🌉 ${escapeHtml(b.domain)}</h3>
+      <div class="meta">${langChips}<span>${b.works.length} work${b.works.length === 1 ? '' : 's'}</span></div>
+      <div class="excerpt">${workRows}</div>
+      <span class="read-btn" style="pointer-events:none;opacity:0.6;">same thread, different tongues</span>
+    `;
+    const rows = card.querySelectorAll('.bridge-work');
+    b.works.slice(0, 4).forEach((w, i) => {
+      if (rows[i] && w.content_file) rows[i].addEventListener('click', () => openReader(w));
+    });
+    el.appendChild(card);
   });
 }
 

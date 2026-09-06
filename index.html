@@ -16,6 +16,9 @@
     <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
     <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
     <meta name="twitter:card" content="summary">
+    <script type="application/ld+json" id="siteJsonLd">
+    {"@context":"https://schema.org","@type":"WebSite","@id":"https://focusingpulse.github.io/AFLinks/","name":"Aetherforce Knowledge Vault","description":"Primary-source documents on alternative science — aether, torsion, LENR, water vortex, ether dynamics — preserved, translated and cross-linked.","url":"https://focusingpulse.github.io/AFLinks/","potentialAction":{"@type":"SearchAction","target":"https://focusingpulse.github.io/AFLinks/?cat={query}","query-input":"required name=query"}}
+    </script>
     <style>
         :root {
             --bg: #0b0f14;
@@ -2313,7 +2316,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260906080326')
+            fetch('./synthesis/synthesis_index.json?v=20260906132928')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -2788,7 +2791,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260906080326');
+                        const response = await fetch('./search_index.json?v=20260906132928');
                         return response.json();
                     };
                     if (catParam) {
@@ -2818,12 +2821,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260906080326');
+                    const man = await fetch('./full_manifest.json?v=20260906132928');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260906080326');
+                    const feedRes = await fetch('./library_feed.json?v=20260906132928');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -3290,9 +3293,46 @@
                 ${afHtml}
                 ${rexHtml}
             `;
+            ovl.querySelector('.modal').appendChild(docJsonLd(item));
             const ovl = document.getElementById('modalOverlay');
             ovl.classList.add('active');
             ovl.querySelector('.modal').focus();
+        }
+
+        // Phase 3 JSON-LD: machine-readable ScholarlyArticle for the open
+        // document. Embedded in the modal AND mirrored into a head script so
+        // scraping agents/crawlers that execute JS see typed metadata. Uses
+        // the canonical doc:<id> from the retrieval contract.
+        function docJsonLd(item) {
+            const sc = document.createElement('script');
+            sc.type = 'application/ld+json';
+            const url = (getBestUrl(item) || {}).url || '';
+            const payload = {
+                '@context': 'https://schema.org',
+                '@type': 'ScholarlyArticle',
+                '@id': 'doc:' + item.id,
+                'name': item.title || item.filename,
+                'description': (item.content_preview || '').slice(0, 400),
+                'url': url || undefined,
+                'inLanguage': undefined,
+                'author': item.primary_person || undefined,
+                'about': (item.categories || []).slice(0, 10),
+                'keywords': ((item.meta_categories || []).slice(0, 10)).join(', '),
+                'isPartOf': { '@type': 'Collection', '@id': 'archive-graph.json' }
+            };
+            Object.keys(payload).forEach(k => { if (payload[k] === undefined) delete payload[k]; });
+            sc.textContent = JSON.stringify(payload);
+            try {
+                let headScript = document.getElementById('docJsonLdHead');
+                if (!headScript) {
+                    headScript = document.createElement('script');
+                    headScript.id = 'docJsonLdHead';
+                    headScript.type = 'application/ld+json';
+                    document.head.appendChild(headScript);
+                }
+                headScript.textContent = sc.textContent;
+            } catch (e) { /* head mirror optional */ }
+            return sc;
         }
 
         function closeModal(e) {
