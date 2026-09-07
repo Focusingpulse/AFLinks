@@ -1,7 +1,15 @@
 ---
-name: Magnitsky Gravity Compressible Ether Ru
-description: Full English translation
+name: Magnitsky - Gravity in Compressible Oscillating Ether Theory
+description: "English translation of N.A. Magnitsky's paper on gravity in the theory of compressible oscillating ether."
+date: 2026-09-07
+domain: ether-physics
+source_language: ru
+language: en
+author: N.A. Magnitsky
+source_url: https://newinflow.ru/pdf/pub28.pdf
+publication: Complex Systems, No. 4 (33), 2019
 ---
+
 Magnitsky, 2019
 
 UDC 51-72

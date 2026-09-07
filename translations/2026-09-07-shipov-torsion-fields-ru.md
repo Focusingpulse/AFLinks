@@ -1,7 +1,14 @@
 ---
-name: Shipov Torsion Fields Ru
-description: Full English translation
+name: Shipov - Torsion Fields and Torsion Technologies
+description: "English translation of G.I. Shipov's paper on torsion fields and torsion technologies."
+date: 2026-09-07
+domain: torsion-fields
+source_language: ru
+language: en
+author: G.I. Shipov
+source_url: http://einsteinandtesla.com/files/070313-spin-tors-1.pdf
 ---
+
 TORSION FIELDS AND TORSION TECHNOLOGIES.1
                                      G.I. Shipov
 

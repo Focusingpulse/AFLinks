@@ -1,33 +1,21 @@
 ---
-name: Theorie Univers Onde Fr
-description: Full English translation
+name: Théorie de l'Univers Onde (TUO) — Zenodo Landing Page
+description: "English translation of the Zenodo deposit page for 'Théorie de l'Univers Onde (TUO)' by François Maillot (2025)."
+date: 2026-09-07
+domain: cosmology, ether-physics, vacuum-tension
+source_language: fr
+language: en
+author: François Maillot
+source_url: https://doi.org/10.5281/zenodo.17311741
 ---
-Skip to main
 
- You are using an outdated browser. Please upgrade your browser to improve your experience.
+Théorie de l'Univers Onde (TUO): From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology.
 
-Published 2025
+**Author:** MAILLOT, François (Researcher)
 
- | Version v2
+**Published:** 2025 | Version v2 | Publication (Open)
 
-Publication
-
-Open
-
- Théorie de l'Univers Onde (TUO) : From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology.
-
-Authors/Creators
-
- MAILLOT, François
- (Researcher)
-
-Contributors
-
-Researcher:
-
- MAILLOT, François
-
-Description
+## Description
 
  This deposit presents two fundamental works establishing the theoretical framework of the Wave Universe Theory (TUO), a new unified approach to vacuum physics and gravitation.
 

@@ -1,7 +1,14 @@
 ---
-name: Extended Electromagnetism Schadach De
-description: Full English translation
+name: Extended Theory of Electromagnetism (Schadach/Barrett)
+description: "DE->EN translation of Dirk Schadach's paper on Barrett's extended electromagnetic theory, covering gauge theories, solitons, non-Abelian Maxwell equations, and vacuum field energy."
+date: 2026-09-07
+domain: electromagnetism, gauge-theory, vacuum-field-physics
+source_language: de
+language: en
+author: Dirk Schadach
+source_url: https://novam-research.com/resources/Extended-Theory-of-Electromagnetism_D-Schadach.pdf
 ---
+
 D Schadach — Extended Theory of Electromagnetism (Barrett 1993) — 29.10.98
 
 Dirk Schadach
