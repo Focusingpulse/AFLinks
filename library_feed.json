@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T12:04:21Z",
+  "generated_at": "2026-09-07T12:19:43Z",
   "library": {
     "researchers": 980,
     "researchers_cataloged": 189,
@@ -2252,6 +2252,49 @@
           "title": "Author",
           "description": "N.A. Kozyrev",
           "url": "https://archive.org/details/kozyrev"
+        }
+      ]
+    },
+    {
+      "date": "aetherforc",
+      "file": "aetherforce-scout-2026-09-07.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Chaumery & Belizal",
+          "description": "Essai de Radiesthésie Vibratoire",
+          "url": ""
+        },
+        {
+          "title": "Ponce de León",
+          "description": "Geometría Sagrada",
+          "url": ""
+        },
+        {
+          "title": "Bearden",
+          "description": "Extracting EM Energy from Vacuum",
+          "url": ""
+        },
+        {
+          "title": "Sheldrake",
+          "description": "Telephone Telepathy Experiments",
+          "url": ""
+        },
+        {
+          "title": "Total entries",
+          "description": "39,077",
+          "url": ""
+        },
+        {
+          "title": "Domains",
+          "description": "14",
+          "url": ""
+        },
+        {
+          "title": "Major domains",
+          "description": "svpwiki.com (13,459), energeticforum.com (8,123), vixra.org (6,934), rexresearch.com (5,793)",
+          "url": ""
         }
       ]
     },
@@ -4901,9 +4944,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-07T08:26:02Z",
+      "last_run": "2026-09-07T12:17:33Z",
       "last_status": "ok",
-      "last_summary": "+22 chunks | Schauberger Water 114/210 | assembled 9 complete translations (Shipov 15ch, Spyridis 37ch, TUO 3ch, Magnitsky 18ch, Schadach 33ch, Consciousness 13ch, Akimov 1ch, Scalar 7ch, TUO Classical 7ch) | backlog 387 wait (gear: overdrive)"
+      "last_summary": "+12 chunks since last run (114->126) | Schauberger Water Blood of Earth 126/210 | backlog 387 wait (gear: overdrive)"
     },
     {
       "member": "db-entity-extractor",
@@ -4923,9 +4966,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-07T08:05:31Z",
+      "last_run": "2026-09-07T12:05:37Z",
       "last_status": "ok",
-      "last_summary": "sync: 30542 docs, feed rebuilt"
+      "last_summary": "sync: 39077 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4989,9 +5032,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-07T10:35:00Z",
+      "last_run": "2026-09-07T12:02:00Z",
       "last_status": "ok",
-      "last_summary": "GROWTH FIRE 08:15Z: energeticforum.com full thread harvest — +8,123 docs merged id-safe (archive 30,542→38,665, a731109; largest single-fire growth). Enumeration solved: no sitemap/AJAX blocked, but /page<N> channel + thread pages are server-rendered; walked renewable-energy(577pp)/general(118)/bedini(35)/waterfuel(28)+all channels → 8,123 unique threads, 8,104 w/ previews. rotation→zenodo-rh (317/730 done). ICCF-27 proc still UC; infinite-energy CF-blocked; viXra at 2609.0012; no new discovery (LRDI/jcmns already noted). OCR/queue/tag pending FocusOptimized."
+      "last_summary": "SCOUT ROUND 12:00Z: 0 new FL LENR queue candidates — 29th consecutive clean round since 08-21. ICCF-27 proceedings STILL Under Construction (hot watch, likely next FL source). viXra max 2609.0012 (no growth since 06:22Z). Zenodo kw: nothing post-08-21 (newest real 22036645). Exa RU/ZH mainstream hot-fusion only (DIII-D, Texatron, Pranos, PACMAN, 新奥 HB11). seplm.ru BACK UP (RU LENR, rotation idx 12, harvestable; announces РКХТЯиШМ-29 conf Sept 28–Oct 2). lenr.su live (73 seed). Archive 39,077 docs / 980 researchers / 2339 patents / 61 trans / 1049 pg (baked 12:04:21Z). Rotation zenodo-rh DONE → jcmns.org (585 PDFs) @12:15Z. STALENESS FLAG: translator agent 108h (QC 08:32Z); sweeper active (71-82 @09-06 08:17Z). No claims stale. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5019,9 +5062,27 @@
   "activity_log": [
     {
       "date": "2026-09-07",
+      "time": "12:17",
+      "agent": "Translation Sweeper",
+      "summary": "+12 chunks — Translated chunks 115-126 of Schauberger 'Water: The Blood of the Earth' (German). Content: Schauberger's reply to Liechtenstein government on river regulation, his account of interactions with Prof. Forchheimer and Excellency Exner, the cycloid space curve discovery, and the boar-piss analogy. Also synced manifest with disk state (was out of sync). Job now 126/210 done."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:05",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+39077 docs — +39077 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-07",
       "time": "12:01",
       "agent": "Book5 Translate",
       "summary": "+0 chunks — heartbeat: Book5 translation complete at 220/220 chunks (100%). Assembled output: Book5_full_translation.md (521KB). No work needed."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 29th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, empty body) — hot watch; likeliest next FL source when it drops. viXra at 2609.0012 max (probed 0013+ 404, no growth since 06:22Z +11). Zenodo keyword mostrecent: nothing post-08-21 (newest real 22036645; top now 21116578 07-02 Ouroboros = non-LENR). Exa RU/ZH fresh window = mainstream hot-fusion only (DIII-D Alfvén PRL, American Fusion Texatron, Pranos Pragya, PACMAN AI, 新奥 HB11). seplm.ru BACK UP (200, RU LENR, rotation idx 12 — harvestable next growth fire; announces РКХТЯиШМ-29 conference Sept 28–Oct 2 2026). lenr.su live (73 seed ready). Archive 39,077 docs / 980 researchers / 2,339 patents / 61 trans / 1,049 pg (stats baked 12:04:21Z aflinks-sync; flat since 10:15Z +412 zenodo-rh e64d3a5). Rotation zenodo-rh DONE → jcmns.org (585 PDFs seed ready) @12:15Z. — STALENESS FLAG — translator agent stale 108h (translation-qc @08:32Z); sweeper still active (chunks 71–82 @09-06 08:17Z, soft trip 09-08 08:17Z).** No claims stale. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-1200.md.**"
     },
     {
       "date": "2026-09-07",
@@ -5358,24 +5419,6 @@
       "time": "21:17",
       "agent": "Translation Sweeper",
       "summary": "+12 chunks — Overdrive: translated 12 chunks (24-35) of Schauberger 'Water: Blood of the Earth' (de→en), now 35/210. Backlog 322."
-    },
-    {
-      "date": "2026-09-04",
-      "time": "21:07",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+45 docs — +45 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-04",
-      "time": "20:15",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR queue candidates: all 29 tracked records re-verified live at record level via curl GETs (zh Lin pool 8 + Zhuang 20668098 + Du 20736072; ru Lemeshko TTU trio + 18521158 + ETVE 19305307 + Torchigin 21532952/21946561; fr COLDFIRE-2.31 19744790 + DYN-LENR 17396246 + nanodiamond 19075653; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471/Tomita 19175262; de KBF-01 20558305), titles/dates unchanged. Fresh LENR-keyword window now 15 days clean (newest 22036645, 08-21). Zenodo search API 403-blocked from cloud this round — worked around with record GETs + Exa sweeps (Exa window = known Knösch 2025-dated false positives + cosmology/hydride noise, none LENR/FL). 1 context-only note: Lozac'h 22301256 (09-04, fra) = newest IGFD-V4 isodyne/math series entry, NOT LENR, series continuity only. **Archive UNCHANGED at 13,605 entries / 94 translations / 1,150 pages / 29 declassified / 2,339 patents / 970 researchers / 14 agents** (feed rebuilt 09-04 17:03:08Z, same as 12:00 round — worker-side harvest paused this window, watch item). Pipeline ACTIVE — translator NOT stale (09-04 TUO FR→EN + Spyridis EL→EN + Shipov RU→EN all in feed). No claims. tuks down from cloud (worker reports up), lenr-canr up, viXra up (200, lane quiet), lenr.seplm.ru down, preprints.ru/3908 Lebedkin alive. OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-04-scout-report-2000.md + finds mirror sources/2026-09-04-scout-finds-2000-scout.md."
-    },
-    {
-      "date": "2026-09-04",
-      "time": "20:02",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     }
   ],
   "declassified": [

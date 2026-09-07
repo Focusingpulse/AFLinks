@@ -6,8 +6,7 @@ description: "Translation document. language el | domain: unified-theory | http:
 - **date:** 2026-09-04
 - **domain:** unified-theory
 - **source_url:** http://users.uoa.gr/~hspyridis/THEORYOFEVRYTHING.pdf
-- **source_language:** el
-- **language:** en
+- **language:** el
 - **author:** H. Spyridis
 
 ---
