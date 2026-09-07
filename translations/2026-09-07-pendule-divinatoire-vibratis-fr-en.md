@@ -3,7 +3,8 @@ date: 2026-09-07
 title: "The Divinatory Pendulum: Your Complete Guide (Use, Power, Dangers...)"
 domain: radiesthesia
 source_url: https://vibratis.fr/pendule-divinatoire/
-language: fr
+source_language: fr
+language: en
 author: Edouard (Vibratis)
 publication: Vibratis.fr, December 2018
 translator: Forge (translation-qc agent)

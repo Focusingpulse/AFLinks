@@ -3,7 +3,8 @@ date: 2026-08-29
 title: "Form Waves: Meaning, Use, and Benefits (Vibratis)"
 domain: radiesthesia
 source_url: https://vibratis.fr/ondes-de-forme/
-language: fr
+source_language: fr
+language: en
 author: Edouard (Vibratis)
 publication: Vibratis.fr, December 2019
 translator: Forge (translation-qc agent)
