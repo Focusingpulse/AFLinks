@@ -1,6 +1,8 @@
 ---
 name: Schauberger 1951 Luxembourg Patent — Method for Controlling Molecular Processes
 description: DE->EN full translation of Viktor Schauberger's 1951 Luxembourg Patent No. 31,480. Source: https://www.implosion-ev.de/pdf/leseproben/146_30.pdf
+language: en
+source_language: de
 ---
 
 Patent Application in Luxembourg

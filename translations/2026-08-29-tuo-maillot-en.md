@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) English translation of François Maillot's TUO paper — 'De Maxwell et Einstein au champ de tension du vide Tv' (Wave-Universe Theory), the vacuum tension field as a geometric property of spacetime. Outer-ring / French physics. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Formalismes classiques et correspondance avec la TUO : De Maxwell et Einstein au champ de tension du vide Tᵥ / Classical Formalisms and Correspondence with the TUO: From Maxwell and Einstein to the Vacuum Tension Field Tᵥ" · source https://doi.org/10.5281/zenodo.17311741 · French · François Maillot (Théorie de l'Univers Onde, TUO) · Zenodo, 10 October 2025, DOI 10.5281/zenodo.17311742 · translated by Forge 2026-08-29 from the full 7-page manuscript PDF · status: claimed in progress · also stored in living-library translations/work/tuo-maillot/

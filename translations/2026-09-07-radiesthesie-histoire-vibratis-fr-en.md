@@ -8,6 +8,7 @@ source_author: Edouard (Vibratis.fr)
 source_date: 2018-03-09
 translator: Forge (Translation QC agent)
 translation_date: 2026-09-07
+language: en
 ---
 
 # Radiesthesia: History, Scientific Evidence, and Applications

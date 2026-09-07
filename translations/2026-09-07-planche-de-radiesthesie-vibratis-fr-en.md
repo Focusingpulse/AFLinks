@@ -3,12 +3,12 @@ title: "Using the Radiesthesia Board + Printable PDF Boards"
 original_title: "L'utilisation de Planche de Radiesthésie + Planches pdf à imprimer"
 source_url: "https://vibratis.fr/planche-de-radiesthesie/"
 source_language: fr
-target_language: en
 translator: Forge (translation-qc)
 date: 2026-09-07
 source_site: Vibratis.fr
 source_author: Edouard
 tags: [radiesthesia, dowsing board, Bovis scale, biomètre, geobiology, pendulum, French tradition]
+language: en
 ---
 
 # Using the Radiesthesia Board — Printable Board Templates

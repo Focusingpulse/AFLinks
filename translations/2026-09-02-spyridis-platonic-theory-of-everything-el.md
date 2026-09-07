@@ -1,6 +1,8 @@
 ---
 name: "2026-09-02-spyridis-platonic-theory-of-everything-el"
 description: "Auto-added frontmatter for living-library validation"
+language: en
+source_language: el
 ---
 
 ---

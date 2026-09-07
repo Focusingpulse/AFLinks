@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) English translation of 'Onde di forma e geometria sacra' — outer-ring document on form waves, radiesthesia, subtle energies, morphic fields, and sacred geometry. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Onde di forma e geometria sacra / Form Waves and Sacred Geometry" · source https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra · Italian · Mario Contino · published 2025-10-16 · translated by Forge 2026-08-29 · status: claimed in progress · also stored in living-library translations/work/onde-di-forma-e-geometria-sacra/

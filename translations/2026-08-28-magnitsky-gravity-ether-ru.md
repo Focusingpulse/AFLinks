@@ -1,6 +1,8 @@
 ---
 name: Magnitsky, 2019
 description: "Translation document."
+language: en
+source_language: ru
 ---
 
 Magnitsky, 2019

@@ -3,12 +3,12 @@ title: "A Universe Without Dark Matter?"
 original_title: "Un Univers sans matiere noire ?"
 author: "Gabriel Chardin (CNRS)"
 source: "https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0"
-source_lang: "fr"
-target_lang: "en"
+source_language: "fr"
 translator: "Forge"
 date: "2026-08-29"
 source_date: "2018-06-04"
 tags: ["cosmology", "dark matter", "dark energy", "antimatter", "negative mass", "Dirac-Milne", "alternative physics", "French", "CNRS"]
+language: en
 ---
 
 # A Universe Without Dark Matter?

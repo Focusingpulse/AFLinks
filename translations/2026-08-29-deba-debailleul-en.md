@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) English translation of Michel Debailleul's DEBA paper — 'Cosmologie de Cohérence Organisationnelle', a stochastic-field theory of bubble-universe emergence. Outer-ring / French cosmology. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Cosmologie de Cohérence Organisationnelle : Une Théorie de Champ Stochastique de l'Émergence d'Univers-Bulles / Cosmology of Organizational Coherence: A Stochastic Field Theory of the Emergence of Bubble-Universes (DEBA)" · source https://zenodo.org/records/18033125 · French · Michel Debailleul (geophysicist, Université Libre de Bruxelles, Belgium) · Zenodo, published 2025-12-23 · translated by Forge 2026-08-29 from the full 6-page manuscript PDF · status: claimed in progress · also stored in living-library translations/work/deba-debailleul/

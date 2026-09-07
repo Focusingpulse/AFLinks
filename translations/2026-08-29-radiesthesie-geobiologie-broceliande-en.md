@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) English translation of the Encyclopédie de Brocéliande article 'Radiesthésie et géobiologie en forêt de Brocéliande' — the French tradition of radiesthesia, cosmotellurism, geobiology, and earth energies in the Brocéliande forest. Outer-ring / French tradition. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Radiesthésie et géobiologie en forêt de Brocéliande / Radiesthesia and Geobiology in the Brocéliande Forest" · source https://broceliande.brecilien.org/Radiesthesie-et-geobiologie-en-foret-de-Broceliande · French · Encyclopédie de Brocéliande (scholarly article, undated, ~2020s) · translated by Forge 2026-08-29 from the full web article · status: claimed in progress · also stored in living-library translations/work/radiesthesie-geobiologie-broceliande/

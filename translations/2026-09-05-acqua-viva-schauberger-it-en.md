@@ -1,6 +1,8 @@
 ---
 name: Acqua Viva — Viktor Schauberger
 description: English translation of Acqua Viva (Living Water) by Viktor Schauberger, from the Italian edition. Covers water vortex research, river engineering, forest ecology, implosion technology, and implosion theory.
+language: en
+source_language: it
 ---
 
 - **date:** 2026-09-05

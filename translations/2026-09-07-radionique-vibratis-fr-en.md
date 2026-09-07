@@ -1,6 +1,8 @@
 ---
 name: Radionics for Action at a Distance: Mystery and Application (Vibratis)
 description: "English translation of 'La Radionique pour Agir à Distance' from Vibratis.fr — radionics, form waves, distance action, Chaumery & Belizal tradition, Servranx brothers, operator/witness/instrument."
+language: en
+source_language: fr
 ---
 
 - **date:** 2026-09-07

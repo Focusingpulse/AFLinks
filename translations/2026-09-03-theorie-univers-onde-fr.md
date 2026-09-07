@@ -1,6 +1,8 @@
 ---
 name: "2026-09-03-theorie-univers-onde-fr"
 description: Full translation of "Skip to main"
+language: en
+source_language: fr
 ---
 
 Skip to main

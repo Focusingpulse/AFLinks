@@ -1,9 +1,9 @@
 ---
 name: Field and Quantum Potential of Consciousness
 description: "English paper by Antonio Manzalini proposing a quantum field model of consciousness based on de Broglie-Bohm theory and Nambu-Goldstone boson condensates. DOI: 10.48274/IBI16"
-source_lang: en
-target_lang: en
+source_language: en
 doi: https://doi.org/10.48274/IBI16
+language: en
 ---
 
 Field and Quantum Potential of Consciousness

@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) English translation of Claudia Vece's 'Morphic Resonance – Rupert Sheldrake' (Quantasia, IT, 2020) — outer-ring document on morphic fields, morphic resonance, and formative causation. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Morphic Resonance – Rupert Sheldrake" · source https://www.quantasia.ch/2020/01/08/morphic-resonance-rupert-sheldrake/ · Italian · Claudia Vece (Quantasia SA) · published 2020-01-08 · translated by Forge 2026-08-29 · status: claimed in progress · also stored in living-library translations/work/morphic-resonance-sheldrake/

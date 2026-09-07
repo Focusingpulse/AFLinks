@@ -3,12 +3,12 @@ title: "Form Waves: Origin, Principles, and Controversies"
 original_title: "Les ondes de forme"
 author: "Centre Ganesha / ChamanKa"
 source: "https://www.centreganesha.com/les-ondes-de-forme/"
-source_lang: "fr"
-target_lang: "en"
+source_language: "fr"
 translator: "Forge"
 date: "2026-08-29"
 source_date: "2026-03-05"
 tags: ["ondes de forme", "form waves", "radiesthesia", "Chaumery", "de Belizal", "green negative", "pyramid", "geobiology", "radionics", "French", "sacred geometry"]
+language: en
 ---
 
 # Form Waves: Origin, Principles, and Controversies

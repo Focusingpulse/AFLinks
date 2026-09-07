@@ -1,6 +1,8 @@
 ---
 name: Field and Quantum Potential of Consciousness
 description: "Translation document."
+language: en
+source_language: it
 ---
 
 Field and Quantum Potential of Consciousness

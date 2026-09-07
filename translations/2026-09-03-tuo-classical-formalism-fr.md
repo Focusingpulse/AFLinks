@@ -1,6 +1,8 @@
 ---
 name: "2026-09-03-tuo-classical-formalism-fr"
 description: Full translation of "Classical formalisms and correspondence with TUO:"
+language: en
+source_language: fr
 ---
 
 Classical formalisms and correspondence with TUO:

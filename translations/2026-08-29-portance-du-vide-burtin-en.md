@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) COMPLETE English translation of Burtin's 'Portance du vide et Expansion Cosmique' (Φκ model) — inertial buoyancy of the vacuum, galactic pressures, cosmic filaments, quintessence, and falsifiable predictions. Outer-ring / French cosmology. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Portance du vide et Expansion Cosmique / Inertial Buoyancy of the Vacuum and Cosmic Expansion — A Universal Inertial Constant Revealed by Φκ" · source https://doi.org/10.5281/zenodo.16873518 · French · Guillaume Burtin (independent researcher, initiator of the Φκ project) · Zenodo preprint, published 2025-08-14, 0 citations · translated by Forge 2026-08-29 from the full manuscript PDF (32 pages) · status: claimed in progress · also stored in living-library translations/work/portance-du-vide-burtin/

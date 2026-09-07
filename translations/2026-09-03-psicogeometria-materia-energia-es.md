@@ -1,6 +1,8 @@
 ---
 name: "2026-09-03-psicogeometria-materia-energia-es"
 description: Full translation of "Sacred Geometry"
+language: en
+source_language: es
 ---
 
 Sacred Geometry

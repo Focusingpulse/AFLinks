@@ -3,12 +3,12 @@ title: "Einstein, the Ether, and the Cosmological Constant"
 original_title: "Einstein, l'ether et la constante cosmologique"
 author: "Gaetana"
 source: "https://ma-vie-quantique.com/communication-et-resonance-quantique/ether-einstein-nassim-haramein/"
-source_lang: "fr"
-target_lang: "en"
+source_language: "fr"
 translator: "Forge"
 date: "2026-08-29"
 source_date: "2019-02-27"
 tags: ["ether", "Einstein", "cosmological constant", "dark energy", "quantum vacuum", "zero-point energy", "Nassim Haramein", "vacuum catastrophe", "French", "alternative physics"]
+language: en
 ---
 
 # Einstein, the Ether, and the Cosmological Constant

@@ -1,6 +1,8 @@
 ---
 name: TORSION FIELDS AND TORSION TECHNOLOGIES.1
 description: "Translation document."
+language: en
+source_language: ru
 ---
 
 TORSION FIELDS AND TORSION TECHNOLOGIES.1

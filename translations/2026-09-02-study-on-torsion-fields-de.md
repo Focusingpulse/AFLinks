@@ -1,6 +1,8 @@
 ---
 name: study-on-torsion-fields
 description: "Complete German-to-English translation of 'Studie über die Torsionsfelder' (Study on Torsion Fields) from tervica.de. Covers the theory of torsion fields as a fundamental physical phenomenon, Shipov's 7-level reality model, Cartan torsion geometry, Kozyrev's astronomical observations, vacuum polarization, and the relationship between torsion fields and consciousness. By Prof. Dr. N. Grachev, State Institute for Electronics and Mathematics, Moscow."
+language: en
+source_language: de
 ---
 
 This by no means exhausts the application possibilities for torsion fields; the scope is at least as broad as that of electromagnetism. This in turn means that of the sum of all technologies of the XXI century, torsion technology will constitute the predominant share (using the terminology of S. Lemma). The contribution of torsion technologies will largely determine the appearance of the next civilization, which will replace the current one.

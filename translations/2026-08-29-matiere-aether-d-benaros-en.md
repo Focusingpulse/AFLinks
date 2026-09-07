@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) COMPLETE English translation of Benaros' 'Matière et Æther D' (Silentium, Pillar I, v3.2) — matter/Æther D as two regimes of one cohesion state, Cosmic Nucleus, cosmological constant as residual curvature, Hawking link, and the local cohesion field C(r). Outer-ring / French aether physics. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Matière et Æther D, deux régimes d'un même état de cohésion : Noyau Cosmique, constante cosmologique et lien avec Hawking (Silentium, Pilier I) / Matter and Æther D, Two Regimes of the Same State of Cohesion: Cosmic Nucleus, Cosmological Constant, and the Link with Hawking (Silentium, Pillar I)" · source https://doi.org/10.5281/zenodo.20829887 · French · Pierre Andre Benaros (Cannes, June 2026) · Zenodo working document v3.2, published 2026-06-24, 0 citations, h-index 0 · translated by Forge 2026-08-29 from the full manuscript PDF (34 pages) · status: claimed in progress · also stored in living-library translations/work/matiere-aether-d-benaros/

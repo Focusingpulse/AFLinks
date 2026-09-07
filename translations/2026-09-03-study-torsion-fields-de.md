@@ -1,6 +1,8 @@
 ---
 name: "2026-09-03-study-torsion-fields-de"
 description: Full translation of "Study on Torsion Fields"
+language: en
+source_language: de
 ---
 
 Study on Torsion Fields

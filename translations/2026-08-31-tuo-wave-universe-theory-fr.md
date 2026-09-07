@@ -1,6 +1,8 @@
 ---
 name: TUO — Wave Universe Theory (French source)
 description: "Original French page (T.U.O. — Théorie de l'Univers-Onde) translated to English."
+language: en
+source_language: fr
 ---
 
 Skip to main

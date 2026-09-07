@@ -1,6 +1,8 @@
 ---
 name: Vortex Motor Negentropic Propulsion
 description: "English translation of 'El Motor de Vórtice: Hacia una Tecnología de Propulsión Negentrópica' by Juan Miguel Rivero y Hornos Tverjanovich (2025). Schauberger implosion dynamics, ether physics, negentropic propulsion."
+language: en
+source_language: es
 ---
 
 - **date:** 2026-09-04

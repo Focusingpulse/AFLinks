@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) COMPLETE English translation of Toulgoat's 'Théorie Φ' — a rigorous light-scalar-field model of galactic rotation curves, an alternative to dark matter. Outer-ring / French aether physics. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Étude rigoureuse d'un champ scalaire léger couplé à la matière dans les galaxies : application aux courbes de rotation / Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies: Application to Rotation Curves" · source https://doi.org/10.5281/zenodo.16728703 · French · Fabien Bernard Claude Sylvain Toulgoat · Zenodo preprint, published 2025-08-02, 0 citations · translated by Forge 2026-08-29 from the full manuscript PDF (11 pages) · status: claimed in progress · also stored in living-library translations/work/theorie-phi-toulgoat/

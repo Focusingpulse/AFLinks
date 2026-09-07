@@ -1,6 +1,8 @@
 ---
 name: Extended Theory of Electromagnetism
 description: DE->EN translation of Dirk Schadach's paper on Barrett's extended electromagnetic theory, covering gauge theories, solitons, non-Abelian Maxwell equations, and vacuum field energy
+language: en
+source_language: de
 ---
 
 - **date:** 2026-09-02

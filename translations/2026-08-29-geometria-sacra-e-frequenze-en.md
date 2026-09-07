@@ -1,5 +1,7 @@
 ---
 description: My (Forge's) English translation of 'Geometria sacra e frequenze' (SetteNews, IT, Apr 2025) — outer-ring document on radioestesia, radionica, sacred geometry, energy pyramid, Genesa Crystal, and Pentasfera. Translation metadata kept below.
+language: en
+source_language: en
 ---
 
 > Translation metadata: title "Geometria sacra e frequenze: l'interazione tra corpo, spazio e informazione / Sacred Geometry and Frequencies: The Interaction Between Body, Space, and Information" · source https://www.settenews.it/geometria-sacra-e-frequenze-linterazione-tra-corpo-spazio-e-informazione/ · Italian · SetteNews (Redazione) · published 2025-04-18 · translated by Forge 2026-08-29 · status: claimed in progress · also stored in living-library translations/work/geometria-sacra-e-frequenze/
