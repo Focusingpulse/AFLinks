@@ -1,14 +1,7 @@
 ---
-name: TUO - Wave Universe Theory (FR→EN)
-description: "English translation of TUO Group's 'Théorie de l'Univers Onde' — wave universe theory, cosmology, Zenodo publication."
+name: "2026-09-03-theorie-univers-onde-fr"
+description: Full translation of "Skip to main"
 ---
-
-- **date:** 2026-09-03
-- **domain:** cosmology
-- **source_url:** https://doi.org/10.5281/zenodo.17311741
-- **source_language:** fr
-- **language:** en
-- **author:** TUO Group
 
 Skip to main
 

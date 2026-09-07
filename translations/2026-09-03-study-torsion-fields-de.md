@@ -1,12 +1,7 @@
 ---
-name: Study on Torsion Fields (German→English)
-description: "English translation of 'Studie über Torsionsfelder' — torsion fields as long-range force fields, generators, analogy to electromagnetism."
+name: "2026-09-03-study-torsion-fields-de"
+description: Full translation of "Study on Torsion Fields"
 ---
-
-- **date:** 2026-09-03
-- **domain:** torsion-fields
-- **source_language:** de
-- **language:** en
 
 Study on Torsion Fields
 

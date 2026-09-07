@@ -1,13 +1,12 @@
 ---
 name: Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35
-description: "English translation of 'Étude Énergétique et Géobiologique de la Hotie de Viviane' — energetic circuit and geobiological study at Paimpont, Brocéliande."
+description: "Translation document. language fr | domain: geobiology | https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99"
 ---
 
 - **date:** 2026-08-29
 - **domain:** geobiology
 - **source_url:** https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99
-- **source_language:** fr
-- **language:** en
+- **language:** fr
 - **author:** Ecoute Energetique
 - **publication:** ecouteenergetique.com, October 2016
 - **translator:** Forge (translation-qc agent)

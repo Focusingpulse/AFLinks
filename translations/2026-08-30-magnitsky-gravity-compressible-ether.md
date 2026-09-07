@@ -1,13 +1,12 @@
 ---
 name: Gravity in the Theory of Compressible Oscillating Ether
-description: "English translation of N.A. Magnitsky's 'Gravity in the Theory of Compressible Oscillating Ether' — ether theory of gravity, pressing forces, gravitational constant."
+description: "Translation document. language ru | domain: theoretical-physics | https://newinflow.ru/pdf/pub28.pdf"
 ---
 
 - **date:** 2026-08-30
 - **domain:** theoretical-physics
 - **source_url:** https://newinflow.ru/pdf/pub28.pdf
-- **source_language:** ru
-- **language:** en
+- **language:** ru
 - **author:** N.A. Magnitsky
 - **publication:** Complex Systems, No. 4 (33), 2019
 

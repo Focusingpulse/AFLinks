@@ -1,13 +1,12 @@
 ---
 name: TUO Classical Formalism - From Maxwell Einstein to Vacuum Tension Tv
-description: "English translation of François Maillot's TUO Classical Formalism — from Maxwell and Einstein to the vacuum tension field Tv. Wave Universe Theory."
+description: "Translation document. language fr | domain: ether-physics | https://zenodo.org/api/records/17311989/files/1_V.1.1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf/content"
 ---
 
 - **date:** 2026-08-29
 - **domain:** ether-physics
 - **source_url:** https://zenodo.org/api/records/17311989/files/1_V.1.1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf/content
-- **source_language:** fr
-- **language:** en
+- **language:** fr
 - **author:** Francois Maillot
 - **publication:** Zenodo DOI 10.5281/zenodo.17311742
 
