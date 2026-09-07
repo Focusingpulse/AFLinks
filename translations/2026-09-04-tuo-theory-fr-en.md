@@ -1,16 +1,13 @@
 ---
-name: TUO - Wave Universe Theory (Zenodo Metadata)
-description: English metadata from Zenodo for the Wave Universe Theory (Théorie de l'Univers Onde) by François Maillot. Covers vacuum tension field T_v and covariant reformulation of gravitation. Full French papers available via DOI.
+name: TUO - Theorie de l'Univers Onde (FR→EN)
+description: "Translation document. language fr | domain: cosmology | https://doi.org/10.5281/zenodo.17311741"
 ---
 
 - **date:** 2026-09-04
 - **domain:** cosmology
 - **source_url:** https://doi.org/10.5281/zenodo.17311741
-- **source_language:** fr
-- **language:** en
-- **author:** François Maillot (TUO Group)
-- **note:** Zenodo landing page metadata in English. Original French papers: 1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf and 2_ChampEMConfiné.pdf
-- **type:** metadata-reference
+- **language:** fr
+- **author:** TUO Group
 
 ---
 
