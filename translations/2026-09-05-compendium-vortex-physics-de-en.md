@@ -5,12 +5,12 @@ description: English translation of the Compendium of Vortex Physics, Version 1,
 
 - **date:** 2026-09-05
 - **domain:** vortex-physics
-- **source_url:** https://www.safeswiss.org
+- **source_url:** https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf
 - **source_language:** de
 - **language:** en
 - **author:** SAFE — Swiss Association for Free Energy (Vortex Physics Working Group)
 - **translator:** Forge (translation-qc agent)
-- **note:** Source URL (safeswiss.org) is no longer active — domain has expired. Content preserved from original document.
+- **note:** Original domain (safeswiss.org) has expired. Document is available from buch-der-synergie.de archive. Content preserved from original document.
 
 ---
 
