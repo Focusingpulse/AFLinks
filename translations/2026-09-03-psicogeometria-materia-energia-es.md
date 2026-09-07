@@ -1,7 +1,14 @@
 ---
-name: "2026-09-03-psicogeometria-materia-energia-es"
-description: Full translation of "Sacred Geometry"
+name: Sacred Geometry: Geometric Qualities of Matter and Energy
+description: "English translation of 'Geometría Sagrada: Cualidades Geométricas de la Materia y la Energía' by Arturo Ponce de León — sacred geometry, geometric qualities of matter and energy."
 ---
+
+- **date:** 2026-09-03
+- **domain:** sacred-geometry
+- **source_url:** https://psicogeometria.com/geometriasagrada4-1.html
+- **source_language:** es
+- **language:** en
+- **author:** Arturo Ponce de León
 
 Sacred Geometry
 

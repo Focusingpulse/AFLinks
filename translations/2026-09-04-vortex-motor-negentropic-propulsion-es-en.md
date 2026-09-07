@@ -1,12 +1,13 @@
 ---
 name: Vortex Motor Negentropic Propulsion
-description: "Translation document. language es | domain: propulsion | https://zenodo.org/records/17626722"
+description: "English translation of 'El Motor de Vórtice: Hacia una Tecnología de Propulsión Negentrópica' by Juan Miguel Rivero y Hornos Tverjanovich (2025). Schauberger implosion dynamics, ether physics, negentropic propulsion."
 ---
 
 - **date:** 2026-09-04
 - **domain:** propulsion
 - **source_url:** https://zenodo.org/records/17626722
-- **language:** es
+- **source_language:** es
+- **language:** en
 - **author:** Juan Miguel Rivero y Hornos Tverjanovich
 - **translator:** Forge (translation-qc agent)
 

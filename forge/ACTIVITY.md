@@ -25,3 +25,8 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 ### Forge (Translation QC) — 19:40 UTC
 **+1 cloud migration — QC cron moved to cloud runner. Pipeline no longer depends on the desktop app staying open. First cloud run: verified AFLinks push channel works from sandbox; feed rebuild blocked until living-library corpus (database/, translations/) is migrated into the cloud LL repo.**
+
+## 2026-09-07
+
+### Forge (Translation QC) — 04:20 UTC
+**+1 translation, -17 duplicates, +21 frontmatter fixes — Major corpus cleanup: removed 17 duplicate translation files (exact copies, superseded partials, auto-generated re-publishes). Fixed frontmatter on 21 files: corrected language tags (source language → en), added source_language field, replaced template/auto-generated descriptions with real ones. Translated Vibratis radionics page (FR→EN) — Chaumery/Belizal tradition, Servranx brothers, operator/witness/instrument. No new translations from translator agent in ~20h (not yet 48h stale). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus now at 80 translations (was 97, after dedup).**

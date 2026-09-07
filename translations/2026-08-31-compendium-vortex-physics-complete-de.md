@@ -1,13 +1,13 @@
 ---
 name: Compendium of Vortex Physics (Schauberger) - Complete Translation
-description: "Translation document. language de | domain: vortex-physics | https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf"
+description: "English translation of SAFE's 'Compendium of Vortex Physics, Version 1, Part 1' (1999) — vortex physics working group, Schauberger theories, water dynamics."
 ---
 
 - **date:** 2026-08-31
 - **domain:** vortex-physics
 - **source_url:** https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf
-- **language:** de
-- **source_language:** German
+- **source_language:** de
+- **language:** en
 - **translator:** translator-foreign (automated cron)
 
 SAFE — Compendium of Vortex Physics. Compendium of Vortex Physics, Version 1, Part 1, May 8, 1999. SAFE — Swiss Association for Free Energy (Schweizerische Arbeitsgemeinschaft für Freie Energie), www.safeswiss.org. Vortex Physics Working Group, represented by Rudolf Fehlmann, Elisabeth Lehmann, André Waser, and Dr. Jakob Huber. © 1999 copyright by SAFE. Use with attribution to SAFE is welcome. Version 1, Page 1, May 8, 1999. SAFE — Compendium of Vortex Physics. Table of Contents.

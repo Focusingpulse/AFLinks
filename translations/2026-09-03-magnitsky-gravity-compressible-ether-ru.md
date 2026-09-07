@@ -1,7 +1,15 @@
 ---
-name: "2026-09-03-magnitsky-gravity-compressible-ether-ru"
-description: Full translation of "Magnitsky, 2019"
+name: Magnitsky - Gravity in Compressible Oscillating Ether Theory
+description: "English translation of N.A. Magnitsky's 'Gravity in the Theory of Compressible Oscillating Ether' (2019) — ether theory of gravity, pressing forces, gravitational constant."
 ---
+
+- **date:** 2026-09-03
+- **domain:** ether-physics
+- **source_url:** https://newinflow.ru/pdf/pub28.pdf
+- **source_language:** ru
+- **language:** en
+- **author:** N.A. Magnitsky
+- **publication:** Complex Systems, No. 4 (33), 2019
 
 Magnitsky, 2019
 

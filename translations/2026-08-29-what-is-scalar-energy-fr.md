@@ -1,12 +1,13 @@
 ---
 name: What Is Scalar Energy?
-description: "Translation document. language fr | domain: alternative energy, scalar waves, aether theories | https://ondulavi.com/quest-ce-que-lenergie-scalaire/"
+description: "English translation of 'Qu'est-ce que l'énergie scalaire?' from Ondulavi — scalar energy, scalar fields, longitudinal magneto-dielectric waves, zero-point energy."
 ---
 
 - **date:** 2026-08-29
 - **domain:** alternative energy, scalar waves, aether theories
 - **source_url:** https://ondulavi.com/quest-ce-que-lenergie-scalaire/
-- **language:** fr
+- **source_language:** fr
+- **language:** en
 - **author:** Ondulavi
 - **publication:** ondulavi.com, September 2024
 - **translator:** The Wizard (translation cron)

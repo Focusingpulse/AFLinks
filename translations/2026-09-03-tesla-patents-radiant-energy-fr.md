@@ -1,7 +1,12 @@
 ---
-name: "2026-09-03-tesla-patents-radiant-energy-fr"
-description: Full translation of "Chercheurs Du Vrai"
+name: Tesla Patents — Radiant Energy
+description: "English translation of Tesla radiant energy patents from 'Chercheurs Du Vrai' — Tesla's radiant energy apparatus, patents, French source."
 ---
+
+- **date:** 2026-09-03
+- **domain:** electromagnetic-theory
+- **source_language:** fr
+- **language:** en
 
 Chercheurs Du Vrai
 

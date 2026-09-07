@@ -1,12 +1,13 @@
 ---
 name: Shipov - Torsion Fields and Torsion Technologies (RU→EN)
-description: "Translation document. language ru | domain: torsion-fields | http://einsteinandtesla.com/files/070313-spin-tors-1.pdf"
+description: "English translation of G.I. Shipov's 'Torsion Fields and Torsion Technologies' — torsion field theory, Cartan geometry, vacuum physics."
 ---
 
 - **date:** 2026-09-04
 - **domain:** torsion-fields
 - **source_url:** http://einsteinandtesla.com/files/070313-spin-tors-1.pdf
-- **language:** ru
+- **source_language:** ru
+- **language:** en
 - **author:** G.I. Shipov
 
 ---
