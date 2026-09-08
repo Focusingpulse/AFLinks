@@ -1,6 +1,8 @@
 ---
 name: Shipov - Torsion Fields and Torsion Technologies (RU→EN)
 description: "Translation document. language ru | domain: torsion-fields | http://einsteinandtesla.com/files/070313-spin-tors-1.pdf"
+language: en
+source_language: ru
 ---
 
 - **date:** 2026-09-04

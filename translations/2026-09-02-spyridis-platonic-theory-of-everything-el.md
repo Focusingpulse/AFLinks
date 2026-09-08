@@ -1,10 +1,14 @@
 ---
 name: "2026-09-02-spyridis-platonic-theory-of-everything-el"
 description: "Auto-added frontmatter for living-library validation"
+language: el
+source_language: el
 ---
 
 ---
 description: "translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md"
+language: el
+source_language: el
 ---
 The Platonic Theory of Everything and
                     the Spyridis Unified Theory of the Electro-Strong Interaction

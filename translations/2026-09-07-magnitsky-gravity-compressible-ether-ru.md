@@ -1,6 +1,8 @@
 ---
 name: Magnitsky Gravity Compressible Ether Ru
 description: Full English translation
+language: ru
+source_language: ru
 ---
 Magnitsky, 2019
 

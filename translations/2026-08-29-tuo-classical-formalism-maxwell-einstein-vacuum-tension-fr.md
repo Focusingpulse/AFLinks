@@ -1,6 +1,8 @@
 ---
 name: TUO Classical Formalism - From Maxwell Einstein to Vacuum Tension Tv
 description: "Translation document. language fr | domain: ether-physics | https://zenodo.org/api/records/17311989/files/1_V.1.1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf/content"
+language: fr
+source_language: fr
 ---
 
 - **date:** 2026-08-29

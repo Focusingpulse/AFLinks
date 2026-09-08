@@ -1,6 +1,8 @@
 ---
 name: "2026-09-03-del-giudice-pollack-fourth-phase-water-it"
 description: Full translation of "Link to Facebook. Link to X. Link to YouTube. Link to Instagram."
+language: it
+source_language: it
 ---
 
 Link to Facebook. Link to X. Link to YouTube. Link to Instagram.

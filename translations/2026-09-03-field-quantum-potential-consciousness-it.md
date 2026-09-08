@@ -1,6 +1,8 @@
 ---
 name: "2026-09-03-field-quantum-potential-consciousness-it"
 description: Full translation of "Field and Quantum Potential of Consciousness"
+language: it
+source_language: it
 ---
 
 Field and Quantum Potential of Consciousness

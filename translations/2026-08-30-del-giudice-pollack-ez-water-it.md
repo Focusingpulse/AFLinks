@@ -1,6 +1,8 @@
 ---
 name: Link to Facebook. Link to X. Link to YouTube. Link to Instagram.
 description: "Translation document."
+language: it
+source_language: it
 ---
 
 Link to Facebook. Link to X. Link to YouTube. Link to Instagram.

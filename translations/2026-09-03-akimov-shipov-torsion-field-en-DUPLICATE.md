@@ -2,7 +2,7 @@
 name: Akimov-Shipov Torsion Field Research
 description: "English translation of Akimov/Shipov torsion field research — Academy of Trinitarianism, Institute of Vacuum Physics, torsion field experiments."
 language: en
-source_language: en
+source_language: ru
 ---
 
 - **date:** 2026-09-03

@@ -1,6 +1,8 @@
 ---
 name: Rigorous study of a light scalar field coupled to matter in galaxies:…
 description: "Translation document."
+language: fr
+source_language: fr
 ---
 
 Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html

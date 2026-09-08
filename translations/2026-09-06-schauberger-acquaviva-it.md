@@ -1,6 +1,8 @@
 ---
 name: Acqua Viva — Viktor Schauberger Part 1
 description: Italian translation of Viktor Schauberger's "Acqua Viva" (Living Water), a collection of his writings on water, forestry, and natural energy. Translated from Italian by the Translation Sweeper agent.
+language: it
+source_language: it
 ---
 
 Catalogue

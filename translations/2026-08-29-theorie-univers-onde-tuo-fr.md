@@ -1,6 +1,8 @@
 ---
 name: Skip to main
 description: "Translation document."
+language: fr
+source_language: fr
 ---
 
 Skip to main

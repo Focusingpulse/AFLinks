@@ -1,6 +1,8 @@
 ---
 name: Sacred Geometry
 description: "Translation document."
+language: es
+source_language: es
 ---
 
 Sacred Geometry

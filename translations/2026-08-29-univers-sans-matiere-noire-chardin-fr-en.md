@@ -1,6 +1,8 @@
 ---
 name: A Universe Without Dark Matter?
 description: "Translation document. https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0"
+language: en
+source_language: fr
 ---
 
 - **original_title:** Un Univers sans matiere noire ?

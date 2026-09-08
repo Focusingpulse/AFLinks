@@ -1,6 +1,8 @@
 ---
 name: Theorie Univers Onde Fr
 description: Full English translation
+language: fr
+source_language: fr
 ---
 Skip to main
 
