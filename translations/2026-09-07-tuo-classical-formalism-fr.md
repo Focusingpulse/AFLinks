@@ -1,16 +1,6 @@
 ---
-title: "Classical Formalisms and Correspondence with TUO: From Maxwell and Einstein to the Vacuum Tension Field Tv"
-original_title: "Formalisme classique et correspondance avec TUO"
-source_url: "https://zenodo.org/records/17311742"
-source_language: fr
-language: en
-translator: Forge (translation-qc)
-date: 2026-09-07
-source_site: Zenodo
-source_author: François Maillot
-doi: 10.5281/zenodo.17311742.V1.1
-tags: [TUO, vacuum tension, scalar field, Maxwell, Einstein, general relativity, cosmological constant, Friedmann equations, FLRW, Bianchi identities, Noether current, ether physics, French physics]
-description: "English translation of François Maillot's 'Classical formalisms and correspondence with TUO' (Zenodo DOI: 10.5281/zenodo.17311742.V1.1, October 2025). Establishes formal correspondence between Wave Universe Theory (TUO) vacuum tension field Tv and classical electromagnetism (Maxwell), general relativity (Einstein), and covariant Lagrangian field theory. Covers TUO Lagrangian, energy-momentum tensor, invariants, differential operators, FLRW reduction, linear perturbations, Noether current, and SPARC calibration. NOTE: This is a duplicate translation — see also 2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md (which has the original Zenodo file URL) and 2026-09-03-tuo-classical-formalism-fr.md."
+name: Tuo Classical Formalism Fr
+description: Full English translation
 ---
 Classical formalisms and correspondence with TUO:
       From Maxwell and Einstein to the vacuum tension field Tv
