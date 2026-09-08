@@ -1,19 +1,23 @@
 {
   "agent": "Drunvalo",
-  "timestamp": "2026-09-07T00:01:00Z",
-  "cron": "village-quality-audit",
+  "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+  "timestamp": "2026-09-08T00:15:00Z",
+  "task": "village-quality-audit",
   "status": "ok",
-  "summary": "Village RPG quality audit complete",
-  "details": {
-    "quests_checked": 190,
-    "guilds_checked": 24,
-    "master_quests_entries": 332,
-    "urls_checked": 661,
-    "urls_ok": 639,
-    "urls_broken": 22,
-    "data_integrity_score": "96.7%",
-    "issues_found": 0,
-    "issues_fixed": 0,
-    "files_validated": ["data.js", "translations.js", "master_quests.json", "index.html", "learning.js"]
-  }
+  "summary": "Village quality audit complete: 26 guilds, 192 quest names validated; 642/664 links OK (96.7%); no new issues",
+  "files_processed": ["check_links.py", "data.js", "translations.js", "master_quests.json", "index.html"],
+  "metrics": {
+    "guilds": 26,
+    "unique_quest_names": 192,
+    "translations_es": 164,
+    "translations_fr": 164,
+    "links_checked": 664,
+    "links_ok": 642,
+    "links_failed": 22,
+    "data_integrity_score": 96.7
+  },
+  "issues_found": [],
+  "recommendations": [
+    "Broken links in master_quests.json are in scraped archive data - leave as-is or add archive.org snapshots"
+  ]
 }
