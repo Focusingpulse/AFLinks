@@ -1,8 +1,6 @@
 ---
 name: Chercheurs Du Vrai
 description: "Translation document."
-language: en
-source_language: fr
 ---
 
 Chercheurs Du Vrai

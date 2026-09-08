@@ -1,14 +1,7 @@
 ---
-name: Field and Quantum Potential of Consciousness
-description: "English translation of Antonio Manzalini's paper on consciousness as a quantum field, based on de Broglie-Bohm theory and Nambu-Goldstone boson condensates."
-date: 2026-09-07
-domain: consciousness, quantum-field-theory
-source_language: it
-language: en
-author: Antonio Manzalini
-source_url: https://doi.org/10.48274/IBI16
+name: Consciousness Field Quantum Potential It
+description: Full English translation
 ---
-
 Field and Quantum Potential of Consciousness
 DOI: https://doi.org/10.48274/IBI16
 Author

@@ -1,7 +1,6 @@
 ---
 name: Gravity in the Theory of Compressible Oscillating Ether
 description: "Translation document. language ru | domain: theoretical-physics | https://newinflow.ru/pdf/pub28.pdf"
-language: en
 ---
 
 - **date:** 2026-08-30

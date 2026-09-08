@@ -1,8 +1,6 @@
 ---
 name: "2026-09-03-field-quantum-potential-consciousness-it"
 description: Full translation of "Field and Quantum Potential of Consciousness"
-language: en
-source_language: it
 ---
 
 Field and Quantum Potential of Consciousness
@@ -19,6 +17,10 @@ Abstract (English original)
 Living organisms, from a thermodynamic point of view, are similar to open systems, operating far from equilibrium. In fact, the metabolic processes of life are based on continuous internal flows and exchanges of energy, matter and information of organisms with the surrounding environment.
 
 On a deeper physical level, however, these exchanges are mediated by wave quantum oscillations which include, for example: mechanical, electromagnetic, nuclear and thermal oscillations. Even the vacuum, according to the Quantum Field Theory (QFT), is the arena of quantum fluctuations. In view of this, it is reasonable to argue that living organisms are open systems far not only from thermodynamic equilibrium, but also from quantum equilibrium. This also determines and influences the different levels of consciousness of living organisms.
+
+
+---
+
 
 The article proposes a model of the consciousness of living organisms, based on a broader approach than that of Quantum Mechanics and QFT: this new approach proposes in fact to consider the processes of consciousness, beyond quantum equilibrium, which is a fundamental characteristic of life. The proposed consciousness model leverages the de Broglie-Bohm theory that led to the definition of the quantum field and potential: in particular, consciousness is defined as a quantum field, whose associated potential is processed by the living organisms, as active information. In analogy with the quantum field of the de Broglie-Bohm theory for inanimate matter, the quantum field of consciousness of living matter also has no sources and its shape or curvature has more physical importance than amplitude: in particular, it is proposed that this curvature is associated with condensations of the Nambu Goldstone bosons (as predicted by the QFT) following symmetry breaks in this field.
 

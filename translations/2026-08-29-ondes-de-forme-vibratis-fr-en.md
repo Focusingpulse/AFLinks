@@ -1,8 +1,6 @@
 ---
 name: Form Waves: Meaning, Use, and Benefits (Vibratis)
 description: "Translation document. language fr | domain: radiesthesia | https://vibratis.fr/ondes-de-forme/"
-language: en
-source_language: fr
 ---
 
 - **date:** 2026-08-29

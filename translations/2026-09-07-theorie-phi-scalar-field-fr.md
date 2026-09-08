@@ -1,14 +1,8 @@
 ---
-name: Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies
-description: "English translation of Fabien Toulgoat's paper on a light scalar field coupled to baryonic density, offering an alternative to dark matter."
-date: 2026-09-07
-domain: scalar-field-theory, galactic-dynamics
-source_language: fr
-language: en
-author: Fabien Toulgoat
+name: Theorie Phi Scalar Field Fr
+description: Full English translation
 ---
-
-Rigorous study of a light scalar field coupled to matter in galaxies:
+Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 Rigorous study of a light scalar field coupled to matter in galaxies:
                                         application to rotation curves

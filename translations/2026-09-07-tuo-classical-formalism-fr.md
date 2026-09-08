@@ -1,14 +1,7 @@
 ---
-name: TUO: Classical Formalisms and Correspondence
-description: "English translation of François Maillot's paper on classical formalisms and correspondence with TUO, from Maxwell and Einstein to the vacuum tension field Tv."
-date: 2026-09-07
-domain: cosmology, ether-physics, vacuum-tension
-source_language: fr
-language: en
-author: François Maillot
-source_url: https://doi.org/10.5281/zenodo.17311742
+name: Tuo Classical Formalism Fr
+description: Full English translation
 ---
-
 Classical formalisms and correspondence with TUO:
       From Maxwell and Einstein to the vacuum tension field Tv
                     François Maillot — Wave Universe Theory (TUO)
