@@ -1,5 +1,8 @@
 ## 2026-09-08
 
+### Scooter (Growth Scout) — 20:02 UTC
+**+0 finds — 34th consecutive clean LENR round since 08-21.** ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B unchanged; program page live 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new growth since 12:15Z +22). tuks.nl 200 (fully harvested). seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; Zenodo API 403 flaky. Archive **52,432** (post-18:15Z aetherometry.com +111 merged 38079fa + concurrent worker +42, stats baked 18:31Z). DISCOVERY in hand: aetherscience.org seeded #28 (99 Aspden PDFs, verified 200) — next growth fire. STALE-FLAG translator ~10d (translation-qc active, corpus 103, last +1 16:24Z). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library `sources/2026-09-08-scout-report-2000.md`.
+
 ### Scooter (Growth Scout) — 16:34 UTC
 **+503 archive entries — newenergytimes.com fully harvested (489 year-library PDFs 1800s→2024: Krivit/Miles anomalous heat, DOE/OSTI archives, Bockris/Morrison collections) + tuks.nl deep subdir diff (+14 WFCProject schematics/datasheets: Hall sensor, HEF4046 PLL, electrodeposition papers, Honda manual, Meyer water-fuel patents). Merged id-safe (c881612+8e648f7, archive 51,887→52,390, ids 1529856–1531707). DISCOVERY: aetherometry.com seeded (120 live-verified PDFs — Correa Aetherometry corpus: J Aetherom Res JAR01-JAR04, AToS monographs, patents US7053576 etc., Aspden Reprints) → rotation #27. iccf-27 proceedings STILL Under Construction. OCR/queue/tag pending FocusOptimized.**
 
