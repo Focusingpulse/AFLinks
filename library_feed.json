@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T21:29:40Z",
+  "generated_at": "2026-09-08T22:05:17Z",
   "library": {
     "researchers": 988,
     "researchers_cataloged": 197,
@@ -43,8 +43,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 1,
-    "replication_dossiers": 2,
+    "practical_quests": 2,
+    "replication_dossiers": 3,
     "validations": 0
   },
   "latest_translations": [
@@ -5205,9 +5205,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-08T17:48:45Z",
+      "last_run": "2026-09-08T21:47:29Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks Schauberger Water (de) 142/210 | backlog 387 (gear: quota)"
+      "last_summary": "+0 archives since last run (still 23; Schauberger source already archived) | Schauberger Water Blood of Earth (de) 146->150/210 chunks, next 151 | backlog 387 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5238,7 +5238,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-08T21:05:32Z",
+      "last_run": "2026-09-08T21:30:23Z",
       "last_status": "ok",
       "last_summary": "sync: 52642 docs, feed rebuilt"
     },
@@ -5337,6 +5337,18 @@
       "time": "22:15",
       "agent": "Scooter (Growth Scout)",
       "summary": "+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "21:47",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: translated Schauberger 'Water: The Blood of the Earth' (de) chunks 147-150 — culture-decay polemic closing, deep-sea water properties, quantitative/qualitative water decline; 150/210 total. Source PDF already archived. Backlog 387."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "21:30",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+52664 docs — +52664 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-08",
@@ -5679,18 +5691,6 @@
       "time": "16:05",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 16:00 UTC, cloud round; 25th consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total on the broad cold fusion OR LENR OR low energy nuclear query (query-normalized, same as 08:00/12:00) — newest real item still 22036645 (08-21), newer matches all previously-closed noise (OUROBOROS v10 22133690 08-27, 17O-water 22117461/21912323, Hamzah, PLEG). Fulltext sweep 263 total: newest 22464783 (09-06) = \"Dynamic Programming with Contextual Memory Networks\" CS/ML paper, CMNS acronym collision, NOT LENR, closed 08:00. Tracked spot-check 3/13 live + unchanged (KBF-01 20558306 deu, DMF 20551471 eng, Torchigin 21532952 ru). Exa RU/ZH fresh window (Sep 5+) = mainstream hot-fusion only (new: Princeton PACMAN AI tokamak-control MK.ru 09-06; IAEA nuclear-emulsion Dubna; CNNC fusion strategy; Kardashev One fall-test; Huawei t-chip ChinaXiv = unrelated) — no LENR, no non-EN primary docs. — lenr.seplm.ru flapping DOWN again (000; was 200 at 08:00/12:00 — 12:00 deep-read covered all homepage links, nothing un-read). ICCF-27 proceedings page STILL under construction (site 200, no paper links) — 1-3 wk watch, likely next FL source. ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers / 14 agents (live feed rebuilt 14:50:13Z — site-content driven: Replication Yard phase-4 pavilion + JSON-LD bridges + paradigm-signal report 13:32-14:51Z; archive docs unchanged; sync 08:04:44Z same 15,392). **Translator ACTIVE — NOT STALE**: last output 09-05 12:18Z (Acqua Viva IT→EN 96th) + sweeper 12:19Z; ~28h since, 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis 12:08Z, site-build work through 14:51Z, translation-qc 08:08Z (dupe fix + person-index). No claims. tuks 000 down, lenr-canr 200 up (news stale June), viXra 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up, iccf-27 200. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-1600.md."
-    },
-    {
-      "date": "2026-09-06",
-      "time": "08:17",
-      "agent": "Translation Sweeper",
-      "summary": "+12 chunks — Translated chunks 71-82 of Schauberger 'Water: Blood of the Earth' (de→en). Topics: forest ecology degradation, temperature gradients in gravity dams, Forchheimer expert opinion on Tepl dam design, water decay from hydraulic regulation. Job at 82/210 chunks. Overdrive mode."
-    },
-    {
-      "date": "2026-09-06",
-      "time": "08:05",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 08:00 UTC, cloud round; 23rd consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total on the broad cold fusion OR LENR OR low energy nuclear query (query-normalized, not comparable to prior 219 count) — newest real item still 22036645 (08-21), newer matches all previously-closed noise (OUROBOROS v10 22133690 08-27, 17O-water 22117461 08-26, Hamzah, PLEG). Fulltext sweep 404 total: newest 22464783 (09-06) = \"Dynamic Programming with Contextual Memory Networks\" CS/ML paper, CMNS acronym collision, NOT LENR, closed. — lenr.seplm.ru BACK UP (200) for the first time since ~09-03 — deep-read DONE: Prosvirnov «Роль LENR в шестом технологическом укладе» confirmed as 2026-07-17 pre-window opinion/analysis essay (no experimental content) → CONTEXT-ONLY confirmed, 20:00-flag closed; New Fire Signal (09-05) = already-closed marketing; Kashchenko trio = covered 16:00. ICCF-27 proceedings page (iccf-27.org/proceeding/) still under construction — no proceedings yet. Exa EN sweeps = mainstream hot-fusion PR only (Kardashev One, PRAGYA, Texatron, Sirius, NIF). **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed 17:01:08Z 09-05; AFLinks sync 7f90eb2 04:05:53Z = same 15,392). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper 10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis pushes 06:05Z today, translation-qc 04:07Z (5 translations). No claims. tuks 000 down, lenr-canr 200 up (news stale June), viXra /new 406 flapping, lenr.seplm.ru 200 up, preprints.ru 200 up. AFLinks push OK (x-access-token). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0800.md + finds mirror sources/2026-09-06-scout-finds-0800-scout.md."
     }
   ],
   "declassified": [
@@ -590998,6 +590998,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-08-tesla-radiant-receiver.md",
+        "date": "2026-09-08",
+        "title": "quest card 003 — Tesla radiant energy receiver",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Quest Card 003\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-06-wasserwirbler.md",
         "date": "2026-09-06",
         "title": "quest card 001 — Wasserwirbler water vortexer",
@@ -591006,6 +591013,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-08-dossier-003-tesla-radiant-receiver.md",
+        "date": "2026-09-08",
+        "title": "replication dossier 003 — Tesla radiant energy receiver",
+        "status": "draft",
+        "excerpt": "# Replication Dossier 003 — The Tesla Radiant Energy Receiver\n\n## Source lineage\n\n- **Nikola Tesla** — US Patent 685,957 \"Apparatus for the Utilization of Radiant Energy\" (1901) and 685,958 \"Method of"
+      },
       {
         "file": "synthesis/replication/2026-09-06-dossier-002-eeman-circuit.md",
         "date": "2026-09-06",
