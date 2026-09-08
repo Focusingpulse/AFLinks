@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:03:58Z",
+  "generated_at": "2026-09-08T18:07:21Z",
   "library": {
     "researchers": 988,
     "researchers_cataloged": 197,
@@ -5205,9 +5205,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-05T04:47:55Z",
+      "last_run": "2026-09-08T17:48:45Z",
       "last_status": "ok",
-      "last_summary": "+13 archives since last run (10->23) | translating Acqua Viva (Schauberger, IT) 88/106 chunks — 12 chunks done this run | backlog 332 (gear: overdrive)"
+      "last_summary": "+4 chunks Schauberger Water (de) 142/210 | backlog 387 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5216,9 +5216,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-07T12:17:33Z",
+      "last_run": "2026-09-08T17:17:58Z",
       "last_status": "ok",
-      "last_summary": "+12 chunks since last run (114->126) | Schauberger Water Blood of Earth 126/210 | backlog 387 wait (gear: overdrive)"
+      "last_summary": "+4 chunks | Schauberger Water Blood of Earth 138/210 | backlog 387 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5238,9 +5238,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-08T16:06:54Z",
+      "last_run": "2026-09-08T17:06:26Z",
       "last_status": "ok",
-      "last_summary": "sync: 51887 docs, feed rebuilt"
+      "last_summary": "sync: 52390 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5343,6 +5343,24 @@
       "time": "20:00",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — 30th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, empty body) — hot watch; likeliest next FL source when it drops. viXra at 2609.0012 max (probed 0013–0017 → 404, no growth). Zenodo keyword mostrecent: nothing post-08-21 (newest real 22036645; 22117461 17O-water eng known). Exa RU/ZH fresh window = knowns/mainstream only (seplm repo news, ENG8/Biberian KB-OM repost 07-02 tracked, UBC-Thunderbird & 张航 MIT-CR39 ZH explainers old). — seplm.ru UP & enumerated — rotation #12 first live surface: 13 articles incl. Kaschenko massive-e-pairs, Prosvirnov LENR-role-in-6th-tech-paradigm, Mizuno nuclear-reaction-control trans, Grickevich patents, O-17-enriched-water-via-LENR; site announces РКХТЯиШМ-29 conf Sept 28–Oct 2 2026. Recommend growth-fire harvest (RU lane, 0 overlap).** lenr.su (73-seed RU filelist) next growth target @20:15Z. Archive 42,497 docs (18:15Z +63 apparentlyapparel 99e3c7b). **STALENESS FLAG — translator agent stale ~120h (translation-qc @16:22Z reported ~116h); sweeper still active (Schauberger 71–82, soft trip 09-08 08:17Z).** No claims >7d. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-2000.md.**"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "17:48",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Translated Schauberger 'Water: Blood of the Earth' chunks 139-142 (de→en), 142/210 done. Pages 169-173: natural philosophy questions, experiment with U-tube +4°C anomaly, path to free energies, start of Part 2 TOC. Quota mode, 4 chunks."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "17:18",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Translated Schauberger 'Water: Blood of the Earth' chunks 135-138 (de→en), now 138/210. Sections: forest decay, agriculture, energy economy, beginning doubt, questions for science."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "17:06",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+52390 docs — +52390 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-08",
@@ -5673,24 +5691,6 @@
       "time": "00:18",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+15392 docs — +15392 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-06",
-      "time": "00:10",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 00:00 UTC, cloud round; 21st consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 219 total (newest 22036645 08-21 eng) / fulltext 206 total (nothing post-08-21; Marchetti/Hamzah/Kulik-Nexus/Furui = all previously closed noise; Knösch NOT chased — known 2025-dated Exa false positive). 3/13 tracked records spot-reverified live via GETs, ALL 200 + unchanged (zh Lin 19779040/20046998/21355740); remaining 10 re-verified at 20:00 round. Exa sweeps: EN = mainstream only (Rafelski table-top survey arXiv 2609.01366, MGKDB, 21O+12C, non-proliferation, CFS ARC; media-tech.fr = verified false 12:00 09-05, never re-chase); RU = hot-fusion news only (Pranos Prāgya, Helical Fusion METI ¥60B, DIII-D Alfvén modes, NIF) + — 1 context-only: author.today/post/927085 «Вечный коралл» metric-attractor LENR reactor essay (Alekseenko 09-03) = speculative prose, NOT a research doc, do not queue**; ZH = mainstream (PRAGYA zh, Kardashev One neutron-recycling, LINEA p-11B FRC). lenr.seplm.ru 000 down from cloud (flapping; Prosvirnov piece context-only pending RU deep-read); lenr-canr news stale June. **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; ~12h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. No claims (claims.md empty). Fleet: Drunvalo synthesis 18:07Z, Translation-QC 16:06Z (09-05). tuks 000 down, lenr-canr 200 up, viXra /new 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up. AFLinks push OK. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0000.md + finds mirror sources/2026-09-06-scout-finds-0000-scout.md."
-    },
-    {
-      "date": "2026-09-06",
-      "time": "00:04",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-05",
-      "time": "20:06",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 20:00 UTC, cloud round; 20th consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 134 total (keywords:LENR, newest Ouroboros+Eli 21116578 07-02 EN noise) / fulltext 238 total (newest 22117461 17O-water 08-26 EN = known noise closed 12:00, Hamzah/Nexus cluster) — nothing published after 08-21, fresh window still clean. All 13 tracked records re-verified live via GETs, ALL 200, titles/dates unchanged, no redirect drift (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). — NEW THIS ROUND: lenr.seplm.ru flapping DOWN again (000; was 200 at 16:00)** — Exa homepage cache (08-28) shows one item not in the 16:00 deep-read: **Prosvirnov \"Роль LENR в шестом технологическом укладе\"** (LENR's role in the sixth tech paradigm) = RU opinion/analysis piece, CONTEXT ONLY — flag for RU-lane deep-read when the site returns (verify essay vs research note before pursuing). Exa sweeps: EN/viXra = zero FL (arXiv torsion/EFT noise 2608.28832/2608.29541/2608.30774 — none LENR; Klimov PVR-W LinkedIn marketing re-surface = known 2024 paper; PRB magnetic-vortex \"transmutation\" = winding number not nuclear); RU = hot-fusion news only (Texatron vacuum-vessel, Pranos Pragya tokamak 09-04, XENONnT pp-neutrinos 09-02, Pacific Fusion Sirius IMG 3000-discharges, NIF item). lenr-canr.org news archive still stale (June 2026). **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z, sync 387ad24 17:02:33Z; no worker growth this window; 17:02 rebuild moved completed-translation source docs in books/ — Acqua Viva IT dropped, Akimov-Shipov 08-28 x2 + Shipov torsion-tech RU book files added = translated-content moves, not new finds). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th, +90 pg) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z; ~8h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis push 18:07Z (Longitudinal Waves/Non-Hertzian electrodynamics), Translation-QC checked 5 translations/removed 3 dupes/+4 researchers 16:06Z. No claims (claims.md empty). tuks down (000), lenr-canr up (200), viXra /new 404 flapping, lenr.seplm.ru 000 down, preprints.ru up. AFLinks push confirmed (GETHUBFORGE valid). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-2000.md + finds mirror sources/2026-09-05-scout-finds-2000-scout.md."
     }
   ],
   "declassified": [
