@@ -70,7 +70,7 @@
     },
     {
       "name": "overunity.com",
-      "status": "crawled",
+      "status": "complete",
       "base_url": "https://overunity.com",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
@@ -81,7 +81,7 @@
     },
     {
       "name": "keychests.com",
-      "status": "pending",
+      "status": "crawled",
       "base_url": "https://web.archive.org/web/2017/http://www.keychests.com",
       "crawl_type": "wayback_scrape",
       "crawl_paths": [
@@ -102,7 +102,8 @@
         "/files-8/",
         "/files-9/"
       ],
-      "notes": "Old file-sharing site used by Aetherforce community. Domain is dead (parked on HugeDomains). Scraping Wayback Machine for file listings. Actual downloads may be dead but we can catalog what was there."
+      "notes": "Old file-sharing site used by Aetherforce community. Domain is dead (parked on HugeDomains). Scraping Wayback Machine for file listings. Actual downloads may be dead but we can catalog what was there.",
+      "file_count": 0
     },
     {
       "name": "strikefoundation.earth",
@@ -210,7 +211,7 @@
     },
     {
       "name": "i-sis.org.uk",
-      "status": "crawled",
+      "status": "complete",
       "base_url": "https://www.i-sis.org.uk",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
