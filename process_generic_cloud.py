@@ -308,7 +308,12 @@ def main():
         preview = ""
         
         if ext == '.pdf':
-            pdf_data = fetch_url(url, timeout=30)
+            # fetch via curl subprocess with hard timeout — urllib hangs on this server's throttled PDFs
+            try:
+                pdf_data = subprocess.run(['curl','-s','--max-time','60','-A','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', url], capture_output=True, timeout=70).stdout
+            except Exception as e:
+                print(f"  CURL-ERR: {e}")
+                pdf_data = None
             if pdf_data:
                 with tempfile.NamedTemporaryFile(suffix='.pdf', delete=False) as tmp:
                     tmp.write(pdf_data)

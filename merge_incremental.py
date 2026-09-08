@@ -68,3 +68,14 @@ if added > 0:
         print(f"  {s}: {n}")
 else:
     print("No new entries to add - index already up to date")
+
+# Quick id-safe merge helper for frienergi (call from repo root)
+def merge_entries(source_entries_path, index_path='index.json'):
+    import json
+    idx = json.load(open(index_path))
+    new = json.load(open(source_entries_path))
+    max_id = max(int(e['id']) for e in idx)
+    fresh = [e for e in new if int(e['id']) > max_id]
+    idx.extend(fresh)
+    json.dump(idx, open(index_path, 'w'), ensure_ascii=False)
+    return len(fresh), len(idx)
