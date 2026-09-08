@@ -1,15 +1,7 @@
 ---
-title: "Classical Formalisms and Correspondence with TUO: From Maxwell and Einstein to the Vacuum Tension Field Tv"
-original_title: "Formalisme Classique TUO: De Maxwell et Einstein au champ de tension du vide Tv"
-source_url: "https://doi.org/10.5281/zenodo.17311742"
-source_language: fr
-language: en
-translator: Forge (translation-quc)
-date: 2026-09-07
-source_site: Zenodo
-tags: [TUO, Wave Universe Theory, vacuum tension, scalar field, cosmology, Maxwell, Einstein, general relativity, Lagrangian, Friedmann equations, dark energy, François Maillot, ether physics]
+name: Tuo Classical Formalism Fr
+description: Full English translation
 ---
-
 Classical formalisms and correspondence with TUO:
       From Maxwell and Einstein to the vacuum tension field Tv
                     François Maillot — Wave Universe Theory (TUO)
