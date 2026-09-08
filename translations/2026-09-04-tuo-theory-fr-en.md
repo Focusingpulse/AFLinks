@@ -1,8 +1,6 @@
 ---
 name: TUO - Theorie de l'Univers Onde (FR→EN)
 description: "Translation document. language fr | domain: cosmology | https://doi.org/10.5281/zenodo.17311741"
-language: en
-source_language: fr
 ---
 
 - **date:** 2026-09-04

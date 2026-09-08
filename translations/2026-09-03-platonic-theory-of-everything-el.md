@@ -1,8 +1,6 @@
 ---
 name: "2026-09-03-platonic-theory-of-everything-el"
 description: Full translation of "The Platonic Theory of Everything and"
-language: el
-source_language: el
 ---
 
 The Platonic Theory of Everything and

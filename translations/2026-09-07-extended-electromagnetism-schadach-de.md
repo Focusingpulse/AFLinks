@@ -1,8 +1,6 @@
 ---
 name: Extended Electromagnetism Schadach De
 description: Full English translation
-language: de
-source_language: de
 ---
 D Schadach — Extended Theory of Electromagnetism (Barrett 1993) — 29.10.98
 

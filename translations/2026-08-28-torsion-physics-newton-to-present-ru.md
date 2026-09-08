@@ -1,8 +1,6 @@
 ---
 name: ACADEMY OF TRINITARIANISM
 description: "Translation document."
-language: ru
-source_language: ru
 ---
 
 ACADEMY OF TRINITARIANISM

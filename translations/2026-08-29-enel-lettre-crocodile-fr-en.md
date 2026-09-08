@@ -1,8 +1,6 @@
 ---
 name: Enel (Prince Michel Vladimirovich Skariatine, 1883-1963): A Life at the Crossroads of Science and Tradition
 description: "Translation document. language fr | domain: radiesthesia | https://lettreducrocodile.over-blog.net/2020/04/enel.html"
-language: en
-source_language: fr
 ---
 
 - **date:** 2026-08-29

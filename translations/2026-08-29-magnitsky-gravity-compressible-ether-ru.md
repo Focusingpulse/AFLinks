@@ -1,8 +1,6 @@
 ---
 name: Magnitsky - Gravity in Compressible Oscillating Ether Theory
 description: "Translation document. language ru | domain: ether-physics | https://newinflow.ru/pdf/pub28.pdf"
-language: ru
-source_language: ru
 ---
 
 - **date:** 2026-08-29

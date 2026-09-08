@@ -1,8 +1,6 @@
 ---
 name: "2026-09-03-torsion-physics-newton-present-ru"
 description: Full translation of "ACADEMY OF TRINITARIANISM"
-language: ru
-source_language: ru
 ---
 
 ACADEMY OF TRINITARIANISM

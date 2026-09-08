@@ -1,8 +1,6 @@
 ---
 name: Consciousness Field Quantum Potential It
 description: Full English translation
-language: it
-source_language: it
 ---
 Field and Quantum Potential of Consciousness
 DOI: https://doi.org/10.48274/IBI16

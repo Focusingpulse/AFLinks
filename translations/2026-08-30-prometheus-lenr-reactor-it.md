@@ -1,8 +1,6 @@
 ---
 name: Prometheus LENR Reactor UM 3.0
 description: "Translation document. language it | domain: lenr-energy | https://www.prometheusreactor.com/"
-language: it
-source_language: it
 ---
 
 - **date:** 2026-08-30

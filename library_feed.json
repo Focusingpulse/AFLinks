@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-08T00:23:40Z",
+  "generated_at": "2026-09-08T00:38:03Z",
   "library": {
     "researchers": 982,
-    "researchers_cataloged": 197,
+    "researchers_cataloged": 204,
     "patents": 2339,
     "categories": 47,
     "meta_categories": 24,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 61,
     "bridges": 1,
-    "archive_entries": 42667,
+    "archive_entries": 42728,
     "meta_counts": {
-      "Challenges to the Standard Model": 31194,
+      "Challenges to the Standard Model": 31255,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 21868,
-      "Patents & Inventions": 16797,
-      "Geopolitics & Hidden History": 11728,
-      "Electromagnetic Theory": 6651,
-      "Reference & Technical Data": 1341,
-      "Media & Interviews": 1350,
+      "Alternative Energy Technologies": 21906,
+      "Patents & Inventions": 16806,
+      "Geopolitics & Hidden History": 11736,
+      "Electromagnetic Theory": 6658,
+      "Reference & Technical Data": 1342,
+      "Media & Interviews": 1360,
       "Environment & Climate": 8236,
-      "Biology, Health & Medicine": 4307,
+      "Biology, Health & Medicine": 4308,
       "Frontier Science": 203
     },
     "graph_edges": 453,
@@ -5015,7 +5015,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-07T17:05:05Z",
+      "last_run": "2026-09-08T00:31:28Z",
       "last_status": "ok",
       "last_summary": "sync: 42434 docs, feed rebuilt"
     },
@@ -5070,9 +5070,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-07T20:20:00Z",
+      "last_run": "2026-09-08T00:20:00Z",
       "last_status": "ok",
-      "last_summary": "+2 translations (GaiaMamart form waves history FR→EN, Geobios Lecher antenna FR→EN). QC: batch-fixed frontmatter on 78 files (added language: en + source_language to all files missing them, cleaned old-format fields on 5). Corpus 95. Translator stale ~120h. Feed rebuild blocked from cloud."
+      "last_summary": "+2 translations (GLNF Essai radiesthésie vibratoire review FR→EN, Londedisis Pendule 5e Règne FR→EN). QC: re-fixed frontmatter on 60 files (aflinks-cron feed rebuild stripped language/source_language from last run's fixes). Corpus 98. Translator stale ~128h. Feed rebuild still blocked from cloud."
     },
     {
       "member": "scout",
@@ -5109,6 +5109,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-08",
+      "time": "00:31",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+42742 docs — +42742 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "00:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations, +60 frontmatter re-fixes — aflinks-cron feed rebuild (00:04Z) stripped language/source_language fields from 60 files (undoing last run's batch fix). Re-applied all frontmatter: every file now has correct language + source_language (monolingual files: source_language = language; translations: source_language = source). Translated 2 French outer-ring docs from the Chaumery/de Bélizal tradition: (1) GLNF book review of \"Essai de radiesthésie vibratoire\" FR→EN — review of the foundational 1939 text, Louksor universal pendulum, form waves in ancient architecture, Golden Ratio, Sergueïev on energy from forms surpassing electricity/nuclear; (2) Londedisis \"Le Pendule du 5e Règne\" FR→EN — bague atlante/Ring of Re, Howard Carter, spectrum decomposition on wooden sphere, \"vert négatif\" (negative green) as shortest wavelength, Universal Pendulum PU-6. Corpus 96→98. Other agents active: scout (LENR archive growth to 42,667), Drunvalo/village (QC + synthesis on Pilot Wave Continuum). Translator agent stale: no new publishes since Sep 3 (~128h, past 48h threshold). Feed rebuild still blocked from cloud."
+    },
     {
       "date": "2026-09-08",
       "time": "00:15",
@@ -5456,18 +5468,6 @@
       "time": "12:01",
       "agent": "Book5 Translate",
       "summary": "+0 chunks — No-op run: Book5 translation already 100% complete (220/220 chunks, 521KB assembled). Gear: overdrive."
-    },
-    {
-      "date": "2026-09-05",
-      "time": "08:10",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+25 docs — +25 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-05",
-      "time": "08:07",
-      "agent": "Polyglot Scout B",
-      "summary": "+12 finds — +12 multilingual finds across ES/NL/PL/UK — aether theories, sacred geometry, morphic fields, torsion physics, plasma cosmology, water memory, Goethean science, regenerative agriculture, radionics, sympathetic vibration (gear: overdrive)"
     }
   ],
   "declassified": [
@@ -37031,7 +37031,68 @@
         "1518919",
         "1518921",
         "1518922",
-        "1518923"
+        "1518923",
+        "1518924",
+        "1518925",
+        "1518926",
+        "1518927",
+        "1518928",
+        "1518929",
+        "1518930",
+        "1518931",
+        "1518932",
+        "1518933",
+        "1518934",
+        "1518935",
+        "1518936",
+        "1518937",
+        "1518938",
+        "1518939",
+        "1518940",
+        "1518941",
+        "1518942",
+        "1518943",
+        "1518944",
+        "1518945",
+        "1518946",
+        "1518947",
+        "1518948",
+        "1518949",
+        "1518950",
+        "1518951",
+        "1518952",
+        "1518953",
+        "1518954",
+        "1518955",
+        "1518956",
+        "1518957",
+        "1518958",
+        "1518959",
+        "1518960",
+        "1518961",
+        "1518962",
+        "1518963",
+        "1518964",
+        "1518965",
+        "1518966",
+        "1518967",
+        "1518968",
+        "1518969",
+        "1518970",
+        "1518971",
+        "1518972",
+        "1518973",
+        "1518974",
+        "1518975",
+        "1518976",
+        "1518977",
+        "1518978",
+        "1518979",
+        "1518980",
+        "1518981",
+        "1518982",
+        "1518983",
+        "1518984"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -70499,7 +70560,45 @@
         "1518919",
         "1518921",
         "1518922",
-        "1518923"
+        "1518923",
+        "1518924",
+        "1518925",
+        "1518926",
+        "1518927",
+        "1518928",
+        "1518929",
+        "1518930",
+        "1518931",
+        "1518932",
+        "1518933",
+        "1518934",
+        "1518935",
+        "1518936",
+        "1518937",
+        "1518938",
+        "1518939",
+        "1518941",
+        "1518942",
+        "1518943",
+        "1518944",
+        "1518945",
+        "1518946",
+        "1518947",
+        "1518948",
+        "1518949",
+        "1518950",
+        "1518951",
+        "1518952",
+        "1518953",
+        "1518954",
+        "1518956",
+        "1518957",
+        "1518958",
+        "1518960",
+        "1518967",
+        "1518977",
+        "1518979",
+        "1518980"
       ],
       "Patents & Inventions": [
         "5814",
@@ -87298,7 +87397,16 @@
         "1518918",
         "1518920",
         "1518922",
-        "1518923"
+        "1518923",
+        "1518928",
+        "1518934",
+        "1518943",
+        "1518944",
+        "1518945",
+        "1518946",
+        "1518947",
+        "1518952",
+        "1518953"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -99028,7 +99136,15 @@
         "1518918",
         "1518921",
         "1518922",
-        "1518923"
+        "1518923",
+        "1518927",
+        "1518928",
+        "1518934",
+        "1518935",
+        "1518937",
+        "1518952",
+        "1518958",
+        "1518967"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -105681,7 +105797,14 @@
         "1518901",
         "1518902",
         "1518906",
-        "1518908"
+        "1518908",
+        "1518925",
+        "1518926",
+        "1518928",
+        "1518939",
+        "1518951",
+        "1518953",
+        "1518979"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -107024,7 +107147,8 @@
         "1518753",
         "1518877",
         "1518885",
-        "1518904"
+        "1518904",
+        "1518943"
       ],
       "Media & Interviews": [
         "5947",
@@ -108376,7 +108500,17 @@
         "1518708",
         "1518853",
         "1518866",
-        "1518910"
+        "1518910",
+        "1518925",
+        "1518927",
+        "1518928",
+        "1518929",
+        "1518931",
+        "1518935",
+        "1518939",
+        "1518946",
+        "1518947",
+        "1518951"
       ],
       "Environment & Climate": [
         "62830",
@@ -120923,7 +121057,8 @@
         "1518859",
         "1518863",
         "1518885",
-        "1518910"
+        "1518910",
+        "1518932"
       ],
       "Frontier Science": [
         "239312",
@@ -163798,7 +163933,68 @@
       "1518920": "Transfer of Two Memos to Headquarters",
       "1518921": "Tritium Production",
       "1518922": "Understanding Tritium Production",
-      "1518923": "WJ Schafer"
+      "1518923": "WJ Schafer",
+      "1518924": "2015-10-70-Storms-LRDP-Summary-180502-Rev-1-221110",
+      "1518925": "2018-10-SKINR-2nd-Draft-Vol-1-200327",
+      "1518926": "2018-20-20-Nagel-LENR-Documentation-2nd-181026",
+      "1518927": "2018-30-10-Srinivasan-CF-Research-v1-Draft-3-Rev1-210127",
+      "1518928": "2019-10-0-Letts-LRDP-Stage-1-Vol-2-200730",
+      "1518929": "2019-10-10-Letts-LRDP-Stage-1-Vol-1-190730",
+      "1518930": "2019-20-10-Miles-LRDP-Draft-3-Rev1-200811",
+      "1518931": "2019-20-20-Miles-LRDP-Draft-3-Vol-2-Rev1a-200811",
+      "1518932": "2019-60-200-Biberian-LRDP-Report-2nd-230110",
+      "1518933": "2020-10-20-Little-at-ET-3rd-200608",
+      "1518934": "2020-60-30-Szpak-Book-Archive-2nd-Draft-200618",
+      "1518935": "2021-10-300-Lomax-LRDP-3rd-Report-220311b",
+      "1518936": "2021-20-50-Univ-Utah-Rept-211014-Rev-1-Reduced",
+      "1518937": "2022-60-20-2nd-Celani-LRDP-Report-230731",
+      "1518938": "2022-70-100-Dolan-LRDP-Volume-2-220912",
+      "1518939": "2022-70-30-Dolan-LRDP-Report-220912",
+      "1518940": "2018-ICCF21-Poster-Storms-Pilot-260328-1",
+      "1518941": "2020-40-30-Gluck-Ego-Out-Report-2nd-Rev1-200512",
+      "1518942": "2020-70-10-Kowalski-Rept-3rd-211213",
+      "1518943": "2020-70-90-Kowalski-Website-Add-260415",
+      "1518944": "2021-30-20-FF-as-LENRGY-2nd-Rept-230909",
+      "1518945": "2021-30-30-FF-as-LENRGY-2nd-Rept-Vol-2-230909-240507",
+      "1518946": "2021-JCMNS-Srinivasan-260328",
+      "1518947": "2021-Kampur-Srinivasan-260406",
+      "1518948": "2019-40-60-Tanzella-Rept-Update-2-260120a",
+      "1518949": "2020-70-10-Kowalski-Rept-3rd-211213-Rev1-250713",
+      "1518950": "2022-10-PanethFthepublica",
+      "1518951": "2022-X-130-Passell-LCDP-Report-3rd-230103-1",
+      "1518952": "The-complete-explanation",
+      "1518953": "The-nature-of-transmutation-caused-by-cold-fusion",
+      "1518954": "2018-10-SKINR-Documentation-Vol-2-Complete-190425-260809-Reduced-Part-1",
+      "1518955": "2018-10-SKINR-Documentation-Vol-2-Complete-190425-260809-Reduced-Part-2",
+      "1518956": "2019-30-10-Miley-Rept-200425",
+      "1518957": "9(1)3-4",
+      "1518958": "9(1)5-7",
+      "1518959": "9(1)8-20",
+      "1518960": "9(1)21-36",
+      "1518961": "9(1)37-51",
+      "1518962": "9(1)52-64",
+      "1518963": "9(1)65-73",
+      "1518964": "9(1)74-93",
+      "1518965": "9(1)94-105",
+      "1518966": "9(1)106-112",
+      "1518967": "9(1)113-115",
+      "1518968": "9(1)116-117",
+      "1518969": "9(1)118-119",
+      "1518970": "9(1)120-121",
+      "1518971": "9(1)122-123",
+      "1518972": "9(1)124-125",
+      "1518973": "9(1)126-127",
+      "1518974": "9(1)128",
+      "1518975": "9(2)147-160",
+      "1518976": "10(1)35-52",
+      "1518977": "11(2)125-142",
+      "1518978": "11(2)143-160",
+      "1518979": "11(3)261-278",
+      "1518980": "13(1)45-58",
+      "1518981": "13(1)59-70",
+      "1518982": "13(4)501-508",
+      "1518983": "14(3)249-268",
+      "1518984": "14(4)473-496"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -383498,6 +383694,328 @@
         "Conspiracy / Politics",
         "Water / Hydrogen",
         "LENR / Cold Fusion"
+      ],
+      "1518924": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518925": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518926": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518927": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518928": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518929": [
+        "Energy",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518930": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "1518931": [
+        "Energy",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518932": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "1518933": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518934": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "1518935": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518936": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518937": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "1518938": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518939": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518940": [
+        "Borderland Research"
+      ],
+      "1518941": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518942": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518943": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Reference Material",
+        "LENR / Cold Fusion"
+      ],
+      "1518944": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518945": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518946": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518947": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518948": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518949": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518950": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "1518951": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "1518952": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "1518953": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "1518954": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518955": [
+        "Borderland Research"
+      ],
+      "1518956": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518957": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518958": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "1518959": [
+        "Borderland Research"
+      ],
+      "1518960": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518961": [
+        "Borderland Research"
+      ],
+      "1518962": [
+        "Borderland Research"
+      ],
+      "1518963": [
+        "Borderland Research"
+      ],
+      "1518964": [
+        "Borderland Research"
+      ],
+      "1518965": [
+        "Borderland Research"
+      ],
+      "1518966": [
+        "Borderland Research"
+      ],
+      "1518967": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "1518968": [
+        "Borderland Research"
+      ],
+      "1518969": [
+        "Borderland Research"
+      ],
+      "1518970": [
+        "Borderland Research"
+      ],
+      "1518971": [
+        "Borderland Research"
+      ],
+      "1518972": [
+        "Borderland Research"
+      ],
+      "1518973": [
+        "Borderland Research"
+      ],
+      "1518974": [
+        "Borderland Research"
+      ],
+      "1518975": [
+        "Borderland Research"
+      ],
+      "1518976": [
+        "Borderland Research"
+      ],
+      "1518977": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518978": [
+        "Borderland Research"
+      ],
+      "1518979": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "1518980": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "1518981": [
+        "Borderland Research"
+      ],
+      "1518982": [
+        "Borderland Research"
+      ],
+      "1518983": [
+        "Borderland Research"
+      ],
+      "1518984": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -453613,7 +454131,68 @@
       "1518922": [],
       "1518923": [
         "cold_fusion"
-      ]
+      ],
+      "1518924": [],
+      "1518925": [],
+      "1518926": [],
+      "1518927": [],
+      "1518928": [],
+      "1518929": [],
+      "1518930": [],
+      "1518931": [],
+      "1518932": [],
+      "1518933": [],
+      "1518934": [],
+      "1518935": [],
+      "1518936": [],
+      "1518937": [],
+      "1518938": [],
+      "1518939": [],
+      "1518940": [],
+      "1518941": [],
+      "1518942": [],
+      "1518943": [],
+      "1518944": [],
+      "1518945": [],
+      "1518946": [],
+      "1518947": [],
+      "1518948": [],
+      "1518949": [],
+      "1518950": [],
+      "1518951": [],
+      "1518952": [],
+      "1518953": [],
+      "1518954": [],
+      "1518955": [],
+      "1518956": [],
+      "1518957": [],
+      "1518958": [],
+      "1518959": [],
+      "1518960": [],
+      "1518961": [],
+      "1518962": [],
+      "1518963": [],
+      "1518964": [],
+      "1518965": [],
+      "1518966": [],
+      "1518967": [],
+      "1518968": [],
+      "1518969": [],
+      "1518970": [],
+      "1518971": [],
+      "1518972": [],
+      "1518973": [],
+      "1518974": [],
+      "1518975": [],
+      "1518976": [],
+      "1518977": [],
+      "1518978": [],
+      "1518979": [],
+      "1518980": [],
+      "1518981": [],
+      "1518982": [],
+      "1518983": [],
+      "1518984": []
     }
   },
   "graph": {

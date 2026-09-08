@@ -1,8 +1,6 @@
 ---
 name: Spyridis Theory Of Everything El
 description: Full English translation
-language: el
-source_language: el
 ---
 The Platonic Theory of Everything and
                     the Spyridis Unified Theory of the Electro-Strong Interaction

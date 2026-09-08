@@ -1,8 +1,6 @@
 ---
 name: "2026-09-03-tesla-patents-radiant-energy-fr"
 description: Full translation of "Chercheurs Du Vrai"
-language: fr
-source_language: fr
 ---
 
 Chercheurs Du Vrai
