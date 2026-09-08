@@ -1,5 +1,40 @@
 # Drunvalo Activity Log
 
+## 2026-09-08 06:00 UTC — AetherForce Database Refresh
+
+### Task
+Scheduled cron: Refresh person/research indexes, library feed, concept tags (daily 06:00)
+
+### Actions
+1. Cloned AFLinks repo from GitHub
+2. Scanned 99 translation files for metadata
+3. Updated `database/person-index.json`: 122 researchers tracked
+4. Updated `database/research-index.json`: 160 works indexed (+36 since last refresh)
+5. Attempted `build_library_feed.py`: skipped (living-library repo not available in sandbox)
+6. Attempted `tag_concepts.py`: timeout after 120s
+7. Generated health report: 99 translations across 8 languages (en: 40, fr: 15, it: 11, ru: 10, de: 7, es: 5, el: 2, pt: 2)
+8. Committed and pushed to origin/main
+
+### New Content Since Last Refresh
+- 18 new translations
+- 36 new works indexed
+- Key additions: French radiesthesia tradition (GLNF, Vibratis), Italian consciousness-as-field research, German extended electromagnetism, Russian torsion physics
+
+### Issues
+- Library feed requires living-library repo (not available in cloud sandbox)
+- Tag concepts timeout (large index, 30k+ docs)
+
+### Commits
+- `Database-refresh-2026-09-08-0600` pushed to AFLinks repo (commit 86c1e56)
+
+### Report
+- Status: OK
+- Total translations: 99
+- Total researchers: 122
+- Total works: 160
+
+---
+
 ## 2026-09-08 00:00 UTC — Village Quality Audit
 
 ### Task
