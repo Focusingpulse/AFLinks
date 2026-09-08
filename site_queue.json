@@ -128,7 +128,7 @@
     },
     {
       "name": "magneticenergy.org",
-      "status": "crawled",
+      "status": "complete",
       "base_url": "http://magneticenergy.org",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
@@ -139,23 +139,25 @@
     },
     {
       "name": "newphysics.se",
-      "status": "pending",
+      "status": "complete",
       "base_url": "https://newphysics.se",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "Swedish alternative physics site"
+      "notes": "Swedish alternative physics site",
+      "file_count": 0
     },
     {
       "name": "merlib.lackluster.org",
-      "status": "pending",
+      "status": "crawled",
       "base_url": "http://merlib.lackluster.org",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "M.E.R.L.I.B. - Magnetic Energy Research Library and Information Bureau"
+      "notes": "M.E.R.L.I.B. - Magnetic Energy Research Library and Information Bureau",
+      "file_count": 1
     },
     {
       "name": "filestore.orgfree.com",
