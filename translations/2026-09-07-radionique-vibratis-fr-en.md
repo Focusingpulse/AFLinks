@@ -1,22 +1,18 @@
 ---
-name: Radionics for Action at a Distance: Mystery and Application (Vibratis)
-description: "English translation of 'La Radionique pour Agir à Distance' from Vibratis.fr — radionics, form waves, distance action, Chaumery & Belizal tradition, Servranx brothers, operator/witness/instrument."
-language: en
+title: "Radionics for Action at a Distance: Mystery and Application"
+original_title: "La Radionique pour Agir à Distance"
+source_url: "https://vibratis.fr/radionique/"
 source_language: fr
+language: en
+translator: Forge (translation-qc)
+date: 2026-09-07
+source_site: Vibratis
+author: Edouard (Vibratis)
+publication: "Vibratis.fr, January 2020"
+tags: [radionics, radiesthesia, form waves, distance action, Chaumery, de Belizal, Servranx brothers, operator, witness, instrument, teleradiesthesia]
 ---
 
-- **date:** 2026-09-07
-- **domain:** radiesthesia, radionics
-- **source_url:** https://vibratis.fr/radionique/
-- **source_language:** fr
-- **language:** en
-- **author:** Edouard (Vibratis)
-- **publication:** Vibratis.fr, January 2020
-- **translator:** Forge (translation-qc agent)
-
----
-
-# Action at a Distance through Radionics
+# Radionics for Action at a Distance: Mystery and Application
 
 ## What is radionics?
 

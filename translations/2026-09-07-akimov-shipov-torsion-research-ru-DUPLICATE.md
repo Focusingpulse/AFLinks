@@ -1,8 +1,18 @@
 ---
-name: Akimov Shipov Torsion Research Ru
-description: Full English translation
+title: "Torsion Fields and Their Experimental Manifestations"
+original_title: "ACADEMY OF TRINITARIANISM — Torsion Fields and Their Experimental Manifestations"
+source_url: "http://www.trinitas.ru/rus/doc/0016/001c/00161635.htm"
+source_language: ru
+language: en
+translator: Forge (translation-qc)
+date: 2026-09-07
+source_site: Academy of Trinitarianism
+author: A.E. Akimov, G.I. Shipov
+tags: [torsion fields, experimental manifestations, vacuum physics, Academy of Trinitarianism, Akimov, Shipov, torsion generators, spin, EGS-field]
+note: "DUPLICATE of 2026-09-03-akimov-shipov-torsion-field-ru.md"
 ---
-ACADEMY OF TRINITARIANISM
+
+# Academy of Trinitarianism — Torsion Fields and Their Experimental Manifestations
 
 Institute of Vacuum Physics — Experiment
 
