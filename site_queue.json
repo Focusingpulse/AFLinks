@@ -81,7 +81,7 @@
     },
     {
       "name": "keychests.com",
-      "status": "crawled",
+      "status": "complete",
       "base_url": "https://web.archive.org/web/2017/http://www.keychests.com",
       "crawl_type": "wayback_scrape",
       "crawl_paths": [
@@ -107,17 +107,18 @@
     },
     {
       "name": "strikefoundation.earth",
-      "status": "pending",
+      "status": "complete",
       "base_url": "https://strikefoundation.earth",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "Alternative science and energy research"
+      "notes": "Alternative science and energy research",
+      "file_count": 42
     },
     {
       "name": "cernohajev.omeka.net",
-      "status": "pending",
+      "status": "crawl_failed",
       "base_url": "https://cernohajev.omeka.net",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
@@ -127,13 +128,14 @@
     },
     {
       "name": "magneticenergy.org",
-      "status": "pending",
+      "status": "crawled",
       "base_url": "http://magneticenergy.org",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "Magnetic energy technology, Tom Bearden related"
+      "notes": "Magnetic energy technology, Tom Bearden related",
+      "file_count": 22
     },
     {
       "name": "newphysics.se",

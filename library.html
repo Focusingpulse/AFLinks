@@ -669,7 +669,7 @@ let LIVING_FEED = null;
 
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json?v=20260908182516');
+    const res = await fetch('./library_feed.json?v=20260908183111');
     const feed = await res.json();
     LIVING_FEED = feed;
     renderStats(feed.library);
