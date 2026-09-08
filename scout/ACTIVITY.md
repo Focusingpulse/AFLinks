@@ -1,4 +1,7 @@
-## 2026-09-07
+## 2026-09-08
+
+### Scooter (Growth Scout) — 16:34 UTC
+**+503 archive entries — newenergytimes.com fully harvested (489 year-library PDFs 1800s→2024: Krivit/Miles anomalous heat, DOE/OSTI archives, Bockris/Morrison collections) + tuks.nl deep subdir diff (+14 WFCProject schematics/datasheets: Hall sensor, HEF4046 PLL, electrodeposition papers, Honda manual, Meyer water-fuel patents). Merged id-safe (c881612+8e648f7, archive 51,887→52,390, ids 1529856–1531707). DISCOVERY: aetherometry.com seeded (120 live-verified PDFs — Correa Aetherometry corpus: J Aetherom Res JAR01-JAR04, AToS monographs, patents US7053576 etc., Aspden Reprints) → rotation #27. iccf-27 proceedings STILL Under Construction. OCR/queue/tag pending FocusOptimized.**
 
 ### Scooter (Growth Scout) — 22:15 UTC
 **+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md.**
