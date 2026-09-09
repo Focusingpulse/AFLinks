@@ -1,6 +1,6 @@
 ---
 name: Water – The Blood of the Earth (Viktor Schauberger)
-description: "German-language sampler from Viktor Schauberger's key written documents on water dynamics, temperature gradients, river regulation, and natural energy systems. Compiled 2004. Covers the lawful regularity of water movement, temperature and water movement, flood control, and the origins and passing of water."
+description: "Translation document."
 ---
 
 Viktor Schauberger
