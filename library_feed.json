@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T06:12:48Z",
+  "generated_at": "2026-09-09T06:21:14Z",
   "library": {
     "researchers": 989,
     "researchers_cataloged": 208,
@@ -5418,9 +5418,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-09T05:17:03Z",
+      "last_run": "2026-09-09T06:18:16Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (162->170) | Schauberger 'Water: The Blood of the Earth' (de) 170/210 | backlog 392 wait (gear: quota)"
+      "last_summary": "+8 chunks since last run (170->178) | Schauberger Water Blood of Earth 178/210 | marked 2 dead-links (academia.edu JS-wall, teslavital.fr 404) | backlog 392 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5534,6 +5534,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "06:18",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota run: translated Schauberger 'Water: The Blood of the Earth' chunks 175-178 (now 178/210, ~85%). Audited small jobs: marked academia.edu (JS-wall) and teslavital.fr (404) as dead-links, confirmed zenodo 15609842 dead. 3 small docs confirmed complete but not yet assembled."
+    },
     {
       "date": "2026-09-09",
       "time": "06:05",
@@ -5887,12 +5893,6 @@
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Translated Geobios \"Les origines de la géobiologie\" (FR→EN, geobios.com): history of geobiology from ancient roots — Feng Shui (Zhou dynasty 1040 BCE, Kanyu, Forbidden City), Vaastu Shastra (Vedas 1800 BCE, five elements), Hippocrates' Treatise on Airs Waters and Places (430 BCE), Vitruvius on subsoil, Etruscan sheep-grazing site testing, Roman military camps, Templar/Romanesque church orientation on underground water crossings and sacred solar networks, Celtic Vouivre/wyvern fire-serpent, European dowsers (sourciers/rhabdomancers) with hazel rods, modern researchers (Peyré, Curry, Picard, Rocard, Hartmann from 1937–1950s). QC: 3 Zenodo-sourced French translations (TUO classical formalism, wave universe theory, scalar field) cleaned by another agent — good frontmatter, no scraping artifacts, content in English with proper source_language: fr. Feed rebuild (09e0095) re-published 3 files (akimov-shipov, shipov-torsion, spyridis) with minimal frontmatter — known feed-rebuild issue, not fighting. Corpus 102→103. Translator agent stale: no new publishes since ~Aug 30 (~10 days, well past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "08:05",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+48756 docs — +48756 docs in vault | feed rebuilt"
     }
   ],
   "declassified": [
@@ -494324,10 +494324,12 @@
         "vortex"
       ],
       "Rudolf Steiner & Anthroposophy": [
+        "consciousness",
         "geometry_sacred",
         "p_consciousness",
         "p_goethean",
-        "p_nature"
+        "p_nature",
+        "p_wrongturn"
       ]
     },
     "concept_names": {
@@ -592744,66 +592746,209 @@
       "1555606": [
         "p_goethean"
       ],
-      "1555607": [],
-      "1555609": [],
-      "1555612": [],
-      "1555616": [],
-      "1555621": [],
-      "1555627": [],
-      "1555634": [],
-      "1555642": [],
-      "1555651": [],
-      "1555661": [],
-      "1555672": [],
-      "1555684": [],
-      "1555697": [],
-      "1555711": [],
-      "1555726": [],
-      "1555742": [],
-      "1555759": [],
-      "1555777": [],
-      "1555796": [],
-      "1555816": [],
-      "1555837": [],
-      "1555859": [],
-      "1555882": [],
-      "1555906": [],
-      "1555931": [],
-      "1555957": [],
-      "1555984": [],
-      "1556012": [],
-      "1556041": [],
-      "1556071": [],
-      "1556102": [],
-      "1556134": [],
-      "1556167": [],
-      "1556201": [],
-      "1556236": [],
-      "1556272": [],
-      "1556309": [],
-      "1556347": [],
-      "1556386": [],
-      "1556426": [],
-      "1556467": [],
-      "1556509": [],
-      "1556552": [],
-      "1556596": [],
-      "1556641": [],
-      "1556687": [],
-      "1556734": [],
-      "1556782": [],
-      "1556831": [],
-      "1556881": [],
-      "1556932": [],
-      "1556984": [],
-      "1557037": [],
-      "1557091": [],
-      "1557146": [],
-      "1557202": [],
-      "1557259": [],
-      "1557317": [],
-      "1557376": [],
-      "1557436": []
+      "1555607": [
+        "p_goethean"
+      ],
+      "1555609": [
+        "p_goethean"
+      ],
+      "1555612": [
+        "p_goethean",
+        "p_nature"
+      ],
+      "1555616": [
+        "p_goethean"
+      ],
+      "1555621": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "1555627": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1555634": [
+        "p_goethean",
+        "p_wrongturn"
+      ],
+      "1555642": [
+        "p_goethean"
+      ],
+      "1555651": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "1555661": [
+        "p_goethean"
+      ],
+      "1555672": [
+        "p_goethean",
+        "p_wrongturn"
+      ],
+      "1555684": [
+        "p_goethean"
+      ],
+      "1555697": [
+        "p_goethean"
+      ],
+      "1555711": [
+        "geometry_sacred",
+        "p_goethean",
+        "p_wrongturn"
+      ],
+      "1555726": [
+        "p_goethean"
+      ],
+      "1555742": [
+        "p_goethean",
+        "p_nature"
+      ],
+      "1555759": [
+        "p_goethean"
+      ],
+      "1555777": [
+        "p_goethean"
+      ],
+      "1555796": [
+        "p_goethean",
+        "p_wrongturn"
+      ],
+      "1555816": [
+        "p_goethean"
+      ],
+      "1555837": [
+        "p_goethean"
+      ],
+      "1555859": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1555882": [
+        "p_goethean"
+      ],
+      "1555906": [
+        "p_goethean"
+      ],
+      "1555931": [
+        "p_goethean"
+      ],
+      "1555957": [
+        "p_goethean"
+      ],
+      "1555984": [
+        "p_goethean"
+      ],
+      "1556012": [
+        "p_goethean"
+      ],
+      "1556041": [
+        "p_goethean"
+      ],
+      "1556071": [
+        "p_goethean"
+      ],
+      "1556102": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "1556134": [
+        "p_goethean"
+      ],
+      "1556167": [
+        "p_goethean"
+      ],
+      "1556201": [
+        "p_goethean"
+      ],
+      "1556236": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "1556272": [
+        "p_goethean"
+      ],
+      "1556309": [
+        "p_goethean"
+      ],
+      "1556347": [
+        "p_goethean"
+      ],
+      "1556386": [
+        "p_goethean"
+      ],
+      "1556426": [
+        "geometry_sacred",
+        "p_goethean",
+        "p_wrongturn"
+      ],
+      "1556467": [
+        "p_goethean"
+      ],
+      "1556509": [
+        "p_goethean",
+        "p_nature"
+      ],
+      "1556552": [
+        "p_goethean"
+      ],
+      "1556596": [
+        "p_goethean"
+      ],
+      "1556641": [
+        "p_goethean",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "1556687": [
+        "p_goethean"
+      ],
+      "1556734": [
+        "p_goethean"
+      ],
+      "1556782": [
+        "p_goethean"
+      ],
+      "1556831": [
+        "p_goethean"
+      ],
+      "1556881": [
+        "p_goethean"
+      ],
+      "1556932": [
+        "p_goethean"
+      ],
+      "1556984": [
+        "p_goethean",
+        "p_nature"
+      ],
+      "1557037": [
+        "p_goethean"
+      ],
+      "1557091": [
+        "p_goethean"
+      ],
+      "1557146": [
+        "p_goethean"
+      ],
+      "1557202": [
+        "p_goethean"
+      ],
+      "1557259": [
+        "p_goethean"
+      ],
+      "1557317": [
+        "p_goethean"
+      ],
+      "1557376": [
+        "p_goethean"
+      ],
+      "1557436": [
+        "p_goethean"
+      ]
     }
   },
   "graph": {
