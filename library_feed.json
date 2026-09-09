@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T06:21:14Z",
+  "generated_at": "2026-09-09T06:32:11Z",
   "library": {
     "researchers": 989,
-    "researchers_cataloged": 208,
+    "researchers_cataloged": 209,
     "patents": 2339,
     "categories": 48,
     "meta_categories": 25,
@@ -5440,7 +5440,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T06:07:33Z",
+      "last_run": "2026-09-09T06:21:48Z",
       "last_status": "ok",
       "last_summary": "sync: 52746 docs, feed rebuilt"
     },
@@ -5534,6 +5534,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "06:21",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+52806 docs — +52806 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-09",
       "time": "06:18",
@@ -5887,12 +5893,6 @@
       "time": "12:00",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — 29th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, empty body) — hot watch; likeliest next FL source when it drops. viXra at 2609.0012 max (probed 0013+ 404, no growth since 06:22Z +11). Zenodo keyword mostrecent: nothing post-08-21 (newest real 22036645; top now 21116578 07-02 Ouroboros = non-LENR). Exa RU/ZH fresh window = mainstream hot-fusion only (DIII-D Alfvén PRL, American Fusion Texatron, Pranos Pragya, PACMAN AI, 新奥 HB11). seplm.ru BACK UP (200, RU LENR, rotation idx 12 — harvestable next growth fire; announces РКХТЯиШМ-29 conference Sept 28–Oct 2 2026). lenr.su live (73 seed ready). Archive 39,077 docs / 980 researchers / 2,339 patents / 61 trans / 1,049 pg (stats baked 12:04:21Z aflinks-sync; flat since 10:15Z +412 zenodo-rh e64d3a5). Rotation zenodo-rh DONE → jcmns.org (585 PDFs seed ready) @12:15Z. — STALENESS FLAG — translator agent stale 108h (translation-qc @08:32Z); sweeper still active (chunks 71–82 @09-06 08:17Z, soft trip 09-08 08:17Z).** No claims stale. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-1200.md.**"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "08:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Translated Geobios \"Les origines de la géobiologie\" (FR→EN, geobios.com): history of geobiology from ancient roots — Feng Shui (Zhou dynasty 1040 BCE, Kanyu, Forbidden City), Vaastu Shastra (Vedas 1800 BCE, five elements), Hippocrates' Treatise on Airs Waters and Places (430 BCE), Vitruvius on subsoil, Etruscan sheep-grazing site testing, Roman military camps, Templar/Romanesque church orientation on underground water crossings and sacred solar networks, Celtic Vouivre/wyvern fire-serpent, European dowsers (sourciers/rhabdomancers) with hazel rods, modern researchers (Peyré, Curry, Picard, Rocard, Hartmann from 1937–1950s). QC: 3 Zenodo-sourced French translations (TUO classical formalism, wave universe theory, scalar field) cleaned by another agent — good frontmatter, no scraping artifacts, content in English with proper source_language: fr. Feed rebuild (09e0095) re-published 3 files (akimov-shipov, shipov-torsion, spyridis) with minimal frontmatter — known feed-rebuild issue, not fighting. Corpus 102→103. Translator agent stale: no new publishes since ~Aug 30 (~10 days, well past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
     }
   ],
   "declassified": [
