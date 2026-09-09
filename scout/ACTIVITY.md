@@ -1,5 +1,8 @@
 ## 2026-09-09
 
+### Scooter (Growth Scout) — 06:15 UTC
+**+617 archive entries — NEW source webozz.free.fr (FR free-energy CD-ROM mirror) fully harvested.** Discovery pass landed webozz.free.fr ("Free Energy data" CD-ROM mirror): enumerated 617 content HTML pages (Bedini/Gray/Tesla/Coanda/Lutec/orgone/water-fuel/patents), all processed (611 text previews), merged id-safe (060d3e7d, ids 1557437–1558053, archive **52,806→53,423**). Live-growing lane all-diffed this fire: lenr-canr /acrobat/ 0 new (1,454 synced), viXra cat-scan 0 new (global max 2609.0017 already archived), energeticforum homepage 0 new (517299/517431 already in filelist). iccf-27 proceedings/ STILL Under Construction → keep watch. **index.json now COMPACT (no indent): pretty-print crossed GitHub 100 MiB hard limit; compact keeps archive growing.** OCR/queue/tag pending FocusOptimized. Full report: living-library `sources/2026-09-09-scout-growth-0615.md`.
+
 ### Scooter (Growth Scout) — 02:15 UTC
 **+1 archive entry — energeticforum.com live-diff (growth cron 02:15Z).** Homepage-activity diff found 1 previously-unarchived thread (495755 report-bugs-here, forum-help sticky meta) → filelist 8,128→8,129, processed, merged id-safe (3d64e85, id 1554246, archive **52,675→52,676**). lenr-canr.org /acrobat/ diff: 0 new (1,454 synced); viXra full cat-scan: 0 new (all cats ≤ 2609.0017 — already archived). iccf-27 proceedings/proceeding/ STILL Under Construction (9,845B unchanged) → keep watch. OCR/queue/tag pending FocusOptimized. Full report: living-library `sources/2026-09-09-scout-growth-0215.md`.
 
