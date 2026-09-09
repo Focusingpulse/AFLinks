@@ -664,7 +664,7 @@ let LIVING_FEED = null;
 
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json?v=20260909130754');
+    const res = await fetch('./library_feed.json?v=20260909131004');
     const feed = await res.json();
     LIVING_FEED = feed;
     const safe = (fn, arg) => { try { fn(arg); } catch(e) { console.error('render error:', e); } };
