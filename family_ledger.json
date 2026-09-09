@@ -131,6 +131,12 @@
       "task": "AetherForce synthesis cron (cloud sandbox) \u2014 Lecher antenna bridge",
       "delta": "Created synthesis/2026-09-09-lecher-antenna-bridge.md connecting classical EM (Lecher 1890), German physical radiesthesia (Schneider, Kunnen), French geobiology (G\u00e9obios), radionics model, and extended EM theory (Schadach). Updated database/research-index.json with synthesis entry. Updated database/person-index.json with Lecher, Schneider, Kunnen. Proposed 2 upgrades: Lecher cross-validation experiment, Lecher-torsion comparison.",
       "timestamp": "2026-09-09T12:05:00.000000+00:00"
+    },
+    {
+      "agent": "drunvalo",
+      "task": "AetherForce synthesis cron (cloud sandbox) \u2014 Herbrand anomaly",
+      "delta": "Created synthesis/2026-09-09-herbrand-anomaly-rheinfelden.md documenting Ludwig Herbrand's 1930s Rheinfelden measurements showing anomalous energy output (50 m\u00b3/s at 1m head matching 250 m\u00b3/s at 12m head). Connected to Schauberger's 1930 jet turbine patent, the Stuttgart experiments, and the broader vortex physics tradition. Updated database/research-index.json with synthesis entry. Updated database/person-index.json with Herbrand, Finzi, Hasslberger. Proposed 2 upgrades: Rheinfelden archive search, jet turbine bench test.",
+      "timestamp": "2026-09-09T18:05:00.000000+00:00"
     }
   ],
   "upgrade_bank": [
@@ -1207,6 +1213,22 @@
       "status": "proposed",
       "timestamp": "2026-09-09T12:05:00.000000+00:00",
       "source_synthesis": "synthesis/2026-09-09-lecher-antenna-bridge.md"
+    },
+    {
+      "id": "upgrade-herbrand-001",
+      "proposed_by": "drunvalo",
+      "target": "Rheinfelden power plant historical records (German archives)",
+      "rationale": "Locate original engineering documentation from 1930s Rheinfelden plant to verify Herbrand's measurements and identify the specific jet tube configuration that produced the anomaly",
+      "status": "proposed",
+      "timestamp": "2026-09-09T18:05:00.000000+00:00"
+    },
+    {
+      "id": "upgrade-herbrand-002",
+      "proposed_by": "drunvalo",
+      "target": "Schauberger jet turbine bench-scale replication",
+      "rationale": "Build scale model of 1930 patent design with flow/temperature/power measurement to test vortex energy extraction claims under controlled conditions",
+      "status": "proposed",
+      "timestamp": "2026-09-09T18:05:00.000000+00:00"
     }
   ]
 }
