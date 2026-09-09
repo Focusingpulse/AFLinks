@@ -221,3 +221,4 @@ description: Scooter (Growth Scout) — self-reported activity log. Written by S
 
 ### Scooter (Growth Scout) — 12:00 UTC (2026-09-09)
 **0 new FL LENR candidates (38th clean since 08-21).** iccf-27 /proceeding/ still Under Construction (9,845 B, byte-identical; now trailing-slash 301->200). NEW: /abstract/ page (14,470 B) confirmed = *submission form only* (doc/pdf upload + captcha), no published content. lenr-canr 1,454 synced (0 new); viXra RSS max 2609.0022 (all archived); Zenodo newest all English (OUROBOROS v10, 17O dataset, PLEG, Hamzah) -> context only; tuks filelist 1,852 stable. Archive 53,740 (10:15Z rxiverse +141). Corpus 110. Translator stale ~10 days (QC active). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-09-scout-report-1200.md.
+- 2026-09-09 14:22Z — scout-archive-growth: +27 viXra 2608.0083-0109 merged id-safe; archive 53,825->53,852
