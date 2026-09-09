@@ -2454,69 +2454,112 @@
                 .sort((a, b) => b.n - a.n);
         }
 
-        // render the static lock wheel (ticks + face + knob) with the selected tick glowing at the bottom
+        // ═══════════════════════════════════════════════════════════════════════════
+        // BIOGEOMETRY DIAL RENDERER [prescribed: Karim BioGeometry Dial spec]
+        // Two identical polarizer shapes oriented around central axis
+        // Source: rexresearch.com/biogeom/biogeom.htm — Fig. 4 & Fig. 7
+        // ═══════════════════════════════════════════════════════════════════════════
+        const BG = {
+            PHI: 1.618, RATIO_1_6: 1.6, RATIO_1_9: 1.9, RATIO_2_8: 2.8, // [prescribed: Karim BQH ratios]
+            AMPLIFY_COUNT: 16, // [prescribed: BG3 amplification through 16 identical shapes]
+            POLARIZER_SWEEP: 55, POLARIZER_WIDTH: 7 // [prescribed: polarizer arc dimensions]
+        };
+        
+        function bgPolarizerPath(cx, cy, r, startAngle, sweep) {
+            const s = (startAngle - 90) * Math.PI / 180;
+            const e = (startAngle + sweep - 90) * Math.PI / 180;
+            return `M ${(cx + r * Math.cos(s)).toFixed(2)} ${(cy + r * Math.sin(s)).toFixed(2)} A ${r} ${r} 0 ${sweep > 180 ? 1 : 0} 1 ${(cx + r * Math.cos(e)).toFixed(2)} ${(cy + r * Math.sin(e)).toFixed(2)}`;
+        }
+        
         function kdRenderLock(selIdx) {
             const svg = document.getElementById('kdLockSvg');
             const cx = 220, cy = 220;
             const N = kdLenses.length;
-            const step = kdStep();
-            const selAngle = 90; // bottom window position
-            let h = '';
-            h += `<defs>
+            const step = 360 / N;
+            const rotation = 90 - (selIdx * step); // Selected lens at bottom
+            
+            let h = `<defs>
                 <radialGradient id="kdFace" cx="38%" cy="32%" r="75%">
                     <stop offset="0%" stop-color="#3a5a5e"/>
                     <stop offset="55%" stop-color="#1b3a40"/>
                     <stop offset="100%" stop-color="#0c2530"/>
                 </radialGradient>
+                <linearGradient id="kdPolarizer" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ffd166"/>
+                    <stop offset="50%" stop-color="#e8b64c"/>
+                    <stop offset="100%" stop-color="#c99a3a"/>
+                </linearGradient>
                 <radialGradient id="kdKnob" cx="40%" cy="30%" r="70%">
                     <stop offset="0%" stop-color="#f0c55f"/>
                     <stop offset="55%" stop-color="#c99a3a"/>
                     <stop offset="100%" stop-color="#8a6423"/>
                 </radialGradient>
+                <filter id="kdGlow"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                <filter id="kdStarGlow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
             </defs>`;
-            // outer rim
+            
+            // Outer face [aesthetic]
+            const innerR = Math.round(212 / BG.PHI); // [prescribed: golden ratio]
             h += `<circle cx="${cx}" cy="${cy}" r="212" fill="url(#kdFace)" stroke="rgba(232,182,76,0.45)" stroke-width="3"/>`;
-            h += `<circle cx="${cx}" cy="${cy}" r="150" fill="none" stroke="rgba(232,182,76,0.12)" stroke-width="1"/>`;
-            // ticks in a group so we can rotate them while dragging
-            let ticks = `<g id="kdTicks">`;
+            h += `<circle cx="${cx}" cy="${cy}" r="${innerR}" fill="none" stroke="rgba(232,182,76,0.12)" stroke-width="1"/>`;
+            
+            // Polarizer pair [prescribed: BioGeometry Dial spec]
+            h += `<g id="kdPolarizers">`;
+            
+            // Polarizer 1 [prescribed]
+            h += `<path d="${bgPolarizerPath(cx, cy, 186, rotation - BG.POLARIZER_SWEEP/2, BG.POLARIZER_SWEEP)}" fill="none" stroke="url(#kdPolarizer)" stroke-width="${BG.POLARIZER_WIDTH}" stroke-linecap="round" filter="url(#kdGlow)" data-bg-tier="prescribed" data-bg-source="Karim BioGeometry Dial — polarizer pair"/>`;
+            
+            // Polarizer 2 (180° opposite) [prescribed]
+            h += `<path d="${bgPolarizerPath(cx, cy, 186, rotation + 180 - BG.POLARIZER_SWEEP/2, BG.POLARIZER_SWEEP)}" fill="none" stroke="url(#kdPolarizer)" stroke-width="${BG.POLARIZER_WIDTH}" stroke-linecap="round" filter="url(#kdGlow)" data-bg-tier="prescribed" data-bg-source="Karim BioGeometry Dial — polarizer pair"/>`;
+            
+            // Lens position markers [aesthetic]
             for (let i = 0; i < N; i++) {
-                const a = i * step;
-                const active = i === selIdx;
-                const [x1, y1] = kdPolar(cx, cy, 186, a);
-                const [x2, y2] = kdPolar(cx, cy, 208, a);
+                const angle = rotation + (i * step) - 90;
+                const rad = angle * Math.PI / 180;
+                const markerR = 204;
+                const x = cx + markerR * Math.cos(rad);
+                const y = cy + markerR * Math.sin(rad);
+                
+                const isActive = i === selIdx;
                 const focus = kdMode === 'paradigm' ? (kdLenses[i] || null) : kdFocusOf(kdLenses[i].name);
                 const isFocus = focus && (kdMode === 'paradigm' ? (focus.af && focus.af > 0) : (focus.af_posts > 8));
-                if (active) {
-                    ticks += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="#ffd166" stroke-width="4" stroke-linecap="round" style="filter: drop-shadow(0 0 6px rgba(255,209,102,0.9))"/>`;
+                
+                if (isActive) {
+                    h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="5" fill="#ffd166" filter="url(#kdStarGlow)" data-bg-tier="aesthetic"/>`;
                     if (isFocus) {
-                        const [sx, sy] = kdPolar(cx, cy, 176, a);
-                        ticks += `<text x="${sx.toFixed(2)}" y="${(sy+4).toFixed(2)}" font-size="13" text-anchor="middle" fill="#ffd166" style="filter: drop-shadow(0 0 5px rgba(255,209,102,0.9))">★</text>`;
+                        const sr = 174; const sx = cx + sr * Math.cos(rad); const sy = cy + sr * Math.sin(rad);
+                        h += `<text x="${sx.toFixed(2)}" y="${(sy+4).toFixed(2)}" font-size="12" text-anchor="middle" fill="#ffd166" filter="url(#kdStarGlow)" data-bg-tier="prescribed" data-bg-source="Karim BG3 quality marker">★</text>`;
                     }
                 } else {
-                    ticks += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="${isFocus ? 'rgba(255,209,102,0.55)' : 'rgba(232,182,76,0.30)'}" stroke-width="${isFocus ? 2.5 : 2}" stroke-linecap="round"/>`;
+                    h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="${isFocus ? 3.5 : 2.5}" fill="${isFocus ? 'rgba(255,209,102,0.6)' : 'rgba(232,182,76,0.35)'}" data-bg-tier="aesthetic"/>`;
                     if (isFocus) {
-                        const [sx, sy] = kdPolar(cx, cy, 175, a);
-                        const smaller = N > 18 ? 7 : 9;
-                        ticks += `<text x="${sx.toFixed(2)}" y="${(sy+3).toFixed(2)}" font-size="${smaller}" text-anchor="middle" fill="rgba(255,209,102,0.6)">★</text>`;
+                        const sr = 176; const sx = cx + sr * Math.cos(rad); const sy = cy + sr * Math.sin(rad);
+                        h += `<text x="${sx.toFixed(2)}" y="${(sy+3).toFixed(2)}" font-size="${N > 18 ? 7 : 9}" text-anchor="middle" fill="rgba(255,209,102,0.6)" data-bg-tier="prescribed" data-bg-source="Karim BG3 quality marker">★</text>`;
                     }
                 }
             }
-            // minor marks between ticks
-            for (let i = 0; i < N * 4; i++) {
-                const a = i * (360 / (N * 4));
-                const [x1, y1] = kdPolar(cx, cy, 196, a);
-                const [x2, y2] = kdPolar(cx, cy, 202, a);
-                ticks += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="rgba(232,182,76,0.14)" stroke-width="1" stroke-linecap="round"/>`;
+            
+            // Minor marks [prescribed: 16-count BG3 amplification]
+            const minorStep = step / BG.AMPLIFY_COUNT;
+            for (let i = 0; i < N * BG.AMPLIFY_COUNT; i++) {
+                const angle = rotation + (i * minorStep) - 90;
+                const rad = angle * Math.PI / 180;
+                const r1 = 190, r2 = 196;
+                const x1 = cx + r1 * Math.cos(rad), y1 = cy + r1 * Math.sin(rad);
+                const x2 = cx + r2 * Math.cos(rad), y2 = cy + r2 * Math.sin(rad);
+                h += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="rgba(232,182,76,0.14)" stroke-width="1" data-bg-tier="prescribed" data-bg-source="Karim 16-count BG3 amplification"/>`;
             }
-            ticks += `</g>`;
-            h += ticks;
-            // center knob (fixed — the rim spins around it)
+            
+            h += `</g>`;
+            
+            // Center knob [aesthetic] — keyhole shape (NOT pyramid — negative-green caution respected)
+            const knobInnerR = Math.round(60 / BG.RATIO_1_6); // [prescribed: BQH ratio]
             h += `<circle cx="${cx}" cy="${cy}" r="86" fill="url(#kdKnob)" stroke="rgba(58,44,16,0.9)" stroke-width="3"/>`;
-            h += `<circle cx="${cx}" cy="${cy}" r="60" fill="none" stroke="rgba(58,44,16,0.55)" stroke-width="2"/>`;
-            // keyhole slot on the knob
+            h += `<circle cx="${cx}" cy="${cy}" r="${knobInnerR}" fill="none" stroke="rgba(58,44,16,0.55)" stroke-width="2"/>`;
             h += `<circle cx="${cx}" cy="${cy - 8}" r="14" fill="#231503"/>`;
             h += `<path d="M ${cx - 9} ${cy - 2} L ${cx + 9} ${cy - 2} L ${cx + 6} ${cy + 22} L ${cx - 6} ${cy + 22} Z" fill="#231503"/>`;
             h += `<circle cx="${cx}" cy="${cy - 8}" r="6" fill="#e8b64c"/>`;
+            
             svg.innerHTML = h;
             // window label
             const lens = kdLenses[selIdx];
@@ -2549,13 +2592,13 @@
             }
         }
 
-        // rotate the tick group while dragging (no rerender — cheap)
+        // rotate the polarizer group while dragging (no rerender — cheap)
         function kdSetTickRot(deg) {
-            const g = document.getElementById('kdTicks');
+            const g = document.getElementById('kdPolarizers');
             if (g) g.setAttribute('transform', `rotate(${Math.round(deg)} 220 220)`);
         }
         function kdResetTickRot() {
-            const g = document.getElementById('kdTicks');
+            const g = document.getElementById('kdPolarizers');
             if (g) g.removeAttribute('transform');
         }
 
@@ -2660,7 +2703,7 @@
             }
             kdSpinRot += delta;
             const dur = drama ? 1900 : 650;
-            const g = document.getElementById('kdTicks');
+            const g = document.getElementById('kdPolarizers');
             kdSpinning = true;
             // CSS transition on the group
             g.style.transition = `transform ${dur}ms cubic-bezier(0.2, 1, 0.35, 1)`;
