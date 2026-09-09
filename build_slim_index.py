@@ -24,7 +24,7 @@ import re
 PREVIEW_LEN = 220
 SLIM_FIELDS = ["id", "title", "filename", "categories", "meta_categories",
                "primary_person", "patent_numbers", "type", "size_bytes",
-               "source_site", "content_preview"]
+               "source_site", "source_url", "last_modified", "content_preview"]
 
 # Phase 2: tokenized rarity-ranked search. Build a compact token index:
 # token -> {ids:[docId...], df:n} over the metadata + a short preview slice.
@@ -159,7 +159,41 @@ def main():
     tok_kb = os.path.getsize(out_tok) / 1024
     print(f"token index: {len(token_index['tokens'])} tokens -> token_index.json ({tok_kb:.0f} KB)")
 
+    _emit_taxonomy_counts(slim, args.outdir)
     _bake_live_stats()
+
+
+def _emit_taxonomy_counts(slim, outdir):
+    """Emit a small taxonomy_counts.json (category/meta-category counts + the
+    subject→category map) so the sidebar and the Key & Chest dial can render
+    with real numbers WITHOUT downloading the 65MB search_index.json. This is
+    the backbone of the lazy-loading first paint."""
+    import collections
+    meta_counts = collections.Counter()
+    cat_counts = collections.Counter()
+    subjects = collections.defaultdict(collections.Counter)  # meta -> {cat: n}
+    for rec in slim:
+        for mc in (rec.get("meta_categories") or []):
+            if mc:
+                meta_counts[mc] += 1
+        cats = rec.get("categories") or []
+        for c in cats:
+            if c:
+                cat_counts[c] += 1
+        for mc in (rec.get("meta_categories") or []):
+            if mc:
+                for c in cats:
+                    if c:
+                        subjects[mc][c] += 1
+    payload = {
+        "meta_categories": dict(meta_counts),
+        "categories": dict(cat_counts),
+        "subjects": {mc: dict(c) for mc, c in subjects.items()},
+    }
+    out = os.path.join(outdir, "taxonomy_counts.json")
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False)
+    print(f"taxonomy counts: {len(meta_counts)} meta / {len(cat_counts)} cats -> taxonomy_counts.json ({os.path.getsize(out)/1024:.0f} KB)")
 
 
 def _bake_live_stats() -> None:

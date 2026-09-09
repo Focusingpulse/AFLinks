@@ -511,6 +511,35 @@
             align-items: center;
             gap: 4px;
         }
+        /* Provenance row — "why trust it?" at a glance */
+        .card-provenance {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px dashed var(--border);
+        }
+        .card-provenance .prov-sep {
+            color: var(--border);
+        }
+        .card-provenance .prov-status {
+            margin-left: auto;
+            padding: 1px 8px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            font-size: 0.66rem;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+        .card-provenance .prov-status.prov-af {
+            color: var(--gold-bright);
+            border-color: var(--gold);
+        }
         /* AF badge on card — shows this has Aetherforce content */
         .card-af-badge {
             display: inline-flex;
@@ -538,6 +567,21 @@
         }
         .card-source-link a:hover {
             color: var(--accent);
+        }
+        .btn-mode {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            transition: color 144ms ease, border-color 144ms ease;
+            white-space: nowrap;
+        }
+        .btn-mode:hover {
+            color: var(--gold-bright);
+            border-color: var(--gold);
         }
         /* ─── Modal ─── */
         .modal-overlay {
@@ -1625,17 +1669,17 @@
     <a class="skip-link" href="#results">Skip to results</a>
     <!-- Hero: pirate's paradise, Aetherforce front and center -->
     <div class="hero pirate-hero">
-        <span class="hero-kicker">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
-        <h1>Aetherforce Treasure Vault</h1>
+        <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
+        <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">55,218</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">38,452</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
         <p class="hero-trans">🗝 <span id="heroTransCount">65</span> translations published · <span id="heroPagesCount">1,506</span> pages translated &amp; growing</p>
         <div class="hero-actions">
-            <a class="hero-af-link hero-cta-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
-            <a class="hero-af-link" href="./vault.html">🗝 Enter the Vault</a>
+            <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
+            <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
             <a class="hero-af-link" href="./library.html">⚓ Living Library</a>
         </div>
         <div class="hero-community">
-            <div class="hc-title">🏴‍☠️ This is the underground treasure-chest layer of Aetherforce</div>
+            <div class="hc-title" data-t="hc-title">🏴‍☠️ This is the underground treasure-chest layer of Aetherforce</div>
             <div class="hc-line">The archive is the map. The real treasure is the people — the community gathering, the connections being made as we build and grow. Join the crew on the main project and the socials.</div>
             <div class="hc-links">
                 <a class="hc-link" href="https://www.aetherforce.energy" target="_blank">🌐 Aetherforce.energy</a>
@@ -1662,10 +1706,10 @@
             <span class="tn-label scopes">✦ The Scopes</span>
             <a href="./lens.html" title="Cross-reference analysis — how authors think">💠 Lens</a>
             <a href="./pathways.html" title="Curated five-document journeys into the hidden sciences">🗺 Pathways</a>
-            <a href="./synthesis.html" class="briefings-link" title="Reports — what the fleet is learning">⚗ Fleet Briefings</a>
+            <a href="./synthesis.html" class="briefings-link" data-t="fleet-nav" title="Reports — what the fleet is learning">⚗ Fleet Briefings</a>
         </span>
         <span class="tn-group">
-            <span class="tn-label scopes">✦ The Charts</span>
+            <span class="tn-label scopes" data-t="charts">✦ The Charts</span>
             <a href="./about.html" title="Who built this, and why">🧭 About</a>
             <a href="./methodology.html" title="How documents are sourced, curated & verified">📜 Methodology</a>
         </span>
@@ -1675,6 +1719,7 @@
     <div class="search-bar">
         <input type="text" id="search" placeholder="Search by title, inventor, patent number, or topic..." autocomplete="off" aria-label="Search the archive">
         <button class="btn btn-primary" onclick="showRandom()">🎲 Random</button>
+        <button class="btn btn-mode" id="modeToggle" onclick="toggleMode()" title="Switch between pirate and plain language" aria-pressed="false">📖 Plain</button>
         <span class="stats" id="stats">Loading...</span>
     </div>
 
@@ -1682,7 +1727,7 @@
          first paint carries a real document (with a working link), not a spinner. -->
     <section class="salvage" aria-label="Today's Salvage — one artifact from the hold">
         <div class="salvage-head">
-            <span class="salvage-title">⚓ Today's Salvage</span>
+            <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
         <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/00152029.html">
@@ -1721,7 +1766,7 @@
     <!-- Key Chest Dial — spin the rings, unlock the treasure -->
     <div class="keydial" id="keyDial">
         <div class="kd-head">
-            <span class="kd-title"><span class="key-icon"></span> Key &amp; Chest — Spin the Dial</span>
+            <span class="kd-title" data-t="key-dial"><span class="key-icon"></span> Key &amp; Chest — Spin the Dial</span>
             <div class="kd-modes" id="kdModes" role="group" aria-label="Dial dimension">
                 <button class="kd-mode on" data-mode="focus" id="kdModeFocus" title="The founding group's publishing focus" aria-pressed="true">★ Founders</button>
                 <button class="kd-mode" data-mode="paradigm" id="kdModeParadigm" title="Cross-cutting schools of thought — the way authors think" aria-pressed="false">⚡ Paradigms</button>
@@ -1747,7 +1792,7 @@
             <div class="kd-inner" id="kdInner"></div>
             <div class="kd-spin-row">
                 <button class="kd-nav" id="kdPrev" title="Previous lens">◀</button>
-                <button class="kd-spin" id="kdSpin">⚓ Spin the Dial</button>
+                <button class="kd-spin" id="kdSpin" data-t="spin">⚓ Spin the Dial</button>
                 <button class="kd-spin kd-focus" id="kdFocusBtn" title="Jump to what the founders publish most">★ Founders&rsquo; Focus</button>
                 <button class="kd-nav" id="kdNext" title="Next lens">▶</button>
             </div>
@@ -1760,7 +1805,7 @@
     <!-- Fleet briefings — what the agents are learning, under the dial, above the archive -->
     <section class="synth-strip" id="synthStrip" aria-label="Fleet synthesis briefings">
         <div class="synth-head">
-            <span class="synth-title"><span class="synth-dot"></span>⚗ Fleet Briefings · What We're Learning</span>
+            <span class="synth-title" data-t="fleet-briefings"><span class="synth-dot"></span>⚗ Fleet Briefings · What We're Learning</span>
             <a class="synth-more" href="./synthesis.html" id="synthMoreLink">All reports →</a>
         </div>
         <div class="synth-grid" id="synthCards"></div>
@@ -1794,7 +1839,7 @@
                 <div class="active-filter-display" id="activeFilterDisplay"></div>
             </div>
             <div class="results-grid" id="results"></div>
-            <div class="loading" id="loading">Charting the vault — search will be ready in a moment…</div>
+            <div class="loading" id="loading">The vault holds 55,218 documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
         </div>
     </div>
 
@@ -1820,6 +1865,39 @@
     <script src="./biosignatures.js"></script>
     <script>
         let allData = [];
+        let bakedTaxonomy = null; // taxonomy_counts.json — powers sidebar + dial before the big index loads
+        let indexPromise = null;  // lazy-load gate for the 65MB search_index.json
+
+        // ─── Crew Mode toggle — pirate vocabulary is the default; "Plain"
+        // swaps the major labels into plain language. Pure display, no state.
+        const MODE_TERMS = {
+            'kick':        ['🏴‍☠️ Ahoy, seeker of the hidden sciences', 'Explore the hidden sciences'],
+            'vault-name':  ['Aetherforce Treasure Vault', 'Aetherforce Knowledge Vault'],
+            'af-main':     ['🌐 Visit Aetherforce.energy — The Main Treasure →', '🌐 Visit Aetherforce.energy →'],
+            'enter-vault': ['🗝 Enter the Vault', '🗝 Browse the Archive'],
+            'hc-title':    ['🏴‍☠️ This is the underground treasure-chest layer of Aetherforce', 'This is the research layer of Aetherforce'],
+            'charts':      ['✦ The Charts', '✦ Explore'],
+            'fleet-nav':   ['⚗ Fleet Briefings', '⚗ Research Updates'],
+            'salvage':     ['⚓ Today\'s Salvage', '⚓ Today\'s Pick'],
+            'fleet-briefings': ['⚗ Fleet Briefings · What We\'re Learning', '⚗ Research Updates · What We\'re Learning'],
+            'key-dial':    ['Key & Chest — Spin the Dial', 'Browse by Topic'],
+            'spin':        ['⚓ Spin the Dial', '⚓ Browse'],
+        };
+        let crewMode = true;
+        function setMode(crew) {
+            crewMode = crew;
+            document.querySelectorAll('[data-t]').forEach(el => {
+                const pair = MODE_TERMS[el.dataset.t];
+                if (pair) el.textContent = pair[crew ? 0 : 1];
+            });
+            const btn = document.getElementById('modeToggle');
+            if (btn) {
+                btn.textContent = crew ? '📖 Plain' : '🏴‍☠️ Crew';
+                btn.setAttribute('aria-pressed', String(!crew));
+            }
+            try { localStorage.setItem('aflinksMode', crew ? 'crew' : 'plain'); } catch (e) {}
+        }
+        function toggleMode() { setMode(!crewMode); }
         let tokenIndex = null; // {N, tokens:{tok:{df,ids}}} — rarity-ranked search
         let searchMemo = { term: null, scores: null }; // cached per-term scores
         const SEARCH_STOP = new Set(['the','and','for','with','from','von','der','die','das','und','des','que','les','une','est','this','that','these','those','has','had','was','were','are','is','of','in','on','at','to','a','an','it','its','as','by','or','not','be','been','but','do','does','did','have','having','will','would','can','could','should','may','might','must','shall','about','into','over','under','again','further','then','once','here','there','when','where','why','how','all','any','both','each','few','more','most','other','some','such','only','own','same','so','than','too','very','etc']);
@@ -2244,9 +2322,28 @@
             return s.replace(/_/g, '.');
         }
 
+        // Provenance row: source domain · archived date · type · editorial status.
+        // Answers "why trust it?" at a glance. No fabricated fields — if a doc
+        // lacks a date or domain, that part is simply omitted.
+        function provenanceRow(item, hasAF) {
+            const parts = [];
+            const site = item.source_site;
+            if (site) parts.push(site === 'rexresearch_com' ? 'Rex Research' : site.replace(/_/g, '.'));
+            const d = item.last_modified;
+            if (d) parts.push(String(d).slice(0, 10));
+            if (item.type === 'media') parts.push('media');
+            else if ((item.patent_numbers || []).length) parts.push('patent');
+            else parts.push('document');
+            if (!parts.length) return '';
+            const status = hasAF ? 'AF-linked' : 'archived';
+            return `<div class="card-provenance">${parts.map(p => `<span>${escapeHtml(p)}</span>`).join('<span class="prov-sep">·</span>')}<span class="prov-status ${hasAF ? 'prov-af' : ''}">${status}</span></div>`;
+        }
+
         function getBestUrl(item) {
             if (item.source_url && item.source_url.startsWith('http')) {
-                return { url: item.source_url, label: `View on ${sourceLabel(item)} →`, type: 'source' };
+                const site = item.source_site;
+                const label = site ? `View on ${site === 'rexresearch_com' ? 'Rex Research' : site.replace(/_/g, '.')} →` : 'View source →';
+                return { url: item.source_url, label, type: 'source' };
             }
             if (item.patent_numbers && item.patent_numbers.length > 0) {
                 const pat = item.patent_numbers[0].replace(/\s+/g, '');
@@ -2256,7 +2353,7 @@
             const site = item.source_site;
             if ((site === 'rexresearch_com' || !site) && item.filename && item.filename.match(/\.(pdf|htm|html)\.md$/i)) {
                 const base = item.filename.replace(/\.md$/i, '');
-                return { url: `https://www.rexresearch.com/${base}`, label: 'Try Rex Research →`, type: 'guess' };
+                return { url: `https://www.rexresearch.com/${base}`, label: 'Try Rex Research →', type: 'guess' };
             }
             return null; // no honest source link — cards will show only the vault page
         }
@@ -2483,9 +2580,13 @@
 
         function kdBuildSubjectCounts() {
             kdSubjCounts = {};
-            allData.forEach(it => {
-                (it.categories || []).forEach(c => { if (c) kdSubjCounts[c] = (kdSubjCounts[c] || 0) + 1; });
-            });
+            if (allData.length) {
+                allData.forEach(it => {
+                    (it.categories || []).forEach(c => { if (c) kdSubjCounts[c] = (kdSubjCounts[c] || 0) + 1; });
+                });
+            } else if (bakedTaxonomy && bakedTaxonomy.categories) {
+                kdSubjCounts = Object.assign({}, bakedTaxonomy.categories);
+            }
         }
 
         let kdFocus = null; // af_focus.json — the founding group's publishing focus
@@ -2499,6 +2600,11 @@
             if (seamData && seamData.category_index) {
                 Object.keys(seamData.category_index).forEach(n => {
                     byName[n] = { name: n, n: (seamData.category_index[n] || []).length };
+                });
+            } else if (bakedTaxonomy && Object.keys(bakedTaxonomy.meta_categories || {}).length) {
+                // Lazy mode: real counts from taxonomy_counts.json, no 65MB fetch.
+                Object.keys(bakedTaxonomy.meta_categories).forEach(n => {
+                    byName[n] = { name: n, n: bakedTaxonomy.meta_categories[n] };
                 });
             } else {
                 const m = metaCategoryMap;
@@ -2736,7 +2842,9 @@
             return out;
         }
 
-        function kdOpenSubject(subjName) {
+        async function kdOpenSubject(subjName) {
+            // Opening a chest needs the real docs — load the index on demand.
+            if (!allData.length) await ensureIndex();
             const lens = kdLenses[kdSelLens];
             if (!lens) return;
             kdSelSubj = subjName;
@@ -2828,12 +2936,27 @@
             kdOpenSubject(kdSelSubj);
         }
 
+        // Light initial state — renders the dial without needing the full index,
+        // so first paint is instant. The full spill (with doc cards) loads on
+        // interaction via kdOpenSubject → ensureIndex().
+        function kdShowLane() {
+            const lens = kdLenses[kdSelLens];
+            if (!lens) return;
+            const subs = kdSubjectsFor(lens.name);
+            kdSelSubj = subs.length ? subs[0].name : null;
+            document.getElementById('kdWinLens').textContent = lens.name;
+            document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs';
+            const r = document.getElementById('kdReadout');
+            if (r) r.innerHTML = `Drag the dial to pick a lane, tap the window to open the chest, or <span style="color:var(--gold-bright);cursor:pointer" onclick="document.getElementById('kdSpin').click()">spin for surprise</span>.`;
+        }
+
         function kdInit() {
             kdBuildSubjectCounts();
             kdLenses = kdAvailableLenses();
             if (!kdLenses.length) { const d = document.getElementById('keyDial'); if (d) d.style.display = 'none'; return; }
             kdRenderLock(0);
-            kdSpinSel();
+            kdRenderInner();
+            kdShowLane();
 
             const wrap = document.getElementById('kdLockWrap');
             // drag to rotate
@@ -2916,15 +3039,13 @@
             document.getElementById('kdSpin').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo(Math.floor(Math.random() * kdLenses.length), true, true); });
         }
 
-        async function loadIndex() {
+        function ensureIndex() {
+            if (indexPromise) return indexPromise;
+            indexPromise = (async () => {
             try {
-                // Parse URL params FIRST so the seam fabric block below can
-                // use them (they were previously read after the feed fetch).
-                const params = new URLSearchParams(window.location.search);
-                const urlCats = params.getAll('cat');
-                if (urlCats.length) seamCats = urlCats;
-                const urlSubj = params.get('subj');
-                if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
+                const loading = document.getElementById('loading');
+                if (loading) loading.textContent = 'Charting the full vault — bringing 55,218 documents aboard…';
+                const urlCats = new URLSearchParams(window.location.search).getAll('cat');
                 // Load the SLIM search index (fast). When arriving via a category deep
                 // link (?cat=X), fetch ONLY that meta-category's chunk from
                 // search_chunks/ (Phase 1: the phone path — ~0.2MB instead of
@@ -3016,20 +3137,22 @@
                             span: d.silo_span || 0, pct: d.pct
                         }));
                     } catch (e) { kdParadigm = []; }
-                    kdInit();
-                } catch (e) { /* feed optional; hero keeps working without it */
-                    // still try the dial from hardcoded fallback (seam missing)
-                    try { kdInit(); } catch (_e) {}
-                }
+                } catch (e) { /* feed optional; hero keeps working without it */ }
                 document.getElementById('loading').style.display = 'none';
-                buildMetaCategoryList();
-                buildCategoryList();
+                // Lists were already built from taxonomy_counts.json (full-archive
+                // counts). Only rebuild from allData when that small file wasn't
+                // available — in chunk mode allData is a single category's slice,
+                // so rebuilding would wrongly shrink the sidebar counts.
+                if (!bakedTaxonomy) {
+                    buildMetaCategoryList();
+                    buildCategoryList();
+                }
                 if (activeCategory) {
                     document.querySelectorAll('.category-item').forEach(el => el.classList.toggle('active', el.dataset.category === activeCategory));
                 }
                 renderResults();
                 // URL param auto-filter (from vault links): seamCats was
-                // already parsed at the top of loadIndex for the seam fabric.
+                // already parsed at the top of ensureIndex for the seam fabric.
                 if (urlCats.length) {
                     // Fill the search box as a hint, then render the seam set
                     document.getElementById('search').value = urlCats.join(' ');
@@ -3039,6 +3162,79 @@
             } catch (e) {
                 document.getElementById('loading').textContent = 'Error loading index: ' + e.message;
             }
+
+            })();
+
+            return indexPromise;
+        }
+
+        async function initPage() {
+            // Restore Crew/Plain preference before first paint of labels.
+            try { setMode(localStorage.getItem('aflinksMode') !== 'plain'); } catch (e) { setMode(true); }
+            // URL params (module-level seamCats/activeCategory feed the seam logic)
+            const params = new URLSearchParams(window.location.search);
+            const urlCats = params.getAll('cat');
+            if (urlCats.length) seamCats = urlCats;
+            const urlSubj = params.get('subj');
+            if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
+
+            // Small files first: taxonomy counts (sidebar + dial), founders' focus,
+            // paradigms. All tiny — the dial and sidebar render with real numbers
+            // without downloading the 65MB search_index.json.
+            try {
+                const tc = await (await fetch('./taxonomy_counts.json?v=20260909193424')).json();
+                bakedTaxonomy = tc;
+            } catch (e) { /* sidebar falls back to empty until the index loads */ }
+            try { kdFocus = await (await fetch('./af_focus.json', { cache: 'no-store' })).json(); } catch (e) { kdFocus = null; }
+            try {
+                const pj = await (await fetch('./paradigm_lenses.json', { cache: 'no-store' })).json();
+                kdParadigm = Object.entries(pj.lenses || {}).map(([id, d]) => ({
+                    id, name: d.name, n: d.docs || 0, af: d.af_posts || 0,
+                    span: d.silo_span || 0, pct: d.pct
+                }));
+            } catch (e) { kdParadigm = []; }
+
+            buildListsFromTaxonomy();
+            try { kdInit(); } catch (e) {}
+
+            // Deep links (?cat=, ?subj=, seam) need the real index now.
+            if (urlCats.length || urlSubj || new URLSearchParams(location.search).get('seam') === '1') {
+                await ensureIndex();
+            }
+        }
+
+        // Build the sidebar lists from baked taxonomy counts so they're present
+        // before the big index arrives. Rebuilt from allData in ensureIndex()
+        // with identical numbers once loaded.
+        function buildListsFromTaxonomy() {
+            if (!bakedTaxonomy) return;
+            const list = document.getElementById('metaCategoryList');
+            if (list) {
+                const sorted = Object.entries(bakedTaxonomy.meta_categories || {}).sort((a, b) => b[1] - a[1]);
+                list.innerHTML = '';
+                sorted.forEach(([mc, count]) => {
+                    const div = document.createElement('div');
+                    div.className = 'meta-category-item';
+                    div.dataset.metaCategory = mc;
+                    div.innerHTML = `<span>${escapeHtml(mc)}</span><span class="meta-category-count">${count}</span>`;
+                    div.onclick = () => toggleMetaCategory(mc);
+                    list.appendChild(div);
+                });
+            }
+            const clist = document.getElementById('categoryList');
+            if (clist) {
+                const sorted = Object.entries(bakedTaxonomy.categories || {}).sort((a, b) => b[1] - a[1]);
+                clist.innerHTML = '';
+                sorted.forEach(([cat, count]) => {
+                    const div = document.createElement('div');
+                    div.className = 'category-item';
+                    div.dataset.category = cat;
+                    div.innerHTML = `<span>${escapeHtml(cat)}</span><span class="category-count">${count}</span>`;
+                    div.onclick = () => toggleCategory(cat);
+                    clist.appendChild(div);
+                });
+            }
+            updateCategoryListDimming();
         }
 
         function buildMetaCategoryList() {
@@ -3061,7 +3257,8 @@
             });
         }
 
-        function toggleMetaCategory(mc) {
+        async function toggleMetaCategory(mc) {
+            if (!allData.length) await ensureIndex();
             activeMetaCategory = activeMetaCategory === mc ? null : mc;
             document.querySelectorAll('.meta-category-item').forEach(el => {
                 el.classList.toggle('active', el.dataset.metaCategory === activeMetaCategory);
@@ -3104,7 +3301,8 @@
             });
         }
 
-        function toggleCategory(cat) {
+        async function toggleCategory(cat) {
+            if (!allData.length) await ensureIndex();
             activeCategory = activeCategory === cat ? null : cat;
             document.querySelectorAll('.category-item').forEach(el => {
                 el.classList.toggle('active', el.dataset.category === activeCategory);
@@ -3260,6 +3458,7 @@
                         ${cats.map(c => `<span class="category-tag">${escapeHtml(c)}</span>`).join('')}
                     </div>
                     ${patents.length > 0 ? `<div class="card-patents">${patents.map(p => `<span class="patent-tag">${escapeHtml(p)}</span>`).join('')}${item.patent_numbers.length > 3 ? `<span class="patent-tag">+${item.patent_numbers.length - 3}</span>` : ''}</div>` : ''}
+                    ${provenanceRow(item, hasAF)}
                     <div class="card-meta">
                         ${item.type === 'media' ? '<span>🎬 media</span>' : ''}
                         <span>📦 ${formatSize(item.size_bytes)}</span>
@@ -3285,7 +3484,8 @@
             renderResults();
         }
 
-        function showRandom() {
+        async function showRandom() {
+            if (!allData.length) await ensureIndex();
             const filtered = getFiltered();
             if (filtered.length === 0) return;
             const item = filtered[Math.floor(Math.random() * filtered.length)];
@@ -3515,16 +3715,19 @@
         let searchTimeout;
         document.getElementById('search').addEventListener('input', (e) => {
             clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => {
+            searchTimeout = setTimeout(async () => {
                 searchTerm = e.target.value.trim();
+                // Search is the clearest interaction — load the full index on demand.
+                if (!allData.length) await ensureIndex();
                 currentPage = 0;
                 renderResults();
                 updateClearFilters();
             }, 200);
         });
 
-        document.getElementById('typeFilter').addEventListener('change', (e) => {
+        document.getElementById('typeFilter').addEventListener('change', async (e) => {
             typeFilter = e.target.value;
+            if (!allData.length) await ensureIndex();
             currentPage = 0;
             renderResults();
             updateClearFilters();
@@ -3534,7 +3737,7 @@
             if (e.key === 'Escape') closeModal();
         });
 
-        loadIndex();
+        initPage();
         loadSynthStrip();
     </script>
 </body>
