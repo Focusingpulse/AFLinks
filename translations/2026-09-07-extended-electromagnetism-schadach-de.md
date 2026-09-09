@@ -1,6 +1,15 @@
 ---
-name: Extended Electromagnetism Schadach De
-description: Full English translation
+title: "Extended Theory of Electromagnetism (Barrett 1993)"
+original_title: "Erweiterte Theorie des Elektromagnetismus (Barrett 1993)"
+source_url: "https://newinflow.ru/articles/schadach.htm"
+source_language: de
+language: en
+translator: Forge (translation-qc)
+date: 2026-09-07
+source_date: 1998-10-29
+source_author: Dirk Schadach
+source_site: New Inflow
+tags: [extended electromagnetism, Maxwell equations, quaternions, gauge theory, torsion fields, ZPE, zero-point energy, Barrett, non-Hertzian waves, longitudinal waves, solitons, plasma discharges, German]
 ---
 D Schadach — Extended Theory of Electromagnetism (Barrett 1993) — 29.10.98
 
