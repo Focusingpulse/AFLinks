@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T06:45:13Z",
+  "generated_at": "2026-09-09T06:58:06Z",
   "library": {
-    "researchers": 989,
+    "researchers": 990,
     "researchers_cataloged": 208,
     "patents": 2339,
     "categories": 48,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 62,
     "bridges": 6,
-    "archive_entries": 53569,
+    "archive_entries": 53594,
     "meta_counts": {
-      "Challenges to the Standard Model": 40686,
+      "Challenges to the Standard Model": 40709,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 32384,
-      "Patents & Inventions": 22955,
-      "Geopolitics & Hidden History": 18816,
-      "Electromagnetic Theory": 9079,
-      "Reference & Technical Data": 1828,
+      "Alternative Energy Technologies": 32405,
+      "Patents & Inventions": 22978,
+      "Geopolitics & Hidden History": 18827,
+      "Electromagnetic Theory": 9088,
+      "Reference & Technical Data": 1830,
       "Media & Interviews": 2107,
-      "Environment & Climate": 8918,
-      "Biology, Health & Medicine": 5074,
+      "Environment & Climate": 8920,
+      "Biology, Health & Medicine": 5076,
       "Frontier Science": 306,
       "Rudolf Steiner & Anthroposophy": 131
     },
@@ -5407,9 +5407,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-09T05:47:22Z",
+      "last_run": "2026-09-09T06:47:49Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (166->174) | full-translating Schauberger 'Water: The Blood of the Earth' (de) 174/210 chunks, source already archived 2026-09-03 | backlog 392 (gear: quota)"
+      "last_summary": "+8 chunks since last run (174->182) | full-translation in progress: Schauberger Water Blood of the Earth (de) 182/210 chunks, +4 this run (179-182: cathode/anode water, ground-water physics) | source already archived 2026-09-03 | fixed 2 BOM-corrupted manifests (zenodo 17626722 was already complete+"
     },
     {
       "member": "translation-sweeper",
@@ -5534,6 +5534,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "06:47",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: translated Schauberger 'Water: The Blood of the Earth' (de) chunks 179-182 — cathode/anode water energies, the +4°C boundary layer, ground-water table physics, saturation deficit, springs driven by underpressure not overpressure. Now 182/210. Also repaired 2 BOM-corrupted manifests (zenodo-17626722 confirmed already fully translated+assembled; Goethe Scientific Works it now readable at 0/353). Source PDF already archived 2026-09-03."
+    },
     {
       "date": "2026-09-09",
       "time": "06:21",
@@ -5887,12 +5893,6 @@
       "time": "12:05",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+48790 docs — +48790 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "12:01",
-      "agent": "Book5 Translate",
-      "summary": "+0 chunks — No-op: Book5 already fully translated (220/220, 100%). Assembled translation = 521KB."
     }
   ],
   "declassified": [
@@ -47386,7 +47386,30 @@
         "1568206",
         "1568349",
         "1568493",
-        "1568638"
+        "1568638",
+        "1568785",
+        "1568787",
+        "1568790",
+        "1568794",
+        "1568799",
+        "1568805",
+        "1568812",
+        "1568820",
+        "1568829",
+        "1568839",
+        "1568850",
+        "1568862",
+        "1568875",
+        "1568889",
+        "1568904",
+        "1568920",
+        "1568937",
+        "1568955",
+        "1568974",
+        "1568994",
+        "1569015",
+        "1569084",
+        "1569109"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -91370,7 +91393,28 @@
         "1568349",
         "1568493",
         "1568638",
-        "1568784"
+        "1568784",
+        "1568785",
+        "1568787",
+        "1568790",
+        "1568794",
+        "1568799",
+        "1568805",
+        "1568812",
+        "1568820",
+        "1568829",
+        "1568839",
+        "1568850",
+        "1568862",
+        "1568875",
+        "1568889",
+        "1568904",
+        "1568955",
+        "1568974",
+        "1569015",
+        "1569060",
+        "1569084",
+        "1569109"
       ],
       "Patents & Inventions": [
         "5814",
@@ -114327,7 +114371,30 @@
         "1564608",
         "1566309",
         "1567098",
-        "1567923"
+        "1567923",
+        "1568785",
+        "1568787",
+        "1568790",
+        "1568794",
+        "1568799",
+        "1568805",
+        "1568829",
+        "1568839",
+        "1568850",
+        "1568862",
+        "1568875",
+        "1568889",
+        "1568904",
+        "1568920",
+        "1568937",
+        "1568955",
+        "1568974",
+        "1568994",
+        "1569015",
+        "1569037",
+        "1569060",
+        "1569084",
+        "1569109"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -133145,7 +133212,18 @@
         "1568349",
         "1568493",
         "1568638",
-        "1568784"
+        "1568784",
+        "1568790",
+        "1568805",
+        "1568812",
+        "1568850",
+        "1568862",
+        "1568875",
+        "1568920",
+        "1568937",
+        "1568955",
+        "1569037",
+        "1569060"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -142226,7 +142304,16 @@
         "1560399",
         "1567233",
         "1568493",
-        "1568638"
+        "1568638",
+        "1568785",
+        "1568790",
+        "1568889",
+        "1568904",
+        "1568955",
+        "1568974",
+        "1568994",
+        "1569060",
+        "1569109"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -144056,7 +144143,9 @@
         "1568349",
         "1568493",
         "1568638",
-        "1568784"
+        "1568784",
+        "1569037",
+        "1569109"
       ],
       "Media & Interviews": [
         "5947",
@@ -155085,7 +155174,9 @@
         "1558047",
         "1558049",
         "1558914",
-        "1564608"
+        "1564608",
+        "1569060",
+        "1569084"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -160161,7 +160252,9 @@
         "1562518",
         "1563306",
         "1564269",
-        "1564608"
+        "1564608",
+        "1568850",
+        "1568875"
       ],
       "Frontier Science": [
         "239312",
@@ -214174,7 +214267,32 @@
       "1568349": "WATSOND",
       "1568493": "WATSONJ",
       "1568638": "WISEMAN1",
-      "1568784": "WISEMAN2"
+      "1568784": "WISEMAN2",
+      "1568785": "The Nexus Framework: A Rigorous Interface Theory of Recursive Harmonic Spacetime",
+      "1568787": "THE NEXUS RHA: A UNIFIED FIELD THEORY OF COMPUTATIONAL ONTOLOGY, BIOLOGICAL RESONANCE, AND INTERFACE PHYSICS",
+      "1568790": "TCFQ-DTS v0.4 (RC): Proposal for Structural Stability and Endogenous Sovereignty in LLMs",
+      "1568794": "The Dark Mirror: On Self-Referential Computation, the Ghost in SHA-256, and Why the Universe Always Halts",
+      "1568799": "SHA-256 as a Ray-Traced Lattice: Stack Trace Recovery from Boundary Conditions",
+      "1568805": "The Ontological Inversion: A Rigorous Analysis of Interface Physics, The Nexus Framework, and the Geometric Substrate of Computational Reality",
+      "1568812": "Nexus Master Proof: Cross-Domain Residue, Operators, and Reversible Computation",
+      "1568820": "Beyond Generative AI: The Science of Endogenous Stability",
+      "1568829": "Protein folding rates, IDP sequences, and spectral analysis: a data compendium",
+      "1568839": "The Ancestral API and Recursive Harmonic Architecture: A Unified Meta-Computational Ontology",
+      "1568850": "The Nexus Framework and the Sarrus Allocation: Decoding the Informational Geometry of Protein Folding Kinetics",
+      "1568862": "# The Nexus Framework and the Sarrus Allocation ## Expanded, locked-method write-up for the biological validation (v9.2 → v10 \"Diamond\")",
+      "1568875": "Biological Relativity: Evidence of a Lorentz-Invariant Folding Limit in Finite-Bandwidth Systems",
+      "1568889": "The Prolegomena to Operator Primacy: A Unified Theoretical Foundation for the Nexus Recursive Harmonic Architecture",
+      "1568904": "THE UNIVERSE AS AN INFOGENON – THE SCIENCE, MATHEMATICS AND PHILOSOPHY OF RESONANCE STATES, ToE",
+      "1568920": "Sequence Constraint Coherence Predicts Two-State Protein Folding Rates: The Sarrus Linkage and a Lorentz-Form Latency Law",
+      "1568937": "Relativistic Budget Allocation in Protein Folding: The Lorentz-Form Latency Law",
+      "1568955": "III_Formalisation Définie du Régime Entropique_MIMETIC_Opérationel_RAG_RES_CBD",
+      "1568974": "The Nexus Framework: Ontological Inversion, Harmonic Attractors, and the Computational Ground of Reality",
+      "1568994": "The Nexus Unified Phase-Space Holographic Model: An Executable Process Ontology of the Stroboscopic Universe",
+      "1569015": "X_Foundations of Universal Psychodynamic Architecture_",
+      "1569037": "The Operational Ontology of the Nexus Framework: Reality as Unbounded Recursive Computation",
+      "1569060": "The Sarrus Isomorphism: Structural Equivalence Between Cryptographic Hashing and Biological Protein Folding",
+      "1569084": "The Sarrus Isomorphism and the Glass Key Protocol: Investigating SHA-256 as a Mechanical Fold and Topological Manifold",
+      "1569109": "The NEXUS Chain Framework: A Falsifiable Engineering Specification for Recursive Harmonic Reality"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -502991,6 +503109,165 @@
         "Energy",
         "Conspiracy / Politics",
         "Reference Material"
+      ],
+      "1568785": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "1568787": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "1568790": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "1568794": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "1568799": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "1568805": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "1568812": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "1568820": [
+        "Energy",
+        "Alternative Physics"
+      ],
+      "1568829": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen"
+      ],
+      "1568839": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "1568850": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "1568862": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "1568875": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "1568889": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "1568904": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "1568920": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "1568937": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "1568955": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "1568974": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "1568994": [
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "1569015": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "1569037": [
+        "Patents",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "1569060": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Environment / Climate"
+      ],
+      "1569084": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate"
+      ],
+      "1569109": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Reference Material"
       ]
     },
     "meta_concepts": {
@@ -603030,7 +603307,32 @@
       "1568349": [],
       "1568493": [],
       "1568638": [],
-      "1568784": []
+      "1568784": [],
+      "1568785": [],
+      "1568787": [],
+      "1568790": [],
+      "1568794": [],
+      "1568799": [],
+      "1568805": [],
+      "1568812": [],
+      "1568820": [],
+      "1568829": [],
+      "1568839": [],
+      "1568850": [],
+      "1568862": [],
+      "1568875": [],
+      "1568889": [],
+      "1568904": [],
+      "1568920": [],
+      "1568937": [],
+      "1568955": [],
+      "1568974": [],
+      "1568994": [],
+      "1569015": [],
+      "1569037": [],
+      "1569060": [],
+      "1569084": [],
+      "1569109": []
     }
   },
   "graph": {
