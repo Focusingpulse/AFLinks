@@ -2,9 +2,50 @@
   "_about": {
     "version": "0.1.0",
     "description": "Person index for the Aetherforce Living Library. Links researchers to their works in the collection. Maintained by Synthesist.",
-    "last_updated": "2026-09-08"
+    "last_updated": "2026-09-09"
   },
   "persons": [
+    {
+      "id": "hippocrates",
+      "name": "Hippocrates",
+      "nationality": "Greek",
+      "dates": "c. 460–370 BCE",
+      "role": "physician",
+      "key_contribution": "First Western systematic text on geobiology (Airs, Waters, and Places, 430 BCE)",
+      "works_in_collection": [
+        "synthesis/2026-09-09-place-as-medicine.md"
+      ],
+      "cited_by": [
+        "geobios"
+      ],
+      "notes": "Founder of Western medicine; first to document place-health relationships",
+      "domains": [
+        "geobiology",
+        "medicine"
+      ],
+      "last_updated": "2026-09-09"
+    },
+    {
+      "id": "rocard",
+      "name": "Professor Yves Rocard",
+      "nationality": "French",
+      "dates": "1903–1992",
+      "role": "physicist",
+      "key_contribution": "Validated dowsing through controlled experiments; identified magnetite receptors in human body",
+      "works_in_collection": [
+        "synthesis/2026-09-09-place-as-medicine.md"
+      ],
+      "cited_by": [
+        "geobios"
+      ],
+      "notes": "Bridged mainstream physics and radiesthesia",
+      "domains": [
+        "geobiology",
+        "radiesthesia",
+        "physics"
+      ],
+      "last_updated": "2026-09-09"
+    },
     {
       "id": "cartan",
       "name": "Élie Cartan",
