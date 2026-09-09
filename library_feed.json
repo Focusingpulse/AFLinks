@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-09T00:29:47Z",
+  "generated_at": "2026-09-09T00:31:57Z",
   "library": {
     "researchers": 988,
-    "researchers_cataloged": 197,
+    "researchers_cataloged": 207,
     "patents": 2339,
     "categories": 47,
     "meta_categories": 24,
@@ -5351,9 +5351,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-08T20:20:00Z",
+      "last_run": "2026-09-09T00:20:00Z",
       "last_status": "ok",
-      "last_summary": "+2 translations (pendule universel Amyris, vibrations couleurs spectre geobiologie-sante). QC: corpus 104→106, all files have frontmatter, 14 minimal-frontmatter files (feed-rebuild artifact, not fighting). Feed rebuild blocked (living-library corpus not migrated). Translator stale ~10 days."
+      "last_summary": "+2 translations (Turenne method Part 1 turenne.eu, Turenne biography johnben.ch) — first Turenne material in corpus. QC: Goethe IT->EN (Wizard) reviewed PASS, corpus 106->108. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days; Wizard foreign-translate agent active."
     },
     {
       "member": "scout",
@@ -5395,6 +5395,12 @@
       "time": "00:22",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+52670 docs — +52670 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "00:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations — First Turenne material in the corpus: (1) turenne.eu \"Radiesthésie scientifique — méthode Turenne\" FR→EN (Part 1) — the Turenne Association's exposition of scientific radiesthesia: origins in 19th-c. physics, Turenne's neuro-muscular induction thesis for the diviner's signal, the ten wave varieties (3 horizontal + 3 vertical + radioactive/radio-disintegration + infra + ultra + \"Turenne\" waves), SATURATION (detector turns = atomic number: copper 29, phosphorus 15, uranium 92), the Law of Similitude (reflected wave between similar bodies, surface not mass — Newton analogy), témoins (witnesses from blood drop, all Mendeleev elements, spectrum colors, plants, microbial strains, diseases, organs — \"eternal, indelible, unalterable\"), the H₂O witness, and the Law of Remanences (residual waves from removed bodies, treasure-hunting failures, persistence scales with atomic number). (2) wiki.johnben.ch \"Louis Turenne\" biography FR→EN — École Centrale engineer at 19, wounded at Verdun, T.S.F. professor under General Ferrié, Morocco phosphate/Sidi Harazem discoveries, the 93rd element prediction (Neptunium, Fermi's 1940 homage), Limousin radium mapping, 1952 Order-of-Physicians trial (symbolic franc), preface to Book IX, Paul Reboux's funeral eulogy (Turenne as \"Claude Bernard of human waves\"). QC: corpus 106→108. New Goethe IT→EN translation (Wizard, foreign-translate agent) reviewed — frontmatter complete, PASS; translator pipeline alive again via Wizard. Drunvalo QC agent active at :07 offset (frontmatter fixes, DB updates) — no double work. Feed rebuild still blocked (living-library corpus not migrated to cloud). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books."
     },
     {
       "date": "2026-09-09",
@@ -5743,12 +5749,6 @@
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation, -32 duplicates — Deep dedup pass: removed 32 duplicate translation files (corpus 95→63). Eliminated compendium 5→1, shipov-torsion 5→1, akimov-shipov 4→1, torsion-physics-newton 5→1, magnitsky 5→1, plus -en/-fr-en duplicate pairs (enel, brocéliande, ether-einstein, ondes-de-forme, univers-sans-matiere). Translated Vibratis pendule divinatoire guide (FR→EN) — covers French radiesthesia history (Abbé Bouly, Abbé Mermet, Treyve, Aymar, Crozier), physical vs mental schools, Rocard magnetic field work, methods, dangers. Translator agent stale: no new publishes since Sep 3 (~108h, past 48h threshold). Feed rebuild still blocked."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "08:05",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+30542 docs — +30542 docs in vault | feed rebuilt"
     }
   ],
   "declassified": [
