@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T06:05:38Z",
+  "generated_at": "2026-09-09T06:12:48Z",
   "library": {
     "researchers": 989,
     "researchers_cataloged": 208,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 62,
     "bridges": 6,
-    "archive_entries": 52746,
+    "archive_entries": 52806,
     "meta_counts": {
       "Challenges to the Standard Model": 40085,
       "Biological & Morphogenetic Science": 1472,
@@ -40,7 +40,7 @@
       "Environment & Climate": 8701,
       "Biology, Health & Medicine": 4955,
       "Frontier Science": 270,
-      "Rudolf Steiner & Anthroposophy": 70
+      "Rudolf Steiner & Anthroposophy": 130
     },
     "graph_edges": 453,
     "graph_nodes": 345,
@@ -5440,9 +5440,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T05:06:27Z",
+      "last_run": "2026-09-09T06:07:33Z",
       "last_status": "ok",
-      "last_summary": "sync: 52676 docs, feed rebuilt"
+      "last_summary": "sync: 52746 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5534,6 +5534,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "06:05",
+      "agent": "Book4 Translate",
+      "summary": "+4 chunks — Translated chunks 061-064 (Chapter 5: Electromagnetic field theory, Maxwell's equations critique). Progress: 64/178 (36%). Translator-ats also active (checked in 45min ago)."
+    },
     {
       "date": "2026-09-09",
       "time": "05:47",
@@ -5887,12 +5893,6 @@
       "time": "08:05",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+48756 docs — +48756 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "08:00",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 28th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200 but empty body) — hot watch; conference ran Aug 31–Sep 4 (Niagara Falls), ENG8 PRVR scaling talk confirmed held; likeliest next FL source when slides/proceedings drop. Zenodo keyword 362 / fulltext 508 (query-normalized): newest real still 22036645 (08-21); closed 22166688 (GRC eng) + 22117461 (17O-water eng); PLEG 21999691 = EN not FL. viXra at 2609.0012 max (probed 0013–0020 → 404). Exa RU/EN/ZH fresh window = knowns/mainstream only (Krivit review, Lin 锦义 pool, Lebedkin STPC III, Fernandez TTC — all tracked/old). Archive 30,542 docs / 979 researchers / 2,339 patents / 57 trans / 967 pg (stats baked 08:03:14Z aflinks-sync 5528bf6; viXra +11 @06:22Z f1dbd05). Rotation → energeticforum (index 7, enumerate @08:15 growth fire). Fleet active (aflinks-sync feed rebuild 08:03Z, Drunvalo db refresh 06:05Z, Forge QC 04:26Z); translator pipeline NOT stale (sweeper Schauberger chunks 71–82 @09-06 08:17Z; 48h trips 09-08 08:17Z). No claims (only Essai de Radiesthésie, QC 09-06, 1 day — healthy). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-0800.md."
     }
   ],
   "declassified": [
@@ -157340,7 +157340,67 @@
         "1555474",
         "1555517",
         "1555561",
-        "1555606"
+        "1555606",
+        "1555607",
+        "1555609",
+        "1555612",
+        "1555616",
+        "1555621",
+        "1555627",
+        "1555634",
+        "1555642",
+        "1555651",
+        "1555661",
+        "1555672",
+        "1555684",
+        "1555697",
+        "1555711",
+        "1555726",
+        "1555742",
+        "1555759",
+        "1555777",
+        "1555796",
+        "1555816",
+        "1555837",
+        "1555859",
+        "1555882",
+        "1555906",
+        "1555931",
+        "1555957",
+        "1555984",
+        "1556012",
+        "1556041",
+        "1556071",
+        "1556102",
+        "1556134",
+        "1556167",
+        "1556201",
+        "1556236",
+        "1556272",
+        "1556309",
+        "1556347",
+        "1556386",
+        "1556426",
+        "1556467",
+        "1556509",
+        "1556552",
+        "1556596",
+        "1556641",
+        "1556687",
+        "1556734",
+        "1556782",
+        "1556831",
+        "1556881",
+        "1556932",
+        "1556984",
+        "1557037",
+        "1557091",
+        "1557146",
+        "1557202",
+        "1557259",
+        "1557317",
+        "1557376",
+        "1557436"
       ]
     },
     "doc_titles": {
@@ -210089,7 +210149,67 @@
       "1555474": "On Natural Science in General. Mineralogy and Geology II — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
       "1555517": "On Natural Science, General Natural Science I — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
       "1555561": "On Natural Science, General Natural Science II — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
-      "1555606": "Dokumente — GA 1f. Editorische Nachworte zu Goethes Naturwissenschaftlichen Schriften in der Weimarer Ausgabe 1891-1896"
+      "1555606": "Dokumente — GA 1f. Editorische Nachworte zu Goethes Naturwissenschaftlichen Schriften in der Weimarer Ausgabe 1891-1896",
+      "1555607": "I. The Point of Departure - GA 2. A Theory of Knowledge (1940)",
+      "1555609": "II. Goethe's Science Considered According to the Method of Schiller - GA 2. A Theory of Knowledge (1940)",
+      "1555612": "III. The Function of This Branch of Science - GA 2. A Theory of Knowledge (1940)",
+      "1555616": "IV. Definition of the Concept of Experience - GA 2. A Theory of Knowledge (1940)",
+      "1555621": "V. Examination of the Content of Experience - GA 2. A Theory of Knowledge (1940)",
+      "1555627": "VI. Correction of an Erroneous Conception of Experience As a Totality - GA 2. A Theory of Knowledge (1940)",
+      "1555634": "VII. Reference to the Experience of the Individual Reader - GA 2. A Theory of Knowledge (1940)",
+      "1555642": "VIII. Thinking as a Higher Experience within Experience - GA 2. A Theory of Knowledge (1940)",
+      "1555651": "IX. Thought and Consciousness - GA 2. A Theory of Knowledge (1940)",
+      "1555661": "X. The Inner Nature of Thought - GA 2. A Theory of Knowledge (1940)",
+      "1555672": "XI. Thought and Perception - GA 2. A Theory of Knowledge (1940)",
+      "1555684": "XII. Intellect and Reason - GA 2. A Theory of Knowledge (1940)",
+      "1555697": "XIII. The Act of Cognition - GA 2. A Theory of Knowledge (1940)",
+      "1555711": "XIV. Cognition and the Ultimate Foundation of Things - GA 2. A Theory of Knowledge (1940)",
+      "1555726": "XV. Inorganic Nature - GA 2. A Theory of Knowledge (1940)",
+      "1555742": "XVI. Organic Nature - GA 2. A Theory of Knowledge (1940)",
+      "1555759": "XVII. Introduction: Spirit and Nature - GA 2. A Theory of Knowledge (1940)",
+      "1555777": "XVIII. Psychological Cognition - GA 2. A Theory of Knowledge (1940)",
+      "1555796": "XIX. Human Freedom - GA 2. A Theory of Knowledge (1940)",
+      "1555816": "XX. Optimism and Pessimism - GA 2. A Theory of Knowledge (1940)",
+      "1555837": "XXI. Scientific Knowledge and Artistic Creation - GA 2. A Theory of Knowledge (1940)",
+      "1555859": "Expositions in Brief - GA 2. A Theory of Knowledge (1940)",
+      "1555882": "Foreword to the First Edition - GA 2. A Theory of Knowledge (1940)",
+      "1555906": "Publisher's Note - GA 2. A Theory of Knowledge (1940)",
+      "1555931": "Preface - GA 2. A Theory of Knowledge (1940)",
+      "1555957": "Translator's Preface - GA 2. A Theory of Knowledge (1940)",
+      "1555984": "I. The Point of Departure — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556012": "II. The Science of Goethe According to the Method of Schiller — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556041": "III. The Task of Science — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556071": "IV. Determining the Concept of Experience — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556102": "V. An Indication as to the Content of Experience — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556134": "VI. Correcting an Erroneous Conception of Experience as a Whole — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556167": "VII. Calling upon the Experience of Every Single Reader — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556201": "VIII. Thinking as a Higher Experience within Experience — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556236": "IX. Thinking and Consciousness — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556272": "X. The Inner Nature of Thinking — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556309": "XI. Thinking and Perception — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556347": "XII. Intellect and Reason — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556386": "XIII. The Activity of Knowing — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556426": "XIV. The Ground of Things and the Activity of Knowing — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556467": "XV. Inorganic Nature — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556509": "XVI. Organic Nature — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556552": "XVII. Introduction: Spirit and Nature — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556596": "XVIII. Psychological Knowing Activity — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556641": "XIX. Human Spiritual Activity (Freiheit) — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556687": "XX. Optimism and Pessimism — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556734": "XXI. The Activity of Knowing and Artistic Creativity — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556782": "Foreword to the First Edition — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556831": "Preface to the New Edition of 1924 — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)",
+      "1556881": "1. Ausgangspunkt — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1556932": "2. Die Wissenschaft Goethes nach der Methode Schillers — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1556984": "3. Die Aufgabe unserer Wissenschaft — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1557037": "4. Feststellung des Begriffes der Erfahrung — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1557091": "5. Hinweis auf den Inhalt der Erfahrung — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1557146": "6. Berichtigung einer irrigen Auffassung der Gesamt-Erfahrung — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1557202": "7. Berufung auf die Erfahrung jedes einzelnen Lesers — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1557259": "8. Das Denken als höhere Erfahrung in der Erfahrung — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1557317": "9. Denken und Bewußtsein — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1557376": "10. Innere Natur des Denkens — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller",
+      "1557436": "11. Denken und Wahrnehmung — GA 2. Grundlinien einer Erkenntnistheorie der Goetheschen Weltanschauung, mit besonderer Rücksicht auf Schiller"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -493328,6 +493448,230 @@
       "1555606": [
         "Anthroposophy / Rudolf Steiner",
         "Goethean Science"
+      ],
+      "1555607": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555609": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555612": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555616": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555621": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555627": [
+        "Anthroposophy / Rudolf Steiner",
+        "Optics / Colour Therapy"
+      ],
+      "1555634": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555642": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555651": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555661": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555672": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555684": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555697": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555711": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555726": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555742": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555759": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555777": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555796": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555816": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555837": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1555859": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555882": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555906": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555931": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555957": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1555984": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556012": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556041": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556071": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556102": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556134": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Optics / Colour Therapy"
+      ],
+      "1556167": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556201": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556236": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556272": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556309": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556347": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556386": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556426": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556467": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556509": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556552": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556596": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556641": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556687": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556734": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556782": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556831": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556881": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556932": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1556984": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1557037": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1557091": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1557146": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1557202": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1557259": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1557317": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1557376": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1557436": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
       ]
     },
     "meta_concepts": {
@@ -493978,6 +494322,12 @@
         "torsion",
         "transhuman",
         "vortex"
+      ],
+      "Rudolf Steiner & Anthroposophy": [
+        "geometry_sacred",
+        "p_consciousness",
+        "p_goethean",
+        "p_nature"
       ]
     },
     "concept_names": {
@@ -592166,76 +592516,294 @@
       "1554246": [
         "tesla"
       ],
-      "1554247": [],
-      "1554249": [],
-      "1554252": [],
-      "1554256": [],
-      "1554261": [],
-      "1554267": [],
-      "1554274": [],
-      "1554282": [],
-      "1554291": [],
-      "1554301": [],
-      "1554312": [],
-      "1554324": [],
-      "1554337": [],
-      "1554351": [],
-      "1554366": [],
-      "1554382": [],
-      "1554399": [],
-      "1554417": [],
-      "1554436": [],
-      "1554456": [],
-      "1554477": [],
-      "1554499": [],
-      "1554522": [],
-      "1554546": [],
-      "1554571": [],
-      "1554572": [],
-      "1554574": [],
-      "1554577": [],
-      "1554581": [],
-      "1554586": [],
-      "1554592": [],
-      "1554599": [],
-      "1554607": [],
-      "1554616": [],
-      "1554626": [],
-      "1554637": [],
-      "1554649": [],
-      "1554662": [],
-      "1554676": [],
-      "1554691": [],
-      "1554707": [],
-      "1554724": [],
-      "1554742": [],
-      "1554761": [],
-      "1554781": [],
-      "1554802": [],
-      "1554824": [],
-      "1554847": [],
-      "1554871": [],
-      "1554896": [],
-      "1554922": [],
-      "1554949": [],
-      "1554977": [],
-      "1555006": [],
-      "1555036": [],
-      "1555067": [],
-      "1555099": [],
-      "1555132": [],
-      "1555166": [],
-      "1555201": [],
-      "1555237": [],
-      "1555274": [],
-      "1555312": [],
-      "1555351": [],
-      "1555391": [],
-      "1555432": [],
-      "1555474": [],
-      "1555517": [],
-      "1555561": [],
-      "1555606": []
+      "1554247": [
+        "p_goethean"
+      ],
+      "1554249": [
+        "p_goethean"
+      ],
+      "1554252": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554256": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554261": [
+        "p_goethean"
+      ],
+      "1554267": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554274": [
+        "p_goethean"
+      ],
+      "1554282": [
+        "p_goethean"
+      ],
+      "1554291": [
+        "p_goethean"
+      ],
+      "1554301": [
+        "p_goethean"
+      ],
+      "1554312": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554324": [
+        "p_goethean"
+      ],
+      "1554337": [
+        "p_goethean"
+      ],
+      "1554351": [
+        "p_goethean"
+      ],
+      "1554366": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554382": [
+        "p_goethean"
+      ],
+      "1554399": [
+        "p_goethean"
+      ],
+      "1554417": [
+        "p_goethean"
+      ],
+      "1554436": [
+        "p_goethean"
+      ],
+      "1554456": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554477": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554499": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554522": [
+        "p_goethean"
+      ],
+      "1554546": [
+        "p_goethean"
+      ],
+      "1554571": [
+        "p_goethean"
+      ],
+      "1554572": [
+        "p_goethean"
+      ],
+      "1554574": [
+        "p_goethean",
+        "p_nature"
+      ],
+      "1554577": [
+        "p_goethean"
+      ],
+      "1554581": [
+        "p_goethean"
+      ],
+      "1554586": [
+        "p_goethean"
+      ],
+      "1554592": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554599": [
+        "p_goethean"
+      ],
+      "1554607": [
+        "p_goethean"
+      ],
+      "1554616": [
+        "p_goethean"
+      ],
+      "1554626": [
+        "p_goethean"
+      ],
+      "1554637": [
+        "p_goethean"
+      ],
+      "1554649": [
+        "p_goethean"
+      ],
+      "1554662": [
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "1554676": [
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "1554691": [
+        "p_goethean"
+      ],
+      "1554707": [
+        "p_goethean"
+      ],
+      "1554724": [
+        "p_goethean"
+      ],
+      "1554742": [
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "1554761": [
+        "p_goethean"
+      ],
+      "1554781": [
+        "p_goethean",
+        "p_nature"
+      ],
+      "1554802": [
+        "p_goethean"
+      ],
+      "1554824": [
+        "p_goethean"
+      ],
+      "1554847": [
+        "p_goethean"
+      ],
+      "1554871": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1554896": [
+        "p_goethean"
+      ],
+      "1554922": [
+        "p_goethean"
+      ],
+      "1554949": [
+        "p_goethean"
+      ],
+      "1554977": [
+        "p_goethean"
+      ],
+      "1555006": [
+        "p_goethean"
+      ],
+      "1555036": [
+        "p_goethean"
+      ],
+      "1555067": [
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "1555099": [
+        "p_goethean"
+      ],
+      "1555132": [
+        "p_goethean"
+      ],
+      "1555166": [
+        "p_goethean"
+      ],
+      "1555201": [
+        "p_goethean"
+      ],
+      "1555237": [
+        "p_goethean"
+      ],
+      "1555274": [
+        "p_goethean"
+      ],
+      "1555312": [
+        "p_goethean"
+      ],
+      "1555351": [
+        "p_goethean"
+      ],
+      "1555391": [
+        "p_goethean",
+        "p_nature"
+      ],
+      "1555432": [
+        "p_goethean"
+      ],
+      "1555474": [
+        "p_goethean"
+      ],
+      "1555517": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1555561": [
+        "p_goethean"
+      ],
+      "1555606": [
+        "p_goethean"
+      ],
+      "1555607": [],
+      "1555609": [],
+      "1555612": [],
+      "1555616": [],
+      "1555621": [],
+      "1555627": [],
+      "1555634": [],
+      "1555642": [],
+      "1555651": [],
+      "1555661": [],
+      "1555672": [],
+      "1555684": [],
+      "1555697": [],
+      "1555711": [],
+      "1555726": [],
+      "1555742": [],
+      "1555759": [],
+      "1555777": [],
+      "1555796": [],
+      "1555816": [],
+      "1555837": [],
+      "1555859": [],
+      "1555882": [],
+      "1555906": [],
+      "1555931": [],
+      "1555957": [],
+      "1555984": [],
+      "1556012": [],
+      "1556041": [],
+      "1556071": [],
+      "1556102": [],
+      "1556134": [],
+      "1556167": [],
+      "1556201": [],
+      "1556236": [],
+      "1556272": [],
+      "1556309": [],
+      "1556347": [],
+      "1556386": [],
+      "1556426": [],
+      "1556467": [],
+      "1556509": [],
+      "1556552": [],
+      "1556596": [],
+      "1556641": [],
+      "1556687": [],
+      "1556734": [],
+      "1556782": [],
+      "1556831": [],
+      "1556881": [],
+      "1556932": [],
+      "1556984": [],
+      "1557037": [],
+      "1557091": [],
+      "1557146": [],
+      "1557202": [],
+      "1557259": [],
+      "1557317": [],
+      "1557376": [],
+      "1557436": []
     }
   },
   "graph": {
