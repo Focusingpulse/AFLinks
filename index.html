@@ -1333,7 +1333,9 @@
             grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
             gap: 6px;
             width: 100%;
-            max-width: 640px;
+            /* [prescribed: BQH golden ratio — dial stage (440px) : content rail = 1:1.618 → 712px]
+               Source: Karim BQH proportions, rexresearch.com/biogeom/biogeom.htm */
+            max-width: 712px;
             margin: 4px auto 0;
             padding: 8px;
             border-radius: 14px;
@@ -1580,6 +1582,8 @@
         </div>
     </div>
     <div class="wave-divider" aria-hidden="true"></div>
+    <!-- Biosignature divider [aesthetic arrangement of prescribed Karim shapes — biosignatures.js] -->
+    <div data-bgsig="divider" data-bg-color="var(--gold, #e8b64c)" aria-hidden="true"></div>
 
     <!-- Archive nav — the Layers (archive depth) & the Scopes (analysis tools) -->
     <nav class="teaching-nav" aria-label="Archive navigation">
@@ -1731,6 +1735,8 @@
         </div>
     </footer>
 
+    <!-- BioGeometry biosignature library [prescribed: Karim biosignatures — three-tier labeled] -->
+    <script src="./biosignatures.js"></script>
     <script>
         let allData = [];
         let tokenIndex = null; // {N, tokens:{tok:{df,ids}}} — rarity-ranked search
