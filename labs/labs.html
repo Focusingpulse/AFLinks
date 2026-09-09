@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peer-Lab — The Replication Yard, Formalized · AFLinks</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../tokens.css">
+    <link rel="stylesheet" href="labs.css">
+    <link rel="icon" type="image/svg+xml" href="../favicon.svg">
+    <meta name="description" content="Peer-Lab — a web-facing formalization of the Replication Yard into four registries (protocols, equipment, variables, replication log). Honest science records, not endorsements. The replication_verified badge requires 3 independent replications by 2+ distinct hands.">
+    <meta property="og:title" content="Peer-Lab · AFLinks Replication Yard">
+    <meta property="og:description" content="Four registries — protocols, equipment, variables, replication log — with the replication_verified badge gated by the 3x2 rule.">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <a class="skip-link" href="#labMain">Skip to registries</a>
+
+    <!-- Hero -->
+    <div class="lab-hero">
+        <span class="kicker">🏴‍☠️ The Replication Yard, Formalized</span>
+        <h1>Peer-Lab</h1>
+        <p>Every registry entry is a <strong>test of a claim — not an endorsement</strong>. Pick a protocol, build it with ordinary materials, run the pre-registered method, and post your numbers. Supports, refutes, and inconclusive all count — negative results are gold.</p>
+        <p class="honesty">⚖️ Honest records only. Claims are labeled as claims ("claimed to", "reported", "hypothesis") and are never stated as proven effect. The <strong>replication_verified</strong> badge is awarded only after <strong>3 independent replications by 2+ distinct hands</strong> (the 3×2 rule) — and no protocol in this registry has reached it yet.</p>
+    </div>
+
+    <!-- Nav (mirrors index.html teaching-nav) -->
+    <nav class="lab-nav" aria-label="Archive navigation">
+        <span class="tn-group">
+            <span class="tn-label layers">✦ The Layers</span>
+            <a href="../index.html" title="Browse every document — patents, papers & research">🗝 Archive</a>
+            <a href="../vault.html" title="The seams — where categories cross-reference each other">🔭 Vault</a>
+            <a href="../library.html" title="Translations, researchers & the crew's finds">⚓ Living Library</a>
+        </span>
+        <span class="tn-group">
+            <span class="tn-label scopes">✦ The Scopes</span>
+            <a href="../lens.html" title="Cross-reference analysis — how authors think">💠 Lens</a>
+            <a href="labs.html" class="here" title="The formalized Replication Yard — protocols, gear, variables & the log">🧪 Peer-Lab</a>
+            <a href="../synthesis.html" class="briefings-link" title="Reports — what the fleet is learning">⚗ Fleet Briefings</a>
+        </span>
+        <span class="tn-group">
+            <span class="tn-label scopes">✦ More</span>
+            <a href="../about.html" title="Who built this, and why">🧭 About</a>
+            <a href="../pathways.html" title="Curated five-document journeys">🗺 Pathways</a>
+        </span>
+    </nav>
+
+    <main class="lab-main" id="labMain">
+        <div id="labRoot">
+            <noscript>
+                <div class="noscript-box">
+                    <p>Peer-Lab needs JavaScript to load <code>labs/labs.json</code> and render the four registries.
+                    The seed data is a plain JSON file — open it directly to read the protocols, equipment, variables, and replication log.</p>
+                    <p><a href="labs.json">Read labs.json →</a></p>
+                </div>
+            </noscript>
+
+            <div class="lab-summary" id="labSummary"><span class="lb-badge progress">loading registry…</span></div>
+
+            <div class="lab-rule">
+                ⚜️ <strong>The 3×2 rule</strong> — a protocol earns the <strong>replication_verified</strong> badge only when its replication log holds
+                <strong>≥3 entries with verdict "replicated"</strong> from <strong>≥2 distinct hands</strong>. Until then it shows
+                "in progress (N/3 replications, M hands)". Enforcement is by the build (<code>build_labs.py</code>), not by hand.
+            </div>
+
+            <!-- 1. Protocols -->
+            <section class="lab-section" id="labProtocolsSection">
+                <h2>1 · The Protocols <span class="sub">tests of claims — expand to read the pre-registered method</span></h2>
+                <div id="labProtocols"><div class="lab-empty">Loading protocols…</div></div>
+            </section>
+
+            <!-- 2. Equipment -->
+            <section class="lab-section" id="labEquipmentSection">
+                <h2>2 · The Equipment <span class="sub">ordinary materials from the bench, with substitutes & cost bands</span></h2>
+                <div class="wrap"><div id="labEquipment"><div class="lab-empty">Loading equipment…</div></div></div>
+            </section>
+
+            <!-- 3. Variables -->
+            <section class="lab-section" id="labVariablesSection">
+                <h2>3 · The Variables <span class="sub">what gets measured, how, and what could confound it</span></h2>
+                <div class="wrap"><div id="labVariables"><div class="lab-empty">Loading variables…</div></div></div>
+            </section>
+
+            <!-- 4. Replication log -->
+            <section class="lab-section" id="labLogSection">
+                <h2>4 · The Replication Log <span class="sub">every documented attempt — honest verdicts, negatives welcome</span></h2>
+                <div class="wrap"><div id="labLog"><div class="lab-empty">Loading replication log…</div></div></div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="lab-footer">
+        <p>Part of the <a href="../index.html">Aetherforce Treasure Vault</a> · a formalization of the <a href="../library.html#yardSection">Replication Yard</a>.
+        Modeled on the Permies PEP/SKIP proof culture — build it, test it, post the numbers either way.</p>
+    </footer>
+
+    <script src="labs.js"></script>
+</body>
+</html>
