@@ -57,7 +57,7 @@ def load_index():
 
 
 def doc_url(doc_id):
-    return f"/AFLinks/docs/{int(doc_id):08d}.html"
+    return f"/AFLinks/pages/{int(doc_id):08d}.html"
 
 
 def render_page(doc, has_preview):
