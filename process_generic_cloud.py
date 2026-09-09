@@ -62,11 +62,15 @@ def extract_pdf_text(pdf_path, max_chars=2000):
         return ""
 
 def fetch_html_text(url, max_chars=2000):
+    """Fetch an HTML page and return (title, plain_text_preview)."""
     if USE_WAYBACK:
         url = "https://web.archive.org/web/2024/" + url
     data = fetch_url(url, timeout=30)
-    if data is None: return ""
+    if data is None: return "", ""
     text = data.decode('utf-8', errors='replace')
+    m = re.search(r'<title[^>]*>(.*?)</title>', text, re.I | re.DOTALL)
+    page_title = re.sub(r'&amp;', '&', m.group(1)) if m else ""
+    page_title = re.sub(r'\s+', ' ', page_title).strip()
     text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL)
     text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
     text = re.sub(r'<[^>]+>', ' ', text)
@@ -77,7 +81,7 @@ def fetch_html_text(url, max_chars=2000):
     text = re.sub(r'&nbsp;', ' ', text)
     text = re.sub(r'&#\d+;', '', text)
     text = re.sub(r'\s+', ' ', text).strip()
-    return text[:max_chars]
+    return page_title, text[:max_chars]
 
 # Category keywords (same as tuks processor)
 CAT_KW = {
@@ -327,7 +331,9 @@ def main():
                 preview = extract_pdf_text(tmp_path)
                 os.unlink(tmp_path)
         elif ext in ('.html', '.htm', '.php'):
-            preview = fetch_html_text(url)
+            page_title, preview = fetch_html_text(url)
+            if page_title:
+                title = page_title
         elif ext == '.txt':
             txt_data = fetch_url(url, timeout=15)
             if txt_data:
