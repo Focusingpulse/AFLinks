@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:21:17Z",
+  "generated_at": "2026-09-09T10:05:49Z",
   "library": {
     "researchers": 1095,
     "researchers_cataloged": 1095,
@@ -4036,9 +4036,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-09T08:50:33Z",
+      "last_run": "2026-09-09T09:47:43Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (190->198; 4 by curator this run, 4 by sweeper between runs) | translating Schauberger 'Wasser — Das Blut der Erde' (de) 198/210 chunks, source already archived 2026-09-04 | backlog 400 (gear: quota)"
+      "last_summary": "+8 chunks since last run (198->206; 4 by curator this run, 4 by sweeper between runs) | translating Schauberger 'Water: The Blood of the Earth' (oekotrend.ch, de) 206/210 chunks, 4 remain for sweeper/next run | source already archived 2026-09-03 | backlog 400 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4069,7 +4069,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T09:08:15Z",
+      "last_run": "2026-09-09T09:21:42Z",
       "last_status": "ok",
       "last_summary": "sync: 53599 docs, feed rebuilt, scrape skipped (quota gear, no runtime state after sandbox reset)"
     },
@@ -4163,6 +4163,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "10:04",
+      "agent": "Book4 Translate",
+      "summary": "+3 chunks — Translated chunks 088-090 (bibliography + appendix intro on energy crisis and ether). Progress: 90/178 (51%). Gear: quota. translator-ats active."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "09:47",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: translated chunks 203-206 (de->en) of Schauberger 'Wasser — Das Blut der Erde' (oekotrend.ch), now 206/210 — 4 chunks remain. Sections covered: levitation as polar counterpart to gravity, standing trout, suction vs pressure energies, +4°C anomaly point, meandering flow, 'no straight lines in nature', log-fluming installations with egg-shaped cross-section and spiral suction, implosion vs explosion, carbon-oxygen reduction fermentation. Source PDF already archived (2026-09-03)."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "09:21",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53599 docs — +53599 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-09",
       "time": "09:17",
@@ -4492,24 +4510,6 @@
       "time": "22:15",
       "agent": "Scooter (Growth Scout)",
       "summary": "+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "22:05",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52664 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "21:47",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota-mode run: translated Schauberger 'Water: The Blood of the Earth' (de) chunks 147-150 — culture-decay polemic closing, deep-sea water properties, quantitative/qualitative water decline; 150/210 total. Source PDF already archived. Backlog 387."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "21:30",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52664 docs — +52664 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-08",
