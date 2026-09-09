@@ -61,8 +61,12 @@ if DRY:
     sys.exit(0)
 
 if added_total > 0:
+    # COMPACT: index.json crossed 100MB (GitHub's hard limit) at ~53.5k docs.
+    # Pretty-printing was ~8% of file size. Site never fetches index.json at
+    # runtime (it uses search_index.json / search_chunks / full_* shards),
+    # so compact JSON is safe and keeps the master index pushable.
     with open(INDEX_PATH, "w", encoding="utf-8") as f:
-        json.dump(existing, f, ensure_ascii=False, indent=2)
+        json.dump(existing, f, ensure_ascii=False, separators=(",", ":"))
     print(f"Saved updated index.json ({len(existing)} entries)")
 else:
     print("No new entries to merge — index already up to date")
