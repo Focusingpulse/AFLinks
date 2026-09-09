@@ -81,7 +81,9 @@ def main():
 
     if not report_only:
         with open(INDEX_PATH, "w", encoding="utf-8") as f:
-            json.dump(docs, f, ensure_ascii=False, indent=2)
+            # compact JSON: index.json must stay under GitHub's 100MB hard limit
+            # (pretty-printing adds ~8%; see reference/history/2026-09-09-padrak-100mb-limit.md)
+            json.dump(docs, f, ensure_ascii=False, separators=(",", ":"))
         print(f"index.json updated in place: {len(docs)} docs")
 
     tagged = sum(1 for d in docs if d.get("concepts"))
