@@ -12,3 +12,13 @@ h1{font-size:1.45rem;color:#ffd166;line-height:1.35;margin:0 0 10px}
 .btn{background:#c99a58;color:#0b0f14;font-weight:bold;padding:9px 18px;border-radius:6px;font-size:.9rem}
 .btn.ghost{background:transparent;color:#ffd166;border:1px solid #c99a58}
 .ppl{font-size:.9rem;color:#aab6c2;margin-top:26px;border-top:1px solid #232e38;padding-top:16px}
+/* Share row [prescribed: virtual center component] */
+.share{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:24px}
+/* Lineage / death-certificate section [aesthetic: mirrors .preview styling] */
+.lineage{background:#16131a;border:1px solid #3a2f40;border-left:3px solid #b06a9e;padding:16px 18px;border-radius:6px;font-size:.9rem;color:#cfc3d8;margin-bottom:24px}
+.lineage h2{font-size:1rem;color:#e0b4d4;margin:0 0 8px}
+.lineage .ev{margin:6px 0;padding-left:14px;border-left:2px solid #4a3a55}
+.lineage .ev .d{color:#9e86b0;font-size:.8rem}
+.lineage .st{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.75rem;font-weight:bold;margin-bottom:8px}
+.lineage .st.died{background:#3a1a24;color:#e08a8a}.lineage .st.suppressed{background:#2a1a3a;color:#b08ad0}
+.lineage .st.continued{background:#1a2a1a;color:#8ad08a}.lineage .st.resurfaced{background:#2a2a1a;color:#d0c08a}
