@@ -33,6 +33,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DOCS_DIR = ROOT / "pages"
 DC_DIR = ROOT / "synthesis" / "death-certificates"  # copied from living-library by build_library_feed.py
+RG_FILE = ROOT / "synthesis" / "replication-guides.json"  # Open Lab replication guides [prescribed: Directive C]
 STYLE = """
 body{background:#0b0f14;color:#d8d3c8;font-family:Georgia,'Times New Roman',serif;margin:0;padding:0;line-height:1.55}
 .wrap{max-width:760px;margin:0 auto;padding:32px 20px 60px}
@@ -57,6 +58,25 @@ h1{font-size:1.45rem;color:#ffd166;line-height:1.35;margin:0 0 10px}
 .lineage .st{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.75rem;font-weight:bold;margin-bottom:8px}
 .lineage .st.died{background:#3a1a24;color:#e08a8a}.lineage .st.suppressed{background:#2a1a3a;color:#b08ad0}
 .lineage .st.continued{background:#1a2a1a;color:#8ad08a}.lineage .st.resurfaced{background:#2a2a1a;color:#d0c08a}
+/* Open Lab [prescribed: Directive C] */
+.openlab{background:#0f1a1c;border:1px solid #2a4a44;border-left:3px solid #6fc9b4;border-radius:6px;padding:16px 18px;margin-bottom:24px;font-size:.92rem;color:#cfded9}
+.ol-tabs{display:flex;gap:8px;margin-bottom:12px;flex-wrap:wrap}
+.ol-tab{background:#16262a;color:#9fc4b8;border:1px solid #2a4a44;padding:5px 14px;border-radius:20px;font-size:.8rem;cursor:pointer}
+.ol-tab.on{background:#1c3a34;color:#8be0c8;border-color:#4a7a66}
+.ol-meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px;align-items:center}
+.ol-chip{background:#16262a;color:#9fc4b8;border:1px solid #2a4a44;padding:2px 10px;border-radius:12px;font-size:.75rem}
+.rg-status{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.75rem;font-weight:bold}
+.rg-protocol{background:#1a2a3a;color:#8ab0d0}.rg-underway{background:#2a2a1a;color:#d0c08a}
+.rg-replicated{background:#1a2a1a;color:#8ad08a}.rg-refuted{background:#3a1a24;color:#e08a8a}.rg-inconclusive{background:#2a2a1a;color:#c0b07a}
+.rg-claim{font-size:.95rem;background:#0b1517;border:1px solid #1f3a36;padding:10px 12px;border-radius:4px;margin:0 0 12px}
+.ol-subhead{font-size:.72rem;letter-spacing:1px;text-transform:uppercase;color:#7fa89c;margin:12px 0 6px;font-weight:700}
+.rg-vars{display:flex;flex-direction:column;gap:5px}
+.rg-row{display:flex;justify-content:space-between;gap:12px;padding:5px 8px;background:#0b1517;border:1px solid #1f3a36;border-radius:4px;font-size:.85rem}
+.rg-var{color:#cfded9}.rg-mod{color:#6fc9b4;text-align:right;font-size:.8rem}
+.rg-safety{font-size:.85rem;color:#b7c9c3}
+.ol-log{margin-top:14px;padding-top:10px;border-top:1px solid #2a4a44}
+.ol-log-label{color:#8be0c8;font-weight:bold;font-size:.9rem}
+.ol-log-note{font-size:.8rem;color:#9fc4b8;margin:4px 0 8px}
 """
 
 
@@ -103,6 +123,67 @@ def load_death_certificates():
             if m:
                 dc_map.setdefault(int(m.group(1)), []).append(cert)
     return dc_map
+
+
+def load_replication_guides():
+    """Load Open Lab replication guides, keyed by doc_id.
+    [prescribed: Master Directive C — Modern Replication Guide tabs on flagship docs]"""
+    guides = {}
+    if not RG_FILE.is_file():
+        return guides
+    try:
+        with open(RG_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+        for did, g in data.get("guides", {}).items():
+            try:
+                guides[int(did)] = g
+            except (TypeError, ValueError):
+                continue
+    except Exception:
+        pass
+    return guides
+
+
+def render_open_lab(guide):
+    """Render the Open Lab section (replication guide + why-now + log-an-attempt)
+    for a flagship doc that has a guide.
+    [prescribed: Master Directive C — vicarious learning engine]"""
+    status = guide.get("status", "protocol")
+    rc = guide.get("replicability", "home")
+    cost = guide.get("cost", "?")
+    claim = guide.get("claim", "")
+    vars_rows = "".join(
+        f'<div class="rg-row"><span class="rg-var">{esc(v[0])}</span>'
+        f'<span class="rg-mod">{esc(v[1])}</span></div>'
+        for v in guide.get("variables", [])
+    )
+    why = guide.get("why_now", "")
+    refs = "".join(f'<li>{esc(r)}</li>' for r in guide.get("modern_refs", []))
+    status_cls = {"protocol": "rg-protocol", "underway": "rg-underway",
+                  "replicated": "rg-replicated", "refuted": "rg-refuted",
+                  "inconclusive": "rg-inconclusive"}.get(status, "rg-protocol")
+    return f"""<div class="openlab" data-bg-tier="aesthetic" data-bg-source="Open Lab replication guide (Directive C)">
+  <div class="ol-tabs"><span class="ol-tab on">Modern Replication Guide</span><span class="ol-tab">Why This Matters Now</span></div>
+  <div class="ol-panel">
+    <div class="ol-meta"><span class="rg-status {status_cls}">{esc(status)}</span>
+      <span class="ol-chip">replicability: {esc(rc)}</span><span class="ol-chip">cost: {esc(cost)}</span></div>
+    <p class="rg-claim"><strong>Core hypothesis (quoted):</strong> {esc(claim)}</p>
+    <p class="ol-subhead">Variable checklist — with modern affordable equivalents</p>
+    <div class="rg-vars">{vars_rows}</div>
+    <p class="ol-subhead">Safety &amp; calibration</p>
+    <p class="rg-safety">{esc(guide.get('safety', ''))}</p>
+  </div>
+  <div class="ol-panel" style="display:none">
+    <p class="rg-why">{esc(why)}</p>
+    <p class="ol-subhead">Modern bridges</p>
+    <ul class="rg-refs">{refs}</ul>
+  </div>
+  <div class="ol-log">
+    <span class="ol-log-label">⚗ Log an Attempt</span>
+    <p class="ol-log-note">Built it? Log photos, data, and notes. Submissions go to quarantine first, then human review — nothing publishes automatically.</p>
+    <a class="btn ghost" href="mailto:?subject=Open Lab attempt — {esc(guide.get('title',''))}">Submit an attempt →</a>
+  </div>
+</div>"""
 
 
 def jsonld_for_doc(doc, dc_map):
@@ -190,7 +271,7 @@ def render_lineage_html(certs):
     return "".join(parts)
 
 
-def render_page(doc, has_preview, dc_map):
+def render_page(doc, has_preview, dc_map, rg_guides):
     did = int(doc["id"])
     title = (doc.get("title") or doc.get("filename") or "Untitled").strip()
     preview = doc.get("content_preview") or ""
@@ -239,7 +320,23 @@ def render_page(doc, has_preview, dc_map):
     ld = jsonld_for_doc(doc, dc_map)
     # Lineage section [prescribed: Master Directive B]
     lineage_html = render_lineage_html(dc_map.get(did, []))
+    # Open Lab replication guide [prescribed: Master Directive C]
+    open_lab_html = render_open_lab(rg_guides[did]) if did in rg_guides else ""
 
+    # Open Lab tab-switch JS (kept out of the f-string to avoid brace escaping)
+    ol_js = """
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+"""
     page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -261,11 +358,13 @@ def render_page(doc, has_preview, dc_map):
   <h1>{esc(title)}</h1>
   <div class="meta">{('👤 ' + esc(person) + ' · ') if person else ''}{('📅 ' + esc(date)) if date else ''} · archived # {did:,}</div>
   {lineage_html}<div class="preview">{esc(preview)}</div>
+  {open_lab_html}
   <div class="actions">{src_line} {pat_line} <a class="btn ghost" href="/AFLinks/?q={esc(cat_query)}">Related documents →</a></div>
   {share_row}
   <div class="tags">{tags}</div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+{ol_js}
 </body>
 </html>
 """
@@ -279,8 +378,11 @@ def write_css():
 def main():
     docs = load_index()
     dc_map = load_death_certificates()
+    rg_guides = load_replication_guides()
     if dc_map:
         print(f"  loaded {sum(len(v) for v in dc_map.values())} lineage links from death certificates")
+    if rg_guides:
+        print(f"  loaded {len(rg_guides)} Open Lab replication guides")
     all_flag = "--all" in sys.argv
     DOCS_DIR.mkdir(exist_ok=True)
     write_css()
@@ -292,7 +394,7 @@ def main():
         if not all_flag and not pid:
             continue
         out = DOCS_DIR / f"{int(doc['id']):08d}.html"
-        out.write_text(render_page(doc, bool(pid), dc_map), encoding="utf-8")
+        out.write_text(render_page(doc, bool(pid), dc_map, rg_guides), encoding="utf-8")
         urls.append("https://focusingpulse.github.io" + doc_url(doc["id"]))
         n += 1
         if n % 5000 == 0:
