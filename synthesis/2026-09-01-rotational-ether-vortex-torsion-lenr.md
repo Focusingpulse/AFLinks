@@ -246,7 +246,7 @@ Maillot's vacuum tension and Del Giudice's water coherence domains both describe
 - `translations/2026-08-29-matiere-aether-d-benaros-en.md`
 - `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`
 - `translations/2026-08-28-akimov-shipov-torsion-field-research-ru.md`
-- `translations/2026-08-29-spyridis-platonic-theory-of-everything-el.md` (referenced)
+- `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` (referenced)
 
 ---
 

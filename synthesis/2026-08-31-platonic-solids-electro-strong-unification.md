@@ -47,7 +47,7 @@ Key claims:
 
 **Geometric aspect:** The entire framework is geometric. Physical forces are identified with geometric solids. Their interactions are constrained by the decomposition of those solids into triangles. Unification is a geometric operation (cube → rhombohedron → 2 tetrahedra + 1 octahedron).
 
-**Source:** `translations/2026-08-29-spyridis-platonic-theory-of-everything-el.md`
+**Source:** `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 
 ---
 
@@ -261,7 +261,7 @@ Both reduce physics to a small set of geometric primitives. Both claim that the 
 
 ## Sources Connected
 
-- `translations/2026-08-29-spyridis-platonic-theory-of-everything-el.md`
+- `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 - `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`
 - `translations/2026-08-29-psicogeometria-en.md`
 - `translations/2026-08-30-compendium-vortex-physics-de.md`

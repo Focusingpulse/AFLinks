@@ -46,7 +46,7 @@ Key claims:
 
 **Geometric aspect:** The distinction between isosceles (cube) and scalene (tetrahedron/octahedron/icosahedron) triangle decompositions encodes the distinction between gravitational and electro-strong interactions. Geometry is not incidental — it is the encoding.
 
-**Source:** `translations/2026-08-29-spyridis-platonic-theory-of-everything-el.md`
+**Source:** `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 
 ---
 
@@ -245,7 +245,7 @@ Ponce de León's psychogeometry and Toba60's cymatics both describe geometry as 
 
 ## Sources Connected
 
-- `translations/2026-08-29-spyridis-platonic-theory-of-everything-el.md`
+- `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 - `translations/2026-08-29-matiere-aether-d-benaros-en.md`
 - `translations/2026-08-31-tuo-wave-universe-theory-fr.md`
 - `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`

@@ -402,7 +402,7 @@ This is the pilot wave continuum — a class of fields that bridge physics and c
 4. `translations/2026-09-07-theorie-phi-scalar-field-fr.md` — Toulgoat, scalar field for galactic dynamics
 5. `translations/2026-09-07-radiesthesie-histoire-vibratis-fr-en.md` — Vibratis, radiesthesia history
 6. `translations/2026-09-07-ondes-de-forme-historique-gaiamamart-fr-en.md` — GaiaMamart, form wave history
-7. `translations/2026-09-07-spyridis-theory-of-everything-el.md` — Spyridis, Platonic unification
+7. `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` — Spyridis, Platonic unification
 
 ---
 

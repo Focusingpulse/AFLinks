@@ -104,7 +104,7 @@ Charalambos Spyridis (University of Athens) provides a unique formulation: Plato
 
 **Information aspect:** If Platonic geometry encodes force structure, then geometry carries information about how the vacuum organizes into matter. The form of the solid encodes the rules of the force. This is form-as-information at the most fundamental level.
 
-**Source:** `translations/2026-09-04-spyridis-theory-of-everything-el-en.md`
+**Source:** `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 
 ---
 
@@ -248,7 +248,7 @@ Together, they form a coherent picture: information is a field, geometry encodes
 - `translations/2026-09-07-pendule-divinatoire-vibratis-fr-en.md` — French radiesthesia tradition
 - `translations/2026-09-07-radionique-vibratis-fr-en.md` — French radionics tradition
 - `translations/2026-09-04-shipov-torsion-fields-ru-en.md` — Russian torsion theory
-- `translations/2026-09-04-spyridis-theory-of-everything-el-en.md` — Greek Platonic unification
+- `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` — Greek Platonic unification
 - `translations/2026-09-05-compendium-vortex-physics-de-en.md` — German/Swiss vortex physics
 - `translations/2026-09-03-field-quantum-potential-consciousness-it.md` — Italian quantum biophysics
 - `translations/2026-09-03-del-giudice-pollack-fourth-phase-water-it.md` — Italian water research
