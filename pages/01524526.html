@@ -33,6 +33,7 @@
   <h1>General Tesla Coil Construction Plans</h1>
   <div class="meta">👤 Nikola Tesla ·  · archived # 1,524,526</div>
   <div class="preview">[ General plans | Current limiting | Power factor correction (PFC) | Grounding | HV capacitor | Filters | Skin effect | Resonance | Strike rail | Tuning ] General Tesla coil plans Here are the bare bones plans for making a Tesla coil. Note that many absolutely essential safety factor parts are not shown, for simplicity of the schematic. Some notes on design and other things: and always bear in mind that the information here is not necessarily correct, and I only assume it to be correct to my best belief. 1) Current limiting is only necessary for other transformers than neon sign transformers or transformers that do not have internal current limiting. A PFC capacitor on the mains side can act as &quot;current limiting&quot; to some extent. Otherwise, use resistive or additional inductive ballast (a MOT in series with shorted secondary winding). 2) Power factor correction - PFC Power factor correction (PFC) shifts the VA rating of the transformer closer to actual input and/or output watts, and reduces input current needed. Reduced current is a benefit as all your switches, relais&#x27;, fuse boxes and so on can be smaller - without PFC they would have to stand twice or more the current. Additionally, I^2*R losses in the wire resistances would be at least four times as high. So, you might want to minimize current draw... For example a 400VA cos(phi)=0.55 transformer takes in about 0.55*400VA ~= 200W with and without a PFC, but without a PFC it will draw about 2A from a 200VAC line. With an exactly matching PFC the input current is just ~ 1A. The capacitors are non polar capacitors, and it seems like they are mostly oil filled wax-paper capacitors used with mains voltage motors. Method: First calculate transformer input impedance according to the values written on the transformer. For example 2.2A @ 220V gives Z = 220V/2.2A = 100 Ohm. Then calculate the PFC with C = 1/(wZ). At 50Hz, this would be 1/(2*pi* 50 Hz * 100 Ohm) = 1/(pi*10) * 10^-3 F ~= 31 uF. You could also ask neon sign ma</div>
+  
   <div class="actions"><a class="btn" href="https://avalonlibrary.net/ebooks/Nikola_Tesla_Books/General%20Tesla%20Coil%20Construction%20Plans.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -42,5 +43,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Environment &amp; Climate">Environment &amp; Climate</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -30,6 +30,7 @@
   <h1>2504.0048v1</h1>
   <div class="meta"> · archived # 815,919</div>
   <div class="preview">Enhancing Depression Detection using BERT Models Pre-trained on Reddit Corpora Yuan Gao fmw4328@autuni.ac.nz Abstract Depression is a pervasive and severe mental health disorder affecting millions worldwide, with its often covert nature making early detection challenging (World Health Organization, 2021). The proliferation of social media platforms, particularly Reddit, has created unprecedented opportunities for individuals to express their mental health concerns and seek support online (De Choudhury &amp; De, 2014). This digital footprint provides a unique avenue for leveraging natural language processing techniques to automatically identify users potentially suffering from depression, facilitating early intervention. This study builds upon the model architecture proposed by Chen et al. (2023), which utilizes BERT (Bidirectional Encoder Representations from Transformers)(Devlin et al., 2019) for feature extraction from individual user posts, followed by a Convolutional Neural Network(Krizhevsky, Sutskever, &amp; Hinton, 2017) for user-level classification. While this approach has shown promise, we hypothesize that the pre-trained BERT model, typically trained on formal corpora such as books and Wikipedia(Devlin et al., 2019), may not optimally capture the nuanced language patterns prevalent in social media discourse. To address this potential limitation, we propose a novel approach of pre-training the BERT model on a large corpus of Reddit data before integrating it into the BERT+CNN architecture. This study aims to evaluate whether this Reddit-specific pre-training can enhance the model&#x27;s performance in detecting depression through social media content analysis. We conducted extensive experiments comparing the performance of the original BERT+CNN model against our Reddit-pre-trained variant. Performance metrics including accuracy, recall, F1 score, and validation loss were meticulously analyzed. Our findings indicate a significant improvement in performance, with the Red</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2504.0048v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -39,5 +40,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Biology, Health &amp; Medicine">Biology, Health &amp; Medicine</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

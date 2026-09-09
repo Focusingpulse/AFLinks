@@ -23,6 +23,7 @@
   <h1>2607.0034v1</h1>
   <div class="meta"> · archived # 477,580</div>
   <div class="preview">τφ-numbers Walter A. Kehowski, PhD, Retd Department of Mathematics Glendale Community College Glendale, AZ 85302 wkehowski @ gmail.com July 11, 2026 Abstract Let τ(n) be the number of divisors of n and let φ(n) denote the number of relatively prime numbers less than n. A number is called refactorable if and only if τ(n) divides n. It is known that φ(n) divides n if and only if n is 3-smooth. Furthermore, n/φ(n) = 2 when n is a power of two and n/φ(n) = 3 otherwise. Define λ(n) = lcm(τ(n), φ(n)). Then n/λ(n) ∈ {1, 2, 3} and n is called a τφ-number. It is the purpose of this note to show when λ(n) = n, called the unital τφ-numbers. 1 The functions τ, φ, and λ Definition 1.1 (τ function [1], [6]). Define τ(n) to be the number of divisors of the positive integer n. We set τ(1) = 1. See Sequence 4.1. Theorem 1.2 ([6]). The function τ has the following properties: 1. If p is prime, then τ(pk ) = k + 1. 2. The function τ is multiplicative, that is, if n = p k1 1 · · · p kr r is the prime factorization of n, then τ(n) = τ(pk1 1 ) · · · τ(pkr r ). Definition 1.3 (φ function [5]). Define φ(n) to be the number of integers less than n and rela￾tively prime to n. We set φ(1) = 1. See Sequence 4.2. Theorem 1.4 ([5]). The function φ has the following properties: 1. If p is prime, then φ(pk ) = p k+1 − 1 p − 1 . 2 Kehowski 2. The function φ is multiplicative, that is, if n = p k1 1 · · · p kr r is the prime factorization of n, then φ(n) = φ(pk1 1 ) · · · φ(pkr r ). Definition 1.5 (λ function, [2]). Let n be a positive integer and define λ(n) = lcm(τ(n), φ(n)). See Sequence 4.6. It may be obvious that λ is not multiplicative, but here’s an example: if m = 2 and n = 5, then λ(10) = 4 but λ(2)λ(5) = 8. Definition 1.6 (ρ function). Let n be a positive integer and define ρ(n) = n/λ(n). In general, ρ(n) is rational and ρ(n) ≥ 1. Observe that ρ(12) = 1. If one considers when ρ(n) jumps to a new maximum, then one finds the following: Conjecture 1.7 (Primorial conjecture, [3]). Let p be a p</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2607.0034v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

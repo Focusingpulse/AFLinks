@@ -25,6 +25,7 @@
   <h1>2109.0071v1</h1>
   <div class="meta"> · archived # 568,427</div>
   <div class="preview">REVISED COLLATZ GRAPH EXPLAINS PREDICTABILITY Steven M. Tylock Rochester, NY stylock@tylockandcompany.com September 9, 2021 ABSTRACT The Collatz Conjecture remains an intriguing problem. Expanding on an altered formula first presented in “Bits of Complexity”, this paper explores the concept that “3N + Least-Significant-Bit” of a number allows the complete separation of the step of “dividing by two on an even number” within the Collatz Conjecture. This alternate formula replaces the original Collatz on a one-for-one basis. The breadth and depth of graphs of the resulting path of numbers resolving with this new formula illustrate its fractal nature. Lastly, we explore the predictability of this data, and how the ultimate goal of reaching one prevented previous work from finding the key to understanding 3N+1. Keywords Collatz Conjecture · Graph Theory · 3N+LSB 1 Introduction The Collatz Conjecture has been described by Lagarias [2010] as an “extraordinarily difficult problem”. Part of that difficulty depends on the integer’s value, optionally dividing by two or multiplying by three and adding one. This paper expands on the author’s method to separate these two actions such that division by two is not performed until the resulting integer is equal to two to a power, or a perfect power of two (2z ). A graph of this new formula fully documents all predecessors; provides bounds for the breadth and width of this graph; illustrates the fractal nature of successive graphs; demonstrates the predictability of predecessors; and can be seen as a simplification of a graph of the same values under the original Collatz. 2 3N + Least Significant Bit As shown in “Bits of Complexity” [Tylock, 2018], the original Collatz Conjecture method of dividing even numbers by 2 and multiplying odd numbers by 3 and adding 1 can be replaced with “3N + Least Significant Bit” without changing the outcome. The ending state becomes “Is the number 2z ?” Let us review. First, consider an odd number. The </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2109.0071v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

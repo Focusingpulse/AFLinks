@@ -30,6 +30,7 @@
   <h1>Quantized Harmonic Resonance in Twin Primes: A Computational Test of the Kulik Recursive Rulebook (KRRB)</h1>
   <div class="meta">👤 Dean Kulik ·  · archived # 1,230,037</div>
   <div class="preview">In[1]:= Module[{byte1Seed = {1, 4}, byte1Seq, twinPrimes, isPrime, bbpDelta, limit = 5000, n = 3, hTarget = 0.35, collapsePoints = {}, hScores = {}, hFunctionBase2}, (*Byte1 sequence:extended recursion using binary-length deltas*) byte1Seq = NestList[Function[{pair}, Module[{diff = Abs[pair〚-1〛 - pair〚-2〛], len}, len = IntegerLength[diff, 2]; Append[pair, len]]], byte1Seed, 300]〚-1〛; (*Simple primality check*)isPrime[n_] := PrimeQ[n]; (*BBP-modulated twin prime step function*) bbpDelta[n_] := Floor[Total[Table[16^(1 - k) / (8 k + Mod[n, 7] + 1), {k, 1, 4}]]] + 1; (*Generate twin primes with BBP skips*) twinPrimes = Reap[While[n &lt; limit, If[isPrime[n] &amp;&amp; isPrime[n + 2], Sow[{n, n + 2}]]; n += bbpDelta[n];]]〚2, 1〛; (*Define harmonic match score in base-2*) hFunctionBase2[tp_] := Module[{digits, overlap, match}, digits = IntegerDigits[tp〚1〛, 2]; overlap = Take[byte1Seq, Length[digits]]; match = Count[MapThread[Equal, {digits, overlap}], True]; N[match / Length[digits]]]; (*Score and detect collapse zones*) Do[Module[{h = hFunctionBase2[pair]}, AppendTo[hScores, {Mean[pair], h}]; If[Abs[h - hTarget] &lt; 0.15, AppendTo[collapsePoints, {Mean[pair], 1}]];], {pair, twinPrimes}]; (*Overlay all scores and collapse points*)Show[ListPlot[hScores, PlotStyle  Blue, AxesLabel  {&quot;Twin Prime Midpoint&quot;, &quot;H(t) Match Score&quot;}, PlotLegends  {&quot;H(t) Score&quot;}], ListPlot[collapsePoints, PlotStyle  {Red, PointSize[Medium]}, PlotLegends  {&quot;Collapse Zone&quot;}]]] Out[1]= 1000 2000 3000 4000 5000 Twin Prime Midpoint 0.1 0.2 0.3 0.4 0.5 H(t) Match Score H(t) Score Collapse Zone</div>
+  
   <div class="actions"><a class="btn" href="https://doi.org/10.5281/zenodo.16756076" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -39,5 +40,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

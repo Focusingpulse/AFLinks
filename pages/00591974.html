@@ -23,6 +23,7 @@
   <h1>2503.0180v1</h1>
   <div class="meta"> · archived # 591,974</div>
   <div class="preview">Proof That π And √2 Are Rational by Armando M. Evangelista Jr. arman781973@gmail.com March 27, 2025 ABSTRACT: In this short paper, I’ve used Wallis’ product formula to prove that π is rational, while the product expansion of the cosine function was used to prove that √2 is rational. I. Proof That π Is Rational Assume π 2 = r n , where r and n are very large positive integers. r n = π 2 Wallis’ Product Formula ∏ k=1 ∞ 2k 2k+1 2k 2k−1 = lim m→∞∏ k=1 m 4 k 2 4 k 2−1 = π 2 Hence, r = lim m→∞∏ k=1 m 4 k 2 = integer, and n = lim m→∞∏ k=1 m (4 k 2−1) = integer Therefore, π is a rational number. II. Proof That √2 Is Rational Assume √2 = a b , where a and b are very large positive coprime integers. Cosine Function Product Formula cos(π x) = ∏ k=0 ∞ ( 1− 4 x 2 (2k+1) 2 ) cos( π 4 ) = 1 √2 = ∏ k=0 ∞ ( 1− 1 4(2k+1) 2 ) 1 √2 = ∏ k=0 ∞ ( (4 k+1)(4 k+3) (4 k+2) 2 ) By taking the reciprocal of both sides √2 = ∏ k=0 ∞ ( (4 k+2) 2 (4 k+1)(4 k+3)) √2 = lim m→∞∏ k=0 m ( (4 k+2) 2 (4 k+1)(4 k+3)) Hence, a = lim m→∞∏ k=0 m (4 k+2) 2 = even integer, and b = lim m→∞∏ k=0 m (4 k+1)(4 k+3) = odd integer By squaring √2 2 = lim m→∞∏ k=0 m ( (4 k+2) 4 (4 k+1) 2 (4 k+3) 2 ) = a 2 b 2 a 2 = lim m→∞∏ k=0 m (4 k+2) 4 = even integer, and b 2 = lim m→∞∏ k=0 m (4 k+1) 2 (4 k+3) 2 = odd integer Therefore, there is no contradiction that a and b are coprime integers, and √2 is a rational number. REFERENCES: [1] https://en.wikipedia.org/wiki/Wallis_product [2] https://en.wikipedia.org/wiki/Square_root_of_2</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2503.0180v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Reference+Material">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

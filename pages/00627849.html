@@ -21,6 +21,7 @@
   <h1>2303.0150v2</h1>
   <div class="meta"> · archived # 627,849</div>
   <div class="preview">Золото-комплексное сечение. С.Я. Котковский Для широко известной пары чисел золотого сечения и обратной к нему величины √5±1 2 обнаружен их комплекснозначный аналог – пара чисел √5±i 2 . На основе изучения комплекснозначных бисимметричных матриц второго порядка показана неразрывная связь вещественного и комплексного золотых сечений. Биматрицы. Расщеплённое представление. Бисимметричная матрица это матрица симметричная относительно своих обеих главных диагоналей. Пусть M комплекснозначная бисимметричная матрица второго порядка. Назовём такую матрицу биматрицей: M =( a b b a) , a , b∈ℂ (1) Поскольку каждая биматрица определяется двумя комплексными параметрами, введём для них следующее обозначение, использующее квадратные скобки: M =[a , b], a , b∈ℂ (2) Сложение и умножение биматриц определяются следующими правилами: [a1 ,b1 ]+[a2 , b2 ]=[a1+a2 ,b1+b2 ] [a1 ,b1 ] ˙ [a2 ,b2 ]=[a1 a2+b1 b2 , a1 b2+a2 b1 ] (3) Очевидно, что сумма и произведение двух биматриц есть снова биматрица. Введём для биматриц преобразование отражения относительно вертикальной либо горизонтальной оси и будем называть две биматрицы M 1 и M 2 , связанные этим преобразованием, зеркальными: M 1∼M 2 ⇔ M 1=̃M 2 ⇔ M 2=M̃ 1 [a ,b]∼[b, a ] (4) Расщепленное представление биматрицы M (1) имеет вид : 1 M =( x+y x−y x−y x+y) { x= a+b 2 y= a−b 2 x ,y∈ℂ (5) Представим (5) в терминах квадратных скобок (2): M = [x+y , x−y] = x[1,1]+y [1,−1] = 2x I +2y J , x, y∈ℂ (6) (6) задаёт разложение биматрицы по базису двух взаимно ортогональных биматриц I и J: { I = 1 2 [1,1] = 1 2 ( 1 1 1 1) J = 1 2 [1,−1]= 1 2 ( 1 −1 −1 1) (7) Базисные биматрицы I и J обладают следующими свойствами «ортонормированности»: { I 2=I J 2=J I J=J I =0 (8) Из (6) и (8) следует замечательное свойство биматриц: при произведении двух биматриц расщепленный вид сохраняется: M 1=[x1+y1 , x1−y1 ], M 2=[x2+y2 , x2−y2 ] M 1M 2=4x1 x2 I +4y1 y2 J =2[х1 x2+y1 y2 , x1 x2−y1 y2 ] (9) Отсюда в частности следует, что при возведении в любую степень, включая дробны</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2303.0150v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

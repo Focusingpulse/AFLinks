@@ -25,6 +25,7 @@
   <h1>2508.0170v3</h1>
   <div class="meta"> · archived # 549,575</div>
   <div class="preview">An Operational Formula for (xV ) n Abdelhay Benmoussa Secteur Scolaire Ansis Tiqi, Agadir Ida Outanane 80324 Morocco abdelhay.benmoussa@taalim.ma Abstract We show that the operator (xV ) n can be expressed as a sum of powers of the Volterra operator V , with coefficients given by the Bessel coefficients A001498. 1 Introduction Motivation The Euler operator xD, where D = d dx , plays a central role in special functions, combina￾torics, and operational calculus. Its powers admit the well-known Stirling expansion [3] (xD) n = Xn k=0 S(n, k) x kD k , (1) where the coefficients are the Stirling numbers of the second kind S(n, k). In this paper, we pose a natural but, to the best of our knowledge, unexplored question: what happens to this expansion when the differentiation operator D is replaced by the Volterra operator V (f)(x) = Z x 0 f(t) dt ? Does an analogous decomposition exist, and if so, what are the corresponding coefficients? To address this problem, we define the operator (xV ) n recursively by (xV ) 0 (f)(x) := f(x), (xV ) n (f)(x) := x V (tV ) n−1 f  (x), n ≥ 1. Bessel coefficients The Bessel coefficient a(n, k) (see [1]; A001498) is defined as the coefficient of x k in the Bessel polynomial yn(x) = Xn k=0 (n + k)! k!(n − k)! x 2 k . 1 Explicitly, a(n, k) = (n + k)! 2 kk!(n − k)!, 0 ≤ k ≤ n. This coefficient satisfies the recurrence relation [2] a(n, k) = a(n − 1, k) + (n − k + 1)a(n, k − 1), a(0, 0) = 1. (2) n\k 0 1 2 3 4 5 0 1 1 1 1 2 1 3 3 3 1 6 15 15 4 1 10 45 105 105 5 1 15 105 420 945 945 Table 1: Bessel coefficients a(n, k) for 0 ≤ k ≤ n ≤ 5. A simple symmetry also holds [2]: a(n, n − 1) = a(n, n), n ≥ 1. (3) Main result Our main result provides an integral analogue of Formula (1): (xV ) n = Xn−1 k=0 (−1)k a(n − 1, k) x n−k V n+k . (4) Here V m denotes the m-fold composition V 0 (f)(x) := f(x), V m+1(f)(x) := V (V mf)(x). Unlike the differential case, the operator V m admits the classical Cauchy formula for repeated integration: V m(f)(x) = Z x 0 (x</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2508.0170v3.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

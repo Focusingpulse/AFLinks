@@ -21,6 +21,7 @@
   <h1>2407.0146v1</h1>
   <div class="meta"> · archived # 821,800</div>
   <div class="preview">Feature Extraction by Linear Embedding for one-class classification Jong-Phil Sim, Song-Chun Pang *, Son-Myong Hwang Faculty of Information Science, Kim Il Sung University, Pyongyang, DPRK *Song-Chun Pang, E-mail: bsc197842@star-co.net.kp Abstract: In this paper, we mainly propose feature extraction algorithm by linear embedding from the outside new data. The formulation of this algorithm aims at minimizing pairwise distances of feature points. To enhance the performance of nonlinear feature learning, we also incorporate the neighborhood reconstruction error to preserve local topology structures. To enhance our algorithm to extract local features from the outside new data, we also add a feature approximation error that correlates features with embedded features by the jointly learnt feature extractor. Thus, the learnt linear extractor can extract the local features from the new data efficiently by direct embedding. To optimize the proposed objective function, we use Eigen-decomposition. Extensive simulation results verify the effectiveness of our algorithm, compared with other related feature learning techniques. Keywords: Feature extraction, linear embedding, one-class classification 1. Introduction One-class classification(OCC) describes training data from a single class (called “target class”) as a normalcy model and aims to detect data from any other class (called “outlier class”) as outliers. In the fields of OCC, feature extraction of one-class is always a fundamental problem, since it directly affects the performance of the subsequent pattern recognition and data mining models. Note that real-world data lies in high dimensional input space, which may result in decreased efficiency and suffer from the “curse of dimensionality” [1, 2]. Thus, extracting informative features with lower dimensions from high-dimensional data has been attracting considerable attention during the last decades [3-5]. Generally, feature extraction includes two main tasks, i.e. reducing</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2407.0146v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

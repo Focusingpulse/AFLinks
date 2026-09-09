@@ -28,6 +28,7 @@
   <h1>2103.0184v1</h1>
   <div class="meta"> · archived # 893,905</div>
   <div class="preview">Representation Learning by Ranking under multiple tasks Lifeng Gu 1 Abstract In recent years, representation learning has be￾come the research focus of the machine learn￾ing community. Large-scale pre-training neural networks have become the first step to realize general intelligence. The key to the success of neural networks lies in their abstract representa￾tion capabilities for data. Several learning fields are actually discussing how to learn representa￾tions and there lacks a unified perspective. We convert the representation learning problem un￾der multiple tasks into a ranking problem, tak￾ing the ranking problem as a unified perspective, the representation learning under different tasks is solved by optimizing the approximate NDCG loss. Experiments under different learning tasks like classification, retrieval, multi-label learning, regression, self-supervised learning prove the su￾periority of approximate NDCG loss. Further, un￾der the self-supervised learning task, the training data is transformed by data augmentation method to improve the performance of the approximate NDCG loss, which proves that the approximate NDCG loss can make full use of the information of the unsupervised training data. 1. Introduction Recently, there are several fields that model the learning representation problem as a ranking problem (Varamesh et al., 2020; Cakir et al., 2019), Representation learning problem can naturally be converted into ranking problem. Given the model to be learned, f : R n → R m, it can map input samples to m dimension feature space, sample set{xi , i = 1, 2, 3 · · · n} and label set{yi , i = 1, 2, 3 · · · n}. For any sample in the sample setxi , we can regard it as a query sample, at the same time, all other samples are re￾garded as corresponding samples being queried. We can get xi’s m dimension feature f(xi) transformed by model f,and feature set obtained by the same transformation of other sam￾ples {f(xj ), j = 1, 2, 3 · · · n, j 6= i}, then we use the </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2103.0184v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -37,5 +38,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

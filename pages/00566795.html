@@ -24,6 +24,7 @@
   <h1>2411.0065v1</h1>
   <div class="meta"> · archived # 566,795</div>
   <div class="preview">S YM M E T R Y I N F O R M A L C A L C U L AT I O N peng ji1 contents 1 Introduction 2 2 Properties of H(g) 3 3 Symmetric expressions in H(g) 4 4 Properties of Extended Numbers 5 5 The formulas for symmetric functions 6 6 PT=PS and its promotion 8 7 Transformation of SUM(N) 9 abstract Formal Calculation uses an auxiliary form to calculate various nested sums and provides results in three forms. It is also a powerful tool for analysis. This article studies the symmetry of the coefficients in Formal Calculation. Three types of extended numbers were introduced, and many formulas for symmetric functions were obtained. * Department of Electronic Information, Nanjing University, Nanjing, China. mcfroo@sina.com 1 introduction 2 1 introduction The notion of formal computation was introduced in [1]. Definition 1. The definition of ∇p is recursive. p ∈ Z, ∇0 f(n) = f(n), N P−1 n=0 ∇1 f(n + 1) = f(N), N P−1 n=0 f(n + 1) =∇−1 f(N), ∇1 = ∇. Definition 2. The definition of SUM(N) = SUM(N, PS, PT) is recursive. Ki , Di ∈ C; Ti ∈ N. SUM(N, [K1 : D1], [T1 = 1]) = N P−1 n=0 (K1 + nD1). SUM(N, [K1 : D1,K2 : D2], [T1, T2 = T1 + 2 − p]) = N P−1 n=0 (K2 + nD2)∇pSUM(n + 1, [K1 : D1], [T1]). [K1 : D,K2 : D...KM : D] = [K1,K2...KM] : D, [K1,K2...KM] : 1 = [K1,K2...KM] Use K to represent the set {K1...KM}, T to represent the set {T1...TM}. Use the auxiliary form: (K1 + T1)(K2 + T2)...(KM + TM) = PQM i=1 Xi , Xi = Ti or Ki . Definition 3. X(T)=Number of {X1, X2...XM} ∈ T. Definition 4. XT−1=Number of {X1, X2...Xi−1 } ∈ T, XK−1=Number of {X1, X2...Xi−1 } ∈ K. Obviously:XT−1 + XK−1 = i − 1. Use the auxiliary form and each Xi cannot be exchanged, [1] draws conclusions: SUM(N, PS, PT) = Form1 → PM g=0 H1(g)  N+TM−M N−1−g  = PM g=0 H1(g)  N+TM−M TM−M+1+g  , Bi = (Ti−XK−1)Di , Xi=Ti Ki+XT−1Di , Xi=Ki , Form2 → PM g=0 H2(g)  N+TM−M+g N−1  = PM g=0 H2(g)  N+TM−M+g TM−M+1+g  , Bi = (Ti−XK−1)Di , Xi=Ti Ki+(XK−1−Ti)Di , Xi=Ki , Form3 → PM g=0 H3(g)  N+TM−g N−1−g  = PM g=0 H3(g)  N+TM−g TM+1 </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2411.0065v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -33,5 +34,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

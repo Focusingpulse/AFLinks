@@ -28,6 +28,7 @@
   <h1>2207.0146v1</h1>
   <div class="meta"> · archived # 853,522</div>
   <div class="preview">Generalized Attention Mechanism and Relative Position for Transformer R. V. R. Pandya rajavikram.pandya@outlook.com July 22, 2022 Abstract In this paper, we propose generalized attention mechanism (GAM) by first suggesting a new interpretation for self-attention mechanism of Vaswani et al. [5]. Following the interpretation, we provide description for differ￾ent variants of attention mechanism which together form GAM. Further, we propose a new relative position representation within the framework of GAM. This representation can be easily utilized for cases in which elements next to each other in input sequence can be at random locations in actual dataset/corpus. 1 Introduction Vaswani et al. [5] proposed self-attention mechanism based neural network for se￾quence transduction, namely Transformer, as computationally efficient alternative to recurrent and convolutional neural networks. Self-attention mechanism has been interpreted in terms of query, key and value of different elements of the sequence. Their work includes absolute position representation of these elements through sine and cosine functions. Later Shaw et al. [4] improved it by including relative position representation for different elements of sequence. Since then, within the framework of self-attention mechanism, different models have been suggested for relative position representation (see [1, 2] and references cited therein). In this paper, we first describe self-attention mechanism as suggested by Vaswani et al. [5] using tensor notations. We use Einstein summation convention (i.e. sum￾mation over repeated indices) while writing various equations in tensor notations. An alternate interpretation for attention mechanism is suggested which does not require query and key terminology. Then we provide details of our generalized attention mechanism and inclusion of relative position. 2 Self-Attention Mechanism of Vaswani et al. [5, 4] Consider input sequence Y of n elements y α where superscript α = 1, 2, </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2207.0146v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -37,5 +38,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

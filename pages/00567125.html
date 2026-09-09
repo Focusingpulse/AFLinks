@@ -21,6 +21,7 @@
   <h1>2307.0058v1</h1>
   <div class="meta"> · archived # 567,125</div>
   <div class="preview">Часть 1. Большой подграф Г(1) Пытаясь дать конструктивное доказательство гипотезы Зейделя-Конвея о 99 вершинном графе, мы можем устанавливать существование в любом соответствующем графе некоторого остовного подграфа с достаточно большим числом рёбер. Это позволяет упростить поиск требуемого графа. Все рассматриваемые далее графы содержат отличное от нуля конечное число вершин. Определение 1. Будем называть графом Конвея граф, в котором любые смежные вершины имеют в точности одного общего соседа, а несмежные – в точности двух общих соседей. Далее будем называть связным граф, содержащий две не соединённые путём вершины. Множество соседей вершины графа будем обозначать как . Теорема 1. Граф Конвея связен и регулярен. Доказательство. Связность следует из того, что любые несмежные вершины в графе Конвея имеют общего соседа. Докажем регулярность, которая очевидно выполнена для любого графа, содержащего менее трёх вершин. Таким образом, Рассмотрим граф Конвея  = , , такой что || ≥ 3. Предположим, что вершины ,  ∈  смежны, и докажем выполнение условия deg  = deg . В соответствии с Определением 1 найдётся в точности одна вершина  ∈ \, , смежная одновременно с  и . Пусть  = deg  и  =  , … ,  , причём  = ,  = . Рассмотрим следующую последовательность элементов , … , , принадлежащих . Положим = , = . При  &gt; 2 для каждого 3 ≤ $ ≤  заметим, что % ,  ∉ (так как в противном случае смежные вершины  и  будут иметь двух общих соседей  и % ). Для каждого 3 ≤ $ ≤  в качестве % выберем, таким образом, единственную отличную от  вершину, смежную одновременно с % и . Предположим, что среди вершин , … , имеются одинаковые, скажем, % = &#x27; , 1 ≤ $ &lt; * ≤ . Видим, что * ≥ 3 (иначе  = ). По построению &#x27; ≠ , откуда $ ≥ 2. Если $ = 2, то &#x27; = % = , что даёт противоречие, поскольку смежные вершины  и  в этом случае будут иметь двух общих соседей,  и &#x27; . Отсюда имеем 3 ≤ $ &lt; * ≤ . Это приводит к тому, что различные вершины  и % = &#x27; имеют трёх общи</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2307.0058v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

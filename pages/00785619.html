@@ -28,6 +28,7 @@
   <h1>2510.0148v1</h1>
   <div class="meta"> · archived # 785,619</div>
   <div class="preview">Multi-Sensor Fusion for Predictive Maintenance of Industrial Robot Motors Using Machine Learning Abstract— This paper presents a comprehensive predictive maintenance system for industrial robot motors utilizing multi-sensor fusion and machine learning techniques. The proposed system analyzes 84,942 real-time sensor measurements from six motors across eight test sessions, integrating temperature, voltage, and position data to detect operational anomalies. We implement and compare three machine learning approaches: Random Forest (RF), XGBoost, and Long Short-Term Memory (LSTM) networks. Using proper session-based data splitting to prevent leakage, RF achieves an AUC score of 0.871 with corresponding precision-recall AUC of 0.824 and F1-score of 0.813. The system processes a dataset with 26.12% anomaly prevalence (IQR-rule labels), with position sensors providing the strongest predictive signal. Our feature engineering pipeline incorporates rolling statistics and temporal patterns, improving prediction accuracy by 15% over baseline models. The developed web API enables real-time deployment with 42ms single-prediction latency, making it suitable for industrial IoT applications. Experimental results could reduce unplanned downtime by 30–45% under typical PdM adoption scenarios (assumptions detailed in §V-D). This work contributes to the field by providing a scalable, production-ready framework for multi-sensor anomaly detection in robotic systems. Index Terms— Predictive maintenance, machine learning, multi-sensor fusion, anomaly detection, industrial IoT, robot motors, Random Forest, XGBoost, LSTM I. INTRODUCTION THE proliferation of industrial robots in modern manufacturing has created an urgent need for intelligent maintenance strategies that minimize downtime while maximizing operational efficiency [1]. Traditional time-based maintenance approaches often result in unnecessary interventions or catastrophic failures, leading to significant economic losses estimated at </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2510.0148v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -37,5 +38,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -23,6 +23,7 @@
   <h1>2511.0050v1</h1>
   <div class="meta"> · archived # 510,199</div>
   <div class="preview">The Power Theorem: Sum of Consecutive Powers as Perfect Squares Manikandan Karunanidhi Independent Researcher, Chennai, India ORCID: 0009-0003-7096-6900 manikandankw92@gmail.com July 28, 2025 Abstract This paper introduces a novel family of natural numbers for which the sum of two successive powers, starting from an even exponent, yields a perfect square. The condition x + 1 = k 2 leads to a general identity: x n + x n+1 =  k · x n/2 2 . We present a proof of this identity, derive a recurrence relation, and support the result through computational verification using tabular data. Keywords: number theory; perfect squares; consecutive powers; recurrence relation; mathematical identities 1 Introduction Number theory is rich with intricate patterns, surprising identities, and struc￾tural properties that often arise from deceptively simple expressions. Be￾neath these elementary operations lie deep interconnections that transcend basic arithmetic. The pursuit of these hidden relationships has led to many profound discoveries in mathematics. A recurring theme is the appearance of perfect squares in unexpected contexts. This paper explores a new family of numbers where the sum of two successive powers—beginning with an even exponent—yields a perfect square. This identity reflects a beautiful connection between exponential growth and quadratic forms. 1 2 Theorem Let x ∈ N, and suppose x + 1 = k 2 for some integer k ∈ N. Then, for all even n ∈ N, x n + x n+1 =  k · x n/2 2 . In this context, the symbols are defined as follows: • x: Base of exponentiation, a natural number such that x + 1 = k 2 . • k: A positive integer such that k = √ x + 1; equivalently, x = k 2 − 1. • n: An even exponent, where n ∈ N and n ≡ 0 (mod 2). • y: A natural number such that y 2 = x n + x n+1; equivalently, y = k · x n/2 . 3 Proof x n + x n+1 = x n (1 + x) = x n (k 2 ) =  k · x n/2 2 = y 2 . This expression forms a perfect square when n is even, as x n/2 ∈ N in this case. 4 Computational Veri</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2511.0050v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

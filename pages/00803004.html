@@ -29,6 +29,7 @@
   <h1>2605.0117v1</h1>
   <div class="meta"> · archived # 803,004</div>
   <div class="preview">Preprint. Under review. On the Impossibility of Unbiased and Length-Invariant Policy Optimization with Outcome Rewards Fei Ding∗ Alibaba Group Yongkang Zhang Alibaba Group Yuhao Liao Tsinghua University Zijian Zeng Tsinghua University Huiming Yang Tsinghua University Abstract Group Relative Policy Optimization (GRPO) is the dominant reinforcement learning algorithm for training reasoning capabilities in large language models, notably adopted by DeepSeek-R1. The recent improvement Dr. GRPO (COLM 2025) identifies the response-level length bias caused by per-trajectory length normalization in GRPO and proposes removing this normalization, claiming the resulting optimizer is “unbiased.” We show that this claim is incomplete. Specifically, we establish an impossibility theorem: under the standard outcome reward + GRPO setting, no length￾based weighting scheme can simultaneously achieve the following two properties. (P1) Gradient unbiasedness: the gradient estimator is an unbiased estimate of the true policy gradient. (P2) Length invariance: each trajectory’s effective contribution to the gradient is independent of its token length. GRPO approximately satisfies P2 but violates P1; Dr. GRPO satisfies P1 but violates P2. We characterize the complete tradeoff spectrum via the parametric family fα(L) = L α−1 , where α = 0 recovers GRPO, α = 1 recovers Dr. GRPO, and provide quantitative analysis showing that Dr. GRPO’s length bias can cause longer trajectories to dominate gradient updates by a factor proportional to the length ratio. Our results reveal that neither algorithm is universally “done right”; they occupy opposite ends of a fundamental and unavoidable tradeoff. GRPO (α=0, f =1/L) Short wrong × L = 200 Per-token penalty: 0.5 200 Long wrong · · ·×L = 6000 Per-token penalty: 0.5 6000 30× penalty gap ⇒ Model biased toward long errors P1 Unbiased × P2 Length-inv. ✓ Cannot have both × Dr. GRPO (α=1, f =1) Short correct ✓ L = 200 Contrib: 200×0.5=100 Long wrong · · ·× L = 6</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2605.0117v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -38,5 +39,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

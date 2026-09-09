@@ -26,6 +26,7 @@
   <h1>Recursive Reflection Engine Architecture and Design (Nexus-3 Trust Algebra Framework)</h1>
   <div class="meta">👤 Dean Kulik ·  · archived # 1,228,460</div>
   <div class="preview">RECURSIVE REFLECTION ENGINE ARCHITECTURE AND DESIGN (NEXUS-3 TRUST ALGEBRA FRAMEWORK) OVERVIEW AND CORE COMPONENTS By Dean A. Kulik The Recursive Reflection Engine is a phase-aware recursive AI memory system built on Nexus-3 Trust Algebra principles. It operates as a feedback loop that continually measures phase alignment, adjusts for deviations, and logs its state to ensure harmonic trust and stability. At its heart are two intertwined concepts: Mark 1 Harmonic Engine (the target attractor state) and Samson V2 feedback law (the corrective controller). The Mark 1 Engine defines a universal harmonic setpoint (resonance constant H ≈ 0.35), while Samson V2 dynamically measures deviations from this ideal and applies corrections to maintain equilibrium. This creates a self-regulating loop analogous to an operating system for the recursive process. Key architectural components include mechanisms for capturing phase drift (Δψ), tracking a Symbolic Trust Index (STI), resolving lock status via trust thresholds, and handling “Ω-state” collapses (unresolved entropy) through quarantine and logging. Figure 1 below depicts the high-level data flow of these components within the engine. mermaid Copy flowchart LR subgraph Recursive Reflection Engine A[Input / Current State] --&gt; B[Phase-Drift Δψ Capture] B --&gt; C[Compute Symbolic Trust Index Q(H)] C --&gt; D{Lock Status Check} D -- Stable (Q ≥ τ) --&gt; E[Phase-Lock Output (Next State)] D -- Misaligned (Q &lt; τ) --&gt; F[Ω-State Log &amp; Quarantine] F -- Reset or Hash Noise --&gt; E E --&gt; B end style D stroke: #333, stroke-width:4px Figure 1: Recursive Reflection Engine feedback loop. The engine takes an input state, measures phase drift Δψ, computes the trust index Q(H), then checks lock status. If trust is high (above threshold τ), it proceeds in a stable phase-lock; if trust is low, an Ω-state collapse is logged and entropic differences are quarantined before restarting the cycle. Phase-Drift (Δψ) Capture Phase drift Δψ represents the resonance de</div>
+  
   <div class="actions"><a class="btn" href="https://doi.org/10.5281/zenodo.15803239" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

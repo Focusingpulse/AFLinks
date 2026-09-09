@@ -29,6 +29,7 @@
   <h1>2311.0069v1</h1>
   <div class="meta"> · archived # 683,660</div>
   <div class="preview">Linear-Time Estimation of Smooth Rotations in ARAP Surface Deformation Mauricio Cele Lopez Belon Abstract. In recent years the As-Rigid-As-Possible with Smooth Ro￾tations (SR-ARAP [5]) technique has gained popularity in applications where an isommetric-type of surface mapping is needed. The advan￾tage of SR-ARAP is that quality of deformation results is comparable to more costly volumetric techniques operating on tetrahedral meshes. The SR-ARAP relies on local/global optimization approach to minimize the non-linear least squares energy. The power of this technique resides on the local step. The local step estimates the local rotation of a small surface region, or cell, with respect of its neighboring cells, so a local change in one cell’s rotation affect the neighboring cell’s rotations and viceversa. The main drawback of this technique is that the local step re￾quires a global convergence of rotation changes. Currently the local step is solved in an iterative fashion, where the number of iterations needed to reach convergence can be prohibitively large and so, in practice, only a fixed number of iterations is possible. This trade-off is, in some sense, defeating the goal of SR-ARAP. We propose a linear-time closed-form solution for estimating the codependent rotations of the local step by solving a sparse linear system of equations. Our method is more effi￾cient than state-of-the-art since no iterations are needed and optimized sparse linear solvers can be leveraged to solve this step in linear time. It is also more accurate since this is a closed-form solution. We apply our method to generate interactive surface deformation, we also show how a multirresolution optimization can be applied to achieve real-time animation of large surfaces. Mathematics Subject Classification (2010). Parallel algorithms 68W10; Clifford algebras, spinors 15A66. Keywords. Geometric Algebra, Quaternion Estimation, Mesh Defor￾mation. 2 Mauricio Cele Lopez Belon 1. Introduction Quatily of s</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2311.0069v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -38,5 +39,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Biology, Health &amp; Medicine">Biology, Health &amp; Medicine</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

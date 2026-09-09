@@ -21,6 +21,7 @@
   <h1>2006.0192v1</h1>
   <div class="meta"> · archived # 570,602</div>
   <div class="preview">The Vertices of a Graph and its Dimension VOLKER W. THÜREY Bremen, Germany ∗ June 19, 2020 We show that the dimension of a graph is less or equal to the cardinality of the set of its vertices Keywords and phrases: graph, dimension MSC 2010 subject classification: 05C99 1 Introduction From [1] or the book [2], p.92, we know the inequality dim(G) ≤ 2 · χ(G) for every graph G, where χ(G) means the chromatic number of G. Here we show a further inequality. For the sake of clarity we repeat the definition of the dimension of a graph. Please see [1] and [2], p.88. Here an embedding means an injective map of an isomorphic graph, different from [1]. A display is less. Note that a display is also an isomorphic graph and the number of intersection points of different edges is finite. Definition 1. Let G be an arbitrary graph. We define the dimension of G, in symbols dim(G), as the minimum number n such that G can be displayed in the Euclidean space R n by an isomorphic graph and all edges have length one. Theorem 1. Let G be an arbitrary graph, and let vert be the set of its vertices. It holds the inequality dim(G) ≤ cardinality(vert) This is an improvement in many cases. For instance, if G is the complete graph Kr ,r &gt; 1, we have dim(G) = r −1 &lt; r = cardinality(vert(G)) &lt; 2 ·r = 2 · χ(G). The proof of the theorem is yielded in the following section. 2 Construction We prove the theorem only for cardinality(vert) &lt; ∞. Hence we assume a graph G with a finite set of vertices. Let {v1, v2,...vn−1, vn} be the set of vertices of G. We construct an embedding of G in the Euclidean space R n . ∗49 (0)421 591777, volker@thuerey.de 1 Abstract Let ~ei := (0,0,...,0,0,1,0,0,...,0) be the the i th unit vector of the R n , i.e. 1 ≤ i ≤ n and ~ei has n−1 zeros and a single one at place i. We construct a graph H ⊂ R n which is isomorphic to G. We take n vectors w~ i := 1 2 · √ 2 ·~ei , (1) 1 ≤ i ≤ n, as the vertices of H. Note that the Euclidean distance between two different vertices of H is </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2006.0192v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

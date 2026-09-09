@@ -21,6 +21,7 @@
   <h1>2009.0035v1</h1>
   <div class="meta"> · archived # 800,732</div>
   <div class="preview">&quot;Теория Рынков&quot; Все права рукописи пренадлежат Илье Шайкевичу Теорема о Покрытии - The Cover Theorem Илья Шайкевич Eliahu Shaikevich Sept. 2020 1 Основные Понятия 1.1 Четность сделок. Все сделки на рынке разделяются на четные и нечет￾ные. Будем называть сделки buy - четными сделками. Будем называть сделки sell - нечетными сделками. Будем называть N - историческим количеством сделок, как четных так и нечетных, поставленных на рынок, от первой сделки (любой четности) до N. 1.2 M+ − Measure Говорим о конструкции M+ - положительная мера, которая в теории рынков функционально зависит от способа расстановки сделок на рынке. В самом простом случае M+ является линейной функцией от аргумента связанного с историческим количеством расставленных на рынке сделок. M+ = k · N = k · (Nb + Ns) (1) Где N - это суммарное историческое количество расставленных на рын￾ке сделок обоих четностей. Конечно же можно рассматривать любые в каком-то смысле разрешенные функции от N. Этот “какой-то” смысл будет прояснен в будущих работах. 1.3 Говорим о конструкции M− - отрицательная мера, которая в теории рын￾ков имеет структуру сумм. Чтобы построить данную конструкцию будем 1 Ɍɟɨɪɟɦɚ ɨ ɉɨɤɪɵɬɢɢ (The Cover Theorem) ɂɥɶɹ ɒɚɣɤɟɜɢɱ (Eliahu Shaikevich) Sept. 2020 Abstract There is such a historical number of deals N0 of both parities and such a way of placing them on the market that for any N&gt; N0 the inequality M + (i) Mí (i) + Ví (i) (9) we will call it the &quot;Shaykevich Inequality&quot; or the Covering Theorem (CoverTheorem) Илья Шайкевич Теорема о Покрытии использовать суммы такого типа: i + (i − 1) + .. + 1 (2) где i - это порядковый номер сделки с учетом четности сделки. Как видно - это арифметическая прогрессия. Назовем: M−(i) = k1 · X i−1 j=1 j = k1 · 1 + (i − 1) 2 · (i − 1) = k1 2 · (i 2 − i) (3) В этой конструкции - i нумерует сделки только одного вида четности, а именно той четности, которой на рынке находится больше на текущее состояние. 1.4 V− − V alue Говорим о конструкции v− - отрицательная ме</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2009.0035v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

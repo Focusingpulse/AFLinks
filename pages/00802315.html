@@ -24,6 +24,7 @@
   <h1>2212.0019v3</h1>
   <div class="meta"> · archived # 802,315</div>
   <div class="preview">Author: Herman Schoenfeld &lt;herman@sphere10.com&gt; Version: 1.1 Date: 2020-07-20 Copyright: (c) Sphere 10 Software Pty Ltd. All Rights Reserved. AMS - Abstract Merkle Signature Scheme Abstract An abstract post-quantum digital signature scheme is presented that parameterizes a one-time signature scheme (OTS) for &quot;many-time&quot; use. This scheme permits a single key-pair to efficiently sign and verify a (great) many messages without security degradation. It achieves this by following the original Merkle-Signature Scheme but without a coupling to a specific OTS. Various improvements include a reduction in signature size, resistance to denial-of-service attacks and smaller keys. This construction comprises a bit-level specification for the Abstract Merkle Signature Scheme (AMS). 1. Introduction Abstract Merkle Signatures (AMS) are a class of a quantum-resistant digital signature schemes that utilize hash-based cryptography without any dependency on elliptic-curves or discrete logarithms. AMS is a formalization of the scheme originally proposed by Ralph Merkle 1 but in an OTS-agnostic manner. AMS is a &quot;high-level abstract&quot; scheme that takes as a parameter a one-time signature scheme (OTS) and transforms it into a &quot;many-time&quot; equivalent. To this end, AMS serves as an &quot;algorithm wrapper&quot; of the parameterized OTS algorithm. AMS achieves this goal by encapsulating the cryptography of the OTS in an ephemeral manner[^*] and by isolating the complexity of multiple OTS keys through the use of merkle-trees. AMS is similar in goal and scope to XMSS 2 but without a coupling to a specific OTS, with simplified tree structuring and with DoS-vulnerability hardening. An AMS algorithm generally retains the performance, memory and security characteristics of the underlying OTS scheme but adds additional computational complexity in it&#x27;s key generation. This arises from the fact that an AMS key is essentially a commitment to many pre-generated OTS keys. In practice, an AMS implementation comprises</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2212.0019v3.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Quantum+++Relativity+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -33,5 +34,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

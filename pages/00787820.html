@@ -25,6 +25,7 @@
   <h1>2406.0088v1</h1>
   <div class="meta"> · archived # 787,820</div>
   <div class="preview">Bouncing Bubble - A fast algorithm for Minimal Enclosing Ball problem Tian Bo1 Fig 1 An example of MEB covering German cities, ϵ = 10-4, solved in 0.025s Abstract In this paper, a new algorithm for solving MEB problem is proposed based on new understandings on the geometry property of minimal enclosing ball problem. A substitution of Ritter&#x27;s algorithm is proposed to get approximate results with higher precision, and a 1+ϵ approximation algorithm is presented to get approximation with specified precision within much less time comparing with present algorithms. With the new 1+ϵ approximation algorithm , A large case d=2048, n=128k, ϵ=10-6 can be solved in a few minutes, which has not been done with previous solvers. 1. Introduction Also known as bounding sphere problem or Smallest Enclosing Ball problem, Minimal Enclosing Ball (MEB) problem is to find out the minimal enclosing ball for a given set of points P ⊂ ℝd. The MEB problem was well studied for its large number of applications, which include computational graphic, high dimensional data mining etc. See more reference in Fischer [1], or Kumar [2]. Data mining techniques such as clustering, nearest neighbor searching usually involves MEB problems in high dimensions, which become very time consuming or even impractical to be 1 Freelancer; Kaspar-Kerll Str. 4a. 81245, Munich, Germany; tmsfld@googlemail.com solved for traditional exact solver such as Welzl&#x27;s method [3] or approach of Gärtner et al. Ritter&#x27;s solution [6] is an attempt for providing a bounding sphere. The fascinating thing of Ritter&#x27;s approach is its simplicity of implementation and its short execution time. However, it provides only very coarse result with around 15% error. In comparison, the substitution provide results with 1%~2% error. Bădoiu et al introduced an approach that apply Second Order Cone Programming (SOCP) on a subset of the data set (referred as core set) to get an approximate result, any point outside 1+ϵ approximation will be added </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2406.0088v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

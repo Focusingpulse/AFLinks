@@ -29,6 +29,7 @@
   <h1>2601.0041v1</h1>
   <div class="meta"> · archived # 140,344</div>
   <div class="preview">Effect of “Time Scaling” on astonomical constants, from the systems that use “TCB”, “TCG”, “TT”, or “TDB”. The times, velocities, positions, and masses of the planets in our solar system are available from the fits to observational data conducted by JPL and recorded in their ephemeris files. The current JPL ephemerides provide the most accurate source for astronomical constants involving those measurements. However, they use a “scaled” system meaning that times, velocities, positions, and masses in the files are all divided by a constant factor of 1/(1 − LB) = 1.00000001550519791759084665883829... Two reasons why they do that are: 1. Many of the observational data points used in their integration are (or used to be) recorded from Earth, and so are tagged with a time coordinate in “Terestrial Time” (TT). But the equa￾tions of motion for integrating the forces between solar system bodies require a time coordinate steady versus a clock at the center of mass of the system, and with a rate equal to the SI second. “Barycentric Coordinate Time” (TCB) is such a time system (together with its corresponding set of position coordinates, its space-time coordinate system is called the “Barycentric Celestial Reference System” (BCRS)). However, “TCB” and “TT” run at very different rates, so if the two are mixed up in the input data, the error will cause serious effects in the integration. Thus a time scale which has the same long term scaling as “TT” but is steady versus “TCB” (called “Barycentic Dynamical Time” (TDB)) was devised for the time coordinate of the ephemerides. When constructing the ephemeris files, “TDB” is used in the equations of motion which were intended for “TCB”. The effect of that is only that the output data (the times, velocities, positions, and masses) of the integration are scaled by the factor stated above. The calculation of that will be shown below. 2. With “TDB” as the time coordinate, the ephemerides can be read directly by inputing the time from Eart</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2601.0041v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -38,5 +39,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Environment &amp; Climate">Environment &amp; Climate</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

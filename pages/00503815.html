@@ -21,6 +21,7 @@
   <h1>2512.0090v1</h1>
   <div class="meta"> · archived # 503,815</div>
   <div class="preview">10.5281/zenodo.17991787 Counting Exact Prime-Number Inclusion-Exclusion Method Farhad Aliabdali Abstract This paper presents a complete, closed-form mathematical equation that exactly computes the prime-counting function π(N) for any integer N ≥ 2. Unlike existing methods which are either asymptotic approximations or recursive algorithms, our formulation is a single evaluable expression. The equation operates in two distinct modes: (1) using a sequence of known primes, or (2) using the simple sequence J₁ = 2, Jₙ = (n-1)-th odd integer ≥ 3 for n ≥ 2, with an intrinsic primality test μₙ = ⌈∏ₓ₌₁ⁿ⁻¹ (Jₙ/Jₓ - ⌊Jₙ/Jₓ⌋)⌉ where μₙ = 1 if and only if Jₙ is prime. The formula directly yields π(N) through elementary arithmetic operations without recursion, iteration, or algorithmic procedures. The implications of this formula are explored in comparison to existing prime counting functions and its potential impact on the study of prime distribution, it is an explicit sieve-theoretic expression and a self-contained rewriting. This complements classical exact prime-counting methods (Meissel–Lehmer and descendants), which are vastly more efficient for computation Introduction The prime-counting function 𝜋(𝑥), defined as the number of prime numbers not exceeding 𝑥, has been a central object of study in number theory for centuries. While the celebrated Prime Number Theorem provides the asymptotic estimate 𝜋(𝑥) ∼ 𝑥 log 𝑥 , exact computation of 𝜋(𝑥) has led to recursive algorithms such as Legendre&#x27;s formula, the Meissel-Lehmer method, and sieve techniques like the sieve of Eratosthenes. In addition to these recursive and iterative methods, several &quot;closed form&quot; expressions for 𝜋(𝑥) or the 𝑛 −th prime have been discovered, typically using Wilson&#x27;s theorem or summation identities. Notable examples include Willans&#x27; formula (1964) and Mináč&#x27;s formula, which express primality conditions through trigonometric functions and floor operations. While mathematically exact, these formulas are com</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2512.0090v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

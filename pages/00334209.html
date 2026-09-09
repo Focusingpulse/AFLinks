@@ -25,6 +25,7 @@
   <h1>2507.0139v2</h1>
   <div class="meta"> · archived # 334,209</div>
   <div class="preview">Deriving the Restitution Coefficient from Energy and Momentum Conservation Joshua Dizon July 26, 2025 Restitution and Energy Joshua Dizon Abstract The coefficient of restitution is a dimensionless parameter that quantifies the elasticity of collisions. In this paper, we present a derivation that expresses the coefficient directly in terms of the change in kinetic energy for a two-body system undergoing a one-dimensional collision. This approach clarifies the relationship between energy dissipation, mass, and velocity, offering a transparent analytic framework useful for both physical insight and computational modeling. 1 Introduction The restitution coefficient ε is commonly introduced as a ratio of relative velocities before and after collision. While effective descriptively, this definition often obscures its underlying connection to energy conservation. In this paper, we re-express ε in terms of the kinetic energy loss T of a two-body system, offering a physically intuitive formulation that aligns with theoretical and computational modeling needs. 2 Definitions and Setup Consider two point masses ma and mb undergoing a head-on collision. Let va and vb be their initial velocities, and v ′ a and v ′ b their velocities after the collision. Define: • Restitution coefficient: ε = v ′ b − v ′ a va − vb • Kinetic energy change: ∆T = 1 2 mav ′ a 2 + 1 2 mbv ′ b 2 −  1 2 mav 2 a + 1 2 mbv 2 b  3 Main Result Lemma 1 (Restitution Coefficient from Energy Loss). Let ma, mb be the masses of two colliding bodies, with initial velocities va, vb and final velocities v ′ a , v ′ b . If momentum is conserved, then the restitution coefficient ε can be written in terms of the kinetic energy loss ∆T as: ε = s 1 − 2∆T µ(va − vb) 2 , µ = mamb ma + mb 1 Restitution and Energy Joshua Dizon Proof. We define: ε = v ′ b − v ′ a va − vb , ∆T = 1 2 mav ′2 a + 1 2 mbv ′2 b −  1 2 mav 2 a + 1 2 mbv 2 b  Rewriting v ′ b from ε: v ′ b = v ′ a + ε(va − vb) From conservation of momentum: mava + </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2507.0139v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

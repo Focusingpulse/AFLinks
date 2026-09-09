@@ -27,6 +27,7 @@
   <h1>2003.0646v1</h1>
   <div class="meta"> · archived # 571,145</div>
   <div class="preview">Four Color Theorem - a simpler proof R. L. Hudson 3-29-2020 Abstract The conjecture [1] stated that four colors are sufficient for any 2-dimensional plane map so that no two regions with a shared border are the same color. The conjecture is now a theorem [2], the result of a lengthy and complex proof, involving over 1000 classifications of graph objects and over 1000 hours of computer time. Instead of considering all maps, this paper examines which elements of a map are possible and the issue of causality and redundancy. 1. Method To simplify the analysis, map configurations will be transformed to graph objects. fig. 1 fig.2 The regions colored A, B, and C in fig.1, are represented by small circles (nodes) in fig.2. A line connecting the nodes represents any path crossing the border between any two regions in fig.1. This eliminates dealing with regions having highly irregular borders, and focuses on connectivity. Since borders cannot overlap, lines cannot cross. 1.1 The color restriction for maps can be restated for the graph as: no paired nodes are the same color. 2. Proposed cause The color of a node is determined by the nodes directly linked to it. It and the linked nodes form a complete object, defined as having all possible links formed. fig.3 fig.4 When 3 nodes form a closed boundary as ABC in fig.3, the surface is divided into 2 independent portions. The blank node in the interior of ABC (fig.3) is isolated from a blank node in the exterior of ABC (fig.4). The color of the first blank does not affect the color of the second blank. The color of both is determined by the adjacent A, B, &amp; C nodes, requiring a 4th color D for both. 3. Coloring the map fig.5 fig.6 Fig.5 shows a formation of regions with a general geographic form and an id number. After numbering the nodes in any random order, they are sorted into a sequence by decreasing link count, as shown in fig.7. links per node 2 3 4 5 6 1 2 3 6 5 4 fig.7 node A B C D plink 3 1 4 0 1 3 2 0 0 1 3 4 5 0 0 1 3 4</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2003.0646v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a><a class="tag" href="/AFLinks/?cat=LENR / Cold Fusion">LENR / Cold Fusion</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

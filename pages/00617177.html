@@ -23,6 +23,7 @@
   <h1>2206.0105v1</h1>
   <div class="meta"> · archived # 617,177</div>
   <div class="preview">Some Facts about Relations and Operations of Algebras SHAO-DAN LEE Abstract Let A be a σ-algebra. Suppose that Θ is a congruence of A. Then Θ is a subalgebra of A × A. If ϕ is an automorphism from A to A, then 〈ϕ, ϕ〉 is an automorphism of A × A. And it is obvious that 〈ϕ, ϕ〉(Θ) is a congruence of A. Let B be a σ-algebra and ψ a homomorphism from A to B. Then B′ := ψ(A) is a subalgebra of B. And 〈ψ, ψ〉(Θ) is a congruence of B′ . If ψ is an epimorphism, then 〈ψ, ψ〉(Θ) is a congruence of B. Suppose that A is a category of all σ-algebras. Let A, B ∈ A and ψ: A → B be a homomorphism. Then the pullback A ⊓B A is isomorphic to a congruence of A. An n-ary relation  of an algebra A is a subset of A n . If  satisfies some conditions, then  is a subalgebra of A n . The set of languages is a lattice. If  is the set of the compositions of the operations in a language σ, then  is an algebra. Contents 1. Congruence 1 2. Congruence and Pullback 2 3. n-ary Relation and Operation 2 4. n-ary Relation and Homomorphism 3 5. Lattice of Languages 3 6. Algebraic Language Algebra 4 References 5 1. Congruence Let σ be an algebraic language[2]. Suppose that A is an algebra of language σ. Let Con A[4] be the set of all congruences on an algebra A. If Θ ∈ Con A, then Θ is a subalgebra of A × A (See [1]). Suppose that ϕ: A → A is an automorphism[4]. Then 〈ϕ, ϕ〉: A × A → A × A given by 〈, b〉 7→ 〈ϕ(), ϕ(b)〉 for all 〈, b〉 ∈ A × A is an automorphism of A × A. Proposition 1.1 (cf. [2,4]). Let ϕ be an automorphism of A and Θ ∈ Con A. Then 〈ϕ, ϕ〉(Θ) ∈ Con A. If Θ is fully invariant[4], then 〈ϕ, ϕ〉(Θ) ⊆ Θ. Proof. Let , b, c ∈ A with (, b), (b, c) ∈ Θ. Then 〈ϕ(), ϕ(b)〉, 〈ϕ(b), ϕ()〉, 〈ϕ(), ϕ()〉, 〈ϕ(), ϕ(c)〉 are in 〈ϕ, ϕ〉(Θ). If Θ is fully invariant then (ϕ(), ϕ(b)) ∈ Θ. It follows 〈ϕ, ϕ〉(Θ) ⊆ Θ. An automorphism is compatible with the operations in language of A. Hence 〈ϕ, ϕ〉(Θ) is a congruence. □ Date: June 21, 2022. 2020 Mathematics Subject Classification. 08A99. Key words and phrases. Un</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2206.0105v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Reference+Material">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

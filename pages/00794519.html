@@ -27,6 +27,7 @@
   <h1>2204.0040v1</h1>
   <div class="meta"> · archived # 794,519</div>
   <div class="preview">Saving proof-of-work by hierarchical block structure: Bitcoin 2.0? Qui Somnium email: qui.somnium@tuta.io April 7, 2022 To my wonderful wife, our children and yours as well Abstract We argue that the current Proof of Work based consensus algorithm of the Bitcoin network suffers from a fundamental economic discrepancy be￾tween the real-world transaction costs incurred by miners and the wealth that is being transacted. Put simply, whether one transacts 1 satoshi or 1 bitcoin, the same amount of electricity is needed when including this transaction into a block. The notorious Bitcoin blockchain problems such as its high energy usage per transaction or its scalability issues are, ei￾ther partially or fully, mere consequences of this fundamental economic inconsistency. We propose making the computational cost of securing the transactions proportional to the wealth being transfered, at least tem￾porarily. First, we present a simple incentive based model of Bitcoin’s secu￾rity. Then, guided by this model, we augment each transaction by two parameters, one controlling the time spent securing this transaction and the second determining the fraction of the network used to accomplish this. The current Bitcoin transactions are naturally embedded into this parametrized space. Then we introduce a sequence of hierarchical block structures (HBSs) containing these parametrized transactions. The first of those HBSs exploits only a single degree of freedom of the extended transaction, namely the time investment, but it allows already for trans￾actions with a variable level of trust together with aligned network fees and energy usage. In principle, the last HBS should scale to tens of thou￾sands timely transactions per second while preserving what the previous HBSs achieved. We also propose a simple homotopy based transition mechanism which enables us to relatively safely and continuously introduce new HBSs into the existing blockchain. Our approach is constructive and as rigorous as p</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2204.0040v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Finance / Economics">Finance / Economics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

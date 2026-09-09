@@ -23,6 +23,7 @@
   <h1>2408.0103v1</h1>
   <div class="meta"> · archived # 761,550</div>
   <div class="preview">Digit Occurrence of an Ordinal’s Factorial in Euler’s Number Parker Emmerson July 2024 1 Introduction Mathematical Notation of the Program 1. Factorial Calculation The factorial of a number n is calculated as: n! = Yn i=1 i For example, for n = 5: 5! = 5 × 4 × 3 × 2 × 1 = 120 2. Conversion to a Given Base To convert a number x to its representation in a specified base b: x = X k i=0 di · b i where di are the digits of x in base b. The digits are calculated as: di = x mod b, x = j x b k 3. Counting Digit Occurrences To count the occurrences of a specific digit d in the base-b representation of n!: n! = X k i=0 di,b · b i 1 Abstract: We analyze the frequency of digit occurrences in that digit&#x27;s factorial expression in different bases. I write programs for visualizing it. count(d, n!, b) = X k i=0 δ(d, di,b) where δ is the Kronecker delta function: δ(a, b) = ( 1 if a = b, 0 otherwise. 4. Main Program Loop For each i from 1 to 99, the program performs the following steps: 1. Compute the factorial i!. 2. Convert i! to base 100. 3. Count the occurrences of the digit i in this base-100 representation. Formally, for i ∈ {1, 2, . . . , 99}, the program computes: result(i) = count(i, i!, 100) 5. Relation to Euler’s Number Euler’s number e is defined as: e = X∞ n=0 1 n! This definition shows that e can be represented as an infinite series involving reciprocals of factorials. By analyzing the digit occurrences in factorials, we study deeper properties of these numbers which are fundamental to the series representation of Euler’s number. Mathematical Notation of the Program with Radix e 1. Factorial Calculation The factorial of a number n is calculated as: n! = Yn i=1 i 2. Conversion to Base e (Approximation) To convert a number x to its representation in base e: x = X∞ i=0 di · e i 2 where di are the coefficients. Given the irrational nature of e, these coeffi￾cients are approximated as: di = j x e i k , x = x − di · e i 3. Counting Approximate Digit Occurrences To count the oc</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2408.0103v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Electromagnetism+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

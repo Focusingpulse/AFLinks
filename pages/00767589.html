@@ -23,6 +23,7 @@
   <h1>2112.0058v1</h1>
   <div class="meta"> · archived # 767,589</div>
   <div class="preview">An Ordered Sample Mean that&#x27;s a bit like Simpson&#x27;s Rule D Williams Abstract: A “Simpson&#x27;s Rule”-like ordered sample mean is compared with the standard version ================= Consider the following : 1. Take a sample X1, X2, X3, … ,X3n of size 3n. 2. Order the sample by swapping terms such that X1≤ X2≤ X3≤… ≤X3n 3. Calculate the “Simpson&#x27;s” Ordered Sample Mean: For example: 1. Take a sample of size 6 from exp(ran#) where ran# is a random number between 0 and 1. 2. Order them (line 2 in table below). 3. Calculate ordered sample mean and compare with standard sample mean (lines 3 and 4 below) Notice the ordered mean is closer to the population mean (1.71828...=(e-1)=integral of exp(x) from 0 to1) than the standard mean. Is this more often the case than not? Heuristic arguments suggest it might be. The Ordered mean above is constructed by using the expression (where min=minimum, max=maximum, etc on a sub-sample of size 3) n times on n sub-intervals of the interval (0,1). See “A Better Type of Sample Mean?” and “An Alternative Model of Probability Theory” at random numbers ordered 0.032316372 0.170959367 0.5464619095 0.621280459 0.7192639355 0.8565404457 exp(ran#) 1.0328442166 1.1864425393 1.7271314476 1.8613098475 2.0529215716 2.3549993364 sample mean 1.7026081599 ordered sample mean 1.7129739229 vixra.org/author/d_williams for more details. An integral approximation (for non-decreasing f on (0,1)) is related to the first expression. This can be generalised to other finite intervals. Testing this expression on 6 “random” functions with n=6 gave the following results: Notice the “Simpson-like Rule” is better than the Mid Point Rule in each case. Other types of sample means based on other types of integral approximation are possible and should be worth exploring. It may be the case that a particular ordered sample mean better approximates the population mean more often than another if the integral approximation derived from its f(ran#) function for that particular n is</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2112.0058v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Conspiracy+++Politics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

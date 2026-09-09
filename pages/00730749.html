@@ -21,6 +21,7 @@
   <h1>2505.0046v1</h1>
   <div class="meta"> · archived # 730,749</div>
   <div class="preview">ON A SPECIFIC FAMILY OF ORTHOGONAL POLYNOMIALS OF BERNSTEIN-SZEGO TYPE ¨ MARTIN NICHOLSON Abstract. We study certain weight functions on [−1, 1] which are particular cases of the general weights considered by Bernstein and Szeg¨o. These weights are numbered by two positive integers and when these integers tend to infinity, these weights approximate weight functions on R considered by Ismail and Valent. We also consider modifications of these weight functions by a continuous variable a &gt; 0. These ideas are then used to find finite analogs of some improper integrals first studied by Glaisher and Ramanujan. 1. Introduction Entry 4.123.6 in Gradshteyn and Ryzhik’s Table of Integrals, Series, and Products [9] reads Z∞ 0 sin(ax) sinh(bx) cos(2ax) + cosh (2bx) x p−1 dx = Γ(p) (a 2 + b 2) p/2 sin  p tan−1 a b X∞ k=0 (−1)k (2k + 1)p , p &gt; 0. (1) Limiting case p → +0 of (1) is Z∞ 0 sin(x) sinh(x/a) cos(2x) + cosh (2x/a) dx x = tan−1 a 2 . (2) Also, when a = b and p/4 ∈ N one finds from (1) Z∞ 0 sin(x) sinh(x) cos(2x) + cosh (2x) x 4k−1 dx = 0, k ∈ N. Integrals of this type were first studied by Glaisher [7]. Recently, they were studied in connection with integrals of Dedekind eta-function in [8],[14],[6]. In [12], we have generalized (2) as Z 1 0 sin n sin−1 t  sinh n sinh−1 (t/a)  cos 2n sin−1 t  + cosh 2n sinh−1 (t/a)  dt t p (1 − t 2)(1 + t 2/a2) = tan−1 a 2 , (3) where n is a positive odd integer , and we have also shown that Z 1 0 cos(n sin−1 t) cosh(n sinh−1 t) cos(2n sin−1 t) + cosh(2n sinh−1 t) dt √ 1 − t 4 = 0, (4) where n is a positive even integer. Our proof was based on explicit calculations using the fact, that the roots of cos 2n sin−1 t  + cosh 2n sinh−1 (t/a)  (which is a polynomial in t) can be determined in closed form (see also Section 9 of the present paper for a similar calculation). Two alternative proofs of (3) can be found in [20] and [16]. Motivation for considering such integrals came from the mapping αz = 2n sinh−1 sin πz 2n encountered in t</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2505.0046v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

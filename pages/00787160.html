@@ -23,6 +23,7 @@
   <h1>2410.0133v1</h1>
   <div class="meta"> · archived # 787,160</div>
   <div class="preview">Research on the managing method for distribution of Node -based project by encrypted file set Yong Dok Pyon * ,Chol Ju Han, Kwang Chol Bang and Song Jin Jong Faculty of Information Science, Kim Chaek university of Technology, Yonggwang St, Kyougu-dong No.60, Pyongyang, DPRK Abstract When you are going to create a Node-based project, it will be necessary to find solutions for the management of tens or hundreds of thousands of node modules and sources, and for the protection of the source code in the distribution. Using the existing versions of various products such as NW.js, you could find those solutions. In this paper, we proposed a file request processing method using the encrypted file set on the basis of the analysis of the file request processing of the open source project Node.js, implement the managing method of the source code and resource files, verify the practicality and effectiveness of the proposed methods, and newly established the distribution and protection mode of Node-based product. Keywords: Node.js, JavaScript, Security, Source Code 1. Challenges in Node-Based Project Distribution In general, there are two problems in the distribution of a Node-based project. The first problem is that it takes a lot of time to copy files because of the large number of node￾module. Even though you optimize the project before distribution, the overall capacity is less than 300 ~ 500 MB, but the number of files is more than tens or hundreds of thousands. Therefore, it will take tens of minute to extract compression even on the Core i3 class computer. And the second problem is that it is distributed without security of the source code and data. In a Node-based project, the development language is JavaScript or TypeScript. Thus the result exists as a text file rather than binary or intermediate code, which is a fatal error when the developed product is finally introduced into another unit. Several ways and products to solve this problem have been developed, such as El</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2410.0133v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

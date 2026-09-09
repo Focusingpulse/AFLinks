@@ -21,6 +21,7 @@
   <h1>2101.0114v1</h1>
   <div class="meta"> · archived # 750,929</div>
   <div class="preview">Int´egration Antoine Balan January 18, 2021 Abstract The integration by parts can define the integration. 1 L’int´egration par parties L’int´egrale est d´efinie par l’inversion de la d´erivation sur les fonctions lisses r´eelles qui s’annulent en z´ero C ∞0 (R). Il en r´esulte l’int´egration par parties : Z x 0 f(t).( Z t 0 g(u)du)dt = Z x 0 f(t)dt. Z x 0 g(t)dt − Z x 0 ( Z t 0 f(u)du).g(t)dt 2 Caract´erisation de l’int´egrale Soit une application I lin´eaire des fonctions lisses C ∞ 0 (R) qui v´erifie : I(f).I(g) = I(I(f).g) + I(f.I(g)) (∗) alors il existe h lisse telle que : I(f)(x) = Z x 0 f(t).h(t)dt 3 Sur une vari´et´e diff´erentielle Soit M une vari´et´e diff´erentielle et I une application des fonctions lisses qui v´erifie (∗), alors on a : I(f) = Z 0 −∞ e tX(f)dt avec X un champ de vecteurs sur la vari´et´e. 1 References [B] C.B¨ar, ”Elementary Differential Geometry”, Cambridge University Press, USA, 2010. [Bo] N.Bourbaki, ”El´ements de math´ematique, Fonctions d’une variable r´eelle”, Springer, Berlin, 2007. [C] B.Candelpergher, ”Calcul int´egral”, Cassini, Paris, 2009. 2</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2101.0114v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Reference+Material">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

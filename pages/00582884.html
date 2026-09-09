@@ -23,6 +23,7 @@
   <h1>1905.0474v3</h1>
   <div class="meta"> · archived # 582,884</div>
   <div class="preview">CORRIGENDUM TO “POLYOMINO ENUMERATION RESULTS. (PARKIN ET AL., SIAM FALL MEETING 1967)” RICHARD J. MATHAR Abstract. This work provides a Java program which constructs free polyomi￾noes of size n sorted by width and height of the convex hull (i.e., its rectangular bounding box). The results correct counts for 15-ominoes published in the 1967 proceedings of the SIAM Fall Meeting, and extend them to 17-ominoes and partially to even larger polyominoes. [vixra:1905.0474] 1. Free polyominoes 1.1. Nomenclature. Polyominoes are sets of n edge-connected squares, which means each of the squares can be reached from any other square of the set by a path that connects nearest neighbors (adjacent squares to the North, East, South and West) which all are members of the set. Fixed polyominoes are polyominoes which can be mapped onto each other by translating them rigidly along the horizontal and/or vertical axes of the underlying square grid. They can be enumerated for example with the aid of a transfer matrix method [3][2, A001168][1]. A set of fixed polyominoes that can be mapped onto each other by further symmetry operations of rotations by multiples of 90 degrees and/or flips along the horizontal or vertical axes is a free polyomino. The convex hull (or bounding box) of a polyomino is the largest connected rectangular section of the underlying square grid such that each row and column of the hull contains at least one square of the polyomino. We are interested in classifying all n-ominoes by the height h and width w of their convex hull. Definition 1. (Free Polyominoes Classified by Bounding Box) Ph×w(n) denotes the number of free polyominoes of size n that fit into a tight h × w bounding box. The number of free polyominoes does not change if the bounding rectangle is rotated by multiples of 90 degrees (such that the roles of width and height are swapped): (1) Ph×w(n) = Pw×h(n). There is only one free block polyomino where all cells within the bounding box of area hw are occupi</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/1905.0474v3.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Biology">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Biology, Health &amp; Medicine">Biology, Health &amp; Medicine</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Biology">Biology</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -27,6 +27,7 @@
   <h1>2210.0030v2</h1>
   <div class="meta"> · archived # 753,045</div>
   <div class="preview">Approximation by Power Series of Functions Andrej Liptaj∗ Institute of Physics, Bratislava, Slovak Academy of Sciences November 22, 2022 Abstract Derivative-matching approximations are constructed as power series built from functions. The method assumes the knowledge of special val￾ues of the Bell polynomials of the second kind, for which we refer to the literature. The presented ideas may have applications in numerical math￾ematics. Introduction Given a function f and a point of expansion x0, it is customary to say that the Taylor polynomial (TP) of degree one, two, three,... is the best linear, quadratic, cubic,... approximation of f at x0. In this sense we present here several new approximations A f i of f such that d n dxn f (x)|x=0 = d n dxn A f i (x)|x=0, n ∈ N0, (1) where, without loss of generality, we assume that the expansion is done at x0 = 0 (shift to an arbitrary point x0 is achieved by shifting the argument). We denote the equality (1) by f ≈ Af i . 1 Power series built from functions We build A f i as a power series of some properly chosen function g following the construction from Sec. 4.1.2 of [4]. We propose A f i (x) = X∞ n=0 an [g (x)]n ≈ f(x) with g (0) = 0 and g 0 (0) 6= 0. (2) The existence of a non-zero derivative at zero implies g can be inverted on some neighborhood of zero x ≡ g −1 (y). We have f g −1 (y) ≈ X∞ n=0 any n , (3) ∗andrej.liptaj@savba.sk, ORC iD 0000-0001-5898-6608 1 i.e. the expansion coefficients an are given by the power expansion coefficients of f g −1  an = 1 n! d n dxn f g −1 (x)  |x=0. (4) This can be written in terms of the Faà di Bruno’s formula, where the Bell polynomials of the second kind Bn,k appear an = 1 n! Xn k=0 d f kBn,k(d g −1 1 , dg −1 2 , . . . , dg −1 n−k+1); d h n ≡ d n dxn h (x)|x=0. (5) In [4] only few expansions were presented, here we systematically review the existing formulas for special values of the Bell polynomials [8, 7, 6] and propose a larger number of them1 . To keep the text brief, we orga</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2210.0030v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

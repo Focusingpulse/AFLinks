@@ -27,6 +27,7 @@
   <h1>2008.0195v1</h1>
   <div class="meta"> · archived # 570,344</div>
   <div class="preview">MAKING DERANGEMENTS USING ELEMENT SWAPS Pranjal Jain thereligiousatheists@gmail.com Aug 2020 1 Introduction The Steinhaus-Johnson-Trotter Algorithm (SJTA henceforth) is an algorithm which uses swaps of adjacent elements to generate all permutations of a given set in n! − 1 swaps. The aim of this paper is to prove a similar result for derangements. Problem definition Let a ‘switch’ refer to the act of exchanging the positions of the elements in any pair chosen in any permutation of Sn = {1, 2, . . . , n} (unlike the SJTA, where it would refer to the act of swapping any pair of adjacent elements). We explore whether it is possible to cover all derangements using only switches, starting at the derangement Tn = {n, 1, 2, . . . , n − 1}, with the additional constraint that any switch made in our sequence of switches must result in a derangement, and never in a non-derangement. Note that henceforth in this article, any sequence of switches which is referred to satisfies this con￾dition even if it is not explicitly mentioned. Note that in the absence of this constraint, the problem is a trivial application of the SJTA, and under the absence of the freedom of swapping any two elements (and restricting to swapping only adjacent elements), it is trivially impossible to have such a sequence, since no swap of adjacent elements can be used to convert Tn into another derangement. 1 Abstract: The aim of the article is to show that there always exists a sequence of swaps of elements, which when applied to a derangement (of n&gt;3 elements) will go through all derangements of n elements, with an additional constraint that all swaps in this sequence produce a derangement (not necessarily one which hasn&#x27;t appeared before in the sequence). August, 2020 2 Some lemmas regarding the setup For convenience, let p(n) be the proposition that all derangements can be covered as dictated by the above conditions starting at Tn, and let q(n) be the proposition that the same task can be done by starti</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2008.0195v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -21,6 +21,7 @@
   <h1>2404.0023v1</h1>
   <div class="meta"> · archived # 1,176,781</div>
   <div class="preview">1 Принцип Паули, химическая связь и атомные орбитали. Безверхний Владимир Дмитриевич. Украина, e-mail: bezvold@ukr.net Согласно принципу Паули два и более тождественных электрона не могут находится на одной орбитали. Но, необходимо уточнить какие орбитали имеются ввиду - атомные или молекулярные, и более подробно рассмотреть принцип Паули. Если рассматривать атомные орбитали, то все верно. Но, если рассматривать молекулярные орбитали, то необходимы некоторые объяснения. Во-первых, принцип Паули применим только к слабовзаимодействующим частицам, когда можно говорить о состояниях отдельных частиц. Вот соответствующая цитата [1]: “...Конечно, в такой формулировке принцип Паули может применятся только к системам слабовзаимодействующих частиц, когда можно говорить (хотя бы приближенно) о состояниях отдельных частиц…”. То есть, если частицы будут сильновзаимодействующими, то принцип Паули неприменим. Во-вторых, принцип Паули распространяется на все фермионы, в том числе и на составные фермионы, а не только на электроны. Изначально Вольфганг Паули сформулировал принцип запрета для электронов (1925), но позже обобщил на все фермионы (теорема Паули, 1940). Следовательно, если при определенных условиях, три электрона образуют составной фермион, то принцип Паули будет применятся именно к составному фермиону. Протон и нейтрон являются типичными примерами составных фермионов, к которым применяется принцип Паули (состоят из трех кварков). В-третьих, принцип Паули может нарушатся, например, при гравитационном коллапсе звезд. Именно из-за принципа Паули атомы занимают объѐм и не могут быть сильно сжаты, так как электроны одного спина (↑↑) пространственно разделяются отталкивающим обменным взаимодействием. Это и есть причина, по которой мы можем спокойно ходить по твердой поверхности - два твердых тела не могут находиться в одном и том же месте. Но, если силы сжатия будут намного больше, например, при гравитационном коллапсе звезды, то обменное отталкивание между электронами преодол</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2404.0023v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

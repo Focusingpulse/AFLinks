@@ -25,6 +25,7 @@
   <h1>2109.0113v1</h1>
   <div class="meta"> · archived # 796,014</div>
   <div class="preview">Unishox - A hybrid encoder for Short Unicode Strings Arundale Ramanathan August 22, 2021 Abstract Unishox is a hybrid encoding technique with which short unicode strings could be compressed using context aware pre-mapped codes and delta coding resulting in surprisingly good ratios. 1 Summary This article discusses a hybrid encoding method for compressing Short Unicode Strings of arbitrary lengths including Latin/English text and printable special characters. This has not been sufficiently addressed by lossless entropy encoding methods so far. Although it appears inconsequential, space occupied by such strings be￾come significant in memory constrained environments such as Arduino Uno and ESP8266. Text exchange in Chat applications is another area where cost sav￾ings could be seen using such compression. It is also possible to achieve savings in bandwidth and storage cost by storing and retrieving independent strings in Cloud databases. 2 Basic Definitions In information theory, entropy encoding is a lossless data compression scheme that is independent of the specific characteristics of the medium [1]. One of the main types of entropy coding is about creating and assigning a unique prefix-free code to each unique symbol that occurs in the input. These en￾tropy encoders then compress data by replacing each fixed-length input symbol with the corresponding variable-length prefix-free output code word. According to Shannon’s source coding theorem, the optimal code length for a symbol is −logbP, where b is the number of symbols used to make output codes and P is the probability of the input symbol [2]. Therefore, the most common symbols use the shortest codes. The most popular method for forming optimal prefix-free discrete codes is Huffman coding [3]. 1 Data Compression techniques • Information Science • Unishox - A hybrid encoder for Short Unicode Strings A Dictionary coder, also sometimes known as a substitution coder, is a class of lossless data compression algorithms </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2109.0113v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

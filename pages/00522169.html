@@ -25,6 +25,7 @@
   <h1>2508.0170v1</h1>
   <div class="meta"> · archived # 522,169</div>
   <div class="preview">The Integral Analog of (xD) n and Its Connection to Bessel Numbers Abdelhay Benmoussa Primary School Teacher S S Ansis Agadir Ida Outanane 80000 Morocco abdelhay.benmoussa@taalim.ma Abstract We study the integral analog of the operator x d dx n , obtained by replacing differen￾tiation with integration. We prove that the resulting operator admits an expansion in powers of the integration operator with coefficients given by the Bessel numbers of the second kind {B(n, k)} (OEIS A122848), leading to new explicit formulas and revealing a fundamental role of Bessel numbers in the structure of certain integral operators. 1 Introduction The Euler operator xD, where D = d dx , is a classical and central object in special functions, combinatorics, and operational calculus. It is well known (see [3]) that the powers of this operator admit an expansion in terms of the Stirling numbers of the second kind S(n, k): (xD) n = Xn k=0 S(n, k) x kD k . (1) This formula expresses the operator (xD) n as a linear combination of derivatives Dk , weighted by the coefficients S(n, k). In this paper, we investigate the integral analog of (xD) n , obtained by replacing the differentiation operator D with the integration operator I(f)(x) := Z x x0 f(t) dt, for a fixed reference point x0 ∈ R. We then define the operator xI and its n-fold composition by (xI)n (f)(x) := x Z x x0 xn−1 Z xn−1 x0 xn−2 Z xn−2 x0 · · · x1 Z x1 x0 f(t) dt dx1 · · · dxn−2 dxn−1. 1 This operator intertwines multiplication by x with integration from x0, and thus (x I)n corresponds to a nested sequence of weighted Volterra-type integrals. Our aim is to derive an explicit expansion for (x I)n analogous to (1). 1.1 Bessel numbers The Bessel coefficients a(n, k) (OEIS A001498) naturally appear as the coefficients of x k in the Bessel polynomials [4] yn(x) = Xn k=0 (n + k)! k!(n − k)! x 2 k , and are explicitly given by a(n, k) = (n + k)! 2 k k! (n − k)!, for 0 ≤ k ≤ n. These numbers satisfy the recurrence relation [1] a(n, </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2508.0170v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Conspiracy+++Politics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -21,6 +21,7 @@
   <h1>2406.0047v1</h1>
   <div class="meta"> · archived # 736,769</div>
   <div class="preview">About an equation with radicals Edgar Valdebenito 11 Jun 2024 ABSTRACT In this note we solve an equation with radicals and give two series for Pi I. Introduction Problem. solve the equation f(x) = 1 + x2 - 1 2 1 + x2 + 1 + x2 + 1 = 2 2 + 3 - 3 - 2 (1) Solution z = 1 + x2 - 1 ∧ t = 2 2 + 3 - 3 - 2 ⟹ z 2 1 + z2 + 2 + z2 = t (2) (2) ⟹ 2 t 2 z3 - 2 2 t z2 + 1 + 3 t 2 z - 2 2 t = 0 ∧ x = ±z 2 + z2 (3) (3) ⟹ z = z1 = 0.4116 ... z2 = 4.4010 ... z3 = 5.9292 ... (4) (3) ∧ (4) ⟹ x1 = z1 2 + z1 2 = 0.6063 ..., x2 = -x1 , x3 = z2 2 + z2 2 = 20.344 ... , x4 = -x3 , x5 = z3 2 + z3 2 = 36.142 ... , x6 = -x5 (5) Verification of solutions f(x1) = f(x2) = 2 2 + 3 - 3 - 2 (6) f(x3) = f(x4) = 2 2 + 3 - 3 - 2 (7) f(x5) = f(x6) ≠ 2 2 + 3 - 3 - 2 (8) The set of solutions is: S = {x1, x2, x3, x4} (9) 1 II. Pi formula Recall that π = 4 1 - 1 3 + 1 5 - 1 7 + 1 9 - 1 11 + ... (10) Entry 1. p = 3 + 5 2 + 4 3 + 3 6 3 (11) q = 50 + 28 2 + 18 3 + 18 6 27 (12) w = 2 + 2 2 + 2 3 + 6 3 - q + p q + p q + ... 3 3 3 (13) s = w 2 + w2 = 0.606315861219 ..., (s = x1) (14) π = 6 2 1 + s2 + 1  n=1 ∞ (-1) n-1 4 n - 2 2 n - 1 H2 n-1 2-4 n+2 s2 n-1 + 6 2 1 + s2 - 1  n=1 ∞ (-1) n-1 4 n 2 n H2 n 2-4 n s2 n (15) where Hn = ∑k=1 n 1 k is the harmonic number. III. Endnote Entry 2. π = 12 2  n=1 ∞ 2 n n 2-2 n Hn zn w(n) (16) where z = α - q + pq + pq + p(q + ...) 3 3  3  = 0.2031266828275773 ... (17) w(n) = Im (1 + i) n 1 - z + (1 - z) 2 + z2 - i -1 + z + (1 - z) 2 + z2 , i = -1 (18) α = A1 A2 = 34.21058714031 ... , p = B1 B2 = 0.00013171097 , q = C1 C2 = 28.82728379282 ... (19) A1 = -8 + 12 - 6 2 + 6 - 3 2 + 4 - 2 2 + 2 - 2 - 2 + 2 + 4 + 2 2 + 6 + 3 2 - 12 + 6 2 (20) A2 = 3 -4 + 12 - 6 2 + 6 - 3 2 - 2 + 2 + 4 + 2 2 (21) 2 B1 = 3 4 - 2 2 + 2 + 2 - 2 + 2 + 2 + 2  2 - 2 + 2 - 3 2 + 2 + 2 - 6 2 + 2 + 2 + 3 2 + 2  2 + 2 + 2 4 B2 = 4 -4 - 2 + 6 + 8 12 - 6 2 + 8 6 - 3 2 - 4 4 - 2 2 - 4 2 - 2 - 8 2 + 2 + 8 2 2 + 2  - 4 3 2 + 2  + 4 6 2 + 2  (23) C1 = -4 -104 - 12 2 - 24 6 + 9 12 - 6 2 + 9 6 - 3 2 + 4</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2406.0047v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

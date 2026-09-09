@@ -21,6 +21,7 @@
   <h1>1810.0075v1</h1>
   <div class="meta"> · archived # 724,325</div>
   <div class="preview">The X-cohomology A.Balan October 5, 2018 Abstract With help of a closed form over the manifold, a X-cohomology of the manifold is defined 1 Definition We consider a closed 1-form X over the manifold M; dX = 0. Then we can define: dX(α) = d(α) + X ∧ α It is easy to verify that: Theorem 1 dX ◦ dX = 0 Demonstration 1 Indeed: d(dα + X ∧ α) + X ∧ (dα + X ∧ α) = 0 So, we can have a X-cohomology of the manifold M: Definition 1 XH∗ (M, R) = Ker(dX)/Im(dX) 2 The X-cohomology as a module Theorem 2 The X-cohomology XH∗ (M, R is a module over the coho￾mology of de Rahm viewed as an algebra, H∗ (M, R). Demonstration 2 If: dX(α) = 0 then: dX(α ∧ β) = (−1)deg(α) (α ∧ dβ) 1 References [GHL] S.Gallot, D.Hulin, J.Lafontaine, ”Riemannian Geometry”, Springer-Verlag, Berlin, 2004. [J] N.Jacobson, ”Basic Algebra” I and II, Dover, New-York, 2017. [S] R.Switzer, ”Algebraic Topology-homotopy and homology”, Springer￾Verlag, Berlin, 2002. 2</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/1810.0075v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Reference+Material">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

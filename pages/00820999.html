@@ -30,6 +30,7 @@
   <h1>2409.0107v1</h1>
   <div class="meta"> · archived # 820,999</div>
   <div class="preview">AutoPET III Challenge: PET/CT Semantic Segmentation Reza Safdari1 , Mohammad Koohi-Moghaddam2 , Kyongtae Tyler Bae3 1 safdari@hku.hk, The University of Hong Kong 2 koohi@hku.hk, The University of Hong Kong 3baekt@hku.hk, The University of Hong Kong Abstract In this study, we implemented a two-stage deep learning-based approach to segment lesions in PET/CT images for the AutoPET III challenge. The first stage utilized a DynUNet model for coarse segmentation, identifying broad regions of interest. The second stage refined this segmentation using an ensemble of SwinUNETR, SegResNet, and UNet models. Preprocessing involved resampling images to a common resolution and normalization, while data augmentation techniques such as affine transformations and intensity adjustments were applied to enhance model generalization. The dataset was split into 80% training and 20% validation, excluding healthy cases. This method leverages multi-stage segmentation and model ensembling to achieve precise lesion segmentation, aiming to improve robustness and overall performance. Keywords: PET/CT tumor lesions segmentation, Ensemble Learning Introduction Cancer is globally recognized as one of the leading causes of premature mortality, alongside cardiovascular diseases, and poses a significant global health challenge. Early detection of cancer lesions is crucial for improving survival rates, as the prognosis and treatment options depend on the location and stage of the lesions. Computed tomography (CT) and positron emission tomography (PET) are essential for tumor analysis, providing vital information about the tumor&#x27;s location, anatomy, and stage. However, manual analysis of medical images is time-consuming and error-prone, leading to inconsistencies among specialists. Therefore, there is a pressing need to develop and integrate deep learning methods into healthcare to enhance diagnostic processes and better understand cancer mechanisms. With this in mind, we participated in the AutoPET-II</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2409.0107v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -39,5 +40,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Biology, Health &amp; Medicine">Biology, Health &amp; Medicine</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

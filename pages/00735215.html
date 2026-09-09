@@ -26,6 +26,7 @@
   <h1>2408.0104v1</h1>
   <div class="meta"> · archived # 735,215</div>
   <div class="preview">Connected Prime Digit Factorial Occurrences to The Riemann Zeta Function Parker Emmerson July 2024 Abstract This paper explores the theoretical relationship between the frequency of prime digits in factorial representations and the non-trivial zeros of the Riemann Zeta function. By defining the prime digit frequency within fac￾torials and aggregating these frequencies, we propose a hypothesis where such aggregated prime digit frequencies exhibit periodic patterns that mirror the distribution of the non-trivial zeros of the Riemann Zeta func￾tion. Utilizing Fourier transform analysis, we identify periodic compo￾nents in the digit frequencies that may correspond to these zeros. Sta￾tistical tests, including Chi-Squared and Kolmogorov-Smirnov tests, are employed to validate this connection. This study suggests that the nature of prime digit frequencies in number sequences, such as factorials, may reflect deeper mathematical structures influenced by the Riemann Zeta functions zeros. Code for the programs is available at: Python Code at Github 1 Introduction Mathematical Notation of the Theoretical Connection to the Riemann Zeta Function The goal is to explore the possible theoretical connection between prime digit frequencies in factorials and the Riemann Zeta function, particularly focusing on its non-trivial zeros. Here’s how we can develop the notation and hypotheses: 1. Prime Digit Frequencies in Factorials Let n! denote the factorial of n, and consider the digits of n! in a certain base, typically base-10. Define the frequency of a digit d (where d is a prime digit like 2, 3, 5, or 7 in base-10) in the representation of n! as: Fd(n) = count of digit d in n! total digits in n! 1 These frequencies can be aggregated over multiple factorials to provide in￾sights. For a sequence of factorials from 1 to N, we define the aggregated frequency: Fd(N) = 1 N X N n=1 Fd(n) import math from collections import Counter from sympy import isprime # Calculate Factorial def factorial</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2408.0104v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Electromagnetism+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

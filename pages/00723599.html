@@ -21,6 +21,7 @@
   <h1>1905.0078v1</h1>
   <div class="meta"> · archived # 723,599</div>
   <div class="preview">The universal profinitization of a topological space Pierre-Yves Gaillard To a topological space X we attach in two equivalent ways a profinite space X 0 and a continuous map φ : X → X 0 such that, for any continuous map f : X → Y , where Y is a profinite space, there is a unique continuous map f 0 : X 0 → Y such that f 0 ◦ φ = f . Let X be a topological space. Let X 0 be a profinite space. Say that a map φ : X → X 0 is a universal pro nitization of X , or, more concisely, that φ : X → X 0 has Property (P), if φ is continuous and if for any continuous map f : X → Y , whereY is a profinite space, there is a unique continuous map f 0 : X 0 → Y such that f 0 ◦ φ = f : X X 0 Y. f φ f 0 Such a pair (X 0 , φ), if it exists, is unique in an obvious sense. More precisely, a simple and standard argument shows that, if φ 0 : X → X 00 also has Property (P), then • there is a unique continuous map u : X 0 → X 00 such that u ◦ φ = φ 0 : X X 0 X 00 , φ φ 0 u • there is a unique continuous map v : X 00 → X 0 such that v ◦ φ 0 = φ: X X 0 X 00 . φ φ 0 v 1 • u and v are inverse homeomorphisms. The purpose of this text is to prove that such a pair does exist, and to define it in two (necessarily equivalent) ways. The first method is to use the Stone-Čech compactification β(X ) of X , and to set X 0 := β(X )/∼ where x1 ∼ x2 if and only if x1 and x2 are in the same connected component. The only thing to verify is that β(X )/∼ is a profinite space. To prove this, the only slightly delicate point is to check that β(X )/∼ is Hausdor , but this follows from Corollary 5.7.11 in [1]. The sequel is dedicated to the second method, which can be described as follows: Let A(X ) be the boolean algebra formed by the clopen subsets of X , let X 0 be the set of all boolean algebra morphisms from A(X ) to 2 := {0, 1}, and define φ : X → X 0 by (φ(x))(U ) = 1 ⇐⇒ x ∈ U for all point x of X and all clopen subset U of X . By Proposition 4.1.3 and Lemma 4.1.8 in [1], there is unique topology τ on X 0 such t</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/1905.0078v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

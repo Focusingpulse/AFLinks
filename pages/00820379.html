@@ -33,6 +33,7 @@
   <h1>2412.0057v1</h1>
   <div class="meta"> · archived # 820,379</div>
   <div class="preview">1 GKD-ER: Gradient-space Knowledge Distillation with Episodic Replay for Mitigating Catastrophic Forgetting in Continual Learning John Tian Mira Costa High School Manhattan Beach, California, USA john.tian31@gmail.com Abstract—Continual learning (CL) seeks to enable machine learning models to learn a sequence of tasks incrementally without suffering substantial degradation on previously mastered tasks. Achieving this objective is central to developing advanced intelligent systems that operate over extended time horizons, adapt to dynamic and evolving data distributions, and handle changing environmental conditions. Application domains are broad and include: robotics operating in dynamic and partially unknown terrains [1], [2], personalized recommendation systems that track ever-shifting user preferences, and autonomous vehicles that face continuously varying traffic patterns and weather conditions [3]. However, conventional neural networks trained incrementally suffer from catastrophic forgetting, wherein parameters optimized for newer tasks overwrite or disrupt those that were previously tuned for older tasks. Such destructive interference results in a sharp loss of performance on earlier tasks, reducing the reliability and utility of the model over time. Without effective mitigation strategies, catastrophic forgetting severely limits the viability of long-lived, incrementally evolving models, often forcing practitioners to resort to expensive retraining from scratch. We introduce GKD-ER (Gradient-space Knowledge Distillation with Episodic Replay), a theoretically grounded and empirically validated framework that substantially reduces catastrophic forgetting. GKD-ER integrates three powerful and complementary techniques: 1) Gradient Projection (GP) [4]: By carefully identifying and removing gradient components that harm older tasks, GP ensures parameter updates for new tasks are orthogonal to previously learned knowledge, thus safeguarding the stability of older re</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2412.0057v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -42,5 +43,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Environment &amp; Climate">Environment &amp; Climate</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

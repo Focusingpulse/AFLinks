@@ -23,6 +23,7 @@
   <h1>2506.0104v2</h1>
   <div class="meta"> · archived # 624,065</div>
   <div class="preview">The Linear Combination Implied By the Euclidean Algorithm Using a TI84-CE Program Timothy W. Jones July 9, 2025 Abstract The Euclidean Algorithm finds the greatest common divisor (GCD) of two integers; it also gives a way to express the GCD as an integer linear combination of the two numbers. This latter feature is not easily done by hand. We present programs for the Euclidean Algorithm and give a fast and easy way to find this linear combination. Introduction The numbers less than and relatively prime to any positive integer is a group under multiplication [2, 3]. To show every element in say the group of in￾tegers less than 18 and relatively prime to it, call it RP(≡18, ∗) is a group requires that each of the classes given by {1, 5, 7, 11, 13, 17}has an inverse.1 If A ∈ RP(≡18, ∗) then GCD(A, 18) = 1 is a given. Expressing A as a linear combination yields AX + 18Y = 1. Is X in a relatively prime class? If it shares a factor with 18, say X = 3R, then A3R + 18Y = 1 forces 3|1, a contradiction. So yes, A has an inverse in ∈ RP(≡18, ∗), if we can find these X and Y values. 1We reference classes with the smallest positive element in the class. 1 Abstract Algebra books prove the Euclidean Algorithm and they show in theory that X and Y exist. Schaum’s Outline for Abstract Algebra [1] shows how to find the actual X and Y in 758X + 242Y = GCD(758, 242) = 2 and 726X + 275Y = 11 using the Euclidean Algorithm. It is difficult and hard to follow. It doesn’t have to be. There is an easy trick using complex numbers that makes both hand calculations and computer programs much easier. Ordered Pairs Take the example of finding X and Y for 758 and 242. Suppose we have computed the sequence of N = DQ + R given in Table 1. Our nomencla￾ture: N, number; D, divisor; Q, quotient; and R, remainder. The quotients are in parenthesis in Table 1. 758 = 242(3) + 32 758 − 242(3) = 32 242 = 32(7) + 18 242 − 32(7) = 18 32 = 18(1) + 14 32 − 18(1) = 14 18 = 14(1) + 4 18 − 14(1) + 4 14 = 4(3) + 2 14</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2506.0104v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Reference+Material">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

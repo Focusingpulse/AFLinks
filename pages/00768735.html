@@ -21,6 +21,7 @@
   <h1>2007.0240v1</h1>
   <div class="meta"> · archived # 768,735</div>
   <div class="preview">An Alternative Model of Probability Theory by D Williams --------------------------------------------------------------------- Abstract: An alternative model of probability is outlined and compared with the standard version. Difficulties in extending the Central Limit Theorem are resolved by adopting a new version of population mean developed using the new model and dx￾less integrals. New types of sample means are proposed with one tested against the standard mean which appear to have faster convergence. Much remains to be done in this area. --------------------------------------------------------------------- There are alternative models of geometry (euclidean, non-euclidean), analysis (standard, non-standard), set theory (ZF with/without AC) and so on. So why not probability theory? An alternative model of probability theory (APT) can be constructed using functions of random numbers between 0 and 1 - (f(ran#) or f(r)) - instead of probability density functions (pr(x)). All the usual results follow … except there are a few minor differences for some distributions at some points. Firstly we need something to play with. From a given f(ran#) you can construct a pr(x) using the following transformations: and vice-versa. With APT, expectations are: Example: For variances: 1 0 E f ran f x dx ( ( #)) ( ) = ò / 1 1 ( #) ( ) ( ) ( ) ( ) ( ) replace invert d dx d f ran f x cpr x f x pr x f x dx ® ® = ® = - - Example: consider pr(x)=x/2 (0&lt;x&lt;2) With standard probability theory: With alternative probability theory: There is also the Law of large Numbers (LLN): Old Prob Theory New Prob Theory And the Central Limit Theorem (CLT): Old Prob Theory New Prob Theory So far, so good. 1 2 2 0 1 2 2 0 1 1 2 2 0 0 ( ( #)) ( ( ) ( ( ))) ( ( )) [ ( ( ))] ( ( )) ( ( ) ) Vr f ran f x E f x dx f x dx E f x f x dx f x dx s = = - = - = - ò ò ò ò 2 2 3 0 0 2 2 2 2 4 0 0 2 2 2 2 ( ) ( / 2) / 6 4 / 3 ( ) ( / 2) / 8 2 ( ) [ ( )] 2 (4 / 3) 2 / 9 E x x x dx x E x x x dx x s E x E x = = = = = = \ = - </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2007.0240v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

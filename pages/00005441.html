@@ -25,6 +25,28 @@
   <h1>Viktor Schauberger: Austrian Patents (Vortex Control of Water</h1>
   <div class="meta">👤 Viktor Schauberger ·  · archived # 5,441</div>
   <div class="preview">Viktor Schauberger: Austrian Patents (Vortex Control of Water Flow) ![image](0logo.gif) rexresearch.com Viktor SCHAUBERGER Austrian Patents (Water Control by Vortex Action) ![image](vs40yrs.jpg) ![image](vsold.jpg)</div>
+  <div class="openlab" data-bg-tier="aesthetic" data-bg-source="Open Lab replication guide (Directive C)">
+  <div class="ol-tabs"><span class="ol-tab on">Modern Replication Guide</span><span class="ol-tab">Why This Matters Now</span></div>
+  <div class="ol-panel">
+    <div class="ol-meta"><span class="rg-status rg-protocol">protocol</span>
+      <span class="ol-chip">replicability: home</span><span class="ol-chip">cost: &lt;$30</span></div>
+    <p class="rg-claim"><strong>Core hypothesis (quoted):</strong> A hyperbolic funnel with a narrow threaded (rifled) outlet generates a centripetal vortex in water that cools it, &#x27;revitalizes&#x27; it (claimed softer/rounder mouthfeel), reduces algae, and reduces irrigation energy by ~30%.</p>
+    <p class="ol-subhead">Variable checklist — with modern affordable equivalents</p>
+    <div class="rg-vars"><div class="rg-row"><span class="rg-var">Water temperature before/after vortexing (0.1°C thermometer)</span><span class="rg-mod">digital kitchen thermometer</span></div><div class="rg-row"><span class="rg-var">Blind mouthfeel preference (softer/rounder vs harder/flatter)</span><span class="rg-mod">paper cups + helper randomization, 5 sessions</span></div><div class="rg-row"><span class="rg-var">Algae growth over 2 weeks (ranked photos)</span><span class="rg-mod">2 identical small tanks + pond-water algae source</span></div><div class="rg-row"><span class="rg-var">Irrigation water volume + seedling growth</span><span class="rg-mod">2 rows identical seedlings, weekly photos</span></div></div>
+    <p class="ol-subhead">Safety &amp; calibration</p>
+    <p class="rg-safety">Trivial — water and plastic, nothing pressurized, nothing hot.</p>
+  </div>
+  <div class="ol-panel" style="display:none">
+    <p class="rg-why">Schauberger&#x27;s centripetal-orders-water thesis is the keystone of the vortex physics cluster. A clean home test of even one measurable facet (temperature, taste, algae) would be the first independent data point the archive has on the entire lineage. Dovetails with the Village water domain and permaculture irrigation.</p>
+    <p class="ol-subhead">Modern bridges</p>
+    <ul class="rg-refs"><li>JoVE hyperbolic water vortex protocol (2023)</li><li>Contemporary vortex water treatment literature</li></ul>
+  </div>
+  <div class="ol-log">
+    <span class="ol-log-label">⚗ Log an Attempt</span>
+    <p class="ol-log-note">Built it? Log photos, data, and notes. Submissions go to quarantine first, then human review — nothing publishes automatically.</p>
+    <a class="btn ghost" href="mailto:?subject=Open Lab attempt — Schauberger Water Vortexer (Wasserwirbler)">Submit an attempt →</a>
+  </div>
+</div>
   <div class="actions"><a class="btn" href="https://www.rexresearch.com/schaub/schaub.htm" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Water+Geometry">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +56,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Sacred &amp; Projective Geometry">Sacred &amp; Projective Geometry</a><a class="tag" href="/AFLinks/?cat=Water Structure &amp; Memory">Water Structure &amp; Memory</a><a class="tag" href="/AFLinks/?cat=Harmonics, Rhythms &amp; Cycles">Harmonics, Rhythms &amp; Cycles</a><a class="tag" href="/AFLinks/?cat=Water">Water</a><a class="tag" href="/AFLinks/?cat=Geometry">Geometry</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

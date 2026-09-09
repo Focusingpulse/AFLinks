@@ -25,6 +25,7 @@
   <h1>2212.0071v2</h1>
   <div class="meta"> · archived # 802,302</div>
   <div class="preview">Author: Herman Schoenfeld Version: 1.1 Date: 2020-07-20 Copyright: (c) Sphere 10 Software Pty Ltd. All Rights Reserved. WAMS - Winternitz Abstract Merkle Signature Scheme Abstract A quantum-resistant, many-time signature scheme combining Winternitz and Merkle-Signature schemes is proposed. This construction is compatible with the Abstract Merkle Signature (AMS) Scheme 1 and thus is an AMS-algorithm called &quot;WAMS&quot;. 1. Introduction WAMS is a specialization of the AMS 1 scheme parameterized with the standard Winternitz one-time signature scheme (W-OTS). WAMS is a quantum-resistant cryptographic scheme suitable for blockchain-based applications. This document focuses only on the OTS-layer of WAMS. The merkle signatures themselves are performed as part of the AMS-layer of WAMS which is defined in the AMS document 1 . The reader should familiarize themselves with the AMS document as it provides the background context for AMS￾algorithms of which WAMS is one. 2. WAMS Scheme The Winternitz Abstracted Merkle Signature (WAMS) Scheme is a general purpose, quantum-resistant digital signature scheme. WAMS is an AMS algorithm that selects the standard Winternitz OTS (W-OTS) as the OTS parameter. As part of the parameter set inherited from AMS, WAMS includes the additional parameters H , a cryptographic hash function and w , the Winternitz parameter. The selected cryptographic hash function H is fundamental to the security of WAMS, an analysis of which is not provided in this paper. So long as the user selects a standard CHF such as SHA2-256 or Blake2b , the security of WAMS is equivalent to standard W-OTS constructions. For performance, the use of W-OTS# 2 may be used in conjunction with Blake2b-128 in order to reduce signature sizes without introducing vulnerability to birthday-class attacks. In the presented construction herein, the Winternitz parameter w refers to the number of bits being simultaneously signed as famously proposed by Merkle 3 (who was inspired by Winternitz). Va</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2212.0071v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Electromagnetism+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -25,6 +25,7 @@
   <h1>2503.0051v1</h1>
   <div class="meta"> · archived # 731,330</div>
   <div class="preview">1/2 Disprove of a Proof of Euler&#x27;s Formula Author: Sigrid M.-L. Obenland Abstract In 1991, Gilbert Strang published a proof of Euler&#x27;s formula using polar coordinates in Calculus, Wellesley-Cambridge, p. 389. In the following we show that this alleged proof is not valid. Comments The so-called proof uses the fact that all complex numbers can be expressed in polar coordinates. It is assumed that eix = r(cos  + i sin) at least for some r and . No assumptions are made for x, r and q, especially for the relationship between x on one side and r and q on the other side In the following, the derivative of x for the assumed equation will be calculated. The derivative of e ix with respect to x is ieix. Calculating the derivative with respect to x for r (cos q + i sin q) yields the following equation: ieix = (dr/dx) (cos q + i sin q) + (dq/dx) ir (cos q + i sinq) Using the assumption for eix as given above, this yields the equation: ieix = (dr/dx) (cos q + i sin q) + (dq/dx) i eix. Making the right and the left side of the equation equal can be achieved by setting: (dr/dx) = 0 and (dq/dx) = 1. Integrating the latter assumption yields a linear relationship between x and q, which can be written as: q = x + C, with C being a constant. While the former assumption holds true, the latter assumption is obviously incorrect, as demonstrated in the following by figure 1. 2/2 Figure 1 In figure 1, each unit Δx on the x-axis is associated with an angle q in arc measure on the arc of the circle with radius r and its corresponding secant (shown in red). From figure 1 it becomes obvious, that the secants and, thus, the angles are not in a linear relationship with x, since each secant has different length. Even if a constant C is introduced into the secant between x = 9 and x = 10, only the secants between x = 8 and x = 9 as well as between x = 9 and x = 10 can be made of equal length. The rest of the secants still remains different. Accordingly, it is obvious that a linear relationship b</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2503.0051v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

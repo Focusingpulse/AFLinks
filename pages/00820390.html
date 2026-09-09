@@ -30,6 +30,7 @@
   <h1>2412.0021v1</h1>
   <div class="meta"> · archived # 820,390</div>
   <div class="preview">УДК 004.85 E. RULKO APPLYING ATTENTION U-Net WITH PyTorch ARCHITECTURAL ADD-ONS FOR EX￾TENSIVE HYPERPARAMETER SEARCH WITH Weights &amp; Biases FOR AREA OF VIS￾IBILITY PREDICTION BASED ON TERRAIN Military Academy of the Republic of Belarus Current level of development in the sphere of deep learning allows replacing existing domain-specific algo￾rithms for military simulation with approximating neural networks. Hyperparameter search allows finding network’s architecture, appropriate for a task. This work describes that process for the task of predicting area of optical visibility, taking a fragment of a digital map as input and proposes ancillary architectural solutions for stitching building blocks together, assuring their conformation for performing search among their possible combinations within the architectural space. The final proposed result is a channel-wise attention U-Net with an encoder, based on ResNet50 backbone. Keywords: deep learning, U-Net, attention, segmentation, hyperparameter search, W&amp;B, template method. Introduction Calculation of an area of potential visi￾bility, based on current terrain and the position of an observer, plays an important role in mili￾tary simulation. For air defense simulators [1] it’s essential to get radar coverage – Figure 1. Figure 1: Radar coverage based on terrain In ground forces simulators [2] every unit must be provided with an area of optical visibility – Figure 2. Building such areas in both cases require moving along azimuth direction with certain discretization and calculating an￾gles of elevation. At the same time current de￾velopment of deep learning allows tackling such tasks, including calculation of some military domain-specific areas on a map, like artillery shooting range area, area of sustainable com￾munication with the influence of electronic war￾fare equipment, range of effective fire for spe￾cific arms depending on conditions and so on. Figure 2: Areas of optical visibility Transferring military simulation </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2412.0021v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -39,5 +40,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

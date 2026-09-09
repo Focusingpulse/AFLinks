@@ -30,6 +30,7 @@
   <h1>2512.0114v2</h1>
   <div class="meta"> · archived # 801,845</div>
   <div class="preview">Non-Colliding Path Authorisation with Epoch-Based Liveness Feliciano P. F. Domingos feliciano.domingos@ntu.ac.uk Nottingham Trent University - Department of Computer Science; Clifton, Nottingham, UK Abstract—I present Non-Colliding Path Authorisation (NCPA), a lightweight authorisation protocol in which access rights are en￾coded as single-use, ordered paths through a system graph. Each authorization must be exercised sequentially, without replay, and without colliding with other concurrent authorizations. To ensure liveness, paths are allocated within bounded epochs, allowing safe reclamation of exhausted resources. Unlike traditional access control systems that rely on centralised locks or cryptographic capabilities, NCPA enforces safety properties through structural constraints and explicit state transitions. I provide an executable specification of the protocol and validate its security properties using property-based testing. Our results demonstrate that NCPA prevents replay, skipping, impersonation, and collisions, while guaranteeing bounded exhaustion and epoch-based recovery. I. INTRODUCTION Distributed systems frequently require fine-grained, short￾lived authorisation mechanisms that support concurrency with￾out centralised locking [1]. Examples include pipeline exe￾cution, multi-stage workflows, and resource reservations in microservice architectures. Existing approaches typically rely on cryptographic tokens [2], global locks [3], or optimistic concurrency schemes, each introducing complexity or con￾tention. This paper explores an alternative design point: authori￾sation by path [4]. Instead of granting access to individual resources, an authorisation encodes a predefined sequence of system nodes that must be traversed in order [1]. Each step validates the previous one, ensuring sequential integrity and single-use semantics [5]. I introduce Non-Colliding Path Authorisation (NCPA), a protocol that enforces: (i) strict step ordering, (ii) replay resistance,</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2512.0114v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -39,5 +40,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

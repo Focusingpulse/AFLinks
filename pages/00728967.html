@@ -25,6 +25,7 @@
   <h1>2606.0053v1</h1>
   <div class="meta"> · archived # 728,967</div>
   <div class="preview">An Optimized Sech-Based Approximation of e−x 2 Vladyslav Vasilache Email: vvasilache97@gmail.com June 13, 2026 Abstract This paper introduces a new, highly accurate approximation for the function e −x 2 . By differentiating a known error function approximation and optimizing its parameters, we drastically reduce the maximum absolute error from 1.88% to less than 0.09% without using any exponential terms. 1 Introduction The Gaussian function f(x) = e −x 2 is foundational across physics, statistics, and machine learning. Because its antiderivative — the error function erf(x) — is non-elementary, various approximations have been proposed. One well-known formulation is the Vedjer (Winitzki) ap￾proximation: erf(x) ≈ tanh  2 √ π x + 0.147x 3  (1) While this formula is heavily optimized to minimize the error of the integral, its direct derivative has not been deeply explored as a standalone approximation for the Gaussian curve itself. In this work, we derive this derivative and optimize its coefficients to fit the exact Gaussian distribution. 2 The Derivative To obtain an approximation for the Gaussian function, we can take the derivative of the error function approximation. Recall the following relation: d dxerf(x) = 2 √ π e −x 2 (2) By applying the chain rule to the Vedjer approximation, and using the identity d du tanh(u) = sech2 (u), we differentiate the right-hand side of Equation 1. Let the inner function be u(x) = √ 2 π x + 0.147x 3 . Its derivative is: u ′ (x) = 2 √ π + 3 × 0.147x 2 (3) Multiplying the total derivative by √ π 2 , we isolate the approximation for the exact Gaussian curve e −x 2 : e −x 2 ≈ √ π 2  2 √ π + 0.441x 2  sech2  2 √ π x + 0.147x 3  (4) When evaluated across the entire real line against the true Gaussian function, this baseline configuration yields a maximum absolute error of 0.0188 (1.88%). The maximum divergence occurs as a noticeable gap around x ≈ 0.63. 1 3 Parameter Optimization and Results Let 0.147 = k .Since the parameter k = 0.</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2606.0053v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

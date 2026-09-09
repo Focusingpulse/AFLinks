@@ -23,6 +23,7 @@
   <h1>2004.0425v1</h1>
   <div class="meta"> · archived # 769,014</div>
   <div class="preview">Automatic tempered posterior distributions for inverse problems L. Martino† , J. L´opez-Santiago∗ , J. M´ıguez∗ † Universidad rey Juan Carlos (URJC), Madrid, Spain. ∗ Universidad Carlos III de Madrd (UC3M), Madrid, Spain. April 17, 2020 Abstract We propose a new Monte Carlo technique for Bayesian inversion problem. The power of the noise perturbation in the observation model is also estimated jointly with the rest of parameters. Moreover, it is also used as a tempered parameter. Hence, a sequence of tempered posterior densities is considered where the tempered parameter is automatically selected according to the actual estimation of the power of the noise perturbation. 1 Introduction UNDER CONSTRUCTION 2 Problem Statement Let denote the observed measurements as y = [y1, ..., yK] &gt; ∈ R K, and the variable of inter￾est that we desire to infer, as θ = [θ1, ..., θM] &gt; ∈ Θ ⊆ R M. Furthermore, let consider the observation model y = f(θ) + e, (1) where we have a nonlinear mapping, f(θ) = [f1(θ), ..., fK(θ)]&gt; : Θ ⊆ R M → R K, (2) and a Gaussian perturbation noise, e = [e1, ..., eK] &gt; ∼ N (e|0, σ2 IK), (3) with σ &gt; 0, and we have denoted the K-dimensional unit matrix as IK. The noise variance σ 2 is unknown, in general. The mapping f could be analytically unknown: the only assumption is 1 that we are able to evaluate pointwise the nonlinear mapping f(θ). The likelihood function is `(y|θ, σ) = 1 (2πσ2 )K/2 exp  − 1 2σ 2 ||y − f(θ)||2  , (4) = 1 (2πσ2 )K/2 exp − 1 2σ 2 X K k=1 (yk − fk(θ))2 ! . (5) Note that we have two types of variables of interest: the vector θ contains the parameters of the nonlinear mapping f(θ), whereas σ is a scale parameter of the likelihood function. Goal. Given the vector of measurements y, we desire to make infer regarding the hidden parameters θ and the noise power σ 2 , obtaining at least a point estimators θb and σb 2 . Note also that the vector r = f(θ) ∈ R K, (6) is a multivariate random variable obtained by the transformation of the random v</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2004.0425v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

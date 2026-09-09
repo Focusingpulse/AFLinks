@@ -21,6 +21,7 @@
   <h1>2005.0107v1</h1>
   <div class="meta"> · archived # 570,869</div>
   <div class="preview">©Франц Герман Саморазвивающиеся структуры 1 Франц Герман Саморазвивающиеся структуры (продолжая идеи Джона Конвея) franz.h-n@yandex.ru Памяти Джона Конвея Впервые я познакомился с игрой «Жизнь» в 1972 году по книге Мартина Гарднера «Математические досуги». Потом этой игре были посвящены статьи в научно-популярных журналах. Иногда еѐ ещѐ называют «Эволюция». Сейчас информацию об этой игре легко можно найти в интернете. Созданы специальные компьютерные программы на основе правил игры «Жизнь». Структуры, возникающие в ходе этой игры, носят очень симметричный характер. Как это ни странно, именно эта симметрия мне и не нравилась. Кроме того хотелось играть в эту игру просто имея под рукой бумагу в клеточку и карандаш. Без всяких фишек. Именно игра «Жизнь» послужила основой для той игры в саморазвивающиеся структуры (СРС), о которой мы хотим рассказать на страницах этой заметки. Местом действия игры является бесконечное клеточное поле. Для начала подойдѐт тетрадь в клеточку. На Рис. 1, 2 показано развитие структуры в игре СРС до 18-го хода. Рис. 1 ©Франц Герман Саморазвивающиеся структуры 2 Рис. 2 Но начнѐм всѐ по порядку. Как уже было сказано, играть надо на клеточном поле. Клеткой игровой структуры является окружность, целиком умещающаяся на квадратике игрового поля (Рис. 3). Рис. 3 Клетки, по определѐнным правилам объединяюся в цепочки (Рис. 4). Рис. 4 Структурой будем называть клетки, объединѐнные в цепочки (Рис. 5). На Рис. 4 показана структура, состоящая из одной цепочки. Клетки Цепочка клеток ©Франц Герман Саморазвивающиеся структуры 3 Рис. 5 Клетки объединяются в цепочки при помощи связей. Первый этап игры начинается с задания структуры. На игровое поле наносятся клетки. Потом клетки объединяются в цепочки. Для этого необходимо выбрать начальную клетку по Правилу 1. Правило 1. Начальной клеткой цепочки является свободная (не включѐнная в цепь) клетка, расположенная на поле левее всех остальных. Если таких (левых) клеток несколько, то из них выбирается самая верхня</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2005.0107v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

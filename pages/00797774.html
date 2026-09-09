@@ -25,6 +25,7 @@
   <h1>2103.0041v1</h1>
   <div class="meta"> · archived # 797,774</div>
   <div class="preview">International Journal of Computer Science &amp; Information Technology (IJCSIT) Vol 13, No 1, February 2021 10.5121/ijcsit.2021.13101 1 EFFICIENT FIELD OF VISION ALGORITHMS FOR LARGE 2D GRIDS Evan R.M. Debenham and Roberto Solis-Oba Department of Computer Science, The University of Western Ontario, Canada ABSTRACT This paper presents new algorithms for Field of Vision (FOV) computation which improve on existing work at high resolutions. FOV refers to the set of locations that are visible from a specific position in a scene of a computer game. We review existing algorithms for FOV computation, describe their limitations, and present new algorithms which aim to address these limitations. We first present an algorithm which makes use of spatial data structures in a way which is new for FOV calculation. We then present a novel technique which updates a previously calculated FOV, rather than re-calculating an FOV from scratch. We compare our algorithms to existing FOV algorithms and show they provide substantial improvements to running time. Our algorithms provide the largest improvement over existing FOV algorithms at highresolutions, thus allowing the possibility of the creation of high resolution FOV-based video games. KEYWORDS Field of Vision (FOV), Computer Games, Visibility Determination, Algorithms 1. INTRODUCTION A Field of Vision (FOV) is the set of locations that are visible from a specific position in a scene of a computer game. FOV is calculated over a two-dimensional finite grid which is referred to as the FOV grid. An FOV grid partitions a game’s environment into rectangular cells. If a cell within this grid contains an object which is vision-blocking (such as a wall, a tree, etc.) then that entire cell is vision-blocking. Video games use an FOV grid as it allows them to consider the visibility of a whole region at once, which is significantly less computationally expensive than considering the visibility of every point in the environment. Because of this, an F</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2103.0041v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Conspiracy+++Politics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Biology, Health &amp; Medicine">Biology, Health &amp; Medicine</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a><a class="tag" href="/AFLinks/?cat=Biology">Biology</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

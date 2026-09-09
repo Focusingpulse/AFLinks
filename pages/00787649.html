@@ -21,6 +21,7 @@
   <h1>2407.0093v1</h1>
   <div class="meta"> · archived # 787,649</div>
   <div class="preview">Extended Abstract Modified TA-Prioritized: Task and Path Planning for Multi-Agent Pickup and Delivery 1 A Replication Study of the TA-Prioritized Algorithm with a Modified Deadlock Avoidance Method NICOLAAS PIETER CAWOOD Corresponding author: pieter.cawood@gmail.com Compiled June 4, 2020 This paper proposes a modified deadlock avoidance method for the TA-Prioritized algorithm by Liu et al. [1]. Their algorithms were developed for the offline Multi-Agent Pickup and Delivery (MAPD) prob￾lems where a team of agents have delivery tasks with known release times (when the tasks are ready for pickup.) Offline MAPD problems exist in settings such as warehouses and factories where the release times of tasks are known in advance and Liu et al. [1] make use of this information to compute a good task sequence for each agent using a travelling salesman problem (TSP) solver. The task sequences are then used to plan agent paths accordingly and the deadlock avoidance method proposed attempts holding the pickup locations (keeping an agent stationed at a vertex) if an agent has reached it before the release time and retrying a 1 timestep delayed path from the agent’s initial parking location if any of the agent’s tasks’ path finding fails. 1. INTRODUCTION In an MAPD problem setting there exists multiple robots in a shared environment intending to have the lowest makespan and collision-free paths planned over the entire set of tasks distributed amongst agents. Multi-Agent Path Finding (MAPF) problems are known to be NP-hard, however, they might be computed within polynomial time when treated as a max-flow problem when allowing task goals to be swapped [2]. The TA-Hybrid and TA-Prioritized algorithms were designed for an offline setting, where the tasks for an instance and their release times (time that collection is ready) are known before initialising the system. There are also settings of lifelong (online) problems, where tasks are only known to exist after their release times have </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2407.0093v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

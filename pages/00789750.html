@@ -30,6 +30,7 @@
   <h1>2309.0146v1</h1>
   <div class="meta"> · archived # 789,750</div>
   <div class="preview">A polynomial solution for the 3-SAT problem B.Sc. Geraldine Reichard reichardgeraldine@yahoo.com 10.03.2023 Abstract In this paper, an algorithm is presented, solving the 3-SAT problem in a poly￾nomial runtime of O(n 3 ), which implies P = NP. This would solve the P/NP problem. The 3-SAT problem is about determining, whether or not a logical expression, consisting of clauses with up to 3 literals connected by OR-expressions, that are interconnected by AND-expressions, is satisfiable. For the solution a new data structure, the 3-SAT graph, is introduced. It groups the clauses from a 3-SAT expression into coalitions, that contain all clauses with lit￾erals consisting of the same variables. The nodes of the graph represent the variables connecting the corresponding coalitions. An algorithm R will be introduced, that identifies relations between clauses by transmitting markers, called upgrades, through the graph, making use of impli￾cations. The algorithm will start sequentially for every variable and create start upgrades, one for the variables negated and one for its non-negated literals. It will be shown, that the start upgrades have to be within a specific clause pattern, called edge pattern, to mark a beginning or ending of an unsatisfiable sequence. The algorithm will eventually identify other kinds of pattern within the upgraded clauses. Depending on the pattern, the algorithm either sends the upgrades on through the graph, creates new following upgrades to extend the upgrade path, a subgraph storing all previous upgrades, or if all connector literals of a pattern have received upgrades of the same path or two corresponding following upgrades circle, marks the upgrade as circling. If an upgrade circles, then it is unsatisfiable on its path. It will be proven, that if after several execution steps of algorithm R, two corresponding start upgrades circle, then the expression is unsatisfiable and if no upgrade steps are possible anymore and the algorithm did not retu</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2309.0146v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -39,5 +40,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Frontier Science">Frontier Science</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

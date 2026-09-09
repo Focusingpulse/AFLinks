@@ -27,6 +27,7 @@
   <h1>2506.0074v1</h1>
   <div class="meta"> · archived # 811,954</div>
   <div class="preview">Temporal Information Curvature: A Robust Diagnostic for Instability in Machine Learning Training Dynamics Dhruvil Chodavadiya Rajeshbhai Department of Data Science Engineering Gujarat Technological University Ahmedabad, Gujarat – 382424, India dhruvilchodavadiya786r@yahoo.com ORCID: 0009-0004-7764-0935 Abstract Training loss metrics in machine learning are often reactive, failing to anticipate instability until divergence occurs. I propose Temporal Information Curvature (TIC), a novel time-aware diagnostic that measures curvature, nonlinear feedback, and memory effects in training dynamics. Through simulations across clean, unstable, and noisy loss curves, I show that TIC detects instability early, remaining robust to noise and outperforming derivative-only metrics. TIC also enables plug-and-play decision logic for training optimization, with applications extending to finance and signal processing. This work establishes TIC as a versatile and reliable tool for temporal analysis in machine learning and beyond. Keywords: Temporal Information Curvature, Training Dynamics, Instability Detection, Machine Learning, Time￾Aware Diagnostics 2 1 Introduction Training deep neural networks often requires monitoring loss curves to assess model performance. However, tradi￾tional metrics, such as raw loss or its derivatives, are reactive and fragile, often failing to anticipate instability until the loss diverges (1). This limitation becomes especially evident in noisy or unstable training regimes, where visual inspection of loss curves is unreliable. While methods like gradient norm monitoring exist (4), they lack temporal context and struggle to differentiate between transient fluctuations and genuine instability. Consequently, there is a critical need for a time-aware diagnostic that can proactively detect instability in training dynamics. In this paper, I introduce Temporal Information Curvature (TIC), a novel metric designed to measure the temporal &quot;bend&quot; of a training loss c</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2506.0074v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a><a class="tag" href="/AFLinks/?cat=Steinmetz">Steinmetz</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

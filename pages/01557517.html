@@ -23,6 +23,7 @@
   <h1>befield1</h1>
   <div class="meta"> · archived # 1,557,517</div>
   <div class="preview">Estimating maximum E-field Content on this page from the web site of Jim Lux Estimating the magnitude of the Electric Field A lot of practical high voltage design requires knowing what the maximum E-field is, for insulation design, corona reduction, etc. The exact field can, of course, be calculated numerically by solving Laplace&#x27;s equation over a suitable field with appropriate boundary conditions. As complicated and time consuming as this is, it is necessary when performance is critical, in integrated circuit design, designs for absolute minimum cost, and so forth. However, for more run of the mill experimentation and use, where a little overdesign can be tolerated, approximations to the field are just as useful. The mean or average field is just the voltage difference divided by the distance between the conductors. For the proverbial infinite flat plates, this makes the calculation simple. Emax = Eaverage = V / Distance For two concentric cylinders (i.e. like coaxial cable) the maximum field is: Emax = V / ( Rinner * LN( Router / Rinner)) where: Rinner is radius of the inner electrode Router is the radius of the outer electrode LN() is the log base e of the argument V is the voltage between the electrodes For concentric spheres, using the same variables, the maximum field is: Emax = V * Router / (Rinner *(Router - Rinner)) For two parallel cylinders of equal radius: Emax = V * SQRT(D^2 - 4 * R^2)/ (2 * R*(D-R)*INVCOSH(D/(2*R))) approx equal to: V / (2*R) * LN(D/R) if D&gt;&gt;R where: D is distance between the centers of the conductors R is the radius of the conductors For two spheres: Emax = approximately V/S * F where: S is spacing between spheres = D - 2*R F is a field enhancement factor = F = (S/R+1) * sqrt( (S/R+1)^2+8)/4 For spheres, if S&gt;&gt;R then Emax = approx V/ (2*R) For other configurations: Emax = Eaverage * F For sphere/plane: F = 0.94*Spacing/Radius + 0.8 For cylinder/plane: F = 0.25 * Spacing / Radius + 1.0 Copyright 1998, Jim Lux / efield1.htm / 12 March </div>
+  
   <div class="actions"><a class="btn" href="http://webozz.free.fr/Free%20energy%20data/befield1.htm" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

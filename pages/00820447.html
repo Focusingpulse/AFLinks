@@ -29,6 +29,7 @@
   <h1>2411.0102v1</h1>
   <div class="meta"> · archived # 820,447</div>
   <div class="preview">Cost-Per-Byte Principle in Generative AI Xiaoyi Li Abstract Generative AI models are increasingly used across various modalities, including text, images, audio, and video. Estimating the computational cost of generating con￾tent is crucial for optimizing performance and resource allocation. This paper intro￾duces the Cost-Per-Byte Principle: C = T × I, a universal law that relates the cost of content generation to per-byte generation time and per-second inference cost. We derive the per-byte generation time analytically based on the model’s computational requirements (FLOPs) and the hardware’s performance (FLOPs per second). By estab￾lishing mappings between bytes and different content units (characters, pixels, samples, frames), we provide a modality-agnostic framework for cost estimation. We present a rigorous proof of the principle’s validity and apply it to estimate the costs of current popular models, using publicly available evidence to verify the accuracy and usefulness of this principle. 1 Introduction Generative AI models, such as Transformer-based models and Diffusion models, have revolu￾tionized content creation in natural language processing, computer vision, speech synthesis, and other fields. As these models become more complex and resource-intensive, understand￾ing and managing the computational costs associated with content generation is essential for efficient deployment and scaling. This paper proposes the Cost-Per-Byte Principle, a universal law that quantifies the cost of content generation based on the per-byte computational effort. By mapping bytes to content units across different modalities—characters in text, pixels in images, samples in audio, and frames in video—we establish a consistent framework for cost estimation. Importantly, we demonstrate how to calculate the per-byte generation time using the model’s computational requirements and hardware performance, enhancing the precision of our cost estimations. 2 Background 2.1 Generative AI </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2411.0102v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -38,5 +39,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Media &amp; Interviews">Media &amp; Interviews</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

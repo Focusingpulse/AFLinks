@@ -21,6 +21,7 @@
   <h1>2012.0009v1</h1>
   <div class="meta"> · archived # 345,930</div>
   <div class="preview">CARACTERISTIQUES DES ELLIPSOÏDES GEODESIQUES Abdelmajid Ben Hadj Salem, Dipl.-Ing Résumé : L’objet de cette note est de donner les différentes caractéristiques des ellipsoïdes de révolution utilisés comme modèles de la Terre pour la définition des systèmes géodésiques des pays ou à l’échelle mondiale. Abstract : The purpose of this note is to give the different characteristics of ellipsoids of revolution used as models of the Earth for the definition of geodetic systems in countries or on a global scale. 1. Géométrie de l&#x27;Ellipse 1.1. Définition : L&#x27;ellipse est le lieu des points dont la somme des distances à deux points fixes ou foyers est constante: MF + MF&#x27; = constante=2a Où a est dit le demi-grand axe de l&#x27;ellipse. Dans le système d&#x27;axes Ox, Oy, l&#x27;équation de l&#x27;ellipse s&#x27;écrit : 1 ² ² ² ²   b y a x F’ F x y M O On appelle : - aplatissement la quantité : f = (a - b)/a - la première excentricité e : e² = (a² - b²)/a² 2. L&#x27;Ellipsoïde de Révolution L’ellipsoïde de révolution obtenu par la rotation d&#x27;une ellipse autour du demi-petit axe comme le montre la figure ci-dessous: Avec : OA=OB= a et OC= b. X Y Z O A B C CARACTERISTIQUES DES ELLIPSOIDES GEODESIQUES Paramètres de définition Demi-petit axe 1/f e² b (m) Demi-grand axe a (m) Nom de l’ellipsoïde 6378 388.000 6356 911.946 297.00000 0.00672 26700 a, 1/f HAYFORD 1909 ou International 1924 6378 249.200 6356 515.000 293.46602 0.00680 34877 a, b Clarke Français 1880 6378 145.000 6356 759.770 298.25000 0.00669 45419 a, 1/f NWL 8 International 1924 6378 135.000 6356 750.520 298.26000 0.00669 43178 a, 1/f WGS72 International 1924 6378 140.000 6356 755.288 298.25700 0.00669 43850 a, 1/f AIG 1975 International 1924 6378 160.000 6356 774.516 298.24717 0.00669 46053 a, e² GRS1967(AIG) International 1924 APL Navigation 6378 144.000 6356 757.339 298.23000 0.00669 49901 a, 1/f Paramètres de définition Demi-petit axe 1/f e² b (m) Demi-grand axe a (m) Nom de l’Ellipsoïde Clarke Anglais 6378 249.145 6356 514.8696 293.46500 0.0068</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2012.0009v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

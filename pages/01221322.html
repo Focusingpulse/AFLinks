@@ -27,6 +27,7 @@
   <h1>2106.0148v1</h1>
   <div class="meta"> · archived # 1,221,322</div>
   <div class="preview">e-money Domenico Oricchio June 25, 2021 Abstract Files can contain money, without bank account I think that it is possible to use use digital currency (e-money): a file that can be exchanged with other like paper-money without bank account1 , only distribuited mail-server2 with e-mail address3 . The idea is to use a Simple Mail Transfer Protocol to send some e￾money files to the receiver through a central bank: sender  central bank  receiver; these files have a name that represent the money value, and a content4 : for example 0 01 AB12598.mny is 1 cent of eur with serie AB12598 and 1 00 CD482637.mny is a eur. The content of the e-money are some data crypted with open gpg5 ; the bank have a public key and private key for communication, and the person have a public and private key to communicate with the central bank67 . Each person in a nation could have an bank e-mail, a private key, and a bank directory; when a sender sent money to a receiver • the sender has an encrypted e-money in a directory obtained by the central bank using the central bank public key, and the public key of the sender 1without management cost,transport costs, man security, money printing, strong-boxes, cash dispensers 2with instant backup between server farms 3 identical to the national identification number 4national identification number, money value, and a random string 5or a different public-key cryptography 6only the central bank has the clients public key 7multiple server farms in different sites to avoid destruction from natural disaster 1 A secure money transfer in a nation, using files, and without mining to reduce the energy consumption. • the sender take the national identification number of the receiver8 • the sender decrypt each e-money using the sender private key, encrypt each e-money and the e-mail address using the central bank public key, and send the file to the central bank • the central bank decrypt the e-money and receiver address, verify the e-money, change the propert</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2106.0148v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a><a class="tag" href="/AFLinks/?cat=Finance / Economics">Finance / Economics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

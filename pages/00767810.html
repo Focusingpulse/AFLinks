@@ -27,6 +27,7 @@
   <h1>2109.0178v1</h1>
   <div class="meta"> · archived # 767,810</div>
   <div class="preview">Optimality in Noisy Importance Sampling Fernando Llorente∗ , Luca Martino⋆ , Jesse Read† , David Delgado∗ ∗ Universidad Carlos III de Madrid, Leganés, Spain. ⋆ Universidad Rey Juan Carlos, Fuenlabrada, Spain. † École Polytechnique, Palaiseau, France. Abstract Many applications in signal processing and machine learning require the study of probability density functions (pdfs) that can only be accessed through noisy evaluations. In this work, we analyze the noisy importance sampling (IS), i.e., IS working with noisy evaluations of the target density. We present the general framework and derive optimal proposal densities for noisy IS estimators. The optimal proposals incorporate the information of the variance of the noisy realizations, proposing points in regions where the noise power is higher. We also compare the use of the optimal proposals with previous optimality approaches considered in a noisy IS framework. Keywords: Bayesian Inference; Noisy Monte Carlo; Pseudo-marginal Metropolis-Hastings; Noisy IS. 1 Introduction A wide range of modern applications, specially in Bayesian inference framework, require the study of probability density functions (pdfs) which can be evaluated stochastically, i.e., only noisy evalu￾ations can be obtained [1, 2, 3, 4]. For instance, this is the case of the pseudo-marginal approaches and doubly intractable posteriors [5, 6], approximate Bayesian computation (ABC) and likelihood￾free schemes [7, 8], where the target density cannot be computed in closed-form. The noisy scenario also appears naturally when mini-batches of data are employed instead of con￾sidering the complete likelihood of huge amounts of data [9, 10]. More recently, the analysis of noisy functions of densities is required in reinforcement learning (RL), specially in direct policy search which is an important branch of RL, with applications in robotics [11, 12]. The topic of inference in noisy settings (or where a function is known with a certain degree of uncertainty)</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2109.0178v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

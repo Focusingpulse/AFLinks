@@ -23,6 +23,7 @@
   <h1>2306.0081v1</h1>
   <div class="meta"> · archived # 764,709</div>
   <div class="preview">STATISTICS OF L1 DISTANCES IN THE FINITE SQUARE LATTICE RICHARD J. MATHAR Abstract. The L1 distance between two points in a square lattice is the sum of horizontal and vertical absolute differences of the Cartesian coordinates and — as in graph theory – also the minimum number of edges to walk to reach one point from the other. The manuscript contains a Java program that computes in a finite square grid of fixed shape the number of point pairs as a function of that distance. 1. Notations We consider the statistics of distances in a finite M × M square lattice, where distances between points at coordinates (x1, y1) and (x2, y2) are measured in the L1 norm [3]: Definition 1. (Distance) (1) d ≡ |x2 − x1| + |y2 − y1|. The Cartesian coordinates are 0-based in this manuscript, as usual in program￾ming: (2) 0 ≤ x, y &lt; M. Example 1. The example of Figure 1 shows for the off-center reference coordinate (x, y) = (4, 3) one point with distance 0 (the point itself ), 4 points with distance 1, 8 points with distance 2,. . . , 3 points with distance 10 and 1 point with distance 11. Definition 2. (Number of points with distance d) NM(x, y, d) is the number of points in the M × M square lattice with distance d to the reference point (x, y). The points with a common distance d build a square lattice tilted by 45◦ relative to the host lattice; its lattice constant is larger by a factor √ 2. They fall basically into four sets to the NE, NW, SW and SE directions. Definition 3. (Marginal statistics) (3) N (u) M (d) ≡ M X−1 x=0 M X−1 y=0 NM(x, y, d) is the number of unordered pairs of points with distance d in the finite square lattice. If the case d = 0 is excluded, it is the statistics of distinct point’s distances. Date: June 13, 2023. 2020 Mathematics Subject Classification. Primary 51F10; Secondary 05-04. 1 2 RICHARD J. MATHAR 0 2 4 6 8 10 0 2 4 6 8 10 0 1 1 1 1 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 4 4 4 44 4 4 4 4 4 4 5 5 5 5 5 5 5 5 55 5 5 5 5 5 5 6 6 6 6 6 6 6 6 6 6 6 </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2306.0081v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Reference+Material">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -25,6 +25,7 @@
   <h1>2106.0036v1</h1>
   <div class="meta"> · archived # 767,844</div>
   <div class="preview">Introduction to the Gaussian Information Criterion We present an efficient method for computing the information cost of encoding a point cloud with a Gaussian (normal) prior. Russell Leidich pkejjy@gmail.com June 7, 2021 Keywords: criterion, divergence, entropy, Gaussian, information theory, Kullback-Leibler, mean, model selection, PDF, point cloud, probability, signal, spectrum, wideband, variance, vector 0. Abstract There are many applications involving physical measurements which are expected to result in a probability density function (PDF) which is asymptotically Gaussian (normal) [0] or lognormal [1]. In the latter case, we can simply take the logs of the (positive) samples in order to obtain the former, so the math in this paper will focus exclusively on Gaussians. For example, we would expect the distribution of radio power received at a dish to be lognormally distributed, given a sufficiently broad swath of sky to observe for a sufficiently long duration, and in the relative absence of terrestrial radio interference. However, if we were then to focus on a particular star system, the observed &quot;experimental&quot; PDF could substantially deviate from that &quot;background&quot; PDF. It might not even be lognormal if, for example, the star exhibits peaks in radio power at a few distinct frequencies. It would therefore be useful to have a means to quantify the &quot;surprise&quot; factor of experimental PDFs relative to an established background PDF which is known to be, or be equivalent to, a Gaussian. If a given experimental PDF where also known to be Gaussian, then we could do this by employing the Kullback-Leibler (KL) divergence [2] from one to the other, as Gupta [3] appears to have done for the multidimensional case. When the experimental PDF is not known to be Gaussian (or any PDF archetype, for that matter), the situation is more complicated, mainly because we are forced to deal with a real-valued set of samples ordered by increasing positivity -- a 1D point cloud, to be precis</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2106.0036v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

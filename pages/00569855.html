@@ -21,6 +21,7 @@
   <h1>2012.0105v1</h1>
   <div class="meta"> · archived # 569,855</div>
   <div class="preview">Stirling Numbers Via Combinatorial Sums Anwesh B.1 and Bivas B.2 1Birla Institute of Technology and Science, Pilani, Rajasthan f2016590@pilani.bits-pilani.ac.in 2PES University, Bangalore bivas@pes.edu Abstract. In this paper, we have derived a formula to find combinatorial sums of the type Xn r=0 r k n r ! where k ∈ N. The formula is conveniently expressed as a sum of terms multiplied by certain co-efficients. These co-efficients satisfy a recurrence relation, which is also derived in the process of finding the above sum. Upon solving the recurrence, these numbers turn out to be the Stirling Numbers of the first and second kind. Here on, it is trivial to prove the mutual inverse property of both these sequences of numbers due to linear algebra. Keywords: Combinatorics · Stirling Numbers 1 Introduction The inquiry into the matter started with the task to find the sum of Xn r=0 r  n r  . Using the binomial expansion - (1 + x) n = Xn r=0 x r  n r  =  n 0  + x  n 1  + x 2  n 2  + · · · + x n−1  n n − 1  + x n  n n  Thus, we have on differentiating - d dx(1 + x) n = d dx n 0  + x  n 1  + · · · + x n  n n  (1) =⇒ n(1 + x) n−1 =  n 1  + 2x  n 2  + 3x 2  n 3  + · · · + nxn−1  n n  (2) 2 Anwesh Bhattacharya et. al. On setting x = 1 in equation 2, we get -  n 1  + 2 n 2  + 3 n 3  + · · · + n  n n  = n2 n−1 =⇒ Xn r=0 r  n r  = n2 n−1 (3) which is our required answer. As a logical extension, one can ask what is the sum of Xn r=0 r 2  n r  On multiplying equation (2) with x and then differentiating, we obtain - nx(1 + x) n−1 = x  n 1  + 2x 2  n 2  + 3x 3  n 3  + · · · +nxn  n n  =⇒ d dxnx(1 + x) n−1 = d dx  x  n 1  + 2x 2  n 2  + · · · + nxn  n n  =⇒ n(1 + x) n−1 + nx(n − 1)(1 + x) n−2 =  n 1  + 22x  n 2  + 32x 2  n 3  + · · · +n 2x n−1  n n  (4) Setting x = 1 in the above equation, we get -  n 1  + 22  n 2  + 32  n 3  + · · · + n 2  n n  = n2 n−1 + n(n − 1)2n−2 =⇒ Xn r=0 r 2  n r  = n2 n−1 + n(n − 1)2n</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2012.0105v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

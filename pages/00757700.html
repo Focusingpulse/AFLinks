@@ -27,6 +27,7 @@
   <h1>2601.0065v1</h1>
   <div class="meta"> · archived # 757,700</div>
   <div class="preview">Importance sampling and contrastive learning schemes for parameter estimation in non-normalized models L. Martino∗ , L. Scaffidi∗ , S. Mangano∗ ∗ Universit´a degli Studi di Catania, Italy. January 13, 2026 Abstract Likelihood-approximation methods and contrastive learning (CL) are two prominent approaches for inference in models with unknown partition function. In this work, we provide a detailed comparison between the likelihood approximation by Geyer’s approach (GA) and CL. Rather than increasing the complexity of Geyer’s method to enable comparison, as proposed in [1], we adopt the opposite strategy by simplifying CL. We introduce a class of IS-within-CL schemes that estimate the partition function via importance sampling (IS) and reduce the optimization problem to the original parameter space. This perspective motivates the development of novel variants, whose theoretical properties are analyzed and empirically compared in a replicable experimental study. The described IS-within-CL schemes yield an entire approximation of the partition function, so enabling a possible efficient Bayesian inference. An optimal independent proposal density for IS-within-CL methods and the GA is also introduced. Overall, this work contributes to a clearer unification of likelihood-approximation and CL approaches, offering both theoretical understanding and practical tools for inference in energy-based and non-normalized models. Related MATLAB and R codes are also made freely available to help the reproducibility of the results. 1 Introduction Non-normalized models, also known as energy-based models, define probability distributions only up to an unknown normalizing function Ztr(θ), commonly referred to as the partition function, where the parameter vector θ ∈ Θ ⊆ R dθ is the object of interest for inference. In this framework, the model is defined as ψ(y|θ, Ztr) = φ(y|θ) Ztr(θ) where y are the observed data [2, 3, 4, 5, 6]. Hence, the probability of an observation is specified throu</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2601.0065v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

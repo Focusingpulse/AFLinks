@@ -23,6 +23,7 @@
   <h1>2604.0042v1</h1>
   <div class="meta"> · archived # 487,772</div>
   <div class="preview">De nitive Proof of Brocard&#x27;s Conjecture Kenneth A. Watanabe, PhD April 11, 2026 1 Abstract This paper presents a formal proof of Brocard&#x27;s Conjecture, which posits that there are at least four prime numbers between the squares of any two consecutive primes p 2 i and p 2 i+1 for i &gt; 1. By de ning the function π ∗ (n) that approximates the prime counting function π(n), we establish a lower bound for the number of primes in these intervals. Using mathematical in￾duction, we demonstrate that the minimum number of primes in the interval, ∆π ∗ (pi), is consistently greater than or equal to 4 for all pi ≥ 3. The proof is further supported by a rigorous error analysis, bounding the maximum possible deviation between the estimated prime count π ∗ (n) and the actual prime counting function π(n). 2 Introduction Brocard&#x27;s Conjecture (not to be confused with Brocard&#x27;s problem) posits that there are at least four prime numbers between the squares of any two consecutive primes p 2 i and p 2 i+1 for i &gt; 1. This conjecture was proposed by French mathematician Henri Brocard in 1904 [1]. Though it has been computationally con rmed for prime numbers up to pn where n = 4 × 105 [2], it remains one of the signi cant unsolved problems in number theory. This paper introduces a methodology that approximates the number of composite integers within a set Pn = {2, 3, 4, ...n} by iteratively identifying integers divisible by prime numbers p ≤ √ n. Through this recursive sieving 1 process, we derive the function: π ∗ (n) = n Y q≤λ( √ n) q is prime q − 1 q (1) where λ( √ n) is the largest prime number less than or equal to √ n. This allows for the de nition of W(n), the fraction of integers less than or equal to n that are prime, which remains constant between prime-squared boundaries. By analyzing the growth of these intervals relative to the den￾sity of primes, we identify a lower bound, ∆π LB(pi), which occurs at twin primes, as also observed by Feliksiak in 2022 [3]. We utilize mathemati￾cal i</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2604.0042v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Conspiracy+++Politics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

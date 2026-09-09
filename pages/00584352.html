@@ -21,6 +21,7 @@
   <h1>2605.0005v1</h1>
   <div class="meta"> · archived # 584,352</div>
   <div class="preview">Eigenvalues of Transpose of a Matrix Sanjeev Saxena∗ Dept. of Computer Science and Engineering, Indian Institute of Technology, Kanpur, INDIA-208 016 May 1, 2026 Abstract A proof without using determinants is given to show that the eigenvalues of a square matrix A are the same as those of its transpose AT . The proof only uses the fact that the row and column ranks of a matrix are same. Keywords: Eigenvalues, Transpose, Determinants, Characteristic Equation 1 Proof The usual way of showing that the eigenvalues of a matrix are the same as those of its transpose is by saying that the characteristic polynomial of the two matrices is the same. This uses the fact that the determinant of a matrix equals that of its transpose. In this short note, a direct proof is given. The proof uses only the fact that the row and column ranks of a matrix are equal. Assume λ is an eigenvalue of an n × n matrix A with eigenvector x. Then Ax = λx or (A − λI)x = 0 If x = (x1, . . ., xn) T and C1, . . ., Cn are columns of A − λI then the above equation is equivalent to x1C1 + . . . + xnCn = 0, showing that columns are linearly dependent. But as the column rank of a matrix is the same as the row rank of the matrix, there are numbers (not all zeroes) y1, y2, . . . , yn such that y1R1 + . . . + ynRn = 0 where R1, . . ., Rn are rows of (A − λI). This equation is equivalent to y T (A − λI) = 0, where y = (y1, y2, . . . , yn) T or taking the transpose, (AT − λI)y T = 0. Thus, λ is also an eigenvalue of AT . ∗E-mail: ssax@iitk.ac.in 1</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2605.0005v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

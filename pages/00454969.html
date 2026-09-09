@@ -23,6 +23,7 @@
   <h1>2504.0181v1</h1>
   <div class="meta"> · archived # 454,969</div>
   <div class="preview">Some Formulas and an Equivalence Between Two Sets of Axioms in Axiomatic Propositional Logic Harry Willow Abstract. We derive some formulas in axiomatic propositional logic and we show that two sets of different axioms are equivalent. The outputs were manually derived through logical deductions and subsequently typeset in LaTeX, without the use of automated computational tools. Construct a new propositional calculus formal system P’ from P. Axiom (A3) is changed to : (A4) (¬α → ¬β) → ((¬α → β) → α). Prove that the set of internal theorems of P’ and P are identical. Axioms of P are: (A1) α → (β → α). (A2) (α → (β → γ)) → ((α → β) → (α → γ)). (A3) (¬α → ¬β) → (β → α). There is only one rule of deduction, namely modus ponens (abbreviated as MP). It says: from α and α → β, β is a direct consequence. Lemma 1: (α → β) → ((β → γ) → (α → γ)) To prove that α → β, β → γ ⊢ α → γ. (1) α → β hypothesis (2) β → γ hypothesis (3) (β → γ) → (α → (β → γ)) axiom (A1) (4) α → (β → γ) (2),(3) MP (5) (α → (β → γ)) → ((α → β) → (α → γ)) axiom (A2) (6) (α → β) → (α → γ) (4),(5) MP (7) α → γ (1),(6) MP Thus, by (1)-(7), α → β, β → γ ⊢ α → γ. Therefore, by the Deduction Theorem, α → β ⊢ (β → γ) → (α → γ), and, again by the Deduction Theorem, ⊢ (α → β) → ((β → γ) → (α → γ)). Lemma 2: α → α (1) (α → ((α → α) → α)) axiom (A1) (2) (α → ((α → α) → α)) → ((α → (α → α)) → (α → α)) axiom (A2) (3) α → (α → α) axiom (A1) (4) (α → (α → α)) → (α → α) (1),(2) MP (5) α → α (3),(4) MP 1 Lemma 3: ¬α → (α → β) (1) ¬α hypothesis (2) ¬α → (¬β → ¬α) axiom (A1) (3) (¬β → ¬α) (1),(2) MP (4) (¬β → ¬α) → (α → β) axiom (A3) (5) α → β (3),(4) MP Thus, by (1)-(5), ¬α ⊢ α → β. Therefore, by the Deduction Theorem, ⊢ ¬α → (α → β). Lemma 4: ¬¬α → α (1) ¬¬α hypothesis (2) ¬¬α → (¬α → ¬¬¬α) Lemma 3 (3) ¬α → ¬¬¬α (1),(2) MP (4) (¬α → ¬¬¬α) → (¬¬α → α) axiom (A3) (5) ¬¬α → α (3),(4) MP (6) α (1),(5) MP Thus, by (1)-(6), ¬¬α ⊢ α. Therefore, by the Deduction Theorem, ⊢ ¬¬α → α. Lemma 5: α → ¬¬α (1) ¬¬¬α → ¬α Lemma 4 (2) (¬¬¬α →</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2504.0181v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Reference+Material">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

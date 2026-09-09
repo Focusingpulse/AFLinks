@@ -23,6 +23,7 @@
   <h1>2102.0027v1</h1>
   <div class="meta"> · archived # 767,942</div>
   <div class="preview">If r is the dimension of the direction set, then the computing time is o(r) times the work 1 needed to evaluate the gradient. 1 Hamiltonian Markov Chain Monte Carlo Using Second Derivatives Stephen P. Smith, February 2021 Abstract. Hamiltonian Markov Chain Monte Carlo is one of the established methods to conduct a Bayesian simulation. This method uses evaluations of the probability density and its gradient at particular variables. This present paper describes how to incorporate information from second derivatives that relate to a direction set, and describes how to modify the simulation accordingly. 1. Introduction Hamiltonian Markov Chain Monte Carlo (MCMC) is a Bayesian simulation method that barrows a track mapping technique for dynamical systems that employs the Hamiltonian (see Neal 2011). This method uses the gradient of the log of a posterior distribution that is made to correspond to a potential energy function, and maps a path that is modulated by a momentum vector that corresponds to a kinetic energy function. That is, a Bayesian simulation is made to follow Newtonian dynamics, and at the end of the track is a potential simulant that is either accepted or rejected according to a protocol for the Metropolis algorithm. The connection between Bayesian statistics and dynamical systems looks abstractly stilted, upon first appraisal. However, it’s a well justified simulation method to sample from a posterior distribution. The Hamiltonian simulation only needs the log of the posterior distribution (ignoring the constant term), and its gradient, that are evaluated at particular variables. Second derivatives are not needed, but second derivatives can be evaluated by forward and backward differentiation (Griewank 2000). If n is the number of parameters, then calculating all second derivatives requires an order n, or o(n), times the computing time needed to evaluate the gradient. Given that some of the second derivatives can be evaluated cheaply in a direction set , </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2102.0027v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

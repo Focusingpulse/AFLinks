@@ -21,6 +21,7 @@
   <h1>2308.0054v1</h1>
   <div class="meta"> · archived # 742,124</div>
   <div class="preview">Lambert W function 8/10/23, 12:21 file:///Volumes/CaseSensVol/LambertW.html Page 1 of 2 New series and concise algorithm for &quot;Lambert W function&quot; Warren D. Smith, Aug. 2023 ABSTRACT: We give a new series expression, and code up a concise algorithm, for the &quot;Lambert W function&quot; W(X) such that WeW=X with W≥-1. By the &quot;Lambert W function&quot; W(X), I mean the greatest solution of WeW=X. A real solution exists if and only if X≥-1/e≈-0.367879. An equivalent equation (if we regard W instead as a function of L=lnX) when X&gt;0 is W+lnW=L. Some special values: W(-1/e)=-1, W(0)=0, W(e)=1, W(e1+e)=e. Derivatives: W&#x27;(x)=W/(x+xW) if x≠0, 1 if x=0; W&#x27;&#x27;(x)=-(W+2)W2x-2/(W+1)3 if x≠0, -2 if x=0; dW/dL=W/(W+1); d2W/dL2=W/(W+1)3. W(x) monotonically increases from -1 to ∞. Indefinite integrals: ∫ W(x) dx = [W(x)-1+1/W(x)]x+C, ∫ W(x)/x dx = [W(x)/2+1] W(x) + C, Large-X asymptotic: W(X)=L-lnL+G/L+O(G/L)2, where L=lnX and G=lnL. Euler&#x27;s series, convergent for |z|≤1/e: W(z) = ∑n≥1 -nn-1 (-z)n / n!. My new series, also convergent for |z|≤1/e: [1+W(z)]2 = 1-2∑n≥1 nn-3 (-z)n / (n-1)!. The new series is superior to Euler&#x27;s in the sense that on the circle |z|=1/e, my nth |summand| falls asymptotically proportionally to n-5/2, while Euler&#x27;s falls asymptotically proportionally to n-3/2. Also the function [1+W(z)]2 has better numerical behavior than W(z) in the sense that W(z) has infinite &quot;condition number,&quot; i.e. derivative, at z=-1/e, causing accurate evaluation of W(z) to be impossible when z≈-1/e using standard approximate-real arithmetic; but (d/dz)[1+W(z)]2=2W(z)/z is a member of the interval [0,2e] for all z≥-1/e so no obstacle inherently prevents precisely evaluating [1+W(z)]2 anywhere. Proof sketch: The new series may be shown to follow from the old one by a known combinatorial argument: -W(-z) is the exponential generating function ∑n≥1 tnzn/n! for the number tn=nn-1 of rooted trees with n labeled vertices (and demand t0=0). (One of the vertices is special and is called &quot;root.&quot; This formula fo</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2308.0054v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Conspiracy+++Politics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

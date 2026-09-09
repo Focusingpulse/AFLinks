@@ -21,6 +21,7 @@
   <h1>2503.0079v1</h1>
   <div class="meta"> · archived # 760,730</div>
   <div class="preview">Байесовский подход оценки случайности на основе гипотез Александр Розенкевич1 улица Адам, дом 4 квартира 3, Иерусалим, Израиль Предложен байесовский метод для динамической оценки случайности последовательности экспериментальных данных на основе гипотез. Даны примеры тестирования генераторов псевдослучайных чисел. Ключевые слова: байесовский метод. Априорная вероятность выпадения орла или решки равна 0.5. Поэтому при многократном бросании число выпадений орла или решки должно быть примерно одинаковое. Если в пятикратном бросании пять раз выпадал орел, в следующем броске интуитивно ожидается решка. Бросание монеты физический процесс, все влияющие факторы учесть невозможно. Ранее считалось, что идеальным генератором случайных чисел является подбрасывание «честной» монеты, но исследователи [ 1 ] в 2023 году (!) в результате 350 757 испытаний доказали, что как правило, монеты падают той же стороной, с которой они начинали. В данной статье рассматривается возможность применения байесовского метода, основанного на экспериментальных данных и наблюдениях, для простого и надёжного выявления и оценки расхождений с теорией, что, в свою очередь, может направить поиск физических причин таких расхождений. Наблюдения за бросками монет (событие B) можно учесть при расчете апостериорной вероятности, подтверждающей или не подтверждающей гипотезу выпадения той или иной стороны монеты при следующем N+1 бросании. В байесовском методе апостериорная вероятность равна: 1 P(R/B)= p(R)⋅p(B/R) p(R)⋅p(B/R)+ p(O)⋅p(B/O) (1) P(O/B)= p(O)⋅p(B/O) p(R)⋅p(B/R)+ p(O)⋅p(B/O) (2) Здесь: P(R/B) и P(O/B) условные (апостериорные) вероятности подтверждения гипотез, а именно: при следующем N+1 бросании монеты выпадет соответственно решка или орел, при условии, что результаты N наблюдений (событие В) истинны; – p(R) и p(O) – априорные вероятности выпадения соответственно решке и орла; – p(B/R) и p(B/O) – условные вероятности, что произойдут события соответственно R и O. В общем случае для многогранника с S ст</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2503.0079v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

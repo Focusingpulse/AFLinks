@@ -23,6 +23,7 @@
   <h1>2011.0027v1</h1>
   <div class="meta"> · archived # 1,158,746</div>
   <div class="preview">COMMENTS ON ”ANALYTICAL FEATURES OF THE SIR MODEL AND THEIR APPLICATIONS TO COVID-19” DIMITER PRODANOV 1) Environment, Health and Safety, IMEC, Belgium 2) MMSDP, IICT, BAS, Bulgaria Abstract. In their article, Kudryashov et al. (2021) try to establish the analytical solution of the SIR epidemiological model. One of the equations given there is wrong, which invalidates the presented solution, derived from this result. The objective of the present letter is to indicate this error and present the correct analytical solution to the SIR epidemiological model. Keywords: SIR model; Lambert W function; MSC: 92D30; 92C60 1. Introduction In their article ”Analytical features of the SIR model and their applications to COVID-19”, Kudryashov et al. [3] try to establish the analytical solution of the SIR (Susceptible-Infected-Removed) epidemiological model of Kermack and McK￾endrick [2]. While the article itself is well-written, one of the equations given there is wrong (eq. 14), which invalidates further the putative solution (eq. 15). Notably, the wrong equation reads1 Y = exp αI − C γ − 1 γ W − e αI−C γ γ !! − γ where Y := I˙ I and W denotes the Lambert W function. The above equation is claimed to be the solution of the first integral of the system given below: γ + ˙I I − γ log γ + ˙I I ! + αI = C (1) Unfortunately, this is not true. The objective of the present letter is to indicate this error and present the correct solution. 2. Resolution of the first integral 1 Before presenting the correct solution to eq. 1 and the correct analytical solution, few remarks about the Lambert W function are in order. 1The present letter uses slightly different labelling of the model – instead of β used in [3] – γ is used and α = β/N. 1 2 COMMENTS ON KURDYASHOV ET AL. 2.1. The Lambert W function. The Lambert W function can be defined im￾plicitly by the equation W(z)e W(z) = z, z ∈ C (2) Furthermore, the Lambert function obeys the differential equation for x 6= −1 W(x) 0 = e −W(x) 1 + W(x) The</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2011.0027v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Biology+++Health">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Biology, Health &amp; Medicine">Biology, Health &amp; Medicine</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Biology / Health">Biology / Health</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

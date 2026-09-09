@@ -27,6 +27,28 @@
   <h1>Wilhelm Reich -- Orgone -- Collected articles</h1>
   <div class="meta">👤 Wilhelm Reich ·  · archived # 5,519</div>
   <div class="preview">Wilhelm Reich -- Orgone -- Collected articles ![](0logo.gif) rexresearch.com Wilhelm REICH Cosmic Orgone Engineering ( CORE ) &quot;Our Darling &quot; Dr Wilhelm Reich</div>
+  <div class="openlab" data-bg-tier="aesthetic" data-bg-source="Open Lab replication guide (Directive C)">
+  <div class="ol-tabs"><span class="ol-tab on">Modern Replication Guide</span><span class="ol-tab">Why This Matters Now</span></div>
+  <div class="ol-panel">
+    <div class="ol-meta"><span class="rg-status rg-protocol">protocol</span>
+      <span class="ol-chip">replicability: home</span><span class="ol-chip">cost: &lt;$100</span></div>
+    <p class="rg-claim"><strong>Core hypothesis (quoted):</strong> Reich&#x27;s orgone accumulator — a box of alternating organic (e.g. wool/cotton) and metallic (e.g. steel wool/foil) layers — concentrates a measurable &#x27;orgone&#x27; energy, claimed to produce an interior temperature differential and observable effects on living tissue.</p>
+    <p class="ol-subhead">Variable checklist — with modern affordable equivalents</p>
+    <div class="rg-vars"><div class="rg-row"><span class="rg-var">Interior vs exterior temperature over time (box vs control)</span><span class="rg-mod">2 identical boxes, 1 layered + 1 control, datalogging thermometers</span></div><div class="rg-row"><span class="rg-var">Electrostatic charge differential (if measurable)</span><span class="rg-mod">electroscope or field mill</span></div><div class="rg-row"><span class="rg-var">Blind biological probe (e.g. plant growth) with control</span><span class="rg-mod">identical seed trays</span></div></div>
+    <p class="ol-subhead">Safety &amp; calibration</p>
+    <p class="rg-safety">Layered boxes of wool and metal are inert and safe; no electrical connection. Be wary of Reich&#x27;s later high-voltage &#x27;cloudbuster&#x27; apparatus — do NOT build one at home.</p>
+  </div>
+  <div class="ol-panel" style="display:none">
+    <p class="rg-why">The orgone accumulator is one of the archive&#x27;s most-ridiculed but never-rigorously-tested claims. A controlled temperature-differential test with modern datalogging is cheap and would be the first honest independent data point on the orgone line — the &#x27;wrong turn&#x27; worth a clean retry.</p>
+    <p class="ol-subhead">Modern bridges</p>
+    <ul class="rg-refs"><li>Thermal mass / box-insulation physics (control reasoning)</li><li>Modern replication attempts of the orgone box</li></ul>
+  </div>
+  <div class="ol-log">
+    <span class="ol-log-label">⚗ Log an Attempt</span>
+    <p class="ol-log-note">Built it? Log photos, data, and notes. Submissions go to quarantine first, then human review — nothing publishes automatically.</p>
+    <a class="btn ghost" href="mailto:?subject=Open Lab attempt — Wilhelm Reich Orgone Accumulator">Submit an attempt →</a>
+  </div>
+</div>
   <div class="actions"><a class="btn" href="https://www.rexresearch.com/orgone/orgone1.htm" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Life+Force+Transportation">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +58,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Plasma, Torsion &amp; Cosmology">Plasma, Torsion &amp; Cosmology</a><a class="tag" href="/AFLinks/?cat=Aether, Light &amp; Electricity">Aether, Light &amp; Electricity</a><a class="tag" href="/AFLinks/?cat=Energy &amp; Transportation">Energy &amp; Transportation</a><a class="tag" href="/AFLinks/?cat=Life Force">Life Force</a><a class="tag" href="/AFLinks/?cat=Transportation">Transportation</a><a class="tag" href="/AFLinks/?cat=Electric Universe">Electric Universe</a><a class="tag" href="/AFLinks/?cat=Aether Physics">Aether Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

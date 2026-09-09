@@ -28,6 +28,7 @@
   <h1>2212.0184v1</h1>
   <div class="meta"> · archived # 792,080</div>
   <div class="preview">Suggestions for an educational programming language PL/2, Alexey Podorov, 2022 Hundreds of languages are offered for teaching programming, including control of graphic elements. Therefore, the proposal of a new language for teaching requires additional justification. I will try to describe the advantages of the proposed programming language (working title PL/2) and game programming (working title PL/2 script), and I suggest finding flaws in the approach. The main paradigms are assumed to be the following: Assembly code that allows you to control the processor Logical programming, represented by Prolog, SQL languages Functional programming Imperative programming described by algorithms Object programming, consisting in the transmission and processing of signals Currently, these techniques are combined in extensions of existing programming languages. An approach is proposed to combine paradigms in a single syntax that resolves conflicts between different approaches in advance, which will reduce the time spent on learning different syntaxes. So, the key elements of an educational programming language. Source text The source text file consists of arbitrary text (comments, description of the algorithm), which can include [named] fragments in various programming languages — PL/2, SQL, HTML, text, PL/2 script. the beginning of the code insertion is indicated by the source keyword in the first position of the line the end of the insertion is indicated by the sequence /source in the first position of the line The PL/2 syntax includes uniform indentation requirements, in particular, the program text is shifted at least 4 positions from the beginning of the line. Structure of the program text The size of the shift between the nesting levels is 4 spaces. The continuation of a statement on the next line is shifted by at least 3 spaces relative to the statement level The main level of the program is shifted by 4 spaces relative to the source markup character of the source file, r</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2212.0184v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -37,5 +38,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

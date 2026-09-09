@@ -31,6 +31,7 @@
   <h1>2510.0049v1</h1>
   <div class="meta"> · archived # 807,477</div>
   <div class="preview">Topological Neural Networks for Real-Time Seizure Detection: Theoretical Foundations and Multi-Scale Persistent Homology Analysis Ekam Chatterjee Abstract Epileptic seizure detection from electroencephalogram (EEG) signals represents a fundamental challenge in computational neuroscience, with traditional approaches limited by their inability to capture complex topological transformations in brain connectivity during ictal events. While topological data analysis has demonstrated promise for EEG analysis, existing methodologies primarily employ persistent homol￾ogy features with conventional classifiers, failing to leverage the geometric structure inherent in neural computation. To the best of our knowledge, this is the first work that applies topological neural net￾works—message passing architectures on simplicial complexes—to EEG seizure detection, integrating persistent homology features across multiple distance functions with temporal modeling, building upon Hajij et al.’s foundational work on topological deep learning architectures. The proposed approach intro￾duces a novel 3-layer TNN framework that integrates multi-scale persistent homology with theoretically grounded topological message passing mechanisms. This research establishes mathematical foundations for seizure detection through topological invariants and provides convergence guarantees for the neural architecture. The model constructs four complementary distance matrices (correlation, Euclidean, phase￾lag, and coherence-based) from multi-channel EEG recordings, applying Vietoris-Rips filtrations to extract multi-dimensional topological features across scales. The core innovation lies in the rigorous implementa￾tion of the four-step topological message passing framework: message computation, within-neighborhood aggregation, between-neighborhood aggregation, and feature update, combined with bidirectional LSTM networks for temporal modeling. Evaluation on the CHB-MIT dataset across 10 patients using even</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2510.0049v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -40,5 +41,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

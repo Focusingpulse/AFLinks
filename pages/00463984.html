@@ -21,6 +21,7 @@
   <h1>2104.0143v1</h1>
   <div class="meta"> · archived # 463,984</div>
   <div class="preview">L’axiome du choix des sous-ensembles Antoine Balan April 23, 2021 Abstract We propose a new axiom, stronger than the axiom of choice, the axiom of choice of the subsets. 1 L’axiome du choix L’axiome du choix [D] dit que toute famille d’ensembles admet une fonction de choix, c’est-`a-dire que si on se donne une collection d’ensembles Xi, i ∈ I, alors il existe une collection d’´el´ements xi, i ∈ I telle que ∀i ∈ I, xi ∈ Xi. 2 L’axiome du choix des sous-ensembles L’axiome du choix des sous-ensembles dit que si on se donne une collection d’ensembles Xi, i ∈ I, telle que ∀i ∈ I, Card(Xi) ≥ ω, avec ω un cardinal fix´e, alors il existe une collection de sous-ensembles Yi, i ∈ I, telle que ∀i ∈ I, Yi ⊂ Xi et Card(Yi) = ω. Si ω = 1, on retrouve l’axiome du choix. References [D] P.Dehornoy, ”La th´eorie des ensembles”, Calvage &amp; Mounet, Paris, 2017. 1</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2104.0143v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Reference+Material">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

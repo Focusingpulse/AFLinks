@@ -30,6 +30,7 @@
   <h1>2111.0015v1</h1>
   <div class="meta"> · archived # 865,519</div>
   <div class="preview">A New Algorithm based on Extent Bit-array for Computing Formal Concepts ∗ Jianqin Zhou1 , Sichun Yang1 , Xifeng Wang1 and Wanquan Liu2 † 1Department of Computer Science, Anhui University of Technology, Ma’anshan 243002, China 2School of Intelligent Systems Engineering, Sun Yat-sen University, Shenzhen 518000, China The emergence of Formal Concept Analysis (FCA) as a data analysis tech￾nique has increased the need for developing algorithms which can compute formal concepts quickly. The current efficient algorithms for FCA are variants of the Close-By-One (CbO) algorithm, such as In-Close2, In-Close3 and In-Close4, which are all based on horizontal storage of contexts. In this paper, based on algorithm In-Close4, a new algorithm based on the vertical storage of contexts, called In￾Close5, is proposed, which can significantly reduce both the time complexity and space complexity of algorithm In-Close4. Technically, the new algorithm stores both context and extent of a concept as a vertical bit-array, while within In-Close4 algorithm the context is stored only as a horizontal bit-array, which is very slow in finding the intersection of two extent sets. Experimental results demonstrate that the proposed algorithm is much more effective than In-Close4 algorithm, and it also has a broader scope of applicability in computing formal concept in which one can solve the problems that cannot be solved by the In-Close4 algorithm. Keywords: Formal Concept Analysis; Fast CbO algorithm; In-Close2; In-Close4 Mathematics Subject Classification 2010 : 68T30, 68T35 1 Introduction Among data analysis techniques, Formal Concept Analysis (FCA) is a useful knowledge representation framework for describing and summarizing data. As the crucial data structure of FCA, concept lattice is an effective tool for knowledge discovering, which can depict the generalization and specification between formal concepts in a hierarchical structure. Concept lattice has been widely used in many areas, such as </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2111.0015v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -39,5 +40,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

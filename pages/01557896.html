@@ -26,6 +26,7 @@
   <h1>sfuelpat</h1>
   <div class="meta"> · archived # 1,557,896</div>
   <div class="preview">FUELPATENT Ibm Patent Server Home Page A COLLECT OF FUEL PATENTS NAME PATENT NUMBER DATE GRANTED Gray 165564 7-13-1875 Lambert 474838 5-17-1892 Speer 610159 8-30-1898 Colbath 844996 2-19-1907 Durr 890970 6-16-1908 965867 8-02-1910 993516 5-30-1911 Stroud 1004594 11-19-1912 Krayer 1051122 1- -1913 Johnston 1065370 6-24-1923 Macey 1103789 7-14-1914 Schoomaker 1121137 12-15-1914 Heinz 1150115 8-17-1915 Stanley 1177904 4-04-1916 Schmidt 1182714 5-09-1916 Speirs 1191097 7-11-1916 Williams 1195315 8-22-1916 1259898 Campbell 1273030 7-16-1918 1281961 Schmid 1325998 12-23-1918 Heslewood 1327205 1-06-1920 Campbell 1373426 10-11-1921 Ball 1392473 10-04-1921 Croon 1518572 12-09-1924 Chapin 1530882 3- -1925 1562670 Hendricks 1585094 5-18-1926 Renard 1610152 12-07-1926 Ralston 1679742 8-07-1928 Allen 1690962 11-06-1928 Strong 1711292 5-30-1929 Sweeny 1725111 6-20-1929 Hutchinson 1731135 10-08-1929 Gildehaus 1734723 11-05-1929 Pogue 1750354 3-11-1930 Portail 1752506 4-01-1930 1757920 Fowler 1763508 6-10-1930 Hutchinson 1763654 6-17-1930 Clark 1798065 3-24-1931 1809242 1820512 5-12-1932 Briggs 1834766 12-01-1931 1841778 DeFrance 1858853 5-12-1932 Pogue 1938497 12-05-1933 Heitger 1941862 1-02-1934 1952281 Meyer 1968698 7-31-1934 Godward 1970169 8-14-1934 Dobbs 1972874 9-11-1934 Pogue 1.997497 4-09-1935 Rickabaugh 2000498 5-07-1935 2006676 Rosler 2014306 9-17-1935 2014396 Myers 2014907 9-17-1935 Pogue 2026798 1-07-1936 Johnston 2028333 1-21-1936 Doyle 3038031 4-21-1936 2040020 Phillip 2061043 11-17-1937 Price 2073649 3-16-1937 Faverty 2109743 3-01-1938 Stubbs 2116718 5-10-1938 Newberry 2218922 10-22-1940 2236595 Lang 2262013 11-11-1941 Pickering 2262904 11-18-1941 Phillips 2290893 7-28-1942 Lang 2310739 2-09-1943 Crabtree 2312151 2- -1943 McLindon 2314131 3-16-1943 2338044 2373032 DeVries 2384609 9-11-1945 Rosenthall 2453595 11-09-1948 2460528 2529665 2531661 Green 2650582 9-01-1953 2658489 Featherson 2702694 2-22-1955 McPhearson 2742886 4-24-1956 2761660 Lucas 2797072 6-25-1957 280</div>
+  
   <div class="actions"><a class="btn" href="http://webozz.free.fr/Free%20energy%20data/sfuelpat.html" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Water / Hydrogen">Water / Hydrogen</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

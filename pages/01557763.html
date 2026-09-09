@@ -27,6 +27,7 @@
   <h1>ewheeler</h1>
   <div class="meta"> · archived # 1,557,763</div>
   <div class="preview">Wheeler Formulas for inductance Content on this page supplied from the web site of Jim Lux Wheeler Formulas for Inductance These formulas, developed by Wheeler at the (then) NBS, give approximate inductances for various coil configurations. They are primarily based on empirical measurements, and are accurate to a few percent. Single layer air core solenoid L (uH) = r^2 * n^2 / (9 * r + 10 * l) where r = coil radius in inches l = coil length in inches n = number of turns Multi layer air core solenoid L {uH} = 31.6 * N^2 * r1^2 / (6*r1 + 9*L + 10*(r2-r1)) L{uH} = Inductance in microHenries N^2 = Total Number of turns on coil Squared r1 = Radius of the inside of the coil {meters} r2 = Radius of the outside of the coil {meters} L = Length of the coil {meters} Note the similarity to the formula for the single layer air core coil. Hope this helps everyone. L (uH) = 0.8 * a^2 * n^2 / (6*a + 9*b + 10*c ) where a = average radius of windings b = length of the coil c = difference between the outer and inner radii of the coil. all dimensions in inches. It states that it is accurate to 1% when the terms in the denominator are about equal. This is also an equation by Wheeler. It applies as long as the coil has a rectangular cross section. Flat &quot;pancake&quot; coil L (uH) = r^2 * n^2 / (8 * r + 11 * w) where r = radius to center of windings in inches w = width of windings (in inches) n = number of turns Copyright 1998, Jim Lux / wheeler.htm / 4 April 1998 / Back to HV Home / Back to home page / Mail to Jim</div>
+  
   <div class="actions"><a class="btn" href="http://webozz.free.fr/Free%20energy%20data/ewheeler.htm" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Electromagnetism">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -36,5 +37,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Environment &amp; Climate">Environment &amp; Climate</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a><a class="tag" href="/AFLinks/?cat=Environment / Climate">Environment / Climate</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -21,6 +21,7 @@
   <h1>2512.0073v1</h1>
   <div class="meta"> · archived # 782,495</div>
   <div class="preview">Computing the Singular Value Decomposition (SVD) with Fixed Point CORDIC Operations with Application to MIMO-OFDM Sasan Ardalan Extra Class Amateur Radio, Ph.D. Abstract In this paper, the computation of the Singular Value Decomposition (SVD) of complex matrices will be presented using xed point arithmetic. The application of CORDIC operations for xed point implementations of the SVD of complex matrices will be introduced. SVD plays a major role in Closed Loop MIMO OFDM systems. The impact of xed point implementation of SVD in a Closed Loop MIMO-OFDM system is ex￾amined. The ratio of Maximum to Minimum Singular Value (MMSVR) is computed for both xed point (CORDIC) and oating point oper￾ations (using the LAPACK library). The xed point implementation closely tracks the oating point results over fading channel models. It is shown that for highly ill-conditioned sub carriers the xed point im￾plementation deviates from the oating point MMSVR. This leads to noise enhancement and degradation of performance. By adding trans￾mit diversity in Closed Loop MIMO-OFDM the MMSVR can be re￾duced and performance substantially enhanced for the xed point im￾plementation. It is also shown how SVD can be used in Open Loop MIMO-OFDM systems. This paper is an important introduction to the algorithms implemented in the GitHub repository for MIMO-OFDM: https://github.com/silicondsp/mimo-ofdm-release ©Copyright 2006-2025 Silicon DSP® Corporation Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled &quot;GNU Free Documentation License&quot;. Contents Contents 2 List of Figures 2 1 Introduction 4 2 Brief Overview of MIMO OFDM Communication Receiver 6 3 Implementing the Pseudo-inverse for Open Loop MIMO with an SVD of the H Matr</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2512.0073v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Electromagnetism">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

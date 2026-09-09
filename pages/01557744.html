@@ -25,6 +25,7 @@
   <h1>estatcalc</h1>
   <div class="meta"> · archived # 1,557,744</div>
   <div class="preview">Some practical electrostatic calculations Content on this page from the web site of Jim Lux Some practical electrostatic calculations It is often instructive to see a practical application of theoretical principles, so here are some examples: Maximum voltage on the Science First(tm) 400kV Van de Graaf generator Capacitance and stored energy of the 400 kV Van deGraaf Force from the 400 kV Van de Graaf on a grounded sphere Maximum voltage on the Science First(tm) 400kV Van deGraaf generator One limit on the maximum voltage that a Van deGraaf generator can reach is when the electric field strength at the surface of the sphere exceeds the breakdown for the insulating gas it is immersed in. The section on Van deGraaf generators describes other limitations such as arcing down the belt. For small demonstration type generatorsoperating in room air, however, the E field limit is usually applicable. Field at surface of a sphere = Voltage / Radius of Sphere So, we use the handy approximation of 30 kV/cm for the breakdown strength of air and rearrange the equation a bit to get: MaxVoltage = 30 kV * Radius(cm) The classic Franklin Lee Van deGraaf from Scientific American has an upper electrode about 14 inches in diameter which actually has a minimum radius of curvature of about 7 inches (it is a &quot;squashed&quot; sphere). MaxVoltage = 30 kV/cm * 17.5 cm = 525 kV The generator is advertised as reaching 400 kV, which is probably a realistic assessment, given that it isn&#x27;t perfectly smooth and that there is an insulating column between the sphereoid and the ground plane at the base. Capacitance and stored energy of 400 kV Van deGraaf While the upper electrode on that Van deGraaf isn&#x27;t perfectly spherical, we can probably approximate it as one to calculate the capacitance and stored energy. Note that here, we&#x27;ll use the real radius of the sphereoid, as opposed to the breakdown voltage calculation, where we used the smallest radius of curvature. r = 7 inches = .178 meters Csphere = 4*pi*eps</div>
+  
   <div class="actions"><a class="btn" href="http://webozz.free.fr/Free%20energy%20data/estatcalc.htm" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Electromagnetism">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -28,6 +28,7 @@
   <h1>2508.0170v4</h1>
   <div class="meta"> · archived # 549,154</div>
   <div class="preview">On a Volterra Analogue of Grunert’s Operational Formula Abdelhay Benmoussa Anssis Primary School Tiqqi, Agadir Ida Outanane 80324 Morocco abdelhay.benmoussa@taalim.ma Abstract Let V f(x) = R x 0 f(t) dt denote the Volterra operator. We derive an explicit expan￾sion for the iterated operator (xV ) n in terms of powers of V : (xV ) n = nX−1 k=0 (−1)k a(n − 1, k) x n−kV n+k , where a(n, k) are the Bessel coefficients (OEIS A001498). This identity may be viewed as an integral analogue of the classical Grunert’s operational formula (xD) n = Xn k=0 S(n, k) x kDk , where S(n, k) are the Stirling numbers of the second kind. We also obtain a closed integral representation for (xV ) n and give two applications illustrating the operator identity. 1 Introduction The Euler differential operator xD, D = d dx, plays a central role in special functions, combinatorics, and operational calculus. Its powers satisfy the classical Grunert formula [6, 1, 4]: (xD) n = Xn k=0 S(n, k) x kD k , (1) where S(n, k) are the Stirling numbers of the second kind. 1 In this note, we pose a natural but, to the best of our knowledge, unexplored question: what happens to this expansion when the differentiation operator D is replaced by the Volterra operator V f(x) = Z x 0 f(t) dt? To address this problem, we define the operator (xV ) n recursively by (xV ) 0 f(x) := f(x), (xV ) n f(x) := x V (tV ) n−1 f  (x), n ≥ 1. Unlike differentiation, the Volterra operator increases the analytic order of a function through successive integrations. Hence, the structure of (xV ) n differs substantially from that of (xD) n . Nevertheless, one may anticipate an analogous combinatorial expansion: (xV ) n = X k c(n, k) x α(n,k)V β(n,k) , for suitable coefficients c(n, k) and integer exponents α(n, k), β(n, k). Surprisingly, these coefficients are not related to Stirling numbers but to a classical sequence known as the Bessel coefficients (OEIS A001498; see also [2, 3]). They arise naturally when iterated integrations a</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2508.0170v4.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -37,5 +38,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

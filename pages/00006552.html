@@ -25,6 +25,7 @@
   <h1>slup129</h1>
   <div class="meta"> · archived # 6,552</div>
   <div class="preview">Linear Regulators Linear regulators usually trade efficiency for simplicity. There is always an added power loss equal to the input-out￾put voltage differential across the regulator times the load current passing through it. Since these are DC regulators, a rectifier-filter must preceed the regulator as shown in Figure 2. There are at least three reasons why the use of lin￾ear regulators may be an acceptable choice. Oc L~ N 1 ! ~- v=V02 Regulating multiple outputs of a switching power supply has always presented an additional challenge to the designer. With a single pulse-width modulated control system, how can the control loop be configured to keep all outputs in regulation when each may have varying loads? Although it is sometimes possible to average an error sig￾nal from each output -degrading the regulation on some outputs to improve on others -a more common approach, as shown in Figure 1, is to close the overall power supply loop to the output with the highest load cur￾rent and opt for some form of auxiliary -or secondary - regulation for all the other outputs. / , / , ./ ltr: ~ Vo,(MAIN) N 1 ~ REGux ~ V02 I1!]:!!!I=u x REG I ~ VO3 etc Figure 1. A typical multiple output power supply architecture with overall control from one output. Secondary Regulators The problem with multiple outputs originates from the fact that the open-loop output impedance of each winding, rectifier, and filter set is not zero. Thus, if one assumes that the overall feedback loop holds the output of VO1 constant, then the energy delivered to N1 must increase with increas￾ing load on that output. This is accomplished by increasing the duty cycle on Np which, of course, is seen by all the secondaries causing the unregulated outputs to rise. Similarly, a changing load on one of the unregulated out￾puts will cause a direct change in that output as a function of its output impedance. Since the overall feedback loop is not sensing this output, no correction can take place. While these problems</div>
+  
   <div class="actions"><a class="btn" href="http://www.tuks.nl/pdf/Aether%20Vortex%20Energy%20Converter/slup129.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Electromagnetism">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

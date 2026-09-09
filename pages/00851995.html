@@ -26,6 +26,7 @@
   <h1>2208.0137v1</h1>
   <div class="meta"> · archived # 851,995</div>
   <div class="preview">1 Higher Order Belief Divergence Yingcheng Huanga , Fuyuan Xiaoa,∗ 2 a 3 School of Big Data and Software Engineering, Chongqing University, Chongqing 401331, China 4 Abstract In this paper, a novel belief divergence, higher order belief Jensen-Shannon divergence is proposed to measure the discrepancy between BPAs in Dempster–Shafer evidence theory. 5 Keywords: Dempster–Shafer evidence theory, Belief divergence, Higher order, Fractal, 6 Multi-source information fusion, Pattern classification. 7 1. The proposed method Definition 1 (Higher order basic probability assignment). Let a frame of discernment be Θ = {θ1, θ2, · · · , θN} with its powerset 2Θ, and let m be a BPA on Θ. A novel BPA, higher order basic probability assignment (HOBPA) mh is defined as m h (Ai ) = ∑ Ai⊆Aj h ||Aj |−|Ai || m(Aj ) (h + 1) |Aj | − h |Aj | = ∑ Ai⊆Aj mh−1 (Aj ) (h + 1) |Aj | − h |Aj | , (1) where h is the order coefficient, and m0 8 denotes the zeroth order of m, i.e., m itself; Ai represents any hypothesis in 2Θ expect the empty set ∅; Aj is hypotheses in 2Θ 9 that make Ai be the subsets of Aj ; |Ai | represents the cardinality of Ai and |Aj | represents the cardinality of Aj 10 . Definition 2 (HOBJS divergence) Let a frame of discernment be Θ = {θ1, θ2, · · · , θN} with pow￾erset 2Θ, and let m1 and m2 be two BPAs on Θ. Higher order belief Jensen-Shannon (HOBJS) divergence between m1 and m2 is defined as D h B JS(m1 ||m2) = 1 2 ∑ Ai⊆Θ m h 1 (Ai )log 2mh 1 (Ai ) mh 1 (Ai ) + mh 2 (Ai ) + 1 2 ∑ Ai⊆Θ m h 2 (Ai )log 2mh 2 (Ai ) mh 1 (Ai ) + mh 2 (Ai ) , (2) where h is the order coefficient, and Ai represents any hypothesis in 2Θ 11 except the empty set ∅. ∗Corresponding author: Fuyuan Xiao, School of Big Data and Software Engineering, Chongqing University, Chongqing 401331, China. Preprint submitted to Elsevier August 25, 2022</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2208.0137v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

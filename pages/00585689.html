@@ -23,6 +23,7 @@
   <h1>2602.0140v1</h1>
   <div class="meta"> · archived # 585,689</div>
   <div class="preview">On Uniqueness of Row Normal Form Sanjeev Saxena∗ Dept. of Computer Science and Engineering, Indian Institute of Technology, Kanpur, INDIA-208 016 February 23, 2026 Abstract In this note, it is shown that the Row Echelon Normal Form (RENF), also called the Reduced Row Echelon Form (RREF) of a matrix, is unique. The result is proved from first principles. 1 Introduction Elementary row operations are: 1. Interchange pairs of rows. 2. Add a multiple of one row to another 3. Multiply a row by a non-zero constant. Remark Observe that these operations are reversible (there are operations to undo the effect) It is always possible to arrange row operations (say, using the Gauss-Siedel elimination process) so that the coefficient matrix has the following form: 1. All zero rows are the last rows (at the end) 2. The first non-zero entry in a non-zero row is 1– the leading one of the non-zero rows. 3. The leading one is the only non-zero entry in its column ∗E-mail: ssax@iitk.ac.in 1 4. Leading one in row i is to the left of leading one in row j if i &lt; j. This form is called the Row Echelon Normal Form [5] or the Row Reduced Echelon Form [2, 6]. Columns containing a leading one are called leading columns or pivot columns and rest are called free columns. RENF can be obtained by a finite sequence of row operations. The proof is either left as an exercise[5] or is not given [2, 6]. Surowski and Wang[7] introduce Hermite normal form to prove the result. Other proofs[1, 4, 3] are based on removing some columns. They use the fact that the elementary row operations do not change the solution. In this note, the column removal proof is first rewritten so that the removal of columns appears more justified. And then, in the next section, a proof from the first principles is given. The proof[1, 4] is basically as follows. Assume that a matrix A has two RENF, say S1 and S2. Assume j is the first column in which S1 and S2 differ. Let αi be the position of leading one in i throw of S1, and le</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2602.0140v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Conspiracy+++Politics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

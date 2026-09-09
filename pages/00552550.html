@@ -21,6 +21,7 @@
   <h1>2508.0018v2</h1>
   <div class="meta"> · archived # 552,550</div>
   <div class="preview">Residue classes and stopping time of the 3n+1 problem V. Barbera Abstract This paper presents an analysis of the stopping time of the 3n+1 problem based on the residue class of n. 3n + 1 problem (or conjecture) In the 3⋅n+1 problem[1] it is possible to define the function s:N →N : s(n)={ 3⋅n+1 if n≡1(mod 2) n 2 if n≡0 (mod 2) the sequence s k (n) for k∈N obtained using the function s(n) is as follows: s k (n)={ n for k=0 s(s k−1 (n)) for k&gt;0 Stopping time The 3⋅n+1 conjecture is equivalent to the conjecture that for each n∈N , n&gt;1 , there exists k∈N such that s k (n)&lt;n . The least k∈N such that s k (n)&lt;n is called the stopping time of n [1] . If n is even n≡0(mod 2) then the stopping time k=1 and s 1 (n)= n 2 . Let&#x27;s analyze the case where n is odd. Let m be the number of odd terms in the first k terms of the 3⋅n+1 sequence, and di be the number of consecutive even terms immediately following the i-th odd term, then the next term s k (n) in he 3⋅n+1 sequence is[1] : s k (n)= 3 m 2 k−m ⋅n+∑ i=1 m 3 m−i 2 di+⋯+dm note that for n odd k−m=d1+⋯+dm . Then s k (n)= 3 m ⋅n+3 m−1 +∑ i=2 m 3 m−i ⋅2 d 1+⋯+di−1 2 k−m = 3 m ⋅n+r 2 k−m where r depends on m and n with r≥3 m−2 m . It is possible to observe that if n≡1(mod 2 2 ) then m=1 and the stopping time is k=3 s 3 (n)= 3⋅n+1 2 2 so we have r=1=3 1−2 1 and d1=2 . If we now consider the numbers n≡3(mod 2 2 ) we have: n=3+4⋅a s 1 (n)=3⋅n+1=10+12⋅a s 2 (n)= 3⋅n+1 2 =5+6⋅a=2+2⋅a+n odd number s 4 (n)= 3⋅ 3⋅n+1 2 +1 2 =2+a+2 n if a odd then n≡7 (mod 2 3 ) , d1=1 , d2=1 and m&gt;2 since s 2 (n),s 4 (n) odd and s 4 (n)&gt;n if a even then a=2⋅b s 5 (n)= 3⋅ 3⋅n+1 2 +1 4 =1+b+n if b odd then n≡11(mod 2 4 ) , d1=1 , d2=2 and m&gt;2 since s 2 (n),s 5 (n) odd and s 5 (n)&gt;n if b even b=2⋅c then n≡3 (mod 2 4 ) s 6 (n)= 3⋅ 3⋅n+1 2 +1 8 =c+ (n+1) 2 = 3 2 ⋅n+5 2 4 then k=6 , d1=1 , d2=3 and m=2 with r=5=3+2 1=3 2−2 2 . As seen for numbers n≡7(mod 2 3 ) s 4 (n)= 3⋅ 3⋅n+1 2 +1 2 = 9⋅n+5 4 odd number and d1=1 and d2=1 s 6 (n)= 3⋅ 9⋅n+5 4 +1 2 = 27⋅n+19 8 if</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2508.0018v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Conspiracy+++Politics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -26,6 +26,7 @@
   <h1>2409.0101v1</h1>
   <div class="meta"> · archived # 254,945</div>
   <div class="preview">1 Control method of the system subject to constraint on power spectral density of control input Ri Kyong Hyok*, Kim Kwang Sok &amp; Kim Ryong Pom Faculty of Automation Engineering, Kim Chaek University of Technology, Kyogu dong, Central District, Pyongyang, DPR Korea. *Corresponding author. e-mail: KH.Ri519@star-co.net.kp Funding This work was not supported by any funding agencies. Competing interests The authors declare having no potential conflict of interest. Author contributions Conceptualization: Ri Kyong Hyok; Methodology: Ri Kyong Hyok &amp; Kim Kwang Sok; Numerical simulation: Ri Kyong Hyok, Kim Ryong Pom &amp; Kim Kwang Sok; Writing and editing: Ri Kyong Hyok &amp; Kim Ryong Pom. 2 Control method of the system subject to constraint on power spectral density of control input Abstract: In this paper, we present a control method for the control plant subject to the constraint on the power spectral density of the control input. The constraint condition on the power spectral density is defined using the periodogram. This constraint is represented as a quadratic inequality on the combination of the control inputs of the adjacent several time steps. To constrain the power spectral density of the control input, the finite impulse response filter is connected to the input channel of control plant and the constrained model predictive controller is used. The filter is designed so that when it receives the amplitude-constrained signal its output signal satisfies the constraint on the power spectral density. The model predictive controller with the amplitude-constrained output controls the augmented plant which consists of the control plant and the filter. Numerical simulations verify the effectiveness of the proposed method. Keywords: model predictive control; constraint; power spectral density; periodogram; optimization; discrete-time system 1. Introduction In practice the control systems are operated within a variety of constraints. The actuators have their own physical limits, and </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2409.0101v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=LENR / Cold Fusion">LENR / Cold Fusion</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -25,6 +25,7 @@
   <h1>2502.0045v3</h1>
   <div class="meta"> · archived # 751,517</div>
   <div class="preview">Solution to the problem on the existence and smoothness of the Navier–Stokes equations Daniel Thomas Hayes, dthayes83@gmail.com March 16, 2025 The Navier–Stokes equations are used to describe viscous incompressible fluid flow. It has been on the list of the Clay Mathematics Institute’s millennium prize problems to decide whether or not physically reasonable solutions to the Navier– Stokes equations do in general exist. In this paper, the problem on the existence and smoothness of the Navier–Stokes equations is solved. It is proven that the Navier–Stokes equations are globally regular. 1. Introduction The Navier–Stokes equations are thought to govern the motion of a fluid in R 3 , [1–6]. Let u = u(x, t) ∈ R 3 be the fluid velocity and let p = p(x, t) ∈ R be the fluid pressure, each dependent on position x ∈ R 3 and time t &gt; 0. We take the externally applied force acting on the fluid to be identically zero. The fluid is assumed to be incompressible with constant viscosity ν &gt; 0 and to fill all of R 3 . The Navier–Stokes equations can then be written as ∂u ∂t + (u · ∇)u = ν∇ 2u − ∇p, (1) ∇ · u = 0 (2) with initial condition u(x, 0) = u ◦ (3) where u ◦ = u ◦ (x) ∈ R 3 . In these equations ∇ = ∂ ∂x1 , ∂ ∂x2 , ∂ ∂x3 ! (4) is the gradient operator and ∇ 2 = X 3 i=1 ∂ 2 ∂xi 2 (5) is the Laplacian operator. When ν = 0 equations (1), (2), (3) are called the Euler equations. Solutions of (1), (2), (3) are to be found with u ◦ (x + ei) = u ◦ (x) (6) 1 for 1 6 i 6 3 where ei is the i th unit vector in R 3 . The initial condition u ◦ is a given C ∞ divergence-free vector field on R 3 . A solution of (1), (2), (3) is then accepted to be physically reasonable [3] if u(x + ei , t) = u(x, t), p(x + ei , t) = p(x, t) (7) on R 3 × [0, ∞) for 1 6 i 6 3 and u, p ∈ C ∞  R 3 × [0, ∞)  . (8) 2. Solution to the Navier–Stokes problem Theorem 1. Take ν &gt; 0. Let u ◦ be any smooth, divergence-free vector field satisfying (6). Then there exist smooth functions u, p on R 3 × [0, ∞) that satisfy </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2502.0045v3.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

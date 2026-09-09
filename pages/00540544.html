@@ -26,6 +26,7 @@
   <h1>2603.0051v2</h1>
   <div class="meta"> · archived # 540,544</div>
   <div class="preview">A Derivation of the Alternating Power Sum Formula Samuel Datu A. Castelo March 2026 Abstract This paper presents a derivation of the closed-form expression for the alternating power sum without employing Euler polynomials, which are traditionally used in such formulations. Instead, the derivation utilizes the shifted series method together with differentiation techniques to construct a polynomial representation for the sum. The resulting expression is then connected to classical number-theoretic constants through the Riemann zeta function and Bernoulli numbers. This approach provides an alterna￾tive and more elementary framework for obtaining the alternating power sum formula while avoiding the formal machinery of Euler polynomials. 1 Introduction Power sums of the form Px n=1 n k have long been studied in number theory and are known to admit polynomial representations in x with coefficients related to Bernoulli numbers. When an alternating factor is introduced, the sums take the form Px n=1(−1)nn k , which arise in the study of alternating series and analytic number theory. Closed-form expressions for such sums are commonly derived using Euler polynomials; however, this approach introduces additional theoretical machinery. In this paper, we present a derivation of the formula for the alternating power sum without employing Euler polynomials. Instead, the method relies on shifted series techniques and differentiation to construct a polynomial representation of the sum and determine its coefficients, ultimately expressing the result in terms of classical number-theoretic quantities such as Bernoulli numbers. 2 Derivation Xx n=1 (−1)n n k (1) We use the shifted series method to express (1) into a different form. Xx n=1 (−1)n n k = X∞ n=1 (−1)n n k − X∞ n=1 (−1)n+x (n + x) k Xx n=1 (−1)n n k = (−1)x X∞ n=1 (−1)n+1(n + x) k + X∞ n=1 (−1)n n k (2) Xx n=1 (−1)n n k = (−1)xPk(x) + Ck (3) Set x = 0 on equation (3) to determine Ck. 0 = (−1)0Pk(0) + Ck Ck = −Pk(0) Xx n=1 (−1)</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2603.0051v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

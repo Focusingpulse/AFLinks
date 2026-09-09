@@ -29,6 +29,7 @@
   <h1>bhtmain</h1>
   <div class="meta"> · archived # 1,557,548</div>
   <div class="preview">High Voltage Experimenter&#x27;s Handbook Content on this page supplied from the web site of Jim Lux High Voltage Experimenter&#x27;s Handbook [Table of Contents] [Downloads] More Downloads This page serves as a repository for all the bits and pieces I am collecting towards creating a modern version of the classic 1954 work by Craggs and Meek: High Voltage Laboratory Technique . That work, long out of print, but available from good university libraries, provided a wealth of practical information to those interested in experimentation with high voltage, either for itself, or as a necessary component of some other experiment. However, back in 1954, they didn&#x27;t have high voltage silicon rectifiers, nor were such modern construction materials as Teflon, Silicone Elastomers, and fiberglass structural components available. By the way, I&#x27;ve sort of used 10 kV as the starting point for High Voltage. The National Electrical Code defines a much lower starting point (300 or 600 V?), but I chose 10 kV because that&#x27;s about where you have to start worrying about corona and it gets harder to find off the shelf components. I have started to update the general organization as I have collected more information and to take advantage of the possibilities of hypertext. The &quot;book&quot; is arranged as several parallel tracks. The first track is a summary of the data, providing the basic practical detail without much theoretical background; the audience is the reader who just wants to make something work, and doesn&#x27;t really care why. The second parallel track, with cross links to the first one, is a more theoretical discussion of the topic, typically providing references and the information necessary to extend the information in the first track. A third track consists of practical applications data, consisting of an example design using the principles in the first two tracks, experimental data, and so forth. Please send me comments at jimlux@earthlink.net , especially as to organization or topics that yo</div>
+  
   <div class="actions"><a class="btn" href="http://webozz.free.fr/Free%20energy%20data/bhtmain.htm" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -38,5 +39,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

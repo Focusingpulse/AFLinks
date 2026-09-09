@@ -25,6 +25,7 @@
   <h1>2507.0168v1</h1>
   <div class="meta"> · archived # 786,224</div>
   <div class="preview">Heap’s Algorithm for All Permutations Using a TI84 Timothy W. Jones July 20, 2025 Abstract Heap’s algorithm uses recursion in a way that can seem baffling. The various youtube videos, Wikipedia accounts, and textbooks all mention that the key swap criterion is based on the even value of an index. There is a simpler way to understand the algorithm. Given the permutation of one object is just a print it out (program PERM1) then the permutations of two objects is print the original out (a call to PERM1), then rotate it and call PERM1 on the result. We show using a TI84 program how this pattern can generate all permutations on three, four, five, and six objects and make it transparent how recursion can work for the general case. Introduction Most computer science students will know about HEAPSORT. This algo￾rithm is not eponymous but suggested by a graph that resembles a heap and performs a sort in nlogn time – fast. Heap [1] is also suggested by the use of the same data structure for garbage collection. This article is about the eponymous Heap algorithm that generates all permutations of an array’s elements [2]. Brian Robert Heap was actually a biologist. His algorithm appears at first flush to be wondrously clever and mysterious. Watching videos of coders discussing it that seems to be their general disposition [4]. Wikipedia offers some intriguing graphs and looks at odd and even cases in some detail, but doesn’t really motivate how the 1 algorithm could have been discovered. The code provided in videos and at Wikipedia possesses this cryptic swap when k is even idea. Line 23 in Figure 1 shows this. This code is in Javascript and it gives an amalgam of various on-line code and my own patches. It does work, but to my mind it is not apparent why it should work. Figure 1: Heap’s algorithm is all too brief. Why should even and odd cases be treated differently? That said, some set of swaps or flips or, technically transpositions should deliver each permutation according t</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2507.0168v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Alternative+Physics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

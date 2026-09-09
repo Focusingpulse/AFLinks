@@ -23,6 +23,7 @@
   <h1>2112.0100v5</h1>
   <div class="meta"> · archived # 754,949</div>
   <div class="preview">1 Analysis of the Collatz conjecture through the methods of sequence theory Ruslan Enikeev ruslan.enkeev@gmail.com Samara State Technical University Abstract A solution is proposed for the so-called Collatz conjecture, also known as the &quot;3𝑛 + 1 problem&quot;. The idea of the proof involves representing the algorithm&#x27;s operations through an infinite sequence as a formal object. Hypotheses regarding the convergence or divergence are considered within the framework of sequence theory corresponds to hypotheses about the output values of the algorithm. Keywords 3𝑛 + 1 problem; Collatz conjecture; convergence of sequences 1. Formulation of the algorithm The task of this paragraph is to formulate the most convenient expression for the operation of the algorithm on some arbitrary natural number initially given to the algorithm, denoted as 𝑛0. We will denote algorithmic operations as follows: 𝑛1 3𝑛+1 → 3𝑛1 + 1, 𝑛2 𝑛⁄2 → 1 2 𝑛2; (1.1) where 𝑛 is a natural number at any iteration of the algorithm, 𝑛 ∈ ℕ[1; ∞); 𝑛1 is the same, but indicating that the number is odd; 𝑛2 is an even number. It is evident that the number expressed 3𝑛1 + 1 is even, while 1 2 𝑛2 can be either even or odd. 2 Definition 1.1 Any initial odd natural number can be expressed by the following formula: 𝑛0 = 𝑎02 𝑚0; (1.2) where 𝑎0 is a positive rational number, 𝑎0 ∈ ℚ ( 1 2 ; 1]; 𝑚0 is a natural number corresponding to the proposed formula, 𝑚0 ∈ ℕ[0; ∞). For example, 5 = 5 8 ∙ 2 3 , 6 = 3 4 ∙ 2 3 , 27 = 27 32 ∙ 2 5 , 1 = 1 ∙ 2 0 , etc. In the case where the initial number is even, it can be represented as: 𝑛0 = 𝑎02 𝑚0+𝑘 ; where 𝑘 is a natural number corresponding to the number of initial operations 1 2 𝑛2 leading to an odd number expressed by the formula 𝑎02 𝑚0. For simplicity, we omit this representation, assuming that an odd number is an input into the algorithm. To uniquely define the transformation of a number into the form (1.2), let us define recursive functions 𝑎0 (𝑛) and 𝑚0 (𝑛, 𝑥); 𝑛 is passed as an argumen</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2112.0100v5.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

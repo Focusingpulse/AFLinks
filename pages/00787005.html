@@ -26,6 +26,7 @@
   <h1>2411.0118v1</h1>
   <div class="meta"> · archived # 787,005</div>
   <div class="preview">Solving subset sum in polynomial time and prooving P = NP Samir Bouftass E-mail : crypticator@gmail.com November 18, 2024 Abstract In this paper, we show that subset sum problem is solvable in polynomial time. Keywords : Subset sum problem, Polynomial time, NP complete. 1 Introduction : Subset sum is a famous problem in computer science, shown to be NP complete [1], it consists on deciding whether there is a substet of integers belonging to a set that sums to a given target sum integer. In this paper we show that varient of subset sum in which all inputs are positive could be solved in polynomial time, this varient is also NP complete [1][2]. 2 (b,d) Vectors : Definition 2.1. A (b, d) vector corresponding to number n is a vector V satisfying the following equality : n = V0b 0 + . . . .. + Vd−1b d−1 , where Vi (0 ≤ i &lt; d) components of V are positive numbers. Definition 2.2. Let (b, d) vector V [V0...Vi V(i+1). . . Vd−1] corresponding to number n. Carry up ith component of V is defined by operations below Vi = Vi – b. V(i+1) = V(i+1) + 1. Constrained Carry up requires Vi &gt; b. Carry down ith component of V is defined by operations below : V(i+1) = V(i+1) − 1. Vi = Vi + b. Constrained Carry down requires V(i+1) &gt; 1. 1 Definition 2.3. Let two vectors V1 and V2 . abs distance between V1 and V2 is P i |V 1i–V 2i |. Definition 2.4. abs modulus of vector V is P i |Vi |. Proposition 2.1. There is at least one (b, d) vector corresponding to a number n. Proof. Let [V0 V1 . . . Vd−1] be a (b, d) vector that corresponds to a number n. n = V0b 0 + V1b 1 + . . . .. + Vd−1b d−1 , where V1 &gt; 1. By constrained carry down V0 , we get : n = (V0 + b)b 0 + (V1 − 1)b 1 + . . . .. + Vd−1b d−1 . Meaning [V0 + b V1 − 1 . . . Vd−1] is also a (b, d) vector corresponding to n. Proposition 2.2. It is easy to find a (b, d) vector corresponding to a number n. Proof. We will proceed by proving by construction We represent n in base b. We automatically get a (b,s) vector V corresponding to n, s bein</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2411.0118v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

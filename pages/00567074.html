@@ -21,6 +21,7 @@
   <h1>2310.0067v1</h1>
   <div class="meta"> · archived # 567,074</div>
   <div class="preview">基底状態スピングラスイジングモデルの 秩序変数連立方程式化とその数値解 ― 複雑系、相互作用系ネットワーク理論と 組み合わせ最適化問題、P=NP 問題解法への言及 ― 斉藤 晃（akira311049@gmail.com） 要約 基底状態においてスピングラスイジングモデルの秩序変数を連立方程式で表すことが できた。この連立方程式は基底状態のみで成り立つ式であるが、食物連鎖や組織、 経済の社会現象などをモデル化する相互に影響を及ぼし合うネットワーク系から、経 済ロスを最小化し、複雑な条件からあらゆる最適なマッチングを実現する、組み合わ せ最適化問題まで、基底状態を正確に把握することで得られる恩恵は幅広い。また、 スピングラスイジングモデルが基本的なモデルであるがゆえに、複雑系や P≠NP 問題等 [1]、自然界や数学的な問題への言及も可能となる。ここではそれらの問題の基盤と して、そして組み合わせ最適化問題や複雑系など社会現象、社会問題を解析する 手法として、基底状態スピングラスイジングモデルの解法としての、連立方程式化と連 立方程式解の数値計算結果を示す。 1 前書き イジングモデルは最もシンプルで基本的な相互作用モデルである。お互いのスピン（ノード）が（-1or1）または （0or1）（以後 0or1 で述べる）によって温度 T による t=1/(Tk)（k はボルツマン定数）で定義される t（時間発 展のパラメーター）と相互作用エネルギーがかけられ、初期値 t=0 から始まり、無限遠 t=∞の基底状態と呼ばれる 状態に帰着する。この基底状態は系のエネルギーが最も低く、秩序変数は 0or1 をとり、相互作用の結果、系が最 終どのような状態に落ち着くかを表す。複雑系では相互作用の結果としての状態であり、組み合わせ最適化問題で は解となる。現実の世界では相互作用系の最終結果や組み合わせ最適化解はあらゆる分野で使うことができる。食 物連鎖の結果、広告が集団に与える影響、組織のパフォーマンスやそのためのチーム編成、薬の副作用や相互影 響、経済や投資のモデル化、社会問題とその解決策などの相互作用系や、複雑化した条件下の配送ルートや荷積 みなどの運送運輸、条件が多様で把握が困難だった人員配置やシフト作成、人材育成・教育などの分野、情報や 人とのマッチングとしてのマーケティングや広告、検索エンジンや SNS などの情報産業、莫大な数の組み合わせから目 的の組み合わせを得る、創薬や遺伝子解析、品種改良などの生物化学農業分野等、ロスをなくし生産性を向上さ せる組み合わせ最適化分野があげられる。スピングラスイジングモデルはイジングモデルの中でも各相互作用（正負が 混ざった）をランダムに（個別に指定して）取るモデルであり[1]、様々な相互作用系や組み合わせ最適化問題をモ デル化することができる。このスピングラスイジングモデルの基底状態の解を連立方程式化することができた。連立方程 式は数値計算で解を数値的に得ることができるので、連立方程式のソルバー（解を得るアルゴリズム）の精度と速 度で多様な問題を解くことができることに等しい。以下ではその連立方程式化と python ライブラリでの連立方程式数 値計算結果を述べる。 2 結果 1⁄𝑘𝐵𝑇 ≡ 𝑡 = ∞ （基底状態）においてスピングラスイジングモデルの秩序変数を連立方程式で表せた。（状態変 数 𝑛𝑖 は 0 または 1 ） 𝑓𝑖(⟨𝑛⟩) = (𝑒 −𝜆𝑖 (+) 𝑡 + 𝑒 −𝜆𝑖 (−) 𝑡 ) ⟨𝑛𝑖 ⟩− 𝑒 −𝜆𝑖 (−) 𝑡 = 0 (1) −𝜆𝑖 (+) = −|𝜀𝑖𝑖 (+) | − ∑|𝜀𝑖𝑗 (+) |⟨𝑛𝑗 ⟩ 𝑗≠𝑖 −𝜆𝑖 (−) = −|𝜀𝑖𝑖 (−) | − ∑|𝜀𝑖𝑗 (−) |⟨𝑛𝑗 ⟩ 𝑗≠𝑖 𝜀𝑖𝑗 (+)は正の𝜀𝑖𝑗、𝜀𝑖𝑗 (−)は負の𝜀𝑖𝑗である。 ⟨𝑛⟩ についての連立方程式の解は、1⁄𝑘𝐵𝑇 ≡ 𝑡 = ∞ （基底状態）でのスピングラスイジングモデルの秩序変数の 値であり、組み合わせ最適化問題の解である。 (1)式は数値計算によって解くことができる。実際に python の SciPy などの科学技術計算ライブラリには連立方程 式を解くソルバーが複数用意されており、連立方程式を指定するだけでその解を高精度に得ることができる。連立方 程式化できたため、相互作用系ネットワークや組み合わせ最適化問題の解はその連立方程式ソルバーの精度と速 度で得ることができる。 3 理論 𝑁 個の各ノード 𝑖 = 1~𝑁 に以下の状態を持つ状態変数があるとする。 𝑛𝑖 = 0 𝑜𝑟 1 (2) 系のハミルトニアンが以下で表せるモデルをイジングモデルという[1]。（イジングモ</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2310.0067v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Borderland+Research">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Borderland Research">Borderland Research</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -23,6 +23,7 @@
   <h1>2511.0046v1</h1>
   <div class="meta"> · archived # 565,397</div>
   <div class="preview">Schur Numbers 11/11/25, 15:06 file:///Volumes/CaseSensVol/SchurNumbers.html Page 1 of 4 Non-best Bounds for Schur Numbers enjoying Simple Proofs Warren D. Smith warren.wds@gmail.com Nov.2025. Abstract. The Kth &quot;Schur number&quot; S(K) is the least positive integer N such that for every coloring of the integers {1,2,3,...,N} with K colors, an equation a+b=c exists with 1≤a≤b≤c≤N with a,b,c all having the same color. Equivalently it is the greatest possible N so that a (K-1)-coloring of {1,2,3,...,N-1} exists avoiding monochromatic a+b=c. [The latter formulation has the advantage of telling us that S(0)=1.] We give very simple proofs that GK≤S(K)≤⌈K!(e-1/24)⌉ where e≈2.71828 for various growth-factors G=3/2, G=2, and (for k≥5) G=1611/5=2.76290... These Gs are not the best known, but my proofs are very simple. We speculate that S(K) grows superexponentially, and (if that is true) explain how a computer could prove arbitrarily large Gs or (if it is not true) prove a G arbitrarily near to maximum possible, after enough work. I have not been able to prove superexponentiality, but the final paragraph explains a strategy that might be able to. The Kth &quot;Schur number&quot; S(K) is the least positive integer N such that for every coloring of the integers {1,2,3,...,N} with K colors, an equation a+b=c exists with 1≤a≤b≤c≤N with a,b,c all having the same color. The sequence S(0), S(1), S(2),... of Schur numbers begins 1, 2, 5, 14, 45, 161. The value of S(6) is unknown, but it is known that 537≤S(6)≤1928. The following approximate formula S(k)≈0.011272Γ(k+5.7912)exp(-1.01007k) yields these predictions: k 0 1 2 3 4 5 6 7 8 S(k) 0.951 2.0059 4.96122 14.0775 45.0718 160.721 631.648 2712.47 12636.0 My attention was drawn to this topic by Heule 2017 and the 2025 video about it. In that paper, Heule proves S(5)=161 with the aid of an enormous computation. The video proves S(K) is finite, i.e. always exists. Indeed, it proves S(K)≤R3(K)-1 (Schur 1917), where the Ramsey number R3(K) denotes the le</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2511.0046v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Conspiracy+++Politics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -32,5 +33,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

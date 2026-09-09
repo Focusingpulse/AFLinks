@@ -21,6 +21,7 @@
   <h1>2601.0048v1</h1>
   <div class="meta"> · archived # 804,925</div>
   <div class="preview">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 PictoLens: Gaze-Driven Interaction Technique for Layered Data Visualization Exploration SARAH MAKAREM Fig. 1. PictoLens enables intuitive and dynamic exploration of layered data visualisations using gaze and head motion gestures. The figure shows how a user can fixate on a point on the pictogram layer (layer 2) to reveal a more detailed scatterplot visualisation (layer 1). A lean-in action further zooms in, revealing the most detailed layer (layer 0) with annotated data points. This system uses progressive disclosure to present and explore complex data in a natural way. The gaze serves as a pointer, and head movement controls the level of detail, enabling seamless and hands-free interaction. PictoLens is a novel gaze-based interaction technique for exploring layered data visualizations through progressive disclosure. The system uses real-time gaze data to implement a point-and-click interaction model. Through intuitive gestures such as ‘Gaze and Fixate’ and ‘Gaze and Lean In,’ users can seamlessly interact with three representations of the data: an AI-generated pictograph, a scatter-plot visualization, and an annotated scatter-plot visualization. This hands-free and voice-free interaction technique addresses key challenges of traditional data exploration, such as long dwell times and the Midas Touch problem. PictoLens uses intuitive metaphors from everyday gestures: the gaze serves as a pointer, moving the visualization lens. Fixating the gaze at a point on the pictograph unlocks a finer data representation, while leaning forward reveals the most granular, detailed visualization layer with annotations. We present PictoLens’ design and implementation to demonstrate its potential as an immersive analytics tool and interaction technique. CCS Concepts: • Human-centered computing → Human computer interaction (HCI); Interaction</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2601.0048v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

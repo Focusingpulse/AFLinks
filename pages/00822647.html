@@ -21,6 +21,7 @@
   <h1>2406.0161v1</h1>
   <div class="meta"> · archived # 822,647</div>
   <div class="preview">Causal effect vector and multiple correlation Ait-taleb Nabil * Abstract In this article, we will describe the mechanism that links the notion of causality to correlations. This article answers yes to the following question: Can we deduce a causal relationship from correlations? *Corresponding author: nabiltravail1982@gmail.com 1 1 Introduction In this paper, we will understand from a proof how to relate the notion of causality to the correlation. For this, we will have to introduce the causal effect vector ∆⃗E. This vector ∆⃗E will be related to the square root of a quadratic form containing the correlations √ KXΩ.K −1 Ω2 .KΩX. 2 2 Multiple correlation and causal effect vector We will describe below the relationship relating the causal effect vector ∆⃗E and the correlations √ KXΩ.K −1 Ω2 .KΩX: 1 2 . √ Var(∆⃗E + X⃗) √ Var(X⃗) = √ KXΩ.K −1 Ω2 .KΩX Where: 1. Var(.) is the variance, Ω are the causes and X⃗ is the vector on which Ω acts. 2. ∆⃗E is the causal effect vector of the causes Ω acting on the vector X⃗. 3. ∣∣∆⃗E∣∣ is the causal effect magnitude of Ω on the vector X. 4. √ KXΩ.K −1 Ω2 .KΩX is the multiple correlation and 0 ≤ √ KXΩ.K −1 Ω2 .KΩX ≤ 1. Proof: From the conditional average E⃗(.∣.), we will define the following signals: 1. E⃗(X∣Ω) is the causal signal obtained when the causes Ω act on the variable X. This causal signal is produced by the intervention of causes Ω in the signal X. 2. E⃗(X∣Ω˜ ) is the signal obtained when the causes Ω do not act on the variable X. This signal is produced without the intervention of causes Ω in the signal X. The total signal X⃗ is obtained by summing the two previous signals: X⃗ = E⃗(X∣Ω) + E⃗(X∣Ω˜ ) (1) Note that it is easy to show that the two signals E⃗(X∣Ω) and E⃗(X∣Ω˜ ) are uncorrelated: cor(E⃗(X∣Ω), E⃗(X∣Ω˜ )) = 0, where cor() is the correlation. We will now describe the causal effect vector ∆⃗E : ∆⃗E = E⃗(X∣Ω) − E⃗(X∣Ω˜ ) (2) 3 By combining relations (1) and (2): E⃗(X∣Ω) = 1 2 .(∆⃗E + X⃗) (3) As we know that (see app</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2406.0161v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

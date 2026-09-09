@@ -26,6 +26,7 @@
   <h1>tailbite</h1>
   <div class="meta"> · archived # 1,557,994</div>
   <div class="preview">Tailbiter square pulse generator circuits Content on this page supplied with from the web site of Jim Lux Tailbiter circuits for generating square pulses One technique for generating a square pulse is to use a fast acting switch to shunt the output of a pulse generator that is making a longer pulse: that is, biting off the tail of the impulse. The impulse generator can be almost any sort that generates a pulse with an appropriate duration that is sufficiently flat. The switch can be a triggered spark gap, a triggered gas discharge tube (e.g. Thyratron), or even a semiconductor switch for lower voltages. In general, the stored energy from the impulse generator is dissipated in the shunt switch. Another technique, more difficult of implementation, uses a series switch that turns off in mid-impulse. Fast switches that turn off with high voltages and currents are harder to come by, although for a few tens kV, strings of semiconductors or vacuum tubes can be used. A popular application for tailbiters is for controlling the amount of light emitted by an electronic flash. The shunt switch across the flashtube is triggered when an integrating light detector reaches the desired exposure, dumping the remainder of the stored energy and quenching the main flash tube. In early versions of this circuit, a second flash tube was used as the switch, although more recently, various thyristors are more popular. A series tailbiter using a high voltage MOSFET switch is becoming common now, having the advantage that the excess stored energy is retained, instead of dissipated in the shunt switch. Copyright 1998, Jim Lux / tailbite.htm / 8 March 1998 / Back to HV Home / Back to home page / Mail to Jim</div>
+  
   <div class="actions"><a class="btn" href="http://webozz.free.fr/Free%20energy%20data/tailbite.htm" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Quantum+++Relativity">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

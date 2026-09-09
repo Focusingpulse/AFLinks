@@ -24,6 +24,7 @@
   <h1>presregu.sch</h1>
   <div class="meta"> · archived # 1,450,526</div>
   <div class="preview">1 2 3 4 5 6 A B C D 1 2 3 4 5 6 D C B A Title Size Number Revision B Date: 19-Feb-2014 Sheet of File: C:\PROTEL\SCHEMA~1\PRESREGU.SCH Drawn By: 0V +12V R4* 15k R8 10k R11 10M R14 2k2 P3 10k C3 0.1u 12 13 14 ICD LM324 pressure control R10 3k3 C2 0.1u set pressure 10 9 8 IC1C LM324 buffer 5 6 7 IC1B LM324 3 2 1 IC1A LM324 R4 P1 20k 51k R7 100k R5 100k P2 10k -12V -12V gain adjust level shift R1 10k R3 10k R6 39k R2 5k1 LED1 R R12 6k8 R13 10k R15 2k2 Q1 BC547 C4 0.1u C5 0.1u GND 2 Vcc 3 Out 1 PS1 MPX5500DP C1 0.1u +5V + control output - PRESSURE CONTROL Les Banki 1 3 4 inverter 11 4 TP1 TP2 TP3 TP4 TP5 TP7 C6 1n set pressure D1 4148 Q2 BC547 SW1a SW1b read pressure TP6 TP8 TP9 to panel LED R4* is on control panel</div>
+  
   <div class="actions"><a class="btn" href="http://www.tuks.nl/WFCProject/Les_Banki_Project/presregu.sch.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Finance+++Economics">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -33,5 +34,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Finance / Economics">Finance / Economics</a><a class="tag" href="/AFLinks/?cat=Water / Hydrogen">Water / Hydrogen</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

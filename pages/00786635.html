@@ -25,6 +25,7 @@
   <h1>2502.0044v1</h1>
   <div class="meta"> · archived # 786,635</div>
   <div class="preview">Computational Complexity of Quantum Error Correction Masataka Ohta School of Computing, Institute of Science Tokyo, Tokyo, Japan mohta@necom830.hpcl.titech.ac.jp or necom830@yahoo.co.jp Abstract Errors on computations depend on their arguments and are, in general, different arguments by arguments. As linear superposition for quantum parallelism keeps the errors different, QEC (Quantum Error Correction) for N quantum parallel computations must correct N different errors, which requires O(N) correction information, which makes hardware complexity of QEC circuit O(N), which is no better than classical N parallel computations. Shor overlooked a fact that an initial environment state around a qubit is output from a QEC encoder and is entangled with all the qubits used to compute the qubit, which makes the errors depend on the qubits. Keywords: Quantum Error Correction, Quantum Supremacy 1. Introduction As unitary quantum operators are linear, instead of evaluating a unitary operator serially with N different input arguments one by one for N times, the operator with linear combination, or quantum superposition, of N different input arguments may be evaluated once to obtain a superpositioned evaluation result, which is, so called, quantum parallelism. A problem is that, because errors on computations depend on their arguments and are, in general, different arguments by arguments, usual QEC (Quantum Error Correction) works only for quantum serial computations. Quantum serial computations to obtain outputs of a quantum circuit with different input arguments, errors may be corrected by QEC. QEC is “quantum analog of error correcting codes” [1] and is not very different from CEC (Classical Error Correction). With CEC, during decoding, syndrome bits are computed to identify an error type. With QEC, during decoding, syndrome qubits are computed and observed to converge states into some error type which is identified by the observed result. However, QEC for N parallel quantum par</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2502.0044v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

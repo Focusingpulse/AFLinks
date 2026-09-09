@@ -25,6 +25,7 @@
   <h1>2011.0203v1</h1>
   <div class="meta"> · archived # 346,189</div>
   <div class="preview">1 Introduction 2 NOTE ON THE COMPARISONS OF GEODETIC AZIMUTHS OF THE TUNISIAN PRIMORDIAL GEODETIC NETWORK Abdelmajid Ben Hadj Salem Abstract In this paper, we present some comparisons of geodetic azimuths obtained by GPS by classical geodesy and by astronomical observations (Laplace’s points). The geodetic azimuths are calculated using 3D coordinates or by plane coordinates (Tunisian Lambert projection). The results obtained confirm that the orientation issued by GPS is identical to astronomical orientation which confirms also the ori￾entation of the Tunisian Primordial Geodetic Network obtained by the definitive adjustment of the French Institut Géographique National in 1984. Résumé Dans cette note, nous présentons des comparaisons d’azimuts géodésiques obtenus par GPS avec ceux de la géodésie classique ou par l’astronomie. Les azimuts sont calculés par les coordonnées tridimensionnelles ou issus des coordonnées planes. Les résultats obtenus confirment que l’orientation issue du GPS est identique à celle obtenue par les observations astronomiques. De plus, les résultats GPS confir￾ment l’orientation du réseau géodésique primordial tunisien issu de la compensation définitive de l’IGN de 1984. 1 Introduction Let A(ϕ0, λ0, H) with 3D coordinates (X1, Y1, Z1) in a given geocentric ref￾erence frame, we consider the local geodetic frame in A : From A, we observe the point B of coordinates (X2, Y2, Z2). Let (x, y, z) T be the components of the vector AB in (A, x, y, z). Then the geodetic azimuth of the direction AB is given by: tg(Az) = x y (1) Let : DX = X2 − X1 DY = Y2 − Y1 (2) DZ = Z2 − Z1 (3) Between (DX, DY, DZ) T and (x, y, z) T , we have the relation :   x y z   = R.   DX DY DZ   (4) 1 Introduction 3 Fig. 1: Le Repère local au point A Where R is the matrice of the transformation from the geocentric reference to the local geodetic frame in A and is given by: R =   −sinλ0 cosλ0 0 −cosϕ0.sinλ0 −sinϕ0.sinλ0 cosϕ0 cosϕ0.cosλ0 cosϕ0.sinλ0 sinϕ0   (5) th</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2011.0203v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Biology">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Biology, Health &amp; Medicine">Biology, Health &amp; Medicine</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Biology">Biology</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

@@ -21,6 +21,7 @@
   <h1>2411.0083v2</h1>
   <div class="meta"> · archived # 904,624</div>
   <div class="preview">Understanding when the correlations are causation Ait-taleb Nabil * Abstract In this paper, we will expose for the Gaussian multiple causation a theorem relating the causation to correlations. This theorem is based on another equality which will be also proven. *Corresponding author: nabiltravail1982@gmail.com 1 1 Introduction The aim of this paper is to propose a theorem relating the conditions in which the corre￾lations imply causality. The main theorem is based from an intermediate result relating the Gaussian conditional variance (Schur’s complement) to the variance applied to the difference between the current variable and its conditional mean. 2 2 Conditional variance and marginal variance In what follows, we will make the link between the conditional variance (Schur’s com￾plement) KX2 − KXΩ.K −1 Ω2 .KΩX and the marginal variance Var(.) of the difference be￾tween the current variable X and the conditional mean E[X∣Ω]: ΣX2 − ΣXΩ.Σ −1 Ω2 .ΣΩX = Var(X − E[X∣Ω]) Proof: ΣX2 − ΣXΩ.Σ −1 Ω2 .ΣΩX = Var(X − E[X∣Ω]) ΣX2 − ΣXΩ.Σ −1 Ω2 .ΣΩX = ΣX2 − 2.Cov(X, E[X∣Ω]) + Var(E[X∣Ω]) 2.Cov(X, E[X∣Ω]) − ΣXΩ.Σ −1 Ω2 .ΣΩX = Var(E[X∣Ω] 2.Cov(X, ΣXΩ.Σ −1 Ω2 .ω⃗ + µX − ΣXΩ.Σ −1 Ω2 .µΩ) − ΣXΩ.Σ −1 Ω2 .ΣΩX = Var(E[X∣Ω] 2.Cov(X, ΣXΩ.Σ −1 Ω2 .ω⃗) − ΣXΩ.Σ −1 Ω2 .ΣΩX = Var(E[X∣Ω] Using the bilinearity of the covariance we obtain: 2.ΣXΩ.Σ −1 Ω2 .ΣΩX − ΣXΩ.Σ −1 Ω2 .ΣΩX = Var(E[X∣Ω] ΣXΩ.Σ −1 Ω2 .ΣΩX = Var(E[X∣Ω] We will now develop Var(E[X∣Ω]): Var(E[X∣Ω]) = Var(ΣXΩΣ −1 Ω2 .ω⃗ + µX − ΣXΩ.Σ −1 Ω2 .µΩ) = Var(ΣXΩΣ −1 Ω2 .ω⃗) As we have the following relationship: Var(A.(Y⃗ − µ⃗)) = Var(A.Y⃗ − A.µ⃗) = Var(A.Y⃗) = A.Var(Y).A t we obtain: Var(E[X∣Ω]) = Var(ΣXΩΣ −1 Ω2 .ω⃗) = ΣXΩΣ −1 Ω2 .ΣΩ2 .Σ −1 Ω2 .ΣΩX = ΣXΩ.I.Σ −1 Ω2 .ΣΩX = ΣXΩ.Σ −1 Ω2 .ΣΩX We have proven the relationship: ΣX2 − ΣXΩ.Σ −1 Ω2 .ΣΩX = Var(X − E[X∣Ω]) 3 3 Context when the Correlations are causation Theorem: If Ω ≡ ω⃗ is a set of causes with #Ω ≥ 2 and X a variable then there exists a causal relationship between the variables Ω and the</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2411.0083v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -30,5 +31,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

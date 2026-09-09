@@ -26,6 +26,7 @@
   <h1>2606.0051v1</h1>
   <div class="meta"> · archived # 453,502</div>
   <div class="preview">1 Inference operators A. Zelmer 2 Abstract Certainly the beauty of mathematics also lies in the precision of mathematical sentences, as well as in the proofs of theorems. However, this can only be fully achieved by formalizing sentences and proofs. Our computer-assisted proving system, which we have called ”Logic”, contains two fundamental modules: the sentence editor and the proof module. We presented the sentence editor in Mathematical Sentences as Matrices. The proof module of the &quot;Logic&quot; system is based on certain primitive functions that we have called inference operators. In this paper we present what inference operators are and how they can be used in formalized mathematical proofs. Mathematical proofs A proof of a theorem contains a numbered list of steps. Each step represents a sentence. Initially this list is empty. We can generate a proof step in two cases: - In the first case, we can declare a sentence (axiom, definition, or theorem) as a premise of the proof. - In the second case, we can call an inference operator for sentences already existing in the proof. If the inference operator can be applied, then its result is the sentence of the new step of the proof. A proof is complete if the sentence of the last step coincides with the theorem we want to prove, or, in the case of a proof by reductio ad absurdum, it is a contradiction. To explain how inference operators work, we will need some example sentences. For this purpose we will use the matrix form or the text form of the sentences. The following table shows the notation conventions for logical operators, which are the nodes of our sentences. 3 Logical operators Operator Designation Description Arg-Nr. Arg-Kind Res￾Kind A  Universal quantifier 2 Form Form E  Existential quantifier 2 Form Form K .. Class generator 1 Form Term X  Conjunction 2 Form Form V  Disjunction 2 Form Form D  Double implication 2 Form Form C  Implication 2 Form Form N Not Negation 1 Form Form T - True 0 - Form ^ - Link to</div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2606.0051v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -35,5 +36,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>

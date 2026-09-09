@@ -25,6 +25,7 @@
   <h1>2407.0145v1</h1>
   <div class="meta"> · archived # 735,717</div>
   <div class="preview">1 Sliding Discrete Fourier Transform of Windowed Samples *Jon Un Song, Kwon Ryong Il Faculty of Automation, Kim Il Sung University, Taesong District, Pyongyang, DPR Korea Corresponding Author E-mail address: RI.KUON@star-co.net.kp Abstract In general the sliding discrete Fourier transform (SDFT) for analyzing the frequency characteristics of shift data is not applied to the windowed shift data and so in this case a lot of calculations are needed. But in practical applications calculating the spectrum of the windowed shift data efficiently is needed. This paper proposes a SDFT of the windowed shift data using the window functions. Window functions have the symmetric property. Using this symmetric property, discrete Fourier transform (DFT) of the windowed shift data can be calculated by recursive algorithm. And this paper verifies its correctness and analyzes the number of calculations through the simulation using MATLAB. Several window functions, i.e. Bartlett, hanning, hamming, Blackman window functions are used to prove the proposed algorithm. These algorithms can be efficiently used in the analysis of frequency characteristics of the shift data and implemented using dsPIC, ARM and FPGA. Keywords: sliding discrete Fourier transform (SDFT), DFT of shift data, windowed DFT, fast algorithm of DFT 1. Introduction The discrete Fourier transform (DFT) is widely used in the frequency analysis and the fast algorithms of DFT are proposed and used[1-5]. One way is just SDFT for the shift data and in this case it is the very effective algorithm[1,2]. This algorithm is as follows: In the first step, find the DFT of N samples {x(0), x(1),..., x(N 1)}. At the arbitrary n th moment, find the DFT of N samples {x(n  N 1), x(n  N  2),...,x(n)}. And then at the n+1 th moment, find the DFT of N samples {x(n  N  2), x(n  N  3),..., x(n 1)}. Comparing the n th samples with the n+1 th samples, only the first sample x(n  N 1) and the last sample x(n 1) differ, but the others </div>
+  
   <div class="actions"><a class="btn" href="https://vixra.org/pdf/2407.0145v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Electromagnetism">Related documents →</a></div>
   <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
   <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
@@ -34,5 +35,18 @@
   <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Electromagnetic Theory">Electromagnetic Theory</a><a class="tag" href="/AFLinks/?cat=Environment &amp; Climate">Environment &amp; Climate</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Electromagnetism">Electromagnetism</a><a class="tag" href="/AFLinks/?cat=Environment / Climate">Environment / Climate</a></div>
   <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
 </div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
 </body>
 </html>
