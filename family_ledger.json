@@ -128,9 +128,9 @@
     },
     {
       "agent": "drunvalo",
-      "task": "AetherForce scout cron (cloud sandbox) \u2014 primary source verification, web search for new sources",
-      "delta": "Verified 3 primary sources (LENR, BioGeometry, Morphic Fields). Identified 12 high-value finds across Russian torsion/ether, French radiesthesia, LENR, scalar fields, and consciousness research. Scout report: sources/scout-report-2026-09-09.md. Raised 3 vanishing-research flags. Added 12 sources to upgrade_bank.",
-      "timestamp": "2026-09-09T12:07:01.062192+00:00"
+      "task": "AetherForce synthesis cron (cloud sandbox) \u2014 Lecher antenna bridge",
+      "delta": "Created synthesis/2026-09-09-lecher-antenna-bridge.md connecting classical EM (Lecher 1890), German physical radiesthesia (Schneider, Kunnen), French geobiology (G\u00e9obios), radionics model, and extended EM theory (Schadach). Updated database/research-index.json with synthesis entry. Updated database/person-index.json with Lecher, Schneider, Kunnen. Proposed 2 upgrades: Lecher cross-validation experiment, Lecher-torsion comparison.",
+      "timestamp": "2026-09-09T12:05:00.000000+00:00"
     }
   ],
   "upgrade_bank": [
@@ -1191,142 +1191,22 @@
       "timestamp": "2026-09-09T06:05:00.000000+00:00"
     },
     {
-      "id": "upgrade-scout-021",
+      "id": "upgrade-lecher-001",
       "proposed_by": "drunvalo",
-      "target": "Shipov \u2014 Theory of Physical Vacuum (complete PDF)",
-      "rationale": "Primary source for torsion field theory. 10-dimensional absolute parallelism geometry. Vacuum equations generalizing Einstein, Heisenberg, Yang-Mills. Complete English translation.",
-      "status": "FOUND",
-      "found_url": "http://shipov-vacuum.com/wp-content/uploads/2011/09/A-Theory-of-Physical-Vacuum.pdf",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062316+00:00",
-      "timestamp": "2026-09-09T12:07:01.062319+00:00"
+      "target": "Lecher antenna cross-validation experiment: controlled comparison against electronic instruments",
+      "rationale": "Synthesis identified testable physical wavelength claims (5.7 magnetic, 7.8 electric, 8.6 gamma). Systematic comparison against gaussmeter, electric field meter, Geiger counter, and microwave detector would validate or falsify the physical calibration claims. Multiple operators, multiple antennas, blinded protocol.",
+      "status": "proposed",
+      "timestamp": "2026-09-09T12:05:00.000000+00:00",
+      "source_synthesis": "synthesis/2026-09-09-lecher-antenna-bridge.md"
     },
     {
-      "id": "upgrade-scout-022",
+      "id": "upgrade-lecher-002",
       "proposed_by": "drunvalo",
-      "target": "Atsyukovsky \u2014 General Etherdynamics (complete Russian, 584 pages)",
-      "rationale": "Comprehensive etherodynamics treatise. Gas-like ether model with vortex structures. Derives particle masses and field effects. Complete PDF on Archive.org.",
-      "status": "FOUND",
-      "found_url": "https://archive.org/details/B-001-004-228",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062321+00:00",
-      "timestamp": "2026-09-09T12:07:01.062322+00:00"
-    },
-    {
-      "id": "upgrade-scout-023",
-      "proposed_by": "drunvalo",
-      "target": "Kozyrev \u2014 Causal Mechanics in Linear Approximation (1958 Russian original)",
-      "rationale": "Complete original Russian text. Axioms of causal mechanics, time as pseudoscalar, C\u2082 \u2248 2200 km/s. Full astrophysical introduction. Hosted on nkozyrev.ru (at risk).",
-      "status": "FOUND",
-      "found_url": "https://www.nkozyrev.ru/bd/022.pdf",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062323+00:00",
-      "timestamp": "2026-09-09T12:07:01.062324+00:00"
-    },
-    {
-      "id": "upgrade-scout-024",
-      "proposed_by": "drunvalo",
-      "target": "Kozyrev & Nasonov \u2014 Astronomical Observations via Physical Properties of Time (1977)",
-      "rationale": "1977 Erevan symposium paper. Time density as scalar, instantaneous signal detection, true vs visible stellar positions. Hosted on narod.ru (at risk).",
-      "status": "FOUND",
-      "found_url": "https://ivanik3.narod.ru/Kozyrev/Statji/Koziyrev1977SimpozErevan001.pdf",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062325+00:00",
-      "timestamp": "2026-09-09T12:07:01.062326+00:00"
-    },
-    {
-      "id": "upgrade-scout-025",
-      "proposed_by": "drunvalo",
-      "target": "Meyl \u2014 Scalar Waves (JSE 2001)",
-      "rationale": "Extended Maxwell theory with potential vortices propagating as longitudinal waves. Tesla experiment replication. Bridge between ether dynamics and modern electrodynamics.",
-      "status": "FOUND",
-      "found_url": "https://www.scientificexploration.org/docs/15/jse_15_2_meyl.pdf",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062328+00:00",
-      "timestamp": "2026-09-09T12:07:01.062329+00:00"
-    },
-    {
-      "id": "upgrade-scout-026",
-      "proposed_by": "drunvalo",
-      "target": "Chaumery & de Belizal \u2014 Essai de radiesth\u00e9sie vibratoire (1976 PDF)",
-      "rationale": "Foundational French 'onde de forme' text. Introduces Louksor pendule and systematic study of form-wave emissions. Critical for French radiesthesia school.",
-      "status": "FOUND",
-      "found_url": "https://www.dervy-almora.fr/essai-de-radiesthesie-vibratoire-p-5408.html",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062330+00:00",
-      "timestamp": "2026-09-09T12:07:01.062331+00:00"
-    },
-    {
-      "id": "upgrade-scout-027",
-      "proposed_by": "drunvalo",
-      "target": "de Belizal & Morel \u2014 Physique micro-vibratoire et forces invisibles",
-      "rationale": "270-page sequel to Chaumery & de B\u00e9lizal's foundational text. 30 years of research. Alpha ray healing, detection/protection devices. Continuation of French onde de forme school.",
-      "status": "FOUND",
-      "found_url": "https://www.dervy-almora.fr/radiesthesie-vibrations-et-ondes-nocives-p-6382.html",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062332+00:00",
-      "timestamp": "2026-09-09T12:07:01.062333+00:00"
-    },
-    {
-      "id": "upgrade-scout-028",
-      "proposed_by": "drunvalo",
-      "target": "Sheldrake \u2014 Morphic Fields (World Futures 2006)",
-      "rationale": "Complete theoretical paper on morphic resonance. Morphogenetic fields, collective memory, telepathy, formative causation. Critical for consciousness-as-field synthesis.",
-      "status": "FOUND",
-      "found_url": "https://www.sheldrake.org/files/pdfs/papers/Morphic-Fields.pdf",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062334+00:00",
-      "timestamp": "2026-09-09T12:07:01.062335+00:00"
-    },
-    {
-      "id": "upgrade-scout-029",
-      "proposed_by": "drunvalo",
-      "target": "Karim \u2014 BioGeometry Signatures (complete book)",
-      "rationale": "Complete BioSignatures book by Ibrahim Karim. Linear diagrams for organ subtle energy balance. BG3 harmonizing quality. Bridge between Egyptian temple science and modern biophysics.",
-      "status": "FOUND",
-      "found_url": "https://rexresearch.com/biogeom/KarimBiogemSign.pdf",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062336+00:00",
-      "timestamp": "2026-09-09T12:07:01.062337+00:00"
-    },
-    {
-      "id": "upgrade-scout-030",
-      "proposed_by": "drunvalo",
-      "target": "Rossi-Focardi \u2014 A New Energy Source from Nuclear Fusion (2010)",
-      "rationale": "Primary LENR paper. Ni-H fusion below 1000K. Output/input ratios up to 400x. No neutron/gamma emissions. Foundation for E-Cat technology.",
-      "status": "FOUND",
-      "found_url": "https://lenr-canr.org/acrobat/FocardiSanewenergy.pdf",
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062338+00:00",
-      "timestamp": "2026-09-09T12:07:01.062339+00:00"
-    },
-    {
-      "id": "upgrade-scout-031",
-      "proposed_by": "drunvalo",
-      "target": "Bearden \u2014 Extracting EM Energy from Vacuum",
-      "rationale": "Motionless Electromagnetic Generator theory. Vacuum energy extraction via scalar longitudinal waves. Bridge between ether dynamics and ZPE extraction.",
-      "status": "FOUND",
-      "found_urls": [
-        "https://www.cheniere.org/",
-        "https://rexresearch.com/bearden/bearden.htm"
-      ],
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062341+00:00",
-      "timestamp": "2026-09-09T12:07:01.062342+00:00"
-    },
-    {
-      "id": "upgrade-scout-032",
-      "proposed_by": "drunvalo",
-      "target": "Sacred geometry in Islamic architecture papers",
-      "rationale": "Multiple academic papers on golden ratio in Kairouan mosque, Tanjavur temple, Persian architecture. Cross-cultural sacred geometry synthesis opportunity.",
-      "status": "FOUND",
-      "found_urls": [
-        "https://www.researchgate.net/publication/3448287_Geometry_and_Architecture_in_the_Mosque_of_Kairouan",
-        "https://www.academia.edu/"
-      ],
-      "found_by": "drunvalo",
-      "found_timestamp": "2026-09-09T12:07:01.062343+00:00",
-      "timestamp": "2026-09-09T12:07:01.062345+00:00"
+      "target": "Lecher antenna vs Russian torsion detector comparison: side-by-side detection above same samples",
+      "rationale": "Both traditions claim detection of information-carrying fields below the EM noise floor. Systematic comparison above elements, minerals, radioactive samples would reveal whether they detect the same phenomena. Would unify German physical radiesthesia, French geobiology, and Russian torsion physics.",
+      "status": "proposed",
+      "timestamp": "2026-09-09T12:05:00.000000+00:00",
+      "source_synthesis": "synthesis/2026-09-09-lecher-antenna-bridge.md"
     }
   ]
 }
