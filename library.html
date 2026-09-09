@@ -604,12 +604,6 @@ footer a { color: var(--gold); text-decoration: none; }
   <div id="activityList"><div class="loading">Loading activity...</div></div>
 </div>
 
-<!-- Atsyukovsky books -->
-<div class="section" id="booksSection">
-  <h2>Atsyukovsky — Full 5-Volume Set <span class="sub">etherodynamics, translated to English over time; originals preserved for download</span></h2>
-  <div id="booksList"><div class="loading">Loading book set...</div></div>
-</div>
-
 <!-- Bridges — the same idea across languages -->
 <div class="section" id="bridgesSection">
   <h2>Bridges Between Languages <span class="sub">the same idea, worked independently in different tongues — where linguistic silos hid a shared thread</span></h2>
@@ -629,8 +623,8 @@ footer a { color: var(--gold); text-decoration: none; }
 <!-- Translations -->
 <div class="section" id="translationsSection">
   <h2>Fresh Translations <span class="sub">first-ever English translations — cargo the multilingual scouts hauled back</span></h2>
+  <p style="margin:-8px 0 12px;font-size:0.82rem;"><a href="./translations.html">Browse all translations →</a></p>
   <div id="translationsList"><div class="loading">Loading translations...</div></div>
-  <p style="text-align:center;margin-top:14px;"><a href="./translations.html" style="color:var(--copper);font-size:0.85rem;">Browse all translations &rarr;</a></p>
 </div>
 
 <!-- Scout finds -->
@@ -670,25 +664,30 @@ let LIVING_FEED = null;
 
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json?v=20260909032550');
+    const res = await fetch('./library_feed.json?v=20260909033203');
     const feed = await res.json();
     LIVING_FEED = feed;
-    renderStats(feed.library);
-    renderFleet(feed.agents);
-    renderDeclassified(feed.declassified);
-    renderActivity(feed.activity_log);
-    renderAtsyukovsky(feed.atsuyskovsky_books);
-    renderBridges(feed.bridges);
-    renderYard(feed.practical);
-    renderTranslations(feed.latest_translations);
-    renderFinds(feed.latest_finds);
-    renderResearchers(feed.top_researchers);
-    renderDomains(feed.domains);
-    autoOpenFromHash();
+    const safe = (fn, arg) => { try { fn(arg); } catch(e) { console.error('render error:', e); } };
+    safe(renderStats, feed.library);
+    safe(renderFleet, feed.agents);
+    safe(renderDeclassified, feed.declassified);
+    safe(renderActivity, feed.activity_log);
+    safe(renderAtsyukovsky, feed.atsuyskovsky_books);
+    safe(renderBridges, feed.bridges);
+    safe(renderYard, feed.practical);
+    safe(renderTranslations, feed.latest_translations);
+    safe(renderFinds, feed.latest_finds);
+    safe(renderResearchers, feed.top_researchers);
+    safe(renderDomains, feed.domains);
   } catch (e) {
     document.querySelectorAll('.loading').forEach(el => el.textContent = 'Feed not found yet — the library is still seeding. Check back soon.');
+  } finally {
+    autoOpenFromHash();
   }
 }
+
+/* In-page hash changes (e.g. clicking a What's New link) also open the item */
+window.addEventListener('hashchange', autoOpenFromHash);
 
 /* Deep links: #trans-<file> opens that translation, #declass-<slug> a record */
 function _declassSlug(filepath) { return String(filepath || '').replace(/[^A-Za-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
@@ -696,22 +695,36 @@ function _declassSlug(filepath) { return String(filepath || '').replace(/[^A-Za-
 function autoOpenFromHash() {
   const h = (location.hash || '').replace(/^#/, '');
   if (!h || !LIVING_FEED) return;
+  // Redirect old book section anchor to translations
+  if (h === 'booksSection') {
+    location.hash = '#translationsSection';
+    return;
+  }
   if (h.indexOf('trans-') === 0) {
     const file = h.slice(6);
     const t = (LIVING_FEED.latest_translations || []).find(x => x.file === file);
     if (t) { openReader(t); return; }
+    // Fallback: scroll to translations section
+    const sec = document.getElementById('translationsSection');
+    if (sec) sec.scrollIntoView({behavior:'smooth'});
+    return;
   }
   if (h.indexOf('declass-') === 0) {
     const slug = h.slice(8);
     const d = (LIVING_FEED.declassified || []).find(x => _declassSlug(x.file) === slug);
-    if (d) { openDeclass('./' + d.file.replace(/^\.?\//, '')); }
+    if (d) { openDeclass('./' + d.file.replace(/^\.?\//, '')); return; }
+    // Fallback: scroll to declassified section
+    const sec = document.getElementById('declassifiedSection');
+    if (sec) sec.scrollIntoView({behavior:'smooth'});
   }
 }
 
 function renderAtsyukovsky(books) {
-  const el = document.getElementById('booksList');
-  if (!books || !books.length) { el.innerHTML = '<div class="empty">Book set coming soon.</div>'; return; }
-  el.innerHTML = '';
+  const el = document.getElementById('translationsList');
+  if (!el) return;
+  if (!books || !books.length) return;
+  // Prepend book cards to the translations section
+  const frag = document.createDocumentFragment();
   books.forEach(b => {
     const card = document.createElement('div');
     card.className = 'translation-card';
@@ -736,8 +749,9 @@ function renderAtsyukovsky(books) {
         ${src}
       `;
     }
-    el.appendChild(card);
+    frag.appendChild(card);
   });
+  el.insertBefore(frag, el.firstChild);
 }
 
 async function openAssembled() {
@@ -1021,6 +1035,11 @@ document.getElementById('readerOverlay').addEventListener('click', function(e) {
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeReader();
 });
+
+function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
 
 /* Minimal markdown → HTML renderer (headings, bold/italic, links, lists,
    blockquotes, tables, hr, paragraphs). Enough for the translation files. */
