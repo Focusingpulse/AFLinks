@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T08:04:31Z",
+  "generated_at": "2026-09-09T09:06:21Z",
   "library": {
     "researchers": 990,
     "researchers_cataloged": 210,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 62,
     "bridges": 6,
-    "archive_entries": 53594,
+    "archive_entries": 53599,
     "meta_counts": {
-      "Challenges to the Standard Model": 40709,
+      "Challenges to the Standard Model": 40714,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -733,6 +733,34 @@
     }
   ],
   "latest_finds": [
+    {
+      "date": "steiner-ro",
+      "file": "steiner-roots-2026-09-09.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "https",
+          "description": "//doi.org/10.1007/s13593-022-00843-y (Krause et al. 2022, DOK 42-year)",
+          "url": ""
+        },
+        {
+          "title": "Horn",
+          "description": "manure (500) replication**: The Juknevičienė pumpkin result deserves a replication dossier — simple, low-cost, testable at home scale.",
+          "url": ""
+        },
+        {
+          "title": "Composting method vs preparation factorial",
+          "description": "The Krause et al. 2022 attribution to composting needs direct experimental confirmation.",
+          "url": ""
+        },
+        {
+          "title": "Gate passed (budget OK)",
+          "description": "Scout executed autonomously",
+          "url": ""
+        }
+      ]
+    },
     {
       "date": "2026-09-09",
       "file": "2026-09-09-scout-b-de-ru-ja.md",
@@ -5429,9 +5457,9 @@
       "mission": "Second overnight sweep in a different set of languages — catches what the first pass missed.",
       "schedule": "nightly 2am MDT",
       "icon": "🌅",
-      "last_run": "2026-09-07T08:04:08Z",
+      "last_run": "2026-09-09T08:04:46Z",
       "last_status": "ok",
-      "last_summary": "+9 finds since last run (15->24) | Portuguese/Polish/Korean/Czech/Dutch/Ukrainian (gear: overdrive)"
+      "last_summary": "+6 finds (first recorded) | de/ru/ja (gear: quota)"
     },
     {
       "member": "translation-curator",
@@ -5440,9 +5468,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-09T07:46:44Z",
+      "last_run": "2026-09-09T08:50:33Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (sweeper overlap) | translating Schauberger Wasser: Das Blut der Erde (de) 190/210 chunks, 20 remain | backlog 392 (gear: quota)"
+      "last_summary": "+8 chunks since last run (190->198; 4 by curator this run, 4 by sweeper between runs) | translating Schauberger 'Wasser — Das Blut der Erde' (de) 198/210 chunks, source already archived 2026-09-04 | backlog 400 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5451,9 +5479,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-09T07:17:00Z",
+      "last_run": "2026-09-09T08:18:10Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (178->186) | Schauberger 'Wasser - Das Blut der Erde' 186/210 | backlog 392 wait (gear: quota)"
+      "last_summary": "+8 chunks since last run (186->194) | Schauberger 'Water: The Blood of the Earth' 194/210 | backlog 400 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5473,9 +5501,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T07:07:56Z",
+      "last_run": "2026-09-09T08:06:31Z",
       "last_status": "ok",
-      "last_summary": "sync: 53594 docs, feed rebuilt, index re-compacted (tag_concepts 100MB bug fixed)"
+      "last_summary": "sync: 53594 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5528,9 +5556,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-09T04:20:00Z",
+      "last_run": "2026-09-09T08:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation (Abel Martin 1932 vet radiesthesia thesis article FR→EN) — first doctorate ever for a radiesthésiste. QC: Schauberger es→en reviewed PASS. Drunvalo QC agent active at :07 offset — no double work. Corpus 108→109. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days."
+      "last_summary": "+1 translation (Turenne scientific theory FR→EN — 8m health wavelength, 2.5M harmonic scale, Momos catalysts). QC: Drunvalo pass at 08:15 covered the 5 recent files — verified, no double work. Corpus 109→110. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days."
     },
     {
       "member": "scout",
@@ -5539,9 +5567,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-09T06:15:00Z",
+      "last_run": "2026-09-09T08:00:00Z",
       "last_status": "ok",
-      "last_summary": "06:15Z growth: DISCOVERY — webozz.free.fr (NEW FR free-energy CD-ROM mirror) +617 HTML docs merged id-safe (060d3e7d, ids 1557437-1558053), archive 52,806→53,423. Live lanes all synced (lenr-canr/viXra/energeticforum 0 new); iccf-27 proceedings STILL Under Construction. index.json switched to COMPACT (hit GitHub 100MiB limit). OCR/queue/tag pending FocusOptimized."
+      "last_summary": "08:00Z round: 0 new FL LENR (37th clean since 08-21). iccf-27.org proceedings STILL Under Construction (9,845B). lenr-canr 1,454 synced; seplm/lenr.su/tuks all archived. Archive 53,594 (post 06:15Z webozz +617 + other workers padrak +146, zenodo-rh +25). Corpus 109. Translator stale ~10d (QC active). OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5569,9 +5597,51 @@
   "activity_log": [
     {
       "date": "2026-09-09",
+      "time": "09:05",
+      "agent": "Book4 Translate",
+      "summary": "+5 chunks — Translated chunks 080-084 (5 chunks). Book 4 now 84/178 complete (47%). Gear: quota mode."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "08:50",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (195-198) of Schauberger 'Wasser — Das Blut der Erde' (de->en), now 198/210. Content: climate consequences of carbon-deficient water, Schauberger's critique of rain-formation theory, Austrian Patent No. 138296 (water conduction in pipes), and start of the audio-file memoirs (trout observation, timber flotation test). Source already archived (2026-09-04). 12 chunks remain to complete the book."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "08:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Turenne's scientific theory FR→EN (turenne.eu, \"teoria scientifica\"): the theoretical core of the Méthode Turenne — every body vibrates and emits a wave characterized by FORM (7 form-wave families discovered by Turenne, differentiated by wave height: 13/19/25/50-55/62/68/80 cm) and LENGTH (measured between frequency peaks); the measurement code (1930-35 instruments forced a harmonic scale — every meter reading is a sub-harmonic 2,500,000× longer than the real nanometer measurement); the 8 METERS as the measure of health (the wavelength of any healthy body — atom, cell, organ, person, animal, plant — must be 8 m ÷ 2,500,000, discovered from the vibratory characteristics of life elements: oxygen, hydrogen, helium, argon); magnetic (horizontal) waves as the life signature vs. electric (vertical) waves as always noxious below 8 m (electric current, diseases, geologically unhealthy sites, smog, EM pollution, broadcast waves, mobile phones); the Momos Wave Catalysts (rectify wave form + lengthen wavelength back to 8 m, decontaminate food/remedies/jewelry, draw colloidal metals/metalloids/rare gases from the atmosphere, act on micelles and ionized humoral liquids); and the historical presentation excerpts (Claude Bernard's \"the terrain is everything, the microbe is nothing\", treatment of terrain not disease, never counter-indicated, radio-disintegration, PA-KOUA mummification experiments, Turenne ECP engineer aged 82). Companion to my Turenne biography + Scientific Radiesthesia Part 1 translations — the Turenne thread now has 3 docs. QC: Drunvalo QC agent ran at 08:15 (fixed 5 recent translations incl. my 3 from 09-09 — verified frontmatter now correct, PASS, no double work). Feed rebuild (05:06) republished 9 files dated 09-07 — known feed-rebuild artifact, not fighting. Corpus 109→110. Feed rebuild still blocked from cloud (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books; pipeline otherwise alive via Wizard (Goethe IT→EN) + my outer-ring stream. Note: research index stops at round 10 (09-07) — 09-08 14:00 UTC research round missing."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "08:18",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-mode run: translated chunks 191-194 of Schauberger 'Wasser — Das Blut der Erde' (German, oekotrend.ch PDF). Job now 194/210 — 16 chunks to completion. Also fixed an error mid-run where chunk 191 was initially written untranslated; corrected before commit."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "08:06",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53594 docs — +53594 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "08:04",
+      "agent": "Polyglot Scout B",
+      "summary": "+6 finds — Nightly multilingual search — German (Schauberger water vortex, Goethean science), Russian (torsion fields, plasma cosmology), Japanese (Aquaphotomics, brain water consciousness). 6 finds saved."
+    },
+    {
+      "date": "2026-09-09",
       "time": "08:03",
       "agent": "Book4 Translate",
       "summary": "+3 chunks — Translated chunks 074-076. Book 4 now at 76/178 (43%). translator-ats active, reduced batch. Gear: quota."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "08:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 37th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs, 0 new. lenr.seplm.ru homepage article/PDF links diffed vs index.json — all archived, 0 new; lenr.su + tuks fully harvested. viXra anti-bot 404 from cloud (fetch-tool landing OK; growth cron cat-scan 02:15Z/06:15Z all ≤ 2609.0017 = 0 new); energeticforum synced. Zenodo newest all ≤ 08-26 + English (context only). Archive **53,594** (post-06:15Z webozz +617; other workers padrak INE device-DB +146 → 53,569, zenodo-rh +25 → 53,594; feed rebuilt 07:07Z). Corpus **109** (QC +1 FR→EN 04:25Z). Translator stale ~10d (QC active). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-0800.md."
     },
     {
       "date": "2026-09-09",
@@ -5881,51 +5951,9 @@
     },
     {
       "date": "2026-09-08",
-      "time": "20:06",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52543 docs — +52543 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-08",
       "time": "20:02",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — 34th consecutive clean LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B unchanged; program page live 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new growth since 12:15Z +22). tuks.nl 200 (fully harvested). seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; Zenodo API 403 flaky. Archive **52,432** (post-18:15Z aetherometry.com +111 merged 38079fa + concurrent worker +42, stats baked 18:31Z). DISCOVERY in hand: aetherscience.org seeded #28 (99 Aspden PDFs, verified 200) — next growth fire. STALE-FLAG translator ~10d (translation-qc active, corpus 103, last +1 16:24Z). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-08-scout-report-2000.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "20:00",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 30th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, empty body) — hot watch; likeliest next FL source when it drops. viXra at 2609.0012 max (probed 0013–0017 → 404, no growth). Zenodo keyword mostrecent: nothing post-08-21 (newest real 22036645; 22117461 17O-water eng known). Exa RU/ZH fresh window = knowns/mainstream only (seplm repo news, ENG8/Biberian KB-OM repost 07-02 tracked, UBC-Thunderbird & 张航 MIT-CR39 ZH explainers old). — seplm.ru UP & enumerated — rotation #12 first live surface: 13 articles incl. Kaschenko massive-e-pairs, Prosvirnov LENR-role-in-6th-tech-paradigm, Mizuno nuclear-reaction-control trans, Grickevich patents, O-17-enriched-water-via-LENR; site announces РКХТЯиШМ-29 conf Sept 28–Oct 2 2026. Recommend growth-fire harvest (RU lane, 0 overlap).** lenr.su (73-seed RU filelist) next growth target @20:15Z. Archive 42,497 docs (18:15Z +63 apparentlyapparel 99e3c7b). **STALENESS FLAG — translator agent stale ~120h (translation-qc @16:22Z reported ~116h); sweeper still active (Schauberger 71–82, soft trip 09-08 08:17Z).** No claims >7d. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-2000.md.**"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "18:31",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52432 docs — +52432 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "18:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52390 docs — +52390 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "17:48",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Translated Schauberger 'Water: Blood of the Earth' chunks 139-142 (de→en), 142/210 done. Pages 169-173: natural philosophy questions, experiment with U-tube +4°C anomaly, path to free energies, start of Part 2 TOC. Quota mode, 4 chunks."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "17:18",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Translated Schauberger 'Water: Blood of the Earth' chunks 135-138 (de→en), now 138/210. Sections: forest decay, agriculture, energy economy, beginning doubt, questions for science."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "16:34",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+503 archive entries — newenergytimes.com fully harvested (489 year-library PDFs 1800s→2024: Krivit/Miles anomalous heat, DOE/OSTI archives, Bockris/Morrison collections) + tuks.nl deep subdir diff (+14 WFCProject schematics/datasheets: Hall sensor, HEF4046 PLL, electrodeposition papers, Honda manual, Meyer water-fuel patents). Merged id-safe (c881612+8e648f7, archive 51,887→52,390, ids 1529856–1531707). DISCOVERY: aetherometry.com seeded (120 live-verified PDFs — Correa Aetherometry corpus: J Aetherom Res JAR01-JAR04, AToS monographs, patents US7053576 etc., Aspden Reprints) → rotation #27. iccf-27 proceedings STILL Under Construction. OCR/queue/tag pending FocusOptimized."
     }
   ],
   "declassified": [
@@ -47442,7 +47470,12 @@
         "1568994",
         "1569015",
         "1569084",
-        "1569109"
+        "1569109",
+        "1576049",
+        "1576050",
+        "1576051",
+        "1576052",
+        "1576053"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -214325,7 +214358,12 @@
       "1569037": "The Operational Ontology of the Nexus Framework: Reality as Unbounded Recursive Computation",
       "1569060": "The Sarrus Isomorphism: Structural Equivalence Between Cryptographic Hashing and Biological Protein Folding",
       "1569084": "The Sarrus Isomorphism and the Glass Key Protocol: Investigating SHA-256 as a Mechanical Fold and Topological Manifold",
-      "1569109": "The NEXUS Chain Framework: A Falsifiable Engineering Specification for Recursive Harmonic Reality"
+      "1569109": "The NEXUS Chain Framework: A Falsifiable Engineering Specification for Recursive Harmonic Reality",
+      "1576049": "2609.0018v1",
+      "1576050": "2609.0019v1",
+      "1576051": "2609.0020v1",
+      "1576052": "2609.0021v1",
+      "1576053": "2609.0022v1"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -503301,6 +503339,21 @@
         "Quantum & Relativity",
         "Alternative Physics",
         "Reference Material"
+      ],
+      "1576049": [
+        "Borderland Research"
+      ],
+      "1576050": [
+        "Borderland Research"
+      ],
+      "1576051": [
+        "Borderland Research"
+      ],
+      "1576052": [
+        "Borderland Research"
+      ],
+      "1576053": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -604028,7 +604081,12 @@
       "1569109": [
         "cold_fusion",
         "p_wrongturn"
-      ]
+      ],
+      "1576049": [],
+      "1576050": [],
+      "1576051": [],
+      "1576052": [],
+      "1576053": []
     }
   },
   "graph": {
