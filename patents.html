@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patents Pavilion — Aetherforce Knowledge Vault</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="The Patents Pavilion — 2,699 patents from the alternative science archive, searchable and browsable.">
+<meta property="og:title" content="Patents Pavilion — Aetherforce Knowledge Vault">
+<meta property="og:description" content="2,699 patents from the alternative science archive — searchable and browsable.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/patents.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #07131a;
+  --bg2: #0e222c;
+  --stone: #12303a;
+  --stone-hi: #1b3f4c;
+  --gold: #e8b64c;
+  --gold-bright: #ffd166;
+  --gold-dim: #a37f2e;
+  --copper: #c98855;
+  --bronze: #7d8f86;
+  --text: #d8e6e2;
+  --text-dim: #8fb0aa;
+  --text-faint: #4e6f70;
+  --glow: rgba(201,168,76,0.25);
+  --glow-strong: rgba(201,168,76,0.5);
+  --green: #7a9a5a;
+  --green-glow: rgba(122,154,90,0.2);
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(122,154,90,0.04) 0%, transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  min-height: 100vh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.02) 3px, rgba(0,0,0,0.02) 6px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+header {
+  text-align: center;
+  padding: 28px 16px 8px;
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--glow), 0 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+}
+header p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--gold-dim);
+  color: var(--bg);
+  border-color: var(--gold);
+  box-shadow: 0 0 15px var(--glow);
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.search-box {
+  background: var(--stone);
+  border: 1px solid var(--stone-hi);
+  border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 10px 14px;
+  background: var(--bg);
+  border: 1px solid var(--stone-hi);
+  border-radius: 3px;
+  color: var(--text);
+  font-size: 1rem;
+  font-family: inherit;
+}
+.search-box input[type="text"]:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 10px var(--glow);
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  align-items: center;
+}
+.filters label {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+}
+.filters select {
+  padding: 6px 10px;
+  background: var(--bg);
+  border: 1px solid var(--stone-hi);
+  border-radius: 3px;
+  color: var(--text);
+  font-size: 0.85rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.filters select:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.stats-bar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.stat {
+  background: var(--stone);
+  border: 1px solid var(--stone-hi);
+  border-radius: 3px;
+  padding: 10px 16px;
+}
+.stat .num {
+  font-size: 1.4rem;
+  color: var(--gold);
+  font-weight: bold;
+}
+.stat .lbl {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.patents-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 14px;
+}
+
+.patent-card {
+  background: var(--stone);
+  border: 1px solid var(--stone-hi);
+  border-radius: 4px;
+  padding: 14px;
+  transition: all var(--transition);
+  cursor: pointer;
+}
+.patent-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 0 20px var(--glow);
+  transform: translateY(-2px);
+}
+.patent-card .number {
+  font-size: 1.1rem;
+  color: var(--gold-bright);
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+.patent-card .country {
+  display: inline-block;
+  background: var(--bg);
+  padding: 2px 8px;
+  border-radius: 2px;
+  font-size: 0.7rem;
+  color: var(--text-dim);
+  letter-spacing: 1px;
+  margin-left: 8px;
+}
+.patent-card .title {
+  font-size: 0.92rem;
+  color: var(--text);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+.patent-card .meta {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.patent-card .person {
+  color: var(--copper);
+}
+.patent-card .categories {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-dim);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: var(--text-faint);
+  font-size: 0.72rem;
+  letter-spacing: 1px;
+}
+
+/* Reader overlay (same as library.html) */
+#readerOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(7,19,26,0.97);
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+}
+#readerOverlay.show {
+  display: flex;
+}
+#readerOverlay .reader-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--stone);
+  background: var(--bg2);
+}
+#readerOverlay .reader-title {
+  font-size: 1rem;
+  color: var(--gold);
+}
+#readerOverlay .reader-close {
+  background: transparent;
+  border: 1px solid var(--bronze);
+  color: var(--text-dim);
+  padding: 6px 14px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.78rem;
+  transition: all var(--transition);
+}
+#readerOverlay .reader-close:hover {
+  background: var(--gold-dim);
+  color: var(--bg);
+}
+#readerOverlay .reader-meta {
+  padding: 8px 20px;
+  background: var(--stone);
+  font-size: 0.78rem;
+  color: var(--text-dim);
+  display: flex;
+  gap: 16px;
+}
+#readerOverlay .reader-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+#readerOverlay .reader-body img {
+  max-width: 100%;
+  height: auto;
+}
+#readerOverlay .reader-body pre {
+  background: var(--bg);
+  padding: 12px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.82rem;
+}
+#readerOverlay .reader-body code {
+  background: var(--bg);
+  padding: 2px 6px;
+  border-radius: 2px;
+  font-size: 0.82rem;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>📜 Patents Pavilion</h1>
+  <p>The patent collection from the archive — searchable, browsable, linked to source documents.</p>
+  <div class="nav-links">
+    <a href="./index.html">&#128218; Archive</a>
+    <a href="./vault.html">&#128273; Vault</a>
+    <a href="https://www.aetherforce.energy" target="_blank">Aetherforce &#8594;</a>
+    <a href="./lens.html">&#128300; Lens</a>
+    <a href="./synthesis.html">&#9879; Fleet Briefings</a>
+    <a href="./library.html">&#9875; Living Library</a>
+    <a href="#" class="here">&#128220; Patents</a>
+    <a href="./about.html">&#129511; About</a>
+  </div>
+</header>
+
+<main>
+  <div class="stats-bar">
+    <div class="stat"><div class="num" id="totalCount">—</div><div class="lbl">Patents</div></div>
+    <div class="stat"><div class="num" id="countriesCount">—</div><div class="lbl">Countries</div></div>
+    <div class="stat"><div class="num" id="docsCount">—</div><div class="lbl">Documents</div></div>
+  </div>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search patents by number, title, person, or category...">
+    <div class="filters">
+      <label>Country:</label>
+      <select id="countryFilter">
+        <option value="">All Countries</option>
+      </select>
+      <label>Sort:</label>
+      <select id="sortOrder">
+        <option value="number">Patent Number</option>
+        <option value="docs">Document Count</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="patents-grid" id="patentsGrid">
+    <div class="loading">Loading patents...</div>
+  </div>
+</main>
+
+<footer>
+  Aetherforce Knowledge Vault — Patents extracted from the archive index.
+</footer>
+
+<div id="readerOverlay">
+  <div class="reader-header">
+    <div class="reader-title" id="readerTitle">Document</div>
+    <button class="reader-close" onclick="closeReader()">Close</button>
+  </div>
+  <div class="reader-meta" id="readerMeta"></div>
+  <div class="reader-body" id="readerBody"></div>
+</div>
+
+<script>
+let patentsData = [];
+let filteredData = [];
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
+}
+
+function miniMarkdown(text) {
+  if (!text) return '';
+  text = escapeHtml(text);
+  text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  text = text.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  text = text.replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank">$1</a>');
+  return text;
+}
+
+async function loadPatents() {
+  try {
+    const res = await fetch('./patents.json?v=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    patentsData = data.patents || [];
+    filteredData = [...patentsData];
+    updateStats();
+    populateFilters();
+    renderPatents();
+  } catch (e) {
+    document.getElementById('patentsGrid').innerHTML =
+      '<div class="empty-state">Could not load patents: ' + e.message + '</div>';
+  }
+}
+
+function updateStats() {
+  document.getElementById('totalCount').textContent = patentsData.length.toLocaleString();
+
+  const countries = new Set();
+  let totalDocs = 0;
+  patentsData.forEach(p => {
+    (p.countries || []).forEach(c => countries.add(c));
+    totalDocs += (p.docs || []).length;
+  });
+
+  document.getElementById('countriesCount').textContent = countries.size;
+  document.getElementById('docsCount').textContent = totalDocs.toLocaleString();
+}
+
+function populateFilters() {
+  const countries = new Set();
+  patentsData.forEach(p => {
+    (p.countries || []).forEach(c => countries.add(c));
+  });
+
+  const select = document.getElementById('countryFilter');
+  const current = select.value;
+  select.innerHTML = '<option value="">All Countries</option>';
+
+  Array.from(countries).sort().forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c;
+    select.appendChild(opt);
+  });
+
+  if (current && countries.has(current)) {
+    select.value = current;
+  }
+}
+
+function applyFilters() {
+  const query = document.getElementById('searchInput').value.toLowerCase().trim();
+  const country = document.getElementById('countryFilter').value;
+  const sort = document.getElementById('sortOrder').value;
+
+  filteredData = patentsData.filter(p => {
+    if (country && !(p.countries || []).includes(country)) return false;
+
+    if (query) {
+      const searchFields = [
+        p.number,
+        ...(p.docs || []).map(d => d.title),
+        ...(p.docs || []).map(d => d.person),
+        ...(p.docs || []).map(d => d.categories || []).flat(),
+        ...(p.countries || []),
+      ].join(' ').toLowerCase();
+
+      if (!searchFields.includes(query) && !searchFields.match(query.replace(/\s+/g, '.*'))) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+
+  // Sort
+  if (sort === 'docs') {
+    filteredData.sort((a, b) => (b.docs || []).length - (a.docs || []).length);
+  } else {
+    filteredData.sort((a, b) => (a.number || '').localeCompare(b.number || ''));
+  }
+
+  renderPatents();
+}
+
+function renderPatents() {
+  const grid = document.getElementById('patentsGrid');
+
+  if (filteredData.length === 0) {
+    grid.innerHTML = '<div class="empty-state">No patents match your search.</div>';
+    return;
+  }
+
+  grid.innerHTML = '';
+  const toShow = filteredData.slice(0, 100); // Limit for performance
+
+  toShow.forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'patent-card';
+    card.onclick = () => openPatent(p);
+
+    const countryBadge = (p.countries || []).length > 0
+      ? `<span class="country">${p.countries[0]}</span>`
+      : '';
+
+    const firstDoc = (p.docs || [])[0] || {};
+    const person = firstDoc.person ? `<span class="person">${escapeHtml(firstDoc.person)}</span>` : '';
+    const categories = (firstDoc.categories || []).slice(0, 3).join(', ');
+
+    card.innerHTML = `
+      <div class="number">${escapeHtml(p.number)}${countryBadge}</div>
+      <div class="title">${escapeHtml(firstDoc.title || 'Untitled')}</div>
+      <div class="meta">
+        ${person}
+        ${categories ? `<span class="categories">${escapeHtml(categories)}</span>` : ''}
+        <span>${(p.docs || []).length} doc${(p.docs || []).length !== 1 ? 's' : ''}</span>
+      </div>
+    `;
+
+    grid.appendChild(card);
+  });
+
+  if (filteredData.length > 100) {
+    const more = document.createElement('div');
+    more.className = 'empty-state';
+    more.textContent = `Showing 100 of ${filteredData.length.toLocaleString()} patents — refine your search to see more.`;
+    grid.appendChild(more);
+  }
+}
+
+function openPatent(p) {
+  const overlay = document.getElementById('readerOverlay');
+  const firstDoc = (p.docs || [])[0] || {};
+
+  document.getElementById('readerTitle').textContent = `Patent ${p.number}`;
+  document.getElementById('readerMeta').innerHTML = `
+    <span>Country: ${(p.countries || []).join(', ') || 'Unknown'}</span>
+    <span>Documents: ${(p.docs || []).length}</span>
+  `;
+
+  let body = `<h2>${escapeHtml(firstDoc.title || 'Untitled')}</h2>`;
+  body += `<p><strong>Patent Number:</strong> ${escapeHtml(p.number)}</p>`;
+
+  if (firstDoc.person) {
+    body += `<p><strong>Person:</strong> ${escapeHtml(firstDoc.person)}</p>`;
+  }
+
+  if ((p.docs || []).length > 1) {
+    body += `<h3>Related Documents</h3><ul>`;
+    (p.docs || []).forEach(d => {
+      const pageUrl = `./pages/${String(d.id).padStart(8, '0')}.html`;
+      body += `<li><a href="${pageUrl}" target="_blank">${escapeHtml(d.title || 'Untitled')}</a>`;
+      if (d.person) body += ` — ${escapeHtml(d.person)}`;
+      body += `</li>`;
+    });
+    body += `</ul>`;
+  }
+
+  const pageUrl = `./pages/${String(firstDoc.id).padStart(8, '0')}.html`;
+  body += `<p style="margin-top:20px;"><a href="${pageUrl}" target="_blank" style="color:var(--gold);">Open full document page &#8594;</a></p>`;
+
+  document.getElementById('readerBody').innerHTML = body;
+  overlay.classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeReader() {
+  document.getElementById('readerOverlay').classList.remove('show');
+  document.body.style.overflow = '';
+}
+
+// Event listeners
+document.getElementById('searchInput').addEventListener('input', applyFilters);
+document.getElementById('countryFilter').addEventListener('change', applyFilters);
+document.getElementById('sortOrder').addEventListener('change', applyFilters);
+
+// Close reader on escape
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeReader();
+});
+
+// Load on page load
+loadPatents();
+</script>
+</body>
+</html>
