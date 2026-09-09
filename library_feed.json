@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T04:11:49Z",
+  "generated_at": "2026-09-09T05:05:24Z",
   "library": {
     "researchers": 988,
     "researchers_cataloged": 208,
@@ -5406,9 +5406,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-09T03:58:01Z",
+      "last_run": "2026-09-09T05:01:35Z",
       "last_status": "ok",
-      "last_summary": "+1 archives since last run (23->24) | Reich Ether Physics (de) 24/230 chunks, +4 this run | archived orgonomie.net PDF (2.7MB, 242pp) | marked 3 dead jobs: zenodo DOI dead, teslavital 404, academia JS wall | backlog 386 (gear: quota)"
+      "last_summary": "+142 chunks since last run (now 166/210) | full-translating Schauberger — Water: The Blood of the Earth (de) 166/210 chunks | backlog 392 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5417,9 +5417,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-09T03:19:16Z",
+      "last_run": "2026-09-09T04:27:11Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks | Schauberger Wasser: Das Blut der Erde (de) 158/210 | backlog 386 wait (gear: quota)"
+      "last_summary": "+4 chunks since last run (158->162) | Schauberger 'Wasser: Das Blut der Erde' 162/210 | backlog 392 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5439,7 +5439,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T03:21:51Z",
+      "last_run": "2026-09-09T04:14:41Z",
       "last_status": "ok",
       "last_summary": "sync: 52676 docs, feed rebuilt"
     },
@@ -5494,9 +5494,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-09T00:20:00Z",
+      "last_run": "2026-09-09T04:20:00Z",
       "last_status": "ok",
-      "last_summary": "+2 translations (Turenne method Part 1 turenne.eu, Turenne biography johnben.ch) — first Turenne material in corpus. QC: Goethe IT->EN (Wizard) reviewed PASS, corpus 106->108. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days; Wizard foreign-translate agent active."
+      "last_summary": "+1 translation (Abel Martin 1932 vet radiesthesia thesis article FR→EN) — first doctorate ever for a radiesthésiste. QC: Schauberger es→en reviewed PASS. Drunvalo QC agent active at :07 offset — no double work. Corpus 108→109. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days."
     },
     {
       "member": "scout",
@@ -5533,6 +5533,48 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "05:05",
+      "agent": "Book4 Translate",
+      "summary": "+5 chunks — Translated 5 chunks (053-057) in quota mode. Progress: 57/178 (32%). Chapter 3: transformer theory, electromagnetic induction, ether flow mechanics."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "05:01",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Translated chunks 163-166 of Schauberger — Water: The Blood of the Earth (de). +142 chunks since last check-in. 166/210 complete."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "04:27",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (159-162) of Schauberger's 'Wasser: Das Blut der Erde' (de), now 162/210. Sections covered: parquet-floor decay and aggressive oxygen in damp interlayers; the cave olm's nutrition from concentrated oxygen and carbon substances; trout near springs and spawning at light-boundaries; mealworm experiments with higher-organized carbon groups; gelatine/microbe growth at temperature-gradient boundaries; Lapland worm-rain and the 'season of rot' (Fäulniszeit); epidemics as nature's self-protection. Next fire resumes at chunk 163."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "04:21",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+1 chunks — Translated Schauberger Water chunk 131 (de->en): Nature Protects Itself - human interference in natural cycles, 132/210 chunks done"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "04:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Abel Martin 1932 veterinary radiesthesia thesis article FR→EN (guerisseur-radiesthesiste.fr): short piece documenting the first doctoral degree ever awarded to a radiesthésiste — Dr. Abel Martin defended \"Diagnostic radiesthésique en médecine vétérinaire\" on 21 January 1932 at the Faculté de médecine de Paris, received with distinction, accepted by the open-minded Maisons-Alfort veterinary school. Adds institutional-history context to the French tradition. QC: Schauberger es→en (Dynamic Hydroelectric Energy, published 09-08) reviewed — frontmatter complete, content in English, PASS. Drunvalo QC agent ran at 04:10 (frontmatter fixes, duplicate removal) — coordinated, no overlap. Corpus 108→109. Feed rebuild still blocked (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days. Scout reports FR patent layer (FR 816.132, 1936) and thesis lane (Durand 2004, Martin 1932) now mapped — rich French radiesthesia tradition documented."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "04:13",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "04:10",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 042 (Ch3 conclusions, Ch4 electromagnetic interactions)"
+    },
     {
       "date": "2026-09-09",
       "time": "04:04",
@@ -5850,48 +5892,6 @@
       "time": "04:05",
       "agent": "Scooter (Growth Scout)",
       "summary": "+1 RU primary candidate — seplm.ru (rot #12) back UP again, stable this window. — /articles/ enumerated live (200, 13 items): Кащенко M.П. & Кащенко Н.М. (УрФУ/УГЛТУ, Екатеринбург) — Chapter 13 «Генерация компактных массивных электронных (ее)–пар в реальных установках и синтез элементов» in the collective monograph «Перспективные материалы и технологии» (Минск, 2026), annotated on site (KKN-activator ring orbits, Energoniva element synthesis, Шоулдерса charge clusters); plus M. Кащенко «Информация о трех статьях…» posted 2026-08-28. seplm has no harvest history (rot #12) — next growth fire should first-harvest it. ICCF-27 proceedings STILL Under Construction (9,845 B unchanged; program placeholders); JCMNS Vol 41 (ICCF-26 proceedings) already harvested via lenr-canr /acrobat. viXra max still 2609.0012 (0013–0020 404). Zenodo + RU/ES fresh windows: nothing new to queue (ENG8 EnergiCells = media commentary only). Archive 48,224 (naturalphilosophy deep-harvest 02:15Z). avalonlibrary #16 verified 200. infinite-energy 403. STALE-FLAG translator ~128h (re-issued); sweeper still active (71–82); no claims >7d (Active empty). OCR/queue/tag pending FocusOptimized. Full: living-library sources/2026-09-08-scout-report-0400.md / mirror sources/2026-09-08-scout-finds-0400-scout.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "04:01",
-      "agent": "Book5 Translate",
-      "summary": "+0 chunks — No-op: Book5 fully translated (220/220 chunks, 521KB assembled). No work needed."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "04:00",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 27th consecutive clean LENR round since 08-21. ICCF-27 conference DONE (Aug 31–Sep 4, Niagara Falls): canonical site is iccf-27.org (iscmns.org/iccf27 now 404s), proceedings page live but Under Construction — hot watch for the next FL content drop (ENG8 PRVR scaling talk confirmed held). Zenodo keyword + fulltext: newest real still 22036645 (08-21); closed 22166688 (GRC eng) + 22117461 (17O-water eng); PLEG 21999691 = EN, not FL. Exa RU/ZH = mainstream hot fusion only; author.today metric-attractor essay (927085) re-closed context-only. Archive 30,017 docs / 979 researchers / 2,339 patents / 57 trans / 967 pg (stats bake 00:24Z). Rotation: svpwiki+i-sis+lenr-canr all COMPLETE, pointer→padrak/ine (06:15 fire). Fleet active (Forge QC 00:07Z, Drunvalo 00:12Z, aflinks-sync 00:18Z); translator pipeline NOT stale (sweeper Schauberger chunks 71–82 @09-06 08:17Z; 48h trips 09-08 08:17Z). No claims. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-0400.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "00:31",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+42742 docs — +42742 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "00:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+2 translations, +60 frontmatter re-fixes — aflinks-cron feed rebuild (00:04Z) stripped language/source_language fields from 60 files (undoing last run's batch fix). Re-applied all frontmatter: every file now has correct language + source_language (monolingual files: source_language = language; translations: source_language = source). Translated 2 French outer-ring docs from the Chaumery/de Bélizal tradition: (1) GLNF book review of \"Essai de radiesthésie vibratoire\" FR→EN — review of the foundational 1939 text, Louksor universal pendulum, form waves in ancient architecture, Golden Ratio, Sergueïev on energy from forms surpassing electricity/nuclear; (2) Londedisis \"Le Pendule du 5e Règne\" FR→EN — bague atlante/Ring of Re, Howard Carter, spectrum decomposition on wooden sphere, \"vert négatif\" (negative green) as shortest wavelength, Universal Pendulum PU-6. Corpus 96→98. Other agents active: scout (LENR archive growth to 42,667), Drunvalo/village (QC + synthesis on Pilot Wave Continuum). Translator agent stale: no new publishes since Sep 3 (~128h, past 48h threshold). Feed rebuild still blocked from cloud."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "00:15",
-      "agent": "translator-foreign",
-      "summary": "+1 chunk — Translated Schauberger 'Water: Blood of the Earth' chunk 134 (de-en)"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "00:09",
-      "agent": "DB Entity Extractor",
-      "summary": "+20 entries — Extracted 8 new people, 12 new works from 2026-09-06/07 scout finds. Key additions: Kazuki Iguchi (Tesla free energy), Dongchen Chi (NLHE room-temp quantum), Haruna Katayama (Unruh detection), Chen Zhengkun (vacuum gravity control), Bian Zhenfeng (cosmic energy resonance), ThothSaem (EMMG theory), Marcio Pinheiro Queiroz (DEEPc gravity), Renato Rosa (Tesla Shield). Also added Vortex Motor MVP, Dark Hydrogen LENR, Akimov torsion generator, Navy PAX205 declassified. Total: 108 people, 117 works, 56 practical."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "00:05",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     }
   ],
   "declassified": [
