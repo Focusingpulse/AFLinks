@@ -537,6 +537,31 @@ def main():
                     if name.lower() in low:
                         lang = name
                         break
+            # Fallback: derive language from filename suffix (-fr, -ru, etc.)
+            if not lang:
+                m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", fname, re.I)
+                if m:
+                    lang = LANG_NAMES.get(m.group(1).lower(), m.group(1).upper())
+            # Target language: default English, override from frontmatter
+            target_lang = meta.get("target_language") or meta.get("Target Language") or "English"
+            # Title cleanup: if title looks like a filename or garbage, derive from filename
+            garbage_patterns = [
+                r"^\d{4}-\d{2}-\d{2}-",  # filename with date prefix
+                r"^Skip to main",
+                r"^Link to (Facebook|X|YouTube|Instagram)",
+                r"^Link to ",
+                r"^ACADEMY OF TRINITARIANISM",
+                r"^Chercheurs Du Vrai",
+                r"^WO\d+",
+                r"^\d+\.\s+\*\*",  # numbered bold title from list
+            ]
+            title_clean = title
+            if any(re.match(p, title or "") for p in garbage_patterns):
+                # Derive from filename: strip date prefix and language suffix
+                base = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)
+                base = re.sub(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", "", base, flags=re.I)
+                base = re.sub(r"\.md$", "", base)
+                title_clean = re.sub(r"[-_]+", " ", base).strip().title()
             # Copy the newest revision into the site repo so the page can serve it
             try:
                 import shutil
@@ -545,10 +570,11 @@ def main():
                 print(f"  WARN: could not copy translation {fname}: {e}", flush=True)
             translation_works.append({
                 "date": fname[:10],
-                "title": title,
+                "title": title_clean,
                 "domain": domain,
                 "source_url": src,
                 "language": lang,
+                "target_language": target_lang,
                 "file": fname,
                 "content_file": f"translations/{fname}",
                 "excerpt": body.strip()[:220],
@@ -584,6 +610,52 @@ def main():
     # different linguistic silos (torsion in RU+DE, scalar field in FR+EN,
     # vortex in DE+ES). Metadata domains are too sparse to group by, so group
     # by normalized title tokens; require ≥2 shared tokens + different langs.
+    # ALSO: use a multilingual concept dictionary to catch cross-language
+    # matches that title-token matching misses (e.g., "ondes de forme" vs "form waves").
+    CONCEPT_KEYWORDS = {
+        "Schauberger / Vortex": [
+            "schauberger", "vortex", "wirbel", "tourbillon", "remolino", "tromba",
+            "implosion", "negentropy", "negentropic", "wasserwirbler", "hydroelectric",
+            "suction turbine", "jet turbine", "dynamic hydroelectric",
+        ],
+        "Torsion Fields": [
+            "torsion", "torsion", "torsion", "shipov", "akimov",
+            "spinor", "торсион", "torsionsfeld", "champ de torsion",
+        ],
+        "Scalar Field / Potential": [
+            "scalar", "scalaire", "skalar", "скаляр", "potential field",
+            "longitudinal wave", "non-hertzian",
+        ],
+        "Ether / Aether": [
+            "ether", "aether", "äther", "éther", "эфир", "eter", "eter",
+            "etherodynamics", "эфиродинамика", "étherodynamique",
+        ],
+        "LENR / Cold Fusion": [
+            "lenr", "cold fusion", "fusion froide", "kalte fusion",
+            "холодный синтез", "low-energy nuclear",
+        ],
+        "Form Waves / Morphic Fields": [
+            "form wave", "ondes de forme", "onde di forma", "ondas de forma",
+            "morphic", "morphique", "morphisch", "formative", "formative field",
+        ],
+        "Sacred Geometry": [
+            "sacred geometry", "geometria sacra", "géométrie sacrée",
+            "geometría sagrada", "heilige geometrie", "geometric",
+        ],
+        "Goethean Science": [
+            "goethe", "goethean", "goethéen", "goetheano", "goetheanisch",
+            "phenomenological science", "qualitative science",
+        ],
+        "Water Structure / Memory": [
+            "water memory", "eau mémoire", "wasser gedächtnis", "agua memoria",
+            "pollack", "fourth phase", "ez water", "exclusion zone",
+            "del giudice", "acqua viva",
+        ],
+        "Gravity / Ether Gravity": [
+            "gravity", "gravité", "schwerkraft", "gravedad", "гравитация",
+            "magnitsky", "compressible ether",
+        ],
+    }
     BRIDGE_STOP = set(LANG_NAMES.keys()) | set(LANG_NAMES.values()) | {
         "translation", "theorie", "theory", "theories", "study", "studies",
         "complete", "full", "part", "vol", "volume", "toward", "towards",
@@ -623,14 +695,60 @@ def main():
         return ""
 
     bridges = []
-    # collect token sets + languages first (meta_scan = description/domain text)
+    # Helper: get source language code for a translation work
+    def _src_lang(tw):
+        l = norm_lang(tw.get("language") or "")
+        if l:
+            # map full name to code
+            return next((c for c, n in LANG_NAMES.items() if n.lower() == l.lower()), l.lower()[:2])
+        # fallback: derive from filename suffix
+        m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", tw.get("file") or "", re.I)
+        if m:
+            return m.group(1).lower()
+        return ""
+
+    # Step 1: concept-based clustering
+    concept_of = {}  # file -> set of canonical concepts
+    for tw in translation_works:
+        hay = ((tw.get("title") or "") + " " + (tw.get("excerpt") or "") + " " + (tw.get("domain") or "")).lower()
+        concepts = set()
+        for canon, kws in CONCEPT_KEYWORDS.items():
+            for kw in kws:
+                if kw.lower() in hay:
+                    concepts.add(canon)
+                    break
+        concept_of[tw["file"]] = concepts
+
+    # Group works by concept, then by different source languages
+    concept_groups = {}  # concept -> list of works
+    for tw in translation_works:
+        for c in concept_of.get(tw["file"], []):
+            concept_groups.setdefault(c, []).append(tw)
+
+    # For each concept with ≥2 different source languages, create a bridge
+    seen_bridge_domains = set()
+    for concept_name, tws in concept_groups.items():
+        langs = set(_src_lang(tw) for tw in tws if _src_lang(tw))
+        if len(langs) < 2:
+            continue
+        # Use concept name as domain
+        domain = concept_name
+        if domain in seen_bridge_domains:
+            continue
+        seen_bridge_domains.add(domain)
+        bridges.append({
+            "domain": domain,
+            "langs": sorted(langs),
+            "works": sorted(tws, key=lambda t: t["date"], reverse=True),
+        })
+
+    # Step 2: token-based clustering (fallback for works not caught by concepts)
     meta_of = {}
     for tw in translation_works:
         meta_of[tw["file"]] = " ".join([tw.get("domain") or "", tw.get("excerpt") or ""][:1])
     tok_of = {}
     for tw in translation_works:
         tok_of[tw["file"]] = _title_tokens(tw["title"])
-    # union-find clusters over cross-language pairs with ≥2 shared tokens
     parent = {tw["file"]: tw["file"] for tw in translation_works}
     def find(x):
         while parent[x] != x:
@@ -659,18 +777,23 @@ def main():
         langs = []
         for tw in tws:
             l = _lang_of(tw, meta_of.get(tw["file"], ""))
-            # normalize full name -> code so chips are clean (fr, de, ru…)
             code = next((c for c, n in LANG_NAMES.items() if n.lower() == norm_lang(l)), l)
             if code and code not in langs:
                 langs.append(code)
         if len(langs) < 2:
             continue
-        # representative shared tokens → readable subject
         tok_sets = [tok_of[tw["file"]] for tw in tws]
         shared_toks = set.intersection(*tok_sets) if tok_sets else set()
         if not shared_toks:
             shared_toks = set.union(*tok_sets)
         subject = " ".join(sorted(shared_toks)[:3]).title() or tws[0].get("domain") or tws[0]["title"]
+        # Skip if already covered by concept bridge (exact or substring match)
+        if subject in seen_bridge_domains or any(
+            subject.lower() in d.lower() or d.lower() in subject.lower()
+            for d in seen_bridge_domains
+        ):
+            continue
+        seen_bridge_domains.add(subject)
         bridges.append({
             "domain": subject,
             "langs": sorted(langs),
@@ -974,7 +1097,7 @@ def main():
             "title": "Atsyukovsky Book 5 — complete in English",
             "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, now readable end to end.",
             "rarity": "milestone",
-            "href": "./library.html#booksSection",
+            "href": "./library.html#translationsSection",
         })
     for t in feed.get("latest_translations", [])[:3]:
         ln = _lang_label(t.get("language"))
@@ -1077,11 +1200,19 @@ def main():
     # living-library synthesis folders; the site renders them.
     practical = {"quests": [], "dossiers": [], "validations": [], "queue_url": None}
     qdir = os.path.join(LL, "synthesis", "quest-queue")
+    yard_outdir = os.path.join(AFLINKS, "synthesis")
     if os.path.isdir(qdir):
+        os.makedirs(os.path.join(yard_outdir, "quest-queue"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(qdir, "*.md")), reverse=True):
             base = os.path.basename(path)
             if base.lower() == "readme.md":
                 continue
+            # Copy to site repo so the read button works
+            try:
+                import shutil
+                shutil.copy2(path, os.path.join(yard_outdir, "quest-queue", base))
+            except Exception as e:
+                print(f"  WARN: could not copy quest {base}: {e}", flush=True)
             meta, title, body = parse_md_frontmatter(path)
             # pull a rough status from body for cheap front-end filtering
             status = "proposed"
@@ -1097,8 +1228,15 @@ def main():
             })
     rdir = os.path.join(LL, "synthesis", "replication")
     if os.path.isdir(rdir):
+        os.makedirs(os.path.join(yard_outdir, "replication"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(rdir, "*.md")), reverse=True):
             base = os.path.basename(path)
+            # Copy to site repo
+            try:
+                import shutil
+                shutil.copy2(path, os.path.join(yard_outdir, "replication", base))
+            except Exception as e:
+                print(f"  WARN: could not copy dossier {base}: {e}", flush=True)
             meta, title, body = parse_md_frontmatter(path)
             status = "draft"
             m = re.search(r"Status:\s*\*{0,2}([\w\-]+)", body)
@@ -1113,10 +1251,17 @@ def main():
             })
     vdir = os.path.join(LL, "synthesis", "validations")
     if os.path.isdir(vdir):
+        os.makedirs(os.path.join(yard_outdir, "validations"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(vdir, "*.md")), reverse=True):
             base = os.path.basename(path)
             if base.lower() == "readme.md":
                 continue
+            # Copy to site repo
+            try:
+                import shutil
+                shutil.copy2(path, os.path.join(yard_outdir, "validations", base))
+            except Exception as e:
+                print(f"  WARN: could not copy validation {base}: {e}", flush=True)
             meta, title, body = parse_md_frontmatter(path)
             practical["validations"].append({
                 "file": f"synthesis/validations/{base}",
