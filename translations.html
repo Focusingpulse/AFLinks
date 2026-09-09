@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aetherforce Knowledge Vault — Translations</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="Every translation in the Living Library — filter by source language, target language, domain. First-ever English editions of suppressed and fringe science works.">
+<meta property="og:title" content="Aetherforce Knowledge Vault — Translations">
+<meta property="og:description" content="The full translation catalog — filter by language and domain.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/translations.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #07131a;
+  --bg2: #0e222c;
+  --stone: #12303a;
+  --stone-hi: #1b3f4c;
+  --gold: #e8b64c;
+  --gold-bright: #ffd166;
+  --gold-dim: #a37f2e;
+  --copper: #c98855;
+  --bronze: #7d8f86;
+  --text: #d8e6e2;
+  --text-dim: #8fb0aa;
+  --text-faint: #4e6f70;
+  --glow: rgba(201,168,76,0.25);
+  --glow-strong: rgba(201,168,76,0.5);
+  --green: #7a9a5a;
+  --green-glow: rgba(122,154,90,0.2);
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(122,154,90,0.04) 0%, transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  min-height: 100vh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.02) 3px, rgba(0,0,0,0.02) 6px);
+  pointer-events: none;
+  z-index: 0;
+}
+header {
+  text-align: center;
+  padding: 28px 16px 8px;
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--glow), 0 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+}
+header h1 .ornament { color: var(--gold-dim); font-size: 0.8rem; margin: 0 8px; }
+header p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--gold-dim);
+  color: var(--bg);
+  border-color: var(--gold);
+  box-shadow: 0 0 15px var(--glow);
+}
+
+/* Controls */
+.controls {
+  max-width: 1000px;
+  margin: 18px auto 0;
+  padding: 14px 16px;
+  position: relative;
+  z-index: 1;
+}
+.ctl-group { margin-bottom: 12px; }
+.ctl-label {
+  font-size: 0.72rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 6px;
+  display: block;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  padding: 4px 12px;
+  border: 1px solid var(--bronze);
+  border-radius: 14px;
+  background: transparent;
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.chip:hover { border-color: var(--gold); color: var(--gold); }
+.chip.on {
+  background: var(--gold-dim);
+  color: var(--bg);
+  border-color: var(--gold);
+  box-shadow: 0 0 10px var(--glow);
+  font-weight: bold;
+}
+.ctl-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+select, input[type="text"] {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.85rem;
+  padding: 6px 10px;
+}
+select:focus, input:focus { outline: none; border-color: var(--gold); }
+input[type="text"] { flex: 1; min-width: 180px; }
+.result-count {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
+/* Cards */
+.list {
+  max-width: 1000px;
+  margin: 10px auto 40px;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+  position: relative;
+  z-index: 1;
+}
+.translation-card {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--bronze);
+  border-radius: 6px;
+  padding: 16px;
+  transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.translation-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 0 15px var(--glow);
+  transform: translateY(-2px);
+}
+.translation-card h3 {
+  font-size: 1rem;
+  color: var(--text);
+  font-weight: normal;
+  line-height: 1.3;
+}
+.translation-card .meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+.lang-pair {
+  color: var(--gold);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.translation-card .excerpt {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.read-btn {
+  align-self: flex-start;
+  padding: 5px 14px;
+  border: 1px solid var(--gold-dim);
+  border-radius: 3px;
+  color: var(--gold);
+  font-size: 0.78rem;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+  font-family: inherit;
+  background: transparent;
+}
+.read-btn:hover {
+  background: var(--gold-dim);
+  color: var(--bg);
+  box-shadow: 0 0 12px var(--glow);
+}
+.loading { color: var(--text-dim); font-style: italic; padding: 20px; text-align: center; }
+
+/* Reader modal */
+.reader-overlay {
+  position: fixed; inset: 0;
+  background: rgba(4, 10, 14, 0.92);
+  z-index: 100;
+  display: none;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px 14px;
+  overflow-y: auto;
+}
+.reader-overlay.show { display: flex; }
+.reader-modal {
+  background: linear-gradient(160deg, var(--stone), var(--bg2));
+  border: 1px solid var(--gold-dim);
+  border-radius: 8px;
+  max-width: 800px;
+  width: 100%;
+  padding: 26px;
+  position: relative;
+  box-shadow: 0 0 40px var(--glow);
+}
+.reader-close {
+  position: absolute; top: 10px; right: 12px;
+  background: none; border: none;
+  color: var(--text-dim); font-size: 1.4rem;
+  cursor: pointer; font-family: inherit;
+}
+.reader-close:hover { color: var(--gold); }
+#readerTitle { color: var(--gold); font-weight: normal; font-size: 1.25rem; margin-bottom: 8px; padding-right: 30px; line-height: 1.3; }
+#readerMeta { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.78rem; color: var(--text-dim); margin-bottom: 16px; }
+#readerMeta a { color: var(--copper); }
+#readerBody { font-size: 0.95rem; line-height: 1.65; color: var(--text); white-space: pre-wrap; word-break: break-word; }
+.reader-loading { color: var(--text-dim); font-style: italic; }
+
+footer {
+  text-align: center;
+  padding: 20px 16px 34px;
+  color: var(--text-faint);
+  font-size: 0.8rem;
+  position: relative;
+  z-index: 1;
+}
+footer a { color: var(--copper); }
+footer strong { color: var(--text-dim); }
+
+@media (max-width: 640px) {
+  .list { grid-template-columns: 1fr; }
+  header h1 { font-size: 1.3rem; letter-spacing: 2px; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#list">Skip to translations</a>
+<header>
+  <h1><span class="ornament">&#10023;</span> Translations <span class="ornament">&#10023;</span></h1>
+  <p>the full cargo manifest — every work the multilingual scouts hauled home</p>
+  <div class="nav-links">
+    <a href="./index.html">&#128218; Archive</a>
+    <a href="./vault.html">&#128273; Vault</a>
+    <a href="https://www.aetherforce.energy" target="_blank">Aetherforce &#8594;</a>
+    <a href="./lens.html">&#128300; Lens</a>
+    <a href="./synthesis.html">&#9879; Fleet Briefings</a>
+    <a href="./library.html">&#9875; Living Library</a>
+    <a href="#" class="here">&#127468; Translations</a>
+    <a href="./about.html">&#129511; About</a>
+    <a href="./methodology.html">&#128220; Method</a>
+  </div>
+</header>
+
+<div class="controls" id="controls">
+  <div class="ctl-group">
+    <span class="ctl-label">Source language</span>
+    <div class="chips" id="srcChips"></div>
+  </div>
+  <div class="ctl-group">
+    <span class="ctl-label">Target language</span>
+    <div class="chips" id="tgtChips"></div>
+  </div>
+  <div class="ctl-group">
+    <span class="ctl-label">Domain</span>
+    <div class="chips" id="domChips"></div>
+  </div>
+  <div class="ctl-row">
+    <input type="text" id="q" placeholder="Search titles&hellip;">
+    <select id="sortBy">
+      <option value="date-desc">Newest first</option>
+      <option value="date-asc">Oldest first</option>
+      <option value="title">Title A&ndash;Z</option>
+      <option value="lang">Language</option>
+    </select>
+    <span class="result-count" id="count"></span>
+  </div>
+</div>
+
+<div class="list" id="list">
+  <div class="loading">Loading translations&hellip;</div>
+</div>
+
+<footer>
+  <p>Powered by the growing <strong>Living Library</strong> — seeds, scouts, and translations from around the world, linked to the <a href="./index.html">Aetherforce Knowledge Vault</a> and <a href="https://www.aetherforce.energy" target="_blank">aetherforce.energy</a>.</p>
+</footer>
+
+<!-- Reader modal -->
+<div class="reader-overlay" id="readerOverlay">
+  <div class="reader-modal">
+    <button class="reader-close" onclick="closeReader()" aria-label="Close">&times;</button>
+    <h2 id="readerTitle"></h2>
+    <div id="readerMeta"></div>
+    <div id="readerBody"></div>
+  </div>
+</div>
+
+<script>
+let FEED = null;
+let WORKS = [];
+let state = { src: 'all', tgt: 'all', dom: 'all', q: '', sort: 'date-desc' };
+
+function escapeHtml(s) {
+  return String(s == null ? '' : s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+
+async function loadFeed() {
+  try {
+    const res = await fetch('./library_feed.json?v=20260909032103');
+    FEED = await res.json();
+    // Atsyukovsky volumes are translation works too — fold them in with a badge
+    const books = (FEED.atsuyskovsky_books || []).map(b => ({
+      date: b.date || '',
+      title: b.title,
+      domain: 'Atsyukovsky — Etherodynamics',
+      language: 'Russian',
+      target_language: 'English',
+      file: b.file || b.content_file || '',
+      content_file: b.content_file || b.file || '',
+      excerpt: b.excerpt || 'Volume of the Atsyukovsky Etherodynamics series.',
+      is_book: true,
+      progress_done: b.progress_done,
+      progress_total: b.progress_total,
+    }));
+    WORKS = [...books, ...(FEED.latest_translations || [])];
+    buildChips();
+    render();
+  } catch (e) {
+    document.getElementById('list').innerHTML = '<div class="loading">Feed not found yet — the library is still seeding. Check back soon.</div>';
+  }
+}
+
+function langLabel(l) {
+  if (!l) return 'Unknown';
+  return String(l).length <= 3 ? l.toUpperCase() : l;
+}
+
+function buildChips() {
+  const srcs = {}, tgts = {}, doms = {};
+  WORKS.forEach(w => {
+    const s = langLabel(w.language || w.lang || '');
+    const t = langLabel(w.target_language || 'English');
+    if (s) srcs[s] = (srcs[s] || 0) + 1;
+    if (t) tgts[t] = (tgts[t] || 0) + 1;
+    if (w.domain) doms[w.domain] = (doms[w.domain] || 0) + 1;
+  });
+  const mk = (container, counts, key) => {
+    const el = document.getElementById(container);
+    el.innerHTML = '';
+    const all = document.createElement('button');
+    all.className = 'chip' + (state[key] === 'all' ? ' on' : '');
+    all.textContent = 'All';
+    all.onclick = () => { state[key] = 'all'; buildChips(); render(); };
+    el.appendChild(all);
+    Object.entries(counts).sort((a, b) => b[1] - a[1]).forEach(([name, n]) => {
+      const c = document.createElement('button');
+      c.className = 'chip' + (state[key] === name ? ' on' : '');
+      c.textContent = `${name} (${n})`;
+      c.onclick = () => { state[key] = (state[key] === name ? 'all' : name); buildChips(); render(); };
+      el.appendChild(c);
+    });
+  };
+  mk('srcChips', srcs, 'src');
+  mk('tgtChips', tgts, 'tgt');
+  const topDoms = Object.entries(doms).sort((a, b) => b[1] - a[1]).slice(0, 14);
+  mk('domChips', Object.fromEntries(topDoms), 'dom');
+}
+
+function filtered() {
+  let out = WORKS.filter(w => {
+    if (state.src !== 'all' && langLabel(w.language || w.lang || '') !== state.src) return false;
+    if (state.tgt !== 'all' && langLabel(w.target_language || 'English') !== state.tgt) return false;
+    if (state.dom !== 'all' && w.domain !== state.dom) return false;
+    if (state.q && !(w.title || '').toLowerCase().includes(state.q.toLowerCase())) return false;
+    return true;
+  });
+  const s = state.sort;
+  out.sort((a, b) => {
+    if (s === 'date-desc') return (b.date || '').localeCompare(a.date || '');
+    if (s === 'date-asc') return (a.date || '').localeCompare(b.date || '');
+    if (s === 'title') return (a.title || '').localeCompare(b.title || '');
+    if (s === 'lang') return langLabel(a.language || '').localeCompare(langLabel(b.language || ''));
+    return 0;
+  });
+  return out;
+}
+
+function render() {
+  const el = document.getElementById('list');
+  const rows = filtered();
+  document.getElementById('count').textContent = `${rows.length} of ${WORKS.length} works`;
+  if (!rows.length) {
+    el.innerHTML = '<div class="loading">No translations match those filters.</div>';
+    return;
+  }
+  el.innerHTML = '';
+  rows.forEach(w => {
+    const card = document.createElement('div');
+    card.className = 'translation-card';
+    let prog = '';
+    if (w.is_book && w.progress_total) {
+      const pct = Math.round((w.progress_done || 0) / w.progress_total * 100);
+      prog = `<div style="height:6px;background:var(--bg);border-radius:3px;overflow:hidden;"><div style="height:100%;width:${pct}%;background:var(--green);"></div></div>`;
+    }
+    card.innerHTML = `
+      <h3>${escapeHtml(w.title || 'Untitled')}</h3>
+      <div class="meta">
+        <span class="lang-pair">${escapeHtml(langLabel(w.language || w.lang || 'Unknown'))} &rarr; ${escapeHtml(langLabel(w.target_language || 'English'))}</span>
+        ${w.domain ? `<span>${escapeHtml(w.domain)}</span>` : ''}
+        ${w.date ? `<span>${escapeHtml(w.date)}</span>` : ''}
+        ${w.is_book ? '<span style="color:var(--green);">&#128214; volume</span>' : ''}
+      </div>
+      ${prog}
+      <div class="excerpt">${escapeHtml(w.excerpt || '')}</div>
+      <button class="read-btn" data-file="${escapeHtml(w.content_file || '')}">Read &rarr;</button>
+    `;
+    card.querySelector('.read-btn').onclick = () => openReader(w);
+    el.appendChild(card);
+  });
+}
+
+async function openReader(w) {
+  const overlay = document.getElementById('readerOverlay');
+  document.getElementById('readerTitle').textContent = w.title || 'Translation';
+  const metaBits = [`${langLabel(w.language || 'Unknown')} → ${langLabel(w.target_language || 'English')}`];
+  if (w.domain) metaBits.push(w.domain);
+  if (w.date) metaBits.push(w.date);
+  document.getElementById('readerMeta').innerHTML = `<span>${escapeHtml(metaBits.join(' · '))}</span>`;
+  document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading translation...</div>';
+  overlay.classList.add('show');
+  document.body.style.overflow = 'hidden';
+  try {
+    const res = await fetch('./' + String(w.content_file || '').replace(/^\.\//, ''), { cache: 'no-store' });
+    if (!res.ok) throw new Error(res.status);
+    const text = await res.text();
+    document.getElementById('readerBody').textContent = text;
+  } catch (e) {
+    document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Could not load the translation — it may not be published to the site yet.</div>';
+  }
+  overlay.querySelector('.reader-modal').focus?.();
+}
+function closeReader() {
+  document.getElementById('readerOverlay').classList.remove('show');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeReader(); });
+document.getElementById('readerOverlay').addEventListener('click', e => { if (e.target.id === 'readerOverlay') closeReader(); });
+
+document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; render(); });
+document.getElementById('sortBy').addEventListener('change', e => { state.sort = e.target.value; render(); });
+
+loadFeed();
+</script>
+</body>
+</html>

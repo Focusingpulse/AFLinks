@@ -630,6 +630,7 @@ footer a { color: var(--gold); text-decoration: none; }
 <div class="section" id="translationsSection">
   <h2>Fresh Translations <span class="sub">first-ever English translations — cargo the multilingual scouts hauled back</span></h2>
   <div id="translationsList"><div class="loading">Loading translations...</div></div>
+  <p style="text-align:center;margin-top:14px;"><a href="./translations.html" style="color:var(--copper);font-size:0.85rem;">Browse all translations &rarr;</a></p>
 </div>
 
 <!-- Scout finds -->
@@ -669,7 +670,7 @@ let LIVING_FEED = null;
 
 async function loadFeed() {
   try {
-    const res = await fetch('./library_feed.json?v=20260909032103');
+    const res = await fetch('./library_feed.json?v=20260909032550');
     const feed = await res.json();
     LIVING_FEED = feed;
     renderStats(feed.library);

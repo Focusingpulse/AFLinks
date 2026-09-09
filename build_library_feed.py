@@ -322,6 +322,8 @@ def _lang_label(lang):
     lang = (lang or "").strip()
     if not lang:
         return ""
+    # strip parenthetical code suffixes: "French (fr)" -> "French"
+    lang = re.sub(r"\s*\([a-z]{2}\)\s*$", "", lang, flags=re.I).strip()
     code = lang.lower()
     if code in LANG_NAMES:
         return LANG_NAMES[code]
@@ -542,8 +544,11 @@ def main():
                 m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", fname, re.I)
                 if m:
                     lang = LANG_NAMES.get(m.group(1).lower(), m.group(1).upper())
+            # Normalize to full names ("French", not "FR") so filters group cleanly
+            lang = _lang_label(lang)
             # Target language: default English, override from frontmatter
             target_lang = meta.get("target_language") or meta.get("Target Language") or "English"
+            target_lang = _lang_label(target_lang)
             # Title cleanup: if title looks like a filename or garbage, derive from filename
             garbage_patterns = [
                 r"^\d{4}-\d{2}-\d{2}-",  # filename with date prefix
@@ -561,6 +566,7 @@ def main():
                 base = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)
                 base = re.sub(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", "", base, flags=re.I)
                 base = re.sub(r"\.md$", "", base)
+                base = re.sub(r"[\s_-]+(fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)$", "", base, flags=re.I)
                 title_clean = re.sub(r"[-_]+", " ", base).strip().title()
             # Copy the newest revision into the site repo so the page can serve it
             try:
