@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T15:05:53Z",
+  "generated_at": "2026-09-09T15:21:27Z",
   "library": {
     "researchers": 1097,
     "researchers_cataloged": 1097,
@@ -9,7 +9,7 @@
     "aflinks_docs": 53599,
     "translations": 65,
     "pages_translated": 1506,
-    "declassified_finds": 36,
+    "declassified_finds": 39,
     "active_agents": 14,
     "book5_complete": true,
     "translation_files": 65,
@@ -929,6 +929,54 @@
         {
           "title": "Researchers",
           "description": "** Nikola Tesla (interviewee), U.S. Information Science Agency agent (interviewer)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "file": "2026-09-09-deep-dive-morning.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Authors",
+          "description": "** J. Kasagi, T. Itoh, Y. Shibasaki, Yasuhiro Iwamura",
+          "url": ""
+        },
+        {
+          "title": "Published",
+          "description": "** 2026-06-02, J. Condensed Matter Nuclear Science 41 (2026) 62–72 (© 2026 ICCF)",
+          "url": ""
+        },
+        {
+          "title": "Domain",
+          "description": "** LENR / anomalous heat effect",
+          "url": ""
+        },
+        {
+          "title": "Key result",
+          "description": "** Radiation calorimetry on NiCu composite thin films at ~1100 K in vacuum. Spectrum deviates from gray-body (peak ~0.2 eV, intensity rises below 0.3 eV). NiCu excess heat ~1.1 W; sustained ≥215 hours, decay time >2000 hours. Energy per absorbed H atom >22 keV — far beyond chemistry. Explicit caveat from authors: excess energy alone is not proof of a nuclear process.",
+          "url": ""
+        },
+        {
+          "title": "Rarity",
+          "description": "** Medium — ICCF proceedings are niche but accessible",
+          "url": ""
+        },
+        {
+          "title": "Work type",
+          "description": "** experimental paper",
+          "url": ""
+        },
+        {
+          "title": "Practical applicability",
+          "description": "** TRUE (buildable: thin-film samples + radiation calorimetry are laboratory-reproducible; fields: buildable, reproducible-protocol)",
+          "url": ""
+        },
+        {
+          "title": "Host stability",
+          "description": "** High (DOI, lenr-canr/jcmns infrastructure)",
           "url": ""
         }
       ]
@@ -4224,9 +4272,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-09T13:22:18Z",
+      "last_run": "2026-09-09T15:18:58Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks since last run (4->8) | assembled Compendium of Vortex Physics (108/108, de) to full doc; Goethe Scientific Works 8/353 (it) | backlog 395 wait (gear: quota)"
+      "last_summary": "+4 chunks since last run (8->12) | Goethe Scientific Works 12/353 | backlog 399 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -4246,9 +4294,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T14:08:43Z",
+      "last_run": "2026-09-09T15:07:32Z",
       "last_status": "ok",
-      "last_summary": "sync: 53825 docs, feed rebuilt"
+      "last_summary": "sync: 53852 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4842,6 +4890,12 @@
     },
     {
       "country": "russia",
+      "title": "Soviet MoD UAP Files — KLAS-TV Declassified Release Series",
+      "description": "Ongoing 2025-2026 public release of once-classified Soviet Ministry of Defense UFO program documents (1978-1988 'Setka-AN' era, 'Thread 3', Unit 73790), smuggled out of Russia by j",
+      "file": "declassified/russia/soviet-mod-uap-files-klas.md"
+    },
+    {
+      "country": "russia",
       "title": "Soviet Psychoenergetics Research Program (DTIC Document)",
       "description": "USA declassified intelligence document assessing Soviet psychoenergetics research program — MOD/KGB-backed integrated program.",
       "file": "declassified/russia/soviet-psychoenergetics-dtic.md"
@@ -4851,6 +4905,18 @@
       "title": "Russia — Soviet Psychotronics Institute Files",
       "description": "Russia — Soviet psychotronics institute files remain classified; article discusses what was studied and why documents are still sealed.",
       "file": "declassified/russia/soviet-psychotronics.md"
+    },
+    {
+      "country": "spain",
+      "title": "23-F Coup Documents Declassification (153 Units)",
+      "description": "Spain's Council of Ministers ordered (Feb 24, 2026) the declassification of all government documentation on the 1981 coup attempt — 153 document units from Defense, Interior, and F",
+      "file": "declassified/spain/23f-coup-declassification.md"
+    },
+    {
+      "country": "spain",
+      "title": "Ceuta Migration Reports Declassification (40 Intelligence Documents)",
+      "description": "Sept 8, 2026: Spain's Council of Ministers declassified ~40 intelligence reports (Policía, Guardia Civil, CNI, CIFAS) on the July 2026 Ceuta mass-entry event — published the next d",
+      "file": "declassified/spain/ceuta-reports-declassification.md"
     },
     {
       "country": "spain",
@@ -606139,31 +606205,128 @@
         "geometry_sacred",
         "p_goethean"
       ],
-      "1578025": [],
+      "1578025": [
+        "p_wrongturn"
+      ],
       "1578027": [],
       "1578030": [],
-      "1578034": [],
-      "1578039": [],
-      "1578045": [],
-      "1578052": [],
-      "1578060": [],
-      "1578069": [],
-      "1578079": [],
-      "1578090": [],
-      "1578102": [],
-      "1578115": [],
-      "1578129": [],
-      "1578144": [],
-      "1578160": [],
-      "1578177": [],
-      "1578195": [],
-      "1578214": [],
-      "1578234": [],
-      "1578255": [],
-      "1578277": [],
-      "1578300": [],
-      "1578324": [],
-      "1578349": [],
+      "1578034": [
+        "p_fieldphys"
+      ],
+      "1578039": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "1578045": [
+        "cold_fusion",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "1578052": [
+        "cold_fusion",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "1578060": [
+        "scalar",
+        "suppression",
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "1578069": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "1578079": [
+        "torsion",
+        "cold_fusion",
+        "tesla",
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
+      "1578090": [
+        "torsion",
+        "cold_fusion",
+        "tesla",
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "1578102": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "1578115": [
+        "torsion",
+        "cold_fusion",
+        "tesla",
+        "geometry_sacred",
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
+      "1578129": [
+        "torsion",
+        "cold_fusion",
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "1578144": [
+        "torsion",
+        "cold_fusion",
+        "tesla",
+        "p_fieldphys",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "1578160": [
+        "cold_fusion",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "1578177": [
+        "cold_fusion",
+        "tesla",
+        "geometry_sacred",
+        "p_consciousness"
+      ],
+      "1578195": [
+        "cold_fusion",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
+      "1578214": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "1578234": [
+        "cold_fusion",
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "1578255": [
+        "p_wrongturn"
+      ],
+      "1578277": [
+        "p_wrongturn"
+      ],
+      "1578300": [
+        "cold_fusion",
+        "crystal",
+        "p_bridge"
+      ],
+      "1578324": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "1578349": [
+        "p_wrongturn"
+      ],
       "1585294": [],
       "1585295": [],
       "1585296": [],
