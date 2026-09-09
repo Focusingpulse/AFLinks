@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T23:04:35Z",
+  "generated_at": "2026-09-09T00:04:32Z",
   "library": {
     "researchers": 988,
     "researchers_cataloged": 197,
@@ -5205,9 +5205,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-08T21:47:29Z",
+      "last_run": "2026-09-08T23:51:13Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 23; Schauberger source already archived) | Schauberger Water Blood of Earth (de) 146->150/210 chunks, next 151 | backlog 387 (gear: quota)"
+      "last_summary": "+1 archives since last run (23->24) | translating Schauberger suction turbine + Herbrand anomaly (es) 4/11 chunks | backlog 387 (gear: quota) | dead link: Akimov torsion generator schematic (oborod.ogorodguru.ru unreachable, no Wayback)"
     },
     {
       "member": "translation-sweeper",
@@ -5216,9 +5216,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-08T21:16:43Z",
+      "last_run": "2026-09-08T23:20:24Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (138->146) | Schauberger Water 146/210 | backlog 387 wait (gear: quota)"
+      "last_summary": "+4 chunks | Schauberger Water (de) 154/210 | parked 3 dead/blocked jobs (zenodo DOI gone, academia.edu JS wall, teslavital 404) | worker: assemble guard + backlog dead-link fix | backlog 387 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5238,9 +5238,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-08T22:06:08Z",
+      "last_run": "2026-09-08T23:05:39Z",
       "last_status": "ok",
-      "last_summary": "sync: 52664 docs, feed rebuilt"
+      "last_summary": "sync: 0 docs, feed rebuilt, quota gear, scrape skipped (failed sites only)"
     },
     {
       "member": "archive-raid",
@@ -5332,6 +5332,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-08",
+      "time": "23:51",
+      "agent": "Translation Curator",
+      "summary": "+1 archives — Quota run: began full translation of 'Dynamic Hydroelectric Energy: Schauberger Suction Turbine + Herbrand Anomaly' (ES->EN, giurfa.com) — chunks 1-4/11 done incl. full patent 117749 description and Herbrand Rheinfelden anomaly account. Archived durable PDF copy (615KB, 8pp). Marked Akimov torsion generator schematic find as DEAD (host unreachable, no Wayback). Cleaned 3 stale work dirs that duplicated completed translations."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:44",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Book 5 translation complete (220/220 chunks, assembled); began Book 4: translated chunk 029 (etherodynamic essence of electromagnetism, 28/178). Fixed Windows CRLF blob that broke pre-commit frontmatter validation; added .gitattributes (*.md text)."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "23:21",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota run: translated Schauberger 'Water — Blood of the Earth' (de) chunks 151-154, now 154/210. Audited all 25 work dirs: 19 jobs fully translated and already assembled; parked 3 junk jobs as dead/blocked (zenodo DOI not found, academia.edu JS wall, teslavital 404). Patched fulltext_worker: assemble now refuses partial jobs (done<total), records assembled_dest to prevent duplicate re-assembly, and backlog excludes dead/blocked dirs. True queue: Reich 20/230, Goethe 0/353, Schauberger Water 154/210."
+    },
     {
       "date": "2026-09-08",
       "time": "22:15",
@@ -5673,24 +5691,6 @@
       "time": "00:18",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+20916 docs — +20916 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "00:05",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+20916 docs — +20916 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-06",
-      "time": "20:05",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 20:00 UTC, cloud round; 26th consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total (same 08:00/12:00/16:00, query-normalized) — newest real item still 22036645 (08-21); newer = previously-closed noise (OUROBOROS v10 22133690, 17O-water 22117461/21912323, Hamzah, PLEG). Fulltext variant (broadened query incl. nuclear reactions) 647 total: newest 22166688 (08-29, eng) Geometric Response Cosmology = CLOSED (English fringe cosmology, not LENR, not FL). Tracked spot-check 3/13 live + unchanged (Lin 21355740 cmn, Lemeshko 18521158 ru, Zhuang 20668098 zh). Exa RU/ZH/FR fresh window (Sep 1+) = mainstream hot-fusion only (DIII-D Alfven modes, Princeton PACMAN, PRAGYA, NIF, XinAo p-11B, Kardashev One, Type One stellarator license, Texatron, WEST) — author.today metric-attractor LENR essay (Alekseenko 09-03) re-confirmed context-only (flagged 00:00); media-tech.fr Parkhomov NCT article (09-04) = CLOSED false positive (verified 09-05 12:00: no arXiv preprint), never re-chase; proatom Prosvirnov/Ratis «Сомнений не осталось» date-checked = 12 Sep 2013 old; US Patent 12723750 (fossil-fuel EM light-nuclei fusion) = EN patent-lane context only. — lenr.seplm.ru BACK UP (200; was 000 at 16:00) — homepage scanned: static link directory, all items known/pre-window from 08:00/12:00 deep-reads. tuks.nl BACK UP (200; was 000) — fully harvested by 18:43 growth run (+120 docs, archive 15,512, e21c3a8). ICCF-27 proceedings page STILL under construction (200, 🚧 banner, no papers) — 1-3 wk watch. ARCHIVE GREW 15,392 -> 15,512 entries (+120 tuks.nl) / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers / 14 agents. **Translator ACTIVE — NOT STALE**: last output 09-05 12:18Z (Acqua Viva IT->EN 96th) + sweeper 12:19Z; ~32h since, 48h window trips ~09-07 12:18Z only if silent. Fleet: Drunvalo synthesis + site work through 14:51Z, translation-qc 08:08Z. No claims (claims.md empty). tuks 200, lenr-canr 200 (news stale June), viXra 406 flapping, lenr.seplm.ru 200, preprints.ru 200, iccf-27 200. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-2000.md + finds mirror sources/2026-09-06-scout-finds-2000-scout.md."
-    },
-    {
-      "date": "2026-09-06",
-      "time": "19:40",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 cloud migration — QC cron moved to cloud runner. Pipeline no longer depends on the desktop app staying open. First cloud run: verified AFLinks push channel works from sandbox; feed rebuild blocked until living-library corpus (database/, translations/) is migrated into the cloud LL repo."
     }
   ],
   "declassified": [
@@ -5913,7 +5913,7 @@
   ],
   "news": [
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "kind": "milestone",
       "title": "Atsyukovsky Book 5 — complete in English",
       "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, now readable end to end.",
@@ -5921,7 +5921,7 @@
       "href": "./library.html#booksSection"
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "kind": "declassified",
       "title": "USA — Epstein Document Release — Sheldrake/LENR/Cold Fusion Emails",
       "excerpt": "USA — DOJ-released Epstein documents revealing correspondence with Rupert Sheldrake about LENR/cold fusion, and Epstein claiming he 'killed Pons' research.",
@@ -5929,7 +5929,7 @@
       "href": "./library.html#declass-declassified-usa-epstein-sheldrake-lenr-md"
     },
     {
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "kind": "declassified",
       "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
       "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
