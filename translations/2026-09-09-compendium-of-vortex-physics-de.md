@@ -1,6 +1,6 @@
 ---
 name: Compendium of Vortex Physics (SAFE, 1999)
-description: "Translation document."
+description: "Full English translation of Kompendium der Wirbelphysik v1 Part 1 (SAFE, 1999) — Schauberger, Reich, Seiler and vortex physics working group. Translated from https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf"
 ---
 
 SAFE — Compendium of Vortex Physics. Compendium of Vortex Physics, Version 1, Part 1, May 8, 1999. SAFE — Swiss Association for Free Energy (Schweizerische Arbeitsgemeinschaft für Freie Energie), www.safeswiss.org. Vortex Physics Working Group, represented by Rudolf Fehlmann, Elisabeth Lehmann, André Waser, and Dr. Jakob Huber. © 1999 copyright by SAFE. Use with attribution to SAFE is welcome. Version 1, Page 1, May 8, 1999. SAFE — Compendium of Vortex Physics. Table of Contents.
@@ -2198,47 +2198,50 @@ The egg or pear shape is the ideal form for storing water.                SCHA01
 ---
 
 
-Version 1                                        Page 51                                     May 8, 1999
-     SAFE                                                                       Compendium of Vortex Physics
+11. Correct Guidance of Water
+When liquids are guided through spiral-shaped pipes, the resistance decreases decisively –
+and can even become negative (1952 experiment by [Pöpel]).
 
-11. Proper guidance of water
-When liquids are guided through spiral-shaped pipes, the resistance decreases decisively — and can even become negative (experiment 1952 by [Pöpel]).
+4.5.3 Assessment and Continuation of His Work
+The life and work of Viktor Schauberger hold great significance for our working group:
+• He is a model in his reverence for nature and his comprehensive spiritual outlook
+• He demonstrates the consequences of our one-sided, pressure-oriented technology
+• He opens our view toward an increasingly suction-oriented new technology in harmony with nature
 
-4.5.3 Assessment and continuation of his work
-The life and work of Viktor Schauberger are of very great importance to our working group:
-• He is a role model in his reverence for Nature and his comprehensive spiritual perspective
-• He shows the consequences of our one-sided, pressure-oriented technology
-• He opens our view toward a more suction-oriented, nature-appropriate new technology
+The continuation of his work is happening on an ever broader basis
 
-The continuation of his work is happening on an increasingly broad basis
-through Schaubergers son Walter (1925 - 1994)         Pythagoras-Kepler-School (PKS)
-and his family                                          Schloss Engleithen
-(course program available)                              A-4821 Laufen (near Bad Ischl)
-                                                        E-mail: schauberger@pks.or.at
-                                                        Internet: www.pks.or.at
-through the republication of                            Kurt Lorek
-Schaubergers magazine Implosion by                     Verein für Implosionsforschung und Anwendung
-                                                        Windschlägerstrasse 58
-                                                        D-77652 Offenburg
-through the Bindu working group around                  Wolfgang Wiedergut
-(course program available)                              Arbeitsgruppe Bindu
-                                                        Bahnhofstrasse 10/2/23
-                                                        A-8530 Deutschlandsberg
-through a young German engineering                      Jonathan Stromberg
-geologist who emigrated to England.                     Centre for Implosion Research, PO Box 38
-He developed and sells the Vortex Energizer             Plymouth - PL7 5YX - UK
-for contact-free revitalization of water.               E-mail: 113452.1630@compuserve.com
+through Schauberger's son Walter (1925–1994)        Pythagoras-Kepler-Schule (PKS)
+and his family                                        Schloss Engleithen
+(course program available on request)                 A-4821 Laufen (near Bad Ischl)
+                                                      E-mail: schauberger@pks.or.at
+                                                      Internet: www.pks.or.at
+
+through the republication of                          Kurt Lorek
+Schauberger's journal Implosion by the                Verein für Implosionsforschung und Anwendung
+                                                      (Association for Implosion Research and Application)
+                                                      Windschlägerstrasse 58
+                                                      D-77652 Offenburg
+
+through the working group Bindu around                Wolfgang Wiedergut
+(course program available on request)                 Arbeitsgruppe Bindu
+                                                      Bahnhofstrasse 10/2/23
+                                                      A-8530 Deutschlandsberg
+
+through a young German engineering geologist          Jonathan Stromberg
+who emigrated to England.                            Centre for Implosion Research, PO Box 38
+He developed and sells the Vortex Energizer           Plymouth – PL7 5YX – UK
+for contact-free revitalization of water.             E-mail: 113452.1630@compuserve.com
+
 through a Swedish working group in Malmö
-through the company Energy Unlimited by                 Rhetta Jacobson Baumgartner
-(see also R&Z No. 51)                                  New Mexico
-                                                        USA
-through the fluid technology of                         Alfred Evert
-                                                        Professor of Business Informatics
-                                                        Wilhelm-Kopf-Strasse 40
-                                                        D-71672 Marbach
 
-Version 1                                           Seite 52                                      May 8, 1999
-     SAFE                                                                     Compendium of Vortex Physics
+through the company Energy Unlimited of              Rhetta Jacobson Baumgartner
+(see also R&Z No. 51)                                New Mexico
+                                                      USA
+
+through the fluid technology of                       Alfred Evert
+                                                      Professor of business information systems
+                                                      Wilhelm-Kopf-Strasse 40
+                                                      D-71672 Marbach
 
 4.6 Hanspeter Seiler
 
@@ -2246,64 +2249,71 @@ Version 1                                           Seite 52                    
 ---
 
 
-4.6.1 The man and his world
-Hanspeter Seiler was born in 1947 in Chur (Switzerland) and studied medicine in Zurich. He trained as a clinical physician at a holistic medicine-oriented spa clinic. From 1979 to 1983 at the Bircher-Benner Clinic in Zurich, most recently as chief physician. Since then he has maintained a practice with emphasis on classical homeopathy, nutritional medicine, and psychosomatics.
-Many years of research on the foundations of bio-energetic concepts in holistic medicine — particularly the orgone hypothesis of Wilhelm Reich — led to the development of a comprehensive ether vortex theory of matter, which he published in 1986 in his book Der Kosmonenraum (The Cosmon Space). In recent years, Hanspeter Seiler has focused on researching the cultural-historical backgrounds of spiral, vortex, and life energy (publication in preparation).
+4.6.1 The Man and His World
+Hanspeter Seiler was born in 1947 in Chur (Switzerland) and studied medicine in Zurich. He trained as a clinical physician at a holistic-medicine-oriented health clinic. From 1979 to 1983 at the Bircher-Benner clinic in Zurich, ultimately as chief physician. Since then he has run a practice focused on classical homeopathy, nutritional medicine, and psychosomatics.
+
+Many years of research into the foundations of bio-energetic concepts in holistic medicine – in particular Wilhelm Reich's orgone hypothesis – led to the development of a comprehensive ether-vortex theory of matter, which he published in 1986 in his book Der Kosmonenraum (The Kosmon Space). In recent years Hanspeter Seiler has concentrated on researching the cultural-historical backgrounds of the spiral, the vortex, and life energy (publication in preparation).
 
 
 ---
 
 
-4.6.2 His work and core ideas
+4.6.2 His Work and Its Core Ideas
 (References to in-depth topics in the appendix are indicated with SEILnn)
-1. Main work
-Der Kosmonenraum (The Cosmon Space)            [Seiler, 1986]
-2. The Cosmon
-His engagement with the great trio of holistic medicine — Franz Anton Mesmer, Samuel Hahnemann, and Wilhelm Reich — in the realm of universal life energy led Seiler early on to the physical foundations of healing magnetism as presented by Mesmer.
-Mesmer's fundamental assumption is that all existing things are composed of the smallest, uniform, sharply bounded, indivisible, undeformable, and massless spheres.
-Seiler calls these primordial spheres "Kosmon" — in a successful connection of the smallest and largest unity of Nature — and attributes to them, following Mesmer, also spiritual-soul qualities (the Kosmon as monad).
-3. The Cosmon Space
-Based on the logical principle of the greatest possible simplicity, Seiler develops a purely qualitative yet impressive conceptual edifice on this cosmon hypothesis.
-The cosmons fill space not only without gaps but constitute the fundamental substance that defines space — a kind of ether. This cosmon space contains the cosmons as a disordered, densest sphere packing, which just barely allows completely unhindered flow behavior. Within it, the massless cosmon is understood as a purely energetic "particle" that always moves at the speed of light.
-4. Quantization
-Naturally, the question immediately arises how stable structures can be built from a quantity of cosmons in the cosmon space.
-Already Mesmer postulated the principle of the fundamental structure of matter from various elements that — as is indeed the case in the periodic table of elements in a somewhat more complicated form — differ from each other according to the increasing number of their uniform building blocks, and upon reaching a certain structurally determined size, form anew a developmental series corresponding to the smaller particles, a good half century before the discovery of the periodic table by Mendeleev and Meyer.
-In a modification of Mesmer's fundamental concept of rigid cosmon agglomerates, necessitated by our current knowledge, Seiler shows that only a vortex-like structure can be the sole possible spatiotemporally potentially stable structure of a composite particle in the cosmon space.
-Furthermore, from logical-physical considerations, Seiler clearly identifies this vortex-like structure as a torus ring vortex.
+1. Main Work
+Der Kosmonenraum (The Kosmon Space)            [Seiler, 1986]
 
-Version 1                                         Page 53                                     May 8, 1999
-     SAFE                                                                     Compendium of Vortex Physics
+2. The Kosmon
+His engagement with the great triumvirate of holistic medicine – Franz Anton Mesmer, Samuel Hahnemann, and Wilhelm Reich – in the domain of universal life energy early on led Seiler to the physical foundations of healing magnetism as presented by Mesmer.
+
+Mesmer's fundamental assumption is that everything that exists is built up from the smallest, uniform, sharply bounded, indivisible, undeformable, and massless little spheres. In a felicitous joining of the smallest and the greatest unit of nature, Seiler calls these primordial little spheres the "Kosmon" – and, following Mesmer, likewise ascribes mental-spiritual qualities to them (the Kosmon as monad).
+
+3. The Kosmon Space
+Based on the logical principle of the greatest possible simplicity, Seiler develops, purely qualitatively, an impressive edifice of thought upon this Kosmon hypothesis.
+
+The Kosmons not only fill space without gaps, they constitute the fundamental substance that defines space itself – a kind of ether. This Kosmon space contains the Kosmons as an unordered densest sphere packing which still just permits completely unimpeded flow behavior. Within it, the massless Kosmon is understood as a purely energetic "particle" that always moves at the speed of light.
+
+4. Quantization
+Naturally, the question immediately arises how stable structures can be built from a multitude of Kosmons within the Kosmon space.
+
+Already Mesmer postulated the principle of the fundamental construction of matter from various elements which – as is in fact the case in a somewhat more complicated form in the periodic table of the elements – differ from one another by the increasing number of their uniform basic building blocks, and upon reaching a certain structurally conditioned size, form anew a developmental series corresponding to the smaller particles. He did this a good half century before the discovery of the periodic table by Mendeleev and Meyer.
+
+In a modification of Mesmer's basic conception of rigid Kosmon agglomerates, made necessary by our knowledge today, Seiler shows that only a vortex-like formation can be the sole possible space-time potentially stable structure of a composite particle in the Kosmon space.
+
+Furthermore, out of logical-physical considerations, Seiler unambiguously identifies this vortex-like formation as a toroidal ring vortex.
 
 
 ---
 
 
-5. Elementary particles
-The two complementary structural variants of the rotating ring vortex, arising from the primordial soup of the cosmon space bubbling with unformed life force, can most readily be identified with the electron-positron pair as the smallest particles capable of independent existence even at rest.
-The treatment of the question of what happens during the annihilation of an electron-positron pair leads to a possible structure of photons and neutrinos.
-In the next higher particle that can be formed from 3 vortex rings, the muon, the concept of mass comes into play for the first time.
-By adding more and more building blocks in the form of torus ring vortices, Seiler succeeds phenomenologically in constructing a large part of the currently known particle zoo and qualitatively explaining the most important properties.
-However, much hard-nosed research work is still needed to first elevate this almost too beautifully appearing triumphal procession of the cosmon theory through the particle series from the qualitative to the quantitative level, and then to verify it.
-6. Fundamental forces
-Besides the question of the formation of elementary particles, the question of the nature of fundamental forces is also central. Here we can initially only refer to the most important statements in his work:
-• Magnetism              → simple rotation in the ether
-• Electric charge        → combined rotation with 2 components (p. 126)
-• Gravitation            → combination of 4 charges (p. 174 – 185)
-• Strong nuclear force   → the pion as the fundamental element of mesons is regarded as the quantum of the nuclear field mediating the strong interaction (p. 229)
+5. Elementary Particles
+The two complementary structural variants of the rotating ring vortex that emerged from the primordial soup of the Kosmon space, still seething with unformed life force, are most readily identified with the electron-positron pair as the smallest particles capable of independent existence even at rest.
 
-4.6.3 Assessment and continuation of his work
-The ideas of Hanspeter Seiler are of great importance to our working group:
-• He shows how an extension of the traditional quantum-oriented approach in physics into the ether domain is conceivable
-• He explicitly includes the biological-psychic aspects
-• He shows how far one can go with only the simplicity principle and without mathematics
+The treatment of the question of what happens in the annihilation of an electron-positron pair leads to a possible structure of photons and neutrinos.
 
-Hanspeter Seiler will for the time being continue his work himself in two respects:
-• Publication of another foundational work on the cultural history of spiral and vortex
-• Revised and updated new edition of Der Kosmonenraum
-On the other hand, the elaboration of his work will in the future form an important focus of the Vortex Physics working group.
+With the next-higher particle that can be formed from 3 vortex rings, the muon, the concept of mass enters the picture for the first time.
 
-Version 1                                         Page 54                                      May 8, 1999
-     SAFE                                                                     Compendium of Vortex Physics
+By adding ever more basic building blocks in the form of toroidal ring vortices, Seiler succeeds phenomenologically in building up a large part of the particle zoo known today and in qualitatively grounding its most important properties.
+
+However, it still requires much bone-hard research work first to raise this almost too-beautiful-seeming triumphal procession of the Kosmon theory through the series of particles from the qualitative to the quantitative level, and then to verify it.
+
+6. Fundamental Forces
+Alongside the question of the formation of elementary particles, the question of the nature of the fundamental forces is also central. For now we can merely refer to the most important statements in his work:
+• Magnetism            → simple rotation in the ether
+• Electric charge      → combined rotation with 2 components (p. 126)
+• Gravitation          → combination of 4 charges (pp. 174–185)
+• Strong nuclear force → the pion as the fundamental element of the mesons is regarded as the quantum of the nuclear field mediating the strong interaction (p. 229)
+
+4.6.3 Assessment and Continuation of His Work
+Hanspeter Seiler's ideas hold great significance for our working group:
+• He shows how an extension of the traditional quantum-oriented approach in physics into the domain of the ether is conceivable
+• In doing so he explicitly includes the biological-psychic aspects
+• He shows how far one can go with the principle of simplicity alone and without mathematics
+
+For the time being, Hanspeter Seiler will continue his work himself in two respects:
+• Publication of a further foundational work on the cultural history of the spiral and the vortex
+• A revised and updated new edition of Der Kosmonenraum
+On the other hand, the processing of his work will in the future form an important focus of the Vortex Physics working group.
 
 
 ---
