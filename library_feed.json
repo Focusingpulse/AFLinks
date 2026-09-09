@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-09T05:09:09Z",
+  "generated_at": "2026-09-09T05:29:10Z",
   "library": {
     "researchers": 989,
     "researchers_cataloged": 208,
     "patents": 2339,
-    "categories": 47,
-    "meta_categories": 24,
+    "categories": 48,
+    "meta_categories": 25,
     "aflinks_docs": 10882,
     "translations": 62,
     "pages_translated": 1054,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 62,
     "bridges": 6,
-    "archive_entries": 52701,
+    "archive_entries": 52746,
     "meta_counts": {
       "Challenges to the Standard Model": 40085,
       "Biological & Morphogenetic Science": 1472,
@@ -40,7 +40,7 @@
       "Environment & Climate": 8701,
       "Biology, Health & Medicine": 4955,
       "Frontier Science": 270,
-      "Rudolf Steiner & Anthroposophy": 25
+      "Rudolf Steiner & Anthroposophy": 70
     },
     "graph_edges": 453,
     "graph_nodes": 345,
@@ -5418,9 +5418,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-09T04:27:11Z",
+      "last_run": "2026-09-09T05:17:03Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks since last run (158->162) | Schauberger 'Wasser: Das Blut der Erde' 162/210 | backlog 392 wait (gear: quota)"
+      "last_summary": "+8 chunks since last run (162->170) | Schauberger 'Water: The Blood of the Earth' (de) 170/210 | backlog 392 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5495,9 +5495,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-09T00:20:00Z",
+      "last_run": "2026-09-09T04:20:00Z",
       "last_status": "ok",
-      "last_summary": "+2 translations (Turenne method Part 1 turenne.eu, Turenne biography johnben.ch) — first Turenne material in corpus. QC: Goethe IT->EN (Wizard) reviewed PASS, corpus 106->108. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days; Wizard foreign-translate agent active."
+      "last_summary": "+1 translation (Abel Martin 1932 vet radiesthesia thesis article FR→EN) — first doctorate ever for a radiesthésiste. QC: Schauberger es→en reviewed PASS. Drunvalo QC agent active at :07 offset — no double work. Corpus 108→109. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days."
     },
     {
       "member": "scout",
@@ -5536,6 +5536,12 @@
   "activity_log": [
     {
       "date": "2026-09-09",
+      "time": "05:17",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota run: translated 4 chunks (167-170) of Schauberger 'Water: The Blood of the Earth' (German). Job now 170/210. Sections covered: cancer/water quality connection, seawater-freshwater equilibrium (Badon Ghijbens/Herzberg), snail blood-vessel double-spiral principle, capillary pulsation (Prof. Kurt Bergel), and the Double-Spiral Pipe intro."
+    },
+    {
+      "date": "2026-09-09",
       "time": "05:06",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+52676 docs — +0 docs in vault | feed rebuilt"
@@ -5563,6 +5569,12 @@
       "time": "04:21",
       "agent": "translator-foreign (The Wizard)",
       "summary": "+1 chunks — Translated Schauberger Water chunk 131 (de->en): Nature Protects Itself - human interference in natural cycles, 132/210 chunks done"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "04:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Abel Martin 1932 veterinary radiesthesia thesis article FR→EN (guerisseur-radiesthesiste.fr): short piece documenting the first doctoral degree ever awarded to a radiesthésiste — Dr. Abel Martin defended \"Diagnostic radiesthésique en médecine vétérinaire\" on 21 January 1932 at the Faculté de médecine de Paris, received with distinction, accepted by the open-minded Maisons-Alfort veterinary school. Adds institutional-history context to the French tradition. QC: Schauberger es→en (Dynamic Hydroelectric Energy, published 09-08) reviewed — frontmatter complete, content in English, PASS. Drunvalo QC agent ran at 04:10 (frontmatter fixes, duplicate removal) — coordinated, no overlap. Corpus 108→109. Feed rebuild still blocked (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days. Scout reports FR patent layer (FR 816.132, 1936) and thesis lane (Durand 2004, Martin 1932) now mapped — rich French radiesthesia tradition documented."
     },
     {
       "date": "2026-09-09",
@@ -5881,18 +5893,6 @@
       "time": "04:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Translated Servranx brothers history + origins of radionics (FR→EN, servranx.com): biography of Félix & William Servranx, their journal La Radiesthésie pour tous (1946–1967), EXDOCIN dossiers (1957–1966), and the origins of radionics from Abrams (1863–1924) through Boyd, Mac Manis, Ruth Drown, Guyon Richards — four paths of radionics (electrical, pure adjustment, drawn schematics, beeswax). QC: aflinks-cron feed rebuild (73464c0) stripped frontmatter again — not re-fixing (documented as futile; feed rebuild is authority). Corpus 99. Translator agent stale: no new publishes since ~Aug 30 (~9 days, well past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "04:06",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "04:05",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+1 RU primary candidate — seplm.ru (rot #12) back UP again, stable this window. — /articles/ enumerated live (200, 13 items): Кащенко M.П. & Кащенко Н.М. (УрФУ/УГЛТУ, Екатеринбург) — Chapter 13 «Генерация компактных массивных электронных (ее)–пар в реальных установках и синтез элементов» in the collective monograph «Перспективные материалы и технологии» (Минск, 2026), annotated on site (KKN-activator ring orbits, Energoniva element synthesis, Шоулдерса charge clusters); plus M. Кащенко «Информация о трех статьях…» posted 2026-08-28. seplm has no harvest history (rot #12) — next growth fire should first-harvest it. ICCF-27 proceedings STILL Under Construction (9,845 B unchanged; program placeholders); JCMNS Vol 41 (ICCF-26 proceedings) already harvested via lenr-canr /acrobat. viXra max still 2609.0012 (0013–0020 404). Zenodo + RU/ES fresh windows: nothing new to queue (ENG8 EnergiCells = media commentary only). Archive 48,224 (naturalphilosophy deep-harvest 02:15Z). avalonlibrary #16 verified 200. infinite-energy 403. STALE-FLAG translator ~128h (re-issued); sweeper still active (71–82); no claims >7d (Active empty). OCR/queue/tag pending FocusOptimized. Full: living-library sources/2026-09-08-scout-report-0400.md / mirror sources/2026-09-08-scout-finds-0400-scout.md."
     }
   ],
   "declassified": [
@@ -157295,7 +157295,52 @@
         "1554499",
         "1554522",
         "1554546",
-        "1554571"
+        "1554571",
+        "1554572",
+        "1554574",
+        "1554577",
+        "1554581",
+        "1554586",
+        "1554592",
+        "1554599",
+        "1554607",
+        "1554616",
+        "1554626",
+        "1554637",
+        "1554649",
+        "1554662",
+        "1554676",
+        "1554691",
+        "1554707",
+        "1554724",
+        "1554742",
+        "1554761",
+        "1554781",
+        "1554802",
+        "1554824",
+        "1554847",
+        "1554871",
+        "1554896",
+        "1554922",
+        "1554949",
+        "1554977",
+        "1555006",
+        "1555036",
+        "1555067",
+        "1555099",
+        "1555132",
+        "1555166",
+        "1555201",
+        "1555237",
+        "1555274",
+        "1555312",
+        "1555351",
+        "1555391",
+        "1555432",
+        "1555474",
+        "1555517",
+        "1555561",
+        "1555606"
       ]
     },
     "doc_titles": {
@@ -209999,7 +210044,52 @@
       "1554499": "7. The Epistemological Foundations of Theosophy III — GA 52. Spiritual Teachings Concerning the Soul",
       "1554522": "4. Theosophy and Christianity — GA 52. Spiritual Teachings Concerning the Soul",
       "1554546": "11. Theosophy and Spiritualism — GA 52. Spiritual Teachings Concerning the Soul",
-      "1554571": "12. Theosophy and Somnambulism — GA 52. Spiritual Teachings Concerning the Soul"
+      "1554571": "12. Theosophy and Somnambulism — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554572": "1. Introduction — Goethean Science (1988)",
+      "1554574": "2. How Goethe's Theory of Metamorphosis Arose  — Goethean Science (1988)",
+      "1554577": "3. How Goethe's Thoughts on the Development of the Animals Arose  - Goethean Science (1988)",
+      "1554581": "4. The Nature and Significance of Goethe's Writings on Organic Development — Goethean Science (1988)",
+      "1554586": "5. Concluding Remarks on Goethe's Morphological Views — Goethean Science (1988)",
+      "1554592": "6. Goethe's Way of Knowledge — Goethean Science (1988)",
+      "1554599": "7. The Arrangement of Goethe's Natural-Scientific Writings  - Goethean Science (1988)",
+      "1554607": "8. From Art to Science  - Goethean Science (1988)",
+      "1554616": "9. Goethe's Epistemology  - Goethean Science (1988)",
+      "1554626": "10. Knowing and Human Action in the Light of the Goethean Way of Thinking Methodology  - Goethean Science (1988)",
+      "1554637": "11. Relationship of the Goethean Way of Thinking to Other Views  - Goethean Science (1988)",
+      "1554649": "12. Goethe and Mathematics - Goethean Science (1988)",
+      "1554662": "13. Goethe's Basic Geological Principle - Goethean Science (1988)",
+      "1554676": "14. Goethe's Meteorological Conceptions - Goethean Science (1988)",
+      "1554691": "15. Goethe and Natural-scientific Illusionism - Goethean Science (1988)",
+      "1554707": "16. Goethe as Thinker and Investigator - Goethean Science (1988)",
+      "1554724": "17. Goethe Against Atomism - Goethean Science (1988)",
+      "1554742": "18. Goethe's World View in his Aphorisms in Prose - Goethean Science (1988)",
+      "1554761": "Einleitung — Goethes Naturwissenschaftliche Schriften",
+      "1554781": "2. Die Entstehung der Metamorphosenlehre — Goethes Naturwissenschaftliche Schriften",
+      "1554802": "3. Die Entstehung von Goethes Gedanken über die Bildung der Tiere - Goethes Naturwissenschaftliche Schriften - Rudolf Steiner Archive",
+      "1554824": "4. Über das Wesen und die Bedeutung von Goethes Schriften über organische Bildung - Goethes Naturwissenschaftliche Schriften - Rudolf Steiner Archive",
+      "1554847": "5. Abschluss über Goethes morphologische Anschauungen - Goethes Naturwissenschaftliche Schriften - Rudolf Steiner Archive",
+      "1554871": "6. Goethes Erkenntnis-Art - Goethes Naturwissenschaftliche Schriften - Rudolf Steiner Archive",
+      "1554896": "7. Über die Anordnung der naturwissenschaftlichen Schriften Goethes - Goethes Naturwissenschaftliche Schriften - Rudolf Steiner Archive",
+      "1554922": "8. Von der Kunst zur Wissenschaft - Goethes Naturwissenschaftliche Schriften - Rudolf Steiner Archive",
+      "1554949": "9. Goethes Erkenntnistheorie - Goethes Naturwissenschaftliche Schriften - Rudolf Steiner Archive",
+      "1554977": "10. Wissen und Handeln im Lichte der Goetheschen Denkweise - Rudolf Steiner Archive",
+      "1555006": "11. Verhältnis der Goetheschen Denkweise zu anderen Ansichten - Rudolf Steiner Archive",
+      "1555036": "12. Goethe und die Mathematik - Rudolf Steiner Archive",
+      "1555067": "13. Das geologische Grundprinzip Goethes - Rudolf Steiner Archive",
+      "1555099": "14. Die meteorologischen Vorstellungen Goethes - Rudolf Steiner Archive",
+      "1555132": "15. Goethe und der naturwissenschaftliche Illusionismus - Rudolf Steiner Archive",
+      "1555166": "16. Goethe als Denker und Forscher - Rudolf Steiner Archive",
+      "1555201": "17. Goethe gegen den Atomismus - Rudolf Steiner Archive",
+      "1555237": "18. Goethes Weltanschauung in Seinen «Sprüchen in Prosa»",
+      "1555274": "Documents — GA 1f. Editorial Afterwords to Goethe's Scientific Writings in the Weimar edition 1891-1896",
+      "1555312": "On Morphology I — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
+      "1555351": "On Morphology II — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
+      "1555391": "On Morphology III — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
+      "1555432": "On Natural Science in General. Mineralogy and Geology I — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
+      "1555474": "On Natural Science in General. Mineralogy and Geology II — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
+      "1555517": "On Natural Science, General Natural Science I — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
+      "1555561": "On Natural Science, General Natural Science II — GA 1f. Editorial Epilogues to Goethe's Scientific Writings in the Weimar Edition 1891–1896",
+      "1555606": "Dokumente — GA 1f. Editorische Nachworte zu Goethes Naturwissenschaftlichen Schriften in der Weimarer Ausgabe 1891-1896"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -210654,7 +210744,8 @@
       "Rudolf Steiner & Anthroposophy": [
         "Anthroposophy / Rudolf Steiner",
         "Education",
-        "Goethean Science"
+        "Goethean Science",
+        "Optics / Colour Therapy"
       ]
     },
     "doc_cats": {
@@ -493055,6 +493146,188 @@
       "1554571": [
         "Anthroposophy / Rudolf Steiner",
         "Education"
+      ],
+      "1554572": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554574": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554577": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554581": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554586": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554592": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554599": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554607": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554616": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554626": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554637": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "1554649": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554662": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554676": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554691": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Optics / Colour Therapy"
+      ],
+      "1554707": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554724": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554742": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554761": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554781": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554802": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554824": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554847": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554871": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554896": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554922": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554949": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554977": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555006": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555036": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555067": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555099": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555132": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555166": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555201": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555237": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555274": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555312": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555351": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555391": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555432": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555474": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555517": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555561": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1555606": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
       ]
     },
     "meta_concepts": {
@@ -591917,7 +592190,52 @@
       "1554499": [],
       "1554522": [],
       "1554546": [],
-      "1554571": []
+      "1554571": [],
+      "1554572": [],
+      "1554574": [],
+      "1554577": [],
+      "1554581": [],
+      "1554586": [],
+      "1554592": [],
+      "1554599": [],
+      "1554607": [],
+      "1554616": [],
+      "1554626": [],
+      "1554637": [],
+      "1554649": [],
+      "1554662": [],
+      "1554676": [],
+      "1554691": [],
+      "1554707": [],
+      "1554724": [],
+      "1554742": [],
+      "1554761": [],
+      "1554781": [],
+      "1554802": [],
+      "1554824": [],
+      "1554847": [],
+      "1554871": [],
+      "1554896": [],
+      "1554922": [],
+      "1554949": [],
+      "1554977": [],
+      "1555006": [],
+      "1555036": [],
+      "1555067": [],
+      "1555099": [],
+      "1555132": [],
+      "1555166": [],
+      "1555201": [],
+      "1555237": [],
+      "1555274": [],
+      "1555312": [],
+      "1555351": [],
+      "1555391": [],
+      "1555432": [],
+      "1555474": [],
+      "1555517": [],
+      "1555561": [],
+      "1555606": []
     }
   },
   "graph": {
