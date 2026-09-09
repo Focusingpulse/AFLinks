@@ -1,61 +1,59 @@
 {
-  "timestamp": "2026-09-08T06:06:39.255226",
-  "total_translations": 99,
-  "total_researchers": 122,
-  "total_works": 160,
-  "languages": {
-    "el": 2,
-    "de": 7,
-    "pt": 2,
-    "en": 40,
-    "it": 11,
-    "ru": 10,
-    "es": 5,
-    "fr": 15
+  "timestamp": "2026-09-09T06:00:00Z",
+  "run_type": "daily-database-refresh",
+  "collection_stats": {
+    "total_translations": 110,
+    "total_researchers": 131,
+    "total_works_indexed": 182,
+    "total_archive_docs": 52746,
+    "concept_tagged_docs": 18707,
+    "concept_coverage_pct": 35
   },
-  "domains": {
-    "aether": 16,
-    "gravity": 14,
-    "lenr": 4,
-    "scalar": 11,
-    "torsion": 12,
-    "cosmology": 2,
-    "electromagnetism": 5,
-    "morphic": 1,
-    "sacred_geometry": 3,
-    "geometry": 1,
-    "physics": 2,
-    "unified-theory": 1,
-    "vortex": 11,
-    "water": 6,
-    "implosion": 1,
-    "ecology": 2,
-    "metallurgy": 1,
-    "free-energy": 1,
-    "vacuum-energy": 1,
-    "electrogravitics": 2,
-    "ether": 1,
-    "materials": 1,
-    "particle-physics": 1,
-    "inertia": 1,
-    "gyroscopy": 1,
-    "quantum": 1,
-    "thermodynamics": 1,
-    "energy": 1,
-    "field-theory": 2,
-    "fluid-dynamics": 1,
-    "synthesis": 1,
-    "radiesthesia": 7,
-    "radionics": 4,
-    "geobiology": 2
+  "language_distribution": {
+    "en": 46,
+    "fr": 15,
+    "ru": 12,
+    "it": 12,
+    "de": 7,
+    "es": 6,
+    "el": 3,
+    "pt": 2
+  },
+  "domain_distribution": {
+    "aether": 90,
+    "gravity": 70,
+    "scalar": 33,
+    "torsion": 23,
+    "sacred_geometry": 16,
+    "lenr": 6,
+    "morphic": 5,
+    "water": 3
+  },
+  "top_concepts": {
+    "geometry_sacred": 7017,
+    "cold_fusion": 3391,
+    "p_fieldphys": 2130,
+    "aether": 1901,
+    "tesla": 1685,
+    "p_bridge": 1469,
+    "p_wrongturn": 1340,
+    "p_consciousness": 989,
+    "keely": 787,
+    "p_nature": 763
   },
   "new_since_last_refresh": {
-    "translations": 18,
-    "researchers": 0,
-    "works": 36
+    "translations_added": 16,
+    "researchers_added": 0,
+    "works_added": 16
   },
-  "library_feed_status": "skipped \u2014 living-library repo not available in sandbox",
-  "tag_concepts_status": "timeout after 120s",
-  "upgrade_bank_updates": [],
-  "previous_timestamp": "2026-09-07T06:04:46.196448"
+  "notes": [
+    "Library feed build skipped - living-library repo not available in sandbox",
+    "Concept tagging completed - 35% of archive now has concept tags",
+    "All existing indices preserved and updated"
+  ],
+  "upgrade_bank_status": {
+    "total_proposals": 11,
+    "found": 2,
+    "proposed": 9
+  }
 }
