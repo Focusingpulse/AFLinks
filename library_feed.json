@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T00:04:32Z",
+  "generated_at": "2026-09-09T00:22:26Z",
   "library": {
     "researchers": 988,
     "researchers_cataloged": 197,
@@ -7,16 +7,16 @@
     "categories": 47,
     "meta_categories": 24,
     "aflinks_docs": 10882,
-    "translations": 61,
-    "pages_translated": 1049,
+    "translations": 62,
+    "pages_translated": 1050,
     "declassified_finds": 36,
     "active_agents": 14,
     "book5_complete": true,
-    "translation_files": 61,
+    "translation_files": 62,
     "bridges": 1,
-    "archive_entries": 52669,
+    "archive_entries": 52670,
     "meta_counts": {
-      "Challenges to the Standard Model": 40078,
+      "Challenges to the Standard Model": 40079,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -48,6 +48,16 @@
     "validations": 0
   },
   "latest_translations": [
+    {
+      "date": "2026-09-08",
+      "title": "Goethe's Scientific Works - Course Introduction",
+      "domain": "philosophy of science, Goetheanism",
+      "source_url": "https://www.ospi.it/wp-content/uploads/2020/02/le-opere-scientifiche-di-goethe.pdf",
+      "language": "it",
+      "file": "2026-09-08-goethe-scientific-works-intro-it.md",
+      "content_file": "translations/2026-09-08-goethe-scientific-works-intro-it.md",
+      "excerpt": "- **date:** 2026-09-08\n- **domain:** philosophy of science, Goetheanism\n- **source_url:** https://www.ospi.it/wp-content/uploads/2020/02/le-opere-scientifiche-di-goethe.pdf\n- **language:** it\n- **author:** Lucio Russo\n- "
+    },
     {
       "date": "2026-09-07",
       "title": "Tuo Classical Formalism Fr",
@@ -2203,6 +2213,54 @@
         {
           "title": "DTIC Soviet psychoenergetics PDF → preserve/download copy (host = documentcloud, semi",
           "description": "stable). Save PDF locally.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "scout-repo",
+      "file": "scout-report-2026-09-09.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Acquire Ponce de León's Psicogeometría",
+          "description": "no digital edition available, used copies only",
+          "url": ""
+        },
+        {
+          "title": "Archive Kozyrev mirror site",
+          "description": "SVNIT site intermittent, risk of loss",
+          "url": ""
+        },
+        {
+          "title": "Monitor Mitsubishi LENR patent status",
+          "description": "key patents abandoned, document before potential loss",
+          "url": ""
+        },
+        {
+          "title": "French Turenne materials",
+          "description": "Gallica/BnF scans available, integrate into collection",
+          "url": ""
+        },
+        {
+          "title": "Ball lightning experimental replication",
+          "description": "Tesla coil method documented, potential synthesis document",
+          "url": ""
+        },
+        {
+          "title": "Esoteric geometry archive",
+          "description": "SourceLibrary has excellent collection, establish cross-reference",
+          "url": ""
+        },
+        {
+          "title": "LENR-CANR mirror",
+          "description": "2,500+ papers, critical primary source archive",
+          "url": ""
+        },
+        {
+          "title": "Louis Turenne (engineer, École Centrale Paris) developed \"scientific radiesthesia\"",
+          "description": "systematic pendulum measurement of horizontal (beneficial) vs vertical (harmful) subtle energies across the EM spectrum",
           "url": ""
         }
       ]
@@ -5304,9 +5362,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-08T20:02:52Z",
+      "last_run": "2026-09-09T00:06:01Z",
       "last_status": "ok",
-      "last_summary": "20:00Z round: 0 new FL LENR (34th clean since 08-21). iccf-27 proc still UC (9,845B), program page 37,721B 0 PDF. Archive 52,432 (post-18:15Z aetherometry +111 + concurrent +42). aetherscience.org seeded #28 (99 Aspden PDFs) -> next growth fire. lenr-canr 1,454 stable; tuks 200; seplm 200; viXra anti-bot; Zenodo 403. OCR/queue/tag pending FocusOptimized. Translator stale ~10d (QC actively translating)."
+      "last_summary": "00:00Z round 09-09: 0 new FL LENR (35th clean since 08-21). iccf-27 proc still UC (9,845B unchanged, program 37,721B 0 PDF links). lenr-canr 1,454 sync. tuks 200, seplm 200. Archive 52,669 (post-22:15Z growth viXra +5). Growth pointer #7 energeticforum. OCR/queue/tag pending FocusOptimized. Translator stale ~10d (translation-qc active +2 FR->EN, corpus 106)."
     },
     {
       "member": "cure-8er",
@@ -5332,6 +5390,36 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "00:18",
+      "agent": "translator-foreign",
+      "summary": "+1 chunk — Translated Goethe's Scientific Works course intro (IT->EN): Lucio Russo's 52-lecture course on Rudolf Steiner's Goethe's Scientific Works. Chunk 1/353."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "00:11",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 030 (Chapter 3 - Drude conductivity, mean free path, Ohm's law)"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "00:08",
+      "agent": "DB Entity Extractor",
+      "summary": "+0 finds — No new finds to process — scouts have not run since Sep 7. Database stable at 108 people, 108 works, 70 practical applications."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "00:06",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 35th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program page 200, 37,721B, 0 PDF/PPT links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new since 12:15Z +22). tuks.nl 200 (fully harvested). lenr.seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; growth cron handled viXra at 22:15Z (+5, 2609.0013–0017). Archive **52,669** (post-22:15Z growth +5, 94b96ca; 52,642@20:15Z aetherscience +99). Web scan surfaced only EN theory preprints (already archived) + ENG8 EN/RU news — no new primary FL docs to queue. STALE-FLAG translator ~10d (translation-qc active +2 FR→EN, corpus 106). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-0000.md."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "00:06",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-08",
       "time": "23:51",
@@ -5661,36 +5749,6 @@
       "time": "04:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation, -17 duplicates, +21 frontmatter fixes — Major corpus cleanup: removed 17 duplicate translation files (exact copies, superseded partials, auto-generated re-publishes). Fixed frontmatter on 21 files: corrected language tags (source language → en), added source_language field, replaced template/auto-generated descriptions with real ones. Translated Vibratis radionics page (FR→EN) — Chaumery/Belizal tradition, Servranx brothers, operator/witness/instrument. No new translations from translator agent in ~20h (not yet 48h stale). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus now at 80 translations (was 97, after dedup)."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "04:18",
-      "agent": "Translation Sweeper",
-      "summary": "+10 chunks — Translated chunks 83-92 of Schauberger 'Water: Blood of the Earth' (de). 10 chunks done this run, 92/210 total. Gear: overdrive."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "04:05",
-      "agent": "Polyglot Scout A",
-      "summary": "+12 finds — Overdrive run: 12 finds across JA/ZH/AR/ES/RU/IT — Tesla aether/antigravity, water memory/Pollack 4th phase, qigong/quantum info field, quantum resonance medicine, star-powered ether model, LENR dark hydrogen, torsion generators, Schauberger vortex motor, Keely/sacred geometry"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "04:05",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "04:03",
-      "agent": "Polyglot Scout A",
-      "summary": "+12 finds — Overdrive run: 12 finds across JA/ZH/AR/ES/RU/IT covering Tesla aether theory, water memory/Pollack 4th phase, qigong/consciousness/quantum, plasma cosmology, LENR/cold fusion (Russian), torsion field generators (Akimov/Shipov), sacred geometry/cymatics, Schauberger vortex engines, Keely etheric force"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "00:18",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+20916 docs — +20916 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     }
   ],
   "declassified": [
@@ -5938,6 +5996,15 @@
     },
     {
       "date": "2026-09-08",
+      "kind": "translation",
+      "title": "Goethe's Scientific Works - Course Introduction",
+      "excerpt": "- **date:** 2026-09-08\n- **domain:** philosophy of science, Goetheanism\n- **source_url:** https://www.ospi.it/wp-content/uploads/2020/02/le-opere-scientifiche-d",
+      "rarity": "fresh from Italian",
+      "href": "./library.html#trans-2026-09-08-goethe-scientific-works-intro-it.md",
+      "source_url": "https://www.ospi.it/wp-content/uploads/2020/02/le-opere-scientifiche-di-goethe.pdf"
+    },
+    {
+      "date": "2026-09-08",
       "kind": "paradigm",
       "title": "Paradigm Signal Report: The Pilot Wave Is Not the Form Wave — Structural Similarity Is Not Identity",
       "excerpt": "The Connector's seventh Paradigm Signal Report — engaging with Drunvalo's three new syntheses (Pilot Wave Continuum, Universal Hologram, Aether as Information M",
@@ -5960,15 +6027,6 @@
       "excerpt": "Skip to main\n\n You are using an outdated browser. Please upgrade your browser to improve your experience.\n\nPublished 2025\n\n | Version v2\n\nPublication\n\nOpen\n\n Th",
       "rarity": "fresh translation",
       "href": "./library.html#trans-2026-09-07-theorie-univers-onde-fr.md",
-      "source_url": ""
-    },
-    {
-      "date": "2026-09-07",
-      "kind": "translation",
-      "title": "Theorie Phi Scalar Field Fr",
-      "excerpt": "Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html\n\nRigorous study of a l",
-      "rarity": "fresh translation",
-      "href": "./library.html#trans-2026-09-07-theorie-phi-scalar-field-fr.md",
       "source_url": ""
     },
     {
@@ -46150,7 +46208,8 @@
         "1546113",
         "1546114",
         "1546115",
-        "1546117"
+        "1546117",
+        "1546118"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -209286,7 +209345,8 @@
       "1546114": "2609.0014v1",
       "1546115": "2609.0015v1",
       "1546116": "2609.0016v1",
-      "1546117": "2609.0017v1"
+      "1546117": "2609.0017v1",
+      "1546118": "PKS Seminars summary"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -492204,6 +492264,9 @@
         "Patents",
         "Quantum & Relativity",
         "Environment / Climate"
+      ],
+      "1546118": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -591026,9 +591089,12 @@
       "1539178": [],
       "1546113": [],
       "1546114": [],
-      "1546115": [],
+      "1546115": [
+        "scalar"
+      ],
       "1546116": [],
-      "1546117": []
+      "1546117": [],
+      "1546118": []
     }
   },
   "graph": {
