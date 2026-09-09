@@ -1,23 +1,31 @@
 ---
 name: Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly
-description: "Translation document."
+description: "ES→EN translation. Josef Hasslberger's technical analysis of Viktor Schauberger's 1930 jet turbine patent (No. 117,749) and Ludwig Herbrand's corroborating measurements at the Rheinfelden hydroelectric plant: dynamic vs. pressure use of flowing water, vortex flow, negative resistance, and the neglected velocity variable in hydroelectric engineering. Source: https://giurfa.com/schauberger.pdf"
 ---
 
-Dynamic hydroelectric energy
+- **date:** 2026-09-09
+- **domain:** hydroelectric engineering, vortex physics, implosion technology
+- **source_url:** https://giurfa.com/schauberger.pdf
+- **language:** en
+- **source_language:** es
+- **author:** Josef Hasslberger
+- **translator:** Forge (translation-qc agent)
 
-[Document title. Original Spanish-language technical analysis of Viktor Schauberger's 1930 jet turbine patent (No. 117,749) and Ludwig Herbrand's corroborating measurements at the Rheinfelden hydroelectric plant. Translated from https://giurfa.com/schauberger.pdf]
+# Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly
+
+[Original Spanish-language document, translated to English. — QC note]
 
 
 ---
 
 
-Viktor Schauberger's "suction turbine" or "jet turbine"
+## Viktor Schauberger's "suction turbine" or "jet turbine"
 
 To this day, hydroelectric engineering deals almost exclusively with two variables: one is the difference in height between the head water and the turbine, and the other is the quantity of water that can flow through the turbines.
 
 A third important variable, the velocity of the water flow, is generally not considered important. It is taken into consideration only as the velocity resulting from the release of water pressure related to and dependent on the difference in height, but not as an important factor in its own right. In fact, the current design of hydroelectric installations normally excludes the utilization of the dynamic energy potential inherent in the free flow of water. A dam destroys this natural energy potential by taking the water from its dynamic state of flow to a static state, a total absence of movement.
 
-If we study the writings of Viktor Schauberger and Ludwig Herbrand, we discover that the energy inherent in the free and unobstructed flow of water can potentially be much greater than what can be obtained through the exclusive use of the pressure resulting from the difference in altitude. In the mills and old smithies of the pre-industrial era, a normal flow of water was used instead of pressure induced by altitude. Schauberger
+If we study the writings of Viktor Schauberger and Ludwig Herbrand, we discover that the energy inherent in the free and unobstructed flow of water can potentially be much greater than what can be obtained through the exclusive use of the pressure resulting from the difference in altitude. In the mills and old smithies of the pre-industrial era, a normal flow of water was used instead of pressure induced by altitude.
 
 In recent times, it was Viktor Schauberger, the Austrian inventor and brilliant observer of the mechanisms of nature, who first advocated the use of increased water velocity instead of water pressure for the production of hydroelectric energy. In 1930 he obtained a patent for what he called the Jet Turbine (Strahlturbine). (1)
 
@@ -55,7 +63,7 @@ PATENT CLAIMS:
 
 • A jet turbine, distinguished by the fact that in the path of the water jet and aligned with its axis in such a way that the jet is divided, there is a cone-shaped [eel-like] turbine whose surface is formed by corkscrew-like blades. • Jet turbine according to claim 1, distinguished by a jet tube (2) with ribs (5) inclined in the direction of rotation of the turbine wheel."
 
-This patent was applied for in 1926 and granted in 1930. It appears that Schauberger actually used a small turbine of this design in a stream of water near the foresters' lodge building during those years, to generate electricity, but no reliable records are available. (2) Herbrand
+This patent was applied for in 1926 and granted in 1930. It appears that Schauberger actually used a small turbine of this design in a stream of water near the foresters' lodge building during those years, to generate electricity, but no reliable records are available. (2)
 
 Another example of the use of the dynamic powers of flowing water has been documented by Ludwig Herbrand, a German engineer who, as a student in the mid-1930s, was called in to evaluate and calculate the parameters of some generators and exciter units that had recently been installed at the Rheinfelden power plant, as well as to design the electrical overload protection and the relevant switching mechanisms for these generators.
 
@@ -69,7 +77,7 @@ This fact was confirmed by Professor Finzi, the designer of the turbines and gen
 
 Herbrand was soon drafted into the army and the Second World War did not allow him to research the subject further. Only much later, in the 1970s and 1980s, did Herbrand take up again the calculations he had made for his engineering examinations and tried — so far without success — to interest industry and government in this different and more efficient use of hydroelectric energy.
 
-Technical data
+## Technical data
 
 
 ---
@@ -97,7 +105,7 @@ Let us now examine energy production in kilowatts with an increase in the differ
 
 The increase in energy production is linear, as shown in the previous graph.
 
-Calculation
+## Calculation
 
 The electrical energy that can be obtained from water is calculated on the basis of the flow velocity and the mass of the water, that is, the magnitude of the flow measured in cubic meters per second, according to the formula
 
@@ -119,7 +127,7 @@ The graphical representation makes it clear that an increase in velocity brings 
 
 However, for the purpose of using hydroelectric energy to generate electrical energy, it is quite irrelevant whether the velocity of the water is the result of pressure obtained through a difference in altitude, or whether it is obtained in some other manner, such as by encouraging the natural tendency of water to flow. And it seems we can increase the flow velocity of water almost at will.
 
-How to increase electrical output
+## How to increase electrical output
 
 There are two basic variables in hydroelectric engineering that determine electrical output. They are the quantity of water available and the velocity of the flow. The first variable, the quantity of water available, depends largely on location and is generally not subject to increase by human intervention.
 
@@ -143,7 +151,7 @@ It appears that the best results were achieved with copper pipes, and that this 
 ---
 
 
-Theory and practice
+## Theory and practice
 
 
 ---
@@ -165,7 +173,7 @@ To assist this process, we can promote the formation of a vortex in the funnel o
 
 By installing a turbine and generator at the release point of the jet of water, preferably of the design proposed by Schauberger, we will now obtain a much higher electrical energy output than that achieved by comparable means in the conventional manner. Where step 1 is not possible because the river is too small, or where we simply wish to adapt existing power plants to use the dynamic energy of water flow, step 2 can still be combined cost-effectively with the current design of the small hydroelectric plant, by modifying the shape of the penstock to a funnel or jet tube configuration, thus obtaining part of the velocity increase from the normal use of gravity and another part through the specific action of the jet effect and the vortex flow.
 
-No theoretical limit
+## No theoretical limit
 
 Are there limits to the velocity at which a jet of water can be made to flow? This is a question we obviously must ask ourselves before embarking on this kind of project.
 
@@ -183,7 +191,7 @@ And assuming we have a water flow of 10 m3/sec, we can predict (at v = 45 m/sec)
 ---
 
 
-Fixed ideas and the "law of conservation of energy"
+## Fixed ideas and the "law of conservation of energy"
 
 It is very difficult to unlearn something one has studied, especially if what was learned was later needed to pass an exam. The weight of the so-called "natural laws" that are used to support these doctrines makes it even harder for anyone to stand up and say "hey, we have missed something here!"
 
@@ -195,7 +203,7 @@ It is hard to break through this barrier of "knowledge," especially when the exp
 
 Conservation of energy is invoked when the calculations do not seem to permit a higher energy output. But in this case we have a factor that has been neglected in our calculations, not a violation of the laws of conservation.
 
-Water is an accumulator of energy
+## Water is an accumulator of energy
 
 
 ---

@@ -6,8 +6,8 @@ description: "Forge's FR->EN translation of the Louis Turenne Association's expo
 - **date:** 2026-09-09
 - **domain:** physical radiesthesia, history of science
 - **source_url:** https://www.turenne.eu/radiestesia%20scientifica.htm
-- **language:** fr
-- **source_language:** French
+- **language:** en
+- **source_language:** fr
 - **author:** Associazione Louis Turenne / Laboratoires Turenne Italia
 - **translator:** Forge (translation-qc agent)
 - **note:** Part 1 of a series ("RADIESTHÉSIE SCIENTIFIQUE (1ère partie)"). The turenne.eu site hosts the French text; turenne.it hosts the Italian parallel. Future sessions can translate subsequent parts.

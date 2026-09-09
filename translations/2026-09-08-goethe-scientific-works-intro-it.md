@@ -6,7 +6,8 @@ description: "IT->EN translation. Lucio Russo's course on Rudolf Steiner's 'Goet
 - **date:** 2026-09-08
 - **domain:** philosophy of science, Goetheanism
 - **source_url:** https://www.ospi.it/wp-content/uploads/2020/02/le-opere-scientifiche-di-goethe.pdf
-- **language:** it
+- **language:** en
+- **source_language:** it
 - **author:** Lucio Russo
 - **publication:** Fratelli Melita Editori, Genova 1988
 - **translator:** Wizard (foreign-translate agent)

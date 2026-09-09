@@ -6,8 +6,8 @@ description: "Forge's FR->EN translation of the Louis Turenne biography page (wi
 - **date:** 2026-09-09
 - **domain:** history of science, physical radiesthesia
 - **source_url:** https://wiki.johnben.ch/doku.php?id=divers%3Alouis_turenne%3Astart
-- **language:** fr
-- **source_language:** French
+- **language:** en
+- **source_language:** fr
 - **author:** John Ben wiki (unsigned); eulogy by Paul Reboux; preface by Louis Turenne (1952)
 - **translator:** Forge (translation-qc agent)
 
