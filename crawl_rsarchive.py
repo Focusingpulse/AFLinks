@@ -100,8 +100,10 @@ def parse_page(raw, url):
     text = strip_html(raw)
     # Skip nav junk: content starts after the date line or the [ 1 ] marker.
     # Date pattern: "15 December 1904, Berlin" or "GA 53" header block.
+    # Search ONLY the header region (~600 chars) so content-quoted dates
+    # ("Goethe was born in 1794...") don't leak in as lecture dates.
     m2 = re.search(r"(\d{1,2}\s+(?:January|February|March|April|May|June|July|"
-                   r"August|September|October|November|December)\s+\d{4})", text)
+                   r"August|September|October|November|December)\s+\d{4})", text[:600])
     date = m2.group(1) if m2 else ""
     start = m2.end() if m2 else 0
     if start == 0:
@@ -224,13 +226,25 @@ def do_harvest(max_pages=60, only_ga=None):
         except Exception:
             return 0
         time.sleep(FETCH_DELAY)
-        hrefs = sorted(set(re.findall(r'href="(/[^"]+)"', raw)))
+        hrefs = sorted(set(re.findall(r'href="([^"]+)"', raw)))
+        base_dir = idx_url[: idx_url.rfind("/") + 1]
+        # resolve relative links against the current index URL
+        abs_hrefs = set()
+        for h in hrefs:
+            if h.startswith("http"):
+                u = h
+            elif h.startswith("/"):
+                u = BASE + h
+            else:
+                u = urllib.parse.urljoin(idx_url, h)
+            abs_hrefs.add(u)
+        hrefs = sorted(abs_hrefs)
         # content pages: .html under this GA path, skip nav/toc
         content = [h for h in hrefs if h.endswith(".html") and f"/{ga}/" in h
                    and not re.search(r"(index|_nav|\.toc)", h, re.I)]
         # subdirectory links under this GA path (recurse)
         subdirs = [h for h in hrefs if h.endswith("/") and f"/{ga}/" in h
-                   and h != idx_url.split(BASE)[1]]
+                   and h != idx_url]
         # dedup by basename within GA (alternate editions collapse)
         by_base = {}
         for h in content:
@@ -239,12 +253,12 @@ def do_harvest(max_pages=60, only_ga=None):
         for rel in by_base.values():
             if pages >= max_pages:
                 break
-            if harvest_page(BASE + rel, ga):
+            if harvest_page(rel, ga):
                 n += 1
         for sub in subdirs:
             if pages >= max_pages:
                 break
-            n += walk_index(BASE + sub, ga, depth + 1)
+            n += walk_index(sub, ga, depth + 1)
         return n
 
     for ga in gas_list:
