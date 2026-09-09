@@ -34,6 +34,7 @@ ROOT = Path(__file__).resolve().parent
 DOCS_DIR = ROOT / "pages"
 DC_DIR = ROOT / "synthesis" / "death-certificates"  # copied from living-library by build_library_feed.py
 RG_FILE = ROOT / "synthesis" / "replication-guides.json"  # Open Lab replication guides [prescribed: Directive C]
+IPFS_FILE = ROOT / "synthesis" / "ipfs-manifest.json"  # Phase 4 pinning manifest [prescribed: Directive B]
 STYLE = """
 body{background:#0b0f14;color:#d8d3c8;font-family:Georgia,'Times New Roman',serif;margin:0;padding:0;line-height:1.55}
 .wrap{max-width:760px;margin:0 auto;padding:32px 20px 60px}
@@ -77,6 +78,12 @@ h1{font-size:1.45rem;color:#ffd166;line-height:1.35;margin:0 0 10px}
 .ol-log{margin-top:14px;padding-top:10px;border-top:1px solid #2a4a44}
 .ol-log-label{color:#8be0c8;font-weight:bold;font-size:.9rem}
 .ol-log-note{font-size:.8rem;color:#9fc4b8;margin:4px 0 8px}
+/* Permanently Archived badge [prescribed: Directive B] */
+.archived{display:flex;flex-wrap:wrap;gap:6px;align-items:center;background:#0e1a12;border:1px solid #2e4a34;border-left:3px solid #6fd08a;border-radius:6px;padding:8px 12px;margin-bottom:16px;font-size:.82rem;color:#cfe8d6}
+.arch-badge{background:#1c3a24;color:#8be0a0;border:1px solid #3a5a44;padding:2px 10px;border-radius:12px;font-weight:bold;font-size:.78rem}
+.arch-hash code{background:#0b1510;color:#8ad0a0;padding:1px 6px;border-radius:4px;font-size:.75rem}
+.arch-cid a{color:#6fd08a}
+.arch-gw{margin-left:auto;color:#6fd08a;font-size:.78rem}
 """
 
 
@@ -142,6 +149,40 @@ def load_replication_guides():
     except Exception:
         pass
     return guides
+
+
+def load_ipfs_manifest():
+    """Load the IPFS pinning manifest, keyed by doc_id.
+    [prescribed: Master Directive B — anti-fragile archiving pilot]"""
+    pins = {}
+    if not IPFS_FILE.is_file():
+        return pins
+    try:
+        with open(IPFS_FILE, encoding="utf-8") as f:
+            data = json.load(f)
+        for did, pin in data.get("docs", {}).items():
+            try:
+                pins[int(did)] = pin
+            except (TypeError, ValueError):
+                continue
+    except Exception:
+        pass
+    return pins
+
+
+def render_archival_badge(pin):
+    """Render the 'Permanently Archived' badge with SHA-256 + IPFS CID.
+    [prescribed: Master Directive B — display hash, link to gateway]"""
+    sha = pin.get("sha256", "")
+    cid = pin.get("cid", "")
+    gw = f"https://ipfs.io/ipfs/{cid}"
+    short_sha = sha[:16] + "…"
+    return f"""<div class="archived" data-bg-tier="prescribed" data-bg-source="IPFS pin + SHA-256 (Directive B — anti-fragile archiving)">
+  <span class="arch-badge">✅ Permanently Archived</span>
+  <span class="arch-hash">SHA-256 <code>{esc(short_sha)}</code></span>
+  <span class="arch-cid">IPFS <a href="{esc(gw)}" target="_blank" rel="noopener">{esc(cid[:24])}…</a></span>
+  <a class="arch-gw" href="{esc(gw)}" target="_blank" rel="noopener">Fetch from IPFS →</a>
+</div>"""
 
 
 def render_open_lab(guide):
@@ -271,7 +312,7 @@ def render_lineage_html(certs):
     return "".join(parts)
 
 
-def render_page(doc, has_preview, dc_map, rg_guides):
+def render_page(doc, has_preview, dc_map, rg_guides, ipfs_pins):
     did = int(doc["id"])
     title = (doc.get("title") or doc.get("filename") or "Untitled").strip()
     preview = doc.get("content_preview") or ""
@@ -281,6 +322,7 @@ def render_page(doc, has_preview, dc_map, rg_guides):
     person = doc.get("primary_person") or ""
     patents = doc.get("patent_numbers") or []
     date = doc.get("steiner_date") or ""
+    ipfs_badge = render_archival_badge(ipfs_pins[did]) if did in ipfs_pins else ""
 
     if not preview:
         preview = "This document is cataloged but the full-text preview has not arrived yet — the harvest fleet is working through the archive."
@@ -357,6 +399,7 @@ document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
   <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #{did}</div>
   <h1>{esc(title)}</h1>
   <div class="meta">{('👤 ' + esc(person) + ' · ') if person else ''}{('📅 ' + esc(date)) if date else ''} · archived # {did:,}</div>
+  {ipfs_badge}
   {lineage_html}<div class="preview">{esc(preview)}</div>
   {open_lab_html}
   <div class="actions">{src_line} {pat_line} <a class="btn ghost" href="/AFLinks/?q={esc(cat_query)}">Related documents →</a></div>
@@ -379,10 +422,13 @@ def main():
     docs = load_index()
     dc_map = load_death_certificates()
     rg_guides = load_replication_guides()
+    ipfs_pins = load_ipfs_manifest()
     if dc_map:
         print(f"  loaded {sum(len(v) for v in dc_map.values())} lineage links from death certificates")
     if rg_guides:
         print(f"  loaded {len(rg_guides)} Open Lab replication guides")
+    if ipfs_pins:
+        print(f"  loaded {len(ipfs_pins)} IPFS pins")
     all_flag = "--all" in sys.argv
     DOCS_DIR.mkdir(exist_ok=True)
     write_css()
@@ -394,7 +440,7 @@ def main():
         if not all_flag and not pid:
             continue
         out = DOCS_DIR / f"{int(doc['id']):08d}.html"
-        out.write_text(render_page(doc, bool(pid), dc_map, rg_guides), encoding="utf-8")
+        out.write_text(render_page(doc, bool(pid), dc_map, rg_guides, ipfs_pins), encoding="utf-8")
         urls.append("https://focusingpulse.github.io" + doc_url(doc["id"]))
         n += 1
         if n % 5000 == 0:
