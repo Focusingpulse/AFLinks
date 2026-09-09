@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2605.0119v1 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs Fei Ding∗ Yongkang Zhang Runhao Liu Alibaba Group Yuhao Liao Zijian Zeng Huiming Yang Tsinghua University Abstract Post-training of large language models optimizes only parameters, while inference￾time proce">
+<meta property="og:title" content="2605.0119v1">
+<meta property="og:description" content="Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs Fei Ding∗ Yongkang Zhang Runhao Liu Alibaba Group Yuhao Liao Zijian Zeng Huiming Yang Tsinghua University A">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Biology">
+<meta name="keywords" content="Biology, Health &amp; Medicine">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Energy">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #802927</div>
+  <h1>2605.0119v1</h1>
+  <div class="meta"> · archived # 802,927</div>
+  <div class="preview">Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs Fei Ding∗ Yongkang Zhang Runhao Liu Alibaba Group Yuhao Liao Zijian Zeng Huiming Yang Tsinghua University Abstract Post-training of large language models optimizes only parameters, while inference￾time procedural scaffolds are typically designed independently of parameter train￾ing. This disconnect makes it difficult to automatically acquire and internalize complex strategies. We propose scaffold-mediated post-training: procedural scaf￾folds are organized into an evolvable graph structure that co-evolves with model parameters through discovery, distillation, and dynamic recompilation. We instanti￾ate this paradigm as Skill Training. On FeatureBench, automatically discovered skills improve the passed rate by 8.1pp, and after progressive distillation the model still achieves a 27.7% passed rate without any external scaffold (distillation reten￾tion rate 85.2%, defined as post-distillation / with-skill passed rate), significantly outperforming standard SFT on the same data. Co￾evolution Scaffold Graph Gt Data Generation Recompilation Model Mt+1 skill nodes+dep. edges subgraph→exec→V -verify remove→rewrite→re-verify bottom-up distill.+KL C-select·I-assemble L + βDKL retaink ≥τ? Gt+1 Seed Data Figure 1: Co-evolution loop in scaffold-mediated post-training. Gt assembles task-specific subgraphs and generates V -verified training data; the model internalizes skill behaviors via progressive distilla￾tion; skills meeting the retention threshold are removed and dependent scaffolds are recompiled into Gt+1. 1 Introduction The parameter-learning bottleneck. Post-training of large language models (LLMs) typically treats only model parameters as trainable. However, the procedural strategies required by complex tasks (how to decompose requirements, edit multiple files in topological order, and verify correctness after each step) are difficult to learn from scarce training examples alone (Ya</div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2605.0119v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Alternative+Physics">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Biology, Health &amp; Medicine">Biology, Health &amp; Medicine</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Biology">Biology</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

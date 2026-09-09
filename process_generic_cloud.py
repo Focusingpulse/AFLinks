@@ -141,6 +141,11 @@ CAT_KW = {
     'Psionics / Radionics': ['psionic', 'radionics', 'psionics', 'orgone', 'reich',
                             'de la warr', 'malcolm rae', 't galen hieronymus', 'ruth drown',
                             'george de la warr', 'scalar wave', 'biofield'],
+    'Anthroposophy / Rudolf Steiner': ['steiner', 'anthroposoph', 'waldorf', 'biodynamic',
+                                       'dornach', 'goetheanum', 'etheric body', 'astral body',
+                                       'ego body', 'gesamtausgabe', 'ga 26', 'karmic',
+                                       'michaelic', 'eurythmy', 'demeter', 'preparation 500',
+                                       'horn manure', 'horn silica', 'rsarchive'],
 }
 
 META_MAP = {
@@ -161,6 +166,7 @@ META_MAP = {
     'Steinmetz': 'Electromagnetic Theory',
     'LENR / Cold Fusion': 'Alternative Energy Technologies',
     'Psionics / Radionics': 'Frontier Science',
+    'Anthroposophy / Rudolf Steiner': 'Rudolf Steiner & Anthroposophy',
 }
 
 def categorize(filename, title, preview, site_name=""):

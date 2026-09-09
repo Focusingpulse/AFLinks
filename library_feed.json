@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-09T05:05:24Z",
+  "generated_at": "2026-09-09T05:09:09Z",
   "library": {
-    "researchers": 988,
+    "researchers": 989,
     "researchers_cataloged": 208,
     "patents": 2339,
     "categories": 47,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 62,
     "bridges": 6,
-    "archive_entries": 52676,
+    "archive_entries": 52701,
     "meta_counts": {
       "Challenges to the Standard Model": 40085,
       "Biological & Morphogenetic Science": 1472,
@@ -39,7 +39,8 @@
       "Media & Interviews": 2087,
       "Environment & Climate": 8701,
       "Biology, Health & Medicine": 4955,
-      "Frontier Science": 270
+      "Frontier Science": 270,
+      "Rudolf Steiner & Anthroposophy": 25
     },
     "graph_edges": 453,
     "graph_nodes": 345,
@@ -5439,7 +5440,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T04:14:41Z",
+      "last_run": "2026-09-09T05:06:27Z",
       "last_status": "ok",
       "last_summary": "sync: 52676 docs, feed rebuilt"
     },
@@ -5494,9 +5495,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-09T04:20:00Z",
+      "last_run": "2026-09-09T00:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation (Abel Martin 1932 vet radiesthesia thesis article FR→EN) — first doctorate ever for a radiesthésiste. QC: Schauberger es→en reviewed PASS. Drunvalo QC agent active at :07 offset — no double work. Corpus 108→109. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days."
+      "last_summary": "+2 translations (Turenne method Part 1 turenne.eu, Turenne biography johnben.ch) — first Turenne material in corpus. QC: Goethe IT->EN (Wizard) reviewed PASS, corpus 106->108. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days; Wizard foreign-translate agent active."
     },
     {
       "member": "scout",
@@ -5535,6 +5536,12 @@
   "activity_log": [
     {
       "date": "2026-09-09",
+      "time": "05:06",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+52676 docs — +0 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-09",
       "time": "05:05",
       "agent": "Book4 Translate",
       "summary": "+5 chunks — Translated 5 chunks (053-057) in quota mode. Progress: 57/178 (32%). Chapter 3: transformer theory, electromagnetic induction, ether flow mechanics."
@@ -5556,12 +5563,6 @@
       "time": "04:21",
       "agent": "translator-foreign (The Wizard)",
       "summary": "+1 chunks — Translated Schauberger Water chunk 131 (de->en): Nature Protects Itself - human interference in natural cycles, 132/210 chunks done"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Abel Martin 1932 veterinary radiesthesia thesis article FR→EN (guerisseur-radiesthesiste.fr): short piece documenting the first doctoral degree ever awarded to a radiesthésiste — Dr. Abel Martin defended \"Diagnostic radiesthésique en médecine vétérinaire\" on 21 January 1932 at the Faculté de médecine de Paris, received with distinction, accepted by the open-minded Maisons-Alfort veterinary school. Adds institutional-history context to the French tradition. QC: Schauberger es→en (Dynamic Hydroelectric Energy, published 09-08) reviewed — frontmatter complete, content in English, PASS. Drunvalo QC agent ran at 04:10 (frontmatter fixes, duplicate removal) — coordinated, no overlap. Corpus 108→109. Feed rebuild still blocked (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days. Scout reports FR patent layer (FR 816.132, 1936) and thesis lane (Durand 2004, Martin 1932) now mapped — rich French radiesthesia tradition documented."
     },
     {
       "date": "2026-09-09",
@@ -157268,6 +157269,33 @@
         "1530096",
         "1530179",
         "1536705"
+      ],
+      "Rudolf Steiner & Anthroposophy": [
+        "1554247",
+        "1554249",
+        "1554252",
+        "1554256",
+        "1554261",
+        "1554267",
+        "1554274",
+        "1554282",
+        "1554291",
+        "1554301",
+        "1554312",
+        "1554324",
+        "1554337",
+        "1554351",
+        "1554366",
+        "1554382",
+        "1554399",
+        "1554417",
+        "1554436",
+        "1554456",
+        "1554477",
+        "1554499",
+        "1554522",
+        "1554546",
+        "1554571"
       ]
     },
     "doc_titles": {
@@ -209946,7 +209974,32 @@
       "1554244": "517201-bedini-rpx-gas-tube-amplifier",
       "1554245": "517275-universe-is-a-hologram",
       "1546118": "PKS Seminars summary",
-      "1554246": "Report bugs here"
+      "1554246": "Report bugs here",
+      "1554247": "Volume I: Preface — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554249": "Volume I: Introduction — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554252": "Volume I: The Age of Kant and Goethe — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554256": "Volume I: The Classics of World and Life View — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554261": "Volume I: Reactionary Worldviews — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554267": "Volume I: Reactionary Worldviews — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554274": "Volume II: Preface — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554282": "Volume II: The Battle for the Mind — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554291": "Volume II: Darwinism and Worldview — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554301": "Volume II: The World as an Illusion — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554312": "Volume II: The Worldview of Factual Fanaticism — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554324": "Volume II: Modern Idealistic Worldviews — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554337": "Volume II: Modern Man — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554351": "Volume II: Outlook — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554366": "Reviews — GA 18a. World and Life Views of the 19th Century (2024)",
+      "1554382": "GA 24. Spiritual Life, Civil Rights, Industrial Economy",
+      "1554399": "1. The Eternal and the Transient in Human Beings — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554417": "2. The Origin of the Soul — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554436": "3. The Nature of Divinity from a Theosophical Perspective — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554456": "5. The Epistemological Foundations of Theosophy I — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554477": "6. The Epistemological Foundations of Theosophy II — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554499": "7. The Epistemological Foundations of Theosophy III — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554522": "4. Theosophy and Christianity — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554546": "11. Theosophy and Spiritualism — GA 52. Spiritual Teachings Concerning the Soul",
+      "1554571": "12. Theosophy and Somnambulism — GA 52. Spiritual Teachings Concerning the Soul"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -210597,6 +210650,11 @@
         "Tesla",
         "Water",
         "Water / Hydrogen"
+      ],
+      "Rudolf Steiner & Anthroposophy": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education",
+        "Goethean Science"
       ]
     },
     "doc_cats": {
@@ -492907,6 +492965,96 @@
         "Conspiracy / Politics",
         "Environment / Climate",
         "Tesla"
+      ],
+      "1554247": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554249": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554252": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554256": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554261": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554267": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554274": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554282": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554291": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554301": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554312": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554324": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554337": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554351": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554366": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "1554382": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "1554399": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1554417": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1554436": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1554456": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1554477": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1554499": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1554522": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1554546": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "1554571": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
       ]
     },
     "meta_concepts": {
@@ -591744,7 +591892,32 @@
       "1546118": [],
       "1554246": [
         "tesla"
-      ]
+      ],
+      "1554247": [],
+      "1554249": [],
+      "1554252": [],
+      "1554256": [],
+      "1554261": [],
+      "1554267": [],
+      "1554274": [],
+      "1554282": [],
+      "1554291": [],
+      "1554301": [],
+      "1554312": [],
+      "1554324": [],
+      "1554337": [],
+      "1554351": [],
+      "1554366": [],
+      "1554382": [],
+      "1554399": [],
+      "1554417": [],
+      "1554436": [],
+      "1554456": [],
+      "1554477": [],
+      "1554499": [],
+      "1554522": [],
+      "1554546": [],
+      "1554571": []
     }
   },
   "graph": {

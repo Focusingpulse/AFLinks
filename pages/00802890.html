@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2605.0120v1 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="State commitment learning: training language models to distinguish computation from memory Fei Ding1∗ Yongkang Zhang1 Runhao Liu1 Yuhao Liao2 Zijian Zeng2 Huiming Yang2 1Alibaba Group 2Tsinghua University Abstract Reasoning language models do not distinguish tokens used for computation from tokens t">
+<meta property="og:title" content="2605.0120v1">
+<meta property="og:description" content="State commitment learning: training language models to distinguish computation from memory Fei Ding1∗ Yongkang Zhang1 Runhao Liu1 Yuhao Liao2 Zijian Zeng2 Huiming Yang2 1Alibaba Group 2Tsinghua Univer">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Conspiracy / Politics">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Geopolitics &amp; Hidden History">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #802890</div>
+  <h1>2605.0120v1</h1>
+  <div class="meta"> · archived # 802,890</div>
+  <div class="preview">State commitment learning: training language models to distinguish computation from memory Fei Ding1∗ Yongkang Zhang1 Runhao Liu1 Yuhao Liao2 Zijian Zeng2 Huiming Yang2 1Alibaba Group 2Tsinghua University Abstract Reasoning language models do not distinguish tokens used for computation from tokens that constitute persistent state: once generated, all hidden thoughts remain in context and influence future predictions. As a result, downstream reasoning may depend on failed attempts, dead ends, and private scratch work that should not be safely relied on later. We recast this phenomenon as a new training objective, state commitment learning: training models to explicitly distinguish information that should be committed as persistent state from temporary computation that can be discarded. We define a counterfactual criterion, persistent-state sufficiency, which makes it trainable and measurable whether an answer remains usable after hidden thoughts are erased. We then propose Counterfactual Erasure RL (CERL), which evaluates, under the same prefix, both a path that keeps hidden thoughts and a path that erases them, and gives reward only when the erasure path remains correct. We also introduce the Erasure Dependence Protocol and show across mathematics, long-chain logic, scientific QA, and multi-turn tool-use evaluation that CERL substantially reduces answer dependence on hidden thoughts without sacrificing accuracy, consistently outperforming correctness-only RL and long-answer SFT baselines. Standard reasoning Problem x Hidden thought H Answer A Future context x + H + A Downstream prediction failed drafts remain State commitment learning Problem x Temporary computation H Committed state A Future context x + A Downstream prediction erase H Figure 1: Overview of state commitment learning. Standard reasoning leaves hidden thoughts in context, whereas CERL trains the model to use hidden thoughts as temporary computation, commit only the future-relevant answer state, and re</div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2605.0120v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2512.0114v1 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="Non-Colliding Path Authorisation with Epoch-Based Liveness Feliciano P. F. Domingos; Pedro Machado; Isibor Ihianle Nottingham Trent University - Department of Computer Science; Clifton, Nottingham, UK Abstract—We present Non-Colliding Path Authorisation (NCPA), a lightweight authorisation protocol i">
+<meta property="og:title" content="2512.0114v1">
+<meta property="og:description" content="Non-Colliding Path Authorisation with Epoch-Based Liveness Feliciano P. F. Domingos; Pedro Machado; Isibor Ihianle Nottingham Trent University - Department of Computer Science; Clifton, Nottingham, UK">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Conspiracy / Politics">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Finance / Economics">
+<meta name="keywords" content="Geopolitics &amp; Hidden History">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<meta name="keywords" content="Quantum &amp; Relativity">
+<meta name="keywords" content="Reference &amp; Technical Data">
+<meta name="keywords" content="Reference Material">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #785457</div>
+  <h1>2512.0114v1</h1>
+  <div class="meta"> · archived # 785,457</div>
+  <div class="preview">Non-Colliding Path Authorisation with Epoch-Based Liveness Feliciano P. F. Domingos; Pedro Machado; Isibor Ihianle Nottingham Trent University - Department of Computer Science; Clifton, Nottingham, UK Abstract—We present Non-Colliding Path Authorisation (NCPA), a lightweight authorisation protocol in which access rights are represented as single-use, ordered paths through a system graph. Each authorisation is valid only if exercised sequentially, without replay, and without colliding with other concurrent authorisations. To ensure liveness, paths are allocated within bounded epochs, allowing safe reclamation of exhausted resources. Unlike traditional access control systems that rely on centralised locks or cryptographic capabilities, NCPA enforces safety properties through structural constraints and explicit state transitions. We provide an executable specification of the protocol and validate its security properties using property-based testing. Our results demonstrate that NCPA prevents replay, skipping, impersonation, and collisions, while guaranteeing bounded ex￾haustion and epoch-based recovery. I. INTRODUCTION Modern distributed systems frequently require fine-grained, short-lived authorisation mechanisms that support concurrency without centralised locking [1]. Examples include pipeline execution, multi-stage workflows, and resource reservations in microservice architectures. Existing approaches typically rely on cryptographic tokens [2], global locks [3], or opti￾mistic concurrency schemes, each introducing complexity or contention. This paper explores an alternative design point: authori￾sation by path [4]. Instead of granting access to individual resources, an authorisation encodes a predefined sequence of system nodes that must be traversed in order [1]. Each step validates the previous one, ensuring sequential integrity and single-use semantics [5]. We introduce Non-Colliding Path Authorisation (NCPA), a protocol that enforces: (i) strict step ordering, </div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2512.0114v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

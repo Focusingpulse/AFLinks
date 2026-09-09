@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2605.0118v1 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="Preprint. Under review. Check Token: Real-Time Self-Verification and Precise Trunca￾tion in LLM Reasoning Fei Ding∗ , Yongkang Zhang Alibaba Group Yuhao Liao, Zijian Zeng , Huiming Yang Tsinghua University Abstract ECC memory embeds 8 parity bits for every 64 data bits and automatically detects and ">
+<meta property="og:title" content="2605.0118v1">
+<meta property="og:description" content="Preprint. Under review. Check Token: Real-Time Self-Verification and Precise Trunca￾tion in LLM Reasoning Fei Ding∗ , Yongkang Zhang Alibaba Group Yuhao Liao, Zijian Zeng , Huiming Yang Tsinghua Unive">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Quantum &amp; Relativity">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #802965</div>
+  <h1>2605.0118v1</h1>
+  <div class="meta"> · archived # 802,965</div>
+  <div class="preview">Preprint. Under review. Check Token: Real-Time Self-Verification and Precise Trunca￾tion in LLM Reasoning Fei Ding∗ , Yongkang Zhang Alibaba Group Yuhao Liao, Zijian Zeng , Huiming Yang Tsinghua University Abstract ECC memory embeds 8 parity bits for every 64 data bits and automatically detects and corrects errors on each read. The parity bits carry no data and only safeguard integrity, at ∼12.5% overhead. Yet the reasoning chains of large language models lack such built-in self-verification: once an error occurs it propagates along the chain, and existing methods can only verify externally after generation completes. We propose the check token, es￾tablishing built-in self-verification for language model generation streams for the first time: a functional marker &lt;CHECK&gt; is added to the vocabulary, and the model triggers self-checking (analysis, localization, truncation, rewriting) by outputting it at any position. The check token carries no rea￾soning content (discarded after triggering) and only safeguards reasoning correctness, directly corresponding to the role of ECC parity bits, also at only ∼13% overhead. Speculative forking further eliminates false-positive latency, and segmented reward makes trigger timing end-to-end learn￾able. Experiments (Qwen3-32B / Qwen3-Next) show that the check token achieves +10.8 pp improvement on HMMT25 at 1.13× overhead, with to￾ken efficiency 88× that of Best-of-8, and the precise truncation advantage monotonically increases with chain length. ECC Memory Data stream: P ×8 64 data bits + 8 parity bits = 72 bits Overhead 12.5% · auto-detect/correct on each read • Parity bits carry no data, only safeguard integrity • Auto-detect → auto-correct • Hardware-level, per-read, constant overhead Check Token (Ours) Gen. stream: s1 s2 s3 s4 c s ′ 3 · · · TruncateRewrite Reasoning tokens + check tokens = gen. stream Overhead ∼13% · per-position self-check • Check tokens carry no reasoning, only safeguard correctness • Auto-detect → precise tr</div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2605.0118v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Quantum+++Relativity+Alternative+Physics">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

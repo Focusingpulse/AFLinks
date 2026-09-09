@@ -9,12 +9,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tokens.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <meta name="description" content="Aetherforce Knowledge Vault — 13,540 searchable primary-source documents on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
+    <meta name="description" content="Aetherforce Knowledge Vault — 52,701 cataloged primary-source documents (36,014 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
     <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
-    <meta property="og:description" content="52,676 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
+    <meta property="og:description" content="52,701 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
-    <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+    <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
     <meta name="twitter:card" content="summary">
     <script type="application/ld+json" id="siteJsonLd">
     {"@context":"https://schema.org","@type":"WebSite","@id":"https://focusingpulse.github.io/AFLinks/","name":"Aetherforce Knowledge Vault","description":"Primary-source documents on alternative science — aether, torsion, LENR, water vortex, ether dynamics — preserved, translated and cross-linked.","url":"https://focusingpulse.github.io/AFLinks/","potentialAction":{"@type":"SearchAction","target":"https://focusingpulse.github.io/AFLinks/?cat={query}","query-input":"required name=query"}}
@@ -1556,7 +1560,7 @@
     <div class="hero pirate-hero">
         <span class="hero-kicker">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1>Aetherforce Treasure Vault</h1>
-        <p>Explore <span id="heroDocCount">52,676</span> primary source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Each one cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p>Explore <span id="heroDocCount">52,701</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">36,014</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
         <p class="hero-trans">🗝 <span id="heroTransCount">62</span> translations published · <span id="heroPagesCount">1,054</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
@@ -1606,7 +1610,7 @@
 
     <noscript>
         <div class="noscript-box">
-            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">52,676</span> documents</strong> are still yours to explore:</p>
+            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">52,701</span> documents</strong> are still yours to explore:</p>
             <ul>
                 <li><a href="./stats.json">Live stats (small JSON — agents welcome)</a></li>
                 <li><a href="./index.html?cat=Aether%20Physics">Browse Aether Physics</a></li>
@@ -1723,7 +1727,7 @@
             <a href="https://t.me/aetherforceposts" target="_blank">💬 Telegram</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-09</span>
         </div>
     </footer>
 
@@ -2316,7 +2320,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260909050524')
+            fetch('./synthesis/synthesis_index.json?v=20260909050909')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -2791,7 +2795,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260909050524');
+                        const response = await fetch('./search_index.json?v=20260909050909');
                         return response.json();
                     };
                     if (catParam) {
@@ -2821,12 +2825,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260909050524');
+                    const man = await fetch('./full_manifest.json?v=20260909050909');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260909050524');
+                    const feedRes = await fetch('./library_feed.json?v=20260909050909');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -3124,7 +3128,8 @@
                     </div>
                     ${hasAF ? '<div class="card-af-badge">⚡ Has Aetherforce content</div>' : ''}
                     <div class="card-source-link" onclick="event.stopPropagation()">
-                        <a href="${escapeHtml(link.url)}" target="_blank">📄 Source: Rex Research</a>
+                        ${preview ? `<a href="/AFLinks/pages/${String(item.id).padStart(8, '0')}.html">🔗 Vault page</a>` : ''}
+                        <a href="${escapeHtml(link.url)}" target="_blank" style="margin-left:12px;">📄 Source: Rex Research</a>
                     </div>
                 </div>
             `}).join('');
@@ -3242,6 +3247,7 @@
             // Rex source — SECOND, below Aetherforce
             const rexHtml = `<div class="rex-source">
                 <div class="rex-source-title">Primary Source Archive</div>
+                ${preview ? `<a class="rex-source-link vault-page-link" href="/AFLinks/pages/${String(item.id).padStart(8, '0')}.html">🔗 Vault page</a>` : ''}
                 <a class="rex-source-link" href="${escapeHtml(link.url)}" target="_blank">
                     📄 ${escapeHtml(link.label)}
                 </a>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2605.0049v2 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="Integral Reduction Formulas Enhanced With a TI84 Timothy W. Jones May 29, 2026 Abstract The TI84 has both a definite integral function and a recursive list gen￾erator. We explore whether the combination can be used to solve single and double integral problems that reference reduction formulas for in">
+<meta property="og:title" content="2605.0049v2">
+<meta property="og:description" content="Integral Reduction Formulas Enhanced With a TI84 Timothy W. Jones May 29, 2026 Abstract The TI84 has both a definite integral function and a recursive list gen￾erator. We explore whether the combinati">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<meta name="keywords" content="Reference &amp; Technical Data">
+<meta name="keywords" content="Reference Material">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #779879</div>
+  <h1>2605.0049v2</h1>
+  <div class="meta"> · archived # 779,879</div>
+  <div class="preview">Integral Reduction Formulas Enhanced With a TI84 Timothy W. Jones May 29, 2026 Abstract The TI84 has both a definite integral function and a recursive list gen￾erator. We explore whether the combination can be used to solve single and double integral problems that reference reduction formulas for integral evaluations. Introduction Thomas’s Calculus text [1] has an example problem that references a re￾duction formula for cosn integrands: Find the moment of inertia, about the y-axis, of the area enclosed by the cardioid r = a(1 − cos(θ), page 557. With a few manipulations and references to formulas, a double integral distills to solving the single integral Z 2π 0 a 4 4 cos2 (1 − cos(θ))4 dθ. (1) There are several instances of powers of cos in the integrand: cos2 , cos3 , cos4 , cos5 , and cos6 . Each has a coefficient. These coefficients can be stored in a TI84 list. The evaluation of the indefinite integral of cosn can proceed with an integration by parts. A reduction formula pops out; in simplified form it is Z cosn = cosn−1 sin n + n − 1 n Z cosn−2 . (2) 1 If the definite integrals have upper and lower bounds (here 2π and 0) that make the first term on the right 0 (typical, as in this problem), (2) further reduces to Z cosn = n − 1 n Z cosn−2 . Although this is termed a reduction formula, it really works through re￾cursion. Let F(n) give the nth case in the formula. Then once F(0) = Z b a cos0 = Z b a 1 = b−a and F(1) = Z b a cos = | b a sin = sin(b)−sin(a) are determined (easy) we can crunch others: for example, F(2, 3, 4, 5, 6) = 1 2 F(0), 2 3 F(1), 3 4 F(2), 4 5 F(3), 5 6 F(4), all the integrals in (1). We will show that the TI84 recursive sequence feature can generate a list with all these integral evaluations. When this list is multiplied by a list of coefficients, {0, 1, −4, 6, −4, 1} a summed dot product gives the value of the integral. With a little trick, π (masked as i) can be incorporated into the evaluation for an exact answer. Without the a 4/4 factor </div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2605.0049v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Reference &amp; Technical Data">Reference &amp; Technical Data</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Reference Material">Reference Material</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2207.0150v2 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="Simpler O(1) Query Algorithm for Level Ancestors Sanjeev Saxena∗ Dept. of Computer Science and Engineering, Indian Institute of Technology, Kanpur, INDIA-208 016 April 9, 2024 Abstract This note describes a very simple O(1) query time algorithm for finding level ancestors. This is basically a serial">
+<meta property="og:title" content="2207.0150v2">
+<meta property="og:description" content="Simpler O(1) Query Algorithm for Level Ancestors Sanjeev Saxena∗ Dept. of Computer Science and Engineering, Indian Institute of Technology, Kanpur, INDIA-208 016 April 9, 2024 Abstract This note descr">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<meta name="keywords" content="Quantum &amp; Relativity">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #802377</div>
+  <h1>2207.0150v2</h1>
+  <div class="meta"> · archived # 802,377</div>
+  <div class="preview">Simpler O(1) Query Algorithm for Level Ancestors Sanjeev Saxena∗ Dept. of Computer Science and Engineering, Indian Institute of Technology, Kanpur, INDIA-208 016 April 9, 2024 Abstract This note describes a very simple O(1) query time algorithm for finding level ancestors. This is basically a serial (re)-implementation of the parallel algorithm of Berkman and Vishkin (O.Berkman and U.Vishkin, Finding level-ancestors in trees, JCSS, 48, 214–230, 1994). Although the basic algorithm has preprocessing time of O(n log n), by having additional levels or using table lookup, the preprocessing time can be reduced to almost linear or linear. The table lookup algorithm can be built in O(1) parallel time with n pro￾cessors and can also be used to simplify the parallel algorithm of Berkman and Vishkin and make it optimal. Keywords: Level Ancestors; Rooted Trees; Algorithms; Graphs; Euler Traver￾sal; Parallel Algorithms 1 Introduction In the level ancestor problem, we are given a rooted tree, which is to be prepro￾cessed to answer queries of the type: find the k th ancestor of a node v (here, both k and v are query parameters). Several sequential and parallel algorithms are known for this problem [6, 2, 4, 9, 1, 12]. The level ancestor algorithm of Bender and Farach-Colton[4] is conceptually simple and is usually used in teaching. Their “simple algorithm” [4, Theorem 8] takes O(n log n) preprocessing time and can answer queries in O(1) time. The algorithm uses long-path decomposition, ladders and jump pointers. Their algorithm can answer queries using two table lookups. Macro￾micro algorithm [4, Section 4], can be used to reduce preprocessing time and space from O(n log n) to O(n). The macro-micro algorithm is conceptually simple; however, as per one implementation [11], the algorithm has “significant implementation complexity with quite a few details and subtleties”. ∗E-mail: ssax@iitk.ac.in 1 Berkman and Vishkin[6] describe a parallel algorithm for this problem. Their algorithm</div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2207.0150v2.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Patents+Quantum+++Relativity">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

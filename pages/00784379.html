@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2204.0064v1 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="B˘ah¯em A Provably Secure Symmetric Cipher M. Rajululkahf 1 April 13, 2022 Overview This paper proposes B˘ah¯em; a symmetric cipher that, when used with a pre-shared secret key k, no crypt￾analysis can degrade its security below H(k) bits of entropy, even under Grover’s algorithm [1] or even if it t">
+<meta property="og:title" content="2204.0064v1">
+<meta property="og:description" content="B˘ah¯em A Provably Secure Symmetric Cipher M. Rajululkahf 1 April 13, 2022 Overview This paper proposes B˘ah¯em; a symmetric cipher that, when used with a pre-shared secret key k, no crypt￾analysis ca">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #784379</div>
+  <h1>2204.0064v1</h1>
+  <div class="meta"> · archived # 784,379</div>
+  <div class="preview">B˘ah¯em A Provably Secure Symmetric Cipher M. Rajululkahf 1 April 13, 2022 Overview This paper proposes B˘ah¯em; a symmetric cipher that, when used with a pre-shared secret key k, no crypt￾analysis can degrade its security below H(k) bits of entropy, even under Grover’s algorithm [1] or even if it turned out that P = NP. B˘ah¯em’s security is very similar to that of the one￾time pad (OTP), except that it does not require the communicating parties the inconvenient constraint of generating a large random pad in advance of their communication. Instead, B˘ah¯em allows the parties to agree on a small pre-shared secret key, such as |k| = 128 bits, and then generate their random pads in the future as they go. For any operation, be it encryption or decryption, B˘ah¯em performs only 4 bitwise exclusive-or opera￾tions (XORs) per cleartext bit including its 2 over￾head bits. If it takes a CPU 1 cycle to perform an XOR between a pair of 64 bit variables, then a B˘ah¯em operation takes 4 ÷ 8 = 0.5 cycles per byte. Further, all B˘ah¯em’s operations are independent, therefore a system with n many CPU cores can perform 0.5 ÷ n cpu cycles per byte per wall-clock time. While B˘ah¯em has an overhead of 2 extra bits per every encrypted cleartext bit, its early single￾threaded prototype implementation achieves a faster decryption than OpenSSL’s ChaCha20’s, despite the fact that B˘ah¯em’s ciphertext is 3 times larger than ChaCha20’s. This support that the 2 bit overhead is practically negligible for most applications. B˘ah¯em’s early prototype has a slower encryption time than OpenSSL’s ChaCha20 due to its use of a true random number generator (TRNG). However, this can be trivially optimised by gathering the true random bits in advance, so B˘ah¯em gets the entropy conveniently when it runs. Aside from B˘ah¯em’s usage as a provably-secure general-purpose symmetric cipher, it can also be used, in some applications such as password verifi￾cation, to enhance existing hashing functions to be￾</div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2204.0064v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

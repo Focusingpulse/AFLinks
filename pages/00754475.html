@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2203.0072v3 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="1 Matrix Exponential Computational Algorithm Kenneth C. Johnson KJ Innovation (Posted 13-Aug-2026.) https://vixra.org/abs/2203.0072 Abstract A numerical algorithm for the matrix exponential is developed, based on the scale-and￾square method applied to a Padé approximant for small-norm matrices. 1. I">
+<meta property="og:title" content="2203.0072v3">
+<meta property="og:description" content="1 Matrix Exponential Computational Algorithm Kenneth C. Johnson KJ Innovation (Posted 13-Aug-2026.) https://vixra.org/abs/2203.0072 Abstract A numerical algorithm for the matrix exponential is develop">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Conspiracy / Politics">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Geopolitics &amp; Hidden History">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #754475</div>
+  <h1>2203.0072v3</h1>
+  <div class="meta"> · archived # 754,475</div>
+  <div class="preview">1 Matrix Exponential Computational Algorithm Kenneth C. Johnson KJ Innovation (Posted 13-Aug-2026.) https://vixra.org/abs/2203.0072 Abstract A numerical algorithm for the matrix exponential is developed, based on the scale-and￾square method applied to a Padé approximant for small-norm matrices. 1. Introduction A generalized Padé approximation method for numerically solving nonhomogeneous, coupled linear differential equations with non-constant coefficients was developed in [1, 2]. This paper refines and simplifies that work for the homogeneous, constant-coefficient case: [ ] [ ] d F x D F x dx = (1) where Fx[] is a vector function of scalar argument x and D is a constant, square matrix. (In this paper square braces “ []  ” delimit function arguments while round braces “ ()  ” are reserved for grouping.) The solution of Eq. (1) F x x D F [ ] exp[ ] [0] = (2) The matrix exponential is calculated by the scale-and-square method: times 2 2 2 2 exp[ ] exp[2 ] ( (exp[2 ] ) ) p p pp X X X −− ==   (3) where exp[2 ] p X − approximated by a rational polynomial (Padé approximation) 1 1 1 exp[2 ] [ 2 ] [2 ] p p p X P X P X − − − − − − − (4) ( P is a polynomial function.) The scaling power p is chosen to achieve a specified relative tolerance limit  in the approximation error. Denoting the Fx[] approximation error as  Fx[] , the tolerance condition is  F x F x [ ] [ ]   (5) Formulas for the P polynomial coefficients, approximation error bound, and choice of scaling power p are developed. The squaring operation in Eq. (3) can be susceptible to numerical roundoff error in the matrix diagonal, but an alternative squaring operation is used to avoid the precision loss. The algorithm improves upon the accuracy and runtime performance of the MATLAB® expm function [3, 4]. An implementation is posted on the MathWorks® File Exchange [5]. 2 2. The Padé approximation Following the method described by Gautschi [6], an order- n Padé approximant to exp[ ] xD is derived by applyin</div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2203.0072v3.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

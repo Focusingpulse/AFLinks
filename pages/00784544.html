@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2110.0094v1 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="Simple and effective algorithm for constant state detection in time series. Andrei Keino October 19, 2021 Abstract The article introduces very simple and quite effective algorithm for constant state detection in time series. The algorithm, based on sliding window of variable length, searches a secti">
+<meta property="og:title" content="2110.0094v1">
+<meta property="og:description" content="Simple and effective algorithm for constant state detection in time series. Andrei Keino October 19, 2021 Abstract The article introduces very simple and quite effective algorithm for constant state d">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Conspiracy / Politics">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Environment &amp; Climate">
+<meta name="keywords" content="Environment / Climate">
+<meta name="keywords" content="Geopolitics &amp; Hidden History">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #784544</div>
+  <h1>2110.0094v1</h1>
+  <div class="meta"> · archived # 784,544</div>
+  <div class="preview">Simple and effective algorithm for constant state detection in time series. Andrei Keino October 19, 2021 Abstract The article introduces very simple and quite effective algorithm for constant state detection in time series. The algorithm, based on sliding window of variable length, searches a sections of time series with some given minimal length, that have all the values in some given range. It is shown that the computational complexity of afore￾mentioned algorithm is O(N log N), where N is the length of time series. Introduction. Some technical applications of signal processing requires the steady state detection in time series. This problem has been investigated in many articles. For example, in [wikb] described a computationally efficient method for identification of steady state in time series data. But there are applications for some more straightforward method, described in this article. Author introduces a very basic and simple algorithm for constant state detection, based on the sliding window with variable length, which have reasonable good computational com￾plexity. The aim of this article is to propose a simple and effective algorithm for identifying the nearly - constant sections in time series. The algorithm description. Let we have a time series y[i], y ∈ R, i = {1, . . . , N}, where N is the time series size. Let us specify the window length LW and its height HW . The proposed algorithm works as follows: 1. Initialize the algorithm structures: create the window associative array (AA) based on self-balancing binary search tree [wika], append to it the key - values pairs, where keys are all the different values of y[i], i ∈ {1, . . . , LW + 1}, values of AA is the count of repetition of the same values of y[i]. Create the arrays for storing indexes of the start position (SP) and the finish positions (FP) of the interval with the steady state of the time series. Store the count of points in AA in a some variable. 1 2. While algorithm is not finished, r</div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2110.0094v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Environment &amp; Climate">Environment &amp; Climate</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a><a class="tag" href="/AFLinks/?cat=Environment / Climate">Environment / Climate</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2510.0002v1 — Aetherforce Knowledge Vault</title>
+<meta name="description" content="1 Automatic Differentiation in MATLAB® Kenneth C. Johnson KJ Innovation (Version 01-Oct-2025) https://vixra.org/ Abstract This document contains implementation notes for the MATLAB class “mpoly” (Multivariate Polynomial), which represents a numeric array (of any nonempty size, any number of dimensio">
+<meta property="og:title" content="2510.0002v1">
+<meta property="og:description" content="1 Automatic Differentiation in MATLAB® Kenneth C. Johnson KJ Innovation (Version 01-Oct-2025) https://vixra.org/ Abstract This document contains implementation notes for the MATLAB class “mpoly” (Mult">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Conspiracy / Politics">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Geopolitics &amp; Hidden History">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<meta name="keywords" content="Quantum &amp; Relativity">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #329484</div>
+  <h1>2510.0002v1</h1>
+  <div class="meta"> · archived # 329,484</div>
+  <div class="preview">1 Automatic Differentiation in MATLAB® Kenneth C. Johnson KJ Innovation (Version 01-Oct-2025) https://vixra.org/ Abstract This document contains implementation notes for the MATLAB class “mpoly” (Multivariate Polynomial), which represents a numeric array (of any nonempty size, any number of dimensions) as a polynomial function (any degree) of a set of independent parameters (any number), or as a truncated Taylor series approximation. The class supports most standard array operations (algebra, indexing, etc.), employing automatic differentiation to calculate series coefficients of function outputs. Representation The MATLAB class mpoly1 represents a multivariate polynomial function of parameters 1 x , 2 x , … , e.g., 22 1 2 1 3 1 4 2 5 2 1 6 2 f x C C x C x C x C x x C x () = +  +  +  +   +  (1) For notational convenience, f will be represented as a homogeneous polynomial by defining an auxiliary constant parameter 0 x =1. The polynomial is written with all powers multiplied out and with the same number of x factors in each monomial, 0 x =1 (2) 1 0 0 2 1 0 3 1 1 4 2 0 5 2 1 6 2 2 f x C x x C x x C x x C x x C x x C x x () =   +   +   +   +   +   (3) The x subscripts in the monomial associated with coefficient Cj are listed in a corresponding “subscript vector” j, s : , and the subscript vectors are collected in a matrix s . For example, the subscript matrix associated with Eq. (3) is 1 posted on MathWorks File Exchange: https://www.mathworks.com/matlabcentral/fileexchange/182185-class￾mpoly-multivariate-polynomial 2 00 10 11 20 21 22 s     =      (4) The general form of a multivariate polynomial is ,1 ,2 , () j j j deg j s s s j f x C x x x =      (5) deg is the polynomial degree, equal to the number of s columns. The subscript rows are individually sorted in descending order and are in the range 0, ,  Nx , where Nx is the number of parameters (excluding 0 x ), ,1 ,2 , 0 Nx s s s     j j j deg  (6) The s rows are collect</div>
+  <div class="actions"><a class="btn" href="https://vixra.org/pdf/2510.0002v1.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Quantum &amp; Relativity">Quantum &amp; Relativity</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+</body>
+</html>

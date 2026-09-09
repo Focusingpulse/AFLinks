@@ -46,6 +46,7 @@ def main() -> int:
     feed = load_json("library_feed.json")
 
     docs = len(index)
+    docs_with_previews = sum(1 for d in index if d.get("content_preview"))
     lib = feed.get("library", {})
     translations = lib.get("translations", 0)
     pages_translated = lib.get("pages_translated", 0)
@@ -61,6 +62,7 @@ def main() -> int:
 
     stats = {
         "docs": docs,
+        "docs_with_previews": docs_with_previews,
         "researchers": researchers,
         "researchers_cataloged": lib.get("researchers_cataloged", researchers),
         "patents": patents,
@@ -68,12 +70,12 @@ def main() -> int:
         "translations": translations,
         "pages_translated": pages_translated,
         "generated_at": generated_at,
-        "note": "Derived from index.json + library_feed.json by bake_stats.py. Raw HTML carries these numbers too. 'researchers' = distinct named authors in the archive; 'researchers_cataloged' = curated researcher records.",
+        "note": "Derived from index.json + library_feed.json by bake_stats.py. Raw HTML carries these numbers too. 'docs' = cataloged entries; 'docs_with_previews' = those carrying full-text content previews (the honest 'searchable' figure). 'researchers' = distinct named authors in the archive; 'researchers_cataloged' = curated researcher records.",
     }
     (ROOT / "stats.json").write_text(
         json.dumps(stats, indent=2, ensure_ascii=False), encoding="utf-8"
     )
-    print(f"stats.json -> {docs} docs, {translations} translations, {pages_translated} pages")
+    print(f"stats.json -> {docs} docs ({docs_with_previews} with previews), {translations} translations, {pages_translated} pages")
 
     changed = False
     for page in PAGES:
@@ -86,21 +88,26 @@ def main() -> int:
             pat = re.compile(
                 r"(<span\s+id=\"" + re.escape(span_id) + r"\">)[^<]*(</span>)"
             )
-            new_html, n = pat.subn(
-                lambda m: m.group(1) + format(int(value), ",") + m.group(2), html
-            )
+
+            def _sub(m):
+                label = format(int(value), ",") if isinstance(value, (int, float)) and not isinstance(value, bool) else str(value)
+                return m.group(1) + label + m.group(2)
+
+            new_html, n = pat.subn(_sub, html)
             return new_html, n
 
         for span_id, value in [
             ("heroDocCount", docs),
+            ("heroPreviewCount", docs_with_previews),
             ("heroTransCount", translations),
             ("heroPagesCount", pages_translated),
             ("statTotal", docs),
             ("noscriptCount", docs),
+            ("lastUpdated", str(generated_at)[:10]),
         ]:
             html, n = bake_span(html, span_id, value)
             if n:
-                print(f"{page}: baked #{span_id} = {int(value):,}")
+                print(f"{page}: baked #{span_id} = {value}")
 
         # 1b) Doc counts inside meta description / og:description content.
         for phrase in ("primary-source", "searchable primary-source"):
