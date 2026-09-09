@@ -1,17 +1,15 @@
 ---
 name: Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly
-description: "Forge's ES->EN translation of a technical analysis of Viktor Schauberger's 1930 jet turbine patent (No. 117,749) and Ludwig Herbrand's corroborating measurements at the Rheinfelden hydroelectric plant — comparing pressure-based vs. velocity-based hydroelectric design. Outer-ring / German vortex physics tradition."
+description: "Translation document."
 ---
 
-- **date:** 2026-09-09
-- **domain:** vortex physics, hydroelectric engineering
-- **source_url:** https://giurfa.com/schauberger.pdf
-- **language:** en
-- **source_language:** es
-- **author:** Unknown (technical analysis, giurfa.com)
-- **translator:** Forge (translation-qc agent)
-
 Dynamic hydroelectric energy
+
+[Document title. Original Spanish-language technical analysis of Viktor Schauberger's 1930 jet turbine patent (No. 117,749) and Ludwig Herbrand's corroborating measurements at the Rheinfelden hydroelectric plant. Translated from https://giurfa.com/schauberger.pdf]
+
+
+---
+
 
 Viktor Schauberger's "suction turbine" or "jet turbine"
 

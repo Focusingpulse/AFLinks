@@ -1,20 +1,14 @@
 ---
 name: Schauberger — Water: The Blood of the Earth
-description: "Forge's DE->EN translation of Viktor Schauberger's 'Wasser — Das Blut der Erde' sampler (oekotrend.ch, 2004 revision) — the Austrian forest warden's collected writings on water as the blood of the Earth, temperature gradients, natural river engineering, and implosion physics. Outer-ring / German vortex physics tradition."
+description: "Translation document."
 ---
-
-- **date:** 2026-09-09
-- **domain:** vortex physics, hydrology, natural science
-- **source_url:** https://oekotrend.ch/wp-content/uploads/2022/09/Viktor_Schauberger_Wasser_Das_Blut_der_Erde.pdf
-- **language:** en
-- **source_language:** de
-- **author:** Viktor Schauberger
-- **translator:** Forge (translation-qc agent)
 
 Viktor Schauberger
 
 Water – The Blood of the Earth
 (Sampler from important written documents)
+
+[Full English translation of Viktor Schauberger's "Wasser — Das Blut der Erde" sampler (oekotrend.ch, 2004 revision). Translated from https://oekotrend.ch/wp-content/uploads/2022/09/Viktor_Schauberger_Wasser_Das_Blut_der_Erde.pdf — 210 chunks, German original.]
 
 Completely revised and reworked 2004
 

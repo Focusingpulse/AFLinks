@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T20:06:16Z",
+  "generated_at": "2026-09-09T21:06:44Z",
   "library": {
     "researchers": 1097,
     "researchers_cataloged": 1097,
@@ -4294,9 +4294,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T19:18:10Z",
+      "last_run": "2026-09-09T20:07:17Z",
       "last_status": "ok",
-      "last_summary": "sync: 53954 docs, feed rebuilt"
+      "last_summary": "sync: 55218 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4349,9 +4349,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-09T16:20:00Z",
+      "last_run": "2026-09-09T20:20:00Z",
       "last_status": "ok",
-      "last_summary": "+2 translations (astroya.fr 5000-year dowsing-rod history FR->EN — Egypt/Karnak, Moses, Roman aquilegi, medieval hazel, Agricola 1556, Bléton & Thouvenel 1778, Abbé Mermet coinage of 'radiesthésie' 1930 + map dowsing, modern geobiology, 12-question FAQ; Machon-on-Rocard 'Bavure scientifique' FR->EN analytical digest — CC BY-NC-ND source so digest not full translation — Rocard's 1957 dowser experiments critiqued: non-blind, operator-discretion randomness, 5/10 4/10 4/10 results massaged to 5/6 5/6 4/6, bavure not fraud). CORRECTION: 12:20 session reported the Machon translation as published but never committed the file — false heartbeat; delivered now. QC: fixed placeholder frontmatter on schauberger-dynamic-hydroelectric-energy-es.md; flagged compendium-of-vortex-physics 5x dated duplicates + missing research-index entry (Drunvalo lane). Drunvalo QC pass at 16:10 covered turenne/schauberger/sypiridis — no overlap. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days."
+      "last_summary": "+1 translation (Chevreul 1854 pendulum experimental core FR->EN — ideomotor demonstration, arm-support experiment, rejection of physical causes; public domain via Wikisource). QC: Drunvalo 20:08 pass covered new German/Spanish translations (Schauberger x2, vortex physics compendium, dynamic hydroelectric energy) — verified frontmatter, dedup done. Corpus 115->116. Feed rebuild ran at 20:06 (FocusOptimized). Translator agent (agent-75b8d29e) stale ~10 days; Wizard publishing Goethe IT->EN. Scout active, research round 11 done today."
     },
     {
       "member": "scout",
@@ -4388,6 +4388,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "20:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Chevreul 1854 experimental core (FR→EN, Wikisource public domain): the arm-support demonstration proving unconscious muscular movement causes pendulum oscillation, plus the Conclusion générale rejecting physical causes. This is the falsification half of the radiesthesia lane — the first rigorous experimental psychology (ideomotor effect), contemporaneous with Thouvenel/Bleton but on the critical side. Companion to the Turenne/Servranx/Chaumery-de Bélizal tradition already in corpus. QC: Drunvalo 20:08 pass verified frontmatter on 4 new German/Spanish translations (Schauberger water-blood-of-earth x2 deduped to 1, dynamic hydroelectric energy ES→EN, vortex physics compendium DE→EN) — PASS, no overlap. Feed rebuild at 20:06 (FocusOptimized aflinks-cron). Corpus 115→116. Translator agent (agent-75b8d29e) stale ~10 days on Russian physics books; pipeline otherwise alive via Wizard (Goethe) + my outer-ring stream. Research round 11 landed today at 14:00 UTC."
+    },
     {
       "date": "2026-09-09",
       "time": "16:20",
@@ -4741,12 +4747,6 @@
       "time": "00:06",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — 35th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program page 200, 37,721B, 0 PDF/PPT links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new since 12:15Z +22). tuks.nl 200 (fully harvested). lenr.seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; growth cron handled viXra at 22:15Z (+5, 2609.0013–0017). Archive **52,669** (post-22:15Z growth +5, 94b96ca; 52,642@20:15Z aetherscience +99). Web scan surfaced only EN theory preprints (already archived) + ENG8 EN/RU news — no new primary FL docs to queue. STALE-FLAG translator ~10d (translation-qc active +2 FR→EN, corpus 106). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-0000.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "22:15",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md."
     }
   ],
   "declassified": [
@@ -523057,6 +523057,7 @@
         "ether_electric",
         "geometry_sacred",
         "keely",
+        "morphic",
         "overunity",
         "p_bridge",
         "p_consciousness",
@@ -523196,6 +523197,7 @@
         "p_wrongturn",
         "psychotronic",
         "radionics",
+        "regenerative",
         "scalar"
       ]
     },
@@ -624194,16 +624196,22 @@
       "1586292": [],
       "1586293": [],
       "1586294": [],
-      "1586295": [],
+      "1586295": [
+        "cold_fusion"
+      ],
       "1586296": [],
       "1586297": [],
       "1586298": [],
       "1586299": [],
       "1586300": [],
-      "1586301": [],
+      "1586301": [
+        "crystal"
+      ],
       "1586302": [],
       "1586303": [],
-      "1586304": [],
+      "1586304": [
+        "cold_fusion"
+      ],
       "1586305": [],
       "1586306": [],
       "1586307": [],
@@ -624218,384 +624226,936 @@
       "1586316": [],
       "1586317": [],
       "1586318": [],
-      "1586319": [],
-      "1586321": [],
-      "1586324": [],
+      "1586319": [
+        "p_wrongturn"
+      ],
+      "1586321": [
+        "cold_fusion",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "1586324": [
+        "cold_fusion",
+        "geometry_sacred"
+      ],
       "1586328": [],
-      "1586333": [],
-      "1586339": [],
-      "1586346": [],
-      "1586354": [],
-      "1586363": [],
-      "1586373": [],
-      "1586384": [],
+      "1586333": [
+        "p_wrongturn"
+      ],
+      "1586339": [
+        "cold_fusion",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "1586346": [
+        "cold_fusion"
+      ],
+      "1586354": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "1586363": [
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "1586373": [
+        "p_bridge"
+      ],
+      "1586384": [
+        "cold_fusion",
+        "p_consciousness"
+      ],
       "1586396": [],
-      "1586409": [],
-      "1586423": [],
-      "1586438": [],
-      "1586454": [],
-      "1586471": [],
+      "1586409": [
+        "p_wrongturn"
+      ],
+      "1586423": [
+        "p_bridge"
+      ],
+      "1586438": [
+        "geometry_sacred"
+      ],
+      "1586454": [
+        "p_visualray",
+        "p_wrongturn"
+      ],
+      "1586471": [
+        "p_consciousness"
+      ],
       "1586489": [],
-      "1586508": [],
-      "1586528": [],
+      "1586508": [
+        "p_consciousness"
+      ],
+      "1586528": [
+        "p_consciousness",
+        "p_wrongturn"
+      ],
       "1586549": [],
-      "1586571": [],
-      "1586594": [],
-      "1586618": [],
-      "1586643": [],
+      "1586571": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "1586594": [
+        "p_wrongturn"
+      ],
+      "1586618": [
+        "p_wrongturn"
+      ],
+      "1586643": [
+        "p_wrongturn"
+      ],
       "1586644": [],
       "1586646": [],
       "1586649": [],
-      "1586653": [],
-      "1586658": [],
+      "1586653": [
+        "geometry_sacred"
+      ],
+      "1586658": [
+        "geometry_sacred",
+        "regenerative",
+        "p_nature"
+      ],
       "1586664": [],
       "1586671": [],
       "1586679": [],
-      "1586688": [],
+      "1586688": [
+        "p_wrongturn"
+      ],
       "1586698": [],
       "1586709": [],
       "1586721": [],
-      "1586734": [],
+      "1586734": [
+        "p_nature"
+      ],
       "1586748": [],
       "1586763": [],
-      "1586779": [],
-      "1586796": [],
+      "1586779": [
+        "geometry_sacred",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1586796": [
+        "p_wrongturn"
+      ],
       "1586814": [],
-      "1586833": [],
-      "1586853": [],
-      "1586874": [],
+      "1586833": [
+        "geometry_sacred",
+        "crystal",
+        "consciousness",
+        "p_consciousness",
+        "p_nature"
+      ],
+      "1586853": [
+        "p_formative"
+      ],
+      "1586874": [
+        "geometry_sacred",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1586896": [],
-      "1586919": [],
+      "1586919": [
+        "crystal",
+        "p_nature"
+      ],
       "1586943": [],
       "1586968": [],
-      "1586994": [],
-      "1587021": [],
-      "1587049": [],
-      "1587078": [],
-      "1587108": [],
-      "1587139": [],
+      "1586994": [
+        "overunity",
+        "p_nature"
+      ],
+      "1587021": [
+        "p_wrongturn"
+      ],
+      "1587049": [
+        "p_nature"
+      ],
+      "1587078": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1587108": [
+        "p_nature"
+      ],
+      "1587139": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "1587171": [],
-      "1587204": [],
-      "1587238": [],
-      "1587273": [],
-      "1587309": [],
+      "1587204": [
+        "crystal",
+        "p_nature"
+      ],
+      "1587238": [
+        "p_formative"
+      ],
+      "1587273": [
+        "p_wrongturn"
+      ],
+      "1587309": [
+        "p_formative",
+        "p_nature"
+      ],
       "1587346": [],
-      "1587384": [],
+      "1587384": [
+        "p_formative"
+      ],
       "1587423": [],
-      "1587463": [],
-      "1587504": [],
+      "1587463": [
+        "p_nature"
+      ],
+      "1587504": [
+        "p_consciousness",
+        "p_nature"
+      ],
       "1587546": [],
-      "1587589": [],
+      "1587589": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1587633": [],
-      "1587678": [],
+      "1587678": [
+        "p_nature"
+      ],
       "1587724": [],
       "1587771": [],
       "1587819": [],
       "1587868": [],
-      "1587918": [],
-      "1587969": [],
+      "1587918": [
+        "p_consciousness"
+      ],
+      "1587969": [
+        "geometry_sacred"
+      ],
       "1588021": [],
-      "1588074": [],
+      "1588074": [
+        "p_nature"
+      ],
       "1588128": [],
       "1588183": [],
-      "1588239": [],
-      "1588296": [],
-      "1588354": [],
-      "1588413": [],
+      "1588239": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1588296": [
+        "p_formative"
+      ],
+      "1588354": [
+        "p_formative"
+      ],
+      "1588413": [
+        "p_formative",
+        "p_nature"
+      ],
       "1588473": [],
-      "1588534": [],
-      "1588596": [],
+      "1588534": [
+        "p_bridge",
+        "p_nature"
+      ],
+      "1588596": [
+        "crystal"
+      ],
       "1588659": [],
-      "1588723": [],
-      "1588788": [],
-      "1588854": [],
-      "1588921": [],
+      "1588723": [
+        "p_nature"
+      ],
+      "1588788": [
+        "cold_fusion",
+        "p_nature"
+      ],
+      "1588854": [
+        "geometry_sacred",
+        "p_nature"
+      ],
+      "1588921": [
+        "geometry_sacred",
+        "p_nature"
+      ],
       "1588989": [],
-      "1589058": [],
-      "1589128": [],
-      "1589199": [],
-      "1589271": [],
-      "1589344": [],
-      "1589418": [],
-      "1589493": [],
-      "1589569": [],
+      "1589058": [
+        "p_nature"
+      ],
+      "1589128": [
+        "p_nature"
+      ],
+      "1589199": [
+        "p_nature"
+      ],
+      "1589271": [
+        "p_nature"
+      ],
+      "1589344": [
+        "morphic",
+        "geometry_sacred",
+        "crystal",
+        "p_formative",
+        "p_nature"
+      ],
+      "1589418": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1589493": [
+        "p_nature"
+      ],
+      "1589569": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1589646": [],
-      "1589724": [],
-      "1589803": [],
-      "1589883": [],
-      "1589964": [],
-      "1590046": [],
-      "1590129": [],
-      "1590213": [],
+      "1589724": [
+        "p_nature"
+      ],
+      "1589803": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1589883": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1589964": [
+        "p_nature"
+      ],
+      "1590046": [
+        "p_nature"
+      ],
+      "1590129": [
+        "p_nature"
+      ],
+      "1590213": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1590298": [],
-      "1590384": [],
-      "1590471": [],
-      "1590559": [],
+      "1590384": [
+        "crystal"
+      ],
+      "1590471": [
+        "p_formative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1590559": [
+        "geometry_sacred",
+        "p_nature"
+      ],
       "1590648": [],
-      "1590738": [],
-      "1590829": [],
+      "1590738": [
+        "p_nature"
+      ],
+      "1590829": [
+        "p_formative",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1590921": [],
       "1591014": [],
       "1591108": [],
-      "1591203": [],
+      "1591203": [
+        "p_nature"
+      ],
       "1591299": [],
-      "1591396": [],
+      "1591396": [
+        "radionics"
+      ],
       "1591494": [],
       "1591593": [],
       "1591693": [],
-      "1591794": [],
+      "1591794": [
+        "p_formative",
+        "p_nature"
+      ],
       "1591896": [],
-      "1591999": [],
+      "1591999": [
+        "p_bridge",
+        "p_nature"
+      ],
       "1592103": [],
       "1592208": [],
-      "1592314": [],
-      "1592421": [],
+      "1592314": [
+        "p_nature"
+      ],
+      "1592421": [
+        "regenerative",
+        "p_nature"
+      ],
       "1592529": [],
-      "1592638": [],
-      "1592748": [],
-      "1592859": [],
-      "1592971": [],
+      "1592638": [
+        "biophoton",
+        "p_nature"
+      ],
+      "1592748": [
+        "p_nature"
+      ],
+      "1592859": [
+        "p_formative"
+      ],
+      "1592971": [
+        "p_consciousness"
+      ],
       "1593084": [],
-      "1593198": [],
+      "1593198": [
+        "p_formative"
+      ],
       "1593313": [],
       "1593429": [],
       "1593546": [],
       "1593664": [],
-      "1593783": [],
-      "1593903": [],
+      "1593783": [
+        "p_nature"
+      ],
+      "1593903": [
+        "p_nature"
+      ],
       "1594024": [],
-      "1594146": [],
-      "1594269": [],
+      "1594146": [
+        "geometry_sacred",
+        "p_formative"
+      ],
+      "1594269": [
+        "p_formative"
+      ],
       "1594393": [],
-      "1594518": [],
-      "1594644": [],
-      "1594771": [],
+      "1594518": [
+        "p_wrongturn"
+      ],
+      "1594644": [
+        "geometry_sacred"
+      ],
+      "1594771": [
+        "p_nature"
+      ],
       "1594899": [],
       "1595028": [],
-      "1595158": [],
-      "1595289": [],
+      "1595158": [
+        "geometry_sacred",
+        "regenerative",
+        "p_formative",
+        "p_nature"
+      ],
+      "1595289": [
+        "p_nature"
+      ],
       "1595421": [],
-      "1595554": [],
-      "1595688": [],
-      "1595823": [],
-      "1595959": [],
+      "1595554": [
+        "geometry_sacred"
+      ],
+      "1595688": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1595823": [
+        "p_wrongturn"
+      ],
+      "1595959": [
+        "p_formative",
+        "p_consciousness"
+      ],
       "1596096": [],
       "1596234": [],
-      "1596373": [],
-      "1596513": [],
+      "1596373": [
+        "p_wrongturn"
+      ],
+      "1596513": [
+        "p_formative"
+      ],
       "1596654": [],
       "1596796": [],
-      "1596939": [],
-      "1597083": [],
-      "1597228": [],
+      "1596939": [
+        "p_nature"
+      ],
+      "1597083": [
+        "p_nature"
+      ],
+      "1597228": [
+        "crystal",
+        "p_nature"
+      ],
       "1597374": [],
       "1597521": [],
       "1597669": [],
       "1597818": [],
       "1597968": [],
       "1598119": [],
-      "1598271": [],
-      "1598424": [],
-      "1598578": [],
+      "1598271": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1598424": [
+        "p_nature"
+      ],
+      "1598578": [
+        "regenerative",
+        "p_nature"
+      ],
       "1598733": [],
-      "1598889": [],
-      "1599046": [],
-      "1599204": [],
-      "1599363": [],
+      "1598889": [
+        "p_nature"
+      ],
+      "1599046": [
+        "p_formative"
+      ],
+      "1599204": [
+        "p_formative",
+        "p_wrongturn"
+      ],
+      "1599363": [
+        "p_nature"
+      ],
       "1599523": [],
       "1599684": [],
       "1599846": [],
       "1600009": [],
       "1600173": [],
       "1600338": [],
-      "1600504": [],
-      "1600671": [],
+      "1600504": [
+        "geometry_sacred",
+        "p_goethean"
+      ],
+      "1600671": [
+        "regenerative",
+        "p_nature"
+      ],
       "1600839": [],
-      "1601008": [],
-      "1601178": [],
+      "1601008": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1601178": [
+        "regenerative",
+        "p_nature"
+      ],
       "1601349": [],
-      "1601521": [],
-      "1601694": [],
+      "1601521": [
+        "p_goethean",
+        "p_nature"
+      ],
+      "1601694": [
+        "p_nature"
+      ],
       "1601868": [],
       "1602043": [],
-      "1602219": [],
-      "1602396": [],
-      "1602574": [],
+      "1602219": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1602396": [
+        "p_formative"
+      ],
+      "1602574": [
+        "p_nature"
+      ],
       "1602753": [],
-      "1602933": [],
-      "1603114": [],
+      "1602933": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1603114": [
+        "p_wrongturn"
+      ],
       "1603296": [],
-      "1603479": [],
+      "1603479": [
+        "crystal"
+      ],
       "1603663": [],
       "1603848": [],
-      "1604034": [],
+      "1604034": [
+        "p_formative",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1604221": [],
       "1604409": [],
       "1604598": [],
-      "1604788": [],
-      "1604979": [],
+      "1604788": [
+        "p_nature"
+      ],
+      "1604979": [
+        "p_nature"
+      ],
       "1605171": [],
-      "1605364": [],
-      "1605558": [],
-      "1605753": [],
+      "1605364": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1605558": [
+        "p_wrongturn"
+      ],
+      "1605753": [
+        "p_nature"
+      ],
       "1605949": [],
       "1606146": [],
       "1606344": [],
-      "1606543": [],
-      "1606743": [],
-      "1606944": [],
-      "1607146": [],
-      "1607349": [],
+      "1606543": [
+        "geometry_sacred"
+      ],
+      "1606743": [
+        "p_formative"
+      ],
+      "1606944": [
+        "p_nature"
+      ],
+      "1607146": [
+        "p_bridge"
+      ],
+      "1607349": [
+        "p_nature"
+      ],
       "1607553": [],
-      "1607758": [],
+      "1607758": [
+        "p_formative",
+        "p_wrongturn"
+      ],
       "1607964": [],
       "1608171": [],
       "1608379": [],
       "1608588": [],
-      "1608798": [],
-      "1609009": [],
-      "1609221": [],
+      "1608798": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1609009": [
+        "p_nature"
+      ],
+      "1609221": [
+        "p_nature"
+      ],
       "1609434": [],
       "1609648": [],
-      "1609863": [],
+      "1609863": [
+        "p_formative",
+        "p_nature"
+      ],
       "1610079": [],
       "1610296": [],
-      "1610514": [],
+      "1610514": [
+        "geometry_sacred",
+        "p_formative"
+      ],
       "1610733": [],
-      "1610953": [],
-      "1611174": [],
-      "1611396": [],
-      "1611619": [],
-      "1611843": [],
-      "1612068": [],
+      "1610953": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1611174": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "1611396": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1611619": [
+        "p_nature"
+      ],
+      "1611843": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1612068": [
+        "consciousness",
+        "p_consciousness",
+        "p_nature"
+      ],
       "1612294": [],
       "1612521": [],
-      "1612749": [],
-      "1612978": [],
+      "1612749": [
+        "p_formative"
+      ],
+      "1612978": [
+        "geometry_sacred",
+        "p_nature"
+      ],
       "1613208": [],
-      "1613439": [],
+      "1613439": [
+        "p_formative"
+      ],
       "1613671": [],
       "1613904": [],
-      "1614138": [],
-      "1614373": [],
-      "1614609": [],
+      "1614138": [
+        "crystal",
+        "p_fieldphys"
+      ],
+      "1614373": [
+        "cold_fusion"
+      ],
+      "1614609": [
+        "crystal"
+      ],
       "1614846": [],
-      "1615084": [],
+      "1615084": [
+        "p_wrongturn"
+      ],
       "1615323": [],
       "1615563": [],
-      "1615804": [],
+      "1615804": [
+        "p_nature"
+      ],
       "1616046": [],
-      "1616289": [],
+      "1616289": [
+        "p_wrongturn"
+      ],
       "1616533": [],
-      "1616778": [],
-      "1617024": [],
+      "1616778": [
+        "p_wrongturn"
+      ],
+      "1617024": [
+        "p_formative"
+      ],
       "1617271": [],
       "1617519": [],
       "1617768": [],
       "1618018": [],
       "1618269": [],
       "1618521": [],
-      "1618774": [],
-      "1619028": [],
-      "1619283": [],
-      "1619539": [],
-      "1619796": [],
-      "1620054": [],
+      "1618774": [
+        "p_formative"
+      ],
+      "1619028": [
+        "p_bridge"
+      ],
+      "1619283": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1619539": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1619796": [
+        "p_nature"
+      ],
+      "1620054": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
       "1620313": [],
-      "1620573": [],
-      "1620834": [],
-      "1621096": [],
+      "1620573": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1620834": [
+        "crystal",
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
+      "1621096": [
+        "p_formative"
+      ],
       "1621359": [],
-      "1621623": [],
+      "1621623": [
+        "p_nature"
+      ],
       "1621888": [],
       "1622154": [],
-      "1622421": [],
+      "1622421": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1622689": [],
       "1622958": [],
-      "1623228": [],
-      "1623499": [],
-      "1623771": [],
-      "1624044": [],
+      "1623228": [
+        "p_formative"
+      ],
+      "1623499": [
+        "crystal",
+        "p_nature"
+      ],
+      "1623771": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1624044": [
+        "p_formative"
+      ],
       "1624318": [],
       "1624593": [],
       "1624869": [],
       "1625146": [],
-      "1625424": [],
+      "1625424": [
+        "regenerative",
+        "p_nature"
+      ],
       "1625703": [],
       "1625983": [],
-      "1626264": [],
+      "1626264": [
+        "p_nature"
+      ],
       "1626546": [],
       "1626829": [],
-      "1627113": [],
+      "1627113": [
+        "p_formative"
+      ],
       "1627398": [],
       "1627684": [],
-      "1627971": [],
-      "1628259": [],
-      "1628548": [],
-      "1628838": [],
-      "1629129": [],
+      "1627971": [
+        "p_nature"
+      ],
+      "1628259": [
+        "p_nature"
+      ],
+      "1628548": [
+        "p_nature"
+      ],
+      "1628838": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1629129": [
+        "p_fieldphys"
+      ],
       "1629421": [],
-      "1629714": [],
-      "1630008": [],
-      "1630303": [],
+      "1629714": [
+        "p_wrongturn"
+      ],
+      "1630008": [
+        "p_wrongturn"
+      ],
+      "1630303": [
+        "regenerative",
+        "p_formative",
+        "p_nature"
+      ],
       "1630599": [],
       "1630896": [],
       "1631194": [],
-      "1631493": [],
+      "1631493": [
+        "p_nature"
+      ],
       "1631793": [],
-      "1632094": [],
+      "1632094": [
+        "p_nature"
+      ],
       "1632396": [],
-      "1632699": [],
+      "1632699": [
+        "p_formative"
+      ],
       "1633003": [],
       "1633308": [],
-      "1633614": [],
-      "1633921": [],
+      "1633614": [
+        "regenerative",
+        "p_wrongturn",
+        "p_bridge",
+        "p_nature"
+      ],
+      "1633921": [
+        "p_nature"
+      ],
       "1634229": [],
-      "1634538": [],
-      "1634848": [],
-      "1635159": [],
+      "1634538": [
+        "geometry_sacred",
+        "p_nature"
+      ],
+      "1634848": [
+        "p_formative"
+      ],
+      "1635159": [
+        "tesla",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1635471": [],
-      "1635784": [],
+      "1635784": [
+        "crystal"
+      ],
       "1636098": [],
       "1636413": [],
       "1636729": [],
       "1637046": [],
       "1637364": [],
-      "1637683": [],
-      "1638003": [],
-      "1638324": [],
-      "1638646": [],
+      "1637683": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1638003": [
+        "p_nature"
+      ],
+      "1638324": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1638646": [
+        "p_nature"
+      ],
       "1638969": [],
-      "1639293": [],
-      "1639618": [],
+      "1639293": [
+        "p_nature"
+      ],
+      "1639618": [
+        "p_formative"
+      ],
       "1639944": [],
       "1640271": [],
-      "1640599": [],
-      "1640928": [],
-      "1641258": [],
-      "1641589": [],
+      "1640599": [
+        "p_nature"
+      ],
+      "1640928": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "1641258": [
+        "p_wrongturn"
+      ],
+      "1641589": [
+        "p_nature"
+      ],
       "1641921": [],
       "1642254": [],
       "1642588": [],
       "1642923": [],
-      "1643259": [],
-      "1643596": [],
-      "1643934": [],
+      "1643259": [
+        "p_wrongturn"
+      ],
+      "1643596": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "1643934": [
+        "p_wrongturn"
+      ],
       "1644273": [],
-      "1644613": [],
-      "1644954": [],
-      "1645296": [],
+      "1644613": [
+        "p_formative",
+        "p_nature"
+      ],
+      "1644954": [
+        "p_wrongturn"
+      ],
+      "1645296": [
+        "p_bridge",
+        "p_nature"
+      ],
       "1645639": [],
-      "1645983": [],
+      "1645983": [
+        "p_nature"
+      ],
       "1646328": [],
       "1646674": [],
-      "1647021": [],
-      "1647369": [],
-      "1647718": [],
+      "1647021": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1647369": [
+        "p_nature"
+      ],
+      "1647718": [
+        "p_nature"
+      ],
       "1648068": [],
       "1648419": [],
-      "1648771": [],
-      "1649124": [],
+      "1648771": [
+        "p_consciousness"
+      ],
+      "1649124": [
+        "p_formative"
+      ],
       "1649478": [],
       "1649833": [],
       "1650189": [],
@@ -624603,16 +625163,27 @@
       "1650904": [],
       "1651263": [],
       "1651623": [],
-      "1651984": [],
+      "1651984": [
+        "geometry_sacred"
+      ],
       "1652346": [],
-      "1652709": [],
+      "1652709": [
+        "geometry_sacred",
+        "crystal",
+        "p_fieldphys"
+      ],
       "1653073": [],
       "1653438": [],
-      "1653804": [],
+      "1653804": [
+        "p_nature"
+      ],
       "1654171": [],
       "1654539": [],
       "1654908": [],
-      "1655278": [],
+      "1655278": [
+        "regenerative",
+        "p_nature"
+      ],
       "1655649": [],
       "1656021": [],
       "1656394": [],
@@ -624625,37 +625196,68 @@
       "1659033": [],
       "1659414": [],
       "1659796": [],
-      "1660179": [],
+      "1660179": [
+        "p_fieldphys"
+      ],
       "1660563": [],
       "1660948": [],
       "1661334": [],
       "1661721": [],
       "1662109": [],
-      "1662498": [],
+      "1662498": [
+        "p_nature"
+      ],
       "1662888": [],
-      "1663279": [],
+      "1663279": [
+        "regenerative",
+        "p_nature"
+      ],
       "1663671": [],
-      "1664064": [],
+      "1664064": [
+        "geometry_sacred"
+      ],
       "1664458": [],
       "1664853": [],
       "1665249": [],
       "1665646": [],
-      "1666044": [],
-      "1666443": [],
+      "1666044": [
+        "p_formative",
+        "p_nature"
+      ],
+      "1666443": [
+        "p_nature"
+      ],
       "1666843": [],
-      "1667244": [],
-      "1667646": [],
+      "1667244": [
+        "p_formative"
+      ],
+      "1667646": [
+        "p_formative"
+      ],
       "1668049": [],
-      "1668453": [],
+      "1668453": [
+        "p_nature"
+      ],
       "1668858": [],
       "1669264": [],
-      "1669671": [],
+      "1669671": [
+        "p_formative"
+      ],
       "1670079": [],
-      "1670488": [],
-      "1670898": [],
-      "1671309": [],
+      "1670488": [
+        "p_nature"
+      ],
+      "1670898": [
+        "p_nature"
+      ],
+      "1671309": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1671721": [],
-      "1672134": [],
+      "1672134": [
+        "p_nature"
+      ],
       "1672548": [],
       "1672963": [],
       "1673379": [],
@@ -624663,325 +625265,805 @@
       "1674214": [],
       "1674633": [],
       "1675053": [],
-      "1675474": [],
+      "1675474": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1675896": [],
       "1676319": [],
-      "1676743": [],
+      "1676743": [
+        "overunity",
+        "p_nature"
+      ],
       "1677168": [],
       "1677594": [],
-      "1678021": [],
+      "1678021": [
+        "p_formative"
+      ],
       "1678449": [],
-      "1678878": [],
+      "1678878": [
+        "p_formative"
+      ],
       "1679308": [],
-      "1679739": [],
-      "1680171": [],
+      "1679739": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1680171": [
+        "p_nature"
+      ],
       "1680604": [],
       "1681038": [],
       "1681473": [],
       "1681909": [],
-      "1682346": [],
-      "1682784": [],
+      "1682346": [
+        "p_formative"
+      ],
+      "1682784": [
+        "p_formative"
+      ],
       "1683223": [],
-      "1683663": [],
-      "1684104": [],
-      "1684546": [],
+      "1683663": [
+        "geometry_sacred",
+        "regenerative",
+        "p_nature"
+      ],
+      "1684104": [
+        "p_wrongturn"
+      ],
+      "1684546": [
+        "regenerative",
+        "p_nature"
+      ],
       "1684989": [],
-      "1685433": [],
-      "1685878": [],
+      "1685433": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1685878": [
+        "geometry_sacred"
+      ],
       "1686324": [],
       "1686771": [],
       "1687219": [],
-      "1687668": [],
-      "1688118": [],
-      "1688569": [],
+      "1687668": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1688118": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1688569": [
+        "regenerative",
+        "p_nature"
+      ],
       "1689021": [],
-      "1689474": [],
-      "1689928": [],
-      "1690383": [],
-      "1690839": [],
+      "1689474": [
+        "p_formative",
+        "p_nature"
+      ],
+      "1689928": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1690383": [
+        "p_nature"
+      ],
+      "1690839": [
+        "p_nature"
+      ],
       "1691296": [],
-      "1691754": [],
+      "1691754": [
+        "p_formative"
+      ],
       "1692213": [],
-      "1692673": [],
+      "1692673": [
+        "p_formative",
+        "p_bridge"
+      ],
       "1693134": [],
       "1693596": [],
       "1694059": [],
-      "1694523": [],
-      "1694988": [],
+      "1694523": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1694988": [
+        "p_nature"
+      ],
       "1695454": [],
-      "1695921": [],
-      "1696389": [],
-      "1696858": [],
-      "1697328": [],
+      "1695921": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1696389": [
+        "geometry_sacred",
+        "regenerative",
+        "p_nature"
+      ],
+      "1696858": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1697328": [
+        "p_formative",
+        "p_wrongturn"
+      ],
       "1697799": [],
       "1698271": [],
       "1698744": [],
-      "1699218": [],
+      "1699218": [
+        "p_nature"
+      ],
       "1699693": [],
-      "1700169": [],
-      "1700646": [],
+      "1700169": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1700646": [
+        "regenerative",
+        "p_nature"
+      ],
       "1701124": [],
       "1701603": [],
       "1702083": [],
       "1702564": [],
-      "1703046": [],
+      "1703046": [
+        "regenerative",
+        "p_nature"
+      ],
       "1703529": [],
       "1704013": [],
-      "1704498": [],
+      "1704498": [
+        "geometry_sacred",
+        "p_nature"
+      ],
       "1704984": [],
-      "1705471": [],
-      "1705959": [],
-      "1706448": [],
+      "1705471": [
+        "p_wrongturn"
+      ],
+      "1705959": [
+        "crystal"
+      ],
+      "1706448": [
+        "crystal"
+      ],
       "1706938": [],
-      "1707429": [],
-      "1707921": [],
-      "1708414": [],
+      "1707429": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1707921": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1708414": [
+        "regenerative",
+        "p_nature"
+      ],
       "1708908": [],
-      "1709403": [],
+      "1709403": [
+        "p_nature"
+      ],
       "1709899": [],
-      "1710396": [],
-      "1710894": [],
-      "1711393": [],
-      "1711893": [],
-      "1712394": [],
-      "1712896": [],
-      "1713399": [],
-      "1713903": [],
+      "1710396": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1710894": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1711393": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1711893": [
+        "p_nature"
+      ],
+      "1712394": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1712896": [
+        "geometry_sacred",
+        "p_nature"
+      ],
+      "1713399": [
+        "geometry_sacred",
+        "crystal"
+      ],
+      "1713903": [
+        "geometry_sacred"
+      ],
       "1714408": [],
       "1714914": [],
-      "1715421": [],
+      "1715421": [
+        "cold_fusion",
+        "crystal"
+      ],
       "1715929": [],
       "1716438": [],
-      "1716948": [],
+      "1716948": [
+        "radionics",
+        "regenerative",
+        "p_nature"
+      ],
       "1717459": [],
       "1717971": [],
       "1718484": [],
       "1718998": [],
-      "1719513": [],
+      "1719513": [
+        "p_bridge"
+      ],
       "1720029": [],
       "1720546": [],
       "1721064": [],
-      "1721583": [],
+      "1721583": [
+        "regenerative",
+        "p_nature"
+      ],
       "1722103": [],
-      "1722624": [],
-      "1723146": [],
+      "1722624": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1723146": [
+        "p_bridge"
+      ],
       "1723669": [],
       "1724193": [],
       "1724718": [],
       "1725244": [],
       "1725771": [],
       "1726299": [],
-      "1726828": [],
+      "1726828": [
+        "p_nature"
+      ],
       "1727358": [],
       "1727889": [],
-      "1728421": [],
+      "1728421": [
+        "p_nature"
+      ],
       "1728954": [],
-      "1729488": [],
-      "1730023": [],
-      "1730559": [],
-      "1731096": [],
-      "1731634": [],
+      "1729488": [
+        "p_formative"
+      ],
+      "1730023": [
+        "p_nature"
+      ],
+      "1730559": [
+        "geometry_sacred"
+      ],
+      "1731096": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "1731634": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "1732173": [],
-      "1732713": [],
-      "1733254": [],
+      "1732713": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1733254": [
+        "crystal"
+      ],
       "1733796": [],
-      "1734339": [],
-      "1734883": [],
-      "1735428": [],
+      "1734339": [
+        "p_nature"
+      ],
+      "1734883": [
+        "p_nature"
+      ],
+      "1735428": [
+        "p_nature"
+      ],
       "1735974": [],
-      "1736521": [],
-      "1737069": [],
-      "1737618": [],
-      "1738168": [],
-      "1738719": [],
+      "1736521": [
+        "cold_fusion"
+      ],
+      "1737069": [
+        "p_fieldphys"
+      ],
+      "1737618": [
+        "p_wrongturn"
+      ],
+      "1738168": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1738719": [
+        "geometry_sacred",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1739271": [],
       "1739824": [],
-      "1740378": [],
-      "1740933": [],
+      "1740378": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "1740933": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1741489": [],
       "1742046": [],
       "1742604": [],
       "1743163": [],
-      "1743723": [],
-      "1744284": [],
-      "1744846": [],
-      "1745409": [],
+      "1743723": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1744284": [
+        "p_wrongturn"
+      ],
+      "1744846": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1745409": [
+        "p_wrongturn"
+      ],
       "1745973": [],
       "1746538": [],
-      "1747104": [],
-      "1747671": [],
+      "1747104": [
+        "p_formative"
+      ],
+      "1747671": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1748239": [],
-      "1748808": [],
+      "1748808": [
+        "suppression",
+        "p_formative"
+      ],
       "1749378": [],
-      "1749949": [],
-      "1750521": [],
-      "1751094": [],
-      "1751668": [],
-      "1752243": [],
+      "1749949": [
+        "p_nature"
+      ],
+      "1750521": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1751094": [
+        "geometry_sacred"
+      ],
+      "1751668": [
+        "aether"
+      ],
+      "1752243": [
+        "p_formative"
+      ],
       "1752819": [],
-      "1753396": [],
+      "1753396": [
+        "p_formative",
+        "p_nature"
+      ],
       "1753974": [],
-      "1754553": [],
+      "1754553": [
+        "p_nature"
+      ],
       "1755133": [],
-      "1755714": [],
+      "1755714": [
+        "p_nature"
+      ],
       "1756296": [],
-      "1756879": [],
-      "1757463": [],
-      "1758048": [],
-      "1758634": [],
+      "1756879": [
+        "p_wrongturn"
+      ],
+      "1757463": [
+        "p_nature"
+      ],
+      "1758048": [
+        "geometry_sacred",
+        "p_nature"
+      ],
+      "1758634": [
+        "p_nature"
+      ],
       "1759221": [],
       "1759809": [],
       "1760398": [],
       "1760988": [],
       "1761579": [],
-      "1762171": [],
+      "1762171": [
+        "geometry_sacred",
+        "p_formative"
+      ],
       "1762764": [],
-      "1763358": [],
-      "1763953": [],
+      "1763358": [
+        "p_nature"
+      ],
+      "1763953": [
+        "p_nature"
+      ],
       "1764549": [],
-      "1765146": [],
-      "1765744": [],
-      "1766343": [],
-      "1766943": [],
-      "1767544": [],
+      "1765146": [
+        "crystal",
+        "p_nature"
+      ],
+      "1765744": [
+        "p_nature"
+      ],
+      "1766343": [
+        "p_nature"
+      ],
+      "1766943": [
+        "p_formative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1767544": [
+        "p_nature"
+      ],
       "1768146": [],
       "1768749": [],
       "1769353": [],
-      "1769958": [],
+      "1769958": [
+        "p_wrongturn"
+      ],
       "1770564": [],
-      "1771171": [],
+      "1771171": [
+        "p_nature"
+      ],
       "1771779": [],
       "1772388": [],
-      "1772998": [],
+      "1772998": [
+        "p_wrongturn"
+      ],
       "1773609": [],
       "1774221": [],
       "1774834": [],
-      "1775448": [],
-      "1776063": [],
-      "1776679": [],
-      "1777296": [],
+      "1775448": [
+        "p_nature"
+      ],
+      "1776063": [
+        "p_formative",
+        "p_nature"
+      ],
+      "1776679": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1777296": [
+        "p_nature"
+      ],
       "1777914": [],
       "1778533": [],
       "1779153": [],
       "1779774": [],
-      "1780396": [],
+      "1780396": [
+        "morphic",
+        "p_formative"
+      ],
       "1781019": [],
-      "1781643": [],
+      "1781643": [
+        "p_bridge"
+      ],
       "1782268": [],
-      "1782894": [],
-      "1783521": [],
-      "1784149": [],
-      "1784778": [],
-      "1785408": [],
-      "1786039": [],
-      "1786671": [],
+      "1782894": [
+        "geometry_sacred"
+      ],
+      "1783521": [
+        "psychotronic",
+        "crystal",
+        "consciousness",
+        "p_consciousness",
+        "p_nature"
+      ],
+      "1784149": [
+        "geometry_sacred"
+      ],
+      "1784778": [
+        "cold_fusion"
+      ],
+      "1785408": [
+        "cold_fusion"
+      ],
+      "1786039": [
+        "p_wrongturn"
+      ],
+      "1786671": [
+        "regenerative",
+        "p_formative",
+        "p_nature"
+      ],
       "1787304": [],
       "1787938": [],
       "1788573": [],
-      "1789209": [],
-      "1789846": [],
-      "1790484": [],
-      "1791123": [],
-      "1791763": [],
-      "1792404": [],
-      "1793046": [],
-      "1793689": [],
-      "1794333": [],
+      "1789209": [
+        "p_formative",
+        "p_nature"
+      ],
+      "1789846": [
+        "p_nature"
+      ],
+      "1790484": [
+        "p_formative",
+        "p_nature"
+      ],
+      "1791123": [
+        "p_consciousness"
+      ],
+      "1791763": [
+        "p_nature"
+      ],
+      "1792404": [
+        "geometry_sacred"
+      ],
+      "1793046": [
+        "p_nature"
+      ],
+      "1793689": [
+        "p_nature"
+      ],
+      "1794333": [
+        "p_formative",
+        "p_wrongturn"
+      ],
       "1794978": [],
       "1795624": [],
-      "1796271": [],
-      "1796919": [],
-      "1797568": [],
-      "1798218": [],
+      "1796271": [
+        "suppression",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1796919": [
+        "p_nature"
+      ],
+      "1797568": [
+        "p_consciousness"
+      ],
+      "1798218": [
+        "crystal",
+        "p_formative",
+        "p_nature"
+      ],
       "1798869": [],
-      "1799521": [],
-      "1800174": [],
-      "1800828": [],
-      "1801483": [],
+      "1799521": [
+        "morphic",
+        "crystal",
+        "p_formative",
+        "p_nature"
+      ],
+      "1800174": [
+        "crystal"
+      ],
+      "1800828": [
+        "crystal",
+        "p_bridge"
+      ],
+      "1801483": [
+        "crystal",
+        "p_nature"
+      ],
       "1802139": [],
       "1802796": [],
-      "1803454": [],
+      "1803454": [
+        "crystal",
+        "p_nature"
+      ],
       "1804113": [],
       "1804773": [],
-      "1805434": [],
+      "1805434": [
+        "p_nature"
+      ],
       "1806096": [],
-      "1806759": [],
-      "1807423": [],
+      "1806759": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "1807423": [
+        "p_formative",
+        "p_bridge"
+      ],
       "1808088": [],
-      "1808754": [],
+      "1808754": [
+        "p_formative",
+        "p_nature"
+      ],
       "1809421": [],
       "1810089": [],
-      "1810758": [],
-      "1811428": [],
+      "1810758": [
+        "crystal"
+      ],
+      "1811428": [
+        "geometry_sacred"
+      ],
       "1812099": [],
-      "1812771": [],
+      "1812771": [
+        "p_nature"
+      ],
       "1813444": [],
       "1814118": [],
-      "1814793": [],
-      "1815469": [],
-      "1816146": [],
-      "1816824": [],
+      "1814793": [
+        "geometry_sacred",
+        "regenerative",
+        "p_nature"
+      ],
+      "1815469": [
+        "p_formative",
+        "p_nature"
+      ],
+      "1816146": [
+        "p_nature"
+      ],
+      "1816824": [
+        "geometry_sacred"
+      ],
       "1817503": [],
-      "1818183": [],
-      "1818864": [],
+      "1818183": [
+        "p_nature"
+      ],
+      "1818864": [
+        "p_formative",
+        "p_nature"
+      ],
       "1819546": [],
-      "1820229": [],
-      "1820913": [],
-      "1821598": [],
-      "1822284": [],
+      "1820229": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1820913": [
+        "p_formative"
+      ],
+      "1821598": [
+        "p_fieldphys",
+        "p_formative"
+      ],
+      "1822284": [
+        "regenerative",
+        "p_nature"
+      ],
       "1822971": [],
-      "1823659": [],
-      "1824348": [],
+      "1823659": [
+        "p_nature"
+      ],
+      "1824348": [
+        "geometry_sacred",
+        "p_nature"
+      ],
       "1825038": [],
-      "1825729": [],
-      "1826421": [],
+      "1825729": [
+        "p_wrongturn"
+      ],
+      "1826421": [
+        "regenerative",
+        "p_nature"
+      ],
       "1827114": [],
-      "1827808": [],
+      "1827808": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1828503": [],
       "1829199": [],
-      "1829896": [],
-      "1830594": [],
-      "1831293": [],
-      "1831993": [],
-      "1832694": [],
-      "1833396": [],
+      "1829896": [
+        "p_bridge"
+      ],
+      "1830594": [
+        "p_nature"
+      ],
+      "1831293": [
+        "p_formative"
+      ],
+      "1831993": [
+        "p_nature"
+      ],
+      "1832694": [
+        "crystal"
+      ],
+      "1833396": [
+        "p_formative"
+      ],
       "1834099": [],
       "1834803": [],
       "1835508": [],
-      "1836214": [],
-      "1836921": [],
-      "1837629": [],
-      "1838338": [],
-      "1839048": [],
+      "1836214": [
+        "regenerative",
+        "p_formative",
+        "p_nature"
+      ],
+      "1836921": [
+        "p_nature"
+      ],
+      "1837629": [
+        "p_nature"
+      ],
+      "1838338": [
+        "overunity",
+        "p_nature"
+      ],
+      "1839048": [
+        "geometry_sacred",
+        "regenerative",
+        "p_nature"
+      ],
       "1839759": [],
-      "1840471": [],
+      "1840471": [
+        "p_visualray",
+        "p_wrongturn"
+      ],
       "1841184": [],
-      "1841898": [],
-      "1842613": [],
+      "1841898": [
+        "p_fieldphys"
+      ],
+      "1842613": [
+        "p_formative",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1843329": [],
       "1844046": [],
-      "1844764": [],
-      "1845483": [],
+      "1844764": [
+        "p_nature"
+      ],
+      "1845483": [
+        "regenerative",
+        "p_nature"
+      ],
       "1846203": [],
-      "1846924": [],
+      "1846924": [
+        "regenerative",
+        "p_nature"
+      ],
       "1847646": [],
-      "1848369": [],
+      "1848369": [
+        "p_formative",
+        "p_bridge"
+      ],
       "1849093": [],
-      "1849818": [],
-      "1850544": [],
-      "1851271": [],
+      "1849818": [
+        "p_nature"
+      ],
+      "1850544": [
+        "p_nature"
+      ],
+      "1851271": [
+        "p_bridge",
+        "p_nature"
+      ],
       "1851999": [],
-      "1852728": [],
-      "1853458": [],
+      "1852728": [
+        "p_bridge",
+        "p_nature"
+      ],
+      "1853458": [
+        "p_bridge"
+      ],
       "1854189": [],
-      "1854921": [],
-      "1855654": [],
+      "1854921": [
+        "p_nature"
+      ],
+      "1855654": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1856388": [],
-      "1857123": [],
-      "1857859": [],
-      "1858596": [],
-      "1859334": [],
-      "1860073": [],
+      "1857123": [
+        "geometry_sacred"
+      ],
+      "1857859": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1858596": [
+        "p_nature"
+      ],
+      "1859334": [
+        "p_wrongturn"
+      ],
+      "1860073": [
+        "crystal",
+        "p_nature"
+      ],
       "1860813": [],
       "1861554": [],
       "1862296": [],
@@ -624989,140 +626071,335 @@
       "1863783": [],
       "1864528": [],
       "1865274": [],
-      "1866021": [],
-      "1866769": [],
-      "1867518": [],
-      "1868268": [],
+      "1866021": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1866769": [
+        "p_formative",
+        "p_nature"
+      ],
+      "1867518": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1868268": [
+        "p_formative"
+      ],
       "1869019": [],
       "1869771": [],
       "1870524": [],
       "1871278": [],
-      "1872033": [],
+      "1872033": [
+        "regenerative",
+        "p_nature"
+      ],
       "1872789": [],
       "1873546": [],
-      "1874304": [],
+      "1874304": [
+        "p_nature"
+      ],
       "1875063": [],
       "1875823": [],
-      "1876584": [],
-      "1877346": [],
+      "1876584": [
+        "p_fieldphys",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1877346": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1878109": [],
       "1878873": [],
       "1879638": [],
       "1880404": [],
-      "1881171": [],
-      "1881939": [],
-      "1882708": [],
-      "1883478": [],
+      "1881171": [
+        "p_consciousness"
+      ],
+      "1881939": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1882708": [
+        "p_nature"
+      ],
+      "1883478": [
+        "p_formative",
+        "p_nature"
+      ],
       "1884249": [],
       "1885021": [],
-      "1885794": [],
+      "1885794": [
+        "regenerative",
+        "p_nature"
+      ],
       "1886568": [],
       "1887343": [],
       "1888119": [],
-      "1888896": [],
-      "1889674": [],
-      "1890453": [],
+      "1888896": [
+        "p_wrongturn"
+      ],
+      "1889674": [
+        "p_nature"
+      ],
+      "1890453": [
+        "p_formative",
+        "p_nature"
+      ],
       "1891233": [],
       "1892014": [],
       "1892796": [],
-      "1893579": [],
-      "1894363": [],
-      "1895148": [],
-      "1895934": [],
-      "1896721": [],
-      "1897509": [],
-      "1898298": [],
+      "1893579": [
+        "geometry_sacred"
+      ],
+      "1894363": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1895148": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1895934": [
+        "p_nature"
+      ],
+      "1896721": [
+        "p_nature"
+      ],
+      "1897509": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1898298": [
+        "p_nature"
+      ],
       "1899088": [],
-      "1899879": [],
-      "1900671": [],
-      "1901464": [],
-      "1902258": [],
-      "1903053": [],
+      "1899879": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1900671": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1901464": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1902258": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1903053": [
+        "regenerative",
+        "p_nature"
+      ],
       "1903849": [],
       "1904646": [],
-      "1905444": [],
-      "1906243": [],
-      "1907043": [],
+      "1905444": [
+        "suppression",
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1906243": [
+        "p_nature"
+      ],
+      "1907043": [
+        "crystal",
+        "p_formative",
+        "p_nature"
+      ],
       "1907844": [],
-      "1908646": [],
+      "1908646": [
+        "p_nature"
+      ],
       "1909449": [],
       "1910253": [],
       "1911058": [],
-      "1911864": [],
+      "1911864": [
+        "p_wrongturn"
+      ],
       "1912671": [],
       "1913479": [],
       "1914288": [],
       "1915098": [],
-      "1915909": [],
+      "1915909": [
+        "p_wrongturn"
+      ],
       "1916721": [],
-      "1917534": [],
+      "1917534": [
+        "suppression"
+      ],
       "1918348": [],
-      "1919163": [],
-      "1919979": [],
+      "1919163": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "1919979": [
+        "p_nature"
+      ],
       "1920796": [],
-      "1921614": [],
+      "1921614": [
+        "p_nature"
+      ],
       "1922433": [],
       "1923253": [],
       "1924074": [],
-      "1924896": [],
-      "1925719": [],
-      "1926543": [],
-      "1927368": [],
+      "1924896": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "1925719": [
+        "geometry_sacred"
+      ],
+      "1926543": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1927368": [
+        "geometry_sacred"
+      ],
       "1928194": [],
-      "1929021": [],
+      "1929021": [
+        "p_consciousness",
+        "p_wrongturn"
+      ],
       "1929849": [],
       "1930678": [],
-      "1931508": [],
-      "1932339": [],
-      "1933171": [],
-      "1934004": [],
+      "1931508": [
+        "p_bridge"
+      ],
+      "1932339": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1933171": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1934004": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "1934838": [],
-      "1935673": [],
+      "1935673": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "1936509": [],
-      "1937346": [],
-      "1938184": [],
+      "1937346": [
+        "cold_fusion"
+      ],
+      "1938184": [
+        "p_nature"
+      ],
       "1939023": [],
-      "1939863": [],
-      "1940704": [],
+      "1939863": [
+        "p_wrongturn"
+      ],
+      "1940704": [
+        "p_wrongturn"
+      ],
       "1941546": [],
-      "1942389": [],
+      "1942389": [
+        "geometry_sacred",
+        "p_nature"
+      ],
       "1943233": [],
-      "1944078": [],
-      "1944924": [],
+      "1944078": [
+        "p_visualray"
+      ],
+      "1944924": [
+        "geometry_sacred"
+      ],
       "1945771": [],
       "1946619": [],
-      "1947468": [],
-      "1948318": [],
-      "1949169": [],
-      "1950021": [],
-      "1950874": [],
+      "1947468": [
+        "p_formative"
+      ],
+      "1948318": [
+        "p_nature"
+      ],
+      "1949169": [
+        "p_wrongturn"
+      ],
+      "1950021": [
+        "p_nature"
+      ],
+      "1950874": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
       "1951728": [],
       "1952583": [],
       "1953439": [],
-      "1954296": [],
+      "1954296": [
+        "p_nature"
+      ],
       "1955154": [],
       "1956013": [],
-      "1956873": [],
-      "1957734": [],
-      "1958596": [],
-      "1959459": [],
-      "1960323": [],
+      "1956873": [
+        "crystal",
+        "p_formative"
+      ],
+      "1957734": [
+        "consciousness",
+        "p_consciousness",
+        "p_nature"
+      ],
+      "1958596": [
+        "crystal",
+        "p_nature"
+      ],
+      "1959459": [
+        "p_fieldphys"
+      ],
+      "1960323": [
+        "p_nature"
+      ],
       "1961188": [],
       "1962054": [],
       "1962921": [],
-      "1963789": [],
+      "1963789": [
+        "crystal",
+        "regenerative",
+        "p_nature"
+      ],
       "1964658": [],
       "1965528": [],
-      "1966399": [],
-      "1967271": [],
-      "1968144": [],
+      "1966399": [
+        "crystal",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "1967271": [
+        "geometry_sacred",
+        "crystal",
+        "p_nature"
+      ],
+      "1968144": [
+        "scalar",
+        "geometry_sacred"
+      ],
       "1969018": [],
       "1969893": [],
-      "1970769": [],
-      "1971646": [],
+      "1970769": [
+        "p_nature"
+      ],
+      "1971646": [
+        "p_formative",
+        "p_nature"
+      ],
       "1972524": [],
       "1973403": [],
-      "1974283": [],
+      "1974283": [
+        "geometry_sacred"
+      ],
       "1975164": [],
       "1976046": [],
       "1976929": [],
@@ -625130,82 +626407,178 @@
       "1978698": [],
       "1979584": [],
       "1980471": [],
-      "1981359": [],
+      "1981359": [
+        "crystal"
+      ],
       "1982248": [],
       "1983138": [],
       "1984029": [],
-      "1984921": [],
+      "1984921": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
       "1985814": [],
-      "1986708": [],
+      "1986708": [
+        "p_formative",
+        "p_nature"
+      ],
       "1987603": [],
       "1988499": [],
-      "1989396": [],
-      "1990294": [],
+      "1989396": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1990294": [
+        "p_wrongturn"
+      ],
       "1991193": [],
-      "1992093": [],
+      "1992093": [
+        "regenerative",
+        "p_nature"
+      ],
       "1992994": [],
       "1993896": [],
-      "1994799": [],
+      "1994799": [
+        "p_nature"
+      ],
       "1995703": [],
       "1996608": [],
-      "1997514": [],
-      "1998421": [],
-      "1999329": [],
+      "1997514": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1998421": [
+        "regenerative",
+        "p_nature"
+      ],
+      "1999329": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "2000238": [],
-      "2001148": [],
+      "2001148": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "2002059": [],
       "2002971": [],
-      "2003884": [],
-      "2004798": [],
-      "2005713": [],
+      "2003884": [
+        "p_wrongturn"
+      ],
+      "2004798": [
+        "cold_fusion"
+      ],
+      "2005713": [
+        "regenerative",
+        "p_nature"
+      ],
       "2006629": [],
       "2007546": [],
-      "2008464": [],
+      "2008464": [
+        "p_nature"
+      ],
       "2009383": [],
       "2010303": [],
       "2011224": [],
-      "2012146": [],
-      "2013069": [],
+      "2012146": [
+        "regenerative",
+        "p_bridge",
+        "p_nature"
+      ],
+      "2013069": [
+        "p_formative",
+        "p_nature"
+      ],
       "2013993": [],
       "2014918": [],
       "2015844": [],
       "2016771": [],
       "2017699": [],
       "2018628": [],
-      "2019558": [],
+      "2019558": [
+        "geometry_sacred"
+      ],
       "2020489": [],
       "2021421": [],
-      "2022354": [],
-      "2023288": [],
-      "2024223": [],
+      "2022354": [
+        "p_nature"
+      ],
+      "2023288": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2024223": [
+        "borderland"
+      ],
       "2025159": [],
       "2026096": [],
-      "2027034": [],
+      "2027034": [
+        "p_formative"
+      ],
       "2027973": [],
-      "2028913": [],
-      "2029854": [],
+      "2028913": [
+        "geometry_sacred"
+      ],
+      "2029854": [
+        "p_nature"
+      ],
       "2030796": [],
-      "2031739": [],
-      "2032683": [],
-      "2033628": [],
-      "2034574": [],
+      "2031739": [
+        "p_wrongturn"
+      ],
+      "2032683": [
+        "p_consciousness"
+      ],
+      "2033628": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2034574": [
+        "p_nature"
+      ],
       "2035521": [],
-      "2036469": [],
-      "2037418": [],
-      "2038368": [],
-      "2039319": [],
-      "2040271": [],
+      "2036469": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2037418": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2038368": [
+        "geometry_sacred"
+      ],
+      "2039319": [
+        "geometry_sacred",
+        "p_nature"
+      ],
+      "2040271": [
+        "regenerative",
+        "p_nature"
+      ],
       "2041224": [],
       "2042178": [],
       "2043133": [],
-      "2044089": [],
+      "2044089": [
+        "regenerative",
+        "p_bridge",
+        "p_nature"
+      ],
       "2045046": [],
-      "2046004": [],
+      "2046004": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "2046963": [],
       "2047923": [],
       "2048884": [],
-      "2049846": [],
-      "2050809": [],
+      "2049846": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2050809": [
+        "p_nature"
+      ],
       "2051773": [],
       "2052738": [],
       "2053704": [],
@@ -625213,297 +626586,693 @@
       "2055639": [],
       "2056608": [],
       "2057578": [],
-      "2058549": [],
-      "2059521": [],
+      "2058549": [
+        "overunity",
+        "p_nature"
+      ],
+      "2059521": [
+        "p_nature"
+      ],
       "2060494": [],
-      "2061468": [],
-      "2062443": [],
-      "2063419": [],
-      "2064396": [],
+      "2061468": [
+        "regenerative",
+        "p_formative",
+        "p_nature"
+      ],
+      "2062443": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2063419": [
+        "p_consciousness",
+        "p_nature"
+      ],
+      "2064396": [
+        "regenerative",
+        "p_formative",
+        "p_nature"
+      ],
       "2065374": [],
-      "2066353": [],
+      "2066353": [
+        "p_visualray"
+      ],
       "2067333": [],
       "2068314": [],
-      "2069296": [],
-      "2070279": [],
-      "2071263": [],
+      "2069296": [
+        "p_formative"
+      ],
+      "2070279": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2071263": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "2072248": [],
-      "2073234": [],
+      "2073234": [
+        "p_goethean",
+        "p_nature"
+      ],
       "2074221": [],
-      "2075209": [],
-      "2076198": [],
+      "2075209": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2076198": [
+        "p_bridge",
+        "p_nature"
+      ],
       "2077188": [],
       "2078179": [],
-      "2079171": [],
-      "2080164": [],
+      "2079171": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2080164": [
+        "p_nature"
+      ],
       "2081158": [],
-      "2082153": [],
-      "2083149": [],
-      "2084146": [],
+      "2082153": [
+        "p_nature"
+      ],
+      "2083149": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2084146": [
+        "regenerative",
+        "p_nature"
+      ],
       "2085144": [],
-      "2086143": [],
+      "2086143": [
+        "p_nature"
+      ],
       "2087143": [],
       "2088144": [],
       "2089146": [],
-      "2090149": [],
+      "2090149": [
+        "p_formative"
+      ],
       "2091153": [],
-      "2092158": [],
+      "2092158": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "2093164": [],
       "2094171": [],
-      "2095179": [],
+      "2095179": [
+        "geometry_sacred"
+      ],
       "2096188": [],
-      "2097198": [],
-      "2098209": [],
-      "2099221": [],
-      "2100234": [],
+      "2097198": [
+        "p_formative"
+      ],
+      "2098209": [
+        "p_nature"
+      ],
+      "2099221": [
+        "geometry_sacred"
+      ],
+      "2100234": [
+        "p_wrongturn"
+      ],
       "2101248": [],
-      "2102263": [],
+      "2102263": [
+        "regenerative",
+        "p_nature"
+      ],
       "2103279": [],
       "2104296": [],
       "2105314": [],
       "2106333": [],
       "2107353": [],
-      "2108374": [],
-      "2109396": [],
-      "2110419": [],
+      "2108374": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2109396": [
+        "geometry_sacred",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2110419": [
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness",
+        "p_nature"
+      ],
       "2111443": [],
-      "2112468": [],
+      "2112468": [
+        "regenerative",
+        "p_nature"
+      ],
       "2113494": [],
       "2114521": [],
       "2115549": [],
       "2116578": [],
-      "2117608": [],
-      "2118639": [],
-      "2119671": [],
+      "2117608": [
+        "consciousness",
+        "p_fieldphys",
+        "p_formative",
+        "p_consciousness",
+        "p_nature"
+      ],
+      "2118639": [
+        "p_nature"
+      ],
+      "2119671": [
+        "p_wrongturn"
+      ],
       "2120704": [],
-      "2121738": [],
-      "2122773": [],
+      "2121738": [
+        "p_nature"
+      ],
+      "2122773": [
+        "p_nature"
+      ],
       "2123809": [],
-      "2124846": [],
-      "2125884": [],
+      "2124846": [
+        "p_nature"
+      ],
+      "2125884": [
+        "p_nature"
+      ],
       "2126923": [],
       "2127963": [],
       "2129004": [],
-      "2130046": [],
+      "2130046": [
+        "regenerative",
+        "p_nature"
+      ],
       "2131089": [],
       "2132133": [],
-      "2133178": [],
+      "2133178": [
+        "p_nature"
+      ],
       "2134224": [],
-      "2135271": [],
-      "2136319": [],
+      "2135271": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2136319": [
+        "p_nature"
+      ],
       "2137368": [],
-      "2138418": [],
-      "2139469": [],
-      "2140521": [],
-      "2141574": [],
+      "2138418": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2139469": [
+        "p_nature"
+      ],
+      "2140521": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2141574": [
+        "p_nature"
+      ],
       "2142628": [],
-      "2143683": [],
+      "2143683": [
+        "geometry_sacred",
+        "p_nature"
+      ],
       "2144739": [],
-      "2145796": [],
+      "2145796": [
+        "p_nature"
+      ],
       "2146854": [],
       "2147913": [],
-      "2148973": [],
-      "2150034": [],
-      "2151096": [],
+      "2148973": [
+        "p_nature"
+      ],
+      "2150034": [
+        "p_wrongturn"
+      ],
+      "2151096": [
+        "crystal",
+        "consciousness",
+        "p_visualray",
+        "p_fieldphys",
+        "p_consciousness",
+        "p_nature"
+      ],
       "2152159": [],
-      "2153223": [],
-      "2154288": [],
-      "2155354": [],
+      "2153223": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2154288": [
+        "p_nature"
+      ],
+      "2155354": [
+        "geometry_sacred"
+      ],
       "2156421": [],
-      "2157489": [],
+      "2157489": [
+        "p_nature"
+      ],
       "2158558": [],
-      "2159628": [],
+      "2159628": [
+        "radionics"
+      ],
       "2160699": [],
       "2161771": [],
-      "2162844": [],
-      "2163918": [],
-      "2164993": [],
-      "2166069": [],
+      "2162844": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2163918": [
+        "p_consciousness"
+      ],
+      "2164993": [
+        "p_formative"
+      ],
+      "2166069": [
+        "p_nature"
+      ],
       "2167146": [],
-      "2168224": [],
-      "2169303": [],
+      "2168224": [
+        "crystal",
+        "consciousness",
+        "p_visualray",
+        "p_consciousness",
+        "p_nature"
+      ],
+      "2169303": [
+        "p_formative"
+      ],
       "2170383": [],
       "2171464": [],
       "2172546": [],
       "2173629": [],
-      "2174713": [],
-      "2175798": [],
+      "2174713": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2175798": [
+        "geometry_sacred"
+      ],
       "2176884": [],
-      "2177971": [],
+      "2177971": [
+        "crystal",
+        "p_nature"
+      ],
       "2179059": [],
-      "2180148": [],
+      "2180148": [
+        "regenerative",
+        "p_nature"
+      ],
       "2181238": [],
       "2182329": [],
       "2183421": [],
-      "2184514": [],
+      "2184514": [
+        "electrogravitics"
+      ],
       "2185608": [],
-      "2186703": [],
+      "2186703": [
+        "p_nature"
+      ],
       "2187799": [],
       "2188896": [],
       "2189994": [],
       "2191093": [],
-      "2192193": [],
-      "2193294": [],
-      "2194396": [],
-      "2195499": [],
-      "2196603": [],
-      "2197708": [],
-      "2198814": [],
-      "2199921": [],
+      "2192193": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2193294": [
+        "p_nature"
+      ],
+      "2194396": [
+        "p_wrongturn"
+      ],
+      "2195499": [
+        "geometry_sacred",
+        "p_formative",
+        "p_nature"
+      ],
+      "2196603": [
+        "geometry_sacred",
+        "p_formative",
+        "p_nature"
+      ],
+      "2197708": [
+        "geometry_sacred",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2198814": [
+        "p_formative"
+      ],
+      "2199921": [
+        "geometry_sacred"
+      ],
       "2201029": [],
-      "2202138": [],
+      "2202138": [
+        "p_formative",
+        "p_nature"
+      ],
       "2203248": [],
       "2204359": [],
-      "2205471": [],
-      "2206584": [],
+      "2205471": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2206584": [
+        "p_nature"
+      ],
       "2207698": [],
       "2208813": [],
-      "2209929": [],
+      "2209929": [
+        "p_nature"
+      ],
       "2211046": [],
       "2212164": [],
-      "2213283": [],
-      "2214403": [],
+      "2213283": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2214403": [
+        "p_nature"
+      ],
       "2215524": [],
       "2216646": [],
       "2217769": [],
-      "2218893": [],
-      "2220018": [],
+      "2218893": [
+        "p_formative"
+      ],
+      "2220018": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
       "2221144": [],
-      "2222271": [],
-      "2223399": [],
-      "2224528": [],
+      "2222271": [
+        "p_nature"
+      ],
+      "2223399": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2224528": [
+        "p_fieldphys"
+      ],
       "2225658": [],
       "2226789": [],
-      "2227921": [],
-      "2229054": [],
+      "2227921": [
+        "p_wrongturn"
+      ],
+      "2229054": [
+        "p_wrongturn"
+      ],
       "2230188": [],
       "2231323": [],
       "2232459": [],
       "2233596": [],
-      "2234734": [],
-      "2235873": [],
+      "2234734": [
+        "p_nature"
+      ],
+      "2235873": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "2237013": [],
-      "2238154": [],
+      "2238154": [
+        "p_consciousness"
+      ],
       "2239296": [],
       "2240439": [],
       "2241583": [],
       "2242728": [],
-      "2243874": [],
-      "2245021": [],
-      "2246169": [],
+      "2243874": [
+        "p_formative"
+      ],
+      "2245021": [
+        "p_formative"
+      ],
+      "2246169": [
+        "p_formative"
+      ],
       "2247318": [],
       "2248468": [],
       "2249619": [],
-      "2250771": [],
+      "2250771": [
+        "p_formative"
+      ],
       "2251924": [],
       "2253078": [],
       "2254233": [],
       "2255389": [],
-      "2256546": [],
-      "2257704": [],
+      "2256546": [
+        "p_nature"
+      ],
+      "2257704": [
+        "p_formative",
+        "p_nature"
+      ],
       "2258863": [],
       "2260023": [],
       "2261184": [],
       "2262346": [],
       "2263509": [],
-      "2264673": [],
+      "2264673": [
+        "p_nature"
+      ],
       "2265838": [],
-      "2267004": [],
-      "2268171": [],
-      "2269339": [],
-      "2270508": [],
-      "2271678": [],
-      "2272849": [],
+      "2267004": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2268171": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2269339": [
+        "p_formative"
+      ],
+      "2270508": [
+        "p_nature"
+      ],
+      "2271678": [
+        "p_nature"
+      ],
+      "2272849": [
+        "p_nature"
+      ],
       "2274021": [],
-      "2275194": [],
+      "2275194": [
+        "p_visualray"
+      ],
       "2276368": [],
       "2277543": [],
       "2278719": [],
       "2279896": [],
       "2281074": [],
-      "2282253": [],
-      "2283433": [],
+      "2282253": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2283433": [
+        "p_wrongturn"
+      ],
       "2284614": [],
-      "2285796": [],
-      "2286979": [],
+      "2285796": [
+        "p_bridge"
+      ],
+      "2286979": [
+        "crystal",
+        "p_nature"
+      ],
       "2288163": [],
-      "2289348": [],
+      "2289348": [
+        "consciousness",
+        "p_consciousness",
+        "p_nature"
+      ],
       "2290534": [],
-      "2291721": [],
+      "2291721": [
+        "p_wrongturn"
+      ],
       "2292909": [],
       "2294098": [],
-      "2295288": [],
-      "2296479": [],
-      "2297671": [],
+      "2295288": [
+        "radionics",
+        "crystal",
+        "p_nature"
+      ],
+      "2296479": [
+        "geometry_sacred",
+        "p_nature"
+      ],
+      "2297671": [
+        "crystal",
+        "p_nature"
+      ],
       "2298864": [],
       "2300058": [],
-      "2301253": [],
+      "2301253": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "2302449": [],
-      "2303646": [],
-      "2304844": [],
-      "2306043": [],
+      "2303646": [
+        "p_nature"
+      ],
+      "2304844": [
+        "p_nature"
+      ],
+      "2306043": [
+        "p_bridge",
+        "p_nature"
+      ],
       "2307243": [],
-      "2308444": [],
-      "2309646": [],
-      "2310849": [],
+      "2308444": [
+        "geometry_sacred"
+      ],
+      "2309646": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2310849": [
+        "p_nature"
+      ],
       "2312053": [],
-      "2313258": [],
+      "2313258": [
+        "p_formative"
+      ],
       "2314464": [],
       "2315671": [],
       "2316879": [],
-      "2318088": [],
+      "2318088": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "2319298": [],
       "2320509": [],
-      "2321721": [],
+      "2321721": [
+        "regenerative",
+        "p_nature"
+      ],
       "2322934": [],
       "2324148": [],
       "2325363": [],
       "2326579": [],
       "2327796": [],
-      "2329014": [],
+      "2329014": [
+        "p_nature"
+      ],
       "2330233": [],
-      "2331453": [],
-      "2332674": [],
+      "2331453": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2332674": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "2333896": [],
-      "2335119": [],
-      "2336343": [],
-      "2337568": [],
+      "2335119": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2336343": [
+        "p_formative"
+      ],
+      "2337568": [
+        "overunity",
+        "p_nature"
+      ],
       "2338794": [],
-      "2340021": [],
-      "2341249": [],
-      "2342478": [],
-      "2343708": [],
+      "2340021": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2341249": [
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2342478": [
+        "p_nature"
+      ],
+      "2343708": [
+        "p_nature"
+      ],
       "2344939": [],
       "2346171": [],
       "2347404": [],
       "2348638": [],
-      "2349873": [],
-      "2351109": [],
+      "2349873": [
+        "overunity",
+        "p_nature"
+      ],
+      "2351109": [
+        "p_nature"
+      ],
       "2352346": [],
       "2353584": [],
-      "2354823": [],
-      "2356063": [],
-      "2357304": [],
-      "2358546": [],
-      "2359789": [],
-      "2361033": [],
+      "2354823": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2356063": [
+        "p_bridge"
+      ],
+      "2357304": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2358546": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2359789": [
+        "p_wrongturn"
+      ],
+      "2361033": [
+        "p_nature"
+      ],
       "2362278": [],
       "2363524": [],
       "2364771": [],
       "2366019": [],
-      "2367268": [],
+      "2367268": [
+        "regenerative",
+        "p_nature"
+      ],
       "2368518": [],
-      "2369769": [],
+      "2369769": [
+        "p_wrongturn"
+      ],
       "2371021": [],
-      "2372274": [],
-      "2373528": [],
-      "2374783": [],
+      "2372274": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2373528": [
+        "p_nature"
+      ],
+      "2374783": [
+        "p_formative"
+      ],
       "2376039": [],
-      "2377296": [],
-      "2378554": [],
+      "2377296": [
+        "p_bridge"
+      ],
+      "2378554": [
+        "p_formative"
+      ],
       "2379813": [],
-      "2381073": [],
-      "2382334": [],
+      "2381073": [
+        "p_nature"
+      ],
+      "2382334": [
+        "p_nature"
+      ],
       "2383596": [],
       "2384859": [],
       "2386123": []

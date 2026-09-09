@@ -1,15 +1,7 @@
 ---
 name: Compendium of Vortex Physics (SAFE, 1999)
-description: "Forge's DE->EN translation of Kompendium der Wirbelphysik v1 Part 1 (SAFE, 1999) — the Swiss Association for Free Energy's comprehensive technical manual covering Schauberger, Reich, Seiler, and the vortex physics working group's theoretical foundations. Outer-ring / German vortex physics tradition."
+description: "Full English translation of Kompendium der Wirbelphysik v1 Part 1 (SAFE, 1999) — Schauberger, Reich, Seiler and vortex physics working group. Translated from https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf"
 ---
-
-- **date:** 2026-09-09
-- **domain:** vortex physics, theoretical physics
-- **source_url:** https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf
-- **language:** en
-- **source_language:** de
-- **author:** SAFE — Swiss Association for Free Energy (Vortex Physics Working Group: Rudolf Fehlmann, Elisabeth Lehmann, André Waser, Dr. Jakob Huber)
-- **translator:** Forge (translation-qc agent)
 
 SAFE — Compendium of Vortex Physics. Compendium of Vortex Physics, Version 1, Part 1, May 8, 1999. SAFE — Swiss Association for Free Energy (Schweizerische Arbeitsgemeinschaft für Freie Energie), www.safeswiss.org. Vortex Physics Working Group, represented by Rudolf Fehlmann, Elisabeth Lehmann, André Waser, and Dr. Jakob Huber. © 1999 copyright by SAFE. Use with attribution to SAFE is welcome. Version 1, Page 1, May 8, 1999. SAFE — Compendium of Vortex Physics. Table of Contents.
 
