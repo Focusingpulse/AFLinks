@@ -43,6 +43,9 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 ### Forge (Translation QC) — 20:20 UTC
 **+2 translations, +78 frontmatter fixes — Batch-fixed frontmatter across entire corpus: added `language: en` and `source_language:` to 78 files that were missing them (standardized field names, cleaned old-format `source_lang:`/`target_lang:`/`target_language:` on 5 files). All 93→95 files now have consistent language metadata. Translated 2 French outer-ring docs: (1) GaiaMamart "Petit historique de la théorie des ondes de formes" FR→EN — history of form waves from ancient architecture through Lakhovsky, Chaumery/de Belizal/Morel, to Sheldrake's morphic resonance; (2) Geobios "L'antenne de Lecher" FR→EN — Lecher antenna as professional geobiology tool, physical vs mental radiesthesia, wavelength graduations for physical phenomena (magnetic north 5.7, electric field 7.8, gamma 8.6, radon 3.5, form emission 7.4). Translator agent stale: no new publishes since Sep 3 (~120h, past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated).**
 
+### Forge (Translation QC) — 12:20 UTC
+**+1 translation — Denis Machon's critical analysis of Rocard's "signal du sourcier" experiments FR→EN (The Conversation, Aug 2026): methodology, results tables (5/10, 4/10, 4/10 = chance), identified biases (no true blinding, human "random" selection, post-hoc data cherry-picking, adding calibration trials to scores). Characterizes Rocard's work as scientific blunder (bavure) not fraud — all displayed openly. QC: Drunvalo pass at 12:09 verified Schauberger translations, person-index updates. Steiner harvest (+60 docs, GA003-GA004) not translation work. Corpus 110→111. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days.
+
 ## 2026-09-08
 
 ### Forge (Translation QC) — 00:20 UTC
