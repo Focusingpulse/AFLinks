@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-09T01:09:37Z",
+  "generated_at": "2026-09-09T02:10:31Z",
   "library": {
     "researchers": 988,
-    "researchers_cataloged": 197,
+    "researchers_cataloged": 208,
     "patents": 2339,
     "categories": 47,
     "meta_categories": 24,
     "aflinks_docs": 10882,
-    "translations": 61,
-    "pages_translated": 1046,
+    "translations": 62,
+    "pages_translated": 1054,
     "declassified_finds": 36,
     "active_agents": 14,
     "book5_complete": true,
-    "translation_files": 61,
+    "translation_files": 62,
     "bridges": 1,
     "archive_entries": 52675,
     "meta_counts": {
@@ -48,6 +48,16 @@
     "validations": 0
   },
   "latest_translations": [
+    {
+      "date": "2026-09-09",
+      "title": "Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly",
+      "domain": "",
+      "source_url": "",
+      "language": "Spanish",
+      "file": "2026-09-09-schauberger-dynamic-hydroelectric-energy-es.md",
+      "content_file": "translations/2026-09-09-schauberger-dynamic-hydroelectric-energy-es.md",
+      "excerpt": "Dynamic hydroelectric energy\n\n[Document title. Original Spanish-language technical analysis of Viktor Schauberger's 1930 jet turbine patent (No. 117,749) and Ludwig Herbrand's corroborating measurements at the Rheinfelde"
+    },
     {
       "date": "2026-09-08",
       "title": "Goethe's Scientific Works - Course Introduction",
@@ -5253,9 +5263,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-08T23:51:13Z",
+      "last_run": "2026-09-09T01:51:26Z",
       "last_status": "ok",
-      "last_summary": "+1 archives since last run (23->24) | translating Schauberger suction turbine + Herbrand anomaly (es) 4/11 chunks | backlog 387 (gear: quota) | dead link: Akimov torsion generator schematic (oborod.ogorodguru.ru unreachable, no Wayback)"
+      "last_summary": "+0 archives since last run (still 23) | full-translated Schauberger Dynamic Hydroelectric Energy / Suction Turbine + Herbrand Anomaly (es) 11/11 chunks, source archived 09-08 | marked 2 dead links (teslavital 404 no-wayback, zenodo DOI unregistered) | backlog 386 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5264,9 +5274,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-08T23:20:24Z",
+      "last_run": "2026-09-09T01:25:06Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks | Schauberger Water (de) 154/210 | parked 3 dead/blocked jobs (zenodo DOI gone, academia.edu JS wall, teslavital 404) | worker: assemble guard + backlog dead-link fix | backlog 387 wait (gear: quota)"
+      "last_summary": "+4 chunks | giurfa Schauberger suction turbine 8/11 (job switch from oekotrend 154/210) | backlog 387 wait (gear: quota) | FIXED: BOM ledger clobber, restored 9 members"
     },
     {
       "member": "db-entity-extractor",
@@ -5286,9 +5296,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T00:22:53Z",
+      "last_run": "2026-09-09T01:11:00Z",
       "last_status": "ok",
-      "last_summary": "Total entries: 1 Progress: 1/1 === Processing: merlib.lackluster.org ===   Existing: 52669, New: 1, Total: 52670 "
+      "last_summary": "sync: 52675 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5332,7 +5342,7 @@
       "icon": "📖",
       "last_run": "2026-09-08T12:01:00Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 220) | now 220/220, next: none — Book5 fully translated (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 220) | now 220/220, next: none â€” Book5 fully translated (gear: quota)"
     },
     {
       "member": "translation-qc",
@@ -5380,6 +5390,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "01:50",
+      "agent": "Translation Curator",
+      "summary": "+1 full translation — Completed full translation of 'Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly' (ES->EN, 11/11 chunks, Hasslberger 1993, giurfa.com) — source already archived 2026-09-08. Investigated two stalled 0/1 jobs: teslavital.fr Tesla US 685957 article is dead (404 on live site, no Wayback snapshot) and zenodo DOI 15609842 was never registered — both marked DEAD-LINK, no fake translations made. Gear: quota (3/4 chunks used)."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "01:25",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota run: translated chunks 5-8 of 'Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly' (ES->EN), job now 8/11. Fixed fulltext_worker done-threshold bug (tiny heading-only chunks could never complete). INCIDENT RESPONSE: discovered + fixed the cron-ledger BOM clobber — Windows translator machine wrote cron_ledger.json with a UTF-8 BOM, family.py silently fell back to an empty ledger on parse failure, wiping 9 of 12 members. Made load_ledger BOM-tolerant (utf-8-sig) and restored all lost members."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "01:10",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-09",
       "time": "01:06",
@@ -5721,24 +5749,6 @@
       "time": "12:17",
       "agent": "Translation Sweeper",
       "summary": "+12 chunks — Translated chunks 115-126 of Schauberger 'Water: The Blood of the Earth' (German). Content: Schauberger's reply to Liechtenstein government on river regulation, his account of interactions with Prof. Forchheimer and Excellency Exner, the cycloid space curve discovery, and the boar-piss analogy. Also synced manifest with disk state (was out of sync). Job now 126/210 done."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:05",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+39077 docs — +39077 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:01",
-      "agent": "Book5 Translate",
-      "summary": "+0 chunks — heartbeat: Book5 translation complete at 220/220 chunks (100%). Assembled output: Book5_full_translation.md (521KB). No work needed."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "08:26",
-      "agent": "Translation Sweeper",
-      "summary": "+22 chunks — Overdrive run: assembled 9 complete full-document translations (134 chunks total: Shipov Torsion 15ch RU, Spyridis Theory of Everything 37ch EL, TUO Theory 3ch FR, Magnitsky Gravity 18ch RU, Schadach Electromagnetism 33ch DE, Consciousness Field 13ch IT, Akimov/Shipov Torsion 1ch RU, Scalar Field 7ch FR, TUO Classical 7ch FR). Continued Schauberger 'Water: Blood of the Earth' translation: 22 new chunks (92→114/210)."
     }
   ],
   "declassified": [
@@ -5970,6 +5980,15 @@
     },
     {
       "date": "2026-09-09",
+      "kind": "translation",
+      "title": "Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly",
+      "excerpt": "Dynamic hydroelectric energy\n\n[Document title. Original Spanish-language technical analysis of Viktor Schauberger's 1930 jet turbine patent (No. 117,749) and Lu",
+      "rarity": "fresh from Spanish",
+      "href": "./library.html#trans-2026-09-09-schauberger-dynamic-hydroelectric-energy-es.md",
+      "source_url": ""
+    },
+    {
+      "date": "2026-09-09",
       "kind": "declassified",
       "title": "USA — Epstein Document Release — Sheldrake/LENR/Cold Fusion Emails",
       "excerpt": "USA — DOJ-released Epstein documents revealing correspondence with Rupert Sheldrake about LENR/cold fusion, and Epstein claiming he 'killed Pons' research.",
@@ -6008,15 +6027,6 @@
       "excerpt": "Classical formalisms and correspondence with TUO:\n      From Maxwell and Einstein to the vacuum tension field Tv\n                    François Maillot — Wave Uni",
       "rarity": "fresh translation",
       "href": "./library.html#trans-2026-09-07-tuo-classical-formalism-fr.md",
-      "source_url": ""
-    },
-    {
-      "date": "2026-09-07",
-      "kind": "translation",
-      "title": "Theorie Univers Onde Fr",
-      "excerpt": "Skip to main\n\n You are using an outdated browser. Please upgrade your browser to improve your experience.\n\nPublished 2025\n\n | Version v2\n\nPublication\n\nOpen\n\n Th",
-      "rarity": "fresh translation",
-      "href": "./library.html#trans-2026-09-07-theorie-univers-onde-fr.md",
       "source_url": ""
     },
     {
