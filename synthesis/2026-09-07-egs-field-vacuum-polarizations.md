@@ -174,7 +174,7 @@ Charalambos Spyridis (University of Athens) provides a unique geometric formulat
 
 **EGS-field aspect:** Spyridis provides the geometric structure of the vacuum's polarization states. If E, G, and S are polarization states, what determines their specific properties? Spyridis answers: Platonic geometry.
 
-**Source:** `translations/2026-09-04-spyridis-theory-of-everything-el-en.md`
+**Source:** `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 
 ---
 

@@ -104,7 +104,7 @@ Key claims:
 
 **Cosmological aspect:** If force unification is geometric, then gravitational anomalies may reflect geometric properties of spacetime not captured in current models. The Platonic framework suggests that "dark matter" effects could emerge from geometric constraints on force propagation.
 
-**Source:** `translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md`
+**Source:** `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 
 ---
 

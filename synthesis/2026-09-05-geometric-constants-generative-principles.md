@@ -82,7 +82,7 @@ Key claims:
 
 **Generative aspect:** Spyridis explicitly claims that Platonic solids are not models of particles but the actual structure of particles. The geometry is not describing the particle; the geometry is the particle. The constants are not arbitrary but necessary — the only values that can produce stable form.
 
-**Source:** `translations/2026-09-04-spyridis-theory-of-everything-el-en.md`
+**Source:** `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 
 ---
 
@@ -301,7 +301,7 @@ Whatever the cause, the convergence across linguistic boundaries strengthens the
 ## Sources
 
 - `translations/2026-09-03-psicogeometria-materia-energia-es.md` — Ponce de León (Mexican psychogeometry)
-- `translations/2026-09-04-spyridis-theory-of-everything-el-en.md` — Spyridis (Greek Platonic physics)
+- `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` — Spyridis (Greek Platonic physics)
 - `translations/2026-09-04-tuo-theory-fr-en.md` — Maillot (French TUO theory)
 - `translations/2026-09-03-tuo-classical-formalism-fr.md` — Maillot (French TUO formalism)
 - `translations/2026-09-03-brazilian-scalar-generator-pt.md` — Waechter (Brazilian scalar technology)

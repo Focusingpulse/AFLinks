@@ -335,7 +335,7 @@ This is the aether as information medium — a substrate that bridges physics an
 3. `translations/2026-09-08-origines-geobiologie-geobios-fr-en.md` — French geobiology and form waves
 4. `translations/2026-09-07-consciousness-field-quantum-potential-it.md` — Italian consciousness field theory
 5. `translations/2026-09-07-extended-electromagnetism-schadach-de.md` — German extended EM theory
-6. `translations/2026-09-07-spyridis-theory-of-everything-el.md` — Greek Platonic geometry
+6. `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` — Greek Platonic geometry
 
 ---
 
