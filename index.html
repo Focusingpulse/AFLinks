@@ -779,6 +779,71 @@
             font-size: 0.72rem;
             opacity: 0.7;
         }
+        /* ─── Today's Salvage (first-paint artifact — baked, no JS needed) ─── */
+        .salvage {
+            max-width: 760px;
+            margin: 14px auto 2px;
+            padding: 0 20px;
+        }
+        .salvage-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .salvage-title {
+            color: var(--gold-bright);
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 0.02em;
+        }
+        .salvage-sub {
+            color: var(--text-dim);
+            font-size: 0.78rem;
+        }
+        .salvage-card {
+            display: block;
+            background: linear-gradient(135deg, var(--surface) 0%, #182335 100%);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--gold);
+            border-radius: 12px;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: var(--text);
+            transition: border-color 144ms ease, transform 144ms ease;
+        }
+        .salvage-card:hover,
+        .salvage-card:focus {
+            border-color: var(--gold);
+            transform: translateY(-1px);
+        }
+        .salvage-person {
+            display: block;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            margin-bottom: 2px;
+        }
+        .salvage-doc-title {
+            display: block;
+            font-weight: 600;
+            font-size: 1.02rem;
+            margin-bottom: 4px;
+            color: var(--text);
+        }
+        .salvage-preview {
+            display: block;
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            line-height: 1.45;
+            margin-bottom: 6px;
+        }
+        .salvage-meta {
+            display: block;
+            color: var(--sea-teal);
+            font-size: 0.75rem;
+            letter-spacing: 0.02em;
+        }
         /* ─── Loading / no results ─── */
         .loading {
             text-align: center;
@@ -1613,6 +1678,21 @@
         <span class="stats" id="stats">Loading...</span>
     </div>
 
+    <!-- Today's Salvage — one artifact baked into the page at build time, so the
+         first paint carries a real document (with a working link), not a spinner. -->
+    <section class="salvage" aria-label="Today's Salvage — one artifact from the hold">
+        <div class="salvage-head">
+            <span class="salvage-title">⚓ Today's Salvage</span>
+            <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
+        </div>
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/00152029.html">
+    <span class="salvage-person">👤 </span>
+    <span class="salvage-doc-title">2602.0143v1</span>
+    <span class="salvage-preview">1 Jordan Journal of Physics, Vol. 18, No 4, pp. 529-549 (2025). https://jjp.yu.edu.jo/index.php/jjp/article/view/323. https://doi.org/10.47011/18.4.10 On the origin of cosmic microwave background radiation Sergey G. Fedo…</span>
+    <span class="salvage-meta">viXra.org · Alternative Energy Technologies · Electromagnetic Theory</span>
+</a><!-- SALVAGE:END -->
+    </section>
+
     <noscript>
         <div class="noscript-box">
             <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">55,218</span> documents</strong> are still yours to explore:</p>
@@ -1714,7 +1794,7 @@
                 <div class="active-filter-display" id="activeFilterDisplay"></div>
             </div>
             <div class="results-grid" id="results"></div>
-            <div class="loading" id="loading">Loading index...</div>
+            <div class="loading" id="loading">Charting the vault — search will be ready in a moment…</div>
         </div>
     </div>
 
@@ -2157,20 +2237,28 @@
     },
 };;;;;
 
+        function sourceLabel(item) {
+            const s = item.source_site;
+            if (!s) return 'the archive';
+            if (s === 'rexresearch_com') return 'Rex Research';
+            return s.replace(/_/g, '.');
+        }
+
         function getBestUrl(item) {
             if (item.source_url && item.source_url.startsWith('http')) {
-                return { url: item.source_url, label: 'View on Rex Research →', type: 'rex' };
+                return { url: item.source_url, label: `View on ${sourceLabel(item)} →`, type: 'source' };
             }
             if (item.patent_numbers && item.patent_numbers.length > 0) {
                 const pat = item.patent_numbers[0].replace(/\s+/g, '');
                 return { url: `https://patents.google.com/patent/${pat}`, label: `View Patent ${pat} →`, type: 'patent' };
             }
-            if (item.filename && item.filename.match(/\.(pdf|htm|html)\.md$/i)) {
+            // The filename→URL guess is only honest for Rex Research docs.
+            const site = item.source_site;
+            if ((site === 'rexresearch_com' || !site) && item.filename && item.filename.match(/\.(pdf|htm|html)\.md$/i)) {
                 const base = item.filename.replace(/\.md$/i, '');
-                return { url: `https://www.rexresearch.com/${base}`, label: 'Try Rex Research →', type: 'guess' };
+                return { url: `https://www.rexresearch.com/${base}`, label: 'Try Rex Research →`, type: 'guess' };
             }
-            const query = encodeURIComponent(item.title || item.filename);
-            return { url: `https://www.rexresearch.com/search.htm?q=${query}`, label: 'Search Rex Research →', type: 'search' };
+            return null; // no honest source link — cards will show only the vault page
         }
 
         function getAetherforceLinks(categories, seed) {
@@ -3179,7 +3267,7 @@
                     ${hasAF ? '<div class="card-af-badge">⚡ Has Aetherforce content</div>' : ''}
                     <div class="card-source-link" onclick="event.stopPropagation()">
                         ${preview ? `<a href="/AFLinks/pages/${String(item.id).padStart(8, '0')}.html">🔗 Vault page</a>` : ''}
-                        <a href="${escapeHtml(link.url)}" target="_blank" style="margin-left:12px;">📄 Source: Rex Research</a>
+                        ${link ? `<a href="${escapeHtml(link.url)}" target="_blank" style="margin-left:12px;">📄 ${escapeHtml(link.label)}</a>` : ''}
                     </div>
                 </div>
             `}).join('');
@@ -3294,15 +3382,18 @@
                 </div>`;
             }
 
-            // Rex source — SECOND, below Aetherforce
-            const rexHtml = `<div class="rex-source">
-                <div class="rex-source-title">Primary Source Archive</div>
+            // Source link — SECOND, below Aetherforce
+            const sourceHtml = link ? `<div class="rex-source">
+                <div class="rex-source-title">Primary Source</div>
                 ${preview ? `<a class="rex-source-link vault-page-link" href="/AFLinks/pages/${String(item.id).padStart(8, '0')}.html">🔗 Vault page</a>` : ''}
                 <a class="rex-source-link" href="${escapeHtml(link.url)}" target="_blank">
                     📄 ${escapeHtml(link.label)}
                 </a>
-                ${item.source_url ? `<div style="margin-top:6px; font-size:0.72rem; color:var(--text-dim);">${escapeHtml(item.source_url)}</div>` : ''}
-            </div>`;
+                ${item.source_url ? `<div style="margin-top:6px; font-size:0.72rem; color:var(--text-dim);">Source URL: ${escapeHtml(item.source_url)}</div>` : ''}
+            </div>` : (preview ? `<div class="rex-source">
+                <div class="rex-source-title">In the Vault</div>
+                <a class="rex-source-link vault-page-link" href="/AFLinks/pages/${String(item.id).padStart(8, '0')}.html">🔗 Vault page</a>
+            </div>` : '');
 
             // Meta-categories section
             const metaCatsHtml = metaCats.length > 0
@@ -3347,7 +3438,7 @@
                     <div><strong>Type:</strong> ${item.type}</div>
                 </div>
                 ${afHtml}
-                ${rexHtml}
+                ${sourceHtml}
             `;
             ovl.querySelector('.modal').appendChild(docJsonLd(item));
             const ovl = document.getElementById('modalOverlay');

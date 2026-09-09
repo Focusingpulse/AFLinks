@@ -18,8 +18,10 @@ build_library_feed.py + build_slim_index.py, BEFORE commit:
 """
 
 import json
+import random
 import re
 import sys
+import html as html_mod
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -149,6 +151,40 @@ def main() -> int:
         if html != orig:
             path.write_text(html, encoding="utf-8")
             changed = True
+
+
+    # 3) Today's Salvage — bake one random artifact card (seeded by date so it's
+    #    stable per build day but rotates daily).
+    day_seed = int(re.sub(r"\D", "", str(generated_at)[:10]) or 0)
+    rng = random.Random(day_seed)
+    pool = [d for d in index if d.get("content_preview") and (d.get("title") or d.get("filename"))]
+    if pool:
+        d = rng.choice(pool)
+        title = html_mod.escape(d.get("title") or d.get("filename"))
+        person = html_mod.escape(d.get("primary_person") or "")
+        prev = html_mod.escape(d["content_preview"][:220])
+        page = f"/AFLinks/pages/{int(d['id']):08d}.html"
+        site = d.get("source_site") or ""
+        site_label = "Rex Research" if site == "rexresearch_com" else (site.replace("_", ".") if site else "the archive")
+        meta_cats = " · ".join(html_mod.escape(c) for c in (d.get("meta_categories") or [])[:2])
+        card_html = f'''<a class="salvage-card" href="{page}">
+    <span class="salvage-person">👤 {person}</span>
+    <span class="salvage-doc-title">{title}</span>
+    <span class="salvage-preview">{prev}…</span>
+    <span class="salvage-meta">{site_label}{meta_cats and f" · {meta_cats}" or ""}</span>
+</a>'''
+        # Splice into index.html between markers
+        idx_path = ROOT / "index.html"
+        idx_html = idx_path.read_text(encoding="utf-8")
+        marker_pat = re.compile(r"(<!--\s*SALVAGE:BEGIN\s*-->)(.*?)(<!--\s*SALVAGE:END\s*-->)", re.DOTALL)
+        new_idx, n = marker_pat.subn(r"\1" + card_html + r"\3", idx_html)
+        if n and new_idx != idx_html:
+            idx_path.write_text(new_idx, encoding="utf-8")
+            print(f"index.html: baked Today's Salvage -> {title[:50]}…")
+        else:
+            print("index.html: SALVAGE markers not found or no change.")
+    else:
+        print("No documents with previews — skipped salvage baking.")
 
     if not changed:
         print("No HTML changes needed (already baked).")
