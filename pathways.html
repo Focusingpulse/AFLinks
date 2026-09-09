@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Curated Pathways — Aetherforce Knowledge Vault</title>
+<meta name="description" content="Five-document journeys into the hidden sciences — plain-English context, replication angle, then the raw source. Progressive disclosure into the archive.">
+<meta property="og:title" content="Curated Pathways — Aetherforce Knowledge Vault">
+<meta property="og:description" content="Five-document journeys into the hidden sciences.">
+<meta property="og:type" content="website">
+<meta name="robots" content="index,follow">
+<style>
+:root{--bg:#0b0f14;--surface:#131a22;--surface-hover:#1d2731;--border:#2a3440;--text:#d8d3c8;--text-dim:#8a97a5;--gold:#e8b64c;--gold-bright:#ffd166;--accent:#6fc9b4;--purple:#b06a9e}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:Georgia,'Times New Roman',serif;margin:0;line-height:1.6}
+a{color:var(--gold-bright);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:900px;margin:0 auto;padding:28px 20px 80px}
+.top{font-size:.85rem;color:var(--text-dim);margin-bottom:24px}.top a{color:var(--gold-bright)}
+h1{font-size:1.6rem;color:var(--gold-bright);margin:0 0 8px}
+.sub{color:var(--text-dim);font-size:1rem;margin:0 0 28px}
+.back{display:inline-block;margin-bottom:18px;font-size:.85rem}
+.journey{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:26px}
+.journey h2{margin:0 0 6px;font-size:1.2rem;color:var(--gold-bright)}
+.jtagline{color:var(--text-dim);font-size:.92rem;margin:0 0 16px}
+.step{background:#0e141b;border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:6px;padding:14px 16px;margin-bottom:12px}
+.step .num{font-size:.72rem;letter-spacing:1px;text-transform:uppercase;color:var(--text-dim);font-weight:700}
+.step .lbl{font-size:1rem;color:var(--gold-bright);margin:2px 0 6px}
+.step .ctx{font-size:.92rem;color:#cfc9bd;margin:0 0 8px}
+.step .rep{font-size:.85rem;color:var(--accent);margin:0;border-top:1px solid #1d2731;padding-top:8px}
+.step .rep b{color:var(--accent)}
+.step .open{display:inline-block;margin-top:8px;font-size:.8rem;color:var(--gold-bright);border:1px solid rgba(232,182,76,.35);padding:3px 12px;border-radius:16px}
+.step .open:hover{background:var(--gold);color:var(--bg);text-decoration:none}
+.captain{background:#16131a;border:1px solid #3a2f40;border-left:3px solid var(--purple);border-radius:10px;padding:20px;margin-top:10px}
+.captain h2{margin:0 0 6px;font-size:1.2rem;color:#e0b4d4}
+.captain .cap-date{color:var(--text-dim);font-size:.82rem}
+.captain .cap-item{margin:12px 0}
+.captain .cap-item .cap-k{font-size:.72rem;letter-spacing:1px;text-transform:uppercase;color:#9e86b0;font-weight:700}
+.captain .cap-item p{margin:2px 0 0;font-size:.92rem}
+.captain .cap-item a{color:#d0a8d8}
+@media(max-width:600px){.wrap{padding:18px 14px 60px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · Curated Pathways</div>
+  <a class="back" href="/AFLinks/">← back to the archive</a>
+  <h1>🗺 Curated Pathways</h1>
+  <p class="sub">You don't have to wade through 52,000 documents. Each journey is five documents that build one idea — plain-English context first, the replication angle second, the raw source last. Start where you are, go as deep as you want.</p>
+  <div id="journeys"></div>
+  <div class="captain" id="captainLog">
+    <h2>⚓ Captain's Log</h2>
+    <div class="cap-date" id="capDate">weekly</div>
+    <div id="capBody"></div>
+  </div>
+</div>
+<script>
+const PATHWAYS = {
+  journeys: [
+    {
+      slug: "the-aether-story",
+      title: "The Aether Story",
+      tagline: "Five documents that trace the most consequential wrong turn in physics — from the 'null' experiment to the living thread that survived.",
+      color: "#6fc9b4",
+      steps: [
+        {doc_id: 1511212, step: 1, label: "The Experiment Everyone Cites", context: "The Michelson-Morley experiment (1887) is taught as the 'null result' that killed the aether. But the story is more contested than the textbooks say — and the measurement itself is the hinge of the whole wrong turn.", replication: "Re-examine the original experimental logic. What exactly did the interferometer measure, and what assumption does the 'null' verdict rest on?"},
+        {doc_id: 1519596, step: 2, label: "The Man Who Found the Wind", context: "Dayton Miller, the most careful aether-drift experimenter, spent decades re-measuring and found a small but persistent drift the 'null' verdict didn't explain. His 1933 model is the suppressed counter-evidence.", replication: "Miller's raw data and apparatus are documented — a modern high-precision interferometer could revisit the question with instruments he never had."},
+        {doc_id: 1519998, step: 3, label: "The Mystery Named", context: "'Ethereal Ether and Michelson's Mystery' — a modern reconciliation attempt: what if the aether isn't 'nothing' but a medium with properties the 1887 experiment was never designed to detect?", replication: "The conceptual reframe is testable: distinguish 'no aether' from 'aether with specific properties'."},
+        {doc_id: 1520177, step: 4, label: "The Living Thread — Etherodynamics", context: "Atsyukovsky's General Etherodynamics (chapter abstracts, English translation) — the most complete modern attempt to rebuild physics on an ether foundation. This is the thread that survived the wrong turn.", replication: "Read the translated abstracts first; the full work is the deep dive. This is where the aether line went from 'refuted' to 'rebuilt'."},
+        {doc_id: 1508814, step: 5, label: "The Full History", context: "Whittaker's 'A History of the Theories of Aether and Electricity' — the authoritative survey. The raw source that connects every step above into one lineage.", replication: "The capstone: read the primary history to see how the aether was dismissed and what was lost in the dismissal."}
+      ]
+    },
+    {
+      slug: "the-wrong-turn-cold-fusion",
+      title: "The Wrong Turn: Cold Fusion",
+      tagline: "Born in 1989, dismissed, suppressed, and resurrected as cavitation LENR. Five documents walk the full lineage — and the death certificate ties it together.",
+      color: "#b06a9e",
+      steps: [
+        {doc_id: 432, step: 1, label: "The Transmutation Claim", context: "Adept Alchemy's cold fusion transmutations — the claim that palladium-lattice electrolysis both produces excess heat and transmutes elements. The birth of the modern claim.", replication: "The palladium-lattice mechanism is the 'wrong mechanism' the death certificate flags. Understand it here, then watch it get replaced."},
+        {doc_id: 529, step: 2, label: "The Commercial Claim", context: "Andrea Rossi's E-Cat — the most public cold fusion reactor claim. Whether or not it works, its history is central to how the field was perceived and suppressed.", replication: "This page carries the full Wrong-Turn Lineage section — the death certificate rendered in place."},
+        {doc_id: 1314, step: 3, label: "The Patent Landscape", context: "Cold fusion patents — the legal record of a field that kept filing even as mainstream physics dismissed it. Patents are claims, not proof; the archive preserves both.", replication: "Patents specify apparatus — a starting point for what a replication would need to build."},
+        {doc_id: 3206, step: 4, label: "The Survivor: Cavitation", context: "Mark LeClair's nanospire cavitation jet machining — the surviving thread. The death certificate's 'wrong mechanism' points here: not metal lattice, but cavitation in water.", replication: "The retry_now line in the certificate names the modern instruments (micro-PIV, nano-calorimetry) that could test this cleanly."},
+        {doc_id: 2650, step: 5, label: "The Superwave Variant", context: "Dardik's Superwave cold fusion — a third mechanism variant. Together with LeClair it shows the lineage didn't die; it branched and resurfaced.", replication: "Compare the three mechanisms (lattice, cavitation, superwave) — convergence analysis across the lineage."}
+      ]
+    }
+  ]
+};
+function pad(n){return String(n).padStart(8,'0')}
+const CAPTAINS_LOG = [
+  {
+    week: "2026-09-09",
+    suppressed_doc: {doc_id: 1519596, title: "D. C. Miller's 1933 Cosmic Ether Model", why: "Dayton Miller's ether-drift measurements are the strongest documented counter-evidence to the 'null result' that killed aether physics — and they were quietly set aside. A clean modern re-measurement is the single most decisive experiment the archive's central wrong turn could retry."},
+    modern_replication: {title: "Revisit Miller's drift with a ring-laser or high-precision fiber interferometer", idea: "Miller's apparatus and raw data are documented. A modern interferometer (orders of magnitude more sensitive than his 1933 setup) could settle whether the small persistent drift he measured was real or apparatus artifact — with instruments he never had."}
+  }
+];
+function renderCaptain(){
+  const latest = CAPTAINS_LOG[0];
+  const el = document.getElementById('capDate');
+  el.textContent = 'week of ' + latest.week;
+  document.getElementById('capBody').innerHTML =
+    `<div class="cap-item"><div class="cap-k">Curated suppressed document</div>
+     <p><a href="/AFLinks/pages/${pad(latest.suppressed_doc.doc_id)}.html">${latest.suppressed_doc.title} →</a></p>
+     <p>${latest.suppressed_doc.why}</p></div>
+     <div class="cap-item"><div class="cap-k">Modern replication idea</div>
+     <p><b>${latest.modern_replication.title}</b></p>
+     <p>${latest.modern_replication.idea}</p></div>`;
+}
+function render(){
+  const cont = document.getElementById('journeys');
+  cont.innerHTML = PATHWAYS.journeys.map(j=>`
+    <div class="journey" style="border-left:3px solid ${j.color}">
+      <h2>${j.title}</h2>
+      <p class="jtagline">${j.tagline}</p>
+      ${j.steps.map(s=>`
+        <div class="step" style="border-left-color:${j.color}">
+          <div class="num">Step ${s.step}</div>
+          <div class="lbl">${s.label}</div>
+          <p class="ctx">${s.context}</p>
+          <p class="rep"><b>Replication angle:</b> ${s.replication}</p>
+          <a class="open" href="/AFLinks/pages/${pad(s.doc_id)}.html">Open document →</a>
+        </div>`).join('')}
+    </div>`).join('');
+}
+render();
+renderCaptain();
+</script>
+</body>
+</html>
