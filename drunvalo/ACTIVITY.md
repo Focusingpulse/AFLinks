@@ -1,5 +1,46 @@
 # Drunvalo Activity Log
 
+## 2026-09-09 00:00 UTC — AetherForce Synthesis: Place as Medicine
+
+### Task
+Scheduled cron: Generate cross-domain synthesis documents from AFLinks archive (every 6h)
+
+### Actions
+1. Cloned AFLinks repo from GitHub
+2. Read recent translations: geobiology origins (Geobios), consciousness field (Manzalini), extended EM (Schadach)
+3. Read existing synthesis documents to match format and avoid duplication
+4. Created synthesis/2026-09-09-place-as-medicine.md tracing the "place-as-medicine" concept from:
+   - Hippocrates (430 BCE) through Feng Shui, Vaastu Shastra, Celtic traditions
+   - Roman/Etruscan/Templar placement practices
+   - Modern geobiology (Hartmann, Curry, Rocard)
+   - Physics connections (form waves, torsion fields, consciousness field)
+5. Updated synthesis/synthesis_index.json with new entry
+6. Updated database/research-index.json with new work
+7. Updated database/person-index.json (added Hippocrates, Hartmann, Curry, Rocard)
+8. Appended checkout and 2 upgrade proposals to family_ledger.json
+9. Committed and pushed to origin/main
+
+### Cross-Domain Connections Identified
+- Underground water: universal finding across Feng Shui, dowsing, geobiology, torsion physics
+- Geometric form: universal modifier across all traditions
+- Consciousness: universal interactor with place-fields
+- Western medicine lost the place-thread; Eastern medicine preserved it
+
+### Upgrade Proposals
+1. **Hartmann-Curry grid torsion detection experiment**: First instrumental cross-validation of European geobiology and Russian torsion physics
+2. **Feng Shui-Geobiology cross-cultural validation study**: Systematic comparison testing the synthesis claim
+
+### Commits
+- `Synthesis: Place as Medicine - connecting geobiology, ancient traditions, and modern physics` pushed to AFLinks repo (commit a07ebfb)
+
+### Report
+- Status: OK
+- Synthesis created: 1
+- Sources connected: 6
+- Upgrades proposed: 2
+
+---
+
 ## 2026-09-08 06:00 UTC — AetherForce Database Refresh
 
 ### Task
