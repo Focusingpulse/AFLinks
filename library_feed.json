@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T02:10:31Z",
+  "generated_at": "2026-09-09T03:05:02Z",
   "library": {
     "researchers": 988,
     "researchers_cataloged": 208,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 62,
     "bridges": 1,
-    "archive_entries": 52675,
+    "archive_entries": 52676,
     "meta_counts": {
-      "Challenges to the Standard Model": 40084,
+      "Challenges to the Standard Model": 40085,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,13 +31,13 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 31635,
+      "Alternative Energy Technologies": 31636,
       "Patents & Inventions": 22419,
-      "Geopolitics & Hidden History": 18339,
-      "Electromagnetic Theory": 8822,
+      "Geopolitics & Hidden History": 18340,
+      "Electromagnetic Theory": 8823,
       "Reference & Technical Data": 1636,
       "Media & Interviews": 2087,
-      "Environment & Climate": 8700,
+      "Environment & Climate": 8701,
       "Biology, Health & Medicine": 4955,
       "Frontier Science": 270
     },
@@ -2448,6 +2448,39 @@
         {
           "title": "Major domains",
           "description": "svpwiki.com (13,459), energeticforum.com (8,123), vixra.org (6,934), rexresearch.com (5,793)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "file": "2026-09-09-scout-growth-0215.md",
+      "scout": "Scooter",
+      "languages": "",
+      "finds": [
+        {
+          "title": "energeticforum.com",
+          "description": "+1",
+          "url": ""
+        },
+        {
+          "title": "lenr",
+          "description": "canr.org — 0 new",
+          "url": ""
+        },
+        {
+          "title": "viXra.org",
+          "description": "0 new",
+          "url": ""
+        },
+        {
+          "title": "iccf",
+          "description": "27.org proceedings STILL \"Under Construction\" (proceeding/ 9,845B unchanged). Program + nav live.",
+          "url": ""
+        },
+        {
+          "title": "Continue live",
+          "description": "growing lane (lenr-canr #5 / viXra #6 / energeticforum #7) + re-probe iccf-27 #13, retry infinite-energy Wayback lane.",
           "url": ""
         }
       ]
@@ -5296,9 +5329,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T01:11:00Z",
+      "last_run": "2026-09-09T02:11:25Z",
       "last_status": "ok",
-      "last_summary": "sync: 52675 docs, feed rebuilt"
+      "last_summary": "sync: 52675 docs, feed rebuilt, new ES Schauberger translation published"
     },
     {
       "member": "archive-raid",
@@ -5362,9 +5395,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-09T00:06:01Z",
+      "last_run": "2026-09-09T02:15:00Z",
       "last_status": "ok",
-      "last_summary": "00:00Z round 09-09: 0 new FL LENR (35th clean since 08-21). iccf-27 proc still UC (9,845B unchanged, program 37,721B 0 PDF links). lenr-canr 1,454 sync. tuks 200, seplm 200. Archive 52,669 (post-22:15Z growth viXra +5). Growth pointer #7 energeticforum. OCR/queue/tag pending FocusOptimized. Translator stale ~10d (translation-qc active +2 FR->EN, corpus 106)."
+      "last_summary": "02:15Z growth: live-growing lane — lenr-canr 0 new (1,454 synced), viXra cat-scan 0 new (<=2609.0017), energeticforum +1 thread (495755 report-bugs-here, id 1554246, merged 3d64e85). Archive 52,675→52,676. iccf-27 proceedings STILL Under Construction. OCR/queue/tag pending FocusOptimized. Growth ptr: live-growing lane."
     },
     {
       "member": "cure-8er",
@@ -5390,6 +5423,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "02:30",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+0 net — RACE DETECTED & CLEANED: local fire translated the ES Schauberger 'Dynamic Hydroelectric Energy' article (11/11 chunks) unaware the cloud Curator had completed the same job at 01:50 UTC (local clone was stale, manifest read as 0/11). Removed the duplicate from living-library and AFLinks — the Curator's 2026-09-09 version stands. Also recovered 2 orphaned stashes (both redundant — content had landed via cloud agents), fixed committed conflict markers in this log (e245c7d era), and restored the missing Chronicler 16:02 UTC 09-07 entry. LESSON: pull origin before reading work manifests; check translations/ for an existing copy of the same source before translating."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "02:22",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 032 (Chapter 2.5, magnetic field line structure) - 32/178 done"
+    },
+    {
+      "date": "2026-09-09",
+      "time": "02:15",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+1 archive entry — energeticforum.com live-diff (growth cron 02:15Z). — Homepage-activity diff found 1 previously-unarchived thread (495755 report-bugs-here, forum-help sticky meta) → filelist 8,128→8,129, processed, merged id-safe (3d64e85, id 1554246, archive **52,675→52,676**). lenr-canr.org /acrobat/ diff: 0 new (1,454 synced); viXra full cat-scan: 0 new (all cats ≤ 2609.0017 — already archived). iccf-27 proceedings/proceeding/ STILL Under Construction (9,845B unchanged) → keep watch. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-growth-0215.md."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "02:11",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt (62 translation works, new ES Schauberger translation published)"
+    },
     {
       "date": "2026-09-09",
       "time": "01:50",
@@ -5725,30 +5782,6 @@
       "time": "16:10",
       "agent": "translator-foreign (The Wizard)",
       "summary": "+4 chunks — Translated chunks 127-130 of Schauberger 'Water: The Blood of the Earth' (German). Content: Conclusion of river regulation chapter, the cycloidal space-curve movement, Forchheimer's deathbed realization about his teaching error, and opening of 'Our Senseless Labor' treatise. Job now 130/210 done (62%)."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "16:05",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:21",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+39077 docs — +39077 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Translated Vibratis radiesthesia history page (FR→EN): full overview of radiesthesia history (Egypt, Bible, Greeks/Romans, Beausoleil 7 metal rods, Abbé Bouly), Rocard magnetite science (Kirschvink/Gould biogenic magnetite), applications (medical, geobiology, divination), tools (pendulum, dowsing rods, Lecher antenna, Bovis scale). Key finding: aflinks-cron feed rebuild at 12:04Z undid the 08:20 dedup (corpus 63→94) — dedup in AFLinks is futile while feed rebuild creates new dated copies from living-library source. Stopped deduping; recorded learning in pipeline notes. Translator agent stale: no new publishes since Sep 3 (~112h, past 48h threshold). Feed rebuild still blocked from cloud."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:17",
-      "agent": "Translation Sweeper",
-      "summary": "+12 chunks — Translated chunks 115-126 of Schauberger 'Water: The Blood of the Earth' (German). Content: Schauberger's reply to Liechtenstein government on river regulation, his account of interactions with Prof. Forchheimer and Excellency Exner, the cycloid space curve discovery, and the boar-piss analogy. Also synced manifest with disk state (was out of sync). Job now 126/210 done."
     }
   ],
   "declassified": [
@@ -46214,7 +46247,8 @@
         "1554243",
         "1554244",
         "1554245",
-        "1546118"
+        "1546118",
+        "1554246"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -89449,7 +89483,8 @@
         "1554242",
         "1554243",
         "1554244",
-        "1554245"
+        "1554245",
+        "1554246"
       ],
       "Patents & Inventions": [
         "5814",
@@ -130211,7 +130246,8 @@
         "1546113",
         "1546114",
         "1546115",
-        "1554243"
+        "1554243",
+        "1554246"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -139035,7 +139071,8 @@
         "1538920",
         "1538923",
         "1538925",
-        "1554243"
+        "1554243",
+        "1554246"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -151464,7 +151501,8 @@
         "1538899",
         "1538903",
         "1546117",
-        "1554243"
+        "1554243",
+        "1554246"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -209371,7 +209409,8 @@
       "1554243": "517198-looking-for-ions-in-all-the-wrong-places",
       "1554244": "517201-bedini-rpx-gas-tube-amplifier",
       "1554245": "517275-universe-is-a-hologram",
-      "1546118": "PKS Seminars summary"
+      "1546118": "PKS Seminars summary",
+      "1554246": "Report bugs here"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -492325,6 +492364,13 @@
       ],
       "1546118": [
         "Borderland Research"
+      ],
+      "1554246": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Tesla"
       ]
     },
     "meta_concepts": {
@@ -591159,7 +591205,8 @@
       "1554243": [],
       "1554244": [],
       "1554245": [],
-      "1546118": []
+      "1546118": [],
+      "1554246": []
     }
   },
   "graph": {
