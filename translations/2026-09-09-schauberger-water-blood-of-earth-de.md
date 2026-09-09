@@ -1,15 +1,7 @@
 ---
 name: Schauberger — Water: The Blood of the Earth
-description: "Full English translation of Viktor Schauberger's 'Wasser — Das Blut der Erde' sampler (oekotrend.ch, 2004 revision): water as the blood of the Earth, natural energy, river engineering, forestry, and implosion technology."
+description: "Translation document."
 ---
-
-- **date:** 2026-09-09
-- **domain:** water science, implosion technology, natural energy
-- **source_url:** https://oekotrend.ch/wp-content/uploads/2022/09/Viktor_Schauberger_Wasser_Das_Blut_der_Erde.pdf
-- **language:** en
-- **source_language:** de
-- **author:** Viktor Schauberger
-- **note:** translated from the German original in 210 chunks
 
 Viktor Schauberger
 

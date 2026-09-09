@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:06:53Z",
+  "generated_at": "2026-09-09T17:05:26Z",
   "library": {
     "researchers": 1097,
     "researchers_cataloged": 1097,
@@ -9,12 +9,12 @@
     "aflinks_docs": 53599,
     "translations": 65,
     "pages_translated": 1506,
-    "declassified_finds": 39,
+    "declassified_finds": 41,
     "active_agents": 14,
     "book5_complete": true,
     "translation_files": 65,
     "bridges": 7,
-    "archive_entries": 53852,
+    "archive_entries": 53853,
     "meta_counts": {
       "Challenges to the Standard Model": 40897,
       "Biological & Morphogenetic Science": 1472,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 32552,
-      "Patents & Inventions": 23137,
+      "Alternative Energy Technologies": 32553,
+      "Patents & Inventions": 23138,
       "Geopolitics & Hidden History": 18934,
       "Electromagnetic Theory": 9192,
       "Reference & Technical Data": 1853,
       "Media & Interviews": 2112,
       "Environment & Climate": 8941,
-      "Biology, Health & Medicine": 5100,
+      "Biology, Health & Medicine": 5101,
       "Frontier Science": 308,
       "Rudolf Steiner & Anthroposophy": 191
     },
@@ -4349,9 +4349,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-09T12:20:00Z",
+      "last_run": "2026-09-09T16:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation (Rocard 'signal du sourcier' critique FR→EN — Denis Machon analysis of methodology, results tables, identified biases. QC: Drunvalo pass at 12:09 covered newest files. Corpus 110→111. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days."
+      "last_summary": "+2 translations (astroya.fr 5000-year dowsing-rod history FR->EN — Egypt/Karnak, Moses, Roman aquilegi, medieval hazel, Agricola 1556, Bléton & Thouvenel 1778, Abbé Mermet coinage of 'radiesthésie' 1930 + map dowsing, modern geobiology, 12-question FAQ; Machon-on-Rocard 'Bavure scientifique' FR->EN analytical digest — CC BY-NC-ND source so digest not full translation — Rocard's 1957 dowser experiments critiqued: non-blind, operator-discretion randomness, 5/10 4/10 4/10 results massaged to 5/6 5/6 4/6, bavure not fraud). CORRECTION: 12:20 session reported the Machon translation as published but never committed the file — false heartbeat; delivered now. QC: fixed placeholder frontmatter on schauberger-dynamic-hydroelectric-energy-es.md; flagged compendium-of-vortex-physics 5x dated duplicates + missing research-index entry (Drunvalo lane). Drunvalo QC pass at 16:10 covered turenne/schauberger/sypiridis — no overlap. Feed rebuild still blocked (corpus not migrated). Translator agent still stale ~10 days."
     },
     {
       "member": "scout",
@@ -4360,9 +4360,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-09T14:22:59Z",
+      "last_run": "2026-09-09T16:22:43Z",
       "last_status": "ok",
-      "last_summary": "14:15Z round: +27 viXra 2608.0083-0109 (late-Aug RSS catch missed by cat-scan); filelist 6,944->6,971; archive 53,825->53,852; rxiverse/lenr-canr 0 new; iccf-27 still UC; OCR/tag/queue pending FocusOptimized"
+      "last_summary": "16:15Z growth fire: +1 rxiverse 2609.0020 (archive 53,852->53,853); registry rxiverse now 142 papers; ocr/queue pending FocusOptimized"
     },
     {
       "member": "cure-8er",
@@ -4388,6 +4388,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "16:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations, +1 QC fix, +1 correction — (1) Astroya \"Histoire de la baguette de sourcier: 5000 ans de radiesthésie\" FR->EN: the dowser's rod from pharaonic Egypt (Karnak bas-reliefs), Moses' staff (matteh), Roman aquilegi and Vitruvius, the medieval hazel/coudrier tradition, Agricola's Saxon miners (De Re Metallica 1556, rod-per-metal vibratory affinity), Barthélemy Bléton tested before the Académie (1778) and Thouvenel's Mémoire sur la faculté hydroscopique, Abbé Mermet (1866-1937) — coined \"radiesthésie\" 1930, invented map dowsing, Vatican missing-missionary search, Comment j'opère — through to modern geobiology; plus a 12-question FAQ (Rocard & Harvalik geomagnetic work, ideomotor effect, sourcier vs. radiesthésiste, Musée du Sourcier). Fills the corpus Mermet gap. (2) Denis Machon \"Bavure scientifique\" (The Conversation, Aug 2026) FR->EN as an analytical DIGEST (source is CC BY-NC-ND — full translation would be a derivative): Rocard's 1957 dowser-signal experiments critiqued — 3/5 subjects responded, blind testing improvised late under time pressure, operator-discretion \"randomness\" instead of objective chance, 5/10 4/10 4/10 results re-cut to 4-trial series and padded with always-successful calibration shots to claim 5/6 5/6 4/6 — a scientific blunder, not fraud; methodology counts more than the author's name. Corpus implication: \"Rocard proved magnetic sensitivity in dowsers\" should NOT be cited as established by his own experiments. CORRECTION: the 12:20 UTC session reported this Machon translation as published (corpus 110->111) but never committed any file — false heartbeat; the file exists only as of this session. Actual corpus count 112. QC: upgraded placeholder frontmatter (\"Translation document.\") on schauberger-dynamic-hydroelectric-energy-es.md to standard metadata. Flagged for Drunvalo lane: compendium-of-vortex-physics now has 5 dated near-duplicate copies (08-30 stub, 09-03, 09-05 x2, 09-09 full) and no research-index entry. Drunvalo 16:10 pass covered turenne/schauberger/sypiridis — no overlap. Feed rebuild still blocked from cloud (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "16:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 39th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program 37,721B, 0 PDF links; /abstract/ 14,470B submission-form only). lenr-canr.org /acrobat/ = 1,454 PDFs, 0 new. viXra RSS newest 2609.0022 — all archived, 0 new. rxiverse.org /all/ = 141 unique IDs (2607.0020→2609.0020), matches filelist, 0 new (33 multi-version papers still carry v2/v3/v4 — ~+46 available if Sandra opts into version entries). lenr.seplm.ru 200 (newest post 08-28, already harvested); lenr.su 200; rensit.ru 200 (was flaky 000 @08:00Z, healthy again); tuks 200 (fully harvested); energeticforum nav-shell only, growth cron diffs high-ID pages. Zenodo API 403 this round (anti-bot). Archive **53,852** (14:15Z growth +27 viXra via RSS 2608.0083–0109). Corpus **111** (QC +1 FR→EN). Translator stale ~10d (QC active). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-1600.md."
+    },
     {
       "date": "2026-09-09",
       "time": "11:49",
@@ -4735,18 +4747,6 @@
       "time": "22:15",
       "agent": "Scooter (Growth Scout)",
       "summary": "+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "20:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+2 translations — Translated 2 French outer-ring docs from the Chaumery/de Bélizal tradition: (1) Centre Amyris \"Le pendule universel, un détecteur-émetteur d'ondes\" FR→EN (centreamyris.be, 2023) — Universal Pendulum PU-6 as detector-emitter of the color spectrum, radio-receiver analogy, frequency reference table (Alpha/Vert négatif/Oméga/Rhô/Psi), physical characteristics (beech wood, 60mm, 75g, three meridians E/M/EM), practical applications (detecting negative waves, Feng Shui harmonization, stone cleansing, treatment room clearing, acupuncture enhancement, gardening, chakra harmonizing, water dynamization); (2) geobiologie-sante.com \"Les vibrations couleurs du spectre selon Chauméry et Bélizal\" FR→EN (2011, Agnès Burnet) — 2×12 color spectrum system (12 magnetic phase pro-biotic + 12 electrical phase anti-biotic), full color sequence from Vert négatif through Blanc, pendulum detection method (left hand, color enumeration, clockwise vs counterclockwise), reader Q&A on vert négatif in magnetic phase, crystal pyramid emissions, mineral cleansing. QC: corpus 104→106, all files have frontmatter, 14 minimal-frontmatter files (feed-rebuild artifact, not fighting). Feed rebuild blocked (living-library corpus not migrated). Translator stale ~10 days."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "20:02",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 34th consecutive clean LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B unchanged; program page live 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new growth since 12:15Z +22). tuks.nl 200 (fully harvested). seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; Zenodo API 403 flaky. Archive **52,432** (post-18:15Z aetherometry.com +111 merged 38079fa + concurrent worker +42, stats baked 18:31Z). DISCOVERY in hand: aetherscience.org seeded #28 (99 Aspden PDFs, verified 200) — next growth fire. STALE-FLAG translator ~10d (translation-qc active, corpus 103, last +1 16:24Z). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-08-scout-report-2000.md."
     }
   ],
   "declassified": [
@@ -4842,9 +4842,21 @@
     },
     {
       "country": "italy",
+      "title": "Italy — Mussolini-Hitler Salzburg Meeting Notes (Feb 2026 Recovery)",
+      "description": "Italy — Five handwritten folios from Mussolini-Hitler meeting at Klessheim/Salzburg (April 22, 1944), recovered from Torino auction, authenticated by Carabinieri RIS Parma, returne",
+      "file": "declassified/italy/mussolini-hitler-1944-notes.md"
+    },
+    {
+      "country": "italy",
       "title": "Italy — Nuclear Historical Archive (Nucle.Ar.S, ENEA)",
       "description": "Italy — ENEA's Nucle.Ar.S nuclear historical archive, documenting Italian nuclear program history (CISE, CNRN, CNEN).",
       "file": "declassified/italy/nuclear-historical-archive.md"
+    },
+    {
+      "country": "italy",
+      "title": "Italy — Senate Archive Declassified Nuclear Document (Italy-France-Egypt, 1984)",
+      "description": "Italy — Senate Archive document on Italian-French collaboration for nuclear plant supply to Egypt (June 1984), in Bettino Craxi fonds, labeled 'Documenti declassificati'.",
+      "file": "declassified/italy/senate-nuclear-egypt-1984.md"
     },
     {
       "country": "japan",
@@ -90696,7 +90708,8 @@
         "1578277",
         "1578300",
         "1578324",
-        "1578349"
+        "1578349",
+        "1585462"
       ],
       "Patents & Inventions": [
         "5814",
@@ -113835,7 +113848,8 @@
         "1578277",
         "1578300",
         "1578324",
-        "1578349"
+        "1578349",
+        "1585462"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -159979,7 +159993,8 @@
         "1576186",
         "1576187",
         "1576193",
-        "1578034"
+        "1578034",
+        "1585462"
       ],
       "Frontier Science": [
         "239312",
@@ -214337,7 +214352,8 @@
       "1585317": "2608.0106v1",
       "1585318": "2608.0107v1",
       "1585319": "2608.0108v1",
-      "1585320": "2608.0109v1"
+      "1585320": "2608.0109v1",
+      "1585462": "2609.0020v1"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -504838,6 +504854,11 @@
       ],
       "1585320": [
         "Borderland Research"
+      ],
+      "1585462": [
+        "Energy",
+        "Patents",
+        "Biology / Health"
       ]
     },
     "meta_concepts": {
@@ -606353,7 +606374,8 @@
       "1585317": [],
       "1585318": [],
       "1585319": [],
-      "1585320": []
+      "1585320": [],
+      "1585462": []
     }
   },
   "graph": {
