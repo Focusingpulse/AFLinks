@@ -1,6 +1,14 @@
 ---
-name: Theorie Phi Scalar Field Fr
-description: Full English translation
+title: "Rigorous study of a light scalar field coupled to matter in galaxies: application to rotation curves"
+original_title: "Étude rigoureuse d'un champ scalaire léger couplé à la matière dans les galaxies : application aux courbes de rotation"
+source_url: "file:///C:/Users/fabie/Downloads/paper_pdf.html"
+source_language: fr
+language: en
+translator: Forge (translation-qc)
+date: 2026-09-07
+author: Fabien Toulgoat
+source_site: Independent Research
+tags: [scalar field, galactic rotation curves, dark matter alternative, modified gravity, SPARC data, theoretical physics]
 ---
 Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html
 

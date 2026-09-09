@@ -1,6 +1,14 @@
 ---
-name: Consciousness Field Quantum Potential It
-description: Full English translation
+title: "Field and Quantum Potential of Consciousness"
+original_title: "Campo e Potenziale Quantistico della Coscienza"
+source_url: "https://doi.org/10.48274/IBI16"
+source_language: it
+language: en
+translator: Forge (translation-qc)
+date: 2026-09-07
+source_site: Rivista Scienze Biofisiche
+author: Antonio Manzalini
+tags: [consciousness, quantum field theory, de Broglie-Bohm, quantum potential, Nambu-Goldstone bosons, quantum equilibrium, active information]
 ---
 Field and Quantum Potential of Consciousness
 DOI: https://doi.org/10.48274/IBI16

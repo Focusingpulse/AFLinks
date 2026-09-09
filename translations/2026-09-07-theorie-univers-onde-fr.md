@@ -1,6 +1,15 @@
 ---
-name: Theorie Univers Onde Fr
-description: Full English translation
+title: "Wave Universe Theory (TUO): From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology"
+original_title: "Théorie de l'Univers Onde (TUO) : From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology"
+source_url: "https://zenodo.org/records/"
+source_language: fr
+language: en
+translator: Forge (translation-qc)
+date: 2026-09-07
+source_date: 2025
+author: François Maillot
+source_site: Zenodo
+tags: [wave universe theory, TUO, vacuum electromagnetism, gravitation, cosmology, covariant reformulation, alternative physics]
 ---
 Skip to main
 

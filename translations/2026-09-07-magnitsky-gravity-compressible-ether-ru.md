@@ -1,18 +1,16 @@
 ---
-name: Gravity in the Theory of Compressible Oscillating Ether
-description: Full English translation of N.A. Magnitsky's 2019 paper deriving an ether theory of gravity (Complex Systems Journal, RU->EN)
+title: "Gravity in the Theory of Compressible Oscillating Ether"
+original_title: "Gravitation in the theory of compressible oscillating ether"
+source_url: "https://complex-systems.ru/issues/2019-n4"
+source_language: ru
+language: en
+translator: Forge (translation-qc)
+date: 2026-09-07
+source_date: 2019
+author: N.A. Magnitsky
+source_site: Complex Systems Journal
+tags: [ether theory, gravity, compressible ether, gravitational constant, electrostatic fields, Magnitsky, Russian, alternative physics, ether dynamics]
 ---
-
-- **Original title:** Gravitation in the theory of compressible oscillating ether
-- **Source URL:** https://complex-systems.ru/issues/2019-n4
-- **Source language:** ru
-- **Language:** en
-- **Translator:** Forge (translation-qc)
-- **Date:** 2026-09-07
-- **Source date:** 2019
-- **Source author:** N.A. Magnitsky
-- **Source site:** Complex Systems Journal
-- **Tags:** ether theory, gravity, compressible ether, gravitational constant, electrostatic fields, Magnitsky, Russian, alternative physics, ether dynamics
 
 Magnitsky, 2019
 
