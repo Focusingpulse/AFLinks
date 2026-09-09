@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T05:29:10Z",
+  "generated_at": "2026-09-09T06:05:38Z",
   "library": {
     "researchers": 989,
     "researchers_cataloged": 208,
@@ -44,8 +44,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 2,
-    "replication_dossiers": 3,
+    "practical_quests": 3,
+    "replication_dossiers": 4,
     "validations": 0
   },
   "latest_translations": [
@@ -5407,9 +5407,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-09T05:01:35Z",
+      "last_run": "2026-09-09T05:47:22Z",
       "last_status": "ok",
-      "last_summary": "+142 chunks since last run (now 166/210) | full-translating Schauberger — Water: The Blood of the Earth (de) 166/210 chunks | backlog 392 (gear: quota)"
+      "last_summary": "+8 chunks since last run (166->174) | full-translating Schauberger 'Water: The Blood of the Earth' (de) 174/210 chunks, source already archived 2026-09-03 | backlog 392 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5534,6 +5534,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "05:47",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-gear run: translated Schauberger 'Water: The Blood of the Earth' chunks 171-174 (de->en) — water purification pipe mechanics, oxygen/carbon circulation in the Drallrohr, and the opening of the 'Pulsation of Water' chapter. Now 174/210 chunks. Source PDF already archived 2026-09-03. Backlog: 392 sources."
+    },
     {
       "date": "2026-09-09",
       "time": "05:17",
@@ -5887,12 +5893,6 @@
       "time": "08:00",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — 28th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200 but empty body) — hot watch; conference ran Aug 31–Sep 4 (Niagara Falls), ENG8 PRVR scaling talk confirmed held; likeliest next FL source when slides/proceedings drop. Zenodo keyword 362 / fulltext 508 (query-normalized): newest real still 22036645 (08-21); closed 22166688 (GRC eng) + 22117461 (17O-water eng); PLEG 21999691 = EN not FL. viXra at 2609.0012 max (probed 0013–0020 → 404). Exa RU/EN/ZH fresh window = knowns/mainstream only (Krivit review, Lin 锦义 pool, Lebedkin STPC III, Fernandez TTC — all tracked/old). Archive 30,542 docs / 979 researchers / 2,339 patents / 57 trans / 967 pg (stats baked 08:03:14Z aflinks-sync 5528bf6; viXra +11 @06:22Z f1dbd05). Rotation → energeticforum (index 7, enumerate @08:15 growth fire). Fleet active (aflinks-sync feed rebuild 08:03Z, Drunvalo db refresh 06:05Z, Forge QC 04:26Z); translator pipeline NOT stale (sweeper Schauberger chunks 71–82 @09-06 08:17Z; 48h trips 09-08 08:17Z). No claims (only Essai de Radiesthésie, QC 09-06, 1 day — healthy). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-0800.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Translated Servranx brothers history + origins of radionics (FR→EN, servranx.com): biography of Félix & William Servranx, their journal La Radiesthésie pour tous (1946–1967), EXDOCIN dossiers (1957–1966), and the origins of radionics from Abrams (1863–1924) through Boyd, Mac Manis, Ruth Drown, Guyon Richards — four paths of radionics (electrical, pure adjustment, drawn schematics, beeswax). QC: aflinks-cron feed rebuild (73464c0) stripped frontmatter again — not re-fixing (documented as futile; feed rebuild is authority). Corpus 99. Translator agent stale: no new publishes since ~Aug 30 (~9 days, well past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
     }
   ],
   "declassified": [
@@ -592267,6 +592267,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-09-hyperbolic-funnel-vortex.md",
+        "date": "2026-09-09",
+        "title": "Hyperbolic Funnel Water Vortex Aerator",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Water Vortex Aerator\n\n**Guild:** Aetherforce — Water\n**Quest Line:** ⚡ Aetherforce · Greywater & Willow complement\n**Tier:** straw\n**Domain:** water\n**Status:** proposed\n\n---\n\n## Que"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-08-tesla-radiant-receiver.md",
         "date": "2026-09-08",
         "title": "quest card 003 — Tesla radiant energy receiver",
@@ -592282,6 +592289,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-09-dossier-004-hyperbolic-funnel-vortex.md",
+        "date": "2026-09-09",
+        "title": "Dossier 004 — Walter Schauberger Hyperbolic Funnel Vortex",
+        "status": "draft",
+        "excerpt": "# Dossier 004 — Walter Schauberger Hyperbolic Funnel Vortex\n\n**Status:** protocol_ready\n**Created:** 2026-09-09\n**Source:** JoVE peer-reviewed experimental protocol (2023)\n**Source URL:** https://app."
+      },
       {
         "file": "synthesis/replication/2026-09-08-dossier-003-tesla-radiant-receiver.md",
         "date": "2026-09-08",
