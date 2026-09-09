@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:32:03Z",
+  "generated_at": "2026-09-09T04:11:49Z",
   "library": {
     "researchers": 988,
     "researchers_cataloged": 208,
@@ -732,6 +732,54 @@
     }
   ],
   "latest_finds": [
+    {
+      "date": "2026-09-09",
+      "file": "2026-09-09-scout-a-it-pt-ar.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Tesla's 1942 Interview on Cosmic Energy",
+          "description": "Newly Declassified 2025",
+          "url": ""
+        },
+        {
+          "title": "Aether Hypothesis and Classical Physics Crisis",
+          "description": "Academic Analysis",
+          "url": ""
+        },
+        {
+          "title": "CATCHER Project",
+          "description": "Converting Atmospheric Humidity to Electricity",
+          "url": ""
+        },
+        {
+          "title": "Free Energy Overview",
+          "description": "Tesla, Keely, Schauberger, Moray, Searl, Meyer",
+          "url": ""
+        },
+        {
+          "title": "Rupert Sheldrake Interview",
+          "description": "Morphic Fields and Materialist Science Critique",
+          "url": ""
+        },
+        {
+          "title": "Shape Power",
+          "description": "Aether Physics, Keely, Reich, Schauberger (Full PDF)",
+          "url": ""
+        },
+        {
+          "title": "Geographic origin",
+          "description": "** Egypt (Al-Ahram newspaper, Cairo)",
+          "url": ""
+        },
+        {
+          "title": "Researchers",
+          "description": "** Nikola Tesla (interviewee), U.S. Information Science Agency agent (interviewer)",
+          "url": ""
+        }
+      ]
+    },
     {
       "date": "2026-09-07",
       "file": "2026-09-07-scout-b-pt-pl-ko-cs-nl-uk.md",
@@ -5336,9 +5384,9 @@
       "mission": "Hunts the global web in 2-3 rotating languages overnight for rare and vanishing research.",
       "schedule": "nightly 10pm MDT",
       "icon": "🌙",
-      "last_run": "2026-09-07T04:05:54Z",
+      "last_run": "2026-09-09T04:03:29Z",
       "last_status": "ok",
-      "last_summary": "+1 file since last run (6->7) | 12 new finds across JA/ZH/AR/ES/RU/IT: Tesla aether/antigravity, water memory/Pollack, qigong/quantum info, quantum resonance medicine, star-powered ether, LENR dark hydrogen, torsion generators, Schauberger vortex, Keely/sacred geometry (gear: overdrive)"
+      "last_summary": "15 finds total (first recorded) | IT/PT/AR languages (gear: quota)"
     },
     {
       "member": "polyglot-scout-b",
@@ -5358,9 +5406,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-09T01:51:26Z",
+      "last_run": "2026-09-09T03:58:01Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 23) | full-translated Schauberger Dynamic Hydroelectric Energy / Suction Turbine + Herbrand Anomaly (es) 11/11 chunks, source archived 09-08 | marked 2 dead links (teslavital 404 no-wayback, zenodo DOI unregistered) | backlog 386 (gear: quota)"
+      "last_summary": "+1 archives since last run (23->24) | Reich Ether Physics (de) 24/230 chunks, +4 this run | archived orgonomie.net PDF (2.7MB, 242pp) | marked 3 dead jobs: zenodo DOI dead, teslavital 404, academia JS wall | backlog 386 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5485,6 +5533,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-09",
+      "time": "04:04",
+      "agent": "Book4 Translate",
+      "summary": "+3 chunks — Translated chunks 039-041 (Chapter 3: Lorentz force, inductance mechanism, self-induction). Windows cron (translator-ats) active within 2h window - reduced batch size. Progress: 34→41/178 (23%)."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "04:03",
+      "agent": "Polyglot Scout A",
+      "summary": "+6 finds — Night Scout run: 6 multilingual finds across IT/PT/AR. Key discoveries: newly declassified 1942 Tesla interview (Arabic, Al-Ahram), CATCHER atmospheric humidity-to-electricity project (PT, EIC-funded), Shape Power PDF full book (IT, aether/Keely/Reich/Schauberger), Sheldrake morphic fields interview (PT, Feb 2026), free energy overview synthesis (PT). Quota mode, budget gate passed."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "03:58",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota run: +4 chunks on Wilhelm Reich Ether Physics & Orgone Experiments (de, orgonomie.net) now 24/230 — translated the theory-of-science section (Popper falsification critique, Goenner on relativity, orgone vs neutrino detection analogy). Archived durable copy of the 242pp source PDF (2.7MB). Cleaned queue: marked 3 dead/blocked jobs — zenodo DOI 15609842 dead (MVP Vortex Motor), teslavital.fr article 404, academia.edu behind JS wall."
+    },
     {
       "date": "2026-09-09",
       "time": "03:21",
@@ -5826,24 +5892,6 @@
       "time": "00:05",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "00:01",
-      "agent": "The Chronicler",
-      "summary": "+220 chunks — Book 5 COMPLETE: all 220 Atsyukovsky chunks now have English translations"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "20:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+2 translations, +78 frontmatter fixes — Batch-fixed frontmatter across entire corpus: added language: en and source_language: to 78 files that were missing them (standardized field names, cleaned old-format source_lang:/target_lang:/target_language: on 5 files). All 93→95 files now have consistent language metadata. Translated 2 French outer-ring docs: (1) GaiaMamart \"Petit historique de la théorie des ondes de formes\" FR→EN — history of form waves from ancient architecture through Lakhovsky, Chaumery/de Belizal/Morel, to Sheldrake's morphic resonance; (2) Geobios \"L'antenne de Lecher\" FR→EN — Lecher antenna as professional geobiology tool, physical vs mental radiesthesia, wavelength graduations for physical phenomena (magnetic north 5.7, electric field 7.8, gamma 8.6, radon 3.5, form emission 7.4). Translator agent stale: no new publishes since Sep 3 (~120h, past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "20:02",
-      "agent": "The Chronicler",
-      "summary": "+0 chunks — Book 5 translation COMPLETE: all 220/220 chunks translated to English. No remaining untranslated chunks."
     }
   ],
   "declassified": [
