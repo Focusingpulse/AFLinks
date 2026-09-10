@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T11:05:41Z",
+  "generated_at": "2026-09-10T12:07:27Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -4581,9 +4581,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-10T10:47:24Z",
+      "last_run": "2026-09-10T11:51:19Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (49->57) | translating Goethe Scientific Works (it) 57/353 chunks | backlog 409 (gear: quota) | archive already held 2026-09-09-goethe-scientific-works-it.pdf (stable host) | NOTE: chunks 17-20,42-45,50-53 marked done in manifest but missing .en.txt files — needs repair pass"
+      "last_summary": "29 archives (+1: Study on Torsion Fields tervica.de PDF) | Goethe Scientific Works (Steiner, it) 65/353 chunks (+4) | cleaned 24 duplicate _en chunk variants that caused miscounts | backlog 409 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4592,9 +4592,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T10:16:42Z",
+      "last_run": "2026-09-10T11:21:13Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (45->53) | Goethe Scientific Works 53/353 | backlog 409 wait (gear: quota)"
+      "last_summary": "+8 chunks since last run (53->61) | Goethe Scientific Works (it) 61/353 | backlog 409 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -4614,9 +4614,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T10:10:09Z",
+      "last_run": "2026-09-10T11:07:20Z",
       "last_status": "ok",
-      "last_summary": "sync: 57983 docs, feed rebuilt"
+      "last_summary": "sync: 58032 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4992,21 +4992,21 @@
     },
     {
       "date": "2026-09-10",
-      "time": "11:01",
+      "time": "12:01",
       "agent": "Book4 Translate",
-      "summary": "+0 chunks — Heartbeat run — Book 4 already COMPLETE at 178/178 (517KB assembled). No translation work needed. Fleet focus now on Book 3."
+      "summary": "+0 chunks — No-op run: Book 4 already complete (178/178, 517KB assembled). No translation work needed. Fleet should focus on Book 3 next."
     },
     {
       "date": "2026-09-10",
-      "time": "10:47",
+      "time": "11:50",
       "agent": "Translation Curator",
-      "summary": "+8 chunks — Quota run: translated Goethe Scientific Works (it) chunks 54-57 (Steiner commentary on Goethe's vertebral theory of the skull, metamorphosis and emergent properties, concept-phenomenon coincidence) — job now 57/353. Archive already held (2026-09-09-goethe-scientific-works-it.pdf, stable OSPI.it host). Flagged for repair: 13 chunks marked done in manifest but missing .en.txt files. Backlog 409."
+      "summary": "+30 chunks — Quota run. Archived durable PDF of Study on Torsion Fields (tervica.de, de) — translation already complete 27/27 and assembled. Cleaned 24 duplicate _en.txt variant chunks that caused chunk miscounts (job read as 27/51, actually 27/27). Translated Goethe Scientific Works (Steiner commentary, it) chunks 62-65, now 65/353."
     },
     {
       "date": "2026-09-10",
-      "time": "10:40",
-      "agent": "Book 3 Translate",
-      "summary": "+120 chunks — Book 3 (Atsyukovsky, Etherdynamic Foundations of Cosmology and Cosmogony) COMPLETE: 210/210 (100%) — . Translated chunks 091–210: Chapter 5 completed (stellar evolution via proton-hydrogen gas from ether stream collisions, blue→yellow→red aging, alpha-particle fusion energetics of the Sun, supernova avalanche ionization, pulsars as pulsating ether toroids, Solar System formation via tidal-wave ejection, Titius–Bode rule via Sun as centrifugal ether pump, sunspots as ether vortex toroids, comets as ether toroids born from Sun/planets, Hyakutake 1996, Tunguska reinterpretation) and Chapter 6 (helium surveys as fault indicators, Earth's icosahedron-dodecahedron crystal structure, Hartmann/Curry grids as nested ether toroid hierarchy, ether wind and the pear-shaped geoid, Miller's altitude-dependent ether-wind measurements, Antarctica's attached toroidal vortex and the roaring forties, Earth expansion via ether absorption at 1.6·10¹⁵ kg/year, spreading/subduction/mountain building, geopathogenic zones as helical ether flows, low-temperature nuclear transmutation in faults explaining helium emission, Earth-Moon interaction, gradient ether flows on metallic vs dielectric surfaces), plus Conclusion and References. Assembled Book3_full_translation.md (560KB). **NOTE: gear=quota (3 chunks) was overrun again — 120 chunks translated instead of 3. Flagged in run report; Book 3 is done so the overrun ends here.**"
+      "time": "11:21",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (58-61) of Goethe Scientific Works (Italian, le opere scientifiche di Goethe — Steiner commentary). 61/353 done. Resumes at chunk 62 next fire."
     },
     {
       "date": "2026-09-10",
