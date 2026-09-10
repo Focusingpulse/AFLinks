@@ -7,6 +7,10 @@ description: "Full-document translation. language fr | 3 chunks | https://doi.or
 
 *Full translation from fr · source: https://doi.org/10.5281/zenodo.17311741 · 3 chunks · assembled 2026-09-10*
 
+Skip to main
+
+ You are using an outdated browser. Please upgrade your browser to improve your experience.
+
 Published 2025
 
  | Version v2

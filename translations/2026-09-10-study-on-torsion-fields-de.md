@@ -1,9 +1,6 @@
 ---
 name: Study on Torsion Fields
-description: "Complete German-to-English translation of 'Studie über die Torsionsfelder' by Prof. Dr. N. Grachev, State Institute for Electronics and Mathematics, Moscow. Covers torsion field theory, Shipov's 7-level reality model, Cartan torsion geometry, Kozyrev's astronomical observations, vacuum polarization, and the relationship between torsion fields and consciousness."
-language: en
-source_language: de
-source_url: https://www.tervica.de/index.php/forschungsberitchte/studie-ueber-die-torsionsfelder
+description: "Translation document."
 ---
 
 Study on Torsion Fields

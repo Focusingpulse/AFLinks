@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:06:24Z",
+  "generated_at": "2026-09-10T09:05:59Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 76,
     "bridges": 7,
-    "archive_entries": 57887,
+    "archive_entries": 57983,
     "meta_counts": {
-      "Challenges to the Standard Model": 43944,
+      "Challenges to the Standard Model": 44010,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,9 +31,9 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 34863,
-      "Patents & Inventions": 24823,
-      "Geopolitics & Hidden History": 20481,
+      "Alternative Energy Technologies": 34886,
+      "Patents & Inventions": 24827,
+      "Geopolitics & Hidden History": 20486,
       "Electromagnetic Theory": 9685,
       "Reference & Technical Data": 1962,
       "Media & Interviews": 2237,
@@ -887,6 +887,54 @@
     }
   ],
   "latest_finds": [
+    {
+      "date": "steiner-ro",
+      "file": "steiner-roots-2026-09-10.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Design",
+          "description": "Double-blind, randomized, placebo-controlled; n=290 patients across 9 Swedish oncology centers (2016–2021)",
+          "url": ""
+        },
+        {
+          "title": "Intervention",
+          "description": "Subcutaneous fermented mistletoe extract (Iscador Qu, oak-grown) vs placebo, thrice weekly for 9 months, in addition to standard palliative chemotherapy or best supportive care",
+          "url": ""
+        },
+        {
+          "title": "Primary endpoint",
+          "description": "Overall survival (OS)",
+          "url": ""
+        },
+        {
+          "title": "Results",
+          "description": "- Adjusted HR for OS: **1.13 [95% CI: 0.89–1.44]** — no benefit",
+          "url": ""
+        },
+        {
+          "title": "Conclusion",
+          "description": "\"ME is unlikely to have a clinically significant effect on OS or HRQoL when administered in patients with advanced pancreatic cancer in addition to comprehensive cancer care.\"",
+          "url": ""
+        },
+        {
+          "title": "Scope",
+          "description": "All RCTs and non-randomized trials of AM-specific monotherapies, excluding mistletoe (already reviewed elsewhere); searched 7 databases through Nov 2024",
+          "url": ""
+        },
+        {
+          "title": "Included",
+          "description": "17 publications from 360 hits (5 RCTs, 2 non-randomized trials, 10 pharmacovigilance/safety studies)",
+          "url": ""
+        },
+        {
+          "title": "Conditions",
+          "description": "Allergic rhinitis, pain, stroke, neurasthenia, menstrual symptoms, osteoarthritis",
+          "url": ""
+        }
+      ]
+    },
     {
       "date": "steiner-ro",
       "file": "steiner-roots-2026-09-09.md",
@@ -4524,9 +4572,9 @@
       "mission": "Second overnight sweep in a different set of languages — catches what the first pass missed.",
       "schedule": "nightly 2am MDT",
       "icon": "🌅",
-      "last_run": "2026-09-09T08:04:46Z",
+      "last_run": "2026-09-10T08:06:08Z",
       "last_status": "ok",
-      "last_summary": "+6 finds (first recorded) | de/ru/ja (gear: quota)"
+      "last_summary": "6 finds | de/ru/ja search (gear: quota)"
     },
     {
       "member": "translation-curator",
@@ -4535,9 +4583,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-10T07:46:45Z",
+      "last_run": "2026-09-10T08:48:57Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 28) | +4 chunks Goethe Scientific Works (it) 32/353 | backlog 404 (gear: quota)"
+      "last_summary": "+0 archives since last run (still 28) | active job Goethe Scientific Works (it) advanced 20->24/353 chunks (+4 this run, quota mode) | backlog 409 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4546,9 +4594,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T07:17:36Z",
+      "last_run": "2026-09-10T08:16:54Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks this run | Goethe Scientific Works (it) 28/353 | backlog 404 wait (gear: quota)"
+      "last_summary": "+9 chunks since last run (28->37) | Goethe Scientific Works 37/353 | backlog 409 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -4568,9 +4616,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T07:08:38Z",
+      "last_run": "2026-09-10T08:10:44Z",
       "last_status": "ok",
-      "last_summary": "sync: 57872 docs, feed rebuilt"
+      "last_summary": "sync: 57887 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4623,9 +4671,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-10T04:20:00Z",
+      "last_run": "2026-09-10T08:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation (André Bovis & the Bovis Scale FR->EN, soins-energetiques-distance.fr 2025: real biography of the Nice inventor — not the mythical Egyptologist; 1930 ruler in angstroms, 6500 UB neutral point, Bovis Biometer calibrated with engineer André Simoneton on the sun's red spectrum, reference values for persons/foods/sacred sites, paired with the scientific critique — Chevreul 1854, Munich experiment, ideomotor effect). QC: Drunvalo 04:07 pass already deduped 14 feed-rebuild duplicates + repaired a mangled filename — no double work; new additions (Wizard stream: IT/ES/DE/PT/FR docs) frontmatter verified consistent. Mojibake (UTF-8 em-dash mangled) in 3 files incl. magnitsky — source-side fix needed, not fighting feed rebuild. Corpus 117->123. Feed rebuild still blocked from cloud (living-library not migrated). STALENESS FLAG LIFTED: translator agent (agent-75b8d29e) ALIVE — Magnitsky ether-gravity paper assembled full-document 18/18 chunks, published 2026-09-10."
+      "last_summary": "+1 translation (Brocéliande radiesthesia/geobiology history FR->EN, Encyclopédie de Brocéliande: scholarly lineage of the French tradition in Paimpont forest — Bouly 1926, Louis Merle 1933 telluric-megalith correspondences, Paul Bouchet/Bod Koad neo-druidic cosmotellurism, Peyré 1947 + Hartmann networks, Altenbach & Legrais 1987 first energy circuit, Markale 1996, Landspurg & L'Hostis 1999 H.L.V. measurements, Bocher & Roparz 2011 Bovis-scale vortices — first doc in the Brocéliande lane Sandra flagged). QC: Drunvalo 08:09 pass already covered the 04:20->08:20 additions (frontmatter, dedup, person-index Grachev/Maillot/Kozyrev/Del Giudice) — verified, no double work. New Wilhelm Reich Oranur-Physics book translation (594KB, orgonomie.net) reviewed: genuine full-book EN translation, minimal frontmatter flagged for source-side metadata. Feed rebuild still blocked from cloud (living-library not migrated). Corpus 123->133 (Wizard/aflinks-cron stream growth). Translator agent alive (Magnitsky assembly 09-10). Mojibake (em-dash cp1252) persists in magnitsky + extended-theory-of-electromagnetism titles — source-side fix needed."
     },
     {
       "member": "scout",
@@ -4946,21 +4994,27 @@
     },
     {
       "date": "2026-09-10",
-      "time": "08:02",
+      "time": "09:00",
       "agent": "Book4 Translate",
-      "summary": "+0 chunks — Book 4 already complete (178/178). No work needed. Book 3 flagged as next target — needs chunking + crons repointed before work can start."
+      "summary": "+0 chunks — No-op run: Book 4 already COMPLETE (178/178, Book4_full_translation.md assembled, 517KB). Gear=quota. Fleet has moved to Book 3 — translator-ats at 16/210. This cron is ready to repoint to Book 3 once its chunks + manifest exist."
     },
     {
       "date": "2026-09-10",
-      "time": "07:46",
+      "time": "08:50",
       "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota run: +4 chunks on Goethe Scientific Works (it), now 32/353. Chunks 29-32 cover entelechy (form/force unity), Goethe-vs-Linnaeus comparison via Barsanti, and genesis of Goethe's animal type ideas (Urtier, organ preponderance law, cephalic/rhythmic/metabolic organization in birds/felines/bovines). Source already archived."
+      "summary": "+2 jobs-completed — Manifest desync repair: 3 job manifests lagged disk state (sweeper writes en files without updating manifest). Synced: Schauberger Water-Blood-of-Earth (de) 210/210 complete, Reich Ether Physics (de) 230/230 complete — both assemblies verified full-size. Goethe Scientific Works (it) now 41/353. Prevents duplicate re-translation. Backlog effectively 406."
     },
     {
       "date": "2026-09-10",
-      "time": "07:17",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (25-28) of Goethe Scientific Works (Italian, ospi.it) — Steiner on plant metamorphosis, Linnaeus as 'Freud of the vegetable world', expansion/contraction cycles, Hegel's critique. Job at 28/353."
+      "time": "08:49",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (38-41) of Goethe Scientific Works / Steiner (it), job now 24/353. Verified all 31 work jobs: 24 fully done+assembled, 2 dead links, 4 active (Goethe 24/353, Reich ether physics 230/230 on disk awaiting manifest sync, Schauberger Water-Blood-of-Earth 210/210 on disk awaiting manifest sync). Backlog 409."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "08:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — \"Radiesthesia and Geobiology in the Forest of Brocéliande: A Historical Approach to a Social Phenomenon\" (FR→EN, Encyclopédie de Brocéliande, broceliande.brecilien.org). — The scholarly history of how the French radiesthesia/geobiology tradition took root in Paimpont: Abbé Bouly's 1926 coinage of \"radiesthésie\" (with the 1929 Amis de la radiesthésie association counting Branly, Deslandres, d'Arsonval, Meillère); Louis Merle's 1933 *Radiesthésie et préhistoire* — the first telluric-current/megalith correspondence theory; Paul Bouchet (\"Grand Druid Bod Koad\") and the Atlantean-druidic cosmotellurism that sold 100,000 copies via Laffont 1976; Doctor Peyré's 1947 cosmo-telluric radiation grid and Ernst Hartmann's global network (H-grid, Curry grid); the first Brocéliande energy literature — Chesneau 1981/83, Pegeaud 1985, Fabre's 1986 Opera of the Waters, Altenbach & Legrais 1987 (Laffont \"Énigmes de l'univers\") with geodynamometer life-wave readings at Tréhorenteuc (25+), Barenton (5+), Paimpont abbey choir (32+); Markale 1996; Landspurg & L'Hostis 1999 with H.L.V. vibratory measurements (Jardin aux Moines 250, Hôtié de Viviane 2500, Tomb of Merlin); Bocher & Roparz 2011 (Mermet pendulum, Lecher antenna, Bovis scale — Jardin aux Moines as \"authentic vortex,\" Hêtre de la Gelée at 60,000 UB); through Aurélie Aimé 2022 and the therapist economy of the 2010s. First document in the Brocéliande geobiology lane Sandra flagged as part of the French material she cares about."
     },
     {
       "date": "2026-09-10",
@@ -5015,12 +5069,6 @@
       "time": "04:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Abel Martin 1932 veterinary radiesthesia thesis article FR→EN (guerisseur-radiesthesiste.fr): short piece documenting the first doctoral degree ever awarded to a radiesthésiste — Dr. Abel Martin defended \"Diagnostic radiesthésique en médecine vétérinaire\" on 21 January 1932 at the Faculté de médecine de Paris, received with distinction, accepted by the open-minded Maisons-Alfort veterinary school. Adds institutional-history context to the French tradition. QC: Schauberger es→en (Dynamic Hydroelectric Energy, published 09-08) reviewed — frontmatter complete, content in English, PASS. Drunvalo QC agent ran at 04:10 (frontmatter fixes, duplicate removal) — coordinated, no overlap. Corpus 108→109. Feed rebuild still blocked (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days. Scout reports FR patent layer (FR 816.132, 1936) and thesis lane (Durand 2004, Martin 1932) now mapped — rich French radiesthesia tradition documented."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "02:15",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+1 archive entry — energeticforum.com live-diff (growth cron 02:15Z). — Homepage-activity diff found 1 previously-unarchived thread (495755 report-bugs-here, forum-help sticky meta) → filelist 8,128→8,129, processed, merged id-safe (3d64e85, id 1554246, archive **52,675→52,676**). lenr-canr.org /acrobat/ diff: 0 new (1,454 synced); viXra full cat-scan: 0 new (all cats ≤ 2609.0017 — already archived). iccf-27 proceedings/proceeding/ STILL Under Construction (9,845B unchanged) → keep watch. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-growth-0215.md."
     }
   ],
   "declassified": [
@@ -49956,7 +50004,73 @@
         "2392852",
         "2392865",
         "2392879",
-        "2392894"
+        "2392894",
+        "2392895",
+        "2392896",
+        "2392897",
+        "2392899",
+        "2392900",
+        "2392901",
+        "2392911",
+        "2392912",
+        "2392913",
+        "2392915",
+        "2392916",
+        "2392917",
+        "2392918",
+        "2392920",
+        "2392921",
+        "2392922",
+        "2392923",
+        "2392924",
+        "2392925",
+        "2392926",
+        "2392927",
+        "2392928",
+        "2392929",
+        "2392930",
+        "2392931",
+        "2392932",
+        "2392933",
+        "2392934",
+        "2392936",
+        "2392937",
+        "2392938",
+        "2392940",
+        "2392942",
+        "2392943",
+        "2392944",
+        "2392945",
+        "2392946",
+        "2392947",
+        "2392948",
+        "2392949",
+        "2392951",
+        "2392952",
+        "2392953",
+        "2392955",
+        "2392956",
+        "2392957",
+        "2392958",
+        "2392959",
+        "2392961",
+        "2392962",
+        "2392963",
+        "2392964",
+        "2392965",
+        "2392967",
+        "2392968",
+        "2392969",
+        "2392970",
+        "2392972",
+        "2392973",
+        "2392974",
+        "2392981",
+        "2392984",
+        "2392985",
+        "2392987",
+        "2392988",
+        "2392989"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -96419,7 +96533,30 @@
         "2392840",
         "2392852",
         "2392879",
-        "2392894"
+        "2392894",
+        "2392898",
+        "2392902",
+        "2392903",
+        "2392904",
+        "2392905",
+        "2392906",
+        "2392907",
+        "2392908",
+        "2392909",
+        "2392910",
+        "2392919",
+        "2392939",
+        "2392971",
+        "2392973",
+        "2392975",
+        "2392976",
+        "2392977",
+        "2392978",
+        "2392979",
+        "2392980",
+        "2392982",
+        "2392983",
+        "2392990"
       ],
       "Patents & Inventions": [
         "5814",
@@ -121244,7 +121381,11 @@
         "2392829",
         "2392840",
         "2392852",
-        "2392894"
+        "2392894",
+        "2392914",
+        "2392935",
+        "2392960",
+        "2392986"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -141727,7 +141868,12 @@
         "2392819",
         "2392840",
         "2392865",
-        "2392894"
+        "2392894",
+        "2392941",
+        "2392950",
+        "2392954",
+        "2392966",
+        "2392975"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -230008,7 +230154,103 @@
       "2392852": "The Nexus Convergence: A Unified Meta-Computational Ontology of the SHA-256 Die and Recursive Harmonic Collapse",
       "2392865": "The Lion Watches The Lion: Regulus and the Eastern Horizon: A Cross-Site Analysis of Stellar Alignments at Ancient Monuments",
       "2392879": "Cosmological Reintegration of the Original Signal",
-      "2392894": "Exhaustive Analysis of SHA-256 Input Transport Geometry"
+      "2392894": "Exhaustive Analysis of SHA-256 Input Transport Geometry",
+      "2392895": "19890720-ERAB-Interim-Report",
+      "2392896": "19891108-ERAB-Final",
+      "2392897": "19880829-PF-DOE-Proposal-and-Peer-Review-Combined",
+      "2392898": "19880901-DOE-to-Pons-Ack-Receipt",
+      "2392899": "19880909-PF-DOE-Proposal-Requests-to-Reviewers",
+      "2392900": "19881008-PF-DOE-Proposal-Peer-Reviews-Ack",
+      "2392901": "19881025-PF-DOE-Proposal-Peer-Reviews-to-PF",
+      "2392902": "19881114-PF-DOE-Proposal-FP-Response-to-Reviewers",
+      "2392903": "19881205-PF-DOE-Proposal-Response-to-Pons-by-Reviewers",
+      "2392904": "19881208-PF-DOE-Proposal-Gajewski-Reviewer-Responses-to-Pons",
+      "2392905": "19890123-Pons-Fleischmann-Rebuttal-to-Reviewers-Summary",
+      "2392906": "19890131-Pons-to-DOE-Revised-Budget",
+      "2392907": "19890313-DOE-to-Pons-Proposal-Approved",
+      "2392908": "19890315-Pons-to-Gajewski-Regarding-Jones",
+      "2392909": "19890414-Pons-to-DOE-Withdraw-Proposal",
+      "2392910": "19890424-DOE-to-Pons-Withdraw-Proposal",
+      "2392911": "19890424-Watkins-Directives-to-DOE-labs",
+      "2392912": "19890427-Watkins-Hunter-Hecker-LANL-Replication",
+      "2392913": "19890500-Watkins-Lloyd",
+      "2392914": "19890620-Bockris-Worldwide-Summary-to-Thompson",
+      "2392915": "19890622-Bockris-Tritium-Paper-to-DOE",
+      "2392916": "19890700-LLNL-George-Chapline-UCRL101583",
+      "2392917": "19890810-Yeong-Kim-to-Huizenga",
+      "2392918": "19890831-Rafelski-to-DOE",
+      "2392919": "19890914-LLNL-Research-on-Cold-Fusion-UCID21809",
+      "2392920": "19891022-LANL-Claytor-LAUR893946",
+      "2392921": "19891025-ERAB-Faulkner-Garwin-Bockris-Iyengar",
+      "2392922": "19891100-ORNL-Scott-ORNLTM11322",
+      "2392923": "19900223-Chase-Peterson-False-Reasons-for-Press-Conference",
+      "2392924": "19900301-Rafelski-Gajewski-Preproposal",
+      "2392925": "19900322-ERAB-to-Watkins-Approval-of-ERAB-Report",
+      "2392926": "19900405-LANL-Storms-LAUR90996",
+      "2392927": "19900521-ORNL-Hutchinson-ORNLTM11356",
+      "2392928": "19901022-LANL-Claytor-LAUR91631",
+      "2392929": "19901022-LANL-Menlove-LAUR91339",
+      "2392930": "19901022-LANL-Tuggle-LAUR94971",
+      "2392931": "19920413-Kyotani-Technova-to-DOE",
+      "2392932": "19961008-Bockris-to-DOE",
+      "2392933": "19961018-1992-MITI-and-1996-ICCF6",
+      "2392934": "19900507-Jones-to-Briand",
+      "2392935": "19910612-Jones-Tsarev-Worledge-Provo-Conference-Review",
+      "2392936": "19910802-Jones-to-Bockris",
+      "2392937": "19931209-BYU-Taylor-LAUR94970",
+      "2392938": "19941011-Jones-to-DOE",
+      "2392939": "19890307-Vince-Vallquist-Muon-Fusion-to-DOE",
+      "2392940": "19890430-John-Kizer-McEwen-Walker",
+      "2392941": "19890502-Carolyn-Moore-to-Bush",
+      "2392942": "19890517-Harold-Lewis-to-DOE",
+      "2392943": "19890526-Don-Kelly-to-DOE",
+      "2392944": "19890605-Weston-Stacey-DOE",
+      "2392945": "19890609-William-Schafer-to-DOE",
+      "2392946": "19890616-George-Hobby-Newman-Dingell",
+      "2392947": "19890619-Milo-Rober-Gajewski-Kostmayer",
+      "2392948": "19890622-Francisco-Pacheco-John-Pfanstiehl-Roukema",
+      "2392949": "19890623-Walt-Anderson-to-DOE",
+      "2392950": "19890714-David-Johannsen-to-Bush",
+      "2392951": "19891025-Hendrik-Monkhorst-to-DOE",
+      "2392952": "19900108-Magnus-Jandel-to-DOE",
+      "2392953": "19900307-Mastaka-Mizushima-to-DOE",
+      "2392954": "19900430-Mark-Goldes-to-DOE",
+      "2392955": "19901116-Hal-Fox-to-DOE",
+      "2392956": "19910419-Walter-Wagner-DOE",
+      "2392957": "19910516-Don-Yansen-to-DOE",
+      "2392958": "19911203-Frederick-Mayer-DOE",
+      "2392959": "19930113-Robert-Bass-Happer-Garwin",
+      "2392960": "19930510-Peter-Hagelstein-to-Lowell-Wood",
+      "2392961": "19930521-David-Montgomery-to-Congress",
+      "2392962": "19930819-William-Telander-Joe-Champion",
+      "2392963": "19940215-Russ-George-to-DOE",
+      "2392964": "19941119-ChubbT-to-DOE",
+      "2392965": "19941220-ChubbT-to-DOE",
+      "2392966": "19950327-Ben-Bush-Letter-Anaheim-Abstracts",
+      "2392967": "19950328-Hal-Fox-to-DOE",
+      "2392968": "19950608-Talbot-Chubb-Arata-to-DOE",
+      "2392969": "19950721-Frank-Cotton-Bockris-Ward-DOE",
+      "2392970": "19951213-Jed-Rothwell-Lobby-Efforts-to-DOE",
+      "2392971": "19960909-George-Sponsler-to-DOE-Perkins-LLNL",
+      "2392972": "19970410-ChubbT-to-DOE",
+      "2392973": "19890327-Fusion-in-Electrolytic-Charged-Palladium-Deuterium-Memo",
+      "2392974": "19890328-Vince-Vallquist",
+      "2392975": "19890400-Special-Cold-Fusion-Report-Memo",
+      "2392976": "19890403-Activity-on-Cold-Fusion-Reported-Memo",
+      "2392977": "19890405-Update-on-Room-Temperature-Fusion-Memo",
+      "2392978": "19890411-Update-on-Cold-Fusion-Memo",
+      "2392979": "19890424-Research-on-Cold-Fusion",
+      "2392980": "19890427-HSS&T-Cold-Fusion-Hearing",
+      "2392981": "19890500-Honorable-Marilyn-Lloyd",
+      "2392982": "19890515-Professor-Lewis-on-Cold-Fusion-Memo",
+      "2392983": "19890612-Interim-Cold-Fusion-Memo",
+      "2392984": "19890616-Honorable-John-Dingell",
+      "2392985": "19890619-Honorable-Peter-Kostmayer",
+      "2392986": "19890622-Congresswoman-Roukema",
+      "2392987": "19890711-Honorable-Robert-Walker",
+      "2392988": "19890714-David-Johannsen",
+      "2392989": "19921213-Will-Happer-Robert-Bass",
+      "2392990": "19940818-Summary-of-Recent-Develp-in-Cold-Fusion"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -541910,6 +542152,308 @@
         "Alternative Physics",
         "Conspiracy / Politics",
         "Environment / Climate"
+      ],
+      "2392895": [
+        "Borderland Research"
+      ],
+      "2392896": [
+        "Borderland Research"
+      ],
+      "2392897": [
+        "Borderland Research"
+      ],
+      "2392898": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392899": [
+        "Borderland Research"
+      ],
+      "2392900": [
+        "Borderland Research"
+      ],
+      "2392901": [
+        "Borderland Research"
+      ],
+      "2392902": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392903": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392904": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392905": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392906": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392907": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392908": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392909": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392910": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392911": [
+        "Borderland Research"
+      ],
+      "2392912": [
+        "Borderland Research"
+      ],
+      "2392913": [
+        "Borderland Research"
+      ],
+      "2392914": [
+        "Patents"
+      ],
+      "2392915": [
+        "Borderland Research"
+      ],
+      "2392916": [
+        "Borderland Research"
+      ],
+      "2392917": [
+        "Borderland Research"
+      ],
+      "2392918": [
+        "Borderland Research"
+      ],
+      "2392919": [
+        "Energy"
+      ],
+      "2392920": [
+        "Borderland Research"
+      ],
+      "2392921": [
+        "Borderland Research"
+      ],
+      "2392922": [
+        "Borderland Research"
+      ],
+      "2392923": [
+        "Borderland Research"
+      ],
+      "2392924": [
+        "Quantum & Relativity"
+      ],
+      "2392925": [
+        "Borderland Research"
+      ],
+      "2392926": [
+        "Borderland Research"
+      ],
+      "2392927": [
+        "Alternative Physics"
+      ],
+      "2392928": [
+        "Borderland Research"
+      ],
+      "2392929": [
+        "Borderland Research"
+      ],
+      "2392930": [
+        "Borderland Research"
+      ],
+      "2392931": [
+        "Borderland Research"
+      ],
+      "2392932": [
+        "Borderland Research"
+      ],
+      "2392933": [
+        "Borderland Research"
+      ],
+      "2392934": [
+        "Borderland Research"
+      ],
+      "2392935": [
+        "Patents"
+      ],
+      "2392936": [
+        "Borderland Research"
+      ],
+      "2392937": [
+        "Borderland Research"
+      ],
+      "2392938": [
+        "Borderland Research"
+      ],
+      "2392939": [
+        "Energy"
+      ],
+      "2392940": [
+        "Borderland Research"
+      ],
+      "2392941": [
+        "Conspiracy / Politics"
+      ],
+      "2392942": [
+        "Borderland Research"
+      ],
+      "2392943": [
+        "Borderland Research"
+      ],
+      "2392944": [
+        "Borderland Research"
+      ],
+      "2392945": [
+        "Borderland Research"
+      ],
+      "2392946": [
+        "Borderland Research"
+      ],
+      "2392947": [
+        "Borderland Research"
+      ],
+      "2392948": [
+        "Borderland Research"
+      ],
+      "2392949": [
+        "Borderland Research"
+      ],
+      "2392950": [
+        "Conspiracy / Politics"
+      ],
+      "2392951": [
+        "Borderland Research"
+      ],
+      "2392952": [
+        "Borderland Research"
+      ],
+      "2392953": [
+        "Borderland Research"
+      ],
+      "2392954": [
+        "Finance / Economics"
+      ],
+      "2392955": [
+        "Borderland Research"
+      ],
+      "2392956": [
+        "Borderland Research"
+      ],
+      "2392957": [
+        "Borderland Research"
+      ],
+      "2392958": [
+        "Borderland Research"
+      ],
+      "2392959": [
+        "Borderland Research"
+      ],
+      "2392960": [
+        "Patents"
+      ],
+      "2392961": [
+        "Borderland Research"
+      ],
+      "2392962": [
+        "Borderland Research"
+      ],
+      "2392963": [
+        "Borderland Research"
+      ],
+      "2392964": [
+        "Borderland Research"
+      ],
+      "2392965": [
+        "Borderland Research"
+      ],
+      "2392966": [
+        "Conspiracy / Politics"
+      ],
+      "2392967": [
+        "Borderland Research"
+      ],
+      "2392968": [
+        "Borderland Research"
+      ],
+      "2392969": [
+        "Borderland Research"
+      ],
+      "2392970": [
+        "Borderland Research"
+      ],
+      "2392971": [
+        "Energy",
+        "LENR / Cold Fusion"
+      ],
+      "2392972": [
+        "Borderland Research"
+      ],
+      "2392973": [
+        "Energy",
+        "Quantum & Relativity",
+        "LENR / Cold Fusion"
+      ],
+      "2392974": [
+        "Borderland Research"
+      ],
+      "2392975": [
+        "Energy",
+        "Conspiracy / Politics"
+      ],
+      "2392976": [
+        "Energy"
+      ],
+      "2392977": [
+        "Energy"
+      ],
+      "2392978": [
+        "Energy"
+      ],
+      "2392979": [
+        "Energy"
+      ],
+      "2392980": [
+        "Energy"
+      ],
+      "2392981": [
+        "Borderland Research"
+      ],
+      "2392982": [
+        "Energy"
+      ],
+      "2392983": [
+        "Energy"
+      ],
+      "2392984": [
+        "Borderland Research"
+      ],
+      "2392985": [
+        "Borderland Research"
+      ],
+      "2392986": [
+        "Patents"
+      ],
+      "2392987": [
+        "Borderland Research"
+      ],
+      "2392988": [
+        "Borderland Research"
+      ],
+      "2392989": [
+        "Borderland Research"
+      ],
+      "2392990": [
+        "Energy"
       ]
     },
     "meta_concepts": {
@@ -647053,27 +647597,164 @@
         "p_wrongturn"
       ],
       "2392753": [],
-      "2392754": [],
+      "2392754": [
+        "overunity",
+        "p_fieldphys"
+      ],
       "2392756": [],
       "2392759": [],
       "2392763": [],
-      "2392768": [],
+      "2392768": [
+        "radionics"
+      ],
       "2392774": [],
-      "2392775": [],
+      "2392775": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
       "2392777": [],
-      "2392780": [],
-      "2392784": [],
+      "2392780": [
+        "cold_fusion",
+        "p_goethean",
+        "p_wrongturn"
+      ],
+      "2392784": [
+        "p_wrongturn"
+      ],
       "2392789": [],
-      "2392795": [],
-      "2392802": [],
-      "2392810": [],
-      "2392819": [],
-      "2392829": [],
-      "2392840": [],
-      "2392852": [],
+      "2392795": [
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
+      "2392802": [
+        "cold_fusion",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2392810": [
+        "p_wrongturn"
+      ],
+      "2392819": [
+        "scalar",
+        "p_wrongturn"
+      ],
+      "2392829": [
+        "p_wrongturn"
+      ],
+      "2392840": [
+        "p_wrongturn"
+      ],
+      "2392852": [
+        "cold_fusion",
+        "p_wrongturn",
+        "p_bridge"
+      ],
       "2392865": [],
-      "2392879": [],
-      "2392894": []
+      "2392879": [
+        "torsion",
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
+      "2392894": [],
+      "2392895": [],
+      "2392896": [],
+      "2392897": [],
+      "2392898": [],
+      "2392899": [],
+      "2392900": [],
+      "2392901": [],
+      "2392902": [],
+      "2392903": [],
+      "2392904": [],
+      "2392905": [],
+      "2392906": [],
+      "2392907": [],
+      "2392908": [],
+      "2392909": [],
+      "2392910": [],
+      "2392911": [],
+      "2392912": [],
+      "2392913": [],
+      "2392914": [],
+      "2392915": [],
+      "2392916": [],
+      "2392917": [],
+      "2392918": [],
+      "2392919": [],
+      "2392920": [],
+      "2392921": [],
+      "2392922": [],
+      "2392923": [],
+      "2392924": [],
+      "2392925": [],
+      "2392926": [],
+      "2392927": [],
+      "2392928": [],
+      "2392929": [],
+      "2392930": [],
+      "2392931": [],
+      "2392932": [],
+      "2392933": [],
+      "2392934": [],
+      "2392935": [],
+      "2392936": [],
+      "2392937": [],
+      "2392938": [],
+      "2392939": [],
+      "2392940": [],
+      "2392941": [],
+      "2392942": [],
+      "2392943": [],
+      "2392944": [],
+      "2392945": [],
+      "2392946": [],
+      "2392947": [],
+      "2392948": [],
+      "2392949": [],
+      "2392950": [],
+      "2392951": [],
+      "2392952": [],
+      "2392953": [],
+      "2392954": [],
+      "2392955": [],
+      "2392956": [],
+      "2392957": [],
+      "2392958": [],
+      "2392959": [],
+      "2392960": [],
+      "2392961": [],
+      "2392962": [],
+      "2392963": [],
+      "2392964": [],
+      "2392965": [],
+      "2392966": [],
+      "2392967": [],
+      "2392968": [],
+      "2392969": [],
+      "2392970": [],
+      "2392971": [],
+      "2392972": [],
+      "2392973": [
+        "cold_fusion"
+      ],
+      "2392974": [],
+      "2392975": [],
+      "2392976": [],
+      "2392977": [],
+      "2392978": [],
+      "2392979": [],
+      "2392980": [],
+      "2392981": [],
+      "2392982": [],
+      "2392983": [],
+      "2392984": [],
+      "2392985": [],
+      "2392986": [],
+      "2392987": [],
+      "2392988": [],
+      "2392989": [],
+      "2392990": []
     }
   },
   "graph": {
