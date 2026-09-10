@@ -1,6 +1,6 @@
 ---
 name: Brazilian Scalar Energy Generator Patent
-description: "Full-document translation. language pt | 11 chunks | https://patents.google.com/patent/WO2013155580A1/pt"
+description: "Full-document translation. language en | source_language pt | 11 chunks | https://patents.google.com/patent/WO2013155580A1/pt"
 ---
 
 # Brazilian Scalar Energy Generator Patent
