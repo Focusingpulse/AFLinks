@@ -227,14 +227,14 @@
     },
     {
       "name": "padrak.com/ine",
-      "status": "complete",
-      "base_url": "http://padrak.com/ine",
+      "status": "crawled",
+      "base_url": "http://padrak.com/ine/",
       "crawl_type": "html_link_scrape",
       "crawl_paths": [
         "/"
       ],
-      "notes": "~130+ device pages, INE (Institute for New Energy) directory",
-      "file_count": 2
+      "notes": "~130+ device pages, INE (Institute for New Energy) directory. NOTE 2026-09-10: index.shtml is dead (404); live index is http://padrak.com/ine/ (no filename). HTML pages are the documents themselves, not just link hubs — filelist built from index hrefs.",
+      "file_count": 512
     }
   ]
 }
