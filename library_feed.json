@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:07:59Z",
+  "generated_at": "2026-09-10T15:09:57Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -9,7 +9,7 @@
     "aflinks_docs": 57983,
     "translations": 76,
     "pages_translated": 1787,
-    "declassified_finds": 41,
+    "declassified_finds": 45,
     "active_agents": 14,
     "book5_complete": true,
     "translation_files": 76,
@@ -1113,6 +1113,54 @@
         {
           "title": "American Fusion Inc. (AMFN)",
           "description": "130 pending US applications, target 260+ by end of 2026.** Texatron Fusion Engine platform: aluminum confinement shells, rifled toroidal chambers, He-3/deuterium injection, electronic pulse control. Volume-filing strategy around one architecture; individual applications (e.g. 19/789,775, 19/799,35x series) pending, not published as grants. Track for grants.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "file": "2026-09-10-deep-dive-morning.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "ENG8 / PRVR Plasma Reverse Vortex Reactor (ICCF",
+          "description": "27)",
+          "url": ""
+        },
+        {
+          "title": "Water Memory in Non",
+          "description": "Equilibrium Freezing",
+          "url": ""
+        },
+        {
+          "title": "Unusual heat generation in hydrogen",
+          "description": "loaded Ni-Pd lattice",
+          "url": ""
+        },
+        {
+          "title": "Elemental signatures across 32 elements including rare earths (Yttrium) and actinides (Uranium)",
+          "description": "Increased signals for He, Ne, Ar; nitrogen did NOT increase (suggesting non-atmospheric)",
+          "url": ""
+        },
+        {
+          "title": "Post",
+          "description": "operation analysis: localized surface structures, altered elemental distributions",
+          "url": ""
+        },
+        {
+          "title": "https",
+          "description": "//timesofindia.indiatimes.com/city/hyderabad/hylenr-technologies-reports-unusual-heat-rare-earth-findings-in-reactor-tests/articleshow/134011136.cms",
+          "url": ""
+        },
+        {
+          "title": "Variable plasma column",
+          "description": "40–400 mm (10× range)",
+          "url": ""
+        },
+        {
+          "title": "Measurements",
+          "description": "X-ray emissions, unusual optical signatures, apparent elemental composition changes",
           "url": ""
         }
       ]
@@ -4695,7 +4743,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T13:11:30Z",
+      "last_run": "2026-09-10T14:09:10Z",
       "last_status": "ok",
       "last_summary": "sync: 58262 docs, feed rebuilt"
     },
@@ -4728,9 +4776,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-08-28T15:03:47Z",
+      "last_run": "2026-09-10T15:07:58Z",
       "last_status": "ok",
-      "last_summary": "+3 finds since last run (first recorded) | this run: 5 declassified + 6 new finds, 0 archived"
+      "last_summary": "+1 finds (first recorded) | +45 declassified (first recorded) | this run: +4 declassified (Germany, France, EU, USA), +7 new finds (LENR, torsion, water memory), 0 archived (gear: quota)"
     },
     {
       "member": "book5-translate",
@@ -4985,6 +5033,12 @@
       "date": "2026-09-10",
       "time": "15:08",
       "agent": "Deep-Dive Morning",
+      "summary": "+5 files — Track A: 7 new research finds (Hylenr LENR, ENG8 PRVR, Project Callisto, torsion constraints, water memory, chiral water). Track B: 4 declassified documents filed (Germany BMWE FOI, France 2030 nuclear, EU energy leak, US-Saudi enrichment)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:08",
+      "agent": "Deep-Dive Morning",
       "summary": "+7 finds — Quota-gear sweep: +3 declassified filed (Russia: Soviet MoD UAP files KLAS release series incl. 1982 Byelokoroviche nuclear near-launch; Spain: 23-F coup 153-unit release; Spain: Ceuta 40-doc intelligence release — Spain's new declassification regime now proven routine). +4 research finds (LENR NiCu thin-film radiant spectrum with 215h sustained excess heat; EZ-water magnetic-field reconciliation model; first gravity test on falling quantum matter waves; German vortex-cosmology micro-proof with auditable pipeline). 1 fragile source archived (Knapp congressional testimony PDF)."
     },
     {
@@ -4992,6 +5046,12 @@
       "time": "15:07",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "14:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58262 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5082,18 +5142,6 @@
       "time": "12:35",
       "agent": "Scooter (Growth Scout)",
       "summary": "+140 docs — NEW LANE: newenergytimes.com /v2/ tree. — Enumerated the /v2/ Apache tree that flipped 406 → crawlable (117 dirs, 720 files); diffed vs archive → 144 live-verified docs new (FOIA government incl. DTRA/CIA/USPTO/NAVY/ARPA-E 2016-DOE docs, inthenews clippings 1989-2017, library subdirs incl. 1989FPH + Storms CFAOA figures, Krivit publications+white papers, transcripts). Processed + merged id-safe. Archive **58,092 → 58,232** (+140). free-energy-info.tuks.nl Chapter10.pdf gap already covered via frienergi. Live lanes drained (viXra RSS max 2609.0022 archived, lenr-canr 1454=1454, rxiv 180=180v1, iccf-27 proc STILL UC 9,845B). Merge de21981cd. OCR/queue/tag pending FocusOptimized."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "12:25",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58092 docs — +58092 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "12:22",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+53800 docs — +53800 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-10",
@@ -5207,6 +5255,12 @@
     },
     {
       "country": "france",
+      "title": "France 2030 Nuclear Fission Research Program",
+      "description": "€18M, 6-year research program launched September 2026 to strengthen fundamental nuclear fission knowledge and train new scientists.",
+      "file": "declassified/france/france-2030-fission-research.md"
+    },
+    {
+      "country": "france",
       "title": "France — Pégase Reactor Dismantling Decree (Decree 2026-808)",
       "description": "France — Decree 2026-808 authorizing CEA to dismantle the Pégase research reactor at Cadarache through 2065.",
       "file": "declassified/france/pegase-dismantling.md"
@@ -5216,6 +5270,12 @@
       "title": "France — Sahara Nuclear Test Waste Declassification Calls",
       "description": "France — 2026 parliamentary bill demanding declassification of topographic maps for radioactive waste buried in Algerian Sahara during nuclear tests (1960-1967).",
       "file": "declassified/france/sahara-nuclear-waste.md"
+    },
+    {
+      "country": "germany",
+      "title": "BMWE CERAWeek Documents — FOI Release (September 2026)",
+      "description": "German FOI release revealing Minister Reiche's advocacy for gas/nuclear interests during March 2026 Texas trip, obtained after legal action by DUH and FragDenStaat.",
+      "file": "declassified/germany/bmwe-ceraweek-foi-release.md"
     },
     {
       "country": "germany",
@@ -5300,6 +5360,12 @@
       "title": "Portugal SIS Partial Declassification of FP-25 Archives",
       "description": "Portugal — SIS (Serviço de Informações de Segurança) announced first partial declassification of FP-25 terrorist organization archives (1985-1990 period) in May 2025, with parliame",
       "file": "declassified/portugal/sis-fp25-declassification.md"
+    },
+    {
+      "country": "russia",
+      "title": "EU Energy Policy Document — Leaked (September 2026)",
+      "description": "Internal EC document showing Brussels rejecting pro-atom coalition demands, maintaining separate renewable targets post-2030.",
+      "file": "declassified/russia/eu-energy-policy-leak.md"
     },
     {
       "country": "russia",
@@ -5396,6 +5462,12 @@
       "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
       "description": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
       "file": "declassified/usa/pentagon-uap-tranche4.md"
+    },
+    {
+      "country": "usa",
+      "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
+      "description": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
+      "file": "declassified/usa/us-saudi-enrichment-agreement.md"
     }
   ],
   "news": [
@@ -5437,18 +5509,18 @@
     {
       "date": "2026-09-10",
       "kind": "declassified",
-      "title": "USA — Epstein Document Release — Sheldrake/LENR/Cold Fusion Emails",
-      "excerpt": "USA — DOJ-released Epstein documents revealing correspondence with Rupert Sheldrake about LENR/cold fusion, and Epstein claiming he 'killed Pons' research.",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-usa-epstein-sheldrake-lenr-md"
-    },
-    {
-      "date": "2026-09-10",
-      "kind": "declassified",
       "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
       "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
       "rarity": "newly opened",
       "href": "./library.html#declass-declassified-usa-pentagon-uap-tranche4-md"
+    },
+    {
+      "date": "2026-09-10",
+      "kind": "declassified",
+      "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
+      "excerpt": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
       "date": "2026-09-09",
