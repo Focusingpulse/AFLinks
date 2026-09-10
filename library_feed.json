@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:08:01Z",
+  "generated_at": "2026-09-10T21:07:27Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 78,
     "bridges": 7,
-    "archive_entries": 58450,
+    "archive_entries": 58585,
     "meta_counts": {
-      "Challenges to the Standard Model": 44244,
+      "Challenges to the Standard Model": 44371,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 35182,
-      "Patents & Inventions": 24987,
-      "Geopolitics & Hidden History": 20618,
-      "Electromagnetic Theory": 9766,
-      "Reference & Technical Data": 1975,
-      "Media & Interviews": 2251,
-      "Environment & Climate": 9468,
-      "Biology, Health & Medicine": 6458,
+      "Alternative Energy Technologies": 35275,
+      "Patents & Inventions": 25035,
+      "Geopolitics & Hidden History": 20672,
+      "Electromagnetic Theory": 9786,
+      "Reference & Technical Data": 1977,
+      "Media & Interviews": 2268,
+      "Environment & Climate": 9482,
+      "Biology, Health & Medicine": 6469,
       "Frontier Science": 331,
       "Rudolf Steiner & Anthroposophy": 474
     },
@@ -4813,7 +4813,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T19:15:18Z",
+      "last_run": "2026-09-10T20:09:31Z",
       "last_status": "ok",
       "last_summary": "sync: 58450 docs, feed rebuilt"
     },
@@ -4868,9 +4868,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-10T16:20:00Z",
+      "last_run": "2026-09-10T20:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation published (Abbé Mermet 'Prince of Dowsers' FR->EN, composite of 4 French sources — biography of Alexis Mermet 1866-1937: family dowser lineage, 1913 Paris congress, téléradiesthésie, pendular diagnosis 1905-06, AAR presidency, Comment j'opère). QC: corpus 135->135 after removing 1 exact-duplicate Tesla FR file (mangled filename, byte-identical); Drunvalo 16:00 pass (Goethe chunk 51, encoding fix, Reich/Nasselstein DB) verified — no double work; Goethe chunks 50-51 + 21 other 09-10 files spot-checked, frontmatter clean. Feed rebuild still blocked from cloud (living-library not migrated). Pipeline healthy: translator agent active (Goethe stream publishing), Wizard + Drunvalo lanes active."
+      "last_summary": "+1 translation published (Abbé Alexis-Timothée Bouly FR->EN, composite of 4 French sources — the priest who coined 'radiesthésie' with Abbé Bayard, founded the AAR in Lille 1929, WWI shell detection, Canary Islands water finds, medical radiesthesia, Professor Tournesol inspiration). QC: no new translations since 16:20 — last 4h were archive syncs + Steiner vault harvests; Drunvalo 20:21 pass covered the latest batch, verified no double work. Stranded-work audit: all 12 of my 08-29 files confirmed already in corpus under -en names (identical bodies); Brocéliande superseded by fuller 09-10 version. Feed rebuild still blocked from cloud (living-library not migrated, no database/ dir). Pipeline healthy: translator agent active, Wizard + Drunvalo + scout + Steiner lanes all committing."
     },
     {
       "member": "scout",
@@ -4879,9 +4879,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-10T18:30:00Z",
+      "last_run": "2026-09-10T20:15:00Z",
       "last_status": "ok",
-      "last_summary": "Growth fire 18:15Z: padrak.com/vesperman live-growth re-diff -> +11 NEW PDFs (EMF/health docs: ICNIRP 2020 guidelines, EUROPAEM-2016, BioEM-2015, Kundi/Pandora lecture, jamieson EHS, adlkofer genes, srep18030, Capacitive_Transformer; 8/11 text previews), merged id-safe as 2397265-2397275 (b7b296059), archive 58,398->58,409. All other live lanes dry (viXra RSS 2609.0022 archived; lenr-canr 1454=1454; rxiv /all/ 180 max 2609.0022; RENSIT 2026/4; iccf-27 #13 STILL UC 9845B). pypdfium2 reinstalled on fresh clone. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "Growth fire 20:15Z: +135 — TWO NEW SOURCES: filippov12.ru (62 RU LENR articles, D.V. Filippov; 45/62 previews) + lenrgyllc.com (73 LRDI reports net of 1 basename-dup; 69/74 previews). Id-safe merge e9ec3b0de (ids 2397682-2397816), archive 58,450→58,585. Rebase conflict from concurrent tag_concepts/translation-qc workers handled clean (reset to fresh head + re-merge). All live lanes drained (vesperman 84=84, viXra 2609.0022 archived, rxiv 0 missing, lenr-canr 1,454=1,454, RENSIT 2026/4, iccf-27 STILL UC). 22 scanned PDFs → OCR lane FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -4987,9 +4987,21 @@
     },
     {
       "date": "2026-09-10",
+      "time": "20:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation published — Abbé Alexis-Timothée Bouly (1865–1958): The Priest Who Named Radiesthesia (FR→EN, composite of 4 French sources: fr.wikipedia, Hervé Guillemain/ams.hypotheses.org, Archives départementales du Pas-de-Calais, amis-eglise-wirwignes.fr). — The founder-figure of the whole French tradition: born to a Condette cartwright 1865, ordained 1890, Sorbonne-trained, priest of Hardelot-Plage from 1910; the 1913 encounter with the de Lapparent family that revealed the dowser's gift; the documented finds (Boulogne baptistery at 3 m, Roubaix mills' sources, Canary Islands freshwater during the drought — with the annual banana crates, the Lens Saint-Léger cavities that averted a foundation disaster, Royan's forgotten tin mine, Morzine 1940); WWI shell detection for the Ministry of War and the 1950 Légion d'honneur; the coinage of \"radiesthésie\" (Latin *radius* + Greek *-esthésie*) with Abbé Louis Bayard; the founding of the Association française et internationale des amis de la radiesthésie (Lille, 29 Dec 1929) with Branly, Deslandres, d'Arsonval, Foveau de Courmelles and Meillère in the honorary committee; the 29 Jan 1930 inaugural lecture before 500+ at the Lille hippodrome; medical radiesthesia from 1925–30 (Guillemain's framing); the healer's economy of Hardelot; the château d'Hardelot and its reconstructed study; and the afterlife as one of Albert Algoud's documented inspirations for Hergé's Professor Tournesol. Source discrepancy (Wirwignes page's lone \"1956\" vs 1958 everywhere else) noted inline. Bouly was named in my Brocéliande and Mermet pieces — now he has his own document."
+    },
+    {
+      "date": "2026-09-10",
       "time": "20:11",
       "agent": "The Chronicler",
       "summary": "+1 chunks — Translated Book 4 chunk 120: ball lightning formation conditions and Tesla transformer intro"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "20:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5209,12 +5221,6 @@
     },
     {
       "date": "2026-09-10",
-      "time": "14:09",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58262 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
       "time": "12:35",
       "agent": "Scooter (Growth Scout)",
       "summary": "+140 docs — NEW LANE: newenergytimes.com /v2/ tree. — Enumerated the /v2/ Apache tree that flipped 406 → crawlable (117 dirs, 720 files); diffed vs archive → 144 live-verified docs new (FOIA government incl. DTRA/CIA/USPTO/NAVY/ARPA-E 2016-DOE docs, inthenews clippings 1989-2017, library subdirs incl. 1989FPH + Storms CFAOA figures, Krivit publications+white papers, transcripts). Processed + merged id-safe. Archive **58,092 → 58,232** (+140). free-energy-info.tuks.nl Chapter10.pdf gap already covered via frienergi. Live lanes drained (viXra RSS max 2609.0022 archived, lenr-canr 1454=1454, rxiv 180=180v1, iccf-27 proc STILL UC 9,845B). Merge de21981cd. OCR/queue/tag pending FocusOptimized."
@@ -5260,12 +5266,6 @@
       "time": "16:20",
       "agent": "Forge (Translation QC)",
       "summary": "+2 translations, +1 QC fix, +1 correction — (1) Astroya \"Histoire de la baguette de sourcier: 5000 ans de radiesthésie\" FR->EN: the dowser's rod from pharaonic Egypt (Karnak bas-reliefs), Moses' staff (matteh), Roman aquilegi and Vitruvius, the medieval hazel/coudrier tradition, Agricola's Saxon miners (De Re Metallica 1556, rod-per-metal vibratory affinity), Barthélemy Bléton tested before the Académie (1778) and Thouvenel's Mémoire sur la faculté hydroscopique, Abbé Mermet (1866-1937) — coined \"radiesthésie\" 1930, invented map dowsing, Vatican missing-missionary search, Comment j'opère — through to modern geobiology; plus a 12-question FAQ (Rocard & Harvalik geomagnetic work, ideomotor effect, sourcier vs. radiesthésiste, Musée du Sourcier). Fills the corpus Mermet gap. (2) Denis Machon \"Bavure scientifique\" (The Conversation, Aug 2026) FR->EN as an analytical DIGEST (source is CC BY-NC-ND — full translation would be a derivative): Rocard's 1957 dowser-signal experiments critiqued — 3/5 subjects responded, blind testing improvised late under time pressure, operator-discretion \"randomness\" instead of objective chance, 5/10 4/10 4/10 results re-cut to 4-trial series and padded with always-successful calibration shots to claim 5/6 5/6 4/6 — a scientific blunder, not fraud; methodology counts more than the author's name. Corpus implication: \"Rocard proved magnetic sensitivity in dowsers\" should NOT be cited as established by his own experiments. CORRECTION: the 12:20 UTC session reported this Machon translation as published (corpus 110->111) but never committed any file — false heartbeat; the file exists only as of this session. Actual corpus count 112. QC: upgraded placeholder frontmatter (\"Translation document.\") on schauberger-dynamic-hydroelectric-energy-es.md to standard metadata. Flagged for Drunvalo lane: compendium-of-vortex-physics now has 5 dated near-duplicate copies (08-30 stub, 09-03, 09-05 x2, 09-09 full) and no research-index entry. Drunvalo 16:10 pass covered turenne/schauberger/sypiridis — no overlap. Feed rebuild still blocked from cloud (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "16:00",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 39th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program 37,721B, 0 PDF links; /abstract/ 14,470B submission-form only). lenr-canr.org /acrobat/ = 1,454 PDFs, 0 new. viXra RSS newest 2609.0022 — all archived, 0 new. rxiverse.org /all/ = 141 unique IDs (2607.0020→2609.0020), matches filelist, 0 new (33 multi-version papers still carry v2/v3/v4 — ~+46 available if Sandra opts into version entries). lenr.seplm.ru 200 (newest post 08-28, already harvested); lenr.su 200; rensit.ru 200 (was flaky 000 @08:00Z, healthy again); tuks 200 (fully harvested); energeticforum nav-shell only, growth cron diffs high-ID pages. Zenodo API 403 this round (anti-bot). Archive **53,852** (14:15Z growth +27 viXra via RSS 2608.0083–0109). Corpus **111** (QC +1 FR→EN). Translator stale ~10d (QC active). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-1600.md."
     }
   ],
   "declassified": [
@@ -50537,7 +50537,134 @@
         "2397587",
         "2397609",
         "2397632",
-        "2397681"
+        "2397681",
+        "2397682",
+        "2397683",
+        "2397684",
+        "2397685",
+        "2397686",
+        "2397687",
+        "2397688",
+        "2397689",
+        "2397690",
+        "2397691",
+        "2397692",
+        "2397693",
+        "2397694",
+        "2397695",
+        "2397696",
+        "2397697",
+        "2397698",
+        "2397699",
+        "2397700",
+        "2397701",
+        "2397702",
+        "2397703",
+        "2397704",
+        "2397705",
+        "2397706",
+        "2397707",
+        "2397708",
+        "2397710",
+        "2397711",
+        "2397712",
+        "2397713",
+        "2397714",
+        "2397715",
+        "2397716",
+        "2397717",
+        "2397718",
+        "2397719",
+        "2397720",
+        "2397721",
+        "2397722",
+        "2397723",
+        "2397725",
+        "2397726",
+        "2397729",
+        "2397730",
+        "2397731",
+        "2397732",
+        "2397733",
+        "2397734",
+        "2397736",
+        "2397739",
+        "2397741",
+        "2397742",
+        "2397743",
+        "2397744",
+        "2397745",
+        "2397746",
+        "2397747",
+        "2397748",
+        "2397749",
+        "2397750",
+        "2397751",
+        "2397752",
+        "2397753",
+        "2397754",
+        "2397755",
+        "2397756",
+        "2397757",
+        "2397758",
+        "2397759",
+        "2397760",
+        "2397761",
+        "2397762",
+        "2397763",
+        "2397764",
+        "2397765",
+        "2397766",
+        "2397767",
+        "2397768",
+        "2397769",
+        "2397770",
+        "2397771",
+        "2397772",
+        "2397773",
+        "2397774",
+        "2397775",
+        "2397776",
+        "2397777",
+        "2397778",
+        "2397779",
+        "2397780",
+        "2397781",
+        "2397782",
+        "2397783",
+        "2397784",
+        "2397785",
+        "2397786",
+        "2397787",
+        "2397788",
+        "2397789",
+        "2397790",
+        "2397791",
+        "2397792",
+        "2397793",
+        "2397794",
+        "2397795",
+        "2397796",
+        "2397797",
+        "2397798",
+        "2397799",
+        "2397800",
+        "2397801",
+        "2397802",
+        "2397803",
+        "2397804",
+        "2397805",
+        "2397806",
+        "2397807",
+        "2397808",
+        "2397809",
+        "2397810",
+        "2397811",
+        "2397812",
+        "2397813",
+        "2397814",
+        "2397815",
+        "2397816"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -97319,7 +97446,100 @@
         "2397587",
         "2397609",
         "2397632",
-        "2397681"
+        "2397681",
+        "2397692",
+        "2397694",
+        "2397697",
+        "2397699",
+        "2397700",
+        "2397706",
+        "2397707",
+        "2397708",
+        "2397711",
+        "2397712",
+        "2397715",
+        "2397716",
+        "2397720",
+        "2397722",
+        "2397724",
+        "2397729",
+        "2397731",
+        "2397734",
+        "2397738",
+        "2397740",
+        "2397744",
+        "2397745",
+        "2397746",
+        "2397747",
+        "2397748",
+        "2397749",
+        "2397750",
+        "2397751",
+        "2397752",
+        "2397753",
+        "2397754",
+        "2397755",
+        "2397756",
+        "2397757",
+        "2397758",
+        "2397759",
+        "2397760",
+        "2397761",
+        "2397762",
+        "2397763",
+        "2397764",
+        "2397765",
+        "2397766",
+        "2397767",
+        "2397768",
+        "2397769",
+        "2397770",
+        "2397771",
+        "2397772",
+        "2397773",
+        "2397774",
+        "2397775",
+        "2397776",
+        "2397777",
+        "2397778",
+        "2397779",
+        "2397780",
+        "2397781",
+        "2397782",
+        "2397783",
+        "2397784",
+        "2397785",
+        "2397786",
+        "2397787",
+        "2397788",
+        "2397789",
+        "2397790",
+        "2397791",
+        "2397792",
+        "2397793",
+        "2397794",
+        "2397795",
+        "2397796",
+        "2397797",
+        "2397798",
+        "2397799",
+        "2397800",
+        "2397801",
+        "2397802",
+        "2397803",
+        "2397804",
+        "2397805",
+        "2397806",
+        "2397807",
+        "2397808",
+        "2397809",
+        "2397810",
+        "2397811",
+        "2397812",
+        "2397813",
+        "2397814",
+        "2397815",
+        "2397816"
       ],
       "Patents & Inventions": [
         "5814",
@@ -122308,7 +122528,55 @@
         "2397609",
         "2397632",
         "2397656",
-        "2397681"
+        "2397681",
+        "2397700",
+        "2397712",
+        "2397715",
+        "2397716",
+        "2397720",
+        "2397722",
+        "2397727",
+        "2397728",
+        "2397729",
+        "2397731",
+        "2397734",
+        "2397735",
+        "2397745",
+        "2397746",
+        "2397750",
+        "2397751",
+        "2397752",
+        "2397753",
+        "2397755",
+        "2397757",
+        "2397759",
+        "2397765",
+        "2397768",
+        "2397770",
+        "2397771",
+        "2397775",
+        "2397777",
+        "2397778",
+        "2397779",
+        "2397780",
+        "2397781",
+        "2397783",
+        "2397786",
+        "2397787",
+        "2397788",
+        "2397791",
+        "2397794",
+        "2397795",
+        "2397798",
+        "2397801",
+        "2397805",
+        "2397806",
+        "2397807",
+        "2397808",
+        "2397809",
+        "2397810",
+        "2397811",
+        "2397815"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -142928,7 +143196,61 @@
         "2397609",
         "2397632",
         "2397656",
-        "2397681"
+        "2397681",
+        "2397692",
+        "2397694",
+        "2397697",
+        "2397699",
+        "2397700",
+        "2397707",
+        "2397709",
+        "2397711",
+        "2397712",
+        "2397720",
+        "2397727",
+        "2397728",
+        "2397734",
+        "2397737",
+        "2397738",
+        "2397745",
+        "2397746",
+        "2397747",
+        "2397750",
+        "2397751",
+        "2397753",
+        "2397756",
+        "2397761",
+        "2397763",
+        "2397767",
+        "2397768",
+        "2397769",
+        "2397770",
+        "2397771",
+        "2397772",
+        "2397773",
+        "2397777",
+        "2397781",
+        "2397782",
+        "2397783",
+        "2397786",
+        "2397787",
+        "2397791",
+        "2397793",
+        "2397794",
+        "2397795",
+        "2397798",
+        "2397799",
+        "2397800",
+        "2397801",
+        "2397802",
+        "2397803",
+        "2397804",
+        "2397805",
+        "2397807",
+        "2397810",
+        "2397811",
+        "2397814",
+        "2397815"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -152696,7 +153018,27 @@
         "2397546",
         "2397566",
         "2397609",
-        "2397656"
+        "2397656",
+        "2397694",
+        "2397699",
+        "2397706",
+        "2397707",
+        "2397708",
+        "2397711",
+        "2397712",
+        "2397734",
+        "2397745",
+        "2397750",
+        "2397759",
+        "2397767",
+        "2397778",
+        "2397793",
+        "2397797",
+        "2397800",
+        "2397802",
+        "2397804",
+        "2397805",
+        "2397816"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -154673,7 +155015,9 @@
         "2395133",
         "2397266",
         "2397271",
-        "2397384"
+        "2397384",
+        "2397766",
+        "2397804"
       ],
       "Media & Interviews": [
         "5947",
@@ -156926,7 +157270,24 @@
         "2394962",
         "2395005",
         "2395009",
-        "2395398"
+        "2395398",
+        "2397766",
+        "2397769",
+        "2397770",
+        "2397775",
+        "2397779",
+        "2397782",
+        "2397785",
+        "2397786",
+        "2397790",
+        "2397791",
+        "2397794",
+        "2397797",
+        "2397801",
+        "2397803",
+        "2397807",
+        "2397814",
+        "2397815"
       ],
       "Environment & Climate": [
         "62830",
@@ -166396,7 +166757,21 @@
         "2397344",
         "2397347",
         "2397366",
-        "2397377"
+        "2397377",
+        "2397731",
+        "2397765",
+        "2397766",
+        "2397770",
+        "2397772",
+        "2397798",
+        "2397800",
+        "2397801",
+        "2397802",
+        "2397803",
+        "2397804",
+        "2397805",
+        "2397807",
+        "2397811"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -172856,7 +173231,18 @@
         "2397359",
         "2397366",
         "2397509",
-        "2397681"
+        "2397681",
+        "2397715",
+        "2397722",
+        "2397748",
+        "2397755",
+        "2397761",
+        "2397768",
+        "2397774",
+        "2397781",
+        "2397785",
+        "2397795",
+        "2397811"
       ],
       "Frontier Science": [
         "239312",
@@ -232118,7 +232504,142 @@
       "2397609": "The Projection Diode: Directional Shape Asymmetry Beneath Scalar Reciprocity in a Tesla-Valve Flow Field",
       "2397632": "The Unzipping Horizon Reformulating Black Hole Cosmology Through Quaternionic Recursion",
       "2397656": "Native Inhabitants of the Imaginary A Recursive Harmonic Reformulation of the Ultraterrestrial Hypothesis",
-      "2397681": "The Algebraic Inversion of Discrete Computational Folds: Multiscale Parity Tomography and the Trace-Sufficient Reverse Engine"
+      "2397681": "The Algebraic Inversion of Discrete Computational Folds: Multiscale Parity Tomography and the Trace-Sufficient Reverse Engine",
+      "2397682": "article 1",
+      "2397683": "article 10",
+      "2397684": "article 11",
+      "2397685": "article 12",
+      "2397686": "article 13",
+      "2397687": "article 14",
+      "2397688": "article 15",
+      "2397689": "article 16",
+      "2397690": "article 17",
+      "2397691": "article 18",
+      "2397692": "article 19",
+      "2397693": "article 2",
+      "2397694": "article 20",
+      "2397695": "article 21",
+      "2397696": "article 22",
+      "2397697": "article 23",
+      "2397698": "article 24",
+      "2397699": "article 25",
+      "2397700": "article 26",
+      "2397701": "article 27",
+      "2397702": "article 28",
+      "2397703": "article 29",
+      "2397704": "article 3",
+      "2397705": "article 30",
+      "2397706": "article 31",
+      "2397707": "article 32",
+      "2397708": "article 33",
+      "2397709": "article 35",
+      "2397710": "article 36",
+      "2397711": "article 37",
+      "2397712": "article 38",
+      "2397713": "article 39",
+      "2397714": "article 4",
+      "2397715": "article 40",
+      "2397716": "article 41",
+      "2397717": "article 46",
+      "2397718": "article 47",
+      "2397719": "article 48",
+      "2397720": "article 49",
+      "2397721": "article 5",
+      "2397722": "article 50",
+      "2397723": "article 51",
+      "2397724": "article 52",
+      "2397725": "article 53",
+      "2397726": "article 54",
+      "2397727": "article 55",
+      "2397728": "article 56",
+      "2397729": "article 57",
+      "2397730": "article 58",
+      "2397731": "article 59",
+      "2397732": "article 6",
+      "2397733": "article 60",
+      "2397734": "article 61",
+      "2397735": "article 62",
+      "2397736": "article 63",
+      "2397737": "article 64",
+      "2397738": "article 65",
+      "2397739": "article 66",
+      "2397740": "article 67",
+      "2397741": "article 7",
+      "2397742": "article 8",
+      "2397743": "article 9",
+      "2397744": "10-Storms-LRDP-Summary-180502-Part-1",
+      "2397745": "30-Gw-Nagel-Agency-Responsibilities-2X-161007",
+      "2397746": "40-ICCF20-Grimshaw-Nagel-161231",
+      "2397747": "50-UT-EI-Agency-Policy-170106",
+      "2397748": "CF-Landscape-150213-Final-2-Per-Reduced",
+      "2397749": "CF-PolicyChangeICCF14-Aug2008-Reduced",
+      "2397750": "EvidenceBasedCFPolicy031608Final",
+      "2397751": "FrM1-1",
+      "2397752": "Grimshaw-ICCF19-Presentation-150414-2per",
+      "2397753": "Grimshaw-MIT-CF-Policy-140323",
+      "2397754": "ICCF-21-Poster-9-180530",
+      "2397755": "ICCF-21-Storms-Flier-180531",
+      "2397756": "JCMNS-Volume-3-Storms-Grimshaw-Reduced",
+      "2397757": "LENR-TA-Project-Plan-rev0-120528-1-JPM-1",
+      "2397758": "LENRGY-Collaboration-141027-1",
+      "2397759": "NI-Celani-Enhanced-Doc-Final-130830",
+      "2397760": "NI-Celani-Verif-Plan-130104",
+      "2397761": "NI-UT-ICCF-18-Poster-Celani-Verif",
+      "2397762": "OpenSourceScienceICCF14-Aug2008-jReduced",
+      "2397763": "P 1021",
+      "2397764": "Solid-State-Lab-Proposal-Vol-1-140423",
+      "2397765": "TWG-PR-for-Binding-111108-1",
+      "2397766": "Task-Report-1-CF-Changing-Landscape-130128-ML-Reduced",
+      "2397767": "Task-Report-2-CF-130211-ML-2",
+      "2397768": "EvidenceBasedPolicyCF-9-100415-v2",
+      "2397769": "5-ICCF-23-Presentation-210525",
+      "2397770": "Chapter.ID 66972 6x9-Author-Revisions",
+      "2397771": "Santa-Fe-Lab-Proposal-131212",
+      "2397772": "prp 167-shaping energy tech transition-2009",
+      "2397773": "prp 172-building bridge energy secure future-2011",
+      "2397774": "Flamm-Cold-Fusion-Paper-All-032106",
+      "2397775": "10-Srini-Conference-SLRDP-3-210118",
+      "2397776": "30-Univ-Utah-Rept-211014",
+      "2397777": "50-Szpak-Book-for-Publication-200708",
+      "2397778": "EgoOut",
+      "2397779": "Grimshaw-220205",
+      "2397780": "Grimshaw-on-Kowalski-Galley1",
+      "2397781": "Szpak-Book-on-Infinite-Energy-200723",
+      "2397782": "300-Lomax-LRDP-3rd-Report-220311b",
+      "2397783": "FoxFusionFactsOnIE-220417",
+      "2397784": "10-Grimshaw-Poster-220730",
+      "2397785": "80-SRI-LENR-Research-Rept-3rd-220703",
+      "2397786": "LRDI-Learned-So-Far-220730",
+      "2397787": "130-Grimshaw-Erice-CF-Policy-141010-2-per-Page",
+      "2397788": "15-Storms-Gw-Stage-1-2nd-Draft-170418",
+      "2397789": "25-Storms-Gw-Stage-2-2nd-170603-Print",
+      "2397790": "35-Storms-Gw-Stage-3-2nd-Draft-180218",
+      "2397791": "Grimshaw3-220807",
+      "2397792": "PanethFthepublica.pdfpage28-Cover-Added",
+      "2397793": "NI-CIEEP-Defkalion-Trip-Rept-130713-Rev1-1",
+      "2397794": "LRDI-Learned-So-Far-221001",
+      "2397795": "0-Storms-Carat-230330",
+      "2397796": "100-Dolan-LRDP-Volume-2-220912",
+      "2397797": "30-Dolan-LRDP-Report-220912",
+      "2397798": "LRDI-File-Archive-230402",
+      "2397799": "135-ICCF-19-Integrated-Policy-2015-1",
+      "2397800": "5-CF-Habitability-20230831-2-Per",
+      "2397801": "60-Grimshaw-Final-240128",
+      "2397802": "10-Final-Paper-240425",
+      "2397803": "20-VHS-Tapes-Report-240426",
+      "2397804": "SSF-Discovery-Reports-Chapter-3-Essential-Public-Policy-Changes",
+      "2397805": "10-GrimshawT2024-for-LENRGY-Website-240507-2",
+      "2397806": "20-FF-as-LENRGY-2nd-Rept-230909-Rev1-240507-Reduced",
+      "2397807": "10-CF-Video-Archive-Initiative-240901",
+      "2397808": "30-FF-as-LENRGY-2nd-Rept-Vol-2-230909-240507-Reduced",
+      "2397809": "0-Chapter-5-with-Cover-Etc-200329",
+      "2397810": "0-Grimshaw-3-Final-200210",
+      "2397811": "0-Grimshaw5-Final",
+      "2397812": "5-CF-LANR-Poster-1-190317",
+      "2397813": "5-CF-Public-Policy-190525-Poster",
+      "2397814": "5-ICCF-22-Presentation-190909",
+      "2397815": "5-LRDI-CF-LANR-190324-Reduced",
+      "2397816": "NI-CIEEP-Defkalion-Trip-Plan-130707"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -546763,6 +547284,817 @@
         "Alternative Physics",
         "Conspiracy / Politics",
         "Biology / Health"
+      ],
+      "2397682": [
+        "Borderland Research"
+      ],
+      "2397683": [
+        "Borderland Research"
+      ],
+      "2397684": [
+        "Borderland Research"
+      ],
+      "2397685": [
+        "Borderland Research"
+      ],
+      "2397686": [
+        "Borderland Research"
+      ],
+      "2397687": [
+        "Borderland Research"
+      ],
+      "2397688": [
+        "Borderland Research"
+      ],
+      "2397689": [
+        "Borderland Research"
+      ],
+      "2397690": [
+        "Borderland Research"
+      ],
+      "2397691": [
+        "Borderland Research"
+      ],
+      "2397692": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2397693": [
+        "Borderland Research"
+      ],
+      "2397694": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2397695": [
+        "Borderland Research"
+      ],
+      "2397696": [
+        "Borderland Research"
+      ],
+      "2397697": [
+        "Energy",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2397698": [
+        "Borderland Research"
+      ],
+      "2397699": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397700": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397701": [
+        "Borderland Research"
+      ],
+      "2397702": [
+        "Borderland Research"
+      ],
+      "2397703": [
+        "Borderland Research"
+      ],
+      "2397704": [
+        "Borderland Research"
+      ],
+      "2397705": [
+        "Borderland Research"
+      ],
+      "2397706": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2397707": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2397708": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2397709": [
+        "Conspiracy / Politics"
+      ],
+      "2397710": [
+        "Borderland Research"
+      ],
+      "2397711": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2397712": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2397713": [
+        "Borderland Research"
+      ],
+      "2397714": [
+        "Borderland Research"
+      ],
+      "2397715": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397716": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "2397717": [
+        "Borderland Research"
+      ],
+      "2397718": [
+        "Borderland Research"
+      ],
+      "2397719": [
+        "Borderland Research"
+      ],
+      "2397720": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2397721": [
+        "Borderland Research"
+      ],
+      "2397722": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397723": [
+        "Borderland Research"
+      ],
+      "2397724": [
+        "Energy"
+      ],
+      "2397725": [
+        "Borderland Research"
+      ],
+      "2397726": [
+        "Borderland Research"
+      ],
+      "2397727": [
+        "Patents",
+        "Conspiracy / Politics"
+      ],
+      "2397728": [
+        "Patents",
+        "Conspiracy / Politics"
+      ],
+      "2397729": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2397730": [
+        "Borderland Research"
+      ],
+      "2397731": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Environment / Climate"
+      ],
+      "2397732": [
+        "Borderland Research"
+      ],
+      "2397733": [
+        "Borderland Research"
+      ],
+      "2397734": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2397735": [
+        "Patents"
+      ],
+      "2397736": [
+        "Borderland Research"
+      ],
+      "2397737": [
+        "Finance / Economics"
+      ],
+      "2397738": [
+        "Energy",
+        "Conspiracy / Politics"
+      ],
+      "2397739": [
+        "Borderland Research"
+      ],
+      "2397740": [
+        "Energy"
+      ],
+      "2397741": [
+        "Borderland Research"
+      ],
+      "2397742": [
+        "Borderland Research"
+      ],
+      "2397743": [
+        "Borderland Research"
+      ],
+      "2397744": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397745": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "2397746": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "2397747": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397748": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397749": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397750": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397751": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397752": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397753": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397754": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397755": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397756": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "2397757": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397758": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397759": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397760": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397761": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397762": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397763": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "2397764": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397765": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2397766": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Environment / Climate",
+        "Music / Audio",
+        "Reference Material",
+        "LENR / Cold Fusion"
+      ],
+      "2397767": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "2397768": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397769": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397770": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Environment / Climate",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397771": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397772": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2397773": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "2397774": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397775": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397776": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397777": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397778": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397779": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397780": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397781": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397782": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397783": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397784": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397785": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397786": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397787": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397788": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397789": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397790": [
+        "Energy",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397791": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397792": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "2397793": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397794": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397795": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397796": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397797": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397798": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2397799": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397800": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Environment / Climate",
+        "Dollard",
+        "LENR / Cold Fusion"
+      ],
+      "2397801": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397802": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2397803": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397804": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Reference Material",
+        "LENR / Cold Fusion"
+      ],
+      "2397805": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Dollard",
+        "LENR / Cold Fusion"
+      ],
+      "2397806": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397807": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397808": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397809": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397810": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2397811": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2397812": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397813": [
+        "Energy",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2397814": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397815": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2397816": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
       ]
     },
     "meta_concepts": {
@@ -652678,28 +654010,52 @@
       "2395356": [
         "cold_fusion"
       ],
-      "2395360": [],
+      "2395360": [
+        "tesla"
+      ],
       "2395361": [],
       "2395362": [],
-      "2395363": [],
+      "2395363": [
+        "tesla"
+      ],
       "2395364": [],
       "2395365": [],
       "2395366": [],
       "2395367": [],
-      "2395368": [],
-      "2395369": [],
+      "2395368": [
+        "geometry_sacred"
+      ],
+      "2395369": [
+        "cold_fusion"
+      ],
       "2395370": [],
       "2395371": [],
       "2395372": [],
       "2395373": [],
       "2395374": [],
       "2395375": [],
-      "2395376": [],
-      "2395377": [],
+      "2395376": [
+        "tesla",
+        "p_wrongturn"
+      ],
+      "2395377": [
+        "aether",
+        "tesla",
+        "borderland",
+        "p_fieldphys",
+        "p_bridge"
+      ],
       "2395378": [],
       "2395379": [],
       "2395380": [],
-      "2395381": [],
+      "2395381": [
+        "torsion",
+        "cold_fusion",
+        "tesla",
+        "geometry_sacred",
+        "crystal",
+        "p_fieldphys"
+      ],
       "2395382": [],
       "2395383": [],
       "2395384": [],
@@ -652709,123 +654065,321 @@
       "2395388": [],
       "2395389": [],
       "2395390": [],
-      "2395391": [],
+      "2395391": [
+        "scalar"
+      ],
       "2395392": [],
       "2395393": [],
       "2395394": [],
       "2395395": [],
       "2395396": [],
       "2395397": [],
-      "2395398": [],
+      "2395398": [
+        "torsion",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
       "2395399": [],
       "2395400": [],
-      "2395401": [],
+      "2395401": [
+        "vortex"
+      ],
       "2395402": [],
       "2395403": [],
-      "2395404": [],
+      "2395404": [
+        "keely"
+      ],
       "2395405": [],
       "2395406": [],
       "2395407": [],
       "2395408": [],
-      "2395409": [],
+      "2395409": [
+        "scalar"
+      ],
       "2395410": [],
-      "2395411": [],
+      "2395411": [
+        "geometry_sacred"
+      ],
       "2395412": [],
-      "2395413": [],
+      "2395413": [
+        "torsion",
+        "cold_fusion",
+        "keely",
+        "vortex",
+        "crystal",
+        "suppression",
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
       "2395414": [],
-      "2395415": [],
-      "2395416": [],
+      "2395415": [
+        "tesla"
+      ],
+      "2395416": [
+        "tesla"
+      ],
       "2395417": [],
       "2395418": [],
       "2395419": [],
-      "2395420": [],
-      "2395421": [],
-      "2395422": [],
-      "2395423": [],
+      "2395420": [
+        "tesla"
+      ],
+      "2395421": [
+        "tesla"
+      ],
+      "2395422": [
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2395423": [
+        "torsion",
+        "p_fieldphys"
+      ],
       "2395424": [],
       "2395425": [],
       "2395426": [],
       "2395427": [],
       "2395428": [],
-      "2395429": [],
+      "2395429": [
+        "aether"
+      ],
       "2395430": [],
-      "2395431": [],
+      "2395431": [
+        "regenerative",
+        "p_nature"
+      ],
       "2395432": [],
       "2395434": [],
-      "2395435": [],
-      "2395437": [],
-      "2395440": [],
-      "2395444": [],
-      "2395449": [],
-      "2395455": [],
-      "2395462": [],
-      "2395470": [],
-      "2395479": [],
-      "2395489": [],
-      "2395500": [],
-      "2395512": [],
-      "2395525": [],
-      "2395539": [],
-      "2395554": [],
-      "2395570": [],
-      "2395587": [],
-      "2395605": [],
-      "2395624": [],
-      "2395644": [],
-      "2395665": [],
-      "2395687": [],
-      "2395710": [],
-      "2395734": [],
-      "2395759": [],
-      "2395785": [],
-      "2395812": [],
-      "2395840": [],
-      "2395869": [],
-      "2395899": [],
-      "2395930": [],
-      "2395962": [],
-      "2395995": [],
-      "2396029": [],
-      "2396064": [],
-      "2396100": [],
-      "2396137": [],
-      "2396175": [],
-      "2396214": [],
-      "2396254": [],
-      "2396295": [],
-      "2396337": [],
-      "2396380": [],
-      "2396424": [],
-      "2396469": [],
-      "2396515": [],
-      "2396562": [],
-      "2396610": [],
-      "2396659": [],
-      "2396709": [],
-      "2396760": [],
-      "2396812": [],
-      "2396865": [],
-      "2396919": [],
-      "2396974": [],
-      "2397030": [],
-      "2397087": [],
-      "2397145": [],
-      "2397204": [],
-      "2397264": [],
+      "2395435": [
+        "p_goethean"
+      ],
+      "2395437": [
+        "p_goethean"
+      ],
+      "2395440": [
+        "p_goethean"
+      ],
+      "2395444": [
+        "p_goethean"
+      ],
+      "2395449": [
+        "p_goethean"
+      ],
+      "2395455": [
+        "p_goethean"
+      ],
+      "2395462": [
+        "p_goethean"
+      ],
+      "2395470": [
+        "p_goethean"
+      ],
+      "2395479": [
+        "p_goethean"
+      ],
+      "2395489": [
+        "p_goethean"
+      ],
+      "2395500": [
+        "p_goethean"
+      ],
+      "2395512": [
+        "p_goethean"
+      ],
+      "2395525": [
+        "p_goethean"
+      ],
+      "2395539": [
+        "p_goethean"
+      ],
+      "2395554": [
+        "p_goethean"
+      ],
+      "2395570": [
+        "p_goethean"
+      ],
+      "2395587": [
+        "p_goethean"
+      ],
+      "2395605": [
+        "p_goethean"
+      ],
+      "2395624": [
+        "p_goethean"
+      ],
+      "2395644": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2395665": [
+        "p_goethean"
+      ],
+      "2395687": [
+        "p_goethean"
+      ],
+      "2395710": [
+        "p_goethean"
+      ],
+      "2395734": [
+        "p_goethean"
+      ],
+      "2395759": [
+        "p_goethean"
+      ],
+      "2395785": [
+        "p_goethean"
+      ],
+      "2395812": [
+        "p_goethean"
+      ],
+      "2395840": [
+        "p_goethean"
+      ],
+      "2395869": [
+        "p_goethean"
+      ],
+      "2395899": [
+        "p_goethean"
+      ],
+      "2395930": [
+        "p_goethean"
+      ],
+      "2395962": [
+        "p_goethean"
+      ],
+      "2395995": [
+        "p_goethean"
+      ],
+      "2396029": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2396064": [
+        "p_goethean"
+      ],
+      "2396100": [
+        "aether",
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2396137": [
+        "aether",
+        "p_goethean"
+      ],
+      "2396175": [
+        "p_goethean"
+      ],
+      "2396214": [
+        "aether",
+        "p_goethean"
+      ],
+      "2396254": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2396295": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2396337": [
+        "p_goethean"
+      ],
+      "2396380": [
+        "aether",
+        "p_goethean"
+      ],
+      "2396424": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2396469": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2396515": [
+        "consciousness",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2396562": [
+        "aether",
+        "p_goethean",
+        "p_consciousness"
+      ],
+      "2396610": [
+        "p_goethean"
+      ],
+      "2396659": [
+        "p_goethean"
+      ],
+      "2396709": [
+        "p_goethean"
+      ],
+      "2396760": [
+        "p_goethean"
+      ],
+      "2396812": [
+        "p_goethean"
+      ],
+      "2396865": [
+        "p_goethean"
+      ],
+      "2396919": [
+        "p_goethean"
+      ],
+      "2396974": [
+        "p_goethean"
+      ],
+      "2397030": [
+        "p_goethean"
+      ],
+      "2397087": [
+        "p_goethean"
+      ],
+      "2397145": [
+        "p_goethean"
+      ],
+      "2397204": [
+        "p_goethean"
+      ],
+      "2397264": [
+        "p_goethean"
+      ],
       "2397265": [],
       "2397266": [],
-      "2397267": [],
+      "2397267": [
+        "p_wrongturn"
+      ],
       "2397268": [],
       "2397269": [],
       "2397270": [],
-      "2397271": [],
+      "2397271": [
+        "p_goethean"
+      ],
       "2397272": [],
-      "2397273": [],
-      "2397274": [],
-      "2397275": [],
+      "2397273": [
+        "geometry_sacred",
+        "p_formative"
+      ],
+      "2397274": [
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2397275": [
+        "p_fieldphys"
+      ],
       "2397276": [],
       "2397278": [],
-      "2397281": [],
+      "2397281": [
+        "p_wrongturn"
+      ],
       "2397285": [],
       "2397290": [],
       "2397296": [],
@@ -652834,36 +654388,256 @@
       "2397320": [],
       "2397330": [],
       "2397341": [],
-      "2397342": [],
-      "2397344": [],
-      "2397347": [],
-      "2397351": [],
+      "2397342": [
+        "aether",
+        "crystal",
+        "p_fieldphys"
+      ],
+      "2397344": [
+        "radionics",
+        "crystal"
+      ],
+      "2397347": [
+        "schauberger",
+        "radionics",
+        "vortex"
+      ],
+      "2397351": [
+        "tesla",
+        "p_fieldphys"
+      ],
       "2397356": [],
-      "2397357": [],
-      "2397359": [],
-      "2397362": [],
-      "2397366": [],
-      "2397371": [],
+      "2397357": [
+        "p_nature"
+      ],
+      "2397359": [
+        "scalar",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2397362": [
+        "scalar",
+        "cold_fusion",
+        "morphic",
+        "p_goethean",
+        "p_fieldphys",
+        "p_formative",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2397366": [
+        "tesla",
+        "geometry_sacred",
+        "p_consciousness"
+      ],
+      "2397371": [
+        "p_wrongturn"
+      ],
       "2397377": [],
-      "2397384": [],
-      "2397392": [],
-      "2397401": [],
-      "2397411": [],
+      "2397384": [
+        "cold_fusion",
+        "p_consciousness"
+      ],
+      "2397392": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2397401": [
+        "p_wrongturn"
+      ],
+      "2397411": [
+        "p_bridge"
+      ],
       "2397422": [],
       "2397434": [],
-      "2397447": [],
-      "2397461": [],
-      "2397476": [],
-      "2397492": [],
-      "2397509": [],
-      "2397527": [],
-      "2397546": [],
-      "2397566": [],
-      "2397587": [],
-      "2397609": [],
-      "2397632": [],
+      "2397447": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "2397461": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "2397476": [
+        "p_consciousness",
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2397492": [
+        "p_wrongturn"
+      ],
+      "2397509": [
+        "p_wrongturn"
+      ],
+      "2397527": [
+        "tesla",
+        "p_fieldphys",
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2397546": [
+        "cold_fusion",
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2397566": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2397587": [
+        "cold_fusion",
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "2397609": [
+        "scalar",
+        "tesla",
+        "p_wrongturn"
+      ],
+      "2397632": [
+        "torsion",
+        "p_fieldphys"
+      ],
       "2397656": [],
-      "2397681": []
+      "2397681": [
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
+      "2397682": [],
+      "2397683": [],
+      "2397684": [],
+      "2397685": [],
+      "2397686": [],
+      "2397687": [],
+      "2397688": [],
+      "2397689": [],
+      "2397690": [],
+      "2397691": [],
+      "2397692": [],
+      "2397693": [],
+      "2397694": [],
+      "2397695": [],
+      "2397696": [],
+      "2397697": [],
+      "2397698": [],
+      "2397699": [],
+      "2397700": [],
+      "2397701": [],
+      "2397702": [],
+      "2397703": [],
+      "2397704": [],
+      "2397705": [],
+      "2397706": [],
+      "2397707": [],
+      "2397708": [],
+      "2397709": [],
+      "2397710": [],
+      "2397711": [],
+      "2397712": [],
+      "2397713": [],
+      "2397714": [],
+      "2397715": [],
+      "2397716": [],
+      "2397717": [],
+      "2397718": [],
+      "2397719": [],
+      "2397720": [],
+      "2397721": [],
+      "2397722": [],
+      "2397723": [],
+      "2397724": [],
+      "2397725": [],
+      "2397726": [],
+      "2397727": [],
+      "2397728": [],
+      "2397729": [],
+      "2397730": [],
+      "2397731": [],
+      "2397732": [],
+      "2397733": [],
+      "2397734": [],
+      "2397735": [],
+      "2397736": [],
+      "2397737": [],
+      "2397738": [],
+      "2397739": [],
+      "2397740": [],
+      "2397741": [],
+      "2397742": [],
+      "2397743": [],
+      "2397744": [],
+      "2397745": [],
+      "2397746": [],
+      "2397747": [],
+      "2397748": [],
+      "2397749": [],
+      "2397750": [],
+      "2397751": [],
+      "2397752": [],
+      "2397753": [],
+      "2397754": [],
+      "2397755": [],
+      "2397756": [],
+      "2397757": [],
+      "2397758": [],
+      "2397759": [],
+      "2397760": [],
+      "2397761": [],
+      "2397762": [],
+      "2397763": [],
+      "2397764": [],
+      "2397765": [],
+      "2397766": [],
+      "2397767": [],
+      "2397768": [],
+      "2397769": [],
+      "2397770": [],
+      "2397771": [],
+      "2397772": [],
+      "2397773": [],
+      "2397774": [],
+      "2397775": [],
+      "2397776": [],
+      "2397777": [],
+      "2397778": [],
+      "2397779": [],
+      "2397780": [],
+      "2397781": [],
+      "2397782": [],
+      "2397783": [],
+      "2397784": [],
+      "2397785": [],
+      "2397786": [],
+      "2397787": [],
+      "2397788": [],
+      "2397789": [],
+      "2397790": [],
+      "2397791": [],
+      "2397792": [],
+      "2397793": [],
+      "2397794": [],
+      "2397795": [],
+      "2397796": [],
+      "2397797": [],
+      "2397798": [],
+      "2397799": [],
+      "2397800": [],
+      "2397801": [],
+      "2397802": [],
+      "2397803": [],
+      "2397804": [],
+      "2397805": [],
+      "2397806": [],
+      "2397807": [],
+      "2397808": [],
+      "2397809": [],
+      "2397810": [],
+      "2397811": [],
+      "2397812": [],
+      "2397813": [],
+      "2397814": [],
+      "2397815": [],
+      "2397816": []
     }
   },
   "graph": {
