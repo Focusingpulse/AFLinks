@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T02:06:25Z",
+  "generated_at": "2026-09-10T03:07:18Z",
   "library": {
     "researchers": 1109,
     "researchers_cataloged": 1109,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 75,
     "bridges": 7,
-    "archive_entries": 56937,
+    "archive_entries": 57019,
     "meta_counts": {
-      "Challenges to the Standard Model": 43336,
+      "Challenges to the Standard Model": 43418,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -4404,9 +4404,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T01:13:04Z",
+      "last_run": "2026-09-10T02:07:39Z",
       "last_status": "ok",
-      "last_summary": "sync: 56907 docs, feed rebuilt"
+      "last_summary": "sync: 56937 docs, feed rebuilt, quota scrape skipped, 2 new translations landed"
     },
     {
       "member": "archive-raid",
@@ -4782,21 +4782,21 @@
     },
     {
       "date": "2026-09-10",
+      "time": "03:06",
+      "agent": "Book4 Translate",
+      "summary": "+5 chunks — Quota-mode run: translated Book 4 chunks 125-129 (Ch. 3/6 — Tesla transformer pulse formation, positive feedback regulation, aetherodynamic generator block diagram Fig. 19). Now 129/178 (72%)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "02:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+56937 docs — sync: 56937 docs, feed rebuilt, quota gear scrape skipped"
+    },
+    {
+      "date": "2026-09-10",
       "time": "01:47",
       "agent": "Translation Curator",
       "summary": "+5 chunks — Quota mode: translated Reich Ether Physics (de) chunks 73-76 covering the new ether (Dirac sea, Casimir effect, Puthoff vacuum energy) and cold fusion/ORUR; job now 76/230. Assembled completed Study on Torsion Fields (de, 27 chunks) into full translation. Reich source PDF already archived (2026-09-09)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "01:21",
-      "agent": "Translation Sweeper",
-      "summary": "+22 translations+chunks — Quota run: assembled 18 completed-but-unassembled full translations (~750KB, 9 languages — Shipov torsion tech, Spyridis Platonic theory, Acqua Viva Schauberger 106 chunks, Magnitsky, Tesla patent analyses, Reich-era docs); translated 4 more chunks of Wilhelm Reich Ether Physics (orgonomie.net) to 72/230; fixed fulltext_worker backlog bug that miscounted assembled full translations as legacy digests (legacy 110→89). Flagged: tervica job has manifest/disk chunk mismatch (27 vs 51) — needs re-chunk audit."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "01:12",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+56907 docs — sync: archive at 56907 docs (incl. +1230 NET-Journal harvest by worker), feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -49172,7 +49172,89 @@
         "2389960",
         "2389988",
         "2390017",
-        "2390047"
+        "2390047",
+        "2390048",
+        "2390049",
+        "2390050",
+        "2390051",
+        "2390052",
+        "2390053",
+        "2390054",
+        "2390055",
+        "2390056",
+        "2390057",
+        "2390058",
+        "2390059",
+        "2390060",
+        "2390061",
+        "2390062",
+        "2390063",
+        "2390064",
+        "2390065",
+        "2390066",
+        "2390067",
+        "2390068",
+        "2390069",
+        "2390070",
+        "2390071",
+        "2390072",
+        "2390073",
+        "2390074",
+        "2390075",
+        "2390076",
+        "2390077",
+        "2390078",
+        "2390079",
+        "2390080",
+        "2390081",
+        "2390082",
+        "2390083",
+        "2390084",
+        "2390085",
+        "2390086",
+        "2390087",
+        "2390088",
+        "2390089",
+        "2390090",
+        "2390091",
+        "2390092",
+        "2390093",
+        "2390094",
+        "2390095",
+        "2390096",
+        "2390097",
+        "2390098",
+        "2390099",
+        "2390100",
+        "2390101",
+        "2390102",
+        "2390103",
+        "2390104",
+        "2390105",
+        "2390106",
+        "2390107",
+        "2390108",
+        "2390109",
+        "2390110",
+        "2390111",
+        "2390112",
+        "2390113",
+        "2390114",
+        "2390115",
+        "2390116",
+        "2390117",
+        "2390118",
+        "2390119",
+        "2390120",
+        "2390121",
+        "2390122",
+        "2390123",
+        "2390124",
+        "2390125",
+        "2390126",
+        "2390127",
+        "2390128",
+        "2390129"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -226715,7 +226797,89 @@
       "2389960": "Tier 2 Expansion: Vedic, Apocalyptic, and Islamic Traditions in the Emanation Topology Corpus (22 Traditions)",
       "2389988": "Geographic Universality and Graduated Role-Similarity Mesoamerican, Tibetan, and Mandaean Traditions in the Emanation Topology Corpus (25 Traditions)",
       "2390017": "The Final Inversion: Ontological Mathematics, the Universal Stack, and the Shadow of Computation within SHA-256",
-      "2390047": "The Ontological Inversion of Computation: SHA-256 as a Universal Switched Reluctance Machine, Qubit Substrate, and the A-Mark9 Synthesis"
+      "2390047": "The Ontological Inversion of Computation: SHA-256 as a Universal Switched Reluctance Machine, Qubit Substrate, and the A-Mark9 Synthesis",
+      "2390048": "2607.0079v1",
+      "2390049": "2607.0080v1",
+      "2390050": "2607.0081v1",
+      "2390051": "2607.0082v1",
+      "2390052": "2607.0083v1",
+      "2390053": "2607.0084v1",
+      "2390054": "2607.0085v1",
+      "2390055": "2607.0086v1",
+      "2390056": "2607.0087v1",
+      "2390057": "2607.0088v1",
+      "2390058": "2607.0089v1",
+      "2390059": "2607.0090v1",
+      "2390060": "2607.0091v1",
+      "2390061": "2607.0092v1",
+      "2390062": "2607.0093v1",
+      "2390063": "2607.0094v1",
+      "2390064": "2607.0095v1",
+      "2390065": "2607.0096v1",
+      "2390066": "2607.0097v1",
+      "2390067": "2607.0098v1",
+      "2390068": "2607.0099v1",
+      "2390069": "2607.0100v1",
+      "2390070": "2607.0101v1",
+      "2390071": "2607.0103v1",
+      "2390072": "2607.0104v1",
+      "2390073": "2607.0105v1",
+      "2390074": "2607.0106v1",
+      "2390075": "2607.0107v1",
+      "2390076": "2607.0108v1",
+      "2390077": "2607.0109v1",
+      "2390078": "2607.0110v1",
+      "2390079": "2607.0111v1",
+      "2390080": "2607.0112v1",
+      "2390081": "2607.0113v1",
+      "2390082": "2607.0114v1",
+      "2390083": "2607.0115v1",
+      "2390084": "2607.0116v1",
+      "2390085": "2607.0117v1",
+      "2390086": "2607.0118v1",
+      "2390087": "2607.0119v1",
+      "2390088": "2607.0120v1",
+      "2390089": "2607.0121v1",
+      "2390090": "2607.0122v1",
+      "2390091": "2607.0124v1",
+      "2390092": "2607.0125v1",
+      "2390093": "2607.0126v1",
+      "2390094": "2607.0127v1",
+      "2390095": "2607.0128v1",
+      "2390096": "2607.0129v1",
+      "2390097": "2607.0130v1",
+      "2390098": "2607.0131v1",
+      "2390099": "2607.0132v1",
+      "2390100": "2608.0034v1",
+      "2390101": "2608.0042v1",
+      "2390102": "2608.0081v1",
+      "2390103": "2608.0085v1",
+      "2390104": "2608.0086v1",
+      "2390105": "2608.0087v1",
+      "2390106": "2608.0088v1",
+      "2390107": "2608.0089v1",
+      "2390108": "2608.0090v1",
+      "2390109": "2608.0091v1",
+      "2390110": "2608.0092v1",
+      "2390111": "2608.0093v1",
+      "2390112": "2608.0094v1",
+      "2390113": "2608.0095v1",
+      "2390114": "2608.0096v1",
+      "2390115": "2608.0097v1",
+      "2390116": "2608.0098v1",
+      "2390117": "2608.0099v1",
+      "2390118": "2608.0100v1",
+      "2390119": "2608.0101v1",
+      "2390120": "2608.0102v1",
+      "2390121": "2608.0103v1",
+      "2390122": "2608.0104v1",
+      "2390123": "2608.0105v1",
+      "2390124": "2608.0106v1",
+      "2390125": "2608.0107v1",
+      "2390126": "2608.0108v1",
+      "2390127": "2608.0109v1",
+      "2390128": "2609.0021v1",
+      "2390129": "2609.0022v1"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -534149,6 +534313,252 @@
         "Quantum & Relativity",
         "Alternative Physics",
         "Conspiracy / Politics"
+      ],
+      "2390048": [
+        "Borderland Research"
+      ],
+      "2390049": [
+        "Borderland Research"
+      ],
+      "2390050": [
+        "Borderland Research"
+      ],
+      "2390051": [
+        "Borderland Research"
+      ],
+      "2390052": [
+        "Borderland Research"
+      ],
+      "2390053": [
+        "Borderland Research"
+      ],
+      "2390054": [
+        "Borderland Research"
+      ],
+      "2390055": [
+        "Borderland Research"
+      ],
+      "2390056": [
+        "Borderland Research"
+      ],
+      "2390057": [
+        "Borderland Research"
+      ],
+      "2390058": [
+        "Borderland Research"
+      ],
+      "2390059": [
+        "Borderland Research"
+      ],
+      "2390060": [
+        "Borderland Research"
+      ],
+      "2390061": [
+        "Borderland Research"
+      ],
+      "2390062": [
+        "Borderland Research"
+      ],
+      "2390063": [
+        "Borderland Research"
+      ],
+      "2390064": [
+        "Borderland Research"
+      ],
+      "2390065": [
+        "Borderland Research"
+      ],
+      "2390066": [
+        "Borderland Research"
+      ],
+      "2390067": [
+        "Borderland Research"
+      ],
+      "2390068": [
+        "Borderland Research"
+      ],
+      "2390069": [
+        "Borderland Research"
+      ],
+      "2390070": [
+        "Borderland Research"
+      ],
+      "2390071": [
+        "Borderland Research"
+      ],
+      "2390072": [
+        "Borderland Research"
+      ],
+      "2390073": [
+        "Borderland Research"
+      ],
+      "2390074": [
+        "Borderland Research"
+      ],
+      "2390075": [
+        "Borderland Research"
+      ],
+      "2390076": [
+        "Borderland Research"
+      ],
+      "2390077": [
+        "Borderland Research"
+      ],
+      "2390078": [
+        "Borderland Research"
+      ],
+      "2390079": [
+        "Borderland Research"
+      ],
+      "2390080": [
+        "Borderland Research"
+      ],
+      "2390081": [
+        "Borderland Research"
+      ],
+      "2390082": [
+        "Borderland Research"
+      ],
+      "2390083": [
+        "Borderland Research"
+      ],
+      "2390084": [
+        "Borderland Research"
+      ],
+      "2390085": [
+        "Borderland Research"
+      ],
+      "2390086": [
+        "Borderland Research"
+      ],
+      "2390087": [
+        "Borderland Research"
+      ],
+      "2390088": [
+        "Borderland Research"
+      ],
+      "2390089": [
+        "Borderland Research"
+      ],
+      "2390090": [
+        "Borderland Research"
+      ],
+      "2390091": [
+        "Borderland Research"
+      ],
+      "2390092": [
+        "Borderland Research"
+      ],
+      "2390093": [
+        "Borderland Research"
+      ],
+      "2390094": [
+        "Borderland Research"
+      ],
+      "2390095": [
+        "Borderland Research"
+      ],
+      "2390096": [
+        "Borderland Research"
+      ],
+      "2390097": [
+        "Borderland Research"
+      ],
+      "2390098": [
+        "Borderland Research"
+      ],
+      "2390099": [
+        "Borderland Research"
+      ],
+      "2390100": [
+        "Borderland Research"
+      ],
+      "2390101": [
+        "Borderland Research"
+      ],
+      "2390102": [
+        "Borderland Research"
+      ],
+      "2390103": [
+        "Borderland Research"
+      ],
+      "2390104": [
+        "Borderland Research"
+      ],
+      "2390105": [
+        "Borderland Research"
+      ],
+      "2390106": [
+        "Borderland Research"
+      ],
+      "2390107": [
+        "Borderland Research"
+      ],
+      "2390108": [
+        "Borderland Research"
+      ],
+      "2390109": [
+        "Borderland Research"
+      ],
+      "2390110": [
+        "Borderland Research"
+      ],
+      "2390111": [
+        "Borderland Research"
+      ],
+      "2390112": [
+        "Borderland Research"
+      ],
+      "2390113": [
+        "Borderland Research"
+      ],
+      "2390114": [
+        "Borderland Research"
+      ],
+      "2390115": [
+        "Borderland Research"
+      ],
+      "2390116": [
+        "Borderland Research"
+      ],
+      "2390117": [
+        "Borderland Research"
+      ],
+      "2390118": [
+        "Borderland Research"
+      ],
+      "2390119": [
+        "Borderland Research"
+      ],
+      "2390120": [
+        "Borderland Research"
+      ],
+      "2390121": [
+        "Borderland Research"
+      ],
+      "2390122": [
+        "Borderland Research"
+      ],
+      "2390123": [
+        "Borderland Research"
+      ],
+      "2390124": [
+        "Borderland Research"
+      ],
+      "2390125": [
+        "Borderland Research"
+      ],
+      "2390126": [
+        "Borderland Research"
+      ],
+      "2390127": [
+        "Borderland Research"
+      ],
+      "2390128": [
+        "Borderland Research"
+      ],
+      "2390129": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -641083,7 +641493,89 @@
       ],
       "2390047": [
         "p_wrongturn"
-      ]
+      ],
+      "2390048": [],
+      "2390049": [],
+      "2390050": [],
+      "2390051": [],
+      "2390052": [],
+      "2390053": [],
+      "2390054": [],
+      "2390055": [],
+      "2390056": [],
+      "2390057": [],
+      "2390058": [],
+      "2390059": [],
+      "2390060": [],
+      "2390061": [],
+      "2390062": [],
+      "2390063": [],
+      "2390064": [],
+      "2390065": [],
+      "2390066": [],
+      "2390067": [],
+      "2390068": [],
+      "2390069": [],
+      "2390070": [],
+      "2390071": [],
+      "2390072": [],
+      "2390073": [],
+      "2390074": [],
+      "2390075": [],
+      "2390076": [],
+      "2390077": [],
+      "2390078": [],
+      "2390079": [],
+      "2390080": [],
+      "2390081": [],
+      "2390082": [],
+      "2390083": [],
+      "2390084": [],
+      "2390085": [],
+      "2390086": [],
+      "2390087": [],
+      "2390088": [],
+      "2390089": [],
+      "2390090": [],
+      "2390091": [],
+      "2390092": [],
+      "2390093": [],
+      "2390094": [],
+      "2390095": [],
+      "2390096": [],
+      "2390097": [],
+      "2390098": [],
+      "2390099": [],
+      "2390100": [],
+      "2390101": [],
+      "2390102": [],
+      "2390103": [],
+      "2390104": [],
+      "2390105": [],
+      "2390106": [],
+      "2390107": [],
+      "2390108": [],
+      "2390109": [],
+      "2390110": [],
+      "2390111": [],
+      "2390112": [],
+      "2390113": [],
+      "2390114": [],
+      "2390115": [],
+      "2390116": [],
+      "2390117": [],
+      "2390118": [],
+      "2390119": [],
+      "2390120": [],
+      "2390121": [],
+      "2390122": [],
+      "2390123": [],
+      "2390124": [],
+      "2390125": [],
+      "2390126": [],
+      "2390127": [],
+      "2390128": [],
+      "2390129": []
     }
   },
   "graph": {
