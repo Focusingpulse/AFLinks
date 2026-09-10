@@ -263,7 +263,7 @@ If the convergent claim is correct — that the vortex is the universal organizi
 - `translations/2026-09-03-compendium-vortex-physics-de.md` — SAFE compendium of vortex physics
 - `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` — Schauberger implosion patent
 - `translations/2026-09-03-study-torsion-fields-de.md` — German torsion field study
-- `translations/2026-09-03-akimov-shipov-torsion-field-ru.md` — Russian torsion physics
+- `translations/2026-09-10-akimov-shipov-torsion-field-research-ru.md` — Russian torsion physics
 - `translations/2026-09-03-platonic-theory-of-everything-el.md` — Greek Platonic particle physics
 - `translations/2026-09-03-del-giudice-pollack-fourth-phase-water-it.md` — Italian water coherence
 - `translations/2026-09-03-tesla-patents-radiant-energy-fr.md` — French Tesla analysis
