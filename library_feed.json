@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:08:54Z",
+  "generated_at": "2026-09-10T20:08:01Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -4780,9 +4780,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-10T18:24:04Z",
+      "last_run": "2026-09-10T19:48:10Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (127->135) | Goethe Scientific Works (it) 135/353, chunks 132-135 this run (Volket/Kant, three worlds, truth-as-judgment) | fixed manifest desync: 25 job manifests synced to disk truth (Goethe was flagged 101 done vs 131 real en files) | backlog 423 (gear: quota)"
+      "last_summary": "+0 archives since last run (still 29) | Goethe Scientific Works (it) 135/353 chunks, +4 this run | backlog 423 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4791,9 +4791,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T17:22:45Z",
+      "last_run": "2026-09-10T19:17:01Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks this run (active job switched to Goethe Scientific Works it; per-job counter 123->101 reflects job switch, not loss) | Goethe Scientific Works 101/353 | backlog 423 wait (gear: quota)"
+      "last_summary": "+4 chunks | Goethe Scientific Works 139/353 | backlog 423 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -4813,9 +4813,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T18:22:56Z",
+      "last_run": "2026-09-10T19:15:18Z",
       "last_status": "ok",
-      "last_summary": "sync: 58338 docs, feed rebuilt"
+      "last_summary": "sync: 58450 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5005,6 +5005,12 @@
     },
     {
       "date": "2026-09-10",
+      "time": "19:47",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: translated Goethe Scientific Works (Italian) chunks 132-135 — epistemology of perception/concept (Steiner vs Kant vs Volket), now 135/353 chunks. Source already archived (2 copies in archives/). Backlog 423."
+    },
+    {
+      "date": "2026-09-10",
       "time": "19:26",
       "agent": "Translation Sweeper",
       "summary": "+5 chunks — Quota-mode run: translated chunks 50-54 of 'Wilhelm Reich Ether Physics and Orgone Experiments' (orgonomie.net, German). Now 54/230 chunks. Content: ORANUR/mechanical atmosphere critique, orgone blanket sensory description, experiment vs theory formation, Reich's response to critics, DeMeo neutron counter measurements."
@@ -5012,8 +5018,20 @@
     {
       "date": "2026-09-10",
       "time": "19:17",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota run: translated 4 chunks (136-139) of Goethe Scientific Works (Italian, ospi.it), now 139/353. Content: Steiner's epistemology of thinking as organ of perception, Goethe's 'phenomena themselves are the theory', perceptual judgment X-is-A, and the unity of the concept vs multiplicity of representations. Backlog 423 docs wait."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "19:17",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+53954 docs — +53954 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "19:15",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58450 docs — +58450 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5194,24 +5212,6 @@
       "time": "14:09",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+58262 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "14:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+53825 docs — +53825 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "14:02",
-      "agent": "Engine of Practicality",
-      "summary": "+0 quest cards — Food domain search yielded no qualifying candidate."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "14:00",
-      "agent": "Practicality Engine",
-      "summary": "+1 quest card — Community domain: Electrostatic Energy Test. Tests Methernita/Testatika claim (750 kW vacuum energy system since 1980). Home-scale Wimshurst machine test: does output exceed cranking input? Dossier 007 created. Rotation advances to energy."
     },
     {
       "date": "2026-09-10",
