@@ -1,12 +1,7 @@
 ---
-name: Theorie Phi - Scalar Field Coupled to Baryonic Matter
-description: "Full-document translation. language fr | 7 chunks | https://zenodo.org/api/records/16728704/files/%C3%89tude%20rigoureuse%20d%27un%20champ%20scalaire%20l%C3%A9ger%20coupl%C3%A9%20%C3%A0%20la%20mati%C3%A8re%20dans%20les%20galaxies.pdf/content"
+name: Theorie Phi Scalar Field Fr
+description: Full English translation
 ---
-
-# Theorie Phi - Scalar Field Coupled to Baryonic Matter
-
-*Full translation from fr · source: https://zenodo.org/api/records/16728704/files/%C3%89tude%20rigoureuse%20d%27un%20champ%20scalaire%20l%C3%A9ger%20coupl%C3%A9%20%C3%A0%20la%20mati%C3%A8re%20dans%20les%20galaxies.pdf/content · 7 chunks · assembled 2026-09-10*
-
 Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html
 
 Rigorous study of a light scalar field coupled to matter in galaxies:
@@ -52,7 +47,8 @@ The observed galactic rotation curves reveal a major discrepancy with the predic
             1970s, suggests either the existence of non-baryonic dark matter, or a modification of gravity at
             galactic scales.
 
----
+
+
 
 This work explores a third path: the hypothesis of a light scalar field Φ, coupled directly to
             baryonic matter, capable of generating an additional gravitational force with finite range. Unlike
@@ -118,7 +114,8 @@ where □ = gμν∇μ∇ν is the covariant d'Alembert operator.
 
 3.2 Quasi-static approximation
 
----
+
+
 
 For quasi-static galactic systems and in the weak-field limit, the equation reduces to:
 
@@ -199,7 +196,8 @@ Rigorous study of a light scalar field coupled to matter in galaxies ...        
 
 6.1 Disk density profile
 
----
+
+
 
 The baryonic matter density is modeled by a standard exponential profile:
 
@@ -279,7 +277,8 @@ To ensure the robustness of the analysis, we apply the following criteria:
 8 sur 11                                                                                                                            02/08/2025, 16:03
 Rigorous study of a light scalar field coupled to matter in galaxies ...   file:///C:/Users/fabie/Downloads/paper_pdf.html
 
----
+
+
 
 • Radial extent: Rmax > 2Rd
                  • Kinematic resolution: > 10 independent points
@@ -307,7 +306,8 @@ Coupling constant: α ~ G ~ 6.67×10⁻¹¹ m³ kg⁻¹ s⁻²
 
 The numerical implementation proceeds through the following steps:
 
----
+
+
 
 import numpy as np from scipy.optimize import minimize from scipy.integrate import quad import
                 matplotlib.pyplot as plt # Physical constants G = 6.67430e-11 # m³ kg⁻¹ s⁻² c = 299792458 # m/s eV_to_kg =
@@ -344,7 +344,8 @@ import numpy as np from scipy.optimize import minimize from scipy.integrate impo
                 [(1e-30, 1e-20), (1e-15, 1e-5)] result = minimize(chi_squared, initial_guess, method='L-BFGS-B',
                 bounds=bounds, options={'ftol': 1e-12, 'gtol': 1e-8}) return result def analyze_galaxy_sample(sample_data):
 
----
+
+
 
 10 sur 11                                                                                                                    02/08/2025, 16:03
 Rigorous study of a light scalar field coupled to matter in galaxies ...                  file:///C:/Users/fabie/Downloads/paper_pdf.html
@@ -355,3 +356,6 @@ Rigorous study of a light scalar field coupled to matter in galaxies ...        
                {galaxy_data['
 
 11 sur 11                                                                                                                 02/08/2025, 16:03
+
+
+
