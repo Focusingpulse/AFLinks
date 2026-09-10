@@ -2513,7 +2513,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260910013046')
+            fetch('./synthesis/synthesis_index.json?v=20260910020625')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3055,7 +3055,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260910013046');
+                        const response = await fetch('./search_index.json?v=20260910020625');
                         return response.json();
                     };
                     if (catParam) {
@@ -3085,12 +3085,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260910013046');
+                    const man = await fetch('./full_manifest.json?v=20260910020625');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260910013046');
+                    const feedRes = await fetch('./library_feed.json?v=20260910020625');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
