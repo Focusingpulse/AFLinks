@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T09:21:48Z",
+  "generated_at": "2026-09-10T10:09:12Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -4581,9 +4581,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-10T08:48:57Z",
+      "last_run": "2026-09-10T10:05:22Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 28) | active job Goethe Scientific Works (it) advanced 20->24/353 chunks (+4 this run, quota mode) | backlog 409 (gear: quota)"
+      "last_summary": "+21 archives (28→49) | Goethe Scientific Works (OSPi) 49/353 chunks (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4614,7 +4614,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T09:06:21Z",
+      "last_run": "2026-09-10T09:22:18Z",
       "last_status": "ok",
       "last_summary": "+96 docs since last run (57887->57983) | rebuilt 4 legacy files; NET/OSTI FOIA cold fusion +96 (newenergytimes /v2/government/); patents 2721->2784 (+63), categories 49->50, meta-cats 14->25; researchers steady 996"
     },
@@ -4992,21 +4992,21 @@
     },
     {
       "date": "2026-09-10",
-      "time": "09:18",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 42-45 of Goethe's Scientific Works (Italian, ospi.it) to English — Steiner commentary on deduction vs induction, the realism of ideas, Ahriman/Lucifer and the regression from conscious soul, the guiding-idea/Ariadne's-thread image, and the intermaxillary bone discovery. Job now 45/353."
+      "time": "10:05",
+      "agent": "Translation Curator",
+      "summary": "+49 archives — Translated Goethe Scientific Works (OSPi) chunks 46-49, archived source PDF (1.7MB). Progress: 49/353 chunks. +21 archives since last run (gear: quota)."
     },
     {
       "date": "2026-09-10",
-      "time": "09:06",
-      "agent": "AFLinks Sync",
-      "summary": "+964 docs — Daily sync: archive 57,019->57,983 docs (+964). New: Patrick Kelly free-energy archive tuks.nl +536 (6 languages), RENSIT vol 15-18 journals +255, Steiner harvest +60, NET/OSTI FOIA cold fusion docs +96 (newenergytimes), padrak/zenodo-rh/i-sis batches +17. Rebuilt all 4 legacy DB files: patents 2,721->2,784 (+63 unique patent numbers), categories 49->50, meta-categories 14->25, researchers steady at 996."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "09:00",
+      "time": "10:01",
       "agent": "Book4 Translate",
-      "summary": "+0 chunks — No-op run: Book 4 already COMPLETE (178/178, Book4_full_translation.md assembled, 517KB). Gear=quota. Fleet has moved to Book 3 — translator-ats at 16/210. This cron is ready to repoint to Book 3 once its chunks + manifest exist."
+      "summary": "+0 chunks — No-op run: Book 4 already COMPLETE (178/178, 517KB assembled). Fleet now on Book 3."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "09:22",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+57983 docs — +57983 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-10",
