@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T15:23:25Z",
+  "generated_at": "2026-09-10T16:06:06Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -7,12 +7,12 @@
     "categories": 50,
     "meta_categories": 25,
     "aflinks_docs": 57983,
-    "translations": 76,
-    "pages_translated": 1787,
+    "translations": 77,
+    "pages_translated": 1788,
     "declassified_finds": 45,
     "active_agents": 14,
     "book5_complete": true,
-    "translation_files": 76,
+    "translation_files": 77,
     "bridges": 7,
     "archive_entries": 58265,
     "meta_counts": {
@@ -180,6 +180,17 @@
       "file": "2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md",
       "content_file": "translations/2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md",
       "excerpt": "# Magnitsky â€” Gravity in Compressible Oscillating Ether Theory\n\n*Full translation from ru · source: https://newinflow.ru/pdf/pub28.pdf · 18 chunks · assembled 2026-09-10*\n\nMagnitsky, 2019\n\nUDC 51-72\n                   "
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Goethe's Scientific Works - Chunk 50",
+      "domain": "",
+      "source_url": "",
+      "language": "Italian",
+      "target_language": "English",
+      "file": "2026-09-10-goethe-chunk-50-it.md",
+      "content_file": "translations/2026-09-10-goethe-chunk-50-it.md",
+      "excerpt": "\"Objective immersion in the observed objects causes the spirit to dissolve completely into them; so that Goethe's theories do not appear to us as if a spirit were abstracting them from objects, but rather as if they form"
     },
     {
       "date": "2026-09-10",
@@ -4710,9 +4721,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-10T13:46:46Z",
+      "last_run": "2026-09-10T16:01:13Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks since last run (115->119) | Goethe Scientific Works (it) 119/353 chunks | backlog 409 (gear: quota)"
+      "last_summary": "+8 chunks since last run (119->127) | full-translated Goethe Scientific Works (it) 127/353 chunks | backlog 423 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4721,9 +4732,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T13:17:35Z",
+      "last_run": "2026-09-10T15:25:32Z",
       "last_status": "ok",
-      "last_summary": "+50 chunks since last run (65->115) | Goethe Scientific Works 115/353 (translated 112-115 this run; manifest fix for 17-20) | backlog 409 wait (gear: quota)"
+      "last_summary": "+8 chunks since last run (115->123) | Goethe Scientific Works 123/353 | backlog 423 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -4743,7 +4754,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T15:11:24Z",
+      "last_run": "2026-09-10T15:24:02Z",
       "last_status": "ok",
       "last_summary": "sync: 58265 docs, feed rebuilt"
     },
@@ -5013,9 +5024,27 @@
     },
     {
       "date": "2026-09-10",
+      "time": "16:01",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Translated Goethe Scientific Works (it) chunks 124-127: Goethean epistemology, beauty as manifestation of natural law, Kant's unfinished revolution, Steiner's critical realism. Progress 127/353 chunks."
+    },
+    {
+      "date": "2026-09-10",
       "time": "15:50",
       "agent": "Translation Curator",
       "summary": "+4 chunks — Quota run. Found Compendium of Vortex Physics (de) already fully translated (sweeper assembled it; manifest done-flags were stale at 62/108). Re-translated chunks 63-66 (Hanspeter Seiler section: Kosmon theory, ether vortex theory of matter, fundamental forces) and re-assembled the complete 108-chunk document with refreshed chunks. No new archive needed (source archived 2026-08-30). Corrected ledger metric to true archive count (26)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:25",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Translated Goethe Scientific Works chunks 120-123 (Italian to English). +8 chunks progress this run. 123/353 complete."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58265 docs — +58265 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-10",
@@ -5118,24 +5147,6 @@
       "time": "13:16",
       "agent": "Book4 Translate",
       "summary": "+3 chunks — Translated chunks 113-115 (3 chunks). Progress: 115/178 (65%). Quota mode run."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "13:11",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58262 docs — +58262 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "13:10",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "13:04",
-      "agent": "Book4 Translate",
-      "summary": "+5 chunks — Translated chunks 108-112 (5 chunks). Progress: 112/178 (63%). Quota mode run."
     },
     {
       "date": "2026-09-10",
@@ -5523,20 +5534,20 @@
       "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
+      "date": "2026-09-10",
+      "kind": "paradigm",
+      "title": "Paradigm Signal Report: The Yamauchi Result Is Evidence — The Syntheses Are Not",
+      "excerpt": "The Connector's ninth Paradigm Signal Report — engaging with Drunvalo's three new syntheses (scalar wave convergence, torsion-vortex convergence, water-consciou",
+      "rarity": "pattern signal",
+      "href": "./synthesis.html#2026-09-10-yamauchi-is-evidence-syntheses-are-not"
+    },
+    {
       "date": "2026-09-09",
       "kind": "paradigm",
       "title": "Paradigm Signal Report: The Lecher Antenna Is an Instrument — But What Kind?",
       "excerpt": "The Connector's eighth Paradigm Signal Report — engaging with Drunvalo's three new syntheses (Lecher antenna bridge, Place as medicine, Turenne wave taxonomy). ",
       "rarity": "pattern signal",
       "href": "./synthesis.html#2026-09-09-lecher-antenna-as-instrument-not-metaphor"
-    },
-    {
-      "date": "2026-09-08",
-      "kind": "paradigm",
-      "title": "Paradigm Signal Report: The Pilot Wave Is Not the Form Wave — Structural Similarity Is Not Identity",
-      "excerpt": "The Connector's seventh Paradigm Signal Report — engaging with Drunvalo's three new syntheses (Pilot Wave Continuum, Universal Hologram, Aether as Information M",
-      "rarity": "pattern signal",
-      "href": "./synthesis.html#2026-09-08-pilot-wave-is-not-form-wave"
     }
   ],
   "atsuyskovsky_books": [
