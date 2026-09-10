@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-09-09T06:00:00Z",
+  "timestamp": "2026-09-10T06:06:32.064005Z",
   "run_type": "daily-database-refresh",
   "collection_stats": {
-    "total_translations": 110,
-    "total_researchers": 131,
-    "total_works_indexed": 182,
-    "total_archive_docs": 52746,
+    "total_translations": 133,
+    "total_researchers": 146,
+    "total_works_indexed": 134,
+    "total_archive_docs": 57555,
     "concept_tagged_docs": 18707,
     "concept_coverage_pct": 35
   },
   "language_distribution": {
-    "en": 46,
-    "fr": 15,
-    "ru": 12,
-    "it": 12,
-    "de": 7,
-    "es": 6,
+    "en": 48,
+    "fr": 16,
+    "ru": 13,
+    "it": 13,
+    "de": 8,
+    "es": 7,
     "el": 3,
     "pt": 2
   },
   "domain_distribution": {
-    "aether": 90,
-    "gravity": 70,
-    "scalar": 33,
-    "torsion": 23,
-    "sacred_geometry": 16,
-    "lenr": 6,
+    "aether": 92,
+    "gravity": 72,
+    "scalar": 35,
+    "torsion": 25,
+    "sacred_geometry": 17,
+    "lenr": 7,
     "morphic": 5,
-    "water": 3
+    "water": 4
   },
   "top_concepts": {
     "geometry_sacred": 7017,
@@ -42,13 +42,14 @@
     "p_nature": 763
   },
   "new_since_last_refresh": {
-    "translations_added": 16,
-    "researchers_added": 0,
-    "works_added": 16
+    "translations_added": 23,
+    "researchers_added": 15,
+    "works_added": -48
   },
   "notes": [
     "Library feed build skipped - living-library repo not available in sandbox",
-    "Concept tagging completed - 35% of archive now has concept tags",
+    "Concept tagging skipped - index.json too large for inline processing",
+    "Today's translations: 22 new documents processed",
     "All existing indices preserved and updated"
   ],
   "upgrade_bank_status": {
