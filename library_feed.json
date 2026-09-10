@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T18:37:20Z",
+  "generated_at": "2026-09-10T18:46:07Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 78,
     "bridges": 7,
-    "archive_entries": 58420,
+    "archive_entries": 58425,
     "meta_counts": {
-      "Challenges to the Standard Model": 44215,
+      "Challenges to the Standard Model": 44220,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,15 +31,15 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 35154,
-      "Patents & Inventions": 24961,
-      "Geopolitics & Hidden History": 20604,
-      "Electromagnetic Theory": 9746,
+      "Alternative Energy Technologies": 35158,
+      "Patents & Inventions": 24964,
+      "Geopolitics & Hidden History": 20605,
+      "Electromagnetic Theory": 9750,
       "Reference & Technical Data": 1974,
       "Media & Interviews": 2251,
-      "Environment & Climate": 9464,
-      "Biology, Health & Medicine": 6449,
-      "Frontier Science": 329,
+      "Environment & Climate": 9466,
+      "Biology, Health & Medicine": 6453,
+      "Frontier Science": 331,
       "Rudolf Steiner & Anthroposophy": 474
     },
     "graph_edges": 453,
@@ -50508,7 +50508,12 @@
         "2397311",
         "2397320",
         "2397330",
-        "2397341"
+        "2397341",
+        "2397342",
+        "2397344",
+        "2397347",
+        "2397351",
+        "2397356"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -97262,7 +97267,11 @@
         "2397271",
         "2397273",
         "2397274",
-        "2397281"
+        "2397281",
+        "2397342",
+        "2397344",
+        "2397347",
+        "2397351"
       ],
       "Patents & Inventions": [
         "5814",
@@ -122225,7 +122234,10 @@
         "2397271",
         "2397273",
         "2397274",
-        "2397281"
+        "2397281",
+        "2397342",
+        "2397344",
+        "2397351"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -142831,7 +142843,8 @@
         "2397273",
         "2397274",
         "2397281",
-        "2397285"
+        "2397285",
+        "2397344"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -152579,7 +152592,11 @@
         "2395431",
         "2397266",
         "2397273",
-        "2397274"
+        "2397274",
+        "2397342",
+        "2397344",
+        "2397347",
+        "2397351"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -166274,7 +166291,9 @@
         "2395381",
         "2395407",
         "2395411",
-        "2395413"
+        "2395413",
+        "2397344",
+        "2397347"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -172725,7 +172744,11 @@
         "2397271",
         "2397273",
         "2397274",
-        "2397285"
+        "2397285",
+        "2397342",
+        "2397344",
+        "2397347",
+        "2397351"
       ],
       "Frontier Science": [
         "239312",
@@ -173056,7 +173079,9 @@
         "2390600",
         "2390625",
         "2390659",
-        "2392768"
+        "2392768",
+        "2397344",
+        "2397347"
       ],
       "Rudolf Steiner & Anthroposophy": [
         "1554247",
@@ -231955,7 +231980,12 @@
       "2397311": "action letter short3",
       "2397320": "jamieson iaj ehs  human rights 0141204",
       "2397330": "how-susceptible-are-genes-to-mobile-phone-radiation-adlkofer-kompetenz",
-      "2397341": "srep18030"
+      "2397341": "srep18030",
+      "2397342": "INE Devices Database - Device Names",
+      "2397344": "INE Devices Database - Commercialization Criteria",
+      "2397347": "INE Devices Database - Interest Criteria",
+      "2397351": "INE Devices Database - Inventor Names",
+      "2397356": "WS FTP"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -546376,6 +546406,53 @@
       ],
       "2397341": [
         "Borderland Research"
+      ],
+      "2397342": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2397344": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Environment / Climate",
+        "LENR / Cold Fusion",
+        "Psionics / Radionics"
+      ],
+      "2397347": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Environment / Climate",
+        "LENR / Cold Fusion",
+        "Psionics / Radionics"
+      ],
+      "2397351": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Tesla"
+      ],
+      "2397356": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -652446,7 +652523,12 @@
       "2397311": [],
       "2397320": [],
       "2397330": [],
-      "2397341": []
+      "2397341": [],
+      "2397342": [],
+      "2397344": [],
+      "2397347": [],
+      "2397351": [],
+      "2397356": []
     }
   },
   "graph": {
