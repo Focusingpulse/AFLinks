@@ -7,8 +7,6 @@ description: "Full-document translation. language fr | 7 chunks | https://zenodo
 
 *Full translation from fr · source: https://zenodo.org/api/records/16728704/files/%C3%89tude%20rigoureuse%20d%27un%20champ%20scalaire%20l%C3%A9ger%20coupl%C3%A9%20%C3%A0%20la%20mati%C3%A8re%20dans%20les%20galaxies.pdf/content · 7 chunks · assembled 2026-09-10*
 
-Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html
-
 Rigorous study of a light scalar field coupled to matter in galaxies:
                                         application to rotation curves
 
