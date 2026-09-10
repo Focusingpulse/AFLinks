@@ -1,5 +1,48 @@
 # Drunvalo Activity Log
 
+## 2026-09-10 16:00 UTC — AetherForce Translation QC
+
+### Task
+Scheduled cron: QC recent AFLinks translations, fix issues, update DB (every 4h)
+
+### Actions
+1. Cloned AFLinks repo from GitHub (shallow clone, 40k files)
+2. Listed 5 most recent translations from translations/
+3. Checked each file for:
+   - Markdown well-formedness (headers, paragraphs, frontmatter)
+   - Source URL validity (all 5 URLs verified with HTTP HEAD)
+   - Language tag correctness
+   - Untranslated passages, broken sentences, encoding issues
+   - Duplicate translations
+   - Title accuracy
+4. Fixed encoding issue in Russian file (Magnitsky gravity): em-dash mojibake
+5. Added Wilhelm Reich and Peter Nasselstein to database/person-index.json
+6. tag_concepts.py timed out on large index (skipped)
+7. Committed fixes and pushed to origin/main
+8. Ran report.py and pushed report
+
+### Files Checked
+- Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md ✓
+- 2026-09-10-extended-theory-of-electromagnetism-de.md ✓
+- 2026-09-10-field-and-quantum-potential-of-consciousness-it.md ✓
+- 2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md (fixed)
+- 2026-09-10-platonic-theory-of-everything-and-spyridis-unified-theory-of-el.md ✓
+
+### Issues Found & Fixed
+- Encoding: Russian file had double-encoded em-dash (â€" → —)
+- Database: Added Wilhelm Reich (orgone physics) and Peter Nasselstein (Oranur-Physik author)
+
+### Commits
+- `Translation-QC: fix encoding in Russian file, add Reich/Nasselstein to DB` pushed to AFLinks repo
+- `report-Drunvalo-translation-qc` pushed to AFLinks repo
+
+### Report
+- Status: OK
+- Translations checked: 5
+- Issues fixed: 1 encoding, 2 database entries
+
+---
+
 ## 2026-09-10 12:00 UTC — AetherForce Synthesis: Water-Consciousness Field Convergence
 
 ### Task
