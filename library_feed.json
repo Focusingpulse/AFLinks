@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T21:22:35Z",
+  "generated_at": "2026-09-10T22:06:33Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -44,8 +44,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 6,
-    "replication_dossiers": 7,
+    "practical_quests": 7,
+    "replication_dossiers": 8,
     "validations": 0
   },
   "latest_translations": [
@@ -4780,9 +4780,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-10T19:48:10Z",
+      "last_run": "2026-09-10T21:48:46Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 29) | Goethe Scientific Works (it) 135/353 chunks, +4 this run | backlog 423 (gear: quota)"
+      "last_summary": "148/353 Goethe Scientific Works chunks (+4 this run) | translated chunks 145-148 (Steiner/Scaligero/Hegel on empiricism) | backlog 423 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4813,7 +4813,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T21:09:34Z",
+      "last_run": "2026-09-10T21:23:11Z",
       "last_status": "ok",
       "last_summary": "sync: 58586 docs, feed rebuilt"
     },
@@ -4951,15 +4951,33 @@
     },
     {
       "date": "2026-09-10",
+      "time": "22:05",
+      "agent": "Engine of Practicality",
+      "summary": "+1 quest card +1 dossier — energy rotation slot. Vortex Jet Turbine Energy Test (tier straw, Rocket guild mirror 9/26): Schauberger 1930 jet-turbine patent claim tested at home scale — straight pipe vs jet vs jet+spiral-vortex, three-config micro-hydro with jet-only control. Dossier 008 protocol ready. Card proposed, awaiting approval."
+    },
+    {
+      "date": "2026-09-10",
       "time": "22:00",
       "agent": "Engine of Practicality",
       "summary": "+1 quest card +1 dossier — Shelter rotation: \"Blind Geopathic Zone Mapping\" (tier sand, Nest guild complement). Two family members independently map a home's claimed earth-energy lines with L-rods, blind to each other; referee scores same-room agreement vs cross-room chance baseline. Source: Furter UZH dissertation (geopathic stress × dairy cows, DOI 10.5167/uzh-44913) + Hotie de Viviane geobiology translation. Honest framing: Kassel 1991 was negative — the card is a test with a clean FAIL path, not an endorsement. Dossier 005 pre-registered."
     },
     {
       "date": "2026-09-10",
+      "time": "21:48",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota mode (4 chunks). Continued Goethe Scientific Works (it, OSPI.it): chunks 145-148 translated — Steiner/Scaligero on thinking as the unobserved element, Hegel on Bacon and empiricism. Now 148/353. Source PDF already archived (stable host). Backlog ~423."
+    },
+    {
+      "date": "2026-09-10",
       "time": "21:47",
       "agent": "Translation Curator",
       "summary": "+4 chunks — Quota run: Goethe Scientific Works (IT, Steiner commentary) chunks 17-20 translated (16->20/353). Content: Goethe's practical thinking vs abstract philosophy, Linnaeus study and the drive toward unity, Venice salt-plant observations, Urpflanze as constant type vs Darwin's external causes — Steiner's argument they are complementary, not opposed. Source already archived (2026-09-09)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "21:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58586 docs — +58586 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-10",
@@ -5200,24 +5218,6 @@
       "time": "15:19",
       "agent": "Translation Sweeper",
       "summary": "+4 chunks — Quota-gear run: +4 chunks on Goethe Scientific Works (it, ospi.it) now 12/353 — Steiner's commentary on Goethean plant metamorphosis, Linnaeus critique, philosophy-vs-science fecundity. Also verified prior run's completed Schauberger Water book (210/210, assembled+pushed)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:15",
-      "agent": "The Chronicler",
-      "summary": "+178 chunks — Book 4 translation COMPLETE - all 178 chunks translated, Book4_full_translation.md assembled (517KB)"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:11",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+3 docs — +3 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:08",
-      "agent": "Deep-Dive Morning",
-      "summary": "+5 files — Track A: 7 new research finds (Hylenr LENR, ENG8 PRVR, Project Callisto, torsion constraints, water memory, chiral water). Track B: 4 declassified documents filed (Germany BMWE FOI, France 2030 nuclear, EU energy leak, US-Saudi enrichment)."
     },
     {
       "date": "2026-09-10",
@@ -654792,6 +654792,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-10-vortex-jet-turbine.md",
+        "date": "2026-09-10",
+        "title": "Vortex Jet Turbine Energy Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Vortex Jet Turbine Energy Test\n\n**Guild:** Aetherforce — Power (complements Rocket)\n**Quest line:** ⚡ Aetherforce · Rocket complement\n**Tier:** straw (home/homelab, ~$120-200)\n**Doma"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-10-electrostatic-energy-test.md",
         "date": "2026-09-10",
         "title": "Electrostatic Energy Test — Community Power Claim",
@@ -654835,6 +654842,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-10-dossier-008-vortex-jet-turbine.md",
+        "date": "2026-09-10",
+        "title": "Dossier 008 — Vortex Jet Turbine Energy Test",
+        "status": "draft",
+        "excerpt": "# Dossier 008 — Vortex Jet Turbine Energy Test\n\n**Status:** protocol ready\n**Domain:** energy (water-power)\n**Tier:** straw (home/homelab-scale, ~$120-200)\n**Source:** translations/2026-09-09-schauber"
+      },
       {
         "file": "synthesis/replication/2026-09-10-dossier-007-electrostatic-energy-test.md",
         "date": "2026-09-10",
