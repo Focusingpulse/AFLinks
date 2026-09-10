@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T13:10:07Z",
+  "generated_at": "2026-09-10T14:07:59Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -44,8 +44,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 5,
-    "replication_dossiers": 6,
+    "practical_quests": 6,
+    "replication_dossiers": 7,
     "validations": 0
   },
   "latest_translations": [
@@ -4662,9 +4662,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-10T13:02:18Z",
+      "last_run": "2026-09-10T13:46:46Z",
       "last_status": "ok",
-      "last_summary": "+50 chunks IT->EN (Goethe Scientific Works 42-45, 70-111). Progress: 91/353 (26%). Epistemology, metamorphosis, monism, Goethean knowing. Gear: quota."
+      "last_summary": "+4 chunks since last run (115->119) | Goethe Scientific Works (it) 119/353 chunks | backlog 409 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4673,9 +4673,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T12:19:01Z",
+      "last_run": "2026-09-10T13:17:35Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks since last run (61->65) | Goethe Scientific Works (ospi.it) 69/353 | backlog 409 wait (gear: quota)"
+      "last_summary": "+50 chunks since last run (65->115) | Goethe Scientific Works 115/353 (translated 112-115 this run; manifest fix for 17-20) | backlog 409 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -4695,9 +4695,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T12:25:43Z",
+      "last_run": "2026-09-10T13:11:30Z",
       "last_status": "ok",
-      "last_summary": "sync: 58032 docs, feed rebuilt"
+      "last_summary": "sync: 58262 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5007,9 +5007,21 @@
     },
     {
       "date": "2026-09-10",
+      "time": "14:00",
+      "agent": "Practicality Engine",
+      "summary": "+1 quest card — Community domain: Electrostatic Energy Test. Tests Methernita/Testatika claim (750 kW vacuum energy system since 1980). Home-scale Wimshurst machine test: does output exceed cranking input? Dossier 007 created. Rotation advances to energy."
+    },
+    {
+      "date": "2026-09-10",
       "time": "13:49",
       "agent": "Translation Curator",
       "summary": "+4 chunks — Quota-mode run: +4 chunks (37-40) on Wilhelm Reich 'Ether Physics and Orgone Experiments' (de→en), now 40/230. Covered: ORAC/DOR-buster thermal variability (Konia), electroscope orgonometry vs Galembeck's hygroelectric research, energetic shells (Baker), banded mineral structures, blue orgone envelope of Moon. Source PDF archived previously (orgonomie.net, 2.7MB)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "13:46",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-gear run: translated Goethe Scientific Works (Italian, Steiner commentary) chunks 116-119 -> English, job now 119/353. Source already archived (stable OSPI host). Backlog 409."
     },
     {
       "date": "2026-09-10",
@@ -5019,9 +5031,27 @@
     },
     {
       "date": "2026-09-10",
+      "time": "13:20",
+      "agent": "Book2 Translate (translator-ats)",
+      "summary": "+3 chunks — Atsyukovsky Book 2 RU->EN: chunks 7-9 (Introduction: dialectical materialism, Lenin on physics crisis, Lorentz/Einstein ether debate, research methodology; Chapter 1 opening). Progress: 9/247 (4%)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "13:17",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-mode run: translated chunks 112-115 of 'Goethe Scientific Works' (Italian, ospi.it) — Steiner/Goethe epistemology, von Hartmann, pessimism discussion. Job now 115/353. Also patched manifest: chunks 17-20 had existing English files that weren't recorded (done count was undercounting). Backlog 409."
+    },
+    {
+      "date": "2026-09-10",
       "time": "13:16",
       "agent": "Book4 Translate",
       "summary": "+3 chunks — Translated chunks 113-115 (3 chunks). Progress: 115/178 (65%). Quota mode run."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "13:11",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58262 docs — +58262 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5070,36 +5100,6 @@
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation published — Editions Servranx: Who We Are & The Origins of Radionics (FR→EN, servranx.com). — The Belgian brothers behind the French-language radiesthesia publishing tradition: Félix and Willy Servranx's Brussels bureau, the journal *La Radiesthésie pour tous* (1946–1967), their book list (*Vos débuts en radiesthésie*, *Lecture du caractère au pendulum*, EXDOCIN dossiers), and the \"Origins of Radionics\" lineage from Abrams' ERA through Ruth Drown and Thomas Galen Boyd to the four paths of radionics. Translation completed 09-08 but caught in a sandbox-reset gap on 09-09 — now landed in the corpus. Fills the Servranx gap in the French-tradition lane (the publishers behind much of the school's practical literature)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "12:19",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 66-69 of Goethe Scientific Works (ospi.it, it->en), job now 69/353. Also discovered the Compendium of Vortex Physics work dir had stale manifest flags (job was already complete and assembled) — reverted redundant re-translation to preserve originals."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "12:19",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Assembled the completed 210-chunk German translation of Viktor Schauberger's 'Wasser — Das Blut der Erde' (Water: The Blood of the Earth) into translations/ — the library's largest full-book translation yet. Started a new full-document job: Lucio Russo's course on Rudolf Steiner's 'Le opere scientifiche di Goethe' (The Scientific Works of Goethe, Italian, 353 chunks) — translated chunks 1-4 (quota mode, 4/run)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "12:17",
-      "agent": "Book2 Translate",
-      "summary": "+3 chunks — Book 2, progress 6/247 (2%) — . Quota run: translated chunks 004–006 (TOC continuation — Part 2 chapters, and Part 1 Introduction \"Ether and dialectical materialism\" opening pages). Gear=quota (3 chunks) — respected exactly. Committed + pushed."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "12:16",
-      "agent": "Book4 Translate",
-      "summary": "+3 chunks — Translated chunks 105-107 (3 chunks). Topics: three conservation laws (quantity of motion, energy, angular momentum), Engels on living force and mechanical vs thermal motion, curvilinear motion cases with/without energy input. Progress: 104->107/178 (60%). Gear: quota. translator-ats active."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "12:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58032 docs — +58032 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -650915,6 +650915,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-10-electrostatic-energy-test.md",
+        "date": "2026-09-10",
+        "title": "Electrostatic Energy Test — Community Power Claim",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Electrostatic Energy Test\n\n**Guild:** Aetherforce — Community (complements Community Living)\n**Tier:** sand (home-scale, $50-100)\n**Domain:** community (energy)\n**Status:** proposed\n"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-10-eeman-animal-calm.md",
         "date": "2026-09-10",
         "title": "quest card 006 — Eeman circuit for animal calm",
@@ -650951,6 +650958,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-10-dossier-007-electrostatic-energy-test.md",
+        "date": "2026-09-10",
+        "title": "Dossier 007 — Electrostatic Energy Test",
+        "status": "draft",
+        "excerpt": "# Dossier 007 — Electrostatic Energy Test\n\n**Status:** protocol ready\n**Domain:** community (energy)\n**Tier:** sand (home-scale, $50-100)\n**Source:** translations/2026-09-04-shipov-torsion-fields-ru-e"
+      },
       {
         "file": "synthesis/replication/2026-09-10-dossier-006-eeman-animal-calm.md",
         "date": "2026-09-10",
