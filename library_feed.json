@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T12:07:27Z",
+  "generated_at": "2026-09-10T12:13:21Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 76,
     "bridges": 7,
-    "archive_entries": 58032,
+    "archive_entries": 58092,
     "meta_counts": {
       "Challenges to the Standard Model": 44059,
       "Biological & Morphogenetic Science": 1472,
@@ -40,7 +40,7 @@
       "Environment & Climate": 9444,
       "Biology, Health & Medicine": 6391,
       "Frontier Science": 329,
-      "Rudolf Steiner & Anthroposophy": 354
+      "Rudolf Steiner & Anthroposophy": 414
     },
     "graph_edges": 453,
     "graph_nodes": 345,
@@ -2987,6 +2987,54 @@
     },
     {
       "date": "scout-find",
+      "file": "scout-finds-2026-09-10-1200.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Atsyukovsky Full English Translation",
+          "description": "Hosted on trueearthwiki (wikitide.net), a fragile wiki. This is the only known full English translation. Should be mirrored immediately.",
+          "url": ""
+        },
+        {
+          "title": "Akimov/Shipov Torsion Fields Preprint",
+          "description": "Hosted on phantastike.com (niche site). studfile.net mirror exists but is also fragile. Should be archived.",
+          "url": ""
+        },
+        {
+          "title": "Kozyrev Russian PDFs at nkozyrev.ru",
+          "description": "Small personal/academic site. All PDFs should be downloaded and mirrored before the site goes offline.",
+          "url": ""
+        },
+        {
+          "title": "Kozyrev 1971 English translation",
+          "description": "Hosted on academic personal page at astro.puc.cl. Universities occasionally clean up personal pages.",
+          "url": ""
+        },
+        {
+          "title": "radiesthesiste.fr PDFs",
+          "description": "Small French radiesthesia site. Content is niche and could disappear.",
+          "url": ""
+        },
+        {
+          "title": "IOP Science (Yamauchi 2025)",
+          "description": "Open access, stable publisher hosting.",
+          "url": ""
+        },
+        {
+          "title": "arXiv (Gründler ZPE)",
+          "description": "Stable, well-funded archive.",
+          "url": ""
+        },
+        {
+          "title": "GitHub (MERLib Mirror)",
+          "description": "Stable hosting, but depends on maintainer.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "scout-find",
       "file": "scout-finds-2026-09-10-0400.md",
       "scout": "",
       "languages": "",
@@ -4614,7 +4662,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T11:07:20Z",
+      "last_run": "2026-09-10T12:08:44Z",
       "last_status": "ok",
       "last_summary": "sync: 58032 docs, feed rebuilt"
     },
@@ -4680,9 +4728,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-10T04:00:00Z",
+      "last_run": "2026-09-10T12:04:30Z",
       "last_status": "ok",
-      "last_summary": "04:00Z round 09-10: 0 new FL LENR (41st clean since 08-21); iccf-27 proceedings still Under Construction (9,845B) but /abstract/ submission form back up (was 404 @00:00Z); rxiv 180 v1 0 new; lenr-canr 1,454 synced; archive 57,019; corpus 117; translator stale ~11d (QC active)"
+      "last_summary": "12:00Z 09-10 round: 0 new FL LENR (43rd clean since 08-21); live lanes drained — viXra RSS max 2609.0022 archived, lenr-canr 1,454=1,454, rxiv.org 183 IDs max 2609.0022, Zenodo 0 in window; iccf-27 proc STILL Under Construction (9,845B, 21d) + /abstract/ form up, nothing printed; archive 58,032 (Garwin +49 @10:15Z); corpus 133; translator NOT stale; claims none >7d"
     },
     {
       "member": "cure-8er",
@@ -4980,6 +5028,12 @@
     },
     {
       "date": "2026-09-10",
+      "time": "12:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58032 docs — +58032 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
       "time": "12:07",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+53740 docs — +53740 docs in vault | feed rebuilt"
@@ -4998,15 +5052,15 @@
     },
     {
       "date": "2026-09-10",
-      "time": "11:50",
-      "agent": "Translation Curator",
-      "summary": "+30 chunks — Quota run. Archived durable PDF of Study on Torsion Fields (tervica.de, de) — translation already complete 27/27 and assembled. Cleaned 24 duplicate _en.txt variant chunks that caused chunk miscounts (job read as 27/51, actually 27/27). Translated Goethe Scientific Works (Steiner commentary, it) chunks 62-65, now 65/353."
+      "time": "12:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 43rd consecutive clean FL LENR round since 08-21. — Live lanes all drained: viXra RSS max 2609.0022 (archived; RSS lastBuildDate ~1d stale), lenr-canr.org /acrobat/ = 1,454 PDFs = 1,454 synced, www.rxiv.org/all/ 183 unique IDs max 2609.0022, Zenodo API newest hit en/not-FL. ICCF-27 proceedings STILL Under Construction (9,845B, unchanged ~21d) + /abstract/ submission form still up (14,470B) — nothing published yet, top FL-LENR watch. rensit.ru SSL flake from box (2026/4 last, quarterly). tuks/seplm/lenr.su live. Archive **58,032** (Garwin Cold Fusion Archive +49 @10:15Z, c025100a3; growth today: NET-Journal +1230, tuks +536, RENSIT vols 15-18 +253, rxiverse +82). Corpus **133** (QC Brocéliande pass 123->133). Translator NOT stale (QC 08:25Z confirmed alive). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-10-scout-report-1200.md."
     },
     {
       "date": "2026-09-10",
-      "time": "11:21",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (58-61) of Goethe Scientific Works (Italian, le opere scientifiche di Goethe — Steiner commentary). 61/353 done. Resumes at chunk 62 next fire."
+      "time": "11:50",
+      "agent": "Translation Curator",
+      "summary": "+30 chunks — Quota run. Archived durable PDF of Study on Torsion Fields (tervica.de, de) — translation already complete 27/27 and assembled. Cleaned 24 duplicate _en.txt variant chunks that caused chunk miscounts (job read as 27/51, actually 27/27). Translated Goethe Scientific Works (Steiner commentary, it) chunks 62-65, now 65/353."
     },
     {
       "date": "2026-09-10",
@@ -5061,12 +5115,6 @@
       "time": "06:15",
       "agent": "Scooter (Growth Scout)",
       "summary": "+617 archive entries — NEW source webozz.free.fr (FR free-energy CD-ROM mirror) fully harvested. — Discovery pass landed webozz.free.fr (\"Free Energy data\" CD-ROM mirror): enumerated 617 content HTML pages (Bedini/Gray/Tesla/Coanda/Lutec/orgone/water-fuel/patents), all processed (611 text previews), merged id-safe (060d3e7d, ids 1557437–1558053, archive **52,806→53,423**). Live-growing lane all-diffed this fire: lenr-canr /acrobat/ 0 new (1,454 synced), viXra cat-scan 0 new (global max 2609.0017 already archived), energeticforum homepage 0 new (517299/517431 already in filelist). iccf-27 proceedings/ STILL Under Construction → keep watch. **index.json now COMPACT (no indent): pretty-print crossed GitHub 100 MiB hard limit; compact keeps archive growing.** OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-growth-0615.md."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Abel Martin 1932 veterinary radiesthesia thesis article FR→EN (guerisseur-radiesthesiste.fr): short piece documenting the first doctoral degree ever awarded to a radiesthésiste — Dr. Abel Martin defended \"Diagnostic radiesthésique en médecine vétérinaire\" on 21 January 1932 at the Faculté de médecine de Paris, received with distinction, accepted by the open-minded Maisons-Alfort veterinary school. Adds institutional-history context to the French tradition. QC: Schauberger es→en (Dynamic Hydroelectric Energy, published 09-08) reviewed — frontmatter complete, content in English, PASS. Drunvalo QC agent ran at 04:10 (frontmatter fixes, duplicate removal) — coordinated, no overlap. Corpus 108→109. Feed rebuild still blocked (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days. Scout reports FR patent layer (FR 816.132, 1936) and thesis lane (Durand 2004, Martin 1932) now mapped — rich French radiesthesia tradition documented."
     }
   ],
   "declassified": [
@@ -172465,7 +172513,67 @@
         "2392318",
         "2392376",
         "2392435",
-        "2392495"
+        "2392495",
+        "2393040",
+        "2393042",
+        "2393045",
+        "2393049",
+        "2393054",
+        "2393060",
+        "2393067",
+        "2393075",
+        "2393084",
+        "2393094",
+        "2393105",
+        "2393117",
+        "2393130",
+        "2393144",
+        "2393159",
+        "2393175",
+        "2393192",
+        "2393210",
+        "2393229",
+        "2393249",
+        "2393270",
+        "2393292",
+        "2393315",
+        "2393339",
+        "2393364",
+        "2393390",
+        "2393417",
+        "2393445",
+        "2393474",
+        "2393504",
+        "2393535",
+        "2393567",
+        "2393600",
+        "2393634",
+        "2393669",
+        "2393705",
+        "2393742",
+        "2393780",
+        "2393819",
+        "2393859",
+        "2393900",
+        "2393942",
+        "2393985",
+        "2394029",
+        "2394074",
+        "2394120",
+        "2394167",
+        "2394215",
+        "2394264",
+        "2394314",
+        "2394365",
+        "2394417",
+        "2394470",
+        "2394524",
+        "2394579",
+        "2394635",
+        "2394692",
+        "2394750",
+        "2394809",
+        "2394869"
       ]
     },
     "doc_titles": {
@@ -230500,7 +230608,67 @@
       "2393036": "Richard L. Garwin IBM Research Division Thomas J. Watson Research Center P.0. Box",
       "2393037": "box6-27 djvu",
       "2393038": "box6-28-3c djvu",
-      "2393039": "idecL Review of Experimental Observations About the Cold Fusion Effect by"
+      "2393039": "idecL Review of Experimental Observations About the Cold Fusion Effect by",
+      "2393040": "Chapter 1. The Stages of Higher Knowledge — The Stages of Higher Knowledge (1967)",
+      "2393042": "Chapter 2. Imagination — The Stages of Higher Knowledge (1967)",
+      "2393045": "Chapter 3. Inspiration — The Stages of Higher Knowledge (1967)",
+      "2393049": "Chapter 4. Inspiration and Intuition — The Stages of Higher Knowledge (1967)",
+      "2393054": "From the Preface of How to Know Higher Worlds (1914) - The Stages of Higher Knowledge (1967) — The Stages of Higher Knowledge (1967)",
+      "2393060": "Preface — The Stages of Higher Knowledge (1967)",
+      "2393067": "Translator's Note — The Stages of Higher Knowledge (1967)",
+      "2393075": "Die Stufen der Höheren Erkenntnis — Die Stufen der Höheren Erkenntnis",
+      "2393084": "Die Stufen der Höheren Erkenntnis — Die Stufen der Höheren Erkenntnis",
+      "2393094": "Die Inspiration — Die Stufen der Höheren Erkenntnis",
+      "2393105": "Inspiration and Intuition — Die Stufen der Höheren Erkenntnis",
+      "2393117": "Aus dem Nachwort von Marie Steiner (1931) — Die Stufen der Höheren Erkenntnis",
+      "2393130": "Die Stufen der Höheren Erkenntnis — Die Stufen der Höheren Erkenntnis",
+      "2393144": "Die Stufen der Höheren Erkenntnis — Die Stufen der Höheren Erkenntnis",
+      "2393159": "I. The Character of Occult Science — Occult Science (1972)",
+      "2393175": "II. The Essential Nature of Mankind — Occult Science (1972)",
+      "2393192": "III. Sleep and Death — Occult Science (1972)",
+      "2393210": "IV. The Evolution of the Cosmos and Man — Occult Science (1972)",
+      "2393229": "V. Cognition of the Higher Worlds—Initiation — Occult Science (1972)",
+      "2393249": "VI. The Present and Future of Cosmic Evolution — Occult Science (1972)",
+      "2393270": "VII. Details from the Realm of Spiritual Science — Occult Science (1972)",
+      "2393292": "Preface, First Edition — Occult Science (1972)",
+      "2393315": "Preface, Fourth Edition — Occult Science (1972)",
+      "2393339": "Preface, Seventh to Fifteenth Edition — Occult Science (1972)",
+      "2393364": "Preface, Sixteenth to Twentieth Edition — Occult Science (1972)",
+      "2393390": "Chapter I: The Character of Occult Science - GA 13. Occult Science — An Outline (1969)",
+      "2393417": "Chapter II: The Nature of Humanity - GA 13. Occult Science — An Outline (1969)",
+      "2393445": "Chapter III: Sleep And Death - GA 13. Occult Science — An Outline (1969)",
+      "2393474": "Chapter IV: Man and the Evolution of the World (Part 1) - GA 13. Occult Science — An Outline (1969)",
+      "2393504": "V: Knowledge of the Higher Worlds - Concerning Initiation - GA 13. Occult Science — An Outline (1969)",
+      "2393535": "Chapter VI: Present and Future Evolution of the World and of Mankind - GA 13. Occult Science — An Outline (1969)",
+      "2393567": "Chapter VII: Details From the Domain of Spiritual Science - GA 13. Occult Science — An Outline (1969)",
+      "2393600": "Preface to the First Edition - GA 13. Occult Science — An Outline (1969)",
+      "2393634": "Preface to the 1913 Edition - GA 13. Occult Science — An Outline (1969)",
+      "2393669": "Preface to the 1920 Edition - GA 13. Occult Science — An Outline (1969)",
+      "2393705": "Preface to the 1925 Edition — GA 13. Occult Science — An Outline (1969)",
+      "2393742": "Vorbemerkungen zur 1. Auflage (1909) — Die Geheimwissenschaft im Umriss",
+      "2393780": "Vorbemerkungen zur 15. Auflage (1920) — Die Geheimwissenschaft im Umriss",
+      "2393819": "Vorbemerkungen zur 4. Auflage (1913) — Die Geheimwissenschaft im Umriss",
+      "2393859": "Vorrede zur 16.–20. Auflage (1925) - Die Geheimwissenschaft im Umriss - Rudolf Steiner Archive",
+      "2393900": "Charakter der Geheimwissenschaft — Die Geheimwissenschaft im Umriss",
+      "2393942": "Wesen der Menschheit — Die Geheimwissenschaft im Umriss",
+      "2393985": "Schlaf und Tod — Die Geheimwissenschaft im Umriss",
+      "2394029": "Die Weltentwicklung und der Mensch — Die Geheimwissenschaft im Umriss",
+      "2394074": "Die Erkenntnis der höheren Welten — Die Geheimwissenschaft im Umriss",
+      "2394120": "Gegenwart und Zukunft der Welt- und Menschheits- Entwicklung — Die Geheimwissenschaft im Umriss",
+      "2394167": "Einzelheiten aus dem Gebiet der Geheimwissenschaft — Die Geheimwissenschaft im Umriss",
+      "2394215": "Erstes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394264": "Zweites Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394314": "Drittes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394365": "Viertes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394417": "Fünftes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394470": "Sechstes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394524": "Siebentes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394579": "Achtes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394635": "Neuntes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394692": "PZehntes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394750": "Elftes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394809": "Zwölftes Bild — Der Seelen Erwachen — Vier Mysteriendramen",
+      "2394869": "Dreizehntes Bild — Der Seelen Erwachen — Vier Mysteriendramen"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -543090,6 +543258,193 @@
         "Alternative Physics",
         "Biology / Health",
         "LENR / Cold Fusion"
+      ],
+      "2393040": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2393042": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2393045": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393049": [
+        "Anthroposophy / Rudolf Steiner",
+        "Optics / Colour Therapy"
+      ],
+      "2393054": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393060": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393067": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393075": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2393084": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393094": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2393105": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393117": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2393130": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393144": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393159": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393175": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393192": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393210": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393229": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393249": [
+        "Anthroposophy / Rudolf Steiner",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "2393270": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393292": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393315": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393339": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393364": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393390": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393417": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393445": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393474": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393504": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393535": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393567": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393600": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393634": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393669": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393705": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393742": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393780": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393819": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393859": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393900": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393942": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2393985": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394029": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394074": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394120": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394167": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394215": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394264": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394314": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394365": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394417": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394470": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394524": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394579": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394635": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394692": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394750": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394809": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2394869": [
+        "Anthroposophy / Rudolf Steiner"
       ]
     },
     "meta_concepts": {
@@ -648471,7 +648826,67 @@
       ],
       "2393039": [
         "cold_fusion"
-      ]
+      ],
+      "2393040": [],
+      "2393042": [],
+      "2393045": [],
+      "2393049": [],
+      "2393054": [],
+      "2393060": [],
+      "2393067": [],
+      "2393075": [],
+      "2393084": [],
+      "2393094": [],
+      "2393105": [],
+      "2393117": [],
+      "2393130": [],
+      "2393144": [],
+      "2393159": [],
+      "2393175": [],
+      "2393192": [],
+      "2393210": [],
+      "2393229": [],
+      "2393249": [],
+      "2393270": [],
+      "2393292": [],
+      "2393315": [],
+      "2393339": [],
+      "2393364": [],
+      "2393390": [],
+      "2393417": [],
+      "2393445": [],
+      "2393474": [],
+      "2393504": [],
+      "2393535": [],
+      "2393567": [],
+      "2393600": [],
+      "2393634": [],
+      "2393669": [],
+      "2393705": [],
+      "2393742": [],
+      "2393780": [],
+      "2393819": [],
+      "2393859": [],
+      "2393900": [],
+      "2393942": [],
+      "2393985": [],
+      "2394029": [],
+      "2394074": [],
+      "2394120": [],
+      "2394167": [],
+      "2394215": [],
+      "2394264": [],
+      "2394314": [],
+      "2394365": [],
+      "2394417": [],
+      "2394470": [],
+      "2394524": [],
+      "2394579": [],
+      "2394635": [],
+      "2394692": [],
+      "2394750": [],
+      "2394809": [],
+      "2394869": []
     }
   },
   "graph": {
