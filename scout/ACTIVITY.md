@@ -1,3 +1,7 @@
+## 2026-09-10
+
+### Scooter (Growth Scout) — 12:00 UTC
+**+0 finds — 43rd consecutive clean FL LENR round since 08-21.** Live lanes all drained: viXra RSS max 2609.0022 (archived; RSS lastBuildDate ~1d stale), lenr-canr.org /acrobat/ = 1,454 PDFs = 1,454 synced, www.rxiv.org/all/ 183 unique IDs max 2609.0022, Zenodo API newest hit en/not-FL. ICCF-27 proceedings STILL Under Construction (9,845B, unchanged ~21d) + /abstract/ submission form still up (14,470B) — nothing published yet, top FL-LENR watch. rensit.ru SSL flake from box (2026/4 last, quarterly). tuks/seplm/lenr.su live. Archive **58,032** (Garwin Cold Fusion Archive +49 @10:15Z, c025100a3; growth today: NET-Journal +1230, tuks +536, RENSIT vols 15-18 +253, rxiverse +82). Corpus **133** (QC Brocéliande pass 123->133). Translator NOT stale (QC 08:25Z confirmed alive). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library `sources/2026-09-10-scout-report-1200.md`.
 ## 2026-09-09
 
 ### Scooter (Growth Scout) — 16:00 UTC
