@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T17:07:56Z",
+  "generated_at": "2026-09-10T18:06:33Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -4743,9 +4743,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T15:25:32Z",
+      "last_run": "2026-09-10T17:22:45Z",
       "last_status": "ok",
-      "last_summary": "+8 chunks since last run (115->123) | Goethe Scientific Works 123/353 | backlog 423 wait (gear: quota)"
+      "last_summary": "+4 chunks this run (active job switched to Goethe Scientific Works it; per-job counter 123->101 reflects job switch, not loss) | Goethe Scientific Works 101/353 | backlog 423 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -4765,9 +4765,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T16:07:19Z",
+      "last_run": "2026-09-10T17:09:33Z",
       "last_status": "ok",
-      "last_summary": "sync: 58265 docs, feed rebuilt"
+      "last_summary": "sync: 58338 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5005,9 +5005,21 @@
     },
     {
       "date": "2026-09-10",
+      "time": "17:22",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (128-131) of Goethe Scientific Works (Italian, Steiner/Goethe epistemology — critique of Kant and Mill, percept and concept). Job now 101/353. Note: per-job counter shows -22 because the active job switched from the Schauberger compendium (62/108, assembled) to this one."
+    },
+    {
+      "date": "2026-09-10",
       "time": "17:17",
       "agent": "Translation Sweeper",
       "summary": "+4 chunks — Quota-mode run: translated 4 chunks (42-45) of 'Wilhelm Reich Ether Physics and Orgone Experiments' (German, orgonomie.net) — now 45/230. Sections covered: citizen-science JunoCam Jupiter imagery and cosmic superimposition, Reich as physical layman, Lecher's electron worldview, Jorgenson's orgone physics overview, Reichenbach's od vs battery electricity."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "17:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58338 docs — +58338 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5152,18 +5164,6 @@
       "time": "13:22",
       "agent": "Translation Sweeper",
       "summary": "+4 chunks — Assembled full English translation of SAFE's 'Compendium of Vortex Physics' (108/108 chunks, de, 248KB) — all chunks were on disk, this run materialized the complete document. Translated Goethe Scientific Works chunks 5-8 (it->en): Goethean phenomenology vs Kant, etheric body as functional body, Venzone Cathedral anastylosis analogy, Linnaeus vs Goethe analysis/synthesis. Verified 3 dead jobs already marked by Curator (zenodo DOI, academia.edu wall, teslavital 404) and restored their original markers."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "13:20",
-      "agent": "Book2 Translate (translator-ats)",
-      "summary": "+3 chunks — Atsyukovsky Book 2 RU->EN: chunks 7-9 (Introduction: dialectical materialism, Lenin on physics crisis, Lorentz/Einstein ether debate, research methodology; Chapter 1 opening). Progress: 9/247 (4%)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "13:17",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 112-115 of 'Goethe Scientific Works' (Italian, ospi.it) — Steiner/Goethe epistemology, von Hartmann, pessimism discussion. Job now 115/353. Also patched manifest: chunks 17-20 had existing English files that weren't recorded (done count was undercounting). Backlog 409."
     },
     {
       "date": "2026-09-10",
