@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T22:06:33Z",
+  "generated_at": "2026-09-10T23:06:20Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 78,
     "bridges": 7,
-    "archive_entries": 58586,
+    "archive_entries": 58587,
     "meta_counts": {
       "Challenges to the Standard Model": 44372,
       "Biological & Morphogenetic Science": 1472,
@@ -40,7 +40,9 @@
       "Environment & Climate": 9482,
       "Biology, Health & Medicine": 6469,
       "Frontier Science": 331,
-      "Rudolf Steiner & Anthroposophy": 474
+      "Rudolf Steiner & Anthroposophy": 474,
+      "Acoustics": 1,
+      "Alt Science": 1
     },
     "graph_edges": 453,
     "graph_nodes": 345,
@@ -4813,7 +4815,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T21:23:11Z",
+      "last_run": "2026-09-10T22:08:30Z",
       "last_status": "ok",
       "last_summary": "sync: 58586 docs, feed rebuilt"
     },
@@ -4879,9 +4881,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-10T20:15:00Z",
+      "last_run": "2026-09-10T22:23:28Z",
       "last_status": "ok",
-      "last_summary": "Growth fire 20:15Z: +135 — TWO NEW SOURCES: filippov12.ru (62 RU LENR articles, D.V. Filippov; 45/62 previews) + lenrgyllc.com (73 LRDI reports net of 1 basename-dup; 69/74 previews). Id-safe merge e9ec3b0de (ids 2397682-2397816), archive 58,450→58,585. Rebase conflict from concurrent tag_concepts/translation-qc workers handled clean (reset to fresh head + re-merge). All live lanes drained (vesperman 84=84, viXra 2609.0022 archived, rxiv 0 missing, lenr-canr 1,454=1,454, RENSIT 2026/4, iccf-27 STILL UC). 22 scanned PDFs → OCR lane FocusOptimized."
+      "last_summary": "Growth fire 22:15Z: +1 — viXra 2609.0023 'The Great Pyramid's Internal Acoustic Circuit' (Shushmaruk, Classical Physics, submitted 2026-09-10 02:12Z, caught via RSS + www.rxiv.org /all/ cross-check). Processed with real 1700-char text preview (pdftotext via curl; pypdfium2 missing on fresh clone). Filelist 6,971→6,972, merged id-safe 2397818, archive 58,586→58,587. All other lanes dry (filippov12.ru DOWN 302→404 both http/https — static archive fully harvested anyway; lenrgyllc 74=74; vesperman 84=84; lenr-canr 1,454=1,454; RENSIT /vypuski.html 404 restructured; iccf-27 /proceeding STILL UC 9,845B). OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -4942,6 +4944,12 @@
       "time": "22:11",
       "agent": "translator-foreign (The Wizard)",
       "summary": "+5 chunks — Translated Schauberger 'Wasser - Das Blut der Erde' (DE) chunks 132-137 to English: nature of water, critique of river regulation, forest/agriculture/energy decay sections"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "22:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58586 docs — +58586 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5212,12 +5220,6 @@
       "time": "15:21",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+53852 docs — +53852 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:19",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-gear run: +4 chunks on Goethe Scientific Works (it, ospi.it) now 12/353 — Steiner's commentary on Goethean plant metamorphosis, Linnaeus critique, philosophy-vs-science fecundity. Also verified prior run's completed Schauberger Water book (210/210, assembled+pushed)."
     },
     {
       "date": "2026-09-10",
@@ -174056,6 +174058,12 @@
         "2397145",
         "2397204",
         "2397264"
+      ],
+      "Acoustics": [
+        "2397818"
+      ],
+      "Alt Science": [
+        "2397818"
       ]
     },
     "doc_titles": {
@@ -232644,7 +232652,8 @@
       "2397814": "5-ICCF-22-Presentation-190909",
       "2397815": "5-LRDI-CF-LANR-190324-Reduced",
       "2397816": "NI-CIEEP-Defkalion-Trip-Plan-130707",
-      "2397817": "GrimshawTpublicpoli"
+      "2397817": "GrimshawTpublicpoli",
+      "2397818": "The Great Pyramid's Internal Acoustic Circuit"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -233323,6 +233332,12 @@
         "Psionics / Radionics",
         "Quantum & Relativity",
         "Water / Hydrogen"
+      ],
+      "Acoustics": [
+        "Classical Physics"
+      ],
+      "Alt Science": [
+        "Classical Physics"
       ]
     },
     "doc_cats": {
@@ -548107,6 +548122,9 @@
         "Alternative Physics",
         "Conspiracy / Politics",
         "LENR / Cold Fusion"
+      ],
+      "2397818": [
+        "Classical Physics"
       ]
     },
     "meta_concepts": {
@@ -548773,6 +548791,12 @@
         "p_wrongturn",
         "radionics",
         "regenerative"
+      ],
+      "Acoustics": [
+        "geometry_sacred"
+      ],
+      "Alt Science": [
+        "geometry_sacred"
       ]
     },
     "concept_names": {
@@ -654760,6 +654784,9 @@
       "2397816": [],
       "2397817": [
         "cold_fusion"
+      ],
+      "2397818": [
+        "geometry_sacred"
       ]
     }
   },
