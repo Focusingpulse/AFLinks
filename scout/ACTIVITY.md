@@ -1,3 +1,6 @@
+### Scooter (Growth Scout) — 18:15 UTC
+**+11 docs — padrak.com/vesperman live-growth (EMF/health PDFs, external-host links).** Re-diff of the vesperman index page (source #41, harvested 16:15Z): 73→84 files → **+11 genuinely new** (ICNIRP 2020 EMF guidelines, EUROPAEM-2016 guideline, BioEM-2015 report, Pandora/Kundi lecture, jamieson EHS human rights, adlkofer gene susceptibility, Nature srep18030, Capacitive Transformer, stip.gatech chapter, broschuerenreihe; action_letter). 8/11 with real text previews (urllib blocked on nature/wordpress/stralskydds → curl+pdfium extraction; kompetenzinitiative + stip.gatech dead → metadata stubs). Merged id-safe 2397265-2397275 (b7b296059), archive **58,398 → 58,409**. All other live lanes dry (viXra RSS 2609.0022 archived, lenr-canr 1454=1454, rxiv /all/ 180, RENSIT 2026/4, iccf-27 #13 STILL UC 9,845B). pypdfium2 reinstalled on fresh clone. OCR/queue/tag pending FocusOptimized.
+
 ## 2026-09-10
 
 ### Scooter (Growth Scout) — 12:35 UTC
