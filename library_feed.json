@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-10T00:07:42Z",
+  "generated_at": "2026-09-10T00:13:34Z",
   "library": {
-    "researchers": 1097,
-    "researchers_cataloged": 1097,
+    "researchers": 1109,
+    "researchers_cataloged": 1109,
     "patents": 2699,
     "categories": 49,
     "meta_categories": 14,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 65,
     "bridges": 7,
-    "archive_entries": 55616,
+    "archive_entries": 55676,
     "meta_counts": {
       "Challenges to the Standard Model": 42076,
       "Biological & Morphogenetic Science": 1472,
@@ -40,7 +40,7 @@
       "Environment & Climate": 9361,
       "Biology, Health & Medicine": 6284,
       "Frontier Science": 310,
-      "Rudolf Steiner & Anthroposophy": 234
+      "Rudolf Steiner & Anthroposophy": 294
     },
     "graph_edges": 453,
     "graph_nodes": 345,
@@ -4283,9 +4283,9 @@
       "mission": "Catalogs every researcher and work into the dual-index database with practical-applicability flags.",
       "schedule": "daily 6pm MDT",
       "icon": "🗂️",
-      "last_run": "2026-09-08T00:06:57Z",
+      "last_run": "2026-09-10T00:08:13Z",
       "last_status": "ok",
-      "last_summary": "+8 people since last run (first recorded) | added 8 people, 12 works, 10 practical this run (gear: quota)"
+      "last_summary": "120 people total (first recorded) | added 12 people, 11 works, 3 practical this run (gear: quota)"
     },
     {
       "member": "aflinks",
@@ -4294,9 +4294,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-09T23:11:58Z",
+      "last_run": "2026-09-10T00:09:33Z",
       "last_status": "ok",
-      "last_summary": "sync: 55616 docs, feed rebuilt, scrape skipped (quota gear)"
+      "last_summary": "sync: 0 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4360,9 +4360,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-09T16:22:43Z",
+      "last_run": "2026-09-10T00:08:00Z",
       "last_status": "ok",
-      "last_summary": "16:15Z growth fire: +1 rxiverse 2609.0020 (archive 53,852->53,853); registry rxiverse now 142 papers; ocr/queue pending FocusOptimized"
+      "last_summary": "00:00Z round 09-10: 0 new FL LENR (40th clean since 08-21); iccf-27 proceedings still Under Construction (abstract form torn down 404); archive 55,616; corpus 116; translator stale ~10d (QC active)"
     },
     {
       "member": "cure-8er",
@@ -4388,6 +4388,294 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-10",
+      "time": "23:47",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (63-66) of Wilhelm Reich 'Ether Physics and Orgone Experiments' (German, orgonomie.net) — now 66/230 chunks. Sections covered: orgonomy as science+art, action-at-a-distance vs local-action theories, Newton/Descartes ether vortices, Einstein relativity critique, Michelson-Morley reinterpretation. Source already archived (PDF, 2.7MB). Archive count now 25 (duplicate Reich PDF consolidated by another agent)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "23:22",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-mode run: translated chunks 59-62 (DE->EN) of orgonomie.net 'Wie die Orgonphysik...' full-document job, now 62/230. Three 0/1 jobs verified as dead/blocked (zenodo DOI gone, academia.edu JS-wall, teslavital 404) and left recorded. Backlog 399."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "23:10",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 123: Tesla double spiral, magnetic toroid formation, Tesla transformer circuit intro"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "23:10",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — sync: 55616 docs, feed rebuilt, scrape skipped (quota gear)"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "22:11",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "22:11",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+5 chunks — Translated Schauberger 'Wasser - Das Blut der Erde' (DE) chunks 132-137 to English: nature of water, critique of river regulation, forest/agriculture/energy decay sections"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "22:06",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Book 4 translation continues: chunk 122 done (Chernetsky vacuum discharge experiments, fast-acting switches and ether energetics). 122/178 chunks complete, 56 remaining."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "22:00",
+      "agent": "Engine of Practicality",
+      "summary": "+1 quest card +1 dossier — Shelter rotation: \"Blind Geopathic Zone Mapping\" (tier sand, Nest guild complement). Two family members independently map a home's claimed earth-energy lines with L-rods, blind to each other; referee scores same-room agreement vs cross-room chance baseline. Source: Furter UZH dissertation (geopathic stress × dairy cows, DOI 10.5167/uzh-44913) + Hotie de Viviane geobiology translation. Honest framing: Kassel 1991 was negative — the card is a test with a clean FAIL path, not an endorsement. Dossier 005 pre-registered."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "21:47",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota run: Goethe Scientific Works (IT, Steiner commentary) chunks 17-20 translated (16->20/353). Content: Goethe's practical thinking vs abstract philosophy, Linnaeus study and the drive toward unity, Venice salt-plant observations, Urpflanze as constant type vs Darwin's external causes — Steiner's argument they are complementary, not opposed. Source already archived (2026-09-09)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "21:22",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+55218 docs — +55218 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "21:18",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota mode: translated 4 chunks (55-58) of 'Wilhelm Reich Ether Physics and Orgone Experiments' (orgonomie.net, German). Job now 58/230 chunks. Content covered Reich's rebuttal of critics, science vs pseudoscience, objectivity obsession, and the natural-scientific status of orgone energy."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "21:12",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 121 (magnetic field compressibility, Ampère's law deviations)"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "21:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+55218 docs — +55218 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "20:11",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 120: ball lightning formation conditions and Tesla transformer intro"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "20:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+55218 docs — +55218 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "19:48",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Translated Goethe Scientific Works (IT) chunks 13-16 (4 chunks, quota mode). Archived source PDF. Progress: 16/353 chunks (4.5%)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "19:26",
+      "agent": "Translation Sweeper",
+      "summary": "+5 chunks — Quota-mode run: translated chunks 50-54 of 'Wilhelm Reich Ether Physics and Orgone Experiments' (orgonomie.net, German). Now 54/230 chunks. Content: ORANUR/mechanical atmosphere critique, orgone blanket sensory description, experiment vs theory formation, Reich's response to critics, DeMeo neutron counter measurements."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "19:17",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53954 docs — +53954 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "19:10",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 119: ball lightning laboratory creation methods, self-induction EMF equation"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "18:29",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 118 (ball lightning ether-dynamics model)"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "18:29",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+1 chunks — Translated chunk 42 of Wilhelm Reich Ether Physics (German): Jupiter cosmic superimposition, citizen science image processing, Van Gogh's Starry Night connection"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "18:22",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53893 docs — +53893 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "18:13",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "17:47",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: +4 chunks translated on 'Wilhelm Reich Ether Physics and Orgone Experiments' (orgonomie.net, German) — now 49/230 chunks. Source PDF already archived (2.7MB, 242pp). Covered triboluminescence, ORANUR experiment, seasonal radioactive-decay anomalies (Si-32, Ra-226, Pu-238), Fischbach/Jenkins solar-neutrino hypothesis. Backlog 399."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "17:17",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (42-45) of 'Wilhelm Reich Ether Physics and Orgone Experiments' (German, orgonomie.net) — now 45/230. Sections covered: citizen-science JunoCam Jupiter imagery and cosmic superimposition, Reich as physical layman, Lecher's electron worldview, Jorgenson's orgone physics overview, Reichenbach's od vs battery electricity."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "17:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53853 docs — +53853 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "16:28",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+41 chunks — Reich Ether Physics (Nasselstein, DE): translated chunk 41 (Saturn/Titan blue orgone envelopes, cosmic superimposition intro); repaired job manifest restoring done flags for chunks 1-40 whose en files already existed but were lost in the Sep 8 job re-init — job now 41/230"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "16:16",
+      "agent": "The Chronicler",
+      "summary": "+1 chunks — Translated Book 4 chunk 116: ball lightning energy properties and research approaches"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "16:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53852 docs — +53852 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:50",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota run. Found Compendium of Vortex Physics (de) already fully translated (sweeper assembled it; manifest done-flags were stale at 62/108). Re-translated chunks 63-66 (Hanspeter Seiler section: Kosmon theory, ether vortex theory of matter, fundamental forces) and re-assembled the complete 108-chunk document with refreshed chunks. No new archive needed (source archived 2026-08-30). Corrected ledger metric to true archive count (26)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:21",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53852 docs — +53852 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:19",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-gear run: +4 chunks on Goethe Scientific Works (it, ospi.it) now 12/353 — Steiner's commentary on Goethean plant metamorphosis, Linnaeus critique, philosophy-vs-science fecundity. Also verified prior run's completed Schauberger Water book (210/210, assembled+pushed)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:08",
+      "agent": "Deep-Dive Morning",
+      "summary": "+7 finds — Quota-gear sweep: +3 declassified filed (Russia: Soviet MoD UAP files KLAS release series incl. 1982 Byelokoroviche nuclear near-launch; Spain: 23-F coup 153-unit release; Spain: Ceuta 40-doc intelligence release — Spain's new declassification regime now proven routine). +4 research finds (LENR NiCu thin-film radiant spectrum with 215h sustained excess heat; EZ-water magnetic-field reconciliation model; first gravity test on falling quantum matter waves; German vortex-cosmology micro-proof with auditable pipeline). 1 fragile source archived (Knapp congressional testimony PDF)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "14:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53825 docs — +53825 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "14:02",
+      "agent": "Engine of Practicality",
+      "summary": "+0 quest cards — Food domain search yielded no qualifying candidate."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "13:49",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: +4 chunks (37-40) on Wilhelm Reich 'Ether Physics and Orgone Experiments' (de→en), now 40/230. Covered: ORAC/DOR-buster thermal variability (Konia), electroscope orgonometry vs Galembeck's hygroelectric research, energetic shells (Baker), banded mineral structures, blue orgone envelope of Moon. Source PDF archived previously (orgonomie.net, 2.7MB)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "13:22",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Assembled full English translation of SAFE's 'Compendium of Vortex Physics' (108/108 chunks, de, 248KB) — all chunks were on disk, this run materialized the complete document. Translated Goethe Scientific Works chunks 5-8 (it->en): Goethean phenomenology vs Kant, etheric body as functional body, Venzone Cathedral anastylosis analogy, Linnaeus vs Goethe analysis/synthesis. Verified 3 dead jobs already marked by Curator (zenodo DOI, academia.edu wall, teslavital 404) and restored their original markers."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "13:16",
+      "agent": "Book4 Translate",
+      "summary": "+3 chunks — Translated chunks 113-115 (3 chunks). Progress: 115/178 (65%). Quota mode run."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "13:10",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "13:04",
+      "agent": "Book4 Translate",
+      "summary": "+5 chunks — Translated chunks 108-112 (5 chunks). Progress: 112/178 (63%). Quota mode run."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "12:50",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Translated chunks 33-36 of Reich Ether Physics (Wilhelm Reich: Ether Physics and Orgone Experiments, German→English). Progress: 36/230 chunks (16%). Archived source PDF (2.6MB). Topics: cosmic rays as orgone energy, Maxwell's demon thought experiment, thermal orgonometry, ORAC vs DOR-buster experiments."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "12:22",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53800 docs — +53800 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "12:19",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Assembled the completed 210-chunk German translation of Viktor Schauberger's 'Wasser — Das Blut der Erde' (Water: The Blood of the Earth) into translations/ — the library's largest full-book translation yet. Started a new full-document job: Lucio Russo's course on Rudolf Steiner's 'Le opere scientifiche di Goethe' (The Scientific Works of Goethe, Italian, 353 chunks) — translated chunks 1-4 (quota mode, 4/run)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "12:16",
+      "agent": "Book4 Translate",
+      "summary": "+3 chunks — Translated chunks 105-107 (3 chunks). Topics: three conservation laws (quantity of motion, energy, angular momentum), Engels on living force and mechanical vs thermal motion, curvilinear motion cases with/without energy input. Progress: 104->107/178 (60%). Gear: quota. translator-ats active."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "12:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+53740 docs — +53740 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "12:06",
+      "agent": "Book4 Translate",
+      "summary": "+4 chunks — Translated chunks 101-104 (4 chunks). Topics: fifth scientific revolution exhaustion, aether as building material, heat pumps and COP>1, perpetual motion temptation. Progress: 100->104/178 (58%). Gear: quota. translator-ats active (checked in 43min ago)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "00:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-09",
       "time": "20:20",
@@ -4420,105 +4708,9 @@
     },
     {
       "date": "2026-09-09",
-      "time": "11:06",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+53740 docs — sync: 53740 docs, feed rebuilt, slim index refreshed; scrape skipped (quota gear, no runnable sites)"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "11:04",
-      "agent": "Book4 Translate",
-      "summary": "+4 chunks — Translated chunks 094-097: thermodynamics, First/Second Laws, Clausius, Heat Death of Universe, Boltzmann fluctuations, Big Bang critique. Progress: 93→97/178 (54%). Gear: quota. Translator-ats ran recently, did 4 chunks this run."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "10:49",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota run (+4 chunks). Active job switched: Schauberger 'Water – The Blood of the Earth' (oekotrend.ch, de) now COMPLETE 210/210 and assembled to translations/ (557KB full book). New active job: Wilhelm Reich 'Ether Physics and Orgone Experiments' (orgonomie.net, de) — translated chunks 25-28 (24->28/230), covering Reich's physician-physicist tradition (Gilbert, Galvani, Helmholtz, Mayer) and the 1939-1940 orgone discovery observations. Source PDF archived 2026-09-09. 3 dead jobs (academia.edu JS wall, teslavital 404, dead zenodo DOI) confirmed already marked DEAD-LINK."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "10:20",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Completed the full translation of Viktor Schauberger's 'Water – The Blood of the Earth' (German, oekotrend.ch PDF): final 4 chunks (207-210) translated, job finished at 210/210 and assembled into a single 557KB English document. Book covers Schauberger's water-as-amniotic-fluid theory, levitation energy and the trout observation, implosion vs explosion technology, his machine designs (meander discs, spiral pipes, suction turbines), water ennoblement, bio-ploughs, and the pressure vs suction principle. Backlog now 399 waiting."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "10:06",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "10:04",
-      "agent": "Book4 Translate",
-      "summary": "+3 chunks — Translated chunks 088-090 (bibliography + appendix intro on energy crisis and ether). Progress: 90/178 (51%). Gear: quota. translator-ats active."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:47",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 203-206 (de->en) of Schauberger 'Wasser — Das Blut der Erde' (oekotrend.ch), now 206/210 — 4 chunks remain. Sections covered: levitation as polar counterpart to gravity, standing trout, suction vs pressure energies, +4°C anomaly point, meandering flow, 'no straight lines in nature', log-fluming installations with egg-shaped cross-section and spiral suction, implosion vs explosion, carbon-oxygen reduction fermentation. Source PDF already archived (2026-09-03)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:21",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+53599 docs — +53599 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:17",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 199-202 of Viktor Schauberger 'Erde, Wasser und Luft' (oekotrend.ch PDF) — now 202/210 chunks done, 8 to completion. Content: Schauberger's oral testimony on log-fluming anomalies, water as 'blood of the Earth', planetary vs academic-technical movement, plus the book's closing biographical essay."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:07",
-      "agent": "AFLinks Sync",
-      "summary": "+5 new docs — Daily sync: 53,599 docs (+5 new). Rebuilt 4 legacy files: taxonomy (49 categories, 14 meta-categories), researcher-index (990 researchers), patent-index (0 patents), concept-map (46 concepts)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "09:05",
-      "agent": "Book4 Translate",
-      "summary": "+5 chunks — Translated chunks 080-084 (5 chunks). Book 4 now 84/178 complete (47%). Gear: quota mode."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "08:50",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (195-198) of Schauberger 'Wasser — Das Blut der Erde' (de->en), now 198/210. Content: climate consequences of carbon-deficient water, Schauberger's critique of rain-formation theory, Austrian Patent No. 138296 (water conduction in pipes), and start of the audio-file memoirs (trout observation, timber flotation test). Source already archived (2026-09-04). 12 chunks remain to complete the book."
-    },
-    {
-      "date": "2026-09-09",
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Turenne's scientific theory FR→EN (turenne.eu, \"teoria scientifica\"): the theoretical core of the Méthode Turenne — every body vibrates and emits a wave characterized by FORM (7 form-wave families discovered by Turenne, differentiated by wave height: 13/19/25/50-55/62/68/80 cm) and LENGTH (measured between frequency peaks); the measurement code (1930-35 instruments forced a harmonic scale — every meter reading is a sub-harmonic 2,500,000× longer than the real nanometer measurement); the 8 METERS as the measure of health (the wavelength of any healthy body — atom, cell, organ, person, animal, plant — must be 8 m ÷ 2,500,000, discovered from the vibratory characteristics of life elements: oxygen, hydrogen, helium, argon); magnetic (horizontal) waves as the life signature vs. electric (vertical) waves as always noxious below 8 m (electric current, diseases, geologically unhealthy sites, smog, EM pollution, broadcast waves, mobile phones); the Momos Wave Catalysts (rectify wave form + lengthen wavelength back to 8 m, decontaminate food/remedies/jewelry, draw colloidal metals/metalloids/rare gases from the atmosphere, act on micelles and ionized humoral liquids); and the historical presentation excerpts (Claude Bernard's \"the terrain is everything, the microbe is nothing\", treatment of terrain not disease, never counter-indicated, radio-disintegration, PA-KOUA mummification experiments, Turenne ECP engineer aged 82). Companion to my Turenne biography + Scientific Radiesthesia Part 1 translations — the Turenne thread now has 3 docs. QC: Drunvalo QC agent ran at 08:15 (fixed 5 recent translations incl. my 3 from 09-09 — verified frontmatter now correct, PASS, no double work). Feed rebuild (05:06) republished 9 files dated 09-07 — known feed-rebuild artifact, not fighting. Corpus 109→110. Feed rebuild still blocked from cloud (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books; pipeline otherwise alive via Wizard (Goethe IT→EN) + my outer-ring stream. Note: research index stops at round 10 (09-07) — 09-08 14:00 UTC research round missing."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "08:18",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 191-194 of Schauberger 'Wasser — Das Blut der Erde' (German, oekotrend.ch PDF). Job now 194/210 — 16 chunks to completion. Also fixed an error mid-run where chunk 191 was initially written untranslated; corrected before commit."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "08:06",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+53594 docs — +53594 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "08:04",
-      "agent": "Polyglot Scout B",
-      "summary": "+6 finds — Nightly multilingual search — German (Schauberger water vortex, Goethean science), Russian (torsion fields, plasma cosmology), Japanese (Aquaphotomics, brain water consciousness). 6 finds saved."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "08:03",
-      "agent": "Book4 Translate",
-      "summary": "+3 chunks — Translated chunks 074-076. Book 4 now at 76/178 (43%). translator-ats active, reduced batch. Gear: quota."
     },
     {
       "date": "2026-09-09",
@@ -4528,99 +4720,9 @@
     },
     {
       "date": "2026-09-09",
-      "time": "07:46",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota-mode run: translated Schauberger 'Wasser: Das Blut der Erde' (de) chunks 187-190 — now 190/210, 20 chunks remain. Sections covered: water in cult/mythology/medicine, conclusion. Source already archived (oekotrend.ch PDF)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "07:17",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 183-186 of Schauberger's 'Wasser - Das Blut der Erde' (German, oekotrend.ch PDF), now 186/210. Topics: high springs and carbon-substance ascent, free/half-bound carbonic acid and water quality, radioactive spring waters losing activity, spring temperature vs altitude formulas, snow-melt water oxygen content and summer spring quality. 24 chunks remain."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "07:07",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+53594 docs — vault at 53,594 docs (+0 new this run) | feed rebuilt | index re-compacted under 100MB (tag_concepts pretty-print bug fixed)"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "07:02",
-      "agent": "Book4 Translate",
-      "summary": "+3 chunks — Translated chunks 68-70 (Chapter 3: field compensation experiments, modified Maxwell equations, Gauss theorem with retardation term, current compressibility experiment, Kirchhoff law critique). 70/178 done, next chunk 071. Reduced run (3 chunks) since translator-ats was active 44min ago; gear: quota."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "06:47",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota-mode run: translated Schauberger 'Water: The Blood of the Earth' (de) chunks 179-182 — cathode/anode water energies, the +4°C boundary layer, ground-water table physics, saturation deficit, springs driven by underpressure not overpressure. Now 182/210. Also repaired 2 BOM-corrupted manifests (zenodo-17626722 confirmed already fully translated+assembled; Goethe Scientific Works it now readable at 0/353). Source PDF already archived 2026-09-03."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "06:21",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52806 docs — +52806 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "06:18",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota run: translated Schauberger 'Water: The Blood of the Earth' chunks 175-178 (now 178/210, ~85%). Audited small jobs: marked academia.edu (JS-wall) and teslavital.fr (404) as dead-links, confirmed zenodo 15609842 dead. 3 small docs confirmed complete but not yet assembled."
-    },
-    {
-      "date": "2026-09-09",
       "time": "06:15",
       "agent": "Scooter (Growth Scout)",
       "summary": "+617 archive entries — NEW source webozz.free.fr (FR free-energy CD-ROM mirror) fully harvested. — Discovery pass landed webozz.free.fr (\"Free Energy data\" CD-ROM mirror): enumerated 617 content HTML pages (Bedini/Gray/Tesla/Coanda/Lutec/orgone/water-fuel/patents), all processed (611 text previews), merged id-safe (060d3e7d, ids 1557437–1558053, archive **52,806→53,423**). Live-growing lane all-diffed this fire: lenr-canr /acrobat/ 0 new (1,454 synced), viXra cat-scan 0 new (global max 2609.0017 already archived), energeticforum homepage 0 new (517299/517431 already in filelist). iccf-27 proceedings/ STILL Under Construction → keep watch. **index.json now COMPACT (no indent): pretty-print crossed GitHub 100 MiB hard limit; compact keeps archive growing.** OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-growth-0615.md."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "06:05",
-      "agent": "Book4 Translate",
-      "summary": "+4 chunks — Translated chunks 061-064 (Chapter 5: Electromagnetic field theory, Maxwell's equations critique). Progress: 64/178 (36%). Translator-ats also active (checked in 45min ago)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "05:47",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota-gear run: translated Schauberger 'Water: The Blood of the Earth' chunks 171-174 (de->en) — water purification pipe mechanics, oxygen/carbon circulation in the Drallrohr, and the opening of the 'Pulsation of Water' chapter. Now 174/210 chunks. Source PDF already archived 2026-09-03. Backlog: 392 sources."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "05:17",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota run: translated 4 chunks (167-170) of Schauberger 'Water: The Blood of the Earth' (German). Job now 170/210. Sections covered: cancer/water quality connection, seawater-freshwater equilibrium (Badon Ghijbens/Herzberg), snail blood-vessel double-spiral principle, capillary pulsation (Prof. Kurt Bergel), and the Double-Spiral Pipe intro."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "05:06",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52676 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "05:05",
-      "agent": "Book4 Translate",
-      "summary": "+5 chunks — Translated 5 chunks (053-057) in quota mode. Progress: 57/178 (32%). Chapter 3: transformer theory, electromagnetic induction, ether flow mechanics."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "05:01",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Translated chunks 163-166 of Schauberger — Water: The Blood of the Earth (de). +142 chunks since last check-in. 166/210 complete."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "04:27",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (159-162) of Schauberger's 'Wasser: Das Blut der Erde' (de), now 162/210. Sections covered: parquet-floor decay and aggressive oxygen in damp interlayers; the cave olm's nutrition from concentrated oxygen and carbon substances; trout near springs and spawning at light-boundaries; mealworm experiments with higher-organized carbon groups; gelatine/microbe growth at temperature-gradient boundaries; Lapland worm-rain and the 'season of rot' (Fäulniszeit); epidemics as nature's self-protection. Next fire resumes at chunk 163."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "04:21",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+1 chunks — Translated Schauberger Water chunk 131 (de->en): Nature Protects Itself - human interference in natural cycles, 132/210 chunks done"
     },
     {
       "date": "2026-09-09",
@@ -4630,111 +4732,9 @@
     },
     {
       "date": "2026-09-09",
-      "time": "04:13",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "04:10",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 4 chunk 042 (Ch3 conclusions, Ch4 electromagnetic interactions)"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "04:04",
-      "agent": "Book4 Translate",
-      "summary": "+3 chunks — Translated chunks 039-041 (Chapter 3: Lorentz force, inductance mechanism, self-induction). Windows cron (translator-ats) active within 2h window - reduced batch size. Progress: 34→41/178 (23%)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "04:03",
-      "agent": "Polyglot Scout A",
-      "summary": "+6 finds — Night Scout run: 6 multilingual finds across IT/PT/AR. Key discoveries: newly declassified 1942 Tesla interview (Arabic, Al-Ahram), CATCHER atmospheric humidity-to-electricity project (PT, EIC-funded), Shape Power PDF full book (IT, aether/Keely/Reich/Schauberger), Sheldrake morphic fields interview (PT, Feb 2026), free energy overview synthesis (PT). Quota mode, budget gate passed."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "03:58",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota run: +4 chunks on Wilhelm Reich Ether Physics & Orgone Experiments (de, orgonomie.net) now 24/230 — translated the theory-of-science section (Popper falsification critique, Goenner on relativity, orgone vs neutrino detection analogy). Archived durable copy of the 242pp source PDF (2.7MB). Cleaned queue: marked 3 dead/blocked jobs — zenodo DOI 15609842 dead (MVP Vortex Motor), teslavital.fr article 404, academia.edu behind JS wall."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "03:21",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52676 docs — +52676 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "03:19",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 155-158 of Schauberger's 'Wasser: Das Blut der Erde' (de) — sections on oxygen excess, cancer as decay process, distilled water, micro-life. Job now 158/210; 52 chunks remain."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "03:10",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 4 chunk 035 (capacitor physics, vortex tubes, Bernoulli equation)"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "03:04",
-      "agent": "Book4 Translate",
-      "summary": "+2 chunks — Translated Book 4 chunks 033-034 (Chapter 3 intro: ether flow velocity and magnetic field compressibility; Chapter 2 conclusions). translator-ats active so fewer chunks this run. Progress: 34/178 (19%)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "02:30",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+0 net — RACE DETECTED & CLEANED: local fire translated the ES Schauberger 'Dynamic Hydroelectric Energy' article (11/11 chunks) unaware the cloud Curator had completed the same job at 01:50 UTC (local clone was stale, manifest read as 0/11). Removed the duplicate from living-library and AFLinks — the Curator's 2026-09-09 version stands. Also recovered 2 orphaned stashes (both redundant — content had landed via cloud agents), fixed committed conflict markers in this log (e245c7d era), and restored the missing Chronicler 16:02 UTC 09-07 entry. LESSON: pull origin before reading work manifests; check translations/ for an existing copy of the same source before translating."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "02:22",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 4 chunk 032 (Chapter 2.5, magnetic field line structure) - 32/178 done"
-    },
-    {
-      "date": "2026-09-09",
       "time": "02:15",
       "agent": "Scooter (Growth Scout)",
       "summary": "+1 archive entry — energeticforum.com live-diff (growth cron 02:15Z). — Homepage-activity diff found 1 previously-unarchived thread (495755 report-bugs-here, forum-help sticky meta) → filelist 8,128→8,129, processed, merged id-safe (3d64e85, id 1554246, archive **52,675→52,676**). lenr-canr.org /acrobat/ diff: 0 new (1,454 synced); viXra full cat-scan: 0 new (all cats ≤ 2609.0017 — already archived). iccf-27 proceedings/proceeding/ STILL Under Construction (9,845B unchanged) → keep watch. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-growth-0215.md."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "02:11",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt (62 translation works, new ES Schauberger translation published)"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "01:50",
-      "agent": "Translation Curator",
-      "summary": "+1 full translation — Completed full translation of 'Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly' (ES->EN, 11/11 chunks, Hasslberger 1993, giurfa.com) — source already archived 2026-09-08. Investigated two stalled 0/1 jobs: teslavital.fr Tesla US 685957 article is dead (404 on live site, no Wayback snapshot) and zenodo DOI 15609842 was never registered — both marked DEAD-LINK, no fake translations made. Gear: quota (3/4 chunks used)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "01:25",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota run: translated chunks 5-8 of 'Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly' (ES->EN), job now 8/11. Fixed fulltext_worker done-threshold bug (tiny heading-only chunks could never complete). INCIDENT RESPONSE: discovered + fixed the cron-ledger BOM clobber — Windows translator machine wrote cron_ledger.json with a UTF-8 BOM, family.py silently fell back to an empty ledger on parse failure, wiping 9 of 12 members. Made load_ledger BOM-tolerant (utf-8-sig) and restored all lost members."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "01:10",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "01:06",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 4 chunk 031 (Chapter 2.4: physical essence of the magnetic field) from Russian to English"
-    },
-    {
-      "date": "2026-09-09",
-      "time": "00:22",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+52670 docs — +52670 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-09",
@@ -168183,7 +168183,67 @@
         "1586282",
         "1588534",
         "1854921",
-        "2012146"
+        "2012146",
+        "2386522",
+        "2386524",
+        "2386527",
+        "2386531",
+        "2386536",
+        "2386542",
+        "2386549",
+        "2386557",
+        "2386566",
+        "2386576",
+        "2386587",
+        "2386599",
+        "2386612",
+        "2386626",
+        "2386641",
+        "2386657",
+        "2386674",
+        "2386692",
+        "2386711",
+        "2386731",
+        "2386752",
+        "2386774",
+        "2386797",
+        "2386821",
+        "2386846",
+        "2386872",
+        "2386899",
+        "2386927",
+        "2386956",
+        "2386986",
+        "2387017",
+        "2387049",
+        "2387082",
+        "2387116",
+        "2387151",
+        "2387187",
+        "2387224",
+        "2387262",
+        "2387301",
+        "2387341",
+        "2387382",
+        "2387424",
+        "2387467",
+        "2387511",
+        "2387556",
+        "2387602",
+        "2387649",
+        "2387697",
+        "2387746",
+        "2387796",
+        "2387847",
+        "2387899",
+        "2387952",
+        "2388006",
+        "2388061",
+        "2388117",
+        "2388174",
+        "2388232",
+        "2388291",
+        "2388351"
       ]
     },
     "doc_titles": {
@@ -223802,7 +223862,67 @@
       "2386518": "sf3",
       "2386519": "srb",
       "2386520": "sum1",
-      "2386521": "sum2"
+      "2386521": "sum2",
+      "2386522": "Points of View — Christianity as a Mystical Fact (1947)",
+      "2386524": "The Mysteries and Mystery Wisdom — Christianity as a Mystical Fact (1947)",
+      "2386527": "The Greek Sages Before Plato in the Light of Mystery Wisdom — Christianity as a Mystical Fact (1947)",
+      "2386531": "Plato as a Mystic — Christianity as a Mystical Fact (1947)",
+      "2386536": "The Wisdom of the Mysteries and the Myth — Christianity as a Mystical Fact (1947)",
+      "2386542": "The Mystery Wisdom of Egypt — Christianity as a Mystical Fact (1947)",
+      "2386549": "The Gospels — Christianity as a Mystical Fact (1947)",
+      "2386557": "The Lazarus Miracle — Christianity as a Mystical Fact (1947)",
+      "2386566": "The Apocalypse of St. John — Christianity as a Mystical Fact (1947)",
+      "2386576": "Jesus and His Historical Background — Christianity as a Mystical Fact (1947)",
+      "2386587": "The Nature of Christianity — Christianity as a Mystical Fact (1947)",
+      "2386599": "Christianity and the Pagan Wisdom — Christianity as a Mystical Fact (1947)",
+      "2386612": "Points of View — Christianity as a Mystical Fact (1947)",
+      "2386626": "Preface to the Second Edition — Christianity as a Mystical Fact (1947)",
+      "2386641": "Bibliographical Note — Christianity as a Mystical Fact (1961)",
+      "2386657": "Points of View — Christianity as a Mystical Fact (1961)",
+      "2386674": "Chapter 1. Mysteries and Mystery Wisdom — Christianity as a Mystical Fact (1961)",
+      "2386692": "2. Greek Sages before Plato in the Light of Mystery Wisdom — Christianity as a Mystical Fact (1961)",
+      "2386711": "3. Plato as a Mystic — Christianity as a Mystical Fact (1961)",
+      "2386731": "4. Mystery Wisdom and Myth — Christianity as a Mystical Fact (1961)",
+      "2386752": "5. Egyptian Mystery Wisdom — Christianity as a Mystical Fact (1961)",
+      "2386774": "6. The Gospels — Christianity as a Mystical Fact (1961)",
+      "2386797": "7. The Miracle of the Raising of Lazarus — Christianity as a Mystical Fact (1961)",
+      "2386821": "8. The Apocalypse of John — Christianity as a Mystical Fact (1961)",
+      "2386846": "9. Jesus and his Historical Background — Christianity as a Mystical Fact (1961)",
+      "2386872": "10. The Essence of Christianity — Christianity as a Mystical Fact (1961)",
+      "2386899": "11. Christianity and Pagan Wisdom — Christianity as a Mystical Fact (1961)",
+      "2386927": "12. Augustine and the Church — Christianity as a Mystical Fact (1961)",
+      "2386956": "Foreword — Christianity as a Mystical Fact (1961)",
+      "2386986": "Preface — Christianity as a Mystical Fact (1961)",
+      "2387017": "Introduction: Rudolf Steiner—A Biographical Sketch — Christianity as a Mystical Fact (1961)",
+      "2387049": "Gesichtspunkte — Das Christentum als Mystische Tatsache und die Mysterien des Altertums",
+      "2387082": "Mysterien und Mysterienweisheit — Das Christentum als Mystische Tatsache und die Mysterien des Altertums",
+      "2387116": "Die Griechischen Weisen vor Plato im Lichte der Mysterienweisheit — Das Christentum als Mystische Tatsache und die Mysterien des Altertums",
+      "2387151": "Plato als Mystiker — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387187": "Die Mysterienweisheit und der Mythos — Das Christentum als Mystische Tatsache und die Mysterien des Altertum - Rudolf Steiner Archive",
+      "2387224": "Die Äyptische Mysterienweisheit — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387262": "Die Evangelien — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387301": "Das Lazarus-wunder — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387341": "Die Apokalypse des Johannes — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387382": "Jesus und Sein Geschichtlicher Hintergrund — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387424": "Vom Wesen des Christentums — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387467": "Christentum und Heidnische Weisheit — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387511": "Augustinus und die Kirche — Das Christentum als Mystische Tatsache und die Mysterien des Altertum",
+      "2387556": "Vorwort zur Zweiten Auflage — Das Christentum als Mystische Tatsache und die Mysterien des Altertums",
+      "2387602": "Addenda — GA 9. Theosophy (1971)",
+      "2387649": "The Essential Nature of Man — GA 9. Theosophy (1971)",
+      "2387697": "Re-Embodiment of the Spirit and Destiny — GA 9. Theosophy (1971)",
+      "2387746": "The Three Worlds — GA 9. Theosophy (1971)",
+      "2387796": "The Path of Knowledge — GA 9. Theosophy (1971)",
+      "2387847": "Introduction — GA 9. Theosophy (1971)",
+      "2387899": "Preface to the Revised English Edition — GA 9. Theosophy (1971)",
+      "2387952": "Combined Prefaces to the First, Second, and Third Editions — GA 9. Theosophy (1971)",
+      "2388006": "Addenda — Theosophy (1965)",
+      "2388061": "The Nature of Man — Theosophy (1965)",
+      "2388117": "Re-imbodiment of the Spirit and Destiny — Theosophy (1965)",
+      "2388174": "The Three Worlds — Theosophy (1965)",
+      "2388232": "The Path of Knowledge — Theosophy (1965)",
+      "2388291": "Introduction — Theosophy (1965)",
+      "2388351": "A Note on the Title — Theosophy (1965)"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -224463,6 +224583,8 @@
         "Water / Hydrogen"
       ],
       "Rudolf Steiner & Anthroposophy": [
+        "Aether Physics",
+        "Agriculture",
         "Alternative Physics",
         "Anthroposophy / Rudolf Steiner",
         "Biology / Health",
@@ -527141,6 +527263,199 @@
       ],
       "2386521": [
         "Energy"
+      ],
+      "2386522": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386524": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386527": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386531": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2386536": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2386542": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386549": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386557": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386566": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386576": [
+        "Anthroposophy / Rudolf Steiner",
+        "Agriculture"
+      ],
+      "2386587": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386599": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386612": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386626": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386641": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386657": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386674": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386692": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2386711": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2386731": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386752": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education",
+        "Aether Physics"
+      ],
+      "2386774": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386797": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386821": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386846": [
+        "Anthroposophy / Rudolf Steiner",
+        "Agriculture"
+      ],
+      "2386872": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386899": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386927": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386956": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2386986": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387017": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387049": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387082": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387116": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387151": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387187": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387224": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387262": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387301": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387341": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387382": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387424": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387467": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387511": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387556": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2387602": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387649": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2387697": [
+        "Anthroposophy / Rudolf Steiner",
+        "Optics / Colour Therapy"
+      ],
+      "2387746": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387796": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387847": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387899": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2387952": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2388006": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2388061": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2388117": [
+        "Anthroposophy / Rudolf Steiner",
+        "Optics / Colour Therapy"
+      ],
+      "2388174": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2388232": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2388291": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2388351": [
+        "Anthroposophy / Rudolf Steiner"
       ]
     },
     "meta_concepts": {
@@ -632548,7 +632863,67 @@
       "2386518": [],
       "2386519": [],
       "2386520": [],
-      "2386521": []
+      "2386521": [],
+      "2386522": [],
+      "2386524": [],
+      "2386527": [],
+      "2386531": [],
+      "2386536": [],
+      "2386542": [],
+      "2386549": [],
+      "2386557": [],
+      "2386566": [],
+      "2386576": [],
+      "2386587": [],
+      "2386599": [],
+      "2386612": [],
+      "2386626": [],
+      "2386641": [],
+      "2386657": [],
+      "2386674": [],
+      "2386692": [],
+      "2386711": [],
+      "2386731": [],
+      "2386752": [],
+      "2386774": [],
+      "2386797": [],
+      "2386821": [],
+      "2386846": [],
+      "2386872": [],
+      "2386899": [],
+      "2386927": [],
+      "2386956": [],
+      "2386986": [],
+      "2387017": [],
+      "2387049": [],
+      "2387082": [],
+      "2387116": [],
+      "2387151": [],
+      "2387187": [],
+      "2387224": [],
+      "2387262": [],
+      "2387301": [],
+      "2387341": [],
+      "2387382": [],
+      "2387424": [],
+      "2387467": [],
+      "2387511": [],
+      "2387556": [],
+      "2387602": [],
+      "2387649": [],
+      "2387697": [],
+      "2387746": [],
+      "2387796": [],
+      "2387847": [],
+      "2387899": [],
+      "2387952": [],
+      "2388006": [],
+      "2388061": [],
+      "2388117": [],
+      "2388174": [],
+      "2388232": [],
+      "2388291": [],
+      "2388351": []
     }
   },
   "graph": {
