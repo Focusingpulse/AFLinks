@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T21:07:27Z",
+  "generated_at": "2026-09-10T21:22:35Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 78,
     "bridges": 7,
-    "archive_entries": 58585,
+    "archive_entries": 58586,
     "meta_counts": {
-      "Challenges to the Standard Model": 44371,
+      "Challenges to the Standard Model": 44372,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,9 +31,9 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 35275,
-      "Patents & Inventions": 25035,
-      "Geopolitics & Hidden History": 20672,
+      "Alternative Energy Technologies": 35276,
+      "Patents & Inventions": 25036,
+      "Geopolitics & Hidden History": 20673,
       "Electromagnetic Theory": 9786,
       "Reference & Technical Data": 1977,
       "Media & Interviews": 2268,
@@ -4791,9 +4791,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T19:17:01Z",
+      "last_run": "2026-09-10T21:16:51Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks | Goethe Scientific Works 139/353 | backlog 423 wait (gear: quota)"
+      "last_summary": "+5 chunks since last run (139->144) | Goethe Scientific Works (it) 144/353 | backlog 423 wait (gear: quota) | watchdog: translator-foreign stale 28.8h"
     },
     {
       "member": "db-entity-extractor",
@@ -4813,9 +4813,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T20:09:31Z",
+      "last_run": "2026-09-10T21:09:34Z",
       "last_status": "ok",
-      "last_summary": "sync: 58450 docs, feed rebuilt"
+      "last_summary": "sync: 58586 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4975,9 +4975,21 @@
     },
     {
       "date": "2026-09-10",
+      "time": "21:17",
+      "agent": "Translation Sweeper",
+      "summary": "+5 chunks — Quota-mode run: translated 5 chunks (140-144) of Goethe's Scientific Works (Italian, ospi.it), now 144/353. Continued commentary on concept vs percept, Scaligero on the unconscious, Steiner quotes. Watchdog note: translator-foreign stale 28.8h."
+    },
+    {
+      "date": "2026-09-10",
       "time": "21:12",
       "agent": "The Chronicler",
       "summary": "+1 chunks — Translated Book 4 chunk 121 (magnetic field compressibility, Ampère's law deviations)"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "21:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+1 docs — +1 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5206,18 +5218,6 @@
       "time": "15:08",
       "agent": "Deep-Dive Morning",
       "summary": "+5 files — Track A: 7 new research finds (Hylenr LENR, ENG8 PRVR, Project Callisto, torsion constraints, water memory, chiral water). Track B: 4 declassified documents filed (Germany BMWE FOI, France 2030 nuclear, EU energy leak, US-Saudi enrichment)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:08",
-      "agent": "Deep-Dive Morning",
-      "summary": "+7 finds — Quota-gear sweep: +3 declassified filed (Russia: Soviet MoD UAP files KLAS release series incl. 1982 Byelokoroviche nuclear near-launch; Spain: 23-F coup 153-unit release; Spain: Ceuta 40-doc intelligence release — Spain's new declassification regime now proven routine). +4 research finds (LENR NiCu thin-film radiant spectrum with 215h sustained excess heat; EZ-water magnetic-field reconciliation model; first gravity test on falling quantum matter waves; German vortex-cosmology micro-proof with auditable pipeline). 1 fragile source archived (Knapp congressional testimony PDF)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:07",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -50664,7 +50664,8 @@
         "2397813",
         "2397814",
         "2397815",
-        "2397816"
+        "2397816",
+        "2397817"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -97539,7 +97540,8 @@
         "2397813",
         "2397814",
         "2397815",
-        "2397816"
+        "2397816",
+        "2397817"
       ],
       "Patents & Inventions": [
         "5814",
@@ -122576,7 +122578,8 @@
         "2397809",
         "2397810",
         "2397811",
-        "2397815"
+        "2397815",
+        "2397817"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -143250,7 +143253,8 @@
         "2397810",
         "2397811",
         "2397814",
-        "2397815"
+        "2397815",
+        "2397817"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -232639,7 +232643,8 @@
       "2397813": "5-CF-Public-Policy-190525-Poster",
       "2397814": "5-ICCF-22-Presentation-190909",
       "2397815": "5-LRDI-CF-LANR-190324-Reduced",
-      "2397816": "NI-CIEEP-Defkalion-Trip-Plan-130707"
+      "2397816": "NI-CIEEP-Defkalion-Trip-Plan-130707",
+      "2397817": "GrimshawTpublicpoli"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -548095,6 +548100,13 @@
         "Electromagnetism",
         "Alternative Physics",
         "LENR / Cold Fusion"
+      ],
+      "2397817": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
       ]
     },
     "meta_concepts": {
@@ -654520,7 +654532,9 @@
       "2397696": [],
       "2397697": [],
       "2397698": [],
-      "2397699": [],
+      "2397699": [
+        "p_goethean"
+      ],
       "2397700": [],
       "2397701": [],
       "2397702": [],
@@ -654565,79 +654579,188 @@
       "2397741": [],
       "2397742": [],
       "2397743": [],
-      "2397744": [],
-      "2397745": [],
-      "2397746": [],
+      "2397744": [
+        "cold_fusion"
+      ],
+      "2397745": [
+        "cold_fusion"
+      ],
+      "2397746": [
+        "cold_fusion"
+      ],
       "2397747": [],
       "2397748": [],
       "2397749": [],
       "2397750": [],
-      "2397751": [],
-      "2397752": [],
+      "2397751": [
+        "cold_fusion"
+      ],
+      "2397752": [
+        "cold_fusion",
+        "p_bridge"
+      ],
       "2397753": [],
       "2397754": [],
-      "2397755": [],
+      "2397755": [
+        "cold_fusion"
+      ],
       "2397756": [],
-      "2397757": [],
-      "2397758": [],
-      "2397759": [],
-      "2397760": [],
-      "2397761": [],
+      "2397757": [
+        "cold_fusion"
+      ],
+      "2397758": [
+        "cold_fusion"
+      ],
+      "2397759": [
+        "cold_fusion",
+        "p_consciousness"
+      ],
+      "2397760": [
+        "cold_fusion"
+      ],
+      "2397761": [
+        "cold_fusion"
+      ],
       "2397762": [],
-      "2397763": [],
+      "2397763": [
+        "cold_fusion"
+      ],
       "2397764": [],
       "2397765": [],
-      "2397766": [],
+      "2397766": [
+        "p_consciousness"
+      ],
       "2397767": [],
       "2397768": [],
-      "2397769": [],
-      "2397770": [],
-      "2397771": [],
-      "2397772": [],
+      "2397769": [
+        "cold_fusion"
+      ],
+      "2397770": [
+        "cold_fusion"
+      ],
+      "2397771": [
+        "cold_fusion"
+      ],
+      "2397772": [
+        "geometry_sacred"
+      ],
       "2397773": [],
       "2397774": [],
-      "2397775": [],
-      "2397776": [],
-      "2397777": [],
-      "2397778": [],
-      "2397779": [],
-      "2397780": [],
-      "2397781": [],
-      "2397782": [],
+      "2397775": [
+        "cold_fusion"
+      ],
+      "2397776": [
+        "cold_fusion"
+      ],
+      "2397777": [
+        "cold_fusion"
+      ],
+      "2397778": [
+        "cold_fusion"
+      ],
+      "2397779": [
+        "cold_fusion"
+      ],
+      "2397780": [
+        "cold_fusion"
+      ],
+      "2397781": [
+        "cold_fusion"
+      ],
+      "2397782": [
+        "cold_fusion"
+      ],
       "2397783": [],
-      "2397784": [],
-      "2397785": [],
-      "2397786": [],
+      "2397784": [
+        "cold_fusion"
+      ],
+      "2397785": [
+        "cold_fusion"
+      ],
+      "2397786": [
+        "cold_fusion"
+      ],
       "2397787": [],
-      "2397788": [],
-      "2397789": [],
-      "2397790": [],
-      "2397791": [],
-      "2397792": [],
+      "2397788": [
+        "cold_fusion"
+      ],
+      "2397789": [
+        "cold_fusion"
+      ],
+      "2397790": [
+        "cold_fusion"
+      ],
+      "2397791": [
+        "cold_fusion"
+      ],
+      "2397792": [
+        "cold_fusion"
+      ],
       "2397793": [],
-      "2397794": [],
-      "2397795": [],
-      "2397796": [],
-      "2397797": [],
-      "2397798": [],
+      "2397794": [
+        "cold_fusion"
+      ],
+      "2397795": [
+        "cold_fusion"
+      ],
+      "2397796": [
+        "cold_fusion"
+      ],
+      "2397797": [
+        "cold_fusion"
+      ],
+      "2397798": [
+        "cold_fusion"
+      ],
       "2397799": [],
-      "2397800": [],
-      "2397801": [],
-      "2397802": [],
-      "2397803": [],
-      "2397804": [],
-      "2397805": [],
-      "2397806": [],
-      "2397807": [],
-      "2397808": [],
-      "2397809": [],
-      "2397810": [],
-      "2397811": [],
+      "2397800": [
+        "cold_fusion"
+      ],
+      "2397801": [
+        "cold_fusion"
+      ],
+      "2397802": [
+        "cold_fusion"
+      ],
+      "2397803": [
+        "cold_fusion"
+      ],
+      "2397804": [
+        "cold_fusion"
+      ],
+      "2397805": [
+        "cold_fusion"
+      ],
+      "2397806": [
+        "cold_fusion"
+      ],
+      "2397807": [
+        "cold_fusion"
+      ],
+      "2397808": [
+        "cold_fusion"
+      ],
+      "2397809": [
+        "cold_fusion"
+      ],
+      "2397810": [
+        "cold_fusion"
+      ],
+      "2397811": [
+        "cold_fusion"
+      ],
       "2397812": [],
       "2397813": [],
-      "2397814": [],
-      "2397815": [],
-      "2397816": []
+      "2397814": [
+        "cold_fusion"
+      ],
+      "2397815": [
+        "cold_fusion"
+      ],
+      "2397816": [],
+      "2397817": [
+        "cold_fusion"
+      ]
     }
   },
   "graph": {
