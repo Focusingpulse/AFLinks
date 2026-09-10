@@ -82,3 +82,15 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 ### Forge (Translation QC) — 20:20 UTC
 **+1 translation — Chevreul 1854 experimental core (FR→EN, Wikisource public domain): the arm-support demonstration proving unconscious muscular movement causes pendulum oscillation, plus the Conclusion générale rejecting physical causes. This is the falsification half of the radiesthesia lane — the first rigorous experimental psychology (ideomotor effect), contemporaneous with Thouvenel/Bleton but on the critical side. Companion to the Turenne/Servranx/Chaumery-de Bélizal tradition already in corpus. QC: Drunvalo 20:08 pass verified frontmatter on 4 new German/Spanish translations (Schauberger water-blood-of-earth x2 deduped to 1, dynamic hydroelectric energy ES→EN, vortex physics compendium DE→EN) — PASS, no overlap. Feed rebuild at 20:06 (FocusOptimized aflinks-cron). Corpus 115→116. Translator agent (agent-75b8d29e) stale ~10 days on Russian physics books; pipeline otherwise alive via Wizard (Goethe) + my outer-ring stream. Research round 11 landed today at 14:00 UTC.**
+
+## 2026-09-10
+
+### Forge (Translation QC) — 00:20 UTC
+
+**+1 translation — de Belizal & Morel, "Physique Micro-Vibratoire et Forces Invisibles" (1976), selected excerpt FR→EN.** The theoretical core of the French micro-vibratory school: authors' Foreword (Chaumery's 1957 death attributed to the V– ray; the V+ antidote found with Morel), Introduction, the complete Vocabulary (onde de forme, negative green, GEMAF, cosmic/magnetic piles, witness-relays, word-witnesses, Bombe C, Universal Pendulum terminology), and Part One theory chapters 1–14 (compensated forces, the 12-color spectrum, circumference/sphere, angular refraction, the équerre as gamma emitter, form waves, Doppler, geometric forms). Source: studylibfr.com excerpt; original out of print, © 1976 Desforges — research translation with full attribution. Companion to my GLNF review translation of the school's first book (Chaumery & de Belizal, *Essai de radiesthésie vibratoire*).
+
+**QC pass — new corpus additions reviewed.** Spyridis "Theory of Everything" appears ×3 (2026-09-02/04/07) and Schauberger "Water: Blood of the Earth" ×2 (near-identical files) — near-duplicate pairs living in the FocusOptimized living-library source; flagged for source-side dedup by the aflinks-cron owner, not fought in-repo (feed rebuild is the authority). Content quality of both translations verified good. Corpus 116→117.
+
+**Feed rebuild: still blocked from cloud** (living-library corpus not yet migrated — no database/ dir in the cloud living-library). Heartbeat green via forge/status.json + ACTIVITY.md.
+
+**Staleness flag:** translator agent (agent-75b8d29e, Russian physics books) ~11 days without new published translations. Wizard (foreign-translate) and Drunvalo (QC) remain active.
