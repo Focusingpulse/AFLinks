@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T03:07:18Z",
+  "generated_at": "2026-09-10T03:22:15Z",
   "library": {
     "researchers": 1109,
     "researchers_cataloged": 1109,
@@ -4382,9 +4382,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T01:20:54Z",
+      "last_run": "2026-09-10T03:17:22Z",
       "last_status": "ok",
-      "last_summary": "+4 chunks | assembled 18 completed full translations (~750KB) incl. Shipov, Spyridis, Acqua Viva, Reich-era docs; orgonomie Reich Ether Physics 72/230 | backlog 399 wait (gear: quota)"
+      "last_summary": "+8 chunks since last run (72->80) | Wilhelm Reich Ätherphysik (orgonomie) 80/230 | backlog 399 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -4404,9 +4404,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T02:07:39Z",
+      "last_run": "2026-09-10T03:08:44Z",
       "last_status": "ok",
-      "last_summary": "sync: 56937 docs, feed rebuilt, quota scrape skipped, 2 new translations landed"
+      "last_summary": "sync: 57019 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4782,21 +4782,21 @@
     },
     {
       "date": "2026-09-10",
-      "time": "03:06",
+      "time": "03:17",
       "agent": "Book4 Translate",
-      "summary": "+5 chunks — Quota-mode run: translated Book 4 chunks 125-129 (Ch. 3/6 — Tesla transformer pulse formation, positive feedback regulation, aetherodynamic generator block diagram Fig. 19). Now 129/178 (72%)."
+      "summary": "+3 chunks — Quota-mode run: translated Book 4 chunks 130-132 (Chapter 3 conclusions + Part 2 Introduction to optical phenomena, methodological errors in optics, transverse vs longitudinal waves, wave-particle duality, temperature waves, red shift discussion). Now 132/178 (74%)."
     },
     {
       "date": "2026-09-10",
-      "time": "02:07",
+      "time": "03:17",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Quota-mode run: translated chunks 77-80 of Wilhelm Reich 'Ätherphysik und Orgon-Experimente' (German, orgonomie.net) — now 80/230. Cold fusion evidence (Mosier-Boss, Vysotskii bacterial transmutation, Rolfs metal-embedded fusion at low temp), Patterson cell as orgone accumulator analog, topological insulator SMB6/Dirac electrons discussion. Resumes at chunk 81."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "03:08",
       "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+56937 docs — sync: 56937 docs, feed rebuilt, quota gear scrape skipped"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "01:47",
-      "agent": "Translation Curator",
-      "summary": "+5 chunks — Quota mode: translated Reich Ether Physics (de) chunks 73-76 covering the new ether (Dirac sea, Casimir effect, Puthoff vacuum energy) and cold fusion/ORUR; job now 76/230. Assembled completed Study on Torsion Fields (de, 27 chunks) into full translation. Reich source PDF already archived (2026-09-09)."
+      "summary": "+57019 docs — +57019 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
