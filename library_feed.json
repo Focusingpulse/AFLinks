@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T18:06:33Z",
+  "generated_at": "2026-09-10T18:19:15Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 78,
     "bridges": 7,
-    "archive_entries": 58338,
+    "archive_entries": 58398,
     "meta_counts": {
       "Challenges to the Standard Model": 44195,
       "Biological & Morphogenetic Science": 1472,
@@ -40,7 +40,7 @@
       "Environment & Climate": 9464,
       "Biology, Health & Medicine": 6443,
       "Frontier Science": 329,
-      "Rudolf Steiner & Anthroposophy": 414
+      "Rudolf Steiner & Anthroposophy": 474
     },
     "graph_edges": 453,
     "graph_nodes": 345,
@@ -4765,7 +4765,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T17:09:33Z",
+      "last_run": "2026-09-10T18:07:42Z",
       "last_status": "ok",
       "last_summary": "sync: 58338 docs, feed rebuilt"
     },
@@ -4999,6 +4999,12 @@
     },
     {
       "date": "2026-09-10",
+      "time": "18:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58338 docs — +58338 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
       "time": "17:47",
       "agent": "Translation Curator",
       "summary": "+4 chunks — Quota-mode run: +4 chunks translated on 'Wilhelm Reich Ether Physics and Orgone Experiments' (orgonomie.net, German) — now 49/230 chunks. Source PDF already archived (2.7MB, 242pp). Covered triboluminescence, ORANUR experiment, seasonal radioactive-decay anomalies (Si-32, Ra-226, Pu-238), Fischbach/Jenkins solar-neutrino hypothesis. Backlog 399."
@@ -5158,12 +5164,6 @@
       "time": "13:46",
       "agent": "Translation Curator",
       "summary": "+4 chunks — Quota-gear run: translated Goethe Scientific Works (Italian, Steiner commentary) chunks 116-119 -> English, job now 119/353. Source already archived (stable OSPI host). Backlog 409."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "13:22",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Assembled full English translation of SAFE's 'Compendium of Vortex Physics' (108/108 chunks, de, 248KB) — all chunks were on disk, this run materialized the complete document. Translated Goethe Scientific Works chunks 5-8 (it->en): Goethean phenomenology vs Kant, etheric body as functional body, Venzone Cathedral anastylosis analogy, Linnaeus vs Goethe analysis/synthesis. Verified 3 dead jobs already marked by Curator (zenodo DOI, academia.edu wall, teslavital 404) and restored their original markers."
     },
     {
       "date": "2026-09-10",
@@ -173373,7 +173373,67 @@
         "2394692",
         "2394750",
         "2394809",
-        "2394869"
+        "2394869",
+        "2395435",
+        "2395437",
+        "2395440",
+        "2395444",
+        "2395449",
+        "2395455",
+        "2395462",
+        "2395470",
+        "2395479",
+        "2395489",
+        "2395500",
+        "2395512",
+        "2395525",
+        "2395539",
+        "2395554",
+        "2395570",
+        "2395587",
+        "2395605",
+        "2395624",
+        "2395644",
+        "2395665",
+        "2395687",
+        "2395710",
+        "2395734",
+        "2395759",
+        "2395785",
+        "2395812",
+        "2395840",
+        "2395869",
+        "2395899",
+        "2395930",
+        "2395962",
+        "2395995",
+        "2396029",
+        "2396064",
+        "2396100",
+        "2396137",
+        "2396175",
+        "2396214",
+        "2396254",
+        "2396295",
+        "2396337",
+        "2396380",
+        "2396424",
+        "2396469",
+        "2396515",
+        "2396562",
+        "2396610",
+        "2396659",
+        "2396709",
+        "2396760",
+        "2396812",
+        "2396865",
+        "2396919",
+        "2396974",
+        "2397030",
+        "2397087",
+        "2397145",
+        "2397204",
+        "2397264"
       ]
     },
     "doc_titles": {
@@ -231714,7 +231774,67 @@
       "2395430": "emf - microwave dissociation of water &amp; biological macromolecules - Nikiforov 2015 7.2.16",
       "2395431": "wholelife emf 2009.6.24.16",
       "2395432": "19890427-HSS&T-Cold-Fusion-Hearing",
-      "2395434": "Disclaimer for PADRAK Webpages"
+      "2395434": "Disclaimer for PADRAK Webpages",
+      "2395435": "Appendix — GA 15. The Spiritual Guidance of the Individual and Humanity (1992)",
+      "2395437": "Lecture One — GA 15. The Spiritual Guidance of the Individual and Humanity (1992)",
+      "2395440": "Lecture Two — GA 15. The Spiritual Guidance of the Individual and Humanity (1992)",
+      "2395444": "Lecture Three — GA 15. The Spiritual Guidance of the Individual and Humanity (1992)",
+      "2395449": "Introduction — GA 15. The Spiritual Guidance of the Individual and Humanity",
+      "2395455": "Preface — GA 15. The Spiritual Guidance of the Individual and Humanity (1992)",
+      "2395462": "Lecture 1 — The Spiritual Guidance of Mankind (1921)",
+      "2395470": "Lecture 2 — The Spiritual Guidance of Mankind (1921)",
+      "2395479": "Lecture 3 — The Spiritual Guidance of Mankind (1921)",
+      "2395489": "Preface — The Spiritual Guidance of Mankind (1921)",
+      "2395500": "Kapitel I — Die geistige Führung des Menschen und der Menschheit",
+      "2395512": "Kapitel II — Die geistige Führung des Menschen und der Menschheit",
+      "2395525": "Kapitel III — Die geistige Führung des Menschen und der Menschheit",
+      "2395539": "Vorwort — Die geistige Führung des Menschen und der Menschheit",
+      "2395554": "First Meditation — A Road to Self-Knowledge (1956)",
+      "2395570": "Second Meditation — A Road to Self-Knowledge (1956)",
+      "2395587": "Third Meditation — A Road to Self-Knowledge (1956)",
+      "2395605": "Fourth Meditation — A Road to Self-Knowledge (1956)",
+      "2395624": "Fifth Meditation — A Road to Self-Knowledge (1956)",
+      "2395644": "Sixth Meditation — A Road to Self-Knowledge (1956)",
+      "2395665": "Seventh Meditation — A Road to Self-Knowledge (1956)",
+      "2395687": "Eighth Meditation — A Road to Self-Knowledge (1956)",
+      "2395710": "Introduction — A Road to Self-Knowledge (1956)",
+      "2395734": "Einleitende Bemerkungen — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395759": "Nachwort zur Neuauflage [1918] — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395785": "Erste Meditation — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395812": "Zweite Meditation — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395840": "Dritte Meditation — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395869": "Vierte Meditation — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395899": "Fünfte Meditation — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395930": "Sechste Meditation — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395962": "Siebente Meditation — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2395995": "Achte Meditation — Ein Weg zur Selbsterkenntnis des Menschen",
+      "2396029": "Chapter 1. Concerning the Reliance which may be placed on Thinking; the Nature of the Thinking Soul; and of Meditation - The Threshold of the Spiritual World (1922)",
+      "2396064": "Chapter 2. Concerning Knowledge of the Spiritual World - The Threshold of the Spiritual World (1922)",
+      "2396100": "Chapter 3. Concerning Man's Etheric Body and the Elemental World  - The Threshold of the Spiritual World (1922)",
+      "2396137": "Chapter 4. Summary of the Foregoing  - The Threshold of the Spiritual World (1922)",
+      "2396175": "Chapter 5. Concerning Reincarnation and Karma; Man's Astral Body and the Spiritual World; and Ahrimanic Beings  - The Threshold of the Spiritual World (1922)",
+      "2396214": "Chapter 6. Concerning the Astral Body and the Luciferic Beings; and the Nature of the Etheric Body  - The Threshold of the Spiritual World (1922)",
+      "2396254": "Chapter 7. Summary of the Foregoing  - The Threshold of the Spiritual World (1922)",
+      "2396295": "Chapter 8. Concerning the Guardian of the Threshold and some Peculiarities of Clairvoyant Consciousness  - The Threshold of the Spiritual World (1922)",
+      "2396337": "Chapter 9. Concerning the Ego-Feeling and the Human Soul's Capacity for Love; and the Relation of these to the Elemental World  - The Threshold of the Spiritual World (1922)",
+      "2396380": "Chapter 10. Concerning the Boundary between the Physical World and Supersensible Worlds  - The Threshold of the Spiritual World (1922)",
+      "2396424": "Chapter 11. Concerning Beings of the Spirit-Worlds  - The Threshold of the Spiritual World (1922)",
+      "2396469": "Chapter 12. Concerning Spiritual Cosmic Beings  - The Threshold of the Spiritual World (1922)",
+      "2396515": "Chapter 13. The First Beginnings of Man's Physical Body  - The Threshold of the Spiritual World (1922)",
+      "2396562": "Chapter 14. Concerning Man's Real Ego  - The Threshold of the Spiritual World (1922)",
+      "2396610": "Chapter 15. Summary of Part of the Foregoing  - The Threshold of the Spiritual World (1922)",
+      "2396659": "Chapter 16. Remarks on the Connection of what is described in this Book with the Accounts given in my Books Theosophy and Occult Science  - The Threshold of the Spiritual World (1922)",
+      "2396709": "Introductory Remarks — The Threshold of the Spiritual World (1922)",
+      "2396760": "Einleitende Bemerkungen — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2396812": "Nachwort zur Neuausgabe 1918 — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2396865": "Von dem Vertrauen, das man zu dem Denken haben kann und von dem Wesen der denkenden Seele. Vom Meditieren  — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2396919": "Von dem Erkennen der geistigen Welt  — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2396974": "Von dem ätherischen Leibe des Menschen und von der ätherischen Welt  — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2397030": "Zusammenfassung des Vorangehenden — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2397087": "Von den wiederholten Erdenleben und vom Karma. Von dem astralischen Leib des Menschen und von der geistigen Welt. Von ahrimanischen Wesenheiten  — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2397145": "Von dem astralischen Leibe und von luziferischen Wesenheiten und vom Wesen des ätherischen Leibes  — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2397204": "Zusammenfassung des Vorangehenden  — Die Schwelle der geistigen Welt - Rudolf Steiner Archive",
+      "2397264": "Von dem Hüter der Schwelle und einigen Eigenheiten des übersinnlichen Bewusstseins — Die Schwelle der geistigen Welt"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -545842,6 +545962,196 @@
       ],
       "2395434": [
         "Borderland Research"
+      ],
+      "2395435": [
+        "Anthroposophy / Rudolf Steiner",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "2395437": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395440": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395444": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395449": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2395455": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395462": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395470": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395479": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395489": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395500": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395512": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395525": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395539": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395554": [
+        "Anthroposophy / Rudolf Steiner",
+        "Optics / Colour Therapy"
+      ],
+      "2395570": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395587": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395605": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395624": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395644": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395665": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395687": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395710": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395734": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395759": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395785": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395812": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395840": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395869": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395899": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395930": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395962": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2395995": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396029": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396064": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396100": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2396137": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2396175": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396214": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2396254": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396295": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396337": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396380": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2396424": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396469": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396515": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2396562": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2396610": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396659": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396709": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396760": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2396812": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396865": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396919": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2396974": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2397030": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2397087": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2397145": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2397204": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2397264": [
+        "Anthroposophy / Rudolf Steiner"
       ]
     },
     "meta_concepts": {
@@ -651830,7 +652140,67 @@
       "2395430": [],
       "2395431": [],
       "2395432": [],
-      "2395434": []
+      "2395434": [],
+      "2395435": [],
+      "2395437": [],
+      "2395440": [],
+      "2395444": [],
+      "2395449": [],
+      "2395455": [],
+      "2395462": [],
+      "2395470": [],
+      "2395479": [],
+      "2395489": [],
+      "2395500": [],
+      "2395512": [],
+      "2395525": [],
+      "2395539": [],
+      "2395554": [],
+      "2395570": [],
+      "2395587": [],
+      "2395605": [],
+      "2395624": [],
+      "2395644": [],
+      "2395665": [],
+      "2395687": [],
+      "2395710": [],
+      "2395734": [],
+      "2395759": [],
+      "2395785": [],
+      "2395812": [],
+      "2395840": [],
+      "2395869": [],
+      "2395899": [],
+      "2395930": [],
+      "2395962": [],
+      "2395995": [],
+      "2396029": [],
+      "2396064": [],
+      "2396100": [],
+      "2396137": [],
+      "2396175": [],
+      "2396214": [],
+      "2396254": [],
+      "2396295": [],
+      "2396337": [],
+      "2396380": [],
+      "2396424": [],
+      "2396469": [],
+      "2396515": [],
+      "2396562": [],
+      "2396610": [],
+      "2396659": [],
+      "2396709": [],
+      "2396760": [],
+      "2396812": [],
+      "2396865": [],
+      "2396919": [],
+      "2396974": [],
+      "2397030": [],
+      "2397087": [],
+      "2397145": [],
+      "2397204": [],
+      "2397264": []
     }
   },
   "graph": {
