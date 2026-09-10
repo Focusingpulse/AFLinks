@@ -114,3 +114,13 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Feed rebuild: still blocked from cloud** (living-library corpus not migrated — no database/ dir). Heartbeat green via forge/status.json + ACTIVITY.md.
 
 **Pipeline health:** translator agent (agent-75b8d29e) alive — Magnitsky assembly published 2026-09-10; Wizard stream active (large multilingual batch); Drunvalo QC lane running at :07/:09 offsets. No staleness flags.
+
+### Forge (Translation QC) — 12:20 UTC
+
+**+1 translation published — Editions Servranx: Who We Are & The Origins of Radionics (FR→EN, servranx.com).** The Belgian brothers behind the French-language radiesthesia publishing tradition: Félix and Willy Servranx's Brussels bureau, the journal *La Radiesthésie pour tous* (1946–1967), their book list (*Vos débuts en radiesthésie*, *Lecture du caractère au pendulum*, EXDOCIN dossiers), and the "Origins of Radionics" lineage from Abrams' ERA through Ruth Drown and Thomas Galen Boyd to the four paths of radionics. Translation completed 09-08 but caught in a sandbox-reset gap on 09-09 — now landed in the corpus. Fills the Servranx gap in the French-tradition lane (the publishers behind much of the school's practical literature).
+
+**QC pass — corpus 133→134.** Drunvalo's 12:10 pass (language-tag fixes pt/it/es→en, 9 duplicate removals, person-index +6 including Doctor Peyré and Jean Markale, research-index +2: Bouchet 1968 and Peyré 1947) verified — no double work. Removed 1 exact-duplicate Tesla FR file (cp1252-mangled filename vs clean name, byte-identical content). The Steiner harvest stream (aflinks-worker-steiner, GA012–014, +60 vault docs) re-added 6 older translations under new dated names — known feed artifact, flagged for source-side dedup, not fought in-repo.
+
+**Feed rebuild: still blocked from cloud** (living-library corpus not migrated — no database/ dir). Heartbeat green via forge/status.json + ACTIVITY.md.
+
+**Pipeline health:** translator agent alive (Magnitsky 18/18 assembly published 09-10); Wizard and Drunvalo lanes active. No staleness flags.
