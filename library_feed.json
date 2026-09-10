@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T06:05:03Z",
+  "generated_at": "2026-09-10T06:15:17Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 76,
     "bridges": 7,
-    "archive_entries": 57555,
+    "archive_entries": 57615,
     "meta_counts": {
       "Challenges to the Standard Model": 43714,
       "Biological & Morphogenetic Science": 1472,
@@ -40,12 +40,12 @@
       "Environment & Climate": 9436,
       "Biology, Health & Medicine": 6362,
       "Frontier Science": 329,
-      "Rudolf Steiner & Anthroposophy": 294
+      "Rudolf Steiner & Anthroposophy": 354
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 4,
-    "replication_dossiers": 5,
+    "practical_quests": 5,
+    "replication_dossiers": 6,
     "validations": 0
   },
   "latest_translations": [
@@ -4520,9 +4520,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T05:07:25Z",
+      "last_run": "2026-09-10T06:06:30Z",
       "last_status": "ok",
-      "last_summary": "sync: 57019 docs, feed rebuilt"
+      "last_summary": "sync: 57555 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4898,21 +4898,21 @@
     },
     {
       "date": "2026-09-10",
+      "time": "06:06",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+57555 docs — +57555 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "06:01",
+      "agent": "Engine of Practicality",
+      "summary": "+1 quest card — Eeman Circuit for Animal Calm (dossier 006, health domain, Animal Care guild mirror). Quest tests whether the Eeman biofield circuit calms animals via blind behavior observation. Home-replicable (~$10). Mirror coverage: 7/26."
+    },
+    {
+      "date": "2026-09-10",
       "time": "06:01",
       "agent": "Book4 Translate",
       "summary": "+0 chunks — No-op run: Book 4 already complete (178/178, 100%). Book4_full_translation.md assembled (517KB). Next target: Book 3."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "05:50",
-      "agent": "Translation Sweeper",
-      "summary": "+142 chunks — COMPLETED the Wilhelm Reich 'Ether Physics and Orgone Experiments' book (orgonomie.net, German→English): translated chunks 52-230 this run (+142), finished all 230/230, assembled full 593KB English translation. Content: orgone motor history (Reich's 1947 Geiger-Müller discovery, Y factor, William Washington disappearance), Boadella's 1955 'Orgone Energy, Love and Space Ships' lecture, flying saucer bibliography, full literature list. Resolved merge conflicts on chunks 93-96 (parallel fleet run)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "05:48",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Reich Ether Physics (de) advanced 92->96/230: chunks 93-96 — orgonomic potential vs mechano-mysticism (DNA/'life force', Delbrück), consciousness as orgonomic order (3 mechano-mystical theories, Lorenz/Hass), entropy-as-unavailable-information (Boltzmann/Görnitz), Hegel's dialectic resolving Zeno's motion paradox. Source PDF already archived (2.7MB). Quota gear: 4 chunks."
     },
     {
       "date": "2026-09-10",
@@ -171627,7 +171627,67 @@
         "2388174",
         "2388232",
         "2388291",
-        "2388351"
+        "2388351",
+        "2390666",
+        "2390668",
+        "2390671",
+        "2390675",
+        "2390680",
+        "2390686",
+        "2390693",
+        "2390701",
+        "2390710",
+        "2390720",
+        "2390731",
+        "2390743",
+        "2390756",
+        "2390770",
+        "2390785",
+        "2390801",
+        "2390818",
+        "2390836",
+        "2390855",
+        "2390875",
+        "2390896",
+        "2390918",
+        "2390941",
+        "2390965",
+        "2390990",
+        "2391016",
+        "2391043",
+        "2391071",
+        "2391100",
+        "2391130",
+        "2391161",
+        "2391193",
+        "2391226",
+        "2391260",
+        "2391295",
+        "2391331",
+        "2391368",
+        "2391406",
+        "2391445",
+        "2391485",
+        "2391526",
+        "2391568",
+        "2391611",
+        "2391655",
+        "2391700",
+        "2391746",
+        "2391793",
+        "2391841",
+        "2391890",
+        "2391940",
+        "2391991",
+        "2392043",
+        "2392096",
+        "2392150",
+        "2392205",
+        "2392261",
+        "2392318",
+        "2392376",
+        "2392435",
+        "2392495"
       ]
     },
     "doc_titles": {
@@ -229185,7 +229245,67 @@
       "2390662": "App1F",
       "2390663": "App2F",
       "2390664": "App3F",
-      "2390665": "SilverF"
+      "2390665": "SilverF",
+      "2390666": "The Personality of Rudolf Steiner and His Development — GA 10. The Way of Initiation (1960)",
+      "2390668": "I. The Superphysical World and Its Gnosis — GA 10. The Way of Initiation (1960)",
+      "2390671": "1-2. How to Attain Knowledge of the Higher Worlds — GA 10. The Way of Initiation (1960)",
+      "2390675": "Initiation — GA 10. The Way of Initiation (1960)",
+      "2390680": "The Higher Education of the Soul — GA 10. The Way of Initiation (1960)",
+      "2390686": "The Conditions of Discipleship — GA 10. The Way of Initiation (1960)",
+      "2390693": "Foreword — GA 10. The Way of Initiation (1960)",
+      "2390701": "Translator's Note — GA 10. The Way of Initiation (1960)",
+      "2390710": "I. The Astral Centers — GA 10. Initiation and Its Results (1909)",
+      "2390720": "III. Dream Life — GA 10. Initiation and Its Results (1909)",
+      "2390731": "IV. The Three States of Consciousness — GA 10. Initiation and Its Results (1909)",
+      "2390743": "V. The Dissociation of Human Personality During Initiation — GA 10. Initiation and Its Results (1909)",
+      "2390756": "VI. The First Guardian of the Threshold — GA 10. Initiation and Its Results (1909)",
+      "2390770": "VII. The Second Guardian of the Threshold — GA 10. Initiation and Its Results (1909)",
+      "2390785": "Foreword — GA 10. Initiation and Its Results (1909)",
+      "2390801": "Appendix — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390818": "Chapter 1: How is Knowledge Of The Higher Worlds Attained? — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390836": "Initiation — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390855": "The Stages of Initiation — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390875": "Some Practical Aspects — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390896": "The Conditions of Esoteric Training — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390918": "Chapter 5: Some Results of Initiation — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390941": "Chapter 6: The Transformation of Dream Life — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390965": "Chapter 7: The Continuity of Consciousness — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2390990": "Chapter 8: The Splitting of the Human Personality During Spiritual Training — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2391016": "Chapter 9: The Guardian of the Threshold — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2391043": "Chapter 10: Life and Death. The Greater Guardian of the Threshold — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2391071": "Preface to the Edition of May 1918 — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2391100": "Preface to the Third Edition — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2391130": "Preface to the Sixth Edition — Knowledge of Higher Worlds and its Attainment (1947)",
+      "2391161": "Wie erlangt man Erkenntnisse der höheren Welten? — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391193": "Die Stufen der Einweihung — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391226": "Die Einweihung — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391260": "Praktische Gesichtspunkte — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391295": "Die Bedingungen zur Geheimschulung — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391331": "Über einige Wirkungen der Einweihung — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391368": "Veränderungen im Traumleben des Geheimschülers — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391406": "Die Erlangung der Kontinuität des Bewusstseins — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391445": "Die Spaltung der Persönlichkeit während der Einweihung — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391485": "Der Hüter der Schwelle — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391526": "Leben und Tod – der grosse Hüter der Schwelle — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391568": "Nachwort zum achten bis elften Tausend — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391611": "Vorrede zum achten bis elften Tausend — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391655": "Vorrede zur dritten Auflage — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391700": "Vorrede zur fünften Auflage — Wie erlangt man Erkenntnisse der höheren Welten",
+      "2391746": "Chapter 1. Contemporary Civilization in the Mirror of the Science of the Spirit — Cosmic Memory (1959)",
+      "2391793": "Chapter 2. From the Akasha Chronicle (Preface) — Cosmic Memory (1959)",
+      "2391841": "Chapter 3. Our Atlantean Ancestors — Cosmic Memory (1959)",
+      "2391890": "Chapter 4. Transition of the Fourth into the Fifth Root Race — Cosmic Memory (1959)",
+      "2391940": "Chapter 5. The Lemurian Race — Cosmic Memory (1959)",
+      "2391991": "Chapter 6. The Division into Sexes — Cosmic Memory (1959)",
+      "2392043": "Chapter 7. The Last Periods before the Division into Sexes — Cosmic Memory (1959)",
+      "2392096": "Chapter 8. The Hyperborean and the Polarean Epoch — Cosmic Memory (1959)",
+      "2392150": "Chapter 9. Beginning of the Present Earth—Extrusion of \nthe Sun — Cosmic Memory (1959)",
+      "2392205": "Chapter 10. Extrusion of the Moon — Cosmic Memory (1959)",
+      "2392261": "Chapter 11. Some Necessary Points of View — Cosmic Memory (1959)",
+      "2392318": "Chapter 12. On the Origin of the Earth — Cosmic Memory (1959)",
+      "2392376": "Chapter 13. The Earth and Its Future — Cosmic Memory (1959)",
+      "2392435": "Chapter 14. The Life of Saturn — Cosmic Memory (1959)",
+      "2392495": "Chapter 15. The Life of the Sun — Cosmic Memory (1959)"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -229857,6 +229977,7 @@
         "Environment / Climate",
         "Finance / Economics",
         "Goethean Science",
+        "Harmonics, Rhythms & Cycles",
         "Music / Audio",
         "Optics / Colour Therapy",
         "Patents",
@@ -539941,6 +540062,202 @@
       "2390665": [
         "Energy",
         "Biology / Health"
+      ],
+      "2390666": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390668": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390671": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390675": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2390680": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education",
+        "Optics / Colour Therapy"
+      ],
+      "2390686": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2390693": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390701": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2390710": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390720": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390731": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390743": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2390756": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2390770": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390785": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390801": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390818": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390836": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390855": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390875": [
+        "Anthroposophy / Rudolf Steiner",
+        "Optics / Colour Therapy"
+      ],
+      "2390896": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390918": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390941": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390965": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2390990": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2391016": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2391043": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391071": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391100": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391130": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391161": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391193": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391226": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391260": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391295": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391331": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391368": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391406": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391445": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391485": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391526": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2391568": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391611": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391655": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391700": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391746": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391793": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391841": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391890": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391940": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2391991": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2392043": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2392096": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2392150": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2392205": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2392261": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2392318": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2392376": [
+        "Anthroposophy / Rudolf Steiner",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "2392435": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2392495": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
       ]
     },
     "meta_concepts": {
@@ -647493,7 +647810,67 @@
       "2390662": [],
       "2390663": [],
       "2390664": [],
-      "2390665": []
+      "2390665": [],
+      "2390666": [],
+      "2390668": [],
+      "2390671": [],
+      "2390675": [],
+      "2390680": [],
+      "2390686": [],
+      "2390693": [],
+      "2390701": [],
+      "2390710": [],
+      "2390720": [],
+      "2390731": [],
+      "2390743": [],
+      "2390756": [],
+      "2390770": [],
+      "2390785": [],
+      "2390801": [],
+      "2390818": [],
+      "2390836": [],
+      "2390855": [],
+      "2390875": [],
+      "2390896": [],
+      "2390918": [],
+      "2390941": [],
+      "2390965": [],
+      "2390990": [],
+      "2391016": [],
+      "2391043": [],
+      "2391071": [],
+      "2391100": [],
+      "2391130": [],
+      "2391161": [],
+      "2391193": [],
+      "2391226": [],
+      "2391260": [],
+      "2391295": [],
+      "2391331": [],
+      "2391368": [],
+      "2391406": [],
+      "2391445": [],
+      "2391485": [],
+      "2391526": [],
+      "2391568": [],
+      "2391611": [],
+      "2391655": [],
+      "2391700": [],
+      "2391746": [],
+      "2391793": [],
+      "2391841": [],
+      "2391890": [],
+      "2391940": [],
+      "2391991": [],
+      "2392043": [],
+      "2392096": [],
+      "2392150": [],
+      "2392205": [],
+      "2392261": [],
+      "2392318": [],
+      "2392376": [],
+      "2392435": [],
+      "2392495": []
     }
   },
   "graph": {
@@ -647525,6 +647902,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-10-eeman-animal-calm.md",
+        "date": "2026-09-10",
+        "title": "quest card 006 — Eeman circuit for animal calm",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Quest Card 006\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-09-hyperbolic-funnel-vortex.md",
         "date": "2026-09-09",
         "title": "Hyperbolic Funnel Water Vortex Aerator",
@@ -647554,6 +647938,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-10-dossier-006-eeman-animal-calm.md",
+        "date": "2026-09-10",
+        "title": "replication dossier 006 — Eeman circuit for animal calm",
+        "status": "draft",
+        "excerpt": "# Replication Dossier 006 — Eeman Circuit for Animal Calm\n\n## Source lineage\n\n- **L. E. Eeman (1876–1958)** — \"Cooperative Healing\" (1930s-40s); the self-connecting circuit family (relaxation coils, b"
+      },
       {
         "file": "synthesis/replication/2026-09-09-dossier-005-blind-geopathic-mapping.md",
         "date": "2026-09-09",
