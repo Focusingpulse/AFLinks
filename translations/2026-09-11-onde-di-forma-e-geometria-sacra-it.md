@@ -1,16 +1,7 @@
 ---
-name: "2026-09-11-form-waves-and-sacred-geometry-it"
+name: "2026-09-11-onde-di-forma-e-geometria-sacra-it"
 description: "Full-document translation (assembled from completed chunks)."
 ---
-
----
-name: Form Waves and Sacred Geometry
-description: "Full-document translation. language it | 3 chunks | https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra"
----
-
-# Form Waves and Sacred Geometry
-
-*Full translation from it · source: https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra · 3 chunks · assembled 2026-09-11*
 
 Mario Contino, The Writer of Mystery — HOME PAGE | Mario Contino | Bio-Bibliography | Books by Mario Contino | Paranormal research | Interviews and Conventions | Book reviews - BookFlash | Blog of Mystery | The Blog of Mystery | TV: At the Edge of the Unknown | Social Activism | Contacts | PRIVACY AND COOKIE NOTICE | FAQ - mariocontino.it | HOME PAGE | Mario Contino | Bio-Bibliography | Books by Mario Contino | Paranormal research | Interviews and Conventions | Book reviews - BookFlash | Blog of Mystery | TV: At the Edge of the Unknown | Social Activism | Contacts | PRIVACY AND COOKIE NOTICE
 

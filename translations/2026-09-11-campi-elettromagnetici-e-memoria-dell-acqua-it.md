@@ -1,16 +1,7 @@
 ---
-name: "2026-09-11-electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues-it"
+name: "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it"
 description: "Full-document translation (assembled from completed chunks)."
 ---
-
----
-name: Electromagnetic Fields and the Memory of Water - A Challenge That Continues
-description: "Full-document translation. language it | 1 chunks | https://www.vglobale.it/2013/04/24/campi-elettromagnetici-e-memoria-dell-acqua-una-sfida-che-continua/"
----
-
-# Electromagnetic Fields and the Memory of Water: A Challenge That Continues
-
-*Full translation from it · source: https://www.vglobale.it/2013/04/24/campi-elettromagnetici-e-memoria-dell-acqua-una-sfida-che-continua/ · 1 chunks · assembled 2026-09-11 · author: Vincenzo Valenzi (vglobale.it)*
 
 The most advanced biotechnologies applied to classical genetic diagnostics were presented. Also evolving is the integration between biotechnologies of genetic and molecular derivation and those emerging from the studies of Benveniste and Montagnier, which in recent years have developed, particularly in Eastern Europe. And continued in Italy, as the physicist Odoardo Calamai pointed out, presenting a theoretical development of the cyclotron resonance of ions that could explain the effects of water activation which, in a test, proved to be anything but trivial.
 
