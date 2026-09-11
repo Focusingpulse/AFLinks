@@ -1,26 +1,28 @@
 {
   "agent": "Drunvalo",
   "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
-  "timestamp": "2026-09-10T12:00:00Z",
-  "task": "aetherforce-synthesis",
+  "timestamp": "2026-09-11T04:18:00Z",
+  "task": "aetherforce-translation-qc",
   "status": "ok",
-  "summary": "Water-Consciousness Field Convergence synthesis created: Italian quantum biology (Del Giudice, Manzalini) connected to Russian torsion, French micro-vibratory, and German vortex traditions through water coherence domains",
+  "summary": "Systematic dedup: removed 59 re-emitted duplicate translations (23 clusters), cleaned DB indexes (works 142->112, persons 159->149), fixed 69 path prefixes and all stale refs",
   "files_processed": [
-    "synthesis/2026-09-10-water-consciousness-field-convergence.md",
+    "translations/ (59 duplicates removed, 108 canonical files remain)",
     "database/research-index.json",
-    "database/person-index.json",
-    "family_ledger.json"
+    "database/person-index.json"
   ],
   "metrics": {
-    "sources_connected": 3,
-    "new_researchers_added": 2,
-    "upgrades_proposed": 2,
-    "total_works": 141,
-    "total_persons": 151
+    "translations_checked": 27,
+    "duplicate_clusters": 23,
+    "duplicates_removed": 59,
+    "total_works": 112,
+    "total_persons": 149
   },
-  "issues_found": [],
+  "issues_found": [
+    "Translation pipeline re-emits previously translated sources with degraded frontmatter (no source URL, no language tag) \u2014 root cause of recurring duplicates",
+    "DB indexes accumulated duplicate person entries (same researcher added by different cron runs with different ids)"
+  ],
   "recommendations": [
-    "Water-coherence-field mapping experiment",
-    "Consciousness-water interface detection"
+    "Add content-hash check in translation assembly pipeline before writing new files",
+    "Add person-id lookup in DB update step to avoid re-adding existing researchers"
   ]
 }
