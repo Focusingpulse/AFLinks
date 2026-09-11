@@ -11,7 +11,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="description" content="Aetherforce Knowledge Vault — 52,701 cataloged primary-source documents (36,014 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
     <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
-    <meta property="og:description" content="58,981 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
+    <meta property="og:description" content="58,982 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
     <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
@@ -1671,7 +1671,7 @@
     <div class="hero pirate-hero">
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
-        <p>Explore <span id="heroDocCount">58,981</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">40,492</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p>Explore <span id="heroDocCount">58,982</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">40,492</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
         <p class="hero-trans">🗝 <span id="heroTransCount">97</span> translations published · <span id="heroPagesCount">2,707</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
@@ -1743,7 +1743,7 @@
 
     <noscript>
         <div class="noscript-box">
-            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">58,981</span> documents</strong> are still yours to explore:</p>
+            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">58,982</span> documents</strong> are still yours to explore:</p>
             <ul>
                 <li><a href="./stats.json">Live stats (small JSON — agents welcome)</a></li>
                 <li><a href="./index.html?cat=Aether%20Physics">Browse Aether Physics</a></li>
@@ -2516,7 +2516,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260911080816')
+            fetch('./synthesis/synthesis_index.json?v=20260911090800')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3058,7 +3058,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260911080816');
+                        const response = await fetch('./search_index.json?v=20260911090800');
                         return response.json();
                     };
                     if (catParam) {
@@ -3088,12 +3088,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260911080816');
+                    const man = await fetch('./full_manifest.json?v=20260911090800');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260911080816');
+                    const feedRes = await fetch('./library_feed.json?v=20260911090800');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {

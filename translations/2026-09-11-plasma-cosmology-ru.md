@@ -94,3 +94,17 @@ Various authors: "Introduction to Plasma Astrophysics and Cosmology," Astrophysi
 
 External links
 Wright, E.L. "Big Bang Never Happened Errors." See also: Lerner, E.J. "Dr. Wright Is Wrong," Lerner's response to the above.
+
+This page is based on the copyrighted Wikipedia article "Plasma_cosmology" (Authors); it is used under the Creative Commons Attribution-ShareAlike 3.0 Unported License. You may redistribute it, verbatim or modified, providing that you comply with the terms of the CC-BY-SA.
+
+abcdef.wiki is not affiliated with the Wikimedia Foundation
+
+Cookie-policy
+
+To contact us: mail to [email protected]
+
+Change privacy settings
+
+
+---
+
