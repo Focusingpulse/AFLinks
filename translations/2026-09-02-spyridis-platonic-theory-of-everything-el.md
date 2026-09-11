@@ -1,12 +1,9 @@
 ---
-name: "2026-09-02-spyridis-platonic-theory-of-everything-el"
-description: "Auto-added frontmatter for living-library validation"
+name: The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
+description: "Greek (el) -> English translation. Spyridis's Platonic ToE and unified theory of the electro-strong interaction. Source: Greek original, published in English translation."
 ---
 
----
-description: "translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md"
----
-The Platonic Theory of Everything and
+# The Platonic Theory of Everything and
                     the Spyridis Unified Theory of the Electro-Strong Interaction
 
 Preface

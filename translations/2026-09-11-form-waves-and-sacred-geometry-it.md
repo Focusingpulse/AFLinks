@@ -1,30 +1,13 @@
 ---
-name: "2026-09-11-form-waves-and-sacred-geometry-it"
-description: "Full-document translation (assembled from completed chunks)."
----
-
----
 name: Form Waves and Sacred Geometry
 description: "Full-document translation. language it | 3 chunks | https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra"
 ---
 
 # Form Waves and Sacred Geometry
 
-*Full translation from it · source: https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra · 3 chunks · assembled 2026-09-11*
+*Full translation from it · source: https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra · 3 chunks · assembled 2026-09-11 · author: Mario Contino (Blog of Mystery)*
 
-Mario Contino, The Writer of Mystery — HOME PAGE | Mario Contino | Bio-Bibliography | Books by Mario Contino | Paranormal research | Interviews and Conventions | Book reviews - BookFlash | Blog of Mystery | The Blog of Mystery | TV: At the Edge of the Unknown | Social Activism | Contacts | PRIVACY AND COOKIE NOTICE | FAQ - mariocontino.it | HOME PAGE | Mario Contino | Bio-Bibliography | Books by Mario Contino | Paranormal research | Interviews and Conventions | Book reviews - BookFlash | Blog of Mystery | TV: At the Edge of the Unknown | Social Activism | Contacts | PRIVACY AND COOKIE NOTICE
-
-SUPPORT THE BLOG OF MYSTERY
-
-
----
-
-
-All posts
-
-# Form Waves and Sacred Geometry
-
-October 16, 2025 — Esotericism, Paranormal, Frontier Science
+*Mario Contino — October 16, 2025 — Esotericism, Paranormal, Frontier Science*
 
 ## The hidden energy behind perfect shapes
 
@@ -69,25 +52,3 @@ Perhaps, as the ancient hermetic principle taught: "That which is above is like 
 I do not pretend to convince anyone, but I invite you to observe reality with new eyes. Perhaps, behind the simplest shapes, there truly hides the secret of the connection between God, matter, and consciousness.
 
 MARIO CONTINO
-
-Share on:
-
-The blog is not available at this moment. Refresh the page or try again later. We apologize for the inconvenience.
-
-Mario Contino — Not only the Paranormal...
-
-Mario Contino is a researcher expert in the study of phenomena described as "paranormal," a writer of Campanian origin, born in Agropoli (SA) in 1986, resident first in Lecce and then in Monopoli (Puglia). Contino undertook his research activity in the field of international folklore in order to safeguard and pass down ancient traditions that would otherwise be erased by the modern socio-cultural landscape.
-
-
----
-
-
-Search the site
-
-Search
-
-Copyright © All rights reserved. This site is not a journalistic publication within the meaning of Law No. 62/2001; it has no commercial or profit-making purposes and does not engage in e-commerce. Contents are published for informational and educational purposes. Any trademarks, logos, and images present are used for illustrative and informational purposes. Personal data is processed in compliance with Regulation (EU) 2016/679 (GDPR). The site uses technical cookies and, where present, third-party cookies in accordance with current legislation. PRIVACY AND COOKIE NOTICE — Privacy policy — OK
-
-
----
-
