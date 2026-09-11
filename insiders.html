@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aetherforce Knowledge Vault — The Insiders' Revolt</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="The credentialed critics of the standard model of cosmology — Kroupa, Steinhardt, Sarkar, Verlinde, McGaugh, Loeb, Robitaille. Tenured professors and Nobel-caliber physicists who argue the paradigm is failing. Collected in one place.">
+<meta property="og:title" content="The Insiders' Revolt — Credentialed Critics of the Standard Model">
+<meta property="og:description" content="Tenured professors and Nobel-caliber physicists who argue cosmology's paradigm is failing.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/insiders.html">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #07131a;
+  --bg2: #0e222c;
+  --stone: #12303a;
+  --stone-hi: #1b3f4c;
+  --gold: #e8b64c;
+  --gold-bright: #ffd166;
+  --gold-dim: #a37f2e;
+  --copper: #c98855;
+  --bronze: #7d8f86;
+  --text: #d8e6e2;
+  --text-dim: #8fb0aa;
+  --text-faint: #4e6f70;
+  --glow: rgba(201,168,76,0.25);
+  --glow-strong: rgba(201,168,76,0.5);
+  --green: #7a9a5a;
+  --green-glow: rgba(122,154,90,0.2);
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(122,154,90,0.04) 0%, transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  min-height: 100vh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.02) 3px, rgba(0,0,0,0.02) 6px);
+  pointer-events: none;
+  z-index: 0;
+}
+header {
+  text-align: center;
+  padding: 28px 16px 8px;
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--glow), 0 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+}
+header h1 .ornament { color: var(--gold-dim); font-size: 0.8rem; margin: 0 8px; }
+header p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--gold-dim);
+  color: var(--bg);
+  border-color: var(--gold);
+  box-shadow: 0 0 15px var(--glow);
+}
+.wrap { max-width: 1000px; margin: 0 auto; padding: 20px 16px 60px; position: relative; z-index: 1; }
+
+.intro {
+  background: linear-gradient(160deg, var(--stone) 0%, var(--bg2) 100%);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 22px 24px;
+  margin-bottom: 26px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+.intro h2 {
+  font-size: 1.15rem;
+  color: var(--gold-bright);
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.intro p { font-size: 0.92rem; line-height: 1.65; color: var(--text); margin-bottom: 10px; }
+.intro p:last-child { margin-bottom: 0; }
+.intro .honest-note {
+  border-left: 3px solid var(--copper);
+  padding-left: 12px;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* Lens dial — the twelve sides */
+.dial-section { margin-bottom: 30px; }
+.dial-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.dial-section .sub {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.sides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.side-card {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  padding: 12px 14px;
+  transition: all var(--transition);
+  cursor: default;
+}
+.side-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 0 14px var(--glow);
+  transform: translateY(-2px);
+}
+.side-card .num {
+  font-size: 0.66rem;
+  letter-spacing: 2px;
+  color: var(--gold-dim);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+.side-card .name { font-size: 0.95rem; color: var(--gold-bright); display: block; margin-bottom: 4px; }
+.side-card .who { font-size: 0.78rem; color: var(--text-dim); display: block; line-height: 1.4; }
+.side-card .stance { font-size: 0.72rem; margin-top: 6px; display: inline-block; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--bronze); }
+.stance.mainstream { color: #8fb8d8; border-color: #4a6a80; }
+.stance.critic { color: var(--copper); border-color: #8a6a4a; }
+.stance.bridge { color: var(--green); border-color: #55684a; }
+
+/* Person sections */
+.person-section {
+  background: linear-gradient(160deg, var(--stone) 0%, var(--bg2) 100%);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 22px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+.person-section h2 {
+  font-size: 1.2rem;
+  color: var(--gold-bright);
+  letter-spacing: 1.5px;
+  margin-bottom: 4px;
+}
+.person-section .alias {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 12px;
+  display: block;
+}
+.person-section p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 10px; }
+.person-section p:last-child { margin-bottom: 0; }
+.tagline {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid var(--gold-dim);
+  border-radius: 2px;
+  padding: 3px 10px;
+  margin-bottom: 12px;
+}
+
+/* Papers table */
+.papers-block { margin-top: 14px; }
+.papers-block h3 {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+table.papers {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+table.papers th {
+  text-align: left;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--bronze);
+}
+table.papers td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(125,143,134,0.25);
+  vertical-align: top;
+  line-height: 1.45;
+}
+table.papers tr:hover td { background: rgba(232,182,76,0.05); }
+table.papers a { color: var(--gold); text-decoration: none; }
+table.papers a:hover { color: var(--gold-bright); text-decoration: underline; }
+table.papers .yr { color: var(--text-faint); white-space: nowrap; }
+
+/* Claim ledger */
+.ledger-section { margin-bottom: 30px; }
+.ledger-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.ledger-section .sub {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.claim-row {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+.claim-row .claim-q {
+  font-size: 0.95rem;
+  color: var(--gold-bright);
+  margin-bottom: 8px;
+  display: block;
+}
+.claim-verdicts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 700px) { .claim-verdicts { grid-template-columns: 1fr; } }
+.verdict {
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.verdict .v-label {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.verdict.mainstream-side { background: rgba(74,106,128,0.15); border-left: 3px solid #4a6a80; }
+.verdict.mainstream-side .v-label { color: #8fb8d8; }
+.verdict.alternative-side { background: rgba(201,136,85,0.12); border-left: 3px solid var(--copper); }
+.verdict.alternative-side .v-label { color: var(--copper); }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 16px 40px;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  position: relative;
+  z-index: 1;
+}
+footer a { color: var(--text-dim); }
+footer a:hover { color: var(--gold); }
+@media (max-width: 720px) {
+  header h1 { font-size: 1.25rem; letter-spacing: 2px; }
+  .wrap { padding: 14px 10px 40px; }
+  .person-section, .intro { padding: 16px 14px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="ornament">✦</span>The Insiders' Revolt<span class="ornament">✦</span></h1>
+  <p>the credentialed critics — professors, laureates, and the people who built the standard model and now say it's failing</p>
+  <div class="nav-links">
+  <a href="/AFLinks/">Archive</a>
+  <a href="./vault.html">Vault</a>
+  <a href="./library.html">Library</a>
+  <a href="./lens.html">Lens</a>
+  <a href="./translations.html">Translations</a>
+  <a href="./cosmology.html">Cosmology</a>
+  <a href="./masters.html">Masters</a>
+  <a href="./insiders.html" class="here">Insiders</a>
+  <a href="./synthesis.html">Briefings</a>
+  <a href="./patents.html">Patents</a>
+</div>
+</header>
+<div class="wrap">
+
+  <div class="intro">
+    <h2>Why this page exists</h2>
+    <p>It takes ~17 years for a settled result to reach a textbook, and longer when the result is inconvenient. Meanwhile the strongest challenges to the standard model of cosmology are not coming from fringe blogs — they're coming from <strong>tenured professors at Bonn, Princeton, Oxford, Harvard, Amsterdam, and Case Western</strong>. People with h-indexes of 80, inventors of the theories they now criticize, keepers of the very databases the mainstream relies on. These names are scattered across journals nobody reads together. This page collects them.</p>
+    <p class="honest-note">Honest framing: none of these people agree with each other — Kroupa wants MOND, Steinhardt wants a cyclic universe, Verlinde wants emergent gravity, Sarkar questions the data itself, Robitaille attacks the Sun. That's not a weakness. A paradigm in crisis produces many exits, not one. What they share: credentials the mainstream cannot dismiss, and published, testable objections. Every claim is a claim until tested — but these are the claims made by people who know how to test them.</p>
+  </div>
+
+  <div class="dial-section">
+    <h2>The Roster</h2>
+    <span class="sub">eight insiders, eight attacks on the pillars — dark matter, dark energy, inflation, the Sun, the data itself</span>
+    <div class="sides-grid">
+<div class="side-card"><span class="num">Insider 01</span><span class="name">Pavel Kroupa — University of Bonn</span><span class="who">h-index 80, 30,000+ citations. Argues the standard model of cosmology is formally falsified (dual dwarf galaxy theorem, missing dynamical friction). 2025: Chandrasekhar friction test 'rigorously falsifies' particle dark matter halos. Bonn now teaches MOND as the weak-field limit of gravity. Runs The Dark Matter Crisis blog.</span><span class="stance bridge">falsifying since 2012</span></div>
+<div class="side-card"><span class="num">Insider 02</span><span class="name">Paul Steinhardt — Princeton</span><span class="who">One of the INVENTORS of cosmic inflation — now its most prominent establishment critic. 'Inflationary paradigm in trouble after Planck2013' (with Ijjas &amp; Loeb). Champions the cyclic/ekpyrotic universe: bounce instead of bang, no multiverse.</span><span class="stance bridge">founder turned critic</span></div>
+<div class="side-card"><span class="num">Insider 03</span><span class="name">Subir Sarkar — University of Oxford</span><span class="who">Rudolf Peierls Centre. 2016: JLA supernova sample shows acceleration evidence is only ~2.8σ, not 5σ. June 2026: Pantheon+ reanalysis — the inferred acceleration is a dipole aligned with our local motion; corrected data may show DECELERATION. Dark energy itself is in question.</span><span class="stance bridge">attacking dark energy</span></div>
+<div class="side-card"><span class="num">Insider 04</span><span class="name">Erik Verlinde — University of Amsterdam</span><span class="who">String theorist. 'Emergent gravity and the dark universe' (2017): gravity and spacetime emerge from quantum entanglement — and the elastic response of entangled spacetime mimics dark matter. Derives the missing mass from first principles, no particle needed.</span><span class="stance bridge">deriving dark matter away</span></div>
+<div class="side-card"><span class="num">Insider 05</span><span class="name">Stacy McGaugh — Case Western Reserve</span><span class="who">Galactic astronomer, keeper of the SPARC database (175 galaxies). His group's 2024 result: isolated galaxies show logarithmic potentials out to 1 Mpc — MOND behavior, not Newtonian-plus-halo. The data side of the MOND argument.</span><span class="stance bridge">the data keeper</span></div>
+<div class="side-card"><span class="num">Insider 06</span><span class="name">Abraham Loeb — Harvard / CfA</span><span class="who">Chair of Harvard Astronomy (2011–2020), Galileo Project lead. Co-author on the inflation critique. Also the mainstream's own honest broker: funds searches for interstellar objects, publishes on 'the unexpected' — and says the Big Bang's beginning is an extrapolation never tested.</span><span class="stance bridge">establishment's honest broker</span></div>
+<div class="side-card"><span class="num">Insider 07</span><span class="name">Pierre-Marie Robitaille — Ohio State (ret.)</span><span class="who">PhD, former Professor of Radiology, 124+ research works, MRI pioneer. The strongest technical attack on the standard solar model: liquid metallic hydrogen Sun, Kirchhoff's law invalid, CMB as Earth-bound water signal, EHT images as artifacts. Full collection on the Cosmology page.</span><span class="stance bridge">the vault's own insider</span></div>
+<div class="side-card"><span class="num">Insider 08</span><span class="name">Peter Toth &amp; the MOND diaspora</span><span class="who">The quiet ones: Milgrom (Weizmann, originator), Sanders, Zhao, Famaey (Strasbourg), Hossenfelder (Munich, 'bureaucratic' criticism of particle dark matter funding). A distributed, publishing, credentialed resistance — decades of papers, zero textbook mentions.</span><span class="stance bridge">the quiet resistance</span></div>
+    </div>
+  </div>
+
+  <div class="person-section">
+    <span class="tagline">What the revolt actually says</span>
+    <h2>The pillars, under insider attack</h2>
+    <span class="alias">not one conspiracy — several independent, credentialed objections, each with its own evidence</span>
+    <p><strong>Dark matter (Kroupa, McGaugh, Verlinde):</strong> the 2025 Chandrasekhar dynamical friction test — if particle halos exist, galaxy encounters must show friction slowdown; the friction isn't there. The 2024 isolated-galaxy result — potentials are logarithmic out to a megaparsec, which is MOND behavior, not halo behavior. Verlinde derives the "missing mass" from entanglement entropy with no particle at all. Three independent insiders, three attacks, one pillar.</p>
+    <p><strong>Dark energy (Sarkar):</strong> the 2011 Nobel rests on ~3σ evidence by his group's principled re-analysis (2016, JLA sample), and the June 2026 Pantheon+ re-analysis found the acceleration signal is a <em>dipole aligned with our own local motion</em> — the universe may not be accelerating at all. If this holds, dark energy — 68% of the standard universe — evaporates. This is three months old. Watch it.</p>
+    <p><strong>Inflation (Steinhardt, Loeb):</strong> the man who co-invented it published "Inflationary paradigm in trouble" — the data favor only the plateau potentials that are exponentially unlikely under inflation's own logic, and the theory predicts everything, which means it predicts nothing. His alternative — the cyclic bounce — is testable and multiverse-free.</p>
+    <p><strong>The Sun and the CMB (Robitaille):</strong> the vault's own insider — full collection on the <a href="./cosmology.html" style="color:var(--gold);">Cosmology page</a>.</p>
+  </div>
+
+  <div class="person-section">
+    <span class="tagline">The honest bottom line</span>
+    <h2>What this page is not</h2>
+    <span class="alias">the revolt is not vindication of the fringe</span>
+    <p>Kroupa is not a Tesla advocate. Steinhardt is not an EU proponent. Sarkar is not a Robitaille ally. The insiders' revolt is its own thing: a fight <em>inside</em> the credentialed establishment, conducted in peer-reviewed journals, about whether ΛCDM's pillars are actually holding. Where the archive's masters (Tesla, Keely, Russell) never got a fair hearing, the insiders are getting their hearing — slowly, over decades, against textbook lag and career risk.</p>
+    <p>The value of collecting them here: when all eight attacks are visible at once, the pattern is hard to unsee. Every pillar of the standard model — dark matter, dark energy, inflation, even the Sun — has a credentialed critic with published evidence. The paradigm may survive; but "nobody serious disagrees" is no longer a true sentence, and this page is the proof.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>Powered by the growing <strong>Living Library</strong> — linked to the <a href="./index.html">Aetherforce Knowledge Vault</a>, the <a href="./cosmology.html">Twelve Sides of the Sky</a>, and the <a href="./masters.html">Masters' Shelf</a>.</p>
+  <p style="margin-top:6px;">Every claim is a claim until tested. No side endorsed. Credentials don't make a claim true — they make it worth testing.</p>
+</footer>
+</body>
+</html>
