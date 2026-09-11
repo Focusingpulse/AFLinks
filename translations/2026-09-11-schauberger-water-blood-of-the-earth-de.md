@@ -1,6 +1,6 @@
 ---
 name: "2026-09-11-schauberger-water-blood-of-the-earth-de"
-description: "Translation of 'Wasser – Das Blut der Erde' by Viktor Schauberger. Source: multiple Schauberger archives. Language: German."
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Viktor Schauberger
