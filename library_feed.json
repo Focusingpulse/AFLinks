@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:06:25Z",
+  "generated_at": "2026-09-11T18:22:25Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -5310,7 +5310,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T17:08:49Z",
+      "last_run": "2026-09-11T18:09:07Z",
       "last_status": "ok",
       "last_summary": "sync: 60707 docs, feed rebuilt"
     },
@@ -5404,6 +5404,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "18:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+60707 docs — +60707 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-11",
       "time": "17:45",
@@ -5757,12 +5763,6 @@
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "**+1 translation — Denis Machon's critical analysis of Rocard's \"signal du sourcier\" experiments FR→EN (The Conversation, Aug 2026): methodology, results tables (5/10, 4/10, 4/10 = chance), identified biases (no true bli"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "08:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation, -32 duplicates — Deep dedup pass: removed 32 duplicate translation files (corpus 95→63). Eliminated compendium 5→1, shipov-torsion 5→1, akimov-shipov 4→1, torsion-physics-newton 5→1, magnitsky 5→1, plus -en/-fr-en duplicate pairs (enel, brocéliande, ether-einstein, ondes-de-forme, univers-sans-matiere). Translated Vibratis pendule divinatoire guide (FR→EN) — covers French radiesthesia history (Abbé Bouly, Abbé Mermet, Treyve, Aymar, Crozier), physical vs mental schools, Rocard magnetic field work, methods, dangers. Translator agent stale: no new publishes since Sep 3 (~108h, past 48h threshold). Feed rebuild still blocked."
     }
   ],
   "declassified": [
@@ -675871,7 +675871,9 @@
       "2402313": [],
       "2402314": [],
       "2402315": [],
-      "2402316": []
+      "2402316": [
+        "cold_fusion"
+      ]
     }
   },
   "graph": {
