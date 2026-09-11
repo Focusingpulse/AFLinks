@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aetherforce Knowledge Vault — The Twelve Sides of the Sky</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="Standard and alternative cosmology, side by side — Robitaille's Sky Scholar, Chizhevsky's heliobiology, Tyson's mainstream anchor, and the claim-by-claim ledger. Black holes, dark matter, the Sun, and the CMB — seen from twelve angles.">
+<meta property="og:title" content="The Twelve Sides of the Sky — Cosmology from 12 Angles">
+<meta property="og:description" content="Standard and alternative cosmology, side by side. No side is endorsed — every claim is a claim until tested.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/cosmology.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #07131a;
+  --bg2: #0e222c;
+  --stone: #12303a;
+  --stone-hi: #1b3f4c;
+  --gold: #e8b64c;
+  --gold-bright: #ffd166;
+  --gold-dim: #a37f2e;
+  --copper: #c98855;
+  --bronze: #7d8f86;
+  --text: #d8e6e2;
+  --text-dim: #8fb0aa;
+  --text-faint: #4e6f70;
+  --glow: rgba(201,168,76,0.25);
+  --glow-strong: rgba(201,168,76,0.5);
+  --green: #7a9a5a;
+  --green-glow: rgba(122,154,90,0.2);
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(122,154,90,0.04) 0%, transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  min-height: 100vh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.02) 3px, rgba(0,0,0,0.02) 6px);
+  pointer-events: none;
+  z-index: 0;
+}
+header {
+  text-align: center;
+  padding: 28px 16px 8px;
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--glow), 0 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+}
+header h1 .ornament { color: var(--gold-dim); font-size: 0.8rem; margin: 0 8px; }
+header p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--gold-dim);
+  color: var(--bg);
+  border-color: var(--gold);
+  box-shadow: 0 0 15px var(--glow);
+}
+.wrap { max-width: 1000px; margin: 0 auto; padding: 20px 16px 60px; position: relative; z-index: 1; }
+
+.intro {
+  background: linear-gradient(160deg, var(--stone) 0%, var(--bg2) 100%);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 22px 24px;
+  margin-bottom: 26px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+.intro h2 {
+  font-size: 1.15rem;
+  color: var(--gold-bright);
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.intro p { font-size: 0.92rem; line-height: 1.65; color: var(--text); margin-bottom: 10px; }
+.intro p:last-child { margin-bottom: 0; }
+.intro .honest-note {
+  border-left: 3px solid var(--copper);
+  padding-left: 12px;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* Lens dial — the twelve sides */
+.dial-section { margin-bottom: 30px; }
+.dial-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.dial-section .sub {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.sides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.side-card {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  padding: 12px 14px;
+  transition: all var(--transition);
+  cursor: default;
+}
+.side-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 0 14px var(--glow);
+  transform: translateY(-2px);
+}
+.side-card .num {
+  font-size: 0.66rem;
+  letter-spacing: 2px;
+  color: var(--gold-dim);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+.side-card .name { font-size: 0.95rem; color: var(--gold-bright); display: block; margin-bottom: 4px; }
+.side-card .who { font-size: 0.78rem; color: var(--text-dim); display: block; line-height: 1.4; }
+.side-card .stance { font-size: 0.72rem; margin-top: 6px; display: inline-block; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--bronze); }
+.stance.mainstream { color: #8fb8d8; border-color: #4a6a80; }
+.stance.critic { color: var(--copper); border-color: #8a6a4a; }
+.stance.bridge { color: var(--green); border-color: #55684a; }
+
+/* Person sections */
+.person-section {
+  background: linear-gradient(160deg, var(--stone) 0%, var(--bg2) 100%);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 22px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+.person-section h2 {
+  font-size: 1.2rem;
+  color: var(--gold-bright);
+  letter-spacing: 1.5px;
+  margin-bottom: 4px;
+}
+.person-section .alias {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 12px;
+  display: block;
+}
+.person-section p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 10px; }
+.person-section p:last-child { margin-bottom: 0; }
+.tagline {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid var(--gold-dim);
+  border-radius: 2px;
+  padding: 3px 10px;
+  margin-bottom: 12px;
+}
+
+/* Papers table */
+.papers-block { margin-top: 14px; }
+.papers-block h3 {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+table.papers {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+table.papers th {
+  text-align: left;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--bronze);
+}
+table.papers td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(125,143,134,0.25);
+  vertical-align: top;
+  line-height: 1.45;
+}
+table.papers tr:hover td { background: rgba(232,182,76,0.05); }
+table.papers a { color: var(--gold); text-decoration: none; }
+table.papers a:hover { color: var(--gold-bright); text-decoration: underline; }
+table.papers .yr { color: var(--text-faint); white-space: nowrap; }
+
+/* Claim ledger */
+.ledger-section { margin-bottom: 30px; }
+.ledger-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.ledger-section .sub {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.claim-row {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+.claim-row .claim-q {
+  font-size: 0.95rem;
+  color: var(--gold-bright);
+  margin-bottom: 8px;
+  display: block;
+}
+.claim-verdicts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 700px) { .claim-verdicts { grid-template-columns: 1fr; } }
+.verdict {
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.verdict .v-label {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.verdict.mainstream-side { background: rgba(74,106,128,0.15); border-left: 3px solid #4a6a80; }
+.verdict.mainstream-side .v-label { color: #8fb8d8; }
+.verdict.alternative-side { background: rgba(201,136,85,0.12); border-left: 3px solid var(--copper); }
+.verdict.alternative-side .v-label { color: var(--copper); }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 16px 40px;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  position: relative;
+  z-index: 1;
+}
+footer a { color: var(--text-dim); }
+footer a:hover { color: var(--gold); }
+@media (max-width: 720px) {
+  header h1 { font-size: 1.25rem; letter-spacing: 2px; }
+  .wrap { padding: 14px 10px 40px; }
+  .person-section, .intro { padding: 16px 14px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="ornament">✦</span> The Twelve Sides of the Sky <span class="ornament">✦</span></h1>
+  <p>standard &amp; alternative cosmology, side by side — no side endorsed, every claim a claim until tested</p>
+  <nav class="nav-links">
+    <a href="./index.html">📚 Archive</a>
+    <a href="./vault.html">🗝 Vault</a>
+    <a href="https://www.aetherforce.energy" target="_blank">Aetherforce →</a>
+    <a href="./lens.html">🔭 Lens</a>
+    <a href="./synthesis.html">⚗ Fleet Briefings</a>
+    <a href="./library.html">⚓ Living Library</a>
+    <a href="./translations.html">🌍 Translations</a>
+    <a href="#" class="here">🌌 Cosmology</a>
+    <a href="./about.html">🧭 About</a>
+    <a href="./methodology.html">📜 Method</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+  <div class="intro">
+    <h2>Why twelve sides?</h2>
+    <p>Most people see cosmology from one or two sides — the mainstream story, or the dissent from it. This page exists because the interesting patterns show up when you rotate the object and look from many angles at once: what each side <em>agrees</em> on is often more revealing than what they argue about.</p>
+    <p>Here you'll find the standard model defended by its best communicators, the strongest critics of its foundations, and the historical researchers who found solar-biological connections the mainstream forgot. Nothing here is endorsed. Nothing here is dismissed. Every position is presented as its holder would state it, with the evidence they stand on.</p>
+    <p class="honest-note">Honest framing: this vault is 94% viXra/Rex/tuks ecology — a specific alternative community, not a representative sample of "hidden science." The value is in what becomes visible when all these communities are collected side by side, including the mainstream they dissent from.</p>
+  </div>
+
+  <!-- The dial of twelve sides -->
+  <div class="dial-section">
+    <h2>🔭 The Lens Dial</h2>
+    <span class="sub">twelve positions on black holes, dark matter, the Sun, and the CMB — rotate and compare</span>
+    <div class="sides-grid">
+      <div class="side-card"><span class="num">Side 01</span><span class="name">ΛCDM Orthodoxy</span><span class="who">The standard model: Big Bang, dark matter particles, dark energy, black holes as settled fact.</span><span class="stance mainstream">mainstream</span></div>
+      <div class="side-card"><span class="num">Side 02</span><span class="name">Neil deGrasse Tyson</span><span class="who">Mainstream's great communicator — black holes and dark matter as established astrophysics, explained for everyone.</span><span class="stance mainstream">mainstream</span></div>
+      <div class="side-card"><span class="num">Side 03</span><span class="name">The Experimentalists</span><span class="who">LIGO, LZ, XENONnT — the instrument teams whose null results and detections constrain every theory.</span><span class="stance mainstream">evidence</span></div>
+      <div class="side-card"><span class="num">Side 04</span><span class="name">Pierre-Marie Robitaille</span><span class="who">Sky Scholar — the Sun is condensed matter, the CMB is Earth-bound signal, Kirchhoff's law is broken, black hole images are artifacts.</span><span class="stance critic">critic</span></div>
+      <div class="side-card"><span class="num">Side 05</span><span class="name">MOND — Milgrom</span><span class="who">Modify gravity at low acceleration; galaxy rotation curves predicted with one parameter and no dark matter.</span><span class="stance critic">alternative</span></div>
+      <div class="side-card"><span class="num">Side 06</span><span class="name">Dirac-Milne — Chardin</span><span class="who">Negative-mass antimatter fills the voids — eliminates dark matter AND dark energy. Being tested at CERN now.</span><span class="stance critic">testable</span></div>
+      <div class="side-card"><span class="num">Side 07</span><span class="name">Plasma Cosmology — Alfvén</span><span class="who">Nobel laureate: electromagnetic forces, not gravity alone, structure the universe. Ambiplasma, no Big Bang needed.</span><span class="stance critic">alternative</span></div>
+      <div class="side-card"><span class="num">Side 08</span><span class="name">Electric Universe</span><span class="who">Thornhill, Talbott, the Thunderbolts — Alfvén's plasma ideas extended into planetary-catastrophe territory.</span><span class="stance critic">fringe</span></div>
+      <div class="side-card"><span class="num">Side 09</span><span class="name">Torsion Fields — Shipov</span><span class="who">Einstein-Cartan torsion prevents black hole singularities; information preserved in quasi-normal modes.</span><span class="stance critic">theoretical</span></div>
+      <div class="side-card"><span class="num">Side 10</span><span class="name">Alexander Chizhevsky</span><span class="who">Heliobiology founder — sunspot cycles drive biology, epidemics, and mass human excitability. The Sun-biology bridge.</span><span class="stance bridge">bridge</span></div>
+      <div class="side-card"><span class="num">Side 11</span><span class="name">Ether Dynamics — Atsyukovsky</span><span class="who">Gravity as compression in a real ether medium; no spacetime curvature, no gravitational waves.</span><span class="stance critic">alternative</span></div>
+      <div class="side-card"><span class="num">Side 12</span><span class="name">The Archive Itself</span><span class="who">52,000+ documents from the viXra/Rex/tuks ecology — the honest record of what these communities actually claim.</span><span class="stance bridge">the record</span></div>
+    </div>
+  </div>
+
+  <!-- Robitaille / Sky Scholar -->
+  <div class="person-section" id="robitaille">
+    <span class="tagline">Featured Collection</span>
+    <h2>Pierre-Marie Robitaille — The Sky Scholar</h2>
+    <span class="alias">PhD, chemical spectroscopy · Professor of Radiology, Ohio State (MRI instrumentation) · 124+ research works · YouTube: Sky Scholar</span>
+    <p>A real scientist with a real publication record — his early career was mainstream: MRI instrumentation, thermal emission physics, IEEE and peer-reviewed journals. Then he turned his spectroscopy expertise on astrophysics and concluded the foundations are broken. His central claims:</p>
+    <p><strong>1. The Sun is condensed matter, not gas.</strong> Gases cannot produce a blackbody spectrum (the stellar opacity problem). The Sun is layered liquid metallic hydrogen with a true surface — evidenced by sunspots, granules, limb darkening, the chromosphere's continuous emission. His "Forty Lines of Evidence for Condensed Matter — The Sun on Trial" is the master argument.</p>
+    <p><strong>2. Kirchhoff's law of thermal emission is invalid.</strong> If Kirchhoff is wrong, the entire edifice of stellar astrophysics built on cavity-radiation arguments wobbles — this is his deepest attack, aimed at the 1860 foundation of astrophysical spectroscopy.</p>
+    <p><strong>3. The CMB is not cosmic.</strong> The "cosmic" microwave background is dominated by Earth-bound and galactic foreground water signals — the satellites measured oceans and hydrogen bonds, not the Big Bang's afterglow.</p>
+    <p><strong>4. Black hole images are artifacts.</strong> The EHT ring is a product of limited uv-coverage and narrow field of view — "indistinguishable from artifact." Japanese re-analyses (Miyoshi et al.) found a core-knot-jet structure, no ring.</p>
+    <p><strong>Status:</strong> A claim is a claim until tested. Robitaille's spectroscopy critiques are technically argued and deserve engagement, not dismissal — but his positions are rejected by mainstream astrophysics. The archive preserves both his papers and the mainstream's responses. Watch his strongest falsifiable thread: if gases truly cannot emit blackbody spectra, laboratory opacity measurements should show it — that's checkable.</p>
+    <div class="papers-block">
+      <h3>Key Papers</h3>
+      <table class="papers">
+        <tr><th>Year</th><th>Paper</th><th>Venue</th></tr>
+        <tr><td class="yr">2013</td><td><a href="https://vixra.org/pdf/1310.0110v1.pdf" target="_blank">Forty Lines of Evidence for Condensed Matter — The Sun on Trial</a></td><td>viXra (also Progress in Physics)</td></tr>
+        <tr><td class="yr">2013</td><td><a href="https://vixra.org/pdf/1310.0154v1.pdf" target="_blank">The LMH Model of the Sun I — Continuous Emission and Condensed Matter Within the Chromosphere</a></td><td>viXra / Progress in Physics</td></tr>
+        <tr><td class="yr">2013</td><td><a href="https://www.progress-in-physics.com/2013/PP-34-L4.PDF" target="_blank">The LMH Model of the Sun II — Continuous Emission and Condensed Matter Within the Corona</a></td><td>Progress in Physics</td></tr>
+        <tr><td class="yr">2013</td><td><a href="https://www.progress-in-physics.com/2013/PP-34-L9.PDF" target="_blank">The LMH Model of the Sun VII — Further Insights into the Chromosphere and Corona</a></td><td>Progress in Physics</td></tr>
+        <tr><td class="yr">2011</td><td><a href="https://progress-in-physics.com/2011/PP-26-07.PDF" target="_blank">Liquid Metallic Hydrogen: A Building Block for the Liquid Sun</a></td><td>Progress in Physics</td></tr>
+        <tr><td class="yr">2011</td><td>Stellar Opacity: The Achilles' Heel of the Gaseous Sun</td><td>Progress in Physics</td></tr>
+        <tr><td class="yr">2009</td><td>Kirchhoff's Law of Thermal Emission: 150 Years</td><td>Progress in Physics</td></tr>
+        <tr><td class="yr">2007</td><td>A High Temperature Liquid Plasma Model of the Sun</td><td>Progress in Physics / arXiv</td></tr>
+      </table>
+      <p style="margin-top:10px;font-size:0.8rem;color:var(--text-dim);">Full catalog: <a href="https://www.youtube.com/@SkyScholar/videos" target="_blank" style="color:var(--gold);">Sky Scholar channel</a> · <a href="https://www.researchgate.net/profile/Pierre-Marie-Robitaille" target="_blank" style="color:var(--gold);">ResearchGate (124 works)</a> · Playlists: Black Holes &amp; Relativity (15) · Microwave Background (25) · LMH Solar Model Spectroscopy (42) · Thermodynamics (13) · Standard Model of the Sun Debunked (13)</p>
+    </div>
+  </div>
+
+  <!-- Chizhevsky -->
+  <div class="person-section" id="chizhevsky">
+    <span class="tagline">The Sun-Biology Bridge</span>
+    <h2>Alexander Chizhevsky — Heliobiology</h2>
+    <span class="alias">1897–1964 · Soviet biophysicist · founder of heliobiology &amp; aero-ionization · worked with Tsiolkovsky · invited by Arrhenius &amp; Columbia University</span>
+    <p>The "Russian solar biology guy." Chizhevsky spent decades documenting that solar activity — the ~11-year sunspot cycle — correlates with biological and social phenomena on Earth: epidemics, tree rings, wheat harvests, and human "mass excitability" (riots, revolutions, wars). He analyzed sunspot records against historical events from 500 BCE to 1922 CE across 71 countries and found major collective events cluster around sunspot maximum.</p>
+    <p>His work was suppressed at home (he spent years in the gulag-era camps) and dismissed abroad, but the core observation — solar cycles modulating terrestrial biology — has since been partially rehabilitated. Modern research on solar-geomagnetic effects on melatonin, circadian rhythms, and cardiovascular events descends directly from his program. Edward R. Dewey's Foundation for the Study of Cycles published and extended his data.</p>
+    <p><strong>The connection to this vault:</strong> Thomas Joseph Brown's longitudinal-instant-connection view of sunlight (the "real-time connection" between star and viewer) extends Chizhevsky's program into the aether-physics frame — if the Sun's influence isn't carried only by 8-minute photons but by faster-than-light longitudinal waves (Tesla/Dollard LMD), then heliobiology gains a mechanism the mainstream never tested. That's a claim, not a finding — but it's a claim with a lineage, and this archive preserves the whole lineage.</p>
+    <p><strong>Status:</strong> The sunspot-biology correlation is real and replicated in modern studies (solar cycle effects on human physiology are published in mainstream journals). The mechanism is the open question. The superluminal-longitudinal mechanism remains unverified — no replication exists yet. A prime candidate for the <a href="./library.html#yardSection" style="color:var(--gold);">Replication Yard</a>.</p>
+  </div>
+
+  <!-- Tyson -->
+  <div class="person-section" id="tyson">
+    <span class="tagline">The Mainstream Anchor</span>
+    <h2>Neil deGrasse Tyson — The Standard Model's Voice</h2>
+    <span class="alias">PhD astrophysics, Columbia · Director, Hayden Planetarium · host of Cosmos: A Spacetime Odyssey</span>
+    <p>Included because you can't see the shape of the disagreement without the strongest statement of the consensus. Tyson represents the position Robitaille, Alfvén, and the archive's ecology argue against: black holes are real and well-tested, dark matter is a real (if undetected) substance, the Big Bang happened, and the CMB is its afterglow.</p>
+    <p><strong>His core positions:</strong> Black holes are "the universe's most fascinating objects" — confirmed by gravitational waves and direct imaging. Dark matter: "we know it's there because gravity tells us" — the evidence is gravitational even though the particle is undetected. The CMB is the best-measured signal in all of science and the strongest evidence for the Big Bang.</p>
+    <p><strong>Why include him even if you're not fond of him:</strong> the honest 12-side view needs the mainstream stated at its best, not caricatured. Every critic above is arguing against <em>this</em> position — so it belongs in the record. His popularizations (Cosmos, Origins, Astrophysics for People in a Hurry, the StarTalk podcast) are the reference frame most people actually learned cosmology from.</p>
+    <p><strong>Status:</strong> Mainstream consensus, well-supported on black holes (LIGO ~300 mergers, EHT imaging, Sgr A* stellar orbits), weaker on dark matter (zero direct detections in 40+ years — the honest tension this page exists to hold).</p>
+  </div>
+
+  <!-- Claim ledger -->
+  <div class="ledger-section" id="ledger">
+    <h2>⚖ The Claim Ledger</h2>
+    <span class="sub">the same questions, answered from both sides — where they agree is the signal</span>
+
+    <div class="claim-row">
+      <span class="claim-q">Do black holes exist?</span>
+      <div class="claim-verdicts">
+        <div class="verdict mainstream-side"><span class="v-label">Mainstream / Tyson</span>Yes — ~300 gravitational-wave mergers detected, ringdown matches Kerr predictions, EHT imaged M87* and Sgr A*, stellar orbits confirm 4M☉ compact object at our galaxy's center. Among the best-tested objects in physics.</div>
+        <div class="verdict alternative-side"><span class="v-label">Robitaille / archive</span>The EHT ring is an artifact of limited uv-coverage (Japanese re-analysis found core-knot-jet, no ring). LIGO signals are real but their interpretation as black-hole mergers rests on GR — which Robitaille holds is mathematically flawed. Torsion (Shipov) keeps the objects but removes the singularities. Note: no archive document denies compact massive objects exist — the dispute is what they are.</div>
+      </div>
+    </div>
+
+    <div class="claim-row">
+      <span class="claim-q">Is dark matter a real particle?</span>
+      <div class="claim-verdicts">
+        <div class="verdict mainstream-side"><span class="v-label">Mainstream / Tyson</span>Almost certainly — rotation curves, cluster dynamics, lensing, and the CMB all require it. 40 years of null detections just mean we haven't found the right mass range yet. Keep looking.</div>
+        <div class="verdict alternative-side"><span class="v-label">Archive / MOND / Chardin</span>40 years, zero detections, ever-shrinking parameter space. MOND predicts galaxy rotation with one parameter. Chardin's Dirac-Milne model eliminates both dark matter AND dark energy — and CERN is testing its core assumption (antimatter gravitational mass) right now. The anomalies are real; the particle may not be.</div>
+      </div>
+    </div>
+
+    <div class="claim-row">
+      <span class="claim-q">Is the Sun a ball of gas?</span>
+      <div class="claim-verdicts">
+        <div class="verdict mainstream-side"><span class="v-label">Mainstream / Tyson</span>Yes — a gaseous plasma ball powered by core hydrogen fusion, ~5,778 K surface. Standard solar model matches helioseismology and neutrino flux (after oscillations were understood).</div>
+        <div class="verdict alternative-side"><span class="v-label">Robitaille</span>No — gases cannot emit a blackbody spectrum (opacity problem). The Sun is layered liquid metallic hydrogen with a true surface. Forty lines of evidence: sunspots, granules, limb darkening, chromospheric continuous emission, rigid coronal rotation. The gaseous Sun rests on Kirchhoff's law — which he argues is invalid.</div>
+      </div>
+    </div>
+
+    <div class="claim-row">
+      <span class="claim-q">Is the CMB the Big Bang's afterglow?</span>
+      <div class="claim-verdicts">
+        <div class="verdict mainstream-side"><span class="v-label">Mainstream / Tyson</span>Yes — the best-measured signal in science, predicted before detected, its anisotropy map pins down the cosmological parameters. The strongest single evidence for the Big Bang.</div>
+        <div class="verdict alternative-side"><span class="v-label">Robitaille / Herouni</span>The satellites measured foreground water signals — Earth's oceans and hydrogen bonds, not the cosmos. Herouni's Armenian antenna measured 2.6 K self-noise leaving no room for sky signal. Anisotropy maps are "NASA's version of Photoshop" — foreground removal all the way down.</div>
+      </div>
+    </div>
+
+    <div class="claim-row">
+      <span class="claim-q">Does solar activity affect life on Earth?</span>
+      <div class="claim-verdicts">
+        <div class="verdict mainstream-side"><span class="v-label">Mainstream</span>Yes, partially — solar-geomagnetic effects on melatonin, circadian rhythms, and cardiovascular events are published in mainstream journals. The sunspot-history correlation (Chizhevsky) remains controversial; the mechanism is unproven.</div>
+        <div class="verdict alternative-side"><span class="v-label">Chizhevsky / T.J. Brown</span>Deeply — sunspot cycles drive epidemics, harvests, and mass human excitability (Chizhevsky, 500 BCE–1922 CE, 71 countries). Brown extends it: if sunlight includes superluminal longitudinal components (Tesla/Dollard LMD), the Sun-Earth connection is real-time, not 8-minutes-delayed. Unverified — flagged for replication.</div>
+      </div>
+    </div>
+
+    <div class="claim-row">
+      <span class="claim-q">Where did science take the wrong turn?</span>
+      <div class="claim-verdicts">
+        <div class="verdict mainstream-side"><span class="v-label">Mainstream view</span>No wrong turn — ΛCDM works, GR passes every test, anomalies are puzzles within the framework, not signs the framework is wrong.</div>
+        <div class="verdict alternative-side"><span class="v-label">Archive's wrong turns</span>Kirchhoff 1860 (Robitaille) · aether dismissal 1887–1905 · gravitational-collapse stellar models (Jeans' swindle) · dark matter placeholder 1933→present · black hole singularity acceptance · CMB foreground dismissal. The archive's job is preserving these junctions so they can be re-examined.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="intro" style="margin-top:10px;">
+    <h2>The honest bottom line</h2>
+    <p><strong>Black holes:</strong> the evidence is strong and even this archive doesn't deny compact massive objects — the fight is over what's inside and whether the images are real. <strong>Dark matter:</strong> your skepticism is in line with where the data is heading — 40 years of null results is a real signal. <strong>The Sun:</strong> Robitaille's spectroscopy critique is the strongest technical attack on the standard solar model anywhere in this vault. <strong>The CMB:</strong> the mainstream's best evidence, and the critics' most radical target.</p>
+    <p>The full evidence survey with all sources is in the Fleet Briefings: <a href="./synthesis.html" style="color:var(--gold);">Black Holes &amp; Dark Matter — Evidence Survey →</a></p>
+  </div>
+
+</div>
+
+<footer>
+  <p>Powered by the growing <strong>Living Library</strong> — seeds, scouts, and translations from around the world, linked to the <a href="./index.html">Aetherforce Knowledge Vault</a> and <a href="https://www.aetherforce.energy" target="_blank">aetherforce.energy</a>.</p>
+  <p style="margin-top:6px;">Every claim is a claim until tested. No side endorsed. Negative results are gold.</p>
+</footer>
+</body>
+</html>
