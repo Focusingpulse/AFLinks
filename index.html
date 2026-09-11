@@ -1672,7 +1672,7 @@
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">58,587</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">40,123</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">78</span> translations published · <span id="heroPagesCount">1,789</span> pages translated &amp; growing</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">79</span> translations published · <span id="heroPagesCount">2,100</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
@@ -2513,7 +2513,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260911000935')
+            fetch('./synthesis/synthesis_index.json?v=20260911002156')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3055,7 +3055,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260911000935');
+                        const response = await fetch('./search_index.json?v=20260911002156');
                         return response.json();
                     };
                     if (catParam) {
@@ -3085,12 +3085,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260911000935');
+                    const man = await fetch('./full_manifest.json?v=20260911002156');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260911000935');
+                    const feedRes = await fetch('./library_feed.json?v=20260911002156');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {

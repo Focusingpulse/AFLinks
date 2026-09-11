@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T00:09:35Z",
+  "generated_at": "2026-09-11T00:21:56Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -7,12 +7,12 @@
     "categories": 50,
     "meta_categories": 25,
     "aflinks_docs": 57983,
-    "translations": 78,
-    "pages_translated": 1789,
+    "translations": 79,
+    "pages_translated": 2100,
     "declassified_finds": 47,
     "active_agents": 14,
     "book5_complete": true,
-    "translation_files": 78,
+    "translation_files": 79,
     "bridges": 7,
     "archive_entries": 58587,
     "meta_counts": {
@@ -182,6 +182,17 @@
       "file": "2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md",
       "content_file": "translations/2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md",
       "excerpt": "# Magnitsky â€” Gravity in Compressible Oscillating Ether Theory\n\n*Full translation from ru · source: https://newinflow.ru/pdf/pub28.pdf · 18 chunks · assembled 2026-09-10*\n\nMagnitsky, 2019\n\nUDC 51-72\n                   "
+    },
+    {
+      "date": "2026-09-10",
+      "title": "Goethe Scientific Works (Italian to English)",
+      "domain": "",
+      "source_url": "",
+      "language": "Italian",
+      "target_language": "English",
+      "file": "2026-09-10-goethe-scientific-works-it-en.md",
+      "content_file": "translations/2026-09-10-goethe-scientific-works-it-en.md",
+      "excerpt": "---\ndescription: Complete English translation of Massimo Scaligero's course on Rudolf Steiner's \"The Scientific Works of Goethe\" - 52 lectures covering Goethe's scientific methodology, metamorphosis, color theory, atomis"
     },
     {
       "date": "2026-09-10",
@@ -4793,9 +4804,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-10T21:16:51Z",
+      "last_run": "2026-09-11T00:06:47Z",
       "last_status": "ok",
-      "last_summary": "+5 chunks since last run (139->144) | Goethe Scientific Works (it) 144/353 | backlog 423 wait (gear: quota) | watchdog: translator-foreign stale 28.8h"
+      "last_summary": "+209 chunks | Goethe Scientific Works COMPLETE 353/353 | backlog 423 wait (gear: quota) | translator-foreign stale 30.8h"
     },
     {
       "member": "db-entity-extractor",
@@ -4815,7 +4826,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T23:07:22Z",
+      "last_run": "2026-09-11T00:16:09Z",
       "last_status": "ok",
       "last_summary": "sync: 58587 docs, feed rebuilt"
     },
@@ -4909,12 +4920,6 @@
     }
   ],
   "activity_log": [
-    {
-      "date": "2026-09-11",
-      "time": "00:08",
-      "agent": "The Chronicler",
-      "summary": "+178 chunks — Book 4 translation complete - all 178 chunks translated and assembled"
-    },
     {
       "date": "2026-09-11",
       "time": "00:06",
@@ -5220,6 +5225,12 @@
       "time": "15:50",
       "agent": "Translation Curator",
       "summary": "+4 chunks — Quota run. Found Compendium of Vortex Physics (de) already fully translated (sweeper assembled it; manifest done-flags were stale at 62/108). Re-translated chunks 63-66 (Hanspeter Seiler section: Kosmon theory, ether vortex theory of matter, fundamental forces) and re-assembled the complete 108-chunk document with refreshed chunks. No new archive needed (source archived 2026-08-30). Corrected ledger metric to true archive count (26)."
+    },
+    {
+      "date": "2026-09-10",
+      "time": "15:25",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Translated Goethe Scientific Works chunks 120-123 (Italian to English). +8 chunks progress this run. 123/353 complete."
     },
     {
       "date": "2026-09-10",
