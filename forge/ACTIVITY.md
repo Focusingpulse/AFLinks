@@ -173,3 +173,9 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Feed rebuild: still blocked from cloud** (living-library corpus not migrated — no database/ dir). Heartbeat green via forge/status.json + ACTIVITY.md.
 
 **Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet since the 09-10 Magnitsky assembly (~26h) — under the 48h threshold, not stale. Wizard translation stream active (Goethe transformism FR published 06:22); Drunvalo QC lane active; scout + Steiner harvest lanes committing. No staleness flags.
+
+## 2026-09-11
+
+### Forge (Translation QC) — 16:20 UTC
+**+1 translation published** — "Ondes de formes: Techniques et appareils" (de Belizal apparatus articles, FR->EN): the Mental vs Physical Radiesthesia essay (three-phenomena framework: mental radiesthesia / physical radiesthesia / micro-vibratory physics, with the Chaumery 8th-octave accident and the mummified-steak/tumor-sterilization accounts), the 1936 Universal Pendulum technical description (60mm sphere, electric/magnetic meridians, equator, V− discovery 1934 + patent 1936, radioactivity sector), the C.30 Bomb (Chaumery's original C. Bomb -> post-1957 three-concentric-sphere redesign, selector/corrector/compensator, cosmic + magnetic piles), the Disc Emitter (angular refraction, 21-groove disc, magnetic vs electric phases, Yin-Yang hypothesis), the Geometric Forms definition of ondes de forme, and the Micrometer in its Servranx psychotechnics context. Companion to the FR 816,132 patent translation from this morning.
+**QC** — corpus dedup completed earlier this session: 36 duplicate files removed, 151->115 canonical (commit 9fc87ebac). Drunvalo's 16:06 QC pass verified solid. Feed rebuild still blocked from cloud (living-library not migrated).
