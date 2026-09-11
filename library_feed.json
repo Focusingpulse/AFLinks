@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:18:59Z",
+  "generated_at": "2026-09-11T13:06:33Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -3205,6 +3205,54 @@
     },
     {
       "date": "scout-repo",
+      "file": "scout-report-2026-09-11-1200.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Kozyrev Causal Mechanics",
+          "description": "Complete Primary Source",
+          "url": ""
+        },
+        {
+          "title": "Kozyrev Centenary Volume",
+          "description": "Complete Works",
+          "url": ""
+        },
+        {
+          "title": "Kozyrev Experimental Investigation",
+          "description": "English Translation",
+          "url": ""
+        },
+        {
+          "title": "Shipov Unification Paper",
+          "description": "Akimov Generator Schematics",
+          "url": ""
+        },
+        {
+          "title": "Belizal Micro",
+          "description": "Vibratory Physics - Complete French Text",
+          "url": ""
+        },
+        {
+          "title": "Belizal & Chaumery",
+          "description": "Essai de Radiesthésie Vibratoire",
+          "url": ""
+        },
+        {
+          "title": "Atsyukovsky General Etherodynamics",
+          "description": "Complete Russian Text",
+          "url": ""
+        },
+        {
+          "title": "Nature 2025 LENR Breakthrough",
+          "description": "Thunderbird Reactor",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "scout-repo",
       "file": "scout-report-2026-09-09.md",
       "scout": "",
       "languages": "",
@@ -5072,9 +5120,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-11T11:45:31Z",
+      "last_run": "2026-09-11T12:45:34Z",
       "last_status": "ok",
-      "last_summary": "34 archives total (first recorded) | skipped: family budget low (quota mode) | backlog 429, 1 in progress (gear: quota)"
+      "last_summary": "+0 archives (still 34) | skipped: family budget low (quota mode) | backlog 429, 1 in progress (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5105,7 +5153,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T11:11:15Z",
+      "last_run": "2026-09-11T12:22:50Z",
       "last_status": "ok",
       "last_summary": "sync: 59216 docs, feed rebuilt"
     },
@@ -5160,9 +5208,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-11T08:20:00Z",
+      "last_run": "2026-09-11T12:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation published (Armand Viré 1869-1951, FR->EN composite — biospeleology founder, 1913 Vincennes dowser tests, 1914 French Army subterranean mission, AAR president; completes the AAR leadership set: Bouly, Mermet, de France, Viré). QC: stripped scraped site nav from Oranur DE translation, abcdef.wiki mirror boilerplate from plasma-cosmology RU, fixed 1 double-frontmatter file (water-memory IT). Drunvalo 08:10 dedup verified: 162->100 canonical files, DB indexes clean, sync gate hardened. Feed rebuild still blocked from cloud (living-library not migrated, no database/ dir)."
+      "last_summary": "+1 translation published (Chaumery & de Belizal patent FR 816,132, 1936 — the founding legal document of the French form-wave school: Universal Pendulum, negative-green ray, cosmo-magnetic batteries; abstract translated in full from espacenet/Kook Science + apparatus chapters from the inventors' 1976 book). QC: deep dedup 151->104 canonical files — removed 47 verified duplicates across 20 families (spyridis x6->1, magnitsky x5->1, compendium x4->1, prometheus x4->1, tesla x4->1, akimov-shipov x3->2, shipov x3->1, consciousness x3->1, tuo x2 families, vortex-motor x3->1, schauberger-water x2->1, campi/emf same-article x2->1, psicogeometria x2->1, form-waves x2->1, del-giudice x4->1, plus 6 redundant -fr-en copies of my 08-29 files); kept best-frontmatter copy in each; fixed 4 double-frontmatter files. Drunvalo 12:10 dedup verified. Feed rebuild still blocked from cloud (living-library not migrated, no database/ dir)."
     },
     {
       "member": "scout",
@@ -5171,9 +5219,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-11T10:15Z",
+      "last_run": "2026-09-11T12:00Z",
       "last_status": "ok",
-      "last_summary": "10:15Z growth round: NEW source ucp.academy (UCP Global Challenges 2024 conference theses) — all live lanes dry (viXra RSS max 2609.0023, lenr-canr 1,454=1,454, vesperman 98=98 incl NPA docx in archive, free-energy-info 0 new, jcfrs 22 hrefs in filelist, RENSIT 2026/4 harvested, iccf-27 #13 still UC 9,845B) → discovery via web_search found ucp.academy thesis PDF surface (/pdf/events/GC2024/theses/{id}, text-layer PDFs, EN/RU/ES/ZH multi-conf platform). Enumerated 234 GC2024 theses (IDs 11-253), all 234 harvested with real text previews (108/234 pypdfium2 + 126/234 pdftotext fallback), merged id-safe (ids 2400592-2400825, archive 58,982→59,216). US/alt-science thesis corpus (PFO-CFO cosmos theory, ionosphere, etc). LIVE-GROWING — re-diff per conference (GC2026, Stars-2025, MolPhot2026, ISARD-2025, KPmag2024 candidates). OCR/queue/tag pending FocusOptimized."
+      "last_summary": "12:00Z round (49th clean since 08-21): 0 new FL LENR. Lanes drained — rxiv /all/ byte-same 326,730B max 2609.0023; lenr-canr 1,454=1,454; viXra RSS anti-bot flake persists 2nd round (Mod_Security 404/746B, env — rxiv mirror byte-stable backup); Zenodo top-15 + FL keyword sweeps 0 candidates; iccf-27 #13 /proceeding STILL UC 9,845B day 26 + /abstract/ form up; RENSIT 000 cert flake (re-probe -k); tuks 200; lenr.su 200; seplm http-403-gated. Archive 59,216 steady. Corpus 138. Translator quiet ~26h (<48h NOT stale); claims none >7d. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5199,6 +5247,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "12:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — No-op run: family budget low, quota gear — skipped chunk work. Backlog 429, 1 job in progress, 34 durable archives held."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "12:22",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+59216 docs — +59216 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "12:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation published — Chaumery & de Belizal, Patent FR 816,132 (1936): \"Procédé et appareillage radiesthésiques\" (FR→EN). — The founding legal document of the French form-wave school, now in the corpus: the patent abstract translated in full (espacenet original via Kook Science transcription) — the negative-green ray (V−) introduced for the first time into a public, dated, state-archived record (\"the shortest wave and consequently the most powerful of the invisible spectrum\"), the critique of wavelength-only pendulums, and the terrestrial-magnetism basis. The apparatus the patent protected documented from the inventors' own 1976 description: the Universal Pendulum (60mm sphere, E/M/EM circles in 400 grades, internal 4-element magnetic battery, 8 Mendeleev-family witness marks, receiver-emitter without mental orientation), the cosmo-magnetic batteries (tension by element count, amplitude by element mass), and the post-patent Bombe C. 30 — plus the school's own casualty: co-inventor Chaumery's 1957 death \"completely dehydrated by our negative green ray,\" recorded by de Belizal in the book's preface. Modern IPC classes A61N1/16 (electrotherapy) and G01V9/002 (dowsing) noted as historical artifact. Anchors the French half of the French/Russian form-wave seam (Davidson's genealogy names Belizal and Turenne). Full patent specification unfetchable from cloud (espacenet 403s datacenter IPs) — fetchable from FocusOptimized if Sandra wants the complete claims."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "12:20",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-11",
       "time": "12:16",
@@ -5534,30 +5606,6 @@
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Translated Vibratis radiesthesia history page (FR→EN): full overview of radiesthesia history (Egypt, Bible, Greeks/Romans, Beausoleil 7 metal rods, Abbé Bouly), Rocard magnetite science (Kirschvink/Gould biogenic magnetite), applications (medical, geobiology, divination), tools (pendulum, dowsing rods, Lecher antenna, Bovis scale). Key finding: aflinks-cron feed rebuild at 12:04Z undid the 08:20 dedup (corpus 63→94) — dedup in AFLinks is futile while feed rebuild creates new dated copies from living-library source. Stopped deduping; recorded learning in pipeline notes. Translator agent stale: no new publishes since Sep 3 (~112h, past 48h threshold). Feed rebuild still blocked from cloud."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "**+1 translation — Denis Machon's critical analysis of Rocard's \"signal du sourcier\" experiments FR→EN (The Conversation, Aug 2026): methodology, results tables (5/10, 4/10, 4/10 = chance), identified biases (no true bli"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "08:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation, -32 duplicates — Deep dedup pass: removed 32 duplicate translation files (corpus 95→63). Eliminated compendium 5→1, shipov-torsion 5→1, akimov-shipov 4→1, torsion-physics-newton 5→1, magnitsky 5→1, plus -en/-fr-en duplicate pairs (enel, brocéliande, ether-einstein, ondes-de-forme, univers-sans-matiere). Translated Vibratis pendule divinatoire guide (FR→EN) — covers French radiesthesia history (Abbé Bouly, Abbé Mermet, Treyve, Aymar, Crozier), physical vs mental schools, Rocard magnetic field work, methods, dangers. Translator agent stale: no new publishes since Sep 3 (~108h, past 48h threshold). Feed rebuild still blocked."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation, -17 duplicates, +21 frontmatter fixes — Major corpus cleanup: removed 17 duplicate translation files (exact copies, superseded partials, auto-generated re-publishes). Fixed frontmatter on 21 files: corrected language tags (source language → en), added source_language field, replaced template/auto-generated descriptions with real ones. Translated Vibratis radionics page (FR→EN) — Chaumery/Belizal tradition, Servranx brothers, operator/witness/instrument. No new translations from translator agent in ~20h (not yet 48h stale). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus now at 80 translations (was 97, after dedup)."
-    },
-    {
-      "date": "2026-09-06",
-      "time": "20:05",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 20:00 UTC, cloud round; 26th consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total (same 08:00/12:00/16:00, query-normalized) — newest real item still 22036645 (08-21); newer = previously-closed noise (OUROBOROS v10 22133690, 17O-water 22117461/21912323, Hamzah, PLEG). Fulltext variant (broadened query incl. nuclear reactions) 647 total: newest 22166688 (08-29, eng) Geometric Response Cosmology = CLOSED (English fringe cosmology, not LENR, not FL). Tracked spot-check 3/13 live + unchanged (Lin 21355740 cmn, Lemeshko 18521158 ru, Zhuang 20668098 zh). Exa RU/ZH/FR fresh window (Sep 1+) = mainstream hot-fusion only (DIII-D Alfven modes, Princeton PACMAN, PRAGYA, NIF, XinAo p-11B, Kardashev One, Type One stellarator license, Texatron, WEST) — author.today metric-attractor LENR essay (Alekseenko 09-03) re-confirmed context-only (flagged 00:00); media-tech.fr Parkhomov NCT article (09-04) = CLOSED false positive (verified 09-05 12:00: no arXiv preprint), never re-chase; proatom Prosvirnov/Ratis «Сомнений не осталось» date-checked = 12 Sep 2013 old; US Patent 12723750 (fossil-fuel EM light-nuclei fusion) = EN patent-lane context only. — lenr.seplm.ru BACK UP (200; was 000 at 16:00) — homepage scanned: static link directory, all items known/pre-window from 08:00/12:00 deep-reads. tuks.nl BACK UP (200; was 000) — fully harvested by 18:43 growth run (+120 docs, archive 15,512, e21c3a8). ICCF-27 proceedings page STILL under construction (200, 🚧 banner, no papers) — 1-3 wk watch. ARCHIVE GREW 15,392 -> 15,512 entries (+120 tuks.nl) / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers / 14 agents. **Translator ACTIVE — NOT STALE**: last output 09-05 12:18Z (Acqua Viva IT->EN 96th) + sweeper 12:19Z; ~32h since, 48h window trips ~09-07 12:18Z only if silent. Fleet: Drunvalo synthesis + site work through 14:51Z, translation-qc 08:08Z. No claims (claims.md empty). tuks 200, lenr-canr 200 (news stale June), viXra 406 flapping, lenr.seplm.ru 200, preprints.ru 200, iccf-27 200. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-2000.md + finds mirror sources/2026-09-06-scout-finds-2000-scout.md."
     }
   ],
   "declassified": [

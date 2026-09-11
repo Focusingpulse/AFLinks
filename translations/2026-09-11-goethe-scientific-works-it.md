@@ -1,15 +1,8 @@
 ---
-name: Goethe Scientific Works (Italian to English)
-description: Complete English translation of Massimo Scaligero's course on Rudolf Steiner's "The Scientific Works of Goethe" - 52 lectures covering Goethe's scientific methodology, metamorphosis, color theory, atomism, and Goethean worldview
+name: "2026-09-11-goethe-scientific-works-it"
+description: "Full-document translation (assembled from completed chunks)."
 ---
----
-description: Complete English translation of Massimo Scaligero's course on Rudolf Steiner's "The Scientific Works of Goethe" - 52 lectures covering Goethe's scientific methodology, metamorphosis, color theory, atomism, and Goethean worldview
-source_url: https://www.ospi.it/wp-content/uploads/2020/02/le-opere-scientifiche.pdf
-source_language: Italian
-translation_date: 2026-09-10
-translator: Translation Sweeper (Letta agent)
-focal_entity: The Force of Aether
----
+
 Lucio Russo
 
 A course of study on
