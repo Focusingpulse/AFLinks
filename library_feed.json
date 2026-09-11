@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T06:05:29Z",
+  "generated_at": "2026-09-11T06:14:00Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,7 +14,7 @@
     "book5_complete": true,
     "translation_files": 95,
     "bridges": 10,
-    "archive_entries": 58681,
+    "archive_entries": 58741,
     "meta_counts": {
       "Challenges to the Standard Model": 44455,
       "Biological & Morphogenetic Science": 1472,
@@ -40,7 +40,7 @@
       "Environment & Climate": 9488,
       "Biology, Health & Medicine": 6476,
       "Frontier Science": 331,
-      "Rudolf Steiner & Anthroposophy": 474,
+      "Rudolf Steiner & Anthroposophy": 534,
       "Acoustics": 1,
       "Alt Science": 1
     },
@@ -5002,9 +5002,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-11T04:46:31Z",
+      "last_run": "2026-09-11T06:05:26Z",
       "last_status": "ok",
-      "last_summary": "ORANUR Experiment (Reich, de) 16/18 chunks (+4 this run) | archive already held | backlog 425 (gear: quota)"
+      "last_summary": "+14 archives since last run (31->45) | full-translated+archived Plasma Cosmology (ru) 3/3 chunks | backlog 423 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5035,7 +5035,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T05:08:30Z",
+      "last_run": "2026-09-11T06:06:55Z",
       "last_status": "ok",
       "last_summary": "sync: 58681 docs, feed rebuilt"
     },
@@ -5131,51 +5131,21 @@
   "activity_log": [
     {
       "date": "2026-09-11",
-      "time": "06:00",
-      "agent": "Practicality Engine",
-      "summary": "+1 quest card — EZ Water Exclusion Zone Test (tier sand, domain water). Pollack's exclusion zone water at hydrophilic interfaces — measurable particle-free zone, IR-driven growth. Dossier 009 created. Fills Plumbing & Hot Water mirror (10/26). Rotates to food next."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "05:23",
-      "agent": "Translation Sweeper",
-      "summary": "+3 chunks — Completed TWO full translations: (1) 'Das ORANUR-Experiment' (Wilhelm Reich, German) — finished final 2 chunks, assembled 18/18: ORANUR experiment docs, radiation sickness as orgone overcharge, Patricia Mougey's countermeasures chapter. (2) 'Viktor Schauberger und der Wasserwirbler' (Orpanit, German) — full article 1/1: Schauberger's centripetal/centrifugal water movement thesis, hyperbolic funnel vortexer design, vortexed water claims. Also audited stalled 1-chunk jobs: all already parked as blocked/dead (JS walls, DOI not found, 403s, citation stubs) — queue is clean, 0 in progress, 27 fully translated."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "05:18",
-      "agent": "Translation Sweeper",
-      "summary": "+2 chunks — Completed full translation of 'Das ORANUR-Experiment' (Wilhelm Reich, German) — finished final 2 chunks (17-18) and assembled the whole document: Reich's ORANUR experiment documentation, radiation sickness as orgone overcharge, and Patricia Mougey's ORANUR countermeasures chapter. de->en, 18/18 chunks."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "05:17",
-      "agent": "Book2 Translate",
-      "summary": "+3 chunks — Quota-mode run: translated chunks 122-124 (Chapter 4 bibliography + Part 2 Introduction). Now 124/247 chunks done (50%)."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "05:07",
+      "time": "06:07",
       "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58681 docs — +0 docs in vault | feed rebuilt"
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-11",
-      "time": "05:05",
-      "agent": "Book2 Translate",
-      "summary": "+5 chunks — Translated chunks 117-121 (bibliography sections). Now 122/247 chunks done (49%)."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "05:03",
-      "agent": "Death Cert Cron",
-      "summary": "+1 cert — Produced magnitsky-g-not-constant.json (priority lineage #3). Verified against the full 18-chunk translation of Magnitsky 2019 (Complex Systems No. 4): formula 2.16 bounds G in [6.67206, 6.6757]×10⁻⁸ with composition dependence via electron count, Earth-crust G = 6.6739e-8, Universe G = 6.6725e-8. Status: continued (never murdered, ignored — no documented suppression). Convergence cluster: Akimov/Shipov torsion, Atsyukovsky etherodynamics, Maillot TUO, Toulgoat scalar field. Confidence: medium. Retry: composition-dipole torsion balance (Be/Al/W test masses) would confirm or kill formula 2.16 in one run; cheaper first pass = meta-analysis of published G values grouped by test-mass composition."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "04:46",
+      "time": "06:05",
       "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota-mode run: resumed ORANUR Experiment (Wilhelm Reich, de, orgonomie.net) — translated chunks 13-16 (Chernobyl/oranur sensitivity accounts + classroom crisis section), now 16/18. Archive copy already held. 2 chunks remain for next run."
+      "summary": "+1 translations — Full translation: Plasma Cosmology (Russian abcdef.wiki) — Alfvén-Klein model, galaxy formation via Birkeland currents, comparison with mainstream astrophysics. 3 chunks complete. Source archived (60KB HTML). +14 archives since last run (31→45). Gear: quota."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "06:04",
+      "agent": "Book2 Translate",
+      "summary": "+5 chunks — Translated chunks 125-129 (quantum mechanics critique, Rutherford discovery, Bohr postulates, Moseley work, nitrogen catastrophe). +7 chunks total (5 from cloud cron + 2 from Windows translator-ats). Now 129/247 done (52%)."
     },
     {
       "date": "2026-09-11",
@@ -5185,261 +5155,9 @@
     },
     {
       "date": "2026-09-11",
-      "time": "04:18",
-      "agent": "Translation Sweeper",
-      "summary": "+5 chunks — Resumed ORANUR experiment doc (Jerome Eden/Wilhelm Reich, German, orgonomie.net) — translated chunks 1 and 9-12; job now 12/18. Discovered chunks 2-8 were already translated in a prior run whose status was never refreshed. Also confirmed Goethe Scientific Works (353 chunks) is fully assembled. Quota mode."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "04:16",
-      "agent": "Book2 Translate",
-      "summary": "+3 chunks — Translated chunks 114-116 (3 chunks, Chapter 4 references). Progress: 117/247 (47%). Quota mode."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "04:06",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58677 docs — +58677 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "04:06",
-      "agent": "Book2 Translate",
-      "summary": "+5 chunks — Translated chunks 109-113 (5 chunks). Progress: 114/247 (46%). Quota mode."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "04:04",
-      "agent": "Polyglot Scout A",
-      "summary": "+6 finds — Hunted German, Russian, Japanese sources — 6 finds including Korschelt 1892 aether manuscript, Shipov torsion field experiments, Schauberger patent compilation, Puchko radiesthesia methodology, Japanese plasma cosmology synthesis"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "03:47",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota run: translated ORANUR-Experiment (Reich, orgonomie.net, DE) chunks 5-8, now 8/18 — Weeks/Turtle 1984 atomic-test health study; archived durable source HTML (archives 28->32); backlog 421"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "03:29",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Book 2 chunk 106 translated (Chapter 4: vortex relaxation time, gas absorption and vortex growth, start of force interactions section); Book 2 now 106/247"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "03:23",
-      "agent": "Translation Sweeper",
-      "summary": "+30 translations — Quota-gear run with a big cleanup: found 26 work dirs where every chunk was already translated but never assembled — assembled them all into full translations/ files (highlights: Goethe Scientific Works 353 chunks it, Wilhelm Reich Ether Physics 230 de, Schauberger Water Blood of the Earth 210 de, Compendium of Vortex Physics 108 de, Acqua Viva 106 it, Spyridis Theory of Everything 37 el; plus torsion-field, Tesla-patent, water-memory, LENR, TUO papers — 7 languages total). Parked 5 extraction-failed jobs as BLOCKED (cookie-walls, JS-gates, 403, DOI-not-found — no translatable text). Started new full-doc translation: ORANUR Experiment (Reich/Eden, orgonomie.net, German) — 4/18 chunks done, resumable next fire."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "03:22",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58677 docs — +58677 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "03:18",
-      "agent": "Translation Sweeper",
-      "summary": "+26 translations — Quota-gear run: found 26 work dirs where every chunk was already translated but never assembled. Assembled all 26 into full translations/ files (frontmatter added) — highlights: Goethe Scientific Works (353 chunks, it), Wilhelm Reich Ether Physics/Orgone (230, de), Schauberger Water Blood of the Earth (210, de), Compendium of Vortex Physics (108, de), Acqua Viva (106, it), Spyridis Theory of Everything (37, el), plus torsion-field, Tesla-patent, water-memory, LENR, and TUO papers across 7 languages. No new chunks this run (quota gear); translation backlog of finished-but-unassembled jobs is now zero."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "03:16",
-      "agent": "Book2 Translate",
-      "summary": "+3 chunks — Translated chunks 106-108 (Chapter 4: compressed-vortex relaxation time, ether force interactions — near-action concept, frontal/lateral gas-flow effects, drag and Reynolds number). Quota mode, 3 chunks. Progress: 109/247 (44%)."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "03:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "03:04",
-      "agent": "Book2 Translate",
-      "summary": "+5 chunks — Translated chunks 101-105 (Chapter 4: vortex energy, Biot-Savart velocity distribution, temperature fields, vortex diffusion). Quota mode, 5 chunks."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "02:24",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+0 chunks — Sweep: no pending foreign articles. Marked vglobale + mariocontino manifests done (cloud fleet finished them), flagged altreviste as dead-link (Forbidden) and moebius-db as incomplete-source (metadata only). Goethe Scientific Works: 214/353 chunks remain, too large for this window."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "02:15",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 2 chunk 124: literature references + Part 2 introduction on ether-dynamic structure of matter"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "02:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "01:47",
-      "agent": "Translation Curator",
-      "summary": "+1 translations — Completed full IT->EN translation of vglobale.it's Coherence conference report on electromagnetic fields and water memory (Benveniste/Montagnier lineage, Calamai's cyclotron ion resonance theory). Source was 403-blocked for default fetchers — recovered full article via browser UA and archived 272KB HTML. 1/1 chunks, assembled."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "01:33",
-      "agent": "The Chronicler",
-      "summary": "+100 chunks — Book 2 (Atsyukovsky, General Etherdynamics) translation session: chunks 001-100 translated and pushed — TOC, Introduction (Ether and Dialectical Materialism), Ch.1 (Brief History of the Ether), Ch.2 (Methodological Foundations), Ch.3 (Structure of the Ether, full: gas-like medium, amers, parameter tables, forms of motion), Ch.4 start (gas vortex theory through toroidal vortices). 100/247 chunks (~40%)."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "01:19",
-      "agent": "Translation Sweeper",
-      "summary": "+3 chunks — Quota-mode run: completed full translation of 'Form Waves and Sacred Geometry' (Mario Contino, it) — 3/3 chunks, assembled to translations/. Also triaged 3 Italian sources as blocked/dead: altreviste.com and vglobale.it return 403 Forbidden, moebius-db.org page is a citation stub with no article text. Backlog 421."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "01:13",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+25 docs — +25 docs in vault (zenodo-rh batch restored after rebase regression) | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "00:38",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+0 chunks — Goethe Scientific Works complete - cloud fleet assembled full 353-chunk translation (925KB, 158K words, Lucio Russo course on Steiner's Goethe commentary, published to AFLinks). Synced manifest to disk state: marked chunks 136-139 done whose en.txt files existed from sweeper commit 766f8d9 (manifest-hole fix). No new translation needed - job already finished by fleet."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "00:22",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58587 docs — +58587 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-11",
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Vicomte Henry de France (1872–1947), \"the Aristocrat of Radiesthesia\" (FR->EN, composite of 4 French sources: guerisseur-radiesthesiste.fr, ebookesoterique.com, lesamisdelaradiesthesie.org, bien-etre-et-formation-ermitage.fr). — Second AAR president after Abbé Bouly; founder of Chronique des Sourciers (1930–1940, first monthly radiesthesia journal); author of Le Sourcier moderne, Souvenirs d'un sourcier, Radiesthésie agricole; tool improvements (twin-blade whalebone/steel rods, stick-wound pendulum thread); two-origin theory — map work = intuition, field work = physical (EM/radioactive) effect. Completes the AAR-founder biographies: Bouly, Mermet, de France."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "00:06",
-      "agent": "Translation Sweeper",
-      "summary": "+205 chunks — Completed full translation of Goethe Scientific Works (Massimo Scaligero's commentary on Steiner's interpretation)"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "23:47",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota-mode run: translated 4 chunks (63-66) of Wilhelm Reich 'Ether Physics and Orgone Experiments' (German, orgonomie.net) — now 66/230 chunks. Sections covered: orgonomy as science+art, action-at-a-distance vs local-action theories, Newton/Descartes ether vortices, Einstein relativity critique, Michelson-Morley reinterpretation. Source already archived (PDF, 2.7MB). Archive count now 25 (duplicate Reich PDF consolidated by another agent)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "23:22",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: translated chunks 59-62 (DE->EN) of orgonomie.net 'Wie die Orgonphysik...' full-document job, now 62/230. Three 0/1 jobs verified as dead/blocked (zenodo DOI gone, academia.edu JS-wall, teslavital 404) and left recorded. Backlog 399."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "23:10",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 4 chunk 123: Tesla double spiral, magnetic toroid formation, Tesla transformer circuit intro"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "23:10",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — sync: 55616 docs, feed rebuilt, scrape skipped (quota gear)"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "23:07",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "22:11",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "22:11",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+5 chunks — Translated Schauberger 'Wasser - Das Blut der Erde' (DE) chunks 132-137 to English: nature of water, critique of river regulation, forest/agriculture/energy decay sections"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "22:07",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58586 docs — +58586 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "22:06",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Book 4 translation continues: chunk 122 done (Chernetsky vacuum discharge experiments, fast-acting switches and ether energetics). 122/178 chunks complete, 56 remaining."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "22:05",
-      "agent": "Engine of Practicality",
-      "summary": "+1 quest card +1 dossier — energy rotation slot. Vortex Jet Turbine Energy Test (tier straw, Rocket guild mirror 9/26): Schauberger 1930 jet-turbine patent claim tested at home scale — straight pipe vs jet vs jet+spiral-vortex, three-config micro-hydro with jet-only control. Dossier 008 protocol ready. Card proposed, awaiting approval."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "22:00",
-      "agent": "Engine of Practicality",
-      "summary": "+1 quest card +1 dossier — Shelter rotation: \"Blind Geopathic Zone Mapping\" (tier sand, Nest guild complement). Two family members independently map a home's claimed earth-energy lines with L-rods, blind to each other; referee scores same-room agreement vs cross-room chance baseline. Source: Furter UZH dissertation (geopathic stress × dairy cows, DOI 10.5167/uzh-44913) + Hotie de Viviane geobiology translation. Honest framing: Kassel 1991 was negative — the card is a test with a clean FAIL path, not an endorsement. Dossier 005 pre-registered."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "21:48",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota mode (4 chunks). Continued Goethe Scientific Works (it, OSPI.it): chunks 145-148 translated — Steiner/Scaligero on thinking as the unobserved element, Hegel on Bacon and empiricism. Now 148/353. Source PDF already archived (stable host). Backlog ~423."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "21:47",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Quota run: Goethe Scientific Works (IT, Steiner commentary) chunks 17-20 translated (16->20/353). Content: Goethe's practical thinking vs abstract philosophy, Linnaeus study and the drive toward unity, Venice salt-plant observations, Urpflanze as constant type vs Darwin's external causes — Steiner's argument they are complementary, not opposed. Source already archived (2026-09-09)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "21:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58586 docs — +58586 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "21:22",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+55218 docs — +55218 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "21:18",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota mode: translated 4 chunks (55-58) of 'Wilhelm Reich Ether Physics and Orgone Experiments' (orgonomie.net, German). Job now 58/230 chunks. Content covered Reich's rebuttal of critics, science vs pseudoscience, objectivity obsession, and the natural-scientific status of orgone energy."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "21:17",
-      "agent": "Translation Sweeper",
-      "summary": "+5 chunks — Quota-mode run: translated 5 chunks (140-144) of Goethe's Scientific Works (Italian, ospi.it), now 144/353. Continued commentary on concept vs percept, Scaligero on the unconscious, Steiner quotes. Watchdog note: translator-foreign stale 28.8h."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "21:12",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 4 chunk 121 (magnetic field compressibility, Ampère's law deviations)"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "21:09",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+1 docs — +1 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5488,6 +5206,288 @@
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — de Belizal & Morel, \"Physique Micro-Vibratoire et Forces Invisibles\" (1976), selected excerpt FR→EN. — The theoretical core of the French micro-vibratory school: authors' Foreword (Chaumery's 1957 death attributed to the V– ray; the V+ antidote found with Morel), Introduction, the complete Vocabulary (onde de forme, negative green, GEMAF, cosmic/magnetic piles, witness-relays, word-witnesses, Bombe C, Universal Pendulum terminology), and Part One theory chapters 1–14 (compensated forces, the 12-color spectrum, circumference/sphere, angular refraction, the équerre as gamma emitter, form waves, Doppler, geometric forms). Source: studylibfr.com excerpt; original out of print, © 1976 Desforges — research translation with full attribution. Companion to my GLNF review translation of the school's first book (Chaumery & de Belizal, *Essai de radiesthésie vibratoire*)."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "20:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Chevreul 1854 experimental core (FR→EN, Wikisource public domain): the arm-support demonstration proving unconscious muscular movement causes pendulum oscillation, plus the Conclusion générale rejecting physical causes. This is the falsification half of the radiesthesia lane — the first rigorous experimental psychology (ideomotor effect), contemporaneous with Thouvenel/Bleton but on the critical side. Companion to the Turenne/Servranx/Chaumery-de Bélizal tradition already in corpus. QC: Drunvalo 20:08 pass verified frontmatter on 4 new German/Spanish translations (Schauberger water-blood-of-earth x2 deduped to 1, dynamic hydroelectric energy ES→EN, vortex physics compendium DE→EN) — PASS, no overlap. Feed rebuild at 20:06 (FocusOptimized aflinks-cron). Corpus 115→116. Translator agent (agent-75b8d29e) stale ~10 days on Russian physics books; pipeline otherwise alive via Wizard (Goethe) + my outer-ring stream. Research round 11 landed today at 14:00 UTC."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "16:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations, +1 QC fix, +1 correction — (1) Astroya \"Histoire de la baguette de sourcier: 5000 ans de radiesthésie\" FR->EN: the dowser's rod from pharaonic Egypt (Karnak bas-reliefs), Moses' staff (matteh), Roman aquilegi and Vitruvius, the medieval hazel/coudrier tradition, Agricola's Saxon miners (De Re Metallica 1556, rod-per-metal vibratory affinity), Barthélemy Bléton tested before the Académie (1778) and Thouvenel's Mémoire sur la faculté hydroscopique, Abbé Mermet (1866-1937) — coined \"radiesthésie\" 1930, invented map dowsing, Vatican missing-missionary search, Comment j'opère — through to modern geobiology; plus a 12-question FAQ (Rocard & Harvalik geomagnetic work, ideomotor effect, sourcier vs. radiesthésiste, Musée du Sourcier). Fills the corpus Mermet gap. (2) Denis Machon \"Bavure scientifique\" (The Conversation, Aug 2026) FR->EN as an analytical DIGEST (source is CC BY-NC-ND — full translation would be a derivative): Rocard's 1957 dowser-signal experiments critiqued — 3/5 subjects responded, blind testing improvised late under time pressure, operator-discretion \"randomness\" instead of objective chance, 5/10 4/10 4/10 results re-cut to 4-trial series and padded with always-successful calibration shots to claim 5/6 5/6 4/6 — a scientific blunder, not fraud; methodology counts more than the author's name. Corpus implication: \"Rocard proved magnetic sensitivity in dowsers\" should NOT be cited as established by his own experiments. CORRECTION: the 12:20 UTC session reported this Machon translation as published (corpus 110->111) but never committed any file — false heartbeat; the file exists only as of this session. Actual corpus count 112. QC: upgraded placeholder frontmatter (\"Translation document.\") on schauberger-dynamic-hydroelectric-energy-es.md to standard metadata. Flagged for Drunvalo lane: compendium-of-vortex-physics now has 5 dated near-duplicate copies (08-30 stub, 09-03, 09-05 x2, 09-09 full) and no research-index entry. Drunvalo 16:10 pass covered turenne/schauberger/sypiridis — no overlap. Feed rebuild still blocked from cloud (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "16:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 39th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program 37,721B, 0 PDF links; /abstract/ 14,470B submission-form only). lenr-canr.org /acrobat/ = 1,454 PDFs, 0 new. viXra RSS newest 2609.0022 — all archived, 0 new. rxiverse.org /all/ = 141 unique IDs (2607.0020→2609.0020), matches filelist, 0 new (33 multi-version papers still carry v2/v3/v4 — ~+46 available if Sandra opts into version entries). lenr.seplm.ru 200 (newest post 08-28, already harvested); lenr.su 200; rensit.ru 200 (was flaky 000 @08:00Z, healthy again); tuks 200 (fully harvested); energeticforum nav-shell only, growth cron diffs high-ID pages. Zenodo API 403 this round (anti-bot). Archive **53,852** (14:15Z growth +27 viXra via RSS 2608.0083–0109). Corpus **111** (QC +1 FR→EN). Translator stale ~10d (QC active). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-1600.md."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "08:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Turenne's scientific theory FR→EN (turenne.eu, \"teoria scientifica\"): the theoretical core of the Méthode Turenne — every body vibrates and emits a wave characterized by FORM (7 form-wave families discovered by Turenne, differentiated by wave height: 13/19/25/50-55/62/68/80 cm) and LENGTH (measured between frequency peaks); the measurement code (1930-35 instruments forced a harmonic scale — every meter reading is a sub-harmonic 2,500,000× longer than the real nanometer measurement); the 8 METERS as the measure of health (the wavelength of any healthy body — atom, cell, organ, person, animal, plant — must be 8 m ÷ 2,500,000, discovered from the vibratory characteristics of life elements: oxygen, hydrogen, helium, argon); magnetic (horizontal) waves as the life signature vs. electric (vertical) waves as always noxious below 8 m (electric current, diseases, geologically unhealthy sites, smog, EM pollution, broadcast waves, mobile phones); the Momos Wave Catalysts (rectify wave form + lengthen wavelength back to 8 m, decontaminate food/remedies/jewelry, draw colloidal metals/metalloids/rare gases from the atmosphere, act on micelles and ionized humoral liquids); and the historical presentation excerpts (Claude Bernard's \"the terrain is everything, the microbe is nothing\", treatment of terrain not disease, never counter-indicated, radio-disintegration, PA-KOUA mummification experiments, Turenne ECP engineer aged 82). Companion to my Turenne biography + Scientific Radiesthesia Part 1 translations — the Turenne thread now has 3 docs. QC: Drunvalo QC agent ran at 08:15 (fixed 5 recent translations incl. my 3 from 09-09 — verified frontmatter now correct, PASS, no double work). Feed rebuild (05:06) republished 9 files dated 09-07 — known feed-rebuild artifact, not fighting. Corpus 109→110. Feed rebuild still blocked from cloud (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books; pipeline otherwise alive via Wizard (Goethe IT→EN) + my outer-ring stream. Note: research index stops at round 10 (09-07) — 09-08 14:00 UTC research round missing."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "08:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 37th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs, 0 new. lenr.seplm.ru homepage article/PDF links diffed vs index.json — all archived, 0 new; lenr.su + tuks fully harvested. viXra anti-bot 404 from cloud (fetch-tool landing OK; growth cron cat-scan 02:15Z/06:15Z all ≤ 2609.0017 = 0 new); energeticforum synced. Zenodo newest all ≤ 08-26 + English (context only). Archive **53,594** (post-06:15Z webozz +617; other workers padrak INE device-DB +146 → 53,569, zenodo-rh +25 → 53,594; feed rebuilt 07:07Z). Corpus **109** (QC +1 FR→EN 04:25Z). Translator stale ~10d (QC active). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-0800.md."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "06:15",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+617 archive entries — NEW source webozz.free.fr (FR free-energy CD-ROM mirror) fully harvested. — Discovery pass landed webozz.free.fr (\"Free Energy data\" CD-ROM mirror): enumerated 617 content HTML pages (Bedini/Gray/Tesla/Coanda/Lutec/orgone/water-fuel/patents), all processed (611 text previews), merged id-safe (060d3e7d, ids 1557437–1558053, archive **52,806→53,423**). Live-growing lane all-diffed this fire: lenr-canr /acrobat/ 0 new (1,454 synced), viXra cat-scan 0 new (global max 2609.0017 already archived), energeticforum homepage 0 new (517299/517431 already in filelist). iccf-27 proceedings/ STILL Under Construction → keep watch. **index.json now COMPACT (no indent): pretty-print crossed GitHub 100 MiB hard limit; compact keeps archive growing.** OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-growth-0615.md."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "04:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Abel Martin 1932 veterinary radiesthesia thesis article FR→EN (guerisseur-radiesthesiste.fr): short piece documenting the first doctoral degree ever awarded to a radiesthésiste — Dr. Abel Martin defended \"Diagnostic radiesthésique en médecine vétérinaire\" on 21 January 1932 at the Faculté de médecine de Paris, received with distinction, accepted by the open-minded Maisons-Alfort veterinary school. Adds institutional-history context to the French tradition. QC: Schauberger es→en (Dynamic Hydroelectric Energy, published 09-08) reviewed — frontmatter complete, content in English, PASS. Drunvalo QC agent ran at 04:10 (frontmatter fixes, duplicate removal) — coordinated, no overlap. Corpus 108→109. Feed rebuild still blocked (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days. Scout reports FR patent layer (FR 816.132, 1936) and thesis lane (Durand 2004, Martin 1932) now mapped — rich French radiesthesia tradition documented."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "02:15",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+1 archive entry — energeticforum.com live-diff (growth cron 02:15Z). — Homepage-activity diff found 1 previously-unarchived thread (495755 report-bugs-here, forum-help sticky meta) → filelist 8,128→8,129, processed, merged id-safe (3d64e85, id 1554246, archive **52,675→52,676**). lenr-canr.org /acrobat/ diff: 0 new (1,454 synced); viXra full cat-scan: 0 new (all cats ≤ 2609.0017 — already archived). iccf-27 proceedings/proceeding/ STILL Under Construction (9,845B unchanged) → keep watch. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-growth-0215.md."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "00:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations — First Turenne material in the corpus: (1) turenne.eu \"Radiesthésie scientifique — méthode Turenne\" FR→EN (Part 1) — the Turenne Association's exposition of scientific radiesthesia: origins in 19th-c. physics, Turenne's neuro-muscular induction thesis for the diviner's signal, the ten wave varieties (3 horizontal + 3 vertical + radioactive/radio-disintegration + infra + ultra + \"Turenne\" waves), SATURATION (detector turns = atomic number: copper 29, phosphorus 15, uranium 92), the Law of Similitude (reflected wave between similar bodies, surface not mass — Newton analogy), témoins (witnesses from blood drop, all Mendeleev elements, spectrum colors, plants, microbial strains, diseases, organs — \"eternal, indelible, unalterable\"), the H₂O witness, and the Law of Remanences (residual waves from removed bodies, treasure-hunting failures, persistence scales with atomic number). (2) wiki.johnben.ch \"Louis Turenne\" biography FR→EN — École Centrale engineer at 19, wounded at Verdun, T.S.F. professor under General Ferrié, Morocco phosphate/Sidi Harazem discoveries, the 93rd element prediction (Neptunium, Fermi's 1940 homage), Limousin radium mapping, 1952 Order-of-Physicians trial (symbolic franc), preface to Book IX, Paul Reboux's funeral eulogy (Turenne as \"Claude Bernard of human waves\"). QC: corpus 106→108. New Goethe IT→EN translation (Wizard, foreign-translate agent) reviewed — frontmatter complete, PASS; translator pipeline alive again via Wizard. Drunvalo QC agent active at :07 offset (frontmatter fixes, DB updates) — no double work. Feed rebuild still blocked (living-library corpus not migrated to cloud). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books."
+    },
+    {
+      "date": "2026-09-09",
+      "time": "00:06",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 35th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program page 200, 37,721B, 0 PDF/PPT links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new since 12:15Z +22). tuks.nl 200 (fully harvested). lenr.seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; growth cron handled viXra at 22:15Z (+5, 2609.0013–0017). Archive **52,669** (post-22:15Z growth +5, 94b96ca; 52,642@20:15Z aetherscience +99). Web scan surfaced only EN theory preprints (already archived) + ENG8 EN/RU news — no new primary FL docs to queue. STALE-FLAG translator ~10d (translation-qc active +2 FR→EN, corpus 106). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-0000.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "22:15",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "20:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations — Translated 2 French outer-ring docs from the Chaumery/de Bélizal tradition: (1) Centre Amyris \"Le pendule universel, un détecteur-émetteur d'ondes\" FR→EN (centreamyris.be, 2023) — Universal Pendulum PU-6 as detector-emitter of the color spectrum, radio-receiver analogy, frequency reference table (Alpha/Vert négatif/Oméga/Rhô/Psi), physical characteristics (beech wood, 60mm, 75g, three meridians E/M/EM), practical applications (detecting negative waves, Feng Shui harmonization, stone cleansing, treatment room clearing, acupuncture enhancement, gardening, chakra harmonizing, water dynamization); (2) geobiologie-sante.com \"Les vibrations couleurs du spectre selon Chauméry et Bélizal\" FR→EN (2011, Agnès Burnet) — 2×12 color spectrum system (12 magnetic phase pro-biotic + 12 electrical phase anti-biotic), full color sequence from Vert négatif through Blanc, pendulum detection method (left hand, color enumeration, clockwise vs counterclockwise), reader Q&A on vert négatif in magnetic phase, crystal pyramid emissions, mineral cleansing. QC: corpus 104→106, all files have frontmatter, 14 minimal-frontmatter files (feed-rebuild artifact, not fighting). Feed rebuild blocked (living-library corpus not migrated). Translator stale ~10 days."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "20:02",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 34th consecutive clean LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B unchanged; program page live 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new growth since 12:15Z +22). tuks.nl 200 (fully harvested). seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; Zenodo API 403 flaky. Archive **52,432** (post-18:15Z aetherometry.com +111 merged 38079fa + concurrent worker +42, stats baked 18:31Z). DISCOVERY in hand: aetherscience.org seeded #28 (99 Aspden PDFs, verified 200) — next growth fire. STALE-FLAG translator ~10d (translation-qc active, corpus 103, last +1 16:24Z). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-08-scout-report-2000.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "20:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 30th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, empty body) — hot watch; likeliest next FL source when it drops. viXra at 2609.0012 max (probed 0013–0017 → 404, no growth). Zenodo keyword mostrecent: nothing post-08-21 (newest real 22036645; 22117461 17O-water eng known). Exa RU/ZH fresh window = knowns/mainstream only (seplm repo news, ENG8/Biberian KB-OM repost 07-02 tracked, UBC-Thunderbird & 张航 MIT-CR39 ZH explainers old). — seplm.ru UP & enumerated — rotation #12 first live surface: 13 articles incl. Kaschenko massive-e-pairs, Prosvirnov LENR-role-in-6th-tech-paradigm, Mizuno nuclear-reaction-control trans, Grickevich patents, O-17-enriched-water-via-LENR; site announces РКХТЯиШМ-29 conf Sept 28–Oct 2 2026. Recommend growth-fire harvest (RU lane, 0 overlap).** lenr.su (73-seed RU filelist) next growth target @20:15Z. Archive 42,497 docs (18:15Z +63 apparentlyapparel 99e3c7b). **STALENESS FLAG — translator agent stale ~120h (translation-qc @16:22Z reported ~116h); sweeper still active (Schauberger 71–82, soft trip 09-08 08:17Z).** No claims >7d. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-2000.md.**"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "16:34",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+503 archive entries — newenergytimes.com fully harvested (489 year-library PDFs 1800s→2024: Krivit/Miles anomalous heat, DOE/OSTI archives, Bockris/Morrison collections) + tuks.nl deep subdir diff (+14 WFCProject schematics/datasheets: Hall sensor, HEF4046 PLL, electrodeposition papers, Honda manual, Meyer water-fuel patents). Merged id-safe (c881612+8e648f7, archive 51,887→52,390, ids 1529856–1531707). DISCOVERY: aetherometry.com seeded (120 live-verified PDFs — Correa Aetherometry corpus: J Aetherom Res JAR01-JAR04, AToS monographs, patents US7053576 etc., Aspden Reprints) → rotation #27. iccf-27 proceedings STILL Under Construction. OCR/queue/tag pending FocusOptimized."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "16:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Translated devenir-magnetiseur.com \"Radiesthésie Radionique Ondes de formes: Les bases\" (FR→EN): comprehensive overview of radiesthesia, radionics, and form waves — instruments (pendulum, dowsing rods, Lecher antenna, parallel rods with characteristics and uses table), history (Servranx structured 20th-century teaching, Condé developed radionics as distance action extension), radionics principles (intention → witness → active drawing/device → distance projection → vibratory field modification), Servranx radionic tools (Busby active drawings, cosmic/planetary charges, Force-S and Neutral batteries, Auradionic, ERR 6P), form waves and sacred geometry (Flower of Life as universal harmonizer, pyramid as dynamizer, Atlantean bar for telluric stabilization, talismans as programmable shields, Platonic solids linked to elements and chakras), material comparison table (glass/brass/stone/wood energetic properties), Bovis dial vibratory measurement, FAQ. QC: no new translations from other agents since 12:20 run (only Drunvalo report commit cc1a8ef). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus 103. Translator agent stale: no new publishes since ~Aug 30 (~10 days, well past 48h threshold)."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "12:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Translated bioetbienetre.fr \"La géobiologie: un facteur de santé publique\" (FR→EN): comprehensive overview of geobiology as a public health factor — cosmic radiations (GeV particles from supernovae/pulsars, solar/lunar radiations), telluric radiations (Van Allen belt, Schumann resonance, geomagnetic networks Hartmann/Curry from heavy metal fusion in Earth's core), morphic/akashic field (Ervin Laszlo, instantaneous information transfer enabling distance work), form waves / ondes de forme (Enel, Morel, Chaumery, De Lafoy, Sheldrake, De Belizal — vibration-color codification, magnetic vs electric phase, torsion spin right/left, impact on living cells), operative geobiology (Bovis Units vibrational rate, cosmo-telluric chimneys, Magnetic Blue harmonization points, three categories: natural/artificial/paranormal phenomena). QC: v2 dedup by prior run (5 DUPLICATE files renamed to v2 as alternative translations, old DUPLICATEs removed — clean approach, better than deletion). Feed rebuild (3de0d9a) updated 3 French files (theorie-phi-scalar-field, theorie-univers-onde, tuo-classical-formalism) with generic frontmatter — known feed-rebuild issue, not fighting. Corpus 103. Translator agent stale: no new publishes since ~Aug 30 (~10 days, well past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "12:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 29th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, empty body) — hot watch; likeliest next FL source when it drops. viXra at 2609.0012 max (probed 0013+ 404, no growth since 06:22Z +11). Zenodo keyword mostrecent: nothing post-08-21 (newest real 22036645; top now 21116578 07-02 Ouroboros = non-LENR). Exa RU/ZH fresh window = mainstream hot-fusion only (DIII-D Alfvén PRL, American Fusion Texatron, Pranos Pragya, PACMAN AI, 新奥 HB11). seplm.ru BACK UP (200, RU LENR, rotation idx 12 — harvestable next growth fire; announces РКХТЯиШМ-29 conference Sept 28–Oct 2 2026). lenr.su live (73 seed ready). Archive 39,077 docs / 980 researchers / 2,339 patents / 61 trans / 1,049 pg (stats baked 12:04:21Z aflinks-sync; flat since 10:15Z +412 zenodo-rh e64d3a5). Rotation zenodo-rh DONE → jcmns.org (585 PDFs seed ready) @12:15Z. — STALENESS FLAG — translator agent stale 108h (translation-qc @08:32Z); sweeper still active (chunks 71–82 @09-06 08:17Z, soft trip 09-08 08:17Z).** No claims stale. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-1200.md.**"
+    },
+    {
+      "date": "2026-09-08",
+      "time": "08:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Translated Geobios \"Les origines de la géobiologie\" (FR→EN, geobios.com): history of geobiology from ancient roots — Feng Shui (Zhou dynasty 1040 BCE, Kanyu, Forbidden City), Vaastu Shastra (Vedas 1800 BCE, five elements), Hippocrates' Treatise on Airs Waters and Places (430 BCE), Vitruvius on subsoil, Etruscan sheep-grazing site testing, Roman military camps, Templar/Romanesque church orientation on underground water crossings and sacred solar networks, Celtic Vouivre/wyvern fire-serpent, European dowsers (sourciers/rhabdomancers) with hazel rods, modern researchers (Peyré, Curry, Picard, Rocard, Hartmann from 1937–1950s). QC: 3 Zenodo-sourced French translations (TUO classical formalism, wave universe theory, scalar field) cleaned by another agent — good frontmatter, no scraping artifacts, content in English with proper source_language: fr. Feed rebuild (09e0095) re-published 3 files (akimov-shipov, shipov-torsion, spyridis) with minimal frontmatter — known feed-rebuild issue, not fighting. Corpus 102→103. Translator agent stale: no new publishes since ~Aug 30 (~10 days, well past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "08:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 28th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200 but empty body) — hot watch; conference ran Aug 31–Sep 4 (Niagara Falls), ENG8 PRVR scaling talk confirmed held; likeliest next FL source when slides/proceedings drop. Zenodo keyword 362 / fulltext 508 (query-normalized): newest real still 22036645 (08-21); closed 22166688 (GRC eng) + 22117461 (17O-water eng); PLEG 21999691 = EN not FL. viXra at 2609.0012 max (probed 0013–0020 → 404). Exa RU/EN/ZH fresh window = knowns/mainstream only (Krivit review, Lin 锦义 pool, Lebedkin STPC III, Fernandez TTC — all tracked/old). Archive 30,542 docs / 979 researchers / 2,339 patents / 57 trans / 967 pg (stats baked 08:03:14Z aflinks-sync 5528bf6; viXra +11 @06:22Z f1dbd05). Rotation → energeticforum (index 7, enumerate @08:15 growth fire). Fleet active (aflinks-sync feed rebuild 08:03Z, Drunvalo db refresh 06:05Z, Forge QC 04:26Z); translator pipeline NOT stale (sweeper Schauberger chunks 71–82 @09-06 08:17Z; 48h trips 09-08 08:17Z). No claims (only Essai de Radiesthésie, QC 09-06, 1 day — healthy). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-0800.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "04:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Translated Servranx brothers history + origins of radionics (FR→EN, servranx.com): biography of Félix & William Servranx, their journal La Radiesthésie pour tous (1946–1967), EXDOCIN dossiers (1957–1966), and the origins of radionics from Abrams (1863–1924) through Boyd, Mac Manis, Ruth Drown, Guyon Richards — four paths of radionics (electrical, pure adjustment, drawn schematics, beeswax). QC: aflinks-cron feed rebuild (73464c0) stripped frontmatter again — not re-fixing (documented as futile; feed rebuild is authority). Corpus 99. Translator agent stale: no new publishes since ~Aug 30 (~9 days, well past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "04:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+1 RU primary candidate — seplm.ru (rot #12) back UP again, stable this window. — /articles/ enumerated live (200, 13 items): Кащенко M.П. & Кащенко Н.М. (УрФУ/УГЛТУ, Екатеринбург) — Chapter 13 «Генерация компактных массивных электронных (ее)–пар в реальных установках и синтез элементов» in the collective monograph «Перспективные материалы и технологии» (Минск, 2026), annotated on site (KKN-activator ring orbits, Energoniva element synthesis, Шоулдерса charge clusters); plus M. Кащенко «Информация о трех статьях…» posted 2026-08-28. seplm has no harvest history (rot #12) — next growth fire should first-harvest it. ICCF-27 proceedings STILL Under Construction (9,845 B unchanged; program placeholders); JCMNS Vol 41 (ICCF-26 proceedings) already harvested via lenr-canr /acrobat. viXra max still 2609.0012 (0013–0020 404). Zenodo + RU/ES fresh windows: nothing new to queue (ENG8 EnergiCells = media commentary only). Archive 48,224 (naturalphilosophy deep-harvest 02:15Z). avalonlibrary #16 verified 200. infinite-energy 403. STALE-FLAG translator ~128h (re-issued); sweeper still active (71–82); no claims >7d (Active empty). OCR/queue/tag pending FocusOptimized. Full: living-library sources/2026-09-08-scout-report-0400.md / mirror sources/2026-09-08-scout-finds-0400-scout.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "04:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 27th consecutive clean LENR round since 08-21. ICCF-27 conference DONE (Aug 31–Sep 4, Niagara Falls): canonical site is iccf-27.org (iscmns.org/iccf27 now 404s), proceedings page live but Under Construction — hot watch for the next FL content drop (ENG8 PRVR scaling talk confirmed held). Zenodo keyword + fulltext: newest real still 22036645 (08-21); closed 22166688 (GRC eng) + 22117461 (17O-water eng); PLEG 21999691 = EN, not FL. Exa RU/ZH = mainstream hot fusion only; author.today metric-attractor essay (927085) re-closed context-only. Archive 30,017 docs / 979 researchers / 2,339 patents / 57 trans / 967 pg (stats bake 00:24Z). Rotation: svpwiki+i-sis+lenr-canr all COMPLETE, pointer→padrak/ine (06:15 fire). Fleet active (Forge QC 00:07Z, Drunvalo 00:12Z, aflinks-sync 00:18Z); translator pipeline NOT stale (sweeper Schauberger chunks 71–82 @09-06 08:17Z; 48h trips 09-08 08:17Z). No claims. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-0400.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "00:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations, +60 frontmatter re-fixes — aflinks-cron feed rebuild (00:04Z) stripped language/source_language fields from 60 files (undoing last run's batch fix). Re-applied all frontmatter: every file now has correct language + source_language (monolingual files: source_language = language; translations: source_language = source). Translated 2 French outer-ring docs from the Chaumery/de Bélizal tradition: (1) GLNF book review of \"Essai de radiesthésie vibratoire\" FR→EN — review of the foundational 1939 text, Louksor universal pendulum, form waves in ancient architecture, Golden Ratio, Sergueïev on energy from forms surpassing electricity/nuclear; (2) Londedisis \"Le Pendule du 5e Règne\" FR→EN — bague atlante/Ring of Re, Howard Carter, spectrum decomposition on wooden sphere, \"vert négatif\" (negative green) as shortest wavelength, Universal Pendulum PU-6. Corpus 96→98. Other agents active: scout (LENR archive growth to 42,667), Drunvalo/village (QC + synthesis on Pilot Wave Continuum). Translator agent stale: no new publishes since Sep 3 (~128h, past 48h threshold). Feed rebuild still blocked from cloud."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "20:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations, +78 frontmatter fixes — Batch-fixed frontmatter across entire corpus: added language: en and source_language: to 78 files that were missing them (standardized field names, cleaned old-format source_lang:/target_lang:/target_language: on 5 files). All 93→95 files now have consistent language metadata. Translated 2 French outer-ring docs: (1) GaiaMamart \"Petit historique de la théorie des ondes de formes\" FR→EN — history of form waves from ancient architecture through Lakhovsky, Chaumery/de Belizal/Morel, to Sheldrake's morphic resonance; (2) Geobios \"L'antenne de Lecher\" FR→EN — Lecher antenna as professional geobiology tool, physical vs mental radiesthesia, wavelength graduations for physical phenomena (magnetic north 5.7, electric field 7.8, gamma 8.6, radon 3.5, form emission 7.4). Translator agent stale: no new publishes since Sep 3 (~120h, past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "16:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Translated Vibratis \"planche de radiesthésie\" page (FR→EN): dowsing boards, Bovis biometer (0–18,000 UB scale, physical/energetic/spiritual tiers, fruit vitality experiments, extended 120,000 UB scale), medical radiesthesia boards (homeopathy, phytotherapy, acupuncture, chakras, anatomical, metals), geobiology boards (0 Hz–10 GHz frequency dials, electromagnetic wave assessment), board design, usage method, vibrational rate measurement. Corpus at 96 files. QC: all 95 existing files have valid frontmatter; 10 duplicate base-name groups (feed-rebuild artifact, not fighting). Translator agent stale: no new publishes since Sep 3 (~116h, past 48h threshold). Feed rebuild still blocked from cloud."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Translated Vibratis radiesthesia history page (FR→EN): full overview of radiesthesia history (Egypt, Bible, Greeks/Romans, Beausoleil 7 metal rods, Abbé Bouly), Rocard magnetite science (Kirschvink/Gould biogenic magnetite), applications (medical, geobiology, divination), tools (pendulum, dowsing rods, Lecher antenna, Bovis scale). Key finding: aflinks-cron feed rebuild at 12:04Z undid the 08:20 dedup (corpus 63→94) — dedup in AFLinks is futile while feed rebuild creates new dated copies from living-library source. Stopped deduping; recorded learning in pipeline notes. Translator agent stale: no new publishes since Sep 3 (~112h, past 48h threshold). Feed rebuild still blocked from cloud."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "**+1 translation — Denis Machon's critical analysis of Rocard's \"signal du sourcier\" experiments FR→EN (The Conversation, Aug 2026): methodology, results tables (5/10, 4/10, 4/10 = chance), identified biases (no true bli"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "08:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation, -32 duplicates — Deep dedup pass: removed 32 duplicate translation files (corpus 95→63). Eliminated compendium 5→1, shipov-torsion 5→1, akimov-shipov 4→1, torsion-physics-newton 5→1, magnitsky 5→1, plus -en/-fr-en duplicate pairs (enel, brocéliande, ether-einstein, ondes-de-forme, univers-sans-matiere). Translated Vibratis pendule divinatoire guide (FR→EN) — covers French radiesthesia history (Abbé Bouly, Abbé Mermet, Treyve, Aymar, Crozier), physical vs mental schools, Rocard magnetic field work, methods, dangers. Translator agent stale: no new publishes since Sep 3 (~108h, past 48h threshold). Feed rebuild still blocked."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "04:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation, -17 duplicates, +21 frontmatter fixes — Major corpus cleanup: removed 17 duplicate translation files (exact copies, superseded partials, auto-generated re-publishes). Fixed frontmatter on 21 files: corrected language tags (source language → en), added source_language field, replaced template/auto-generated descriptions with real ones. Translated Vibratis radionics page (FR→EN) — Chaumery/Belizal tradition, Servranx brothers, operator/witness/instrument. No new translations from translator agent in ~20h (not yet 48h stale). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus now at 80 translations (was 97, after dedup)."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "20:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 20:00 UTC, cloud round; 26th consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total (same 08:00/12:00/16:00, query-normalized) — newest real item still 22036645 (08-21); newer = previously-closed noise (OUROBOROS v10 22133690, 17O-water 22117461/21912323, Hamzah, PLEG). Fulltext variant (broadened query incl. nuclear reactions) 647 total: newest 22166688 (08-29, eng) Geometric Response Cosmology = CLOSED (English fringe cosmology, not LENR, not FL). Tracked spot-check 3/13 live + unchanged (Lin 21355740 cmn, Lemeshko 18521158 ru, Zhuang 20668098 zh). Exa RU/ZH/FR fresh window (Sep 1+) = mainstream hot-fusion only (DIII-D Alfven modes, Princeton PACMAN, PRAGYA, NIF, XinAo p-11B, Kardashev One, Type One stellarator license, Texatron, WEST) — author.today metric-attractor LENR essay (Alekseenko 09-03) re-confirmed context-only (flagged 00:00); media-tech.fr Parkhomov NCT article (09-04) = CLOSED false positive (verified 09-05 12:00: no arXiv preprint), never re-chase; proatom Prosvirnov/Ratis «Сомнений не осталось» date-checked = 12 Sep 2013 old; US Patent 12723750 (fossil-fuel EM light-nuclei fusion) = EN patent-lane context only. — lenr.seplm.ru BACK UP (200; was 000 at 16:00) — homepage scanned: static link directory, all items known/pre-window from 08:00/12:00 deep-reads. tuks.nl BACK UP (200; was 000) — fully harvested by 18:43 growth run (+120 docs, archive 15,512, e21c3a8). ICCF-27 proceedings page STILL under construction (200, 🚧 banner, no papers) — 1-3 wk watch. ARCHIVE GREW 15,392 -> 15,512 entries (+120 tuks.nl) / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers / 14 agents. **Translator ACTIVE — NOT STALE**: last output 09-05 12:18Z (Acqua Viva IT->EN 96th) + sweeper 12:19Z; ~32h since, 48h window trips ~09-07 12:18Z only if silent. Fleet: Drunvalo synthesis + site work through 14:51Z, translation-qc 08:08Z. No claims (claims.md empty). tuks 200, lenr-canr 200 (news stale June), viXra 406 flapping, lenr.seplm.ru 200, preprints.ru 200, iccf-27 200. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-2000.md + finds mirror sources/2026-09-06-scout-finds-2000-scout.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "19:40",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 cloud migration — QC cron moved to cloud runner. Pipeline no longer depends on the desktop app staying open. First cloud run: verified AFLinks push channel works from sandbox; feed rebuild blocked until living-library corpus (database/, translations/) is migrated into the cloud LL repo."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "16:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 16:00 UTC, cloud round; 25th consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total on the broad cold fusion OR LENR OR low energy nuclear query (query-normalized, same as 08:00/12:00) — newest real item still 22036645 (08-21), newer matches all previously-closed noise (OUROBOROS v10 22133690 08-27, 17O-water 22117461/21912323, Hamzah, PLEG). Fulltext sweep 263 total: newest 22464783 (09-06) = \"Dynamic Programming with Contextual Memory Networks\" CS/ML paper, CMNS acronym collision, NOT LENR, closed 08:00. Tracked spot-check 3/13 live + unchanged (KBF-01 20558306 deu, DMF 20551471 eng, Torchigin 21532952 ru). Exa RU/ZH fresh window (Sep 5+) = mainstream hot-fusion only (new: Princeton PACMAN AI tokamak-control MK.ru 09-06; IAEA nuclear-emulsion Dubna; CNNC fusion strategy; Kardashev One fall-test; Huawei t-chip ChinaXiv = unrelated) — no LENR, no non-EN primary docs. — lenr.seplm.ru flapping DOWN again (000; was 200 at 08:00/12:00 — 12:00 deep-read covered all homepage links, nothing un-read). ICCF-27 proceedings page STILL under construction (site 200, no paper links) — 1-3 wk watch, likely next FL source. ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers / 14 agents (live feed rebuilt 14:50:13Z — site-content driven: Replication Yard phase-4 pavilion + JSON-LD bridges + paradigm-signal report 13:32-14:51Z; archive docs unchanged; sync 08:04:44Z same 15,392). **Translator ACTIVE — NOT STALE**: last output 09-05 12:18Z (Acqua Viva IT→EN 96th) + sweeper 12:19Z; ~28h since, 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis 12:08Z, site-build work through 14:51Z, translation-qc 08:08Z (dupe fix + person-index). No claims. tuks 000 down, lenr-canr 200 up (news stale June), viXra 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up, iccf-27 200. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-1600.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "08:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 08:00 UTC, cloud round; 23rd consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total on the broad cold fusion OR LENR OR low energy nuclear query (query-normalized, not comparable to prior 219 count) — newest real item still 22036645 (08-21), newer matches all previously-closed noise (OUROBOROS v10 22133690 08-27, 17O-water 22117461 08-26, Hamzah, PLEG). Fulltext sweep 404 total: newest 22464783 (09-06) = \"Dynamic Programming with Contextual Memory Networks\" CS/ML paper, CMNS acronym collision, NOT LENR, closed. — lenr.seplm.ru BACK UP (200) for the first time since ~09-03 — deep-read DONE: Prosvirnov «Роль LENR в шестом технологическом укладе» confirmed as 2026-07-17 pre-window opinion/analysis essay (no experimental content) → CONTEXT-ONLY confirmed, 20:00-flag closed; New Fire Signal (09-05) = already-closed marketing; Kashchenko trio = covered 16:00. ICCF-27 proceedings page (iccf-27.org/proceeding/) still under construction — no proceedings yet. Exa EN sweeps = mainstream hot-fusion PR only (Kardashev One, PRAGYA, Texatron, Sirius, NIF). **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed 17:01:08Z 09-05; AFLinks sync 7f90eb2 04:05:53Z = same 15,392). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper 10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis pushes 06:05Z today, translation-qc 04:07Z (5 translations). No claims. tuks 000 down, lenr-canr 200 up (news stale June), viXra /new 406 flapping, lenr.seplm.ru 200 up, preprints.ru 200 up. AFLinks push OK (x-access-token). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0800.md + finds mirror sources/2026-09-06-scout-finds-0800-scout.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "04:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 04:00 UTC, cloud round; 22nd consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 219 total (newest 22036645 08-21 eng) / fulltext 206 total (nothing post-08-21; PLEG 21999691 08-18 + Hamzah + Nexus = previously closed noise) — fresh window clean 16 days. 8/13 tracked records spot-reverified live via GETs, ALL 200 + unchanged (zh Lin 19779040/20046998/21355740, Du 20736072; fr COLDFIRE-2.31 19744790; ja Tomita 19175263; de KBF-01 20558306; it Pulvirenti 15292781); remaining 5 re-verified 20:00 round. Exa EN/RU/FL sweeps (Sep 4+) = mainstream hot-fusion PR only (PRAGYA tokamak India plasma, Texatron portable vacuum vessel, ZC Kardashev One neutron-deflection @UAH, Helical Fusion METI ¥60B, German private-fusion race, DIII-D turbulence PRL, zeolite-Ag D/T separation) — no LENR, no non-EN primary docs; media-tech.fr Parkhomov resurfaced = CLOSED false positive (verified 09-05 12:00), NEVER re-chase. ICCF-27 (wrapped Sep 4/5) proceedings NOT yet published — expected within 1-3 weeks, likely next FL source. — ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z, no new rebuild this window). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; ~16h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. No claims (claims.md empty). Fleet: Drunvalo synthesis 18:07Z, Translation-QC 16:06Z (09-05). tuks 000 down, lenr-canr 200 up (news stale June), viXra /new 404 flapping, lenr.seplm.ru 000 down (Prosvirnov context-only pending deep-read), preprints.ru 200 up. AFLinks push OK. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0400.md + finds mirror sources/2026-09-06-scout-finds-0400-scout.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "00:10",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 00:00 UTC, cloud round; 21st consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 219 total (newest 22036645 08-21 eng) / fulltext 206 total (nothing post-08-21; Marchetti/Hamzah/Kulik-Nexus/Furui = all previously closed noise; Knösch NOT chased — known 2025-dated Exa false positive). 3/13 tracked records spot-reverified live via GETs, ALL 200 + unchanged (zh Lin 19779040/20046998/21355740); remaining 10 re-verified at 20:00 round. Exa sweeps: EN = mainstream only (Rafelski table-top survey arXiv 2609.01366, MGKDB, 21O+12C, non-proliferation, CFS ARC; media-tech.fr = verified false 12:00 09-05, never re-chase); RU = hot-fusion news only (Pranos Prāgya, Helical Fusion METI ¥60B, DIII-D Alfvén modes, NIF) + — 1 context-only: author.today/post/927085 «Вечный коралл» metric-attractor LENR reactor essay (Alekseenko 09-03) = speculative prose, NOT a research doc, do not queue**; ZH = mainstream (PRAGYA zh, Kardashev One neutron-recycling, LINEA p-11B FRC). lenr.seplm.ru 000 down from cloud (flapping; Prosvirnov piece context-only pending RU deep-read); lenr-canr news stale June. **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; ~12h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. No claims (claims.md empty). Fleet: Drunvalo synthesis 18:07Z, Translation-QC 16:06Z (09-05). tuks 000 down, lenr-canr 200 up, viXra /new 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up. AFLinks push OK. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0000.md + finds mirror sources/2026-09-06-scout-finds-0000-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "20:06",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 20:00 UTC, cloud round; 20th consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 134 total (keywords:LENR, newest Ouroboros+Eli 21116578 07-02 EN noise) / fulltext 238 total (newest 22117461 17O-water 08-26 EN = known noise closed 12:00, Hamzah/Nexus cluster) — nothing published after 08-21, fresh window still clean. All 13 tracked records re-verified live via GETs, ALL 200, titles/dates unchanged, no redirect drift (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). — NEW THIS ROUND: lenr.seplm.ru flapping DOWN again (000; was 200 at 16:00)** — Exa homepage cache (08-28) shows one item not in the 16:00 deep-read: **Prosvirnov \"Роль LENR в шестом технологическом укладе\"** (LENR's role in the sixth tech paradigm) = RU opinion/analysis piece, CONTEXT ONLY — flag for RU-lane deep-read when the site returns (verify essay vs research note before pursuing). Exa sweeps: EN/viXra = zero FL (arXiv torsion/EFT noise 2608.28832/2608.29541/2608.30774 — none LENR; Klimov PVR-W LinkedIn marketing re-surface = known 2024 paper; PRB magnetic-vortex \"transmutation\" = winding number not nuclear); RU = hot-fusion news only (Texatron vacuum-vessel, Pranos Pragya tokamak 09-04, XENONnT pp-neutrinos 09-02, Pacific Fusion Sirius IMG 3000-discharges, NIF item). lenr-canr.org news archive still stale (June 2026). **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z, sync 387ad24 17:02:33Z; no worker growth this window; 17:02 rebuild moved completed-translation source docs in books/ — Acqua Viva IT dropped, Akimov-Shipov 08-28 x2 + Shipov torsion-tech RU book files added = translated-content moves, not new finds). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th, +90 pg) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z; ~8h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis push 18:07Z (Longitudinal Waves/Non-Hertzian electrodynamics), Translation-QC checked 5 translations/removed 3 dupes/+4 researchers 16:06Z. No claims (claims.md empty). tuks down (000), lenr-canr up (200), viXra /new 404 flapping, lenr.seplm.ru 000 down, preprints.ru up. AFLinks push confirmed (GETHUBFORGE valid). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-2000.md + finds mirror sources/2026-09-05-scout-finds-2000-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "16:07",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 16:00 UTC, cloud round; 19th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl/8.0 UA, 182 total LENR/CF records): nothing published after 08-21, fresh window still clean (newest 22047981/22036645, eng). All 13 tracked records re-verified live via GETs, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). NEW THIS ROUND: — lenr.seplm.ru BACK UP (200)** after being down from cloud since ~09-03 — deep-read recovered the 08-28 batch we missed: (1) M. Kashchenko massive-electron-pairs trio announcement (RKHTYA-27 2022 titanium-atom paper + 2025 Minsk monograph chapter pp.144-163 + magnetotactic-bacteria line) — underlying works all pre-window 2022-25 → CONTEXT ONLY; 2025 chapter = watch-list RU theory-translation candidate, natural pickup at RKHTYA-29 proceedings (Sep 28-Oct 2); (2) New Fire Signal (New Fire Energy AI terminal, content 08-28) = marketing, closed; (3) Meyer LENR book (08-12) = pre-window context; (4) compact fusion heater prototype (APOC Wire) = EN mainstream-fusion news. Exa sweeps: EN/viXra domain = zero new FL (all old EN theory); RU = hot-fusion news only (Texatron vacuum vessel 09-05, Pranos Pragya 09-03, Type One license 09-01, Klimov PVR-W = 2024 paper + LinkedIn marketing); media-tech.fr Parkhomov nickel-nanotube claim still circulating = ALREADY VERIFIED FALSE at 12:00 (no arXiv preprint), do not re-chase. lenr-canr.org news archive stale (last June 2026). **ARCHIVE GREW to 15,392 entries / 96 translations / 1,242 pages / 29 declassified / 2,339 patents / 978 researchers / 14 agents** (feed rebuilt 16:03:02Z; +416 vs 12:00: +215 tuks harvest 12:10Z +201 by 16:03Z; +1 trans = Acqua Viva IT→EN Schauberger completed 12:18Z, +90 pages). **Translator ACTIVE — NOT STALE (staleness watch RESOLVED)**: Acqua Viva IT→EN 106/106 done 12:18Z + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z. No claims. tuks down (000), lenr-canr up (200), viXra /new 404 (flapping), lenr.seplm.ru up (200), preprints.ru up. **AFLinks push RESTORED** (GETHUBFORGE valid this round). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-1600.md + finds mirror sources/2026-09-05-scout-finds-1600-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "12:07",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 12:00 UTC, cloud round; 18th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl/8.0 UA; browser UA 403s — flapping): 238 total LENR/CF records, newest all English noise (22117461 17O-water brain-cancer 08-26, Hamzah, CollectiveOS/Nexus cluster), fresh window still clean since 08-21 (newest LENR-keyword 22047981/22036645 eng). All 13 tracked records re-verified live, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175262; de KBF-01 20558305 — redirects to latest versions, not errors). Exa sweeps: EN/viXra = zero FL LENR (George Filled Atom + Klimov marketing + muon-CF = EN context); RU = hot-fusion news only (Pacific Fusion, Texatron, Pranos Pragya, Huanliu-4, TRT, ST40); ZH = mainstream fusion news only (新奥氢硼 NFEC2026, 环流四号 25T, FRIB gamma news); FR/DE = RTBF history + — media-tech.fr Parkhomov nickel-nanotube deuterium claim checked & closed: arXiv shows NO such preprint (Parkhomov trail = beta-decay anomalies 2010-2022 + 2502.14519 Feb-2025 independent check); site is AI-generated aggregation, do not chase). ARCHIVE GREW: index.json = 14,976 entries (08:09:58Z aflinks-cron sync; +25 vs 04:00; feed block 08:02Z still 14,951) / 95 translations / 1,152 pages / 29 declassified / 2,339 patents / 975 researchers / 14 agents. Translator last output 09-04 (~36h) — NOT stale yet, 48h window trips ~09-06 00:00Z, flag then. ICCF-27 wrapped (Aug 31–Sep 4/5) — proceedings likely next FL source in 1-3 weeks. No claims. tuks down (000), lenr-canr up (200), viXra 406/Mod_Security (was 200 at 08:00 — flapping), lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-05-scout-report-1200.md + finds mirror sources/2026-09-05-scout-finds-1200-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "08:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 08:00 UTC, cloud round; 17th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl UA = 362 total LENR/CF records; unauth page cap 25): newest 22036645 (08-21, eng), window clean. All 13 tracked records re-verified live via GETs, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175262; de KBF-01 20558305 — Tomita + KBF-01 resolved via 302 redirects to latest versions, both unchanged). Exa fresh-window sweeps: EN/viXra lane = zero LENR preprints (Joseph George \"Filled Atom\" = English speculative context; Knösch = known Exa-date false positive, 2025 originals, do NOT chase); ZH lane = mainstream hot-fusion news only (新奥 HB11, 环流四号, 合肥 EAST/BEST); RU lane = hot-fusion news only (Texatron, TRT, Pranos). — NEW COMMUNITY CONTEXT: ICCF-27 (Aug 31–Sep 4/5, Niagara Falls) running NOW** — proceedings = likely source of next FL candidates (FR/IT/JA papers in 1–3 weeks). LENR Forum Aug newsletter also flags: NASA Forsley NTRS presentation (NASA+Google solid-state fusion → DOE ARPA-E LENR + DARPA MARRS), Mizuno/Hwang SUS304 cold-worked preprint (Research Square), Czerski et al. thermal D-D fusion preprint — all English, QC/context only. ARCHIVE FLAT at 14,951 entries / 95 translations / 1,152 pages / 29 declassified / 2,339 patents / 975 researchers / 14 agents (feed rebuilt 09-05 04:03:23Z; 06:04Z db refresh +5 works not yet in feed). Translator last output 09-04 (~28h) — NOT stale but watch: window ends ~09-06 00:00Z. No claims. tuks down (000), lenr-canr up (200), viXra 200 (recovered from 406), lenr.seplm.ru down, preprints.ru up (Lebedkin /article/3115604 alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-05-scout-report-0800.md + finds mirror sources/2026-09-05-scout-finds-0800-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "04:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 04:00 UTC, cloud round). Fresh Zenodo LENR-keyword window clean since 08-21 (newest 22047981/22036645, both 08-21, both eng; keyword query OK = 182 records; creator/fulltext field queries returned 0 — API quirk, no depth loss). All 13 tracked records re-verified live at record level via GETs (11 OK, titles/dates unchanged: zh Lin 21355740/Zhuang 20668098/Du 20736072; ru Lemeshko 18521158/Torchigin 21946561/ETVE 19305307/TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471; Tomita 19175262 + de KBF-01 20558305 GETs rate-limited, stable knowns). New this round: Marchetti 20158981 (ita, 05-13) surfaced in sweep and was CHECKED — energy-economics \"Cold Case\" (Marchetti/Nakicenovic IIASA 1979 substitution model), NOT LENR, keyword false positive, closed. Exa fresh-window sweeps: EN/viXra lane clean (software releases, Goldbach v308, FEP Lean, mRNA preprint = non-LENR noise), RU lane = hot-fusion news only (Pranos Prāgya, Pacific Fusion, Rosatom TRT, Tokamak Energy ST40), viXra domain sweep = zero LENR/CF in window. ARCHIVE GREW to 14,951 entries / 95 translations / 1,152 pages / 29 declassified / 2,339 patents / 975 researchers / 14 agents (feed rebuilt 09-05 01:02:22Z; +721/+0/+0/+0/+2 vs 00:00 — worker-side: SVPwiki 500-page harvest + zenodo-rh batch + padrak batch). Translator ACTIVE (09-04 translations in feed; curator 08:47Z, sweeper 21:17Z, book5 12:01Z) NOT stale. No claims. tuks down (000), lenr-canr up (200), viXra 406/Mod_Security (was 200 last round — geo/anti-bot), lenr.seplm.ru down, preprints.ru up (Lebedkin /article/3115604 alive). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-0400.md + finds mirror sources/2026-09-05-scout-finds-0400-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "00:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds this round — No new foreign-language LENR queue candidates: fresh LENR-keyword window on Zenodo still clean since 08-21 (newest 22036645, verified in first query this round). Zenodo search API 403-blocked after first query (sandbox IP rate-limited, spaced retries failed) — used Exa fallback for author re-verification: Lin cluster (all known records only), Lozac'h COLDFIRE series (nothing newer than tracked 2.31 19744790; IGFD-V4 math 22301256 09-04 = context only), Lemeshko temporal-catalysis (known records only), Torchigin (nothing newer than 07-24 tracked) — all stable, no new versions. Context watch: **RKHTYA-29** Russian conference (Sep 28–Oct 2) — RU preprint dump potential. **ARCHIVE GREW to 14,230 entries / 95 translations / 1,152 pages / 29 declassified / 2,339 patents / 973 researchers / 14 agents** (feed rebuilt 09-05 00:03:12Z; +625/+1/+2/+3 vs 20:00 — growth resumed, flat window resolved). Pipeline ACTIVE — translator NOT stale (09-04 Vortex Motor + TUO FR→EN + Spyridis EL→EN + Shipov RU→EN). No claims. tuks down from cloud (worker reports up), lenr-canr up, viXra up (/new 404, lane quiet), lenr.seplm.ru down from cloud (content alive per Exa), preprints.ru up (Lebedkin /article/3115604 alive). OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-05-scout-report-0000.md + finds mirror sources/2026-09-05-scout-finds-0000-scout.md."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "20:15",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds this round — No new foreign-language LENR queue candidates: all 29 tracked records re-verified live at record level via curl GETs (zh Lin pool 8 + Zhuang 20668098 + Du 20736072; ru Lemeshko TTU trio + 18521158 + ETVE 19305307 + Torchigin 21532952/21946561; fr COLDFIRE-2.31 19744790 + DYN-LENR 17396246 + nanodiamond 19075653; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471/Tomita 19175262; de KBF-01 20558305), titles/dates unchanged. Fresh LENR-keyword window now 15 days clean (newest 22036645, 08-21). Zenodo search API 403-blocked from cloud this round — worked around with record GETs + Exa sweeps (Exa window = known Knösch 2025-dated false positives + cosmology/hydride noise, none LENR/FL). 1 context-only note: Lozac'h 22301256 (09-04, fra) = newest IGFD-V4 isodyne/math series entry, NOT LENR, series continuity only. **Archive UNCHANGED at 13,605 entries / 94 translations / 1,150 pages / 29 declassified / 2,339 patents / 970 researchers / 14 agents** (feed rebuilt 09-04 17:03:08Z, same as 12:00 round — worker-side harvest paused this window, watch item). Pipeline ACTIVE — translator NOT stale (09-04 TUO FR→EN + Spyridis EL→EN + Shipov RU→EN all in feed). No claims. tuks down from cloud (worker reports up), lenr-canr up, viXra up (200, lane quiet), lenr.seplm.ru down, preprints.ru/3908 Lebedkin alive. OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-04-scout-report-2000.md + finds mirror sources/2026-09-04-scout-finds-2000-scout.md."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "12:14",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds this round — No new foreign-language LENR queue candidates (2026-09-04 12:00 UTC, cloud round). All tracked clusters verified stable via Zenodo keyword + author re-sweeps (zh Lin pool + Zhuang + Du, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lemeshko = ML-eval, Torchigin = LENR list/videos, Zhuang = GHG/coastal data). 1 context-only note: Lozac'h **22301256** (09-04, fra) = newest in the **IGFD-V4 isodyne/math series** (with 22284865/22234456), NOT LENR — series continuity only. COLDFIRE chain top still 2.31 (19744790). **ARCHIVE GREW: 13,605 entries / 94 translations / 1,150 pages / 26 declassified / 2,339 patents / 970 researchers / 14 agents** (feed rebuilt 09-04 12:01Z; +65 entries/+4 trans/+61 pg vs 08:00) — growth worker-side. Pipeline ACTIVE — translator NOT stale (09-04 TUO Theory FR→EN latest). No claims. tuks down (000), lenr-canr up, **viXra up (200, improved from 406)**, lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-04-scout-report-1200.md."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "08:06",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds this round — No new foreign-language LENR queue candidates (2026-09-04 08:00 UTC, cloud round). All 24 tracked clusters verified stable via Zenodo keyword + author re-sweeps (zh Lin pool + Zhuang + Du, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lozac'h 22284865 = IGFD-V4 math only; Matsuoka = lunar maps/eDNA, Lemeshko = ML-eval, Zhuang = GHG data, Torchigin = LENR list doc, Tomita = epigenetics). 1 context-only zh note: 22262820 Taiji Unified Field Theory v5.4 (Sun Hechun, 09-03) — unified-field, NOT LENR, flagged for subtle-energy zh+sacred-geometry rotation. **Archive 13,540 entries / 90 translations / 1,089 pages / 26 declassified / 2,339 patents / 970 researchers (181 cataloged) / 14 agents** (feed rebuilt 09-04 04:02:44Z). Translator ACTIVE (09-03 translations) NOT stale. No claims. tuks down (000), lenr-canr up, viXra 406/Mod_Security (was 200 last round), lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-04-scout-report-0800.md + finds mirror sources/2026-09-04-scout-finds-0800-scout.md."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "04:12",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates this round (2026-09-04 04:00 UTC, cloud round). All tracked clusters verified stable via Zenodo keyword + author queries (zh Lin pool+Zhuang+Du, ru Lemeshko/TTU/ETVE, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lozac'h 22284865 fr = IGFD-V4 math, NOT LENR, context only; Matsuoka 22288840 eng Co-Intelligence, not LENR; Zhuang = only 2 known eng records). ARCHIVE reached 13,565 docs (latest sync feed) — worker-side growth. Translator ACTIVE 09-03 (Barrett DE->EN published), NOT stale; no claims. tuks down (000), lenr-canr up, viXra up, lenr.seplm.ru down. OCR/queue/tag pending FocusOptimized — on-machine next: zh queue TOP (Lin pool + 20668098 + 20736072) + Torchigin 21532952 ru."
+    },
+    {
+      "date": "2026-09-04",
+      "time": "00:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds this round — No new foreign-language LENR queue candidates: all 24 tracked records re-verified live via Zenodo keyword + author queries (zh Lin pool + Zhuang + Du; ru Lemeshko TTU trio + 18521158 + ETVE + Torchigin; fr COLDFIRE-2.31 19744790 + DYN-LENR + nanodiamond; it Pulvirenti/Marino; ja DMF + Tomita; de KBF-01). Fresh LENR-keyword window now 14 days clean (newest 22036645, 08-21); 8-lang sweeps empty in window (zh/ja = adaptive-ML noise, ru/uk = non-LENR); author queries = no new LENR versions (Lozac'h = IGFD-V4 tokamak math 22284865 only, no new COLDFIRE; Matsuoka/Lemeshko/Zhuang/Du = unrelated data; Torchigin = known list/videos; Lin = homonym noise). COLDFIRE chain top still 2.31 (19744790). **Archive GREW: 13,390 entries / 90 translations / 1,089 pages / 26 declassified / 2,339 patents / 181 researchers / 14 agents** (feed rebuilt 09-04 00:03:21Z) — growth driven by worker side (zenodo-rh +160 Recursive Harmonic docs + 81-name researcher sweep 09-03 22:12Z, svpwiki +9, zenodo-rh +60), not by scouting. Pipeline ACTIVE — translator NOT stale (9 translations dated 09-03: Vortex Motor ES->EN, torsion ru/de, FR stack, es psicogeometria; commits to 00:09Z). No claims. tuks down from cloud (worker reports it back up — geo-dependent), lenr-canr up, viXra /new 404, preprints.ru/3908 Lebedkin alive, lenr.seplm.ru now down. OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-04-scout-report-0000.md + finds mirror sources/2026-09-04-scout-finds-0000-scout.md."
     }
   ],
   "declassified": [
@@ -174638,7 +174638,67 @@
         "2397087",
         "2397145",
         "2397204",
-        "2397264"
+        "2397264",
+        "2398311",
+        "2398313",
+        "2398316",
+        "2398320",
+        "2398325",
+        "2398331",
+        "2398338",
+        "2398346",
+        "2398355",
+        "2398365",
+        "2398376",
+        "2398388",
+        "2398401",
+        "2398415",
+        "2398430",
+        "2398446",
+        "2398463",
+        "2398481",
+        "2398500",
+        "2398520",
+        "2398541",
+        "2398563",
+        "2398586",
+        "2398610",
+        "2398635",
+        "2398661",
+        "2398688",
+        "2398716",
+        "2398745",
+        "2398775",
+        "2398806",
+        "2398838",
+        "2398871",
+        "2398905",
+        "2398940",
+        "2398976",
+        "2399013",
+        "2399051",
+        "2399090",
+        "2399130",
+        "2399171",
+        "2399213",
+        "2399256",
+        "2399300",
+        "2399345",
+        "2399391",
+        "2399438",
+        "2399486",
+        "2399535",
+        "2399585",
+        "2399636",
+        "2399688",
+        "2399741",
+        "2399795",
+        "2399850",
+        "2399906",
+        "2399963",
+        "2400021",
+        "2400080",
+        "2400140"
       ],
       "Acoustics": [
         "2397818"
@@ -233328,7 +233388,67 @@
       "2398307": "Observation of Nuclear Transmutation Induced by Deuterium Permeation through a Pd Complex (Iwamura et al., MHI Technical Review Vol.42 No.1, 2005)",
       "2398308": "Review of Materials Science for Studying the Fleischmann and Pons Effect (Violante et al., Current Science Vol.108 No.4, 2015)",
       "2398309": "Thermal and Nuclear Aspects of the Pd/D2O System, Vol.1: A Decade of Research (SPAWAR Technical Report 1862, 2002)",
-      "2398310": "Thermal and Nuclear Aspects of the Pd/D2O System, Vol.2: Simulation of Experiments (SPAWAR Technical Report 1862, 2002)"
+      "2398310": "Thermal and Nuclear Aspects of the Pd/D2O System, Vol.2: Simulation of Experiments (SPAWAR Technical Report 1862, 2002)",
+      "2398311": "GA 19. Thoughts During the Time of War",
+      "2398313": "An Award-winning Academic work on the History of the Outbreak of War — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398316": "The First Memoranda of July 1917 — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398320": "Second Memorandum (first version of July 22, 1917) — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398325": "Second Memorandum, second version — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398331": "Preliminary Remarks on “The ‘Guilt’ of the War” — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398338": "To the German People and to the German Government! — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398346": "New Facts About the Prehistory of the World War — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398355": "TSubsequent comments on the “Matin” Interview — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398365": "On “Rejoinders” to the “Matin” Article — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398376": "Countering Objections Raised About the “Matin” Interview — GA 19. Additional Documents Concerning the Events of World War I",
+      "2398388": "Foreword and Introduction - Thought-World, Personality, Peoples — The Riddle of Man (1990)",
+      "2398401": "Idealism as an Awakening of the Soul: Johann Gottlieb Fichte — The Riddle of Man (1990)",
+      "2398415": "Idealism as a View About Nature and the Spirit: Friedrich Wilhelm Joseph Schelling — The Riddle of Man (1990)",
+      "2398430": "German Idealism as the Beholding of Thoughts: Hegel — The Riddle of Man (1990)",
+      "2398446": "A Forgotten Stream in German Spiritual Life — The Riddle of Man (1990)",
+      "2398463": "Pictures from the Thought-Life of Austria — The Riddle of Man (1990)",
+      "2398481": "New Perspectives — The Riddle of Man (1990)",
+      "2398500": "Translator's Introduction - The Riddle of Man (1990)",
+      "2398520": "Contents — Vom Menschenrätsel",
+      "2398541": "Das Weltbild des deutschen Idealismus — Vom Menschenrätsel",
+      "2398563": "Eine vergessene Strömung im deutschen Gedankenleben — Vom Menschenrätsel",
+      "2398586": "Bilder aus dem Gedankenleben Österreichs — Vom Menschenrätsel",
+      "2398610": "Ausblicke — Vom Menschenrätsel",
+      "2398635": "Chapter 1. Goethe's Faust: A Picture of his Esoteric World \nConception — Goethe's Standard of the Soul (1925)",
+      "2398661": "Chapter 2. Goethe's Standard of the Soul, as Illustrated in Faust — Goethe's Standard of the Soul (1925)",
+      "2398688": "Chapter 3. Goethe's Standard of the Soul, as Illustrated in his \nFairy Story of “The Green Snake and the Beautiful Lily.” — Goethe's Standard of the Soul (1925)",
+      "2398716": "Chapter 4. Goethe's Fairy Tale. The Green Snake and the Beautiful  Lily — Goethe's Standard of the Soul (1925)",
+      "2398745": "Translator's Note — Goethe's Standard of the Soul (1925)",
+      "2398775": "I. Goethes \"Faust\" als Bild seiner esoterischen Weltanschauung - Goethes Geistesart - Rudolf Steiner Archive",
+      "2398806": "II. Goethes Geistesart in ihrer Offenbarung durch seinen Faust - Goethes Geistesart - Rudolf Steiner Archive",
+      "2398838": "III. Goethes Geistesart in ihrer Offenbarung durch sein „Märchen von der grünen Schlange und der Lilie.“ - Goethes Geistesart - Rudolf Steiner Archive",
+      "2398871": "Chapter 1. The Three Steps of Anthroposophy — Cosmology, Religion and Philosophy (1943)",
+      "2398905": "Chapter 2. Exercises of Thought, Feeling and Volition — Cosmology, Religion and Philosophy (1943)",
+      "2398940": "Chapter 3. Methods of Imaginative, Inspired and Intuitive \nKnowledge or Cognition — Cosmology, Religion and Philosophy (1943)",
+      "2398976": "Chapter 4. Exercises of Cognition and Will — Cosmology, Religion and Philosophy (1943)",
+      "2399013": "Chapter 5. Experiences of the Soul in Sleep — Cosmology, Religion and Philosophy (1943)",
+      "2399051": "Chapter 6. Transference from the Psycho-Spiritual to the Physical \nSense-Life in Man's Development — Cosmology, Religion and Philosophy (1943)",
+      "2399090": "Chapter 7. The Relationship of Christ with Humanity — Cosmology, Religion and Philosophy (1943)",
+      "2399130": "Chapter 8. The Event of Death and Its Relationship with the \nChrist — Cosmology, Religion and Philosophy (1943)",
+      "2399171": "Chapter 9. The Destination of the Ego-consciousness in \nConjunction with the Christ-problem — Cosmology, Religion and Philosophy (1943)",
+      "2399213": "Chapter 10. On Experiencing the Will-part of the Soul — Cosmology, Religion and Philosophy (1943)",
+      "2399256": "I. Die drei Schritte der Anthroposophie — Die drei Schritte der Anthroposophie: Philosophie — Kosmologie — Religion - Rudolf Steiner Archive",
+      "2399300": "II. Seelenübungen des Denkens, Fühlens und Wollens - Philosophie — Kosmologie — Religion - Rudolf Steiner Archive",
+      "2399345": "III. Imaginative, inspirierte und intuitive Erkenntnismethode — Philosophie - Kosmologie - Religion - Rudolf Steiner Archive",
+      "2399391": "IV. Erkenntnisgrundlagen einer wahren Philosophie, Kosmologie und Religion — Philosophie - Kosmologie - Religion - Rudolf Steiner Archive",
+      "2399438": "V. Schlaferlebnisse der Seele — Philosophie - Kosmologie - Religion - Rudolf Steiner Archive",
+      "2399486": "VI. Der Übergang vom seelisch-geistigen Dasein in der Menschenentwicklung zum sinnlich-physischen — Philosophie - Kosmologie - Religion - Rudolf Steiner Archive",
+      "2399535": "VII. Christus in seinem Zusammenhang mit der Menschheit und das Rätsel des Todes — Philosophie - Kosmologie - Religion - Rudolf Steiner Archive",
+      "2399585": "VIII. Das gewöhnliche und das höhere Bewusstsein — Philosophie - Kosmologie - Religion - Rudolf Steiner Archive",
+      "2399636": "IX. Das Ereignis des Todes im Zusammenhang mit dem Christus — Philosophie - Kosmologie - Religion - Rudolf Steiner Archive",
+      "2399688": "X. Das Erleben des Willensteils der Seele in seiner Wirkung über den Tod hinaus — Philosophie, Kosmologie, Religion",
+      "2399741": "I. At the Dawn of the Michael Age — GA 26. The Michael Mystery (1956)",
+      "2399795": "II. The Human Soul before the Dawn of the Michael Age — GA 26. The Michael Mystery (1956)",
+      "2399850": "III. The Pre-Michaelite Way, and the Way of Michael — GA 26. The Michael Mystery (1956)",
+      "2399906": "IV. Michael's Task in the Sphere of Ahriman — GA 26. The Michael Mystery (1956)",
+      "2399963": "V. Michael's Experiences in the Fulfillment of his Cosmic Mission — GA 26. The Michael Mystery (1956)",
+      "2400021": "VI. Mankind's Future and the Work of Michael — GA 26. The Michael Mystery (1956)",
+      "2400080": "VII. Michael-Christ in Man — GA 26. The Michael Mystery (1956)",
+      "2400140": "VIII. Michael's Mission in the Cosmic Age of Human Freedom — GA 26. The Michael Mystery (1956)"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -549350,6 +549470,207 @@
         "Conspiracy / Politics",
         "Biology / Health",
         "LENR / Cold Fusion"
+      ],
+      "2398311": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398313": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398316": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398320": [
+        "Anthroposophy / Rudolf Steiner",
+        "Biology / Health"
+      ],
+      "2398325": [
+        "Anthroposophy / Rudolf Steiner",
+        "Biology / Health"
+      ],
+      "2398331": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398338": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398346": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398355": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398365": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398376": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398388": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398401": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398415": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398430": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398446": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398463": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398481": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398500": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398520": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398541": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398563": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398586": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398610": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398635": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2398661": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2398688": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2398716": [
+        "Anthroposophy / Rudolf Steiner",
+        "Biology / Health",
+        "Goethean Science"
+      ],
+      "2398745": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2398775": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2398806": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2398838": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2398871": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2398905": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398940": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2398976": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2399013": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399051": [
+        "Anthroposophy / Rudolf Steiner",
+        "Aether Physics"
+      ],
+      "2399090": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399130": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399171": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399213": [
+        "Anthroposophy / Rudolf Steiner",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "2399256": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2399300": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399345": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399391": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399438": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2399486": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399535": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2399585": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399636": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399688": [
+        "Anthroposophy / Rudolf Steiner",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "2399741": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399795": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399850": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399906": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2399963": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2400021": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2400080": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2400140": [
+        "Anthroposophy / Rudolf Steiner"
       ]
     },
     "meta_concepts": {
@@ -656201,7 +656522,67 @@
         "p_bridge"
       ],
       "2398309": [],
-      "2398310": []
+      "2398310": [],
+      "2398311": [],
+      "2398313": [],
+      "2398316": [],
+      "2398320": [],
+      "2398325": [],
+      "2398331": [],
+      "2398338": [],
+      "2398346": [],
+      "2398355": [],
+      "2398365": [],
+      "2398376": [],
+      "2398388": [],
+      "2398401": [],
+      "2398415": [],
+      "2398430": [],
+      "2398446": [],
+      "2398463": [],
+      "2398481": [],
+      "2398500": [],
+      "2398520": [],
+      "2398541": [],
+      "2398563": [],
+      "2398586": [],
+      "2398610": [],
+      "2398635": [],
+      "2398661": [],
+      "2398688": [],
+      "2398716": [],
+      "2398745": [],
+      "2398775": [],
+      "2398806": [],
+      "2398838": [],
+      "2398871": [],
+      "2398905": [],
+      "2398940": [],
+      "2398976": [],
+      "2399013": [],
+      "2399051": [],
+      "2399090": [],
+      "2399130": [],
+      "2399171": [],
+      "2399213": [],
+      "2399256": [],
+      "2399300": [],
+      "2399345": [],
+      "2399391": [],
+      "2399438": [],
+      "2399486": [],
+      "2399535": [],
+      "2399585": [],
+      "2399636": [],
+      "2399688": [],
+      "2399741": [],
+      "2399795": [],
+      "2399850": [],
+      "2399906": [],
+      "2399963": [],
+      "2400021": [],
+      "2400080": [],
+      "2400140": []
     }
   },
   "graph": {
