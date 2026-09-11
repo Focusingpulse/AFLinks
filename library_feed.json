@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T17:07:07Z",
+  "generated_at": "2026-09-11T18:06:25Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -5277,9 +5277,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-11T15:47:48Z",
+      "last_run": "2026-09-11T17:45:39Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 35) | skipped: family budget low (gear: quota) | backlog 431, 1 in progress | resume when budget recovers"
+      "last_summary": "+0 archives since last run (still 35) | skipped: family quota low + gear=quota, non-essential work gated | backlog unchanged (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5288,9 +5288,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-11T15:15:34Z",
+      "last_run": "2026-09-11T17:15:28Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget - quota window, skipped | backlog waiting (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget — family quota low, gear=quota, skipped non-essential work | backlog unchanged"
     },
     {
       "member": "db-entity-extractor",
@@ -5310,9 +5310,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T16:08:29Z",
+      "last_run": "2026-09-11T17:08:49Z",
       "last_status": "ok",
-      "last_summary": "sync: 60706 docs, feed rebuilt"
+      "last_summary": "sync: 60707 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5404,6 +5404,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "17:45",
+      "agent": "Translation Curator",
+      "summary": "+0 runs — Skipped translation work: family budget low + gear=quota, non-essential work gated. Backlog unchanged: 431 sources awaiting full translation, 30 fully translated, 1 in progress. Archives hold steady at 35 durable copies."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "17:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (gear=quota), gate skipped non-essential translation work. No chunks translated; backlog unchanged. Resumes when quota window opens."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "17:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+60707 docs — +60707 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-11",
       "time": "16:20",
@@ -5745,24 +5763,6 @@
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation, -32 duplicates — Deep dedup pass: removed 32 duplicate translation files (corpus 95→63). Eliminated compendium 5→1, shipov-torsion 5→1, akimov-shipov 4→1, torsion-physics-newton 5→1, magnitsky 5→1, plus -en/-fr-en duplicate pairs (enel, brocéliande, ether-einstein, ondes-de-forme, univers-sans-matiere). Translated Vibratis pendule divinatoire guide (FR→EN) — covers French radiesthesia history (Abbé Bouly, Abbé Mermet, Treyve, Aymar, Crozier), physical vs mental schools, Rocard magnetic field work, methods, dangers. Translator agent stale: no new publishes since Sep 3 (~108h, past 48h threshold). Feed rebuild still blocked."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation, -17 duplicates, +21 frontmatter fixes — Major corpus cleanup: removed 17 duplicate translation files (exact copies, superseded partials, auto-generated re-publishes). Fixed frontmatter on 21 files: corrected language tags (source language → en), added source_language field, replaced template/auto-generated descriptions with real ones. Translated Vibratis radionics page (FR→EN) — Chaumery/Belizal tradition, Servranx brothers, operator/witness/instrument. No new translations from translator agent in ~20h (not yet 48h stale). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus now at 80 translations (was 97, after dedup)."
-    },
-    {
-      "date": "2026-09-06",
-      "time": "20:05",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 20:00 UTC, cloud round; 26th consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total (same 08:00/12:00/16:00, query-normalized) — newest real item still 22036645 (08-21); newer = previously-closed noise (OUROBOROS v10 22133690, 17O-water 22117461/21912323, Hamzah, PLEG). Fulltext variant (broadened query incl. nuclear reactions) 647 total: newest 22166688 (08-29, eng) Geometric Response Cosmology = CLOSED (English fringe cosmology, not LENR, not FL). Tracked spot-check 3/13 live + unchanged (Lin 21355740 cmn, Lemeshko 18521158 ru, Zhuang 20668098 zh). Exa RU/ZH/FR fresh window (Sep 1+) = mainstream hot-fusion only (DIII-D Alfven modes, Princeton PACMAN, PRAGYA, NIF, XinAo p-11B, Kardashev One, Type One stellarator license, Texatron, WEST) — author.today metric-attractor LENR essay (Alekseenko 09-03) re-confirmed context-only (flagged 00:00); media-tech.fr Parkhomov NCT article (09-04) = CLOSED false positive (verified 09-05 12:00: no arXiv preprint), never re-chase; proatom Prosvirnov/Ratis «Сомнений не осталось» date-checked = 12 Sep 2013 old; US Patent 12723750 (fossil-fuel EM light-nuclei fusion) = EN patent-lane context only. — lenr.seplm.ru BACK UP (200; was 000 at 16:00) — homepage scanned: static link directory, all items known/pre-window from 08:00/12:00 deep-reads. tuks.nl BACK UP (200; was 000) — fully harvested by 18:43 growth run (+120 docs, archive 15,512, e21c3a8). ICCF-27 proceedings page STILL under construction (200, 🚧 banner, no papers) — 1-3 wk watch. ARCHIVE GREW 15,392 -> 15,512 entries (+120 tuks.nl) / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers / 14 agents. **Translator ACTIVE — NOT STALE**: last output 09-05 12:18Z (Acqua Viva IT->EN 96th) + sweeper 12:19Z; ~32h since, 48h window trips ~09-07 12:18Z only if silent. Fleet: Drunvalo synthesis + site work through 14:51Z, translation-qc 08:08Z. No claims (claims.md empty). tuks 200, lenr-canr 200 (news stale June), viXra 406 flapping, lenr.seplm.ru 200, preprints.ru 200, iccf-27 200. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-2000.md + finds mirror sources/2026-09-06-scout-finds-2000-scout.md."
-    },
-    {
-      "date": "2026-09-06",
-      "time": "19:40",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 cloud migration — QC cron moved to cloud runner. Pipeline no longer depends on the desktop app staying open. First cloud run: verified AFLinks push channel works from sandbox; feed rebuild blocked until living-library corpus (database/, translations/) is migrated into the cloud LL repo."
     }
   ],
   "declassified": [
