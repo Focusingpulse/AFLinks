@@ -1,6 +1,6 @@
 ---
 name: "2026-09-11-shipov-torsion-fields-and-torsion-technologies-ru"
-description: "Full-document translation (assembled from completed chunks)."
+description: "Translation of torsion field research by G.I. Shipov. Source: http://shipov.com. Language: Russian."
 ---
 
 TORSION FIELDS AND TORSION TECHNOLOGIES.1
