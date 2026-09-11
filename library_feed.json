@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T15:09:49Z",
+  "generated_at": "2026-09-11T15:22:49Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -5275,9 +5275,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-11T13:15:28Z",
+      "last_run": "2026-09-11T15:15:34Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (no budget) | budget window low, quota gear — no-op, resume next fire | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget - quota window, skipped | backlog waiting (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5297,9 +5297,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T14:08:03Z",
+      "last_run": "2026-09-11T15:13:08Z",
       "last_status": "ok",
-      "last_summary": "sync: 60703 docs, feed rebuilt"
+      "last_summary": "sync: 60706 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5391,6 +5391,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "15:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — Heartbeat: budget gate closed (quota gear, mode=low) — skipped translation work this cycle. No chunks translated. Note: book4-translate is stale (26.2h since last run, limit 24h) — flagging for next session."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "15:12",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+60706 docs — +60706 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-11",
       "time": "15:04",
@@ -5738,18 +5750,6 @@
       "time": "00:10",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 00:00 UTC, cloud round; 21st consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 219 total (newest 22036645 08-21 eng) / fulltext 206 total (nothing post-08-21; Marchetti/Hamzah/Kulik-Nexus/Furui = all previously closed noise; Knösch NOT chased — known 2025-dated Exa false positive). 3/13 tracked records spot-reverified live via GETs, ALL 200 + unchanged (zh Lin 19779040/20046998/21355740); remaining 10 re-verified at 20:00 round. Exa sweeps: EN = mainstream only (Rafelski table-top survey arXiv 2609.01366, MGKDB, 21O+12C, non-proliferation, CFS ARC; media-tech.fr = verified false 12:00 09-05, never re-chase); RU = hot-fusion news only (Pranos Prāgya, Helical Fusion METI ¥60B, DIII-D Alfvén modes, NIF) + — 1 context-only: author.today/post/927085 «Вечный коралл» metric-attractor LENR reactor essay (Alekseenko 09-03) = speculative prose, NOT a research doc, do not queue**; ZH = mainstream (PRAGYA zh, Kardashev One neutron-recycling, LINEA p-11B FRC). lenr.seplm.ru 000 down from cloud (flapping; Prosvirnov piece context-only pending RU deep-read); lenr-canr news stale June. **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; ~12h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. No claims (claims.md empty). Fleet: Drunvalo synthesis 18:07Z, Translation-QC 16:06Z (09-05). tuks 000 down, lenr-canr 200 up, viXra /new 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up. AFLinks push OK. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0000.md + finds mirror sources/2026-09-06-scout-finds-0000-scout.md."
-    },
-    {
-      "date": "2026-09-05",
-      "time": "20:06",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 20:00 UTC, cloud round; 20th consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 134 total (keywords:LENR, newest Ouroboros+Eli 21116578 07-02 EN noise) / fulltext 238 total (newest 22117461 17O-water 08-26 EN = known noise closed 12:00, Hamzah/Nexus cluster) — nothing published after 08-21, fresh window still clean. All 13 tracked records re-verified live via GETs, ALL 200, titles/dates unchanged, no redirect drift (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). — NEW THIS ROUND: lenr.seplm.ru flapping DOWN again (000; was 200 at 16:00)** — Exa homepage cache (08-28) shows one item not in the 16:00 deep-read: **Prosvirnov \"Роль LENR в шестом технологическом укладе\"** (LENR's role in the sixth tech paradigm) = RU opinion/analysis piece, CONTEXT ONLY — flag for RU-lane deep-read when the site returns (verify essay vs research note before pursuing). Exa sweeps: EN/viXra = zero FL (arXiv torsion/EFT noise 2608.28832/2608.29541/2608.30774 — none LENR; Klimov PVR-W LinkedIn marketing re-surface = known 2024 paper; PRB magnetic-vortex \"transmutation\" = winding number not nuclear); RU = hot-fusion news only (Texatron vacuum-vessel, Pranos Pragya tokamak 09-04, XENONnT pp-neutrinos 09-02, Pacific Fusion Sirius IMG 3000-discharges, NIF item). lenr-canr.org news archive still stale (June 2026). **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z, sync 387ad24 17:02:33Z; no worker growth this window; 17:02 rebuild moved completed-translation source docs in books/ — Acqua Viva IT dropped, Akimov-Shipov 08-28 x2 + Shipov torsion-tech RU book files added = translated-content moves, not new finds). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th, +90 pg) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z; ~8h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis push 18:07Z (Longitudinal Waves/Non-Hertzian electrodynamics), Translation-QC checked 5 translations/removed 3 dupes/+4 researchers 16:06Z. No claims (claims.md empty). tuks down (000), lenr-canr up (200), viXra /new 404 flapping, lenr.seplm.ru 000 down, preprints.ru up. AFLinks push confirmed (GETHUBFORGE valid). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-2000.md + finds mirror sources/2026-09-05-scout-finds-2000-scout.md."
-    },
-    {
-      "date": "2026-09-05",
-      "time": "16:07",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 16:00 UTC, cloud round; 19th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl/8.0 UA, 182 total LENR/CF records): nothing published after 08-21, fresh window still clean (newest 22047981/22036645, eng). All 13 tracked records re-verified live via GETs, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). NEW THIS ROUND: — lenr.seplm.ru BACK UP (200)** after being down from cloud since ~09-03 — deep-read recovered the 08-28 batch we missed: (1) M. Kashchenko massive-electron-pairs trio announcement (RKHTYA-27 2022 titanium-atom paper + 2025 Minsk monograph chapter pp.144-163 + magnetotactic-bacteria line) — underlying works all pre-window 2022-25 → CONTEXT ONLY; 2025 chapter = watch-list RU theory-translation candidate, natural pickup at RKHTYA-29 proceedings (Sep 28-Oct 2); (2) New Fire Signal (New Fire Energy AI terminal, content 08-28) = marketing, closed; (3) Meyer LENR book (08-12) = pre-window context; (4) compact fusion heater prototype (APOC Wire) = EN mainstream-fusion news. Exa sweeps: EN/viXra domain = zero new FL (all old EN theory); RU = hot-fusion news only (Texatron vacuum vessel 09-05, Pranos Pragya 09-03, Type One license 09-01, Klimov PVR-W = 2024 paper + LinkedIn marketing); media-tech.fr Parkhomov nickel-nanotube claim still circulating = ALREADY VERIFIED FALSE at 12:00 (no arXiv preprint), do not re-chase. lenr-canr.org news archive stale (last June 2026). **ARCHIVE GREW to 15,392 entries / 96 translations / 1,242 pages / 29 declassified / 2,339 patents / 978 researchers / 14 agents** (feed rebuilt 16:03:02Z; +416 vs 12:00: +215 tuks harvest 12:10Z +201 by 16:03Z; +1 trans = Acqua Viva IT→EN Schauberger completed 12:18Z, +90 pages). **Translator ACTIVE — NOT STALE (staleness watch RESOLVED)**: Acqua Viva IT→EN 106/106 done 12:18Z + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z. No claims. tuks down (000), lenr-canr up (200), viXra /new 404 (flapping), lenr.seplm.ru up (200), preprints.ru up. **AFLinks push RESTORED** (GETHUBFORGE valid this round). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-1600.md + finds mirror sources/2026-09-05-scout-finds-1600-scout.md."
     }
   ],
   "declassified": [
@@ -674095,7 +674095,10 @@
       "2400862": [],
       "2400863": [],
       "2400864": [],
-      "2400865": [],
+      "2400865": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "2400866": [],
       "2400867": [],
       "2400868": [],
@@ -674209,9 +674212,15 @@
       "2400976": [],
       "2400977": [],
       "2400978": [],
-      "2400979": [],
-      "2400980": [],
-      "2400981": [],
+      "2400979": [
+        "p_bridge"
+      ],
+      "2400980": [
+        "p_visualray"
+      ],
+      "2400981": [
+        "p_visualray"
+      ],
       "2400982": [],
       "2400983": [],
       "2400984": [],
@@ -674225,7 +674234,9 @@
       "2400992": [],
       "2400993": [],
       "2400994": [],
-      "2400995": [],
+      "2400995": [
+        "geometry_sacred"
+      ],
       "2400996": [],
       "2400997": [],
       "2400998": [],
@@ -674236,60 +674247,104 @@
       "2401003": [],
       "2401004": [],
       "2401005": [],
-      "2401006": [],
-      "2401007": [],
-      "2401008": [],
+      "2401006": [
+        "p_unity"
+      ],
+      "2401007": [
+        "vortex"
+      ],
+      "2401008": [
+        "p_visualray"
+      ],
       "2401009": [],
       "2401010": [],
       "2401011": [],
       "2401012": [],
       "2401013": [],
       "2401014": [],
-      "2401015": [],
+      "2401015": [
+        "regenerative",
+        "p_nature"
+      ],
       "2401016": [],
-      "2401017": [],
+      "2401017": [
+        "p_nature"
+      ],
       "2401018": [],
       "2401019": [],
       "2401020": [],
       "2401021": [],
       "2401022": [],
-      "2401023": [],
+      "2401023": [
+        "p_visualray"
+      ],
       "2401024": [],
       "2401025": [],
-      "2401026": [],
-      "2401027": [],
+      "2401026": [
+        "crystal"
+      ],
+      "2401027": [
+        "p_visualray"
+      ],
       "2401028": [],
       "2401029": [],
       "2401030": [],
       "2401031": [],
-      "2401032": [],
-      "2401033": [],
-      "2401034": [],
+      "2401032": [
+        "p_visualray",
+        "p_formative",
+        "p_nature"
+      ],
+      "2401033": [
+        "vortex",
+        "p_fieldphys"
+      ],
+      "2401034": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
       "2401035": [],
       "2401036": [],
       "2401037": [],
-      "2401038": [],
+      "2401038": [
+        "p_fieldphys"
+      ],
       "2401039": [],
       "2401040": [],
       "2401041": [],
       "2401042": [],
       "2401043": [],
       "2401044": [],
-      "2401045": [],
+      "2401045": [
+        "p_bridge"
+      ],
       "2401046": [],
-      "2401047": [],
-      "2401048": [],
+      "2401047": [
+        "p_visualray"
+      ],
+      "2401048": [
+        "p_bridge"
+      ],
       "2401049": [],
-      "2401050": [],
-      "2401051": [],
+      "2401050": [
+        "crystal"
+      ],
+      "2401051": [
+        "p_visualray"
+      ],
       "2401052": [],
-      "2401053": [],
+      "2401053": [
+        "regenerative",
+        "p_nature"
+      ],
       "2401054": [],
       "2401055": [],
       "2401056": [],
       "2401057": [],
       "2401058": [],
-      "2401059": [],
+      "2401059": [
+        "p_bridge"
+      ],
       "2401060": [],
       "2401061": [],
       "2401062": [],
@@ -674304,42 +674359,76 @@
       "2401071": [],
       "2401072": [],
       "2401073": [],
-      "2401074": [],
-      "2401075": [],
+      "2401074": [
+        "p_visualray"
+      ],
+      "2401075": [
+        "p_nature"
+      ],
       "2401076": [],
       "2401077": [],
       "2401078": [],
       "2401079": [],
       "2401080": [],
       "2401081": [],
-      "2401082": [],
-      "2401083": [],
+      "2401082": [
+        "regenerative",
+        "p_visualray",
+        "p_nature"
+      ],
+      "2401083": [
+        "vortex"
+      ],
       "2401084": [],
-      "2401085": [],
+      "2401085": [
+        "vortex"
+      ],
       "2401086": [],
-      "2401087": [],
-      "2401088": [],
+      "2401087": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2401088": [
+        "vortex"
+      ],
       "2401089": [],
       "2401090": [],
       "2401091": [],
-      "2401092": [],
-      "2401093": [],
+      "2401092": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2401093": [
+        "p_nature"
+      ],
       "2401094": [],
       "2401095": [],
       "2401096": [],
       "2401097": [],
-      "2401098": [],
+      "2401098": [
+        "vortex",
+        "p_nature"
+      ],
       "2401099": [],
       "2401100": [],
       "2401101": [],
       "2401102": [],
       "2401103": [],
-      "2401104": [],
-      "2401105": [],
-      "2401106": [],
+      "2401104": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2401105": [
+        "p_visualray"
+      ],
+      "2401106": [
+        "p_nature"
+      ],
       "2401107": [],
       "2401108": [],
-      "2401109": [],
+      "2401109": [
+        "vortex"
+      ],
       "2401110": [],
       "2401111": [],
       "2401112": [],
@@ -674356,13 +674445,26 @@
       "2401123": [],
       "2401124": [],
       "2401125": [],
-      "2401126": [],
+      "2401126": [
+        "p_nature"
+      ],
       "2401127": [],
-      "2401128": [],
-      "2401129": [],
-      "2401130": [],
-      "2401131": [],
-      "2401132": [],
+      "2401128": [
+        "p_nature"
+      ],
+      "2401129": [
+        "geometry_sacred"
+      ],
+      "2401130": [
+        "crystal"
+      ],
+      "2401131": [
+        "vortex"
+      ],
+      "2401132": [
+        "crystal",
+        "p_visualray"
+      ],
       "2401133": [],
       "2401134": [],
       "2401135": [],
@@ -674374,12 +674476,19 @@
       "2401141": [],
       "2401142": [],
       "2401143": [],
-      "2401144": [],
+      "2401144": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2401145": [],
       "2401146": [],
-      "2401147": [],
+      "2401147": [
+        "p_goethean"
+      ],
       "2401148": [],
-      "2401149": [],
+      "2401149": [
+        "p_bridge"
+      ],
       "2401150": [],
       "2401151": [],
       "2401152": [],
@@ -674403,12 +674512,18 @@
       "2401170": [],
       "2401171": [],
       "2401172": [],
-      "2401173": [],
+      "2401173": [
+        "p_wrongturn",
+        "p_nature"
+      ],
       "2401174": [],
       "2401175": [],
       "2401176": [],
       "2401177": [],
-      "2401178": [],
+      "2401178": [
+        "geometry_sacred",
+        "p_bridge"
+      ],
       "2401179": [],
       "2401180": [],
       "2401181": [],
@@ -674420,7 +674535,9 @@
       "2401187": [],
       "2401188": [],
       "2401189": [],
-      "2401190": [],
+      "2401190": [
+        "p_bridge"
+      ],
       "2401191": [],
       "2401192": [],
       "2401193": [],
@@ -674475,7 +674592,10 @@
       "2401242": [],
       "2401243": [],
       "2401244": [],
-      "2401245": [],
+      "2401245": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
       "2401246": [],
       "2401247": [],
       "2401248": [],
@@ -674515,13 +674635,17 @@
       "2401282": [],
       "2401283": [],
       "2401284": [],
-      "2401285": [],
+      "2401285": [
+        "geometry_sacred"
+      ],
       "2401286": [],
       "2401287": [],
       "2401288": [],
       "2401289": [],
       "2401290": [],
-      "2401291": [],
+      "2401291": [
+        "p_bridge"
+      ],
       "2401292": [],
       "2401293": [],
       "2401294": [],
@@ -674538,7 +674662,9 @@
       "2401305": [],
       "2401306": [],
       "2401307": [],
-      "2401308": [],
+      "2401308": [
+        "p_bridge"
+      ],
       "2401309": [],
       "2401310": [],
       "2401311": [],
@@ -674597,7 +674723,9 @@
       "2401364": [],
       "2401365": [],
       "2401366": [],
-      "2401367": [],
+      "2401367": [
+        "crystal"
+      ],
       "2401368": [],
       "2401369": [],
       "2401370": [],
@@ -674616,7 +674744,11 @@
       "2401383": [],
       "2401384": [],
       "2401385": [],
-      "2401386": [],
+      "2401386": [
+        "geometry_sacred",
+        "p_formative",
+        "p_nature"
+      ],
       "2401387": [],
       "2401388": [],
       "2401389": [],
@@ -674635,7 +674767,10 @@
       "2401402": [],
       "2401403": [],
       "2401404": [],
-      "2401405": [],
+      "2401405": [
+        "cold_fusion",
+        "crystal"
+      ],
       "2401406": [],
       "2401407": [],
       "2401408": [],
@@ -674665,11 +674800,20 @@
       "2401432": [],
       "2401433": [],
       "2401434": [],
-      "2401435": [],
-      "2401436": [],
-      "2401437": [],
+      "2401435": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2401436": [
+        "p_bridge"
+      ],
+      "2401437": [
+        "p_goethean"
+      ],
       "2401438": [],
-      "2401439": [],
+      "2401439": [
+        "p_fieldphys"
+      ],
       "2401440": [],
       "2401441": [],
       "2401442": [],
@@ -674680,7 +674824,9 @@
       "2401447": [],
       "2401448": [],
       "2401449": [],
-      "2401450": [],
+      "2401450": [
+        "vortex"
+      ],
       "2401451": [],
       "2401452": [],
       "2401453": [],
@@ -674689,10 +674835,15 @@
       "2401456": [],
       "2401457": [],
       "2401458": [],
-      "2401459": [],
+      "2401459": [
+        "p_bridge"
+      ],
       "2401460": [],
       "2401461": [],
-      "2401462": [],
+      "2401462": [
+        "regenerative",
+        "p_nature"
+      ],
       "2401463": [],
       "2401464": [],
       "2401465": [],
@@ -674701,7 +674852,9 @@
       "2401468": [],
       "2401469": [],
       "2401470": [],
-      "2401471": [],
+      "2401471": [
+        "p_bridge"
+      ],
       "2401472": [],
       "2401473": [],
       "2401474": [],
@@ -674710,14 +674863,23 @@
       "2401477": [],
       "2401478": [],
       "2401479": [],
-      "2401480": [],
-      "2401481": [],
+      "2401480": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2401481": [
+        "p_fieldphys"
+      ],
       "2401482": [],
       "2401483": [],
       "2401484": [],
       "2401485": [],
-      "2401486": [],
-      "2401487": [],
+      "2401486": [
+        "p_bridge"
+      ],
+      "2401487": [
+        "p_fieldphys"
+      ],
       "2401488": [],
       "2401489": [],
       "2401490": [],
@@ -674725,19 +674887,27 @@
       "2401492": [],
       "2401493": [],
       "2401494": [],
-      "2401495": [],
+      "2401495": [
+        "scalar"
+      ],
       "2401496": [],
       "2401497": [],
       "2401498": [],
-      "2401499": [],
+      "2401499": [
+        "p_bridge"
+      ],
       "2401500": [],
       "2401501": [],
       "2401502": [],
       "2401503": [],
-      "2401504": [],
+      "2401504": [
+        "p_fieldphys"
+      ],
       "2401505": [],
       "2401506": [],
-      "2401507": [],
+      "2401507": [
+        "crystal"
+      ],
       "2401508": [],
       "2401509": [],
       "2401510": [],
@@ -674745,33 +674915,48 @@
       "2401512": [],
       "2401513": [],
       "2401514": [],
-      "2401515": [],
+      "2401515": [
+        "crystal"
+      ],
       "2401516": [],
       "2401517": [],
       "2401518": [],
       "2401519": [],
       "2401520": [],
       "2401521": [],
-      "2401522": [],
+      "2401522": [
+        "cold_fusion"
+      ],
       "2401523": [],
       "2401524": [],
-      "2401525": [],
+      "2401525": [
+        "p_bridge"
+      ],
       "2401526": [],
       "2401527": [],
       "2401528": [],
       "2401529": [],
       "2401530": [],
       "2401531": [],
-      "2401532": [],
+      "2401532": [
+        "p_fieldphys"
+      ],
       "2401533": [],
       "2401534": [],
-      "2401535": [],
+      "2401535": [
+        "p_bridge"
+      ],
       "2401536": [],
-      "2401537": [],
+      "2401537": [
+        "p_goethean"
+      ],
       "2401538": [],
       "2401539": [],
       "2401540": [],
-      "2401541": [],
+      "2401541": [
+        "vortex",
+        "crystal"
+      ],
       "2401542": [],
       "2401543": [],
       "2401544": [],
@@ -674781,8 +674966,13 @@
       "2401548": [],
       "2401549": [],
       "2401550": [],
-      "2401551": [],
-      "2401552": [],
+      "2401551": [
+        "crystal"
+      ],
+      "2401552": [
+        "regenerative",
+        "p_nature"
+      ],
       "2401553": [],
       "2401554": [],
       "2401555": [],
@@ -674795,7 +674985,10 @@
       "2401562": [],
       "2401563": [],
       "2401564": [],
-      "2401565": [],
+      "2401565": [
+        "regenerative",
+        "p_nature"
+      ],
       "2401566": [],
       "2401567": [],
       "2401568": [],
@@ -674804,10 +674997,14 @@
       "2401571": [],
       "2401572": [],
       "2401573": [],
-      "2401574": [],
+      "2401574": [
+        "geometry_sacred"
+      ],
       "2401575": [],
       "2401576": [],
-      "2401577": [],
+      "2401577": [
+        "scalar"
+      ],
       "2401578": [],
       "2401579": [],
       "2401580": [],
@@ -674816,15 +675013,21 @@
       "2401583": [],
       "2401584": [],
       "2401585": [],
-      "2401586": [],
+      "2401586": [
+        "p_fieldphys"
+      ],
       "2401587": [],
       "2401588": [],
       "2401589": [],
-      "2401590": [],
+      "2401590": [
+        "scalar"
+      ],
       "2401591": [],
       "2401592": [],
       "2401593": [],
-      "2401594": [],
+      "2401594": [
+        "radionics"
+      ],
       "2401595": [],
       "2401596": [],
       "2401597": [],
@@ -674842,11 +675045,16 @@
       "2401609": [],
       "2401610": [],
       "2401611": [],
-      "2401612": [],
+      "2401612": [
+        "regenerative",
+        "p_nature"
+      ],
       "2401613": [],
       "2401614": [],
       "2401615": [],
-      "2401616": [],
+      "2401616": [
+        "geometry_sacred"
+      ],
       "2401617": [],
       "2401618": [],
       "2401619": [],
@@ -674854,8 +675062,12 @@
       "2401621": [],
       "2401622": [],
       "2401623": [],
-      "2401624": [],
-      "2401625": [],
+      "2401624": [
+        "p_fieldphys"
+      ],
+      "2401625": [
+        "crystal"
+      ],
       "2401626": [],
       "2401627": [],
       "2401628": [],
@@ -674885,7 +675097,9 @@
       "2401652": [],
       "2401653": [],
       "2401654": [],
-      "2401655": [],
+      "2401655": [
+        "p_formative"
+      ],
       "2401656": [],
       "2401657": [],
       "2401658": [],
@@ -674895,15 +675109,21 @@
       "2401662": [],
       "2401663": [],
       "2401664": [],
-      "2401665": [],
+      "2401665": [
+        "p_bridge"
+      ],
       "2401666": [],
       "2401667": [],
       "2401668": [],
       "2401669": [],
-      "2401670": [],
+      "2401670": [
+        "p_fieldphys"
+      ],
       "2401671": [],
       "2401672": [],
-      "2401673": [],
+      "2401673": [
+        "p_bridge"
+      ],
       "2401674": [],
       "2401675": [],
       "2401676": [],
@@ -675040,7 +675260,9 @@
       "2401807": [],
       "2401808": [],
       "2401809": [],
-      "2401810": [],
+      "2401810": [
+        "p_bridge"
+      ],
       "2401811": [],
       "2401812": [],
       "2401813": [],
@@ -675077,7 +675299,9 @@
       "2401844": [],
       "2401845": [],
       "2401846": [],
-      "2401847": [],
+      "2401847": [
+        "p_bridge"
+      ],
       "2401848": [],
       "2401849": [],
       "2401850": [],
@@ -675158,7 +675382,9 @@
       "2401925": [],
       "2401926": [],
       "2401927": [],
-      "2401928": [],
+      "2401928": [
+        "geometry_sacred"
+      ],
       "2401929": [],
       "2401930": [],
       "2401931": [],
@@ -675191,7 +675417,9 @@
       "2401958": [],
       "2401959": [],
       "2401960": [],
-      "2401961": [],
+      "2401961": [
+        "p_bridge"
+      ],
       "2401962": [],
       "2401963": [],
       "2401964": [],
@@ -675415,39 +675643,64 @@
       "2402182": [],
       "2402183": [],
       "2402184": [],
-      "2402185": [],
-      "2402186": [],
+      "2402185": [
+        "geometry_sacred"
+      ],
+      "2402186": [
+        "p_bridge"
+      ],
       "2402187": [],
       "2402188": [],
       "2402189": [],
-      "2402190": [],
-      "2402191": [],
+      "2402190": [
+        "aether"
+      ],
+      "2402191": [
+        "p_bridge"
+      ],
       "2402192": [],
       "2402193": [],
-      "2402194": [],
+      "2402194": [
+        "geometry_sacred"
+      ],
       "2402195": [],
       "2402196": [],
       "2402197": [],
       "2402198": [],
       "2402199": [],
-      "2402200": [],
+      "2402200": [
+        "p_nature"
+      ],
       "2402201": [],
       "2402202": [],
-      "2402203": [],
+      "2402203": [
+        "cold_fusion"
+      ],
       "2402204": [],
-      "2402205": [],
+      "2402205": [
+        "p_wrongturn"
+      ],
       "2402206": [],
       "2402207": [],
       "2402208": [],
-      "2402209": [],
+      "2402209": [
+        "p_bridge"
+      ],
       "2402210": [],
       "2402211": [],
-      "2402212": [],
+      "2402212": [
+        "p_fieldphys"
+      ],
       "2402213": [],
-      "2402214": [],
+      "2402214": [
+        "cold_fusion"
+      ],
       "2402215": [],
       "2402216": [],
-      "2402217": [],
+      "2402217": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "2402218": [],
       "2402219": [],
       "2402220": [],
@@ -675458,9 +675711,13 @@
       "2402225": [],
       "2402226": [],
       "2402227": [],
-      "2402228": [],
+      "2402228": [
+        "p_nature"
+      ],
       "2402229": [],
-      "2402230": [],
+      "2402230": [
+        "crystal"
+      ],
       "2402231": [],
       "2402232": [],
       "2402233": [],
@@ -675475,48 +675732,94 @@
       "2402242": [],
       "2402243": [],
       "2402244": [],
-      "2402245": [],
+      "2402245": [
+        "borderland"
+      ],
       "2402246": [],
       "2402247": [],
-      "2402248": [],
-      "2402249": [],
-      "2402250": [],
+      "2402248": [
+        "p_bridge",
+        "p_nature"
+      ],
+      "2402249": [
+        "crystal"
+      ],
+      "2402250": [
+        "p_nature"
+      ],
       "2402251": [],
       "2402252": [],
-      "2402253": [],
-      "2402254": [],
-      "2402255": [],
-      "2402256": [],
-      "2402257": [],
+      "2402253": [
+        "p_bridge"
+      ],
+      "2402254": [
+        "cold_fusion",
+        "crystal"
+      ],
+      "2402255": [
+        "crystal",
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402256": [
+        "crystal"
+      ],
+      "2402257": [
+        "crystal"
+      ],
       "2402258": [],
       "2402259": [],
       "2402260": [],
       "2402261": [],
-      "2402262": [],
-      "2402263": [],
+      "2402262": [
+        "crystal"
+      ],
+      "2402263": [
+        "crystal"
+      ],
       "2402264": [],
       "2402265": [],
       "2402266": [],
       "2402267": [],
       "2402268": [],
-      "2402269": [],
-      "2402270": [],
+      "2402269": [
+        "p_fieldphys"
+      ],
+      "2402270": [
+        "crystal",
+        "p_formative"
+      ],
       "2402271": [],
-      "2402272": [],
-      "2402273": [],
+      "2402272": [
+        "crystal"
+      ],
+      "2402273": [
+        "p_goethean"
+      ],
       "2402274": [],
-      "2402275": [],
+      "2402275": [
+        "borderland",
+        "p_fieldphys"
+      ],
       "2402276": [],
-      "2402277": [],
-      "2402278": [],
+      "2402277": [
+        "p_formative"
+      ],
+      "2402278": [
+        "crystal"
+      ],
       "2402279": [],
-      "2402280": [],
+      "2402280": [
+        "p_fieldphys"
+      ],
       "2402281": [],
       "2402282": [],
       "2402283": [],
       "2402284": [],
       "2402285": [],
-      "2402286": [],
+      "2402286": [
+        "crystal"
+      ],
       "2402287": [],
       "2402288": [],
       "2402289": [],
