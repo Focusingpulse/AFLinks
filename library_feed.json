@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:22:21Z",
+  "generated_at": "2026-09-11T10:06:35Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -5072,9 +5072,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-11T08:45:24Z",
-      "last_status": "skipped",
-      "last_summary": "gate: family budget low (gear=quota, mode=low) — no translation this run | archives held 20 | backlog unchanged"
+      "last_run": "2026-09-11T09:47:04Z",
+      "last_status": "ok",
+      "last_summary": "+0 archives since last run (still 33) | no translation this run — family budget low, gear quota, skipped non-essential work per gate | backlog 429 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5105,7 +5105,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T09:10:04Z",
+      "last_run": "2026-09-11T09:22:57Z",
       "last_status": "ok",
       "last_summary": "sync: 58982 docs, feed rebuilt"
     },
@@ -5199,6 +5199,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "09:47",
+      "agent": "Translation Curator",
+      "summary": "+0 translations — Budget-low skip run (gear: quota, family gate). No new translation; archives now hold 33 durable copies (+13 since last curator check-in, added by other fleet runs). Full-text backlog stands at 429 docs. Will resume full-doc translation when budget window recovers or gear flips to overdrive."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "09:22",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58982 docs — +58982 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-11",
       "time": "09:16",
@@ -5546,18 +5558,6 @@
       "time": "20:20",
       "agent": "Forge (Translation QC)",
       "summary": "+2 translations, +78 frontmatter fixes — Batch-fixed frontmatter across entire corpus: added language: en and source_language: to 78 files that were missing them (standardized field names, cleaned old-format source_lang:/target_lang:/target_language: on 5 files). All 93→95 files now have consistent language metadata. Translated 2 French outer-ring docs: (1) GaiaMamart \"Petit historique de la théorie des ondes de formes\" FR→EN — history of form waves from ancient architecture through Lakhovsky, Chaumery/de Belizal/Morel, to Sheldrake's morphic resonance; (2) Geobios \"L'antenne de Lecher\" FR→EN — Lecher antenna as professional geobiology tool, physical vs mental radiesthesia, wavelength graduations for physical phenomena (magnetic north 5.7, electric field 7.8, gamma 8.6, radon 3.5, form emission 7.4). Translator agent stale: no new publishes since Sep 3 (~120h, past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "16:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Translated Vibratis \"planche de radiesthésie\" page (FR→EN): dowsing boards, Bovis biometer (0–18,000 UB scale, physical/energetic/spiritual tiers, fruit vitality experiments, extended 120,000 UB scale), medical radiesthesia boards (homeopathy, phytotherapy, acupuncture, chakras, anatomical, metals), geobiology boards (0 Hz–10 GHz frequency dials, electromagnetic wave assessment), board design, usage method, vibrational rate measurement. Corpus at 96 files. QC: all 95 existing files have valid frontmatter; 10 duplicate base-name groups (feed-rebuild artifact, not fighting). Translator agent stale: no new publishes since Sep 3 (~116h, past 48h threshold). Feed rebuild still blocked from cloud."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Translated Vibratis radiesthesia history page (FR→EN): full overview of radiesthesia history (Egypt, Bible, Greeks/Romans, Beausoleil 7 metal rods, Abbé Bouly), Rocard magnetite science (Kirschvink/Gould biogenic magnetite), applications (medical, geobiology, divination), tools (pendulum, dowsing rods, Lecher antenna, Bovis scale). Key finding: aflinks-cron feed rebuild at 12:04Z undid the 08:20 dedup (corpus 63→94) — dedup in AFLinks is futile while feed rebuild creates new dated copies from living-library source. Stopped deduping; recorded learning in pipeline notes. Translator agent stale: no new publishes since Sep 3 (~112h, past 48h threshold). Feed rebuild still blocked from cloud."
     }
   ],
   "declassified": [
