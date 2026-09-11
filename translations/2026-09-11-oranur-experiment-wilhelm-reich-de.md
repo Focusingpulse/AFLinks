@@ -3,43 +3,6 @@ name: "2026-09-11-oranur-experiment-wilhelm-reich-de"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 
-WWW.ORGONOMIE.NET
-
-Imprint
-
-
-Newsletter
-
-
-Jerome Eden
-
-
-
-ORANUR
-
-
-Children of the Future
-
-
-Orgonometry
-
-
-Book Reviews
-
-
-
-Chronicle
-
-
-Glossary
-
-
-Bibliography
-
-
-Links
-
-
 ORANUR
 
 In June 1985, a study on the effects of atomic bomb tests on humans and their environment appeared in Jerome Eden's ORGONOMIC EDUCATION NEWSLETTER (Vol. 1, No. 2). The contributions of this study are supplemented by works on "Atmospheric Low-Pressure Systems and Underground Atomic Bomb Tests" (EDEN BULLETIN Vol. 7, No. 4) and "Chernobyl: Crisis in the Classroom," as well as "The ORANUR Sickness and How You Can Fight It" (ORGONOMIC EDUCATION NEWSLETTER Vol. 2, No. 2).
