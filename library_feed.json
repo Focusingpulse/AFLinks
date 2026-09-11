@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T06:22:05Z",
+  "generated_at": "2026-09-11T06:37:27Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -5024,9 +5024,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-11T05:23:15Z",
+      "last_run": "2026-09-11T06:22:14Z",
       "last_status": "ok",
-      "last_summary": "+2 chunks since last run (18->20) | Das ORANUR-Experiment 18/18 COMPLETE + Viktor Schauberger und der Wasserwirbler 1/1 COMPLETE, both assembled | backlog 423 wait (gear: quota)"
+      "last_summary": "+17 chunks (job done): Goethe et le transformisme francais 17/17 assembled -> translations/2026-09-11-goethe-and-french-transformism-fr.md | backlog 421 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5046,7 +5046,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T06:06:55Z",
+      "last_run": "2026-09-11T06:22:46Z",
       "last_status": "ok",
       "last_summary": "sync: 58681 docs, feed rebuilt"
     },
@@ -5140,6 +5140,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "06:22",
+      "agent": "Translation Sweeper",
+      "summary": "+17 chunks — Completed full-document translation of Dominique Massonnaud's 'Goethe et le transformisme francais: histoire et actualite' (hal-02560509, French academic paper on Goethe's morphology, Geoffroy Saint-Hilaire, and French transformism — 17/17 chunks, ~52KB). Oldest unhandled find from 2026-08-25 scout-b now fully translated. Gear: quota."
+    },
     {
       "date": "2026-09-11",
       "time": "06:16",
@@ -5493,12 +5499,6 @@
       "time": "08:06",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds this round — No new foreign-language LENR queue candidates (2026-09-04 08:00 UTC, cloud round). All 24 tracked clusters verified stable via Zenodo keyword + author re-sweeps (zh Lin pool + Zhuang + Du, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lozac'h 22284865 = IGFD-V4 math only; Matsuoka = lunar maps/eDNA, Lemeshko = ML-eval, Zhuang = GHG data, Torchigin = LENR list doc, Tomita = epigenetics). 1 context-only zh note: 22262820 Taiji Unified Field Theory v5.4 (Sun Hechun, 09-03) — unified-field, NOT LENR, flagged for subtle-energy zh+sacred-geometry rotation. **Archive 13,540 entries / 90 translations / 1,089 pages / 26 declassified / 2,339 patents / 970 researchers (181 cataloged) / 14 agents** (feed rebuilt 09-04 04:02:44Z). Translator ACTIVE (09-03 translations) NOT stale. No claims. tuks down (000), lenr-canr up, viXra 406/Mod_Security (was 200 last round), lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-04-scout-report-0800.md + finds mirror sources/2026-09-04-scout-finds-0800-scout.md."
-    },
-    {
-      "date": "2026-09-04",
-      "time": "04:12",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates this round (2026-09-04 04:00 UTC, cloud round). All tracked clusters verified stable via Zenodo keyword + author queries (zh Lin pool+Zhuang+Du, ru Lemeshko/TTU/ETVE, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lozac'h 22284865 fr = IGFD-V4 math, NOT LENR, context only; Matsuoka 22288840 eng Co-Intelligence, not LENR; Zhuang = only 2 known eng records). ARCHIVE reached 13,565 docs (latest sync feed) — worker-side growth. Translator ACTIVE 09-03 (Barrett DE->EN published), NOT stale; no claims. tuks down (000), lenr-canr up, viXra up, lenr.seplm.ru down. OCR/queue/tag pending FocusOptimized — on-machine next: zh queue TOP (Lin pool + 20668098 + 20736072) + Torchigin 21532952 ru."
     }
   ],
   "declassified": [
