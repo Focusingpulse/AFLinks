@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aetherforce Knowledge Vault — The Masters' Shelf</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="Tesla, Keely, Russell, Schauberger, Gariaev, and water — the masters of the alternative lineage, their real technologies, and the honest status of each. Every claim is a claim until tested.">
+<meta property="og:title" content="The Masters' Shelf — Tesla, Keely, Russell, Schauberger, Gariaev, Water">
+<meta property="og:description" content="The real technologies of the masters, and the honest status of each claim.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/masters.html">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #07131a;
+  --bg2: #0e222c;
+  --stone: #12303a;
+  --stone-hi: #1b3f4c;
+  --gold: #e8b64c;
+  --gold-bright: #ffd166;
+  --gold-dim: #a37f2e;
+  --copper: #c98855;
+  --bronze: #7d8f86;
+  --text: #d8e6e2;
+  --text-dim: #8fb0aa;
+  --text-faint: #4e6f70;
+  --glow: rgba(201,168,76,0.25);
+  --glow-strong: rgba(201,168,76,0.5);
+  --green: #7a9a5a;
+  --green-glow: rgba(122,154,90,0.2);
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(122,154,90,0.04) 0%, transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  min-height: 100vh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.02) 3px, rgba(0,0,0,0.02) 6px);
+  pointer-events: none;
+  z-index: 0;
+}
+header {
+  text-align: center;
+  padding: 28px 16px 8px;
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--glow), 0 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+}
+header h1 .ornament { color: var(--gold-dim); font-size: 0.8rem; margin: 0 8px; }
+header p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--gold-dim);
+  color: var(--bg);
+  border-color: var(--gold);
+  box-shadow: 0 0 15px var(--glow);
+}
+.wrap { max-width: 1000px; margin: 0 auto; padding: 20px 16px 60px; position: relative; z-index: 1; }
+
+.intro {
+  background: linear-gradient(160deg, var(--stone) 0%, var(--bg2) 100%);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 22px 24px;
+  margin-bottom: 26px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+.intro h2 {
+  font-size: 1.15rem;
+  color: var(--gold-bright);
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.intro p { font-size: 0.92rem; line-height: 1.65; color: var(--text); margin-bottom: 10px; }
+.intro p:last-child { margin-bottom: 0; }
+.intro .honest-note {
+  border-left: 3px solid var(--copper);
+  padding-left: 12px;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* Lens dial — the twelve sides */
+.dial-section { margin-bottom: 30px; }
+.dial-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.dial-section .sub {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.sides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.side-card {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  padding: 12px 14px;
+  transition: all var(--transition);
+  cursor: default;
+}
+.side-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 0 14px var(--glow);
+  transform: translateY(-2px);
+}
+.side-card .num {
+  font-size: 0.66rem;
+  letter-spacing: 2px;
+  color: var(--gold-dim);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+.side-card .name { font-size: 0.95rem; color: var(--gold-bright); display: block; margin-bottom: 4px; }
+.side-card .who { font-size: 0.78rem; color: var(--text-dim); display: block; line-height: 1.4; }
+.side-card .stance { font-size: 0.72rem; margin-top: 6px; display: inline-block; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--bronze); }
+.stance.mainstream { color: #8fb8d8; border-color: #4a6a80; }
+.stance.critic { color: var(--copper); border-color: #8a6a4a; }
+.stance.bridge { color: var(--green); border-color: #55684a; }
+
+/* Person sections */
+.person-section {
+  background: linear-gradient(160deg, var(--stone) 0%, var(--bg2) 100%);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 22px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+.person-section h2 {
+  font-size: 1.2rem;
+  color: var(--gold-bright);
+  letter-spacing: 1.5px;
+  margin-bottom: 4px;
+}
+.person-section .alias {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 12px;
+  display: block;
+}
+.person-section p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 10px; }
+.person-section p:last-child { margin-bottom: 0; }
+.tagline {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid var(--gold-dim);
+  border-radius: 2px;
+  padding: 3px 10px;
+  margin-bottom: 12px;
+}
+
+/* Papers table */
+.papers-block { margin-top: 14px; }
+.papers-block h3 {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+table.papers {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+table.papers th {
+  text-align: left;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--bronze);
+}
+table.papers td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(125,143,134,0.25);
+  vertical-align: top;
+  line-height: 1.45;
+}
+table.papers tr:hover td { background: rgba(232,182,76,0.05); }
+table.papers a { color: var(--gold); text-decoration: none; }
+table.papers a:hover { color: var(--gold-bright); text-decoration: underline; }
+table.papers .yr { color: var(--text-faint); white-space: nowrap; }
+
+/* Claim ledger */
+.ledger-section { margin-bottom: 30px; }
+.ledger-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.ledger-section .sub {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.claim-row {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+.claim-row .claim-q {
+  font-size: 0.95rem;
+  color: var(--gold-bright);
+  margin-bottom: 8px;
+  display: block;
+}
+.claim-verdicts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 700px) { .claim-verdicts { grid-template-columns: 1fr; } }
+.verdict {
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.verdict .v-label {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.verdict.mainstream-side { background: rgba(74,106,128,0.15); border-left: 3px solid #4a6a80; }
+.verdict.mainstream-side .v-label { color: #8fb8d8; }
+.verdict.alternative-side { background: rgba(201,136,85,0.12); border-left: 3px solid var(--copper); }
+.verdict.alternative-side .v-label { color: var(--copper); }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 16px 40px;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  position: relative;
+  z-index: 1;
+}
+footer a { color: var(--text-dim); }
+footer a:hover { color: var(--gold); }
+@media (max-width: 720px) {
+  header h1 { font-size: 1.25rem; letter-spacing: 2px; }
+  .wrap { padding: 14px 10px 40px; }
+  .person-section, .intro { padding: 16px 14px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="ornament">✦</span>The Masters' Shelf<span class="ornament">✦</span></h1>
+  <p>the ones who saw it differently — their real work, the people who advanced it, and the honest status of each claim</p>
+  <div class="nav-links">
+  <a href="/AFLinks/">Archive</a>
+  <a href="./vault.html">Vault</a>
+  <a href="./library.html">Library</a>
+  <a href="./lens.html">Lens</a>
+  <a href="./translations.html">Translations</a>
+  <a href="./cosmology.html">Cosmology</a>
+  <a href="./masters.html" class="here">Masters</a>
+  <a href="./synthesis.html">Briefings</a>
+  <a href="./patents.html">Patents</a>
+</div>
+</header>
+<div class="wrap">
+
+  <div class="intro">
+    <h2>Why this shelf exists</h2>
+    <p>Tesla, Keely, Walter Russell, Schauberger, Gariaev — Chris calls them the greats, and the vault holds their work: <strong>484 Tesla-technology documents</strong> (magnifying transmitter, Dollard's complete works, longitudinal wave experiments, radiant energy), <strong>844 Keely documents</strong>, <strong>67 Walter Russell</strong>, the Schauberger patents, and the Gariaev wave-genetics papers. What was missing was a shelf that surfaces them — so here it is.</p>
+    <p class="honest-note">Honest framing, as always: this archive maps a specific alternative community ecology (94% viXra/Rex/tuks). The masters' claims are preserved here as claims — the shelf says plainly what has replicated, what hasn't, and what died with its author. No side endorsed. A claim is a claim until tested.</p>
+  </div>
+
+  <div class="dial-section">
+    <h2>The Shelf</h2>
+    <span class="sub">six masters, six lines of work — rotate the shelf like the cosmology dial</span>
+    <div class="sides-grid">
+<div class="side-card"><span class="num">Master 01</span><span class="name">Nikola Tesla</span><span class="who">The magnifying transmitter, telluric waves, radiant energy. The real machine lineage — patents, articles, and the people who advanced it.</span><span class="stance bridge">484 docs in this vault</span></div>
+<div class="side-card"><span class="num">Master 02</span><span class="name">John Worrell Keely</span><span class="who">Sympathetic vibratory physics. 844 documents — the largest single collection here. Motor ran on what he called 'etheric force'; never survived independent audit.</span><span class="stance critic">844 docs</span></div>
+<div class="side-card"><span class="num">Master 03</span><span class="name">Walter Russell</span><span class="who">The Russell cosmogony — light, matter, and the universal wave. Energy generator coils, atomic tables from vision, not experiment.</span><span class="stance bridge">67 docs</span></div>
+<div class="side-card"><span class="num">Master 04</span><span class="name">Viktor Schauberger</span><span class="who">Water as the master: implosion, vortices, the water wizard. Replication Yard already runs the $30 Wasserwirbler test.</span><span class="stance bridge">archive + yard</span></div>
+<div class="side-card"><span class="num">Master 05</span><span class="name">Peter Gariaev</span><span class="who">Wave genetics — the DNA phantom effect, the linguistic-wave genome, the quantum biocomputer. Died 2020; claims remain unreplicated.</span><span class="stance critic">7 docs</span></div>
+<div class="side-card"><span class="num">Master 06</span><span class="name">The Water Line</span><span class="who">Pollack's fourth phase, Benveniste's water memory, Montagnier's DNA EMS, Emoto. Water as the carrier of information and structure — the connective thread through every master above.</span><span class="stance bridge">6,500 docs</span></div>
+    </div>
+  </div>
+
+  <div class="person-section">
+    <span class="tagline">The Absent Master — Present At Last</span>
+    <h2>Nikola Tesla</h2>
+    <span class="alias">the magnifying transmitter, telluric waves, radiant energy — the real machine lineage</span>
+    <p>Tesla's published patents are famous. What this vault holds is the other Tesla: the <strong>magnifying transmitter</strong> work (beyond the coil — whole-earth telluric transmission), the radiant energy receivers, and the lineage of engineers who tried to rebuild what he actually did. That lineage runs through <strong>Eric Dollard</strong> — the only living engineer to successfully reconstruct the magnifying transmitter's operating theory (longitudinal magneto-dielectric waves, the "LMD" mode), through Nathan Stubblefield's earth batteries, and into the modern longitudinal-wave experiment community.</p>
+    <p><strong>The honest status:</strong> Tesla's magnifying transmitter demonstrably worked as a machine — Wardenclyffe was built, Colorado Springs produced real discharges and measurable earth currents. What is unverified is the claim layer: worldwide wireless power transmission, the "Tunguska was Tesla" story, the confiscated-classified narrative. The physics fight (can longitudinal waves carry power faster-than-light or not) is unresolved and is exactly what the archive's Dollard collection documents. The technology is absent from the mainstream only in the sense that no institution has funded a serious replication — the blueprints are public, in this vault, and the Replication Yard exists for this.</p>
+    <div class="papers-block">
+      <h3>In the vault</h3>
+      <table class="papers">
+        <tr><th>Collection</th><th>What it is</th><th>Open</th></tr>
+        <tr><td>Nikola Tesla: Magnifying Transmitter — Articles &amp; Patents</td><td>The primary collection: articles, patent filings, and photographs of the transmitter work</td><td><a href="./pages/00003396.html">→</a></td></tr>
+        <tr><td>Eric Dollard — Complete Works</td><td>Condensed Intro to Tesla Coils, telluric wave theory, symbolic representation of the generalized electric wave, the dielectric/magnetic discharge papers</td><td><a href="./pages/00006846.html">→</a></td></tr>
+        <tr><td>Nathan Stubblefield — Earth Battery</td><td>The ground-radio lineage: articles, videos, patents of Tesla's contemporary who tolduric-transmitted voice before radio</td><td><a href="./pages/00003357.html">→</a></td></tr>
+        <tr><td>Longitudinal Wave Experiments (after Tesla)</td><td>The modern replication attempts — the LMD question, tested</td><td><a href="./pages/00000547.html">→</a></td></tr>
+        <tr><td>Georges Lakhovsky — Multi-Wave Oscillator</td><td>The adjacent master: Tesla-adjacent radiobiology, patents and articles</td><td><a href="./pages/00002301.html">→</a></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="person-section">
+    <span class="tagline">The Phantom Genome</span>
+    <h2>Peter Gariaev — Wave Genetics</h2>
+    <span class="alias">the DNA phantom effect, the linguistic-wave genome, the quantum biocomputer</span>
+    <p>Peter Gariaev (1942–2020), Moscow — the founder of wave genetics. The core claims: DNA emits a <strong>phantom wave imprint</strong> that persists in equipment after the sample is removed (registered 1984, correlation laser spectroscopy); the "junk" 98% of the genome is a <strong>linguistic structure</strong> — fractal holographic text; and genetic information can be transmitted electromagnetically between organisms (the pancreas-regenerated-rats experiments, the DNA "teleportation" into water, confirmed — per the group — by PCR).</p>
+    <p><strong>The honest status — the most extraordinary claims in this entire archive:</strong> none of it has replicated independently. The phantom-DNA effect was reported by Gariaev's own lab; the therapeutic claims (cystic fibrosis cured via "spinor spectra of childhood photos", tooth regeneration, stroke recovery in 4–5 days) appear on the group's promotional sites with no peer-reviewed trials. Gariaev died in 2020. What survives as a <em>replicable thread</em> is the neighboring work: <strong>Luc Montagnier</strong> — Nobel laureate, not a fringe figure — reported related DNA electromagnetic signals in water (EMS), published in a peer-reviewed journal, and that experiment is specific enough to test. If any thread of the wave-genetics cluster is true, it's the Montagnier one — and it is testable at home-lab scale.</p>
+    <div class="papers-block">
+      <h3>In the vault</h3>
+      <table class="papers">
+        <tr><th>Document</th><th>What it is</th><th>Open</th></tr>
+        <tr><td>Dr. Peter Garyaev, et al. — Wave Genetics II</td><td>The core papers of the wave-genome program</td><td><a href="./pages/00001659.html">→</a></td></tr>
+        <tr><td>Garajajev &amp; Poponin — DNA BioComputer</td><td>The DNA-wave-biocomputer concept paper</td><td><a href="./pages/00001660.html">→</a></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="person-section">
+    <span class="tagline">The Master Substance</span>
+    <h2>Water — the connective thread</h2>
+    <span class="alias">structure, memory, and consciousness — 6,500 documents, one substance</span>
+    <p>Every master on this shelf passes through water. Schauberger's vortices. Gariaev's DNA phantoms in aqueous solution. Benveniste's water memory. Pollack's fourth phase (EZ water — the one mainstream-published result in the cluster). Montagnier's DNA signals in water. Emoto's crystals (the aesthetic end, never controlled). The "water as consciousness" idea is the speculative extreme of a real question: does water carry structure and information beyond chemistry? Pollack's exclusion-zone work says structure, yes — published in mainstream journals. Everything past that is the claim layer.</p>
+    <p><strong>The honest status:</strong> EZ water is real, published, and argued about — the fight is over its magnitude and implications, not its existence. Water memory has never survived a controlled replication (Benveniste's own Nature retraction is the cautionary tale). The DNA-in-water EMS signal is the live, testable question. The Replication Yard already runs one water test (the Schauberger wirbler); the Pollack EZ cell is the natural next one — a few hundred dollars of Nafion, microspheres, and a laser pointer.</p>
+    <div class="papers-block">
+      <h3>In the vault</h3>
+      <table class="papers">
+        <tr><th>Collection</th><th>What it is</th><th>Open</th></tr>
+        <tr><td>Gerald Pollack — Structured Water, Articles &amp; Patents</td><td>The fourth-phase program: the mainstream-published core of the water cluster</td><td><a href="./pages/00002304.html">→</a></td></tr>
+        <tr><td>Pollack — The Fourth Phase of Water (sample)</td><td>The book itself — inside the structured-water collection above</td><td><a href="./pages/00002304.html">→</a></td></tr>
+        <tr><td>Jacques Benveniste — Homeopathy &amp; Digital Biology</td><td>The water-memory program and its cautionary history</td><td><a href="./pages/00002667.html">→</a></td></tr>
+        <tr><td>Vysotskii — The Spatial (DNA-adjacent water research, RU)</td><td>The Russian line of water/DNA research adjacent to wave genetics</td><td><a href="./pages/01498940.html">→</a></td></tr>
+        <tr><td>Viktor Schauberger — patents &amp; compendia</td><td>The water master himself — translated in this vault</td><td><a href="./pages/00000203.html">→</a></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="intro" style="margin-top:10px;">
+    <h2>The honest bottom line</h2>
+    <p><strong>Tesla:</strong> the machines were real and the blueprints are public — the claim layer (wireless world power, suppressed classified tech) is unverified, and the physics question (longitudinal power transmission) is precisely what the Dollard collection documents and the Replication Yard can test. <strong>Gariaev:</strong> the most extraordinary claims in the archive, none independently replicated, author dead — the Montagnier EMS experiment is the surviving testable thread. <strong>Water:</strong> EZ water is real and mainstream-published; everything beyond it is the claim layer, and the EZ cell is the cheapest next replication on this entire shelf.</p>
+    <p>Rotate the shelf against the <a href="./cosmology.html" style="color:var(--gold);">Twelve Sides of the Sky →</a> — the cosmology page asks what the universe is; this shelf asks what the masters built.</p>
+  </div>
+
+</div>
+
+<footer>
+  <p>Powered by the growing <strong>Living Library</strong> — seeds, scouts, and translations from around the world, linked to the <a href="./index.html">Aetherforce Knowledge Vault</a> and <a href="https://www.aetherforce.energy" target="_blank">aetherforce.energy</a>.</p>
+  <p style="margin-top:6px;">Every claim is a claim until tested. No side endorsed. Negative results are gold.</p>
+</footer>
+</body>
+</html>
