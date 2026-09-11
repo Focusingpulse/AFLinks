@@ -108,6 +108,9 @@
         .teaching-nav .tn-group {
             display: inline-flex;
             align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 100%;
             gap: 4px;
             border: 1px solid var(--border);
             border-radius: 999px;
@@ -145,8 +148,9 @@
             background: rgba(232,182,76,0.07);
         }
         .teaching-nav a.briefings-link:hover { background: var(--gold); color: var(--bg); }
-        @media (max-width: 720px) {
-            .teaching-nav { flex-direction: column; }
+        @media (max-width: 760px) {
+            .teaching-nav { flex-direction: column; align-items: center; gap: 10px; }
+            .teaching-nav .tn-group { border-radius: 16px; }
         }
         /* ─── Search bar ─── */
         .search-bar {
@@ -1706,12 +1710,15 @@
             <span class="tn-label scopes">✦ The Scopes</span>
             <a href="./lens.html" title="Cross-reference analysis — how authors think">💠 Lens</a>
             <a href="./pathways.html" title="Curated five-document journeys into the hidden sciences">🗺 Pathways</a>
-            <a href="./cosmology.html" title="Standard &amp; alternative cosmology from twelve angles — Robitaille, Chizhevsky, Tyson, the ledger">🌌 Cosmology</a>
-<a href="./masters.html">Masters</a>
-<a href="./insiders.html">Insiders</a>
-<a href="./qualitative-science.html">◈ Qualitative Science</a>
-<a href="./connectors.html">🕸 Connectors</a>
             <a href="./synthesis.html" class="briefings-link" data-t="fleet-nav" title="Reports — what the fleet is learning">⚗ Fleet Briefings</a>
+        </span>
+        <span class="tn-group">
+            <span class="tn-label scopes">✦ The Perspectives</span>
+            <a href="./cosmology.html" title="Standard &amp; alternative cosmology from twelve angles — Robitaille, Chizhevsky, Tyson, the ledger">🌌 Cosmology</a>
+            <a href="./masters.html" title="The founding lineage — Tesla, Keely, Russell, Schauberger, Gariaev">✦ Masters</a>
+            <a href="./insiders.html" title="Credentialed critics publishing in the mainstream journals">✦ Insiders</a>
+            <a href="./qualitative-science.html" title="The physics of quality — qualitative science and its lineage">◈ Qualitative Science</a>
+            <a href="./connectors.html" title="The people who connect the separate lines of research">🕸 Connectors</a>
         </span>
         <span class="tn-group">
             <span class="tn-label scopes" data-t="charts">✦ The Charts</span>
