@@ -320,7 +320,7 @@ def main():
         if ext == '.pdf':
             # fetch via curl subprocess with hard timeout — urllib hangs on this server's throttled PDFs
             try:
-                pdf_data = subprocess.run(['curl','-s','--max-time','60','-A','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', url], capture_output=True, timeout=70).stdout
+                pdf_data = subprocess.run(['curl','-s','-L','--max-time','60','-A','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', url], capture_output=True, timeout=70).stdout
             except Exception as e:
                 print(f"  CURL-ERR: {e}")
                 pdf_data = None
