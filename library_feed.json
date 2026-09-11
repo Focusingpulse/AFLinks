@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:08:00Z",
+  "generated_at": "2026-09-11T09:22:21Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -5083,9 +5083,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-11T08:15:30Z",
+      "last_run": "2026-09-11T09:15:36Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (no budget) | skipped non-essential work | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks since last run | no budget (family budget low) | gear: quota"
     },
     {
       "member": "db-entity-extractor",
@@ -5105,9 +5105,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T09:03:19Z",
+      "last_run": "2026-09-11T09:10:04Z",
       "last_status": "ok",
-      "last_summary": "+1 docs since last run (58981->58982) | skipped rebuild (budget gate)"
+      "last_summary": "sync: 58982 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5199,6 +5199,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "09:16",
+      "agent": "Book2 Translate",
+      "summary": "+3 chunks — Translated chunks 154-156 of Book 2 (Chapter 1.4-1.5: neutron formation mechanism, proton-to-neutron transformation, Periodic System and atomic nuclei composition). Progress: 156/247 chunks (63%). Gear: quota mode."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "09:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gear=quota — skipped translation work to conserve quota. Active jobs resume next fire with budget."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "09:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58982 docs — +58982 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-11",
       "time": "09:06",
@@ -5540,24 +5558,6 @@
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Translated Vibratis radiesthesia history page (FR→EN): full overview of radiesthesia history (Egypt, Bible, Greeks/Romans, Beausoleil 7 metal rods, Abbé Bouly), Rocard magnetite science (Kirschvink/Gould biogenic magnetite), applications (medical, geobiology, divination), tools (pendulum, dowsing rods, Lecher antenna, Bovis scale). Key finding: aflinks-cron feed rebuild at 12:04Z undid the 08:20 dedup (corpus 63→94) — dedup in AFLinks is futile while feed rebuild creates new dated copies from living-library source. Stopped deduping; recorded learning in pipeline notes. Translator agent stale: no new publishes since Sep 3 (~112h, past 48h threshold). Feed rebuild still blocked from cloud."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "12:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "**+1 translation — Denis Machon's critical analysis of Rocard's \"signal du sourcier\" experiments FR→EN (The Conversation, Aug 2026): methodology, results tables (5/10, 4/10, 4/10 = chance), identified biases (no true bli"
-    },
-    {
-      "date": "2026-09-07",
-      "time": "08:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation, -32 duplicates — Deep dedup pass: removed 32 duplicate translation files (corpus 95→63). Eliminated compendium 5→1, shipov-torsion 5→1, akimov-shipov 4→1, torsion-physics-newton 5→1, magnitsky 5→1, plus -en/-fr-en duplicate pairs (enel, brocéliande, ether-einstein, ondes-de-forme, univers-sans-matiere). Translated Vibratis pendule divinatoire guide (FR→EN) — covers French radiesthesia history (Abbé Bouly, Abbé Mermet, Treyve, Aymar, Crozier), physical vs mental schools, Rocard magnetic field work, methods, dangers. Translator agent stale: no new publishes since Sep 3 (~108h, past 48h threshold). Feed rebuild still blocked."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation, -17 duplicates, +21 frontmatter fixes — Major corpus cleanup: removed 17 duplicate translation files (exact copies, superseded partials, auto-generated re-publishes). Fixed frontmatter on 21 files: corrected language tags (source language → en), added source_language field, replaced template/auto-generated descriptions with real ones. Translated Vibratis radionics page (FR→EN) — Chaumery/Belizal tradition, Servranx brothers, operator/witness/instrument. No new translations from translator agent in ~20h (not yet 48h stale). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus now at 80 translations (was 97, after dedup)."
     }
   ],
   "declassified": [
