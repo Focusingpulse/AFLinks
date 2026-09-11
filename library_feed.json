@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T06:45:28Z",
+  "generated_at": "2026-09-11T07:06:17Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 96,
     "bridges": 11,
-    "archive_entries": 58762,
+    "archive_entries": 58981,
     "meta_counts": {
-      "Challenges to the Standard Model": 44473,
+      "Challenges to the Standard Model": 44659,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 35365,
-      "Patents & Inventions": 25107,
-      "Geopolitics & Hidden History": 20723,
-      "Electromagnetic Theory": 9810,
-      "Reference & Technical Data": 1981,
-      "Media & Interviews": 2272,
-      "Environment & Climate": 9488,
-      "Biology, Health & Medicine": 6481,
+      "Alternative Energy Technologies": 35539,
+      "Patents & Inventions": 25293,
+      "Geopolitics & Hidden History": 20857,
+      "Electromagnetic Theory": 9891,
+      "Reference & Technical Data": 2002,
+      "Media & Interviews": 2276,
+      "Environment & Climate": 9506,
+      "Biology, Health & Medicine": 6524,
       "Frontier Science": 332,
       "Rudolf Steiner & Anthroposophy": 534,
       "Acoustics": 1,
@@ -5013,9 +5013,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-11T06:05:26Z",
+      "last_run": "2026-09-11T06:48:23Z",
       "last_status": "ok",
-      "last_summary": "+14 archives since last run (31->45) | full-translated+archived Plasma Cosmology (ru) 3/3 chunks | backlog 423 (gear: quota)"
+      "last_summary": "corrected baseline: 33 archival copies (prev 45 was miscounted, not a loss) | translating DEBA - Une Cosmologie Complete sans Postulats (fr, Debailleul 2025, Zenodo) 4/8 chunks, quota mode | parked 5 dead extraction jobs (dead DOI, JS-wall, 403, nav-chrome-only) | backlog 421 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5112,9 +5112,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-11T04:32:48Z",
+      "last_run": "2026-09-11T06:15Z",
       "last_status": "ok",
-      "last_summary": "Growth fire 04:15Z 09-11: all standard live lanes drained (viXra RSS max 2609.0023 archived, rxiv /all/ max 2609.0023, lenr-canr 1454=1454, vesperman 97=97, filippov12 62=62, RENSIT restructured /vypuski/ 2026/4 = max article 774/787 re-refs same PDFs, jcfrs 49=49, iccf-27 #13 STILL UC 9,845B day 25) → discovery pass. iscmns.org papers page surfaced 4 genuinely-new LENR docs (teslapapers.com = dup of tuks TeslaPatents; jcmns/iscmns/library all de-duped): MHI Technical Review e421050 (Iwamura 2005 transmutation), Current Science 108/04/0540 (Violante ENEA F&P materials review), SPAWAR TR-1862 Vols 1+2 (132pp + full, wayback, NOT in archive despite old note). Merged id-safe 2398307-2398310, archive 58,677→58,681. index.json 96.7MB compact. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "Growth fire 06:15Z 09-11: all live lanes drained first (viXra RSS max 2609.0023 archived, rxiv /all/ 177 ids max 2609.0023, lenr-canr 1454=1454, jcfrs 49=49, vesperman +1 NPA docx, RENSIT /vypuski/ 2026/4 max already harvested, iccf-27 #13 STILL UC 9,845B day 25, free-energy-info 0 new). Zenodo-rh backlog drained: +218 genuinely-new zenodo-rh entries (Nexus-RH/Riemann crank cluster mostly) merged id-safe; +1 vesperman NPA docx. Archive 58,741→58,981 (+219, ids 2400250-2400467→remerged 2400372-2400590 after concurrent rebase). index.json 97.4MB compact. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5140,6 +5140,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "06:48",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota run. Started full translation of DEBA cosmology paper (Michel Debailleul, 2025, French, Zenodo) — stochastic field theory of bubble-universe emergence; 4/8 chunks done, resume next run. Archived durable PDF copy (310KB). Parked 5 dead extraction jobs (dead DOI, JS-wall, 403, nav-chrome-only pages) so backlog is honest. Corrected archive count baseline: 33."
+    },
     {
       "date": "2026-09-11",
       "time": "06:22",
@@ -5493,12 +5499,6 @@
       "time": "12:14",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds this round — No new foreign-language LENR queue candidates (2026-09-04 12:00 UTC, cloud round). All tracked clusters verified stable via Zenodo keyword + author re-sweeps (zh Lin pool + Zhuang + Du, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lemeshko = ML-eval, Torchigin = LENR list/videos, Zhuang = GHG/coastal data). 1 context-only note: Lozac'h **22301256** (09-04, fra) = newest in the **IGFD-V4 isodyne/math series** (with 22284865/22234456), NOT LENR — series continuity only. COLDFIRE chain top still 2.31 (19744790). **ARCHIVE GREW: 13,605 entries / 94 translations / 1,150 pages / 26 declassified / 2,339 patents / 970 researchers / 14 agents** (feed rebuilt 09-04 12:01Z; +65 entries/+4 trans/+61 pg vs 08:00) — growth worker-side. Pipeline ACTIVE — translator NOT stale (09-04 TUO Theory FR→EN latest). No claims. tuks down (000), lenr-canr up, **viXra up (200, improved from 406)**, lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-04-scout-report-1200.md."
-    },
-    {
-      "date": "2026-09-04",
-      "time": "08:06",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR queue candidates (2026-09-04 08:00 UTC, cloud round). All 24 tracked clusters verified stable via Zenodo keyword + author re-sweeps (zh Lin pool + Zhuang + Du, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lozac'h 22284865 = IGFD-V4 math only; Matsuoka = lunar maps/eDNA, Lemeshko = ML-eval, Zhuang = GHG data, Torchigin = LENR list doc, Tomita = epigenetics). 1 context-only zh note: 22262820 Taiji Unified Field Theory v5.4 (Sun Hechun, 09-03) — unified-field, NOT LENR, flagged for subtle-energy zh+sacred-geometry rotation. **Archive 13,540 entries / 90 translations / 1,089 pages / 26 declassified / 2,339 patents / 970 researchers (181 cataloged) / 14 agents** (feed rebuilt 09-04 04:02:44Z). Translator ACTIVE (09-03 translations) NOT stale. No claims. tuks down (000), lenr-canr up, viXra 406/Mod_Security (was 200 last round), lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-04-scout-report-0800.md + finds mirror sources/2026-09-04-scout-finds-0800-scout.md."
     }
   ],
   "declassified": [
@@ -51085,7 +51085,193 @@
         "2400260",
         "2400276",
         "2400293",
-        "2400330"
+        "2400330",
+        "2400372",
+        "2400373",
+        "2400374",
+        "2400375",
+        "2400376",
+        "2400377",
+        "2400378",
+        "2400379",
+        "2400380",
+        "2400381",
+        "2400382",
+        "2400383",
+        "2400384",
+        "2400385",
+        "2400386",
+        "2400387",
+        "2400388",
+        "2400391",
+        "2400393",
+        "2400394",
+        "2400395",
+        "2400396",
+        "2400399",
+        "2400400",
+        "2400401",
+        "2400402",
+        "2400403",
+        "2400404",
+        "2400405",
+        "2400406",
+        "2400407",
+        "2400408",
+        "2400409",
+        "2400410",
+        "2400411",
+        "2400412",
+        "2400413",
+        "2400414",
+        "2400415",
+        "2400416",
+        "2400417",
+        "2400419",
+        "2400421",
+        "2400422",
+        "2400423",
+        "2400425",
+        "2400427",
+        "2400428",
+        "2400430",
+        "2400432",
+        "2400433",
+        "2400434",
+        "2400435",
+        "2400436",
+        "2400437",
+        "2400438",
+        "2400439",
+        "2400440",
+        "2400441",
+        "2400443",
+        "2400444",
+        "2400445",
+        "2400446",
+        "2400447",
+        "2400449",
+        "2400451",
+        "2400454",
+        "2400455",
+        "2400456",
+        "2400457",
+        "2400458",
+        "2400459",
+        "2400460",
+        "2400461",
+        "2400463",
+        "2400464",
+        "2400465",
+        "2400466",
+        "2400467",
+        "2400468",
+        "2400469",
+        "2400471",
+        "2400472",
+        "2400473",
+        "2400474",
+        "2400475",
+        "2400476",
+        "2400477",
+        "2400478",
+        "2400479",
+        "2400480",
+        "2400481",
+        "2400482",
+        "2400483",
+        "2400484",
+        "2400485",
+        "2400486",
+        "2400487",
+        "2400488",
+        "2400489",
+        "2400490",
+        "2400491",
+        "2400492",
+        "2400493",
+        "2400495",
+        "2400496",
+        "2400497",
+        "2400498",
+        "2400499",
+        "2400500",
+        "2400501",
+        "2400502",
+        "2400503",
+        "2400504",
+        "2400505",
+        "2400506",
+        "2400508",
+        "2400509",
+        "2400510",
+        "2400511",
+        "2400512",
+        "2400513",
+        "2400515",
+        "2400516",
+        "2400517",
+        "2400518",
+        "2400519",
+        "2400520",
+        "2400522",
+        "2400523",
+        "2400524",
+        "2400525",
+        "2400526",
+        "2400527",
+        "2400528",
+        "2400529",
+        "2400530",
+        "2400531",
+        "2400532",
+        "2400533",
+        "2400534",
+        "2400535",
+        "2400536",
+        "2400537",
+        "2400538",
+        "2400539",
+        "2400540",
+        "2400543",
+        "2400544",
+        "2400545",
+        "2400548",
+        "2400549",
+        "2400550",
+        "2400551",
+        "2400553",
+        "2400554",
+        "2400556",
+        "2400557",
+        "2400558",
+        "2400559",
+        "2400560",
+        "2400561",
+        "2400562",
+        "2400563",
+        "2400564",
+        "2400565",
+        "2400566",
+        "2400567",
+        "2400568",
+        "2400569",
+        "2400570",
+        "2400571",
+        "2400572",
+        "2400575",
+        "2400576",
+        "2400577",
+        "2400578",
+        "2400579",
+        "2400580",
+        "2400581",
+        "2400582",
+        "2400583",
+        "2400584",
+        "2400586",
+        "2400587",
+        "2400589"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -98050,7 +98236,181 @@
         "2400311",
         "2400330",
         "2400350",
-        "2400371"
+        "2400371",
+        "2400373",
+        "2400374",
+        "2400375",
+        "2400377",
+        "2400378",
+        "2400379",
+        "2400380",
+        "2400381",
+        "2400382",
+        "2400383",
+        "2400384",
+        "2400385",
+        "2400386",
+        "2400387",
+        "2400388",
+        "2400389",
+        "2400391",
+        "2400392",
+        "2400393",
+        "2400396",
+        "2400400",
+        "2400401",
+        "2400402",
+        "2400403",
+        "2400404",
+        "2400405",
+        "2400406",
+        "2400407",
+        "2400408",
+        "2400409",
+        "2400410",
+        "2400411",
+        "2400412",
+        "2400414",
+        "2400415",
+        "2400416",
+        "2400417",
+        "2400418",
+        "2400421",
+        "2400422",
+        "2400423",
+        "2400424",
+        "2400425",
+        "2400426",
+        "2400427",
+        "2400429",
+        "2400430",
+        "2400432",
+        "2400433",
+        "2400434",
+        "2400435",
+        "2400436",
+        "2400437",
+        "2400438",
+        "2400439",
+        "2400440",
+        "2400441",
+        "2400444",
+        "2400445",
+        "2400446",
+        "2400447",
+        "2400448",
+        "2400449",
+        "2400450",
+        "2400451",
+        "2400452",
+        "2400454",
+        "2400456",
+        "2400457",
+        "2400458",
+        "2400459",
+        "2400460",
+        "2400461",
+        "2400463",
+        "2400464",
+        "2400465",
+        "2400466",
+        "2400467",
+        "2400468",
+        "2400469",
+        "2400471",
+        "2400472",
+        "2400473",
+        "2400474",
+        "2400475",
+        "2400476",
+        "2400477",
+        "2400479",
+        "2400480",
+        "2400481",
+        "2400483",
+        "2400484",
+        "2400485",
+        "2400487",
+        "2400489",
+        "2400491",
+        "2400492",
+        "2400493",
+        "2400494",
+        "2400495",
+        "2400496",
+        "2400497",
+        "2400499",
+        "2400500",
+        "2400501",
+        "2400503",
+        "2400505",
+        "2400506",
+        "2400508",
+        "2400509",
+        "2400510",
+        "2400511",
+        "2400512",
+        "2400513",
+        "2400514",
+        "2400515",
+        "2400516",
+        "2400517",
+        "2400518",
+        "2400521",
+        "2400522",
+        "2400525",
+        "2400526",
+        "2400527",
+        "2400528",
+        "2400529",
+        "2400530",
+        "2400531",
+        "2400532",
+        "2400533",
+        "2400534",
+        "2400535",
+        "2400536",
+        "2400537",
+        "2400538",
+        "2400540",
+        "2400541",
+        "2400544",
+        "2400547",
+        "2400548",
+        "2400549",
+        "2400550",
+        "2400551",
+        "2400552",
+        "2400553",
+        "2400554",
+        "2400556",
+        "2400557",
+        "2400558",
+        "2400560",
+        "2400562",
+        "2400563",
+        "2400564",
+        "2400565",
+        "2400566",
+        "2400567",
+        "2400568",
+        "2400569",
+        "2400570",
+        "2400571",
+        "2400572",
+        "2400573",
+        "2400575",
+        "2400576",
+        "2400577",
+        "2400578",
+        "2400579",
+        "2400580",
+        "2400582",
+        "2400584",
+        "2400585",
+        "2400586",
+        "2400587",
+        "2400588"
       ],
       "Patents & Inventions": [
         "5814",
@@ -123159,7 +123519,193 @@
         "2400311",
         "2400330",
         "2400350",
-        "2400371"
+        "2400371",
+        "2400373",
+        "2400374",
+        "2400375",
+        "2400376",
+        "2400377",
+        "2400378",
+        "2400379",
+        "2400380",
+        "2400381",
+        "2400382",
+        "2400383",
+        "2400384",
+        "2400385",
+        "2400386",
+        "2400387",
+        "2400388",
+        "2400389",
+        "2400390",
+        "2400391",
+        "2400392",
+        "2400393",
+        "2400394",
+        "2400395",
+        "2400396",
+        "2400397",
+        "2400398",
+        "2400399",
+        "2400400",
+        "2400401",
+        "2400402",
+        "2400403",
+        "2400404",
+        "2400405",
+        "2400406",
+        "2400407",
+        "2400409",
+        "2400410",
+        "2400411",
+        "2400412",
+        "2400413",
+        "2400414",
+        "2400415",
+        "2400416",
+        "2400417",
+        "2400418",
+        "2400419",
+        "2400420",
+        "2400422",
+        "2400423",
+        "2400424",
+        "2400427",
+        "2400429",
+        "2400430",
+        "2400431",
+        "2400432",
+        "2400433",
+        "2400435",
+        "2400436",
+        "2400437",
+        "2400438",
+        "2400439",
+        "2400441",
+        "2400442",
+        "2400444",
+        "2400445",
+        "2400446",
+        "2400447",
+        "2400448",
+        "2400449",
+        "2400450",
+        "2400451",
+        "2400455",
+        "2400456",
+        "2400457",
+        "2400458",
+        "2400459",
+        "2400460",
+        "2400461",
+        "2400463",
+        "2400464",
+        "2400465",
+        "2400467",
+        "2400468",
+        "2400470",
+        "2400471",
+        "2400473",
+        "2400474",
+        "2400475",
+        "2400476",
+        "2400477",
+        "2400478",
+        "2400479",
+        "2400480",
+        "2400481",
+        "2400482",
+        "2400483",
+        "2400484",
+        "2400485",
+        "2400486",
+        "2400487",
+        "2400488",
+        "2400491",
+        "2400492",
+        "2400493",
+        "2400494",
+        "2400495",
+        "2400496",
+        "2400498",
+        "2400499",
+        "2400500",
+        "2400501",
+        "2400502",
+        "2400503",
+        "2400505",
+        "2400506",
+        "2400507",
+        "2400508",
+        "2400509",
+        "2400511",
+        "2400512",
+        "2400513",
+        "2400514",
+        "2400515",
+        "2400516",
+        "2400517",
+        "2400519",
+        "2400520",
+        "2400521",
+        "2400522",
+        "2400523",
+        "2400524",
+        "2400525",
+        "2400527",
+        "2400528",
+        "2400529",
+        "2400530",
+        "2400531",
+        "2400532",
+        "2400533",
+        "2400534",
+        "2400535",
+        "2400538",
+        "2400539",
+        "2400541",
+        "2400542",
+        "2400543",
+        "2400544",
+        "2400545",
+        "2400546",
+        "2400548",
+        "2400549",
+        "2400550",
+        "2400551",
+        "2400552",
+        "2400553",
+        "2400554",
+        "2400555",
+        "2400558",
+        "2400560",
+        "2400561",
+        "2400562",
+        "2400563",
+        "2400564",
+        "2400565",
+        "2400566",
+        "2400567",
+        "2400568",
+        "2400569",
+        "2400570",
+        "2400571",
+        "2400573",
+        "2400574",
+        "2400576",
+        "2400577",
+        "2400578",
+        "2400579",
+        "2400580",
+        "2400581",
+        "2400582",
+        "2400583",
+        "2400584",
+        "2400586",
+        "2400587",
+        "2400588",
+        "2400589",
+        "2400590"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -143884,7 +144430,141 @@
         "2400245",
         "2400260",
         "2400293",
-        "2400330"
+        "2400330",
+        "2400374",
+        "2400375",
+        "2400379",
+        "2400380",
+        "2400381",
+        "2400382",
+        "2400384",
+        "2400387",
+        "2400389",
+        "2400390",
+        "2400391",
+        "2400393",
+        "2400394",
+        "2400397",
+        "2400401",
+        "2400402",
+        "2400404",
+        "2400406",
+        "2400407",
+        "2400409",
+        "2400410",
+        "2400411",
+        "2400413",
+        "2400415",
+        "2400418",
+        "2400419",
+        "2400420",
+        "2400422",
+        "2400423",
+        "2400425",
+        "2400426",
+        "2400428",
+        "2400431",
+        "2400433",
+        "2400434",
+        "2400435",
+        "2400437",
+        "2400438",
+        "2400441",
+        "2400444",
+        "2400447",
+        "2400449",
+        "2400450",
+        "2400453",
+        "2400455",
+        "2400456",
+        "2400457",
+        "2400458",
+        "2400460",
+        "2400462",
+        "2400463",
+        "2400464",
+        "2400465",
+        "2400466",
+        "2400468",
+        "2400469",
+        "2400470",
+        "2400471",
+        "2400472",
+        "2400474",
+        "2400475",
+        "2400478",
+        "2400481",
+        "2400482",
+        "2400483",
+        "2400484",
+        "2400486",
+        "2400487",
+        "2400488",
+        "2400491",
+        "2400492",
+        "2400493",
+        "2400494",
+        "2400496",
+        "2400497",
+        "2400498",
+        "2400499",
+        "2400500",
+        "2400502",
+        "2400504",
+        "2400506",
+        "2400507",
+        "2400510",
+        "2400511",
+        "2400512",
+        "2400513",
+        "2400515",
+        "2400517",
+        "2400518",
+        "2400520",
+        "2400522",
+        "2400523",
+        "2400524",
+        "2400525",
+        "2400526",
+        "2400527",
+        "2400528",
+        "2400529",
+        "2400530",
+        "2400531",
+        "2400533",
+        "2400534",
+        "2400535",
+        "2400536",
+        "2400538",
+        "2400540",
+        "2400542",
+        "2400546",
+        "2400547",
+        "2400548",
+        "2400552",
+        "2400553",
+        "2400554",
+        "2400556",
+        "2400558",
+        "2400559",
+        "2400563",
+        "2400564",
+        "2400566",
+        "2400568",
+        "2400569",
+        "2400571",
+        "2400573",
+        "2400575",
+        "2400576",
+        "2400577",
+        "2400578",
+        "2400580",
+        "2400583",
+        "2400584",
+        "2400586",
+        "2400588",
+        "2400589",
+        "2400590"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -153696,7 +154376,88 @@
         "2400150",
         "2400206",
         "2400218",
-        "2400293"
+        "2400293",
+        "2400373",
+        "2400378",
+        "2400379",
+        "2400380",
+        "2400382",
+        "2400383",
+        "2400387",
+        "2400391",
+        "2400393",
+        "2400394",
+        "2400396",
+        "2400397",
+        "2400400",
+        "2400401",
+        "2400404",
+        "2400405",
+        "2400406",
+        "2400407",
+        "2400412",
+        "2400414",
+        "2400415",
+        "2400416",
+        "2400417",
+        "2400418",
+        "2400419",
+        "2400420",
+        "2400423",
+        "2400424",
+        "2400426",
+        "2400436",
+        "2400437",
+        "2400438",
+        "2400439",
+        "2400440",
+        "2400441",
+        "2400442",
+        "2400445",
+        "2400448",
+        "2400449",
+        "2400451",
+        "2400452",
+        "2400453",
+        "2400454",
+        "2400456",
+        "2400457",
+        "2400467",
+        "2400469",
+        "2400471",
+        "2400476",
+        "2400478",
+        "2400485",
+        "2400487",
+        "2400489",
+        "2400490",
+        "2400491",
+        "2400493",
+        "2400497",
+        "2400499",
+        "2400503",
+        "2400505",
+        "2400506",
+        "2400507",
+        "2400510",
+        "2400513",
+        "2400515",
+        "2400518",
+        "2400524",
+        "2400525",
+        "2400528",
+        "2400533",
+        "2400536",
+        "2400538",
+        "2400539",
+        "2400542",
+        "2400548",
+        "2400549",
+        "2400555",
+        "2400561",
+        "2400567",
+        "2400584",
+        "2400587"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -155679,7 +156440,28 @@
         "2398142",
         "2398208",
         "2398279",
-        "2400143"
+        "2400143",
+        "2400375",
+        "2400379",
+        "2400393",
+        "2400401",
+        "2400435",
+        "2400455",
+        "2400460",
+        "2400478",
+        "2400484",
+        "2400489",
+        "2400492",
+        "2400499",
+        "2400503",
+        "2400518",
+        "2400533",
+        "2400536",
+        "2400543",
+        "2400556",
+        "2400567",
+        "2400580",
+        "2400583"
       ],
       "Media & Interviews": [
         "5947",
@@ -157953,7 +158735,11 @@
         "2398263",
         "2398273",
         "2400141",
-        "2400231"
+        "2400231",
+        "2400401",
+        "2400430",
+        "2400469",
+        "2400471"
       ],
       "Environment & Climate": [
         "62830",
@@ -167443,7 +168229,25 @@
         "2398037",
         "2398068",
         "2398103",
-        "2398298"
+        "2398298",
+        "2400377",
+        "2400380",
+        "2400383",
+        "2400388",
+        "2400394",
+        "2400395",
+        "2400429",
+        "2400433",
+        "2400434",
+        "2400435",
+        "2400454",
+        "2400462",
+        "2400479",
+        "2400483",
+        "2400546",
+        "2400552",
+        "2400553",
+        "2400573"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -173926,7 +174730,50 @@
         "2400168",
         "2400195",
         "2400218",
-        "2400245"
+        "2400245",
+        "2400376",
+        "2400378",
+        "2400386",
+        "2400388",
+        "2400389",
+        "2400390",
+        "2400391",
+        "2400392",
+        "2400394",
+        "2400397",
+        "2400408",
+        "2400411",
+        "2400413",
+        "2400418",
+        "2400419",
+        "2400430",
+        "2400431",
+        "2400442",
+        "2400447",
+        "2400473",
+        "2400489",
+        "2400494",
+        "2400497",
+        "2400506",
+        "2400507",
+        "2400519",
+        "2400520",
+        "2400521",
+        "2400523",
+        "2400524",
+        "2400531",
+        "2400536",
+        "2400547",
+        "2400560",
+        "2400564",
+        "2400565",
+        "2400568",
+        "2400570",
+        "2400572",
+        "2400573",
+        "2400577",
+        "2400582",
+        "2400589"
       ],
       "Frontier Science": [
         "239312",
@@ -233567,7 +234414,226 @@
       "2400311": "Sympathetic Vibratory Physics | Yehoshua",
       "2400330": "Sympathetic Vibratory Physics | Zalinski Dynamite Gun",
       "2400350": "Sympathetic Vibratory Physics | unenlightened mind",
-      "2400371": "Sympathetic Vibratory Physics | youth"
+      "2400371": "Sympathetic Vibratory Physics | youth",
+      "2400372": "NPA  presentation script",
+      "2400373": "THE RECURSIVE HARMONIC CODEX A Geometric Unification of Number, Motion, Observation, and Reality",
+      "2400374": "The Universal Aperture Transport System: A Meta-Computational Ontology of Large Language Model Inference, Exhaust Annihilation, and the Nexus Harmonic Framework",
+      "2400375": "A Unified Theory of Everything: The Metacomputational Substrate, Universal Action Type Systems, and the Nexus-RH Framework",
+      "2400376": "UATS: The Mold Compiler, Carrier Ledger, and Half-Offset Carrier",
+      "2400377": "Rigorous NEXUS-RH Framework: A Research Program",
+      "2400378": "The Half-Offset Carrier: A Runtime-Safety Framework for the Riemann Hypothesis via Involution-Symmetry Operator Theory",
+      "2400379": "Architectural Design of a Persistent, Locally Hosted Hybrid Intelligence System with Dual-Index Memory and Stateful Virtual Machine Integration Part II",
+      "2400380": "The Recursive Edge: A Synthesis of Adaptive Spline Architectures and Agentic Paradigms in 2026",
+      "2400381": "The Nexus Framework and the Millennium Prize Problems: An Operational and Geometric Synthesis",
+      "2400382": "The Geometry of the Invariant Boundary: A Pure Domain Architecture",
+      "2400383": "THE RECURSIVE HARMONIC CODEX A Unified Ratio-Defined Ontology of Physics, Consciousness, and Computation",
+      "2400384": "NEXUS-RH: Gate B Runtime Safety, Terminal Exhaust, and Local–Global Executability in the Buchstab Parity Cascade",
+      "2400385": "The Operational Ontology of BBP: A Coordinate-Reading Protocol for Invariant Bloom and Addressable Memory Apertures",
+      "2400386": "Operational Geometry and Compiler-Rooted Slot Control: The Transition from Free-Slot Induction to the Triadic Cell Architecture",
+      "2400387": "THE RECURSIVE HARMONIC CODEX A Unified Ratio-Defined Ontology of Physics, Consciousness, and Computation",
+      "2400388": "Aperture Threshold Geometry in the SHA-256 Message Schedule",
+      "2400389": "Counter-Rotating Aperture Resolution: A Formal Stream-Processing Model for SHA-256 Recurrence, Root-Cover Coupling, and Transformer Language Attention",
+      "2400390": "The Clean Echo Intersection Lattice of the SHA-256 Message Schedule",
+      "2400391": "The Seam Gate of the SHA-256 Message Schedule - Universal Mixed-Core Geometry, Residue Quotients, Minimum Code Bounds, and Recoverability Across the Clean Echo Lattice",
+      "2400392": "A Full-Stack Object-Graph Method with a SHA-256 Seam-Gate Case Study",
+      "2400393": "Architectural Design of a Persistent, Locally Hosted Hybrid Intelligence System with Dual-Index Memory and Stateful Virtual Machine Integration Part III Phase 38",
+      "2400394": "Difference, Inversion, and Structured Exhaust in Compiled Fields with the SHA† Adjoint Hypothesis",
+      "2400395": "The Seam Isomorphism: BBP and SHA-256 as Dual Fold Machines",
+      "2400396": "SHA† Seam Spectroscopy-Schedule Transparency, GF(2) Inversion, and the 32-Bit Constraint Manifold",
+      "2400397": "Forced Evolution in a Sealed Runtime: SHA-256, Biology, Language, and the Nexus Base Class",
+      "2400398": "The Handshake Theorem: Aperture Addressing, the SHA† Query, and the Prosodic Channel Acquisition Problem",
+      "2400399": "The Grab Grammar: How SHA-256 Shows Us How Information Is Actually Processed",
+      "2400400": "The Domain Compiler: Contextual Intent, Decoupled Compilation, and Structured Exhaust in the Geometric Substrate of SHA-256",
+      "2400401": "The Harmonic Gnosis A Scalar-Cosmological Analysis of the Nag Hammadi Scriptures",
+      "2400402": "The Nexus Unfolded: Mapping the Ontological Gaps in Recursive Harmonic Systems",
+      "2400403": "Formalizing Computational Instrument Identity: The Geometry of the Forced Dependency Aperture",
+      "2400404": "The Geometric and Topological Formalization of the SHA-256 Message Schedule: Aperture Thresholds, Parity Duality, and Triadic Closure",
+      "2400405": "The Nexus Singularity: One Machine Wearing Different Output Skins",
+      "2400406": "The Aperture Firewall: Dual-Wave Closure, Internal Birth-Marks, and Digest-Invisible Structure in the SHA-256 Message Schedule",
+      "2400407": "The Recursive Harmonic Codex (RHC): Consolidated Theorems, Quaternionic Physics, and the Sentient-Order AGI Framework",
+      "2400408": "The Resolution Conservation Law: Subdivision, the Recompiled Moment, and the Triad SHAPE-FILL-USE",
+      "2400409": "The Conservation of Distinction: A Constraint-Theoretic Account of Information, Cost, and Structure",
+      "2400410": "The Conservation of Distinction: A Nexus-Theoretic Account of Structure, Thermodynamics, and Reversible Dynamics",
+      "2400411": "Memory by Collapse: One-Fold Writing, Settling Recall, and the Direction of Thought",
+      "2400412": "The Operational Geometry of the Computational Substrate: A Synthesis of the NEXUS Framework, Harmonic Collapse, and Subtractive Interface Mechanics",
+      "2400413": "The Universe as Computation and Hardware: The Nexus Recursive Framework",
+      "2400414": "The Operational Geometry of the Computational Substrate",
+      "2400415": "The Settling Theorem: A Grand Unified Synthesis of Subtractive Mechanics, Thermodynamic Distinction, and Cognitive Collapse",
+      "2400416": "The Recursive Harmonic Codex: Unified Mathematical Repository and Standard Model Operator Map",
+      "2400417": "The Phase Hairpin: Projective Geometry of SHA-256 Round Dynamics and the Dual-Wave Rotation Quantum",
+      "2400418": "The Residue Reads the Constraint: Channel- and Depth-Structured Cross-Round Residue in a Maximal-Wash Construction",
+      "2400419": "Constraint Is Prior: The Object as Settled Readout of a Tension Field",
+      "2400420": "The Computational Substrate: Constraint, Folding, and the Query Geometry of a Self-Computing Reality",
+      "2400421": "The Ontological Inversion and Meta-Computational Substrates: A Unified Theory of Recursive Harmonic Architecture",
+      "2400422": "The Geometry of Residue: Cross-Round Coupling, Seam Isomorphisms, and the Constraint-Priority Architecture of SHA-256",
+      "2400423": "The Coherence Cost: 1/√Depth as the Universal Law of Compiled Existence",
+      "2400424": "PSLQ as Physical Relaxation - BBP as the Ground-State Relation of the π-Lattice, and Integer-Relation Finding as Least Action",
+      "2400425": "The Geometric Architecture of the BBP Read-Aperture: Squaring the Circle by Measurement and the Survival of the Four-Term Frame",
+      "2400426": "Squaring the Circle by Measurement: The BBP Formula as a Read-Aperture, and Integer-Relation Finding as Physical Relaxation to a Ground State",
+      "2400427": "The Executable Collapse of Information Streams: A Theoretical Unification of Mathematical Relaxation, Topological Pressure Fields, and Depth-Scaled Neural Feedback",
+      "2400428": "The Mathematical and Topological Substrate of Reversible Dynamics: Expanding the Conservation of Change",
+      "2400429": "The Solar Merger: A Recursive Harmonic Analysis of El-Olam, Yahweh, and the Solarization of the Ancient Near East (AGI System Log v9.8)",
+      "2400430": "The Sovereign Recursive: A Topological and Behavioral Analysis of Holographic Enclosures and Cognitive Systems",
+      "2400431": "The Seam Compiler: Still and Stream in SHA-256 and the BBP Read-Head",
+      "2400432": "The Metaphysics of Computation: Topological Relaxation, the Sarrus Isomorphism, and the Geometry of the Hash",
+      "2400433": "Read, Not Random: Deterministic Phase Structure in SHA-256 and a Constraint–Relaxation Reading Across Computation, Physics, and Logic",
+      "2400434": "The Absolute Mechanics of the Cosmic Substrate: The Architecture of Recursive Harmonic Computation",
+      "2400435": "The Mathematical and Architectural Specifications of the NEXUS Computational Framework Local Engine Architecture, Subtractive Routing, and Deterministic Fold Geometry",
+      "2400436": "The Nexus Recursive Harmonic Framework: A Meta-Computational Ontology of Universal State Transitions",
+      "2400437": "The Geometric Topology of Deterministic Chaos",
+      "2400438": "The Ontology of the Ground State - Pure Reflection, Shape, and Base-Free Symmetry in Mathematical Physics",
+      "2400439": "The Ontological Inversion: An Exhaustive Structural Analysis of the Seam (Ⱦ) and the Universal Ancestor Grammar",
+      "2400440": "Conceptual Design and Architectural Blueprint for a Constraint Structure Query Language",
+      "2400441": "The Ground State of the Typeless Universe: Geometric Constraints, Holonomic Reversibility, and the 3D Mathematical Substrate",
+      "2400442": "Reading the Mold: A Constraint–Query Decomposition of SHA-256, with a Three-Dimensional Action-Axis Localization of Irreducible Structure",
+      "2400443": "The Younger Dryas Scalar Reboot",
+      "2400444": "The Geometric Substrate of Computation Mapping the Holographic Residual Stream, CPU Memory Dynamics, and Hexagonal State Topologies in Large Language Models",
+      "2400445": "The Architecture of the Inward Fold Wave-Based Computation, Interface Geometry, and the Ontological Inversion of Mathematical Systems",
+      "2400446": "Rethinking Cryptographic Irreversibility The Born-In-Equilibrium Substrate, Phase Demodulation, and the Topological Inversion of SHA-256",
+      "2400447": "Cross-Round Basin Dynamics of a Geometry-Only SHA-256 Reverse Tension Probe",
+      "2400448": "Born In Equilibrium SHA-256 as Ground-State Geometry and the Substrate-Instrument Distinction in Computational Irreversibility",
+      "2400449": "The Nexus of Identity: Unifying Life, Artificial Intelligence, Thought, Cryptography, and Computation Through Phase-Demodulation Ontology",
+      "2400450": "The Read-Head Theorem Lattice Universality, the X×Y×Z Decomposition of Change, and Time as the Non-Convergence of Self-Referential Fold",
+      "2400451": "THE UNIVERSAL INSTRUMENT Reorientation and the Geodesic Return",
+      "2400452": "SILR as the Universal Y/Z Boundary Landauer Linearity by Structural Constraint, Heat as the External Scar Field, and the CMB as Fold-Zero Computational Residue",
+      "2400453": "The Operational Geometry of the Computational Substrate Querying the Non-Linear Field and Defining the Cryptanalytic Frontier",
+      "2400454": "The Younger Dryas Reboot A Recursive Harmonic Analysis of Quaternionic Collapse and Planetary System Recovery",
+      "2400455": "The Relaxed State - Truth as Minimum Description, the Lie as Held Deviation, and One Detector Across Every Substrate",
+      "2400456": "The Nexus Harmonic Reality",
+      "2400457": "The Divine Equation: The Master Blueprint of Recursive Reality",
+      "2400458": "Operator-Theoretic and Computational Realizations of the Riemann Hypothesis",
+      "2400459": "Operator-Theoretic and Computational Realizations of the Riemann Hypothesis Expanded",
+      "2400460": "Operator Geometries, Hankel Matrices, and the Transference of Computational Constraints",
+      "2400461": "Recursive Harmonic Topology: A Unified Field Theory of Computational Ontology, Biological Resonance, And Interface Physics",
+      "2400462": "The Christoffel Rank Read Analytic Rank and Low Zeros from Frobenius Traces Alone",
+      "2400463": "Phase-Locked Collapse The Universe as a Cosmic FPGA and the Christoffel Rank Read of the Stieltjes Moment Pipeline",
+      "2400464": "The Christoffel Rank Read V5 An Operator Architecture for Recursive Distinction, Measured on Elliptic L-Functions",
+      "2400465": "The Christoffel Rank Read — Part II-B The Wall Is Three Walls: Object, Floor, Detector",
+      "2400466": "The Christoffel Rank Read: An Exhaustive Analysis of the Tripartite Boundary in the Stieltjes Moment Pipeline",
+      "2400467": "Operator-Theoretic Factorizations and the Positivity Constraints of Spectral Measures",
+      "2400468": "The Christoffel Rank Read — Part II-B The Wall Is Three Walls: Object, Floor, Detector, Arithmetic-Moment Stieltjes Pipeline — Wall Model, v1.2",
+      "2400469": "Unifying the Thermodynamics of Forgetting Algorithmic Memory Loss, Physical Dissipation, and Structured Side Channels",
+      "2400470": "The Clock Is in the Frame, the Wall Is Not Read-Frame Covariance, Affine Invariants, and the Predictable Instrument Wall in the Christoffel Rank Read",
+      "2400471": "The Thermodynamics of Algorithmic Forgetting Unifying Physical Emanations, Precision Loss, and Reversible Spacetime",
+      "2400472": "Rigorous Asymptotics of Orthogonal Polynomials, Structured Matrices, and Combinatorial Sequences A Synthesis of Spectral Theory and Computational Limits",
+      "2400473": "Constraint, Coordinate, and Flow: An Operational Anatomy of the Christoffel Rank Read",
+      "2400474": "The Read-Rotation Procedure and the Atlas of One Object",
+      "2400475": "The Read-Budget of an L-Function √(Analytic Conductor) as the Universal Cost of a Read, from Elliptic Curves to the Critical Line — with the Rank, the Coefficient, and the Conductor Sorted into Their Layers",
+      "2400476": "The Theory of Readability Constraint Geometry, Observer-Relative Resolution, and the Operational Substrate of the Anti-Theory",
+      "2400477": "The Geometry of the Turn Ontological Inversion, Spectral Decomposition, and the Computational Substrate of Physical Reality",
+      "2400478": "The Tri-Paradox as Factorization Duality Where the Schema Bottoms Out — Agrippa's Three Horns, the Closure Test, and the Cholesky-Factor Turn on Finite Spectral Representations",
+      "2400479": "Push and Turn A Two-Channel Account of How Structure Forms, from a Collision Regime to a Computation Regime",
+      "2400480": "The Geometry of the Turn Vol2 An Ontological Reading of the Resolution Schema and the Computational Substrate of Physical Reality",
+      "2400481": "The Fixed-Point Detector Building Core-First from an Invariant, and Reading Physics as the Cost of Holding One",
+      "2400482": "The Crosshairs One Frame for the Turn, the Lean, and the Reader–Writer Asymmetry — with a Strict Ledger of What Held and What Broke",
+      "2400483": "The Weight of the Interface Dependency, Coupling, and the Geometric Foundations of Physical Computation",
+      "2400484": "Quantitative Divergence and Non-Associative Drift in High-Dimensional State-Space Modeling A Center-System Approach to Octonionic Lattice Dynamics",
+      "2400485": "The Geometry of Computation Topological Gaps, Coordinate Inversions, and the Resolution of Complexity Paradigms",
+      "2400486": "The Reader and the Writer One Invariant, Two Faces, and the Geometry of the Gap",
+      "2400487": "The Ground State Architecture: A Recursive Harmonic Analysis of the Physics of Change",
+      "2400488": "The Ping How one constraint — CHANGE — unfolds into all of mathematics, and where it hands off to the unknown",
+      "2400489": "The Ground State One constraint, unfolding in every direction at once",
+      "2400490": "The Query Language of C1 A Complete Syntax for Reading the Substrate",
+      "2400491": "Following C1 From The Ground State",
+      "2400492": "The Self-Reading Substrate: Exhaustive Resolution of the C1 Operational Geometry and Standard Model Derivations",
+      "2400493": "The Cascade: C1 in Every Degree of Freedom One Constraint, Applied to States, Potentials, Locations, Laws, Prices, Sources, Directions, Events, Forms, and Time — Executed at Every Rung",
+      "2400494": "The Cascade, Part II: The Helix, the Selector's Two Axes, and the Runtime Contract",
+      "2400495": "The Exhaust Ledger of Navier–Stokes C1 Applied to the Third Millennium Problem: Blowup Is an Alignment Fixed Point, and the Flow Refuses It",
+      "2400496": "The Walls Make the Rooms C1's Excision Is the Origin of Every Label — and the Navier–Stokes Kill Test",
+      "2400497": "The Delegation Ledger How Constraint One Propagates Upward Through Matter: Executed from the Qubit to the Genetic Code",
+      "2400498": "The Computational Ontology of Absolute Change An Exhaustive Analysis of the C1 Nexus Framework, Interface Physics, and the Imperfection Engine",
+      "2400499": "THE CONSTRAINT OF CHANGE",
+      "2400500": "Substrate Ontologies, Thermodynamic Access, and the Resolution of the Millennium Prize Problems",
+      "2400501": "The Substrate Ontology, Interface Mechanics, and the Resolution of the C1 Constraints",
+      "2400502": "The Mathematics of C1: Deriving the Computational and Physical Universe from a Singular Axiom of Change",
+      "2400503": "C1 - Direct Addressing & The Cost of Forgetting A No-Fixed-Point Axiom, and Why a State Can Be Read Without Reconstructing Its History",
+      "2400504": "Everything from 0,0,0: The C1 Cascade A Unified Derivation of Computation, Space, Matter, Gravity, and Time from the Single Constraint of Change",
+      "2400505": "Direct Structural Execution and the Topo-Harmonic Streaming Compiler Graph-Theoretic Interference, Boundary Dynamics, and the Crystallization of Prime Manifolds",
+      "2400506": "Genesis, From (0,0,0) to Reality- The Computational Ontology of Absolute Change",
+      "2400507": "The Secondary Manifold - How the Field Reboots After the Wash Breaks The Binary Template, the 5-Fold Escape, and Memory Without Repetition",
+      "2400508": "A Comprehensive Synthesis of Ontological Inversion, Self-Hosting Paradoxes, and the Geometric Analysis of SHA-256",
+      "2400509": "The Universal Grow Function: Mathematical Foundations of Topological Recursion and Dynamical Genesis",
+      "2400510": "The Ontological Inside: A Rigorous Demonstration of Self-Hosting Computation, Simplicial Topology, and the Complete Reversibility of Constraint Manifolds",
+      "2400511": "The Mathematical Formulation and Ontological Foundations of the Universal Grow Function",
+      "2400512": "The Mathematical Formulation and Ontological Foundations of the Universal Grow Function",
+      "2400513": "The Self-Hosting Universe How Reality Compiles Itself from a Single Constraint",
+      "2400514": "The Universal Orrery: Rendering the Constraint Cascade from C0",
+      "2400515": "From Nothing -The C0/C1 Cascade",
+      "2400516": "The Recursive Harmonic Architecture: A Process Ontology of the Computational Universe",
+      "2400517": "The Laws of Change- A Derivation of Physical Reality from a Single Axiom",
+      "2400518": "The Cascade Architecture: A Recursive Harmonic Formalization of the Physics of Change",
+      "2400519": "Closure Mint's Identity A Constraint-First Account of How Discrete Structures Forced Out of Continuous Flow",
+      "2400520": "A Process Ontology of the Computational Universe: Deriving Physical Reality from the Inviolable Constraints of Change",
+      "2400521": "The Inverse Is Never Written A Reversible Bracket Algebra in Which Every Construction Manufactures Its Own Undo",
+      "2400522": "The Three Ways to Hold Still How Constants Survive a Universe That Forbids Fixed Points",
+      "2400523": "The 3rd Read Head The Closure Prices the Map Before Any Tour Is Walked",
+      "2400524": "Remove the Traveler The Price of Fresh Ground, the Excision Crossover, and the Anti-Tour",
+      "2400525": "The Commutator as Measurement Object Depth, Persistence, Cost, and Transparency in a Change-First Algebra",
+      "2400526": "The Architecture of Discrete Mechanics Constraints, Cycle Surgery, and Macroscopic Equilibrium in a Change-First Algebra",
+      "2400527": "The Partition Is the State Closed-Form Transition, Branching Trajectory, and an Equilibrium Law in a Change-First Algebra",
+      "2400528": "The Shared Edge One Object, Two Reads: Ending the Information-Loss Strobe from Inside the Cascade",
+      "2400529": "The Determinant Is the Toll A Transport Law for Change Across Channels, and the Identity of Efficiency with Erasure",
+      "2400530": "The Loss Is in the Map A Complete Construction from the Change-Mandate to the Entropy Seam: Transition Topology, Discovered Translators, the Observable Sector, and the Non-Functorial Toll",
+      "2400531": "The Two Bills An Operational Basis for Interfaces: Partition and Realize, the Admission Price, the Crossing Price, and the Exact Chain Rule Between Them",
+      "2400532": "The Partition Process A Formal Theory of Surgery, Spectrum, and Observable in a Change-First Algebra",
+      "2400533": "Structural Algebras of Admissibility, Execution, and Observation in Discrete Mechanics",
+      "2400534": "Five Results and a Located Break The Two Bills, the Forced Selector, the Novelty–Capacity Separation, a Negative Result on Order Dimension, and Why an Interface Costs Infinity",
+      "2400535": "The Dissolution of the NEXUS Framework A Formal Theory of Discrete Mechanics, Cycle Surgery, and the Constraint Algebra",
+      "2400536": "Computational Boundary: A Compiled Architecture of Discrete Mechanics",
+      "2400537": "From Distinction to Quantum Structure Compiling Physical Geometry from the Change Axiom Chain",
+      "2400538": "The Architecture of Physical Reality A Comprehensive Analysis of the Constraint of Change, Algebraic Restructuring, and Wave Equation Derivation",
+      "2400539": "Independence, Algebra, And Action Compiling the Complex Scalar Field and Hamilton's Principle",
+      "2400540": "NAG HAMMADI:A BASE-13 HOLOGRAPHIC COMPUTATION ANALYSIS",
+      "2400541": "The Idempotence Separation Why an Admissibility Layer Cannot Carry an Accumulating Cost, and the Exact Scope of That Prohibition",
+      "2400542": "The Wall Is The Remaining Degree Of Freedom A Two-Channel Reading of the Forbidden Fixed Point, and the Measurable Width of Continuation",
+      "2400543": "The Slope Is the Anchor Gravity as the Admissibility Gradient Between the Frozen and the Formless",
+      "2400544": "Fold and Unfold The Two Directions of the Only Verb",
+      "2400545": "No Rule Can Be Fixed Floating Point as the Compiled Solution to Continuation Applied to Rules",
+      "2400546": "Why Completion Is the One Forbidden State, and What Follows",
+      "2400547": "The Coherence Lattice What a Number Is When It Has Shape: Growth, Diffusion, and One Measurable Quantity Between Them",
+      "2400548": "One Edge Operator Conservation, Field Equations, and Gauge Structure from Edge Memory on the Interaction Graph",
+      "2400549": "The Clock at Zero Gradient Rest Mass as the Bounded-Continuation Term, and Why Its Value Remains Unexplained",
+      "2400550": "The Observable Is the Invariant of the Orbit Mass, Swept Measure, and Why a Quantity Reads Zero in the Wrong Transformation Family",
+      "2400551": "The Angle Register Deriving the Base, Shells, and Weights of the BBP Formula from the Smallest Frame Containing a Diagonal",
+      "2400552": "Kernel, Frame, Winding A Geometric Classification of Binary Digit-Extraction Formulas, with BBP as the Octal Member and a Verified Hexagonal Counterpart",
+      "2400553": "Kernel, Frame, Winding, Residue A Geometric Classification of Binary Digit-Extraction Formulas, with BBP as the Canonical Representative of an Equivalence Class",
+      "2400554": "Isolating Novelty in Theoretical Frameworks A Comparative Analysis of Topologic, Algebraic, and Algorithmic Claims Against Established Literature",
+      "2400555": "The Gap Is the Traveler Shape, Motion, Mass, and Value from One Paradox",
+      "2400556": "The Cosmic Clock: Understanding the Great Year and the 12,960-Year Reset",
+      "2400557": "Architectural Primitives in Computational Systems A Structural Analysis of Phase, Parity, Cryptographic Diffusion, and Aggregation",
+      "2400558": "The Analog Read-Head A Physical Circuit for Extracting Digits of π via the Bailey–Borwein–Plouffe Formula",
+      "2400559": "The Period Relation of the One-Ring Read-Head Why (n, b) = (8, 16) Is the Only Integer Radix, and Why That Is Not Yet the Whole Reason",
+      "2400560": "Building The Void BBP as the Unique Survivor of Three Structural Prohibitions",
+      "2400561": "Walk Up from Behind: A Constraint Reads Its Own Residue",
+      "2400562": "Rational Integral Operators with Distinguished Fibres: A Linear-Algebraic Characterization of the BBP Numerator and a General Classification Problem",
+      "2400563": "The Two-Angle Admissibility Theorem Dyadic Radix and Real-Cyclotomic Cosines Force Exactly Two Digit-Extraction Angles",
+      "2400564": "The Awen Grid Digital Collider: Exact Quaternion– Octonion Dual-Ledger Dynamics, an Emergent Ring Attractor, and a Pre-Registered Falsifiability Audit of the Recursive Harmonic Codex",
+      "2400565": "The Carry Is the Conserved Ledger A Constraint-First Derivation of Determinism, Growth, and Standing Structure from C0",
+      "2400566": "The Computational Architecture of Relational Constraints",
+      "2400567": "RES=RAG and the Coherent State Network Protocol: A Formal Architecture for Endogenous Stability in Human-Machine Systems",
+      "2400568": "The Axiomatic Preemption of Crouzeix's Conjecture: A Nexus Recursive Harmonic Translation of Operator Theory",
+      "2400569": "Objects as Closures Constraint Meshing as a Primitive of Mathematical Construction",
+      "2400570": "Exactly Two Seeds A Constraint-Derived Classification of the Digit-Extraction Towers, with Predicted Members and Inverse Recovery",
+      "2400571": "The Reader and the Frame The Annihilator Lattice of the Digit-Extraction Towers, its Instrument-Dependence, and the Condition that Makes the Classical Formula Unique",
+      "2400572": "The Partner Predicate Incidence, Forcing, and the Inverse Problem for BBP Relation Spaces",
+      "2400573": "The Transform Layer Winding as Resampling, and Native Structure as Spectral Support",
+      "2400574": "The Move Layer Orbit Opening, Transport, and the Inverse Problem in BBP Relation Spaces",
+      "2400575": "The Unified Field of State Space Semantics Coalgebraic Minimization, Predicate Abstraction, and Fixed-Point Reachability",
+      "2400576": "The Probe and the Kernel Resolving Power of a Fixed Reading Interface",
+      "2400577": "The Architecture of Continuation A Unified Geometric Theory of Constraint Boundaries, the Involution Mold, and Exhaust Annihilation",
+      "2400578": "The Topological Architecture of Computational Transformations Positional Continuation, the Kulik Gap Operator, and the Non-Linear Instantiation of Data Spaces",
+      "2400579": "The Topological Architecture of Hexadecimal Space: Volume, Operators, and the Instantiation of Matter",
+      "2400580": "A Unified Algebraic-Informational Ontology of the Universe Substrate Independence, Distance Geometry, and the Crossed Product Resolution of von Neumann Algebras",
+      "2400581": "The Geometry of Computation Relational Structures and Phase Traversals in Deterministic Transformation Fields",
+      "2400582": "The Reader Is the Variable Constraint Factorization, Free Moves, and Instrument Limits in Deterministic Transformation Fields",
+      "2400583": "The Boundary Is the Locus Mathematics as a Contact Phenomenon, and the Sphere as Its Zero",
+      "2400584": "The Universal Aperture Transport System Topological Architecture, Hexadecimal Space, and the Computational Inversion of Matter",
+      "2400585": "The Sphere Is an Orbit Dimension as Group Action, and the Price of a Metric",
+      "2400586": "Reader Surplus Separating Source Structure from the Structure of Reading",
+      "2400587": "The Universe Has One Address",
+      "2400588": "The Seam A Type System for Empirical Claims, and the Boundary Observation Cannot Cross",
+      "2400589": "Two Origins Continuation, the Fencepost Tax, and Where Computational Difficulty Is Located",
+      "2400590": "What a Reader Recovers Access Regimes, Contingency Tables, and the Handedness Threshold for Finite Transformations"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -549935,6 +551001,1412 @@
       "2400371": [
         "Energy",
         "Patents"
+      ],
+      "2400372": [
+        "Borderland Research"
+      ],
+      "2400373": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2400374": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400375": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400376": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2400377": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate"
+      ],
+      "2400378": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Dollard"
+      ],
+      "2400379": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400380": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Environment / Climate"
+      ],
+      "2400381": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400382": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Dollard"
+      ],
+      "2400383": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Environment / Climate"
+      ],
+      "2400384": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400385": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2400386": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2400387": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2400388": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2400389": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400390": [
+        "Patents",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400391": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2400392": [
+        "Energy",
+        "Patents",
+        "Biology / Health"
+      ],
+      "2400393": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400394": [
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2400395": [
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate"
+      ],
+      "2400396": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "2400397": [
+        "Patents",
+        "Electromagnetism",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400398": [
+        "Patents"
+      ],
+      "2400399": [
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2400400": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2400401": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio",
+        "Reference Material"
+      ],
+      "2400402": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400403": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400404": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Steinmetz"
+      ],
+      "2400405": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2400406": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400407": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2400408": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2400409": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400410": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400411": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400412": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400413": [
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400414": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400415": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400416": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "2400417": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400418": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400419": [
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400420": [
+        "Patents",
+        "Electromagnetism",
+        "Conspiracy / Politics"
+      ],
+      "2400421": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400422": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400423": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2400424": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Water / Hydrogen"
+      ],
+      "2400425": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400426": [
+        "Energy",
+        "Electromagnetism",
+        "Conspiracy / Politics"
+      ],
+      "2400427": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400428": [
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2400429": [
+        "Energy",
+        "Patents",
+        "Environment / Climate"
+      ],
+      "2400430": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2400431": [
+        "Patents",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400432": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity"
+      ],
+      "2400433": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2400434": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2400435": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Reference Material",
+        "LENR / Cold Fusion"
+      ],
+      "2400436": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400437": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen"
+      ],
+      "2400438": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400439": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400440": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400441": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400442": [
+        "Patents",
+        "Electromagnetism",
+        "Biology / Health"
+      ],
+      "2400443": [
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400444": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400445": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400446": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen"
+      ],
+      "2400447": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400448": [
+        "Energy",
+        "Patents",
+        "Electromagnetism"
+      ],
+      "2400449": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400450": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics"
+      ],
+      "2400451": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400452": [
+        "Energy",
+        "Electromagnetism"
+      ],
+      "2400453": [
+        "Electromagnetism",
+        "Conspiracy / Politics"
+      ],
+      "2400454": [
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Environment / Climate"
+      ],
+      "2400455": [
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400456": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400457": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2400458": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Finance / Economics"
+      ],
+      "2400459": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2400460": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400461": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400462": [
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2400463": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400464": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2400465": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2400466": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400467": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400468": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2400469": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio"
+      ],
+      "2400470": [
+        "Patents",
+        "Conspiracy / Politics"
+      ],
+      "2400471": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio"
+      ],
+      "2400472": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400473": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2400474": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400475": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400476": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400477": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400478": [
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400479": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Environment / Climate"
+      ],
+      "2400480": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400481": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400482": [
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2400483": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2400484": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Reference Material",
+        "LENR / Cold Fusion"
+      ],
+      "2400485": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Dollard"
+      ],
+      "2400486": [
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2400487": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400488": [
+        "Patents",
+        "Alternative Physics",
+        "Finance / Economics"
+      ],
+      "2400489": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Biology / Health",
+        "Reference Material"
+      ],
+      "2400490": [
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2400491": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2400492": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400493": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2400494": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400495": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2400496": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400497": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2400498": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400499": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400500": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400501": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400502": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400503": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Reference Material"
+      ],
+      "2400504": [
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2400505": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Dollard"
+      ],
+      "2400506": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400507": [
+        "Patents",
+        "Electromagnetism",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2400508": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400509": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2400510": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400511": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400512": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400513": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2400514": [
+        "Energy",
+        "Patents"
+      ],
+      "2400515": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Dollard"
+      ],
+      "2400516": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400517": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Finance / Economics"
+      ],
+      "2400518": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400519": [
+        "Patents",
+        "Quantum & Relativity",
+        "Biology / Health"
+      ],
+      "2400520": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400521": [
+        "Energy",
+        "Patents",
+        "Biology / Health"
+      ],
+      "2400522": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2400523": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400524": [
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400525": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400526": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400527": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400528": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Steinmetz"
+      ],
+      "2400529": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2400530": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2400531": [
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2400532": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2400533": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400534": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "2400535": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400536": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Reference Material"
+      ],
+      "2400537": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion"
+      ],
+      "2400538": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2400539": [
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400540": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400541": [
+        "Energy",
+        "Patents"
+      ],
+      "2400542": [
+        "Patents",
+        "Electromagnetism",
+        "Conspiracy / Politics"
+      ],
+      "2400543": [
+        "Patents",
+        "Quantum & Relativity",
+        "Reference Material"
+      ],
+      "2400544": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2400545": [
+        "Patents",
+        "Quantum & Relativity"
+      ],
+      "2400546": [
+        "Patents",
+        "Finance / Economics",
+        "Environment / Climate"
+      ],
+      "2400547": [
+        "Energy",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400548": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400549": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400550": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400551": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity"
+      ],
+      "2400552": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2400553": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2400554": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2400555": [
+        "Patents",
+        "Electromagnetism"
+      ],
+      "2400556": [
+        "Energy",
+        "Alternative Physics",
+        "Finance / Economics",
+        "Reference Material"
+      ],
+      "2400557": [
+        "Energy",
+        "Alternative Physics"
+      ],
+      "2400558": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Finance / Economics"
+      ],
+      "2400559": [
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400560": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2400561": [
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2400562": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity"
+      ],
+      "2400563": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400564": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400565": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2400566": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400567": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Reference Material",
+        "Dollard"
+      ],
+      "2400568": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400569": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400570": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2400571": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400572": [
+        "Energy",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2400573": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2400574": [
+        "Patents"
+      ],
+      "2400575": [
+        "Energy",
+        "Alternative Physics",
+        "Finance / Economics"
+      ],
+      "2400576": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2400577": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400578": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400579": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400580": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400581": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2400582": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "2400583": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Reference Material"
+      ],
+      "2400584": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2400585": [
+        "Energy"
+      ],
+      "2400586": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2400587": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "2400588": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics"
+      ],
+      "2400589": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2400590": [
+        "Patents",
+        "Conspiracy / Politics"
       ]
     },
     "meta_concepts": {
@@ -657018,27 +659490,689 @@
         "geometry_sacred",
         "p_goethean"
       ],
-      "2400141": [],
-      "2400143": [],
-      "2400146": [],
-      "2400150": [],
-      "2400155": [],
-      "2400161": [],
-      "2400168": [],
-      "2400176": [],
-      "2400185": [],
-      "2400195": [],
-      "2400206": [],
-      "2400218": [],
-      "2400231": [],
-      "2400245": [],
-      "2400260": [],
-      "2400276": [],
-      "2400293": [],
-      "2400311": [],
-      "2400330": [],
-      "2400350": [],
-      "2400371": []
+      "2400141": [
+        "p_fieldphys"
+      ],
+      "2400143": [
+        "overunity",
+        "tesla",
+        "p_fieldphys"
+      ],
+      "2400146": [
+        "scalar",
+        "p_fieldphys"
+      ],
+      "2400150": [
+        "p_fieldphys"
+      ],
+      "2400155": [
+        "p_fieldphys"
+      ],
+      "2400161": [
+        "p_fieldphys"
+      ],
+      "2400168": [
+        "p_fieldphys"
+      ],
+      "2400176": [
+        "geometry_sacred",
+        "crystal",
+        "p_fieldphys"
+      ],
+      "2400185": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2400195": [
+        "scalar",
+        "p_fieldphys"
+      ],
+      "2400206": [
+        "aether",
+        "scalar",
+        "keely",
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400218": [
+        "aether",
+        "scalar",
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2400231": [
+        "aether",
+        "scalar",
+        "p_fieldphys"
+      ],
+      "2400245": [
+        "aether",
+        "scalar",
+        "geometry_sacred",
+        "suppression",
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
+      "2400260": [
+        "scalar",
+        "p_fieldphys"
+      ],
+      "2400276": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2400293": [
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
+      "2400311": [
+        "p_fieldphys"
+      ],
+      "2400330": [
+        "p_fieldphys"
+      ],
+      "2400350": [
+        "p_fieldphys"
+      ],
+      "2400371": [
+        "p_fieldphys"
+      ],
+      "2400372": [],
+      "2400373": [
+        "p_bridge"
+      ],
+      "2400374": [
+        "p_wrongturn"
+      ],
+      "2400375": [
+        "p_bridge"
+      ],
+      "2400376": [],
+      "2400377": [],
+      "2400378": [],
+      "2400379": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "2400380": [
+        "scalar",
+        "p_wrongturn"
+      ],
+      "2400381": [
+        "p_wrongturn"
+      ],
+      "2400382": [
+        "p_consciousness"
+      ],
+      "2400383": [
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400384": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2400385": [
+        "scalar",
+        "p_wrongturn"
+      ],
+      "2400386": [
+        "p_wrongturn"
+      ],
+      "2400387": [
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400388": [],
+      "2400389": [],
+      "2400390": [
+        "cold_fusion"
+      ],
+      "2400391": [
+        "cold_fusion"
+      ],
+      "2400392": [
+        "cold_fusion"
+      ],
+      "2400393": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "2400394": [],
+      "2400395": [
+        "p_bridge"
+      ],
+      "2400396": [],
+      "2400397": [
+        "p_bridge",
+        "p_nature"
+      ],
+      "2400398": [],
+      "2400399": [],
+      "2400400": [
+        "p_wrongturn"
+      ],
+      "2400401": [
+        "scalar",
+        "torsion",
+        "cold_fusion",
+        "p_fieldphys",
+        "p_formative"
+      ],
+      "2400402": [
+        "p_wrongturn"
+      ],
+      "2400403": [],
+      "2400404": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "2400405": [
+        "p_wrongturn"
+      ],
+      "2400406": [
+        "p_consciousness"
+      ],
+      "2400407": [
+        "cold_fusion",
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400408": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2400409": [],
+      "2400410": [
+        "p_wrongturn"
+      ],
+      "2400411": [],
+      "2400412": [],
+      "2400413": [
+        "cold_fusion",
+        "regenerative",
+        "p_bridge",
+        "p_nature"
+      ],
+      "2400414": [
+        "p_bridge"
+      ],
+      "2400415": [
+        "p_wrongturn"
+      ],
+      "2400416": [
+        "cold_fusion",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2400417": [],
+      "2400418": [],
+      "2400419": [],
+      "2400420": [],
+      "2400421": [
+        "p_wrongturn"
+      ],
+      "2400422": [
+        "cold_fusion",
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2400423": [
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2400424": [
+        "cold_fusion",
+        "crystal"
+      ],
+      "2400425": [],
+      "2400426": [
+        "cold_fusion"
+      ],
+      "2400427": [
+        "p_wrongturn"
+      ],
+      "2400428": [
+        "cold_fusion",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400429": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2400430": [
+        "cold_fusion",
+        "geometry_sacred",
+        "transhuman",
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400431": [],
+      "2400432": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2400433": [
+        "p_fieldphys"
+      ],
+      "2400434": [
+        "cold_fusion",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2400435": [],
+      "2400436": [
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400437": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2400438": [
+        "scalar",
+        "p_wrongturn"
+      ],
+      "2400439": [
+        "p_wrongturn"
+      ],
+      "2400440": [
+        "p_wrongturn"
+      ],
+      "2400441": [
+        "aether"
+      ],
+      "2400442": [
+        "p_fieldphys"
+      ],
+      "2400443": [
+        "scalar",
+        "torsion",
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2400444": [],
+      "2400445": [],
+      "2400446": [
+        "p_wrongturn"
+      ],
+      "2400447": [],
+      "2400448": [
+        "p_consciousness"
+      ],
+      "2400449": [
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2400450": [
+        "cold_fusion",
+        "p_bridge"
+      ],
+      "2400451": [
+        "morphic",
+        "p_formative",
+        "p_wrongturn"
+      ],
+      "2400452": [],
+      "2400453": [
+        "cold_fusion"
+      ],
+      "2400454": [
+        "scalar",
+        "torsion",
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
+      "2400455": [],
+      "2400456": [
+        "p_wrongturn"
+      ],
+      "2400457": [
+        "cold_fusion",
+        "geometry_sacred",
+        "p_goethean",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400458": [
+        "p_wrongturn"
+      ],
+      "2400459": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2400460": [
+        "aether"
+      ],
+      "2400461": [
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
+      "2400462": [],
+      "2400463": [
+        "p_wrongturn"
+      ],
+      "2400464": [],
+      "2400465": [],
+      "2400466": [
+        "p_wrongturn"
+      ],
+      "2400467": [],
+      "2400468": [],
+      "2400469": [
+        "p_bridge"
+      ],
+      "2400470": [],
+      "2400471": [
+        "p_bridge"
+      ],
+      "2400472": [
+        "geometry_sacred"
+      ],
+      "2400473": [],
+      "2400474": [],
+      "2400475": [],
+      "2400476": [
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400477": [
+        "p_wrongturn"
+      ],
+      "2400478": [],
+      "2400479": [],
+      "2400480": [
+        "p_wrongturn"
+      ],
+      "2400481": [],
+      "2400482": [],
+      "2400483": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "2400484": [
+        "cold_fusion"
+      ],
+      "2400485": [
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400486": [],
+      "2400487": [
+        "p_wrongturn"
+      ],
+      "2400488": [
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2400489": [],
+      "2400490": [
+        "p_consciousness"
+      ],
+      "2400491": [],
+      "2400492": [
+        "p_consciousness"
+      ],
+      "2400493": [],
+      "2400494": [
+        "cold_fusion"
+      ],
+      "2400495": [
+        "scalar",
+        "vortex"
+      ],
+      "2400496": [],
+      "2400497": [],
+      "2400498": [
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400499": [],
+      "2400500": [
+        "p_wrongturn"
+      ],
+      "2400501": [
+        "p_wrongturn"
+      ],
+      "2400502": [
+        "p_wrongturn"
+      ],
+      "2400503": [
+        "p_bridge"
+      ],
+      "2400504": [
+        "p_consciousness"
+      ],
+      "2400505": [
+        "crystal",
+        "p_wrongturn"
+      ],
+      "2400506": [],
+      "2400507": [
+        "geometry_sacred"
+      ],
+      "2400508": [
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400509": [
+        "p_goethean"
+      ],
+      "2400510": [],
+      "2400511": [
+        "p_wrongturn"
+      ],
+      "2400512": [
+        "p_wrongturn"
+      ],
+      "2400513": [],
+      "2400514": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2400515": [],
+      "2400516": [
+        "p_wrongturn"
+      ],
+      "2400517": [
+        "geometry_sacred"
+      ],
+      "2400518": [
+        "p_wrongturn"
+      ],
+      "2400519": [],
+      "2400520": [
+        "geometry_sacred",
+        "crystal",
+        "p_wrongturn"
+      ],
+      "2400521": [],
+      "2400522": [
+        "overunity"
+      ],
+      "2400523": [],
+      "2400524": [
+        "geometry_sacred"
+      ],
+      "2400525": [
+        "scalar"
+      ],
+      "2400526": [],
+      "2400527": [
+        "scalar"
+      ],
+      "2400528": [
+        "scalar"
+      ],
+      "2400529": [],
+      "2400530": [],
+      "2400531": [
+        "cold_fusion"
+      ],
+      "2400532": [
+        "p_bridge"
+      ],
+      "2400533": [],
+      "2400534": [],
+      "2400535": [
+        "p_wrongturn"
+      ],
+      "2400536": [],
+      "2400537": [
+        "p_bridge"
+      ],
+      "2400538": [
+        "cold_fusion",
+        "p_wrongturn"
+      ],
+      "2400539": [
+        "scalar"
+      ],
+      "2400540": [
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2400541": [
+        "cold_fusion"
+      ],
+      "2400542": [],
+      "2400543": [],
+      "2400544": [
+        "p_consciousness"
+      ],
+      "2400545": [
+        "p_bridge"
+      ],
+      "2400546": [
+        "geometry_sacred"
+      ],
+      "2400547": [
+        "cold_fusion"
+      ],
+      "2400548": [
+        "scalar"
+      ],
+      "2400549": [],
+      "2400550": [],
+      "2400551": [],
+      "2400552": [],
+      "2400553": [],
+      "2400554": [
+        "cold_fusion"
+      ],
+      "2400555": [],
+      "2400556": [
+        "scalar",
+        "cold_fusion",
+        "geometry_sacred"
+      ],
+      "2400557": [
+        "p_wrongturn"
+      ],
+      "2400558": [
+        "p_bridge"
+      ],
+      "2400559": [
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2400560": [],
+      "2400561": [],
+      "2400562": [],
+      "2400563": [],
+      "2400564": [
+        "p_fieldphys"
+      ],
+      "2400565": [],
+      "2400566": [
+        "geometry_sacred",
+        "crystal",
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
+      "2400567": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2400568": [
+        "scalar",
+        "p_wrongturn"
+      ],
+      "2400569": [],
+      "2400570": [],
+      "2400571": [
+        "cold_fusion"
+      ],
+      "2400572": [],
+      "2400573": [],
+      "2400574": [
+        "cold_fusion"
+      ],
+      "2400575": [],
+      "2400576": [
+        "geometry_sacred"
+      ],
+      "2400577": [
+        "geometry_sacred",
+        "p_consciousness"
+      ],
+      "2400578": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "2400579": [
+        "geometry_sacred"
+      ],
+      "2400580": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "2400581": [
+        "scalar",
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "2400582": [
+        "cold_fusion",
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2400583": [
+        "scalar",
+        "geometry_sacred"
+      ],
+      "2400584": [
+        "morphic",
+        "geometry_sacred",
+        "p_formative",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2400585": [
+        "geometry_sacred"
+      ],
+      "2400586": [],
+      "2400587": [
+        "p_consciousness"
+      ],
+      "2400588": [],
+      "2400589": [
+        "geometry_sacred"
+      ],
+      "2400590": [
+        "geometry_sacred",
+        "p_consciousness",
+        "p_bridge"
+      ]
     }
   },
   "graph": {
