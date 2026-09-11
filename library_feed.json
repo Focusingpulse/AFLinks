@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T14:06:34Z",
+  "generated_at": "2026-09-11T15:09:49Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 97,
     "bridges": 11,
-    "archive_entries": 60703,
+    "archive_entries": 60706,
     "meta_counts": {
-      "Challenges to the Standard Model": 46024,
+      "Challenges to the Standard Model": 46027,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -46,8 +46,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 8,
-    "replication_dossiers": 9,
+    "practical_quests": 9,
+    "replication_dossiers": 10,
     "validations": 0
   },
   "latest_translations": [
@@ -1331,6 +1331,150 @@
         {
           "title": "Viktor Schauberger",
           "description": "Implosion Technology Patents & Manuscripts",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "file": "2026-09-11-deep-dive-water-memory-ice.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Memory kernels retain thermal history",
+          "description": "A non-stationary generalized Langevin equation framework shows two-time memory kernels that directly influence crystallization dynamics",
+          "url": ""
+        },
+        {
+          "title": "Structural memory drives phase transitions",
+          "description": "Five-membered hydrogen-bonded rings act as kinetic traps, while correlations among ring types regulate accessibility of ice-like motifs",
+          "url": ""
+        },
+        {
+          "title": "Molecular origin of memory",
+          "description": "driven freezing**: First molecular-level demonstration of memory effects in water's phase transitions",
+          "url": ""
+        },
+        {
+          "title": "Buildable",
+          "description": "No (simulation study)",
+          "url": ""
+        },
+        {
+          "title": "Reproducible",
+          "description": "Yes (TIP4P/Ice model is standard; methods are detailed)",
+          "url": ""
+        },
+        {
+          "title": "Conceptual",
+          "description": "Yes (provides molecular mechanism for memory effects)",
+          "url": ""
+        },
+        {
+          "title": "Published in peer",
+          "description": "reviewed journal (J. Chem. Phys.)",
+          "url": ""
+        },
+        {
+          "title": "Authors affiliated with Indian Institute of Science",
+          "description": "DOI and arXiv identifiers provided",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "file": "2026-09-11-deep-dive-protein-hydration-3d.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Water is not a passive solvent",
+          "description": "Near peptide/protein surfaces, water forms highly organized, multilayered structures dictated by underlying amino acid sequence and surface chemistry",
+          "url": ""
+        },
+        {
+          "title": "Hydration architectures extend multiple layers",
+          "description": "These structures persist beyond the immediate surface before transitioning to bulk water",
+          "url": ""
+        },
+        {
+          "title": "Sequence",
+          "description": "specific \"hydration fingerprints\"**: Distinct structural signatures associated with hydrophobic, polar, aromatic, and charged amino acid residues",
+          "url": ""
+        },
+        {
+          "title": "New concept",
+          "description": "\"Protein superstructure\"**: The protein together with its uniquely organized hydration architecture is an integral part of protein identity and function",
+          "url": ""
+        },
+        {
+          "title": "Missing layer of information",
+          "description": "Hydration architecture may explain why predicting protein function from structure alone remains challenging",
+          "url": ""
+        },
+        {
+          "title": "Drug discovery",
+          "description": "Could influence how we design drugs that interact with proteins",
+          "url": ""
+        },
+        {
+          "title": "Protein engineering",
+          "description": "Provides new framework for understanding and engineering protein behavior",
+          "url": ""
+        },
+        {
+          "title": "Bioinspired materials",
+          "description": "Design rules for confined transport and reactivity",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "file": "2026-09-11-deep-dive-lenr-nicu-spectrum.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Thermal radiation spectra differ markedly from gray",
+          "description": "body predictions**: Contrary to gray-body expectations (decrease below ~0.3 eV), measured spectra rise and peak near ~0.2 eV",
+          "url": ""
+        },
+        {
+          "title": "Hydrogen presence increases radiation power by several percent** with distinct spectral features",
+          "description": "- NiCu: minimal enhancement below ~0.3 eV; sharp increase above ~0.35 eV",
+          "url": ""
+        },
+        {
+          "title": "Excess energy estimates",
+          "description": "NiCu ~1.1 W; Ni slightly lower",
+          "url": ""
+        },
+        {
+          "title": "Longevity",
+          "description": "Excess power observed over 215 hours with decay time >2000 hours",
+          "url": ""
+        },
+        {
+          "title": "Energy per absorbed hydrogen atom",
+          "description": "estimated to exceed 22 keV",
+          "url": ""
+        },
+        {
+          "title": "Buildable",
+          "description": "Yes (experimental apparatus described)",
+          "url": ""
+        },
+        {
+          "title": "Reproducible",
+          "description": "Yes (methods detailed)",
+          "url": ""
+        },
+        {
+          "title": "Verification level",
+          "description": "Medium-high (JCMNS peer review, established group)",
           "url": ""
         }
       ]
@@ -5153,9 +5297,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T13:07:50Z",
+      "last_run": "2026-09-11T14:08:03Z",
       "last_status": "ok",
-      "last_summary": "sync: 59216 docs, feed rebuilt"
+      "last_summary": "sync: 60703 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5186,9 +5330,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-09-10T15:07:58Z",
+      "last_run": "2026-09-11T15:04:22Z",
       "last_status": "ok",
-      "last_summary": "+1 finds (first recorded) | +45 declassified (first recorded) | this run: +4 declassified (Germany, France, EU, USA), +7 new finds (LENR, torsion, water memory), 0 archived (gear: quota)"
+      "last_summary": "+2 finds | +0 declassified | this run: +3 new finds (water memory ice, protein hydration 3D, LENR NiCu spectrum), 0 new declassified (gear: quota)"
     },
     {
       "member": "book5-translate",
@@ -5219,9 +5363,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-11T13:06:00Z",
+      "last_run": "2026-09-11T14:25:30Z",
       "last_status": "ok",
-      "last_summary": "12:15Z 09-11: +1487 ucp.academy conference theses (global ID pool 258-2297; GC2026/GTM2026/SPAF-2026 = same set), archive 59,216->60,703 (ids 2400826-2402312). Lanes drained first (viXra RSS max 2609.0023 archived; lenr-canr 1,454=1,454; vesperman 98=98; jcfrs 49=49; free-energy-info 0; RENSIT 000 flake re-probe; iccf-27 #13 STILL UC 9,845B day 28). 1487/1487 text previews (pdftotext fallback). OCR/queue/tag pending FocusOptimized."
+      "last_summary": "14:15Z 09-11: +3 padrak.com/vesperman .ppt/.pptx live growth (Faster_Than_Light_Communications.pptx, HMD_Presentation.ppt, Y-Bias & Angularity 13Aug2011.ppt), archive 60,703->60,706 (87699cb4, ids 2402313-2402315). Lanes drained (ucp pool >2297 all 404; viXra RSS 2609.0023 archived; lenr-canr 1,454=1,454; rxiv 2609.0023; jcfrs 49=49; free-energy-info HTML shells only; RENSIT 000 flake; iccf-27 #13 STILL UC day 29). 0/3 previews (PPT binaries) -> OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-11-scout-growth-1415.md."
     },
     {
       "member": "cure-8er",
@@ -5247,6 +5391,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "15:04",
+      "agent": "Deep-Dive Morning",
+      "summary": "+3 finds — +3 new finds: water memory ice crystallization (J. Chem. Phys. Sep 2026), protein hydration 3D visualization (Nature Communications TODAY), LENR NiCu spectrum calorimetry (JCMNS June 2026). 0 new declassified (German BMWE docs already filed). Gear: quota mode."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+60703 docs — +60703 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "14:00",
+      "agent": "Practicality Engine",
+      "summary": "+1 quest card — Egg-Shaped Fermentation Vessel Test (Food Prep mirror) — Scanned food domain for applicable tech; found Schauberger's egg-form water storage claim with fermentation context. Created Dossier 010 with pH-tracking protocol for sauerkraut fermentation comparison (egg vs cylinder vessels). Card proposed: tier sand, domain food, $30-60 cost, 14-day observation. Aetherforce mirrors now 11/26. Family gate passed (budget OK). Watchdog noted: book4-translate flagged stale."
+    },
     {
       "date": "2026-09-11",
       "time": "13:45",
@@ -5294,120 +5456,6 @@
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation published — Chaumery & de Belizal, Patent FR 816,132 (1936): \"Procédé et appareillage radiesthésiques\" (FR→EN). — The founding legal document of the French form-wave school, now in the corpus: the patent abstract translated in full (espacenet original via Kook Science transcription) — the negative-green ray (V−) introduced for the first time into a public, dated, state-archived record (\"the shortest wave and consequently the most powerful of the invisible spectrum\"), the critique of wavelength-only pendulums, and the terrestrial-magnetism basis. The apparatus the patent protected documented from the inventors' own 1976 description: the Universal Pendulum (60mm sphere, E/M/EM circles in 400 grades, internal 4-element magnetic battery, 8 Mendeleev-family witness marks, receiver-emitter without mental orientation), the cosmo-magnetic batteries (tension by element count, amplitude by element mass), and the post-patent Bombe C. 30 — plus the school's own casualty: co-inventor Chaumery's 1957 death \"completely dehydrated by our negative green ray,\" recorded by de Belizal in the book's preface. Modern IPC classes A61N1/16 (electrotherapy) and G01V9/002 (dowsing) noted as historical artifact. Anchors the French half of the French/Russian form-wave seam (Davidson's genealogy names Belizal and Turenne). Full patent specification unfetchable from cloud (espacenet 403s datacenter IPs) — fetchable from FocusOptimized if Sandra wants the complete claims."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "12:20",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "12:16",
-      "agent": "Book1 Translate",
-      "summary": "+3 chunks — Book 1, progress 6/249 (2%) — Quota run (3 chunks, respected). Translated chunks 4-6: Introduction — Lenin's \"Materialism and Empirio-criticism\" centenary framing, crisis of physics, \"matter has disappeared, only equations remain\", idealism vs. materialism in the new physics, detachment of theory from practice. Book 1 is the FINAL volume of the 5-book series."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "12:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, quota gear — gate skipped translation work. Backlog unchanged, will resume on next fire with budget."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "12:03",
-      "agent": "Book2 Translate",
-      "summary": "+0 chunks — No-op heartbeat: Book 2 COMPLETE (247/247, 687KB assembled). No active translation target — cron flagged for disabling/repointing. Books 2-5 all done."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "11:45",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — No-op run: family budget low in quota mode — skipped translation work. Backlog stands at 429 finds, 1 job in progress, 34 archival copies held."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "11:20",
-      "agent": "Book1 Translate",
-      "summary": "+3 chunks — Book 2 complete, Book 1 STARTED (3/249, 1%) — Book 2 confirmed 247/247 done (nothing to translate this run). Book 1 prep executed: pdftotext extraction of Atsyukovsky_Book1.pdf (10,565 lines), chunk prep → 249 chunks (~550K chars, «Методологический кризис современной теоретической физики», Moscow 2009). Translated chunks 1-3 (TOC chapters 6-8, Preface to the Topic) within quota. Assembled Book1_full_translation.md started."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "11:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op: budget low (quota mode), gate blocked. Backlog: 429 docs awaiting translation, 30 fully translated, 1 in progress."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "11:11",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "11:02",
-      "agent": "Book2 Translate",
-      "summary": "+86 chunks — BOOK 2 COMPLETE — 247/247 chunks (100%). Assembled Book2_full_translation.md (687KB). Fleet effort between cloud cron and Windows translator-ats."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "10:40",
-      "agent": "Book2 Translate",
-      "summary": "+86 chunks — BOOK 2 COMPLETE (247/247, 100%) — Translated chunks 162-247 across this run (two sessions + final 235-247): triton/alpha nuclei models, magic numbers, weak interactions as surface waves, quantum mechanics critique, hydromechanical Schrödinger interpretation, electron shells as attached vortices, aura, chemical bonds & \"lepton foam\", catalysis, etherdynamic thermodynamics (heat, aggregate states, metallic bond/Fermi surface, exothermic nuclear reactions), book conclusion, full bibliography. Assembled Book2_full_translation.md (687,095 bytes). **⚠ QUOTA OVERRUN: gear was quota (3 chunks) but 86 chunks were translated this run — the compaction interruptions lost the mid-loop gear check. Flagged for the family; same failure mode as the Book 3 overruns (74, 120 chunks).**"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "10:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: budget gate blocked (quota low)"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "10:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58982 docs — +58982 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "10:06",
-      "agent": "Book2 Translate",
-      "summary": "+5 chunks — Translated chunks 157-161 (5 chunks) | Book 2 progress: 161/247 (65%)"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "09:47",
-      "agent": "Translation Curator",
-      "summary": "+0 translations — Budget-low skip run (gear: quota, family gate). No new translation; archives now hold 33 durable copies (+13 since last curator check-in, added by other fleet runs). Full-text backlog stands at 429 docs. Will resume full-doc translation when budget window recovers or gear flips to overdrive."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "09:22",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58982 docs — +58982 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "09:16",
-      "agent": "Book2 Translate",
-      "summary": "+3 chunks — Translated chunks 154-156 of Book 2 (Chapter 1.4-1.5: neutron formation mechanism, proton-to-neutron transformation, Periodic System and atomic nuclei composition). Progress: 156/247 chunks (63%). Gear: quota mode."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "09:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, gear=quota — skipped translation work to conserve quota. Active jobs resume next fire with budget."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "09:09",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58982 docs — +58982 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "09:06",
-      "agent": "Book2 Translate",
-      "summary": "+5 chunks — Translated chunks 149-153 (Chapter 4: nucleon interactions, aether dynamics of strong nuclear force)"
     },
     {
       "date": "2026-09-11",
@@ -5606,6 +5654,102 @@
       "time": "04:05",
       "agent": "Scooter (Growth Scout)",
       "summary": "+1 RU primary candidate — seplm.ru (rot #12) back UP again, stable this window. — /articles/ enumerated live (200, 13 items): Кащенко M.П. & Кащенко Н.М. (УрФУ/УГЛТУ, Екатеринбург) — Chapter 13 «Генерация компактных массивных электронных (ее)–пар в реальных установках и синтез элементов» in the collective monograph «Перспективные материалы и технологии» (Минск, 2026), annotated on site (KKN-activator ring orbits, Energoniva element synthesis, Шоулдерса charge clusters); plus M. Кащенко «Информация о трех статьях…» posted 2026-08-28. seplm has no harvest history (rot #12) — next growth fire should first-harvest it. ICCF-27 proceedings STILL Under Construction (9,845 B unchanged; program placeholders); JCMNS Vol 41 (ICCF-26 proceedings) already harvested via lenr-canr /acrobat. viXra max still 2609.0012 (0013–0020 404). Zenodo + RU/ES fresh windows: nothing new to queue (ENG8 EnergiCells = media commentary only). Archive 48,224 (naturalphilosophy deep-harvest 02:15Z). avalonlibrary #16 verified 200. infinite-energy 403. STALE-FLAG translator ~128h (re-issued); sweeper still active (71–82); no claims >7d (Active empty). OCR/queue/tag pending FocusOptimized. Full: living-library sources/2026-09-08-scout-report-0400.md / mirror sources/2026-09-08-scout-finds-0400-scout.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "04:00",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — 27th consecutive clean LENR round since 08-21. ICCF-27 conference DONE (Aug 31–Sep 4, Niagara Falls): canonical site is iccf-27.org (iscmns.org/iccf27 now 404s), proceedings page live but Under Construction — hot watch for the next FL content drop (ENG8 PRVR scaling talk confirmed held). Zenodo keyword + fulltext: newest real still 22036645 (08-21); closed 22166688 (GRC eng) + 22117461 (17O-water eng); PLEG 21999691 = EN, not FL. Exa RU/ZH = mainstream hot fusion only; author.today metric-attractor essay (927085) re-closed context-only. Archive 30,017 docs / 979 researchers / 2,339 patents / 57 trans / 967 pg (stats bake 00:24Z). Rotation: svpwiki+i-sis+lenr-canr all COMPLETE, pointer→padrak/ine (06:15 fire). Fleet active (Forge QC 00:07Z, Drunvalo 00:12Z, aflinks-sync 00:18Z); translator pipeline NOT stale (sweeper Schauberger chunks 71–82 @09-06 08:17Z; 48h trips 09-08 08:17Z). No claims. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-0400.md."
+    },
+    {
+      "date": "2026-09-08",
+      "time": "00:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations, +60 frontmatter re-fixes — aflinks-cron feed rebuild (00:04Z) stripped language/source_language fields from 60 files (undoing last run's batch fix). Re-applied all frontmatter: every file now has correct language + source_language (monolingual files: source_language = language; translations: source_language = source). Translated 2 French outer-ring docs from the Chaumery/de Bélizal tradition: (1) GLNF book review of \"Essai de radiesthésie vibratoire\" FR→EN — review of the foundational 1939 text, Louksor universal pendulum, form waves in ancient architecture, Golden Ratio, Sergueïev on energy from forms surpassing electricity/nuclear; (2) Londedisis \"Le Pendule du 5e Règne\" FR→EN — bague atlante/Ring of Re, Howard Carter, spectrum decomposition on wooden sphere, \"vert négatif\" (negative green) as shortest wavelength, Universal Pendulum PU-6. Corpus 96→98. Other agents active: scout (LENR archive growth to 42,667), Drunvalo/village (QC + synthesis on Pilot Wave Continuum). Translator agent stale: no new publishes since Sep 3 (~128h, past 48h threshold). Feed rebuild still blocked from cloud."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "20:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+2 translations, +78 frontmatter fixes — Batch-fixed frontmatter across entire corpus: added language: en and source_language: to 78 files that were missing them (standardized field names, cleaned old-format source_lang:/target_lang:/target_language: on 5 files). All 93→95 files now have consistent language metadata. Translated 2 French outer-ring docs: (1) GaiaMamart \"Petit historique de la théorie des ondes de formes\" FR→EN — history of form waves from ancient architecture through Lakhovsky, Chaumery/de Belizal/Morel, to Sheldrake's morphic resonance; (2) Geobios \"L'antenne de Lecher\" FR→EN — Lecher antenna as professional geobiology tool, physical vs mental radiesthesia, wavelength graduations for physical phenomena (magnetic north 5.7, electric field 7.8, gamma 8.6, radon 3.5, form emission 7.4). Translator agent stale: no new publishes since Sep 3 (~120h, past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "16:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Translated Vibratis \"planche de radiesthésie\" page (FR→EN): dowsing boards, Bovis biometer (0–18,000 UB scale, physical/energetic/spiritual tiers, fruit vitality experiments, extended 120,000 UB scale), medical radiesthesia boards (homeopathy, phytotherapy, acupuncture, chakras, anatomical, metals), geobiology boards (0 Hz–10 GHz frequency dials, electromagnetic wave assessment), board design, usage method, vibrational rate measurement. Corpus at 96 files. QC: all 95 existing files have valid frontmatter; 10 duplicate base-name groups (feed-rebuild artifact, not fighting). Translator agent stale: no new publishes since Sep 3 (~116h, past 48h threshold). Feed rebuild still blocked from cloud."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Translated Vibratis radiesthesia history page (FR→EN): full overview of radiesthesia history (Egypt, Bible, Greeks/Romans, Beausoleil 7 metal rods, Abbé Bouly), Rocard magnetite science (Kirschvink/Gould biogenic magnetite), applications (medical, geobiology, divination), tools (pendulum, dowsing rods, Lecher antenna, Bovis scale). Key finding: aflinks-cron feed rebuild at 12:04Z undid the 08:20 dedup (corpus 63→94) — dedup in AFLinks is futile while feed rebuild creates new dated copies from living-library source. Stopped deduping; recorded learning in pipeline notes. Translator agent stale: no new publishes since Sep 3 (~112h, past 48h threshold). Feed rebuild still blocked from cloud."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "12:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "**+1 translation — Denis Machon's critical analysis of Rocard's \"signal du sourcier\" experiments FR→EN (The Conversation, Aug 2026): methodology, results tables (5/10, 4/10, 4/10 = chance), identified biases (no true bli"
+    },
+    {
+      "date": "2026-09-07",
+      "time": "08:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation, -32 duplicates — Deep dedup pass: removed 32 duplicate translation files (corpus 95→63). Eliminated compendium 5→1, shipov-torsion 5→1, akimov-shipov 4→1, torsion-physics-newton 5→1, magnitsky 5→1, plus -en/-fr-en duplicate pairs (enel, brocéliande, ether-einstein, ondes-de-forme, univers-sans-matiere). Translated Vibratis pendule divinatoire guide (FR→EN) — covers French radiesthesia history (Abbé Bouly, Abbé Mermet, Treyve, Aymar, Crozier), physical vs mental schools, Rocard magnetic field work, methods, dangers. Translator agent stale: no new publishes since Sep 3 (~108h, past 48h threshold). Feed rebuild still blocked."
+    },
+    {
+      "date": "2026-09-07",
+      "time": "04:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation, -17 duplicates, +21 frontmatter fixes — Major corpus cleanup: removed 17 duplicate translation files (exact copies, superseded partials, auto-generated re-publishes). Fixed frontmatter on 21 files: corrected language tags (source language → en), added source_language field, replaced template/auto-generated descriptions with real ones. Translated Vibratis radionics page (FR→EN) — Chaumery/Belizal tradition, Servranx brothers, operator/witness/instrument. No new translations from translator agent in ~20h (not yet 48h stale). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus now at 80 translations (was 97, after dedup)."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "20:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 20:00 UTC, cloud round; 26th consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total (same 08:00/12:00/16:00, query-normalized) — newest real item still 22036645 (08-21); newer = previously-closed noise (OUROBOROS v10 22133690, 17O-water 22117461/21912323, Hamzah, PLEG). Fulltext variant (broadened query incl. nuclear reactions) 647 total: newest 22166688 (08-29, eng) Geometric Response Cosmology = CLOSED (English fringe cosmology, not LENR, not FL). Tracked spot-check 3/13 live + unchanged (Lin 21355740 cmn, Lemeshko 18521158 ru, Zhuang 20668098 zh). Exa RU/ZH/FR fresh window (Sep 1+) = mainstream hot-fusion only (DIII-D Alfven modes, Princeton PACMAN, PRAGYA, NIF, XinAo p-11B, Kardashev One, Type One stellarator license, Texatron, WEST) — author.today metric-attractor LENR essay (Alekseenko 09-03) re-confirmed context-only (flagged 00:00); media-tech.fr Parkhomov NCT article (09-04) = CLOSED false positive (verified 09-05 12:00: no arXiv preprint), never re-chase; proatom Prosvirnov/Ratis «Сомнений не осталось» date-checked = 12 Sep 2013 old; US Patent 12723750 (fossil-fuel EM light-nuclei fusion) = EN patent-lane context only. — lenr.seplm.ru BACK UP (200; was 000 at 16:00) — homepage scanned: static link directory, all items known/pre-window from 08:00/12:00 deep-reads. tuks.nl BACK UP (200; was 000) — fully harvested by 18:43 growth run (+120 docs, archive 15,512, e21c3a8). ICCF-27 proceedings page STILL under construction (200, 🚧 banner, no papers) — 1-3 wk watch. ARCHIVE GREW 15,392 -> 15,512 entries (+120 tuks.nl) / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers / 14 agents. **Translator ACTIVE — NOT STALE**: last output 09-05 12:18Z (Acqua Viva IT->EN 96th) + sweeper 12:19Z; ~32h since, 48h window trips ~09-07 12:18Z only if silent. Fleet: Drunvalo synthesis + site work through 14:51Z, translation-qc 08:08Z. No claims (claims.md empty). tuks 200, lenr-canr 200 (news stale June), viXra 406 flapping, lenr.seplm.ru 200, preprints.ru 200, iccf-27 200. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-2000.md + finds mirror sources/2026-09-06-scout-finds-2000-scout.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "19:40",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 cloud migration — QC cron moved to cloud runner. Pipeline no longer depends on the desktop app staying open. First cloud run: verified AFLinks push channel works from sandbox; feed rebuild blocked until living-library corpus (database/, translations/) is migrated into the cloud LL repo."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "16:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 16:00 UTC, cloud round; 25th consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total on the broad cold fusion OR LENR OR low energy nuclear query (query-normalized, same as 08:00/12:00) — newest real item still 22036645 (08-21), newer matches all previously-closed noise (OUROBOROS v10 22133690 08-27, 17O-water 22117461/21912323, Hamzah, PLEG). Fulltext sweep 263 total: newest 22464783 (09-06) = \"Dynamic Programming with Contextual Memory Networks\" CS/ML paper, CMNS acronym collision, NOT LENR, closed 08:00. Tracked spot-check 3/13 live + unchanged (KBF-01 20558306 deu, DMF 20551471 eng, Torchigin 21532952 ru). Exa RU/ZH fresh window (Sep 5+) = mainstream hot-fusion only (new: Princeton PACMAN AI tokamak-control MK.ru 09-06; IAEA nuclear-emulsion Dubna; CNNC fusion strategy; Kardashev One fall-test; Huawei t-chip ChinaXiv = unrelated) — no LENR, no non-EN primary docs. — lenr.seplm.ru flapping DOWN again (000; was 200 at 08:00/12:00 — 12:00 deep-read covered all homepage links, nothing un-read). ICCF-27 proceedings page STILL under construction (site 200, no paper links) — 1-3 wk watch, likely next FL source. ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers / 14 agents (live feed rebuilt 14:50:13Z — site-content driven: Replication Yard phase-4 pavilion + JSON-LD bridges + paradigm-signal report 13:32-14:51Z; archive docs unchanged; sync 08:04:44Z same 15,392). **Translator ACTIVE — NOT STALE**: last output 09-05 12:18Z (Acqua Viva IT→EN 96th) + sweeper 12:19Z; ~28h since, 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis 12:08Z, site-build work through 14:51Z, translation-qc 08:08Z (dupe fix + person-index). No claims. tuks 000 down, lenr-canr 200 up (news stale June), viXra 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up, iccf-27 200. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-1600.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "08:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 08:00 UTC, cloud round; 23rd consecutive clean round since 08-21). Zenodo keyword sweep (curl/8.0 UA): 407 total on the broad cold fusion OR LENR OR low energy nuclear query (query-normalized, not comparable to prior 219 count) — newest real item still 22036645 (08-21), newer matches all previously-closed noise (OUROBOROS v10 22133690 08-27, 17O-water 22117461 08-26, Hamzah, PLEG). Fulltext sweep 404 total: newest 22464783 (09-06) = \"Dynamic Programming with Contextual Memory Networks\" CS/ML paper, CMNS acronym collision, NOT LENR, closed. — lenr.seplm.ru BACK UP (200) for the first time since ~09-03 — deep-read DONE: Prosvirnov «Роль LENR в шестом технологическом укладе» confirmed as 2026-07-17 pre-window opinion/analysis essay (no experimental content) → CONTEXT-ONLY confirmed, 20:00-flag closed; New Fire Signal (09-05) = already-closed marketing; Kashchenko trio = covered 16:00. ICCF-27 proceedings page (iccf-27.org/proceeding/) still under construction — no proceedings yet. Exa EN sweeps = mainstream hot-fusion PR only (Kardashev One, PRAGYA, Texatron, Sirius, NIF). **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed 17:01:08Z 09-05; AFLinks sync 7f90eb2 04:05:53Z = same 15,392). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper 10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis pushes 06:05Z today, translation-qc 04:07Z (5 translations). No claims. tuks 000 down, lenr-canr 200 up (news stale June), viXra /new 406 flapping, lenr.seplm.ru 200 up, preprints.ru 200 up. AFLinks push OK (x-access-token). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0800.md + finds mirror sources/2026-09-06-scout-finds-0800-scout.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "04:05",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 04:00 UTC, cloud round; 22nd consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 219 total (newest 22036645 08-21 eng) / fulltext 206 total (nothing post-08-21; PLEG 21999691 08-18 + Hamzah + Nexus = previously closed noise) — fresh window clean 16 days. 8/13 tracked records spot-reverified live via GETs, ALL 200 + unchanged (zh Lin 19779040/20046998/21355740, Du 20736072; fr COLDFIRE-2.31 19744790; ja Tomita 19175263; de KBF-01 20558306; it Pulvirenti 15292781); remaining 5 re-verified 20:00 round. Exa EN/RU/FL sweeps (Sep 4+) = mainstream hot-fusion PR only (PRAGYA tokamak India plasma, Texatron portable vacuum vessel, ZC Kardashev One neutron-deflection @UAH, Helical Fusion METI ¥60B, German private-fusion race, DIII-D turbulence PRL, zeolite-Ag D/T separation) — no LENR, no non-EN primary docs; media-tech.fr Parkhomov resurfaced = CLOSED false positive (verified 09-05 12:00), NEVER re-chase. ICCF-27 (wrapped Sep 4/5) proceedings NOT yet published — expected within 1-3 weeks, likely next FL source. — ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z, no new rebuild this window). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; ~16h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. No claims (claims.md empty). Fleet: Drunvalo synthesis 18:07Z, Translation-QC 16:06Z (09-05). tuks 000 down, lenr-canr 200 up (news stale June), viXra /new 404 flapping, lenr.seplm.ru 000 down (Prosvirnov context-only pending deep-read), preprints.ru 200 up. AFLinks push OK. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0400.md + finds mirror sources/2026-09-06-scout-finds-0400-scout.md."
+    },
+    {
+      "date": "2026-09-06",
+      "time": "00:10",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-06 00:00 UTC, cloud round; 21st consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 219 total (newest 22036645 08-21 eng) / fulltext 206 total (nothing post-08-21; Marchetti/Hamzah/Kulik-Nexus/Furui = all previously closed noise; Knösch NOT chased — known 2025-dated Exa false positive). 3/13 tracked records spot-reverified live via GETs, ALL 200 + unchanged (zh Lin 19779040/20046998/21355740); remaining 10 re-verified at 20:00 round. Exa sweeps: EN = mainstream only (Rafelski table-top survey arXiv 2609.01366, MGKDB, 21O+12C, non-proliferation, CFS ARC; media-tech.fr = verified false 12:00 09-05, never re-chase); RU = hot-fusion news only (Pranos Prāgya, Helical Fusion METI ¥60B, DIII-D Alfvén modes, NIF) + — 1 context-only: author.today/post/927085 «Вечный коралл» metric-attractor LENR reactor essay (Alekseenko 09-03) = speculative prose, NOT a research doc, do not queue**; ZH = mainstream (PRAGYA zh, Kardashev One neutron-recycling, LINEA p-11B FRC). lenr.seplm.ru 000 down from cloud (flapping; Prosvirnov piece context-only pending RU deep-read); lenr-canr news stale June. **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z on 09-05; ~12h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. No claims (claims.md empty). Fleet: Drunvalo synthesis 18:07Z, Translation-QC 16:06Z (09-05). tuks 000 down, lenr-canr 200 up, viXra /new 406 flapping, lenr.seplm.ru 000 down, preprints.ru 200 up. AFLinks push OK. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-06-scout-report-0000.md + finds mirror sources/2026-09-06-scout-finds-0000-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "20:06",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 20:00 UTC, cloud round; 20th consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 134 total (keywords:LENR, newest Ouroboros+Eli 21116578 07-02 EN noise) / fulltext 238 total (newest 22117461 17O-water 08-26 EN = known noise closed 12:00, Hamzah/Nexus cluster) — nothing published after 08-21, fresh window still clean. All 13 tracked records re-verified live via GETs, ALL 200, titles/dates unchanged, no redirect drift (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). — NEW THIS ROUND: lenr.seplm.ru flapping DOWN again (000; was 200 at 16:00)** — Exa homepage cache (08-28) shows one item not in the 16:00 deep-read: **Prosvirnov \"Роль LENR в шестом технологическом укладе\"** (LENR's role in the sixth tech paradigm) = RU opinion/analysis piece, CONTEXT ONLY — flag for RU-lane deep-read when the site returns (verify essay vs research note before pursuing). Exa sweeps: EN/viXra = zero FL (arXiv torsion/EFT noise 2608.28832/2608.29541/2608.30774 — none LENR; Klimov PVR-W LinkedIn marketing re-surface = known 2024 paper; PRB magnetic-vortex \"transmutation\" = winding number not nuclear); RU = hot-fusion news only (Texatron vacuum-vessel, Pranos Pragya tokamak 09-04, XENONnT pp-neutrinos 09-02, Pacific Fusion Sirius IMG 3000-discharges, NIF item). lenr-canr.org news archive still stale (June 2026). **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z, sync 387ad24 17:02:33Z; no worker growth this window; 17:02 rebuild moved completed-translation source docs in books/ — Acqua Viva IT dropped, Akimov-Shipov 08-28 x2 + Shipov torsion-tech RU book files added = translated-content moves, not new finds). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th, +90 pg) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z; ~8h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis push 18:07Z (Longitudinal Waves/Non-Hertzian electrodynamics), Translation-QC checked 5 translations/removed 3 dupes/+4 researchers 16:06Z. No claims (claims.md empty). tuks down (000), lenr-canr up (200), viXra /new 404 flapping, lenr.seplm.ru 000 down, preprints.ru up. AFLinks push confirmed (GETHUBFORGE valid). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-2000.md + finds mirror sources/2026-09-05-scout-finds-2000-scout.md."
+    },
+    {
+      "date": "2026-09-05",
+      "time": "16:07",
+      "agent": "Scooter (Growth Scout)",
+      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 16:00 UTC, cloud round; 19th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl/8.0 UA, 182 total LENR/CF records): nothing published after 08-21, fresh window still clean (newest 22047981/22036645, eng). All 13 tracked records re-verified live via GETs, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). NEW THIS ROUND: — lenr.seplm.ru BACK UP (200)** after being down from cloud since ~09-03 — deep-read recovered the 08-28 batch we missed: (1) M. Kashchenko massive-electron-pairs trio announcement (RKHTYA-27 2022 titanium-atom paper + 2025 Minsk monograph chapter pp.144-163 + magnetotactic-bacteria line) — underlying works all pre-window 2022-25 → CONTEXT ONLY; 2025 chapter = watch-list RU theory-translation candidate, natural pickup at RKHTYA-29 proceedings (Sep 28-Oct 2); (2) New Fire Signal (New Fire Energy AI terminal, content 08-28) = marketing, closed; (3) Meyer LENR book (08-12) = pre-window context; (4) compact fusion heater prototype (APOC Wire) = EN mainstream-fusion news. Exa sweeps: EN/viXra domain = zero new FL (all old EN theory); RU = hot-fusion news only (Texatron vacuum vessel 09-05, Pranos Pragya 09-03, Type One license 09-01, Klimov PVR-W = 2024 paper + LinkedIn marketing); media-tech.fr Parkhomov nickel-nanotube claim still circulating = ALREADY VERIFIED FALSE at 12:00 (no arXiv preprint), do not re-chase. lenr-canr.org news archive stale (last June 2026). **ARCHIVE GREW to 15,392 entries / 96 translations / 1,242 pages / 29 declassified / 2,339 patents / 978 researchers / 14 agents** (feed rebuilt 16:03:02Z; +416 vs 12:00: +215 tuks harvest 12:10Z +201 by 16:03Z; +1 trans = Acqua Viva IT→EN Schauberger completed 12:18Z, +90 pages). **Translator ACTIVE — NOT STALE (staleness watch RESOLVED)**: Acqua Viva IT→EN 106/106 done 12:18Z + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z. No claims. tuks down (000), lenr-canr up (200), viXra /new 404 (flapping), lenr.seplm.ru up (200), preprints.ru up. **AFLinks push RESTORED** (GETHUBFORGE valid this round). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-1600.md + finds mirror sources/2026-09-05-scout-finds-1600-scout.md."
     }
   ],
   "declassified": [
@@ -52743,7 +52887,10 @@
         "2402309",
         "2402310",
         "2402311",
-        "2402312"
+        "2402312",
+        "2402313",
+        "2402314",
+        "2402315"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -240285,7 +240432,10 @@
       "2402309": "thesis 2294",
       "2402310": "thesis 2295",
       "2402311": "thesis 2296",
-      "2402312": "thesis 2297"
+      "2402312": "thesis 2297",
+      "2402313": "Faster Than Light Communications",
+      "2402314": "HMD Presentation",
+      "2402315": "Y-Bias & Angularity 13August2011"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -565767,6 +565917,15 @@
       ],
       "2402312": [
         "Borderland Research"
+      ],
+      "2402313": [
+        "Borderland Research"
+      ],
+      "2402314": [
+        "Borderland Research"
+      ],
+      "2402315": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -675383,7 +675542,10 @@
       "2402309": [],
       "2402310": [],
       "2402311": [],
-      "2402312": []
+      "2402312": [],
+      "2402313": [],
+      "2402314": [],
+      "2402315": []
     }
   },
   "graph": {
@@ -675420,6 +675582,13 @@
         "title": "EZ Water Exclusion Zone Test",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — EZ Water Exclusion Zone\n\n**Guild:** Aetherforce — Water\n**Quest Line:** ⚡ Aetherforce · Plumbing & Hot Water complement\n**Tier:** sand\n**Domain:** water\n**Status:** proposed\n\n---\n\n##"
+      },
+      {
+        "file": "synthesis/quest-queue/2026-09-11-egg-fermentation-vessel.md",
+        "date": "2026-09-11",
+        "title": "2026-09-11-egg-fermentation-vessel",
+        "status": "proposed",
+        "excerpt": "# Quest Card: Egg-Shaped Fermentation Vessel Test\n\n⚡ **Aetherforce**\n\n**Quest:** `⚡ Aetherforce · Food Prep complement`\n\n---\n\n## Village data.js Schema Block\n\n```js\n{\n  type: \"AETHER\",\n  biomes: [\"sub"
       },
       {
         "file": "synthesis/quest-queue/2026-09-10-vortex-jet-turbine.md",
@@ -675472,6 +675641,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-11-dossier-010-egg-fermentation.md",
+        "date": "2026-09-11",
+        "title": "dossier-010-egg-fermentation",
+        "status": "draft",
+        "excerpt": "# Replication Dossier 010: Egg-Shaped Fermentation Vessel Test\n\n## Claim\nEgg-shaped (ovoid) containers produce superior fermentation outcomes compared to cylindrical containers, due to natural vortex "
+      },
       {
         "file": "synthesis/replication/2026-09-11-dossier-009-pollack-ez-water.md",
         "date": "2026-09-11",
