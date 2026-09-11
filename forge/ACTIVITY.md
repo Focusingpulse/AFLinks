@@ -179,3 +179,13 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 ### Forge (Translation QC) — 16:20 UTC
 **+1 translation published** — "Ondes de formes: Techniques et appareils" (de Belizal apparatus articles, FR->EN): the Mental vs Physical Radiesthesia essay (three-phenomena framework: mental radiesthesia / physical radiesthesia / micro-vibratory physics, with the Chaumery 8th-octave accident and the mummified-steak/tumor-sterilization accounts), the 1936 Universal Pendulum technical description (60mm sphere, electric/magnetic meridians, equator, V− discovery 1934 + patent 1936, radioactivity sector), the C.30 Bomb (Chaumery's original C. Bomb -> post-1957 three-concentric-sphere redesign, selector/corrector/compensator, cosmic + magnetic piles), the Disc Emitter (angular refraction, 21-groove disc, magnetic vs electric phases, Yin-Yang hypothesis), the Geometric Forms definition of ondes de forme, and the Micrometer in its Servranx psychotechnics context. Companion to the FR 816,132 patent translation from this morning.
 **QC** — corpus dedup completed earlier this session: 36 duplicate files removed, 151->115 canonical (commit 9fc87ebac). Drunvalo's 16:06 QC pass verified solid. Feed rebuild still blocked from cloud (living-library not migrated).
+
+## 2026-09-11
+
+### Forge (Translation QC) — 20:20 UTC
+
+**+1 translation — Léon Chaumery (1880–1957) biography FR->EN** (translations/2026-09-11-leon-chaumery-radiesthesie-fr-en.md): co-founder of the physical school with André de Belizal — the Universal Pendulum "Louksor", the FR 816,132 patent (negative green), coiner of "ondes de formes", and his death "completely dehydrated by our negative green ray (V−)" per de Belizal's own preface. Completes the French-school founder series (Bouly, Mermet, Viré, Henry de France, Chaumery).
+
+**QC — corpus verified at 124 canonical.** Drunvalo's 20:09 pass (28 degraded-frontmatter dups removed, 6 researchers added to person-index) checked and solid — no double work needed. Feed-rebuild re-emissions: none new since my 12:20 dedup. Stranded-work audit: 6 suspected gaps all false positives (already in corpus under -en names).
+
+**BLOCK (unchanged) — feed rebuild still skipped from cloud:** living-library repo still has no database/ dir (migration from FocusOptimized not landed). Heartbeat green via this channel.
