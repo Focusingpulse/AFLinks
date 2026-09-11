@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T07:06:17Z",
+  "generated_at": "2026-09-11T08:08:16Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -7,12 +7,12 @@
     "categories": 50,
     "meta_categories": 25,
     "aflinks_docs": 57983,
-    "translations": 96,
-    "pages_translated": 2701,
+    "translations": 97,
+    "pages_translated": 2707,
     "declassified_finds": 47,
     "active_agents": 14,
     "book5_complete": true,
-    "translation_files": 96,
+    "translation_files": 97,
     "bridges": 11,
     "archive_entries": 58981,
     "meta_counts": {
@@ -325,6 +325,17 @@
       "file": "2026-09-11-del-giudice-pollack-fourth-phase-of-water-it.md",
       "content_file": "translations/2026-09-11-del-giudice-pollack-fourth-phase-of-water-it.md",
       "excerpt": "Link to Facebook. Link to X. Link to YouTube. Link to Instagram.\n\n\n---\n\n\nEmilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water. The Italian physicist Emilio Del Giudice, in this lecture, spe"
+    },
+    {
+      "date": "2026-09-11",
+      "title": "Deba Cosmology Without Postulates",
+      "domain": "",
+      "source_url": "",
+      "language": "French",
+      "target_language": "English",
+      "file": "2026-09-11-deba-cosmology-without-postulates-fr.md",
+      "content_file": "translations/2026-09-11-deba-cosmology-without-postulates-fr.md",
+      "excerpt": "Cosmology of Organizational Coherence:\n    A Stochastic Field Theory of the Emergence of Bubble-Universes\n                                                      Michel Debailleul\n                                          "
     },
     {
       "date": "2026-09-11",
@@ -1109,6 +1120,54 @@
     }
   ],
   "latest_finds": [
+    {
+      "date": "steiner-ro",
+      "file": "steiner-roots-2026-09-11.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Mistletoe survival null result",
+          "description": "Strong RCT evidence refutes survival benefit. Worth a replication dossier documenting the honest negative finding.",
+          "url": ""
+        },
+        {
+          "title": "Mistletoe QoL mechanism",
+          "description": "If QoL effect is real, what's the mechanism? Immunomodulation? Placebo-by-care? Could test with active vs. sham injection arms.",
+          "url": ""
+        },
+        {
+          "title": "Cogo et al. 2023** (Systematic review, *Current Oncology*)",
+          "description": "Meta-analysis of 7 RCTs, 663 participants. **No difference in mortality** (RR = 1.00; 95% CI 0.79–1.27; p = 0.97) or cancer recurrence (RR = 1.03; 95% CI 0.79–1.33) between mistletoe and control. Follow-up 18 months to 8 years.",
+          "url": ""
+        },
+        {
+          "title": "German HTA 2021** (Breast cancer",
+          "description": "specific): No RCTs found demonstrating overall survival benefit. One small RCT showed no difference in progression-free survival at 5 years (72.4%, 67.9% mistletoe vs 78.6% control; p = NS).",
+          "url": ""
+        },
+        {
+          "title": "Ostermann et al. 2020** (Meta",
+          "description": "analysis, *Complementary Medicine Research*): Pooled HR = 0.59 (95% CI 0.53–0.65) across 32 controlled studies — **but none were blinded**, high risk of performance bias.",
+          "url": ""
+        },
+        {
+          "title": "Loef et al. 2023** (Meta",
+          "description": "analysis, *Journal of Cancer Science and Therapy*): 9 RCTs, 833 participants. Pooled SMD = 0.61 (95% CI 0.47–0.75; p < 0.0001) for QoL improvement in breast cancer patients receiving mistletoe.",
+          "url": ""
+        },
+        {
+          "title": "German HTA 2021",
+          "description": "Small to moderate QoL improvements, but high risk of bias in efficacy trials.",
+          "url": ""
+        },
+        {
+          "title": "MAB Study 2025** (UK NHS pilot RCT)",
+          "description": "First UK NHS-based mistletoe trial. 14 participants randomized, 12 completed. Feasibility demonstrated. No survival data (not powered). Safe with mild injection-site reactions.",
+          "url": ""
+        }
+      ]
+    },
     {
       "date": "steiner-ro",
       "file": "steiner-roots-2026-09-10.md",
@@ -5002,9 +5061,9 @@
       "mission": "Second overnight sweep in a different set of languages — catches what the first pass missed.",
       "schedule": "nightly 2am MDT",
       "icon": "🌅",
-      "last_run": "2026-09-10T08:06:08Z",
+      "last_run": "2026-09-11T08:01:41Z",
       "last_status": "ok",
-      "last_summary": "6 finds | de/ru/ja search (gear: quota)"
+      "last_summary": "+0 finds since last run (still 17) | budget low, skipped (gear: quota)"
     },
     {
       "member": "translation-curator",
@@ -5013,9 +5072,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-11T06:48:23Z",
-      "last_status": "ok",
-      "last_summary": "corrected baseline: 33 archival copies (prev 45 was miscounted, not a loss) | translating DEBA - Une Cosmologie Complete sans Postulats (fr, Debailleul 2025, Zenodo) 4/8 chunks, quota mode | parked 5 dead extraction jobs (dead DOI, JS-wall, 403, nav-chrome-only) | backlog 421 (gear: quota)"
+      "last_run": "2026-09-11T08:08:17Z",
+      "last_status": "skipped",
+      "last_summary": "budget gate low; skipped non-essential work | backlog 429 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5024,9 +5083,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-11T06:22:14Z",
+      "last_run": "2026-09-11T07:18:13Z",
       "last_status": "ok",
-      "last_summary": "+17 chunks (job done): Goethe et le transformisme francais 17/17 assembled -> translations/2026-09-11-goethe-and-french-transformism-fr.md | backlog 421 wait (gear: quota)"
+      "last_summary": "DEBA Cosmology sans Postulats COMPLETE 8/8 (fr, zenodo) — assembled translations/2026-09-11-deba-cosmology-without-postulates-fr.md; count is per-job so delta shows -9 (prev job was 17-chunk Goethe); backlog 421 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5046,9 +5105,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T06:22:46Z",
+      "last_run": "2026-09-11T07:08:02Z",
       "last_status": "ok",
-      "last_summary": "sync: 58681 docs, feed rebuilt"
+      "last_summary": "sync: 58981 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5140,6 +5199,48 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "08:05",
+      "agent": "Book2 Translate",
+      "summary": "+5 chunks — Translated chunks 141-145 of Book 2 (Russian to English). Progress: 145/247 chunks (59%). Gear: quota mode."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "08:04",
+      "agent": "Steiner Roots Scout",
+      "summary": "+6 nuggets — Medicine line: anthroposophic medicine research, mistletoe (Iscador) oncology trials, Merkurstab/JAMR journals. Key finding: meta-analysis of RCTs shows **no survival benefit** (RR = 1.00, 95% CI 0.79–1.27). Pediatric oncology RCT confirms no toxicity or survival benefit. Substance-based AM remedies: no sound RCT evidence after 20 years. Observational AMOS cohort shows large effects but uncontrolled."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "08:01",
+      "agent": "Polyglot Scout B",
+      "summary": "+0 finds — Budget low, skipped run (gear: quota). No new finds."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "07:18",
+      "agent": "Translation Sweeper",
+      "summary": "+4 chunks — Completed full translation of 'DEBA - Une Cosmologie Complete sans Postulats, Reponses aux Anomalies' (French, Zenodo 18033125): 4 chunks finished this run, 8/8 total, assembled. A falsifiable coherence-based alternative to ΛCDM explaining CMB anomalies (Cold Spot, Axis of Evil), early JWST supermassive black holes, dark matter/energy as inherited coherence, and directional Hubble tension. Quota gear: 4 chunks."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "07:16",
+      "agent": "Book2 Translate",
+      "summary": "+3 chunks — Translated chunks 138-140 (3 chunks, quota run). Progress: 137→140/247 (57%). Section: Chapter 4 / §1.2 — Reynolds number and collider safety critique, etherdynamic parameters of the proton, toroidal vortex formation in the galactic core, proton structure and fields (Fig. 1.1)."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "07:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault (58981 total) | feed rebuilt, slim index regenerated | scrape skipped (quota gear, no runnable queue state)"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "07:06",
+      "agent": "Book2 Translate",
+      "summary": "+5 chunks — Translated chunks 133-137 (5 chunks). Progress: 132→137/247 (55%). Section: Chapter 4 - particle accelerators, nuclear models, neutrino history, quark theory, critical remarks on nuclear methodology."
+    },
     {
       "date": "2026-09-11",
       "time": "06:48",
@@ -5457,48 +5558,6 @@
       "time": "20:06",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 20:00 UTC, cloud round; 20th consecutive clean round since 08-21). Zenodo keyword + fulltext sweeps OK (curl/8.0 UA): keyword 134 total (keywords:LENR, newest Ouroboros+Eli 21116578 07-02 EN noise) / fulltext 238 total (newest 22117461 17O-water 08-26 EN = known noise closed 12:00, Hamzah/Nexus cluster) — nothing published after 08-21, fresh window still clean. All 13 tracked records re-verified live via GETs, ALL 200, titles/dates unchanged, no redirect drift (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). — NEW THIS ROUND: lenr.seplm.ru flapping DOWN again (000; was 200 at 16:00)** — Exa homepage cache (08-28) shows one item not in the 16:00 deep-read: **Prosvirnov \"Роль LENR в шестом технологическом укладе\"** (LENR's role in the sixth tech paradigm) = RU opinion/analysis piece, CONTEXT ONLY — flag for RU-lane deep-read when the site returns (verify essay vs research note before pursuing). Exa sweeps: EN/viXra = zero FL (arXiv torsion/EFT noise 2608.28832/2608.29541/2608.30774 — none LENR; Klimov PVR-W LinkedIn marketing re-surface = known 2024 paper; PRB magnetic-vortex \"transmutation\" = winding number not nuclear); RU = hot-fusion news only (Texatron vacuum-vessel, Pranos Pragya tokamak 09-04, XENONnT pp-neutrinos 09-02, Pacific Fusion Sirius IMG 3000-discharges, NIF item). lenr-canr.org news archive still stale (June 2026). **ARCHIVE UNCHANGED at 15,392 entries / 96 translations / 1,242 pages / 30 declassified / 2,339 patents / 978 researchers (189 cataloged) / 14 agents** (feed rebuilt 17:01:08Z, sync 387ad24 17:02:33Z; no worker growth this window; 17:02 rebuild moved completed-translation source docs in books/ — Acqua Viva IT dropped, Akimov-Shipov 08-28 x2 + Shipov torsion-tech RU book files added = translated-content moves, not new finds). **Translator ACTIVE — NOT STALE**: Acqua Viva IT→EN 12:18Z (96th, +90 pg) + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z; ~8h since heartbeat, 48h window trips ~09-07 12:18Z only if silent. Fleet active: Drunvalo synthesis push 18:07Z (Longitudinal Waves/Non-Hertzian electrodynamics), Translation-QC checked 5 translations/removed 3 dupes/+4 researchers 16:06Z. No claims (claims.md empty). tuks down (000), lenr-canr up (200), viXra /new 404 flapping, lenr.seplm.ru 000 down, preprints.ru up. AFLinks push confirmed (GETHUBFORGE valid). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-2000.md + finds mirror sources/2026-09-05-scout-finds-2000-scout.md."
-    },
-    {
-      "date": "2026-09-05",
-      "time": "16:07",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 16:00 UTC, cloud round; 19th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl/8.0 UA, 182 total LENR/CF records): nothing published after 08-21, fresh window still clean (newest 22047981/22036645, eng). All 13 tracked records re-verified live via GETs, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175263; de KBF-01 20558306). NEW THIS ROUND: — lenr.seplm.ru BACK UP (200)** after being down from cloud since ~09-03 — deep-read recovered the 08-28 batch we missed: (1) M. Kashchenko massive-electron-pairs trio announcement (RKHTYA-27 2022 titanium-atom paper + 2025 Minsk monograph chapter pp.144-163 + magnetotactic-bacteria line) — underlying works all pre-window 2022-25 → CONTEXT ONLY; 2025 chapter = watch-list RU theory-translation candidate, natural pickup at RKHTYA-29 proceedings (Sep 28-Oct 2); (2) New Fire Signal (New Fire Energy AI terminal, content 08-28) = marketing, closed; (3) Meyer LENR book (08-12) = pre-window context; (4) compact fusion heater prototype (APOC Wire) = EN mainstream-fusion news. Exa sweeps: EN/viXra domain = zero new FL (all old EN theory); RU = hot-fusion news only (Texatron vacuum vessel 09-05, Pranos Pragya 09-03, Type One license 09-01, Klimov PVR-W = 2024 paper + LinkedIn marketing); media-tech.fr Parkhomov nickel-nanotube claim still circulating = ALREADY VERIFIED FALSE at 12:00 (no arXiv preprint), do not re-chase. lenr-canr.org news archive stale (last June 2026). **ARCHIVE GREW to 15,392 entries / 96 translations / 1,242 pages / 29 declassified / 2,339 patents / 978 researchers / 14 agents** (feed rebuilt 16:03:02Z; +416 vs 12:00: +215 tuks harvest 12:10Z +201 by 16:03Z; +1 trans = Acqua Viva IT→EN Schauberger completed 12:18Z, +90 pages). **Translator ACTIVE — NOT STALE (staleness watch RESOLVED)**: Acqua Viva IT→EN 106/106 done 12:18Z + Translation Sweeper +10 chunks Water:Blood of the Earth (DE→EN 33/210) 12:19Z. No claims. tuks down (000), lenr-canr up (200), viXra /new 404 (flapping), lenr.seplm.ru up (200), preprints.ru up. **AFLinks push RESTORED** (GETHUBFORGE valid this round). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-1600.md + finds mirror sources/2026-09-05-scout-finds-1600-scout.md."
-    },
-    {
-      "date": "2026-09-05",
-      "time": "12:07",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 12:00 UTC, cloud round; 18th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl/8.0 UA; browser UA 403s — flapping): 238 total LENR/CF records, newest all English noise (22117461 17O-water brain-cancer 08-26, Hamzah, CollectiveOS/Nexus cluster), fresh window still clean since 08-21 (newest LENR-keyword 22047981/22036645 eng). All 13 tracked records re-verified live, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175262; de KBF-01 20558305 — redirects to latest versions, not errors). Exa sweeps: EN/viXra = zero FL LENR (George Filled Atom + Klimov marketing + muon-CF = EN context); RU = hot-fusion news only (Pacific Fusion, Texatron, Pranos Pragya, Huanliu-4, TRT, ST40); ZH = mainstream fusion news only (新奥氢硼 NFEC2026, 环流四号 25T, FRIB gamma news); FR/DE = RTBF history + — media-tech.fr Parkhomov nickel-nanotube deuterium claim checked & closed: arXiv shows NO such preprint (Parkhomov trail = beta-decay anomalies 2010-2022 + 2502.14519 Feb-2025 independent check); site is AI-generated aggregation, do not chase). ARCHIVE GREW: index.json = 14,976 entries (08:09:58Z aflinks-cron sync; +25 vs 04:00; feed block 08:02Z still 14,951) / 95 translations / 1,152 pages / 29 declassified / 2,339 patents / 975 researchers / 14 agents. Translator last output 09-04 (~36h) — NOT stale yet, 48h window trips ~09-06 00:00Z, flag then. ICCF-27 wrapped (Aug 31–Sep 4/5) — proceedings likely next FL source in 1-3 weeks. No claims. tuks down (000), lenr-canr up (200), viXra 406/Mod_Security (was 200 at 08:00 — flapping), lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-05-scout-report-1200.md + finds mirror sources/2026-09-05-scout-finds-1200-scout.md."
-    },
-    {
-      "date": "2026-09-05",
-      "time": "08:00",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 08:00 UTC, cloud round; 17th consecutive clean round since 08-21). Zenodo keyword sweep OK (curl UA = 362 total LENR/CF records; unauth page cap 25): newest 22036645 (08-21, eng), window clean. All 13 tracked records re-verified live via GETs, ALL unchanged (zh Lin 21355740 / Zhuang 20668098 / Du 20736072; ru Lemeshko 18521158 / Torchigin 21946561 / ETVE 19305307 / TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781 / Marino 17652818; ja DMF 20551471 / Tomita 19175262; de KBF-01 20558305 — Tomita + KBF-01 resolved via 302 redirects to latest versions, both unchanged). Exa fresh-window sweeps: EN/viXra lane = zero LENR preprints (Joseph George \"Filled Atom\" = English speculative context; Knösch = known Exa-date false positive, 2025 originals, do NOT chase); ZH lane = mainstream hot-fusion news only (新奥 HB11, 环流四号, 合肥 EAST/BEST); RU lane = hot-fusion news only (Texatron, TRT, Pranos). — NEW COMMUNITY CONTEXT: ICCF-27 (Aug 31–Sep 4/5, Niagara Falls) running NOW** — proceedings = likely source of next FL candidates (FR/IT/JA papers in 1–3 weeks). LENR Forum Aug newsletter also flags: NASA Forsley NTRS presentation (NASA+Google solid-state fusion → DOE ARPA-E LENR + DARPA MARRS), Mizuno/Hwang SUS304 cold-worked preprint (Research Square), Czerski et al. thermal D-D fusion preprint — all English, QC/context only. ARCHIVE FLAT at 14,951 entries / 95 translations / 1,152 pages / 29 declassified / 2,339 patents / 975 researchers / 14 agents (feed rebuilt 09-05 04:03:23Z; 06:04Z db refresh +5 works not yet in feed). Translator last output 09-04 (~28h) — NOT stale but watch: window ends ~09-06 00:00Z. No claims. tuks down (000), lenr-canr up (200), viXra 200 (recovered from 406), lenr.seplm.ru down, preprints.ru up (Lebedkin /article/3115604 alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-05-scout-report-0800.md + finds mirror sources/2026-09-05-scout-finds-0800-scout.md."
-    },
-    {
-      "date": "2026-09-05",
-      "time": "04:05",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — NO new foreign-language LENR queue candidates (2026-09-05 04:00 UTC, cloud round). Fresh Zenodo LENR-keyword window clean since 08-21 (newest 22047981/22036645, both 08-21, both eng; keyword query OK = 182 records; creator/fulltext field queries returned 0 — API quirk, no depth loss). All 13 tracked records re-verified live at record level via GETs (11 OK, titles/dates unchanged: zh Lin 21355740/Zhuang 20668098/Du 20736072; ru Lemeshko 18521158/Torchigin 21946561/ETVE 19305307/TTU 21203126; fr COLDFIRE-2.31 19744790; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471; Tomita 19175262 + de KBF-01 20558305 GETs rate-limited, stable knowns). New this round: Marchetti 20158981 (ita, 05-13) surfaced in sweep and was CHECKED — energy-economics \"Cold Case\" (Marchetti/Nakicenovic IIASA 1979 substitution model), NOT LENR, keyword false positive, closed. Exa fresh-window sweeps: EN/viXra lane clean (software releases, Goldbach v308, FEP Lean, mRNA preprint = non-LENR noise), RU lane = hot-fusion news only (Pranos Prāgya, Pacific Fusion, Rosatom TRT, Tokamak Energy ST40), viXra domain sweep = zero LENR/CF in window. ARCHIVE GREW to 14,951 entries / 95 translations / 1,152 pages / 29 declassified / 2,339 patents / 975 researchers / 14 agents (feed rebuilt 09-05 01:02:22Z; +721/+0/+0/+0/+2 vs 00:00 — worker-side: SVPwiki 500-page harvest + zenodo-rh batch + padrak batch). Translator ACTIVE (09-04 translations in feed; curator 08:47Z, sweeper 21:17Z, book5 12:01Z) NOT stale. No claims. tuks down (000), lenr-canr up (200), viXra 406/Mod_Security (was 200 last round — geo/anti-bot), lenr.seplm.ru down, preprints.ru up (Lebedkin /article/3115604 alive). OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-05-scout-report-0400.md + finds mirror sources/2026-09-05-scout-finds-0400-scout.md."
-    },
-    {
-      "date": "2026-09-05",
-      "time": "00:05",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR queue candidates: fresh LENR-keyword window on Zenodo still clean since 08-21 (newest 22036645, verified in first query this round). Zenodo search API 403-blocked after first query (sandbox IP rate-limited, spaced retries failed) — used Exa fallback for author re-verification: Lin cluster (all known records only), Lozac'h COLDFIRE series (nothing newer than tracked 2.31 19744790; IGFD-V4 math 22301256 09-04 = context only), Lemeshko temporal-catalysis (known records only), Torchigin (nothing newer than 07-24 tracked) — all stable, no new versions. Context watch: **RKHTYA-29** Russian conference (Sep 28–Oct 2) — RU preprint dump potential. **ARCHIVE GREW to 14,230 entries / 95 translations / 1,152 pages / 29 declassified / 2,339 patents / 973 researchers / 14 agents** (feed rebuilt 09-05 00:03:12Z; +625/+1/+2/+3 vs 20:00 — growth resumed, flat window resolved). Pipeline ACTIVE — translator NOT stale (09-04 Vortex Motor + TUO FR→EN + Spyridis EL→EN + Shipov RU→EN). No claims. tuks down from cloud (worker reports up), lenr-canr up, viXra up (/new 404, lane quiet), lenr.seplm.ru down from cloud (content alive per Exa), preprints.ru up (Lebedkin /article/3115604 alive). OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-05-scout-report-0000.md + finds mirror sources/2026-09-05-scout-finds-0000-scout.md."
-    },
-    {
-      "date": "2026-09-04",
-      "time": "20:15",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR queue candidates: all 29 tracked records re-verified live at record level via curl GETs (zh Lin pool 8 + Zhuang 20668098 + Du 20736072; ru Lemeshko TTU trio + 18521158 + ETVE 19305307 + Torchigin 21532952/21946561; fr COLDFIRE-2.31 19744790 + DYN-LENR 17396246 + nanodiamond 19075653; it Pulvirenti 15292781/Marino 17652818; ja DMF 20551471/Tomita 19175262; de KBF-01 20558305), titles/dates unchanged. Fresh LENR-keyword window now 15 days clean (newest 22036645, 08-21). Zenodo search API 403-blocked from cloud this round — worked around with record GETs + Exa sweeps (Exa window = known Knösch 2025-dated false positives + cosmology/hydride noise, none LENR/FL). 1 context-only note: Lozac'h 22301256 (09-04, fra) = newest IGFD-V4 isodyne/math series entry, NOT LENR, series continuity only. **Archive UNCHANGED at 13,605 entries / 94 translations / 1,150 pages / 29 declassified / 2,339 patents / 970 researchers / 14 agents** (feed rebuilt 09-04 17:03:08Z, same as 12:00 round — worker-side harvest paused this window, watch item). Pipeline ACTIVE — translator NOT stale (09-04 TUO FR→EN + Spyridis EL→EN + Shipov RU→EN all in feed). No claims. tuks down from cloud (worker reports up), lenr-canr up, viXra up (200, lane quiet), lenr.seplm.ru down, preprints.ru/3908 Lebedkin alive. OCR/queue/tag pending on FocusOptimized. Full report: living-library 2026-09-04-scout-report-2000.md + finds mirror sources/2026-09-04-scout-finds-2000-scout.md."
-    },
-    {
-      "date": "2026-09-04",
-      "time": "12:14",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds this round — No new foreign-language LENR queue candidates (2026-09-04 12:00 UTC, cloud round). All tracked clusters verified stable via Zenodo keyword + author re-sweeps (zh Lin pool + Zhuang + Du, ru Lemeshko/TTU/ETVE/Torchigin, fr COLDFIRE 2.31, it Pulvirenti/Marino, ja DMF, de KBF-01). Fresh LENR-keyword window still clean since 08-21 (newest 22036645); author queries = no new LENR versions (Lemeshko = ML-eval, Torchigin = LENR list/videos, Zhuang = GHG/coastal data). 1 context-only note: Lozac'h **22301256** (09-04, fra) = newest in the **IGFD-V4 isodyne/math series** (with 22284865/22234456), NOT LENR — series continuity only. COLDFIRE chain top still 2.31 (19744790). **ARCHIVE GREW: 13,605 entries / 94 translations / 1,150 pages / 26 declassified / 2,339 patents / 970 researchers / 14 agents** (feed rebuilt 09-04 12:01Z; +65 entries/+4 trans/+61 pg vs 08:00) — growth worker-side. Pipeline ACTIVE — translator NOT stale (09-04 TUO Theory FR→EN latest). No claims. tuks down (000), lenr-canr up, **viXra up (200, improved from 406)**, lenr.seplm.ru down, preprints.ru up (Lebedkin alive). OCR/queue/tag pending FocusOptimized. Full report: living-library 2026-09-04-scout-report-1200.md."
     }
   ],
   "declassified": [
