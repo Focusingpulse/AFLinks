@@ -42,7 +42,9 @@ def fetch_url(url, timeout=30):
         print(f"  ERR: {e}")
         return None
 
-def extract_pdf_text(pdf_path, max_chars=2000):
+def extract_pdf_text(pdf_path, max_chars=None):
+    if max_chars is None:
+        max_chars = int(os.environ.get('MAX_PREVIEW', '2000'))
     try:
         import pypdfium2 as pdfium
         pdf = pdfium.PdfDocument(pdf_path)
@@ -57,11 +59,21 @@ def extract_pdf_text(pdf_path, max_chars=2000):
         pdf.close()
         full = ' '.join(parts)
         full = re.sub(r'\s+', ' ', full).strip()
+        if full:
+            return full[:max_chars]
+    except Exception as e:
+        pass
+    # pdftotext fallback (covers PDF flavors pypdfium2 chokes on)
+    try:
+        r = subprocess.run(['pdftotext', pdf_path, '-'], capture_output=True, timeout=60)
+        full = re.sub(r'\s+', ' ', r.stdout.decode('utf-8', errors='replace')).strip()
         return full[:max_chars]
-    except:
+    except Exception:
         return ""
 
-def fetch_html_text(url, max_chars=2000):
+def fetch_html_text(url, max_chars=None):
+    if max_chars is None:
+        max_chars = int(os.environ.get('MAX_PREVIEW', '2000'))
     """Fetch an HTML page and return (title, plain_text_preview)."""
     if USE_WAYBACK:
         url = "https://web.archive.org/web/2024/" + url
