@@ -56,7 +56,16 @@ fi
 
 echo "[1/5] Pull latest"
 git stash --quiet 2>/dev/null || true
-git pull --rebase --quiet origin main 2>&1 | tail -1 || git pull --quiet origin main 2>&1 | tail -1
+# HARD GATE: if the pull fails, abort the run. Continuing with a stale tree
+# and running `git add -A` later resurrects files deleted remotely (e.g.
+# translation-QC dedup commits) — that is how duplicate translations came
+# back on 2026-09-11 after commit 63f02c55 removed them.
+if ! git pull --rebase --quiet origin main > /tmp/aflinks_pull.log 2>&1; then
+  echo "  ERROR: git pull failed — aborting run to avoid resurrecting remotely-deleted files."
+  tail -2 /tmp/aflinks_pull.log
+  git stash pop --quiet 2>/dev/null || true
+  exit 1
+fi
 git stash pop --quiet 2>/dev/null || true
 
 echo "[2/5] Ensure pypdfium2 (skip if present)"
