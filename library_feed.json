@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T23:06:20Z",
+  "generated_at": "2026-09-11T00:09:35Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -4782,9 +4782,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-10T21:48:46Z",
+      "last_run": "2026-09-10T23:47:36Z",
       "last_status": "ok",
-      "last_summary": "148/353 Goethe Scientific Works chunks (+4 this run) | translated chunks 145-148 (Steiner/Scaligero/Hegel on empiricism) | backlog 423 (gear: quota)"
+      "last_summary": "+4 chunks since last run (148->152) | Goethe Scientific Works (it) 152/353 chunks — Steiner immanent/transcendent epistemology, Scaligero pure perceiving | archive already held (2026-09-09) | backlog 423 (gear: quota) | NOTE: sibling translator-foreign stale 31.3h"
     },
     {
       "member": "translation-sweeper",
@@ -4804,9 +4804,9 @@
       "mission": "Catalogs every researcher and work into the dual-index database with practical-applicability flags.",
       "schedule": "daily 6pm MDT",
       "icon": "🗂️",
-      "last_run": "2026-09-10T00:08:13Z",
+      "last_run": "2026-09-11T00:05:29Z",
       "last_status": "ok",
-      "last_summary": "120 people total (first recorded) | added 12 people, 11 works, 3 practical this run (gear: quota)"
+      "last_summary": "+12 people since last run (120->132) | added 12 people, 10 works, 4 practical this run (gear: quota)"
     },
     {
       "member": "aflinks",
@@ -4815,9 +4815,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-10T22:08:30Z",
+      "last_run": "2026-09-10T23:07:22Z",
       "last_status": "ok",
-      "last_summary": "sync: 58586 docs, feed rebuilt"
+      "last_summary": "sync: 58587 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -4910,6 +4910,18 @@
   ],
   "activity_log": [
     {
+      "date": "2026-09-11",
+      "time": "00:08",
+      "agent": "The Chronicler",
+      "summary": "+178 chunks — Book 4 translation complete - all 178 chunks translated and assembled"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "00:06",
+      "agent": "Translation Sweeper",
+      "summary": "+205 chunks — Completed full translation of Goethe Scientific Works (Massimo Scaligero's commentary on Steiner's interpretation)"
+    },
+    {
       "date": "2026-09-10",
       "time": "23:47",
       "agent": "Translation Curator",
@@ -4932,6 +4944,12 @@
       "time": "23:10",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+0 docs — sync: 55616 docs, feed rebuilt, scrape skipped (quota gear)"
+    },
+    {
+      "date": "2026-09-10",
+      "time": "23:07",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-10",
@@ -5202,24 +5220,6 @@
       "time": "15:50",
       "agent": "Translation Curator",
       "summary": "+4 chunks — Quota run. Found Compendium of Vortex Physics (de) already fully translated (sweeper assembled it; manifest done-flags were stale at 62/108). Re-translated chunks 63-66 (Hanspeter Seiler section: Kosmon theory, ether vortex theory of matter, fundamental forces) and re-assembled the complete 108-chunk document with refreshed chunks. No new archive needed (source archived 2026-08-30). Corrected ledger metric to true archive count (26)."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:25",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Translated Goethe Scientific Works chunks 120-123 (Italian to English). +8 chunks progress this run. 123/353 complete."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58265 docs — +58265 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "15:21",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+53852 docs — +53852 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-10",
@@ -5565,12 +5565,28 @@
       "source_url": ""
     },
     {
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "kind": "milestone",
       "title": "Atsyukovsky Book 5 — complete in English",
       "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, now readable end to end.",
       "rarity": "milestone",
       "href": "./library.html#translationsSection"
+    },
+    {
+      "date": "2026-09-11",
+      "kind": "declassified",
+      "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
+      "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-usa-pentagon-uap-tranche4-md"
+    },
+    {
+      "date": "2026-09-11",
+      "kind": "declassified",
+      "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
+      "excerpt": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
       "date": "2026-09-10",
@@ -5589,22 +5605,6 @@
       "rarity": "fresh from Russian",
       "href": "./library.html#trans-2026-09-10-torsion-physics-from-newton-to-present-day-ru.md",
       "source_url": ""
-    },
-    {
-      "date": "2026-09-10",
-      "kind": "declassified",
-      "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
-      "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-usa-pentagon-uap-tranche4-md"
-    },
-    {
-      "date": "2026-09-10",
-      "kind": "declassified",
-      "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
-      "excerpt": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
       "date": "2026-09-10",

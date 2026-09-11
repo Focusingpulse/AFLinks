@@ -1730,11 +1730,11 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/00445469.html">
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/02392668.html">
     <span class="salvage-person">👤 </span>
-    <span class="salvage-doc-title">2209.0042v1</span>
-    <span class="salvage-preview">Individual, time and space Vincenzo Peluso1 Present address: Via don Bosco, 11 00045 Genzano di Roma, Rome Italy September 7, 2022 ABSTRACT The present paper aims to be an ontological clarification, from the existential …</span>
-    <span class="salvage-meta">viXra.org · Patents &amp; Inventions · Geopolitics &amp; Hidden History</span>
+    <span class="salvage-doc-title">17(2)221-228</span>
+    <span class="salvage-preview">221 RENSIT/РЭНСИТ | 2025 | ТОМ 17 | НОМЕР 2 DOI: 10.17725/rensit.2025.17.221 Оценка параметров модели подводного аппарата на основе расчета характеристик рассеяния нестационарного сигнала 1 Ильменков С.Л., 2 Переселков С…</span>
+    <span class="salvage-meta">rensit.ru · Challenges to the Standard Model</span>
 </a><!-- SALVAGE:END -->
     </section>
 
@@ -1858,7 +1858,7 @@
             <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-10</span>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-11</span>
         </div>
     </footer>
 
@@ -2513,7 +2513,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260910230620')
+            fetch('./synthesis/synthesis_index.json?v=20260911000935')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3055,7 +3055,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260910230620');
+                        const response = await fetch('./search_index.json?v=20260911000935');
                         return response.json();
                     };
                     if (catParam) {
@@ -3085,12 +3085,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260910230620');
+                    const man = await fetch('./full_manifest.json?v=20260911000935');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260910230620');
+                    const feedRes = await fetch('./library_feed.json?v=20260911000935');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
