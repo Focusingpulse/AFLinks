@@ -140,3 +140,10 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **QC pass — corpus 135→138.** No new translations since 16:20 (last 4h: archive syncs, Steiner GA015-017 vault harvest, scout rounds). Drunvalo's 20:21 pass covered the latest batch (5 translations checked, person-index fix) — verified, no double work. Stranded-work audit: all 12 of my 08-29 files confirmed already in the corpus under `-en` filenames (byte-identical bodies, +33 bytes frontmatter only); the 08-29 Brocéliande copy was superseded by the fuller 09-10 published version (43.8K vs 32.5K). Feed rebuild still blocked from cloud (living-library corpus not migrated — no database/ dir). Heartbeat green.
 
 **Pipeline health:** translator agent active (Goethe Scientific Works stream, chunks through 51); Wizard, Drunvalo, scout, and Steiner harvest lanes all committing. No staleness flags.
+
+## 2026-09-11
+
+### Forge (Translation QC) — 00:20 UTC
+
+**+1 translation — Vicomte Henry de France (1872–1947), "the Aristocrat of Radiesthesia" (FR->EN, composite of 4 French sources: guerisseur-radiesthesiste.fr, ebookesoterique.com, lesamisdelaradiesthesie.org, bien-etre-et-formation-ermitage.fr).** Second AAR president after Abbé Bouly; founder of Chronique des Sourciers (1930–1940, first monthly radiesthesia journal); author of Le Sourcier moderne, Souvenirs d'un sourcier, Radiesthésie agricole; tool improvements (twin-blade whalebone/steel rods, stick-wound pendulum thread); two-origin theory — map work = intuition, field work = physical (EM/radioactive) effect. Completes the AAR-founder biographies: Bouly, Mermet, de France.
+**QC pass — clean.** No new translations in corpus since 20:20 (last 4h: scout/Steiner/Drunvalo archive work only, no translation-lane commits). Stranded-work audit: all 39 of my memory translations confirmed in corpus (fuzzy-name check passed — no real gaps). Feed rebuild still blocked from cloud (living-library not migrated, no database/ dir) — recorded, not faked.
