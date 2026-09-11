@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aetherforce Knowledge Vault — BioGeometry: The Physics of Quality</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="BioGeometry — the qualitative science of shape, colour and motion. Its founding lineage: the French physical-radiesthesia school, the Lecher antenna line, geobiology, building biology, sacred architecture, and the Egyptian energy science. Claim by claim, with what is agreed and what is not.">
+<meta property="og:title" content="BioGeometry — The Physics of Quality">
+<meta property="og:description" content="The founding elements of BioGeometry, traced from Karim's own account. Instruments, lineage, texts, and the honest status of each claim.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/biogeometry.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #07131a;
+  --bg2: #0e222c;
+  --stone: #12303a;
+  --stone-hi: #1b3f4c;
+  --gold: #e8b64c;
+  --gold-bright: #ffd166;
+  --gold-dim: #a37f2e;
+  --copper: #c98855;
+  --bronze: #7d8f86;
+  --text: #d8e6e2;
+  --text-dim: #8fb0aa;
+  --text-faint: #4e6f70;
+  --glow: rgba(201,168,76,0.25);
+  --glow-strong: rgba(201,168,76,0.5);
+  --green: #7a9a5a;
+  --green-glow: rgba(122,154,90,0.2);
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse at 20% 80%, rgba(122,154,90,0.04) 0%, transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+  min-height: 100vh;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0,0,0,0.03) 2px, rgba(0,0,0,0.03) 4px),
+    repeating-linear-gradient(90deg, transparent, transparent 3px, rgba(0,0,0,0.02) 3px, rgba(0,0,0,0.02) 6px);
+  pointer-events: none;
+  z-index: 0;
+}
+header {
+  text-align: center;
+  padding: 28px 16px 8px;
+  position: relative;
+  z-index: 1;
+}
+header h1 {
+  font-size: 1.7rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  color: var(--gold);
+  text-shadow: 0 0 30px var(--glow), 0 2px 4px rgba(0,0,0,0.8);
+  text-transform: uppercase;
+}
+header h1 .ornament { color: var(--gold-dim); font-size: 0.8rem; margin: 0 8px; }
+header p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  margin-top: 6px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--bronze);
+  border-radius: 2px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 1px;
+  transition: all var(--transition);
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--gold-dim);
+  color: var(--bg);
+  border-color: var(--gold);
+  box-shadow: 0 0 15px var(--glow);
+}
+.wrap { max-width: 1000px; margin: 0 auto; padding: 20px 16px 60px; position: relative; z-index: 1; }
+
+.intro {
+  background: linear-gradient(160deg, var(--stone) 0%, var(--bg2) 100%);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 22px 24px;
+  margin-bottom: 26px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+.intro h2 {
+  font-size: 1.15rem;
+  color: var(--gold-bright);
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.intro p { font-size: 0.92rem; line-height: 1.65; color: var(--text); margin-bottom: 10px; }
+.intro p:last-child { margin-bottom: 0; }
+.intro .honest-note {
+  border-left: 3px solid var(--copper);
+  padding-left: 12px;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+/* Lens dial — the twelve sides */
+.dial-section { margin-bottom: 30px; }
+.dial-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.dial-section .sub {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.sides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+.side-card {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  padding: 12px 14px;
+  transition: all var(--transition);
+  cursor: default;
+}
+.side-card:hover {
+  border-color: var(--gold);
+  box-shadow: 0 0 14px var(--glow);
+  transform: translateY(-2px);
+}
+.side-card .num {
+  font-size: 0.66rem;
+  letter-spacing: 2px;
+  color: var(--gold-dim);
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 4px;
+}
+.side-card .name { font-size: 0.95rem; color: var(--gold-bright); display: block; margin-bottom: 4px; }
+.side-card .who { font-size: 0.78rem; color: var(--text-dim); display: block; line-height: 1.4; }
+.side-card .stance { font-size: 0.72rem; margin-top: 6px; display: inline-block; padding: 2px 8px; border-radius: 10px; border: 1px solid var(--bronze); }
+.stance.mainstream { color: #8fb8d8; border-color: #4a6a80; }
+.stance.critic { color: var(--copper); border-color: #8a6a4a; }
+.stance.bridge { color: var(--green); border-color: #55684a; }
+
+/* Person sections */
+.person-section {
+  background: linear-gradient(160deg, var(--stone) 0%, var(--bg2) 100%);
+  border: 1px solid var(--bronze);
+  border-radius: 4px;
+  padding: 22px 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+}
+.person-section h2 {
+  font-size: 1.2rem;
+  color: var(--gold-bright);
+  letter-spacing: 1.5px;
+  margin-bottom: 4px;
+}
+.person-section .alias {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 12px;
+  display: block;
+}
+.person-section p { font-size: 0.9rem; line-height: 1.6; margin-bottom: 10px; }
+.person-section p:last-child { margin-bottom: 0; }
+.tagline {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold);
+  border: 1px solid var(--gold-dim);
+  border-radius: 2px;
+  padding: 3px 10px;
+  margin-bottom: 12px;
+}
+
+/* Papers table */
+.papers-block { margin-top: 14px; }
+.papers-block h3 {
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+table.papers {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
+table.papers th {
+  text-align: left;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--bronze);
+}
+table.papers td {
+  padding: 7px 10px;
+  border-bottom: 1px solid rgba(125,143,134,0.25);
+  vertical-align: top;
+  line-height: 1.45;
+}
+table.papers tr:hover td { background: rgba(232,182,76,0.05); }
+table.papers a { color: var(--gold); text-decoration: none; }
+table.papers a:hover { color: var(--gold-bright); text-decoration: underline; }
+table.papers .yr { color: var(--text-faint); white-space: nowrap; }
+
+/* Claim ledger */
+.ledger-section { margin-bottom: 30px; }
+.ledger-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--gold);
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+.ledger-section .sub {
+  display: block;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  font-style: italic;
+  margin-bottom: 18px;
+}
+.claim-row {
+  background: var(--bg2);
+  border: 1px solid var(--bronze);
+  border-radius: 3px;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+}
+.claim-row .claim-q {
+  font-size: 0.95rem;
+  color: var(--gold-bright);
+  margin-bottom: 8px;
+  display: block;
+}
+.claim-verdicts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+@media (max-width: 700px) { .claim-verdicts { grid-template-columns: 1fr; } }
+.verdict {
+  padding: 8px 12px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.verdict .v-label {
+  display: block;
+  font-size: 0.68rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.verdict.mainstream-side { background: rgba(74,106,128,0.15); border-left: 3px solid #4a6a80; }
+.verdict.mainstream-side .v-label { color: #8fb8d8; }
+.verdict.alternative-side { background: rgba(201,136,85,0.12); border-left: 3px solid var(--copper); }
+.verdict.alternative-side .v-label { color: var(--copper); }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 30px 16px 40px;
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  position: relative;
+  z-index: 1;
+}
+footer a { color: var(--text-dim); }
+footer a:hover { color: var(--gold); }
+@media (max-width: 720px) {
+  header h1 { font-size: 1.25rem; letter-spacing: 2px; }
+  .wrap { padding: 14px 10px 40px; }
+  .person-section, .intro { padding: 16px 14px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>◎ BioGeometry — The Physics of Quality</h1>
+  <nav class="nav-links">
+    <a href="./index.html">📚 Archive</a>
+    <a href="./vault.html">🗝 Vault</a>
+    <a href="https://www.aetherforce.energy" target="_blank">Aetherforce →</a>
+    <a href="./lens.html">🔭 Lens</a>
+    <a href="./synthesis.html">⚗ Fleet Briefings</a>
+    <a href="./library.html">⚓ Living Library</a>
+    <a href="./translations.html">🌍 Translations</a>
+<a href="./masters.html">Masters</a>
+<a href="./insiders.html">Insiders</a>
+<a href="./cosmology.html">🌌 Cosmology</a>
+<a href="#" class="here">◎ BioGeometry</a>
+<a href="./browns-network.html">🕸 Brown's Network</a>
+    <a href="./about.html">🧭 About</a>
+    <a href="./methodology.html">📜 Method</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+  <div class="intro">
+    <h2>What this page is</h2>
+    <p>BioGeometry is a "qualitative science" — it claims that <strong>shape, colour, motion, and sound</strong> carry measurable energy qualities that affect living systems. Its founder, Dr. Ibrahim Karim of Cairo, calls the resulting framework a <em>Physics of Quality</em>. This page documents its founding elements, its instruments, its lineage, and the honest status of each claim.</p>
+    <p class="honest-note">Honest framing: BioGeometry is not recognised by mainstream physics. But it is not an isolated claim either — it sits at the end of a hundred-year chain of European instrument research, and it makes claims specific enough to test. Both facts belong here. Nothing is endorsed; nothing is dismissed.</p>
+  </div>
+
+  <div class="dial-section">
+    <h2>◈ The Founding Lineage</h2>
+    <span class="sub">Karim names these himself — from his own account of the physics of quality</span>
+    <div class="sides-grid">
+      <div class="side-card"><span class="num">Root 01</span><span class="name">French Physical Radiesthesia</span><span class="who">Chaumery &amp; Bélizal (1930s–50s) — "Physique Micro-vibratoire". Calibrated pendulums, polarity scales, the Louksor universal pendulum. The instrument tradition.</span><span class="stance bridge">instrument lineage</span></div>
+      <div class="side-card"><span class="num">Root 02</span><span class="name">The Lecher Antenna</span><span class="who">Ernst Lecher's wave measurements → Schneider's Lecher antenna: the main instrument of European physical radiesthesia, calibratable to a colour scale.</span><span class="stance mainstream">electrical origin</span></div>
+      <div class="side-card"><span class="num">Root 03</span><span class="name">Geobiology</span><span class="who">Hartmann grid (Ernst Hartmann, 1915–1992), Curry grid (Manfred Curry), plus Wittmann, Peyré, Romani, Benker. Earth radiation as a health variable.</span><span class="stance critic">contested field</span></div>
+      <div class="side-card"><span class="num">Root 04</span><span class="name">Building Biology</span><span class="who">Hubert Palm — <em>The Healing House</em>. Buildings, materials and site as health factors. BioGeometry's architectural applications descend from here.</span><span class="stance bridge">applied lineage</span></div>
+      <div class="side-card"><span class="num">Root 05</span><span class="name">Sacred Architecture</span><span class="who">Pythagorean harmonics, Vitruvian proportion, the temple-building tradition — proportion and orientation as energetic design.</span><span class="stance bridge">harmonic tradition</span></div>
+      <div class="side-card"><span class="num">Root 06</span><span class="name">Egyptian Energy Science</span><span class="who">The claimed origin: the <em>Neter</em> (the "quality of the centre"), the Ankh and Ouadj sceptres as detection instruments, the sacred power spot.</span><span class="stance critic">claimed origin</span></div>
+    </div>
+  </div>
+
+  <div class="person-section">
+    <span class="tagline">The Method</span>
+    <h2>Physical Radiesthesia vs. Mental Dowsing</h2>
+    <p>The load-bearing distinction of the entire system — and Karim states it explicitly. <strong>Physical radiesthesia</strong> uses <em>calibrated instruments and measurement scales</em>: a perceived quality is read off a scale on a level of perception that precedes subjective meaning. <strong>Mental radiesthesia</strong> (what the English-speaking world calls dowsing) uses the pendulum as a channel to the subconscious — which Karim himself calls "very subjective and prone to auto-suggestion."</p>
+    <p>BioGeometry claims the first and rejects the second. That is why it presents itself as instrument science rather than divination — <strong>and it is also exactly where the validation question lives.</strong> A calibrated scale is objective only if the operator's perception is stable and unaffected by knowing what the answer should be. That is a testable proposition: blind protocols, control readings, multiple operators. It has not been independently done.</p>
+    <p><strong>What would settle it:</strong> a blinded detection trial — operators reading an unknown sample through the instrument, versus an identical control. BioGeometry's claims are specific enough to meet that bar, which most subtle-energy systems are not. That testability is why it has a page here rather than a footnote.</p>
+  </div>
+
+  <div class="person-section">
+    <span class="tagline">The Founder</span>
+    <h2>Dr. Ibrahim Karim — Cairo</h2>
+    <p>Architect and scientist (D.Sc./Dipl. ETH Zurich). Karim spent four decades synthesising <strong>Pythagorean harmonics, subtle-energy research, radiesthesia, geobiology, building biology, sacred architecture, and modern wave theory</strong> into a single framework from which BioGeometry emerged in the early 1970s. His family's architecture firm, Alemara, was founded by his father, Dr. Sayed Karim, in 1939. He served as advisor to Egypt's Ministers of Health, Culture, Tourism, and Scientific Research, and headed a research unit at <strong>Egypt's National Research Centre</strong> studying the effects of geometric shapes on micro-organisms.</p>
+    <p><strong>The claimed results</strong> (each checkable in principle): the Egyptian National Research Centre geometric-shapes study; the Egyptian National Hepatitis C Research Project application; Swiss electrosmog projects in collaboration with the Swiss Mediation Authority for Telecommunication &amp; Environment and Swisscom — for which a Swiss magazine named him Man of the Year in 2005.</p>
+    <p><strong>Status:</strong> these are claimed institutional engagements, documented in his own book and Vesica's materials. No independent replication of the outcomes has been published in the peer-reviewed literature. That is the gap — and it is a specific, nameable gap, not an unknown.</p>
+  </div>
+
+  <div class="person-section">
+    <span class="tagline">The Transmission</span>
+    <h2>Dr. Robert J. Gilbert (1961–2025) — Vesica Institute</h2>
+    <p>The man who carried BioGeometry out of Egypt. A former U.S. Marine Corps instructor in nuclear-biological-chemical warfare defence who left the service in 1985 and turned to independent research into the geometric basis of science. In 2009 he founded the <strong>Vesica Institute for Holistic Studies</strong>, and became the <strong>first person outside Egypt granted permission by Karim to teach BioGeometry</strong> — training more people in the system than anyone but Karim himself.</p>
+    <p>Gilbert taught both the French radiesthesia methods and BioGeometry, produced the Gaia TV series <em>Sacred Geometry: Spiritual Science</em>, and authored <em>Egyptian and European Energy Work</em>. He held <strong>one of the world's largest collections of rare European vibrational research texts</strong> — the primary-source base of the whole tradition. Where that collection now resides is an open question, and an important one.</p>
+    <p><strong>Died 2025-02-10</strong> (obituary: <em>International Journal of Healing and Caring</em>, July 2025). The Vesica Institute continues his mission, and the teaching line passes to the next generation of instructors, including Doreya Karim and Kris Attard.</p>
+  </div>
+
+  <div class="ledger-section" id="ledger">
+    <h2>⚖ The Claim Ledger</h2>
+    <span class="sub">what is agreed, what is not, and what would change the answer</span>
+
+    <div class="claim-row">
+      <div class="claim-label">Shapes and colours carry measurable energy qualities</div>
+      <div class="verdict mainstream-side"><span class="v-label">The claim</span>Karim: "the science of establishing harmony in energy exchange between biological fields and their environment, through a use of a design language of form, colour, motion and sound."</div>
+      <div class="verdict alternative-side"><span class="v-label">Status</span>Unverified by independent protocol. Testable: instrument readings on known-shape samples under blind conditions. No such trial has been published.</div>
+    </div>
+
+    <div class="claim-row">
+      <div class="claim-label">Physical radiesthesia is objective instrument science, unlike mental dowsing</div>
+      <div class="verdict mainstream-side"><span class="v-label">Karin's distinction</span>The claim rests entirely on whether calibrated scales remove operator subjectivity. This is a testable claim about method.</div>
+      <div class="verdict alternative-side"><span class="v-label">The gap</span>No blinded multi-operator study exists. Mainstream literature attributes all dowsing-type results to ideomotor effect — which would apply to physical radiesthesia unless the blinding removes it. <em>That is the experiment.</em></div>
+    </div>
+
+    <div class="claim-row">
+      <div class="claim-label">Geometric forms can transmute the health effects of EMF and earth radiation</div>
+      <div class="verdict mainstream-side"><span class="v-label">Geobiology</span>Mainstream science classes earth-radiation (Erdstrahlen) as pseudoscience; the WHO finds no substantiated health effects at typical ELF levels.</div>
+      <div class="verdict alternative-side"><span class="v-label">The specific claim</span>Not "EMFs are dangerous" but "a specific geometry reduces a measured effect." That is a narrower, sharper claim — and the Swiss projects are the evidence offered. Independent replication is missing.</div>
+    </div>
+
+    <div class="claim-row">
+      <div class="claim-label">The ancient Egyptians used this as a working science</div>
+      <div class="verdict mainstream-side"><span class="v-label">Mainstream Egyptology</span>Rejects the "energy science" reading of temples and sceptres. The monuments' geometry is treated as symbolic/religious and calendrical.</div>
+      <div class="verdict alternative-side"><span class="v-label">The claim</span>Karim's own energy-quality analysis of the Great Pyramid; the Neter/Net concept; the Ankh as detection tool. Offered as conserved technique, not metaphor. <em>Unverified — and the hardest of the claims to test.</em></div>
+    </div>
+  </div>
+
+  <div class="intro" style="margin-top:10px;">
+    <h2>📚 The Core Texts</h2>
+    <span class="sub">the primary sources, so the lineage can be checked</span>
+    <p><strong>Ibrahim Karim — <em>Back to a Future for Mankind: BioGeometry 1</em></strong> (BioGeometry Consulting Ltd). The foundational text: his collected writings, the design language, the applications, the Egyptian analysis.</p>
+    <p><strong>Robert J. Gilbert — <em>Egyptian and European Energy Work: Reclaiming the Ancient Science of Spiritual Vibration</em></strong> (Vesica, LLC). The bridge between the Cairo school and the European instrument tradition.</p>
+    <p><strong>Léon Chaumery &amp; André de Bélizal — <em>Essai de radiesthésie vibratoire</em></strong> (1939; Dangles 1956; Dervy 3rd ed. 2013, ISBN 978-2-84454-998-3). The founding method text of physical radiesthesia — the Louksor pendulum, the laws of form.</p>
+    <p><strong>André de Bélizal — <em>Introduction à la Physique radiesthésique et micro-vibratoire</em></strong> (Servranx, ISBN 2-87242-101-7). The accessible entry: ondes de formes, the instruments, the techniques.</p>
+    <p><strong>Ernst Hartmann — <em>Standort als Krankheitsproblem</em></strong> · <strong>Hubert Palm — <em>The Healing House</em></strong> · <strong>Kris Attard — BioGeometry Foundation Training notebooks</strong>.</p>
+  </div>
+
+  <div class="intro" style="margin-top:10px;">
+    <h2>The honest bottom line</h2>
+    <p>BioGeometry is presented by its practitioners as a <em>physics</em> — a science of energy quality with instruments, scales, and protocols. This page has laid out that claim and the lineage behind it in full, because the lineage is real: a hundred years of European instrument research, transmitted through a documented teaching line.</p>
+    <p>What is <em>missing</em> is equally specific: a blinded, independent test of whether the instruments read anything beyond the operator's expectation. That single experiment would move BioGeometry from "unverified claim" to "verified method" or "refuted method." Until it runs, everything on this page stays in the ledger as a claim — presented at its strongest, with its evidence named, and with the missing piece named too.</p>
+    <p class="honest-note">A claim is a claim until tested. The archive preserves BioGeometry's claims and its lineage; it does not certify them — and it does not dismiss them.</p>
+  </div>
+
+</div>
+</body>
+</html>
