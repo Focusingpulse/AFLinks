@@ -1,60 +1,27 @@
 {
-  "timestamp": "2026-09-10T06:06:32.064005Z",
-  "run_type": "daily-database-refresh",
-  "collection_stats": {
-    "total_translations": 133,
-    "total_researchers": 146,
-    "total_works_indexed": 134,
-    "total_archive_docs": 57555,
-    "concept_tagged_docs": 18707,
-    "concept_coverage_pct": 35
+  "timestamp": "2026-09-11T06:03:45.943358",
+  "total_translations": 158,
+  "total_researchers": 149,
+  "total_works": 270,
+  "languages": {
+    "es": 10,
+    "ru": 18,
+    "en": 55,
+    "it": 25,
+    "de": 15,
+    "pt": 4,
+    "el": 5,
+    "fr": 21
   },
-  "language_distribution": {
-    "en": 48,
-    "fr": 16,
-    "ru": 13,
-    "it": 13,
-    "de": 8,
-    "es": 7,
-    "el": 3,
-    "pt": 2
+  "domains": {
+    "aether": 123,
+    "gravity": 96,
+    "torsion": 32,
+    "scalar": 47,
+    "sacred_geometry": 20,
+    "water": 4,
+    "morphic": 11,
+    "lenr": 12
   },
-  "domain_distribution": {
-    "aether": 92,
-    "gravity": 72,
-    "scalar": 35,
-    "torsion": 25,
-    "sacred_geometry": 17,
-    "lenr": 7,
-    "morphic": 5,
-    "water": 4
-  },
-  "top_concepts": {
-    "geometry_sacred": 7017,
-    "cold_fusion": 3391,
-    "p_fieldphys": 2130,
-    "aether": 1901,
-    "tesla": 1685,
-    "p_bridge": 1469,
-    "p_wrongturn": 1340,
-    "p_consciousness": 989,
-    "keely": 787,
-    "p_nature": 763
-  },
-  "new_since_last_refresh": {
-    "translations_added": 23,
-    "researchers_added": 15,
-    "works_added": -48
-  },
-  "notes": [
-    "Library feed build skipped - living-library repo not available in sandbox",
-    "Concept tagging skipped - index.json too large for inline processing",
-    "Today's translations: 22 new documents processed",
-    "All existing indices preserved and updated"
-  ],
-  "upgrade_bank_status": {
-    "total_proposals": 11,
-    "found": 2,
-    "proposed": 9
-  }
+  "new_since_last_refresh": 0
 }
