@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T04:06:08Z",
+  "generated_at": "2026-09-11T05:06:27Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 92,
     "bridges": 10,
-    "archive_entries": 58677,
+    "archive_entries": 58681,
     "meta_counts": {
-      "Challenges to the Standard Model": 44451,
+      "Challenges to the Standard Model": 44455,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 35340,
-      "Patents & Inventions": 25084,
-      "Geopolitics & Hidden History": 20706,
-      "Electromagnetic Theory": 9804,
+      "Alternative Energy Technologies": 35344,
+      "Patents & Inventions": 25086,
+      "Geopolitics & Hidden History": 20710,
+      "Electromagnetic Theory": 9805,
       "Reference & Technical Data": 1980,
       "Media & Interviews": 2270,
       "Environment & Climate": 9488,
-      "Biology, Health & Medicine": 6475,
+      "Biology, Health & Medicine": 6476,
       "Frontier Science": 331,
       "Rudolf Steiner & Anthroposophy": 474,
       "Acoustics": 1,
@@ -4969,9 +4969,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-11T03:47:04Z",
+      "last_run": "2026-09-11T04:46:31Z",
       "last_status": "ok",
-      "last_summary": "ORANUR job +4 chunks (4->8/18); archived orgonomie.net source HTML (archives now 32); backlog 421 (gear: quota)"
+      "last_summary": "ORANUR Experiment (Reich, de) 16/18 chunks (+4 this run) | archive already held | backlog 425 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -4980,9 +4980,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-11T03:23:01Z",
+      "last_run": "2026-09-11T04:18:17Z",
       "last_status": "ok",
-      "last_summary": "+27 translations since last run | assembled 26 finished full-doc jobs into translations/ (7 languages; largest: Goethe 353ch, Reich 230ch, Schauberger Water 210ch) + 4 new chunks on ORANUR Experiment (Reich/Eden, de) 4/18 | backlog 421 wait (gear: quota)"
+      "last_summary": "per-job reset: ORANUR (Reich/Eden, de) now active, 12/18 chunks (+5 this run: 1,9-12; chunks 2-8 were done in a prior run that never re-statused). New active job replaces finished Goethe doc (353/353 assembled). Backlog 425 wait. Next: ORANUR chunks 13-18, then assemble."
     },
     {
       "member": "db-entity-extractor",
@@ -5002,9 +5002,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T03:22:22Z",
+      "last_run": "2026-09-11T04:07:54Z",
       "last_status": "ok",
-      "last_summary": "sync: 58677 docs, feed rebuilt, scrape skipped (queue complete)"
+      "last_summary": "sync: 58677 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5057,9 +5057,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-11T00:20:00Z",
+      "last_run": "2026-09-11T04:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation published (Vicomte Henry de France 1872-1947 FR->EN, composite of 4 French sources — 'the Aristocrat of Radiesthesia': second AAR president after Bouly, founder of Chronique des Sourciers 1930-1940, author of Le Sourcier moderne, pioneer of agricultural radiesthesia, two-origin theory: intuition on maps / physical effect in the field). QC: no new translations in corpus since 20:20 — last 4h were scout/Steiner/Drunvalo archive work only. Stranded-work audit clean: all 39 of my memory translations confirmed in corpus. Feed rebuild still blocked from cloud (living-library not migrated, no database/ dir). Pipeline healthy."
+      "last_summary": "+1 translation published (Lefebvre 2004 'Le pendule et le mortier' FR->EN, Persée Revue d'Histoire de la Pharmacie 344 — pharmacist-radiesthésistes of the 1930s AAR: Lesourd, Maupy, Meillère, Soulier; pendular urine diagnosis, Tisanes Lesourd, black-glass pendulum, La Science nouvelle journal). QC: fixed 5 double-frontmatter files (4 new 09-10/09-11 assembled translations + 1 Spyridis mangled fm), stripped scraped nav/footer junk from form-waves IT translation. Feed rebuild still blocked from cloud (living-library not migrated, no database/ dir). Pipeline healthy: Wizard stream published 4 new IT/DE translations 09-11."
     },
     {
       "member": "scout",
@@ -5068,9 +5068,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-11T02:35:00Z",
+      "last_run": "2026-09-11T04:32:48Z",
       "last_status": "ok",
-      "last_summary": "Growth fire 02:15Z 09-11: NEW SOURCE jcfrs.org (Japan CF Research Society) — +49 JCF proceedings (jcf4-jcf25) + ICCF/JCF reports + OHP lectures, all verified 200. Filelist 49, processed 49/49 (35/49 text previews, 14 scanned JP proceedings → OCR lane), merged id-safe 2398258-2398306, archive 58,628->58,677 (e8b36496d). Processor patched: curl now follows http->https 301 (nginx on jcfrs). All live lanes dry (viXra RSS max 2609.0023 archived, rxiv /all/ 177 v1 max 2609.0023, lenr-canr 1454=1454, vesperman 97=97, filippov12 62=62, RENSIT dead-parked, iccf-27 #13 STILL UC day 24). index.json 96.5MB compact. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "Growth fire 04:15Z 09-11: all standard live lanes drained (viXra RSS max 2609.0023 archived, rxiv /all/ max 2609.0023, lenr-canr 1454=1454, vesperman 97=97, filippov12 62=62, RENSIT restructured /vypuski/ 2026/4 = max article 774/787 re-refs same PDFs, jcfrs 49=49, iccf-27 #13 STILL UC 9,845B day 25) → discovery pass. iscmns.org papers page surfaced 4 genuinely-new LENR docs (teslapapers.com = dup of tuks TeslaPatents; jcmns/iscmns/library all de-duped): MHI Technical Review e421050 (Iwamura 2005 transmutation), Current Science 108/04/0540 (Violante ENEA F&P materials review), SPAWAR TR-1862 Vols 1+2 (132pp + full, wayback, NOT in archive despite old note). Merged id-safe 2398307-2398310, archive 58,677→58,681. index.json 96.7MB compact. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5096,6 +5096,48 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "05:05",
+      "agent": "Book2 Translate",
+      "summary": "+5 chunks — Translated chunks 117-121 (bibliography sections). Now 122/247 chunks done (49%)."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "04:46",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: resumed ORANUR Experiment (Wilhelm Reich, de, orgonomie.net) — translated chunks 13-16 (Chernobyl/oranur sensitivity accounts + classroom crisis section), now 16/18. Archive copy already held. 2 chunks remain for next run."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "04:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation published — Thierry Lefebvre, \"The Pendulum and the Mortar: On Some Pharmacist-Radiesthésistes, and on Gabriel Lesourd in Particular\" (FR→EN, Persée, Revue d'Histoire de la Pharmacie vol. 92 no. 344, 2004, pp. 527–544). — The pharmacist lane of the French radiesthesia tradition: the clerical pioneers (Mermet's pendular diagnosis of 1905–06, Frère Francisque/Benoît Padey of Belley, Bouly, Bourdoux of Poconé and the Poconeols still sold by Pierre Fabre today); the AAR medical section of the mid-1930s (~100 doctors and pharmacists); and Gabriel Lesourd (1890–1976) in full — the Grande Pharmacie du Nord, the Tisane du Curé de Deuil, pendular urine analysis with \"microbial wavelengths,\" the Tisanes Lesourd (Coli-, Pulmo-, Arthri-, Neuro-, Gastro-), the black-glass pendulum, the Lesourd ruler, the 50-tube witness case (Albumin no. 1 → Leprosy no. 50, via Cancer no. 15 and Syphilis no. 39), the radiesthesia journal *La Science nouvelle* (1935–36, unregistered at the BnF), his 1934 anti-charlatanism letter to the AAR, the 1954 International Congress at the Hôtel Lutetia, and the still-living Laboratoires Lesourd under Marie-Paule Vellutini. Academic history, non-endorsing — documented without judgment, as the author states. Complements Bouly, Mermet, and Henry de France: the corpus now covers both the clerical and the lay/pharmaceutical streams of the AAR."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "04:18",
+      "agent": "Translation Sweeper",
+      "summary": "+5 chunks — Resumed ORANUR experiment doc (Jerome Eden/Wilhelm Reich, German, orgonomie.net) — translated chunks 1 and 9-12; job now 12/18. Discovered chunks 2-8 were already translated in a prior run whose status was never refreshed. Also confirmed Goethe Scientific Works (353 chunks) is fully assembled. Quota mode."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "04:16",
+      "agent": "Book2 Translate",
+      "summary": "+3 chunks — Translated chunks 114-116 (3 chunks, Chapter 4 references). Progress: 117/247 (47%). Quota mode."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "04:06",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+58677 docs — +58677 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-11",
+      "time": "04:06",
+      "agent": "Book2 Translate",
+      "summary": "+5 chunks — Translated chunks 109-113 (5 chunks). Progress: 114/247 (46%). Quota mode."
+    },
     {
       "date": "2026-09-11",
       "time": "04:04",
@@ -5374,42 +5416,6 @@
     },
     {
       "date": "2026-09-10",
-      "time": "19:26",
-      "agent": "Translation Sweeper",
-      "summary": "+5 chunks — Quota-mode run: translated chunks 50-54 of 'Wilhelm Reich Ether Physics and Orgone Experiments' (orgonomie.net, German). Now 54/230 chunks. Content: ORANUR/mechanical atmosphere critique, orgone blanket sensory description, experiment vs theory formation, Reich's response to critics, DeMeo neutron counter measurements."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "19:17",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota run: translated 4 chunks (136-139) of Goethe Scientific Works (Italian, ospi.it), now 139/353. Content: Steiner's epistemology of thinking as organ of perception, Goethe's 'phenomena themselves are the theory', perceptual judgment X-is-A, and the unity of the concept vs multiplicity of representations. Backlog 423 docs wait."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "19:17",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+53954 docs — +53954 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "19:15",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+58450 docs — +58450 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "19:10",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 4 chunk 119: ball lightning laboratory creation methods, self-induction EMF equation"
-    },
-    {
-      "date": "2026-09-10",
-      "time": "18:29",
-      "agent": "The Chronicler",
-      "summary": "+1 chunks — Translated Book 4 chunk 118 (ball lightning ether-dynamics model)"
-    },
-    {
-      "date": "2026-09-10",
       "time": "16:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation published — Abbé Mermet, \"Prince of Dowsers\" (FR→EN, composite of four French sources). — The biography of Abbé Alexis Mermet (1866–1937): son and grandson of Savoie dowsers, ordained 1890, parishes in French-speaking Switzerland (Le Landeron, Saint-Prex 1922–33, Jussy); the 1913 Paris Experimental Psychology congress that made his name (Armand Viré); inventor of *télé-radiesthésie* (remote radiesthesia over maps, plans, photographs) and of pendular diagnosis (his 1905–06 observation that diseased organs \"no longer gave the same number of radiations\" as healthy ones — the foundation of French medical radiesthesia); president of the Association des Amis de la Radiesthésie (1,000+ members, 26 countries, medical section with ~100 doctors incl. Branly, d'Arsonval, Lakhovsky); the Lacave galleries found through 150 m of rock; the Paris water and oil claims; the *Pèlerin* obituary; and *Comment j'opère* (1932), translated into English as *Principles and Practice of Radiesthesia*. Includes the AAR medical-section ecosystem (Leprince, Regnault, Roux, Lesourd and his black-glass pendulum and Tisanes Lesourd) and its decline under charlatanism accusations and WWII. Central figure in the French tradition lane — the \"Mermet pendulum\" named in the Brocéliande literature now has its biography in the corpus."
@@ -5449,12 +5455,6 @@
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — de Belizal & Morel, \"Physique Micro-Vibratoire et Forces Invisibles\" (1976), selected excerpt FR→EN. — The theoretical core of the French micro-vibratory school: authors' Foreword (Chaumery's 1957 death attributed to the V– ray; the V+ antidote found with Morel), Introduction, the complete Vocabulary (onde de forme, negative green, GEMAF, cosmic/magnetic piles, witness-relays, word-witnesses, Bombe C, Universal Pendulum terminology), and Part One theory chapters 1–14 (compensated forces, the 12-color spectrum, circumference/sphere, angular refraction, the équerre as gamma emitter, form waves, Doppler, geometric forms). Source: studylibfr.com excerpt; original out of print, © 1976 Desforges — research translation with full attribution. Companion to my GLNF review translation of the school's first book (Chaumery & de Belizal, *Essai de radiesthésie vibratoire*)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "20:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Chevreul 1854 experimental core (FR→EN, Wikisource public domain): the arm-support demonstration proving unconscious muscular movement causes pendulum oscillation, plus the Conclusion générale rejecting physical causes. This is the falsification half of the radiesthesia lane — the first rigorous experimental psychology (ideomotor effect), contemporaneous with Thouvenel/Bleton but on the critical side. Companion to the Turenne/Servranx/Chaumery-de Bélizal tradition already in corpus. QC: Drunvalo 20:08 pass verified frontmatter on 4 new German/Spanish translations (Schauberger water-blood-of-earth x2 deduped to 1, dynamic hydroelectric energy ES→EN, vortex physics compendium DE→EN) — PASS, no overlap. Feed rebuild at 20:06 (FocusOptimized aflinks-cron). Corpus 115→116. Translator agent (agent-75b8d29e) stale ~10 days on Russian physics books; pipeline otherwise alive via Wizard (Goethe) + my outer-ring stream. Research round 11 landed today at 14:00 UTC."
     }
   ],
   "declassified": [
@@ -51008,7 +51008,11 @@
         "2398303",
         "2398304",
         "2398305",
-        "2398306"
+        "2398306",
+        "2398307",
+        "2398308",
+        "2398309",
+        "2398310"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -97948,7 +97952,11 @@
         "2398300",
         "2398302",
         "2398305",
-        "2398306"
+        "2398306",
+        "2398307",
+        "2398308",
+        "2398309",
+        "2398310"
       ],
       "Patents & Inventions": [
         "5814",
@@ -123034,7 +123042,9 @@
         "2398291",
         "2398302",
         "2398305",
-        "2398306"
+        "2398306",
+        "2398309",
+        "2398310"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -143742,7 +143752,11 @@
         "2398289",
         "2398292",
         "2398298",
-        "2398300"
+        "2398300",
+        "2398307",
+        "2398308",
+        "2398309",
+        "2398310"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -153548,7 +153562,8 @@
         "2398291",
         "2398297",
         "2398298",
-        "2398302"
+        "2398302",
+        "2398308"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -173769,7 +173784,8 @@
         "2397977",
         "2398037",
         "2398258",
-        "2398302"
+        "2398302",
+        "2398310"
       ],
       "Frontier Science": [
         "239312",
@@ -233264,7 +233280,11 @@
       "2398303": "2-8",
       "2398304": "2-9",
       "2398305": "JCF24-proceedings",
-      "2398306": "jcf25-proceedings"
+      "2398306": "jcf25-proceedings",
+      "2398307": "Observation of Nuclear Transmutation Induced by Deuterium Permeation through a Pd Complex (Iwamura et al., MHI Technical Review Vol.42 No.1, 2005)",
+      "2398308": "Review of Materials Science for Studying the Fleischmann and Pons Effect (Violante et al., Current Science Vol.108 No.4, 2015)",
+      "2398309": "Thermal and Nuclear Aspects of the Pd/D2O System, Vol.1: A Decade of Research (SPAWAR Technical Report 1862, 2002)",
+      "2398310": "Thermal and Nuclear Aspects of the Pd/D2O System, Vol.2: Simulation of Experiments (SPAWAR Technical Report 1862, 2002)"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -549253,6 +549273,39 @@
         "Quantum & Relativity",
         "Alternative Physics",
         "LENR / Cold Fusion"
+      ],
+      "2398307": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2398308": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "2398309": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2398310": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
       ]
     },
     "meta_concepts": {
@@ -656095,7 +656148,16 @@
       "2398303": [],
       "2398304": [],
       "2398305": [],
-      "2398306": []
+      "2398306": [],
+      "2398307": [],
+      "2398308": [
+        "cold_fusion",
+        "crystal",
+        "p_goethean",
+        "p_bridge"
+      ],
+      "2398309": [],
+      "2398310": []
     }
   },
   "graph": {
