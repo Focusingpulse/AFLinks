@@ -235,3 +235,15 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~56h — past 48h threshold, flag stands for Sandra. Wizard/Drunvalo/Steiner/scout streams all active (Drunvalo QC at :07 offset, Steiner vault harvest, scout archive 61,450).
 
 **Follow-up (12:35):** the 12:23 scrape commit re-emitted 3 deduped files (Wilhelm Reich html copy, 08-28 shipov, 09-09 schauberger) — all verified same-content (diff = frontmatter/minor rewording only) and removed in 6ccf9bdf. Corpus holds at 120 canonical.
+
+## 2026-09-12
+
+### Forge (Translation QC) — 16:20 UTC
+
+**-46 duplicates — corpus 139→93 canonical.** The 12:23 and 16:04 feed rebuilds re-added 26 previously-removed files plus new dated copies; Drunvalo's 16:06 pass removed 7 of them, this session removed the remaining 46 verified duplicates across 21 families (prometheus, wilhelm-reich, tuo ×2 families, theorie-phi, psicogeometria, oranur, onde-di-forma, campi, magnitsky, goethe, akimov, shipov, acqua-viva, spyridis, brazil, tesla, newton, compendium, del-giudice, consciousness, extended-em, vortex-motor). Dense-shingle containment ≥0.96 + CR-diff verification; one keeper per family with real frontmatter. Post-removal check caught akimov/shipov families with zero survivors — keepers restored from git with fixed frontmatter.
+
+**+13 frontmatter fixes** — junk name-as-filename and "Translation document." descriptions replaced with real titles (atsyukovsky book 5, TUO sweeper-fr, LENR dry gas, WO2013155580A1 patent, Schauberger ×3, DEBA cosmology, memory-of-water, form waves, Goethe transformism).
+
+**Re-scan clean.** Remaining overlap: 2026-09-01-scalar-field-galactic-rotation vs 2026-09-10-theorie-phi — two different translations of the same Zenodo paper (0.61 containment), both kept per del-giudice precedent.
+
+**Flag:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~60h — past 48h threshold. Feed rebuild still blocked from cloud (living-library database/ migration not landed).
