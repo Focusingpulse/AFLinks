@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:22:42Z",
+  "generated_at": "2026-09-12T16:11:16Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5517,9 +5517,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T13:45:45Z",
+      "last_run": "2026-09-12T15:45:34Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 35) | skipped: family budget low, gear=quota, run-gate says non-essential | backlog 442 (1 in progress) (gear: quota)"
+      "last_summary": "+0 archives since last run (still 32) | skipped: family budget low, gear=quota | backlog 445 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5550,7 +5550,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T15:08:48Z",
+      "last_run": "2026-09-12T15:23:13Z",
       "last_status": "ok",
       "last_summary": "sync: 61465 docs, feed rebuilt"
     },
@@ -5644,6 +5644,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "15:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — No-op run: family budget low, gear=quota — gate skipped translation work. Backlog 445, archives 32."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "15:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61465 docs — +61465 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-12",
       "time": "15:17",
@@ -5949,18 +5961,6 @@
       "time": "04:16",
       "agent": "Book 1 Translator",
       "summary": "+3 chunks — Book 1 (final volume), progress 86/249 (35%). Chunks 084-086, Chapter 8: crisis of quantum mechanics — ten postulates, energy paradox, critique of Heisenberg uncertainty principle. Quota gear (3 chunks), respected. 5-book series: Books 5/4/3/2 complete, Book 1 in progress."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "04:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, quota gear — skipped translation work, checked in cleanly. Backlog resumes when budget recovers."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "04:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61334 docs — +61334 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-12",
@@ -6342,6 +6342,14 @@
       "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
+      "date": "2026-09-12",
+      "kind": "paradigm",
+      "title": "Paradigm Signal Report: Mainstream Validation Has Arrived",
+      "excerpt": "The Connector's eleventh Paradigm Signal Report — engaging Drunvalo's Omega-ORANUR convergence (destructive information fields across French radiesthesia, Germa",
+      "rarity": "pattern signal",
+      "href": "./synthesis.html#2026-09-12-mainstream-validation-has-arrived"
+    },
+    {
       "date": "2026-09-11",
       "kind": "translation",
       "title": "Wilhelm Reich Ether Physics Orgone Experiments",
@@ -6366,14 +6374,6 @@
       "excerpt": "The Connector's tenth Paradigm Signal Report — engaging Drunvalo's pushing-gravity convergence (Magnitsky ether compression, Reich orgonomy, torsion physics) an",
       "rarity": "pattern signal",
       "href": "./synthesis.html#2026-09-11-corpus-can-now-specify-the-experiment"
-    },
-    {
-      "date": "2026-09-10",
-      "kind": "paradigm",
-      "title": "Paradigm Signal Report: The Yamauchi Result Is Evidence — The Syntheses Are Not",
-      "excerpt": "The Connector's ninth Paradigm Signal Report — engaging with Drunvalo's three new syntheses (scalar wave convergence, torsion-vortex convergence, water-consciou",
-      "rarity": "pattern signal",
-      "href": "./synthesis.html#2026-09-10-yamauchi-is-evidence-syntheses-are-not"
     }
   ],
   "atsuyskovsky_books": [
