@@ -59,8 +59,8 @@ def main():
     concepts = load_concepts()
     matchers, _ = build_matchers(concepts)
 
-    with open(INDEX_PATH, encoding="utf-8") as f:
-        docs = json.load(f)
+    import index_io
+    docs = index_io.load()
 
     hits = {}
     for cid in {m[0] for m in matchers}:
@@ -80,11 +80,8 @@ def main():
             doc["concepts"] = []
 
     if not report_only:
-        with open(INDEX_PATH, "w", encoding="utf-8") as f:
-            # compact JSON: index.json must stay under GitHub's 100MB hard limit
-            # (pretty-printing adds ~8%; see reference/history/2026-09-09-padrak-100mb-limit.md)
-            json.dump(docs, f, ensure_ascii=False, separators=(",", ":"))
-        print(f"index.json updated in place: {len(docs)} docs")
+        n = index_io.save(docs)
+        print(f"master index updated in place: {len(docs)} docs ({n} shards)")
 
     tagged = sum(1 for d in docs if d.get("concepts"))
     print(f"{tagged}/{len(docs)} docs now carry >=1 concept tag ({tagged/len(docs):.0%})")

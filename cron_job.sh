@@ -76,7 +76,7 @@ OUT=$(timeout 280 python3 run_queue.py 2>&1)
 echo "$OUT" | tail -25
 
 # Extract progress summary for the ledger
-ENTRIES=$(python3 -c "import json;d=json.load(open('index.json'));print(len(d))" 2>/dev/null || echo "?")
+ENTRIES=$(python3 -c "import index_io;print(index_io.count())" 2>/dev/null || echo "?")
 SUMMARY=$(echo "$OUT" | grep -E "Processing|Total entries|Progress|New:|Existing:" | tail -4 | tr '\n' ' ' | cut -c1-280)
 
 echo "[3a/5] Merge processed progress into index.json (timeout-safe)"

@@ -1,8 +1,6 @@
 ---
-name: "Analysis of Tesla's Patent Schematics on Radiant Energy"
-description: "Peter A. Lindemann analysis of Tesla radiant energy patents — from 'The Free Energy Secrets of Cold Electricity' (2000). French translation from chercheursduvrai.com. Tesla tradition."
-language: en
-source_language: fr
+name: "2026-09-11-analyse-brevets-tesla-energie-radiante-fr"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Chercheurs Du Vrai

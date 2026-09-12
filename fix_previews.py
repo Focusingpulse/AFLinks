@@ -116,8 +116,8 @@ def main():
     ap.add_argument("--commit-every", type=int, default=20)
     args = ap.parse_args()
 
-    with open(INDEX, encoding="utf-8") as f:
-        data = json.load(f)
+    import index_io
+    data = index_io.load()
 
     targets = []
     for e in data:
@@ -145,13 +145,11 @@ def main():
             stats[status] = stats.get(status, 0) + 1
             done += 1
             if done % args.commit_every == 0:
-                with open(INDEX, "w", encoding="utf-8") as f:
-                    json.dump(data, f, ensure_ascii=False)
+                index_io.save(data)
                 print(f"  [{done}/{len(targets)}] saved checkpoint | "
                       f"ok={stats['ok']} unreachable={stats['unreachable']} no_text={stats['no_text']} | "
                       f"{time.time()-t0:.0f}s", flush=True)
-    with open(INDEX, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False)
+    index_io.save(data)
     print(f"DONE in {time.time()-t0:.0f}s: {stats}", flush=True)
 
 

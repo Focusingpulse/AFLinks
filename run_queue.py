@@ -124,10 +124,9 @@ def main():
         
         result = subprocess.run([sys.executable, script], capture_output=False)
         
-        # After processing, do incremental merge
+        # After processing, do incremental merge (generic path — index_shards via index_io)
         print("\n--- Incremental merge ---")
-        merge_script = os.path.join(SCRIPT_DIR, "merge_incremental.py")
-        subprocess.run([sys.executable, merge_script], capture_output=False)
+        merge_generic(SCRIPT_DIR, name)
         return
     
     # Action 2: Crawl a new site
@@ -176,39 +175,45 @@ def main():
         print("\nNo actionable site found in this run. Will check again next cycle.")
 
 def merge_generic(script_dir, site_name):
-    """Merge entries from a generic site's progress file into index.json."""
+    """Merge entries from a generic site's progress file into the master index
+    (index_shards/ via index_io — the old index.json monolith is retired;
+    it sat ~1 MiB under GitHub's 100 MiB hard push limit)."""
     safe = site_name.replace('.', '_').replace('/', '_')
     progress_path = os.path.join(script_dir, f"{safe}_progress.json")
-    index_path = os.path.join(script_dir, "index.json")
-    
+
     if not os.path.exists(progress_path):
         print(f"  No progress file for {site_name}")
         return
-    
-    with open(index_path, 'r', encoding='utf-8') as f:
-        existing = json.load(f)
-    
+
+    import index_io
+    existing = index_io.load()
     existing_urls = set(e.get('source_url', '') for e in existing)
-    
+
     with open(progress_path, 'r') as f:
         progress = json.load(f)
-    
+
+    max_id = 0
+    for e in existing:
+        i = e.get('id') or 0
+        if isinstance(i, int) and i > max_id:
+            max_id = i
+
     new_entries = progress.get("entries", [])
     added = 0
     for entry in new_entries:
         url = entry.get('source_url', '')
         if url and url not in existing_urls:
-            entry['id'] = max(e['id'] for e in existing) + 1 + added
+            max_id += 1
+            entry['id'] = max_id
             existing.append(entry)
             existing_urls.add(url)
             added += 1
-    
+
     print(f"  Existing: {len(existing) - added}, New: {added}, Total: {len(existing)}")
-    
+
     if added > 0:
-        with open(index_path, 'w', encoding='utf-8') as f:
-            json.dump(existing, f, ensure_ascii=False, indent=2)
-        print(f"  Saved updated index.json")
+        n = index_io.save(existing)
+        print(f"  Saved master index ({n} shards)")
     else:
         print(f"  No new entries to merge")
 

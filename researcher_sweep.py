@@ -15,7 +15,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 
 def main():
     min_docs = int(sys.argv[1]) if len(sys.argv) > 1 else 2
-    idx = json.load(open(os.path.join(ROOT, "index.json")))
+    import index_io
+    idx = index_io.load()
     res_path = os.path.join(LL, "database/entities/researcher-index.json")
     res = json.load(open(res_path))
     cur = res.get("researchers", {})

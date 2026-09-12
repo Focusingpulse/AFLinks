@@ -1,30 +1,37 @@
 #!/usr/bin/env python3
 """
-merge_all_progress.py — merge every site's processed entries into index.json.
+merge_all_progress.py — merge every site's processed entries into the master index.
 
 Standalone, idempotent, safe to run on every cron cycle. Unlike run_queue.py
 (which merges inline AFTER processing a batch, inside the 280s timeout), this
 script merges whatever progress already exists on disk — so even when a crawl
-batch times out mid-processing, the entries it saved still land in index.json.
+batch times out mid-processing, the entries it saved still land in the index.
+
+2026-09-12: the master index moved from monolithic index.json (95.89 MiB,
+~1 MiB under GitHub's 100 MiB hard push limit) to index_shards/ via index_io.
+Browsers never fetch the master index, so the split has zero front-end impact.
 
 Usage:
     python3 merge_all_progress.py          # merge all *_progress.json found
     python3 merge_all_progress.py --dry    # report only, write nothing
 """
-import json, os, sys, glob
+import glob
+import json
+import os
+import sys
+
+import index_io
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-INDEX_PATH = os.path.join(SCRIPT_DIR, "index.json")
 DRY = "--dry" in sys.argv
 
-with open(INDEX_PATH, "r", encoding="utf-8") as f:
-    existing = json.load(f)
-
-existing_urls = set()
+existing = index_io.load()
+existing_urls = {e.get("source_url", "") for e in existing if e.get("source_url")}
+max_id = 0
 for e in existing:
-    u = e.get("source_url", "")
-    if u:
-        existing_urls.add(u)
+    i = e.get("id") or 0
+    if isinstance(i, int) and i > max_id:
+        max_id = i
 
 progress_files = sorted(glob.glob(os.path.join(SCRIPT_DIR, "*_progress.json")))
 added_total = 0
@@ -46,7 +53,8 @@ for pf in progress_files:
     for entry in entries:
         url = entry.get("source_url", "")
         if url and url not in existing_urls:
-            entry["id"] = max(e["id"] for e in existing) + 1 + added_total
+            max_id += 1
+            entry["id"] = max_id
             existing.append(entry)
             existing_urls.add(url)
             added += 1
@@ -61,12 +69,7 @@ if DRY:
     sys.exit(0)
 
 if added_total > 0:
-    # COMPACT: index.json crossed 100MB (GitHub's hard limit) at ~53.5k docs.
-    # Pretty-printing was ~8% of file size. Site never fetches index.json at
-    # runtime (it uses search_index.json / search_chunks / full_* shards),
-    # so compact JSON is safe and keeps the master index pushable.
-    with open(INDEX_PATH, "w", encoding="utf-8") as f:
-        json.dump(existing, f, ensure_ascii=False, separators=(",", ":"))
-    print(f"Saved updated index.json ({len(existing)} entries)")
+    n = index_io.save(existing)
+    print(f"Saved {n} shards ({len(existing)} entries)")
 else:
     print("No new entries to merge — index already up to date")

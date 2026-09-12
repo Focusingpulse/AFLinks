@@ -91,9 +91,9 @@ def process_entry(args):
     return (idx, text)
 
 def main():
-    print("Loading index.json...", flush=True)
-    with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    print("Loading master index...", flush=True)
+    import index_io
+    data = index_io.load()
     
     # Find PDFs without content previews
     to_process = []
@@ -139,12 +139,8 @@ def main():
                 if done - last_save >= 5:
                     last_save = done
                     with write_lock:
-                        tmp_file = OUTPUT_FILE + '.tmp'
-                        with open(tmp_file, 'w', encoding='utf-8') as f:
-                            json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
-                            f.flush()
-                            os.fsync(f.fileno())
-                        os.rename(tmp_file, OUTPUT_FILE)
+                        import index_io
+                        index_io.save(data)
                         print(f"  [saved at {done}]", flush=True)
     
     elapsed = time.time() - start_time
@@ -153,13 +149,9 @@ def main():
     print(f"  Failed: {failed}", flush=True)
     
     # Final save
-    print("Saving index.json...", flush=True)
-    tmp_file = OUTPUT_FILE + '.tmp'
-    with open(tmp_file, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
-        f.flush()
-        os.fsync(f.fileno())
-    os.rename(tmp_file, OUTPUT_FILE)
+    print("Saving master index...", flush=True)
+    import index_io
+    index_io.save(data)
     
     with_preview = sum(1 for e in data if len(e.get('content_preview', '')) >= 20)
     print(f"\nFinal: {with_preview}/{len(data)} ({with_preview/len(data)*100:.1f}%) have content previews", flush=True)

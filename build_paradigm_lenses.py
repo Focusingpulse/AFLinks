@@ -40,7 +40,8 @@ def match_aliases(aliases, text_norm):
 def main():
     concepts = {c["id"]: c for c in load_json(os.path.join(HEREPATH, "taxonomy", "concepts.json"))["concepts"]}
     paradigm_ids = [cid for cid in concepts if cid.startswith("p_")]
-    idx = load_json(os.path.join(HEREPATH, "index.json"))
+    import index_io
+    idx = index_io.load()
     catalog = load_json(os.path.join(HEREPATH, "af_catalog.json")) if os.path.exists(os.path.join(HEREPATH, "af_catalog.json")) else []
     feed = load_json(os.path.join(HEREPATH, "library_feed.json"))
 

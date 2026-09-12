@@ -92,9 +92,8 @@ def esc(s):
 
 
 def load_index():
-    with open(ROOT / "index.json", encoding="utf-8") as f:
-        idx = json.load(f)
-    return idx if isinstance(idx, list) else idx.get("entries", [])
+    import index_io
+    return index_io.load()
 
 
 def doc_url(doc_id):

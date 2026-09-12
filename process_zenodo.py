@@ -164,11 +164,11 @@ def main():
     # current index.json AND DOIs this progress file has already ingested.
     skip = set()
     try:
-        with open(os.path.join(SCRIPT_DIR, "index.json"), "r", encoding="utf-8") as f:
-            for e in json.load(f):
-                u = e.get("source_url", "")
-                if u.startswith("https://doi.org/"):
-                    skip.add(u.split("doi.org/")[-1].lower())
+        import index_io
+        for e in index_io.iter_docs():
+            u = e.get("source_url", "")
+            if u.startswith("https://doi.org/"):
+                skip.add(u.split("doi.org/")[-1].lower())
     except Exception:
         pass
     for e in progress.get("entries", []):

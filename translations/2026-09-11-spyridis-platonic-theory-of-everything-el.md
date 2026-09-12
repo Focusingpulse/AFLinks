@@ -1,8 +1,6 @@
 ---
-name: "The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction"
-description: "Spyridis ToE — Platonic solids as basis for unified physics. Electro-strong interaction unification. Alternative to standard model. Greek physics tradition."
-language: en
-source_language: el
+name: "2026-09-11-spyridis-platonic-theory-of-everything-el"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 The Platonic Theory of Everything and

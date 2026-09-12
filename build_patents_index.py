@@ -39,13 +39,12 @@ def find_living_library():
 
 def main():
     # Load index.json
-    index_path = os.path.join(AFLINKS, "index.json")
-    if not os.path.isfile(index_path):
-        print("ERROR: index.json not found at", index_path)
+    import index_io
+    try:
+        data = index_io.load()
+    except FileNotFoundError:
+        print("ERROR: master index not found")
         return
-
-    with open(index_path, encoding="utf-8") as f:
-        data = json.load(f)
 
     print(f"Loaded {len(data)} documents from index.json")
 

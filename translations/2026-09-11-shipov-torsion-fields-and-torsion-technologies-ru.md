@@ -1,8 +1,6 @@
 ---
-name: "Torsion Fields and Torsion Technologies"
-description: "G.I. Shipov — Torsion field theory and applications. Russian physics tradition. From shipov.com / shipov-vacuum.com. Companion to Akimov-Shipov monograph."
-language: en
-source_language: ru
+name: "2026-09-11-shipov-torsion-fields-and-torsion-technologies-ru"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 TORSION FIELDS AND TORSION TECHNOLOGIES.1

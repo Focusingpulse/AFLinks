@@ -16,7 +16,7 @@ import threading
 
 import pymupdf  # use pymupdf directly, not fitz
 
-INPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.json')
+INPUT_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'index.json')  # legacy; load via index_io
 OUTPUT_FILE = INPUT_FILE
 
 socket.setdefaulttimeout(30)
@@ -98,9 +98,9 @@ def process_entry(args):
 def main():
     global data
     
-    print("Loading index.json...", flush=True)
-    with open(INPUT_FILE, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    print("Loading master index...", flush=True)
+    import index_io
+    data = index_io.load()
     
     # Find entries to process
     to_process = []
@@ -154,8 +154,8 @@ def main():
                 if done - last_save >= 200:
                     last_save = done
                     with write_lock:
-                        with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-                            json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+                        import index_io
+                        index_io.save(data)
                         print(f"  [saved at {done}]", flush=True)
     
     elapsed = time.time() - start_time
@@ -165,9 +165,9 @@ def main():
     print(f"  Skipped (images/media): {skipped}", flush=True)
     
     # Final save
-    print("Saving index.json...", flush=True)
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, separators=(',', ':'))
+    print("Saving master index...", flush=True)
+    import index_io
+    index_io.save(data)
     
     with_preview = sum(1 for e in data if len(e.get('content_preview', '')) >= 20)
     print(f"\nFinal: {with_preview}/{len(data)} ({with_preview/len(data)*100:.1f}%) have content previews", flush=True)

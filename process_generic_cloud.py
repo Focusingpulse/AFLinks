@@ -298,10 +298,8 @@ def main():
         return
     
     # Load existing index for next ID
-    index_path = os.path.join(SCRIPT_DIR, "index.json")
-    with open(index_path, 'r', encoding='utf-8') as f:
-        existing = json.load(f)
-    next_id = max(e['id'] for e in existing) + 1 + len(entries)
+    import index_io
+    next_id = index_io.next_id() + len(entries)
     
     processed = 0
     for i in range(start_idx, len(filelist)):

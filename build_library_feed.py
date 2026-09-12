@@ -392,24 +392,22 @@ def main():
     researcher_count_cataloged = len(researchers_by_name)
 
     # Archive-scale researcher count: distinct named authors (primary_person)
-    # in the current index.json. This is the number the site's stats band shows
-    # ("Researchers"): an honest, derived figure that tracks the whole archive,
-    # where the cataloged table is the curated subset.
+    # in the master index (index_shards/ via index_io). This is the number the
+    # site's stats band shows ("Researchers"): an honest, derived figure that
+    # tracks the whole archive, where the cataloged table is the curated subset.
     researcher_count = researcher_count_cataloged
-    idx_path = os.path.join(AFLINKS, "index.json")
-    if os.path.isfile(idx_path):
-        try:
-            with open(idx_path, encoding="utf-8") as f:
-                idx = json.load(f)
-            seen = set()
-            for e in idx:
-                p = (e.get("primary_person") or "").strip()
-                if p and not re.match(r"^[\d\s]+$", p):
-                    seen.add(p)
-            if seen:
-                researcher_count = len(seen)
-        except Exception as exc:
-            print(f"WARN: could not scan index.json for distinct authors: {exc}")
+    try:
+        import index_io
+        idx = index_io.load()
+        seen = set()
+        for e in idx:
+            p = (e.get("primary_person") or "").strip()
+            if p and not re.match(r"^[\d\s]+$", p):
+                seen.add(p)
+        if seen:
+            researcher_count = len(seen)
+    except Exception as exc:
+        print(f"WARN: could not scan master index for distinct authors: {exc}")
     # Prefer the archive count, but never regress below the cataloged table.
     researcher_count = max(researcher_count, researcher_count_cataloged)
 

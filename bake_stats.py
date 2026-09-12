@@ -44,7 +44,8 @@ def load_json(name: str):
 
 
 def main() -> int:
-    index = load_json("index.json")
+    import index_io
+    index = index_io.load()
     feed = load_json("library_feed.json")
 
     docs = len(index)

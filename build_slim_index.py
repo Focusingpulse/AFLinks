@@ -52,8 +52,12 @@ def main():
     ap.add_argument("--outdir", default=".")
     args = ap.parse_args()
 
-    with open(args.input, encoding="utf-8") as f:
-        docs = json.load(f)
+    if args.input == "index.json":
+        import index_io
+        docs = index_io.load()
+    else:
+        with open(args.input, encoding="utf-8") as f:
+            docs = json.load(f)
 
     slim = []
     for d in docs:

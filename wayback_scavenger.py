@@ -164,20 +164,21 @@ def main():
     if not new:
         return
     # merge into index.json (dedupe by source_url)
-    with open(INDEX, encoding="utf-8") as f:
-        idx = json.load(f)
+    import index_io
+    idx = index_io.load()
     existing = {e.get("source_url") for e in idx if e.get("source_url")}
     added = 0
+    next_id = index_io.next_id()
     for e in new:
         if e["source_url"] in existing:
             continue
-        e["id"] = max((x.get("id", 0) for x in idx), default=0) + 1
+        e["id"] = next_id
+        next_id += 1
         idx.append(e)
         existing.add(e["source_url"])
         added += 1
-    with open(INDEX, "w", encoding="utf-8") as f:
-        json.dump(idx, f, ensure_ascii=False)
-    print(f"merged {added} new entries -> index.json ({len(idx)} total)")
+    index_io.save(idx)
+    print(f"merged {added} new entries -> master index ({len(idx)} total)")
 
 
 if __name__ == "__main__":
