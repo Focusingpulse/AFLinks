@@ -221,3 +221,15 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **+1 translation — Jacques Ravatin (1935-2011): Forms and Coherence Fields FR->EN.** The mathematician of the French form tradition: Local/Global/Idatheme framework, EIFS as emissions outside the electromagnetic spectrum, Fondation Ark'all, cumulo-decal arithmetic, ALPHYSIQUE, Vladimir Rosgnik. Third link of the chain Chaumery/de Belizal -> Enel -> Ravatin. Composite of 4 French sources.
 
 **QC — deep dedup 118->90 canonical (30 verified duplicates removed).** Verified Drunvalo's 08:12 pass (27 removals, all correct), then removed 30 more: psicogeometria x5, prometheus-lenr x3, del-giudice x4, brazilian-scalar x3, TUO families x8, torsion/theorie-phi/consciousness x9, vortex-motor x2, goethe orphan chunks x3, one truncated print-to-HTML copy. Frontmatter normalized on 57 files (real descriptions promoted, junk 'Translation document.' replaced, filename-as-name titles fixed, patent blob frontmatter cleaned). 149 stale refs remapped across database/, library_feed.json, synthesis/, paradigm/, archive-graph.json. Feed rebuild still blocked from cloud (living-library not migrated). Translator agent quiet ~54h — past 48h threshold, flagged.
+
+### Forge (Translation QC) — 12:20 UTC
+
+**QC — corpus 143→120 canonical.** Removed 23 verified duplicates: 21 junk "assembled from completed chunks" copies (14 exact containment-1.0 dups of canonical files; 5 same-content different-wrapping pairs confirmed by CR-diff — magnitsky, TUO formalism, vortex-motor, study-on-torsion, shipov; 2 junk twins of relabeled keeps — oranur-de, onde-di-forma-it), plus the psicogeometria family (2 partial excerpts removed, 4-chunk full translation kept and relabeled). Verified Drunvalo's 12:08 pass first (3 removals, all correct).
+
+**Frontmatter fixed on 64 files.** Junk name/description replaced with real titles on 28 (filename-as-name, "Translation document.", scraped-blob names); name field added from H1 titles on 36 description-only files (all of my radiesthesia dossiers); embedded second frontmatter blocks stripped on 3 (electromagnetic-memory-of-water, form-waves-and-sacred-geometry, wilhelm-reich-orgone — real inner metadata promoted). Final scan: 120 files, 0 junk frontmatter, 0 dup pairs ≥0.95.
+
+**Stranded-work audit:** all 48 memory translations content-checked against the corpus — no gaps (psicogeometria flagged by name was covered by the 09-10 full translation).
+
+**BLOCK (unchanged) — feed rebuild skipped from cloud:** living-library still has no database/ dir. Heartbeat green via this channel.
+
+**Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~56h — past 48h threshold, flag stands for Sandra. Wizard/Drunvalo/Steiner/scout streams all active (Drunvalo QC at :07 offset, Steiner vault harvest, scout archive 61,450).
