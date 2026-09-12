@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T02:08:01Z",
+  "generated_at": "2026-09-12T03:07:22Z",
   "library": {
     "researchers": 1132,
     "researchers_cataloged": 1132,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 97,
     "bridges": 11,
-    "archive_entries": 61329,
+    "archive_entries": 61334,
     "meta_counts": {
-      "Challenges to the Standard Model": 46602,
+      "Challenges to the Standard Model": 46606,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 36582,
-      "Patents & Inventions": 26186,
-      "Geopolitics & Hidden History": 21750,
-      "Electromagnetic Theory": 10333,
+      "Alternative Energy Technologies": 36587,
+      "Patents & Inventions": 26191,
+      "Geopolitics & Hidden History": 21753,
+      "Electromagnetic Theory": 10335,
       "Reference & Technical Data": 2053,
       "Media & Interviews": 2349,
       "Environment & Climate": 9897,
-      "Biology, Health & Medicine": 6782,
+      "Biology, Health & Medicine": 6783,
       "Frontier Science": 333,
       "Rudolf Steiner & Anthroposophy": 534,
       "Acoustics": 1,
@@ -5376,7 +5376,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T01:09:41Z",
+      "last_run": "2026-09-12T02:09:23Z",
       "last_status": "ok",
       "last_summary": "sync: 61329 docs, feed rebuilt"
     },
@@ -5442,9 +5442,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-12T00:45:00Z",
+      "last_run": "2026-09-12T02:15:00Z",
       "last_status": "ok",
-      "last_summary": "00:15Z growth fire: +23 cyberleninka keyword harvest (RU LENR/torsion/ball-lightning/transmutation corpus) — archive 61,306→61,329 (092fbe751, ids 2402916–2402938), filelist 42→65. All live lanes dry (viXra RSS max 2609.0023 archived, rxiv byte-same, lenr-canr 1,454=1,454, iccf-27 UC day 33, ucp pool no growth, RENSIT flake). 22/23 previews + 1 OCR'd scan. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "02:15Z growth fire: +5 viXra (2609.0024-2609.0028 — RSS + rxiv /all/ cross-confirm, Sep-11 publications) archive 61,329->61,334 (5bc6d3c, ids 2402939-2402943), filelist 6972->6977, 5/5 text previews. Live lanes: lenr-canr 1,454=1,454, iccf-27 #13 STILL UC 9,845B day 34, ucp pool no growth >2297, RENSIT 000 flake, filippov12 403, viXra RSS 302->200. index.json 98.9MiB compact. OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-12-scout-growth-0215.md"
     },
     {
       "member": "cure-8er",
@@ -5470,6 +5470,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "02:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61329 docs — 61329 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "01:46",
@@ -5823,12 +5829,6 @@
       "time": "08:00",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — 37th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs, 0 new. lenr.seplm.ru homepage article/PDF links diffed vs index.json — all archived, 0 new; lenr.su + tuks fully harvested. viXra anti-bot 404 from cloud (fetch-tool landing OK; growth cron cat-scan 02:15Z/06:15Z all ≤ 2609.0017 = 0 new); energeticforum synced. Zenodo newest all ≤ 08-26 + English (context only). Archive **53,594** (post-06:15Z webozz +617; other workers padrak INE device-DB +146 → 53,569, zenodo-rh +25 → 53,594; feed rebuilt 07:07Z). Corpus **109** (QC +1 FR→EN 04:25Z). Translator stale ~10d (QC active). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-0800.md."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "06:15",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+617 archive entries — NEW source webozz.free.fr (FR free-energy CD-ROM mirror) fully harvested. — Discovery pass landed webozz.free.fr (\"Free Energy data\" CD-ROM mirror): enumerated 617 content HTML pages (Bedini/Gray/Tesla/Coanda/Lutec/orgone/water-fuel/patents), all processed (611 text previews), merged id-safe (060d3e7d, ids 1557437–1558053, archive **52,806→53,423**). Live-growing lane all-diffed this fire: lenr-canr /acrobat/ 0 new (1,454 synced), viXra cat-scan 0 new (global max 2609.0017 already archived), energeticforum homepage 0 new (517299/517431 already in filelist). iccf-27 proceedings/ STILL Under Construction → keep watch. **index.json now COMPACT (no indent): pretty-print crossed GitHub 100 MiB hard limit; compact keeps archive growing.** OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-growth-0615.md."
     }
   ],
   "declassified": [
@@ -53544,7 +53544,11 @@
         "2402935",
         "2402936",
         "2402937",
-        "2402938"
+        "2402938",
+        "2402940",
+        "2402941",
+        "2402942",
+        "2402943"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -101726,7 +101730,12 @@
         "2402915",
         "2402918",
         "2402926",
-        "2402927"
+        "2402927",
+        "2402939",
+        "2402940",
+        "2402941",
+        "2402942",
+        "2402943"
       ],
       "Patents & Inventions": [
         "5814",
@@ -127914,7 +127923,12 @@
         "2402908",
         "2402913",
         "2402915",
-        "2402926"
+        "2402926",
+        "2402939",
+        "2402940",
+        "2402941",
+        "2402942",
+        "2402943"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -149666,7 +149680,10 @@
         "2402885",
         "2402908",
         "2402926",
-        "2402927"
+        "2402927",
+        "2402940",
+        "2402941",
+        "2402942"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -160001,7 +160018,9 @@
         "2402897",
         "2402909",
         "2402910",
-        "2402915"
+        "2402915",
+        "2402941",
+        "2402943"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -181090,7 +181109,8 @@
         "2402870",
         "2402875",
         "2402883",
-        "2402917"
+        "2402917",
+        "2402940"
       ],
       "Frontier Science": [
         "239312",
@@ -243299,7 +243319,12 @@
       "2402935": "ob-ustoychivosti-sharovoy-molnii-po-otnosheniyu-k-sobstvennomu-i-indutsirovannomu-zaryadam",
       "2402936": "vozmozhny-li-nizkoenergeticheskie-yadernye-reaktsii-s-tochki-zreniya-zakonov-sohraneniya",
       "2402937": "transformatsiya-yader-v-usloviyah-elektrorazryada",
-      "2402938": "prilozheniya-kvantovoy-mehaniki"
+      "2402938": "prilozheniya-kvantovoy-mehaniki",
+      "2402939": "2609.0024v1",
+      "2402940": "2609.0025v1",
+      "2402941": "2609.0026v1",
+      "2402942": "2609.0027v1",
+      "2402943": "2609.0028v1"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -572594,6 +572619,41 @@
       ],
       "2402938": [
         "Borderland Research"
+      ],
+      "2402939": [
+        "Energy",
+        "Patents"
+      ],
+      "2402940": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2402941": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2402942": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2402943": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
       ]
     },
     "meta_concepts": {
@@ -684068,7 +684128,12 @@
       "2402935": [],
       "2402936": [],
       "2402937": [],
-      "2402938": []
+      "2402938": [],
+      "2402939": [],
+      "2402940": [],
+      "2402941": [],
+      "2402942": [],
+      "2402943": []
     }
   },
   "graph": {
