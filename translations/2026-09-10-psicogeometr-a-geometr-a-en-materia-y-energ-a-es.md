@@ -1,6 +1,6 @@
 ---
-name: Psicogeometría: Geometría en Materia y Energía
-description: "Full-document translation. language es | 4 chunks | https://psicogeometria.com/geometriasagrada4.1.html"
+name: "Psicogeometría: Geometría en Materia y Energía (Article 4.1)"
+description: "English translation of Arturo Ponce de León (with Ninón Fregoso), Psicogeometría Article 4.1, Geometric Qualities of Matter and Energy (psicogeometria.com) — phi/pi/Euler, sacred geometry as energy-to-matter code. Full 4-chunk translation."
 ---
 
 # Psicogeometría: Geometría en Materia y Energía
