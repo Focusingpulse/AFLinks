@@ -1,6 +1,8 @@
 ---
-name: "2026-09-11-acqua-viva-viktor-schauberger-it"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Acqua Viva - Viktor Schauberger (Parts 1 & 2)"
+description: "Italian translation of 'Living Water' (Part 1) and 'The Water Wizard' (Part 2) — Viktor Schauberger biography, water management, implosion, biosynthesis, wartime experiences. Schauberger tradition, IT language."
+language: en
+source_language: it
 ---
 
 Catalogue

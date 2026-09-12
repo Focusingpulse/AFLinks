@@ -1,6 +1,8 @@
 ---
-name: "2026-09-11-theorie-de-l-univers-onde-tuo-fr"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Théorie de l'Univers Onde (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology"
+description: "TUO theory (2025) — electromagnetic vacuum origin, covariant gravitation, cosmology reformulation. Zenodo French original. French physics tradition."
+language: en
+source_language: fr
 ---
 
 Skip to main

@@ -1,6 +1,8 @@
 ---
-name: "2026-09-11-psicogeometria-geometria-en-materia-y-energia-es"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Geometric Qualities of Matter and Energy"
+description: "Arturo Ponce de León — Sacred Geometry / Sustainable Geometry: energy→matter via geometric matrices, phi/pi/euler constants, zero point, implosion. Psicogeometría México. Spanish tradition."
+language: en
+source_language: es
 ---
 
 Sacred Geometry
