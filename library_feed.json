@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T06:08:00Z",
+  "generated_at": "2026-09-12T06:22:57Z",
   "library": {
     "researchers": 1132,
     "researchers_cataloged": 1132,
@@ -5382,9 +5382,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T05:15:39Z",
+      "last_run": "2026-09-12T06:15:42Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget (family low, gear=quota) | backlog 431 wait"
+      "last_summary": "+0 chunks since last run (still 0) | budget low, quota gear — skipped per run-gate | backlog awaiting next window (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5404,9 +5404,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T05:09:02Z",
+      "last_run": "2026-09-12T06:10:07Z",
       "last_status": "ok",
-      "last_summary": "sync: 61349 docs, feed rebuilt, 55 translation files synced to site; scrape skipped (quota gear, queue sites failed/down)"
+      "last_summary": "sync: 61349 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5498,6 +5498,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "06:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gear=quota — run-gate blocked non-essential translation work. Checked in to keep the ledger fresh; will resume chunk work when budget recovers."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "06:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61349 docs — +61349 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "06:01",
@@ -5809,18 +5821,6 @@
       "time": "14:00",
       "agent": "Practicality Engine",
       "summary": "+1 quest card — Egg-Shaped Fermentation Vessel Test (Food Prep mirror) — Scanned food domain for applicable tech; found Schauberger's egg-form water storage claim with fermentation context. Created Dossier 010 with pH-tracking protocol for sauerkraut fermentation comparison (egg vs cylinder vessels). Card proposed: tier sand, domain food, $30-60 cost, 14-day observation. Aetherforce mirrors now 11/26. Family gate passed (budget OK). Watchdog noted: book4-translate flagged stale."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "13:45",
-      "agent": "Translation Curator",
-      "summary": "+0 runs — No-op: family budget LOW (quota gear), gate skipped translation work. Backlog holds at 429 sources, 1 job in progress, 34 archival copies intact. Resume when budget window recovers."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "13:15",
-      "agent": "Book1 Translate",
-      "summary": "+3 chunks — Book 1, progress 9/249 (4%) — Quota run (3 chunks, respected). Translated chunks 7-9: Introduction continues — GUT as formal unification goal, physics turned into a branch of mathematics, dogmatism of classical physics as the crisis's philosophical basis, Lenin's \"painful labour\" quote, ether wind \"falsification\", neutrino invented to patch the mass defect, matter identified with particular forms. Book 1 is the FINAL volume of the 5-book series."
     },
     {
       "date": "2026-09-11",
