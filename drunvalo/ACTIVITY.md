@@ -1,5 +1,53 @@
 # Drunvalo Activity Log
 
+## 2026-09-12 08:00 UTC — AetherForce Translation QC
+
+### Task
+Scheduled cron: QC recent AFLinks translations, fix issues, update DB (every 4h)
+
+### Actions
+1. Cloned AFLinks repo from GitHub (shallow clone, 41k files)
+2. Listed 5 most recent translations from translations/
+3. Checked each file for:
+   - Markdown well-formedness (headers, paragraphs, frontmatter)
+   - Source URL validity (verified with HTTP HEAD)
+   - Language tag correctness
+   - Untranslated passages, broken sentences, encoding issues
+   - Duplicate translations
+   - Title accuracy
+4. Fixed duplicate frontmatter in Reich file (merged two `---` blocks)
+5. Removed 27 duplicate translation files (pipeline re-emitting with degraded frontmatter)
+6. All researchers already in database (Enel, de Belizal, Reich, Schauberger, Nasselstein)
+7. tag_concepts.py timed out (skipped)
+8. Committed fixes and pushed to origin/main
+9. Ran report.py and pushed report
+
+### Files Checked
+- 2026-09-12-enel-omega-radiations-formes-fr-en.md ✓
+- 2026-09-12-andre-de-belizal-radiesthesie-fr-en.md ✓
+- 2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de.md (fixed frontmatter)
+- 2026-09-11-vortex-motor-negentropic-propulsion-es.md ✓
+- 2026-09-11-viktor-schauberger-and-the-water-vortexer-de.md ✓
+
+### Issues Found & Fixed
+- Frontmatter: Reich file had duplicate `---` blocks, merged into one
+- Duplicates: 27 files removed (same content, different date prefixes, degraded frontmatter)
+
+### Commits
+- `d5e8aaf8` - Translation-QC: fixed Reich frontmatter, removed 27 duplicate files
+- `86b91765` - report-Drunvalo-translation-qc
+
+### Report
+- Status: OK
+- Translations checked: 5
+- Issues fixed: 1 frontmatter, 27 duplicates removed
+- Files remaining: 118 (down from ~145)
+
+### Root Cause Note
+Translation pipeline lacks content-hash/source-URL check before write. Re-emits existing translations under new date prefixes. Should add hash-based deduplication at pipeline level.
+
+---
+
 ## 2026-09-10 16:00 UTC — AetherForce Translation QC
 
 ### Task
