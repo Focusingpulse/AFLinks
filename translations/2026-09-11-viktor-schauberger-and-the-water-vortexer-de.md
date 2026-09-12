@@ -1,7 +1,8 @@
 ---
-name: "Orpanit - Energie der neuen Zeit [site title]"
+name: "2026-09-11-viktor-schauberger-and-the-water-vortexer-de"
 description: "Full-document translation (assembled from completed chunks)."
 ---
+
 Orpanit - Energie der neuen Zeit [site title]
 
 Viktor Schauberger and the Water Vortexer

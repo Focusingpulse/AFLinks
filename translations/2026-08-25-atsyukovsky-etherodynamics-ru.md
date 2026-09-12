@@ -1,7 +1,8 @@
 ---
 name: Translation: Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5
-description: "Translation of 'Translation: Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5' into ? (Aetherforce library)."
+description: "Translation document."
 ---
+
 # Translation: Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5
 
 **Date:** 2026-08-25

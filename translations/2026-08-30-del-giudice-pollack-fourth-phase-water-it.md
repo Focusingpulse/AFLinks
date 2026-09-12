@@ -1,6 +1,6 @@
 ---
 name: Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water
-description: "English translation of Emilio Del Giudice's account of Gerald Pollack's discovery of the fourth phase of water (exclusion zone) — the source of the electrons that power living chemistry. From A.CS.I. (Associazione CranioSacrale Italia), translated from Italian. Aetherforce library."
+description: "Translation document. language it | domain: water-physics, biophysics, quantum-coherence | https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/"
 ---
 
 - **date:** 2026-08-30

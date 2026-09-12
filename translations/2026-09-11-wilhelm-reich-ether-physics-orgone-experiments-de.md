@@ -1,7 +1,13 @@
 ---
-name: "ORANUR-PHYSIK"
-description: "Full-document translation of 'Oranur-Physik: Wilhelm Reich, Physicist — An Introduction to Orgone Biophysics' by Peter Nasselstein (2025). Source: https://orgonomie.net/hdowrphysik.pdf. Language: German."
+name: "2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de"
+description: "Full-document translation (assembled from completed chunks)."
 ---
+
+---
+name: "Oranur-Physics: Wilhelm Reich, Physicist — An Introduction to Orgone Biophysics"
+description: "Translation of German title page. Source: https://orgonomie.net/hdowrphysik.pdf. Language: German. Author: Peter Nasselstein, Copyright 2025."
+---
+
 # ORANUR-PHYSIK
 
 **Wilhelm Reich, Physicist**

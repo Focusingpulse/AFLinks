@@ -1,7 +1,8 @@
 ---
 name: Form Waves: Meaning, Use, and Benefits (Vibratis)
-description: "Translation of 'Form Waves: Meaning, Use, and Benefits (Vibratis)' (Aetherforce library)."
+description: "Translation document. language fr | domain: radiesthesia | https://vibratis.fr/ondes-de-forme/"
 ---
+
 - **date:** 2026-08-29
 - **domain:** radiesthesia
 - **source_url:** https://vibratis.fr/ondes-de-forme/

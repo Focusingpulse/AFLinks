@@ -1,7 +1,8 @@
 ---
-name: "" Goethe et le transformisme français : histoire et actualité " ("Goethe and Fre"
+name: "2026-09-11-goethe-and-french-transformism-fr"
 description: "Full-document English translation of Dominique Massonnaud, Goethe et le transformisme francais: histoire et actualite (hal-02560509)."
 ---
+
 " Goethe et le transformisme français : histoire et actualité " ("Goethe and French transformism: history and current relevance")
 Dominique Massonnaud
 

@@ -1,7 +1,8 @@
 ---
 name: Water – The Blood of the Earth (Viktor Schauberger)
-description: "Translation of 'Water – The Blood of the Earth (Viktor Schauberger)' (Aetherforce library)."
+description: "Translation document."
 ---
+
 Viktor Schauberger
 
 Water – The Blood of the Earth
