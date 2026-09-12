@@ -161,6 +161,12 @@
       "task": "AetherForce synthesis cron (cloud sandbox)",
       "delta": "Created synthesis/2026-09-12-vortex-torsion-implosion-negentropic-principle.md connecting Russian torsion physics (Shipov, Magnitsky), Austrian vortex technology (Schauberger), German orgone biophysics (Reich), and French form wave theory (de Belizal). Identified negentropic vortex principle across all traditions. Updated database/research-index.json with synthesis entry. Updated database/person-index.json with Schauberger, Reich, de Belizal, Nasselstein. Proposed 2 upgrades: vortex-torsion cross-validation experiment, orgone-torsion field comparison.",
       "timestamp": "2026-09-12T00:05:00.000000+00:00"
+    },
+    {
+      "agent": "drunvalo",
+      "task": "AetherForce synthesis cron (cloud sandbox) — Omega-ORANUR Convergence",
+      "delta": "Created synthesis/2026-09-12-omega-oranur-convergence.md connecting French radiesthesia (Enel's Omega ray, Chauméry–de Bélizal V−), German orgonomy (Reich's ORANUR, DOR), and Russian torsion physics (left-rotating S_L). Identified 5 convergent claims across three independent traditions: destructive variant exists, nuclear radiation triggers it, effect extends beyond source, field carries information, technology can neutralize it. Updated database/research-index.json with new synthesis entry. Updated database/person-index.json with Enel, Reich, Eden, Chauméry. Proposed 2 upgrades: Omega-V−-ORANUR cross-validation experiment, V+-right-rotating torsion antidote test.",
+      "timestamp": "2026-09-12T06:00:00.000000+00:00"
     }
   ],
   "upgrade_bank": [
@@ -1561,6 +1567,37 @@
       "found_by": "drunvalo",
       "found_timestamp": "2026-09-12T00:00:00.000000+00:00",
       "timestamp": "2026-09-12T00:00:00.000000+00:00"
+    },
+    {
+      "id": "upgrade-091",
+      "proposed_by": "drunvalo",
+      "date": "2026-09-12",
+      "target": "Omega-V−-ORANUR Cross-Validation Experiment",
+      "rationale": "Test whether Enel's Omega ray (horizontal negative green) and Reich's ORANUR are the same phenomenon. Place a calibrated radium source in an orgone accumulator while measuring with both Universal Pendulum and torsion detectors. If V− detection correlates with ORANUR symptoms, the three traditions (French radiesthesia, German orgonomy, Russian torsion) converge on the same destructive field. Would unify independent discoveries spanning 1936–1951.",
+      "status": "proposed",
+      "priority": "HIGH",
+      "source_synthesis": "synthesis/2026-09-12-omega-oranur-convergence.md",
+      "cross_references": [
+        "translations/2026-09-12-enel-omega-radiations-formes-fr-en.md",
+        "translations/2026-09-11-oranur-experiment-wilhelm-reich-de-en.md",
+        "translations/2026-09-11-akimov-shipov-torsion-field-research-ru.md"
+      ],
+      "timestamp": "2026-09-12T06:00:00.000000+00:00"
+    },
+    {
+      "id": "upgrade-092",
+      "proposed_by": "drunvalo",
+      "date": "2026-09-12",
+      "target": "V+-Right-Rotating Torsion Antidote Test",
+      "rationale": "Test whether de Belizal's V+ (positive green) neutralizes left-rotating torsion fields. Build both a V+ emitter (spherical form-wave generator) and a torsion generator producing left-rotating S_L. Expose biological samples (seed germination, cell cultures) to S_L alone vs. S_L + V+. If V+ mitigates the harmful effects, the antidote mechanisms in French and Russian traditions are equivalent. Practical application: unified protective technology.",
+      "status": "proposed",
+      "priority": "MEDIUM",
+      "source_synthesis": "synthesis/2026-09-12-omega-oranur-convergence.md",
+      "cross_references": [
+        "translations/2026-09-11-chaumery-belizal-patent-fr816132-fr-en.md",
+        "translations/2026-09-11-study-on-torsion-fields-de.md"
+      ],
+      "timestamp": "2026-09-12T06:00:00.000000+00:00"
     }
   ]
 }
