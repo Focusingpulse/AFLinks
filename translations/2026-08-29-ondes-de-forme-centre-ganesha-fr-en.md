@@ -1,8 +1,7 @@
 ---
 name: Form Waves: Origin, Principles, and Controversies
-description: "Translation document. https://www.centreganesha.com/les-ondes-de-forme/"
+description: "Translation of 'Form Waves: Origin, Principles, and Controversies' (Aetherforce library)."
 ---
-
 - **original_title:** Les ondes de forme
 - **author:** Centre Ganesha / ChamanKa
 - **source:** https://www.centreganesha.com/les-ondes-de-forme/

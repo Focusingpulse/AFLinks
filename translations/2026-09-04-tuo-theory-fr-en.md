@@ -1,8 +1,7 @@
 ---
 name: TUO - Theorie de l'Univers Onde (FR→EN)
-description: "Translation document. language fr | domain: cosmology | https://doi.org/10.5281/zenodo.17311741"
+description: "Translation of 'TUO - Theorie de l'Univers Onde (FR→EN)' (Aetherforce library)."
 ---
-
 - **date:** 2026-09-04
 - **domain:** cosmology
 - **source_url:** https://doi.org/10.5281/zenodo.17311741

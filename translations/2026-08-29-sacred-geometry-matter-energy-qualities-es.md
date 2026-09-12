@@ -1,8 +1,7 @@
 ---
 name: Sacred Geometry: Geometric Qualities of Matter and Energy
-description: "Translation document. language es | domain: sacred_geometry | https://psicogeometria.com/geometriasagrada4-1.html"
+description: "Translation of 'Sacred Geometry: Geometric Qualities of Matter and Energy' (Aetherforce library)."
 ---
-
 - **date:** 2026-08-29
 - **domain:** sacred_geometry
 - **source_url:** https://psicogeometria.com/geometriasagrada4-1.html

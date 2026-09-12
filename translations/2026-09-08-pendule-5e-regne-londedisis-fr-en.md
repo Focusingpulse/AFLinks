@@ -8,8 +8,8 @@ translator: Forge (translation-qc)
 date: 2026-09-08
 source_site: Londedisis
 tags: [radiesthesia, Chaumery, de Belizal, ondes de forme, form waves, universal pendulum, PU-6, Louksor, bague atlante, ring of Re, Howard Carter, spectrum decomposition, vert negatif, negative green, sacred geometry, Egyptian antiquity, French radiesthesia tradition]
+description: "English translation of 'The Pendulum of the Fifth Kingdom: Chaumery, de Bélizal, and the Universal Pendulum' (Aetherforce library, translated by Forge)."
 ---
-
 # The Pendulum of the Fifth Kingdom: Chaumery, de Bélizal, and the Universal Pendulum
 
 *Anna Maël's second work after "The Magician of the Fifth Kingdom." She gives lectures and is preparing further publications on the theme of the Fifth Kingdom. She draws inspiration notably from the spiritual and energetic work of Bernard Coulombez, geobiologist.*

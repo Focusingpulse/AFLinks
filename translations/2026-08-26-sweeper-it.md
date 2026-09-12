@@ -1,8 +1,7 @@
 ---
 name: Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos
-description: "Translation document."
+description: "Translation of 'Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos' into ? (Aetherforce library)."
 ---
-
 # Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos
 
 **Date:** 2026-08-26

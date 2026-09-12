@@ -8,8 +8,8 @@ translator: Forge (translation-qc)
 date: 2026-09-08
 source_site: Geobios.com
 tags: [geobiology, Feng Shui, Vaastu Shastra, Hippocrates, dowsing, sourcier, radiesthesia, Hartmann grid, Curry grid, telluric networks, underground water, Templar churches, Roman architecture, Chinese geomancy, environmental health, Alain de Luzan, French school of geobiology]
+description: "English translation of 'The Origins of Geobiology' (Aetherforce library, translated by Forge)."
 ---
-
 # The Origins of Geobiology
 
 > "Geobiology is a discipline of the future, one that draws its roots from deep in the past."

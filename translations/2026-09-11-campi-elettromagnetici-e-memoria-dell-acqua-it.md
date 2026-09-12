@@ -1,8 +1,7 @@
 ---
-name: "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it"
+name: "The most advanced biotechnologies applied to classical genetic diagnostics were "
 description: "Full-document translation (assembled from completed chunks)."
 ---
-
 The most advanced biotechnologies applied to classical genetic diagnostics were presented. Also evolving is the integration between biotechnologies of genetic and molecular derivation and those emerging from the studies of Benveniste and Montagnier, which in recent years have developed, particularly in Eastern Europe. And continued in Italy, as the physicist Odoardo Calamai pointed out, presenting a theoretical development of the cyclotron resonance of ions that could explain the effects of water activation which, in a test, proved to be anything but trivial.
 
 In the midst of the new Italian spring, turbulent on all fronts, a sunny day gave its blessing to the long afternoon of science at the Casa dell'Aviatore in Rome, which hosted — thanks to the President of the Anua, General Mario Majorani — one of the most heated Coherence meetings, dedicated to Electromagnetic Fields and the Memory of Water.

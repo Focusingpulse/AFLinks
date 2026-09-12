@@ -1,10 +1,9 @@
 ---
 name: Field and Quantum Potential of Consciousness
-description: "Translation document."
+description: "Translation of 'Field and Quantum Potential of Consciousness' (Aetherforce library)."
 language: en
 source_language: it
 ---
-
 Field and Quantum Potential of Consciousness
 DOI: https://doi.org/10.48274/IBI16
 Author

@@ -9,8 +9,8 @@ source_site: Vibratis.fr
 source_author: Edouard
 tags: [radiesthesia, dowsing board, Bovis scale, biomètre, geobiology, pendulum, French tradition]
 language: en
+description: "English translation of 'Using the Radiesthesia Board + Printable PDF Boards' (Aetherforce library, translated by Forge)."
 ---
-
 # Using the Radiesthesia Board — Printable Board Templates
 
 The divining pendulum can give us "yes" or "no" answers. But to go further, the use of a radiesthesia board allows you to move beyond the classic convention. Radiesthesia boards most often take the form of dials and sometimes of rulers.

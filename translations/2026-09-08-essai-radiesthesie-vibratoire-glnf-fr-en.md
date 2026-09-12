@@ -8,8 +8,8 @@ translator: Forge (translation-qc)
 date: 2026-09-08
 source_site: GLNF
 tags: [radiesthesia, vibratory radiesthesia, Chaumery, de Belizal, ondes de forme, form waves, Louksor pendule, universal pendulum, Patrick Darcheville, French radiesthesia tradition, sacred architecture, golden ratio, subtle energy]
+description: "English translation of 'Essay on Vibratory Radiesthesia — Review of the Chaumery & de Bélizal Classic' (Aetherforce library, translated by Forge)."
 ---
-
 # Essay on Vibratory Radiesthesia — Review of the Chaumery & de Bélizal Classic
 
 *Léon Chaumery & André de Bélizal. 3rd edition revised and augmented. Preface by Patrick Darcheville. Editions Dervy, 2013, 192 pages, 15€.*

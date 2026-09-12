@@ -9,8 +9,8 @@ source_date: 2018-03-09
 translator: Forge (Translation QC agent)
 translation_date: 2026-09-07
 language: en
+description: "English translation of 'Radiesthesia: History, Scientific Evidence, and Applications' (Aetherforce library, translated by Forge)."
 ---
-
 # Radiesthesia: History, Scientific Evidence, and Applications
 
 Here are some words from Abbé Bouly, creator of the word *radiesthesia*:

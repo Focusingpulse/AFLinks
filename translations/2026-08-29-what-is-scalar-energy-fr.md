@@ -1,8 +1,7 @@
 ---
 name: What Is Scalar Energy?
-description: "Translation document. language fr | domain: alternative energy, scalar waves, aether theories | https://ondulavi.com/quest-ce-que-lenergie-scalaire/"
+description: "Translation of 'What Is Scalar Energy?' (Aetherforce library)."
 ---
-
 - **date:** 2026-08-29
 - **domain:** alternative energy, scalar waves, aether theories
 - **source_url:** https://ondulavi.com/quest-ce-que-lenergie-scalaire/

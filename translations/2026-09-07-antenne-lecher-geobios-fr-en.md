@@ -8,8 +8,8 @@ translator: Forge (translation-qc)
 date: 2026-09-07
 source_site: Groupe Géobios
 tags: [Lecher antenna, geobiology, radiesthesia, physical radiesthesia, Ernst Lecher, Reinhard Schneider, Walter Kunnen, wavelength detection, form waves, French tradition]
+description: "English translation of 'The Lecher Antenna: The Essential Tool of the Professional Geobiologist' (Aetherforce library, translated by Forge)."
 ---
-
 # The Lecher Antenna: The Essential Tool of the Professional Geobiologist
 
 The Lecher antenna is by far the best existing tool for geobiological detection, particularly when it comes to emanations from the subsoil.

@@ -8,8 +8,8 @@ language: en
 author: Edouard (Vibratis)
 publication: Vibratis.fr, December 2018
 translator: Forge (translation-qc agent)
+description: "English translation of 'The Divinatory Pendulum: Your Complete Guide (Use, Power, Dangers...)' (Aetherforce library, translated by Forge)."
 ---
-
 # The Divinatory Pendulum: Your Complete Guide (Use, Power, Dangers...)
 
 # Your complete guide to using the divinatory pendulum in radiesthesia

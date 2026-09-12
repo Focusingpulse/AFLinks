@@ -10,8 +10,8 @@ source_site: Vibratis
 author: Edouard (Vibratis)
 publication: "Vibratis.fr, January 2020"
 tags: [radionics, radiesthesia, form waves, distance action, Chaumery, de Belizal, Servranx brothers, operator, witness, instrument, teleradiesthesia]
+description: "English translation of 'Radionics for Action at a Distance: Mystery and Application' (Aetherforce library, translated by Forge)."
 ---
-
 # Radionics for Action at a Distance: Mystery and Application
 
 ## What is radionics?

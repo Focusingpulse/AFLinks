@@ -10,8 +10,8 @@ source_date: 2024-02-17
 source_author: Maude
 source_site: GaiaMamart
 tags: [ondes de forme, form waves, radiesthesia, Chaumery, de Belizal, Morel, Lakhovsky, Sheldrake, morphic resonance, sacred geometry, geobiology, French tradition]
+description: "English translation of 'A Brief History of the Theory of Form Waves' (Aetherforce library, translated by Forge)."
 ---
-
 # A Brief History of the Theory of Form Waves
 
 *February 17, 2024 — by Maude — GaiaMamart*

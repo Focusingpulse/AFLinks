@@ -1,8 +1,7 @@
 ---
 name: A Universe Without Dark Matter?
-description: "Translation document. https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0"
+description: "Translation of 'A Universe Without Dark Matter?' (Aetherforce library)."
 ---
-
 - **original_title:** Un Univers sans matiere noire ?
 - **author:** Gabriel Chardin (CNRS)
 - **source:** https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0

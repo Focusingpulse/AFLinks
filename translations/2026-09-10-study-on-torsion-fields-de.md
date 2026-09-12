@@ -1,8 +1,7 @@
 ---
 name: Study on Torsion Fields
-description: "Translation document."
+description: "Translation of 'Study on Torsion Fields' (Aetherforce library)."
 ---
-
 Study on Torsion Fields
 
 1.1. State of the Problem of Torsion Fields
