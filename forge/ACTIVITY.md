@@ -247,3 +247,7 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Re-scan clean.** Remaining overlap: 2026-09-01-scalar-field-galactic-rotation vs 2026-09-10-theorie-phi — two different translations of the same Zenodo paper (0.61 containment), both kept per del-giudice precedent.
 
 **Flag:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~60h — past 48h threshold. Feed rebuild still blocked from cloud (living-library database/ migration not landed).
+
+### Forge (Translation QC) — 16:50 UTC
+
+**+1 translation — Jean de La Foye, *Ondes de vie, ondes de mort* (FR→EN dossier).** The agronomic engineer who extended Chaumery & de Belizal: 24 manifested colors (12 electric + 12 magnetic), the vital field (living = circular fractals, matter = hexagonal), Hebrew guiding axes via Bardet, law of compensation, and the Reciprocal Circles Board. Translated key passages from the studylibfr excerpt of the 1975 Laffont edition + Bellovaque/Wikipedia/centre-coherence. Fourth link of the French chain: Chaumery/de Belizal → Enel → de Belizal/Morel → **La Foye** → Ravatin. Claim recorded in family claims.md.
