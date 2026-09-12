@@ -1,6 +1,6 @@
 ---
-name: "Viktor Schauberger and the Water Vortexer"
-description: "English translation of a German page from the Orpanit site (orpanit.de) on Schauberger’s water vortexer: implosion vs explosion principles, the hyperbolic funnel vortex, and vortexed water properties."
+name: "2026-09-11-viktor-schauberger-and-the-water-vortexer-de"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Orpanit - Energie der neuen Zeit [site title]

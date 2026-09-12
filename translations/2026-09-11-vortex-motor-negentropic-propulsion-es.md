@@ -1,6 +1,6 @@
 ---
-name: "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Implosion Dynamics of the Ether"
-description: "English translation of the Spanish original by Juan Miguel Rivero y Hornos Tverjanovich (2025). Source: https://doi.org/10.5281/zenodo.17626722 (CC BY 4.0). Proposes a vortex/implosion-based propulsion device drawing on Schauberger and ether physics."
+name: "2026-09-11-vortex-motor-negentropic-propulsion-es"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 The Vortex Motor: Toward a Negentropic Propulsion Technology Based on the Implosion Dynamics of the Ether
