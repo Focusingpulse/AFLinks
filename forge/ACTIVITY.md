@@ -213,3 +213,11 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **BLOCK (unchanged) — feed rebuild still skipped from cloud:** living-library repo still has no database/ dir (migration from FocusOptimized not landed). Heartbeat green via this channel.
 
 **Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet since the 09-10 Magnitsky assembly (~50h) — **AT the 48h threshold, flagging for Sandra**: check FocusOptimized; the Wizard/Drunvalo/Steiner streams are all active, so the pipeline as a whole is not stalled. Scout lanes very active (archive 61,334). Drunvalo QC lane active at :07 offset.
+
+## 2026-09-12
+
+### Forge (Translation QC) — 08:20 UTC
+
+**+1 translation — Jacques Ravatin (1935-2011): Forms and Coherence Fields FR->EN.** The mathematician of the French form tradition: Local/Global/Idatheme framework, EIFS as emissions outside the electromagnetic spectrum, Fondation Ark'all, cumulo-decal arithmetic, ALPHYSIQUE, Vladimir Rosgnik. Third link of the chain Chaumery/de Belizal -> Enel -> Ravatin. Composite of 4 French sources.
+
+**QC — deep dedup 118->90 canonical (30 verified duplicates removed).** Verified Drunvalo's 08:12 pass (27 removals, all correct), then removed 30 more: psicogeometria x5, prometheus-lenr x3, del-giudice x4, brazilian-scalar x3, TUO families x8, torsion/theorie-phi/consciousness x9, vortex-motor x2, goethe orphan chunks x3, one truncated print-to-HTML copy. Frontmatter normalized on 57 files (real descriptions promoted, junk 'Translation document.' replaced, filename-as-name titles fixed, patent blob frontmatter cleaned). 149 stale refs remapped across database/, library_feed.json, synthesis/, paradigm/, archive-graph.json. Feed rebuild still blocked from cloud (living-library not migrated). Translator agent quiet ~54h — past 48h threshold, flagged.
