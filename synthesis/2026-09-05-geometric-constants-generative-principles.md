@@ -58,7 +58,7 @@ Key claims:
 
 **Generative aspect:** Ponce de León explicitly states that geometry is not descriptive but causal. "Energy and matter are only differences in geometric arrangement." The constants do not describe; they generate.
 
-**Source:** `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md`
+**Source:** `translations/2026-08-29-sacred-geometry-matter-energy-qualities-es.md`
 
 ---
 
@@ -146,7 +146,7 @@ Key claims:
 
 **Generative aspect:** LENR technology claims to stimulate matter to release energy rather than destroying matter to extract energy. This aligns with the generative constants thesis: matter is energy in geometric arrangement; by stimulating the geometry (through cavitation, resonance, etc.), energy can be released without destroying the substrate.
 
-**Source:** `translations/2026-09-03-prometheus-lenr-reactor-it.md`
+**Source:** `translations/2026-09-10-prometheus-lenr-reactor-um-3-0-it.md`
 
 ---
 
@@ -300,12 +300,12 @@ Whatever the cause, the convergence across linguistic boundaries strengthens the
 
 ## Sources
 
-- `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md` — Ponce de León (Mexican psychogeometry)
+- `translations/2026-08-29-sacred-geometry-matter-energy-qualities-es.md` — Ponce de León (Mexican psychogeometry)
 - `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` — Spyridis (Greek Platonic physics)
 - `translations/2026-09-04-tuo-theory-fr-en.md` — Maillot (French TUO theory)
 - `translations/2026-09-03-tuo-classical-formalism-fr.md` — Maillot (French TUO formalism)
 - `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md` — Waechter (Brazilian scalar technology)
-- `translations/2026-09-03-prometheus-lenr-reactor-it.md` — Prometheus (Italian LENR)
+- `translations/2026-09-10-prometheus-lenr-reactor-um-3-0-it.md` — Prometheus (Italian LENR)
 
 ---
 

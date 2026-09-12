@@ -460,7 +460,7 @@ Either outcome advances understanding.
    - Pythagorean mathematical science, Platonic solids as force carrier templates
    - Geometric harmony in cube's 6-8-12 structure
 
-2. **Psicogeometría: Geometría en Materia y Energía** (translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md)
+2. **Psicogeometría: Geometría en Materia y Energía** (translations/2026-08-29-sacred-geometry-matter-energy-qualities-es.md)
    - Arturo Ponce de León, Psicogeometría México
    - Three constants (φ, π, e) as generative principles
    - Pentaflor process: spiral → sphere → solid
@@ -475,7 +475,7 @@ Either outcome advances understanding.
    - Consciousness as quantum field with form factors
    - Nambu-Goldstone boson condensation
 
-5. **Del Giudice Explains Pollack's Fourth Phase of Water** (translations/2026-08-30-del-giudice-pollack-ez-water-it.md)
+5. **Del Giudice Explains Pollack's Fourth Phase of Water** (translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md)
    - Emilio Del Giudice
    - Membrane geometry determines water electronic properties
    - Quantum coherence in biological water

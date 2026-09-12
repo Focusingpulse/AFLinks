@@ -86,7 +86,7 @@ Juan Miguel Rivero y Hornos Tverjanovich (2025), publishing on Zenodo, provides 
 
 **Implosion aspect:** Rivero provides the bridge between Schauberger's empirical observations and modern theoretical physics. He explicitly names the thermodynamic principle (negentropy), identifies the ether as the medium, and proposes a concrete experimental protocol.
 
-**Source:** `translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md`
+**Source:** `translations/2026-09-10-el-motor-de-vortice-hacia-una-tecnologia-de-propulsion-negen-es.md`
 
 ---
 
@@ -134,7 +134,7 @@ The Prometheus project (Bergamo, Italy) represents the most advanced practical a
 
 **Implosion aspect:** Prometheus demonstrates that the implosion principle is not merely theoretical. Cavitation — the controlled collapse of bubbles in water — is a practical application of centripetal energy concentration that produces nuclear reactions at low bulk temperatures. The connection to Schauberger is direct: both use water as the medium and both produce energy through concentration rather than expansion.
 
-**Source:** `translations/2026-09-03-prometheus-lenr-reactor-it.md`
+**Source:** `translations/2026-09-10-prometheus-lenr-reactor-um-3-0-it.md`
 
 ---
 

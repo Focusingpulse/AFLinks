@@ -379,7 +379,7 @@ Either outcome advances understanding.
 
 ## Sources
 
-1. **Del Giudice Explains Pollack's Fourth Phase of Water** (translations/2026-08-30-del-giudice-pollack-ez-water-it.md)
+1. **Del Giudice Explains Pollack's Fourth Phase of Water** (translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md)
    - Italian physicist's explanation of water coherence domains
    - Connection to Szent-Györgyi's electron problem
    - EZ water as macroscopic coherence domain manifestation

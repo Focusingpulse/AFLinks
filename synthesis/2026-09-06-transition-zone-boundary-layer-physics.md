@@ -170,7 +170,7 @@ Arturo Ponce de León and Ninón Fregoso (Psicogeometría México) identify the 
 
 **Transition zone aspect:** The zero point is the geometric version of the transition zone — the point where energy becomes matter, where chaos becomes order, where the void organizes the surrounding medium. It is the sacred geometry equivalent of the Bloch Wall, the exclusion zone, the spark gap, and the vortex center.
 
-**Source:** `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md`
+**Source:** `translations/2026-08-29-sacred-geometry-matter-energy-qualities-es.md`
 
 ---
 
@@ -304,7 +304,7 @@ The next synthesis should investigate whether the transition zone can be *engine
 | Lindemann, P.A. (2000/2006). Analysis of Tesla's Patent Schematics on Radiant Energy | French Tesla analysis | `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md` |
 | Schauberger, V. (1951). Luxembourg Patent No. 31,480 — Method for Controlling Molecular Processes | Austrian implosion engineering | `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` |
 | Alexandersson, O. *Acqua Viva* (Italian translation) | Austrian implosion engineering | `translations/2026-09-05-acqua-viva-schauberger-it-en.md` |
-| Ponce de León, A. & Fregoso, N. Psicogeometría: Geometric Qualities of Matter and Energy | Mexican psychogeometry | `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md` |
+| Ponce de León, A. & Fregoso, N. Psicogeometría: Geometric Qualities of Matter and Energy | Mexican psychogeometry | `translations/2026-08-29-sacred-geometry-matter-energy-qualities-es.md` |
 | Maillot, F. (2025). Théorie de l'Univers Onde (TUO): Vacuum Tension Field | French vacuum tension theory | `translations/2026-09-04-tuo-theory-fr-en.md` |
 
 ---

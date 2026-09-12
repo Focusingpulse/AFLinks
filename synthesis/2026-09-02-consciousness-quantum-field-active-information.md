@@ -64,7 +64,7 @@ Key claims:
 
 **Information aspect:** Water is not a passive medium. It is an active information substrate — its coherence domains encode and transmit biological information through field organization, not chemical signaling. The connection to Manzalini is direct: both invoke NG boson condensation in water's electric dipole field as the mechanism of biological information processing.
 
-**Source:** `translations/2026-08-30-del-giudice-pollack-ez-water-it.md`, `translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md`
+**Source:** `translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md`, `translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md`
 
 ---
 

@@ -129,7 +129,7 @@ Key claims:
 
 **Vacuum aspect:** Water's coherence domains are a local, biological manifestation of vacuum organization. The EZ is where the vacuum meets biology — where rotational dynamics at the molecular scale produce macroscopic organization.
 
-**Source:** `translations/2026-08-30-del-giudice-pollack-ez-water-it.md`
+**Source:** `translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md`
 
 ---
 
@@ -242,7 +242,7 @@ Maillot's vacuum tension and Del Giudice's water coherence domains both describe
 - `translations/2026-08-31-shipov-torsion-fields-technologies-ru.md`
 - `translations/2026-09-04-tuo-theory-fr-en.md`
 - `translations/2026-08-30-prometheus-lenr-reactor-it.md`
-- `translations/2026-08-30-del-giudice-pollack-ez-water-it.md`
+- `translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md`
 - `translations/2026-08-29-matiere-aether-d-benaros-en.md`
 - `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md`
 - `translations/2026-08-28-akimov-shipov-torsion-field-research-ru.md`

@@ -445,7 +445,7 @@ Either outcome advances understanding.
    - Torsion as geometry of absolute parallelism
    - Information-carrying fields from spin
 
-4. **Del Giudice Explains Pollack's Fourth Phase of Water** (translations/2026-08-30-del-giudice-pollack-ez-water-it.md)
+4. **Del Giudice Explains Pollack's Fourth Phase of Water** (translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md)
    - Emilio Del Giudice
    - Water coherence domains as biological information substrate
    - Membrane geometry determines water electronic properties

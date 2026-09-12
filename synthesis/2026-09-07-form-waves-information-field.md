@@ -164,7 +164,7 @@ Juan Miguel Rivero y Hornos Tverjanovich (2025) provides the most explicit engin
 
 **Information aspect:** The vortex motor is an information engine. The chamber geometry encodes instructions for the ether. The resonant frequency encodes a message. The ether reads and responds. This is form-as-information applied to propulsion.
 
-**Source:** `translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md`, `translations/2026-09-11-vortex-motor-negentropic-propulsion-es.md`
+**Source:** `translations/2026-09-10-el-motor-de-vortice-hacia-una-tecnologia-de-propulsion-negen-es.md`, `translations/2026-09-11-vortex-motor-negentropic-propulsion-es.md`
 
 ---
 

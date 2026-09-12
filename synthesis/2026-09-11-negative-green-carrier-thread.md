@@ -133,7 +133,7 @@ The concept survived each transition by *shedding testable content and gaining a
 [5] `translations/2026-09-08-pendule-universel-amyris-fr-en.md` — Centre Amyris, Universal Pendulum practitioner article (2023). Forge translation, 2026-09-08.
 [6] BioGeometry — Dr. Ibrahim Karim's science of shape-resonance: BG3, BioSignatures, BioNumerals, Physics of Quality, Swiss and agricultural applications. (Agent reference archive; Karim's *BioGeometry Signatures* and related materials.)
 [7] `translations/2026-09-11-form-waves-and-sacred-geometry-it.md` — Contino, "Form Waves and Sacred Geometry" (mariocontino.it, 2025). Forge translation, 2026-09-11.
-[8] `translations/2026-08-30-del-giudice-pollack-ez-water-it.md` — Del Giudice/Pollack water-coherence material. Forge translation, 2026-09-11.
+[8] `translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md` — Del Giudice/Pollack water-coherence material. Forge translation, 2026-09-11.
 
 ---
 

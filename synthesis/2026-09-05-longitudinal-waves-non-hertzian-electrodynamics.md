@@ -146,7 +146,7 @@ Juan Miguel Rivero y Hornos Tverjanovich's 2025 paper on the "Vortex Motor" prov
 
 **Generative aspect:** Rivero y Hornos Tverjanovich bridges Schauberger's fluid-dynamic implosion with Tesla's electrical implosion and Barrett's gauge-theoretic framework. The common principle is the same: creating a localized vacuum (pressure or electrical) that the surrounding medium (ether or vacuum field) rushes to fill, producing organized energy release through non-entropic pathways.
 
-**Source:** `translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md`
+**Source:** `translations/2026-09-10-el-motor-de-vortice-hacia-una-tecnologia-de-propulsion-negen-es.md`
 
 ---
 
@@ -251,7 +251,7 @@ This synthesis connects to several previous syntheses in the archive:
 | `translations/2026-09-03-akimov-shipov-torsion-field-en.md` | Russian | Torsion fields | English translation of torsion field research |
 | `translations/2026-08-28-shipov-torsion-fields-ru.md` | Russian | Torsion fields, spacetime geometry | Geometric theory of torsion as spacetime property |
 | `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md` | Brazilian | Scalar wave engineering | Patent for scalar energy generator, biological connection |
-| `translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md` | Spanish | Vortex physics, ether dynamics | Theoretical framework for implosion-based propulsion |
+| `translations/2026-09-10-el-motor-de-vortice-hacia-una-tecnologia-de-propulsion-negen-es.md` | Spanish | Vortex physics, ether dynamics | Theoretical framework for implosion-based propulsion |
 | `translations/2026-09-09-compendium-of-vortex-physics-de.md` | German/Swiss | Vortex physics | Systematization of European vortex research |
 | `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` | Austrian/German | Implosion technology | Schauberger's patent for molecular control via spiral flow |
 | `translations/2026-09-05-acqua-viva-schauberger-it-en.md` | Austrian/Italian | Water vortex, implosion | Comprehensive Schauberger biography and research |
