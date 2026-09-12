@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-oranur-experiment-wilhelm-reich-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: "The ORANUR Experiment (Wilhelm Reich) — English translation"
+description: "English translation of the German orgonomie.net ORANUR pages (Jerome Eden's account of Reich's ORANUR experiment). Note: filename suffix -de reflects the German source site; the text is English. Source: orgonomie.net."
 ---
 
 WWW.ORGONOMIE.NET
