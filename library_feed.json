@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T00:22:55Z",
+  "generated_at": "2026-09-12T01:07:58Z",
   "library": {
     "researchers": 1132,
     "researchers_cataloged": 1132,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 97,
     "bridges": 11,
-    "archive_entries": 61306,
+    "archive_entries": 61329,
     "meta_counts": {
-      "Challenges to the Standard Model": 46580,
+      "Challenges to the Standard Model": 46602,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 36579,
-      "Patents & Inventions": 26185,
-      "Geopolitics & Hidden History": 21748,
+      "Alternative Energy Technologies": 36582,
+      "Patents & Inventions": 26186,
+      "Geopolitics & Hidden History": 21750,
       "Electromagnetic Theory": 10333,
       "Reference & Technical Data": 2053,
       "Media & Interviews": 2349,
       "Environment & Climate": 9897,
-      "Biology, Health & Medicine": 6781,
+      "Biology, Health & Medicine": 6782,
       "Frontier Science": 333,
       "Rudolf Steiner & Anthroposophy": 534,
       "Acoustics": 1,
@@ -5376,7 +5376,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T00:09:36Z",
+      "last_run": "2026-09-12T00:23:34Z",
       "last_status": "ok",
       "last_summary": "sync: 61306 docs, feed rebuilt"
     },
@@ -5431,9 +5431,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-11T20:20:00Z",
+      "last_run": "2026-09-12T00:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation published (Léon Chaumery 1880-1957 biography FR->EN — co-founder of physical radiesthesia with de Belizal: Universal Pendulum/Louksor, FR 816,132 patent, 'ondes de formes' vocabulary, death from negative green per de Belizal's own preface). Completes the French-school founder series (Bouly, Mermet, Viré, Henry de France, Chaumery). QC: corpus 124 canonical; Drunvalo 20:09 QC removed 28 degraded-frontmatter dups — verified solid, no rework needed. Feed rebuild still blocked from cloud (living-library not migrated, no database/ dir)."
+      "last_summary": "+1 translation published (Enel / Prince Michel Vladimirovich Skariatine 1883-1963 dossier FR->EN — the Omega ray: negative green on Egyptian saints' tombs, ORAEDES + Wikisage biography, Radiations des formes et cancer 1951/1959 works catalog, Thieux Carnets inedits; companion to the 08-29 Enel biography). QC: corpus 152->153; removed 1 verified duplicate (water-vortexer DE, containment 1.0 vs acqua-viva family); fixed ORANUR file naming (-de -> -de-en, English text) — Drunvalo 00:07 language-tag fix verified solid. Feed rebuild still blocked from cloud (living-library not migrated, no database/ dir). Translator agent quiet ~38h < 48h threshold — not stale."
     },
     {
       "member": "scout",
@@ -5442,9 +5442,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-11T21:30:05Z",
+      "last_run": "2026-09-12T00:45:00Z",
       "last_status": "ok",
-      "last_summary": "20:15Z growth fire: +496 tgdtheory.fi (full year-index corpus 2010-2026, Pitkanen TGD) — archive 60,768→61,264 (a7924fb8b, ids 2402378–2402873). Correction: 18:15Z fire's '592 stale-404' was a rate-limit artifact; throttled re-probe found 496/589 live. All other live lanes dry. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "00:15Z growth fire: +23 cyberleninka keyword harvest (RU LENR/torsion/ball-lightning/transmutation corpus) — archive 61,306→61,329 (092fbe751, ids 2402916–2402938), filelist 42→65. All live lanes dry (viXra RSS max 2609.0023 archived, rxiv byte-same, lenr-canr 1,454=1,454, iccf-27 UC day 33, ucp pool no growth, RENSIT flake). 22/23 previews + 1 OCR'd scan. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5470,6 +5470,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "00:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61306 docs — +61306 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-12",
+      "time": "00:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+1 translation — Enel (Prince Michel Vladimirovich Skariatine, 1883–1963) dossier FR→EN — (translations/2026-09-12-enel-omega-radiations-formes-fr-en.md): the bridge figure of the French school — the Russian prince who carried the Chaumery–de Bélizal spectrum into the field. The Omega ray discovery (1940s–50s: all Egyptian tombs of Christian saints emanate a vibration in the negative-green zone; Enel named the horizontal component Omega, marker of spiritual energy — grade 395 on the Universal Pendulum's EM meridian, the radioactivity sector); the biography (ORAEDES + Wikisage: Chevaliers-Gardes commander under Nicholas II, Toulon 1917, Cairo 1931–1953 with Howard Carter's team and Maspero, Glion 1953–1963, Lakhovsky MWO cures, Nestlé researcher); the works catalog (*Radiations des formes et cancer* 1951/1959 — the school's therapeutic manifesto, Energeia 2025 reissue in print; *Premiers pas en radiesthésie thérapeutique* 1949; *Traitement à distance par radiations* 1959); and the Thieux Carnets inédits trilogy (geobiology, gravitational colors, radiant-form apparatus, the Six Ritual Instruments of the Emperor of China, Henri Mager). Companion to the 08-29 La Lettre du Crocodile biography — together they complete the Enel file. Cardinaux's critique (negative green \"is in fact white\") and the honest-bench record noted."
+    },
     {
       "date": "2026-09-12",
       "time": "00:12",
@@ -5817,18 +5829,6 @@
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+2 translations — First Turenne material in the corpus: (1) turenne.eu \"Radiesthésie scientifique — méthode Turenne\" FR→EN (Part 1) — the Turenne Association's exposition of scientific radiesthesia: origins in 19th-c. physics, Turenne's neuro-muscular induction thesis for the diviner's signal, the ten wave varieties (3 horizontal + 3 vertical + radioactive/radio-disintegration + infra + ultra + \"Turenne\" waves), SATURATION (detector turns = atomic number: copper 29, phosphorus 15, uranium 92), the Law of Similitude (reflected wave between similar bodies, surface not mass — Newton analogy), témoins (witnesses from blood drop, all Mendeleev elements, spectrum colors, plants, microbial strains, diseases, organs — \"eternal, indelible, unalterable\"), the H₂O witness, and the Law of Remanences (residual waves from removed bodies, treasure-hunting failures, persistence scales with atomic number). (2) wiki.johnben.ch \"Louis Turenne\" biography FR→EN — École Centrale engineer at 19, wounded at Verdun, T.S.F. professor under General Ferrié, Morocco phosphate/Sidi Harazem discoveries, the 93rd element prediction (Neptunium, Fermi's 1940 homage), Limousin radium mapping, 1952 Order-of-Physicians trial (symbolic franc), preface to Book IX, Paul Reboux's funeral eulogy (Turenne as \"Claude Bernard of human waves\"). QC: corpus 106→108. New Goethe IT→EN translation (Wizard, foreign-translate agent) reviewed — frontmatter complete, PASS; translator pipeline alive again via Wizard. Drunvalo QC agent active at :07 offset (frontmatter fixes, DB updates) — no double work. Feed rebuild still blocked (living-library corpus not migrated to cloud). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "00:06",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 35th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program page 200, 37,721B, 0 PDF/PPT links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new since 12:15Z +22). tuks.nl 200 (fully harvested). lenr.seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; growth cron handled viXra at 22:15Z (+5, 2609.0013–0017). Archive **52,669** (post-22:15Z growth +5, 94b96ca; 52,642@20:15Z aetherscience +99). Web scan surfaced only EN theory preprints (already archived) + ENG8 EN/RU news — no new primary FL docs to queue. STALE-FLAG translator ~10d (translation-qc active +2 FR→EN, corpus 106). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-0000.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "22:15",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md."
     }
   ],
   "declassified": [
@@ -53522,7 +53522,29 @@
         "2402912",
         "2402913",
         "2402914",
-        "2402915"
+        "2402915",
+        "2402916",
+        "2402918",
+        "2402919",
+        "2402920",
+        "2402921",
+        "2402922",
+        "2402923",
+        "2402924",
+        "2402925",
+        "2402926",
+        "2402927",
+        "2402928",
+        "2402929",
+        "2402930",
+        "2402931",
+        "2402932",
+        "2402933",
+        "2402934",
+        "2402935",
+        "2402936",
+        "2402937",
+        "2402938"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -101701,7 +101723,10 @@
         "2402902",
         "2402903",
         "2402913",
-        "2402915"
+        "2402915",
+        "2402918",
+        "2402926",
+        "2402927"
       ],
       "Patents & Inventions": [
         "5814",
@@ -127888,7 +127913,8 @@
         "2402887",
         "2402908",
         "2402913",
-        "2402915"
+        "2402915",
+        "2402926"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -149638,7 +149664,9 @@
         "2402875",
         "2402877",
         "2402885",
-        "2402908"
+        "2402908",
+        "2402926",
+        "2402927"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -181061,7 +181089,8 @@
         "2402853",
         "2402870",
         "2402875",
-        "2402883"
+        "2402883",
+        "2402917"
       ],
       "Frontier Science": [
         "239312",
@@ -243247,7 +243276,30 @@
       "2402912": "issledovanie-mehanizma-effekta-formy",
       "2402913": "torsionnye-polya-i-neyrokompyuter",
       "2402914": "fizicheskiy-vakuum-kak-forma-materii-novyy-vzglyad-na-strukturu-i-svoystva",
-      "2402915": "filosofiya-postroeniya-prichinno-sledstvennoy-modeli-torsionnogo-polevogo-vozdeystviya-v-sistemah-struktuirovaniya-vody"
+      "2402915": "filosofiya-postroeniya-prichinno-sledstvennoy-modeli-torsionnogo-polevogo-vozdeystviya-v-sistemah-struktuirovaniya-vody",
+      "2402916": "perspektivy-razvitiya-termoyadernoy-energetiki-v-razvityh-stranah-mira-i-ukraine",
+      "2402917": "holodnaya-transmutatsiya-yader-v-kvantovoy-pene-superstruny-i-sintez-ostsilliruyuschego-svimpa",
+      "2402918": "variant-realizatsii-upravlyaemogo-termoyadernogo-sinteza-v-nestatsionarnyh-usloviyah",
+      "2402919": "termoyadernaya-energetika-krupneyshiy-mezhdunarodnyy-innovatsionnyy-proekt",
+      "2402920": "antologiya-vydayuschihsya-dostizheniy-v-nauke-i-tehnike-chast-46-termoyadernaya-energetika-termoyadernye-reaktory-i-elektrostantsii",
+      "2402921": "seminar-holodnyy-yadernyy-sintez-i-sharovaya-molniya-v-rudn",
+      "2402922": "chyornyy-predel-chast-13-teoriya-holodnogo-sinteza-i-kataliticheskih-reaktsiy",
+      "2402923": "universalnoe-kosmologicheskoe-pole",
+      "2402924": "obemnye-rezonatory-skalyarnyh-poley-dinamicheskih-sistem",
+      "2402925": "neyrokompyuternaya-model-pervichnyh-torsionnyh-poley",
+      "2402926": "ispolzovanie-torsionnyh-poley-dlya-ochistki-vody",
+      "2402927": "elektrodinamika-edinstvo-vihrevyh-i-potentsialnyh-poley",
+      "2402928": "tsilindricheskisimmetrichnye-konfiguratsii-vzaimodeystvuyuschih-skalyarnogo-i-spinornogo-poley-s-uchyotom-idealnoy-zhidkosti",
+      "2402929": "matematicheskaya-model-elektromagnitnogo-polya-s-lokalnym-opredeleniem-plotnosti-elektricheskogo-zaryada",
+      "2402930": "mehanizm-obrazovaniya-sharovoy-molnii",
+      "2402931": "modelirovanie-sharovoy-molnii-v-provodyaschey-srede",
+      "2402932": "izotermicheskaya-model-sharovoy-molnii-iz-odnoimennyh-zaryadov",
+      "2402933": "elektromagnitnoe-izluchenie-sharovoy-molnii",
+      "2402934": "neordinarnye-yavleniya-atmosfernogo-elektrichestva",
+      "2402935": "ob-ustoychivosti-sharovoy-molnii-po-otnosheniyu-k-sobstvennomu-i-indutsirovannomu-zaryadam",
+      "2402936": "vozmozhny-li-nizkoenergeticheskie-yadernye-reaktsii-s-tochki-zreniya-zakonov-sohraneniya",
+      "2402937": "transformatsiya-yader-v-usloviyah-elektrorazryada",
+      "2402938": "prilozheniya-kvantovoy-mehaniki"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -572467,6 +572519,81 @@
         "Alternative Physics",
         "Water / Hydrogen",
         "Environment / Climate"
+      ],
+      "2402916": [
+        "Borderland Research"
+      ],
+      "2402917": [
+        "Biology / Health"
+      ],
+      "2402918": [
+        "Energy",
+        "Alternative Physics"
+      ],
+      "2402919": [
+        "Borderland Research"
+      ],
+      "2402920": [
+        "Alternative Physics"
+      ],
+      "2402921": [
+        "Borderland Research"
+      ],
+      "2402922": [
+        "Borderland Research"
+      ],
+      "2402923": [
+        "Alternative Physics"
+      ],
+      "2402924": [
+        "Borderland Research"
+      ],
+      "2402925": [
+        "Alternative Physics"
+      ],
+      "2402926": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen"
+      ],
+      "2402927": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2402928": [
+        "Alternative Physics"
+      ],
+      "2402929": [
+        "Borderland Research"
+      ],
+      "2402930": [
+        "Borderland Research"
+      ],
+      "2402931": [
+        "Borderland Research"
+      ],
+      "2402932": [
+        "Borderland Research"
+      ],
+      "2402933": [
+        "Borderland Research"
+      ],
+      "2402934": [
+        "Borderland Research"
+      ],
+      "2402935": [
+        "Alternative Physics"
+      ],
+      "2402936": [
+        "Borderland Research"
+      ],
+      "2402937": [
+        "Borderland Research"
+      ],
+      "2402938": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -683907,7 +684034,30 @@
         "torsion",
         "geometry_sacred",
         "p_fieldphys"
-      ]
+      ],
+      "2402916": [],
+      "2402917": [],
+      "2402918": [],
+      "2402919": [],
+      "2402920": [],
+      "2402921": [],
+      "2402922": [],
+      "2402923": [],
+      "2402924": [],
+      "2402925": [],
+      "2402926": [],
+      "2402927": [],
+      "2402928": [],
+      "2402929": [],
+      "2402930": [],
+      "2402931": [],
+      "2402932": [],
+      "2402933": [],
+      "2402934": [],
+      "2402935": [],
+      "2402936": [],
+      "2402937": [],
+      "2402938": []
     }
   },
   "graph": {
