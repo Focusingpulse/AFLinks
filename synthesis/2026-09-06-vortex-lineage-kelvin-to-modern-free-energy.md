@@ -97,7 +97,7 @@ The Luxembourg Patent (1951) explicitly claims:
 
 **Key claim:** Schauberger's work is not new invention but practical application of the 19th century vortex tradition, combined with direct observation of natural water behavior in pristine forests.
 
-**Source:** `translations/2026-09-05-acqua-viva-schauberger-it.md`, `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md`
+**Source:** `translations/2026-09-05-acqua-viva-schauberger-it-en.md`, `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md`
 
 ---
 
@@ -250,7 +250,7 @@ The compendium explicitly aims to expand physics "into higher planes of existenc
 ## Sources Connected
 
 - `translations/2026-09-05-compendium-vortex-physics-de.md` — SAFE working group comprehensive systematization
-- `translations/2026-09-05-acqua-viva-schauberger-it.md` — Schauberger biography and water vortex research
+- `translations/2026-09-05-acqua-viva-schauberger-it-en.md` — Schauberger biography and water vortex research
 - `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` — Original patent for spiral flow technology
 - `translations/2026-09-04-shipov-torsion-fields-ru-en.md` — Russian torsion field continuation
 - `synthesis/2026-09-04-vortex-universal-organizing-principle.md` — Previous synthesis on vortex as organizing principle

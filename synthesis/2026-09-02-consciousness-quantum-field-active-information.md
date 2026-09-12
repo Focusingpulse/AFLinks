@@ -100,7 +100,7 @@ Key claims:
 
 **Information aspect:** The form wave tradition is the most empirically oriented of the informational field traditions. It provides detection methods (pendulum, dowsing) and practical applications (radionics, geobiology, architecture). Its claim that geometry emits information is the experimental counterpart to Manzalini's theoretical claim that field shape carries active information.
 
-**Sources:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`, `translations/2026-08-29-ondes-de-forme-vibratis-en.md`, `translations/2026-08-29-onde-di-forma-e-geometria-sacra-en.md`
+**Sources:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md`, `translations/2026-08-29-ondes-de-forme-vibratis-fr-en.md`, `translations/2026-08-29-onde-di-forma-e-geometria-sacra-en.md`
 
 ---
 

@@ -164,7 +164,7 @@ Juan Miguel Rivero y Hornos Tverjanovich (2025) provides the most explicit engin
 
 **Information aspect:** The vortex motor is an information engine. The chamber geometry encodes instructions for the ether. The resonant frequency encodes a message. The ether reads and responds. This is form-as-information applied to propulsion.
 
-**Source:** `translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md`, `translations/2026-09-10-el-motor-de-vortice-hacia-una-tecnologia-de-propulsion-negen-es.md`
+**Source:** `translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md`, `translations/2026-09-11-vortex-motor-negentropic-propulsion-es.md`
 
 ---
 
@@ -252,6 +252,6 @@ Together, they form a coherent picture: information is a field, geometry encodes
 - `translations/2026-09-05-compendium-vortex-physics-de-en.md` — German/Swiss vortex physics
 - `translations/2026-09-03-field-quantum-potential-consciousness-it.md` — Italian quantum biophysics
 - `translations/2026-09-03-del-giudice-pollack-fourth-phase-water-it.md` — Italian water research
-- `translations/2026-09-10-el-motor-de-vortice-hacia-una-tecnologia-de-propulsion-negen-es.md` — Spanish negentropic propulsion
+- `translations/2026-09-11-vortex-motor-negentropic-propulsion-es.md` — Spanish negentropic propulsion
 - `synthesis/2026-09-02-consciousness-quantum-field-active-information.md` — Previous synthesis on consciousness as field
 - `synthesis/2026-09-07-egs-field-vacuum-polarizations.md` — Previous synthesis on EGS-field concept

@@ -396,10 +396,10 @@ This is the pilot wave continuum — a class of fields that bridge physics and c
 
 ## Sources
 
-1. `translations/2026-09-07-consciousness-field-quantum-potential-it.md` — Manzalini, consciousness as quantum field
-2. `translations/2026-09-07-shipov-torsion-fields-ru.md` — Shipov, torsion fields and technologies
-3. `translations/2026-08-31-tuo-wave-universe-theory-fr.md` — Maillot, Wave Universe Theory
-4. `translations/2026-09-07-theorie-phi-scalar-field-fr.md` — Toulgoat, scalar field for galactic dynamics
+1. `translations/2026-09-01-field-quantum-potential-consciousness-it.md` — Manzalini, consciousness as quantum field
+2. `translations/2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md` — Shipov, torsion fields and technologies
+3. `translations/2026-09-04-tuo-theory-fr-en.md` — Maillot, Wave Universe Theory
+4. `translations/2026-09-10-theorie-phi-scalar-field-coupled-to-baryonic-matter-fr.md` — Toulgoat, scalar field for galactic dynamics
 5. `translations/2026-09-07-radiesthesie-histoire-vibratis-fr-en.md` — Vibratis, radiesthesia history
 6. `translations/2026-09-07-ondes-de-forme-historique-gaiamamart-fr-en.md` — GaiaMamart, form wave history
 7. `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` — Spyridis, Platonic unification

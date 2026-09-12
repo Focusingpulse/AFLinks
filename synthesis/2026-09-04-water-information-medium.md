@@ -100,7 +100,7 @@ Key claims:
 
 **Water aspect:** Form waves are claimed to restructure water. The French radiesthetic tradition links form waves to water memory — the ability of water to retain information from geometric or energetic exposure. This is the bridge between form and biology.
 
-**Source:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`
+**Source:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md`
 
 ---
 
@@ -294,7 +294,7 @@ If the convergent claim is correct — that water is the information medium of l
 
 - `translations/2026-09-03-del-giudice-pollack-fourth-phase-water-it.md` — Italian quantum biophysics of water
 - `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` — Austrian vortex technology
-- `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md` — French form wave theory
+- `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md` — French form wave theory
 - `translations/2026-08-29-morphic-resonance-sheldrake-en.md` — British morphic resonance
 - `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md` — Mexican psychogeometry
 - `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md` — Brazilian scalar technology

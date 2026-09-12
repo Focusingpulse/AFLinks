@@ -26,7 +26,7 @@ Scheduled cron: QC recent AFLinks translations, fix issues, update DB (every 4h)
 - 2026-09-10-extended-theory-of-electromagnetism-de.md ✓
 - 2026-09-10-field-and-quantum-potential-of-consciousness-it.md ✓
 - 2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md (fixed)
-- 2026-09-10-platonic-theory-of-everything-and-spyridis-unified-theory-of-el.md ✓
+- 2026-09-02-spyridis-platonic-theory-of-everything-el.md ✓
 
 ### Issues Found & Fixed
 - Encoding: Russian file had double-encoded em-dash (â€" → —)

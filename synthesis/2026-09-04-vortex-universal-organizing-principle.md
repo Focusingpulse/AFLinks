@@ -103,7 +103,7 @@ Key claims:
 
 **Vortex aspect:** Spyridis provides the bridge between sacred geometry and particle physics. The Platonic solids are not static structures but stabilized vortex patterns — the geometric attractors of spiral dynamics.
 
-**Source:** `translations/2026-09-10-platonic-theory-of-everything-and-spyridis-unified-theory-of-el.md`
+**Source:** `translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md`
 
 ---
 
@@ -264,7 +264,7 @@ If the convergent claim is correct — that the vortex is the universal organizi
 - `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` — Schauberger implosion patent
 - `translations/2026-09-03-study-torsion-fields-de.md` — German torsion field study
 - `translations/2026-09-10-akimov-shipov-torsion-field-research-ru.md` — Russian torsion physics
-- `translations/2026-09-10-platonic-theory-of-everything-and-spyridis-unified-theory-of-el.md` — Greek Platonic particle physics
+- `translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md` — Greek Platonic particle physics
 - `translations/2026-09-03-del-giudice-pollack-fourth-phase-water-it.md` — Italian water coherence
 - `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md` — French Tesla analysis
 - `synthesis/2026-09-01-rotational-ether-vortex-torsion-lenr.md` — Previous synthesis on rotational ether

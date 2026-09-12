@@ -106,7 +106,7 @@ The French tradition, represented by the TUO (Théorie Universelle de l'Onde) an
 
 **EGS-field aspect:** The French tradition provides the classical field theory formulation of the unified medium. Where Akimov/Shipov use quantum field theory language, TUO uses classical continuum mechanics — different mathematical languages for the same physical concept.
 
-**Source:** `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`, `translations/2026-08-29-enel-lettre-crocodile-fr-en.md`
+**Source:** `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md`, `translations/2026-08-29-enel-lettre-crocodile-fr-en.md`
 
 ---
 

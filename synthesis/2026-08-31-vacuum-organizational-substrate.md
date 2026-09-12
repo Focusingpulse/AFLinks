@@ -64,7 +64,7 @@ Key claims:
 
 **Vacuum aspect:** The vacuum is polarized by the coexistence of positive and negative mass. This polarization is the organizational feature that replaces dark matter and dark energy.
 
-**Source:** `translations/2026-08-29-univers-sans-matiere-noire-chardin-en.md`
+**Source:** `translations/2026-08-29-univers-sans-matiere-noire-chardin-fr-en.md`
 
 ---
 
@@ -80,7 +80,7 @@ Key claims:
 
 **Vacuum aspect:** Space is the ether. The vacuum is not empty but is the connecting medium. The 122-order-of-magnitude discrepancy is not a failure but a feature of scale-dependent vacuum energy.
 
-**Source:** `translations/2026-08-29-ether-einstein-constante-cosmologique-en.md`
+**Source:** `translations/2026-08-29-ether-einstein-constante-cosmologique-fr-en.md`
 
 ---
 
@@ -238,8 +238,8 @@ Both describe reality as emerging from coherence in a substrate. Debailleul desc
 ## Sources Connected
 
 - `translations/2026-08-29-deba-debailleul-en.md`
-- `translations/2026-08-29-univers-sans-matiere-noire-chardin-en.md`
-- `translations/2026-08-29-ether-einstein-constante-cosmologique-en.md`
+- `translations/2026-08-29-univers-sans-matiere-noire-chardin-fr-en.md`
+- `translations/2026-08-29-ether-einstein-constante-cosmologique-fr-en.md`
 - `translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md`
 - `translations/2026-08-30-compendium-vortex-physics-de.md`
 - `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md`
@@ -247,7 +247,7 @@ Both describe reality as emerging from coherence in a substrate. Debailleul desc
 - `translations/2026-08-29-what-is-scalar-energy-fr.md`
 - `translations/2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md` (referenced)
 - `translations/2026-08-29-portance-du-vide-burtin-en.md` (referenced)
-- `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md` (referenced)
+- `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md` (referenced)
 
 ---
 

@@ -43,7 +43,7 @@ In the 1930s, Léon Chaumery and André de Belizal developed a systematic theory
 
 **Megalithic connection:** Chaumery and de Belizal conducted extensive experiments at the Great Pyramid, concluding that its shape and orientation create specific form wave concentrations. They proposed that ancient builders understood and utilized these principles.
 
-**Source:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`
+**Source:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md`
 
 ---
 
@@ -60,7 +60,7 @@ Key contributions:
 
 **Megalithic connection:** Enel's Egyptian research proposes that temples were built at specific locations and with specific geometries to interact with earth and cosmic energies — a direct parallel to megalithic site selection claims.
 
-**Source:** `translations/2026-08-29-enel-lettre-crocodile-en.md`
+**Source:** `translations/2026-08-29-enel-lettre-crocodile-fr-en.md`
 
 ---
 
@@ -93,7 +93,7 @@ Key contributions:
 
 **Megalithic connection:** The Peyré network adds another layer to the energetic analysis of sacred sites — the claim that megalithic builders utilized multiple overlapping networks.
 
-**Source:** `translations/2026-08-29-hotie-viviane-broceliande-en.md`
+**Source:** `translations/2026-08-29-hotie-viviane-broceliande-fr-en.md`
 
 ---
 
@@ -126,7 +126,7 @@ Key practices:
 
 **Megalithic connection:** The Hotié de Viviane study demonstrates how these methods are applied to a specific megalithic site — mapping networks, identifying vortices, designing circuits, and measuring effects.
 
-**Source:** `translations/2026-08-29-hotie-viviane-broceliande-en.md`
+**Source:** `translations/2026-08-29-hotie-viviane-broceliande-fr-en.md`
 
 ---
 
@@ -215,10 +215,10 @@ Both describe a field that is shaped by geometry and in turn shapes physical rea
 
 ## Sources Connected
 
-- `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`
-- `translations/2026-08-29-enel-lettre-crocodile-en.md`
+- `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md`
+- `translations/2026-08-29-enel-lettre-crocodile-fr-en.md`
 - `translations/2026-08-29-radiesthesie-geobiologie-broceliande-en.md`
-- `translations/2026-08-29-hotie-viviane-broceliande-en.md`
+- `translations/2026-08-29-hotie-viviane-broceliande-fr-en.md`
 - `translations/2026-08-29-rgh-besson-en.md`
 - `translations/2026-08-29-psicogeometria-en.md` (referenced)
 

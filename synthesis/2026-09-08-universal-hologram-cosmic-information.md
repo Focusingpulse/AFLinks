@@ -185,7 +185,7 @@ Manzalini proposes that the consciousness field's curvature is associated with N
 
 This provides a quantum mechanical basis for form waves.
 
-**Source:** `translations/2026-09-07-consciousness-field-quantum-potential-it.md`
+**Source:** `translations/2026-09-01-field-quantum-potential-consciousness-it.md`
 
 ---
 
@@ -335,7 +335,7 @@ Together, they form a coherent picture: **the cosmos is an information storage a
 - `translations/2026-08-29-morphic-resonance-sheldrake-en.md` — Sheldrake, morphic fields and cosmic memory
 - `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md` — Centre Ganesha, form wave history
 - `translations/2026-08-29-matiere-aether-d-benaros-en.md` — Benaros, memory in cohesion
-- `translations/2026-09-07-consciousness-field-quantum-potential-it.md` — Manzalini, consciousness as quantum field
+- `translations/2026-09-01-field-quantum-potential-consciousness-it.md` — Manzalini, consciousness as quantum field
 
 ---
 

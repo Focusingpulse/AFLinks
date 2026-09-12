@@ -81,7 +81,7 @@ Key claims:
 
 **Geometric aspect:** Vacuum tension is a geometric property of the medium. Gravity emerges from the geometry of vacuum tension gradients. The Michaud bridge suggests that particle geometry (confined EM fields) determines local vacuum tension.
 
-**Source:** `translations/2026-08-31-tuo-wave-universe-theory-fr.md`, `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`
+**Source:** `translations/2026-09-04-tuo-theory-fr-en.md`, `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md`
 
 ---
 
@@ -247,8 +247,8 @@ Ponce de León's psychogeometry and Toba60's cymatics both describe geometry as 
 
 - `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
 - `translations/2026-08-29-matiere-aether-d-benaros-en.md`
-- `translations/2026-08-31-tuo-wave-universe-theory-fr.md`
-- `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`
+- `translations/2026-09-04-tuo-theory-fr-en.md`
+- `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md`
 - `translations/2026-08-31-shipov-torsion-fields-technologies-ru.md`
 - `translations/2026-08-31-compendium-vortex-physics-complete-de.md`
 - `translations/2026-08-29-psicogeometria-en.md`

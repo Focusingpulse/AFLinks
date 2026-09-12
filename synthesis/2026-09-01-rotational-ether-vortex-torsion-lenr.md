@@ -94,7 +94,7 @@ Key claims:
 
 **Vacuum aspect:** The vacuum has a tension state that varies locally. This tension organizes spacetime geometry and generates gravity. The vacuum is not passive but has intrinsic organizational structure.
 
-**Source:** `translations/2026-08-31-tuo-wave-universe-theory-fr.md`, `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`
+**Source:** `translations/2026-09-04-tuo-theory-fr-en.md`, `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md`
 
 ---
 
@@ -240,11 +240,11 @@ Maillot's vacuum tension and Del Giudice's water coherence domains both describe
 
 - `translations/2026-08-31-compendium-vortex-physics-complete-de.md`
 - `translations/2026-08-31-shipov-torsion-fields-technologies-ru.md`
-- `translations/2026-08-31-tuo-wave-universe-theory-fr.md`
+- `translations/2026-09-04-tuo-theory-fr-en.md`
 - `translations/2026-08-30-prometheus-lenr-reactor-it.md`
 - `translations/2026-08-30-del-giudice-pollack-ez-water-it.md`
 - `translations/2026-08-29-matiere-aether-d-benaros-en.md`
-- `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`
+- `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md`
 - `translations/2026-08-28-akimov-shipov-torsion-field-research-ru.md`
 - `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` (referenced)
 

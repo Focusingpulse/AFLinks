@@ -66,7 +66,7 @@ Key claims:
 
 **Connection to Spyridis:** Both traditions assert that geometric form has physical effects. Spyridis derives this from the Timaeus; Chaumery/de Belizal discovered it empirically through pendulum detection. Neither cites the other, yet both arrive at the same core claim: shape emits.
 
-**Source:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`
+**Source:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md`
 
 ---
 
@@ -262,7 +262,7 @@ Both reduce physics to a small set of geometric primitives. Both claim that the 
 ## Sources Connected
 
 - `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md`
-- `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`
+- `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md`
 - `translations/2026-08-29-psicogeometria-en.md`
 - `translations/2026-08-30-compendium-vortex-physics-de.md`
 - `translations/2026-08-29-geometria-sacra-del-suono-en.md`

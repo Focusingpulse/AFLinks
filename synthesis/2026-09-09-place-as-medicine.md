@@ -273,7 +273,7 @@ The synthesis is complete when we recognize: Feng Shui IS geobiology IS torsion 
 ## Sources
 
 1. `translations/2026-09-08-origines-geobiologie-geobios-fr-en.md` — Geobios, origins of geobiology
-2. `translations/2026-09-07-consciousness-field-quantum-potential-it.md` — Manzalini, consciousness as quantum field
+2. `translations/2026-09-01-field-quantum-potential-consciousness-it.md` — Manzalini, consciousness as quantum field
 3. `translations/2026-09-07-extended-electromagnetism-schadach-de.md` — Schadach, extended EM theory
 4. `translations/2026-09-07-radiesthesie-histoire-vibratis-fr-en.md` — Vibratis, radiesthesia history
 5. `translations/2026-09-08-radiesthesie-radionique-ondes-formes-fr-en.md` — Radiesthesia and radionics

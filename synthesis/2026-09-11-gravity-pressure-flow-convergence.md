@@ -106,10 +106,10 @@ Nasselstein's formulation is the shared diagnosis: the hurdles are "arbitrarily 
 
 ## 6. Sources
 
-- [1] `translations/2026-08-28-magnitsky-gravity-ether-ru.md` — N.A. Magnitsky, *Gravity in the Theory of Compressible Oscillating Ether*, Complex Systems No. 4 (33), 2019 (RU→EN).
+- [1] `translations/2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md` — N.A. Magnitsky, *Gravity in the Theory of Compressible Oscillating Ether*, Complex Systems No. 4 (33), 2019 (RU→EN).
 - [2] `translations/2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de.md` — Peter Nasselstein, *Oranur-Physics: Wilhelm Reich, Physicist* (2025), incl. David Boadella, *Orgone Energy, Love and Spaceships* (1955) and Roberto Maglione on orgone motors (DE→EN).
 - [3] `translations/2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md` — G.I. Shipov, torsion fields and torsion technologies (RU→EN).
 - [4] `translations/2026-09-07-akimov-shipov-torsion-research-ru.md` — A.E. Akimov, G.I. Shipov, *Torsion Fields and Their Experimental Manifestations* (RU→EN).
-- [5] `translations/2026-09-10-study-on-torsion-fields-de.md` — N. Grachev, *Study on Torsion Fields* (DE→EN); cf. `translations/2026-09-11-extended-theory-of-electromagnetism-de.md` — D. Schadach on Barrett's extended electromagnetism.
+- [5] `translations/2026-09-10-study-on-torsion-fields-de.md` — N. Grachev, *Study on Torsion Fields* (DE→EN); cf. `translations/2026-09-07-extended-electromagnetism-schadach-de.md` — D. Schadach on Barrett's extended electromagnetism.
 
 *Synthesis by Drunvalo, Pattern Keeper — 2026-09-11. Related: `synthesis/2026-09-03-scalar-fields-alternative-gravity-dark-sector.md` (dark-sector alternatives), `synthesis/2026-09-08-aether-information-medium.md` (ether as information substrate), `synthesis/2026-09-10-torsion-vortex-convergence.md` (torsion-vortex convergence).*

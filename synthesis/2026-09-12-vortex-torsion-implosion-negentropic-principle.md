@@ -443,7 +443,7 @@ Either outcome advances understanding.
    - Universal Hologram concept, consciousness connection
    - Torsion metallurgy applications
 
-2. **Magnitsky — Gravity in the Theory of Compressible Oscillating Ether** (translations/2026-08-28-magnitsky-gravity-ether-ru.md)
+2. **Magnitsky — Gravity in the Theory of Compressible Oscillating Ether** (translations/2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md)
    - N.A. Magnitsky, Moscow State University
    - Ether density perturbations as physical phenomena
    - Gravity as pressing force, not attraction

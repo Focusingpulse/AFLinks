@@ -455,7 +455,7 @@ Either outcome advances understanding.
 
 ## Sources
 
-1. **Platonic Theory of Everything and Spyridis Unified Theory of Electro-Strong Interaction** (translations/2026-09-10-platonic-theory-of-everything-and-spyridis-unified-theory-of-el.md)
+1. **Platonic Theory of Everything and Spyridis Unified Theory of Electro-Strong Interaction** (translations/2026-09-02-spyridis-platonic-theory-of-everything-el.md)
    - Charalambos Ch. Spyridis, University of Athens
    - Pythagorean mathematical science, Platonic solids as force carrier templates
    - Geometric harmony in cube's 6-8-12 structure
@@ -475,7 +475,7 @@ Either outcome advances understanding.
    - Consciousness as quantum field with form factors
    - Nambu-Goldstone boson condensation
 
-5. **Del Giudice Explains Pollack's Fourth Phase of Water** (translations/2026-09-10-del-giudice-explains-pollack-s-fourth-phase-of-water-it.md)
+5. **Del Giudice Explains Pollack's Fourth Phase of Water** (translations/2026-08-30-del-giudice-pollack-ez-water-it.md)
    - Emilio Del Giudice
    - Membrane geometry determines water electronic properties
    - Quantum coherence in biological water

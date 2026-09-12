@@ -66,7 +66,7 @@ Key claims:
 
 **Theoretical precedent:** Hermann Bondi and William Bonnor analyzed negative mass in general relativity in the 1950s. The Dirac-Milne model is the first complete cosmology built on this foundation.
 
-**Source:** `translations/2026-08-29-univers-sans-matiere-noire-chardin-en.md`
+**Source:** `translations/2026-08-29-univers-sans-matiere-noire-chardin-fr-en.md`
 
 **Constraint update (added 2026-09-03):** ALPHA-g has now published its first gravity measurement of antihydrogen (Nature, 2023-09-27): a_g = (0.75 ± 0.13 (stat+sys) ± 0.16 (sim))g, directed downward — consistent with ordinary gravitational attraction at ~20% precision and consistent with the weak equivalence principle. Repulsive antigravity of magnitude 1g between Earth and antihydrogen is ruled out (probability < 10⁻¹⁵), and the paper states its results "do not support cosmological models relying on repulsive matter–antimatter gravitation." This is a direct mainstream constraint on the Chardin/Dirac-Milne thread: it does not fully close the model (precision ~20% of g; Gbar and AEgIS use different systematics and remain pending), but the framework's core premise now carries a specific, published experimental tension.
 
@@ -121,7 +121,7 @@ Key claims:
 
 **Cosmological aspect:** This tradition provides the conceptual bridge between quantum field theory and cosmology. If vacuum energy is real and gravitates, then the "dark sector" may be vacuum energy itself, properly understood.
 
-**Source:** `translations/2026-08-29-ether-einstein-constante-cosmologique-en.md`
+**Source:** `translations/2026-08-29-ether-einstein-constante-cosmologique-fr-en.md`
 
 ---
 

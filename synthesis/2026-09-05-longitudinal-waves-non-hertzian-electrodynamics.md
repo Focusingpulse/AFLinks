@@ -254,7 +254,7 @@ This synthesis connects to several previous syntheses in the archive:
 | `translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md` | Spanish | Vortex physics, ether dynamics | Theoretical framework for implosion-based propulsion |
 | `translations/2026-09-09-compendium-of-vortex-physics-de.md` | German/Swiss | Vortex physics | Systematization of European vortex research |
 | `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` | Austrian/German | Implosion technology | Schauberger's patent for molecular control via spiral flow |
-| `translations/2026-09-05-acqua-viva-schauberger-it.md` | Austrian/Italian | Water vortex, implosion | Comprehensive Schauberger biography and research |
+| `translations/2026-09-05-acqua-viva-schauberger-it-en.md` | Austrian/Italian | Water vortex, implosion | Comprehensive Schauberger biography and research |
 | `translations/2026-09-03-theorie-univers-onde-fr.md` | French | Vacuum tension, scalar field | TUO theory: vacuum tension as electromagnetic origin |
 | `translations/2026-09-03-tuo-classical-formalism-fr.md` | French | Vacuum tension, gravity | TUO classical formalism linking Maxwell to vacuum tension |
 

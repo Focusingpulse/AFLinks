@@ -73,7 +73,7 @@ In the 1930s, Léon Chaumery and André de Belizal developed a systematic theory
 
 **Geometric aspect:** The shape itself is the emitter. Geometry is not just a container but an active source of specific vibratory signatures.
 
-**Source:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`
+**Source:** `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md`
 
 ---
 
@@ -103,7 +103,7 @@ The Φκ project (2025) proposes a scalar field replacing dark matter and dark e
 
 **Geometric aspect:** The scalar field is a local modification of spacetime's informational state. Geometry encodes the field's distribution.
 
-**Sources:** `translations/2026-08-29-portance-du-vide-burtin-en.md`, `translations/2026-08-28-theorie-phi-scalar-field-fr.md`, `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`
+**Sources:** `translations/2026-08-29-portance-du-vide-burtin-en.md`, `translations/2026-09-10-theorie-phi-scalar-field-coupled-to-baryonic-matter-fr.md`, `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md`
 
 ---
 
@@ -174,12 +174,12 @@ Both claim information propagates non-locally through a subtler medium, and both
 
 - `translations/2026-08-29-morphic-resonance-sheldrake-en.md`
 - `translations/2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md`
-- `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md`
+- `translations/2026-08-29-ondes-de-forme-centre-ganesha-fr-en.md`
 - `translations/2026-08-29-psicogeometria-en.md`
 - `translations/2026-08-29-portance-du-vide-burtin-en.md`
-- `translations/2026-08-28-theorie-phi-scalar-field-fr.md`
-- `translations/2026-08-29-tuo-classical-formalism-maxwell-einstein-vacuum-tension-fr.md`
-- `translations/2026-08-29-ondes-de-forme-vibratis-en.md`
+- `translations/2026-09-10-theorie-phi-scalar-field-coupled-to-baryonic-matter-fr.md`
+- `translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md`
+- `translations/2026-08-29-ondes-de-forme-vibratis-fr-en.md`
 - `translations/2026-08-29-geometria-sacra-del-suono-en.md`
 - `translations/2026-08-29-onde-di-forma-e-geometria-sacra-en.md`
 
