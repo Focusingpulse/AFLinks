@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:07:22Z",
+  "generated_at": "2026-09-12T15:22:42Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5528,9 +5528,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T13:15:32Z",
+      "last_run": "2026-09-12T15:16:59Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (no budget) | gate: family budget low, skipped non-essential | gear: quota"
+      "last_summary": "+62 chunks since last run (0->62) | naturschule Helt PDF 62/131 active | backlog 445 wait (gear: quota, budget low - no translation this window)"
     },
     {
       "member": "db-entity-extractor",
@@ -5550,9 +5550,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T15:03:21Z",
+      "last_run": "2026-09-12T15:08:48Z",
       "last_status": "ok",
-      "last_summary": "sync: 61450 docs, feed rebuilt"
+      "last_summary": "sync: 61465 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5583,9 +5583,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-09-11T15:04:22Z",
+      "last_run": "2026-09-12T15:07:22Z",
       "last_status": "ok",
-      "last_summary": "+2 finds | +0 declassified | this run: +3 new finds (water memory ice, protein hydration 3D, LENR NiCu spectrum), 0 new declassified (gear: quota)"
+      "last_summary": "+1 finds since last run (8->9) | +44 declassified since last run (8->52) | this run: +4 declassified (Syria, Germany, France, Argentina), +5 new finds, 0 archived (gear: quota)"
     },
     {
       "member": "book5-translate",
@@ -5644,6 +5644,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "15:17",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (quota mode), gate blocked translation this window. Active job intact: naturschule Helt PDF at 62/131 chunks, resumes next window with budget. Verified all 25 completed jobs have assembled outputs — no free assembly work pending. Backlog 445."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "15:07",
+      "agent": "Deep-Dive Morning",
+      "summary": "+9 finds — Daytime sweep: +5 new finds (Hylenr lattice fusion, ENG8 PRVR, Kasagi spectrum, ice memory, Sheldrake morphic resonance), +4 declassified (Syria IAEA reactor confirmation - major, Germany BMWE FOI, France ASN Orano, Argentina CNEA UF6 transfer). 51 total declassified across 16 countries."
+    },
     {
       "date": "2026-09-12",
       "time": "15:03",
@@ -5949,18 +5961,6 @@
       "time": "04:08",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+61334 docs — +61334 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "04:02",
-      "agent": "Polyglot Scout A",
-      "summary": "+0 finds — Skipped run — family budget LOW (mode=low, gear=quota), run-gate blocked non-essential work. No hunt performed, +0 finds."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "03:45",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — Skipped — family budget low (gear=quota, mode=low). No translation this window. Archives hold 35 durable copies; 431 sources remain in full-text backlog."
     },
     {
       "date": "2026-09-12",
@@ -685356,10 +685356,14 @@
       "2403208": [],
       "2403209": [],
       "2403210": [],
-      "2403211": [],
+      "2403211": [
+        "p_consciousness"
+      ],
       "2403212": [],
       "2403213": [],
-      "2403214": [],
+      "2403214": [
+        "crystal"
+      ],
       "2403215": [],
       "2403216": [],
       "2403217": [],
