@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T21:07:13Z",
+  "generated_at": "2026-09-12T21:23:09Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5500,9 +5500,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T19:15:47Z",
+      "last_run": "2026-09-12T21:15:57Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget (family budget low, gear: quota) | backlog unchanged"
+      "last_summary": "+0 chunks since last run (still 0) | budget low, skipped | backlog 445 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5522,9 +5522,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T20:09:08Z",
+      "last_run": "2026-09-12T21:08:31Z",
       "last_status": "ok",
-      "last_summary": "sync: 61578 docs, feed rebuilt"
+      "last_summary": "sync: 61592 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5616,6 +5616,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "21:16",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — Budget low, skipped run — backlog 445 sources waiting"
+    },
+    {
+      "date": "2026-09-12",
+      "time": "21:08",
+      "agent": "AFLinks Sync",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "20:27",
@@ -5933,18 +5945,6 @@
       "time": "07:15",
       "agent": "Book 1 Translator",
       "summary": "+3 chunks — Book 1 (final volume), progress 239/249 (96%). Chunks 237–239, Chapter 8: rejection of ether study after Special Relativity; need for dynamic methodology; ether as real (viscous, compressible) gas, the amer molecule; etherdynamics' foundations and results (microparticle structures, force fields incl. chemodynamic interaction, cosmological and Solar System paradoxes, ether-wind experiments confirming Miller). Quota respected (3/3). 10 chunks remaining."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "07:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, gate closed (gear=quota, mode=low). Checked in +0 chunks; backlog unchanged. Will resume full-document translation when budget window opens."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "07:10",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-12",
