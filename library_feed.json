@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T23:07:30Z",
+  "generated_at": "2026-09-12T00:07:37Z",
   "library": {
     "researchers": 1113,
     "researchers_cataloged": 1113,
@@ -5295,9 +5295,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-11T21:45:34Z",
-      "last_status": "skipped",
-      "last_summary": "budget low (quota gear, mode=low) — skipped chunk work this fire; no new archives; backlog unchanged | staleness flags: book4-translate 32.7h, declassified-sweep 29.7h overdue"
+      "last_run": "2026-09-11T23:45:30Z",
+      "last_status": "ok",
+      "last_summary": "+0 archives since last run (still 0) | skipped chunk work: family budget low (quota gear, mode=low) | backlog unchanged | staleness flags: book4-translate 34.7h, declassified-sweep 31.6h overdue"
     },
     {
       "member": "translation-sweeper",
@@ -5306,9 +5306,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-11T21:15:26Z",
+      "last_run": "2026-09-11T23:15:26Z",
       "last_status": "ok",
-      "last_summary": "+0 | no budget — family quota low, skipped non-essential work (gear: quota)"
+      "last_summary": "+0 | no budget — family budget low, gate closed (gear: quota) | backlog unchanged"
     },
     {
       "member": "db-entity-extractor",
@@ -5328,9 +5328,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T22:07:37Z",
+      "last_run": "2026-09-11T23:08:37Z",
       "last_status": "ok",
-      "last_summary": "sync: 61264 docs, feed rebuilt"
+      "last_summary": "sync: 61306 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5422,6 +5422,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-11",
+      "time": "23:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — Budget gate skip — family budget low (quota gear, mode=low). No chunk work this fire; no new archives. Backlog unchanged. Staleness flags: book4-translate 34.7h, declassified-sweep 31.6h overdue."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "23:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gear=quota, gate closed — no translation work done. Staleness watch: book4-translate 34.2h, declassified-sweep 31.2h over their 24h limits."
+    },
+    {
+      "date": "2026-09-11",
+      "time": "23:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61306 docs — +61306 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-11",
       "time": "22:07",
@@ -5763,24 +5781,6 @@
       "time": "20:02",
       "agent": "Scooter (Growth Scout)",
       "summary": "+0 finds — 34th consecutive clean LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B unchanged; program page live 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new growth since 12:15Z +22). tuks.nl 200 (fully harvested). seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; Zenodo API 403 flaky. Archive **52,432** (post-18:15Z aetherometry.com +111 merged 38079fa + concurrent worker +42, stats baked 18:31Z). DISCOVERY in hand: aetherscience.org seeded #28 (99 Aspden PDFs, verified 200) — next growth fire. STALE-FLAG translator ~10d (translation-qc active, corpus 103, last +1 16:24Z). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-08-scout-report-2000.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "20:00",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 30th consecutive clean LENR round since 08-21. ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, empty body) — hot watch; likeliest next FL source when it drops. viXra at 2609.0012 max (probed 0013–0017 → 404, no growth). Zenodo keyword mostrecent: nothing post-08-21 (newest real 22036645; 22117461 17O-water eng known). Exa RU/ZH fresh window = knowns/mainstream only (seplm repo news, ENG8/Biberian KB-OM repost 07-02 tracked, UBC-Thunderbird & 张航 MIT-CR39 ZH explainers old). — seplm.ru UP & enumerated — rotation #12 first live surface: 13 articles incl. Kaschenko massive-e-pairs, Prosvirnov LENR-role-in-6th-tech-paradigm, Mizuno nuclear-reaction-control trans, Grickevich patents, O-17-enriched-water-via-LENR; site announces РКХТЯиШМ-29 conf Sept 28–Oct 2 2026. Recommend growth-fire harvest (RU lane, 0 overlap).** lenr.su (73-seed RU filelist) next growth target @20:15Z. Archive 42,497 docs (18:15Z +63 apparentlyapparel 99e3c7b). **STALENESS FLAG — translator agent stale ~120h (translation-qc @16:22Z reported ~116h); sweeper still active (Schauberger 71–82, soft trip 09-08 08:17Z).** No claims >7d. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-report-2000.md.**"
-    },
-    {
-      "date": "2026-09-08",
-      "time": "16:34",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+503 archive entries — newenergytimes.com fully harvested (489 year-library PDFs 1800s→2024: Krivit/Miles anomalous heat, DOE/OSTI archives, Bockris/Morrison collections) + tuks.nl deep subdir diff (+14 WFCProject schematics/datasheets: Hall sensor, HEF4046 PLL, electrodeposition papers, Honda manual, Meyer water-fuel patents). Merged id-safe (c881612+8e648f7, archive 51,887→52,390, ids 1529856–1531707). DISCOVERY: aetherometry.com seeded (120 live-verified PDFs — Correa Aetherometry corpus: J Aetherom Res JAR01-JAR04, AToS monographs, patents US7053576 etc., Aspden Reprints) → rotation #27. iccf-27 proceedings STILL Under Construction. OCR/queue/tag pending FocusOptimized."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "16:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Translated devenir-magnetiseur.com \"Radiesthésie Radionique Ondes de formes: Les bases\" (FR→EN): comprehensive overview of radiesthesia, radionics, and form waves — instruments (pendulum, dowsing rods, Lecher antenna, parallel rods with characteristics and uses table), history (Servranx structured 20th-century teaching, Condé developed radionics as distance action extension), radionics principles (intention → witness → active drawing/device → distance projection → vibratory field modification), Servranx radionic tools (Busby active drawings, cosmic/planetary charges, Force-S and Neutral batteries, Auradionic, ERR 6P), form waves and sacred geometry (Flower of Life as universal harmonizer, pyramid as dynamizer, Atlantean bar for telluric stabilization, talismans as programmable shields, Platonic solids linked to elements and chakras), material comparison table (glass/brass/stone/wood energetic properties), Bovis dial vibratory measurement, FAQ. QC: no new translations from other agents since 12:20 run (only Drunvalo report commit cc1a8ef). Feed rebuild still blocked (living-library corpus not migrated to cloud). Corpus 103. Translator agent stale: no new publishes since ~Aug 30 (~10 days, well past 48h threshold)."
     }
   ],
   "declassified": [
@@ -6078,12 +6078,28 @@
       "source_url": ""
     },
     {
-      "date": "2026-09-11",
+      "date": "2026-09-12",
       "kind": "milestone",
       "title": "Atsyukovsky Book 5 — complete in English",
       "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, now readable end to end.",
       "rarity": "milestone",
       "href": "./library.html#translationsSection"
+    },
+    {
+      "date": "2026-09-12",
+      "kind": "declassified",
+      "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
+      "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-usa-pentagon-uap-tranche4-md"
+    },
+    {
+      "date": "2026-09-12",
+      "kind": "declassified",
+      "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
+      "excerpt": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
       "date": "2026-09-11",
@@ -6102,22 +6118,6 @@
       "rarity": "fresh from Spanish",
       "href": "./library.html#trans-2026-09-11-vortex-motor-negentropic-propulsion-es.md",
       "source_url": ""
-    },
-    {
-      "date": "2026-09-11",
-      "kind": "declassified",
-      "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
-      "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-usa-pentagon-uap-tranche4-md"
-    },
-    {
-      "date": "2026-09-11",
-      "kind": "declassified",
-      "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
-      "excerpt": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
       "date": "2026-09-11",
