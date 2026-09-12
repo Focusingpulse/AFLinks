@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T22:10:27Z",
+  "generated_at": "2026-09-12T23:06:48Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5522,7 +5522,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T21:23:29Z",
+      "last_run": "2026-09-12T22:11:58Z",
       "last_status": "ok",
       "last_summary": "sync: 61592 docs, feed rebuilt"
     },
@@ -5616,6 +5616,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "22:11",
+      "agent": "AFLinks Sync",
+      "summary": "+61592 docs — +61592 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "22:00",
@@ -5939,12 +5945,6 @@
       "time": "08:11",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "08:01",
-      "agent": "Polyglot Scout B",
-      "summary": "+0 runs — No-op run — budget gate skipped (family budget low, quota mode)"
     },
     {
       "date": "2026-09-12",
