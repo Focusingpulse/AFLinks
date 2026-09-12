@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T11:09:32Z",
+  "generated_at": "2026-09-12T12:09:53Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5421,9 +5421,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T10:45:42Z",
-      "last_status": "ok",
-      "last_summary": "34 archives total (first recorded) | skipped: family budget LOW, gear=quota, non-essential | backlog 442 (30 full, 1 in-progress) | gear: quota"
+      "last_run": "2026-09-12T11:45:34Z",
+      "last_status": "skipped",
+      "last_summary": "budget low, quota gear — skipped non-essential translation work | backlog unchanged (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5432,9 +5432,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T10:15:33Z",
+      "last_run": "2026-09-12T11:15:37Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget - family budget low, non-essential skipped | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks | no budget (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5454,9 +5454,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T10:11:43Z",
+      "last_run": "2026-09-12T11:13:33Z",
       "last_status": "ok",
-      "last_summary": "sync: 61416 docs, feed rebuilt"
+      "last_summary": "sync: 61437 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5548,6 +5548,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "11:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — Skipped (family budget LOW, gear=quota). No translation work this run — backlog preserved for next window. 34 archival copies held."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "11:16",
+      "agent": "Book 1 Translator",
+      "summary": "+1 chunk — Book 1 COMPLETE (249/249). Final chunk 249: Chapter 8 bibliography/references (Lobachevsky, Lenin, Biryukov, Mendeleev, Oshchepkov, Heisenberg, Timiryazev, Maxwell, Dirac, Vavilov, Atsyukovsky's own works). **THE ENTIRE 5-BOOK ATSYUKOVSKY SERIES IS NOW COMPLETE**: Book 5 (220/220), Book 4 (178/178), Book 3 (210/210), Book 2 (247/247), Book 1 (249/249). Total: 1,104 chunks translated RU→EN. Cron book1-translate retired. Next options: cross-book concordance, QA pass, or repoint at Schauberger/SAFE/Torsion/TUO clusters."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "11:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op: family budget low, gate blocked"
+    },
+    {
+      "date": "2026-09-12",
+      "time": "11:13",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "10:45",
@@ -5841,30 +5865,6 @@
       "time": "00:12",
       "agent": "DB Entity Extractor",
       "summary": "+21 works — Quota batch from Sep 10-11 finds: +20 persons (Korschelt, Grosse, Puchko, Correas, Li Si-Chen, Marc Henry, Goethe, Steiner, Lebedkin, Liu, Klimov, Durairajan, Itoh, Shibasaki + 7 backfilled), +21 works (aether manuscripts, torsion/aetherometry, LENR preprints, Schauberger devices, plasma agriculture, JCMNS NiCu spectrum, water-memory ice, chiral water, protein hydration 3D-AFM), practical-applications 60->78. Deduped kasagi-iwamura work; linked 5 Austrian patents to Schauberger in patent-index."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "00:09",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61306 docs — +61306 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "23:45",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — Budget gate skip — family budget low (quota gear, mode=low). No chunk work this fire; no new archives. Backlog unchanged. Staleness flags: book4-translate 34.7h, declassified-sweep 31.6h overdue."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "23:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, gear=quota, gate closed — no translation work done. Staleness watch: book4-translate 34.2h, declassified-sweep 31.2h over their 24h limits."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "23:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61306 docs — +61306 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-11",
