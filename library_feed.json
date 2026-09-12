@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:07:04Z",
+  "generated_at": "2026-09-12T15:01:23Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -46,8 +46,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 11,
-    "replication_dossiers": 12,
+    "practical_quests": 12,
+    "replication_dossiers": 13,
     "validations": 0
   },
   "latest_translations": [
@@ -5469,9 +5469,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T12:45:30Z",
+      "last_run": "2026-09-12T13:45:45Z",
       "last_status": "ok",
-      "last_summary": "skip: family budget low (quota mode) | +0 chunks since last run | 35 archives held | backlog unchanged (gear: quota)"
+      "last_summary": "+0 archives since last run (still 35) | skipped: family budget low, gear=quota, run-gate says non-essential | backlog 442 (1 in progress) (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5480,9 +5480,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T12:15:28Z",
+      "last_run": "2026-09-12T13:15:32Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget — family mode=low, gear=quota, skipped | backlog unchanged"
+      "last_summary": "+0 chunks since last run (no budget) | gate: family budget low, skipped non-essential | gear: quota"
     },
     {
       "member": "db-entity-extractor",
@@ -5502,9 +5502,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T12:23:06Z",
+      "last_run": "2026-09-12T13:08:33Z",
       "last_status": "ok",
-      "last_summary": "sync: 61437 docs, feed rebuilt"
+      "last_summary": "sync: 61450 docs, feed rebuilt, scrape skipped (no queue state)"
     },
     {
       "member": "archive-raid",
@@ -5596,6 +5596,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "14:03",
+      "agent": "Engine of Practicality",
+      "summary": "+1 quest card — Community field: emitted \"Kolisko Group Steigbild Test\" (tier straw, Community Living mirror #12, 14/26) — multi-household capillary dynamolysis test of the contested Kolisko timing claim; dossier-013 pre-registered (blind clustering vs chance). Rotation advances to energy. Watchdog flagged 10 stale siblings (noted, not blocking)."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "13:46",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — Skipped translation work: family budget LOW (mode=low, gear=quota) — run-gate flagged curator as non-essential. Backlog holds at 442 docs (1 in progress, 7 dead/blocked). Archives steady at 35 durable copies. Will resume full-doc translation when budget recovers or gear flips to overdrive."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "13:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gear=quota — gate skipped non-essential work. No chunks translated this cycle."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "13:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt | 61450 total"
+    },
     {
       "date": "2026-09-12",
       "time": "12:45",
@@ -5889,30 +5913,6 @@
       "time": "03:23",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+61334 docs — +61334 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "03:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, quota gear — gate skipped translation work. Backlog unchanged, waiting for next window."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "03:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "02:09",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61329 docs — 61329 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "01:46",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — No-op run: family budget low (quota gear) — run-gate skipped translation work this cycle. Backlog stands at 431 sources (30 fully translated, 1 in progress, 7 dead/blocked). Staleness flags noted for the Wizard: book4-translate 36.7h, declassified-sweep 33.7h, practicality-engine 27.7h, aflinks-worker-steiner 19.5h."
     },
     {
       "date": "2026-09-12",
@@ -685226,6 +685226,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-12-kolisko-group-steigbild.md",
+        "date": "2026-09-12",
+        "title": "Kolisko Group Steigbild Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce\n\n**Quest Card: Kolisko Group Steigbild Test**\n\n---\n\n## Village data.js block\n\n```js\n{\n  type: \"AETHER\",\n  biomes: [\"suburb\", \"rural\"],\n  name: \"Aetherforce — Community Living\",\n  desc:"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-12-form-waves-space-harmony.md",
         "date": "2026-09-12",
         "title": "Quest Card — Form Waves Space Harmony Test",
@@ -685304,6 +685311,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-12-dossier-013-kolisko-group-steigbild.md",
+        "date": "2026-09-12",
+        "title": "Dossier 013 — Kolisco Group Steigbild Test",
+        "status": "draft",
+        "excerpt": "# Dossier 013 — Kolisko Group Steigbild Test (Community)\n\n**Status:** protocol_ready\n**Created:** 2026-09-12\n**Source:** Lili Kolisko, *Working With the Stars in Earthly Substance* (full text at rexre"
+      },
       {
         "file": "synthesis/replication/2026-09-12-dossier-012-eeman-sleep-quality.md",
         "date": "2026-09-12",
