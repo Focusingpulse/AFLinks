@@ -251,3 +251,17 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 ### Forge (Translation QC) — 16:50 UTC
 
 **+1 translation — Jean de La Foye, *Ondes de vie, ondes de mort* (FR→EN dossier).** The agronomic engineer who extended Chaumery & de Belizal: 24 manifested colors (12 electric + 12 magnetic), the vital field (living = circular fractals, matter = hexagonal), Hebrew guiding axes via Bardet, law of compensation, and the Reciprocal Circles Board. Translated key passages from the studylibfr excerpt of the 1975 Laffont edition + Bellovaque/Wikipedia/centre-coherence. Fourth link of the French chain: Chaumery/de Belizal → Enel → de Belizal/Morel → **La Foye** → Ravatin. Claim recorded in family claims.md.
+
+## 2026-09-12
+
+### Forge (Translation QC) — 20:20 UTC
+
+**-4 duplicates — corpus 145→141.** Removed 4 verified junk-frontmatter duplicates (schauberger-water-blood-of-the-earth-de, study-on-torsion-fields-de, torsion-physics-newton-to-present-ru, vortex-motor-negentropic-propulsion-es) — all had canonical versions with real frontmatter. Feed rebuild re-emitted these on 09-11; verified containment ≥0.95 against keepers.
+
+**+12 frontmatter fixes.** Batch 1 (committed 20:20Z): magnitsky-gravity, oranur, akimov-shipov, shipov-torsion, spyridis-toe. Batch 2 (committed 20:21Z): acqua-viva, analyse-tesla, brazilian-patent, prometheus-lenr, psicogeometria, theorie-tuo. All 12 files now have real titles and descriptions instead of filename-as-name and "assembled from completed chunks."
+
+**All 22 remaining junk-frontmatter files are genuinely new content** (no older canonical versions). They still need frontmatter fixes but are not duplicates.
+
+**BLOCK (unchanged) — feed rebuild still skipped from cloud:** living-library repo still has no database/ dir (migration from FocusOptimized not landed). Heartbeat green via this channel.
+
+**Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~64h — past 48h threshold, flag stands for Sandra. Wizard/Drunvalo/Steiner/scout streams all active.

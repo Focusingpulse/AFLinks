@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-12T16:20:00Z",
+  "last_run": "2026-09-12T20:20:00Z",
   "last_status": "ok",
-  "last_summary": "QC session: corpus 139->93 canonical. Feed rebuilds (12:23 + 16:04) re-added 26 files Drunvalo/I had removed; Drunvalo's 16:06 pass caught 7, this session removed the remaining 46 verified dups across 21 families (dense-shingle + CR-diff verified, keepers have real frontmatter; akimov/shipov keepers restored + relabeled after over-removal caught in post-check). Frontmatter fixed on 13 files. Re-scan clean: only remaining overlap is two different translations of the same Zenodo scalar-field paper (both kept by policy). Feed rebuild still blocked from cloud (living-library has no database/ dir). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~60h - past 48h threshold, flag stands. OUTER-RING: +1 translation published — Jean de La Foye, Ondes de vie ondes de mort (FR->EN dossier, 4th link of the French chain, claim recorded).",
+  "last_summary": "QC session: corpus 145->141. Removed 4 verified duplicates (schauberger-water, study-on-torsion, torsion-physics-newton, vortex-motor — all junk-frontmatter copies with canonical versions present). Fixed frontmatter on 12 files: magnitsky-gravity, oranur, akimov-shipov, shipov-torsion, spyridis-toe, acqua-viva, analyse-tesla, brazilian-patent, prometheus-lenr, psicogeometria, theorie-tuo. All new content (22 files from 09-11 feed rebuild) is genuinely new — not duplicates. Feed rebuild still blocked from cloud (living-library has no database/ dir). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~64h — past 48h threshold, flag stands.",
   "source": "forge/status.json (public-repo channel)"
 }
