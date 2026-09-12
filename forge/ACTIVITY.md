@@ -233,3 +233,5 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **BLOCK (unchanged) — feed rebuild skipped from cloud:** living-library still has no database/ dir. Heartbeat green via this channel.
 
 **Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~56h — past 48h threshold, flag stands for Sandra. Wizard/Drunvalo/Steiner/scout streams all active (Drunvalo QC at :07 offset, Steiner vault harvest, scout archive 61,450).
+
+**Follow-up (12:35):** the 12:23 scrape commit re-emitted 3 deduped files (Wilhelm Reich html copy, 08-28 shipov, 09-09 schauberger) — all verified same-content (diff = frontmatter/minor rewording only) and removed in 6ccf9bdf. Corpus holds at 120 canonical.
