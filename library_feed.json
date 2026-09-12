@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T09:08:06Z",
+  "generated_at": "2026-09-12T09:22:37Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5432,9 +5432,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T08:15:32Z",
+      "last_run": "2026-09-12T09:15:39Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks | no budget | gear: quota"
+      "last_summary": "+0 chunks since last run (still 0) | no budget — quota gear, family budget low, skipped | backlog unchanged (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5454,9 +5454,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T09:02:10Z",
+      "last_run": "2026-09-12T09:09:50Z",
       "last_status": "ok",
-      "last_summary": "+41 docs since last run (61375->61416) | rebuilt 4 legacy files, new: 999 researchers, 2786 patents, 51 categories"
+      "last_summary": "sync: 61416 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5548,6 +5548,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "09:15",
+      "agent": "Book 1 Translator",
+      "summary": "+3 chunks — Book 1 (final volume), progress 245/249 (98%). Chunks 243–245: Chapter 8 conclusion (three tasks for natural science, victory of materialism, transition to ether as depth level of matter organization) + Literature/bibliography section (references to Introduction, Chapters 1–3: Lenin, Engels, Atsyukovsky, Einstein, Miller ether-wind experiments, Rutherford, Heisenberg). Quota respected (3/3). 4 chunks remaining — Book 1 completes next run."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "09:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: gear=quota, family budget low — run-gate closed, no translation work done. Staleness watchdog flagged 8 members overdue (incl. book4-translate 44h, declassified-sweep 41h) — worth a look when budget frees up."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "09:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "09:03",
@@ -5853,24 +5871,6 @@
       "time": "20:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Léon Chaumery (1880–1957) biography FR->EN — (translations/2026-09-11-leon-chaumery-radiesthesie-fr-en.md): co-founder of the physical school with André de Belizal — the Universal Pendulum \"Louksor\", the FR 816,132 patent (negative green), coiner of \"ondes de formes\", and his death \"completely dehydrated by our negative green ray (V−)\" per de Belizal's own preface. Completes the French-school founder series (Bouly, Mermet, Viré, Henry de France, Chaumery)."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "20:07",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+60768 docs — +60768 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "19:45",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — Skipped run — family budget low (quota mode, mode=low); no translation work this cycle. Will resume when budget recovers."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "19:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low (quota gear, mode=low), no translation quota available this window. No chunks translated; active jobs resume on next fire with budget."
     },
     {
       "date": "2026-09-11",
@@ -684824,50 +684824,86 @@
       "2403112": [],
       "2403113": [],
       "2403114": [],
-      "2403115": [],
+      "2403115": [
+        "geometry_sacred"
+      ],
       "2403116": [],
       "2403117": [],
       "2403118": [],
       "2403119": [],
-      "2403120": [],
+      "2403120": [
+        "scalar"
+      ],
       "2403121": [],
       "2403122": [],
       "2403123": [],
       "2403124": [],
       "2403125": [],
       "2403126": [],
-      "2403127": [],
-      "2403128": [],
-      "2403129": [],
-      "2403130": [],
+      "2403127": [
+        "geometry_sacred"
+      ],
+      "2403128": [
+        "scalar",
+        "tesla",
+        "p_bridge"
+      ],
+      "2403129": [
+        "geometry_sacred"
+      ],
+      "2403130": [
+        "p_formative"
+      ],
       "2403131": [],
       "2403132": [],
       "2403133": [],
       "2403134": [],
       "2403135": [],
       "2403136": [],
-      "2403137": [],
+      "2403137": [
+        "p_formative"
+      ],
       "2403138": [],
       "2403139": [],
-      "2403140": [],
-      "2403141": [],
+      "2403140": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2403141": [
+        "p_formative",
+        "p_nature"
+      ],
       "2403142": [],
       "2403143": [],
-      "2403144": [],
+      "2403144": [
+        "aether"
+      ],
       "2403145": [],
       "2403146": [],
-      "2403147": [],
+      "2403147": [
+        "aether"
+      ],
       "2403148": [],
       "2403149": [],
       "2403150": [],
-      "2403151": [],
-      "2403152": [],
-      "2403153": [],
+      "2403151": [
+        "aether"
+      ],
+      "2403152": [
+        "p_bridge"
+      ],
+      "2403153": [
+        "p_fieldphys"
+      ],
       "2403154": [],
       "2403155": [],
-      "2403156": [],
+      "2403156": [
+        "electrogravitics"
+      ],
       "2403157": [],
-      "2403158": [],
+      "2403158": [
+        "electrogravitics"
+      ],
       "2403159": [],
       "2403160": [],
       "2403161": [],
