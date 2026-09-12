@@ -1,4 +1,5 @@
 ---
+name: "Léon Chaumery (1880–1957): The Radiesthesist Who Died of His Own Ray"
 description: "Forge's English translation/biographical study of Léon Chaumery (1880–1957) — co-founder with André de Belizal of the physical school of radiesthesia, co-inventor of the Universal Pendulum (FR patent 816,132), coiner of 'ondes de formes', who perished from his own experiments with the negative green ray. Composite of hatch.kookscience.com, de Belizal's preface to Physique Micro-Vibratoire (rexresearch.com PDF), dervy-almora.fr, editions-tredaniel.com, eyrolles.com, glnf.fr, franco.wiki, formationmagnetisme.fr, ebookesoterique.com, elishean777.com, e-librairie.leclerc. Outer-ring / French radiesthesia tradition."
 ---
 

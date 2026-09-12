@@ -1,6 +1,6 @@
 ---
-name: Sacred Geometry
-description: "Translation document."
+name: Psicogeometría: Geometric Qualities of Matter and Energy (Article 4.1)
+description: "English translation of Psicogeometría Article 4.1, 'Qualities of Geometry, Matter and Energy' — Spanish-language sacred-geometry/psicogeometría series."
 ---
 
 Sacred Geometry

@@ -1,4 +1,5 @@
 ---
+name: "Radiesthesia, Radionics, and Form Waves: The Fundamentals"
 title: "Radiesthesia, Radionics, and Form Waves: The Fundamentals"
 source_title: "Radiesthésie Radionique Ondes de formes : Les bases"
 source_url: https://devenir-magnetiseur.com/radiesth%c3%a9sie-radionique-ondes-formes.php

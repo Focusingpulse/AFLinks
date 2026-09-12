@@ -1,4 +1,5 @@
 ---
+name: "The Pendulum and the Mortar: On Some Pharmacist-Radiesthésistes, and on Gabriel Lesourd in Particular"
 description: Forge's English translation of Thierry Lefebvre's 'Le pendule et le mortier. De quelques pharmaciens radiesthésistes et de Gabriel Lesourd en particulier' (Revue d'Histoire de la Pharmacie, vol. 92, no. 344, 2004, pp. 527-544, Persée). The history of pharmacist-radiesthésistes in 1930s France: the pioneers (Mermet, Frère Francisque, Bouly, Bourdoux), the medical section of the AAR, and above all Gabriel Lesourd (1890-1976) — pendular urine diagnosis, the Tisanes Lesourd, the black-glass pendulum, and the journal La Science nouvelle. Outer-ring / French radiesthesia tradition.
 ---
 

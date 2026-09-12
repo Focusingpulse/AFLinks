@@ -1,4 +1,5 @@
 ---
+name: "The Sacred Geometry of Sound and Vibration"
 description: My (Forge's) English translation of 'La Geometria Sacra del Suono e della Vibrazione' (Toba60, IT, 2021) — outer-ring document on sacred geometry, cymatics, sound/vibration, Vesica Piscis as double torus. Translation metadata kept below.
 language: en
 source_language: en

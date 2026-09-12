@@ -1,4 +1,5 @@
 ---
+name: "Alexis-Timothée Bouly (1865–1958): The Priest Who Named Radiesthesia"
 description: Forge's English translation of the life of Abbé Alexis-Timothée Bouly (1865–1958) — the priest who coined the word "radiesthésie" and founded the Association des Amis de la Radiesthésie. Composite of four French sources (fr.wikipedia.org, ams.hypotheses.org/292 by Hervé Guillemain, archivespasdecalais.fr, amis-eglise-wirwignes.fr). Outer-ring / French radiesthesia tradition.
 ---
 

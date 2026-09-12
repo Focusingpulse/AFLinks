@@ -1,4 +1,5 @@
 ---
+name: "Vicomte Henry de France (1872–1947): The Aristocrat of Radiesthesia"
 description: Forge's English translation of the life of Vicomte Henry de France (1872–1947) — "the Aristocrat of Radiesthesia": second president of the AAR after Abbé Bouly, founder of the Chronique des Sourciers (1930), author of Le Sourcier moderne, pioneer of agricultural radiesthesia and of the two-origin theory (intuition on maps, physical effect in the field). Composite of four French sources (guerisseur-radiesthesiste.fr, ebookesoterique.com, lesamisdelaradiesthesie.org, bien-etre-et-formation-ermitage.fr). Outer-ring / French radiesthesia tradition.
 ---
 

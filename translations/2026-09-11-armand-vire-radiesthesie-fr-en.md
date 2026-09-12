@@ -1,4 +1,5 @@
 ---
+name: "Armand Viré (1869–1951): The Scientist Who Legitimized the Dowsers"
 description: "Forge's English translation of the life of Armand Viré (1869–1951) — the scientist-president of the AAR. Composite of fr.wikipedia.org, CTHS, Larousse, Inrap, Carrefour des Sciences et des Arts, Société des Études du Lot, medialot.fr, ladepeche.fr. Outer-ring / French radiesthesia tradition."
 ---
 

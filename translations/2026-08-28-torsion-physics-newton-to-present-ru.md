@@ -1,6 +1,6 @@
 ---
-name: ACADEMY OF TRINITARIANISM
-description: "Translation document."
+name: G.I. Shipov — Torsion Physics from Newton to the Present Day, Part I
+description: "English translation of G.I. Shipov, 'Torsion Physics from Newton to the Present Day, Part I' (Academy of Trinitarianism, Institute of Vacuum Physics publications page)."
 ---
 
 ACADEMY OF TRINITARIANISM

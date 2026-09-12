@@ -1,4 +1,5 @@
 ---
+name: "Essay on Vibratory Radiesthesia — Review of the Chaumery & de Bélizal Classic"
 title: "Essay on Vibratory Radiesthesia — Review of the Chaumery & de Bélizal Classic"
 original_title: "Essai de radiesthésie vibratoire"
 source_url: "https://www.glnf.fr/fr/articles/?id=372"

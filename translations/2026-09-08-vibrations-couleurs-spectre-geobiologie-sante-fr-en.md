@@ -1,4 +1,5 @@
 ---
+name: "Color Vibrations of the Spectrum, According to Chaumery and Bélizal"
 title: "Color Vibrations of the Spectrum, According to Chaumery and Bélizal"
 original_title: "Les vibrations couleurs du spectre, selon Chauméry et Bélizal"
 source_url: "https://geobiologie-sante.com/les-vibrations-couleurs-du-spectre-selon-chaumery-et-belizal/"

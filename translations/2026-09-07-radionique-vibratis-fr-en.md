@@ -1,4 +1,5 @@
 ---
+name: "Radionics for Action at a Distance: Mystery and Application"
 title: "Radionics for Action at a Distance: Mystery and Application"
 original_title: "La Radionique pour Agir à Distance"
 source_url: "https://vibratis.fr/radionique/"

@@ -1,4 +1,5 @@
 ---
+name: "The Universal Pendulum: A Detector-Emitter of Waves"
 title: "The Universal Pendulum: A Detector-Emitter of Waves"
 original_title: "Le pendule universel, un détecteur-émetteur d'ondes"
 source_url: "https://centreamyris.be/2023/04/23/le-pendule-universel-recepteur-emetteur-ondes/"

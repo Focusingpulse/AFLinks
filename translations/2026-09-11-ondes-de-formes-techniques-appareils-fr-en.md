@@ -1,4 +1,5 @@
 ---
+name: "Form Waves: Techniques and Apparatus"
 description: "Forge's English translation of the de Belizal apparatus articles from 'Ondes de formes: Techniques et appareils' (idoc.tips excerpt of Servranx-era journal articles): Mental vs Physical Radiesthesia; the 1936 Universal Pendulum technical description; the C.30 Bomb; the Disc Emitter; the Geometric Forms definition of ondes de forme; the Micrometer and its Servranx psychotechnics use. Companion to the FR 816,132 patent translation and the Physique Micro-Vibratoire excerpt. Outer-ring / French radiesthesia tradition (Chaumery-de Belizal school)."
 ---
 

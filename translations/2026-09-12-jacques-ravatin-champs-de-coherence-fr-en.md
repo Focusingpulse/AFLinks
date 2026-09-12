@@ -1,4 +1,5 @@
 ---
+name: "Jacques Ravatin (1935–2011): Forms and Coherence Fields — The Local, the Global, and the Idathème"
 description: "Forge's English translation of the Jacques Ravatin dossier (1935-2011) — the mathematician of the forms and coherence fields: the Local/Global/Idathème framework, EIFS (émissions induites par les formes), Fondation Ark'all, non-Cartesian systems, cumulo-decal arithmetic, ALPHYSIQUE, the pseudonym Vladimir Rosgnik. Composite of solutions-neovie.fr (Jacques Bonvin), editions-arqa.com (Cédric Mannu In Memoriam), projet-lapasserelle.com, galaxidion.com. Outer-ring / French radiesthesia-form tradition, post-Enel lineage."
 ---
 

@@ -1,4 +1,5 @@
 ---
+name: "Abbé Mermet, 'Prince of Dowsers'"
 description: Forge's English translation of 'L'Abbé Mermet, Prince des Sourciers' (composite of ebookesoterique.com, voyance-officielle.com conference account, guerisseur-radiesthesiste.fr, bien-etre-et-formation-ermitage.fr) — the life and method of Abbé Alexis Mermet (1866-1937): family dowser lineage, 1913 Paris congress, téléradiesthésie, pendular diagnosis, AAR presidency, Comment j'opère. Outer-ring / French radiesthesia tradition.
 ---
 

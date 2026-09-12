@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-schauberger-water-blood-of-the-earth-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: Viktor Schauberger — Water: The Blood of the Earth (Document Sampler)
+description: "English translation of the Viktor Schauberger document sampler 'Wasser — Das Blut der Erde' (2004 revised edition) — compiled primary-source excerpts."
 ---
 
 Viktor Schauberger

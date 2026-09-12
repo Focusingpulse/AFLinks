@@ -1,4 +1,5 @@
 ---
+name: "The Chaumery–de Belizal Radiesthesia Patent FR 816,132 (1936): *Procédé et appareillage radiesthésiques* — The Universal"
 description: Forge's English translation of the Chaumery & de Belizal radiesthesia patent FR 816,132 (filed 10 April 1936, granted 30 July 1937) — "Procédé et appareillage radiesthésiques" — the founding legal document of the French form-wave school: the Universal Pendulum, the negative-green ray, cosmo-magnetic batteries, and the "decomposition of the spectrum in the sphere" method. Composite of the espacenet/Kook Science patent abstract and the patent-adjacent apparatus chapters of de Belizal & Morel, Physique Micro-Vibratoire et Forces Invisibles (1976). Outer-ring / French radiesthesia tradition / primary-source patent layer.
 ---
 

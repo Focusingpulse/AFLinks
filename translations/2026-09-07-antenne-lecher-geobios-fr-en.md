@@ -1,4 +1,5 @@
 ---
+name: "The Lecher Antenna: The Essential Tool of the Professional Geobiologist"
 title: "The Lecher Antenna: The Essential Tool of the Professional Geobiologist"
 original_title: "L'antenne de Lecher, l'outil incontournable du géobiologue professionnel"
 source_url: "https://www.geobios.com/geobiologie/le-geobiologue-professionnel/antenne-de-lecher/"

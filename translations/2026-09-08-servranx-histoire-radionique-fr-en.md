@@ -1,4 +1,5 @@
 ---
+name: "Editions Servranx: Who We Are & The Origins of Radionics"
 description: "Forge's English translation of Editions Servranx 'Qui sommes-nous' + 'Origines de la radionique' (servranx.com, FR) — Servranx brothers biography, journal LRPT (1946–1967), EXDOCIN dossiers, origins of radionics from Abrams through Drown/Boyd, four paths of radionics. Outer-ring / French radiesthesia tradition."
 ---
 

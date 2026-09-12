@@ -1,4 +1,5 @@
 ---
+name: "Radiesthesia: History, Scientific Evidence, and Applications"
 date: 2026-09-07
 title: "Radiesthesia: History, Scientific Evidence, and Applications"
 domain: radiesthesia

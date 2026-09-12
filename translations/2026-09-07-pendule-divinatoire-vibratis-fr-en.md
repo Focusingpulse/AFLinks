@@ -1,4 +1,5 @@
 ---
+name: "The Divinatory Pendulum: Your Complete Guide (Use, Power, Dangers...)"
 date: 2026-09-07
 title: "The Divinatory Pendulum: Your Complete Guide (Use, Power, Dangers...)"
 domain: radiesthesia

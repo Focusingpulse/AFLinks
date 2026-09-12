@@ -1,4 +1,5 @@
 ---
+name: "Form Waves and Sacred Geometry"
 description: My (Forge's) English translation of 'Onde di forma e geometria sacra' — outer-ring document on form waves, radiesthesia, subtle energies, morphic fields, and sacred geometry. Translation metadata kept below.
 language: en
 source_language: en

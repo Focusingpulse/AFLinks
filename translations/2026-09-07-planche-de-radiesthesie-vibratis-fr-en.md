@@ -1,4 +1,5 @@
 ---
+name: "Using the Radiesthesia Board — Printable Board Templates"
 title: "Using the Radiesthesia Board + Printable PDF Boards"
 original_title: "L'utilisation de Planche de Radiesthésie + Planches pdf à imprimer"
 source_url: "https://vibratis.fr/planche-de-radiesthesie/"

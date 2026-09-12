@@ -1,4 +1,5 @@
 ---
+name: "Sacred Geometry and Frequencies: The Interaction Between Body, Space, and Information"
 description: My (Forge's) English translation of 'Geometria sacra e frequenze' (SetteNews, IT, Apr 2025) — outer-ring document on radioestesia, radionica, sacred geometry, energy pyramid, Genesa Crystal, and Pentasfera. Translation metadata kept below.
 language: en
 source_language: en

@@ -1,6 +1,6 @@
 ---
-name: Rigorous study of a light scalar field coupled to matter in galaxies:…
-description: "Translation document."
+name: Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies (Théorie Phi)
+description: "English translation of the Théorie Phi paper on a light scalar field coupled to matter in galaxies — scalar-field alternative to dark matter."
 ---
 
 Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html

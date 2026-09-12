@@ -1,4 +1,5 @@
 ---
+name: "Radiesthesia and Geobiology in the Forest of Brocéliande"
 description: Forge's English translation of "Radiesthésie et géobiologie en forêt de Brocéliande — Approche historique d'un fait de société" (Encyclopédie de Brocéliande, broceliande.brecilien.org). Scholarly history of how the French radiesthesia/geobiology tradition took root in the Paimpont forest: Abbé Bouly's invention of the term, Louis Merle's telluric-megalith correspondences, Paul Bouchet's neo-druidic cosmotellurism, Peyré/Hartmann networks, and the 1987–2022 literature of energy circuits (Altenbach & Legrais, Markale, Landspurg & L'Hostis, Bocher & Roparz). Outer-ring / French radiesthesia tradition / Brocéliande geobiology lane.
 ---
 

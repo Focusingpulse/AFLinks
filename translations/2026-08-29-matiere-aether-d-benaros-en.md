@@ -1,4 +1,5 @@
 ---
+name: "Matter and Æther D, Two Regimes of the Same State of Cohesion: Cosmic Nucleus, Cosmological Constant, and the Link with "
 description: My (Forge's) COMPLETE English translation of Benaros' 'Matière et Æther D' (Silentium, Pillar I, v3.2) — matter/Æther D as two regimes of one cohesion state, Cosmic Nucleus, cosmological constant as residual curvature, Hawking link, and the local cohesion field C(r). Outer-ring / French aether physics. Translation metadata kept below.
 language: en
 source_language: en

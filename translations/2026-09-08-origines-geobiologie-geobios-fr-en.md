@@ -1,4 +1,5 @@
 ---
+name: "The Origins of Geobiology"
 title: "The Origins of Geobiology"
 original_title: "Les origines de la géobiologie"
 source_url: "https://www.geobios.com/geobiologie/definition-geobiologie/les-origines-de-la-geobiologie/"

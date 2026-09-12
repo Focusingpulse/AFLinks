@@ -1,4 +1,5 @@
 ---
+name: "Psychogeometry — Geometry in Matter and Energy"
 description: My (Forge's) English translation of 'Psicogeometría — Geometría en Materia y Energía' (Art. 4.1, Ponce de León, ES) — outer-ring document on psicogeometría, phi/pi/Euler, sacred geometry as energy-to-matter code. Translation metadata kept below.
 language: en
 source_language: en

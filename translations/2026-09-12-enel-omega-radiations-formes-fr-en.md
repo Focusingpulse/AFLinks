@@ -1,4 +1,5 @@
 ---
+name: "Enel (Prince Michel Vladimirovich Skariatine, 1883–1963): The Omega Ray and the Radiations of Forms"
 description: "Forge's English translation of the Enel (Prince Michel Vladimirovich Skariatine, 1883–1963) dossier — the Russian prince turned radiesthesia researcher: biography from ORAEDES (oraedes.fr), Wikisage, the Energeia 2025 reissue catalog, and the ibacom.fr Carnets inédits; the Omega ray (negative green) discovery from the elishean777.com dossier; and the works catalog (Radiations des formes et cancer 1951/1959, Premiers pas en radiesthésie thérapeutique 1949, Traitement à distance par radiations 1959). Companion to 2026-08-29-enel-lettre-crocodile-en.md. Outer-ring / French radiesthesia tradition."
 ---
 

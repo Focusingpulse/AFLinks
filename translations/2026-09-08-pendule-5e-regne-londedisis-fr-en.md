@@ -1,4 +1,5 @@
 ---
+name: "The Pendulum of the Fifth Kingdom: Chaumery, de Bélizal, and the Universal Pendulum"
 title: "The Pendulum of the Fifth Kingdom: Chaumery, de Bélizal, and the Universal Pendulum"
 original_title: "Le Pendule du 5e Règne"
 source_url: "https://www.londedisis.fr/produit/le-pendule-du-5e-regne/"

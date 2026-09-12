@@ -1,4 +1,5 @@
 ---
+name: "A Brief History of the Theory of Form Waves"
 title: "A Brief History of the Theory of Form Waves"
 original_title: "Petit historique de la théorie des ondes de formes"
 source_url: "https://www.gaiamamart.com/petit-historique-de-la-theorie-des-ondes-de-formes/"

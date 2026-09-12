@@ -1,4 +1,5 @@
 ---
+name: "Technical Analyses for the Hypercomplex General Relativity (RGH) (A, B, C, D, F) — LaTeX Version"
 description: My (Forge's) English translation of Laurent Besson's RGH technical analysis — 'Relativité Générale Hypercomplexe', quaternionic field + Weyl gauge, ghost analysis, big bounce, CLASS implementation. Outer-ring / French physics. Translation metadata kept below.
 language: en
 source_language: en
