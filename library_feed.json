@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T05:07:41Z",
+  "generated_at": "2026-09-12T06:08:00Z",
   "library": {
     "researchers": 1132,
     "researchers_cataloged": 1132,
@@ -46,8 +46,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 10,
-    "replication_dossiers": 11,
+    "practical_quests": 11,
+    "replication_dossiers": 12,
     "validations": 0
   },
   "latest_translations": [
@@ -5371,9 +5371,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T04:45:46Z",
+      "last_run": "2026-09-12T05:45:43Z",
       "last_status": "ok",
-      "last_summary": "skip: family budget low, gear=quota | archives 35 (+0) | backlog 431, 1 in progress (gear: quota)"
+      "last_summary": "+0 archives since last run (still 35) | skip: family budget low, gear=quota | backlog 431, 1 in progress"
     },
     {
       "member": "translation-sweeper",
@@ -5382,9 +5382,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T04:15:27Z",
+      "last_run": "2026-09-12T05:15:39Z",
       "last_status": "ok",
-      "last_summary": "+0 | no budget (family budget low, gear: quota) | backlog unchanged"
+      "last_summary": "+0 chunks since last run (still 0) | no budget (family low, gear=quota) | backlog 431 wait"
     },
     {
       "member": "db-entity-extractor",
@@ -5404,9 +5404,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T04:09:13Z",
+      "last_run": "2026-09-12T05:09:02Z",
       "last_status": "ok",
-      "last_summary": "sync: 61334 docs, feed rebuilt"
+      "last_summary": "sync: 61349 docs, feed rebuilt, 55 translation files synced to site; scrape skipped (quota gear, queue sites failed/down)"
     },
     {
       "member": "archive-raid",
@@ -5498,6 +5498,42 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "06:01",
+      "agent": "Practicality Engine",
+      "summary": "+1 quest card — Eeman Sleep Quality Test (tier sand, domain health). 14-night protocol testing whether the Eeman biocircuit improves sleep quality. Dossier 012 extends dossier 002 (relaxation/pulse test) to sleep outcomes. Rotation: health → community (next). Mirrors filled: 13/26 (Natural Medicine complement added)."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "05:45",
+      "agent": "Translation Curator",
+      "summary": "+0 translations — Skip cycle: family budget low, gear=quota. No translation work this run. Backlog 431 sources, 1 job in progress. Archives hold at 35 durable copies."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "05:16",
+      "agent": "Book 1 Translator",
+      "summary": "+3 chunks — Book 1 (final volume), progress 89/249 (36%). Chunks 087-089, Chapter 8: Planck's relations (E=hν, Bohr orbits, vortex-model resolution of the classical/quantum contradiction), de Broglie waves (diffraction evidence limits — He/H2 only, lobe/rainbow scattering, Kármán vortex street analogue). Quota gear (3 chunks), respected. 5-book series: Books 5/4/3/2 complete, Book 1 in progress."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "05:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gear=quota — gate blocked translation work. Backlog stands at 431 sources awaiting full translation (30 fully translated, 1 in progress)."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "05:09",
+      "agent": "Death Certificate Cron",
+      "summary": "+1 certificate — aether-dismissal-1887 (priority lineage #4, the canonical wrong turn). Status: suppressed; confidence: high. Built from 22 vault doc ids (Michelson-Morley re-analysis cluster, Einstein's own 1920 Leyden ether speech, Dayton Miller records, Shtyrkov satellite drift) plus 3 archive translations (Atsyukovsky Book 5, SAFE Compendium, TUO). All four priority lineages now have certificates."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "05:08",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault (61349 total) | feed rebuilt, 55 translation files synced to site | scrape skipped (quota gear, queue sites failed/down)"
+    },
     {
       "date": "2026-09-12",
       "time": "04:45",
@@ -5788,36 +5824,6 @@
     },
     {
       "date": "2026-09-11",
-      "time": "13:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op: family budget low, quota gear — skipped chunk work, clean check-in. Will resume translation next fire when budget recovers."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "13:12",
-      "agent": "The Chronicler",
-      "summary": "+247 chunks — Book 2 COMPLETE: all 247 chunks translated; assembled Book2_full_translation.md (699KB). Books 3, 4, 5 already complete. Next target: Book 1 (249 chunks, 6 EN done)."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "13:07",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+59216 docs — +59216 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "12:45",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — No-op run: family budget low, quota gear — skipped chunk work. Backlog 429, 1 job in progress, 34 durable archives held."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "12:22",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+59216 docs — +59216 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-11",
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation published — Chaumery & de Belizal, Patent FR 816,132 (1936): \"Procédé et appareillage radiesthésiques\" (FR→EN). — The founding legal document of the French form-wave school, now in the corpus: the patent abstract translated in full (espacenet original via Kook Science transcription) — the negative-green ray (V−) introduced for the first time into a public, dated, state-archived record (\"the shortest wave and consequently the most powerful of the invisible spectrum\"), the critique of wavelength-only pendulums, and the terrestrial-magnetism basis. The apparatus the patent protected documented from the inventors' own 1976 description: the Universal Pendulum (60mm sphere, E/M/EM circles in 400 grades, internal 4-element magnetic battery, 8 Mendeleev-family witness marks, receiver-emitter without mental orientation), the cosmo-magnetic batteries (tension by element count, amplitude by element mass), and the post-patent Bombe C. 30 — plus the school's own casualty: co-inventor Chaumery's 1957 death \"completely dehydrated by our negative green ray,\" recorded by de Belizal in the book's preface. Modern IPC classes A61N1/16 (electrotherapy) and G01V9/002 (dowsing) noted as historical artifact. Anchors the French half of the French/Russian form-wave seam (Davidson's genealogy names Belizal and Turenne). Full patent specification unfetchable from cloud (espacenet 403s datacenter IPs) — fetchable from FocusOptimized if Sandra wants the complete claims."
@@ -5851,12 +5857,6 @@
       "time": "16:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation published — Abbé Mermet, \"Prince of Dowsers\" (FR→EN, composite of four French sources). — The biography of Abbé Alexis Mermet (1866–1937): son and grandson of Savoie dowsers, ordained 1890, parishes in French-speaking Switzerland (Le Landeron, Saint-Prex 1922–33, Jussy); the 1913 Paris Experimental Psychology congress that made his name (Armand Viré); inventor of *télé-radiesthésie* (remote radiesthesia over maps, plans, photographs) and of pendular diagnosis (his 1905–06 observation that diseased organs \"no longer gave the same number of radiations\" as healthy ones — the foundation of French medical radiesthesia); president of the Association des Amis de la Radiesthésie (1,000+ members, 26 countries, medical section with ~100 doctors incl. Branly, d'Arsonval, Lakhovsky); the Lacave galleries found through 150 m of rock; the Paris water and oil claims; the *Pèlerin* obituary; and *Comment j'opère* (1932), translated into English as *Principles and Practice of Radiesthesia*. Includes the AAR medical-section ecosystem (Leprince, Regnault, Roux, Lesourd and his black-glass pendulum and Tisanes Lesourd) and its decline under charlatanism accusations and WWII. Central figure in the French tradition lane — the \"Mermet pendulum\" named in the Brocéliande literature now has its biography in the corpus."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "12:35",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+140 docs — NEW LANE: newenergytimes.com /v2/ tree. — Enumerated the /v2/ Apache tree that flipped 406 → crawlable (117 dirs, 720 files); diffed vs archive → 144 live-verified docs new (FOIA government incl. DTRA/CIA/USPTO/NAVY/ARPA-E 2016-DOE docs, inthenews clippings 1989-2017, library subdirs incl. 1989FPH + Storms CFAOA figures, Krivit publications+white papers, transcripts). Processed + merged id-safe. Archive **58,092 → 58,232** (+140). free-energy-info.tuks.nl Chapter10.pdf gap already covered via frienergi. Live lanes drained (viXra RSS max 2609.0022 archived, lenr-canr 1454=1454, rxiv 180=180v1, iccf-27 proc STILL UC 9,845B). Merge de21981cd. OCR/queue/tag pending FocusOptimized."
     }
   ],
   "declassified": [
@@ -684334,6 +684334,13 @@
         "excerpt": "# ⚡ Aetherforce — Form Waves Space Harmony Test\n\n**Tier:** sand\n**Domain:** shelter (Natural Building complement)\n**Guild complement:** Natural Building (sacred geometry / form)\n**Created:** 2026-09-1"
       },
       {
+        "file": "synthesis/quest-queue/2026-09-12-eeman-sleep-quality.md",
+        "date": "2026-09-12",
+        "title": "Eeman Circuit Sleep Quality Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce\n\n**Quest Card: Eeman Circuit Sleep Quality Test**\n\n---\n\n## Village data.js block\n\n```js\n{\n  type: \"AETHER\",\n  biomes: [\"suburb\", \"rural\"],\n  name: \"Aetherforce — Natural Medicine\",\n  d"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-11-ez-water-exclusion-zone.md",
         "date": "2026-09-11",
         "title": "EZ Water Exclusion Zone Test",
@@ -684398,6 +684405,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-12-dossier-012-eeman-sleep-quality.md",
+        "date": "2026-09-12",
+        "title": "Dossier 012 — Eeman Circuit for Sleep Quality",
+        "status": "draft",
+        "excerpt": "# Dossier 012 — Eeman Circuit for Sleep Quality Test\n\n**Status:** protocol_ready\n**Created:** 2026-09-12\n**Source:** L.E. Eeman, \"Cooperative Healing\" (1930s-40s); Thomas Joseph Brown, *The L.E. Eeman"
+      },
       {
         "file": "synthesis/replication/2026-09-12-dossier-011-form-waves-space-harmony.md",
         "date": "2026-09-12",
