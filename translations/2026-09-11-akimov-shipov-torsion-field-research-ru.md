@@ -1,6 +1,8 @@
 ---
-name: "2026-09-11-akimov-shipov-torsion-field-research-ru"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Torsion Fields and Their Experimental Manifestations"
+description: "A.E. Akimov & G.I. Shipov — Academy of Trinitarianism monograph: torsion energy sources, propulsion, materials, communication, geophysics, astrophysics. Russian physics, torsion field tradition. Institute of Vacuum Physics experiment."
+language: en
+source_language: ru
 ---
 
 ACADEMY OF TRINITARIANISM

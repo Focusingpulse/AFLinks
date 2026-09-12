@@ -1,6 +1,8 @@
 ---
-name: "2026-09-11-oranur-experiment-wilhelm-reich-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: "ORANUR Experiment (Wilhelm Reich)"
+description: "Jerome Eden's ORANUR newsletter account from orgonomie.net — Wilhelm Reich's Oranur experiment (orgone accumulator + nuclear material). German original. Part of the Reich orgone research tradition."
+language: en
+source_language: de
 ---
 
 WWW.ORGONOMIE.NET
