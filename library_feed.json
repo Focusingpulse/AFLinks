@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T15:01:23Z",
+  "generated_at": "2026-09-12T15:07:22Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -9,14 +9,14 @@
     "aflinks_docs": 61416,
     "translations": 97,
     "pages_translated": 2707,
-    "declassified_finds": 47,
+    "declassified_finds": 50,
     "active_agents": 14,
     "book5_complete": true,
     "translation_files": 97,
     "bridges": 11,
-    "archive_entries": 61450,
+    "archive_entries": 61465,
     "meta_counts": {
-      "Challenges to the Standard Model": 46704,
+      "Challenges to the Standard Model": 46715,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,10 +31,10 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 36616,
-      "Patents & Inventions": 26222,
-      "Geopolitics & Hidden History": 21767,
-      "Electromagnetic Theory": 10350,
+      "Alternative Energy Technologies": 36619,
+      "Patents & Inventions": 26225,
+      "Geopolitics & Hidden History": 21771,
+      "Electromagnetic Theory": 10351,
       "Reference & Technical Data": 2053,
       "Media & Interviews": 2351,
       "Environment & Climate": 9899,
@@ -1346,6 +1346,54 @@
         {
           "title": "Early",
           "description": "literacy recovery in a non-North-American cohort.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "file": "2026-09-12-deep-dive-morning.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Light and heavy elements",
+          "description": "Noble gases (He, Ne, Ar)",
+          "url": ""
+        },
+        {
+          "title": "Rare earths (Yttrium)",
+          "description": "Actinides (Uranium)",
+          "url": ""
+        },
+        {
+          "title": "Buildable",
+          "description": "false",
+          "url": ""
+        },
+        {
+          "title": "Reproducible",
+          "description": "needs-independent-validation",
+          "url": ""
+        },
+        {
+          "title": "Verified",
+          "description": "false",
+          "url": ""
+        },
+        {
+          "title": "Conceptual",
+          "description": "true",
+          "url": ""
+        },
+        {
+          "title": "Nine external validation events to date",
+          "description": "Modular industrial approach (100 kW EnergiCell modules)",
+          "url": ""
+        },
+        {
+          "title": "Industrial trial on ceramics production line announced (August 27 update)",
+          "description": "Partnership with PRIO (Portuguese energy company) via JumpStart 2026",
           "url": ""
         }
       ]
@@ -5502,9 +5550,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T13:08:33Z",
+      "last_run": "2026-09-12T15:03:21Z",
       "last_status": "ok",
-      "last_summary": "sync: 61450 docs, feed rebuilt, scrape skipped (no queue state)"
+      "last_summary": "sync: 61450 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5568,9 +5616,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-12T12:23:00Z",
+      "last_run": "2026-09-12T14:15:00Z",
       "last_status": "ok",
-      "last_summary": "12:15Z growth fire: +13 cyberleninka keyword harvest (ball-lightning/plasmoid, Kozyrev/torsion, vacuum-energy, bioenergetics/water veins) — archive 61,437→61,450, ids 2403192–2403204. All live-wrap dry (viXra RSS max 2609.0028 archived, rxiv /all/ byte-same, lenr-canr 1,454=1,454, ucp pool dead past 2297, RENSIT 2026/4, iccf-27 #13 STILL UC day 39). 13/13 full text previews (MAX_PREVIEW=1700), 0 empty. index.json 99.29MiB compact (~0.71MiB to 100MiB wall). OCR/queue/tag pending FocusOptimized."
+      "last_summary": "14:15Z growth fire: +15 cyberleninka keyword harvest (vakuum/redshift/noosfera/gravity/ball-lightning veins), ids 2403205-2403219, archive 61,450->61,465 (e39381a56). Live-wrap all dry (viXra RSS max 2609.0028 archived, rxiv /all/ byte-same, lenr-canr 1,454=1,454, RENSIT 2026/4, iccf-27 #13 STILL UC 9,845B day 39, ucp dead). 15/15 full text previews (MAX_PREVIEW=1700), 0 empty. Direct cyberleninka fetch recovered (Cloudflare 520 cleared, no r.jina.ai proxy). index.json 99.34MiB compact (~0.66MiB to 100MiB wall). OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5596,6 +5644,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "15:03",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61450 docs — +61450 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "14:03",
@@ -5910,12 +5964,6 @@
     },
     {
       "date": "2026-09-12",
-      "time": "03:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61334 docs — +61334 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-12",
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Enel (Prince Michel Vladimirovich Skariatine, 1883–1963) dossier FR→EN — (translations/2026-09-12-enel-omega-radiations-formes-fr-en.md): the bridge figure of the French school — the Russian prince who carried the Chaumery–de Bélizal spectrum into the field. The Omega ray discovery (1940s–50s: all Egyptian tombs of Christian saints emanate a vibration in the negative-green zone; Enel named the horizontal component Omega, marker of spiritual energy — grade 395 on the Universal Pendulum's EM meridian, the radioactivity sector); the biography (ORAEDES + Wikisage: Chevaliers-Gardes commander under Nicholas II, Toulon 1917, Cairo 1931–1953 with Howard Carter's team and Maspero, Glion 1953–1963, Lakhovsky MWO cures, Nestlé researcher); the works catalog (*Radiations des formes et cancer* 1951/1959 — the school's therapeutic manifesto, Energeia 2025 reissue in print; *Premiers pas en radiesthésie thérapeutique* 1949; *Traitement à distance par radiations* 1959); and the Thieux Carnets inédits trilogy (geobiology, gravitational colors, radiant-form apparatus, the Six Ritual Instruments of the Emperor of China, Henri Mager). Companion to the 08-29 La Lettre du Crocodile biography — together they complete the Enel file. Cardinaux's critique (negative green \"is in fact white\") and the honest-bench record noted."
@@ -5966,6 +6014,12 @@
     },
     {
       "country": "argentina",
+      "title": "Argentina CNEA-Dioxitek UF6 Technology Transfer — US Investment Path",
+      "description": "CNEA authorizes Dioxitek to commercially license UF6 production technology from Pilcaniyeu, enabling Nano Nuclear Energy's proposed $230M investment in Formosa.",
+      "file": "declassified/argentina/cnea-dioxitek-uf6-transfer.md"
+    },
+    {
+      "country": "argentina",
       "title": "Argentina SIDE Intelligence Declassification 2026",
       "description": "Argentina — SIDE (Secretaría de Inteligencia de Estado) released 26 declassified documents (492 pages) from the 1976-1983 dictatorship period in March 2026, with a federal court or",
       "file": "declassified/argentina/side-intelligence-declassification-2026.md"
@@ -6002,6 +6056,12 @@
     },
     {
       "country": "france",
+      "title": "France ASN Orano La Hague — Cerium Decontamination Authorization",
+      "description": "ASN authorizes Orano Recyclage to use cerium-containing decontamination products during dismantling of INB 80 at La Hague.",
+      "file": "declassified/france/asn-orano-la-hague-cerium.md"
+    },
+    {
+      "country": "france",
       "title": "France — ECPAD Nuclear Test Archive Opening (July 2026)",
       "description": "France — Complete declassification of ECPAD audiovisual archives on French nuclear tests in Polynesia (193 tests, 1966–1996). 26,000+ photographs digitized and accessible online.",
       "file": "declassified/france/ecpad-nuclear-archive-opening.md"
@@ -6032,8 +6092,8 @@
     },
     {
       "country": "germany",
-      "title": "BMWE CERAWeek Documents — FOI Release (September 2026)",
-      "description": "German FOI release revealing Minister Reiche's advocacy for gas/nuclear interests during March 2026 Texas trip, obtained after legal action by DUH and FragDenStaat.",
+      "title": "Germany BMWE CERAWeek Documents — FOI Release on Nuclear Return Advocacy",
+      "description": "Internal documents reveal Minister Reiche advocated for US gas contracts, nuclear return, and criticized EU methane regulation during March 2026 Texas trip.",
       "file": "declassified/germany/bmwe-ceraweek-foi-release.md"
     },
     {
@@ -6173,6 +6233,12 @@
       "title": "Spain — Palomares Declassified Documents (60th Anniversary Release)",
       "description": "Spain — Multiple declassified document batches released around 60th anniversary of Palomares nuclear accident (Jan 17, 1966): US Palomares Summary Report (217 pages, 1975), Spanish",
       "file": "declassified/spain/palomares-declassified-documents.md"
+    },
+    {
+      "country": "syria",
+      "title": "Syria Nuclear Reactor — IAEA Confirmation of Weapons-Grade Design",
+      "description": "IAEA Director-General confirms Deir Ezzor reactor was designed for weapons-grade fissile material production; 73 tonnes of natural uranium discovered.",
+      "file": "declassified/syria/iaea-reactor-confirmation-2026.md"
     },
     {
       "country": "uk",
@@ -53772,7 +53838,18 @@
         "2403200",
         "2403202",
         "2403203",
-        "2403204"
+        "2403204",
+        "2403205",
+        "2403207",
+        "2403208",
+        "2403209",
+        "2403210",
+        "2403211",
+        "2403213",
+        "2403215",
+        "2403216",
+        "2403217",
+        "2403218"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -101988,7 +102065,10 @@
         "2403174",
         "2403188",
         "2403194",
-        "2403197"
+        "2403197",
+        "2403206",
+        "2403211",
+        "2403212"
       ],
       "Patents & Inventions": [
         "5814",
@@ -128212,7 +128292,10 @@
         "2403167",
         "2403174",
         "2403186",
-        "2403194"
+        "2403194",
+        "2403210",
+        "2403214",
+        "2403219"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -149981,7 +150064,11 @@
         "2403167",
         "2403174",
         "2403201",
-        "2403204"
+        "2403204",
+        "2403210",
+        "2403211",
+        "2403212",
+        "2403219"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -160333,7 +160420,8 @@
         "2403159",
         "2403167",
         "2403181",
-        "2403186"
+        "2403186",
+        "2403210"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -243764,7 +243852,22 @@
       "2403201": "razrabotka-i-ispytanie-ustanovki-dlya-izucheniya-laboratornogo-analoga-sharovoy-molnii",
       "2403202": "teoriya-pervichnogo-potentsiala-statya-6-rozhdenie-vselennoy-bez-singulyarnosti-bez-inflyatsii-i-bez-bolshogo-vzryva",
       "2403203": "vihrevaya-model-materii-prostranstva",
-      "2403204": "znachenie-velichiny-okislitelno-vosstanovitelnogo-potentsiala-zhidkih-sred-organizma-v-deyatelnosti-tsns-1"
+      "2403204": "znachenie-velichiny-okislitelno-vosstanovitelnogo-potentsiala-zhidkih-sred-organizma-v-deyatelnosti-tsns-1",
+      "2403205": "edinaya-teoriya-polya-vakuumnaya-interpretatsiya",
+      "2403206": "yavlenie-gidrofizicheskogo-dipolnogo-polya-pamyati-molekulyarnyh-vodnyh-struktur",
+      "2403207": "issledovanie-vliyaniya-formovogo-polya-piramidy-na-strukturno-informatsionnye-svoystva-vody",
+      "2403208": "o-kosmofizicheskih-vozdeystviyah-na-vodu-i-na-vsyo-zhivoe-na-planete",
+      "2403209": "o-prirode-krasnyh-smescheniy-v-spektrah-galaktik",
+      "2403210": "k-voprosu-ob-interpretatsii-kosmologicheskogo-krasnogo-smescheniya",
+      "2403211": "o-krasnom-smeschenii-spektrov-galaktik",
+      "2403212": "paradoksy-gravitatsii-i-elektromagnetizma-ili-chego-ne-mog-znat-fon-braun",
+      "2403213": "tayna-sharovoy-molnii",
+      "2403214": "o-sharovoy-molnii",
+      "2403215": "noosfera-kak-obschechelovecheskaya-informatsionnaya-sistema",
+      "2403216": "noosfernaya-kontseptsiya-v-i-vernadskogo-vzglyad-iz-21-veka",
+      "2403217": "informatsionnaya-sostavlyayuschaya-noosfery",
+      "2403218": "o-sovremennom-ponimanii-noosfery",
+      "2403219": "zhizn-i-zhitie-akademika-v-i-vernadskogo-k-noosfernomu-vi-deniyu-mira"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -573543,6 +573646,58 @@
       "2403204": [
         "Alternative Physics",
         "Conspiracy / Politics"
+      ],
+      "2403205": [
+        "Borderland Research"
+      ],
+      "2403206": [
+        "Water / Hydrogen"
+      ],
+      "2403207": [
+        "Borderland Research"
+      ],
+      "2403208": [
+        "Borderland Research"
+      ],
+      "2403209": [
+        "Borderland Research"
+      ],
+      "2403210": [
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Dollard"
+      ],
+      "2403211": [
+        "Energy",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2403212": [
+        "Energy",
+        "Conspiracy / Politics"
+      ],
+      "2403213": [
+        "Borderland Research"
+      ],
+      "2403214": [
+        "Patents"
+      ],
+      "2403215": [
+        "Borderland Research"
+      ],
+      "2403216": [
+        "Borderland Research"
+      ],
+      "2403217": [
+        "Borderland Research"
+      ],
+      "2403218": [
+        "Borderland Research"
+      ],
+      "2403219": [
+        "Patents",
+        "Conspiracy / Politics"
       ]
     },
     "meta_concepts": {
@@ -685194,7 +685349,22 @@
       ],
       "2403202": [],
       "2403203": [],
-      "2403204": []
+      "2403204": [],
+      "2403205": [],
+      "2403206": [],
+      "2403207": [],
+      "2403208": [],
+      "2403209": [],
+      "2403210": [],
+      "2403211": [],
+      "2403212": [],
+      "2403213": [],
+      "2403214": [],
+      "2403215": [],
+      "2403216": [],
+      "2403217": [],
+      "2403218": [],
+      "2403219": []
     }
   },
   "graph": {
