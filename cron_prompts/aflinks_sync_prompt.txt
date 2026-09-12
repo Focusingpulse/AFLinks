@@ -1,6 +1,6 @@
 Run the AFLinks sync job (The Harmonizer) on the cloud sandbox. The sandbox may have been RESET — bootstrap from GitHub FIRST, never assume local paths exist.
 
-1) BOOTSTRAP: if /root/workspace/AFLinks/.git does not exist: git clone https://github.com/Focusingpulse/AFLinks.git /root/workspace/AFLinks
+1) BOOTSTRAP: if /root/workspace/AFLinks/.git does not exist: git clone https://github.com/Focusingpulse/AFLinks.git /root/workspace/AFLinks (this repo is ~900MB — a clone may exceed the 120s Bash timeout; if it times out, the .git dir may exist with a PARTIAL working tree. ALWAYS verify after: cd /root/workspace/AFLinks && git status --porcelain | wc -l — if >0 with mass "D " deletions, the tree is half-checked-out; restore with: git checkout HEAD -- . and wait for it to finish before continuing).
 2) PULL: cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
 3) FAMILY GATE: python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member aflinks --essential — if it exits non-zero (budget LOW), do NO work, no commit, no check-in; say "aflinks-sync skipped (family budget low)" and stop.
 4) GEAR READ (scale effort by gear, never by guessing):
