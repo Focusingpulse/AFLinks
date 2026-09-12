@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:09:53Z",
+  "generated_at": "2026-09-12T12:22:41Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -3397,6 +3397,54 @@
     },
     {
       "date": "scout-repo",
+      "file": "scout-report-2026-09-12-1200.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Benchtop \"Thunderbird Reactor\" using plasma immersion ion implantation (PIII)",
+          "description": "15(2)% increase in D-D fusion neutron rates with electrochemical loading",
+          "url": ""
+        },
+        {
+          "title": "First demonstration that eV",
+          "description": "scale electrochemistry can influence MeV-scale nuclear reactions",
+          "url": ""
+        },
+        {
+          "title": "Rigorous neutron detection with >99.9999% gamma discrimination",
+          "description": "Open hardware: CAD files at Zenodo (doi:10.5281/zenodo.13830012)",
+          "url": ""
+        },
+        {
+          "title": "Mainstream validation of a core AetherForce research domain",
+          "description": "Bridge between \"cold fusion\" history and modern electrochemical fusion",
+          "url": ""
+        },
+        {
+          "title": "Reproducible benchtop design",
+          "description": "other labs can replicate",
+          "url": ""
+        },
+        {
+          "title": "Explicit acknowledgment that Fleischmann",
+          "description": "Pons was \"dismissed too quickly\"",
+          "url": ""
+        },
+        {
+          "title": "US20090290674A1",
+          "description": "\"Transmutation method and transmutation device\"",
+          "url": ""
+        },
+        {
+          "title": "EP1202290B1",
+          "description": "European equivalent",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "scout-repo",
       "file": "scout-report-2026-09-11-1200.md",
       "scout": "",
       "languages": "",
@@ -5432,9 +5480,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T11:15:37Z",
+      "last_run": "2026-09-12T12:15:28Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks | no budget (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget — family mode=low, gear=quota, skipped | backlog unchanged"
     },
     {
       "member": "db-entity-extractor",
@@ -5454,7 +5502,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T11:13:33Z",
+      "last_run": "2026-09-12T12:11:52Z",
       "last_status": "ok",
       "last_summary": "sync: 61437 docs, feed rebuilt"
     },
@@ -5520,9 +5568,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-12T10:15:00Z",
+      "last_run": "2026-09-12T12:05:03Z",
       "last_status": "ok",
-      "last_summary": "10:15Z growth fire: +21 cyberleninka keyword harvest (torsion/vacuum, water/bioenergetics, LENR, ether/superluminal, ball-lightning, dark-matter veins) — archive 61,416→61,437 (ids 2403171-2403191). cyberleninka.ru direct fetch RECOVERED (site-wide 520 cleared since 08:15Z) — no r.jina.ai proxy needed. Live lanes all dry first (viXra RSS max 2609.0028 archived; rxiv /all/ byte-same 327,179B; lenr-canr 1,454=1,454; ucp pool no growth >2297; RENSIT 000 flake; iccf-27 #13 STILL UC 9,845B day 38). Filelist 147→168, 20/21 text previews (1 scan-only → OCR lane). index.json 99.24MiB compact — ~0.76MiB to the 100MiB wall. OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-12-scout-growth-1015.md"
+      "last_summary": "12:00Z round (55th clean FL since 08-21): 0 new FL LENR standard lanes (archive 61,437 steady). Web sweeps -> 4 growth leads for :15 cron: Iwamura et al. 2026 ICCF NiCu/Ni radiant-spectrum excess heat (10.70923/001c.163335), JSPF 2025 JP CNMS anomalous-heat review, Mizuno 2025 processed-metals neutrons (EJAP), zh Lin LENR preprint (Zenodo 20047017). Hylenr watch re-confirmed news-only (RU/UA 09-11). TRANSLATOR STALE ~62h past 48h flag stands. Claims none >7d. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5548,6 +5596,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "12:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (mode=low, gear=quota) — budget gate closed, no translation work done. Backlog unchanged; will resume on next fire when budget allows."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "12:12",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61437 docs — +61437 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "11:45",
@@ -5850,21 +5910,9 @@
     },
     {
       "date": "2026-09-12",
-      "time": "00:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61306 docs — +61306 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-12",
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Enel (Prince Michel Vladimirovich Skariatine, 1883–1963) dossier FR→EN — (translations/2026-09-12-enel-omega-radiations-formes-fr-en.md): the bridge figure of the French school — the Russian prince who carried the Chaumery–de Bélizal spectrum into the field. The Omega ray discovery (1940s–50s: all Egyptian tombs of Christian saints emanate a vibration in the negative-green zone; Enel named the horizontal component Omega, marker of spiritual energy — grade 395 on the Universal Pendulum's EM meridian, the radioactivity sector); the biography (ORAEDES + Wikisage: Chevaliers-Gardes commander under Nicholas II, Toulon 1917, Cairo 1931–1953 with Howard Carter's team and Maspero, Glion 1953–1963, Lakhovsky MWO cures, Nestlé researcher); the works catalog (*Radiations des formes et cancer* 1951/1959 — the school's therapeutic manifesto, Energeia 2025 reissue in print; *Premiers pas en radiesthésie thérapeutique* 1949; *Traitement à distance par radiations* 1959); and the Thieux Carnets inédits trilogy (geobiology, gravitational colors, radiant-form apparatus, the Six Ritual Instruments of the Emperor of China, Henri Mager). Companion to the 08-29 La Lettre du Crocodile biography — together they complete the Enel file. Cardinaux's critique (negative green \"is in fact white\") and the honest-bench record noted."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "00:12",
-      "agent": "DB Entity Extractor",
-      "summary": "+21 works — Quota batch from Sep 10-11 finds: +20 persons (Korschelt, Grosse, Puchko, Correas, Li Si-Chen, Marc Henry, Goethe, Steiner, Lebedkin, Liu, Klimov, Durairajan, Itoh, Shibasaki + 7 backfilled), +21 works (aether manuscripts, torsion/aetherometry, LENR preprints, Schauberger devices, plasma agriculture, JCMNS NiCu spectrum, water-memory ice, chiral water, protein hydration 3D-AFM), practical-applications 60->78. Deduped kasagi-iwamura work; linked 5 Austrian patents to Schauberger in patent-index."
     },
     {
       "date": "2026-09-11",
