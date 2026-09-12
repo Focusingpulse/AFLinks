@@ -1,8 +1,7 @@
 ---
-name: "2026-09-03-akimov-shipov-torsion-field-ru"
-description: Full translation of "ACADEMY OF TRINITARIANISM"
+name: Akimov–Shipov Torsion Field Research (RU→EN)
+description: "English translation of the Academy of Trinitarianism material on A.E. Akimov and G.I. Shipov's torsion field research. Source: Russian."
 ---
-
 ACADEMY OF TRINITARIANISM
 
 Institute of Vacuum Physics — Experiment
