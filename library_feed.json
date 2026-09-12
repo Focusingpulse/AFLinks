@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T10:10:24Z",
+  "generated_at": "2026-09-12T11:09:32Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 97,
     "bridges": 11,
-    "archive_entries": 61416,
+    "archive_entries": 61437,
     "meta_counts": {
-      "Challenges to the Standard Model": 46675,
+      "Challenges to the Standard Model": 46693,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 36611,
-      "Patents & Inventions": 26219,
-      "Geopolitics & Hidden History": 21764,
-      "Electromagnetic Theory": 10348,
+      "Alternative Energy Technologies": 36614,
+      "Patents & Inventions": 26221,
+      "Geopolitics & Hidden History": 21765,
+      "Electromagnetic Theory": 10350,
       "Reference & Technical Data": 2053,
       "Media & Interviews": 2351,
       "Environment & Climate": 9899,
-      "Biology, Health & Medicine": 6786,
+      "Biology, Health & Medicine": 6787,
       "Frontier Science": 335,
       "Rudolf Steiner & Anthroposophy": 534,
       "Acoustics": 1,
@@ -5421,9 +5421,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T09:46:23Z",
+      "last_run": "2026-09-12T10:45:42Z",
       "last_status": "ok",
-      "last_summary": "state: signal=idle, attention=awaiting signal"
+      "last_summary": "34 archives total (first recorded) | skipped: family budget LOW, gear=quota, non-essential | backlog 442 (30 full, 1 in-progress) | gear: quota"
     },
     {
       "member": "translation-sweeper",
@@ -5432,9 +5432,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T09:15:39Z",
+      "last_run": "2026-09-12T10:15:33Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget — quota gear, family budget low, skipped | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget - family budget low, non-essential skipped | backlog unchanged (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5454,7 +5454,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T09:23:09Z",
+      "last_run": "2026-09-12T10:11:43Z",
       "last_status": "ok",
       "last_summary": "sync: 61416 docs, feed rebuilt"
     },
@@ -5520,9 +5520,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-12T08:40:00Z",
+      "last_run": "2026-09-12T10:15:00Z",
       "last_status": "ok",
-      "last_summary": "08:15Z growth fire: +41 cyberleninka keyword harvest (biofield/water-structure, ether, torsion/vacuum/antigravity veins) — archive 61,375→61,416 (069c9916e, ids 2403130-2403170). cyberleninka.ru site-wide 520 from box — harvested via r.jina.ai text-extraction proxy (41/41 full previews, 0 scan-only). Live lanes all dry first (viXra RSS anti-bot 404 + rxiv /all/ byte-same, lenr-canr 1,454=1,454, ucp pool no growth >2297, RENSIT newest 2026/4, iccf-27 #13 STILL UC 9,845B day 37). index.json 99.17MiB compact — ~0.8MiB to the 100MiB wall. OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-12-scout-growth-0815.md"
+      "last_summary": "10:15Z growth fire: +21 cyberleninka keyword harvest (torsion/vacuum, water/bioenergetics, LENR, ether/superluminal, ball-lightning, dark-matter veins) — archive 61,416→61,437 (ids 2403171-2403191). cyberleninka.ru direct fetch RECOVERED (site-wide 520 cleared since 08:15Z) — no r.jina.ai proxy needed. Live lanes all dry first (viXra RSS max 2609.0028 archived; rxiv /all/ byte-same 327,179B; lenr-canr 1,454=1,454; ucp pool no growth >2297; RENSIT 000 flake; iccf-27 #13 STILL UC 9,845B day 38). Filelist 147→168, 20/21 text previews (1 scan-only → OCR lane). index.json 99.24MiB compact — ~0.76MiB to the 100MiB wall. OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-12-scout-growth-1015.md"
     },
     {
       "member": "cure-8er",
@@ -5548,6 +5548,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "10:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — Skipped — family budget LOW (gear: quota), translation-curator gated as non-essential. Backlog: 442 sources await full translation (30 complete, 1 in progress). Archives hold 34 durable copies (baseline recorded this run). Will resume full-document translation when quota window reopens."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "10:15",
+      "agent": "Book 1 Translator",
+      "summary": "+3 chunks — Book 1 (final volume), progress 248/249 (99%). Chunks 246–248: bibliography/references for Chapter 8 and Chapters 4–7 (Berestetsky, Timiryazev, Bohr, Madelung, Eddington, Ioffe, Shipitsyn, Maxwell, Naan cosmology, Logunov RTG, Rodimov self-oscillatory QM, Kozyrev causal mechanics, Shipov physical vacuum, Marx/Engels/Lenin, Bohm causality, Heisenberg, Atsyukovsky's own philosophy/methodology works). Quota respected (3/3). 1 chunk remaining — Book 1 and the entire 5-book series complete next run."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "10:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low in quota mode — gate closed, translation work skipped to conserve quota. Fleet staleness noted: translator-foreign 31.8h, book4-translate 45.2h, declassified-sweep 42.1h."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "10:11",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "09:46",
@@ -5841,30 +5865,6 @@
       "time": "23:08",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+61306 docs — +61306 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "22:07",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61264 docs — +61264 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "22:00",
-      "agent": "Engine of Practicality",
-      "summary": "+1 quest card — Form Waves Space Harmony Test (Natural Building complement, tier sand, shelter domain)"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "21:45",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — Skipped run — family budget low (quota gear, mode=low). No chunks translated, no new archives. Also flagged: book4-translate and declassified-sweep are past their 24h staleness limits (32.7h / 29.7h)."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "21:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+60768 docs — +60768 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-11",
@@ -53695,7 +53695,25 @@
         "2403167",
         "2403168",
         "2403169",
-        "2403170"
+        "2403170",
+        "2403171",
+        "2403173",
+        "2403175",
+        "2403176",
+        "2403177",
+        "2403178",
+        "2403179",
+        "2403180",
+        "2403182",
+        "2403183",
+        "2403184",
+        "2403185",
+        "2403186",
+        "2403187",
+        "2403188",
+        "2403189",
+        "2403190",
+        "2403191"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -101906,7 +101924,10 @@
         "2403155",
         "2403159",
         "2403161",
-        "2403167"
+        "2403167",
+        "2403172",
+        "2403174",
+        "2403188"
       ],
       "Patents & Inventions": [
         "5814",
@@ -128127,7 +128148,9 @@
         "2403158",
         "2403159",
         "2403161",
-        "2403167"
+        "2403167",
+        "2403174",
+        "2403186"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -149893,7 +149916,8 @@
         "2403153",
         "2403155",
         "2403161",
-        "2403167"
+        "2403167",
+        "2403174"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -160243,7 +160267,9 @@
         "2403152",
         "2403153",
         "2403159",
-        "2403167"
+        "2403167",
+        "2403181",
+        "2403186"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -181340,7 +181366,8 @@
         "2402940",
         "2403128",
         "2403153",
-        "2403156"
+        "2403156",
+        "2403174"
       ],
       "Frontier Science": [
         "239312",
@@ -243638,7 +243665,28 @@
       "2403167": "paradoks-elektromagnitnogo-vakuuma-v-opisanii-lembovskogo-sdviga-urovney.pdf",
       "2403168": "Информационное воздействие на структуру воды",
       "2403169": "О возможности теоретического ниспровержения эфира",
-      "2403170": "Уточнение определения гравитационного. Действия Гиббонса-Хокинга"
+      "2403170": "Уточнение определения гравитационного. Действия Гиббонса-Хокинга",
+      "2403171": "chetvertoe-izmerenie-i-sverhsvetovye-skorosti",
+      "2403172": "elektricheskaya-pamyat-vody",
+      "2403173": "gipoteza-fridmonov-kak-chastits-tyomnoy-materii",
+      "2403174": "issledovanie-vliyaniya-priema-strukturirovannoy-vody-na-uroven-energeticheskih-resursov-organizma-studentov",
+      "2403175": "izluchenie-elektrona-v-lorents-neinvariantnom-vakuume",
+      "2403176": "kinematika-v-spetsialnoy-teorii-efira",
+      "2403177": "kosmologiya-i-astrofizika-segodnya-temnaya-energiya-i-temnaya-materiya",
+      "2403178": "nekotorye-rezultaty-eksperimentalnogo-issledovaniya-v-vysokovoltnoy-laboratorii-nizkoenergeticheskih-plazmoidov-iskusstvennoy",
+      "2403179": "novaya-dinamicheskaya-vremennaya-fizika-eyo-formuly-i-raschety",
+      "2403180": "o-edinoy-prirode-tyomnoy-energii-tyomnoy-materii",
+      "2403181": "o-sverhsvetovyh-skorostyah-voln-v-sovremennoy-fizike",
+      "2403182": "o-vozmozhnosti-suschestvovaniya-sverhsvetovyh-impulsov-vkr",
+      "2403183": "ob-eksperimentalnoy-proverke-vozmozhnosti-upravleniya-gravitatsiey",
+      "2403184": "polyarizatsiya-vakuuma-v-pole-tochechnogo-defekta",
+      "2403185": "strukturno-chuvstvitelnye-i-biologicheskie-svoystva-vody-obrabotannoy-magnitnym-polem-i-uf-izlucheniem",
+      "2403186": "temnaya-materiya-vselennoy-i-potentsial-lobachevskogo-chernikova",
+      "2403187": "teoriya-pervichnogo-potentsiala-statya-5-a-tyomnaya-materiya-i-gravitatsiya-kak-emerdzhentnye-svoystva-polya-aktualizatsii",
+      "2403188": "termoyadernyy-sintez-kak-istochnik-seysmicheskih-yavleniy",
+      "2403189": "v-kvantovo-polevoy-edinoy-prirode-tyomnoy-energii-tyomnoy-materii-otsutstvuyut-paradoksy-soputstvuyuschie-teorii-otnositelnosti",
+      "2403190": "vliyanie-izmeneniya-struktury-vody-na-svoystva-nezhivyh-sistem-i-sostoyanie-organizmov-1",
+      "2403191": "voda-veschestvo-s-unikalnymi-svoystvami"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -573304,6 +573352,76 @@
       ],
       "2403170": [
         "Borderland Research"
+      ],
+      "2403171": [
+        "Borderland Research"
+      ],
+      "2403172": [
+        "Energy"
+      ],
+      "2403173": [
+        "Borderland Research"
+      ],
+      "2403174": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "2403175": [
+        "Borderland Research"
+      ],
+      "2403176": [
+        "Borderland Research"
+      ],
+      "2403177": [
+        "Borderland Research"
+      ],
+      "2403178": [
+        "Borderland Research"
+      ],
+      "2403179": [
+        "Borderland Research"
+      ],
+      "2403180": [
+        "Borderland Research"
+      ],
+      "2403181": [
+        "Electromagnetism"
+      ],
+      "2403182": [
+        "Borderland Research"
+      ],
+      "2403183": [
+        "Borderland Research"
+      ],
+      "2403184": [
+        "Borderland Research"
+      ],
+      "2403185": [
+        "Borderland Research"
+      ],
+      "2403186": [
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "2403187": [
+        "Borderland Research"
+      ],
+      "2403188": [
+        "Energy",
+        "Quantum & Relativity"
+      ],
+      "2403189": [
+        "Alternative Physics"
+      ],
+      "2403190": [
+        "Borderland Research"
+      ],
+      "2403191": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -684915,7 +685033,30 @@
       "2403167": [],
       "2403168": [],
       "2403169": [],
-      "2403170": []
+      "2403170": [],
+      "2403171": [],
+      "2403172": [],
+      "2403173": [],
+      "2403174": [
+        "p_nature"
+      ],
+      "2403175": [],
+      "2403176": [],
+      "2403177": [],
+      "2403178": [],
+      "2403179": [],
+      "2403180": [],
+      "2403181": [],
+      "2403182": [],
+      "2403183": [],
+      "2403184": [],
+      "2403185": [],
+      "2403186": [],
+      "2403187": [],
+      "2403188": [],
+      "2403189": [],
+      "2403190": [],
+      "2403191": []
     }
   },
   "graph": {
