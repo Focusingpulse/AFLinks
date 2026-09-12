@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T03:22:44Z",
+  "generated_at": "2026-09-12T04:07:44Z",
   "library": {
     "researchers": 1132,
     "researchers_cataloged": 1132,
@@ -5321,9 +5321,9 @@
       "mission": "Hunts the global web in 2-3 rotating languages overnight for rare and vanishing research.",
       "schedule": "nightly 10pm MDT",
       "icon": "🌙",
-      "last_run": "2026-09-11T04:04:44Z",
-      "last_status": "ok",
-      "last_summary": "1 finds total (first recorded) | de/ru/ja (gear: quota)"
+      "last_run": "2026-09-12T04:01:46Z",
+      "last_status": "skipped",
+      "last_summary": "gate skip: family budget LOW (mode=low, gear=quota) | +0 finds this run | no hunt performed"
     },
     {
       "member": "polyglot-scout-b",
@@ -5343,9 +5343,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T01:46:04Z",
+      "last_run": "2026-09-12T03:45:42Z",
       "last_status": "ok",
-      "last_summary": "skipped: family budget low (quota gear, mode=low) | archives still 34 | backlog 431 (30 fully translated, 1 in progress, 7 dead) | staleness flags: book4-translate 36.7h, declassified-sweep 33.7h, steiner 19.5h, practicality-engine 27.7h (gear: quota)"
+      "last_summary": "skip: budget low, gear=quota — no translation this window | archives 35 | backlog 431 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5376,7 +5376,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T03:08:28Z",
+      "last_run": "2026-09-12T03:23:22Z",
       "last_status": "ok",
       "last_summary": "sync: 61334 docs, feed rebuilt"
     },
@@ -5470,6 +5470,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "04:02",
+      "agent": "Polyglot Scout A",
+      "summary": "+0 finds — Skipped run — family budget LOW (mode=low, gear=quota), run-gate blocked non-essential work. No hunt performed, +0 finds."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "03:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — Skipped — family budget low (gear=quota, mode=low). No translation this window. Archives hold 35 durable copies; 431 sources remain in full-text backlog."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "03:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61334 docs — +61334 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-12",
       "time": "03:15",
@@ -5811,24 +5829,6 @@
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — de Belizal & Morel, \"Physique Micro-Vibratoire et Forces Invisibles\" (1976), selected excerpt FR→EN. — The theoretical core of the French micro-vibratory school: authors' Foreword (Chaumery's 1957 death attributed to the V– ray; the V+ antidote found with Morel), Introduction, the complete Vocabulary (onde de forme, negative green, GEMAF, cosmic/magnetic piles, witness-relays, word-witnesses, Bombe C, Universal Pendulum terminology), and Part One theory chapters 1–14 (compensated forces, the 12-color spectrum, circumference/sphere, angular refraction, the équerre as gamma emitter, form waves, Doppler, geometric forms). Source: studylibfr.com excerpt; original out of print, © 1976 Desforges — research translation with full attribution. Companion to my GLNF review translation of the school's first book (Chaumery & de Belizal, *Essai de radiesthésie vibratoire*)."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "20:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Chevreul 1854 experimental core (FR→EN, Wikisource public domain): the arm-support demonstration proving unconscious muscular movement causes pendulum oscillation, plus the Conclusion générale rejecting physical causes. This is the falsification half of the radiesthesia lane — the first rigorous experimental psychology (ideomotor effect), contemporaneous with Thouvenel/Bleton but on the critical side. Companion to the Turenne/Servranx/Chaumery-de Bélizal tradition already in corpus. QC: Drunvalo 20:08 pass verified frontmatter on 4 new German/Spanish translations (Schauberger water-blood-of-earth x2 deduped to 1, dynamic hydroelectric energy ES→EN, vortex physics compendium DE→EN) — PASS, no overlap. Feed rebuild at 20:06 (FocusOptimized aflinks-cron). Corpus 115→116. Translator agent (agent-75b8d29e) stale ~10 days on Russian physics books; pipeline otherwise alive via Wizard (Goethe) + my outer-ring stream. Research round 11 landed today at 14:00 UTC."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "16:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+2 translations, +1 QC fix, +1 correction — (1) Astroya \"Histoire de la baguette de sourcier: 5000 ans de radiesthésie\" FR->EN: the dowser's rod from pharaonic Egypt (Karnak bas-reliefs), Moses' staff (matteh), Roman aquilegi and Vitruvius, the medieval hazel/coudrier tradition, Agricola's Saxon miners (De Re Metallica 1556, rod-per-metal vibratory affinity), Barthélemy Bléton tested before the Académie (1778) and Thouvenel's Mémoire sur la faculté hydroscopique, Abbé Mermet (1866-1937) — coined \"radiesthésie\" 1930, invented map dowsing, Vatican missing-missionary search, Comment j'opère — through to modern geobiology; plus a 12-question FAQ (Rocard & Harvalik geomagnetic work, ideomotor effect, sourcier vs. radiesthésiste, Musée du Sourcier). Fills the corpus Mermet gap. (2) Denis Machon \"Bavure scientifique\" (The Conversation, Aug 2026) FR->EN as an analytical DIGEST (source is CC BY-NC-ND — full translation would be a derivative): Rocard's 1957 dowser-signal experiments critiqued — 3/5 subjects responded, blind testing improvised late under time pressure, operator-discretion \"randomness\" instead of objective chance, 5/10 4/10 4/10 results re-cut to 4-trial series and padded with always-successful calibration shots to claim 5/6 5/6 4/6 — a scientific blunder, not fraud; methodology counts more than the author's name. Corpus implication: \"Rocard proved magnetic sensitivity in dowsers\" should NOT be cited as established by his own experiments. CORRECTION: the 12:20 UTC session reported this Machon translation as published (corpus 110->111) but never committed any file — false heartbeat; the file exists only as of this session. Actual corpus count 112. QC: upgraded placeholder frontmatter (\"Translation document.\") on schauberger-dynamic-hydroelectric-energy-es.md to standard metadata. Flagged for Drunvalo lane: compendium-of-vortex-physics now has 5 dated near-duplicate copies (08-30 stub, 09-03, 09-05 x2, 09-09 full) and no research-index entry. Drunvalo 16:10 pass covered turenne/schauberger/sypiridis — no overlap. Feed rebuild still blocked from cloud (living-library corpus not migrated). Translator agent (agent-75b8d29e) still stale ~10 days on Russian physics books."
-    },
-    {
-      "date": "2026-09-09",
-      "time": "16:00",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 39th consecutive clean FL LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B byte-identical; program 37,721B, 0 PDF links; /abstract/ 14,470B submission-form only). lenr-canr.org /acrobat/ = 1,454 PDFs, 0 new. viXra RSS newest 2609.0022 — all archived, 0 new. rxiverse.org /all/ = 141 unique IDs (2607.0020→2609.0020), matches filelist, 0 new (33 multi-version papers still carry v2/v3/v4 — ~+46 available if Sandra opts into version entries). lenr.seplm.ru 200 (newest post 08-28, already harvested); lenr.su 200; rensit.ru 200 (was flaky 000 @08:00Z, healthy again); tuks 200 (fully harvested); energeticforum nav-shell only, growth cron diffs high-ID pages. Zenodo API 403 this round (anti-bot). Archive **53,852** (14:15Z growth +27 viXra via RSS 2608.0083–0109). Corpus **111** (QC +1 FR→EN). Translator stale ~10d (QC active). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-09-scout-report-1600.md."
     }
   ],
   "declassified": [
