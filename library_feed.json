@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T07:08:41Z",
+  "generated_at": "2026-09-12T08:09:34Z",
   "library": {
     "researchers": 1132,
     "researchers_cataloged": 1132,
@@ -1120,6 +1120,54 @@
     }
   ],
   "latest_finds": [
+    {
+      "date": "steiner-ro",
+      "file": "steiner-roots-2026-09-12.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "EZ water protocol",
+          "description": "Standardized measurement across independent labs with blind analysis. Could establish whether EZ properties vary with environmental/cosmic factors.",
+          "url": ""
+        },
+        {
+          "title": "Biofield therapy EEG/HRV protocol",
+          "description": "Multi-site replication with standardized practitioner protocols.",
+          "url": ""
+        },
+        {
+          "title": "Confirmed in \"a dozen different laboratories worldwide\" (Pollack et al.)",
+          "description": "EZ extends 100-500 µm near Nafion",
+          "url": ""
+        },
+        {
+          "title": "Measurable potential difference",
+          "description": "100-200 mV",
+          "url": ""
+        },
+        {
+          "title": "IR light (3.1 µm) increases EZ size by up to 4×",
+          "description": "Six measurement methods (NMR, infrared, birefringence, electrical potential, viscosity, UV-VIS) confirm distinct properties",
+          "url": ""
+        },
+        {
+          "title": "Conflicting properties reported (negative vs positive charge depending on surface)",
+          "description": "Density increase only ~0.4% in some tests (not dramatic)",
+          "url": ""
+        },
+        {
+          "title": "Nature Scientific Reports 2024",
+          "description": "Double-blind study (n=60 sessions) showing significant EEG spectral changes during biofield therapy (p<0.01), plus HRV changes (p<0.01). Live cells vs control showed differential EEG/HRV patterns (p=0.02). Cellular Ca²⁺ uptake increased in both BT and sham, but BT group showed significantly smaller increase (p=0.03). Granger causality showed bidirectional links between EEG and cell markers (p<0.000001).",
+          "url": ""
+        },
+        {
+          "title": "RCT (n=114)",
+          "description": "Significant improvements in language, working memory, episodic memory (all p<0.0001) for biofield intervention vs control/sham.",
+          "url": ""
+        }
+      ]
+    },
     {
       "date": "steiner-ro",
       "file": "steiner-roots-2026-09-11.md",
@@ -5360,9 +5408,9 @@
       "mission": "Second overnight sweep in a different set of languages — catches what the first pass missed.",
       "schedule": "nightly 2am MDT",
       "icon": "🌅",
-      "last_run": "2026-09-11T08:01:41Z",
+      "last_run": "2026-09-12T08:01:10Z",
       "last_status": "ok",
-      "last_summary": "+0 finds since last run (still 17) | budget low, skipped (gear: quota)"
+      "last_summary": "-17 finds since last run (17->0) | skipped (budget low, gear: quota)"
     },
     {
       "member": "translation-curator",
@@ -5371,9 +5419,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T06:45:54Z",
+      "last_run": "2026-09-12T07:46:40Z",
       "last_status": "ok",
-      "last_summary": "-1 archives since last run (35->34) | skipped: family budget low (gear=quota) | backlog 431 (gear: quota)"
+      "last_summary": "+1 archives since last run (34->35) | budget-low skip: no translation this cycle (gear: quota, run-gate skip non-essential) | backlog 431, in-progress 1, fully-translated 30"
     },
     {
       "member": "translation-sweeper",
@@ -5382,9 +5430,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T06:15:42Z",
+      "last_run": "2026-09-12T07:15:24Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | budget low, quota gear — skipped per run-gate | backlog awaiting next window (gear: quota)"
+      "last_summary": "+0 chunks since last run (no budget) | gate closed, family budget low (gear: quota, mode=low) | backlog unchanged"
     },
     {
       "member": "db-entity-extractor",
@@ -5404,9 +5452,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T06:23:22Z",
+      "last_run": "2026-09-12T07:10:32Z",
       "last_status": "ok",
-      "last_summary": "sync: 61349 docs, feed rebuilt"
+      "last_summary": "sync: 61375 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5498,6 +5546,42 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "08:01",
+      "agent": "Polyglot Scout B",
+      "summary": "+0 runs — No-op run — budget gate skipped (family budget low, quota mode)"
+    },
+    {
+      "date": "2026-09-12",
+      "time": "08:00",
+      "agent": "Steiner Roots Scout",
+      "summary": "+6 nuggets — Subtle-bodies/etheric line. EZ water: real phenomenon (100-200mV, IR-responsive), confirmed across 12+ labs, contested interpretation. Biofield therapy: measurable EEG/HRV changes (p<0.01), cellular Ca²⁺ effects (p=0.03), RCT cognitive improvements (p<0.0001). Morphic resonance: mixed replication, subtle at best. Kolisko: extremely difficult to replicate. Mitochondria/EMF: measurable effects (20.6% antioxidant, 29% mitochondrial fluorescence, p<0.05). Etheric visualization: not validated. Honest signal: more measurable phenomena than expected, but mapping to Steiner's etheric body remains unvalidated."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "07:46",
+      "agent": "Translation Curator",
+      "summary": "+0 chunks — Budget-low skip run (gear: quota). No new translation this cycle — family run-gate flagged low budget, non-essential work deferred. State: 35 archival copies held (+1 since last run), 30 docs fully translated, 1 job in progress, backlog 431."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "07:15",
+      "agent": "Book 1 Translator",
+      "summary": "+3 chunks — Book 1 (final volume), progress 239/249 (96%). Chunks 237–239, Chapter 8: rejection of ether study after Special Relativity; need for dynamic methodology; ether as real (viscous, compressible) gas, the amer molecule; etherdynamics' foundations and results (microparticle structures, force fields incl. chemodynamic interaction, cosmological and Solar System paradoxes, ether-wind experiments confirming Miller). Quota respected (3/3). 10 chunks remaining."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "07:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gate closed (gear=quota, mode=low). Checked in +0 chunks; backlog unchanged. Will resume full-document translation when budget window opens."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "07:10",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "07:02",
@@ -5782,45 +5866,9 @@
     },
     {
       "date": "2026-09-11",
-      "time": "17:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+60707 docs — +60707 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
       "time": "16:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation published — \"Ondes de formes: Techniques et appareils\" (de Belizal apparatus articles, FR->EN): the Mental vs Physical Radiesthesia essay (three-phenomena framework: mental radiesthesia / physical radiesthesia / micro-vibratory physics, with the Chaumery 8th-octave accident and the mummified-steak/tumor-sterilization accounts), the 1936 Universal Pendulum technical description (60mm sphere, electric/magnetic meridians, equator, V− discovery 1934 + patent 1936, radioactivity sector), the C.30 Bomb (Chaumery's original C. Bomb -> post-1957 three-concentric-sphere redesign, selector/corrector/compensator, cosmic + magnetic piles), the Disc Emitter (angular refraction, 21-groove disc, magnetic vs electric phases, Yin-Yang hypothesis), the Geometric Forms definition of ondes de forme, and the Micrometer in its Servranx psychotechnics context. Companion to the FR 816,132 patent translation from this morning."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "16:08",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+60706 docs — +60706 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "15:47",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — Skipped: family budget low (gear=quota, mode set low 07:16Z and not recovered). Backlog 431 sources, 1 job in progress, 35 archival copies held. Will resume full-document translation + archiving when budget recovers or gear flips to overdrive."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "15:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+60706 docs — +60706 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-11",
-      "time": "15:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — Heartbeat: budget gate closed (quota gear, mode=low) — skipped translation work this cycle. No chunks translated. Note: book4-translate is stale (26.2h since last run, limit 24h) — flagging for next session."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "15:12",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+60706 docs — +60706 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-11",
