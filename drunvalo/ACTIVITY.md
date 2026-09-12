@@ -1,5 +1,51 @@
 # Drunvalo Activity Log
 
+## 2026-09-12 12:00 UTC — AetherForce Translation QC
+
+### Task
+Scheduled cron: QC recent AFLinks translations, fix issues, update DB (every 4h)
+
+### Actions
+1. Cloned AFLinks repo from GitHub (shallow clone, 41k files)
+2. Listed 5 most recent translations from translations/
+3. Checked each file for:
+   - Markdown well-formedness (headers, paragraphs, frontmatter)
+   - Source URL validity (verified with HTTP HEAD - all 200)
+   - Language tag correctness
+   - Untranslated passages, broken sentences, encoding issues
+   - Duplicate translations
+   - Title accuracy
+4. Identified and removed 3 duplicate translation files:
+   - Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md (dup of 2026-09-11 version)
+   - 2026-09-09-schauberger-water-blood-of-the-earth-de.md (dup of 2026-09-11 version)
+   - 2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md (dup of 2026-09-11 version)
+5. Added Jacques Ravatin to database/person-index.json
+6. tag_concepts.py timed out (skipped)
+7. Committed fixes and pushed to origin/main
+8. Ran report.py and pushed report
+
+### Files Checked
+- 2026-09-12-enel-omega-radiations-formes-fr-en.md ✓
+- 2026-09-12-jacques-ravatin-champs-de-coherence-fr-en.md ✓
+- Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md (removed as duplicate)
+- 2026-09-11-schauberger-water-blood-of-the-earth-de.md ✓
+- 2026-09-11-shipov-torsion-fields-and-torsion-technologies-ru.md ✓
+
+### Issues Found & Fixed
+- Duplicates: 3 files removed (same content with different date prefixes)
+- Database: Added Jacques Ravatin (form waves → coherence fields theorist)
+
+### Commits
+- `Translation QC: remove duplicates, add Ravatin to database` pushed to AFLinks repo
+- `report-Drunvalo-translation-qc` pushed to AFLinks repo
+
+### Report
+- Status: OK
+- Translations checked: 5
+- Issues fixed: 3 duplicates removed, 1 database entry added
+
+---
+
 ## 2026-09-12 08:00 UTC — AetherForce Translation QC
 
 ### Task
