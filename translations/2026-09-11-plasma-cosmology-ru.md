@@ -1,6 +1,6 @@
 ---
-name: Plasma Cosmology (English)
-description: English version of Russian Wikipedia mirror article on plasma cosmology — Alfvén-Klein model, galaxy formation via Birkeland currents, comparison with mainstream astrophysics. NOTE: This file was incorrectly labeled as Russian; content is in English. Source: abcdef.wiki Russian mirror.
+name: Plasma Cosmology (Russian)
+description: Full translation of Russian Wikipedia mirror article on plasma cosmology — Alfvén-Klein model, galaxy formation via Birkeland currents, comparison with mainstream astrophysics.
 ---
 Plasma Cosmology — Plasma cosmology
 

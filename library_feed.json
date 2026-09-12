@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-12T00:07:37Z",
+  "generated_at": "2026-09-12T00:22:55Z",
   "library": {
-    "researchers": 1113,
-    "researchers_cataloged": 1113,
+    "researchers": 1132,
+    "researchers_cataloged": 1132,
     "patents": 2784,
     "categories": 50,
     "meta_categories": 25,
@@ -3691,6 +3691,54 @@
     },
     {
       "date": "scout-2026",
+      "file": "scout-2026-09-12-0000-utc.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Sheldrake Morphic Resonance",
+          "description": "Prospective Experiments",
+          "url": ""
+        },
+        {
+          "title": "Nature LENR Papers (2025",
+          "description": "2026)",
+          "url": ""
+        },
+        {
+          "title": "Mitsubishi LENR transmutation",
+          "description": "Patents + MHI Technical Reviews (mainstream corporate validation)",
+          "url": ""
+        },
+        {
+          "title": "Kozyrev causal mechanics",
+          "description": "Complete 1958 Russian text (endangered)",
+          "url": ""
+        },
+        {
+          "title": "Nature 2025/2026 LENR papers",
+          "description": "Mainstream validation breakthroughs",
+          "url": ""
+        },
+        {
+          "title": "Ball lightning lab generation",
+          "description": "Physical Review Research 2020",
+          "url": ""
+        },
+        {
+          "title": "US20090290674A1",
+          "description": "\"Transmutation device and transmutation method\" (abandoned)",
+          "url": ""
+        },
+        {
+          "title": "EP1202290B1",
+          "description": "European equivalent",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "scout-2026",
       "file": "scout-2026-09-04.md",
       "scout": "",
       "languages": "",
@@ -4944,20 +4992,6 @@
       "patents": 10
     },
     {
-      "name": "Rudolf Steiner",
-      "domains": [
-        "Anthroposophy / Rudolf Steiner",
-        "Goethean Science",
-        "Education"
-      ],
-      "sources": [
-        "https://rsarchive.org/Books/GA018a/English/SOL2024/GA018a0101.html",
-        "https://rsarchive.org/Books/GA018a/English/SOL2024/GA018a0102.html"
-      ],
-      "source_count": 350,
-      "patents": 0
-    },
-    {
       "name": "Dean Kulik",
       "domains": [
         "Energy",
@@ -5262,6 +5296,20 @@
       ],
       "source_count": 5,
       "patents": 0
+    },
+    {
+      "name": "Randell Mills",
+      "domains": [
+        "Renewable Energy",
+        "Transportation",
+        "Light"
+      ],
+      "sources": [
+        "https://www.rexresearch.com/millshyd/wopatabs.htm",
+        "https://www.rexresearch.com/millshyd/9210838.htm"
+      ],
+      "source_count": 5,
+      "patents": 0
     }
   ],
   "domains": [],
@@ -5317,9 +5365,9 @@
       "mission": "Catalogs every researcher and work into the dual-index database with practical-applicability flags.",
       "schedule": "daily 6pm MDT",
       "icon": "🗂️",
-      "last_run": "2026-09-11T00:05:29Z",
+      "last_run": "2026-09-12T00:12:12Z",
       "last_status": "ok",
-      "last_summary": "+12 people since last run (120->132) | added 12 people, 10 works, 4 practical this run (gear: quota)"
+      "last_summary": "+8 people since last run (132->140) | added 20 people, 21 works, 18 practical this run (gear: quota); deduped kasagi-iwamura work, linked 5 AT patents to Schauberger, backfilled 7 missing persons"
     },
     {
       "member": "aflinks",
@@ -5328,7 +5376,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-11T23:08:37Z",
+      "last_run": "2026-09-12T00:09:36Z",
       "last_status": "ok",
       "last_summary": "sync: 61306 docs, feed rebuilt"
     },
@@ -5422,6 +5470,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "00:12",
+      "agent": "DB Entity Extractor",
+      "summary": "+21 works — Quota batch from Sep 10-11 finds: +20 persons (Korschelt, Grosse, Puchko, Correas, Li Si-Chen, Marc Henry, Goethe, Steiner, Lebedkin, Liu, Klimov, Durairajan, Itoh, Shibasaki + 7 backfilled), +21 works (aether manuscripts, torsion/aetherometry, LENR preprints, Schauberger devices, plasma agriculture, JCMNS NiCu spectrum, water-memory ice, chiral water, protein hydration 3D-AFM), practical-applications 60->78. Deduped kasagi-iwamura work; linked 5 Austrian patents to Schauberger in patent-index."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "00:09",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61306 docs — +61306 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-11",
       "time": "23:45",
@@ -5769,18 +5829,6 @@
       "time": "22:15",
       "agent": "Scooter (Growth Scout)",
       "summary": "+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "20:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+2 translations — Translated 2 French outer-ring docs from the Chaumery/de Bélizal tradition: (1) Centre Amyris \"Le pendule universel, un détecteur-émetteur d'ondes\" FR→EN (centreamyris.be, 2023) — Universal Pendulum PU-6 as detector-emitter of the color spectrum, radio-receiver analogy, frequency reference table (Alpha/Vert négatif/Oméga/Rhô/Psi), physical characteristics (beech wood, 60mm, 75g, three meridians E/M/EM), practical applications (detecting negative waves, Feng Shui harmonization, stone cleansing, treatment room clearing, acupuncture enhancement, gardening, chakra harmonizing, water dynamization); (2) geobiologie-sante.com \"Les vibrations couleurs du spectre selon Chauméry et Bélizal\" FR→EN (2011, Agnès Burnet) — 2×12 color spectrum system (12 magnetic phase pro-biotic + 12 electrical phase anti-biotic), full color sequence from Vert négatif through Blanc, pendulum detection method (left hand, color enumeration, clockwise vs counterclockwise), reader Q&A on vert négatif in magnetic phase, crystal pyramid emissions, mineral cleansing. QC: corpus 104→106, all files have frontmatter, 14 minimal-frontmatter files (feed-rebuild artifact, not fighting). Feed rebuild blocked (living-library corpus not migrated). Translator stale ~10 days."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "20:02",
-      "agent": "Scooter (Growth Scout)",
-      "summary": "+0 finds — 34th consecutive clean LENR round since 08-21. — ICCF-27 proceedings STILL Under Construction (iccf-27.org/proceeding/ 200, 9,845B unchanged; program page live 37,721B, 0 PDF links). lenr-canr.org /acrobat/ = 1,454 PDFs (no new growth since 12:15Z +22). tuks.nl 200 (fully harvested). seplm.ru 200 (moot — full 2,890-post harvest landed 08:33Z). viXra anti-bot 404 from cloud; Zenodo API 403 flaky. Archive **52,432** (post-18:15Z aetherometry.com +111 merged 38079fa + concurrent worker +42, stats baked 18:31Z). DISCOVERY in hand: aetherscience.org seeded #28 (99 Aspden PDFs, verified 200) — next growth fire. STALE-FLAG translator ~10d (translation-qc active, corpus 103, last +1 16:24Z). No claims >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-08-scout-report-2000.md."
     }
   ],
   "declassified": [
@@ -682345,605 +682393,1521 @@
       "2402316": [
         "cold_fusion"
       ],
-      "2402317": [],
-      "2402318": [],
-      "2402319": [],
-      "2402320": [],
+      "2402317": [
+        "geometry_sacred",
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402318": [
+        "p_bridge"
+      ],
+      "2402319": [
+        "p_bridge"
+      ],
+      "2402320": [
+        "geometry_sacred"
+      ],
       "2402321": [],
       "2402322": [],
-      "2402323": [],
-      "2402324": [],
-      "2402325": [],
+      "2402323": [
+        "p_bridge"
+      ],
+      "2402324": [
+        "geometry_sacred",
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402325": [
+        "p_bridge"
+      ],
       "2402326": [],
       "2402327": [],
       "2402328": [],
-      "2402329": [],
-      "2402330": [],
-      "2402331": [],
-      "2402332": [],
-      "2402333": [],
-      "2402334": [],
-      "2402335": [],
+      "2402329": [
+        "p_wrongturn"
+      ],
+      "2402330": [
+        "p_bridge",
+        "p_nature"
+      ],
+      "2402331": [
+        "p_bridge"
+      ],
+      "2402332": [
+        "morphic",
+        "p_formative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2402333": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402334": [
+        "p_bridge"
+      ],
+      "2402335": [
+        "p_bridge"
+      ],
       "2402336": [],
       "2402337": [],
-      "2402338": [],
-      "2402339": [],
-      "2402340": [],
-      "2402341": [],
+      "2402338": [
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2402339": [
+        "p_bridge"
+      ],
+      "2402340": [
+        "p_bridge"
+      ],
+      "2402341": [
+        "p_bridge"
+      ],
       "2402342": [],
-      "2402343": [],
-      "2402344": [],
-      "2402345": [],
-      "2402346": [],
-      "2402347": [],
-      "2402348": [],
-      "2402349": [],
-      "2402350": [],
-      "2402351": [],
-      "2402352": [],
-      "2402353": [],
-      "2402354": [],
-      "2402355": [],
-      "2402356": [],
-      "2402357": [],
-      "2402358": [],
-      "2402359": [],
-      "2402360": [],
-      "2402361": [],
-      "2402362": [],
-      "2402363": [],
-      "2402364": [],
-      "2402365": [],
-      "2402366": [],
-      "2402367": [],
-      "2402368": [],
-      "2402369": [],
-      "2402370": [],
-      "2402371": [],
-      "2402372": [],
-      "2402373": [],
-      "2402374": [],
-      "2402375": [],
-      "2402376": [],
-      "2402377": [],
-      "2402378": [],
-      "2402379": [],
+      "2402343": [
+        "p_bridge"
+      ],
+      "2402344": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2402345": [
+        "p_bridge"
+      ],
+      "2402346": [
+        "cold_fusion"
+      ],
+      "2402347": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402348": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402349": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402350": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402351": [
+        "borderland",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402352": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402353": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402354": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402355": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402356": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402357": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402358": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402359": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402360": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402361": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402362": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402363": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402364": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402365": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402366": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402367": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402368": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402369": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402370": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402371": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402372": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402373": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402374": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402375": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402376": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402377": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402378": [
+        "cold_fusion",
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402379": [
+        "p_fieldphys"
+      ],
       "2402380": [],
       "2402381": [],
       "2402382": [],
       "2402383": [],
       "2402384": [],
       "2402385": [],
-      "2402386": [],
+      "2402386": [
+        "p_bridge"
+      ],
       "2402387": [],
-      "2402388": [],
-      "2402389": [],
-      "2402390": [],
+      "2402388": [
+        "p_bridge"
+      ],
+      "2402389": [
+        "p_bridge"
+      ],
+      "2402390": [
+        "p_bridge"
+      ],
       "2402391": [],
-      "2402392": [],
-      "2402393": [],
-      "2402394": [],
+      "2402392": [
+        "transhuman",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402393": [
+        "p_fieldphys"
+      ],
+      "2402394": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402395": [],
-      "2402396": [],
-      "2402397": [],
+      "2402396": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402397": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402398": [],
-      "2402399": [],
-      "2402400": [],
+      "2402399": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402400": [
+        "scalar",
+        "p_bridge"
+      ],
       "2402401": [],
       "2402402": [],
-      "2402403": [],
-      "2402404": [],
-      "2402405": [],
-      "2402406": [],
+      "2402403": [
+        "cold_fusion",
+        "vortex",
+        "p_bridge"
+      ],
+      "2402404": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402405": [
+        "p_bridge"
+      ],
+      "2402406": [
+        "p_formative",
+        "p_bridge",
+        "p_nature"
+      ],
       "2402407": [],
-      "2402408": [],
-      "2402409": [],
+      "2402408": [
+        "p_bridge"
+      ],
+      "2402409": [
+        "p_bridge"
+      ],
       "2402410": [],
-      "2402411": [],
+      "2402411": [
+        "p_bridge"
+      ],
       "2402412": [],
       "2402413": [],
       "2402414": [],
-      "2402415": [],
+      "2402415": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402416": [],
-      "2402417": [],
+      "2402417": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
       "2402418": [],
       "2402419": [],
-      "2402420": [],
-      "2402421": [],
+      "2402420": [
+        "p_bridge"
+      ],
+      "2402421": [
+        "p_nature"
+      ],
       "2402422": [],
-      "2402423": [],
-      "2402424": [],
+      "2402423": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402424": [
+        "p_bridge"
+      ],
       "2402425": [],
       "2402426": [],
       "2402427": [],
       "2402428": [],
       "2402429": [],
-      "2402430": [],
+      "2402430": [
+        "p_bridge"
+      ],
       "2402431": [],
-      "2402432": [],
+      "2402432": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
       "2402433": [],
-      "2402434": [],
-      "2402435": [],
-      "2402436": [],
+      "2402434": [
+        "morphic",
+        "p_goethean",
+        "p_formative"
+      ],
+      "2402435": [
+        "p_bridge"
+      ],
+      "2402436": [
+        "geometry_sacred"
+      ],
       "2402437": [],
-      "2402438": [],
+      "2402438": [
+        "suppression",
+        "p_wrongturn"
+      ],
       "2402439": [],
-      "2402440": [],
-      "2402441": [],
-      "2402442": [],
+      "2402440": [
+        "cold_fusion",
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402441": [
+        "p_bridge"
+      ],
+      "2402442": [
+        "p_bridge"
+      ],
       "2402443": [],
       "2402444": [],
       "2402445": [],
-      "2402446": [],
-      "2402447": [],
+      "2402446": [
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn",
+        "p_bridge"
+      ],
+      "2402447": [
+        "cold_fusion"
+      ],
       "2402448": [],
-      "2402449": [],
-      "2402450": [],
-      "2402451": [],
+      "2402449": [
+        "p_bridge"
+      ],
+      "2402450": [
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
+      "2402451": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402452": [],
       "2402453": [],
       "2402454": [],
-      "2402455": [],
+      "2402455": [
+        "p_bridge"
+      ],
       "2402456": [],
       "2402457": [],
       "2402458": [],
       "2402459": [],
-      "2402460": [],
+      "2402460": [
+        "p_bridge"
+      ],
       "2402461": [],
-      "2402462": [],
+      "2402462": [
+        "p_bridge"
+      ],
       "2402463": [],
-      "2402464": [],
-      "2402465": [],
+      "2402464": [
+        "p_fieldphys"
+      ],
+      "2402465": [
+        "p_bridge"
+      ],
       "2402466": [],
-      "2402467": [],
+      "2402467": [
+        "p_consciousness"
+      ],
       "2402468": [],
-      "2402469": [],
+      "2402469": [
+        "p_bridge"
+      ],
       "2402470": [],
-      "2402471": [],
-      "2402472": [],
+      "2402471": [
+        "p_bridge"
+      ],
+      "2402472": [
+        "biophoton"
+      ],
       "2402473": [],
-      "2402474": [],
+      "2402474": [
+        "p_bridge"
+      ],
       "2402475": [],
-      "2402476": [],
+      "2402476": [
+        "cold_fusion",
+        "p_bridge"
+      ],
       "2402477": [],
-      "2402478": [],
-      "2402479": [],
+      "2402478": [
+        "p_bridge"
+      ],
+      "2402479": [
+        "p_bridge"
+      ],
       "2402480": [],
       "2402481": [],
-      "2402482": [],
+      "2402482": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
       "2402483": [],
-      "2402484": [],
-      "2402485": [],
-      "2402486": [],
-      "2402487": [],
-      "2402488": [],
+      "2402484": [
+        "p_bridge"
+      ],
+      "2402485": [
+        "crystal",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402486": [
+        "crystal"
+      ],
+      "2402487": [
+        "p_bridge"
+      ],
+      "2402488": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402489": [],
-      "2402490": [],
-      "2402491": [],
+      "2402490": [
+        "p_bridge"
+      ],
+      "2402491": [
+        "p_goethean"
+      ],
       "2402492": [],
       "2402493": [],
       "2402494": [],
-      "2402495": [],
-      "2402496": [],
-      "2402497": [],
-      "2402498": [],
-      "2402499": [],
-      "2402500": [],
-      "2402501": [],
+      "2402495": [
+        "p_bridge"
+      ],
+      "2402496": [
+        "cold_fusion",
+        "p_bridge"
+      ],
+      "2402497": [
+        "p_bridge"
+      ],
+      "2402498": [
+        "p_bridge"
+      ],
+      "2402499": [
+        "cold_fusion",
+        "p_bridge"
+      ],
+      "2402500": [
+        "p_bridge"
+      ],
+      "2402501": [
+        "p_bridge"
+      ],
       "2402502": [],
-      "2402503": [],
-      "2402504": [],
-      "2402505": [],
-      "2402506": [],
+      "2402503": [
+        "p_nature"
+      ],
+      "2402504": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402505": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402506": [
+        "p_bridge"
+      ],
       "2402507": [],
       "2402508": [],
-      "2402509": [],
-      "2402510": [],
-      "2402511": [],
-      "2402512": [],
-      "2402513": [],
+      "2402509": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402510": [
+        "p_bridge"
+      ],
+      "2402511": [
+        "p_bridge"
+      ],
+      "2402512": [
+        "p_bridge"
+      ],
+      "2402513": [
+        "p_bridge"
+      ],
       "2402514": [],
       "2402515": [],
-      "2402516": [],
+      "2402516": [
+        "p_bridge"
+      ],
       "2402517": [],
       "2402518": [],
-      "2402519": [],
-      "2402520": [],
-      "2402521": [],
-      "2402522": [],
+      "2402519": [
+        "p_bridge"
+      ],
+      "2402520": [
+        "p_bridge"
+      ],
+      "2402521": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402522": [
+        "p_formative"
+      ],
       "2402523": [],
       "2402524": [],
-      "2402525": [],
-      "2402526": [],
-      "2402527": [],
-      "2402528": [],
+      "2402525": [
+        "p_formative"
+      ],
+      "2402526": [
+        "p_bridge"
+      ],
+      "2402527": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402528": [
+        "p_bridge"
+      ],
       "2402529": [],
-      "2402530": [],
+      "2402530": [
+        "p_bridge"
+      ],
       "2402531": [],
       "2402532": [],
-      "2402533": [],
+      "2402533": [
+        "p_visualray",
+        "p_formative",
+        "p_bridge"
+      ],
       "2402534": [],
       "2402535": [],
-      "2402536": [],
+      "2402536": [
+        "p_bridge"
+      ],
       "2402537": [],
-      "2402538": [],
-      "2402539": [],
-      "2402540": [],
-      "2402541": [],
-      "2402542": [],
+      "2402538": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402539": [
+        "p_bridge"
+      ],
+      "2402540": [
+        "p_bridge"
+      ],
+      "2402541": [
+        "torsion",
+        "p_bridge"
+      ],
+      "2402542": [
+        "p_bridge"
+      ],
       "2402543": [],
-      "2402544": [],
-      "2402545": [],
+      "2402544": [
+        "p_bridge"
+      ],
+      "2402545": [
+        "morphic",
+        "p_formative",
+        "p_consciousness",
+        "p_nature"
+      ],
       "2402546": [],
-      "2402547": [],
-      "2402548": [],
-      "2402549": [],
+      "2402547": [
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402548": [
+        "p_fieldphys"
+      ],
+      "2402549": [
+        "p_bridge"
+      ],
       "2402550": [],
-      "2402551": [],
-      "2402552": [],
-      "2402553": [],
+      "2402551": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402552": [
+        "p_bridge"
+      ],
+      "2402553": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
       "2402554": [],
-      "2402555": [],
+      "2402555": [
+        "p_wrongturn",
+        "p_bridge"
+      ],
       "2402556": [],
-      "2402557": [],
+      "2402557": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
       "2402558": [],
-      "2402559": [],
+      "2402559": [
+        "crystal",
+        "p_nature"
+      ],
       "2402560": [],
       "2402561": [],
-      "2402562": [],
-      "2402563": [],
+      "2402562": [
+        "p_bridge"
+      ],
+      "2402563": [
+        "p_bridge"
+      ],
       "2402564": [],
       "2402565": [],
       "2402566": [],
       "2402567": [],
-      "2402568": [],
+      "2402568": [
+        "tesla",
+        "p_wrongturn"
+      ],
       "2402569": [],
-      "2402570": [],
-      "2402571": [],
-      "2402572": [],
+      "2402570": [
+        "p_bridge"
+      ],
+      "2402571": [
+        "cold_fusion",
+        "p_bridge"
+      ],
+      "2402572": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402573": [],
-      "2402574": [],
-      "2402575": [],
+      "2402574": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402575": [
+        "p_bridge"
+      ],
       "2402576": [],
-      "2402577": [],
-      "2402578": [],
+      "2402577": [
+        "p_bridge"
+      ],
+      "2402578": [
+        "p_consciousness"
+      ],
       "2402579": [],
       "2402580": [],
       "2402581": [],
       "2402582": [],
       "2402583": [],
-      "2402584": [],
-      "2402585": [],
-      "2402586": [],
+      "2402584": [
+        "p_bridge"
+      ],
+      "2402585": [
+        "p_bridge"
+      ],
+      "2402586": [
+        "p_bridge"
+      ],
       "2402587": [],
-      "2402588": [],
-      "2402589": [],
-      "2402590": [],
-      "2402591": [],
+      "2402588": [
+        "p_bridge"
+      ],
+      "2402589": [
+        "p_goethean"
+      ],
+      "2402590": [
+        "p_bridge"
+      ],
+      "2402591": [
+        "cold_fusion"
+      ],
       "2402592": [],
-      "2402593": [],
-      "2402594": [],
-      "2402595": [],
+      "2402593": [
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2402594": [
+        "p_bridge"
+      ],
+      "2402595": [
+        "p_bridge"
+      ],
       "2402596": [],
-      "2402597": [],
+      "2402597": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
       "2402598": [],
-      "2402599": [],
-      "2402600": [],
-      "2402601": [],
-      "2402602": [],
-      "2402603": [],
-      "2402604": [],
-      "2402605": [],
-      "2402606": [],
-      "2402607": [],
-      "2402608": [],
+      "2402599": [
+        "cold_fusion"
+      ],
+      "2402600": [
+        "geometry_sacred"
+      ],
+      "2402601": [
+        "p_bridge"
+      ],
+      "2402602": [
+        "scalar"
+      ],
+      "2402603": [
+        "p_bridge"
+      ],
+      "2402604": [
+        "morphic",
+        "p_formative",
+        "p_nature"
+      ],
+      "2402605": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402606": [
+        "scalar"
+      ],
+      "2402607": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402608": [
+        "vortex"
+      ],
       "2402609": [],
       "2402610": [],
-      "2402611": [],
+      "2402611": [
+        "p_bridge"
+      ],
       "2402612": [],
-      "2402613": [],
+      "2402613": [
+        "p_nature"
+      ],
       "2402614": [],
       "2402615": [],
       "2402616": [],
       "2402617": [],
-      "2402618": [],
-      "2402619": [],
-      "2402620": [],
-      "2402621": [],
-      "2402622": [],
-      "2402623": [],
+      "2402618": [
+        "p_bridge"
+      ],
+      "2402619": [
+        "p_bridge"
+      ],
+      "2402620": [
+        "p_bridge"
+      ],
+      "2402621": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402622": [
+        "p_bridge"
+      ],
+      "2402623": [
+        "p_goethean",
+        "p_bridge"
+      ],
       "2402624": [],
-      "2402625": [],
+      "2402625": [
+        "p_bridge"
+      ],
       "2402626": [],
-      "2402627": [],
+      "2402627": [
+        "crystal",
+        "p_goethean"
+      ],
       "2402628": [],
-      "2402629": [],
-      "2402630": [],
-      "2402631": [],
+      "2402629": [
+        "p_bridge"
+      ],
+      "2402630": [
+        "p_bridge"
+      ],
+      "2402631": [
+        "tesla"
+      ],
       "2402632": [],
       "2402633": [],
-      "2402634": [],
+      "2402634": [
+        "p_bridge"
+      ],
       "2402635": [],
-      "2402636": [],
+      "2402636": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402637": [],
       "2402638": [],
-      "2402639": [],
-      "2402640": [],
-      "2402641": [],
-      "2402642": [],
-      "2402643": [],
-      "2402644": [],
-      "2402645": [],
-      "2402646": [],
+      "2402639": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402640": [
+        "p_bridge"
+      ],
+      "2402641": [
+        "p_bridge"
+      ],
+      "2402642": [
+        "p_bridge"
+      ],
+      "2402643": [
+        "p_bridge"
+      ],
+      "2402644": [
+        "p_bridge"
+      ],
+      "2402645": [
+        "p_bridge"
+      ],
+      "2402646": [
+        "p_bridge"
+      ],
       "2402647": [],
-      "2402648": [],
-      "2402649": [],
-      "2402650": [],
+      "2402648": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402649": [
+        "cold_fusion",
+        "p_bridge"
+      ],
+      "2402650": [
+        "p_bridge"
+      ],
       "2402651": [],
       "2402652": [],
-      "2402653": [],
+      "2402653": [
+        "crystal",
+        "p_bridge"
+      ],
       "2402654": [],
-      "2402655": [],
+      "2402655": [
+        "p_wrongturn"
+      ],
       "2402656": [],
       "2402657": [],
       "2402658": [],
       "2402659": [],
-      "2402660": [],
-      "2402661": [],
+      "2402660": [
+        "p_bridge"
+      ],
+      "2402661": [
+        "morphic",
+        "p_fieldphys",
+        "p_formative",
+        "p_bridge"
+      ],
       "2402662": [],
       "2402663": [],
       "2402664": [],
-      "2402665": [],
+      "2402665": [
+        "morphic",
+        "p_formative"
+      ],
       "2402666": [],
       "2402667": [],
-      "2402668": [],
-      "2402669": [],
+      "2402668": [
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
+      "2402669": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402670": [],
-      "2402671": [],
+      "2402671": [
+        "tesla"
+      ],
       "2402672": [],
       "2402673": [],
       "2402674": [],
       "2402675": [],
       "2402676": [],
       "2402677": [],
-      "2402678": [],
+      "2402678": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402679": [],
       "2402680": [],
-      "2402681": [],
+      "2402681": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402682": [],
       "2402683": [],
       "2402684": [],
-      "2402685": [],
-      "2402686": [],
+      "2402685": [
+        "cold_fusion",
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2402686": [
+        "geometry_sacred"
+      ],
       "2402687": [],
-      "2402688": [],
+      "2402688": [
+        "p_bridge"
+      ],
       "2402689": [],
-      "2402690": [],
-      "2402691": [],
-      "2402692": [],
-      "2402693": [],
-      "2402694": [],
+      "2402690": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402691": [
+        "p_bridge"
+      ],
+      "2402692": [
+        "p_bridge"
+      ],
+      "2402693": [
+        "p_bridge"
+      ],
+      "2402694": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402695": [],
-      "2402696": [],
+      "2402696": [
+        "p_goethean"
+      ],
       "2402697": [],
-      "2402698": [],
-      "2402699": [],
+      "2402698": [
+        "p_bridge"
+      ],
+      "2402699": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402700": [],
       "2402701": [],
-      "2402702": [],
+      "2402702": [
+        "geometry_sacred",
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
       "2402703": [],
-      "2402704": [],
+      "2402704": [
+        "cold_fusion"
+      ],
       "2402705": [],
-      "2402706": [],
+      "2402706": [
+        "p_bridge"
+      ],
       "2402707": [],
-      "2402708": [],
-      "2402709": [],
+      "2402708": [
+        "crystal",
+        "p_fieldphys"
+      ],
+      "2402709": [
+        "cold_fusion",
+        "geometry_sacred",
+        "p_bridge"
+      ],
       "2402710": [],
       "2402711": [],
-      "2402712": [],
+      "2402712": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
       "2402713": [],
-      "2402714": [],
+      "2402714": [
+        "p_goethean",
+        "p_bridge"
+      ],
       "2402715": [],
       "2402716": [],
-      "2402717": [],
-      "2402718": [],
-      "2402719": [],
+      "2402717": [
+        "p_bridge"
+      ],
+      "2402718": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402719": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402720": [],
       "2402721": [],
       "2402722": [],
       "2402723": [],
       "2402724": [],
-      "2402725": [],
+      "2402725": [
+        "p_consciousness"
+      ],
       "2402726": [],
-      "2402727": [],
-      "2402728": [],
-      "2402729": [],
-      "2402730": [],
-      "2402731": [],
-      "2402732": [],
+      "2402727": [
+        "p_goethean"
+      ],
+      "2402728": [
+        "p_bridge"
+      ],
+      "2402729": [
+        "crystal",
+        "p_bridge"
+      ],
+      "2402730": [
+        "p_bridge"
+      ],
+      "2402731": [
+        "p_bridge"
+      ],
+      "2402732": [
+        "p_bridge"
+      ],
       "2402733": [],
-      "2402734": [],
-      "2402735": [],
+      "2402734": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2402735": [
+        "p_bridge"
+      ],
       "2402736": [],
-      "2402737": [],
+      "2402737": [
+        "p_bridge"
+      ],
       "2402738": [],
-      "2402739": [],
-      "2402740": [],
-      "2402741": [],
-      "2402742": [],
-      "2402743": [],
-      "2402744": [],
-      "2402745": [],
+      "2402739": [
+        "p_bridge"
+      ],
+      "2402740": [
+        "p_bridge"
+      ],
+      "2402741": [
+        "cold_fusion",
+        "geometry_sacred",
+        "crystal"
+      ],
+      "2402742": [
+        "p_bridge"
+      ],
+      "2402743": [
+        "p_consciousness"
+      ],
+      "2402744": [
+        "p_bridge"
+      ],
+      "2402745": [
+        "p_bridge"
+      ],
       "2402746": [],
       "2402747": [],
       "2402748": [],
       "2402749": [],
-      "2402750": [],
-      "2402751": [],
-      "2402752": [],
-      "2402753": [],
+      "2402750": [
+        "p_bridge"
+      ],
+      "2402751": [
+        "geometry_sacred",
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402752": [
+        "p_bridge"
+      ],
+      "2402753": [
+        "p_consciousness",
+        "p_bridge"
+      ],
       "2402754": [],
       "2402755": [],
       "2402756": [],
-      "2402757": [],
+      "2402757": [
+        "p_bridge"
+      ],
       "2402758": [],
-      "2402759": [],
+      "2402759": [
+        "p_bridge"
+      ],
       "2402760": [],
       "2402761": [],
       "2402762": [],
       "2402763": [],
-      "2402764": [],
-      "2402765": [],
+      "2402764": [
+        "p_bridge"
+      ],
+      "2402765": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
       "2402766": [],
-      "2402767": [],
+      "2402767": [
+        "p_fieldphys"
+      ],
       "2402768": [],
-      "2402769": [],
-      "2402770": [],
+      "2402769": [
+        "p_bridge"
+      ],
+      "2402770": [
+        "transhuman",
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402771": [],
-      "2402772": [],
-      "2402773": [],
-      "2402774": [],
-      "2402775": [],
+      "2402772": [
+        "p_bridge"
+      ],
+      "2402773": [
+        "p_fieldphys"
+      ],
+      "2402774": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402775": [
+        "geometry_sacred"
+      ],
       "2402776": [],
-      "2402777": [],
-      "2402778": [],
+      "2402777": [
+        "p_bridge"
+      ],
+      "2402778": [
+        "p_bridge"
+      ],
       "2402779": [],
-      "2402780": [],
-      "2402781": [],
-      "2402782": [],
+      "2402780": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402781": [
+        "p_bridge"
+      ],
+      "2402782": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402783": [],
-      "2402784": [],
-      "2402785": [],
+      "2402784": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402785": [
+        "p_bridge"
+      ],
       "2402786": [],
       "2402787": [],
-      "2402788": [],
-      "2402789": [],
+      "2402788": [
+        "scalar"
+      ],
+      "2402789": [
+        "p_bridge"
+      ],
       "2402790": [],
       "2402791": [],
-      "2402792": [],
-      "2402793": [],
+      "2402792": [
+        "p_bridge"
+      ],
+      "2402793": [
+        "p_bridge"
+      ],
       "2402794": [],
-      "2402795": [],
-      "2402796": [],
-      "2402797": [],
-      "2402798": [],
+      "2402795": [
+        "p_bridge"
+      ],
+      "2402796": [
+        "p_bridge"
+      ],
+      "2402797": [
+        "p_bridge"
+      ],
+      "2402798": [
+        "p_bridge"
+      ],
       "2402799": [],
-      "2402800": [],
-      "2402801": [],
-      "2402802": [],
-      "2402803": [],
-      "2402804": [],
+      "2402800": [
+        "p_fieldphys",
+        "p_nature"
+      ],
+      "2402801": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402802": [
+        "p_bridge"
+      ],
+      "2402803": [
+        "tesla"
+      ],
+      "2402804": [
+        "scalar",
+        "tesla",
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
       "2402805": [],
-      "2402806": [],
+      "2402806": [
+        "p_bridge"
+      ],
       "2402807": [],
       "2402808": [],
-      "2402809": [],
-      "2402810": [],
-      "2402811": [],
+      "2402809": [
+        "p_bridge"
+      ],
+      "2402810": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402811": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402812": [],
-      "2402813": [],
+      "2402813": [
+        "cold_fusion",
+        "p_bridge"
+      ],
       "2402814": [],
-      "2402815": [],
-      "2402816": [],
+      "2402815": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402816": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402817": [],
       "2402818": [],
       "2402819": [],
       "2402820": [],
-      "2402821": [],
+      "2402821": [
+        "p_bridge"
+      ],
       "2402822": [],
-      "2402823": [],
-      "2402824": [],
-      "2402825": [],
-      "2402826": [],
+      "2402823": [
+        "p_bridge"
+      ],
+      "2402824": [
+        "p_consciousness"
+      ],
+      "2402825": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402826": [
+        "geometry_sacred"
+      ],
       "2402827": [],
       "2402828": [],
-      "2402829": [],
+      "2402829": [
+        "p_fieldphys"
+      ],
       "2402830": [],
-      "2402831": [],
-      "2402832": [],
-      "2402833": [],
+      "2402831": [
+        "scalar"
+      ],
+      "2402832": [
+        "geometry_sacred",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402833": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
       "2402834": [],
-      "2402835": [],
+      "2402835": [
+        "p_bridge"
+      ],
       "2402836": [],
-      "2402837": [],
-      "2402838": [],
+      "2402837": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2402838": [
+        "p_bridge"
+      ],
       "2402839": [],
       "2402840": [],
       "2402841": [],
       "2402842": [],
-      "2402843": [],
-      "2402844": [],
-      "2402845": [],
-      "2402846": [],
+      "2402843": [
+        "p_nature"
+      ],
+      "2402844": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402845": [
+        "p_bridge"
+      ],
+      "2402846": [
+        "p_wrongturn"
+      ],
       "2402847": [],
       "2402848": [],
-      "2402849": [],
+      "2402849": [
+        "p_bridge"
+      ],
       "2402850": [],
-      "2402851": [],
+      "2402851": [
+        "p_wrongturn"
+      ],
       "2402852": [],
-      "2402853": [],
-      "2402854": [],
-      "2402855": [],
-      "2402856": [],
-      "2402857": [],
-      "2402858": [],
+      "2402853": [
+        "morphic",
+        "biophoton",
+        "geometry_sacred",
+        "p_formative",
+        "p_wrongturn"
+      ],
+      "2402854": [
+        "p_bridge"
+      ],
+      "2402855": [
+        "p_bridge"
+      ],
+      "2402856": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402857": [
+        "p_bridge"
+      ],
+      "2402858": [
+        "p_bridge"
+      ],
       "2402859": [],
       "2402860": [],
-      "2402861": [],
+      "2402861": [
+        "p_bridge"
+      ],
       "2402862": [],
-      "2402863": [],
+      "2402863": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402864": [],
-      "2402865": [],
-      "2402866": [],
+      "2402865": [
+        "p_bridge"
+      ],
+      "2402866": [
+        "p_fieldphys"
+      ],
       "2402867": [],
-      "2402868": [],
-      "2402869": [],
-      "2402870": [],
-      "2402871": [],
+      "2402868": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402869": [
+        "consciousness",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2402870": [
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2402871": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "2402872": [],
       "2402873": [],
       "2402874": [],
-      "2402875": [],
-      "2402876": [],
+      "2402875": [
+        "torsion",
+        "p_fieldphys",
+        "p_nature"
+      ],
+      "2402876": [
+        "p_fieldphys"
+      ],
       "2402877": [],
-      "2402878": [],
+      "2402878": [
+        "crystal"
+      ],
       "2402879": [],
       "2402880": [],
       "2402881": [],
-      "2402882": [],
-      "2402883": [],
-      "2402884": [],
-      "2402885": [],
+      "2402882": [
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2402883": [
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2402884": [
+        "cold_fusion"
+      ],
+      "2402885": [
+        "cold_fusion"
+      ],
       "2402886": [],
-      "2402887": [],
+      "2402887": [
+        "p_wrongturn"
+      ],
       "2402888": [],
-      "2402889": [],
+      "2402889": [
+        "cold_fusion"
+      ],
       "2402890": [],
       "2402891": [],
       "2402892": [],
       "2402893": [],
       "2402894": [],
-      "2402895": [],
+      "2402895": [
+        "tesla",
+        "p_fieldphys"
+      ],
       "2402896": [],
       "2402897": [],
       "2402898": [],
       "2402899": [],
-      "2402900": [],
-      "2402901": [],
-      "2402902": [],
-      "2402903": [],
+      "2402900": [
+        "cold_fusion"
+      ],
+      "2402901": [
+        "electrogravitics"
+      ],
+      "2402902": [
+        "cold_fusion"
+      ],
+      "2402903": [
+        "torsion",
+        "consciousness",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
       "2402904": [],
       "2402905": [],
-      "2402906": [],
+      "2402906": [
+        "p_wrongturn"
+      ],
       "2402907": [],
       "2402908": [],
       "2402909": [],
-      "2402910": [],
+      "2402910": [
+        "radionics"
+      ],
       "2402911": [],
       "2402912": [],
-      "2402913": [],
+      "2402913": [
+        "torsion",
+        "p_fieldphys"
+      ],
       "2402914": [],
-      "2402915": []
+      "2402915": [
+        "torsion",
+        "geometry_sacred",
+        "p_fieldphys"
+      ]
     }
   },
   "graph": {
