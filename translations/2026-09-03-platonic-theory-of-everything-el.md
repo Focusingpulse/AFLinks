@@ -1,6 +1,6 @@
 ---
-name: The Platonic Theory of Everything and the Spyridis Unified Theory of the Electro-Strong Interaction
-description: "English translation of Spyridis' Platonic Theory of Everything / unified electro-strong interaction preface and paper."
+name: "2026-09-03-platonic-theory-of-everything-el"
+description: Full translation of "The Platonic Theory of Everything and"
 ---
 
 The Platonic Theory of Everything and

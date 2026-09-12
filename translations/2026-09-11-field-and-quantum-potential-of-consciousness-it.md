@@ -1,6 +1,6 @@
 ---
-name: Field and Quantum Potential of Consciousness
-description: "English translation of Antonio Manzalini, 'Field and Quantum Potential of Consciousness' (IBI16, doi:10.48274/IBI16)."
+name: "2026-09-11-field-and-quantum-potential-of-consciousness-it"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Field and Quantum Potential of Consciousness

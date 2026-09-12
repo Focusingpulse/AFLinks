@@ -1,6 +1,6 @@
 ---
-name: Théorie de l'Univers Onde (TUO) — Zenodo record
-description: "English translation of the TUO (Théorie de l'Univers Onde) Zenodo record (2025, v2) — wave-universe theory papers."
+name: Skip to main
+description: "Translation document."
 ---
 
 Skip to main

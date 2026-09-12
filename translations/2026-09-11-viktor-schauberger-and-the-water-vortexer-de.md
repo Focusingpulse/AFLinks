@@ -1,6 +1,6 @@
 ---
-name: Viktor Schauberger and the Water Vortexer (Orpanit)
-description: "English translation of the German Orpanit page on Viktor Schauberger and the water vortexer."
+name: "2026-09-11-viktor-schauberger-and-the-water-vortexer-de"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Orpanit - Energie der neuen Zeit [site title]

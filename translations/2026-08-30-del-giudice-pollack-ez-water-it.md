@@ -1,6 +1,6 @@
 ---
-name: Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water
-description: "English translation of the Italian article on Emilio Del Giudice explaining Gerald Pollack's EZ-water (fourth phase) discovery."
+name: Link to Facebook. Link to X. Link to YouTube. Link to Instagram.
+description: "Translation document."
 ---
 
 Link to Facebook. Link to X. Link to YouTube. Link to Instagram.

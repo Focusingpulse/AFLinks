@@ -1,7 +1,13 @@
 ---
-name: "Form Waves and Sacred Geometry"
-description: "English translation of Mario Contino, "Onde di forma e geometria sacra" (mariocontino.it)."
+name: "2026-09-11-form-waves-and-sacred-geometry-it"
+description: "Full-document translation (assembled from completed chunks)."
 ---
+
+---
+name: Form Waves and Sacred Geometry
+description: "Full-document translation. language it | 3 chunks | https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra"
+---
+
 # Form Waves and Sacred Geometry
 
 *Full translation from it · source: https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra · 3 chunks · assembled 2026-09-11*

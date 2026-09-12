@@ -1,6 +1,6 @@
 ---
-name: N.A. Magnitsky — Gravity in the Theory of Compressible Oscillating Ether (2019)
-description: "English translation of N.A. Magnitsky, 'Gravity in the Theory of Compressible Oscillating Ether' (2019). Ether-theoretic gravity: pressing forces instead of attraction, composition-dependent G, no gravitational waves or gravitons. Source: UDC 51-72 preprint."
+name: Magnitsky, 2019
+description: "Translation document."
 ---
 
 Magnitsky, 2019

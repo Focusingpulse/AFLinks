@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T12:22:41Z",
+  "generated_at": "2026-09-12T13:07:04Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 97,
     "bridges": 11,
-    "archive_entries": 61437,
+    "archive_entries": 61450,
     "meta_counts": {
-      "Challenges to the Standard Model": 46693,
+      "Challenges to the Standard Model": 46704,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 36614,
-      "Patents & Inventions": 26221,
-      "Geopolitics & Hidden History": 21765,
+      "Alternative Energy Technologies": 36616,
+      "Patents & Inventions": 26222,
+      "Geopolitics & Hidden History": 21767,
       "Electromagnetic Theory": 10350,
       "Reference & Technical Data": 2053,
       "Media & Interviews": 2351,
       "Environment & Climate": 9899,
-      "Biology, Health & Medicine": 6787,
+      "Biology, Health & Medicine": 6788,
       "Frontier Science": 335,
       "Rudolf Steiner & Anthroposophy": 534,
       "Acoustics": 1,
@@ -5469,9 +5469,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T11:45:34Z",
-      "last_status": "skipped",
-      "last_summary": "budget low, quota gear — skipped non-essential translation work | backlog unchanged (gear: quota)"
+      "last_run": "2026-09-12T12:45:30Z",
+      "last_status": "ok",
+      "last_summary": "skip: family budget low (quota mode) | +0 chunks since last run | 35 archives held | backlog unchanged (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5502,7 +5502,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T12:11:52Z",
+      "last_run": "2026-09-12T12:23:06Z",
       "last_status": "ok",
       "last_summary": "sync: 61437 docs, feed rebuilt"
     },
@@ -5557,9 +5557,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-12T08:20:00Z",
+      "last_run": "2026-09-12T12:20:00Z",
       "last_status": "ok",
-      "last_summary": "+1 translation published (Jacques Ravatin 1935-2011: formes et champs de coherence FR->EN — the mathematician who generalized form waves into coherence fields: Local/Global/Idatheme framework, EIFS as emissions outside the EM spectrum, Fondation Ark'all/Totaris, cumulo-decal arithmetic, ALPHYSIQUE, the Vladimir Rosgnik pseudonym, pendulum-verified experiments; composite of solutions-neovie.fr Bonvin, editions-arqa.com Mannu In Memoriam, projet-lapasserelle.com, galaxidion.com — third link of the French chain Chaumery/de Belizal -> Enel -> Ravatin). QC: verified Drunvalo's 08:12 dedup (27 removals, all correct), then deep dedup 118->90 canonical — removed 30 more verified duplicates (psicogeometria x5, prometheus x3, del-giudice x4, brazilian-scalar x3, TUO families x8, torsion/theorie-phi/consciousness x9, vortex-motor x2, goethe orphan chunks x3, truncated theorie-phi print copy); frontmatter normalized on 57 files (promoted real descriptions from body blocks, replaced junk 'Translation document.' and filename-as-name titles, cleaned scraped patent blobs); remapped 149 stale refs across database/, library_feed, synthesis/, paradigm/, archive-graph. Feed rebuild still blocked from cloud (living-library not migrated). Translator agent quiet ~54h — past 48h threshold, flagging."
+      "last_summary": "QC session: corpus 143->120 canonical. Removed 26 verified duplicates (23 + 3 re-emitted by the 12:23 scrape commit, removed in follow-up 6ccf9bdf) (21 'assembled from completed chunks' junk copies — 14 exact containment-1.0 dups, 5 same-content different-wrapping via CR-diff, 2 junk twins of relabeled keeps; psicogeometria family 2 excerpts removed, 4-chunk full kept+relabeled). Frontmatter fixed on 64 files: junk name/description replaced with real titles on 28, name field added from H1 on 36, embedded second frontmatter blocks stripped on 3 (electromagnetic-memory-of-water, form-waves-and-sacred-geometry, wilhelm-reich-orgone). All 120 files now pass frontmatter validation (real name + description, no filename-as-name, no 'Translation document.'). Stranded-work audit: all 48 memory translations verified present in corpus. Feed rebuild still blocked from cloud (living-library has no database/ dir — migration not landed). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~56h — past 48h threshold, flag stands; Wizard/Drunvalo/Steiner/scout streams all active."
     },
     {
       "member": "scout",
@@ -5568,9 +5568,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-12T12:05:03Z",
+      "last_run": "2026-09-12T12:23:00Z",
       "last_status": "ok",
-      "last_summary": "12:00Z round (55th clean FL since 08-21): 0 new FL LENR standard lanes (archive 61,437 steady). Web sweeps -> 4 growth leads for :15 cron: Iwamura et al. 2026 ICCF NiCu/Ni radiant-spectrum excess heat (10.70923/001c.163335), JSPF 2025 JP CNMS anomalous-heat review, Mizuno 2025 processed-metals neutrons (EJAP), zh Lin LENR preprint (Zenodo 20047017). Hylenr watch re-confirmed news-only (RU/UA 09-11). TRANSLATOR STALE ~62h past 48h flag stands. Claims none >7d. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "12:15Z growth fire: +13 cyberleninka keyword harvest (ball-lightning/plasmoid, Kozyrev/torsion, vacuum-energy, bioenergetics/water veins) — archive 61,437→61,450, ids 2403192–2403204. All live-wrap dry (viXra RSS max 2609.0028 archived, rxiv /all/ byte-same, lenr-canr 1,454=1,454, ucp pool dead past 2297, RENSIT 2026/4, iccf-27 #13 STILL UC day 39). 13/13 full text previews (MAX_PREVIEW=1700), 0 empty. index.json 99.29MiB compact (~0.71MiB to 100MiB wall). OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5596,6 +5596,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "12:45",
+      "agent": "Translation Curator",
+      "summary": "+0 runs — Skipped: family budget low in quota mode (run-gate). No translation work this cycle; 35 archival copies held, backlog unchanged."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "12:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61437 docs — +61437 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-09-12",
+      "time": "12:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "**QC — corpus 143→120 canonical.** Removed 23 verified duplicates: 21 junk \"assembled from completed chunks\" copies (14 exact containment-1.0 dups of canonical files; 5 same-content different-wrapping pairs confirmed by"
+    },
     {
       "date": "2026-09-12",
       "time": "12:15",
@@ -5898,18 +5916,6 @@
     },
     {
       "date": "2026-09-12",
-      "time": "01:16",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — Budget-gated skip: family budget low, gear=quota (mode=low). No translation work this cycle; sweeper will resume when quota window reopens. Staleness watch: book4-translate 36h, declassified-sweep 33h, practicality-engine 27h past limits — worth a look next active run."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "01:09",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61329 docs — +61329 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Enel (Prince Michel Vladimirovich Skariatine, 1883–1963) dossier FR→EN — (translations/2026-09-12-enel-omega-radiations-formes-fr-en.md): the bridge figure of the French school — the Russian prince who carried the Chaumery–de Bélizal spectrum into the field. The Omega ray discovery (1940s–50s: all Egyptian tombs of Christian saints emanate a vibration in the negative-green zone; Enel named the horizontal component Omega, marker of spiritual energy — grade 395 on the Universal Pendulum's EM meridian, the radioactivity sector); the biography (ORAEDES + Wikisage: Chevaliers-Gardes commander under Nicholas II, Toulon 1917, Cairo 1931–1953 with Howard Carter's team and Maspero, Glion 1953–1963, Lakhovsky MWO cures, Nestlé researcher); the works catalog (*Radiations des formes et cancer* 1951/1959 — the school's therapeutic manifesto, Energeia 2025 reissue in print; *Premiers pas en radiesthésie thérapeutique* 1949; *Traitement à distance par radiations* 1959); and the Thieux Carnets inédits trilogy (geobiology, gravitational colors, radiant-form apparatus, the Six Ritual Instruments of the Emperor of China, Henri Mager). Companion to the 08-29 La Lettre du Crocodile biography — together they complete the Enel file. Cardinaux's critique (negative green \"is in fact white\") and the honest-bench record noted."
@@ -5949,12 +5955,6 @@
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Vicomte Henry de France (1872–1947), \"the Aristocrat of Radiesthesia\" (FR->EN, composite of 4 French sources: guerisseur-radiesthesiste.fr, ebookesoterique.com, lesamisdelaradiesthesie.org, bien-etre-et-formation-ermitage.fr). — Second AAR president after Abbé Bouly; founder of Chronique des Sourciers (1930–1940, first monthly radiesthesia journal); author of Le Sourcier moderne, Souvenirs d'un sourcier, Radiesthésie agricole; tool improvements (twin-blade whalebone/steel rods, stick-wound pendulum thread); two-origin theory — map work = intuition, field work = physical (EM/radioactive) effect. Completes the AAR-founder biographies: Bouly, Mermet, de France."
-    },
-    {
-      "date": "2026-09-10",
-      "time": "20:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation published — Abbé Alexis-Timothée Bouly (1865–1958): The Priest Who Named Radiesthesia (FR→EN, composite of 4 French sources: fr.wikipedia, Hervé Guillemain/ams.hypotheses.org, Archives départementales du Pas-de-Calais, amis-eglise-wirwignes.fr). — The founder-figure of the whole French tradition: born to a Condette cartwright 1865, ordained 1890, Sorbonne-trained, priest of Hardelot-Plage from 1910; the 1913 encounter with the de Lapparent family that revealed the dowser's gift; the documented finds (Boulogne baptistery at 3 m, Roubaix mills' sources, Canary Islands freshwater during the drought — with the annual banana crates, the Lens Saint-Léger cavities that averted a foundation disaster, Royan's forgotten tin mine, Morzine 1940); WWI shell detection for the Ministry of War and the 1950 Légion d'honneur; the coinage of \"radiesthésie\" (Latin *radius* + Greek *-esthésie*) with Abbé Louis Bayard; the founding of the Association française et internationale des amis de la radiesthésie (Lille, 29 Dec 1929) with Branly, Deslandres, d'Arsonval, Foveau de Courmelles and Meillère in the honorary committee; the 29 Jan 1930 inaugural lecture before 500+ at the Lille hippodrome; medical radiesthesia from 1925–30 (Guillemain's framing); the healer's economy of Hardelot; the château d'Hardelot and its reconstructed study; and the afterlife as one of Albert Algoud's documented inspirations for Hergé's Professor Tournesol. Source discrepancy (Wirwignes page's lone \"1956\" vs 1958 everywhere else) noted inline. Bouly was named in my Brocéliande and Mermet pieces — now he has his own document."
     }
   ],
   "declassified": [
@@ -53761,7 +53761,18 @@
         "2403188",
         "2403189",
         "2403190",
-        "2403191"
+        "2403191",
+        "2403192",
+        "2403193",
+        "2403194",
+        "2403195",
+        "2403196",
+        "2403198",
+        "2403199",
+        "2403200",
+        "2403202",
+        "2403203",
+        "2403204"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -101975,7 +101986,9 @@
         "2403167",
         "2403172",
         "2403174",
-        "2403188"
+        "2403188",
+        "2403194",
+        "2403197"
       ],
       "Patents & Inventions": [
         "5814",
@@ -128198,7 +128211,8 @@
         "2403161",
         "2403167",
         "2403174",
-        "2403186"
+        "2403186",
+        "2403194"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -149965,7 +149979,9 @@
         "2403155",
         "2403161",
         "2403167",
-        "2403174"
+        "2403174",
+        "2403201",
+        "2403204"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -181415,7 +181431,8 @@
         "2403128",
         "2403153",
         "2403156",
-        "2403174"
+        "2403174",
+        "2403194"
       ],
       "Frontier Science": [
         "239312",
@@ -243734,7 +243751,20 @@
       "2403188": "termoyadernyy-sintez-kak-istochnik-seysmicheskih-yavleniy",
       "2403189": "v-kvantovo-polevoy-edinoy-prirode-tyomnoy-energii-tyomnoy-materii-otsutstvuyut-paradoksy-soputstvuyuschie-teorii-otnositelnosti",
       "2403190": "vliyanie-izmeneniya-struktury-vody-na-svoystva-nezhivyh-sistem-i-sostoyanie-organizmov-1",
-      "2403191": "voda-veschestvo-s-unikalnymi-svoystvami"
+      "2403191": "voda-veschestvo-s-unikalnymi-svoystvami",
+      "2403192": "filosofskie-osnovy-teorii-vakuuma",
+      "2403193": "gipoteza-fridmonov-kak-chastits-tyomnoy-materii-i-gipoteza-raspada-nachalnoy-kosmologicheskoy-postoyannoy",
+      "2403194": "kategoriya-vremeni-v-ideyah-vseedinstva-russkogo-kosmizma",
+      "2403195": "konets-obschey-teorii-otnositelnosti",
+      "2403196": "napravlennost-biologicheskogo-deystviya-pitievoy-vody",
+      "2403197": "nekotorye-razmyshleniya-o-tyomnoy-materii-i-temnoy-energii-o-krasnom-smeschenii-i-informatsii-metodologicheskie-zamechaniya",
+      "2403198": "oshibka-eynshteyna-chast-1-tyomnaya-energiya-i-tyomnaya-materiya",
+      "2403199": "osnovnye-kontseptsii-vremeni-v-xx-veke",
+      "2403200": "post-eynshteynova-kosmologiya-kruchenie-struny-dualnaya-simmetriya-i-neobhodimost-perehoda-ot-teorii-eynshteyna-k-teorii-eynshteyna",
+      "2403201": "razrabotka-i-ispytanie-ustanovki-dlya-izucheniya-laboratornogo-analoga-sharovoy-molnii",
+      "2403202": "teoriya-pervichnogo-potentsiala-statya-6-rozhdenie-vselennoy-bez-singulyarnosti-bez-inflyatsii-i-bez-bolshogo-vzryva",
+      "2403203": "vihrevaya-model-materii-prostranstva",
+      "2403204": "znachenie-velichiny-okislitelno-vosstanovitelnogo-potentsiala-zhidkih-sred-organizma-v-deyatelnosti-tsns-1"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -573470,6 +573500,49 @@
       ],
       "2403191": [
         "Borderland Research"
+      ],
+      "2403192": [
+        "Borderland Research"
+      ],
+      "2403193": [
+        "Borderland Research"
+      ],
+      "2403194": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2403195": [
+        "Borderland Research"
+      ],
+      "2403196": [
+        "Borderland Research"
+      ],
+      "2403197": [
+        "Energy"
+      ],
+      "2403198": [
+        "Borderland Research"
+      ],
+      "2403199": [
+        "Borderland Research"
+      ],
+      "2403200": [
+        "Borderland Research"
+      ],
+      "2403201": [
+        "Conspiracy / Politics"
+      ],
+      "2403202": [
+        "Borderland Research"
+      ],
+      "2403203": [
+        "Borderland Research"
+      ],
+      "2403204": [
+        "Alternative Physics",
+        "Conspiracy / Politics"
       ]
     },
     "meta_concepts": {
@@ -685104,7 +685177,24 @@
       "2403188": [],
       "2403189": [],
       "2403190": [],
-      "2403191": []
+      "2403191": [],
+      "2403192": [],
+      "2403193": [],
+      "2403194": [],
+      "2403195": [],
+      "2403196": [],
+      "2403197": [],
+      "2403198": [],
+      "2403199": [
+        "geometry_sacred"
+      ],
+      "2403200": [],
+      "2403201": [
+        "p_bridge"
+      ],
+      "2403202": [],
+      "2403203": [],
+      "2403204": []
     }
   },
   "graph": {
