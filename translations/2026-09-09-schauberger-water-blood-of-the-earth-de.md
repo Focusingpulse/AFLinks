@@ -1,7 +1,8 @@
 ---
-name: "Water – The Blood of the Earth: Viktor Schauberger (DE→EN)"
-description: "English translation of the German article on Viktor Schauberger's water work. Source: German."
+name: Water – The Blood of the Earth (Viktor Schauberger)
+description: "Translation document."
 ---
+
 Viktor Schauberger
 
 Water – The Blood of the Earth

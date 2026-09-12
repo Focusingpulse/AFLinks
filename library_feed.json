@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T16:11:16Z",
+  "generated_at": "2026-09-12T17:08:58Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -14,9 +14,9 @@
     "book5_complete": true,
     "translation_files": 97,
     "bridges": 11,
-    "archive_entries": 61465,
+    "archive_entries": 61559,
     "meta_counts": {
-      "Challenges to the Standard Model": 46715,
+      "Challenges to the Standard Model": 46798,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -31,14 +31,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 36619,
-      "Patents & Inventions": 26225,
-      "Geopolitics & Hidden History": 21771,
-      "Electromagnetic Theory": 10351,
-      "Reference & Technical Data": 2053,
+      "Alternative Energy Technologies": 36652,
+      "Patents & Inventions": 26247,
+      "Geopolitics & Hidden History": 21784,
+      "Electromagnetic Theory": 10377,
+      "Reference & Technical Data": 2054,
       "Media & Interviews": 2351,
-      "Environment & Climate": 9899,
-      "Biology, Health & Medicine": 6788,
+      "Environment & Climate": 9901,
+      "Biology, Health & Medicine": 6790,
       "Frontier Science": 335,
       "Rudolf Steiner & Anthroposophy": 534,
       "Acoustics": 1,
@@ -5550,7 +5550,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T15:23:13Z",
+      "last_run": "2026-09-12T16:13:30Z",
       "last_status": "ok",
       "last_summary": "sync: 61465 docs, feed rebuilt"
     },
@@ -5605,9 +5605,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-12T12:20:00Z",
+      "last_run": "2026-09-12T16:20:00Z",
       "last_status": "ok",
-      "last_summary": "QC session: corpus 143->120 canonical. Removed 26 verified duplicates (23 + 3 re-emitted by the 12:23 scrape commit, removed in follow-up 6ccf9bdf) (21 'assembled from completed chunks' junk copies — 14 exact containment-1.0 dups, 5 same-content different-wrapping via CR-diff, 2 junk twins of relabeled keeps; psicogeometria family 2 excerpts removed, 4-chunk full kept+relabeled). Frontmatter fixed on 64 files: junk name/description replaced with real titles on 28, name field added from H1 on 36, embedded second frontmatter blocks stripped on 3 (electromagnetic-memory-of-water, form-waves-and-sacred-geometry, wilhelm-reich-orgone). All 120 files now pass frontmatter validation (real name + description, no filename-as-name, no 'Translation document.'). Stranded-work audit: all 48 memory translations verified present in corpus. Feed rebuild still blocked from cloud (living-library has no database/ dir — migration not landed). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~56h — past 48h threshold, flag stands; Wizard/Drunvalo/Steiner/scout streams all active."
+      "last_summary": "QC session: corpus 139->93 canonical. Feed rebuilds (12:23 + 16:04) re-added 26 files Drunvalo/I had removed; Drunvalo's 16:06 pass caught 7, this session removed the remaining 46 verified dups across 21 families (dense-shingle + CR-diff verified, keepers have real frontmatter; akimov/shipov keepers restored + relabeled after over-removal caught in post-check). Frontmatter fixed on 13 files. Re-scan clean: only remaining overlap is two different translations of the same Zenodo scalar-field paper (both kept by policy). Feed rebuild still blocked from cloud (living-library has no database/ dir). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~60h - past 48h threshold, flag stands. OUTER-RING: +1 translation published — Jean de La Foye, Ondes de vie ondes de mort (FR->EN dossier, 4th link of the French chain, claim recorded)."
     },
     {
       "member": "scout",
@@ -5616,9 +5616,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-12T14:15:00Z",
+      "last_run": "2026-09-12T16:00:00Z",
       "last_status": "ok",
-      "last_summary": "14:15Z growth fire: +15 cyberleninka keyword harvest (vakuum/redshift/noosfera/gravity/ball-lightning veins), ids 2403205-2403219, archive 61,450->61,465 (e39381a56). Live-wrap all dry (viXra RSS max 2609.0028 archived, rxiv /all/ byte-same, lenr-canr 1,454=1,454, RENSIT 2026/4, iccf-27 #13 STILL UC 9,845B day 39, ucp dead). 15/15 full text previews (MAX_PREVIEW=1700), 0 empty. Direct cyberleninka fetch recovered (Cloudflare 520 cleared, no r.jina.ai proxy). index.json 99.34MiB compact (~0.66MiB to 100MiB wall). OCR/queue/tag pending FocusOptimized."
+      "last_summary": "16:00Z round (56th clean FL since 08-21): 0 new FL LENR — archive 61,465 steady. All live lanes dry: lenr-canr 1,454=1,454; rxiv /all/ byte-same 327,179B; viXra RSS 404 env flake (rxiv mirror covers, max 2609.0028 archived); ucp pool dead past 2297; iccf-27 /proceeding STILL UC 9,845B; RENSIT 000 flake; seplm no new posts. Web sweeps RU/zh/ja/en: Hylenr re-confirmed news-only (32-element rare-earth signatures Ni-Pd, ICCF-27, no published paper), ENG8 PRVR scaling-law write-up (New Fire Energy). TRANSLATOR STALE ~66h flag STANDS. Claims none >7d. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5644,6 +5644,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-12",
+      "time": "16:50",
+      "agent": "Forge (Translation QC)",
+      "summary": "**+1 translation — Jean de La Foye, *Ondes de vie, ondes de mort* (FR→EN dossier).** The agronomic engineer who extended Chaumery & de Belizal: 24 manifested colors (12 electric + 12 magnetic), the vital field (living ="
+    },
+    {
+      "date": "2026-09-12",
+      "time": "16:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "**-46 duplicates — corpus 139→93 canonical.** The 12:23 and 16:04 feed rebuilds re-added 26 previously-removed files plus new dated copies; Drunvalo's 16:06 pass removed 7 of them, this session removed the remaining 46 v"
+    },
+    {
+      "date": "2026-09-12",
+      "time": "16:13",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-12",
       "time": "15:45",
@@ -5958,12 +5976,6 @@
     },
     {
       "date": "2026-09-12",
-      "time": "04:16",
-      "agent": "Book 1 Translator",
-      "summary": "+3 chunks — Book 1 (final volume), progress 86/249 (35%). Chunks 084-086, Chapter 8: crisis of quantum mechanics — ten postulates, energy paradox, critique of Heisenberg uncertainty principle. Quota gear (3 chunks), respected. 5-book series: Books 5/4/3/2 complete, Book 1 in progress."
-    },
-    {
-      "date": "2026-09-12",
       "time": "00:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Enel (Prince Michel Vladimirovich Skariatine, 1883–1963) dossier FR→EN — (translations/2026-09-12-enel-omega-radiations-formes-fr-en.md): the bridge figure of the French school — the Russian prince who carried the Chaumery–de Bélizal spectrum into the field. The Omega ray discovery (1940s–50s: all Egyptian tombs of Christian saints emanate a vibration in the negative-green zone; Enel named the horizontal component Omega, marker of spiritual energy — grade 395 on the Universal Pendulum's EM meridian, the radioactivity sector); the biography (ORAEDES + Wikisage: Chevaliers-Gardes commander under Nicholas II, Toulon 1917, Cairo 1931–1953 with Howard Carter's team and Maspero, Glion 1953–1963, Lakhovsky MWO cures, Nestlé researcher); the works catalog (*Radiations des formes et cancer* 1951/1959 — the school's therapeutic manifesto, Energeia 2025 reissue in print; *Premiers pas en radiesthésie thérapeutique* 1949; *Traitement à distance par radiations* 1959); and the Thieux Carnets inédits trilogy (geobiology, gravitational colors, radiant-form apparatus, the Six Ritual Instruments of the Emperor of China, Henri Mager). Companion to the 08-29 La Lettre du Crocodile biography — together they complete the Enel file. Cardinaux's critique (negative green \"is in fact white\") and the honest-bench record noted."
@@ -5991,18 +6003,6 @@
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation published — Armand Viré (1869–1951): The Scientist Who Legitimized the Dowsers (FR→EN, composite of 8 French sources: fr.wikipedia, CTHS, Larousse, Inrap, Carrefour des Sciences et des Arts, Société des Études du Lot, medialot, ladepeche). — The AAR's scientist-president: doctor of science (1899 thesis founding the study of cave fauna), founder of biospeleology (coined the word, named *Niphargus virei*), Martel's collaborator at Padirac and the Aven Armand, discoverer-developer of the Grottes de Lacave (tunnel breakthrough 27 May 1905); the 1913 Vincennes quarry test of the dowsers Probst, Lebrun and Pélaprat that converted him; the 27 Oct 1913 Academy of Sciences communication on the dowser's rod; the 1914 French Army mission to locate subterranean passages; AAR presidency with the 1933 and 1935 international congresses; the lecture tours, the Turenne examination, the Mermet obituary; *Comment devenir sourcier* (1934) and *En Haïti: prospections radiesthésiques* (1942). Completes the AAR leadership set: Bouly, Mermet, Henry de France, and now Viré — the credentialed scientist whose endorsement gave the French movement its institutional respectability."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation published — Thierry Lefebvre, \"The Pendulum and the Mortar: On Some Pharmacist-Radiesthésistes, and on Gabriel Lesourd in Particular\" (FR→EN, Persée, Revue d'Histoire de la Pharmacie vol. 92 no. 344, 2004, pp. 527–544). — The pharmacist lane of the French radiesthesia tradition: the clerical pioneers (Mermet's pendular diagnosis of 1905–06, Frère Francisque/Benoît Padey of Belley, Bouly, Bourdoux of Poconé and the Poconeols still sold by Pierre Fabre today); the AAR medical section of the mid-1930s (~100 doctors and pharmacists); and Gabriel Lesourd (1890–1976) in full — the Grande Pharmacie du Nord, the Tisane du Curé de Deuil, pendular urine analysis with \"microbial wavelengths,\" the Tisanes Lesourd (Coli-, Pulmo-, Arthri-, Neuro-, Gastro-), the black-glass pendulum, the Lesourd ruler, the 50-tube witness case (Albumin no. 1 → Leprosy no. 50, via Cancer no. 15 and Syphilis no. 39), the radiesthesia journal *La Science nouvelle* (1935–36, unregistered at the BnF), his 1934 anti-charlatanism letter to the AAR, the 1954 International Congress at the Hôtel Lutetia, and the still-living Laboratoires Lesourd under Marie-Paule Vellutini. Academic history, non-endorsing — documented without judgment, as the author states. Complements Bouly, Mermet, and Henry de France: the corpus now covers both the clerical and the lay/pharmaceutical streams of the AAR."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "00:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Vicomte Henry de France (1872–1947), \"the Aristocrat of Radiesthesia\" (FR->EN, composite of 4 French sources: guerisseur-radiesthesiste.fr, ebookesoterique.com, lesamisdelaradiesthesie.org, bien-etre-et-formation-ermitage.fr). — Second AAR president after Abbé Bouly; founder of Chronique des Sourciers (1930–1940, first monthly radiesthesia journal); author of Le Sourcier moderne, Souvenirs d'un sourcier, Radiesthésie agricole; tool improvements (twin-blade whalebone/steel rods, stick-wound pendulum thread); two-origin theory — map work = intuition, field work = physical (EM/radioactive) effect. Completes the AAR-founder biographies: Bouly, Mermet, de France."
     }
   ],
   "declassified": [
@@ -53849,7 +53849,90 @@
         "2403215",
         "2403216",
         "2403217",
-        "2403218"
+        "2403218",
+        "2403220",
+        "2403221",
+        "2403222",
+        "2403223",
+        "2403224",
+        "2403225",
+        "2403226",
+        "2403227",
+        "2403228",
+        "2403229",
+        "2403230",
+        "2403231",
+        "2403232",
+        "2403233",
+        "2403234",
+        "2403235",
+        "2403237",
+        "2403238",
+        "2403239",
+        "2403240",
+        "2403241",
+        "2403242",
+        "2403243",
+        "2403244",
+        "2403245",
+        "2403246",
+        "2403247",
+        "2403248",
+        "2403249",
+        "2403252",
+        "2403253",
+        "2403254",
+        "2403255",
+        "2403257",
+        "2403258",
+        "2403259",
+        "2403260",
+        "2403261",
+        "2403262",
+        "2403263",
+        "2403265",
+        "2403266",
+        "2403267",
+        "2403268",
+        "2403269",
+        "2403270",
+        "2403271",
+        "2403272",
+        "2403273",
+        "2403274",
+        "2403275",
+        "2403276",
+        "2403277",
+        "2403278",
+        "2403279",
+        "2403280",
+        "2403282",
+        "2403283",
+        "2403284",
+        "2403285",
+        "2403286",
+        "2403287",
+        "2403288",
+        "2403290",
+        "2403291",
+        "2403293",
+        "2403294",
+        "2403295",
+        "2403296",
+        "2403297",
+        "2403298",
+        "2403299",
+        "2403300",
+        "2403301",
+        "2403303",
+        "2403304",
+        "2403305",
+        "2403306",
+        "2403307",
+        "2403308",
+        "2403310",
+        "2403312",
+        "2403313"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -102068,7 +102151,40 @@
         "2403197",
         "2403206",
         "2403211",
-        "2403212"
+        "2403212",
+        "2403220",
+        "2403221",
+        "2403222",
+        "2403226",
+        "2403228",
+        "2403231",
+        "2403236",
+        "2403238",
+        "2403241",
+        "2403248",
+        "2403250",
+        "2403256",
+        "2403257",
+        "2403259",
+        "2403261",
+        "2403264",
+        "2403269",
+        "2403271",
+        "2403273",
+        "2403274",
+        "2403277",
+        "2403279",
+        "2403283",
+        "2403292",
+        "2403293",
+        "2403294",
+        "2403296",
+        "2403297",
+        "2403301",
+        "2403304",
+        "2403306",
+        "2403309",
+        "2403311"
       ],
       "Patents & Inventions": [
         "5814",
@@ -128295,7 +128411,29 @@
         "2403194",
         "2403210",
         "2403214",
-        "2403219"
+        "2403219",
+        "2403220",
+        "2403221",
+        "2403226",
+        "2403228",
+        "2403238",
+        "2403241",
+        "2403256",
+        "2403257",
+        "2403259",
+        "2403269",
+        "2403271",
+        "2403273",
+        "2403274",
+        "2403279",
+        "2403289",
+        "2403290",
+        "2403293",
+        "2403297",
+        "2403301",
+        "2403304",
+        "2403306",
+        "2403309"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -150068,7 +150206,20 @@
         "2403210",
         "2403211",
         "2403212",
-        "2403219"
+        "2403219",
+        "2403220",
+        "2403221",
+        "2403261",
+        "2403264",
+        "2403271",
+        "2403277",
+        "2403283",
+        "2403289",
+        "2403292",
+        "2403293",
+        "2403295",
+        "2403306",
+        "2403310"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -160421,7 +160572,33 @@
         "2403167",
         "2403181",
         "2403186",
-        "2403210"
+        "2403210",
+        "2403222",
+        "2403226",
+        "2403227",
+        "2403228",
+        "2403231",
+        "2403238",
+        "2403241",
+        "2403251",
+        "2403257",
+        "2403259",
+        "2403264",
+        "2403265",
+        "2403273",
+        "2403274",
+        "2403277",
+        "2403281",
+        "2403283",
+        "2403289",
+        "2403290",
+        "2403292",
+        "2403295",
+        "2403297",
+        "2403301",
+        "2403306",
+        "2403309",
+        "2403310"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -162476,7 +162653,8 @@
         "2402539",
         "2402647",
         "2402876",
-        "2402877"
+        "2402877",
+        "2403295"
       ],
       "Media & Interviews": [
         "5947",
@@ -174730,7 +174908,9 @@
         "2402878",
         "2402915",
         "2403110",
-        "2403152"
+        "2403152",
+        "2403241",
+        "2403304"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -181520,7 +181700,9 @@
         "2403153",
         "2403156",
         "2403174",
-        "2403194"
+        "2403194",
+        "2403296",
+        "2403302"
       ],
       "Frontier Science": [
         "239312",
@@ -243867,7 +244049,101 @@
       "2403216": "noosfernaya-kontseptsiya-v-i-vernadskogo-vzglyad-iz-21-veka",
       "2403217": "informatsionnaya-sostavlyayuschaya-noosfery",
       "2403218": "o-sovremennom-ponimanii-noosfery",
-      "2403219": "zhizn-i-zhitie-akademika-v-i-vernadskogo-k-noosfernomu-vi-deniyu-mira"
+      "2403219": "zhizn-i-zhitie-akademika-v-i-vernadskogo-k-noosfernomu-vi-deniyu-mira",
+      "2403220": "aktivirovanie-svoystv-vody-omagnichivaniem",
+      "2403221": "analiz-deystviya-torsionnyh-poley-na-harakteristiki-neftey-metodom-yamr",
+      "2403222": "analiz-elektromagnitnyh-voln-v-pryamougolnom-volnovode-s-prodolnymi-dielektricheskimi-plastinami",
+      "2403223": "chernyy-predel-chast-11",
+      "2403224": "chernyy-predel-chast-12-rasshirennoe-lorentsevoe-preobrazovanie",
+      "2403225": "chislennoe-issledovanie-prodolnoy-komponenty-elektricheskogo-polya-v-elektromagnitnoy-volne",
+      "2403226": "chislennye-resheniya-dispersionnyh-uravneniy-elektromagnitnyh-voln-v-ogranichennyh-prodolno-namagnichennyh-girotropnyh",
+      "2403227": "chislennyy-metod-resheniya-skalyarnoy-zadachi-difraktsii-monohromaticheskoy-volny-na-ekrane-s-nelineynymi-usloviyami-sopryazheniya",
+      "2403228": "chislennyy-metod-resheniya-zadachi-rasprostraneniya-elektromagnitnyh-voln-v-tsilindricheskom-anizotropnom-neodnorodnom-volnovode-s",
+      "2403229": "detalizatsiya-i-obschaya-model-elektronnoy-obrabotki-poverhnostey-zaryazhennyh-plazmoidov-ot-atomnyh-yader-do-belyh-karlikov-neytronnyh-1",
+      "2403230": "difraktsiya-skalyarnoy-volny-na-kusochnoodnorodnyh-reshetkah-zadacha-dirihle-dlya-uravneniya-gelmgoltsa",
+      "2403231": "dinamika-kiralnyh-kosmologicheskih-poley-v-fantomno-kanonicheskoy-modeli",
+      "2403232": "dlya-formalizatsii-statusa-fizicheskogo-nablyudatelya-intuitsiya-d-i-mendeleeva-dopolnyaet-logiku-a-eynshteyna-g-minkovskogo",
+      "2403233": "effektivnaya-dielektricheskaya-pronitsaemost-tonkoy-plastiny-v-pole-prodolnoy-elektromagnitnoy-volny",
+      "2403234": "efirnyy-veter-i-obschaya-teoriya-otnositelnosti-a-eynshteyna-v-proizvedeniyah-a-p-platonova-imitatsiya-i-interpretatsiya",
+      "2403235": "ekologicheskie-problemy-v-svete-sovremennyh-estestvennonauchnyh-teoriy",
+      "2403236": "eksperimentalnye-issledovaniya-distantsionnogo-vozdeystviya-izlucheniy-generatora-prodolnyh-elektromagnitnyh-voln-na-vodu",
+      "2403237": "ekvivalentnye-funktsionalnye-svoystva-massy-i-energii-pri-ih-radialnyh-pulsatsiyah-v-4d-prostranstve-vremeni-chast-2-kulonovskiy",
+      "2403238": "energiya-kazimira-dlya-dvuh-i-treh-sloev-grafena",
+      "2403239": "energiya-nulevyh-kolebaniy-massivnogo-skalyarnogo-polya-s-singulyarnym-potentsialom-dlya-idealno-provodyaschey-plastiny",
+      "2403240": "fokusirovka-skalyarnoy-volny-v-impulsnom-priblizhenii-1",
+      "2403241": "formirovanie-potoka-efira-k-massivnym-telam-kak-komponenty-sily-gravitatsii",
+      "2403242": "geometricheskaya-model-atomnyh-yader",
+      "2403243": "geopoliticheskie-treugolniki-v-kontekste-mnogopolyar-nogo-mira-sistemnyy-podhod",
+      "2403244": "gipoteza-o-suschestvovanii-udarnyh-voln-v-vakuume",
+      "2403245": "gipoteza-o-termoyadernoy-prirode-sharovoy-molnii",
+      "2403246": "gomeostaticheskoe-deystvie-kremnievyh-vod",
+      "2403247": "gravitatsiya-neissyakaemyy-istochnik-energii-1",
+      "2403248": "gravitonnaya-teoriya-gravitatsii",
+      "2403249": "haoticheskie-kolebaniya-v-reguliruemom-yadernom-reaktore-nulevoy-moschnosti",
+      "2403250": "impulsnye-parogeneratory-serii-tornado",
+      "2403251": "informatsionnoe-strukturirovanie-parakristallicheskih-obektov-pri-slabom-elektromagnitnom-svch-kvch-i-elektronnom-vozdeystvii",
+      "2403252": "informatsionnyy-analiz-fizicheskih-protsessov-pamyati-a-a-denisova",
+      "2403253": "issledovanie-svoystv-strukturirovannoy-vody",
+      "2403254": "issledovaniya-i-korrektirovka-osnovnyh-fiziko-matematicheskih-modeley-sovremennoy-fiziki",
+      "2403255": "izuchenie-deystviya-polihromaticheskogo-vidimogo-i-infrakrasnogo-polyarizovannogo-pvip-sveta-na-vodu",
+      "2403256": "izuchenie-teoreticheskih-osnov-printsipa-raboty-elektrokineticheskih-dvizhiteley",
+      "2403257": "k-otsenke-vklada-elektromagnitnyh-vzaimodeystviy-v-plotnost-energii-vakuuma-kosmologicheskuyu-postoyannuyu",
+      "2403258": "k-voprosu-o-sloistosti-bytovoy-vody",
+      "2403259": "k-voprosu-ob-effekte-nablyudatelya-v-kvantovoy-fizike",
+      "2403260": "k-voprosu-primeneniya-strukturirovannoy-biologicheski-aktivnoy-vody-v-selskom-hozyaystve",
+      "2403261": "k-voprosu-problemy-kosmologicheskoy-postoyannoy",
+      "2403262": "kak-otkrytiya-izobretateley-i-intuitsiya-nepriznannyh-fizikov-teoretikov-stimuliruyut-stanovlenie-teorii-vsego-o-roli",
+      "2403263": "kontseptsiya-primeneniya-torsionnyh-tehnologiy-v-lesnom-hozyaystve",
+      "2403264": "korpuskulyarno-volnovoy-dualizm-i-poperechnost-svetovyh-voln-zabluzhdenie-poiski-realnosti",
+      "2403265": "krasnoe-smeschenie-i-postoyannaya-zatuhaniya-energii-fotona-v-vakuume",
+      "2403266": "kriterii-evolyutsii-vselennoy",
+      "2403267": "kvantovo-mehanicheskaya-model-sharovoy-molnii",
+      "2403268": "logika-moral-i-minimizatsiya-svobodnoy-energii",
+      "2403269": "long-range-of-form-field",
+      "2403270": "magnitnye-polya-i-vysokotemperaturnaya-sverhprovodimost-v-vozbuzhdennyh-zhidkostyah-neizvestnye-chastitsy",
+      "2403271": "maksimy-evolyutsii-vselennoy-i-ee-struktur",
+      "2403272": "matematicheskoe-modelirovanie-biotehnicheskogo-skanera-dlya-opredeleniya-stepeni-gidratatsii-biologicheskih-tkaney-v-norme-i-pri",
+      "2403273": "materiya-i-energiya",
+      "2403274": "materiya-i-energiya-1",
+      "2403275": "metod-chastichnyh-oblastey-v-zadache-difraktsii-elektromagnitnoy-volny-na-prodolnoy-peregorodke-v-beskonechnom-volnovode",
+      "2403276": "metod-rascheta-asimmetrichnyh-sostavlyayuschih-svobodnoy-energii-v-fizicheskih-peremennyh",
+      "2403277": "metod-uluchsheniya-shodimosti-koshi-i-ego-primenenie-k-vychisleniyu-energii-vakuuma",
+      "2403278": "metodologicheskiy-analiz-sovremennyh-fizicheskih-teoriy-pretenzii-na-opisanie-soznaniya-kak-obekta-realnosti",
+      "2403279": "ne-yavlyaetsya-li-zhivaya-voda-priemnikom-i-retranslyatorom-psihicheskoy-energii",
+      "2403280": "novaya-ideya-holodnogo-yadernogo-sinteza",
+      "2403281": "novyy-podhod-k-uchyotu-nulevyh-kolebaniy-pri-raschyote-secheniy-sliyaniya-tyazhyolyh-ionov",
+      "2403282": "o-nesootvetstvii-eksperimentalnogo-metoda-strukture-i-dinamike-fizicheskogo-vakuuma-mirovogo-efira-alternativa-opytu-maykelsona",
+      "2403283": "o-rasseyanii-ploskoy-skalyarnoy-volny-impedansnoy-sferoy",
+      "2403284": "o-razreshimosti-skalyarnoy-zadachi-difraktsii-monohromaticheskoy-volny-na-neodnorodnom-tele-so-spetsialnymi-usloviyami",
+      "2403285": "o-soprotivlenii-dvizheniyu-fizicheskih-tel-so-storony-sredy-v-kotoroy-rasprostranyayutsya-elektromagnitnye-volny",
+      "2403286": "o-spektralnom-raspredelenii-ravnovesnogo-izlucheniya-i-nulevyh-kolebaniyah-v-kulonovskoy-sisteme",
+      "2403287": "o-vakuume-i-ego-razmernostyah",
+      "2403288": "o-vozmozhnosti-sozdaniya-rotornogo-istochnika-seysmicheskih-poperechnyh-voln-s-elektromagnitnym-vozbuzhdeniem",
+      "2403289": "ob-interpretatsii-izmereniy-nulevyh-kolebaniy-v-eksperimentah-po-rasseyaniyu-kristallami-rentgenovskogo-izlucheniya-neytronov-i-gamma",
+      "2403290": "ob-orbite-merkuriya-rasshirenie-pervogo-zakona-keplera-1",
+      "2403291": "obobschennoe-priblizhenie-van-laara-dlya-svobodnoy-energii",
+      "2403292": "opredelenie-chastoty-svobodnyh-kolebaniy-kontura-nulevoy-posledovatelnosti-metodom-uelcha",
+      "2403293": "polevaya-priroda-pamyati-i-soznaniya",
+      "2403294": "predrassudok-o-nevozmozhnosti-vozniknoveniya-udarnyh-voln-v-vakuume",
+      "2403295": "printsipy-formirovaniya-sharovoy-molnii",
+      "2403296": "prirodnaya-nizkoenergeticheskaya-reaktsiya-yadernogo-sinteza",
+      "2403297": "rasshirennaya-teoriya-otnositelnosti-gravitatsiya-i-vremya",
+      "2403298": "rasshiryayuschayasya-vselennaya-na-perekrestke-istoriko-nauchnyh-kontseptsiy-k-stoletiyu-otkrytiya-a-a-fridmana",
+      "2403299": "religioznyy-opyt-traditsionnyh-kultur-kak-shkola-energeticheskogo-vzaimodeystviya-s-mirom",
+      "2403300": "rezultaty-issledovaniya-vliyaniya-shahtnogo-gasitelya-energii-na-obrazovanie-volnovogo-dvizheniya-vody-v-otvodyaschem-tunnele",
+      "2403301": "rimenenie-sapr-dlya-rascheta-ustroystv-sposobnyh-ispolzovat-novye-metody-dvizheniya-v-vakuume",
+      "2403302": "sinergiya-bozhestvennye-energii-i-svobodnaya-volya",
+      "2403303": "soznanie-v-svete-teorii-fizicheskogo-vakuuma",
+      "2403304": "stend-magnitosfera-v-ekspozitsii-muzeya-zemlevedeniya-zemlya-vo-vselennoy",
+      "2403305": "strukturno-adsorbtsionnaya-model-vozdeystviya-nizkomolekulyarnyh-toksichnyh-soedineniy-na-biopolimery-kletochnoy-membrany",
+      "2403306": "suschnost-sveta",
+      "2403307": "svet-protiv-zvuka",
+      "2403308": "teoriya-fizicheskogo-vakuuma-kak-osnovanie-dialoga-evolyutsionizma-i-kreatsonizma",
+      "2403309": "teoriya-rasshireniya-vselennoy",
+      "2403310": "uravneniya-gelmgoltsa-dlya-girotropnyh-volnovodov-pri-prodolnom-namagnichivanii-s-uchetom-teplovyh-poter",
+      "2403311": "v-kakom-sostoyanii-registriruyutsya-nulevye-kolebaniya-kvantovogo-ostsillyatora",
+      "2403312": "zagadka-sharovoy-molnii",
+      "2403313": "zakon-vsemirnogo-tyagoteniya-i-gravitatsionnaya-postoyannaya-utochnenie-ponyatiy-predlozheniya"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -573698,6 +573974,396 @@
       "2403219": [
         "Patents",
         "Conspiracy / Politics"
+      ],
+      "2403220": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen"
+      ],
+      "2403221": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2403222": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Dollard"
+      ],
+      "2403223": [
+        "Borderland Research"
+      ],
+      "2403224": [
+        "Borderland Research"
+      ],
+      "2403225": [
+        "Alternative Physics"
+      ],
+      "2403226": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2403227": [
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2403228": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2403229": [
+        "Borderland Research"
+      ],
+      "2403230": [
+        "Borderland Research"
+      ],
+      "2403231": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2403232": [
+        "Borderland Research"
+      ],
+      "2403233": [
+        "Borderland Research"
+      ],
+      "2403234": [
+        "Borderland Research"
+      ],
+      "2403235": [
+        "Borderland Research"
+      ],
+      "2403236": [
+        "Energy"
+      ],
+      "2403237": [
+        "Borderland Research"
+      ],
+      "2403238": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2403239": [
+        "Borderland Research"
+      ],
+      "2403240": [
+        "Borderland Research"
+      ],
+      "2403241": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Environment / Climate",
+        "Dollard"
+      ],
+      "2403242": [
+        "Borderland Research"
+      ],
+      "2403243": [
+        "Borderland Research"
+      ],
+      "2403244": [
+        "Borderland Research"
+      ],
+      "2403245": [
+        "Borderland Research"
+      ],
+      "2403246": [
+        "Alternative Physics"
+      ],
+      "2403247": [
+        "Borderland Research"
+      ],
+      "2403248": [
+        "Energy",
+        "Quantum & Relativity"
+      ],
+      "2403249": [
+        "Borderland Research"
+      ],
+      "2403250": [
+        "Energy"
+      ],
+      "2403251": [
+        "Electromagnetism"
+      ],
+      "2403252": [
+        "Borderland Research"
+      ],
+      "2403253": [
+        "Borderland Research"
+      ],
+      "2403254": [
+        "Borderland Research"
+      ],
+      "2403255": [
+        "Borderland Research"
+      ],
+      "2403256": [
+        "Energy",
+        "Patents"
+      ],
+      "2403257": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2403258": [
+        "Borderland Research"
+      ],
+      "2403259": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2403260": [
+        "Borderland Research"
+      ],
+      "2403261": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2403262": [
+        "Quantum & Relativity"
+      ],
+      "2403263": [
+        "Alternative Physics"
+      ],
+      "2403264": [
+        "Energy",
+        "Electromagnetism",
+        "Conspiracy / Politics"
+      ],
+      "2403265": [
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "2403266": [
+        "Borderland Research"
+      ],
+      "2403267": [
+        "Borderland Research"
+      ],
+      "2403268": [
+        "Borderland Research"
+      ],
+      "2403269": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen"
+      ],
+      "2403270": [
+        "Borderland Research"
+      ],
+      "2403271": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2403272": [
+        "Borderland Research"
+      ],
+      "2403273": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2403274": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2403275": [
+        "Borderland Research"
+      ],
+      "2403276": [
+        "Alternative Physics"
+      ],
+      "2403277": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Steinmetz"
+      ],
+      "2403278": [
+        "Borderland Research"
+      ],
+      "2403279": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen"
+      ],
+      "2403280": [
+        "Borderland Research"
+      ],
+      "2403281": [
+        "Steinmetz"
+      ],
+      "2403282": [
+        "Borderland Research"
+      ],
+      "2403283": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Dollard"
+      ],
+      "2403284": [
+        "Alternative Physics"
+      ],
+      "2403285": [
+        "Borderland Research"
+      ],
+      "2403286": [
+        "Borderland Research"
+      ],
+      "2403287": [
+        "Borderland Research"
+      ],
+      "2403288": [
+        "Borderland Research"
+      ],
+      "2403289": [
+        "Patents",
+        "Conspiracy / Politics",
+        "Steinmetz"
+      ],
+      "2403290": [
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity"
+      ],
+      "2403291": [
+        "Borderland Research"
+      ],
+      "2403292": [
+        "Energy",
+        "Electromagnetism",
+        "Conspiracy / Politics",
+        "Steinmetz"
+      ],
+      "2403293": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Finance / Economics",
+        "Water / Hydrogen"
+      ],
+      "2403294": [
+        "Energy",
+        "Alternative Physics"
+      ],
+      "2403295": [
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Reference Material"
+      ],
+      "2403296": [
+        "Energy",
+        "Alternative Physics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2403297": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2403298": [
+        "Borderland Research"
+      ],
+      "2403299": [
+        "Borderland Research"
+      ],
+      "2403300": [
+        "Borderland Research"
+      ],
+      "2403301": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Dollard"
+      ],
+      "2403302": [
+        "Biology / Health"
+      ],
+      "2403303": [
+        "Borderland Research"
+      ],
+      "2403304": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate"
+      ],
+      "2403305": [
+        "Borderland Research"
+      ],
+      "2403306": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Finance / Economics"
+      ],
+      "2403307": [
+        "Borderland Research"
+      ],
+      "2403308": [
+        "Borderland Research"
+      ],
+      "2403309": [
+        "Energy",
+        "Patents",
+        "Electromagnetism"
+      ],
+      "2403310": [
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2403311": [
+        "Energy"
+      ],
+      "2403312": [
+        "Borderland Research"
+      ],
+      "2403313": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -685368,7 +686034,101 @@
       "2403216": [],
       "2403217": [],
       "2403218": [],
-      "2403219": []
+      "2403219": [],
+      "2403220": [],
+      "2403221": [],
+      "2403222": [],
+      "2403223": [],
+      "2403224": [],
+      "2403225": [],
+      "2403226": [],
+      "2403227": [],
+      "2403228": [],
+      "2403229": [],
+      "2403230": [],
+      "2403231": [],
+      "2403232": [],
+      "2403233": [],
+      "2403234": [],
+      "2403235": [],
+      "2403236": [],
+      "2403237": [],
+      "2403238": [],
+      "2403239": [],
+      "2403240": [],
+      "2403241": [],
+      "2403242": [],
+      "2403243": [],
+      "2403244": [],
+      "2403245": [],
+      "2403246": [],
+      "2403247": [],
+      "2403248": [],
+      "2403249": [],
+      "2403250": [],
+      "2403251": [],
+      "2403252": [],
+      "2403253": [],
+      "2403254": [],
+      "2403255": [],
+      "2403256": [],
+      "2403257": [],
+      "2403258": [],
+      "2403259": [],
+      "2403260": [],
+      "2403261": [],
+      "2403262": [],
+      "2403263": [],
+      "2403264": [],
+      "2403265": [],
+      "2403266": [],
+      "2403267": [],
+      "2403268": [],
+      "2403269": [],
+      "2403270": [],
+      "2403271": [],
+      "2403272": [],
+      "2403273": [],
+      "2403274": [],
+      "2403275": [],
+      "2403276": [],
+      "2403277": [],
+      "2403278": [],
+      "2403279": [],
+      "2403280": [],
+      "2403281": [],
+      "2403282": [],
+      "2403283": [],
+      "2403284": [],
+      "2403285": [],
+      "2403286": [],
+      "2403287": [],
+      "2403288": [],
+      "2403289": [],
+      "2403290": [],
+      "2403291": [],
+      "2403292": [],
+      "2403293": [],
+      "2403294": [],
+      "2403295": [],
+      "2403296": [],
+      "2403297": [],
+      "2403298": [],
+      "2403299": [],
+      "2403300": [],
+      "2403301": [],
+      "2403302": [],
+      "2403303": [],
+      "2403304": [],
+      "2403305": [],
+      "2403306": [],
+      "2403307": [],
+      "2403308": [],
+      "2403309": [],
+      "2403310": [],
+      "2403311": [],
+      "2403312": [],
+      "2403313": []
     }
   },
   "graph": {

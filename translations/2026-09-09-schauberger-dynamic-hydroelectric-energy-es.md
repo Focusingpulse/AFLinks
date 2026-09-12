@@ -1,7 +1,8 @@
 ---
-name: "Schauberger — Dynamic Hydroelectric Energy: Suction Turbine and Herbrand's Anomaly (ES→EN)"
-description: "English translation of the Spanish article on Viktor Schauberger's suction turbine and Herbrand's hydroelectric anomaly. Source: Spanish."
+name: Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly
+description: "Translation document."
 ---
+
 Dynamic hydroelectric energy
 
 [Document title. Original Spanish-language technical analysis of Viktor Schauberger's 1930 jet turbine patent (No. 117,749) and Ludwig Herbrand's corroborating measurements at the Rheinfelden hydroelectric plant. Translated from https://giurfa.com/schauberger.pdf]

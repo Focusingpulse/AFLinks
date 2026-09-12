@@ -1,7 +1,8 @@
 ---
-name: "DEBA — A Complete Cosmology Without Postulates (FR→EN)"
-description: "English translation of DEBA - Une Cosmologie Complète sans Postulats (Zenodo 18033125): a coherence-based cosmology explaining CMB anomalies, early SMBHs, dark sector, and Hubble tension without postulates. Source: French."
+name: "2026-09-11-deba-cosmology-without-postulates-fr"
+description: "Full-document English translation of DEBA - Une Cosmologie Complete sans Postulats, Reponses aux Anomalies (Zenodo 18033125). A coherence-based cosmology explaining CMB anomalies, early SMBHs, dark sector, and Hubble tension without postulates."
 ---
+
 Cosmology of Organizational Coherence:
     A Stochastic Field Theory of the Emergence of Bubble-Universes
                                                       Michel Debailleul

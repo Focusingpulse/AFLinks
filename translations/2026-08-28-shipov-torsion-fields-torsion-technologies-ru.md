@@ -1,7 +1,8 @@
 ---
-name: Shipov — Torsion Fields and Torsion Technologies (RU→EN)
-description: "English translation of G.I. Shipov's 'Torsion Fields and Torsion Technologies' (Academy of Trinitarianism). Source: Russian."
+name: TORSION FIELDS AND TORSION TECHNOLOGIES.1
+description: "Translation document."
 ---
+
 TORSION FIELDS AND TORSION TECHNOLOGIES.1
                                      G.I. Shipov
 

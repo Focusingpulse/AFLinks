@@ -1,7 +1,8 @@
 ---
-name: "Form Waves and Sacred Geometry (IT→EN)"
-description: "English translation of the Italian article on form waves (onde di forma) and sacred geometry. Source: Italian."
+name: "2026-09-11-form-waves-and-sacred-geometry-it"
+description: "Full-document translation (assembled from completed chunks)."
 ---
+
 ---
 name: Form Waves and Sacred Geometry
 description: "Full-document translation. language it | 3 chunks | https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra"

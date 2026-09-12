@@ -1,7 +1,8 @@
 ---
-name: "TUO — Wave Universe Theory: EM Origin of the Vacuum to Covariant Gravitation (FR→EN)"
-description: "English translation of the TUO (Théorie de l'Univers Onde) paper on the electromagnetic origin of the vacuum and covariant reformulation of gravitation and cosmology. Source: French."
+name: Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacu…
+description: "Translation document."
 ---
+
 # Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology
 
 **Date:** 2026-08-25
