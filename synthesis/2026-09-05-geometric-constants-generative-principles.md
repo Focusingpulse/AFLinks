@@ -58,7 +58,7 @@ Key claims:
 
 **Generative aspect:** Ponce de León explicitly states that geometry is not descriptive but causal. "Energy and matter are only differences in geometric arrangement." The constants do not describe; they generate.
 
-**Source:** `translations/2026-09-03-psicogeometria-materia-energia-es.md`
+**Source:** `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md`
 
 ---
 
@@ -126,7 +126,7 @@ Key claims:
 
 **Generative aspect:** Waechter's device does not impose scalar waves but generates them through alternating positive/negative pulses — mimicking the natural process. The 12 Hz frequency is not arbitrary but aligns with biological rhythms (alpha brain waves, Earth's Schumann resonance). The device works with the constants, not against them.
 
-**Source:** `translations/2026-09-03-brazilian-scalar-generator-pt.md`
+**Source:** `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md`
 
 ---
 
@@ -300,11 +300,11 @@ Whatever the cause, the convergence across linguistic boundaries strengthens the
 
 ## Sources
 
-- `translations/2026-09-03-psicogeometria-materia-energia-es.md` — Ponce de León (Mexican psychogeometry)
+- `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md` — Ponce de León (Mexican psychogeometry)
 - `translations/2026-09-07-spyridis-theory-of-everything-el-v2.md` — Spyridis (Greek Platonic physics)
 - `translations/2026-09-04-tuo-theory-fr-en.md` — Maillot (French TUO theory)
 - `translations/2026-09-03-tuo-classical-formalism-fr.md` — Maillot (French TUO formalism)
-- `translations/2026-09-03-brazilian-scalar-generator-pt.md` — Waechter (Brazilian scalar technology)
+- `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md` — Waechter (Brazilian scalar technology)
 - `translations/2026-09-03-prometheus-lenr-reactor-it.md` — Prometheus (Italian LENR)
 
 ---

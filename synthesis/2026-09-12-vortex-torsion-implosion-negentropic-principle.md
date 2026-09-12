@@ -437,19 +437,19 @@ Either outcome advances understanding.
 
 ## Sources
 
-1. **Shipov — Torsion Fields and Torsion Technologies** (translations/2026-09-11-shipov-torsion-fields-and-torsion-technologies-ru.md)
+1. **Shipov — Torsion Fields and Torsion Technologies** (translations/2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md)
    - G.I. Shipov, Moscow
    - Theory of Physical Vacuum, torsion field equations
    - Universal Hologram concept, consciousness connection
    - Torsion metallurgy applications
 
-2. **Magnitsky — Gravity in the Theory of Compressible Oscillating Ether** (translations/2026-09-11-magnitsky-gravity-compressible-oscillating-ether-ru.md)
+2. **Magnitsky — Gravity in the Theory of Compressible Oscillating Ether** (translations/2026-08-28-magnitsky-gravity-ether-ru.md)
    - N.A. Magnitsky, Moscow State University
    - Ether density perturbations as physical phenomena
    - Gravity as pressing force, not attraction
    - Wave structures for electron, proton, neutron
 
-3. **Schauberger — Water, The Blood of the Earth** (translations/2026-09-11-schauberger-water-blood-of-the-earth-de.md)
+3. **Schauberger — Water, The Blood of the Earth** (translations/2026-09-09-schauberger-water-blood-of-the-earth-de.md)
    - Viktor Schauberger, Austria
    - Cycloid spiral motion, temperature gradients
    - Implosion vs. explosion distinction

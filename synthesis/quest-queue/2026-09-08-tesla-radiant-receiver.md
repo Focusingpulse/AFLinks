@@ -37,7 +37,7 @@ Energy literacy starts with knowing what the environment actually offers for fre
 
 ## Source documents (read them)
 
-- Tesla radiant energy patent schematics analysis (FR→EN): `living-library/translations/2026-09-03-tesla-patents-radiant-energy-fr.md`
+- Tesla radiant energy patent schematics analysis (FR→EN): `living-library/translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md`
 - Scout find #2 (French analysis with practical assembly guidance): `living-library/sources/2026-08-26-scout-a-fr-es-zh.md`
 - Replication dossier 003 (protocol + pass/fail): `living-library/synthesis/replication/2026-09-08-dossier-003-tesla-radiant-receiver.md`
 

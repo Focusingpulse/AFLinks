@@ -47,7 +47,7 @@ Key claims:
 
 **Vortex aspect:** This is the most comprehensive systematization of vortex physics in the archive. It provides the mathematical foundation (vector fields, curl, divergence, Laplace operator) and the historical context (from ancient wisdom teachings through 19th-century physics to modern free energy research).
 
-**Source:** `translations/2026-09-03-compendium-vortex-physics-de.md`
+**Source:** `translations/2026-09-09-compendium-of-vortex-physics-de.md`
 
 ---
 
@@ -103,7 +103,7 @@ Key claims:
 
 **Vortex aspect:** Spyridis provides the bridge between sacred geometry and particle physics. The Platonic solids are not static structures but stabilized vortex patterns — the geometric attractors of spiral dynamics.
 
-**Source:** `translations/2026-09-03-platonic-theory-of-everything-el.md`
+**Source:** `translations/2026-09-10-platonic-theory-of-everything-and-spyridis-unified-theory-of-el.md`
 
 ---
 
@@ -139,7 +139,7 @@ Key claims:
 
 **Vortex aspect:** Tesla's radiant energy is interpreted as electrostatic charge propagating in spiral paths — the electromagnetic vortex. The conical coil is the antenna that emits and receives these vortex waves.
 
-**Source:** `translations/2026-09-03-tesla-patents-radiant-energy-fr.md`
+**Source:** `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md`
 
 ---
 
@@ -260,13 +260,13 @@ If the convergent claim is correct — that the vortex is the universal organizi
 
 ## Sources Connected
 
-- `translations/2026-09-03-compendium-vortex-physics-de.md` — SAFE compendium of vortex physics
+- `translations/2026-09-09-compendium-of-vortex-physics-de.md` — SAFE compendium of vortex physics
 - `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` — Schauberger implosion patent
 - `translations/2026-09-03-study-torsion-fields-de.md` — German torsion field study
 - `translations/2026-09-10-akimov-shipov-torsion-field-research-ru.md` — Russian torsion physics
-- `translations/2026-09-03-platonic-theory-of-everything-el.md` — Greek Platonic particle physics
+- `translations/2026-09-10-platonic-theory-of-everything-and-spyridis-unified-theory-of-el.md` — Greek Platonic particle physics
 - `translations/2026-09-03-del-giudice-pollack-fourth-phase-water-it.md` — Italian water coherence
-- `translations/2026-09-03-tesla-patents-radiant-energy-fr.md` — French Tesla analysis
+- `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md` — French Tesla analysis
 - `synthesis/2026-09-01-rotational-ether-vortex-torsion-lenr.md` — Previous synthesis on rotational ether
 - `synthesis/2026-09-02-consciousness-quantum-field-active-information.md` — Previous synthesis on consciousness
 - `synthesis/2026-09-03-non-abelian-bridge-electromagnetism-torsion-scalar.md` — Previous synthesis on gauge theory

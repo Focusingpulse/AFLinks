@@ -58,7 +58,7 @@ Marcelo Arthur Mendes Waechter (Brazilian inventor, patent WO2013155580A1, filed
 
 **Transition zone aspect:** The Bloch Wall is the specific, localizable region where magnetic polarity reverses and scalar energy is captured. It is the boundary between the two poles of a magnet — a domain wall in the crystallographic sense — and it is where the vectorial physics of electromagnetism transitions to the scalar physics of equilibrium-state energy.
 
-**Source:** `translations/2026-09-03-brazilian-scalar-generator-pt.md`
+**Source:** `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md`
 
 ---
 
@@ -120,7 +120,7 @@ Peter Lindemann's analysis of Tesla's radiant energy patents, translated from Fr
 
 **Transition zone aspect:** The spark gap is the specific, localizable region where transverse electromagnetic waves convert to longitudinal electrostatic waves. It is the electrical engineering version of a phase boundary — the transition zone where the rules of electromagnetism change and a different class of phenomena (radiant energy, cold electricity) becomes accessible.
 
-**Source:** `translations/2026-09-03-tesla-patents-radiant-energy-fr.md`
+**Source:** `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md`
 
 ---
 
@@ -170,7 +170,7 @@ Arturo Ponce de León and Ninón Fregoso (Psicogeometría México) identify the 
 
 **Transition zone aspect:** The zero point is the geometric version of the transition zone — the point where energy becomes matter, where chaos becomes order, where the void organizes the surrounding medium. It is the sacred geometry equivalent of the Bloch Wall, the exclusion zone, the spark gap, and the vortex center.
 
-**Source:** `translations/2026-09-03-psicogeometria-materia-energia-es.md`
+**Source:** `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md`
 
 ---
 
@@ -298,13 +298,13 @@ The next synthesis should investigate whether the transition zone can be *engine
 
 | Source | Tradition | Translation File |
 |--------|-----------|-----------------|
-| Waechter, M.A.M. (2013). WO2013155580A1 — Apparatus for Scalar Energy Generation | Brazilian scalar technology | `translations/2026-09-03-brazilian-scalar-generator-pt.md` |
+| Waechter, M.A.M. (2013). WO2013155580A1 — Apparatus for Scalar Energy Generation | Brazilian scalar technology | `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md` |
 | Del Giudice, E. (lecture). Explains Pollack's Discovery of the Fourth Phase of Water | Italian quantum biophysics | `translations/2026-09-03-del-giudice-pollack-fourth-phase-water-it.md` |
 | Manzalini, A. (2022). Field and Quantum Potential of Consciousness. *Rivista Scienze Biofisiche* | Italian quantum biophysics | `translations/2026-09-03-field-quantum-potential-consciousness-it.md` |
-| Lindemann, P.A. (2000/2006). Analysis of Tesla's Patent Schematics on Radiant Energy | French Tesla analysis | `translations/2026-09-03-tesla-patents-radiant-energy-fr.md` |
+| Lindemann, P.A. (2000/2006). Analysis of Tesla's Patent Schematics on Radiant Energy | French Tesla analysis | `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md` |
 | Schauberger, V. (1951). Luxembourg Patent No. 31,480 — Method for Controlling Molecular Processes | Austrian implosion engineering | `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` |
 | Alexandersson, O. *Acqua Viva* (Italian translation) | Austrian implosion engineering | `translations/2026-09-05-acqua-viva-schauberger-it-en.md` |
-| Ponce de León, A. & Fregoso, N. Psicogeometría: Geometric Qualities of Matter and Energy | Mexican psychogeometry | `translations/2026-09-03-psicogeometria-materia-energia-es.md` |
+| Ponce de León, A. & Fregoso, N. Psicogeometría: Geometric Qualities of Matter and Energy | Mexican psychogeometry | `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md` |
 | Maillot, F. (2025). Théorie de l'Univers Onde (TUO): Vacuum Tension Field | French vacuum tension theory | `translations/2026-09-04-tuo-theory-fr-en.md` |
 
 ---

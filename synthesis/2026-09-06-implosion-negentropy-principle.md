@@ -158,7 +158,7 @@ Marcelo Arthur Mendes Waechter's patent (WO2013155580A1) for a scalar energy gen
 
 **Implosion aspect:** Waechter's scalar generator is the electromagnetic analog of Schauberger's vortex. Where Schauberger works with fluid vortices, Waechter works with electromagnetic vortices. The Bloch Wall is the electromagnetic implosion point — the center of the magnet where scalar energy is captured and polarity is generated. The connection to consciousness (12 Hz, brain hemispheres) extends the implosion principle to the mental domain.
 
-**Source:** `translations/2026-09-03-brazilian-scalar-generator-pt.md`
+**Source:** `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md`
 
 ---
 

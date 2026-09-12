@@ -128,7 +128,7 @@ Nikola Tesla's work on radiant energy, documented through patent analysis by Pet
 
 **EGS-field aspect:** Tesla's radiant energy is the electromagnetic polarization state transforming into something else — what later traditions would identify as the scalar/torsion polarization. Tesla discovered the polarization conversion experimentally without the theoretical framework.
 
-**Source:** `translations/2026-09-03-tesla-patents-radiant-energy-fr.md`
+**Source:** `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md`
 
 ---
 

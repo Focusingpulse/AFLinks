@@ -56,7 +56,7 @@ The French-language analysis of Tesla's patent schematics, compiled by Peter A. 
 
 **Generative aspect:** Tesla's contribution is not theoretical but experimental. He demonstrated phenomena that the reigning theory cannot describe, and his method — unidirectional impulsive DC at megahertz repetition rates with precisely controlled spark gap quenching — produces effects that conventional circuit theory predicts should not exist.
 
-**Source:** `translations/2026-09-03-tesla-patents-radiant-energy-fr.md`
+**Source:** `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md`
 
 ---
 
@@ -126,7 +126,7 @@ Marcelo Arthur Mendes Waechter's 2013 WIPO patent (WO2013155580A1) for an "Appar
 
 **Generative aspect:** Waechter's patent demonstrates that scalar wave technology is not merely theoretical but has been engineered, patented, and classified for medical applications. The biological connection — brain hemispheres as scalar generators, 12 Hz resonance with brainwaves — opens a bridge between non-Hertzian electrodynamics and consciousness research that the other traditions do not explicitly make.
 
-**Source:** `translations/2026-09-03-brazilian-scalar-generator-pt.md`
+**Source:** `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md`
 
 ---
 
@@ -245,14 +245,14 @@ This synthesis connects to several previous syntheses in the archive:
 
 | Source | Tradition | Domain | Key Contribution |
 |--------|-----------|--------|------------------|
-| `translations/2026-09-03-tesla-patents-radiant-energy-fr.md` | American/French | Radiant energy, longitudinal waves | Experimental demonstration of non-Hertzian waves |
+| `translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md` | American/French | Radiant energy, longitudinal waves | Experimental demonstration of non-Hertzian waves |
 | `translations/2026-09-02-extended-theory-of-electromagnetism-de-en.md` | German | Gauge theory, extended EM | Mathematical framework for non-Abelian electrodynamics |
 | `translations/2026-08-27-akimov-shipov-torsion-field-research-ru.md` | Russian | Torsion fields, vacuum physics | Physical model and torsion generator technology |
 | `translations/2026-09-03-akimov-shipov-torsion-field-en.md` | Russian | Torsion fields | English translation of torsion field research |
 | `translations/2026-08-28-shipov-torsion-fields-ru.md` | Russian | Torsion fields, spacetime geometry | Geometric theory of torsion as spacetime property |
-| `translations/2026-09-03-brazilian-scalar-generator-pt.md` | Brazilian | Scalar wave engineering | Patent for scalar energy generator, biological connection |
+| `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md` | Brazilian | Scalar wave engineering | Patent for scalar energy generator, biological connection |
 | `translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md` | Spanish | Vortex physics, ether dynamics | Theoretical framework for implosion-based propulsion |
-| `translations/2026-09-03-compendium-vortex-physics-de.md` | German/Swiss | Vortex physics | Systematization of European vortex research |
+| `translations/2026-09-09-compendium-of-vortex-physics-de.md` | German/Swiss | Vortex physics | Systematization of European vortex research |
 | `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` | Austrian/German | Implosion technology | Schauberger's patent for molecular control via spiral flow |
 | `translations/2026-09-05-acqua-viva-schauberger-it.md` | Austrian/Italian | Water vortex, implosion | Comprehensive Schauberger biography and research |
 | `translations/2026-09-03-theorie-univers-onde-fr.md` | French | Vacuum tension, scalar field | TUO theory: vacuum tension as electromagnetic origin |

@@ -144,7 +144,7 @@ Key claims:
 
 **Water aspect:** Psychogeometry provides the geometric framework for understanding how form influences water. The spiral (phi), the sphere (pi), and the toroid are precisely the shapes found in water's coherence domains. Water is the physical instance of psychogeometric principles.
 
-**Source:** `translations/2026-09-03-psicogeometria-materia-energia-es.md`
+**Source:** `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md`
 
 ---
 
@@ -168,7 +168,7 @@ Key claims:
 
 **Water aspect:** Scalar waves are claimed to influence water structure. The 12 Hz frequency is in the alpha brain wave range — the same range Del Giudice associates with water's coherent oscillations. Scalar technology may be working through water's information capacity.
 
-**Source:** `translations/2026-09-03-brazilian-scalar-generator-pt.md`
+**Source:** `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md`
 
 ---
 
@@ -296,8 +296,8 @@ If the convergent claim is correct — that water is the information medium of l
 - `translations/2026-09-03-schauberger-luxembourg-patent-1951-de.md` — Austrian vortex technology
 - `translations/2026-08-29-ondes-de-forme-centre-ganesha-en.md` — French form wave theory
 - `translations/2026-08-29-morphic-resonance-sheldrake-en.md` — British morphic resonance
-- `translations/2026-09-03-psicogeometria-materia-energia-es.md` — Mexican psychogeometry
-- `translations/2026-09-03-brazilian-scalar-generator-pt.md` — Brazilian scalar technology
+- `translations/2026-09-10-psicogeometr-a-geometr-a-en-materia-y-energ-a-es.md` — Mexican psychogeometry
+- `translations/2026-08-30-brazilian-scalar-energy-generator-pt.md` — Brazilian scalar technology
 - `synthesis/2026-09-04-vortex-universal-organizing-principle.md` — Previous synthesis on vortex
 - `synthesis/2026-09-02-consciousness-quantum-field-active-information.md` — Previous synthesis on consciousness
 - `synthesis/2026-08-31-vacuum-organizational-substrate.md` — Previous synthesis on vacuum structure
