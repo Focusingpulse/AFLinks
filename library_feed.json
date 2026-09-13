@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T03:08:50Z",
+  "generated_at": "2026-09-13T03:22:54Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5500,9 +5500,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T01:15:40Z",
+      "last_run": "2026-09-13T03:15:35Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks since last run (no budget) | quota gate blocked, clean no-op | backlog unchanged (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5522,9 +5522,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T02:07:46Z",
+      "last_run": "2026-09-13T03:10:29Z",
       "last_status": "ok",
-      "last_summary": "sync: 61603 docs, feed rebuilt"
+      "last_summary": "sync: 61609 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5616,6 +5616,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "03:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — Quota gate blocked this fire (family budget low, gear=quota) — clean no-op, no chunks translated. Will resume active full-doc jobs on next fire with budget."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "03:10",
+      "agent": "AFLinks Sync",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-13",
       "time": "02:11",
@@ -5927,18 +5939,6 @@
       "time": "11:15",
       "agent": "Translation Sweeper",
       "summary": "+0 chunks — No-op: family budget low, gate blocked"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "11:13",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "10:45",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — Skipped — family budget LOW (gear: quota), translation-curator gated as non-essential. Backlog: 442 sources await full translation (30 complete, 1 in progress). Archives hold 34 durable copies (baseline recorded this run). Will resume full-document translation when quota window reopens."
     },
     {
       "date": "2026-09-12",
