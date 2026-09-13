@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-13T09:08:30Z",
+  "generated_at": "2026-09-13T09:23:25Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
     "patents": 2835,
     "categories": 51,
     "meta_categories": 14,
-    "aflinks_docs": 61653,
+    "aflinks_docs": 61667,
     "translations": 97,
     "pages_translated": 2706,
     "declassified_finds": 50,
@@ -5791,9 +5791,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T08:15:38Z",
+      "last_run": "2026-09-13T09:15:39Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks | no budget (gate rejected) | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget — family low, skipped (gear: quota) | backlog 457 wait"
     },
     {
       "member": "db-entity-extractor",
@@ -5813,9 +5813,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T08:10:37Z",
+      "last_run": "2026-09-13T09:09:42Z",
       "last_status": "ok",
-      "last_summary": "sync: 61653 docs, feed rebuilt"
+      "last_summary": "sync: 61667 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5907,6 +5907,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "09:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op: family budget low (gear=quota), run-gate closed — skipped translation work. Backlog unchanged at 457 sources awaiting full translation (30 fully done, 1 in progress)."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "09:11",
+      "agent": "AFLinks Sync",
+      "summary": "+14 docs — Follow-up same run: discovered AFLinks migrated to a sharded master index (index_shards/ + index_io.py) — index.json removed from repo after crossing GitHub's 100MiB push limit. Patched rebuild_aflinks_db.py to prefer sharded index > legacy monolith > live chunked download. Rebuilt from sharded local index: 61667 docs (+14 vs site's published 61653 — repo main is ahead of Pages). Restored /root/workspace/AFLinks clone so the 3h scraper cron won't fail on next fire. Patents 2835, researchers 999, categories 51."
+    },
     {
       "date": "2026-09-13",
       "time": "09:06",
@@ -6212,18 +6224,6 @@
       "time": "18:17",
       "agent": "translator-foreign (The Wizard)",
       "summary": "+1 chunks — Translated 'Viktor Schauberger and the Water Vortexer' (German -> English); published to AFLinks. Also marked Goethe transformism manifest done (cloud fleet already translated it)."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "18:11",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "17:46",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — Skipped: family budget low, gear=quota. Backlog 445 docs awaiting translation, 32 archival copies held. No chunks burned."
     },
     {
       "date": "2026-09-12",
