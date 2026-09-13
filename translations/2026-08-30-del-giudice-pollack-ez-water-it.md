@@ -1,5 +1,5 @@
 ---
-name: "Del Giudice & Pollack — Fourth Phase of Water (EZ water)"
+name: Link to Facebook. Link to X. Link to YouTube. Link to Instagram.
 description: "Translation document."
 ---
 

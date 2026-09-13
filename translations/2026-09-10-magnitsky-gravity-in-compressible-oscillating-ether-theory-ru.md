@@ -1,9 +1,9 @@
 ---
-name: Magnitsky — Gravity in Compressible Oscillating Ether Theory
+name: Magnitsky â€” Gravity in Compressible Oscillating Ether Theory
 description: "Full-document translation. language ru | 18 chunks | https://newinflow.ru/pdf/pub28.pdf"
 ---
 
-# Magnitsky — Gravity in Compressible Oscillating Ether Theory
+# Magnitsky â€” Gravity in Compressible Oscillating Ether Theory
 
 *Full translation from ru · source: https://newinflow.ru/pdf/pub28.pdf · 18 chunks · assembled 2026-09-10*
 

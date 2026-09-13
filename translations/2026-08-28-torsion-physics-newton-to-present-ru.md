@@ -1,6 +1,6 @@
 ---
 name: ACADEMY OF TRINITARIANISM
-description: "Torsion Physics from Newton to the Present — historical overview of torsion-field research. Full-document translation; frontmatter normalized by Forge QC 2026-09-13."
+description: "Translation document."
 ---
 
 ACADEMY OF TRINITARIANISM

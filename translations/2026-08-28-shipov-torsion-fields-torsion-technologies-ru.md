@@ -1,6 +1,6 @@
 ---
 name: TORSION FIELDS AND TORSION TECHNOLOGIES.1
-description: "Torsion Fields and Torsion Technologies — Russian research program overview (Shipov/Akimov lineage). Full-document translation; frontmatter normalized by Forge QC 2026-09-13."
+description: "Translation document."
 ---
 
 TORSION FIELDS AND TORSION TECHNOLOGIES.1

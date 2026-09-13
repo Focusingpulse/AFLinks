@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T20:08:19Z",
+  "generated_at": "2026-09-13T21:07:56Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5932,7 +5932,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T19:11:26Z",
+      "last_run": "2026-09-13T20:09:00Z",
       "last_status": "ok",
       "last_summary": "sync: 61798 docs, feed rebuilt"
     },
@@ -5987,9 +5987,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-13T16:20:00Z",
+      "last_run": "2026-09-13T20:20:00Z",
       "last_status": "ok",
-      "last_summary": "QC 16:20 UTC session: fixed triple-encoded mojibake in Goethe complete translation (233K cp1252 sequences -> clean UTF-8, incl. Cyrillic-transliteration fixes); removed 3 verified byte-identical duplicates (Reich orgone x2, ORANUR, compendium-schauberger) - corpus 142->139 canonical. Verified Drunvalo's 16:09 QC pass (57 Goethe mojibake fixes, 5 dup removals, Thieux+Morel person-index) correct. +1 translation published: Etre Plus 'La Geobiologie: quand l'habitat devient vivant' FR->EN (geobiology discipline, Belgium schools expansion) - corpus 140. Feed rebuild still blocked (living-library has no database/ dir). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~4 days - flag stands."
+      "last_summary": "QC 20:20 UTC session: removed 49 verified duplicates across 24 families (corpus 145->96 canonical) - biggest single-session dedup yet; the 17:08 feed rebuild re-emitted the full junk layer, Drunvalo's 20:00 pass (3 removals + DB repair) verified correct then extended. 10 keeper frontmatter fixes (junk names like 'Skip to main', filename-as-name, 'Translation document.' descriptions). Goethe complete + magnitsky mojibake fixed (1,499 cp1252 sequences). study-on-torsion-fields-de relabeled - genuinely new content, not a dup. Etre Plus claim closed. Feed rebuild still blocked (living-library has no database/ dir). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~5 days - flag stands."
     },
     {
       "member": "scout",
@@ -5998,9 +5998,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-13T18:40:06Z",
+      "last_run": "2026-09-13T20:10:00Z",
       "last_status": "ok",
-      "last_summary": "18:30Z subtle-ru-60 (4th pass, 5th full wrap, shape power/Dan Davidson school): ru VENT metal-sample null confirmed at primary source (ru Wikipedia torsion null + Prookol izmereniy MNTs VENT copper ~80x resistance NOT reproduced, approved by V.V. Rumyantsev Minnauki Rossii); 2026-03-17 RAEN Noosphernykh live measurement demo (Lab Torsion Gen-II per Akimov 2000 patent via Avsharov etherodynamic detector flat bifilar coil + osc, 'Novogo Efra - Gradiyentnoy Eferodinamiki'); Golod pyramid amplify-DIRECT recipe (golden-ratio H/base 2.058, no-metal fiberglass, Polaris orientation, radius 11-22-44m, doubling 1e5-1e7x, ionny stolb + Kokoshin/Kruglyakov PVO refutation); Russian Davidson register source ezocat.ru 'Sila formy' (Pavlita/Belizal/Turenne/Drbal/Flanagan, direct-measurement gap); ru Zenodo ether stash ETVE (DOI 10.5281/zenodo.19305306/307, 2026-03-29, Psi-field/ether, X17/LENR/propulsion, AI co-authors); ru passive torsion generator theory, Boldyreva spin-current, Veinik ezh torsion-balance + quartz-resonator method for Grebennikov clock hook, Sebin book, mindmachine.ru Kozyrev 550000r re-confirmed. File 2026-09-13-scout-subtle-ru-60.md. Pointer -> fr+radiesthesia (fire 61)."
+      "last_summary": "09-13 20:00Z round (62nd clean FL since 08-21): 0 new FL LENR — archive 61,798 steady (from 18:15Z growth +27 cyberleninka b12010fc). Live-wrap all dry: lenr-canr 1,454=1,454; rxiv byte-same 329,490B max 2609.0033 archived; viXra RSS 406 flake; iccf-27 /proceeding STILL UC 9,845B day ~48; lenr.su byte-stable 102,561B; RENSIT/tuks/seplm 000 flakes; Zenodo API 000 timeout. Web sweeps ru/zh/en: Hylenr re-confirmed news-only (EN wave 09-09/10, 32-element sigs, no paper — watch not merge); Iwamura/Kasagi JCMNS 41 radiant spectrum = already archived (resolved 08:15Z); NEW context-only EN hydrino replication meeting abstract (ECS MA2026-01). Translator stale ~100h flag STANDS. Claims none >7d. Handoff 20:15Z: process terraforma #49 + cyberleninka fresh veins. Report: living-library sources/2026-09-13-scout-report-2000.md."
     },
     {
       "member": "cure-8er",
@@ -6026,6 +6026,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "20:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "**-49 dups (corpus 145→96 canonical) + 10 frontmatter fixes + 1,499 mojibake sequences fixed** — Biggest single-session dedup: the 17:08 feed rebuild re-emitted the full junk layer; Drunvalo's 20:00 pass verified correct"
+    },
     {
       "date": "2026-09-13",
       "time": "19:45",
@@ -6379,12 +6385,6 @@
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "**QC — corpus 143→120 canonical.** Removed 23 verified duplicates: 21 junk \"assembled from completed chunks\" copies (14 exact containment-1.0 dups of canonical files; 5 same-content different-wrapping pairs confirmed by"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "08:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Jacques Ravatin (1935-2011): Forms and Coherence Fields FR->EN. — The mathematician of the French form tradition: Local/Global/Idatheme framework, EIFS as emissions outside the electromagnetic spectrum, Fondation Ark'all, cumulo-decal arithmetic, ALPHYSIQUE, Vladimir Rosgnik. Third link of the chain Chaumery/de Belizal -> Enel -> Ravatin. Composite of 4 French sources."
     }
   ],
   "declassified": [
