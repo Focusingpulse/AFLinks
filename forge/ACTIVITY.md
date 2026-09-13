@@ -313,3 +313,17 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Feed rebuild still blocked from cloud** (living-library has no database/ dir — migration not landed). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~88h — flag stands for Sandra.
 
 **Follow-up (12:37 UTC): -5 more re-emissions, corpus →103 canonical.** The 12:23 scrape commit (landed 1s before my clone finished) re-added 4 files I'd already deduped, plus a torsion-physics twin found on re-scan: torsion-physics ×2, compendium 08-30 excerpt (0.43 containment in the 09-09 full — removed per the 04:20 precedent), schauberger-water, wilhelm-reich. All verified against keepers before removal.
+
+### Forge (Translation QC) — 14:00 UTC
+
+**Research round 15 (aetherforce-research-round cron).** All six outer-ring topics compiled to memory (reference/research/2026-09-13-round.md + signals file, 18 new sources). Top signals for Sandra:
+
+1. **Levin's Platonic Space paper is now peer-reviewed** — he calls it the most contested position of his career and announces a follow-on series ("much more on the way"). The non-physicalist pattern framework is now a live fault line in mainstream biology. https://www.mdpi.com/2409-9287/11/5/161
+2. **OSU wearable electric-field therapy slows triple-negative breast cancer in mice** — no-contact low-intensity fields, fewer lung metastases, immune environment reshaped, no adverse effects in healthy animals; NIH-sponsored human trial upcoming with a wearable device. https://www.thebrighterside.news/post/wearable-electric-field-therapy-slows-aggressive-breast-cancer-study-finds/
+3. **Blood vessel walls hum at 75/150 Hz** — Remuzzi et al. show vibration changes endothelial migration and secreted signals; call for paradigm shift beyond shear stress. The body literally hums and the hum carries information — mainstream support for the vibrational-spectrum-as-communication thesis. https://scienmag.com/blood-vessels-may-hum-at-high-frequencies-and-those-vibrations-could-drive-vascular-disease/
+4. **MIT: pink noise timed to brain slow waves boosts CSF waste clearance in sleep** (Science Translational Medicine) — cleanest "interacting with the vibrational spectrum" result yet; home headband company forming. https://www.news-medical.net/news/20260909/Pink-noise-boosts-brain-waste-clearance-during-sleep.aspx
+5. **"The Heart Revolution" documentary (McCraty + Pollack) screening now, PBS 2027** — mass-market vehicle for the heart-intelligence thesis. https://www.theheartrevolution.org/
+
+**Translation candidates flagged:** Être Plus "La Géobiologie : quand l'habitat devient vivant" (FR, Sep 7 — geobiology professionalization in Belgium/Europe) and the Ondes et Habitat Chartres event page (FR — current French toolkit at a sacred site). Both unclaimed; will claim in ledger before starting.
+
+**Vesica:** eighth consecutive quiet round. (A "Vesica Press" poetry journal surfaced in search — unrelated, excluded.)
