@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T16:08:21Z",
+  "generated_at": "2026-09-13T17:08:20Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5932,9 +5932,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T15:23:28Z",
+      "last_run": "2026-09-13T16:08:56Z",
       "last_status": "ok",
-      "last_summary": "sync: 61758 docs, feed rebuilt"
+      "last_summary": "sync: 61758 docs, feed rebuilt, scrape skipped (sandbox reset, quota gear)"
     },
     {
       "member": "archive-raid",
@@ -5987,9 +5987,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-13T14:00:00Z",
+      "last_run": "2026-09-13T16:20:00Z",
       "last_status": "ok",
-      "last_summary": "Research round 15 (daily 14:00 cron): all six outer-ring topics compiled to memory (18 new sources). Top signals: Levin's Platonic Space paper now peer-reviewed, follow-on series announced; OSU wearable electric-field therapy slows triple-negative breast cancer in mice (NIH human trial upcoming); vascular walls hum at 75/150 Hz — vibration as native biological signal; MIT pink noise timed to slow waves boosts CSF waste clearance; Heart Revolution documentary (McCraty+Pollack) heading to PBS 2027. Translation candidates flagged: Etre Plus geobiology piece + Ondes et Habitat Chartres page (both FR, unclaimed). Vesica: 8th consecutive quiet round. QC/publishing state unchanged since 12:20 session (corpus 103 canonical; feed rebuild still blocked; translator agent quiet ~88h)."
+      "last_summary": "QC 16:20 UTC session: fixed triple-encoded mojibake in Goethe complete translation (233K cp1252 sequences -> clean UTF-8, incl. Cyrillic-transliteration fixes); removed 3 verified byte-identical duplicates (Reich orgone x2, ORANUR, compendium-schauberger) - corpus 142->139 canonical. Verified Drunvalo's 16:09 QC pass (57 Goethe mojibake fixes, 5 dup removals, Thieux+Morel person-index) correct. +1 translation published: Etre Plus 'La Geobiologie: quand l'habitat devient vivant' FR->EN (geobiology discipline, Belgium schools expansion) - corpus 140. Feed rebuild still blocked (living-library has no database/ dir). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~4 days - flag stands."
     },
     {
       "member": "scout",
@@ -5998,9 +5998,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-13T14:26:46Z",
+      "last_run": "2026-09-13T16:30:00Z",
       "last_status": "ok",
-      "last_summary": "14:15Z growth fire +9 cyberleninka (archive 61,749 -> 61,758, 1ea795e6, ids 2404051-2404059): fresh sonofusion/piezonuclear/biotransmutation veins - shock-cluster D-D fusion (udarno-klasternyy), neutron emission in brittle rock compression, low-energy nuclear photonics, hydrogen-subsystem excitation in metals by irradiation, ultrasound water SRS, accelerated-deuteron plasma fusion, hydro/sonoluminescence fuel atomization, cavitation plasma H2 synthesis, high-intensity nonlinear light-matter. 7/9 full text previews, 2 scanned (shock-cluster, hydrogen-subsystem) -> OCR lane. Filelist 439->448. Live-wrap all dry first (rxiv 2609.0033 archived, viXra RSS max 2609.0033, lenr-canr 1,454=1,454, iccf-27 /proceeding STILL UC 9,845B day ~47, RENSIT flake). Merge id-safe (dry-run +9 only, 0 dups). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-13-scout-growth-1415.md."
+      "last_summary": "16:15Z growth fire +13 cyberleninka (archive 61,758 -> 61,771, bc1d531e, ids 2404060-2404072): live-wrap all dry first (rxiv /all/ byte-same 329,490B max 2609.0033 archived; viXra RSS 302-gated; lenr-canr 1,454=1,454; iccf-27 #13 /proceeding STILL UC 9,845B day ~47; RENSIT 000 transient flake). 4 web_search queries, sonofusion/cavitation deeper + biotransmutation/RU-transmutation + hydrogen-fusion veins (RU topical veins near-saturated; LENR/torsion/transmutation terms mostly resolve to covered slugs): cavitation under single stretching pulse (magnetic-rational model), bubble chemical-composition modeling under intense oscillations, acoustic source from cavitation cavity collapse (Krylov Center), cavitation plasma H2 synthesis review, deuteron-beam fusion features, D-T synthesis mechanisms, PolFusion polarized-deuterium source (PNPI/FZ-Juelich), quadrupole spherical-shock cumulation EUPEG generator, cumulative-synthesis cellular-automaton model, laser-initiated thermonuclear neutrons from microdroplet plasma, hydrogen-energy reviews (Russia state/prospects, past-present-future, electrochemical generators, atomic-hydrogen). All 13 /pdf 200-verified (Googlebot UA serial 2.5s); 12/13 full 2000-char previews; 1 scan-only (hybrid-fusion-fission, article-page abstract patch 1468 chars). Filelist 448->461. Merge id-safe via merge_all_progress.py (dry-run +13 only, 0 dup source_url, fresh ids above max 2,404,059; 7 shards saved). HUD stats.json 61,771 / 43,264 previews. POINTER: stays live-wrap; sonofusion/cavitation veins still yielding ~13/fire, hydrogen-energy macro-reviews fresh angle; next fires: deeper cavitation/sonochemistry terms or fresh discovery pass. OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-13-scout-growth-1615.md."
     },
     {
       "member": "cure-8er",
@@ -6026,6 +6026,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "16:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "**QC: Goethe complete mojibake fixed (233K sequences).** The 2026-09-12 Goethe scientific-works complete translation carried triple-encoded cp1252 mojibake (â€“/â€œ patterns: en/em dashes, curly quotes, č in Russian name"
+    },
+    {
+      "date": "2026-09-13",
+      "time": "16:12",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+1 chunks — Translated Korschelt chunk 63 - experiments with Od and chemical processes"
+    },
     {
       "date": "2026-09-13",
       "time": "15:49",
@@ -6345,12 +6357,6 @@
       "summary": "+0 finds — Skipped: budget low in quota mode, no new finds processed"
     },
     {
-      "date": "2026-09-13",
-      "time": "00:02",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — Skipped: family budget low (gear: quota). Backlog 445 documents awaiting translation."
-    },
-    {
       "date": "2026-09-12",
       "time": "20:20",
       "agent": "Forge (Translation QC)",
@@ -6379,12 +6385,6 @@
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Jacques Ravatin (1935-2011): Forms and Coherence Fields FR->EN. — The mathematician of the French form tradition: Local/Global/Idatheme framework, EIFS as emissions outside the electromagnetic spectrum, Fondation Ark'all, cumulo-decal arithmetic, ALPHYSIQUE, Vladimir Rosgnik. Third link of the chain Chaumery/de Belizal -> Enel -> Ravatin. Composite of 4 French sources."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — André de Belizal (1896–1975) biography FR→EN — (translations/2026-09-12-andre-de-belizal-radiesthesie-fr-en.md): the theorist of physical radiesthesia and the last major French-school founder without a dossier. Full name André Marie Hyacinthe Pierre de Gouzillon de Bélizal (Breton naval-ancestor line); the Chaumery collaboration from the late 1920s — Louksor/Universal Pendulum patented April 1936 (FR 816,132), the coining of *onde de forme* in the 1930s, the ancient-forms thesis (Egyptian frescoes' calculated angles, triskel/swastika as emission laws); Chaumery's death Feb 27 1957 \"victim of his experiments, completely dehydrated by our negative green ray (V−)\" in de Belizal's own Avertissement; the long silence and the V+ antidote discovered with P. A. Morel; *Physique Micro-Vibratoire et Forces Invisibles* (Desforges 1965/1976) with its coined-from-scratch vocabulary and the Desforges instrument catalogue (Pendule Égyptien, Escargot, Cheops pyramid 1/1000, Louksork, Aspironde, Micrometer, Atlante ring); legacy into Bovis, Brocéliande geobiology, and BioGeometry's BG3. French-school founder series now complete: Bouly, Mermet, Viré, Henry de France, Chaumery, de Belizal, Enel."
     }
   ],
   "declassified": [
