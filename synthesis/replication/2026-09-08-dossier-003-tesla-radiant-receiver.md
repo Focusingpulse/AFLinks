@@ -9,7 +9,7 @@ description: Replication dossier for Tesla's radiant energy receiver (US patent 
 
 - **Nikola Tesla** — US Patent 685,957 "Apparatus for the Utilization of Radiant Energy" (1901) and 685,958 "Method of Utilizing Radiant Energy" (1901): an insulated conducting plate elevated in open air, connected through a capacitor to ground; the environment deposits charge on the plate, the capacitor accumulates it, a load can draw it.
 - **Peter A. Lindemann** — *The Free Energy Secrets of Cold Electricity* (2000) + 2006 lecture — the compilation the archive's translation is built from.
-- **Archive source doc:** `living-library/translations/2026-08-30-tesla-radiant-energy-patents-chercheursduvrai-fr.md` (FR→EN analysis of Tesla's radiant-energy patent schematics; honest compiler disclaimer included: "no single patent provides a step-by-step assembly guide").
+- **Archive source doc:** `living-library/translations/2026-09-03-tesla-patents-radiant-energy-fr.md` (FR→EN analysis of Tesla's radiant-energy patent schematics; honest compiler disclaimer included: "no single patent provides a step-by-step assembly guide").
 - Scout context: `living-library/sources/2026-08-26-scout-a-fr-es-zh.md` Find 2 (French analysis of Tesla's radiant energy patents with practical assembly guidance).
 - Rotates into the ENERGY domain of the Engine of Practicality (energy → water → food → shelter → health → community). Mirrors Village guild **Homesteading** (self-reliance / off-grid energy) in the Aetherforce quest-mirror layer.
 

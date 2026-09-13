@@ -1,6 +1,6 @@
 ---
 name: Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos
-description: "Full translation of 'Dry Gas LENR Experiment with Spin Control and Neutrinos'. IT->EN, translated by Translation Sweeper."
+description: "Translation document."
 ---
 
 # Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos
