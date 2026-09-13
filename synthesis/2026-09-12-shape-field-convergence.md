@@ -417,7 +417,7 @@ Either outcome advances understanding.
    - Reciprocal Circles Board technology
    - Direct student of André de Belizal
 
-3. **Study on Torsion Fields** (translations/2026-09-11-study-on-torsion-fields-de.md)
+3. **Study on Torsion Fields** (translations/2026-09-10-study-on-torsion-fields-de.md)
    - German translation of Russian torsion research
    - Shape effects (cones, cylinders)
    - Golden ratio connection

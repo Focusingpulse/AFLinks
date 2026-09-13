@@ -29,7 +29,7 @@ Scheduled cron: QC recent AFLinks translations, fix issues, update DB (every 4h)
 - 2026-09-12-jacques-ravatin-champs-de-coherence-fr-en.md ✓
 - Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md (removed as duplicate)
 - 2026-09-11-schauberger-water-blood-of-the-earth-de.md ✓
-- 2026-09-11-shipov-torsion-fields-and-torsion-technologies-ru.md ✓
+- 2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md ✓
 
 ### Issues Found & Fixed
 - Duplicates: 3 files removed (same content with different date prefixes)
@@ -71,8 +71,8 @@ Scheduled cron: QC recent AFLinks translations, fix issues, update DB (every 4h)
 ### Files Checked
 - 2026-09-12-enel-omega-radiations-formes-fr-en.md ✓
 - 2026-09-12-andre-de-belizal-radiesthesie-fr-en.md ✓
-- 2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de.md (fixed frontmatter)
-- 2026-09-11-vortex-motor-negentropic-propulsion-es.md ✓
+- Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md (fixed frontmatter)
+- 2026-09-03-vortex-motor-negentropic-propulsion-es.md ✓
 - 2026-09-11-viktor-schauberger-and-the-water-vortexer-de.md ✓
 
 ### Issues Found & Fixed

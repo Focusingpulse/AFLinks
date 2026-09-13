@@ -107,7 +107,7 @@ Nasselstein's formulation is the shared diagnosis: the hurdles are "arbitrarily 
 ## 6. Sources
 
 - [1] `translations/2026-09-10-magnitsky-gravity-in-compressible-oscillating-ether-theory-ru.md` — N.A. Magnitsky, *Gravity in the Theory of Compressible Oscillating Ether*, Complex Systems No. 4 (33), 2019 (RU→EN).
-- [2] `translations/2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de.md` — Peter Nasselstein, *Oranur-Physics: Wilhelm Reich, Physicist* (2025), incl. David Boadella, *Orgone Energy, Love and Spaceships* (1955) and Roberto Maglione on orgone motors (DE→EN).
+- [2] `translations/Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md` — Peter Nasselstein, *Oranur-Physics: Wilhelm Reich, Physicist* (2025), incl. David Boadella, *Orgone Energy, Love and Spaceships* (1955) and Roberto Maglione on orgone motors (DE→EN).
 - [3] `translations/2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md` — G.I. Shipov, torsion fields and torsion technologies (RU→EN).
 - [4] `translations/2026-09-07-akimov-shipov-torsion-research-ru.md` — A.E. Akimov, G.I. Shipov, *Torsion Fields and Their Experimental Manifestations* (RU→EN).
 - [5] `translations/2026-09-10-study-on-torsion-fields-de.md` — N. Grachev, *Study on Torsion Fields* (DE→EN); cf. `translations/2026-09-07-extended-electromagnetism-schadach-de.md` — D. Schadach on Barrett's extended electromagnetism.

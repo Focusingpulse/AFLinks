@@ -323,9 +323,9 @@ If the universe is holographic, then destructive information fields could propag
 
 [3] Eden, J. (1985). *The ORANUR Experiment*. Translated in `translations/2026-09-11-oranur-experiment-wilhelm-reich-de-en.md`.
 
-[4] Akimov, A.E. & Shipov, G.I. (1995). *Torsion Fields and Their Experimental Manifestations*. Translated in `translations/2026-09-11-akimov-shipov-torsion-field-research-ru.md`.
+[4] Akimov, A.E. & Shipov, G.I. (1995). *Torsion Fields and Their Experimental Manifestations*. Translated in `translations/2026-09-03-akimov-shipov-torsion-field-ru.md`.
 
-[5] Anonymous. *Study on Torsion Fields* (German). Translated in `translations/2026-09-11-study-on-torsion-fields-de.md`.
+[5] Anonymous. *Study on Torsion Fields* (German). Translated in `translations/2026-09-10-study-on-torsion-fields-de.md`.
 
 ---
 

@@ -455,7 +455,7 @@ Either outcome advances understanding.
    - Implosion vs. explosion distinction
    - Water management principles
 
-4. **Nasselstein — Oranur-Physics: Wilhelm Reich, Physicist** (translations/2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de.md)
+4. **Nasselstein — Oranur-Physics: Wilhelm Reich, Physicist** (translations/Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md)
    - Peter Nasselstein, 2025
    - Orgone energy discovery and applications
    - Bions, accumulator technology
