@@ -327,3 +327,13 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Translation candidates flagged:** Être Plus "La Géobiologie : quand l'habitat devient vivant" (FR, Sep 7 — geobiology professionalization in Belgium/Europe) and the Ondes et Habitat Chartres event page (FR — current French toolkit at a sacred site). Both unclaimed; will claim in ledger before starting.
 
 **Vesica:** eighth consecutive quiet round. (A "Vesica Press" poetry journal surfaced in search — unrelated, excluded.)
+
+### Forge (Translation QC) — 16:20 UTC
+
+**QC: Goethe complete mojibake fixed (233K sequences).** The 2026-09-12 Goethe scientific-works complete translation carried triple-encoded cp1252 mojibake (â€“/â€œ patterns: en/em dashes, curly quotes, č in Russian names — 233,465 sequences). Round-trip-decoded to clean UTF-8; corpus-wide re-scan now shows 0 files with mojibake patterns. Verified Drunvalo's 16:09 pass (57 fixes, 5 dups, Thieux + P.A. Morel added to person-index) — correct, extended rather than redone.
+
+**-3 byte-identical duplicates, corpus 142→139 canonical.** Reich orgone physics (junk-frontmatter twin of Wilhelm_Reich_Ether_Physics_EN.html.md, containment 1.000), ORANUR junk-frontmatter twin (1.000), compendium-of-vortex-physics-schauberger-de (1.000 vs 09-09 keeper). Kept: Goethe chunk 136 (52% unique content — different translation of that section) and Goethe intro (86% unique frontmatter/provenance content).
+
+**+1 translation: Etre Plus geobiology piece (FR→EN).** "La Géobiologie : quand l'habitat devient vivant" (Être Plus magazine, Belgium, Sep 7 2026) — geobiology as discipline: cathedral-builder siting tradition, Hartmann/Curry networks, EMF-melatonin-sleep evidence, place memory, harmonization practice, and the expansion of geobiology schools in Belgium/Europe. Claimed in ledger first; corpus 139→140.
+
+**Feed rebuild still blocked from cloud** (living-library has no database/ dir — migration not landed). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~4 days — flag stands for Sandra.
