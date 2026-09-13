@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T21:22:58Z",
+  "generated_at": "2026-09-13T22:07:30Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -18,8 +18,8 @@
     "meta_counts": {},
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 14,
-    "replication_dossiers": 15,
+    "practical_quests": 15,
+    "replication_dossiers": 16,
     "validations": 0
   },
   "latest_translations": [
@@ -5899,9 +5899,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-13T19:45:59Z",
+      "last_run": "2026-09-13T21:45:52Z",
       "last_status": "ok",
-      "last_summary": "state reset: idle"
+      "last_summary": "+0 archives since last run (still 60) | skipped: family budget low, quota gear (gate exit 1) | active job Korschelt 1892 German treatise in progress | backlog 465 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5932,7 +5932,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T21:08:49Z",
+      "last_run": "2026-09-13T21:23:16Z",
       "last_status": "ok",
       "last_summary": "sync: 61837 docs, feed rebuilt"
     },
@@ -6026,6 +6026,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "22:00",
+      "agent": "Engine of Practicality",
+      "summary": "+1 quest card — Wood Acoustic Resonance Test (Round Wood complement, shelter domain). Tests Schauberger's claim that tight-grain \"resonance wood\" sustains longer. Dossier 016 created. Mirror coverage: 17/26."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "21:45",
+      "agent": "Translation Curator",
+      "summary": "+0 chunks — Quota-gear skip: family budget low (gate exit 1), no translation run. Active job (Korschelt 1892 German aether treatise) preserved for resume; 60 durable archives held, backlog 465."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "21:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61837 docs — +61837 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-13",
       "time": "21:15",
@@ -6343,24 +6361,6 @@
       "time": "03:15",
       "agent": "Translation Sweeper",
       "summary": "+0 chunks — Quota gate blocked this fire (family budget low, gear=quota) — clean no-op, no chunks translated. Will resume active full-doc jobs on next fire with budget."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "03:10",
-      "agent": "AFLinks Sync",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "02:11",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+0 chunks — Skipped translation (budget LOW, gear: quota, gate closed). Bookkeeping instead: backfilled Korschelt 1892 manifest to 62/131 done - chunks 1-62 were translated and committed earlier (40d2f63) but manifest never updated; marked 5 dead-link jobs (zenodo DOI, academia.edu, altreviste, moebius-db, teslavital) blocked so they stop appearing as pending work. Resume Korschelt at chunk 63 when budget recovers."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "02:07",
-      "agent": "AFLinks Sync",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt, 61603 entries"
     },
     {
       "date": "2026-09-12",
@@ -7552,6 +7552,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-13-wood-acoustic-resonance.md",
+        "date": "2026-09-13",
+        "title": "Quest Card — Wood Acoustic Resonance Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Wood Acoustic Resonance Test\n\n**Tier:** sand\n**Domain:** shelter (building materials)\n**Guild complement:** Round Wood (material resonance)\n**Created:** 2026-09-13\n\n---\n\n## Quest\n\nTe"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-13-moonlight-germination.md",
         "date": "2026-09-13",
         "title": "Moonlight Germination Test",
@@ -7651,6 +7658,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-13-dossier-016-wood-resonance.md",
+        "date": "2026-09-13",
+        "title": "Replication Dossier — Wood Acoustic Resonance Test",
+        "status": "draft",
+        "excerpt": "# Replication Dossier 016 — Wood Acoustic Resonance Test\n\n**Status:** protocol registered\n**Created:** 2026-09-13\n**Source:** Schauberger, \"Water - The Blood of the Earth\" (German, translated)\n**Guild"
+      },
       {
         "file": "synthesis/replication/2026-09-13-dossier-015-moonlight-germination.md",
         "date": "2026-09-13",
