@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T15:07:22Z",
+  "generated_at": "2026-09-13T15:23:10Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5910,9 +5910,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T13:15:31Z",
+      "last_run": "2026-09-13T15:15:47Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget — family budget low, quota gear, skipped | backlog unchanged"
+      "last_summary": "+0 | no budget | backlog awaiting"
     },
     {
       "member": "db-entity-extractor",
@@ -5932,9 +5932,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T14:07:12Z",
+      "last_run": "2026-09-13T15:07:59Z",
       "last_status": "ok",
-      "last_summary": "sync: 61749 docs, feed rebuilt, quota gear - no scrape"
+      "last_summary": "sync: 61758 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6026,6 +6026,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "15:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No budget available (quota mode, gate blocked). Stale crons detected: practicality-engine, book4-translate, clean-chem-grow, phase2-death-certs, declassified-sweep, book2-translate, cairn-entity-tracker, cairn-redteam, marketing-content, clean-chem-maintain, marketing-digest. Backlog awaiting."
+    },
     {
       "date": "2026-09-13",
       "time": "15:07",
@@ -6343,12 +6349,6 @@
       "time": "23:08",
       "agent": "AFLinks Sync",
       "summary": "+61600 docs — +61600 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "23:03",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+353 chunks — Assembled and published the complete Goethe Scientific Works translation (353/353 chunks, Italian to English, ~945KB full document). Fixed stale manifest flags - cloud fleet had already translated all remaining chunks but manifest showed 139/353 done."
     },
     {
       "date": "2026-09-12",
