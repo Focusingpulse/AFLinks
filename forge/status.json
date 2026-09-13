@@ -1,6 +1,6 @@
 {
   "last_run": "2026-09-13T00:20:00Z",
   "last_status": "ok",
-  "last_summary": "QC session: corpus 147->103 canonical. Removed 44 verified duplicates across 21 families (feed-rebuild re-emissions + dated copies; every family checked to exactly one keeper after removal). Fixed mojibake (cp1252/UTF-8 double-decode) in the Goethe complete translation + gave it a real name. Frontmatter fixed on 19 files (junk name/desc replaced with real titles and source-language descriptions). Post-removal re-scan clean: 0 prefix-dup families, 0 fuzzy dups >=0.95. Feed rebuild still blocked from cloud (living-library has no database/ dir). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~76h \u2014 past 48h threshold, flag stands.",
+  "last_summary": "QC session: corpus 147->104 (44 verified dups removed across 21 families, keepers verified; Goethe complete mojibake fixed via cp1252 roundtrip; 19 frontmatter fixes; re-scan clean). +1 translation published: Guy Thieux dossier (b. 1932, Enel's literary legatee, Carnets inedits editor, Lakhovsky/Orsay NYNAPSE lineage) FR/ES->EN \u2014 completes the Enel chain: Chaumery/de Belizal -> Enel -> Thieux. Feed rebuild still blocked from cloud (no database/ in living-library). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~76h \u2014 flag stands.",
   "source": "forge/status.json (public-repo channel)"
 }
