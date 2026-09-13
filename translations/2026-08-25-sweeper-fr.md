@@ -1,6 +1,6 @@
 ---
-name: Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacu…
-description: "Translation document."
+name: "Translation Sweeper Round (French)"
+description: "French-language article collected and translated by the translation sweeper stream."
 ---
 
 # Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology

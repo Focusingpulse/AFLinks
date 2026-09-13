@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-torsion-physics-newton-to-present-ru"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Torsion Physics — From Newton to the Present"
+description: "English translation of the Russian torsion-physics history article (RU→EN)."
 ---
 
 ACADEMY OF TRINITARIANISM

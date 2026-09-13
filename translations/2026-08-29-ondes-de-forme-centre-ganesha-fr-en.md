@@ -1,6 +1,6 @@
 ---
-name: Form Waves: Origin, Principles, and Controversies
-description: "Translation document. https://www.centreganesha.com/les-ondes-de-forme/"
+name: "Ondes de Forme — Centre Ganesha"
+description: "English translation of the Centre Ganesha form-waves material (FR→EN)."
 ---
 
 - **original_title:** Les ondes de forme

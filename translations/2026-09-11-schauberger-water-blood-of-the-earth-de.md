@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-schauberger-water-blood-of-the-earth-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Schauberger — Water: Blood of the Earth"
+description: "English translation of the German Schauberger water article (DE→EN)."
 ---
 
 Viktor Schauberger

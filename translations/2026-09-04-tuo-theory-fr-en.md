@@ -1,6 +1,6 @@
 ---
-name: TUO - Theorie de l'Univers Onde (FR→EN)
-description: "Translation document. language fr | domain: cosmology | https://doi.org/10.5281/zenodo.17311741"
+name: "T.U.O. — Wave Universe Theory"
+description: "English translation of the French T.U.O. theory material (FR→EN)."
 ---
 
 - **date:** 2026-09-04
