@@ -1,6 +1,6 @@
 ---
-name: Einstein, the Ether, and the Cosmological Constant
-description: "Translation document. https://ma-vie-quantique.com/communication-et-resonance-quantique/ether-einstein-nassim-haramein/"
+name: "Einstein, the Ether, and the Cosmological Constant"
+description: "French->English translation on Einstein, the ether, and the cosmological constant. Outer-ring / French aether physics."
 ---
 
 - **original_title:** Einstein, l'ether et la constante cosmologique

@@ -1,6 +1,6 @@
 ---
-name: Water – The Blood of the Earth (Viktor Schauberger)
-description: "Translation document."
+name: "Viktor Schauberger — Water, The Blood of the Earth (Sampler)"
+description: "German->English translation: sampler from Viktor Schauberger written documents — Water, The Blood of the Earth."
 ---
 
 Viktor Schauberger

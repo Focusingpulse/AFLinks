@@ -1,6 +1,6 @@
 ---
-name: A Universe Without Dark Matter?
-description: "Translation document. https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0"
+name: "A Universe Without Dark Matter?"
+description: "French->English translation of Chardin, 'A Universe Without Dark Matter?'. Outer-ring / French aether physics."
 ---
 
 - **original_title:** Un Univers sans matiere noire ?

@@ -1,6 +1,6 @@
 ---
-name: Spyridis - Platonic Theory of Everything and Unified Theory of Electro-Strong Interaction (EL→EN)
-description: "Translation document. language el | domain: unified-theory | http://users.uoa.gr/~hspyridis/THEORYOFEVRYTHING.pdf"
+name: "Spyridis — Platonic Theory of Everything and Unified Theory of Electro-Strong Interaction"
+description: "Greek->English translation of H. Spyridis, Platonic Theory of Everything / unified theory of electro-strong interaction. users.uoa.gr THEORYOFEVRYTHING.pdf."
 ---
 
 - **date:** 2026-09-04

@@ -1,6 +1,6 @@
 ---
-name: Link to Facebook. Link to X. Link to YouTube. Link to Instagram.
-description: "Translation document."
+name: "Del Giudice Explains Pollack's Discovery of the Fourth Phase of Water (EZ water)"
+description: "Italian->English translation: Emilio Del Giudice on Gerald Pollack's exclusion-zone water — electrons from water near membranes, coherence domains, biological morphologies. Source: acsicraniosacrale.it."
 ---
 
 Link to Facebook. Link to X. Link to YouTube. Link to Instagram.
