@@ -237,7 +237,10 @@ def update_research_index(translations, research_index):
     if "works" not in research_index:
         research_index["works"] = []
     
-    existing_files = {w.get("file") for w in research_index["works"]}
+    # Compare by basename so entries with or without a directory prefix in
+    # their file field are both recognized as already indexed (prevents
+    # duplicate regrowth on every refresh).
+    existing_files = {os.path.basename(w.get("file") or "") for w in research_index["works"]}
     
     new_works = 0
     for t in translations:
@@ -253,7 +256,7 @@ def update_research_index(translations, research_index):
                 "date": t.get("date", "unknown"),
                 "language": t.get("language", "unknown"),
                 "translated": True,
-                "file": t["filename"],
+                "file": f"translations/{t['filename']}",
                 "themes": [],
                 "concepts": t.get("domains", []),
                 "key_claims": [],
