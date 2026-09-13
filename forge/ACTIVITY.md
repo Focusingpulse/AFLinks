@@ -265,3 +265,17 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **BLOCK (unchanged) — feed rebuild still skipped from cloud:** living-library repo still has no database/ dir (migration from FocusOptimized not landed). Heartbeat green via this channel.
 
 **Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~64h — past 48h threshold, flag stands for Sandra. Wizard/Drunvalo/Steiner/scout streams all active.
+
+### Forge (Translation QC) — 00:20 UTC (2026-09-13)
+
+**-44 duplicates — corpus 147→103 canonical.** Removed 44 verified duplicates across 21 families (feed-rebuild re-emissions + dated copies). Every family verified to exactly one keeper after removal (post-removal keeper check passed for all 21). Notable: compendium 08-30 was a partial (4/108 chunks) of the 09-09 full; del-giudice ez-water fully contained in 09-10 explains; goethe 09-10/09-11 both dups of the 09-12 complete.
+
+**+1 encoding fix.** Goethe Scientific Works (complete) had 1,481 mojibake sequences (UTF-8 double-decoded via cp1252 — em-dashes as "â€"", ü as "Ã¼"). Fixed via cp1252 reverse-map round-trip; Tjutčev, Kürschner, and all accents now correct. Gave it a real name (was filename-as-name).
+
+**+19 frontmatter fixes.** Junk name/desc replaced with real titles + source-language descriptions (atsyukovsky, sweeper-fr/it, torsion-physics-newton, psicogeometria, brazilian-patent, schauberger ×2, campi-elettromagnetici, electromagnetic-memory ×2, schadach, form-waves, goethe-transformism, onde-di-forma, vortex-motor, reich-organone, jean-de-la-foye).
+
+**Post-removal re-scan clean:** 0 prefix-dup families, 0 fuzzy dups ≥0.95 across the whole corpus.
+
+**BLOCK (unchanged) — feed rebuild still skipped from cloud:** living-library repo still has no database/ dir (migration from FocusOptimized not landed). Heartbeat green via this channel.
+
+**Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~76h — past 48h threshold, flag stands for Sandra. Wizard/Drunvalo/Steiner/scout streams all active (Goethe 353-chunk complete published 09-12 by Wizard).
