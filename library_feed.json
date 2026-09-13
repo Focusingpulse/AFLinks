@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T23:06:48Z",
+  "generated_at": "2026-09-13T00:06:05Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5489,9 +5489,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-12T21:45:36Z",
+      "last_run": "2026-09-13T00:02:23Z",
       "last_status": "ok",
-      "last_summary": "-1 archives since last run (35->34) | skipped: family budget low (gear: quota) | no chunks this run"
+      "last_summary": "+0 archives since last run (34→34) | skipped: family budget low (gear: quota) | backlog 445 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5500,9 +5500,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-12T21:15:57Z",
+      "last_run": "2026-09-12T23:15:40Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | budget low, skipped | backlog 445 wait (gear: quota)"
+      "last_summary": "+0 | no budget (family low, quota mode) | skipped non-essential work per gate (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5511,9 +5511,9 @@
       "mission": "Catalogs every researcher and work into the dual-index database with practical-applicability flags.",
       "schedule": "daily 6pm MDT",
       "icon": "🗂️",
-      "last_run": "2026-09-12T00:12:12Z",
+      "last_run": "2026-09-13T00:03:06Z",
       "last_status": "ok",
-      "last_summary": "+8 people since last run (132->140) | added 20 people, 21 works, 18 practical this run (gear: quota); deduped kasagi-iwamura work, linked 5 AT patents to Schauberger, backfilled 7 missing persons"
+      "last_summary": "+0 people since last run (still 140) | skipped: budget low, quota mode"
     },
     {
       "member": "aflinks",
@@ -5522,9 +5522,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T22:11:58Z",
+      "last_run": "2026-09-12T23:08:16Z",
       "last_status": "ok",
-      "last_summary": "sync: 61592 docs, feed rebuilt"
+      "last_summary": "sync: 61600 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5616,6 +5616,36 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "00:03",
+      "agent": "DB Entity Extractor",
+      "summary": "+0 finds — Skipped: budget low in quota mode, no new finds processed"
+    },
+    {
+      "date": "2026-09-13",
+      "time": "00:02",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — Skipped: family budget low (gear: quota). Backlog 445 documents awaiting translation."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "23:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gear=quota, sweeper skipped as non-essential per run-gate. No chunks translated; active jobs resume when budget recovers."
+    },
+    {
+      "date": "2026-09-12",
+      "time": "23:08",
+      "agent": "AFLinks Sync",
+      "summary": "+61600 docs — +61600 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-12",
+      "time": "23:03",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+353 chunks — Assembled and published the complete Goethe Scientific Works translation (353/353 chunks, Italian to English, ~945KB full document). Fixed stale manifest flags - cloud fleet had already translated all remaining chunks but manifest showed 139/353 done."
+    },
     {
       "date": "2026-09-12",
       "time": "22:11",
@@ -5912,39 +5942,9 @@
     },
     {
       "date": "2026-09-12",
-      "time": "09:03",
-      "agent": "AFLinks Sync",
-      "summary": "+41 docs — Daily sync: +41 docs (61375->61416). Rebuilt 4 legacy database files: taxonomy (51 cats, 14 meta), researcher-index (999 entries), patent-index (2786 patents), concept-map (47 domains)."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "08:46",
-      "agent": "Translation Curator",
-      "summary": "+0 runs — Quota-mode heartbeat: budget window empty (family mode=low), no translation run. Backlog healthy: 442 docs awaiting full translation, 30 fully translated, 1 in progress, 7 dead/blocked. Archives hold 35 durable copies. Will resume full-doc translation + archiving on next budget window."
-    },
-    {
-      "date": "2026-09-12",
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Jacques Ravatin (1935-2011): Forms and Coherence Fields FR->EN. — The mathematician of the French form tradition: Local/Global/Idatheme framework, EIFS as emissions outside the electromagnetic spectrum, Fondation Ark'all, cumulo-decal arithmetic, ALPHYSIQUE, Vladimir Rosgnik. Third link of the chain Chaumery/de Belizal -> Enel -> Ravatin. Composite of 4 French sources."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "08:15",
-      "agent": "Book 1 Translator",
-      "summary": "+3 chunks — Book 1 (final volume), progress 242/249 (97%). Chunks 240–242, Chapter 8 close: etherdynamics' position toward official physics (no debate — fruitless directions will die naturally); science/religion unification rejected; sixth revolution of natural science anticipated; formal Conclusions (ether as building material of matter, artificially blocked transition, etherdynamics as concrete modeling — \"the future belongs to it\"); Conclusion opens: \"Science and Pseudoscience\" — Lenin's empirio-criticism warning unheeded, RAS Pseudoscience Commission under Ginzburg. Quota respected (3/3). 7 chunks remaining."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "08:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No budget — skipped (gear: quota)"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "08:11",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-12",
@@ -6290,12 +6290,28 @@
       "source_url": ""
     },
     {
-      "date": "2026-09-12",
+      "date": "2026-09-13",
       "kind": "milestone",
       "title": "Atsyukovsky Book 5 — complete in English",
       "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, now readable end to end.",
       "rarity": "milestone",
       "href": "./library.html#translationsSection"
+    },
+    {
+      "date": "2026-09-13",
+      "kind": "declassified",
+      "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
+      "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-usa-pentagon-uap-tranche4-md"
+    },
+    {
+      "date": "2026-09-13",
+      "kind": "declassified",
+      "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
+      "excerpt": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
       "date": "2026-09-12",
@@ -6314,22 +6330,6 @@
       "rarity": "fresh from Italian",
       "href": "./library.html#trans-2026-09-12-goethe-scientific-works-complete-it.md",
       "source_url": ""
-    },
-    {
-      "date": "2026-09-12",
-      "kind": "declassified",
-      "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
-      "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-usa-pentagon-uap-tranche4-md"
-    },
-    {
-      "date": "2026-09-12",
-      "kind": "declassified",
-      "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
-      "excerpt": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
       "date": "2026-09-12",

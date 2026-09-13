@@ -1742,11 +1742,11 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/00004704.html">
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/00214272.html">
     <span class="salvage-person">👤 </span>
-    <span class="salvage-doc-title">US2012206003A1.pdf</span>
-    <span class="salvage-preview">US 2012020600341 a») United States &lt;2) Patent Application Publication (10 Pub. No.: US 2012/0206003 A1 Holeomb (ws) Pub. Date: Aug. 16, 2012 (S4)_ BRUSHLESS DIRECT CURRENT (DC) Publication Casifcation ELECTRIC GENERATOR …</span>
-    <span class="salvage-meta">the archive · Aether, Light &amp; Electricity · Energy &amp; Transportation</span>
+    <span class="salvage-doc-title">2607.0077v1</span>
+    <span class="salvage-preview">Thermonuclear fusion Pastushenko Vladimir Alexandrovich Annotation A new technology for space-matter theories is presented, the limiting case of which is the technology of Euclidean space-time axiomatics. Within the fram…</span>
+    <span class="salvage-meta">viXra.org · Alternative Energy Technologies · Patents &amp; Inventions</span>
 </a><!-- SALVAGE:END -->
     </section>
 
@@ -1870,7 +1870,7 @@
             <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-12</span>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-13</span>
         </div>
     </footer>
 
@@ -2525,7 +2525,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260912230648')
+            fetch('./synthesis/synthesis_index.json?v=20260913000605')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3067,7 +3067,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260912230648');
+                        const response = await fetch('./search_index.json?v=20260913000605');
                         return response.json();
                     };
                     if (catParam) {
@@ -3097,12 +3097,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260912230648');
+                    const man = await fetch('./full_manifest.json?v=20260913000605');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260912230648');
+                    const feedRes = await fetch('./library_feed.json?v=20260913000605');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
