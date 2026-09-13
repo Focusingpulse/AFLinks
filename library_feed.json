@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:06:05Z",
+  "generated_at": "2026-09-13T00:23:09Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5522,7 +5522,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-12T23:08:16Z",
+      "last_run": "2026-09-13T00:07:24Z",
       "last_status": "ok",
       "last_summary": "sync: 61600 docs, feed rebuilt"
     },
@@ -5610,12 +5610,24 @@
       "mission": "Wisdom council and quality gate of the Living Library — keeps the Village growing, audits translations and data integrity, scouts the far corners of the web, weaves cross-domain synthesis, and keeps the archive's pattern true.",
       "schedule": "4h QC · 6h synthesis · 8h village growth · 12h scout/audit · daily refresh (cloud)",
       "icon": "🪷",
-      "last_run": "2026-09-03T00:00:08Z",
+      "last_run": "2026-09-13T00:09:04.118417+00:00",
       "last_status": "ok",
       "last_summary": "Scout-N-12-finds: Atsyukovsky complete English translation, Sheldrake complete papers/books, Casimir Inc SpaceWERX funding, Italian psicogeometria sources, LENR-torsion hypothesis, form wave = torsion field hypothesis. 12 sources verified, 3 endangered texts flagged for archive, 6 upgrade_bank entries added."
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "00:07",
+      "agent": "AFLinks Sync",
+      "summary": "+61600 docs — +61600 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-13",
+      "time": "00:04",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+0 chunks — Skipped: no viable work - only pending job is Korschelt (131 chunks, German) but family budget LOW (gear=quota); all other pending jobs are BLOCKED/DEAD-LINK"
+    },
     {
       "date": "2026-09-13",
       "time": "00:03",
@@ -5927,18 +5939,6 @@
       "time": "09:15",
       "agent": "Book 1 Translator",
       "summary": "+3 chunks — Book 1 (final volume), progress 245/249 (98%). Chunks 243–245: Chapter 8 conclusion (three tasks for natural science, victory of materialism, transition to ether as depth level of matter organization) + Literature/bibliography section (references to Introduction, Chapters 1–3: Lenin, Engels, Atsyukovsky, Einstein, Miller ether-wind experiments, Rutherford, Heisenberg). Quota respected (3/3). 4 chunks remaining — Book 1 completes next run."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "09:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: gear=quota, family budget low — run-gate closed, no translation work done. Staleness watchdog flagged 8 members overdue (incl. book4-translate 44h, declassified-sweep 41h) — worth a look when budget frees up."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "09:09",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-12",
