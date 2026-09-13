@@ -1,5 +1,5 @@
 ---
-name: Chercheurs Du Vrai
+name: "Tesla Radiant Energy — Patent Analyses (chercheursduvrai.com)"
 description: "Translation document."
 ---
 

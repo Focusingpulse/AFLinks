@@ -1,5 +1,5 @@
 ---
-name: "2026-09-03-akimov-shipov-torsion-field-ru"
+name: "Akimov–Shipov Torsion Field Research"
 description: Full translation of "ACADEMY OF TRINITARIANISM"
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: Sacred Geometry
+name: "Psicogeometría — Geometría en Materia y Energía"
 description: "Translation document."
 ---
 

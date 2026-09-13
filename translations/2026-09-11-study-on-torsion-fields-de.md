@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-study-on-torsion-fields-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Study on Torsion Fields (Akimov)"
+description: "English translation of a German-language article on torsion fields — long-range force fields, torsion generators, left/right rotation, ecological and energy applications, Akimov/Shipov research program. Full-document translation (assembled from completed chunks); relabeled by Forge QC 2026-09-13."
 ---
 
 Study on Torsion Fields

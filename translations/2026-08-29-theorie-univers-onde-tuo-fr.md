@@ -1,5 +1,5 @@
 ---
-name: Skip to main
+name: "Théorie de l'Univers Onde (TUO)"
 description: "Translation document."
 ---
 
