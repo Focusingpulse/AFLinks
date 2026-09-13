@@ -1,6 +1,6 @@
 ---
-name: Akimov Shipov Torsion Research Ru
-description: Full English translation
+name: "Akimov & Shipov: Torsion Fields and Torsion Technologies"
+description: "Full English translation of the Akimov/Shipov torsion field research overview (Academy of Trinitarianism, trinitas.ru). RU->EN."
 ---
 ACADEMY OF TRINITARIANISM
 

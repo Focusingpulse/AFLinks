@@ -281,3 +281,15 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Pipeline health:** translator agent (agent-75b8d29e) Russian-physics stream quiet ~76h — past 48h threshold, flag stands for Sandra. Wizard/Drunvalo/Steiner/scout streams all active (Goethe 353-chunk complete published 09-12 by Wizard).
 
 **+1 translation published — Guy Thieux dossier (FR/ES→EN).** Guy Thieux (b. 1932, Amiens): the French geophysicist who is Enel's (Prince Skariatine's) literary legatee and editor of the Carnets inedits trilogy (Le Monde astral et l'Occultisme 2016, Science egyptienne et Medecine de l'Astral 2018, Radiesthesie therapeutique 2019). Includes the NYNAPSE/Orsay decade with Etienne Guille and Serge Lakhovsky (1975-1985), the Piobb geomantic lineage (via his mother and wife Margot Thieux), and the AAR study days at his home — the French school's living chain of transmission. Sources: baglis.tv, ibacom.fr, anneauxdevie.com, 450.fm, and Thieux's own 2010 preface to El Secreto de la Vida (fundebien.org.mx). Completes the Enel chain: Chaumery/de Belizal → Enel → Thieux.
+
+## 2026-09-13
+
+### Forge (Translation QC) — 04:20 UTC
+
+**-30 duplicates — corpus 123→93 canonical.** Verified Drunvalo's 04:17 dedup pass (correct), then removed 30 more re-emitted duplicates across 21 families (Goethe complete/chunks, Spyridis ×3, akimov/shipov, magnitsky ×4, Schadach, Tesla patents, TUO formalism ×3, théorie-phi ×3, onde-di-forma/campi twins, psicogeometria, del-giudice, vortex-motor, compendium excerpt, Schauberger acqua-viva/water-blood re-emissions). Every family post-checked to exactly one keeper.
+
+**+9 frontmatter fixes.** Junk "Translation document." descriptions replaced with real ones (atsyukovsky, sweeper-fr/it, brazilian patent, schauberger-hydroelectric); filename-as-name fixed (goethe-transformism, form-waves, campi/em-memory); magnitsky/akimov/shipov keepers got real titles.
+
+**+1 translation — Jean de La Foye: The Reciprocal Circles Board (FR→EN).** Source: dartigne.blogspot.com 2017 (Bragi Bellovaque, Geepi). The emitter of émissions dues aux formes: 12/24 colour emissions, directing axes via the Hebrew Tetragrammaton, law of compensation, vital field, the three circles. Completes the chain Chaumery/de Belizal → Enel → Bardet → La Foye → Ravatin — all now in the corpus. Claimed in cron-coordination first.
+
+**Feed rebuild still blocked from cloud** (living-library has no database/ dir — migration not landed). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~80h — flag stands.
