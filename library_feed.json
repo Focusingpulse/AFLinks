@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:23:09Z",
+  "generated_at": "2026-09-13T01:06:41Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5522,7 +5522,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T00:07:24Z",
+      "last_run": "2026-09-13T00:23:38Z",
       "last_status": "ok",
       "last_summary": "sync: 61600 docs, feed rebuilt"
     },
@@ -5577,9 +5577,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-12T20:20:00Z",
+      "last_run": "2026-09-13T00:20:00Z",
       "last_status": "ok",
-      "last_summary": "QC session: corpus 145->141. Removed 4 verified duplicates (schauberger-water, study-on-torsion, torsion-physics-newton, vortex-motor — all junk-frontmatter copies with canonical versions present). Fixed frontmatter on 12 files: magnitsky-gravity, oranur, akimov-shipov, shipov-torsion, spyridis-toe, acqua-viva, analyse-tesla, brazilian-patent, prometheus-lenr, psicogeometria, theorie-tuo. All new content (22 files from 09-11 feed rebuild) is genuinely new — not duplicates. Feed rebuild still blocked from cloud (living-library has no database/ dir). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~64h — past 48h threshold, flag stands."
+      "last_summary": "QC session: corpus 147->104 (44 verified dups removed across 21 families, keepers verified; Goethe complete mojibake fixed via cp1252 roundtrip; 19 frontmatter fixes; re-scan clean). +1 translation published: Guy Thieux dossier (b. 1932, Enel's literary legatee, Carnets inedits editor, Lakhovsky/Orsay NYNAPSE lineage) FR/ES->EN — completes the Enel chain: Chaumery/de Belizal -> Enel -> Thieux. Feed rebuild still blocked from cloud (no database/ in living-library). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~76h — flag stands."
     },
     {
       "member": "scout",
@@ -5588,9 +5588,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-12T20:00:00Z",
+      "last_run": "2026-09-13T00:45:00Z",
       "last_status": "ok",
-      "last_summary": "20:00Z round (57th clean FL since 08-21): 0 new FL LENR — archive 61,578 steady (from 19:10Z growth fire +19 cyberleninka). Lanes dry: lenr-canr 1,454=1,454; iccf-27 /proceeding STILL UC 9,845B day ~40; viXra RSS 406 env flake (rxiv mirror covers, max 2609.0028 archived); RENSIT no 2026/5; tuks 000 flake. ru/zh/en sweeps: Hylenr re-confirmed news-only (32-element rare-earth sigs, ICCF-27, no paper, authors ne spokespersons), ENG8 PRVR known. TRANSLATOR STALE ~64h flag STANDS. Claims none >7d. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "00:15Z growth fire: +3 cyberleninka keyword harvest (zero-point/vacuum-radiation, Theory-of-Primary-Potential inertia, fuel-free-energy dev), archive 61,600->61,603 (c37d74416, ids 2403902-2403904). Live lanes dry first: rxiv /all/ byte-same 329,490B (max 2609.0033 archived); viXra RSS 406-gated; lenr-canr 1,454=1,454; iccf-27 /proceeding STILL UC 9,845B day ~43. Cyberleninka topical veins (torsion/ether/LENR/transmutation/ball-lightning/antigravity) now nearly saturated — most search hits resolve to already-covered slugs; next pivot to EN-language fusion/LENR terms or fresh discovery pass. index sharded 61,603 (~96MiB, healthy headroom). OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5616,6 +5616,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "00:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61600 docs — +61600 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-13",
       "time": "00:07",
@@ -5933,12 +5939,6 @@
       "time": "09:23",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+61416 docs — +61416 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "09:15",
-      "agent": "Book 1 Translator",
-      "summary": "+3 chunks — Book 1 (final volume), progress 245/249 (98%). Chunks 243–245: Chapter 8 conclusion (three tasks for natural science, victory of materialism, transition to ether as depth level of matter organization) + Literature/bibliography section (references to Introduction, Chapters 1–3: Lenin, Engels, Atsyukovsky, Einstein, Miller ether-wind experiments, Rutherford, Heisenberg). Quota respected (3/3). 4 chunks remaining — Book 1 completes next run."
     },
     {
       "date": "2026-09-12",

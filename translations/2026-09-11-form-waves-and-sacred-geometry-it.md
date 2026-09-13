@@ -1,6 +1,6 @@
 ---
-name: "Form Waves and Sacred Geometry (Mario Contino)"
-description: "English translation of Mario Contino's Onde di forma e geometria sacra. Italian source: mariocontino.it."
+name: "2026-09-11-form-waves-and-sacred-geometry-it"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 ---
