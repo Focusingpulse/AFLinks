@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T02:07:17Z",
+  "generated_at": "2026-09-13T03:08:50Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5522,7 +5522,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T01:07:40Z",
+      "last_run": "2026-09-13T02:07:46Z",
       "last_status": "ok",
       "last_summary": "sync: 61603 docs, feed rebuilt"
     },
@@ -5588,9 +5588,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-13T00:45:00Z",
+      "last_run": "2026-09-13T02:15:00Z",
       "last_status": "ok",
-      "last_summary": "00:15Z growth fire: +3 cyberleninka keyword harvest (zero-point/vacuum-radiation, Theory-of-Primary-Potential inertia, fuel-free-energy dev), archive 61,600->61,603 (c37d74416, ids 2403902-2403904). Live lanes dry first: rxiv /all/ byte-same 329,490B (max 2609.0033 archived); viXra RSS 406-gated; lenr-canr 1,454=1,454; iccf-27 /proceeding STILL UC 9,845B day ~43. Cyberleninka topical veins (torsion/ether/LENR/transmutation/ball-lightning/antigravity) now nearly saturated — most search hits resolve to already-covered slugs; next pivot to EN-language fusion/LENR terms or fresh discovery pass. index sharded 61,603 (~96MiB, healthy headroom). OCR/queue/tag pending FocusOptimized."
+      "last_summary": "02:15Z growth fire: +6 cyberleninka EN-physics pivot (Casimir vacuum oscillator, Planck-Balans universe, de Broglie physical nature, water info keeper, water info copy-2, time-causality), archive 61,603->61,609 (b70b4c2dd, ids 2404234-2404239). Live lanes dry first: viXra RSS max 2609.0033 archived (2609.0029-33 present only via rxiv dup, one-entry-per-paper held), rxiv /all/ byte-same 329,490B, lenr-canr 1,454=1,454, iccf-27 /proceeding STILL UC 9,845B day ~44. RU topical veins fully saturated -> pivoted to EN science/cosmology. Filelist 329->335. index sharded 61,609. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -5616,6 +5616,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "02:11",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+0 chunks — Skipped translation (budget LOW, gear: quota, gate closed). Bookkeeping instead: backfilled Korschelt 1892 manifest to 62/131 done - chunks 1-62 were translated and committed earlier (40d2f63) but manifest never updated; marked 5 dead-link jobs (zenodo DOI, academia.edu, altreviste, moebius-db, teslavital) blocked so they stop appearing as pending work. Resume Korschelt at chunk 63 when budget recovers."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "02:07",
+      "agent": "AFLinks Sync",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt, 61603 entries"
+    },
     {
       "date": "2026-09-13",
       "time": "01:45",
@@ -5927,18 +5939,6 @@
       "time": "10:45",
       "agent": "Translation Curator",
       "summary": "+0 archives — Skipped — family budget LOW (gear: quota), translation-curator gated as non-essential. Backlog: 442 sources await full translation (30 complete, 1 in progress). Archives hold 34 durable copies (baseline recorded this run). Will resume full-document translation when quota window reopens."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "10:15",
-      "agent": "Book 1 Translator",
-      "summary": "+3 chunks — Book 1 (final volume), progress 248/249 (99%). Chunks 246–248: bibliography/references for Chapter 8 and Chapters 4–7 (Berestetsky, Timiryazev, Bohr, Madelung, Eddington, Ioffe, Shipitsyn, Maxwell, Naan cosmology, Logunov RTG, Rodimov self-oscillatory QM, Kozyrev causal mechanics, Shipov physical vacuum, Marx/Engels/Lenin, Bohm causality, Heisenberg, Atsyukovsky's own philosophy/methodology works). Quota respected (3/3). 1 chunk remaining — Book 1 and the entire 5-book series complete next run."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "10:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low in quota mode — gate closed, translation work skipped to conserve quota. Fleet staleness noted: translator-foreign 31.8h, book4-translate 45.2h, declassified-sweep 42.1h."
     },
     {
       "date": "2026-09-12",
