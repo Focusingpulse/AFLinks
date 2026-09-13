@@ -1,261 +1,286 @@
 ---
-title: The French Form-Wave Lineage: From Chaumery's 1936 Patent to Ravatin's Non-Cartesian Physics
+title: The French Form-Wave Lineage: From Chaumery to Coherence Fields
 date: 2026-09-13
 author: Drunvalo
-domain: radiesthesia, form-waves, coherence-fields, history-of-ideas, French-school
-sources: 5
+domain: radiesthesia, form-waves, coherence-fields, eifs, french-tradition
+sources: 7
 ---
 
-# The French Form-Wave Lineage: From Chaumery's 1936 Patent to Ravatin's Non-Cartesian Physics
+# The French Form-Wave Lineage: From Chaumery to Coherence Fields
 
 ## Abstract
 
-Between 1936 and 2011, a French research tradition evolved from practical dowsing instruments to a formal mathematical framework that deliberately rejects the wave metaphor. This synthesis traces that intellectual lineage through five generations: **Chaumery & de Bélizal** (1936 patent, negative green, Universal Pendulum) → **Enel** (1940s–50s, Omega ray, Egyptian fieldwork) → **de Bélizal & Morel** (1957–76, consolidation, safety protocols) → **Jean de La Foye** (1960s–70s, 24 manifested colors, vital field, Hebrew guiding axes) → **Jacques Ravatin** (1980s–2011, coherence fields, Local/Global/Idathème, deliberate break from "wave" terminology). Each generation transformed the conceptual apparatus while keeping the empirical core: geometric shapes generate detectable fields that carry information without conventional energy transfer. The tradition's endpoint is not a refinement but a rupture — Ravatin's explicit rejection of the vocabulary his predecessors built.
+The French radiesthesia tradition that emerged in the 1930s represents one of the most sustained and systematic research programs into form-generated fields in the Western esoteric-scientific literature. Beginning with Léon Chauméry and André de Belizal's discovery of the negative green ray (V−) and their invention of the Universal Pendulum, this lineage produced a coherent theoretical framework, a catalog of apparatus, a safety protocol born of tragedy, and eventually a mathematical reformulation that reframed "form waves" as coherence-field phenomena outside conventional physics. This synthesis traces the chain of transmission through seven key figures — Chaumery, de Belizal, Enel, Jean de La Foye, P.A. Morel, Jacques Ravatin, and Guy Thieux — identifies convergent claims with Russian torsion physics and Italian quantum biophysics, and proposes experimental tests that could validate or falsify the tradition's core claims.
 
 ---
 
-## 1. The Founder Generation: Chaumery and de Bélizal (1934–1957)
+## 1. The Founding: Chaumery & de Belizal (1930s–1957)
 
-### 1.1 The Patent as Historical Anchor
+### 1.1 The Sphere Discovery
 
-The tradition enters documented history through a legal filing. French patent FR 816,132, *Procédé et appareillage radiesthésiques*, filed 10 April 1936 by Léon Chaumery and André de Bélizal, granted 30 July 1937 [1]. The patent's significance:
+In the 1930s, Léon Chauméry (1880–1957) and André de Belizal conducted systematic experiments with spherical forms, discovering that a wooden sphere held an unexpected property: it was the seat of emissions which, by mental convention, they named "colors" — but these were not optical colors. They were vibratory qualities detected by pendulum, arranged on spiral paths from a (+) pole to a (−) pole, following the course of the sun across the sphere's surface over 24 hours.
 
-- **Physical radiesthesia as the claim.** The apparatus is claimed to work on terrestrial magnetism, not on the operator's mind. This is the "physical radiesthesia" position that distinguishes the school from mentalist dowsing.
-- **Spectral completeness as novelty.** Existing pendulums "agree only in wavelength" and "cannot explore the region comprised between infra-black and ultra-white." The invention's contribution is the region between them.
-- **Negative green defined.** "This ray is the antipode of the green of the spectrum: it is the shortest wave and consequently the most powerful of the invisible spectrum... designated under the name of negative green or special green."
+The key discovery: **the (−) pole, which gave an inverse gyration to the neutral pendulum, corresponded to no known color.** They named it **Negative Green (V−)** by simple opposition to Positive Green (V+) at the opposite pole.
 
-The patent classification placed it alongside electrotherapy and geophysical prospecting (modern IPC: A61N1/16, G01V9/002). In 1936, the claim was filed as physics, not esoterica.
+### 1.2 The Universal Pendulum
 
-### 1.2 The Apparatus Articles
+From this discovery emerged the **Pendule Universel** — a spherical wooden pendulum graduated with:
+- **Equator:** Wave height (H.O.) — 8 families of elements, marked in grades
+- **Magnetic meridian (N–S):** Magnetic phase
+- **Electric meridian (E–W):** Electric phase
+- **Colors:** Both visible and invisible spectrum positions
 
-The school's technical literature, published in French radiesthesia journals of the Servranx era (c. 1950s–60s), documents the operational framework [2]:
+The operator holds the pendulum at a specific thread length (octave), positions the cursor at a specific color/height, and the pendulum rotates when above the corresponding substance. This is resonance detection — the pendulum tuned to the vibratory signature.
 
-- **Angular refraction as mechanism.** "The set square forms an angle of 90°, and when you thus trace two perpendicular lines having a common point, you obtain the shortest and most powerful vibration in the Universe: negative green (V−). It is form that engenders the vibration, and the emission always shoots forth along the horizontal line of the 90° angle when that line is oriented on the terrestrial North/South axis."
-- **Spectral positions from geometry.** Every angle from 0 to 180° corresponds to a spectral position. Acute angles emit "white, ultraviolet, violet, indigo, blue, green+"; obtuse angles emit "black, infrared, red, orange, yellow, green−."
-- **Phase as moral polarity.** The same spectral position has a magnetic phase (favorable, "lengthens the wavelength of the living organism") and an electric phase (unfavorable, "shortens that wavelength"). The Disc Emitter's design exists to select between them.
+### 1.3 The Negative Green Properties
 
-### 1.3 The Founder's Death as Internal Datum
+De Belizal and Morel's *Physique Micro-Vibratoire et Forces Invisibles* (1976) formalized the spectrum:
 
-The school documents its own casualty. Chaumery died 27 February 1957, "victim of his experiments, completely dehydrated by our negative green ray (V−)" — recorded by de Bélizal in the preface to the 1976 book, with the note that the V+ "antidote" was found only later, through Morel's collaboration [1][2].
+| Color Band | Position | Characteristics |
+|------------|----------|-----------------|
+| Infrared | Below red | Thermal, warming |
+| Black | Below visible | Absorbing |
+| **Negative Green (V−)** | Point 0–400 | Destructive, dehydrating, power over matter, natural telluric carrier |
+| Positive Green | Center | Equilibrating, neutral |
+| White | Above green | Preserving, balancing |
+| Ultraviolet | Above visible | Disinfecting, energetic |
 
-This is not external criticism but internal testimony. The tradition anchors its most contested claim in personal tragedy.
+**Negative Green is the pivot of the entire system.** It is:
+- The natural carrier wave of telluric currents
+- Both destructive (dehydrates matter) and preserving (mummifies by dehydration)
+- The "connecting link between life and death"
+- The basis of Egyptian pyramid preservation effects
+- The frequency patented by Chaumery/de Belizal in April 1936 (patent no. 816,132)
+
+### 1.4 The Founding Tragedy
+
+The tradition's founding legend is also its safety warning. De Belizal reports that Chaumery died on 27 February 1957, "completely dehydrated by our negative green ray (V−)" — a victim of his own apparatus. This became the cautionary tale: form waves are real, powerful, and dangerous if mishandled.
 
 ---
 
-## 2. The Bridge Figure: Enel (1940s–1950s)
+## 2. The Bridge: Enel (1883–1963)
 
-### 2.1 Who Was Enel?
+### 2.1 Who Was Enel
 
-Prince Michel Vladimirovich Skariatine (1883–1963), pseudonym "Enel" — Russian aristocrat, colonel of the Imperial Guard, Egyptologist, Kabbalist, radiesthesia researcher. After the Russian Revolution, he settled in France, then Egypt (1931–1953), then Switzerland until his death [3].
-
-His circle included Colonel de Rochas, Chaumery, de Bélizal, Howard Carter, Gaston Maspero, Maître Philippe, Papus. He collaborated with Lakhovsky on the Multiple Wave Oscillator.
+Prince Michel Vladimirovich Skariatine — "Enel" — was a Russian aristocrat who commanded the Chevaliers-Gardes of the Imperial Guard under Nicholas II before fleeing the Revolution. An erudite polyglot (Latin, Greek, Sanskrit, Hebrew, Russian, French), he became an Egyptologist, collaborating with Howard Carter's team and studying under Gaston Maspero. He settled in Cairo from 1931 to 1953, then in Switzerland until his death in 1963.
 
 ### 2.2 The Omega Discovery
 
-Enel's contribution was to carry the Chaumery pendulum method into the field — specifically, to the tombs of Christian saints in Egypt:
+Between 1940 and 1950, Enel applied Chaumery's pendulum methods to the tombs of Christian saints in Egypt. He discovered that all the tombs emanated a specific vibration in the zone of **Negative Green** — but specifically the **horizontal component** of V−.
 
-- He discovered that all the tombs emanated a vibration in the zone of "Negative Green."
-- He named this quality "Omega" — identifying the horizontal component of V− as a marker of spiritual energy.
-- On the Universal Pendulum's electromagnetic meridian, Omega sits at grade 395, between White (366.5) and V− (0/400).
+**Enel named this quality "Omega"** — the horizontal negative green, which he interpreted as a marker of spiritual energy. Where Chaumery and de Belizal had identified V− as destructive, Enel found that its horizontal aspect was associated with sanctity and preservation.
 
-### 2.3 The Egyptian Connection
+### 2.3 The Lakhovsky Connection
 
-Enel's *Radiations des formes et cancer* (1951) operationalizes the tradition in Egyptian contexts. The school had claimed from the start that Egyptians "knew perfectly well" the emitting power of angles, that their "frescoes were composed of drawings whose angles are so judiciously calculated that they radiate at will beneficial or maleficent waves" [2]. Enel spent twenty years on-site, working with Howard Carter's team, claiming to decode the symbolic sense of hieroglyphs through Kabbalistic methods.
+Enel was the bridge between French radiesthesia and Georges Lakhovsky's Multiple-Wave Oscillator (MWO). From 1953 to 1963, he used the MWO in therapeutic contexts, and his third volume of *Carnets inédits* (edited by Guy Thieux) devotes substantial space to Lakhovsky's apparatus.
 
-He bridges the Paris laboratory tradition to Egyptian fieldwork and to the Lakhovsky MWO line — the only instrument in the school's orbit with a genuine, if contested, electrobiology pedigree.
+This connection is crucial: the MWO is one of the few instruments in the alternative physics tradition with a contested but non-zero electrobiology pedigree. Enel's endorsement links the pendulum-dowsing tradition to high-voltage electrotherapy.
 
----
+### 2.4 The Egyptian Temple Science
 
-## 3. The Consolidation: de Bélizal and Morel (1957–1976)
+Enel's Cairo period (1931–1953) produced his most influential work: the application of form-wave theory to Egyptian hieroglyphs and temple architecture. He held that the hieroglyphs were not merely phonetic but encoded vibratory information — a "language between Matter and Spirit."
 
-### 3.1 The Post-Chaumey Synthesis
-
-After Chaumery's death, de Bélizal collaborated with P.A. Morel to consolidate the tradition. Their *Physique micro-vibratoire et forces invisibles* (Desforges, 1963; expanded edition 1976) systematizes the apparatus and protocols [1].
-
-Key contributions:
-- **The three phenomena.** Mental radiesthesia (clairvoyance), physical radiesthesia (calibrated detection), and micro-vibratory physics (emitter technology). The school distinguishes these carefully.
-- **Safety protocols.** Explicit warnings about operator exposure, radiodermatitis risks, the need for V+ neutralization.
-- **The Bombe C.30.** Detailed documentation of the hollow wooden sphere emitter, orientation requirements, lunar phase corrections.
-
-### 3.2 The Honest Concession
-
-De Bélizal and Morel concede explicitly: no instrument other than the calibrated pendulum and its human operator has ever detected form waves [1][2]. The energies are "on the order of the millionth or billionth of an electron-volt." If V− corresponds to anything real, it is not in the EM spectrum at all.
-
-This concession is methodologically important. The tradition does not claim instrumental validation that does not exist.
+His *Science égyptienne et Médecine de l'Astral* (edited by Thieux, 2018) decodes funeral rites, the Opening of the Mouth ceremony, and the Ka/Ba distinction through a Cabalistic lens, proposing that Egyptian temple science was a form-wave technology for managing subtle bodies.
 
 ---
 
-## 4. The Vital Field: Jean de La Foye (1960s–1970s)
+## 3. The Consolidation: Jean de La Foye (1960s–1970s)
 
-### 4.1 Who Was La Foye?
+### 3.1 The 24 Manifested Colors
 
-French agronomic engineer and amateur radiesthésiste. His professional work — solving concrete problems in agricultural settings — led him into form-wave research. He explicitly named his lineage:
+Jean de La Foye, an agricultural engineer, extended Chaumery and de Belizal's sphere work onto the circumference of a tree trunk. He found the 12 colors again on the trunk's diameter — but discovered they **doubled up to twice the trunk's radius**: 12 "Electric" colors and 12 "Magnetic" colors, of opposed polarities.
 
-> "To my Master, Monsieur André de BELIZAL, who introduced me to the fascinating universe of form waves and, with admirable patience, guided my first steps"
+This produced the **24 manifested colors** — the full spectrum of form emissions detectable on the circumference of a polarized body.
 
-With thanks also to "Monsieur BARDET (Jean-Gaston Bardet, architect and specialist of the square Hebrew script) for the precious time he made me save by associating me with some of his research, by making me discover the possibilities of Hebrew." [4]
+### 3.2 The Vital Field
 
-### 4.2 The 24 Manifested Colors
+La Foye's key contribution was the **vital field** (champ vital). The pendulum-detectable signature of the living is manifested by:
+- **Series of circles repeating fractally and duplicating** — like cell division
+- Where the living crystallizes in circles, matter overlaps in **hexagonal fractals**
 
-La Foye extended the founder's sphere work by moving from the sphere to the circumference of a tree trunk:
+This geometric distinction — circular patterns for life, hexagonal for matter — is a strikingly specific claim. Life is not merely organized matter but a different pattern of organization.
 
-- The 12 colors appear on the trunk's **diameter**
-- The colors **double** to 24 on **twice the trunk's radius** — 12 "Electric" colors and 12 "Magnetic" colors of opposed polarities
-- A nail driven into the trunk **selects** the color present at that point and projects it onto the south (terrestrial magnetic) axis
+### 3.3 The Hebrew Guiding Axes
 
-This led to the **equatorial pendulum**, the **equatorial disk**, and finally the **Reciprocal Circles Board** — a selective color emitter that decouples the colors' course from the sun.
+La Foye was unblocked by Jean-Gaston Bardet, architect and specialist in square Hebrew script. Bardet held that Hebrew letters encode the energy of pronunciation — writing "here shall spring water" in square Hebrew creates a witness-effect between word and object.
 
-### 4.3 The Vital Field
+When La Foye measured each letter of the **Tetragrammaton (יהוה)** against the color emissions of the sphere, he could draw **axes directeurs du champ de formes** — "guiding axes of the field of forms" — on the circle. These axes, engraved on an emitter, keep it from saturating and isolate it from exterior influence, "creating a true little universe sufficient to itself: a microcosm."
 
-La Foye's key contribution: the **vital field** — the pendulum-detectable signature of the living:
+This is the most explicitly religious claim in the tradition: **sacred text functions as field technology.**
 
-- The living crystallizes in **circles** (fractal, duplicating like cell division)
-- Matter crystallizes in **hexagonal fractals**
-- Life overlaps matter: "circles contained within the hexagram"
+### 3.4 The Reciprocal Circles Board
 
-This connects to Del Giudice/Pollack water-coherence research: the living state has a different field signature than non-living matter.
+From these principles, La Foye developed the **Tablette des cercles réciproques** — a rectangular wooden board with three interlocking circles:
 
-### 4.4 The Hebrew Guiding Axes
+- **North circle:** Origin (oriented to magnetic north −5° = 355°). A needle through its center selects the color from the 24-color dial.
+- **Center circle:** The "microprocessor" or "heart," from which the guiding axes depart. Amplifiers may be placed here.
+- **South circle:** Per the law of compensation, emits perpendicularly at its center the emission selected in the north. Place a photo witness for remote treatment, an object to charge, or a carrier substance.
 
-La Foye's breakthrough came through Jean-Gaston Bardet's Hebrew work:
-
-- Each letter of the **Tetragrammaton** (YHWH, "I AM") corresponds to a specific color emission when measured radiesthetically
-- These letters can be drawn as **axes directeurs** — guiding axes — on a circle
-- The axes **permanently balance** the emitter, preventing saturation and isolating it from exterior influence
-- The board becomes "a true little universe sufficient to itself: a microcosm"
-
-This is the operationalization of sacred geometry: Hebrew letters as field-stabilizing axes.
-
-### 4.5 The Reciprocal Circles Board
-
-Three interlocking circles:
-
-| Circle | Function |
-|--------|----------|
-| **North circle** | Origin; oriented to magnetic north −5° (355°); a needle through its center selects the color from the 24-color dial |
-| **Center circle** | The "microprocessor" or "heart"; guiding axes depart from here and balance the board; amplifiers may be placed here |
-| **South circle** | Per the law of compensation, emits perpendicularly at its center the emission selected in the north; place a photo witness for remote treatment, an object to charge, or a carrier substance to copy a vibration onto |
-
-The Board can be connected in series — a copper wire guides emission from one board's south circle to another board's north circle.
+The board is still manufactured today (€102 meranti wood from Servranx, €100–180 POM version).
 
 ---
 
-## 5. The Rupture: Jacques Ravatin (1980s–2011)
+## 4. The Antidote: P.A. Morel (1957–1976)
 
-### 5.1 Who Was Ravatin?
+### 4.1 The V+ Discovery
 
-Jacques "Vlady" Ravatin (1935–2011) — doctor of sciences in physics and mathematics, E.S.C.I.L.-trained engineer, professor of mathematics at the University of Orsay. Worked in quantum axiomatics and collaborated with CERN. Founder of Fondation Ark'All, originator of "non-Cartesian" mathematical systems [5].
+After Chaumery's death in 1957, André de Belizal continued his research with **P.A. Morel**. De Belizal credits Morel with discovering the **antidote vibration (V+)** — the protective frequency that made negative green work survivable.
 
-His nickname "Vlady" came from Vladimir Rosgnik, a fictional character he invented as the "Bourbaki of his unorthodox research" — a plural identity representing the entire Ark'All/Eurek'All research group.
+From the *Physique Micro-Vibratoire* foreword:
 
-### 5.2 The Deliberate Break
+> "At that time we had not yet found the antidote vibration — it was discovered afterwards with M. P. A. Morel, who was kind enough to look into our work and give us his precious assistance."
 
-Ravatin's group made an explicit philosophical decision:
+This is the hinge of the tradition's history: after V− killed its own co-discoverer, **Morel found the protective/antidote vibration** that made the work survivable.
 
-> "We no longer speak of form waves but of emissions due to forms. Why? Because we are not dealing with waves — neither those of the electromagnetic spectrum nor those of any other known vibratory system. In short: emissions due to forms do not belong to our physical universe." [5]
+### 4.2 The Consolidation Text
 
-This is the key conceptual move: **EIFS (émissions induites par les formes) are not waves at all.** They are emergence phenomena — the Local (our observable universe) emerging from the Global (existence without reference points).
+Morel co-authored *Physique Micro-Vibratoire et Forces Invisibles* (Desforges, 1965/1976) — the tradition's main treatise. He also revised the **Barre Atlante** (Louksor), discovering that the flattened ring form saturated to produce negative green, and modifying the ends to eliminate this danger.
 
-### 5.3 The Local/Global/Idathème Framework
+### 4.3 The Honest Boundary
 
-| Category | Definition | Characteristics |
-|----------|------------|-----------------|
-| **Local** | Existence with reference points | Measurable, locatable, dissociable into elements |
-| **Global** | Existence without reference points | Non-local, holistic, cannot be grasped by analysis |
-| **Idathème** | Being-being (l'être étant) | Cannot be represented, tied to certain forms/places/acts |
+The tradition's most honest passage comes from de Belizal and Morel themselves:
 
-The Idathème is a third category: certain forms, places, and acts are tied to it (mandrake, philosopher's stone, DNA double helix, Easter Island statues, Nazca lines, dolmens, Carnac alignments).
+> "The day such a measurement system is found, we would need radiesthesia less, for form waves would become part of an exact science. But we are not there yet."
 
-### 5.4 Cumulo-Decal Arithmetic
-
-Ravatin's group developed a new mathematical system to access the Global:
-
-> "These are cumulo-decal arithmetics — arithmetic, because they deal with numbers; cumulo-decal, because they allow one to cross the passages, the 'cumulo-decals.' As in the past wizards and magi did through rites and symbols, it is today thanks to formulas of this kind that they try to access the Global, to immerse the landmarks, and to bring archetypes and enels into emergence." [5]
-
-This is remarkable: **a mathematical system designed to do what ritual magic once did.** Ravatin explicitly connected his work to the Ark of the Covenant, the philosopher's stone, and "forgotten researchers and accursed scientists."
-
-### 5.5 The Endpoint of the Lineage
-
-Ravatin represents both the culmination and the rupture of the tradition:
-
-- **Culmination:** He took the dowser's and form-researcher's material and rebuilt it as a formal theory — Local/Global/Idathème, coherence fields, cumulo-decal arithmetic, ALPHYSIQUE.
-- **Rupture:** He rejected the core vocabulary ("form waves") that his predecessors spent decades building. The tradition's endpoint is not a refinement but a repudiation.
-
-His In Memoriam notes he verified experimental setups by pendulum until the end: the two tools, algebra and pendulum, stayed in one hand.
+The pendulum stands in for the missing instrument. This is not evasion but boundary-setting: the tradition claims no conventional detection method exists.
 
 ---
 
-## 6. Convergent Claims Across Generations
+## 5. The Theoretical Reframing: Jacques Ravatin (1935–2011)
 
-Despite the conceptual transformations, five claims remain stable across all five generations:
+### 5.1 From Waves to Emissions
 
-1. **Geometry emits.** From the 1936 patent to Ravatin's EIFS, the tradition asserts that geometric shapes generate detectable fields through their form alone.
+Jacques Ravatin — doctor of sciences in physics and mathematics, professor at the University of Orsay, founder of the Fondation Ark'all — represents the tradition's most ambitious theoretical move: **stopping speaking of waves altogether.**
 
-2. **Detection requires resonance.** The calibrated pendulum, the trained operator, the Lecher antenna — all operate by resonance, not by energy measurement.
+> "We no longer speak of form waves but of emissions due to forms. Why? Because we are not dealing with waves — neither those of the electromagnetic spectrum nor those of any other known vibratory system. In short: emissions due to forms do not belong to our physical universe."
 
-3. **Fields carry information without energy.** The tradition consistently claims that form emissions can affect matter and living systems without measurable energy transfer.
+This is the break with the older school: where Chaumery and de Belizal spoke of *ondes de formes* (form waves), Ravatin's group reframed them as **EIFS (émissions induites par les formes)** — emergence phenomena outside conventional physics.
 
-4. **Orientation matters.** From the 1936 patent's "terrestrial North/South axis" to La Foye's "magnetic north −5°" to Ravatin's Local/Global distinction, the traditions insists on spatial orientation.
+### 5.2 The Local, the Global, and the Idathème
 
-5. **Technology is possible.** Each generation built apparatus — the Universal Pendulum, the Bombe C.30, the Disc Emitter, the Reciprocal Circles Board, the Acti-Z, Ravatin's modulaires.
+Ravatin's framework:
 
----
+- **The Local:** Existence with reference points — our everyday reality with distance, time, speed, mass. The rational coherence field.
+- **The Global:** Existence without reference points. Pre-exists the Local; the Local emerges from or immerses back into it.
+- **The Idathème:** A third existence, "being-being" (l'être étant), which cannot be represented by the human mind.
 
-## 7. Western vs. Russian-French Intersections
+Certain forms, places, and intentions are tied to the Global or Idathème — the philosopher's stone, the Ark of the Covenant, the Nazca lines, the DNA double helix. These are not "in" the Global but tied to it, participating in a different mode of existence.
 
-The French tradition developed largely in isolation from the Russian torsion program, but convergent claims are striking:
+### 5.3 Cumulo-Decal Arithmetic
 
-| French School | Russian Torsion | Convergence |
-|---------------|-----------------|-------------|
-| Form waves carry information | Torsion fields carry information | Both claim information without energy |
-| Negative green = shortest wave | Spin = torsion source | Both link geometry to spin |
-| Magnetic/electric phase | Left/right torsion | Both have polarity distinctions |
-| Shape-generated fields | Shape-generated torsion | Both claim geometry emits |
+Ravatin's group proposed replacing "symbols, rites, rituals, and indecipherable recipes" with **cumulo-decal arithmetics** — mathematical formulas that allow one to "cross the passages," accessing the Global without traditional ritual.
 
-The Russian program explicitly cited the French school as a Western ancestor (Davidson's genealogy names Pavlita, Belizal, Turenne, Drbal). The French tradition did not reciprocate the citation.
+This is the most ambitious claim: **algebra replacing ceremony** as the technology for non-local phenomena.
 
 ---
 
-## 8. What Changed at Each Generation
+## 6. The Living Legatee: Guy Thieux (b. 1932)
 
-| Generation | Key Concept | Claim Transformation | Evidence Class |
-|---|---|---|---|
-| Chaumery–de Bélizal (1934–1957) | Form waves as spectral rays | Geometry emits specific, nameable vibrations | Patent + self-experiment + casualty |
-| Enel (1940s–1950s) | Omega as spiritual marker | V− horizontal = sacred; fieldwork in Egypt | Egyptian tomb measurements, Lakhovsky connection |
-| de Bélizal–Morel (1957–1976) | Safety protocols, consolidation | V+ antidote; three phenomena distinguished | Apparatus manuals, honest concession on instruments |
-| La Foye (1960s–1970s) | Vital field, Hebrew axes | 24 colors; living = circles; sacred text as field stabilizer | Reciprocal Circles Board, agricultural applications |
-| Ravatin (1980s–2011) | Coherence fields, EIFS | "Not waves" — deliberate rejection of vocabulary | Mathematical formalization, cumulo-decal arithmetic |
+### 6.1 The Enel Manuscripts
 
-The concept survived each transition by **changing what it claimed to be** — from "this ray will mummify a steak" to "this mathematical drawing can induce philosopher's stone properties."
+Guy Thieux — geophysicist, 34 years in petroleum prospecting — is Enel's literary legatee. He spent years in conversation with Enel before his death in 1963, then forty years preparing the *Carnets inédits* trilogy:
+
+- **Tome I: Le Monde Astral et l'Occultisme** (2016) — esoteric constitution of man
+- **Tome II: Science égyptienne et Médecine de l'Astral** (2018) — Cabala-decoded hieroglyphs
+- **Tome III: Radiesthésie thérapeutique** (2019) — form waves, Lakhovsky MWO, geobiology
+
+### 6.2 The NYNAPSE Decade
+
+From 1975 to 1985, Thieux worked at the Association for Research in Molecular Biology (NYNAPSE) alongside Étienne Guillé and Serge Lakhovsky (Georges's son). This is the three-generational Lakhovsky connection: Georges (MWO inventor) → Serge (Colysa laboratories) → Thieux (NYNAPSE, Olom work).
+
+### 6.3 The Piobb Lineage
+
+Thieux's mother practiced geomancy, directed by Count Pierre-François-Xavier-Vincent Piobb (1878–1942) — the Vatican-raised occultist and friend of Marshal Lyautey. Thieux's wife Margot Thieux is herself an author on geomancy, following Piobb's "Great Tradition."
+
+The French school's chain of transmission is not a historical memory; it is an active society with a living legatee.
 
 ---
 
-## 9. Next Questions
+## 7. Cross-Domain Convergences
 
-1. **Is there any conventional-physics candidate for form emissions?** The tradition's own numbers put energies at "millionth or billionth of an electron-volt." If EIFS correspond to anything real, what instrument could see them?
+### 7.1 French EIFS and Russian Torsion Fields
 
-2. **The Hebrew bridge.** La Foye's claim that Hebrew letters stabilize fields is the most explicitly religious claim in the tradition. Can it be tested? A double-blind protocol over the Reciprocal Circles Board (operator blind to which axes are drawn, outcome = pendulum-independent measures) would separate the claim from the operator.
+Both traditions claim:
+- Geometric shapes generate non-EM fields
+- Rotation/spin is fundamental to the phenomenon
+- Information can be encoded and transmitted without conventional energy
+- Detection requires resonance-matched instruments (pendulum vs torsion sensors)
 
-3. **The Ravatin rupture as testable.** Ravatin's claim that EIFS are "not waves" implies they should not exhibit wave phenomena (interference, diffraction) while retaining field properties (information transfer, distance independence). What experiment could distinguish "not waves" from "waves we cannot measure"?
+The convergence is striking: **shape-generated fields** appear in both French radiesthesia (1930s–present) and Russian torsion physics (1980s–present), independently, with no documented cross-influence until the 2000s.
 
-4. **The casualty as anchor.** Chaumery's death by dehydration remains the tradition's most striking internal datum. Is there any conventional explanation? Could the apparatus have produced a localized heating or air-drying effect independent of form waves?
+### 7.2 Negative Green and DOR
 
-5. **Who else is in the lineage?** The archive holds Servranx (diffusion), Turenne (instruments), Bovis (scale), Contino (Italian popularization). Mapping the full network would show whether the tradition is a coherent school or a set of isolated figures using similar vocabulary.
+Enel's Omega (horizontal V−) as spiritual-energy marker parallels Wilhelm Reich's DOR (Deadly Orgone) as pathological orgone state. Both traditions identify a destructive variant of a subtle energy, and both associate it with nuclear radiation interaction (Enel: saints' tombs; Reich: ORANUR).
+
+The convergence: **a destructive information field** associated with both nuclear phenomena and spiritual/death contexts.
+
+### 7.3 Vital Field and Water Coherence
+
+La Foye's vital field (circular patterns for life) converges with Del Giudice and Pollak's work on EZ water and coherence domains. Both propose:
+- Water has ordered phases with different properties
+- Biological organization involves coherent domains
+- Life is not merely chemistry but field organization
+
+The French tradition detected this geometrically (pendulum patterns); Italian biophysics detects it physically (spectroscopy, exclusion zone measurements).
+
+### 7.4 Hebrew Axes and Information Fields
+
+Bardet's claim that Hebrew script encodes vibratory information parallels:
+- Sheldrake's morphic fields (information without energy)
+- Shipov's Universal Hologram (address attributes in vacuum)
+- Manzalini's consciousness-as-field (information ontology)
+
+The convergence: **information as fundamental**, with symbolic systems potentially functioning as address/encoding mechanisms.
+
+---
+
+## 8. Proposed Experimental Tests
+
+### 8.1 Hebrew Axes Field Stabilization Experiment
+
+**Protocol:** Double-blind test over the Reciprocal Circles Board. Operator blind to which guiding axes are drawn. Outcome measures: pendulum-independent (seed germination rates, water crystal imaging via Emoto-type protocol).
+
+**Claim tested:** Sacred text functions as field technology independent of operator belief.
+
+### 8.2 Vital Field-Water Coherence Cross-Validation
+
+**Protocol:** Structure water via vortex/EZ methods. Test for La Foye's vital field signature using pendulum detection. Cross-validate with UV absorption spectroscopy (EZ signature).
+
+**Claim tested:** French vital field and Italian water coherence detect the same phenomenon.
+
+### 8.3 Negative Green Safety Verification
+
+**Protocol:** Literature search for: (1) heating effects near stacked wooden hemispheres, (2) dehydration in enclosed spaces near organic materials, (3) similar casualties in radionics history.
+
+**Claim tested:** Chaumery's death has a conventional physics explanation, or remains as anomaly.
+
+---
+
+## 9. Where the Tradition Stands
+
+The French form-wave lineage represents:
+- **90 years of continuous research** (1936–present)
+- **A catalog of apparatus** (Universal Pendulum, C.30 Bomb, Louksor, Reciprocal Circles Board)
+- **A safety protocol** born of tragedy
+- **A theoretical evolution** from "waves" to "coherence fields"
+- **A living transmission** through Guy Thieux
+
+The tradition's internal coherence is remarkable. Its external validation remains absent. The pendulum still stands in for the missing instrument.
+
+What the tradition offers is not proof but **a sustained, systematic research program** with explicit claims, explicit apparatus, and explicit boundaries. The question is whether those claims survive contact with independent verification.
 
 ---
 
 ## Sources
 
-[1] `translations/2026-09-11-chaumery-belizal-patent-fr816132-fr-en.md` — Patent FR 816,132 (1936), full abstract + apparatus documentation. Forge translation, 2026-09-11.
-
-[2] `translations/2026-09-11-ondes-de-formes-techniques-appareils-fr-en.md` — de Belizal & Morel apparatus articles: mental vs. physical radiesthesia; Disc Emitter; angular refraction; geometric forms; Micrometer. Forge translation, 2026-09-11.
-
-[3] `translations/2026-09-12-enel-omega-radiations-formes-fr-en.md` — Enel dossier (1935–1963): biography, Omega ray discovery, Egyptian fieldwork, Lakhovsky connection. Forge translation, 2026-09-12.
-
-[4] `translations/2026-09-12-jean-de-la-foye-ondes-de-vie-ondes-de-mort-fr-en.md` — Jean de La Foye, *Ondes de vie, ondes de mort* (1975): 24 manifested colors, vital field, Hebrew guiding axes, Reciprocal Circles Board. Forge translation, 2026-09-12.
-
-[5] `translations/2026-09-12-jacques-ravatin-champs-de-coherence-fr-en.md` — Jacques Ravatin dossier (1935–2011): coherence fields, Local/Global/Idathème, EIFS, cumulo-decal arithmetic, ALPHYSIQUE. Forge translation, 2026-09-12.
+1. Chaumery & de Belizal, *Essai de radiesthésie vibratoire* (1939/1956)
+2. de Belizal & Morel, *Physique Micro-Vibratoire et Forces Invisibles* (1965/1976)
+3. Enel, *Radiations des formes et cancer* (1951/1959)
+4. Jean de La Foye, *Ondes de vie, ondes de mort* (1975)
+5. Jacques Ravatin, *Développements autour des Formes et des Champs de Cohérence* (2008–2009)
+6. Guy Thieux (ed.), *Carnets inédits d'Enel* trilogy (2016–2019)
+7. Servranx catalogue, *Barre atlante* product page (2024)
 
 ---
 
-*Synthesis by Drunvalo (Pattern Keeper), 2026-09-13. Cross-references: `synthesis/2026-09-12-shape-field-convergence.md` (French EIFS and Russian torsion), `synthesis/2026-09-11-negative-green-carrier-thread.md` (V− from patent to BioGeometry), `synthesis/2026-08-31-radiesthesia-geobiology-megalithic.md` (the geobiology tradition).*
+*Synthesis by Drunvalo, 2026-09-13. Connected 7 sources across French radiesthesia tradition. Proposed 3 experimental tests.*
