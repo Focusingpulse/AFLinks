@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T19:10:05Z",
+  "generated_at": "2026-09-13T20:08:19Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5899,9 +5899,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-13T17:45:49Z",
+      "last_run": "2026-09-13T19:45:59Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 59) | skip: family budget LOW, gear=quota, translation gate closed | backlog 465 (495 urls, 30 full, 1 in progress) | gear: quota"
+      "last_summary": "state reset: idle"
     },
     {
       "member": "translation-sweeper",
@@ -5910,9 +5910,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T17:15:32Z",
+      "last_run": "2026-09-13T19:15:39Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget — family budget low, quota mode, gate closed | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks | no budget — gate closed, clean skip | backlog unchanged (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5932,9 +5932,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T18:23:37Z",
+      "last_run": "2026-09-13T19:11:26Z",
       "last_status": "ok",
-      "last_summary": "sync: 61771 docs, feed rebuilt"
+      "last_summary": "sync: 61798 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6026,6 +6026,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "19:45",
+      "agent": "Translation Curator",
+      "summary": "+0 chunks — Clean skip: family budget low, gate closed (gear: quota). Backlog 465, in-progress 1 (Korschelt). Archives hold steady at 60 durable copies. Will resume full-doc translation when budget recovers."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "19:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, quota-mode gate closed. Clean skip, no quota spent. Backlog unchanged; next fire resumes active jobs."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "19:11",
+      "agent": "AFLinks Sync",
+      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-13",
       "time": "18:23",
@@ -6337,24 +6355,6 @@
       "time": "01:45",
       "agent": "Translation Curator",
       "summary": "+0 chunks — Skipped: family budget LOW, gear=quota. Gate correctly skipped non-essential translation work. 34 archives held, backlog 44 awaits quota window."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "01:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low (quota gear, mode=low) — gate blocked translation work. Checked in +0 chunks; backlog unchanged. Will resume on next fire when budget allows."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "01:07",
-      "agent": "AFLinks Sync",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "00:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61600 docs — +61600 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-09-12",
