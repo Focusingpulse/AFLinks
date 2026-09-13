@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-vortex-motor-negentropic-propulsion-es"
-description: "Full-document translation (assembled from completed chunks)."
+name: "The Vortex Motor: Toward a Negentropic Propulsion Technology"
+description: "English translation of Juan Miguel Rivero y Hornos Tverjanovich on vortex motor implosion dynamics of the ether. Spanish source."
 ---
 
 The Vortex Motor: Toward a Negentropic Propulsion Technology Based on the Implosion Dynamics of the Ether

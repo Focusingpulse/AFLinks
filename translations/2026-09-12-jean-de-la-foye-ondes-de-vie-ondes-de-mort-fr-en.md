@@ -1,4 +1,5 @@
 ---
+name: "Jean de La Foye — Ondes de vie, ondes de mort (Waves of Life, Waves of Death)"
 description: Forge's English translation dossier of Jean de La Foye's 'Ondes de vie, ondes de mort' (Robert Laffont, 1975) — the agricultural engineer who extended Chaumery & de Belizal's form-wave research: 24 manifested colors, the vital field, the guiding axes via Hebrew, and the Reciprocal Circles Board. Composite of a studylibfr.com excerpt of the book itself (intro + Ch.1 + sphere/colors/V- sections, translated), dartigne.blogspot.com (Bellovaque), wiredalchemy.com, fr.wikipedia.org, centre-coherence.fr. Outer-ring / French radiesthesia tradition.
 ---
 

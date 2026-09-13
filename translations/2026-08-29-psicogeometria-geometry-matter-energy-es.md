@@ -1,6 +1,6 @@
 ---
-name: Sacred Geometry
-description: "Translation document."
+name: "Psicogeometría — Article 4.1: Geometric Qualities of Matter and Energy"
+description: "English translation of Geometría en Materia y Energía Article 4.1 by Arturo Ponce de León (with Ninón Fregoso), Psicogeometría México. Spanish source: psicogeometria.com."
 ---
 
 Sacred Geometry

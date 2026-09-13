@@ -1,6 +1,6 @@
 ---
 name: Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacu…
-description: "Translation document."
+description: "English translation of the TUO (Théorie de l'Univers Onde) paper: from the electromagnetic origin of the vacuum to covariant reformulation of gravitation and cosmology. French source."
 ---
 
 # Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology
