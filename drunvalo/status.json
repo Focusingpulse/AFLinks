@@ -1,28 +1,27 @@
 {
-  "agent": "Drunvalo",
-  "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
-  "timestamp": "2026-09-11T04:18:00Z",
-  "task": "aetherforce-translation-qc",
+  "agent": "drunvalo",
+  "last_run": "2026-09-13T00:09:04.118417+00:00",
+  "cron": "aetherforce-translation-qc",
   "status": "ok",
-  "summary": "Systematic dedup: removed 59 re-emitted duplicate translations (23 clusters), cleaned DB indexes (works 142->112, persons 159->149), fixed 69 path prefixes and all stale refs",
-  "files_processed": [
-    "translations/ (59 duplicates removed, 108 canonical files remain)",
-    "database/research-index.json",
-    "database/person-index.json"
+  "summary": "Checked 5 most recent translations. Fixed 712 encoding issues in Goethe file. Updated person-index.json with Goethe entry and work references.",
+  "translations_checked": [
+    "translations/Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md",
+    "translations/2026-09-12-goethe-scientific-works-complete-it.md",
+    "translations/2026-09-12-jacques-ravatin-champs-de-coherence-fr-en.md",
+    "translations/2026-09-12-jean-de-la-foye-ondes-de-vie-ondes-de-mort-fr-en.md",
+    "translations/2026-09-12-viktor-schauberger-and-the-water-vortexer-de.md"
   ],
-  "metrics": {
-    "translations_checked": 27,
-    "duplicate_clusters": 23,
-    "duplicates_removed": 59,
-    "total_works": 112,
-    "total_persons": 149
-  },
   "issues_found": [
-    "Translation pipeline re-emits previously translated sources with degraded frontmatter (no source URL, no language tag) \u2014 root cause of recurring duplicates",
-    "DB indexes accumulated duplicate person entries (same researcher added by different cron runs with different ids)"
+    "712 mojibake patterns in Goethe translation (em-dashes, accented characters)"
   ],
-  "recommendations": [
-    "Add content-hash check in translation assembly pipeline before writing new files",
-    "Add person-id lookup in DB update step to avoid re-adding existing researchers"
-  ]
+  "fixes_applied": [
+    "Fixed encoding in Goethe translation",
+    "Added Goethe to person-index.json",
+    "Updated Steiner, Reich, Schauberger, La Foye work references"
+  ],
+  "source_urls_verified": {
+    "orgonomie.net": "OK (200)",
+    "orpanit.de": "OK (200)",
+    "ospi.it_pdf": "404 - PDF may have been moved"
+  }
 }
