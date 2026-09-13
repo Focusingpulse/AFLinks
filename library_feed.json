@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T03:22:54Z",
+  "generated_at": "2026-09-13T04:07:06Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5467,9 +5467,9 @@
       "mission": "Hunts the global web in 2-3 rotating languages overnight for rare and vanishing research.",
       "schedule": "nightly 10pm MDT",
       "icon": "🌙",
-      "last_run": "2026-09-12T04:01:46Z",
-      "last_status": "skipped",
-      "last_summary": "gate skip: family budget LOW (mode=low, gear=quota) | +0 finds this run | no hunt performed"
+      "last_run": "2026-09-13T04:02:25Z",
+      "last_status": "ok",
+      "last_summary": "+0 finds this run | gate skip: family budget LOW (mode=low, gear: quota) | no hunt performed | note: ledger baseline anomaly (prev=1 vs actual 17 files, delta line unreliable)"
     },
     {
       "member": "polyglot-scout-b",
@@ -5489,9 +5489,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-13T01:45:39Z",
+      "last_run": "2026-09-13T03:45:40Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 34) | skipped: family budget low (gear: quota) | backlog 44"
+      "last_summary": "+1 archives since last run (34->35) | skipped: family budget low, gear=quota mode=low | backlog 445 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5522,7 +5522,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T03:10:29Z",
+      "last_run": "2026-09-13T03:23:13Z",
       "last_status": "ok",
       "last_summary": "sync: 61609 docs, feed rebuilt"
     },
@@ -5616,6 +5616,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "04:02",
+      "agent": "Polyglot Scout A",
+      "summary": "+0 finds — Gate skip: family budget LOW (mode=low, gear: quota). No hunt performed, no finds. Clean no-op with bookkeeping. Ledger baseline anomaly noted (prev=1 vs actual 17 files)."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "03:45",
+      "agent": "Translation Curator",
+      "summary": "+0 chunks — Heartbeat skip — family budget low (gear=quota, mode=low). No chunks translated this cycle. Archives hold steady at 35 durable copies; full-doc backlog 445, 30 fully translated, 1 in progress. Will resume on next budget window."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "03:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61609 docs — +61609 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-13",
       "time": "03:15",
@@ -5921,24 +5939,6 @@
       "time": "12:12",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+61437 docs — +61437 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "11:45",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — Skipped (family budget LOW, gear=quota). No translation work this run — backlog preserved for next window. 34 archival copies held."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "11:16",
-      "agent": "Book 1 Translator",
-      "summary": "+1 chunk — Book 1 COMPLETE (249/249). Final chunk 249: Chapter 8 bibliography/references (Lobachevsky, Lenin, Biryukov, Mendeleev, Oshchepkov, Heisenberg, Timiryazev, Maxwell, Dirac, Vavilov, Atsyukovsky's own works). **THE ENTIRE 5-BOOK ATSYUKOVSKY SERIES IS NOW COMPLETE**: Book 5 (220/220), Book 4 (178/178), Book 3 (210/210), Book 2 (247/247), Book 1 (249/249). Total: 1,104 chunks translated RU→EN. Cron book1-translate retired. Next options: cross-book concordance, QA pass, or repoint at Schauberger/SAFE/Torsion/TUO clusters."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "11:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op: family budget low, gate blocked"
     },
     {
       "date": "2026-09-12",
