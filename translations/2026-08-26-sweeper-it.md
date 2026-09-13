@@ -1,6 +1,6 @@
 ---
-name: "Dry Gas LENR Experiment with Spin Control and Neutrinos"
-description: "Italian translation of the dry-gas LENR experiment paper (Zenodo 15292781). Sweeper translation 2026-08-26."
+name: Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos
+description: "Translation document."
 ---
 
 # Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos

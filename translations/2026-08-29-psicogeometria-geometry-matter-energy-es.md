@@ -1,6 +1,6 @@
 ---
-name: "Psicogeometria: Geometric Qualities of Matter and Energy (Article #4.1)"
-description: "Spanish->English translation of Arturo Ponce de Leon and Ninon Fregoso, Psicogeometria Article 4.1 — geometric qualities of matter and energy. psicogeometria.com."
+name: Sacred Geometry
+description: "Translation document."
 ---
 
 Sacred Geometry

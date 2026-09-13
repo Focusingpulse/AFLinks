@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-13T08:08:56Z",
+  "generated_at": "2026-09-13T09:08:30Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
-    "patents": 2780,
+    "patents": 2835,
     "categories": 51,
     "meta_categories": 14,
-    "aflinks_docs": 61416,
+    "aflinks_docs": 61653,
     "translations": 97,
     "pages_translated": 2706,
     "declassified_finds": 50,
@@ -1092,6 +1092,54 @@
     }
   ],
   "latest_finds": [
+    {
+      "date": "steiner-ro",
+      "file": "steiner-roots-2026-09-13.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Singiri et al. (2023)",
+          "description": "\"Moonlight Is Perceived as a Signal Promoting Genome Reorganization, Changes in Protein and Metabolite Profiles and Plant Growth\" — *Plants* 12(5):1121. https://doi.org/10.3390/plants12051121",
+          "url": ""
+        },
+        {
+          "title": "Spiess, H. (1990a)",
+          "description": "\"Chronobiological Investigations of Crops Grown under Biodynamic Management. I. Experiments with Seeding Dates to Ascertain the Effects of Lunar Rhythms on the Growth of Winter Rye\" — *Biological Agriculture & Horticulture* 7(2):165-178. https://doi.org/10.1080/01448765.1990.9754543",
+          "url": ""
+        },
+        {
+          "title": "Spiess, H. (1990b)",
+          "description": "\"Chronobiological Investigations... II. Effects of Lunar Rhythms on the Growth of Little Radish\" — *Biological Agriculture & Horticulture* 7(2):179-189. https://doi.org/10.1080/01448765.1990.9754544",
+          "url": ""
+        },
+        {
+          "title": "Kollerstrom & Staudenmaier (2001)",
+          "description": "\"Evidence for Lunar-Sidereal Rhythms in Crop Yield: A Review\" — *Biological Agriculture & Horticulture* 18(2):119-135. https://doi.org/10.1080/01448765.2001.9754928",
+          "url": ""
+        },
+        {
+          "title": "Záveský, V. (2002)",
+          "description": "\"Steigbilder mit Metallsalzlösungen nach Lili Kolisko\" — *Elemente der Naturwissenschaft* 77:16-52. DOI: 10.18756/edn.77.16",
+          "url": ""
+        },
+        {
+          "title": "Mayoral et al. (2020)",
+          "description": "\"What Has Been Thought and Taught on the Lunar Influence on Plants in Agriculture? Perspective from Physics and Biology\" — *Agronomy* 10(7):955. https://doi.org/10.3390/agronomy10070955",
+          "url": ""
+        },
+        {
+          "title": "Jovchelevich (2014)",
+          "description": "\"Influence of moon rhythms on yield of carrot (Daucus carota), under biodynamic management\" — Orgprints 23624.",
+          "url": ""
+        },
+        {
+          "title": "Bishop Lettuce Trial (1976)",
+          "description": "Reported in Kollerstrom & Staudenmaier (2001), significant leaf-day vs. root-day effects.",
+          "url": ""
+        }
+      ]
+    },
     {
       "date": "steiner-ro",
       "file": "steiner-roots-2026-09-12.md",
@@ -5732,9 +5780,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-13T07:45:42Z",
+      "last_run": "2026-09-13T08:46:22Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 34) | skipped: family budget low, gear=quota (4/run) — no chunks spent | backlog 445 (475 sources, 30 full, 1 in progress) | gear: quota"
+      "last_summary": "+0 archives since last run (still 34) | no translation — budget LOW, gate closed (gear: quota) | backlog 449, 30 fully translated, 1 in progress | resume Korschelt at chunk 63 when budget recovers"
     },
     {
       "member": "translation-sweeper",
@@ -5743,9 +5791,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T07:15:34Z",
+      "last_run": "2026-09-13T08:15:38Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks | budget gate blocked (non-essential) | backlog check skipped (gear: quota)"
+      "last_summary": "+0 chunks | no budget (gate rejected) | backlog unchanged (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5765,7 +5813,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T07:09:05Z",
+      "last_run": "2026-09-13T08:10:37Z",
       "last_status": "ok",
       "last_summary": "sync: 61653 docs, feed rebuilt"
     },
@@ -5820,9 +5868,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-13T04:20:00Z",
+      "last_run": "2026-09-13T08:20:00Z",
       "last_status": "ok",
-      "last_summary": "QC session: corpus 123->93 canonical (30 verified dups removed across 21 families — feed rebuilds re-added the junk layer; Drunvalo's 04:17 pass verified correct, then extended; every family checked to exactly one keeper). Frontmatter fixed on 9 files (junk descriptions replaced, filename-as-name fixed). +1 translation published: Jean de La Foye, The Reciprocal Circles Board (dartigne.blogspot.com, 2017) FR->EN — the missing post-Chaumery generation link, ties Chaumery/de Belizal -> Enel -> Bardet -> La Foye -> Ravatin into one chain. Feed rebuild still blocked from cloud (no database/ in living-library). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~80h — flag stands."
+      "last_summary": "QC session: corpus 130->100 canonical (30 verified dups removed across 21 families — the 04:20 and 08:04 feed rebuilds re-added the junk layer; Drunvalo's 08:07 pass verified correct first, then extended; every family post-checked to exactly one keeper). Frontmatter fixed on 26 files (junk 'Translation document.' descriptions and filename-as-names replaced with real titles/descriptions); mojibake fixed in magnitsky keeper (6 sequences). +1 translation published: P. A. Morel (Paul-André Morel) — the post-Chaumery consolidator dossier (V+ antidote co-discoverer, Physique Micro-Vibratoire co-author, Barre Atlante/Louksor reviser, C.30 Bomb articles) FR->EN. Feed rebuild still blocked from cloud (no database/ in living-library). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~84h — flag stands."
     },
     {
       "member": "scout",
@@ -5831,9 +5879,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-13T04:00:00Z",
+      "last_run": "2026-09-13T08:08:32Z",
       "last_status": "ok",
-      "last_summary": "Round 59 clean (04:00Z 09-13): 0 new FL LENR, archive 61,609 steady (from 02:15Z growth +6 cyberleninka b70b4c2dd). Live lanes all dry: lenr-canr 1,454=1,454, rxiv /all/ byte-same 329,490B (max 2609.0033 archived), iccf-27 /proceeding STILL UC 9,845B day ~44, lenr.su byte-stable, viXra RSS/RENSIT/tuks flakes. Web sweeps ru/en/multilingual: Hylenr re-confirmed news-only (9-lang press wave 09-09/12, 32-element Ni-Pd signatures, no peer-reviewed paper — watch not merge); RU 5th-gen NRT reactor surfaced as context-only (mainstream fission, not FL LENR). TRANSLATOR STALE ~76h flag STANDS (Forge QC active 00:44:08Z, translator engine silent since ~09-10). Claims none >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-13-scout-report-0400.md."
+      "last_summary": "Round 60 clean (08:00Z 09-13): 0 new FL LENR, archive 61,653 steady (from 06:15Z growth +20 cyberleninka dddb9c35c). Live lanes all dry: lenr-canr 1,454=1,454, rxiv /all/ byte-same 329,490B (max 2609.0033 archived), iccf-27 /proceeding STILL UC 9,845B day ~46, lenr.su byte-stable, viXra RSS/RENSIT/tuks flakes. Web sweeps en/ru/zh/multilingual: Hylenr re-confirmed news-only (wave now incl ja Kyodo + zh taiwanpost/prnasia, 32-element Ni-Pd signatures, no peer-reviewed paper - watch not merge); NEW CONFIRMED published JCMNS Iwamura/Kasagi radiant-spectrum paper (DOI 10.70923/001c.163335, JCMNS 41 (2026) 62-72) = growth lead for next fire. TRANSLATOR STALE ~80h flag STANDS (Forge QC active 04:29Z, translator engine silent since ~09-10). Claims none >7d. OCR/queue/tag pending FocusOptimized. Full report: living-library sources/2026-09-13-scout-report-0800.md."
     },
     {
       "member": "cure-8er",
@@ -5859,6 +5907,36 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "09:06",
+      "agent": "AFLinks Sync",
+      "summary": "+237 docs — Daily refresh: 61653 docs (+237 vs yesterday's 61416). Site's monolithic index.json now 404s — site moved to chunked full_manifest.json + 124 full_*.json files; patched rebuild_aflinks_db.py fallback accordingly. Rebuilt all 4 legacy files: taxonomy (51 cats), researchers (999), patents 2780->2835 (55 new + 48 preserved by merge guard), concept-map (47). Note: ledger delta shows +0 because a prior run today already recorded 61653."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "08:46",
+      "agent": "Translation Curator",
+      "summary": "+0 runs — Budget LOW (gear: quota), gate closed — no translation this cycle. Backlog steady: 449 sources awaiting full translation, 30 fully translated, 1 in progress (Korschelt, resume at chunk 63). 34 durable archives held."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "08:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "**-30 duplicates — corpus 130→100 canonical.** The 04:20 and 08:04 feed rebuilds re-added the junk layer (130 files); verified Drunvalo's 08:07 pass (18 removals, correct), then removed 30 more across 21 families (magnit"
+    },
+    {
+      "date": "2026-09-13",
+      "time": "08:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — Skipped — family budget low, gate rejected non-essential work (quota mode)"
+    },
+    {
+      "date": "2026-09-13",
+      "time": "08:07",
+      "agent": "Steiner Roots Scout",
+      "summary": "+6 nuggets — Cosmology/Planetary line complete. Key finding: Singiri et al. (2023) provides first mechanistic evidence that full moonlight triggers cellular stress-response pathways (nuclear volume ~2.4×, PhyB 30.6× FC, Phot2 3.5× FC) and enhances mustard seedling growth. Controlled experiments with new-moon controls ruled out light pollution. **Verdict:** Mechanistic evidence SUPPORTED, but gap to practical biodynamic calendar remains wide. Mayoral 2020 meta-review refutes broad lunar-phase agriculture claims. Záveský 2002 shows Kolisko capillary dynamolysis method cannot distinguish cosmic from terrestrial factors."
+    },
     {
       "date": "2026-09-13",
       "time": "08:05",
@@ -6149,24 +6227,6 @@
     },
     {
       "date": "2026-09-12",
-      "time": "17:16",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No budget — gate blocked, quota mode. No translations this run."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "17:11",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61559 docs — +61559 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "17:02",
-      "agent": "The Chronicler",
-      "summary": "+247 chunks — Book 2 translation COMPLETE - all 247 chunks now have English translations"
-    },
-    {
-      "date": "2026-09-12",
       "time": "16:50",
       "agent": "Forge (Translation QC)",
       "summary": "**+1 translation — Jean de La Foye, *Ondes de vie, ondes de mort* (FR→EN dossier).** The agronomic engineer who extended Chaumery & de Belizal: 24 manifested colors (12 electric + 12 magnetic), the vital field (living ="
@@ -6176,12 +6236,6 @@
       "time": "16:20",
       "agent": "Forge (Translation QC)",
       "summary": "**-46 duplicates — corpus 139→93 canonical.** The 12:23 and 16:04 feed rebuilds re-added 26 previously-removed files plus new dated copies; Drunvalo's 16:06 pass removed 7 of them, this session removed the remaining 46 v"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "16:13",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+0 docs — +0 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-12",
@@ -6212,12 +6266,6 @@
       "time": "20:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Léon Chaumery (1880–1957) biography FR->EN — (translations/2026-09-11-leon-chaumery-radiesthesie-fr-en.md): co-founder of the physical school with André de Belizal — the Universal Pendulum \"Louksor\", the FR 816,132 patent (negative green), coiner of \"ondes de formes\", and his death \"completely dehydrated by our negative green ray (V−)\" per de Belizal's own preface. Completes the French-school founder series (Bouly, Mermet, Viré, Henry de France, Chaumery)."
-    },
-    {
-      "date": "2026-09-11",
-      "time": "16:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation published — \"Ondes de formes: Techniques et appareils\" (de Belizal apparatus articles, FR->EN): the Mental vs Physical Radiesthesia essay (three-phenomena framework: mental radiesthesia / physical radiesthesia / micro-vibratory physics, with the Chaumery 8th-octave accident and the mummified-steak/tumor-sterilization accounts), the 1936 Universal Pendulum technical description (60mm sphere, electric/magnetic meridians, equator, V− discovery 1934 + patent 1936, radioactivity sector), the C.30 Bomb (Chaumery's original C. Bomb -> post-1957 three-concentric-sphere redesign, selector/corrector/compensator, cosmic + magnetic piles), the Disc Emitter (angular refraction, 21-groove disc, magnetic vs electric phases, Yin-Yang hypothesis), the Geometric Forms definition of ondes de forme, and the Micrometer in its Servranx psychotechnics context. Companion to the FR 816,132 patent translation from this morning."
     }
   ],
   "declassified": [

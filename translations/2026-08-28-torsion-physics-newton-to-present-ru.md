@@ -1,6 +1,6 @@
 ---
-name: "Torsion Physics: From Newton to the Present"
-description: "Russian->English translation of the Academy of Trinitarianism review of torsion physics from Newton to the present day."
+name: ACADEMY OF TRINITARIANISM
+description: "Translation document."
 ---
 
 ACADEMY OF TRINITARIANISM

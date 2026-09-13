@@ -1,6 +1,6 @@
 ---
-name: "Energetic Circuit and Study of the Hotie de Viviane — Paimpont"
-description: "French->English translation: energetic circuit and study of the Hotie de Viviane (dolmen) at Paimpont, Broceliande. French geobiology tradition."
+name: Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35
+description: "Translation document. language fr | domain: geobiology | https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99"
 ---
 
 - **date:** 2026-08-29

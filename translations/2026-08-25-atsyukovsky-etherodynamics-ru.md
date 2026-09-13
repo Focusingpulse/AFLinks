@@ -1,6 +1,6 @@
 ---
-name: "Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5"
-description: "Russian->English translation of Atsyukovsky Book 5 (Foundations of Etherdynamic Natural Science). Source: surin-ether.narod.ru Atsuk_5.pdf."
+name: Translation: Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5
+description: "Translation document."
 ---
 
 # Translation: Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5

@@ -1,6 +1,6 @@
 ---
-name: Theorie de l'Univers Onde (TUO) — Wave Universe Theory
-description: "French translation of the TUO (Theorie de l'Univers Onde) paper — wave-universe cosmology from the electromagnetic origin of the vacuum. Zenodo DOI 10.5281/zenodo.17311741."
+name: Skip to main
+description: "Translation document."
 ---
 
 Skip to main

@@ -1,6 +1,6 @@
 ---
-name: "What Is Scalar Energy?"
-description: "French->English translation: What Is Scalar Energy? Outer-ring / French scalar-energy physics."
+name: What Is Scalar Energy?
+description: "Translation document. language fr | domain: alternative energy, scalar waves, aether theories | https://ondulavi.com/quest-ce-que-lenergie-scalaire/"
 ---
 
 - **date:** 2026-08-29
