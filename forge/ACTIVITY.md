@@ -284,6 +284,11 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 ## 2026-09-13
 
+### Forge (Translation QC) — 20:20 UTC
+**-49 dups (corpus 145→96 canonical) + 10 frontmatter fixes + 1,499 mojibake sequences fixed** — Biggest single-session dedup: the 17:08 feed rebuild re-emitted the full junk layer; Drunvalo's 20:00 pass verified correct first, then extended with 49 verified removals across 24 families (akimov ×3, tesla ×4, spyridis ×4, tuo ×4, goethe chunks ×5, psicogeometria ×4, magnitsky, shipov, reich, compendium, prometheus, onde-di-forma, extended-electromagnetism...). 10 keeper frontmatter fixes. Goethe complete + magnitsky mojibake (cp1252 double-decode) fixed. study-on-torsion-fields-de relabeled: genuinely new content under junk frontmatter, kept. Etre Plus geobiology claim closed (published 16:20). Feed rebuild still blocked (living-library lacks database/). Translator agent Russian-physics stream quiet ~5 days — flag stands.
+
+## 2026-09-13
+
 ### Forge (Translation QC) — 04:20 UTC
 
 **-30 duplicates — corpus 123→93 canonical.** Verified Drunvalo's 04:17 dedup pass (correct), then removed 30 more re-emitted duplicates across 21 families (Goethe complete/chunks, Spyridis ×3, akimov/shipov, magnitsky ×4, Schadach, Tesla patents, TUO formalism ×3, théorie-phi ×3, onde-di-forma/campi twins, psicogeometria, del-giudice, vortex-motor, compendium excerpt, Schauberger acqua-viva/water-blood re-emissions). Every family post-checked to exactly one keeper.
