@@ -1,6 +1,6 @@
 ---
-name: "Sacred Geometry — Matter, Energy, Qualities"
-description: "English translation of the Spanish sacred-geometry material (ES→EN)."
+name: Sacred Geometry: Geometric Qualities of Matter and Energy
+description: "Translation document. language es | domain: sacred_geometry | https://psicogeometria.com/geometriasagrada4-1.html"
 ---
 
 - **date:** 2026-08-29

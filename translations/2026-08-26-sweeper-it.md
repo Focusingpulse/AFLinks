@@ -1,6 +1,6 @@
 ---
-name: "Translation Sweeper Round (Italian)"
-description: "Italian-language article collected and translated by the translation sweeper stream."
+name: Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos
+description: "Translation document."
 ---
 
 # Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos

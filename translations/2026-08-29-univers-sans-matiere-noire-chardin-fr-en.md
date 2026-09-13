@@ -1,6 +1,6 @@
 ---
-name: "A Universe Without Dark Matter (Chardin)"
-description: "English translation of the French article on a universe without dark matter (FR→EN)."
+name: A Universe Without Dark Matter?
+description: "Translation document. https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0"
 ---
 
 - **original_title:** Un Univers sans matiere noire ?

@@ -1,6 +1,6 @@
 ---
-name: "T.U.O. — Vacuum Tension Tv"
-description: "English translation of the French T.U.O. (Théorie de l'Univers-Onde) vacuum-tension paper."
+name: Wave Universe Theory (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant…
+description: "Translation document. https://doi.org/10.5281/zenodo.17311741"
 ---
 
 - **description:** English translation of François Maillot's "Théorie de l'Univers Onde (TUO)" — two-part paper establishing vacuum tension field theory as a unified approach to gravitation and cosmology. Translated from French with full provenance.

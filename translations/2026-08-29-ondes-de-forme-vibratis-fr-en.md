@@ -1,6 +1,6 @@
 ---
-name: "Ondes de Forme — Vibratis"
-description: "English translation of the Vibratis form-waves material (FR→EN)."
+name: Form Waves: Meaning, Use, and Benefits (Vibratis)
+description: "Translation document. language fr | domain: radiesthesia | https://vibratis.fr/ondes-de-forme/"
 ---
 
 - **date:** 2026-08-29

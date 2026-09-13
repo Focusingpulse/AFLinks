@@ -1,6 +1,6 @@
 ---
-name: "Translation Sweeper Round (Russian)"
-description: "Russian-language article collected and translated by the translation sweeper stream."
+name: STPK: Mechanism of Cold Fusion (LENR) as Coherent Reassembly of Proton Loops
+description: "Translation document. https://doi.org/10.24108/preprints-3115604"
 ---
 
 - **description:** English translation of Lebedkin's STPK model — LENR mechanism via coherent reassembly of proton loops in nanostructured palladium. Brand new June 2026 preprint with testable predictions. Translated from Russian by translation-sweeper cron.

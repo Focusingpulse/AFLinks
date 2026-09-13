@@ -1,6 +1,6 @@
 ---
-name: "Extended Theory of Electromagnetism"
-description: "English translation of the German extended-electromagnetism article (DE→EN)."
+name: "2026-09-11-extended-theory-of-electromagnetism-de"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 D Schadach — Extended Theory of Electromagnetism (Barrett 1993) — 29.10.98

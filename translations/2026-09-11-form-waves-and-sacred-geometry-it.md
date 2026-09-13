@@ -1,6 +1,6 @@
 ---
-name: "Form Waves and Sacred Geometry"
-description: "English translation of the Italian form-waves and sacred-geometry article (IT→EN)."
+name: "2026-09-11-form-waves-and-sacred-geometry-it"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 ---
