@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:07:30Z",
+  "generated_at": "2026-09-13T23:06:34Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5932,9 +5932,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T21:23:16Z",
+      "last_run": "2026-09-13T22:08:37Z",
       "last_status": "ok",
-      "last_summary": "sync: 61837 docs, feed rebuilt"
+      "last_summary": "sync: 0 new docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6026,6 +6026,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "22:11",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+5 chunks — Korschelt 1892 'Making Use of the Living Force of Aether' DE->EN: translated chunks 64-68 (Reichenbach's Od conclusions — odic polarity, conduction, charging). 68/131 chunks complete, resume at 69."
+    },
     {
       "date": "2026-09-13",
       "time": "22:00",
@@ -6355,12 +6361,6 @@
       "time": "03:23",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+61609 docs — +61609 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "03:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — Quota gate blocked this fire (family budget low, gear=quota) — clean no-op, no chunks translated. Will resume active full-doc jobs on next fire with budget."
     },
     {
       "date": "2026-09-12",
