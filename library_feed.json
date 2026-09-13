@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:06:21Z",
+  "generated_at": "2026-09-13T15:07:22Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -18,8 +18,8 @@
     "meta_counts": {},
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 13,
-    "replication_dossiers": 14,
+    "practical_quests": 14,
+    "replication_dossiers": 15,
     "validations": 0
   },
   "latest_translations": [
@@ -1394,6 +1394,29 @@
         {
           "title": "Key themes",
           "description": "** torsion fields, free energy history, vortex technology, gravity anomalies, spacetime theory",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "file": "2026-09-13-deep-dive-morning.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Kasagi et al.",
+          "description": "Radiant Spectrum Measurement in NiCu Thin Films (June 2026)",
+          "url": ""
+        },
+        {
+          "title": "Sheldrake",
+          "description": "Wordle Morphic Resonance Study (2026)",
+          "url": ""
+        },
+        {
+          "title": "Schauberger Repulsine Re",
+          "description": "examination (August 2025)",
           "url": ""
         }
       ]
@@ -5909,9 +5932,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T12:23:29Z",
+      "last_run": "2026-09-13T14:07:12Z",
       "last_status": "ok",
-      "last_summary": "sync: 61696 docs, feed rebuilt"
+      "last_summary": "sync: 61749 docs, feed rebuilt, quota gear - no scrape"
     },
     {
       "member": "archive-raid",
@@ -5942,9 +5965,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-09-12T15:07:22Z",
+      "last_run": "2026-09-13T15:06:49Z",
       "last_status": "ok",
-      "last_summary": "+1 finds since last run (8->9) | +44 declassified since last run (8->52) | this run: +4 declassified (Syria, Germany, France, Argentina), +5 new finds, 0 archived (gear: quota)"
+      "last_summary": "+51 finds | +41 declassified | this run: +6 new finds (LENR, morphic fields, water memory), +0 declassified (confirmed existing entries for Spain, Japan, Portugal) (gear: quota)"
     },
     {
       "member": "book5-translate",
@@ -5964,9 +5987,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-13T12:20:00Z",
+      "last_run": "2026-09-13T14:00:00Z",
       "last_status": "ok",
-      "last_summary": "QC session: corpus 145->103 canonical (46 verified dups removed across 19 families — two 09-13 feed rebuilds re-added the junk layer; Drunvalo's 12:10 pass verified correct first, then extended with two passes: the second caught 10 name-variant dups the first pass's grouping missed, incl. 09-10/09-11 pairs like acqua-viva, tesla-patents, theorie-phi, prometheus, tuo-formalism, del-giudice, spyridis, magnitsky, compendium — keepers chosen for real source-URL frontmatter). Frontmatter fixed on 28 files (junk name/desc replaced with real titles); mojibake fixed (Goethe complete: 1439 cp1252 sequences, magnitsky: em-dash). 1 scrape artifact removed (Wilhelm_Reich...EN.html.md, byte-identical to clean keeper). Feed rebuild still blocked from cloud (no database/ in living-library). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~88h — flag stands."
+      "last_summary": "Research round 15 (daily 14:00 cron): all six outer-ring topics compiled to memory (18 new sources). Top signals: Levin's Platonic Space paper now peer-reviewed, follow-on series announced; OSU wearable electric-field therapy slows triple-negative breast cancer in mice (NIH human trial upcoming); vascular walls hum at 75/150 Hz — vibration as native biological signal; MIT pink noise timed to slow waves boosts CSF waste clearance; Heart Revolution documentary (McCraty+Pollack) heading to PBS 2027. Translation candidates flagged: Etre Plus geobiology piece + Ondes et Habitat Chartres page (both FR, unclaimed). Vesica: 8th consecutive quiet round. QC/publishing state unchanged since 12:20 session (corpus 103 canonical; feed rebuild still blocked; translator agent quiet ~88h)."
     },
     {
       "member": "scout",
@@ -5975,9 +5998,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-13T12:31:00Z",
+      "last_run": "2026-09-13T14:26:46Z",
       "last_status": "ok",
-      "last_summary": "12:15Z growth fire +53 (archive 61,696 -> 61,749, 1030f5d3): NEW SOURCE callisto.report Project Callisto 9-year null-result LENR investigation (released 09-08) - 36 report PDFs (electrochemical + pressure loading, full text previews) + cyberleninka EN-physics vein +17 (water-memory/THz, de-Broglie, time-arrow; 0 scan-only). Live lanes all dry (lenr-canr 1,454=1,454, rxiv 2609.0033 archived, iccf-27 /proceeding STILL UC day ~46, RENSIT maxes 2026/4). Merge id-safe, ids 2403998-2404050. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-13-scout-growth-1215.md."
+      "last_summary": "14:15Z growth fire +9 cyberleninka (archive 61,749 -> 61,758, 1ea795e6, ids 2404051-2404059): fresh sonofusion/piezonuclear/biotransmutation veins - shock-cluster D-D fusion (udarno-klasternyy), neutron emission in brittle rock compression, low-energy nuclear photonics, hydrogen-subsystem excitation in metals by irradiation, ultrasound water SRS, accelerated-deuteron plasma fusion, hydro/sonoluminescence fuel atomization, cavitation plasma H2 synthesis, high-intensity nonlinear light-matter. 7/9 full text previews, 2 scanned (shock-cluster, hydrogen-subsystem) -> OCR lane. Filelist 439->448. Live-wrap all dry first (rxiv 2609.0033 archived, viXra RSS max 2609.0033, lenr-canr 1,454=1,454, iccf-27 /proceeding STILL UC 9,845B day ~47, RENSIT flake). Merge id-safe (dry-run +9 only, 0 dups). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-13-scout-growth-1415.md."
     },
     {
       "member": "cure-8er",
@@ -6003,6 +6026,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "15:07",
+      "agent": "Deep-Dive Morning",
+      "summary": "+6 finds — Morning all-topics sweep: +6 new finds (Hylenr LENR 32-element signatures, Kasagi radiant spectrum measurement, Sheldrake Wordle morphic resonance study, water frequency imprinting, Schauberger Repulsine paper, plasma cosmology update). Declassified sweep: Spain Ceuta (confirmed existing), Japan diplomatic records (confirmed existing), Portugal FP-25 debate (confirmed existing). Gear: quota mode."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "14:00",
+      "agent": "Forge (Translation QC)",
+      "summary": "**Research round 15 (aetherforce-research-round cron).** All six outer-ring topics compiled to memory (reference/research/2026-09-13-round.md + signals file, 18 new sources). Top signals for Sandra:"
+    },
+    {
+      "date": "2026-09-13",
+      "time": "14:00",
+      "agent": "Practicality Engine",
+      "summary": "+1 quest card — Moonlight Germination Test (food, sand, Foraging mirror) — Singiri 2023 moonlight-signal study turned into a 2-tray home experiment; dossier 015 created. Mirror coverage 16/26. Rotation → shelter."
+    },
     {
       "date": "2026-09-13",
       "time": "13:45",
@@ -6311,18 +6352,6 @@
     },
     {
       "date": "2026-09-12",
-      "time": "22:11",
-      "agent": "AFLinks Sync",
-      "summary": "+61592 docs — +61592 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "22:00",
-      "agent": "Engine of Practicality",
-      "summary": "+0 cards — Energy domain scan: no new candidate qualified. Seeded candidates (Eeman circuit, Tesla radiant receiver) already covered by dossiers 002/003/006/008/012. Atsyukovsky heat pump/vortex heat generator chapters lack buildable protocols in translation. Rotation advanced to water."
-    },
-    {
-      "date": "2026-09-12",
       "time": "20:20",
       "agent": "Forge (Translation QC)",
       "summary": "**-4 duplicates — corpus 145→141.** Removed 4 verified junk-frontmatter duplicates (schauberger-water-blood-of-the-earth-de, study-on-torsion-fields-de, torsion-physics-newton-to-present-ru, vortex-motor-negentropic-prop"
@@ -6356,12 +6385,6 @@
       "time": "04:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — André de Belizal (1896–1975) biography FR→EN — (translations/2026-09-12-andre-de-belizal-radiesthesie-fr-en.md): the theorist of physical radiesthesia and the last major French-school founder without a dossier. Full name André Marie Hyacinthe Pierre de Gouzillon de Bélizal (Breton naval-ancestor line); the Chaumery collaboration from the late 1920s — Louksor/Universal Pendulum patented April 1936 (FR 816,132), the coining of *onde de forme* in the 1930s, the ancient-forms thesis (Egyptian frescoes' calculated angles, triskel/swastika as emission laws); Chaumery's death Feb 27 1957 \"victim of his experiments, completely dehydrated by our negative green ray (V−)\" in de Belizal's own Avertissement; the long silence and the V+ antidote discovered with P. A. Morel; *Physique Micro-Vibratoire et Forces Invisibles* (Desforges 1965/1976) with its coined-from-scratch vocabulary and the Desforges instrument catalogue (Pendule Égyptien, Escargot, Cheops pyramid 1/1000, Louksork, Aspironde, Micrometer, Atlante ring); legacy into Bovis, Brocéliande geobiology, and BioGeometry's BG3. French-school founder series now complete: Bouly, Mermet, Viré, Henry de France, Chaumery, de Belizal, Enel."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "00:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Enel (Prince Michel Vladimirovich Skariatine, 1883–1963) dossier FR→EN — (translations/2026-09-12-enel-omega-radiations-formes-fr-en.md): the bridge figure of the French school — the Russian prince who carried the Chaumery–de Bélizal spectrum into the field. The Omega ray discovery (1940s–50s: all Egyptian tombs of Christian saints emanate a vibration in the negative-green zone; Enel named the horizontal component Omega, marker of spiritual energy — grade 395 on the Universal Pendulum's EM meridian, the radioactivity sector); the biography (ORAEDES + Wikisage: Chevaliers-Gardes commander under Nicholas II, Toulon 1917, Cairo 1931–1953 with Howard Carter's team and Maspero, Glion 1953–1963, Lakhovsky MWO cures, Nestlé researcher); the works catalog (*Radiations des formes et cancer* 1951/1959 — the school's therapeutic manifesto, Energeia 2025 reissue in print; *Premiers pas en radiesthésie thérapeutique* 1949; *Traitement à distance par radiations* 1959); and the Thieux Carnets inédits trilogy (geobiology, gravitational colors, radiant-form apparatus, the Six Ritual Instruments of the Emperor of China, Henri Mager). Companion to the 08-29 La Lettre du Crocodile biography — together they complete the Enel file. Cardinaux's critique (negative green \"is in fact white\") and the honest-bench record noted."
     }
   ],
   "declassified": [
@@ -7529,6 +7552,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-13-moonlight-germination.md",
+        "date": "2026-09-13",
+        "title": "Moonlight Germination Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Moonlight Germination\n\n**Guild:** Aetherforce — Food\n**Quest Line:** ⚡ Aetherforce · Foraging complement\n**Tier:** sand\n**Domain:** food\n**Status:** proposed\n\n---\n\n## Quest Card\n\n```"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-13-cold-vortex-germination.md",
         "date": "2026-09-13",
         "title": "Cold Vortex Water Germination Test",
@@ -7621,6 +7651,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-13-dossier-015-moonlight-germination.md",
+        "date": "2026-09-13",
+        "title": "Dossier 015 — Moonlight Germination Test",
+        "status": "draft",
+        "excerpt": "# Dossier 015 — Moonlight Germination (Steiner/Kolisko Lunar-Planting Lineage)\n\n**Status:** protocol_ready\n**Created:** 2026-09-13\n**Source:** Steiner-roots scout, cosmology/planetary line (2026-09-13"
+      },
       {
         "file": "synthesis/replication/2026-09-13-dossier-014-cold-vortex-germination.md",
         "date": "2026-09-13",
