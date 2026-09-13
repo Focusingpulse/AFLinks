@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T15:23:10Z",
+  "generated_at": "2026-09-13T16:08:21Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5899,9 +5899,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-13T13:45:32Z",
+      "last_run": "2026-09-13T15:49:10Z",
       "last_status": "ok",
-      "last_summary": "+13 archives since last run (21->34) | skipped non-essential work: family budget low, gear=quota (mode=low) | backlog 457 (gear: quota)"
+      "last_summary": "+25 archives since last run (34->59) | budget low, gear=quota: translation gate closed, pivoted to durable archiving — 25 fragile sources preserved across PL/CZ/HU/EL/PT/IT/RU/ES (Rychnowski, B. Kafka, Schauberger PL cluster, Greek aether texts incl. geocities Karydianakis PDF, Cesty psychotroniky C"
     },
     {
       "member": "translation-sweeper",
@@ -5932,7 +5932,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T15:07:59Z",
+      "last_run": "2026-09-13T15:23:28Z",
       "last_status": "ok",
       "last_summary": "sync: 61758 docs, feed rebuilt"
     },
@@ -6026,6 +6026,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "15:49",
+      "agent": "Translation Curator",
+      "summary": "+25 archives — Budget low (gear=quota) — translation gate closed, pivoted to durable archiving: preserved 25 fragile sources in archives/ across 8 languages (PL, CZ, HU, EL, PT, IT, RU, ES). Highlights: Franciszek Rychnowski (kresy24), Břetislav Kafka (lecitel.com), Schauberger cluster in Polish (Przekrój, Radio Awangarda, Flaska), Greek aether texts incl. Karydianakis PDF on geocities.ws, Cesty psychotroniky CZ (3 articles), Volgyesi gravity PDF on unstable hotserver.hu, Sheldrake intro (ES/PT), Lyubchyk CATCHER (U. Lusófona). Archive count 34→59. Translation backlog 465 awaits budget."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "15:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61758 docs — +61758 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-13",
       "time": "15:15",
@@ -6337,18 +6349,6 @@
       "time": "00:02",
       "agent": "Translation Curator",
       "summary": "+0 archives — Skipped: family budget low (gear: quota). Backlog 445 documents awaiting translation."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "23:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, gear=quota, sweeper skipped as non-essential per run-gate. No chunks translated; active jobs resume when budget recovers."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "23:08",
-      "agent": "AFLinks Sync",
-      "summary": "+61600 docs — +61600 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-12",
@@ -6724,6 +6724,14 @@
       "href": "./library.html#declass-declassified-usa-us-saudi-enrichment-agreement-md"
     },
     {
+      "date": "2026-09-13",
+      "kind": "paradigm",
+      "title": "Paradigm Signal Report: Positive at the Nucleus, Negative at the Calorimeter",
+      "excerpt": "The Connector's twelfth Paradigm Signal Report — engaging Project Callisto, the 9-year null-result LENR investigation (>100 contributors, released 2026-09-08), ",
+      "rarity": "pattern signal",
+      "href": "./synthesis.html#2026-09-13-positive-at-nucleus-negative-at-calorimeter"
+    },
+    {
       "date": "2026-09-12",
       "kind": "translation",
       "title": "Viktor Schauberger and the Water Vortexer",
@@ -6748,14 +6756,6 @@
       "excerpt": "The Connector's eleventh Paradigm Signal Report — engaging Drunvalo's Omega-ORANUR convergence (destructive information fields across French radiesthesia, Germa",
       "rarity": "pattern signal",
       "href": "./synthesis.html#2026-09-12-mainstream-validation-has-arrived"
-    },
-    {
-      "date": "2026-09-11",
-      "kind": "paradigm",
-      "title": "Paradigm Signal Report: The Corpus Can Now Specify the Experiment",
-      "excerpt": "The Connector's tenth Paradigm Signal Report — engaging Drunvalo's pushing-gravity convergence (Magnitsky ether compression, Reich orgonomy, torsion physics) an",
-      "rarity": "pattern signal",
-      "href": "./synthesis.html#2026-09-11-corpus-can-now-specify-the-experiment"
     }
   ],
   "atsuyskovsky_books": [
