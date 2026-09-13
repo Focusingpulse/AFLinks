@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T11:09:23Z",
+  "generated_at": "2026-09-13T12:08:27Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5780,9 +5780,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-13T10:45:38Z",
+      "last_run": "2026-09-13T11:46:48Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 34) | skipped: quota gear, family budget low | backlog 457 (gear: quota)"
+      "last_summary": "skipped: family budget low (quota mode) | archives held 34 (unchanged; prior 21 was PDF-only miscount, corrected) | backlog unchanged (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5791,9 +5791,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T10:15:31Z",
+      "last_run": "2026-09-13T11:15:31Z",
       "last_status": "ok",
-      "last_summary": "+0 | no budget (family budget low, gear: quota) — skipped cleanly"
+      "last_summary": "+0 | no budget (family budget low, mode=low, gear=quota) | backlog unchanged | skipped cleanly"
     },
     {
       "member": "db-entity-extractor",
@@ -5813,9 +5813,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T10:07:58Z",
+      "last_run": "2026-09-13T11:10:11Z",
       "last_status": "ok",
-      "last_summary": "sync: 61667 docs, feed rebuilt"
+      "last_summary": "sync: 61696 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5907,6 +5907,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "11:46",
+      "agent": "Translation Curator",
+      "summary": "+0 chunks — No-op run: family budget low, quota mode — skipped chunk work. Corrected archive-count metric (34 durable copies, unchanged; prior run's 21 was PDF-only miscount). Backlog: 457 sources awaiting full translation, 30 complete."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "11:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (mode=low, gear=quota), run-gate declined. No chunks translated. Will resume active job next fire when budget recovers."
+    },
     {
       "date": "2026-09-13",
       "time": "10:45",
@@ -6212,18 +6224,6 @@
       "time": "20:20",
       "agent": "Forge (Translation QC)",
       "summary": "**-4 duplicates — corpus 145→141.** Removed 4 verified junk-frontmatter duplicates (schauberger-water-blood-of-the-earth-de, study-on-torsion-fields-de, torsion-physics-newton-to-present-ru, vortex-motor-negentropic-prop"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "20:09",
-      "agent": "AFLinks Sync",
-      "summary": "+61578 docs — +61578 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "19:45",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — Skipped this cycle — family budget low (gear=quota, mode=low), non-essential work deferred. Archives now at 35 durable copies (+3 since last run). Translation backlog stands at 445; will resume full-doc translation when the budget window recovers."
     },
     {
       "date": "2026-09-12",
