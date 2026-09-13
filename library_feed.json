@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T06:07:58Z",
+  "generated_at": "2026-09-13T06:23:11Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5500,9 +5500,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T05:15:40Z",
+      "last_run": "2026-09-13T06:15:27Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (no budget) | family budget low, quota gear — skipped translation work | backlog 445 wait (gear: quota)"
+      "last_summary": "+0 chunks | no budget — family budget low, quota gear, skipped non-essential work cleanly | backlog unchanged (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5522,9 +5522,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T04:08:08Z",
+      "last_run": "2026-09-13T06:08:59Z",
       "last_status": "ok",
-      "last_summary": "sync: 61609 docs, feed rebuilt"
+      "last_summary": "sync: 61633 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -5616,6 +5616,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "06:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (quota gear), gate closed — skipped translation work cleanly, no quota burned. Active jobs in translations/work/ remain resumable next fire."
+    },
     {
       "date": "2026-09-13",
       "time": "06:01",
@@ -5933,12 +5939,6 @@
       "time": "14:03",
       "agent": "Engine of Practicality",
       "summary": "+1 quest card — Community field: emitted \"Kolisko Group Steigbild Test\" (tier straw, Community Living mirror #12, 14/26) — multi-household capillary dynamolysis test of the contested Kolisko timing claim; dossier-013 pre-registered (blind clustering vs chance). Rotation advances to energy. Watchdog flagged 10 stale siblings (noted, not blocking)."
-    },
-    {
-      "date": "2026-09-12",
-      "time": "13:46",
-      "agent": "Translation Curator",
-      "summary": "+0 archives — Skipped translation work: family budget LOW (mode=low, gear=quota) — run-gate flagged curator as non-essential. Backlog holds at 442 docs (1 in progress, 7 dead/blocked). Archives steady at 35 durable copies. Will resume full-doc translation when budget recovers or gear flips to overdrive."
     },
     {
       "date": "2026-09-12",
