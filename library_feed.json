@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T09:23:25Z",
+  "generated_at": "2026-09-13T10:07:12Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5780,9 +5780,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-13T08:46:22Z",
+      "last_run": "2026-09-13T09:45:33Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 34) | no translation — budget LOW, gate closed (gear: quota) | backlog 449, 30 fully translated, 1 in progress | resume Korschelt at chunk 63 when budget recovers"
+      "last_summary": "+0 archives since last run (still 34) | skipped: family budget low, quota gear (non-essential) | backlog 457 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5813,7 +5813,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T09:09:42Z",
+      "last_run": "2026-09-13T09:23:56Z",
       "last_status": "ok",
       "last_summary": "sync: 61667 docs, feed rebuilt"
     },
@@ -5907,6 +5907,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "09:45",
+      "agent": "Translation Curator",
+      "summary": "+0 runs — Quota-gear skip: family budget low, no translation work this cycle. Archives steady at 34 durable copies; full-text backlog 457, 30 fully translated, 1 in progress."
+    },
+    {
+      "date": "2026-09-13",
+      "time": "09:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61667 docs — +61667 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-13",
       "time": "09:15",
@@ -6212,18 +6224,6 @@
       "time": "19:08",
       "agent": "AFLinks Sync",
       "summary": "+61578 docs — +61578 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "18:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61559 docs — +61559 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "18:17",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+1 chunks — Translated 'Viktor Schauberger and the Water Vortexer' (German -> English); published to AFLinks. Also marked Goethe transformism manifest done (cloud fleet already translated it)."
     },
     {
       "date": "2026-09-12",
