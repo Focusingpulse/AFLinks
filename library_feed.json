@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T12:08:27Z",
+  "generated_at": "2026-09-13T12:23:11Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -3708,6 +3708,54 @@
     },
     {
       "date": "scout-repo",
+      "file": "scout-report-2026-09-13.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Mitsubishi LENR Patents",
+          "description": "Abandoned status confirmed. Transmutation paper (MHI Technical Review 2005) verified but patents lapsed.",
+          "url": ""
+        },
+        {
+          "title": "Ponce de León Psicogeometría",
+          "description": "No digital edition confirmed. Physical book remains primary source.",
+          "url": ""
+        },
+        {
+          "title": "LENR",
+          "description": "Nature 2025 Breakthrough (HIGH)",
+          "url": ""
+        },
+        {
+          "title": "Ether Dynamics",
+          "description": "Mon Tiray Project Confirmation (HIGH)",
+          "url": ""
+        },
+        {
+          "title": "Torsion Fields",
+          "description": "Comprehensive 2025 Review (HIGH)",
+          "url": ""
+        },
+        {
+          "title": "Ball Lightning",
+          "description": "Capillary Plasmatron Generation (HIGH)",
+          "url": ""
+        },
+        {
+          "title": "BioGeometry",
+          "description": "Pharmaceutical Applications 2024 (HIGH)",
+          "url": ""
+        },
+        {
+          "title": "Casimir Force",
+          "description": "Superconductor Measurement (HIGH)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "scout-repo",
       "file": "scout-report-2026-09-12-1200.md",
       "scout": "",
       "languages": "",
@@ -4231,6 +4279,54 @@
         {
           "title": "Major domains",
           "description": "svpwiki.com (13,459), energeticforum.com (8,123), vixra.org (6,934), rexresearch.com (5,793)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "file": "2026-09-13-scout-report-1200.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Archive **61,696 steady** (from 10",
+          "description": "15Z growth fire `40a89feb` +29 cyberleninka, archive 61,667→61,696, ids 2403969–2403997). No new FL LENR this round.",
+          "url": ""
+        },
+        {
+          "title": "lenr",
+          "description": "canr /acrobat/: 200, 138,372B — 1,454 filelist, byte-same → 0 new",
+          "url": ""
+        },
+        {
+          "title": "rxiv /all/",
+          "description": "200 Googlebot, 329,490B (byte-same); max **2609.0033** already archived → 0 new",
+          "url": ""
+        },
+        {
+          "title": "viXra /new/",
+          "description": "404 anti-bot flake (rxiv mirror covers; max 2609.0033 archived)",
+          "url": ""
+        },
+        {
+          "title": "iccf",
+          "description": "27 /proceeding/: 200, 9,845B — **STILL Under Construction (day ~46)**; /program/ byte-same 37,721B → no proceedings movement",
+          "url": ""
+        },
+        {
+          "title": "lenr.su",
+          "description": "200, 102,561B (byte-stable) → 0 new",
+          "url": ""
+        },
+        {
+          "title": "RENSIT /vypuski/",
+          "description": "000 network flake — quarterly lane, re-probe next wrap (last harvested 2026/4)",
+          "url": ""
+        },
+        {
+          "title": "tuks / lenr.seplm.ru",
+          "description": "000 flake both (seplm byte-stable 55,248B baseline pre-harvest)",
           "url": ""
         }
       ]
@@ -5791,9 +5887,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T11:15:31Z",
+      "last_run": "2026-09-13T12:15:41Z",
       "last_status": "ok",
-      "last_summary": "+0 | no budget (family budget low, mode=low, gear=quota) | backlog unchanged | skipped cleanly"
+      "last_summary": "+0 | no budget (family budget low, mode=low, gear=quota) | skipped cleanly"
     },
     {
       "member": "db-entity-extractor",
@@ -5813,7 +5909,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T11:10:11Z",
+      "last_run": "2026-09-13T12:09:30Z",
       "last_status": "ok",
       "last_summary": "sync: 61696 docs, feed rebuilt"
     },
@@ -5907,6 +6003,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "12:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (mode=low, gear=quota), gate blocked non-essential work. Skipped cleanly, no quota spent. Backlog unchanged."
+    },
     {
       "date": "2026-09-13",
       "time": "11:46",
@@ -6212,12 +6314,6 @@
       "time": "21:08",
       "agent": "AFLinks Sync",
       "summary": "+0 docs — +0 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-12",
-      "time": "20:27",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+0 chunks — No-op run: family budget low (gear=quota), gate closed, translation skipped. Bookkeeping done: marked plasma-cosmology manifest done - translation already existed (duplicate prevention). Next candidates surveyed: Korschelt 1892 Aether book (DE, 131 chunks), orgonomie.net (DE, 18 chunks)."
     },
     {
       "date": "2026-09-12",
