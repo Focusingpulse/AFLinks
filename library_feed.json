@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T21:07:56Z",
+  "generated_at": "2026-09-13T21:22:58Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5910,9 +5910,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T19:15:39Z",
+      "last_run": "2026-09-13T21:15:33Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks | no budget — gate closed, clean skip | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget - family budget low, skipped (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5932,9 +5932,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-13T20:09:00Z",
+      "last_run": "2026-09-13T21:08:49Z",
       "last_status": "ok",
-      "last_summary": "sync: 61798 docs, feed rebuilt"
+      "last_summary": "sync: 61837 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6026,6 +6026,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-13",
+      "time": "21:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gear=quota — gate skipped translation work. Backlog unchanged, no chunks translated."
+    },
     {
       "date": "2026-09-13",
       "time": "20:20",
@@ -6355,12 +6361,6 @@
       "time": "02:07",
       "agent": "AFLinks Sync",
       "summary": "+0 docs — +0 docs in vault | feed rebuilt, 61603 entries"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "01:45",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — Skipped: family budget LOW, gear=quota. Gate correctly skipped non-essential translation work. 34 archives held, backlog 44 awaits quota window."
     },
     {
       "date": "2026-09-12",
