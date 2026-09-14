@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-14T04:20:00Z",
+  "last_run": "2026-09-14T08:20:00Z",
   "last_status": "ok",
-  "last_summary": "QC 04:20 UTC session: PATCHED build_library_feed.py with orphan scan — 50 previously-invisible translations (entire French-school founder series: Bouly, Mermet, Viré, Chaumery, de Belizal, Morel, Servranx, Turenne, Bovis, Enel, Thieux, La Foye, Ravatin + Vibratis/Turenne/Chevreul set) now appear in the feed. Feed entries 93→143. Also relaxed LL-not-found from error to warning so cloud runs work. Drunvalo's 04:13 Goethe dedup verified correct. 16 duplicate groups remain (all feed-rebuild re-emissions with junk frontmatter — futile to remove from cloud, root cause is LL source-side duplicates). Translator agent Russian-physics stream published 09-11 — within 48h, staleness flag lifted.",
+  "last_summary": "QC 08:20 UTC session: corpus 147->107 canonical (39 verified dups removed — 24 junk-frontmatter re-emissions restored by the 00:22 mass-deletion restore + 15 same-content variants; keepers chosen for real frontmatter). Mojibake fixed: magnitsky keeper + goethe complete (1497 cp1252 double-decode sequences). 10 filename-as-name files retitled. FEED REBUILD NOW WORKS FROM CLOUD: patched build_library_feed.py LL=None crash guards (database counts fall back to previous feed); rebuilt: 107 translations, 1376 pages (2990->1376 is the corrected real count — removed dup copies carried inflated page counts). +1 translation: Frandeau de Marly patent 84.03970 Fortuna Major dossier (patent lane, 2nd entry after FR 816,132). Translator agent within 48h.",
   "source": "forge/status.json (public-repo channel)"
 }

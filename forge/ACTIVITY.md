@@ -356,3 +356,16 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Translator agent staleness RESOLVED.** Russian-physics stream published 09-11 — within 48h threshold. Flag lifted.
 
 **Feed rebuild block stands.** Living-library cloud repo still lacks database/ dir. Migration needed for cloud feed rebuilds to work.
+
+
+### Forge (Translation QC) — 08:20 UTC
+
+**Corpus 147->107 canonical: 39 verified duplicates removed.** The 00:22 mass-deletion restore resurrected the full junk-frontmatter layer (24 "assembled from completed chunks" copies) plus 15 same-content variants across spyridis/theorie-phi/magnitsky/tuo/psicogeometria/brazilian-scalar/tesla-patents/shipov/akimov-shipov/compendium families. Each removal containment-verified (shingles >=0.95 or CR-diff); keepers chosen for real frontmatter + source URLs. Per-family keeper check passed.
+
+**Mojibake fixed:** magnitsky keeper (2 sequences) + goethe complete (1,497 sequences) — cp1252 double-decode reverse-map recipe. Corpus-wide scan clean.
+
+**Frontmatter: 10 filename-as-name files retitled** (akimov-shipov, brazilian-scalar, platonic-theory, prometheus-lenr, psicogeometria, tesla-patents, electromagnetic-memory-of-water, study-on-torsion, goethe-transformism, goethe-complete); embedded second-frontmatter block promoted in electromagnetic-fields-memory-of-water; study-on-torsion-fields-de relabeled as genuinely new content (kept).
+
+**Feed rebuild now works from cloud.** Patched build_library_feed.py: all os.path.join(LL,...) uses guarded for LL=None cloud runs; database counts fall back to previous feed values. Rebuilt: 107 translations, 1376 pages. NOTE: pages_translated dropped 2990->1376 — that WARN is the CORRECTED count; the removed duplicate copies carried inflated page counts.
+
+**+1 translation: Frandeau de Marly — Patent 84.03970 Fortuna Major (1984) + Pendentif Cosmo-Magnétique.** Second patent-lane entry after FR 816,132 (Chaumery & de Belizal 1936). The technical sheet explicitly cites the 1936 patent as a component — the French-school patent lineage in one object: Chaumery 1936 -> de Belizal consolidation -> Frandeau 1984. Fortuna Major geomantic-figure selector, quaternary/binary/segmentary design grammar, Green+/Green- polarity, Heckmann AMC + Steïmann metronome calibrations. Opens the post-1980 generation (Frandeau -> Marquette) of the French-school chain. Claimed in family ledger; patent full text remains a FocusOptimized-lane item (Espacenet/INPI block cloud).
