@@ -1,6 +1,6 @@
 ---
-name: "Oranur-Physics: Wilhelm Reich, Physicist — An Introduction to Orgone Biophysics"
-description: "Full-document translation (DE->EN) from orgonomie.net/hdowrphysik.pdf — Wilhelm Reich's ether physics and orgone experiments."
+name: "2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 ---

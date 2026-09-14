@@ -1,3 +1,7 @@
+---
+name: Atsyukovsky Book 5 Full Translation
+description: Full English translation of Atsyukovsky Book 5
+---
 ### SOURCE SECTION: Chapter 1.
 
 Chapter 1. Investigation of the ether wind………………………………13
@@ -5840,26 +5844,27 @@ In accordance with the provisions of STR, as the velocity of a body increases, i
 
 [p291]
 Critical analysis of the foundations of relativity theory.                      291
+
 The purpose of the experiment is to determine the real time for a moving body and to confirm the indicated dependency.
 
-  Scheme and methodology of conducting the experiment [78, p. 266; 82-86].
-As the moving body in the experiment, mesons are used, whose lifetime and corresponding paths are:
+Scheme and methodology of the experiment [78, p. 266; 82-86].
+Mesons are used as the moving body in the experiment, whose lifetimes and corresponding paths are:
 for µ-mesons (muons) τ₀ = 2.2·10⁻⁶ s; l₀ = 600 m;
 for π-mesons (pions) τ₀ = 2.56·10⁻⁶ s; l₀ = 7.68 m.
-The fact of the presence of mesons born in the upper layers of the atmosphere (muons at altitude H ≈ 18000 m, pions at altitude H ≈ 46200 m) in the lower layers of the atmosphere is established, which makes it possible to perform calculations using the indicated formula.
+
+The fact of the presence of mesons originating in the upper layers of the atmosphere (muons at altitude H ≈ 18000 m, pions at altitude H ≈ 46200 m) in the lower layers of the atmosphere is established, which makes it possible to perform calculations using the indicated formula.
 
 Parameters and results of the experiment
-1940-1941. Williams and Roberts [82] – observation of spontaneous decay of mesons in a Wilson chamber;
-1940-1941. Auger and Maze [83], Maze and Chamino [84], Chamino, Fréon, Maze [85] – observation of spontaneous decay using counters;
-1941. Rossi and Hall [86] – measurement of the path traversed by mesons with specific energies up to β ≈ 0.99;
-1838-1941. Ayres and Stilwell [89, 90] – observation with cathode ray tubes at β ≈ 0.004.
+1940-1941 Williams and Roberts [82] – observation of spontaneous decay of mesons in a Wilson chamber;
+1940-1941 Auger and Maze [83], Maze and Chaminaud [84], Chaminaud, Fréon, Maze [85] – observation of spontaneous decay using counters;
+1941 Rossi and Hall [86] – measurement of the path traversed by mesons with specific energies up to β ≈ 0.99;
+1938-1941 Ives and Stilwell [89, 90] – observation with cathode ray tubes at β ≈ 0.004.
 
-Authors' conclusion
-The flow of time depends on the velocity of particle motion and agrees with STR calculations.
+Author's conclusion
+The flow of time depends on the velocity of the particle's motion and agrees with STR calculations.
 
 Comment (V.A.)
-1. The very lengths of paths indicated for detecting mesons in the lower layers of the atmosphere are calculated on the basis of the given relativistic formula for time; for example, the path length for a pion of 46.2 km was obtained on the basis of the assumption that the pion velocity in the atmosphere is only 10⁻⁸ less than the speed of light.
-But such speed of light in the atmosphere decreases to a greater degree and constitutes 0.00073 c; it turns out that the pi-meson should overtake light. Thus, the calculations are not accurate, and in the case of mesons we can only speak of a qualitative picture of the phenomenon.
+1. The ranges themselves indicated for detecting mesons in the lower layers of the atmosphere are calculated on the basis of the given relativistic formula for time, for example, the range
 
 
 ---

@@ -1,6 +1,6 @@
 ---
-name: "Analysis of Tesla's Radiant Energy Patents (Chercheurs Du Vrai)"
-description: "Full translation (FR->EN) of the Chercheurs Du Vrai analysis of Tesla's radiant energy patents."
+name: "2026-09-03-tesla-patents-radiant-energy-fr"
+description: Full translation of "Chercheurs Du Vrai"
 ---
 
 Chercheurs Du Vrai

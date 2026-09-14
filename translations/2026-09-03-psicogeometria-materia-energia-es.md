@@ -1,6 +1,6 @@
 ---
-name: "Psicogeometría: Geometría en Materia y Energía (Sacred Geometry)"
-description: "Full translation (ES->EN) of the psicogeometria.com article on geometric qualities of matter and energy."
+name: "2026-09-03-psicogeometria-materia-energia-es"
+description: Full translation of "Sacred Geometry"
 ---
 
 Sacred Geometry

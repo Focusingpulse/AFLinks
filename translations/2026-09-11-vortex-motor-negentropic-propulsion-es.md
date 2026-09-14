@@ -1,6 +1,6 @@
 ---
-name: "The Vortex Motor: Toward a Negentropic Propulsion Technology"
-description: "Full-document translation (ES->EN) of the Spanish article on the vortex motor and implosion dynamics of the ether."
+name: "2026-09-11-vortex-motor-negentropic-propulsion-es"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 The Vortex Motor: Toward a Negentropic Propulsion Technology Based on the Implosion Dynamics of the Ether

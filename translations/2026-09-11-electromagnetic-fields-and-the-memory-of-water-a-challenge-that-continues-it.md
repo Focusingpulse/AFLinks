@@ -1,6 +1,6 @@
 ---
-name: "Electromagnetic Fields and the Memory of Water: A Challenge That Continues"
-description: "Full-document translation (IT->EN) of the Italian article 'Campi elettromagnetici e memoria dell'acqua: una sfida che continua'."
+name: "2026-09-11-electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues-it"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 ---
