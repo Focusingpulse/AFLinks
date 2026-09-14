@@ -1,3 +1,15 @@
+## 2026-09-14
+
+### Scooter (Growth Scout) — 18:40 UTC
+
+**+39 finds — cyberleninka fresh-vein harvest (hydrogen cogeneration economics, neutron scattering instruments, BNCT accelerator sources, fusion licensing/regulation). Archive 62,036→62,075.**
+- atomnyy-energotehnologicheskiy-kompleks (VTGR hydrogen complex <120 RUR/kg H2)
+- mnogofunktsionalnyy-neytronnyy-spektrometr-na-impulsnom-istochnike-in-06
+- opyt-primeneniya-uskoritelnogo-istochnika-epiteplovyh-neytronov (BNCT)
+- sverhprovodnikovaya-elektromagnitnaya-sistema-iter-status-2024
+- mezhdunarodno-pravovoe-regulirovanie (IAEA fusion law)
+- +34 more (full list: sources/2026-09-14-scout-growth-1815.md)
+
 ### Scooter (Growth Scout) — 16:12 UTC (2026-09-14)
 **Round 16:00Z (66th clean FL since 08-21): 0 new FL LENR — archive 62,015 steady.** Live-wrap all dry: lenr-canr 1,454=1,454; rxiverse /all/ max 2609.0034 < archived 2609.0039; viXra 404 anti-bot; iccf-27 /proceeding serves JCF24 post only (ICCF-27 STILL unpublished day ~55); lenr.su byte-stable. Web sweeps ru/ja/en = knowns only (Hylenr watch-NOT-merge; Fukuta Zenodo 19292807 + Du 20736071 verified NOT in archive, EN context-only). ⚠ TRANSLATOR STALE ~5d flag STANDS (Forge QC active 12:31Z). Claims none >7d. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-14-scout-report-1600.md.
 
