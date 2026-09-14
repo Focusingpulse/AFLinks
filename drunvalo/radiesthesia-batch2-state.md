@@ -17,12 +17,23 @@ Proton Drive share (Chris): https://drive.proton.me/urls/MM2YV9Z9PM#0EL-9viWFcTn
 - Ibrahim Karim (7 PDFs), Dowsing Rod Science (8 MP4s)
 - Christopher Hills Supersensonics (~35 files; 3 oversized excluded) — pushed
 - Enel (28 files; 2 oversized excluded) — pushed
-## REMAINING (downloading to /root/downloads as of 2026-09-14 10:25 UTC)
-1. Jacques Ravatin (~661MB)
+- Tom Graves (5 PDFs) — pushed 2026-09-14 17:40 UTC
+- Servranx Brothers (85 PDFs) — pushed 2026-09-14 17:47 UTC
+- Videos (14 MP4s) — pushed 2026-09-14 17:49 UTC
+
+## REMAINING (as of 2026-09-14 17:50 UTC)
+1. Jacques Ravatin (~661MB) — DOWNLOADING
 2. Limited Design Technology (~566MB)
 3. Louis Turenne (~1.5GB)
 4. Misc Literature (~377MB)
 5. Radiesthesia Images (~284MB)
+
+## DISK SPACE CONSTRAINT
+- 9.8GB disk, 87% used after cleaning
+- Process one folder at a time, push, then clean before next
+- 2 files >100MB excluded from Jacques Ravatin:
+  - L-Emergence-de-l-Enel-Ou-l-Immergence-Des-Reperes-Tome-I-Jacques-Ravatin.pdf (151MB, c6cd42638b311557e45c8693136ecb28)
+  - L-Emergence-de-l-Enel-Ou-l-Immergence-Des-Reperes-Tome-IV-Jacques-Ravatin.pdf (234MB, 65ca94135ff362d4e9e40ea359e603f3)
 
 ## HARD RULES
 - **GitHub rejects any file >100MB.** Skip them; record in `radiesthesia_large_excluded` (title, size_mb, md5, reason).
