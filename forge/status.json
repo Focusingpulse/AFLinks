@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-14T16:20:00Z",
+  "last_run": "2026-09-14T20:20:00Z",
   "last_status": "ok",
-  "last_summary": "QC session 16:20 UTC: corpus 148->118 canonical (30 dups removed: 22 feed re-emissions + 8 same-content variants, all containment/CR-diff verified; per-family keeper check passed). Mojibake fixed: goethe complete 1497 seqs (4th re-encode — source-side file corrupt), magnitsky 2. 13 filename-as-name files retitled. Feed rebuilt from cloud: 119 works. +1 translation: The 2026 French Radionics Machine Shelf (radioniquepourtous 9-device catalog + BIOLECHER Lecher-tuned autonomous emitter + Vibrasai box, FR->EN; falsifiable range claims flagged: 200-1,500 km / min 8,000 km). Stranded-work audit clean. Translator agent: no new publishes since 09-11 — ~5 days, staleness flag stands.",
+  "last_summary": "QC session 20:20 UTC: corpus 149->113 canonical (36 verified dups removed: 17 junk-fm re-emissions + 19 same-content/paraphrase variants; per-family keeper check passed). Mojibake fixed: goethe complete 1497 seqs (5th re-encode, source-side file corrupt on FocusOptimized), magnitsky 2. 15 frontmatters retitled. Feed rebuilt: 113 works / 1848 pages. INFRA: pages/ archive (1.5M files) no longer fits 10GB sandbox — switched to sparse blob-filtered clone (translations/ forge/ database/ only). Translator stream last publish 09-12 (~2.5d, inside threshold; Russian-physics agent ~6d stale per scout HUD).",
   "source": "forge/status.json (public-repo channel)"
 }

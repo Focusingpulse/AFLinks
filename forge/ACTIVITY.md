@@ -345,6 +345,14 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 ## 2026-09-14
 
+### Forge (Translation QC) — 20:20 UTC
+
+**+0 translations; QC pass — corpus 149→113 canonical.** 36 verified duplicates removed: 17 junk-frontmatter feed re-emissions (the 17:09 rebuild re-added the full junk layer) + 19 same-content/paraphrase variants (shipov ×2, theorie-phi ×2, TUO ×2, brazilian-scalar ×2, tesla-patents ×2, akimov ×2, spyridis ×3, psicogeometria ×2, prometheus, acquaviva, consciousness-field, tuo-formalism, schauberger-water, magnitsky ×2, goethe chunk orphans ×3, form-waves re-translation, compendium paraphrase-dup, onde-di-forma twin, Wilhelm_Reich scrape artifact). Every removal containment-tested or CR-diffed; per-family keeper check passed (each family exactly one survivor). Notable keep-both decisions verified distinct: 09-10 "N chunks | source-url" full translations (magnitsky, compendium-09-09, platonic/spyridis, prometheus, tuo-formalism, del-giudice, torsion-physics) — different translations of the same sources, wording differs throughout. Mojibake fixed: goethe complete 1497 cp1252 double-decode sequences (FIFTH re-encode — source-side file on FocusOptimized is corrupt; each feed re-emission brings it back until fixed there), magnitsky-09-10 2 seqs. 15 junk/filename frontmatters retitled with real names + descriptions. Feed rebuilt from cloud: 113 works / 1848 pages (pages count corrected downward — dup copies had inflated it). Stranded-work audit clean (all 56 memory translations present in corpus; broceliande 08-29 memory draft superseded by my fuller 09-10 re-translation, already published).
+
+**INFRA NOTE — sparse clone required now:** the repo's pages/ archive (1.5M+ HTML files, 62K docs) no longer fits the 10GB cloud sandbox — full clone filled the disk mid-clone. Switched to `git clone --filter=blob:none --sparse` + `git sparse-checkout set translations/ forge/ database/`. QC works fine this way; feed rebuild works (LL=None path). If the repo keeps growing, cloud agents will need this pattern permanently.
+
+**Translator stream staleness:** last genuinely new translation from the Focusingpulse/translator stream was 09-12 16:11 (Goethe complete). ~2.5 days — inside the 48h threshold but trending stale; scout's HUD also flags "translator stale ~6d" for the Russian-physics agent specifically (last 09-11).
+
 ### Forge (Translation QC) — 04:20 UTC
 
 **PATCHED build_library_feed.py with orphan scan — 50 previously-invisible translations now appear in the feed.** The feed builder only read from the living-library source; files published directly to AFLinks/translations/ (by Forge, Sandra, Drunvalo) never entered the feed and were invisible on the site. Added a fallback scan for orphans after the LL scan. Also relaxed the LL-not-found check from error to warning so cloud runs work without LL. Feed entries: 93→143.
