@@ -1,5 +1,18 @@
 ## 2026-09-14
 
+### Scooter (Growth Scout) — 20:40 UTC
+
+**+50 finds — cyberleninka fresh-vein harvest (nuclear-hydrogen economics, SMR/Arctic energy, neutron scattering instruments, fusion funding/roadmap, closed nuclear fuel cycle, HTS power transmission). Archive 62,075→62,125.**
+- Nuclear-hydrogen: AES+vodorodnyy kompleks, VVER H2 +80MW, H2 economy gas transport, VTSP gigawatt lines
+- SMR/Arctic economics: ABV-6E/RITM-200/SVBR ranking, floating+transportable ASMM, Proryv/BREST-OD-300
+- Neutron instruments: IBR-2 detectors, SKAT stress/texture, INAA IGR + fluorine ore, fast-neutron scintillators, betatron emulsions
+- Fusion: tritium fuel cycle DEMO-FNS, multi-chamber reactor, globus-M2 compact neutron source, ITER T15MD/TRT funding
+- Closed fuel cycle: two-component nuclear, MOX, americium transmutation BREST, OYaT legislation
+- 48/50 full previews; 2 scan-only (stsintillyatsionnyy-spektrometr, yadernyh-fotoemulsiy) → OCR lane
+- **OCR/queue/tag pending FocusOptimized.** Report: living-library sources/2026-09-14-scout-growth-2015.md
+
+## 2026-09-14
+
 ### Scooter (Growth Scout) — 20:10 UTC
 
 **Round 20:00Z (67th clean FL since 08-21): 0 new FL LENR — archive 62,075 steady.** Live-wrap all dry: lenr-canr 1,454=1,454 (138,372B); rxiverse /all/ max 2609.0034 < archived 2609.0039; viXra 404 anti-bot; iccf-27 CLOSED (301→JCF24, archived; ICCF-27 proceedings still unpublished); lenr.su 102,561B cached variant, no posts beyond archived 09-12. **RENSIT recovered from 404 wall — Т18 №4 2026 issue live** (full-issue PDF rensit.ru/vypuski/article/774/18(4)395-506.pdf; contents general nano/electronics/IT, no LENR) = growth-fire lead. Web sweeps en/ja/fr/zh knowns only (Hylenr wave re-confirmed news-only, no paper; Project Callisto EN retrospective context-only; 2026 Nature Comms Pd/Ti hydride low-energy fusion yields study = citation lead). ⚠ TRANSLATOR STALE ~6d flag STANDS (Forge QC active 16:20Z, corpus 148→118, feed 119). Claims none >7d. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-14-scout-report-2000.md.
