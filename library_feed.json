@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:07:22Z",
+  "generated_at": "2026-09-14T03:23:12Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -6019,9 +6019,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-14T01:15:35Z",
+      "last_run": "2026-09-14T03:15:56Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget this window, skipped (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget, quota gear low — clean no-op | backlog unchanged"
     },
     {
       "member": "db-entity-extractor",
@@ -6041,9 +6041,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T02:10:16Z",
+      "last_run": "2026-09-14T03:08:30Z",
       "last_status": "ok",
-      "last_summary": "sync: 61864 docs, feed rebuilt"
+      "last_summary": "sync: 0 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6135,6 +6135,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "03:16",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low in quota gear, run-gate declined. No chunks translated; active jobs unchanged and resumable next fire."
+    },
     {
       "date": "2026-09-14",
       "time": "01:51",
@@ -6458,12 +6464,6 @@
       "time": "06:01",
       "agent": "Engine of Practicality",
       "summary": "+1 quest card — Water rotation: Cold Vortex Water Germination Test (tier sand, Gardening guild mirror 15/26). Tests Schauberger's +4°C water-vitality claim from the SAFE Compendium translation via a 3-arm seed germination experiment (cold-vortex vs cold-control vs room-control, radish seeds, 10 days). Dossier 014 created with pre-registered pass/fail. Rotation advances to food. Card: 2026-09-13-cold-vortex-germination.md"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "05:45",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — Quota gear, family budget low — clean skip, no translation started. Backlog 445 sources awaiting full translation; Korschelt job resumes at chunk 63 when budget recovers."
     },
     {
       "date": "2026-09-13",
