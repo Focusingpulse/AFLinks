@@ -1,47 +1,34 @@
 ---
-description: Live state of radiesthesia archive batch 2 (2026-09-14). Cron "rhostudio-batch2-finish" continues this work. Delete this file when batch 2 is fully merged.
+description: Live state of radiesthesia archive batch 2 (2026-09-14). Cron "radio-batch2-finish" (id 013b2d33, cloud, every 30m) continues this. Delete this file when done.
 date: 2026-09-14
 ---
 
 # Radiesthesia Batch 2 — Live State
 
 ## Source
-Proton Drive share from Chris: https://drive.proton.me/urls/MM2YV9Z9PM#0EL-9viWFcTn
-(fragment key = E2E decryption key; use `cdp open` not `cdp nav`; page reload kills transfers)
+Proton Drive share (Chris): https://drive.proton.me/urls/MM2YV9Z9PM#0EL-9viWFcTn
+- fragment key = E2E decryption key; use `cdp open` not `cdp nav`
+- **page reload kills transfers** — click once, leave page alone
+- per-row `Download` button (query `tr`, click the button whose text is "Download")
+- browser watchdog: `cdp open <url>` if eval protocol-times-out
 
-## Already merged (74 entries in library_feed.json)
-- Batch 1: 59 PDFs in books/radiesthesia/{abbe-mermet,antonio-rodriguez,belizal-chaumery-morel,bruce-copen,dave-erina-cowan,frances-nixon,jean-de-la-foye,robert-gilbert}/ (~355MB)
-- Batch 2 partial: 7 Ibrahim Karim PDFs in books/radiesthesia/ibrahim-karim-biogeometry/ + 8 Dowsing Rod Science MP4s in books/radiesthesia/dowsing-rod-science/ (~391MB)
+## DONE
+- Batch 1: 59 PDFs (8 authors) — merged
+- Ibrahim Karim (7 PDFs), Dowsing Rod Science (8 MP4s)
+- Christopher Hills Supersensonics (~35 files; 3 oversized excluded) — pushed
+- Enel (28 files; 2 oversized excluded) — pushed
+## REMAINING (downloading to /root/downloads as of 2026-09-14 10:25 UTC)
+1. Jacques Ravatin (~661MB)
+2. Limited Design Technology (~566MB)
+3. Louis Turenne (~1.5GB)
+4. Misc Literature (~377MB)
+5. Radiesthesia Images (~284MB)
 
-## Remaining folders downloading to /root/downloads (clicked individually via per-row Download button)
-1. Christopher Hills - Supersensonics (~812MB) — mp3s/audio?
-2. Enel — ?
-3. Jacques Ravatin (~661MB)
-4. Limited Design Technology (~566MB)
-5. Louis Turenne (~1.5GB) — large
-6. Misc Literature (~377MB)
-7. Radiesthesia Images (~284MB)
+## HARD RULES
+- **GitHub rejects any file >100MB.** Skip them; record in `radiesthesia_large_excluded` (title, size_mb, md5, reason).
+- **library_feed.json conflicts on nearly every rebase** (fleet rebuilds it). Resolve by taking the commit's version (`git show ":3:library_feed.json"`), then continue.
+- **Push races**: fleet pushes constantly. Use a retry loop (fetch → rebase → push, up to 5x).
+- build_library_feed.py DOES regenerate `radiesthesia_books` from `books/radiesthesia/**` on disk (md5-cached), so the key survives future syncs.
 
 ## Recipe per completed zip
-```bash
-cd /tmp && rm -rf ex && mkdir ex && cd ex && unzip -q '/root/downloads/<folder>.zip'
-# dedupe by md5 against books/radiesthesia/** and within batch, skip _-prefixed
-# copy to books/radiesthesia/<slug>/ with spaces -> hyphens
-# append json entries to library_feed.json radiesthesia_books (title, author, pdf, size_mb, md5, provenance)
-cd /root/workspace/aflinks && git add books/radiesthesia/<slug> library_feed.json && git commit -m "radiesthesia batch2 <slug>" && (git pull --rebase origin main || true) && git push origin main
-```
-
-## Stuck downloads
-If a .crdownload stalls >20 min, re-click the folder's row Download in the browser page via `cdp eval` over the tr list. Two folders stuck at tiny sizes initially (62B / 1330B) — Enel and Radiesthesia Images likely.
-
-## Blocker: GitHub LFS migration required (2026-09-14 17:00 UTC)
-- GitHub rejected push: 2 PDFs exceed 100MB limit (Supersensonics_1978.pdf: 111MB, Chrisropher-Hills-Massy-Alive-to-the-Universe.pdf: 139MB)
-- Existing repo has large files committed directly (not via LFS), which worked before but new pushes are rejected
-- Fix requires: `git lfs migrate import --include="*.pdf,*.mp4" --everything` + force push
-- This rewrites history and requires coordination with other agents/fleet
-- Feed builder patched to generate `radiesthesia_books` from disk (survives rebuilds)
-- Christopher Hills folder processed (34 unique files, 4 dupes skipped) but not yet pushed
-
-## Completion criteria (then delete this cron + this file)
-- All 7 folders above extracted, deduped, copied into books/radiesthesia/, feed entries added, committed and pushed.
-- Update drunvalo/blind-spots-progress-2026-09-14.md item 3 to Done.
+extract → per-file md5 → skip >100MB (record) → skip dupes → copy to books/radiesthesia/<slug>/ → append feed entry → rm zip → commit → retry-push.
