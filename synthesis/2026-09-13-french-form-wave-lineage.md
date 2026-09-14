@@ -72,7 +72,7 @@ Between 1940 and 1950, Enel applied Chaumery's pendulum methods to the tombs of 
 
 ### 2.3 The Lakhovsky Connection
 
-Enel was the bridge between French radiesthesia and Georges Lakhovsky's Multiple-Wave Oscillator (MWO). From 1953 to 1963, he used the MWO in therapeutic contexts, and his third volume of *Carnets inédits* (edited by Guy Thieux) devotes substantial space to Lakhovsky's apparatus.
+Enel was the bridge between French radiesthesia and Georges Lakhovsky's Multiple-Wave Oscillator (MWO). From 1953 to 1963, he used the MWO in therapeutic contexts, and his third volume of *Carnets inédits* (Unpublished Notebooks) (edited by Guy Thieux) devotes substantial space to Lakhovsky's apparatus.
 
 This connection is crucial: the MWO is one of the few instruments in the alternative physics tradition with a contested but non-zero electrobiology pedigree. Enel's endorsement links the pendulum-dowsing tradition to high-voltage electrotherapy.
 
@@ -80,7 +80,7 @@ This connection is crucial: the MWO is one of the few instruments in the alterna
 
 Enel's Cairo period (1931–1953) produced his most influential work: the application of form-wave theory to Egyptian hieroglyphs and temple architecture. He held that the hieroglyphs were not merely phonetic but encoded vibratory information — a "language between Matter and Spirit."
 
-His *Science égyptienne et Médecine de l'Astral* (edited by Thieux, 2018) decodes funeral rites, the Opening of the Mouth ceremony, and the Ka/Ba distinction through a Cabalistic lens, proposing that Egyptian temple science was a form-wave technology for managing subtle bodies.
+His *Science égyptienne et Médecine de l'Astral* (Egyptian Science and Medicine of the Astral) (edited by Thieux, 2018) decodes funeral rites, the Opening of the Mouth ceremony, and the Ka/Ba distinction through a Cabalistic lens, proposing that Egyptian temple science was a form-wave technology for managing subtle bodies.
 
 ---
 
@@ -110,7 +110,7 @@ This is the most explicitly religious claim in the tradition: **sacred text func
 
 ### 3.4 The Reciprocal Circles Board
 
-From these principles, La Foye developed the **Tablette des cercles réciproques** — a rectangular wooden board with three interlocking circles:
+From these principles, La Foye developed the **Tablette des cercles réciproques* (Tablet of Reciprocal Circles)* — a rectangular wooden board with three interlocking circles:
 
 - **North circle:** Origin (oriented to magnetic north −5° = 355°). A needle through its center selects the color from the 24-color dial.
 - **Center circle:** The "microprocessor" or "heart," from which the guiding axes depart. Amplifiers may be placed here.
@@ -154,7 +154,7 @@ Jacques Ravatin — doctor of sciences in physics and mathematics, professor at 
 
 > "We no longer speak of form waves but of emissions due to forms. Why? Because we are not dealing with waves — neither those of the electromagnetic spectrum nor those of any other known vibratory system. In short: emissions due to forms do not belong to our physical universe."
 
-This is the break with the older school: where Chaumery and de Belizal spoke of *ondes de formes* (form waves), Ravatin's group reframed them as **EIFS (émissions induites par les formes)** — emergence phenomena outside conventional physics.
+This is the break with the older school: where Chaumery and de Belizal spoke of *ondes de formes* (form waves), Ravatin's group reframed them as **EIFS (émissions induites par les formes — emissions induced by forms)** — emergence phenomena outside conventional physics.
 
 ### 5.2 The Local, the Global, and the Idathème
 
@@ -178,7 +178,7 @@ This is the most ambitious claim: **algebra replacing ceremony** as the technolo
 
 ### 6.1 The Enel Manuscripts
 
-Guy Thieux — geophysicist, 34 years in petroleum prospecting — is Enel's literary legatee. He spent years in conversation with Enel before his death in 1963, then forty years preparing the *Carnets inédits* trilogy:
+Guy Thieux — geophysicist, 34 years in petroleum prospecting — is Enel's literary legatee. He spent years in conversation with Enel before his death in 1963, then forty years preparing the *Carnets inédits* (Unpublished Notebooks) trilogy:
 
 - **Tome I: Le Monde Astral et l'Occultisme** (2016) — esoteric constitution of man
 - **Tome II: Science égyptienne et Médecine de l'Astral** (2018) — Cabala-decoded hieroglyphs
@@ -277,8 +277,8 @@ What the tradition offers is not proof but **a sustained, systematic research pr
 2. de Belizal & Morel, *Physique Micro-Vibratoire et Forces Invisibles* (1965/1976)
 3. Enel, *Radiations des formes et cancer* (1951/1959)
 4. Jean de La Foye, *Ondes de vie, ondes de mort* (1975)
-5. Jacques Ravatin, *Développements autour des Formes et des Champs de Cohérence* (2008–2009)
-6. Guy Thieux (ed.), *Carnets inédits d'Enel* trilogy (2016–2019)
+5. Jacques Ravatin, *Développements autour des Formes et des Champs de Cohérence* (Developments around Forms and Coherence Fields) (2008–2009)
+6. Guy Thieux (ed.), *Carnets inédits d'Enel* (Enel's Unpublished Notebooks) trilogy (2016–2019)
 7. Servranx catalogue, *Barre atlante* product page (2024)
 
 ---

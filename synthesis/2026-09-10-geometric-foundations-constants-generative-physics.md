@@ -113,7 +113,7 @@ Ponce de León explicitly applies this to:
 
 ### 4.1 Maillot's Wave Universe Theory
 
-François Maillot's **Théorie de l'Univers Onde (TUO)** introduces a scalar Vacuum Tension field (T_v) as the unifying principle of physics [3].
+François Maillot's **Théorie de l'Univers Onde (TUO — Wave Universe Theory)** introduces a scalar Vacuum Tension field (T_v) as the unifying principle of physics [3].
 
 Key innovations:
 - **T_v as geometric property:** Vacuum tension is not an arbitrary field but a geometric state property of the medium
@@ -460,7 +460,7 @@ Either outcome advances understanding.
    - Pythagorean mathematical science, Platonic solids as force carrier templates
    - Geometric harmony in cube's 6-8-12 structure
 
-2. **Psicogeometría: Geometría en Materia y Energía** (translations/2026-08-29-sacred-geometry-matter-energy-qualities-es.md)
+2. **Psicogeometría: Geometría en Materia y Energía (Psychogeometry: Geometry in Matter and Energy)** (translations/2026-08-29-sacred-geometry-matter-energy-qualities-es.md)
    - Arturo Ponce de León, Psicogeometría México
    - Three constants (φ, π, e) as generative principles
    - Pentaflor process: spiral → sphere → solid
