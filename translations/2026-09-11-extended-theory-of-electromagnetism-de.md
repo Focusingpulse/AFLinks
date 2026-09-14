@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-extended-theory-of-electromagnetism-de"
+name: "Extended Theory of Electromagnetism (Barrett 1993) — Dirk Schadach"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-onde-di-forma-e-geometria-sacra-it"
+name: Form Waves and Sacred Geometry
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

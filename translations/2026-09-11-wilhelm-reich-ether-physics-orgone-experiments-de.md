@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de"
+name: ORANUR-PHYSIK
 description: "Full-document translation (assembled from completed chunks)."
 ---
 
