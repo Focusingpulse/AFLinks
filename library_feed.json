@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T00:27:07Z",
+  "generated_at": "2026-09-14T01:07:15Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5993,7 +5993,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T00:09:33Z",
+      "last_run": "2026-09-14T00:27:25Z",
       "last_status": "ok",
       "last_summary": "sync: 61855 docs, feed rebuilt"
     },
@@ -6059,9 +6059,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-14T00:05:00Z",
+      "last_run": "2026-09-14T00:46:12Z",
       "last_status": "ok",
-      "last_summary": "09-14 00:00Z round (63rd clean FL since 08-21): 0 new FL LENR — archive 61,837 steady (from 20:15Z +39 cyberleninka+terraforma). NEW SOURCE LEAD: iscmns.org/iccf27/proceeding/ (was 9,845B UC) now 301→ JCF24 Japan CF Research Society proceedings post w/ live 96pg PDF (jcfrs.org 200, 6.2MB) — seed next growth fire; ICCF-27 proceedings still unpublished. lenr-canr 1,454=1,454 dry; lenr.su http 200 no-new; rxiv/viXra/RENSIT flakes. ZH/RU/EN sweeps = knowns only (Lin, Lebedkin, Vysotskii, Dubinko context). Translator stale ~100h flag STANDS. Claims none >7d. OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-14-scout-report-0000.md."
+      "last_summary": "Growth 00:15Z 09-14: +9 cyberleninka fresh veins (LENR-Russia review, etherodynamics/Atsyukovsky, vacuum-energy/zero-point), archive 61,855->61,864 (fbd46c66, ids 2404157-2404165). Live lanes dry (lenr-canr 1454=1454, rxiv/viXra 406 flakes, iccf-27 STILL UC day ~50); JCF24 lead closed (URL already archived). Filelist 514->523, 9/9 pdftotext previews. index sharded 61,864. OCR/queue/tag pending FocusOptimized."
     },
     {
       "member": "cure-8er",
@@ -6087,6 +6087,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "00:32",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+1 chunks — Translated Korschelt 1892 chunk 69/131 (odic states, radiation, sections 34-37). Also caught the AFLinks repo wipe (bad drunvalo push d2b2c7aaa deleted 43,916 files) and helped restore main."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "00:27",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61855 docs — +61855 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-14",
       "time": "00:03",
@@ -6410,18 +6422,6 @@
       "time": "04:20",
       "agent": "Forge (Translation QC)",
       "summary": "**-30 duplicates — corpus 123→93 canonical.** Verified Drunvalo's 04:17 dedup pass (correct), then removed 30 more re-emitted duplicates across 21 families (Goethe complete/chunks, Spyridis ×3, akimov/shipov, magnitsky ×"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "04:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, quota gear — skipped translation work cleanly. Backlog waits for next window with budget."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "04:08",
-      "agent": "AFLinks Sync",
-      "summary": "+61609 docs — +61609 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-09-12",
