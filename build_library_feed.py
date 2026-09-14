@@ -341,8 +341,7 @@ def _declass_slug(filepath):
 
 def main():
     if not LL:
-        print("ERROR: living-library not found; aborting")
-        sys.exit(1)
+        print("WARN: living-library not found; will only scan AFLinks/translations/ for orphans")
     if not os.path.isdir(AFLINKS):
         print(f"ERROR: AFLINKS dir missing: {AFLINKS}; aborting")
         sys.exit(1)
@@ -589,6 +588,56 @@ def main():
                 shutil.copy2(path, os.path.join(translations_outdir, fname))
             except Exception as e:
                 print(f"  WARN: could not copy translation {fname}: {e}", flush=True)
+            translation_works.append({
+                "date": fname[:10],
+                "title": title_clean,
+                "domain": domain,
+                "source_url": src,
+                "language": lang,
+                "target_language": target_lang,
+                "file": fname,
+                "content_file": f"translations/{fname}",
+                "excerpt": body.strip()[:220],
+            })
+    # --- 2a. Orphaned translations in AFLinks not yet in living-library ---
+    # Files published directly to AFLinks/translations/ (by Forge, Sandra, Drunvalo)
+    # bypass the living-library source and never enter the feed. Scan for orphans.
+    if os.path.isdir(translations_outdir):
+        feed_files = {tw["file"] for tw in translation_works}
+        for path in sorted(glob.glob(os.path.join(translations_outdir, "*.md"))):
+            fname = os.path.basename(path)
+            if fname in feed_files:
+                continue
+            # Orphan found — parse and add to feed
+            meta, title, body = parse_md_frontmatter(path)
+            key = _norm_key(title or fname)
+            domain = meta.get("Domain") or meta.get("domain") or ""
+            src = meta.get("Source URL") or meta.get("source_url") or ""
+            lang = meta.get("source_language") or meta.get("Language") or meta.get("language") or ""
+            if not lang:
+                m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", fname, re.I)
+                if m:
+                    lang = LANG_NAMES.get(m.group(1).lower(), m.group(1).upper())
+            lang = _lang_label(lang)
+            target_lang = meta.get("target_language") or meta.get("Target Language") or "English"
+            target_lang = _lang_label(target_lang)
+            title_clean = title
+            garbage_patterns = [
+                r"^\d{4}-\d{2}-\d{2}-",
+                r"^Skip to main",
+                r"^Link to (Facebook|X|YouTube|Instagram)",
+                r"^Link to ",
+                r"^ACADEMY OF TRINITARIANISM",
+                r"^Chercheurs Du Vrai",
+                r"^WO\d+",
+                r"^\d+\.\s+\*\*",
+            ]
+            if any(re.match(p, title or "") for p in garbage_patterns):
+                base = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)
+                base = re.sub(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", "", base, flags=re.I)
+                base = re.sub(r"\.md$", "", base)
+                base = re.sub(r"[\s_-]+(fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)$", "", base, flags=re.I)
+                title_clean = re.sub(r"[-_]+", " ", base).strip().title()
             translation_works.append({
                 "date": fname[:10],
                 "title": title_clean,
