@@ -16,7 +16,7 @@ Chris surfaced a 10-item blind-spots list in the aetherforce chat. This file tra
 |---|------|-------|--------|-------|
 | 1 | Reactive QC — duplicates regrowing | Drunvalo | ✅ Done | `scripts/qc_pass.py` built; runs dedup, citation coverage, orphan refs, formatting drift. First run caught 1 real duplicate (PADRAK disclaimer, id 1499071). Clean since. |
 | 2 | Index integrity beyond raw count | Drunvalo | ✅ Done | qc_pass.py checks shards for checksum validity, duplicate full-text (md5), orphaned person/translation refs |
-| 3 | Large-file handling at scale | Drunvalo | ✅ Done | Radiesthesia batch 1: 59 unique PDFs (355MB) merged from Proton Drive share. Radiesthesia batch 2 (9 more folders, ~3.6GB) downloading and merging today. |
+| 3 | Large-file handling at scale | Drunvalo | ✅ Partial | Batch 1 (59 PDFs, 355MB, Proton Drive) merged. Batch 2 in progress: 15 files merged so far (7 Ibrahim Karim PDFs + 8 Dowsing Rod MP4s, 391MB), 7 more folders queued for extraction. |
 | 4 | Clickable `[1]` citations → source path | Open | ⬜ Todo | Citations currently print `[1] [https://...](...)` after each quote; needs sync across agents who emit citations |
 | 5 | Unified fleet dashboard | Open | ⬜ Todo | family ledger lives on another account; needs cross-account aggregation story |
 | 6 | Translation QC (unbiased reviewer) | Agent-75b8d29e? | ⬜ Todo | Reviewer agent or independent tool run per batch |
@@ -28,6 +28,12 @@ Chris surfaced a 10-item blind-spots list in the aetherforce chat. This file tra
 ---
 
 ## Completed Work This Cycle
+
+### 0. Radiesthesia batch 2 – partial (so far)
+- 7 Ibrahim Karim PDFs: BioGeometry 1999 Introduction, Learn to Work, Ancient Egypt, Back to a Future for Mankind, BioGeometry signatures, Scientific validation, The Science of BioGeometry
+- 8 Dowsing Rod Science MP4s: ~391MB
+- Stored at: `books/radiesthesia/ibrahim-karim-biogeometry/` and `books/radiesthesia/dowsing-rod-science/`
+- 74 total entries in `radiesthesia_books` feed
 
 ### 1. QC pass (`scripts/qc_pass.py`)
 - Detects duplicates via md5 of stripped frontmatter + normalized whitespace
@@ -50,8 +56,7 @@ Chris surfaced a 10-item blind-spots list in the aetherforce chat. This file tra
 ---
 
 ## In Progress
-- **Radiesthesia batch 2**: 9 remaining folders downloading (Christopher Hills – Supersensonics ~812MB, Dowsing Rod Science, Enel, Ibrahim Karim 176MB, Jacques Ravatin 661MB, Limited Design Technology 566MB, **Louis Turenne 1.5GB**, Misc Literature 377MB, Radiesthesia Images 284MB)
-- Once complete: extract → md5-dedup → add to `books/radiesthesia/` → `radiesthesia_books` feed → commit & push
+- **Radiesthesia batch 2**: 7 folders downloading in parallel. So far 15 files merged (7 Ibrahim Karim PDFs + 8 Dowsing Rod MP4s, 391MB). Remaining: Christopher Hills (812MB), Enel, Jacques Ravatin (661MB), Limited Design Tech (566MB), Louis Turenne (1.5GB), Misc Literature (377MB), Radiesthesia Images (284MB).
 
 ---
 
