@@ -1,0 +1,81 @@
+# Ignore source documents (too large for GitHub)
+docs/
+
+# Ignore macOS system files
+.DS_Store
+._.DS_Store
+
+# Ignore the 19GB of Rex Research source files
+*.pdf
+*.md
+*.gif
+*.jpg
+*.png
+*.mp3
+*.mp4
+*.wmv
+*.avi
+*.zip
+*.doc
+*.docx
+
+# Exception: published book set + translations for the Living Library page
+!books/
+!books/**
+!books/**/*.pdf
+!sources/
+!sources/**
+!sources/**/*.md
+!translations/
+!translations/**
+!translations/**/*.md
+
+# Exception: Drunvalo fleet/activity reports for the site feed
+!drunvalo/
+!drunvalo/**
+!drunvalo/**/*.md
+
+# Exception: Cure 8er (Synthesist) fleet/activity reports for the site feed
+!synthesist/
+!synthesist/**
+!synthesist/**/*.md
+
+# Exception: Synthesis documents for the Living Library
+!synthesis/
+!synthesis/**
+!synthesis/**/*.md
+
+# Exception: Paradigm Signal Reports (The Connector) for the Living Library
+!paradigm/
+!paradigm/**
+!paradigm/**/*.md
+
+# Exception: Declassified records (markdown cards with links) for the Living Library
+!declassified/
+!declassified/**
+!declassified/**/*.md
+
+# Exceptions: governance + audit docs (NOT source documents)
+!SHELF_WORTHY_BACKLOG.md
+!PARALLEL_SCRAPE.md
+!link_audit_report.md
+
+# Exceptions: scout/forge reporting channel + contract doc
+!scout/
+!scout/**
+!scout/**/*.md
+!scout/**/*.json
+!forge/
+!forge/**
+!forge/**/*.md
+!forge/**/*.json
+!SCOUT_FORGE_REPORTING.md
+!cron_prompts/
+!cron_prompts/**
+
+# Exception: keychests design reference assets (small, curated)
+!reference/keychests-original/
+!reference/keychests-original/**
+!images/
+!images/**
+__pycache__/

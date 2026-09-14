@@ -1,0 +1,3757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aetherforce Knowledge Vault — Archive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tokens.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta name="description" content="Aetherforce Knowledge Vault — 52,701 cataloged primary-source documents (36,014 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
+    <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
+    <meta property="og:description" content="61,855 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
+    <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+    <meta name="twitter:card" content="summary">
+    <script type="application/ld+json" id="siteJsonLd">
+    {"@context":"https://schema.org","@type":"WebSite","@id":"https://focusingpulse.github.io/AFLinks/","name":"Aetherforce Knowledge Vault","description":"Primary-source documents on alternative science — aether, torsion, LENR, water vortex, ether dynamics — preserved, translated and cross-linked.","url":"https://focusingpulse.github.io/AFLinks/","potentialAction":{"@type":"SearchAction","target":"https://focusingpulse.github.io/AFLinks/?cat={query}","query-input":"required name=query"}}
+    </script>
+    <style>
+        :root {
+            --bg: #0b0f14;
+            --surface: #141c27;
+            --surface-hover: #1e2a38;
+            --accent: #4fc3f7;
+            --accent-dim: #2a6b85;
+            --accent-dim-strong: #1c4a5e;
+            --accent-glow: rgba(79, 195, 247, 0.15);
+            --text: #e8eef4;
+            --text-dim: #8a9bae;
+            --border: #253242;
+            --category-bg: #1a2634;
+            --meta-bg: #1e1a34;
+            --meta-accent: #b39ddb;
+            --meta-border: #4a3a6b;
+            --patent-bg: #1a2e1e;
+            --patent-accent: #81c784;
+            --patent-border: #2e6b3a;
+            --shadow: 0 4px 12px rgba(0,0,0,0.35);
+            --gold: #e8b64c;
+            --gold-bright: #ffd166;
+            --sea-deep: #03171e;
+            --sea-teal: #17b8a9;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.5;
+        }
+        /* ─── Hero ─── */
+        .hero {
+            background: linear-gradient(135deg, #0a1622 0%, #152233 60%, #0d1b2a 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 28px 20px 18px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--accent);
+            letter-spacing: -0.02em;
+            margin-bottom: 6px;
+        }
+        .hero p {
+            font-size: 0.85rem;
+            color: var(--text-dim);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .hero-af-link {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 20px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .hero-af-link:hover {
+            background: var(--accent);
+            color: var(--bg);
+        }
+        /* ─── Archive nav — the Layers & the Scopes ─── */
+        .teaching-nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 12px 20px 2px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 3;
+        }
+        .teaching-nav .tn-group {
+            display: inline-flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 100%;
+            gap: 4px;
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            padding: 4px 6px;
+            background: rgba(20, 28, 39, 0.7);
+        }
+        .teaching-nav .tn-label {
+            font-size: 0.66rem;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            padding: 0 6px;
+            font-weight: 700;
+        }
+        .teaching-nav .tn-label.layers { color: var(--sea-teal); }
+        .teaching-nav .tn-label.scopes { color: var(--gold); }
+        .teaching-nav a {
+            font-size: 0.76rem;
+            color: var(--text-dim);
+            text-decoration: none;
+            padding: 5px 11px;
+            border-radius: 999px;
+            transition: all 0.15s;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .teaching-nav a:hover { background: var(--surface-hover); color: var(--text); }
+        .teaching-nav a.here {
+            background: var(--accent-dim);
+            color: var(--accent);
+        }
+        .teaching-nav a.briefings-link {
+            color: var(--gold-bright);
+            border: 1px solid rgba(232,182,76,0.35);
+            background: rgba(232,182,76,0.07);
+        }
+        .teaching-nav a.briefings-link:hover { background: var(--gold); color: var(--bg); }
+        @media (max-width: 760px) {
+            .teaching-nav { flex-direction: column; align-items: center; gap: 10px; }
+            .teaching-nav .tn-group { border-radius: 16px; }
+        }
+        /* ─── Search bar ─── */
+        .search-bar {
+            max-width: 1400px;
+            margin: 14px auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        .search-bar input[type="text"] {
+            flex: 1;
+            padding: 11px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 0.95rem;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .search-bar input[type="text"]:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+        .search-bar input[type="text"]::placeholder {
+            color: var(--text-dim);
+        }
+        .btn {
+            padding: 11px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 0.85rem;
+            cursor: pointer;
+            transition: all 0.15s;
+            white-space: nowrap;
+        }
+        .btn:hover {
+            background: var(--surface-hover);
+            border-color: var(--accent-dim);
+        }
+        .btn-primary {
+            background: var(--accent-dim-strong, #1c4a5e);
+            color: #d6eef9;
+            border-color: var(--accent-dim-strong, #1c4a5e);
+        }
+        .btn-primary:hover {
+            background: var(--accent);
+            color: var(--bg);
+        }
+        .stats {
+            font-size: 0.78rem;
+            color: var(--text-dim);
+            white-space: nowrap;
+        }
+        /* ─── Mobile sidebar toggle ─── */
+        .sidebar-toggle {
+            display: none;
+            padding: 10px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 0.85rem;
+            cursor: pointer;
+            margin: 0 12px 8px;
+            align-items: center;
+            gap: 8px;
+            max-width: 1400px;
+        }
+        .sidebar-toggle:hover {
+            background: var(--surface-hover);
+            border-color: var(--accent-dim);
+        }
+        /* ─── Main layout ─── */
+        .main-container {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 18px;
+            gap: 18px;
+        }
+        .sidebar {
+            width: 260px;
+            flex-shrink: 0;
+        }
+        .sidebar h2 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--text-dim);
+            margin-bottom: 10px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        /* ─── Meta-category list ─── */
+        .meta-category-list {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            max-height: 30vh;
+            overflow-y: auto;
+            padding-right: 4px;
+            margin-bottom: 16px;
+        }
+        .meta-category-list::-webkit-scrollbar { width: 6px; }
+        .meta-category-list::-webkit-scrollbar-track { background: transparent; }
+        .meta-category-list::-webkit-scrollbar-thumb { background: var(--meta-border); border-radius: 3px; }
+        .meta-category-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 7px 11px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.12s;
+            font-size: 0.82rem;
+            user-select: none;
+            border: 1px solid transparent;
+        }
+        .meta-category-item:hover {
+            background: var(--surface-hover);
+            border-color: var(--meta-border);
+        }
+        .meta-category-item.active {
+            background: var(--meta-bg);
+            color: var(--meta-accent);
+            border-color: var(--meta-border);
+        }
+        .meta-category-count {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            background: var(--surface);
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+        .meta-category-item.active .meta-category-count {
+            background: rgba(179, 157, 219, 0.15);
+            color: var(--meta-accent);
+        }
+        .meta-section-label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--meta-accent);
+            margin-bottom: 8px;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--meta-border);
+            opacity: 0.8;
+        }
+        /* ─── Category list ─── */
+        .category-list {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            max-height: 40vh;
+            overflow-y: auto;
+            padding-right: 4px;
+        }
+        .category-list::-webkit-scrollbar { width: 6px; }
+        .category-list::-webkit-scrollbar-track { background: transparent; }
+        .category-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+        .category-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 7px 11px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.12s;
+            font-size: 0.84rem;
+            user-select: none;
+        }
+        .category-item:hover {
+            background: var(--surface-hover);
+        }
+        .category-item.active {
+            background: var(--accent-dim);
+            color: #fff;
+        }
+        .category-item.dimmed {
+            opacity: 0.35;
+        }
+        .category-count {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            background: var(--surface);
+            padding: 2px 8px;
+            border-radius: 10px;
+        }
+        .category-item.active .category-count {
+            background: rgba(255,255,255,0.15);
+            color: #fff;
+        }
+        .filter-section {
+            margin-top: 18px;
+        }
+        .filter-section select {
+            width: 100%;
+            padding: 9px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 0.84rem;
+            outline: none;
+        }
+        .clear-filters {
+            font-size: 0.78rem;
+            color: var(--accent);
+            cursor: pointer;
+            text-decoration: underline;
+            margin-top: 12px;
+            display: none;
+        }
+        .clear-filters:hover {
+            color: var(--text);
+        }
+        .content {
+            flex: 1;
+            min-width: 0;
+        }
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .results-count {
+            font-size: 0.84rem;
+            color: var(--text-dim);
+        }
+        .active-filter-display {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+        .active-filter-chip {
+            font-size: 0.72rem;
+            padding: 3px 10px;
+            border-radius: 12px;
+            background: var(--accent-dim);
+            color: var(--accent);
+            border: 1px solid var(--accent-dim);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .active-filter-chip.meta {
+            background: var(--meta-bg);
+            color: var(--meta-accent);
+            border-color: var(--meta-border);
+        }
+        .active-filter-chip:hover {
+            opacity: 0.8;
+        }
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 12px;
+        }
+        /* ─── Cards ─── */
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 15px;
+            transition: border-color 0.15s, transform 0.1s, box-shadow 0.15s;
+            cursor: pointer;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .card:hover {
+            border-color: var(--accent-dim);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        .card-researcher {
+            font-size: 0.76rem;
+            color: var(--meta-accent);
+            margin-bottom: 4px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .card-title {
+            font-size: 0.88rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.35;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .card-preview {
+            font-size: 0.76rem;
+            color: var(--text-dim);
+            line-height: 1.4;
+            margin-bottom: 8px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            font-style: italic;
+        }
+        .card-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-bottom: 8px;
+        }
+        .category-tag {
+            font-size: 0.68rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: var(--category-bg);
+            color: var(--accent);
+            border: 1px solid var(--border);
+        }
+        .meta-tag {
+            font-size: 0.66rem;
+            padding: 2px 7px;
+            border-radius: 10px;
+            background: var(--meta-bg);
+            color: var(--meta-accent);
+            border: 1px solid var(--meta-border);
+        }
+        .patent-tag {
+            font-size: 0.66rem;
+            padding: 2px 7px;
+            border-radius: 10px;
+            background: var(--patent-bg);
+            color: var(--patent-accent);
+            border: 1px solid var(--patent-border);
+            font-family: 'SF Mono', 'Consolas', monospace;
+        }
+        .card-patents {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-bottom: 6px;
+        }
+        .card-meta {
+            display: flex;
+            gap: 12px;
+            font-size: 0.74rem;
+            color: var(--text-dim);
+            flex-wrap: wrap;
+            margin-top: auto;
+        }
+        .card-meta span {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        /* Provenance row — "why trust it?" at a glance */
+        .card-provenance {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px dashed var(--border);
+        }
+        .card-provenance .prov-sep {
+            color: var(--border);
+        }
+        .card-provenance .prov-status {
+            margin-left: auto;
+            padding: 1px 8px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            font-size: 0.66rem;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+        .card-provenance .prov-status.prov-af {
+            color: var(--gold-bright);
+            border-color: var(--gold);
+        }
+        /* AF badge on card — shows this has Aetherforce content */
+        .card-af-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 0.68rem;
+            padding: 3px 8px;
+            border-radius: 6px;
+            background: var(--accent-glow);
+            color: var(--accent);
+            border: 1px solid var(--accent-dim);
+            margin-top: 8px;
+        }
+        .card-af-badge.none {
+            display: none;
+        }
+        .card-source-link {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+            margin-top: 6px;
+        }
+        .card-source-link a {
+            color: var(--text-dim);
+            text-decoration: none;
+        }
+        .card-source-link a:hover {
+            color: var(--accent);
+        }
+        .btn-mode {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-dim);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 0.78rem;
+            cursor: pointer;
+            transition: color 144ms ease, border-color 144ms ease;
+            white-space: nowrap;
+        }
+        .btn-mode:hover {
+            color: var(--gold-bright);
+            border-color: var(--gold);
+        }
+        /* ─── Modal ─── */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.75);
+            z-index: 200;
+            justify-content: center;
+            align-items: center;
+            padding: 16px;
+        }
+        .modal-overlay.active {
+            display: flex;
+        }
+        .modal {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            max-width: 720px;
+            width: 100%;
+            max-height: 85vh;
+            overflow-y: auto;
+            padding: 22px;
+            box-shadow: var(--shadow);
+        }
+        .modal .modal-researcher {
+            font-size: 0.9rem;
+            color: var(--meta-accent);
+            font-weight: 600;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .modal h2 {
+            color: var(--accent);
+            margin-bottom: 14px;
+            font-size: 1.15rem;
+            line-height: 1.35;
+            padding-right: 30px;
+        }
+        .modal .modal-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+        .modal .modal-meta-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-bottom: 14px;
+        }
+        .modal .modal-patents {
+            margin-bottom: 14px;
+        }
+        .modal .modal-patents-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--patent-accent);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+        .modal .modal-patent-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        .modal .modal-preview {
+            margin-bottom: 14px;
+            padding: 12px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+        }
+        .modal .modal-preview-label {
+            font-size: 0.72rem;
+            font-weight: 600;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+        }
+        .modal .modal-preview-text {
+            font-size: 0.82rem;
+            color: var(--text);
+            line-height: 1.5;
+            white-space: pre-wrap;
+            display: -webkit-box;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .modal .modal-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            font-size: 0.82rem;
+            color: var(--text-dim);
+        }
+        .modal .modal-meta strong {
+            color: var(--text);
+        }
+        .modal .close-btn {
+            float: right;
+            cursor: pointer;
+            color: var(--text-dim);
+            font-size: 1.6rem;
+            line-height: 1;
+            margin-top: -6px;
+        }
+        .modal .close-btn:hover {
+            color: var(--accent);
+        }
+        /* AF section — the star of the modal */
+        .af-section {
+            margin-top: 14px;
+            padding: 16px;
+            background: var(--accent-glow);
+            border: 1px solid var(--accent-dim);
+            border-radius: 12px;
+        }
+        .af-section-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        .af-section-logo {
+            font-size: 1.1rem;
+        }
+        .af-section-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+        .af-link {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            padding: 8px 12px;
+            margin: 4px 0;
+            border-radius: 8px;
+            background: rgba(79, 195, 247, 0.06);
+            color: var(--accent);
+            text-decoration: none;
+            border: 1px solid var(--accent-dim);
+            transition: all 0.15s;
+        }
+        .af-link:hover {
+            background: var(--accent-dim);
+            color: #fff;
+        }
+        .af-link-type {
+            font-size: 0.65rem;
+            opacity: 0.5;
+            margin-left: auto;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .af-link-icon {
+            font-size: 0.85rem;
+        }
+        /* Rex source — secondary, below AF */
+        .rex-source {
+            margin-top: 14px;
+            padding-top: 14px;
+            border-top: 1px solid var(--border);
+        }
+        .rex-source-title {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-dim);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .rex-source-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 8px 14px;
+            background: var(--surface);
+            color: var(--text-dim);
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.82rem;
+            border: 1px solid var(--border);
+            transition: all 0.15s;
+        }
+        .rex-source-link:hover {
+            color: var(--accent);
+            border-color: var(--accent-dim);
+        }
+        /* ─── Footer ─── */
+        .footer {
+            max-width: 1400px;
+            margin: 30px auto 0;
+            padding: 24px 18px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            border-top: 1px solid var(--border);
+        }
+        .footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 12px;
+        }
+        .footer-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 6px 14px;
+            border-radius: 8px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        .footer-links a:hover {
+            background: var(--surface-hover);
+            border-color: var(--accent-dim);
+        }
+        .footer-credit {
+            margin-top: 14px;
+            font-size: 0.72rem;
+            opacity: 0.7;
+        }
+        /* ─── Today's Salvage (first-paint artifact — baked, no JS needed) ─── */
+        .salvage {
+            max-width: 760px;
+            margin: 14px auto 2px;
+            padding: 0 20px;
+        }
+        .salvage-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .salvage-title {
+            color: var(--gold-bright);
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 0.02em;
+        }
+        .salvage-sub {
+            color: var(--text-dim);
+            font-size: 0.78rem;
+        }
+        .salvage-card {
+            display: block;
+            background: linear-gradient(135deg, var(--surface) 0%, #182335 100%);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--gold);
+            border-radius: 12px;
+            padding: 14px 16px;
+            text-decoration: none;
+            color: var(--text);
+            transition: border-color 144ms ease, transform 144ms ease;
+        }
+        .salvage-card:hover,
+        .salvage-card:focus {
+            border-color: var(--gold);
+            transform: translateY(-1px);
+        }
+        .salvage-person {
+            display: block;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+            margin-bottom: 2px;
+        }
+        .salvage-doc-title {
+            display: block;
+            font-weight: 600;
+            font-size: 1.02rem;
+            margin-bottom: 4px;
+            color: var(--text);
+        }
+        .salvage-preview {
+            display: block;
+            color: var(--text-dim);
+            font-size: 0.85rem;
+            line-height: 1.45;
+            margin-bottom: 6px;
+        }
+        .salvage-meta {
+            display: block;
+            color: var(--sea-teal);
+            font-size: 0.75rem;
+            letter-spacing: 0.02em;
+        }
+        /* ─── Loading / no results ─── */
+        .loading {
+            text-align: center;
+            padding: 60px;
+            color: var(--text-dim);
+            font-size: 1rem;
+        }
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: var(--text-dim);
+        }
+        /* ─── Mobile responsive ─── */
+        @media (max-width: 768px) {
+            .hero { padding: 20px 16px 14px; }
+            .hero h1 { font-size: 1.3rem; }
+            .sidebar-toggle {
+                display: flex;
+            }
+            .main-container {
+                flex-direction: column;
+                padding: 12px;
+                gap: 12px;
+            }
+            .sidebar {
+                width: 100%;
+                display: none;
+            }
+            .sidebar.open {
+                display: block;
+            }
+            .meta-category-list {
+                max-height: 35vh;
+            }
+            .category-list {
+                max-height: 35vh;
+            }
+            .category-list {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 5px;
+            }
+            .category-item { display: inline-flex; padding: 6px 10px; }
+            .results-grid { grid-template-columns: 1fr; }
+            .search-bar { flex-direction: column; gap: 8px; padding: 0 12px; }
+            .stats { text-align: center; }
+            .btn { width: 100%; }
+            .modal { max-height: 90vh; padding: 16px; }
+            .modal h2 { font-size: 1rem; }
+        }
+
+        /* ─── What's New — Mission Control HUD ─── */
+        .whats-new {
+            max-width: 1400px;
+            margin: 12px auto 4px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+        .wn-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+        .wn-title {
+            font-size: 0.78rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .wn-title .wn-live {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: #69f0ae;
+            box-shadow: 0 0 8px #69f0ae;
+            animation: wnPulse 2s infinite;
+        }
+        @keyframes wnPulse { 0%,100% { opacity: 1; } 50% { opacity: 0.35; } }
+        .wn-more {
+            font-size: 0.75rem;
+            color: var(--accent);
+            background: var(--accent-glow);
+            border: 1px solid var(--accent-dim);
+            border-radius: 8px;
+            padding: 6px 14px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .wn-more:hover { background: var(--accent); color: var(--bg); }
+        .wn-counters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+        .wn-counter {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 12px;
+            text-align: center;
+            transition: border-color 0.15s, box-shadow 0.15s;
+            display: block;
+            color: inherit;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .wn-counter:hover { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent-dim); }
+        .wn-counter .lbl::after {
+            content: ' ↗';
+            opacity: 0;
+            transition: opacity 0.15s;
+        }
+        .wn-counter:hover .lbl::after { opacity: 1; }
+        .wn-counter .num {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: var(--accent);
+            line-height: 1.1;
+            text-shadow: 0 0 12px var(--accent-glow);
+        }
+        .wn-counter .lbl {
+            font-size: 0.6rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+            margin-top: 3px;
+        }
+        .wn-fleet {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+        .wn-agent {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 8px 10px;
+            font-size: 0.8rem;
+            transition: border-color 0.15s;
+            cursor: default;
+        }
+        .wn-agent:hover { border-color: var(--accent); }
+        .wn-agent .icon { font-size: 1.1rem; flex-shrink: 0; }
+        .wn-agent .who { flex: 1; min-width: 0; }
+        .wn-agent .who .nm {
+            font-weight: 600;
+            color: var(--text);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .wn-agent .who .ms {
+            font-size: 0.68rem;
+            color: var(--text-dim);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .wn-agent .status-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .wn-agent .status-dot.live {
+            background: #69f0ae;
+            box-shadow: 0 0 8px #69f0ae;
+            animation: wnPulse 2s infinite;
+        }
+        .wn-agent .status-dot.wait { background: #5a6b7d; }
+        .wn-activity {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 8px 14px;
+        }
+        /* What's New — fresh cargo: only-here items */
+        .wn-news {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+        .wn-news-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--gold);
+            border-radius: 8px;
+            padding: 8px 12px;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+            transition: border-color 0.15s, transform 0.15s;
+        }
+        .wn-news-item:hover { border-color: var(--gold); transform: translateX(2px); }
+        .wn-news-item .wnn-date { font-size: 0.68rem; color: #5a6b7d; font-variant-numeric: tabular-nums; }
+        .wn-news-item .wnn-title { font-size: 0.82rem; font-weight: 600; color: var(--text); margin: 2px 0; }
+        .wn-news-item .wnn-ex { font-size: 0.72rem; color: var(--text-dim); }
+        .wn-news-item .wnn-badge {
+            display: inline-block;
+            font-size: 0.6rem;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            color: var(--gold-bright);
+            border: 1px solid var(--gold);
+            border-radius: 20px;
+            padding: 1px 8px;
+            margin-bottom: 3px;
+        }
+        .wn-news-item.kind-translation { border-left-color: var(--accent); }
+        .wn-news-item.kind-translation .wnn-badge { color: var(--accent); border-color: var(--accent-dim-strong); }
+        .wn-news-item.kind-declassified { border-left-color: var(--meta-accent); }
+        .wn-news-item.kind-declassified .wnn-badge { color: var(--meta-accent); border-color: var(--meta-border); }
+        .wn-news-item.kind-find { border-left-color: var(--patent-accent); }
+        .wn-news-item.kind-find .wnn-badge { color: var(--patent-accent); border-color: var(--patent-border); }
+        .wn-activity .item {
+            font-size: 0.78rem;
+            color: var(--text-dim);
+            padding: 4px 0;
+            border-bottom: 1px dashed var(--border);
+            display: flex;
+            gap: 10px;
+            align-items: baseline;
+        }
+        .wn-activity .item:last-child { border-bottom: none; }
+        .wn-activity .item .when {
+            color: #5a6b7d;
+            flex-shrink: 0;
+            font-variant-numeric: tabular-nums;
+            font-size: 0.7rem;
+        }
+        .wn-activity .item .what { color: var(--text); }
+        .wn-activity .item .what b { color: var(--accent); font-weight: 600; }
+        /* ─── Synthesis briefings — what the archive is learning ─── */
+        .synth-strip {
+            max-width: 1300px;
+            margin: 4px auto 2px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+        .synth-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+        .synth-title {
+            font-size: 0.78rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--sea-teal);
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .synth-title .synth-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--sea-teal);
+            box-shadow: 0 0 8px var(--sea-teal);
+        }
+        .synth-more {
+            font-size: 0.75rem;
+            color: var(--gold-bright);
+            background: rgba(232,182,76,0.07);
+            border: 1px solid rgba(232,182,76,0.3);
+            border-radius: 8px;
+            padding: 6px 14px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .synth-more:hover { background: var(--gold); color: var(--bg); }
+        .synth-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+        }
+        .synth-card {
+            background: linear-gradient(160deg, var(--surface), #101a25);
+            border: 1px solid var(--border);
+            border-left: 3px solid var(--sea-teal);
+            border-radius: 10px;
+            padding: 12px 14px;
+            cursor: pointer;
+            transition: border-color 0.15s, transform 0.1s, box-shadow 0.15s;
+        }
+        .synth-card:hover {
+            border-color: var(--sea-teal);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(23,184,169,0.10);
+        }
+        .synth-card .sc-date {
+            font-size: 0.7rem;
+            color: var(--gold);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .synth-card .sc-title {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text);
+            line-height: 1.4;
+            margin-bottom: 6px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .synth-card .sc-teaser {
+            font-size: 0.78rem;
+            color: var(--text-dim);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .synth-card .sc-read {
+            font-size: 0.75rem;
+            color: var(--sea-teal);
+            font-weight: 600;
+            margin-top: 8px;
+            display: block;
+        }
+        .synth-card:hover .sc-read { color: var(--gold-bright); }
+        @media (max-width: 640px) {
+            .synth-grid { grid-template-columns: 1fr; }
+        }
+        /* ═══════════════ PIRATE'S PARADISE — Key Chest Dial ═══════════════ */
+        .pirate-hero {
+            background:
+                radial-gradient(1200px 500px at 50% -120px, rgba(23,184,169,0.22), transparent 60%),
+                radial-gradient(900px 400px at 85% 110%, rgba(232,182,76,0.12), transparent 60%),
+                linear-gradient(165deg, #03171e 0%, #06232c 45%, #051d26 100%);
+            border-bottom: 1px solid rgba(232,182,76,0.28);
+            position: relative;
+            overflow: hidden;
+            padding: 40px 20px 42px;
+        }
+        .pirate-hero .hero-kicker {
+            display: inline-block;
+            font-size: 0.72rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--gold);
+            border: 1px solid rgba(232,182,76,0.35);
+            border-radius: 999px;
+            padding: 4px 14px 4px 10px;
+            margin-bottom: 10px;
+            background: rgba(232,182,76,0.08);
+            font-weight: 700;
+        }
+        .pirate-hero h1 {
+            font-family: 'Pirata One', 'Georgia', serif;
+            font-weight: 400;
+            font-size: 2.4rem;
+            letter-spacing: 1px;
+            color: var(--gold-bright);
+            text-shadow: 0 0 24px rgba(232,182,76,0.35), 0 2px 0 rgba(0,0,0,0.5);
+            margin-bottom: 8px;
+        }
+        .pirate-hero p {
+            color: #bfd8d4;
+            max-width: 640px;
+        }
+        .pirate-hero .hero-trans {
+            color: var(--gold);
+            font-size: 0.78rem;
+            margin-top: 8px;
+            letter-spacing: 0.5px;
+        }
+        .hero-actions { margin-top: 16px; display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+        .hero-af-link { border: 1px solid rgba(232,182,76,0.4); background: rgba(232,182,76,0.1); color: var(--gold-bright); }
+        .hero-af-link:hover { background: var(--gold); color: #052028; }
+        .hero-cta-main {
+            font-size: 1rem;
+            padding: 13px 28px;
+            background: var(--gold);
+            color: #052028;
+            border: 1px solid var(--gold-bright);
+            box-shadow: 0 0 24px rgba(232,182,76,0.35);
+            font-weight: 700;
+        }
+        .hero-cta-main:hover { background: var(--gold-bright); color: #052028; }
+        .hero-community {
+            margin: 20px auto 0;
+            max-width: 700px;
+            border: 1px solid rgba(232,182,76,0.28);
+            border-radius: 14px;
+            background: rgba(9, 26, 33, 0.75);
+            padding: 14px 18px 16px;
+        }
+        .hero-community .hc-title {
+            font-family: 'Pirata One', 'Georgia', serif;
+            color: var(--gold-bright);
+            font-size: 1.05rem;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .hero-community .hc-line {
+            color: #9fc0bb;
+            font-size: 0.82rem;
+            max-width: 560px;
+            margin: 0 auto 11px;
+        }
+        .hero-community .hc-links {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .hero-community .hc-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 0.8rem;
+            padding: 7px 15px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.15s;
+        }
+        .hero-community .hc-link:hover { border-color: var(--gold); color: var(--gold-bright); background: rgba(232,182,76,0.08); }
+        /* key dial */
+        .keydial {
+            max-width: 1400px;
+            margin: 10px auto 6px;
+            padding: 18px 20px 22px;
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(180deg, rgba(9,34,42,0.85), rgba(7,26,33,0.9));
+            border: 1px solid rgba(232,182,76,0.22);
+            border-radius: 16px;
+        }
+        .kd-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 14px;
+        }
+        .kd-title {
+            font-family: 'Pirata One', 'Georgia', serif;
+            font-size: 1.45rem;
+            color: var(--gold-bright);
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .kd-sub {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        .kd-stage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 14px;
+        }
+        .kd-lock-wrap {
+            position: relative;
+            width: min(82vw, 370px);
+            height: min(82vw, 370px);
+            margin: 0 auto;
+        }
+        .kd-lock-wrap svg.kd-lock { width: 100%; height: 100%; display: block; }
+        .kd-lock-wrap .kd-lock { cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
+        .kd-lock-wrap.dragging .kd-lock { cursor: grabbing; }
+        /* combination-lock window: the one big readable selection */
+        .kd-window {
+            position: absolute;
+            bottom: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            min-height: 62px;
+            background: linear-gradient(180deg, #0a2430, #071a22);
+            border: 2px solid rgba(232,182,76,0.75);
+            border-radius: 14px;
+            box-shadow: 0 0 22px rgba(232,182,76,0.28), inset 0 0 12px rgba(0,0,0,0.65);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1px;
+            padding: 8px 12px;
+            text-align: center;
+            z-index: 3;
+            cursor: pointer;
+            transition: box-shadow 0.25s;
+        }
+        .kd-window:hover { box-shadow: 0 0 30px rgba(232,182,76,0.45), inset 0 0 12px rgba(0,0,0,0.65); }
+        .kd-window .win-lens {
+            font-family: 'Pirata One', serif;
+            font-size: 1.35rem;
+            line-height: 1.12;
+            color: var(--gold-bright);
+            max-width: 100%;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .kd-window .win-count {
+            font-size: 0.72rem;
+            letter-spacing: 1px;
+            color: #9fc0bb;
+            white-space: nowrap;
+        }
+        /* pointer: gold caret above the window pointing at the selected tick */
+        .kd-pointer {
+            position: absolute;
+            bottom: 46px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0; height: 0;
+            border-left: 9px solid transparent;
+            border-right: 9px solid transparent;
+            border-bottom: 13px solid #ffd166;
+            filter: drop-shadow(0 0 6px rgba(255,209,102,0.8));
+            z-index: 3;
+            pointer-events: none;
+        }
+        .kd-inner {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 6px;
+            width: 100%;
+            /* [prescribed: BQH golden ratio — dial stage (440px) : content rail = 1:1.618 → 712px]
+               Source: Karim BQH proportions, rexresearch.com/biogeom/biogeom.htm */
+            max-width: 712px;
+            margin: 4px auto 0;
+            padding: 8px;
+            border-radius: 14px;
+            background: rgba(9,34,42,0.55);
+            border: 1px solid rgba(232,182,76,0.18);
+        }
+        @media (max-width: 480px) {
+            .kd-inner { grid-template-columns: 1fr 1fr; max-width: 100%; }
+        }
+        .kc-chip {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background: rgba(10,32,39,0.9);
+            border: 1px solid rgba(232,182,76,0.25);
+            border-radius: 999px;
+            padding: 5px 9px;
+            font-size: 0.68rem;
+            color: #cfe3df;
+            cursor: pointer;
+            transition: all 0.15s;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-width: 0;
+        }
+        .kc-chip .cnt { color: var(--gold); opacity: 0.85; font-size: 0.62rem; margin-left: auto; flex-shrink: 0; }
+        .kc-chip:hover { border-color: var(--gold); background: rgba(232,182,76,0.12); }
+        .kc-chip.sel { border-color: var(--gold-bright); background: rgba(232,182,76,0.2); color: #fff3d6; box-shadow: 0 0 10px rgba(232,182,76,0.3); }
+        .kc-chip.ghost { opacity: 0.24; pointer-events: none; }
+        /* hub: keyhole + chest */
+        .kd-hub {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: auto;
+            max-width: 480px;
+            margin: 2px auto 0;
+            padding: 10px 22px;
+            border-radius: 999px;
+            background: linear-gradient(180deg, rgba(22,52,60,0.95), rgba(10,36,44,0.95));
+            border: 2px solid rgba(232,182,76,0.55);
+            box-shadow: 0 0 18px rgba(232,182,76,0.2), inset 0 0 14px rgba(0,0,0,0.5);
+            transition: box-shadow 0.3s;
+            cursor: pointer;
+            text-align: center;
+        }
+        .kd-hub.open { box-shadow: 0 0 26px rgba(255,209,102,0.5), inset 0 0 14px rgba(0,0,0,0.6); }
+        .kd-hub .hub-chest {
+            width: 52px;
+            height: 52px;
+            flex-shrink: 0;
+            background: url('images/chest-open.png') center/contain no-repeat;
+            filter: drop-shadow(0 0 8px rgba(255,209,102,0.45));
+            transition: transform 0.25s;
+        }
+        .kd-hub.closed .hub-chest { background-image: url('images/chest-closed.png'); filter: drop-shadow(0 0 4px rgba(0,0,0,0.6)) brightness(0.75); }
+        .kd-hub .hub-text { display: flex; flex-direction: column; align-items: center; min-width: 0; }
+        .kd-hub .hub-lens {
+            font-size: 0.6rem;
+            letter-spacing: 1px;
+            text-transorm: uppercase;
+            color: #9fc0bb;
+            max-width: 240px;
+            text-align: center;
+            line-height: 1.2;
+        }
+        .kd-hub .hub-subj {
+            font-family: 'Pirata One', serif;
+            font-size: 0.95rem;
+            color: var(--gold-bright);
+            max-width: 240px;
+            text-align: center;
+            line-height: 1.1;
+        }
+        .kd-spin-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; justify-content: center; }
+        .kd-spin {
+            font-family: 'Pirata One', serif;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            padding: 8px 22px;
+            border-radius: 999px;
+            border: 1px solid var(--gold);
+            background: linear-gradient(180deg, #f4c95d, #d9962b);
+            color: #231503;
+            cursor: pointer;
+            box-shadow: 0 3px 10px rgba(232,182,76,0.3);
+            transition: transform 0.12s, box-shadow 0.12s;
+        }
+        .kd-spin:hover { transform: translateY(-1px); box-shadow: 0 5px 14px rgba(232,182,76,0.4); }
+        .kd-spin:active { transform: translateY(1px); }
+        .kd-focus {
+            background: linear-gradient(180deg, #e8c860, #b8860b);
+            border-color: #ffd166;
+        }
+        .kd-modes { display: flex; gap: 4px; border: 1px solid rgba(232,182,76,0.3); border-radius: 999px; padding: 3px; }
+        .kd-mode {
+            font-size: 0.74rem; font-weight: 700;
+            letter-spacing: 0.5px;
+            border: none; background: none; color: var(--text-dim);
+            padding: 5px 12px; border-radius: 999px; cursor: pointer;
+            transition: all 0.15s;
+        }
+        .kd-mode.on { background: rgba(232,182,76,0.2); color: var(--gold-bright); box-shadow: 0 0 10px rgba(232,182,76,0.15) inset; }
+        .kd-mode:hover { color: var(--gold-bright); }
+        @media (max-width: 560px) {
+            .kd-modes { order: 3; width: 100%; justify-content: center; }
+        }
+        .kd-nav {
+            font-size: 0.9rem;
+            padding: 6px 12px;
+            border-radius: 999px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.05);
+            color: #cfe3df;
+            cursor: pointer;
+        }
+        .kd-nav:hover { border-color: var(--gold); color: var(--gold-bright); }
+        .kd-readout {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            letter-spacing: 0.5px;
+            text-align: center;
+            min-height: 18px;
+        }
+        /* treasure spill */
+        .kd-spill { display: none; width: 100%; margin-top: 6px; }
+        .kd-spill.show { display: block; animation: spillIn 0.4s ease; }
+        @keyframes spillIn { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+        .kd-spill-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-bottom: 8px;
+        }
+        .kd-spill-title {
+            font-family: 'Pirata One', serif;
+            font-size: 1.15rem;
+            color: var(--gold-bright);
+        }
+        .kd-spill-title .crumbs { font-size: 0.8rem; color: var(--text-dim); font-family: system-ui, sans-serif; letter-spacing: 0.3px; }
+        .kd-open-all {
+            font-size: 0.75rem;
+            color: #0d2b33;
+            background: var(--gold);
+            border-radius: 999px;
+            padding: 6px 14px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .kd-open-all:hover { background: var(--gold-bright); }
+        .kd-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 8px; }
+        .kd-card {
+            background: linear-gradient(180deg, rgba(20,26,33,0.6), rgba(12,20,24,0.85));
+            border: 1px solid rgba(232,182,76,0.15);
+            border-radius: 12px;
+            padding: 10px 12px;
+            cursor: pointer;
+            transition: all 0.15s;
+            border-left: 3px solid rgba(232,182,76,0.5);
+        }
+        .kd-card:hover { border-color: var(--gold); transform: translateY(-1px); background: rgba(232,182,76,0.07); }
+        .kd-card .t {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .kd-card .s {
+            font-size: 0.68rem;
+            color: var(--text-dim);
+            margin-top: 3px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .kd-card .m { font-size: 0.62rem; color: var(--gold); margin-top: 4px; opacity: 0.85; }
+        .kd-toast {
+            position: fixed;
+            bottom: 18px;
+            left: 50%;
+            transform: translateX(-50%) translateY(80px);
+            background: rgba(8,26,32,0.95);
+            border: 1px solid var(--gold);
+            color: var(--gold-bright);
+            padding: 10px 18px;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            z-index: 99;
+            transition: transform 0.3s;
+            pointer-events: none;
+            font-family: 'Pirata One', serif;
+            letter-spacing: 0.5px;
+        }
+        .kd-toast.show { transform: translateX(-50%) translateY(0); }
+
+        @media (max-width: 480px) {
+            .pirate-hero h1 { font-size: 1.7rem; }
+            .kd-list { grid-template-columns: 1fr; }
+            .kd-lock-wrap { width: min(78vw, 320px); height: min(78vw, 320px); }
+            .kd-window { width: 66%; min-height: 56px; bottom: -10px; }
+            .kd-window .win-lens { font-size: 1.15rem; }
+            .kd-hub { max-width: 94%; padding: 8px 14px; gap: 10px; }
+            .kd-hub .hub-chest { width: 46px; height: 46px; }
+            .kd-hub .hub-lens { font-size: 0.56rem; max-width: 170px; }
+            .kd-hub .hub-subj { font-size: 0.9rem; max-width: 170px; }
+            .kd-inner { grid-template-columns: 1fr 1fr; gap: 5px; }
+            .kc-chip { font-size: 0.66rem; padding: 5px 8px; }
+        }
+    </style>
+</head>
+<body>
+    <a class="skip-link" href="#results">Skip to results</a>
+    <!-- Hero: pirate's paradise, Aetherforce front and center -->
+    <div class="hero pirate-hero">
+        <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
+        <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
+        <p>Explore <span id="heroDocCount">61,855</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">43,345</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">97</span> translations published · <span id="heroPagesCount">2,706</span> pages translated &amp; growing</p>
+        <div class="hero-actions">
+            <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
+            <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
+            <a class="hero-af-link" href="./library.html">⚓ Living Library</a>
+        </div>
+        <div class="hero-community">
+            <div class="hc-title" data-t="hc-title">🏴‍☠️ This is the underground treasure-chest layer of Aetherforce</div>
+            <div class="hc-line">The archive is the map. The real treasure is the people — the community gathering, the connections being made as we build and grow. Join the crew on the main project and the socials.</div>
+            <div class="hc-links">
+                <a class="hc-link" href="https://www.aetherforce.energy" target="_blank">🌐 Aetherforce.energy</a>
+                <a class="hc-link" href="https://www.aetherforce.energy/resources/articles/" target="_blank">📖 Articles</a>
+                <a class="hc-link" href="https://www.aetherforce.energy/shop-2" target="_blank">🛒 Shop</a>
+                <a class="hc-link" href="https://www.aetherforce.energy/resources/links/" target="_blank">🔗 Resource Guide</a>
+                <a class="hc-link" href="https://t.me/aetherforceposts" target="_blank">💬 Telegram</a>
+            </div>
+        </div>
+    </div>
+    <div class="wave-divider" aria-hidden="true"></div>
+    <!-- Biosignature divider [aesthetic arrangement of prescribed Karim shapes — biosignatures.js] -->
+    <div data-bgsig="divider" data-bg-color="var(--gold, #e8b64c)" aria-hidden="true"></div>
+
+    <!-- Archive nav — the Layers (archive depth) & the Scopes (analysis tools) -->
+    <nav class="teaching-nav" aria-label="Archive navigation">
+        <span class="tn-group">
+            <span class="tn-label layers">✦ The Layers</span>
+            <a href="./index.html" class="here" title="Browse every document — patents, papers & research">🗝 Archive</a>
+            <a href="./vault.html" title="The seams — where categories cross-reference each other">🔭 Vault</a>
+            <a href="./library.html" title="Translations, researchers & the crew's finds">⚓ Living Library</a>
+        </span>
+        <span class="tn-group">
+            <span class="tn-label scopes">✦ The Scopes</span>
+            <a href="./lens.html" title="Cross-reference analysis — how authors think">💠 Lens</a>
+            <a href="./pathways.html" title="Curated five-document journeys into the hidden sciences">🗺 Pathways</a>
+            <a href="./synthesis.html" class="briefings-link" data-t="fleet-nav" title="Reports — what the fleet is learning">⚗ Fleet Briefings</a>
+        </span>
+        <span class="tn-group">
+            <span class="tn-label scopes">✦ The Perspectives</span>
+            <a href="./cosmology.html" title="Standard &amp; alternative cosmology from twelve angles — Robitaille, Chizhevsky, Tyson, the ledger">🌌 Cosmology</a>
+            <a href="./masters.html" title="The founding lineage — Tesla, Keely, Russell, Schauberger, Gariaev">✦ Masters</a>
+            <a href="./insiders.html" title="Credentialed critics publishing in the mainstream journals">✦ Insiders</a>
+            <a href="./qualitative-science.html" title="The physics of quality — qualitative science and its lineage">◈ Qualitative Science</a>
+            <a href="./connectors.html" title="The people who connect the separate lines of research">🕸 Connectors</a>
+        </span>
+        <span class="tn-group">
+            <span class="tn-label scopes" data-t="charts">✦ The Charts</span>
+            <a href="./about.html" title="Who built this, and why">🧭 About</a>
+            <a href="./methodology.html" title="How documents are sourced, curated & verified">📜 Methodology</a>
+        </span>
+    </nav>
+
+    <!-- Search -->
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search by title, inventor, patent number, or topic..." autocomplete="off" aria-label="Search the archive">
+        <button class="btn btn-primary" onclick="showRandom()">🎲 Random</button>
+        <button class="btn btn-mode" id="modeToggle" onclick="toggleMode()" title="Switch between pirate and plain language" aria-pressed="false">📖 Plain</button>
+        <span class="stats" id="stats">Loading...</span>
+    </div>
+
+    <!-- Today's Salvage — one artifact baked into the page at build time, so the
+         first paint carries a real document (with a working link), not a spinner. -->
+    <section class="salvage" aria-label="Today's Salvage — one artifact from the hold">
+        <div class="salvage-head">
+            <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
+            <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
+        </div>
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01519587.html">
+    <span class="salvage-person">👤 </span>
+    <span class="salvage-doc-title">Crehore Would Give Secret of Gravity: Yonkers Scientist&#x27;s Analysis of Puzzle Centuries Based on Electro-Physics</span>
+    <span class="salvage-preview">Crehore Would Give Secret of Gravity: Yonkers Scientist&#x27;s Analysis of Puzzle Centuries Based on Electro-Physics - Natural Philosophy Wiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Rand…</span>
+    <span class="salvage-meta">naturalphilosophy.wiki · Alternative Energy Technologies · Patents &amp; Inventions</span>
+</a><!-- SALVAGE:END -->
+    </section>
+
+    <noscript>
+        <div class="noscript-box">
+            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">61,855</span> documents</strong> are still yours to explore:</p>
+            <ul>
+                <li><a href="./stats.json">Live stats (small JSON — agents welcome)</a></li>
+                <li><a href="./index.html?cat=Aether%20Physics">Browse Aether Physics</a></li>
+                <li><a href="./index.html?cat=Energy">Browse Energy</a></li>
+                <li><a href="./index.html?cat=LENR%20%2F%20Cold%20Fusion">Browse LENR / Cold Fusion</a></li>
+                <li><a href="./about.html">About the Vault</a> · <a href="./methodology.html">Methodology</a></li>
+            </ul>
+        </div>
+    </noscript>
+
+    <!-- What's New — Mission Control HUD -->
+    <div class="whats-new" id="whatsNew">
+        <div class="wn-head">
+            <span class="wn-title"><span class="wn-live"></span> What's New · Mission Control</span>
+            <a class="wn-more" href="./library.html">Open the full living record →</a>
+        </div>
+        <div class="wn-counters" id="wnCounters"></div>
+        <div class="wn-news" id="wnNews"></div>
+        <div class="wn-fleet" id="wnFleet"></div>
+        <div class="wn-activity" id="wnActivity"></div>
+    </div>
+
+    <!-- Key Chest Dial — spin the rings, unlock the treasure -->
+    <div class="keydial" id="keyDial">
+        <div class="kd-head">
+            <span class="kd-title" data-t="key-dial"><span class="key-icon"></span> Key &amp; Chest — Spin the Dial</span>
+            <div class="kd-modes" id="kdModes" role="group" aria-label="Dial dimension">
+                <button class="kd-mode on" data-mode="focus" id="kdModeFocus" title="The founding group's publishing focus" aria-pressed="true">★ Founders</button>
+                <button class="kd-mode" data-mode="paradigm" id="kdModeParadigm" title="Cross-cutting schools of thought — the way authors think" aria-pressed="false">⚡ Paradigms</button>
+            </div>
+            <span class="kd-sub">drag the ring or use ◀ ▶ to turn · click a lane to open a chest</span>
+        </div>
+        <div class="kd-stage">
+            <div class="kd-lock-wrap" id="kdLockWrap">
+                <svg class="kd-lock" id="kdLockSvg" viewBox="0 0 440 440" aria-label="Lock dial: spin to choose a subject"></svg>
+                <div class="kd-window" id="kdWindow" title="Open the chest">
+                    <span class="win-lens" id="kdWinLens">Pick a lane</span>
+                    <span class="win-count" id="kdWinCount"></span>
+                </div>
+                <div class="kd-pointer" aria-hidden="true"></div>
+            </div>
+            <div class="kd-hub closed" id="kdHub" title="Open the chest">
+                <span class="hub-chest" id="kdHubChest"></span>
+                <span class="hub-text">
+                    <span class="hub-lens" id="kdHubLens">—</span>
+                    <span class="hub-subj" id="kdHubSubj">pick a lane</span>
+                </span>
+            </div>
+            <div class="kd-inner" id="kdInner"></div>
+            <div class="kd-spin-row">
+                <button class="kd-nav" id="kdPrev" title="Previous lens">◀</button>
+                <button class="kd-spin" id="kdSpin" data-t="spin">⚓ Spin the Dial</button>
+                <button class="kd-spin kd-focus" id="kdFocusBtn" title="Jump to what the founders publish most">★ Founders&rsquo; Focus</button>
+                <button class="kd-nav" id="kdNext" title="Next lens">▶</button>
+            </div>
+            <div class="kd-readout" id="kdReadout"></div>
+            <div class="kd-spill" id="kdSpill"></div>
+        </div>
+    </div>
+    <div class="kd-toast" id="kdToast"></div>
+
+    <!-- Fleet briefings — what the agents are learning, under the dial, above the archive -->
+    <section class="synth-strip" id="synthStrip" aria-label="Fleet synthesis briefings">
+        <div class="synth-head">
+            <span class="synth-title" data-t="fleet-briefings"><span class="synth-dot"></span>⚗ Fleet Briefings · What We're Learning</span>
+            <a class="synth-more" href="./synthesis.html" id="synthMoreLink">All reports →</a>
+        </div>
+        <div class="synth-grid" id="synthCards"></div>
+    </section>
+
+    <!-- Mobile sidebar toggle -->
+    <button class="sidebar-toggle" id="sidebarToggle" onclick="toggleSidebar()">
+        <span>☰</span> Filters & Categories
+    </button>
+
+    <div class="main-container">
+        <div class="sidebar" id="sidebar">
+            <div class="meta-section-label">Meta-Categories</div>
+            <div class="meta-category-list" id="metaCategoryList"></div>
+            <h2>Categories</h2>
+            <div class="category-list" id="categoryList"></div>
+            <div class="filter-section">
+                <h2>Content Type</h2>
+                <select id="typeFilter">
+                    <option value="all">All Types</option>
+                    <option value="document">Documents Only</option>
+                    <option value="media">Media Only</option>
+                </select>
+            </div>
+            <div class="clear-filters" id="clearFilters" onclick="clearAllFilters()">Clear all filters</div>
+        </div>
+
+        <div class="content">
+            <div class="results-header">
+                <span class="results-count" id="resultsCount"></span>
+                <div class="active-filter-display" id="activeFilterDisplay"></div>
+            </div>
+            <div class="results-grid" id="results"></div>
+            <div class="loading" id="loading">The vault holds 55,218 documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)" role="dialog" aria-modal="true" aria-label="Document details">
+        <div class="modal" id="modal" tabindex="-1"></div>
+    </div>
+
+    <!-- Footer: Aetherforce ecosystem links -->
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="https://www.aetherforce.energy" target="_blank">🌐 Aetherforce</a>
+            <a href="https://www.aetherforce.energy/resources/articles/" target="_blank">📖 Articles</a>
+            <a href="https://www.aetherforce.energy/shop-2" target="_blank">🛒 Shop</a>
+            <a href="https://www.aetherforce.energy/resources/links/" target="_blank">🔗 Resource Guide</a>
+            <a href="https://t.me/aetherforceposts" target="_blank">💬 Telegram</a>
+            <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
+        </div>
+        <div class="footer-credit">
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-14</span>
+        </div>
+    </footer>
+
+    <!-- BioGeometry biosignature library [prescribed: Karim biosignatures — three-tier labeled] -->
+    <script src="./biosignatures.js"></script>
+    <script>
+        let allData = [];
+        let bakedTaxonomy = null; // taxonomy_counts.json — powers sidebar + dial before the big index loads
+        let indexPromise = null;  // lazy-load gate for the 65MB search_index.json
+
+        // ─── Crew Mode toggle — pirate vocabulary is the default; "Plain"
+        // swaps the major labels into plain language. Pure display, no state.
+        const MODE_TERMS = {
+            'kick':        ['🏴‍☠️ Ahoy, seeker of the hidden sciences', 'Explore the hidden sciences'],
+            'vault-name':  ['Aetherforce Treasure Vault', 'Aetherforce Knowledge Vault'],
+            'af-main':     ['🌐 Visit Aetherforce.energy — The Main Treasure →', '🌐 Visit Aetherforce.energy →'],
+            'enter-vault': ['🗝 Enter the Vault', '🗝 Browse the Archive'],
+            'hc-title':    ['🏴‍☠️ This is the underground treasure-chest layer of Aetherforce', 'This is the research layer of Aetherforce'],
+            'charts':      ['✦ The Charts', '✦ Explore'],
+            'fleet-nav':   ['⚗ Fleet Briefings', '⚗ Research Updates'],
+            'salvage':     ['⚓ Today\'s Salvage', '⚓ Today\'s Pick'],
+            'fleet-briefings': ['⚗ Fleet Briefings · What We\'re Learning', '⚗ Research Updates · What We\'re Learning'],
+            'key-dial':    ['Key & Chest — Spin the Dial', 'Browse by Topic'],
+            'spin':        ['⚓ Spin the Dial', '⚓ Browse'],
+        };
+        let crewMode = true;
+        function setMode(crew) {
+            crewMode = crew;
+            document.querySelectorAll('[data-t]').forEach(el => {
+                const pair = MODE_TERMS[el.dataset.t];
+                if (pair) el.textContent = pair[crew ? 0 : 1];
+            });
+            const btn = document.getElementById('modeToggle');
+            if (btn) {
+                btn.textContent = crew ? '📖 Plain' : '🏴‍☠️ Crew';
+                btn.setAttribute('aria-pressed', String(!crew));
+            }
+            try { localStorage.setItem('aflinksMode', crew ? 'crew' : 'plain'); } catch (e) {}
+        }
+        function toggleMode() { setMode(!crewMode); }
+        let tokenIndex = null; // {N, tokens:{tok:{df,ids}}} — rarity-ranked search
+        let searchMemo = { term: null, scores: null }; // cached per-term scores
+        const SEARCH_STOP = new Set(['the','and','for','with','from','von','der','die','das','und','des','que','les','une','est','this','that','these','those','has','had','was','were','are','is','of','in','on','at','to','a','an','it','its','as','by','or','not','be','been','but','do','does','did','have','having','will','would','can','could','should','may','might','must','shall','about','into','over','under','again','further','then','once','here','there','when','where','why','how','all','any','both','each','few','more','most','other','some','such','only','own','same','so','than','too','very','etc']);
+        function tokenizeSearch(term) {
+            return (String(term || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').match(/[a-z0-9]{3,}/g) || [])
+                .filter(t => !SEARCH_STOP.has(t));
+        }
+        function computeSearchScores(term) {
+            const toks = tokenizeSearch(term);
+            if (!tokenIndex || !tokenIndex.tokens || !toks.length) return null;
+            const N = tokenIndex.N || 0;
+            const scores = new Map();
+            toks.forEach(t => {
+                const entry = tokenIndex.tokens[t];
+                if (!entry) return;
+                const idf = Math.log((N + 1) / (entry.df + 1)) + 1;
+                (entry.ids || []).forEach(id => scores.set(id, (scores.get(id) || 0) + idf));
+            });
+            return scores;
+        }
+        function searchScoresFor(term) {
+            if (searchMemo.term !== term) {
+                searchMemo = { term: term, scores: computeSearchScores(term) };
+            }
+            return searchMemo.scores;
+        }
+        let fullManifest = null;
+        const fullCache = {};
+        let activeCategory = null;
+        let activeMetaCategory = null;
+        // Exact-set filter: a document must carry ALL of these meta-categories.
+        // Used by the vault's Vesica seam links (?cat=A&cat=B) to show overlaps.
+        let seamCats = [];
+        // Seam "fabric" mode: when arriving from the vault with &seam=1, filter
+        // to the full connected set — both-tagged docs PLUS crossings — so
+        // every row the vault displayed actually appears here.
+        let seamFabric = null; // { title, ids:Set }
+        let searchTerm = '';
+        let typeFilter = 'all';
+        let visibleCount = 0;
+        const PAGE_SIZE = 60;
+        let currentPage = 0;
+
+        // ─── Meta-category to sub-category mapping ───
+        const metaCategoryMap = {
+            "Aether, Light & Electricity": ["Aether Physics", "Light", "Magnetism", "Life Force"],
+            "Plasma, Torsion & Cosmology": ["Electric Universe", "Time", "Gravity"],
+            "Goethean & Anthroposophical Science": ["Goethean Science", "Natural Philosophy", "Language"],
+            "Radionics, Radiesthesia & Shape Power": ["Psychotronics"],
+            "Optics & Colour Therapy": ["Light", "Crystals"],
+            "Biological & Morphogenetic Science": ["Biology", "Health Medicine", "Consciousness"],
+            "Water Structure & Memory": ["Water", "Environmental"],
+            "Sacred & Projective Geometry": ["Geometry", "Architecture", "Construction"],
+            "Regenerative Agriculture": ["Agriculture"],
+            "Material Sciences & Alchemy": ["Chemistry", "Material Sciences"],
+            "Transhumanism & Psychotronic Warfare": ["Transhumanism", "Suppression"],
+            "Energy & Transportation": ["Energy Generation", "Renewable Energy", "Transportation"],
+            "Challenges to the Standard Model": ["Fallacies of Standard Model", "Borderland Research"],
+            "Harmonics, Rhythms & Cycles": ["Geometry", "Time", "Crystals"],
+            "Weather & Geo-Engineering": ["Environmental", "Transhumanism"]
+        };
+
+        // ─── Aetherforce live content mapping ───
+        const AF_BASE = 'https://www.aetherforce.energy';
+        const AF_ARTICLES = AF_BASE + '/resources/articles/';
+        const AF_SHOP = AF_BASE + '/shop-2';
+        const AF_LINKS = AF_BASE + '/resources/links/';
+
+        const AF_SHOP_SECTIONS = {
+            'coherent_field': AF_SHOP + '#coherent-field-generators',
+            'radionics': AF_SHOP + '#radionics-radiesthesia-and-shape-power',
+            'brainwave': AF_SHOP + '#brainwave-and-bio-field-entrainment',
+            'water_nutrition': AF_SHOP + '#water-revitalization-and-nutrition',
+            'info_ecosystem': AF_SHOP + '#informational-ecosystem'
+        };
+
+        const AF_LINKS_SECTIONS = {
+            'magnetism': AF_LINKS + '#magnetism',
+            'electric_universe': AF_LINKS + '#electric-plasma-universe',
+            'water': AF_LINKS + '#water',
+            'light': AF_LINKS + '#light-optics',
+            'walter_russell': AF_LINKS + '#walter-russell',
+            'tesla': AF_LINKS + '#nikola-tesla',
+            'kozyrev': AF_LINKS + '#kozyrev-torsion-russian-cosmism',
+            'scalar': AF_LINKS + '#scalar-longitudinal-science',
+            'goethean': AF_LINKS + '#goethean-science',
+            'orgonomy': AF_LINKS + '#orgonomy',
+            'cymatics': AF_LINKS + '#cymatics',
+            'harmonics': AF_LINKS + '#harmonics',
+            'biofield': AF_LINKS + '#biofield-science-electrobiology',
+            'psi': AF_LINKS + '#psi-remote-viewing',
+            'crystallography': AF_LINKS + '#crystallography',
+            'radionics': AF_LINKS + '#radionics',
+            'radiesthesia': AF_LINKS + '#radiesthesia',
+            'weather': AF_LINKS + '#weather-engineering',
+            'sacred_geometry': AF_LINKS + '#sacred-geometry',
+            'esoterica': AF_LINKS + '#esoterica',
+            'alchemy': AF_LINKS + '#alchemy'
+        };
+
+        // Exact permalink for each known Aetherforce article (verified live).
+        const AF_ARTICLE_URLS = {
+    "The Book of the Damned by Charles Fort": "https://www.aetherforce.energy/the-book-of-the-damned-by-charles-fort/",
+    "Formative Powers of the Living - Wolfgang Peter": "https://www.aetherforce.energy/formative-powers-of-the-living-wolfgang-peter/",
+    "Sorce Theory & SpinbitZ - Joel Morrison": "https://www.aetherforce.energy/sorce-theory-spinbitz-joel-morrison/",
+    "Unlocking Tesla's Aetheric Energy: The Untapped Potential of Tesla Coils and Wireless Power Transmission": "https://www.aetherforce.energy/tesla-coils-unleash-the-aether-by-hank-mills/",
+    "The True Story of Tesla's Greatest Discovery Radiant Matter by Gerry Vassilatos": "https://www.aetherforce.energy/the-true-story-of-teslas-radiant-matter/",
+    "Metamorphosis of Plants - Johann Wolfgang von Goethe": "https://www.aetherforce.energy/metamorphosis-of-plants-johann-wolfgang-von-goethe/",
+    "Electronics and the Living Plant by L. George Lawrence": "https://www.aetherforce.energy/electronics-and-the-living-plant-by-l-george-lawrence/",
+    "Secrets In Plain Sight by Scott Onstott": "https://www.aetherforce.energy/secrets-in-plain-by-scott-onstott/",
+    "The Embryo's Eloquent Form - About the Embryology of Jaap Van Der Wal": "https://www.aetherforce.energy/the-embryos-eloquent-form-about-the-embryology-of-jaap-van-der-wal/",
+    "Metamorphosis and Metamorphic Thinking by Craig Holdrege": "https://www.aetherforce.energy/metamorphosis-and-metamorphic-thinking-by-craig-holdrege/",
+    "Cymatics, Morphogenetic Fields, and Analog Computing by Rupert Sheldrake": "https://www.aetherforce.energy/cymatics-morphogenetic-fields-and-analog-computing-by-rupert-sheldrake/",
+    "Seeds of Light by George Merkl": "https://www.aetherforce.energy/seeds-of-light-by-george-merkl-2/",
+    "A Brief Explanation of SpectroChrome by Mark Fischer": "https://www.aetherforce.energy/1000-years-ahead-the-spectro-chrome-color-healing-system-part-1-by-mark-fischer/",
+    "The Heart is Not a Pump: A Paradigm Shift in Cardiovascular Understanding": "https://www.aetherforce.energy/the-heart-is-not-a-pump-the-blood-moves-the-heart-not-vice-versa/",
+    "Invisible Ultra-Violet Life Frequencies Made Visible  - A Summary of the Work of Royal Rife by Mark L. Gallert": "https://www.aetherforce.energy/invisible-ultra-violet-life-frequencies-made-visible-a-summary-of-the-work-of-royal-rife-by-mark-l-gallert/",
+    "Our Mysterious Visual Ray by Thomas Joseph Brown": "https://www.aetherforce.energy/our-mysterious-visual-ray-by-thomas-joseph-brown/",
+    "Ancient Cosmography & Crop Circles by Michael Theroux": "https://www.aetherforce.energy/ancient-cosmography-crop-circles-by-michael-theroux/",
+    "Dmitry Mendeleev: The Father of the Periodic Table and His Vision of the Aether": "https://www.aetherforce.energy/the-father-of-the-periodic-table-the-aether/",
+    "Torsion Chemistry by Robert A Nelson of Rex Research": "https://www.aetherforce.energy/torsion-chemistry-by-robert-a-nelson-of-rex-research/",
+    "Nature of Substance by Rudolf Hauschka": "https://www.aetherforce.energy/nature-of-substance-by-rudolf-hauschka/",
+    "New Organs of Perception: Goethean Science as a Cultural Therapeutics": "https://www.aetherforce.energy/new-organs-of-perception-goethean-science-as-a-cultural-therapeutics/",
+    "Swara Yoga - Hidden Knowledge of the Elements & Breath": "https://www.aetherforce.energy/swara-yoga-one-of-the-most-top-secret-knowledge-of-the-yogis/",
+    "Ingo Swann - The Grandfather of Remote Viewing": "https://www.aetherforce.energy/ingo-swann-the-grandfather-of-remote-viewing/",
+    "Kozyrev's Torsion Mirrors - Bending Time & Altering Consciousness": "https://www.aetherforce.energy/kozyrevs-mirrors-bending-time-altering-consciousness/",
+    "The Suppression of Inconvenient Facts in Physics by Rochus Boerner": "https://www.aetherforce.energy/the-suppression-of-inconvenient-facts-in-physics-by-rochus-boerner/",
+    "Comparing Traditional Science with Walter Russell's Vortex Cosmology": "https://www.aetherforce.energy/comparing-traditional-science-with-walter-russells-vortex-cosmology/",
+    "The Universe as Organism in Space and Time by Lawrence Edwards": "https://www.aetherforce.energy/the-universe-as-organism-in-space-and-time-by-lawrence-edwards/",
+    "The Internal Constitution of Stars by Nikolai Kozyrev": "https://www.aetherforce.energy/the-internal-constitution-of-stars-by-nikolai-kozyrev/",
+    "Harmonics as A Science - Hans Kayser": "https://www.aetherforce.energy/harmonics-as-a-science-hans-kayser/",
+    "Living Crystals Summary by George Merkl": "https://www.aetherforce.energy/merkl-living-crystal-summary/",
+    "Life Crystals and Chondriana - An Ancient Sacred Knowledge by George Merkl": "https://www.aetherforce.energy/life-crystals-and-chondriana-an-ancient-sacred-knowledge-by-george-merkl/",
+    "The Brilliance of the Bees by Gregor Arturo Clary": "https://www.aetherforce.energy/the-brilliance-of-the-bees-by-gregor-arturo-clary/",
+    "Phil Callahan on the Power of Paramagnetism": "https://www.aetherforce.energy/phil-callahan-on-the-power-of-paramagnetism-nexus-interview/",
+    "Plasma Birkeland Currents Resource Guide": "https://www.aetherforce.energy/plasma-birkeland-currents-resource-guide/",
+    "The Dougherty Network by Buddy James -  A Projective Geometric Model of Birkeland Currents": "https://www.aetherforce.energy/dougherty-set-by-buddy-james-a-projective-geometric-model-of-the-electric-vortex-universe/",
+    "SAFIRE Project - Confirming the Electric Sun Model and Elemental Transmutation": "https://www.aetherforce.energy/safire-project-confirming-the-electric-sun-model-and-elemental-transmutation/",
+    "On the Dissipation of the Electrical Energy by Nikola Tesla": "https://www.aetherforce.energy/on-the-dissipation-of-the-electrical-energy-by-nikola-tesla/",
+    "How the Planetary Energy Transmitter of Nikola Tesla Really Works": "https://www.aetherforce.energy/how-teslas-planetary-energy-transmitter-really-works/",
+    "The Karl Schappeller Device, Aether & Radiant Energy": "https://www.aetherforce.energy/the-karl-schappeller-device/",
+    "The Alchemy of Cold Fusion via Cavitation - An interview with Mark LeClaire": "https://www.aetherforce.energy/the-alchemy-of-cold-fusion-revealed/",
+    "Mark LeClaire's Cavitation Breakthroughs: Fusion, Transmutation, and the Origins of Life": "https://www.aetherforce.energy/cavitation-and-the-theory-of-life-by-mark-leclaire/",
+    "Notes on Vortex Geometry by Patrick And Gael Flanagan": "https://www.aetherforce.energy/notes-on-vortex-geometry-by-patrick-and-gael-flanagan/",
+    "The Farnsworth Fusor - The Most Notably Forgotten Episode in \"Hot\" Fusion History by Gerry Vassilatos": "https://www.aetherforce.energy/the-farnsworth-fusor/",
+    "Weather Engineering on the High Plains by Michael Theroux (1989)": "https://www.aetherforce.energy/tbt-weather-engineering-on-the-high-plains-1989/",
+    "Seed of Knowledge, Stone of Plenty: Chapters 3 & 4 by John Burke and Kaj Halberg": "https://www.aetherforce.energy/seed-of-knowledge-stone-of-plenty-chapter-3-4-by-john-burke-and-kaj-halberg/",
+    "Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison": "https://www.aetherforce.energy/nondual-rational-empiricism-the-ontic-shadow-of-post-modernity-by-joel-morrison/",
+    "The Fallacies of Relativistic Time Travel by Nick Thomas": "https://www.aetherforce.energy/is-relativistic-time-travel-possible-by-nick-thomas/",
+    "The Form of Wholeness: Multiplicity and Unity": "https://www.aetherforce.energy/the-form-of-wholeness-multiplicity-and-unity/",
+    "Geometry of the Matrix by Caleb Thomas": "https://www.aetherforce.energy/geometry-of-the-matrix-we-live-in-by-caleb-thomas/",
+    "Goethe and the Evolution of Science - Craig Holdrege": "https://www.aetherforce.energy/goethe-and-the-evolution-of-science/",
+    "All Science Must Be Rooted in Experience by Stephen Talbott": "https://www.aetherforce.energy/all-science-must-be-rooted-in-experience-by-stephen-talbott-2/",
+    "\"Zarte Empirie\": Goethean Science as a Way of Knowing by Daniel Christian Wahl": "https://www.aetherforce.energy/zarte-empirie-goethean-science-as-a-way-of-knowing-by-daniel-christian-wahl/",
+    "Goethean Science - The Dynamical View of Natural Form by T. Irwin & S. Baxter": "https://www.aetherforce.energy/goethean-science-the-dynamical-view-of-natural-form-by-t-irwin-s-baxter/",
+    "Tesla's Dynamic Theory of Gravity": "https://www.aetherforce.energy/teslas-dynamic-theory-of-gravity/",
+    "Some Considerations Concerning Anti-Gravity & Related Matters by Joel Wendt": "https://www.aetherforce.energy/some-considerations-concerning-anti-gravity-related-matters-by-joel-wendt/",
+    "Schappeller, Searl and Gravity by John A. Thomas, Jr.": "https://www.aetherforce.energy/schappeller-searl-and-gravity-by-john-a-thomas-jr/",
+    "The Heart is NOT a Pump": "https://www.aetherforce.energy/the-heart-is-not-a-pump/",
+    "The Stairway of the Trivium & Natural Law by Mark Passio": "https://www.aetherforce.energy/the-stairway-of-the-trivium-by-mark-passio/",
+    "The Book of \"N\" by Jeronimo Canty": "https://www.aetherforce.energy/the-book-of-n-by-jeronimo-canty/",
+    "Creating a Star in a Jar via Sound Induced Cavitation": "https://www.aetherforce.energy/creating-a-star-in-a-jar-via-sound-induced-cavitation/",
+    "A Resource Guide for the Life Force Research of Joseph H. Cater": "https://www.aetherforce.energy/a-resource-guide-for-the-life-force-research-of-work-of-joseph-h-cater/",
+    "Radiesthesic Radiations are not Electromagnetic by Enel": "https://www.aetherforce.energy/radiesthesic-radiations-are-not-electromagnetic-by-enel/",
+    "Unlocking the 49 Octaves of Light: Harmonizing Sound, Color, and Healing": "https://www.aetherforce.energy/the-forty-nine-octaves-of-sound-and-light/",
+    "The TAO of Colours: Exploring the Dynamic Interplay of Light and Darkness by Doug Marsh": "https://www.aetherforce.energy/the-tao-of-colours-by-doug-marsh/",
+    "Goethe and the Boundary Colours by Pehr Sallstrom": "https://www.aetherforce.energy/goethe-and-the-boundary-colours-by-pehr-sallstrom/",
+    "Timeline of Electricity, Magnetism, and Aether Theories: Key Discoveries from 900 BC to 1905": "https://www.aetherforce.energy/a-ridiculously-brief-history-of-electricity-and-magnetism/",
+    "A Primer on Transmutation by Chester A. Hatstat, Jr": "https://www.aetherforce.energy/a-primer-on-transmutation-by-chester-a-hatstat-jr/",
+    "Working of the Stars in Earthly Substances - Lili Kolisko's Experimental Validation of the Planet-Metal Relationships of Alchemy": "https://www.aetherforce.energy/working-of-the-stars-in-earthly-substances-lili-koliskos-experimental-validation-of-the-planet-metal-relationships-of-alchemy/",
+    "Cymatics and the Shape of Sound with John Stuart Reid": "https://www.aetherforce.energy/cymatics-and-the-shape-of-sound-with-john-stuart-reid/",
+    "The Music of the Spheres, or the Metaphysics of Music by Robert Kelly": "https://www.aetherforce.energy/the-music-of-the-spheres-or-the-metaphysics-of-music/",
+    "The Foundations of Scientific Musical Tuning by Jonathan Tennenbaum": "https://www.aetherforce.energy/the-foundations-of-scientific-musical-tuning-by-jonathan-tennenbaum/",
+    "Goethe, Nature, and Phenomenology by David Seamon": "https://www.aetherforce.energy/goethe-nature-and-phenomenology-by-david-seamon/",
+    "Build Your Own Symbolic Hieronymus Radionics Instrument by Joseph Max": "https://www.aetherforce.energy/diy-symbolic-hieronymus-machine-by-josephmax/",
+    "Uncle Chuckie's Radionic Notebook": "https://www.aetherforce.energy/uncle-chuckies-radionic-notebook/",
+    "Haphazard Radionics - \"Elemend\" Technology by Gerry Vassilatos": "https://www.aetherforce.energy/haphazard-radionics-elemend-tecnhnology-by-gerry-vassilatos/",
+    "Organon & Imago - Radionics, Thoughts & Resonant Patterns by H. Philippi, D. Sc.": "https://www.aetherforce.energy/organon-imago-radionics-thoughts-resonant-patterns-by-h-philippi-d-sc/",
+    "Eloptic Energy - Another Form of Energy is Discovered that has Infinite Possibilities by T.G. Hieronymous": "https://www.aetherforce.energy/another-form-of-energy-is-discovered-that-has-infinite-possibilities-by-t-g-hieronymous/",
+    "The Causal Time Machine, Antigravity, & Isodual Locomotion of Hadronic Mechanics by Ruggerro Santilli": "https://www.aetherforce.energy/the-causal-time-machine-antigravity-isodual-locomotion-of-hadronic-mechanics-by-ruggerro-santilli/",
+    "On Mechanical Occultism by Georg Unger": "https://www.aetherforce.energy/on-mechanical-occultism-by-georg-unger/",
+    "The Sacred Number Seven by H.P. Blavatksy": "https://www.aetherforce.energy/the-sacred-number-seven-by-h-p-blavatksy/",
+    "The Broadcast Power of Nikola Tesla - Part II by Gerry Vassilatos": "https://www.aetherforce.energy/the-broadcast-power-of-nikola-tesla-part-ii-by-gerry-vassilatos/",
+    "Kozyrev's Legacy: Unveiling Aether, Time, and Torsion Fields in Modern Physics": "https://www.aetherforce.energy/kozyrev-aether-time-and-torsion/",
+    "Dharmata Universes Phase-kissing - Universal Hyper-Intelligence by Ananda Bosman": "https://www.aetherforce.energy/dharmata-universes-phase-kissing-universal-hyper-intelligence-by-ananda-bosman/",
+    "Water Structurizers by Jason Verbelli": "https://www.aetherforce.energy/water-structurizers-by-jason-verbelli/",
+    "The Water of Life (H2O)37 & the Geometry of Light by Perseas": "https://www.aetherforce.energy/the-water-of-life-h2o37-the-geometry-of-light-by-perseas/",
+    "EZ Water and the Heart - Gerald Pollack": "https://www.aetherforce.energy/ez-water-and-the-heart-gerald-pollack/",
+    "Water, Hydrogen Bonding, and the Microwave Background by Pierre-Marie Robitaille": "https://www.aetherforce.energy/water-hydrogen-bonding-and-the-microwave-background-by-pierre-marie-robitaille/",
+    "Judgment through Intuitive Perception - Johann Wolfgang von Goethe": "https://www.aetherforce.energy/judgment-through-intuitive-perception-johann-wolfgang-von-goethe/",
+    "Polarity by Johann Wolfgang von Goethe": "https://www.aetherforce.energy/polarity-by-johann-wolfgang-von-goethe/",
+    "Empirical Observation and Science by Johann Wolfgang von Goethe": "https://www.aetherforce.energy/empirical-observation-and-science/",
+    "Qualities by Stephen L. Talbott": "https://www.aetherforce.energy/qualities-by-stephen-l-talbott/",
+    "What Are Qualities by Stephen L. Talbott": "https://www.aetherforce.energy/what-are-qualities-by-stephen-l-talbott/",
+    "Music, Alchemy, & Projective Geometry by Michael Theroux": "https://www.aetherforce.energy/music-alchemy-projective-geometry-by-michael-theroux/",
+};;;;;
+
+        const AF_REAL_ARTICLES = [
+            { title: "The Book of the Damned by Charles Fort", cats: ["Aether Physics", "Suppression", "Borderland Research"] },
+            { title: "New Organs of Perception: Goethean Science as a Cultural Therapeutics", cats: ["Goethean Science", "Consciousness"] },
+            { title: "Goethe and the Evolution of Science - Craig Holdrege", cats: ["Goethean Science"] },
+            { title: "Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison", cats: ["Natural Philosophy", "Fallacies of Standard Model"] },
+            { title: "Formative Powers of the Living - Wolfgang Peter", cats: ["Aether Physics", "Life Force"] },
+            { title: "All Science Must Be Rooted in Experience by Stephen Talbott", cats: ["Goethean Science"] },
+            { title: "Sorce Theory & SpinbitZ - Joel Morrison", cats: ["Aether Physics", "Natural Philosophy"] },
+            { title: "Judgment through Intuitive Perception - Johann Wolfgang von Goethe", cats: ["Goethean Science"] },
+            { title: "Polarity by Johann Wolfgang von Goethe", cats: ["Goethean Science"] },
+            { title: "Empirical Observation and Science by Johann Wolfgang von Goethe", cats: ["Goethean Science"] },
+            { title: "Harmonics as A Science - Hans Kayser", cats: ["Geometry", "Crystals"] },
+            { title: "Metamorphosis and Metamorphic Thinking by Craig Holdrege", cats: ["Goethean Science", "Biology"] },
+            { title: "Metamorphosis of Plants - Johann Wolfgang von Goethe", cats: ["Biology", "Agriculture"] },
+            { title: "The Embryo's Eloquent Form - About the Embryology of Jaap Van Der Wal", cats: ["Biology"] },
+            { title: "Organon & Imago - Radionics, Thoughts & Resonant Patterns by H. Philippi, D. Sc.", cats: ["Psychotronics"] },
+            { title: "The Form of Wholeness: Multiplicity and Unity", cats: ["Geometry"] },
+            { title: "Qualities by Stephen L. Talbott", cats: ["Goethean Science"] },
+            { title: "What Are Qualities by Stephen L. Talbott", cats: ["Goethean Science"] },
+            { title: "Kozyrev's Legacy: Unveiling Aether, Time, and Torsion Fields in Modern Physics", cats: ["Time", "Alternative Physics"] },
+            { title: "The Suppression of Inconvenient Facts in Physics by Rochus Boerner", cats: ["Fallacies of Standard Model", "Quantum & Relativity", "Suppression"] },
+            { title: "The Alchemy of Cold Fusion via Cavitation - An interview with Mark LeClaire", cats: ["Energy Generation", "LENR / Cold Fusion"] },
+            { title: "On the Dissipation of the Electrical Energy by Nikola Tesla", cats: ["Energy", "Tesla", "Steinmetz"] },
+            { title: "Water, Hydrogen Bonding, and the Microwave Background by Pierre-Marie Robitaille", cats: ["Water / Hydrogen", "Water"] },
+            { title: "A Brief Explanation of SpectroChrome by Mark Fischer", cats: ["Biology / Health", "Health Medicine"] },
+            { title: "The Brilliance of the Bees by Gregor Arturo Clary", cats: ["Electromagnetism", "Electric Universe", "Magnetism"] },
+            { title: "The True Story of Tesla's Greatest Discovery Radiant Matter by Gerry Vassilatos", cats: ["Tesla", "Aether Physics"] },
+            { title: "Some Considerations Concerning Anti-Gravity & Related Matters by Joel Wendt", cats: ["Gravity", "Transportation"] },
+            { title: "Weather Engineering on the High Plains by Michael Theroux (1989)", cats: ["Environmental", "Environment / Climate"] },
+            { title: "Build Your Own Symbolic Hieronymus Radionics Instrument by Joseph Max", cats: ["Psionics / Radionics", "Psychotronics"] },
+            { title: "The Stairway of the Trivium & Natural Law by Mark Passio", cats: ["Language", "Reference Material"] },
+            { title: "Geometry of the Matrix by Caleb Thomas", cats: ["Geometry", "Finance / Economics"] },
+            { title: "SAFIRE Project - Confirming the Electric Sun Model and Elemental Transmutation", cats: ["Electric Universe", "Cosmology", "Material Sciences"] },
+            { title: "Creating a Star in a Jar via Sound Induced Cavitation", cats: ["LENR / Cold Fusion", "Energy Generation"] },
+            { title: "Music, Alchemy, & Projective Geometry by Michael Theroux", cats: ["Music / Audio", "Geometry"] }
+        ];
+
+        const aetherforceCategoryMap = {
+    "Aether Physics": {
+        articles: ["The Book of the Damned by Charles Fort", "Formative Powers of the Living - Wolfgang Peter", "Sorce Theory & SpinbitZ - Joel Morrison", "Unlocking Tesla's Aetheric Energy: The Untapped Potential of Tesla Coils and Wireless Power Transmission", "The True Story of Tesla's Greatest Discovery Radiant Matter by Gerry Vassilatos"],
+        shop: null, links: null
+    },
+    "Agriculture": {
+        articles: ["Metamorphosis of Plants - Johann Wolfgang von Goethe", "Electronics and the Living Plant by L. George Lawrence"],
+        shop: null, links: null
+    },
+    "Architecture": {
+        articles: ["Secrets In Plain Sight by Scott Onstott"],
+        shop: null, links: null
+    },
+    "Biology": {
+        articles: ["The Embryo's Eloquent Form - About the Embryology of Jaap Van Der Wal", "Metamorphosis and Metamorphic Thinking by Craig Holdrege", "Cymatics, Morphogenetic Fields, and Analog Computing by Rupert Sheldrake", "Seeds of Light by George Merkl", "A Brief Explanation of SpectroChrome by Mark Fischer", "The Heart is Not a Pump: A Paradigm Shift in Cardiovascular Understanding", "Invisible Ultra-Violet Life Frequencies Made Visible  - A Summary of the Work of Royal Rife by Mark L. Gallert"],
+        shop: null, links: null
+    },
+    "Borderland Research": {
+        articles: ["The Book of the Damned by Charles Fort", "Our Mysterious Visual Ray by Thomas Joseph Brown", "Ancient Cosmography & Crop Circles by Michael Theroux"],
+        shop: null, links: null
+    },
+    "Chemistry": {
+        articles: ["Dmitry Mendeleev: The Father of the Periodic Table and His Vision of the Aether", "Torsion Chemistry by Robert A Nelson of Rex Research", "Nature of Substance by Rudolf Hauschka"],
+        shop: null, links: null
+    },
+    "Consciousness": {
+        articles: ["New Organs of Perception: Goethean Science as a Cultural Therapeutics", "Swara Yoga - Hidden Knowledge of the Elements & Breath", "Ingo Swann - The Grandfather of Remote Viewing", "Kozyrev's Torsion Mirrors - Bending Time & Altering Consciousness"],
+        shop: null, links: null
+    },
+    "Conspiracy / Politics": {
+        articles: ["The Book of the Damned by Charles Fort", "The Suppression of Inconvenient Facts in Physics by Rochus Boerner"],
+        shop: null, links: null
+    },
+    "Construction": {
+        articles: ["Secrets In Plain Sight by Scott Onstott"],
+        shop: null, links: null
+    },
+    "Cosmology": {
+        articles: ["Comparing Traditional Science with Walter Russell's Vortex Cosmology", "The Universe as Organism in Space and Time by Lawrence Edwards", "The Internal Constitution of Stars by Nikolai Kozyrev"],
+        shop: null, links: null
+    },
+    "Crystals": {
+        articles: ["Harmonics as A Science - Hans Kayser", "Living Crystals Summary by George Merkl", "Life Crystals and Chondriana - An Ancient Sacred Knowledge by George Merkl"],
+        shop: null, links: null
+    },
+    "Electromagnetism": {
+        articles: ["Formative Powers of the Living - Wolfgang Peter", "The Brilliance of the Bees by Gregor Arturo Clary", "Phil Callahan on the Power of Paramagnetism"],
+        shop: null, links: null
+    },
+    "Electric Universe": {
+        articles: ["The Brilliance of the Bees by Gregor Arturo Clary", "Plasma Birkeland Currents Resource Guide", "The Dougherty Network by Buddy James -  A Projective Geometric Model of Birkeland Currents", "SAFIRE Project - Confirming the Electric Sun Model and Elemental Transmutation"],
+        shop: null, links: null
+    },
+    "Energy": {
+        articles: ["Harmonics as A Science - Hans Kayser", "On the Dissipation of the Electrical Energy by Nikola Tesla", "How the Planetary Energy Transmitter of Nikola Tesla Really Works", "The Karl Schappeller Device, Aether & Radiant Energy"],
+        shop: null, links: null
+    },
+    "Energy Generation": {
+        articles: ["The Alchemy of Cold Fusion via Cavitation - An interview with Mark LeClaire", "Mark LeClaire's Cavitation Breakthroughs: Fusion, Transmutation, and the Origins of Life", "Notes on Vortex Geometry by Patrick And Gael Flanagan", "The Farnsworth Fusor - The Most Notably Forgotten Episode in \"Hot\" Fusion History by Gerry Vassilatos"],
+        shop: null, links: null
+    },
+    "Environment / Climate": {
+        articles: ["Weather Engineering on the High Plains by Michael Theroux (1989)", "Electronics and the Living Plant by L. George Lawrence", "Seed of Knowledge, Stone of Plenty: Chapters 3 & 4 by John Burke and Kaj Halberg"],
+        shop: null, links: null
+    },
+    "Fallacies of Standard Model": {
+        articles: ["Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison", "The Suppression of Inconvenient Facts in Physics by Rochus Boerner", "The Fallacies of Relativistic Time Travel by Nick Thomas"],
+        shop: null, links: null
+    },
+    "Geometry": {
+        articles: ["Harmonics as A Science - Hans Kayser", "The Form of Wholeness: Multiplicity and Unity", "Geometry of the Matrix by Caleb Thomas"],
+        shop: null, links: null
+    },
+    "Goethean Science": {
+        articles: ["New Organs of Perception: Goethean Science as a Cultural Therapeutics", "Goethe and the Evolution of Science - Craig Holdrege", "All Science Must Be Rooted in Experience by Stephen Talbott", "\"Zarte Empirie\": Goethean Science as a Way of Knowing by Daniel Christian Wahl", "Goethean Science - The Dynamical View of Natural Form by T. Irwin & S. Baxter"],
+        shop: null, links: null
+    },
+    "Gravity": {
+        articles: ["Tesla's Dynamic Theory of Gravity", "Some Considerations Concerning Anti-Gravity & Related Matters by Joel Wendt", "Schappeller, Searl and Gravity by John A. Thomas, Jr."],
+        shop: null, links: null
+    },
+    "Health Medicine": {
+        articles: ["A Brief Explanation of SpectroChrome by Mark Fischer", "The Heart is NOT a Pump", "Invisible Ultra-Violet Life Frequencies Made Visible  - A Summary of the Work of Royal Rife by Mark L. Gallert"],
+        shop: null, links: null
+    },
+    "Language": {
+        articles: ["The Stairway of the Trivium & Natural Law by Mark Passio", "The Book of \"N\" by Jeronimo Canty"],
+        shop: null, links: null
+    },
+    "LENR / Cold Fusion": {
+        articles: ["The Alchemy of Cold Fusion via Cavitation - An interview with Mark LeClaire", "Mark LeClaire's Cavitation Breakthroughs: Fusion, Transmutation, and the Origins of Life", "Creating a Star in a Jar via Sound Induced Cavitation", "The Farnsworth Fusor - The Most Notably Forgotten Episode in \"Hot\" Fusion History by Gerry Vassilatos"],
+        shop: null, links: null
+    },
+    "Life Force": {
+        articles: ["Formative Powers of the Living - Wolfgang Peter", "A Resource Guide for the Life Force Research of Joseph H. Cater", "Radiesthesic Radiations are not Electromagnetic by Enel"],
+        shop: null, links: null
+    },
+    "Light": {
+        articles: ["Unlocking the 49 Octaves of Light: Harmonizing Sound, Color, and Healing", "The TAO of Colours: Exploring the Dynamic Interplay of Light and Darkness by Doug Marsh", "Goethe and the Boundary Colours by Pehr Sallstrom"],
+        shop: null, links: null
+    },
+    "Magnetism": {
+        articles: ["Phil Callahan on the Power of Paramagnetism", "Timeline of Electricity, Magnetism, and Aether Theories: Key Discoveries from 900 BC to 1905", "The Brilliance of the Bees by Gregor Arturo Clary"],
+        shop: null, links: null
+    },
+    "Material Sciences": {
+        articles: ["A Primer on Transmutation by Chester A. Hatstat, Jr", "Working of the Stars in Earthly Substances - Lili Kolisko's Experimental Validation of the Planet-Metal Relationships of Alchemy", "Nature of Substance by Rudolf Hauschka"],
+        shop: null, links: null
+    },
+    "Music / Audio": {
+        articles: ["Cymatics and the Shape of Sound with John Stuart Reid", "The Music of the Spheres, or the Metaphysics of Music by Robert Kelly", "The Foundations of Scientific Musical Tuning by Jonathan Tennenbaum"],
+        shop: null, links: null
+    },
+    "Natural Philosophy": {
+        articles: ["Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison", "Sorce Theory & SpinbitZ - Joel Morrison", "\"Zarte Empirie\": Goethean Science as a Way of Knowing by Daniel Christian Wahl", "Goethe, Nature, and Phenomenology by David Seamon"],
+        shop: null, links: null
+    },
+    "Patents": {
+        articles: ["How the Planetary Energy Transmitter of Nikola Tesla Really Works", "Unlocking Tesla's Aetheric Energy: The Untapped Potential of Tesla Coils and Wireless Power Transmission", "The True Story of Tesla's Greatest Discovery Radiant Matter by Gerry Vassilatos"],
+        shop: null, links: null
+    },
+    "Psionics / Radionics": {
+        articles: ["Build Your Own Symbolic Hieronymus Radionics Instrument by Joseph Max", "Uncle Chuckie's Radionic Notebook", "Haphazard Radionics - \"Elemend\" Technology by Gerry Vassilatos"],
+        shop: null, links: null
+    },
+    "Psychotronics": {
+        articles: ["Organon & Imago - Radionics, Thoughts & Resonant Patterns by H. Philippi, D. Sc.", "Uncle Chuckie's Radionic Notebook", "Eloptic Energy - Another Form of Energy is Discovered that has Infinite Possibilities by T.G. Hieronymous"],
+        shop: null, links: null
+    },
+    "Quantum & Relativity": {
+        articles: ["Nondual Rational-Empiricism & the Ontic-Shadow of Post-Modernity by Joel Morrison", "The Suppression of Inconvenient Facts in Physics by Rochus Boerner", "The Fallacies of Relativistic Time Travel by Nick Thomas", "The Causal Time Machine, Antigravity, & Isodual Locomotion of Hadronic Mechanics by Ruggerro Santilli"],
+        shop: null, links: null
+    },
+    "Reference Material": {
+        articles: ["On Mechanical Occultism by Georg Unger", "The Sacred Number Seven by H.P. Blavatksy"],
+        shop: null, links: null
+    },
+    "Renewable Energy": {
+        articles: ["How the Planetary Energy Transmitter of Nikola Tesla Really Works", "The Farnsworth Fusor - The Most Notably Forgotten Episode in \"Hot\" Fusion History by Gerry Vassilatos", "Notes on Vortex Geometry by Patrick And Gael Flanagan"],
+        shop: null, links: null
+    },
+    "Steinmetz": {
+        articles: ["On the Dissipation of the Electrical Energy by Nikola Tesla", "The Broadcast Power of Nikola Tesla - Part II by Gerry Vassilatos"],
+        shop: null, links: null
+    },
+    "Suppression": {
+        articles: ["The Book of the Damned by Charles Fort", "The Suppression of Inconvenient Facts in Physics by Rochus Boerner"],
+        shop: null, links: null
+    },
+    "Tesla": {
+        articles: ["The True Story of Tesla's Greatest Discovery Radiant Matter by Gerry Vassilatos", "The Broadcast Power of Nikola Tesla - Part II by Gerry Vassilatos", "Tesla's Dynamic Theory of Gravity", "On the Dissipation of the Electrical Energy by Nikola Tesla"],
+        shop: null, links: null
+    },
+    "Time": {
+        articles: ["Kozyrev's Legacy: Unveiling Aether, Time, and Torsion Fields in Modern Physics", "Kozyrev's Torsion Mirrors - Bending Time & Altering Consciousness", "The Fallacies of Relativistic Time Travel by Nick Thomas"],
+        shop: null, links: null
+    },
+    "Transhumanism": {
+        articles: ["Dharmata Universes Phase-kissing - Universal Hyper-Intelligence by Ananda Bosman", "Swara Yoga - Hidden Knowledge of the Elements & Breath"],
+        shop: null, links: null
+    },
+    "Transportation": {
+        articles: ["The Broadcast Power of Nikola Tesla - Part II by Gerry Vassilatos", "Tesla's Dynamic Theory of Gravity", "How the Planetary Energy Transmitter of Nikola Tesla Really Works"],
+        shop: null, links: null
+    },
+    "Water": {
+        articles: ["Water Structurizers by Jason Verbelli", "The Water of Life (H2O)37 & the Geometry of Light by Perseas", "EZ Water and the Heart - Gerald Pollack", "Water, Hydrogen Bonding, and the Microwave Background by Pierre-Marie Robitaille"],
+        shop: null, links: null
+    },
+    "Alternative Physics": {
+        articles: ["Sorce Theory & SpinbitZ - Joel Morrison", "Kozyrev's Legacy: Unveiling Aether, Time, and Torsion Fields in Modern Physics", "Torsion Chemistry by Robert A Nelson of Rex Research", "The Dougherty Network by Buddy James -  A Projective Geometric Model of Birkeland Currents"],
+        shop: null, links: null
+    },
+    "Dollard": {
+        articles: ["On the Dissipation of the Electrical Energy by Nikola Tesla", "The Broadcast Power of Nikola Tesla - Part II by Gerry Vassilatos"],
+        shop: null, links: null
+    },
+    "Conspiracy": {
+        articles: ["The Book of the Damned by Charles Fort", "The Suppression of Inconvenient Facts in Physics by Rochus Boerner"],
+        shop: null, links: null
+    },
+};;;;;
+
+        function sourceLabel(item) {
+            const s = item.source_site;
+            if (!s) return 'the archive';
+            if (s === 'rexresearch_com') return 'Rex Research';
+            return s.replace(/_/g, '.');
+        }
+
+        // Provenance row: source domain · archived date · type · editorial status.
+        // Answers "why trust it?" at a glance. No fabricated fields — if a doc
+        // lacks a date or domain, that part is simply omitted.
+        function provenanceRow(item, hasAF) {
+            const parts = [];
+            const site = item.source_site;
+            if (site) parts.push(site === 'rexresearch_com' ? 'Rex Research' : site.replace(/_/g, '.'));
+            const d = item.last_modified;
+            if (d) parts.push(String(d).slice(0, 10));
+            if (item.type === 'media') parts.push('media');
+            else if ((item.patent_numbers || []).length) parts.push('patent');
+            else parts.push('document');
+            if (!parts.length) return '';
+            const status = hasAF ? 'AF-linked' : 'archived';
+            return `<div class="card-provenance">${parts.map(p => `<span>${escapeHtml(p)}</span>`).join('<span class="prov-sep">·</span>')}<span class="prov-status ${hasAF ? 'prov-af' : ''}">${status}</span></div>`;
+        }
+
+        function getBestUrl(item) {
+            if (item.source_url && item.source_url.startsWith('http')) {
+                const site = item.source_site;
+                const label = site ? `View on ${site === 'rexresearch_com' ? 'Rex Research' : site.replace(/_/g, '.')} →` : 'View source →';
+                return { url: item.source_url, label, type: 'source' };
+            }
+            if (item.patent_numbers && item.patent_numbers.length > 0) {
+                const pat = item.patent_numbers[0].replace(/\s+/g, '');
+                return { url: `https://patents.google.com/patent/${pat}`, label: `View Patent ${pat} →`, type: 'patent' };
+            }
+            // The filename→URL guess is only honest for Rex Research docs.
+            const site = item.source_site;
+            if ((site === 'rexresearch_com' || !site) && item.filename && item.filename.match(/\.(pdf|htm|html)\.md$/i)) {
+                const base = item.filename.replace(/\.md$/i, '');
+                return { url: `https://www.rexresearch.com/${base}`, label: 'Try Rex Research →', type: 'guess' };
+            }
+            return null; // no honest source link — cards will show only the vault page
+        }
+
+        function getAetherforceLinks(categories, seed) {
+            const results = [];
+            const seen = new Set();
+            (categories || []).forEach(cat => {
+                const mapping = aetherforceCategoryMap[cat];
+                if (!mapping) return;
+                (mapping.articles || []).forEach(title => {
+                    if (!seen.has('art:' + title)) {
+                        seen.add('art:' + title);
+                        // Link to the EXACT article, never the generic index page
+                        results.push({ type: 'article', label: title, url: AF_ARTICLE_URLS[title] || AF_ARTICLES });
+                    }
+                });
+                if (mapping.shop && !seen.has('shop:' + mapping.shop)) {
+                    seen.add('shop:' + mapping.shop);
+                    results.push({ type: 'shop', label: mapping.shopLabel, url: mapping.shop });
+                }
+                if (mapping.links && !seen.has('links:' + mapping.links)) {
+                    seen.add('links:' + mapping.links);
+                    results.push({ type: 'links', label: mapping.linksLabel, url: mapping.links });
+                }
+            });
+            return results;
+        }
+
+        function hasAetherforceContent(categories) {
+            return getAetherforceLinks(categories).length > 0;
+        }
+
+        // Curated "best of Aetherforce" destinations, all specific verified pages.
+        // Used so a doc with no mapped category still lands on good, specific,
+        // relevant content — picked deterministically per doc so random is varied.
+        const AF_FEATURED = [
+            { type: 'article', label: "The Book of the Damned by Charles Fort",
+              url: AF_ARTICLE_URLS["The Book of the Damned by Charles Fort"], icon: '📄', tag: 'Read' },
+            { type: 'article', label: "Formative Powers of the Living – Wolfgang Peter",
+              url: AF_ARTICLE_URLS["Formative Powers of the Living – Wolfgang Peter"], icon: '📄', tag: 'Read' },
+            { type: 'article', label: "Sorce Theory & SpinbitZ – Joel Morrison",
+              url: AF_ARTICLE_URLS["Sorce Theory & SpinbitZ – Joel Morrison"], icon: '📄', tag: 'Read' },
+            { type: 'shop', label: "Coherent Field Generators",
+              url: AF_SHOP_SECTIONS.coherent_field, icon: '🛒', tag: 'Browse' },
+            { type: 'shop', label: "Radionics, Radiesthesia & Shape Power",
+              url: AF_SHOP_SECTIONS.radionics, icon: '🛒', tag: 'Browse' },
+            { type: 'shop', label: "Brainwave & Bio-Field Entrainment",
+              url: AF_SHOP_SECTIONS.brainwave, icon: '🛒', tag: 'Browse' },
+            { type: 'links', label: "Magnetism Resources",
+              url: AF_LINKS_SECTIONS.magnetism, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Kozyrev, Torsion & Russian Cosmism",
+              url: AF_LINKS_SECTIONS.kozyrev, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Sacred Geometry Resources",
+              url: AF_LINKS_SECTIONS.sacred_geometry, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Scalar & Longitudinal Science Resources",
+              url: AF_LINKS_SECTIONS.scalar, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Water Resources",
+              url: AF_LINKS_SECTIONS.water, icon: '🔗', tag: 'Explore' },
+            { type: 'links', label: "Psychology / PSI & Remote Viewing Resources",
+              url: AF_LINKS_SECTIONS.psi, icon: '🔗', tag: 'Explore' },
+        ];
+
+        function getFeaturedAetherforce(seed, metaCats) {
+            // Prefer a themed match from meta-categories; else rotate deterministically by seed.
+            const themed = {
+                "Energy & Transportation": AF_FEATURED[0], // Book of the Damned (science-adjacent editorial)
+                "Aether, Light & Electricity": AF_FEATURED[1],
+                "Biological & Morphogenetic Science": AF_FEATURED[7],
+                "Water Structure & Memory": AF_FEATURED[10],
+                "Sacred & Projective Geometry": AF_FEATURED[8],
+                "Plasma, Torsion & Cosmology": AF_FEATURED[6],
+                "Electromagnetic Theory": AF_FEATURED[3],
+                "Alternative Energy Technologies": AF_FEATURED[5],
+            };
+            for (let i = 0; i < (metaCats || []).length; i++) {
+                const hit = themed[metaCats[i]];
+                if (hit) return hit;
+            }
+            const base = (seed === undefined || seed === null) ? '' : String(seed);
+            let hash = 0;
+            for (let i = 0; i < base.length; i++) { hash = (hash * 31 + base.charCodeAt(i)) >>> 0; }
+            return AF_FEATURED[hash % AF_FEATURED.length];
+        }
+
+        function renderWhatsNew(feed) {
+            const lib = feed.library || {};
+            const counters = [
+                ['Archive Docs', lib.archive_entries || lib.aflinks_docs, './vault.html'],
+                ['Translations', lib.translations, './library.html#translationsSection'],
+                ['Pages Translated', lib.pages_translated, './library.html#translationsSection'],
+                ['Declassified', lib.declassified_finds, './library.html#declassifiedSection'],
+                ['Agents Active', lib.active_agents, './library.html#fleetSection'],
+                ['Researchers', lib.researchers, './library.html#researchersSection'],
+            ];
+            const cEl = document.getElementById('wnCounters');
+            if (cEl) {
+                cEl.innerHTML = '';
+                counters.forEach(([lbl, num, href]) => {
+                    const d = document.createElement('a');
+                    d.className = 'wn-counter';
+                    d.href = href;
+                    d.title = `Open ${lbl.toLowerCase()} →`;
+                    d.innerHTML = `<div class="num">${num == null ? '—' : Number(num).toLocaleString()}</div><div class="lbl">${lbl}</div>`;
+                    cEl.appendChild(d);
+                });
+            }
+
+            const news = (feed.news || []).slice(0, 5);
+            const nEl = document.getElementById('wnNews');
+            if (nEl) {
+                if (!news.length) { nEl.style.display = 'none'; }
+                else {
+                    nEl.innerHTML = '';
+                    news.forEach(n => {
+                        const d = document.createElement('a');
+                        d.className = 'wn-news-item kind-' + (n.kind || '');
+                        d.href = n.href || '#';
+                        if (n.title) { d.title = n.title; }
+                        d.innerHTML = `<div class="wnn-date">${n.date || ''}</div><span class="wnn-badge">${escapeHtml(n.rarity || '')}</span><div class="wnn-title">${escapeHtml(n.title || '')}</div><div class="wnn-ex">${escapeHtml(n.excerpt || '')}</div>`;
+                        nEl.appendChild(d);
+                    });
+                }
+            }
+
+            const agents = feed.agents || [];
+            const fEl = document.getElementById('wnFleet');
+            if (fEl) {
+                fEl.innerHTML = '';
+                agents.forEach(a => {
+                    const live = a.last_run ? 'live' : 'wait';
+                    const d = document.createElement('div');
+                    d.className = 'wn-agent';
+                    d.title = `${a.real_name} — ${a.mission}${a.last_run ? ' · last run ' + a.last_run.replace('T',' ').slice(0,16) + ' UTC' : ''}`;
+                    d.innerHTML = `<span class="icon">${a.icon || '⚙'}</span><div class="who"><div class="nm">${escapeHtml(a.name)}</div><div class="ms">${escapeHtml(a.mission)}</div></div><span class="status-dot ${live}"></span>`;
+                    fEl.appendChild(d);
+                });
+            }
+
+            const act = (feed.activity_log || []).slice(0, 6);
+            const aEl = document.getElementById('wnActivity');
+            if (!aEl) return;
+            aEl.innerHTML = '';
+            act.forEach(e => {
+                const when = `${e.date.slice(5)} ${e.time}`;
+                const what = escapeHtml(e.summary || '');
+                const d = document.createElement('div');
+                d.className = 'item';
+                d.innerHTML = `<span class="when">${when}</span><span class="what"><b>${escapeHtml(e.agent)}</b> — ${what}</span>`;
+                aEl.appendChild(d);
+            });
+        }
+
+        /* ═══ Fleet briefing strip — latest reports under the dial ═══ */
+        function loadSynthStrip() {
+            const cardsEl = document.getElementById('synthCards');
+            const moreEl = document.getElementById('synthMoreLink');
+            if (!cardsEl) return;
+            fetch('./synthesis/synthesis_index.json?v=20260914000849')
+                .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+                .then(list => {
+                    const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
+                    if (!entries.length) { document.getElementById('synthStrip').style.display = 'none'; return; }
+                    if (moreEl) moreEl.textContent = `All ${entries.length} reports →`;
+                    // Forefront the analytical briefings (synthesis + paradigm signals),
+                    // fall back to the newest of everything if those are absent.
+                    const analytical = entries.filter(e => e.kind === 'synthesis' || e.kind === 'paradigm-signal');
+                    const latest = (analytical.length ? analytical : entries).slice(0, 3);
+                    cardsEl.innerHTML = '';
+                    latest.forEach(e => {
+                        const km = { synthesis: '⚗', 'paradigm-signal': '⚡', 'scout-finds': '🔭' }[e.kind] || '📄';
+                        const card = document.createElement('a');
+                        card.className = 'synth-card';
+                        card.href = `./synthesis.html#${encodeURIComponent(e.slug || e.file)}`;
+                        card.innerHTML = `
+                            <span class="sc-date">${e.date || ''}${e.author ? ' · ' + escapeHtml(e.author) : ''}</span>
+                            <span class="sc-title">${km} ${escapeHtml(e.title)}</span>
+                            ${e.teaser ? `<span class="sc-teaser">${escapeHtml(e.teaser)}</span>` : ''}
+                            <span class="sc-read">Read report →</span>
+                        `;
+                        cardsEl.appendChild(card);
+                    });
+                })
+                .catch(() => {
+                    const strip = document.getElementById('synthStrip');
+                    if (strip) strip.style.display = 'none';
+                });
+        }
+
+        /* ─── Key Chest Dial — lock wheel: drag to rotate, one big selection at the window ──── */
+        let seamData = null;
+        let kdLenses = [];
+        let kdMetaLenses = [];
+        let kdParadigm = [];
+        let kdMode = 'focus'; // 'focus' = founders' focus | 'paradigm' = paradigm map
+        let kdSelLens = 0;
+        let kdSelSubj = null;
+        let kdSubjCounts = {};
+        let kdSpinRot = 0;
+        let kdSpinning = false;
+        let timeoutKd = null;
+
+        function kdToastm(msg) {
+            const t = document.getElementById('kdToast');
+            if (!t) return;
+            t.textContent = msg;
+            t.classList.add('show');
+            clearTimeout(kdToastm._t);
+            kdToastm._t = setTimeout(() => t.classList.remove('show'), 2400);
+        }
+
+        function kdNormalize(a) { return ((a % 360) + 360) % 360; }
+        function kdStep() { return 360 / kdLenses.length; }
+
+        function kdPolar(cx, cy, r, deg) {
+            const rad = deg * Math.PI / 180;
+            return [cx + r * Math.cos(rad), cy + r * Math.sin(rad)];
+        }
+
+        // index of the lens whose tick is at the bottom window (angle 90deg)
+        function kdPointedAt(rot) {
+            return Math.round(kdNormalize(90 - rot) / kdStep()) % kdLenses.length;
+        }
+
+        function kdBuildSubjectCounts() {
+            kdSubjCounts = {};
+            if (allData.length) {
+                allData.forEach(it => {
+                    (it.categories || []).forEach(c => { if (c) kdSubjCounts[c] = (kdSubjCounts[c] || 0) + 1; });
+                });
+            } else if (bakedTaxonomy && bakedTaxonomy.categories) {
+                kdSubjCounts = Object.assign({}, bakedTaxonomy.categories);
+            }
+        }
+
+        let kdFocus = null; // af_focus.json — the founding group's publishing focus
+        function kdAvailableLenses() {
+            const ml = kdMetaAvailable();
+            kdMetaLenses = ml;
+            return ml;
+        }
+        function kdMetaAvailable() {
+            const byName = {};
+            if (seamData && seamData.category_index) {
+                Object.keys(seamData.category_index).forEach(n => {
+                    byName[n] = { name: n, n: (seamData.category_index[n] || []).length };
+                });
+            } else if (bakedTaxonomy && Object.keys(bakedTaxonomy.meta_categories || {}).length) {
+                // Lazy mode: real counts from taxonomy_counts.json, no 65MB fetch.
+                Object.keys(bakedTaxonomy.meta_categories).forEach(n => {
+                    byName[n] = { name: n, n: bakedTaxonomy.meta_categories[n] };
+                });
+            } else {
+                const m = metaCategoryMap;
+                Object.keys(m).forEach(n => {
+                    byName[n] = {
+                        name: n,
+                        n: allData.filter(it => (it.meta_categories || []).includes(n) ||
+                            (m[n] || []).some(s => (it.categories || []).includes(s))).length
+                    };
+                });
+            }
+            const list = Object.values(byName);
+            const fp = (n) => (kdFocus && kdFocus.lenses && kdFocus.lenses[n]) || { af_posts: 0, pct: 0 };
+            // Order by founders' focus first (AF publishing weight), then doc count.
+            list.sort((a, b) => {
+                const da = fp(a.name).af_posts || 0, db = fp(b.name).af_posts || 0;
+                if (da !== db) return db - da;
+                return b.n - a.n;
+            });
+            return list;
+        }
+        function kdFocusOf(name) {
+            return (kdFocus && kdFocus.lenses && kdFocus.lenses[name]) || null;
+        }
+        function kdParadigmList() {
+            if (!kdParadigm.length) return [];
+            return kdParadigm.slice().sort((a, b) => (b.af || 0) - (a.af || 0));
+        }
+        function kdSetMode(m) {
+            if (m === kdMode) return;
+            kdMode = m;
+            document.getElementById('kdModeFocus').classList.toggle('on', m === 'focus');
+            document.getElementById('kdModeParadigm').classList.toggle('on', m === 'paradigm');
+            document.getElementById('kdModeFocus').setAttribute('aria-pressed', String(m === 'focus'));
+            document.getElementById('kdModeParadigm').setAttribute('aria-pressed', String(m === 'paradigm'));
+            kdSelLens = 0; kdSpinRot = 0; kdSelSubj = null;
+            kdLenses = m === 'paradigm' ? kdParadigmList() : (kdMetaLenses.length ? kdMetaLenses : kdAvailableLenses());
+            if (!kdLenses.length) return;
+            kdRenderLock(0);
+            kdSpinSel();
+        }
+
+        function kdSubjectsFor(lensName) {
+            const subs = (seamData && seamData.meta_cats && seamData.meta_cats[lensName]) ||
+                (metaCategoryMap[lensName] || []);
+            return subs
+                .map(s => ({ name: s, n: kdSubjCounts[s] || 0 }))
+                .sort((a, b) => b.n - a.n);
+        }
+
+        // ═══════════════════════════════════════════════════════════════════════════
+        // BIOGEOMETRY DIAL RENDERER [prescribed: Karim BioGeometry Dial spec]
+        // Two identical polarizer shapes oriented around central axis
+        // Source: rexresearch.com/biogeom/biogeom.htm — Fig. 4 & Fig. 7
+        // ═══════════════════════════════════════════════════════════════════════════
+        const BG = {
+            PHI: 1.618, RATIO_1_6: 1.6, RATIO_1_9: 1.9, RATIO_2_8: 2.8, // [prescribed: Karim BQH ratios]
+            AMPLIFY_COUNT: 16, // [prescribed: BG3 amplification through 16 identical shapes]
+            POLARIZER_SWEEP: 55, POLARIZER_WIDTH: 7 // [prescribed: polarizer arc dimensions]
+        };
+        
+        function bgPolarizerPath(cx, cy, r, startAngle, sweep) {
+            const s = (startAngle - 90) * Math.PI / 180;
+            const e = (startAngle + sweep - 90) * Math.PI / 180;
+            return `M ${(cx + r * Math.cos(s)).toFixed(2)} ${(cy + r * Math.sin(s)).toFixed(2)} A ${r} ${r} 0 ${sweep > 180 ? 1 : 0} 1 ${(cx + r * Math.cos(e)).toFixed(2)} ${(cy + r * Math.sin(e)).toFixed(2)}`;
+        }
+        
+        function kdRenderLock(selIdx) {
+            const svg = document.getElementById('kdLockSvg');
+            const cx = 220, cy = 220;
+            const N = kdLenses.length;
+            const step = 360 / N;
+            const rotation = 90 - (selIdx * step); // Selected lens at bottom
+            
+            let h = `<defs>
+                <radialGradient id="kdFace" cx="38%" cy="32%" r="75%">
+                    <stop offset="0%" stop-color="#3a5a5e"/>
+                    <stop offset="55%" stop-color="#1b3a40"/>
+                    <stop offset="100%" stop-color="#0c2530"/>
+                </radialGradient>
+                <linearGradient id="kdPolarizer" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ffd166"/>
+                    <stop offset="50%" stop-color="#e8b64c"/>
+                    <stop offset="100%" stop-color="#c99a3a"/>
+                </linearGradient>
+                <radialGradient id="kdKnob" cx="40%" cy="30%" r="70%">
+                    <stop offset="0%" stop-color="#f0c55f"/>
+                    <stop offset="55%" stop-color="#c99a3a"/>
+                    <stop offset="100%" stop-color="#8a6423"/>
+                </radialGradient>
+                <filter id="kdGlow"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+                <filter id="kdStarGlow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>`;
+            
+            // Outer face [aesthetic]
+            const innerR = Math.round(212 / BG.PHI); // [prescribed: golden ratio]
+            h += `<circle cx="${cx}" cy="${cy}" r="212" fill="url(#kdFace)" stroke="rgba(232,182,76,0.45)" stroke-width="3"/>`;
+            h += `<circle cx="${cx}" cy="${cy}" r="${innerR}" fill="none" stroke="rgba(232,182,76,0.12)" stroke-width="1"/>`;
+            
+            // Polarizer pair [prescribed: BioGeometry Dial spec]
+            h += `<g id="kdPolarizers">`;
+            
+            // Polarizer 1 [prescribed]
+            h += `<path d="${bgPolarizerPath(cx, cy, 186, rotation - BG.POLARIZER_SWEEP/2, BG.POLARIZER_SWEEP)}" fill="none" stroke="url(#kdPolarizer)" stroke-width="${BG.POLARIZER_WIDTH}" stroke-linecap="round" filter="url(#kdGlow)" data-bg-tier="prescribed" data-bg-source="Karim BioGeometry Dial — polarizer pair"/>`;
+            
+            // Polarizer 2 (180° opposite) [prescribed]
+            h += `<path d="${bgPolarizerPath(cx, cy, 186, rotation + 180 - BG.POLARIZER_SWEEP/2, BG.POLARIZER_SWEEP)}" fill="none" stroke="url(#kdPolarizer)" stroke-width="${BG.POLARIZER_WIDTH}" stroke-linecap="round" filter="url(#kdGlow)" data-bg-tier="prescribed" data-bg-source="Karim BioGeometry Dial — polarizer pair"/>`;
+            
+            // Lens position markers [aesthetic]
+            for (let i = 0; i < N; i++) {
+                const angle = rotation + (i * step) - 90;
+                const rad = angle * Math.PI / 180;
+                const markerR = 204;
+                const x = cx + markerR * Math.cos(rad);
+                const y = cy + markerR * Math.sin(rad);
+                
+                const isActive = i === selIdx;
+                const focus = kdMode === 'paradigm' ? (kdLenses[i] || null) : kdFocusOf(kdLenses[i].name);
+                const isFocus = focus && (kdMode === 'paradigm' ? (focus.af && focus.af > 0) : (focus.af_posts > 8));
+                
+                if (isActive) {
+                    h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="5" fill="#ffd166" filter="url(#kdStarGlow)" data-bg-tier="aesthetic"/>`;
+                    if (isFocus) {
+                        const sr = 174; const sx = cx + sr * Math.cos(rad); const sy = cy + sr * Math.sin(rad);
+                        h += `<text x="${sx.toFixed(2)}" y="${(sy+4).toFixed(2)}" font-size="12" text-anchor="middle" fill="#ffd166" filter="url(#kdStarGlow)" data-bg-tier="prescribed" data-bg-source="Karim BG3 quality marker">★</text>`;
+                    }
+                } else {
+                    h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="${isFocus ? 3.5 : 2.5}" fill="${isFocus ? 'rgba(255,209,102,0.6)' : 'rgba(232,182,76,0.35)'}" data-bg-tier="aesthetic"/>`;
+                    if (isFocus) {
+                        const sr = 176; const sx = cx + sr * Math.cos(rad); const sy = cy + sr * Math.sin(rad);
+                        h += `<text x="${sx.toFixed(2)}" y="${(sy+3).toFixed(2)}" font-size="${N > 18 ? 7 : 9}" text-anchor="middle" fill="rgba(255,209,102,0.6)" data-bg-tier="prescribed" data-bg-source="Karim BG3 quality marker">★</text>`;
+                    }
+                }
+            }
+            
+            // Minor marks [prescribed: 16-count BG3 amplification]
+            const minorStep = step / BG.AMPLIFY_COUNT;
+            for (let i = 0; i < N * BG.AMPLIFY_COUNT; i++) {
+                const angle = rotation + (i * minorStep) - 90;
+                const rad = angle * Math.PI / 180;
+                const r1 = 190, r2 = 196;
+                const x1 = cx + r1 * Math.cos(rad), y1 = cy + r1 * Math.sin(rad);
+                const x2 = cx + r2 * Math.cos(rad), y2 = cy + r2 * Math.sin(rad);
+                h += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="rgba(232,182,76,0.14)" stroke-width="1" data-bg-tier="prescribed" data-bg-source="Karim 16-count BG3 amplification"/>`;
+            }
+            
+            h += `</g>`;
+            
+            // Center knob [aesthetic] — keyhole shape (NOT pyramid — negative-green caution respected)
+            const knobInnerR = Math.round(60 / BG.RATIO_1_6); // [prescribed: BQH ratio]
+            h += `<circle cx="${cx}" cy="${cy}" r="86" fill="url(#kdKnob)" stroke="rgba(58,44,16,0.9)" stroke-width="3"/>`;
+            h += `<circle cx="${cx}" cy="${cy}" r="${knobInnerR}" fill="none" stroke="rgba(58,44,16,0.55)" stroke-width="2"/>`;
+            h += `<circle cx="${cx}" cy="${cy - 8}" r="14" fill="#231503"/>`;
+            h += `<path d="M ${cx - 9} ${cy - 2} L ${cx + 9} ${cy - 2} L ${cx + 6} ${cy + 22} L ${cx - 6} ${cy + 22} Z" fill="#231503"/>`;
+            h += `<circle cx="${cx}" cy="${cy - 8}" r="6" fill="#e8b64c"/>`;
+            
+            svg.innerHTML = h;
+            // window label
+            const lens = kdLenses[selIdx];
+            if (lens) {
+                document.getElementById('kdWinLens').textContent = lens.name;
+                if (kdMode === 'paradigm') {
+                    const p = lens; // {n: docs, af: af_posts, span, pct?}
+                    const pct = (p.pct != null) ? p.pct : (p.af && p.n ? Math.min(100, Math.round(p.af / p.n * 100)) : 0);
+                    // Coverage-vs-span verdict: wide span + thin archive = unexplored vein
+                    const verdict = (p.span >= 15 && pct < 10)
+                        ? ` unexplored vein — archive holds only ${pct}% of what Aetherforce covers across ${p.span} fields`
+                        : (pct >= 40 ? ` — well-covered ground (${pct}% of AF output)` : ` spans ${p.span} fields`);
+                    document.getElementById('kdWinCount').textContent =
+                        `${p.n.toLocaleString()} docs · ★ ${p.af} AF posts · spans ${p.span} fields`;
+                    const winCount = document.getElementById('kdWinCount');
+                    let badge = document.getElementById('kdVerdict');
+                    if (!badge) {
+                        badge = document.createElement('div');
+                        badge.id = 'kdVerdict';
+                        badge.style.cssText = 'font-size:0.62rem;color:var(--gold-bright);letter-spacing:0.4px;text-transform:uppercase;margin-top:2px;';
+                        winCount.parentNode.insertBefore(badge, winCount.nextSibling);
+                    }
+                    badge.textContent = (p.span >= 15 && pct < 10 ? '⚡ ' : '') + verdict;
+                } else {
+                    const f = kdFocusOf(lens.name);
+                    document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
+                    const badge = document.getElementById('kdVerdict');
+                    if (badge) badge.textContent = '';
+                }
+            }
+        }
+
+        // rotate the polarizer group while dragging (no rerender — cheap)
+        function kdSetTickRot(deg) {
+            const g = document.getElementById('kdPolarizers');
+            if (g) g.setAttribute('transform', `rotate(${Math.round(deg)} 220 220)`);
+        }
+        function kdResetTickRot() {
+            const g = document.getElementById('kdPolarizers');
+            if (g) g.removeAttribute('transform');
+        }
+
+        function kdRenderInner() {
+            const el = document.getElementById('kdInner');
+            const lens = kdLenses[kdSelLens];
+            el.innerHTML = '';
+            if (!lens) return;
+            const show = kdSubjectsFor(lens.name).slice(0, 7);
+            const hasMore = kdSubjectsFor(lens.name).length > 7;
+            show.forEach(s => {
+                const b = document.createElement('button');
+                b.className = 'kc-chip' + (s.name === kdSelSubj ? ' sel' : '');
+                b.innerHTML = `<span style="overflow:hidden;text-overflow:ellipsis">${escapeHtml(s.name)}</span><span class="cnt">${s.n.toLocaleString()}</span>`;
+                b.title = `${s.name} — ${s.n.toLocaleString()} documents`;
+                b.onclick = () => kdOpenSubject(s.name);
+                el.appendChild(b);
+            });
+            if (hasMore) {
+                const b = document.createElement('button');
+                b.className = 'kc-chip' + (!kdSelSubj ? ' sel' : '');
+                b.innerHTML = `<span>⚓ All of ${escapeHtml(lens.name.slice(0, 18))}</span><span class="cnt">${lens.n.toLocaleString()}</span>`;
+                b.onclick = () => kdOpenSubject(null);
+                el.appendChild(b);
+            }
+            if (!show.length && !hasMore) {
+                el.innerHTML = `<div style="color:#7fa8a3;font-size:0.66rem;text-align:center;grid-column:1/-1;align-self:center">No subjects tagged yet</div>`;
+            }
+        }
+
+        function kdNewestIn(cats, metaCats, n) {
+            const out = [];
+            for (let i = allData.length - 1; i >= 0 && out.length < n; i--) {
+                const it = allData[i];
+                if (cats && !(it.categories || []).some(c => cats.includes(c))) continue;
+                if (metaCats && !(it.meta_categories || []).some(m => metaCats.includes(m))) continue;
+                if (!cats && !metaCats) break;
+                out.push(it);
+            }
+            return out;
+        }
+
+        async function kdOpenSubject(subjName) {
+            // Opening a chest needs the real docs — load the index on demand.
+            if (!allData.length) await ensureIndex();
+            const lens = kdLenses[kdSelLens];
+            if (!lens) return;
+            kdSelSubj = subjName;
+            const hub = document.getElementById('kdHub');
+            hub.classList.remove('closed'); hub.classList.add('open');
+            document.getElementById('kdHubLens').textContent = lens.name;
+            document.getElementById('kdHubSubj').textContent = subjName || ('All of ' + lens.name.slice(0, 22));
+            kdRenderInner();
+            const spill = document.getElementById('kdSpill');
+            const list = subjName
+                ? kdNewestIn([subjName], null, 6)
+                : kdNewestIn(null, [lens.name], 6);
+            const count = subjName ? (kdSubjCounts[subjName] || 0) : lens.n;
+            const cards = list.map(it => {
+                const cats = (it.meta_categories || []).slice(0, 2).concat((it.categories || []).slice(0, 2));
+                const prev = (it.content_preview || '').replace(/!\[[^\]]*\]\([^)]*\)/gi, '').trim().slice(0, 140);
+                return `<div class="kd-card" onclick="showDetail(${it.id})">
+                    <div class="t">${escapeHtml(it.title || it.filename)}</div>
+                    ${prev ? `<div class="s">${escapeHtml(prev)}</div>` : ''}
+                    <div class="m">${cats.map(c => escapeHtml(c)).join(' · ') || 'treasure'}</div>
+                </div>`;
+            }).join('');
+            const subjQuery = subjName ? `?subj=${encodeURIComponent(subjName)}` : `?cat=${encodeURIComponent(lens.name)}`;
+            spill.innerHTML = `
+                <div class="kd-spill-head">
+                    <span class="kd-spill-title">⚓ ${escapeHtml((subjName || lens.name).slice(0, 40))} <span class="crumbs">(${count.toLocaleString()} in the vault)</span></span>
+                    <a class="kd-open-all" href="./index.html${subjQuery}" target="_blank">Open all in the Archive →</a>
+                </div>
+                <div class="kd-list">${cards || '<div style="color:#7fa8a3;font-size:0.75rem">No documents tagged here yet — the scouts are still digging.</div>'}</div>`;
+            spill.classList.remove('show'); void spill.offsetWidth; spill.classList.add('show');
+            kdReadout();
+        }
+
+        function kdReadout() {
+            const r = document.getElementById('kdReadout');
+            const lens = kdLenses[kdSelLens];
+            if (!r || !lens) return;
+            r.innerHTML = `Drag the dial to pick a lane, tap the window to open the chest, or <span style="color:var(--gold-bright);cursor:pointer" onclick="document.getElementById('kdSpin').click()">spin for surprise</span>.`;
+        }
+
+        // animate so lens `idx` lands at the bottom window
+        function kdSpinTo(idx, animate, drama) {
+            const N = kdLenses.length;
+            if (!N) return;
+            if (!animate) {
+                kdSelLens = idx;
+                kdResetTickRot();
+                kdRenderLock(idx);
+                kdSpinSel();
+                return;
+            }
+            // target rotation to bring tick idx to 90deg: idx*step + rot = 90
+            const targetRot = kdNormalize(90 - idx * kdStep());
+            let delta = kdNormalize(targetRot - kdSpinRot);
+            if (delta > 180) delta -= 360;
+            if (drama) {
+                const t = 2 + Math.floor(Math.random() * 2);
+                delta += (delta >= 0 ? 1 : -1) * t * 360;
+            }
+            kdSpinRot += delta;
+            const dur = drama ? 1900 : 650;
+            const g = document.getElementById('kdPolarizers');
+            kdSpinning = true;
+            // CSS transition on the group
+            g.style.transition = `transform ${dur}ms cubic-bezier(0.2, 1, 0.35, 1)`;
+            g.style.transformOrigin = '220px 220px';
+            // force reflow then set
+            void g.getBoundingClientRect();
+            g.style.transform = `rotate(${Math.round(kdSpinRot)}deg)`;
+            clearTimeout(timeoutKd);
+            timeoutKd = setTimeout(() => {
+                kdSpinning = false;
+                g.style.transition = 'none';
+                g.style.transform = '';
+                g.removeAttribute('transform');
+                kdSelLens = idx;
+                kdSpinRot = 0;
+                kdRenderLock(idx);
+                kdSpinSel();
+            }, dur + 40);
+        }
+
+        function kdSpinSel() {
+            const lens = kdLenses[kdSelLens];
+            if (!lens) return;
+            const subs = kdSubjectsFor(lens.name);
+            kdSelSubj = subs.length ? subs[0].name : null;
+            kdRenderInner();
+            kdOpenSubject(kdSelSubj);
+        }
+
+        // Light initial state — renders the dial without needing the full index,
+        // so first paint is instant. The full spill (with doc cards) loads on
+        // interaction via kdOpenSubject → ensureIndex().
+        function kdShowLane() {
+            const lens = kdLenses[kdSelLens];
+            if (!lens) return;
+            const subs = kdSubjectsFor(lens.name);
+            kdSelSubj = subs.length ? subs[0].name : null;
+            document.getElementById('kdWinLens').textContent = lens.name;
+            document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs';
+            const r = document.getElementById('kdReadout');
+            if (r) r.innerHTML = `Drag the dial to pick a lane, tap the window to open the chest, or <span style="color:var(--gold-bright);cursor:pointer" onclick="document.getElementById('kdSpin').click()">spin for surprise</span>.`;
+        }
+
+        function kdInit() {
+            kdBuildSubjectCounts();
+            kdLenses = kdAvailableLenses();
+            if (!kdLenses.length) { const d = document.getElementById('keyDial'); if (d) d.style.display = 'none'; return; }
+            kdRenderLock(0);
+            kdRenderInner();
+            kdShowLane();
+
+            const wrap = document.getElementById('kdLockWrap');
+            // drag to rotate
+            let drag = null;
+            const angleOf = (e, cx, cy) => Math.atan2(e.clientY - cy, e.clientX - cx) * 180 / Math.PI;
+            wrap.addEventListener('pointerdown', e => {
+                if (kdSpinning) return;
+                const rect = wrap.getBoundingClientRect();
+                const cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
+                drag = { id: e.pointerId, sx: e.clientX, sy: e.clientY, sr: kdSpinRot, cx, cy, moved: false };
+                try { wrap.setPointerCapture(e.pointerId); } catch (_) {}
+                wrap.classList.add('dragging');
+            });
+            wrap.addEventListener('pointermove', e => {
+                if (!drag || drag.id !== e.pointerId) return;
+                const a0 = angleOf({ clientX: drag.sx, clientY: drag.sy }, drag.cx, drag.cy);
+                const a1 = angleOf(e, drag.cx, drag.cy);
+                let d = a1 - a0;
+                if (d > 180) d -= 360; if (d < -180) d += 360;
+                if (Math.abs(d) > 1.5) drag.moved = true;
+                if (!drag.moved) return; // don't shift on a tap
+                kdSpinRot = drag.sr + d;
+                kdSetTickRot(kdSpinRot);
+                const idx = kdPointedAt(kdSpinRot);
+                // live-fill the window while dragging
+                const lens = kdLenses[idx];
+                document.getElementById('kdWinLens').textContent = lens.name;
+                if (kdMode === 'paradigm') {
+                    const p = lens;
+                    document.getElementById('kdWinCount').textContent = `${p.n.toLocaleString()} docs · ★ ${p.af} AF posts · spans ${p.span} fields`;
+                } else {
+                    const f = kdFocusOf(lens.name);
+                    document.getElementById('kdWinCount').textContent = lens.n.toLocaleString() + ' docs' + (f && f.af_posts > 0 ? ` · ★ ${f.af_posts} Aetherforce posts` : '');
+                }
+                document.getElementById('kdReadout').innerHTML = `⚓ aiming at <b style="color:var(--gold-bright)">${escapeHtml(lens.name)}</b> — release to lock it in`;
+            });
+            const endDrag = e => {
+                if (!drag) return;
+                const moved = drag.moved, endRot = kdSpinRot;
+                drag = null;
+                wrap.classList.remove('dragging');
+                if (!moved) return; // was a tap
+                kdSpinTo(kdPointedAt(endRot), true, false);
+            };
+            wrap.addEventListener('pointerup', endDrag);
+            wrap.addEventListener('pointercancel', endDrag);
+
+            // tap the window = open the chest
+            const win = document.getElementById('kdWindow');
+            win.addEventListener('click', () => {
+                if (kdSpinning) return;
+                if (kdSelSubj) kdOpenSubject(kdSelSubj); else kdSpinSel();
+            });
+            // tap the center knob = open the chest too
+            document.getElementById('kdLockSvg').addEventListener('click', e => {
+                if (kdSpinning) return;
+                if (drag) return;
+                const rect = wrap.getBoundingClientRect();
+                const cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
+                const dx = e.clientX - cx, dy = e.clientY - cy;
+                if (dx * dx + dy * dy < (rect.width * 0.22) * (rect.width * 0.22)) {
+                    if (kdSelSubj) kdOpenSubject(kdSelSubj); else kdSpinSel();
+                }
+            });
+
+            const mf = document.getElementById('kdModeFocus');
+            const mp = document.getElementById('kdModeParadigm');
+            mf.addEventListener('click', () => kdSetMode('focus'));
+            mp.addEventListener('click', () => kdSetMode('paradigm'));
+            // after warm-start, if paradigm data exists, first spin stays focus (user chooses)
+            const fb = document.getElementById('kdFocusBtn');
+            if (fb) fb.addEventListener('click', () => {
+                if (kdSpinning) return;
+                // top lane is already focus-ordered, so index 0 = top founders focus
+                kdSpinTo(0, true, false);
+                kdToastm('⚓ Straight to the founders\' focus — ' + kdLenses[0].name);
+            });
+            document.getElementById('kdPrev').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens - 1 + kdLenses.length) % kdLenses.length, true, false); });
+            document.getElementById('kdNext').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo((kdSelLens + 1) % kdLenses.length, true, false); });
+            document.getElementById('kdSpin').addEventListener('click', () => { if (kdSpinning) return; kdSpinTo(Math.floor(Math.random() * kdLenses.length), true, true); });
+        }
+
+        function ensureIndex() {
+            if (indexPromise) return indexPromise;
+            indexPromise = (async () => {
+            try {
+                const loading = document.getElementById('loading');
+                if (loading) loading.textContent = 'Charting the full vault — bringing 55,218 documents aboard…';
+                const urlCats = new URLSearchParams(window.location.search).getAll('cat');
+                // Load the SLIM search index (fast). When arriving via a category deep
+                // link (?cat=X), fetch ONLY that meta-category's chunk from
+                // search_chunks/ (Phase 1: the phone path — ~0.2MB instead of
+                // the 18MB full index). Otherwise load the full slim index.
+                async function loadSearchIndex() {
+                    const params = new URLSearchParams(window.location.search);
+                    const catParam = params.get('cat');
+                    const fullIndex = async () => {
+                        const response = await fetch('./search_index.json?v=20260914000849');
+                        return response.json();
+                    };
+                    if (catParam) {
+                        try {
+                            const manRes = await fetch('./search_manifest.json?v=20260906021833');
+                            const man = await manRes.json();
+                            const chunk = man.chunks && man.chunks[catParam];
+                            if (chunk) {
+                                const cRes = await fetch('./' + chunk.file + '?v=20260906021833');
+                                const data = await cRes.json();
+                                if (data && data.length) return { data, chunkCat: catParam };
+                            }
+                        } catch (e) { /* fall through to full index */ }
+                    }
+                    return { data: await fullIndex(), chunkCat: null };
+                }
+                const loaded = await loadSearchIndex();
+                allData = loaded.data;
+                if (loaded.chunkCat) {
+                    // Chunk mode: seamCats already carries ?cat= (AND-filter).
+                    // Keep the hero total honest — archive count, not chunk size.
+                    activeMetaCategory = null;
+                }
+                document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
+                try {
+                    const tokRes = await fetch('./token_index.json?v=20260906021833');
+                    tokenIndex = await tokRes.json();
+                } catch (e) { /* token search optional; substring fallback stays */ }
+                try {
+                    const man = await fetch('./full_manifest.json?v=20260914000849');
+                    fullManifest = await man.json();
+                } catch (e) { /* chunked detail optional; list still works */ }
+                // Live translation counters from the Living Library feed
+                try {
+                    const feedRes = await fetch('./library_feed.json?v=20260914000849');
+                    const feed = await feedRes.json();
+                    const lib = feed.library || {};
+                    if (lib.archive_entries != null) {
+                        document.getElementById('heroDocCount').textContent = Number(lib.archive_entries).toLocaleString();
+                    }
+                    if (lib.translations != null) {
+                        document.getElementById('heroTransCount').textContent = Number(lib.translations).toLocaleString();
+                    }
+                    if (lib.pages_translated != null) {
+                        document.getElementById('heroPagesCount').textContent = Number(lib.pages_translated).toLocaleString();
+                    }
+                    // Seam fabric mode (&seam=1): use the feed's seam index to
+                    // resolve the FULL connected set (both + crossings) for the
+                    // two meta-categories the vault compared.
+                    if (seamCats.length === 2 && feed.seam && new URLSearchParams(location.search).get('seam') === '1') {
+                        const S = feed.seam;
+                        const [a, b] = seamCats;
+                        const la = S.category_index[a] || [];
+                        const lb = S.category_index[b] || [];
+                        const both = la.filter(id => lb.includes(id));
+                        const shared = new Set((S.meta_cats[a] || []).filter(s => (S.meta_cats[b] || []).includes(s)));
+                        const sc = new Set((S.meta_concepts[a] || []).filter(c => (S.meta_concepts[b] || []).includes(c)));
+                        const docCats = S.doc_cats || {}, docCons = S.doc_concepts || {};
+                        const reach = (ids, otherSet) => ids.filter(id => {
+                            if (otherSet.has(id)) return false;
+                            const subs = docCats[id] || [], cons = docCons[id] || [];
+                            return subs.some(c => shared.has(c)) || cons.some(c => sc.has(c));
+                        });
+                        const crossing = [...reach(la, new Set(lb)), ...reach(lb, new Set(la))];
+                        seamFabric = { title: `${a} × ${b}`, ids: new Set([...both, ...crossing]) };
+                    }
+                    seamData = feed.seam || null;
+                    renderWhatsNew(feed);
+                    // founders' focus map (the founding group's publishing focus)
+                    try {
+                        const fr = await fetch('./af_focus.json', { cache: 'no-store' });
+                        kdFocus = await fr.json();
+                    } catch (e) { kdFocus = null; }
+                    // paradigm map (cross-cutting schools of thought)
+                    try {
+                        const pr = await fetch('./paradigm_lenses.json', { cache: 'no-store' });
+                        const pj = await pr.json();
+                        kdParadigm = Object.entries(pj.lenses || {}).map(([id, d]) => ({
+                            id, name: d.name, n: d.docs || 0, af: d.af_posts || 0,
+                            span: d.silo_span || 0, pct: d.pct
+                        }));
+                    } catch (e) { kdParadigm = []; }
+                } catch (e) { /* feed optional; hero keeps working without it */ }
+                document.getElementById('loading').style.display = 'none';
+                // Lists were already built from taxonomy_counts.json (full-archive
+                // counts). Only rebuild from allData when that small file wasn't
+                // available — in chunk mode allData is a single category's slice,
+                // so rebuilding would wrongly shrink the sidebar counts.
+                if (!bakedTaxonomy) {
+                    buildMetaCategoryList();
+                    buildCategoryList();
+                }
+                if (activeCategory) {
+                    document.querySelectorAll('.category-item').forEach(el => el.classList.toggle('active', el.dataset.category === activeCategory));
+                }
+                renderResults();
+                // URL param auto-filter (from vault links): seamCats was
+                // already parsed at the top of ensureIndex for the seam fabric.
+                if (urlCats.length) {
+                    // Fill the search box as a hint, then render the seam set
+                    document.getElementById('search').value = urlCats.join(' ');
+                    renderResults();
+                    updateClearFilters();
+                }
+            } catch (e) {
+                document.getElementById('loading').textContent = 'Error loading index: ' + e.message;
+            }
+
+            })();
+
+            return indexPromise;
+        }
+
+        async function initPage() {
+            // Restore Crew/Plain preference before first paint of labels.
+            try { setMode(localStorage.getItem('aflinksMode') !== 'plain'); } catch (e) { setMode(true); }
+            // URL params (module-level seamCats/activeCategory feed the seam logic)
+            const params = new URLSearchParams(window.location.search);
+            const urlCats = params.getAll('cat');
+            if (urlCats.length) seamCats = urlCats;
+            const urlSubj = params.get('subj');
+            if (urlSubj) { activeCategory = urlSubj; seamCats = []; }
+
+            // Small files first: taxonomy counts (sidebar + dial), founders' focus,
+            // paradigms. All tiny — the dial and sidebar render with real numbers
+            // without downloading the 65MB search_index.json.
+            try {
+                const tc = await (await fetch('./taxonomy_counts.json?v=20260909193424')).json();
+                bakedTaxonomy = tc;
+            } catch (e) { /* sidebar falls back to empty until the index loads */ }
+            try { kdFocus = await (await fetch('./af_focus.json', { cache: 'no-store' })).json(); } catch (e) { kdFocus = null; }
+            try {
+                const pj = await (await fetch('./paradigm_lenses.json', { cache: 'no-store' })).json();
+                kdParadigm = Object.entries(pj.lenses || {}).map(([id, d]) => ({
+                    id, name: d.name, n: d.docs || 0, af: d.af_posts || 0,
+                    span: d.silo_span || 0, pct: d.pct
+                }));
+            } catch (e) { kdParadigm = []; }
+
+            buildListsFromTaxonomy();
+            try { kdInit(); } catch (e) {}
+
+            // Deep links (?cat=, ?subj=, seam) need the real index now.
+            if (urlCats.length || urlSubj || new URLSearchParams(location.search).get('seam') === '1') {
+                await ensureIndex();
+            }
+        }
+
+        // Build the sidebar lists from baked taxonomy counts so they're present
+        // before the big index arrives. Rebuilt from allData in ensureIndex()
+        // with identical numbers once loaded.
+        function buildListsFromTaxonomy() {
+            if (!bakedTaxonomy) return;
+            const list = document.getElementById('metaCategoryList');
+            if (list) {
+                const sorted = Object.entries(bakedTaxonomy.meta_categories || {}).sort((a, b) => b[1] - a[1]);
+                list.innerHTML = '';
+                sorted.forEach(([mc, count]) => {
+                    const div = document.createElement('div');
+                    div.className = 'meta-category-item';
+                    div.dataset.metaCategory = mc;
+                    div.innerHTML = `<span>${escapeHtml(mc)}</span><span class="meta-category-count">${count}</span>`;
+                    div.onclick = () => toggleMetaCategory(mc);
+                    list.appendChild(div);
+                });
+            }
+            const clist = document.getElementById('categoryList');
+            if (clist) {
+                const sorted = Object.entries(bakedTaxonomy.categories || {}).sort((a, b) => b[1] - a[1]);
+                clist.innerHTML = '';
+                sorted.forEach(([cat, count]) => {
+                    const div = document.createElement('div');
+                    div.className = 'category-item';
+                    div.dataset.category = cat;
+                    div.innerHTML = `<span>${escapeHtml(cat)}</span><span class="category-count">${count}</span>`;
+                    div.onclick = () => toggleCategory(cat);
+                    clist.appendChild(div);
+                });
+            }
+            updateCategoryListDimming();
+        }
+
+        function buildMetaCategoryList() {
+            const metaCounts = {};
+            allData.forEach(item => {
+                (item.meta_categories || []).forEach(mc => {
+                    if (mc) metaCounts[mc] = (metaCounts[mc] || 0) + 1;
+                });
+            });
+            const sorted = Object.entries(metaCounts).sort((a, b) => b[1] - a[1]);
+            const list = document.getElementById('metaCategoryList');
+            list.innerHTML = '';
+            sorted.forEach(([mc, count]) => {
+                const div = document.createElement('div');
+                div.className = 'meta-category-item';
+                div.dataset.metaCategory = mc;
+                div.innerHTML = `<span>${escapeHtml(mc)}</span><span class="meta-category-count">${count}</span>`;
+                div.onclick = () => toggleMetaCategory(mc);
+                list.appendChild(div);
+            });
+        }
+
+        async function toggleMetaCategory(mc) {
+            if (!allData.length) await ensureIndex();
+            activeMetaCategory = activeMetaCategory === mc ? null : mc;
+            document.querySelectorAll('.meta-category-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.metaCategory === activeMetaCategory);
+            });
+            // When a meta-category is selected, dim non-matching categories
+            updateCategoryListDimming();
+            currentPage = 0;
+            renderResults();
+            updateClearFilters();
+        }
+
+        function updateCategoryListDimming() {
+            if (!activeMetaCategory) {
+                document.querySelectorAll('.category-item').forEach(el => el.classList.remove('dimmed'));
+                return;
+            }
+            const subCats = metaCategoryMap[activeMetaCategory] || [];
+            document.querySelectorAll('.category-item').forEach(el => {
+                el.classList.toggle('dimmed', !subCats.includes(el.dataset.category));
+            });
+        }
+
+        function buildCategoryList() {
+            const catCounts = {};
+            allData.forEach(item => {
+                (item.categories || []).forEach(cat => {
+                    if (cat) catCounts[cat] = (catCounts[cat] || 0) + 1;
+                });
+            });
+            const sorted = Object.entries(catCounts).sort((a, b) => b[1] - a[1]);
+            const list = document.getElementById('categoryList');
+            list.innerHTML = '';
+            sorted.forEach(([cat, count]) => {
+                const div = document.createElement('div');
+                div.className = 'category-item';
+                div.dataset.category = cat;
+                div.innerHTML = `<span>${escapeHtml(cat)}</span><span class="category-count">${count}</span>`;
+                div.onclick = () => toggleCategory(cat);
+                list.appendChild(div);
+            });
+        }
+
+        async function toggleCategory(cat) {
+            if (!allData.length) await ensureIndex();
+            activeCategory = activeCategory === cat ? null : cat;
+            document.querySelectorAll('.category-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.category === activeCategory);
+            });
+            currentPage = 0;
+            renderResults();
+            updateClearFilters();
+        }
+
+        function toggleSidebar() {
+            document.getElementById('sidebar').classList.toggle('open');
+        }
+
+        function clearAllFilters() {
+            activeCategory = null;
+            activeMetaCategory = null;
+            seamCats = [];
+            searchTerm = '';
+            typeFilter = 'all';
+            document.getElementById('search').value = '';
+            document.getElementById('typeFilter').value = 'all';
+            document.querySelectorAll('.category-item').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.meta-category-item').forEach(el => el.classList.remove('active'));
+            updateCategoryListDimming();
+            currentPage = 0;
+            renderResults();
+            updateClearFilters();
+        }
+
+        function updateClearFilters() {
+            document.getElementById('clearFilters').style.display = (activeCategory || activeMetaCategory || seamCats.length || searchTerm || typeFilter !== 'all') ? 'block' : 'none';
+            // Build active filter chips
+            const chipContainer = document.getElementById('activeFilterDisplay');
+            chipContainer.innerHTML = '';
+            seamCats.forEach(sc => {
+                const chip = document.createElement('span');
+                chip.className = 'active-filter-chip meta';
+                chip.innerHTML = `${escapeHtml(sc)} ✕`;
+                chip.onclick = () => { seamCats = seamCats.filter(x => x !== sc); buildCategoryList(); renderResults(); updateClearFilters(); };
+                chipContainer.appendChild(chip);
+            });
+            if (activeMetaCategory) {
+                const chip = document.createElement('span');
+                chip.className = 'active-filter-chip meta';
+                chip.innerHTML = `${escapeHtml(activeMetaCategory)} ✕`;
+                chip.onclick = () => toggleMetaCategory(activeMetaCategory);
+                chipContainer.appendChild(chip);
+            }
+            if (activeCategory) {
+                const chip = document.createElement('span');
+                chip.className = 'active-filter-chip';
+                chip.innerHTML = `${escapeHtml(activeCategory)} ✕`;
+                chip.onclick = () => toggleCategory(activeCategory);
+                chipContainer.appendChild(chip);
+            }
+        }
+
+        function getFiltered() {
+            return allData.filter(item => {
+                if (typeFilter !== 'all' && item.type !== typeFilter) return false;
+                if (activeCategory && !(item.categories || []).includes(activeCategory)) return false;
+                // Seam filter: must carry EVERY selected meta-category (AND)
+                if (seamCats.length && !seamFabric) {
+                    const mcs = item.meta_categories || [];
+                    if (!seamCats.every(sc => mcs.includes(sc))) return false;
+                }
+                // Seam FABRIC mode: filter to the full connected set (both +
+                // crossings) resolved from the feed's seam index.
+                if (seamFabric) {
+                    // seam index ids are JSON strings; search index ids are
+                    // ints — compare with coercion so they always match.
+                    if (!seamFabric.ids.has(String(item.id)) && !seamFabric.ids.has(item.id)) return false;
+                }
+                if (activeMetaCategory) {
+                    const subCats = metaCategoryMap[activeMetaCategory] || [];
+                    const itemCats = item.categories || [];
+                    // Document must have at least one sub-category from the meta-category
+                    if (!subCats.some(sc => itemCats.includes(sc))) return false;
+                }
+                if (searchTerm) {
+                    const s = searchTerm.toLowerCase();
+                    // Phase 2: tokenized rarity-ranked search. Score docs by
+                    // summed IDF over matched query tokens; rare tokens (e.g.
+                    // "shielding" x "plasma") weight most — the blind-spot
+                    // detector. Falls back to substring scan if the token
+                    // index isn't loaded.
+                    const scores = searchScoresFor(searchTerm);
+                    if (scores) {
+                        if (!scores.has(item.id)) return false;
+                    } else {
+                        const haystack = (
+                            (item.title || '') + ' ' +
+                            (item.filename || '') + ' ' +
+                            (item.primary_person || '') + ' ' +
+                            (item.patent_numbers || []).join(' ') + ' ' +
+                            (item.categories || []).join(' ') + ' ' +
+                            (item.meta_categories || []).join(' ') + ' ' +
+                            (item.content_preview || '') + ' ' +
+                            (item.search_text || '')
+                        ).toLowerCase();
+                        if (!haystack.includes(s)) return false;
+                    }
+                }
+                return true;
+            });
+
+            // Rank by search score when the token index is active — results
+            // surface the rarest matches first (pattern-spotting order).
+            if (searchTerm) {
+                const scores = searchScoresFor(searchTerm);
+                if (scores && filtered.length > 1) {
+                    filtered.sort((a, b) => (scores.get(b.id) || 0) - (scores.get(a.id) || 0));
+                }
+            }
+            return filtered;
+        }
+
+        function renderResults() {
+            const filtered = getFiltered();
+            const results = document.getElementById('results');
+            const countEl = document.getElementById('resultsCount');
+            const statsEl = document.getElementById('stats');
+
+            countEl.textContent = seamFabric
+                ? `${filtered.length} connected in the seam`
+                : `${filtered.length} documents found`;
+            statsEl.textContent = `${filtered.length.toLocaleString()} / ${allData.length.toLocaleString()}`;
+
+            const shown = filtered.slice(0, (currentPage + 1) * PAGE_SIZE);
+            visibleCount = shown.length;
+
+            if (filtered.length === 0) {
+                results.innerHTML = '<div class="no-results">No documents match your filters.</div>';
+                return;
+            }
+
+            results.innerHTML = shown.map(item => {
+                const link = getBestUrl(item);
+                const hasAF = hasAetherforceContent(item.categories);
+                const cats = (item.categories || []).slice(0, 4);
+                const metaCats = (item.meta_categories || []).slice(0, 2);
+                const patents = (item.patent_numbers || []).slice(0, 3);
+                const preview = item.content_preview || '';
+                const researcher = item.primary_person || '';
+
+                return `
+                <div class="card" onclick="showDetail(${item.id})">
+                    ${researcher ? `<div class="card-researcher">👤 ${escapeHtml(researcher)}</div>` : ''}
+                    <div class="card-title">${escapeHtml(item.title || item.filename)}</div>
+                    ${preview ? `<div class="card-preview">${escapeHtml(preview.substring(0, 150))}${preview.length > 150 ? '…' : ''}</div>` : ''}
+                    <div class="card-categories">
+                        ${metaCats.map(mc => `<span class="meta-tag">${escapeHtml(mc)}</span>`).join('')}
+                        ${cats.map(c => `<span class="category-tag">${escapeHtml(c)}</span>`).join('')}
+                    </div>
+                    ${patents.length > 0 ? `<div class="card-patents">${patents.map(p => `<span class="patent-tag">${escapeHtml(p)}</span>`).join('')}${item.patent_numbers.length > 3 ? `<span class="patent-tag">+${item.patent_numbers.length - 3}</span>` : ''}</div>` : ''}
+                    ${provenanceRow(item, hasAF)}
+                    <div class="card-meta">
+                        ${item.type === 'media' ? '<span>🎬 media</span>' : ''}
+                        <span>📦 ${formatSize(item.size_bytes)}</span>
+                    </div>
+                    ${hasAF ? '<div class="card-af-badge">⚡ Has Aetherforce content</div>' : ''}
+                    <div class="card-source-link" onclick="event.stopPropagation()">
+                        ${preview ? `<a href="/AFLinks/pages/${String(item.id).padStart(8, '0')}.html">🔗 Vault page</a>` : ''}
+                        ${link ? `<a href="${escapeHtml(link.url)}" target="_blank" style="margin-left:12px;">📄 ${escapeHtml(link.label)}</a>` : ''}
+                    </div>
+                </div>
+            `}).join('');
+
+            if (visibleCount < filtered.length) {
+                const loadMore = document.createElement('div');
+                loadMore.style.cssText = 'grid-column: 1/-1; text-align: center; padding: 18px;';
+                loadMore.innerHTML = `<a href="#" onclick="loadMore(event); return false;" style="color: var(--accent); text-decoration: none; font-size: 0.88rem;">Load more (${(filtered.length - visibleCount).toLocaleString()} remaining)...</a>`;
+                results.appendChild(loadMore);
+            }
+        }
+
+        function loadMore(e) {
+            currentPage++;
+            renderResults();
+        }
+
+        async function showRandom() {
+            if (!allData.length) await ensureIndex();
+            const filtered = getFiltered();
+            if (filtered.length === 0) return;
+            const item = filtered[Math.floor(Math.random() * filtered.length)];
+            showDetail(item.id);
+        }
+
+        function showDetail(id) {
+            const item = allData.find(d => d.id === id);
+            if (!item) return;
+
+            // If we have the manifest, upgrade to the FULL record (lazy chunk)
+            // before rendering, so the detail modal has source_url, concepts,
+            // and the complete preview.
+            if (fullManifest && fullManifest.chunks) {
+                const ch = fullManifest.chunks.find(c => id >= c.start && id < c.start + c.count);
+                if (ch && !fullCache[ch.file]) {
+                    fetch('./' + ch.file, { cache: 'no-store' })
+                        .then(r => r.json())
+                        .then(records => {
+                            fullCache[ch.file] = records;
+                            const full = records.find(d => d.id === id);
+                            if (full) renderDetail(full, item);
+                        })
+                        .catch(() => renderDetail(item)); // fall back to slim
+                    // render slim immediately for snappy response
+                    renderDetail(item);
+                    return;
+                }
+                if (ch && fullCache[ch.file]) {
+                    const full = fullCache[ch.file].find(d => d.id === id);
+                    renderDetail(full || item);
+                    return;
+                }
+            }
+            renderDetail(item);
+        }
+
+        function renderDetail(item) {
+
+            const link = getBestUrl(item);
+            const afLinks = getAetherforceLinks(item.categories);
+            const metaCats = item.meta_categories || [];
+            const patents = item.patent_numbers || [];
+            const preview = item.content_preview || '';
+            const researcher = item.primary_person || '';
+
+            // Build Aetherforce section FIRST — it's the star
+            let afHtml = '';
+            if (afLinks.length > 0) {
+                const articleLinks = afLinks.filter(l => l.type === 'article');
+                const shopLinks = afLinks.filter(l => l.type === 'shop');
+                const resourceLinks = afLinks.filter(l => l.type === 'links');
+
+                let inner = '';
+                if (articleLinks.length > 0) {
+                    inner += `<div class="af-section-title">📖 Articles</div>`;
+                    articleLinks.forEach(l => {
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank"><span class="af-link-icon">📄</span> ${escapeHtml(l.label)}<span class="af-link-type">Read</span></a>`;
+                    });
+                }
+                if (shopLinks.length > 0) {
+                    inner += `<div class="af-section-title" style="margin-top:10px;">🛒 Shop</div>`;
+                    shopLinks.forEach(l => {
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank"><span class="af-link-icon">🛒</span> ${escapeHtml(l.label)}<span class="af-link-type">Browse</span></a>`;
+                    });
+                }
+                if (resourceLinks.length > 0) {
+                    inner += `<div class="af-section-title" style="margin-top:10px;">🔗 Resources</div>`;
+                    resourceLinks.forEach(l => {
+                        inner += `<a class="af-link" href="${escapeHtml(l.url)}" target="_blank"><span class="af-link-icon">🔗</span> ${escapeHtml(l.label)}<span class="af-link-type">Explore</span></a>`;
+                    });
+                }
+
+                afHtml = `<div class="af-section">
+                    <div class="af-section-header">
+                        <span class="af-section-logo">⚡</span>
+                        <span class="af-section-title">On Aetherforce</span>
+                    </div>
+                    ${inner}
+                </div>`;
+            } else {
+                // No mapped category — land on a specific, relevant featured destination
+                // (deterministic per doc, so random stays varied and never generic).
+                const f = getFeaturedAetherforce(item.id || item.title || item.filename, metaCats);
+                const sectionLabel = f.type === 'article' ? '📖 Articles' : (f.type === 'shop' ? '🛒 Shop' : '🔗 Resources');
+                const inner = `<a class="af-link" href="${escapeHtml(f.url)}" target="_blank"><span class="af-link-icon">${f.icon}</span> ${escapeHtml(f.label)}<span class="af-link-type">${f.tag}</span></a>`;
+                afHtml = `<div class="af-section">
+                    <div class="af-section-header">
+                        <span class="af-section-logo">⚡</span>
+                        <span class="af-section-title">On Aetherforce</span>
+                    </div>
+                    <div class="af-section-title" style="margin-top:6px;">${sectionLabel}</div>
+                    ${inner}
+                </div>`;
+            }
+
+            // Source link — SECOND, below Aetherforce
+            const sourceHtml = link ? `<div class="rex-source">
+                <div class="rex-source-title">Primary Source</div>
+                ${preview ? `<a class="rex-source-link vault-page-link" href="/AFLinks/pages/${String(item.id).padStart(8, '0')}.html">🔗 Vault page</a>` : ''}
+                <a class="rex-source-link" href="${escapeHtml(link.url)}" target="_blank">
+                    📄 ${escapeHtml(link.label)}
+                </a>
+                ${item.source_url ? `<div style="margin-top:6px; font-size:0.72rem; color:var(--text-dim);">Source URL: ${escapeHtml(item.source_url)}</div>` : ''}
+            </div>` : (preview ? `<div class="rex-source">
+                <div class="rex-source-title">In the Vault</div>
+                <a class="rex-source-link vault-page-link" href="/AFLinks/pages/${String(item.id).padStart(8, '0')}.html">🔗 Vault page</a>
+            </div>` : '');
+
+            // Meta-categories section
+            const metaCatsHtml = metaCats.length > 0
+                ? `<div class="modal-meta-categories">${metaCats.map(mc => `<span class="meta-tag">${escapeHtml(mc)}</span>`).join('')}</div>`
+                : '';
+
+            // Patents section
+            const patentsHtml = patents.length > 0
+                ? `<div class="modal-patents">
+                    <div class="modal-patents-label">📋 Patent Numbers</div>
+                    <div class="modal-patent-tags">${patents.map(p => `<span class="patent-tag">${escapeHtml(p)}</span>`).join('')}</div>
+                </div>`
+                : '';
+
+            // Content preview section
+            const previewHtml = preview
+                ? `<div class="modal-preview">
+                    <div class="modal-preview-label">Content Preview</div>
+                    <div class="modal-preview-text">${escapeHtml(preview)}</div>
+                </div>`
+                : '';
+
+            // Researcher prominent display
+            const researcherHtml = researcher
+                ? `<div class="modal-researcher">👤 ${escapeHtml(researcher)}</div>`
+                : '';
+
+            const modal = document.getElementById('modal');
+            modal.innerHTML = `
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                ${researcherHtml}
+                <h2>${escapeHtml(item.title || item.filename)}</h2>
+                <div class="modal-categories">
+                    ${(item.categories || []).map(c => `<span class="category-tag">${escapeHtml(c)}</span>`).join('')}
+                </div>
+                ${metaCatsHtml}
+                ${patentsHtml}
+                ${previewHtml}
+                <div class="modal-meta">
+                    <div><strong>File:</strong> ${escapeHtml(item.filename)}</div>
+                    <div><strong>Size:</strong> ${formatSize(item.size_bytes)}</div>
+                    <div><strong>Type:</strong> ${item.type}</div>
+                </div>
+                ${afHtml}
+                ${sourceHtml}
+            `;
+            ovl.querySelector('.modal').appendChild(docJsonLd(item));
+            const ovl = document.getElementById('modalOverlay');
+            ovl.classList.add('active');
+            ovl.querySelector('.modal').focus();
+        }
+
+        // Phase 3 JSON-LD: machine-readable ScholarlyArticle for the open
+        // document. Embedded in the modal AND mirrored into a head script so
+        // scraping agents/crawlers that execute JS see typed metadata. Uses
+        // the canonical doc:<id> from the retrieval contract.
+        function docJsonLd(item) {
+            const sc = document.createElement('script');
+            sc.type = 'application/ld+json';
+            const url = (getBestUrl(item) || {}).url || '';
+            const payload = {
+                '@context': 'https://schema.org',
+                '@type': 'ScholarlyArticle',
+                '@id': 'doc:' + item.id,
+                'name': item.title || item.filename,
+                'description': (item.content_preview || '').slice(0, 400),
+                'url': url || undefined,
+                'inLanguage': undefined,
+                'author': item.primary_person || undefined,
+                'about': (item.categories || []).slice(0, 10),
+                'keywords': ((item.meta_categories || []).slice(0, 10)).join(', '),
+                'isPartOf': { '@type': 'Collection', '@id': 'archive-graph.json' }
+            };
+            Object.keys(payload).forEach(k => { if (payload[k] === undefined) delete payload[k]; });
+            sc.textContent = JSON.stringify(payload);
+            try {
+                let headScript = document.getElementById('docJsonLdHead');
+                if (!headScript) {
+                    headScript = document.createElement('script');
+                    headScript.id = 'docJsonLdHead';
+                    headScript.type = 'application/ld+json';
+                    document.head.appendChild(headScript);
+                }
+                headScript.textContent = sc.textContent;
+            } catch (e) { /* head mirror optional */ }
+            return sc;
+        }
+
+        function closeModal(e) {
+            if (e && e.target !== document.getElementById('modalOverlay')) return;
+            document.getElementById('modalOverlay').classList.remove('active');
+        }
+
+        // Modal accessibility: trap Tab inside the dialog, close on Escape.
+        document.addEventListener('keydown', function (e) {
+            const ovl = document.getElementById('modalOverlay');
+            if (!ovl.classList.contains('active')) return;
+            if (e.key === 'Escape') { closeModal(); return; }
+            if (e.key !== 'Tab') return;
+            const focusables = ovl.querySelectorAll('a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"])');
+            if (!focusables.length) return;
+            const first = focusables[0];
+            const last = focusables[focusables.length - 1];
+            if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        });
+
+        function escapeHtml(str) {
+            if (!str) return '';
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
+        function formatSize(bytes) {
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(0) + ' KB';
+            return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
+        }
+
+        let searchTimeout;
+        document.getElementById('search').addEventListener('input', (e) => {
+            clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(async () => {
+                searchTerm = e.target.value.trim();
+                // Search is the clearest interaction — load the full index on demand.
+                if (!allData.length) await ensureIndex();
+                currentPage = 0;
+                renderResults();
+                updateClearFilters();
+            }, 200);
+        });
+
+        document.getElementById('typeFilter').addEventListener('change', async (e) => {
+            typeFilter = e.target.value;
+            if (!allData.length) await ensureIndex();
+            currentPage = 0;
+            renderResults();
+            updateClearFilters();
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        initPage();
+        loadSynthStrip();
+    </script>
+</body>
+</html>

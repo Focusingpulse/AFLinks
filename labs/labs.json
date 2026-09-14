@@ -1,0 +1,504 @@
+{
+  "schema": "peer-lab-v1",
+  "generated_at": "2026-09-09",
+  "protocols": [
+    {
+      "id": "protocol://wasserwirbler",
+      "title": "Schauberger Water Vortexer (Wasserwirbler)",
+      "claim": "A hyperbolic funnel with a narrow threaded (rifled) outlet generates a centripetal vortex in water that is claimed to cool it, 'revitalize'/densify it (claimed softer, rounder mouthfeel), reduce algae, and reduce irrigation energy by ~30%. Labeled a claim, not a finding.",
+      "objective": "Home test of one measurable facet of the vortex-water claim (temperature, blind taste, or algae) as the archive's first independent data point on the Schauberger vortex lineage.",
+      "source_guides": ["5441", "dossier-001-wasserwirbler"],
+      "steps": [
+        "Test A — temperature: fill two identical containers from one source bucket; pour one through the vortexer (full funnel pour, free spin) and one through a plain conical funnel as control at matching height/rate.",
+        "Measure both temps immediately and at 5, 15, 60 min with a 0.1°C thermometer; repeat N=5; note ambient temp.",
+        "Test B — blind taste: 3 cups per session (A, B, a second B) labeled randomly by a helper; tester ranks softer/rounder vs harder/flatter; 5+ sessions, score vs chance (binomial).",
+        "Test C — algae (2 weeks): two identical tanks, same water/light/source; tank B gets vortexed water changes; photograph daily, rank greenness blind.",
+        "Test D — irrigation (optional): two rows of identical seedlings; row B watered with vortexed water; measure water volume, growth, wilting days."
+      ],
+      "equipment": [
+        "equipment://funnel-hyperbolic",
+        "equipment://funnel-conical",
+        "equipment://threaded-outlet",
+        "equipment://kitchen-thermometer",
+        "equipment://containers-identical"
+      ],
+      "variables": [
+        "variable://water-temp",
+        "variable://mouthfeel-preference",
+        "variable://algae-rank",
+        "variable://irrigation-volume"
+      ],
+      "expected_outcome": "Temperature: consistent ≥0.3°C difference (same direction ≥4/5 trials) supports claim facet 1; <0.1°C or random direction does not. Taste: ≥8/10 'softer/rounder' picks supports; ~5/10 is chance. Algae: tank B ranked less green ≥4/5 sessions supports.",
+      "safety": "Trivial — water and plastic; nothing pressurized, nothing hot.",
+      "status": "protocol",
+      "replications": ["replication://001"]
+    },
+    {
+      "id": "protocol://eeman-circuit",
+      "title": "Eeman Relaxation Circuit (Blind Pulse Test)",
+      "claim": "A coil of insulated copper wire laid out with head band and hand/foot contacts, connected to itself with NO power source, is claimed (by a 90-year-old tradition) to create a relaxed, coherent state when a person lies in the circuit. Honest framing: this is a claim the dossier exists to test against a sham.",
+      "objective": "Controlled ~$10 blind test of ONE measurable facet: does lying in the closed circuit change resting pulse (parasympathetic tone) or self-rated relaxation vs a visually identical sham (wire cut)?",
+      "source_guides": ["dossier-002-eeman-circuit"],
+      "steps": [
+        "Build two identical-looking mats: the circuit (coil in a figure-eight, connections joined, hand contacts wired to coil ends) and the sham (identical layout, one wire cut so it is not a closed circuit).",
+        "Recruit one tester + one helper; helper knows which is which, tester does not; label mats X and Y.",
+        "Tester lies still 10 min on mat X; helper measures pulse at 0, 5, 10 min; 10 min rest off-mat; then mat Y, same schedule; order randomized each session; 5+ sessions.",
+        "Record self-rated relaxation 0-10 before/after each (tester's blind rating).",
+        "Analyze pulse trend + relaxation delta, circuit vs sham; look for consistent difference (≥4/5 sessions same direction)."
+      ],
+      "equipment": [
+        "equipment://copper-coil",
+        "equipment://contact-pads",
+        "equipment://pulse-monitor"
+      ],
+      "variables": [
+        "variable://pulse-rate",
+        "variable://relaxation-rating"
+      ],
+      "expected_outcome": "Circuit consistently lower resting pulse / higher relaxation delta vs sham (≥4/5 blind sessions, delta ≥3 bpm or ≥2/10 relaxation points) → measurable effect. No consistent difference → classic $10 negative; still a win as an honest data point.",
+      "safety": "Trivial — no power, no heat, no electricity.",
+      "status": "protocol",
+      "replications": ["replication://002"]
+    },
+    {
+      "id": "protocol://tesla-radiant-receiver",
+      "title": "Tesla Radiant Energy Receiver",
+      "claim": "Tesla's patents (US 685,957 / 685,958, 1901) assert an elevated insulated conducting plate connected through a capacitor to ground accumulates charge from the environment ('radiant energy'), day and night. Honest framings: known 2026 physics predicts SOME collection (atmospheric potential gradient, RF, triboelectric); the test measures magnitude vs a shielded control, not 'is atmospheric electricity real'. Expected magnitude is micro-watts — enough to move a meter, not to power a household.",
+      "objective": "Control test of how much charge a home-built elevated-plate receiver actually collects, above a shielded (Faraday) control.",
+      "source_guides": ["1508279", "dossier-003-tesla-radiant-receiver"],
+      "steps": [
+        "Mount the plate atop an insulating pole at 3-5 m in the open; run insulated downlead to the film capacitor's high terminal; capacitor's other terminal to ground.",
+        "Place DMM across the capacitor (10 MΩ bleeds continuously — that is the load); record.",
+        "Session: measure voltage at 0, 5, 10, 15 min; note weather, sky, time of day; run 5+ sessions across varied conditions (never in storms).",
+        "Control (same session, alternating): wrap the plate in grounded aluminum foil (Faraday shield); same schedule; control should read ~0.",
+        "Log every number: date, time, sky, wind, V at each interval, control V."
+      ],
+      "equipment": [
+        "equipment://elevated-plate",
+        "equipment://pole-insulated",
+        "equipment://capacitor-film",
+        "equipment://ground-connection",
+        "equipment://multimeter",
+        "equipment://foil-shield"
+      ],
+      "variables": [
+        "variable://charge-voltage",
+        "variable://charge-rate"
+      ],
+      "expected_outcome": "Receiver accumulates charge consistently above the shielded control (≥10× control noise, same direction ≥4/5 sessions) → collection confirmed, mechanism unresolved; report honest micro-watt scale. No accumulation above control → does not replicate at home scale under fair conditions.",
+      "safety": "No mains connection anywhere. The elevated conductor is a lightning attractant — disconnect and ground the antenna when storms are near or when unattended. Fair-weather instrument only; never run in thunderstorms.",
+      "status": "protocol",
+      "replications": ["replication://003"]
+    },
+    {
+      "id": "protocol://hyperbolic-funnel-vortex",
+      "title": "Walter Schauberger Hyperbolic Funnel Vortex",
+      "claim": "A clear hyperbolic funnel induces stable free-surface hyperbolic water vortices (Walter Schauberger 1960s design); a peer-reviewed JoVE protocol (2023) reports the vortex achieves oxygen transfer rates (SOTR) exceeding comparable aeration systems, with energy-efficient operation. The SOTR performance is a published claim, not a finding confirmed in this archive.",
+      "objective": "Reproduce the JoVE protocol: produce a stable free-surface hyperbolic vortex, observe flow regimes, and measure dissolved-oxygen transfer (SOTR) vs a control.",
+      "source_guides": ["1526", "dossier-004-hyperbolic-funnel-vortex"],
+      "steps": [
+        "Position a clear hyperbolic funnel (10-15 cm upper, 1-2 cm outlet, 20-30 cm tall, y=k/x profile) vertically over a 20-50 L reservoir.",
+        "Connect a submersible pump (5-10 W, 1-5 L/min) as bottom feed or pour from the top; adjust flow to establish a vortex.",
+        "Fill reservoir with dechlorinated water at known temperature; record initial dissolved oxygen (DO).",
+        "Start pump, establish stable vortex, run 30 min; record final DO; calculate SOTR = (DO_final - DO_initial) × volume / time.",
+        "Document which of the three flow regimes forms (A: smooth; B: visible vortex core + air entrainment; C: deep air core, turbulent)."
+      ],
+      "equipment": [
+        "equipment://funnel-hyperbolic",
+        "equipment://water-reservoir",
+        "equipment://submersible-pump",
+        "equipment://dissolved-oxygen-meter",
+        "equipment://kitchen-thermometer"
+      ],
+      "variables": [
+        "variable://vortex-stability",
+        "variable://flow-rate",
+        "variable://dissolved-oxygen"
+      ],
+      "expected_outcome": "PASS: SOTR exceeds 2× a comparable bubble diffuser at the same power, a stable vortex forms within 60 s, and two or more regimes are observable. FAIL: no stable vortex, SOTR at/below control, or funnel not hyperbolic. INCONCLUSIVE: marginal SOTR (1.2-1.9×), missing equipment, or single run only.",
+      "safety": "Trivial — water and glass/acrylic; secure the funnel to avoid spills.",
+      "status": "protocol_ready",
+      "replications": ["replication://004"]
+    },
+    {
+      "id": "protocol://blind-geopathic-mapping",
+      "title": "Blind Geopathic Zone Mapping (Inter-Rater Dowsing Test)",
+      "claim": "Radiesthesia/dowsing practitioners claim 'geopathic stress zones' (Hartmann / Curry earth-energy lines) can be located in a home with simple L-rods. Honest status: contested — the best-known controlled test (Kassel 1991, analyzed by J.T. Enright) found skilled dowsers at chance when blinded; the Furter UZH dissertation reports only tendencies, not significance. This protocol is designed so the claim can pass OR fail cleanly.",
+      "objective": "Test whether two people mapping the same room independently, blind to each other, agree on line positions above the chance baseline (cross-room control).",
+      "source_guides": ["dossier-005-blind-geopathic-mapping"],
+      "steps": [
+        "Build two L-rod sets (metal coat hangers/welding rod, long arm ~30 cm, handle ~10 cm; straw over the handle lets the rod swing freely).",
+        "Two mappers who have not discussed the room; a third witness/referee coordinates; mappers never see each other's maps or floor marks.",
+        "Room 1 (test): each mapper walks the room recording (x, y) positions where the rods cross/swing/dip; maps go to the referee; floor marks removed before the next mapper enters.",
+        "Room 2 (control): both repeat in a different room under the same blind conditions.",
+        "Repeat at least 3 sessions on different days; referee scores same-room agreement (30 cm match rule) vs cross-room chance baseline."
+      ],
+      "equipment": [
+        "equipment://l-rods",
+        "equipment://tape-measure",
+        "equipment://graph-paper"
+      ],
+      "variables": [
+        "variable://map-agreement"
+      ],
+      "expected_outcome": "PASS (supports for this home/mappers): same-room agreement ≥70% on average AND clearly exceeds cross-room chance by ≥25 percentage points. FAIL: same-room within 10 points of chance. INCONCLUSIVE: above chance but below 70%, fewer than 3 sessions, or only one mapper (solo mapping counts as nothing).",
+      "safety": "Trivial — no devices, no electricity, no physical influence; a fully honest test of inter-rater agreement.",
+      "status": "protocol_ready",
+      "replications": ["replication://005"]
+    }
+  ],
+  "equipment": [
+    {
+      "id": "equipment://funnel-hyperbolic",
+      "name": "Hyperbolic funnel",
+      "category": "Water vessel / geometry",
+      "specs": "Clear acrylic or glass following a hyperbolic profile: upper 10-15 cm, outlet 1-2 cm, height 20-30 cm, curve y=k/x. DIY alternative: plastic mixing bowl with a drilled outlet or a grain/feed funnel (closer to hyperbolic than a conical kitchen funnel).",
+      "cost_band": "<$30",
+      "source_options": ["salvage", "shop"],
+      "substitutes": ["equipment://funnel-conical (control only — conical ≠ hyperbolic)"]
+    },
+    {
+      "id": "equipment://funnel-conical",
+      "name": "Conical kitchen funnel (control)",
+      "category": "Water vessel / geometry",
+      "specs": "Standard conical kitchen funnel used as the pour-height/rate-matched control in the wasserwirbler temperature test, and as the control shape in the hyperbolic-funnel-vortex comparison.",
+      "cost_band": "<$10",
+      "source_options": ["salvage", "shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://threaded-outlet",
+      "name": "Threaded / rifled narrow outlet",
+      "category": "Water vessel / geometry",
+      "specs": "A PVC or brass pipe nipple with visible rifling/threads at the vortexer outlet (the claimed twist mechanism), e.g. a 1/2\" threaded nipple in a 3/4→3/8 reducer.",
+      "cost_band": "<$10",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://kitchen-thermometer",
+      "name": "Kitchen thermometer (0.1°C)",
+      "category": "Measurement",
+      "specs": "Calibrated digital kitchen thermometer with 0.1°C resolution if possible; used for water temperature differentials and reservoir temperature logging.",
+      "cost_band": "<$20",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://containers-identical",
+      "name": "Two identical water containers",
+      "category": "Containment",
+      "specs": "Two matching containers for source-vs-treated comparison; identical so volume and pour geometry are matched.",
+      "cost_band": "<$10",
+      "source_options": ["salvage", "shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://copper-coil",
+      "name": "Insulated copper wire coil",
+      "category": "Electrical (passive)",
+      "specs": "5-10 m of insulated copper wire (~0.5-1 mm²; hookup wire works), laid in a figure-eight on flexible foam/board with hand/foot contact loops. No power source.",
+      "cost_band": "<$10",
+      "source_options": ["salvage", "shop"],
+      "substitutes": ["equipment://contact-pads"]
+    },
+    {
+      "id": "equipment://contact-pads",
+      "name": "Hand/foot contact pads",
+      "category": "Electrical (passive)",
+      "specs": "Two flat metal/foil contact pads (or bare-wire loops) for the hands wired to the coil ends of the Eeman circuit.",
+      "cost_band": "<$5",
+      "source_options": ["salvage"],
+      "substitutes": ["equipment://copper-coil"]
+    },
+    {
+      "id": "equipment://pulse-monitor",
+      "name": "Pulse monitor",
+      "category": "Measurement",
+      "specs": "Fingers + a phone timer, or a cheap pulse oximeter / HRV app for a cleaner resting-pulse signal.",
+      "cost_band": "<$30",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://elevated-plate",
+      "name": "Elevated insulated conducting plate",
+      "category": "Electrical (passive)",
+      "specs": "Aluminum or galvanized steel plate ~30×30 cm (or a 5-10 m horizontal wire antenna) mounted on insulating supports at 3-5 m, connected via insulated downlead to the capacitor.",
+      "cost_band": "$30-50",
+      "source_options": ["salvage", "shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://pole-insulated",
+      "name": "Wooden / fiberglass pole (insulating)",
+      "category": "Structure",
+      "specs": "Wooden or fiberglass pole 3-5 m. Must NOT be metal — the collector must stay insulated from ground.",
+      "cost_band": "<$20",
+      "source_options": ["salvage", "shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://capacitor-film",
+      "name": "Low-leakage film capacitor",
+      "category": "Electrical (passive)",
+      "specs": "Polypropylene film capacitor, 10-100 nF. NOT electrolytic — leakage ruins the charge-accumulation test.",
+      "cost_band": "<$15",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://ground-connection",
+      "name": "Ground connection",
+      "category": "Electrical (passive)",
+      "specs": "Ground rod preferred; clamp to a metal cold-water pipe as fallback. Common return for the elevated-plate receiver.",
+      "cost_band": "<$20",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://multimeter",
+      "name": "Digital multimeter (10 MΩ input)",
+      "category": "Measurement",
+      "specs": "Digital multimeter with 10 MΩ input impedance (most DMMs; check the spec sheet) for DC voltage across the capacitor.",
+      "cost_band": "$20-50",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://foil-shield",
+      "name": "Aluminum foil Faraday shield (control)",
+      "category": "Electrical (passive)",
+      "specs": "Heavy aluminum foil wrapped around the plate and connected to ground for the shielded-control noise floor; the control should read ~0.",
+      "cost_band": "<$5",
+      "source_options": ["salvage", "shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://water-reservoir",
+      "name": "Water reservoir (20-50 L)",
+      "category": "Containment",
+      "specs": "20-50 L container of dechlorinated water at known temperature for the hyperbolic-funnel vortex test.",
+      "cost_band": "<$30",
+      "source_options": ["salvage", "shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://submersible-pump",
+      "name": "Submersible pump",
+      "category": "Mechanical",
+      "specs": "Submersible pump, 5-10 W, flow adjustable 1-5 L/min; vinyl tubing ~1 cm diameter. Bottom-feeds the hyperbolic funnel to establish the vortex.",
+      "cost_band": "$20-40",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://dissolved-oxygen-meter",
+      "name": "Dissolved oxygen meter",
+      "category": "Measurement",
+      "specs": "For dissolved-oxygen readings before/after the funnel-vortex run; used to compute oxygen transfer rate (SOTR).",
+      "cost_band": "$40-120",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://l-rods",
+      "name": "Two L-rod sets",
+      "category": "Radiesthesia tool",
+      "specs": "Metal coat hangers or welding rod bent into an L (long arm ~30 cm, handle ~10 cm), one set per mapper; a drinking straw over the handle lets the rod swing freely.",
+      "cost_band": "<$5",
+      "source_options": ["salvage"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://tape-measure",
+      "name": "Tape measure",
+      "category": "Measurement",
+      "specs": "One per mapper (or two) to record (x, y) map positions from two fixed walls.",
+      "cost_band": "<$10",
+      "source_options": ["shop"],
+      "substitutes": []
+    },
+    {
+      "id": "equipment://graph-paper",
+      "name": "Graph paper + pencils",
+      "category": "Documentation",
+      "specs": "One sheet per mapper per room; also painter's tape (optional) for floor marking that must be removed before the next mapper enters.",
+      "cost_band": "<$5",
+      "source_options": ["salvage", "shop"],
+      "substitutes": []
+    }
+  ],
+  "variables": [
+    {
+      "id": "variable://water-temp",
+      "name": "Water temperature (vortexed vs control)",
+      "symbol": "ΔT",
+      "unit": "°C",
+      "measurement_procedure": "Fill two identical containers from the same source bucket; pour one through the vortexer and one through a plain conical funnel at matching height/rate; measure immediately and at 5, 15, 60 min with a 0.1°C thermometer; repeat N=5 and note ambient temp.",
+      "typical_range": "0.1-0.5°C (claim threshold: ≥0.3°C consistent, same direction ≥4/5)",
+      "confounds": "Ambient drift, pour height/rate mismatch, thermometer resolution, evaporation"
+    },
+    {
+      "id": "variable://mouthfeel-preference",
+      "name": "Blind mouthfeel preference",
+      "symbol": "— (ordinal rank)",
+      "unit": "rank",
+      "measurement_procedure": "3 cups per session (A, B, a second B) labeled randomly by a helper who is not the tester; tester picks 'softer/rounder' vs 'harder/flatter'; 5+ sessions score vs chance (binomial).",
+      "typical_range": "Claim threshold: ≥8/10 selections of the vortexed cup; ~5/10 is chance",
+      "confounds": "Expectation bias (mitigated by blinding), cup/volume difference, taster discrimination"
+    },
+    {
+      "id": "variable://algae-rank",
+      "name": "Algae growth (ranked photos)",
+      "symbol": "— (ordinal)",
+      "unit": "rank",
+      "measurement_procedure": "Two identical small tanks, same water/light/algae source (a spoon of pond water each); one gets vortexed water changes; photograph daily and rank greenness blind.",
+      "typical_range": "2-week observation; claim supported if tank B ranked less green ≥4/5 sessions",
+      "confounds": "Light/position differences, algae-source heterogeneity, photo exposure"
+    },
+    {
+      "id": "variable://irrigation-volume",
+      "name": "Irrigation water volume + seedling growth",
+      "symbol": "V",
+      "unit": "L per row",
+      "measurement_procedure": "Two rows of identical seedlings, same soil; measure water volume used, growth (height), and wilting days weekly with photos.",
+      "typical_range": "Claim threshold: ≥20% water-volume reduction at equal growth",
+      "confounds": "Soil/seed differences, evaporation, weather"
+    },
+    {
+      "id": "variable://pulse-rate",
+      "name": "Resting pulse",
+      "symbol": "HR",
+      "unit": "bpm",
+      "measurement_procedure": "Helper measures pulse at 0, 5, 10 min while the tester lies in the circuit vs the sham mat; order randomized each session; 5+ sessions.",
+      "typical_range": "Claim threshold: delta ≥3 bpm, same direction ≥4/5 sessions",
+      "confounds": "Order/carryover, time-of-day arousal, tester awareness (blinded), measurement error"
+    },
+    {
+      "id": "variable://relaxation-rating",
+      "name": "Self-rated relaxation",
+      "symbol": "—",
+      "unit": "0-10 scale",
+      "measurement_procedure": "Tester rates relaxation 0-10 before/after each mat session (their own blind rating).",
+      "typical_range": "Claim threshold: delta ≥2/10 points vs sham, same direction ≥4/5",
+      "confounds": "Expectation (blinded), context, mood"
+    },
+    {
+      "id": "variable://charge-voltage",
+      "name": "Capacitor accumulated voltage",
+      "symbol": "V",
+      "unit": "V (DC)",
+      "measurement_procedure": "DMM across the film capacitor at 0, 5, 10, 15 min in each session, alternating with the grounded-foil shielded control; record weather/sky/time.",
+      "typical_range": "Micro-watt scale at home (½CV²); receiver should be ≥10× control noise, same direction ≥4/5 sessions",
+      "confounds": "Atmospheric gradient, RF rectification, triboelectric, humidity/weather, leaky capacitor"
+    },
+    {
+      "id": "variable://charge-rate",
+      "name": "Charge accumulation rate",
+      "symbol": "dV/dt",
+      "unit": "V/min",
+      "measurement_procedure": "Derived from the per-interval voltage record over each session; compared directly against the shielded-control rate.",
+      "typical_range": "Receiver rate should exceed control rate ≥10× (fair-weather conditions only)",
+      "confounds": "Same as charge-voltage; session-to-session weather variability"
+    },
+    {
+      "id": "variable://vortex-stability",
+      "name": "Vortex shape and stability",
+      "symbol": "— (regime A/B/C)",
+      "unit": "ordinal",
+      "measurement_procedure": "Document which of the three regimes forms by adjusting flow (A smooth, B visible vortex core + air entrainment, C deep air core/turbulent); pass requires a stable vortex within 60 s.",
+      "typical_range": "At least 2 regimes observable; stable vortex within 60 s",
+      "confounds": "Funnel geometry mismatch, pump flow stability, reservoir setup"
+    },
+    {
+      "id": "variable://flow-rate",
+      "name": "Flow rate",
+      "symbol": "Q",
+      "unit": "L/min",
+      "measurement_procedure": "Set/measure pump flow (1-5 L/min) with a measuring cup + stopwatch; correlate with vortex regime.",
+      "typical_range": "1-5 L/min",
+      "confounds": "Pump calibration, tubing resistance, head height"
+    },
+    {
+      "id": "variable://dissolved-oxygen",
+      "name": "Dissolved oxygen / oxygen transfer (SOTR)",
+      "symbol": "SOTR",
+      "unit": "mg/L (DO); g O2/h (SOTR)",
+      "measurement_procedure": "Record initial and final DO over a 30-min vortex run; SOTR = (DO_final - DO_initial) × volume / time; compare to a bubble-diffuser control at the same power.",
+      "typical_range": "PASS threshold: SOTR > 2× control; INCONCLUSIVE 1.2-1.9×",
+      "confounds": "Initial DO, water temp, reservoir volume, run time, control power"
+    },
+    {
+      "id": "variable://map-agreement",
+      "name": "Inter-rater agreement (same-room vs chance)",
+      "symbol": "—",
+      "unit": "%",
+      "measurement_procedure": "Referee overlays Mapper A's and Mapper B's maps for the same room; a match is a marked position within 30 cm of the other's; agreement % = matched ÷ total. Cross-room (different rooms) gives the chance baseline; 3+ sessions on different days.",
+      "typical_range": "PASS: same-room ≥70% AND ≥25 points above chance; FAIL: within 10 points of chance; else INCONCLUSIVE",
+      "confounds": "Shared bias (doorways/furniture), mapping precision, session day effects, only-one-mapper caveat"
+    }
+  ],
+  "replication_log": [
+    {
+      "id": "replication://001",
+      "protocol_id": "protocol://wasserwirbler",
+      "hand": "Open (no attempt logged yet)",
+      "date": "2026-09-06",
+      "setup": "Draft home protocol (Tests A-D) logged in the dossier; no full independent run recorded.",
+      "equipment_used": ["equipment://funnel-hyperbolic", "equipment://kitchen-thermometer"],
+      "deviations": "None — the dossier explicitly states 'no attempts yet'; entry marks the registry state, not a completed run.",
+      "raw_data_ref": "dossier-001-wasserwirbler",
+      "verdict": "inconclusive",
+      "data_file": "labs/data/wasserwirbler-001.csv"
+    },
+    {
+      "id": "replication://002",
+      "protocol_id": "protocol://eeman-circuit",
+      "hand": "Open (no attempt logged yet)",
+      "date": "2026-09-06",
+      "setup": "Draft protocol (circuit vs sham pulse test) logged; requires one tester + one helper, 5+ sessions.",
+      "equipment_used": ["equipment://copper-coil", "equipment://contact-pads", "equipment://pulse-monitor"],
+      "deviations": "None — dossier states 'no attempts yet'; this entry records that the blind test has not been run.",
+      "raw_data_ref": "dossier-002-eeman-circuit",
+      "verdict": "inconclusive",
+      "data_file": "labs/data/eeman-002.csv"
+    },
+    {
+      "id": "replication://003",
+      "protocol_id": "protocol://tesla-radiant-receiver",
+      "hand": "Open (no attempt logged yet)",
+      "date": "2026-09-08",
+      "setup": "Draft protocol (elevated-plate receiver vs shielded control) logged; no home run recorded.",
+      "equipment_used": ["equipment://elevated-plate", "equipment://capacitor-film", "equipment://multimeter"],
+      "deviations": "None — dossier states 'no attempts yet'. Known 2026 physics predicts SOME collection; magnitude is the open question.",
+      "raw_data_ref": "dossier-003-tesla-radiant-receiver",
+      "verdict": "inconclusive",
+      "data_file": "labs/data/tesla-radiant-003.csv"
+    },
+    {
+      "id": "replication://004",
+      "protocol_id": "protocol://hyperbolic-funnel-vortex",
+      "hand": "External protocol (JoVE 64516, 2023)",
+      "date": "2023-01-01",
+      "setup": "Peer-reviewed JoVE protocol documents stable free-surface hyperbolic vortices and reports SOTR above comparable aeration; accepted as published evidence of vortex formation, NOT as an independent replication by this archive's hands.",
+      "equipment_used": ["equipment://funnel-hyperbolic", "equipment://water-reservoir", "equipment://submersible-pump", "equipment://dissolved-oxygen-meter"],
+      "deviations": "External publication, not a home run by our hands; SOTR performance claim unconfirmed here. Partial external evidence of the geometric claim only.",
+      "raw_data_ref": "JoVE 64516 (app.jove.com) · dossier-004-hyperbolic-funnel-vortex",
+      "verdict": "partial",
+      "data_file": "labs/data/funnel-vortex-004.csv"
+    },
+    {
+      "id": "replication://005",
+      "protocol_id": "protocol://blind-geopathic-mapping",
+      "hand": "Kassel 1991 controlled dowsing test (analyzed by J.T. Enright, Skeptical Inquirer 23(1), 1999)",
+      "date": "1991-01-01",
+      "setup": "Best-known controlled dowsing test; skilled dowsers performed at chance when test conditions were blinded.",
+      "equipment_used": ["equipment://l-rods"],
+      "deviations": "Historical third-party controlled test; result was negative (chance-level). Furter UZH dissertation reports only tendencies, not significance.",
+      "raw_data_ref": "Kassel 1991 / Enright analysis · dossier-005-blind-geopathic-mapping",
+      "verdict": "failed",
+      "data_file": "labs/data/geopathic-005.csv"
+    }
+  ]
+}

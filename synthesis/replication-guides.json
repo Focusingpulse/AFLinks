@@ -1,0 +1,107 @@
+{
+  "schema": "open-lab-replication-guide-v1",
+  "description": "Modern Replication Guides attached to flagship doc pages. Generated from replication dossiers (living-library/synthesis/replication/) and archive content. Every guide is honest: hypothesis quoted, variables modernized, status explicit. [prescribed: Master Directive C — Open Lab]",
+  "guides": {
+    "5441": {
+      "doc_id": 5441,
+      "title": "Schauberger Water Vortexer (Wasserwirbler)",
+      "dossier": "dossier-001-wasserwirbler",
+      "status": "protocol",
+      "replicability": "home",
+      "cost": "<$30",
+      "claim": "A hyperbolic funnel with a narrow threaded (rifled) outlet generates a centripetal vortex in water that cools it, 'revitalizes' it (claimed softer/rounder mouthfeel), reduces algae, and reduces irrigation energy by ~30%.",
+      "variables": [
+        ["Water temperature before/after vortexing (0.1°C thermometer)", "digital kitchen thermometer"],
+        ["Blind mouthfeel preference (softer/rounder vs harder/flatter)", "paper cups + helper randomization, 5 sessions"],
+        ["Algae growth over 2 weeks (ranked photos)", "2 identical small tanks + pond-water algae source"],
+        ["Irrigation water volume + seedling growth", "2 rows identical seedlings, weekly photos"]
+      ],
+      "safety": "Trivial — water and plastic, nothing pressurized, nothing hot.",
+      "why_now": "Schauberger's centripetal-orders-water thesis is the keystone of the vortex physics cluster. A clean home test of even one measurable facet (temperature, taste, algae) would be the first independent data point the archive has on the entire lineage. Dovetails with the Village water domain and permaculture irrigation.",
+      "modern_refs": [
+        "JoVE hyperbolic water vortex protocol (2023)",
+        "Contemporary vortex water treatment literature"
+      ]
+    },
+    "1526": {
+      "doc_id": 1526,
+      "title": "Walter Schauberger Hyperbolic Funnel Vortex",
+      "dossier": "dossier-004-hyperbolic-funnel-vortex",
+      "status": "protocol",
+      "replicability": "home",
+      "cost": "<$50",
+      "claim": "A clear hyperbolic funnel produces a free-surface hyperbolic water vortex whose geometry and stability follow Walter Schauberger's 1960s design; the funnel's hyperbolic profile (not a conical one) is what produces the distinctive vortex.",
+      "variables": [
+        ["Vortex stability and shape across funnel profiles", "clear acrylic/glass hyperbolic funnel (JoVE protocol)"],
+        ["Flow rate vs funnel geometry", "measuring cup + stopwatch"],
+        ["Comparison: hyperbolic vs conical funnel", "standard kitchen funnel as control"]
+      ],
+      "safety": "Trivial — water and glass/acrylic; secure the funnel to avoid spills.",
+      "why_now": "A peer-reviewed JoVE protocol (2023) now exists for preparing free-surface hyperbolic water vortices — an independent, reproducible path to test a Schauberger design claim that was never instrumented in his lifetime.",
+      "modern_refs": [
+        "JoVE 64516: preparation of free-surface hyperbolic water vortices (2023)",
+        "Vortex-tube / vortex-engineering literature"
+      ]
+    },
+    "1508279": {
+      "doc_id": 1508279,
+      "title": "Tesla Radiant Energy Receiver",
+      "dossier": "dossier-003-tesla-radiant-receiver",
+      "status": "protocol",
+      "replicability": "home",
+      "cost": "$30-50",
+      "claim": "An insulated conducting plate elevated in open air, connected through a capacitor to ground, accumulates charge from the environment (radiant energy) that a load can draw — per Tesla's US patents 685,957 and 685,958 (1901).",
+      "variables": [
+        ["Voltage accumulated at the capacitor over time", "multimeter (DC voltage)"],
+        ["Charge rate: elevated plate vs grounded control", "identical shielded control plate"],
+        ["Diurnal/weather correlation of accumulated charge", "log over days, note sky/weather"]
+      ],
+      "safety": "Home scale is low-voltage and safe; keep the plate below any live line, use a high-impedance meter, and never attach to mains.",
+      "why_now": "Modern interest in atmospheric electricity and energy harvesting has revived exactly the question Tesla posed — how much usable energy can an elevated insulated plate draw from the environment? Cheap multimeters and data logging make the measurement rigorous.",
+      "modern_refs": [
+        "Atmospheric electricity / Earth-ionosphere cavity literature",
+        "Modern energy-harvesting plate-antenna experiments"
+      ]
+    },
+    "1509139": {
+      "doc_id": 1509139,
+      "title": "Tesla Radiant Energy Utilization Method",
+      "dossier": null,
+      "status": "protocol",
+      "replicability": "home",
+      "cost": "$30-50",
+      "claim": "Tesla's method of utilizing radiant energy: an antenna/plate connected through a capacitor to ground can both accumulate energy and, by controlled discharge, drive a load — the 'radiant' component distinct from ordinary electromagnetic induction.",
+      "variables": [
+        ["Capacitor charge accumulation vs time (open-air plate)", "multimeter"],
+        ["Discharge energy delivered to a small load", "LED + current meter"],
+        ["Comparison against a simple antenna (no capacitor)", "control circuit"]
+      ],
+      "safety": "Low-voltage home scale; use a high-impedance meter, keep clear of mains and live wiring.",
+      "why_now": "The 'radiant energy' question — whether an insulated plate in free air draws usable energy beyond ordinary static induction — is directly testable today with cheap metering, and bears on modern energy-harvesting and atmospheric-electricity research.",
+      "modern_refs": [
+        "Atmospheric electricity harvesting literature",
+        "Tesla's radiant-energy patents re-examined in modern EE blogs"
+      ]
+    },
+    "5519": {
+      "doc_id": 5519,
+      "title": "Wilhelm Reich Orgone Accumulator",
+      "dossier": null,
+      "status": "protocol",
+      "replicability": "home",
+      "cost": "<$100",
+      "claim": "Reich's orgone accumulator — a box of alternating organic (e.g. wool/cotton) and metallic (e.g. steel wool/foil) layers — concentrates a measurable 'orgone' energy, claimed to produce an interior temperature differential and observable effects on living tissue.",
+      "variables": [
+        ["Interior vs exterior temperature over time (box vs control)", "2 identical boxes, 1 layered + 1 control, datalogging thermometers"],
+        ["Electrostatic charge differential (if measurable)", "electroscope or field mill"],
+        ["Blind biological probe (e.g. plant growth) with control", "identical seed trays"]
+      ],
+      "safety": "Layered boxes of wool and metal are inert and safe; no electrical connection. Be wary of Reich's later high-voltage 'cloudbuster' apparatus — do NOT build one at home.",
+      "why_now": "The orgone accumulator is one of the archive's most-ridiculed but never-rigorously-tested claims. A controlled temperature-differential test with modern datalogging is cheap and would be the first honest independent data point on the orgone line — the 'wrong turn' worth a clean retry.",
+      "modern_refs": [
+        "Thermal mass / box-insulation physics (control reasoning)",
+        "Modern replication attempts of the orgone box"
+      ]
+    }
+  }
+}
