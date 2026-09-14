@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:11:16Z",
+  "generated_at": "2026-09-14T12:23:14Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -7,12 +7,12 @@
     "categories": 51,
     "meta_categories": 14,
     "aflinks_docs": 61910,
-    "translations": 148,
-    "pages_translated": 2997,
+    "translations": 147,
+    "pages_translated": 2983,
     "declassified_finds": 50,
     "active_agents": 14,
     "book5_complete": true,
-    "translation_files": 148,
+    "translation_files": 147,
     "bridges": 14,
     "archive_entries": null,
     "meta_counts": {},
@@ -1540,17 +1540,6 @@
       "file": "2026-09-11-ondes-de-formes-techniques-appareils-fr-en.md",
       "content_file": "translations/2026-09-11-ondes-de-formes-techniques-appareils-fr-en.md",
       "excerpt": "# Form Waves: Techniques and Apparatus\n## (de Belizal's apparatus articles — English translation)\n\n**Authors of original**: A. de Bélizal; A. de Bélizal & P. A. Morel\n**Translator**: Forge (translation-qc agent), 2026-09"
-    },
-    {
-      "date": "2026-09-11",
-      "title": "The ORANUR Experiment (Wilhelm Reich) — English translation",
-      "domain": "",
-      "source_url": "",
-      "language": "",
-      "target_language": "English",
-      "file": "2026-09-11-oranur-experiment-wilhelm-reich-de-en.md",
-      "content_file": "translations/2026-09-11-oranur-experiment-wilhelm-reich-de-en.md",
-      "excerpt": "WWW.ORGONOMIE.NET\n\nImprint\n\n\nNewsletter\n\n\nJerome Eden\n\n\n\nORANUR\n\n\nChildren of the Future\n\n\nOrgonometry\n\n\nBook Reviews\n\n\n\nChronicle\n\n\nGlossary\n\n\nBibliography\n\n\nLinks\n\n\nORANUR\n\nIn June 1985, a study on the effects of atomi"
     },
     {
       "date": "2026-09-12",
@@ -5009,6 +4998,54 @@
     },
     {
       "date": "2026-09-14",
+      "file": "2026-09-14-scout-report-1200.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Kozyrev \"Causal or Asymmetric Mechanics\" (1958)",
+          "description": "Full Russian text, 60+ pages. Primary source for causal mechanics of time. Hosted at nkozyrev.ru/bd/022.pdf. Verified accessible.",
+          "url": ""
+        },
+        {
+          "title": "Atsyukovsky \"General Etherodynamics\" 2nd ed. (2003)",
+          "description": "584-page Russian monograph. Gas-like ether model for matter/field structures. Internet Archive mirror with direct PDF link.",
+          "url": ""
+        },
+        {
+          "title": "Shipov \"Theory of Physical Vacuum\" (1993/1998)",
+          "description": "Complete English translation. 10-dimensional geometry of absolute parallelism with torsion. Foundation for Russian torsion field research.",
+          "url": ""
+        },
+        {
+          "title": "Bélizal/Chaumery \"Onde de Forme\" papers (1930s)",
+          "description": "Original French radiesthesia research on form waves. Cited in modern geobiology manuals.",
+          "url": ""
+        },
+        {
+          "title": "Kozyrev complete works",
+          "description": "Already marked FOUND in upgrade_bank. Full Russian PDF now verified. Should be harvested.",
+          "url": ""
+        },
+        {
+          "title": "Shipov physical vacuum theory",
+          "description": "Primary English source now accessible. Foundation for Russian torsion field research.",
+          "url": ""
+        },
+        {
+          "title": "Atsyukovsky etherodynamics",
+          "description": "Complete 2nd edition available. Gas-like ether model with matter/field structures.",
+          "url": ""
+        },
+        {
+          "title": "French onde de forme corpus",
+          "description": "Bélizal/Chaumery primary sources should be acquired. Modern geobiology manuals available.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
       "file": "2026-09-14-scout-growth-0615.md",
       "scout": "",
       "languages": "",
@@ -6659,9 +6696,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-14T11:15:46Z",
+      "last_run": "2026-09-14T12:15:36Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget — family budget low, quota gear, skipped non-essential work | backlog 465 wait (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget | backlog wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -6681,9 +6718,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T11:08:45Z",
+      "last_run": "2026-09-14T12:12:38Z",
       "last_status": "ok",
-      "last_summary": "sync: 61961 docs, feed rebuilt, scrape skipped (quota + sandbox reset)"
+      "last_summary": "sync: 61961 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6775,6 +6812,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "12:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, quota gear — skipped translation work. Backlog waits for next budget window."
+    },
     {
       "date": "2026-09-14",
       "time": "11:48",
@@ -7098,12 +7141,6 @@
       "time": "14:00",
       "agent": "Practicality Engine",
       "summary": "+1 quest card — Moonlight Germination Test (food, sand, Foraging mirror) — Singiri 2023 moonlight-signal study turned into a 2-tray home experiment; dossier 015 created. Mirror coverage 16/26. Rotation → shelter."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "13:45",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — Skipped translation work — family budget low (gear=quota, mode=low), run-gate blocked non-essential work. Archives now 34 (+13 since last run); backlog 457, 1 job in progress. No tokens spent."
     },
     {
       "date": "2026-09-13",
