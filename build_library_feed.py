@@ -524,6 +524,60 @@ def main():
             feed["library"]["book5_complete"] = book5_complete
     feed["atsuyskovsky_books"] = bookset
 
+    # --- 1c. Radiesthesia book set (scanned from disk; survives rebuilds) ---
+    # 2026-09-14 (Drunvalo): radiesthesia_books used to be appended by hand to
+    # library_feed.json and was silently wiped on every rebuild by this script.
+    # Generate it from books/radiesthesia/** on disk instead. md5s are cached
+    # in books/radiesthesia/.md5-cache.json so the rebuild stays fast.
+    rad_root = os.path.join(AFLINKS, "books", "radiesthesia")
+    rad_cache_path = os.path.join(rad_root, ".md5-cache.json")
+    rad_cache = {}
+    try:
+        if os.path.isfile(rad_cache_path):
+            with open(rad_cache_path, encoding="utf-8") as f:
+                rad_cache = json.load(f)
+    except Exception:
+        rad_cache = {}
+    rad_books = []
+    if os.path.isdir(rad_root):
+        rad_dirty = False
+        for author_slug in sorted(os.listdir(rad_root)):
+            adir = os.path.join(rad_root, author_slug)
+            if not os.path.isdir(adir):
+                continue
+            for fname in sorted(os.listdir(adir)):
+                p = os.path.join(adir, fname)
+                if not os.path.isfile(p):
+                    continue
+                mtime = int(os.path.getmtime(p))
+                size = os.path.getsize(p)
+                key = f"{author_slug}/{fname}"
+                cached = rad_cache.get(key)
+                if cached and cached.get("mtime") == mtime and cached.get("size") == size:
+                    h = cached["md5"]
+                else:
+                    import hashlib as _hl
+                    with open(p, "rb") as fh:
+                        h = _hl.md5(fh.read()).hexdigest()
+                    rad_cache[key] = {"mtime": mtime, "size": size, "md5": h}
+                    rad_dirty = True
+                title = os.path.splitext(fname)[0].replace("_", " ").strip()
+                rad_books.append({
+                    "title": title,
+                    "author": author_slug.replace("-", " ").title(),
+                    "pdf": f"books/radiesthesia/{author_slug}/{fname}",
+                    "size_mb": round(size / 1e6, 1),
+                    "md5": h,
+                    "provenance": "proton-drive-share-Physical-Radiesthesia (via Chris, 2026-09-14)",
+                })
+        if rad_dirty or not os.path.isfile(rad_cache_path):
+            try:
+                with open(rad_cache_path, "w", encoding="utf-8") as f:
+                    json.dump(rad_cache, f)
+            except Exception as e:
+                print(f"  WARN: could not write radiesthesia md5 cache: {e}", flush=True)
+    feed["radiesthesia_books"] = rad_books
+
     # --- 2. Latest translations (counted as distinct WORKS, not files) ---
     # Revision passes re-publish the same document under new dated filenames;
     # group by normalized title and keep the newest revision per work so the

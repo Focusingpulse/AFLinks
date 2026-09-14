@@ -34,6 +34,14 @@ cd /root/workspace/aflinks && git add books/radiesthesia/<slug> library_feed.jso
 ## Stuck downloads
 If a .crdownload stalls >20 min, re-click the folder's row Download in the browser page via `cdp eval` over the tr list. Two folders stuck at tiny sizes initially (62B / 1330B) — Enel and Radiesthesia Images likely.
 
+## Blocker: GitHub LFS migration required (2026-09-14 17:00 UTC)
+- GitHub rejected push: 2 PDFs exceed 100MB limit (Supersensonics_1978.pdf: 111MB, Chrisropher-Hills-Massy-Alive-to-the-Universe.pdf: 139MB)
+- Existing repo has large files committed directly (not via LFS), which worked before but new pushes are rejected
+- Fix requires: `git lfs migrate import --include="*.pdf,*.mp4" --everything` + force push
+- This rewrites history and requires coordination with other agents/fleet
+- Feed builder patched to generate `radiesthesia_books` from disk (survives rebuilds)
+- Christopher Hills folder processed (34 unique files, 4 dupes skipped) but not yet pushed
+
 ## Completion criteria (then delete this cron + this file)
 - All 7 folders above extracted, deduped, copied into books/radiesthesia/, feed entries added, committed and pushed.
 - Update drunvalo/blind-spots-progress-2026-09-14.md item 3 to Done.
