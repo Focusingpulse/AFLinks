@@ -1,5 +1,5 @@
 ---
-name: "The Oranur Experiment (Wilhelm Reich) — orgonomie.net"
+name: "2026-09-11-oranur-experiment-wilhelm-reich-de"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 
