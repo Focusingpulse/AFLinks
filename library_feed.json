@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:07:51Z",
+  "generated_at": "2026-09-14T12:11:16Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -6648,9 +6648,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-14T10:45:50Z",
+      "last_run": "2026-09-14T11:48:32Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 60) | gate skipped run: family budget low, gear=quota | backlog 465 full-text, 2 in progress (gear: quota)"
+      "last_summary": "+0 archives since last run (still 60) | Boudet torsion/ether FR translation 10/53 chunks (+4 this run) | backlog 465 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -6659,9 +6659,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-14T10:15:34Z",
+      "last_run": "2026-09-14T11:15:46Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget - gate skipped run | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget — family budget low, quota gear, skipped non-essential work | backlog 465 wait (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -6681,9 +6681,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T10:09:59Z",
+      "last_run": "2026-09-14T11:08:45Z",
       "last_status": "ok",
-      "last_summary": "sync: 61940 docs, feed rebuilt"
+      "last_summary": "sync: 61961 docs, feed rebuilt, scrape skipped (quota + sandbox reset)"
     },
     {
       "member": "archive-raid",
@@ -6775,6 +6775,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "11:48",
+      "agent": "Translation Curator",
+      "summary": "+4 chunks — Quota-mode run: translated chunks 7-10 of Alain Boudet 'L'éther fluide et tourbillonnaire des champs de torsion' (FR, spirit-science.fr) — DePalma gyroscope fall experiments, primordial field theory, N-machine, Kozyrev biography. Job now 10/53 chunks. Source PDF already archived (2026-09-14-torsion-ether-spirit-science-fr.pdf, 4.7MB)."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "11:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (quota gear), gate blocked non-essential work. +0 chunks. Backlog holding at 465 full-doc jobs, 2 in progress. Will resume on next fire with budget."
+    },
     {
       "date": "2026-09-14",
       "time": "10:45",
@@ -7092,18 +7104,6 @@
       "time": "13:45",
       "agent": "Translation Curator",
       "summary": "+0 chunks — Skipped translation work — family budget low (gear=quota, mode=low), run-gate blocked non-essential work. Archives now 34 (+13 since last run); backlog 457, 1 job in progress. No tokens spent."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "13:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low (quota gear) — run-gate blocked translation work. Checked in with +0 chunks. Will resume full-document translation when budget window recovers."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "12:45",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — Skipped run — family budget low (quota gear, mode=low). No chunks translated; archival copies at 21 (down 13 since last run — worth a look next active run)."
     },
     {
       "date": "2026-09-13",
