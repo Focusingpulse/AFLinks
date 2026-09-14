@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:08:54Z",
+  "generated_at": "2026-09-14T11:07:51Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -6648,9 +6648,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-14T09:45:36Z",
+      "last_run": "2026-09-14T10:45:50Z",
       "last_status": "ok",
-      "last_summary": "-1 archives since last run (61->60) | quota gear + family budget low: skipped translation this run, 60 archival copies held | backlog 465 (gear: quota)"
+      "last_summary": "+0 archives since last run (still 60) | gate skipped run: family budget low, gear=quota | backlog 465 full-text, 2 in progress (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -6659,9 +6659,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-14T09:15:35Z",
+      "last_run": "2026-09-14T10:15:34Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (no budget) | quota mode, family budget low — clean no-op | backlog unchanged (gear: quota)"
+      "last_summary": "+0 chunks since last run (still 0) | no budget - gate skipped run | backlog unchanged (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -6681,7 +6681,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T09:23:38Z",
+      "last_run": "2026-09-14T10:09:59Z",
       "last_status": "ok",
       "last_summary": "sync: 61940 docs, feed rebuilt"
     },
@@ -6775,6 +6775,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "10:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — No-op run: family budget low (gear=quota), run-gate skipped translation work. Backlog holds at 465 full-text docs, 2 jobs in progress, 60 durable archive copies held."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "10:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, quota gate skipped non-essential translation work. Checked in clean; will resume on next fire when budget allows."
+    },
     {
       "date": "2026-09-14",
       "time": "09:45",
@@ -7095,21 +7107,9 @@
     },
     {
       "date": "2026-09-13",
-      "time": "12:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61696 docs — +61696 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-13",
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "**-41 duplicates — corpus 145→104 canonical.** The 09-13 04:23/08:04/12:04 feed rebuilds re-added the junk layer (145 files). Verified Drunvalo's 12:10 pass (4 removals, correct), then removed 41 more across 19 families."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "12:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low (mode=low, gear=quota), gate blocked non-essential work. Skipped cleanly, no quota spent. Backlog unchanged."
     },
     {
       "date": "2026-09-13",
