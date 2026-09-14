@@ -1,6 +1,6 @@
 ---
-name: "Analyse des brevets Tesla — énergie radiante"
-description: "French analysis of Tesla radiant-energy patents."
+name: "2026-09-11-analyse-brevets-tesla-energie-radiante-fr"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Chercheurs Du Vrai

@@ -1,6 +1,6 @@
 ---
-name: "The ORANUR Experiment — Wilhelm Reich"
-description: "Wilhelm Reich ORANUR experiment documentation, German original."
+name: "2026-09-11-oranur-experiment-wilhelm-reich-de"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 WWW.ORGONOMIE.NET

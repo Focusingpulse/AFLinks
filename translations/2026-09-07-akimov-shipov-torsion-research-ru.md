@@ -1,6 +1,6 @@
 ---
-name: "Akimov/Shipov Torsion Field Research — Institute of Vacuum Physics"
-description: "Akimov–Shipov torsion field research program documents (Academy of Trinitarianism, Institute of Vacuum Physics), Russian-to-English translation."
+name: Akimov Shipov Torsion Research Ru
+description: Full English translation
 ---
 ACADEMY OF TRINITARIANISM
 

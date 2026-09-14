@@ -1,6 +1,6 @@
 ---
-name: "Schauberger — Wasser: Blut der Erde"
-description: "Viktor Schauberger "Wasser — Blut der Erde" (Water, Blood of the Earth), German original."
+name: "2026-09-11-schauberger-water-blood-of-the-earth-de"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Viktor Schauberger

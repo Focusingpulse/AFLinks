@@ -1,6 +1,6 @@
 ---
-name: "Spyridis — Platonic Theory of Everything"
-description: "Spyridis Platonic theory of everything, Greek original."
+name: "2026-09-11-spyridis-platonic-theory-of-everything-el"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 The Platonic Theory of Everything and

@@ -1,6 +1,6 @@
 ---
-name: "Psicogeometría: geometría en materia y energía"
-description: "Psicogeometry — geometry in matter and energy, Spanish original."
+name: "2026-09-11-psicogeometria-geometria-en-materia-y-energia-es"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Sacred Geometry

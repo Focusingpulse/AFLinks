@@ -1,6 +1,6 @@
 ---
-name: "Magnitsky — Gravity in the Theory of Compressible Oscillating Ether"
-description: "N.A. Magnitsky: gravity in the theory of compressible oscillating ether, Complex Systems No. 4 (33), 2019."
+name: "2026-09-11-magnitsky-gravity-compressible-oscillating-ether-ru"
+description: "Full-document translation (assembled from completed chunks)."
 ---
 
 Magnitsky, 2019
