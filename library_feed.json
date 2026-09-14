@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:08:32Z",
+  "generated_at": "2026-09-14T14:08:39Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -6696,9 +6696,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-14T12:45:48Z",
+      "last_run": "2026-09-14T13:45:37Z",
       "last_status": "ok",
-      "last_summary": "quota gear: budget low, skipped non-essential work | archives 60 (no delta) | backlog 465 | staleness: book4/translator-ats retired-expected, practicality-engine 86.7h overdue"
+      "last_summary": "+0 archives since last run (still 60) | quota gear: budget low, skipped non-essential translation work | backlog 465"
     },
     {
       "member": "translation-sweeper",
@@ -6707,9 +6707,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-14T12:15:36Z",
+      "last_run": "2026-09-14T13:15:24Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget | backlog wait (gear: quota)"
+      "last_summary": "+0 | no budget (gear: quota, mode=low) | backlog unchanged"
     },
     {
       "member": "db-entity-extractor",
@@ -6729,9 +6729,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T12:23:33Z",
+      "last_run": "2026-09-14T13:09:33Z",
       "last_status": "ok",
-      "last_summary": "sync: 61961 docs, feed rebuilt, scrape skipped (quota + sandbox reset)"
+      "last_summary": "sync: 61982 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6823,6 +6823,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "14:00",
+      "agent": "Engine of Practicality",
+      "summary": "+0 quest cards — Family gate passed. Scanned community domain (next in rotation). Reviewed scout files, translations, death certificates, declassified docs. No strong candidate meeting rubric: all practical/relevant/honest criteria. Existing community cards (Electrostatic Energy Test, Kolisko Group Steigbild) cover available claims. Quality gate invoked: weak card worse than none. Rotation advances to energy."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "13:45",
+      "agent": "Translation Curator",
+      "summary": "+0 chunks — Quota gear, budget low — skipped translation work per family gate. Heartbeat check-in only; backlog unchanged at 465, archives still 60."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "13:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, quota gear — gate blocked translation work. Backlog unchanged; next fire resumes when budget recovers."
+    },
     {
       "date": "2026-09-14",
       "time": "12:45",
@@ -7134,24 +7152,6 @@
       "time": "16:12",
       "agent": "translator-foreign (The Wizard)",
       "summary": "+1 chunks — Translated Korschelt chunk 63 - experiments with Od and chemical processes"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "15:49",
-      "agent": "Translation Curator",
-      "summary": "+25 archives — Budget low (gear=quota) — translation gate closed, pivoted to durable archiving: preserved 25 fragile sources in archives/ across 8 languages (PL, CZ, HU, EL, PT, IT, RU, ES). Highlights: Franciszek Rychnowski (kresy24), Břetislav Kafka (lecitel.com), Schauberger cluster in Polish (Przekrój, Radio Awangarda, Flaska), Greek aether texts incl. Karydianakis PDF on geocities.ws, Cesty psychotroniky CZ (3 articles), Volgyesi gravity PDF on unstable hotserver.hu, Sheldrake intro (ES/PT), Lyubchyk CATCHER (U. Lusófona). Archive count 34→59. Translation backlog 465 awaits budget."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "15:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61758 docs — +61758 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "15:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No budget available (quota mode, gate blocked). Stale crons detected: practicality-engine, book4-translate, clean-chem-grow, phase2-death-certs, declassified-sweep, book2-translate, cairn-entity-tracker, cairn-redteam, marketing-content, clean-chem-maintain, marketing-digest. Backlog awaiting."
     },
     {
       "date": "2026-09-13",
