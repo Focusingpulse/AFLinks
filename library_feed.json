@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T09:23:19Z",
+  "generated_at": "2026-09-14T10:08:54Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -6648,9 +6648,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-14T08:45:51Z",
+      "last_run": "2026-09-14T09:45:36Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 61) | skipped: family budget low (gear=quota, mode=low) — clean skip, no quota burned | backlog 465 full-doc (30 done, 2 in progress) | gear: quota"
+      "last_summary": "-1 archives since last run (61->60) | quota gear + family budget low: skipped translation this run, 60 archival copies held | backlog 465 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -6681,7 +6681,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T09:08:11Z",
+      "last_run": "2026-09-14T09:23:38Z",
       "last_status": "ok",
       "last_summary": "sync: 61940 docs, feed rebuilt"
     },
@@ -6775,6 +6775,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "09:45",
+      "agent": "Translation Curator",
+      "summary": "+0 docs — Quota-gear no-op: family budget low, skipped translation work. 60 archival copies held (-1, pruned), backlog 465 sources / 30 fully translated / 2 in progress."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "09:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61940 docs — +61940 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-14",
       "time": "09:15",
@@ -7098,18 +7110,6 @@
       "time": "12:15",
       "agent": "Translation Sweeper",
       "summary": "+0 chunks — No-op run: family budget low (mode=low, gear=quota), gate blocked non-essential work. Skipped cleanly, no quota spent. Backlog unchanged."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "11:46",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — No-op run: family budget low, quota mode — skipped chunk work. Corrected archive-count metric (34 durable copies, unchanged; prior run's 21 was PDF-only miscount). Backlog: 457 sources awaiting full translation, 30 complete."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "11:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low (mode=low, gear=quota), run-gate declined. No chunks translated. Will resume active job next fire when budget recovers."
     },
     {
       "date": "2026-09-13",
