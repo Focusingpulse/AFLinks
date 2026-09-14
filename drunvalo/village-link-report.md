@@ -1,17 +1,15 @@
 # Village Link Report — 2026-09-14
 
-Checked **773** URLs: **754** OK, **13** HTTP errors, **0** redirects, **6** unreachable/timeouts.
+Checked **776** URLs: **758** OK, **14** HTTP errors, **0** redirects, **4** unreachable/timeouts.
 
-## Unreachable / timeout (6)
+## Unreachable / timeout (4)
 
 - `http://ia800306.us.archive.org/30/items/fe_The_Solar_Greenhouse_Book/The_Solar_Greenhouse_Book.pdf`  (error: URLError)
 - `http://uhspr.ca/merit-badges/`  (error: URLError)
-- `http://www.davidhuang.org`  (error: TimeoutError)
 - `http://www.dlive.tv/mavisfarmacy`  (error: URLError)
-- `http://www.theartisthomestead.com`  (error: TimeoutError)
 - `https://mountainherbs.net/grown`  (error: URLError)
 
-## HTTP errors (13)
+## HTTP errors (14)
 
 - [`http://byjillb.com`](http://byjillb.com)  (HTTP 404)
 - [`http://innoperma.weebly.com/old`](http://innoperma.weebly.com/old)  (HTTP 404)
@@ -24,6 +22,7 @@ Checked **773** URLs: **754** OK, **13** HTTP errors, **0** redirects, **6** unr
 - [`https://skipthejourney.wordpress.com/`](https://skipthejourney.wordpress.com/)  (HTTP 404)
 - [`https://www.aku.si`](https://www.aku.si)  (HTTP 502)
 - [`https://www.allaboutbirds.org/guide/`](https://www.allaboutbirds.org/guide/)  (HTTP 403)
+- [`https://www.elevify.com/en/courses/food-gastronomy-and-hospitality/food/food-preserving-course-bac2e`](https://www.elevify.com/en/courses/food-gastronomy-and-hospitality/food/food-preserving-course-bac2e)  (HTTP 403)
 - [`https://www.kickstarter.com/projects/positiverealfutures/an-actually-fun-tv-show-about-a-future-with-real-hope`](https://www.kickstarter.com/projects/positiverealfutures/an-actually-fun-tv-show-about-a-future-with-real-hope)  (HTTP 403)
 - [`https://www.patreon.com/slowfilms`](https://www.patreon.com/slowfilms)  (HTTP 403)
 
