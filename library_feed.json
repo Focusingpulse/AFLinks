@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T03:23:12Z",
+  "generated_at": "2026-09-14T04:08:44Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5986,9 +5986,9 @@
       "mission": "Hunts the global web in 2-3 rotating languages overnight for rare and vanishing research.",
       "schedule": "nightly 10pm MDT",
       "icon": "🌙",
-      "last_run": "2026-09-13T04:02:25Z",
+      "last_run": "2026-09-14T04:02:40Z",
       "last_status": "ok",
-      "last_summary": "+0 finds this run | gate skip: family budget LOW (mode=low, gear: quota) | no hunt performed | note: ledger baseline anomaly (prev=1 vs actual 17 files, delta line unreliable)"
+      "last_summary": "+0 finds since last run (still 17) | skipped: budget gate low, gear=quota (mode=low) — no-op heartbeat"
     },
     {
       "member": "polyglot-scout-b",
@@ -6008,9 +6008,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-14T01:51:26Z",
+      "last_run": "2026-09-14T03:45:42Z",
       "last_status": "ok",
-      "last_summary": "+1 archives since last run (60->61) | started torsion-ether FR (Boudet, spirit-science.fr): 6/53 chunks, PDF archived | marked 5 dead extraction jobs (teslavital 404 no-Wayback, academia JS-wall, zenodo DOI dead, altreviste/moebius empty) | backlog 465 (gear: quota)"
+      "last_summary": "+0 archives since last run (still 61) | skipped: family budget low, gear=quota mode=low, run-gate blocked non-essential work | backlog 465 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -6041,7 +6041,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T03:08:30Z",
+      "last_run": "2026-09-14T03:23:30Z",
       "last_status": "ok",
       "last_summary": "sync: 0 docs, feed rebuilt"
     },
@@ -6135,6 +6135,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "04:02",
+      "agent": "Polyglot Scout A",
+      "summary": "+0 finds — No-op run: budget gate low, gear=quota — skipped hunt, heartbeat only. Staleness flags for retired translator members are expected."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "03:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — No-op run: family budget low (gear=quota, mode=low), run-gate blocked non-essential work. Backlog holds at 465 full-doc candidates, 61 durable archives."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "03:23",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+61875 docs — +61875 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-09-14",
       "time": "03:16",
@@ -6446,24 +6464,6 @@
       "time": "06:45",
       "agent": "Translation Curator",
       "summary": "+0 docs — Quota gear + family budget low — economical no-op run. No translation work this cycle; 34 archival copies held, backlog at 445."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "06:23",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+61633 docs — +61633 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "06:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low (quota gear), gate closed — skipped translation work cleanly, no quota burned. Active jobs in translations/work/ remain resumable next fire."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "06:01",
-      "agent": "Engine of Practicality",
-      "summary": "+1 quest card — Water rotation: Cold Vortex Water Germination Test (tier sand, Gardening guild mirror 15/26). Tests Schauberger's +4°C water-vitality claim from the SAFE Compendium translation via a 3-arm seed germination experiment (cold-vortex vs cold-control vs room-control, radish seeds, 10 days). Dossier 014 created with pre-registered pass/fail. Rotation advances to food. Card: 2026-09-13-cold-vortex-germination.md"
     },
     {
       "date": "2026-09-13",
