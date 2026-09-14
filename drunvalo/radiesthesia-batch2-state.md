@@ -26,19 +26,19 @@ Proton Drive share (Chris): https://drive.proton.me/urls/MM2YV9Z9PM#0EL-9viWFcTn
 - Misc Literature (83 files) — pushed by fleet
 - Radiesthesia Images (723 files) — pushed by fleet
 
-## REMAINING (as of 2026-09-14 19:30 UTC)
-- Louis Turenne (~1.5GB)
-- Stylianos (~67MB)
-- Water Dowsing (~268MB)
-- Abbe Mermet
-- Antonio Rodriguez
-- Belizal, Chaumery
-- Bruce Copen
-- Dave Cowan
-- De La Foye
-- Energy Activation Telegram
-- Frances Nixon
-- Robert Gilbert
+## REMAINING
+None — batch 2 complete.
+
+## FINAL STATUS (2026-09-14 19:37 UTC)
+All 5 remaining folders successfully merged and pushed:
+1. Radiesthesia Images (723 files, 284MB) — pushed
+2. Misc Literature (83 files, 377MB) — pushed
+3. Limited Design Technology (68 files, 1 oversized excluded) — pushed
+4. Jacques Ravatin (32 files, 2 oversized excluded) — pushed
+5. Louis Turenne (30 files, 7 oversized excluded) — pushed
+
+Total batch 2 additions: ~936 files, ~1.6GB (excluding oversized)
+Oversized files (>100MB, GitHub hard limit): 10 total, recorded in library_feed.json radiesthesia_large_excluded
 
 ## DISK SPACE CONSTRAINT
 - 9.8GB disk, 90% used (1.1GB available)

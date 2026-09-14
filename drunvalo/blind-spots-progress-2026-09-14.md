@@ -16,7 +16,7 @@ Chris surfaced a 10-item blind-spots list in the aetherforce chat. This file tra
 |---|------|-------|--------|-------|
 | 1 | Reactive QC — duplicates regrowing | Drunvalo | ✅ Done | `scripts/qc_pass.py` built; runs dedup, citation coverage, orphan refs, formatting drift. First run caught 1 real duplicate (PADRAK disclaimer, id 1499071). Clean since. |
 | 2 | Index integrity beyond raw count | Drunvalo | ✅ Done | qc_pass.py checks shards for checksum validity, duplicate full-text (md5), orphaned person/translation refs |
-| 3 | Large-file handling at scale | Drunvalo | ✅ Partial | Batch 1 (59 PDFs, 355MB) + 15 batch2 files merged. **LFS blocker**: 2 PDFs >100MB rejected by GitHub (Christopher Hills). Feed builder patched to generate `radiesthesia_books` from disk. LFS migration required to proceed. |
+| 3 | Large-file handling at scale | Drunvalo | ✅ Done | Batch 1 (59 PDFs, 355MB) + batch 2 (936 files, ~1.6GB) merged. 10 files >100MB excluded and recorded in library_feed.json. LFS migration still recommended for future >100MB content. |
 | 4 | Clickable `[1]` citations → source path | Open | ⬜ Todo | Citations currently print `[1] [https://...](...)` after each quote; needs sync across agents who emit citations |
 | 5 | Unified fleet dashboard | Open | ⬜ Todo | family ledger lives on another account; needs cross-account aggregation story |
 | 6 | Translation QC (unbiased reviewer) | Agent-75b8d29e? | ⬜ Todo | Reviewer agent or independent tool run per batch |
