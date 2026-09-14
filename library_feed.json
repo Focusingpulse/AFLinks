@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:07:46Z",
+  "generated_at": "2026-09-14T06:10:18Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -6571,9 +6571,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-14T04:45:55Z",
+      "last_run": "2026-09-14T05:45:45Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 61) | skipped: family budget low, gear=quota mode=low, run-gate blocked non-essential work | backlog 465 (gear: quota)"
+      "last_summary": "+0 archives since last run (still 61) | skipped: family budget low, gear=quota mode=low, run-gate exit 1 | backlog 465 full-doc translations awaiting (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -6582,9 +6582,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-14T04:17:18Z",
+      "last_run": "2026-09-14T05:15:40Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run | no budget (family low, gear: quota) — skipped non-essential work"
+      "last_summary": "+0 chunks since last run (still 0) | no budget (family budget low, mode=low) | gear: quota"
     },
     {
       "member": "db-entity-extractor",
@@ -6604,9 +6604,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T04:09:22Z",
+      "last_run": "2026-09-14T05:08:30Z",
       "last_status": "ok",
-      "last_summary": "sync: 61875 docs, feed rebuilt"
+      "last_summary": "sync: 61881 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6698,6 +6698,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "05:45",
+      "agent": "Translation Curator",
+      "summary": "+0 archives — Skipped: family budget low, gear=quota (mode=low), run-gate exit 1. No translation work this cycle. Backlog: 465 full-doc translations awaiting; 61 durable archives held."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "05:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (quota gear, mode=low) — run-gate closed, no translation work this cycle. Will resume when budget window opens."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "05:09",
+      "agent": "Phase 2 Death Certs",
+      "summary": "+1 death certificates — Death certificate #5: orgone-reich-fda-1957 (Reich orgone lineage, 9 events, 34 vault docs, confidence medium) — first cert beyond the four priority lineages; verified against both archive translations + Harvard archive raid + live AFLinks index"
+    },
     {
       "date": "2026-09-14",
       "time": "04:46",
@@ -7015,24 +7033,6 @@
       "time": "08:07",
       "agent": "Steiner Roots Scout",
       "summary": "+6 nuggets — Cosmology/Planetary line complete. Key finding: Singiri et al. (2023) provides first mechanistic evidence that full moonlight triggers cellular stress-response pathways (nuclear volume ~2.4×, PhyB 30.6× FC, Phot2 3.5× FC) and enhances mustard seedling growth. Controlled experiments with new-moon controls ruled out light pollution. **Verdict:** Mechanistic evidence SUPPORTED, but gap to practical biodynamic calendar remains wide. Mayoral 2020 meta-review refutes broad lunar-phase agriculture claims. Záveský 2002 shows Kolisko capillary dynamolysis method cannot distinguish cosmic from terrestrial factors."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "08:05",
-      "agent": "Polyglot Scout B",
-      "summary": "+5 finds — 5 multilingual finds: torsion field synthesis (FR), Figuera/Tesla historical connection (ES), Schauberger 1930 turbine patent (ES), Sejong Univ gravity anomaly research (KO), spacetime elasticity theory (KO)"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "07:45",
-      "agent": "Translation Curator",
-      "summary": "+0 chunks — Budget-low skip: family budget low, gear=quota — no chunks spent. Backlog 445 (475 sources, 30 full translations, 1 in progress). 34 durable archives held."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "07:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: budget gate blocked (non-essential), quota mode"
     },
     {
       "date": "2026-09-13",
