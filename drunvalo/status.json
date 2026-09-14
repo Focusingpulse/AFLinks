@@ -1,10 +1,21 @@
 {
-  "timestamp": "2026-09-14T19:38:33.145073Z",
-  "cron": "radio-batch2-finish",
+  "last_run": "2026-09-14T20:00:00Z",
+  "cron": "aetherforce-translation-qc",
   "status": "ok",
-  "summary": "Radiesthesia batch 2 complete: 5 folders merged and pushed (Radiesthesia Images 723 files, Misc Literature 83 files, Limited Design Technology 68 files, Jacques Ravatin 32 files, Louis Turenne 30 files). 10 oversized files (>100MB) excluded and recorded.",
-  "files_added": 936,
-  "bytes_added": 1640000000,
-  "oversized_excluded": 10,
-  "push_attempts": 3
+  "files_checked": [
+    "translations/2026-09-14-radionique-machine-shelf-2026-fr-en.md",
+    "translations/2026-09-14-frandeau-fortuna-major-patent-fr-en.md",
+    "translations/2026-09-14-francis-marquette-cera-fr-en.md",
+    "translations/2026-09-13-pa-morel-physique-micro-vibratoire-fr-en.md",
+    "translations/2026-09-13-la-foye-cercles-reciproques-fr-en.md"
+  ],
+  "issues_found": [],
+  "database_updates": [],
+  "files_modified": [],
+  "notes": [
+    "French quotes have English translations beneath (per Chris preference)",
+    "All persons mentioned already in database",
+    "tag_concepts.py not run (clone timeout)",
+    "No duplicates found - related files cover different aspects"
+  ]
 }
