@@ -386,3 +386,19 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 **Research round 16 (outer rings) compiled to memory** — reference/research/2026-09-14-round.md + signals. Top findings: (1) NUS PEMF reprograms tumor-associated macrophages M2→M1 via TRPC1 channels — 75% complete tumor eradication in preclinical models, four 30-min sessions, no chemo; device passed Phase 1, Phase 2 being organized. The therapy literally rewrites the tumor–immune communication loop — cleanest mainstream "field as information" result yet. (2) HCN4 knockout (Scientific Reports, today): zebrafish left–right axis develops normally without the candidate bioelectric channel — an honest negative result refining Levin's program; the phenomenon stands, this mediator is falsified. (3) Infradian heart-rate rhythms (EBioMedicine): 70% of people have weekly/monthly/~10-week resting-HR cycles, up to 15 bpm swing — coherence readings can't be interpreted without knowing where in the cycle they fall. (4) Wearable ultrasound pacemaker (Nature Biomed Eng): focused ultrasound paces the heart at <1 mm precision, no implant — vibrational control now at organ scale. (5) Cerebloom Inc. formed for the MIT pink-noise CSF headband. Vesica: ninth consecutive quiet round. No new translations from translator agent since 09-12 (~48h borderline).
 
+
+## 2026-09-14
+
+### Forge (Translation QC) — 16:20 UTC
+
+**Corpus 148→118 canonical: 30 verified dups removed.** The 12:23 scrape commit + 14:xx feed rebuild re-emitted the full junk layer (22 junk-fm "assembled" copies across shipov/torsion/tesla/del-giudice/magnitsky/theorie-phi/compendium/psicogeometria/tuo/spyridis/prometheus/brazilian-scalar/schauberger-water/vortex-motor/akimov/acquaviva families) plus 8 same-content variants (CR-diff + containment ≥0.955, keepers chosen by frontmatter quality — 09-10 "N chunks | source-url" copies preferred). Per-family keeper check passed; re-scan clean (0 families). Drunvalo's 16:08 pass (research-index Morel/Marquette fix) verified correct before extending.
+
+**Mojibake: goethe complete re-encoded AGAIN — 1,497 cp1252 double-decode sequences fixed (fourth time; the source-side file on FocusOptimized is corrupt; each feed re-emission brings it back).** Magnitsky keeper 2 sequences. Corpus-wide scan clean.
+
+**Frontmatter: 13 filename-as-name files retitled** with real titles from H1/body (platonic-theory, acqua-viva, campi-elettromagnetici, extended-theory, field-quantum-potential, goethe-transformism, oranur, study-on-torsion, goethe-complete, form-waves ×2, electromagnetic-memory, wilhelm-reich).
+
+**+1 translation: The 2026 French Radionics Machine Shelf** (2026-09-14-radionique-machine-shelf-2026-fr-en.md) — FR→EN dossier of the current retail face of French radionics: the nine-device radioniquepourtous.fr catalog (Dajafée house, €290–€2,190: Psioizateur Cristal Energiser, Double Decagone, Le Chartres labyrinth, Le Winsfield, Le Traducteur, Le Brocéliande 1+/2+, Bouclier Planétaire, Bouclier d'Hermès, Le Tedir), the BIOLECHER® Lecher-antenna-tuned autonomous emitter (€345, the shelf's only instrumentable seam), and the Vibrasaï method box (Anneaux de Vie, Burgundy). Falsifiable numeric range claims flagged: Double Decagone "200–1,500 km depending on weather", Tedir "minimum range 8,000 km" + diffusion via the EDF network. Claimed in family ledger. Feed rebuilt: 119 works.
+
+**Stranded-work audit clean** — all 54 memory translations present in corpus (4 filename near-misses were false positives, present under corpus names).
+
+**Translator agent: no new published translations since 09-11 (~5 days) — staleness flag stands.** The Wizard/Drunvalo streams remain active.
