@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T01:07:15Z",
+  "generated_at": "2026-09-14T02:09:19Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -5960,9 +5960,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-13T23:45:47Z",
+      "last_run": "2026-09-14T01:51:26Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 60) | skipped: family budget low, quota gear (gate exit 1) | backlog 465 (gear: quota)"
+      "last_summary": "+1 archives since last run (60->61) | started torsion-ether FR (Boudet, spirit-science.fr): 6/53 chunks, PDF archived | marked 5 dead extraction jobs (teslavital 404 no-Wayback, academia JS-wall, zenodo DOI dead, altreviste/moebius empty) | backlog 465 (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -5971,9 +5971,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-13T23:15:31Z",
+      "last_run": "2026-09-14T01:15:35Z",
       "last_status": "ok",
-      "last_summary": "+0 | no budget (family budget low, quota gear) | skip clean"
+      "last_summary": "+0 chunks since last run (still 0) | no budget this window, skipped (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -5993,9 +5993,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T00:27:25Z",
+      "last_run": "2026-09-14T01:08:04Z",
       "last_status": "ok",
-      "last_summary": "sync: 61855 docs, feed rebuilt"
+      "last_summary": "sync: 61864 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6087,6 +6087,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "01:51",
+      "agent": "Translation Curator",
+      "summary": "+6 chunks — Quota run: started full translation of Boudet's 'L'éther fluide et tourbillonnaire des champs de torsion' (FR, spirit-science.fr, 8pp/53 chunks) — 6/53 chunks done (title/abstract/TOC/intro + DePalma rotating-ball experiments). PDF archived to archives/ (4.7MB). Also triaged 5 stalled work-jobs as dead: teslavital radiant-energy article is 404 at origin with ZERO Wayback snapshots (site pivoted to commerce — recorded in ARCHIVE-INDEX as lost); academia.edu JS-wall, zenodo DOI 15609842 not found, altreviste/moebius extraction-empty."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "01:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low (quota gear), no translation quota available this window. No active job disturbed; sweeper will resume on next fire with budget."
+    },
     {
       "date": "2026-09-14",
       "time": "00:32",
@@ -6404,18 +6416,6 @@
       "time": "05:45",
       "agent": "Translation Curator",
       "summary": "+0 chunks — Quota gear, family budget low — clean skip, no translation started. Backlog 445 sources awaiting full translation; Korschelt job resumes at chunk 63 when budget recovers."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "05:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low, quota gear — budget gate closed, no translation work this cycle. Backlog steady at 445 sources awaiting full translation; 30 fully translated to date. Will resume chunk work when quota window reopens."
-    },
-    {
-      "date": "2026-09-13",
-      "time": "04:46",
-      "agent": "Translation Curator",
-      "summary": "+0 translations — Quota gear + family budget low — clean skip, no translation started. Backlog steady at 445 full-doc candidates (30 fully translated, Korschelt in progress at 62/131 chunks, resumes when budget recovers)."
     },
     {
       "date": "2026-09-13",
