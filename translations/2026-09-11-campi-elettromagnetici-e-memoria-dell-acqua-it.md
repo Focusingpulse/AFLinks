@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Electromagnetic Fields and the Memory of Water (Campi Elettromagnetici e Memoria dell'Acqua)"
+description: "Full-document translation (IT->EN) of the Italian article on electromagnetic fields and water memory."
 ---
 
 The most advanced biotechnologies applied to classical genetic diagnostics were presented. Also evolving is the integration between biotechnologies of genetic and molecular derivation and those emerging from the studies of Benveniste and Montagnier, which in recent years have developed, particularly in Eastern Europe. And continued in Italy, as the physicist Odoardo Calamai pointed out, presenting a theoretical development of the cyclotron resonance of ions that could explain the effects of water activation which, in a test, proved to be anything but trivial.
