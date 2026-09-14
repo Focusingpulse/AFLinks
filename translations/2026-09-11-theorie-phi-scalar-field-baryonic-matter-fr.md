@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-theorie-phi-scalar-field-baryonic-matter-fr"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Théorie Phi — champ scalaire et matière baryonique"
+description: "French text: Phi theory, scalar field and baryonic matter."
 ---
 
 Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html

@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-del-giudice-pollack-fourth-phase-of-water-it"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Del Giudice & Pollack — Fourth Phase of Water"
+description: "Italian text on Del Giudice and Pollack's fourth phase of water (EZ water)."
 ---
 
 Link to Facebook. Link to X. Link to YouTube. Link to Instagram.

@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-acqua-viva-viktor-schauberger-it"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Acqua Viva — Viktor Schauberger (Part 1)"
+description: "Italian text of "Acqua Viva — Viktor Schauberger" Part 1: the water wizard of the Vienna woods, catalogue edition."
 ---
 
 Catalogue

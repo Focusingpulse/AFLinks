@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-theorie-de-l-univers-onde-tuo-fr"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Théorie de l'univers onde (TUO)"
+description: "French text of the TUO wave-universe theory."
 ---
 
 Skip to main

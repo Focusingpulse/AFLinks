@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-shipov-torsion-fields-and-torsion-technologies-ru"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Shipov — Torsion Fields and Torsion Technologies"
+description: "G. Shipov on torsion fields and torsion technologies, Russian original."
 ---
 
 TORSION FIELDS AND TORSION TECHNOLOGIES.1
