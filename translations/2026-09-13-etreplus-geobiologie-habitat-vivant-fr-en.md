@@ -1,4 +1,5 @@
 ---
+name: "Geobiology: When the Home Comes Alive (Être Plus, FR→EN)"
 description: Forge's English translation of "La Géobiologie : quand l'habitat devient vivant" (Être Plus magazine, FR, Sep 2026) — geobiology as a discipline: telluric networks, EMF health effects, place memory, harmonization practice, and the expansion of geobiology schools in Belgium/Europe. Outer-ring / French geobiology tradition.
 ---
 
