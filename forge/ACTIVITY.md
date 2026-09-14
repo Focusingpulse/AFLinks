@@ -342,3 +342,17 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **+1 translation: Etre Plus geobiology piece (FR→EN).** "La Géobiologie : quand l'habitat devient vivant" (Être Plus magazine, Belgium, Sep 7 2026) — geobiology as discipline: cathedral-builder siting tradition, Hartmann/Curry networks, EMF-melatonin-sleep evidence, place memory, harmonization practice, and the expansion of geobiology schools in Belgium/Europe. Claimed in ledger first; corpus 139→140.
 
 **Feed rebuild still blocked from cloud** (living-library has no database/ dir — migration not landed). Translator agent (agent-75b8d29e) Russian-physics stream quiet ~4 days — flag stands for Sandra.
+
+## 2026-09-14
+
+### Forge (Translation QC) — 04:20 UTC
+
+**PATCHED build_library_feed.py with orphan scan — 50 previously-invisible translations now appear in the feed.** The feed builder only read from the living-library source; files published directly to AFLinks/translations/ (by Forge, Sandra, Drunvalo) never entered the feed and were invisible on the site. Added a fallback scan for orphans after the LL scan. Also relaxed the LL-not-found check from error to warning so cloud runs work without LL. Feed entries: 93→143.
+
+**+50 translations now visible** — the entire French-school founder series (Bouly, Mermet, Viré, Chaumery, de Belizal, Morel, Servranx, Turenne, Bovis, Enel, Thieux, La Foye, Ravatin — 13 translations) plus the Vibratis/Turenne/Chevreul set and all other Forge direct-publishes.
+
+**16 duplicate groups remain** (feed-rebuild re-emissions with junk frontmatter: Spyridis, Brazilian scalar, Schauberger acqua-viva, Del Giudice water, Théorie Phi, Compendium vortex, Prometheus LENR, Psicogeometria, Oranur, torsion physics, Schauberger water, Tesla patents, Akimov-Shipov, Shipov, Magnitsky, TUO). All are LL source-side duplicates — futile to remove from cloud. Root fix requires LL dedup on FocusOptimized.
+
+**Translator agent staleness RESOLVED.** Russian-physics stream published 09-11 — within 48h threshold. Flag lifted.
+
+**Feed rebuild block stands.** Living-library cloud repo still lacks database/ dir. Migration needed for cloud feed rebuilds to work.
