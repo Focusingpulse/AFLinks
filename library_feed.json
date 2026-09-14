@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:10:18Z",
+  "generated_at": "2026-09-14T07:08:54Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -18,8 +18,8 @@
     "meta_counts": {},
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 15,
-    "replication_dossiers": 16,
+    "practical_quests": 16,
+    "replication_dossiers": 17,
     "validations": 0
   },
   "latest_translations": [
@@ -4979,6 +4979,54 @@
       ]
     },
     {
+      "date": "2026-09-14",
+      "file": "2026-09-14-scout-growth-0615.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Зависимость растворимости водорода в металлах первого большого периода от электронной конфигурации внешних подуровней (Hydrogen solubility in first long-period transition metals)",
+          "description": "cyberleninka.ru",
+          "url": ""
+        },
+        {
+          "title": "Путь к сверхтяжелым элементам (Path to superheavy elements: cold fusion reactions Z=107-112, Ca-48 + actinides Z=113-118)",
+          "description": "cyberleninka.ru",
+          "url": ""
+        },
+        {
+          "title": "Введение в High-End сегменты применений MEMS-технологии (High-end MEMS applications, incl. NASA 1989 anomalous-heat reference)",
+          "description": "cyberleninka.ru",
+          "url": ""
+        },
+        {
+          "title": "Study on synthesis and characterization of electrocatalyst containing Pt/Pd/Ni for hydrogen evolution reaction in alkaline medium",
+          "description": "cyberleninka.ru",
+          "url": ""
+        },
+        {
+          "title": "Сверхпроводимость и управляемый термоядерный синтез (по итогам EUCAS-2025) — Superconductivity and controlled thermonuclear fusion after EUCAS-2025 (CRAFT/BEST magnets)",
+          "description": "cyberleninka.ru",
+          "url": ""
+        },
+        {
+          "title": "Применение машинного обучения для предсказания неустойчивостей плазмы в токамаке (ML for tokamak plasma instability prediction, review)",
+          "description": "cyberleninka.ru",
+          "url": ""
+        },
+        {
+          "title": "Применение машинного обучения для систем управления токамаком (ML for tokamak control systems, review)",
+          "description": "cyberleninka.ru",
+          "url": ""
+        },
+        {
+          "title": "Zero-range potentials: delta-like barrier versus self-adjoint extension (vacuum polarization near pointlike source)",
+          "description": "cyberleninka.ru",
+          "url": ""
+        }
+      ]
+    },
+    {
       "date": "2026-09-13",
       "file": "2026-09-13-scout-report-1200.md",
       "scout": "",
@@ -6571,9 +6619,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-09-14T05:45:45Z",
+      "last_run": "2026-09-14T06:45:46Z",
       "last_status": "ok",
-      "last_summary": "+0 archives since last run (still 61) | skipped: family budget low, gear=quota mode=low, run-gate exit 1 | backlog 465 full-doc translations awaiting (gear: quota)"
+      "last_summary": "-1 archives since last run (61->60) | budget-gated skip, no translation this run | backlog 495 urls / 30 full / 2 in-progress (gear: quota)"
     },
     {
       "member": "translation-sweeper",
@@ -6582,9 +6630,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-14T05:15:40Z",
+      "last_run": "2026-09-14T06:15:40Z",
       "last_status": "ok",
-      "last_summary": "+0 chunks since last run (still 0) | no budget (family budget low, mode=low) | gear: quota"
+      "last_summary": "+0 chunks since last run (still 0) | no budget | backlog unchanged (gear: quota)"
     },
     {
       "member": "db-entity-extractor",
@@ -6604,7 +6652,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T05:08:30Z",
+      "last_run": "2026-09-14T06:11:33Z",
       "last_status": "ok",
       "last_summary": "sync: 61881 docs, feed rebuilt"
     },
@@ -6670,9 +6718,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-14T04:16:11Z",
+      "last_run": "2026-09-14T06:30:00Z",
       "last_status": "ok",
-      "last_summary": "Round 64 clean 04:00Z 09-14: 0 new FL LENR (archive 61,875 steady from 02:15Z growth +11 cyberleninka). Live lanes all dry/blocked: lenr-canr 1,454=1,454; rxiv/viXra max 2609.0039 archived; lenr.su 09-12 posts verified ALREADY archived; iccf-27 /proceeding UC day ~51 (JCF24 lead closed 00:15Z); RENSIT 404. RU/EN/JA/viXra sweeps knowns only (RKKHTYA-29 Sep 28-Oct 2 = future bulk source). TRANSLATOR STALE ~100h+ flag STANDS (zero translator ledger lines since ~09-10; Forge blocked on structure change). Claims none >7d. OCR/queue/tag pending FocusOptimized."
+      "last_summary": "Growth fire 06:15Z 09-14: +29 docs — cyberleninka EN fusion/plasma-focus/ICF/tokamak/zero-point harvest, archive 61,881->61,910 (f23315d9, ids 2404183-2404211). Live lanes all dry (lenr-canr 1,454=1,454; rxiv/viXra max 2609.0039 archived; iccf-27 /proceeding STILL UC day ~52). 8 web_search queries -> 30 new slugs -> 29 /pdf 200-verified; 28/29 full 2000-char previews, 1 scan-only -> OCR lane. Merge id-safe (dry-run +29, 0 dup). Derived rebuilt (stats 61,910/43,398). POINTER: stays live-wrap, mine EN fusion/ICF veins deeper."
     },
     {
       "member": "cure-8er",
@@ -6698,6 +6746,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "06:45",
+      "agent": "Translation Curator",
+      "summary": "+0 translations — Budget-gated skip (quota mode, family budget low). No translation run. Backlog: 495 source URLs, 30 fully translated, 2 in progress, 60 durable archives held."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "06:15",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gear=quota — gate skipped translation work. Heartbeat only, no chunks translated this cycle."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "06:00",
+      "agent": "Practicality Engine",
+      "summary": "+1 quest card — Orgone Accumulator To-T Test (dossier 017). Domain: health. Guild: Oddball (suppressed-science re-try candidate). Triple-blind protocol against thermodynamically-matched control. The discriminating experiment Einstein himself requested in 1941. Aetherforce mirrors: 18/26."
+    },
     {
       "date": "2026-09-14",
       "time": "05:45",
@@ -7012,27 +7078,9 @@
     },
     {
       "date": "2026-09-13",
-      "time": "08:46",
-      "agent": "Translation Curator",
-      "summary": "+0 runs — Budget LOW (gear: quota), gate closed — no translation this cycle. Backlog steady: 449 sources awaiting full translation, 30 fully translated, 1 in progress (Korschelt, resume at chunk 63). 34 durable archives held."
-    },
-    {
-      "date": "2026-09-13",
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "**-30 duplicates — corpus 130→100 canonical.** The 04:20 and 08:04 feed rebuilds re-added the junk layer (130 files); verified Drunvalo's 08:07 pass (18 removals, correct), then removed 30 more across 21 families (magnit"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "08:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — Skipped — family budget low, gate rejected non-essential work (quota mode)"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "08:07",
-      "agent": "Steiner Roots Scout",
-      "summary": "+6 nuggets — Cosmology/Planetary line complete. Key finding: Singiri et al. (2023) provides first mechanistic evidence that full moonlight triggers cellular stress-response pathways (nuclear volume ~2.4×, PhyB 30.6× FC, Phot2 3.5× FC) and enhances mustard seedling growth. Controlled experiments with new-moon controls ruled out light pollution. **Verdict:** Mechanistic evidence SUPPORTED, but gap to practical biodynamic calendar remains wide. Mayoral 2020 meta-review refutes broad lunar-phase agriculture claims. Záveský 2002 shows Kolisko capillary dynamolysis method cannot distinguish cosmic from terrestrial factors."
     },
     {
       "date": "2026-09-13",
@@ -8470,6 +8518,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-09-14-orgone-accumulator-tot.md",
+        "date": "2026-09-14",
+        "title": "Orgone Accumulator To-T Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce\n\n**Quest Card: Orgone Accumulator To-T Test**\n\n---\n\n## Village data.js block\n\n```js\n{\n  type: \"AETHER\",\n  biomes: [\"suburb\", \"rural\"],\n  name: \"Aetherforce — Oddball\",\n  desc: \"Test wh"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-13-wood-acoustic-resonance.md",
         "date": "2026-09-13",
         "title": "Quest Card — Wood Acoustic Resonance Test",
@@ -8576,6 +8631,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-14-dossier-017-orgone-accumulator-tot.md",
+        "date": "2026-09-14",
+        "title": "Dossier 017 — Orgone Accumulator To-T Test",
+        "status": "draft",
+        "excerpt": "# Dossier 017 — Orgone Accumulator To-T Test\n\n**Status:** protocol_ready\n**Created:** 2026-09-14\n**Source:** Wilhelm Reich, *The Cancer Biopathy* (1948); Einstein meeting Jan 13, 1941; DeMeo 2009 repl"
+      },
       {
         "file": "synthesis/replication/2026-09-13-dossier-016-wood-resonance.md",
         "date": "2026-09-13",
