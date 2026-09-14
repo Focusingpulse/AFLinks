@@ -29,11 +29,19 @@ Proton Drive share (Chris): https://drive.proton.me/urls/MM2YV9Z9PM#0EL-9viWFcTn
 5. Radiesthesia Images (~284MB)
 
 ## DISK SPACE CONSTRAINT
-- 9.8GB disk, 87% used after cleaning
+- 9.8GB disk, 95% used after cleaning
 - Process one folder at a time, push, then clean before next
 - 2 files >100MB excluded from Jacques Ravatin:
   - L-Emergence-de-l-Enel-Ou-l-Immergence-Des-Reperes-Tome-I-Jacques-Ravatin.pdf (151MB, c6cd42638b311557e45c8693136ecb28)
   - L-Emergence-de-l-Enel-Ou-l-Immergence-Des-Reperes-Tome-IV-Jacques-Ravatin.pdf (234MB, 65ca94135ff362d4e9e40ea359e603f3)
+
+## CURRENTLY DOWNLOADING (as of 18:05 UTC)
+- Jacques Ravatin.zip (600/661 MB - 91%)
+- Louis Turenne.zip (103/1536 MB - 7%)
+- Limited Design Technology.zip (71/566 MB - 13%)
+- Misc Literature.zip (160/377 MB - 42%)
+- Water Dowsing.zip (127/268 MB - 47%)
+- Stylianos.zip (35/67 MB - 52%)
 
 ## HARD RULES
 - **GitHub rejects any file >100MB.** Skip them; record in `radiesthesia_large_excluded` (title, size_mb, md5, reason).
