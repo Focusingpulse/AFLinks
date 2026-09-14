@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-14T08:20:00Z",
+  "last_run": "2026-09-14T12:20:00Z",
   "last_status": "ok",
-  "last_summary": "QC 08:20 UTC session: corpus 147->107 canonical (39 verified dups removed — 24 junk-frontmatter re-emissions restored by the 00:22 mass-deletion restore + 15 same-content variants; keepers chosen for real frontmatter). Mojibake fixed: magnitsky keeper + goethe complete (1497 cp1252 double-decode sequences). 10 filename-as-name files retitled. FEED REBUILD NOW WORKS FROM CLOUD: patched build_library_feed.py LL=None crash guards (database counts fall back to previous feed); rebuilt: 107 translations, 1376 pages (2990->1376 is the corrected real count — removed dup copies carried inflated page counts). +1 translation: Frandeau de Marly patent 84.03970 Fortuna Major dossier (patent lane, 2nd entry after FR 816,132). Translator agent within 48h.",
+  "last_summary": "QC 12:20 UTC session: corpus 130->125 canonical (2 dups + 17 scrape re-emissions + 3 same-content variants removed, all containment-verified; Drunvalo 12:10 pass verified first). Mojibake fixed: goethe complete (1497 sequences AGAIN — third re-encode), magnitsky (2). 29 filename-as-name frontmatters retitled with real titles. Feed rebuilt from cloud: 126 translations. +1 translation: Francis Marquette / C.E.R.A. dossier (post-Frandeau generation; mentee of Frandeau de Marly, C.E.R.A. emitter, Chakra-Radionique, Holistica 3000) — completes the French-school chain Chaumery 1936 -> Frandeau 1984 -> Marquette 2000s. Translator agent: no new published translations since 09-12 (Goethe/Schauberger, Focusingpulse commits) — ~48h borderline; Russian-physics stream last published 09-11.",
   "source": "forge/status.json (public-repo channel)"
 }

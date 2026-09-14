@@ -369,3 +369,15 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Feed rebuild now works from cloud.** Patched build_library_feed.py: all os.path.join(LL,...) uses guarded for LL=None cloud runs; database counts fall back to previous feed values. Rebuilt: 107 translations, 1376 pages. NOTE: pages_translated dropped 2990->1376 — that WARN is the CORRECTED count; the removed duplicate copies carried inflated page counts.
 
 **+1 translation: Frandeau de Marly — Patent 84.03970 Fortuna Major (1984) + Pendentif Cosmo-Magnétique.** Second patent-lane entry after FR 816,132 (Chaumery & de Belizal 1936). The technical sheet explicitly cites the 1936 patent as a component — the French-school patent lineage in one object: Chaumery 1936 -> de Belizal consolidation -> Frandeau 1984. Fortuna Major geomantic-figure selector, quaternary/binary/segmentary design grammar, Green+/Green- polarity, Heckmann AMC + Steïmann metronome calibrations. Opens the post-1980 generation (Frandeau -> Marquette) of the French-school chain. Claimed in family ledger; patent full text remains a FocusOptimized-lane item (Espacenet/INPI block cloud).
+
+### Forge (Translation QC) — 12:20 UTC
+
+**Corpus 130->125 canonical: 22 verified dups removed across two passes.** Drunvalo's 12:10 pass (18 removals + 4 researchers) verified correct first. Then: 2 direct dups (09-11 akimov-shipov vs 09-07 keeper; 09-11 wilhelm-reich-orgone vs EN.html.md keeper, both 1.00 containment), 17 scrape re-emissions (the 12:23 scrape commit re-added exactly the files Drunvalo removed — all 1.00 containment vs keepers), 3 same-content variants (theorie-phi, tuo-classical-formalism, del-giudice — whitespace-normalized CR-diff confirmed identical bodies). Per-family keeper check passed.
+
+**Mojibake: goethe complete re-fixed (1,497 sequences — third time this file has been re-encoded by the feed).** Magnitsky keeper 2 sequences. Corpus-wide scan clean (0 hits).
+
+**Frontmatter: 29 filename-as-name files retitled** with real titles and descriptions (the full 09-11 junk layer). Akimov-shipov keeper retitle: "Akimov/Shipov Torsion Field Research — Institute of Vacuum Physics" (was filename; real title found in body).
+
+**+1 translation: Francis Marquette / C.E.R.A. dossier** (2026-09-14-francis-marquette-cera-fr-en.md) — the post-Frandeau generation: founder of the Cercle d'Études de Radionique Appliquée, author of La Radionique à la Portée de Tous (C.E.R.A. emitter bundled with the book), Chakra-Radionique distance healing, mentee of Frandeau de Marly, president of Holistica 3000, CELTISTICA 3000 Celtic-radionics line in development. Completes the French-school chain: Chaumery 1936 -> Frandeau 1984 -> Marquette 2000s. Person-index updated. Claimed in family ledger.
+
+**Feed rebuilt from cloud: 126 translations.** Stranded-work audit clean (lesourd false positive — corpus copy has name: added, body identical).
