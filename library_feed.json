@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:09:32Z",
+  "generated_at": "2026-09-14T15:23:52Z",
   "library": {
     "researchers": 1135,
     "researchers_cataloged": 1135,
@@ -9,7 +9,7 @@
     "aflinks_docs": 61910,
     "translations": 148,
     "pages_translated": 2987,
-    "declassified_finds": 50,
+    "declassified_finds": 53,
     "active_agents": 14,
     "book5_complete": true,
     "translation_files": 148,
@@ -1927,6 +1927,92 @@
         {
           "title": "Early",
           "description": "literacy recovery in a non-North-American cohort.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "file": "2026-09-14-deep-dive-morning-b.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Russia",
+          "description": "Soviet-FRG Secret Nuclear Negotiations (1973-76), declassified US cables",
+          "url": ""
+        },
+        {
+          "title": "Italy",
+          "description": "Pellegrino Commissione Stragi Report, full serial publication (Aug 2026)",
+          "url": ""
+        },
+        {
+          "title": "China",
+          "description": "swept 解密档案/公开 + nuclear history terms. Results (816 underground nuclear plant, Beijing Ninth Institute, thorium MSR history) are all previously-declassified (2002/2003) material re-reported in 2026 features — no NEW release/processing date this cycle. The 816 site's declassification timeline (2002 order, 2010 public opening, 2017 CCTV disclosure of engineering unit) is now documented in search results if the library ever wants a China nuclear-history entry; not filed as a new find.",
+          "url": ""
+        },
+        {
+          "title": "Ukraine Kharkiv ATETs archive",
+          "description": "already filed 2026-09-13 by previous run (declassified/ukraine/kharkiv-atomic-heat-power-plant-archive.md) — skipped.",
+          "url": ""
+        },
+        {
+          "title": "Syria IAEA",
+          "description": "already filed (declassified/syria/iaea-reactor-confirmation-2026.md) — skipped.",
+          "url": ""
+        },
+        {
+          "title": "Italy nuclear",
+          "description": "legislation sweep (Ddl Nucleare) returned current-policy items, not declassified material — noted, not filed.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "file": "2026-09-14-deep-dive-morning-a.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Exodus Propulsion \"New Force\"",
+          "description": "Electrostatic Propellantless Thrust (2026 status)",
+          "url": ""
+        },
+        {
+          "title": "IVO Quantum Drive Orbital Test",
+          "description": "Quantised Inertia (APEC retrospective, Aug 2026)",
+          "url": ""
+        },
+        {
+          "title": "Project Setu",
+          "description": "3D Multi-Physics Framework for a 0.20c Relativistic Lightsail",
+          "url": ""
+        },
+        {
+          "title": "Sonicated Emulsive Water Microdroplets",
+          "description": "Lignin Deconstruction at Room Temperature",
+          "url": ""
+        },
+        {
+          "title": "Goetheanum Autumn Conference",
+          "description": "\"The Human Constitution as an Instrument of Research\"",
+          "url": ""
+        },
+        {
+          "title": "Exodus (find 2) and IVO/QI (find 3) are both propellantless",
+          "description": "propulsion claims in the library's suppressed-technology/gravity-control wheelhouse. Filed together deliberately: Exodus claims thrust, IVO has inconclusive orbital data, both lack independent replication. The APEC ecosystem is where these converge (Buhler + McCulloch shared an Aug 29 session).",
+          "url": ""
+        },
+        {
+          "title": "Find 5 (SEWM chemistry) is the strongest \"practical cymatics\" item this cycle",
+          "description": "sound-structured water doing real chemistry in a mainstream chemistry journal.",
+          "url": ""
+        },
+        {
+          "title": "Torsion find 1 is the first genuine lab constraint on in",
+          "description": "matter torsion — high value for the torsion-physics cluster; flagged for db-entity-extractor attention.",
           "url": ""
         }
       ]
@@ -6707,9 +6793,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-09-14T13:15:24Z",
+      "last_run": "2026-09-14T15:16:14Z",
       "last_status": "ok",
-      "last_summary": "+0 | no budget (gear: quota, mode=low) | backlog unchanged"
+      "last_summary": "+0 | no budget (gate closed, gear: quota) | backlog unchanged"
     },
     {
       "member": "db-entity-extractor",
@@ -6729,9 +6815,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-14T14:10:46Z",
+      "last_run": "2026-09-14T15:11:10Z",
       "last_status": "ok",
-      "last_summary": "sync: 61982 docs, feed rebuilt"
+      "last_summary": "sync: 62014 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -6762,9 +6848,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-09-13T15:06:49Z",
+      "last_run": "2026-09-14T15:15:02Z",
       "last_status": "ok",
-      "last_summary": "+51 finds | +41 declassified | this run: +6 new finds (LENR, morphic fields, water memory), +0 declassified (confirmed existing entries for Spain, Japan, Portugal) (gear: quota)"
+      "last_summary": "baseline corrected: prev run (09-13) miscounted ALL sources/ files (60) as deep-dive finds; true deep-dive file count was 10, now 12 (+2 files, +6 finds: torsion neutron-spin constraints, Exodus new-force status, IVO/QI orbital test, Setu lightsail, SEWM lignin chemistry, Goetheanum conference). +3 "
     },
     {
       "member": "book5-translate",
@@ -6823,6 +6909,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-14",
+      "time": "15:16",
+      "agent": "Translation Sweeper",
+      "summary": "+0 chunks — No-op run: family budget low, gate closed (gear: quota, mode: low). No chunks translated this cycle; active jobs resume next fire."
+    },
+    {
+      "date": "2026-09-14",
+      "time": "15:15",
+      "agent": "Deep-Dive Morning",
+      "summary": "+9 finds — Quota-mode sweep. Track A: +6 finds — first lab constraints on in-matter torsion (neutron spin rotation, arXiv 2608.28832), Exodus 'New Force' 2026 status (2,000 vacuum tests, still no independent replication), IVO Quantum Drive orbital-test retrospective (inconclusive 600m altitude data), Project Setu relativistic lightsail framework, sonicated microdroplet lignin chemistry (Small journal), Goetheanum autumn conference. Track B: +3 declassified — Russia: Kaliningrad Soviet-FRG nuclear negotiations (declassified US cables, 1973-76); Italy: Commissione Stragi report first-ever full publication; Italy: Porzus-Gladio continuity via newly declassified Anglo-American files. Also corrected a ledger baseline: Sep-13 run had miscounted all sources/ files (60) as deep-dive finds; true count 10->12."
+    },
     {
       "date": "2026-09-14",
       "time": "14:00",
@@ -7143,21 +7241,9 @@
     },
     {
       "date": "2026-09-13",
-      "time": "17:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — No-op run: family budget low in quota mode — gate closed, skipped translation work. Backlog unchanged; will resume on next fire when budget recovers."
-    },
-    {
-      "date": "2026-09-13",
       "time": "16:20",
       "agent": "Forge (Translation QC)",
       "summary": "**QC: Goethe complete mojibake fixed (233K sequences).** The 2026-09-12 Goethe scientific-works complete translation carried triple-encoded cp1252 mojibake (â€“/â€œ patterns: en/em dashes, curly quotes, č in Russian name"
-    },
-    {
-      "date": "2026-09-13",
-      "time": "16:12",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+1 chunks — Translated Korschelt chunk 63 - experiments with Od and chemical processes"
     },
     {
       "date": "2026-09-13",
@@ -7295,6 +7381,12 @@
     },
     {
       "country": "italy",
+      "title": "Italy — Massacres Commission (Commissione Stragi) Report — First Full Publication",
+      "description": "Senator Giovanni Pellegrino's parliamentary Massacres Commission report, never officially released in full, is being published integrally in installments starting August 2026 — cov",
+      "file": "declassified/italy/commissione-stragi-report-publication.md"
+    },
+    {
+      "country": "italy",
       "title": "Italy — Moro Commission Desecretation (Camera dei Deputati)",
       "description": "Italy — Camera dei Deputati desecretated 85 documents from the Cooperation with Developing Countries Commission (XII legislature) and 64+ documents from the Moro Commission (XVII l",
       "file": "declassified/italy/moro-commission-desecretation.md"
@@ -7310,6 +7402,12 @@
       "title": "Italy — Nuclear Historical Archive (Nucle.Ar.S, ENEA)",
       "description": "Italy — ENEA's Nucle.Ar.S nuclear historical archive, documenting Italian nuclear program history (CISE, CNRN, CNEN).",
       "file": "declassified/italy/nuclear-historical-archive.md"
+    },
+    {
+      "country": "italy",
+      "title": "Italy — Porzûs-to-Gladio Continuity Documented in Newly Declassified Anglo-American Files",
+      "description": "Alessandra Kersevan's 2026 book reconstructs the 1945 Porzûs affair and its documented continuity into the postwar Organization 'O' and NATO Stay-Behind/Gladio, consulting recently",
+      "file": "declassified/italy/porzus-gladio-declassified-files.md"
     },
     {
       "country": "italy",
@@ -7370,6 +7468,12 @@
       "title": "EU Energy Policy Document — Leaked (September 2026)",
       "description": "Internal EC document showing Brussels rejecting pro-atom coalition demands, maintaining separate renewable targets post-2030.",
       "file": "declassified/russia/eu-energy-policy-leak.md"
+    },
+    {
+      "country": "russia",
+      "title": "Russia — Soviet-FRG Kaliningrad Nuclear Negotiations (Declassified US Cables)",
+      "description": "Declassified US embassy telegrams reveal secret 1973-76 USSR-West Germany negotiations to build a nuclear plant in Kaliningrad oblast with PreussenElektra equipment in exchange for",
+      "file": "declassified/russia/kaliningrad-soviet-frg-nuclear.md"
     },
     {
       "country": "russia",
