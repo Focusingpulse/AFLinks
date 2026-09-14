@@ -364,11 +364,21 @@ def main():
     prev_feed = load_json(os.path.join(AFLINKS, "library_feed.json"))
 
     # --- 1. Database counts ---
-    tax = load_json(os.path.join(LL, "database/taxonomy/taxonomy.json"))
-    researchers = load_json(os.path.join(LL, "database/entities/researcher-index.json"))
-    persons = load_json(os.path.join(LL, "database/persons/person-index.json"))
-    patents = load_json(os.path.join(LL, "database/patents/patent-index.json"))
-    concept = load_json(os.path.join(LL, "database/taxonomy/concept-map.json"))
+    # Cloud-safe: LL may be a projection without database/ (sources only).
+    # Fall back to the previous feed's values so counts don't zero out.
+    db_root = os.path.join(LL, "database") if LL else None
+    if db_root and os.path.isdir(db_root):
+        tax = load_json(os.path.join(db_root, "taxonomy/taxonomy.json"))
+        researchers = load_json(os.path.join(db_root, "entities/researcher-index.json"))
+        persons = load_json(os.path.join(db_root, "persons/person-index.json"))
+        patents = load_json(os.path.join(db_root, "patents/patent-index.json"))
+        concept = load_json(os.path.join(db_root, "taxonomy/concept-map.json"))
+    else:
+        tax = prev_feed.get("taxonomy", {})
+        researchers = prev_feed.get("researchers", {})
+        persons = prev_feed.get("persons", {})
+        patents = prev_feed.get("patents", {})
+        concept = prev_feed.get("concept_map", {})
 
     # Unified researcher table for counts + top-researcher ranking.
     # The dual-index person-index (database/persons/person-index.json) is now canonical;
@@ -442,10 +452,10 @@ def main():
 
     # --- 1b. Atsyukovsky book set (preserved PDFs + translation progress) ---
     books_dir = os.path.join(AFLINKS, "books", "atsyukovsky")
-    ats_dir = os.path.join(LL, "sources", "atsyukovsky")
+    ats_dir = os.path.join(LL, "sources", "atsyukovsky") if LL else None
     bookset = []
     book5_pages = 0
-    if os.path.isdir(books_dir) and os.path.isdir(ats_dir):
+    if os.path.isdir(books_dir) and ats_dir and os.path.isdir(ats_dir):
         titles = {
             "Book1": "Methodological Crisis of Modern Theoretical Physics",
             "Book2": "Methodology of Ether Dynamics & Structure of Matter",
@@ -518,12 +528,12 @@ def main():
     # Revision passes re-publish the same document under new dated filenames;
     # group by normalized title and keep the newest revision per work so the
     # counter and the list never claim more than is truly translated.
-    tdir = os.path.join(LL, "translations")
+    tdir = os.path.join(LL, "translations") if LL else None
     translations_outdir = os.path.join(AFLINKS, "translations")
     translation_works = []
     translation_files = 0
     pages_translated = book5_pages
-    if os.path.isdir(tdir):
+    if tdir and os.path.isdir(tdir):
         os.makedirs(translations_outdir, exist_ok=True)
         by_key = {}
         for path in sorted(glob.glob(os.path.join(tdir, "*.md")), reverse=True):
@@ -922,8 +932,8 @@ def main():
         return out
 
     scout_roots = []
-    sdir = os.path.join(LL, "sources")
-    if os.path.isdir(sdir):
+    sdir = os.path.join(LL, "sources") if LL else None
+    if sdir and os.path.isdir(sdir):
         scout_roots.append(sdir)
     # Also scan the public repo's own sources/ — Scooter/Forge push reports and
     # translations there via GitHub (their shared-repo projections don't
@@ -1126,7 +1136,7 @@ def main():
     # Activity log: living library log PLUS per-agent activity files
     # (drunvalo/ACTIVITY.md, synthesist/ACTIVITY.md in this repo), so runs from
     # agents outside the shared repo appear in "what's new".
-    feed["activity_log"] = parse_activity_log(os.path.join(LL, "ACTIVITY-LOG.md"))
+    feed["activity_log"] = parse_activity_log(os.path.join(LL, "ACTIVITY-LOG.md")) if LL else []
     local_activity = parse_activity_log(os.path.join(AFLINKS, "drunvalo", "ACTIVITY.md"))
     local_activity += parse_activity_log(os.path.join(AFLINKS, "synthesist", "ACTIVITY.md"))
     local_activity += parse_activity_log(os.path.join(AFLINKS, "scout", "ACTIVITY.md"))
@@ -1144,7 +1154,7 @@ def main():
     # Declassified finds: search several roots; if none has a declassified/
     # folder on this machine, preserve the previous feed value (the files may
     # live in a cloud-only path) instead of silently zeroing the counter.
-    d_roots = [LL, os.path.join(AFLINKS, "sources"), AFLINKS]
+    d_roots = ([LL] if LL else []) + [os.path.join(AFLINKS, "sources"), AFLINKS]
     d_found, d_finds = parse_declassified(d_roots)
     prev_declassified = (prev_feed or {}).get("declassified", [])
     if not d_found and prev_declassified:
@@ -1269,9 +1279,9 @@ def main():
     # validations visible publicly, with a submission path. Reads the
     # living-library synthesis folders; the site renders them.
     practical = {"quests": [], "dossiers": [], "validations": [], "queue_url": None}
-    qdir = os.path.join(LL, "synthesis", "quest-queue")
+    qdir = os.path.join(LL, "synthesis", "quest-queue") if LL else None
     yard_outdir = os.path.join(AFLINKS, "synthesis")
-    if os.path.isdir(qdir):
+    if qdir and os.path.isdir(qdir):
         os.makedirs(os.path.join(yard_outdir, "quest-queue"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(qdir, "*.md")), reverse=True):
             base = os.path.basename(path)
@@ -1296,8 +1306,8 @@ def main():
                 "status": status,
                 "excerpt": (body.strip()[:200] or ""),
             })
-    rdir = os.path.join(LL, "synthesis", "replication")
-    if os.path.isdir(rdir):
+    rdir = os.path.join(LL, "synthesis", "replication") if LL else None
+    if rdir and os.path.isdir(rdir):
         os.makedirs(os.path.join(yard_outdir, "replication"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(rdir, "*.md")), reverse=True):
             base = os.path.basename(path)
@@ -1319,8 +1329,8 @@ def main():
                 "status": status,
                 "excerpt": (body.strip()[:200] or ""),
             })
-    vdir = os.path.join(LL, "synthesis", "validations")
-    if os.path.isdir(vdir):
+    vdir = os.path.join(LL, "synthesis", "validations") if LL else None
+    if vdir and os.path.isdir(vdir):
         os.makedirs(os.path.join(yard_outdir, "validations"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(vdir, "*.md")), reverse=True):
             base = os.path.basename(path)
