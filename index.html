@@ -1028,6 +1028,32 @@
             color: var(--text-dim);
             margin-top: 3px;
         }
+        /* 24h delta strip — the living pulse under the totals */
+        .wn-deltas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 14px;
+            align-items: center;
+            margin: 2px 0 10px;
+            font-size: 0.78rem;
+            color: var(--text-dim);
+        }
+        .wn-deltas .dl-label {
+            color: var(--sea-teal);
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            font-size: 0.66rem;
+        }
+        .wn-deltas a {
+            color: var(--text);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--accent-dim);
+            padding-bottom: 1px;
+        }
+        .wn-deltas a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+        .wn-deltas .delta-num { color: var(--gold-bright); font-weight: 700; }
+        .wn-deltas .dl-empty { font-style: italic; opacity: 0.75; }
         .wn-fleet {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
@@ -1676,7 +1702,7 @@
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">62,423</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">43,897</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">124</span> translations published · <span id="heroPagesCount">1,744</span> pages translated &amp; growing</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">148</span> translations published · <span id="heroPagesCount">2,443</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
@@ -1769,6 +1795,7 @@
             <span class="wn-title"><span class="wn-live"></span> What's New · Mission Control</span>
             <a class="wn-more" href="./library.html">Open the full living record →</a>
         </div>
+        <div class="wn-deltas" id="wnDeltas"></div>
         <div class="wn-counters" id="wnCounters"></div>
         <div class="wn-news" id="wnNews"></div>
         <div class="wn-fleet" id="wnFleet"></div>
@@ -1851,7 +1878,7 @@
                 <div class="active-filter-display" id="activeFilterDisplay"></div>
             </div>
             <div class="results-grid" id="results"></div>
-            <div class="loading" id="loading">The vault holds 55,218 documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
+            <div class="loading" id="loading">The vault holds <span id="loadingDocCount">62,423</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
         </div>
     </div>
 
@@ -2452,8 +2479,69 @@
             return AF_FEATURED[hash % AF_FEATURED.length];
         }
 
+        /* ─── Today's Salvage — daily client-side rotation ───
+           The bake script seeds a card at build time (first paint, no JS
+           needed). This picks a fresh artifact from the loaded index,
+           seeded by today's date, so the card turns over every day even
+           when no rebuild happens. */
+        function rotateSalvage() {
+            const wrap = document.querySelector('.salvage');
+            if (!wrap || !allData || !allData.length) return;
+            const today = new Date();
+            const daySeed = today.getUTCFullYear() * 10000 + (today.getUTCMonth() + 1) * 100 + today.getUTCDate();
+            // Same pool rule as the bake: needs a preview + a title.
+            const pool = allData.filter(d => d.content_preview && (d.title || d.filename));
+            if (!pool.length) return;
+            let h = daySeed;
+            h = (h ^ 61) ^ (h >>> 16); h = h + (h << 3); h = h ^ (h >>> 4);
+            h = h * 0x27d4eb2d; h = h ^ (h >>> 15);
+            const d = pool[h >>> 0 ? h % pool.length : 0];
+            if (!d) return;
+            const card = wrap.querySelector('.salvage-card');
+            if (!card) return;
+            const esc = escapeHtml;
+            const title = d.title || d.filename || '';
+            const prev = (d.content_preview || '').slice(0, 220);
+            const site = d.source_site || '';
+            const siteLabel = site === 'rexresearch_com' ? 'Rex Research' : (site ? site.replace(/_/g, '.') : 'the archive');
+            const metas = (d.meta_categories || []).slice(0, 2).map(esc).join(' · ');
+            card.innerHTML =
+                '<span class="salvage-person">👤 ' + esc(d.primary_person || '') + '</span>' +
+                '<span class="salvage-doc-title">' + esc(title) + '</span>' +
+                '<span class="salvage-preview">' + esc(prev) + '…</span>' +
+                '<span class="salvage-meta">' + esc(siteLabel) + (metas ? ' · ' + metas : '') + '</span>';
+            const id = parseInt(d.id, 10);
+            if (!isNaN(id)) card.href = './pages/' + String(id).padStart(8, '0') + '.html';
+            // Mark the sub-line so it reflects the live rotation.
+            const sub = wrap.querySelector('.salvage-sub');
+            if (sub) sub.textContent = 'one artifact pulled fresh from the hold — new pick every day';
+        }
+
         function renderWhatsNew(feed) {
             const lib = feed.library || {};
+            // 24h delta strip — the living pulse. Computed at feed-build time
+            // (honest deltas vs. a >=24h-old snapshot), rendered as links.
+            const daily = feed.daily || {};
+            const deltas = daily.deltas || {};
+            const dEl = document.getElementById('wnDeltas');
+            if (dEl) {
+                const parts = [
+                    ['docs', 'salvaged', './vault.html'],
+                    ['pages_translated', 'pages translated', './library.html#translationsSection'],
+                    ['declassified', 'declassified', './library.html#declassifiedSection'],
+                    ['researchers', 'researchers', './library.html#researchersSection'],
+                    ['patents', 'patents', './patents.html'],
+                ].filter(([k]) => Number(deltas[k]) > 0);
+                if (parts.length) {
+                    const base = daily.baseline ? String(daily.baseline).slice(0, 10) : '';
+                    dEl.innerHTML = '<span class="dl-label">' + (base ? 'Since ' + base + ':</span> ' : 'Last 24h:</span> ') +
+                        parts.map(([k, lbl, href]) =>
+                            `<a href="${href}" title="See what's new">+<span class="delta-num">${Number(deltas[k]).toLocaleString()}</span> ${lbl}</a>`
+                        ).join(' · ');
+                } else {
+                    dEl.innerHTML = '<span class="dl-label">Last 24h:</span> <span class="dl-empty">quiet watch — the fleet is scanning</span>';
+                }
+            }
             const counters = [
                 ['Archive Docs', lib.archive_entries || lib.aflinks_docs, './vault.html'],
                 ['Translations', lib.translations, './library.html#translationsSection'],
@@ -2525,7 +2613,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260915122624')
+            fetch('./synthesis/synthesis_index.json?v=20260915154553')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3057,7 +3145,7 @@
             indexPromise = (async () => {
             try {
                 const loading = document.getElementById('loading');
-                if (loading) loading.textContent = 'Charting the full vault — bringing 55,218 documents aboard…';
+                if (loading) loading.textContent = 'Charting the full vault — bringing ' + document.getElementById('loadingDocCount').textContent + ' documents aboard…';
                 const urlCats = new URLSearchParams(window.location.search).getAll('cat');
                 // Load the SLIM search index (fast). When arriving via a category deep
                 // link (?cat=X), fetch ONLY that meta-category's chunk from
@@ -3067,7 +3155,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260915122624');
+                        const response = await fetch('./search_index.json?v=20260915154553');
                         return response.json();
                     };
                     if (catParam) {
@@ -3097,12 +3185,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260915122624');
+                    const man = await fetch('./full_manifest.json?v=20260915154553');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260915122624');
+                    const feedRes = await fetch('./library_feed.json?v=20260915154553');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -3152,6 +3240,11 @@
                     } catch (e) { kdParadigm = []; }
                 } catch (e) { /* feed optional; hero keeps working without it */ }
                 document.getElementById('loading').style.display = 'none';
+                // Today's Salvage — rotate client-side so the card changes
+                // every calendar day even between builds. The baked card
+                // (first paint) stays until the index is aboard; then a
+                // date-seeded pick replaces it if the day has moved on.
+                try { rotateSalvage(); } catch (e) { /* baked card stays */ }
                 // Lists were already built from taxonomy_counts.json (full-archive
                 // counts). Only rebuild from allData when that small file wasn't
                 // available — in chunk mode allData is a single category's slice,

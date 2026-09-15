@@ -1082,9 +1082,19 @@ def main():
         })
 
     # --- 6. AFLinks index count (live) + meta-category counts for the vault ---
+    docs = []
     try:
         with open(os.path.join(AFLINKS, "index.json"), encoding="utf-8") as f:
             docs = json.load(f)
+    except Exception:
+        # index.json may be absent on sparse clones; the shard loader sees
+        # the same catalog (bake_stats already uses it).
+        try:
+            import index_io
+            docs = index_io.load()
+        except Exception as exc:
+            print(f"  WARN: no index for archive count: {exc}", flush=True)
+    if docs:
         feed["library"]["archive_entries"] = len(docs)
         mc = {}
         for d in docs:
@@ -1092,7 +1102,7 @@ def main():
                 if m:
                     mc[m] = mc.get(m, 0) + 1
         feed["library"]["meta_counts"] = mc
-    except Exception:
+    else:
         feed["library"]["archive_entries"] = None
         feed["library"]["meta_counts"] = {}
 
@@ -1416,6 +1426,78 @@ def main():
     feed["library"]["practical_quests"] = len(practical["quests"])
     feed["library"]["replication_dossiers"] = len(practical["dossiers"])
     feed["library"]["validations"] = len(practical["validations"])
+
+    # --- 8. Daily deltas (24h HUD) ---
+    # Maintain daily_counts.json: a per-build snapshot of the totals that
+    # matter to visitors. The HUD compares today's snapshot against the
+    # most recent snapshot that is >= 24h old, so "last 24 hours" stays
+    # honest even when builds run more often than daily (or skip days).
+    daily_path = os.path.join(AFLINKS, "daily_counts.json")
+    lib_now = feed.get("library", {})
+    snapshot = {
+        "ts": feed.get("generated_at") or "",
+        "docs": lib_now.get("archive_entries"),
+        "translations": lib_now.get("translations"),
+        "pages_translated": lib_now.get("pages_translated"),
+        "declassified": lib_now.get("declassified_finds"),
+        "researchers": lib_now.get("researchers"),
+        "patents": lib_now.get("patents"),
+    }
+    history = []
+    try:
+        with open(daily_path, encoding="utf-8") as f:
+            history = json.load(f)
+        if not isinstance(history, list):
+            history = []
+    except Exception:
+        history = []
+    try:
+        from datetime import timedelta
+
+        def _ts(entry):
+            try:
+                return datetime.fromisoformat(str(entry.get("ts", "")))
+            except Exception:
+                return None
+
+        now_dt = _ts(snapshot)
+        # Keep the history small: last 30 snapshots.
+        history = [h for h in history if isinstance(h, dict) and h.get("ts")]
+        # Replace any snapshot from the same calendar day, then append.
+        day_key = str(snapshot.get("ts", ""))[:10]
+        history = [h for h in history if str(h.get("ts", ""))[:10] != day_key]
+        history.append(snapshot)
+        history = history[-30:]
+        # Baseline: newest snapshot at least 24h old; if history is younger
+        # than that (fresh machine, new history file), fall back to the
+        # oldest snapshot so the strip still shows real growth — the
+        # frontend labels the window honestly from the baseline ts.
+        baseline = None
+        if now_dt:
+            cutoff = now_dt - timedelta(hours=24)
+            for h in reversed(history[:-1]):
+                h_dt = _ts(h)
+                if h_dt and h_dt <= cutoff:
+                    baseline = h
+                    break
+        if baseline is None and len(history) > 1:
+            baseline = history[0]
+        deltas = {}
+        if baseline:
+            for k in ("docs", "translations", "pages_translated", "declassified", "researchers", "patents"):
+                a, b = snapshot.get(k), baseline.get(k)
+                if isinstance(a, (int, float)) and isinstance(b, (int, float)):
+                    deltas[k] = max(0, int(a) - int(b))
+        feed["daily"] = {
+            "as_of": snapshot.get("ts"),
+            "baseline": baseline.get("ts") if baseline else None,
+            "deltas": deltas,
+        }
+        with open(daily_path, "w", encoding="utf-8") as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    except Exception as exc:
+        print(f"  WARN: daily deltas skipped: {exc}", flush=True)
+        feed["daily"] = {"as_of": None, "baseline": None, "deltas": {}}
 
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:

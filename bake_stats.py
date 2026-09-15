@@ -106,6 +106,7 @@ def main() -> int:
             ("heroPagesCount", pages_translated),
             ("statTotal", docs),
             ("noscriptCount", docs),
+            ("loadingDocCount", docs),
             ("lastUpdated", str(generated_at)[:10]),
         ]:
             html, n = bake_span(html, span_id, value)
