@@ -1,21 +1,29 @@
 {
-  "agent": "drunvalo",
-  "last_run": "2026-09-15T16:00:00Z",
-  "cron": "aetherforce-translation-qc",
+  "agent": "Drunvalo",
+  "timestamp": "2026-09-15T16:09:00Z",
+  "cron": "village-content-growth",
   "status": "ok",
-  "summary": "Checked 5 recent translations, added 2 researchers to person-index, no issues found",
-  "files_checked": [
-    "translations/2026-09-15-simoneton-vs-biophotonics-bench-note-en.md",
-    "translations/2026-09-15-enel-energeia-reprints-2025-2026-fr-en.md",
-    "translations/2026-09-15-blanche-merz-hauts-lieux-cosmo-telluriques-fr-en.md",
-    "translations/2026-09-15-andre-simoneton-radiovitalite-fr-en.md",
-    "translations/2026-09-14-radionique-machine-shelf-2026-fr-en.md"
-  ],
-  "issues_found": 0,
-  "issues_fixed": 0,
-  "db_updates": {
-    "person_index": ["simoneton-andre", "merz-blanche"],
-    "research_index": []
-  },
-  "commits": ["125d7018a7e7f23de145bb55b5c26beef8c9a743", "2470a55ce7094931bd58acca0c9f983e32f7ca7f"]
+  "summary": "Added Beekeeping category to Library with 3 verified free resources",
+  "details": {
+    "resources_added": [
+      {
+        "title": "University of Arkansas Complete Beekeeping Short Course",
+        "url": "https://www.uaex.uada.edu/farm-ranch/special-programs/beekeeping/beekeepingshortcourse.aspx",
+        "type": "free_video_course"
+      },
+      {
+        "title": "HeatSpring Natural Beekeeping for Beginners",
+        "url": "https://www.heatspring.com/courses/natural-beekeeping-for-beginners",
+        "type": "free_video_course"
+      },
+      {
+        "title": "EcoHoney Platform Handbook on Organic Beekeeping",
+        "url": "https://www.ecohoney-platform.eu/course/handbook-on-organic-production-farming/",
+        "type": "free_course"
+      }
+    ],
+    "translations_added": ["Beekeeping: es, fr, de"],
+    "link_check": "762 good, 16 http_err, 4 bad",
+    "permies_scrape": "timeout - no new tasks found"
+  }
 }
