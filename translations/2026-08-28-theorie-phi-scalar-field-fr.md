@@ -1,6 +1,6 @@
 ---
-name: Rigorous study of a light scalar field coupled to matter in galaxies:…
-description: "Translation document."
+name: "Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies (French)"
+description: "French original: rigorous study of a light scalar field coupled to matter in galaxies, applied to rotation curves (Théorie Phi)."
 ---
 
 Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html

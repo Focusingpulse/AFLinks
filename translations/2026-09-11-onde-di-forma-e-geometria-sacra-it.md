@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-onde-di-forma-e-geometria-sacra-it"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Onde di Forma e Geometria Sacra (Italian)"
+description: "Italian original of Mario Contino's blog article on form waves and sacred geometry (mariocontino.it)."
 ---
 
 Mario Contino, The Writer of Mystery — HOME PAGE | Mario Contino | Bio-Bibliography | Books by Mario Contino | Paranormal research | Interviews and Conventions | Book reviews - BookFlash | Blog of Mystery | The Blog of Mystery | TV: At the Edge of the Unknown | Social Activism | Contacts | PRIVACY AND COOKIE NOTICE | FAQ - mariocontino.it | HOME PAGE | Mario Contino | Bio-Bibliography | Books by Mario Contino | Paranormal research | Interviews and Conventions | Book reviews - BookFlash | Blog of Mystery | TV: At the Edge of the Unknown | Social Activism | Contacts | PRIVACY AND COOKIE NOTICE

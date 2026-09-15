@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-field-and-quantum-potential-of-consciousness-it"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Field and Quantum Potential of Consciousness (Italian)"
+description: "Italian original paper on the field and quantum potential of consciousness (DOI 10.48274/IBI16)."
 ---
 
 Field and Quantum Potential of Consciousness

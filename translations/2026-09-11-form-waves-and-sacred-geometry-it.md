@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-form-waves-and-sacred-geometry-it"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Form Waves and Sacred Geometry (Italian)"
+description: "Italian original (mariocontino.it) of Mario Contino's article on form waves and sacred geometry."
 ---
 
 ---

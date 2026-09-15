@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-tuo-classical-formalism-maxwell-einstein-vacuum-fr"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Classical Formalisms and Correspondence with TUO: From Maxwell and Einstein to the Vacuum Tension Field (French)"
+description: "French original (François Maillot, Wave Universe Theory TUO) on classical formalisms and the vacuum tension field Tv."
 ---
 
 Classical formalisms and correspondence with TUO:

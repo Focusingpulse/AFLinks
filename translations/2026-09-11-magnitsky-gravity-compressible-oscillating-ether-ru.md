@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-magnitsky-gravity-compressible-oscillating-ether-ru"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Magnitsky (2019): Gravity in the Theory of Compressible Oscillating Ether (Russian)"
+description: "Russian original of Magnitsky's paper on gravity in compressible oscillating ether theory (UDC 51-72)."
 ---
 
 Magnitsky, 2019

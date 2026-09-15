@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-study-on-torsion-fields-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Study on Torsion Fields (German)"
+description: "German original study on torsion fields: state of the problem, theory, and experimental program."
 ---
 
 Study on Torsion Fields
