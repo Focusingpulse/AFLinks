@@ -1,21 +1,14 @@
 {
-  "last_run": "2026-09-14T20:00:00Z",
-  "cron": "aetherforce-translation-qc",
+  "agent": "drunvalo",
+  "last_run": "2026-09-15T00:02:00Z",
+  "cron": "village-maintenance",
   "status": "ok",
-  "files_checked": [
-    "translations/2026-09-14-radionique-machine-shelf-2026-fr-en.md",
-    "translations/2026-09-14-frandeau-fortuna-major-patent-fr-en.md",
-    "translations/2026-09-14-francis-marquette-cera-fr-en.md",
-    "translations/2026-09-13-pa-morel-physique-micro-vibratoire-fr-en.md",
-    "translations/2026-09-13-la-foye-cercles-reciproques-fr-en.md"
-  ],
-  "issues_found": [],
-  "database_updates": [],
-  "files_modified": [],
-  "notes": [
-    "French quotes have English translations beneath (per Chris preference)",
-    "All persons mentioned already in database",
-    "tag_concepts.py not run (clone timeout)",
-    "No duplicates found - related files cover different aspects"
-  ]
+  "summary": "village-maintenance-link-fixes-and-resources",
+  "files": ["village-link-report.md"],
+  "details": {
+    "urls_checked": 777,
+    "good": 758,
+    "http_errors": 15,
+    "unreachable": 4
+  }
 }
