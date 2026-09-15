@@ -1,5 +1,5 @@
 ---
-name: "WO2013155580A1 — Apparatus for Scalar Energy Generation (Waechter, Portuguese)"
+name: "2026-09-11-brazilian-scalar-energy-generator-patent-pt"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

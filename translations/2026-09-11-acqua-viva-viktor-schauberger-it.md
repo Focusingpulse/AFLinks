@@ -1,5 +1,5 @@
 ---
-name: "Acqua Viva — Viktor Schauberger (Italian)"
+name: "2026-09-11-acqua-viva-viktor-schauberger-it"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

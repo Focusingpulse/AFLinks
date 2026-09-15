@@ -1,5 +1,5 @@
 ---
-name: "Onde di Forma e Geometria Sacra (Italian)"
+name: "2026-09-11-onde-di-forma-e-geometria-sacra-it"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "TUO: Classical Formalisms and Correspondence with Maxwell/Einstein Vacuum (French)"
+name: "2026-09-11-tuo-classical-formalism-maxwell-einstein-vacuum-fr"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

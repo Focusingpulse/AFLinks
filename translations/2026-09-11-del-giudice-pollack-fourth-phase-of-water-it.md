@@ -1,5 +1,5 @@
 ---
-name: "Del Giudice & Pollack: The Fourth Phase of Water (Italian)"
+name: "2026-09-11-del-giudice-pollack-fourth-phase-of-water-it"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

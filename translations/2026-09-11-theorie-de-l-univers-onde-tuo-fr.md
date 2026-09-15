@@ -1,5 +1,5 @@
 ---
-name: "Théorie de l’Univers-Onde TUO (French)"
+name: "2026-09-11-theorie-de-l-univers-onde-tuo-fr"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

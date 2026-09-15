@@ -1,5 +1,5 @@
 ---
-name: "Psicogeometría: Geometría en Materia y Energía (Spanish)"
+name: "2026-09-11-psicogeometria-geometria-en-materia-y-energia-es"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

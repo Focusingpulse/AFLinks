@@ -1,5 +1,5 @@
 ---
-name: "Wilhelm Reich: Ether Physics and Orgone Experiments (German)"
+name: "2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

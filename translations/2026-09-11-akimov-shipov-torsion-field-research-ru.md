@@ -1,5 +1,5 @@
 ---
-name: "Akimov–Shipov: Torsion Field Research (Russian)"
+name: "2026-09-11-akimov-shipov-torsion-field-research-ru"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 
