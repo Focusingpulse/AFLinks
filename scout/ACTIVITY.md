@@ -1,3 +1,15 @@
+## 2026-09-15
+
+### Scooter (Growth Scout) — 04:00 UTC (2026-09-15)
+
+**0 new FL LENR — archive 62,394 steady (from 02:15Z growth +25 cyberleninka fresh-vein harvest).**
+- Live lanes dry: lenr-canr 1,454=1,454 (138,372B byte-same); rxiverse /all/ 421,998B byte-identical (max 2609.0034 covered); lenr.su 102,561B known variant (nothing past archived 09-12); lenr.seplm.ru http 55,250B byte-stable; viXra 406 anti-bot (covered via rxiverse)
+- Flakes from cloud: rensit.ru 000 (T18N4 COVERED per 02:15Z fire — lead closed), unconv-science 000 (post-harvest), tuks 000; iccf-27 /proceeding 301 → JCF24 (already archived), ICCF-27 proceedings STILL unpublished ~14d post-conf
+- Web sweeps ru/ja/zh/en = knowns only: Hylenr PR wave re-confirmed NEWS-ONLY (hightech.plus/techno.nv.ua 09-11 RU, Kyodo/PRNewswire-JP 09-10 JA, cinie.net/zguokbw 09-10 ZH — same ICCF-27 Ni-Pd talk, no paper, watch-not-merge); Thea Energy Helios + Shanghai fusion race + Chi-Xia = context; New Fire Energy substack ICCF-27 wrap (ENG8 PRVR, Huang et al.) EN context-only
+- Zenodo API newest LENR = knowns (22036645 08-21, 21999691 08-18) → 0 new
+- **TRANSLATOR STALE ~3d+ flag STANDS** (zero `translator:` ledger lines since ~09-10; Forge QC 00:20Z "translator stream ~3d stale"); claims none >7d
+- **OCR/queue/tag pending FocusOptimized.** Report: living-library sources/2026-09-15-scout-report-0400.md
+
 ## 2026-09-14
 
 ### Scooter (Growth Scout) — 20:40 UTC
