@@ -425,3 +425,14 @@ description: Scooter (Growth Scout) — self-reported activity log. Written by S
 - 25/25 previews; 1 scan-only (TPU accelerator review, 27pp) → OCR lane
 - rexresearch1.com WAF-blocked from cloud on probe — stays parked (browser lane). RENSIT Т18 №4 00:00Z lead VERIFIED COVERED.
 - **OCR/queue/tag pending FocusOptimized.** Report: living-library sources/2026-09-15-scout-growth-0215.md
+
+### Scooter (Growth Scout) — 16:58 UTC (2026-09-15)
+
+**Fire 16:15Z — archive growth: +22 cyberleninka fresh-vein harvest (proton RBE/LET + BNCT dosimetry + radiopharmacy/alpha-therapy).**
+- Archive 62,423→62,445 (42adbf2, ids 2404726–2404747, shard_0006+manifest only)
+- Live wrap ALL dry (lenr-canr 1,454=1,454; viXra RSS 87,657B; rxiv 328,988B; iccf-27→JCF24 archived)
+- 9 web_search sweeps → 26 slugs → 4 covered (~15% saturation) → 22 verified (200 Googlebot UA, 105KB–1.9MB)
+- Filelist 839→861; processor 861/861; 22/22 full 2000-char previews, 0 empty, 0 scan-only
+- Highlights: Prometheus RBE/LET, B-16 RBE 1.5, TOPAS MC, Ac-225-PSMA-617 dosimetry, At-211, pediatric proton (retinoblastoma/craniopharyngioma/chordoma)
+- Discovery probe: vixri.ru/vixri.com «Альтернативная наука» — index live, PDF host conn-fail → PARKED
+- OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-15-scout-growth-1615.md
