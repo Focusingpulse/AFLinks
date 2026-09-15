@@ -1,14 +1,15 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-09-15T00:02:00Z",
-  "cron": "village-maintenance",
+  "cron": "aetherforce-scout",
+  "timestamp": "2026-09-15T00:07:00Z",
   "status": "ok",
-  "summary": "village-maintenance-link-fixes-and-resources",
-  "files": ["village-link-report.md"],
-  "details": {
-    "urls_checked": 777,
-    "good": 758,
-    "http_errors": 15,
-    "unreachable": 4
-  }
+  "summary": "Scouted 10 domains. Verified Nature 2025 LENR, Kozyrev 1958, Sheldrake 2006. Added 3 upgrades (upgrade-193 through upgrade-195). Pushed scout report to sources/",
+  "files": [
+    "sources/scout-report-2026-09-15.md",
+    "family_ledger.json"
+  ],
+  "issues": [
+    "callisto.ggws.ru domain DOWN - need alternate archive for Project Callisto results"
+  ],
+  "next_run": "2026-09-15T12:00:00Z"
 }
