@@ -54,19 +54,26 @@ if [ -n "$FAMILY" ]; then
   fi
 fi
 
-echo "[1/5] Pull latest"
-git stash --quiet 2>/dev/null || true
-# HARD GATE: if the pull fails, abort the run. Continuing with a stale tree
-# and running `git add -A` later resurrects files deleted remotely (e.g.
-# translation-QC dedup commits) — that is how duplicate translations came
-# back on 2026-09-11 after commit 63f02c55 removed them.
+echo "[1/5] Pull latest (hard sync)"
+# HARD GATE + STASH-BAN: if the pull fails, abort the run. Continuing with a
+# stale tree and running `git add -A` later resurrects files deleted remotely
+# (e.g. translation-QC dedup commits) — that is how duplicate translations came
+# back on 2026-09-11 (63f02c55) and again on 2026-09-15 (f04b9f27 re-added 6
+# QC-deleted dups + reverted goethe mojibake fixes).
+# NO git stash / stash pop here: on a clean tree the stash is a no-op, and the
+# unconditional `git stash pop` afterwards can pop a LEFTOVER stash from a
+# previously killed run, restoring stale pre-QC files into the working tree.
+# Instead: abort on dirty tree (it means a previous run died mid-work), and
+# hard-sync to the remote head.
+if [ -n "$(git status --porcelain)" ]; then
+  echo "  ERROR: working tree dirty (previous run may have died mid-work) — aborting."
+  exit 1
+fi
 if ! git pull --rebase --quiet origin main > /tmp/aflinks_pull.log 2>&1; then
   echo "  ERROR: git pull failed — aborting run to avoid resurrecting remotely-deleted files."
   tail -2 /tmp/aflinks_pull.log
-  git stash pop --quiet 2>/dev/null || true
   exit 1
 fi
-git stash pop --quiet 2>/dev/null || true
 
 echo "[2/5] Ensure pypdfium2 (skip if present)"
 python3 -c "import pypdfium2; print('already installed')" 2>/dev/null || pip install --break-system-packages -q pypdfium2 2>&1 | tail -1
