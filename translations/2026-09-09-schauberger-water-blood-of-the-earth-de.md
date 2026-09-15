@@ -1,6 +1,6 @@
 ---
 name: Water – The Blood of the Earth (Viktor Schauberger)
-description: "Translation document."
+description: "Viktor Schauberger — Water, blood of the Earth (German source)."
 ---
 
 Viktor Schauberger

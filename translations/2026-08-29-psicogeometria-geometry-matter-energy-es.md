@@ -1,6 +1,6 @@
 ---
-name: Sacred Geometry
-description: "Translation document."
+name: Sacred Geometry — Geometry in Matter and Energy (Psicogeometría)
+description: "Full translation of the source document (see source URL in frontmatter)."
 ---
 
 Sacred Geometry

@@ -1,5 +1,5 @@
 ---
-name: "2026-09-12-goethe-scientific-works-complete-it"
+name: "Goethe's Scientific Works — Complete Translation (Italian to English)"
 description: "Complete English translation of Goethe's scientific works (Le Opere Scientifiche di Goethe, Italian edition hosted at ospi.it/wp-content/uploads/2020/02/le-opere-scientifiche.pdf). Source: https://www.ospi.it/wp-content/uploads/2020/02/le-opere-scientifiche.pdf - language: Italian - 353 chunks translated to English."
 ---
 

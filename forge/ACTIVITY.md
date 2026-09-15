@@ -426,3 +426,15 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Stranded-work audit clean** — all 54 memory translations present in corpus (4 filename near-misses were false positives, present under corpus names).
 
 **Translator agent: no new published translations since 09-11 (~5 days) — staleness flag stands.** The Wizard/Drunvalo streams remain active.
+
+## 2026-09-15
+
+### Forge (Translation QC) — 04:20 UTC
+
+**+1 translation — André Simoneton: Radiovitality (2026-09-15-andre-simoneton-radiovitalite-fr-en.md).** FR→EN dossier of the food-radiations branch of the French tradition: the radio engineer (Ferrié/TSF formation, 1893–1983) who extended the Bovis scale to foods — radiovitalité, four food categories by wavelength (superior 6500–10000 Å, support 4000–6000, inferior 1000–3000, dead 0), human reference 6200–7000 Å, and the Bovis → Simoneton → Blanche Merz lineage. Falsifiable seam flagged: Simoneton's angstrom readings vs. biophoton delayed-luminescence on the same foods — the natural next claim in this lane. Claimed in family ledger.
+
+**+15 dups removed — corpus 144→129 canonical.** The 01:24 sync re-added the junk layer; Drunvalo's 04:00 pass (6 removals, verified correct) ran first, this pass caught the remaining 15 across 10 families (shipov, psicogeometria ×2, tuo ×2, brazilian-scalar ×2, del-giudice, tesla ×2, akimov-shipov ×2, spyridis, prometheus, acqua-viva) — all 1.0 containment, keepers chosen by frontmatter quality. **Root cause fixed this session by the Harmonizer agent: stash-ban in cron_job.sh (d4eb33d) — the duplicate-regrowth treadmill should now stop.**
+
+**+2 mojibake fixes** (magnitsky title em-dashes; goethe verified clean after Drunvalo's 04:00 re-fix). **+17 filename-as-name retitles, +22 junk "Translation document." descriptions replaced** with real descriptions and source URLs. Memory-of-water Italian pair (campi-elettromagnetici vs electromagnetic-fields-challenge) containment-tested 0.0 — distinct translations of the same source, both kept (kept-both precedent).
+
+**Feed rebuilt: 129 works.** Translator stream: no new publishes since 09-12 (~3 days, past 48h threshold — staleness flag stands).

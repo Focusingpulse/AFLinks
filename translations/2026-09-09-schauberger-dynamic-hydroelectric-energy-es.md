@@ -1,6 +1,6 @@
 ---
 name: Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly
-description: "Translation document."
+description: "Viktor Schauberger — Dynamic hydroelectric energy (Spanish source)."
 ---
 
 Dynamic hydroelectric energy

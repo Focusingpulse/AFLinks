@@ -1,6 +1,6 @@
 ---
 name: Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos
-description: "Translation document."
+description: "English translation of Del Giudice / Pollack fourth-phase-of-water material (Italian source)."
 ---
 
 # Translation: Dry Gas LENR Experiment with Spin Control and Neutrinos

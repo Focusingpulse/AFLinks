@@ -1,6 +1,6 @@
 ---
 name: Magnitsky, 2019
-description: "Translation document."
+description: "Magnitsky — Gravity in compressible oscillating ether theory (Russian source, 2019)."
 ---
 
 Magnitsky, 2019

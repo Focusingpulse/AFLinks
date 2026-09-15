@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-magnitsky-gravity-compressible-oscillating-ether-ru"
+name: "Magnitsky — Gravity in Compressible Oscillating Ether (Russian)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

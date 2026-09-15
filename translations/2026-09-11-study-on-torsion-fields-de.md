@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-study-on-torsion-fields-de"
+name: "Study on Torsion Fields (German)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

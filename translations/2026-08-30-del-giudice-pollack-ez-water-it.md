@@ -1,6 +1,6 @@
 ---
-name: Link to Facebook. Link to X. Link to YouTube. Link to Instagram.
-description: "Translation document."
+name: Emilio Del Giudice Explains Gerald Pollack’s Discovery of the Fourth Phase of Water
+description: "Full translation of the source document (see source URL in frontmatter)."
 ---
 
 Link to Facebook. Link to X. Link to YouTube. Link to Instagram.

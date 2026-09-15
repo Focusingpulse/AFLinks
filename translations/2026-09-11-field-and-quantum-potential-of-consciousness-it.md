@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-field-and-quantum-potential-of-consciousness-it"
+name: "Field and Quantum Potential of Consciousness (Italian)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: ACADEMY OF TRINITARIANISM
-description: "Translation document."
+description: "Torsion physics from Newton to the present (Academy of Trinitarianism, Russian source)."
 ---
 
 ACADEMY OF TRINITARIANISM

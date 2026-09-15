@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-oranur-experiment-wilhelm-reich-de"
+name: "The ORANUR Experiment — Wilhelm Reich (German)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

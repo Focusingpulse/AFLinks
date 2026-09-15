@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-form-waves-and-sacred-geometry-it"
+name: "Form Waves and Sacred Geometry (Italian)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

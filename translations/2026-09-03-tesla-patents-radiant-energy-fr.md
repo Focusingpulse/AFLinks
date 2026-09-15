@@ -1,5 +1,5 @@
 ---
-name: "2026-09-03-tesla-patents-radiant-energy-fr"
+name: "Analysis of Tesla's Patent Schematics on Radiant Energy (Chercheurs du Vrai)"
 description: Full translation of "Chercheurs Du Vrai"
 ---
 

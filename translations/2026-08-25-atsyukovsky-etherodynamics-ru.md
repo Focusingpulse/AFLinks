@@ -1,6 +1,6 @@
 ---
 name: Translation: Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5
-description: "Translation document."
+description: "English translation of V.V. Atsyukovsky's ether dynamics material (Russian source)."
 ---
 
 # Translation: Atsyukovsky — Foundations of Etherdynamic Natural Science, Book 5

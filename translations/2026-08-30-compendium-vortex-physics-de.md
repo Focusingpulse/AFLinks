@@ -1,6 +1,7 @@
 ---
 name: Compendium of Vortex Physics (Part 1)
-description: "Translation document. language de | domain: vortex-physics | https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf"
+description: "English translation of Kompendium Wirbelphysik v1 Teil 1 (buch-der-synergie.de, German source) — vortex physics compendium."
+source: https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf
 ---
 
 - **date:** 2026-08-30
