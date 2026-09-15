@@ -39,3 +39,21 @@ No duplicate translations found — each file covers distinct source material
 
 ---
 *Previous entries continue below*
+
+## 2026-09-15 20:20 UTC — aetherforce-translation-qc
+
+**Status:** ok
+
+Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton radiovitality dossier, Blanche Merz hauts-lieux dossier, Enel Energeia reprints dossier, Simoneton-vs-biophotonics bench note, Merz high-places inter-rater bench note.
+
+**Issues found & fixed (4):**
+1. Bench-note frontmatter was thin (only name/description) — added translator, source_language, language, date_published, sources.
+2. Factual error in bench note: "Alfred Bovis" → **André** Bovis (corpus record: André Bovis 1871–1947, confirmed across the other three dossiers).
+3. research-index.json: 4 duplicate work ids re-emitted by the translation agent (andre-simoneton-radiovitalite ×2, jacques-ravatin ×2, shipov-torsion ×2, study-on-torsion-fields-de ×2) — merged keeping richer entries, 222→218. Added the 2 missing bench-note works (→220 effective).
+4. person-index.json: 2 duplicate persons (blanche-merz/merz-blanche, andre-simoneton/simoneton-andre) — merged with union of works/cited_by/domains, 179→177.
+
+**Verified:** 5 source URLs all resolve (editions-tredaniel, mrbienetre, psi-gamma, inexplore ×2). No untranslated passages — all FR/DE/ES quotes carry inline English translations. No new duplicate translation regrowth since the 12:20 UTC purge (filename-cluster scan of all 125 files: 3 clusters, all intentional translation+original pairs).
+
+**Method note:** git clone hangs from this sandbox (known issue); entire run done via GitHub Contents API (one commit per file). Commits: 6611b62f, dd163f54, c01ec16f, 2ee488c9.
+
+**Open:** root-cause fix for duplicate re-emission still belongs in the emitting translation agent (agent-75b8d29e) — content-hash/source-URL check before write.
