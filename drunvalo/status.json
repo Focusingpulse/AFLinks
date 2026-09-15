@@ -4,10 +4,34 @@
   "timestamp": "2026-09-15T00:05:00Z",
   "cron": "aetherforce-translation-qc",
   "status": "ok",
-  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "summary": "Root cause fixed: Harmonizer cron_job.sh stash/pop resurrected deleted dups + reverted mojibake fixes. Patched cron_job.sh (stash-ban + dirty-tree gate), deleted 6 dups, re-fixed goethe, annotated dead URL, remapped 15 person-index refs, deduped 16 research-index ids.",
   "translations_checked": 5,
   "issues_found": 1,
   "issues_fixed": 1,
-  "files": ["translations/2026-09-14-radionique-machine-shelf-2026-fr-en.md"],
-  "next_run": "2026-09-15T04:00:00Z"
+  "files": [
+    "translations/2026-09-14-radionique-machine-shelf-2026-fr-en.md"
+  ],
+  "next_run": "2026-09-15T04:00:00Z",
+  "last_run": "2026-09-15 04:18 UTC",
+  "files_modified": [
+    "translations/2026-09-03-compendium-vortex-physics-de.md",
+    "translations/2026-09-11-compendium-of-vortex-physics-schauberger-de.md",
+    "translations/2026-09-11-schauberger-water-blood-of-the-earth-de.md",
+    "translations/2026-09-11-theorie-phi-scalar-field-baryonic-matter-fr.md",
+    "translations/2026-09-11-torsion-physics-newton-to-present-ru.md",
+    "translations/Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md",
+    "translations/2026-09-12-goethe-scientific-works-complete-it.md",
+    "translations/2026-09-14-frandeau-fortuna-major-patent-fr-en.md",
+    "cron_job.sh",
+    "database/person-index.json",
+    "database/research-index.json"
+  ],
+  "commits": [
+    "ce69749a",
+    "01575662",
+    "d4eb33d4",
+    "f6257a63",
+    "3a8c0e26",
+    "90c6e406"
+  ]
 }
