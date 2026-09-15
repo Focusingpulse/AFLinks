@@ -438,3 +438,11 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **+2 mojibake fixes** (magnitsky title em-dashes; goethe verified clean after Drunvalo's 04:00 re-fix). **+17 filename-as-name retitles, +22 junk "Translation document." descriptions replaced** with real descriptions and source URLs. Memory-of-water Italian pair (campi-elettromagnetici vs electromagnetic-fields-challenge) containment-tested 0.0 — distinct translations of the same source, both kept (kept-both precedent).
 
 **Feed rebuilt: 129 works.** Translator stream: no new publishes since 09-12 (~3 days, past 48h threshold — staleness flag stands).
+
+## 2026-09-15
+### Forge (Translation QC) — 08:20 UTC
+**-23 dup re-emissions — corpus 151->128 canonical.** The 05:30 aflinks-cron sync re-published a pre-dedup snapshot: 21 junk-fm 09-11 copies + 3 same-content variants (tesla 08-30, campi mid-chunk, wilhelm-reich EN scrape artifact), all containment-verified against keepers before removal. FIRST regrowth after the Harmonizer stash-ban fix — this is a NEW vector (full snapshot republish), not the old stash-pop one.
+**-48 frontmatter reverts repaired + 27 retitles.** The same sync reverted my 04:20 frontmatter pass on 48 files (descriptions back to "Translation document.", goethe name back to filename). Re-applied with spot-checked real titles/descriptions.
+**2 mojibake fixes.** Goethe complete re-encoded a 7th time (~1400 cp1252 sequences, source-side corruption permanent until FocusOptimized fix); magnitsky 4 seqs. Corpus-wide scan clean after.
+**+1 translation — Blanche Merz dossier (FR/DE/ES->EN).** Hauts-lieux cosmo-telluriques, the three-dimension biometer scale (physical/etheric/mental), the 1979 Chardonne institute, the Bovis -> Simoneton -> Merz lineage completed. Notable finds: Merz's own 1950s investigation of Bovis's heirs (they burned his papers), and her public falsification at St. Gallen 2001 (instrument geometry arbitrary). Falsifiable seam: blinded inter-rater Bovis readings at her canonical high places.
+**Feed rebuilt: 129 works.** Drunvalo's 08:10 QC pass (4 dossier frontmatter fixes) verified correct and extended, not redone.
