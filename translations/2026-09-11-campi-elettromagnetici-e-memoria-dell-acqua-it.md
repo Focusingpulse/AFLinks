@@ -1,5 +1,5 @@
 ---
-name: "Electromagnetic Fields and the Memory of Water (Italian)"
+name: "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

@@ -1,7 +1,6 @@
 ---
 name: Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35
-description: "English translation of Viviane Hotié — sacred geobiology of Rennes (Brocéliande tradition, French source)."
-source: https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99
+description: "Translation document. language fr | domain: geobiology | https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99"
 ---
 
 - **date:** 2026-08-29

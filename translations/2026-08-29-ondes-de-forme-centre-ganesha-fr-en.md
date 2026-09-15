@@ -1,7 +1,6 @@
 ---
 name: Form Waves: Origin, Principles, and Controversies
-description: "English translation of "Les ondes de forme" (Centre Ganesha, French source) — form waves in the French radiesthesia tradition."
-source: https://www.centreganesha.com/les-ondes-de-forme/
+description: "Translation document. https://www.centreganesha.com/les-ondes-de-forme/"
 ---
 
 - **original_title:** Les ondes de forme

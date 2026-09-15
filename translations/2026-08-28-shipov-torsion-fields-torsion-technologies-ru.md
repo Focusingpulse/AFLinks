@@ -1,6 +1,6 @@
 ---
-name: Torsion Fields and Torsion Technologies (Shipov)
-description: "Full translation of the source document (see source URL in frontmatter)."
+name: TORSION FIELDS AND TORSION TECHNOLOGIES.1
+description: "Translation document."
 ---
 
 TORSION FIELDS AND TORSION TECHNOLOGIES.1

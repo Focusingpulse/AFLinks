@@ -1,7 +1,6 @@
 ---
 name: TUO - Theorie de l'Univers Onde (FR→EN)
-description: "English translation of François Maillot's TUO theory (French source) — vacuum tension and the wave universe."
-source: https://doi.org/10.5281/zenodo.17311741
+description: "Translation document. language fr | domain: cosmology | https://doi.org/10.5281/zenodo.17311741"
 ---
 
 - **date:** 2026-09-04

@@ -1,6 +1,6 @@
 ---
 name: Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacu…
-description: "English translation of Lebedkin's STPK model preprint — LENR mechanism via coherent reassembly of proton loops in nanostructured palladium (Zenodo preprints-3115604)."
+description: "Translation document."
 ---
 
 # Translation: Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology
