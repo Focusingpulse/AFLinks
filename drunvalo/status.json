@@ -1,18 +1,30 @@
 {
   "agent": "Drunvalo",
-  "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
-  "timestamp": "2026-09-15T06:09:00Z",
-  "cron": "village-maintenance",
+  "cron": "aetherforce-translation-qc",
+  "timestamp": "2026-09-15T08:10:00Z",
   "status": "ok",
-  "summary": "Village RPG maintenance (permies-skip-pep-data): link check 779 URLs (760 OK, 15 HTTP errors, 4 unreachable), village_maintain.py no changes needed, fresh village-link-report.md committed and pushed (59194c3). Broken URLs confirmed as historical forum-signature links in scraped archive JSONs, not curated village content \u2014 left intact. AFLinks report pushed via Contents API (clone blocked from this sandbox).",
-  "urls_checked": 779,
-  "urls_ok": 760,
-  "http_errors": 15,
-  "unreachable": 4,
-  "files": [
-    "village-link-report.md"
+  "summary": "Checked 5 most recent translations, fixed frontmatter issues in 4 files",
+  "files_checked": [
+    "2026-09-15-enel-energeia-reprints-2025-2026-fr-en.md",
+    "2026-09-15-andre-simoneton-radiovitalite-fr-en.md",
+    "2026-09-14-radionique-machine-shelf-2026-fr-en.md",
+    "2026-09-14-frandeau-fortuna-major-patent-fr-en.md",
+    "2026-09-14-francis-marquette-cera-fr-en.md"
+  ],
+  "issues_found": [
+    "Files 1, 3, 4, 5 missing standard translation metadata fields (source_language, language, translator, source, sources, date_published)",
+    "File 2 had complete frontmatter - no issues"
+  ],
+  "issues_fixed": [
+    "Added source_language, language, translator, source, sources, date_published to 4 files with incomplete frontmatter"
   ],
   "commits": [
-    "59194c3"
-  ]
+    "https://github.com/Focusingpulse/AFLinks/commit/19f3ed63fe0f12efaeabfd889d7de2741334329c",
+    "https://github.com/Focusingpulse/AFLinks/commit/eaf879d5b91a38d56fa141a0e99d4598f7091020",
+    "https://github.com/Focusingpulse/AFLinks/commit/23b0d8c94134bb54e1b078dc3ac4c83e34af7fe0",
+    "https://github.com/Focusingpulse/AFLinks/commit/c9d0855a3dd1170a86f052ef63f5ce46389a0e06"
+  ],
+  "database_updates": "None needed - all researchers mentioned (Enel, Guy Thieux, André Simoneton, Frandeau de Marly, Francis Marquette, Heckmann, Steïmann) already in person-index.json",
+  "source_urls_verified": "All source URLs verified accessible (HTTP 200/301)",
+  "duplicates_checked": "No duplicate translations found - each file covers distinct source material"
 }
