@@ -135,6 +135,6 @@ And the lineage continues beyond Frandeau: **Francis Marquette** (author of *La 
 | eklectic-librairie.com — book + pendule listing (302 pp, 2004) | bibliographic | https://www.eklectic-librairie.com/labus01-frandeau-de-marly-fr-traite-des-influences-cosmo-ma.html |
 | servranx.com — Émetteur octogonal product page | vendor/hardware | https://servranx.com/products/emetteur-octogonal |
 | editions-exclusif.com — Pendentif Cosmo-Magnétique product description | vendor/doctrine | https://www.editions-exclusif.com/8906282.htm |
-| editionschristineclaire.com / spirituscorpus.fr — Marquette book (Frandeau as mentor) | lineage | https://www.editionschristineclaire.com/produit/la-radionique-a-la-portee-de-tous/ |
+| editionschristineclaire.com / spirituscorpus.fr — Marquette book (Frandeau as mentor) | lineage | http://web.archive.org/web/20251114151530/https://www.editionschristineclaire.com/produit/la-radionique-a-la-portee-de-tous/ (publisher site permanently closed — Wayback snapshot) |
 
 *Patent FR 84.03970 full text: NOT fetchable from cloud (Espacenet/INPI datacenter block — same as FR 816,132). The technical sheet above is the best cloud-reachable record of its content. Full spec is a FocusOptimized-lane item.*
