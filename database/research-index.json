@@ -52,7 +52,8 @@
       "id": "andre-simoneton-radiovitalite-fr-en",
       "title": "André Simoneton — Radiovitality: Food Radiations and Human Waves",
       "authors": [
-        "forge"
+        "forge",
+        "simoneton"
       ],
       "date": "2026-09-15",
       "language": "en",
@@ -61,25 +62,36 @@
       "file": "translations/2026-09-15-andre-simoneton-radiovitalite-fr-en.md",
       "themes": [
         "Radionics, Radiesthesia & Shape Power",
-        "Health & Medicine"
+        "Health & Medicine",
+        "Water & Living Systems",
+        "History of Science"
       ],
       "concepts": [
         "bovis_scale",
         "radiovitality",
         "food_radiations",
-        "wavelength"
+        "wavelength",
+        "human_waves",
+        "kirlian",
+        "ferrie"
       ],
       "key_claims": [
         "Foods emit measurable 'vibrations' detectable by pendulum",
         "Fresh foods read 6,500-10,000 Å, processed foods read lower",
         "Eating above 6,500 Å raises human vibratory rate",
-        "Simoneton was trained by Captain Ferrié in French military radio"
+        "Simoneton was trained by Captain Ferrié in French military radio",
+        "Simoneton (1893–1983), a radio engineer trained under Captain Ferrié (founder of French military T.S.F.), extended the Bovis scale into food radiations.",
+        "Four food categories by wavelength: fresh vital foods vs. dead/processed foods measured on the radiovitality scale.",
+        "Bovis → Simoneton → Blanche Merz lineage of the biometer scale."
       ],
       "cross_references": [
         "bovis-biometer",
-        "blanche-merz-hauts-lieux"
+        "blanche-merz-hauts-lieux",
+        "bovis-echelle-biometre-fr-en",
+        "scalar-wave-convergence"
       ],
-      "status": "translation"
+      "status": "translation",
+      "last_updated": "2026-09-15"
     },
     {
       "id": "blanche-merz-hauts-lieux-fr-en",
@@ -117,37 +129,51 @@
     },
     {
       "id": "jacques-ravatin-champs-de-coherence-fr-en",
-      "title": "Jacques Ravatin — Forms and Coherence Fields: The Local, the Global, and the Idathème",
+      "title": "Jacques Ravatin (1935-2011): Forms and Coherence Fields — The Local, the Global, and the Idathème",
       "authors": [
+        "jacques-ravatin",
         "forge"
       ],
       "date": "2026-09-12",
-      "language": "en",
+      "language": "fr",
       "translated": true,
-      "source_language": "fr",
       "file": "translations/2026-09-12-jacques-ravatin-champs-de-coherence-fr-en.md",
       "themes": [
         "Radionics, Radiesthesia & Shape Power",
+        "Sacred Geometry & Form",
+        "Consciousness & Subtle Energy",
         "Unified Theory"
       ],
       "concepts": [
         "coherence_fields",
+        "eifs",
+        "form_waves",
         "local_global",
         "idatheme",
+        "non-cartesian_mathematics",
         "EIFS",
         "form_emissions"
       ],
       "key_claims": [
+        "Ravatin generalized form waves into 'emissions due to forms' (EIFS), deliberately outside the electromagnetic spectrum.",
+        "The Local is existence with reference points; the Global is existence without reference points; the Idathème is a third existence not representable by a human mind.",
+        "Fondation Ark'all replaced the dowser's pendulum with an algebra (cumulo-decal arithmetic, ALPHYSIQUE).",
         "Ravatin generalized 'form waves' to 'emissions due to forms' (EIFS)",
         "EIFS 'do not belong to our physical universe'",
         "The Local has reference points; the Global does not",
         "The Idathème is a third existence that cannot be represented by human mind"
       ],
       "cross_references": [
+        "shape-field-convergence",
+        "enel-omega-radiations-formes-fr-en",
+        "jean-de-la-foye-ondes-de-vie-fr-en",
         "leon-chaumery-radiesthesie",
         "andre-de-belizal-radiesthesie"
       ],
-      "status": "translation"
+      "status": "translated",
+      "source_url": "https://solutions-neovie.fr",
+      "publication": "Composite dossier (solutions-neovie.fr, editions-arqa.com, projet-lapasserelle.com)",
+      "source_language": "fr"
     },
     {
       "id": "pa-morel-physique-micro-vibratoire-fr-en",
@@ -186,11 +212,15 @@
       "id": "shipov-torsion-fields-torsion-technologies-ru",
       "title": "G. I. Shipov: Torsion Fields and Torsion Technologies (Russian)",
       "authors": [
-        "g-i-shipov"
+        "g-i-shipov",
+        "shipov",
+        "akimov",
+        "cartan",
+        "tesla"
       ],
       "date": "2026-08-28",
       "language": "ru",
-      "translated": false,
+      "translated": true,
       "file": "translations/2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md",
       "themes": [
         "Plasma, Torsion & Cosmology",
@@ -200,7 +230,10 @@
         "torsion",
         "physical_vacuum",
         "spin_fields",
-        "cartan_torsion"
+        "cartan_torsion",
+        "aether",
+        "gravity",
+        "scalar"
       ],
       "key_claims": [
         "Shipov extended Einstein-Cartan geometry to include torsion",
@@ -217,11 +250,14 @@
       "id": "study-on-torsion-fields-de",
       "title": "Study on Torsion Fields (German)",
       "authors": [
-        "unknown"
+        "unknown",
+        "shipov",
+        "akimov",
+        "cartan"
       ],
       "date": "2026-09-11",
       "language": "de",
-      "translated": false,
+      "translated": true,
       "file": "translations/2026-09-11-study-on-torsion-fields-de.md",
       "themes": [
         "Plasma, Torsion & Cosmology"
@@ -230,7 +266,9 @@
         "torsion",
         "torsion_technology",
         "left_rotating",
-        "nuclear_torsion"
+        "nuclear_torsion",
+        "aether",
+        "gravity"
       ],
       "key_claims": [
         "Nuclear power plants generate harmful left-rotating torsion fields",
@@ -2942,28 +2980,6 @@
       "last_updated": "2026-09-05"
     },
     {
-      "id": "study-on-torsion-fields-de",
-      "title": "Complete German-to-English translation of 'Studie über die Torsionsfelder' (Study on Torsion Fields) from tervica.de. Covers the theory of torsion fields as a fundamental physical phenomenon, Shipov's 7-level reality model, Cartan torsion geometry, Kozyrev's astronomical observations, vacuum polarization, and the relationship between torsion fields and consciousness. By Prof. Dr. N. Grachev, State Institute for Electronics and Mathematics, Moscow.",
-      "authors": [
-        "shipov",
-        "akimov",
-        "cartan"
-      ],
-      "date": "2026-09-02",
-      "language": "de",
-      "translated": true,
-      "file": "translations/2026-09-11-study-on-torsion-fields-de.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated"
-    },
-    {
       "id": "spyridis-platonic-theory-of-everything-el",
       "title": "Greek (el) -> English translation. Spyridis's Platonic ToE and unified theory of the electro-strong interaction. Source: Greek original, published in English translation.",
       "authors": [],
@@ -4897,30 +4913,6 @@
       "status": "translated"
     },
     {
-      "id": "shipov-torsion-fields-torsion-technologies-ru",
-      "title": "Translation document.",
-      "authors": [
-        "shipov",
-        "akimov",
-        "cartan",
-        "tesla"
-      ],
-      "date": "2026-08-28",
-      "language": "ru",
-      "translated": true,
-      "file": "translations/2026-08-28-shipov-torsion-fields-torsion-technologies-ru.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated"
-    },
-    {
       "id": "de-belizal-morel-physique-micro-vibratoire-fr-en",
       "title": "Forge's FR→EN translation of the theoretical core of de Belizal & Morel's 'Physique Micro-Vibratoire et Forces Invisibles' (Desforges, Paris, 1976): the authors' Foreword (Chaumery's death, the V–/V+ story), Introduction, the complete Vocabulary of micro-vibratory physics, and Part One theory chapters 1–14. Source: excerpt posted at studylibfr.com; original book out of print, in copyright — research translation with attribution. Outer-ring / French radiesthesia tradition (Chaumery–de Belizal school).",
       "authors": [],
@@ -5272,43 +5264,6 @@
       "status": "translated",
       "source_url": "https://www.baglis.tv.com",
       "publication": "Composite dossier (baglis.tv, ibacom.fr, anneauxdevie.com, 450.fm, fundebien.org.mx)"
-    },
-    {
-      "id": "jacques-ravatin-champs-de-coherence-fr-en",
-      "title": "Jacques Ravatin (1935-2011): Forms and Coherence Fields — The Local, the Global, and the Idathème",
-      "authors": [
-        "jacques-ravatin"
-      ],
-      "date": "2026-09-12",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-09-12-jacques-ravatin-champs-de-coherence-fr-en.md",
-      "themes": [
-        "Radionics, Radiesthesia & Shape Power",
-        "Sacred Geometry & Form",
-        "Consciousness & Subtle Energy"
-      ],
-      "concepts": [
-        "coherence_fields",
-        "eifs",
-        "form_waves",
-        "local_global",
-        "idatheme",
-        "non-cartesian_mathematics"
-      ],
-      "key_claims": [
-        "Ravatin generalized form waves into 'emissions due to forms' (EIFS), deliberately outside the electromagnetic spectrum.",
-        "The Local is existence with reference points; the Global is existence without reference points; the Idathème is a third existence not representable by a human mind.",
-        "Fondation Ark'all replaced the dowser's pendulum with an algebra (cumulo-decal arithmetic, ALPHYSIQUE)."
-      ],
-      "cross_references": [
-        "shape-field-convergence",
-        "enel-omega-radiations-formes-fr-en",
-        "jean-de-la-foye-ondes-de-vie-fr-en"
-      ],
-      "status": "translated",
-      "source_url": "https://solutions-neovie.fr",
-      "publication": "Composite dossier (solutions-neovie.fr, editions-arqa.com, projet-lapasserelle.com)"
     },
     {
       "id": "jean-de-la-foye-ondes-de-vie-fr-en",
@@ -6108,41 +6063,6 @@
       "last_updated": "2026-09-14"
     },
     {
-      "id": "andre-simoneton-radiovitalite-fr-en",
-      "title": "André Simoneton — Radiovitality: Food Radiations and Human Waves",
-      "authors": [
-        "simoneton"
-      ],
-      "date": "2026-09-15",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-09-15-andre-simoneton-radiovitalite-fr-en.md",
-      "themes": [
-        "Radionics, Radiesthesia & Shape Power",
-        "Water & Living Systems",
-        "History of Science"
-      ],
-      "concepts": [
-        "radiovitality",
-        "bovis_scale",
-        "food_radiations",
-        "human_waves",
-        "kirlian",
-        "ferrie"
-      ],
-      "key_claims": [
-        "Simoneton (1893–1983), a radio engineer trained under Captain Ferrié (founder of French military T.S.F.), extended the Bovis scale into food radiations.",
-        "Four food categories by wavelength: fresh vital foods vs. dead/processed foods measured on the radiovitality scale.",
-        "Bovis → Simoneton → Blanche Merz lineage of the biometer scale."
-      ],
-      "cross_references": [
-        "bovis-echelle-biometre-fr-en",
-        "scalar-wave-convergence"
-      ],
-      "status": "translated",
-      "last_updated": "2026-09-15"
-    },
-    {
       "id": "enel-energeia-reprints-2025-2026-fr-en",
       "title": "Enel Re-issued: The Energeia Reprint Program (2025–2026) — the French Radiesthesia Primary Back in Print",
       "authors": [
@@ -6255,6 +6175,72 @@
         "pa-morel-physique-micro-vibratoire-fr-en"
       ],
       "status": "synthesis"
+    },
+    {
+      "id": "merz-high-places-inter-rater-bench-note",
+      "title": "Merz's High Places: A Bench Note on Testing the Bovis Place-Scale at Its Own Canonical Sites",
+      "authors": [
+        "forge"
+      ],
+      "date": "2026-09-15",
+      "language": "en",
+      "translated": false,
+      "file": "translations/2026-09-15-merz-high-places-inter-rater-bench-note-en.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "History of Science"
+      ],
+      "concepts": [
+        "bovis_scale",
+        "inter_rater_reliability",
+        "hauts_lieux",
+        "geobiology"
+      ],
+      "key_claims": [
+        "Merz's published Bovis values at canonical sites (Chartres 11,000 BE, mosque niches 12,000, temple spots 14,000) are testable via blinded inter-rater reliability",
+        "No physical instrument has ever confirmed a Bovis unit; only the agreement structure across dowsers is testable",
+        "Merz never published an inter-rater reliability figure despite institutionalizing a school and a hundred-site survey"
+      ],
+      "cross_references": [
+        "blanche-merz-hauts-lieux",
+        "andre-simoneton-radiovitalite-fr-en",
+        "simoneton-vs-biophotonics-bench-note"
+      ],
+      "status": "authored"
+    },
+    {
+      "id": "simoneton-vs-biophotonics-bench-note",
+      "title": "Simoneton's Angstroms vs Biophotonics: A Bench Note on Two Food-Vitality Metrics",
+      "authors": [
+        "forge"
+      ],
+      "date": "2026-09-15",
+      "language": "en",
+      "translated": false,
+      "file": "translations/2026-09-15-simoneton-vs-biophotonics-bench-note-en.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "Health & Medicine",
+        "Water & Living Systems"
+      ],
+      "concepts": [
+        "bovis_scale",
+        "radiovitality",
+        "ultraweak_photon_emission",
+        "delayed_luminescence",
+        "food_quality"
+      ],
+      "key_claims": [
+        "Simoneton's food ordering (fresh > processed > dead) converges in direction with UPE/DL biophotonics findings",
+        "Units are not commensurable: Bovis angstroms are dowser encodings, not spectroscopy; only rankings are comparable",
+        "Proposed protocol: Spearman correlation between blinded dowser classes and DL decay parameters across ~12 foods"
+      ],
+      "cross_references": [
+        "andre-simoneton-radiovitalite-fr-en",
+        "blanche-merz-hauts-lieux",
+        "merz-high-places-inter-rater-bench-note"
+      ],
+      "status": "authored"
     }
   ],
   "last_updated": "2026-09-15",
