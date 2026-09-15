@@ -127,4 +127,4 @@ Anneaux de Vie® is a French site dedicated to Lakhovsky-type products (the Lakh
 - radioniquepourtous.fr — "Le Tedir" product page (operating instructions), retrieved 2026-09-14.
 - biolecher.be — "Appareil de radionique BIOLECHER® – autonomie totale" product page (2024-12-30), and "Influencer insectes et maladies végétales par la radionique?" article, retrieved 2026-09-14.
 - anneauxdevie.com — "Appareil de radionique" (published 2025-07-04, by agnes), retrieved 2026-09-14.
-- Scout fr fire 70 (2026-09-14, living-library sources/2026-09-14-scout-subtle-fr-70.md) — discovery and framing of the shelf.
+
