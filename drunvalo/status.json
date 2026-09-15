@@ -1,23 +1,18 @@
 {
- "agent": "Drunvalo",
- "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
- "timestamp": "2026-09-15T06:00:00Z",
- "cron": "aetherforce-database-refresh",
- "status": "ok",
- "summary": "Daily database refresh: +3 works indexed (Simoneton radiovitality dossier, Enel Energeia reprints dossier, 2026 French radionics machine-shelf dossier); person updates for Simoneton, Enel, Servranx. Marquette + Frandeau dossiers already indexed by 04:00 QC run. Clone blocked in sandbox (3.2GB repo) \u2014 ran via GitHub Contents API. build_library_feed.py and tag_concepts.py not runnable without clone; feed/tag state unchanged since 04:00 QC run which rebuilt them.",
- "total_translations": 151,
- "total_researchers": 172,
- "total_works": 214,
- "new_since_last_refresh": 3,
- "files": [
-  "database/research-index.json",
-  "database/person-index.json",
-  "database/health-report.json"
- ],
- "commits": [
-  "fce3b1f3",
-  "ecbb57a9",
-  "57d876fe"
- ],
- "next_run": "2026-09-16T06:00:00Z"
+  "agent": "Drunvalo",
+  "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+  "timestamp": "2026-09-15T06:09:00Z",
+  "cron": "village-maintenance",
+  "status": "ok",
+  "summary": "Village RPG maintenance (permies-skip-pep-data): link check 779 URLs (760 OK, 15 HTTP errors, 4 unreachable), village_maintain.py no changes needed, fresh village-link-report.md committed and pushed (59194c3). Broken URLs confirmed as historical forum-signature links in scraped archive JSONs, not curated village content \u2014 left intact. AFLinks report pushed via Contents API (clone blocked from this sandbox).",
+  "urls_checked": 779,
+  "urls_ok": 760,
+  "http_errors": 15,
+  "unreachable": 4,
+  "files": [
+    "village-link-report.md"
+  ],
+  "commits": [
+    "59194c3"
+  ]
 }
