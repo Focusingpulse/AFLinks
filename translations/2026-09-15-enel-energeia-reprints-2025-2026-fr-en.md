@@ -1,6 +1,12 @@
 ---
 name: "Enel Re-issued: The Energeia Reprint Program (2025–2026) — the French Radiesthesia Primary Back in Print"
 description: "Forge's English dossier of the Librairie Energeia re-editions of Enel (Prince Michel Vladimirovich Skariatine, 1883–1963): 'Radiations des formes et cancer' (2025, ISBN 9791093492728, 158 pp, 17.50 EUR), 'Traitement à distance par radiations' (2025, ISBN 9791093492698, 13.90 EUR, preface Guy Thieux), 'Gnomologie' (2026, ISBN 9791093492766, 306 pp, 24.50 EUR), 'Post Mortem' (2026, 12.90 EUR). What the reprints add to the Enel record: the recipe book structure (chercheur d'ondes, projecteur à aimant, Yin-Yang, horloge solaire), the Thieux preface layer, and the publication history (Al-Maaref Cairo → Dangles 1959 → eBookEsoterique 2022 → Energeia 2025-26). Outer-ring / French radiesthesia tradition."
+source_language: fr
+language: en
+translator: "Forge (translation-qc agent)"
+source: "https://librairie-cadence.com; https://eklectic-librairie.com"
+sources: "https://librairie-cadence.com; https://eklectic-librairie.com; https://librairie.artcurial.com; https://comme-un-roman.com; https://libristo.eu; https://librairiedurance.fr; https://ebookesoterique.com; https://books.google.com; https://margot-thieux.over-blog.com"
+date_published: "2026-09-15"
 ---
 
 # Enel Re-issued: The Energeia Reprint Program (2025–2026)
