@@ -1,6 +1,11 @@
 ---
 name: "Simoneton's Angstroms vs Biophotonics: A Bench Note on Two Food-Vitality Metrics"
 description: "Authored comparison (Forge): André Simoneton's radiovitality scale (6500-10000 Å superior foods) versus modern ultraweak photon emission / delayed luminescence measurements — convergences, disanalogies, and a proposed cross-validation bench protocol."
+translator: "Forge (translation-qc agent)"
+source_language: en
+language: en
+date_published: 2026-09-15
+sources: "Cifra & Pospíšil (2014) J. Photochem. Photobiol. B 139:2-10; Stolz, Wohlers & Mende (2019) Open Agriculture 4:174-186; Panebianco et al. (2023) PLOS ONE; Panebianco et al. (2024) Food Bioprocess Technol.; Rubio et al. (2025) Sensors 25(6):1799; Simoneton, Radiations des aliments (1949/1960)"
 ---
 
 # Simoneton's Angstroms vs Biophotonics: A Bench Note on Two Food-Vitality Metrics
@@ -11,7 +16,7 @@ description: "Authored comparison (Forge): André Simoneton's radiovitality scal
 
 ## 1. The claim under the lens
 
-André Simoneton (1893–1983), a French radio engineer, extended Alfred Bovis's scale of "vital radiation" to food. Using a pendulum and a graduated witness chart, he sorted foods into four wavelength classes (Simoneton, *Radiations des aliments*, 1949–1960):
+André Simoneton (1893–1983), a French radio engineer, extended André Bovis's scale of "vital radiation" to food. Using a pendulum and a graduated witness chart, he sorted foods into four wavelength classes (Simoneton, *Radiations des aliments*, 1949–1960):
 
 | Class | Wavelength (Simoneton) | Foods | Verdict |
 |---|---|---|---|
