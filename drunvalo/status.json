@@ -1,30 +1,27 @@
 {
   "agent": "Drunvalo",
-  "cron": "aetherforce-translation-qc",
-  "timestamp": "2026-09-15T08:10:00Z",
+  "cron": "village-content-growth",
+  "timestamp": "2026-09-15T08:01:00Z",
   "status": "ok",
-  "summary": "Checked 5 most recent translations, fixed frontmatter issues in 4 files",
-  "files_checked": [
-    "2026-09-15-enel-energeia-reprints-2025-2026-fr-en.md",
-    "2026-09-15-andre-simoneton-radiovitalite-fr-en.md",
-    "2026-09-14-radionique-machine-shelf-2026-fr-en.md",
-    "2026-09-14-frandeau-fortuna-major-patent-fr-en.md",
-    "2026-09-14-francis-marquette-cera-fr-en.md"
-  ],
-  "issues_found": [
-    "Files 1, 3, 4, 5 missing standard translation metadata fields (source_language, language, translator, source, sources, date_published)",
-    "File 2 had complete frontmatter - no issues"
-  ],
-  "issues_fixed": [
-    "Added source_language, language, translator, source, sources, date_published to 4 files with incomplete frontmatter"
-  ],
-  "commits": [
-    "https://github.com/Focusingpulse/AFLinks/commit/19f3ed63fe0f12efaeabfd889d7de2741334329c",
-    "https://github.com/Focusingpulse/AFLinks/commit/eaf879d5b91a38d56fa141a0e99d4598f7091020",
-    "https://github.com/Focusingpulse/AFLinks/commit/23b0d8c94134bb54e1b078dc3ac4c83e34af7fe0",
-    "https://github.com/Focusingpulse/AFLinks/commit/c9d0855a3dd1170a86f052ef63f5ce46389a0e06"
-  ],
-  "database_updates": "None needed - all researchers mentioned (Enel, Guy Thieux, André Simoneton, Frandeau de Marly, Francis Marquette, Heckmann, Steïmann) already in person-index.json",
-  "source_urls_verified": "All source URLs verified accessible (HTTP 200/301)",
-  "duplicates_checked": "No duplicate translations found - each file covers distinct source material"
+  "summary": "village-growth-added-woodworking-resources",
+  "details": {
+    "new_resources": 2,
+    "resources_added": [
+      {
+        "title": "ImproveWood Spoon Carving Guide",
+        "url": "https://improvewood.com/spoon-carving-for-beginners-a-step-by-step-green-woodworking-guide/",
+        "category": "Woodworking & Hand Tools"
+      },
+      {
+        "title": "Hand Tool Woodworking - Green Woodworking Videos",
+        "url": "https://handtoolwoodworking.com/green-woodworking-videos/",
+        "category": "Woodworking & Hand Tools"
+      }
+    ],
+    "links_checked": 782,
+    "links_ok": 760,
+    "links_issues": 22,
+    "permies_new_tasks": 0,
+    "commit": "c600e28"
+  }
 }
