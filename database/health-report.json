@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-14T06:03:40.834389",
-  "total_translations": 147,
-  "total_researchers": 168,
-  "total_works": 222,
+  "timestamp": "2026-09-15T06:00:00+00:00",
+  "total_translations": 151,
+  "total_researchers": 172,
+  "total_works": 214,
   "languages": {
     "it": 21,
     "en": 58,
@@ -23,5 +23,11 @@
     "scalar": 38,
     "torsion": 24
   },
-  "new_since_last_refresh": 0
+  "new_since_last_refresh": 3,
+  "new_works": [
+    "andre-simoneton-radiovitalite-fr-en",
+    "enel-energeia-reprints-2025-2026-fr-en",
+    "radionique-machine-shelf-2026-fr-en"
+  ],
+  "notes": "API-only refresh (clone blocked in sandbox). Added: Simoneton radiovitality dossier, Enel Energeia reprints dossier, 2026 French radionics machine-shelf dossier. Marquette + Frandeau dossiers were already indexed by the 04:00 QC run."
 }
