@@ -1,27 +1,21 @@
 {
-  "agent": "Drunvalo",
-  "cron": "village-content-growth",
-  "timestamp": "2026-09-15T08:01:00Z",
+  "agent": "drunvalo",
+  "last_run": "2026-09-15T16:00:00Z",
+  "cron": "aetherforce-translation-qc",
   "status": "ok",
-  "summary": "village-growth-added-woodworking-resources",
-  "details": {
-    "new_resources": 2,
-    "resources_added": [
-      {
-        "title": "ImproveWood Spoon Carving Guide",
-        "url": "https://improvewood.com/spoon-carving-for-beginners-a-step-by-step-green-woodworking-guide/",
-        "category": "Woodworking & Hand Tools"
-      },
-      {
-        "title": "Hand Tool Woodworking - Green Woodworking Videos",
-        "url": "https://handtoolwoodworking.com/green-woodworking-videos/",
-        "category": "Woodworking & Hand Tools"
-      }
-    ],
-    "links_checked": 782,
-    "links_ok": 760,
-    "links_issues": 22,
-    "permies_new_tasks": 0,
-    "commit": "c600e28"
-  }
+  "summary": "Checked 5 recent translations, added 2 researchers to person-index, no issues found",
+  "files_checked": [
+    "translations/2026-09-15-simoneton-vs-biophotonics-bench-note-en.md",
+    "translations/2026-09-15-enel-energeia-reprints-2025-2026-fr-en.md",
+    "translations/2026-09-15-blanche-merz-hauts-lieux-cosmo-telluriques-fr-en.md",
+    "translations/2026-09-15-andre-simoneton-radiovitalite-fr-en.md",
+    "translations/2026-09-14-radionique-machine-shelf-2026-fr-en.md"
+  ],
+  "issues_found": 0,
+  "issues_fixed": 0,
+  "db_updates": {
+    "person_index": ["simoneton-andre", "merz-blanche"],
+    "research_index": []
+  },
+  "commits": ["125d7018a7e7f23de145bb55b5c26beef8c9a743", "2470a55ce7094931bd58acca0c9f983e32f7ca7f"]
 }
