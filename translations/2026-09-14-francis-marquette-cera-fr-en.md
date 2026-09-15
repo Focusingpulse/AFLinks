@@ -1,6 +1,12 @@
 ---
 name: "Francis Marquette and the C.E.R.A.: The Post-Frandeau Generation of French Radionics"
 description: Forge's English translation of the Francis Marquette dossier — the post-Frandeau generation of French radionics: founder of the Cercle d'Études de Radionique Appliquée (C.E.R.A.), author of La Radionique à la Portée de Tous, creator of the C.E.R.A. emitter and the Chakra-Radionique distance-healing method, mentee of Frandeau de Marly, president of Holistica 3000. Composite of editionschristineclaire.com, spirituscorpus.fr, ebookesoterique.com, pressegalactique.com, edenis-soinsceltes.fr. Outer-ring / French radiesthesia tradition.
+source_language: fr
+language: en
+translator: "Forge (translation-qc agent)"
+source: "http://web.archive.org/web/20251114151530/https://www.editionschristineclaire.com/produit/la-radionique-a-la-portee-de-tous/"
+sources: "http://web.archive.org/web/20251114151530/https://www.editionschristineclaire.com/; https://spirituscorpus.fr; https://ebookesoterique.com; https://pressegalactique.com; https://edenis-soinsceltes.fr"
+date_published: "2026-09-14"
 ---
 
 > Translation metadata: title "Francis Marquette and the C.E.R.A.: The Post-Frandeau Generation of French Radionics" · French composite (editionschristineclaire.com + spirituscorpus.fr + ebookesoterique.com + pressegalactique.com + edenis-soinsceltes.fr) · translated by Forge 2026-09-14 · companion to the Frandeau Fortuna Major patent dossier (2026-09-14) and the Chaumery/de Belizal patent FR 816,132 (2026-09-11)
@@ -38,7 +44,7 @@ Two things are notable in this lineage claim. First, the genealogy Marquette inv
 
 The **C.E.R.A.** is Marquette's radionic emitter — the name doubles as the acronym of his study circle (Cercle d'Études de Radionique Appliquée). A 2021 Presse Galactique article by Jean-Jacques Gangnant ("assembleur fréquentiel" of the JjG VIBRASONS frequency assemblies) presents the C.E.R.A. alongside its claimed scope of action:
 
-> The action of radionics extends to all domains of life and all situations: spiritual plane: working towards one's evolution; health: preserving one's health, fighting addictions, aiding healing, revitalising, restorative sleep, supporting a pregnancy, slimming, well-being and beauty…; emotional: meeting the soul mate, harmony in a couple…; work: finding a job, getting a raise, social recognition, a promotion, passing a competitive exam, creating one's own business, growing the turnover…; relationships: overcoming obstacles, reconciling with others, putting an end to a conflict…; protection: against adversity, enemies known and unknown, against slander, un-spell-work, neutralising noxious waves and protecting places and habitat, in a lawsuit, against creditors, when travelling… But also: favouring luck, accelerating and clinching any sale, protecting animals…
+> The action of radionics extends to all domains of life and all situations: spiritual plane: working towards one's evolution; health: preserving one's health, fighting addictions, aiding healing, revitalising, restorative sleep, supporting a pregnancy, slimming, well-being and beauty…; emotional: meeting the soul mate, harmony in a couple…; work: finding a job, getting a raise, social recognition, a promotion, passing a competitive exam, creating one's own business, growing the turnover…; relationships: overcoming obstacles, reconciling with others, putting an end to a conflict…; protection: against adversity, enemies known and unknown, against slander, un-spell-work, neutralising noxious waves and protecting places and habitat, in a lawsuit, against creditors, when travelling… But also: favouring luck, accelerating and clinching any sale, protecting animals… 
 >
 > In fact, the only limits are those you will impose on yourself!
 
@@ -60,7 +66,7 @@ The *témoin* (witness — the physical sample, photograph or signature standing
 
 ## Holistica 3000 and the Celtic line
 
-Marquette is also president of the association **HOLISTICA 3000**, a non-profit "independent and belonging to no religious, political or cultural ideology," receiving no subsidies and funded by member dues and donations, "working above all for a Better World, Humanist and Solidary." Its branches include the G.S.H. (Groupe de Soins Holistiques), which gathers practitioners of Reiki Usui, LaHoChi, Shamballa, aromatherapy, Bach flowers, EFT and psychogenealogy — and a **radionics branch**, in which Marquette trains members.
+Marquette is also president of the association **HOLISTICA 3000**, a non-profit "independent and belonging to no religious, political, or cultural ideology," receiving no subsidies and funded by member dues and donations, "working above all for a Better World, Humanist and Solidary." Its branches include the G.S.H. (Groupe de Soins Holistiques), which gathers practitioners of Reiki Usui, LaHoChi, Shamballa, aromatherapy, Bach flowers, EFT and psychogenealogy — and a **radionics branch**, in which Marquette trains members.
 
 A member's account (Emmanuel Denis, edenis-soinsceltes.fr) records the circle's current apparatus work:
 
