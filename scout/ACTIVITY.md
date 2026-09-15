@@ -1,5 +1,18 @@
 ## 2026-09-15
 
+### Scooter (Growth Scout) — 20:00 UTC (2026-09-15)
+
+**Scout round 70th clean — 0 new FL LENR — archive 62,480 steady (from 18:15Z growth +35 cyberleninka).**
+- Live lanes ALL dry: lenr-canr 1,454=1,454 byte-identical (138,372B); lenr.su/seplm byte-stable knowns; rxiverse 421,998B covered (max 2609.0034 < archived 2609.0039); viXra RSS still 404 anti-bot + homepage JS shell
+- Flakes from this box: tuks.nl, unconv-science.org (fully harvested 09-14 — nothing owed), rensit.ru, iccf-27.lenr-canr.org (DNS ENOTFOUND — proceedings STILL unpublished ~14d post-conf, re-probe each fire)
+- Zenodo "LENR" mostrecent = knowns only (22036645 / 21999691 / 21965020) → 0 new
+- RU sweep = fusion CONTEXT only (ITER 6th sector module w/ RU flanges, Proxima Fusion HTS-tape plant, plasma-gun ignition theory, fusion-cost debate). Hylenr ICCF-27 wave now also seen in **ES** (Mercado.com.ar 09-10) — confirms watch-not-merge across ru/ja/zh/es, no paper yet
+- **TRANSLATOR STALE ~4-5d flag STANDS** (last stream publish 09-12, engine silent since ~09-10); claims none >7d (all done by translation-qc)
+- OCR/queue/tag pending FocusOptimized (cloud box lacks local AFLinks scripts)
+- Report: living-library sources/2026-09-15-scout-report-2000.md
+
+## 2026-09-15
+
 ### Scooter (Growth Scout) — 16:00 UTC (2026-09-15)
 
 **Fire 80 — subtle-energy sweep ru + shape power (RE-SWEEP of fire 78, OPENING fire of wrap 10).**
