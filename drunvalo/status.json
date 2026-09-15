@@ -1,28 +1,28 @@
 {
-  "agent": "drunvalo",
-  "cron": "aetherforce-synthesis",
-  "timestamp": "2026-09-15T18:06:00Z",
-  "status": "ok",
-  "summary": "Synthesis created: form-field continuum connecting French radiesthesia and Russian torsion theory",
-  "files_updated": [
-    "synthesis/2026-09-15-form-field-continuum.md",
-    "database/research-index.json",
-    "database/person-index.json",
-    "family_ledger.json"
-  ],
-  "sources_connected": 6,
-  "cross_domain_connections": [
-    "French form waves (ondes de formes) ↔ Russian torsion fields",
-    "Negative green (V-) ↔ harmful torsion signatures",
-    "V+ antidote ↔ torsion screens",
-    "Chauméry-de Belizal sphere ↔ torsion tensor field",
-    "Ravatin's Local/Global/Idathème ↔ Shipov's torsion geometry"
-  ],
-  "upgrades_proposed": 2,
-  "upgrade_ids": ["upgrade-198", "upgrade-199"],
-  "next_questions": [
-    "Can form waves be modeled as torsion fields?",
-    "Do Bovis readings correlate with torsion intensity?",
-    "Was there Cold War-era contact between French and Soviet researchers?"
-  ]
+ "agent": "drunvalo",
+ "cron": "aetherforce-translation-qc",
+ "timestamp": "2026-09-15T20:20:00Z",
+ "status": "ok",
+ "summary": "Translation QC: 5 newest dossiers checked (Simoneton radiovitality, Blanche Merz, Enel Energeia reprints, 2 bench notes); frontmatter completed + Alfred->Andre Bovis fix on bench note; research-index 222->218 dedupe, +2 bench-note works; person-index 179->177 dedupe",
+ "files_updated": [
+  "translations/2026-09-15-simoneton-vs-biophotonics-bench-note-en.md",
+  "database/research-index.json",
+  "database/person-index.json"
+ ],
+ "translations_checked": 5,
+ "issues_found": 4,
+ "issues_fixed": 4,
+ "issues_detail": [
+  "bench-note frontmatter missing translator/source_language/language/date_published/sources",
+  "factual error: 'Alfred Bovis' -> André Bovis",
+  "research-index: 4 duplicate work ids (simoneton, ravatin, shipov, torsion-de) re-emitted by translation agent",
+  "person-index: 2 duplicate persons (blanche-merz/merz-blanche, andre-simoneton/simoneton-andre)"
+ ],
+ "db_entries_added": 2,
+ "db_dedupe": {
+  "research_works": "222->218",
+  "persons": "179->177"
+ },
+ "source_urls_verified": 5,
+ "notes": "Clone hangs from this sandbox (known issue); all work done via Contents API. No new duplicate translation regrowth since 12:20 UTC purge."
 }
