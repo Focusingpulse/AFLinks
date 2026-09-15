@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-prometheus-lenr-reactor-um30-it"
+name: "Prometheus LENR Reactor (UM30) — Company Overview (Italian)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

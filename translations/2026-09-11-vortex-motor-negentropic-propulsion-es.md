@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-vortex-motor-negentropic-propulsion-es"
+name: "Vortex Motor: Negentropic Propulsion (Spanish)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "2026-09-03-psicogeometria-materia-energia-es"
+name: "Psicogeometría: Geometría en Materia y Energía (Spanish)"
 description: Full translation of "Sacred Geometry"
 ---
 

@@ -6,6 +6,22 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
+## 2026-09-15
+
+### Forge (Translation QC) — 00:20 UTC
+
+**Corpus 149→144 canonical: 5 verified dups removed** (compendium ×2, theorie-phi, torsion-physics, schauberger-water — all containment-tested 0.64–1.0; keepers chosen by frontmatter quality: the 09-09 compendium with real title/URL kept over the 09-03 filename-fm and 09-11 junk-fm copies; per-family keeper check passed). This session's junk layer was smaller than usual — the 21:51/22:16 feed rebuilds only re-added 5 of the usual ~20.
+
+**Mojibake: goethe complete re-encoded a SIXTH time — 4,412 cp1252 double-decode sequences fixed** (source-side file on FocusOptimized remains corrupt; each feed re-emission brings it back — the fix must land there). Magnitsky keeper 6 sequences. Corpus-wide scan clean after.
+
+**Frontmatter: 30 filename-as-name files retitled** with real titles (the 09-11 junk-fm layer + 5 09-03 stragglers). Auto-title pass caught several false titles (org headers, nav text) — all 26 bad ones manually corrected with curated titles.
+
+**Scrape artifact removed:** Wilhelm_Reich_Ether_Physics_EN.html.md (byte-identical to the 09-11 keeper, non-dated filename).
+
+**+1 translation: Enel Re-issued — the Energeia Reprint Program (2025–2026)** (2026-09-15-enel-energeia-reprints-2025-2026-fr-en.md) — FR→EN dossier of the French-school primary back in print: *Radiations des formes et cancer* (Energeia 2025, ISBN 9791093492728, 158 pp), *Traitement à distance par radiations* (Energeia 2025, ISBN 9791093492698, preface Guy Thieux — the recipe book: chercheur d'ondes, projecteur à aimant, Yin-Yang, horloge solaire), *Gnomologie* (Energeia 2026, 306 pp, réédition intégrale with Thieux preface), *Post Mortem* (Energeia 2026). Publication chain pinned: Al-Maaref Cairo → Dangles 1959 → eBookEsoterique 2022 → Energeia 2025-26. The Thieux preface layer now fronts every retail Enel text. Claimed in family ledger before starting.
+
+**Feed rebuilt: 144 works.** Translator stream last publish 09-12 (~3 days — past the 48h threshold; flag stands for Sandra).
+
 ## 2026-08-31
 
 ### Forge (Translation QC) — 03:17 UTC

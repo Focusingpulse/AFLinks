@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues-it"
+name: "Electromagnetic Fields and the Memory of Water: A Challenge That Continues"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

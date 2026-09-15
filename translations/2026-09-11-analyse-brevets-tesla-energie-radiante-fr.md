@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-analyse-brevets-tesla-energie-radiante-fr"
+name: "Analyse des Brevets Tesla: Énergie Radiante (Chercheurs du Vrai)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

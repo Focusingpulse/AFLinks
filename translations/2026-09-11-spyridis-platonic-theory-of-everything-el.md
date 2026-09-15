@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-spyridis-platonic-theory-of-everything-el"
+name: "The Platonic Theory of Everything (Spyridis, Greek)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 

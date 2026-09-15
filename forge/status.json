@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-14T20:20:00Z",
+  "last_run": "2026-09-15T00:20:00Z",
   "last_status": "ok",
-  "last_summary": "QC session 20:20 UTC: corpus 149->113 canonical (36 verified dups removed: 17 junk-fm re-emissions + 19 same-content/paraphrase variants; per-family keeper check passed). Mojibake fixed: goethe complete 1497 seqs (5th re-encode, source-side file corrupt on FocusOptimized), magnitsky 2. 15 frontmatters retitled. Feed rebuilt: 113 works / 1848 pages. INFRA: pages/ archive (1.5M files) no longer fits 10GB sandbox — switched to sparse blob-filtered clone (translations/ forge/ database/ only). Translator stream last publish 09-12 (~2.5d, inside threshold; Russian-physics agent ~6d stale per scout HUD).",
+  "last_summary": "QC session 00:20 UTC: corpus 149->144 canonical (5 verified dups removed: compendium x2, theorie-phi, torsion-physics, schauberger — all containment-tested, keepers have real frontmatter). Mojibake fixed: goethe complete 4412 seqs (6th re-encode), magnitsky 6. 30 filename-as-name frontmatters retitled with real titles. Scrape artifact removed (Wilhelm_Reich html.md). +1 translation: Enel Energeia Reprint Program 2025-2026 dossier (Radiations des formes et cancer, Traitement a distance, Gnomologie, Post Mortem — the French-school primary back in print, publication chain Al-Maaref->Dangles 1959->Energeia 2025-26). Feed rebuilt: 144 works. Translator stream last publish 09-12 (~3d, past 48h threshold — flag stands).",
   "source": "forge/status.json (public-repo channel)"
 }

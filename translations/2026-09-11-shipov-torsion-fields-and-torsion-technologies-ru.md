@@ -1,5 +1,5 @@
 ---
-name: "2026-09-11-shipov-torsion-fields-and-torsion-technologies-ru"
+name: "Torsion Fields and Torsion Technologies (Shipov, Russian)"
 description: "Full-document translation (assembled from completed chunks)."
 ---
 
