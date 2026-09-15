@@ -539,7 +539,15 @@ def main():
     except Exception:
         rad_cache = {}
     rad_books = []
-    if os.path.isdir(rad_root):
+    prev_rad = (prev_feed or {}).get("radiesthesia_books", [])
+    if not os.path.isdir(rad_root):
+        # 2026-09-15: sparse-checkout sandbox excludes books/radiesthesia (2.7GB
+        # of PDFs) to fit the 10GB disk. The files live in git + GitHub Pages;
+        # preserve the previous feed's entries instead of zeroing the set.
+        if prev_rad:
+            print(f"  WARN: no books/radiesthesia/ dir on this machine (sparse checkout); preserving previous entries ({len(prev_rad)})", flush=True)
+        rad_books = prev_rad
+    else:
         rad_dirty = False
         for author_slug in sorted(os.listdir(rad_root)):
             adir = os.path.join(rad_root, author_slug)
