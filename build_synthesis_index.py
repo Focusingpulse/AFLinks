@@ -26,6 +26,149 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "synthesis" / "synthesis_index.json"
 
+# ─── Polar Ring lane derivation ──────────────────────────────────────────────
+# Every briefing gets a position on the two-ring widget: which Founder lane
+# (content band) and which Paradigm (lens band) it lives at. Method A derives
+# the position by keyword-matching the report against hue_lexicon.json (shared
+# with the widget). Method B — optional frontmatter tags — overrides, and is
+# read here too so tagging works the day an author starts using it.
+# Derivation reads what the report's author chose to frame with: title, teaser,
+# sources. Body text is deliberately NOT read — a briefing body mentions every
+# lane in the archive, so matching it would assign a position to everything and
+# mean nothing. No match is an honest answer: the briefing still lists under
+# "All", it simply has no junction yet.
+HEAD_WEIGHTS = {"title": 3.0, "teaser": 2.0, "sources": 1.5}
+LANE_MIN_SCORE = 2.0          # founder lane: one title hit, or two softer ones
+PARADIGM_MIN_SCORE = 3.0      # paradigm: a rarer claim, so a higher bar
+# Aliases this generic would fire on every report (the fleet literally calls its
+# weekly reports "Paradigm Signal Report"), so they never count as lane evidence.
+STOP_TERMS = {"paradigm", "dogma", "forgotten", "ignored", "analog", "conspiracy"}
+# House-style title prefixes the fleet uses on every report of a kind.
+KIND_PREFIX_RE = re.compile(r"^(paradigm signal report|synthesis report|scout finds?|fleet briefing)\s*[:\-—]\s*", re.IGNORECASE)
+
+_LEXICON_CACHE = None
+
+
+def norm_text(s):
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+
+
+def lane_lexicon():
+    """{name: {hue, quality, keywords}} for meta-categories and paradigms."""
+    global _LEXICON_CACHE
+    if _LEXICON_CACHE is not None:
+        return _LEXICON_CACHE
+
+    meta, para = {}, {}
+    lex_path = ROOT / "hue_lexicon.json"
+    if lex_path.exists():
+        lex = json.loads(lex_path.read_text(encoding="utf-8"))
+        for name, rec in (lex.get("meta_categories") or {}).items():
+            meta[name] = {
+                "hue": rec.get("hue"),
+                "color": rec.get("color", ""),
+                "quality": rec.get("quality", ""),
+                "keywords": list(rec.get("keywords") or []),
+            }
+        for name, rec in (lex.get("paradigms") or {}).items():
+            # The paradigm ring is the eye — it reads against the content band,
+            # so the band hue is the complement of the paradigm's own base hue.
+            para[name] = {
+                "hue": rec.get("band_hue", rec.get("hue")),
+                "color": rec.get("band_color", rec.get("color", "")),
+                "quality": rec.get("quality", ""),
+                "keywords": list(rec.get("keywords") or []),
+            }
+        # Enrich paradigms with the curated aliases already in the taxonomy.
+        concepts_path = ROOT / "taxonomy" / "concepts.json"
+        if concepts_path.exists():
+            try:
+                concepts = json.loads(concepts_path.read_text(encoding="utf-8"))
+                by_id = {rec["concept"]: name for name, rec in (lex.get("paradigms") or {}).items()
+                         if rec.get("concept")}
+                for c in concepts.get("concepts", []):
+                    name = by_id.get(c.get("id"))
+                    if not name:
+                        continue
+                    for alias in c.get("aliases", []):
+                        if len(alias) > 4 and alias.lower() not in [k.lower() for k in para[name]["keywords"]]:
+                            para[name]["keywords"].append(alias.lower())
+            except Exception:
+                pass
+
+    _LEXICON_CACHE = (meta, para)
+    return _LEXICON_CACHE
+
+
+def score_lanes(fields, lexicon, weights):
+    """Weighted keyword score per lane. fields: {field: normalized text}."""
+    scores = {}
+    for name, rec in lexicon.items():
+        total = 0.0
+        for kw in rec["keywords"]:
+            k = norm_text(kw)
+            if len(k) < 4 or k in STOP_TERMS:
+                continue
+            phrase_bonus = 1.0 + 0.5 * k.count(" ")   # multi-word terms are stronger
+            for field, weight in weights.items():
+                hay = fields.get(field, "")
+                if not hay:
+                    continue
+                hits = hay.count(k)
+                if hits:
+                    total += weight * min(hits, 3) * phrase_bonus
+        if total > 0:
+            scores[name] = round(total, 2)
+    return scores
+
+
+def pick_lane(scores, minimum):
+    """Best-scoring lane above the bar, or an honest None."""
+    if scores:
+        best = max(scores, key=lambda n: scores[n])
+        if scores[best] >= minimum:
+            return best, scores[best]
+    return None, 0
+
+
+def derive_lanes(fm, title, teaser, sources, body):
+    """Return the lane position for one report.
+
+    Tagged wins (method B); otherwise derived (method A). Unknown = None, which
+    is honest: the briefing still lists under All, it just has no junction.
+    """
+    meta, para = lane_lexicon()
+    # The house-style prefix ("Paradigm Signal Report:") is a label, not content.
+    head_title = KIND_PREFIX_RE.sub("", title or "")
+    head = {
+        "title": norm_text(head_title),
+        "teaser": norm_text(teaser),
+        "sources": norm_text(sources),
+    }
+
+    tagged = bool(fm.get("founder_lane") or fm.get("paradigm") or fm.get("lens"))
+
+    if fm.get("founder_lane") in meta:
+        founder_lane, founder_hue = fm["founder_lane"], meta[fm["founder_lane"]]["hue"]
+    else:
+        founder_lane, _ = pick_lane(score_lanes(head, meta, HEAD_WEIGHTS), LANE_MIN_SCORE)
+        founder_hue = meta[founder_lane]["hue"] if founder_lane else None
+
+    if fm.get("paradigm") in para:
+        paradigm, paradigm_hue = fm["paradigm"], para[fm["paradigm"]]["hue"]
+    else:
+        paradigm, _ = pick_lane(score_lanes(head, para, HEAD_WEIGHTS), PARADIGM_MIN_SCORE)
+        paradigm_hue = para[paradigm]["hue"] if paradigm else None
+
+    return {
+        "founder_lane": founder_lane,
+        "founder_hue": founder_hue,
+        "paradigm": paradigm,
+        "paradigm_hue": paradigm_hue,
+        "lanes": [n for n in (founder_lane, paradigm) if n],
+        "lane_source": "tagged" if tagged else "derived",
+    }
+
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 H1_RE = re.compile(r"^#\s+(.+)$", re.MULTILINE)
 DATE_RE = re.compile(r"^(20\d{2}-\d{2}-\d{2})")
@@ -75,6 +218,12 @@ def parse_frontmatter(text):
     date = re.search(r"^date:\s*(.+)$", fm, re.MULTILINE)
     if date:
         out["date"] = date.group(1).strip().strip('"')
+    # Method B — optional lane tags. A report that carries these keeps them
+    # instead of the derived position.
+    for key in ("lens", "founder_lane", "paradigm", "hue"):
+        m = re.search(rf"^{key}:\s*(.+)$", fm, re.MULTILINE)
+        if m:
+            out[key] = m.group(1).strip().strip('"')
     return out
 
 
@@ -146,7 +295,7 @@ def parse_report(path: Path, kind: str):
     if not sources and sources_count:
         sources = f"{sources_count} source files linked"
 
-    return {
+    entry = {
         "file": path.name,
         "path": str(path.relative_to(ROOT)),
         "slug": path.stem,
@@ -158,6 +307,8 @@ def parse_report(path: Path, kind: str):
         "sources": sources,
         "sources_count": sources_count,
     }
+    entry.update(derive_lanes(fm, title, teaser, sources, text))
+    return entry
 
 
 def main():
@@ -177,6 +328,16 @@ def main():
     print(f"build_synthesis_index: {len(entries)} reports -> {OUT.relative_to(ROOT)}")
     for e in entries[:6]:
         print(f"  [{e['kind']:>16}] {e['date']}  {e['author']:>12}  {e['title'][:52]}")
+
+    # Polar Ring lane coverage — how many briefings landed on each axis.
+    lanes = sum(1 for e in entries if e.get("founder_lane"))
+    paradigms = sum(1 for e in entries if e.get("paradigm"))
+    tagged = sum(1 for e in entries if e.get("lane_source") == "tagged")
+    print(f"\nlane derivation: {lanes}/{len(entries)} founder lanes · "
+          f"{paradigms}/{len(entries)} paradigms · {tagged} tagged")
+    for e in entries[:14]:
+        fl, pa = e.get("founder_lane") or "—", e.get("paradigm") or "—"
+        print(f"  {(e['date'] or '          ')[:10]}  {fl[:34]:34s} × {pa[:44]}")
 
 
 if __name__ == "__main__":
