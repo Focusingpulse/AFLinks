@@ -1,5 +1,42 @@
 # Drunvalo Activity Log
 
+## 2026-09-15 00:00 UTC — AetherForce Translation QC
+
+### Task
+Scheduled cron: QC recent AFLinks translations, fix issues, update DB (every 4h)
+
+### Actions
+1. Listed translations directory via GitHub API (clone times out)
+2. Selected 5 most recent translations (2026-09-13 and 2026-09-14)
+3. Fetched each file via GitHub Contents API
+4. Performed QC checks:
+   - Markdown structure (frontmatter, headers, paragraphs) ✓
+   - Source URLs validity (HTTP 200/301) ✓
+   - Language tags correct (fr-en) ✓
+   - Untranslated passages scan ✓
+   - Duplicate check ✓
+   - Title accuracy ✓
+   - Database cross-reference ✓
+
+### Issues Found
+1. **Broken cross-reference** in `2026-09-14-radionique-machine-shelf-2026-fr-en.md`:
+   - Referenced `living-library sources/2026-09-14-scout-subtle-fr-70.md` (doesn't exist)
+   - Fixed by removing the broken reference
+   - Commit: https://github.com/Focusingpulse/AFLinks/commit/a4be8d43e47c102ad2755f5c282b512757dd12d6
+
+### Files Modified
+- `translations/2026-09-14-radionique-machine-shelf-2026-fr-en.md` (fixed broken reference)
+
+### Skipped
+- `tag_concepts.py`: Cannot execute without local clone (clone times out from sandbox)
+
+### Status
+✓ QC complete — 5 translations checked, 1 issue found and fixed
+
+---
+
+# Drunvalo Activity Log
+
 ## 2026-09-14 12:00 UTC — Village Quality Audit
 
 ### Task
