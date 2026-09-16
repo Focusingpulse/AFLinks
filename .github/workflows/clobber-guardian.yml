@@ -1,35 +1,34 @@
-# CLOBBER GUARDIAN — backs up to cron-coordination/guardians/; install to .github/workflows/
+# CLOBBER GUARDIAN — template
+# Placeholders: AFLinks, ["index.html", ".nojekyll"], 100, 463, a fleet of scraper crons (aflinks-worker-*, aflinks-sync-v2) pulls main and executes the Python in it, so a bad commit both breaks the published archive and gets run by our own agents.
 #
-# Protects the published AFLinks site from the failure mode that took main down
-# twice: 2026-09-14 (commit d2b2c7aaa, 43,916 files) and 2026-09-16 (commit
-# c99bc38, 45,328 files). In both cases a cron committed from an incomplete
-# clone, so `git add -A` staged every missing file as a deletion, and the
-# fast-forward push landed looking completely normal. GitHub Pages serves main,
-# so the site 404'd.
+# Protects this repo's published site from the mass-deletion failure mode that
+# took AFLinks main down twice (2026-09-14: 43,916 files; 2026-09-16: 45,328).
+# Mechanism: a cron commits from an incomplete clone, `git add -A` stages every
+# missing file as a deletion, and the fast-forward push looks completely normal.
+# GitHub Pages serves `main`, so the site 404s.
 #
-# HOW THIS WORKS
-# - Runs on every push to main, from any actor (human, agent, cron, other tool).
-# - Does NOT check out the repo — it is 3.3 GB and downloading it per push would
-#   be absurd. It inspects the pushed commit's ROOT tree through the API, which
-#   is a few KB.
-# - Detection: the site's marker files (index.html, .nojekyll) gone from the root
-#   OR the root entry count collapsing. A healthy main has ~460 root entries; a
-#   clobbered main had 21-29. Legitimate commits move that by a few, never by 400.
+# This repo: a fleet of scraper crons (aflinks-worker-*, aflinks-sync-v2) pulls main and executes the Python in it, so a bad commit both breaks the published archive and gets run by our own agents.
+#
+# HOW IT WORKS
+# - Runs on every push to main from any actor, plus hourly and on demand.
+# - Does NOT check out the repo. It inspects the pushed commit's ROOT tree
+#   through the API, which is a few KB.
+# - Detection: ["index.html", ".nojekyll"] gone from the root tree, OR fewer than 100
+#   root entries (this repo normally has ~463).
 # - On detection: preserve the bad commit as a backup branch, walk back to the
-#   newest commit whose root tree still has the markers, create a restore commit
-#   (tree swap parented on the bad commit — a fast-forward), update main, and
-#   open an issue explaining what happened.
-# - Push loop: commits pushed with the default GITHUB_TOKEN do NOT trigger new
+#   newest commit with markers intact, restore that tree as a normal
+#   fast-forward commit, update main, and open an issue.
+# - The issue is the ALARM: it names the author of the offending commit (which
+#   for fleet crons is the cron itself, e.g. `aflinks-cron@letta.com`) and
+#   @-mentions the owner so it lands as a notification you will actually see.
+#   That is the point — the fix is useless if you find out an hour later.
+# - Push loop: commits pushed with the default GITHUB_TOKEN do not trigger new
 #   workflow runs, so the restore cannot re-trigger this job.
 #
-# HONEST LIMIT — READ THIS
-# An in-repo guardian can be disarmed by the same commit that does the damage:
-# if a clobbering push also removes .github/workflows/, this workflow never runs
-# for that commit. That is exactly why the external half exists — the
-# `site-watchdog` cron checks the published sites every 30 minutes from outside
-# the repo and restores from the last good tree regardless. This Action is the
-# fast first responder (seconds); the cron is the durable backstop (30 min).
-# If you change this file, update the copy in cron-coordination/guardians/.
+# HONEST LIMIT: an in-repo guardian can be disarmed by the same push that does
+# the damage, if that push also deletes .github/. That is why the external
+# `site-watchdog` cron runs every 30 minutes from outside the repos. This Action
+# is the fast first responder (seconds); the cron is the durable backstop.
 
 name: Clobber Guardian
 
@@ -37,7 +36,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '17 * * * *'   # hourly safety net if a push trigger is ever missed
+    - cron: '23 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -48,30 +47,37 @@ jobs:
   guardian:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect the pushed tree, restore if the site files are gone
+      - name: Inspect the pushed tree, restore and alarm if the site files are gone
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO_NAME: ${{ github.repository }}
           SHA: ${{ github.sha }}
           ACTOR: ${{ github.actor }}
           EVENT: ${{ github.event_name }}
-          BRANCH: main
+          OWNER: ${{ github.repository_owner }}
+          AUTHOR_NAME: ${{ github.event.head_commit.author.name }}
+          AUTHOR_EMAIL: ${{ github.event.head_commit.author.email }}
+          COMMITTER_EMAIL: ${{ github.event.head_commit.committer.email }}
         run: |
           python3 - <<'PY'
           import json, os, sys, urllib.error, urllib.request
 
-          TOKEN  = os.environ["GH_TOKEN"]
-          REPO   = os.environ["GH_REPO_NAME"]
-          SHA    = os.environ["SHA"]
-          ACTOR  = os.environ.get("ACTOR", "?")
-          EVENT  = os.environ.get("EVENT", "?")
-          BRANCH = os.environ.get("BRANCH", "main")
-          DRY    = os.environ.get("GUARDIAN_DRY_RUN", "") == "1"
-          API    = f"https://api.github.com/repos/{REPO}"
+          TOKEN   = os.environ["GH_TOKEN"]
+          REPO    = os.environ["GH_REPO_NAME"]
+          SHA     = os.environ["SHA"]
+          ACTOR   = os.environ.get("ACTOR", "?")
+          EVENT   = os.environ.get("EVENT", "?")
+          OWNER   = os.environ.get("OWNER", "")
+          AUTHOR  = os.environ.get("AUTHOR_NAME", "") or "?"
+          AEMAIL  = os.environ.get("AUTHOR_EMAIL", "") or "?"
+          CEMAIL  = os.environ.get("COMMITTER_EMAIL", "") or "?"
+          BRANCH  = "main"
+          DRY     = os.environ.get("GUARDIAN_DRY_RUN", "") == "1"
+          API     = f"https://api.github.com/repos/{REPO}"
 
-          MARKERS      = ["index.html", ".nojekyll"]
-          MIN_ROOT     = 100   # healthy AFLinks main has ~460 root entries
-          MAX_WALK     = 25
+          MARKERS  = ["index.html", ".nojekyll"]
+          MIN_ROOT = 100
+          MAX_WALK = 25
 
 
           def api(path, method="GET", body=None):
@@ -102,7 +108,7 @@ jobs:
               if missing:
                   return False, f"missing {missing}"
               if len(names) < MIN_ROOT:
-                  return False, f"only {len(names)} root entries (expected >{MIN_ROOT})"
+                  return False, f"only {len(names)} root entries (floor {MIN_ROOT})"
               return True, f"{len(names)} root entries, markers present"
 
 
@@ -130,22 +136,23 @@ jobs:
               sys.exit(1)
 
           if DRY:
-              print(f"DRY RUN — would restore {BRANCH} to the tree of {good[:7]} "
-                    f"({good_tree[:7]}), back up {SHA[:7]}, and open an issue.")
+              print(f"DRY RUN — would restore {BRANCH} to the tree of {good[:7]}, "
+                    f"back up {SHA[:7]}, and open an alarm.")
               sys.exit(0)
 
           backup = f"backup/main-clobbered-{SHA[:7]}"
-          if api(f"/git/refs", "POST", {"ref": f"refs/heads/{backup}", "sha": SHA}) is None:
+          if api("/git/refs", "POST", {"ref": f"refs/heads/{backup}", "sha": SHA}) is None:
               print(f"  (backup branch {backup} may already exist — continuing)")
 
           msg = (
               f"restore: revert mass-deletion of the site files from main\n\n"
-              f"Clobber Guardian found {SHA[:7]} (pushed by {ACTOR}, event={EVENT}) with "
+              f"Clobber Guardian found {SHA[:7]} (author: {AUTHOR} <{AEMAIL}>) with "
               f"{why}. Restored the tree of {good[:7]}. The clobbered commit is preserved "
               f"at {backup}.\n\n"
-              f"This is the failure mode recorded in cron-coordination/FLEET-OPS.md "
-              f"(2026-09-14 and 2026-09-16): a commit from an incomplete clone stages every "
-              f"missing file as a deletion, and the fast-forward push looks normal."
+              f"Same failure mode as the AFLinks clobbers of 2026-09-14 and 2026-09-16 "
+              f"(see cron-coordination/FLEET-OPS.md): a commit from an incomplete clone "
+              f"stages every missing file as a deletion, and the push is a fast-forward, "
+              f"so nothing looks wrong until the site is gone."
           )
           fix = api("/git/commits", "POST",
                     {"message": msg, "tree": good_tree, "parents": [SHA]})
@@ -160,29 +167,31 @@ jobs:
 
           print(f"RESTORED {BRANCH} -> {fix['sha'][:7]}")
 
+          mention = f"@{OWNER}" if OWNER else ""
           body = "\n".join([
-              f"**A push to `{BRANCH}` deleted the site files.** The guardian restored them.",
+              f"{mention} **the site files were deleted on `{BRANCH}` and the guardian put them back.**",
               "",
-              f"- Clobbering commit: `{SHA[:7]}` (actor: `{ACTOR}`, event: `{EVENT}`)",
+              f"- **Who pushed it:** `{AUTHOR} <{AEMAIL}>` (committer: `{CEMAIL}`)",
+              f"- Clobbering commit: `{SHA[:7]}` · actor `{ACTOR}` · event `{EVENT}`",
               f"- What was wrong: {why}",
               f"- Restored to the tree of: `{good[:7]}`",
               f"- Restore commit: `{fix['sha'][:7]}`",
               f"- Clobbered commit preserved at: `{backup}`",
               "",
-              "This is the same failure mode as 2026-09-14 and 2026-09-16 (see "
-              "`cron-coordination/FLEET-OPS.md`): a commit made from an incomplete clone "
-              "stages every missing file as a deletion, and the push is a fast-forward, "
-              "so nothing looks wrong until the site is gone.",
+              "**What to do:** the author above is the job that did it. Fleet crons commit "
+              "under their own name (e.g. `aflinks-cron@letta.com` → the `aflinks-sync-v2` "
+              "schedule). Stop or fix that job so it stops committing from an incomplete "
+              "clone, then move it onto `cron-coordination/safe_commit.py`.",
               "",
-              "**Nothing is lost** — the clobbered commit is on the backup branch and the "
-              "restore is a normal commit, so the full history is intact.",
+              "Nothing is lost — the clobbered commit is on the backup branch and the "
+              "restore is an ordinary commit, so the full history is intact.",
               "",
-              "Next step: find which job pushed it and move that job onto "
-              "`cron-coordination/safe_commit.py`.",
+              "Same failure mode as 2026-09-14 and 2026-09-16 (see "
+              "`cron-coordination/FLEET-OPS.md`).",
           ])
           issue = api("/issues", "POST", {
-              "title": f"Clobber Guardian: restored {BRANCH} after {SHA[:7]} deleted the site files",
+              "title": f"ALARM — Clobber Guardian restored {BRANCH} after {SHA[:7]} deleted the site files ({AEMAIL})",
               "body": body,
           })
-          print("issue opened" if issue else "issue could not be opened")
+          print("alarm issue opened" if issue else "alarm issue could not be opened")
           PY
