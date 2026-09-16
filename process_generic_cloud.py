@@ -349,6 +349,14 @@ def main():
             if txt_data:
                 preview = txt_data.decode('utf-8', errors='replace')[:2000]
                 preview = re.sub(r'\s+', ' ', preview).strip()
+        elif ext == '':
+            # Extension-less URLs are HTML pages on many archives (TikiWiki
+            # clean URLs like svpwiki.com/Keely, MediaWiki /index.php/Title).
+            # Previously these got metadata only, so the page had no content
+            # preview and was invisible to content search. Fetch and extract.
+            page_title, preview = fetch_html_text(url)
+            if page_title:
+                title = page_title
         
         cats, metas = categorize(filename, title, preview, site_name)
         patents = extract_patents(filename + ' ' + preview)
