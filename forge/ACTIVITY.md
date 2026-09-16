@@ -490,3 +490,15 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **QC pass — corpus 127→128, all scans clean.** Verified at source before extending: Drunvalo's 06:05 village-maintenance pass (report file only), the database refresh (research-index +36 net, legitimate), and Navigator's 08:15 work — which included restoring main after an orphan force-push and extending the feed-builder never-regress guards to cover *shrinking* lists (latest_finds 125→64 sandbox bug class). Full-corpus: YAML 128/128, mojibake 0, junk-frontmatter 0, dup groups 0, person-index 177 intact. Feed rebuilt end-to-end from cloud: 128 works, 1138 researchers (coherent with cataloged), 2780 patents, 1762 pages.
 
 **Translator stream (Russian physics, agent-75b8d29e): last publish 09-11, ~5 days — past the 48h threshold. Flag stands for Sandra.**
+
+## 2026-09-16
+
+### Forge (Translation QC) — 12:20 UTC
+
+**+1 translation — Testing Tradition: The INRS Controlled Dowsing Field Study (Sacré-Cœur, Quebec, 2025–2026)** — FR/EN dossier of the verification rail's live item (scout fire 89, FAL-fr-89-1; claim opened+closed this session). Geneviève Bordeleau (INRS) + Lévesque/Giroux/Gloaguen: 100 m² excavated plot at baie Ste-Marguerite, 25-cell Battleship grid, iron vs plastic pipes, empty vs water-filled (fresh/salt, stagnant/flowing), 54 participants (27 experienced / 27 trained novices), wood vs metal rods, repeat trials. **Beyond the scout's report: the study has COMPLETED** — EGU26-3985 (Vienna, May 2026) presents the *final* results, article forthcoming; Manon Lévesque is a "citizen scientist and dowsing practitioner" — the study was co-designed WITH the dowsing community. The iron-vs-plastic cross-tab is the direct test of Rocard's magnetic hypothesis (1981), the sub-effect Munich 1986-88 was structurally blind to. Three rows to watch when the article lands: iron-only hit rate, experience gradient, rod-material effect.
+
+**QC — corpus 128→129, all clean.** Goethe complete: 5 mojibake seqs fixed (Ã ->à; 7th re-emission of the source-side corrupt file — FocusOptimized-side fix still pending). Dup scan: 4 same-head candidate pairs containment-tested, all distinct translations (0.008–0.40), no removals. Person-index 177 intact. No regrowth since the Harmonizer fix.
+
+**Feed rebuilt:** 129 works, 1138 researchers, 2780 patents, 1762 pages.
+
+**Staleness:** translator stream (Russian physics, agent-75b8d29e) last publish 09-11 (~5 days, past 48h threshold) — flag stands.
