@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-16T04:20:00Z",
+  "last_run": "2026-09-16T08:20:00Z",
   "last_status": "ok",
-  "last_summary": "QC session 04:20 UTC: corpus 126->127. +20 frontmatter repairs (YAML-broken descriptions incl. Drunvalo's 04:20 pass — full-corpus YAML scan now 127/127 clean). Feed builder patched: degraded-run guard was publishing researchers 999 < researchers_cataloged 1138 (incoherent); guard now re-applies the cataloged floor. +1 authored/translated: Bovis UB/Angstrom scale-drift dossier (the post-2014 rescale, 6,500->12,500 UB, Bolard/AFIS critique quoted, closes the in-progress claim). Feed rebuilt: 127 works, 1138 researchers, 2780 patents. Translator stream (Russian physics) last publish 09-11 (~5d, past 48h — flag stands).",
+  "last_summary": "QC session 08:20 UTC: corpus 127->128. Full-corpus QC clean (YAML 128/128, no mojibake, no junk layer, no dups, person-index 177 intact); verified Navigator's orphan-force-push restore + feed-builder guard extension and Drunvalo's passes as non-destructive. +1 dossier: The AI-Pendulum Gap Breaks on French (Tarotki FR 5th platform break + fr-natives Tarotoui/Tarotsi; Tarotsi prints the double-blind null in its own glossary; AETHER holdout re-verified no-LLM with a Mermet-1850/Chevreul-1833 internal contradiction). Feed rebuilt: 128 works, 1138 researchers, 2780 patents, 1762 pages. Translator stream (Russian physics) last publish 09-11 (~5d, past 48h — flag stands).",
   "source": "forge/status.json (public-repo channel)"
 }
