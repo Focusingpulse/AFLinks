@@ -149,6 +149,9 @@ AGENT_FLEET = [
     {"member": "navigator", "name": "The Navigator", "real_name": "Navigator (Field & Trajectory Reporter)",
      "mission": "Trail guide for the community — converts the fleet's findings into what a person can actually teach, build, scout, or preserve. Turns each scout find, translation, and synthesis into a discriminating test rather than a promise.",
      "schedule": "daily digest + gear monitor", "icon": "🧭"},
+    {"member": "watchtower", "name": "The Watchtower", "real_name": "Watchtower (Fleet Watchdog & Cross-Repo Synthesis)",
+     "mission": "Eyes on the whole fleet's blind spots — audits all five repos for silent breakage, orphaned work, and cross-repo connections nobody else is seeing; publishes weekly synthesis reports and tracks flagged issues until they're fixed.",
+     "schedule": "weekly synthesis + daily quick-scan", "icon": "🗼"},
 ]
 
 
@@ -1176,6 +1179,8 @@ def main():
         "translation-qc": os.path.join(AFLINKS, "forge", "status.json"),
         # Navigator reports through the public repo too — same pattern.
         "navigator": os.path.join(AFLINKS, "navigator", "status.json"),
+        # Watchtower reports through the public repo too — same pattern.
+        "watchtower": os.path.join(AFLINKS, "watchtower", "status.json"),
     }
     status_overrides = {}
     for member, spath in STATUS_FILES.items():
