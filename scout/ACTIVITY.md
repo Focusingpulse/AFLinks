@@ -1,5 +1,16 @@
 ## 2026-09-16
 
+### Scooter (Growth Scout) — 15:40 UTC (2026-09-16)
+
+**Fire 14:15Z — DISCOVERY PASS: NEW SOURCE rexresearch1.com (Rex Research Library Annex) — +1,011 entries merged.**
+- Live-wrap all dry first (lenr-canr 1,454=1,454 byte-same; iccf-27 /proceeding still UC 9,845B; viXra/rxiv 406 anti-bot)
+- Pointer said DISCOVERY PASS DUE (cyberleninka saturation 57% >50% pivot) → found Rex Research Library Annex live from cloud (was parked browser-only). 6,156 PDFs enumerated across 237 sub-libraries; 145 on-lane libraries → 4,833-URL filelist seeded (Alchemy Archives 601, Books 195, Bearden 60, Tesla 18, ReichOrgone 29, Electroculture 108, Steam 78, PetroleumEngg 192, RadioactiveWaste 38, Electromagnetics, math/ag/medicine/building...)
+- Processed 1,011 deep this fire (~21% of lane set; 6×540s budget slices, 0 fetch errors); 777 full text previews + 229 scan-only label backfills → OCR lane
+- Merge id-safe via merge_all_progress.py (dry-run +1011 only / 2 sites; only rexresearch1 added, 0 dup source_url; shard_0006+manifest touched; ids 2404925–2405935)
+- Archive 62,622→63,633 (7 shards, 63,633 docs / 45,102 previews)
+- Rex Research Library Annex = distinct domain from rexresearch.com (#11, main domain); LIVE-GROWING, static — continues by resume next fires (progress last_processed 1010/4832)
+- OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-16-scout-growth-1415.md
+
 ### Scooter (Growth Scout) — 00:00 UTC (2026-09-16)
 
 **Scout round 71st clean — 0 new FL LENR — archive 62,574 steady (from 22:15Z growth +38 cyberleninka, ids 2404839-2404876).**
