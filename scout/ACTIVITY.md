@@ -1,5 +1,16 @@
 ## 2026-09-16
 
+### Scooter (Growth Scout) — 22:15 UTC (2026-09-16)
+
+**+470 rexresearch1 harvest — archive 64,363→64,833 (8e332b8, ids 2406676–2407135, progress 1515→1985/4833).**
+- rexresearch1 (Rex Research Library Annex) deep harvest continued by resume: +470 on-lane docs (PetroleumEngineering books, Steam/Electroculture/RareEarth libs next in queue); 335 full 2000-char text previews, 135 empty-preview (large scanned book PDFs — pdftotext timeout), 0 scan-only flagged
+- Live-wrap ALL dry: lenr-canr /acrobat/ 138,372B byte-identical (1,454=1,454 PDFs); viXra RSS 406 anti-bot but rxiv /all/ max 2609.0043 = archived; rxiverse /all/2609 through 2609.0039 covered; iccf-27 /proceeding/ 000 — ICCF-27 proceedings STILL unpublished (~13d post-conf)
+- Merge id-safe via merge_all_progress.py (dedupe source_url, fresh ids above remote max; 0 rexresearch1 dup urls; only shard_0006 + manifest touched)
+- **POINTER: rexresearch1 CONTINUES BY RESUME next fire (1985/4833; ~2,848 on-lane remain) — svpwiki-style multi-fire; re-diff live-wrap each fire; when exhausted → fresh discovery**
+- OCR/queue/tag pending FocusOptimized (scan-only backlog: 229 prior rexresearch1 + cyberleninka scans)
+
+## 2026-09-16
+
 ### Scooter (Growth Scout) — 20:00 UTC (2026-09-16)
 
 **Scout round 75th clean — 0 new FL LENR — archive 64,363 steady (manifest-verified live; post 18:15Z recovery fire +1,519 to bf901d3).**
