@@ -1581,16 +1581,25 @@ def main():
         print(f"  WARN: daily deltas skipped: {exc}", flush=True)
         feed["daily"] = {"as_of": None, "baseline": None, "deltas": {}}
 
-    # Never-regress guards for list sections: a degraded run (LL missing)
-    # computes empty lists; inherit the previous published values instead of
-    # emptying live sections of the page.
+    # Never-regress guards for list sections: these are all read from the shared
+    # living-library projection (or other machine-local sources). On a machine
+    # where that projection is missing — a fresh clone, a sandbox, a worker
+    # agent — they compute *shorter* lists, which silently shrinks live sections
+    # of the page (the same bug class as the Replication Yard emptying). A
+    # degraded run must never publish a smaller list than the previous feed:
+    # inherit the previous published value whenever the new one is empty OR
+    # shorter. (2026-09-16: Navigator saw latest_finds shrink 125 -> 64 on a
+    # sandbox rebuild with no living-library attached.)
     if isinstance(prev_feed, dict):
         for _k in ("latest_finds", "domains", "top_researchers",
                    "declassified", "agents", "activity_log"):
-            if not feed.get(_k) and prev_feed.get(_k):
-                print(f"WARN: feed.{_k} computed empty; keeping previous "
-                      f"({len(prev_feed[_k])} items, degraded run guard)", flush=True)
-                feed[_k] = prev_feed[_k]
+            _old = prev_feed.get(_k)
+            _new = feed.get(_k)
+            if _old and (not _new or len(_new) < len(_old)):
+                why = "empty" if not _new else f"shrank {len(_new)} < {len(_old)}"
+                print(f"WARN: feed.{_k} computed {why}; keeping previous "
+                      f"({len(_old)} items, degraded run guard)", flush=True)
+                feed[_k] = _old
 
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:
