@@ -60,6 +60,12 @@ docs/
 !PARALLEL_SCRAPE.md
 !link_audit_report.md
 
+# Exception: Navigator (Field & Trajectory Reporter) fleet/activity + digests
+!navigator/
+!navigator/**
+!navigator/**/*.md
+!navigator/**/*.json
+
 # Exceptions: scout/forge reporting channel + contract doc
 !scout/
 !scout/**
