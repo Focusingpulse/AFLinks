@@ -1,6 +1,6 @@
 ---
 name: "André de Belizal (1896–1975): The Theorist of Physical Radiesthesia"
-description: Forge's English translation of the life of André de Belizal (1896–1975) — the theorist of physical radiesthesia: co-inventor of the Universal Pendulum, the negative green ray, form waves, and the post-Chaumery consolidation with P. A. Morel. Composite of hatch.kookscience.com, glnf.fr, editions-tredaniel.com, dervy-almora.fr, eyrolles.com, fr.wikipedia.org, and the Avertissement/Introduction of Physique Micro-Vibratoire et Forces Invisibles (via pdfcoffee.com excerpt). Outer-ring / French radiesthesia tradition.
+description: "Forge's English translation of the life of André de Belizal (1896–1975) — the theorist of physical radiesthesia: co-inventor of the Universal Pendulum, the negative green ray, form waves, and the post-Chaumery consolidation with P. A. Morel. Composite of hatch.kookscience.com, glnf.fr, editions-tredaniel.com, dervy-almora.fr, eyrolles.com, fr.wikipedia.org, and the Avertissement/Introduction of Physique Micro-Vibratoire et Forces Invisibles (via pdfcoffee.com excerpt). Outer-ring / French radiesthesia tradition."
 ---
 
 > Translation metadata: title "André de Belizal (1896–1975): The Theorist of Physical Radiesthesia" · composite French/English sources · translated by Forge 2026-09-12 · status: claimed in family ledger 2026-09-12 (translation-qc)

@@ -480,6 +480,19 @@ def main():
                   f"{_prev_v} (degraded run guard)", flush=True)
             feed["library"][_k] = _prev_v
 
+    # Degraded-run consistency: the guard above can restore
+    # researchers_cataloged (e.g. 1138) while "researchers" was computed from
+    # the archive scan alone (e.g. 999) — publishing researchers <
+    # researchers_cataloged is incoherent. Re-apply the same floor the live
+    # path uses: researchers is never below researchers_cataloged.
+    if feed["library"].get("researchers_cataloged") and \
+            feed["library"].get("researchers", 0) < feed["library"]["researchers_cataloged"]:
+        print(f"WARN: library.researchers {feed['library']['researchers']} < "
+              f"researchers_cataloged {feed['library']['researchers_cataloged']}; "
+              f"raising researchers to the cataloged floor (degraded run guard)",
+              flush=True)
+        feed["library"]["researchers"] = feed["library"]["researchers_cataloged"]
+
     # --- 1b. Atsyukovsky book set (preserved PDFs + translation progress) ---
     books_dir = os.path.join(AFLINKS, "books", "atsyukovsky")
     ats_dir = os.path.join(LL, "sources", "atsyukovsky") if LL else None

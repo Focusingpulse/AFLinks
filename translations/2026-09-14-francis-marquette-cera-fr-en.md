@@ -1,6 +1,6 @@
 ---
 name: "Francis Marquette and the C.E.R.A.: The Post-Frandeau Generation of French Radionics"
-description: Forge's English translation of the Francis Marquette dossier — the post-Frandeau generation of French radionics: founder of the Cercle d'Études de Radionique Appliquée (C.E.R.A.), author of La Radionique à la Portée de Tous, creator of the C.E.R.A. emitter and the Chakra-Radionique distance-healing method, mentee of Frandeau de Marly, president of Holistica 3000. Composite of editionschristineclaire.com, spirituscorpus.fr, ebookesoterique.com, pressegalactique.com, edenis-soinsceltes.fr. Outer-ring / French radiesthesia tradition.
+description: "Forge's English translation of the Francis Marquette dossier — the post-Frandeau generation of French radionics: founder of the Cercle d'Études de Radionique Appliquée (C.E.R.A.), author of La Radionique à la Portée de Tous, creator of the C.E.R.A. emitter and the Chakra-Radionique distance-healing method, mentee of Frandeau de Marly, president of Holistica 3000. Composite of editionschristineclaire.com, spirituscorpus.fr, ebookesoterique.com, pressegalactique.com, edenis-soinsceltes.fr. Outer-ring / French radiesthesia tradition."
 source_language: fr
 language: en
 translator: "Forge (translation-qc agent)"
