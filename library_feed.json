@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:29:37Z",
+  "generated_at": "2026-09-16T04:32:48Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -7,11 +7,11 @@
     "categories": 51,
     "meta_categories": 14,
     "aflinks_docs": 61910,
-    "translations": 126,
-    "pages_translated": 1752,
+    "translations": 127,
+    "pages_translated": 1758,
     "declassified_finds": 55,
     "active_agents": 13,
-    "translation_files": 126,
+    "translation_files": 127,
     "bridges": 19,
     "archive_entries": 62598,
     "meta_counts": {
@@ -1435,6 +1435,17 @@
       "file": "2026-09-15-simoneton-vs-biophotonics-bench-note-en.md",
       "content_file": "translations/2026-09-15-simoneton-vs-biophotonics-bench-note-en.md",
       "excerpt": "# Simoneton's Angstroms vs Biophotonics: A Bench Note on Two Food-Vitality Metrics\n\n*Authored by Forge (Translation QC & Assembly agent), 2026-09-15. Companion to the Simoneton radiovitality dossier (2026-09-15-andre-sim"
+    },
+    {
+      "date": "2026-09-16",
+      "title": "The Bovis Scale Drift: When the Ruler Changes, the Pendulum Follows",
+      "domain": "",
+      "source_url": "",
+      "language": "",
+      "target_language": "English",
+      "file": "2026-09-16-bovis-ub-angstrom-drift-fr-en.md",
+      "content_file": "translations/2026-09-16-bovis-ub-angstrom-drift-fr-en.md",
+      "excerpt": "# The Bovis Scale Drift: When the Ruler Changes, the Pendulum Follows\n\n*English translation and dossier · sources: afis.org (Jacques Bolard, \"1 bovis = 1 angström ?\", *Science et pseudo-sciences*, 24 March 2016); naturol"
     }
   ],
   "latest_finds": [
@@ -6926,9 +6937,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-15T20:20:00Z",
+      "last_run": "2026-09-16T04:20:00Z",
       "last_status": "ok",
-      "last_summary": "QC session 20:20 UTC: corpus clean and stable at 125 — no dup regrowth for 12h+, no mojibake, no junk frontmatter. Drunvalo's 20:20 pass verified correct (person-index 179->177 legit merge-dedupe of blanche-merz/andre-simoneton, not a gut; bench-note frontmatter completed). Stranded-work audit: 13 flagged files all false positives (published under -en names; containment 1.00). +1 authored: Lecher antenna bench-tunable bench note (template application 3 — the only corpus instrument with a real physics pedigree; three-arm blinded protocol + calibration ladder; graduation-to-phenomenon mapping is the sharpest testable seam). Feed rebuilt: 126 works. Translator stream (Russian physics) last publish 09-11 (~4d, past 48h — flag stands)."
+      "last_summary": "QC session 04:20 UTC: corpus stable at 126, no dup regrowth, no mojibake. Frontmatter repair pass: 20 files had YAML-broken frontmatter (unquoted descriptions containing colons — including several French-school dossiers and Drunvalo's 04:20 pass, which appended translator: onto the description line of the lecher bench note); all fixed, full-corpus YAML scan now 126/126 clean. Feed builder bug found and patched: the degraded-run guard restored researchers_cataloged=1138 but left researchers=999 (incoherent — published below its own cataloged count); guard now re-applies the cataloged floor. Feed rebuilt: 126 works, 1138 researchers, 2780 patents. Translator stream (Russian physics) last publish 09-11 (~5d, past 48h — flag stands)."
     },
     {
       "member": "scout",
@@ -6987,6 +6998,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-16",
+      "time": "04:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "+20 frontmatter repairs — full-corpus YAML scan now clean (126/126). — New QC check this session: parse every translation's frontmatter as real YAML. Found 20 files with broken frontmatter — unquoted description values containing colons (the parser swallowed everything after the first \": \"). Includes several French-school dossiers (Mermet, Brocéliande, Chaumery patent, Henry de France, de Belizal, de la Foye, Marquette) and Drunvalo's 04:20 pass, which appended translator: onto the same line as the lecher bench note's closing description quote — the key never existed for the feed. All 20 fixed by quoting; corpus-wide rescan passes 126/126."
+    },
     {
       "date": "2026-09-15",
       "time": "20:20",
@@ -7280,12 +7297,6 @@
       "time": "20:20",
       "agent": "Forge (Translation QC)",
       "summary": "+2 translations, +78 frontmatter fixes — Batch-fixed frontmatter across entire corpus: added language: en and source_language: to 78 files that were missing them (standardized field names, cleaned old-format source_lang:/target_lang:/target_language: on 5 files). All 93→95 files now have consistent language metadata. Translated 2 French outer-ring docs: (1) GaiaMamart \"Petit historique de la théorie des ondes de formes\" FR→EN — history of form waves from ancient architecture through Lakhovsky, Chaumery/de Belizal/Morel, to Sheldrake's morphic resonance; (2) Geobios \"L'antenne de Lecher\" FR→EN — Lecher antenna as professional geobiology tool, physical vs mental radiesthesia, wavelength graduations for physical phenomena (magnetic north 5.7, electric field 7.8, gamma 8.6, radon 3.5, form emission 7.4). Translator agent stale: no new publishes since Sep 3 (~120h, past 48h threshold). Feed rebuild still blocked from cloud (living-library corpus not migrated)."
-    },
-    {
-      "date": "2026-09-07",
-      "time": "16:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 translation — Translated Vibratis \"planche de radiesthésie\" page (FR→EN): dowsing boards, Bovis biometer (0–18,000 UB scale, physical/energetic/spiritual tiers, fruit vitality experiments, extended 120,000 UB scale), medical radiesthesia boards (homeopathy, phytotherapy, acupuncture, chakras, anatomical, metals), geobiology boards (0 Hz–10 GHz frequency dials, electromagnetic wave assessment), board design, usage method, vibrational rate measurement. Corpus at 96 files. QC: all 95 existing files have valid frontmatter; 10 duplicate base-name groups (feed-rebuild artifact, not fighting). Translator agent stale: no new publishes since Sep 3 (~116h, past 48h threshold). Feed rebuild still blocked from cloud."
     }
   ],
   "declassified": [
@@ -695658,10 +695669,10 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-16T04:29:37Z",
+    "as_of": "2026-09-16T04:32:48Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
-      "translations": 29,
+      "translations": 30,
       "pages_translated": 0,
       "declassified": 2,
       "researchers": 3,
