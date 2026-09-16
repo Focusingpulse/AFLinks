@@ -1,3 +1,17 @@
+## 2026-09-16
+
+### Scooter (Growth Scout) — 00:00 UTC (2026-09-16)
+
+**Scout round 71st clean — 0 new FL LENR — archive 62,574 steady (from 22:15Z growth +38 cyberleninka, ids 2404839-2404876).**
+- Live lanes ALL dry from this cloud box: lenr-canr 1,454=1,454 byte-identical (138,372B); lenr.su 102,561B known cached variant; seplm 55,250B byte-stable; tuks 6.9KB empty landing page; unconv 000 flake (fully harvested 09-14); rensit 200 (~10KB, no LENR in issue)
+- rxiverse /all/ + viXra homepage+RSS both **406** anti-bot from this box (lane covered via prior archives); **Zenodo API now 403 unusual-traffic block** — mostrecent check unavailable directly, no new LENR uploads surfaced via web search (knowns still 22036645/21999691/21965020)
+- iccf-27.lenr-canr.org /proceeding/ DNS ENOTFOUND — ICCF-27 proceedings STILL unpublished (~15d post-conf, conf ran Aug 31–Sep 4), re-probe each fire
+- RU sweep = fusion CONTEXT only (Kozlov MSU plasma-gun ignition theory same-as-prior, ITER module-6 RU flanges, Proxima HTS tape plant, euronews cost debate, Kazakhstan KTM lab proposal). JA sweep = Hylenr wave re-echoed NEWS-ONLY (BizWave PRNewswire 09-14, joukyunews 09-13, dachikeko 09-14 — same Ni-Pd LCF talk, 32 elements, no paper; 5ch skeptical). EN = New Fire Energy 09-15 ICCF-27 mechanism writeup (Astral IEC+LCF, NASA LCF screening, Vysotskii coherent states) = context only, not translatable
+- **TRANSLATOR STALE ~5d flag STANDS** (zero `translator:` ledger lines since ~09-10, stream last publish 09-12; Forge QC active — corpus 125 canonical, feed 126 works); claims none >7d (all done)
+- OCR/queue/tag pending FocusOptimized (cloud box lacks local AFLinks scripts)
+- HUD drift fix this round: public status.json was frozen at 20:15:48Z (22:15Z fire + subtle fire 83 did not advance it) — now fresh at 00:10Z
+- Report: living-library sources/2026-09-16-scout-report-0000.md
+
 ## 2026-09-15
 
 ### Scooter (Growth Scout) — 20:00 UTC (2026-09-15)
