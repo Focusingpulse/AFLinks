@@ -78,6 +78,17 @@ def find_living_library():
         "/root/workspace/.letta/agents/agent-b73ac550-5671-471e-b3e1-721f948ea063/living-library",
         "/root/workspace/living-library",
     ]
+    # Canonical cloud-sandbox pattern (any agent id): the shared repos are
+    # projected at <agents-root>/<agent>/memory/../living-library.
+    try:
+        agents_root = "/root/workspace/.letta/agents"
+        if os.path.isdir(agents_root):
+            for a in os.listdir(agents_root):
+                cand = os.path.join(agents_root, a, "memory", "..", "living-library")
+                if os.path.isdir(cand):
+                    candidates.append(os.path.normpath(cand))
+    except Exception:
+        pass
     # Portable fallback: any local agent projection of the shared living-library
     # repo (e.g. on a desktop machine where the fleet's shared repos are mounted
     # under other agents' directories).
@@ -455,6 +466,19 @@ def main():
         "declassified_finds": 0,
         "active_agents": 0,
     }
+
+    # Never-regress guard: a degraded run (LL database not found) computes
+    # zeros for these counts. The previous feed's published values are the
+    # floor — a rebuild must never zero out a live counter (2026-09-15
+    # incident: "zero meta-categories and zero categories" on the HUD).
+    _prev_lib = prev_feed.get("library", {}) if isinstance(prev_feed, dict) else {}
+    for _k in ("researchers", "researchers_cataloged", "patents", "categories",
+               "meta_categories", "aflinks_docs"):
+        _prev_v = _prev_lib.get(_k)
+        if not feed["library"].get(_k) and _prev_v:
+            print(f"WARN: library.{_k} computed empty; keeping previous value "
+                  f"{_prev_v} (degraded run guard)", flush=True)
+            feed["library"][_k] = _prev_v
 
     # --- 1b. Atsyukovsky book set (preserved PDFs + translation progress) ---
     books_dir = os.path.join(AFLINKS, "books", "atsyukovsky")
@@ -1456,6 +1480,17 @@ def main():
                 "excerpt": (body.strip()[:200] or ""),
             })
     practical["queue_url"] = f"synthesis/quest-queue/"
+    # Never-regress guard: if every source folder was missing this run
+    # (fresh clone, detached shared memory), inherit the previous feed's
+    # Yard instead of publishing an empty pavilion.
+    _prev_prac = prev_feed.get("practical") if isinstance(prev_feed, dict) else None
+    if _prev_prac and not (practical["quests"] or practical["dossiers"]
+                           or practical["validations"]):
+        if _prev_prac.get("quests") or _prev_prac.get("dossiers") \
+                or _prev_prac.get("validations"):
+            print("WARN: Replication Yard computed empty; keeping previous "
+                  "feed's Yard (degraded run guard)", flush=True)
+            practical = _prev_prac
     feed["practical"] = practical
     feed["library"]["practical_quests"] = len(practical["quests"])
     feed["library"]["replication_dossiers"] = len(practical["dossiers"])
@@ -1532,6 +1567,17 @@ def main():
     except Exception as exc:
         print(f"  WARN: daily deltas skipped: {exc}", flush=True)
         feed["daily"] = {"as_of": None, "baseline": None, "deltas": {}}
+
+    # Never-regress guards for list sections: a degraded run (LL missing)
+    # computes empty lists; inherit the previous published values instead of
+    # emptying live sections of the page.
+    if isinstance(prev_feed, dict):
+        for _k in ("latest_finds", "domains", "top_researchers",
+                   "declassified", "agents", "activity_log"):
+            if not feed.get(_k) and prev_feed.get(_k):
+                print(f"WARN: feed.{_k} computed empty; keeping previous "
+                      f"({len(prev_feed[_k])} items, degraded run guard)", flush=True)
+                feed[_k] = prev_feed[_k]
 
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:
