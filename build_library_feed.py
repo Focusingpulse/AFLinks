@@ -328,6 +328,62 @@ def _norm_key(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+# ── Translation metadata quality guards (2026-09-16) ────────────────────────
+# living-library/synthesis and translations/ frontmatter is normalized by a
+# shared-memory schema pass ("Normalize all shared-memory md frontmatter to
+# memfs schema", e81e4a8) which rewrites `name` to either a bare filename slug
+# or "Translation: <title truncated with …>", and `description` to the literal
+# string "Translation document.". A blind mirror of those copies degrades the
+# published site's translation titles, and some translator output carries
+# mis-encoded (mojibake) bodies. The published copy is what readers are served,
+# so the builder must not clobber a good copy with a worse one — the same
+# never-regress principle as the Yard and Book5 guards above.
+_SLUG_NAME_RX = re.compile(r"^\d{4}-\d{2}-\d{2}-[a-z0-9\-_]+$", re.I)
+_SLUG_TITLE_RX = re.compile(r"^(19|20)\d{2}-\d{2}-\d{2}[-_][\w\-]+$")
+_MOJIBAKE_SEQS = ("â€", "Ã¼", "Ã©", "Ã¶", "Ã¤", "Ã ", "Â ")
+
+
+def _frontmatter_degraded(meta):
+    """True when a translation's frontmatter looks machine-generated, not authored."""
+    name = (meta.get("name") or "").strip()
+    desc = (meta.get("description") or "").strip()
+    if not name:
+        return True
+    if _SLUG_NAME_RX.match(name):
+        return True
+    if name.startswith("Translation:") and name.endswith("…"):
+        return True
+    if desc in ("", "Translation document."):
+        return True
+    return False
+
+
+def _has_mojibake(text):
+    """True when text carries classic double-encoded UTF-8 sequences."""
+    return any(seq in (text or "") for seq in _MOJIBAKE_SEQS)
+
+
+def _is_slug_title(title):
+    """True when a title looks machine-generated (filename slug) rather than authored.
+
+    Covers the shapes the shared-memory frontmatter normalizer produces: a bare
+    date-prefixed filename slug (with or without hyphens), a name truncated with
+    a trailing ellipsis, or a Title-Cased filename-derived phrase.
+    """
+    t = (title or "").strip()
+    if not t:
+        return True
+    if t.endswith("…") or t.endswith("..."):
+        return True
+    if _SLUG_TITLE_RX.match(t):
+        return True
+    words = t.split()
+    if (len(words) >= 3 and all(w[:1].isupper() for w in words)
+            and not re.search(r"[,:;()—–]", t)):
+        return True
+    return False
+
+
 LANG_NAMES = {
     "fr": "French", "de": "German", "it": "Italian", "ru": "Russian",
     "es": "Spanish", "el": "Greek", "pt": "Portuguese", "pl": "Polish",
@@ -637,6 +693,14 @@ def main():
     translations_outdir = os.path.join(AFLINKS, "translations")
     translation_works = []
     translation_files = 0
+    # Previously published titles keyed by filename — used to keep an authored
+    # title when the shared frontmatter has been flattened to a slug (2026-09-16).
+    prev_trans_titles = {}
+    if isinstance(prev_feed, dict):
+        for _t in prev_feed.get("latest_translations") or []:
+            if isinstance(_t, dict) and _t.get("file"):
+                prev_trans_titles[_t["file"]] = _t.get("title") or ""
+    translations_skipped = 0
     pages_translated = book5_pages
     if tdir and os.path.isdir(tdir):
         os.makedirs(translations_outdir, exist_ok=True)
@@ -697,10 +761,24 @@ def main():
                 base = re.sub(r"\.md$", "", base)
                 base = re.sub(r"[\s_-]+(fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)$", "", base, flags=re.I)
                 title_clean = re.sub(r"[-_]+", " ", base).strip().title()
+            # Keep the previously published authored title when the shared
+            # frontmatter has flattened this file's name into a bare filename
+            # slug (the memfs-normalization pass). Never-regress, 2026-09-16.
+            _prev_title = prev_trans_titles.get(fname) or ""
+            if _is_slug_title(title_clean) and _prev_title \
+                    and not _is_slug_title(_prev_title):
+                title_clean = _prev_title
             # Copy the newest revision into the site repo so the page can serve it
+            # — but never clobber an existing published copy with a worse source
+            # (degraded frontmatter or a mojibake body). 2026-09-16.
+            dst = os.path.join(translations_outdir, fname)
             try:
-                import shutil
-                shutil.copy2(path, os.path.join(translations_outdir, fname))
+                if os.path.exists(dst) and (_frontmatter_degraded(meta)
+                                            or _has_mojibake(body)):
+                    translations_skipped += 1
+                else:
+                    import shutil
+                    shutil.copy2(path, dst)
             except Exception as e:
                 print(f"  WARN: could not copy translation {fname}: {e}", flush=True)
             translation_works.append({
@@ -1412,10 +1490,24 @@ def main():
         dossiers and validations went to [] even though the files sit right
         here in AFLinks. A rebuild must never regress the Yard to empty just
         because a shared projection is missing. Returns (path, from_shared).
+
+        2026-09-16: the shared folder being *present* is not enough — it can
+        exist while carrying no records (e.g. living-library/synthesis/
+        validations/ holds only README.md + quarantine/ after submissions were
+        routed to human review, while the published Replication Watch records
+        live in this repo). Preferring an empty shared folder blanked the
+        published Yard. So prefer shared only when it actually has a non-README
+        .md record; otherwise fall back to this repo's copy.
         """
+        def _has_records(d):
+            if not os.path.isdir(d):
+                return False
+            return any(os.path.basename(p).lower() != "readme.md"
+                       for p in glob.glob(os.path.join(d, "*.md")))
+
         if LL:
             shared = os.path.join(LL, "synthesis", sub)
-            if os.path.isdir(shared):
+            if _has_records(shared):
                 return shared, True
         return os.path.join(yard_outdir, sub), False
 
