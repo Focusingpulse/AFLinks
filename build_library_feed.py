@@ -146,6 +146,9 @@ AGENT_FLEET = [
     {"member": "drunvalo", "name": "The Pattern Keeper", "real_name": "Drunvalo",
      "mission": "Wisdom council and quality gate of the Living Library — keeps the Village growing, audits translations and data integrity, scouts the far corners of the web, weaves cross-domain synthesis, and keeps the archive's pattern true.",
      "schedule": "4h QC · 6h synthesis · 8h village growth · 12h scout/audit · daily refresh (cloud)", "icon": "🪷"},
+    {"member": "navigator", "name": "The Navigator", "real_name": "Navigator (Field & Trajectory Reporter)",
+     "mission": "Trail guide for the community — converts the fleet's findings into what a person can actually teach, build, scout, or preserve. Turns each scout find, translation, and synthesis into a discriminating test rather than a promise.",
+     "schedule": "daily digest + gear monitor", "icon": "🧭"},
 ]
 
 
@@ -1171,6 +1174,8 @@ def main():
         # drunvalo: cron writes scout/status.json + forge/status.json here.
         "scout": os.path.join(AFLINKS, "scout", "status.json"),
         "translation-qc": os.path.join(AFLINKS, "forge", "status.json"),
+        # Navigator reports through the public repo too — same pattern.
+        "navigator": os.path.join(AFLINKS, "navigator", "status.json"),
     }
     status_overrides = {}
     for member, spath in STATUS_FILES.items():
@@ -1213,6 +1218,7 @@ def main():
     local_activity += parse_activity_log(os.path.join(AFLINKS, "synthesist", "ACTIVITY.md"))
     local_activity += parse_activity_log(os.path.join(AFLINKS, "scout", "ACTIVITY.md"))
     local_activity += parse_activity_log(os.path.join(AFLINKS, "forge", "ACTIVITY.md"))
+    local_activity += parse_activity_log(os.path.join(AFLINKS, "navigator", "ACTIVITY.md"))
     if local_activity:
         # Merge dedupe: keep living-library entries, prepend local agent entries.
         merged = local_activity + [
