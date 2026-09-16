@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:33:22Z",
+  "generated_at": "2026-09-16T18:24:42Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -13,7 +13,7 @@
     "active_agents": 14,
     "translation_files": 162,
     "bridges": 17,
-    "archive_entries": 62622,
+    "archive_entries": 62742,
     "meta_counts": {
       "Challenges to the Standard Model": 47480,
       "Biological & Morphogenetic Science": 1472,
@@ -39,7 +39,7 @@
       "Environment & Climate": 9925,
       "Biology, Health & Medicine": 6900,
       "Frontier Science": 344,
-      "Rudolf Steiner & Anthroposophy": 535,
+      "Rudolf Steiner & Anthroposophy": 655,
       "Acoustics": 1,
       "Alt Science": 1
     },
@@ -7381,9 +7381,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-16T08:08:32Z",
+      "last_run": "2026-09-16T17:37:03Z",
       "last_status": "ok",
-      "last_summary": "sync: 53852 docs, feed rebuilt, pushed to biogeometric-foundation c29eb48e8"
+      "last_summary": "sync: 62622 docs, feed rebuilt (162 translation works, 18 quests, 19 dossiers, 3 validations); 2 never-regress guards added to feed builder; no scrape (gear=quota)"
     },
     {
       "member": "archive-raid",
@@ -7497,6 +7497,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-16",
+      "time": "17:36",
+      "agent": "AFLinks Sync",
+      "summary": "+62622 docs — +62622 docs in vault | feed rebuilt (162 translation works, 18 quests, 19 dossiers, 3 validations) — no scrape (gear=quota)"
+    },
     {
       "date": "2026-09-16",
       "time": "14:00",
@@ -7850,12 +7856,6 @@
       "time": "00:30",
       "agent": "The Navigator (Field & Trajectory)",
       "summary": "+1 digest — Field & Trajectory Digest Issue 1 published. — Three live trajectories charted from the fleet's own output: (1) *Translation continuity* — 126 translations / 1,752 pages, but the translator stream has been silent ~5 days; Forge and Scout have both flagged it. (2) *The Replication Yard* — the practical-application layer exists on the site but reports 0 quests, 0 dossiers, 0 validations; nothing has crossed from reading to doing. (3) *Archive scale vs. retrieval* — 62,480 docs and a 6,923-deep viXra queue, with 18 bridges and 453 graph edges as the connective tissue."
-    },
-    {
-      "date": "2026-09-15",
-      "time": "00:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "**Corpus 149→144 canonical: 5 verified dups removed** (compendium ×2, theorie-phi, torsion-physics, schauberger-water — all containment-tested 0.64–1.0; keepers chosen by frontmatter quality: the 09-09 compendium with re"
     }
   ],
   "declassified": [
@@ -186877,7 +186877,127 @@
         "2400021",
         "2400080",
         "2400140",
-        "2404107"
+        "2404107",
+        "2404925",
+        "2404926",
+        "2404927",
+        "2404928",
+        "2404929",
+        "2404930",
+        "2404931",
+        "2404932",
+        "2404933",
+        "2404934",
+        "2404935",
+        "2404936",
+        "2404937",
+        "2404938",
+        "2404939",
+        "2404940",
+        "2404941",
+        "2404942",
+        "2404943",
+        "2404944",
+        "2404945",
+        "2404946",
+        "2404947",
+        "2404948",
+        "2404949",
+        "2404950",
+        "2404951",
+        "2404952",
+        "2404953",
+        "2404954",
+        "2404955",
+        "2404956",
+        "2404957",
+        "2404958",
+        "2404959",
+        "2404960",
+        "2404961",
+        "2404962",
+        "2404963",
+        "2404964",
+        "2404965",
+        "2404966",
+        "2404967",
+        "2404968",
+        "2404969",
+        "2404970",
+        "2404971",
+        "2404972",
+        "2404973",
+        "2404974",
+        "2404975",
+        "2404976",
+        "2404977",
+        "2404978",
+        "2404979",
+        "2404980",
+        "2404981",
+        "2404982",
+        "2404983",
+        "2404984",
+        "2404985",
+        "2404986",
+        "2404987",
+        "2404988",
+        "2404989",
+        "2404990",
+        "2404991",
+        "2404992",
+        "2404993",
+        "2404994",
+        "2404995",
+        "2404996",
+        "2404997",
+        "2404998",
+        "2404999",
+        "2405000",
+        "2405001",
+        "2405002",
+        "2405003",
+        "2405004",
+        "2405005",
+        "2405006",
+        "2405007",
+        "2405008",
+        "2405009",
+        "2405010",
+        "2405011",
+        "2405012",
+        "2405013",
+        "2405014",
+        "2405015",
+        "2405016",
+        "2405017",
+        "2405018",
+        "2405019",
+        "2405020",
+        "2405021",
+        "2405022",
+        "2405023",
+        "2405024",
+        "2405025",
+        "2405026",
+        "2405027",
+        "2405028",
+        "2405029",
+        "2405030",
+        "2405031",
+        "2405032",
+        "2405033",
+        "2405034",
+        "2405035",
+        "2405036",
+        "2405037",
+        "2405038",
+        "2405039",
+        "2405040",
+        "2405041",
+        "2405042",
+        "2405043",
+        "2405044"
       ],
       "Acoustics": [
         "2397818"
@@ -249508,7 +249628,127 @@
       "2404921": "sravnitelnyy-analiz-informativnosti-pet-kt-s-68ga-fapi-04-i-18f-fdg-v-identifikatsii-zlokachestvennyh-opuholey-i-ih-metastazov",
       "2404922": "radionuklidnaya-vizualizatsiya-i-terapiya-u-patsientov-s-neyroendokrinnymi-opuholyami",
       "2404923": "diagnostika-ekstranodalnyh-porazheniy-pri-limfomah-s-pomoschyu-sovmeschennoy-pet-kt",
-      "2404924": "pozitronno-emissionnaya-tomografiya-magnitno-rezonansnaya-tomografiya-novaya-era-gibridnoy-vizualizatsii-obzor-literatury"
+      "2404924": "pozitronno-emissionnaya-tomografiya-magnitno-rezonansnaya-tomografiya-novaya-era-gibridnoy-vizualizatsii-obzor-literatury",
+      "2404925": "Additions - The Story of My Life (1928)",
+      "2404926": "Chapter I — The Story of My Life (1928)",
+      "2404927": "Chapter II — The Story of My Life (1928)",
+      "2404928": "Chapter III — The Story of My Life (1928)",
+      "2404929": "Chapter IV — The Story of My Life (1928)",
+      "2404930": "Chapter V — The Story of My Life (1928)",
+      "2404931": "Chapter VI — The Story of My Life (1928)",
+      "2404932": "Chapter VII — The Story of My Life (1928)",
+      "2404933": "Chapter VIII — The Story of My Life (1928)",
+      "2404934": "Chapter IX — The Story of My Life (1928)",
+      "2404935": "Chapter X — The Story of My Life (1928)",
+      "2404936": "Chapter XI — The Story of My Life (1928)",
+      "2404937": "Chapter XII — The Story of My Life (1928)",
+      "2404938": "Chapter XIII — The Story of My Life (1928)",
+      "2404939": "Chapter XIV — The Story of My Life (1928)",
+      "2404940": "Chapter XV — The Story of My Life (1928)",
+      "2404941": "Chapter XVI — The Story of My Life (1928)",
+      "2404942": "Chapter XVII — The Story of My Life (1928)",
+      "2404943": "Chapter XVIII — The Story of My Life (1928)",
+      "2404944": "Chapter XIX — The Story of My Life (1928)",
+      "2404945": "Chapter XX — The Story of My Life (1928)",
+      "2404946": "Chapter XXI — The Story of My Life (1928)",
+      "2404947": "Chapter XXII — The Story of My Life (1928)",
+      "2404948": "Chapter XXIII — The Story of My Life (1928)",
+      "2404949": "Chapter XXIV — The Story of My Life (1928)",
+      "2404950": "Chapter XXV — The Story of My Life (1928)",
+      "2404951": "Chapter XXVI — The Story of My Life (1928)",
+      "2404952": "Chapter XXVII — The Story of My Life (1928)",
+      "2404953": "Chapter XXVIII — The Story of My Life (1928)",
+      "2404954": "Chapter XXIX — The Story of My Life (1928)",
+      "2404955": "Chapter XXX — The Story of My Life (1928)",
+      "2404956": "Chapter XXXI — The Story of My Life (1928)",
+      "2404957": "Chapter XXXII — The Story of My Life (1928)",
+      "2404958": "Chapter XXXIII — The Story of My Life (1928)",
+      "2404959": "Chapter XXXIV — The Story of My Life (1928)",
+      "2404960": "Chapter XXXV — The Story of My Life (1928)",
+      "2404961": "Chapter XXXVI — The Story of My Life (1928)",
+      "2404962": "Chapter XXXVII — The Story of My Life (1928)",
+      "2404963": "Chapter XXXVIII — The Story of My Life (1928)",
+      "2404964": "Conclusion — The Story of My Life (1928)",
+      "2404965": "Letter — The Story of My Life (1928)",
+      "2404966": "Nachwort Marie Steiners zur ersten Buchausgabe 1925 — Mein Lebensgang",
+      "2404967": "Einleitende Worte Marie Steiners zur zweiten Buchauflage 1932 — Mein Lebensgang",
+      "2404968": "Chapter I — Mein Lebensgang",
+      "2404969": "Chapter II — Mein Lebensgang",
+      "2404970": "Chapter III — Mein Lebensgang",
+      "2404971": "Chapter IV — Mein Lebensgang",
+      "2404972": "Chapter V — Mein Lebensgang",
+      "2404973": "Chapter VI — Mein Lebensgang",
+      "2404974": "Chapter VII — Mein Lebensgang",
+      "2404975": "Chapter VIII — Mein Lebensgang",
+      "2404976": "Chapter IX — Mein Lebensgang",
+      "2404977": "Chapter X — Mein Lebensgang",
+      "2404978": "Chapter XI — Mein Lebensgang",
+      "2404979": "Chapter XII — Mein Lebensgang",
+      "2404980": "Chapter XIII — Mein Lebensgang",
+      "2404981": "Chapter XIV — Mein Lebensgang",
+      "2404982": "Chapter XV — Mein Lebensgang",
+      "2404983": "Chapter XVI — Mein Lebensgang",
+      "2404984": "Chapter XVII — Mein Lebensgang",
+      "2404985": "Chapter XVIII — Mein Lebensgang",
+      "2404986": "Chapter XIX — Mein Lebensgang",
+      "2404987": "Chapter XX — Mein Lebensgang",
+      "2404988": "Chapter XXI — Mein Lebensgang",
+      "2404989": "Chapter XXII — Mein Lebensgang",
+      "2404990": "Chapter XXIII — Mein Lebensgang",
+      "2404991": "Chapter XXIV — Mein Lebensgang",
+      "2404992": "Chapter XXV — Mein Lebensgang",
+      "2404993": "Chapter XXVI — Mein Lebensgang",
+      "2404994": "Chapter XXVII — Mein Lebensgang",
+      "2404995": "Chapter XXVIII — Mein Lebensgang",
+      "2404996": "Chapter XXIX — Mein Lebensgang",
+      "2404997": "Chapter XXX — Mein Lebensgang",
+      "2404998": "Chapter XXXI — Mein Lebensgang",
+      "2404999": "Chapter XXXII — Mein Lebensgang",
+      "2405000": "Chapter XXXIII — Mein Lebensgang",
+      "2405001": "Chapter XXXIV — Mein Lebensgang",
+      "2405002": "Chapter XXXV — Mein Lebensgang",
+      "2405003": "Chapter XXXVI — Mein Lebensgang",
+      "2405004": "Chapter XXXVII — Mein Lebensgang",
+      "2405005": "Chapter XXXVIII — Mein Lebensgang",
+      "2405006": "Nature and our Ideals - GA 30. Nature and Our Ideals",
+      "2405007": "Individualism in Philosophy - GA 30. Individualism in Philosophy",
+      "2405008": "2. A Unified View of Nature and the Limits of Knowledge — GA 30. Methodological Principles of Anthroposophy: Collected Essays on Philosophy, Science, Aesthetics and Psychology 1884–1901",
+      "2405009": "3. Goethe's View of Nature — GA 30. Methodological Principles of Anthroposophy: Collected Essays on Philosophy, Science, Aesthetics and Psychology 1884–1901 (2024)",
+      "2405010": "4. Goethe's Secret Revelation — GA 30. Methodological Principles of Anthroposophy: Collected Essays on Philosophy, Science, Aesthetics and Psychology 1884–1901 (2024)",
+      "2405011": "7. Goethe Studies: Fundamental Ideas — GA 30. Methodological Principles of Anthroposophy: Collected Essays on Philosophy, Science, Aesthetics and Psychology 1884–1901 (2024)",
+      "2405012": "8. Goethe Studies: Morals and Christianity — GA 30. Methodological Principles of Anthroposophy: Collected Essays on Philosophy, Science, Aesthetics and Psychology 1884–1901 (2024)",
+      "2405013": "9. Salvaging Goethe's Ideas Concerning Natural Science — GA 30. Methodological Principles of Anthroposophy: Collected Essays on Philosophy, Science, Aesthetics and Psychology 1884–1901 (2024)",
+      "2405014": "10. A Clearer Look Into The Present — GA 30. Methodological Principles of Anthroposophy: Collected Essays on Philosophy, Science, Aesthetics and Psychology 1884–1901 (2024)",
+      "2405015": "12. The Past and Current Reputation of German Philosophy",
+      "2405016": "13. Johannes Volkelt: A Contemporary German Thinker",
+      "2405017": "14. The Spiritual Signature of the Present",
+      "2405018": "15. Goethe as an Aesthetician",
+      "2405019": "16. Insights on Goethe's Scientific Works through the Publications of the Goethe Archive",
+      "2405020": "17. Eduard von Hartmann",
+      "2405021": "18. Thoughts on Goethe's Literary Estate",
+      "2405022": "19. Contemporary Philosophy and its Prospects for the Future",
+      "2405023": "20. On the “Fragment” On Nature",
+      "2405024": "21. On the History of Philosophy",
+      "2405025": "22. On the Question of Hypnotism",
+      "2405026": "23. Hermann Helmholtz",
+      "2405027": "24. Wilhelm Preyer",
+      "2405028": "25. Charles Lyell",
+      "2405029": "26. Herman Grimm",
+      "2405030": "27. The Beautiful and Art",
+      "2405031": "28. Count Leo Tolstoy - What Is Art?",
+      "2405032": "29. On Truth and Veracity of Works of Art",
+      "2405033": "New Year's Reflection by a Heretic",
+      "2405034": "Ernst Haeckel and the “World Riddle”",
+      "2405035": "33. Modern Worldview and Reactionary Course",
+      "2405036": "34. The Ingenious Man",
+      "2405037": "35. Chaos",
+      "2405038": "37. Bartholomew Carneri",
+      "2405039": "38. Modern Soul Research",
+      "2405040": "39. Herman Grimm",
+      "2405041": "40. Dr. Richard Wahle",
+      "2405042": "41. On Thomas Seebeck's Relationship to Goethe's Theory of Colors",
+      "2405043": "42. A Hundred Years Back On the Theory of Colors",
+      "2405044": "43. Ernst Melzer"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -584359,6 +584599,416 @@
       ],
       "2404924": [
         "Borderland Research"
+      ],
+      "2404925": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404926": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404927": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2404928": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404929": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404930": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2404931": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2404932": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404933": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404934": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404935": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404936": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404937": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404938": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404939": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404940": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404941": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2404942": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404943": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404944": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404945": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404946": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404947": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404948": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404949": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404950": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404951": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2404952": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404953": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2404954": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404955": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404956": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404957": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404958": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404959": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404960": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404961": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404962": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404963": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404964": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404965": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404966": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404967": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404968": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404969": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404970": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404971": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404972": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404973": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404974": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404975": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404976": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404977": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2404978": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404979": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2404980": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404981": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404982": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404983": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404984": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404985": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404986": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404987": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404988": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404989": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404990": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2404991": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404992": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404993": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404994": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404995": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404996": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2404997": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2404998": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2404999": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405000": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405001": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405002": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405003": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405004": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405005": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2405006": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2405007": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405008": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405009": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Optics / Colour Therapy"
+      ],
+      "2405010": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2405011": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2405012": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2405013": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2405014": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405015": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405016": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405017": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405018": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2405019": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Optics / Colour Therapy"
+      ],
+      "2405020": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2405021": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2405022": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405023": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2405024": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405025": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405026": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405027": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405028": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405029": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405030": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405031": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405032": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2405033": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405034": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405035": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405036": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405037": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405038": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405039": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2405040": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2405041": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2405042": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Optics / Colour Therapy"
+      ],
+      "2405043": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education",
+        "Optics / Colour Therapy"
+      ],
+      "2405044": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
       ]
     },
     "meta_concepts": {
@@ -696538,7 +697188,127 @@
       "2404923": [
         "p_goethean"
       ],
-      "2404924": []
+      "2404924": [],
+      "2404925": [],
+      "2404926": [],
+      "2404927": [],
+      "2404928": [],
+      "2404929": [],
+      "2404930": [],
+      "2404931": [],
+      "2404932": [],
+      "2404933": [],
+      "2404934": [],
+      "2404935": [],
+      "2404936": [],
+      "2404937": [],
+      "2404938": [],
+      "2404939": [],
+      "2404940": [],
+      "2404941": [],
+      "2404942": [],
+      "2404943": [],
+      "2404944": [],
+      "2404945": [],
+      "2404946": [],
+      "2404947": [],
+      "2404948": [],
+      "2404949": [],
+      "2404950": [],
+      "2404951": [],
+      "2404952": [],
+      "2404953": [],
+      "2404954": [],
+      "2404955": [],
+      "2404956": [],
+      "2404957": [],
+      "2404958": [],
+      "2404959": [],
+      "2404960": [],
+      "2404961": [],
+      "2404962": [],
+      "2404963": [],
+      "2404964": [],
+      "2404965": [],
+      "2404966": [],
+      "2404967": [],
+      "2404968": [],
+      "2404969": [],
+      "2404970": [],
+      "2404971": [],
+      "2404972": [],
+      "2404973": [],
+      "2404974": [],
+      "2404975": [],
+      "2404976": [],
+      "2404977": [],
+      "2404978": [],
+      "2404979": [],
+      "2404980": [],
+      "2404981": [],
+      "2404982": [],
+      "2404983": [],
+      "2404984": [],
+      "2404985": [],
+      "2404986": [],
+      "2404987": [],
+      "2404988": [],
+      "2404989": [],
+      "2404990": [],
+      "2404991": [],
+      "2404992": [],
+      "2404993": [],
+      "2404994": [],
+      "2404995": [],
+      "2404996": [],
+      "2404997": [],
+      "2404998": [],
+      "2404999": [],
+      "2405000": [],
+      "2405001": [],
+      "2405002": [],
+      "2405003": [],
+      "2405004": [],
+      "2405005": [],
+      "2405006": [],
+      "2405007": [],
+      "2405008": [],
+      "2405009": [],
+      "2405010": [],
+      "2405011": [],
+      "2405012": [],
+      "2405013": [],
+      "2405014": [],
+      "2405015": [],
+      "2405016": [],
+      "2405017": [],
+      "2405018": [],
+      "2405019": [],
+      "2405020": [],
+      "2405021": [],
+      "2405022": [],
+      "2405023": [],
+      "2405024": [],
+      "2405025": [],
+      "2405026": [],
+      "2405027": [],
+      "2405028": [],
+      "2405029": [],
+      "2405030": [],
+      "2405031": [],
+      "2405032": [],
+      "2405033": [],
+      "2405034": [],
+      "2405035": [],
+      "2405036": [],
+      "2405037": [],
+      "2405038": [],
+      "2405039": [],
+      "2405040": [],
+      "2405041": [],
+      "2405042": [],
+      "2405043": [],
+      "2405044": []
     }
   },
   "graph": {
@@ -696854,7 +697624,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-16T17:33:22Z",
+    "as_of": "2026-09-16T18:24:42Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 65,
