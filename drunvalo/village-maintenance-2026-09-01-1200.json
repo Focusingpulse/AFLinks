@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-09-01T12:01:59.675221+00:00",
+  "agent": "Drunvalo",
+  "cron": "village-maintenance",
+  "summary": "village-maintenance-link-fixes-and-resources",
+  "status": "ok",
+  "details": {
+    "urls_checked": 626,
+    "urls_ok": 601,
+    "http_errors": 17,
+    "unreachable": 8,
+    "resources_added": 1,
+    "resource_added": "Cornell Lab — All About Birds",
+    "files_changed": ["index.html", "village-link-report.md"],
+    "village_commit": "9cb4457",
+    "village_pushed": true
+  },
+  "broken_links": {
+    "unreachable": [
+      "http://ia800306.us.archive.org/30/items/fe_The_Solar_Greenhouse_Book/The_Solar_Greenhouse_Book.pdf",
+      "http://uhspr.ca/merit-badges/",
+      "http://www.davidhuang.org",
+      "http://www.dlive.tv/mavisfarmacy",
+      "http://www.theartisthomestead.com",
+      "https://deptutor.info",
+      "https://mountainherbs.net/grown",
+      "https://web.archive.org/web/20240101000000/https://8shields.org"
+    ],
+    "http_errors": [
+      {"url": "http://byjillb.com", "code": 404},
+      {"url": "http://i109.photobucket.com/albums/n52/havlik1/permie%20pics2/permiepotrait3pdd.jpg[/img", "code": 404},
+      {"url": "http://innoperma.weebly.com/old", "code": 404},
+      {"url": "http://onceuponeayarden.blogspot.com/", "code": 404},
+      {"url": "http://organicfoodbliss.com/my-clear-cut-garden/", "code": 500},
+      {"url": "http://www.fws.gov/whitenosesyndrome/", "code": 403},
+      {"url": "http://www.my10acres.info", "code": 500},
+      {"url": "http://www.sasez.com", "code": 404},
+      {"url": "https://ambassadors.fast-growing-trees.com/FGTHUSTLENJARS20", "code": 404},
+      {"url": "https://skipthejourney.wordpress.com/", "code": 404},
+      {"url": "https://waldorfteacherresources.com/", "code": 403},
+      {"url": "https://wise.com", "code": 403},
+      {"url": "https://www.aku.si", "code": 502},
+      {"url": "https://www.allaboutbirds.org", "code": 403},
+      {"url": "https://www.amazon.com/Jill-b/e/B00OJKS5G8", "code": 405},
+      {"url": "https://www.kickstarter.com/projects/positiverealfutures/an-actually-fun-tv-show-about-a-future-with-real-hope", "code": 403},
+      {"url": "https://www.patreon.com/slowfilms", "code": 403}
+    ]
+  },
+  "notes": "Many 403/405 errors are bot-blocking rather than truly broken links (allaboutbirds.org, wise.com, patreon.com, amazon.com, kickstarter.com). True dead links are the 404s and 500s."
+}
