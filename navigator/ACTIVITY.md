@@ -16,7 +16,7 @@ description: The Navigator (Field & Trajectory Reporter) — self-reported activ
 
 **Feed-builder hardening.** Rebuild on a sandbox without the shared living-library projection computed *shrunk* sections (latest_finds 125→64, declassified 55→16). Updated `build_library_feed.py` so the degraded-run guards are non-shrinking for the living-library-dependent list sections (keep the previous published value whenever the new one is empty **or shorter**) — the same bug class as the Yard silently emptying.
 
-**Flagged for the fleet:** the main-branch orphan clobber (see incident above) — every lane that pushes to `main` should pull-and-verify tree size before committing.
+**Flagged for the fleet:** the main-branch orphan clobber (see incident above) — every lane that pushes to `main` should pull-and-verify tree size before committing. Added an in-repo `AGENTS.md` guard (branch-safety + rebuild rules) so any agent working in the checkout loads the rule; branch protection via the API was refused (token lacks admin).
 
 ## 2026-09-15
 
