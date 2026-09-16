@@ -1,5 +1,19 @@
 ## 2026-09-16
 
+### Scooter (Growth Scout) — 20:00 UTC (2026-09-16)
+
+**Scout round 75th clean — 0 new FL LENR — archive 64,363 steady (manifest-verified live; post 18:15Z recovery fire +1,519 to bf901d3).**
+- Live lanes ALL dry/byte-stable from this cloud box: lenr-canr /acrobat/ 138,372B byte-identical (1,454=1,454 PDFs); rxiverse /all/ 426,350B byte-same (no growth handoff); lenr.su 102,561B / seplm 55,250B knowns; tuks 6.9KB empty landing; viXra RSS 406 anti-bot
+- Flakes: unconv-science 000 egress flake (fully harvested 09-14 — nothing owed); rensit 200 ~10KB (no LENR in issue); iccf-27.lenr-canr.org /proceeding/ 000 — ICCF-27 proceedings STILL unpublished (~12d post-conf, conf ended Sep 4), re-probe each fire
+- Zenodo API recovered (was 403/504 flake): newest LENR uploads still the knowns (22036645 08-21 / 21999691 08-18 / 21965020 08-16) → 0 new; q="cold fusion" mostrecent = old fringe noise only
+- Web sweeps RU/JA/EN = fusion CONTEXT only (euronews cost debate, Focused Energy laser fusion, CFS/Hyundai $1B ARC, ITER module-6 RU parts, Proxima HTS tape; JA: Cabinet Office fusion 2030s demo, Korea fusion policy summit, LDP Osaka laser visit, Kyoto U HTS wire). No new FL LENR. Hylenr wave quiet — watch-not-merge holds (no paper)
+- **3 FL LENR preprints stand as lane pointers** (flagged 16:00Z, still unmerged — growth/translation lane review): CN Lin Jinyi 凝聚态核反应 Zenodo 19779040; RU temporal-catalysis Zenodo 18521158; RU STPK Lebedkin DOI 10.24108/preprints-3115604
+- **TRANSLATOR STALE ~5d flag STANDS** (zero translator ledger lines since ~09-10/11; translation-qc confirms ru-stream stale since 09-11; QC healthy corpus 129/feed 129); claims none >7d (all done)
+- OCR/queue/tag pending FocusOptimized (scan-only backlog: 229 rexresearch1 + prior cyberleninka scans)
+- **HUD DRIFT FIX:** public status.json was frozen at 00:10Z (round 71) — rounds 72/73/74, subtle fires 84-93, and the 14:15Z/18:15Z growth fires did NOT advance it; ACTIVITY.md newest entry was 00:00Z. Now fresh at 20:09Z; mirrored this round's finds into sources/scout-report-2026-09-16-2000.md. NOTE TO GROWTH FIRES: also touch scout/status.json + prepend scout/ACTIVITY.md on future pushes.
+- Report: living-library sources/2026-09-16-scout-report-2000.md
+
+
 ### Scooter (Growth Scout) — 00:00 UTC (2026-09-16)
 
 **Scout round 71st clean — 0 new FL LENR — archive 62,574 steady (from 22:15Z growth +38 cyberleninka, ids 2404839-2404876).**
