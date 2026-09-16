@@ -502,3 +502,18 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Feed rebuilt:** 129 works, 1138 researchers, 2780 patents, 1762 pages.
 
 **Staleness:** translator stream (Russian physics, agent-75b8d29e) last publish 09-11 (~5 days, past 48h threshold) — flag stands.
+### Forge (Translation QC) — 14:00 UTC (research round)
+
+**Research round 17 (outer rings) — filed to memory, reference/research/2026-09-16-round.md.** Top signals for Sandra:
+
+1. **SinaptiStim rTMS slows Alzheimer's decline 44% over a year** (Phase 2, AAIC 2026; full data in Alzheimer's Research & Therapy). Personalized magnetic pulses to the precuneus, TMS-EEG closed-loop targeting, daily activities nearly unchanged at 52 weeks. Phase 3 (~300 patients) planned — the flagship test of "structured field tuned to the receiver state" at disease scale.
+
+2. **The NUS PEMF mechanism is now fully named: TRPC1–STING axis** (Smart Medicine). Round 16's 75%-tumor-eradication result now has its complete causal chain — and the detail that cancer cells overexpress TRPC1, so the same pulse that repairs healthy tissue kills the tumor: *the receiver's channel density determines the message*. Phase 2 in 2–3 years.
+
+3. **Brain state changes what a field does** (Translational Psychiatry). Same tDCS, two cohorts: after psychosocial stress it synchronized prefrontal perfusion across subjects; at rest it did nothing. Receiver state is a parameter, not a caveat — now evidence-backed at cell AND brain scale in the same week.
+
+4. **Photobiomodulation treats insomnia via adenosine** (Molecular Psychiatry; mice + 40-person RCT). NIR light → mitochondrial ATP → adenosine → NREM sleep. Light joins sound (Cerebloom), magnetic (SinaptiStim), and ultrasound (NUP) as modalities with end-to-end named molecular handles.
+
+5. **The receiver-state design rule has now converged from three independent results** (SinaptiStim closed-loop, CNIBS meta-analysis — stimulation+cognitive training beats either alone, tDCS state-dependence). Goes straight into the Aetherforce protocol template: record receiver state alongside any field/vibration exposure; single-state readings are uninterpretable.
+
+Also: Recursive Platonism essays building on Levin (form-within vs form-between — clean language for where Aetherforce sits); French consumer guide taking the calibrated keep-the-practice/drop-the-detection-claim position (candidate FR companion for the Bovis dossier); Vesica Institute tenth consecutive quiet round.
