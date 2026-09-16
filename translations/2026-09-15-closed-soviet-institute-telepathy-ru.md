@@ -1,6 +1,6 @@
 ---
-name: "2026-09-15-closed-soviet-institute-telepathy-ru"
-description: "Full-document translation (RU->EN): Soviet closed-institute telepathy/psychotronics research history, Rambler Science, May 2026."
+name: "A Closed Soviet Institute Studied Telepathy for 20 Years"
+description: "RU->EN translation (translation-sweeper): Soviet closed-institute telepathy/psychotronics research history, Rambler Science, May 2026. Source: https://sci.rambler.ru/science/56464156-zakrytyy-sovetskiy-institut-izuchal-telepatiy"
 ---
 
 ---

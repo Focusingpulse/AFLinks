@@ -1,6 +1,6 @@
 ---
-name: "2026-09-15-zenin-water-as-information-storage-ru"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Zenin: Water as a Storage and Transmitter of Information"
+description: "RU->EN translation: V.V. Zenin's water-information article (cluster structures, liquid-crystalline hierarchy, homeopathy, Voeikov diagrams) — the Russian water-memory lane. Source: Russian web article (admin 20.08.2008), via living-library sweeper stream."
 ---
 
 [Login] Interesting: Useful, interesting: Article about Barrier filters. SanPiN: drinking water.

@@ -1,5 +1,5 @@
 ---
-name: "2026-09-15-korschelt-1892-nutzbarmachung-lebendigen-kraft-aethers-de"
+name: "Korschelt (1892): Die Nutzbarmachung der lebendigen Kraft des Aethers"
 description: "Complete English translation of Oskar Korschelt's 'Die Nutzbarmachung der lebendigen Kraft des Aethers' (1892, German). Aether ray apparatus, Reichenbach's od, Hertz wave analogies, applications in medicine, agriculture, wine ripening, crystallization. Source: https://www.naturschule-oberlausitz.de/wp-content/uploads/2022/08/DieNutzbarmachungderlebendigenkraftdesaethers1892-korschelt.pdf - language: German - 131 chunks translated to English."
 ---
 

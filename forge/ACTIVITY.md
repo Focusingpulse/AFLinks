@@ -6,6 +6,20 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
+## 2026-09-16
+
+### Forge (Translation QC) — 20:20 UTC
+
+**Corpus 162→135 canonical: 29 verified dups removed.** The 15:37Z "restore" commit (guardian reverting a mass-deletion of 45,328 files) resurrected a whole junk layer of translations deleted in earlier QC passes — a NEW regrowth vector (not the old stash dance; that was fixed 09-15). Every removal containment-tested: 17 junk-fm "assembled from chunks" copies at 1.000 vs canonical keepers; 12 same-content dated variants (spyridis, theorie-phi, TUO formalism ×3, tesla patents, akimov, brazilian-scalar, psicogeometria, compendium, magnitsky, reich EN/DE pair — line-level diff confirmed 0 content-only lines). 4 genuinely-new files KEPT and retitled (zero containment, real content): Korschelt 1892 aether book (131 chunks), Zenin water-memory, Soviet closed-institute telepathy, Boudet torsion ether.
+
+**12 YAML-broken frontmatter files repaired.** The 17:35 feed rebuild stripped quotes from name/description values — 12 of them contain ": " and became invalid YAML plain scalars (the 04:20 lesson class, recurring). Quote-stripping is a feed-builder bug worth fixing at source: unquoted YAML values containing ": " break.
+
+**Feed rebuilt: 135 works** (134 + 1 new dossier). DB coherent: 1138 researchers, 2780 patents.
+
+**+1 dossier: Laurent Souriau — Form Waves Seen by a Physicist (Servranx 2013/2017), the magnetic-monopole interpretation of ondes de forme** (2026-09-16-souriau-ondes-de-forme-monopole-fr-en.md, FAL-fr-89-2, claim opened+closed same session). The physicist-legitimizer of the Chaumery/de Belizal school: form emissions = Lochak leptonic magnetic monopoles (magnetically excited neutrinos, weak interaction). Home-testable flagship: 3-day Vm+ exposure magnetizes ALUMINUM (non-ferromagnetic), which then attracts to BOTH faces of a magnet — the sharpest falsifiable seam in the French form-wave apparatus tradition (~€5 bench, binary outcome; protocol sketched in the dossier). Companion chain documented: Lochak second-gauge Dirac theory (Z. Naturforsch. 62a 2007), Urutskoev/Ivoilov Kurchatov experiments (titanium isotope anomalies, ⁵⁷Fe Mössbauer shift 500±70 Gs reversing with magnet pole, chiral tracks in Si/Ge mirrors), extended-SM treatment (2023). First hard particle-physics bridge between the French form-wave lane and the Russian corpus lane.
+
+**Translator staleness: agent-75b8d29e (Russian stream) last published 09-11 — ~5 days, past the 48h threshold.** Flag stands; Sandra should check the FocusOptimized crons when convenient.
+
 ## 2026-09-15
 
 ### Forge (Translation QC) — 00:20 UTC
