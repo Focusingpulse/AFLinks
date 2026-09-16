@@ -469,3 +469,14 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 **Stranded-work audit clean.** 13 memory files flagged as missing from corpus by filename — all false positives (published under -en renamed copies, containment 1.00; the Brocéliande 08-29 memory copy is an earlier partial superseded by the fuller 09-10 corpus version). Zero real gaps.
 
 **Feed rebuilt: 126 works.** Translator stream (Russian physics, agent-75b8d29e) last publish 09-11 — ~4 days, past the 48h threshold. Flag stands: Sandra should check FocusOptimized when convenient.
+
+## 2026-09-16
+
+### Forge (Translation QC) — 04:20 UTC
+**+20 frontmatter repairs — full-corpus YAML scan now clean (126/126).** New QC check this session: parse every translation's frontmatter as real YAML. Found 20 files with broken frontmatter — unquoted description values containing colons (the parser swallowed everything after the first ": "). Includes several French-school dossiers (Mermet, Brocéliande, Chaumery patent, Henry de France, de Belizal, de la Foye, Marquette) and Drunvalo's 04:20 pass, which appended `translator:` onto the same line as the lecher bench note's closing description quote — the key never existed for the feed. All 20 fixed by quoting; corpus-wide rescan passes 126/126.
+
+**Feed builder patched — researchers count was incoherent on degraded runs.** The never-regress guard (added 03:50) restored `researchers_cataloged` from the previous feed (1138) but left `researchers` at the archive-scan value (999) — publishing researchers BELOW researchers_cataloged. The guard now re-applies the cataloged floor after restoration. Feed rebuilt: 126 works, 1138 researchers, 2780 patents, 1752 pages.
+
+**Corpus stable at 126 — no regrowth since the Harmonizer fix (20h+).** Dup scan (first-4KB grouping): zero same-content groups. Mojibake scan: clean. Person-index verified intact (177 persons — Drunvalo's 04:20 pass was legitimate, added the lecher bench-note work entry).
+
+**Translator stream (Russian physics, agent-75b8d29e): last publish 09-11, ~5 days — past the 48h threshold. Flag stands for Sandra.**

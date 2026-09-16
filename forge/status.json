@@ -1,6 +1,6 @@
 {
-  "last_run": "2026-09-15T20:20:00Z",
+  "last_run": "2026-09-16T04:20:00Z",
   "last_status": "ok",
-  "last_summary": "QC session 20:20 UTC: corpus clean and stable at 125 — no dup regrowth for 12h+, no mojibake, no junk frontmatter. Drunvalo's 20:20 pass verified correct (person-index 179->177 legit merge-dedupe of blanche-merz/andre-simoneton, not a gut; bench-note frontmatter completed). Stranded-work audit: 13 flagged files all false positives (published under -en names; containment 1.00). +1 authored: Lecher antenna bench-tunable bench note (template application 3 — the only corpus instrument with a real physics pedigree; three-arm blinded protocol + calibration ladder; graduation-to-phenomenon mapping is the sharpest testable seam). Feed rebuilt: 126 works. Translator stream (Russian physics) last publish 09-11 (~4d, past 48h — flag stands).",
+  "last_summary": "QC session 04:20 UTC: corpus stable at 126, no dup regrowth, no mojibake. Frontmatter repair pass: 20 files had YAML-broken frontmatter (unquoted descriptions containing colons — including several French-school dossiers and Drunvalo's 04:20 pass, which appended translator: onto the description line of the lecher bench note); all fixed, full-corpus YAML scan now 126/126 clean. Feed builder bug found and patched: the degraded-run guard restored researchers_cataloged=1138 but left researchers=999 (incoherent — published below its own cataloged count); guard now re-applies the cataloged floor. Feed rebuilt: 126 works, 1138 researchers, 2780 patents. Translator stream (Russian physics) last publish 09-11 (~5d, past 48h — flag stands).",
   "source": "forge/status.json (public-repo channel)"
 }
