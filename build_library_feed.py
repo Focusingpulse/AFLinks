@@ -1357,20 +1357,41 @@ def main():
     # validations visible publicly, with a submission path. Reads the
     # living-library synthesis folders; the site renders them.
     practical = {"quests": [], "dossiers": [], "validations": [], "queue_url": None}
-    qdir = os.path.join(LL, "synthesis", "quest-queue") if LL else None
     yard_outdir = os.path.join(AFLINKS, "synthesis")
-    if qdir and os.path.isdir(qdir):
+
+    def _yard_dir(sub):
+        """Find a Replication Yard folder, preferring the shared living-library
+        copy and falling back to this repo's own copy.
+
+        Why the fallback exists: the Yard used to be read ONLY from
+        living-library. When that shared repo is not attached to the machine
+        running the build (a sandbox, a fresh clone, a worker agent), every
+        folder lookup returned None and the Yard silently emptied — quests,
+        dossiers and validations went to [] even though the files sit right
+        here in AFLinks. A rebuild must never regress the Yard to empty just
+        because a shared projection is missing. Returns (path, from_shared).
+        """
+        if LL:
+            shared = os.path.join(LL, "synthesis", sub)
+            if os.path.isdir(shared):
+                return shared, True
+        return os.path.join(yard_outdir, sub), False
+
+    qdir, q_shared = _yard_dir("quest-queue")
+    if os.path.isdir(qdir):
         os.makedirs(os.path.join(yard_outdir, "quest-queue"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(qdir, "*.md")), reverse=True):
             base = os.path.basename(path)
             if base.lower() == "readme.md":
                 continue
-            # Copy to site repo so the read button works
-            try:
-                import shutil
-                shutil.copy2(path, os.path.join(yard_outdir, "quest-queue", base))
-            except Exception as e:
-                print(f"  WARN: could not copy quest {base}: {e}", flush=True)
+            # Copy to the site repo so the read button works. Skip when the
+            # source IS the destination (guards shutil SameFileError).
+            if q_shared:
+                try:
+                    import shutil
+                    shutil.copy2(path, os.path.join(yard_outdir, "quest-queue", base))
+                except Exception as e:
+                    print(f"  WARN: could not copy quest {base}: {e}", flush=True)
             meta, title, body = parse_md_frontmatter(path)
             # pull a rough status from body for cheap front-end filtering
             status = "proposed"
@@ -1384,17 +1405,18 @@ def main():
                 "status": status,
                 "excerpt": (body.strip()[:200] or ""),
             })
-    rdir = os.path.join(LL, "synthesis", "replication") if LL else None
-    if rdir and os.path.isdir(rdir):
+    rdir, r_shared = _yard_dir("replication")
+    if os.path.isdir(rdir):
         os.makedirs(os.path.join(yard_outdir, "replication"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(rdir, "*.md")), reverse=True):
             base = os.path.basename(path)
-            # Copy to site repo
-            try:
-                import shutil
-                shutil.copy2(path, os.path.join(yard_outdir, "replication", base))
-            except Exception as e:
-                print(f"  WARN: could not copy dossier {base}: {e}", flush=True)
+            # Copy to the site repo (skipped when source == destination)
+            if r_shared:
+                try:
+                    import shutil
+                    shutil.copy2(path, os.path.join(yard_outdir, "replication", base))
+                except Exception as e:
+                    print(f"  WARN: could not copy dossier {base}: {e}", flush=True)
             meta, title, body = parse_md_frontmatter(path)
             status = "draft"
             m = re.search(r"Status:\s*\*{0,2}([\w\-]+)", body)
@@ -1407,19 +1429,20 @@ def main():
                 "status": status,
                 "excerpt": (body.strip()[:200] or ""),
             })
-    vdir = os.path.join(LL, "synthesis", "validations") if LL else None
-    if vdir and os.path.isdir(vdir):
+    vdir, v_shared = _yard_dir("validations")
+    if os.path.isdir(vdir):
         os.makedirs(os.path.join(yard_outdir, "validations"), exist_ok=True)
         for path in sorted(glob.glob(os.path.join(vdir, "*.md")), reverse=True):
             base = os.path.basename(path)
             if base.lower() == "readme.md":
                 continue
-            # Copy to site repo
-            try:
-                import shutil
-                shutil.copy2(path, os.path.join(yard_outdir, "validations", base))
-            except Exception as e:
-                print(f"  WARN: could not copy validation {base}: {e}", flush=True)
+            # Copy to the site repo (skipped when source == destination)
+            if v_shared:
+                try:
+                    import shutil
+                    shutil.copy2(path, os.path.join(yard_outdir, "validations", base))
+                except Exception as e:
+                    print(f"  WARN: could not copy validation {base}: {e}", flush=True)
             meta, title, body = parse_md_frontmatter(path)
             practical["validations"].append({
                 "file": f"synthesis/validations/{base}",
