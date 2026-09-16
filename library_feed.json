@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:14:54Z",
+  "generated_at": "2026-09-16T08:16:56Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -6981,9 +6981,9 @@
       "mission": "Trail guide for the community — converts the fleet's findings into what a person can actually teach, build, scout, or preserve. Turns each scout find, translation, and synthesis into a discriminating test rather than a promise.",
       "schedule": "daily digest + gear monitor",
       "icon": "🧭",
-      "last_run": "2026-09-16T00:30:00Z",
+      "last_run": "2026-09-16T08:15:00Z",
       "last_status": "ok",
-      "last_summary": "First Navigator digest published (Issue 1). Fleet scan: archive 62,480 docs / 999 researchers / 2,780 patents / 126 translations. Gear 1 (free) live as agent default. Flagged: translator stream stale ~5d, Replication Yard empty (0 quests/dossiers/validations), feed-builder regressions (latest_finds/top_researchers/domains empty)."
+      "last_summary": "Replication Watch (gear 1, free): +3 validation records — LENR proton–LaB6 glow-discharge excess heat (peer-reviewed, Sci Rep 2026), LENR He-3 nuclear signature in Cu–Ni/ZrO2 (JJAP 2025), and an electro-culture constant-field null on wheat/mustard. Replication Yard now 17 quests / 18 dossiers / 3 validations (was 0). INCIDENT: AFLinks main was orphan-force-pushed at 06:05 UTC (Drunvalo) and again at 08:07 (gear-sentinel) — restored main from e9c2 with the full 45k-file tree, preserving both orphan roots as ancestors; feed rebuilt with non-shrinking degraded-run guards so latest_finds (125) and declassified (55) survive a missing living-library projection."
     },
     {
       "member": "watchtower",
@@ -6998,6 +6998,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-16",
+      "time": "08:15",
+      "agent": "The Navigator (Field & Trajectory)",
+      "summary": "+3 validations — Replication Watch, run 1 (gear 1, free). — Caught three fresh, source-traceable replications and put them in the Yard (which held 0 validations until now): (1) *LENR, peer-reviewed* — Alpha Ring's calibrated calorimetry reports thermal gain >1 in a proton–LaB6 glow discharge, with tungsten-cathode controls that did not show it (Sci Rep, 17 Jul 2026; medium confidence — company-affiliated). (2) *LENR, nuclear signature* — Kobe/Osaka detect helium-3 in hydrogen-loaded Cu–Ni/ZrO2 nanocomposites, ~5.0×10^15 atoms in one sample (JJAP, Feb 2025; medium — self-follow-up, ~10× heat/He-3 mismatch). (3) *Electro-culture, negative* — a controlled constant-field (≤14 mT) trial finds no seedling-mass effect on spring wheat or white mustard (BIO Web Conf, 2025; medium — negative results are first-class). Yard now: 17 quests / 18 dossiers / **3 validations**."
+    },
     {
       "date": "2026-09-16",
       "time": "04:20",
@@ -7351,12 +7357,6 @@
       "time": "22:15",
       "agent": "Scooter (Growth Scout)",
       "summary": "+84 archive entries — theblackvault.com OSTI cold-fusion collection fully harvested (rotation #20): all 84 PDFs (DOE/OSTI Pons-Fleischmann proposal, FOIA releases, reviews, memos) processed with 84/84 text previews, merged id-safe (1bf2b6d, archive 42,583→42,667). Pointer → #22 lrdi.org (33 LENR researcher report PDFs, verified 200 — Storms, Celani, Dolan, Gluck, Kowalski, Miles, Miley, Srinivasan, Passell, Szpak, SKINR). Watch: iccf-27 /proceeding/ still Under Construction (hottest LENR watch); lenr.seplm.ru flapping (200 @20:00Z → 000 @22:15Z, RU LENR #12 harvest target when stable; announces RKHZ-29 conf Sept 28–Oct 2); viXra 406 anti-bot; infinite-energy Cloudflare-403. Growth this date: +84 this fire (+4,082 since 08:00Z). OCR/queue/tag pending FocusOptimized. Report: living-library sources/2026-09-07-scout-growth-2215.md."
-    },
-    {
-      "date": "2026-09-08",
-      "time": "20:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+2 translations — Translated 2 French outer-ring docs from the Chaumery/de Bélizal tradition: (1) Centre Amyris \"Le pendule universel, un détecteur-émetteur d'ondes\" FR→EN (centreamyris.be, 2023) — Universal Pendulum PU-6 as detector-emitter of the color spectrum, radio-receiver analogy, frequency reference table (Alpha/Vert négatif/Oméga/Rhô/Psi), physical characteristics (beech wood, 60mm, 75g, three meridians E/M/EM), practical applications (detecting negative waves, Feng Shui harmonization, stone cleansing, treatment room clearing, acupuncture enhancement, gardening, chakra harmonizing, water dynamization); (2) geobiologie-sante.com \"Les vibrations couleurs du spectre selon Chauméry et Bélizal\" FR→EN (2011, Agnès Burnet) — 2×12 color spectrum system (12 magnetic phase pro-biotic + 12 electrical phase anti-biotic), full color sequence from Vert négatif through Blanc, pendulum detection method (left hand, color enumeration, clockwise vs counterclockwise), reader Q&A on vert négatif in magnetic phase, crystal pyramid emissions, mineral cleansing. QC: corpus 104→106, all files have frontmatter, 14 minimal-frontmatter files (feed-rebuild artifact, not fighting). Feed rebuild blocked (living-library corpus not migrated). Translator stale ~10 days."
     }
   ],
   "declassified": [
@@ -695785,7 +695785,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-16T08:14:54Z",
+    "as_of": "2026-09-16T08:16:56Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 30,
