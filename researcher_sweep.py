@@ -9,6 +9,7 @@ Usage: python3 researcher_sweep.py [min_docs]
 """
 import json, re, sys, os
 from collections import Counter
+from datetime import datetime, timezone
 
 LL = os.environ.get("LL_DIR", "/root/workspace/.letta/agents/agent-b73ac550-5671-471e-b3e1-721f948ea063/living-library")
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -58,8 +59,15 @@ def main():
 
     res["researchers"] = cur
     res["_meta"]["count"] = len(cur)
-    res["_meta"]["last_updated"] = "2026-08-31T21:55:00Z"
-    json.dump(res, open(res_path, "w"), indent=1, ensure_ascii=False)
+    # Stamp the real time. This used to be a hardcoded literal, which silently
+    # overwrote the true timestamp with a frozen date on every sweep — the count
+    # moved while the metadata lied about when.
+    res["_meta"]["last_updated"] = datetime.now(timezone.utc).isoformat()
+    # indent=2 matches the file's existing formatting; indent=1 rewrote all
+    # ~36k lines as a whitespace-only diff on every run, burying real changes.
+    with open(res_path, "w", encoding="utf-8") as f:
+        json.dump(res, f, indent=2, ensure_ascii=False)
+        f.write("\n")
     print(f"researcher_sweep: {added} added, {len(cur)} total in index")
 
 if __name__ == "__main__":
