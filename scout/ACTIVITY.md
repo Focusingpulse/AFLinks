@@ -1,3 +1,6 @@
+## 2026-09-17 18:15Z (scout-archive-growth) — scout
+DISCOVERY + FIRST HARVEST: JLN Labs (jnaudin.free.fr / jlnlabs.online.fr / bingofuel.online.fr / jlnlab.com) — Jean-Louis Naudin classic free-energy experiment archive (Delayed Lenz Effect, GEGEN, Bedini, Tesla, torsion, lifters, cold fusion, WFC/HHO, BingoFuel). Enumerated 1,404 docs (1,343 htm + 53 pdf + 8 html, 4 hosts), processed 1404/1404 (1,324 previews, 80 empties -> OCR lane), merged id-safe +1,404 — archive 69,706 -> 71,110 (879fb32, max id 2,413,412, shard_0007). NEW DISCOVERY: trinitas.ru (Академия Тринитаризма, RU alt-physics journal) — 2,777 article URLs seeded & 200-verified -> next fire. Lanes dry: lenr-canr 1,454=1,454; rxiv max 2609.0045 archived; iccf-27 proceedings STILL unpublished. Exa web-search credits RESTORED. OCR/queue/tag pending FocusOptimized.
+
 ## 2026-09-17 16:00Z (round 80) — scout
 0 new FL LENR; archive 69,585 steady (post 14:15Z +183 vixri.ru, c304f20). Lanes dry: lenr-canr 1,454=1,454; rxiv max 2609.0045 archived; iccf-27 proceedings STILL unpublished (~17d post-conf); Zenodo knowns only. Exa web-search credits RESTORED - ru/zh sweeps knowns only. Discovery: JLN Labs (jnaudin.free.fr) confirmed live over http, 43 harvestable doc links, HTML-format - next growth fire target. Translator stale ~6d flag STANDS. OCR/queue/tag pending FocusOptimized.
 
