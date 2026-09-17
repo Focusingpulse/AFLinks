@@ -21,7 +21,7 @@ import json
 import os
 import re
 
-PREVIEW_LEN = 220
+PREVIEW_LEN = 160
 SLIM_FIELDS = ["id", "title", "filename", "categories", "meta_categories",
                "primary_person", "patent_numbers", "type", "size_bytes",
                "source_site", "source_url", "last_modified", "content_preview"]
