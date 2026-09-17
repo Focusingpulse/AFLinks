@@ -28,7 +28,7 @@ import urllib.request
 HEADERS = {"User-Agent": "Mozilla/5.0 (AFLinks enumerator; research archive)"}
 
 
-def fetch(url, timeout=25):
+def fetch(url, timeout=60):
     req = urllib.request.Request(url, headers=HEADERS)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", errors="replace")
@@ -87,7 +87,11 @@ def main():
             empty_streak += 1
             if empty_streak > 5:
                 break
-            offset += a.step
+            # Do NOT advance the offset on a fetch failure. svpwiki's
+            # listpages endpoint legitimately takes 17-25s, so a timeout is
+            # usually transient: retry the same offset. Advancing here would
+            # silently skip that page range and the row would never be
+            # discovered, because resume reads next_offset.
             continue
 
         if a.engine == "tiki":

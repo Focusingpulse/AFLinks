@@ -300,7 +300,18 @@ def main():
     # Load existing index for next ID
     import index_io
     next_id = index_io.next_id() + len(entries)
-    
+
+    # Skip anything already in the master index. The filelist is a work QUEUE and
+    # it can be re-appended (append_enumerated_pages.py) or reset (crawl_generic.py)
+    # after its URLs were already processed, which would otherwise burn the whole
+    # time budget re-fetching pages we already hold — merge_all_progress.py would
+    # then discard every duplicate. Queries go to entries whose preview is EMPTY
+    # are repaired by backfill_previews.py, not here, so a plain presence check is
+    # the correct division of responsibility.
+    indexed_urls = index_io.url_set()
+    print(f"Already indexed: {len(indexed_urls)} urls (duplicates in the queue will be skipped)")
+    skipped = 0
+
     processed = 0
     for i in range(start_idx, len(filelist)):
         elapsed = time.time() - start_time
@@ -310,6 +321,15 @@ def main():
         
         entry = filelist[i]
         url = entry["url"]
+
+        if url in indexed_urls:
+            # Walk past it quickly instead of paying a fetch for a guaranteed duplicate.
+            skipped += 1
+            progress["last_processed"] = i
+            if skipped % 200 == 0:
+                save_progress(progress, paths["progress"], paths["entries"])
+                print(f"  [skip-walk {skipped} already-indexed, at index {i}]", flush=True)
+            continue
         filename = urllib.parse.unquote(entry["filename"])
         
         print(f"[{i+1}/{len(filelist)}] {filename[:60]}", flush=True)
@@ -391,7 +411,7 @@ def main():
         time.sleep(0.3)
     
     save_progress(progress, paths["progress"], paths["entries"])
-    print(f"\nProcessed {processed} files this run")
+    print(f"\nProcessed {processed} files this run ({skipped} already-indexed skipped)")
     print(f"Total entries: {len(entries)}")
     print(f"Progress: {progress['last_processed']+1}/{len(filelist)}")
     
