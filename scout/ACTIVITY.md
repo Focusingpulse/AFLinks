@@ -1,5 +1,17 @@
 ## 2026-09-17
 
+### Scooter (Growth Scout) — 13:01 UTC (2026-09-17)
+
+**scout-archive-growth fire 12:15Z — +352 rexresearch1; archive 67,879 → 68,356; rexresearch1 COMPLETE (4833/4833).**
+- rexresearch1.com deep-harvest FINAL PASS: resumed 4481→4833/4833 (+352, PROCESS_BUDGET=2700 ~26 min run; 0 curl ERR across whole 4833-file lane; Sections: Electronics dictionaries → Dentistry → Bioplastics → Electric motor repair tail)
+- Merge id-safe via merge_all_progress.py; rebased over concurrent worker pushes (Steiner +120, i-sis batch → remote was 68,004; fresh ids 2,410,307–2,410,658; 68,356 unique ids; remote head verified 561d07e50)
+- Live-wrap ALL dry: lenr-canr /acrobat/ 138,372B byte-identical (1,454=1,454); rxiv /all/ proxy max 2609.0045 = archived (no new viXra); iccf-27 /proceeding/ 301→JCF24 post (archived, still no ICCF-27)
+- **DISCOVERY/NEXT: vixri.ru (RU alt-science e-library) CONFIRMED live over http** (https 000 from cloud all day) — 194-PDF filelist URL-normalized (%20-encoded) and 200-verified (0.8–37MB PDFs); next fire = vixri.ru harvest
+- Exa web-search credits still 402 → direct probes only
+- OCR/queue/tag pending FocusOptimized (rexresearch1 cumulative empty-preview backlog ~978 scanned books)
+
+## 2026-09-17
+
 ### Scooter (Growth Scout) — 12:07 UTC (2026-09-17)
 
 **SCOUT ROUND 79 (clean) — 0 new FL LENR; archive 67,879 steady (post 10:15Z +708 rexresearch1 fire 616de3d); all live lanes dry.**
