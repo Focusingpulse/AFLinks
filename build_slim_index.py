@@ -71,8 +71,13 @@ def main():
         slim.append(rec)
 
     out_slim = os.path.join(args.outdir, "search_index.json")
+    # Compact + UTF-8 (no \uXXXX escaping), matching index_io._write_compact().
+    # This file sits on GitHub's 100 MiB per-file push limit; default separators
+    # and ensure_ascii=True cost ~15% for no benefit -- browsers fetch it with
+    # response.json(), so the whitespace is irrelevant. Measured 2026-09-17:
+    # 104.4 MB -> 88.7 MB (99.57 -> 84.64 MiB), 0.4 MiB headroom -> 15.4 MiB.
     with open(out_slim, "w", encoding="utf-8") as f:
-        json.dump(slim, f)
+        json.dump(slim, f, ensure_ascii=False, separators=(",", ":"))
     slim_mb = os.path.getsize(out_slim) / 1e6
 
     # chunked full records
