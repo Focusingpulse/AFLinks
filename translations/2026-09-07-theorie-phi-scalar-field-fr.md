@@ -1,6 +1,6 @@
 ---
-name: "Phi Scalar Field Coupled to Baryonic Matter (French original, partial)"
-description: "French-language partial copy of the rigorous light scalar field Phi study coupled to baryonic density (m ~ 1e-27 eV/c2, alpha ~ G, SPARC predictions). Variant of the 09-10 full 7-chunk translation (containment 0.41, kept as distinct). Junk frontmatter replaced by QC."
+name: Theorie Phi Scalar Field Fr
+description: Full English translation
 ---
 Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html
 

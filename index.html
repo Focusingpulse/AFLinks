@@ -11,7 +11,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <meta name="description" content="Aetherforce Knowledge Vault — 52,701 cataloged primary-source documents (36,014 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
     <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
-    <meta property="og:description" content="64,953 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
+    <meta property="og:description" content="65,040 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
     <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
@@ -1902,8 +1902,8 @@
     <div class="hero pirate-hero">
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
-        <p>Explore <span id="heroDocCount">64,953</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">50,466</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">143</span> translations published · <span id="heroPagesCount">2,457</span> pages translated &amp; growing</p>
+        <p>Explore <span id="heroDocCount">65,040</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">53,516</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">164</span> translations published · <span id="heroPagesCount">2,980</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
@@ -1940,17 +1940,17 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01556347.html">
-    <span class="salvage-person">👤 Rudolf Steiner</span>
-    <span class="salvage-doc-title">XII. Intellect and Reason — GA 2. The Science of Knowing: Outline of an Epistemology Implicit in the Goethean World View (1988)</span>
-    <span class="salvage-preview">Our thinking has a twofold task: firstly, to create concepts with sharply delineated contours; secondly, to bring together the individual concepts thus created into a unified whole. In the first case we are dealing with …</span>
-    <span class="salvage-meta">the archive · Rudolf Steiner &amp; Anthroposophy</span>
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01527576.html">
+    <span class="salvage-person">👤 </span>
+    <span class="salvage-doc-title">otchet lorensa forsli i pamely boss yadernye reaktsii v kondensirovannykh sredakh 2019</span>
+    <span class="salvage-preview">ХТЯ и ШМ: Отчёт Лоренса Форсли и Памелы Босс :Ядерные реакции в конденсированных средах. 2019. --&gt; ХТЯ и ШМ Навигация Домой Wiki Галерея славы Конференции Мемориал Новости Семинары Статьи Форум Фотографии Отчёт Лоренса Ф…</span>
+    <span class="salvage-meta">lenr.seplm.ru · Alternative Energy Technologies · Challenges to the Standard Model</span>
 </a><!-- SALVAGE:END -->
     </section>
 
     <noscript>
         <div class="noscript-box">
-            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">64,953</span> documents</strong> are still yours to explore:</p>
+            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">65,040</span> documents</strong> are still yours to explore:</p>
             <ul>
                 <li><a href="./stats.json">Live stats (small JSON — agents welcome)</a></li>
                 <li><a href="./index.html?cat=Aether%20Physics">Browse Aether Physics</a></li>
@@ -2069,7 +2069,7 @@
                 <div class="active-filter-display" id="activeFilterDisplay"></div>
             </div>
             <div class="results-grid" id="results"></div>
-            <div class="loading" id="loading">The vault holds <span id="loadingDocCount">64,953</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
+            <div class="loading" id="loading">The vault holds <span id="loadingDocCount">65,040</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
         </div>
     </div>
 
@@ -2804,7 +2804,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260917002605')
+            fetch('./synthesis/synthesis_index.json?v=20260917005733')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3789,7 +3789,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260917002605');
+                        const response = await fetch('./search_index.json?v=20260917005733');
                         return response.json();
                     };
                     if (catParam) {
@@ -3819,12 +3819,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260917002605');
+                    const man = await fetch('./full_manifest.json?v=20260917005733');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260917002605');
+                    const feedRes = await fetch('./library_feed.json?v=20260917005733');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -3939,7 +3939,7 @@
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260917002605');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260917005733');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }

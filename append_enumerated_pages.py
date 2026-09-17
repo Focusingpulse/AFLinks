@@ -29,8 +29,17 @@ def main():
     fl = json.load(open(fl_path, encoding="utf-8"))
     have = {e.get("url") for e in fl}
     pages = json.load(open(enum_path, encoding="utf-8"))
+    # Accept either a bare JSON list of URLs or the enumeration STATE dict
+    # ({"pages": [...], "next_offset": N}) written by enumerate_wiki_pages.py.
+    if isinstance(pages, dict):
+        pages = pages.get("pages") or []
+    if not isinstance(pages, list):
+        pages = []
     added = 0
     for u in pages:
+        # Defensive: only ever fold in real URLs.
+        if not isinstance(u, str) or not u.startswith("http"):
+            continue
         if u in have:
             continue
         fl.append({"url": u, "filename": u.rstrip("/").split("/")[-1] or "index"})
