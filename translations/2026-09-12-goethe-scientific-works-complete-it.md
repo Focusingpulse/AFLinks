@@ -42,11 +42,7 @@ Varied, therefore, is the matter, but not the spirit that observes it. Goethe, d
 
 "If you wish to proceed into the infinite," he states for example, "move in every direction in the finite."
 
-Reading his writings, one immediately notes with what scruple, with what caution, with what respect,
-
-
-1
-if not indeed devotion, Goethe goes in search of the objective reality of the phenomenon, and how great and constant is his fear of letting himself go to hasty judgments.
+Reading his writings, one immediately notes with what scruple, with what caution, with what respect, if not indeed devotion, Goethe goes in search of the objective reality of the phenomenon, and how great and constant is his fear of letting himself go to hasty judgments.
 
 He did not want to override reality, but rather to allow it to reveal itself, to speak to him, to inspire him. Whoever is incapable of assuming an equally humble and devoted (that is, "scientific") attitude ends up, willy-nilly, by putting reality at his own service: that is, at the service of his personal opinions, his subjective interpretations, of what in short serves him, and not the world.
 
@@ -254,7 +250,6 @@ But in what way does it condition it? This is the point!
 For the most part one thinks (in a mechanical way) that the exterior characters of the plant are determined directly by the environment; this, however, is not true, for the latter acts upon the inner essence of the plant, which reacts, adapting or conforming its exterior characters to it.
 Everything of the plant that "appears to the eye," and is "inconstant" or "variable," is therefore determined by the plant itself in response to the stimuli exerted upon it by the environment.
 "The Darwinian conception — Steiner precisely observes — supposes that external influences act upon the nature of an organism as mechanical causes, and as such modify it. For Goethe,
-                                                    13
 on the other hand, the individual modifications are different outward manifestations of the primordial organism, which has within itself the capacity to take on multiple aspects, and in a given case assumes the one that proves most appropriate to the environmental conditions" (p. 19).
 By "primordial organism" we must naturally understand the Urpflanze: that is, the type-plant, the archetypal plant, or the archetype of the plant.
 One should not believe, however, that Goethe's inquiry and Darwin's are in conflict with each other; seen properly, they are in fact complementary. Darwin was indeed chiefly attentive to what acts from the external environment, while Goethe was chiefly attentive to what reacts, from within, to the environmental stimuli.
@@ -296,11 +291,7 @@ But anyone who represents a supersensible reality as if it were sensible (or, wh
 Or is there perhaps someone able to show us with our eyes those pieces of information or "instructions" that would be "written in a particular language" and would be found "recorded on a particular material substrate, called DNA"?
 Think of the child: around the age of seven, he changes his teeth, without anyone, from outside, taking care to extract the old ones and implant the new ones. Who, then, is it that provides, from within, for their replacement? Precisely that etheric body or "higher principle that raises itself above the individual organs and the individual stages," which will also take care, toward the end of the second seven-year period, of making him pubescent.
 That evolutionary processes are determined from within, and unfold in phases or stages, could moreover also be demonstrated by the results reached, in the psychodynamic field, by the research of Freud and Jung.
-According to Freud, the autonomous development of libido would in fact begin with the "oral" phase and, continuing with the "anal" and the "urethral" ones, would conclude with the "genital" phase; according to Jung, the equally autonomous "process of individuation" would instead begin (as illustrated by Erich Neumann in his The Origins and History of Consciousness — Astrolabio, Rome,
-
-
-16
-1978) with the "archetypal" stage of the "Uroboros" and, through those of the "Great Mother" and of the "Hero," would be completed with the stage of "Transformation" or of "Osiridization."
+According to Freud, the autonomous development of libido would in fact begin with the "oral" phase and, continuing with the "anal" and the "urethral" ones, would conclude with the "genital" phase; according to Jung, the equally autonomous "process of individuation" would instead begin (as illustrated by Erich Neumann in his The Origins and History of Consciousness — Astrolabio, Rome 1978) with the "archetypal" stage of the "Uroboros" and, through those of the "Great Mother" and of the "Hero," would be completed with the stage of "Transformation" or of "Osiridization."
 Certainly, the former moved on the biological or, more precisely, "psychosexual" plane, while the latter on the "archetypal" one; both, however, could not help but observe a process that originates from within and that, from outside, can be favored or hindered, but never created.
 Let us return, in any case, to Goethe.
 
@@ -347,7 +338,6 @@ For him, every part is worth as much as any other, since the "type" does not len
 
 
 Steiner writes on this subject: "If we consider the Goethean doctrine of metamorphosis as we find it formulated in the year 1790, we see that for Goethe this concept is that of an alternating expansion and contraction. In the seed, the formation of the plant is contracted (concentrated) to the highest degree. With the leaves there then follows the first development, the first expansion of the formative forces. What in the seed is concentrated in a point separates, expands spatially in the
-18
 leaves. In the calyx the forces contract again toward an axial point; the corolla is the result of the subsequent expansion; the stamens and the pistil, of the subsequent contraction; the fruit, of the last (third) expansion; after which the whole vital force of the plant (this principle of entelechy) hides itself in the seed, in the condition of maximum contraction" (p. 21).
 
 
@@ -371,130 +361,54 @@ According to Hegel — Verra aptly observes — "metamorphosis is only 'one side
 
 
 1	Answer to a Question
-2	We must learn to distinguish between form and force. Becoming is, for example, a force that does
-3	not yet have form, while the become (the state) is a form that no longer has force. Force tends
-4	to exhaust itself in form. When we speak of essence, however, we speak of an "entelechy": that is,
-5	an entity that is the unity of form and force. It is in fact a form that has force and a force that
-6	has form, in the same way as the sun, which is a light that has warmth and a warmth that has light.
-7	On the plane of thought, entelechy presents itself as concept. Normally, however, we are conscious of
-8	the (extinguished) reality of the representation, but not of the (living) reality of the concept. The
-9	latter we must conquer for ourselves.
-10	Thinking (as "verb") is instead a force: a force that can grasp (intuit) A, grasp B,
-11	grasp C, and so on. The concepts (A, B, C, etc.) therefore lie beyond thinking. Which
-12	allows us to establish the following hierarchy: 1st) concept; 2nd) thinking; 3rd) representation.
-13	The concept is quality; and quality determines and delimits an ideal space: where the qualitative
-14	space A ends, space B begins; where space B ends, space C begins, and so on.
-15
-16	19
-17	\fWe might therefore say — in conclusion — that Goethe stands to Linnaeus as Hegel stands to Aristotle.
-18	Goethe in fact introduced movement, or becoming, into the rigid natural universe of Linnaeus,
-19	just as Hegel introduced it into the rigid logical universe of Aristotle (his logic, for example,
-20	contemplates a dynamic "deduction" of the categories, and not a static and frozen "table" of them).
+2	We must learn to distinguish between form and force. Becoming is, for example, a force that does not yet have form, while the become (the state) is a form that no longer has force. Force tends to exhaust itself in form. When we speak of essence, however, we speak of an "entelechy": that is, an entity that is the unity of form and force. It is in fact a form that has force and a force that has form, in the same way as the sun, which is a light that has warmth and a warmth that has light.
+7	On the plane of thought, entelechy presents itself as concept. Normally, however, we are conscious of the (extinguished) reality of the representation, but not of the (living) reality of the concept. The latter we must conquer for ourselves.
+10	Thinking (as "verb") is instead a force: a force that can grasp (intuit) A, grasp B, grasp C, and so on. The concepts (A, B, C, etc.) therefore lie beyond thinking. Which allows us to establish the following hierarchy: 1st) concept; 2nd) thinking; 3rd) representation.
+13	The concept is quality; and quality determines and delimits an ideal space: where the qualitative space A ends, space B begins; where space B ends, space C begins, and so on.
+16	17	We might therefore say — in conclusion — that Goethe stands to Linnaeus as Hegel stands to Aristotle.
+18	Goethe in fact introduced movement, or becoming, into the rigid natural universe of Linnaeus, just as Hegel introduced it into the rigid logical universe of Aristotle (his logic, for example, contemplates a dynamic "deduction" of the categories, and not a static and frozen "table" of them).
 
 1	One more thing.
-2	Someone might wonder: but why, in the botanical field, are Goethe's fame and authority not then
-3	equal to, if not superior to, those of Linnaeus?
-4	Well then, listen to what Barsanti says again: "As it soon became clear that in spite of certain
-5	premises it (the Linnaean philosophia – ed.) led to an artificial system, so it was
-6	simultaneously just as clear that this constituted a great advantage for botanical science,
-7	and perhaps the most important advantage. Gilibert (Jean-Emmanuel Gilibert, botanist, 1741-
+2	Someone might wonder: but why, in the botanical field, are Goethe's fame and authority not then equal to, if not superior to, those of Linnaeus?
+4	Well then, listen to what Barsanti says again: "As it soon became clear that in spite of certain premises it (the Linnaean philosophia – ed.) led to an artificial system, so it was simultaneously just as clear that this constituted a great advantage for botanical science, and perhaps the most important advantage. Gilibert (Jean-Emmanuel Gilibert, botanist, 1741-
 8	1814 – ed.) realized this with great clarity: although Tournefort's (Joseph Pitton de
-9	Tournefort, French physician and botanist, 1656-1740 – ed.) was more natural, Linnaeus's system
-10	was indisputably to be preferred to it because it was "more uniform in its articulation", that is,
-11	it avoided providing too many criteria for classifying bodies (which disorients the naturalist) and
-12	provided, much more effectively, a single parameter, the key to finding one's way through the labyrinth of nature. The
-13	sexual system was certainly an artificial system (because sexuality is only one aspect of
-14	living nature) but it was to be preferred precisely for this reason: because by selecting one character it was
-15	able to compare objects that, being very different in other characters, would have been difficult to
-16	compare. Like other Linnaeans, Gilibert thus appreciates, in this operation, its misleading
-17	character: and, in particular, the fact that thanks to it nature seems a much more uniform reality
-18	than it is, as if to move within it one needed, at least to achieve certain
-19	objectives, to transfigure it" (op. cit., pp. 19-20).
-20	If Goethe's fame and authority are not equal, if not superior, to those of Linnaeus, it is therefore
-21	because ordinary consciousness has preferred to "upset" or "transfigure" the order of
-22	nature rather than to develop and modify itself.
+9	Tournefort, French physician and botanist, 1656-1740 – ed.) was more natural, Linnaeus's system was indisputably to be preferred to it because it was "more uniform in its articulation", that is, it avoided providing too many criteria for classifying bodies (which disorients the naturalist) and provided, much more effectively, a single parameter, the key to finding one's way through the labyrinth of nature. The sexual system was certainly an artificial system (because sexuality is only one aspect of living nature) but it was to be preferred precisely for this reason: because by selecting one character it was able to compare objects that, being very different in other characters, would have been difficult to compare. Like other Linnaeans, Gilibert thus appreciates, in this operation, its misleading character: and, in particular, the fact that thanks to it nature seems a much more uniform reality than it is, as if to move within it one needed, at least to achieve certain objectives, to transfigure it" (op. cit., pp. 19-20).
+20	If Goethe's fame and authority are not equal, if not superior, to those of Linnaeus, it is therefore because ordinary consciousness has preferred to "upset" or "transfigure" the order of nature rather than to develop and modify itself.
 23
 24	L.R.
 25	Rome, 26 September 2000
 26
 27	20
-28	\fThe Scientific Works of Goethe (5)
+28	The Scientific Works of Goethe (5)
 
-1	Tonight we begin the second chapter, entitled: The genesis of Goethe's ideas on the formation
-2	of animals.
-3	Having spoken of the plant "type", we shall therefore speak of the animal "type" (of the "Urtier" or
-4	of the idea of the animal).
-5	Let us keep in mind, however, that these entities also operate in man: the I as I is in fact a human
-6	being, while the I as quality (soul) is an animal, as time (life) is a plant, and as
-7	space (physical body) is a mineral.
-8	In observing and knowing nature, the I therefore does not observe and know itself, but rather what
-9	is within it; the I is in fact always the knowing subject, and never the known object.
+1	Tonight we begin the second chapter, entitled: The genesis of Goethe's ideas on the formation of animals.
+3	Having spoken of the plant "type", we shall therefore speak of the animal "type" (of the "Urtier" or of the idea of the animal).
+5	Let us keep in mind, however, that these entities also operate in man: the I as I is in fact a human being, while the I as quality (soul) is an animal, as time (life) is a plant, and as space (physical body) is a mineral.
+8	In observing and knowing nature, the I therefore does not observe and know itself, but rather what is within it; the I is in fact always the knowing subject, and never the known object.
 10	Whoever is familiar with the science of the spirit, and in particular with the evolution described by Steiner in
-11	Occult Science in its General Lines, knows that minerals, plants and animals are, so to speak,
-12	indirect creatures of God and direct creatures of man. God in fact created man (the "firstborn" —
-13	this is precisely what Herbert Fritsche called him — cf. H. Fritsche: The Firstborn – Bompiani, 1946) and
-14	from man the kingdoms of nature then sprang.
+11	Occult Science in its General Lines, knows that minerals, plants and animals are, so to speak, indirect creatures of God and direct creatures of man. God in fact created man (the "firstborn" —
+13	this is precisely what Herbert Fritsche called him — cf. H. Fritsche: The Firstborn – Bompiani, 1946) and from man the kingdoms of nature then sprang.
 15	But let us come to ourselves.
 16
-17	Goethe – Steiner writes – "arrived at the point of view that the constitution (structure) of man,
-18	considered as a totality, forms the basis for the highest manifestations of his life, and that in the
-19	peculiarity of this totality lies the condition that places man at the apex of creation. What
-20	we must keep foremost in mind is that Goethe seeks the figure of the animal in the perfected figure of
-21	man; only, in the former there come to the fore the organs that serve the
-22	animal functions, as it were the point toward which the whole formation converges and which it serves, while
-23	human formation especially perfects those organs that serve the spiritual functions. Already
-24	here we find that the animal organism Goethe sees before him is no longer something
-25	sensibly real, but an ideal quid that in animals develops in a lower direction,
-26	in man in a higher one. Here already lies the germ of what Goethe later called the "type",
-27	by which he meant to designate not "some individual animal", but the "idea" of the
-28	animal. Moreover, there is
-29	already found here a hint of a law he later enunciated, most important for its
-30	consequences, namely that "the variety of forms springs from the fact that this or that part has
-31	been granted a preponderance over the others"" (p. 26).
+17	Goethe – Steiner writes – "arrived at the point of view that the constitution (structure) of man, considered as a totality, forms the basis for the highest manifestations of his life, and that in the peculiarity of this totality lies the condition that places man at the apex of creation. What we must keep foremost in mind is that Goethe seeks the figure of the animal in the perfected figure of man; only, in the former there come to the fore the organs that serve the animal functions, as it were the point toward which the whole formation converges and which it serves, while human formation especially perfects those organs that serve the spiritual functions. Already here we find that the animal organism Goethe sees before him is no longer something sensibly real, but an ideal quid that in animals develops in a lower direction, in man in a higher one. Here already lies the germ of what Goethe later called the "type", by which he meant to designate not "some individual animal", but the "idea" of the animal. Moreover, there is already found here a hint of a law he later enunciated, most important for its consequences, namely that "the variety of forms springs from the fact that this or that part has been granted a preponderance over the others"" (p. 26).
 32
-33	I think you know, in this connection, that Steiner speaks of birds as animals in which the
-34	cephalic organization is prevalent, of felines as animals in which the rhythmic
-35	organization is prevalent, and of bovines as animals in which the metabolic
-36	organization is prevalent.
-37	Which means that birds, felines and bovines anatomically possess all three
-38	organizations, but that in the first, the functions of the head prevail over the other two; in the second, the middle ones; and in the third, the visceral ones. These differentiations have in the first place a
-39	qualitative (ideal) nature, in the second place a functional (energetic) one, and lastly an anatomical (sensible) one.
+33	I think you know, in this connection, that Steiner speaks of birds as animals in which the cephalic organization is prevalent, of felines as animals in which the rhythmic organization is prevalent, and of bovines as animals in which the metabolic organization is prevalent.
+37	Which means that birds, felines and bovines anatomically possess all three organizations, but that in the first, the functions of the head prevail over the other two; in the second, the middle ones; and in the third, the visceral ones. These differentiations have in the first place a qualitative (ideal) nature, in the second place a functional (energetic) one, and lastly an anatomical (sensible) one.
 
 1	Answer to a Question
-2	Your difficulty in considering birds as animals in which the organization of the head prevails
-3	stems from the fact that this prevalence is to be grasped above all on the etheric plane, which, as such, is in
-4	relationship with the so-called "elements": fire, air, water and earth (as the
-5	"pre-Socratics" understood them). Birds have air as their habitat: not only because they have wings and fly, but
-6	more still, because their bones are "pneumatic", that is, provided with internal cavities full of air.
+2	Your difficulty in considering birds as animals in which the organization of the head prevails stems from the fact that this prevalence is to be grasped above all on the etheric plane, which, as such, is in relationship with the so-called "elements": fire, air, water and earth (as the
+5	"pre-Socratics" understood them). Birds have air as their habitat: not only because they have wings and fly, but more still, because their bones are "pneumatic", that is, provided with internal cavities full of air.
 7	Air, however, is also the (astral) habitat of thoughts. In the lectures collected in the book entitled:
 8	                                                    21
-9	\fMan, Harmonic Synthesis of Universal Creative Activities (Antroposofica, Milan 1968), Steiner has
-10	illustrated, in this connection, the subtle relationship existing between man's thoughts and the plumage
-11	of birds.
+9	Man, Harmonic Synthesis of Universal Creative Activities (Antroposofica, Milan 1968), Steiner has illustrated, in this connection, the subtle relationship existing between man's thoughts and the plumage of birds.
 12
-13	It is therefore necessary to start from the observation of external forms in order to ascend, by virtue of the processes or
-14	functions that take place in them, to essences or qualities: that is, one must start from the sensible
-15	form to ascend to the ideal form (to the idea), without however forgetting — as we have said and
-16	repeated in dealing with The Philosophy of Freedom — that the idea (or concept) is form, but has no
-17	form.
-18	The "mystic chorus" sings, in Faust: "All that is transitory is but a symbol". And why? Because everything
-19	that is perishable (the "phenomenon"), that is to say, everything that the (physical) senses perceive, is the expression,
-20	manifestation or revelation of the essence (of the "noumenon").
-21	Certainly, one must possess an (imaginative) eye for forms and an (inspirative) ear for
-22	qualities, if one does not want to end up, like Kant, believing the "noumenon" unknowable merely because one
-23	is incapable of understanding the language of the "phenomenon".
-24	Knowing that the variety of forms springs — as Goethe says — "from the fact that this or that
-25	part has been granted a preponderance over the others" proves particularly useful in the choice
-26	of medicinal plants. There are, for example, plants that display a greater root development than
-27	leaf development, and others in which the opposite occurs. This means that the former convey forces
-28	qualitatively opposite to those conveyed by the latter, and can therefore be of help (if
-29	appropriately prepared) to those persons in whom the corresponding forces appear, on the contrary,
-30	deficient.
+13	It is therefore necessary to start from the observation of external forms in order to ascend, by virtue of the processes or functions that take place in them, to essences or qualities: that is, one must start from the sensible form to ascend to the ideal form (to the idea), without however forgetting — as we have said and repeated in dealing with The Philosophy of Freedom — that the idea (or concept) is form, but has no form.
+18	The "mystic chorus" sings, in Faust: "All that is transitory is but a symbol". And why? Because everything that is perishable (the "phenomenon"), that is to say, everything that the (physical) senses perceive, is the expression, manifestation or revelation of the essence (of the "noumenon").
+21	Certainly, one must possess an (imaginative) eye for forms and an (inspirative) ear for qualities, if one does not want to end up, like Kant, believing the "noumenon" unknowable merely because one is incapable of understanding the language of the "phenomenon".
+24	Knowing that the variety of forms springs — as Goethe says — "from the fact that this or that part has been granted a preponderance over the others" proves particularly useful in the choice of medicinal plants. There are, for example, plants that display a greater root development than leaf development, and others in which the opposite occurs. This means that the former convey forces qualitatively opposite to those conveyed by the latter, and can therefore be of help (if appropriately prepared) to those persons in whom the corresponding forces appear, on the contrary, deficient.
 31	But let us return to the animals.
 32
-33	Steiner writes: "Already here the difference between man and animal is therefore sought in the fact that an
-34	ideal figure perfects itself in two different directions, and that each time one system of organs gains the
-35	upper hand, and from this the whole creature receives its own character" (p. 21).
+33	Steiner writes: "Already here the difference between man and animal is therefore sought in the fact that an ideal figure perfects itself in two different directions, and that each time one system of organs gains the upper hand, and from this the whole creature receives its own character" (p. 21).
 
 Whenever "a system of organs gains the upper hand," there comes into being, so to speak, a "specialized" creature; and animals are, in truth, nothing but "specialists."
 Man, however, is not; and why? Because in order to be free, one must not be specialized.
@@ -519,7 +433,6 @@ When, for example, one distinguishes — as the Italian physician and chemist Gi
 Of the pure physical body one must speak in morphological terms: that is, in the terms of that discipline which studies — as is well known — the external forms and internal structures of living organisms and minerals.
 To observe such forms and structures with an "artistic" eye — that is, with an eye that, being imaginative, transcends the ordinary separation between art and science — means, however, to understand such forms and structures as images, symbols, or — in Goethe's words — "drawings."
 He asserts — as we have just seen — that "every fleshy part" is almost only "the coloring" of such drawings. Well, do we not often say of someone in desperate condition that he has been reduced to "skin and bones"? In anthroposophic terms, however, we could also say that he has been reduced to "Lucifer and Ahriman": that is, that human being has failed in him who stands precisely,
-                                                  23
 as the third, between the luciferic skin and the ahrimanic bones, just as, on Golgotha, the cross of Christ stands, as the third, between those of the two "thieves."
 Only that which stands at the center — precisely as that "tertium" which, according to binary logic (governing computers), would, curiously enough, be "non datum" — is therefore able to humanize both the skin and the bones.
 Our task is therefore not to flay ourselves or de-bone ourselves, but to place these parts in the service of the I: that is, of that which, in us, is properly human.
@@ -555,11 +468,7 @@ We have deliberately said "beast," since animality, in animals, is physiological
 
 Today, everyone wants to "realize themselves." But in order truly to do so, they would first have to discover what they really are or, better said, who they really are.
 
-We have a great responsibility toward nature. Only a man who is a man can in fact nourish an authentic sense of love or compassion for the creatures of the animal world,
-
-25
-
-of the vegetable world and of the mineral world; not by chance, a man who fails to realize his own humanity will end up making these creatures victims of his bestiality.
+We have a great responsibility toward nature. Only a man who is a man can in fact nourish an authentic sense of love or compassion for the creatures of the animal world, of the vegetable world and of the mineral world; not by chance, a man who fails to realize his own humanity will end up making these creatures victims of his bestiality.
 
 Like "sorcerers' apprentices," we are currently violating and destroying ourselves and nature. But who is a "sorcerer's apprentice"? One who deludes himself that he can with impunity make use of forces whose nature he neither knows nor masters.
 
@@ -657,12 +566,7 @@ The misunderstanding, you will agree, is no small one.
 
 In reality, scientific knowledge of the natural world ought to have prepared the way for scientific knowledge of the spiritual world. Once that preparatory phase was exhausted (toward the end of the nineteenth century), science did not, however, turn to the supersensible, but to the subsensible, penetrating this sphere without the faintest idea of the quality of the forces that dwell and operate there.
 
-Just as the sensible had been quantified or mathematized, people went on quantifying or mathematizing the subsensible (to the point of launching a "quantum" mechanics), without even
-
-
-29
-
-asking itself whether such a way of proceeding, tested with (relative) success in the knowledge of the former, was fit to comprehend the reality of the latter.
+Just as the sensible had been quantified or mathematized, people went on quantifying or mathematizing the subsensible (to the point of launching a "quantum" mechanics), without even asking itself whether such a way of proceeding, tested with (relative) success in the knowledge of the former, was fit to comprehend the reality of the latter.
 
 What, in fact, is the quality of quantity? That is a question only a science of the spirit (or of spirits) could answer.
 
@@ -700,145 +604,67 @@ Goethe's Scientific Works (7)
 
 
 1	Toward the end of our last meeting, we spoke of the inspiring function of the guiding idea.
-2	I hope you will forgive me if tonight I begin by telling you, in this regard, a little story
-3	that perhaps some of you already know.
-4	In the dead of night, Titius is looking for something on the ground, on the part of the sidewalk illuminated by a
-5	streetlamp. Caius arrives and, seeing him so flustered, asks: "Excuse me, have you lost something?". And
+2	I hope you will forgive me if tonight I begin by telling you, in this regard, a little story that perhaps some of you already know.
+4	In the dead of night, Titius is looking for something on the ground, on the part of the sidewalk illuminated by a streetlamp. Caius arrives and, seeing him so flustered, asks: "Excuse me, have you lost something?". And
 6	Titius replies: "Yes, my house keys". "And did you lose them right here?", Caius asks. "No",
-7	Titius replies. At which Caius, bewildered, asks: "Then why are you looking for them here?". And Titius promptly
-8	answers: "Because there's light here!".
+7	Titius replies. At which Caius, bewildered, asks: "Then why are you looking for them here?". And Titius promptly answers: "Because there's light here!".
 9	Well, this little story may not be hilarious, but it fits our case perfectly.
-10	Even with scientists who say they are "researching," we would do well to ask on what
-11	criterion they decided to research in one direction rather than another.
-12	In this way, we might discover that the decision to undertake a given research was
-13	made not on the basis of ideal (scientific) criteria, but of extrinsic or random factors, if not
-14	even of interests that should have nothing to do with knowledge (for
-15	science as a "profession," and not as a "vocation," what Schopenhauer said at the time
-16	about the "philosophy of Universities" also applies: "It is the ancient struggle between those who
-17	live for something and those who live from something, or between those who are something and those who represent it" - The Philosophy of Universities – Adelphi, Milan 1992, p. 35).
-18	Think, regarding "randomness," of homeopathic medicine. How does it proceed to create its
-19	remedies? Put briefly: it administers a given substance (mineral, plant, or
-20	animal) to a healthy individual, and then observes what happens, recording precisely all the
-21	symptoms that are thus produced. Subsequently, it takes that substance, dilutes and dynamizes it to
-22	obtain a remedy, and when faced with a patient who spontaneously presents those
-23	same symptoms, prescribes it.
-24	The thing, to be clear, works (despite what almost all members of the current "scientific
-25	community" say); what we wish to emphasize here, however, is that before testing it, no one knows,
-26	nor imagines they could know, what type of action that substance will perform in the human being.
-27	And for what reason? Because no one knows anything not only of the qualities and forces of natural
-28	substances, but not even of the relationship in which they stand with those normally present and operating
-29	in the human organism (to those wishing to deepen the matter, I would recommend Rudolf Hauschka's book:
+10	Even with scientists who say they are "researching," we would do well to ask on what criterion they decided to research in one direction rather than another.
+12	In this way, we might discover that the decision to undertake a given research was made not on the basis of ideal (scientific) criteria, but of extrinsic or random factors, if not even of interests that should have nothing to do with knowledge (for science as a "profession," and not as a "vocation," what Schopenhauer said at the time about the "philosophy of Universities" also applies: "It is the ancient struggle between those who live for something and those who live from something, or between those who are something and those who represent it" - The Philosophy of Universities – Adelphi, Milan 1992, p. 35).
+18	Think, regarding "randomness," of homeopathic medicine. How does it proceed to create its remedies? Put briefly: it administers a given substance (mineral, plant, or animal) to a healthy individual, and then observes what happens, recording precisely all the symptoms that are thus produced. Subsequently, it takes that substance, dilutes and dynamizes it to obtain a remedy, and when faced with a patient who spontaneously presents those same symptoms, prescribes it.
+24	The thing, to be clear, works (despite what almost all members of the current "scientific community" say); what we wish to emphasize here, however, is that before testing it, no one knows, nor imagines they could know, what type of action that substance will perform in the human being.
+27	And for what reason? Because no one knows anything not only of the qualities and forces of natural substances, but not even of the relationship in which they stand with those normally present and operating in the human organism (to those wishing to deepen the matter, I would recommend Rudolf Hauschka's book:
 30	The Nature of Substance – Anthroposophic Press, Milan 1991).
-31	Only a natural science and medicine enlightened by a science of the spirit could in fact
-32	allow us to know, either the qualities of substances and natural forces, or the qualities of
-33	substances and processes of the human body.
+31	Only a natural science and medicine enlightened by a science of the spirit could in fact allow us to know, either the qualities of substances and natural forces, or the qualities of substances and processes of the human body.
 34	Understand me, confirmation of facts remains in any case essential, because facts are never wrong.
-35	There is nevertheless a great difference between proceeding blindly and following an ideal criterion that
-36	allows one to reasonably foresee such confirmation, and therefore expect it. Or is it perhaps
-37	the same thing to travel with or without maps, or with or without a compass?
-38	Consider, to give another example, "degenerative" and "inflammatory" diseases. Would it not be
-39	important to know, to guide research profitably, that the existing relationship in the human
-40	being between the quality of neurosensory processes and that of metabolic processes is analogous to that
-41	existing on our planet between polar zones and tropical zones: that is, between the cold quality and the
-42	warm quality? And that a morbid state arises every time that, in the human being, the cold
-43	(saline) processes of the upper organization interfere with the warm (sulfurous) ones of the lower
-44	organization, and vice versa?
+35	There is nevertheless a great difference between proceeding blindly and following an ideal criterion that allows one to reasonably foresee such confirmation, and therefore expect it. Or is it perhaps the same thing to travel with or without maps, or with or without a compass?
+38	Consider, to give another example, "degenerative" and "inflammatory" diseases. Would it not be important to know, to guide research profitably, that the existing relationship in the human being between the quality of neurosensory processes and that of metabolic processes is analogous to that existing on our planet between polar zones and tropical zones: that is, between the cold quality and the warm quality? And that a morbid state arises every time that, in the human being, the cold
+43	(saline) processes of the upper organization interfere with the warm (sulfurous) ones of the lower organization, and vice versa?
 
 1	32
-2	The fact is that there are ways of thinking that open the path to discoveries (to inspirations and
-3	intuitions), and others that instead close it. Everything depends on the greater or lesser degree of
-4	correspondence between our way of thinking and the way of being of reality. Ordinary intellectual
-5	consciousness, for example, opens the path to discoveries regarding the inorganic world, but not to those
-6	regarding the organic world, let alone the soul-spiritual world.
-7	Remember what Steiner said in one of the passages we read last time? That the
-8	discovery of the intermaxillary bone, as a consequence of Goethe's "grand conceptions,"
+2	The fact is that there are ways of thinking that open the path to discoveries (to inspirations and intuitions), and others that instead close it. Everything depends on the greater or lesser degree of correspondence between our way of thinking and the way of being of reality. Ordinary intellectual consciousness, for example, opens the path to discoveries regarding the inorganic world, but not to those regarding the organic world, let alone the soul-spiritual world.
+7	Remember what Steiner said in one of the passages we read last time? That the discovery of the intermaxillary bone, as a consequence of Goethe's "grand conceptions,"
 9	"had to remain incomprehensible to those who did not have them" and who were unable to form
 10	"the palest idea" of the thoughts that "were teeming in Goethe."
-11	Unfortunately, things have not changed since then: even today one persists in staying on this side
-12	of the threshold that divides static thinking (physical-representative) from dynamic thinking (etheric-
+11	Unfortunately, things have not changed since then: even today one persists in staying on this side of the threshold that divides static thinking (physical-representative) from dynamic thinking (etheric-
 13	imaginative), thus precluding every possibility of accessing qualitative thinking (astral-
 14	inspirational).
-15	Persuaded (in Kantian fashion) that things, in their essence or quality, are unknowable, science then
-16	sets about measuring them, reducing them to numbers. Is this not, in the end, the reason for the success
-17	enjoyed by mathematics in almost all disciplines.
-18	Goethe however observes: "We must recognize and confess what mathematics is, in what
-19	it can render essential services to the natural sciences and in what things instead it has nothing to do with, and
-20	into what lamentable aberration science and art have fallen through a false application of their regeneration" (Maxims and Reflections, p. 240).
-21	In this regard, again last time, we asked ourselves: "What is the quality of quantity?";
-22	quantity too is in fact a "quality": a quality that however has the singular characteristic of being
+15	Persuaded (in Kantian fashion) that things, in their essence or quality, are unknowable, science then sets about measuring them, reducing them to numbers. Is this not, in the end, the reason for the success enjoyed by mathematics in almost all disciplines.
+18	Goethe however observes: "We must recognize and confess what mathematics is, in what it can render essential services to the natural sciences and in what things instead it has nothing to do with, and into what lamentable aberration science and art have fallen through a false application of their regeneration" (Maxims and Reflections, p. 240).
+21	In this regard, again last time, we asked ourselves: "What is the quality of quantity?"; quantity too is in fact a "quality": a quality that however has the singular characteristic of being
 23	– as Hegel states – "devoid of quality."
-24	Imagine, for example, having three apples and three pears. Well, from the quantitative point of view, you have
-25	an equality (3=3), since it is of no importance whatsoever that apples are qualitatively different
-26	from pears. But if it is of no importance that apples are different from pears, does one not then run the
-27	risk, by extending and generalizing such a point of view, that it will also be of no importance
-28	that the true is different from the false, the beautiful from the ugly, and the good from the evil?
-29	Goethe in fact notes: "Mathematics cannot eliminate a prejudice, cannot mitigate
-30	obstinacy, calm partiality, can do nothing in the ethical field" (Maxims and Reflections, p.
+24	Imagine, for example, having three apples and three pears. Well, from the quantitative point of view, you have an equality (3=3), since it is of no importance whatsoever that apples are qualitatively different from pears. But if it is of no importance that apples are different from pears, does one not then run the risk, by extending and generalizing such a point of view, that it will also be of no importance that the true is different from the false, the beautiful from the ugly, and the good from the evil?
+29	Goethe in fact notes: "Mathematics cannot eliminate a prejudice, cannot mitigate obstinacy, calm partiality, can do nothing in the ethical field" (Maxims and Reflections, p.
 31	142).
 32	But let us return to ourselves.
 
-1	Steiner writes: "How alive in Goethe was the intention to present his ideas about nature in
-2	a greater work is revealed to us by seeing how, at every new discovery he achieves, he cannot
-3	refrain from expressly pointing out to his friends the possibility of an extension of his
-4	ideas to all of nature (...) We must regret that such a work was not accomplished by
-5	Goethe's own hand. Judging from what remains of it, it would have been a creation that would have
-6	far surpassed anything similar that was done subsequently. It would have become a canon, from
-7	which every effort made in the field of natural science would have had to take its start, and on the basis of
-8	which its spiritual substance could have been tested. That profoundly philosophical spirit,
-9	which only the superficial can contest in Goethe, would here have united with a loving immersion
-10	in the object given by experimental-sensible research" (pp. 35-36).
+1	Steiner writes: "How alive in Goethe was the intention to present his ideas about nature in a greater work is revealed to us by seeing how, at every new discovery he achieves, he cannot refrain from expressly pointing out to his friends the possibility of an extension of his ideas to all of nature (...) We must regret that such a work was not accomplished by
+5	Goethe's own hand. Judging from what remains of it, it would have been a creation that would have far surpassed anything similar that was done subsequently. It would have become a canon, from which every effort made in the field of natural science would have had to take its start, and on the basis of which its spiritual substance could have been tested. That profoundly philosophical spirit, which only the superficial can contest in Goethe, would here have united with a loving immersion in the object given by experimental-sensible research" (pp. 35-36).
 
 1	One can therefore be a "profoundly philosophical spirit" and not have a degree in philosophy
 2	("For philosophy in the proper sense – Goethe even confesses – I possessed no organ whatsoever" –
-3	Influence of Recent Philosophy in Works – Sansoni, Florence, vol.V, p. 51). What matters, in fact, is
-4	having philosophy in one's blood or heart, as ideal tension and art of thought, and not only
-5	in one's head, as erudition and "systematic mania" (Steiner).
+3	Influence of Recent Philosophy in Works – Sansoni, Florence, vol.V, p. 51). What matters, in fact, is having philosophy in one's blood or heart, as ideal tension and art of thought, and not only in one's head, as erudition and "systematic mania" (Steiner).
 6	                                                   33
 7	"To laugh at philosophy – Pascal (1623-1662) used to say – means to truly philosophize"
 8	(B. Pascal: Pensées – San Paolo, Cinisello Balsamo (Mi) 1996, p. 120).
-9	Every true scientist (in the capacity, if one wishes, of "philosopher of the conscious soul") should therefore
-10	possess both the ideal tension and the art of thought.
-11	Einstein (1879-1955) writes in this regard: "Hardly will you find a profound spirit in scientific
-12	investigation without a characteristic religiosity of his own (...) His religiosity consists in the admiring
-13	ecstasy before the laws of nature; there reveals itself to him a mind so superior that all the intelligence put
-14	by men into their thoughts is, in the presence of it, an absolutely null reflection"
+9	Every true scientist (in the capacity, if one wishes, of "philosopher of the conscious soul") should therefore possess both the ideal tension and the art of thought.
+11	Einstein (1879-1955) writes in this regard: "Hardly will you find a profound spirit in scientific investigation without a characteristic religiosity of his own (...) His religiosity consists in the admiring ecstasy before the laws of nature; there reveals itself to him a mind so superior that all the intelligence put by men into their thoughts is, in the presence of it, an absolutely null reflection"
 15	(A. Einstein: How I See the World – Newton Compton, Rome 1999, p. 22).
 16	As you see, the ideal tension (the "religiosity") was present in him; but was the art of thought equally present?
-17	One would not say so. Not only, in fact, does he declare (on the same page): "I do not want and cannot
-18	imagine an individual who survives his bodily death," but also in the passage quoted above he shows he believes
-19	that in the laws of nature a mind reveals itself that is enormously
-20	"superior," yes, to the human mind, but not qualitatively different: as if between cosmic-divine
-21	intelligence and human intelligence there were a quantitative difference (a difference of "Intelligence
+17	One would not say so. Not only, in fact, does he declare (on the same page): "I do not want and cannot imagine an individual who survives his bodily death," but also in the passage quoted above he shows he believes that in the laws of nature a mind reveals itself that is enormously
+20	"superior," yes, to the human mind, but not qualitatively different: as if between cosmic-divine intelligence and human intelligence there were a quantitative difference (a difference of "Intelligence
 22	Quotient") and not a qualitative one (of level of consciousness).
-23	Even a great scientist like Einstein was therefore unable to keep at bay the demon of
-24	quantity (the one that makes him say, for example: "Nature is the realization of all that can be
-25	imagined most mathematically simple" – ibid., pp. 44-45).
-26	One thing, on the other hand, is the soul, in which the ideal tension or "religiosity" lives, another is the spirit, to which
-27	belongs the practice of the art of thought.
-28	And if an analogous ideal tension lived in Steiner's soul and in Einstein's, quite different was
-29	instead that which signed their spirits.
-30	Regarding the first, in fact, listen to what Einstein says: "We honor ancient Greece
-31	as the cradle of Western science. There, for the first time, a logical system was created,
-32	marvel of thought, whose statements are deduced so clearly one from another that each
-33	of the demonstrated propositions raises no minimal doubt: it is Euclid's geometry.
-34	This admirable work of reason gave the human brain the greatest confidence in its
-35	further efforts. He who in his early youth has not felt enthusiasm before
-36	this work was not born to be a theoretical scientist" (ibid., p. 41).
-37	And now listen to what Steiner says about his first encounter with geometry: "Living with
-38	the soul in the elaboration of forms perceived in a purely interior way, without impressions of
-39	external senses, gave me the greatest satisfaction; I found there comfort for the state of mind resulting in me
-40	from receiving no answer to all questions. Being able to grasp something purely in the spirit gave me
-41	a sense of inner happiness. I know that upon contact with geometry I knew joy for the first time"
+23	Even a great scientist like Einstein was therefore unable to keep at bay the demon of quantity (the one that makes him say, for example: "Nature is the realization of all that can be imagined most mathematically simple" – ibid., pp. 44-45).
+26	One thing, on the other hand, is the soul, in which the ideal tension or "religiosity" lives, another is the spirit, to which belongs the practice of the art of thought.
+28	And if an analogous ideal tension lived in Steiner's soul and in Einstein's, quite different was instead that which signed their spirits.
+30	Regarding the first, in fact, listen to what Einstein says: "We honor ancient Greece as the cradle of Western science. There, for the first time, a logical system was created, marvel of thought, whose statements are deduced so clearly one from another that each of the demonstrated propositions raises no minimal doubt: it is Euclid's geometry.
+34	This admirable work of reason gave the human brain the greatest confidence in its further efforts. He who in his early youth has not felt enthusiasm before this work was not born to be a theoretical scientist" (ibid., p. 41).
+37	And now listen to what Steiner says about his first encounter with geometry: "Living with the soul in the elaboration of forms perceived in a purely interior way, without impressions of external senses, gave me the greatest satisfaction; I found there comfort for the state of mind resulting in me from receiving no answer to all questions. Being able to grasp something purely in the spirit gave me a sense of inner happiness. I know that upon contact with geometry I knew joy for the first time"
 42	(My Life – Anthroposophic, Milan 1992, p. 17).
-43	Goethe, however, was able to experience not only an ideal tension, but also – as
-44	we have seen – "a loving immersion in the object given by experimental-sensible
-45	research": precisely that, that is, which souls subjugated by Luciferic and Ahrimanic entities will
-46	never be able to experience.
+43	Goethe, however, was able to experience not only an ideal tension, but also – as we have seen – "a loving immersion in the object given by experimental-sensible research": precisely that, that is, which souls subjugated by Luciferic and Ahrimanic entities will never be able to experience.
 47	Philosophers (idealists), in fact, experience the ideal tension, but disdain (from the height of their
-48	"ivory tower") to immerse themselves in objects given by experimental-sensible research, while
-49	scientists (materialists) immerse themselves without love in objects given by experimental-
-50	sensible research, because they experience no ideal tension ("Few indeed are those – Goethe
-51	complained – who become enthusiastic about what appears only to the spirit" – Formation and
+48	"ivory tower") to immerse themselves in objects given by experimental-sensible research, while scientists (materialists) immerse themselves without love in objects given by experimental-
+50	sensible research, because they experience no ideal tension ("Few indeed are those – Goethe complained – who become enthusiastic about what appears only to the spirit" – Formation and
 52	Transformation of Organic Natures in Works, vol.V, p. 76).
 53	Still regarding Goethe's "unfinished" work, Steiner adds:
 
@@ -1077,7 +903,6 @@ As you can see, whoever asserts this holds that, in man, the brain and the crani
 In a note, still regarding the difference between the organism and the machine, Steiner adds:
 
 "In the machine everything is a collaboration of the parts, and in it nothing real exists apart from this exchange of action. The unitary principle that governs the common action of those parts is absent from the object itself, and stands outside it, like the design in the mind of the builder. Only the most extreme
-                                                    44
 myopia can deny that precisely herein lies the difference between organism and mechanism, and that the principle that brings about the collaboration of the parts exists, in the latter, only outside (abstract), while in the former it attains its true existence within the thing itself. Likewise, the conditions of the organism perceivable by the senses do not appear as a mere consequence of one another, but as governed by that inner principle, as the consequence of something that is no longer sensibly perceivable. In this sense it is just as little sensible as the design in the mind of the builder, which likewise exists only for the spirit; indeed it is essentially that very design itself; only that here it has penetrated into the interior of the being and no longer works through the mediation of a third party — that builder — but carries out its actions directly from itself" (p. 47).
 
 
@@ -1116,7 +941,6 @@ And then hear what he adds: "To consciousness it seems as if, with the removal o
 This is, obviously, the very same consciousness that no longer knows "what world it is in" when it finds itself in the presence of those strange and paradoxical "living objects" of which Monod speaks.
 The fact is that unless one educates oneself to "transport" consciousness "into the pure region of concepts" (that is, to the inspired or intuitive level), one will never grasp the reality of that "type" or of that "entelechy" which – as Steiner says – "hovers above observation."
 We have already seen, for example, that Montalcini declares herself confident that the cognitive sciences, together with the neurosciences, will not be long in "deciphering the essence of the human species." But what do the cognitive sciences deal with? With "mental representations," considering them (according to the various orientations) "reproductions" (of the external environment), "mental codes," or
-                                                  46
 "abstract characterizations" – and not, therefore, the "fruits" (as explained in The Philosophy of Freedom) of the encounter and union, in the soul, of the percept (the content of perception, drawn in through the body) with the concept (the content of thinking, drawn in through the spirit).
 Hegel writes again, indeed: "Representation begins from intuition and from the found material of intuition"; representation is therefore "the midpoint between the immediate determinate finding-itself of intelligence, and intelligence itself in its freedom, which is thought" (Encyclopedia of the Philosophical Sciences – Laterza, Rome-Bari 1989, p. 441).
 Just as water is born from the union of hydrogen and oxygen, or as colors were born – according to Goethe – from the union of light and darkness, so representation is born from the union of concept and percept.
@@ -1427,11 +1251,7 @@ This last point could also be put as follows: an organic being is comprehensible
 
 Not because — note well — such a being becomes in time, but because its becoming and its life are its time (its etheric body). This also explains why an inorganic being, insofar as it has become, is a state (physical body), and can instead be comprehended only in space.
 
-Steiner writes precisely: "The inorganic body is closed, rigid, excitable only from without, but inwardly immobile. The organism is restlessness itself, perpetually changing,
-
-59
-
-transforming itself from within outward, in continuous metamamorphosis. To this the following expressions of Goethe refer: 'Reason is directed to what is becoming, the intellect to what has become; the former does not ask: what for?; the latter does not ask: whence? The former delights in development; the latter wants to consolidate everything so that it may be of use' (Prose Sayings)" (p. 58).
+Steiner writes precisely: "The inorganic body is closed, rigid, excitable only from without, but inwardly immobile. The organism is restlessness itself, perpetually changing, transforming itself from within outward, in continuous metamamorphosis. To this the following expressions of Goethe refer: 'Reason is directed to what is becoming, the intellect to what has become; the former does not ask: what for?; the latter does not ask: whence? The former delights in development; the latter wants to consolidate everything so that it may be of use' (Prose Sayings)" (p. 58).
 
 
 Well then, with regard to "what for?," to "being of use," or, in a word, to "utility" — do you recall what Giulio Barsanti says about Linnaeus's system? That although it was, in many respects, "artificial" (so much so that it even "transfigured" nature), it was preferred to the "more natural" one of Joseph Pitton de Tournefort because, its artificiality constituting "a great advantage for botanical science," it proved precisely more useful.
@@ -1514,11 +1334,7 @@ What matters to underline here, however, is that the former two (the warmth ethe
 Goethe, though ignorant of this, nonetheless had a presentiment, in the plant, of the secret working of forces producing not only an "alternating expansion and contraction," but also an "ascending metamorphosis": that is to say, for example, the process that leads, in a particular specimen, from the root to the flower or fruit, and, in the vegetal kingdom, from the lower cryptogams (algae, fungi, lichens, etc.) to the higher phanerogams.
 
 
-"In the total life of the plant," Steiner writes in this regard, "three expansions and three contractions alternate (...) At first the whole plant, in latent state, stands contracted in a point, in the seed. From here it emerges, unfolds, expands in the formation of the leaf. The formative forces push each other ever further apart; hence the lower leaves still appear coarse, compact; the higher one goes, the more they become veined, serrated. The elements, which before were still crowding close upon one another, now move apart. What previously stood at successive intervals appears again, in the formation of the calyx, concentrated at a point of the stem. This constitutes the second contraction. In the corolla there appears once more an unfolding, a widening. The petals are finer, more tender in comparison with the sepals; which
-
-62
-
-can depend only on a lesser intensity at a point, and therefore on a greater extension of the formative forces. In the sexual organs (stamens and pistils) the next contraction takes place, after which a new expansion occurs in the formation of the fruit. In the seed issuing from the fruit the whole essence of the plant appears once more, contracted into a point." And (in the footnote) he adds: "The life of the plant differentiates into a final organ, the true fruit, and into the seeds; in the former all the phenomenal elements are, as it were, united; it is pure phenomenon, it estranges itself from life, becomes a dead product. In the seed all the inward essential elements of the life of plants are concentrated. From it a new plant arises. It has become almost wholly ideal; the phenomenal in it is reduced to a minimum" (pp. 59-60).
+"In the total life of the plant," Steiner writes in this regard, "three expansions and three contractions alternate (...) At first the whole plant, in latent state, stands contracted in a point, in the seed. From here it emerges, unfolds, expands in the formation of the leaf. The formative forces push each other ever further apart; hence the lower leaves still appear coarse, compact; the higher one goes, the more they become veined, serrated. The elements, which before were still crowding close upon one another, now move apart. What previously stood at successive intervals appears again, in the formation of the calyx, concentrated at a point of the stem. This constitutes the second contraction. In the corolla there appears once more an unfolding, a widening. The petals are finer, more tender in comparison with the sepals; which can depend only on a lesser intensity at a point, and therefore on a greater extension of the formative forces. In the sexual organs (stamens and pistils) the next contraction takes place, after which a new expansion occurs in the formation of the fruit. In the seed issuing from the fruit the whole essence of the plant appears once more, contracted into a point." And (in the footnote) he adds: "The life of the plant differentiates into a final organ, the true fruit, and into the seeds; in the former all the phenomenal elements are, as it were, united; it is pure phenomenon, it estranges itself from life, becomes a dead product. In the seed all the inward essential elements of the life of plants are concentrated. From it a new plant arises. It has become almost wholly ideal; the phenomenal in it is reduced to a minimum" (pp. 59-60).
 
 
 The seed is thus potency, the fruit act; the seed is a becoming, the fruit a become.
@@ -1563,12 +1379,7 @@ The organs that are nearer to the roots thus grasp the nourishment just as it is
 
 Steiner writes: "In animal life something different certainly takes place. Here life does not lose itself in outwardness, but rather separates itself, distinguishes itself from corporeality, and employs bodily manifestation merely as its own instrument (...) The animal appears as a world closed within itself, a microcosm in a far higher sense than the plant. It has a center to which every organ serves (...) In the animals, every organ appears as deriving from that center; the center forms all the organs in conformity with its own being. The figure of the animal is therefore the foundation of its outward existence. But it is determined from within (...) If all animal beings were conformed solely to the principles inherent in the primordial animal, they would all be alike" (pp. 62-63).
 
-The mineral has a physical body, but not yet an etheric body (a life), an astral body (a soul) and an I (a spirit); the vegetal has, instead, a physical body and an etheric body, but not
-
-
-64
-
-an astral body and an I yet; the animal, finally, has a physical body, an etheric body, an astral body, but not yet an I (an individual one).
+The mineral has a physical body, but not yet an etheric body (a life), an astral body (a soul) and an I (a spirit); the vegetal has, instead, a physical body and an etheric body, but not an astral body and an I yet; the animal, finally, has a physical body, an etheric body, an astral body, but not yet an I (an individual one).
 
 The advent of the astral body therefore marks the advent of a subjectivity (not of an "individuality") capable of using the etheric body and the physical body as its own instruments: capable, that is, of making the outwardness (the ex se) the means of expression (Lat. exprimere: to press — premere — in order to bring out — ex-) of the inwardness (the in se).
 
@@ -1619,11 +1430,7 @@ But why does that "doctrine" explain life by means of the (primordial) cell? It 
 
 If one asserts, with Goethe and Steiner, that it is life that explains the cell, one must therefore be ready to explain what life is, thereby finding oneself grappling with the problem of how, or in what way, the extrasensible is to be thought.
 
-But how many are there today who pose such a problem? In the general conviction that the good of the intellect (of the "natural light") is thinking as such, and not one particular way of thinking, it is more than rare, in fact, that
-
-66
-
-it occurs to anyone that intellectual (representative) thought is fit to think some things, but not others, and that, in order to think the others, a different and higher thought is required.
+But how many are there today who pose such a problem? In the general conviction that the good of the intellect (of the "natural light") is thinking as such, and not one particular way of thinking, it is more than rare, in fact, that it occurs to anyone that intellectual (representative) thought is fit to think some things, but not others, and that, in order to think the others, a different and higher thought is required.
 
 It is more than rare, in other words, to find anyone willing to admit that, in the soul-spiritual realm, an ascending series of degrees of consciousness holds sway, just as in the natural realm "an ascending series of developmental stages prevails."
 
@@ -1638,11 +1445,7 @@ Steiner goes on, in fact: "The lower organisms are such precisely because their 
 
 And so we arrive at what Ernst Haeckel (1834-1919) calls the "fundamental biogenetic law." He writes precisely: "I had already pointed out in my General Morphology (at the end of the fifth book), as one of the most important concepts of transformism, the close causal nexus which, according to my conviction, exists between the two branches of the history of organic development, and had given it precise expression in several Theses on the causal nexus of biontic and phyletic evolution: 'Ontogenesis is a brief and rapid recapitulation of phylogenesis, determined by the physiological functions of heredity (reproduction) and adaptation (nutrition)'" (The Riddle of the Universe — UTET, Turin 1904, pp. 106-107).
 
-"From Goethe's concepts," Steiner writes in this regard, "we also obtain an ideal explanation of the fact, found by Darwin and Haeckel, that the developmental history of the individual represents a repetition of the history of the species. For what Haeckel presents cannot be taken for more than an unexplained fact. It is the fact that every individual traverses, in abbreviated form, all the stages of development which palaeontology shows us as distinct organic forms. Haeckel and his followers explain it by the law of heredity. But this too is only an abbreviated expression for the fact cited. The explanation is that those forms, like every individual, are the phenomenal forms of one and the same primordial form, which in successive periods of time develops the
-
-67
-
-formative forces according to the possibilities lying within it. Every higher individual is more perfect precisely because the favourable influences of its environment have not prevented it from developing in full freedom according to its inner nature. If, instead, the individual is compelled, by various influences, to remain on a lower rung, then only some of its lower forces develop, and that becomes a whole for it which, for that more perfect individual, is only a part of the whole. In this way the higher organism, in its development, appears composed of the lower organisms, or the lower ones in their turn appear as parts of the higher one" (pp. 68-69).
+"From Goethe's concepts," Steiner writes in this regard, "we also obtain an ideal explanation of the fact, found by Darwin and Haeckel, that the developmental history of the individual represents a repetition of the history of the species. For what Haeckel presents cannot be taken for more than an unexplained fact. It is the fact that every individual traverses, in abbreviated form, all the stages of development which palaeontology shows us as distinct organic forms. Haeckel and his followers explain it by the law of heredity. But this too is only an abbreviated expression for the fact cited. The explanation is that those forms, like every individual, are the phenomenal forms of one and the same primordial form, which in successive periods of time develops the formative forces according to the possibilities lying within it. Every higher individual is more perfect precisely because the favourable influences of its environment have not prevented it from developing in full freedom according to its inner nature. If, instead, the individual is compelled, by various influences, to remain on a lower rung, then only some of its lower forces develop, and that becomes a whole for it which, for that more perfect individual, is only a part of the whole. In this way the higher organism, in its development, appears composed of the lower organisms, or the lower ones in their turn appear as parts of the higher one" (pp. 68-69).
 
 
 As you see, in order for a faculty or property to "emerge" — as we say today — it is necessary that a series of presuppositions be created which thereby end up representing a kind of history of the manifestation of that faculty.
@@ -1802,11 +1605,7 @@ Steiner writes: "Opinions on Goethe's scientific studies are divided into two ca
 
 As you see, the monism of the materialists and the mechanicists, which resolves the Cartesian dualism by reducing the "res cogitans" to the "res extensa," or by conceiving "the organic — as Steiner says — governed by the same laws that are active in inorganic nature," is a very different thing from Goethe's monism.
 
-The latter (like Steiner's) is in fact a monism that we might call "organic," in that — to continue putting it with Descartes — it neither reduces (in the Ahrimanic way) the "res cogitans" to the "res extensa," nor reduces (in the Luciferic way) the "res extensa" to the "res cogitans," but contemplates a
-
-73
-
-higher and articulated principle (essence), of which the one no less than the other constitutes but two different forms of manifestation.
+The latter (like Steiner's) is in fact a monism that we might call "organic," in that — to continue putting it with Descartes — it neither reduces (in the Ahrimanic way) the "res cogitans" to the "res extensa," nor reduces (in the Luciferic way) the "res extensa" to the "res cogitans," but contemplates a higher and articulated principle (essence), of which the one no less than the other constitutes but two different forms of manifestation.
 
 Goethe, Steiner observes precisely, "did indeed represent the universe to himself in a monistic way, as an indivisible unity — from which he by no means excluded man (cf. the correspondence between Goethe and F. H. Jacobi) — but he nevertheless recognized that within this unity there are to be distinguished steps which have their own proper laws. From his youth onward he rejected the tendencies that represent unity as uniformity, and that conceive the organic world, and, in general, everything that appears as higher nature within nature, as governed by laws active in the inorganic world (...) Goethe thinks the world as a circle of circles, each of which has its own explanatory principle. The modern monists know only one circle, that of the laws of inorganic nature" (p. 78).
 
@@ -1827,11 +1626,7 @@ To conceive Goethe's "type" in the same way as Plato's idea means in fact to con
 
 The suspicion is therefore justified that the latter do not so much regard it as "useless to concern themselves more closely" with Goethe's scientific studies because they conceive the "type" in this way, as rather conceive the "type" in this way because they have regarded it as "useless to concern themselves more closely" with his studies.
 
-Steiner concludes, in any case: "Hence Goethe's lofty principles did not succeed in asserting themselves fully, either here or there. And precisely these principles are the eminent fact of his studies; they are what, for one who realizes their whole depth, loses none of its value even when one must acknowledge that some of the particulars of Goethean research call for rectification. From this there follows, for one who seeks to bring Goethe's conceptions into prominence, the requirement of directing one's gaze, beyond the
-
-74
-
-critical judgment of the particulars found in this or that chapter of natural science, toward the center of his conception of nature" (p. 79).
+Steiner concludes, in any case: "Hence Goethe's lofty principles did not succeed in asserting themselves fully, either here or there. And precisely these principles are the eminent fact of his studies; they are what, for one who realizes their whole depth, loses none of its value even when one must acknowledge that some of the particulars of Goethean research call for rectification. From this there follows, for one who seeks to bring Goethe's conceptions into prominence, the requirement of directing one's gaze, beyond the critical judgment of the particulars found in this or that chapter of natural science, toward the center of his conception of nature" (p. 79).
 
 
 Steiner acknowledges, then, whatever in Goethe's studies requires modification or correction, but stresses that it is a matter of particulars, and not of "the center of his conception of nature": particulars of which anyone competent could freely undertake (as he himself has done) the verification and, where necessary, the rectification.
@@ -1868,11 +1663,7 @@ To understand these words better, it will be well to recall that, for Goethe, "a
 
 How can one help thinking, then, of how different the destiny of humanity would have been if the "Central European" spirit of Goetheanism had been allowed to meet and wed (especially toward the end of the nineteenth century) the Russian soul, not only of Pavel Florensky, but also of Vladimir Solovyov (1853-1900)?
 
-Steiner recalls, in fact (we are in 1919): "When the Russian revolution began, the followers of Soloviev appeared like comets. They hoped for a renewal of the deaf, crepuscular and paralyzed spiritual life upon which had fallen, like a soul-night, a spiritual death, the killing
-
-76
-
-of the soul with all its connections. These people, Kartashov, Samarin, who it seems were true disciples of Soloviev, wanted a liberation. From the first glittering rays of the revolution they wanted to kindle a spiritual movement in Russia. In place of this there is now realized, in Lenin, this bearer-of-corpses of all spiritual life, a frenzied destruction of every spiritual element, in a condition in which everything that had shown itself to the humanity of the East in the great figure of Soloviev is denied" (Answers of the Science of the Spirit to Social and Pedagogical Problems — Antroposofica, Milan 1974, pp. 232-233).
+Steiner recalls, in fact (we are in 1919): "When the Russian revolution began, the followers of Soloviev appeared like comets. They hoped for a renewal of the deaf, crepuscular and paralyzed spiritual life upon which had fallen, like a soul-night, a spiritual death, the killing of the soul with all its connections. These people, Kartashov, Samarin, who it seems were true disciples of Soloviev, wanted a liberation. From the first glittering rays of the revolution they wanted to kindle a spiritual movement in Russia. In place of this there is now realized, in Lenin, this bearer-of-corpses of all spiritual life, a frenzied destruction of every spiritual element, in a condition in which everything that had shown itself to the humanity of the East in the great figure of Soloviev is denied" (Answers of the Science of the Spirit to Social and Pedagogical Problems — Antroposofica, Milan 1974, pp. 232-233).
 
 But now let us take up the new chapter.
 
@@ -1925,11 +1716,7 @@ In reality, everyone sees with the eyes of the spirit, but very few know it. Nat
 
 We are therefore awake or vigilant on the plane of representation (since we enjoy precisely "representative consciousness"), whereas we dream on the plane of imagination, and sleep (at two different degrees of depth) on those of inspiration and intuition.
 
-As we say, we are not therefore "inventing anything": we are rather attempting to realize, or to bring to consciousness, what we do unconsciously from morning to evening. "Anthroposophy," Steiner affirms, "is nothing but the stimulus to draw out the forces of knowledge lying in the
-
-78
-
-depths of souls" (Life from Death to New Birth — Libreria Editrice Psiche, Turin 1997, p. 87).
+As we say, we are not therefore "inventing anything": we are rather attempting to realize, or to bring to consciousness, what we do unconsciously from morning to evening. "Anthroposophy," Steiner affirms, "is nothing but the stimulus to draw out the forces of knowledge lying in the depths of souls" (Life from Death to New Birth — Libreria Editrice Psiche, Turin 1997, p. 87).
 
 Steiner goes on: "Experimental science wanders perplexed through the vast realm of phenomena; the world of the senses becomes for it a confused and disconcerting multiplicity, because it lacks in thinking the energy to penetrate to the center. One speaks today of limits of knowledge because one ignores where the goal of thinking lies. One has no clear idea of what one wants to reach, and one doubts being able to reach it (...) Precisely the same happens with willing and with acting. We are incapable of setting our life tasks for the accomplishment of which our forces are suited. One dreams of indefinite and confused ideals and then weeps if one does not reach what one has not even a vague idea of, much less a clear one" (p. 83).
 
@@ -2259,12 +2046,7 @@ Steiner nonetheless recalls that it is the general conviction that "outside us, 
 
 Well then, listen to what NadeÅ¾da Mandel'Å¡tam, wife of the great Russian poet Osip Emil'eviÄ Mandel'Å¡tam (1891-1938), writes on this subject: "It seems to me that for a poet, auditory hallucinations are a kind of occupational disease. That is how poetry begins. Many poets have said so, from the author of the Poem Without a Hero to Mandel'Å¡tam himself: an obsessively sounding musical phrase rings in their ears — first shapeless, then ever more defined, but still without words. I happened to see Mandel'Å¡tam trying to free himself from one of these refrains, to shake it off, to escape its power (…) Achmatova (Anna Andreevna Achmatova, 1889-1966 – ed.) recounted that when she was assailed by the melody of the Poem, she would have done anything to be rid of it: she even took to washing the dishes, but without result. At a certain moment, the words would suddenly force their way through the fabric of the musical phrase, and then her lips would begin to move. It is probable that the work of the composer and that of the poet have something in common, and that the appearance of the words marks the critical moment that distinguishes these two forms of creation from one another" (L'epoca e i lupi – Serra e Riva, Milan 1990, pp. 98-99).
 
-But could it not be, then, that the work of the scientist also "has something in common" with that of the composer and the poet, and that the appearance of the idea "marks the critical moment" that distinguishes these three forms of creation from one another? And that precisely by virtue of Goethe's proximity to the
-
-
-89
-
-world of ideas, his poetic experience was very different from those of Mandel'Å¡tam and Achmatova?
+But could it not be, then, that the work of the scientist also "has something in common" with that of the composer and the poet, and that the appearance of the idea "marks the critical moment" that distinguishes these three forms of creation from one another? And that precisely by virtue of Goethe's proximity to the world of ideas, his poetic experience was very different from those of Mandel'Å¡tam and Achmatova?
 
 Let us return, in any case, to the question of the "objectivity" of science and the "subjectivity" of art.
 
@@ -2521,11 +2303,7 @@ Steiner writes: "With this there also falls away the opinion that denies to the 
 
 Sound — Edoardo Boncinelli asserts, for example — "consists of a vibration of the air molecules which propagates at a certain velocity, like a pressure wave" (Il cervello, la mente e l'anima — Mondadori, Milan 2000, p. 16).
 
-But it is not so. Sound is not "constituted" by a vibration of the air molecules; rather it is the cause of a vibration of the air molecules; and the nature of this effect depends not so much on that of the sound as on the nature of the medium it traverses: in air, sound produces
-
-101
-
-effects that depend on the nature of air, while, say, in water, it would produce effects that depend on the nature of water.
+But it is not so. Sound is not "constituted" by a vibration of the air molecules; rather it is the cause of a vibration of the air molecules; and the nature of this effect depends not so much on that of the sound as on the nature of the medium it traverses: in air, sound produces effects that depend on the nature of air, while, say, in water, it would produce effects that depend on the nature of water.
 
 This moreover goes to show — as Steiner says — that in failing to recognize the content of the concept one also fails to recognize the content of perception. Is it not significant, moreover, that in order to indicate the latter we have been forced to resort to the term "percept": that is to say, to a term which is generally used to indicate the perceptual image, and not the content of which this is precisely nothing but the "image"?
 
@@ -2619,7 +2397,6 @@ Steiner writes: "From our point of view, the necessity of scientific knowledge a
 Man therefore does not create reality, but rather the consciousness of reality. Since, however, even the consciousness of reality is part of reality, man can be considered as that part of reality in which reality attains consciousness of itself.
 
 Steiner continues: "With this we have opposed a truly immanent conception to the transcendent one of Locke (1632-1704 – ed.), Kant, the late Schelling, Schopenhauer (1788-1860 – ed.), Volkelt (1848-1930 – ed.), the neo-Kantians, and modern scientists. They seek the ground of the world in a quid extraneous to consciousness, otherworldly; immanent philosophy, in that which manifests itself through reason. The transcendent conception considers conceptual
-                                                  106
 knowledge as a picture of the world, the immanent one as the supreme form of manifestation of the same" (p. 110).
 
 
@@ -2837,7 +2614,6 @@ Observe, for example, my hands, placed one facing the other. If we attributed to
 Well, the right hand, if it truly wished to answer such a question, would have to stop at appearances no longer, but penetrate into the left hand and, ascending along the arm, discover that ground in the trunk (in the heart). But what would it discover if it then asked itself what its own ground is, and, to answer itself, ascended through the arm up to the trunk (to the heart)? It would discover the same thing: it would discover, that is, that the ground of the subject (of man) coincides with that of the object (of the world).
 
 When we join our hands in prayer, it is therefore as if we were (symbolically) welding shut that ring of (natural) being which was broken in order that consciousness might be born. For this to arise, the being (of man) had in fact to separate itself from the being (of the world): that is, such a fracture or opposition had to be created as would allow one part of being (that
-                                                  117
 of man) to encounter the other (that of the world) outside itself, so as to be unable to recognize it immediately (in perceiving it) as part of itself.
 
 In the same way in which, in Parsifal, the wound of Amfortas can be healed only by the spear that made it, so the wound of consciousness can be healed only by the consciousness that made it. Spiritual consciousness is, in fact, called upon to heal material consciousness, welding shut the ring of being, and thus restoring the world to man and man to the world.
@@ -2886,7 +2662,6 @@ A few lines after these passages, Steiner recalls that Goethe spoke of his "inne
 But a "living heuristic" is in the end nothing other than a "living explanation." For a "living explanation" to be possible, one must therefore live. But just as – according to the adage – "he who has bread has no teeth, and he who has teeth has no bread," so – according to what experience dictates – he who lives does not reflect, and he who reflects does not live. We live, in fact, dreaming (in feeling) and sleeping (in willing), and we die instead reflecting (a posteriori, in reflected or representational thinking).
 
 If yesterday, say, I had fallen prey to anger, today, reflecting upon it, I would surely be repentant. And it is right that it be so. But would it not have been even better if I had been able to reflect at the very moment the anger was on the point of invading my soul? What happened instead? That yesterday, when the anger was in me, I was outside myself, whereas today, when I am in myself, the anger is outside me. How, then, is one to know it and transform it, if when it is present I am absent, and if when I am
-                                                  119
 present it is absent? (See, in this regard, The Mission of Anger, in R. Steiner: Metamorphoses of the Life of the Soul – Tilopa, Rome 1984).
 
 This means, from a general point of view, that one can dispose of a "living heuristic" only if one disposes of a living thinking: that is, a thinking that is equal to life, and not, like ordinary thinking, equal only to death.
@@ -2916,7 +2691,6 @@ Upon a more careful and subtle analysis, the perceptual judgment "X is A" turns 
 Steiner says that "man must, through his own activity, make the end spring forth from the beginning": that is to say, the representation from the percept. Man is situated, in fact, between the percept and the concept, which are – as we have said many times – "world," and he is called, after having divided them, to reunite them. The distinction between percept and concept does not, therefore, concern things, but rather the way in which man is organized to know them.
 
 The art of man is therefore that of transforming, on the noetic plane, things into ideas and, on the ethical plane, ideas into things. But art is method and method is art: the ideas into which he must transform things must, in fact, be the ideas of the things (their objective essences), and not his own (subjective) ideas. Schelling rightly observes: "It is not a question of what opinion must be assumed about the phenomenon, so that it, made to conform to whatever philosophy, may be easily explained, but vice versa, of what philosophy is required, so that, grown together with the object, it may be equal to it. Not how the phenomenon must be
-                                                  121
 twisted about, made one-sided, reduced, so that it may in any case be justifiable from the principles we have once and for all resolved not to transgress, but rather: to what extent our thoughts must be broadened, so as to be in relation with the phenomenon" (Philosophy of Mythology – Mursia, Milan 1993, p. 8).
 
 
@@ -2972,7 +2746,6 @@ That in the content of the figures of thought created by the intellect (in the c
 The concept is, in effect, a kind of "two-faced Janus": thanks to the face it turns toward the world of perception, we succeed in synthesizing the (sensory) stimuli and fixing them in individual concepts; thanks to the one it turns toward the world of reason, we succeed, instead, in setting the individual concepts in movement and synthesizing them in the idea.
 
 Hegel writes in this regard: "Thinking that produces finite determinations and that moves within them is called intellect (in the most proper sense of the word)" (Encyclopedia of the Philosophical Sciences, p. 39); and he adds: "The activity of separating is the force and the work of the intellect, of the most wondrous and greatest power, or rather of the absolute power. The circle that rests closed within itself (what we called, last time, 'the ring of natural being' – ed.) and that holds, as substance, its moments, is the immediate relation, which therefore arouses no wonder at all. But that the accidental as such, separated from its own sphere, that what is bound and real only in its connection with something else, should gain a determinate existence of its own and a distinct freedom of its own – all this is the immense
-                                                   124
 power of the negative; it is the energy of thinking, of the pure I" (Phenomenology of Spirit, p. 19).
 
 "The energy of thinking," or of the "pure I," is therefore "the immense power" which, in its (dialectically) negative moment (that of the intellect), "takes us away from reality," but which, in its (dialectically) positive moment (that of reason), "leads us back to it."
@@ -3036,10 +2809,7 @@ Steiner explains, in fact: "Man truly has, as an earthly being, something of wha
 
 Let us keep in mind, in any case, that one cannot have experience of the reality of the concept or of the idea if one has not first had that of the (etheric) reality of thinking. Between the "thought" (the representation) and the concept or idea, there is, in fact, "thinking": that is, that living force which we can experience in a direct way thanks to the exercise of concentration.
 
-Steiner writes: "Of culture it must be required that it work until it raises itself to that higher point of view where a being is also considered real that one does not see with the eyes and does not
-
-127
-touch with the hands, but grasps with reason. We have thus truly founded an idealism that is at the same time realism" (p. 128).
+Steiner writes: "Of culture it must be required that it work until it raises itself to that higher point of view where a being is also considered real that one does not see with the eyes and does not touch with the hands, but grasps with reason. We have thus truly founded an idealism that is at the same time realism" (p. 128).
 
 This "idealism that is at the same time realism" is precisely what we have called the "realism of ideas," opposing it both to "naïve realism" (of things) and to the various forms of what John Searle calls "anti-realism."
 
@@ -3059,10 +2829,7 @@ We are thus given to observe, once again, that the science of the spirit formula
 
 The fact is that it is not a question of "transcending" or "going beyond" the idea, but of transcending or going beyond the representational consciousness of the idea.
 
-That the realists do not comprehend that the objective is the idea, and that the idealists do not comprehend that the idea is objective, is, moreover, a consequence of the action of the "obstructing" forces. The conception of the
-
-128
-(naïve) realists is, in fact, mortgaged by the Ahrimanic forces, that of the idealists by the Luciferic forces.
+That the realists do not comprehend that the objective is the idea, and that the idealists do not comprehend that the idea is objective, is, moreover, a consequence of the action of the "obstructing" forces. The conception of the (naïve) realists is, in fact, mortgaged by the Ahrimanic forces, that of the idealists by the Luciferic forces.
 
 This means, however, that the former as much as the latter are partly right. It would therefore be well to practice observing what the part of right (and of wrong) of each of them is, because, in so doing, one would in fact arrive at assuming that central perspective of the I (and of the Logos) which, as the third, comprehends and surpasses them ("It is as certain as it is strange – Goethe observes in this regard – that truth and error spring from the same source; therefore one must often not damage the error, because at the same time one damages the truth" – Maxims and Reflections – TEA, Rome 1988, p. 59).
 
@@ -3125,7 +2892,6 @@ The fact is that just as "the sabbath – according to what Christ asserts – w
 Present-day science (which declares "scientific" only the method suited to investigating the inorganic world) does, on the noetic plane, what the Old Testament does on the ethical plane. For just as, according to the latter, morality would be guaranteed by observance of the "Law," so, according to the former, scientific character would be guaranteed by observance of the "Method" (or of the various "protocols").
 
 The "Law" of the New Testament is, however, the Spirit of freedom and of love ("Do not think – one reads, in fact, in Matthew (5:17) – that I have come to abolish the Law or the prophets; I have not come
-                                                  131
 to abolish, but to fulfill"): that is, the Spirit of that freedom of thought and that love for reality which alone can guarantee to science a constant, humble, and devoted adherence to the phenomena.
 
 Think, for example, of the dream. Is it not a phenomenon? Well, try approaching it with the same method or the same logic with which mechanical phenomena are approached, and you will soon find that it becomes incomprehensible to you.
@@ -3268,7 +3034,6 @@ Plants and animals cannot, in fact, place themselves "before the living idea," f
 It ought not, therefore, to be the idea that dominates man, but man (as I) who dominates the idea, and thereby makes himself free.
 
 Scaligero explains in this regard: "In the constitution of man the following are practically recognizable: the mineral kingdom, which forms his visible 'physical' body, called in Hinduism sthula sharira; the structuring force of the plant kingdom, which forms his vital, or 'etheric,' body, linga sharira; the soulic life of the animal kingdom, which works in him as sentient body, or 'astral body,' kama rupa, by means of which man has a sensory and sensual relation with physical life, not dissimilar from the animal one. To this threefold constitution, whose structural identity with the threefold domain of nature is recognizable, there is added in man a Principle that is not encountered in the other kingdoms of nature, because it dominates them from a more elevated degree: the Principle of individual consciousness, atma, or
-                                                   138
 the 'I,' essentially supersensible, which imprints the correlation of the three systems, down to its bodily appearance: precisely differentiating the human kingdom from the other kingdoms" (Practical Manual of Meditation – Tilopa, Rome 1984, p. 13).
 
 It is, moreover, a duty to emphasize that comprehension of the relation between the I and the idea is – for whoever seriously studies the science of the spirit – of the utmost importance. The idea that rebels against the will of the I, because it would usurp its role and dominate it, characterizes, in fact, the Luciferic soul, whereas the idea that lovingly does the will of the I, because it knows and feels itself to be its "ancilla," characterizes the Sophianic soul.
@@ -3365,11 +3130,7 @@ You see, when we recite the Pater noster, we say: "Thy will be done": yet it is 
 
 Steiner continues: "The natural product does not at all have within itself the ideal law by which it appears to be dominated. Something superior must come toward it, precisely human thinking; then there appears to thinking that by which the natural product is dominated. For human action the case is different. Here, the idea is immediately inherent in the active object; and if a superior being were to come toward it, it could find in the activity of that object nothing other than what it itself has placed there. For a perfect human action is the result of our intentions and of that alone" (p. 138).
 
-Animals, for example, are dominated by that "ideal law" (species or idea) that determines, among other things, their behavior. They live this condition, but they cannot become conscious of it, inasmuch as they do not enjoy the faculty of thinking thinking. The "ideal law" to which they are subject can
-
-
-143
-be known, however, by "human thinking"; and it can be because it is men, as I's, who have the ideas, whereas it is the ideas that have the animals.
+Animals, for example, are dominated by that "ideal law" (species or idea) that determines, among other things, their behavior. They live this condition, but they cannot become conscious of it, inasmuch as they do not enjoy the faculty of thinking thinking. The "ideal law" to which they are subject can be known, however, by "human thinking"; and it can be because it is men, as I's, who have the ideas, whereas it is the ideas that have the animals.
 
 To human thinking, which observes an animal, there is therefore revealed the idea that transcends it and determines its behavior; but to a being endowed with a superior thinking, which observed a man, the same thing would not be revealed, since, in that case, it would be the individuality (the I) that transcends the idea and determines, by means of it, the action.
 
@@ -3468,7 +3229,6 @@ Steiner continues: "We know of no guidance of the world that, outside ourselves,
 We have just distinguished natural conditionings from cultural ones. A "guidance of the world" that stands "outside ourselves" obviously belongs to the latter, since, standing precisely "outside us," it cannot manifest its will except indirectly: that is, by means of rules, precepts, norms, commandments, or "categorical imperatives" (Kant).
 
 Steiner writes again: "With this, the philosophy here expounded is the true philosophy of freedom. It does not make human actions depend either upon natural necessity or upon the influence of a creator or guide situated outside the world"; naturally, he adds, "the existence of innumerable human actions that fall only under natural necessity is not at all excluded. Man, inasmuch as he is a natural being,
-                                                  147
 is also to be understood according to the laws that hold for natural action. But purely natural laws will never suffice to explain him as a knowing and truly moral being. Here he steps out of the sphere of natural realities; and for this supreme potency of his existence, more ideal than real, what we have here established holds. The life of man consists precisely in evolving from the state of a purely natural being to that which we have here indicated: he must free himself from all natural laws and arrive as far as giving himself his own laws by himself. But we must reject also the influence on the part of a guide of human destinies situated outside the world. In this case too, one could not speak of true freedom, since that guide would determine the direction of human action, and man would have nothing to do but carry out its commands. He would not feel the impulse to action as an ideal that he sets for himself, but as the command of the guide. Therefore here too his acting would be conditioned, not unconditioned. He would not feel free in his inmost being, but dependent; a mere means of execution for the intents of a superior power" (p. 141).
 
 Man is a free being, but does not yet exist as such, since he is called precisely to make himself free, or to become what he is.
@@ -3543,7 +3303,6 @@ Steiner writes: "An action that is not performed for the sake of love of it is n
 As one sees, all these assertions imply the exercise of thinking. Who else, moreover, could open the way to "objectivity," if not precisely thinking? And who else, if not free thinking, could generate free acting?
 
 Goethe observes, in this regard: "Lessing, who reluctantly tolerated limitations of various kinds, has one of his characters say: 'No one ought to ought.' A man full of spirit and joy of living said: 'Whoever wills, must.' A third, undoubtedly a cultivated man, added: 'Whoever comprehends, also wills.' And thus one believed one had closed the entire circle of knowing, willing, and owing. Yet,
-                                                  150
 as a rule, man's knowledge, of whatever type it may be, determines his conduct; so that nothing is more terrible than to see ignorance at work" (Maxims and Reflections, pp. 131-132).
 
 Steiner writes: "If man's acting is to be nothing other than the realization of his own content of ideas, it is natural that such a content must reside in him. His spirit must work productively. For what should arouse in him the impulse to do something, if not an idea that is opening its way from the depths of his spirit?" (p. 143).
@@ -3609,10 +3368,7 @@ It will be well to remember that this nature, if sthenic (or hysteric), tends to
 
 In this case too, it will therefore be well to learn to distinguish the freedom that is born of love for the I (for man) from that pseudo-freedom or, better said, from that arbitrariness that is born of impatience with, if not indeed hatred of, norms and rules.
 
-The first is, in fact, a spiritual reality, whereas the second is a mere psychic fact. Goethe says: "Duty: when one loves what one commands to oneself" (Maxims and Reflections – TEA, Rome 1988, p. 179). Well, the sthenic types or characters "love" (without realizing it), not what they command to themselves, but what viscerally commands them, and of which they are therefore slaves (Goethe says again: "No one is more a slave than he who holds himself free without being so" – Maxims and Reflections – TEA, Rome 1988, p. 38). The "disobedient" or "rebel" types are, in short, slaves of
-
-153
-nature (Freud would say, of the "Es"), whereas the "obedient" or "follower" types are slaves of culture (Freud would say again, of the "Super-ego").
+The first is, in fact, a spiritual reality, whereas the second is a mere psychic fact. Goethe says: "Duty: when one loves what one commands to oneself" (Maxims and Reflections – TEA, Rome 1988, p. 179). Well, the sthenic types or characters "love" (without realizing it), not what they command to themselves, but what viscerally commands them, and of which they are therefore slaves (Goethe says again: "No one is more a slave than he who holds himself free without being so" – Maxims and Reflections – TEA, Rome 1988, p. 38). The "disobedient" or "rebel" types are, in short, slaves of nature (Freud would say, of the "Es"), whereas the "obedient" or "follower" types are slaves of culture (Freud would say again, of the "Super-ego").
 
 
 Steiner writes: "These considerations throw light upon the questions that a general ethics has to resolve. This is often regarded as a sum of rules that should direct human action. From this point of view ethics is opposed to natural science and in general to the science of the existent. While the latter has to transmit to us the laws of what subsists, what is, ethics would be called upon to teach us those of what ought to be. It would be a code of all the ideals of man, an exhaustive answer to the question: What is good? But such a science is impossible; there cannot be a general answer to this question. For moral acting is a product of what works in the individual; it is always given in single cases, never in general. There exist no general laws about what one must or must not do" (p. 144).
@@ -3665,7 +3421,6 @@ Consider, just to mention one, that I which received the name of Giuseppe Gariba
 "…Let us bow our heads to the utmost / Creator, who willed that in him / the spirit of his own creator / should stamp a vaster imprint."
 
 Steiner observes, in fact: "History assigns me a place in which to carry out my action. I am dependent upon the epoch of culture in which I was born; I am a son of my time. But if one considers man as a knowing being, at the same time as an acting one, this contradiction resolves itself. Thanks to his cognitive faculties man penetrates the character of his ethnic individuality; he realizes where his fellow countrymen are headed. What appears to determine him, he
-                                                 155
 surmounts, and receives it into himself as a fully recognized representation; it therefore becomes individual in him, and totally assumes the personal character that is proper to free action. The same happens with regard to the historical evolution within which man lives. He raises himself to knowledge of the guiding ideas, of the ethical forces that reign there; then they no longer act as coercive impulses, but become individual forces in him"; in short, he must not "be led, but lead himself": he must not, that is, "let himself be dragged along by the progress of civilization, but must make the ideas of his time his own. For this it is above all necessary that man understand his time" (pp. 145-146).
 
 
@@ -3707,7 +3462,6 @@ The language of the ego is, in fact, that of representations, whereas the langua
 Not being with one's consciousness at the height of imaginations, inspirations, and intuitions can, moreover, prove risky for mental equilibrium.
 
 Think, just to give an example, of the celebrated Austrian psychiatrist and psychoanalyst Wilhelm Reich (1897-1957), who ended his days tragically in the federal penitentiary of Lewisburg (Tennessee). This is a man who had a living presentiment of the etheric reality (called by him "orgonic
-                                                   157
 energy"), of the activity of the Luciferic and Ahrimanic obstructing forces (called by him "mystico-mechanistic"), and even of the entity of the Christ (seen by him as an ideal "orgonomic" man), but who then constrained and reduced all this within the narrow ambit of naturalistic consciousness (to the point of demanding, unlike Freud and Jung, that psychotherapists hold degrees in the Natural Sciences).
 
 Steiner says again that man, "to participate with his own personality in the work of the world," must "know the spiritual world": which means, more precisely, that he must learn to listen, in the soul, to what the (guardian) Angel says for his good, and what the Archangel says instead for the good of his people (cf. R. Steiner: The Mission of Individual Folk Souls – Antroposofica, Milan 1983).
@@ -3867,7 +3621,6 @@ And here Steiner presents us a brief and lucid synthesis of Kant's gnoseology, w
 
 
 Steiner writes precisely: "For Kant the point of departure of human thinking is experience, that is to say, the world that offers itself to the senses (among which is included the inner sense that transmits to us psychic, historical facts, etc.). This given world is a plurality of objects in space and of processes in time. It does not matter which object presents itself to my eyes or which process I experience; it could also be otherwise; I can even think the whole multiplicity of objects and processes as non-existent. But what I cannot eliminate by thinking are space and time. For me there can be nothing that is not spatial or temporal. Even if an object without space or time existed, I could know nothing of it, for without space and time I can represent nothing to myself. Whether time and space are to be attributed to things or not, I do not know; but I do know that for me things must appear in these forms. Thus space and time are the premises of my sensory perception. I know nothing of the thing in itself; what I know is how it must appear to me if it is to exist for me. With these sentences Kant inaugurates a new problem; indeed, a new posing of problems. Instead of asking, like the earlier philosophers: 'How are things constituted?', he asks: 'How must things appear to us in order that they may become the object of our knowing?' For Kant philosophy is the science of the conditions under which the world is possible as a human phenomenon. Of the thing in itself we know nothing. We have not yet fulfilled our task when we have arrived as far as the sensory perception of a plurality in time and space; we aspire to gather that plurality into a unity. And this is the task of the intellect. The intellect is to be understood as a sum of activities having the aim of summarizing the sensory world according to certain forms pre-traced in the intellect itself. It unites two sensory perceptions, designating, for example, the one as cause, the other as effect, or else the one as substance, the other as quality, etc. Here too it is the task of philosophical science
-                                                  165
 to show under what conditions the intellect can form for itself a system of the world. According to Kant, therefore, the world is a subjective phenomenon that presents itself in the forms of the sensory world and of the intellect. One fact alone is certain: that a thing in itself exists; how it appears to us depends upon our organization. It is, therefore, naturally absurd to attribute to that world which the intellect forms in union with the senses a value beyond that which it has for our faculty of knowing. This becomes clearer than ever where Kant speaks of the significance of the world of ideas. For him ideas are nothing but higher points of view of reason, under which the inferior unities created by the intellect are comprehended. For example: the intellect connects with one another the phenomena of the soul; our reason, as the faculty of conceiving ideas, understands that connection as if everything emanated from a single soul. But this has no importance for the thing itself; it is only a means of orientation for our cognitive faculty. Such is the content of Kant's theoretical philosophy insofar as it can interest us here" (pp. 155-156).
 
 
@@ -3920,7 +3673,6 @@ Here, then, is how there takes form that dualism between subject and object whic
 
 
 Steiner proceeds, in fact: if Kant "had not avoided the principal problem of the theory of knowledge, he would have observed that the separation of subject and object is nothing but a point of transition of our knowing; that both have at their basis a more profound unity, graspable with our reason, and that what is recognized as the quality of a thing, inasmuch as it is thought in relation to a knowing subject, has by no means a subjective value. The
-                                                  167
 thing is a unity for reason, and the scission into a 'thing in itself' and a 'thing for us' is a product of the intellect" (p. 157).
 
 But if "the separation of subject and object is nothing but a point of transition of our knowing," then today's "cerebral" (intellectual) thinking is nothing but a "point of transition" between the past "pre-cerebral" (mythic) thinking and the future "post-cerebral" (imaginative, inspirative, and intuitive) thinking.
@@ -4022,7 +3774,6 @@ Well, what are these laws (in themselves), if not living thoughts: that is, thin
 A great, living, and unconscious organism of thinking which, however, is not able, except in the case of man, to think itself, and which precisely for this reason exists as the kingdom of necessity, and not of freedom. The existence of every natural being is, in fact, determined directly by the idea, whereas that of the human being is determined indirectly by his degree of consciousness of the idea.
 
 In any case, just as it was necessary, in order to penetrate the (inorganic) kingdom of unconscious dead thinking, to develop conscious dead thinking (to the point of becoming, in this very sphere
-                                                  172
 of death, technically creative), so it is necessary, in order to penetrate the (organic) kingdom of unconscious living thinking, to develop conscious living thinking.
 
 Goethe notes in this regard: "The field of the mathematician is the quantitative; it embraces, that is, everything that can be determined with number and measure, and therefore in a certain sense the externally knowable universe. But if, insofar as our capacity allows us, we observe this with all our intellect and our forces, we recognize that quantity and quality must be considered as the two poles of the apparent world; consequently the mathematician gives to the language of his formulas such an amplitude as to embrace, as far as is possible for him, within the measurable world the incommensurable world. Everything therefore appears to him accessible, tangible, mechanical, and he renders himself suspect of a veiled atheism in believing himself able to comprehend at the same time also the incommensurable, which we call God, and thus seeming to deny the existence of that particular and exalted Being" (Maxims and Reflections – TEA, Rome 1988, p. 241).
@@ -4066,7 +3817,6 @@ As we shall never tire of repeating, one thing, then, is the idea, another the c
 What, in fact, are ideas for ordinary consciousness? They are representations, and therefore mere images of "things" (for naive realism) or of "things in themselves" (for criticism).
 
 And what are they, instead, for imaginative consciousness? They are the real contents of the imaginations or of the symbols; Goethe says precisely: "True symbolism is that in which the particular element
-                                                  174
 represents the more general, not as dream and shadow, but as a living and instantaneous revelation of the inscrutable" (Maxims and Reflections, p. 87).
 
 And for inspirative consciousness? They are qualities. And for intuitive consciousness? They are "I's": that is, beings or spiritual entities.
@@ -4092,10 +3842,7 @@ In knowing, we ascend, in fact, from the thing to the idea (from the singular to
 
 Answer to a question
 
-It is true – as Steiner specifies (see 12th meeting – note) – that the idea is a "configuration" created by reason, while the concept is "the single thought as it is fixed by the intellect"; no less true, however, is it that the idea, inasmuch as it is precisely a "configuration" or "whole" of concepts, is not
-
-175
-qualitatively different from the latter. If one were to compare the concept to a "star," the idea would, in fact, be a "constellation."
+It is true – as Steiner specifies (see 12th meeting – note) – that the idea is a "configuration" created by reason, while the concept is "the single thought as it is fixed by the intellect"; no less true, however, is it that the idea, inasmuch as it is precisely a "configuration" or "whole" of concepts, is not qualitatively different from the latter. If one were to compare the concept to a "star," the idea would, in fact, be a "constellation."
 
 Steiner asserts precisely: "Everything we discern and of which we can speak is only a manifestation of the idea; we express concepts, and in this sense the idea itself is a concept" (Fundamental Lines of a Gnoseology of the Goethean Conception of the World, in Philosophical Essays – Antroposofica, Milan 1974, p. 69).
 
@@ -4170,7 +3917,6 @@ But one thing – as we know by now – is that the inert and static form of thi
 Despite his notable merits, his monism, and his intention of conjoining the thinking of Hegel with that of Schelling and above all of Schopenhauer, von Hartmann ends, therefore, by reproposing the Cartesian dualism, no longer in the terms of the res cogitans and the res extensa, but in those of the idea and the will.
 
 Steiner writes, in fact: "According to him the will alone can never arrive at the creation of the world, since it is the empty and blind urging toward existence. If the will is to generate
-                                                      178
 something, the idea must be added to it, since only this gives to the will the content of its action. But what must we do with that will? It escapes us when we wish to grasp it, since one cannot conceive that empty urging devoid of content. From this it follows that all that we truly grasp of the principle of the world is idea, since the graspable must precisely possess a content (…) If, therefore, we must grasp the concept of will, it too must appear to us in the content of the idea; it can appear only in the idea and with the idea, as the form of its manifesting itself, never independently (…) Therefore Goethe represents the idea as active, effective, no longer in need of any push (…) The idea is to be understood as entelechy, that is to say, already as an active existence; and from this its form of active existence one should first make an abstraction, if one then wishes to find it again under the name of will" (pp. 165-166).
 
 
@@ -4222,7 +3968,6 @@ If the science of the spirit takes its start (noetically) from the "good as trut
 Steiner writes again: "The superior man cannot desire anything other than to have to conquer his own happiness for himself (…) Precisely because the world leaves us dissatisfied, we create for ourselves the most beautiful happinesses in our own working" (p. 167).
 
 "I pity men – Goethe observes to the same effect – who lament so much the transitoriness of things and lose themselves in the contemplation of earthly vanity. We exist precisely
-                                                  180
 in order to render eternal what is fleeting; and this can happen only if one appreciates both the transitory and the eternal" (Maxims and Reflections, p. 60).
 
 
@@ -4332,7 +4077,6 @@ Where, that is, is that Nature, that One, which presents itself to us now in min
 Steiner says that already then many scientists did not pose a question of this kind, being interested above all in the knowledge of the particular; imagine, then, whether they could pose it now that they have passed, not only from the particular to the microscopic or the infinitely small, but also to managing this "minimalistic" vocation with computers, and therefore in a purely "computational" key.
 
 It is by now difficult for us to imagine, in effect, with what "aura" the work of the rare scientists of former times was surrounded, since, with the advent (after the Second World War) of the so-called "Big Science," while the number of researchers or scientists has gone on growing, the "aura" pervading their activity has gone on shrinking and turning gray
-                                                  185
 (presumably feeling the effect of the "gray matter" of which these researchers and scientists, as good "cephalocentrists," exclusively avail themselves).
 
 Steiner continues, in any case: "The same longing to recognize, not only what exists immediately, but the most profound grounds of the existent, we find also in Faust: 'Behold every sap at work, every seed.' Thus what he observes above and below the surface of the earth becomes for him a means of penetrating into the enigma of the formation of the world. What he writes on 28 December 1789 to Duchess Louise: 'The works of nature are always like a word spoken by God'" (p. 174).
@@ -4388,7 +4132,6 @@ Wilhelm Pelikan observes, in fact: "The metal is present everywhere; and as the 
 
 
 Steiner writes precisely: "For Goethe, the principal thing becomes the history of the formation of the earth, and every particular must insert itself into it. What matters to him is the place that a mineral takes in the terrestrial complex; the particular no longer interests him except as a part of the whole. In the last analysis there appears right to him that mineralogical-geological system which re-creates the processes of the Earth, showing
-                                                    188
 why in such and such a place precisely this mineral had to be born, in such and such another that other one. The geographical distribution of the deposits becomes for him decisive. Therefore in the theory of Werner, whom he otherwise holds in high regard, Goethe finds fault with the fact that Werner does not order the minerals according to the distribution that enlightens us about their formation, but according to accidental exterior characteristics. The perfect system is not made by the scientist; nature itself has made it" (p. 176).
 
 It will be as well to recall that Abraham Gottlob Werner (1750-1817) is the German mineralogist and geologist to whom is owed the theory of "Neptunism" (according to which the rocks would derive from processes of marine sedimentation), whereas James Hutton (1726-1797) is the English geologist (cited in the passage that follows) to whom is owed the theory of "Plutonism" (according to which the rocks would instead derive from processes of volcanic eruption).
@@ -4407,7 +4150,6 @@ But to fill the void that divides the thinking that thought us and thinks us fro
 It is precisely here, however, that the game (the destiny of the world and of man) is played. For of the two, one: either we give ourselves humbly and lovingly to discovering and making our own its other parts; or we give ourselves egoistically (or narcissistically) to inventing something (as unfortunately one tends to do today), thereby inflicting upon nature and upon ourselves damages far graver than those proverbially inflicted by elephants upon knick-knacks.
 
 Steiner writes: Goethe "went in search of a simple, natural explanation of the presence over vast expanses of granite masses, very distant from one another. The explanation that they had been
-                                                   189
 hurled there during the tumultuous upheaval of mountains situated much farther back in the region, he had to reject, because it derived a natural fact not from the natural laws still existing and operative, but from an exception to them, indeed from an abandonment of them" (p. 177).
 
 
@@ -4590,7 +4332,6 @@ It is not a question, therefore, of believing or not believing this or that, but
 The fact is that science would not be such, nor would it succeed in doing what it does, if it did not work in the way we are illustrating. Not being aware of this, however, it believes that things stand otherwise: it believes, for example, that the idea is not "the first, originary, creative element," but rather "the last product of the natural processes."
 
 But the cognitive process, Steiner writes, "presents itself in this way: we perceive with our senses facts that unfold entirely according to the laws of mechanics, then phenomena of warmth, of light, of magnetism, of electricity, and finally vital processes, etc. At the highest grade of life we establish that it raises itself as far as the formation of concepts, of ideas, whose bearer is precisely the human brain. Springing from this sphere of thinking we find our own 'I.' This seems to be the highest product of a complicated process transmitted through a long series of physical, chemical, and organic facts. But if we investigate the ideal world that constitutes the content of that 'I,' we find in it more than the simple terminal product of that process. We find that the single parts of it are connected among themselves in a way quite other than are the parts of that
-                                                 198
 merely observed process. Inasmuch as one thought arises in us and then arouses another, we discover that between these two objects there is an ideal connection of quite another species than if I observe the dyeing of a fabric as the consequence of a chemical agent. It is entirely obvious that the successive stages of the cerebral process have their origin in the organic metabolism, although the cerebral process itself is the bearer of those configurations of thinking. But why the second thought follows the first, I do not find in this metabolism, but rather in the logical connection of the thoughts. In the world of thoughts there reigns, therefore, besides the organic necessity, another higher ideal necessity" (pp. 190-191).
 
 
@@ -4634,7 +4375,6 @@ Steiner writes: "We can take our start from wherever we wish; if we have suffici
 As you can see, the first statement (Newton's) gives no account of organic reality (which does not need the intervention of "external forces" in order to modify "its state of rest or of motion"), whereas the second (Steiner's) gives account both of organic reality and of inorganic reality.
 
 Paraphrasing Karl Popper (1902-1994), who spoke – as is known – of "open society" and "closed society" (cf. The Open Society and its Enemies – Armando, Rome 1996), we could, therefore,
-                                                    200
 speak, and perhaps with all the more reason, of "open science" and "closed science," without wondering that the many "friends" of the latter are "enemies" of the former.
 
 L.R.
@@ -4657,7 +4397,6 @@ Steiner continues: "Let us for once investigate the facts quite objectively," su
 
 
 Since, however, we have learned to distinguish between the perceptive act, which (going to meet the stimulus) sets the process of perception in motion; the perceptive image, which concludes it; the percept, as content of the perception; and the sensation, as sentient-soulic experience of the percept (we spoke of it a couple of times ago), it will be well for us to re-read this passage in the following way: "Once I have the sensation of red, together with the indication of a determinate
-                                                  202
 place, I am led, first of all, to some object of the outer world as the bearer of the content of that sensation. I can now certainly ask myself what spatial-temporal processes unfold in that object while it appears to me endowed with the red color; and then, as an answer to my question, there will present themselves to me mechanical, chemical, and other processes. I shall therefore continue in the investigation, and seek what processes have unfolded along the path from that object as far as my sense organ, in order to transmit to me the content of the sensation of red. Here, too, there cannot present themselves to me as intermediaries anything other than processes of motion, or electrical currents, or chemical changes. The same result I should have to obtain even if I could go further and investigate the further transmission from the sense organ as far as the cerebral center. The percept that is transmitted along this whole path is the content of the perception and of the sensation of red in question. But how that content presents itself in a determinate medium lying along the path that goes from the stimulus as far as the perceptive image (as the outcome of the perceptive process) depends solely upon the nature of that medium. The content of the sensation is present at every place, from the stimulus to the brain, but not as sensation, not explicit, but rather as corresponds to the nature of the medium existing at that place."
 
 These modifications aim, obviously, at making things clearer, and not at correcting Steiner. For the rest, what he says in the last sentence, "the sensation is present at every place, from the stimulus to the brain, but not as such, not explicit...," could already suffice to understand that what "is present at every place, from the stimulus to the brain" (the percept) is not yet the sensation, inasmuch as the latter will be given, "as such," only when the percept arrives at making itself explicit in the sentient soul.
@@ -4672,7 +4411,6 @@ Very well, let us then take up again what Boncinelli says about sound (which "is
 Answer to a question
 
 Sound is in itself a quality, and for that very reason an essence that appears in a different way according to the ambit in which it presents itself. Thanks to Steiner we know, for example, that one and the same "solar" quality presents itself, in the ambit of the musical notes, as the note A (la); in the ambit of the metals, as gold; and, in the anatomo-physiological one, as the heart. Tradition is accustomed to speak, in this regard, of "analogies"; but these are founded precisely upon the fact that the essence is one, whereas its manifestations
-                                                   203
 can be manifold. Remember, moreover, that the quality or the essence is given to us as concept (A), and that it is this – as we know – that is present, from the very beginning (of the perceptive process), in the garb of the percept (X). We have said, in fact, that the percept is the unknown concept, whereas the concept is the known percept.
 
 
@@ -4690,7 +4428,6 @@ But through all these changes, what is it, then, that "endures"?
 
 
 Steiner writes in this regard: "One demands that over against the fleeting sensation there stand an enduring objective process which, as such, is in its turn objectively delimited in time, that is, has beginning, duration, and end. Such a process should unfold in a matter without beginning or end, that is to say, indestructible, eternal. This, it is said, is the enduring element in the changing of the processes. But must we not rigorously distinguish between the content of the sensation and the manifesting of the same? (…) For this content, taken purely as such, is it not perhaps a matter of complete indifference that precisely in this moment it enters into my consciousness, and after a certain number of
-                                                  204
 minutes or seconds goes out of it? What constitutes the content of the sensation, that is, that thing which alone enters objectively into consideration, is entirely independent of it. Now one cannot regard as an essential condition of the subsistence of a thing that which is a matter of complete indifference for its content" (p. 196).
 
 What, in fact, is the percept if not precisely that content of the perception which begins to reveal itself (in its quality) in the sensation? As quality, essence, or concept, this content is independent of time and of space, but it comes to meet us in time and in space.
@@ -4707,7 +4444,6 @@ Steiner writes: "If on a given day there emerges a new quality that conserves it
 The content of the world is formed, therefore, by the "sum" (the aggregate) of the qualia, and not only of the quanta. To comprehend it truly, one would need, therefore, to dispose both of a science of quantities and of a science of qualities (of a science of the spirit). For if it is a limitation to know only quantity, it is, on the other hand, a true and proper evil to reduce – as is generally done – quality (which one does not know) to quantity (which one knows).
 
 Steiner continues: "Only from an altogether erroneous interpretation of the concept of time was the concept of matter generated. One believes one would volatilize the world into a substance-less semblance if one did not think of something unchanging, which endures in time and remains the same while its determinations change, as underlying the whole changing sum of the events. But time is not a receptacle within which the changes unfold; it does not exist before and outside of things. Time is the sensible expression of the circumstance that the facts, according to their content, depend successively one upon another (…) Time begins to appear only where the essence of a thing manifests itself. Time belongs to the world of manifest phenomena. It has as yet nothing to do with the essence itself. This is graspable only ideally. Only one who is not capable of accomplishing in his thinking this re-ascent from the manifestation to the essence hypostatizes time
-                                                  205
 as something that precedes the facts. But then he requires an existence that survives the changes. As such, he assumes indestructible matter" (p. 197).
 
 
@@ -4816,10 +4552,7 @@ Between the end of the nineteenth century and the beginning of the twentieth, wh
 
 If one considers, moreover, that the certainties taken from the ego by "modern" physics went to add themselves to those already subtracted from it by Marx, Nietzsche, and Freud (by the so-called "school of suspicion" – cf. P. Ricoeur: On Interpretation – An Essay on Freud – Il Saggiatore, Milan 1967), one will no longer wonder at witnessing today an disquieting involution and disintegration (in the first place moral) of the ego, rather than a positive evolution of it.
 
-The fact is that those certainties (proper to the first evolutionary phase of the consciousness soul), precisely by reason of their sensible base, should have constituted a springboard for the development of the ego in the direction of the spiritual Self (of the social or moral I), and not change themselves into a
-
-210
-definitive and dogmatic acquisition, destined, as such, sooner or later to expose its flank to the assault of disintegrating or dissolving forces (still more formidable than the Luciferic and Ahrimanic ones).
+The fact is that those certainties (proper to the first evolutionary phase of the consciousness soul), precisely by reason of their sensible base, should have constituted a springboard for the development of the ego in the direction of the spiritual Self (of the social or moral I), and not change themselves into a definitive and dogmatic acquisition, destined, as such, sooner or later to expose its flank to the assault of disintegrating or dissolving forces (still more formidable than the Luciferic and Ahrimanic ones).
 
 One reads, in fact, in the Gospel: "Then the disciples came to him and said: 'Why do you speak to them in parables?' He answered: 'Because to you it is given to know the mysteries of the kingdom of heaven, but to them it is not given. For to him who has, it will be given, and he will be in abundance; and from him who has not, even what he has will be taken away'" (Mt 13:10-12).
 
@@ -4868,7 +4601,6 @@ As you see, there here recurs the problem of distinguishing (we spoke of it last
 Goethe notes, in fact: "Newton's experiment, upon which the traditional theory of colors rests, is of an extreme complexity: it combines, in fact, all these conditions. In order that the spectrum of light appear, there are necessary: 1) a glass prism; 2) that it have three faces; 3) and be small; 4) a shutter; 5) with an opening; 6) that it be very small; 7) an edge of the Sun passing through it; 8) at a certain distance, in a 9) certain direction upon the prism; 10) that it project upon a board, 11) placed behind the prism at a certain distance. Discard conditions 3, 6, and 11; make the opening large, place the board near to the prism, and the dear spectrum cannot appear, and will not appear" – Maxims and Reflections, p. 242).
 
 Steiner concludes, in any case: "Naturally, I would not so much as dream of wishing to defend all the single particulars of the Goethean theory of colors. What I should like to see maintained of it is solely the principle. Here my task cannot even be that of deriving from its principle all the phenomena of the theory of colors still unknown in Goethe's time. If, one day, I should have the fortune to possess the time and the means to write a theory of colors in the Goethean sense,
-                                                  213
 fully equal to the modern conquests of science, I could fulfill that task only in such a work" (pp. 201-202).
 
 We have thus finished the second section; let us pass, therefore, to the third: The System of Natural Science.
@@ -4886,7 +4618,6 @@ Steiner continues: "What function, therefore, has the concept that we conjoin wi
 You see, the concept "must bring something new that belongs to the sensible perception, but that does not appear in it." The concept, in fact, "appears" within us, whereas the percept "appears" outside of us: thanks to the latter we are able to experience a force that could not be thought; thanks to the former we are able to think a form that could not be perceived (by the physical senses).
 
 This depends, however, upon us, and not upon the reality of the object or of the phenomenon with which we are grappling. This is, in fact, one, but we are organized in such a way as to experience, at one (volitional) level, its force (as percept), and to apprehend, at another (thinking) level, its form (as
-                                                  214
 concept). Only by re-uniting the percept with the concept and the concept with the percept do we, therefore, obtain the entelechy: that is to say, the essence of the object or of the phenomenon.
 
 It is fundamental, therefore, to distinguish the essence both from the percept, which represents solely the way in which the essence is given to perceiving, and from the concept, which represents solely the way in which the essence is given to thinking.
@@ -4993,7 +4724,6 @@ This said, let us pass to the fifth section, entitled: Goethe's Concept of Space
 
 
 Steiner writes: "Since a full comprehension of Goethe's works on physics is possible only on the basis of a conception of space identical with his, let us seek to illustrate it. But first it is necessary that, from our preceding considerations, we have acquired the following convictions: 1st) the objects that in experience appear to us in isolation have between them a reciprocal interior relation; in reality
-                                                   219
 they are held together by a unitary cosmic bond; there lives in them one principle, common to all; 2nd) when our spirit draws near to the isolated objects, seeking to embrace them by means of a spiritual nexus, the conceptual unity it establishes is not extrinsic to the objects, but drawn from the intimate being of nature itself. Human knowledge is not a process that unfolds outside of the things, springing from a mere subjective arbitrariness; no, what presents itself to our spirit as law of nature, and extrinsicates itself in our soul, is the pulsation of the very heart of the universe" (pp. 207-208).
 
 On the basis of these convictions, let us, therefore, confront the question of space, keeping well in mind, however, what we have already said in this regard.
@@ -5014,7 +4744,6 @@ The spirit, or the I, in actualizing "its infinity," tends, therefore, to heal t
 Steiner writes precisely: "What our spirit wants, when it draws near to experience, is to surpass the separation, to show that in the single thing there is to be seen the force of the whole. In spatial perception it wishes to surpass nothing other than separation as such; that is, to establish the most general relation of all. That A and B are not each a world unto itself, but belong to a common aggregate – this is what spatial observation says. This is the sense of being near in space. If every thing were a being unto itself, this would not be possible; one could not establish, in general, any reference of the beings to one another" (p. 209).
 
 But why does the I feel separation painfully? It is soon said: because separation from the world separates it, in reality, from itself, and is, therefore, lived as a soulic laceration or an
-                                                  220
 "ontological fracture" (the expression is that of the well-known English psychiatrist and psychoanalyst Ronald Laing [1927-1989], author of The Divided Self – Einaudi, Turin 1969).
 
 A and B are, therefore, not each a world unto itself, but belong to a common aggregate, inasmuch as the I finds the one and the other within itself, and can therefore reunite them in its interior "space."
@@ -5077,7 +4806,6 @@ Steiner says that "the reality that presents itself to our eyes is only a given 
 
 
 Steiner exemplifies precisely: "If someone, from place A, sends me a telegram while I am residing in B, that which arrives in my hands is originated wholly in B. In B is the telegraphist,
-                                                   224
 who writes upon a sheet of paper and with an ink that have never been in A; he himself does not know A, etc.; in short, one can demonstrate that in the telegram that stands before me nothing derives from A. And yet all that derives from B is a matter of complete indifference for the content, for the essence of the telegram; what matters to me is only transmitted from B. If I wish to explain the essence of the content of the telegram, I must totally prescind from what derives from B" (pp. 214-215).
 
 Let us speak plainly. Everyone would understand and accept these things, if for the encounter with the living reality of the spirit the intellect alone (or, as one says today, the mere "mind") sufficed.
@@ -5112,7 +4840,6 @@ Steiner concludes: "It suffices to liberate ourselves from the idea that for Goe
 With regard to "principles," I should like to recall, before finishing, the Freudian ones of Eros and Thanatos. That the materialist neurologists and psychiatrists make fun of them does not surprise at all; but that they have not heretofore been taken entirely seriously by the Freudian psychoanalysts themselves can, on the other hand, disconcert. What would have happened, in fact, if they had taken them seriously? That they would sooner or later have discovered – as the science of the spirit teaches – that "light" (abstract thinking) reveals itself connected, in the garb of Thanatos, to the catabolic processes of the neurosensory system, and that "darkness" (instinctive willing) reveals itself, on the other hand, connected, in the garb of Eros, to the anabolic processes of the metabolic system and of the limbs.
 
 In the lower pole – Victor Bott explains, in fact – "we find an intense vitality and, as a consequence, a corresponding activity of the etheric body. The constant regeneration of the cells of the intestine, the cellular multiplication in the organs of reproduction, are etheric processes par excellence, are
-                                                  226
 vital manifestations. On the contrary, at the neurosensory pole processes of death prevail. This state of things reaches its culminating point at the level of the nerve cell, which is incapable of regeneration. One has the impression that little suffices for it to die totally" (Anthroposophical Medicine – IPSA, Palermo 1991, vol. I, p. 20).
 
 L.R.
@@ -5193,7 +4920,6 @@ Boncinelli arrives, for example, at asserting: "The hardness, the malleability, 
 Very good; but who, then, is it that has such properties? That is, where, and what, is the "metal itself"? We know that the "metal itself," that is to say the essence of the metal, lies beyond the threshold that divides the existential reality of space and time from the essential reality of the qualities (and of the I). To re-ascend from the consciousness of space (representational) to that of time (imaginative), and then, crossing that threshold, to re-ascend from the consciousness of time to that of quality (inspirative) is, however, neither easy nor convenient; and precisely for this one prefers – according to what we have said and repeated – to reduce quality and time to space, that is, to quantity.
 
 In this regard, Ostwald, in a passage reported by Steiner, asserts: "However useful and necessary for the comprehension of nature, is energy also sufficient for this purpose (that is, for the explanation of the corporeal world)? (…) To this question one must answer with a no. However superior the merits of the energetic conception of the world may be to those of the mechanical or materialistic conception, there can, so it seems to me, already now be indicated some points that are not covered
-                                                  231
 by the cornerstones of energetics already known; and that therefore allude to the existence of principles that transcend it. But energetics will continue to subsist alongside these new principles. Only, in time to come, it will no longer be, as it is today for us, the most all-embracing law of all for embracing and dominating the natural phenomena; it will appear, rather, probably as a special case of relations still more general, of whose form we most certainly have not, for the moment, the palest idea" (pp. 222-223).
 
 And even today, in effect, science has not "the palest idea" of the idea.
@@ -5254,7 +4980,6 @@ Steiner writes: "Some younger physicists assert that they attribute to the conce
 I do not know this Antonio Lampa, but the fact that he is a physicist who "has the singular knack – as Steiner says – of being at the same time a follower of the mechanical theory of nature and of Indian mysticism" inevitably makes me think of the American physicist Fritjof Capra (b. 1939), who, in his well-known The Tao of Physics (Adelphi, Milan 1994), as one reads on the back cover: "Explains to the reader, on the one hand, the concepts, the paradoxes, and the enigmas of the theory of relativity, of quantum mechanics, and of the submicroscopic world; and, on the other, makes him savor the profound and disconcerting charm of the Eastern mystical philosophies."
 
 One who "loves clear thinking," and strives, therefore, to proceed – as Scaligero would say – along The Way of the Solar Will (Tilopa, Rome 1986), does not, however, allow himself to be deceived or deluded by this "mystical materialism" or "materialistic mysticism," for he does not toil much to recognize it as the fruit of the sinister union between the (mechanistic) Ahrimanic forces and the (mystical) Luciferic ones. An undeniably intelligent fruit, indeed an extremely intelligent one; one must, however, beware of the seduction
-                                                   235
 of the "big brains," inasmuch as what is most cerebral is not necessarily more human. The human being is, in fact, in part "cortex," whereas the Ahrimanic beings are only "cortex."
 
 Steiner says that "nowhere can we find matter within the world of experience"; nowhere in the world of experience can we, in effect, find matter "without beginning or end," "indestructible," "eternal," or "immutable." And why? Because such "matter" is an idea, and not (as is believed, and as one would have believed) a thing, endowed more or less with energy.
@@ -5322,7 +5047,6 @@ Well, let us then take this small encyclopedia and see what it says under the en
 As you see, not only does one attribute "fantastically" to the quarks (to the presumed "objectivity") contents (flavors and colors) taken on loan – as Steiner says – from that "world of experience that is declared subjective," but one even indulges in a fatuous and cloying anthropomorphism.
 
 But this is not all. Does the search for "a simplification for the hadrons" not recall, in fact, what we saw asserted in due course by Barsanti concerning Linnaean philosophy? Namely, that "as it soon became clear that in spite of certain premises it led to an artificial system, so it was at the same time equally clear that this constituted a great advantage for botanical science, and perhaps the most important advantage. Gilibert realized it with great lucidity: notwithstanding that of Tournefort was more natural, the system of Linnaeus was to be unquestionably
-                                                   239
 preferred to it because it was 'more uniform in its articulation,' that is, it avoided furnishing too many criteria for classifying the bodies (which disorients the naturalist) and furnished, much more efficaciously, a single parameter, the key for disentangling oneself in the labyrinth of nature" (The Scientific Works of Goethe (4) – ed.).
 
 
@@ -5358,7 +5082,6 @@ We should, in fact, know nothing of the qualities of a crystal of rock salt if w
 We have finished the fifth section; let us occupy ourselves, therefore, with the sixth, which is – as you can see – very short.
 
 Steiner writes: "The modern physicists, only because seduced by the preconception that a simple mathematical or mechanical fact is more comprehensible than an elementary phenomenon of sound or of color, eliminate from the phenomena the specific character of sound and of color and consider only the processes of movement corresponding to the perceptions of sense. And since they cannot think movements without something that moves, they consider as bearer of the movements the matter stripped of all its
-                                                   241
 properties. One who is not entangled in this preconception of the physicists must recognize that the processes of movement are conditions connected with the sensible qualities. The content of the wave movements corresponding to the sound phenomena is the qualities of sound. The same holds for the other qualities of sense" (p. 231).
 
 The fact is that the intellect, in order to enjoy the fact that "the accounts – as one says – come out right," must reduce even the incalculable to the calculable, thereby expelling the former from reality. And yet – Goethe's Urphänomen demonstrates it – the incalculable could be even more "simple" than a "simple mathematical fact." In order to be able to discover it, however, one would have to observe the real phenomena (given by sensible perception) lovingly, and not spend the greater part of one's time at the blackboard or, as is done today, at the computer.
@@ -5410,7 +5133,6 @@ Steiner writes: "The development of natural science in the last centuries has le
 The materialistic representations of present-day science, and the techniques that derive from them, are, in fact, "part of a conception of the world apt to satisfy the" inferior "human needs"; and it is significant that the common denominator of such representations is constituted by nominalism: that is, by the conviction that concepts or ideas are nothing other than names (do you remember, for example, what Boncinelli said? That intelligence is "the categorization, that is, the attribution of names to things"). (The Scientific Works of Goethe (44) – ed.).
 
 Listen to what Friedrich Engels (1820-1895) says in this regard, citing Karl Marx (1818-1883): "The cradle of all modern materialism, from the seventeenth century on, was England and no other country. Materialism is the legitimate son of Great Britain. Already its great scholastic, Duns Scotus, had asked himself whether matter cannot think. To realize this miracle he had recourse to the omnipotence of God, and thus compelled theology itself to preach materialism. He was, moreover,
-                                                  244
 a nominalist. Nominalism represents the principal element of the English materialists, just as it is, in general, the first expression of materialism. The authentic father of English materialism is Bacon (Francis Bacon, 1561-1626 – ed.). Natural science is for him the only true science, and physics, founded upon the experience of the senses, is the essential part of natural science" (The Development of Socialism from Utopia to Science – Edizioni in Lingue Estere, Moscow 1947, p. 15).
 
 Well, let us then hear how much Hegel says of Francis Bacon, defined by him as the "leader" of the philosophy of experience: "Bacon is even today extolled as the one who would have indicated to knowledge its true source, experience; he is, in fact, properly the precursor and the representative of what in England one is wont to call philosophy, and upon which the English have not yet succeeded in raising themselves. For they seem to constitute in Europe the people which, confined to the intellect of 'actuality,' is destined, like the shopkeepers and the artisans in the State, to live ever immersed in matter, and to have as object 'actuality,' but not reason."
@@ -5594,7 +5316,6 @@ Perhaps you will remember that, in treating of The Philosophy of Freedom, I said
 Whoever is wont to let (in a more or less conscious way) his subjective reactions condition his thinking (a thing that always happens when one opines) will end, therefore, by convincing himself that what holds for feeling holds also for thinking, and by finding himself, for that very reason, enrolled in the fan club of the Kantians.
 
 Steiner writes: "Of a human truth that is not subjective (that is, springing from or expressed by the subject – ed.) one cannot even speak. For truth is the introducing of subjective experiences into the objective connection of the phenomena. These subjective experiences can even assume an altogether individual (personal – ed.) character, and are nevertheless the expression of the intimate essence of the things. One cannot introduce into the things anything other than what one has experienced in oneself. Therefore every man, according to his individual experiences, will introduce into the things elements in a certain sense different. Another, who has not had my same experiences, may not at all comprehend my way of interpreting certain processes of nature. But what matters is not that all men
-                                                  254
 think the same about the things, but that all, when they think about the things, live in the element of truth" (p. 242).
 
 
