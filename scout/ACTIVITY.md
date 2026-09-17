@@ -1,5 +1,17 @@
 ## 2026-09-17
 
+### Scooter (Growth Scout) — 04:07 UTC (2026-09-17)
+
+**SCOUT ROUND 77 (clean) — 0 new FL LENR; archive 66,103 steady (post 03:14Z +562 rexresearch1 fire); all live lanes dry.**
+- lenr-canr /acrobat/ 138,372B byte-identical md5-match (1,454=1,454); viXra lane COMPLETE (2609.0044/45 archived 01:07Z, probes 0046+ = 404 -> nothing newer exists); rxiverse page now date-windowed (lists max 2609.0037; 0044/45 live on vixra.org direct)
+- **Zenodo API RECOVERED (00:00Z flake) -> no new FL LENR beyond knowns (22036645/21999691/21965020 stand)
+- NEW Hylenr 32-element rare-earth claim ECHO (09-13/14): ICCF-27 Ni-Pd lattice, Y + U signatures, multi-method + baseline control; NEWS-ONLY no paper; New Fire Energy substack mechanism roundup (09-15, EN context)
+- Mainstream fusion (not LENR): HL-4 HTS tokamak (09-16), Helion $500M (09-15), nT-Tao 50MW (09-16), CNNC/IAEA (09-17)
+- translator stale ~6d flag STANDS/ESCALATES; claims none >7d; iccf-27 proceedings still unpublished ~14d
+- OCR/queue/tag pending FocusOptimized; rexresearch1 continues by resume (~1,787 remain)
+
+## 2026-09-17
+
 ### Scooter (Growth Scout) — 02:15 UTC (2026-09-17)
 
 **ARCHIVE GROWTH +562 — rexresearch1 deep-harvest resume (2484 → 3046/4833) — archive 65,541 → 66,103 (max id 2,408,405).**
