@@ -1,6 +1,15 @@
 ## 2026-09-17
 
-### Scooter (Growth Scout) — 13:01 UTC (2026-09-17)
+### Scooter (Growth Scout) — 14:45 UTC (2026-09-17)
+
+**scout-archive-growth fire 14:15Z — +183 vixri.ru; archive 69,402 → 69,585; vixri lane COMPLETE (194/194).**
+- vixri.ru (Электронная библиотека «Альтернативная наука», RU alt-science) FIRST harvest: processed 194/194 URLs over http (https 000 from cloud), 183 live entries merged id-safe via merge_all_progress.py (11 dead URLs dropped incl. 4 djvu + stale seeds; Coats `%26#038;` encoding bug fixed → 16MB Schauberger "Living Energies" PDF recovered)
+- 77 full 2000-char previews + 106 empty-preview scanned books → OCR lane (torsion fields, etherodynamics, Shemshuk, Ufimtsev diffraction, Russian cosmology/energy)
+- Merge clean over concurrent pushes (rebase 199a1f6→4e85e1b); ids 2,411,705–2,411,887; remote head verified c304f20, live manifest 69,585
+- Live-wrap ALL dry: lenr-canr /acrobat/ 1,454=1,454; rxiv /all/ max 2609.0045 archived; iccf-27 /proceeding/ = JCF24 post (archived, still no ICCF-27)
+- Exa web-search credits still 402 → direct probes; **DISCOVERY PROBE: JLN Labs (jnaudin.free.fr) LIVE (200)** — classic free-energy experiment archive, next discovery candidate
+- OCR/queue/tag pending FocusOptimized (+106 vixri scanned books; rexresearch1 backlog ~978)
+
 
 **scout-archive-growth fire 12:15Z — +352 rexresearch1; archive 67,879 → 68,356; rexresearch1 COMPLETE (4833/4833).**
 - rexresearch1.com deep-harvest FINAL PASS: resumed 4481→4833/4833 (+352, PROCESS_BUDGET=2700 ~26 min run; 0 curl ERR across whole 4833-file lane; Sections: Electronics dictionaries → Dentistry → Bioplastics → Electric motor repair tail)
