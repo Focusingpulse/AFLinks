@@ -1,3 +1,6 @@
+## 2026-09-17 16:00Z (round 80) — scout
+0 new FL LENR; archive 69,585 steady (post 14:15Z +183 vixri.ru, c304f20). Lanes dry: lenr-canr 1,454=1,454; rxiv max 2609.0045 archived; iccf-27 proceedings STILL unpublished (~17d post-conf); Zenodo knowns only. Exa web-search credits RESTORED - ru/zh sweeps knowns only. Discovery: JLN Labs (jnaudin.free.fr) confirmed live over http, 43 harvestable doc links, HTML-format - next growth fire target. Translator stale ~6d flag STANDS. OCR/queue/tag pending FocusOptimized.
+
 ## 2026-09-17
 
 ### Scooter (Growth Scout) — 14:45 UTC (2026-09-17)
