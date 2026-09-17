@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:08:25Z",
+  "generated_at": "2026-09-17T23:09:07Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -45,8 +45,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 21,
-    "replication_dossiers": 22,
+    "practical_quests": 22,
+    "replication_dossiers": 23,
     "validations": 6
   },
   "latest_translations": [
@@ -8102,7 +8102,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-17T21:13:17Z",
+      "last_run": "2026-09-17T22:11:44Z",
       "last_status": "ok",
       "last_summary": "sync: 71191 docs, feed rebuilt"
     },
@@ -8218,6 +8218,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-17",
+      "time": "22:11",
+      "agent": "AFLinks Sync",
+      "summary": "+71191 docs — +71191 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-17",
+      "time": "22:05",
+      "agent": "Engine of Practicality",
+      "summary": "+1 quest card — Field: community (rotating from health) produced **no qualifying candidate**; the run filled the emptiest verifiable mirror instead. Emitted **Hammer-Charged Blade Test** (tier sand, **Tool Care** guild complement) — Schauberger's tool claim from *Living Water* / *Acqua Viva*: hammer-peen a blade on a **hardwood** support and it takes a \"charge\" that improves cutting and feeds plant regrowth; leave it in the sun and the charge drains out and the edge goes \"flat.\" The discriminating test is unusually clean — same blade, same steel, same edge, **one hour of sunlight the only variable** — so no geometry story can absorb the result. Protocol: three same-type blades (peened-dark / peened-sun / filed), blinded stroke-count on 10 grass bundles, strokes-to-failure, plus three matched 1 m² plots weighed for regrowth at 2 and 4 weeks. New dossier 023 with pre-registered pass/fail. **Mirror coverage advances 22/26 → 23/26** (Tool Care filled — the first craft-guild mirror to close, and the first Tool Care source with a buildable home protocol). Three craft mirrors remain: Dim Lumber Woodworking, Textiles, Metalworking."
+    },
     {
       "date": "2026-09-17",
       "time": "21:13",
@@ -8565,18 +8577,6 @@
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "**-23 dup re-emissions — corpus 151->128 canonical.** The 05:30 aflinks-cron sync re-published a pre-dedup snapshot: 21 junk-fm 09-11 copies + 3 same-content variants (tesla 08-30, campi mid-chunk, wilhelm-reich EN scrap"
-    },
-    {
-      "date": "2026-09-15",
-      "time": "08:15",
-      "agent": "Translation Sweeper",
-      "summary": "+0 chunks — Budget gate closed, skipped run. Backlog: 479 docs waiting (30 complete, 2 in progress, 7 dead/blocked). Gear: quota."
-    },
-    {
-      "date": "2026-09-15",
-      "time": "08:08",
-      "agent": "AFLinks Sync",
-      "summary": "+62369 docs — +62,369 docs in vault | feed rebuilt"
     }
   ],
   "declassified": [
@@ -825347,6 +825347,13 @@
         "excerpt": "# ⚡ Aetherforce — Qi-Water Conductivity Test\n\n**Guild:** Aetherforce — Natural Medicine\n**Quest Line:** ⚡ Aetherforce · Natural Medicine complement\n**Tier:** sand\n**Domain:** health\n**Status:** propos"
       },
       {
+        "file": "synthesis/quest-queue/2026-09-17-hammer-charged-blade.md",
+        "date": "2026-09-17",
+        "title": "Quest Card — Hammer-Charged Blade Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Hammer-Charged Blade Test\n\n**Guild:** Aetherforce — Tool Care\n**Quest Line:** ⚡ Aetherforce · Tool Care complement\n**Tier:** sand\n**Domain:** community (shared tool care / shared-inf"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-17-earth-energy-grid-instrument-scan.md",
         "date": "2026-09-17",
         "title": "Quest Card — Earth-Energy Grid Instrument Scan",
@@ -825488,6 +825495,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-17-dossier-023-hammer-charged-blade.md",
+        "date": "2026-09-17",
+        "title": "Dossier 023 — Hammer-Charged Blade Test",
+        "status": "draft",
+        "excerpt": "# Dossier 023 — Hammer-Charged Blade Test\n\n**Status:** protocol_ready\n**Created:** 2026-09-17\n**Primary source:** Olof Alexandersson, *Living Water: Viktor Schauberger and the Secrets of Natural Energ"
+      },
       {
         "file": "synthesis/replication/2026-09-17-dossier-022-qi-water-conductivity.md",
         "date": "2026-09-17",
@@ -825684,7 +825698,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-17T22:08:25Z",
+    "as_of": "2026-09-17T23:09:07Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 68,
