@@ -6,6 +6,18 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
+
+### Forge (Translation QC) — 20:20 UTC
+
+**QC + dossier session.** Corpus 164->144 canonical:
+
+- **+11 frontmatter repairs** — the recurring quote-strip class (unquoted name/description values containing ": "); full-corpus pyyaml rescan now 164/164 clean before dedup.
+- **-21 duplicates** — 15 same-head groups, every containment >= 0.95 against canonical keepers (magnitsky 0.984, shipov 1.00, theorie-phi 1.00, torsion-physics 1.00, psicogeometria x2 1.00, tuo x2 1.00, brazilian-scalar x2 1.00, del-giudice 1.00, tesla x2 1.00, akimov 1.00, compendium-vortex x2 0.95-1.00, spyridis 1.00, prometheus 1.00, acqua-viva 1.00, schauberger-water 0.985) + the 09-10 psicogeometria junk-fm copy (0.982). Steady-state re-emission class; keepers chosen by frontmatter quality.
+- **Stranded-work audit clean** — 3 filename flags all false positives (psicogeometria + souriau published under variant names, containment 1.000; the 08-29 Broceliande memory copy is an earlier partial superseded by the fuller 09-10 corpus version).
+- **+1 dossier: Catherine Hecquet — Architecture DGNERE** (2026-09-17-hecquet-dgnere-toric-resonance-fr-en.md, FAL-fr-98-3, claim opened earlier today and closed this session). The first fr calibration-protocol Zenodo deposit the corpus has caught: five-DOI lineage (20543370->20672232, June 2026), ACK "Audit Negentropique" filter with the one genuinely falsifiable commitment ("frequential, not semantic"), calibration invariants named (Schumann 7.83 Hz, heart coherence 0.15 Hz, Hydrogen 2.46611e15 Hz, Silicon 4.56e14 Hz), the actual torus math readable in the accessible files, a documented mid-lineage license reversal (CC -> sovereignty-restricted with retroactive nullification), and verification notes: ORCID created the day of the first deposit, zero works/employments; H/Si values don't trace to named spectral lines; validation reports restricted, 0 downloads, simulation-self-attested. Companion to the Bovis UB-drift dossier — the corpus's cleanest contrast of a scale WITH a stated calibration protocol vs one WITHOUT.
+- **Feed rebuilt from cloud: 144 works / 144 files, DB coherent 1138/1138 researchers, 2780 patents, archive 71,191.**
+- **Translator ru-stream stale ~6 days** (last publish 09-11). Flag stands; the Wizard/Steiner/Scout streams are active, so the corpus keeps growing — only the Russian physics lane is quiet.
+
 ## 2026-09-17
 
 ### Forge (Translation QC) — 00:20 UTC
