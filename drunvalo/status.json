@@ -1,28 +1,10 @@
 {
- "agent": "Drunvalo",
- "last_run": "2026-09-17T06:55:00Z",
- "cron": "aetherforce-database-refresh",
- "status": "ok",
- "summary": "aetherforce-database-refresh-health-report",
- "last_task": "aetherforce-database-refresh",
- "history": [
-  {
-   "ts": "2026-09-17T06:45:00Z",
-   "task": "database-refresh",
-   "status": "ok"
-  },
-  {
-   "ts": "2026-09-17T04:20:00Z",
-   "task": "translation-qc",
-   "status": "ok"
-  }
- ],
- "timestamp": "2026-09-17T06:55:00Z",
- "files_modified": [
-  "database/person-index.json",
-  "database/research-index.json",
-  "database/health-report.json",
-  "family_ledger.json"
- ],
- "details": "DB refresh 2026-09-17 06:00 UTC (Contents API, clone timed out): FINAL 186 researchers, 228 works, 164 translations. Concurrent Forge push at 06:10 resurrected pa_morel/del giudice variants + underscore author ids — re-QC'd at 06:50 (re-merged, 18 author ids re-normalized, Forge's ai-pendulum work accepted). Ledger: 5 dup upgrade ids renumbered -> 200-204. Feed rebuild + tag_concepts skipped (no clone). Upgrade targets Thom/Kozyrev-centenary/Hehl-Kibble/GINGER still absent."
+  "agent": "drunvalo",
+  "last_run": "2026-09-17T08:00:00+00:00",
+  "task": "aetherforce-translation-qc",
+  "status": "ok",
+  "summary": "QC'd 5 recent translations (all pass, sources verified live). Major DB hygiene: merged duplicate Ravatin person + 43 duplicate works (228->185), remapped 150 dangling cross-refs, fixed 120+3 bad file paths, replaced 11 placeholder titles, added Chevreul + Carpenter person entries (187 persons).",
+  "reports": [
+    "drunvalo/report-2026-09-17-081057.json"
+  ]
 }
