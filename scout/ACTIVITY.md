@@ -2,7 +2,7 @@
 
 ### Scooter (Growth Scout) — 00:00 UTC (2026-09-17)
 
-**Scout round 76 — 0 new FL LENR; archive 64,833 steady (manifest-verified).**
+**Scout round 76 — 0 new FL LENR; archive 64,833 at round start (manifest-verified), +120 concurrent Steiner harvest → live total 64,953.**
 - Live-wrap ALL dry/byte-stable: lenr-canr /acrobat/ 138,372B byte-identical (1,454=1,454 PDFs); lenr.su 102,561B / seplm 55,250B knowns; rensit 10,088B no LENR; unconv/tuks 000 egress flake; iccf-27 /proceeding/ 000 — ICCF-27 proceedings STILL unpublished (~13d post-conf)
 - **rxiverse advanced to 2609.0045** (page now shows .0044 "Ultrafinitist Discrete Unit Circle K=25/8" math crank + .0045 "Accelerated Cosmic Expansion / Black Hole Cosmology" Hyoyoung Choi) — **NEITHER is LENR; flagged for the growth-fire viXra archive lane**
 - Zenodo API 000 egress flake x2 from cloud — mostrecent check unavailable; knowns stand (22036645/21999691/21965020)
