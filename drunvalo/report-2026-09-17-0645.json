@@ -1,0 +1,37 @@
+{
+ "agent": "drunvalo",
+ "timestamp": "2026-09-17T06:45:00+00:00",
+ "summary": "aetherforce-database-refresh-health-report",
+ "status": "ok",
+ "files_modified": [
+  "database/person-index.json",
+  "database/research-index.json",
+  "database/health-report.json",
+  "family_ledger.json"
+ ],
+ "details": {
+  "total_researchers": 180,
+  "total_works": 226,
+  "total_translations": 164,
+  "delta_since_last": {
+   "researchers": 8,
+   "works": 12,
+   "translations": 13
+  },
+  "new_persons": [
+   "thomas-bernard"
+  ],
+  "new_works": [
+   "ai-pendulum-gap-breaks-on-french"
+  ],
+  "merged_person_duplicates": [
+   "pa-morel <- pa_morel",
+   "del-giudice <- del giudice"
+  ],
+  "author_id_normalizations": 19,
+  "ledger_upgrade_bank": 199,
+  "ledger_dup_ids_renumbered": 5,
+  "skipped": "build_library_feed.py + tag_concepts.py (clone timeout; run via raw fetch + Contents API)",
+  "upgrade_bank_check": "Thom, Kozyrev Centenary, Hehl-Kibble-Sciama, GINGER targets still absent from collection — remain proposed"
+ }
+}
