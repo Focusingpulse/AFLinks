@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IntroductionalgorithmssolutionsCormen — Aetherforce Knowledge Vault</title>
+<meta name="description" content="Selected Solutions for Chapter 2: Getting Started Solution to Exercise 2.2-2 S ELECTION -S ORT.A/ n D A:length for j D 1 to n 1 smallest D j for i D j C 1 to n if AŒi &lt; AŒsmallest smallest D i exchange AŒj  with AŒsmallest The algorithm maintains the loop invariant that at the start of each iter">
+<meta property="og:title" content="IntroductionalgorithmssolutionsCormen">
+<meta property="og:description" content="Selected Solutions for Chapter 2: Getting Started Solution to Exercise 2.2-2 S ELECTION -S ORT.A/ n D A:length for j D 1 to n 1 smallest D j for i D j C 1 to n if AŒi &lt; AŒsmallest smallest D i excha">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Conspiracy / Politics">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Geopolitics &amp; Hidden History">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "IntroductionalgorithmssolutionsCormen", "url": "https://focusingpulse.github.io/AFLinks/pages/02409892.html", "isPartOf": {"@type": "Collection", "name": "Aetherforce Knowledge Vault", "url": "https://focusingpulse.github.io/AFLinks/"}, "publisher": {"@type": "Organization", "name": "Aetherforce Knowledge Vault"}, "description": "Selected Solutions for Chapter 2: Getting Started Solution to Exercise 2.2-2 S ELECTION -S ORT.A/ n D A:length for j D 1 to n 1 smallest D j for i D j C 1 to n if AŒi < AŒsmallest smallest D i exchange AŒj  with AŒsmallest The algorithm maintains the loop invariant that at the start of each iteration of the outer for loop, the subarray AŒ1 : : j 1 consists of the j 1 smallest elements in the ", "sameAs": "https://www.rexresearch1.com/AlgorithmLibrary/IntroductionalgorithmssolutionsCormen.pdf", "about": [{"@type": "Thing", "name": "Alternative Energy Technologies"}, {"@type": "Thing", "name": "Challenges to the Standard Model"}, {"@type": "Thing", "name": "Geopolitics & Hidden History"}, {"@type": "Thing", "name": "Energy"}, {"@type": "Thing", "name": "Alternative Physics"}, {"@type": "Thing", "name": "Conspiracy / Politics"}]}</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #2409892</div>
+  <h1>IntroductionalgorithmssolutionsCormen</h1>
+  <div class="meta"> · archived # 2,409,892</div>
+  
+  <div class="preview">Selected Solutions for Chapter 2: Getting Started Solution to Exercise 2.2-2 S ELECTION -S ORT.A/ n D A:length for j D 1 to n 1 smallest D j for i D j C 1 to n if AŒi &lt; AŒsmallest smallest D i exchange AŒj  with AŒsmallest The algorithm maintains the loop invariant that at the start of each iteration of the outer for loop, the subarray AŒ1 : : j 1 consists of the j 1 smallest elements in the array AŒ1 : : n, and this subarray is in sorted order. After the first n 1 elements, the subarray AŒ1 : : n 1 contains the smallest n 1 elements, sorted, and therefore element AŒn must be the largest element. The running time of the algorithm is ‚.n2 / for all cases. Solution to Exercise 2.2-4 Modify the algorithm so it tests whether the input satisfies some special-case condition and, if it does, output a pre-computed answer. The best-case running time is generally not a good measure of an algorithm. Solution to Exercise 2.3-5 Procedure B INARY-S EARCH takes a sorted array A, a value , and a range Œlow : : high of the array, in which we search for the value . The procedure compares  to the array entry at the midpoint of the range and decides to eliminate half the range from further consideration. We give both iterative and recursive versions, each of which returns either an index i such that AŒi D , or NIL if no entry of 2-2 Selected Solutions for Chapter 2: Getting Started AŒlow : : high contains the value . The initial call to either version should have the parameters A; ; 1; n. I TERATIVE -B INARY-S EARCH.A; ; low; high/ while low  high mid D b.low C high/=2c if  == AŒmid return mid elseif  &gt; AŒmid low D mid C 1 else high D mid 1 return NIL R ECURSIVE -B INARY-S EARCH.A; ; low; high/ if low &gt; high return NIL mid D b.low C high/=2c if  == AŒmid return mid elseif  &gt; AŒmid return R ECURSIVE -B INARY-S EARCH.A; ; mid C 1; high/ else return R ECURSIVE -B INARY-S EARCH.A; ; low; mid 1/ Both procedures terminate the search unsuccessfully when the range</div>
+  
+  <div class="actions"><a class="btn" href="https://www.rexresearch1.com/AlgorithmLibrary/IntroductionalgorithmssolutionsCormen.pdf" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Alternative+Physics">Related documents →</a></div>
+  <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
+  <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
+  <button class="btn ghost" onclick="navigator.clipboard.writeText('https://focusingpulse.github.io/AFLinks/pages/02409892.html').then(()=>this.textContent='✓ Link copied')" title="Copy this document's permanent link">Share this document</button>
+  <a class="btn ghost" href="mailto:?subject=IntroductionalgorithmssolutionsCormen&body=From the Aetherforce Knowledge Vault: https://focusingpulse.github.io/AFLinks/pages/02409892.html">Email →</a>
+</div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a><a class="tag" href="/AFLinks/?cat=Conspiracy / Politics">Conspiracy / Politics</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
+</body>
+</html>
