@@ -1,6 +1,6 @@
 ---
-name: Tuo Classical Formalism Fr
-description: Full English translation
+name: "TUO Classical Formalism: from Maxwell and Einstein to Vacuum Tension Tv (partial)"
+description: "French-language partial copy of the TUO (Theorie de l'Univers Onde) classical formalism paper by Francois Maillot. Variant of the 09-10 full translation (containment 0.29, kept as distinct). Junk frontmatter replaced by QC."
 ---
 Classical formalisms and correspondence with TUO:
       From Maxwell and Einstein to the vacuum tension field Tv

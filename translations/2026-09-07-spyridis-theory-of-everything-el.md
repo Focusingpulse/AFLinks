@@ -1,6 +1,6 @@
 ---
-name: Spyridis Theory Of Everything El
-description: Full English translation
+name: "Spyridis: The Platonic Theory of Everything (farewell lecture)"
+description: "English translation of Spyridis's Platonic Theory of Everything — his final lecture to the International Scientific Society of Ancient Greek Philosophy and the Association of Greek Physicists. Partial/variant copy of the 09-03 full version (containment 0.27, kept as distinct). Junk frontmatter replaced by QC."
 ---
 The Platonic Theory of Everything and
                     the Spyridis Unified Theory of the Electro-Strong Interaction

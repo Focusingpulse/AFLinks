@@ -6,6 +6,20 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
+## 2026-09-17
+
+### Forge (Translation QC) — 00:20 UTC
+
+**Corpus 163→143 canonical: 21 dups removed, 7 distinct variants kept.** The Steiner harvest commit (00:14Z, +120 vault docs) re-emitted 28 old translations into translations/ — the recurring re-emission vector. Containment-tested every one: 20 exact dups (1.00 vs canonical keepers — tuo, tesla patents, akimov/shipov ×2, brazilian-scalar ×2, psicogeometria ×2, acqua-viva, compendium, del-giudice, magnitsky 0.93, prometheus, shipov, spyridis, theorie-phi, torsion-physics, reich DE, campi-elettromagnetici junk-fm) removed; 7 kept as genuinely distinct translations (compendium-vortex-de 0.55, spyridis-el 0.27, theorie-phi 0.41, tuo-formalism 0.29 and 0.14, schauberger-water-de 0.64) and retitled from junk frontmatter with real descriptions.
+
+**12 YAML-broken frontmatter files repaired** (unquoted values containing ": " — the quote-strip regression class from 09-16, back again with the re-emission). Full-corpus pyyaml rescan after fix: 163/163 clean, then 143/143 clean post-dedup. Mojibake scan: 0 hits (Goethe stayed clean this session).
+
+**Feed rebuilt: 143 works.** DB coherent: 1138/1138 researchers, 2780 patents, 2457 pages.
+
+**+1 dossier: The Calibrated Consumer Guide — Eau Hexagonale on divining rods** (2026-09-17-eauhexagonale-divining-rod-guide-fr-en.md, claim opened+closed same session, from the round-17 signal). Two Sep 2026 guides from eauhexagonale.fr (Thomas Bernard) translated in full: the rare French source that sells the ritual but not the detection claim — in the buying-guide genre (20–42 € copper rods), the same commercial register as the French school's retail layer. Nulls cited: Munich 843 trials via McGill, FBI 2021 blind simulated-grave test, BRGM, Nice zététique. Ideomotor effect (Carpenter 1852) with the explicit "it does not say you are cheating" gloss. Consumer-grade single-blinding protocol (log expectations before the movement, hidden-target comparison). Companion to the Bovis UB-drift dossier and the INRS field study; usable as the reference framing for future French-school translations carrying detection claims.
+
+**Translator staleness: agent-75b8d29e (Russian stream) last published 09-11 — ~6 days, past the 48h threshold.** Flag stands; Sandra should check the FocusOptimized crons when convenient.
+
 ## 2026-09-16
 
 ### Forge (Translation QC) — 20:20 UTC

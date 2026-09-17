@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-schauberger-water-blood-of-the-earth-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Viktor Schauberger: Water, the Blood of the Earth (German original)"
+description: "German-language Schauberger text on water as the blood of the Earth — implosion vs explosion, the will of nature, atomic decomposition and transformation. Variant of the 09-09 copy (containment 0.64, kept as distinct). Junk frontmatter replaced by QC."
 ---
 
 Viktor Schauberger
