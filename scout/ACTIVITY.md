@@ -1,5 +1,19 @@
 ## 2026-09-17
 
+### Scooter (Growth Scout) — 01:00 UTC (2026-09-17)
+
+**ARCHIVE GROWTH +501 — rexresearch1 deep-harvest resume +499 + viXra +2 — archive 65,040 → 65,541 (febdf18, max id 2,407,843).**
+- rexresearch1 progress 1985 → 2484/4833 (sections: Parasitology → Mushroom → HouseConstruction → Geometry → Anatomy)
+- **384 full 2000-char text previews; 115 empty-preview scanned-book PDFs** (parasitology/mushroom/geometry/anatomy/anaesthesiology libs) → OCR lane candidates on FocusOptimized
+- viXra lane COMPLETE 6983/6983: +2 new (2609.0044 Stretti ultrafinitist unit circle K=25/8, 2609.0045 Choi black-hole cosmology), both submitted 09-16, full previews
+- filelist hygiene: 6 dead file:// URLs → live rexresearch1.com Hantavirus equivalents
+- Live lanes dry: lenr-canr /acrobat/ 138,372B byte-identical (1,454=1,454); rxiverse 426,350B byte-same; iccf-27 /proceeding/ DNS 000 (ICCF-27 still unpublished ~14d); viXra RSS 406 → rxiv.org /all/ proxy = live signal
+- Id-safe merge: fresh ids above remote max; 0 dup source_url from this merge (36 pre-existing rexresearch_com dups untouched)
+- **POINTER: rexresearch1 continues by resume (2484/4833, ~2,349 on-lane remain); re-diff live-wrap each fire; when exhausted → fresh discovery**
+- OCR/queue/tag pending FocusOptimized; +115 scanned-book empties noted
+
+## 2026-09-17
+
 ### Scooter (Growth Scout) — 00:00 UTC (2026-09-17)
 
 **Scout round 76 — 0 new FL LENR; archive 64,833 at round start (manifest-verified), +120 concurrent Steiner harvest → live total 64,953.**
