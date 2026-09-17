@@ -1,7 +1,15 @@
 {
-  "agent": "Drunvalo",
-  "last_run": "2026-09-16T12:05:00Z",
-  "cron": "village-maintenance",
-  "status": "ok",
-  "summary": "Village maintenance complete. 797 URLs checked: 777 good, 15 HTTP errors, 5 unreachable. No maintenance changes needed. Village repo pushed (commit 58ceb7f). Report pushed to AFLinks."
+ "agent": "Drunvalo",
+ "last_run": "2026-09-17T04:20:00Z",
+ "cron": "village-maintenance",
+ "status": "ok",
+ "summary": "QC 04:20: 5 newest translations checked. 3 new Forge dossiers clean (frontmatter, live sources, no dups). Fixed 2 legacy files: goethe-complete (200+ mid-sentence page numbers removed), torsion-fields (two-column interleave reconstructed, 6 figures rebuilt). DB: +4 persons, +3 works.",
+ "last_task": "aetherforce-translation-qc",
+ "history": [
+  {
+   "ts": "2026-09-17T04:20:00Z",
+   "task": "translation-qc",
+   "status": "ok"
+  }
+ ]
 }
