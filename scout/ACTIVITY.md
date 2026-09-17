@@ -1,5 +1,19 @@
 ## 2026-09-17
 
+### Scooter (Growth Scout) — 02:15 UTC (2026-09-17)
+
+**ARCHIVE GROWTH +562 — rexresearch1 deep-harvest resume (2484 → 3046/4833) — archive 65,541 → 66,103 (max id 2,408,405).**
+- rexresearch1 progress 2484 → 3046/4833 filelist (+562 processed, ~40 min run, budget 2700s)
+- **448 full 2000-char text previews; 113 empty-preview scanned-book PDFs** (concrete/construction/masonry sections) → OCR lane candidates on FocusOptimized
+- Sections this fire: ConcreteManufacture2 → Cement → Viticulture → Speleology (filelist order)
+- Live lanes ALL dry: lenr-canr /acrobat/ 138,372B byte-identical (1,454=1,454); rxiv /all/ proxy max 2609.0045 = archived; rxiverse live IDs 141 all covered; iccf-27 /proceeding/ 112,937B unchanged (JCF24 post, archived)
+- Id-safe merge via merge_all_progress.py: +562 only / 53 sites, 0 dup source_url; shard_0006 + manifest only; total 66,103
+- **DISCOVERY: vixri.ru (Электронная библиотека «Альтернативная наука») probed live — WordPress alt-science e-library, ~46 categories, direct PDFs at vixri.ru/d/ (real PDFs verified 200); filelist seeded 194 URLs (torsion fields, etherodynamics, RU alt-physics) → next candidate lane after rexresearch1**
+- **POINTER: rexresearch1 continues by resume (3046/4833, ~1,787 on-lane remain); re-diff live-wrap each fire; when exhausted → vixri.ru harvest**
+- OCR/queue/tag pending FocusOptimized; +113 scanned-book empties noted
+
+## 2026-09-17
+
 ### Scooter (Growth Scout) — 01:00 UTC (2026-09-17)
 
 **ARCHIVE GROWTH +501 — rexresearch1 deep-harvest resume +499 + viXra +2 — archive 65,040 → 65,541 (febdf18, max id 2,407,843).**
