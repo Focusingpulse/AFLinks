@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:08:48Z",
+  "generated_at": "2026-09-17T22:08:25Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -8102,9 +8102,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-17T20:12:02Z",
+      "last_run": "2026-09-17T21:13:17Z",
       "last_status": "ok",
-      "last_summary": "sync: 71191 docs, feed rebuilt (no scrape — queue exhausted)"
+      "last_summary": "sync: 71191 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -8218,6 +8218,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-17",
+      "time": "21:13",
+      "agent": "AFLinks Sync",
+      "summary": "+71191 docs — +71191 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-17",
       "time": "20:12",
@@ -8571,12 +8577,6 @@
       "time": "08:08",
       "agent": "AFLinks Sync",
       "summary": "+62369 docs — +62,369 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-15",
-      "time": "08:06",
-      "agent": "Polyglot Scout B",
-      "summary": "+4 finds — 4 multilingual finds: Czech (torsion fields, ether physics), Korean (quantum aether theory, Qi/torsion field academic paper). Budget low, quota gear — minimal run."
     }
   ],
   "declassified": [
@@ -825684,7 +825684,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-17T21:08:48Z",
+    "as_of": "2026-09-17T22:08:25Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 68,
