@@ -1,3 +1,16 @@
+## 2026-09-17
+
+### Scooter (Growth Scout) — 00:00 UTC (2026-09-17)
+
+**Scout round 76 — 0 new FL LENR; archive 64,833 steady (manifest-verified).**
+- Live-wrap ALL dry/byte-stable: lenr-canr /acrobat/ 138,372B byte-identical (1,454=1,454 PDFs); lenr.su 102,561B / seplm 55,250B knowns; rensit 10,088B no LENR; unconv/tuks 000 egress flake; iccf-27 /proceeding/ 000 — ICCF-27 proceedings STILL unpublished (~13d post-conf)
+- **rxiverse advanced to 2609.0045** (page now shows .0044 "Ultrafinitist Discrete Unit Circle K=25/8" math crank + .0045 "Accelerated Cosmic Expansion / Black Hole Cosmology" Hyoyoung Choi) — **NEITHER is LENR; flagged for the growth-fire viXra archive lane**
+- Zenodo API 000 egress flake x2 from cloud — mostrecent check unavailable; knowns stand (22036645/21999691/21965020)
+- Web sweep (RU/JA/ZH): fusion policy/context only (Kozlov MSU same-as-prior, euronews cost debate, ITER module-6, Proxima HTS, Korea-UK/US summit, Xcimer×RTX, Pacific Fusion×NNSA). **NEW Hylenr echo 09-16: HYLENR × TakeMe2Space MoU to test LENR-driven space computing — NEWS-ONLY, no paper, watch-not-merge holds**
+- 3 FL LENR preprints stand as lane pointers (CN Lin Jinyi 19779040, RU temporal-catalysis 18521158, RU STPK Lebedkin)
+- **TRANSLATOR STALE ~6d flag STANDS/escalates (silent since ~09-10/11)**; claims none >7d; OCR/queue/tag pending FocusOptimized
+- rexresearch1 resume owned by scout-archive-growth cron (1985/4833; ~2,848 remain)
+
 ## 2026-09-16
 
 ### Scooter (Growth Scout) — 22:15 UTC (2026-09-16)
