@@ -1,21 +1,30 @@
 {
- "timestamp": "2026-09-17T06:00:00+00:00",
+ "timestamp": "2026-09-17T06:50:00+00:00",
  "run": "aetherforce-database-refresh",
  "total_translations": 164,
- "total_researchers": 180,
- "total_works": 226,
+ "total_researchers": 186,
+ "total_works": 228,
  "prev": {
   "researchers": 172,
   "works": 214,
   "translations": 151
  },
  "delta": {
-  "researchers": 8,
-  "works": 12,
+  "researchers": 14,
+  "works": 14,
   "translations": 13
  },
  "new_persons": [
-  "thomas-bernard"
+  "thomas-bernard",
+  "lochak",
+  "urutskoev",
+  "ivoilov",
+  "bolard",
+  "vasilyev",
+  "levesque",
+  "bernard-l",
+  "aspen",
+  "laviolette"
  ],
  "new_works": [
   "ai-pendulum-gap-breaks-on-french"
@@ -52,5 +61,5 @@
   "el": 3,
   "es": 7
  },
- "notes": "Clone timed out (known issue) — run executed via raw fetch + Contents API. Feed rebuild (build_library_feed.py) skipped: requires full clone. QC additions: merged pa_morel/pa-morel and del giudice/del-giudice person variants; normalized 19 underscore/variant author ids to canonical hyphenated person ids; added ai-pendulum-gap-breaks-on-french work; added thomas-bernard person; renumbered 5 duplicate upgrade-bank ids (045/020/021/022/023 -> 200-204). Thom/Kozyrev-centenary/Hehl-Kibble/GINGER upgrade targets still not in collection — remain proposed."
+ "notes": "Clone timed out (known issue) — run executed via raw fetch + Contents API. Feed rebuild skipped (needs clone). CONCURRENT PUSH COLLISION: Forge pushed at 06:10 (between my pushes), resurrecting pa_morel + del giudice person variants and underscore author ids; re-QC at 06:50 re-merged (188->186 persons) and re-normalized 18 author ids. Forge's ai-pendulum-gap-breaks-on-fr work entry accepted (replaces my -french variant). Ledger: 5 duplicate upgrade ids renumbered -> 200-204. Thom/Kozyrev-centenary/Hehl-Kibble/GINGER upgrade targets still absent."
 }
