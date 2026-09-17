@@ -50,6 +50,25 @@ def parse_mediawiki(payload):
     return [p["title"] for p in d.get("query", {}).get("allpages", [])]
 
 
+def write_state(state_path, out_path, pages, next_offset):
+    """Write the checkpoint atomically.
+
+    Both files are tracked in git and this script may be running detached in the
+    same sandbox as a sibling cron that reads them, so a truncate-then-write
+    would expose a half-written file. Write to a temp file and rename over the
+    target instead — os.replace is atomic on the same filesystem.
+    """
+    tmp = state_path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump({"pages": sorted(pages), "next_offset": next_offset}, f)
+    os.replace(tmp, state_path)
+
+    tmp = out_path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        f.write("\n".join(sorted(pages)))
+    os.replace(tmp, out_path)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", required=True, help="site root, e.g. https://svpwiki.com")
@@ -69,8 +88,12 @@ def main():
             pages = set(st.get("pages", []))
             offset = st.get("next_offset", 0)
             print(f"resume from offset {offset}, {len(pages)} pages so far", flush=True)
-        except Exception:
-            pass
+        except Exception as e:
+            # Previously this was a silent `pass`, which meant a corrupt state
+            # file restarted enumeration from offset 0 and threw away every page
+            # discovered so far. Say so loudly instead of losing it quietly.
+            print(f"WARNING: could not read {a.state} ({e}); "
+                  f"starting from offset 0 — discovered pages in that file are lost", flush=True)
 
     empty_streak = 0
     while offset <= a.max_offset:
@@ -107,9 +130,7 @@ def main():
 
         if offset % a.checkpoint_every == 0:
             print(f"offset={offset} total={len(pages)}", flush=True)
-            json.dump({"pages": sorted(pages), "next_offset": offset + a.step}, open(a.state, "w"))
-            with open(a.out, "w", encoding="utf-8") as f:
-                f.write("\n".join(sorted(pages)))
+            write_state(a.state, a.out, pages, offset + a.step)
 
         if empty_streak >= 3:
             print(f"stopping: 3 empty pages at offset {offset}", flush=True)
@@ -117,9 +138,7 @@ def main():
         offset += a.step
         time.sleep(0.12)
 
-    json.dump({"pages": sorted(pages), "next_offset": offset}, open(a.state, "w"))
-    with open(a.out, "w", encoding="utf-8") as f:
-        f.write("\n".join(sorted(pages)))
+    write_state(a.state, a.out, pages, offset)
     print(f"DONE pages={len(pages)} last_offset={offset}", flush=True)
 
 
