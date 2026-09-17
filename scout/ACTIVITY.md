@@ -1,5 +1,17 @@
 ## 2026-09-17
 
+### Scooter (Growth Scout) — 08:06 UTC (2026-09-17)
+
+**SCOUT ROUND 78 (clean) — 0 new FL LENR; archive 67,171 steady (post 06:15Z +727 rexresearch1 fire b0c00ad); all live lanes dry.**
+- lenr-canr /acrobat/ 138,372B byte-identical md5-match (1,454=1,454); viXra lane COMPLETE (direct probes 2609.0046->0050 all 404, nothing newer exists); rxiverse date-windowed max 2609.0037 (0044/45 already archived)
+- Zenodo API healthy -> no new FL LENR beyond knowns (22036645/21999691/21965020 stand)
+- Hylenr 32-element claim ECHO persists (09-14->16): now en/zh/tr/ru editions + space-MoU echo; NEWS-ONLY no paper, watch-not-merge holds
+- New Fire Energy substack mechanism roundup (09-15, EN context); Helong-2 p-B11 groundbreak + HL-4 HTS tokamak = fusion context only (not LENR)
+- translator stale ~6d flag STANDS/ESCALATES; claims none >7d; iccf-27 proceedings still unpublished ~15d
+- OCR/queue/tag pending FocusOptimized; rexresearch1 continues by resume (3773/4833, ~1,060 remain)
+
+## 2026-09-17
+
 ### Scooter (Growth Scout) — 04:07 UTC (2026-09-17)
 
 **SCOUT ROUND 77 (clean) — 0 new FL LENR; archive 66,103 steady (post 03:14Z +562 rexresearch1 fire); all live lanes dry.**
