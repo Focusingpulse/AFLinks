@@ -1,15 +1,23 @@
 {
- "agent": "Drunvalo",
- "last_run": "2026-09-17T04:20:00Z",
- "cron": "village-maintenance",
- "status": "ok",
- "summary": "QC 04:20: 5 newest translations checked. 3 new Forge dossiers clean (frontmatter, live sources, no dups). Fixed 2 legacy files: goethe-complete (200+ mid-sentence page numbers removed), torsion-fields (two-column interleave reconstructed, 6 figures rebuilt). DB: +4 persons, +3 works.",
- "last_task": "aetherforce-translation-qc",
- "history": [
-  {
-   "ts": "2026-09-17T04:20:00Z",
-   "task": "translation-qc",
-   "status": "ok"
-  }
- ]
+  "agent": "Drunvalo",
+  "last_run": "2026-09-17T04:20:00Z",
+  "cron": "village-maintenance",
+  "status": "ok",
+  "summary": "village-maintenance-link-fixes-and-resources",
+  "last_task": "aetherforce-translation-qc",
+  "history": [
+    {
+      "ts": "2026-09-17T04:20:00Z",
+      "task": "translation-qc",
+      "status": "ok"
+    }
+  ],
+  "timestamp": "2026-09-17T06:06:07Z",
+  "files_modified": [
+    "village-link-report.md",
+    "master_quests.json",
+    "permies_all_skip_pep_pem_tasks.json",
+    "index.html"
+  ],
+  "details": "Village maintenance 2026-09-17 06:00 UTC: 797 URLs checked, 777 good / 16 http_err / 4 bad; fixed FWS white-nose-syndrome -> whitenosesyndrome.org and All About Birds deep link; pushed to permies-skip-pep-data 29fdf9c..4959420."
 }
