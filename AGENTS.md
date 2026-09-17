@@ -41,8 +41,24 @@ AFLINKS_DIR=/root/workspace/AFLinks python3 build_library_feed.py
   The script's degraded-run guards keep the previous published values (empty **or shorter**) for
   `latest_finds`, `domains`, `top_researchers`, `declassified`, `agents`, `activity_log`. Do not
   remove those guards.
+- **The guards do not cover everything.** On 2026-09-17 a rebuild on a sandbox with no shared
+  `living-library` **and** no master index (`index.json` / `index_shards/manifest.json`) wrote a
+  **464 KB** feed against the previous **17.4 MB** one: `seam` went 11.4 MB → 135 bytes,
+  `library.meta_counts` was lost, `library.archive_entries` and `library.aflinks_docs` became
+  `None`, and `patents` / `pages_translated` shifted. `practical` (the Replication Yard) rebuilt
+  correctly — only the corpus-derived sections degraded. **You can rarely tell from the counts
+  alone; check the file size.**
+- **Safe procedure when you only need the Yard updated:** back up first
+  (`cp library_feed.json /tmp/library_feed.bak.json`), run the builder if you want, then rebuild
+  the feed as a deep copy of the backup with **only** `practical` (and
+  `library.validations` / `library.replication_dossiers`) replaced from the new run, plus a
+  refreshed `generated_at`. Restore `daily_counts.json` from the backup — the builder may append a
+  degraded entry with `docs: None`.
 - After rebuilding, verify: `practical.quests`, `practical.dossiers`, `practical.validations`,
-  `library.translations` are non-zero, and `latest_finds` did not shrink vs. the previous feed.
+  `library.translations` are non-zero, `latest_finds` did not shrink vs. the previous feed, and the
+  file is still ~17 MB. Then confirm the committed blob:
+  `git cat-file -s HEAD:library_feed.json` → **17392990** bytes; if it is ~0.5 MB you committed a
+  gutted feed.
 - If a rebuild goes wrong: `git checkout -- library_feed.json daily_counts.json`.
 
 ## Reporting lanes
