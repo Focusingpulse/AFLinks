@@ -1,23 +1,28 @@
 {
-  "agent": "Drunvalo",
-  "last_run": "2026-09-17T04:20:00Z",
-  "cron": "village-maintenance",
-  "status": "ok",
-  "summary": "village-maintenance-link-fixes-and-resources",
-  "last_task": "aetherforce-translation-qc",
-  "history": [
-    {
-      "ts": "2026-09-17T04:20:00Z",
-      "task": "translation-qc",
-      "status": "ok"
-    }
-  ],
-  "timestamp": "2026-09-17T06:06:07Z",
-  "files_modified": [
-    "village-link-report.md",
-    "master_quests.json",
-    "permies_all_skip_pep_pem_tasks.json",
-    "index.html"
-  ],
-  "details": "Village maintenance 2026-09-17 06:00 UTC: 797 URLs checked, 777 good / 16 http_err / 4 bad; fixed FWS white-nose-syndrome -> whitenosesyndrome.org and All About Birds deep link; pushed to permies-skip-pep-data 29fdf9c..4959420."
+ "agent": "Drunvalo",
+ "last_run": "2026-09-17T06:45:00Z",
+ "cron": "aetherforce-database-refresh",
+ "status": "ok",
+ "summary": "aetherforce-database-refresh-health-report",
+ "last_task": "aetherforce-database-refresh",
+ "history": [
+  {
+   "ts": "2026-09-17T06:45:00Z",
+   "task": "database-refresh",
+   "status": "ok"
+  },
+  {
+   "ts": "2026-09-17T04:20:00Z",
+   "task": "translation-qc",
+   "status": "ok"
+  }
+ ],
+ "timestamp": "2026-09-17T06:45:00Z",
+ "files_modified": [
+  "database/person-index.json",
+  "database/research-index.json",
+  "database/health-report.json",
+  "family_ledger.json"
+ ],
+ "details": "DB refresh 2026-09-17 06:00 UTC (via Contents API, clone timed out): 180 researchers, 226 works, 164 translations (+8/+12/+13 since 09-15). Person dedupe: merged pa_morel->pa-morel, del giudice->del-giudice (181->180). +1 person (thomas-bernard), +1 work (ai-pendulum-gap-breaks-on-french), 19 author-id normalizations, FR->fr language fix. Ledger: renumbered 5 duplicate upgrade-bank ids (045/020/021/022/023 -> 200-204). Feed rebuild + tag_concepts skipped (no clone). Upgrade targets Thom/Kozyrev-centenary/Hehl-Kibble/GINGER still absent."
 }
