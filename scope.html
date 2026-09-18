@@ -174,7 +174,14 @@
   .doc .pill { display:inline-block; padding:1px 8px; border-radius:9px; margin-right:6px; font-size:.64rem; }
   .doc .pill.both { background: rgba(201,168,76,.16); color: var(--gold); border:1px solid var(--gold-dim); }
   .doc .pill.cross { background: rgba(111,179,168,.13); color: var(--ringB); border:1px solid #3c6a63; }
-  .more { display:block; width:100%; margin-top:5px; }
+  .more-wrap { text-align:center; margin-top:9px; }
+  .more { display:inline-block; }
+  .linkish {
+    display:block; margin:9px auto 0; padding:5px;
+    background:none; border:none; cursor:pointer; font-family:inherit;
+    color:var(--text-faint); font-size:.7rem; text-decoration:underline;
+  }
+  .linkish:hover { color: var(--gold); }
 
   .loading { text-align:center; color: var(--text-dim); padding:70px 20px; font-style:italic; }
   .hint { text-align:center; color: var(--text-faint); font-size:.7rem; margin-top:18px; line-height:1.7; padding:0 20px; }
@@ -424,6 +431,7 @@ window.onerror = function (m, src, ln) {
   }
 
   // ─────────────────────────────────────────── render
+  var lastKey = null;
   function render() {
     var A = names[selA], B = names[selB];
     var s = seamOf(selA, selB);
@@ -448,6 +456,7 @@ window.onerror = function (m, src, ln) {
     }
 
     var rk = mode + '|' + selA + '|' + selB;
+    if (rk !== lastKey) { shown = PAGE; lastKey = rk; }   // new seam -> collapse the list
     if (resultCache[rk]) { paint(resultCache[rk]); return; }
     var rows = ids.map(function (id) {
       return { id: id, t: data.titles[id] || '(untitled)', both: s.bothSet.has(id) };
@@ -456,10 +465,16 @@ window.onerror = function (m, src, ln) {
     paint(rows);
   }
 
-  var shown = 40;
+  var PAGE = 10;          // links shown before the list asks to be expanded
+  var shown = PAGE;
   function paint(rows) {
-    document.getElementById('rcount').textContent =
-      rows.length.toLocaleString() + ' document' + (rows.length === 1 ? '' : 's') + ' in this seam';
+    var total = rows.length;
+    document.getElementById('rcount').textContent = total === 0
+      ? 'nothing in this seam'
+      : (total <= shown
+          ? total.toLocaleString() + ' document' + (total === 1 ? '' : 's') + ' in this seam'
+          : 'showing ' + shown.toLocaleString() + ' of ' + total.toLocaleString() + ' in this seam');
+
     var list = document.getElementById('docList');
     list.innerHTML = rows.slice(0, shown).map(function (r) {
       var id = String(r.id).padStart(8, '0');
@@ -468,12 +483,21 @@ window.onerror = function (m, src, ln) {
         '<div class="t">' + esc(r.t) + '</div>' +
         '<div class="m">' + pill + 'archived #' + r.id + '</div></a>';
     }).join('');
-    if (rows.length > shown) {
+
+    if (total > shown) {
+      var wrap = document.createElement('div');
+      wrap.className = 'more-wrap';
       var b = document.createElement('button');
       b.className = 'btn more';
-      b.textContent = 'show ' + Math.min(200, rows.length - shown) + ' more';
-      b.onclick = function () { shown += 200; paint(rows); };
-      list.appendChild(b);
+      b.textContent = 'Show ' + Math.min(PAGE, total - shown) + ' more';
+      b.onclick = function () { shown += PAGE; paint(rows); };
+      wrap.appendChild(b);
+      var all = document.createElement('button');
+      all.className = 'linkish';
+      all.textContent = 'or show all ' + total.toLocaleString();
+      all.onclick = function () { shown = total; paint(rows); };
+      wrap.appendChild(all);
+      list.appendChild(wrap);
     }
   }
 
@@ -488,16 +512,16 @@ window.onerror = function (m, src, ln) {
     mode = m;
     document.getElementById('btnAll').classList.toggle('on', m === 'all');
     document.getElementById('btnOverlap').classList.toggle('on', m === 'overlap');
-    shown = 40; render();
+    render();
   }
   document.getElementById('btnAll').onclick = function () { setMode('all'); };
   document.getElementById('btnOverlap').onclick = function () { setMode('overlap'); };
   document.getElementById('btnBright').onclick = function () {
-    var b = brightest(); brightIx++; setSel(b.a, b.b); shown = 40; render();
+    var b = brightest(); brightIx++; setSel(b.a, b.b); render();
   };
   document.getElementById('btnShuffle').onclick = function () {
     setSel(Math.floor(Math.random() * N), Math.floor(Math.random() * N));
-    shown = 40; render();
+    render();
   };
 })();
 </script>
