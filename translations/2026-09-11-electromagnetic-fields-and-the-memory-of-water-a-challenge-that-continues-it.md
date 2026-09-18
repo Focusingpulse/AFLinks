@@ -3,10 +3,6 @@ name: "Electromagnetic Fields and the Memory of Water: A Challenge That Continue
 description: "Italian original (vglobale.it, Vincenzo Valenzi) of the Coherence meeting report on electromagnetic fields and the memory of water."
 ---
 
----
-name: Electromagnetic Fields and the Memory of Water - A Challenge That Continues
-description: "Full-document translation. language it | 1 chunks | https://www.vglobale.it/2013/04/24/campi-elettromagnetici-e-memoria-dell-acqua-una-sfida-che-continua/"
----
 
 # Electromagnetic Fields and the Memory of Water: A Challenge That Continues
 

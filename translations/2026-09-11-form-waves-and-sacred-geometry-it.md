@@ -3,10 +3,6 @@ name: "Form Waves and Sacred Geometry (Italian)"
 description: "Italian original (mariocontino.it) of Mario Contino's article on form waves and sacred geometry."
 ---
 
----
-name: Form Waves and Sacred Geometry
-description: "Full-document translation. language it | 3 chunks | https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra"
----
 
 # Form Waves and Sacred Geometry
 

@@ -1515,11 +1515,6 @@ His house was on Královodvorská street, on the side where the Kotva department
 ---
 
 
----
-name: chunk_0032.en
-description: Translation of chunk 32 from Za tajemstvim eteru (Behind the Mystery of Ether) - Czech book about radio history. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Jaroslav J. Motyčka.
----
-
 The maid in a white apron led Motyčka into the reception hall, which was over two stories high. Above was a balcony from which one entered guest rooms. In the hall, at an enormous table, sat Anny Ondráčková, Lamač, and Heller. The host, a sturdy sexagenarian, was not exactly handsome. But his receptive eyes and lively interest made a good impression on Motyčka.
 
 Dr. Baštýř listened attentively to Motyčka's account. He had an expensive apparatus, but he heard nothing other than Kbely. He was a dentist. He graduated in 1887 and began practicing in 1894. He was involved in public life. He became a city councilor, was a member of the health commission, the board of the Electric Enterprises, and a member of almost all charitable organizations in Prague. At his own expense, he founded free dental care for the Prague garrison. He was a co-founder of the Jedlička Institute and a member of the presidium of the Prague Book Society. During the war, he established a military reserve hospital in the Straka Academy, where he built a dental clinic at his own expense. After the revolution, leading figures of Prague society were among his patients.

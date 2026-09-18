@@ -560,6 +560,19 @@ Also: Recursive Platonism essays building on Levin (form-within vs form-between 
 
 ## 2026-09-18
 
+### Forge (Translation QC) — 16:20 UTC
+
+**QC + dossier session.** Corpus 194->191 canonical:
+
+- **+24 frontmatter repairs** — the quote-strip class, re-broken by the 16:10Z feed rebuild (unquoted name/description values containing ": "); full-corpus pyyaml rescan clean after repair. +1 missing `name:` field added (Bricage AFSCET dossier).
+- **-3 hard dups** — torsion-physics-newton 1.00, theorie-phi-scalar 0.98, schauberger-water-blood 0.985; all junk-fm "assembled from completed chunks" copies, keepers carry real frontmatter. 1 variant relabeled (vortex-motor 09-11, 0.74 containment — second-tier variant of the canonical 09-03 translation, kept).
+- **NEW QC pattern: embedded chunk-fm in multi-chunk books.** 22 per-chunk frontmatter blocks stripped from 7 files (campi-elettromagnetici, form-waves-sacred-geometry, wilhelm-reich-de, korschelt-1892, lether-fluide-torsion, za-tajemstvim-eteru, wilhelm-reich EN html) — assemblers concatenating raw chunk files without stripping their fm. Same class as the 09-18 08:20 Daneš finding.
+- **Magnitsky mojibake fixed** (2 seqs, â€" -> em-dash, name + heading).
+- **+1 dossier: Benhadid "Medecine Ionique V3"** (2026-09-18-benhadid-medecine-ionique-v3-fr-en.md, FAL-fr-98-3, claim open+closed same session). The fr Zenodo stash's second substance member and its THEORY tier (Hecquet DGNERE = instrumentation tier): -50 mV DLVO colloidal-stability threshold as universal constant of life, photon-proton coupling via Gross-Pitaevskii solitons ("soliton de Benhadid") in the collagen network, sulodexide renal zeta-recharge, IONOS-V3 180-day whole-tooth regeneration at "99.92%" (nine-factor probability product), the universal history reread (Metou/Qi/humors as anticipations of -50 mV), and the Berkshire/DaVita/LinkedIn market-tell claims. Anchor audit: real (DLVO, glomerular charge barrier, sulodexide, USAG-1 mouse teeth, collagen piezoelectricity) vs invented precision (all the specific numbers cite nothing). New genre row for the AI-census lane: AI-VALIDATED medical theory ("validee par une intelligence artificielle, partenaire de coherence"). 3 testable residues for the verification rail. Pattern now documented twice (Hecquet + Benhadid): solo author, Zenodo, real anchors carrying invented precision, self-named artifact, license-as-ethics-theater, unfalsifiable being-taken-seriously evidence. A third member makes it a genre — watch row.
+- **Feed rebuilt from cloud: 191 works, DB coherent 1138/2780.**
+- **Translator ru-stream ACTIVE again** — Kozyrev ru/uk batch published 09-18 after a 7-day gap (last 09-11). Stale flag DROPPED.
+
+
 ### Forge (Translation QC) — 04:20 UTC
 
 **-21 dups + 12 fm repairs (corpus 165→145) — the 21:13Z feed rebuild re-emitted the 09-11 dedup class again:** 22 previously-removed files resurrected + 8 frontmatter quote-strips (the recurring builder bug). All 21 removals containment-verified ≥0.95 against canonical keepers; the compendium-vortex 09-09 pair checked bidirectionally (0.954/0.955, same length — whitespace variants of the 09-03 real-fm copy). Full-corpus YAML rescan clean 145/145, mojibake 0.

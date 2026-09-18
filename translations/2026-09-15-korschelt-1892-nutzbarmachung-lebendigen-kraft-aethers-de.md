@@ -3771,11 +3771,6 @@ long waves are present. It was therefore
 ---
 
 
----
-name: Korschelt - Making Use of the Living Force of Aether (1892) - Chunk 63
-description: German to English translation. Source: https://www.naturschule-oberlausitz.de/wp-content/uploads/2022/08/DieNutzbarmachungderlebendigenkraftdesaethers1892-korschelt.pdf
----
-
 136
 
 certain that Od can be at least a co-cause of chemical processes. I now sought to determine whether Od can be the sole cause of chemical processes. To this end I mixed gaseous bodies and passed long waves through them at temperatures at which, according to experience, a reaction between the mixed bodies would not have occurred.
@@ -3798,11 +3793,6 @@ We yielded the field to the long waves so as not to fall into magnetic sleep. I 
 
 ---
 
-
----
-name: Korschelt - Making Use of the Living Force of Aether (1892) - Chunk 64
-description: German to English translation. Source: https://www.naturschule-oberlausitz.de/wp-content/uploads/2022/08/DieNutzbarmachungderlebendigenkraftdesaethers1892-korschelt.pdf
----
 
 138
 
@@ -3831,11 +3821,6 @@ If I gather together all the experiments and observations set forth in the prece
 
 ---
 
-
----
-name: Korschelt - Making Use of the Living Force of Aether (1892) - Chunk 65
-description: German to English translation. Source: https://www.naturschule-oberlausitz.de/wp-content/uploads/2022/08/DieNutzbarmachungderlebendigenkraftdesaethers1892-korschelt.pdf
----
 
 140
 
@@ -3871,11 +3856,6 @@ description: German to English translation. Source: https://www.naturschule-ober
 ---
 
 
----
-name: Korschelt - Making Use of the Living Force of Aether (1892) - Chunk 66
-description: German to English translation. Source: https://www.naturschule-oberlausitz.de/wp-content/uploads/2022/08/DieNutzbarmachungderlebendigenkraftdesaethers1892-korschelt.pdf
----
-
 142
 
      a. of plants, — as well as
@@ -3897,11 +3877,6 @@ description: German to English translation. Source: https://www.naturschule-ober
 ---
 
 
----
-name: Korschelt - Making Use of the Living Force of Aether (1892) - Chunk 67
-description: German to English translation. Source: https://www.naturschule-oberlausitz.de/wp-content/uploads/2022/08/DieNutzbarmachungderlebendigenkraftdesaethers1892-korschelt.pdf
----
-
 144
 
      subordinate polarities in all the individual organs.
@@ -3917,11 +3892,6 @@ description: German to English translation. Source: https://www.naturschule-ober
 
 ---
 
-
----
-name: Korschelt - Making Use of the Living Force of Aether (1892) - Chunk 68
-description: German to English translation. Source: https://www.naturschule-oberlausitz.de/wp-content/uploads/2022/08/DieNutzbarmachungderlebendigenkraftdesaethers1892-korschelt.pdf
----
 
 146
 

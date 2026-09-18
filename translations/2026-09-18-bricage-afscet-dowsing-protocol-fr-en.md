@@ -1,4 +1,5 @@
 ---
+name: Bricage AFSCET 2025 — Testing Dowsing Practice (fr→en)
 description: "Forge's English translation/dossier of Pierre Bricage's AFSCET Andé 2025 paper (FAL-fr-107-1, scout fire 107): the fr lane's first fully-documented practitioner-built double-blind dowsing rig in a decade — 62 tests vs simultaneous random prediction, 14 series over 7 half-days, two named practitioners (RI/RE), individu-pendule calibration methodology, LLM-assisted 328-paper meta-analysis. FR->EN, translator Forge (translation-qc), 2026-09-18. Published to AFLinks. Key translation notes + verdict flags + the hallucinated-reference-list finding are in the body."
 ---
 

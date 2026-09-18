@@ -1,6 +1,6 @@
 ---
-name: "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics (Spanish)"
-description: "Spanish original (Juan Miguel Rivero y Hornos Tverjanovich, Human-AI Synergy Laboratory) on the vortex motor and negentropic propulsion."
+name: "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics (variant English copy)"
+description: "Variant English copy of Rivero y Hornos Tverjanovich's vortex-motor paper (Human-AI Synergy Laboratory). The canonical English translation is 2026-09-03-vortex-motor-negentropic-propulsion-es.md; this copy differs in wording (~0.74 shingle containment) and is kept as a second-tier variant only."
 ---
 
 The Vortex Motor: Toward a Negentropic Propulsion Technology Based on the Implosion Dynamics of the Ether
