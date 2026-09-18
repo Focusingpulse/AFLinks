@@ -1,5 +1,5 @@
 ---
-name: 'Sound and sacred geometry: a cosmic harmony at the heart of creation (450.fm) (fr→en)'
+name: Sound and sacred geometry: a cosmic harmony at the heart of creation (450.fm) (fr→en)
 description: "Full English translation of Charles-Albert Delatour's 2025 French article (450.fm masonic journal) summarizing Ani Williams' 'The Sacred Geometry of Sound' (Spirit of Ma'at, 2004): Orpheus and Pythagoras' octave, singing matrix of Creation, Platonic solids and elements, dodecahedral universe hypothesis, pentagram and Golden Ratio in the human body, Circle of Fifths as chakra map, Fibonacci, Gothic cathedrals as frozen music, Templar knowledge, Hans Jenny's cymatics, Masaru Emoto's water crystals, Kepler's planetary song. Translated from French by Translation Sweeper, 2026-09-18. 7/7 chunks, complete."
 ---
 

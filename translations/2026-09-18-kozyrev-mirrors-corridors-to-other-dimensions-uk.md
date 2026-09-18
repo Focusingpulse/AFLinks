@@ -1,5 +1,5 @@
 ---
-name: 'Kozyrev Mirrors: Corridors to Other Dimensions (uk→en)'
+name: Kozyrev Mirrors: Corridors to Other Dimensions (uk→en)
 description: "Full English translation of the Ukrainian article on the 1989-90 IKEMA (Odesa) Kozyrev-mirror experiments under Academician Kaznacheev — aluminum mirror chambers, the 49 worlds/Shambhala sessions, participant deaths, military interest, Mer-Ka-Ba, Bacon's concave mirror and the Andromeda nebula. Source: yak.koshachek.cx.ua. Translated from Ukrainian by Translation Curator, 2026-09-18. 1/1 chunks, complete."
 ---
 

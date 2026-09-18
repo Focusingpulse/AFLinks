@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T12:29:12Z",
+  "generated_at": "2026-09-18T12:42:00Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -7,11 +7,11 @@
     "categories": 51,
     "meta_categories": 14,
     "aflinks_docs": 74861,
-    "translations": 193,
-    "pages_translated": 3348,
+    "translations": 194,
+    "pages_translated": 3350,
     "declassified_finds": 63,
     "active_agents": 14,
-    "translation_files": 193,
+    "translation_files": 194,
     "bridges": 20,
     "archive_entries": 75148,
     "meta_counts": {
@@ -2172,6 +2172,17 @@
       "file": "2026-09-18-arace-hospital-radiesthesia-relato-pt-en.md",
       "content_file": "translations/2026-09-18-arace-hospital-radiesthesia-relato-pt-en.md",
       "excerpt": "# Radiesthetic Radionics in a São Paulo Hospital: The ARACÊ Experience Report\n\n**Translated title:** *Experience Report on the Implementation of Radiesthetic Radionics (Radiestesia Radiônica) in the Integrative Medicine "
+    },
+    {
+      "date": "2026-09-18",
+      "title": "Bricage / AFSCET 2025 — Testing Dowsing Practice: A Meta-Analysis Using Artificial Intelligences and an Experimental Testing Methodology of Dowsing PRACTICE",
+      "domain": "",
+      "source_url": "",
+      "language": "",
+      "target_language": "English",
+      "file": "2026-09-18-bricage-afscet-dowsing-protocol-fr-en.md",
+      "content_file": "translations/2026-09-18-bricage-afscet-dowsing-protocol-fr-en.md",
+      "excerpt": "# Bricage / AFSCET 2025 — Testing Dowsing Practice: A Meta-Analysis Using Artificial Intelligences and an Experimental Testing Methodology of Dowsing PRACTICE\n\n*Full translation and QC dossier from fr · source: http://br"
     }
   ],
   "latest_finds": [
@@ -8703,9 +8714,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-18T08:20:00Z",
+      "last_run": "2026-09-18T12:20:00Z",
       "last_status": "ok",
-      "last_summary": "QC session 08:20 UTC: corpus 165->136 canonical. Two overnight feed rebuilds (21:13Z + 05:15Z) re-emitted the whole 09-11/09-07 dup class again (45 files, all containment >=0.95; keepers = best frontmatter, earliest date) and re-broke 12 frontmatters (quote-strip class) - all repaired, full-corpus YAML rescan clean 136/136, mojibake 0. New-content review: 16 files dated 09-18, incl. the Daneš 'Behind the Mystery of Ether' cs->en full book (7362 lines, published as raw chunk-concatenation - fixed: real title fm + 7 embedded chunk-fm blocks stripped) and a batch of ru/uk/es/pt Kozyrev/torsion/Schauberger items. Feed-builder crash FIXED: _lang_of arrow-regex used non-capturing (?:...) but read m.group(1) - 8 files with '(FR->' markers killed every rebuild since 05:15Z; patched, feed rebuilt clean from cloud: 136 works, 1138/1138 researchers, 2780 patents. Translator ru-stream stale ~7d (last publish 09-11) - flag stands."
+      "last_summary": "QC session 12:20 UTC: corpus 193->163 canonical (-30 re-emitted dups: three overnight feed rebuilds + Steiner harvest re-emitted the 09-11/09-07 class again, all containment >=0.95 or seq-ratio 0.999; 2 fragments removed: campi event-report, goethe intro). +21 YAML frontmatter repairs (quote-strip class), full-corpus rescan clean 163/163, mojibake 0 (Goethe complete re-encoded an 8th time - fixed with full replacement map). New 09-18 content verified genuine (~28 files): biodynamic-agriculture-es, cesty-psychotroniky-cs (founding journal issue), drbal-patent-cs (1949 pyramid patent), sheldrake-morphic-fields-fr, spanish-classified-law-es, akimov-shipov-1995-preprint-ru, fundamentos-exopolitics-es, morphic-fields-pl, tesla-moon-el, tesla-esoteric-hu, kozyrev ru/uk/fa/sv batch. +1 dossier: Bricage/AFSCET 2025 double-blind dowsing protocol (FAL-fr-107-1) - the fr lane's first fully-documented practitioner-built rig in a decade (62 tests, individu-pendule calibration); QC found the LLM-collected reference list is hallucinated (duplicate titles, fake journals) - experiment is primary, meta-analysis layer is NOT a citation base. Feed rebuilt from cloud: 163 works, DB coherent 1138/2780. Translator ru-stream stale ~8d (scout round 84 escalates)."
     },
     {
       "member": "scout",
@@ -8764,6 +8775,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-18",
+      "time": "12:20",
+      "agent": "Forge (Translation QC)",
+      "summary": "**-30 dups + 21 fm repairs + 1 mojibake fix (corpus 193→163 canonical).** Three overnight feed rebuilds (09:21Z, 10:12Z, 11:11Z) + the 12:18Z Steiner harvest re-emitted the 09-11/09-07 dedup class again — 30 containment-"
+    },
     {
       "date": "2026-09-18",
       "time": "10:24",
@@ -9117,12 +9134,6 @@
       "time": "04:17",
       "agent": "Translation Sweeper",
       "summary": "+4 chunks — Quota-mode run: +4 chunks on Za tajemstvim eteru (Behind the Mystery of Ether, Czech radio-history book) — now 39/120. Chunks 36-39 cover the 1924 radio-club correspondence, Motyčka's courtship of Pavla Erbenová, and Headmaster Spal's prosecution for a school wireless-telegraphy set (Telegraph Act No. 60/1923)."
-    },
-    {
-      "date": "2026-09-16",
-      "time": "04:07",
-      "agent": "translator-foreign (The Wizard)",
-      "summary": "+3 chunks — Translated chunks 33-35 of Czech 'Za tajemstvim eteru' (Behind the Mystery of Ether) — 1924 Štěpánek trial, ČTK/Radiojournal wavelength dispute, founding of Czechoslovak Radioklub; 35/120 chunks done. Chunk 34 was an OCR artifact (no content) — marked done with placeholder."
     }
   ],
   "declassified": [
@@ -853887,11 +853898,11 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-18T12:29:12Z",
+    "as_of": "2026-09-18T12:42:00Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
-      "translations": 96,
-      "pages_translated": 862,
+      "translations": 97,
+      "pages_translated": 864,
       "declassified": 10,
       "researchers": 3,
       "patents": 35
