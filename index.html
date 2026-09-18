@@ -827,6 +827,42 @@
             font-size: 0.72rem;
             opacity: 0.7;
         }
+        /* ─── Today's Drawers — one pick from each hold, rotating daily ─── */
+        .drawers { max-width: 1080px; margin: 16px auto 2px; padding: 0 20px; }
+        .dr-head {
+            display: flex; justify-content: space-between; align-items: baseline;
+            gap: 12px; margin-bottom: 8px; flex-wrap: wrap;
+        }
+        .dr-title { color: var(--gold-bright); font-weight: 700; font-size: 1rem; letter-spacing: .02em; }
+        .dr-sub { color: var(--text-dim); font-size: .78rem; }
+        .dr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 10px; }
+        .drawer {
+            display: flex; flex-direction: column; gap: 5px;
+            background: linear-gradient(135deg, var(--surface) 0%, #16202c 100%);
+            border: 1px solid var(--border); border-top: 3px solid var(--gold);
+            border-radius: 12px; padding: 12px 14px; text-decoration: none;
+            transition: transform .18s ease, border-color .18s ease;
+        }
+        .drawer:hover { transform: translateY(-2px); border-color: var(--accent-dim); }
+        .drawer .dr-label {
+            font-size: .6rem; letter-spacing: .16em; text-transform: uppercase;
+            font-weight: 700; color: var(--gold);
+        }
+        .drawer .dr-name { color: var(--text); font-size: .86rem; font-weight: 600; line-height: 1.35; }
+        .drawer .dr-ex { color: var(--text-dim); font-size: .73rem; line-height: 1.5; }
+        .drawer .dr-meta { color: var(--text-dim); font-size: .64rem; opacity: .78; margin-top: auto; padding-top: 6px; }
+        .drawer.d-declassified { border-top-color: var(--meta-accent); }
+        .drawer.d-declassified .dr-label { color: var(--meta-accent); }
+        .drawer.d-translated { border-top-color: var(--accent); }
+        .drawer.d-translated .dr-label { color: var(--accent); }
+        .drawer.d-found { border-top-color: var(--patent-accent); }
+        .drawer.d-found .dr-label { color: var(--patent-accent); }
+        .drawer.d-rare { border-top-color: var(--gold-bright); }
+        .drawer.d-rare .dr-label { color: var(--gold-bright); }
+        .drawer.d-random { border-top-color: var(--sea-teal); }
+        .drawer.d-random .dr-label { color: var(--sea-teal); }
+        @media (max-width: 560px) { .dr-grid { grid-template-columns: 1fr; } }
+
         /* ─── Today's Salvage (first-paint artifact — baked, no JS needed) ─── */
         .salvage {
             max-width: 760px;
@@ -1948,6 +1984,17 @@
 </a><!-- SALVAGE:END -->
     </section>
 
+    <!-- Today's Drawers — one pick from each hold, rotating daily.
+         Rendered from library_feed.json's daily_drawers, which is seeded by the
+         date so the set turns over at midnight with no rebuild needed. -->
+    <section class="drawers" id="drawers" aria-label="Today's Drawers — one pick from each hold">
+        <div class="dr-head">
+            <span class="dr-title" data-t="drawers">&#9875; Today's Drawers</span>
+            <span class="dr-sub">one from each hold — new picks every day</span>
+        </div>
+        <div class="dr-grid" id="drGrid"></div>
+    </section>
+
     <noscript>
         <div class="noscript-box">
             <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">75,352</span> documents</strong> are still yours to explore:</p>
@@ -2706,6 +2753,35 @@
             // Mark the sub-line so it reflects the live rotation.
             const sub = wrap.querySelector('.salvage-sub');
             if (sub) sub.textContent = 'one artifact pulled fresh from the hold — new pick every day';
+        }
+
+        // Today's Drawers — one pick per collection, date-seeded upstream.
+        // Hides itself entirely when the feed has no drawers, so an older
+        // cached feed never leaves an empty frame on the page.
+        function renderDrawers(feed) {
+            const grid = document.getElementById('drGrid');
+            if (!grid) return;
+            const cards = ((feed.daily_drawers || {}).drawers) || [];
+            if (!cards.length) {
+                const sec = document.getElementById('drawers');
+                if (sec) sec.style.display = 'none';
+                return;
+            }
+            grid.innerHTML = '';
+            cards.forEach(c => {
+                const a = document.createElement('a');
+                a.className = 'drawer d-' + (c.drawer || 'random');
+                a.href = c.href || '#';
+                const nm = c.title || '';
+                if (nm) a.title = nm;
+                a.innerHTML =
+                    '<span class="dr-label">' + escapeHtml(c.label || '') + '</span>' +
+                    '<span class="dr-name">' + escapeHtml(nm) + '</span>' +
+                    (c.excerpt ? '<span class="dr-ex">' + escapeHtml(c.excerpt) + '</span>' : '') +
+                    '<span class="dr-meta">' +
+                    escapeHtml([c.meta, c.rarity].filter(Boolean).join(' \u00b7 ')) + '</span>';
+                grid.appendChild(a);
+            });
         }
 
         function renderWhatsNew(feed) {
@@ -3858,6 +3934,7 @@
                     }
                     seamData = feed.seam || null;
                     renderWhatsNew(feed);
+                    renderDrawers(feed);
                     // founders' focus map (the founding group's publishing focus)
                     try {
                         const fr = await fetch('./af_focus.json', { cache: 'no-store' });
