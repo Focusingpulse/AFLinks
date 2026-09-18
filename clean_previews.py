@@ -175,12 +175,32 @@ def collect_targets(mode="all"):
 
 
 # ---------------------------------------------------------------- clean
+RETRY_AFTER = 3 * 86400   # re-attempt a failed URL after 3 days
+
+
+def should_retry(u, state, force=False):
+    """Has this URL earned another attempt?
+
+    A transient network error must not blacklist a page forever, but a URL that
+    is genuinely unfetchable should not be hammered every run either. Failures
+    are stored with a timestamp and become eligible again after RETRY_AFTER.
+    """
+    if force:
+        return True
+    if u not in state["failed"]:
+        return True
+    rec = state["failed"][u]
+    if isinstance(rec, dict):
+        return (time.time() - rec.get("ts", 0)) > RETRY_AFTER
+    return True  # legacy bare-string record: treat as eligible
+
+
 def clean_batch(urls, cache, state, limit, budget, workers):
     todo = []
     for u in urls:
         if u in cache:
             continue
-        if u in state["failed"] and not state.get("retry_failed"):
+        if not should_retry(u, state, state.get("retry_failed")):
             continue
         todo.append(u)
     print(f"to fetch: {len(todo)} (cached {len(cache)}, known-failed {len(state['failed'])})")
@@ -194,7 +214,7 @@ def clean_batch(urls, cache, state, limit, budget, workers):
         html, err = fetch_html(u)
         if html is None:
             with _lock:
-                state["failed"][u] = err or "fetch-failed"
+                state["failed"][u] = {"reason": err or "fetch-failed", "ts": int(time.time())}
             return
         title, text = ce.extract_content(html, u, max_chars=2000)
         score = ce.chrome_score(text)
@@ -214,7 +234,7 @@ def clean_batch(urls, cache, state, limit, budget, workers):
                 state["failed"].pop(u, None)
                 done[0] += 1
             else:
-                state["failed"][u] = "ambiguous"
+                state["failed"][u] = {"reason": "ambiguous", "ts": int(time.time())}
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
         list(ex.map(work, todo))
