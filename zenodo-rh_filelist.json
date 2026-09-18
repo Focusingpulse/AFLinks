@@ -11079,5 +11079,215 @@
   "abstract": "What a Reader Recovers Access Regimes, Contingency Tables, and the Handedness Threshold for Finite Transformations &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; Abstract An observer interrogating an unknown transformation does not recover the transformation. It recovers whichever equivalence class survives its access constraints, and the class depends on what the observer is permitted to do rather than on how much of it it does. This paper fixes a finite model in which that dependence is computed exactly and, in the central cases, proved: a permutation &sigma; of a finite set, an observer whose resolution is a partition P, and four access regimes running from passive trajectory observation through single-step intervention to trajectory-tracking intervention. The organising identification is elementary once stated. The record of a single-step intervening reader is exactly the contingency table N(P,&sigma;) with entries N_ij = |Bᵢ &cap; &sigma;⁻&sup1;B_j|, so the recovered object is the corresponding double coset K&sigma;K, where K is the Young subgroup of within-block relabellings, and its size is the classical contingency count (&prod;|Bᵢ|!)&sup2; / &prod;N_ij!. This puts the whole problem inside the well-studied correspondence between parabolic double cosets in the symmetric group and two-way tables with prescribed margins, and it converts every question below into a question about tables. Four results follow. First, an inversion criterion: &sigma;⁻&sup1; is indistinguishable from &sigma; at resolution P if and only if N(P,&sigma;) is symmetric &mdash; verified with zero counterexamples across 152,760 configurations. Since a two-block table has equal row and column margins and is therefore always symmetric, no family of binary readers can ever distinguish a transformation from its inverse under single-step or iterated access, however many binary readers are deployed. Second, the complete binary family recovers exactly the undirected functional graph of &sigm",
   "landing_url": "https://zenodo.org/records/22555931",
   "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22686013/files/From%20Global%20Depletion%20to%20Locked%20Enstrophy.pdf/content",
+  "filename": "From Global Depletion to Locked Enstrophy.pdf",
+  "record_id": 22686013,
+  "conceptrecid": "22686012",
+  "title": "From Global Depletion to Locked Enstrophy",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22686013",
+  "publication_date": "2026-09-10",
+  "abstract": "From Global Depletion to Locked Enstrophy A retraction, a change of variable, and two confounds in the vorticity-alignment reading of three-dimensional Navier&ndash;Stokes &nbsp; &nbsp; Driven by Dean Kulik 10 September 2026 &nbsp; Abstract On 8 September 2026 OpenAI announced a proposed resolution of statements (C) and (D) of the Clay formulation of the Navier&ndash;Stokes problem: a construction, with a Lean formalization, in which the three-dimensional incompressible equations with a smooth external force develop a finite-time singularity from smooth initial data at rest with bounded energy. The claim has not been through refereed publication or the subsequent period of general acceptance that the Clay prize rules require, and the Clay Mathematics Institute continues to list the problem as open. Nothing in the present paper independently verifies or disputes that construction. Whatever its final status, the construction is a direct counterexample to a claim made in this programme in February 2026, namely that positive viscosity guarantees global regularity. That claim is retracted here without qualification. This paper reports what survives, what replaces it, and one methodological result that was not anticipated. A direct numerical simulation engine, written independently, reproduces the July 2026 Taylor&ndash;Green measurements of this programme to three or four significant figures: the strain ledger closes to 10⁻&sup1;⁵, the enstrophy-weighted vorticity alignment flips from the most-stretching strain eigenvector to the intermediate one at the onset of nonlinearity, and the production-to-dissipation ratio crosses below unity and stays there. Those measurements stand. The reading built on them does not. The globally averaged depletion ratio D = ⟨ &omega;&middot;S&omega; ⟩ / ⟨ &lambda;₁|&omega;|&sup2; ⟩ is shown to be nearly blind to the configuration it was introduced to exclude. At the enstrophy peak, where D = 0.197, as much as 63 per cent of the total enstrop",
+  "landing_url": "https://zenodo.org/records/22686013",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22697725/files/Direct-Coupled%20Readers%20on%20a%20Reversible%20Field.pdf/content",
+  "filename": "Direct-Coupled Readers on a Reversible Field.pdf",
+  "record_id": 22697725,
+  "conceptrecid": "22697724",
+  "title": "Direct-Coupled Readers on a Reversible Field",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22697725",
+  "publication_date": "2026-09-10",
+  "abstract": "Direct-Coupled Readers on a Reversible Field Exact fibers, monotone forgetting, and the resolution at which a reference frame begins to pay &nbsp; &nbsp; Driven by Dean Kulik 10 September 2026 &nbsp; Abstract A reader coupled directly to a system &mdash; no estimator, no noise model, no belief about its own uncertainty &mdash; has nowhere for error to enter. Its output is an exact function of the state. This paper measures what such a reader can and cannot recover from a fully deterministic, exactly reversible integer field, and finds the structure sharper than the statistical version of the same question. The substrate is a one-dimensional lattice gas: 128 cells, each carrying occupancy for a left- and a right-moving reader together with a four-bit payload, 1280 bits in total. Collisions mix payloads through a unimodular map over Z₁₆, so two readers meeting compute rather than overwrite. Reversibility is exact: 11,146 collisions were run forward and then inverted, recovering every bit of the initial state. Nothing in the dynamics is stochastic. Against this field a reader is a spatial window of s cells and a temporal window of &tau; steps. Because the coupling is direct, apparent stationarity is not a statistical statement: the field is exactly static to a reader precisely when the whole orbit lies inside a single fiber of that reader's map. Three regimes appear. For s &le; 8 the reader is saturated &mdash; it extracts log₂(T/&tau;) bits, every distinction its sampling rate permits, and coarsening costs it nothing. Between s = 16 and 64 the field's correlation structure begins to cost it bits. At s = 128, &tau; = 256 it extracts exactly zero: across the entire orbit the reading never changes once. Coarsening is monotone. Every tested step of resolution loss, in space and in time, exactly and under quantization, merges fibers without re-cutting them, so the coarse reading is a strict function of the fine one. Resolutions form a nested chain. Forgetting a layer there",
+  "landing_url": "https://zenodo.org/records/22697725",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22707582/files/Cycle%20Types%20in%20Double%20Cosets%20of%20Young%20Subgroups%20via%20Eulerian%20Transition%20Systems.pdf/content",
+  "filename": "Cycle Types in Double Cosets of Young Subgroups via Eulerian Transition Systems.pdf",
+  "record_id": 22707582,
+  "conceptrecid": "22707581",
+  "title": "Cycle Types in Double Cosets of Young Subgroups via Eulerian Transition Systems",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22707582",
+  "publication_date": "2026-09-11",
+  "abstract": "Cycle Types in Double Cosets of Young Subgroups via Eulerian Transition Systems &nbsp; &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; &nbsp; Abstract Let P be a set partition of [n] with Young subgroup K=S_P. Double cosets K&sigma;K are indexed by square contingency tables T with equal row and column sums. We determine the distribution of cycle type inside a double coset, that is, the numbers |K&sigma;K&cap;C_&lambda; |. A permutation with table T, together with a labeling of arcs, corresponds bijectively to a transition system of the Eulerian multidigraph G_T with adjacency matrix T, together with a labeling of points. The bijection conjugates the permutation to the successor map on arcs, so cycle type becomes the multiset of closed-trail lengths. This gives |K&sigma;K&cap;C_&lambda; | &prod;_(i,j)^▒T_ij&nbsp; !=TS_&lambda; (T) &prod;_i^▒d_i&nbsp; !, where TS_&lambda; (T) counts transition systems with trail lengths &lambda;. The BEST theorem then yields |K&sigma;K&cap;C_((n) ) |=t(G_T ) &prod;_i^▒(d_i-1)&nbsp; !&thinsp;&prod;_i^▒d_i&nbsp; !/&prod;_(i,j)^▒T_ij&nbsp; !. More generally, whenever &lambda; has a unique largest part, |K&sigma;K&cap;C_&lambda; | is a sum of products of arborescence determinants that is computable in polynomial time for bounded n-&lambda;_1. Involution classes have a closed form that is nonzero exactly when T is symmetric, so a Young double coset contains an involution if and only if it is self-inverse. For arbitrary &lambda; we give exact recursions over connected Eulerian sub-tables, characterize the realizable cycle types as closed-trail spectra, and show that the minimum number of cycles equals the number of components of G_T. We also prove that a nontrivial double coset is never contained in a conjugacy class. Finally, we classify pairs (P,&sigma;) under conjugation and inversion. We tabulate orbit counts, profile counts and the number of distinct values of |K&sigma;K&cap;C_&lambda; | through n=9, and we measure how much the ta",
+  "landing_url": "https://zenodo.org/records/22707582",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22712656/files/Partition%20Readers%20of%20Permutations.pdf/content",
+  "filename": "Partition Readers of Permutations.pdf",
+  "record_id": 22712656,
+  "conceptrecid": "22712655",
+  "title": "Partition Readers of Permutations",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22712656",
+  "publication_date": "2026-09-11",
+  "abstract": "Partition Readers of Permutations Exact Information Profiles, Hidden Fibers, and the Cost of Unbalanced Transitions &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; Abstract A permutation &nbsp; of &nbsp; cells is observed by a partition reader : the cells are cut into &nbsp; blocks, and the reader records only how many cells each block sends into each block. We determine exactly how much such a reader learns, what remains hidden, and when two basic structural features, the direction of the transformation and its cycle structure, become visible. The set of permutations consistent with an observed table is a double coset of a Young subgroup. The information seen plus the logarithm of the size of this fiber equals &nbsp; for every single observation, and the same identity holds in expectation. For &nbsp; equal blocks of size &nbsp; we prove the exact average information where &nbsp; is hypergeometric with parameters . The formula agrees with exhaustive enumeration to six decimal places. A reader with one cut sees only the number of cells crossing it. It learns &nbsp; bits, about 3.55 bits for , out of , and it can never distinguish &nbsp; from . Direction becomes readable at three blocks. For cycles we prove a sharper statement: whenever some block contains two or more cells, no table determines the number of cycles. The cycle counts within each fiber form an interval of consecutive integers whose minimum is the number of connected components of the block graph, so only the full-resolution reader sees the cycle structure. Finally, we treat maps that are not bijections. The block table alone fixes the exact minimum amount of information any compatible map must erase. That minimum is zero precisely when the table is balanced, and every forced excess costs at least two bits per &nbsp; cells. By Landauer&rsquo;s principle this sets an energy floor determined by the table. All statements are verified exhaustively in the stated ranges. Two transformations driven by the ",
+  "landing_url": "https://zenodo.org/records/22712656",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22725635/files/Reader%20Agency%20and%20the%20Recovery%20of%20Permutation%20Structure%20-%20NOTEBOOK.pdf/content",
+  "filename": "Reader Agency and the Recovery of Permutation Structure - NOTEBOOK.pdf",
+  "record_id": 22725635,
+  "conceptrecid": "22725634",
+  "title": "Reader Agency and the Recovery of Permutation Structure",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22725635",
+  "publication_date": "2026-09-12",
+  "abstract": "Reader Agency and the Recovery of Permutation Structure Fixed Cuts, Iteration, and Movable Cuts &nbsp; Driven by Dean A. Kulik &middot; September 2026 &nbsp; Abstract A permutation &nbsp; of &nbsp; cells is observed through a cut : the cells are divided into blocks and only the block-to-block counts are reported. A single such reading leaves a large set of permutations indistinguishable. We compare three ways of learning more: reading repeatedly as &nbsp; iterates, refining the cut, and moving the cut while keeping its coarseness fixed. For balanced two-block cuts the whole table is determined by one number, the count of cells that stay in the first block. That number depends only on the underlying undirected edges of , so reversing the orientation of any subset of &rsquo;s cycles leaves every balanced two-block reading unchanged, for every cut and every . The group of such reversals is , where &nbsp; counts the cycles of length at least three, so its orbits have size . We measure what each capability recovers. For , a fixed two-block reader watching all fifteen powers of &nbsp; leaves &nbsp; bits hidden and never determines the cycle type. The same reader taking a single reading, but allowed to place its cut in all thirty-five ways, leaves &nbsp; bits and does determine the cycle type. Adding iteration on top of the movable cut changes nothing at all: both give exactly &nbsp; classes. So agency dominates duration, and once cuts may move, duration is worth nothing. We prove that for every even &nbsp; the classes of the movable-cut reader are exactly the cycle-reversal orbits, so the reader recovers the unoriented cycle structure of &nbsp; and loses precisely the orientations. The result fails for &nbsp; and , and those are the only exceptions. At &nbsp; the classes are &nbsp; singletons, &nbsp; pairs and &nbsp; quadruples. We also give the passive causal quotient at several resolutions, where no coarse reader ever determines the cycle type, the number of cycles, or ",
+  "landing_url": "https://zenodo.org/records/22725635",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22741552/files/Orientation%20as%20Holonomy%20of%20the%20Reader%20Configuration%20Space.pdf/content",
+  "filename": "Orientation as Holonomy of the Reader Configuration Space.pdf",
+  "record_id": 22741552,
+  "conceptrecid": "22741551",
+  "title": "Orientation as Holonomy of the Reader Configuration Space",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22741552",
+  "publication_date": "2026-09-14",
+  "abstract": "Orientation as Holonomy of the Reader Configuration Space &nbsp; &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; Abstract A finite reader partitions a cell set into m sectors and observes a permutation T through the sector-to-sector transition table C(T) . Because T is a bijection, the antisymmetric part A = C &minus; Cᵀ has zero row sums and therefore defines a conserved directed-circulation channel. At three sectors that channel is one-dimensional and transforms by the sign representation of S₃ , so its sign is a natural orientation observable. We show that this sign is not a function of T . Holding one permutation and one unordered three-sector partition fixed, the six labelings of that partition give the same magnitude and both signs. No refinement of T can supply the sign, because a function cannot take two values at one argument. The missing structure is the reader&rsquo;s own space of admissible configurations. For an ambient adjacency graph X , let 𝒞(X, m) have as vertices the partitions of the cells into m connected nonempty regions, with edges given by an admissible move rule. Labelings form an Sₘ -cover, and transport around closed walks defines a monodromy &rho; : &pi;₁(𝒞(X, m)) &rarr; Sₘ, of which the orientation observable is the parity projection sgn ∘ &rho; . The image of &rho; depends on X and the move rule, never on T . We compute it. Under either of two natural move rules, unrestricted subsets and connected regions of a two-dimensional torus give S₃ ; requiring three sectors to remain contiguous arcs of an oriented cycle gives A₃ ; the three-dimensional cube Q₃ has full S₃ monodromy exhaustively; and the larger three-dimensional torus Z₃&sup3; admits an explicit odd exchange loop, so its image is not contained in A₃ . Restricting moves to adjacent cells does not by itself remove odd holonomy &mdash; what removes it is the admissibility condition on the partitions, not the locality of the move. Separately, a finite translation system carries a",
+  "landing_url": "https://zenodo.org/records/22741552",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22774353/files/Residual%20Sectors%20of%20Symmetric%20Token%20Configuration%20Graphs.pdf/content",
+  "filename": "Residual Sectors of Symmetric Token Configuration Graphs.pdf",
+  "record_id": 22774353,
+  "conceptrecid": "22774352",
+  "title": "Residual Sectors of Symmetric Token Configuration Graphs",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22774353",
+  "publication_date": "2026-09-15",
+  "abstract": "Residual Sectors of Symmetric Token Configuration Graphs Under Change of Substrate Extension, Re-factorisation, Identification, and the Topology of Transformation &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; &nbsp; Yes. I read the summary as the **current state of the work**, and I think the paper should be written differently from the way we've been talking about the individual experiments. The experiments are no longer the story. The story is the **geometry of change of the transformation field**: X^{(r)}\\subset X^{(r+1)} creates a relative sector. That sector is not best understood as &ldquo;the states that disappeared when we went backward.&rdquo; It is a mathematically defined layer of transformations between two admissibility levels. Collapsing the old arena to a cone point exposes its topology. Symmetry then determines which of those transformations remain visible. The resulting invariant residual is a first Betti number. That is a coherent mathematical paper. I would lead the reader into it from the problem of **what it means for a system to change**, rather than opening with token graphs. The strongest conceptual chain is: \\boxed{ \\text{change of substrate} \\rightarrow \\text{change of admissible transformations} \\rightarrow \\text{relative sector} \\rightarrow \\text{quotient/cone} \\rightarrow \\text{cycles} \\rightarrow \\text{residual degrees of freedom} } Then the Nexus interpretation comes afterward. Below is the paper draft I would use as the foundation for Zenodo/academic circulation. I am deliberately keeping **proved mathematics, computational verification, and Nexus interpretation visibly separated**. Your attached summary supports the results and status distinctions below. ―――――――――――――――――――――――――――――――――――― Residual Sectors of Symmetric Token Configuration Graphs Under Change of Substrate **Dean Kulik** September 2026 ―――――――――――――――――――――――――――――――――――― Abstract A change in the admissible state space of a dynamical or combinatorial system nee",
+  "landing_url": "https://zenodo.org/records/22774353",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22784489/files/Transformation%20without%20loss.pdf/content",
+  "filename": "Transformation without loss.pdf",
+  "record_id": 22784489,
+  "conceptrecid": "22784488",
+  "title": "Transformation without loss",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22784489",
+  "publication_date": "2026-09-16",
+  "abstract": "Transformation without loss Residual cohomology of token-configuration arenas under change of substrate, symmetry, and admissibility &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; &nbsp; Lead-in Put some indistinguishable tokens on the vertices of a finite graph, one per vertex, and let a token step to an empty neighbour. That is the whole system. The graph is the substrate ; the space of configurations and legal steps is the arena . Now change something about it &mdash; add an edge, subdivide one, glue two vertices together, allow a site to hold two tokens instead of one, or simply look at the system with a coarser symmetry. Each of those changes alters which transformations exist. The question this paper asks is narrow and answerable: When the rules of movement change, what happens to the structure that was there before? The naive answers are that structure is created or destroyed. Both turn out to be wrong in a precise and checkable sense. Every elementary change either extends the transformation structure, re-expresses it, or hides it from a particular observer. Structure is never annihilated. The one operation that does produce a genuine kernel &mdash; restricting which configurations are admissible &mdash; produces it as a relative cohomology class : something present in the larger admissible space and absent from the smaller one, with an exact dimension formula. The headline object is a single integer attached to each such restriction. For a distinguished site allowed to hold &nbsp; tokens instead of , that integer is the first Betti number of a small quotient graph, and it can be computed without ever building the arena. A concrete instance, which the reader can verify in Section 9: on the 7-cycle with four tokens, the number of independent transformation channels visible to a symmetric observer goes &nbsp; as the distinguished site&rsquo;s capacity is relaxed from one token to four. The increments &nbsp; are the capacity defects. The final zero is not",
+  "landing_url": "https://zenodo.org/records/22784489",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22784904/files/The%20Topology%20of%20Transformation.pdf/content",
+  "filename": "The Topology of Transformation.pdf",
+  "record_id": 22784904,
+  "conceptrecid": "22784903",
+  "title": "The Topology of Transformation",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22784904",
+  "publication_date": "2026-09-16",
+  "abstract": "The Topology of Transformation An Exhaustive Analysis of the Nexus Framework, Configuration Cohomology, and Direct-Coupled Reader Logic &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; The formal representation of dynamic systems has historically prioritized a static ontology, wherein systems are defined by their instantaneous states and governed by external algorithms that dictate chronological progression. Dean A. Kulik&rsquo;s theoretical architecture&mdash;specifically the Nexus framework&mdash;reverses this epistemological hierarchy. Within this paradigm, a physical or combinatorial system is defined primarily by its space of admissible transformations. The finite constructions below are not offered as toy substitutes for reality; they are explicit mathematical probes of transformation structure. Their role is to determine which consequences follow from the proposed rules without confusing the representation with the physical system it is intended to explain. Structural persistence, physical loss, and observational uncertainty are not artifacts of disappearing states, but precise geometrical manifestations of topological constraints on a continuous transformation field. This framework posits that the ultimate explanatory target of theoretical physics is not a terminal state of reality, but the mathematical rules governing transformation itself; discovering the answer key to reality&rsquo;s continuation does not require the termination of the processes it describes. This analysis synthesizes Kulik&rsquo;s investigations into symmetric token configuration graphs, direct-coupled readers, and the algebraic topology of permutation recovery. By formalizing configuration spaces as relative cohomology rings, analyzing the information-theoretic profiles of partition readers, and mapping Eulerian transition systems to double cosets of Young subgroups via discrete Morse theory, an integrated mathematical architecture is revealed. This architecture provides mathematica",
+  "landing_url": "https://zenodo.org/records/22784904",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22795400/files/Topological%20and%20Algebraic%20Constraints%20on%20Accessible%20Continuations%20in%20Discrete%20Configuration%20Spaces.pdf/content",
+  "filename": "Topological and Algebraic Constraints on Accessible Continuations in Discrete Configuration Spaces.pdf",
+  "record_id": 22795400,
+  "conceptrecid": "22795399",
+  "title": "Topological and Algebraic Constraints on Accessible Continuations in Discrete Configuration Spaces",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22795400",
+  "publication_date": "2026-09-16",
+  "abstract": "Topological and Algebraic Constraints on Accessible Continuations in Discrete Configuration Spaces &nbsp; Driven by Dean A. Kulik September 2026 **Introduction: The Universal Substrate and the Locus of Memory** The conceptualization of physical systems often relies heavily on the geometric interpretation of memory, historically treating memory and internal state as indistinguishable from the intrinsic curvature of the underlying spatial manifold. However, advanced models in algebraic topology and statistical mechanics increasingly suggest a fundamental decoupling: memory is not necessarily identical to geometric curvature. Rather, memory constitutes the inherited state that mathematically constrains which topological continuation is selected next by a traversing entity, while spatial curvature is merely an observable, emergent consequence of that accumulated directional history within a constrained discrete geometry. When observing the fundamental structure of physical reality---where the ultimate puzzle box top is the universe itself---it becomes clear that the continuous transformation of physical microstates does not inherently generate new observable distinctions. The physical base remains immutable, acting as a substrate that eternally contains a complete family of possible trajectories (such as the family of all conceivable great circles on a featureless sphere). The explicit sequence of accessible relations is instead determined by the internal state vector of the observer or particle, generalized fundamentally as . This analysis synthesizes algebraic geometry, the Johnson filtration of graph braid groups, and the topology of discrete configuration spaces to formalize the distinction between a generalized transformation space and an strictly *accessible* transformation space. By leveraging the foundational proofs of discrete cubical complexes, radix representation partitioning, and residual Torelli actions, it is possible to demonstrate exactly how multi-body",
+  "landing_url": "https://zenodo.org/records/22795400",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22810205/files/The%20Relation%20Layer.pdf/content",
+  "filename": "The Relation Layer.pdf",
+  "record_id": 22810205,
+  "conceptrecid": "22810204",
+  "title": "The Relation Layer Invariant cohomology of token-configuration 2-complexes: capacity defects, relation deficits, and predicate dependence",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22810205",
+  "publication_date": "2026-09-17",
+  "abstract": "The Relation Layer Invariant cohomology of token-configuration 2-complexes: capacity defects, relation deficits, and predicate dependence &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; Lead-in Transformation without loss closed with five open items. This paper settles two of them and, in settling the second, changes what the third one is. The first is arithmetic. The capacity ladder p₀, p₁, p₂, &hellip; records how many independent transformation channels a symmetric observer gains each time a distinguished site is allowed to hold one more token. That paper proved each rung is the first Betti number of a small quotient graph, proved a formula for the top rung, and observed that the whole ladder is a single function P_X(k) of the remaining occupancy k = K &minus; r &minus; 1. It asked for a recurrence or closed form and left it open. There is a closed form: one polynomial assembled from the cycle index of Stab(m) together with three integer statistics per group element. It never builds an arena, and at trivial site stabiliser it collapses to a quadratic times a binomial power. The second is not arithmetic. The same paper recorded, as measured but not proved, that the invariant harmonic space vanishes &mdash; &epsilon;_harm = 0 across three arenas and both standard 2-cell predicates &mdash; and concluded that the entire invariant non-exact sector is coexact. It asked for a case with &epsilon;_harm &ne; 0, or a proof that none exists, naming this as the single result that would reopen a non-coexact channel, and nominating high-girth substrates with small automorphism groups. &epsilon;_harm &ne; 0 occurs. The minimal witness is the bull &mdash; a triangle carrying a pendant on two of its three vertices, five vertices, |Aut| = 2. The nominated candidate class is wrong in a specific and useful way: girth is neither necessary nor a useful predictor in any family tested, and the surviving sector is not winding, because trees carry it. What forces it in a large and exp",
+  "landing_url": "https://zenodo.org/records/22810205",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22810298/files/The%20Topology%20of%20Transformation%20-%20From%20Admissibility%20to%20Observability%20in%20Discrete%20Configuration%20Spaces.pdf/content",
+  "filename": "The Topology of Transformation - From Admissibility to Observability in Discrete Configuration Spaces.pdf",
+  "record_id": 22810298,
+  "conceptrecid": "22810297",
+  "title": "The Topology of Transformation: From Admissibility to Observability in Discrete Configuration Spaces",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22810298",
+  "publication_date": "2026-09-17",
+  "abstract": "The Topology of Transformation: From Admissibility to Observability in Discrete Configuration Spaces &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; &nbsp; Introduction: The Architecture of Transformational Continuation The formal representation of dynamic systems within theoretical physics, applied mathematics, and algebraic topology has historically prioritized a static ontology. In classical paradigms, systems are defined primarily by their instantaneous states, and their chronological progression is governed by external algorithmic rules, continuous differential laws, or fixed combinatorial relations. This conventional approach implicitly treats the state as the fundamental entity and the transformation as a secondary, applied operation. Recent advancements in algebraic topology, particularly concerning discrete configuration spaces, graph braid groups, and combinatorial Hodge theory, provide the mathematical scaffolding to reverse this epistemological hierarchy. In this revised paradigm, a combinatorial or physical system is defined fundamentally by its space of admissible transformations, rendering the instantaneous state as a mere temporal cross-section of an ongoing relational transition. This conceptual inversion forms the basis of the Nexus framework&mdash;a mathematical architecture wherein distinction, continuation, configuration, residual structure, and observability manifest as successive topological consequences of how a transformation system is represented, invariantized, and probed. Rather than proceeding from the hypothesis that a given system is a collection of distinct objects moving through an arbitrary background manifold, the architecture proceeds from two abstract primitives: the existence of a distinction, and the absolute requirement that every distinction must admit a lawful continuation. When formalized, the existing mathematics of graph configuration spaces provides a highly controlled, nontrivial laboratory in which the geometric c",
+  "landing_url": "https://zenodo.org/records/22810298",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22813812/files/The%20Ceiling%20and%20the%20Descent.pdf/content",
+  "filename": "The Ceiling and the Descent.pdf",
+  "record_id": 22813812,
+  "conceptrecid": "22813811",
+  "title": "The Ceiling and the Descent",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22813812",
+  "publication_date": "2026-09-17",
+  "abstract": "&nbsp; The Ceiling and the Descent Identification repeats: the residual programme inverted, with a third order, a persistence module over declared relations, and what the descent counts &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; What this is, and what changed This is not a theorem paper. It proves nothing and is separable from every result it draws on. Its purpose is the move the programme has always required: state the thing forward, run it backward, and look at where the two readings cancel. The first version of this piece concluded that a reader has two coordinates &mdash; resolution, which decides what can be told apart, and relation, which decides what counts as having happened twice. That was too weak, and the correction is the substance of this version. There are not two coordinates. There is one operation &mdash; declare some differences inessential, keep what survives &mdash; applied at successive orders of structure. Resolution is that operation acting on states and transitions. Relation is the same operation acting on routes. What looked like a second axis is the next application of the first. That correction is not adopted on its merits as prose. It makes a prediction, the prediction is testable, and it was tested: if the operation recurs, it must recur again at the order above, and each order must keep its own remainder. Section 5 reports that computation. It does recur, and the remainders disagree case by case &mdash; which is the strongest available evidence that this is a tower and not a metaphor for two things. Three computations anchor the piece and are marked where they occur. Everything else is interpretation and labelled as such. Nothing here licenses any claim in the technical papers, and no claim in the technical papers depends on anything here. 1. &nbsp; The forward reading Stated plainly, the programme so far says this. A substrate supports a field of admissible transformations. A reader is finite and therefore partial. Projection ",
+  "landing_url": "https://zenodo.org/records/22813812",
+  "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22822678/files/Two%20Quotients%20of%20One%20Machine.pdf/content",
+  "filename": "Two Quotients of One Machine.pdf",
+  "record_id": 22822678,
+  "conceptrecid": "22822677",
+  "title": "Two Quotients of One Machine",
+  "authors": [
+   "kulik, dean"
+  ],
+  "doi": "10.5281/zenodo.22822678",
+  "publication_date": "2026-09-18",
+  "abstract": "Two Quotients of One Machine Myhill&ndash;Nerode cut complexity and locality cohomology of binary addition &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; &nbsp; Abstract An n-bit modular adder is read two ways, and both readings are computed exactly. Theorem A (the reader cut). Present the input positions of (a,b) ↦ a+b mod 2ⁿ in an arbitrary order. The minimal Myhill&ndash;Nerode state count after a set S of positions has been read depends only on S &mdash; never on the order used to reach it &mdash; and factorises over the maximal runs of S: F(S) = PROD over maximal runs [l,r] of S &nbsp; of &nbsp; f(l,r) f(l,r) = &nbsp; 1 &nbsp;&nbsp; if [l,r] = [0,n-1] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L = r - l + 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp; if l = 0 and r < n-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L+1 &nbsp;&nbsp; if l > 0 and r = n-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2L+1 &nbsp;&nbsp; if 0 < l <= r < n-1 Memory is a cut functional, not a history functional. Theorem B (the relation residual). Model the same machine as a Cayley complex on ℤ /2ⁿ with generators 2⁰,&hellip;,2ⁿ⁻&sup1;, declaring a square whenever its two moves touch disjoint bits. Then b_1^disjoint(n) = C(n,2) + (n-1) = (n-1)(n+2)/2 Both hold for all n. They are different invariants &mdash; one a rank, additive over pairs and identical for every reader; the other a state count, multiplicative over the runs of a cut and different for every reading order &mdash; and a once-plausible conjecture equating them is refuted structurally rather than numerically. What the two share is a sufficient statistic. On the object side the class of an undeclared square keeps only a seam bit and a carry-run depth; on the reader side a run keeps only a first-nontransparent depth and a carry mode. The exponentially large coordinate label &mdash; 2ⁿ basepoints there, 4^|S| assignments here &mdash; is in both cases the reader's own coordinates and not the object's structu",
+  "landing_url": "https://zenodo.org/records/22822678",
+  "type": "Thesis"
  }
 ]

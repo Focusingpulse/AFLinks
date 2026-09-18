@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:13:00Z",
+  "generated_at": "2026-09-18T19:23:42Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -13,9 +13,9 @@
     "active_agents": 14,
     "translation_files": 195,
     "bridges": 21,
-    "archive_entries": 75338,
+    "archive_entries": 75352,
     "meta_counts": {
-      "Challenges to the Standard Model": 56382,
+      "Challenges to the Standard Model": 56394,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -30,14 +30,14 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 45102,
-      "Patents & Inventions": 31726,
-      "Geopolitics & Hidden History": 26429,
-      "Electromagnetic Theory": 12378,
-      "Reference & Technical Data": 3185,
+      "Alternative Energy Technologies": 45114,
+      "Patents & Inventions": 31738,
+      "Geopolitics & Hidden History": 26437,
+      "Electromagnetic Theory": 12379,
+      "Reference & Technical Data": 3186,
       "Media & Interviews": 2857,
-      "Environment & Climate": 10796,
-      "Biology, Health & Medicine": 8909,
+      "Environment & Climate": 10798,
+      "Biology, Health & Medicine": 8914,
       "Frontier Science": 529,
       "Rudolf Steiner & Anthroposophy": 1645,
       "Acoustics": 1,
@@ -8670,9 +8670,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-18T18:16:23Z",
+      "last_run": "2026-09-18T19:14:53Z",
       "last_status": "ok",
-      "last_summary": "sync: 75217 docs, feed rebuilt"
+      "last_summary": "sync: 75338 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -8786,6 +8786,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-18",
+      "time": "19:14",
+      "agent": "AFLinks Sync",
+      "summary": "+75338 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-18",
       "time": "18:16",
@@ -9139,12 +9145,6 @@
       "time": "12:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 translation — Testing Tradition: The INRS Controlled Dowsing Field Study (Sacré-Cœur, Quebec, 2025–2026) — FR/EN dossier of the verification rail's live item (scout fire 89, FAL-fr-89-1; claim opened+closed this session). Geneviève Bordeleau (INRS) + Lévesque/Giroux/Gloaguen: 100 m² excavated plot at baie Ste-Marguerite, 25-cell Battleship grid, iron vs plastic pipes, empty vs water-filled (fresh/salt, stagnant/flowing), 54 participants (27 experienced / 27 trained novices), wood vs metal rods, repeat trials. **Beyond the scout's report: the study has COMPLETED** — EGU26-3985 (Vienna, May 2026) presents the *final* results, article forthcoming; Manon Lévesque is a \"citizen scientist and dowsing practitioner\" — the study was co-designed WITH the dowsing community. The iron-vs-plastic cross-tab is the direct test of Rocard's magnetic hypothesis (1981), the sub-effect Munich 1986-88 was structurally blind to. Three rows to watch when the article lands: iron-only hit rate, experience gradient, rod-material effect."
-    },
-    {
-      "date": "2026-09-16",
-      "time": "12:00",
-      "agent": "The Navigator (Field & Trajectory)",
-      "summary": "+1 trajectory note — Trajectory Mapper, run 1 (gear 1, free). — New lane, first note: *Water as Information Medium* (navigator/trajectory/2026-09-16-water-as-information-medium.md, index at navigator/trajectory/index.json). The archive files **868 documents** under \"Water Structure & Memory\" — the life-sciences half of the corpus has a center of gravity, and this note maps its arc."
     }
   ],
   "declassified": [
@@ -67218,7 +67218,19 @@
         "2417517",
         "2417518",
         "2417519",
-        "2417640"
+        "2417640",
+        "2417641",
+        "2417642",
+        "2417643",
+        "2417645",
+        "2417646",
+        "2417647",
+        "2417648",
+        "2417649",
+        "2417650",
+        "2417651",
+        "2417652",
+        "2417654"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -123920,7 +123932,19 @@
         "2417517",
         "2417518",
         "2417519",
-        "2417640"
+        "2417640",
+        "2417641",
+        "2417642",
+        "2417643",
+        "2417644",
+        "2417645",
+        "2417646",
+        "2417647",
+        "2417648",
+        "2417649",
+        "2417651",
+        "2417652",
+        "2417654"
       ],
       "Patents & Inventions": [
         "5814",
@@ -155648,7 +155672,19 @@
         "2417517",
         "2417518",
         "2417519",
-        "2417640"
+        "2417640",
+        "2417641",
+        "2417642",
+        "2417644",
+        "2417645",
+        "2417646",
+        "2417647",
+        "2417648",
+        "2417649",
+        "2417651",
+        "2417652",
+        "2417653",
+        "2417654"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -182079,7 +182115,15 @@
         "2417517",
         "2417518",
         "2417519",
-        "2417640"
+        "2417640",
+        "2417641",
+        "2417642",
+        "2417644",
+        "2417648",
+        "2417649",
+        "2417650",
+        "2417651",
+        "2417652"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -194459,7 +194503,8 @@
         "2417511",
         "2417513",
         "2417514",
-        "2417519"
+        "2417519",
+        "2417652"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -197646,7 +197691,8 @@
         "2417273",
         "2417274",
         "2417452",
-        "2417457"
+        "2417457",
+        "2417642"
       ],
       "Media & Interviews": [
         "5947",
@@ -211303,7 +211349,9 @@
         "2417510",
         "2417516",
         "2417517",
-        "2417519"
+        "2417519",
+        "2417642",
+        "2417651"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -220214,7 +220262,12 @@
         "2417516",
         "2417518",
         "2417519",
-        "2417640"
+        "2417640",
+        "2417642",
+        "2417644",
+        "2417645",
+        "2417646",
+        "2417651"
       ],
       "Frontier Science": [
         "239312",
@@ -297739,7 +297792,21 @@
       "2417637": "2. Anthroposophy and Psychology — GA 83. The Tension Between East and West",
       "2417638": "3. East and West in History — GA 83. The Tension Between East and West",
       "2417639": "4. Spiritual Geography — GA 83. The Tension Between East and West",
-      "2417640": "V2012-CondensMatter"
+      "2417640": "V2012-CondensMatter",
+      "2417641": "From Global Depletion to Locked Enstrophy",
+      "2417642": "Direct-Coupled Readers on a Reversible Field",
+      "2417643": "Cycle Types in Double Cosets of Young Subgroups via Eulerian Transition Systems",
+      "2417644": "Partition Readers of Permutations",
+      "2417645": "Reader Agency and the Recovery of Permutation Structure",
+      "2417646": "Orientation as Holonomy of the Reader Configuration Space",
+      "2417647": "Residual Sectors of Symmetric Token Configuration Graphs",
+      "2417648": "Transformation without loss",
+      "2417649": "The Topology of Transformation",
+      "2417650": "Topological and Algebraic Constraints on Accessible Continuations in Discrete Configuration Spaces",
+      "2417651": "The Relation Layer Invariant cohomology of token-configuration 2-complexes: capacity defects, relation deficits, and predicate dependence",
+      "2417652": "The Topology of Transformation: From Admissibility to Observability in Discrete Configuration Spaces",
+      "2417653": "The Ceiling and the Descent",
+      "2417654": "Two Quotients of One Machine"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -697243,6 +697310,91 @@
         "Finance / Economics",
         "Biology / Health",
         "LENR / Cold Fusion"
+      ],
+      "2417641": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2417642": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate",
+        "Reference Material"
+      ],
+      "2417643": [
+        "Energy",
+        "Alternative Physics"
+      ],
+      "2417644": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2417645": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2417646": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Biology / Health"
+      ],
+      "2417647": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2417648": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2417649": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2417650": [
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2417651": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2417652": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2417653": [
+        "Patents"
+      ],
+      "2417654": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
       ]
     },
     "meta_concepts": {
@@ -855827,7 +855979,21 @@
       ],
       "2417640": [
         "p_bridge"
-      ]
+      ],
+      "2417641": [],
+      "2417642": [],
+      "2417643": [],
+      "2417644": [],
+      "2417645": [],
+      "2417646": [],
+      "2417647": [],
+      "2417648": [],
+      "2417649": [],
+      "2417650": [],
+      "2417651": [],
+      "2417652": [],
+      "2417653": [],
+      "2417654": []
     }
   },
   "daily_drawers": {
@@ -855873,11 +856039,11 @@
       {
         "drawer": "random",
         "label": "Random",
-        "title": "16th international workshop on anomalies in hydrogen loaded metals iwahlm16",
-        "excerpt": "ХТЯ и ШМ: 16th International Workshop on Anomalies in Hydrogen Loaded Metals IWAHLM16 --> ХТЯ и ШМ Навигация Домой Wiki Галерея славы Конференции Мемориал Новости Семинар",
-        "meta": "lenr.seplm.ru",
+        "title": "Dermatitis - Energetic Forum",
+        "excerpt": "Below is a file you can download that has some great information and EPFX Protocols on different types of Eczema, aka Dermatitis. Click EPFX | Eczema | Dermatitis",
+        "meta": "energeticforum.com",
         "rarity": "drawn at random",
-        "href": "./pages/01528071.html"
+        "href": "./pages/01506566.html"
       }
     ]
   },
@@ -856314,7 +856480,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-18T19:13:00Z",
+    "as_of": "2026-09-18T19:23:42Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 98,

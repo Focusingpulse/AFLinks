@@ -59,15 +59,28 @@ def main():
 
     res["researchers"] = cur
     res["_meta"]["count"] = len(cur)
-    # Stamp the real time. This used to be a hardcoded literal, which silently
-    # overwrote the true timestamp with a frozen date on every sweep — the count
-    # moved while the metadata lied about when.
-    res["_meta"]["last_updated"] = datetime.now(timezone.utc).isoformat()
+    # Stamp the real time — but only when something actually changed. This used
+    # to be a hardcoded literal, which silently overwrote the true timestamp with
+    # a frozen date on every sweep — the count moved while the metadata lied about
+    # when. Now it is stamped truthfully, and left alone on a no-op sweep so a
+    # zero-add run does not leave a timestamp-only diff in the shared repo.
+    if added:
+        res["_meta"]["last_updated"] = datetime.now(timezone.utc).isoformat()
     # indent=2 matches the file's existing formatting; indent=1 rewrote all
     # ~36k lines as a whitespace-only diff on every run, burying real changes.
+    payload = json.dumps(res, indent=2, ensure_ascii=False) + "\n"
+    with open(res_path, "r", encoding="utf-8") as f:
+        current = f.read()
+    # Compare ignoring trailing newline: the committed file has none (last written
+    # by a different tool), so a strict compare would rewrite on every checkout.
+    if payload.rstrip("\n") == current.rstrip("\n"):
+        # Nothing to say — do not rewrite. Writing here left living-library (a
+        # shared memory repo) permanently dirty on every zero-add sweep, which
+        # breaks other lanes' `git pull --rebase` in that repo.
+        print(f"researcher_sweep: {added} added, {len(cur)} total in index (no change; not rewritten)")
+        return
     with open(res_path, "w", encoding="utf-8") as f:
-        json.dump(res, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+        f.write(payload)
     print(f"researcher_sweep: {added} added, {len(cur)} total in index")
 
 if __name__ == "__main__":
