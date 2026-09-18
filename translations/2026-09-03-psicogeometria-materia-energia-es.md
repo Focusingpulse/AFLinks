@@ -1,11 +1,7 @@
 ---
-name: Psicogeometría: Geometría en Materia y Energía
-description: "Full-document translation. language es | 4 chunks | https://psicogeometria.com/geometriasagrada4.1.html"
+name: "2026-09-03-psicogeometria-materia-energia-es"
+description: Full translation of "Sacred Geometry"
 ---
-
-# Psicogeometría: Geometría en Materia y Energía
-
-*Full translation from es · source: https://psicogeometria.com/geometriasagrada4.1.html · 4 chunks · assembled 2026-09-10*
 
 Sacred Geometry
 
@@ -21,7 +17,9 @@ Let us think of a universe made of a single substance. What in science is known 
 
 Fixing the point of attention is fixing a void, a fractal space around which everything will revolve. Accepting that void is accepting the process of passing from energy to matter. From fixing attention, fixing "no tension," the particle or event is subjected to the three mathematical constants that govern the geometric matrix that supports matter: phi, pi, and euler.
 
+
 ---
+
 
 Phi (pronounced fi) is the harmonic relationship of the smaller to the larger and the larger to the whole. It defines the spiral movement around which everything rotates at the zero point, that spiral unfolds infinitely. The first movement to generate life is spiral movement. Everything in nature, the swirling of water, tornadoes, the sexual encounter between two animals is not a linear confrontation but occurs in a spiral dance. However, the phi spiral or golden spiral does not extend indefinitely but there comes a moment when it begins to curve to create matter. In scientific terms, phi, the golden number, creates heterodynamic conjunction of wave phase.
 
@@ -31,7 +29,9 @@ Phi has the shape of a "0" crossed by an "I" symbolizing the crossing of the voi
 
 The size of the spiral is determined by pi, which allows phi (fi) to know the dimension of the curvature, that is, the size of matter. Our arm that unfolds in phi patterns does not grow indefinitely but has a limited size. The unlimited nature of the universe is not in size, but in forms. It is as if we took a spiral and it were wrapped in a sphere.
 
+
 ---
+
 
 Pi is an irrational number with a value of 3.141592... and defines the constant value of the radius of a circle with respect to the circumference. In psychogeometric terms it defines the size of the toroid and is used to circumscribe the energy trapped gravitationally by the spiral and the point of attention or zero point.
 
@@ -39,7 +39,9 @@ The sphere will take consistency through the mediation of euler. It is the most 
 
 Euler, the last constant, represented by the letter "e," has a value of 2.718281... and is the base of natural logarithms. This means it is the only number with the property that the area of the region bounded by the hyperbola of the "x" axis and the "y" axis is equal to 1. Euler has the property of solidifying the toroid. In biology, one of its main applications is exponential growth. This type of growth arises when there are no factors limiting growth, as occurs in certain bacterial populations, or in the recovery of a forested surface after a fire. This constant is also linked to the golden ratio and the logarithmic spiral. When a chain or cable is hung by its ends, it tends to adopt a shape related to the number "e." Even in something as mundane as calculating bank interest, it is necessary to resort to the euler constant.
 
+
 ---
+
 
 Let us see it graphically in the following way. In the chaos of the universe (in our own sexual, emotional, intellectual universe, etc.), the first geometric movement that is made is the spiral movement like a tornado shape, the spiral will extend until it seeks to cover the largest possible area, emerging from the chaos of the void and moving toward order, toward the toroid. In this process of creation, the spiral extends to the size dictated by a sphere; if it continues growing, the spiral begins to surround the sphere and goes around it to start rotating in the opposite direction, moving from the outermost toward the center. Once it reaches the center, it radiates the energy it captured from the outermost and solidifies its own structure, giving it rigidity or flexibility.
 
@@ -68,3 +70,7 @@ Mailing List Free
 Social Media
 
 cookie policy .">
+
+
+---
+
