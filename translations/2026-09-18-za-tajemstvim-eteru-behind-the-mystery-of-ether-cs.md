@@ -1,6 +1,6 @@
 ---
-name: "2026-09-15-za-tajemstvim-eteru-chunk-001"
-description: "Translation of chunk 1 from 'Za tajemstvím éteru' (Behind the Mystery of Ether) by Dr. ing. Josef Daneš, 1985. Czech book on ether physics. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Dr. ing. Josef Daneš."
+name: "Behind the Mystery of Ether (Za tajemstvím éteru) — Josef Daneš, 1985 (cs→en)"
+description: "Full English translation of Josef Daneš's 1985 Czech book 'Za tajemstvím éteru' (Behind the Mystery of Ether), 192 pages + appendices — the history of ether-drift research and radio amateur experiments (Michelson-Morley through radio-era ether hunts). Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Translated from Czech by Translation Curator, 2026-09-18. Complete book."
 ---
 
 # Behind the Mystery of Ether
@@ -43,9 +43,7 @@ Albert Einstein put the final period on the physical concept of ether. Yet the c
 ---
 
 
----
-name: "2026-09-15-za-tajemstvim-eteru-chunk-002"
-description: "Translation of chunk 2 from 'Za tajemstvím éteru' by Dr. ing. Josef Daneš, 1985. Introduction to the Prague setting and radio pioneers. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Dr. ing. Josef Daneš."
+
 ---
 
 # In Place of a Preface
@@ -92,9 +90,7 @@ We would therefore wish that this publication contributes at least modestly not 
 ---
 
 
----
-name: "2026-09-15-za-tajemstvim-eteru-chunk-003"
-description: "Translation of chunk 3 from 'Za tajemstvím éteru' by Dr. ing. Josef Daneš, 1985. Chapter heading. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Dr. ing. Josef Daneš."
+
 ---
 
 # AUTHOR
@@ -105,9 +101,7 @@ description: "Translation of chunk 3 from 'Za tajemstvím éteru' by Dr. ing. Jo
 ---
 
 
----
-name: "2026-09-15-za-tajemstvim-eteru-chunk-004"
-description: "Translation of chunk 4 from 'Za tajemstvím éteru' by Dr. ing. Josef Daneš, 1985. Early radio history in Czech lands, 1908 Prague exhibition, Popov's invention. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Dr. ing. Josef Daneš."
+
 ---
 
 Today it is hard for us to believe that those interested in the secrets of wireless signal transmission often had to hide their experiments from the law and were even suspected of charlatanism. This was connected to the fact that the first knowledge from this field spread only very slowly.
@@ -152,9 +146,7 @@ He could not be convinced by any verbal explanation that the audience had not be
 ---
 
 
----
-name: "2026-09-15-za-tajemstvim-eteru-chunk-005"
-description: "Translation of chunk 5 from 'Za tajemstvím éteru' by Dr. ing. Josef Daneš, 1985. Chapter heading: The Catastrophe of the Century. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Dr. ing. Josef Daneš."
+
 ---
 
 ## THE CATASTROPHE OF THE CENTURY
@@ -163,9 +155,7 @@ description: "Translation of chunk 5 from 'Za tajemstvím éteru' by Dr. ing. Jo
 ---
 
 
----
-name: "2026-09-15-za-tajemstvim-eteru-chunk-006"
-description: "Translation of chunk 6 from 'Za tajemstvím éteru' by Dr. ing. Josef Daneš, 1985. The Titanic disaster and radio's role in rescue. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Dr. ing. Josef Daneš."
+
 ---
 
 Mr. Boušek became the hero of the day. People crowded into his shop on Celetná Street and at his branch on Na Příkopě Street.
@@ -275,9 +265,7 @@ Titanic disappeared from the Prague press only at the beginning of May. Her voya
 ---
 
 
----
-name: "2026-09-15-za-tajemstvim-eteru-chunk-007"
-description: "Translation of chunk 7 from 'Za tajemstvím éteru' by Dr. ing. Josef Daneš, 1985. Chapter heading: Austria-Hungary. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Dr. ing. Josef Daneš."
+
 ---
 
 ## AUSTRIA-HUNGARY
@@ -286,9 +274,7 @@ description: "Translation of chunk 7 from 'Za tajemstvím éteru' by Dr. ing. Jo
 ---
 
 
----
-name: "2026-09-15-za-tajemstvim-eteru-chunk-008"
-description: "Translation of chunk 8 from 'Za tajemstvím éteru' by Dr. ing. Josef Daneš, 1985. Early radio development in Austria-Hungary, military stations, Prof. Nušl's receiver at Ondřejov observatory. Source: https://ok5nw.nagano.cz/e-publikace/za_tajemstvim_eteru.pdf. Language: Czech. Author: Dr. ing. Josef Daneš."
+
 ---
 
 In Austria-Hungary, the navy began with radio in 1902, the army in 1903. The first transmitters were spark transmitters. After 1910, experiments with Poulsen arc transmitters on wavelengths 850 to 3700 m were conducted between Korneuburg, Vienna, and Innsbruck. Arc stations established in 1912–1914 in Laareberg, Trient, Sarajevo, and in the Ministry of War building in Vienna had an output of 4 kW; Trebinja 6 kW; and Przemyśl 15 kW.
