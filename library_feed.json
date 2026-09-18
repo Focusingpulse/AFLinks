@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T23:09:07Z",
+  "generated_at": "2026-09-18T00:06:57Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -8102,7 +8102,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-17T22:11:44Z",
+      "last_run": "2026-09-17T23:14:58Z",
       "last_status": "ok",
       "last_summary": "sync: 71191 docs, feed rebuilt"
     },
@@ -8218,6 +8218,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-17",
+      "time": "23:14",
+      "agent": "AFLinks Sync",
+      "summary": "+71191 docs — +71191 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-17",
       "time": "22:11",
@@ -8571,12 +8577,6 @@
       "time": "08:49",
       "agent": "Translation Curator",
       "summary": "+0 chunks — No-op heartbeat: family budget low (gear: quota), gate closed. Backlog 479 full-doc translations, 2 jobs in progress, 61 archival copies held."
-    },
-    {
-      "date": "2026-09-15",
-      "time": "08:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "**-23 dup re-emissions — corpus 151->128 canonical.** The 05:30 aflinks-cron sync re-published a pre-dedup snapshot: 21 junk-fm 09-11 copies + 3 same-content variants (tesla 08-30, campi mid-chunk, wilhelm-reich EN scrap"
     }
   ],
   "declassified": [
@@ -8964,7 +8964,7 @@
       "source_url": ""
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "kind": "declassified",
       "title": "USA — Pentagon UAP Document Release (Tranche 4) + DOE Files",
       "excerpt": "USA — Pentagon UAP document release tranche 4, including DOE files on UFO sightings over nuclear facilities (PANTEX, Los Alamos).",
@@ -8972,7 +8972,7 @@
       "href": "./library.html#declass-declassified-usa-pentagon-uap-tranche4-md"
     },
     {
-      "date": "2026-09-17",
+      "date": "2026-09-18",
       "kind": "declassified",
       "title": "US-Saudi Nuclear Agreement — 20% Enrichment Path",
       "excerpt": "US-Saudi agreement includes pathway for 20% uranium enrichment in Saudi territory, revealed September 2026.",
@@ -825698,7 +825698,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-17T23:09:07Z",
+    "as_of": "2026-09-18T00:06:57Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 68,
