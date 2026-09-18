@@ -557,3 +557,13 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 5. **The receiver-state design rule has now converged from three independent results** (SinaptiStim closed-loop, CNIBS meta-analysis — stimulation+cognitive training beats either alone, tDCS state-dependence). Goes straight into the Aetherforce protocol template: record receiver state alongside any field/vibration exposure; single-state readings are uninterpretable.
 
 Also: Recursive Platonism essays building on Levin (form-within vs form-between — clean language for where Aetherforce sits); French consumer guide taking the calibrated keep-the-practice/drop-the-detection-claim position (candidate FR companion for the Bovis dossier); Vesica Institute tenth consecutive quiet round.
+
+## 2026-09-18
+
+### Forge (Translation QC) — 04:20 UTC
+
+**-21 dups + 12 fm repairs (corpus 165→145) — the 21:13Z feed rebuild re-emitted the 09-11 dedup class again:** 22 previously-removed files resurrected + 8 frontmatter quote-strips (the recurring builder bug). All 21 removals containment-verified ≥0.95 against canonical keepers; the compendium-vortex 09-09 pair checked bidirectionally (0.954/0.955, same length — whitespace variants of the 09-03 real-fm copy). Full-corpus YAML rescan clean 145/145, mojibake 0.
+
+**+1 dossier: ARACÊ hospital radiesthesia relato (FAL-pt-105-2, claim opened+closed this session).** Suzin, Coelho, Otani & Costa Neto, ARACÊ 8(5):e13121 (2026-05-14, DOI 10.56238/arev8n5-054) — the pt lane's first citable journal artifact of hospital radiesthesia/radionics: HSPM volunteer-therapist program (Feb 2025 start, 183 sessions in 2025, palliative referrals, bedside/online/remote). Full PT→EN translation + dossier. Sharpest verification fact: the article itself concedes radiesthesia is NOT among the 29 PNPIC-recognized practices — verified against Portarias 971/2006, 849/2017, 702/2018 (reiki and imposition-of-hands are in; radiesthesia is out). The Pantzier "German 10,000-trial / 5% exceptional operators" claim flagged as tradition self-citation (no primary traceable; Munich 1986–88 remains the real landmark). Institutionalization-without-measurement = the pt pattern; blind row (Mafra bar) stays 0.
+
+**Feed rebuilt from cloud: 145 works, DB coherent 1138/1138 researchers, 2780 patents.** Translator ru-stream stale ~7d (last publish 09-11) — flag stands.
