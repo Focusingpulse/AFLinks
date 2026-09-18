@@ -429,6 +429,27 @@ def main():
             if txt_data:
                 preview = txt_data.decode('utf-8', errors='replace')[:2000]
                 preview = re.sub(r'\s+', ' ', preview).strip()
+        elif ext == '.docx':
+            # OOXML text extraction via zip+XML (no external deps); gives real
+            # previews for text-version .docx docs instead of empty+OCR.
+            try:
+                import zipfile
+                import xml.etree.ElementTree as ET
+                import io
+                docx_data = subprocess.run(['curl','-s','-L','--max-time','40','-A',get_ua(site_name), url], capture_output=True, timeout=50).stdout
+                if docx_data:
+                    zf = zipfile.ZipFile(io.BytesIO(docx_data))
+                    xml_bytes = zf.read('word/document.xml')
+                    # strip namespaces for simple <w:t> harvesting
+                    ns = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
+                    root = ET.fromstring(xml_bytes)
+                    texts = [node.text for node in root.iter(ns + 't') if node.text]
+                    preview = ' '.join(texts)
+                    preview = re.sub(r'\s+', ' ', preview).strip()[:2000]
+                    zf.close()
+            except Exception as e:
+                print(f"  DOCX-ERR: {e}")
+                preview = ""
         elif ext == '':
             # Extension-less URLs are HTML pages on many archives (TikiWiki
             # clean URLs like svpwiki.com/Keely, MediaWiki /index.php/Title).
