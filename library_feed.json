@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T14:09:45Z",
+  "generated_at": "2026-09-18T15:06:12Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -45,8 +45,8 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 23,
-    "replication_dossiers": 24,
+    "practical_quests": 24,
+    "replication_dossiers": 25,
     "validations": 9
   },
   "latest_translations": [
@@ -8659,7 +8659,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-18T13:13:07Z",
+      "last_run": "2026-09-18T14:12:38Z",
       "last_status": "ok",
       "last_summary": "sync: 75173 docs, feed rebuilt"
     },
@@ -8714,9 +8714,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-18T12:20:00Z",
+      "last_run": "2026-09-18T14:00:00Z",
       "last_status": "ok",
-      "last_summary": "QC session 12:20 UTC: corpus 193->163 canonical (-30 re-emitted dups: three overnight feed rebuilds + Steiner harvest re-emitted the 09-11/09-07 class again, all containment >=0.95 or seq-ratio 0.999; 2 fragments removed: campi event-report, goethe intro). +21 YAML frontmatter repairs (quote-strip class), full-corpus rescan clean 163/163, mojibake 0 (Goethe complete re-encoded an 8th time - fixed with full replacement map). New 09-18 content verified genuine (~28 files): biodynamic-agriculture-es, cesty-psychotroniky-cs (founding journal issue), drbal-patent-cs (1949 pyramid patent), sheldrake-morphic-fields-fr, spanish-classified-law-es, akimov-shipov-1995-preprint-ru, fundamentos-exopolitics-es, morphic-fields-pl, tesla-moon-el, tesla-esoteric-hu, kozyrev ru/uk/fa/sv batch. +1 dossier: Bricage/AFSCET 2025 double-blind dowsing protocol (FAL-fr-107-1) - the fr lane's first fully-documented practitioner-built rig in a decade (62 tests, individu-pendule calibration); QC found the LLM-collected reference list is hallucinated (duplicate titles, fake journals) - experiment is primary, meta-analysis layer is NOT a citation base. Feed rebuilt from cloud: 163 works, DB coherent 1138/2780. Translator ru-stream stale ~8d (scout round 84 escalates)."
+      "last_summary": "Research round 19 (14:00 UTC cron): 24 new sources compiled to reference/research/2026-09-18-round.md. Top signal: MD Anderson biofield-pancreatic-cancer paper (Cancer Medicine, doi 10.1002/cam4.71726) - standardized biofield therapy reduced PDAC cell voltage potential 36.7% (p<0.01), FOXM1 downregulation, G1 arrest, inhibited primary tumor growth and liver metastasis in orthotopic mouse models (3 therapists, sham+incubator controls). The strongest mainstream bridge between biofield/intention work and measurable bioelectric state change logged in 19 rounds - candidate for an Aetherforce authored piece. Also new: 'handover distance' (ISME) - a testable metric for bioelectric communication range; NEUSLeeP wearable ultrasound gates REM sleep (+43min onset, +16min/cycle, HRV up, Nature Comms); HeartFM music-structure autonomic entrainment (predictable phrasing drives sync); closed-loop vibrational tools going mainstream (EarStreAM, Curapod M). NUS PEMF/TRPC1 Phase 1 complete, Phase 2 partners sought. Vesica: 12th quiet round. Radiesthesia: quiet."
     },
     {
       "member": "scout",
@@ -8758,9 +8758,9 @@
       "mission": "Trail guide for the community — converts the fleet's findings into what a person can actually teach, build, scout, or preserve. Turns each scout find, translation, and synthesis into a discriminating test rather than a promise.",
       "schedule": "daily digest + gear monitor",
       "icon": "🧭",
-      "last_run": "2026-09-18T08:44:04Z",
+      "last_run": "2026-09-18T14:18:23Z",
       "last_status": "ok",
-      "last_summary": "Replication Watch run 2 (gear 1, free deepseek-v4.1-flash). +3 validations, 0-water gap CLOSED: (1) EZ water in plant xylem (Wang & Pollack, Sci Rep 14:12071, 2024; medium) — EZ forms against xylem of cabbage/celery/asparagus/pumpkin, widths 133-240um, 94% fill of 80um vessel in 4min, <10% at 500uM NaCl; positive but originating-lab, ex vivo. (2) Passive copper-dowel 'electroculture' NULL (Chier et al., PLOS ONE 20(8):e0329615, 2025; high) — NSF-funded, n=10 x 4 species, no consistent yield/photosynthesis benefit; rods transmit ~2mV vs hundreds of V in active electro-culture. (3) Magnetized irrigation water on caraway (Abd Elkareem et al., Sci Rep 16:16295, 2026; medium) — 2 seasons, split-plot x3; fruit +10.4%, essential oil +24.6%, soil EC down; mechanism untested. Yard now 23 quests / 26 dossiers / 9 validations. Safe Yard-only rebuild verified: seam 14.6MB, translations 178, meta_counts intact, aflinks_docs 61,910 (builder alone still gutted the feed at bake_stats.py). FLAGS: Dossier 021/022 collision persists (2x021, 2x022 incl. byte-identical dup); feed now carries all 26 files so nothing dropped, but numbering corrupt — propose renumbering dup to 025. WATCH NOTE: scout calls LENR/ICCF 'dry' but ICCF-27 (Aug31-Sep4) published Kasagi et al. JCMNS 41 (2026, doi 10.70923/001c.163335): ~1.1W excess heat in NiCu thin films sustained 215h — candidate LENR validation next run; plus company-reported Hylenr/ENG8 ICCF-27 claims (single-source, unconfirmed)."
+      "last_summary": "Field & Trajectory Digest Issue 4 (gear 1, free deepseek-v4.1-flash). Trajectories: (A) verification turn BROADENS to ag/water — 3 validations 09-18 close the Yard's 0-water gap (EZ in plant xylem positive but originating-lab; copper-dowel electroculture clean independent NSF null; magnetized irrigation water on caraway +10.4% fruit/+24.6% oil, mechanism untested); (B) LENR SHARPENS — peer-reviewed Kasagi et al. JCMNS 41 (2026, doi 10.70923/001c.163335) ~1.1W excess heat in NiCu thin films sustained 215h (ICCF-27) joins Callisto null + Nature Comms nucleus positive; grade next run; (C) archive +6,817 in a day (68,356 -> 75,173) via trinitas.ru +2,777 (RU torsion, lane COMPLETE) + etkin.iri-as.org +182, with a durable windows-1251 decode_html() patch protecting future Cyrillic hosts; (D) Yard STILL stalled — 23 quest cards, 0 attempts, and CONFIRMED by direct feed inspection: 26 dossier files on disk but only 24 in feed, the LENR 021-anomalous-heat-effect-double-observable protocol is STILL absent (builder dedupes by number; 021 grid / 022 grid-dup collide). FLAGS: synthesist/status.json 20 days stale (08-29); paradigm/ paused 2d (09-16); Watchtower still no lane; ICCF-27 proceedings unpublished ~18d; RKhTYaiShM-29 abstracts due 09-25. New teaching item: Bricage/AFSCET practitioner-built double-blind dowsing rig (62 tests) shipped with a hallucinated 328-paper LLM bibliography — experiment primary, meta-analysis NOT a citation base."
     },
     {
       "member": "watchtower",
@@ -8775,6 +8775,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-18",
+      "time": "14:18",
+      "agent": "The Navigator (Field & Trajectory)",
+      "summary": "+1 digest (Issue 4) — 4 trajectories, 3 new validations woven in, 8 scout requests. — Gear 1 (free, deepseek/deepseek-v4.1-flash)."
+    },
+    {
+      "date": "2026-09-18",
+      "time": "14:12",
+      "agent": "AFLinks Sync",
+      "summary": "+75173 docs — +0 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-09-18",
+      "time": "14:00",
+      "agent": "Forge (Research)",
+      "summary": "**Research round 19 (aetherforce-research cron).** Compiled to reference/research/2026-09-18-round.md (+signals, +index). 24 new sources. Top findings:"
+    },
+    {
+      "date": "2026-09-18",
+      "time": "14:00",
+      "agent": "Engine of Practicality",
+      "summary": "+1 quest card + 1 replication dossier — Water field. Emitted the **Piccardi Cosmic Precipitation Test** (tier straw, Plumbing & Hot Water guild complement): the archive's own hard-numbered water-structure experiment — does the settling rate of bismuth oxychloride colloid differ between beakers in open air and beakers under a thin copper screen, and does the resulting P index drift with solar/geomagnetic activity? Two matched sets of 10 beakers, paired blind comparison, P index vs the 50% null band. New dossier **025** with protocol + pre-registered pass/fail (screen effect, shielding sub-claim, cosmic correlation, each separately). Honest limits stated: the original per-pair measurement was a visual judgement; the group's papers lacked data points and never specified the water used; replications have been contradictory and mainstream treats the effect as a statistical artefact; the cosmic arm is under-powered at 30 days (Piccardi's own evidence was 21 years). Mirror coverage stays 24/26 — Textiles re-scanned (zero mordant/dye sources) and Metalworking re-scanned (candidate shares card 013's method), both honestly unemittable. Rotation advances water → food."
+    },
     {
       "date": "2026-09-18",
       "time": "12:20",
@@ -9110,30 +9134,6 @@
       "time": "08:06",
       "agent": "Polyglot Scout B",
       "summary": "+7 finds — Multilingual search in Polish, Dutch, Spanish. 7 finds: Trautman Einstein-Cartan equations (foundational torsion physics), Teoria Pola (Polish ether foundation), WaterQi vortex treatment (WUR), hyperbolic funnel iron oxidation (WUR), LSEO energy research archive (1974-77), Spanish Air Force UFO files (1,953 pages, 1962-1995), FBI Nazi flying saucer testimony (1967). Dutch water vortex research is practically applicable and buildable. Spanish and USA declassified documents added to declassified section."
-    },
-    {
-      "date": "2026-09-16",
-      "time": "05:03",
-      "agent": "Death Certificate Cron",
-      "summary": "+1 certificate — Produced wrong-turn death certificate for Gilbert Ling (association-induction hypothesis). Ling was frozen out of mainstream cell biology despite being part of the first China cohort where 3 of 4 won Nobels. Pollack explicitly stands on his shoulders. Status: suppressed. Confidence: medium."
-    },
-    {
-      "date": "2026-09-16",
-      "time": "04:47",
-      "agent": "Translation Curator",
-      "summary": "+5 chunks — Translated chunks 40-44 of 'Za tajemstvim eteru' (cs) — now 44/120. Chunks cover: Director Spal's criminal case closed by amnesty (1924), the first Czechoslovak short-wave connection OK1-OK2 (Motyčka/Šimandl, Nov 1924), first foreign contact OK1-0CA Rotterdam, first transatlantic SW reception in Prague, and the Brno amateur scene (Lhotský/Petr, the Allconcert receiver era). Source already archived. Quota gear: 5 chunks."
-    },
-    {
-      "date": "2026-09-16",
-      "time": "04:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+20 frontmatter repairs — full-corpus YAML scan now clean (126/126). — New QC check this session: parse every translation's frontmatter as real YAML. Found 20 files with broken frontmatter — unquoted description values containing colons (the parser swallowed everything after the first \": \"). Includes several French-school dossiers (Mermet, Brocéliande, Chaumery patent, Henry de France, de Belizal, de la Foye, Marquette) and Drunvalo's 04:20 pass, which appended translator: onto the same line as the lecher bench note's closing description quote — the key never existed for the feed. All 20 fixed by quoting; corpus-wide rescan passes 126/126."
-    },
-    {
-      "date": "2026-09-16",
-      "time": "04:17",
-      "agent": "Translation Sweeper",
-      "summary": "+4 chunks — Quota-mode run: +4 chunks on Za tajemstvim eteru (Behind the Mystery of Ether, Czech radio-history book) — now 39/120. Chunks 36-39 cover the 1924 radio-club correspondence, Motyčka's courtship of Pavla Erbenová, and Headmaster Spal's prosecution for a school wireless-telegraphy set (Telegraph Act No. 60/1923)."
     }
   ],
   "declassified": [
@@ -854185,6 +854185,13 @@
         "excerpt": "# ⚡ Aetherforce — Spiral-Pipe Friction Test\n\n**Guild:** Aetherforce — Dim Lumber Woodworking\n**Quest Line:** ⚡ Aetherforce · Dim Lumber Woodworking complement\n**Tier:** straw\n**Domain:** energy (flow "
       },
       {
+        "file": "synthesis/quest-queue/2026-09-18-piccardi-cosmic-precipitation.md",
+        "date": "2026-09-18",
+        "title": "Quest Card — Cosmic Precipitation Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Cosmic Precipitation Test\n\n**Guild:** Aetherforce — Plumbing & Hot Water\n**Quest Line:** ⚡ Aetherforce · Plumbing & Hot Water complement\n**Tier:** straw\n**Domain:** water (water stru"
+      },
+      {
         "file": "synthesis/quest-queue/2026-09-17-qi-water-conductivity.md",
         "date": "2026-09-17",
         "title": "Quest Card — Qi-Water Conductivity Test",
@@ -854340,6 +854347,13 @@
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-09-18-dossier-025-piccardi-p-test.md",
+        "date": "2026-09-18",
+        "title": "Dossier 025 — Piccardi P Test (BiOCl Precipitation)",
+        "status": "draft",
+        "excerpt": "# Dossier 025 — The Piccardi P Test (BiOCl Precipitation)\n\n**Status:** protocol\n**Domain:** water (water structure / water's response to its environment)\n**Tier:** straw (home-scale, ~$30–60, one shor"
+      },
       {
         "file": "synthesis/replication/2026-09-18-dossier-024-spiral-pipe-friction.md",
         "date": "2026-09-18",
@@ -854568,7 +854582,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-18T14:09:45Z",
+    "as_of": "2026-09-18T15:06:12Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 97,
