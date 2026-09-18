@@ -376,12 +376,25 @@ def main():
         preview = ""
         
         if ext == '.pdf':
-            # fetch via curl subprocess with hard timeout — urllib hangs on this server's throttled PDFs
-            try:
-                pdf_data = subprocess.run(['curl','-s','-L','--max-time','60','-A','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', url], capture_output=True, timeout=70).stdout
-            except Exception as e:
-                print(f"  CURL-ERR: {e}")
-                pdf_data = None
+            # fetch via curl subprocess with hard timeout — urllib hangs on some servers' throttled PDFs.
+            # URLLIB_FIRST=1 tries urllib first (fast on servers that throttle curl, e.g. shipov-vacuum.com),
+            # then falls back to curl. Default behavior unchanged for all other sites.
+            pdf_data = None
+            if os.environ.get('URLLIB_FIRST') == '1':
+                try:
+                    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept': 'application/pdf,*/*'})
+                    with urllib.request.urlopen(req, timeout=25) as resp:
+                        pdf_data = resp.read()
+                    if not pdf_data:
+                        pdf_data = None
+                except Exception:
+                    pdf_data = None
+            if pdf_data is None:
+                try:
+                    pdf_data = subprocess.run(['curl','-s','-L','--max-time','60','-A','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', url], capture_output=True, timeout=70).stdout
+                except Exception as e:
+                    print(f"  CURL-ERR: {e}")
+                    pdf_data = None
             if pdf_data:
                 with tempfile.NamedTemporaryFile(suffix='.pdf', delete=False) as tmp:
                     tmp.write(pdf_data)
