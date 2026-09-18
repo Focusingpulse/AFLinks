@@ -1438,6 +1438,137 @@ def main():
     news.sort(key=lambda n: n["date"], reverse=True)
     feed["news"] = news[:8]
 
+    # --- 9c. Daily drawers — the rotating strip beside Today's Salvage --------
+    # Chris: "one pic from each category — one of the Declassified things, one
+    # of the translated things, one of the newly found things, one of the rare
+    # items, and something random. Something that rotates daily."
+    # Seeded by the date so it is stable all day and turns over at midnight
+    # even with no rebuild (the page re-picks client-side too).
+    import hashlib
+    seed = int(hashlib.sha256(today.encode("utf-8")).hexdigest()[:12], 16)
+
+    def _pick(seq):
+        return seq[seed % len(seq)] if seq else None
+
+    def _flat(s, n=170):
+        """First real prose from a markdown-ish excerpt.
+
+        Harvested translation records carry the raw head of the file: a
+        front-matter block, a "Link to Facebook / X / YouTube" chrome line, and
+        a metadata bullet list, all before any prose. Showing that as the teaser
+        reads like a database dump, so drop those and keep the first sentence.
+        """
+        s = s or ""
+        s = re.sub(r"^\s*---\s*\n.*?\n---\s*\n", "", s, flags=re.S)
+        keep = []
+        for ln in s.split("\n"):
+            t = ln.strip()
+            if not t or t in ("---", "***", "___"):
+                continue
+            if re.match(r"^[-*]?\s*\*\*[a-z_]+\*\*\s*:", t, re.I):
+                continue                      # - **date:** ...
+            if re.match(r"^(link to |share |follow us|tweet|pin it|subscribe)", t, re.I):
+                continue                      # social chrome
+            if len(t) < 25:
+                continue                      # nav fragments
+            keep.append(t)
+        s = " ".join(keep)
+        s = re.sub(r"^[#>\-*\s]+", "", s)
+        return re.sub(r"\s+", " ", s).strip()[:n]
+
+    # Skip previews that are still site navigation. The preview cleaner is
+    # working through the archive; until it finishes, a random draw can land on
+    # a page whose text is still a menu, which reads as a broken card.
+    try:
+        import content_extract as _ce
+
+        def _readable(t):
+            return bool(t) and _ce.chrome_score(t) < 2
+    except Exception:
+        def _readable(t):
+            return bool(t)
+
+    def _doc_href(x):
+        return "./pages/%08d.html" % int(x["id"]) if x.get("id") is not None else ""
+
+    drawers = []
+
+    # 1. Declassified — a newly opened record
+    d = _pick(feed.get("declassified") or [])
+    if d:
+        drawers.append({
+            "drawer": "declassified", "label": "Declassified",
+            "title": d.get("title") or "", "excerpt": _flat(d.get("description")),
+            "meta": (d.get("country") or "").title(), "rarity": "newly opened",
+            "href": "./library.html#declass-" + _declass_slug(d.get("file")),
+        })
+
+    # 2. Translated — a work brought into English
+    t = _pick(feed.get("latest_translations") or [])
+    if t:
+        ln = _lang_label(t.get("language"))
+        drawers.append({
+            "drawer": "translated", "label": "Translated",
+            "title": t.get("title") or "", "excerpt": _flat(t.get("excerpt")),
+            "meta": ln or "translation",
+            "rarity": ("fresh from " + ln) if ln else "fresh translation",
+            "href": "./library.html#trans-" + (t.get("file") or ""),
+        })
+
+    # 3. Newly found — a scout find
+    # only finds that carry a description — a card with an empty teaser reads
+    # as broken, and some scout records are title-only
+    finds = [(f, s.get("date", "")) for s in (feed.get("latest_finds") or [])
+             for f in (s.get("finds") or []) if (f.get("description") or "").strip()]
+    f, fdate = (_pick(finds) or (None, ""))
+    if f:
+        drawers.append({
+            "drawer": "found", "label": "Newly found",
+            "title": f.get("title") or "", "excerpt": _flat(f.get("description")),
+            "meta": fdate or "recent", "rarity": "scout find",
+            "href": f.get("url") or "./library.html",
+        })
+
+    # 4. Rare — a document from one of the rarest source archives in the
+    #    collection. "Rare" is a checkable claim about the collection, not a
+    #    value judgement: the host contributed almost nothing else.
+    #    (sargoytchev_zenodo 1 doc, merlib.lackluster.org 1, iscmns_org 2.)
+    if docs:
+        _counts = {}
+        for x in docs:
+            _s = x.get("source_site") or ""
+            if _s:
+                _counts[_s] = _counts.get(_s, 0) + 1
+        _rarest = sorted(_counts, key=lambda k: _counts[k])[:12]
+        _rare_pool = [x for x in docs
+                      if x.get("source_site") in _rarest and _readable(x.get("content_preview"))]
+        r = _pick(_rare_pool)
+        if r:
+            _host = r.get("source_site") or ""
+            drawers.append({
+                "drawer": "rare", "label": "Rare",
+                "title": r.get("title") or r.get("filename") or "",
+                "excerpt": _flat(r.get("content_preview")),
+                "meta": _host.replace("_", "."),
+                "rarity": "1 of %d from this host" % _counts.get(_host, 1),
+                "href": _doc_href(r),
+            })
+
+    # 5. Random — anything with a readable preview
+    _pool = [x for x in docs
+             if _readable(x.get("content_preview")) and (x.get("title") or x.get("filename"))]
+    q = _pick(_pool)
+    if q:
+        drawers.append({
+            "drawer": "random", "label": "Random",
+            "title": q.get("title") or q.get("filename") or "",
+            "excerpt": _flat(q.get("content_preview")),
+            "meta": (q.get("source_site") or "").replace("_", "."),
+            "rarity": "drawn at random", "href": _doc_href(q),
+        })
+
+    feed["daily_drawers"] = {"as_of": today, "seed": seed, "drawers": drawers}
+
     # --- 9b. Entity graph (the contract agents read) ---
     # Phase 1: archive-graph.json (nodes: person/work/translation/concept +
     # typed edges) + curated-core-bindings.json. Serve the graph with the site
