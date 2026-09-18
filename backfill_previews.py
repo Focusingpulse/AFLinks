@@ -28,6 +28,7 @@ import urllib.request
 import concurrent.futures
 
 import index_io
+import content_extract
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 UA = "Mozilla/5.0 (AFLinks preview-backfill; research archive)"
@@ -62,27 +63,19 @@ def clean_text(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def extract(html):
-    """Return (title, text). Prefer TikiWiki's <article id="top"> when present."""
-    m = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
-    title = clean_text(m.group(1)) if m else ""
-    # strip the site prefix TikiWiki adds ("Sympathetic Vibratory Physics | X")
-    if "|" in title:
-        title = title.split("|")[-1].strip()
-    body = None
-    for pat in (r'<article[^>]*id="top"[^>]*>(.*?)</article>',
-                r'<div[^>]*class="[^"]*wikitext[^"]*"[^>]*>(.*?)</div>',
-                r'<main[^>]*>(.*?)</main>'):
-        mm = re.search(pat, html, re.S | re.I)
-        if mm:
-            body = mm.group(1)
-            break
-    if not body:
-        body = html
-    body = re.sub(r"<script.*?</script>", " ", body, flags=re.S | re.I)
-    body = re.sub(r"<style.*?</style>", " ", body, flags=re.S | re.I)
-    body = re.sub(r"<[^>]+>", " ", body)
-    return title, clean_text(body)[:PREVIEW_CHARS]
+def extract(html, url=""):
+    """Return (title, text) with site chrome removed.
+
+    Delegates to content_extract.extract_content() — site-aware containers
+    (MediaWiki #mw-content-text, TikiWiki <article id="top">, vBulletin posts,
+    <main>/<article>) plus nav/sidebar/breadcrumb removal inside them.
+
+    This used to do its own weak version of the same job (TikiWiki only, then a
+    whole-document tag strip), which left menus in the text on every other
+    platform. One extractor, one behaviour, everywhere.
+    """
+    title, text = content_extract.extract_content(html, url, max_chars=PREVIEW_CHARS)
+    return title, text
 
 
 def main():
@@ -138,7 +131,7 @@ def main():
             with _lock:
                 state["failed"][url] = err or "fetch-failed"
             return
-        title, text = extract(html)
+        title, text = extract(html, url)
         if len(text) < MIN_TEXT:
             with _lock:
                 state["failed"][url] = "no-text"

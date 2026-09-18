@@ -86,3 +86,8 @@ docs/
 !images/
 !images/**
 __pycache__/
+
+# Preview-cleaner working state (local to a run; the cleaned text lands in
+# index_shards/ and *_entries.json, which ARE tracked)
+clean_cache.json
+clean_previews_state.json

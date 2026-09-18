@@ -6,6 +6,9 @@ Time-budgeted: runs for ~480 seconds, saves progress, exits.
 Usage: python process_generic_cloud.py <site_name>
 """
 import os, re, json, time, tempfile, subprocess, urllib.parse, urllib.request, sys
+import html as html_module
+
+import content_extract
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BUDGET = int(os.environ.get('PROCESS_BUDGET', '1500'))  # seconds; env override for cron turns
@@ -100,28 +103,36 @@ def decode_html(data):
     return data.decode('utf-8', errors='replace')
 
 def fetch_html_text(url, max_chars=None):
+    """Fetch an HTML page and return (title, document_text).
+
+    Extraction is delegated to content_extract.extract_content(), which finds
+    the page's real content container (MediaWiki #mw-content-text, TikiWiki
+    <article id="top">, vBulletin .js-post__content-text, <main>/<article>,
+    plus a paragraph-harvest fallback) and deletes nav/sidebar/breadcrumb chrome
+    inside it.
+
+    HISTORY: this function used to delete <script>/<style> and then replace
+    EVERY remaining tag with a space. That turns site menus into prose, and
+    because previews are truncated to their first ~2000 chars, on menu-heavy
+    sites the chrome WAS the document. See content_extract.py for measurements.
+    """
     if max_chars is None:
         max_chars = int(os.environ.get('MAX_PREVIEW', '2000'))
-    """Fetch an HTML page and return (title, plain_text_preview)."""
     if USE_WAYBACK:
         url = "https://web.archive.org/web/2024/" + url
     data = fetch_url(url, timeout=30)
-    if data is None: return "", ""
-    text = decode_html(data)
-    m = re.search(r'<title[^>]*>(.*?)</title>', text, re.I | re.DOTALL)
-    page_title = re.sub(r'&amp;', '&', m.group(1)) if m else ""
-    page_title = re.sub(r'\s+', ' ', page_title).strip()
-    text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL)
-    text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
-    text = re.sub(r'<[^>]+>', ' ', text)
-    text = re.sub(r'&amp;', '&', text)
-    text = re.sub(r'&lt;', '<', text)
-    text = re.sub(r'&gt;', '>', text)
-    text = re.sub(r'&quot;', '"', text)
-    text = re.sub(r'&nbsp;', ' ', text)
-    text = re.sub(r'&#\d+;', '', text)
-    text = re.sub(r'\s+', ' ', text).strip()
-    return page_title, text[:max_chars]
+    if data is None:
+        return "", ""
+    html = decode_html(data)
+    title, text = content_extract.extract_content(html, url, max_chars=max_chars)
+    # last-resort: never return less than the old stripper would have
+    if not text:
+        text = re.sub(r'<script[^>]*>.*?</script>', '', html, flags=re.DOTALL)
+        text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
+        text = re.sub(r'<[^>]+>', ' ', text)
+        text = html_module.unescape(re.sub(r'&#\d+;', '', text))
+        text = re.sub(r'\s+', ' ', text).strip()[:max_chars]
+    return title, text
 
 # Category keywords (same as tuks processor)
 CAT_KW = {

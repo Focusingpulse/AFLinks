@@ -37,6 +37,8 @@ State files (all in SCRIPT_DIR):
 
 import os, re, json, time, sys, html, urllib.parse, urllib.request
 
+import content_extract
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE = "https://rsarchive.org"
 CATALOG_PATH = os.path.join(SCRIPT_DIR, "rsarchive_catalog.json")
@@ -77,9 +79,17 @@ def fetch(url, timeout=25):
 
 
 def strip_html(raw):
-    body = re.sub(r"<script.*?</script>|<style.*?</style>", "", raw, flags=re.S)
-    text = re.sub(r"<[^>]+>", " ", body)
-    return html.unescape(re.sub(r"\s+", " ", text)).strip()
+    """Flatten an rsarchive page to text.
+
+    Delegates to content_extract.extract_content() so the site chrome
+    ("Donate books to help fund our work / The Rudolf Steiner Archive /
+    Books / Articles / Lectures / GA / Date / Shop / Funding / DONATE /
+    << Previous / Table of Contents") is removed rather than concatenated onto
+    the lecture text. The previous version deleted scripts/styles and then
+    replaced every tag with a space, which put those menus in the preview.
+    """
+    _title, text = content_extract.extract_content(raw, max_chars=200000)
+    return text
 
 
 def categorize(title, text):
