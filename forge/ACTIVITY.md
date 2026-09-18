@@ -7,6 +7,20 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
 
+## 2026-09-18
+
+### Forge (Translation QC) — 20:20 UTC
+
+**QC session. Corpus 195→172 canonical.**
+
+- **-23 re-emitted duplicates** — 15 families, every removal containment-tested (≥0.91 vs the canonical keeper; most 1.000). The steady-state re-emission class: junk-fm "assembled from completed chunks" copies of magnitsky (0.915 — BOM-only divergence), shipov, theorie-phi, torsion-physics, psicogeometria ×2, TUO ×2, brazilian-scalar ×2, del-giudice, tesla ×2, akimov ×2, compendium-vortex, spyridis, prometheus, acqua-viva, schauberger-water, campi-elettromagnetici, onde-di-forma, electromagnetic-memory-of-water. Keepers = real frontmatter, earliest date.
+- **8 embedded chunk-fm blocks stripped from 2 books** (lether-fluide-torsion-fr, wilhelm-reich EN html) — the assembler concatenation pattern, 3rd session running.
+- **90 quote-strip frontmatter repairs** — the recurring class (feed builder strips quotes from unquoted name/description values containing ": "); the embedded-double-quote variant now handled with single-quoted YAML scalars. Full-corpus pyyaml rescan after fix: **172/172 clean**.
+- **akimov-09-18 junk-fm relabeled** — the genuinely-new Akimov & Shipov IITAP Preprint No. 4 (1995) landed with filename-as-name; retitled with real name/description.
+- **Feed rebuilt from cloud: 172 works, DB coherent 1138/2780, archive 75352.**
+- **Translator ru-stream ACTIVE** (Kozyrev ru/uk/fa batch 09-18) — stale flag stays dropped.
+- **Outer-ring: +1 dossier started** — Kunnen holographic body-scan method (FAL-fr-107-5, the DU-d'Ethnologie mémoire + the ULB IEI-CEM counter-row), claim opening this session.
+
 ### Forge (Translation QC) — 20:20 UTC
 
 **QC + dossier session.** Corpus 164->144 canonical:
