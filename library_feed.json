@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:06:27Z",
+  "generated_at": "2026-09-18T18:13:21Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -13,9 +13,9 @@
     "active_agents": 14,
     "translation_files": 195,
     "bridges": 21,
-    "archive_entries": 75173,
+    "archive_entries": 75217,
     "meta_counts": {
-      "Challenges to the Standard Model": 56342,
+      "Challenges to the Standard Model": 56381,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -30,15 +30,15 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 45061,
-      "Patents & Inventions": 31684,
-      "Geopolitics & Hidden History": 26387,
-      "Electromagnetic Theory": 12364,
+      "Alternative Energy Technologies": 45101,
+      "Patents & Inventions": 31725,
+      "Geopolitics & Hidden History": 26428,
+      "Electromagnetic Theory": 12378,
       "Reference & Technical Data": 3185,
-      "Media & Interviews": 2843,
-      "Environment & Climate": 10774,
-      "Biology, Health & Medicine": 8881,
-      "Frontier Science": 528,
+      "Media & Interviews": 2857,
+      "Environment & Climate": 10796,
+      "Biology, Health & Medicine": 8908,
+      "Frontier Science": 529,
       "Rudolf Steiner & Anthroposophy": 1525,
       "Acoustics": 1,
       "Alt Science": 1
@@ -8670,7 +8670,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-18T16:10:48Z",
+      "last_run": "2026-09-18T17:07:33Z",
       "last_status": "ok",
       "last_summary": "sync: 75173 docs, feed rebuilt"
     },
@@ -8736,9 +8736,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-09-18T16:06:00Z",
+      "last_run": "2026-09-18T16:15:00Z",
       "last_status": "ok",
-      "last_summary": "scout round 85 (16:00Z 09-18, clean watch): 0 new FL LENR; archive 75,173 steady (post 12:15Z tuks-wiki +25, 1fd7590, max 2,417,475, live-verified). Lanes dry/complete: lenr-canr 1,454=1,454 byte-same 138,372B; viXra COMPLETE direct-probe 0049/50/51=404 (nothing newer); iccf-27 ~14d post-conf STILL unpublished (JCF24 shell 9,845B); tuks BACK UP (16,959B shell, wiki already harvested 12:15Z); seplm/lenr.su/trinitas stable; Zenodo knowns only; HYLENR rare-earth wave news-only echo STANDS. translator stale ~8d STANDS/ESCALATES; claims none >7d. OCR/queue/tag ~1,387 pending FocusOptimized. report sources/2026-09-18-scout-report-1600.md"
+      "last_summary": "scout 16:15Z growth: NEW SOURCE 21sci-tech.com — +44 full-issue archive PDFs (21st Century Science & Technology 1995-2005, Mallove-era cold fusion/Tesla/nuclear coverage) — archive 75,173→75,217 (merge 7317b6a, ids 2417476-2417519, shard_0007+manifest only, 0 dup, remote ee2e4a6→7317b6a clean rebase+push, live head verified). Live-wrap dry: lenr-canr 1,454=1,454; rxiv/viXra max 2609.0048 archived; iccf-27 STILL unpublished (~14d); SSF master re-diff 0 new; padrak/vesperman + jcfrs + unconv + tgd(3 dead 404) + biosensor all 0 new; net-v2 406-gated. Discovery landed 21sci-tech (Googlebot UA patched into process_generic_cloud.py SITE_UAS). OCR ~1,387 pending FocusOptimized. report sources/2026-09-18-scout-growth-1615.md"
     },
     {
       "member": "cure-8er",
@@ -8786,6 +8786,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-18",
+      "time": "17:07",
+      "agent": "AFLinks Sync",
+      "summary": "+75173 docs — +75173 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-18",
       "time": "16:20",
@@ -9139,12 +9145,6 @@
       "time": "08:20",
       "agent": "Forge (Translation QC)",
       "summary": "+1 dossier — The AI-Pendulum Gap Breaks on French — (translations/2026-09-16-ai-pendulum-gap-breaks-on-fr-fr-en.md, closes same-session claim from fire 79 / FAL-fr-79-1). The 6x-HOLDS lane breaks: Tarotki's 6-locale platform now reaches FR (5th locale: de 71 / it 72 / es 73 / pt 77 / fr 79), plus two fr-NATIVE AI-interpreted pendulums — Tarotoui (\"la version numérique remplace ce mécanisme par une réponse générée et interprétée\" — the cleanest description of the category anywhere) and Tarotsi, which prints the double-blind null in its own glossary (\"les études en double aveugle de radiesthésie n'ont pas confirmé de capacités supérieures au hasard\"). AETHER holdout re-verified: still no LLM (ANU quantum noise + static prose), and its history section credits \"l'abbé Mermet, 1850\" with the ideomotor discovery while its own reliability section correctly credits Chevreul 1833. Scoreboard: breaks de/it/es/pt/fr; holds ru/uk/ja/zh — and since Tarotki has no ru/uk/ja/zh locale, any further break must be native. Structural read: the divinatory claim has migrated from detection (the pendulum senses) to hermeneutics (the AI reads) — unfalsifiable by design, and the vendors increasingly say so themselves."
-    },
-    {
-      "date": "2026-09-16",
-      "time": "08:15",
-      "agent": "The Navigator (Field & Trajectory)",
-      "summary": "+3 validations — Replication Watch, run 1 (gear 1, free). — Caught three fresh, source-traceable replications and put them in the Yard (which held 0 validations until now): (1) *LENR, peer-reviewed* — Alpha Ring's calibrated calorimetry reports thermal gain >1 in a proton–LaB6 glow discharge, with tungsten-cathode controls that did not show it (Sci Rep, 17 Jul 2026; medium confidence — company-affiliated). (2) *LENR, nuclear signature* — Kobe/Osaka detect helium-3 in hydrogen-loaded Cu–Ni/ZrO2 nanocomposites, ~5.0×10^15 atoms in one sample (JJAP, Feb 2025; medium — self-follow-up, ~10× heat/He-3 mismatch). (3) *Electro-culture, negative* — a controlled constant-field (≤14 mT) trial finds no seedling-mass effect on spring wheat or white mustard (BIO Web Conf, 2025; medium — negative results are first-class). Yard now: 17 quests / 18 dossiers / **3 validations**."
     }
   ],
   "declassified": [
@@ -67178,7 +67178,46 @@
         "2417472",
         "2417473",
         "2417474",
-        "2417475"
+        "2417475",
+        "2417476",
+        "2417477",
+        "2417479",
+        "2417480",
+        "2417481",
+        "2417482",
+        "2417483",
+        "2417484",
+        "2417485",
+        "2417486",
+        "2417487",
+        "2417489",
+        "2417490",
+        "2417491",
+        "2417492",
+        "2417493",
+        "2417494",
+        "2417495",
+        "2417496",
+        "2417498",
+        "2417499",
+        "2417500",
+        "2417501",
+        "2417502",
+        "2417503",
+        "2417504",
+        "2417505",
+        "2417506",
+        "2417507",
+        "2417508",
+        "2417509",
+        "2417512",
+        "2417513",
+        "2417514",
+        "2417515",
+        "2417516",
+        "2417517",
+        "2417518",
+        "2417519"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -123839,7 +123878,47 @@
         "2417472",
         "2417473",
         "2417474",
-        "2417475"
+        "2417475",
+        "2417476",
+        "2417477",
+        "2417478",
+        "2417479",
+        "2417480",
+        "2417481",
+        "2417483",
+        "2417484",
+        "2417486",
+        "2417487",
+        "2417488",
+        "2417489",
+        "2417490",
+        "2417491",
+        "2417492",
+        "2417493",
+        "2417494",
+        "2417495",
+        "2417496",
+        "2417497",
+        "2417498",
+        "2417499",
+        "2417500",
+        "2417501",
+        "2417502",
+        "2417503",
+        "2417505",
+        "2417506",
+        "2417507",
+        "2417508",
+        "2417509",
+        "2417510",
+        "2417512",
+        "2417513",
+        "2417514",
+        "2417515",
+        "2417516",
+        "2417517",
+        "2417518",
+        "2417519"
       ],
       "Patents & Inventions": [
         "5814",
@@ -155525,7 +155604,48 @@
         "2417472",
         "2417473",
         "2417474",
-        "2417475"
+        "2417475",
+        "2417476",
+        "2417477",
+        "2417478",
+        "2417479",
+        "2417480",
+        "2417481",
+        "2417482",
+        "2417483",
+        "2417484",
+        "2417485",
+        "2417486",
+        "2417487",
+        "2417488",
+        "2417489",
+        "2417490",
+        "2417491",
+        "2417492",
+        "2417495",
+        "2417496",
+        "2417497",
+        "2417499",
+        "2417500",
+        "2417501",
+        "2417502",
+        "2417503",
+        "2417504",
+        "2417505",
+        "2417506",
+        "2417507",
+        "2417508",
+        "2417509",
+        "2417510",
+        "2417511",
+        "2417512",
+        "2417513",
+        "2417514",
+        "2417515",
+        "2417516",
+        "2417517",
+        "2417518",
+        "2417519"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -181914,7 +182034,48 @@
         "2417468",
         "2417469",
         "2417473",
-        "2417474"
+        "2417474",
+        "2417476",
+        "2417477",
+        "2417478",
+        "2417479",
+        "2417480",
+        "2417481",
+        "2417482",
+        "2417483",
+        "2417484",
+        "2417485",
+        "2417486",
+        "2417487",
+        "2417488",
+        "2417489",
+        "2417490",
+        "2417491",
+        "2417492",
+        "2417493",
+        "2417494",
+        "2417496",
+        "2417497",
+        "2417498",
+        "2417499",
+        "2417500",
+        "2417501",
+        "2417502",
+        "2417503",
+        "2417504",
+        "2417506",
+        "2417507",
+        "2417508",
+        "2417509",
+        "2417510",
+        "2417511",
+        "2417513",
+        "2417514",
+        "2417515",
+        "2417516",
+        "2417517",
+        "2417518",
+        "2417519"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -194280,7 +194441,21 @@
         "2417471",
         "2417472",
         "2417473",
-        "2417474"
+        "2417474",
+        "2417483",
+        "2417490",
+        "2417491",
+        "2417493",
+        "2417497",
+        "2417499",
+        "2417500",
+        "2417502",
+        "2417505",
+        "2417507",
+        "2417511",
+        "2417513",
+        "2417514",
+        "2417519"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -200312,7 +200487,21 @@
         "2417310",
         "2417313",
         "2417457",
-        "2417466"
+        "2417466",
+        "2417477",
+        "2417481",
+        "2417484",
+        "2417485",
+        "2417486",
+        "2417487",
+        "2417495",
+        "2417498",
+        "2417499",
+        "2417502",
+        "2417510",
+        "2417512",
+        "2417515",
+        "2417518"
       ],
       "Environment & Climate": [
         "62830",
@@ -211088,7 +211277,29 @@
         "2417305",
         "2417310",
         "2417312",
-        "2417459"
+        "2417459",
+        "2417476",
+        "2417478",
+        "2417479",
+        "2417482",
+        "2417483",
+        "2417486",
+        "2417487",
+        "2417488",
+        "2417492",
+        "2417493",
+        "2417494",
+        "2417495",
+        "2417497",
+        "2417498",
+        "2417500",
+        "2417505",
+        "2417507",
+        "2417509",
+        "2417510",
+        "2417516",
+        "2417517",
+        "2417519"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -219971,7 +220182,34 @@
         "2417317",
         "2417327",
         "2417457",
-        "2417459"
+        "2417459",
+        "2417477",
+        "2417478",
+        "2417482",
+        "2417483",
+        "2417484",
+        "2417485",
+        "2417486",
+        "2417488",
+        "2417490",
+        "2417491",
+        "2417492",
+        "2417493",
+        "2417495",
+        "2417497",
+        "2417498",
+        "2417499",
+        "2417500",
+        "2417501",
+        "2417502",
+        "2417503",
+        "2417504",
+        "2417505",
+        "2417506",
+        "2417515",
+        "2417516",
+        "2417518",
+        "2417519"
       ],
       "Frontier Science": [
         "239312",
@@ -220501,7 +220739,8 @@
         "2417328",
         "2417329",
         "2417330",
-        "2417469"
+        "2417469",
+        "2417504"
       ],
       "Rudolf Steiner & Anthroposophy": [
         "1554247",
@@ -297210,7 +297449,51 @@
       "2417472": "Tuks Unsorted KieknWatTWordt Stuff - The Variationof Inductance And Capacitance With Respect To Time",
       "2417473": "Tuks Unsorted KieknWatTWordt Stuff - Theory Of Wireless Power",
       "2417474": "Tuks Unsorted KieknWatTWordt Stuff - Transmission Of Electricity",
-      "2417475": "Tuks Unsorted KieknWatTWordt Stuff - Wheatstone Experiments To Measure The Velocity Of Electricity"
+      "2417475": "Tuks Unsorted KieknWatTWordt Stuff - Wheatstone Experiments To Measure The Velocity Of Electricity",
+      "2417476": "1995 F",
+      "2417477": "1995 S",
+      "2417478": "1995 Sp",
+      "2417479": "1995 W",
+      "2417480": "1996 F",
+      "2417481": "1996 S",
+      "2417482": "1996 Sp",
+      "2417483": "1996 W",
+      "2417484": "1997 F",
+      "2417485": "1997 S",
+      "2417486": "1997 Sp",
+      "2417487": "1997 W",
+      "2417488": "1998 F",
+      "2417489": "1998 S",
+      "2417490": "1998 Sp",
+      "2417491": "1998 W",
+      "2417492": "1999 F",
+      "2417493": "1999 S",
+      "2417494": "1999 Sp",
+      "2417495": "1999 W",
+      "2417496": "2000 F",
+      "2417497": "2000 S",
+      "2417498": "2000 Sp",
+      "2417499": "2000 W",
+      "2417500": "2001 F",
+      "2417501": "2001 S",
+      "2417502": "2001 Sp",
+      "2417503": "2001 W",
+      "2417504": "2002 F",
+      "2417505": "2002 S",
+      "2417506": "2002 Sp",
+      "2417507": "2002 W",
+      "2417508": "2003 F",
+      "2417509": "2003 S",
+      "2417510": "2003 Sp",
+      "2417511": "2003 W",
+      "2417512": "2004 F",
+      "2417513": "2004 S",
+      "2417514": "2004 Sp",
+      "2417515": "2004 W",
+      "2417516": "2005 F",
+      "2417517": "2005 S",
+      "2417518": "2005 Sp",
+      "2417519": "2005 W"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -695931,6 +696214,391 @@
         "Energy",
         "Patents",
         "Alternative Physics"
+      ],
+      "2417476": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2417477": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2417478": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2417479": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2417480": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2417481": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Music / Audio"
+      ],
+      "2417482": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2417483": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2417484": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2417485": [
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2417486": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2417487": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2417488": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2417489": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2417490": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2417491": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2417492": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2417493": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2417494": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Environment / Climate"
+      ],
+      "2417495": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Environment / Climate",
+        "Music / Audio"
+      ],
+      "2417496": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "2417497": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2417498": [
+        "Energy",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate",
+        "Music / Audio"
+      ],
+      "2417499": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2417500": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2417501": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2417502": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2417503": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2417504": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2417505": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2417506": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "LENR / Cold Fusion"
+      ],
+      "2417507": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2417508": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics"
+      ],
+      "2417509": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2417510": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Environment / Climate",
+        "Music / Audio"
+      ],
+      "2417511": [
+        "Patents",
+        "Electromagnetism",
+        "Finance / Economics"
+      ],
+      "2417512": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2417513": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Finance / Economics"
+      ],
+      "2417514": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Water / Hydrogen"
+      ],
+      "2417515": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2417516": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2417517": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Environment / Climate"
+      ],
+      "2417518": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2417519": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Environment / Climate",
+        "Steinmetz",
+        "LENR / Cold Fusion"
       ]
     },
     "meta_concepts": {
@@ -764648,9 +765316,7 @@
       ],
       "1506496": [],
       "1506497": [],
-      "1506498": [
-        "p_formative"
-      ],
+      "1506498": [],
       "1506499": [],
       "1506500": [],
       "1506501": [],
@@ -764671,7 +765337,8 @@
       "1506516": [],
       "1506517": [],
       "1506518": [
-        "p_fieldphys"
+        "p_fieldphys",
+        "p_bridge"
       ],
       "1506519": [],
       "1506520": [],
@@ -764698,9 +765365,7 @@
       "1506541": [
         "p_formative"
       ],
-      "1506542": [
-        "p_wrongturn"
-      ],
+      "1506542": [],
       "1506543": [],
       "1506544": [],
       "1506545": [],
@@ -764731,7 +765396,10 @@
       "1506568": [],
       "1506569": [],
       "1506570": [],
-      "1506571": [],
+      "1506571": [
+        "consciousness",
+        "p_consciousness"
+      ],
       "1506572": [],
       "1506573": [],
       "1506574": [],
@@ -764759,11 +765427,18 @@
         "p_fieldphys"
       ],
       "1506594": [],
-      "1506595": [],
+      "1506595": [
+        "scalar"
+      ],
       "1506596": [],
       "1506597": [],
       "1506598": [],
-      "1506599": [],
+      "1506599": [
+        "suppression",
+        "consciousness",
+        "p_consciousness",
+        "p_wrongturn"
+      ],
       "1506600": [],
       "1506601": [],
       "1506602": [],
@@ -764847,10 +765522,7 @@
       ],
       "1506674": [],
       "1506675": [],
-      "1506676": [
-        "consciousness",
-        "p_consciousness"
-      ],
+      "1506676": [],
       "1506677": [],
       "1506678": [],
       "1506679": [],
@@ -784775,90 +785447,68 @@
       "1518982": [],
       "1518983": [],
       "1518984": [],
-      "1518985": [
-        "geometry_sacred"
-      ],
+      "1518985": [],
       "1518986": [
-        "geometry_sacred"
+        "p_fieldphys"
       ],
       "1518987": [
         "aether",
         "tesla",
-        "geometry_sacred",
-        "suppression",
-        "p_wrongturn"
+        "geometry_sacred"
       ],
       "1518988": [
         "aether",
         "geometry_sacred"
       ],
       "1518989": [
-        "geometry_sacred"
+        "aether",
+        "p_bridge"
       ],
       "1518990": [
         "geometry_sacred"
       ],
       "1518991": [
-        "electrogravitics",
-        "geometry_sacred"
+        "electrogravitics"
       ],
       "1518992": [
-        "aether",
-        "geometry_sacred"
+        "p_wrongturn"
       ],
-      "1518993": [
-        "geometry_sacred"
-      ],
+      "1518993": [],
       "1518994": [
-        "geometry_sacred"
+        "cold_fusion"
       ],
-      "1518995": [
-        "geometry_sacred"
-      ],
-      "1518996": [
-        "geometry_sacred"
-      ],
-      "1518997": [
-        "geometry_sacred"
-      ],
-      "1518998": [
-        "geometry_sacred"
-      ],
-      "1518999": [
-        "geometry_sacred"
-      ],
+      "1518995": [],
+      "1518996": [],
+      "1518997": [],
+      "1518998": [],
+      "1518999": [],
       "1519000": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519001": [
         "torsion",
-        "geometry_sacred",
         "p_fieldphys"
       ],
-      "1519002": [
-        "geometry_sacred"
-      ],
+      "1519002": [],
       "1519003": [
         "aether",
         "geometry_sacred",
-        "p_bridge"
+        "borderland"
       ],
       "1519004": [
-        "tesla",
-        "geometry_sacred"
+        "tesla"
       ],
       "1519005": [
-        "tesla",
-        "geometry_sacred"
+        "tesla"
       ],
       "1519006": [
+        "scalar",
         "tesla",
-        "geometry_sacred"
+        "p_wrongturn"
       ],
       "1519007": [
         "tesla",
-        "geometry_sacred"
+        "p_wrongturn"
       ],
       "1519008": [
         "torsion",
@@ -784867,122 +785517,105 @@
         "p_fieldphys"
       ],
       "1519009": [
-        "geometry_sacred"
+        "scalar",
+        "torsion",
+        "p_fieldphys"
       ],
       "1519010": [
-        "geometry_sacred"
+        "cold_fusion"
       ],
-      "1519011": [
-        "geometry_sacred"
-      ],
+      "1519011": [],
       "1519012": [
-        "geometry_sacred"
+        "vortex"
       ],
       "1519013": [
-        "geometry_sacred"
+        "schauberger",
+        "vortex"
       ],
       "1519014": [
-        "geometry_sacred"
+        "p_visualray"
       ],
       "1519015": [
         "schauberger",
-        "geometry_sacred"
+        "crystal"
       ],
       "1519016": [
+        "aether",
         "geometry_sacred"
       ],
       "1519017": [
         "geometry_sacred"
       ],
       "1519018": [
-        "geometry_sacred"
+        "cold_fusion"
       ],
       "1519019": [
-        "geometry_sacred"
+        "scalar",
+        "tesla"
       ],
-      "1519020": [
-        "geometry_sacred"
-      ],
-      "1519021": [
-        "geometry_sacred"
-      ],
+      "1519020": [],
+      "1519021": [],
       "1519022": [
-        "cold_fusion",
-        "geometry_sacred"
+        "cold_fusion"
       ],
       "1519023": [
-        "geometry_sacred"
+        "cold_fusion"
       ],
-      "1519024": [
-        "geometry_sacred"
-      ],
+      "1519024": [],
       "1519025": [
-        "geometry_sacred"
+        "zero_point"
       ],
       "1519026": [
-        "geometry_sacred"
+        "overunity"
       ],
       "1519027": [
+        "schauberger",
         "geometry_sacred"
       ],
-      "1519028": [
-        "geometry_sacred"
-      ],
-      "1519029": [
-        "geometry_sacred"
-      ],
+      "1519028": [],
+      "1519029": [],
       "1519030": [
         "geometry_sacred"
       ],
-      "1519031": [
-        "geometry_sacred"
-      ],
+      "1519031": [],
       "1519032": [
-        "geometry_sacred"
+        "keely",
+        "p_wrongturn"
       ],
-      "1519033": [
-        "geometry_sacred"
-      ],
+      "1519033": [],
       "1519034": [
-        "geometry_sacred"
+        "aether",
+        "scalar",
+        "overunity",
+        "vortex",
+        "p_fieldphys",
+        "p_wrongturn"
       ],
       "1519035": [
         "geometry_sacred"
       ],
-      "1519036": [
-        "geometry_sacred"
-      ],
-      "1519037": [
-        "geometry_sacred"
-      ],
-      "1519038": [
-        "geometry_sacred"
-      ],
-      "1519039": [
-        "geometry_sacred"
-      ],
-      "1519040": [
-        "geometry_sacred"
-      ],
+      "1519036": [],
+      "1519037": [],
+      "1519038": [],
+      "1519039": [],
+      "1519040": [],
       "1519041": [
-        "geometry_sacred"
+        "cold_fusion"
       ],
-      "1519042": [
-        "geometry_sacred"
-      ],
+      "1519042": [],
       "1519043": [
-        "geometry_sacred"
+        "aether",
+        "p_bridge"
       ],
       "1519044": [
         "geometry_sacred"
       ],
       "1519045": [
         "aether",
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_bridge"
       ],
-      "1519046": [
-        "geometry_sacred"
-      ],
+      "1519046": [],
       "1519047": [
         "geometry_sacred"
       ],
@@ -784991,51 +785624,36 @@
         "geometry_sacred"
       ],
       "1519049": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519050": [
-        "geometry_sacred"
-      ],
+      "1519050": [],
       "1519051": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519052": [
-        "geometry_sacred"
-      ],
-      "1519053": [
-        "geometry_sacred"
-      ],
+      "1519052": [],
+      "1519053": [],
       "1519054": [
         "aether",
         "geometry_sacred"
       ],
       "1519055": [
+        "aether",
         "geometry_sacred"
       ],
       "1519056": [
         "geometry_sacred"
       ],
-      "1519057": [
-        "geometry_sacred"
-      ],
-      "1519058": [
-        "geometry_sacred"
-      ],
-      "1519059": [
-        "geometry_sacred"
-      ],
+      "1519057": [],
+      "1519058": [],
+      "1519059": [],
       "1519060": [
         "geometry_sacred"
       ],
-      "1519061": [
-        "geometry_sacred"
-      ],
-      "1519062": [
-        "geometry_sacred"
-      ],
-      "1519063": [
-        "geometry_sacred"
-      ],
+      "1519061": [],
+      "1519062": [],
+      "1519063": [],
       "1519064": [
         "geometry_sacred"
       ],
@@ -785046,82 +785664,76 @@
         "geometry_sacred"
       ],
       "1519067": [
+        "aether",
         "geometry_sacred"
       ],
       "1519068": [
-        "geometry_sacred"
+        "scalar"
       ],
-      "1519069": [
-        "geometry_sacred"
-      ],
+      "1519069": [],
       "1519070": [
         "geometry_sacred"
       ],
-      "1519071": [
-        "geometry_sacred"
-      ],
-      "1519072": [
-        "geometry_sacred"
-      ],
-      "1519073": [
-        "geometry_sacred"
-      ],
+      "1519071": [],
+      "1519072": [],
+      "1519073": [],
       "1519074": [
         "tesla",
-        "geometry_sacred",
         "p_fieldphys"
       ],
       "1519075": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_bridge"
       ],
       "1519076": [
-        "geometry_sacred"
+        "p_visualray"
       ],
       "1519077": [
+        "aether",
         "geometry_sacred"
       ],
       "1519078": [
         "geometry_sacred"
       ],
       "1519079": [
+        "aether",
         "geometry_sacred"
       ],
       "1519080": [
         "electrogravitics",
-        "geometry_sacred"
+        "p_consciousness"
       ],
       "1519081": [
         "geometry_sacred"
       ],
       "1519082": [
+        "aether",
         "geometry_sacred"
       ],
       "1519083": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519084": [
         "torsion",
         "geometry_sacred",
         "p_fieldphys"
       ],
-      "1519085": [
-        "geometry_sacred"
-      ],
+      "1519085": [],
       "1519086": [
         "aether",
         "geometry_sacred"
       ],
       "1519087": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519088": [
-        "geometry_sacred"
-      ],
+      "1519088": [],
       "1519089": [
+        "aether",
         "geometry_sacred"
       ],
       "1519090": [
+        "aether",
         "geometry_sacred"
       ],
       "1519091": [
@@ -785129,57 +785741,44 @@
         "geometry_sacred"
       ],
       "1519092": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_bridge"
       ],
-      "1519093": [
-        "geometry_sacred"
-      ],
-      "1519094": [
-        "geometry_sacred"
-      ],
-      "1519095": [
-        "geometry_sacred"
-      ],
+      "1519093": [],
+      "1519094": [],
+      "1519095": [],
       "1519096": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
-      "1519097": [
-        "geometry_sacred"
-      ],
+      "1519097": [],
       "1519098": [
         "aether",
         "geometry_sacred"
       ],
-      "1519099": [
-        "geometry_sacred"
-      ],
+      "1519099": [],
       "1519100": [
         "electrogravitics",
-        "geometry_sacred"
+        "vortex",
+        "p_consciousness",
+        "p_bridge"
       ],
-      "1519101": [
-        "geometry_sacred"
-      ],
-      "1519102": [
-        "geometry_sacred"
-      ],
-      "1519103": [
-        "geometry_sacred"
-      ],
+      "1519101": [],
+      "1519102": [],
+      "1519103": [],
       "1519104": [
+        "aether",
         "geometry_sacred"
       ],
       "1519105": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519106": [
-        "geometry_sacred"
-      ],
+      "1519106": [],
       "1519107": [
         "geometry_sacred"
       ],
       "1519108": [
+        "aether",
         "geometry_sacred"
       ],
       "1519109": [
@@ -785187,148 +785786,128 @@
         "borderland"
       ],
       "1519110": [
-        "electrogravitics",
-        "geometry_sacred"
+        "electrogravitics"
       ],
       "1519111": [
+        "aether",
         "geometry_sacred"
       ],
       "1519112": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519113": [
+        "aether",
         "geometry_sacred"
       ],
       "1519114": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_wrongturn"
       ],
       "1519115": [
         "aether",
-        "geometry_sacred"
+        "p_bridge"
       ],
       "1519116": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519117": [
         "aether",
         "geometry_sacred"
       ],
-      "1519118": [
-        "geometry_sacred"
-      ],
+      "1519118": [],
       "1519119": [
-        "vortex",
-        "geometry_sacred"
+        "vortex"
       ],
       "1519120": [
         "geometry_sacred"
       ],
       "1519121": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519122": [
-        "geometry_sacred"
-      ],
+      "1519122": [],
       "1519123": [
         "geometry_sacred"
       ],
       "1519124": [
-        "geometry_sacred"
+        "tesla",
+        "geometry_sacred",
+        "p_bridge"
       ],
       "1519125": [
         "geometry_sacred"
       ],
       "1519126": [
         "aether",
-        "geometry_sacred"
+        "p_wrongturn"
       ],
       "1519127": [
         "aether",
         "geometry_sacred"
       ],
-      "1519128": [
-        "geometry_sacred"
-      ],
+      "1519128": [],
       "1519129": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
-      "1519130": [
-        "geometry_sacred"
-      ],
+      "1519130": [],
       "1519131": [
-        "geometry_sacred"
+        "cold_fusion"
       ],
       "1519132": [
+        "aether",
         "geometry_sacred"
       ],
       "1519133": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
-      "1519134": [
-        "geometry_sacred"
-      ],
+      "1519134": [],
       "1519135": [
         "aether",
-        "cold_fusion",
-        "geometry_sacred"
+        "cold_fusion"
       ],
       "1519136": [
         "aether",
-        "cold_fusion",
-        "geometry_sacred"
+        "cold_fusion"
       ],
-      "1519137": [
-        "geometry_sacred"
-      ],
-      "1519138": [
-        "geometry_sacred"
-      ],
-      "1519139": [
-        "geometry_sacred"
-      ],
-      "1519140": [
-        "geometry_sacred"
-      ],
-      "1519141": [
-        "geometry_sacred"
-      ],
+      "1519137": [],
+      "1519138": [],
+      "1519139": [],
+      "1519140": [],
+      "1519141": [],
       "1519142": [
+        "aether",
         "geometry_sacred"
       ],
       "1519143": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
-      "1519144": [
-        "geometry_sacred"
-      ],
+      "1519144": [],
       "1519145": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
-      "1519146": [
-        "geometry_sacred"
-      ],
+      "1519146": [],
       "1519147": [
-        "geometry_sacred"
+        "aether",
+        "geometry_sacred",
+        "p_bridge"
       ],
       "1519148": [
+        "aether",
         "geometry_sacred"
       ],
       "1519149": [
+        "aether",
         "geometry_sacred"
       ],
       "1519150": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_bridge"
       ],
       "1519151": [
         "geometry_sacred"
       ],
       "1519152": [
+        "aether",
         "tesla",
         "geometry_sacred"
       ],
@@ -785336,28 +785915,23 @@
         "geometry_sacred"
       ],
       "1519154": [
-        "geometry_sacred"
+        "p_consciousness"
       ],
-      "1519155": [
-        "geometry_sacred"
-      ],
-      "1519156": [
-        "geometry_sacred"
-      ],
-      "1519157": [
-        "geometry_sacred"
-      ],
+      "1519155": [],
+      "1519156": [],
+      "1519157": [],
       "1519158": [
-        "geometry_sacred"
+        "scalar",
+        "geometry_sacred",
+        "borderland"
       ],
       "1519159": [
-        "geometry_sacred",
+        "aether",
         "p_wrongturn"
       ],
-      "1519160": [
-        "geometry_sacred"
-      ],
+      "1519160": [],
       "1519161": [
+        "aether",
         "geometry_sacred"
       ],
       "1519162": [
@@ -785365,43 +785939,39 @@
         "geometry_sacred"
       ],
       "1519163": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519164": [
+        "aether",
         "geometry_sacred"
       ],
       "1519165": [
         "geometry_sacred"
       ],
-      "1519166": [
-        "geometry_sacred"
-      ],
+      "1519166": [],
       "1519167": [
         "geometry_sacred"
       ],
       "1519168": [
         "geometry_sacred"
       ],
-      "1519169": [
-        "geometry_sacred"
-      ],
+      "1519169": [],
       "1519170": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519171": [
-        "zero_point",
-        "geometry_sacred"
+        "zero_point"
       ],
       "1519172": [
         "aether",
         "geometry_sacred"
       ],
       "1519173": [
+        "aether",
         "geometry_sacred"
       ],
       "1519174": [
+        "aether",
         "geometry_sacred"
       ],
       "1519175": [
@@ -785410,37 +785980,30 @@
       "1519176": [
         "geometry_sacred"
       ],
-      "1519177": [
-        "geometry_sacred"
-      ],
-      "1519178": [
-        "geometry_sacred"
-      ],
+      "1519177": [],
+      "1519178": [],
       "1519179": [
-        "geometry_sacred"
+        "aether",
+        "crystal"
       ],
       "1519180": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "crystal"
       ],
-      "1519181": [
-        "geometry_sacred"
-      ],
-      "1519182": [
-        "geometry_sacred"
-      ],
-      "1519183": [
-        "geometry_sacred"
-      ],
+      "1519181": [],
+      "1519182": [],
+      "1519183": [],
       "1519184": [
+        "aether",
         "geometry_sacred"
       ],
       "1519185": [
+        "scalar",
         "geometry_sacred"
       ],
-      "1519186": [
-        "geometry_sacred"
-      ],
+      "1519186": [],
       "1519187": [
+        "aether",
         "geometry_sacred"
       ],
       "1519188": [
@@ -785452,51 +786015,50 @@
         "geometry_sacred"
       ],
       "1519190": [
-        "geometry_sacred"
+        "aether",
+        "cold_fusion"
       ],
       "1519191": [
         "geometry_sacred",
         "p_consciousness"
       ],
-      "1519192": [
-        "geometry_sacred"
-      ],
+      "1519192": [],
       "1519193": [
-        "geometry_sacred"
+        "p_visualray"
       ],
       "1519194": [
+        "aether",
         "geometry_sacred"
       ],
       "1519195": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519196": [
-        "geometry_sacred"
-      ],
+      "1519196": [],
       "1519197": [
-        "geometry_sacred"
+        "p_fieldphys"
       ],
       "1519198": [
-        "geometry_sacred"
-      ],
-      "1519199": [
-        "geometry_sacred"
-      ],
-      "1519200": [
-        "tesla",
         "geometry_sacred",
-        "p_wrongturn"
+        "p_fieldphys"
+      ],
+      "1519199": [],
+      "1519200": [
+        "aether",
+        "tesla",
+        "geometry_sacred"
       ],
       "1519201": [
         "geometry_sacred"
       ],
       "1519202": [
-        "geometry_sacred"
+        "p_bridge"
       ],
       "1519203": [
-        "geometry_sacred"
+        "p_bridge"
       ],
       "1519204": [
+        "aether",
         "geometry_sacred"
       ],
       "1519205": [
@@ -785504,107 +786066,81 @@
         "geometry_sacred"
       ],
       "1519206": [
-        "geometry_sacred",
         "consciousness",
         "p_consciousness"
       ],
       "1519207": [
+        "aether",
         "geometry_sacred"
       ],
       "1519208": [
-        "scalar",
-        "geometry_sacred"
+        "scalar"
       ],
-      "1519209": [
-        "geometry_sacred"
-      ],
-      "1519210": [
-        "geometry_sacred"
-      ],
-      "1519211": [
-        "geometry_sacred"
-      ],
-      "1519212": [
-        "geometry_sacred"
-      ],
-      "1519213": [
-        "geometry_sacred"
-      ],
+      "1519209": [],
+      "1519210": [],
+      "1519211": [],
+      "1519212": [],
+      "1519213": [],
       "1519214": [
-        "geometry_sacred"
+        "p_consciousness",
+        "p_bridge"
       ],
       "1519215": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519216": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
-      "1519217": [
-        "geometry_sacred"
-      ],
+      "1519217": [],
       "1519218": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_bridge"
       ],
       "1519219": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_bridge"
       ],
       "1519220": [
-        "tesla",
-        "geometry_sacred"
+        "tesla"
       ],
       "1519221": [
+        "aether",
         "tesla",
         "geometry_sacred"
       ],
-      "1519222": [
-        "geometry_sacred"
-      ],
-      "1519223": [
-        "geometry_sacred"
-      ],
-      "1519224": [
-        "geometry_sacred"
-      ],
-      "1519225": [
-        "geometry_sacred"
-      ],
+      "1519222": [],
+      "1519223": [],
+      "1519224": [],
+      "1519225": [],
       "1519226": [
+        "aether",
         "geometry_sacred"
       ],
       "1519227": [
-        "electrogravitics",
-        "geometry_sacred"
+        "electrogravitics"
       ],
-      "1519228": [
-        "geometry_sacred"
-      ],
+      "1519228": [],
       "1519229": [
         "torsion",
-        "geometry_sacred",
         "p_fieldphys",
         "p_wrongturn"
       ],
-      "1519230": [
-        "geometry_sacred"
-      ],
-      "1519231": [
-        "geometry_sacred"
-      ],
+      "1519230": [],
+      "1519231": [],
       "1519232": [
-        "geometry_sacred"
+        "p_fieldphys"
       ],
       "1519233": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_wrongturn",
+        "p_bridge"
       ],
       "1519234": [
         "aether",
         "geometry_sacred"
       ],
       "1519235": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519236": [
         "geometry_sacred"
@@ -785615,47 +786151,30 @@
       "1519238": [
         "geometry_sacred"
       ],
-      "1519239": [
-        "geometry_sacred"
-      ],
+      "1519239": [],
       "1519240": [
         "geometry_sacred"
       ],
-      "1519241": [
-        "geometry_sacred",
-        "p_bridge"
-      ],
-      "1519242": [
-        "geometry_sacred"
-      ],
+      "1519241": [],
+      "1519242": [],
       "1519243": [
-        "geometry_sacred",
-        "p_wrongturn"
-      ],
-      "1519244": [
+        "aether",
         "geometry_sacred"
       ],
+      "1519244": [],
       "1519245": [
         "aether",
         "vortex",
-        "geometry_sacred",
         "borderland"
       ],
       "1519246": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519247": [
-        "geometry_sacred"
-      ],
-      "1519248": [
-        "geometry_sacred"
-      ],
-      "1519249": [
-        "geometry_sacred"
-      ],
-      "1519250": [
-        "geometry_sacred"
-      ],
+      "1519247": [],
+      "1519248": [],
+      "1519249": [],
+      "1519250": [],
       "1519251": [
         "aether",
         "geometry_sacred"
@@ -785664,15 +786183,16 @@
         "geometry_sacred"
       ],
       "1519253": [
-        "geometry_sacred"
+        "torsion",
+        "p_fieldphys"
       ],
-      "1519254": [
-        "geometry_sacred"
-      ],
+      "1519254": [],
       "1519255": [
+        "aether",
         "geometry_sacred"
       ],
       "1519256": [
+        "aether",
         "overunity",
         "geometry_sacred"
       ],
@@ -785683,75 +786203,68 @@
         "geometry_sacred"
       ],
       "1519259": [
-        "geometry_sacred"
+        "p_consciousness"
       ],
-      "1519260": [
-        "geometry_sacred"
-      ],
-      "1519261": [
-        "geometry_sacred"
-      ],
+      "1519260": [],
+      "1519261": [],
       "1519262": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519263": [
-        "geometry_sacred"
-      ],
-      "1519264": [
-        "geometry_sacred"
-      ],
+      "1519263": [],
+      "1519264": [],
       "1519265": [
-        "geometry_sacred"
+        "p_wrongturn"
       ],
       "1519266": [
-        "geometry_sacred"
+        "p_wrongturn"
       ],
       "1519267": [
+        "aether",
         "geometry_sacred"
       ],
       "1519268": [
-        "geometry_sacred"
+        "p_fieldphys"
       ],
       "1519269": [
         "geometry_sacred"
       ],
       "1519270": [
         "aether",
-        "cold_fusion",
-        "vortex",
-        "geometry_sacred"
+        "geometry_sacred",
+        "borderland"
       ],
       "1519271": [
         "aether",
-        "geometry_sacred"
+        "p_fieldphys"
       ],
       "1519272": [
         "aether",
         "geometry_sacred"
       ],
       "1519273": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519274": [
         "aether",
+        "overunity",
         "geometry_sacred"
       ],
       "1519275": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519276": [
         "aether",
         "geometry_sacred"
       ],
       "1519277": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519278": [
         "aether",
-        "geometry_sacred"
+        "geometry_sacred",
+        "crystal",
+        "p_fieldphys"
       ],
       "1519279": [
         "aether",
@@ -785759,11 +786272,11 @@
       ],
       "1519280": [
         "aether",
+        "cold_fusion",
         "geometry_sacred"
       ],
       "1519281": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519282": [
         "aether",
@@ -785776,14 +786289,18 @@
       ],
       "1519284": [
         "aether",
-        "geometry_sacred"
+        "scalar",
+        "geometry_sacred",
+        "p_fieldphys"
       ],
       "1519285": [
         "aether",
+        "scalar",
         "geometry_sacred"
       ],
       "1519286": [
         "aether",
+        "cold_fusion",
         "geometry_sacred"
       ],
       "1519287": [
@@ -785798,74 +786315,61 @@
         "aether",
         "geometry_sacred"
       ],
-      "1519290": [
-        "geometry_sacred"
-      ],
+      "1519290": [],
       "1519291": [
+        "aether",
         "geometry_sacred"
       ],
       "1519292": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519293": [
-        "geometry_sacred"
-      ],
+      "1519293": [],
       "1519294": [
-        "geometry_sacred"
+        "p_consciousness"
       ],
-      "1519295": [
-        "geometry_sacred"
-      ],
-      "1519296": [
-        "geometry_sacred"
-      ],
+      "1519295": [],
+      "1519296": [],
       "1519297": [
         "geometry_sacred"
       ],
-      "1519298": [
-        "geometry_sacred"
-      ],
+      "1519298": [],
       "1519299": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519300": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519301": [
-        "geometry_sacred"
+        "aether"
       ],
       "1519302": [
-        "geometry_sacred"
+        "aether"
       ],
       "1519303": [
+        "aether",
         "geometry_sacred"
       ],
       "1519304": [
+        "aether",
         "geometry_sacred"
       ],
       "1519305": [
         "aether",
-        "vortex",
-        "geometry_sacred"
+        "p_fieldphys",
+        "p_bridge"
       ],
       "1519306": [
-        "aether",
-        "geometry_sacred"
+        "aether"
       ],
       "1519307": [
         "geometry_sacred"
       ],
-      "1519308": [
-        "geometry_sacred"
-      ],
+      "1519308": [],
       "1519309": [
         "geometry_sacred"
       ],
-      "1519310": [
-        "geometry_sacred"
-      ],
+      "1519310": [],
       "1519311": [
         "geometry_sacred"
       ],
@@ -785873,72 +786377,59 @@
         "geometry_sacred"
       ],
       "1519313": [
-        "geometry_sacred"
+        "scalar"
       ],
       "1519314": [
-        "geometry_sacred"
+        "geometry_sacred",
+        "p_bridge"
       ],
-      "1519315": [
-        "geometry_sacred"
-      ],
+      "1519315": [],
       "1519316": [
         "geometry_sacred"
       ],
       "1519317": [
+        "aether",
         "tesla",
         "geometry_sacred"
       ],
-      "1519318": [
-        "geometry_sacred"
-      ],
+      "1519318": [],
       "1519319": [
         "geometry_sacred"
       ],
       "1519320": [
         "geometry_sacred"
       ],
-      "1519321": [
-        "geometry_sacred"
-      ],
+      "1519321": [],
       "1519322": [
-        "geometry_sacred"
-      ],
-      "1519323": [
         "aether",
         "geometry_sacred"
       ],
+      "1519323": [
+        "aether"
+      ],
       "1519324": [
-        "geometry_sacred",
         "p_fieldphys"
       ],
-      "1519325": [
-        "geometry_sacred"
-      ],
-      "1519326": [
-        "geometry_sacred"
-      ],
+      "1519325": [],
+      "1519326": [],
       "1519327": [
+        "aether",
         "geometry_sacred"
       ],
-      "1519328": [
-        "geometry_sacred"
-      ],
+      "1519328": [],
       "1519329": [
+        "aether",
         "geometry_sacred"
       ],
       "1519330": [
         "geometry_sacred"
       ],
-      "1519331": [
-        "geometry_sacred"
-      ],
+      "1519331": [],
       "1519332": [
         "aether",
         "geometry_sacred"
       ],
-      "1519333": [
-        "geometry_sacred"
-      ],
+      "1519333": [],
       "1519334": [
         "geometry_sacred",
         "p_fieldphys"
@@ -854187,7 +854678,121 @@
       ],
       "2417475": [
         "geometry_sacred"
-      ]
+      ],
+      "2417476": [
+        "p_wrongturn"
+      ],
+      "2417477": [],
+      "2417478": [
+        "geometry_sacred"
+      ],
+      "2417479": [
+        "geometry_sacred"
+      ],
+      "2417480": [
+        "p_bridge"
+      ],
+      "2417481": [],
+      "2417482": [],
+      "2417483": [],
+      "2417484": [
+        "geometry_sacred",
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2417485": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2417486": [],
+      "2417487": [
+        "geometry_sacred"
+      ],
+      "2417488": [
+        "p_fieldphys"
+      ],
+      "2417489": [
+        "geometry_sacred"
+      ],
+      "2417490": [
+        "aether"
+      ],
+      "2417491": [
+        "schauberger",
+        "biophoton",
+        "vortex"
+      ],
+      "2417492": [
+        "geometry_sacred"
+      ],
+      "2417493": [
+        "p_fieldphys",
+        "p_wrongturn"
+      ],
+      "2417494": [
+        "p_formative",
+        "p_wrongturn"
+      ],
+      "2417495": [],
+      "2417496": [],
+      "2417497": [],
+      "2417498": [
+        "p_fieldphys"
+      ],
+      "2417499": [
+        "crystal",
+        "p_formative",
+        "p_nature"
+      ],
+      "2417500": [
+        "geometry_sacred"
+      ],
+      "2417501": [
+        "p_formative",
+        "p_nature"
+      ],
+      "2417502": [
+        "geometry_sacred",
+        "p_goethean",
+        "p_fieldphys"
+      ],
+      "2417503": [],
+      "2417504": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "2417505": [],
+      "2417506": [
+        "geometry_sacred",
+        "regenerative",
+        "p_nature"
+      ],
+      "2417507": [
+        "geometry_sacred"
+      ],
+      "2417508": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2417509": [],
+      "2417510": [],
+      "2417511": [],
+      "2417512": [],
+      "2417513": [],
+      "2417514": [],
+      "2417515": [
+        "geometry_sacred"
+      ],
+      "2417516": [
+        "geometry_sacred",
+        "p_wrongturn"
+      ],
+      "2417517": [],
+      "2417518": [
+        "suppression",
+        "p_wrongturn"
+      ],
+      "2417519": []
     }
   },
   "graph": {
@@ -854623,7 +855228,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-18T17:06:27Z",
+    "as_of": "2026-09-18T18:13:21Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 98,
