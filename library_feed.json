@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:13:21Z",
+  "generated_at": "2026-09-18T18:21:46Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -13,7 +13,7 @@
     "active_agents": 14,
     "translation_files": 195,
     "bridges": 21,
-    "archive_entries": 75217,
+    "archive_entries": 75337,
     "meta_counts": {
       "Challenges to the Standard Model": 56381,
       "Biological & Morphogenetic Science": 1472,
@@ -39,7 +39,7 @@
       "Environment & Climate": 10796,
       "Biology, Health & Medicine": 8908,
       "Frontier Science": 529,
-      "Rudolf Steiner & Anthroposophy": 1525,
+      "Rudolf Steiner & Anthroposophy": 1645,
       "Acoustics": 1,
       "Alt Science": 1
     },
@@ -8670,9 +8670,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-18T17:07:33Z",
+      "last_run": "2026-09-18T18:16:23Z",
       "last_status": "ok",
-      "last_summary": "sync: 75173 docs, feed rebuilt"
+      "last_summary": "sync: 75217 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -8786,6 +8786,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-18",
+      "time": "18:16",
+      "agent": "AFLinks Sync",
+      "summary": "+75217 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-18",
       "time": "17:07",
@@ -9139,12 +9145,6 @@
       "time": "12:00",
       "agent": "The Navigator (Field & Trajectory)",
       "summary": "+1 trajectory note — Trajectory Mapper, run 1 (gear 1, free). — New lane, first note: *Water as Information Medium* (navigator/trajectory/2026-09-16-water-as-information-medium.md, index at navigator/trajectory/index.json). The archive files **868 documents** under \"Water Structure & Memory\" — the life-sciences half of the corpus has a center of gravity, and this note maps its arc."
-    },
-    {
-      "date": "2026-09-16",
-      "time": "08:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "+1 dossier — The AI-Pendulum Gap Breaks on French — (translations/2026-09-16-ai-pendulum-gap-breaks-on-fr-fr-en.md, closes same-session claim from fire 79 / FAL-fr-79-1). The 6x-HOLDS lane breaks: Tarotki's 6-locale platform now reaches FR (5th locale: de 71 / it 72 / es 73 / pt 77 / fr 79), plus two fr-NATIVE AI-interpreted pendulums — Tarotoui (\"la version numérique remplace ce mécanisme par une réponse générée et interprétée\" — the cleanest description of the category anywhere) and Tarotsi, which prints the double-blind null in its own glossary (\"les études en double aveugle de radiesthésie n'ont pas confirmé de capacités supérieures au hasard\"). AETHER holdout re-verified: still no LLM (ANU quantum noise + static prose), and its history section credits \"l'abbé Mermet, 1850\" with the ideomotor discovery while its own reliability section correctly credits Chevreul 1833. Scoreboard: breaks de/it/es/pt/fr; holds ru/uk/ja/zh — and since Tarotki has no ru/uk/ja/zh locale, any further break must be native. Structural read: the divinatory claim has migrated from detection (the pendulum senses) to hermeneutics (the AI reads) — unfalsifiable by design, and the vendors increasingly say so themselves."
     }
   ],
   "declassified": [
@@ -222267,7 +222267,127 @@
         "2417448",
         "2417449",
         "2417450",
-        "2417462"
+        "2417462",
+        "2417520",
+        "2417521",
+        "2417522",
+        "2417523",
+        "2417524",
+        "2417525",
+        "2417526",
+        "2417527",
+        "2417528",
+        "2417529",
+        "2417530",
+        "2417531",
+        "2417532",
+        "2417533",
+        "2417534",
+        "2417535",
+        "2417536",
+        "2417537",
+        "2417538",
+        "2417539",
+        "2417540",
+        "2417541",
+        "2417542",
+        "2417543",
+        "2417544",
+        "2417545",
+        "2417546",
+        "2417547",
+        "2417548",
+        "2417549",
+        "2417550",
+        "2417551",
+        "2417552",
+        "2417553",
+        "2417554",
+        "2417555",
+        "2417556",
+        "2417557",
+        "2417558",
+        "2417559",
+        "2417560",
+        "2417561",
+        "2417562",
+        "2417563",
+        "2417564",
+        "2417565",
+        "2417566",
+        "2417567",
+        "2417568",
+        "2417569",
+        "2417570",
+        "2417571",
+        "2417572",
+        "2417573",
+        "2417574",
+        "2417575",
+        "2417576",
+        "2417577",
+        "2417578",
+        "2417579",
+        "2417580",
+        "2417581",
+        "2417582",
+        "2417583",
+        "2417584",
+        "2417585",
+        "2417586",
+        "2417587",
+        "2417588",
+        "2417589",
+        "2417590",
+        "2417591",
+        "2417592",
+        "2417593",
+        "2417594",
+        "2417595",
+        "2417596",
+        "2417597",
+        "2417598",
+        "2417599",
+        "2417600",
+        "2417601",
+        "2417602",
+        "2417603",
+        "2417604",
+        "2417605",
+        "2417606",
+        "2417607",
+        "2417608",
+        "2417609",
+        "2417610",
+        "2417611",
+        "2417612",
+        "2417613",
+        "2417614",
+        "2417615",
+        "2417616",
+        "2417617",
+        "2417618",
+        "2417619",
+        "2417620",
+        "2417621",
+        "2417622",
+        "2417623",
+        "2417624",
+        "2417625",
+        "2417626",
+        "2417627",
+        "2417628",
+        "2417629",
+        "2417630",
+        "2417631",
+        "2417632",
+        "2417633",
+        "2417634",
+        "2417635",
+        "2417636",
+        "2417637",
+        "2417638",
+        "2417639"
       ],
       "Acoustics": [
         "2397818"
@@ -297493,7 +297613,127 @@
       "2417516": "2005 F",
       "2417517": "2005 S",
       "2417518": "2005 Sp",
-      "2417519": "2005 W"
+      "2417519": "2005 W",
+      "2417520": "Lecture One - GA 74. The Redemption of Thinking",
+      "2417521": "Lecture Two - GA 74. The Redemption of Thinking",
+      "2417522": "Lecture Three - GA 74. The Redemption of Thinking",
+      "2417523": "1. Thomas and Augustine - GA 74. The Philosophy of Thomas Aquinas",
+      "2417524": "2. The Essence of Thomism - GA 74. The Philosophy of Thomas Aquinas",
+      "2417525": "3. Thomism in the Present Day - GA 74. The Philosophy of Thomas Aquinas",
+      "2417526": "Comment I. Thomas and Platonism - GA 74. The Philosophy of Thomas Aquinas",
+      "2417527": "Comment II. Man and the Intelligible World - GA 74. The Philosophy of Thomas Aquinas",
+      "2417528": "Comment III. Man and the Material World - GA 74. The Philosophy of Thomas Aquinas",
+      "2417529": "Comment IV. Man as a Learning Being - GA 74. The Philosophy of Thomas Aquinas",
+      "2417530": "Comment V. The Application of Intelligence to the Human Body - GA 74. The Philosophy of Thomas Aquinas",
+      "2417531": "Preface - GA 74. The Philosophy of Thomas Aquinas",
+      "2417532": "Preface to Part Two - GA 74. The Philosophy of Thomas Aquinas",
+      "2417533": "1. Humanities, Natural Sciences, Technology — GA 75. The Relationship of Anthroposophy to Natural Science",
+      "2417534": "2. Anthroposophy: Its Nature and Philosophical Foundations — GA 75. The Relationship of Anthroposophy to Natural Science",
+      "2417535": "3. Natural Science and Anthroposophy — GA 75. The Relationship of Anthroposophy to Natural Science",
+      "2417536": "4. Debate Evening on Scientific Issues — GA 75. The Relationship of Anthroposophy to Natural Science",
+      "2417537": "5. Anthroposophy and Science — GA 75. The Relationship of Anthroposophy to Natural Science",
+      "2417538": "6. Agnosticism in Science and Anthroposophy — GA 75. The Relationship of Anthroposophy to Natural Science",
+      "2417539": "1. Opening Remarks — GA 76. The Stimulating Effect of Anthroposophy on the Sciences",
+      "2417540": "2. Philosophy — GA 76. The Stimulating Effect of Anthroposophy on the Sciences",
+      "2417541": "3. Mathematics and Inorganic Sciences — GA 76. The Stimulating Effect of Anthroposophy on the Sciences",
+      "2417542": "4. Organic Natural Sciences and Medicine — GA 76. The Stimulating Effect of Anthroposophy on the Sciences",
+      "2417543": "5. Linguistics — GA 76. The Stimulating Effect of Anthroposophy on the Sciences",
+      "2417544": "6. Social Science and Social Practice — GA 76. The Stimulating Effect of Anthroposophy on the Sciences",
+      "2417545": "7. Closing Remarks — GA 76. The Stimulating Effect of Anthroposophy on the Sciences",
+      "2417546": "1. Understanding Nature and Understanding the Mind — GA 77a. The Task of Anthroposophy in the Context of Science and Life",
+      "2417547": "2. Closing Remarks Following Carl Unger’s Lecture on “Technology as a Free Art” — GA 77a. The Task of Anthroposophy in the Context of Science and Life",
+      "2417548": "3. The Spiritual Signature of the Present — GA 77a. The Task of Anthroposophy in the Context of Science and Life",
+      "2417549": "4. Q&A Session at the Parents' Night — GA 77a. The Task of Anthroposophy in the Context of Science and Life",
+      "2417550": "5. Additional Comments and Q&A Following Alexander Strakosch’s Lecture on “History of Architecture and Specific Technical Fields” — GA 77a. The Task of Anthroposophy in the Context of Science and Life",
+      "2417551": "6. The Role of Anthroposophy in Relation to Science and Life — GA 77a. The Task of Anthroposophy in the Context of Science and Life",
+      "2417552": "7. Closing Remarks — GA 77a. The Task of Anthroposophy in the Context of Science and Life",
+      "2417553": "1. Opening Lecture — GA 77b. The Essence of Anthroposophy",
+      "2417554": "7. Eurythmy in Education and Teaching — GA 77b. The Essence of Anthroposophy",
+      "2417555": "2. Anthroposophy and Art — GA 77b. The Essence of Anthroposophy",
+      "2417556": "8. Eurythmy as a Free Art — GA 77b. The Essence of Anthroposophy",
+      "2417557": "3. Anthroposophy as the Science of the Human Being — GA 77b. The Essence of Anthroposophy",
+      "2417558": "5. Guided Tour of the Goetheanum Building — GA 77b. The Essence of Anthroposophy",
+      "2417559": "9. Eurythmy in the Dramatic Performing Arts — GA 77b. The Essence of Anthroposophy",
+      "2417560": "4. Anthroposophy as a Moral Impulse and a Force for Social Transformation — GA 77b. The Essence of Anthroposophy",
+      "2417561": "6. Introductory Remarks to a Slide Presentation on the Construction of the Goetheanum — GA 77b. The Essence of Anthroposophy",
+      "2417562": "10. Concluding Remarks — GA 77b. The Essence of Anthroposophy",
+      "2417563": "First Lecture — GA 78. Anthroposophy: Its Roots of Knowledge and Fruits of Life",
+      "2417564": "Second Lecture — GA 78. Anthroposophy: Its Roots of Knowledge and Fruits of Life",
+      "2417565": "Third Lecture — GA 78. Anthroposophy: Its Roots of Knowledge and Fruits of Life",
+      "2417566": "Fourth Lecture — GA 78. Anthroposophy: Its Roots of Knowledge and Fruits of Life",
+      "2417567": "Fifth Lecture — GA 78. Anthroposophy: Its Roots of Knowledge and Fruits of Life",
+      "2417568": "Sixth Lecture — GA 78. Anthroposophy: Its Roots of Knowledge and Fruits of Life",
+      "2417569": "Seventh Lecture — GA 78. Anthroposophy: Its Roots of Knowledge and Fruits of Life",
+      "2417570": "Eighth Lecture — GA 78. Anthroposophy: Its Roots of Knowledge and Fruits of Life",
+      "2417571": "Foundations of Anthroposophy - GA 79. Foundations of Anthroposophy (1947)",
+      "2417572": "Man in the Light of Anthroposophy - GA 79. Foundations of Anthroposophy (1947)",
+      "2417573": "World-Development in the Light of Anthroposophy - GA 79. Foundations of Anthroposophy (1947)",
+      "2417574": "1. The Free Spiritual Life and the Spiritual State of the Present — GA 79. The Reality of the Higher Worlds",
+      "2417575": "2. Paths to the Knowledge of Higher Worlds — GA 79. The Reality of the Higher Worlds",
+      "2417576": "3. Fundamentals of Anthroposophy — GA 79. The Reality of the Higher Worlds",
+      "2417577": "7. Jesus or Christ — GA 79. The Reality of the Higher Worlds",
+      "2417578": "8. The Fundamental Question of Economic Life — GA 79. The Reality of the Higher Worlds",
+      "2417579": "5. World Development in the Light of Anthroposophy — GA 79. The Reality of the Higher Worlds",
+      "2417580": "6. The Need for Cultural Renewal — GA 79. The Reality of the Higher Worlds",
+      "2417581": "1. Anthroposophy and Spiritual Science — GA 80a. The Essence of Anthroposophy",
+      "2417582": "2. The Essence of Anthroposophy — GA 80a. The Essence of Anthroposophy",
+      "2417583": "3. Anthroposophy and the Mysteries of the Soul — GA 80a. The Essence of Anthroposophy",
+      "2417584": "4. The Essence of Anthroposophy — GA 80a. The Essence of Anthroposophy",
+      "2417585": "5. The Essence of Anthroposophy — GA 80a. The Essence of Anthroposophy",
+      "2417586": "6. The Essence of Anthroposophy — GA 80a. The Essence of Anthroposophy",
+      "2417587": "7. The Essence of Anthroposophy — GA 80a. The Essence of Anthroposophy",
+      "2417588": "8. Anthroposophy and the Mysteries of the Soul — GA 80a. The Essence of Anthroposophy",
+      "2417589": "9. Anthroposophy and Spiritual Knowledge — GA 80a. The Essence of Anthroposophy",
+      "2417590": "10. Anthroposophy and Spiritual Knowledge — GA 80a. The Essence of Anthroposophy",
+      "2417591": "11. Anthroposophy and Spiritual Knowledge — GA 80a. The Essence of Anthroposophy",
+      "2417592": "12. Anthroposophy and Spiritual Knowledge — GA 80a. The Essence of Anthroposophy",
+      "2417593": "13. Anthroposophy and Spiritual Knowledge — GA 80a. The Essence of Anthroposophy",
+      "2417594": "1. The Findings of the Humanities and Their Relationship to Art and Religion — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417595": "2. Anthroposophy as a Source of Knowledge and Life — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417596": "3. The Mission of the Goetheanum in Dornach — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417597": "4. The Inner Life of Nature and the Nature of the Human Soul — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417598": "5. Natural Death and Spiritual Life — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417599": "6. The Harmonization of Art, Science, and Religion Through Anthroposophy — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417600": "7. Anthroposophy as a Science — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417601": "8. Anthroposophy as a Way of Life — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417602": "9. The Demands of the Times and Anthroposophy — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417603": "10. Anthroposophy and the Mysteries of the Soul — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417604": "11. What Was the Purpose of the Goetheanum, and What Is the Purpose of Anthroposophy? — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417605": "12. The Eternity of the Human Soul from the Perspective of Anthroposophy — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417606": "13. Human Development and Education from the Perspective of Anthroposophy — GA 80b. The Inner Nature and Essence of the Human Soul",
+      "2417607": "1. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417608": "2. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417609": "3. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417610": "4. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417611": "5. Economic Life in the Threefold Social Order — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417612": "6. Philosophy and Anthroposophy — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417613": "7. Understanding the Spiritual Nature of Human Beings — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417614": "8. Understanding the Spiritual Nature of the World — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417615": "9. Supernatural Knowledge and Contemporary Science — GA 80c. Anthroposophical Spiritual Science and the Big Questions of Contemporary Civilization",
+      "2417616": "1. Anthroposophy and the Natural Sciences — GA 81. An Impetus for Renewal in Culture and Science",
+      "2417617": "2. Human and Animal Organization — GA 81. An Impetus for Renewal in Culture and Science",
+      "2417618": "3. Anthroposophy and Philosophy — GA 81. An Impetus for Renewal in Culture and Science",
+      "2417619": "4. Anthroposophy and Educational Science — GA 81. An Impetus for Renewal in Culture and Science",
+      "2417620": "5. Anthroposophy and the Social Sciences — GA 81. An Impetus for Renewal in Culture and Science",
+      "2417621": "6. Anthroposophy and Theology — GA 81. An Impetus for Renewal in Culture and Science",
+      "2417622": "7. Anthroposophy and Linguistics — GA 81. An Impetus for Renewal in Culture and Science",
+      "2417623": "1. Anthroposophy and Natural Science - GA 81. The Impulse for Renewal in Culture and Science",
+      "2417624": "2. Human and Animal Organisation — GA 81. The Impulse for Renewal in Culture and Science",
+      "2417625": "3. Anthroposophy and Philosophy — GA 81. The Impulse for Renewal in Culture and Science",
+      "2417626": "4. Anthroposophy and Pedagogy — GA 81. The Impulse for Renewal in Culture and Science",
+      "2417627": "5. Anthroposophy and Social Science — GA 81. The Impulse for Renewal in Culture and Science",
+      "2417628": "6. Anthroposophy and Theology — GA 81. The Impulse for Renewal in Culture and Science",
+      "2417629": "7. Anthroposophy and the Science of Speech — GA 81. The Impulse for Renewal in Culture and Science",
+      "2417630": "1. Anthroposophy and Contemporary Intellectual Life — GA 82. So That Man may Become Fully Human",
+      "2417631": "2. The Position of Anthroposophy among the Sciences — GA 82. So That Man may Become Fully Human",
+      "2417632": "3. The Visual Arts — GA 82. So That Man may Become Fully Human",
+      "2417633": "4. The Anthroposophical Research Method — GA 82. So That Man may Become Fully Human",
+      "2417634": "5. Important Anthroposophical Results — GA 82. So That Man may Become Fully Human",
+      "2417635": "6. Anthroposophy and Agnosticism — GA 82. So That Man may Become Fully Human",
+      "2417636": "1. Natural Science — GA 83. The Tension Between East and West",
+      "2417637": "2. Anthroposophy and Psychology — GA 83. The Tension Between East and West",
+      "2417638": "3. East and West in History — GA 83. The Tension Between East and West",
+      "2417639": "4. Spiritual Geography — GA 83. The Tension Between East and West"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -696599,6 +696839,395 @@
         "Environment / Climate",
         "Steinmetz",
         "LENR / Cold Fusion"
+      ],
+      "2417520": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417521": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417522": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417523": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417524": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2417525": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417526": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417527": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417528": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417529": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417530": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417531": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417532": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417533": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417534": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417535": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417536": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417537": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417538": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417539": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417540": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417541": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417542": [
+        "Anthroposophy / Rudolf Steiner",
+        "Biology / Health"
+      ],
+      "2417543": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417544": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417545": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417546": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417547": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417548": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417549": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2417550": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417551": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417552": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417553": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417554": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "2417555": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417556": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "2417557": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417558": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417559": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "2417560": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417561": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417562": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417563": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417564": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417565": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2417566": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417567": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417568": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417569": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417570": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417571": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417572": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417573": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417574": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417575": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417576": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417577": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417578": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417579": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417580": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417581": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417582": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417583": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417584": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417585": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417586": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417587": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417588": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417589": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417590": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417591": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417592": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417593": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417594": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2417595": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417596": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417597": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417598": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417599": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417600": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417601": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417602": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417603": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417604": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417605": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417606": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2417607": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417608": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417609": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417610": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417611": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417612": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417613": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417614": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417615": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417616": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417617": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417618": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417619": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2417620": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417621": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417622": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417623": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2417624": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417625": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417626": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2417627": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417628": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417629": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417630": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417631": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417632": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417633": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417634": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417635": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417636": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417637": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2417638": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2417639": [
+        "Anthroposophy / Rudolf Steiner"
       ]
     },
     "meta_concepts": {
@@ -854792,7 +855421,127 @@
         "suppression",
         "p_wrongturn"
       ],
-      "2417519": []
+      "2417519": [],
+      "2417520": [],
+      "2417521": [],
+      "2417522": [],
+      "2417523": [],
+      "2417524": [],
+      "2417525": [],
+      "2417526": [],
+      "2417527": [],
+      "2417528": [],
+      "2417529": [],
+      "2417530": [],
+      "2417531": [],
+      "2417532": [],
+      "2417533": [],
+      "2417534": [],
+      "2417535": [],
+      "2417536": [],
+      "2417537": [],
+      "2417538": [],
+      "2417539": [],
+      "2417540": [],
+      "2417541": [],
+      "2417542": [],
+      "2417543": [],
+      "2417544": [],
+      "2417545": [],
+      "2417546": [],
+      "2417547": [],
+      "2417548": [],
+      "2417549": [],
+      "2417550": [],
+      "2417551": [],
+      "2417552": [],
+      "2417553": [],
+      "2417554": [],
+      "2417555": [],
+      "2417556": [],
+      "2417557": [],
+      "2417558": [],
+      "2417559": [],
+      "2417560": [],
+      "2417561": [],
+      "2417562": [],
+      "2417563": [],
+      "2417564": [],
+      "2417565": [],
+      "2417566": [],
+      "2417567": [],
+      "2417568": [],
+      "2417569": [],
+      "2417570": [],
+      "2417571": [],
+      "2417572": [],
+      "2417573": [],
+      "2417574": [],
+      "2417575": [],
+      "2417576": [],
+      "2417577": [],
+      "2417578": [],
+      "2417579": [],
+      "2417580": [],
+      "2417581": [],
+      "2417582": [],
+      "2417583": [],
+      "2417584": [],
+      "2417585": [],
+      "2417586": [],
+      "2417587": [],
+      "2417588": [],
+      "2417589": [],
+      "2417590": [],
+      "2417591": [],
+      "2417592": [],
+      "2417593": [],
+      "2417594": [],
+      "2417595": [],
+      "2417596": [],
+      "2417597": [],
+      "2417598": [],
+      "2417599": [],
+      "2417600": [],
+      "2417601": [],
+      "2417602": [],
+      "2417603": [],
+      "2417604": [],
+      "2417605": [],
+      "2417606": [],
+      "2417607": [],
+      "2417608": [],
+      "2417609": [],
+      "2417610": [],
+      "2417611": [],
+      "2417612": [],
+      "2417613": [],
+      "2417614": [],
+      "2417615": [],
+      "2417616": [],
+      "2417617": [],
+      "2417618": [],
+      "2417619": [],
+      "2417620": [],
+      "2417621": [],
+      "2417622": [],
+      "2417623": [],
+      "2417624": [],
+      "2417625": [],
+      "2417626": [],
+      "2417627": [],
+      "2417628": [],
+      "2417629": [],
+      "2417630": [],
+      "2417631": [],
+      "2417632": [],
+      "2417633": [],
+      "2417634": [],
+      "2417635": [],
+      "2417636": [],
+      "2417637": [],
+      "2417638": [],
+      "2417639": []
     }
   },
   "graph": {
@@ -855228,7 +855977,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-18T18:13:21Z",
+    "as_of": "2026-09-18T18:21:46Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 98,
