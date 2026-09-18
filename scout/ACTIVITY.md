@@ -1,3 +1,6 @@
+## 2026-09-18 04:00Z (scout-round) — scout
+Scout round 82 (clean): 0 new FL LENR; archive 74,446 steady (post 02:15Z +185: viXra 2609.0046-0048 + etkin.iri-as.org +182); lanes dry (lenr-canr /acrobat/ 1,454=1,454 byte-identical, viXra max 2609.0048 archived, etkin lane COMPLETE, tuks 2019 shell); iccf-27 proceedings ~19d post-conf still UNPUBLISHED (old lenr-canr /proceeding/ 404 = WP migration, not publication); GROWTH LEAD: JCMNS Vol 41 = ICCF26 proceedings now on proceedings.com (toc 085589webtoc.pdf, EN) for the growth cron; translator stale ~7d STANDS; claims none >7d; OCR/queue/tag ~1,181 pending FocusOptimized (cloud).
+
 ## 2026-09-18 02:15Z (scout-archive-growth) — scout
 TWO WAVES: (1) +3 viXra live-wrap catch (2609.0046 Time Dilation in Atomic Clocks / 0047 Matrix-Combinatorial Addition Chains / 0048 Bell's Theorem Refuted), archive 74,261 -> 74,264 (e61a710, ids 2416564-66); (2) NEW DISCOVERY + FIRST HARVEST same fire: etkin.iri-as.org (Valera Etkin — RU ether/torsion / non-equilibrium-thermodynamics corpus) — 182/182 processed (168 previews, 14 scanned -> OCR), merged id-safe over mid-fire feed-rebuild (plain merge a160e45, 0 dup, fresh ids 2416567-748). Archive 74,264 -> 74,446. Live lanes dry: lenr-canr /acrobat/ 1,454=1,454; iccf-27 /proceeding/ still JCF24 post, ICCF-27 unpublished ~18d post-conf.
 
