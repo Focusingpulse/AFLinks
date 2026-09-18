@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T06:11:31Z",
+  "generated_at": "2026-09-18T06:15:37Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -13,7 +13,7 @@
     "active_agents": 14,
     "translation_files": 169,
     "bridges": 16,
-    "archive_entries": 74530,
+    "archive_entries": 74650,
     "meta_counts": {
       "Challenges to the Standard Model": 56006,
       "Biological & Morphogenetic Science": 1472,
@@ -39,7 +39,7 @@
       "Environment & Climate": 10755,
       "Biology, Health & Medicine": 8849,
       "Frontier Science": 488,
-      "Rudolf Steiner & Anthroposophy": 1283,
+      "Rudolf Steiner & Anthroposophy": 1403,
       "Acoustics": 1,
       "Alt Science": 1
     },
@@ -8338,9 +8338,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-18T05:16:03Z",
+      "last_run": "2026-09-18T06:13:19Z",
       "last_status": "ok",
-      "last_summary": "sync: 74446 docs, feed rebuilt"
+      "last_summary": "sync: 74530 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -8454,6 +8454,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-18",
+      "time": "06:13",
+      "agent": "AFLinks Sync",
+      "summary": "+74530 docs — +84 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-18",
       "time": "06:00",
@@ -8807,12 +8813,6 @@
       "time": "15:16",
       "agent": "Translation Sweeper",
       "summary": "+0 chunks — No budget in quota window — skipped"
-    },
-    {
-      "date": "2026-09-15",
-      "time": "13:54",
-      "agent": "Translation Curator",
-      "summary": "+4 chunks — Korschelt 1892 (DE) 'Die Nutzbarmachung der lebendigen Kraft des Aethers' chunks 74-77 translated (73->77/131): Reichenbach's od-polarity critique, first practical application in healing, unnamed physicist's 'Od and Electricity' Sphinx 1880 essay begins, aether as wave-bearer. Archive already held (2026-09-11-korschelt-aether-1892.pdf). Gear: quota."
     }
   ],
   "declassified": [
@@ -220452,7 +220452,127 @@
         "2413612",
         "2413613",
         "2413622",
-        "2413667"
+        "2413667",
+        "2416833",
+        "2416834",
+        "2416835",
+        "2416836",
+        "2416837",
+        "2416838",
+        "2416839",
+        "2416840",
+        "2416841",
+        "2416842",
+        "2416843",
+        "2416844",
+        "2416845",
+        "2416846",
+        "2416847",
+        "2416848",
+        "2416849",
+        "2416850",
+        "2416851",
+        "2416852",
+        "2416853",
+        "2416854",
+        "2416855",
+        "2416856",
+        "2416857",
+        "2416858",
+        "2416859",
+        "2416860",
+        "2416861",
+        "2416862",
+        "2416863",
+        "2416864",
+        "2416865",
+        "2416866",
+        "2416867",
+        "2416868",
+        "2416869",
+        "2416870",
+        "2416871",
+        "2416872",
+        "2416873",
+        "2416874",
+        "2416875",
+        "2416876",
+        "2416877",
+        "2416878",
+        "2416879",
+        "2416880",
+        "2416881",
+        "2416882",
+        "2416883",
+        "2416884",
+        "2416885",
+        "2416886",
+        "2416887",
+        "2416888",
+        "2416889",
+        "2416890",
+        "2416891",
+        "2416892",
+        "2416893",
+        "2416894",
+        "2416895",
+        "2416896",
+        "2416897",
+        "2416898",
+        "2416899",
+        "2416900",
+        "2416901",
+        "2416902",
+        "2416903",
+        "2416904",
+        "2416905",
+        "2416906",
+        "2416907",
+        "2416908",
+        "2416909",
+        "2416910",
+        "2416911",
+        "2416912",
+        "2416913",
+        "2416914",
+        "2416915",
+        "2416916",
+        "2416917",
+        "2416918",
+        "2416919",
+        "2416920",
+        "2416921",
+        "2416922",
+        "2416923",
+        "2416924",
+        "2416925",
+        "2416926",
+        "2416927",
+        "2416928",
+        "2416929",
+        "2416930",
+        "2416931",
+        "2416932",
+        "2416933",
+        "2416934",
+        "2416935",
+        "2416936",
+        "2416937",
+        "2416938",
+        "2416939",
+        "2416940",
+        "2416941",
+        "2416942",
+        "2416943",
+        "2416944",
+        "2416945",
+        "2416946",
+        "2416947",
+        "2416948",
+        "2416949",
+        "2416950",
+        "2416951",
+        "2416952"
       ],
       "Acoustics": [
         "2397818"
@@ -294991,7 +295111,127 @@
       "2416829": "Академики-РАН",
       "2416830": "Интеллектуальный-беспредел2",
       "2416831": "Почему-Гинзбург",
-      "2416832": "Председателю-комиссии-РАН"
+      "2416832": "Председателю-комиссии-РАН",
+      "2416833": "1. What Weimar’s Goethe Archive Means to Us, Based on Personal Experience — GA 68c. Goethe and the Present",
+      "2416834": "2. Women in the Light of Goethe’s Worldview: A Contribution to the Women’s Issue — GA 68c. Goethe and the Present",
+      "2416835": "3. On the Mystery in Goethe’s Riddle Fairy Tales in “Conversations of German Emigrants” — GA 68c. Goethe and the Present",
+      "2416836": "4. Weimar at the Center of German Intellectual Life — GA 68c. Goethe and the Present",
+      "2416837": "5. Goethe and the Present — GA 68c. Goethe and the Present",
+      "2416838": "6. Goethe's View of Nature in the Present Day — GA 68c. Goethe and the Present",
+      "2416839": "7. Goethe’s “Faust” as a Revelation of His Worldview — GA 68c. Goethe and the Present",
+      "2416840": "8. “Faust” as a Problem in Science Education — GA 68c. Goethe and the Present",
+      "2416841": "9. Introduction to Goethe's Fairy Tale of the Green Snake and the Beautiful Lily — GA 68c. Goethe and the Present",
+      "2416842": "10. The Fairy Tale of the Green Snake and the Beautiful Lily — GA 68c. Goethe and the Present",
+      "2416843": "11. Goethe as a Theosophist — GA 68c. Goethe and the Present",
+      "2416844": "12. The Fairy Tale of the Green Snake and the Beautiful Lily — GA 68c. Goethe and the Present",
+      "2416845": "13. Goethe’s Enigmatic Fairy Tale of the Green Snake and the Beautiful Lily — GA 68c. Goethe and the Present",
+      "2416846": "14. Goethe's Fairy Tale of the Green Snake and the Beautiful Lily — GA 68c. Goethe and the Present",
+      "2416847": "15. Goethe’s “Faust”: A Portrait of His Worldview from the Perspective of a Theosophist — GA 68c. Goethe and the Present",
+      "2416848": "16. Goethe's Gospel I — GA 68c. Goethe and the Present",
+      "2416849": "17. Goethe's Gospel II — GA 68c. Goethe and the Present",
+      "2416850": "18. Goethe’s “Faust”: A Portrait of His Worldview from the Perspective of a Theosophist — GA 68c. Goethe and the Present",
+      "2416851": "19. Goethe's Gospel — GA 68c. Goethe and the Present",
+      "2416852": "20. Esotericism in Goethe's Works — GA 68c. Goethe and the Present",
+      "2416853": "21. On Goethe's “The Mysteries” — GA 68c. Goethe and the Present",
+      "2416854": "22. On “The Mysteries” — GA 68c. Goethe and the Present",
+      "2416855": "23. Theosophy, Goethe, and Hegel — GA 68c. Goethe and the Present",
+      "2416856": "24. Goethe, Hegel, and Theosophy — GA 68c. Goethe and the Present",
+      "2416857": "25. Goethe’s “Fairy Tale” (Goethe’s Secret Esoteric Revelation) — GA 68c. Goethe and the Present",
+      "2416858": "26. The Spiritual-Scientific Significance of “Faust” — GA 68c. Goethe and the Present",
+      "2416859": "27. The Deeper Mysteries in Goethe’s “Faust” — GA 68c. Goethe and the Present",
+      "2416860": "28. About “Pandora” — GA 68c. Goethe and the Present",
+      "2416861": "29. The Nature of Egoism (Goethe’s “Wilhelm Meister”) — GA 68c. Goethe and the Present",
+      "2416862": "30. The Mission of Art (Homer, Aeschylus, Dante, Shakespeare, Goethe) — GA 68c. Goethe and the Present",
+      "2416863": "31. The Mission of Truth — GA 68c. Goethe and the Present",
+      "2416864": "32. Goethe’s “Faust”: Exoteric — GA 68c. Goethe and the Present",
+      "2416865": "33. Goethe's Secret Revelation (Esoteric) — GA 68c. Goethe and the Present",
+      "2416866": "34. From Paracelsus to Goethe — GA 68c. Goethe and the Present",
+      "2416867": "35. From Paracelsus to Goethe — GA 68c. Goethe and the Present",
+      "2416868": "1. The Social Question and Theosophy — GA 68d. The Essence of Anthroposophy",
+      "2416869": "2. The Women’s Question and Theosophy — GA 68d. The Essence of Anthroposophy",
+      "2416870": "3. Brotherhood and the Struggle for Existence — GA 68d. The Essence of Anthroposophy",
+      "2416871": "4. Brotherhood and the Struggle for Existence — GA 68d. The Essence of Anthroposophy",
+      "2416872": "5. Brotherhood and the Struggle for Existence — GA 68d. The Essence of Anthroposophy",
+      "2416873": "6. Parenting Issues — GA 68d. The Essence of Anthroposophy",
+      "2416874": "7. Hypnotism and Spiritism in the Light of Theosophy — GA 68d. The Essence of Anthroposophy",
+      "2416875": "8. The Education of the Child from the Perspective of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416876": "9. The Course of Human Life from a Spiritual Scientific Perspective — GA 68d. The Essence of Anthroposophy",
+      "2416877": "10. The Nature of Man — GA 68d. The Essence of Anthroposophy",
+      "2416878": "11. The Obsession with Illness in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416879": "12. The Health Craze in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416880": "13. Man and Woman in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416881": "14. Man, Woman, and Child in the Light of Esoteric Science — GA 68d. The Essence of Anthroposophy",
+      "2416882": "15. Man and Woman in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416883": "16. Man, Woman, and Child in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416884": "17. The Nature of the Human Being in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416885": "18. Man and Woman in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416886": "19. The Course of Human Life from the Perspective of Esoteric Science — GA 68d. The Essence of Anthroposophy",
+      "2416887": "20. The Obsession with Illness in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416888": "21. The Health Craze in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416889": "22. Man, Woman, and Child in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416890": "23. Man, Woman, and Child in the Light of the Humanities — GA 68d. The Essence of Anthroposophy",
+      "2416891": "24. The Course of Human Life from the Perspective of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416892": "25. Man, Woman, and Child from the Perspective of Esoteric Science — GA 68d. The Essence of Anthroposophy",
+      "2416893": "26. The Secret of Human Temperaments — GA 68d. The Essence of Anthroposophy",
+      "2416894": "27. Nutritional Issues in the Light of the Humanities — GA 68d. The Essence of Anthroposophy",
+      "2416895": "28. The Temperaments in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416896": "29. The Secret of Human Temperaments — GA 68d. The Essence of Anthroposophy",
+      "2416897": "30. Health Issues in the Light of the Humanities — GA 68d. The Essence of Anthroposophy",
+      "2416898": "31. Health Issues in the Light of the Humanities — GA 68d. The Essence of Anthroposophy",
+      "2416899": "32. The Mystery of the Temperaments in the Light of Spiritual Science — GA 68d. The Essence of Anthroposophy",
+      "2416900": "1. The Humanities and the Future of Humanity — GA 69a. Truths and Errors in Spiritual Research",
+      "2416901": "2. How Does One Refute Theosophy? — GA 69a. Truths and Errors in Spiritual Research",
+      "2416902": "3. How Does One Defend Theosophy? — GA 69a. Truths and Errors in Spiritual Research",
+      "2416903": "4. Truths of Spiritual Research — GA 69a. Truths and Errors in Spiritual Research",
+      "2416904": "5. Errors in Spiritual Research — GA 69a. Truths and Errors in Spiritual Research",
+      "2416905": "7. Findings from Spiritual Research on Questions of Life and the Mystery of Death — GA 69a. Truths and Errors in Spiritual Research",
+      "2416906": "6. Errors in Spiritual Research — GA 69a. Truths and Errors in Spiritual Research",
+      "2416907": "9. The Spiritual and the Natural Sciences in Relation to the Mysteries of Life — GA 69a. Truths and Errors in Spiritual Research",
+      "2416908": "10. The Humanities and the Natural Sciences in Their Relationship to the Mysteries of Life — GA 69a. Truths and Errors in Spiritual Research",
+      "2416909": "8. Findings from Spiritual Research on Questions of Life and the Mystery of Death — GA 69a. Truths and Errors in Spiritual Research",
+      "2416910": "2. The Essence of Anthroposophy — GA 69b. Knowledge and Immortality",
+      "2416911": "2. Knowledge and Immortality — GA 69b. Knowledge and Immortality",
+      "2416912": "4. The Child's The Child's Disposition, Talents, and Upbringing, Talents, and Upbringing — GA 69b. Knowledge and Immortality",
+      "2416913": "3. Knowledge and Immortality — GA 69b. Knowledge and Immortality",
+      "2416914": "8. Zarathustra, His Teachings, and His Mission — GA 69b. Knowledge and Immortality",
+      "2416915": "10. Supernatural Insights and Everyday Life — GA 69b. Knowledge and Immortality",
+      "2416916": "5. Human Disposition, Talent, and Upbringing in the Light of Spiritual Science — GA 69b. Knowledge and Immortality",
+      "2416917": "6. Human Nature, Talent, and Upbringing — GA 69b. Knowledge and Immortality",
+      "2416918": "9. Moses, His Teachings, and His Mission — GA 69b. Knowledge and Immortality",
+      "2416919": "7. Human Disposition, Talent, and Upbringing in the Light of Spiritual Science — GA 69b. Knowledge and Immortality",
+      "2416920": "1. Christ in the Twentieth Century — GA 69c. A New Experience of Christ",
+      "2416921": "7. From Buddha to Christ — GA 69c. A New Experience of Christ",
+      "2416922": "8. The Essence of Christianity — GA 69c. A New Experience of Christ",
+      "2416923": "9. From Jesus to Christ — GA 69c. A New Experience of Christ",
+      "2416924": "10. From Jesus to Christ — GA 69c. A New Experience of Christ",
+      "2416925": "2. Christ and the Twentieth Century — GA 69c. A New Experience of Christ",
+      "2416926": "3. Christ and the Twentieth Century — GA 69c. A New Experience of Christ",
+      "2416927": "4. Christ in the Twentieth Century — GA 69c. A New Experience of Christ",
+      "2416928": "12. Raphael in the Light of Spiritual Science — GA 69c. A New Experience of Christ",
+      "2416929": "13. Raphael's Mission in Light of the Science of the Spirit — GA 69c. A New Experience of Christ",
+      "2416930": "11. From Jesus to Christ — GA 69c. A New Experience of Christ",
+      "2416931": "5. The Christ of the Twentieth Century — GA 69c. A New Experience of Christ",
+      "2416932": "6. Christ in the Twentieth Century — GA 69c. A New Experience of Christ",
+      "2416933": "2. The Essence of Anthroposophy — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416934": "21. The Human Soul and the Animal Soul — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416935": "2. How Does One Gain Insight into the Spiritual World? — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416936": "22. Karma and Reincarnation — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416937": "3. Death and Immortality in the Light of Spiritual Science — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416938": "4. The Essence of Eternity and the Nature of the Human Soul in the Light of Spiritual Science — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416939": "5. Death and Immortality in the Light of Spiritual Science — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416940": "6. Death and Immortality in the Light of Spiritual Science — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416941": "7. The Essence of Eternity and the Nature of the Human Soul in the Light of Spiritual Science — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416942": "8. Human Beings and Their Relationship to the Supernatural Worlds — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416943": "9. The Hidden Depths of the Soul's Life — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416944": "10. The Origin of Man in the Light of Spiritual Science — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416945": "25. Death and Immortality — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416946": "11. The Supernatural Worlds and the Nature of the Human Soul — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416947": "12. The Humanities and the Natural Sciences in Their Relationship to the Mysteries of Life — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416948": "26. The Nature of the Human Soul and the Meaning of Death — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416949": "13. The Supernatural Worlds and the Nature of the Human Soul — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416950": "14. How Can We Know About Supernatural Worlds? — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416951": "15. The Nature of the Human Soul and the Mystery of Death — GA 69d. Death and Immortality in the Light of Spiritual Science",
+      "2416952": "16. The Mystery of Death — GA 69d. Death and Immortality in the Light of Spiritual Science"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -691135,6 +691375,423 @@
       ],
       "2416832": [
         "Energy"
+      ],
+      "2416833": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416834": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416835": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416836": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416837": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2416838": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416839": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416840": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2416841": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416842": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416843": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416844": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416845": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416846": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416847": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416848": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416849": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416850": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416851": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2416852": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416853": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416854": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416855": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416856": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416857": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416858": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416859": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416860": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416861": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416862": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416863": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416864": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416865": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416866": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416867": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416868": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416869": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416870": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416871": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416872": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416873": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416874": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416875": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416876": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416877": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416878": [
+        "Anthroposophy / Rudolf Steiner",
+        "Biology / Health"
+      ],
+      "2416879": [
+        "Anthroposophy / Rudolf Steiner",
+        "Biology / Health"
+      ],
+      "2416880": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416881": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416882": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416883": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416884": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416885": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416886": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416887": [
+        "Anthroposophy / Rudolf Steiner",
+        "Biology / Health"
+      ],
+      "2416888": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416889": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416890": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science",
+        "Education"
+      ],
+      "2416891": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416892": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416893": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416894": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416895": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416896": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416897": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416898": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416899": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416900": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416901": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416902": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416903": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416904": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416905": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416906": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416907": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416908": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416909": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416910": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416911": [
+        "Anthroposophy / Rudolf Steiner",
+        "Biology / Health"
+      ],
+      "2416912": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416913": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416914": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416915": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416916": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416917": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416918": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416919": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416920": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416921": [
+        "Anthroposophy / Rudolf Steiner",
+        "Goethean Science"
+      ],
+      "2416922": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416923": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416924": [
+        "Anthroposophy / Rudolf Steiner",
+        "Education"
+      ],
+      "2416925": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416926": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416927": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416928": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416929": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416930": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416931": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416932": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416933": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416934": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416935": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416936": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416937": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416938": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416939": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416940": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416941": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416942": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416943": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416944": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416945": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416946": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416947": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416948": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416949": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416950": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416951": [
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2416952": [
+        "Anthroposophy / Rudolf Steiner"
       ]
     },
     "meta_concepts": {
@@ -847969,7 +848626,127 @@
       "2416829": [],
       "2416830": [],
       "2416831": [],
-      "2416832": []
+      "2416832": [],
+      "2416833": [],
+      "2416834": [],
+      "2416835": [],
+      "2416836": [],
+      "2416837": [],
+      "2416838": [],
+      "2416839": [],
+      "2416840": [],
+      "2416841": [],
+      "2416842": [],
+      "2416843": [],
+      "2416844": [],
+      "2416845": [],
+      "2416846": [],
+      "2416847": [],
+      "2416848": [],
+      "2416849": [],
+      "2416850": [],
+      "2416851": [],
+      "2416852": [],
+      "2416853": [],
+      "2416854": [],
+      "2416855": [],
+      "2416856": [],
+      "2416857": [],
+      "2416858": [],
+      "2416859": [],
+      "2416860": [],
+      "2416861": [],
+      "2416862": [],
+      "2416863": [],
+      "2416864": [],
+      "2416865": [],
+      "2416866": [],
+      "2416867": [],
+      "2416868": [],
+      "2416869": [],
+      "2416870": [],
+      "2416871": [],
+      "2416872": [],
+      "2416873": [],
+      "2416874": [],
+      "2416875": [],
+      "2416876": [],
+      "2416877": [],
+      "2416878": [],
+      "2416879": [],
+      "2416880": [],
+      "2416881": [],
+      "2416882": [],
+      "2416883": [],
+      "2416884": [],
+      "2416885": [],
+      "2416886": [],
+      "2416887": [],
+      "2416888": [],
+      "2416889": [],
+      "2416890": [],
+      "2416891": [],
+      "2416892": [],
+      "2416893": [],
+      "2416894": [],
+      "2416895": [],
+      "2416896": [],
+      "2416897": [],
+      "2416898": [],
+      "2416899": [],
+      "2416900": [],
+      "2416901": [],
+      "2416902": [],
+      "2416903": [],
+      "2416904": [],
+      "2416905": [],
+      "2416906": [],
+      "2416907": [],
+      "2416908": [],
+      "2416909": [],
+      "2416910": [],
+      "2416911": [],
+      "2416912": [],
+      "2416913": [],
+      "2416914": [],
+      "2416915": [],
+      "2416916": [],
+      "2416917": [],
+      "2416918": [],
+      "2416919": [],
+      "2416920": [],
+      "2416921": [],
+      "2416922": [],
+      "2416923": [],
+      "2416924": [],
+      "2416925": [],
+      "2416926": [],
+      "2416927": [],
+      "2416928": [],
+      "2416929": [],
+      "2416930": [],
+      "2416931": [],
+      "2416932": [],
+      "2416933": [],
+      "2416934": [],
+      "2416935": [],
+      "2416936": [],
+      "2416937": [],
+      "2416938": [],
+      "2416939": [],
+      "2416940": [],
+      "2416941": [],
+      "2416942": [],
+      "2416943": [],
+      "2416944": [],
+      "2416945": [],
+      "2416946": [],
+      "2416947": [],
+      "2416948": [],
+      "2416949": [],
+      "2416950": [],
+      "2416951": [],
+      "2416952": []
     }
   },
   "graph": {
@@ -848373,7 +849150,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-18T06:11:31Z",
+    "as_of": "2026-09-18T06:15:37Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 72,
