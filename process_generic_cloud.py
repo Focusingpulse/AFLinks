@@ -71,6 +71,34 @@ def extract_pdf_text(pdf_path, max_chars=None):
     except Exception:
         return ""
 
+def decode_html(data):
+    """Charset-sniff HTML decode. Sites like trinitas.ru serve windows-1251;
+    a bare utf-8 decode with errors='replace' produces replacement-char
+    mojibake in every Cyrillic title/preview. Sniff <meta charset> first,
+    then try utf-8, then cp1251/latin-1 fallbacks."""
+    head = data[:4096].decode('ascii', errors='ignore').lower()
+    m = re.search(r'charset\s*=\s*["\']?\s*([\w\-]+)', head)
+    if m:
+        enc = m.group(1)
+        aliases = {'windows-1251': 'cp1251', 'win-1251': 'cp1251',
+                   'windows-1252': 'cp1252', 'iso-8859-1': 'cp1252',
+                   'koi8-r': 'koi8-r', 'utf8': 'utf-8', 'ascii': 'ascii'}
+        enc = aliases.get(enc.lower(), enc)
+        try:
+            return data.decode(enc)
+        except (LookupError, UnicodeDecodeError):
+            pass
+    try:
+        return data.decode('utf-8')
+    except UnicodeDecodeError:
+        pass
+    for enc in ('cp1251', 'latin-1'):
+        try:
+            return data.decode(enc)
+        except UnicodeDecodeError:
+            continue
+    return data.decode('utf-8', errors='replace')
+
 def fetch_html_text(url, max_chars=None):
     if max_chars is None:
         max_chars = int(os.environ.get('MAX_PREVIEW', '2000'))
@@ -79,7 +107,7 @@ def fetch_html_text(url, max_chars=None):
         url = "https://web.archive.org/web/2024/" + url
     data = fetch_url(url, timeout=30)
     if data is None: return "", ""
-    text = data.decode('utf-8', errors='replace')
+    text = decode_html(data)
     m = re.search(r'<title[^>]*>(.*?)</title>', text, re.I | re.DOTALL)
     page_title = re.sub(r'&amp;', '&', m.group(1)) if m else ""
     page_title = re.sub(r'\s+', ' ', page_title).strip()
