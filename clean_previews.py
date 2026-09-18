@@ -195,7 +195,15 @@ def should_retry(u, state, force=False):
     return True  # legacy bare-string record: treat as eligible
 
 
-def clean_batch(urls, cache, state, limit, budget, workers):
+def clean_batch(urls, cache, state, limit, budget, workers, checkpoint_every=25):
+    """Fetch and extract clean text for up to `limit` contaminated URLs.
+
+    The cache is flushed every `checkpoint_every` results, not just at the end.
+    A cron turn can be killed by the sandbox's own timeout or an OOM long before
+    the time budget is reached, and a run that only persists on completion
+    throws away every fetch it made (observed: a 280-page batch lost entirely).
+    Checkpointing costs a JSON write and makes the work durable.
+    """
     todo = []
     for u in urls:
         if u in cache:
@@ -207,6 +215,12 @@ def clean_batch(urls, cache, state, limit, budget, workers):
     todo = todo[:limit]
     start = time.time()
     done = [0]
+    since_checkpoint = [0]
+
+    def checkpoint():
+        with _lock:
+            save_json(CACHE_PATH, cache)
+            save_json(STATE_PATH, {"failed": state["failed"]})
 
     def work(u):
         if time.time() - start > budget:
@@ -224,6 +238,7 @@ def clean_batch(urls, cache, state, limit, budget, workers):
                             "ts": int(time.time())}
                 state["failed"].pop(u, None)
                 done[0] += 1
+                since_checkpoint[0] += 1
                 if done[0] % 20 == 0:
                     print(f"  cleaned {done[0]}...", flush=True)
             elif len(text) < MIN_TEXT or score >= 3:
@@ -233,11 +248,20 @@ def clean_batch(urls, cache, state, limit, budget, workers):
                             "title": title, "ts": int(time.time())}
                 state["failed"].pop(u, None)
                 done[0] += 1
+                since_checkpoint[0] += 1
             else:
                 state["failed"][u] = {"reason": "ambiguous", "ts": int(time.time())}
+            flush = since_checkpoint[0] >= checkpoint_every
+            if flush:
+                since_checkpoint[0] = 0
+        if flush:
+            checkpoint()
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
-        list(ex.map(work, todo))
+    try:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as ex:
+            list(ex.map(work, todo))
+    finally:
+        checkpoint()
     print(f"fetched clean text for {done[0]} pages this run")
     return done[0]
 
