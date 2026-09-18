@@ -945,7 +945,7 @@ def main():
         if l:
             return l
         hay = (tw.get("title") or "") + " " + meta_scan
-        m = re.search(r"\((?:FR|DE|RU|ES|IT|EL|PT|JA|ZH|PL|CS|SR|UK|AR|NL)\s*→", hay, re.I)
+        m = re.search(r"\((FR|DE|RU|ES|IT|EL|PT|JA|ZH|PL|CS|SR|UK|AR|NL)\s*→", hay, re.I)
         if m:
             return m.group(1).lower()
         m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl)$", tw.get("file") or "", re.I)
