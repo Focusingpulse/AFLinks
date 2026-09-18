@@ -319,13 +319,13 @@ def chrome_score(text):
         sentencey = sum(1 for l in head if re.search(r"[.!?]\s|,\s|\b(?:the|and|of|is|was|are)\b", l, re.I))
         if short / len(head) >= 0.8 and sentencey <= max(2, len(head) // 5):
             hits += 3
-    elif len(lines) <= 2:
-        # single-blob text: fall back to label-density over comma/pipe splits
-        parts = [p.strip() for p in re.split(r"[|•·]| - |\u00bb", text) if p.strip()]
-        if len(parts) >= 8:
-            short = sum(1 for p in parts if len(p) <= 30)
-            if short / len(parts) >= 0.7:
-                hits += 2
+
+    # NOTE: there is deliberately no structural check for single-blob text.
+    # First-generation previews were whitespace-collapsed to ONE line, so
+    # splitting them on separators is just chopping prose at punctuation — a
+    # padded padrak.com abstract scored 2 chrome hits with zero markers present.
+    # Phrase markers are reliable on any text; structural density is only
+    # meaningful when real line structure exists (which the extractor produces).
     return hits
 
 
