@@ -1,6 +1,6 @@
 ---
-name: "Tuo Classical Formalism Fr"
-description: "Full English translation"
+name: Tuo Classical Formalism Fr
+description: Full English translation
 ---
 Classical formalisms and correspondence with TUO:
       From Maxwell and Einstein to the vacuum tension field Tv

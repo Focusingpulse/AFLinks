@@ -1,6 +1,6 @@
 ---
-name: "Theorie Phi Scalar Field Fr"
-description: "Full English translation"
+name: Theorie Phi Scalar Field Fr
+description: Full English translation
 ---
 Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html
 

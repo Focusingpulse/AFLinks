@@ -1,5 +1,5 @@
 ---
-name: "Tesla's dream of free energy — China wants to make it a reality on the Moon (el→en)"
+name: Tesla's dream of free energy — China wants to make it a reality on the Moon (el→en)
 description: "Full English translation of a Greek SCIE-TECH article (el.gr, Dec 2026) on Harbin Institute of Technology's lunar laser power-beaming proposal for the Moon's South Pole — Tesla's wireless energy vision realized via LOLA-mapped laser relay stations around Shackleton crater, 5 km transmission range, dual energy+comms use. Translated from Greek by Translation Sweeper, 2026-09-18. 4/4 chunks, complete."
 ---
 

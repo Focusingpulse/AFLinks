@@ -1,6 +1,6 @@
 ---
-name: "Planetary Antenna — D-Field Antenna (Spanish)"
-description: "Full translation of Carlos Alejandro Chiappini's viXra paper on the Planetary Antenna (El Proton) — a buildable 2m-band VHF antenna designed from electric displacement (D) field theory, with complete construction steps and theory appendix."
+name: Planetary Antenna — D-Field Antenna (Spanish)
+description: Full translation of Carlos Alejandro Chiappini's viXra paper on the Planetary Antenna (El Proton) — a buildable 2m-band VHF antenna designed from electric displacement (D) field theory, with complete construction steps and theory appendix.
 ---
 
 Planetary Antenna

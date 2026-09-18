@@ -1,6 +1,6 @@
 ---
-name: "Theorie Univers Onde Fr"
-description: "Full English translation"
+name: Theorie Univers Onde Fr
+description: Full English translation
 ---
 Skip to main
 

@@ -1,6 +1,6 @@
 ---
-name: "Shipov Torsion Fields Ru"
-description: "Full English translation"
+name: Shipov Torsion Fields Ru
+description: Full English translation
 ---
 TORSION FIELDS AND TORSION TECHNOLOGIES.1
                                      G.I. Shipov

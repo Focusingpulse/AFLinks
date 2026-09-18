@@ -1,6 +1,6 @@
 ---
-name: "Agua Viva GIE Activator (Spanish)"
-description: "Full translation of the Agua Viva eco-tecnologias about page — the Spanish/German transmission chain of Schauberger's applied implosion tech (Kuprat to Gross's GIE Activator, Tenerife/Barcelona, 1999)."
+name: Agua Viva GIE Activator (Spanish)
+description: Full translation of the Agua Viva eco-tecnologias about page — the Spanish/German transmission chain of Schauberger's applied implosion tech (Kuprat to Gross's GIE Activator, Tenerife/Barcelona, 1999).
 ---
 
 [Site chrome / navigation — original in Spanish, translated for completeness]

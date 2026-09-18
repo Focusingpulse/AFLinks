@@ -1,5 +1,5 @@
 ---
-name: "Compendium of Vortex Physics (SAFE, 1999)"
+name: Compendium of Vortex Physics (SAFE, 1999)
 description: "Full English translation of Kompendium der Wirbelphysik v1 Part 1 (SAFE, 1999) — Schauberger, Reich, Seiler and vortex physics working group. Translated from https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf"
 ---
 

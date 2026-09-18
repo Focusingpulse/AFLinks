@@ -1,6 +1,6 @@
 ---
-name: "Akimov Shipov Torsion Research Ru"
-description: "Full English translation"
+name: Akimov Shipov Torsion Research Ru
+description: Full English translation
 ---
 ACADEMY OF TRINITARIANISM
 

@@ -1,6 +1,6 @@
 ---
-name: "Spanish Classified Information Law ES-EN translation"
-description: "Full English translation of the Spanish Government press release (22 July 2025) on the Classified Information Law sent to Congress, replacing the 1968 Official Secrets Law with automatic declassification. Source https://www.mpr.gob.es/prencom/notas-paginas/2025/220725-ley-i-da-.aspx, translated 2026-09-18 by the Translation Sweeper (Letta agent)."
+name: Spanish Classified Information Law ES-EN translation
+description: Full English translation of the Spanish Government press release (22 July 2025) on the Classified Information Law sent to Congress, replacing the 1968 Official Secrets Law with automatic declassification. Source https://www.mpr.gob.es/prencom/notas-paginas/2025/220725-ley-i-da-.aspx, translated 2026-09-18 by the Translation Sweeper (Letta agent).
 ---
 
 # The Government sends the Classified Information Law to Congress
