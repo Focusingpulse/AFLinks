@@ -119,6 +119,23 @@ def contaminated(entry):
 
 
 # ---------------------------------------------------------------- scan
+def host_of(url):
+    return re.sub(r"^https?://", "", url).split("/")[0]
+
+
+def order_targets(urls):
+    """Worst host first.
+
+    A run is budget-limited, so the order it fetches in decides what actually
+    gets fixed. Sorting by how many contaminated URLs a host has means the run
+    finishes wiki.naturalphilosophy.org (5k pages of pure menu) before it
+    touches a host with a handful.
+    """
+    from collections import Counter
+    counts = Counter(host_of(u) for u in urls)
+    return dict(sorted(urls.items(), key=lambda kv: -counts[host_of(kv[0])]))
+
+
 def collect_targets(mode="all"):
     """Return {url: {'where': [...], 'preview': str}} across index + entries."""
     urls = {}
@@ -308,17 +325,24 @@ def main():
     urls = collect_targets(a.mode)
     if a.host:
         urls = {u: v for u, v in urls.items() if a.host in u}
+    urls = order_targets(urls)
     print(f"contaminated HTML previews: {len(urls)}")
 
     if a.scan:
         from collections import Counter
-        c = Counter()
-        for u, v in urls.items():
-            host = re.sub(r"^https?://", "", u).split("/")[0]
-            c[host] += 1
+        c = Counter(host_of(u) for u in urls)
         for host, n in c.most_common(20):
             print(f"  {n:6d}  {host}")
         print(f"already cached: {len(cache)}")
+        print("fetch order (worst host first):")
+        seen = []
+        for u in urls:
+            h = host_of(u)
+            if h not in seen:
+                seen.append(h)
+                print(f"  {len(seen):2d}. {h}")
+            if len(seen) >= 8:
+                break
         return
 
     if not a.apply:
