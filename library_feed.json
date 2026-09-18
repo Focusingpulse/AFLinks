@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:23:26Z",
+  "generated_at": "2026-09-18T20:28:19Z",
   "library": {
     "researchers": 1138,
     "researchers_cataloged": 1138,
@@ -7,11 +7,11 @@
     "categories": 51,
     "meta_categories": 14,
     "aflinks_docs": 74861,
-    "translations": 172,
-    "pages_translated": 2827,
+    "translations": 173,
+    "pages_translated": 2832,
     "declassified_finds": 68,
     "active_agents": 14,
-    "translation_files": 172,
+    "translation_files": 173,
     "bridges": 23,
     "archive_entries": 75352,
     "meta_counts": {
@@ -1776,6 +1776,17 @@
       "file": "2026-09-18-kozyrev-mirrors-corridors-to-other-dimensions-uk.md",
       "content_file": "translations/2026-09-18-kozyrev-mirrors-corridors-to-other-dimensions-uk.md",
       "excerpt": "Kozyrev Mirrors — corridors to other dimensions. Kozyrev Mirrors — corridors to other dimensions?\n\n\"While inside the mirrors, I observed constant changes in myself, and with each time I learned more and more about them. "
+    },
+    {
+      "date": "2026-09-18",
+      "title": "The Kunnen Holographic Body-Scan: A Geobiologist's DU-Ethnologie Memoire (FR->EN)",
+      "domain": "",
+      "source_url": "",
+      "language": "French",
+      "target_language": "English",
+      "file": "2026-09-18-kunnen-holographic-body-scan-fr-en.md",
+      "content_file": "translations/2026-09-18-kunnen-holographic-body-scan-fr-en.md",
+      "excerpt": "# The Kunnen Holographic Body-Scan: A Geobiologist's DU-Ethnologie Mémoire (FR→EN)\n\n**Source:** \"Géobiologie Scientifique et Quantique — Extrait de mon mémoire pour l'obtention d'un DU d'Ethnologie,\" londedisis.fr, publi"
     },
     {
       "date": "2026-09-18",
@@ -8472,9 +8483,9 @@
       "mission": "Quality-checks every translation, assembles the chunks, publishes to the site, and researches the outer rings (radiesthesia, heart intelligence, subtle bioenergetics).",
       "schedule": "4h sessions + daily research",
       "icon": "⚒️",
-      "last_run": "2026-09-18T16:20:00Z",
+      "last_run": "2026-09-18T20:20:00Z",
       "last_status": "ok",
-      "last_summary": "QC session 16:20 UTC: corpus 194->191 canonical. +24 frontmatter repairs (quote-strip class re-broken by the 16:10Z feed rebuild), +1 name field added (Bricage), magnitsky mojibake fixed (2 seqs), 22 embedded chunk-fm blocks stripped from 7 multi-chunk books (new QC pattern: campi, form-waves, reich, korschelt, lether-fluide, za-tajemstvim, wilhelm-reich-html), -3 hard dups (torsion-physics 1.00, theorie-phi 0.98, schauberger-water 0.985 — junk-fm copies, keepers have real frontmatter), 1 variant relabeled (vortex-motor 09-11, 0.74 containment, second-tier). +1 dossier: Benhadid 'Medecine Ionique V3' (Zenodo 18863443, FAL-fr-98-3) — the fr Zenodo stash's second substance member: -50 mV DLVO threshold, soliton de Benhadid, IONOS-V3 99.92% nine-factor probability, AI-as-validator close; anchor audit separates real (DLVO, sulodexide, USAG-1 mice) from invented precision; 3 testable residues. Feed rebuilt: 191 works, DB 1138/2780. Translator ru-stream ACTIVE again (Kozyrev batch 09-18 after 7-day gap) — stale flag DROPPED."
+      "last_summary": "QC session 20:20 UTC: corpus 195->172 canonical. -23 re-emitted dups (15 families, all containment >=0.91 vs canonical keepers; junk-fm 'assembled from chunks' copies of magnitsky, shipov, theorie-phi, torsion-physics, psicogeometria, TUO, brazilian-scalar, del-giudice, tesla, akimov, compendium-vortex, spyridis, prometheus, acqua-viva, schauberger-water, campi-elettromagnetici, onde-di-forma, electromagnetic-memory). 8 embedded chunk-fm blocks stripped from 2 books (lether-fluide-torsion, wilhelm-reich EN html). 90 quote-strip frontmatter repairs (unquoted name/description values re-quoted; embedded-double-quote variant handled with single-quoted YAML scalars). akimov-09-18 junk fm relabeled with real title (IITAP Preprint No. 4, 1995). Full-corpus pyyaml rescan: 172/172 clean. Feed rebuilt from cloud: 172 works, DB coherent 1138/2780, archive 75352. Translator ru-stream ACTIVE (Kozyrev batch 09-18). Outer-ring: +1 dossier in progress (Kunnen holographic body-scan, FAL-fr-107-5, claim opening this session)."
     },
     {
       "member": "scout",
@@ -855555,11 +855566,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Form Waves and Sacred Geometry",
-        "excerpt": "Translation metadata: title \"Onde di forma e geometria sacra / Form Waves and Sacred Geometry\" · source https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria",
-        "meta": "En",
-        "rarity": "fresh from En",
-        "href": "./library.html#trans-2026-08-29-onde-di-forma-e-geometria-sacra-en.md"
+        "title": "Shipov Torsion Fields Ru",
+        "excerpt": "TORSION FIELDS AND TORSION TECHNOLOGIES.1 http://shipov.com , http://shipov-vacuum.com In 1922, the French mathematician É. Cartan put forward a hypothe",
+        "meta": "Russian",
+        "rarity": "fresh from Russian",
+        "href": "./library.html#trans-2026-09-07-shipov-torsion-fields-ru.md"
       },
       {
         "drawer": "rare",
@@ -856014,11 +856025,11 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-18T20:23:26Z",
+    "as_of": "2026-09-18T20:28:19Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
-      "translations": 75,
-      "pages_translated": 341,
+      "translations": 76,
+      "pages_translated": 346,
       "declassified": 15,
       "researchers": 3,
       "patents": 0
