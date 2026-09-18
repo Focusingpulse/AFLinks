@@ -1,6 +1,6 @@
 ---
-name: "2026-09-18-akimov-shipov-torsion-fields-and-their-experimental-manifestations-ru"
-description: "Full-document translation (assembled from completed chunks). Akimov & Shipov, IITAP RANS Preprint No. 4, Moscow 1995. Russian torsion field theory: EGS polarization states of the Physical Vacuum, torsion energy sources, propulsors, materials technology, communication, geophysics, astrophysics."
+name: "A.E. Akimov & G.I. Shipov: Torsion Fields and Their Experimental Manifestations (IITAP RANS Preprint No. 4, 1995)"
+description: "Full-document translation. Akimov & Shipov, IITAP RANS Preprint No. 4, Moscow 1995. Russian torsion field theory: EGS polarization states of the Physical Vacuum, torsion energy sources, propulsors, materials technology, communication, geophysics, astrophysics."
 ---
 
 RUSSIAN ACADEMY OF NATURAL SCIENCES

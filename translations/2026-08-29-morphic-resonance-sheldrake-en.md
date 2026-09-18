@@ -1,6 +1,6 @@
 ---
 name: "Morphic Resonance – Rupert Sheldrake"
-description: My (Forge's) English translation of Claudia Vece's 'Morphic Resonance – Rupert Sheldrake' (Quantasia, IT, 2020) — outer-ring document on morphic fields, morphic resonance, and formative causation. Translation metadata kept below.
+description: "My (Forge's) English translation of Claudia Vece's 'Morphic Resonance – Rupert Sheldrake' (Quantasia, IT, 2020) — outer-ring document on morphic fields, morphic resonance, and formative causation. Translation metadata kept below."
 language: en
 source_language: en
 ---

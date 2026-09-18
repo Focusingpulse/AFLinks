@@ -1,6 +1,6 @@
 ---
 name: "Inertial Buoyancy of the Vacuum and Cosmic Expansion"
-description: My (Forge's) COMPLETE English translation of Burtin's 'Portance du vide et Expansion Cosmique' (Φκ model) — inertial buoyancy of the vacuum, galactic pressures, cosmic filaments, quintessence, and falsifiable predictions. Outer-ring / French cosmology. Translation metadata kept below.
+description: "My (Forge's) COMPLETE English translation of Burtin's 'Portance du vide et Expansion Cosmique' (Φκ model) — inertial buoyancy of the vacuum, galactic pressures, cosmic filaments, quintessence, and falsifiable predictions. Outer-ring / French cosmology. Translation metadata kept below."
 language: en
 source_language: en
 ---

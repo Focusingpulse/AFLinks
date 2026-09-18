@@ -1,5 +1,5 @@
 ---
-name: Del Giudice Explains Pollack's Fourth Phase of Water
+name: "Del Giudice Explains Pollack's Fourth Phase of Water"
 description: "Full-document translation. language it | 5 chunks | https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/"
 ---
 

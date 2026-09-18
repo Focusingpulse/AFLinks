@@ -1,5 +1,5 @@
 ---
-name: El Secreto del Agua como Base para una Nueva Tierra (es→en)
+name: "El Secreto del Agua como Base para una Nueva Tierra (es→en)"
 description: "Full English translation of Bernd Walter Mueller's 2011 Tamera talk on Water Retention Landscapes — Schauberger lineage water-cycle restoration, practical retention-space design principles, and Tamera's model implementation. Translated from the Spanish edition (from German original) by Translation Sweeper, 2026-09-18. 13/13 chunks, complete."
 ---
 

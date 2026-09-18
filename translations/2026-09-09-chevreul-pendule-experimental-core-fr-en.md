@@ -1,5 +1,5 @@
 ---
-name: Chevreul — The Pendulum Experiments (Experimental Core, 1854)
+name: "Chevreul — The Pendulum Experiments (Experimental Core, 1854)"
 description: "Forge's FR→EN translation of the experimental core from Chevreul's 'De la baguette divinatoire' (1854) — Partie 2, Chapter 4: the famous arm-support demonstration proving that unconscious muscular movement causes the pendulum to oscillate, plus the Conclusion générale rejecting physical causes. Public domain. Outer-ring / French scientific tradition."
 ---
 

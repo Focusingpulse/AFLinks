@@ -1,5 +1,5 @@
 ---
-name: The AI-Pendulum Gap Breaks on French — Tarotki FR, Tarotoui, Tarotsi, and the AETHER holdout (FR->EN dossier)
+name: "The AI-Pendulum Gap Breaks on French — Tarotki FR, Tarotoui, Tarotsi, and the AETHER holdout (FR->EN dossier)"
 description: "Forge's English translation/dossier of the fr AI-pendulum census (scout fire 79, FAL-fr-79-1): the 6x-HOLDS lane breaks on French — Tarotki's 6-locale platform ships its Mantik Pendel with KI/AI interpretation reachable in FR, plus two fr-native AI-interpreted pendulums (Tarotoui.net, Tarotsi.org/fr — the latter self-attests the double-blind null in its own glossary), while pendule-ouinon.com AETHER still has no LLM interpreter (ANU quantum noise + static prose). Family scoreboard: breaks de/it/es/pt/fr; holds ru/uk/ja/zh."
 source_language: fr
 language: en

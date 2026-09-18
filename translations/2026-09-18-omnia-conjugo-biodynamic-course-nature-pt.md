@@ -1,6 +1,6 @@
 ---
-name: Omnia Conjugo Biodynamic Institute Course (Portuguese)
-description: Full translation of the Biodinamica Portugal PDF announcing the Omnia Conjugo online course on Cosmos, Man and Nature (Michaelmas 2025 to Pentecost 2026), based on Rudolf Steiner's Spiritual Science.
+name: "Omnia Conjugo Biodynamic Institute Course (Portuguese)"
+description: "Full translation of the Biodinamica Portugal PDF announcing the Omnia Conjugo online course on Cosmos, Man and Nature (Michaelmas 2025 to Pentecost 2026), based on Rudolf Steiner's Spiritual Science."
 ---
 
 MEETING NATURE

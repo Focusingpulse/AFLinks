@@ -1,5 +1,5 @@
 ---
-name: Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35
+name: "Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35"
 description: "Translation document. language fr | domain: geobiology | https://www.ecouteenergetique.com/pages/hotie-viviane-geobiologie-sacre-rennes___99"
 ---
 

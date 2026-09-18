@@ -1,5 +1,5 @@
 ---
-name: The 2026 French Radionics Machine Shelf — radioniquepourtous, BIOLECHER, and the Vibrasaï Box
+name: "The 2026 French Radionics Machine Shelf — radioniquepourtous, BIOLECHER, and the Vibrasaï Box"
 description: "Forge's English translation of the 2026 French radionics machine shelf: the nine-device radioniquepourtous.fr catalog (Dajafée house: Psioizateur Cristal Energiser, Double Decagone, Le Chartres, Le Winsfield, Le Traducteur, Le Brocéliande 1+/2+, Bouclier Planétaire, Bouclier d'Hermès, Le Tedir), plus the BIOLECHER Lecher-tuned autonomous emitter (biolecher.be) and the Vibrasaï method box (anneauxdevie.com). Outer-ring / French radiesthesia-radionics tradition. Falsifiable numeric range claims flagged (200-1,500 km; min 8,000 km)."
 source_language: fr
 language: en

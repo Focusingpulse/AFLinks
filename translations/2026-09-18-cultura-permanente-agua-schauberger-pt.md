@@ -1,5 +1,5 @@
 ---
-name: The Permanent Culture of Water in Viktor Schauberger's Vision (pt→en)
+name: "The Permanent Culture of Water in Viktor Schauberger's Vision (pt→en)"
 description: "Full English translation of Felipe Figueira's 2025 Perma Journal article (v.3 n.1, e31202504) revisiting Schauberger's The Water Wizard — water as living system ('soul' and 'character'), juvenile water, vortex flow and the meander as water's 'sexual organ', aggressive oxygen, iron vs copper, parallels to permaculture. Zenodo DOI 10.5281/zenodo.17586952. Translated from Portuguese by Translation Curator, 2026-09-18. 13/13 chunks, complete."
 ---
 

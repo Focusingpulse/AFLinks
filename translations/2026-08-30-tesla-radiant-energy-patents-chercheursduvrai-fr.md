@@ -1,5 +1,5 @@
 ---
-name: Chercheurs Du Vrai
+name: "Chercheurs Du Vrai"
 description: "Translation document."
 ---
 
