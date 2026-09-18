@@ -11,6 +11,13 @@ import html as html_module
 import content_extract
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+# Per-site User-Agent overrides (some archives 406-gate Mozilla but serve Googlebot).
+SITE_UAS = {
+    '21sci_tech_com': 'Googlebot/2.1 (+http://www.google.com/bot.html)',
+}
+
+def get_ua(site_name):
+    return SITE_UAS.get(site_name, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36')
 BUDGET = int(os.environ.get('PROCESS_BUDGET', '1500'))  # seconds; env override for cron turns
 USE_WAYBACK = os.environ.get('FETCH_WAYBACK', '') == '1'  # fetch html previews via Wayback (fast, for throttling sites)
 
@@ -38,7 +45,7 @@ def save_progress(progress, progress_path, entries_path):
 
 def fetch_url(url, timeout=30):
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'})
+        req = urllib.request.Request(url, headers={'User-Agent': get_ua(site_name)})
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             return resp.read()
     except Exception as e:
@@ -306,6 +313,7 @@ def extract_persons(filename, title):
     return persons
 
 def main():
+    global site_name
     if len(sys.argv) < 2:
         print("Usage: python process_generic_cloud.py <site_name>")
         sys.exit(1)
@@ -393,7 +401,7 @@ def main():
             pdf_data = None
             if os.environ.get('URLLIB_FIRST') == '1':
                 try:
-                    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', 'Accept': 'application/pdf,*/*'})
+                    req = urllib.request.Request(url, headers={'User-Agent': get_ua(site_name), 'Accept': 'application/pdf,*/*'})
                     with urllib.request.urlopen(req, timeout=25) as resp:
                         pdf_data = resp.read()
                     if not pdf_data:
@@ -402,7 +410,7 @@ def main():
                     pdf_data = None
             if pdf_data is None:
                 try:
-                    pdf_data = subprocess.run(['curl','-s','-L','--max-time','60','-A','Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36', url], capture_output=True, timeout=70).stdout
+                    pdf_data = subprocess.run(['curl','-s','-L','--max-time','60','-A',get_ua(site_name), url], capture_output=True, timeout=70).stdout
                 except Exception as e:
                     print(f"  CURL-ERR: {e}")
                     pdf_data = None
