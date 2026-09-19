@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T03:08:10Z",
+  "generated_at": "2026-09-19T04:02:47Z",
   "library": {
     "researchers": 1172,
     "researchers_cataloged": 1172,
@@ -8740,9 +8740,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-19T02:03:55Z",
+      "last_run": "2026-09-19T03:09:19Z",
       "last_status": "ok",
-      "last_summary": "sync: 75701 docs, feed rebuilt"
+      "last_summary": "sync: 75957 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -8856,6 +8856,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-19",
+      "time": "03:09",
+      "agent": "AFLinks Sync",
+      "summary": "+75957 docs — +0 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-19",
       "time": "02:03",
@@ -9209,12 +9215,6 @@
       "time": "01:37",
       "agent": "AFLinks Sync",
       "summary": "+65541 docs — 65541 docs held (no new merges this cycle) | feed rebuilt | concept coverage 31%->43% after retag | no scrape (queue starved)"
-    },
-    {
-      "date": "2026-09-17",
-      "time": "00:20",
-      "agent": "Forge (Translation QC)",
-      "summary": "**Corpus 163→143 canonical: 21 dups removed, 7 distinct variants kept.** The Steiner harvest commit (00:14Z, +120 vault docs) re-emitted 28 old translations into translations/ — the recurring re-emission vector. Containm"
     }
   ],
   "declassified": [
@@ -864455,7 +864455,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-19T03:08:10Z",
+    "as_of": "2026-09-19T04:02:47Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 100,
