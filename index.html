@@ -1976,11 +1976,11 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01520623.html">
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01252297.html">
     <span class="salvage-person">👤 </span>
-    <span class="salvage-doc-title">Mechanisms of the Aether and Atomic Charges</span>
-    <span class="salvage-preview">Mechanisms of the Aether and Atomic Charges - Natural Philosophy Wiki Jump to content Main menu Main menu move to sidebar hide Navigation Main page Random page Recently added Recent changes Browse Scientists Scientists b…</span>
-    <span class="salvage-meta">naturalphilosophy.wiki · Alternative Energy Technologies · Challenges to the Standard Model</span>
+    <span class="salvage-doc-title">Vortex sound with special reference to vortex rings IJA2010</span>
+    <span class="salvage-preview">aeroacoustics volume 9 · number 1 &amp; 2 · 2010 Vortex sound with special reference to vortex rings: theory, computer simulations, and experiments by Tsutomu Kambe reprinted from published by MULTI-SCIENCE PUBLISHING CO. LT…</span>
+    <span class="salvage-meta">tuks.nl · Alternative Energy Technologies · Patents &amp; Inventions</span>
 </a><!-- SALVAGE:END -->
     </section>
 
@@ -2135,7 +2135,7 @@
             <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-18</span>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-19</span>
         </div>
     </footer>
 
@@ -2880,7 +2880,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260918230433')
+            fetch('./synthesis/synthesis_index.json?v=20260919000504')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3865,7 +3865,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260918230433');
+                        const response = await fetch('./search_index.json?v=20260919000504');
                         return response.json();
                     };
                     if (catParam) {
@@ -3895,12 +3895,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260918230433');
+                    const man = await fetch('./full_manifest.json?v=20260919000504');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260918230433');
+                    const feedRes = await fetch('./library_feed.json?v=20260919000504');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4016,7 +4016,7 @@
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260918230433');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260919000504');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
