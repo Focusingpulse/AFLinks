@@ -1,5 +1,6 @@
----name: "A Universe Without Dark Matter? (Chardin, CNRS) — full translation"
-description: 'FR->EN full-document translation (2026-09-18, Translation Curator). Original: "Un Univers sans matière noire ?" by Yaroslav Pigenet (interviewing Gabriel Chardin), Le Journal du CNRS, 04.06.2018, https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0. Tags: cosmology, dark matter, dark energy, antimatter, negative mass, Dirac-Milne, MOND, CNRS, French. Archival copy: archives/2026-09-18-univers-sans-matiere-noire-chardin-cnrs.html'
+---
+name: A Universe Without Dark Matter? (Chardin, CNRS) — full translation
+description: FR->EN full-document translation (2026-09-18, Translation Curator). Original: "Un Univers sans matière noire ?" by Yaroslav Pigenet (interviewing Gabriel Chardin), Le Journal du CNRS, 04.06.2018, https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0. Tags: cosmology, dark matter, dark energy, antimatter, negative mass, Dirac-Milne, MOND, CNRS, French. Archival copy: archives/2026-09-18-univers-sans-matiere-noire-chardin-cnrs.html
 ---
 
 Skip to navigation

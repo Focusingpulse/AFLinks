@@ -1,4 +1,5 @@
----name: "STPK: Mechanism of Cold Fusion (LENR) as Coherent Reassembly of Proton Loops"
+---
+name: STPK: Mechanism of Cold Fusion (LENR) as Coherent Reassembly of Proton Loops
 description: "Translation document. https://doi.org/10.24108/preprints-3115604"
 ---
 

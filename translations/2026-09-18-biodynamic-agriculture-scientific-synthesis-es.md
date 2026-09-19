@@ -1,5 +1,6 @@
----name: "Biodynamic Agriculture, a Scientific Synthesis"
-description: 'Translation of Spanish document "La Agricultura Biodinamica, una sintesis cientifica" by Uwe Geier, Jurgen Fritz, Ramona Greiner, Michael Olbrich-Majer (beee.es, 2021 Spanish edition of 2016 German chapter) — peer-reviewed research summary of biodynamic agriculture: farm-as-organism concept, biodynamic preparations (500/501), soil humus and DOC trial results, viticulture, food quality, animal welfare, and the epistemology of goethean science. Source: https://www.beee.es/wp-content/uploads/2021/03/La-Agricultura-Biodinamica-una-sintesis-cientifiica.pdf. Language: Spanish.'
+---
+name: Biodynamic Agriculture, a Scientific Synthesis
+description: Translation of Spanish document "La Agricultura Biodinamica, una sintesis cientifica" by Uwe Geier, Jurgen Fritz, Ramona Greiner, Michael Olbrich-Majer (beee.es, 2021 Spanish edition of 2016 German chapter) — peer-reviewed research summary of biodynamic agriculture: farm-as-organism concept, biodynamic preparations (500/501), soil humus and DOC trial results, viticulture, food quality, animal welfare, and the epistemology of goethean science. Source: https://www.beee.es/wp-content/uploads/2021/03/La-Agricultura-Biodinamica-una-sintesis-cientifiica.pdf. Language: Spanish.
 ---
 
 Iberian Intercommunity Group With Respect
