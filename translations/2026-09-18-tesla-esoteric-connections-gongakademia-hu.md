@@ -1,6 +1,6 @@
 ---
 name: Nikola Tesla's life work and the esoteric connections of his inventions (Gong Academy) (hu→en)
-description: "Full English translation of Kray György's 2025 Hungarian research essay (gongakademia.hu) on Tesla: AC system and War of Currents, Tesla coil, Vedic philosophy and Sanskrit terminology, Swami Vivekananda, cosmic consciousness visions, Wardenclyffe, teleforce/death ray and FBI seizure (John G. Trump's review), Tunguska speculations debunked, 3-6-9 numerology myth, DARPA 2025 800W/8.6km laser power beaming as Wardenclyffe's heir. Translated from Hungarian by Translation Sweeper, 2026-09-18. 8/8 chunks, complete."
+description: "Full English translation of Kray György's 2025 Hungarian research essay (gongakademia.hu) on Tesla: AC system and War of Currents, Tesla coil, Vedic philosophy and Sanskrit terminology, Swami Vivekananda, cosmic consciousness visions, Wardenclyffe, teleforce/death ray and FBI seizure (John G. Trump's review), Tunguska speculations debunked, 3-6-9 numerology myth, DARPA 2025 800W/8.6km laser power beaming as Wardenclyffe's heir. Translated from Hungarian by Translation Sweeper, 2026-09-18. 8/8 chunks, complete. Source: https://gongakademia.hu/nikola-tesla-eletmuve-es-talalmanyainak-ezoterikus-kapcsolodasai-zseni-a-mitosz-hataran-kutatasi-anyag/ (verified 2026-09-19). QC: trailing site/cookie boilerplate trimmed 2026-09-19."
 ---
 
 Skip to content
@@ -172,59 +172,3 @@ Sources:
 - https://hu.wikipedia.org/wiki/Tesla-tekercs
 
 Kray György — August 18, 2025 — Research material, Nikola Tesla
-
-
----
-
-
-[Site footer/navigation boilerplate — not article content. Translated headings for reference.]
-
-Opinion, comment? Reply canceled. Your email address will not be published. Required fields are marked with * Comment * Name * Email address * Website
-
-Similar articles
-- Music and stress — How does sound become emotion? An unexpected musical sound sometimes changes our bodily sensation before we can name what we feel. A familiar refrain or an unexpected chord change has a physical effect.
-- The HPA axis — How our body controls the stress response. In our previous posts about the connection between body and mind, and about reducing stress and anxiety, one central biological player came up again and again.
-
-Get first-hand news!
-By subscribing I accept the privacy policy. * Please send the newsletters *
-
-Search
-Categories: Digital detox (3), Other category (1), Gong (28), World of gongs (23), Gong history (13), Sound bath (27), Singing bowl (7), Research material (8), Nikola Tesla (2), Podcasts (1), Programs (2), Course (3), Study (13), Uncategorized (3)
-
-Lead sound baths with proper preparation! Become a professional gong player!
-
-Contact: +36 20 4069159 | info@gongakademia.hu
-Adult education registration number: B/2022/001082
-Course information — General participation payment terms
-
-Pages
-
-Follow us! Facebook | Instagram | Youtube
-
-© All rights reserved! | Imprint | Privacy policy | Cookie policy | GDPR – Data processing information
-
-Close GDPR Cookie Settings
-
-Privacy overview
-Strictly necessary cookies | Functional cookies | Additional cookies
-Powered by GDPR Cookie Compliance
-
-Privacy overview: This website uses cookies to provide the best possible user experience. Cookie information is stored in your browser and performs functions such as recognizing when you return to our website and helping our team understand which parts of the website are interesting and useful.
-
-
----
-
-
-[GDPR cookie-settings boilerplate — not article content. Translated for completeness.]
-
-Strictly necessary cookies — Strictly necessary cookies must always be enabled so that we can save your settings for further cookie handling. Enable or Disable Cookies: Allow | Deny
-
-Functional cookies — This website uses Google Analytics to collect anonymous information, such as the number of visitors to the site and the most popular pages. Enabling this cookie allows us to improve our website. Enable or Disable Cookies: Allow | Deny
-
-Additional cookies — This website uses the following additional cookies: Enable or Disable Cookies: Allow | Deny
-
-Allow all | Save settings
-
-
----
-
