@@ -1448,10 +1448,6 @@ At the end of The Cancer Biopathy, in the section "The Plan 'Orgonon': On the Po
 ---
 
 
----
-name: chunk_0042.en.txt
-description: English translation of chunk 42 from Wilhelm Reich Ether Physics and Orgone Experiments (orgonomie.net). Source: https://orgonomie.net/hdowrphysik.pdf. Language: German. Discusses Jupiter's cloud formations photographed by NASA's Juno probe, citizen science image processing, and similarities to Van Gogh's "Starry Night" illustrating Reich's cosmic superimposition concept.
----
 
 Recently I wanted to demonstrate Reich's concept of cosmic superimposition using Jupiter's cloud formations, but quickly gave up because the raw images were not very convincing in this regard. Now this: "Citizen scientists" have played with the colors and contrast of these raw images on their home computers—and stumbled upon cosmic superimposition.
 
@@ -1722,10 +1718,6 @@ signals.
 ---
 
 
----
-name: Wilhelm Reich Ether Physics Chunk 50
-description: Translation of section 3.c "The Hard-to-Grasp Orgone" from German. Source: https://orgonomie.net/hdowrphysik.pdf. Discusses circular reasoning in hypothesis testing (solar neutrinos vs orgone), how electrical devices create ORANUR (over-excitation of orgone energy), the energetic difference between young tree plantations vs old growth forests, and how mechanistic culture conditions people to lose energetic sensitivity.
----
 
 And regarding the circular reasoning that one can only test a hypothesis within the given framework of the hypothesis: Just consider the hypothesis that solar energy is based on nuclear fusion and that this manifests in solar neutrinos. To verify this, as already explained in Section 2.a., one must build gigantic detectors in deep mines; an enormous effort that costs vast sums. This is only done if one is convinced of the validity of the hypothesis. If one is not, for example regarding orgone, one tests the orgone hypothesis "scientifically" in ORANUR-contaminated laboratories with non-functioning orgone energy accumulators on foggy and rainy days.
 
@@ -2288,10 +2280,6 @@ In his book on the theory of relativity, Ernst Schmutzer asks:
 ---
 
 
----
-name: orgonomie-chunk-67
-description: "Wilhelm Reich Ether Physics and Orgone Experiments - Chunk 67. Source: https://orgonomie.net/hdowrphysik.pdf (German). Author: orgonomie.net. Historical discussion of the ether concept, Huygens wave theory, Michelson-Morley experiment, and Einstein's response."
----
 
 Where did the ether concept actually come from? (...) Since, according to Huygens' wave theory of light, there are indeed great analogies between light and sound—how dangerous analogies can be, even though they are indispensable for research!—one conceived as a medium for light propagation the ether as an object with strange properties: penetrability of all bodies, imponderability, etc. (...) From these explanations it clearly follows that the mechanics of continua stood godfather to the ether concept. Fundamentally, it was therefore a mechanicism. (...) The spirit of this time, accustomed to the mechanical form of motion, needed—for reasons of a misunderstood intuitiveness, by which was meant a mechanical intuitiveness—the world ether. (Schmutzer 1996, p. 49f)
 
@@ -2305,10 +2293,6 @@ This conceptual system and the associated formulas were developed by Einstein.
 ---
 
 
----
-name: orgonomie-chunk-68
-description: "Wilhelm Reich Ether Physics and Orgone Experiments - Chunk 68. Source: https://orgonomie.net/hdowrphysik.pdf (German). Author: orgonomie.net. Einstein's interpretation of relativity formulas, his approach to light speed, and his 1920 lecture reintroducing the ether concept."
----
 
 The problem is that these formulas must be physically interpreted. For this, it is necessary to find certain "assignment rules" that establish a connection between the mathematical formula symbols and the physical measured quantities. Here lie the actual difficulties hidden, because these assignment rules can be very complex. In the interpretation of the mathematical formulas, errors and differences of opinion can arise. (Sexl, Schmidt 1991, p. 48)
 
