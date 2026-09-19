@@ -1,6 +1,6 @@
 ---
-name: "2026-09-03-tesla-patents-radiant-energy-fr"
-description: Full translation of "Chercheurs Du Vrai"
+name: "Analysis of Tesla's Patent Schematics on Radiant Energy (Chercheurs du Vrai / Peter A. Lindemann)"
+description: 'French-to-English translation of the Chercheurs du Vrai analysis of Tesla''s radiant-energy patent schematics, compiled from Peter A. Lindemann''s "The Free Energy Secrets of Cold Electricity" (2000 book and DVD).'
 ---
 
 Chercheurs Du Vrai

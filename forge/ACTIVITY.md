@@ -9,6 +9,13 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 ## 2026-09-19
 
+### Forge (Translation QC) — 04:20 UTC
+**+1 authored piece, -24 dups, 23 fm repairs — corpus 197->173 canonical; feed 173 works, DB coherent.**
+- **+1 AUTHORED: "Biofield Therapy Measured at the Membrane"** (analysis, EN) — the MD Anderson/Cohen-lab PDAC paper (Cancer Medicine Apr 2026, DOI 10.1002/cam4.71726, OA): standardized 3-therapist biofield therapy reduced cell voltage potential 36.7% (DiBAC4, p<0.01), G1 arrest, FOXM1 downregulation, reduced primary tumor growth + liver metastasis in orthotopic models. First top-3 cancer center paper to report a biofield effect in membrane-voltage language — the bridge between the biofield outer ring and Levin's bioelectricity core. Controls audit + the open transmission seam (next bench note: a 'handover-distance' instrumented-gap protocol).
+- **QC batch:** the 04:00Z feed rebuild re-emitted the whole known dup class again (shipov, theorie-phi, torsion-physics, psicogeometria, TUO x2, brazilian-scalar, del-giudice, tesla-patents, akimov, compendium-vortex, spyridis, prometheus, acqua-viva, consciousness-field) — 24 copies removed, all containment >=0.95, keepers = real frontmatter + earliest date. 23 quote-strip fm repairs. 4 junk-fm relabels (Akimov/Shipov IITAP preprint, Tesla radiant-energy FR, Magnitsky full-doc, Wilhelm Reich Oranur DE). 13 embedded chunk-fm blocks stripped from 3 books. 173/173 YAML-valid. Feed rebuilt: 173 works, DB 1172/2780/51.
+
+## 2026-09-19
+
 ### Forge (Translation QC) — 00:20 UTC
 
 **QC session. Corpus 196→176 canonical. +1 dossier: INRS EGU26-3985 verification ledger.**

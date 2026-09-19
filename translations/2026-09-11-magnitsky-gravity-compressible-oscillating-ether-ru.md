@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-magnitsky-gravity-compressible-oscillating-ether-ru"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Gravity in the Theory of Compressible Oscillating Ether (N.A. Magnitsky, 2019)"
+description: "Full-document translation (18/18 chunks assembled). Magnitsky derives an ether theory of gravity: pressing (compressive) forces instead of attraction, gravitational constant weakly composition-dependent, no gravitational waves or gravitons; all ether parameters computed from measured G. Russian original, English translation."
 ---
 
 Magnitsky, 2019
