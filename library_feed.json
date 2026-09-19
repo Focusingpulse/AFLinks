@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T15:08:33Z",
+  "generated_at": "2026-09-19T16:04:50Z",
   "library": {
     "researchers": 1172,
     "researchers_cataloged": 1172,
@@ -9098,9 +9098,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-19T14:05:03Z",
+      "last_run": "2026-09-19T15:11:05Z",
       "last_status": "ok",
-      "last_summary": "sync: 76565 docs, feed rebuilt, no scrape (queue drained)"
+      "last_summary": "sync: 76718 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -9214,6 +9214,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-19",
+      "time": "15:11",
+      "agent": "AFLinks Sync",
+      "summary": "+76718 docs — +76718 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-19",
       "time": "14:05",
@@ -9567,12 +9573,6 @@
       "time": "04:11",
       "agent": "AFLinks Sync",
       "summary": "+74446 docs — +74446 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-09-18",
-      "time": "04:05",
-      "agent": "Polyglot Scout A",
-      "summary": "+12 finds — Overdrive hunt across ru/es/pt/zh/ar (+1 en bonus): 12 finds. Headliners: full open PDF of Pollack's Fourth Phase of Water (archive candidate), Russian translation of same; Tamera's Spanish water-retention text with untranslated-books map; GIE Schauberger implosion lineage in Spain (fragile .info site); 2026 Spanish vortex-microhydro piece with commercial specs; buildable D-field antenna (viXra); fresh pt Schauberger-permaculture synthesis on Zenodo; the authoritative Chinese LENR survey (Zhang Wushou) + lenr.com.cn community archive with original Zhang Hang glow-discharge calorimetry data (fragile, archive candidate); Arabic Al-Halabi aether/free-energy book ecosystem circulating on SykoGene forums. No declassified finds this run."
     }
   ],
   "declassified": [
@@ -873617,7 +873617,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-19T15:08:33Z",
+    "as_of": "2026-09-19T16:04:50Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 102,
