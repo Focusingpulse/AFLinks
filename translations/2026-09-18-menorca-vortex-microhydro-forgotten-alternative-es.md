@@ -1,6 +1,6 @@
 ---
-name: Menorca Vortex Microhydro — The Forgotten Alternative (Spanish)
-description: Full translation of Digital Menorca's 2026 article on vortex-chamber microhydro as a territorial alternative — commercial parameters (15-70 kW, 1.5 m head, 1.5 m3/s), output/cost comparisons vs solar and wind.
+name: "Menorca Vortex Microhydro — The Forgotten Alternative (Spanish)"
+description: "Full translation of Digital Menorca's 2026 article on vortex-chamber microhydro as a territorial alternative — commercial parameters (15-70 kW, 1.5 m head, 1.5 m3/s), output/cost comparisons vs solar and wind."
 ---
 
 [Site chrome / header — translated for completeness]

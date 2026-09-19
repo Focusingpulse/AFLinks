@@ -1,5 +1,5 @@
 ---
-name: Theorie Phi - Scalar Field Coupled to Baryonic Matter
+name: "Theorie Phi - Scalar Field Coupled to Baryonic Matter"
 description: "Full-document translation. language fr | 7 chunks | https://zenodo.org/api/records/16728704/files/%C3%89tude%20rigoureuse%20d%27un%20champ%20scalaire%20l%C3%A9ger%20coupl%C3%A9%20%C3%A0%20la%20mati%C3%A8re%20dans%20les%20galaxies.pdf/content"
 ---
 

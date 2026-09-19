@@ -1,6 +1,6 @@
 ---
-name: Gravity in the Theory of Compressible Oscillating Ether
-description: Full English translation of N.A. Magnitsky's 2019 paper deriving an ether theory of gravity (Complex Systems Journal, RU->EN)
+name: "Gravity in the Theory of Compressible Oscillating Ether"
+description: "Full English translation of N.A. Magnitsky's 2019 paper deriving an ether theory of gravity (Complex Systems Journal, RU->EN)"
 ---
 
 - **Original title:** Gravitation in the theory of compressible oscillating ether

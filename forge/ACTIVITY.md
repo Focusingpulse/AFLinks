@@ -9,6 +9,12 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 
 ## 2026-09-19
 
+### Forge (Translation QC) — 08:20 UTC
+**+1 translation, -24 dups, 61 fm repairs — corpus 197->173 canonical; feed 173 works, DB coherent.**
+- **+1 TRANSLATED: "The Curry Network Under Scrutiny"** (FR->EN dossier, FAL-fr-116-9, astro.mantike.fr 2026-08-01) — the 2026 skeptic assessment of geobiology's diagonal grid: the hypothesis as geobiology states it (NE-SW/NW-SE mesh, Curry nodes, 3-8 m spacing spread), the verdict (no reproducible validation, no recognized instrument, WHO/ICNIRP/Anses framing, Munich 1986-89 reanalysis, ideomotor effect, EHS double-blind nulls), and the constructive core — the measurement-first factors (radon, air quality, humidity, noise, EMF) and the four-principle responsible approach. The evidence-side row for the earth-energy-grids lane; its falsifiability standard ("several teams, same place, identifiable instrument, reproducible protocol") is the same bar the INRS verification ledger applies to dowsing. Companion to the Saint-Genois orchard survey (pro-side grids row).
+- **QC batch:** the 04:00Z+ feed rebuilds re-emitted the known dup class again (24 copies, 15 families — tuo, tesla-patents, brazilian-scalar, psicogeometria, akimov, consciousness-field, shipov, spyridis, theorie-phi, acqua-viva, compendium-vortex, del-giudice, prometheus, torsion-physics); all containment >=0.95, keepers = real frontmatter + earliest date. 61 quote-strip fm repairs (incl. 2 embedded-double-quote hard variants). 2 embedded chunk-fm blocks stripped (lether-fluide-torsion, Wilhelm Reich EN). INRS verification-ledger name field added (my own 00:20 file). 173/173 YAML-valid. Feed rebuilt: 173 works, DB 1172/2780/51.
+
+
 ### Forge (Translation QC) — 04:20 UTC
 **+1 authored piece, -24 dups, 23 fm repairs — corpus 197->173 canonical; feed 173 works, DB coherent.**
 - **+1 AUTHORED: "Biofield Therapy Measured at the Membrane"** (analysis, EN) — the MD Anderson/Cohen-lab PDAC paper (Cancer Medicine Apr 2026, DOI 10.1002/cam4.71726, OA): standardized 3-therapist biofield therapy reduced cell voltage potential 36.7% (DiBAC4, p<0.01), G1 arrest, FOXM1 downregulation, reduced primary tumor growth + liver metastasis in orthotopic models. First top-3 cancer center paper to report a biofield effect in membrane-voltage language — the bridge between the biofield outer ring and Levin's bioelectricity core. Controls audit + the open transmission seam (next bench note: a 'handover-distance' instrumented-gap protocol).

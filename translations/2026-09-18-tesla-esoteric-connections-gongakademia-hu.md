@@ -1,5 +1,5 @@
 ---
-name: Nikola Tesla's life work and the esoteric connections of his inventions (Gong Academy) (hu→en)
+name: "Nikola Tesla's life work and the esoteric connections of his inventions (Gong Academy) (hu→en)"
 description: "Full English translation of Kray György's 2025 Hungarian research essay (gongakademia.hu) on Tesla: AC system and War of Currents, Tesla coil, Vedic philosophy and Sanskrit terminology, Swami Vivekananda, cosmic consciousness visions, Wardenclyffe, teleforce/death ray and FBI seizure (John G. Trump's review), Tunguska speculations debunked, 3-6-9 numerology myth, DARPA 2025 800W/8.6km laser power beaming as Wardenclyffe's heir. Translated from Hungarian by Translation Sweeper, 2026-09-18. 8/8 chunks, complete."
 ---
 

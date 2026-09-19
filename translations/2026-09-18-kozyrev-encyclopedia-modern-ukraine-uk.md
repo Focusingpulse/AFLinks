@@ -1,5 +1,5 @@
 ---
-name: Mykola Kozyrev — Encyclopedia of Modern Ukraine (uk→en)
+name: "Mykola Kozyrev — Encyclopedia of Modern Ukraine (uk→en)"
 description: "Full English translation of the ESU biographical entry for astrophysicist Mykola Kozyrev (1908-1983) — Pulkovo arrest, Norilsk imprisonment, extended-atmospheres theory (Kozyrev-Chandrasekhar), Alphonsus lunar volcanism spectrograms, hydrogen on Mercury, Time-as-energy hypothesis. DOI 10.5281/zenodo.19987233. Translated from Ukrainian by Translation Curator, 2026-09-18. 2/2 chunks, complete."
 ---
 

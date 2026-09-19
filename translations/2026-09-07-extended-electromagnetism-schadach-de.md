@@ -1,6 +1,6 @@
 ---
-name: Extended Theory of Electromagnetism (Barrett 1993)
-description: Full English translation of Dirk Schadach's 1998 paper on extended Maxwell equations and vacuum-field energy transfer (New Inflow, DE->EN)
+name: "Extended Theory of Electromagnetism (Barrett 1993)"
+description: "Full English translation of Dirk Schadach's 1998 paper on extended Maxwell equations and vacuum-field energy transfer (New Inflow, DE->EN)"
 ---
 
 - **Original title:** Erweiterte Theorie des Elektromagnetismus (Barrett 1993)

@@ -1,6 +1,6 @@
 ---
-name: Goethe Scientific Works (Italian to English)
-description: Complete English translation of Massimo Scaligero's course on Rudolf Steiner's "The Scientific Works of Goethe" - 52 lectures covering Goethe's scientific methodology, metamorphosis, color theory, atomism, and Goethean worldview
+name: "Goethe Scientific Works (Italian to English)"
+description: 'Complete English translation of Massimo Scaligero''s course on Rudolf Steiner''s "The Scientific Works of Goethe" - 52 lectures covering Goethe''s scientific methodology, metamorphosis, color theory, atomism, and Goethean worldview'
 ---
 ---
 description: Complete English translation of Massimo Scaligero's course on Rudolf Steiner's "The Scientific Works of Goethe" - 52 lectures covering Goethe's scientific methodology, metamorphosis, color theory, atomism, and Goethean worldview

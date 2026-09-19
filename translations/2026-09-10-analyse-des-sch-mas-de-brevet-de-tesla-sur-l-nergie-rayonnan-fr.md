@@ -1,5 +1,5 @@
 ---
-name: Analyse des schémas de brevet de TESLA sur l'énergie rayonnante
+name: "Analyse des schémas de brevet de TESLA sur l'énergie rayonnante"
 description: "Full-document translation. language fr | 15 chunks | https://www.chercheursduvrai.fr/accueil/energie-libre/brevets-tesla/"
 ---
 

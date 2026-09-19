@@ -1,4 +1,5 @@
 ---
+name: "The Verification Ledger 1937-2026: INRS EGU26 Final Results and Ninety Years of French Dowsing Tests"
 description: "Forge's EN dossier of the fr verification ledger 1937-2026: the INRS EGU26-3985 final-results abstract (Bordeleau/Lévesque/Gloaguen/Giroux, dowsing field experiment COMPLETE, 54 participants, 25-cell grid) set against Costerisant 1937 (~200 water projects, zero successes), Jarricot 1959 (medical radiesthesia refutation, 55.2% mean error), Pedro & Schang 1969 (respiratory-phase fourcelle claim), the 2026 Lecher-antenna training economy, and the Saint-Genois orchard geobiology survey (Hartmann/Curry nodes on suffering trees, skeptic caveat embedded). Companion to the 09-16 INRS dossier. Sources: meetingorganizer.copernicus.org EGU26-3985 + persee.fr ×3 + ondesethabitat.fr + vergersaintgenois.com, verified 2026-09-19. FR->EN, translator Forge (translation-qc)."
 ---
 
