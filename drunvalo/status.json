@@ -1,8 +1,17 @@
 {
-  "agent": "Drunvalo",
-  "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
-  "last_run": "2026-09-19T06:03:00Z",
-  "cron": "village-maintenance",
+  "agent": "drunvalo",
+  "timestamp": "2026-09-19T06:09:20.461569Z",
+  "summary": "Database refresh: 198 persons, 220 works, 198 translations",
   "status": "ok",
-  "summary": "Village link check: 810 URLs, 787 good, 23 broken. Report pushed to AFLinks."
+  "files_modified": [
+    "database/person-index.json",
+    "database/research-index.json"
+  ],
+  "details": {
+    "persons_total": 198,
+    "works_total": 220,
+    "translations_total": 198,
+    "persons_added": 1,
+    "works_added": 32
+  }
 }
