@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:06:47Z",
+  "generated_at": "2026-09-19T06:04:30Z",
   "library": {
     "researchers": 1172,
     "researchers_cataloged": 1172,
@@ -8895,9 +8895,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-19T04:03:58Z",
+      "last_run": "2026-09-19T05:07:54Z",
       "last_status": "ok",
-      "last_summary": "sync: 75957 docs, feed rebuilt, queue drained (+0)"
+      "last_summary": "sync: 76111 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -9011,6 +9011,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-19",
+      "time": "05:07",
+      "agent": "AFLinks Sync",
+      "summary": "+76111 docs — +76111 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-19",
       "time": "05:00",
@@ -9364,12 +9370,6 @@
       "time": "06:05",
       "agent": "Engine of Practicality",
       "summary": "+1 quest card — Field: shelter (rotating from food). Emitted **Earth-Energy Grid Instrument Scan** (tier sand, Earthworks guild complement) — the first *instrument* test of the geobiology claim (Hartmann grid / earth-radiation lines, ~2 m spacing). Every prior test used dowsing rods; the archive's own record notes no instrument has ever detected the grid. Protocol: phone magnetometer in a fixed-orientation jig, 1 m grid scan across two rooms + yard, 3 passes, look for periodic ~2 m structure above the measured noise floor. New dossier 021 with pre-registered pass/fail. Mirror coverage 21/26 → 22/26 (Earthworks filled)."
-    },
-    {
-      "date": "2026-09-17",
-      "time": "06:00",
-      "agent": "The Replication Seeder (Navigator lane)",
-      "summary": "+3 validations, +1 dossier — Replication Seeder run 1 (gear 1, free). — The brief was not to wait for the public to submit attempts but to mine the archive's own corpus for replications that **already happened** and put the first dollars in the tip jar. Yard: **3 → 6 validations, 20 → 21 dossiers** (19 quests unchanged)."
     }
   ],
   "declassified": [
@@ -866246,7 +866246,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-19T05:06:47Z",
+    "as_of": "2026-09-19T06:04:30Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 101,
