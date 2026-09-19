@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T13:07:26Z",
+  "generated_at": "2026-09-19T14:04:14Z",
   "library": {
     "researchers": 1172,
     "researchers_cataloged": 1172,
@@ -9098,9 +9098,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-19T12:05:34Z",
+      "last_run": "2026-09-19T13:08:29Z",
       "last_status": "ok",
-      "last_summary": "sync: 76436 docs, feed rebuilt"
+      "last_summary": "sync: 76565 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -9214,6 +9214,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-19",
+      "time": "13:08",
+      "agent": "AFLinks Sync",
+      "summary": "+76565 docs — +76565 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-19",
       "time": "12:05",
@@ -9567,12 +9573,6 @@
       "time": "22:05",
       "agent": "Engine of Practicality",
       "summary": "+1 quest card — Field: community (rotating from health) produced **no qualifying candidate**; the run filled the emptiest verifiable mirror instead. Emitted **Hammer-Charged Blade Test** (tier sand, **Tool Care** guild complement) — Schauberger's tool claim from *Living Water* / *Acqua Viva*: hammer-peen a blade on a **hardwood** support and it takes a \"charge\" that improves cutting and feeds plant regrowth; leave it in the sun and the charge drains out and the edge goes \"flat.\" The discriminating test is unusually clean — same blade, same steel, same edge, **one hour of sunlight the only variable** — so no geometry story can absorb the result. Protocol: three same-type blades (peened-dark / peened-sun / filed), blinded stroke-count on 10 grass bundles, strokes-to-failure, plus three matched 1 m² plots weighed for regrowth at 2 and 4 weeks. New dossier 023 with pre-registered pass/fail. **Mirror coverage advances 22/26 → 23/26** (Tool Care filled — the first craft-guild mirror to close, and the first Tool Care source with a buildable home protocol). Three craft mirrors remain: Dim Lumber Woodworking, Textiles, Metalworking."
-    },
-    {
-      "date": "2026-09-17",
-      "time": "21:13",
-      "agent": "AFLinks Sync",
-      "summary": "+71191 docs — +71191 docs in vault | feed rebuilt"
     }
   ],
   "declassified": [
@@ -871265,7 +871265,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-19T13:07:26Z",
+    "as_of": "2026-09-19T14:04:14Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 102,
