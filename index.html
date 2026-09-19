@@ -1439,16 +1439,87 @@
             align-items: center;
             gap: 14px;
         }
-        .kd-lock-wrap {
-            position: relative;
-            width: min(82vw, 370px);
-            height: min(82vw, 370px);
-            /* room for the junction plate that hangs just below the ring */
-            margin: 0 auto 96px;
+        /* ─── The two reels — Founders' lanes × Paradigms ───
+           These replace the ring. The dial was always a two-axis selector;
+           the ring just made 20+ labels collide. Native scroll-snap gives
+           momentum and snapping on a phone with no custom drag maths. */
+        .kd-reels {
+            width: 100%;
+            max-width: 620px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
         }
-        .kd-lock-wrap svg.kd-lock { width: 100%; height: 100%; display: block; }
-        .kd-lock-wrap .kd-lock { cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
-        .kd-lock-wrap.dragging .kd-lock { cursor: grabbing; }
+        .kd-reel-block { position: relative; }
+        .kd-reel-head {
+            display: flex; align-items: baseline; justify-content: space-between;
+            gap: 10px; margin-bottom: 6px; padding: 0 4px;
+        }
+        .kd-reel-tag {
+            font-size: .62rem; letter-spacing: .18em; text-transform: uppercase;
+            font-weight: 700;
+        }
+        .kd-reel-tag.inner { color: #e8b64c; }
+        .kd-reel-tag.outer { color: #7fd4c8; }
+        .kd-reel-hint { font-size: .6rem; color: #5f7f86; letter-spacing: .06em; }
+        .kd-reel {
+            position: relative;
+            display: flex;
+            gap: 8px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            padding: 9px 0 11px;
+            background: linear-gradient(180deg, rgba(27,58,64,.55), rgba(7,26,34,.85));
+            border: 1px solid rgba(232,182,76,.28);
+            border-radius: 12px;
+            box-shadow: inset 0 8px 22px rgba(0,0,0,.5), inset 0 -8px 22px rgba(0,0,0,.4);
+        }
+        .kd-reel::-webkit-scrollbar { display: none; }
+        .kd-reel::before, .kd-reel::after { content: ''; flex: 0 0 calc(50% - 92px); }
+        .kd-reel-item {
+            flex: 0 0 176px;
+            scroll-snap-align: center;
+            text-align: center;
+            padding: 10px 9px;
+            border-radius: 9px;
+            border: 1px solid rgba(232,182,76,.16);
+            background: linear-gradient(140deg, #12313a, #0a1c24);
+            color: #9fc4c9;
+            font-size: .76rem;
+            line-height: 1.3;
+            cursor: pointer;
+            transition: all .2s ease;
+            opacity: .78;
+        }
+        .kd-reel-item .n { display: block; font-size: .58rem; color: #6f9aa2; margin-top: 4px; }
+        .kd-reel-item.sel { opacity: 1; transform: translateY(-2px); }
+        .kd-reel-block.inner .kd-reel-item.sel {
+            color: #ffd166; border-color: #e8b64c;
+            background: linear-gradient(140deg, #3a2f16, #201a0c);
+            box-shadow: 0 0 18px rgba(232,182,76,.3), inset 0 0 10px rgba(232,182,76,.1);
+        }
+        .kd-reel-block.outer .kd-reel-item.sel {
+            color: #9ff0e2; border-color: #4d8c84;
+            background: linear-gradient(140deg, #14302e, #0d1c1b);
+            box-shadow: 0 0 18px rgba(127,212,200,.28), inset 0 0 10px rgba(127,212,200,.1);
+        }
+        .kd-reel-mark {
+            position: absolute; left: 50%; top: 0; bottom: 0; width: 0;
+            border-left: 1px solid rgba(232,182,76,.3);
+            transform: translateX(-0.5px);
+            pointer-events: none;
+        }
+        /* the junction plate now sits in normal flow under the reels */
+        .kd-reels .kd-window {
+            position: static;
+            transform: none;
+            width: 100%;
+            margin: 0;
+        }
         /* combination-lock window: the one big readable selection */
         .kd-window {
             position: absolute;
@@ -2032,15 +2103,27 @@
             <span class="kd-sub">drag the outer ring · ◀ ▶ step the eye · tap a lane to jump the archive</span>
         </div>
         <div class="kd-stage">
-            <div class="kd-lock-wrap" id="kdLockWrap">
-                <svg class="kd-lock" id="kdLockSvg" viewBox="0 0 440 440" aria-label="Polar Ring: inner band is the archive, outer band is the eye"></svg>
+            <div class="kd-reels" id="kdReels">
+                <div class="kd-reel-block inner">
+                    <div class="kd-reel-head">
+                        <span class="kd-reel-tag inner">&#9733; Founders &mdash; the archive</span>
+                        <span class="kd-reel-hint">slide to turn</span>
+                    </div>
+                    <div class="kd-reel" id="kdReelInner"><div class="kd-reel-mark"></div></div>
+                </div>
+                <div class="kd-reel-block outer">
+                    <div class="kd-reel-head">
+                        <span class="kd-reel-tag outer">&#9889; Paradigms &mdash; the eye</span>
+                        <span class="kd-reel-hint">slide to turn</span>
+                    </div>
+                    <div class="kd-reel" id="kdReelOuter"><div class="kd-reel-mark"></div></div>
+                </div>
                 <div class="kd-window" id="kdWindow" title="Open the chest">
-                    <span class="win-eyebrow" id="kdWinPair">Pick a lane × a paradigm</span>
-                    <span class="win-lens" id="kdWinLens">—</span>
+                    <span class="win-eyebrow" id="kdWinPair">Pick a lane &times; a paradigm</span>
+                    <span class="win-lens" id="kdWinLens">&mdash;</span>
                     <span class="win-color" id="kdWinColor"></span>
                     <span class="win-count" id="kdWinCount"></span>
                 </div>
-                <div class="kd-pointer" aria-hidden="true"></div>
             </div>
             <div class="kd-hub closed" id="kdHub" title="Open the chest">
                 <span class="hub-chest" id="kdHubChest"></span>
@@ -3180,138 +3263,108 @@
                 const bits = [];
                 if (j.par) bits.push(`⚡ ${j.par.name} — ${j.par.n.toLocaleString()} docs across ${j.par.span} fields`);
                 if (f && f.af_posts > 0) bits.push(`★ ${f.af_posts} Aetherforce posts in this lane`);
-                bits.push('drag the outer ring · ◀ ▶ step the eye · ⚓ spins both');
+                bits.push('slide either reel · ◀ ▶ step the eye · ⚓ spins both');
                 r.textContent = bits.join(' · ');
             }
         }
 
         /* ─── The dial ────────────────────────────────────────────────────────── */
+        // The ring is gone. The dial was always a two-axis selector
+        // (Founders' lanes x Paradigms); the ring just made 20+ labels collide.
+        // Two scroll-snap reels carry the same state, and the item nearest the
+        // centre mark is the selection.
+        function kdCentredIndex(el) {
+            const mid = el.scrollLeft + el.clientWidth / 2;
+            let hit = 0, best = Infinity;
+            el.querySelectorAll('.kd-reel-item').forEach(it => {
+                const c = it.offsetLeft + it.offsetWidth / 2;
+                const d = Math.abs(c - mid);
+                if (d < best) { best = d; hit = +it.dataset.idx; }
+            });
+            return hit;
+        }
+
+        function kdCentreReel(el, idx, instant) {
+            if (!el) return;
+            const it = el.querySelector('.kd-reel-item[data-idx="' + idx + '"]');
+            if (!it) return;
+            const target = it.offsetLeft - (el.clientWidth - it.offsetWidth) / 2;
+            if (instant) {
+                const prev = el.style.scrollBehavior;
+                el.style.scrollBehavior = 'auto';
+                el.scrollLeft = target;
+                el.style.scrollBehavior = prev || '';
+            } else {
+                el.scrollTo({ left: target, behavior: 'smooth' });
+            }
+        }
+
+        // centre=true only when the change came from a click or a programmatic
+        // selection. The scroll handler passes false, which is what stops
+        // "set scrollLeft -> scroll event -> set scrollLeft" from looping.
+        function kdPaintReels(centre) {
+            const inner = document.getElementById('kdReelInner');
+            const outer = document.getElementById('kdReelOuter');
+            if (inner) inner.querySelectorAll('.kd-reel-item').forEach(it =>
+                it.classList.toggle('sel', +it.dataset.idx === kdSelLens));
+            if (outer) outer.querySelectorAll('.kd-reel-item').forEach(it =>
+                it.classList.toggle('sel', +it.dataset.idx === kdSelPar));
+            if (centre) {
+                kdCentreReel(inner, kdSelLens, true);
+                kdCentreReel(outer, kdSelPar, true);
+            }
+        }
+
+        function kdBuildReels() {
+            const inner = document.getElementById('kdReelInner');
+            const outer = document.getElementById('kdReelOuter');
+            if (!inner || !outer) return;
+            [inner, outer].forEach(el =>
+                el.querySelectorAll('.kd-reel-item').forEach(n => n.remove()));
+
+            kdLenses.forEach((l, i) => {
+                const b = document.createElement('div');
+                b.className = 'kd-reel-item';
+                b.dataset.idx = i;
+                b.innerHTML = escapeHtml(l.name) + '<span class="n">' + l.n.toLocaleString() + ' docs</span>';
+                b.onclick = () => { if (i !== kdSelLens) kdSpinInnerTo(i, false); };
+                inner.appendChild(b);
+            });
+            kdParadigm.forEach((p, i) => {
+                const b = document.createElement('div');
+                b.className = 'kd-reel-item';
+                b.dataset.idx = i;
+                b.innerHTML = escapeHtml(p.name) + '<span class="n">' + p.n.toLocaleString() + ' docs</span>';
+                b.onclick = () => { if (i !== kdSelPar) kdSpinTo(i, false); };
+                outer.appendChild(b);
+            });
+
+            [[inner, 'inner'], [outer, 'outer']].forEach(([el, which]) => {
+                let raf = null;
+                el.addEventListener('scroll', () => {
+                    if (raf) return;
+                    raf = requestAnimationFrame(() => {
+                        raf = null;
+                        const idx = kdCentredIndex(el);
+                        if (which === 'inner' && idx !== kdSelLens) {
+                            kdSelLens = idx;
+                            kdPaintReels(false);
+                            kdRenderJunction();
+                            kdSpinSel();
+                        } else if (which === 'outer' && idx !== kdSelPar) {
+                            kdSelPar = idx;
+                            kdPaintReels(false);
+                            kdRenderJunction();
+                            kdSpinSel();
+                        }
+                    });
+                }, { passive: true });
+            });
+        }
+
         function kdRenderLock(selIdx, selPar) {
-            const svg = document.getElementById('kdLockSvg');
-            if (!svg) return;
-            const cx = 220, cy = 220;
-            const N = kdLenses.length || 1;
-            const P = kdParadigm.length || 1;
-            const innerStep = kdStepFor(N), outerStep = kdStepFor(P);
-            const j = kdJunction();
-
-            const R_INNER = 134, R_OUTER = 176;
-            const W_INNER = 13, W_OUTER = 16;
-
-            let h = `<defs>
-                <radialGradient id="kdFace" cx="38%" cy="32%" r="75%">
-                    <stop offset="0%" stop-color="#3a5a5e"/>
-                    <stop offset="55%" stop-color="#1b3a40"/>
-                    <stop offset="100%" stop-color="#0c2530"/>
-                </radialGradient>
-                <linearGradient id="kdPolarizer" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#ffd166"/>
-                    <stop offset="50%" stop-color="#e8b64c"/>
-                    <stop offset="100%" stop-color="#c99a3a"/>
-                </linearGradient>
-                <radialGradient id="kdKnob" cx="40%" cy="30%" r="70%">
-                    <stop offset="0%" stop-color="#f0c55f"/>
-                    <stop offset="55%" stop-color="#c99a3a"/>
-                    <stop offset="100%" stop-color="#8a6423"/>
-                </radialGradient>
-                <filter id="kdGlow"><feGaussianBlur stdDeviation="3"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-                <filter id="kdStarGlow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-            </defs>`;
-
-            // ════ FACE [aesthetic] — BQH golden-ratio guide circle [prescribed] ════
-            const innerR = Math.round(212 / 1.618);
-            h += `<circle cx="${cx}" cy="${cy}" r="212" fill="url(#kdFace)" stroke="rgba(232,182,76,0.45)" stroke-width="3"/>`;
-            h += `<circle cx="${cx}" cy="${cy}" r="${innerR}" fill="none" stroke="rgba(232,182,76,0.12)" stroke-width="1"/>`;
-
-            // ════ POLARIZER PAIR [prescribed: Karim BioGeometry Dial] ════
-            // Two identical shapes oriented around the central axis — the bottom
-            // window is where they meet. Source: rexresearch.com/biogeom/biogeom.htm
-            h += `<path d="${kdArcPath(cx, cy, 200, 60, 120)}" fill="none" stroke="url(#kdPolarizer)" stroke-width="6" stroke-linecap="round" opacity="0.9" data-bg-tier="prescribed" data-bg-source="Karim BioGeometry Dial — polarizer pair around central axis"/>`;
-            h += `<path d="${kdArcPath(cx, cy, 200, 240, 300)}" fill="none" stroke="url(#kdPolarizer)" stroke-width="6" stroke-linecap="round" opacity="0.9" data-bg-tier="prescribed" data-bg-source="Karim BioGeometry Dial — polarizer pair around central axis"/>`;
-
-            // ════ MINOR MARKS [prescribed: 16-count BG3 amplification] ════
-            const marksPerBand = 16;
-            const minorStep = 360 / (N * marksPerBand);
-            for (let i = 0; i < N * marksPerBand; i++) {
-                const a = 90 + i * minorStep;
-                const [x1, y1] = kdPolar(cx, cy, 190, a);
-                const [x2, y2] = kdPolar(cx, cy, 196, a);
-                h += `<line x1="${x1.toFixed(2)}" y1="${y1.toFixed(2)}" x2="${x2.toFixed(2)}" y2="${y2.toFixed(2)}" stroke="rgba(232,182,76,0.14)" stroke-width="1" data-bg-tier="prescribed" data-bg-source="Karim 16-count BG3 amplification"/>`;
-            }
-
-            // ════ OUTER BAND — the Paradigms (the eye) ════
-            h += `<g id="kdRingOuter">`;
-            h += `<circle cx="${cx}" cy="${cy}" r="${R_OUTER}" fill="none" stroke="rgba(232,182,76,0.16)" stroke-width="${W_OUTER}"/>`;
-            if (kdParadigm.length) {
-                const selA = 90;
-                const half = outerStep / 2 * 0.8;
-                const pRec = kdParHueRec(j.par ? j.par.name : '');
-                const pHue = j.pHue;
-                h += `<path d="${kdArcPath(cx, cy, R_OUTER, selA - half, selA + half)}" fill="none" stroke="${kdHsl(pHue, 70, 58)}" stroke-width="${W_OUTER}" stroke-linecap="round" filter="url(#kdGlow)"/>`;
-                for (let i = 0; i < kdParadigm.length; i++) {
-                    const a = kdAngleForSlot(i, selPar, outerStep);
-                    const rec = kdParHueRec(kdParadigm[i].name);
-                    const hue = kdParHueOf(rec, kdParadigm[i].name);
-                    const [x, y] = kdPolar(cx, cy, R_OUTER, a);
-                    const active = i === selPar;
-                    if (active) {
-                        h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="6.5" fill="${kdHsl(hue, 80, 62)}" filter="url(#kdStarGlow)"/>`;
-                    } else {
-                        h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="4" fill="${kdHsl(hue, 55, 45)}" opacity="0.85"/>`;
-                    }
-                    h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="11" fill="transparent" data-ring="outer" data-idx="${i}"/>`;
-                }
-            }
-            h += `</g>`;
-
-            // ════ INNER BAND — the Founder lanes (the archive) ════
-            h += `<g id="kdRingInner">`;
-            h += `<circle cx="${cx}" cy="${cy}" r="${R_INNER}" fill="none" stroke="rgba(232,182,76,0.14)" stroke-width="${W_INNER}"/>`;
-            if (kdLenses.length) {
-                const selA = 90;
-                const half = innerStep / 2 * 0.8;
-                h += `<path d="${kdArcPath(cx, cy, R_INNER, selA - half, selA + half)}" fill="none" stroke="${kdHsl(j.lHue, 74, 60)}" stroke-width="${W_INNER}" stroke-linecap="round" filter="url(#kdGlow)"/>`;
-                for (let i = 0; i < kdLenses.length; i++) {
-                    const a = kdAngleForSlot(i, selIdx, innerStep);
-                    const rec = kdHueRec(kdLenses[i].name);
-                    const hue = kdHueOf(rec, kdLenses[i].name);
-                    const [x, y] = kdPolar(cx, cy, R_INNER, a);
-                    const active = i === selIdx;
-                    const focus = kdFocusOf(kdLenses[i].name);
-                    const isFocus = focus && focus.af_posts > 8;
-                    if (active) {
-                        h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="5.5" fill="${kdHsl(hue, 85, 64)}" filter="url(#kdStarGlow)"/>`;
-                    } else {
-                        h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="${isFocus ? 3.4 : 2.6}" fill="${kdHsl(hue, 55, 45)}" opacity="${isFocus ? 0.9 : 0.7}"/>`;
-                    }
-                    // invisible, finger-sized tap target for each lane [aesthetic]
-                    h += `<circle cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" r="10" fill="transparent" data-ring="inner" data-idx="${i}"/>`;
-                    if (isFocus && active) {
-                        const [sx, sy] = kdPolar(cx, cy, R_INNER - 18, a);
-                        h += `<text x="${sx.toFixed(2)}" y="${(sy + 4).toFixed(2)}" font-size="12" text-anchor="middle" fill="#ffd166" filter="url(#kdStarGlow)" data-bg-tier="prescribed" data-bg-source="Karim BG3 quality marker">★</text>`;
-                    }
-                }
-            }
-            h += `</g>`;
-
-            // ════ CENTER KNOB [aesthetic] — keyhole, never a pyramid ════
-            // ════ JUNCTION BEAD [aesthetic] ════
-            // Where the content band and the lens band meet, the boundary color
-            // appears: Goethe's purpur/green point, made visible.
-            const [bjx, bjy] = kdPolar(cx, cy, 155, 90);
-            h += `<circle cx="${bjx.toFixed(2)}" cy="${bjy.toFixed(2)}" r="12" fill="${kdHsl(j.jHue, 80, 55)}" filter="url(#kdGlow)"/>`;
-            h += `<circle cx="${bjx.toFixed(2)}" cy="${bjy.toFixed(2)}" r="12" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.2"/>`;
-
-            const knobInnerR = Math.round(60 / 1.6);
-            h += `<circle cx="${cx}" cy="${cy}" r="86" fill="url(#kdKnob)" stroke="rgba(58,44,16,0.9)" stroke-width="3"/>`;
-            h += `<circle cx="${cx}" cy="${cy}" r="${knobInnerR}" fill="none" stroke="rgba(58,44,16,0.55)" stroke-width="2"/>`;
-            h += `<circle cx="${cx}" cy="${cy - 8}" r="14" fill="#231503"/>`;
-            h += `<path d="M ${cx - 9} ${cy - 2} L ${cx + 9} ${cy - 2} L ${cx + 6} ${cy + 22} L ${cx - 6} ${cy + 22} Z" fill="#231503"/>`;
-            h += `<circle cx="${cx}" cy="${cy - 8}" r="6" fill="#e8b64c"/>`;
-
-            svg.innerHTML = h;
+            kdPaintReels(true);
             kdRenderJunction();
-            kdSyncRail();
         }
 
         function kdSetOuterRot(deg) {
@@ -3719,91 +3772,14 @@
             kdRenderInner();
             kdShowLane();
 
-            const wrap = document.getElementById('kdLockWrap');
-            // ── drag rotates the OUTER ring only: the archive never moves ──
-            let drag = null;
-            const angleOf = (e, cx, cy) => Math.atan2(e.clientY - cy, e.clientX - cx) * 180 / Math.PI;
-            wrap.addEventListener('pointerdown', e => {
-                if (kdSpinning) return;
-                const rect = wrap.getBoundingClientRect();
-                const cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
-                drag = { id: e.pointerId, sx: e.clientX, sy: e.clientY, sr: kdSpinRotOuter, selPar: kdSelPar, cx, cy, moved: false };
-                try { wrap.setPointerCapture(e.pointerId); } catch (_) {}
-                wrap.classList.add('dragging');
-            });
-            wrap.addEventListener('pointermove', e => {
-                if (!drag || drag.id !== e.pointerId) return;
-                const a0 = angleOf({ clientX: drag.sx, clientY: drag.sy }, drag.cx, drag.cy);
-                const a1 = angleOf(e, drag.cx, drag.cy);
-                let d = a1 - a0;
-                if (d > 180) d -= 360; if (d < -180) d += 360;
-                if (Math.abs(d) > 1.5) drag.moved = true;
-                if (!drag.moved) return;
-                kdSpinRotOuter = drag.sr + d;
-                kdSetOuterRot(kdSpinRotOuter);
-                if (!kdParadigm.length) return;
-                const step = kdStepFor(kdParadigm.length);
-                const idx = kdPointedAtFor(kdSpinRotOuter, drag.selPar, step, kdParadigm.length);
-                const p = kdParadigm[idx];
-                const readout = document.getElementById('kdReadout');
-                if (readout) readout.innerHTML = `👁 the eye is turning — <b style="color:var(--gold-bright)">${escapeHtml(p.name)}</b> coming into the window`;
-            });
-            // Tap vs drag. The wrap sets pointer capture on pointerdown, so a
-            // click inside the dial is delivered to the WRAP, never to the
-            // window or the lane markers underneath. Every tap therefore has to
-            // be hit-tested here, or the chest would never open by touch.
-            const openChest = () => {
-                if (kdSpinning) return;
-                const now = Date.now();
-                if (openChest._t && now - openChest._t < 250) return;   // ignore double-fire
-                openChest._t = now;
-                if (kdSelSubj) kdOpenSubject(kdSelSubj); else kdSpinSel();
-            };
-            const endDrag = e => {
-                if (!drag) return;
-                const moved = drag.moved, endRot = kdSpinRotOuter;
-                const tapX = e.clientX, tapY = e.clientY;
-                drag = null;
-                wrap.classList.remove('dragging');
-                if (moved) {
-                    if (!kdParadigm.length) { kdRenderLock(kdSelLens, kdSelPar); return; }
-                    const step = kdStepFor(kdParadigm.length);
-                    const idx = kdPointedAtFor(endRot, kdSelPar, step, kdParadigm.length);
-                    kdSpinTo(idx, true, false);
-                    return;
-                }
-                if (kdSpinning) return;
-                let el = null;
-                try { el = document.elementFromPoint(tapX, tapY); } catch (_) {}
-                if (el && el.dataset && el.dataset.ring) {
-                    const i = parseInt(el.dataset.idx, 10);
-                    if (!isNaN(i)) {
-                        if (el.dataset.ring === 'inner' && i !== kdSelLens) { kdSpinInnerTo(i, true); return; }
-                        if (el.dataset.ring === 'outer' && i !== kdSelPar) { kdSpinTo(i, true, false); return; }
-                    }
-                }
-                const wrapRect = wrap.getBoundingClientRect();
-                const wx = wrapRect.left + wrapRect.width / 2, wy = wrapRect.top + wrapRect.height / 2;
-                const winEl = document.getElementById('kdWindow');
-                const wr = winEl ? winEl.getBoundingClientRect() : null;
-                const inWindow = wr && tapX >= wr.left && tapX <= wr.right && tapY >= wr.top && tapY <= wr.bottom;
-                const ddx = tapX - wx, ddy = tapY - wy;
-                const nearKnob = (ddx * ddx + ddy * ddy) < (wrapRect.width * 0.22) * (wrapRect.width * 0.22);
-                if (inWindow || nearKnob) openChest();
-            };
-            wrap.addEventListener('pointerup', endDrag);
-            wrap.addEventListener('pointercancel', endDrag);
+            // ── The reels replace the ring: native scroll-snap does the
+            // momentum and the snapping, so there is no drag maths and no
+            // 40px touch targets. Clicking an item steps the selection.
+            kdBuildReels();
+            kdPaintReels(true);
 
-            // Keyboard / assistive activation still arrives as a real click
-            // (no pointer capture in that path), so keep these listeners too.
             const win = document.getElementById('kdWindow');
             if (win) win.addEventListener('click', openChest);
-            document.getElementById('kdLockSvg').addEventListener('click', e => {
-                const rect = wrap.getBoundingClientRect();
-                const cx = rect.left + rect.width / 2, cy = rect.top + rect.height / 2;
-                const dx = e.clientX - cx, dy = e.clientY - cy;
-                if (dx * dx + dy * dy < (rect.width * 0.22) * (rect.width * 0.22)) openChest();
-            });
 
             // rail selects — the accessible path to both bands
             const laneSel = document.getElementById('kdLaneSelect');
