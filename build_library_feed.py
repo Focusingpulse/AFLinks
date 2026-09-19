@@ -1660,7 +1660,10 @@ def main():
             meta, title, body = parse_md_frontmatter(path)
             # pull a rough status from body for cheap front-end filtering
             status = "proposed"
-            m = re.search(r"status:\s*\*{0,2}(proposed|approved|merged|rejected)", body)
+            # Quest cards write "**Status:** proposed" — the old regex required
+            # no space after the bold marker, so it never matched and every
+            # quest silently rendered as "proposed". See 2026-09-19 note.
+            m = re.search(r"[Ss]tatus:[ \t]*\*{0,2}[ \t]*(proposed|approved|merged|rejected)", body)
             if m:
                 status = m.group(1)
             practical["quests"].append({
@@ -1684,7 +1687,10 @@ def main():
                     print(f"  WARN: could not copy dossier {base}: {e}", flush=True)
             meta, title, body = parse_md_frontmatter(path)
             status = "draft"
-            m = re.search(r"Status:\s*\*{0,2}([\w\-]+)", body)
+            # Dossiers write "**Status:** protocol" (space before the value);
+            # the old regex demanded a word char immediately after the bold
+            # marker, so all 28 dossiers rendered as "draft". Fixed 2026-09-19.
+            m = re.search(r"Status:[ \t]*\*{0,2}[ \t]*([\w\-]+)", body)
             if m:
                 status = m.group(1)
             practical["dossiers"].append({
