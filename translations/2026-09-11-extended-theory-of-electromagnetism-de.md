@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-extended-theory-of-electromagnetism-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: "D. Schadach — Extended Theory of Electromagnetism (Barrett 1993)"
+description: "Dirk Schadach's German-language document on Terence W. Barrett's extended theory of electromromagnetism (1993). Language: German."
 ---
 
 D Schadach — Extended Theory of Electromagnetism (Barrett 1993) — 29.10.98

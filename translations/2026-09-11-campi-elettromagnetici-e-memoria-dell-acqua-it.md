@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Electromagnetic Fields and the Memory of Water (Rome Coherence meeting, Italian)"
+description: "English translation of the Italian report on the Rome Coherence meeting at the Casa dell'Aviatore on electromagnetic fields and the memory of water — Benveniste/Montagnier water-activation research, Calamai's ion-cyclotron resonance development. Source: https://www.vglobale.it/2013/04/24/campi-elettromagnetici-e-memoria-dell-acqua-una-sfida-che-continua/. Language: Italian."
 ---
 
 The most advanced biotechnologies applied to classical genetic diagnostics were presented. Also evolving is the integration between biotechnologies of genetic and molecular derivation and those emerging from the studies of Benveniste and Montagnier, which in recent years have developed, particularly in Eastern Europe. And continued in Italy, as the physicist Odoardo Calamai pointed out, presenting a theoretical development of the cyclotron resonance of ions that could explain the effects of water activation which, in a test, proved to be anything but trivial.

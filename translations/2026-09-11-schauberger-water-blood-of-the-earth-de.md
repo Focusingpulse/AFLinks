@@ -1,6 +1,6 @@
 ---
-name: "2026-09-11-schauberger-water-blood-of-the-earth-de"
-description: "Full-document translation (assembled from completed chunks)."
+name: "Viktor Schauberger — Water, the Blood of the Earth (German)"
+description: "German-language compilation on Viktor Schauberger's view of water as the blood of the earth. Language: German."
 ---
 
 Viktor Schauberger
