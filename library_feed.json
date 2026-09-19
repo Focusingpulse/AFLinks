@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:07:41Z",
+  "generated_at": "2026-09-19T08:05:23Z",
   "library": {
     "researchers": 1172,
     "researchers_cataloged": 1172,
@@ -2504,6 +2504,102 @@
         {
           "title": "Early",
           "description": "literacy recovery in a non-North-American cohort.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "file": "2026-09-19-scout-b-langs-2.md",
+      "scout": "scout-b",
+      "languages": "ko, uk, it",
+      "finds": [
+        {
+          "title": "Korean Nuclear Society",
+          "description": "LENR Paper (2002, 40% Excess Heat)",
+          "url": ""
+        },
+        {
+          "title": "OpenWiki.kr",
+          "description": "Cold Fusion Overview (Korean)",
+          "url": ""
+        },
+        {
+          "title": "Tesla Turbine Pico",
+          "description": "Hydro — Building Lighting Application (2023)",
+          "url": ""
+        },
+        {
+          "title": "Tesla Bladeless Turbine Generator",
+          "description": "Compressed Air (800V, 2.5A)",
+          "url": ""
+        },
+        {
+          "title": "Tesla Resonance Energy Gain",
+          "description": "Academic Paper (2016)",
+          "url": ""
+        },
+        {
+          "title": "Keely/Tesla Consciousness",
+          "description": "\"Keely, Tesla e la coscienza che muove la materia\"",
+          "url": ""
+        },
+        {
+          "title": "Ether and Free Energy",
+          "description": "\"L'Etere, l'energia libera e lo scisma scientifico\"",
+          "url": ""
+        },
+        {
+          "title": "Keely Free Energy Inventor",
+          "description": "Forum Compilation",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "file": "2026-09-19-scout-b-langs-1.md",
+      "scout": "scout-b",
+      "languages": "de, fr, ja",
+      "finds": [
+        {
+          "title": "Viktor Schauberger",
+          "description": "\"Wasser — Das Blut der Erde\" (1930 treatise, full PDF)",
+          "url": ""
+        },
+        {
+          "title": "Rudolf Steiner",
+          "description": "Landwirtschaftlicher Kurs (1924, full PDF)",
+          "url": ""
+        },
+        {
+          "title": "Goethean Morphology",
+          "description": "Jahrbuch für Goetheanismus articles",
+          "url": ""
+        },
+        {
+          "title": "Tesla Ether/Scalar Waves",
+          "description": "\"Tesla, l'éther et les ondes scalaires\"",
+          "url": ""
+        },
+        {
+          "title": "Keely Sympathetic Vibration",
+          "description": "\"De Keely à Peregrinus\"",
+          "url": ""
+        },
+        {
+          "title": "David Giquello",
+          "description": "\"L'énergie libre de Nikola Tesla\" (2024 book, PDF available)",
+          "url": ""
+        },
+        {
+          "title": "Cool Fusion Co.",
+          "description": "LENR Heat Module (COP ~5, commercial prototype)",
+          "url": ""
+        },
+        {
+          "title": "New Hydrogen Fusion Energy",
+          "description": "4H/TSC Theory, Helium-3 Detection",
           "url": ""
         }
       ]
@@ -8851,9 +8947,9 @@
       "mission": "Second overnight sweep in a different set of languages — catches what the first pass missed.",
       "schedule": "nightly 2am MDT",
       "icon": "🌅",
-      "last_run": "2026-09-18T08:09:06Z",
+      "last_run": "2026-09-19T08:05:07Z",
       "last_status": "ok",
-      "last_summary": "+2 finds since last run (22->24) | overdrive hunt: cs/es/tr/fa/hi/sv, 13 finds in 2 files — Drbal patent 91304 full text + psychotronika founding history (cs), Figuera forgotten Canary inventor + Schauberger ES edition + Tesla FOIA audit (es), Johansson 2002 Schauberger replication PDF + JoVE hyperb"
+      "last_summary": "-22 files since last run (24->2) | 6 langs (de/fr/ja/ko/uk/it), 12 finds, overdrive gear | Japanese LENR commercial (COP 5), helium-3 peer-reviewed, Korean KNS paper, Ukrainian Tesla turbine apps"
     },
     {
       "member": "translation-curator",
@@ -8895,9 +8991,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-09-19T06:05:16Z",
+      "last_run": "2026-09-19T07:08:49Z",
       "last_status": "ok",
-      "last_summary": "sync: 76111 docs, feed rebuilt"
+      "last_summary": "sync: 76235 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -9011,6 +9107,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-09-19",
+      "time": "07:08",
+      "agent": "AFLinks Sync",
+      "summary": "+76235 docs — +76235 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-09-19",
       "time": "06:05",
@@ -9364,12 +9466,6 @@
       "time": "08:37",
       "agent": "AFLinks Sync",
       "summary": "+67171 docs — +948 docs since 06:35 sync (67,171 total); feed rebuilt, concept coverage 44%, slim index 98.5 MiB (1.5 MiB headroom); queue starved, no scrape"
-    },
-    {
-      "date": "2026-09-17",
-      "time": "08:20",
-      "agent": "Translation Sweeper",
-      "summary": "+12 chunks — Overdrive run: translated chunks 59-70 of the Czech book 'Za tajemstvim eteru' (Behind the Mystery of Ether), now 70/120. Sections cover the 1927 Lindbergh landing heard via amateur radio before any news broadcast, the 1928 Italia airship North Pole disaster and its SOS rescue via Soviet amateur Schmidt, Jarmila Heřmanová OK2YL — the first woman radio operator in Czechoslovakia, the Interior Ministry manhunt for illegal 'black' stations, and the 1926-28 licensing battle that led to legal amateur radio."
     }
   ],
   "declassified": [
@@ -866869,9 +866965,9 @@
       {
         "drawer": "found",
         "label": "Newly found",
-        "title": "Moulin — Metric Torsion Formalism and Vacuum Rigidity (2026)",
-        "excerpt": "URL:** https://www.academia.edu/164762798/Metric_Torsion_Formalism_and_Vacuum_Rigidity",
-        "meta": "2026-09-01",
+        "title": "Kit Expérimental Générateur d'Ondes Scalaires",
+        "excerpt": "French Scalar Wave Experimental Kit",
+        "meta": "2026-08-29",
         "rarity": "scout find",
         "href": "./library.html"
       },
@@ -867360,7 +867456,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-09-19T07:07:41Z",
+    "as_of": "2026-09-19T08:05:23Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 101,
