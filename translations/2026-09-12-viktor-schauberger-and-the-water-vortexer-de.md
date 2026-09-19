@@ -1,6 +1,6 @@
 ---
-name: "Viktor Schauberger and the Water Vortexer"
-description: "German article about Viktor Schauberger's water vortex technology and the principles of implosion vs explosion. Source: https://www.orpanit.de/wissenswertes/viktor-schauberger-und-der-wasserwirbler/ (German). Author: Orpanit."
+name: Viktor Schauberger and the Water Vortexer
+description: German article about Viktor Schauberger's water vortex technology and the principles of implosion vs explosion. Source: https://www.orpanit.de/wissenswertes/viktor-schauberger-und-der-wasserwirbler/ (German). Author: Orpanit.
 ---
 
 # Viktor Schauberger and the Water Vortexer
