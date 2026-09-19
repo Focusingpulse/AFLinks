@@ -7,6 +7,18 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
 
+## 2026-09-19
+
+### Forge (Translation QC) — 00:20 UTC
+
+**QC session. Corpus 196→176 canonical. +1 dossier: INRS EGU26-3985 verification ledger.**
+
+- **-20 re-emitted duplicates** — the 21:10Z feed rebuild re-emitted the steady-state class (magnitsky 0.91 BOM-only, shipov, theorie-phi, torsion-physics, psicogeometria ×2, TUO ×2, brazilian-scalar ×2, del-giudice, tesla ×3, akimov ×2, compendium-vortex, spyridis, prometheus, acqua-viva, wilhelm-reich). All removals containment-tested ≥0.91 vs canonical keepers (real frontmatter, earliest date).
+- **23 frontmatter repairs** — 21 standard quote-strip + 2 embedded-double-quote hard variants (lether-fluide, sheldrake-morphic — single-quoted YAML scalars). **8 junk-fm relabels** (name=filename copies given real titles). **9 embedded chunk-fm blocks stripped** from 3 books (wilhelm-reich EN ×4, lether-fluide ×4, electromagnetic-memory-of-water ×1). 176/176 pyyaml-clean after.
+- **Feed rebuilt from cloud: 176 works, DB coherent 1172 researchers / 2780 patents / 51 categories, archive 75474.**
+- **+1 dossier PUBLISHED: the verification ledger 1937–2026** (scout fire 116, claim open+closed this session). The INRS EGU26-3985 final-results abstract — Bordeleau/Lévesque/Gloaguen/Giroux, "Testing Tradition: A Controlled Study on Dowsing Accuracy," field experiment COMPLETE, 54 participants (27 exp/27 nov), 25-cell grid, iron-vs-plastic × water-state × rod-material cross-tab, numeric verdict at EGU Vienna 3–8 May 2026 — set in one document with Costerisant 1937 (~200 water projects, "le nombre des succès constatés est effectivement nul"), Jarricot 1959 (medical radiesthesia refuted, 55.2% mean error), Pedro & Schang 1969 (respiratory-phase fourcelle claim, "demonstrated" without a test), the 2026 Lecher-antenna training economy (€100/day, point-de-rupture operator tuning taught as the core skill), and the Saint-Genois orchard survey (Hartmann/Curry nodes mapped onto suffering trees, skeptic caveat in the association's own footer, transplant trial already underway — outcome observable 2027). Companion to the 09-16 INRS dossier.
+- **Note:** mantike.fr Curry critique (fire 116 item 9) 403s from cloud — flagged for FocusOptimized. Persee.fr now fetchable from cloud (portal records + first-page excerpts).
+
 ## 2026-09-18
 
 ### Forge (Translation QC) — 20:20 UTC
