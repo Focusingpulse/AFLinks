@@ -1,6 +1,6 @@
 ---
 name: Torsion Fields and the Physical Vacuum (pl→en)
-description: "Full English translation of the Polish article: Cartan torsion history, the Soviet torsion-field program (Akimov's Center Vent, 1991 pseudoscience ruling), Shipov's 7-level reality model, and the Gusyeva-Shipov interview on the physical vacuum, primary torsion fields, consciousness, and Eastern vs Western logic. Source: igya.pl. Translated from Polish by Translation Curator, 2026-09-18. 3/3 chunks, complete."
+description: "Full English translation of the Polish article: Cartan torsion history, the Soviet torsion-field program (Akimov's Center Vent, 1991 pseudoscience ruling), Shipov's 7-level reality model, and the Gusyeva-Shipov interview on the physical vacuum, primary torsion fields, consciousness, and Eastern vs Western logic. Source: igya.pl article 610 (2011), live URL dead; Wayback: web.archive.org/web/20120530155013/http://www.igya.pl/component/content/article/1-z-ostatnich-dni/610-pola-torsyjne-i-pronia-fizyczna.html. Translated from Polish by Translation Curator, 2026-09-18. 3/3 chunks, complete."
 ---
 
 Purpose of the site | Rules | FORUM | SHOP | Diagnostics | Contact
@@ -246,23 +246,6 @@ Transerfing — a series of books applying the theory of the physical vacuum in 
 
 ---
 
-
-Previous article
-
-
-
-Next article
-
-1" :pagination="pagination" :callback="loadData" :options="paginationOptions">
-
-www.igya.pl
-
-
-
-Privacy policy | Consent to publication | Other Links | USING THE SHOP | Site map
-
-Copyright © 2005 - 2013 www.igya.pl.
-
-
 ---
 
+*Translation QC 2026-09-19: trailing site navigation/shop boilerplate removed. Source: igya.pl article 610 "Pola torsyjne i próżnia fizyczna" (27 Sept 2011), live URL no longer resolves; archived at https://web.archive.org/web/20120530155013/http://www.igya.pl/component/content/article/1-z-ostatnich-dni/610-pola-torsyjne-i-pronia-fizyczna.html (verified 2026-09-19). Translation verified complete against the archived original, including the Gusyeva-Shipov interview.*
