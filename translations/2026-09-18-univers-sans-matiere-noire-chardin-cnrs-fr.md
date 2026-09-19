@@ -1,6 +1,6 @@
 ---
 name: A Universe Without Dark Matter? (Chardin, CNRS) — full translation
-description: 'FR->EN full-document translation (2026-09-18, Translation Curator). Original: "Un Univers sans matière noire ?" by Yaroslav Pigenet (interviewing Gabriel Chardin), Le Journal du CNRS, 04.06.2018, https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0. Tags: cosmology, dark matter, dark energy, antimatter, negative mass, Dirac-Milne, MOND, CNRS, French. Archival copy: archives/2026-09-18-univers-sans-matiere-noire-chardin-cnrs.html'
+description: FR->EN full-document translation (2026-09-18, Translation Curator). Original: "Un Univers sans matière noire ?" by Yaroslav Pigenet (interviewing Gabriel Chardin), Le Journal du CNRS, 04.06.2018, https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0. Tags: cosmology, dark matter, dark energy, antimatter, negative mass, Dirac-Milne, MOND, CNRS, French. Archival copy: archives/2026-09-18-univers-sans-matiere-noire-chardin-cnrs.html
 ---
 
 Skip to navigation
@@ -420,3 +420,111 @@ Notes
 
 
 ---
+
+
+-->
+
+See also
+
+Matter
+
+Article
+17/09/2026
+
+Jacqueline Bloch, magician of light
+
+
+Blog
+14/09/2026
+
+Copper and diamond: a composite material for cooling...
+
+
+Blog
+02/09/2026
+
+Zoom on an innovative membrane for water treatment
+
+
+Blog
+15/07/2026
+
+Triggering a chemical reaction with near-... light
+
+
+Blog
+09/07/2026
+
+Green fluorescence: freeing ourselves from oil thanks to the living world
+
+
+
+
+cosmology
+
+Article
+07/04/2025
+
+The Big Bang within telescope range
+
+Article
+27/03/2023
+
+Trouble in cosmology
+
+Article
+04/06/2018
+
+Evidence of a dark sector in the Universe
+
+
+
+
+Dark matter
+
+
+
+
+Blog
+29/06/2026
+
+Video - At the frontiers of darkness, the quest for...
+
+Blog
+24/02/2026
+
+On the trail of dark matter: long-lived particles...
+
+Slideshow
+10/07/2024
+
+LSST: the largest digital camera ever built!
+
+Blog
+10/06/2024
+
+Lumps of dark matter in the Milky Way?
+
+Article
+02/02/2024
+
+At the origins of the standard model
+
+Author
+
+Yaroslav Pigenet
+Science journalist
+
+Learn more about the author
+
+Keywords
+
+Dark matter gravity Antimatter dark energy dark sector antigravity Mass LHC Standard model Big Bang WIMP Albert Einstein Expansion of the universe General relativity
+
+Share this article
+
+-->
+
+
+---
+

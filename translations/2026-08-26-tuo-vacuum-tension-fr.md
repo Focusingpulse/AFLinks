@@ -1,5 +1,5 @@
 ---
-name: "Wave Universe Theory (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant…"
+name: Wave Universe Theory (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant…
 description: "Translation document. https://doi.org/10.5281/zenodo.17311741"
 ---
 
