@@ -1,5 +1,5 @@
 ---
-name: "Morphic fields and morphic resonance — what is it? (myslczlowieku.pl) (pl→en)"
+name: Morphic fields and morphic resonance — what is it? (myslczlowieku.pl) (pl→en)
 description: "Full English translation of Daniel Nurek's 2023 Polish explainer of Rupert Sheldrake's morphic field theory: morphic fields as immaterial structures guiding growth and behavior, collective species memory, morphic resonance across space-time, the memory of nature, mind fields extending beyond the brain, telepathy/intuition/collective consciousness — with the scientific mainstream's criticism noted. Translated from Polish by Translation Sweeper, 2026-09-18. 3/3 chunks, complete."
 ---
 

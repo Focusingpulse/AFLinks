@@ -1,5 +1,5 @@
 ---
-name: "Schauberger 1951 Luxembourg Patent — Method for Controlling Molecular Processes"
+name: Schauberger 1951 Luxembourg Patent — Method for Controlling Molecular Processes
 description: "Full-document translation. language de | 9 chunks | https://www.implosion-ev.de/pdf/leseproben/146_30.pdf"
 ---
 

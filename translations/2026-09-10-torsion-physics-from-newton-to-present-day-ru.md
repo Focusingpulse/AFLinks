@@ -1,5 +1,5 @@
 ---
-name: "Torsion Physics from Newton to Present Day"
+name: Torsion Physics from Newton to Present Day
 description: "Full-document translation. language ru | 1 chunks | https://trinitas.ru/rus/doc/0231/008b/02311174.htm"
 ---
 

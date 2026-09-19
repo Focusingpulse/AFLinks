@@ -1,5 +1,5 @@
 ---
-name: "Fundamentals of Free Energy (Exopolitics Spain) (es→en)"
+name: Fundamentals of Free Energy (Exopolitics Spain) (es→en)
 description: "Full English translation of Exopolitics Spain's free-energy primer: quantum vacuum / zero-point energy, luminiferous aether and akasha, Planck-scale vacuum, Bearden's 10^108 J/cm³ estimate, Casimir effect, Heisenberg uncertainty and observer, Aspect's non-locality experiment, remote viewing, plus a catalog of free-energy articles and movement links (Steorn, LaViolette, Bedini, Adams, Reich). Translated from Spanish by Translation Sweeper, 2026-09-18. 1/1 chunk, complete."
 ---
 

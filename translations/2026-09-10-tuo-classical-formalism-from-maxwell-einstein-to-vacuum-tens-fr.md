@@ -1,5 +1,5 @@
 ---
-name: "TUO Classical Formalism - From Maxwell Einstein to Vacuum Tension Tv"
+name: TUO Classical Formalism - From Maxwell Einstein to Vacuum Tension Tv
 description: "Full-document translation. language fr | 7 chunks | https://zenodo.org/api/records/17311989/files/1_V.1.1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf/content"
 ---
 

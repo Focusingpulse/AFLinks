@@ -1,6 +1,6 @@
 ---
-name: "The Fourth Phase of Water — Russian Edition TOC"
-description: "Full translation of the books-up.ru Russian excerpt page — the complete table of contents of the Russian edition of Gerald Pollack's The Fourth Phase of Water (trans. Yatsenkov), mapping the extended chapter structure of the ru translation."
+name: The Fourth Phase of Water — Russian Edition TOC
+description: Full translation of the books-up.ru Russian excerpt page — the complete table of contents of the Russian edition of Gerald Pollack's The Fourth Phase of Water (trans. Yatsenkov), mapping the extended chapter structure of the ru translation.
 ---
 
 [Table of contents of the Russian edition — translated for completeness. This is the bookseller excerpt page: it exposes the full TOC of the Russian translation of Gerald Pollack's "The Fourth Phase of Water", not the book text itself.]

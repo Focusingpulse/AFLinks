@@ -1,5 +1,5 @@
 ---
-name: "TUO - Theorie de l'Univers Onde (FR→EN)"
+name: TUO - Theorie de l'Univers Onde (FR→EN)
 description: "Translation document. language fr | domain: cosmology | https://doi.org/10.5281/zenodo.17311741"
 ---
 

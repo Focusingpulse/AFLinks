@@ -1,5 +1,5 @@
 ---
-name: "A Universe Without Dark Matter?"
+name: A Universe Without Dark Matter?
 description: "Translation document. https://lejournal.cnrs.fr/articles/un-univers-sans-matiere-noire-0"
 ---
 

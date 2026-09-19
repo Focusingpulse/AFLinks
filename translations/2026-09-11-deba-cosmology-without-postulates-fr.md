@@ -1,5 +1,5 @@
 ---
-name: "DEBA - Organizational Coherence Cosmology"
+name: DEBA - Organizational Coherence Cosmology
 description: "Complete translation of 'Une Cosmologie Complete sans Postulats' by Michel Debailleul. Source: https://zenodo.org/records/18033125/files/DEBA%20-%20Une%20Cosmologie%20Compl%C3%A8te%20Sans%20Postulats%2C%20R%C3%A9ponses%20aux%20Anomalies.pdf. Language: French. A stochastic field theory of bubble-universe emergence from an atemporal configuration space, providing unified explanations for dark matter, dark energy, early supermassive black holes, and CMB anomalies."
 ---
 

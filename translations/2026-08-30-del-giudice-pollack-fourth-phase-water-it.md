@@ -1,5 +1,5 @@
 ---
-name: "Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water"
+name: Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water
 description: "Translation document. language it | domain: water-physics, biophysics, quantum-coherence | https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/"
 ---
 

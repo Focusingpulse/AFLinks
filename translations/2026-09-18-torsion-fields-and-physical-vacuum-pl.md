@@ -1,5 +1,5 @@
 ---
-name: "Torsion Fields and the Physical Vacuum (pl→en)"
+name: Torsion Fields and the Physical Vacuum (pl→en)
 description: "Full English translation of the Polish article: Cartan torsion history, the Soviet torsion-field program (Akimov's Center Vent, 1991 pseudoscience ruling), Shipov's 7-level reality model, and the Gusyeva-Shipov interview on the physical vacuum, primary torsion fields, consciousness, and Eastern vs Western logic. Source: igya.pl. Translated from Polish by Translation Curator, 2026-09-18. 3/3 chunks, complete."
 ---
 
