@@ -663,3 +663,5 @@ description: Scooter (Growth Scout) — self-reported activity log. Written by S
 - Highlights: Prometheus RBE/LET, B-16 RBE 1.5, TOPAS MC, Ac-225-PSMA-617 dosimetry, At-211, pediatric proton (retinoblastoma/craniopharyngioma/chordoma)
 - Discovery probe: vixri.ru/vixri.com «Альтернативная наука» — index live, PDF host conn-fail → PARKED
 - OCR/queue/tag pending FocusOptimized. Report: sources/2026-09-15-scout-growth-1615.md
+
+- 2026-09-19 18:15Z — SSF re-diff +13: full-tree re-enumeration (688 landing pages) -> 281 files -> 18 apparent-new -> 13 live Hindi PPTX slide decks merged id-safe (77,540->77,553, ids 2419843-2419855, shard_0007+manifest only, 0 dup). New .pptx text-extraction branch in process_generic_cloud.py gives all 13 real Hindi previews, 0 empty, 0 scan. Dropped: 1 dead amperes pptx (master-page stale link), 2 file:// template artifacts, 1 host-variant dup, 1 known-dead jp-petit. Live-wrap all dry (lenr-canr byte-identical, viXra max 0052 archived, iccf-27 unchanged). Report: sources/2026-09-19-scout-growth-1815.md

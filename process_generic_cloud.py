@@ -450,6 +450,34 @@ def main():
             except Exception as e:
                 print(f"  DOCX-ERR: {e}")
                 preview = ""
+        elif ext == '.pptx':
+            # OOXML slide-deck text extraction via zip+XML (no external deps).
+            # Slide text lives under ppt/slides/slideN.xml as <a:t> runs.
+            try:
+                import zipfile
+                import xml.etree.ElementTree as ET
+                import io
+                pptx_data = subprocess.run(['curl','-s','-L','--max-time','40','-A',get_ua(site_name), url], capture_output=True, timeout=50).stdout
+                if pptx_data:
+                    zf = zipfile.ZipFile(io.BytesIO(pptx_data))
+                    slides = sorted([n for n in zf.namelist()
+                                     if re.match(r'ppt/slides/slide\d+\.xml$', n)],
+                                    key=lambda n: int(re.search(r'(\d+)', n).group(1)))
+                    texts = []
+                    for sname in slides[:24]:
+                        try:
+                            root = ET.fromstring(zf.read(sname))
+                            for elem in root.iter():
+                                if elem.tag.endswith('}t') and elem.text and elem.text.strip():
+                                    texts.append(elem.text)
+                        except Exception:
+                            continue
+                    preview = ' '.join(texts)
+                    preview = re.sub(r'\s+', ' ', preview).strip()[:2000]
+                    zf.close()
+            except Exception as e:
+                print(f"  PPTX-ERR: {e}")
+                preview = ""
         elif ext == '':
             # Extension-less URLs are HTML pages on many archives (TikiWiki
             # clean URLs like svpwiki.com/Keely, MediaWiki /index.php/Title).
