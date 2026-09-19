@@ -1,5 +1,4 @@
----
-name: Form Waves: Origin, Principles, and Controversies
+---name: "Form Waves: Origin, Principles, and Controversies"
 description: "Translation document. https://www.centreganesha.com/les-ondes-de-forme/"
 ---
 

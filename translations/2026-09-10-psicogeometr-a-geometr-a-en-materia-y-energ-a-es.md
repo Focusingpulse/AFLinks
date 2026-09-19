@@ -1,5 +1,4 @@
----
-name: Psicogeometría: Geometría en Materia y Energía
+---name: "Psicogeometría: Geometría en Materia y Energía"
 description: "Full-document translation. language es | 4 chunks | https://psicogeometria.com/geometriasagrada4.1.html"
 ---
 

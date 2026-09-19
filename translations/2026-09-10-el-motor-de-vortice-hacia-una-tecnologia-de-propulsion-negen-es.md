@@ -1,5 +1,4 @@
----
-name: El Motor de Vortice: Hacia una Tecnologia de Propulsion Negentropica
+---name: "El Motor de Vortice: Hacia una Tecnologia de Propulsion Negentropica"
 description: "Full-document translation. language es | 1 chunks | https://doi.org/10.5281/zenodo.17626722"
 ---
 
