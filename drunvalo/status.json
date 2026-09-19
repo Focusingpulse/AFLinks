@@ -1,9 +1,9 @@
 {
   "agent": "drunvalo",
-  "last_run": "village-content-growth: 6 new PEP/PEM/PEA BB quests, 3 library resources, Aetherforce guild translations (es/fr/de)",
+  "last_run": "aetherforce-translation-qc",
   "task": "aetherforce-translation-qc",
   "status": "ok",
-  "summary": "QC'd 5 recent translations (all pass, sources verified live). Major DB hygiene: merged duplicate Ravatin person + 43 duplicate works (228->185), remapped 150 dangling cross-refs, fixed 120+3 bad file paths, replaced 11 placeholder titles, added Chevreul + Carpenter person entries (187 persons).",
+  "summary": "translation QC: 5 recent translations checked, 3 fixed (boilerplate trim + source URLs incl. 1 dead link -> Wayback), DB +9 persons +5 works, dupes merged, collision check passed",
   "reports": [
     "drunvalo/report-2026-09-17-081057.json"
   ],
@@ -23,5 +23,6 @@
       "details": "Village growth run 2026-09-17 08:00 UTC. Permies crawl: 499 badge/BB categories (was 399), 7 new entries merged into master_quests.json (406 total). 6 new quest cards in data.js (175 tuples): Reuse Water From a Shower, Clean a Kitchen, Rose Blossom Salve, Plant From a Cutting (PEA), Salted Pork (PEM), Make a Snare (PEM). Library +3 verified resources: Ana White plans, Cultures for Health, CalEarth SuperAdobe. translations.js: es/fr/de guild translations for 3 Aetherforce guilds (Water Vortex, Biocircuitry Eeman, Aetherforce Power) - all 27 data.js guilds now translate in all 3 languages. Link check: 800 URLs, 781 good. Village commit e065eee pushed to main."
     }
   ],
-  "last_run_at": "2026-09-17T08:31:58Z"
+  "last_run_at": "2026-09-17T08:31:58Z",
+  "last_run_time": "2026-09-19T04:12:00Z"
 }
