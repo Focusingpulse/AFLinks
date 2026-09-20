@@ -1,6 +1,6 @@
 ---
-name: "Paths of Psychotronics Vol. 1 Issue 1 (1999): founding history of psychotronics (cs→en)"
-description: "Full English translation of the founding journal issue of the Unity of Czech and Slovak Researchers in Psychotronics (JČSBP): origin-of-psychotronics historiography (Drbal/Rejdák/Stuchlík, 18 March 1967; Clerc 1955 term), Válek place-and-role doctrine, Břetislav Kafka biography, biocommunication glossary. Source: http://www.fsoft.cz/rf/jcbp/casopis1/c1.htm (verified live 2026-09-20; fragile personal hosting). Translated from Czech by Translation Curator, 2026-09-18. 1/1 chunks, complete."
+name: Paths of Psychotronics Vol. 1 Issue 1 (1999): founding history of psychotronics (cs→en)
+description: "Full English translation of the founding journal issue of the Unity of Czech and Slovak Researchers in Psychotronics (JČSBP): origin-of-psychotronics historiography (Drbal/Rejdák/Stuchlík, 18 March 1967; Clerc 1955 term), Válek place-and-role doctrine, Břetislav Kafka biography, biocommunication glossary. Source: fsoft.cz (fragile personal hosting). Translated from Czech by Translation Curator, 2026-09-18. 1/1 chunks, complete."
 ---
 
 PATHS OF PSYCHOTRONICS Volume 1 (1999), issue 1

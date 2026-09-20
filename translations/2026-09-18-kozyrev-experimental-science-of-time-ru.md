@@ -1,13 +1,34 @@
 ---
-name: "Experimental Science of Time: Kozyrev's First Experiments (ru→en)"
-description: "Full English translation of V.L. Pravdivtsev's article on Kozyrev's laboratory experiments — Time as substance with course, direction, and density; entropy/negentropy links; material 'memory' of Time exposure (lead 14s, aluminum 28s, wood 70s). Source: https://zerkoz.ru/publications/eksperimentalnaya-nauka-o-vremeni-pervye-opyty-kozyreva/ (verified 2026-09-20). Translated from Russian by Translation Curator, 2026-09-18. 4/4 chunks, complete."
+name: Experimental Science of Time: Kozyrev's First Experiments (ru→en)
+description: "Full English translation of V.L. Pravdivtsev's article on Kozyrev's laboratory experiments — Time as substance with course, direction, and density; entropy/negentropy links; material 'memory' of Time exposure (lead 14s, aluminum 28s, wood 70s). Source: zerkoz.ru. Translated from Russian by Translation Curator, 2026-09-18. 4/4 chunks, complete."
 ---
+
+Central office: Moscow, Ul. Turistskaya, 33, bldg. 1, office 1-11
+
+
+
+Science and Production Company CIOT "SFERA"
+
+
+
++7 (495) 58-58-438
+Request a call
+
+
+
++7 (495) 58-58-438
+Request a call
+
+
+
+February 5, 2026, 22:00
 
 Experimental Science of Time: Kozyrev's First Experiments
 
 PUBLICATIONS AND ARTICLES
 
 Publications by Pravdivtsev V.L.
+
 
 
 Kozyrev's theory rested not on philosophy but on experiment. The scientist conducted laboratory experiments in which he recorded the directionality, density, and active properties of Time. These experiments became the foundation for further research.
@@ -85,3 +106,44 @@ Kozyrev believed that Time possesses energy and that under its action the proper
 Kozyrev's experiments confirmed: bodies are capable of "remembering" the action of Time. Thus, for example, "...A body that had remained for some time near a process and was then brought up to the torsion balance acted upon it in the same way as the process itself. The remembering of the action of processes is characteristic of various substances, with the exception of aluminum" (Kozyrev, 1977).
 
 Kozyrev's experiments showed that objects remember what the density of Time was around them rather quickly — literally within 20-30 seconds. But "forgetting" can take considerably longer — sometimes hours — and it manifests itself in the substance slowly recovering from the "structural deformation" received under the action of a process. At the same time, it turned out that this "memory" depends not so much on the mass of the object as on the density of its substance. The denser the material and the more "springy" it is, the faster it "forgets" the action of a process in which Time was being released. Kozyrev tested these effects on various materials: copper, brass, quartz, glass, air, water, coal, graphite, table salt, and others. It was found, for example, that lead (density 11 g/cm³) remembers the action for 14 seconds, aluminum (density 2.7 g/cm³) for 28 seconds, and wood (density 0.5 g/cm³) for 70 seconds. It also turned out that porous materials, such as brick or volcanic tuff, remember actions the longest.
+
+Read all the articles in the section "The Theory of Time. Scientific publications by V. L. Pravdivtsev":
+
+
+---
+
+
+Part 1: 1. Nikolai Kozyrev: the scientist ahead of his time. 2. Time as a physical reality: Kozyrev's new scientific hypothesis. 3. The experimental science of Time: Kozyrev's first experiments. 4. Reflection, screening, and rotation: the physical properties of Time. 5. Time, Earth, and Cosmos: planetary and astronomical observations. 6. Time and consciousness: the active properties of reality. 7. The Kozyrev theory: criticism, confirmations, and scientific legacy.
+
+
+
+
+
+Share:
+
+
+
+
+Latest publications
+
+
+
+
+"Energy Phyto-Detox": a program in the Kozyrev Mirrors at BIG for internal cleansing and restoration
+
+15.05.2026
+More →
+
+The "TITAN" program for men in the Kozyrev Mirrors at BIG
+
+10.02.2026
+More →
+
+The "SAKURA" program in the Kozyrev Mirrors at BIG: restoration of feminine resources and inner balance
+
+01.03.2026
+More →
+
+
+---
+
