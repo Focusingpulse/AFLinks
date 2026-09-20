@@ -177432,5 +177432,111 @@
     "content_preview": "Kombinatorik bei ” Schiffe versenken“ Henning Thielemann 31. Mai 2019 Zusammenfassung Wir berechnen die Anzahl der Moglichkeiten, um die Schiffe beim Spiel ¨ ” Schiffe versenken“ anzuordnen. Die Antwort: Auf einem 10 × 10-Spielfeld gibt es 26 509 655 816 984 (etwa 26,5 Billionen) Moglichkeiten, ein Schiff der ¨ Lange 5, zwei Schiffe der L ¨ ange 4, drei Schiffe der L ¨ ange 3 und vier Schiffe ¨ der Lange 2 mit Zwischenr ¨ aumen zu plazieren. Dabei sind Drehungen und ¨ Spiegelungen nicht herausgerechnet. Die gute Nachricht: Auf einem aktuellen Rechner lasst sich die Antwort ¨ in etwa 6 Minuten berechnen. Die schlechte Nachricht: Bei dem verwendeten Ansatz wachsen die Rechenzeit und der Speicherverbrauch sehr stark mit der Breite des Spielfeldes. Die gute Nachricht: Die Rechenzeit wachst nur pro- ¨ portional mit der Hohe des Spielfeldes und der Speicherverbrauch h ¨ angt gar ¨ nicht von der Hohe des Spielfeldes ab. ¨ 1 1 Motivation Am 4. Dezember 2011 erhielt ich von Manuela Kugel1 die Frage, wie wahrschein￾lich es ist, dass zwei Spieler beim Spiel ” Schiffe versenken“2 unabhangig vonein- ¨ ander die Schiffe gleich aufstellen. Dies war an jenem Tag bei einem Spiel zwi￾schen ihrem Sohn und dessen Opa passiert. Die Frage lasst sich streng genommen ¨ nur beantworten, wenn man die Wahrscheinlichkeitsverteilung kennt, die die Spie￾ler beim Aufstellen der Schiffe befolgen. Der Einfachheit halber nahm ich Gleich￾verteilung an. Mehr zu dieser Annahme in Unterabschnitt 6.2. Unter dieser Annah￾me bleibt ” nur“ noch die Frage zu klaren, wieviele verschiedene M ¨ oglichkeiten es ¨ gibt, einen vorgegebenen Satz an Schiffen auf einem Spielfeld zu verteilen. In zahlreichen WWW-Foren wurde die Frage nach der Anzahl der Moglichkei- ¨ ten bereits fur eine Vielzahl von Spielvarianten gestellt (Spielfeldgr ¨ oße, Auswahl ¨ Schiffe, durfen sich Schiffe ber ¨ uhren oder nicht), aber nie beantwortet. Es wurden ¨ einige Vorschlage gemacht, wie man das Problem mit Hilfe von Inklusion und Ex- ",
     "last_modified": "2026-09-19",
     "source_site": "viXra_org"
+  },
+  {
+    "id": 2427273,
+    "filename": "2609.0053v1.pdf",
+    "title": "2609.0053v1",
+    "type": "document",
+    "extension": ".pdf",
+    "size_bytes": 0,
+    "source_url": "https://vixra.org/pdf/2609.0053v1.pdf",
+    "categories": [
+      "Patents",
+      "Quantum & Relativity",
+      "Conspiracy / Politics",
+      "Finance / Economics"
+    ],
+    "meta_categories": [
+      "Patents & Inventions",
+      "Challenges to the Standard Model",
+      "Geopolitics & Hidden History"
+    ],
+    "patent_numbers": [],
+    "primary_person": "",
+    "content_preview": "DEVELOPMENT OF A REDUNDANT FIBONACCI NUMERAL SYSTEM (NFNS) WITH A DUAL BASIS FOR FAULT-TOLERANT COMPUTING ENVIRONMENTS Andrey V. Voron (anvoron1@yandex.ru) September 19, 2026 Abstract Modern positional numeral systems suffer from zero code redundancy, making internal data verification impossible. While the classical Fibonacci numeral system features natural redundancy, its level varies drastically across different numbers. To optimize and stabilize this mathematical framework, this paper formulates the Parity Constraint Rule to restrict code redundancy. Based on this rule, we develop a New Fibonacci Numeral System (NFNS) with a dual basis designed specifically for fault-tolerant computing environments. 1 Introduction The most widely used positional systems include binary, ternary, octal, decimal, duodecimal, hexadecimal, vigesimal, and sexagesimal systems. There also exists the mixed \"Fibonacci\" numeral system for integers based on Fibonacci numbers. It is underpinned by Zeckendorf's theorem: any non-negative integer can be uniquely represented as a sum of one or more distinct Fibonacci numbers (excluding F₁) such that the representation does not include any two consecutive Fibonacci numbers. A universal bit-sequence code for natural numbers is constructed using this system. The combination \"11\" is strictly forbidden in the classical Fibonacci numeral system and serves as an end-of-record marker. A similar property of multi-valued representation (ambiguity) is also shared by George Bergman’s positional numeral system, which uses an irrational base known as the golden ratio. Table 1 – Comparative representation of bit capacities with examples of codes for natural numbers and code redundancy in various numeral systems A) BINARY NUMERAL SYSTEM Radix: 2 155 Radix: Golden ratio 8 8 8 Radix: Fibonacci sequence numbers 8 8 8 8 128 64 1 0 4,236 2,618 1 1 1 1 1 0 21 13 32 16 8 0 1 1 B) BERGMAN’S NUMERAL SYSTEM 1,618 1 0,618 0 1 0 0 0 1 1 1 1 C) FIBONACCI NUMERAL SYSTEM 4 2 1",
+    "last_modified": "2026-09-20",
+    "source_site": "viXra_org"
+  },
+  {
+    "id": 2427274,
+    "filename": "2609.0054v1.pdf",
+    "title": "2609.0054v1",
+    "type": "document",
+    "extension": ".pdf",
+    "size_bytes": 0,
+    "source_url": "https://vixra.org/pdf/2609.0054v1.pdf",
+    "categories": [
+      "Energy",
+      "Patents",
+      "Quantum & Relativity"
+    ],
+    "meta_categories": [
+      "Alternative Energy Technologies",
+      "Patents & Inventions",
+      "Challenges to the Standard Model"
+    ],
+    "patent_numbers": [],
+    "primary_person": "",
+    "content_preview": "The Lorentz-FitzGerald contraction applied to the Earth and its motion relative to the CM B Miloš Čojanović independent researcher September 19, 2026 Abstract The Lorentz − F itzGerald contraction is the physical phenomenon where an object becomes contracted along the axis of motion. We will test this hypothesis by observing the movement of the Earth relative to the CM B rest frame. Keywords: The L-F contraction, Michelson–Morley experiment 1. Introduction The L − F contraction hypothesis is physics theory where a moving object shortens along the direction of its motion. Is is designed to explain the negative result of the M ichelson–M orley experiment. The L − F contraction formula is given in the following way [1]. r v2 L = L0 1 − 2 c Where : L: The contracted length along its direction of motion. L0 : The rest length v: The relative velocity between the observer and the moving object. c: The speed of light in a vacuum. r L = L0 2. \u0012 \u0013 v2 v2 1 − 2 ≈ L0 1 − 2 c 2c v 2 L0 ∆L = L0 − L = 2 c2 (1) (2) Earth’s motion relative to the stationary coordinate system (K) The Geocentric-Equatorial Coordinate System, Figure[1] has the origin O at the center of the Earth, the fundamental plane is the equator and the positive x points in the vernal equinox direction. The z points in the direction of the north pole. By the definition it is non-rotating coordinate system with the respect to the stars [2]. The position of the star is determined by two angles called right ascension and declination Figure[1]. The right ascension α is measured eastward in the plane of equator from the vernal equinox direction. The declination δ is measured northward from the equator to the line of sight, we would say that is an angle between the plane of equator 1 and the direction of the starlight [2]. Our goal is to calculate the effect that the L − F contraction has on the Earth, assuming that the Earth is moving at a velocity v0 relative to the stationary coordinate system (K). z (K) A0 A v O0 v",
+    "last_modified": "2026-09-20",
+    "source_site": "viXra_org"
+  },
+  {
+    "id": 2427275,
+    "filename": "2609.0055v1.pdf",
+    "title": "2609.0055v1",
+    "type": "document",
+    "extension": ".pdf",
+    "size_bytes": 0,
+    "source_url": "https://vixra.org/pdf/2609.0055v1.pdf",
+    "categories": [
+      "Energy",
+      "Patents",
+      "Quantum & Relativity",
+      "Environment / Climate",
+      "Steinmetz"
+    ],
+    "meta_categories": [
+      "Alternative Energy Technologies",
+      "Patents & Inventions",
+      "Challenges to the Standard Model",
+      "Environment & Climate",
+      "Electromagnetic Theory"
+    ],
+    "patent_numbers": [],
+    "primary_person": "",
+    "content_preview": "Solar Neutrino Problem, Atmospheric Neutrino Oscillations, Generations of Leptons and Quarks, and Imaginary Mass of Dark Matter Sylwester Kornowski (Retired) West Pomeranian Education Board, Szczecin, Poland E-mail: sylwester.kornowski@gmail.com ORCID: https://orcid.org/0009-0008-0909-5655 Abstract: By combining the quark model and the atom-like structure of baryons described in the Scale-Symmetric Theory (SST) we have described the solar neutrino problem and generations of quarks. According to SST, there is a similarity of shapes and equality of mass ratios of the components of the three fundamental cores, i.e. of the core of lightest neutrinos, core of baryons, and the core of the Protoworld that was composed of dark matter. Within such a similarity we described the origin of the large mixing angle 𝛩12 /𝑜 = 33.089 and the origin of 2 the mass-squared splitting 𝛥𝑚21 = 7.42 × 10−5 𝑒𝑉 2 that define the solar neutrino oscillations. In our description, there appears imaginary mass and activation of the solar neutrino oscillations that can be damped. We showed that survival probability for the solar electron-neutrinos 1 1 decreases from at low energies of the electron-neutrinos (it is a mean value) to for 𝜈𝑒 ≥ 𝑢 + 2 3 𝑢 + 𝑑 = 9.345 𝑀𝑒𝑉. We also described the atmospheric neutrino oscillations. SST leads to a minimum in the curve describing the dependence of the survival probability on neutrino energy 𝐿 𝑘𝑚 for the atmospheric 𝜈𝜇 -like neutrinos for ≈ 500 – it is consistent with experimental data. 𝐸𝜈 𝐺𝑒𝑉 From SST follows that there are three generations of leptons and four generations of quarks and that the eight quarks combine into four pairs, i.e. 𝑑 and 𝑢, 𝑠 and 𝑐, 𝑏 and 𝑡, and 𝑏′ ≈ 2.68 𝑇𝑒𝑉 and 𝑡′ ≈ 14.76 𝑇𝑒𝑉. We described also the dark-matter (DM) field. Keywords: Scale-Symmetric Theory, Solar Neutrino Problem, Imaginary Mass, Activation of Neutrino Oscillations, Atmospheric Neutrino Oscillations, Generations of Leptons and Quarks, Fourth Generation of Quarks, Dark-Mat",
+    "last_modified": "2026-09-20",
+    "source_site": "viXra_org"
+  },
+  {
+    "id": 2427276,
+    "filename": "2609.0056v1.pdf",
+    "title": "2609.0056v1",
+    "type": "document",
+    "extension": ".pdf",
+    "size_bytes": 0,
+    "source_url": "https://vixra.org/pdf/2609.0056v1.pdf",
+    "categories": [
+      "Energy",
+      "Quantum & Relativity",
+      "Conspiracy / Politics",
+      "Finance / Economics",
+      "Biology / Health",
+      "Environment / Climate"
+    ],
+    "meta_categories": [
+      "Alternative Energy Technologies",
+      "Challenges to the Standard Model",
+      "Geopolitics & Hidden History",
+      "Biology, Health & Medicine",
+      "Environment & Climate"
+    ],
+    "patent_numbers": [],
+    "primary_person": "",
+    "content_preview": "Batteries for Future: A New Alternative of Li-ion Battery Vitaly V. Chaban Chaban Computational Chemistry, Saint Petersburg, Russia. Abstract. The rapid evolution of energy storage technology has necessitated the exploration of alternatives to conventional Li-ion batteries. It is driven by the limitations of resource scarcity, safety concerns, and sustainability challenges. This chapter critically discusses the technical, economic, and environmental aspects of emerging battery technologies. While Li-ion batteries are instrumental in powering electronics, electric vehicles, and renewable energy systems, their reliance on limited lithium and cobalt deposits, flammability risks, and recycling hurdles necessitate the development of next-generation solutions. A compelling alternative is solid-state batteries based on non-flammable ceramic, polymer, and glasses. These batteries feature enhanced safety, higher energy density, and improved thermal stability. These parameters satisfy applications in vehicles. Yet, challenges related to manufacturing scalability, interfacial resistance, and cheap production persist. Na-ion batteries gain researchers’ attention due to the low cost of sodium. Despite their lower energy density compared to Li-ion, recent advancements in cathode and anode materials can decrease the performance gap. Another promising avenue is lithium-oxygen and zinc-air systems. The latter offer theoretical energy densities surpassing the ones of Li-ion systems. Oxygen management, electrolyte degradation, and limited cycle life remain limiting barriers. Redox flow batteries, particularly vanadium and organic redox flow systems, provide scalable solutions for long-duration performance, though their bulkiness and lower energy density eliminate their compatibility with tablets and smartphones. Mg-, Ca-, and Al-ions are cheap and offer high theoretical capacities. A slow-ion kinetics must be dealt with in the future. Organic and biodegradable batteries leverage eco-f",
+    "last_modified": "2026-09-20",
+    "source_site": "viXra_org"
   }
 ]
