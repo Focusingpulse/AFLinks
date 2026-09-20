@@ -32,7 +32,24 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 DOCS_DIR = ROOT / "pages"
-DC_DIR = ROOT / "synthesis" / "death-certificates"  # copied from living-library by build_library_feed.py
+# Certificate directory. The rename (v2) moves this to synthesis/claim-status-records/;
+# resolve to whichever exists so the builder survives the migration window.
+# See cron-coordination/DEATH-CERTIFICATES.md — the rename is sequenced, not atomic.
+_DC_CANDIDATES = [ROOT / "synthesis" / "claim-status-records",
+                  ROOT / "synthesis" / "death-certificates"]
+
+
+def _resolve_dc_dir():
+    for d in _DC_CANDIDATES:
+        if d.is_dir():
+            return d
+    return _DC_CANDIDATES[-1]
+
+
+DC_DIR = _resolve_dc_dir()
+# Accepted schema ids. v1 is the pre-rename id; v2 is the renamed one. Both are
+# read during the migration so a renamed certificate is not silently skipped.
+CERT_SCHEMAS = {"wrong-turn-death-certificate-v1", "claim-status-record-v2"}
 RG_FILE = ROOT / "synthesis" / "replication-guides.json"  # Open Lab replication guides [prescribed: Directive C]
 IPFS_FILE = ROOT / "synthesis" / "ipfs-manifest.json"  # Phase 4 pinning manifest [prescribed: Directive B]
 STYLE = """
@@ -100,6 +117,46 @@ def doc_url(doc_id):
     return f"/AFLinks/pages/{int(doc_id):08d}.html"
 
 
+# --- doc references -------------------------------------------------------
+# A doc reference is EITHER "doc:<integer>" or a bare integer. Nothing else.
+#
+# The spec (cron-coordination/DEATH-CERTIFICATES.md) already states that vault
+# docs "must be written as doc:<numeric id>". This function is the one place
+# that decides what counts, so a future edit cannot reintroduce the old bug by
+# copying a regex.
+#
+# WHY THIS EXISTS — the first-digit-run trap (found 2026-09-20):
+# the previous code did re.search(r"(\d+)", str(doc_id)) on a free-text field,
+# so `translation:2026-08-25-atsyukovsky-etherodynamics-ru` resolved to doc
+# 2026, and `schauberger-luxembourg-patent-1951-de` resolved to doc 1951 — a
+# farm-radio lesson. That is fabricated provenance: a certificate attached to a
+# document its claim is not about, asserted in JSON-LD that machines index.
+# The fleet's slug convention is date-first, so EVERY dated citation extracted
+# its year. Enforcing the declared convention kills the whole class.
+#
+# Anything that does not match is UNLINKED, not guessed. Unlinked refs are
+# collected and counted so a future mismatch is visible rather than silent.
+UNLINKED_REFS = set()
+
+
+def parse_doc_ref(value):
+    """Return an int doc id for 'doc:<id>' or a bare integer, else None.
+
+    None means UNLINKED — the caller must not invent an id. The raw value is
+    recorded in UNLINKED_REFS so the build can report how many refs it could
+    not resolve.
+    """
+    if value is None:
+        return None
+    s = str(value).strip()
+    if re.fullmatch(r"doc:\d+", s):
+        return int(s[4:])
+    if re.fullmatch(r"\d+", s):
+        return int(s)
+    UNLINKED_REFS.add(s)
+    return None
+
+
 def load_death_certificates():
     """Load wrong-turn death certificates and build a doc_id -> lineage map.
     [prescribed: Master Directive B — contradiction links seeded from death certificates]"""
@@ -112,22 +169,18 @@ def load_death_certificates():
                 cert = json.load(f)
         except Exception:
             continue
-        if cert.get("schema") != "wrong-turn-death-certificate-v1":
+        if cert.get("schema") not in CERT_SCHEMAS:
             continue
         # map every archive doc in this lineage to this certificate
         for did in cert.get("archive_docs", []):
-            try:
-                dc_map.setdefault(int(did), []).append(cert)
-            except (TypeError, ValueError):
-                continue
-        # also map numeric doc_ids appearing in lineage events
+            n = parse_doc_ref(did)
+            if n is not None:
+                dc_map.setdefault(n, []).append(cert)
+        # also map doc references appearing in lineage events
         for ev in cert.get("lineage", []):
-            did = ev.get("doc_id")
-            if did is None:
-                continue
-            m = re.search(r"(\d+)", str(did))
-            if m:
-                dc_map.setdefault(int(m.group(1)), []).append(cert)
+            n = parse_doc_ref(ev.get("doc_id"))
+            if n is not None:
+                dc_map.setdefault(n, []).append(cert)
     return dc_map
 
 
@@ -267,9 +320,9 @@ def jsonld_for_doc(doc, dc_map):
     if certs:
         rel = []
         for cert in certs:
-            ev_ids = [int(re.search(r"(\d+)", str(e.get("doc_id"))).group(1))
-                      for e in cert.get("lineage", [])
-                      if e.get("doc_id") and re.search(r"(\d+)", str(e.get("doc_id")))]
+            ev_ids = [n for n in (parse_doc_ref(e.get("doc_id"))
+                                  for e in cert.get("lineage", []))
+                      if n is not None]
             others = [base + doc_url(i) for i in ev_ids if i != did]
             if others:
                 rel.append({
@@ -296,8 +349,8 @@ def render_lineage_html(certs):
         claim = cert.get("claim", "")
         events = []
         for ev in cert.get("lineage", []):
-            m = re.search(r"(\d+)", str(ev.get("doc_id") or ""))
-            link = (f' <a href="/AFLinks/pages/{int(m.group(1)):08d}.html">→</a>' if m else "")
+            n = parse_doc_ref(ev.get("doc_id"))
+            link = (f' <a href="/AFLinks/pages/{n:08d}.html">→</a>' if n is not None else "")
             events.append(f'<div class="ev"><span class="d">{esc(ev.get("date", ""))}</span> — '
                           f'{esc(ev.get("event", ""))}{link}</div>')
         parts.append(f"""<div class="lineage">
@@ -465,7 +518,14 @@ def main():
     with open(ROOT / "robots.txt", "w", encoding="utf-8") as f:
         f.write("User-agent: *\nAllow: /\nSitemap: https://focusingpulse.github.io/AFLinks/sitemap.xml\n")
 
-    print(f"done: {n} doc pages, {len(urls)} URLs in sitemap")
+    print(f"done: {n} doc pages, {len(urls)} URLs in sitemap"
+          f" | unlinked lineage refs: {len(UNLINKED_REFS)}")
+    if UNLINKED_REFS:
+        # A non-zero count means a certificate cites something that is neither
+        # "doc:<id>" nor a bare integer. Those refs render no link — visible here
+        # rather than silently dropped. Fix the certificate, not this line.
+        for s in sorted(UNLINKED_REFS)[:10]:
+            print(f"  unlinked: {s!r}")
 
 
 if __name__ == "__main__":
