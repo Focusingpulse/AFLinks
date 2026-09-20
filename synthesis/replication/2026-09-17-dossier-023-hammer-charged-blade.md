@@ -8,7 +8,7 @@ description: Replication dossier for testing Schauberger's tool claim — that a
 **Status:** protocol_ready
 **Created:** 2026-09-17
 **Primary source:** Olof Alexandersson, *Living Water: Viktor Schauberger and the Secrets of Natural Energy* (English ed. 1982; Italian edition *Acqua Viva*), chapter "Biological Techniques in Agriculture" — full translation at `translations/2026-09-11-acqua-viva-viktor-schauberger-it.md` (lines 3262–3271)
-**Secondary source:** Viktor Schauberger, Luxembourg patent 1951 (Method for controlling and regulating water) — the same lineage's only filed technical claim; death certificate `synthesis/death-certificates/schauberger-vortex-repulsine-1951.json`
+**Secondary source:** Viktor Schauberger, Luxembourg patent 1951 (Method for controlling and regulating water) — the same lineage's only filed technical claim; death certificate `synthesis/claim-status-records/schauberger-vortex-repulsine-1951.json`
 **Discovered by:** Engine of Practicality rotation scan, 2026-09-17 (craft-guild mirror sweep — Tool Care)
 **Domain:** community (shared tool care / shared-infra knowledge)
 **Tier:** sand
@@ -147,7 +147,7 @@ Photo links: [URLs]
 
 - **Primary source:** Olof Alexandersson, *Living Water: Viktor Schauberger and the Secrets of Natural Energy* — English edition 1982; Italian edition *Acqua Viva*. Full translation in the Vault: `translations/2026-09-11-acqua-viva-viktor-schauberger-it.md` (passage at lines 3262–3271; the iron-plow/copper-plow agricultural material follows immediately after and is the same chapter's second tool claim)
 - **Same chapter, companion claim (not tested by this card):** the iron-plow vs copper-plow field comparison — Schauberger reported harvest increases from copper-plowed sections. Bigger claim, needs a season and a plow; a natural follow-up card for Gardening
-- **Death certificate:** `synthesis/death-certificates/schauberger-vortex-repulsine-1951.json` — Schauberger's vortex/implosion lineage, status *died*, cause *suppression + contractual gag + prototype failure*, retry_now pointing at the home-scale Wasserwirbler and hyperbolic-funnel dossiers. **Context only:** the certificate documents that Schauberger's *machines* were suppressed and never independently tested. Suppression is not evidence — this card tests one small tool claim on its own merits, and does not inherit a verdict from the suppression story
+- **Claim status record:** `synthesis/claim-status-records/schauberger-vortex-repulsine-1951.json` — Schauberger's vortex/implosion lineage, status *died*, cause *suppression + contractual gag + prototype failure*, retry_now pointing at the home-scale Wasserwirbler and hyperbolic-funnel dossiers. **Context only:** the certificate documents that Schauberger's *machines* were suppressed and never independently tested. Suppression is not evidence — this card tests one small tool claim on its own merits, and does not inherit a verdict from the suppression story
 - **Sibling dossiers, same lineage:** dossier 001 (Wasserwirbler), dossier 004 (hyperbolic funnel vortex) — the water-side retries
 - **Related tool-material claim in the archive:** Korschelt's 1892 *Nutzbarmachung* discusses magnetized water and "biologically magnetic" materials; Schauberger's iron-vs-copper plow material is the agricultural form of the same intuition
 - **Aetherforce reference:** search "Schauberger" / "implosion" / "living water" on https://www.aetherforce.energy

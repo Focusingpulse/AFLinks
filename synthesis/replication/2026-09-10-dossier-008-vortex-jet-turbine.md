@@ -106,7 +106,7 @@ Patent ≠ proof. A negative result is as valuable as a positive one — log it 
 ## Source Documents
 
 - translations/2026-09-09-schauberger-dynamic-hydroelectric-energy-es.md (full translation: patent 117,749 text, Herbrand account, Pöbel/Stuttgart pipe experiments)
-- living-library/synthesis/death-certificates/schauberger-vortex-repulsine-1951.json (the Repulsine wrong-turn record — this dossier tests the *turbine* line, not the Repulsine)
+- living-library/synthesis/claim-status-records/schauberger-vortex-repulsine-1951.json (the Repulsine wrong-turn record — this dossier tests the *turbine* line, not the Repulsine)
 
 ---
 

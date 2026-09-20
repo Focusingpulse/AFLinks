@@ -216,7 +216,7 @@ Photo links: [URLs]
 - **Companion card (EZ water):** `synthesis/quest-queue/2026-09-11-ez-water-exclusion-zone.md` (dossier 009) — tests whether water forms a structured exclusion zone near a hydrophilic surface. This card tests whether water retains an imprint *after* an influence is removed.
 - **Companion card (vortex water):** `synthesis/quest-queue/2026-09-06-wasserwirbler.md` (dossier 001) — the vortex apparatus can serve as a third influence arm for a family that has already built it.
 - **Validation analysis:** `synthesis/2026-09-12-pollack-ez-water-validation.md` — the tier-sorted status of the EZ-water claims this lineage leans on.
-- **Context — suppression is not evidence:** the Rife death certificate (`synthesis/death-certificates/rife-beam-ray-ama-1939.json`) documents a health device suppressed by the AMA in 1939. That history is real and worth preserving — and it is **not** evidence for any device's claim. This card tests a claim; it does not inherit a verdict from a suppression story.
+- **Context — suppression is not evidence:** the Rife death certificate (`synthesis/claim-status-records/rife-beam-ray-ama-1939.json`) documents a health device suppressed by the AMA in 1939. That history is real and worth preserving — and it is **not** evidence for any device's claim. This card tests a claim; it does not inherit a verdict from a suppression story.
 - **Aetherforce reference:** search "water memory" / "structured water" / "Emoto" on https://www.aetherforce.energy
 
 ---

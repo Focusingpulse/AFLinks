@@ -8,7 +8,7 @@ description: Replication dossier for testing whether a layered steel/organic enc
 **Status:** protocol_ready
 **Created:** 2026-09-14
 **Source:** Wilhelm Reich, *The Cancer Biopathy* (1948); Einstein meeting Jan 13, 1941; DeMeo 2009 replication claim
-**Death certificate:** `synthesis/death-certificates/orgone-reich-fda-1957.json`
+**Claim status record:** `synthesis/claim-status-records/orgone-reich-fda-1957.json`
 **Domain:** health (subtle-energy rest / vitality)
 **Tier:** straw
 **Original guild:** Oddball (Aetherforce complement family — suppressed-science re-try candidate)
@@ -121,7 +121,7 @@ Photo links: [URLs]
 - **Reich primary:** *The Cancer Biopathy* (1948), accumulator construction chapters
 - **Einstein meeting:** Bernd Laska, "The Encounter Between Wilhelm Reich and Albert Einstein" (1976), reproduced in translated volume
 - **DeMeo replication:** James DeMeo, *The Orgone Accumulator Handbook* (1980s); 2009 "definitive" To-T experiment
-- **Death certificate:** `synthesis/death-certificates/orgone-reich-fda-1957.json` — full lineage with retry protocol
+- **Claim status record:** `synthesis/claim-status-records/orgone-reich-fda-1957.json` — full lineage with retry protocol
 - **Aetherforce reference:** search "orgone" / "Reich" / "accumulator" on https://www.aetherforce.energy
 - **Vault corpus:** docs 5519, 5520, 3482, 3484, 1462, 1356, 800-805, 1520322, 1521816, etc. (see death certificate for full list)
 

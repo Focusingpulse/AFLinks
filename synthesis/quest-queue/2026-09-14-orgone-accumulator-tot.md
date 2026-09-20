@@ -53,7 +53,7 @@ description: Aetherforce quest card — test whether a layered steel/organic enc
 ## Source Documentation
 
 - **Dossier:** `living-library/synthesis/replication/2026-09-14-dossier-017-orgone-accumulator-tot.md`
-- **Death certificate:** `living-library/synthesis/death-certificates/orgone-reich-fda-1957.json` — full lineage, retry protocol
+- **Claim status record:** `living-library/synthesis/claim-status-records/orgone-reich-fda-1957.json` — full lineage, retry protocol
 - **Translation:** `living-library/translations/Wilhelm_Reich_Ether_Physics_and_Orgone_Experiments_EN.html.md` — Nasselstein volume with experimental record, Einstein meeting, DeMeo results
 - **Aetherforce reference:** search "orgone" / "Reich" / "accumulator" on https://www.aetherforce.energy
 - **Vault link:** https://focusingpulse.github.io/AFLinks

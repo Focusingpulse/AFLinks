@@ -171,7 +171,7 @@ Photo links: [URLs]
 - **Scout record:** `sources/2026-09-16-scout-a-de-fr-ja.md` find #9 (rarity: rare — thinly known in the West; host stable)
 - **Companion in the same scout run:** find #10 — Kokushikan University wave-water stress-recovery double-blind EEG study (n=7) — the same Japanese "wave water" (波動水) tradition, tested on *people* rather than water; a natural follow-up card if the family wants the physiology side
 - **Related lineage — structured water / water memory:** `sources/2026-09-15-zenin-water-as-information-storage-ru.md`; EZ-water card `synthesis/quest-queue/2026-09-11-ez-water-exclusion-zone.md` (dossier 009)
-- **Context — suppression is not evidence:** the Rife death certificate (`synthesis/death-certificates/rife-beam-ray-ama-1939.json`) documents a health device suppressed by the AMA in 1939. That history is real and worth preserving — and it is **not** evidence for the device's claim. This card tests a claim; it does not inherit a verdict from a suppression story.
+- **Context — suppression is not evidence:** the Rife death certificate (`synthesis/claim-status-records/rife-beam-ray-ama-1939.json`) documents a health device suppressed by the AMA in 1939. That history is real and worth preserving — and it is **not** evidence for the device's claim. This card tests a claim; it does not inherit a verdict from a suppression story.
 - **Aetherforce reference:** search "water memory" / "Qi" / "structured water" on https://www.aetherforce.energy
 
 ---
