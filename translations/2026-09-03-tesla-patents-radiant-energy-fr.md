@@ -1,6 +1,8 @@
 ---
-name: "2026-09-03-tesla-patents-radiant-energy-fr"
-description: Full translation of "Chercheurs Du Vrai"
+name: Analyse des brevets Tesla sur l'energie rayonnante (French source)
+description: French original (chercheursduvrai.com) analyzing Nikola Tesla radiant-energy
+  patents, translated to English. Full translation of the chercheursduvrai article
+  on Tesla radiant energy patents.
 ---
 
 Chercheurs Du Vrai

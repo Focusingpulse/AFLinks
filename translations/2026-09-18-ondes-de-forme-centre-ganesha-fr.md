@@ -1,6 +1,6 @@
 ---
-name: Form Waves: Origin, Principles, and Controversies (Centre Ganesha) — full translation
-description: FR->EN full-document translation (2026-09-18, Translation Curator). Original: "Les ondes de forme" by Centre Ganesha / ChamanKa, 5 March 2026, https://www.centreganesha.com/les-ondes-de-forme/. Tags: form waves, radiesthesia, Chaumery, de Bélizal, negative green, pyramid, geobiology, radionics, French. Archival copy: archives/2026-09-18-ondes-de-forme-centre-ganesha.html
+name: "Form Waves: Origin, Principles, and Controversies (Centre Ganesha) — full translation"
+description: "FR->EN full-document translation (2026-09-18, Translation Curator). Original: \"Les ondes de forme\" by Centre Ganesha / ChamanKa, 5 March 2026, https://www.centreganesha.com/les-ondes-de-forme/. Tags: form waves, radiesthesia, Chaumery, de Bélizal, negative green, pyramid, geobiology, radionics, French. Archival copy: archives/2026-09-18-ondes-de-forme-centre-ganesha.html"
 ---
 
 Skip to content

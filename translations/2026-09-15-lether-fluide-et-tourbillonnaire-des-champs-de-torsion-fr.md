@@ -1,6 +1,6 @@
 ---
-name: The Fluid and Vortical Ether of Torsion Fields
-description: Translation of French document "L'éther fluide et tourbillonnaire des champs de torsion" by Alain Boudet, Dr. in Physical Sciences (spirit-science.fr). Covers infinite non-electromagnetic energy filling the universe, experimental evidence by N. Kozyrev and B. DePalma, theoretical developments by A. Akimov, G. Shipov, etc. Source: https://spirit-science.fr/doc-pdf/torsion.pdf. Language: French.
+name: "The Fluid and Vortical Ether of Torsion Fields"
+description: "Translation of French document \"L'éther fluide et tourbillonnaire des champs de torsion\" by Alain Boudet, Dr. in Physical Sciences (spirit-science.fr). Covers infinite non-electromagnetic energy filling the universe, experimental evidence by N. Kozyrev and B. DePalma, theoretical developments by A. Akimov, G. Shipov, etc. Source: https://spirit-science.fr/doc-pdf/torsion.pdf. Language: French."
 ---
 
 # The Fluid and Vortical Ether of Torsion Fields
@@ -29,10 +29,6 @@ Torsion field theory makes paranormal phenomena such as psychokinesis and emissi
 ---
 
 
----
-name: The Fluid and Vortical Ether of Torsion Fields - Table of Contents
-description: Translation of French document "L'éther fluide et tourbillonnaire des champs de torsion" by Alain Boudet. Source: https://spirit-science.fr/doc-pdf/torsion.pdf. Language: French. Table of contents covering experimental evidence by DePalma and Kozyrev, theoretical developments by Shipov, and connections to consciousness and paranormal phenomena.
----
 
 ## TABLE OF CONTENTS
 
@@ -71,10 +67,6 @@ description: Translation of French document "L'éther fluide et tourbillonnaire 
 ---
 
 
----
-name: The Fluid and Vortical Ether of Torsion Fields - TOC continued and Introduction
-description: Translation of French document "L'éther fluide et tourbillonnaire des champs de torsion" by Alain Boudet. Source: https://spirit-science.fr/doc-pdf/torsion.pdf. Language: French. Continuation of table of contents and introduction to the investigation.
----
 
 ## TABLE OF CONTENTS (continued)
 
@@ -111,10 +103,6 @@ The approach is first essentially experimental. It is nourished by observations 
 ---
 
 
----
-name: The Fluid and Vortical Ether of Torsion Fields - DePalma Introduction
-description: Translation of French document "L'éther fluide et tourbillonnaire des champs de torsion" by Alain Boudet. Source: https://spirit-science.fr/doc-pdf/torsion.pdf. Language: French. Introduction to the non-electromagnetic nature of the torsion field and beginning of Bruce DePalma's experiments on rotating objects.
----
 
 Starting from these results, we will discover a new representation of the vacuum energy field—the torsion field—which includes two new aspects. One is the non-electromagnetic character of this new vacuum field. It is not composed of photons. It is situated at a finer density level than electromagnetism.
 
@@ -142,10 +130,6 @@ On Earth, gravity decreases when one moves away from the Earth's center. It ther
 ---
 
 
----
-name: The Fluid and Vortical Ether of Torsion Fields - DePalma's Rotating Balls
-description: Translation of French document "L'éther fluide et tourbillonnaire des champs de torsion" by Alain Boudet. Source: https://spirit-science.fr/doc-pdf/torsion.pdf. Language: French. Introduction to Bruce DePalma's experiments showing that gravity force on rotating objects differs from non-rotating objects.
----
 
 The mass of an object also manifests through its inertia in motion. If you spin a wheel around its axis, for example a bicycle wheel that doesn't touch the ground, it continues to rotate until friction slows and stops it. The more massive a wheel is, for example a stone grindstone, the more inertia it has, the more energy is needed to set it in motion, and the longer its movement persists.
 

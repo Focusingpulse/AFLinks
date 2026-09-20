@@ -1,6 +1,6 @@
 ---
-name: The Psi-Track — Swedish dowsing experiments (Andersson/Tellefsen/Jacobson) — full translation
-description: SV->EN full-document translation (2026-09-18, Translation Curator). Original: "Psi-spår", paranormal.se topic 664 (from PSSPR no. 15 / Sökaren 3-1994, incl. JSPR Vol. 59 Imich Prize citation), https://paranormal.se/psi/psi/spaar.html (origin now 404; archived from Wayback). Tags: psi-track, dowsing, radiesthesia, consciousness studies, double-blind, JSPR, Göte Andersson, Tellefsen, Jacobson, Swedish. Archival copy: archives/2026-09-18-psi-spar-paranormal-se.html
+name: "The Psi-Track — Swedish dowsing experiments (Andersson/Tellefsen/Jacobson) — full translation"
+description: "SV->EN full-document translation (2026-09-18, Translation Curator). Original: \"Psi-spår\", paranormal.se topic 664 (from PSSPR no. 15 / Sökaren 3-1994, incl. JSPR Vol. 59 Imich Prize citation), https://paranormal.se/psi/psi/spaar.html (origin now 404; archived from Wayback). Tags: psi-track, dowsing, radiesthesia, consciousness studies, double-blind, JSPR, Göte Andersson, Tellefsen, Jacobson, Swedish. Archival copy: archives/2026-09-18-psi-spar-paranormal-se.html"
 ---
 
 # Psi-track (Psi-spåret)

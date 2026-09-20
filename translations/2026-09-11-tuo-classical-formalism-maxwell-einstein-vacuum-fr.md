@@ -1,6 +1,8 @@
 ---
-name: "2026-09-11-tuo-classical-formalism-maxwell-einstein-vacuum-fr"
-description: "Full-document translation (assembled from completed chunks)."
+name: 'TUO: classical formalism vs Maxwell-Einstein vacuum (French source)'
+description: French original of the T.U.O. (Theorie de l'Univers-Onde) paper on classical
+  formalism versus the Maxwell-Einstein vacuum, translated to English. Full-document
+  translation.
 ---
 
 Classical formalisms and correspondence with TUO:
