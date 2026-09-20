@@ -57,3 +57,12 @@ Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton ra
 **Method note:** git clone hangs from this sandbox (known issue); entire run done via GitHub Contents API (one commit per file). Commits: 6611b62f, dd163f54, c01ec16f, 2ee488c9.
 
 **Open:** root-cause fix for duplicate re-emission still belongs in the emitting translation agent (agent-75b8d29e) — content-hash/source-URL check before write.
+
+## 2026-09-20 04:16 UTC — aetherforce-translation-qc
+- QC'd 5 most recent translations (2026-09-18 batch: biodynamic-es, cesty-psychotroniky-cs, drbal-patent-cs, kozyrev-ru, kozyrev-fa). All well-formed, fully translated, no mojibake/interleave damage.
+- Fixes: trimmed zerkoz.ru site boilerplate from kozyrev-ru (contact block, share/latest-promos, series index); added verified live source URLs to 4 files (cesty → fsoft.cz/rf/jcbp/casopis1/c1.htm found via Wayback CDX; drbal patent PDF; beee.es URL punctuation; iWell-Guard marked verified).
+- DB: research-index 5 stub entries enriched (themes/concepts/key_claims/xrefs; biodynamic authors corrected goethe→Geier/Fritz/Steiner); merged 4 dup work ids sharing identical files (220→216); fixed 43 dangling author refs (15 alias-mapped, agent names removed from authors, 8 person stubs added); fixed 3 dangling crossrefs (file paths→work ids).
+- person-index 202→215: +Pravdivtsev, Rejdák, Kafka, Geier, Fritz, Shevtsev, Astroya, Maglione, Laska, Orpanit, A.Pedro, J.Schang, Encyclopédie-de-Brocéliande; Drbal patent added to his works (was flagged "not yet in archive"); hecquet path typo fixed.
+- Collision check passed: all pushes survived concurrent fleet activity (the za-tajemstvim probe was a false alarm — string is in the surviving file path, not a work id).
+- Note: 18 person works_in_collection paths reference translation files not yet indexed in research-index (indexing gap, files exist).
+- Clone timed out from this sandbox again (90s); entire run via Contents API. 10 pushes, all OK.
