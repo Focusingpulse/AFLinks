@@ -771,16 +771,22 @@ def main():
             # Copy the newest revision into the site repo so the page can serve it
             # — but never clobber an existing published copy with a worse source
             # (degraded frontmatter or a mojibake body). 2026-09-16.
-            dst = os.path.join(translations_outdir, fname)
-            try:
-                if os.path.exists(dst) and (_frontmatter_degraded(meta)
-                                            or _has_mojibake(body)):
-                    translations_skipped += 1
-                else:
-                    import shutil
-                    shutil.copy2(path, dst)
-            except Exception as e:
-                print(f"  WARN: could not copy translation {fname}: {e}", flush=True)
+            # ── PUBLISH BOUNDARY (2026-09-20) ──────────────────────────────
+            # Full translated text is NO LONGER copied into the site repo.
+            #
+            # A translation is a derivative work and the translation right is
+            # exclusive to the original author (Berne Art. 8). Publishing full
+            # text was this library's single largest legal exposure; it is being
+            # retired in favour of a finding-aid posture (metadata + short
+            # excerpt + link to source).
+            #
+            # Nothing on the site depends on these files: index.html and
+            # library.html render only `excerpt` and `source_url` from the feed,
+            # and neither references content_file. So dropping the copy costs
+            # the site nothing.
+            #
+            # Rights status and the exposure map: living-library/legal/.
+            # ───────────────────────────────────────────────────────────────
             translation_works.append({
                 "date": fname[:10],
                 "title": title_clean,
@@ -789,7 +795,7 @@ def main():
                 "language": lang,
                 "target_language": target_lang,
                 "file": fname,
-                "content_file": f"translations/{fname}",
+                "content_file": None,   # not published: see PUBLISH BOUNDARY above
                 "excerpt": body.strip()[:220],
             })
     # --- 2a. Orphaned translations in AFLinks not yet in living-library ---
