@@ -7,7 +7,7 @@ builds two artifacts from index.json:
   search_index.json   — slim per-doc records: id, title, filename, categories,
                         meta_categories, primary_person, patent_numbers,
                         type, size_bytes, source_site, and a shortened preview
-                        (first 220 chars). Used by index.html for instant
+                        (first PREVIEW_LEN chars). Used by index.html for instant
                         search + list rendering.
   full_${NNNN}.json   — one chunk file per N chunks of FULL records (full
                         content_preview, source_url, concepts), fetched only
@@ -66,7 +66,11 @@ def main():
         # Truncated preview kept under the SAME field name so list render +
         # search keep working unchanged; search_text holds a longer slice so
         # search quality degrades far less than the renderable preview.
-        rec["content_preview"] = pv[:220]
+        # PREVIEW_LEN must actually be USED here: commit ad633e2f (2026-09-17,
+        # "trim PREVIEW_LEN 220->160, Chris decision") changed the constant
+        # only, while this line stayed hard-coded at 220 -- so the trim was a
+        # silent no-op for three days. Wired up 2026-09-20.
+        rec["content_preview"] = pv[:PREVIEW_LEN]
         rec["search_text"] = pv[:600]
         slim.append(rec)
 
