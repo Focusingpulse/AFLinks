@@ -1,5 +1,5 @@
 ---
-name: Experimental Science of Time: Kozyrev's First Experiments (ru→en)
+name: "Experimental Science of Time: Kozyrev's First Experiments (ru→en)"
 description: "Full English translation of V.L. Pravdivtsev's article on Kozyrev's laboratory experiments — Time as substance with course, direction, and density; entropy/negentropy links; material 'memory' of Time exposure (lead 14s, aluminum 28s, wood 70s). Source: zerkoz.ru. Translated from Russian by Translation Curator, 2026-09-18. 4/4 chunks, complete."
 ---
 
