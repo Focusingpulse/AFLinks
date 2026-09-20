@@ -18567,176 +18567,176 @@ List of acronyms
 ---
 
 
-1	ADEME: Agency for the environment and energy management
-2	AEE: Agency for energy savings
-3	AFME: French agency for energy management
-4	AIE: International energy agency
-5	AIEA: International atomic energy agency
-6	AN: National Archives
-7	ANDRA: National agency for radioactive waste
-8	ANRED: National agency for the recovery and elimination of waste
-9	APSRM: Agency for the prevention and surveillance of mining risks
-10	ASCAB: Association for the development of fuels by wood gasification
-11	ASN: Nuclear safety authority
-12	ATIC: Technical association for the Importation of coal
-13	BRGM: Bureau of geological and mining research and meteorology
-14	BRP: Bureau of petroleum research
-15	CAS: Action committee for solar
-16	CCNUCC: United Nations framework convention on climate change
-17	CCS: Central commission of safety
-18	CDF: Coal mines of France
-19	CEA: Commission for atomic energy
-20	CEE: Energy savings certificate
-21	CEE: European economic community
-22	CEREN: Centre for studies and research on energy savings
-23	CERN: European centre for nuclear research
-24	CES: Commission for solar energy
-25	CESP: Commission of safety of petroleum installations
-26	CESTA: Centre for the study of systems and advanced technologies
-27	CGDD: General commission for sustainable development
-28	CGPC: General council of bridges and roads
-29	CERCHAR: Research centre of the Coal mines of France
-30	CIELE: Information centre on energy and the environment
-31	CISN: Interministerial committee of nuclear safety
-32	CLER: Liaison committee for renewable energies
-33	CLIS: Local commission of information and surveillance
-34	CNDTE: National council for the debate on the energy transition
-35	CNER: National council for the evaluation of research
-36	CNR: National company of the Rhône
-37	COGEMA: General company of nuclear materials
-38	COMES: Commission for solar energy
-39	CONSUEL: National committee for the safety of users of electricity
-40	CPDC: Professional committee for the distribution of fuels
-41	CPN: Nuclear policy council
-42	CPNE: External nuclear policy council
-43	CREPS: Company for research and exploitation in the Sahara
-44	CRIIRAD: Commission for independent research and information on radioactivity
-45	CSDUS: Storage centre for stabilised ultimate waste
-46	CSFMA: Storage centre for low and medium activity radioactive waste
-47	CSM: Storage centre of the Manche
-48	CTPBOH: Permanent technical committee for dams and hydraulic works
-49	DDE: Departmental directorate of equipment
-50	DDT(M): Departmental directorate of territories (and of the sea)
-51	DEPPR: Directorate of water and the prevention of pollution and risks
-52	DGEC: General directorate of energy and climate
-53	DGEMP: General directorate of energy and raw materials
-54	DGPR: General directorate for the prevention of risks
-55	DICA: Directorate of fuels
-56	DHYCA: Directorate of hydrocarbons
-57	DIREN: Regional directorate of the environment
-58	DNTE: National debate on the energy transition
-59	DPPR: Directorate of the prevention of pollution and risks
-60	DREAL: Regional directorate of the environment, planning and housing
-61	DRIRE: Regional directorate of industry, research and the environment
-62	D4E: Directorate of economic studies and environmental evaluation
-63	EAMA: Associated African and Malagasy states
-64	EdF: Electricity of France
-65	ELF-ERAP: ELF-Company for research and petroleum activities
-66	EMC: Mining company and mining and chemical company
-67	EPR: European pressurized reactor
+ADEME: Agency for the environment and energy management
+AEE: Agency for energy savings
+AFME: French agency for energy management
+AIE: International energy agency
+AIEA: International atomic energy agency
+AN: National Archives
+ANDRA: National agency for radioactive waste
+ANRED: National agency for the recovery and elimination of waste
+APSRM: Agency for the prevention and surveillance of mining risks
+ASCAB: Association for the development of fuels by wood gasification
+ASN: Nuclear safety authority
+ATIC: Technical association for the Importation of coal
+BRGM: Bureau of geological and mining research and meteorology
+BRP: Bureau of petroleum research
+CAS: Action committee for solar
+CCNUCC: United Nations framework convention on climate change
+CCS: Central commission of safety
+CDF: Coal mines of France
+CEA: Commission for atomic energy
+CEE: Energy savings certificate
+CEE: European economic community
+CEREN: Centre for studies and research on energy savings
+CERN: European centre for nuclear research
+CES: Commission for solar energy
+CESP: Commission of safety of petroleum installations
+CESTA: Centre for the study of systems and advanced technologies
+CGDD: General commission for sustainable development
+CGPC: General council of bridges and roads
+CERCHAR: Research centre of the Coal mines of France
+CIELE: Information centre on energy and the environment
+CISN: Interministerial committee of nuclear safety
+CLER: Liaison committee for renewable energies
+CLIS: Local commission of information and surveillance
+CNDTE: National council for the debate on the energy transition
+CNER: National council for the evaluation of research
+CNR: National company of the Rhône
+COGEMA: General company of nuclear materials
+COMES: Commission for solar energy
+CONSUEL: National committee for the safety of users of electricity
+CPDC: Professional committee for the distribution of fuels
+CPN: Nuclear policy council
+CPNE: External nuclear policy council
+CREPS: Company for research and exploitation in the Sahara
+CRIIRAD: Commission for independent research and information on radioactivity
+CSDUS: Storage centre for stabilised ultimate waste
+CSFMA: Storage centre for low and medium activity radioactive waste
+CSM: Storage centre of the Manche
+CTPBOH: Permanent technical committee for dams and hydraulic works
+DDE: Departmental directorate of equipment
+DDT(M): Departmental directorate of territories (and of the sea)
+DEPPR: Directorate of water and the prevention of pollution and risks
+DGEC: General directorate of energy and climate
+DGEMP: General directorate of energy and raw materials
+DGPR: General directorate for the prevention of risks
+DICA: Directorate of fuels
+DHYCA: Directorate of hydrocarbons
+DIREN: Regional directorate of the environment
+DNTE: National debate on the energy transition
+DPPR: Directorate of the prevention of pollution and risks
+DREAL: Regional directorate of the environment, planning and housing
+DRIRE: Regional directorate of industry, research and the environment
+D4E: Directorate of economic studies and environmental evaluation
+EAMA: Associated African and Malagasy states
+EdF: Electricity of France
+ELF-ERAP: ELF-Company for research and petroleum activities
+EMC: Mining company and mining and chemical company
+EPR: European pressurized reactor
 
 
 ---
 
 
-1	ERAP: Company for research and petroleum activities
-2	FDES: Fund for economic and social development
-3	FNE: France nature environment
-4	FRAMATOME: Franco-American company for atomic construction
-5	GCEE: Contact group with energy companies.
-6	GdF: Gas of France
-7	GIEC: Intergovernmental group for the evolution of climates
-8	GSIEN: Group of scientists for Information on nuclear energy
-9	HBCM: Collieries of the Centre and Midi basin
-10	HBCM: Collieries of the Lorraine basins
-11	HCTISM: High committee for transparency and information on nuclear safety
-12	IFP: French institute of petroleum
-13	IFREMER: French institute for research for the exploitation of the sea
-14	INSTN: National institute of nuclear sciences and techniques
-15	IPSN: Institute for protection and nuclear safety
-16	IRSN: Institute for radioprotection and nuclear safety
-17	ITER: International thermonuclear experimental reactor
-18	LAURE: Law on air and the rational use of energy
-19	MATE: Ministry of regional planning and the environment
-20	MDPA: Potash mines of Alsace
-21	MER: Mission of studies and research
-22	MISE: Specialised inspection mission of the environment
-23	MOS: Gold mines of Salsigne
-24	MST: Scientific and technical mission
-25	MTES: Ministry of ecological and solidarity transition
-26	OCDE: Organisation for cooperation and economic development
-27	OCRS: Common organisation of the Saharan regions
-28	ONCL: National office of liquid fuels
-29	ORCHAR: Office for the distribution of coal
-30	PCER: Regional climate energy plan
-31	SCSIN: Central service for the safety of nuclear installations
-32	SIGE: Service of the general inspection of the environment
-33	SIREDOM: Intercommunal union for recycling and energy from waste and
-34	household refuse
-35	SNGSO: National company of the gases of the South-West
-36	SOFRAME: French company for energy management
-37	SOGERAP: Management company of the participation of the autonomous petroleum board
-38	STEEGB: Technical service electric energy, large dams
-39	List of illustrations
-40	
-41	National Archives
-42	
-43	Office of Robert Poujade,      minister   of    the   protection of   nature and
+ERAP: Company for research and petroleum activities
+FDES: Fund for economic and social development
+FNE: France nature environment
+FRAMATOME: Franco-American company for atomic construction
+GCEE: Contact group with energy companies.
+GdF: Gas of France
+GIEC: Intergovernmental group for the evolution of climates
+GSIEN: Group of scientists for Information on nuclear energy
+HBCM: Collieries of the Centre and Midi basin
+HBCM: Collieries of the Lorraine basins
+HCTISM: High committee for transparency and information on nuclear safety
+IFP: French institute of petroleum
+IFREMER: French institute for research for the exploitation of the sea
+INSTN: National institute of nuclear sciences and techniques
+IPSN: Institute for protection and nuclear safety
+IRSN: Institute for radioprotection and nuclear safety
+ITER: International thermonuclear experimental reactor
+LAURE: Law on air and the rational use of energy
+MATE: Ministry of regional planning and the environment
+MDPA: Potash mines of Alsace
+MER: Mission of studies and research
+MISE: Specialised inspection mission of the environment
+MOS: Gold mines of Salsigne
+MST: Scientific and technical mission
+MTES: Ministry of ecological and solidarity transition
+OCDE: Organisation for cooperation and economic development
+OCRS: Common organisation of the Saharan regions
+ONCL: National office of liquid fuels
+ORCHAR: Office for the distribution of coal
+PCER: Regional climate energy plan
+SCSIN: Central service for the safety of nuclear installations
+SIGE: Service of the general inspection of the environment
+SIREDOM: Intercommunal union for recycling and energy from waste and
+household refuse
+SNGSO: National company of the gases of the South-West
+SOFRAME: French company for energy management
+SOGERAP: Management company of the participation of the autonomous petroleum board
+STEEGB: Technical service electric energy, large dams
+List of illustrations
+
+National Archives
+
+Office of Robert Poujade,      minister   of    the   protection of   nature and
 	the environment, 1973-1974
-45	Extract of a speech, 1973
-46	                                                  Extract of the reception speech at
-47	                                             the Academy of Dijon of Robert Poujade on
-48	                                                   the protection of the landscape, 1973
-49	
-50	National Archives
-51	
-52	20073209/1
-53	Office of Roselyne Bachelot-Narquin, minister of ecology and sustainable
+Extract of a speech, 1973
+                                                  Extract of the reception speech at
+                                             the Academy of Dijon of Robert Poujade on
+                                                   the protection of the landscape, 1973
+
+National Archives
+
+20073209/1
+Office of Roselyne Bachelot-Narquin, minister of ecology and sustainable
 	development, 2002-2004
-55	Extract of a speech, 2004
-56	                                          Presentation to the Senate of the bill
-57	                                        constitutional concerning the Charter of
-58	                                                      the environment
-59	                                        Extract of the speech of Roselyne Bachelot-
-60	                                                        Narquin, 2004
-61	
-62	National Archives
-63	
-64	20073688/43
-65	Secretariat general of the debate on the energy transition
+Extract of a speech, 2004
+                                          Presentation to the Senate of the bill
+                                        constitutional concerning the Charter of
+                                                      the environment
+                                        Extract of the speech of Roselyne Bachelot-
+                                                        Narquin, 2004
+
+National Archives
+
+20073688/43
+Secretariat general of the debate on the energy transition
 
 
 ---
 
 
-1	First meeting of the National council of the
-2	                                                debate on the energy transition
-3	                                                        13 December 2012
-4	                                               Extract of the synthetic report
-5	
-6	National Archives
-7	
-8	20150216/1
-9	Observatory of the effects of climate warming, 2004
-10	
-11	3rd orientation council of the observatory,
-12	                                                     19 November 2004
-13	                                            "National adaptation strategy of
-14	                                             climate change", sketch
-15	                                                            Extract
-16	
-17	National Archives
-18	
-19	20150480/6
-20	Campaigns "Keep France clean", "Clean holidays"? 1981
-21	
-22	"Keep France clean - Fuel
-23	tuning Centre",
-24	
-25	National Archives
-26	
-27	Poster 73x80 cm, colour
-28	                                       December 1981 17 March 1982
+First meeting of the National council of the
+                                                debate on the energy transition
+                                                        13 December 2012
+                                               Extract of the synthetic report
+
+National Archives
+
+20150216/1
+Observatory of the effects of climate warming, 2004
+
+3rd orientation council of the observatory,
+                                                     19 November 2004
+                                            "National adaptation strategy of
+                                             climate change", sketch
+                                                            Extract
+
+National Archives
+
+20150480/6
+Campaigns "Keep France clean", "Clean holidays"? 1981
+
+"Keep France clean - Fuel
+tuning Centre",
+
+National Archives
+
+Poster 73x80 cm, colour
+                                       December 1981 17 March 1982
 
 
 ---
@@ -19421,52 +19421,52 @@ Paris Saclay et de Sciences Po Saint-Germain-en-Laye.
 ---
 
 
-1	Huguette Bouchardeau
-2	Speeches from the work Le ministère du possible, Edition Alain Moreau, Paris, 1986
-3	
-4	Corinne Lepage
-5	Speeches from the work On peut rien faire Madame le Ministre, Éditions Alba Michel,
-6	1998
-7	
-8	Cycle of webinars
-9	Cycles of webinars of meetings between students and former ministers of
-10	the environment.586.
-11	Meetings with Brice Lalonde - Minister of the Environment (1991-1992), Corinne
-12	Lepage - Minister of the Environment (1995-1997), Delphine Batho - Minister of
-13	the Environment (2012-2013)
-14	
-15	586 https://ressources.histoire-environnement.org/Cycle-de-Webinaire
-16	Geolocalisation of public and private archive fonds
-17	
-18	On the site https://ressources.histoire-environnement.org/, you have the possibility to
-19	geolocate the archive fonds via a map
-20	https://ressources.histoire-environnement.org/Carte?filtre=ressources
-21	
-22	Geolocalisation of the archive fonds concerning the Ille-et-Vilaine
-23	Websites
-24	
-25	National Archives: virtual inventory room
-26	https://www.siv.archives-nationales.culture.gouv.fr/siv/
-27	More than 20,000 inventories describing the archives. More than 10,000 records
-28	describing those who produced the archives (producer). More than 1 million digitised
-29	paper archives
-30	
-31	Archives de France: Directory of departmental archives
-31	https://francearchives.fr/fr/annuaire/departements
-32	The directory of archive services of the Interministerial Service of the Archives of France
-33	lists the constituted public archive services, that is to say implementing a
-34	policy of collection and intellectual processing of the archives and welcoming the
-35	public.
-36	
-37	Association for the history of the protection of nature and the environment
-38	(AHPNE)
-39	Main site
-40	https://ressources.histoire-environnement.org/
-41	Inventory of public and private archives relating to the protection of nature and
-42	of the environment
-43	https://ressources.histoire-environnement.org/Ressources
-44	The AHPNE is an association which campaigns and acts to safeguard the memory and
-45	enhance the knowledge of the history of the protection of nature and the environment
+Huguette Bouchardeau
+Speeches from the work Le ministère du possible, Edition Alain Moreau, Paris, 1986
+
+Corinne Lepage
+Speeches from the work On peut rien faire Madame le Ministre, Éditions Alba Michel,
+1998
+
+Cycle of webinars
+Cycles of webinars of meetings between students and former ministers of
+the environment.586.
+Meetings with Brice Lalonde - Minister of the Environment (1991-1992), Corinne
+Lepage - Minister of the Environment (1995-1997), Delphine Batho - Minister of
+the Environment (2012-2013)
+
+586 https://ressources.histoire-environnement.org/Cycle-de-Webinaire
+Geolocalisation of public and private archive fonds
+
+On the site https://ressources.histoire-environnement.org/, you have the possibility to
+geolocate the archive fonds via a map
+https://ressources.histoire-environnement.org/Carte?filtre=ressources
+
+Geolocalisation of the archive fonds concerning the Ille-et-Vilaine
+Websites
+
+National Archives: virtual inventory room
+https://www.siv.archives-nationales.culture.gouv.fr/siv/
+More than 20,000 inventories describing the archives. More than 10,000 records
+describing those who produced the archives (producer). More than 1 million digitised
+paper archives
+
+Archives de France: Directory of departmental archives
+https://francearchives.fr/fr/annuaire/departements
+The directory of archive services of the Interministerial Service of the Archives of France
+lists the constituted public archive services, that is to say implementing a
+policy of collection and intellectual processing of the archives and welcoming the
+public.
+
+Association for the history of the protection of nature and the environment
+(AHPNE)
+Main site
+https://ressources.histoire-environnement.org/
+Inventory of public and private archives relating to the protection of nature and
+of the environment
+https://ressources.histoire-environnement.org/Ressources
+The AHPNE is an association which campaigns and acts to safeguard the memory and
+enhance the knowledge of the history of the protection of nature and the environment
 
 
 ---
