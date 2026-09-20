@@ -1,6 +1,6 @@
 ---
-name: "The Kozyrev Mirror — device, causal mechanics, consciousness research (Persian) — full translation"
-description: "FA->EN full-document translation (2026-09-18, Translation Curator). Original: \"آینه کوزیرف: دستگاه، نظریه علیت و پژوهش\", iWell-Guard Persian dossier, https://iwell-guard.com/fa/ayeneh-kozyrev/ (updated Aug 2026). Tags: Kozyrev mirror, causal mechanics, torsion physics, consciousness research, Kaznacheev, Novosibirsk, Persian. Archival copy: archives/2026-09-18-kozyrev-mirror-persian-iwell-guard.html"
+name: The Kozyrev Mirror — device, causal mechanics, consciousness research (Persian) — full translation
+description: FA->EN full-document translation (2026-09-18, Translation Curator). Original: "آینه کوزیرف: دستگاه، نظریه علیت و پژوهش", iWell-Guard Persian dossier, https://iwell-guard.com/fa/ayeneh-kozyrev/ (updated Aug 2026). Tags: Kozyrev mirror, causal mechanics, torsion physics, consciousness research, Kaznacheev, Novosibirsk, Persian. Archival copy: archives/2026-09-18-kozyrev-mirror-persian-iwell-guard.html
 ---
 
 [Translation note: the source page consists of a large site-navigation block (menus, a 40+ language switcher) surrounding the article proper. The navigation boilerplate is omitted here; the article content below is translated in full and faithfully.]

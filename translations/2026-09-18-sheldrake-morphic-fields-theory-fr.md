@@ -1,6 +1,6 @@
 ---
-name: "The Theory of Morphic Fields of Rupert Sheldrake"
-description: "Translation of French document \"Theorie des champs morphiques de Rupert Sheldrake\" (psychaanalyse.com) — analysis of Sheldrake's morphic field theory, morphic resonance, comparison to Jung's archetypes and collective unconscious, and the ten dogmas of science critique from the Science Delusion / TEDx Whitechapel talk. Source: https://psychaanalyse.com/pdf/THEORIE%20DES%20CHAMPS%20MORPHIQUES%20DE%20RUPERT%20SHELDRAKE.pdf. Language: French."
+name: The Theory of Morphic Fields of Rupert Sheldrake
+description: Translation of French document "Theorie des champs morphiques de Rupert Sheldrake" (psychaanalyse.com) — analysis of Sheldrake's morphic field theory, morphic resonance, comparison to Jung's archetypes and collective unconscious, and the ten dogmas of science critique from the Science Delusion / TEDx Whitechapel talk. Source: https://psychaanalyse.com/pdf/THEORIE%20DES%20CHAMPS%20MORPHIQUES%20DE%20RUPERT%20SHELDRAKE.pdf. Language: French.
 ---
 
 THE THEORY OF MORPHIC FIELDS OF RUPERT SHELDRAKE

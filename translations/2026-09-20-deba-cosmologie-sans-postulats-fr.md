@@ -56,6 +56,7 @@ falsifiability criteria. The organizational structure is illustrated in Figure 1
   We define C as a measurable space of organizational configurations with a finite measure µ.
 No metric, time parameter, or causal structure exists on C.
 
+1
    The organizational field Φ : C × R+ → R depends on the configuration x ∈ C and an ordering
 parameter τ ≥ 0 (which is not physical time).
 
@@ -125,23 +126,27 @@ via the action functional:
 
 where E is the set of trajectories satisfying Eq. (6).
 
-```
-                         BAOBAB Schema — DEBA Cosmology
+2
+                                           BAOBAB Schema – DEBA Cosmology
+                                                        G ,Λ ,c     i   i i
+                                                               Emergent time ti
 
-        Bubbles: F = {u1, …, un}          each bubble: (Gᵢ, Λᵢ, cᵢ)
-        Emergent time tᵢ
-                    ↑
-        ─── FLASH: µ(A) > µcrit ───        (the "organizational flash")
-                    ↑
-        A4  A3  A2  A1                    Coherence attractors (basins)
-                    ↑  τ ↗
-        PRIMORDIAL VACUUM (C, µ)          Atemporal • Acausal • Non-metric
-```
+Our                Bubbles:
+                                                                                         F = {u1 , . . . , un }
 
-*[Translation-QC note: the source PDF renders this as a two-column figure whose axis labels and
-caption text were interleaved during extraction (a stray "Our" belonged to the left axis label
-"Our FLASH"). The diagram above is a faithful re-drawing of the extracted elements; the original
-caption follows verbatim.]*
+FLASH                µ(A) > µcrit
+
+A4
+
+Attractors:              A3
+                                 Coherence
+                                 basins                                     τ ↗
+                                                                                 A2
+
+A1
+
+PRIMORDIAL VACUUM (C, µ)
+                                                     Atemporal • Acausal • Non-metric
 
 Figure 1 – BAOBAB schema of DEBA cosmology. The primordial vacuum (C, µ) (bottom) is an atemporal,
 acausal, non-metric configuration space. Organizational progression along the parameter τ (upward, not
@@ -190,6 +195,7 @@ Its distribution depends exclusively on the portion of coherence inherited at em
                                    Λeff ∼     g(s(x), s(y))L(i) (x)L(i) (y)dµ(x)dµ(y)                                (16)
                                                  C
 
+3
 where g(s(x), s(y)) quantifies the coherent interaction between regions of low coherence.
     Dark energy is not a true energy but a geometric consequence of the conservation of coherence
 in an expanding space-time. Dark matter and dark energy are complementary manifestations
@@ -247,6 +253,7 @@ Evil.
     — Λeff varies with local coherence structure
     — The equation of state w deviates from −1 in regions of low coherence
 
+4
 5     Falsifiability
     DEBA is falsified if:
     1. CMB anomalies are statistically independent
@@ -299,6 +306,7 @@ functional Langevin equation. The organizational flash is rigorously defined as 
 with instanton trajectories minimizing action functionals.
     This framework naturally explains:
 
+5
     — CMB anomalies (Cold Spot, Axis of Evil) as signatures of inter-bubble interfaces
     — Early supermassive black holes as Type I coherence attractors
     — Dark matter and dark energy as manifestations of inherited coherence
@@ -324,6 +332,7 @@ References
  [3] A. G. Riess et al., A Comprehensive Measurement of the Local Value of the Hubble Constant, Astrophys. J.
      Lett. 934, L7 (2022).
 
+6
 
 
 ---

@@ -1,5 +1,5 @@
 ---
-name: "Sacred Geometry: Geometric Qualities of Matter and Energy"
+name: Sacred Geometry: Geometric Qualities of Matter and Energy
 description: "Translation document. language es | domain: sacred_geometry | https://psicogeometria.com/geometriasagrada4-1.html"
 ---
 
