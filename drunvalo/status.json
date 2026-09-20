@@ -1,17 +1,11 @@
 {
-  "agent": "drunvalo",
-  "timestamp": "2026-09-19T06:09:20.461569Z",
-  "summary": "Database refresh: 198 persons, 220 works, 198 translations",
-  "status": "ok",
-  "files_modified": [
-    "database/person-index.json",
-    "database/research-index.json"
-  ],
-  "details": {
-    "persons_total": 198,
-    "works_total": 220,
-    "translations_total": 198,
-    "persons_added": 1,
-    "works_added": 32
-  }
+ "agent": "drunvalo",
+ "last_run": "2026-09-20T04:15:54.580406Z",
+ "last_task": "aetherforce-translation-qc",
+ "status": "ok",
+ "summary": "QC'd 5 most recent translations (2026-09-18 batch); trimmed zerkoz.ru boilerplate; verified/added 5 source URLs; enriched 5 stub DB entries; merged 4 dup work ids (220->216); fixed 43 dangling author refs + 3 dangling crossrefs; person-index 202->215 (+13 researchers); collision check passed.",
+ "indexes": {
+  "persons": 215,
+  "works": 216
+ }
 }
