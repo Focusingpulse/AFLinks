@@ -107,8 +107,15 @@ def main():
             continue
         if e.get("content_preview"):
             continue
-        if u in state["filled"]:
-            continue
+        # NOTE: do NOT skip on `u in state["filled"]` here. The preview check
+        # above already excludes every entry that actually has a preview, so a
+        # `filled` URL reaching this point means the index write for its batch
+        # was LOST (a sibling push race, or a discarded sandbox) while the
+        # cumulative state file survived. The state file self-heals across
+        # runs; the index mutation does not — so skipping on `filled` made
+        # those previews permanently unreachable. Treat them as candidates and
+        # re-apply. Measured 2026-09-20: 38 svpwiki entries were in exactly
+        # this state (recorded filled, empty content_preview in the index).
         if u in state["failed"] and not a.retry_failed:
             continue
         cands.append(e)
