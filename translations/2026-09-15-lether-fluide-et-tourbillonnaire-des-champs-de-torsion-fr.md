@@ -1,6 +1,6 @@
 ---
-name: The Fluid and Vortical Ether of Torsion Fields
-description: Translation of French document "L'éther fluide et tourbillonnaire des champs de torsion" by Alain Boudet, Dr. in Physical Sciences (spirit-science.fr). Covers infinite non-electromagnetic energy filling the universe, experimental evidence by N. Kozyrev and B. DePalma, theoretical developments by A. Akimov, G. Shipov, etc. Source: https://spirit-science.fr/doc-pdf/torsion.pdf. Language: French.
+name: "The Fluid and Vortical Ether of Torsion Fields"
+description: "Translation of French document \"L'éther fluide et tourbillonnaire des champs de torsion\" by Alain Boudet, Dr. in Physical Sciences (spirit-science.fr). Covers infinite non-electromagnetic energy filling the universe, experimental evidence by N. Kozyrev and B. DePalma, theoretical developments by A. Akimov, G. Shipov, etc. Source: https://spirit-science.fr/doc-pdf/torsion.pdf. Language: French."
 ---
 
 # The Fluid and Vortical Ether of Torsion Fields

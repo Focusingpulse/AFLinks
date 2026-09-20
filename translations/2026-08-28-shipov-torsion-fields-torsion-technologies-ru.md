@@ -1,6 +1,6 @@
 ---
-name: TORSION FIELDS AND TORSION TECHNOLOGIES.1
-description: "Translation document."
+name: "Torsion Fields and Torsion Technologies (G. I. Shipov, Russian)"
+description: "Russian original of G. I. Shipov's 'Torsion Fields and Torsion Technologies' (shipov.com) — Cartan's hypothesis, torsion field theory, and torsion technologies."
 ---
 
 TORSION FIELDS AND TORSION TECHNOLOGIES.1
