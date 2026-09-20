@@ -37,13 +37,7 @@ Abstract
      falsifiable predictions.
 
 Keywords: Inertial scalar field, kinetic density, dark matter, dark energy,
-rotation curves, Tully-Fisher, dynamic equation of state, quantum vacuum, Casimir
-
-
----
-
-
-effect, violation of the equivalence principle, alternative cosmology, quintessence,
+rotation curves, Tully-Fisher, dynamic equation of state, quantum vacuum, Casimir effect, violation of the equivalence principle, alternative cosmology, quintessence,
 inertial modeling, cosmic filaments, galactic pressures.
 
 2 Physical foundation: the vacuum as an inertial medium                                   7
@@ -74,16 +68,11 @@ inertial modeling, cosmic filaments, galactic pressures.
        4.4.2 Implications for cosmic winds . . . . . . . . . . . . . .               14
        4.4.3 A troubling discovery . . . . . . . . . . . . . . . . . .               14
 
-3
 5 Galactic applications of the Φκ field                                                  14
   5.1 Rotation velocity of spiral galaxies . . . . . . . . . . . . . . . .            14
       5.1.1 Shape of the modified galactic potential . . . . . . . . . .              15
   5.2 Comparison with NFW profiles, MOND, and observations . . . . . .                 15
   5.3 Physical interpretation: distributed inertial lift . . . . . . . .              16
-
-
----
-
 
 6 The Cosmic Filaments                                                                 16
   6.1 Recent observational discoveries: filaments in motion . . . . . .         16
@@ -117,7 +106,6 @@ inertial modeling, cosmic filaments, galactic pressures.
   8.5 Subtle violation of the weak equivalence principle . . . . . . . .        25
   8.6 Plan of observational tests in the short and medium term . . . . .        25
 
-4
 9 Critical discussion                                                                       25
   9.1 Comparison: Φκ vs MOND vs ΛCDM . . . . . . . . . . . . . . .            25
   9.2 Strengths and limits of the Φκ model . . . . . . . . . . . . . .        26
@@ -138,7 +126,6 @@ inertial modeling, cosmic filaments, galactic pressures.
    11.3 Conditions of scientific viability . . . . . . . . . . . . . .      31
    11.4 Next steps . . . . . . . . . . . . . . . . . . . . . . . . . . .     31
 
-5
 1     General introduction
 
 1.1    Origin of the project
@@ -163,10 +150,6 @@ without any need to introduce an invisible mass.
 1.2    Objectives of the Φκ model
    The Φκ model was designed to answer three major scientific objectives, with
 a strong constraint of falsifiability:
-
-
----
-
 
 10 Final Φκ model: integration of the magnetic factor                                        27
    10.1 Motivation and limits of the previous versions . . . . . . . . . . . . . . . .        27
@@ -183,7 +166,6 @@ a strong constraint of falsifiability:
    11.3 Conditions of scientific viability . . . . . . . . . . . . . . . . . . . . . . .    31
    11.4 Next steps . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .     31
 
-5
 1     General introduction
 
 1.1    Origin of the project
@@ -209,10 +191,6 @@ without any need to introduce an invisible mass.
    The Φκ model was designed to answer three major scientific objectives, with
 a strong constraint of falsifiability:
 
-
----
-
-
 1. Replace dark matter with an inertial reaction of the vacuum, induced
        by the presence of moving baryonic matter, and modeled by a dynamic
        scalar field Φk.
@@ -226,7 +204,6 @@ This work relies on recent empirical measurements concerning the weight of the v
 on formal tools inspired by scalar field theory, and on precise
 comparisons with the alternative models (MOND, ΛCDM).
 
-6
 1.3    Methodology adopted
     The approach developed rests on four methodological pillars:
     — A strong, testable physical hypothesis: the vacuum possesses an effective
@@ -263,11 +240,6 @@ dynamics of the vacuum that we had neglected until now.
 2.1    Hypothesis of the inertial density of the vacuum
     We posit here a central hypothesis, both conceptual and physical:
 
-
----
-
-
-7
    The vacuum possesses an effective inertial density, variable according to the local
 conditions of velocity and baryonic density.
    Contrary to the classical view of the vacuum as an "absence of matter," we adopt
@@ -276,7 +248,6 @@ dynamically to the acceleration of matter within its volume.
    This inertial density of the vacuum, denoted ρeff_vacuum, is not constant but emerges from a
 kinetic coupling with the local baryonic matter, of the form:
 
-2
                                        ρeff_vacuum ∝ ρ · v
 
 where:
@@ -308,7 +279,6 @@ medium, endowed with a dynamic topology, sensitive to:
    — the local energy density,
    — and the motion of matter.
 
-8
 2.3    Dynamic interpretation: compressible fluid analogy
     The behavior of the vacuum is here modeled as that of a weakly compressible anisotropic
 fluid, whose inertial response to a moving baryonic
@@ -322,10 +292,6 @@ force.
 
 This field modifies orbital trajectories as if an invisible force (of the dark matter
 type) were present, whereas it is in fact a delayed inertial reaction of the vacuum.
-
-
----
-
 
 2.4    Position within the framework of general relativity
     The definition of a Φκ field does not contravene the foundations of general
@@ -349,7 +315,6 @@ as a response of the vacuum to moving baryonic matter.
 
 Φk = αρv 2
 
-9
     where:
     — Φk is the inertial potential generated locally in the vacuum,
     — ρ is the local baryonic density,
@@ -365,7 +330,6 @@ quantitative calibration constitutes an experimental validation step to come.
    The Φκ field is integrated into a covariant dynamics with the help of a classical
 Lagrangian:
 
-1
                         L = ∂ µ Φk ∂µ Φk − V (Φk ) + Lint
                             2
    Interaction term (central hypothesis):
@@ -387,17 +351,12 @@ valid if α is dimensionless.
 lift of the vacuum through a direct coupling to the local kinetic energy density. This
 hypothesis naturally modifies the expansion dynamics of the universe.
 
-10
 3.3.1   Modified total Lagrangian
 
 In a homogeneous and isotropic spacetime (Friedmann–Lemaître–Robertson–Walker
 metric), the total Lagrangian is:
 
 Ltotal = LEH + Lm + LΦk + Lint
-
-
----
-
 
 with:
     — LEH = 16πG  1
@@ -437,7 +396,6 @@ ä    4πG
                        a       3
    where ρm is the matter density, ρr that of radiation, and a(t) the scale factor.
 
-11
 3.3.4    Effective equation of state and cosmological effect
 
 The introduction of Φk allows the definition of an effective equation of state:
@@ -464,14 +422,9 @@ pressure according to the formula:
    where Vflat is the asymptotic rotation velocity and VolumeHI the volume of the HI
 region based on the actually measured HI radius.
 
-12
 4.2        Complete table of internal pressures of galaxies
 
 Rank       Galaxy    Filament   R_HI (kpc)      V_flat (km/s)   Pressure    Type
-
-
----
-
 
 1      NGC3077      F14          2.16             76.4         138       HIGH
       2      NGC2976      F14          3.04             85.4          62       HIGH
@@ -511,7 +464,6 @@ Table 1 – Internal pressures of galaxies based on actually measured HI radii
    — Minimum: Multiple galaxies (0 units)
    — Characteristic: Compact cluster, very low pressures
 
-13
 4.3.3    Filament F21 - Optimal equilibrium
 
 — Mean pressure: 1 unit
@@ -534,10 +486,6 @@ galaxies and their inertial pressure:
 
 4.4.2    Implications for cosmic winds
 
-
----
-
-
 This organization reveals a cosmic circulation mechanism:
     — Small galaxies (high pressure) = Natural receivers
     — Large galaxies (low pressure) = Natural emitters
@@ -556,7 +504,6 @@ ALL the galaxies analyzed are in a "Relaxed" regime:
   The rotation curves of spiral galaxies remain one of the greatest paradoxes of the
 standard model: the orbital velocity of stars does not decrease with distance from the
 
-14
 galactic center, contrary to Newtonian predictions. This anomaly is at the origin of the
 notion of dark matter.
     The Φκ field, as an inertial scalar field, offers an alternative to this
@@ -599,11 +546,6 @@ Advantages of Φκ:
      principle
    — Uses no free dark mass parameter
 
-
----
-
-
-15
 5.3    Physical interpretation: distributed inertial lift
     The force generated by Φκ can be interpreted as an inertial lift, equivalent
 to that generated by a fluid that resists the motion of an object in circular
@@ -639,7 +581,6 @@ Dimensional architecture The cosmic filaments present impressive dimensions:
     This tubular geometry is perfectly suited to a transport function, like
 the blood vessels in a living organism.
 
-16
 6.2     Hierarchical circulation mechanism
 Large-scale matter flows The formation model developed by Zel'Dovich
 reveals a hierarchical circulation process of matter:
@@ -659,10 +600,6 @@ system:
 6.3     Volumetric Correlations and Filamentary Wind Dynamics
 6.3.1   Observational evidence
 
-
----
-
-
 We systematically analyzed the HI volumes and rotation velocities of
 galaxies connected by cosmic filaments, based on the SPARC database and the associated
 filament catalog. The results reveal remarkably coherent patterns between
@@ -678,7 +615,6 @@ For each connected filament, one observes:
     This hierarchy is reflected in the intensity of the cosmic winds (volumetric flux exchanged),
 and is confirmed in every filament analyzed.
 
-17
 6.3.3    Summary table of volumetric flows per filament
 
 Filament        Gal. Volume (×10³ kpc³)      Wind Volume (×10³ kpc³)         W/G Ratio        Mean Flux      Efficiency
@@ -710,10 +646,6 @@ Rank     Connected Pair     Filament   Wind Volume (kpc³)   Volumetric Flux   E
             14     NGC2403 NGC3031       F14             3,337            10,824.3        12.8%
             15     NGC3992 NGC4217       F18             2,758             3,623.1        3.3%
 
-
----
-
-
 Table 4 – Top 15 galactic connections by cosmic wind volume
 
 6.4     Detailed analysis by filament
@@ -732,7 +664,6 @@ Table 4 – Top 15 galactic connections by cosmic wind volume
 
 — Total galaxy volume: 134,000 kpc³
 
-18
    — Cosmic wind volume: 14,000 kpc³ (10.35% mobilized - RECORD)
    — Characteristic: Maximum efficiency (9.5%)
    — Pattern: Balanced triad with optimized circulation
@@ -772,7 +703,6 @@ generates:
     2. Pressure gradients: inertial differential between center and periphery.
     3. Large-scale turbulence: propagation beyond the galactic disk.
 
-19
    Without evacuation, this turbulence would destabilize the galaxy. The filamentary
 system channels these excesses toward the outside. The small galaxies connected at the
 ends play the role of decompression valves.
@@ -784,10 +714,6 @@ Terrestrial system                      Cosmic system
       Atmospheric winds                   Filamentary flows
       Meteorological equilibrium          Cosmic inertial equilibrium
       Cyclones / anticyclones             Galactic rotations
-
-
----
-
 
 Table 5 – Analogy: atmospheric circulation / cosmic filamentary circulation
 
@@ -814,7 +740,6 @@ Validation of the active vacuum These observations confirm several predictions:
    1. The vacuum possesses a dynamic structure transporting energy and angular
       momentum.
 
-20
     2. Matter-vacuum interactions generate organized flows.
     3. Cosmic equilibrium results from an active, not static, circulation.
 
@@ -835,10 +760,6 @@ revealing the dynamic and interactive nature of the cosmic vacuum.
 
 7     Cosmological applications: acceleration and quintessence
 
-
----
-
-
 7.1    Modification of the Friedmann equations
    The Φκ field being defined as an inertial response of the vacuum to moving baryonic
 matter, it possesses an effective energy density that varies with the global
@@ -858,7 +779,6 @@ into the modified Friedmann equation.
    where ⟨v 2 (z)⟩ is the mean baryonic kinetic energy (linked to structure
 formation).
 
-21
 7.2    Evolution of w(z) and tests by Euclid / DESI
    The pressure associated with the Φκ field is derived from its energy by the relation:
    w(z) = ρpΦΦ (z)
@@ -892,12 +812,7 @@ modeled by the dynamic regulation of the field:
     On the other hand, Φκ activates after recombination, during galactic
 structuring, which makes it perfectly compatible with the standard scenario up to z ∼ 1000.
 
-22
 8     Predictions and falsifiable tests
-
-
----
-
 
 8.1    Future calibration of the model's constants
    The Φκ model introduces several free parameters that will have to be determined
@@ -931,9 +846,8 @@ between local observations and standard models.
     Quantitative predictions to be tested:
     The Φκ model predicts the following deviations from the standard ΛCDM model:
     Methodological note: These values are theoretical predictions based on the
-proposed inertial dynamics. Their validation will require systematic comparison
+proposed inertial dynamics. Their validation will require systematic comparison with the expansion data measured by cosmological surveys (CMB Planck, BAO BOSS, SN Ia Pantheon+).
 
-23
  Cosmic age (Myr)        ΛCDM Expansion         Φκ Expansion (predicted)      Relative deviation (%)
          500                     0.21                      0.23                     +9.5
         1,000                    0.40                      0.43                     +7.5
@@ -946,12 +860,6 @@ proposed inertial dynamics. Their validation will require systematic comparison
 
 Table 6 – Differential expansion predictions of the Φκ model (normalized values)
 
-
----
-
-
-with the expansion data measured by cosmological surveys (CMB Planck, BAO
-BOSS, SN Ia Pantheon+).
    The hypothesis of an inertial anisotropic expansion positions the Φκ parameter not
 as a simple global descriptor, but as a local directional modulator,
 capable of justifying observed deviations without recourse to a temporal variation of dark
@@ -980,7 +888,6 @@ where:
     — Verify whether vflat varies in accordance with the formula above
     — The SPARC and THINGS databases are ideal for this
 
-24
 8.4    Inertial decline at large distance: e−µr
     Unlike MOND or ΛCDM which predict strictly constant
 or asymptotically stable velocities, Φκ predicts a gentle exponential decrease at
@@ -1017,11 +924,6 @@ ESA
     — eliminates the need for particulate dark matter,
     — and offers a falsifiable posture enriched by a dynamics of the vacuum.
 
-
----
-
-
-25
                Test           Data /            Time           Falsifiability
                               Experiments       horizon
                Rotation       HI 21cm,          Immediate      High
@@ -1065,11 +967,6 @@ Table 7 – Experimental validation plan
 matter, it is possible to envision a minimalist hybrid version:
    Φκ takes charge of the galactic dynamics, while a residual non-particulate DM
 
-
----
-
-
-26
                    Criterion     ΛCDM           MOND            Φκ
                    Physical      Dark            ad hoc          Inertial
                    origin        non-baryonic    modification    reaction of
@@ -1112,17 +1009,12 @@ protection.
 reflecting the capacity of a celestial body to protect its atmosphere via its own
 magnetosphere or
 
-27
 that of its host planet (in the case of moons).
     Final Φκ formula:
     Φκ = ρ × vorb2 + v 2
                     + Rrot
                               × g × Meffectif − 10000
                                                  d2
-
-
----
-
 
 10.3     Definition of M_effective
                                         Volume
@@ -1157,11 +1049,6 @@ that of its host planet (in the case of moons).
      protection (e.g.: Venus).
    — A falsifiable prediction model is now possible.
 
-
----
-
-
-28
            Body        Previous       Observed        Magnetic        Final
                       Φκ             anomaly         Φκ              status
            Titan      (too low)      Very dense      (Saturn          Validated
@@ -1193,7 +1080,6 @@ orbital, and magnetic dynamics.
 stability in the solar system and certainly beyond once we have verifiable
 data.
 
-29
 11     General conclusion
    The Φκ model introduces a new and falsifiable hypothesis: the vacuum possesses a
 dynamic inertial density, modulated by moving matter. This postulate,
@@ -1230,7 +1116,6 @@ of explaining at once:
    This empirical validation constitutes a robust pillar for the scientific credibility
 of the model.
 
-30
 11.3    Conditions of scientific viability
    For Φκ to become a seriously considered alternative in the academic
 literature, several conditions must be met:
@@ -1243,11 +1128,6 @@ literature, several conditions must be met:
     4. Targeted validation campaigns (modified Tully-Fisher, interferometry,
        measurement of w(z)).
 
-
----
-
-
-29
 11     General conclusion
    The Φκ model introduces a new and falsifiable hypothesis: the vacuum possesses a
 dynamic inertial density, modulated by moving matter. This postulate,
@@ -1284,7 +1164,6 @@ of explaining at once:
    This empirical validation constitutes a robust pillar for the scientific credibility
 of the model.
 
-30
 11.3    Conditions of scientific viability
    For Φκ to become a seriously considered alternative in the academic
 literature, several conditions must be met:
@@ -1296,10 +1175,6 @@ literature, several conditions must be met:
        the baryonic and the lensing).
     4. Targeted validation campaigns (modified Tully-Fisher, interferometry,
        measurement of w(z)).
-
-
----
-
 
 11.4    Next steps
    — Submission to open evaluation of the Φκ model (Zenodo, arXiv, selective
@@ -1326,7 +1201,6 @@ valid, this would imply that:
    Potential scientific impact: The Φκ model, if it is confirmed by the proposed tests,
 would represent a major paradigmatic change, unifying dark matter and dark
 
-31
 energy under a single physical mechanism based on the measurable inertial density of the
 cosmological vacuum. The data presented, entirely verifiable and falsifiable, offer a
 solid empirical base for this alternative theoretical exploration.
@@ -1353,11 +1227,6 @@ References
  [9] Ahumada, R., et al. (2020). The 16th Data Release of the Sloan Digital Sky Surveys.
      The Astrophysical Journal Supplement Series, 249(1), 3.
 
-32
-
-
----
-
 
 References
  [1] Planck Collaboration. (2021). Planck 2018 results. VI. Cosmological parameters. As-
@@ -1380,8 +1249,6 @@ References
      cosmology. Physics Reports, 513(1), 1–189.
  [9] Ahumada, R., et al. (2020). The 16th Data Release of the Sloan Digital Sky Surveys.
      The Astrophysical Journal Supplement Series, 249(1), 3.
-
-32
 
 
 ---
