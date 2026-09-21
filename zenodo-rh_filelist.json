@@ -11289,5 +11289,20 @@
   "abstract": "Two Quotients of One Machine Myhill&ndash;Nerode cut complexity and locality cohomology of binary addition &nbsp; Driven by Dean A. Kulik September 2026 &nbsp; &nbsp; Abstract An n-bit modular adder is read two ways, and both readings are computed exactly. Theorem A (the reader cut). Present the input positions of (a,b) ↦ a+b mod 2ⁿ in an arbitrary order. The minimal Myhill&ndash;Nerode state count after a set S of positions has been read depends only on S &mdash; never on the order used to reach it &mdash; and factorises over the maximal runs of S: F(S) = PROD over maximal runs [l,r] of S &nbsp; of &nbsp; f(l,r) f(l,r) = &nbsp; 1 &nbsp;&nbsp; if [l,r] = [0,n-1] &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L = r - l + 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp; if l = 0 and r < n-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; L+1 &nbsp;&nbsp; if l > 0 and r = n-1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2L+1 &nbsp;&nbsp; if 0 < l <= r < n-1 Memory is a cut functional, not a history functional. Theorem B (the relation residual). Model the same machine as a Cayley complex on ℤ /2ⁿ with generators 2⁰,&hellip;,2ⁿ⁻&sup1;, declaring a square whenever its two moves touch disjoint bits. Then b_1^disjoint(n) = C(n,2) + (n-1) = (n-1)(n+2)/2 Both hold for all n. They are different invariants &mdash; one a rank, additive over pairs and identical for every reader; the other a state count, multiplicative over the runs of a cut and different for every reading order &mdash; and a once-plausible conjecture equating them is refuted structurally rather than numerically. What the two share is a sufficient statistic. On the object side the class of an undeclared square keeps only a seam bit and a carry-run depth; on the reader side a run keeps only a first-nontransparent depth and a carry mode. The exponentially large coordinate label &mdash; 2ⁿ basepoints there, 4^|S| assignments here &mdash; is in both cases the reader's own coordinates and not the object's structu",
   "landing_url": "https://zenodo.org/records/22822678",
   "type": "Thesis"
+ },
+ {
+  "url": "https://zenodo.org/api/records/22694917/files/ATHENA_PROJECT%20(6).pdf/content",
+  "filename": "ATHENA_PROJECT (6).pdf",
+  "record_id": "22694917",
+  "conceptrecid": "22694916",
+  "title": "Beyond Static Screening: Dynamic Coherent Tunneling in Room-Temperature Nano-Structured LENR Systems",
+  "authors": [
+   "waqas, seif"
+  ],
+  "doi": "10.5281/zenodo.22694917",
+  "publication_date": "2026-09-10",
+  "abstract": "This preprint presents a novel, mathematically verified theoretical framework for Low-Energy Nuclear Reactions (LENR) at room temperature, challenging the conventional static electron screening model.  We demonstrate that traditional Wentzel-Kramers-Brillouin (WKB) calculations fundamentally misrepresent quantum tunneling dynamics in nano-structured metallic lattices under resonant stimulation. The proposed \"Athena Paradigm\" introduces a Dynamic Coherent Screening Model where surface plasmon excitation (50–100 kHz) creates transient potential wells with effective screening energies reaching kilo-electron volt (keV) scales. Combined with piezonuclear lattice compression effects, this mechanism opens periodic \"tunneling windows\" that enhance the Gamow penetration factor by 40+ orders of magnitude compared to static predictions. Numerical simulations (with fully verified Python code) predict tunneling probabilities of P ~ 10⁻²⁵ to 10⁻⁶ under optimal conditions. While theoretical upper-bound power outputs can reach extreme values, this paper explicitly addresses physical limits (thermal runaway and lattice melting), constraining the practically extractable steady-state power to the 10–100 W/g range. This model explains historical reproducibility challenges in LENR and provides falsifiable predictions for experimental validation. The complete, mathematically verified Python simulation code is openly available at: https://github.com/superopo1230-prog/LENR-Athena-Simulator",
+  "landing_url": "https://zenodo.org/records/22694917",
+  "type": "Preprint"
  }
 ]
