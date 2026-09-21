@@ -389,6 +389,10 @@ LANG_NAMES = {
     "es": "Spanish", "el": "Greek", "pt": "Portuguese", "pl": "Polish",
     "cs": "Czech", "sr": "Serbian", "uk": "Ukrainian", "ar": "Arabic",
     "ja": "Japanese", "zh": "Chinese", "nl": "Dutch",
+    "hu": "Hungarian", "sv": "Swedish", "fa": "Persian", "ko": "Korean",
+    "da": "Danish", "nb": "Norwegian", "no": "Norwegian", "fi": "Finnish",
+    "ro": "Romanian", "bg": "Bulgarian", "he": "Hebrew", "hi": "Hindi",
+    "th": "Thai", "vi": "Vietnamese", "id": "Indonesian", "tr": "Turkish",
 }
 
 def _lang_label(lang):
@@ -734,7 +738,7 @@ def main():
                         break
             # Fallback: derive language from filename suffix (-fr, -ru, etc.)
             if not lang:
-                m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", fname, re.I)
+                m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh|hu|sv|fa|ko|da|fi|no|nb|ro|bg|he|hi|th|vi|id|tr)\.md$", fname, re.I)
                 if m:
                     lang = LANG_NAMES.get(m.group(1).lower(), m.group(1).upper())
             # Normalize to full names ("French", not "FR") so filters group cleanly
@@ -814,7 +818,7 @@ def main():
             src = meta.get("Source URL") or meta.get("source_url") or ""
             lang = meta.get("source_language") or meta.get("Language") or meta.get("language") or ""
             if not lang:
-                m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)\.md$", fname, re.I)
+                m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh|hu|sv|fa|ko|da|fi|no|nb|ro|bg|he|hi|th|vi|id|tr)\.md$", fname, re.I)
                 if m:
                     lang = LANG_NAMES.get(m.group(1).lower(), m.group(1).upper())
             lang = _lang_label(lang)
@@ -868,6 +872,21 @@ def main():
                 pages_translated += max(nums)
             else:
                 pages_translated += max(1, round(len(raw) / 3000))
+    # Never-regress guard for translations (same class as latest_finds):
+    # on a degraded run (LL projection missing -> only orphans scanned, or
+    # none), the list computes shorter than the previous published feed and
+    # would silently shrink the live Translations page. Inherit the previous
+    # list whenever the new one is empty OR shorter. (2026-09-21: Forge saw
+    # a sandbox rebuild compute 0 works while the published feed carried 135.)
+    if isinstance(prev_feed, dict):
+        _old_tr = prev_feed.get("latest_translations")
+        if _old_tr and (not translation_works
+                        or len(translation_works) < len(_old_tr)):
+            print(f"WARN: latest_translations computed "
+                  f"{'empty' if not translation_works else f'{len(translation_works)} < {len(_old_tr)}'}"
+                  f"; keeping previous ({len(_old_tr)} items, degraded run guard)",
+                  flush=True)
+            translation_works = _old_tr
     feed["latest_translations"] = translation_works
     feed["library"]["translations"] = len(translation_works)
     feed["library"]["translation_files"] = translation_files
