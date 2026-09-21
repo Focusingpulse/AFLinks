@@ -15,6 +15,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 SITE_UAS = {
     '21sci_tech_com': 'Googlebot/2.1 (+http://www.google.com/bot.html)',
     'ikar_udm_ru': 'Googlebot/2.1 (+http://www.google.com/bot.html)',  # serves Googlebot full+fast; throttles Mozilla to ~16KB then stalls
+    'cyberleninka_ru': 'Googlebot/2.1 (+http://www.google.com/bot.html)',  # serves Googlebot full+fast; Mozilla throttled/burst-stubbed (20:15Z empty-preview lesson)
 }
 
 def get_ua(site_name):
