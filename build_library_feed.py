@@ -1701,35 +1701,38 @@ def main():
                 seen.add(base)
                 yield p, base, is_shared
 
-    for qdir, q_shared in _yard_dir("quest-queue"):
-        if not os.path.isdir(qdir):
-            continue
-        os.makedirs(os.path.join(yard_outdir, "quest-queue"), exist_ok=True)
-        for path, base, is_shared in _yard_files([(qdir, q_shared)]):
-            # Copy to the site repo so the read button works. Skip when the
-            # source IS the destination (guards shutil SameFileError).
-            if is_shared:
-                try:
-                    import shutil
-                    shutil.copy2(path, os.path.join(yard_outdir, "quest-queue", base))
-                except Exception as e:
-                    print(f"  WARN: could not copy quest {base}: {e}", flush=True)
-            meta, title, body = parse_md_frontmatter(path)
-            # pull a rough status from body for cheap front-end filtering
-            status = "proposed"
-            # Quest cards write "**Status:** proposed" — the old regex required
-            # no space after the bold marker, so it never matched and every
-            # quest silently rendered as "proposed". See 2026-09-19 note.
-            m = re.search(r"[Ss]tatus:[ \t]*\*{0,2}[ \t]*(proposed|approved|merged|rejected)", body)
-            if m:
-                status = m.group(1)
-            practical["quests"].append({
-                "file": f"synthesis/quest-queue/{base}",
-                "date": base[:10],
-                "title": title,
-                "status": status,
-                "excerpt": (body.strip()[:200] or ""),
-            })
+    # Union merge for quest cards: collect all yard sources FIRST so a quest
+    # present in both the repo and the shared living-library projection is
+    # counted once. Calling _yard_files per-directory resets its `seen` set,
+    # so a shared projection that mirrors the repo duplicates every quest.
+    # Mirrors the replication-dossier loop below. See 2026-09-21 note.
+    qpaths = _yard_dir("quest-queue")
+    os.makedirs(os.path.join(yard_outdir, "quest-queue"), exist_ok=True)
+    for path, base, is_shared in _yard_files(qpaths):
+        # Copy to the site repo so the read button works. Skip when the
+        # source IS the destination (guards shutil SameFileError).
+        if is_shared:
+            try:
+                import shutil
+                shutil.copy2(path, os.path.join(yard_outdir, "quest-queue", base))
+            except Exception as e:
+                print(f"  WARN: could not copy quest {base}: {e}", flush=True)
+        meta, title, body = parse_md_frontmatter(path)
+        # pull a rough status from body for cheap front-end filtering
+        status = "proposed"
+        # Quest cards write "**Status:** proposed" — the old regex required
+        # no space after the bold marker, so it never matched and every
+        # quest silently rendered as "proposed". See 2026-09-19 note.
+        m = re.search(r"[Ss]tatus:[ \t]*\*{0,2}[ \t]*(proposed|approved|merged|rejected)", body)
+        if m:
+            status = m.group(1)
+        practical["quests"].append({
+            "file": f"synthesis/quest-queue/{base}",
+            "date": base[:10],
+            "title": title,
+            "status": status,
+            "excerpt": (body.strip()[:200] or ""),
+        })
     # Union merge for replication dossiers: collect all yard sources first
     rpaths = _yard_dir("replication")
     os.makedirs(os.path.join(yard_outdir, "replication"), exist_ok=True)
