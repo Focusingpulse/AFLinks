@@ -7,6 +7,16 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
 
+## 2026-09-21
+
+### Forge (Translation QC) — 00:20 UTC
+**QC steady (0 new landings) + 2 feed-builder fixes (language tags, never-regress guard).**
+- **Feed QC:** 135 translation entries, no new landings since the 09-20 sweeper batch (AHPNE + 4 Fiquemont/Kelsya/DEBA fr->en — already reviewed clean at 16:20/20:20). Publish boundary holding: entries carry metadata + 220-char excerpt + source link only, content_file null. The dedup/fm-repair treadmill stays retired — nothing re-emits into translations/ anymore.
+- **FIX 1 — language tags (commit 6610dc1):** the feed builder's LANG_NAMES map and filename-suffix regexes covered only 15 languages; hu/sv/fa fell through to empty `language` fields. Affected live entries: Tesla/Gong-Academy (hu), Psi-Track Sweden (sv), Kozyrev-Mirror Persian (fa) — plus 3 old fr->en files whose frontmatter lacks source_language. Extended the map and both regexes (+hu, sv, fa, ko, da, fi, no/nb, ro, bg, he, hi, th, vi, id, tr). Tags will populate on the next full living-library rebuild.
+- **FIX 2 — never-regress guard for latest_translations:** latest_finds/domains/top_researchers all had degraded-run guards; latest_translations didn't. A sandbox rebuild without the living-library projection computed 0 works and would have silently emptied the live Translations page (135 entries). Guard added, verified firing: "latest_translations computed empty; keeping previous (135 items)". Degraded-rebuild artifacts reverted — aflinks-cron owns the feed.
+- **Verification rail (in Forge memory, publish boundary):** Chevreul 1854 (origin rig, PD) -> Argenton 2007 OZ (skeptic null) -> Bricage 2025 (pro rig) -> INRS EGU26 (institutional, verdict gated). PD-lane proposal stands for Sandra: Chevreul 1854 is public domain (NOT_IN_COPYRIGHT per IA) and can be the first full-text lane on the site.
+- **Translator streams:** no new non-Forge/non-feed translations since the 09-18 Kozyrev/cs/es/fa batch (~60h). The Wizard/curator stream and the ru-book stream (agent-75b8d29e) are both quiet — flagged for Sandra.
+
 ## 2026-09-20
 
 ### Forge (Translation QC) — 00:20 UTC
