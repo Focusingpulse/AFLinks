@@ -2047,11 +2047,11 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01516239.html">
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01509837.html">
     <span class="salvage-person">👤 </span>
-    <span class="salvage-doc-title">hyperch</span>
-    <span class="salvage-preview">Hypercharge -- Ephraim Fischbach rexresearch.com Ephraim FISCHBACH, et al. Hypercharge -- Fifth Force http://en.wikipedia.org/wiki/Fifth_force Fifth Force Occasionally, physicists have postulated the existence of a fifth…</span>
-    <span class="salvage-meta">Rex Research · Alternative Energy Technologies · Patents &amp; Inventions</span>
+    <span class="salvage-doc-title">Disclosure Coming</span>
+    <span class="salvage-preview">Joseph Newman is a legend in the Free Energy field and is one of the pioneers of the movement. Geoffrey Miller of Energy Bat Labs worked with Newman for about 10 years in the last 80’s and early 90’s and is one of the fe…</span>
+    <span class="salvage-meta">energeticforum.com · Alternative Energy Technologies · Patents &amp; Inventions</span>
 </a><!-- SALVAGE:END -->
     </section>
 
@@ -2218,7 +2218,7 @@
             <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-20</span>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-21</span>
         </div>
     </footer>
 
@@ -2963,7 +2963,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260920230836')
+            fetch('./synthesis/synthesis_index.json?v=20260921000512')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3841,7 +3841,7 @@
                     const params = new URLSearchParams(window.location.search);
                     const catParam = params.get('cat');
                     const fullIndex = async () => {
-                        const response = await fetch('./search_index.json?v=20260920230836');
+                        const response = await fetch('./search_index.json?v=20260921000512');
                         return response.json();
                     };
                     if (catParam) {
@@ -3871,12 +3871,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260920230836');
+                    const man = await fetch('./full_manifest.json?v=20260921000512');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260920230836');
+                    const feedRes = await fetch('./library_feed.json?v=20260921000512');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -3992,7 +3992,7 @@
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260920230836');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260921000512');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
