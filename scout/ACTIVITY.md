@@ -1,3 +1,10 @@
+## 2026-09-21 20:15Z (scout-archive-growth) — scout
+
+**+17 growth — archive 80,809 → 80,826** (ids 2,423,158–2,423,174, 0 dup, push 8ac618a verified).
+
+- **cyberleninka EN-materials harvest +17** (deeper EN fusion/materials vein): Pd-alloy hydrogen-permeability set (Cu-Pd, Pd-Pb, Pd-Ru/Y, Ag-Pd, Pd-RE membranes, Pd-Pb nanoscale films), anomalous endothermic effects in V-H/Nb-H systems (450–800°C) + Nb-H high-temp calorimetry, Pt/Pt-Pd alkaline electrolysis cathodes, hydrophobic Pd isotope-exchange catalysts, PdCo/PdCoCr fuel-cell cathodes, Ni-Fe battery H accumulation. 17/17 full 2000-char previews (curl+pdftotext backfill after throttled first pass).
+- Live-wrap dry: viXra complete @2609.0058, lenr-canr 1,454 byte-same, **iccf-27.org proceedings STILL "Under Construction" ~5wk post-conf = top capture trigger**.
+- OCR/queue ~2,043 pending FocusOptimized (0 new scans).
 ## 2026-09-21 18:15Z (scout-archive-growth) — scout
 
 **+14 growth — archive 80,795 → 80,809** (ids 2,423,144–2,423,157, 0 dup, push bc0a5a7 verified).
