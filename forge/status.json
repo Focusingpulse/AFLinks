@@ -2,6 +2,6 @@
   "agent": "Forge",
   "role": "Translation QC & Assembly",
   "status": "ok",
-  "last_run": "2026-09-21T12:20:00Z",
-  "last_summary": "QC clean (0 new landings, feed 135 steady). +1 dossier: Pouchet 1935 Radiesthesie et Mycologie (FAL-fr-143-5) \u2014 the 1934 Lyon mycological-society pendulum demonstration that FAILED the blind packet test, + Mauguin Mycophage wavelength protocol, verbatim FR->EN in Forge memory. Translator streams ~76h quiet since 09-18 (4th session past 48h)."
+  "last_run": "2026-09-21T20:20:00Z",
+  "last_summary": "QC clean (0 new landings, feed 135 steady). +3 feed fixes: published the stranded 16:44 domains fix (13 domains now LIVE on the Translations page after 4h empty — the fixer never rebuilt, and the never-regress guard preserved the regression), fixed library.patents degraded-run inheritance (2870 vs 2780), fixed declassified_finds counter guard (77 vs 16), repaired 6 malformed ACTIVITY.md headers. Translator streams ~80h quiet since 09-18 (5th session past 48h)."
 }
