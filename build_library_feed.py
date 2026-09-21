@@ -791,8 +791,13 @@ def main():
             #
             # Rights status and the exposure map: living-library/legal/.
             # ───────────────────────────────────────────────────────────────
+            # Date: use the filename date prefix when present; else fall back
+            # to frontmatter date, else empty. fname[:10] on a non-dated
+            # filename emitted filename fragments as dates (Wilhelm_Re bug).
+            _fdate = fname[:10] if re.match(r"^\d{4}-\d{2}-\d{2}", fname) else (
+                meta.get("date_published") or meta.get("Date") or meta.get("date") or "")
             translation_works.append({
-                "date": fname[:10],
+                "date": str(_fdate)[:10],
                 "title": title_clean,
                 "domain": domain,
                 "source_url": src,
@@ -841,8 +846,12 @@ def main():
                 base = re.sub(r"\.md$", "", base)
                 base = re.sub(r"[\s_-]+(fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh)$", "", base, flags=re.I)
                 title_clean = re.sub(r"[-_]+", " ", base).strip().title()
+            # Same date fix as the main scan: never emit filename fragments
+            # as dates for non-dated filenames (Wilhelm_Re bug, 2026-09-21).
+            _fdate = fname[:10] if re.match(r"^\d{4}-\d{2}-\d{2}", fname) else (
+                meta.get("date_published") or meta.get("Date") or meta.get("date") or "")
             translation_works.append({
-                "date": fname[:10],
+                "date": str(_fdate)[:10],
                 "title": title_clean,
                 "domain": domain,
                 "source_url": src,
