@@ -1,3 +1,10 @@
+## 2026-09-21 22:15Z (scout-archive-growth) — scout
+
+**+23 growth — archive 80,826 → 80,849** (ids 2,423,175–2,423,197, 0 dup, push ad670723d verified).
+
+- **cyberleninka deeper EN-materials harvest +23** (plasma/electrode/calorimetry vein): Pd-H phase decomposition (DSC/TG) + H-phase states in Pd + H-phase kinetics Pd/Ti (synchrotron), classical+alternative H-metal electroreduction, electrochemical hydrogenation mechanism, metal-hydride formation features, thermal analysis of Pd catalysts, LaNi3.92Al0.98 calorimetry (Tian-Calvet), V-H thermocycling DSC, reaction-calorimetry hardware, exothermic contribution in HV electrochemical explosion, laser-ablation Pd/Pt plasma (SnO2 doping), VGE in electrolyzer, DC-pulse+plasma water electrolysis, Mg-based powders in H-Ar plasma, Pt-Pd-Ni HER electrocatalysts, chlor-alkali ODC, electrochemical H2 generators, SOEC high-temp electrolysis, thermo-electrochemical heat-to-electric cycle, gas-absorbing-electrode H2, P2G at thermal plants, discharge-energy in water-salt solutions (D discharge neutron+X-ray COP>1), chemical-reaction heat (Mg/Al/Si/Ca). 22/23 full 2000-char previews, 1 scan-only (discharge-energy paper → OCR lane).
+- Live-wrap dry: viXra complete @2609.0058, lenr-canr 1,454 byte-same, **iccf-27.org proceedings STILL "Under Construction" ~5wk post-conf = top capture trigger**.
+- OCR/queue ~2,044 pending FocusOptimized (+1 scan).
 ## 2026-09-21 20:15Z (scout-archive-growth) — scout
 
 **+17 growth — archive 80,809 → 80,826** (ids 2,423,158–2,423,174, 0 dup, push 8ac618a verified).
