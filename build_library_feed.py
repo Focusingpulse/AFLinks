@@ -456,6 +456,10 @@ def main():
         persons = prev_feed.get("persons", {})
         patents = prev_feed.get("patents", {})
         concept = prev_feed.get("concept_map", {})
+    # Fallback: AFLinks repo may have a generated concept-map.json even when the
+    # living-library database is absent on this machine.
+    if not concept:
+        concept = load_json(os.path.join(AFLINKS, "taxonomy", "concept-map.json"))
 
     # Unified researcher table for counts + top-researcher ranking.
     # The dual-index person-index (database/persons/person-index.json) is now canonical;
@@ -1222,7 +1226,14 @@ def main():
                 for _c in (_d.get("categories") or []):
                     live_cats.add(_c)
     except Exception:
-        pass
+        # index.json may be absent on sparse clones; fall back to shard loader.
+        try:
+            import index_io
+            for _d in index_io.load():
+                for _c in (_d.get("categories") or []):
+                    live_cats.add(_c)
+        except Exception:
+            pass
     for dn, info in concept.get("domains", {}).items():
         occ = info.get("co_occur_categories", {}) or {}
         occ = {c: s for c, s in occ.items() if c in live_cats}
@@ -1645,47 +1656,59 @@ def main():
     yard_outdir = os.path.join(AFLINKS, "synthesis")
 
     def _yard_dir(sub):
-        """Find a Replication Yard folder, preferring the shared living-library
-        copy and falling back to this repo's own copy.
+        """Find Replication Yard folder(s), merging shared and repo copies.
 
-        Why the fallback exists: the Yard used to be read ONLY from
-        living-library. When that shared repo is not attached to the machine
-        running the build (a sandbox, a fresh clone, a worker agent), every
-        folder lookup returned None and the Yard silently emptied — quests,
-        dossiers and validations went to [] even though the files sit right
-        here in AFLinks. A rebuild must never regress the Yard to empty just
-        because a shared projection is missing. Returns (path, from_shared).
+        Returns a list of (path, is_shared) tuples. The loop that reads files
+        will dedupe by basename, preferring the shared copy when a file exists
+        in both locations.
 
-        2026-09-16: the shared folder being *present* is not enough — it can
-        exist while carrying no records (e.g. living-library/synthesis/
-        validations/ holds only README.md + quarantine/ after submissions were
-        routed to human review, while the published Replication Watch records
-        live in this repo). Preferring an empty shared folder blanked the
-        published Yard. So prefer shared only when it actually has a non-README
-        .md record; otherwise fall back to this repo's copy.
+        Why union semantics: the shared living-library projection may be
+        incomplete (missing files that exist in AFLinks), or absent entirely.
+        A rebuild must never drop files that exist in this repo just because
+        the shared projection is missing or empty. Conversely, the shared copy
+        may have files not yet merged into AFLinks. Union ensures both sources
+        contribute.
         """
-        def _has_records(d):
-            if not os.path.isdir(d):
-                return False
-            return any(os.path.basename(p).lower() != "readme.md"
-                       for p in glob.glob(os.path.join(d, "*.md")))
-
+        paths = []
+        def _has_dir(d):
+            return os.path.isdir(d) and any(
+                os.path.basename(p).lower() != "readme.md"
+                for p in glob.glob(os.path.join(d, "*.md"))
+            )
+        repo_path = os.path.join(yard_outdir, sub)
+        if _has_dir(repo_path):
+            paths.append((repo_path, False))
         if LL:
-            shared = os.path.join(LL, "synthesis", sub)
-            if _has_records(shared):
-                return shared, True
-        return os.path.join(yard_outdir, sub), False
+            shared_path = os.path.join(LL, "synthesis", sub)
+            if _has_dir(shared_path):
+                paths.append((shared_path, True))
+        return paths
 
-    qdir, q_shared = _yard_dir("quest-queue")
-    if os.path.isdir(qdir):
+    def _yard_files(paths):
+        """Iterate over .md files from all yard sources, deduping by basename.
+
+        When the same file exists in multiple sources, prefer the first source
+        (repo copy comes first in the list, so it wins over shared if both exist).
+        """
+        seen = set()
+        for yard_path, is_shared in paths:
+            for p in sorted(glob.glob(os.path.join(yard_path, "*.md")), reverse=True):
+                base = os.path.basename(p)
+                if base.lower() == "readme.md":
+                    continue
+                if base in seen:
+                    continue
+                seen.add(base)
+                yield p, base, is_shared
+
+    for qdir, q_shared in _yard_dir("quest-queue"):
+        if not os.path.isdir(qdir):
+            continue
         os.makedirs(os.path.join(yard_outdir, "quest-queue"), exist_ok=True)
-        for path in sorted(glob.glob(os.path.join(qdir, "*.md")), reverse=True):
-            base = os.path.basename(path)
-            if base.lower() == "readme.md":
-                continue
+        for path, base, is_shared in _yard_files([(qdir, q_shared)]):
             # Copy to the site repo so the read button works. Skip when the
             # source IS the destination (guards shutil SameFileError).
-            if q_shared:
+            if is_shared:
                 try:
                     import shutil
                     shutil.copy2(path, os.path.join(yard_outdir, "quest-queue", base))
@@ -1707,54 +1730,51 @@ def main():
                 "status": status,
                 "excerpt": (body.strip()[:200] or ""),
             })
-    rdir, r_shared = _yard_dir("replication")
-    if os.path.isdir(rdir):
-        os.makedirs(os.path.join(yard_outdir, "replication"), exist_ok=True)
-        for path in sorted(glob.glob(os.path.join(rdir, "*.md")), reverse=True):
-            base = os.path.basename(path)
-            # Copy to the site repo (skipped when source == destination)
-            if r_shared:
-                try:
-                    import shutil
-                    shutil.copy2(path, os.path.join(yard_outdir, "replication", base))
-                except Exception as e:
-                    print(f"  WARN: could not copy dossier {base}: {e}", flush=True)
-            meta, title, body = parse_md_frontmatter(path)
-            status = "draft"
-            # Dossiers write "**Status:** protocol" (space before the value);
-            # the old regex demanded a word char immediately after the bold
-            # marker, so all 28 dossiers rendered as "draft". Fixed 2026-09-19.
-            m = re.search(r"Status:[ \t]*\*{0,2}[ \t]*([\w\-]+)", body)
-            if m:
-                status = m.group(1)
-            practical["dossiers"].append({
-                "file": f"synthesis/replication/{base}",
-                "date": base[:10],
-                "title": title,
-                "status": status,
-                "excerpt": (body.strip()[:200] or ""),
-            })
-    vdir, v_shared = _yard_dir("validations")
-    if os.path.isdir(vdir):
-        os.makedirs(os.path.join(yard_outdir, "validations"), exist_ok=True)
-        for path in sorted(glob.glob(os.path.join(vdir, "*.md")), reverse=True):
-            base = os.path.basename(path)
-            if base.lower() == "readme.md":
-                continue
-            # Copy to the site repo (skipped when source == destination)
-            if v_shared:
-                try:
-                    import shutil
-                    shutil.copy2(path, os.path.join(yard_outdir, "validations", base))
-                except Exception as e:
-                    print(f"  WARN: could not copy validation {base}: {e}", flush=True)
-            meta, title, body = parse_md_frontmatter(path)
-            practical["validations"].append({
-                "file": f"synthesis/validations/{base}",
-                "date": base[:10],
-                "title": title,
-                "excerpt": (body.strip()[:200] or ""),
-            })
+    # Union merge for replication dossiers: collect all yard sources first
+    rpaths = _yard_dir("replication")
+    os.makedirs(os.path.join(yard_outdir, "replication"), exist_ok=True)
+    for path, base, is_shared in _yard_files(rpaths):
+        # Copy to the site repo (skipped when source == destination)
+        if is_shared:
+            try:
+                import shutil
+                shutil.copy2(path, os.path.join(yard_outdir, "replication", base))
+            except Exception as e:
+                print(f"  WARN: could not copy dossier {base}: {e}", flush=True)
+        meta, title, body = parse_md_frontmatter(path)
+        status = "draft"
+        # Dossiers write "**Status:** protocol" (space before the value);
+        # the old regex demanded a word char immediately after the bold
+        # marker, so all 28 dossiers rendered as "draft". Fixed 2026-09-19.
+        m = re.search(r"Status:[ \t]*\*{0,2}[ \t]*([\w\-]+)", body)
+        if m:
+            status = m.group(1)
+        practical["dossiers"].append({
+            "file": f"synthesis/replication/{base}",
+            "date": base[:10],
+            "title": title,
+            "status": status,
+            "excerpt": (body.strip()[:200] or ""),
+        })
+    # Union merge for validations
+    vpaths = _yard_dir("validations")
+    os.makedirs(os.path.join(yard_outdir, "validations"), exist_ok=True)
+    for path, base, is_shared in _yard_files(vpaths):
+        if base.lower() == "readme.md":
+            continue
+        if is_shared:
+            try:
+                import shutil
+                shutil.copy2(path, os.path.join(yard_outdir, "validations", base))
+            except Exception as e:
+                print(f"  WARN: could not copy validation {base}: {e}", flush=True)
+        meta, title, body = parse_md_frontmatter(path)
+        practical["validations"].append({
+            "file": f"synthesis/validations/{base}",
+            "date": base[:10],
+            "title": title,
+            "excerpt": (body.strip()[:200] or ""),
+        })
     practical["queue_url"] = f"synthesis/quest-queue/"
     # Never-regress guard: if every source folder was missing this run
     # (fresh clone, detached shared memory), inherit the previous feed's
