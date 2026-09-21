@@ -454,7 +454,11 @@ def main():
         tax = prev_feed.get("taxonomy", {})
         researchers = prev_feed.get("researchers", {})
         persons = prev_feed.get("persons", {})
-        patents = prev_feed.get("patents", {})
+        # Degraded-run inheritance: the feed stores these under "library",
+        # not at top level — read from there so a cloud rebuild without the
+        # living-library DB inherits the last published values instead of
+        # silently regressing (e.g. patents 2870 -> 2780 via repo fallback).
+        patents = {"total_patents": (prev_feed.get("library") or {}).get("patents", 0)}
         concept = prev_feed.get("concept_map", {})
     # Fallback: AFLinks repo may have a generated concept-map.json even when the
     # living-library database is absent on this machine.
@@ -1402,6 +1406,16 @@ def main():
     prev_declassified = (prev_feed or {}).get("declassified", [])
     if not d_found and prev_declassified:
         print(f"  WARN: no declassified/ dir found on this machine; preserving previous count ({len(prev_declassified)})", flush=True)
+        d_finds = prev_declassified
+    # Never-regress the counter too: the AFLinks repo's own declassified/ is a
+    # 16-file subset of the living-library's 77-file tree (the full set lives
+    # on the LL side). A degraded cloud run that finds only the repo copy
+    # would silently drop the counter 77 -> 16 even though the list guard
+    # keeps the 77 entries. Inherit the previous counter whenever the newly
+    # computed list is shorter than the previous published list.
+    if prev_declassified and len(d_finds) < len(prev_declassified):
+        print(f"  WARN: declassified computed {len(d_finds)} < previous {len(prev_declassified)}; "
+              f"keeping previous list + counter (degraded run guard)", flush=True)
         d_finds = prev_declassified
     feed["declassified"] = d_finds
     feed["library"]["declassified_finds"] = len(d_finds)
