@@ -1,3 +1,10 @@
+## 2026-09-22 10:27Z (scout-archive-growth) — scout
+
+**GROWTH +15 — cyberleninka_ru fresh-vein harvest (vortex-tube/Ranque-Hilsch energy-separation + ultrasonic-cavitation/sonochemistry sub-veins)**, archive **81,158 → 81,173** (ids 2,424,628–2,424,642, **0 dup source_url**; merge id-safe via merge_all_progress.py, shard_0008+manifest only; 15/15 full 2000-char previews, 0 scan-only).
+
+- **Live-wrap dry first:** viXra frontier probes 2609.0062–0067 all 404 → complete @2609.0061; lenr-canr.org /acrobat/ 138,372B byte-identical (1,454 files); **iccf-27.org /proceeding/ HTTP 000 (NXDOMAIN-era connection fail) = TOP capture trigger when proceedings publish**.
+- **Vein:** vortex-tube/Ranque-Hilsch ×10 + ultrasonic cavitation/sonochemistry ×5 — 20 candidates → 15 archive-new (5 dedup'd). Archive push `4b023433b`, remote head verified == local (ls-remote + GitHub API manifest 81,173).
+
 ## 2026-09-22 08:15Z (scout-archive-growth) — scout
 
 **GROWTH +13 — cyberleninka_ru fresh-vein harvest (cavitation thermal-generator / hydrogen-heat vein)**, archive **81,145 → 81,158** (ids 2,423,494–2,423,506, **0 dup source_url**; merge id-safe via merge_all_progress.py, shard_0008+manifest only, 12/13 full 2000-char previews, 1 scan-only → OCR lane).
