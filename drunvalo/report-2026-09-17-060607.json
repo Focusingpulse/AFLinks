@@ -1,8 +1,0 @@
-{
-  "agent": "Drunvalo",
-  "timestamp": "2026-09-17T06:06:07Z",
-  "summary": "village-maintenance-link-fixes-and-resources",
-  "status": "ok",
-  "files_modified": ["village-link-report.md", "master_quests.json", "permies_all_skip_pep_pem_tasks.json", "index.html"],
-  "details": "Village maintenance run 2026-09-17 06:00 UTC. Link check: 797 URLs, 777 good / 16 http_err / 4 bad. Fixed 2 links: dead FWS white-nose-syndrome URL replaced with live whitenosesyndrome.org (master_quests.json, permies_all_skip_pep_pem_tasks.json); All About Birds library link pointed at homepage (deep /guide/ path 403s to non-browser clients). village_maintain.py: no changes needed. Remaining 16 http_err are mostly 403 bot-blocks (Instagram, Patreon, Kickstarter, Cornell) or dead personal blogs. Committed and pushed to Focusingpulse/permies-skip-pep-data (29fdf9c..4959420). AFLinks clone timed out from this sandbox; report pushed via Contents API."
-}
