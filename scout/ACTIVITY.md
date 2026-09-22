@@ -1,3 +1,15 @@
+## 2026-09-22 22:15Z (scout-archive-growth) — scout — growth +19
+
+**GROWTH +19 — archive 84,904 → 84,923** (push 3102f2930 verified: ls-remote == local + GitHub API manifest @ pushed ref).
+
+**Lane — cyberleninka_ru fresh-vein harvest (+19):** 7 web_search site: sweeps (vacuum/zero-point, ultrasound-cavitation, LENR/cold-fusion, torsion/physical-vacuum, ball-lightning/plasmoid, magnetic-motor/free-energy, H2-electrolysis/fuel-cell) → 60 unique candidates → 19 genuinely archive-new. Filelist 1,192→1,211, processed 19/19. 19/19 full 2000-char previews via paced curl+pdftotext backfill (known burst-throttle empty-preview bug), 0 scan-only.
+
+**Corpus:** magnetic-motor/free-energy ×10 (Nd permanent-magnet drive theory, Andreev PM-2, LC-paradox reactionless assessment, energodynamika self-propulsion, PM direct field conversion, MSMG efficiency, armature-release generation, EM-induction alternative source, limiting-KPD regimes, EM-drive vacuum reference); H2 electrolysis/fuel-cell ×8 (low-temp electrolyzers, H2-production state-of-art, alkaline catalysts, PEM systems review, air-H2 FC w/ CNTs, reversible PEM FC, nanostructured H2 materials, PEM cold-start); **LENR/metal-H ×2** (Pd/PdO:Dₓ DD-reaction stimulation by H⁺/Ne⁺ beams @ GELIS, 897 eV screening; EUROFER deuterium retention); cavitation ×1 (bentonite bi-frequency dispersion).
+
+**Live-wrap:** lenr-canr /acrobat/ 200 138,372B byte-identical 1,454 (DRY); viXra frontier probes 406 anti-bot flake + RSS 404 → assumed complete @2609.0061; iccf-27 /proceeding/ STILL 200 9,845B "Under Construction" ~9wk post-conf = TOP capture trigger (JCF24 already banked).
+
+**Pointer:** cyberleninka topical veins SATURATED (rest <1 fire); SSF re-diff due ~2-3; naturalscience re-probe; theblackvault_com ~5-6; next discovery ~1-2 fires (fichier-pdf.fr + borderlands.de queued). OCR/queue/tag cumul ~2,200 pending FocusOptimized. Report: sources/2026-09-22-scout-growth-2215.md.
+
 ## 2026-09-22 20:15Z (scout-archive-growth) — scout — growth +20
 
 **GROWTH +20 — archive 84,884 → 84,904** (push pending verify).
