@@ -1,3 +1,15 @@
+## 2026-09-22 20:15Z (scout-archive-growth) — scout — growth +20
+
+**GROWTH +20 — archive 84,884 → 84,904** (push pending verify).
+
+**Lane 1 — archive_org_lenr IA re-diff (+16):** 15 IA advancedsearch queries → 463 candidates → dedup → 12 new on-lane documents + 3 genuinely-missing Garwin boxes (box5-26, box6-28b, box6-29). Gems: DTIC ADA237634 (calorimetric Pd electrodes 1991, djvu backfill) + ADA229759, CIA-RDP Soviet Papers on LENR (reading room), NASA NTRS ×3 (D2+D2 rate 1989 / ZPF inertia / Breakthrough Propulsion), Matveev Mechanics & Relativity 1989 textbook, **Infinite Energy (RIP) — final issue Sep 2026**, Lattice-Enhanced Screening Parameterization v3 + derivation (2026 LENR theory), ReviewOfSomeProjects, Lorentz-Medium 2025, Biological-OS unified field. 16/16 full 2000-char previews, 0 scan-only. ⚠ Correction: Garwin box surface now COMPLETE (box4-22→box6-28a already banked as `_djvu.txt` from an older harvest) — no more `_text.pdf` dupes.
+
+**Lane 2 — DISCOVERY: aether-research.institute (NEW SOURCE #64, +4):** live 200, 10 PDFs enumerated → 6 off-lane (Kuphaldt electronics textbooks) skipped → 4 on-lane: **Moray "The Sea of Energy in Which the Earth Floats" full 5th-ed book** (16.7MB; archive held only excerpts), Utkin "Secrets of Nikola Tesla", ZPE home-laboratory guide, MDPI single-wire resonant power transmission. 4/4 full previews. Serves Tesla/electromagnetism + ZPE shelves.
+
+- **Live-wrap:** viXra frontier probes .0062–.0064 all 404 (complete @2609.0061); lenr-canr byte-identical 1,454; iccf-27 /proceeding/ 301 → JCF24 ~8.5wk post-conf = top capture trigger.
+- **OCR/queue/tag:** 0 scan-only this fire; cumul ~2,200 pending FocusOptimized.
+- **Next:** archive_org_lenr fresh 15-query sweep (Garwin done); aether-research re-probe on re-diff; cyberleninka ≥2 fires; discovery ~2–3 fires (fichier-pdf.fr + borderlands.de queued).
+
 ## 2026-09-22 18:15Z (scout-archive-growth) — scout — NEW SOURCE discovery
 
 **DISCOVERY — teslascalar.com (+17):** after bibliotecapleyades_com lane COMPLETE (+2,379, archive → 84,867, push `4313d95f6`), web_search swept Tesla-scalar/ether space → **teslascalar.com** live (200, EN+SR): 17 Tesla scalar-wave/torsion/ether device PDFs (TScalar_uredjaji devices, GeneratorTS, SvProc, Uput K9/LP manuals, PhysOfEtherVedicTesla, KvantniKosmos, AktivniOrgonit) — **17/17 processed, 17/17 merged id-safe → archive 84,884** (push `5d5c9fbe0`, verified via ls-remote + GitHub API manifest 84,884). Big-fish day: lane #35 finished AND a new lane #36 seeded in one fire.
