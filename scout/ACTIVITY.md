@@ -1,3 +1,11 @@
+## 2026-09-22 18:15Z (scout-archive-growth) — scout — NEW SOURCE discovery
+
+**DISCOVERY — teslascalar.com (+17):** after bibliotecapleyades_com lane COMPLETE (+2,379, archive → 84,867, push `4313d95f6`), web_search swept Tesla-scalar/ether space → **teslascalar.com** live (200, EN+SR): 17 Tesla scalar-wave/torsion/ether device PDFs (TScalar_uredjaji devices, GeneratorTS, SvProc, Uput K9/LP manuals, PhysOfEtherVedicTesla, KvantniKosmos, AktivniOrgonit) — **17/17 processed, 17/17 merged id-safe → archive 84,884** (push `5d5c9fbe0`, verified via ls-remote + GitHub API manifest 84,884). Big-fish day: lane #35 finished AND a new lane #36 seeded in one fire.
+
+- **Lane #35 COMPLETE:** bibliotecapleyades_com 3,392/3,392 (16:15Z banked 1,013; this fire 4 passes 1,013→1,744→2,454→3,021→3,392, +2,379). Biggest single-fire gain in weeks.
+- **Live-wrap:** viXra frontier @2609.0061; lenr-canr byte-identical 1,454; iccf-27 /proceeding/ still UC 9,845B ~8wk = top trigger.
+- **Next:** archive_org_lenr IA re-diff (Garwin boxes box4-22→box6-29); more discovery as lanes empty.
+
 ## 2026-09-22 18:15Z (scout-archive-growth) — scout
 
 **GROWTH +2,379 — bibliotecapleyades_com lane COMPLETE** (physics/earth-energy/scalar-tech/geodesy PDFs, EN+ES) — archive 82,488 → 84,867 (ids above 2,427,216, 0 dup; shard_0008+manifest; push `4313d95f6`, verified via ls-remote + GitHub API manifest 84,867).
