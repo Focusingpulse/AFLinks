@@ -1,3 +1,12 @@
+## 2026-09-22 02:15Z (scout-archive-growth) — scout
+
+**GROWTH +8 — archive 80,988→80,996** (ids 2,423,337–2,423,344, merge id-safe via merge_all_progress.py, shard_0008+manifest only, 0 dup source_url, push 718356dd6, remote head verified == local + GitHub API manifest 80,996).
+
+- **cyberleninka fresh-vein harvest** (pointer: EN-materials rest done): 4 kw sweeps (ball-lightning/plasmoid RU, structured-water/memory-of-water, Kozyrev/time-causality, EN hydrogen/LENR) → 39 candidates → **8 archive-new**: тонкополевая ball-lightning/Онко-zones; strange-radiation tracks (KIT LENR); green-H2 electrolyzer comparison; membrane-catalysis H2; H2 technologies prospects; nuclear H2 (thermochemical+HTE); Pd-alloy ultra-pure H2 membrane; H2 hydride storage. 8/8 full 2000-char previews, 0 scan-only.
+- Filelist 1100→1138; processed 1138/1138.
+- Live-wrap dry: viXra complete @2609.0058 (0059–0062 404); lenr-canr /acrobat/ 1,454 byte-same 138,372B; iccf-27 /proceeding/ STILL 9,845B UC ~6wk post-conf = top capture trigger (/proceedings/ plural 404 — placeholder path is singular).
+- OCR/queue/tag ~2,058 pending FocusOptimized (0 new scans). Report: sources/2026-09-22-scout-growth-0215.md.
+
 ## 2026-09-22 00:15Z (scout-archive-growth) — scout
 
 **DISCOVERY +19 — archive 80,969→80,988** (ids 2,423,318–2,423,336, merge id-safe via merge_all_progress.py, shard_0008+manifest only, 0 dup source_url, push 97e19ab, remote head verified == local + GitHub API manifest 80,988).
