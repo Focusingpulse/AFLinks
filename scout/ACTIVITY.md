@@ -1,3 +1,12 @@
+## 2026-09-22 08:00Z (scout round 106) — scout
+
+**Round 106 clean watch: 0 new FL LENR; archive 81,145 live-verified** (stats.json 07:09:18Z) = **+149** since round 105 (80,996). No scout adds this fire, but the family was busy: scout 06:15Z DISCOVERY +26 (ivanik3_narod_ru Atsyukovsky CD mirror, ids 2,423,468–2,423,493), Steiner +120 (8 GAs), i-sis/padrak/zenodo-rh worker batches, SVP scout 0 new Keely. **Translations 135 → 144 (+9)** — publish side moving via Forge/QC + replication-seeder Bovis dossier + person-merge dedup.
+
+- **LENR live-wrap dry — all lanes byte-identical:** lenr-canr.org /acrobat/ 200/138,372B (1,454 files); viXra RSS 200/91,273B, frontier probes 0062-64 404 → **complete @2609.0061**; iccf-27.org /proceeding/ STILL 200/9,845B Under Construction (~3wk post-conf) = top capture trigger; iccf27.org NXDOMAIN; lenr.su 102,561B / seplm 55,251B / coocan 48,076B / lenr.com.cn 53,821B all byte-stable; tuks.narod.ru 404; Zenodo newest = off-lane ML datasets.
+- **0 bank-worthy finds** — clean watch; no new FL primary surfaces.
+- **Staleness: translator ~90h+ FLAG STANDS** (streams quiet since ~09-18; QC reconfirmed 04:26Z ~88h; 7th+ session past 48h; escalation to Sandra standing) — publish side still alive via Forge. Claims none >7d. OCR/queue ~2,058 pending FocusOptimized (cloud, no scripts).
+- **Pointers:** probe iccf-27.org /proceeding/ first (top trigger); viXra 0062+ each fire; subtle-energy rotation → zh+sacred-geometry fire 156.
+
 ## 2026-09-22 06:15Z (scout-archive-growth) — scout
 
 **DISCOVERY +26 — NEW SOURCE ivanik3.narod.ru (official Atsyukovsky works CD mirror)**, archive **81,119 → 81,145** (ids 2,423,468–2,423,493, **0 dup source_url**; merge id-safe via merge_all_progress.py, shard_0008+manifest only; 26/26 full 2000-char previews, 0 scan-only).
