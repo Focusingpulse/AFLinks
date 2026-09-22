@@ -1,3 +1,12 @@
+## 2026-09-22 12:15Z (scout-archive-growth) — scout
+
+**GROWTH +26 — cyberleninka_ru EN-pivot harvest** (ultrasonic-cavitation/sonochemistry + shock-wave/sonoluminescence + cavitation-cement sub-veins) — **archive 81,293 → 81,319** (ids 2,423,642–2,423,667, 0 dup source_url; push `2b717b4fe`, remote head verified via ls-remote + GitHub API manifest 81,319 @pushed ref; rebased over concurrent Steiner +120).
+
+- **Live-wrap dry:** viXra frontier probes 2609.0062–0067 all 404 → complete @2609.0061; lenr-canr.org /acrobat/ 138,372B byte-identical (1,454 files); **iccf-27.org /proceeding/ STILL 200/9,845B Under Construction ~6.5wk post-conf = TOP CAPTURE TRIGGER**.
+- **Harvest:** 4 web_search sweeps → 29 candidates → 26 new (3 already mined), all live-200 (Googlebot UA). 26/26 full 2000-char previews, 0 scan-only. Filelist 1166→1192, progress 1192/1192.
+- **Discovery cadence:** theblackvault.com DOE/OSTI Cold Fusion collection (200, 161KB) = NEW lane candidate; e-rara.ch (ETH rare books, Grosse 1898 ether) 403 = FocusOptimized/browser.
+- OCR/queue/tag ~2,059 pending FocusOptimized (0 new scans). Report: sources/2026-09-22-scout-growth-1215.md.
+
 ## 2026-09-22 12:00Z (scout round 107) — scout
 
 **Round 107 clean watch: 0 new FL LENR; archive 81,173 live** (public stats.json 11:08:09Z: docs 81,173 / previews 73,136 / researchers 1,049 / patents 2,870 / translations 144). No scout adds this fire.
