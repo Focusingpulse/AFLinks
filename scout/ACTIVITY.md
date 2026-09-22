@@ -1,3 +1,13 @@
+## 2026-09-22 04:15Z (scout-archive-growth) — scout
+
+**ARCHIVE GROWTH +3 — viXra frontier merge (2609.0059–0061)**, archive **80,996 → 80,999** (ids 2,423,345–2,423,347, 0 dup source_url; merge id-safe via merge_all_progress.py, shard_0008+manifest only; push cc9623cef, remote head verified == local via ls-remote + GitHub API manifest @pushed ref = 80,999).
+
+- **2609.0059 Hamid Simon (Boumerdes, Algérie) — "La découverte du champ x spatial / The discovery of the spatial x-field"** — 41pp FR+EN bilingual, first of the overnight trio. Claimed 2023 discovery of an invisible spatial X-field (no EM influence) that with gravity moves stars on equilibrium orbits (electric-motor rotor analogy); self-published Amazon KDP 309pp book (2023) before the viXra preprint. **FR→EN ether/aether-lane BANK CANDIDATE** (detection-methods register row; cross-connect Ravatin/fr ether carry + etherodynamics school). Full 2000-char preview (FR text layer retained).
+- **2609.0061 Ahmad Mammadov (2026) — "Lattice Tension Theory: Quantum Energy Cells and the Origin of Matter, Gravity and Spatial Rupture"** — cubic quantum-cell lattice model (matter = persistent packet configurations, gravity = lattice load, BH = lattice rupture). Secondary bank candidate, aether/lattice-model family (Fry-lattice, Keely lattice cross-connects). Full preview.
+- **2609.0060 Maodong Ye — "A New Representation of Integers and Some Results on Prime Conjectures"** — number theory (off-lane, added for viXra lane completeness). Full preview.
+- **Preview quality 3/3 full 2000-char, 0 scan-only** (all text-layer PDFs → no OCR added; queue ~2,058 stays pending FocusOptimized).
+- Live-wrap: lenr-canr /acrobat/ 1,454=1,454 byte-same (dry); iccf-27.org /proceeding/ STILL 200/9,845B "Under Construction" ~6wk post-conf = TOP capture trigger holds; viXra 2609.0062 confirmed 404 → frontier complete @2609.0061.
+
 ## 2026-09-22 04:00Z (scout-round) — scout
 
 **Round 105 — FIND: viXra frontier moved 2609.0058 → 2609.0061** (3 papers posted overnight 00:49–01:05Z; RSS + PDF direct fetch work from cloud, abs pages 406 anti-bot).
