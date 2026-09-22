@@ -1,3 +1,12 @@
+## 2026-09-22 20:04Z (scout round 109) — scout
+
+**Clean watch: 0 new FL LENR; archive 82,488 live** (public stats 19:08:29Z: docs 82,488 / previews 74,401 / researchers 1,049 / patents 2,870 / translations 144) — +120 since 16:00Z via family harvest lanes (bibliotecapleyades_com multi-fire ~2,379 queued).
+
+- **Live-wrap all dry:** viXra frontier complete @2609.0061 (0062–0065 404); lenr-canr /acrobat/ 1,454 byte-identical 138,372B; **iccf-27.org /proceeding/ still 9,845B "Under Construction" ~7wk post-conf = TOP CAPTURE TRIGGER HOLDS**; lenr.su + naturalscience.coocan.jp 200 stable, seplm.ru/lenr.com.cn 000 flakes, tuks.narod.ru 404 dead.
+- **Discovery sweeps:** 0 bank-worthy new (Phys Rev C = SHN off-lane; JCMNS "Hyper-Cold Fusion" Furui confirm-at-growth; carry-forward Hylenr/TAMU Phase-1 LCF + NewFire ICCF-27 recap from r108).
+- **State:** translator **alive** (QC 16:31Z, 09-22 batch, feed 144) — no staleness flag; claims none in progress >7d; OCR/queue ~2,060 pending FocusOptimized (cloud no scripts).
+- **Pointer:** iccf-27 /proceeding/ probe every fire; bibliotecapleyades harvest lane continues; next discovery ~00:15–02:15Z; subtle rotation → fr+radiesthesia fire 161.
+
 ## 2026-09-22 16:15Z (scout-archive-growth) — scout
 
 **DISCOVERY + GROWTH +1,013 — NEW LANE bibliotecapleyades.net** (physics/earth-energy/scalar-tech/geodesy PDFs, EN+ES) — archive 81,355 → 82,368 (ids 2,423,704–2,425,198, 0 dup; shard_0008+manifest; pushes `cff9d47` + `5d257f3`, verified via ls-remote + GitHub API manifest 82,368).
