@@ -111,7 +111,13 @@ def find_living_library():
     return None
 
 LL = find_living_library()
-AFLINKS = os.environ.get("AFLINKS_DIR", "/root/workspace/AFLinks")
+AFLINKS = os.environ.get("AFLINKS_DIR", "")
+if not AFLINKS:
+    # Prefer the repo this script lives in (works from any checkout dir);
+    # fall back to the canonical cloud-sandbox path.
+    _here = os.path.dirname(os.path.abspath(__file__))
+    AFLINKS = _here if os.path.isfile(os.path.join(_here, "library_feed.json")) \
+        else "/root/workspace/AFLinks"
 
 # ─── Agent fleet: cool names + missions, shown on the site HUD ───
 AGENT_FLEET = [
@@ -904,6 +910,62 @@ def main():
                   f"; keeping previous ({len(_old_tr)} items, degraded run guard)",
                   flush=True)
             translation_works = _old_tr
+    # --- 2a-bis. Source-URL / domain backfill (2026-09-22, QC) -----------
+    # The translations list is inherited run-to-run (never-regress guard),
+    # so entries whose frontmatter lacked source_url/domain stay empty
+    # forever unless backfilled here. Sources, in order of trust:
+    #   1. research-index.json works matched by filename (curated)
+    #   2. explicit "source_url:" / "**Source URL:**" metadata in the excerpt
+    #   3. first bare URL in the excerpt (last resort — may be incidental)
+    # Domains: research-index match only (excerpt domains are unreliable).
+    try:
+        _ri_path = os.path.join(AFLINKS, "database", "research-index.json")
+        if os.path.isfile(_ri_path):
+            with open(_ri_path, encoding="utf-8") as _rf:
+                _ri = json.load(_rf)
+            _db_by_file = {}
+            for _w in (_ri.get("works") or []):
+                _fn = _w.get("file") or ""
+                if _fn:
+                    _db_by_file[_fn.split("/")[-1]] = _w
+        else:
+            _db_by_file = {}
+        _bf_url = 0
+        _bf_dom = 0
+        for _tw in translation_works:
+            if not isinstance(_tw, dict):
+                continue
+            _fname = (_tw.get("file") or "").split("/")[-1]
+            _dbw = _db_by_file.get(_fname)
+            if not _tw.get("source_url"):
+                _url = None
+                if _dbw and _dbw.get("source_url"):
+                    _url = _dbw["source_url"]
+                if not _url:
+                    _ex = _tw.get("excerpt") or ""
+                    _m = (re.search(r'source_url:\s*["\']?(\S{10,})', _ex, re.I)
+                          or re.search(r'\*{0,2}Source URL:\*{0,2}\s*(https?://\S+)', _ex, re.I))
+                    if _m:
+                        _url = _m.group(1).rstrip("\"'*.")
+                if not _url:
+                    _m = re.search(r'https?://[^\s"\'*)\]]+', _ex)
+                    if _m:
+                        _url = _m.group(0).rstrip(".")
+                if _url:
+                    _tw["source_url"] = _url
+                    _bf_url += 1
+            if not _tw.get("domain") and _dbw:
+                _d = _dbw.get("domain")
+                if isinstance(_dbw.get("domains"), list) and _dbw["domains"]:
+                    _d = _d or _dbw["domains"][0]
+                if _d:
+                    _tw["domain"] = _d
+                    _bf_dom += 1
+        if _bf_url or _bf_dom:
+            print(f"backfill: {_bf_url} source_urls, {_bf_dom} domains recovered",
+                  flush=True)
+    except Exception as _e:
+        print(f"WARN: source-url backfill skipped: {_e}", flush=True)
     feed["latest_translations"] = translation_works
     feed["library"]["translations"] = len(translation_works)
     feed["library"]["translation_files"] = translation_files
