@@ -1,3 +1,13 @@
+## 2026-09-22 14:15Z (scout-archive-growth) — scout
+
+**GROWTH +36 — archive 81,319 → 81,355** (ids 2,423,668–2,423,703, 0 dup source_url; shard_0008 + manifest only; push `2267f88`, remote head verified via ls-remote + GitHub API manifest 81,355 @pushed ref).
+
+- **Lane 1 — archive_org_lenr IA re-diff +30:** DTIC ×3 (mechanical-stress CF 1990, CF Verification 1991, Status of CF 1998), NASA NTRS ×4 (GRC LENR ×2, LENR synergistic missions, LENR at GRC), ENEA Frascati Rapporto 41 2002 (IT), NET NSF-EPRI Workshop, Electrochemically-Induced Fusion 1989, Fusion Illusion (TIME), Fusioenen 1989/05 (NL), Infinite Energy #2 1995, E Fusão a Frio LENR (PT), UnleashQuark CMNS, Puthoff ZPE, ZPE (Aviation Week), Jachlewski ZPE, Lindemann Cold Electricity 2000, FE from Earth 2023, CF Blueprint 2025, Overunity Toroid Motor, Garwin CF boxes box3-16→box4-21 ×8. **29/30 full previews, 1 scan-only.** (Fixed IA advancedsearch `fl[]` doseq bug → 133 real candidates.)
+- **Lane 2 — NEW theblackvault_com +6:** CIA Science & Weapons Review 1992 cold-fusion release, ADB148659, LA-CP-89-415, LA-CP-90-122, NRL-palladium, batch5-6 letter. **6/6 full previews.** (84/90 OSTI URLs already indexed via theblackvault_osti lane.)
+- **Live-wrap dry:** viXra complete @2609.0061; lenr-canr 1,454 byte-same; **iccf-27 /proceeding/ → 301 JCF24 post — ICCF-27 proceedings STILL unpublished ~7wk post-conf = TOP CAPTURE TRIGGER.**
+- **Discovery:** lrdi.org LRDI reports (31 PDFs) already banked by concurrent worker; orgonelab.org ether-drift noted. Watch rexresearch1/LRDI reconciliation vs 15:37Z mass-deletion restore.
+- OCR/queue/tag ~2,060 pending FocusOptimized (+1 scan). Report: sources/2026-09-22-scout-growth-1415.md.
+
 ## 2026-09-22 12:15Z (scout-archive-growth) — scout
 
 **GROWTH +26 — cyberleninka_ru EN-pivot harvest** (ultrasonic-cavitation/sonochemistry + shock-wave/sonoluminescence + cavitation-cement sub-veins) — **archive 81,293 → 81,319** (ids 2,423,642–2,423,667, 0 dup source_url; push `2b717b4fe`, remote head verified via ls-remote + GitHub API manifest 81,319 @pushed ref; rebased over concurrent Steiner +120).
