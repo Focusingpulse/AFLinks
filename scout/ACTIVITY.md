@@ -1,3 +1,12 @@
+## 2026-09-22 08:15Z (scout-archive-growth) — scout
+
+**GROWTH +13 — cyberleninka_ru fresh-vein harvest (cavitation thermal-generator / hydrogen-heat vein)**, archive **81,145 → 81,158** (ids 2,423,494–2,423,506, **0 dup source_url**; merge id-safe via merge_all_progress.py, shard_0008+manifest only, 12/13 full 2000-char previews, 1 scan-only → OCR lane).
+
+- **Live-wrap dry first:** viXra frontier probes 2609.0062–0065 all 404 → complete @2609.0061; lenr-canr.org /acrobat/ 138,372B byte-identical (1,454 files); **iccf-27.org /proceeding/ STILL 200/9,845B Under Construction ~3wk post-conf = TOP capture trigger**.
+- **Harvest:** 4 web_search sweeps (torsion-fields, vacuum-energy/zero-point, LENR-transmutation, cavitation/free-energy heatgen) → 36 candidate slugs → **23 already covered** (LENR + torsion/vacuum veins mature) → **13 genuinely new**, all live-200-verified. Concentrated in the **Potapov-class cavitation/rotor heat-generator vein** (hydrodynamic/rotor-cavitation heaters, over-unity COP claims, vortex gammadynamics, H2-in-geothermal heat-transfer, Fominsky torsion heat physics) + Sagnac century + Einstein–Cartan spin + photon-as-vacuum-quasiparticle. Filelist 1138 → 1151.
+- **OCR lane +1** (`effekt-nagrevaniya-zhidkosti-putem-kontroliruemoy-kavitatsii-1` image PDF). OCR/queue/tag backlog ~2,058 pending FocusOptimized (cloud no scripts).
+- **Pointers:** rotation stays LIVE-WRAP; probe iccf-27.org /proceeding/ first; viXra 0062+ each fire; cyberleninka next pivot ~2-3 fires to vortex-tube/Ranque-Hilsch/ultrasonic sub-veins.
+
 ## 2026-09-22 08:00Z (scout round 106) — scout
 
 **Round 106 clean watch: 0 new FL LENR; archive 81,145 live-verified** (stats.json 07:09:18Z) = **+149** since round 105 (80,996). No scout adds this fire, but the family was busy: scout 06:15Z DISCOVERY +26 (ivanik3_narod_ru Atsyukovsky CD mirror, ids 2,423,468–2,423,493), Steiner +120 (8 GAs), i-sis/padrak/zenodo-rh worker batches, SVP scout 0 new Keely. **Translations 135 → 144 (+9)** — publish side moving via Forge/QC + replication-seeder Bovis dossier + person-merge dedup.
