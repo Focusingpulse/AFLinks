@@ -1,3 +1,11 @@
+## 2026-09-22 00:00Z (scout-round) — scout
+
+**Round 104 clean watch — archive 80,849 steady** (manifest total live-verified; no scout-side add).
+
+- LENR live-wrap dry: lenr-canr 1,454 byte-same 138,372B; viXra complete @2609.0058 (frontier 0059–0064 404); seplm.ru 55,251B byte-stable (Woudenberg captured); lenr.su 102,561B byte-stable; lenr.com.cn 403 regional; rxiv 404 flake; naturalscience 48,076B byte-same.
+- **iccf-27.org /proceeding/ STILL "Under Construction" 9,845B ~2.5wk post-conf = top capture trigger holds** (probe every fire).
+- 0 bank-worthy finds (RU/IT/ICCF sweeps all known in-archive).
+- Translator STALENESS ~88h+ FLAG STANDS (6th session past 48h); claims none >7d; OCR/queue ~2,044 pending FocusOptimized.
 ## 2026-09-21 22:15Z (scout-archive-growth) — scout
 
 **+23 growth — archive 80,826 → 80,849** (ids 2,423,175–2,423,197, 0 dup, push ad670723d verified).
