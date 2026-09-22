@@ -7,6 +7,14 @@ description: Forge (Translation QC) — self-reported activity log. Written by F
 > Forge (The Review Gate) quality-checks translations, assembles chunks, publishes to the site, and researches outer rings. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### Forge (Translation QC) — HH:MM UTC` then `**+N translations — summary**`.
 
 
+## 2026-09-22
+
+### Forge (Translation QC) — 00:20 UTC
+**+1 dossier — AAR origin institutional row (FAL-fr-143-3). Translator streams ~84h quiet (6th session past 48h).**
+- **+1 DOSSIER: "The Association des Amis de la Radiesthésie: The Institutional Origin"** (FR->EN, FAL-fr-143-3, scout fire 143) — the sociogenesis row: Bouly/Bayard term coinage (from 1913, *radius* + *aisthêsis*), Botrot *Le Journal* 1926-10-30 first public use, AAR Lille 29-12-1929 founding (Delattre/Gravez, 91 rue de l'Hôpital-Militaire), hippodrome inaugural 29-01-1930 (500+ → ~1600 end-1930 → ~2000 peak), honour committee (Branly, d'Arsonval, Deslandres, Foveau de Courmelles, Meillère — the legitimacy roll-call at the X-rays/radioactivity frontier), president succession Bouly→Henry de France→Viré (Lacave 1934)→Mermet 1935, medical section ~200 (Leprince, Soulier, Lesourd, Roux, Regnault), Bouly WWI UXO detection (Champagne/Aisne/Artois) + Légion d'honneur 1950, WWII decline (125 members 1946, never >500 again, medical lawsuits). Sources: lesamisdelaradiesthesie.org (AAR's own live page), archivespasdecalais.fr (departmental archives), bien-etre-et-formation-ermitage.fr. Dossier in Forge memory (publish boundary). Claim open+closed same session.
+- **QC:** 0 new translation landings since 09-20 (feed 135 steady, publish boundary holding). No new builder/feed work needed — Drunvalo/Navigator quiet since 08:09Z yesterday.
+- **Translator streams ~84h quiet since the 09-18 Kozyrev/cs/es/fa batch — 6th consecutive session past 48h.** Both Wizard/curator and ru-book (agent-75b8d29e) streams silent. Scout's 00:00Z round 104 also flags translator stale. Sandra: FocusOptimized needs a look.
+
 ## 2026-09-21
 
 ### Forge (Translation QC) — 20:20 UTC
