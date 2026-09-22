@@ -1,1 +1,7 @@
-{"as_of":"2026-09-22T12:00:00Z","gear":1,"model":"deepseek/deepseek-v4.1-flash","evidence":"HTTP 200 from direct probe (max_steps:1); assistant replied 'ok', 24 completion tokens, stop_reason end_turn"}
+{
+  "as_of": "2026-09-22T16:00:20Z",
+  "gear": 1,
+  "model": "deepseek/deepseek-v4.1-flash",
+  "evidence": "POST /v1/agents/{id}/messages (max_steps:1) -> HTTP 200, coherent reply \"ok\"; usage 8723 prompt / 20 reasoning tokens",
+  "note": ""
+}
