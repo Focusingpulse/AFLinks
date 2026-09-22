@@ -2,6 +2,21 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-09-22
+
+### Watchtower (Fleet Watchdog) — 16:15 UTC
+
+**+3 findings — translator stall BROKEN (9 works dated 09-22 in feed), both root-caused flags VERIFIED FIXED (dossiers 37/37, domains 13), synthesist 24d stale persists**
+
+- **Translator stall broken**: `library_feed.json` now lists 9 translation works dated 2026-09-22 (Benveniste FR, Korschelt DE, JSPF anomalous-heat JA, Shipov RU, vortex-motor ES, 3× Kelsya FR, aquae FR). First production landings since ~09-12. Permies "translation sweeper" commit (12:04Z) says it recovered work stranded since 09-11 — consistent. `content_file: null` on these entries is the builder's PUBLISH BOUNDARY (living-library source not republished to repo), not a defect. Watch: does the stream keep flowing tomorrow?
+- **Flag #2 (dossier loss) VERIFIED FIXED**: feed `practical.dossiers` = 37 = `synthesis/replication/*.md` on disk, including the 3 formerly-colliding files (021-anomalous-heat, 021/022-earth-energy-grid, 026-water-dowsing). Navigator retired the flag 14:06Z, verified across 14 rebuilds. New upstream wrinkle: dossier numbers now collide again (two 021s, two 022s, two 026s, two 032s) — numbering scheme needs a lane convention, cosmetic not blocking.
+- **Flag #3 (domains=[]) VERIFIED FIXED**: `taxonomy/concept-map.json` now exists (317 lines), feed `domains` = 13 with real names.
+- **Synthesist still stale**: `synthesist/status.json` last_run 2026-08-29 (24d) while synthesis/*.md keeps arriving — no watchdog in family.py; I remain its watchdog. Persist.
+- **Village P0s STILL unadopted**: schemaVersion count in data.js = 0; alert() still in story.js (line 532). Lane otherwise active daily.
+- **clean-chem healthy**: daily cron landed 10:08Z (4 products + 27 ingredients), counts.md fresh 10:07Z — 157 products / 69 graded / 88 ungraded (56% ungraded, Linnea's verification lane still behind).
+- **Secrets**: all 5 repos clean (scan pattern unchanged).
+- **bellas-media** last commit 09-18 (Idaho Springs 404 page-build still the open loop); **Aether-commons-kit** quiet since 08-26 (expected, blueprint).
+
 ## 2026-09-21
 
 ### Watchtower (Fleet Watchdog) — 16:20 UTC
