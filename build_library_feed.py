@@ -570,9 +570,20 @@ def main():
     # --- 1b. Atsyukovsky book set (preserved PDFs + translation progress) ---
     books_dir = os.path.join(AFLINKS, "books", "atsyukovsky")
     ats_dir = os.path.join(LL, "sources", "atsyukovsky") if LL else None
+    # 2026-09-22 (Cairn): books/ was retired from the public repo by the
+    # publish-boundary commit (698f71793, 2026-09-20), and it is excluded from
+    # sparse checkouts besides. Requiring it here made the whole set
+    # structurally impossible to build on a cloud run, so the section silently
+    # published empty. Gate on the LIBRARY source; treat published PDFs as
+    # optional.
+    books_published = os.path.isdir(books_dir)
     bookset = []
     book5_pages = 0
-    if os.path.isdir(books_dir) and ats_dir and os.path.isdir(ats_dir):
+    if ats_dir and os.path.isdir(ats_dir):
+        if not books_published:
+            print("  NOTE: books/atsyukovsky/ absent (retired from the public "
+                  "repo 2026-09-20); building the set without PDF links",
+                  flush=True)
         titles = {
             "Book1": "Methodological Crisis of Modern Theoretical Physics",
             "Book2": "Methodology of Ether Dynamics & Structure of Matter",
@@ -602,41 +613,35 @@ def main():
             if done > 0:
                 translation_ok = True
                 book5_pages = done
-                # Publish the assembled translation into the site repo.
-                # Guard: only overwrite when the incoming source has MORE
-                # [pN] page markers than what's already published (or the
-                # destination is missing). A truncated in-progress assembly
-                # (e.g. first half of the book) is a STRICT SUBSET of the
-                # fuller published copy and must never clobber it — size is
-                # not a reliable proxy, page markers are.
-                try:
-                    import shutil
-                    src_asm = os.path.join(ats_dir, "Book5_full_translation.md")
-                    dst_asm = os.path.join(AFLINKS, "sources", "atsyukovsky", "Book5_full_translation.md")
-                    if os.path.isfile(src_asm):
-                        with open(src_asm, encoding="utf-8") as f:
-                            src_markers = len(re.findall(r"\[p\s*\d+\]", f.read()))
-                        dst_markers = 0
-                        if os.path.isfile(dst_asm):
-                            with open(dst_asm, encoding="utf-8") as f:
-                                dst_markers = len(re.findall(r"\[p\s*\d+\]", f.read()))
-                        if not os.path.isfile(dst_asm) or (src_markers > dst_markers and src_markers > 0):
-                            os.makedirs(os.path.dirname(dst_asm), exist_ok=True)
-                            shutil.copy2(src_asm, dst_asm)
-                            print(f"  Book5 assembly updated ({src_markers} [pN] markers vs {dst_markers} before)", flush=True)
-                        else:
-                            print(f"  WARN: skipping Book5 overwrite (src {src_markers} [pN] markers <= dst {dst_markers}); keeping fuller existing copy", flush=True)
-                    else:
-                        print("  WARN: Book5_full_translation.md not found in library; leaving site copy as-is", flush=True)
-                except Exception as e:
-                    print(f"  WARN: could not publish assembled translation: {e}", flush=True)
+                # ── PUBLISH BOUNDARY, ENFORCED (2026-09-22, Cairn) ──────────
+                # This block used to copy the assembled full translation of a
+                # third-party book into the public repo, and library.html's
+                # openAssembled() reader fetched it. That is the same derivative-
+                # work exposure the 2026-09-20 boundary commit retired
+                # (Berne Art. 8), and the marker-count guard below actively
+                # PRESERVED the existing published copy, so the file could never
+                # age out. The copy is now disabled: the in-library source under
+                # living-library/sources/atsyukovsky/ still carries the work for
+                # internal use, and only the public pointer is withheld.
+                src_asm = os.path.join(ats_dir, "Book5_full_translation.md")
+                if os.path.isfile(src_asm):
+                    print("  PUBLISH BOUNDARY: assembled Book5 translation NOT "
+                          "copied into the public repo (derivative work); "
+                          "library copy is intact for internal use", flush=True)
+                # ────────────────────────────────────────────────────────────
             book5_complete = done >= mf.get("total_chunks", 220)
             bookset.append({
                 "volume": "5",
                 "title": f"Book 5 — Full English Translation ({'complete' if book5_complete else 'in progress'})",
                 "progress_done": done,
                 "progress_total": mf.get("total_chunks", 220),
-                "assembled": "sources/atsyukovsky/Book5_full_translation.md" if translation_ok else None,
+                # PUBLISH BOUNDARY (2026-09-20, enforced 2026-09-22): the
+                # assembled full translation is a derivative work and is not
+                # published, so the site must not advertise a reader for it.
+                # The progress metadata above stays public; only the full-text
+                # pointer is withheld. Reinstating this requires the rights
+                # question to be settled first (living-library/legal/).
+                "assembled": None,
             })
             feed["library"]["book5_complete"] = book5_complete
     feed["atsuyskovsky_books"] = bookset
@@ -710,7 +715,12 @@ def main():
     tdir = os.path.join(LL, "translations") if LL else None
     translations_outdir = os.path.join(AFLINKS, "translations")
     translation_works = []
+    # 2026-09-22: fname -> living-library source path. Counters must read the
+    # LIBRARY, not the public repo, so the count survives a publish-boundary
+    # change. Never published: this is a local mapping only.
+    work_src = {}
     translation_files = 0
+    translations_unreadable = 0
     # Previously published titles keyed by filename — used to keep an authored
     # title when the shared frontmatter has been flattened to a slug (2026-09-16).
     prev_trans_titles = {}
@@ -732,6 +742,7 @@ def main():
             by_key.setdefault(key, []).append((path, meta, title, body, fname))
         for group in by_key.values():
             path, meta, title, body, fname = group[0]
+            work_src[fname] = path
             domain = meta.get("Domain") or meta.get("domain") or ""
             src = meta.get("Source URL") or meta.get("source_url") or ""
             # Language: newest revision first, else inherit from any revision
@@ -877,24 +888,37 @@ def main():
             })
     # Count pages ONLY for the newest revision of each distinct work — old
     # revision files are readable but must not inflate the page total.
-    if os.path.isdir(translations_outdir):
-        for tw in translation_works:
-            pub = os.path.join(translations_outdir, tw["file"])
-            if not os.path.isfile(pub):
-                continue
-            translation_files += 1
-            try:
-                with open(pub, encoding="utf-8") as f:
-                    raw = f.read()
-            except Exception:
-                continue
-            # Count pages: use [pN] page markers when present, else estimate by length
-            markers = re.findall(r"\[p\s*\d+\]", raw)
-            if markers:
-                nums = [int(m.replace("[p", "").replace("]", "").strip()) for m in markers]
-                pages_translated += max(nums)
-            else:
-                pages_translated += max(1, round(len(raw) / 3000))
+    # 2026-09-22 (Cairn) FIX. This used to count a work's pages ONLY when the
+    # work's file was published in the site repo (AFLinks/translations/). The
+    # publish-boundary decision retired that directory outright, so the loop
+    # matched nothing and pages_translated published a hard 0 for three days
+    # (3380 on 09-19 -> 0 on 09-20) while the Translations counter beside it
+    # published 144, on the same card, linking to the same anchor. A counter
+    # counts the LIBRARY, not the public surface. Resolve each work's
+    # living-library source first; fall back to a published copy only when a
+    # legacy one still exists.
+    for tw in translation_works:
+        _src = work_src.get(tw["file"])
+        _pub = os.path.join(translations_outdir, tw["file"])
+        readable = _src if (_src and os.path.isfile(_src)) else (
+            _pub if os.path.isfile(_pub) else None)
+        if not readable:
+            translations_unreadable += 1
+            continue
+        translation_files += 1
+        try:
+            with open(readable, encoding="utf-8") as f:
+                raw = f.read()
+        except Exception:
+            translations_unreadable += 1
+            continue
+        # Count pages: use [pN] page markers when present, else estimate by length
+        markers = re.findall(r"\[p\s*\d+\]", raw)
+        if markers:
+            nums = [int(m.replace("[p", "").replace("]", "").strip()) for m in markers]
+            pages_translated += max(nums)
+        else:
+            pages_translated += max(1, round(len(raw) / 3000))
     # Never-regress guard for translations (same class as latest_finds):
     # on a degraded run (LL projection missing -> only orphans scanned, or
     # none), the list computes shorter than the previous published feed and
@@ -967,9 +991,42 @@ def main():
     except Exception as _e:
         print(f"WARN: source-url backfill skipped: {_e}", flush=True)
     feed["latest_translations"] = translation_works
-    feed["library"]["translations"] = len(translation_works)
-    feed["library"]["translation_files"] = translation_files
-    feed["library"]["pages_translated"] = pages_translated
+    # ── Counter never-regress guard + diagnostic record (2026-09-22, Cairn) ──
+    # pages_translated was the ONLY published counter with no floor. When the
+    # publish boundary retired books/ and translations/ it collapsed to 0 and
+    # shipped, with nothing louder than a WARN in a cron log (same failure
+    # class as the hud_flags truncation and the PREVIEW_LEN no-op: a value
+    # indistinguishable from valid empty data). A collapsing counter is a
+    # path/boundary regression, not news. Inherit the previous published value,
+    # and record the raw computation beside it so a watchdog can see the
+    # difference and fail loudly rather than a human having to notice a 0.
+    counter_diag = {
+        "library_attached": bool(LL),
+        "translations_dir_published": os.path.isdir(translations_outdir),
+        "books_published": books_published,
+        "translation_works": len(translation_works),
+        "translation_sources_unreadable": translations_unreadable,
+        "pages_translated_computed": pages_translated,
+        "inherited": [],
+    }
+    _prev_lib2 = prev_feed.get("library", {}) if isinstance(prev_feed, dict) else {}
+    for _ck, _cv in (("pages_translated", pages_translated),
+                     ("translation_files", translation_files),
+                     ("translations", len(translation_works))):
+        _pv = _prev_lib2.get(_ck) or 0
+        if _pv and _cv < _pv:
+            print(f"COUNTER-REGRESSION: library.{_ck} computed {_cv} < published "
+                  f"{_pv}; keeping previous (never-regress guard)", flush=True)
+            counter_diag["inherited"].append(_ck)
+            _cv = _pv
+        feed["library"][_ck] = _cv
+    counter_diag["pages_translated_published"] = feed["library"]["pages_translated"]
+    if feed["library"]["pages_translated"] <= 0:
+        print("ERROR: library.pages_translated is 0 even after the guard, and "
+              "the public page labels it 'pages translated & growing'. Check "
+              "the living-library attach and the translations path before "
+              "trusting this feed.", flush=True)
+    feed["library"]["counter_diag"] = counter_diag
 
     # --- 2b. Bilingual bridges — the same idea across languages ---
     # Phase 3: translations whose TITLES share significant tokens while their
@@ -1962,6 +2019,23 @@ def main():
                 print(f"WARN: feed.{_k} computed {why}; keeping previous "
                       f"({len(_old)} items, degraded run guard)", flush=True)
                 feed[_k] = _old
+
+    # Counter sanity snapshot (2026-09-22, Cairn). Additive, parallel field:
+    # changes no existing key, only records what was actually published so
+    # counter_watchdog.py can compare against history and fail loudly.
+    feed.setdefault("library", {})["counter_snapshot"] = {
+        "generated_at": feed.get("generated_at"),
+        "archive_entries": feed["library"].get("archive_entries"),
+        "aflinks_docs": feed["library"].get("aflinks_docs"),
+        "translations": feed["library"].get("translations"),
+        "pages_translated": feed["library"].get("pages_translated"),
+        "declassified_finds": feed["library"].get("declassified_finds"),
+        "researchers": feed["library"].get("researchers"),
+        "patents": feed["library"].get("patents"),
+        "active_agents": feed["library"].get("active_agents"),
+        "atsuyskovsky_books": len(feed.get("atsuyskovsky_books") or []),
+        "radiesthesia_books": len(feed.get("radiesthesia_books") or []),
+    }
 
     out = os.path.join(AFLINKS, "library_feed.json")
     with open(out, "w", encoding="utf-8") as f:
