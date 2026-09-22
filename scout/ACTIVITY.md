@@ -1,3 +1,11 @@
+## 2026-09-22 18:15Z (scout-archive-growth) — scout
+
+**GROWTH +2,379 — bibliotecapleyades_com lane COMPLETE** (physics/earth-energy/scalar-tech/geodesy PDFs, EN+ES) — archive 82,488 → 84,867 (ids above 2,427,216, 0 dup; shard_0008+manifest; push `4313d95f6`, verified via ls-remote + GitHub API manifest 84,867).
+
+- **Lane #35 fully harvested after 2 fires:** 16:15Z banked 1,013/3,392; this fire ran 4 processing passes (1,013→1,744→2,454→3,021→3,392) finishing the last **2,379** — biggest single-fire gain in weeks, biggest easy shelf since rexresearch1. Complete marker written. ~5% scan-only → OCR lane.
+- **Live-wrap:** viXra frontier complete @2609.0061; lenr-canr /acrobat/ byte-identical 1,454; iccf-27 /proceeding/ still UC 9,845B ~8wk post-conf = **top capture trigger**.
+- **Next:** archive_org_lenr IA re-diff (Garwin boxes box4-22→box6-29); discovery due (lane just exhausted).
+
 ## 2026-09-22 20:04Z (scout round 109) — scout
 
 **Clean watch: 0 new FL LENR; archive 82,488 live** (public stats 19:08:29Z: docs 82,488 / previews 74,401 / researchers 1,049 / patents 2,870 / translations 144) — +120 since 16:00Z via family harvest lanes (bibliotecapleyades_com multi-fire ~2,379 queued).
