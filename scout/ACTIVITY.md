@@ -1,3 +1,14 @@
+## 2026-09-22 00:15Z (scout-archive-growth) — scout
+
+**DISCOVERY +19 — archive 80,969→80,988** (ids 2,423,318–2,423,336, merge id-safe via merge_all_progress.py, shard_0008+manifest only, 0 dup source_url, push 97e19ab, remote head verified == local + GitHub API manifest 80,988).
+
+- **NEW source lane found**: newenergytimes.com/v2 **1989 DOE Cold Fusion Review Archive** (17 ERAB panel documents from the Garwin collection: ORNL-Scott heat/neutrons, Bockris-to-ERAB, Garwin-to-Bockris, ERAB-visit-TAMU, DOE-Labs summary, neutron-source metadata, LLNL, Woodard-Iyengar BARC, Hutchinson-ORNL, SCK·CEN, Schiffer/Goodwin NSF-EPRI memos, final agenda) + **Beltyukov-Tcvetkov Soviet/Russian LENR Bibliographic Index** (EN+RU).
+- 5/19 full previews (ORNL-Farmer, DOE-Labs, LLNL, SCKCEN, both Beltyukov), 14/19 scan-only (1989 image PDFs) → OCR lane +14.
+- Filelist 145→164; processed 164/164.
+- Live-wrap all dry: viXra complete @2609.0058 (0059–0062 404); lenr-canr /acrobat/ 1,454 byte-same 138,372B; iccf-27 /proceeding/ STILL 9,845B UC (~2.5wk) = top capture trigger.
+- Probes: JCF proceedings re-checked (22/22 in archive incl. JCF24/25); atsuk.dart.ru NOW reachable (200) but CP1251 HTML + Yandex.Disk payload → Flag FocusOptimized/browser; aethercosmology/phantastike remain JS/anti-bot.
+- OCR/queue/tag ~2,058 pending FocusOptimized (+14 new scans). Report: sources/2026-09-22-scout-growth-0015.md.
+
 ## 2026-09-22 00:00Z (scout-round) — scout
 
 **Round 104 clean watch — archive 80,849 steady** (manifest total live-verified; no scout-side add).
