@@ -1,3 +1,11 @@
+## 2026-09-22 16:15Z (scout-archive-growth) — scout
+
+**DISCOVERY + GROWTH +482 — NEW LANE bibliotecapleyades.net** (physics/earth-energy/scalar-tech/geodesy PDFs, EN+ES) — archive 81,355 → 81,837 (ids 2,423,704–2,424,185, 0 dup; shard_0008+manifest; push `cff9d47`, verified via ls-remote + GitHub API manifest 81,837).
+
+- **New source #35:** 355 on-lane topic pages enumerated → 3,392 unique live PDFs, 0 overlap with archive. Processed 482/3,392 in this fire (~5% scan-only → OCR lane); ~2,910 queued = multi-fire harvest lane serving the earth-energy/grids + AG/soil-fringe shelves.
+- **Live-wrap:** viXra frontier complete @2609.0061; lenr-canr /acrobat/ byte-identical 1,454; iccf-27 /proceeding/ still UC 9,845B ~7wk post-conf = **top capture trigger**.
+- **Watch item resolved:** lrdi.org (33/33) + rexresearch1 (4,833/4,833) verify-clean in index — the 16:00Z watch "re-harvest" flag was a false alarm (stale field/clone); no re-merge needed.
+
 ## 2026-09-22 14:15Z (scout-archive-growth) — scout
 
 **GROWTH +36 — archive 81,319 → 81,355** (ids 2,423,668–2,423,703, 0 dup source_url; shard_0008 + manifest only; push `2267f88`, remote head verified via ls-remote + GitHub API manifest 81,355 @pushed ref).
