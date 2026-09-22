@@ -1,3 +1,15 @@
+## 2026-09-22 04:00Z (scout-round) — scout
+
+**Round 105 — FIND: viXra frontier moved 2609.0058 → 2609.0061** (3 papers posted overnight 00:49–01:05Z; RSS + PDF direct fetch work from cloud, abs pages 406 anti-bot).
+
+- **2609.0059 Hamid Simon (Boumerdes, Algérie) — "La découverte du champ x spatial, et les méthodes de la détection de ce champ"** — FR+EN bilingual; claimed 2023 discovery of an invisible spatial X-field (no EM influence, no effect on living matter) that moves stars with gravity (electric-motor analogy); first published as self-published Amazon KDP 309pp book (2023). **BANK CANDIDATE → FR→EN dossier for the ether/aether lane** (self-published validation-floor specimen + detection-methods register). PDF: https://vixra.org/pdf/2609.0059v1.pdf
+- 2609.0060 Maodong Ye — integer representation / Goldbach claim (math, off-lane; archive completeness only). 2609.0061 Ahmad Mammadov — Lattice Tension Theory (quantum-cell lattice model of space/gravity; secondary bank candidate, aether/lattice-model family).
+- **FIND: iccf27.org (no hyphen) now NXDOMAIN — live domain is iccf-27.org** (hyphen). /proceeding/ STILL 200/9,845B "Under Construction" shell ~6wk post-conf = TOP CAPTURE TRIGGER HOLDS (probe iccf-27.org/proceeding/ every fire). /program/ 37,721B steady (captured r102).
+- Archive **80,996 live-verified** (stats.json generated_at 03:09:05Z; 72,960 previews; researchers 1,049; patents 2,870; translations 135). No scout-side add this round (sandbox has no archive clone).
+- Lanes dry: lenr-canr /acrobat/ 1,454 byte-same 138,372B; lenr.su 102,561B stable; naturalscience.coocan.jp 48,076B byte-same; lenr.com.cn 53,821B byte-same; seplm.ru + tuks 000 flakes (environmental).
+- **Staleness: translator streams ~87h+ quiet** (since ~09-18; 6th+ session past 48h; QC reconfirmed feed 135 steady; escalation to Sandra standing). Claims: none in progress.
+- OCR/queue/tag ~2,058 pending FocusOptimized (cloud no scripts → run_queue.py/tag_concepts.py not run). Report: sources/2026-09-22-scout-report-0400.md.
+
 ## 2026-09-22 02:15Z (scout-archive-growth) — scout
 
 **GROWTH +8 — archive 80,988→80,996** (ids 2,423,337–2,423,344, merge id-safe via merge_all_progress.py, shard_0008+manifest only, 0 dup source_url, push 718356dd6, remote head verified == local + GitHub API manifest 80,996).
