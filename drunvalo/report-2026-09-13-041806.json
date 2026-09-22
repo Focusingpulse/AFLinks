@@ -1,0 +1,40 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-13T04:18:06.754889+00:00",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "translations/"
+  ],
+  "details": {
+    "translations_checked": 5,
+    "files_checked": [
+      "2026-09-13-guy-thieux-enel-legataire-fr-en.md",
+      "2026-09-12-goethe-scientific-works-complete-it.md",
+      "2026-09-12-jacques-ravatin-champs-de-coherence-fr-en.md",
+      "2026-09-12-jean-de-la-foye-ondes-de-vie-ondes-de-mort-fr-en.md",
+      "2026-09-12-viktor-schauberger-and-the-water-vortexer-de.md"
+    ],
+    "issues_found": [
+      "Goethe file: severe mojibake (double-encoded UTF-8 read as cp1252) — 893 en-dashes, 390 em-dashes, 129 ellipses, umlauts/accents corrupted; fixed via cp1252 round-trip + manual fixes (Tjutčev, Mandel’štam, ánthrōpos)",
+      "Duplicate regrowth vector active again: 2026-09-11 batch re-emitted 24 already-translated works under new date-prefixed filenames with degraded wrapper frontmatter (name = filename, description = boilerplate)",
+      "research-index.json had 55 duplicate ids accumulated from prior regrowth"
+    ],
+    "fixes_applied": [
+      "Repaired Goethe mojibake in place (932,944 chars; 0 FFFD, 0 C1, 0 double-encoded remaining)",
+      "Deleted 24 duplicate translation files (21 exact + 3 near-dupes similarity >= 0.92); keepers chosen by frontmatter quality",
+      "Remapped all references to keepers across library_feed.json, person-index, research-index, synthesis files, family_ledger, paradigm docs",
+      "Deduped research-index 267 -> 212 works; feed latest_translations 97 -> 76",
+      "Rebuilt slim index, token index, taxonomy counts, stats (hero count 97 -> 76)",
+      "DB additions: person Guy Thieux (id guy-thieux); research works for Thieux, Ravatin, La Foye, Goethe scientific works, Schauberger water vortexer"
+    ],
+    "db_entries_added": [
+      "person: guy-thieux",
+      "research: guy-thieux-enel-legataire-fr-en",
+      "research: jean-de-la-foye-ondes-de-vie-fr-en",
+      "research: goethe-scientific-works-it-en",
+      "research: schauberger-water-vortexer-de-en"
+    ],
+    "notes": "Push initially rejected (remote had scout round-59 commits); rebased, resolved search_manifest/token_index conflicts by taking remote rebuilt versions, pushed as 2b022584. Root cause of duplicates remains the translation pipeline emitting without content-hash/source-URL check — same as 2026-09-11 finding; pipeline-side fix still needed."
+  }
+}

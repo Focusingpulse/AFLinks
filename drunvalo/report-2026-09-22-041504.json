@@ -1,0 +1,11 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-22T04:15:04.908763+00:00",
+  "summary": "translation-qc: DB indexes healthy (248 works/224 persons, 0 dupes by id/file-field); found feed source_url gap (121/135 empty) \u2014 added durable backfill step to build_library_feed.py (DB->excerpt-metadata->first-URL cascade) + fixed AFLINKS path resolution; recovered 36 source_urls + 7 domains; rebuilt feed; tag_concepts.py skipped (dead, index.json sharded)",
+  "status": "ok",
+  "files_modified": [
+    "library_feed.json",
+    "build_library_feed.py"
+  ],
+  "details": "translations/ retired by design (publish boundary 2026-09-20). QC targets: research-index, person-index, library_feed. Stub works (102, no themes/claims) noted \u2014 enrichment blocked: source dossiers live in Forge memory, not repo. Remaining 85 feed entries lack source_url \u2014 data exists nowhere in repo; needs Forge frontmatter fix at emission time."
+}

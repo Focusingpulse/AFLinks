@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Scope — Aetherforce Vault</title>
+<style>
+  :root {
+    --bg: #0c0a08;
+    --bg2: #1a1410;
+    --stone: #2a2218;
+    --stone-hi: #3a3024;
+    --gold: #c9a84c;
+    --gold-bright: #e8c860;
+    --gold-dim: #8a7430;
+    --copper: #b87333;
+    --bronze: #8c6a3e;
+    --text: #d4c8a8;
+    --text-dim: #8a7e60;
+    --text-faint: #5a4e38;
+    --ringA: #c9a84c;
+    --ringB: #6fb3a8;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body {
+    background:
+      radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.09) 0%, transparent 55%),
+      radial-gradient(ellipse at 18% 88%, rgba(184,115,51,0.05) 0%, transparent 55%),
+      var(--bg);
+    color: var(--text);
+    font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+    min-height: 100vh;
+    padding: 20px 0 70px;
+  }
+  header { text-align:center; padding: 0 16px; }
+  h1 { font-size: 1.32rem; color: var(--gold-bright); letter-spacing:.04em; font-weight:400; }
+  h1 .orn { color: var(--gold-dim); font-size:.85rem; }
+  .tagline { color: var(--text-dim); font-size:.76rem; margin-top:5px; font-style:italic; }
+
+  /* ── the instrument ─────────────────────────────── */
+  .instrument { position:relative; max-width: 900px; margin: 22px auto 0; padding: 0 14px; }
+
+  /* light falling from the top, through both slides */
+  .beam {
+    position:absolute; left:50%; top:-26px; width:150px; height:calc(100% - 10px);
+    transform:translateX(-50%);
+    background: linear-gradient(to bottom,
+      rgba(232,200,96,0.30) 0%,
+      rgba(232,200,96,0.15) 30%,
+      rgba(232,200,96,0.05) 68%,
+      rgba(232,200,96,0.00) 100%);
+    filter: blur(12px);
+    pointer-events:none;
+  }
+
+  .slide { position:relative; margin-bottom: 14px; }
+  .slide-head {
+    display:flex; align-items:baseline; justify-content:center; gap:9px;
+    margin-bottom: 7px;
+  }
+  .slide-tag {
+    font-size:.66rem; letter-spacing:.20em; font-weight:700; text-transform:uppercase;
+  }
+  .slide-tag.a { color: var(--ringA); }
+  .slide-tag.b { color: var(--ringB); }
+  .slide-hint { color: var(--text-faint); font-size:.62rem; letter-spacing:.08em; }
+
+  /* the reel — native horizontal scroll with snap (momentum + accessibility for free) */
+  .reel {
+    position:relative;
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width:none;
+    padding: 9px 0 11px;
+    background:
+      linear-gradient(to bottom, rgba(58,48,36,0.55), rgba(18,14,10,0.85));
+    border:1px solid var(--bronze);
+    border-radius: 12px;
+    box-shadow: inset 0 8px 22px rgba(0,0,0,.55), inset 0 -8px 22px rgba(0,0,0,.45);
+  }
+  .reel::-webkit-scrollbar { display:none; }
+  /* spacer so the first and last items can reach the centre */
+  .reel::before, .reel::after {
+    content:''; flex: 0 0 calc(50% - 92px);
+  }
+  .item {
+    flex: 0 0 176px;
+    scroll-snap-align: center;
+    text-align:center;
+    padding: 11px 10px;
+    border-radius: 9px;
+    border:1px solid #34291c;
+    background: linear-gradient(140deg, #241d15, #171209);
+    color: var(--text-dim);
+    font-size:.78rem;
+    line-height:1.28;
+    cursor:pointer;
+    transition: all .22s ease;
+    opacity:.78;
+  }
+  .item .n { display:block; font-size:.6rem; color:var(--text-faint); margin-top:4px; letter-spacing:.05em; }
+  .item.sel { opacity:1; transform: translateY(-2px); }
+  .slide.a .item.sel {
+    color: var(--ringA); border-color: var(--gold);
+    background: linear-gradient(140deg, #3a2f16, #201a0c);
+    box-shadow: 0 0 18px rgba(201,168,76,.30), inset 0 0 10px rgba(201,168,76,.10);
+  }
+  .slide.b .item.sel {
+    color: var(--ringB); border-color: #4d8c84;
+    background: linear-gradient(140deg, #14302e, #0d1c1b);
+    box-shadow: 0 0 18px rgba(111,179,168,.28), inset 0 0 10px rgba(111,179,168,.10);
+  }
+  /* the fixed selection marker at the centre of each reel */
+  .mark {
+    position:absolute; left:50%; top:0; bottom:0; width:0;
+    border-left:1px solid rgba(232,200,96,.30);
+    transform: translateX(-0.5px);
+    pointer-events:none;
+  }
+
+  .flow { text-align:center; color: var(--gold-dim); font-size:1.1rem; line-height:1; margin: 2px 0 12px; }
+
+  /* ── the seam ───────────────────────────────────── */
+  .readout {
+    position:relative;
+    max-width: 620px; margin: 0 auto;
+    background: linear-gradient(140deg, var(--bg2) 0%, #151d1f 100%);
+    border:1px solid var(--bronze);
+    border-radius: 13px;
+    padding: 15px 16px;
+    text-align:center;
+    box-shadow: 0 0 26px rgba(0,0,0,.5);
+  }
+  .pair { font-size:1.0rem; line-height:1.45; }
+  .pair .a { color: var(--ringA); font-weight:700; }
+  .pair .b { color: var(--ringB); font-weight:700; }
+  .pair .x { color: var(--text-faint); padding:0 7px; }
+  .seam-line { color: var(--text-dim); font-size:.79rem; margin-top:9px; line-height:1.55; }
+  .seam-line b { color: var(--gold-bright); }
+  .count-big { font-size:1.7rem; color: var(--gold-bright); font-weight:700; line-height:1.1; margin-bottom:2px; }
+  .count-lbl { font-size:.62rem; letter-spacing:.18em; color: var(--text-faint); }
+
+  .controls { display:flex; gap:7px; justify-content:center; flex-wrap:wrap; margin-top:13px; }
+  .btn {
+    background: var(--stone); border:1px solid var(--bronze); color: var(--gold);
+    border-radius: 19px; padding: 7px 13px; font-size:.75rem; cursor:pointer;
+    font-family:inherit; transition: all .18s;
+  }
+  .btn:active, .btn:hover { border-color: var(--gold); color: var(--gold-bright); }
+  .btn.on { background: linear-gradient(135deg,var(--gold-bright),var(--gold)); color: var(--bg); border-color: var(--gold-bright); font-weight:700; }
+
+  .crossings { max-width:640px; margin:13px auto 0; text-align:center; padding:0 14px; }
+  .crossings .lbl { color: var(--text-faint); font-size:.64rem; letter-spacing:.16em; }
+  .chip {
+    display:inline-block; margin:6px 4px 0; padding:4px 11px; border-radius:14px;
+    background: var(--stone); border:1px solid var(--bronze); color: var(--text-dim); font-size:.72rem;
+  }
+
+  .results { max-width:820px; margin:18px auto 0; padding:0 14px; }
+  .rcount { color: var(--text-faint); font-size:.72rem; text-align:center; margin-bottom:10px; }
+  .doc {
+    display:block; text-decoration:none; color:inherit;
+    background: linear-gradient(140deg, var(--bg2) 0%, #151c1e 100%);
+    border:1px solid #2c2820; border-left:3px solid var(--bronze);
+    border-radius:10px; padding:11px 13px; margin-bottom:9px;
+  }
+  .doc:active { border-left-color: var(--gold); }
+  .doc .t { color: var(--text); font-size:.88rem; line-height:1.42; }
+  .doc .m { color: var(--text-faint); font-size:.68rem; margin-top:5px; }
+  .doc .pill { display:inline-block; padding:1px 8px; border-radius:9px; margin-right:6px; font-size:.64rem; }
+  .doc .pill.both { background: rgba(201,168,76,.16); color: var(--gold); border:1px solid var(--gold-dim); }
+  .doc .pill.cross { background: rgba(111,179,168,.13); color: var(--ringB); border:1px solid #3c6a63; }
+  .more-wrap { text-align:center; margin-top:9px; }
+  .more { display:inline-block; }
+  .linkish {
+    display:block; margin:9px auto 0; padding:5px;
+    background:none; border:none; cursor:pointer; font-family:inherit;
+    color:var(--text-faint); font-size:.7rem; text-decoration:underline;
+  }
+  .linkish:hover { color: var(--gold); }
+
+  .loading { text-align:center; color: var(--text-dim); padding:70px 20px; font-style:italic; }
+  .hint { text-align:center; color: var(--text-faint); font-size:.7rem; margin-top:18px; line-height:1.7; padding:0 20px; }
+  .hint a { color: var(--text-dim); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span class="orn">&#10086;</span> The Scope <span class="orn">&#10086;</span></h1>
+  <p class="tagline">Light falls through two slides. What survives is the seam.</p>
+</header>
+
+<div id="boot" class="loading">Opening the instrument&hellip;</div>
+
+<div id="app" style="display:none">
+  <div class="instrument">
+    <div class="beam"></div>
+
+    <div class="slide a">
+      <div class="slide-head">
+        <span class="slide-tag a">Topic A</span>
+        <span class="slide-hint">slide to turn</span>
+      </div>
+      <div class="reel" id="reelA"><div class="mark"></div></div>
+    </div>
+
+    <div class="flow">&#8595;</div>
+
+    <div class="slide b">
+      <div class="slide-head">
+        <span class="slide-tag b">Topic B</span>
+        <span class="slide-hint">slide to turn</span>
+      </div>
+      <div class="reel" id="reelB"><div class="mark"></div></div>
+    </div>
+
+    <div class="flow">&#8595;</div>
+
+    <div class="readout">
+      <div class="count-big" id="countBig">0</div>
+      <div class="count-lbl" id="countLbl">IN THE SEAM</div>
+      <div class="pair" style="margin-top:9px">
+        <span class="a" id="nameA">&mdash;</span><span class="x">&times;</span><span class="b" id="nameB">&mdash;</span>
+      </div>
+      <div class="seam-line" id="seamLine"></div>
+      <div class="controls">
+        <button class="btn on" id="btnAll">Everything</button>
+        <button class="btn" id="btnOverlap">True overlap</button>
+        <button class="btn" id="btnBright">&#9875; Brightest seam</button>
+        <button class="btn" id="btnShuffle">&#8635; Random pair</button>
+      </div>
+    </div>
+
+    <div class="crossings" id="crossings"></div>
+
+    <div class="results">
+      <div class="rcount" id="rcount"></div>
+      <div id="docList"></div>
+    </div>
+
+    <p class="hint">Slide each reel to choose a topic. They both meet in the middle &mdash;<br>
+    everything below is what converges between them. <a href="./vault.html">&larr; back to the Vault</a></p>
+  </div>
+</div>
+
+<script>
+window.onerror = function (m, src, ln) {
+  var b = document.getElementById('boot');
+  if (b) { b.textContent = 'Error: ' + m + ' (line ' + ln + ')'; b.style.display = 'block'; }
+};
+
+(function () {
+  var data = null, catSets = {}, names = [], N = 0;
+  var subSets = {};
+  var selA = 0, selB = 0;
+  var mode = 'all';
+  var seamCache = {}, resultCache = {};
+  var FOCUS_CAP = 8000;
+
+  var reelA = document.getElementById('reelA');
+  var reelB = document.getElementById('reelB');
+
+  fetch('./scope_data.json')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      data = d;
+      names = Object.keys(d.cats);
+      N = names.length;
+      names.forEach(function (n) { catSets[n] = new Set(d.cats[n]); });
+      Object.keys(d.subcats || {}).forEach(function (s) { subSets[s] = new Set(d.subcats[s]); });
+      buildReels();
+      var best = brightest();
+      setSel(best.a, best.b, false);
+      render();
+      document.getElementById('boot').style.display = 'none';
+      document.getElementById('app').style.display = 'block';
+      // centre the initial selections once the layout has settled
+      requestAnimationFrame(function () {
+        centre(reelA, selA, true); centre(reelB, selB, true); render();
+      });
+    })
+    .catch(function (e) {
+      document.getElementById('boot').textContent = 'Could not load scope_data.json (' + e + ')';
+    });
+
+  // ─────────────────────────────────────────── reels
+  function buildReels() {
+    names.forEach(function (n, i) {
+      reelA.appendChild(mkItem(n, i, 'A'));
+      reelB.appendChild(mkItem(n, i, 'B'));
+    });
+    reelA.addEventListener('scroll', function () { onScroll('A'); }, { passive: true });
+    reelB.addEventListener('scroll', function () { onScroll('B'); }, { passive: true });
+  }
+
+  function mkItem(n, i, which) {
+    var el = document.createElement('div');
+    el.className = 'item';
+    el.dataset.idx = i;
+    el.innerHTML = esc(n) + '<span class="n">' + data.cats[n].length.toLocaleString() + ' docs</span>';
+    el.addEventListener('click', function () {
+      if (which === 'A') { selA = i; centre(reelA, i); } else { selB = i; centre(reelB, i); }
+      render();
+    });
+    return el;
+  }
+
+  function centre(reel, idx, instant) {
+    var items = reel.querySelectorAll('.item');
+    var it = items[idx];
+    if (!it) return;
+    var target = it.offsetLeft - (reel.clientWidth - it.offsetWidth) / 2;
+    if (instant) {
+      var prev = reel.style.scrollBehavior;
+      reel.style.scrollBehavior = 'auto';
+      reel.scrollLeft = target;
+      reel.style.scrollBehavior = prev || '';
+    } else {
+      reel.scrollTo({ left: target, behavior: 'smooth' });
+    }
+  }
+
+  // which item is nearest the centre marker?
+  function centredIndex(reel) {
+    var mid = reel.scrollLeft + reel.clientWidth / 2;
+    var hit = 0, best = Infinity;
+    reel.querySelectorAll('.item').forEach(function (it) {
+      var c = it.offsetLeft + it.offsetWidth / 2;
+      var d = Math.abs(c - mid);
+      if (d < best) { best = d; hit = +it.dataset.idx; }
+    });
+    return hit;
+  }
+
+  var raf = {};
+  function onScroll(which) {
+    if (raf[which]) return;
+    raf[which] = requestAnimationFrame(function () {
+      raf[which] = null;
+      var reel = which === 'A' ? reelA : reelB;
+      var idx = centredIndex(reel);
+      var cur = which === 'A' ? selA : selB;
+      if (idx === cur) return;
+      if (which === 'A') selA = idx; else selB = idx;
+      paintSel();
+      render();
+    });
+  }
+
+  function paintSel() {
+    reelA.querySelectorAll('.item').forEach(function (it) {
+      it.classList.toggle('sel', +it.dataset.idx === selA);
+    });
+    reelB.querySelectorAll('.item').forEach(function (it) {
+      it.classList.toggle('sel', +it.dataset.idx === selB);
+    });
+    document.getElementById('nameA').textContent = names[selA];
+    document.getElementById('nameB').textContent = names[selB];
+  }
+
+  function setSel(ai, bi, doRender) {
+    selA = ai; selB = bi;
+    paintSel();
+    centre(reelA, ai); centre(reelB, bi);
+    if (doRender !== false) render();
+  }
+
+  // ─────────────────────────────────────────── seam maths
+  // Candidate seams, ranked by how much of the SMALLER field reaches across,
+  // restricted to focused fields: two keyword-broad monoliths overlapping is
+  // arithmetic, not a seam.
+  var ranked = null, brightIx = 0;
+  function seams() {
+    if (ranked) return ranked;
+    var out = [];
+    for (var i = 0; i < N; i++) {
+      for (var j = i + 1; j < N; j++) {
+        var A = names[i], B = names[j];
+        var la = data.cats[A], lb = data.cats[B];
+        if (la.length > FOCUS_CAP || lb.length > FOCUS_CAP) continue;
+        var sb = catSets[B], n = 0;
+        for (var k = 0; k < la.length; k++) if (sb.has(la[k])) n++;
+        if (n < 25) continue;
+        out.push({ a: i, b: j, ratio: n / Math.min(la.length, lb.length) });
+      }
+    }
+    out.sort(function (x, y) { return y.ratio - x.ratio; });
+    ranked = out;
+    return out;
+  }
+  function brightest() {
+    var r = seams();
+    if (!r.length) return { a: 0, b: 1 };
+    return r[brightIx % r.length];
+  }
+
+  function seamOf(ai, bi) {
+    var key = ai + '|' + bi;
+    if (seamCache[key]) return seamCache[key];
+    var A = names[ai], B = names[bi];
+    if (A === B) {
+      var one = { both: data.cats[A].slice(), crossing: [], shared: [], bothSet: new Set(data.cats[A]) };
+      seamCache[key] = one; return one;
+    }
+    var la = data.cats[A], lb = data.cats[B], sb = catSets[B];
+    var both = [], i;
+    for (i = 0; i < la.length; i++) if (sb.has(la[i])) both.push(la[i]);
+    var bothSet = new Set(both);
+    var shared = (data.meta_subcats[A] || []).filter(function (s) {
+      return (data.meta_subcats[B] || []).indexOf(s) !== -1;
+    });
+    // crossings: docs in either field that live under a shared sub-theme
+    var allowed = new Set(la.concat(lb));
+    var seen = new Set(), crossing = [];
+    shared.forEach(function (s) {
+      var ids = (data.subcats && data.subcats[s]) || [];
+      for (var q = 0; q < ids.length; q++) {
+        var id = ids[q];
+        if (seen.has(id) || bothSet.has(id) || !allowed.has(id)) continue;
+        seen.add(id); crossing.push(id);
+      }
+    });
+    var out = { both: both, crossing: crossing, shared: shared, bothSet: bothSet };
+    seamCache[key] = out;
+    return out;
+  }
+
+  // ─────────────────────────────────────────── render
+  var lastKey = null;
+  function render() {
+    var A = names[selA], B = names[selB];
+    var s = seamOf(selA, selB);
+    var ids = mode === 'overlap' ? s.both : s.both.concat(s.crossing);
+
+    document.getElementById('countBig').textContent = ids.length.toLocaleString();
+    document.getElementById('countLbl').textContent = mode === 'overlap' ? 'SHARED BY BOTH' : 'IN THE SEAM';
+    document.getElementById('seamLine').innerHTML = (A === B)
+      ? 'One field. Slide the other to open a seam.'
+      : '<b>' + s.both.length.toLocaleString() + '</b> tagged with both' +
+        (s.crossing.length ? ' &middot; <b>' + s.crossing.length.toLocaleString() + '</b> reaching across via '
+          + s.shared.length + ' shared theme' + (s.shared.length === 1 ? '' : 's') : '');
+
+    var cx = document.getElementById('crossings');
+    if (A === B) cx.innerHTML = '<div class="lbl">ONE FIELD ONLY</div>';
+    else if (s.shared.length) {
+      cx.innerHTML = '<div class="lbl">SHARED THEMES</div>' +
+        s.shared.slice(0, 14).map(function (t) { return '<span class="chip">' + esc(t) + '</span>'; }).join('') +
+        (s.shared.length > 14 ? '<span class="chip">+' + (s.shared.length - 14) + '</span>' : '');
+    } else {
+      cx.innerHTML = '<div class="lbl">NO SHARED SUB-THEMES &mdash; THE OVERLAP IS THE WHOLE SEAM</div>';
+    }
+
+    var rk = mode + '|' + selA + '|' + selB;
+    if (rk !== lastKey) { shown = PAGE; lastKey = rk; }   // new seam -> collapse the list
+    if (resultCache[rk]) { paint(resultCache[rk]); return; }
+    var rows = ids.map(function (id) {
+      return { id: id, t: data.titles[id] || '(untitled)', both: s.bothSet.has(id) };
+    });
+    resultCache[rk] = rows;
+    paint(rows);
+  }
+
+  var PAGE = 10;          // links shown before the list asks to be expanded
+  var shown = PAGE;
+  function paint(rows) {
+    var total = rows.length;
+    document.getElementById('rcount').textContent = total === 0
+      ? 'nothing in this seam'
+      : (total <= shown
+          ? total.toLocaleString() + ' document' + (total === 1 ? '' : 's') + ' in this seam'
+          : 'showing ' + shown.toLocaleString() + ' of ' + total.toLocaleString() + ' in this seam');
+
+    var list = document.getElementById('docList');
+    list.innerHTML = rows.slice(0, shown).map(function (r) {
+      var id = String(r.id).padStart(8, '0');
+      var pill = r.both ? '<span class="pill both">both</span>' : '<span class="pill cross">crossing</span>';
+      return '<a class="doc" href="./pages/' + id + '.html">' +
+        '<div class="t">' + esc(r.t) + '</div>' +
+        '<div class="m">' + pill + 'archived #' + r.id + '</div></a>';
+    }).join('');
+
+    if (total > shown) {
+      var wrap = document.createElement('div');
+      wrap.className = 'more-wrap';
+      var b = document.createElement('button');
+      b.className = 'btn more';
+      b.textContent = 'Show ' + Math.min(PAGE, total - shown) + ' more';
+      b.onclick = function () { shown += PAGE; paint(rows); };
+      wrap.appendChild(b);
+      var all = document.createElement('button');
+      all.className = 'linkish';
+      all.textContent = 'or show all ' + total.toLocaleString();
+      all.onclick = function () { shown = total; paint(rows); };
+      wrap.appendChild(all);
+      list.appendChild(wrap);
+    }
+  }
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  // ─────────────────────────────────────────── controls
+  function setMode(m) {
+    mode = m;
+    document.getElementById('btnAll').classList.toggle('on', m === 'all');
+    document.getElementById('btnOverlap').classList.toggle('on', m === 'overlap');
+    render();
+  }
+  document.getElementById('btnAll').onclick = function () { setMode('all'); };
+  document.getElementById('btnOverlap').onclick = function () { setMode('overlap'); };
+  document.getElementById('btnBright').onclick = function () {
+    var b = brightest(); brightIx++; setSel(b.a, b.b); render();
+  };
+  document.getElementById('btnShuffle').onclick = function () {
+    setSel(Math.floor(Math.random() * N), Math.floor(Math.random() * N));
+    render();
+  };
+})();
+</script>
+</body>
+</html>

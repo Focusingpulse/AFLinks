@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aetherforce Knowledge Vault — Lens</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="The Lens — cross-reference analysis tools for the Aetherforce Knowledge Vault: 52,676 primary-source documents.">
+<meta property="og:title" content="Aetherforce Knowledge Vault — Lens">
+<meta property="og:description" content="Cross-reference analysis — see how authors think across 52,676 primary-source documents.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://focusingpulse.github.io/AFLinks/lens.html">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/favicon.svg">
+<meta name="twitter:card" content="summary">
+<style>
+:root {
+  --bg: #0a0a12;
+  --bg2: #12121e;
+  --card: #1a1a2e;
+  --card-hi: #22223a;
+  --text: #e0e0f0;
+  --text-dim: #8888aa;
+  --text-faint: #444466;
+  --accent: #d4a843;
+  --accent2: #6b8fce;
+  --accent3: #c05050;
+  --border: #2a2a44;
+  --glow: rgba(212,168,67,0.3);
+  --blur: 3px;
+  --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* === Header === */
+header {
+  text-align: center;
+  padding: 20px 16px 8px;
+}
+header h1 {
+  font-size: 1.6rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: var(--accent);
+  text-shadow: 0 0 20px var(--glow);
+}
+header p {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin-top: 4px;
+  font-style: italic;
+}
+/* the tagline is the interaction model, so it gets the weight of one */
+header p.walk-tagline {
+  font-size: 0.72rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-style: normal;
+  color: var(--accent);
+  margin-top: 8px;
+  text-shadow: 0 0 14px var(--glow);
+}
+.nav-links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.nav-links a {
+  padding: 6px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 0.5px;
+  transition: all 0.15s;
+}
+.nav-links a:hover, .nav-links a.here {
+  background: var(--accent-dim);
+  color: #fff;
+  border-color: var(--accent-dim);
+}
+.nav-links a.here { opacity: 0.95; }
+
+/* === Goethean Walk — one continuous spectrum, seven lens stops === */
+        /* [aesthetic] A reading instrument, not an optical reproduction.
+           Newton's band runs left→right on top; the Goethean (inverted)
+           arrangement runs beneath it. Where the two disagree at the ends the
+           boundary color appears — green at one seam, magenta at the other. */
+        .walk-wrap {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 10px 16px 4px;
+        }
+        .walk-kicker {
+            display: block;
+            text-align: center;
+            font-size: 0.66rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-faint);
+            margin-bottom: 6px;
+        }
+        .walk-svg {
+            display: block;
+            width: 100%;
+            height: auto;
+            overflow: visible;
+        }
+        .walk-svg .walk-stop { cursor: pointer; }
+        .walk-svg .walk-stop-ring { fill: rgba(10,10,18,0.85); stroke: rgba(232,182,76,0.5); stroke-width: 1.5; transition: all 0.2s; }
+        .walk-svg .walk-stop:hover .walk-stop-ring { stroke: var(--accent); }
+        .walk-svg .walk-stop.on .walk-stop-ring { fill: rgba(232,182,76,0.9); stroke: #fff3d6; }
+        .walk-svg .walk-stop-num { font-family: 'Georgia', serif; font-size: 13px; fill: var(--text-dim); text-anchor: middle; pointer-events: none; }
+        .walk-svg .walk-stop.on .walk-stop-num { fill: #231503; font-weight: bold; }
+        .walk-svg .walk-stop-lens { font-family: system-ui, sans-serif; font-size: 10px; letter-spacing: 1px; fill: var(--text-dim); text-anchor: middle; pointer-events: none; }
+        .walk-svg .walk-stop.on .walk-stop-lens { fill: var(--accent); }
+        .walk-svg .walk-traveler { transition: cx 0.55s cubic-bezier(0.4, 0, 0.2, 1); }
+        .walk-svg .walk-boundary-lbl { font-family: system-ui, sans-serif; font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; text-anchor: middle; }
+
+        .walk-now {
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 2px;
+            min-height: 42px;
+        }
+        .walk-now .walk-num {
+            font-family: 'Georgia', serif;
+            font-size: 2.2rem;
+            line-height: 1;
+            color: var(--accent);
+            font-weight: bold;
+        }
+        .walk-now .walk-name {
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--text-dim);
+        }
+        .walk-controls {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 6px 0 4px;
+        }
+        .walk-btn {
+            font-family: inherit;
+            font-size: 0.8rem;
+            letter-spacing: 0.5px;
+            padding: 8px 20px;
+            border-radius: 999px;
+            border: 1px solid var(--accent);
+            background: linear-gradient(180deg, rgba(212,168,67,0.9), rgba(184,134,11,0.9));
+            color: #231503;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .walk-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(212,168,67,0.35); }
+        .walk-btn:disabled { opacity: 0.45; cursor: default; transform: none; box-shadow: none; }
+        .walk-stop-btn {
+            background: rgba(255,255,255,0.06);
+            border-color: rgba(255,255,255,0.25);
+            color: var(--text-dim);
+        }
+        .walk-stop-btn:hover { border-color: var(--accent3); color: #ffd9d9; box-shadow: none; }
+        .walk-hint { font-size: 0.68rem; color: var(--text-faint); letter-spacing: 0.5px; }
+
+/* === Lens description === */
+.lens-desc {
+  text-align: center;
+  padding: 4px 20px 16px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.lens-desc h2 {
+  font-size: 1.1rem;
+  color: var(--accent2);
+  font-weight: normal;
+  margin-bottom: 4px;
+}
+.lens-desc p {
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+
+/* === Vesica compare mode === */
+.vesica-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 16px 0;
+  position: relative;
+  min-height: 120px;
+}
+.vesica-container.show { display: flex; }
+.vesica-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 2px solid var(--accent2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: var(--accent2);
+  text-align: center;
+  background: rgba(107,143,206,0.05);
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+.vesica-circle:hover { border-color: var(--accent); color: var(--accent); }
+.vesica-circle.right { margin-left: -60px; }
+.vesica-overlap {
+  position: absolute;
+  width: 100px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: var(--accent);
+  text-align: center;
+  z-index: 0;
+  pointer-events: none;
+}
+.vesica-select {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  padding: 8px 0;
+}
+.vesica-select select {
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+.vesica-select select:focus { outline: none; border-color: var(--accent); }
+
+/* === Category grid === */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  padding: 12px 16px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+  transition: all var(--transition);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.cat-card.revealed {
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(212,168,67,0.15);
+  opacity: 1;
+  filter: none;
+}
+.cat-card.obscured {
+  opacity: 0.3;
+  filter: blur(var(--blur)) grayscale(0.8);
+  transform: scale(0.97);
+}
+.cat-card.partial {
+  opacity: 0.6;
+  filter: blur(1px);
+}
+.cat-card h3 {
+  font-size: 0.95rem;
+  color: var(--text);
+  margin-bottom: 4px;
+  font-weight: normal;
+}
+.cat-card .count {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+.cat-card .lens-label {
+  font-size: 0.7rem;
+  color: var(--accent);
+  margin-top: 6px;
+  font-style: italic;
+}
+.cat-card .source-list {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+/* === Focus mode (lens 1) === */
+.focus-mode {
+  display: none;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.focus-mode.show { display: block; }
+.focus-mode .focus-select {
+  display: block;
+  margin: 0 auto 16px;
+  background: var(--card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+}
+.focus-mode .focus-select:focus { outline: none; border-color: var(--accent); }
+.focus-doc {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 10px;
+  transition: all var(--transition);
+}
+.focus-doc h3 {
+  font-size: 0.95rem;
+  color: var(--accent);
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+.focus-doc p {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+}
+.focus-doc .meta {
+  font-size: 0.7rem;
+  color: var(--text-faint);
+  margin-top: 6px;
+}
+
+/* === Stats bar === */
+.stats {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+  padding: 8px 0;
+}
+.stats span { color: var(--accent2); }
+
+/* === Responsive === */
+@media (max-width: 600px) {
+  header h1 { font-size: 1.2rem; }
+  .walk-wrap { padding: 6px 10px 2px; }
+  .walk-now .walk-num { font-size: 1.8rem; }
+  .categories { grid-template-columns: 1fr; padding: 12px; }
+  .vesica-circle { width: 120px; height: 120px; font-size: 0.7rem; }
+  .vesica-circle.right { margin-left: -40px; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>THE AETHERFORCE VAULT</h1>
+  <p class="walk-tagline">The archive never moves. The eye moves.</p>
+</header>
+
+<!-- Goethean Walk — the archive never moves; the eye moves -->
+<div class="walk-wrap">
+  <svg class="walk-svg" id="walkSvg" viewBox="0 0 720 150"
+       aria-label="Newton's spectrum above, the Goethean inversion below, seven lens stops along the band"></svg>
+  <div class="walk-now">
+    <span class="walk-num" id="lensNum">1</span>
+    <span class="walk-name" id="lensName">FOCUS</span>
+  </div>
+  <div class="walk-controls">
+    <button class="walk-btn" id="walkBtn" title="Travel all seven lenses — light to dark, then dark to light">▶ Walk the spectrum</button>
+    <button class="walk-btn walk-stop-btn" id="walkStopBtn" title="Interrupt the walk" disabled>■ Stop</button>
+    <span class="walk-hint" id="walkHint">two passes · same corpus, seen twice</span>
+  </div>
+</div>
+
+<div class="lens-desc" id="lensDesc">
+  <h2 id="lensTitle">Sealed Focus</h2>
+  <p id="lensBody">One lens. One view. The archive collapses to a single stream — read close, no category noise.</p>
+</div>
+
+<!-- Vesica compare mode (shown at lens 2) -->
+<div class="vesica-container" id="vesicaContainer">
+  <div class="vesica-select">
+    <select id="vesicaLeft"></select>
+    <select id="vesicaRight"></select>
+  </div>
+  <div style="display:flex;align-items:center;justify-content:center;width:100%;">
+    <div class="vesica-circle" id="vesicaLeftLabel">—</div>
+    <div class="vesica-circle right" id="vesicaRightLabel">—</div>
+    <div class="vesica-overlap" id="vesicaOverlap">intersection</div>
+  </div>
+</div>
+
+<!-- Focus mode (shown at lens 1) -->
+<div class="focus-mode" id="focusMode">
+  <select class="focus-select" id="focusSelect"></select>
+  <div id="focusResults"></div>
+</div>
+
+<!-- Stats -->
+<div class="stats" id="stats">
+  <span id="statTotal">84,884</span> documents · <span id="statVisible">23</span> categories visible
+</div>
+
+<!-- Category cards -->
+<div class="categories" id="categories"></div>
+
+<script>
+// === Data ===
+const META_CATEGORIES = [
+  { name: "Energy & Transportation", count: 2802 },
+  { name: "Aether, Light & Electricity", count: 1893 },
+  { name: "Biological & Morphogenetic Science", count: 1472 },
+  { name: "Material Sciences & Alchemy", count: 883 },
+  { name: "Water Structure & Memory", count: 868 },
+  { name: "Plasma, Torsion & Cosmology", count: 715 },
+  { name: "Challenges to the Standard Model", count: 714 },
+  { name: "Weather & Geo-Engineering", count: 713 },
+  { name: "Transhumanism & Psychotronic Warfare", count: 625 },
+  { name: "Alternative Energy Technologies", count: 611 },
+  { name: "Patents & Inventions", count: 474 },
+  { name: "Harmonics, Rhythms & Cycles", count: 473 },
+  { name: "Optics & Colour Therapy", count: 403 },
+  { name: "Electromagnetic Theory", count: 338 },
+  { name: "Geopolitics & Hidden History", count: 306 },
+  { name: "Sacred & Projective Geometry", count: 271 },
+  { name: "Regenerative Agriculture", count: 259 },
+  { name: "Goethean & Anthroposophical Science", count: 136 },
+  { name: "Reference & Technical Data", count: 86 },
+  { name: "Radionics, Radiesthesia & Shape Power", count: 57 },
+  { name: "Biology, Health & Medicine", count: 36 },
+  { name: "Environment & Climate", count: 35 },
+  { name: "Media & Interviews", count: 14 }
+];
+
+// === Lens definitions ===
+// Each lens maps meta-categories to groups. Categories not in any group are "obscured."
+const LENSES = {
+  1: {
+    name: "FOCUS",
+    title: "Sealed Focus",
+    body: "One lens. One view. The archive collapses to a single stream — read close, no category noise. Pick a category and zoom in.",
+    type: "focus"
+  },
+  2: {
+    name: "COMPARE",
+    title: "Vesica — Compare & Contrast",
+    body: "Two lenses overlap. Where they cross, the vesica reveals documents that live in both worlds. Drag two categories together and see what emerges between them.",
+    type: "vesica"
+  },
+  3: {
+    name: "MOTION",
+    title: "The Three Movements",
+    body: "Origin → Process → Finish. The smallest number that still tells a story. Everything in the archive is either a spark, a working machine, or a record of what happened.",
+    type: "groups",
+    groups: [
+      { label: "Origin — The Spark", cats: ["Challenges to the Standard Model", "Geopolitics & Hidden History", "Goethean & Anthroposophical Science", "Media & Interviews"] },
+      { label: "Process — The Working", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory", "Plasma, Torsion & Cosmology", "Patents & Inventions", "Material Sciences & Alchemy", "Harmonics, Rhythms & Cycles"] },
+      { label: "Finish — The Record", cats: ["Biological & Morphogenetic Science", "Water Structure & Memory", "Weather & Geo-Engineering", "Optics & Colour Therapy", "Sacred & Projective Geometry", "Regenerative Agriculture", "Biology, Health & Medicine", "Environment & Climate", "Reference & Technical Data", "Radionics, Radiesthesia & Shape Power", "Transhumanism & Psychotronic Warfare"] }
+    ]
+  },
+  4: {
+    name: "CLASSICAL",
+    title: "The Four Elements",
+    body: "Earth, Water, Air, Fire — the Western classical cut. The simplest lens that still holds a shape. Documents that don't fit any element blur into the background.",
+    type: "groups",
+    groups: [
+      { label: "Earth — Material & Structure", cats: ["Material Sciences & Alchemy", "Regenerative Agriculture", "Geopolitics & Hidden History", "Reference & Technical Data", "Environment & Climate"] },
+      { label: "Water — Flow & Memory", cats: ["Water Structure & Memory", "Biology, Health & Medicine", "Biological & Morphogenetic Science", "Weather & Geo-Engineering"] },
+      { label: "Air — Thought & Pattern", cats: ["Challenges to the Standard Model", "Harmonics, Rhythms & Cycles", "Sacred & Projective Geometry", "Goethean & Anthroposophical Science", "Optics & Colour Therapy", "Media & Interviews"] },
+      { label: "Fire — Energy & Transformation", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory", "Plasma, Torsion & Cosmology", "Patents & Inventions", "Transhumanism & Psychotronic Warfare", "Radionics, Radiesthesia & Shape Power"] }
+    ]
+  },
+  5: {
+    name: "ELEMENTS",
+    title: "The Five Elements (Chinese)",
+    body: "Wood, Fire, Earth, Metal, Water — the Chinese traditional cut. Each element generates and destroys another. Documents shift meaning depending on which phase holds them.",
+    type: "groups",
+    groups: [
+      { label: "Wood — Growth & Life", cats: ["Biological & Morphogenetic Science", "Regenerative Agriculture", "Biology, Health & Medicine", "Goethean & Anthroposophical Science"] },
+      { label: "Fire — Energy & Combustion", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Plasma, Torsion & Cosmology", "Transhumanism & Psychotronic Warfare"] },
+      { label: "Earth — Material & Ground", cats: ["Material Sciences & Alchemy", "Geopolitics & Hidden History", "Environment & Climate", "Weather & Geo-Engineering", "Reference & Technical Data"] },
+      { label: "Metal — Structure & Conduct", cats: ["Electromagnetic Theory", "Aether, Light & Electricity", "Patents & Inventions", "Radionics, Radiesthesia & Shape Power", "Sacred & Projective Geometry"] },
+      { label: "Water — Flow & Memory", cats: ["Water Structure & Memory", "Harmonics, Rhythms & Cycles", "Optics & Colour Therapy", "Challenges to the Standard Model", "Media & Interviews"] }
+    ]
+  },
+  6: {
+    name: "FORM",
+    title: "The Six Directions",
+    body: "Six facets of the vault — like faces of a crystal. Each direction sees a different side of the same body. Nothing is hidden; everything is partial.",
+    type: "groups",
+    groups: [
+      { label: "North — Theory & Challenge", cats: ["Challenges to the Standard Model", "Electromagnetic Theory", "Goethean & Anthroposophical Science"] },
+      { label: "South — Application & Device", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Patents & Inventions", "Radionics, Radiesthesia & Shape Power"] },
+      { label: "East — Energy & Field", cats: ["Aether, Light & Electricity", "Plasma, Torsion & Cosmology", "Harmonics, Rhythms & Cycles"] },
+      { label: "West — Life & Form", cats: ["Biological & Morphogenetic Science", "Water Structure & Memory", "Biology, Health & Medicine", "Regenerative Agriculture"] },
+      { label: "Up — Vision & Pattern", cats: ["Sacred & Projective Geometry", "Optics & Colour Therapy", "Media & Interviews"] },
+      { label: "Down — Ground & Record", cats: ["Material Sciences & Alchemy", "Geopolitics & Hidden History", "Weather & Geo-Engineering", "Reference & Technical Data", "Environment & Climate", "Transhumanism & Psychotronic Warfare"] }
+    ]
+  },
+  7: {
+    name: "PLANES",
+    title: "The Seven Planes of Nature",
+    body: "Physical → Vitality → Emotional → Mental → Archetypal → Spiritual → Divine. Karim's planes interpenetrate — they don't stack. A single document resonates across all planes, but each lens shows which plane it speaks from loudest.",
+    type: "groups",
+    groups: [
+      { label: "Physical — The Hardware", cats: ["Patents & Inventions", "Material Sciences & Alchemy", "Reference & Technical Data"] },
+      { label: "Vitality — The Energy", cats: ["Energy & Transportation", "Alternative Energy Technologies", "Aether, Light & Electricity", "Electromagnetic Theory"] },
+      { label: "Emotional — The Feeling", cats: ["Water Structure & Memory", "Optics & Colour Therapy", "Harmonics, Rhythms & Cycles"] },
+      { label: "Mental — The Theory", cats: ["Challenges to the Standard Model", "Plasma, Torsion & Cosmology", "Goethean & Anthroposophical Science"] },
+      { label: "Archetypal — The Pattern", cats: ["Sacred & Projective Geometry", "Radionics, Radiesthesia & Shape Power", "Weather & Geo-Engineering"] },
+      { label: "Spiritual — The Living", cats: ["Biological & Morphogenetic Science", "Biology, Health & Medicine", "Regenerative Agriculture", "Environment & Climate"] },
+      { label: "Divine — The Why", cats: ["Geopolitics & Hidden History", "Transhumanism & Psychotronic Warfare", "Media & Interviews"] }
+    ]
+  }
+};
+
+// === Goethean Walk — one continuous band, seven lens stops ===
+// [aesthetic] Newton's band (what light contains) above; the Goethean
+// inversion (what the boundary makes) below. Where the two disagree at the
+// ends, the boundary color appears: green at one seam, magenta at the other.
+const WALK_DWELL = 1100;                 // per-stop dwell → both passes ≈ 15s
+const BAND_X0 = 52, BAND_X1 = 668, BAND_W = BAND_X1 - BAND_X0;
+const ROW_TOP_Y = 24, ROW_BOT_Y = 70, ROW_H = 30, SEAM_Y = (ROW_TOP_Y + ROW_BOT_Y + ROW_H) / 2;
+const STOP_Y = 124;
+const LENS_ORDER = [1, 2, 3, 4, 5, 6, 7];
+
+let currentLens = 1;
+let walking = false;
+let walkInterrupted = false;
+
+function walkStopX(i) { return BAND_X0 + (BAND_W * i / (LENS_ORDER.length - 1)); }
+function spectrumHue(t) { return 0 + 280 * t; }          // red → violet
+function spectrumGradient(fromHue, toHue, n) {
+  const out = [];
+  for (let i = 0; i <= n; i++) {
+    const t = i / n;
+    const h = fromHue + (toHue - fromHue) * t;
+    out.push(`<stop offset="${(t * 100).toFixed(1)}%" stop-color="hsl(${h.toFixed(0)} 84% 55%)"/>`);
+  }
+  return out.join('');
+}
+
+function buildWalk() {
+  const svg = document.getElementById('walkSvg');
+  if (!svg) return;
+  let h = `<defs>
+    <linearGradient id="walkNewton" x1="0%" y1="0%" x2="100%" y2="0%">${spectrumGradient(0, 280, 16)}</linearGradient>
+    <linearGradient id="walkGoethe" x1="0%" y1="0%" x2="100%" y2="0%">${spectrumGradient(280, 0, 16)}</linearGradient>
+    <filter id="walkGlow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>`;
+
+  // the two arrangements of the same colors
+  h += `<rect x="${BAND_X0}" y="${ROW_TOP_Y}" width="${BAND_W}" height="${ROW_H}" rx="4" fill="url(#walkNewton)" data-bg-tier="aesthetic" data-bg-source="Newton's spectrum — the colors light contains"/>`;
+  h += `<rect x="${BAND_X0}" y="${ROW_BOT_Y}" width="${BAND_W}" height="${ROW_H}" rx="4" fill="url(#walkGoethe)" data-bg-tier="aesthetic" data-bg-source="Goethe's inverted spectrum — the colors at the boundary"/>`;
+  h += `<text x="4" y="${ROW_TOP_Y + 20}" class="walk-boundary-lbl" text-anchor="start" fill="#8888aa">NEWTON</text>`;
+  h += `<text x="4" y="${ROW_BOT_Y + 20}" class="walk-boundary-lbl" text-anchor="start" fill="#8888aa">GOETHE</text>`;
+
+  // boundary colors at the two seams where the arrangements disagree
+  h += `<circle cx="${BAND_X0}" cy="${SEAM_Y}" r="9" fill="hsl(130 70% 50%)" filter="url(#walkGlow)" data-bg-tier="aesthetic"/>`;
+  h += `<text x="${BAND_X0}" y="14" class="walk-boundary-lbl" fill="hsl(130 55% 62%)">GREEN</text>`;
+  h += `<circle cx="${BAND_X1}" cy="${SEAM_Y}" r="9" fill="hsl(310 70% 55%)" filter="url(#walkGlow)" data-bg-tier="aesthetic"/>`;
+  h += `<text x="${BAND_X1}" y="14" class="walk-boundary-lbl" fill="hsl(310 55% 66%)">MAGENTA</text>`;
+
+  // the traveling eye
+  h += `<circle class="walk-traveler" id="walkTraveler" cx="${walkStopX(0)}" cy="${SEAM_Y}" r="0" fill="none" stroke="#fff3d6" stroke-width="2"/>`;
+
+  // seven lens stops along the band
+  LENS_ORDER.forEach((n, i) => {
+    const x = walkStopX(i);
+    const lens = LENSES[n];
+    const hue = spectrumHue(i / (LENS_ORDER.length - 1));
+    h += `<line x1="${x.toFixed(1)}" y1="${ROW_TOP_Y - 6}" x2="${x.toFixed(1)}" y2="${ROW_BOT_Y + ROW_H + 6}" stroke="rgba(255,255,255,0.18)" stroke-width="1"/>`;
+    h += `<g class="walk-stop" id="walkStop${n}" data-lens="${n}">`;
+    h += `<circle class="walk-stop-ring" cx="${x.toFixed(1)}" cy="${STOP_Y}" r="12"/>`;
+    h += `<text class="walk-stop-num" x="${x.toFixed(1)}" y="${STOP_Y + 5}">${n}</text>`;
+    h += `<text class="walk-stop-lens" x="${x.toFixed(1)}" y="${STOP_Y + 26}">${lens.name}</text>`;
+    h += `</g>`;
+    h += `<circle cx="${x.toFixed(1)}" cy="${STOP_Y}" r="17" fill="transparent" data-walk-stop="${n}"/>`;
+    void hue;
+  });
+  svg.innerHTML = h;
+  svg.querySelectorAll('[data-walk-stop]').forEach(el => {
+    el.addEventListener('click', () => {
+      if (walking) return;
+      setLens(parseInt(el.dataset.walkStop, 10));
+    });
+  });
+}
+
+function walkSetTraveler(n) {
+  const t = document.getElementById('walkTraveler');
+  if (!t) return;
+  const i = LENS_ORDER.indexOf(n);
+  t.setAttribute('cx', walkStopX(i < 0 ? 0 : i).toFixed(1));
+}
+
+function walkFlashBoundary(which) {
+  const t = document.getElementById('walkTraveler');
+  if (!t) return;
+  t.setAttribute('cx', which === 'magenta' ? BAND_X1 : BAND_X0);
+  t.setAttribute('stroke', which === 'magenta' ? 'hsl(310 80% 62%)' : 'hsl(130 80% 55%)');
+}
+
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+async function walkSpectrum() {
+  if (walking) return;
+  walking = true;
+  walkInterrupted = false;
+  const btn = document.getElementById('walkBtn');
+  const stopBtn = document.getElementById('walkStopBtn');
+  const hint = document.getElementById('walkHint');
+  if (btn) btn.disabled = true;
+  if (stopBtn) stopBtn.disabled = false;
+  const trav = document.getElementById('walkTraveler');
+  if (trav) { trav.setAttribute('r', '14'); trav.setAttribute('stroke', '#fff3d6'); }
+
+  // Pass 1 — light to dark. Ends at the green boundary.
+  if (hint) hint.textContent = 'pass 1 · light → dark';
+  for (let i = 0; i < LENS_ORDER.length; i++) {
+    if (walkInterrupted) break;
+    setLens(LENS_ORDER[i]);
+    await sleep(WALK_DWELL);
+  }
+  if (!walkInterrupted) {
+    walkFlashBoundary('green');
+    if (hint) hint.textContent = 'the boundary · green';
+    await sleep(900);
+  }
+
+  // Pass 2 — dark to light. Ends at the magenta boundary.
+  if (!walkInterrupted) {
+    if (hint) hint.textContent = 'pass 2 · dark → light';
+    const trav2 = document.getElementById('walkTraveler');
+    if (trav2) trav2.setAttribute('stroke', '#fff3d6');
+    for (let i = LENS_ORDER.length - 1; i >= 0; i--) {
+      if (walkInterrupted) break;
+      setLens(LENS_ORDER[i]);
+      await sleep(WALK_DWELL);
+    }
+  }
+  if (!walkInterrupted) {
+    walkFlashBoundary('magenta');
+    if (hint) hint.textContent = 'the boundary · magenta';
+    await sleep(900);
+  }
+
+  walking = false;
+  walkInterrupted = false;
+  if (btn) btn.disabled = false;
+  if (stopBtn) stopBtn.disabled = true;
+  const trav3 = document.getElementById('walkTraveler');
+  if (trav3) trav3.setAttribute('r', '0');
+  if (hint) hint.textContent = 'two passes · same corpus, seen twice';
+}
+
+function walkStopNow() {
+  walkInterrupted = true;
+}
+
+// === Set lens ===
+function setLens(n) {
+  currentLens = n;
+  const lens = LENSES[n];
+  
+  // Update the walk band
+  document.querySelectorAll('.walk-stop').forEach(el => {
+    el.classList.toggle('on', parseInt(el.dataset.lens) === n);
+  });
+  walkSetTraveler(n);
+  document.getElementById('lensName').textContent = lens.name;
+  document.getElementById('lensNum').textContent = n;
+  document.getElementById('lensTitle').textContent = lens.title;
+  document.getElementById('lensBody').textContent = lens.body;
+  
+  // Show/hide special modes
+  document.getElementById('vesicaContainer').classList.toggle('show', n === 2);
+  document.getElementById('focusMode').classList.toggle('show', n === 1);
+  document.getElementById('categories').style.display = (n === 1) ? 'none' : 'block';
+  
+  if (n === 1) {
+    renderFocusMode();
+  } else if (n === 2) {
+    renderVesicaMode();
+  } else {
+    renderGroupMode(lens);
+  }
+}
+
+// === Render group mode (lenses 3-7) ===
+function renderGroupMode(lens) {
+  const container = document.getElementById('categories');
+  container.innerHTML = '';
+  
+  // Determine which cats are in groups
+  const groupedCats = new Set();
+  lens.groups.forEach(g => g.cats.forEach(c => groupedCats.add(c)));
+  
+  // Render group headers with their categories
+  lens.groups.forEach((group, gi) => {
+    const groupEl = document.createElement('div');
+    groupEl.style.gridColumn = '1 / -1';
+    groupEl.style.padding = '12px 0 4px';
+    groupEl.style.borderTop = gi > 0 ? '1px solid var(--border)' : 'none';
+    groupEl.innerHTML = `<h3 style="font-size:1rem;color:var(--accent);font-weight:normal;letter-spacing:1px;">${group.label}</h3>`;
+    container.appendChild(groupEl);
+    
+    group.cats.forEach(catName => {
+      const cat = META_CATEGORIES.find(c => c.name === catName);
+      if (cat) {
+        container.appendChild(createCard(cat, group.label, true));
+      }
+    });
+  });
+  
+  // Render obscured categories (not in any group)
+  const obscured = META_CATEGORIES.filter(c => !groupedCats.has(c.name));
+  if (obscured.length > 0) {
+    const obsHeader = document.createElement('div');
+    obsHeader.style.gridColumn = '1 / -1';
+    obsHeader.style.padding = '12px 0 4px';
+    obsHeader.style.borderTop = '1px solid var(--border)';
+    obsHeader.innerHTML = `<h3 style="font-size:0.85rem;color:var(--text-faint);font-style:italic;">Obscured — no slot in this lens</h3>`;
+    container.appendChild(obsHeader);
+    
+    obscured.forEach(cat => {
+      container.appendChild(createCard(cat, null, false));
+    });
+  }
+  
+  updateStats(lens.groups.length, groupedCats.size);
+}
+
+// === Create category card ===
+function createCard(cat, groupLabel, revealed) {
+  const card = document.createElement('div');
+  card.className = 'cat-card ' + (revealed ? 'revealed' : 'obscured');
+  card.innerHTML = `
+    <h3>${cat.name}</h3>
+    <div class="count">${cat.count.toLocaleString()} documents</div>
+    ${groupLabel ? `<div class="lens-label">${groupLabel}</div>` : '<div class="lens-label" style="color:var(--text-faint)">— obscured —</div>'}
+  `;
+  return card;
+}
+
+// === Focus mode (lens 1) ===
+function renderFocusMode() {
+  const select = document.getElementById('focusSelect');
+  select.innerHTML = '<option value="">— Pick a category to zoom into —</option>' +
+    META_CATEGORIES.map(c => `<option value="${c.name}">${c.name} (${c.count})</option>`).join('');
+  
+  document.getElementById('focusResults').innerHTML = 
+    '<p style="text-align:center;color:var(--text-dim);font-size:0.85rem;padding:20px;">Choose a category above. The archive will collapse to just that one view.</p>';
+  
+  updateStats(1, 1);
+}
+
+// === Vesica mode (lens 2) ===
+function renderVesicaMode() {
+  const leftSel = document.getElementById('vesicaLeft');
+  const rightSel = document.getElementById('vesicaRight');
+  
+  const options = META_CATEGORIES.map(c => `<option value="${c.name}">${c.name}</option>`).join('');
+  leftSel.innerHTML = options;
+  rightSel.innerHTML = options;
+  
+  // Default: pick two interesting ones
+  leftSel.value = "Aether, Light & Electricity";
+  rightSel.value = "Water Structure & Memory";
+  
+  updateVesicaDisplay();
+  
+  leftSel.onchange = updateVesicaDisplay;
+  rightSel.onchange = updateVesicaDisplay;
+  
+  // Render all categories with partial opacity
+  const container = document.getElementById('categories');
+  container.innerHTML = '';
+  META_CATEGORIES.forEach(cat => {
+    const inLeft = cat.name === leftSel.value;
+    const inRight = cat.name === rightSel.value;
+    const inBoth = inLeft && inRight;
+    const cls = inBoth ? 'revealed' : (inLeft || inRight ? 'partial' : 'obscured');
+    const card = document.createElement('div');
+    card.className = 'cat-card ' + cls;
+    let label = '';
+    if (inBoth) label = '◆ In the vesica — both lenses';
+    else if (inLeft) label = 'Left lens only';
+    else if (inRight) label = 'Right lens only';
+    else label = '— obscured —';
+    card.innerHTML = `
+      <h3>${cat.name}</h3>
+      <div class="count">${cat.count.toLocaleString()} documents</div>
+      <div class="lens-label" style="color:${inBoth ? 'var(--accent)' : 'var(--text-faint)'}">${label}</div>
+    `;
+    container.appendChild(card);
+  });
+  
+  updateStats(2, 2);
+}
+
+function updateVesicaDisplay() {
+  const leftVal = document.getElementById('vesicaLeft').value;
+  const rightVal = document.getElementById('vesicaRight').value;
+  document.getElementById('vesicaLeftLabel').textContent = leftVal.substring(0, 20);
+  document.getElementById('vesicaRightLabel').textContent = rightVal.substring(0, 20);
+  
+  const intersection = leftVal === rightVal ? leftVal : 'shared boundary';
+  document.getElementById('vesicaOverlap').textContent = intersection;
+  
+  // Update cards
+  document.querySelectorAll('.cat-card').forEach((card, i) => {
+    const cat = META_CATEGORIES[i];
+    const inLeft = cat.name === leftVal;
+    const inRight = cat.name === rightVal;
+    const inBoth = inLeft && inRight;
+    card.className = 'cat-card ' + (inBoth ? 'revealed' : (inLeft || inRight ? 'partial' : 'obscured'));
+    const labelEl = card.querySelector('.lens-label');
+    if (inBoth) { labelEl.textContent = '◆ In the vesica — both lenses'; labelEl.style.color = 'var(--accent)'; }
+    else if (inLeft) { labelEl.textContent = 'Left lens only'; labelEl.style.color = 'var(--text-dim)'; }
+    else if (inRight) { labelEl.textContent = 'Right lens only'; labelEl.style.color = 'var(--text-dim)'; }
+    else { labelEl.textContent = '— obscured —'; labelEl.style.color = 'var(--text-faint)'; }
+  });
+}
+
+// === Stats ===
+function updateStats(visibleCats, totalVisible) {
+  document.getElementById('statVisible').textContent = totalVisible;
+}
+
+// === Init ===
+buildWalk();
+setLens(1);
+document.getElementById('walkBtn').addEventListener('click', walkSpectrum);
+document.getElementById('walkStopBtn').addEventListener('click', walkStopNow);
+</script>
+<script src="site_nav.js"></script>
+
+</body>
+</html>

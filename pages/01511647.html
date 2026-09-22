@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Design flaw in MEG control circuit (as well as Flynn replications) — Aetherforce Knowledge Vault</title>
+<meta name="description" content="I have recently been looking into the Motionless Energy Generator of MEG for short and found a design flaw in the control circuitry, namely the use of freewheeling diodes. I&#x27;ve written a short article on the problem as well as the solution, which you can find on my website and may be updated later: ">
+<meta property="og:title" content="Design flaw in MEG control circuit (as well as Flynn replications)">
+<meta property="og:description" content="I have recently been looking into the Motionless Energy Generator of MEG for short and found a design flaw in the control circuitry, namely the use of freewheeling diodes. I&#x27;ve written a short article">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="Alternative Energy Technologies">
+<meta name="keywords" content="Alternative Physics">
+<meta name="keywords" content="Challenges to the Standard Model">
+<meta name="keywords" content="Energy">
+<meta name="keywords" content="Environment &amp; Climate">
+<meta name="keywords" content="Environment / Climate">
+<meta name="keywords" content="Finance / Economics">
+<meta name="keywords" content="Geopolitics &amp; Hidden History">
+<meta name="keywords" content="Patents">
+<meta name="keywords" content="Patents &amp; Inventions">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ScholarlyArticle", "name": "Design flaw in MEG control circuit (as well as Flynn replications)", "url": "https://focusingpulse.github.io/AFLinks/pages/01511647.html", "isPartOf": {"@type": "Collection", "name": "Aetherforce Knowledge Vault", "url": "https://focusingpulse.github.io/AFLinks/"}, "publisher": {"@type": "Organization", "name": "Aetherforce Knowledge Vault"}, "description": "I have recently been looking into the Motionless Energy Generator of MEG for short and found a design flaw in the control circuitry, namely the use of freewheeling diodes. I've written a short article on the problem as well as the solution, which you can find on my website and may be updated later: Tuks Unsorted KieknWatTWordt Stuff - Design Problem MEG Circuitry http://www.tuks.nl/wiki/index.php/", "sameAs": "https://www.energeticforum.com/forum/energetic-forum-discussion/renewable-energy/515126-design-flaw-in-meg-control-circuit-as-well-as-flynn-replications", "about": [{"@type": "Thing", "name": "Alternative Energy Technologies"}, {"@type": "Thing", "name": "Patents & Inventions"}, {"@type": "Thing", "name": "Challenges to the Standard Model"}, {"@type": "Thing", "name": "Geopolitics & Hidden History"}, {"@type": "Thing", "name": "Environment & Climate"}, {"@type": "Thing", "name": "Energy"}, {"@type": "Thing", "name": "Patents"}, {"@type": "Thing", "name": "Alternative Physics"}]}</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">⚓ <a href="/AFLinks/">Aetherforce Knowledge Vault</a> · document #1511647</div>
+  <h1>Design flaw in MEG control circuit (as well as Flynn replications)</h1>
+  <div class="meta"> · archived # 1,511,647</div>
+  
+  <div class="preview">I have recently been looking into the Motionless Energy Generator of MEG for short and found a design flaw in the control circuitry, namely the use of freewheeling diodes.
+I&#x27;ve written a short article on the problem as well as the solution, which you can find on my website and may be updated later:
+Tuks Unsorted KieknWatTWordt Stuff - Design Problem MEG Circuitry
+http://www.tuks.nl/wiki/index.php/Main/DesignProblemMEGCircuitry
+The short version:
+Let&#x27;s take a look at Naudin&#x27;s v1 schematic:
+Notice the freewheeling diodes D1 and D2?
+A freewheeling diode is used in inductive circuits to provide a path for the current when the driving voltage is suddenly reduced or removed. It prevents voltage spikes that can occur due to the inductive kickback, protecting the circuit components.
+However, in this case this is not a good idea, because this way the coils get shortcutted and all the energy that is put in to energize the coil gets burned up by the diode.
+In the v2 schematic, these are still there, but integrated in the BUZ11 mosfets:
+An elegant solution is to use an asymmetric bridge converter, with this picture showing a triple bridge converter:
+Switched reluctance motor - Wikipedia
+https://en.wikipedia.org/wiki/Switched_reluctance_motor#Power_circuitry
+Hopefully this helps someone to finally obtain a working free energy device.
+I&#x27;ve attached a pdf with the current version of the article.</div>
+  
+  <div class="actions"><a class="btn" href="https://www.energeticforum.com/forum/energetic-forum-discussion/renewable-energy/515126-design-flaw-in-meg-control-circuit-as-well-as-flynn-replications" target="_blank" rel="noopener">Open source →</a>  <a class="btn ghost" href="/AFLinks/?q=Energy+Patents">Related documents →</a></div>
+  <div class="share" data-bg-tier="prescribed" data-bg-source="Karim virtual center component for share/publish actions">
+  <svg viewBox="0 0 100 30" width="34" height="20" aria-hidden="true" style="vertical-align:-3px;color:#c99a58"><path d="M 42 20 A 8 8 0 0 1 58 20" fill="none" stroke="currentColor" stroke-width="1.5" data-bg-tier="prescribed" data-bg-source="Karim virtual center, semi-circle + two radiating lines"/><line x1="50" y1="20" x2="50" y2="5" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/><line x1="50" y1="20" x2="35" y2="20" stroke="currentColor" stroke-width="1.2" data-bg-tier="prescribed"/></svg>
+  <button class="btn ghost" onclick="navigator.clipboard.writeText('https://focusingpulse.github.io/AFLinks/pages/01511647.html').then(()=>this.textContent='✓ Link copied')" title="Copy this document's permanent link">Share this document</button>
+  <a class="btn ghost" href="mailto:?subject=Design flaw in MEG control circuit (as well as Flynn replications)&body=From the Aetherforce Knowledge Vault: https://focusingpulse.github.io/AFLinks/pages/01511647.html">Email →</a>
+</div>
+  <div class="tags"><a class="tag" href="/AFLinks/?cat=Alternative Energy Technologies">Alternative Energy Technologies</a><a class="tag" href="/AFLinks/?cat=Patents &amp; Inventions">Patents &amp; Inventions</a><a class="tag" href="/AFLinks/?cat=Challenges to the Standard Model">Challenges to the Standard Model</a><a class="tag" href="/AFLinks/?cat=Geopolitics &amp; Hidden History">Geopolitics &amp; Hidden History</a><a class="tag" href="/AFLinks/?cat=Environment &amp; Climate">Environment &amp; Climate</a><a class="tag" href="/AFLinks/?cat=Energy">Energy</a><a class="tag" href="/AFLinks/?cat=Patents">Patents</a><a class="tag" href="/AFLinks/?cat=Alternative Physics">Alternative Physics</a></div>
+  <div class="ppl">The archive preserves claims; it does not certify them. Category/meta tags describe content, not truth. <a href="/AFLinks/methodology.html">Methodology</a></div>
+</div>
+
+<script>
+document.querySelectorAll('.openlab .ol-tab').forEach(function(tab){
+  tab.addEventListener('click', function(){
+    var box = this.closest('.openlab');
+    box.querySelectorAll('.ol-tab').forEach(function(t){t.classList.remove('on')});
+    this.classList.add('on');
+    var i = Array.prototype.indexOf.call(box.querySelectorAll('.ol-tab'), this);
+    box.querySelectorAll('.ol-panel').forEach(function(p, pi){p.style.display = (pi===i)?'':'none'});
+  });
+});
+</script>
+
+</body>
+</html>

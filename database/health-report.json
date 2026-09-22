@@ -1,0 +1,65 @@
+{
+ "timestamp": "2026-09-17T06:50:00+00:00",
+ "run": "aetherforce-database-refresh",
+ "total_translations": 164,
+ "total_researchers": 186,
+ "total_works": 228,
+ "prev": {
+  "researchers": 172,
+  "works": 214,
+  "translations": 151
+ },
+ "delta": {
+  "researchers": 14,
+  "works": 14,
+  "translations": 13
+ },
+ "new_persons": [
+  "thomas-bernard",
+  "lochak",
+  "urutskoev",
+  "ivoilov",
+  "bolard",
+  "vasilyev",
+  "levesque",
+  "bernard-l",
+  "aspen",
+  "laviolette"
+ ],
+ "new_works": [
+  "ai-pendulum-gap-breaks-on-french"
+ ],
+ "merged_person_duplicates": [
+  "pa-morel (absorbed pa_morel)",
+  "del-giudice (absorbed del giudice)"
+ ],
+ "author_id_normalizations": 19,
+ "ledger": {
+  "upgrade_bank_total": 199,
+  "duplicate_ids_renumbered": 5
+ },
+ "top_domains": {
+  "radiesthesia": 37,
+  "aether": 22,
+  "geobiology": 18,
+  "gravity": 17,
+  "torsion": 15,
+  "scalar": 11,
+  "vortex": 11,
+  "form_waves": 11,
+  "radionics": 9,
+  "electromagnetism": 6
+ },
+ "work_languages": {
+  "unknown": 3,
+  "en": 75,
+  "it": 22,
+  "ru": 19,
+  "fr": 43,
+  "pt": 3,
+  "de": 14,
+  "el": 3,
+  "es": 7
+ },
+ "notes": "Clone timed out (known issue) — run executed via raw fetch + Contents API. Feed rebuild skipped (needs clone). CONCURRENT PUSH COLLISION: Forge pushed at 06:10 (between my pushes), resurrecting pa_morel + del giudice person variants and underscore author ids; re-QC at 06:50 re-merged (188->186 persons) and re-normalized 18 author ids. Forge's ai-pendulum-gap-breaks-on-fr work entry accepted (replaces my -french variant). Ledger: 5 duplicate upgrade ids renumbered -> 200-204. Thom/Kozyrev-centenary/Hehl-Kibble/GINGER upgrade targets still absent."
+}

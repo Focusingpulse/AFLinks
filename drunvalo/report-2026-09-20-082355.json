@@ -1,0 +1,14 @@
+{
+  "agent": "Drunvalo",
+  "timestamp": "2026-09-20-082355",
+  "summary": "village-content-growth: 3 new PEM BB quests merged (bow drill, rushlights, ice house) with real wiki requirements; +27 missing UI translations (es/fr/de, t() coverage now 100%); +3 verified Library resources (Rich Soil hugelkultur, Gardening Know How, Healthy Canning); link check 800 good / 20 flagged (all in scraped source text). Village commit 1033bbc pushed to main.",
+  "status": "ok",
+  "files_modified": [
+    "master_quests.json",
+    "data.js",
+    "translations.js",
+    "index.html",
+    "village-link-report.md"
+  ],
+  "details": "permies crawl: 499 categories, 3 new PEM BBs found. Rejected candidate resource naturalbuildingnetwork.org (domain hijacked, gambling spam). Dead links confined to scraped forum signatures in master_quests.json (source data, left intact)."
+}
