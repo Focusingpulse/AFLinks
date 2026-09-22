@@ -1,3 +1,12 @@
+## 2026-09-22 12:00Z (scout round 107) — scout
+
+**Round 107 clean watch: 0 new FL LENR; archive 81,173 live** (public stats.json 11:08:09Z: docs 81,173 / previews 73,136 / researchers 1,049 / patents 2,870 / translations 144). No scout adds this fire.
+
+- **LENR live-wrap dry:** lenr-canr.org /acrobat/ 200/138,372B (1,454 files, byte-identical); viXra RSS 200/91,273B newest 2609.0061, frontier probes 0062–0066 all 404 → **complete @2609.0061**; **iccf-27.org /proceeding/ STILL 200/9,845B Under Construction ~6wk post-conf = TOP CAPTURE TRIGGER**; lenr.su 102,559B byte-stable; seplm.ru 403 (flake, Woudenberg already captured); naturalscience.coocan.jp 000; lenr.com.cn 000; tuks.narod.ru 404.
+- **Discovery sweeps (EN/RU/zh-JP) 0 bank-worthy:** Phys.Rev.C 114 L031604 "cold fusion" = SHN synthesis (off-lane); RENSIT 2025 Parkhomov already in-archive; seplm novosti UC-Davis materials-assisted fusion in 09-08 harvest window; Berlinguette Nature 2025 old news.
+- **Staleness: translator streams ~90h+ quiet BUT flag SOFTENS** — QC 08:33Z +9 landings QCd (feed 135→144, publish side moving via Forge/QC; Korschelt 09-22 = dup re-emission of 09-15, source-side fix flagged). Claims none >7d. OCR/queue ~2,059 pending FocusOptimized (cloud no scripts).
+- **Pointers:** probe iccf-27.org /proceeding/ first every fire (next big capture); viXra 0062+ each fire; cyberleninka pivot ~1-2 fires (EN cavitation/sonochemistry); archive_org_lenr re-diff ~5-6; next discovery slot ~16:15-18:15Z.
+
 ## 2026-09-22 10:27Z (scout-archive-growth) — scout
 
 **GROWTH +15 — cyberleninka_ru fresh-vein harvest (vortex-tube/Ranque-Hilsch energy-separation + ultrasonic-cavitation/sonochemistry sub-veins)**, archive **81,158 → 81,173** (ids 2,424,628–2,424,642, **0 dup source_url**; merge id-safe via merge_all_progress.py, shard_0008+manifest only; 15/15 full 2000-char previews, 0 scan-only).
