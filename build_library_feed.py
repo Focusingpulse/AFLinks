@@ -369,6 +369,34 @@ def _has_mojibake(text):
     return any(seq in (text or "") for seq in _MOJIBAKE_SEQS)
 
 
+# 2026-09-23 (Drunvalo, translation-QC): repair double-encoded UTF-8 at emit
+# time. The Magnitsky entry's title/excerpt carried 'â€' (em-dash) through
+# every rebuild because the fix lived only in the published feed, which the
+# next rebuild regenerates from the living-library source. Repair the OUTPUT
+# here so the fix survives rebuilds until the source is fixed upstream.
+# cp1252 round-trip, NOT latin-1 (latin-1 lacks € and silently drops
+# em-dashes/ellipses, merging words).
+_MOJI_MAP = {
+    "â€”": "—", "â€“": "–", "â€™": "’", "â€˜": "‘",
+    "â€œ": "“", "â€\x9d": "”", "â€¦": "…",
+    "Ã©": "é", "Ã¨": "è", "Ãª": "ê", "Ã«": "ë",
+    "Ã¤": "ä", "Ã¶": "ö", "Ã¼": "ü", "ÃŸ": "ß", "Ã ": "à", "Ã¢": "â", "Ã§": "ç",
+    "Ã‰": "É", "Ãˆ": "È", "ÃŽ": "Î",
+    "Ã\u0081": "Á", "Ã\u0089": "É", "Ã\u0093": "Ó", "Ã\u009a": "Ú",
+    "Ã\u0080": "À", "Ã\u0088": "È", "Ã\u0092": "Ò", "Ã\u0099": "Ù",
+    "Ã\u0087": "Ç", "Ã\u0091": "Ñ", "Ã\u0085": "Å", "Ã\u0098": "Ø",
+}
+
+
+def _fix_mojibake(text):
+    """Repair classic UTF-8-as-cp1252 double-encoding in feed-bound text."""
+    if not text or not _has_mojibake(text):
+        return text
+    for bad, good in _MOJI_MAP.items():
+        text = text.replace(bad, good)
+    return text
+
+
 def _is_slug_title(title):
     """True when a title looks machine-generated (filename slug) rather than authored.
 
@@ -736,11 +764,30 @@ def main():
         for path in sorted(glob.glob(os.path.join(tdir, "*.md")), reverse=True):
             meta, title, body = parse_md_frontmatter(path)
             fname = os.path.basename(path)
-            key = _norm_key(title or fname)
+            # 2026-09-23 (Drunvalo, translation-QC): key on the date-stripped
+            # FILENAME first, title only as fallback. Keying on the authored
+            # title let date-prefixed re-emissions of the same file (identical
+            # base name, degraded slug title) compute different keys and enter
+            # the feed as duplicates (kelsya 09-20/09-22 pairs, resurrected by
+            # every rebuild). The filename is the stable identity across
+            # revisions; the title is not.
+            key = _norm_key(re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)) or _norm_key(title or fname)
             # reverse-sorted glob → first per key is the newest; keep the whole
             # group so metadata can be inherited from older, richer revisions
             by_key.setdefault(key, []).append((path, meta, title, body, fname))
         for group in by_key.values():
+            # 2026-09-23 (Drunvalo, translation-QC): within a revision group,
+            # prefer the RICHEST revision, not merely the newest. Date-prefixed
+            # re-emissions (Forge chunk re-assemblies) carry degraded
+            # frontmatter — slug titles, no source_url — while the older
+            # revision has the authored title and URL (kelsya 09-20/09-22).
+            # Rank: authored title + source_url > authored title > newest.
+            def _rev_rank(rev):
+                _meta, _title = rev[1], rev[2]
+                _src = _meta.get("Source URL") or _meta.get("source_url") or ""
+                return (bool(_src) and not _is_slug_title(_title),
+                        not _is_slug_title(_title))
+            group = sorted(group, key=_rev_rank, reverse=True)
             path, meta, title, body, fname = group[0]
             work_src[fname] = path
             domain = meta.get("Domain") or meta.get("domain") or ""
@@ -823,14 +870,14 @@ def main():
                 meta.get("date_published") or meta.get("Date") or meta.get("date") or "")
             translation_works.append({
                 "date": str(_fdate)[:10],
-                "title": title_clean,
+                "title": _fix_mojibake(title_clean),
                 "domain": domain,
                 "source_url": src,
                 "language": lang,
                 "target_language": target_lang,
                 "file": fname,
                 "content_file": None,   # not published: see PUBLISH BOUNDARY above
-                "excerpt": body.strip()[:220],
+                "excerpt": _fix_mojibake(body.strip()[:220]),
             })
     # --- 2a. Orphaned translations in AFLinks not yet in living-library ---
     # Files published directly to AFLinks/translations/ (by Forge, Sandra, Drunvalo)
@@ -877,14 +924,14 @@ def main():
                 meta.get("date_published") or meta.get("Date") or meta.get("date") or "")
             translation_works.append({
                 "date": str(_fdate)[:10],
-                "title": title_clean,
+                "title": _fix_mojibake(title_clean),
                 "domain": domain,
                 "source_url": src,
                 "language": lang,
                 "target_language": target_lang,
                 "file": fname,
                 "content_file": f"translations/{fname}",
-                "excerpt": body.strip()[:220],
+                "excerpt": _fix_mojibake(body.strip()[:220]),
             })
     # Count pages ONLY for the newest revision of each distinct work — old
     # revision files are readable but must not inflate the page total.
@@ -933,7 +980,37 @@ def main():
                   f"{'empty' if not translation_works else f'{len(translation_works)} < {len(_old_tr)}'}"
                   f"; keeping previous ({len(_old_tr)} items, degraded run guard)",
                   flush=True)
-            translation_works = _old_tr
+            # 2026-09-23 (Drunvalo, translation-QC): repair the inherited list
+            # in place before adopting it — the guard used to copy _old_tr
+            # verbatim, so mojibake and date-prefixed duplicate re-emissions
+            # already in the published feed survived every rebuild. Keeper
+            # per base filename = richest metadata (authored title +
+            # source_url), matching the main-scan revision ranking.
+            _by_base = {}
+            for _tw in _old_tr:
+                if not isinstance(_tw, dict):
+                    continue
+                _base = re.sub(r"^\d{4}-\d{2}-\d{2}-", "",
+                               (_tw.get("file") or "")).lower()
+                _rank = (bool(_tw.get("source_url"))
+                         and not _is_slug_title(_tw.get("title") or ""),
+                         not _is_slug_title(_tw.get("title") or ""))
+                if not _base:
+                    _by_base.setdefault("_noid_" + str(len(_by_base)), []).append((_tw, _rank))
+                    continue
+                _by_base.setdefault(_base, []).append((_tw, _rank))
+            _repaired = []
+            for _base, _cands in _by_base.items():
+                _cands.sort(key=lambda c: c[1], reverse=True)
+                _keep = _cands[0][0]
+                _keep["title"] = _fix_mojibake(_keep.get("title") or "")
+                _keep["excerpt"] = _fix_mojibake(_keep.get("excerpt") or "")
+                _repaired.append(_keep)
+            if len(_repaired) != len(_old_tr):
+                print(f"dedupe: inherited latest_translations "
+                      f"{len(_old_tr)} -> {len(_repaired)} (date-variant dupes dropped)",
+                      flush=True)
+            translation_works = _repaired
     # --- 2a-bis. Source-URL / domain backfill (2026-09-22, QC) -----------
     # The translations list is inherited run-to-run (never-regress guard),
     # so entries whose frontmatter lacked source_url/domain stay empty
