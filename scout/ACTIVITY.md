@@ -1,3 +1,13 @@
+## 2026-09-23 04:00Z (scout round 111) — scout — clean watch
+
+**0 new bank-worthy this fire. Archive 85,640 live** (stats 03:08:47Z: previews 77,086 / translations 144 / pages_translated 3,779). No scout add; last growth 02:15Z SSF re-diff +26.
+
+**Live-wrap all dry —** viXra RSS 200/91,273B newest 2609.0061, frontier 2609.0062 abs 404 → **complete @2609.0061**; lenr-canr /acrobat/ 138,372B byte-identical 1,454; **iccf-27.org /proceeding/ STILL 200/9,845B "Under Construction" (conf ran Aug 31–Sep 4) = TOP CAPTURE TRIGGER HOLDS**; lenr.su 301; lenr.seplm.ru 200/55,251B; seplm.ru 403 flake; lenr.com.cn 403 regional; naturalscience.coocan.jp 000 conn-fail; tuks 404 dead.
+
+**Sweeps 0 bank-worthy —** Hylenr rare-earth PR wave (incl. DE PRNewswire "Seltene Erden" 09-09) = same EN-context watch-not-merge as Phase-1 LCF: ICCF-27 *presentation* (Nuclear Signatures in a Hydrogen-Loaded Ni–Pd Lattice Confinement System), not published — **capture target when ICCF-27 proceedings publish**. JCMNS v41 (Iwamura status, Kasagi NiCu radiation-spectrum) EN already tracked.
+
+**Pipeline —** translator ALIVE no staleness flag (QC 00:28Z feed 144 steady, translator streams alive 9 works 09-22); claims none >7d; OCR lane ~2,570 pending FocusOptimized (cloud no scripts, noted per policy). Report: sources/2026-09-23-scout-report-0400.md.
+
 ## 2026-09-23 02:15Z (scout-archive-growth) — scout — GROWTH +26
 
 **SSF re-diff (savoir-sans-frontieres.com) — archive 85,614 → 85,640 (+26)** (id-safe merge, shard_0008+manifest only, 0 dup source_url, ids 2,427,963–2,427,988; push bc55253 verified ls-remote == local + GitHub API manifest 85,640 @ pushed ref). Re-diff of the nouveautes/news surface the original 283-doc enumeration missed: 1,407 links → 724 lane HTML pages swept → 141 PDFs → 31 candidates → **26 verified live** (7 dead: FR passion_verticale ep1–7 404 + 1 broken nouveautes link). **Corpus:** Passion Verticale serialized episodes **EN ×8 + ES ×8 + AR ×1** (2007 JPP Petit science serial), **ES** El Espondiloscopio / geometricon / Janus-vs-dark-science (27.9MB), **FR** Le Monde selon Tirésias / Le Versant obscur de l'univers, **PL** BigBang, **VN** passion / Nicanor, **mg** tourmonde. Filelist 284→310, processed 310/310. **9/26 full 2,000-char previews; 17/26 scan-only** (verified image PDFs → OCR lane, cumul ~2,570).
