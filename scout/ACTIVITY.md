@@ -1,3 +1,15 @@
+## 2026-09-23 22:15Z (scout-archive-growth) — scout
+
+**GROWTH +19 — wayback-keelynet news lane continuation.** Archive 91,954→91,973 (commit 03da871, ids 2,434,303–2,434,321, shard_0009+manifest only, 0 dup among new, push verified — ls-remote == local).
+
+**News +19:** archive gate cooled since 20:15Z clamp → `--scope news --workers 1 --limit 200` chunk (440s budget). News `done` 49→68, all 19 genuinely new = full 2000-char previews, 0 scan-only. Gate then re-throttled hard (~3min zero-yield, 12 new `unreachable` retries) → **STOP per never-regress** (no ban); kill-window no data loss (write-through). ~9,160 news + 8,753 interact remain — biggest volume in rotation, multi-fire lane.
+
+**Live-wrap:** viXra 200/91,273B byte-identical complete @2609.0061 — DRY; lenr-canr 200/138,372B byte-identical 1,454 — DRY; iccf-27 /proceeding/ back to 9,845B "Under Construction" (20:15Z 112,951B was the JCF24 redirect target, PDF already archived) — DRY, ICCF-27 proceedings proper still unpublished.
+
+**Discovery (light):** all hits known lanes; held candidate **trinitas.ru** («Академия Тринитаризма» Shipov ether-physics HTML surface) for a future discovery fire.
+
+**Pointer:** wayback-keelynet **news** next fire (allow gate cooldown; 12 unreachable retries queued), then /interact/ 8,753. OCR/queue/tag ~2,944 pending FocusOptimized (cloud no scripts). Report: sources/2026-09-23-scout-growth-2215.md (mirrored public).
+
 ## 2026-09-23 20:15Z (scout-archive-growth) — scout
 
 **GROWTH +92 — wayback-keelynet HTML: articles lane COMPLETE + news first harvest; einsteinandtesla /files/ +3.** Archive 91,862→91,954 (commit d4865fcb6, ids 2,434,211–2,434,302, shard_0009+manifest only, 0 dup source_url, push verified — ls-remote == local + GitHub API manifest 91,954 @ ref).
