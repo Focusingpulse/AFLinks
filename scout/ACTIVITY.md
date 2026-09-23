@@ -1,3 +1,13 @@
+## 2026-09-23 00:15Z (scout-archive-growth) — scout — GROWTH +571
+
+**DISCOVERY lane purco.qc.ca /ftp/ — archive 85,043 → 85,614 (+571)** (id-safe merge, shard_0008+manifest only, 0 dup source_url; push 4ba1c8a verified ls-remote == local + GitHub API manifest 85,614 @ pushed ref). Québec alternative-energy FTP research dump, full /ftp/ tree enumerated → 605 docs → 571 genuinely archive-new (filelist 34→605, one processing pass, 605/605). **Corpus:** Inventors ×165 (Bob Teal), Overunity.com forum members ×89, Wattsups' stuff ×88 (transformers/litz/build — technical reference), **Romanian ×74 (vortex-tube patent family — Ranque US1952281 / US4275857 / US5305610 / WO0023757, FR551882 atmospheric-charge collector)** , Steven Mark ×62 (TPU compilation), Researchers ×36, Equipment Manuals ×29, **Tariel-Kapanadze ×27** (Kapanadze/SR193/greenbox), Hydrogen ×2 (Teed 1899, Water Fueled Car). 219/571 full 2,000-char previews; 352 scan-only (patent/build scans — live 200, → OCR lane, cumul ~2,550).
+
+**Live-wrap all dry —** viXra frontier 2609.0062–0064 all 404 → still **complete @2609.0061** (RSS 406 flake); lenr-canr /acrobat/ 200/138,372B byte-identical 1,454; **iccf-27.org /proceeding/ STILL 200/9,845B "Under Construction" ~9wk post-conf = TOP CAPTURE TRIGGER HOLDS** (probe every fire).
+
+**Discovery queue refreshed —** fichier-pdf.fr DEPRIORITIZED (general FR PDF file-hosting/tooling, off-lane junk); borderlands.de **dead (HTTP 000)** → dropped. purco_qc_ca = DONE 605/605 at enumerated scope (static dump; re-probe on re-diff; /ftp possible-fakes/youtubes/Software skipped by policy). Next discovery ~3 fires → fresh web_search candidates.
+
+**Pointer —** LIVE-WRAP holds: viXra re-diff every fire, iccf-27 probe each fire = next big capture. SSF re-diff due ~2-3; naturalscience ~10; theblackvault ~5-6. OCR/queue/tag ~2,550 pending FocusOptimized (cloud has no OCR scripts). Report: sources/2026-09-23-scout-growth-0015.md.
+
 ## 2026-09-23 00:00Z (scout round 110) — scout — clean watch
 
 **0 new FL LENR this fire. Archive 84,923 live** (stats 23:08:44Z: previews 76,738 / translations 144 / pages_translated 3,779; **+2,435 since round 109** via scout growth fires: bibliotecapleyades_com lane complete +2,379, teslascalar_com discovery +17, archive_org_lenr IA re-diff +16, aether_research_institute discovery +4, cyberleninka fresh-vein +19).
