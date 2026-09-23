@@ -4,11 +4,13 @@
 Full index.json is 21MB+ and growing; loading it on a phone is slow. This
 builds two artifacts from index.json:
 
-  search_index.json   — slim per-doc records: id, title, filename, categories,
+  search_index_${NNN}.json — slim per-doc records: id, title, filename, categories,
                         meta_categories, primary_person, patent_numbers,
                         type, size_bytes, source_site, and a shortened preview
-                        (first PREVIEW_LEN chars). Used by index.html for instant
-                        search + list rendering.
+                        (first PREVIEW_LEN chars). Split into byte-budgeted parts
+                        (60 MiB each) because GitHub rejects any single blob >=
+                        100 MiB; search_index_manifest.json lists the parts.
+                        Used by index.html for instant search + list rendering.
   full_${NNNN}.json   — one chunk file per N chunks of FULL records (full
                         content_preview, source_url, concepts), fetched only
                         when the user opens the detail modal.
@@ -22,6 +24,10 @@ import os
 import re
 
 PREVIEW_LEN = 160
+# Byte budget per shard of the slim index. GitHub rejects any single blob
+# >= 100 MiB (GH001), which is what froze the monolithic search_index.json at
+# ~82.5k docs on 2026-09-22. 60 MiB leaves ~40% headroom under the hard limit.
+DEFAULT_PART_MAX_BYTES = 60 * 1024 * 1024
 SLIM_FIELDS = ["id", "title", "filename", "categories", "meta_categories",
                "primary_person", "patent_numbers", "type", "size_bytes",
                "source_site", "source_url", "last_modified", "content_preview"]
@@ -50,6 +56,8 @@ def main():
     ap.add_argument("--chunk", type=int, default=500)
     ap.add_argument("--input", default="index.json")
     ap.add_argument("--outdir", default=".")
+    ap.add_argument("--part-max-bytes", type=int, default=DEFAULT_PART_MAX_BYTES,
+                    help="byte budget per slim-index shard (default 60 MiB)")
     args = ap.parse_args()
 
     if args.input == "index.json":
@@ -74,15 +82,68 @@ def main():
         rec["search_text"] = pv[:600]
         slim.append(rec)
 
-    out_slim = os.path.join(args.outdir, "search_index.json")
-    # Compact + UTF-8 (no \uXXXX escaping), matching index_io._write_compact().
-    # This file sits on GitHub's 100 MiB per-file push limit; default separators
-    # and ensure_ascii=True cost ~15% for no benefit -- browsers fetch it with
-    # response.json(), so the whitespace is irrelevant. Measured 2026-09-17:
-    # 104.4 MB -> 88.7 MB (99.57 -> 84.64 MiB), 0.4 MiB headroom -> 15.4 MiB.
+    # Sharded slim index. GitHub rejects any single blob >= 100 MiB, and the
+    # monolithic search_index.json crossed that wall at ~82.5k docs (2026-09-22,
+    # GH001: "File search_index.json is 101.35 MB; this exceeds GitHub's file
+    # size limit of 100.00 MB"). The index could then no longer be published at
+    # all, so desktop search silently froze while the phone path stayed current.
+    #
+    # Fix: split the slim records into byte-budgeted parts + a manifest. Same
+    # origin as the site, so no CORS; no external host, no account, no cost. The
+    # front-end fetches search_index_manifest.json, then every part in parallel,
+    # and falls back to the legacy monolithic file if the parts are absent.
+    #
+    # Compact + UTF-8 (no \uXXXX escaping) still matters: it is what keeps each
+    # part small. Measured 2026-09-17: default separators + ensure_ascii=True
+    # cost ~15% for no benefit -- browsers fetch these with response.json().
+    PART_MAX_BYTES = args.part_max_bytes
+    parts = []
+    cur = []
+    cur_bytes = 2  # len("[]")
+    for rec in slim:
+        rec_bytes = len(
+            json.dumps(rec, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+        ) + 1  # +1 for the joining comma
+        if cur and cur_bytes + rec_bytes > PART_MAX_BYTES:
+            parts.append(cur)
+            cur = []
+            cur_bytes = 2
+        cur.append(rec)
+        cur_bytes += rec_bytes
+    if cur:
+        parts.append(cur)
+
+    import datetime
+    slim_ver = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d%H%M%S")
+    slim_manifest = {
+        "version": 1,
+        "v": slim_ver,  # cache-buster the front-end appends to each part URL
+        "total": len(slim),
+        "part_max_bytes": PART_MAX_BYTES,
+        "parts": [],
+    }
+    slim_total_bytes = 0
+    start = 0
+    for i, part in enumerate(parts):
+        fname = f"search_index_{i:03d}.json"
+        fpath = os.path.join(args.outdir, fname)
+        with open(fpath, "w", encoding="utf-8") as f:
+            json.dump(part, f, ensure_ascii=False, separators=(",", ":"))
+        nbytes = os.path.getsize(fpath)
+        slim_total_bytes += nbytes
+        slim_manifest["parts"].append(
+            {"file": fname, "start": start, "count": len(part), "bytes": nbytes}
+        )
+        start += len(part)
+    out_slim = os.path.join(args.outdir, "search_index_manifest.json")
     with open(out_slim, "w", encoding="utf-8") as f:
-        json.dump(slim, f, ensure_ascii=False, separators=(",", ":"))
-    slim_mb = os.path.getsize(out_slim) / 1e6
+        json.dump(slim_manifest, f, indent=1)
+    slim_mb = slim_total_bytes / 1e6
+    biggest_part = max(slim_manifest["parts"], key=lambda p: p["bytes"])
+    # NOTE: the monolithic search_index.json is deliberately NO LONGER written.
+    # It cannot be pushed once it exceeds 100 MiB, so regenerating it only dirties
+    # the tree with an unpushable blob and forces the sync lane to hold it back.
+    # The last pushable copy stays in the repo as the front-end's fallback.
 
     # chunked full records
     full = []
@@ -102,7 +163,8 @@ def main():
         json.dump(manifest, f, indent=1)
 
     total_mb = sum(os.path.getsize(os.path.join(args.outdir, c["file"])) for c in manifest["chunks"]) / 1e6
-    print(f"slim: {len(slim)} docs -> search_index.json ({slim_mb:.1f} MB)")
+    print(f"slim: {len(slim)} docs -> {len(parts)} shard(s) ({slim_mb:.1f} MB total; "
+          f"biggest {biggest_part['file']} {biggest_part['bytes']/1e6:.1f} MB) + search_index_manifest.json")
     print(f"full: {len(full)} docs -> {len(chunks)} chunks ({total_mb:.1f} MB total)")
     print(f"manifest: full_manifest.json")
 

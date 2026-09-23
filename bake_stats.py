@@ -27,7 +27,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 # The big derived-data files that change on every merge — version these.
+# search_index_manifest.json is listed BEFORE search_index.json: it is the
+# sharded index's entry point (the parts carry their own ?v= from the manifest's
+# `v` field), and the alternation is order-sensitive.
 VERSIONED = [
+    "./search_index_manifest.json",
     "./search_index.json",
     "./library_feed.json",
     "./full_manifest.json",
