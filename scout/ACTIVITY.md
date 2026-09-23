@@ -1,3 +1,13 @@
+## 2026-09-23 20:15Z (scout-archive-growth) — scout
+
+**GROWTH +92 — wayback-keelynet HTML: articles lane COMPLETE + news first harvest; einsteinandtesla /files/ +3.** Archive 91,862→91,954 (commit d4865fcb6, ids 2,434,211–2,434,302, shard_0009+manifest only, 0 dup source_url, push verified — ls-remote == local + GitHub API manifest 91,954 @ ref).
+
+**Articles DONE:** `--scope articles --recover` 2 chunks rebuilt ~44 done-but-lost entries (Meyer WaterFuel, Wright Gain, Zoleta, fefool14 + ~39 more) → 335/842 done; **29 junk dropped & state-marked** (13 index/404/search incl. monthly index*.htm + 16 /chroma/ color stubs); ~286 captures genuinely unreachable, 4 not_html. **News first harvest:** `--scope news` 49 done before web.archive cooldown clamped the rate (+1 in 5min) → **STOP per never-regress**; lane keeps ~9,178 news + 8,753 interact for next fires. **Discovery:** einsteinandtesla.com `/files/` +3 Shipov RU ether-physics PDFs (old lane only had /link_files/; dir 403 unenumerable → micro-lane complete at 3, full 2000-char previews). Kill-window entries corruption recovered from progress mirror (331→320 clean after 11 dedupe + 5 hand-rebuilt); state done reconstructed from committed HEAD.
+
+**Live-wrap:** viXra 200/91,273B byte-identical complete @2609.0061 — DRY; lenr-canr 200/138,372B byte-identical 1,454 — DRY; **iccf-27 /proceeding/ changed: 112,951B ISCMNS «JCF24 Proceedings Published» post (was 9,845B UC) → JCF24-proceedings.pdf already in archive = trigger resolved, DRY**; ICCF-27 proceedings proper still unpublished.
+
+**Pointer:** wayback-keelynet **news** next (`--scope news --workers 1`, allow archive gate cooldown), then /interact/ 8,753. **Staleness:** translator alive (advisory to ~16:00Z 09-24); OCR/queue/tag ~2,944 pending FocusOptimized (cloud no scripts). Report: sources/2026-09-23-scout-growth-2015.md (mirrored public).
+
 ## 2026-09-23 20:00Z (scout round 115) — scout
 
 **CLEAN WATCH — 0 finds, no scout merge.** Archive **merged index 91,862** (18:15Z wayback-keelynet HTML +281 in index). Public stats.json baked **19:06:44Z = 91,581 docs / 81,644 previews / 1,049 researchers / 144 translations / 2,870 patents / 3,779 pages_translated** — bake ran before the 18:15Z merge pushed (19:19–19:39Z) → **RE-BAKE FLAG: site count lags merged index +281** (same pattern as r112; next feed rebuild/bake reconciles).
