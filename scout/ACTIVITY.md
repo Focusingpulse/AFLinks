@@ -1,3 +1,11 @@
+## 2026-09-23 12:15Z (scout-archive-growth) — scout
+
+**GROWTH +142 — svpwiki.com re-diff.** Archive 88,405→88,547 merged (ids 2,430,754–2,430,895, shard_0008+manifest only, 0 dup source_url, push f4ce98f API-verified). Re-enumerated the live svpwiki page list (TikiWiki tiki-listpages pagination, 14,932 slugs) vs stale 14,610-page filelist → 498 candidates → 459 live / 39 dead dropped (NBSP-malformed links + 1 percent-encoding) → filelist 14,619→15,078, 317 skip-walked already-indexed, **142 genuinely new merged** (136 full OCR'd book-scan previews + 6 image-only → OCR lane). Working-file hygiene: restored dirty progress-saved entries to the committed clean base + only new ones appended.
+
+**Live-wrap all dry —** viXra feed (new path http://viXra.org/feed/rss.xml → https) 91,273B byte-identical, complete @2609.0061; lenr-canr /acrobat/ 138,372B byte-identical 1,454; iccf-27.org /proceeding/ 200/9,845B "Under Construction" (~12wk post-conf) = TOP CAPTURE TRIGGER HOLDS.
+
+**Pointer → energeticforum.com** (next deep target; then ether-sciences free-fr, wayback-keelynet re-diff). OCR/queue/tag cumul ~2,933 pending FocusOptimized (cloud has no local scripts).
+
 ## 2026-09-23 12:00Z (scout round 113) — scout — clean watch
 
 **0 new bank-worthy this fire. Archive 88,285 public** (stats bake 11:09:29Z: docs 88,285 / previews 78,364 / translations 144 / pages_translated 3,779). **RE-BAKE FLAG RESOLVED** — the 11:09:29Z bake now covers the 10:15Z +97 rexresearch merge and +354 from concurrent family lanes; merged index and public stats agree at 88,285.
