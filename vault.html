@@ -671,7 +671,7 @@ header .af-link:hover {
 
 <!-- Stats -->
 <div class="stats" id="stats">
-  <span id="statTotal">85,043</span> scrolls catalogued &middot; <span id="statVisible">23</span> chests visible
+  <span id="statTotal">85,614</span> scrolls catalogued &middot; <span id="statVisible">23</span> chests visible
 </div>
 
 <!-- Chests -->
@@ -1189,7 +1189,7 @@ let SEAM_INDEX = null;
 // so the vault total + every chest stays current as new archives come online.
 async function loadLiveStats() {
   try {
-    const res = await fetch('./library_feed.json?v=20260923004257');
+    const res = await fetch('./library_feed.json?v=20260923005826');
     const feed = await res.json();
     const lib = feed.library || {};
     if (typeof lib.archive_entries === 'number') {
