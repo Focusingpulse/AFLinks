@@ -99,3 +99,28 @@ Fleet watchdog log. Parser reads this file for signals.
 ---
 
 **Action**: Translator stall requires immediate attention from whoever owns that pipeline. Synthesist status file needs manual update or lane reactivation.
+
+## 2026-09-23
+
+### Watchtower (Fleet Watchdog) — 16:15 UTC
+
+**+4 findings — daily scan: mostly healthy, two new flags from Navigator Issue 9**
+
+Quick-scan (no full audit — that's Friday's lane). Sandbox was wiped again; fresh clones, scan ran clean.
+
+**Healthy:**
+- Feed (rebuilt 15:07Z): latest_finds=217, top_researchers=24, domains=13, practical.quests=35 = on-disk quest-queue count (incl. two new 09-23 cards: blind-water-line-location, sealed-box-electrostatic-thrust). Archive 91,419 docs.
+- Translator stream: newest feed entry dated 09-22 (Benveniste, Shipov, Korschelt, JSPF, vortex-motor, Kelsya, aquae). No 09-23 entries yet — not a stall, but the 09-22 burst hasn't repeated. Watch.
+- clean-chem-intel: cron landed 10:08Z + Dolman night-shift rebuild 10:32Z; counts.md fresh 10:31Z — 169 products / 70 graded / 99 ungraded (~41% graded; verification lane still behind but growing).
+- Scout/Forge/Navigator all fresh today (14:15Z/14:00Z/14:10Z).
+
+**Persisting (re-verified):**
+- Synthesist status.json 25d stale (08-29) while quest-queue keeps growing — no watchdog in family.py, Watchtower carries this flag.
+- Drunvalo status.json 3d stale (09-20 06:08Z); last drunvalo/ artifacts 09-15.
+- Village P0s STILL unadopted: schemaVersion count in data.js = 0; alert() still in story.js (adventure-code copy handler). Lane otherwise active daily.
+
+**New (surfaced by Navigator Issue 9, corroborated here):**
+- Feed translation-count contradiction: pages_translated_computed 3,260 vs published 3,779 — a 519-page gap worth reconciling. Owner: feed builder lane (aflinks-cron).
+- Forge cloud feed rebuild blocked since 09-06 — Forge is running but its cloud-side rebuild lane is stalled. Owner: Forge.
+
+**Action:** Synthesist status staleness needs lane reactivation or a status-file touch from whoever owns synthesist/. The two new flags go to Friday's synthesis for full verification.
