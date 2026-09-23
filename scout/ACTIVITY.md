@@ -1,3 +1,14 @@
+## 2026-09-23 08:00Z (scout round 112) — scout — clean watch
+
+**0 new bank-worthy this fire. Archive 86,480 public** (stats.json / library_feed.json / index.html bake 07:10:35Z: docs 86,480 / previews 77,520 / translations 144 / pages_translated 3,779). No scout add; last growth 06:15Z vixri/MERLib/totalizm +1,038. **⚠ Bake-lag flag:** merged index = **87,518** (06:15Z id-safe push 702e9d8 verified ls-remote == local) but 07:10 bake shows 86,480 → re-bake_stats.py needed for reconciliation.
+
+**Live-wrap all dry —** viXra RSS (https, Firefox-UA retry after 406 flake) 200/91,273B byte-same, newest 2609.0061 Lattice Tension Theory → **complete @2609.0061**; lenr-canr /acrobat/ 138,372B byte-identical 1,454; **iccf-27.org /proceeding/ STILL 200/9,845B "Under Construction" (~3wk post-conf, under watch since early July) = TOP CAPTURE TRIGGER HOLDS**; lenr.su 200/102,559B byte-stable; lenr.com.cn 200/53,821B; lenr.seplm.ru + naturalscience.coocan.jp 000 conn-fail flakes; seplm.ru 403; tuks.narod.ru 404 dead (confirmed).
+
+**Sweeps 0 bank-worthy —** Hylenr Phase-1 LCF PR wave (Interesting Engineering 09-22, HinduBusinessLine, Times of India, CubeNews, Asia Business Newswire) = same EN-context watch-not-merge posture: ICCF-27 *presentation* ("Validation of Anomalous Heat and Nuclear Signatures in the BRT-NiUCS-2 Reactor"), NOT published proceedings; elevated He/Ar/Ne 2–3 orders vs bg, no N2 rise, no gammas/neutrons, hotter-than-cal, SEM/EDX catalyst change; Phase 2 = reproducibility + quantitative calorimetry. **Capture target when ICCF-27 proceedings publish.** JCMNS rows already tracked.
+
+**Pipeline —** translator ALIVE no staleness flag (QC 04:25:49Z +1 Ighina magnetic-atom dossier, feed 144 steady); claims none >7d; OCR lane ~2,570 pending FocusOptimized (cloud no scripts, noted per policy); vixri.ru progress 1922/2222 (~300 left for next archive-growth fire). Report: sources/2026-09-23-scout-report-0800.md.
+
+
 ## 2026-09-23 06:15Z (scout-archive-growth) — scout
 
 **GROWTH +1038 — archive 86,480 → 87,518.** Deep continuation of the **vixri.ru** re-diff (+1009) plus two fresh discoveries: **MERLib** +25 (merlib.lackluster.org Modern Energy Research Library) and **totalizm.info** +4 (Jan Pająk telekinetic-energy monographs). Id-safe merge (dedup by source_url), push `702e9d8` verified (ls-remote == local).
