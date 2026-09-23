@@ -1,3 +1,11 @@
+## 2026-09-23 14:15Z (scout-archive-growth) — scout
+
+**GROWTH +2,872 — energeticforum.com RE-ENUMERATION.** Archive 88,547→91,419 merged (merge id-safe via merge_all_progress.py — fresh ids 2,430,896–2,433,767; shard_0008+0009+manifest; 0 dup source_url; push 3da54ea78 verified — ls-remote == local + GitHub API manifest 91,419 @ ref). Site migrated to a vBulletin `.html` URL scheme; re-enumerated via live sitemap (47,175 URLs) → 10,906 real `/forum/` threads (5,948 `/member/` profile leaves excluded as non-documents) vs stale 8,129 filelist → **2,872 genuinely new threads (ids 56–517,268)** → filelist 8,129→11,001, all processed (8,129 old skip-walked), **2,871 full content_preview + 1 image-only → OCR lane**.
+
+**Live-wrap all dry —** viXra feed 91,273B byte-identical, complete @2609.0061; lenr-canr /acrobat/ 138,372B byte-identical 1,454; iccf-27.org /proceeding/ 200/9,845B "Under Construction" (~13wk post-conf) = **TOP CAPTURE TRIGGER HOLDS**.
+
+**Pointer → ether-sciences free-fr** (next deep target), then wayback-keelynet re-diff, remaining registry order. Discovery sweep (3rd fire): new candidate **second-physics.ru** (RU alt-physics, Shipov PDFs fetch 200; /lib/ 403 no listing → seed via homepage crawl on a future fire). OCR/queue/tag cumul ~5,806 (+2,872) pending FocusOptimized (cloud has no local scripts).
+
 ## 2026-09-23 12:15Z (scout-archive-growth) — scout
 
 **GROWTH +142 — svpwiki.com re-diff.** Archive 88,405→88,547 merged (ids 2,430,754–2,430,895, shard_0008+manifest only, 0 dup source_url, push f4ce98f API-verified). Re-enumerated the live svpwiki page list (TikiWiki tiki-listpages pagination, 14,932 slugs) vs stale 14,610-page filelist → 498 candidates → 459 live / 39 dead dropped (NBSP-malformed links + 1 percent-encoding) → filelist 14,619→15,078, 317 skip-walked already-indexed, **142 genuinely new merged** (136 full OCR'd book-scan previews + 6 image-only → OCR lane). Working-file hygiene: restored dirty progress-saved entries to the committed clean base + only new ones appended.
