@@ -1,7 +1,1 @@
-{
-  "as_of": "2026-09-22T20:00:19Z",
-  "gear": 1,
-  "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "POST /v1/agents/{id}/messages (max_steps:1) -> HTTP 200, coherent reply \"ok\"; usage 8756 prompt / 21 reasoning tokens",
-  "note": ""
-}
+{"as_of":"2026-09-23T00:00:00Z","gear":1,"model":"deepseek/deepseek-v4.1-flash","evidence":"direct probe POST /v1/agents/$AGENT_ID/messages -> HTTP 200, coherent reply \"ok\" (8814 ctx tokens, 1 step)","note":""}
