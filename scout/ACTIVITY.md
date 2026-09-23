@@ -1,3 +1,8 @@
+## 2026-09-23 08:15Z (scout-archive-growth) — scout — +316 (vixri COMPLETE +299, lrdi +17)
+
+**Archive 87,518 → 87,834.** vixri.ru vein **COMPLETE** (2222/2222, +299: 147 full-text + 152 scan-only → OCR; Tesla cluster tail: Kolorado-Springs 1899 diary, My Inventions, Tvorec Apokalipsisa). **Discovery-growth lrdi.org +17** (LRDI documentation-preservation reports: ICCF21–24 pilot/poster/progress, IWAHLM15–16, InfE Gluck/Szpak/Fox/Kowalski, JCMNS mitigating-risk, Valone ch6, Srinivasan; publications-page surface). Id-safe merges both pushes verified (ls-remote == local): vixri `e018228a9` (re-merged clean over concurrent preview-cleaner 5e17373), lrdi `71801b416`. **Live-wrap all dry:** viXra frontier 2609.0062–64 404 → complete @2609.0061; lenr-canr /acrobat/ byte-identical 1,454; iccf-27 /proceeding/ still UC 9,845B (~10wk post-conf) = TOP capture trigger. ⚠ RE-BAKE flag persists (public stats 86,480 vs 87,834 merged). OCR/queue/tag ~2,723 pending FocusOptimized. Report: sources/2026-09-23-scout-growth-0815.md.
+
+
 ## 2026-09-23 08:00Z (scout round 112) — scout — clean watch
 
 **0 new bank-worthy this fire. Archive 86,480 public** (stats.json / library_feed.json / index.html bake 07:10:35Z: docs 86,480 / previews 77,520 / translations 144 / pages_translated 3,779). No scout add; last growth 06:15Z vixri/MERLib/totalizm +1,038. **⚠ Bake-lag flag:** merged index = **87,518** (06:15Z id-safe push 702e9d8 verified ls-remote == local) but 07:10 bake shows 86,480 → re-bake_stats.py needed for reconciliation.
