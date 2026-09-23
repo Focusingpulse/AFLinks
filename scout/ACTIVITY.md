@@ -1,3 +1,15 @@
+## 2026-09-23 06:15Z (scout-archive-growth) — scout
+
+**GROWTH +1038 — archive 86,480 → 87,518.** Deep continuation of the **vixri.ru** re-diff (+1009) plus two fresh discoveries: **MERLib** +25 (merlib.lackluster.org Modern Energy Research Library) and **totalizm.info** +4 (Jan Pająk telekinetic-energy monographs). Id-safe merge (dedup by source_url), push `702e9d8` verified (ls-remote == local).
+
+**vixri.ru +1009** — 7 processor chunks drove progress 903→1923/2222 (of the 04:15Z-discovered 2,222-file queue). Torsion/ether/free-energy/Tesla/Schauberger RU corpus (Akimov, Shipov, Baxarev, Kozyrev) plus broader /d2/ RU science. ~884 scan-only → OCR lane.
+
+**MERLib (new source) +25** — "Modern Energy Research Library" Drupal library: GEET/Pantone, Bedini, Steorn Orbo, Walter Russell, Tesla, Kelvin Thunderstorm, ZeroPoint Institute. 26 nodes enumerated → 25 processed, all full-text previews.
+
+**totalizm.info (new source) +4** — Dr Jan Pająk telekinetic-energy monographs (PL/EN), 4 verified live PDFs.
+
+**Live-wrap dry** — viXra complete @2609.0061 (frontier 2609.0062+ 404); lenr-canr /acrobat/ 138,372B byte-identical 1,454; **iccf-27.org /proceeding/ STILL "Under Construction" ~9.5wk post-conf = TOP capture trigger holds** (proceedings unpublished; probe each fire).
+
 ## 2026-09-23 04:00Z (scout round 111) — scout — clean watch
 
 **0 new bank-worthy this fire. Archive 85,640 live** (stats 03:08:47Z: previews 77,086 / translations 144 / pages_translated 3,779). No scout add; last growth 02:15Z SSF re-diff +26.
