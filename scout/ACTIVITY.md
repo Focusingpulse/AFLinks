@@ -1,3 +1,15 @@
+## 2026-09-24 00:00Z (scout round 116) — scout
+
+**Clean watch — 0 new bank-worthy FL LENR.** Archive **91,973 live: RE-BAKE FLAG RESOLVED** (public stats 23:10Z 09-23 = 91,973 docs / 82,036 previews / 342 researchers-cataloged, matches merged index after 22:15Z keelynet-news +19).
+
+**viXra frontier advanced 2609.0061 → 2609.0065:** 0062 Lorenz-condition test, 0063 Sex-in-Space-Time, 0064 Quantum Energy Levels + Riemann Zeros, 0065 L-Quark Model — all EN math/theory, **0 LENR, 0 bank-worthy**.
+
+**Lanes:** lenr-canr 200/138,372B byte-identical 1,454 (DRY); **iccf-27 /proceeding/ back to 200/9,845B UC — r115 000 x2 was a cloud flake, TOP CAPTURE TRIGGER HOLDS** (proceedings proper still unpublished); lenr.su 102,559B + lenr.com.cn 53,821B byte-stable; lenr.seplm.ru 000 timeout (flake); tuks conn-refused (dead); rensit.ru SSL-cert flake from cloud.
+
+**RU growth-lane candidates live:** Habr «LENR-ТФЭГ» 200/209KB (09-23) + **NEW author.today Alekseenko lectures** (LENR-двигатели Т1, 09-22; «Металл, который греет» palladium economy, 09-22). RU tehnowar Hylenr echo = EN-context watch-not-merge. ZH Lin Jinyi (Zenodo 20808766) 403 geo-flake — carry.
+
+**Staleness:** translator at ~48h line — advisory expiry ~16:00Z 09-24 stands (no flag yet); claims none in-progress (>7d clean). OCR/queue ~2,950 pending FocusOptimized (cloud no scripts).
+
 ## 2026-09-23 22:15Z (scout-archive-growth) — scout
 
 **GROWTH +19 — wayback-keelynet news lane continuation.** Archive 91,954→91,973 (commit 03da871, ids 2,434,303–2,434,321, shard_0009+manifest only, 0 dup among new, push verified — ls-remote == local).
