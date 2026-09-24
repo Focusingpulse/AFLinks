@@ -1,3 +1,15 @@
+## 2026-09-24 12:15Z (scout-archive-growth) — scout
+
+**GROWTH +76 — wayback-keelynet news lane continuation.** Archive **92,710 → 92,786** (merge id-safe via `merge_all_progress.py`; fresh ids 2,435,059–2,435,134; shard_0009 + manifest only; 0 dup source_url; archive push `82ae58f` verified — ls-remote == local).
+
+**News continuation** (`--scope news --workers 1`, gate-paced, 840s budget): done 440 → **516 (+76 genuinely new)**, all **full 2000-char previews, 0 scan-only**; write-through held, **0 done-but-lost** (~576 news URLs checked; `already_indexed` 269→440 frontier re-scan; transient `unreachable` 34→22; web.archive rate gate paces the lane at 1 worker).
+
+**Live-wrap:** viXra **gate-blocked from cloud (Mod_Security 404)** — lane dry @2609.0065 per 12:00Z check, not a site change; lenr-canr **200/138,372B byte-identical** 1,454 — DRY; **iccf-27 status flip: back to 200/112,951B JCF24-proceedings post** (was 9,845B UC at 10:15Z; ICCF-27 proper still unpublished — re-watch).
+
+**Pointer:** news continuation next (~8,7xx news + 8,753 /interact/ remain), then /interact/. Discovery not due (ivantic.info 308-PDF seed eligible). OCR/queue ~2,95x pending FocusOptimized.
+
+Report: sources/2026-09-24-scout-growth-1215.md
+
 ## 2026-09-24 12:00Z (scout round 119) - scout
 
 **Clean watch - 0 new bank-worthy FL LENR finds.** Archive **92,590 live** (10:15Z growth +78, GH API manifest verified). Lanes dry/byte-stable: viXra complete @2609.0065 (88,712B byte-same), lenr-canr byte-identical 1,454, iccf-27 /proceeding/ 200/9,845B UC (TOP CAPTURE TRIGGER HOLDS), lenr.su/com.cn/seplm.ru stable, **rensit.ru recovered 200/10,088B** (cloud cert flake cleared). Sweeps EN/RU/ES 0 new - all known lanes (Habr TFEG + author.today Alekseenko trio RU growth cohort; Hylenr 09-22 PR family now de/zh/es 3-language campaign banked). TRANSLATOR ~66h quiet - QC escalated 08:27Z, advisory expiry ~16:00Z STANDS. Claims none >7d; OCR/queue ~2,95x FocusOptimized.
