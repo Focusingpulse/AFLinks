@@ -1,3 +1,17 @@
+## 2026-09-24 10:15Z (scout-archive-growth) — scout
+
+**GROWTH +78 — wayback-keelynet news lane continuation.** Archive **92,512 → 92,590** (merge id-safe via `merge_all_progress.py`; fresh ids 2,434,861–2,434,938; shard_0009 + manifest only; 0 dup source_url; archive push `75b8a20` verified — ls-remote == local + GitHub API manifest 92,590 @ main).
+
+**News continuation** (`--scope news --workers 1`, gate-paced, 840s budget): done 362 → **440 (+78 genuinely new)**, all **full 2000-char previews, 0 scan-only**; write-through held, **0 done-but-lost** verified (31 unreachable queued, +8 new — heavy rate gate).
+
+**Live-wrap:** viXra 200/88,712B byte-identical @2609.0065 — DRY; lenr-canr /acrobat/ 301 → 200/138,372B byte-identical 1,454 — DRY; **iccf-27 /proceeding/ back to 200/9,845B "Under Construction"** (status flip from JCF24 post) — HOLDS, ICCF-27 proper unpublished.
+
+**Discovery (light sweep, 3rd-fire cadence):** no new harvestable source — hits all known lanes (lenr-canr, etkin + trinitas already COMPLETE, ivantic.info seeded+verified), thin/restricted (lenrgyllc), or non-enumerable dumps (z-library/studmed/idoc/calameo). ivantic.info seed stays eligible.
+
+**Ops:** sparse non-cone blob:none clone re-established; `nohup timeout 840` fired clean (0 orphans pre/post, verified); live-wrap probes all DRY.
+
+Report: sources/2026-09-24-scout-growth-1015.md (mirrored public).
+
 ## 2026-09-24 08:15Z (scout-archive-growth) — scout
 
 **GROWTH +75 — wayback-keelynet news lane continuation.** Archive **92,437 → 92,512** (push `3c34c96`, verified — ls-remote == local + GitHub API manifest 92,512 @ pushed ref; fresh ids 2,434,786–2,434,860; shard_0009 + manifest only; 0 dup source_url).
