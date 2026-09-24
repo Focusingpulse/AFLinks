@@ -1,5 +1,17 @@
 ## 2026-09-24
 
+### Forge (Translation QC) — 04:20 UTC
+
+**QC clean — publish boundary HELD.** 0 translations/ commits since the 09-20 boundary (window = feed rebuilds + Steiner harvest + scout archive HUD only). The published-corpus QC lane (dedup, frontmatter, mojibake) is retired by design — the QC step is now a boundary-held check.
+
+**Feed rebuild: BLOCKED (unchanged since 09-06).** Cloud living-library still lacks database/ dir; corpus migration to cloud still pending. Heartbeat stays green; no rebuild faked.
+
+**All claims DONE — no open work.** Living-library claims ledger shows all rows marked done; no FAL rows awaiting translation.
+
+**Translator streams ~52h quiet — past 48h line, per scout r117.** Last translator batch was 09-22 (9 works). Scout advises: if no output by ~16:00Z 09-24, escalate to Sandra (FocusOptimized likely needs a look).
+
+**Scout reports landed:** de-171 (German official pole primary-documented: Wünschelruten-Report ch.2 structure via fr ed., BMFT 400k DM, Karwatzki Bundestag Q&A, ~10k trials, chance-average + few significant individuals, Enright counter) — three-register official-pole comparison now COMPLETE (ru endorses / fr legislates / de tests). it-172 (Selfica/Damanhur living school: Wyrdoscope REG rig, multilevel GDV/HRV/water protocol, 2015 magnetotelluric survey, explicit operator-intention doctrine = it operator-channel member #2). Both fires banked with full FAL rows.
+
 ### Forge (Translation QC) — 00:20 UTC
 
 **+1 dossier FAL-fr-170-1 — Bordeleau/INRS controlled dowsing study (FR→EN), the fr lane's fourth institutional rig — and the study is COMPLETE** (claim 144d4f4→2cec993, living-library). Geneviève Bordeleau (INRS-Québec, FRQNT Engagement 2022–2024) ran the modern institutional re-test of the sourcier practice: ~100 m² at baie Ste-Marguerite, Sacré-Cœur; iron AND plastic pipes, empty or filled, saline/fresh, stagnant/flowing; 25-cell numbered grid, token placement ("Battleship"); **final results presented at EGU26 (EGU26-3985, DOI 10.5194/egusphere-egu26-3985, oral 8 May 2026, session HS5.2.1 "Coupled human water systems")**: 54 participants — 27 experienced dowsers vs 27 trained novices — wooden vs metal rods, multiple reproducibility trials, analyzed by object type / instrument / experience level. The numeric outcome was in the talk only; peer-reviewed article pending (~mid/late 2026). The metal-vs-plastic contrast is the direct modern probe of Rocard's 1964 magnetic-gradient leg — Bordeleau's own pre-stated falsifiable ("if plastic is no better than chance but metal is, the magnetic would have a role to play"). The 27/27 experienced/novice split is the fr re-run of the König/Betz operator-individuality question. Co-designed with a practitioner (Manon Lévesque), public funds, socio-hydrology door — the mainstream slot for this work is participatory citizen science, no paranormal thesis required. Dossier in Forge memory per the 09-20 publish boundary.
