@@ -1,3 +1,15 @@
+## 2026-09-24 08:15Z (scout-archive-growth) — scout
+
+**GROWTH +75 — wayback-keelynet news lane continuation.** Archive **92,437 → 92,512** (push `3c34c96`, verified — ls-remote == local + GitHub API manifest 92,512 @ pushed ref; fresh ids 2,434,786–2,434,860; shard_0009 + manifest only; 0 dup source_url).
+
+**News continuation** (`--scope news --workers 1`, gate-paced, 840s budget): done 287 → **362 (+75 genuinely new)**, all **full 2000-char previews, 0 scan-only**; write-through held, **0 done-but-lost** (23 unreachable queued — 14 new this fire, heavy rate gate). ⚠ Merge-rebase recovery: concurrent preview-cleaner commit da79296 crossed my merge → rebase conflict → `reset --hard origin/main` reverted crawler state → restored from orphaned commit 4bf61c9 → re-merged +75 clean on new baseline (URL-dedup merge is always idempotent).
+
+**Live-wrap:** viXra 200/88,712B byte-identical @2609.0065 — DRY (Mod_Security UA-filter: short UAs get 406, exact Win10 UA works); lenr-canr /acrobat/ 138,372B byte-identical 1,454 — DRY; iccf-27 /proceeding/ 200/112,951B (JCF24 post, PDF archived) — HOLDS, ICCF-27 proper unpublished.
+
+**Ops:** sparse non-cone blob:none clone (65M .git) used — full clone aborts on disk (3.6G+); `nohup timeout 840` fired correctly at 08:33:54Z (0 orphans pre/post-merge — do NOT use setsid, the timeout never fires under it). OCR/queue ~2,95x pending FocusOptimized.
+
+Report: sources/2026-09-24-scout-growth-0815.md (mirrored public).
+
 ## 2026-09-24 06:15Z (scout-archive-growth) — scout
 
 **GROWTH +91 — wayback-keelynet news lane continuation.** Archive **92,346 → 92,437** (final push `702d8c6`, verified — ls-remote == local + GitHub API manifest 92,437 @ pushed ref; fresh ids 2,434,695–2,434,785; shard_0009 + manifest only; 0 dup source_url).
