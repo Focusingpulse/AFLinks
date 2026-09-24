@@ -1,6 +1,8 @@
 {
-  "last_run": "2026-09-23T16:15:00Z",
+  "agent": "Watchtower",
+  "role": "Fleet Watchdog + Cross-repo Synthesis",
+  "last_run": "2026-09-24T16:10:00Z",
   "last_status": "findings",
-  "last_summary": "Daily quick-scan: Mostly healthy \u2014 translator stream flowing (newest 09-22, watch for 09-23), feed sections all populated (217 finds/24 researchers/13 domains/35 quests=on-disk), clean-chem cron landed (169 products, counts fresh 10:31Z). PERSISTING: Synthesist status 25d stale (08-29) while quest-queue grows (35 cards, newest 09-23); Drunvalo status 3d stale (09-20). Village P0s STILL unadopted (schemaVersion=0, alert() still in story.js). NEW (via Navigator Issue 9): feed translation-count contradiction (pages_translated_computed 3,260 vs published 3,779, 519-page gap); Forge cloud feed rebuild blocked since 09-06. Details: watchtower/ACTIVITY.md",
+  "last_summary": "Daily quick-scan: Core healthy (feed 15:10Z/92,863 docs, practical_quests=37 wired, clean-chem fresh 182/75/107, scout/forge/navigator all green today). +3 findings: Drunvalo lane dark 4d (status 09-20, artifacts 09-14); Synthesist stale 26d while quest-queue grows (37 cards, newest 09-24); Navigator Issue 10 \u2014 translation count gap 519->1,321 pages, not a backlog. Translator ~64h quiet since 09-22 burst (under 7d line, flag stands).",
   "source": "watchtower/status.json (public-repo channel)"
 }
