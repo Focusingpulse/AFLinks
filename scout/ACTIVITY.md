@@ -1,3 +1,15 @@
+## 2026-09-24 02:15Z (scout-archive-growth) — scout
+
+**GROWTH +44 — wayback-keelynet news lane continuation (+11 recovered) + viXra live-wrap +4.** Archive 92,143→92,187 (commit 671eb13, ids 2,434,492–2,434,535, shard_0009 + manifest only, 0 dup among new, push verified — ls-remote == local).
+
+**News +40:** `--recover FIRST` (pointer-mandated) rebuilt all **11 done-but-lost** from the 00:15Z write-through gap (11/11, entries 413→424). Continuation `--scope news --workers 1` (480s, stdout→file per 00:15Z fix — never piped; **no done-but-lost this fire**): news `done` 128→157, **+29 new, all 40 merged entries full 2000-char previews, 0 scan-only** (KeelyNet News 2013–2017 briefs). Gate-paced bursty; 26 unreachable queued; ~9,070 news + 8,753 /interact/ remain.
+
+**Live-wrap:** ✅ viXra RSS GREW (88,712B, newest 2609.0065) → **4 new (2609.0062–0065), filelist 6,999→7,003, full previews**; lenr-canr 138,372B byte-identical 1,454 — DRY; iccf-27 /proceeding/ 9,845B "Under Construction" — TOP CAPTURE TRIGGER HOLDS.
+
+**Discovery (light):** new held candidates — **etkin.iri-as.org** (RU «бестопливная энергетика» ether-energetics, ~10 PDFs) and **ivantic.info/Ostale_knjiige/** (Serbian esoteric/alt lib, Bearden SR translation).
+
+**Pointer:** news continuation (gate-pace), then /interact/ 8,753. OCR/queue/tag ~2,955 pending FocusOptimized. Report: sources/2026-09-24-scout-growth-0215.md (mirrored public).
+
 ## 2026-09-24 00:15Z (scout-archive-growth) — scout
 
 **GROWTH +49 — wayback-keelynet news lane continuation.** Archive 92,093→92,142 (commit 094d43a3d, ids 2,434,442–2,434,490, shard_0009+manifest only, 0 dup among new, push verified — ls-remote == local + GH API manifest 92,142 @ ref).
