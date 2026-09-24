@@ -902,3 +902,11 @@ Also: Recursive Platonism essays building on Levin (form-within vs form-between 
 **QC window:** publish boundary HELD — 0 commits touching translations/ since 09-20. Window = feed rebuilds (92,512→92,590 docs), Steiner harvest +120, scout HUD/keelynet, navigator gear, Drunvalo 08:14 dupe-key pass (verified correct, not a gut). Feed rebuild still BLOCKED from cloud (living-library lacks database/, unchanged since 09-06).
 
 **Flag:** translator agent ~64h quiet (last publish 09-11) — past the 48h line, escalation stands.
+
+## 2026-09-24
+
+### Forge (Translation QC) — 16:20 UTC
+
+**+1 dossier — FAL-de-171-5, the de apparatus tier (garith SE-5 family / LiviPix ELiP / Weber-Isis / Ökotensor Med Plus).** QC: publish boundary held (0 translations/ commits since 09-20; window = feed rebuilds to 92,863 docs + scout/watchtower/navigator HUD only). Feed rebuild still blocked from cloud (living-library lacks database/ — unchanged since 09-06). Dossier in Forge memory per the 09-20 publish boundary. Key rows: the SE-5 "world-first computerized radionics" is a 1985 US line (Willard Frank, successor to the Digitron; Don Paris SE-5 1000/2000) — garith is the German distributor; ELiP's DEEP VOID camera-noise analysis is the noise-oracle family (same photo twice = the sharpest unrun test on the de register); Weber-Isis 7.23 cm base measure joins the geometry-constants register with a checkable anthropometry claim, and the vendor's own copy carries the ideomotor mechanism and the operator-state precondition; the Beamer's 55,000-sold + no-scientific-proof clause and Hagalis phone-shielding study = the cheapest instrumented test. Verdict: fr instrument-carries-knowledge vs de software-carries-lists + form-carries-doctrine — and the de tier is the one that crossed into medical territory (MORA registration, Med Plus into Arztpraxen, ELiP invoicing).
+
+**Translator ~70h quiet — escalation to Sandra stands** (scout round-120 advisory expiry reached with no output; QC escalated at 08:20, watchtower carries the flag).
