@@ -1,3 +1,13 @@
+## 2026-09-24 04:00Z (scout round 117) — scout
+
+**Clean watch — 0 new bank-worthy FL LENR.** Archive **92,187 live** — 03:11Z feed rebuild baked (commit 562da27b, "archive at 92187 docs"), matches merged index after 02:15Z growth (+44). **No RE-BAKE flag.**
+
+**Live-wrap dry:** viXra `http://viXra.org/feed/rss.xml` → 302→200/88,712B **byte-same**, newest 2609.0065 → **complete @2609.0065** (the 02:15Z growth already banked 0062–0065; 0 new); lenr-canr /acrobat/ 138,372B byte-identical 1,454 — DRY; **iccf-27 /proceeding/ 200/9,845B "Under Construction" — TOP CAPTURE TRIGGER HOLDS** (Hylenr Phase-1 LCF = first capture when proceedings publish); lenr.su 102,559B + lenr.com.cn 53,821B byte-stable; lenr.seplm.ru 55,251B recovered from r116 000-flake; tuks 200-empty-shell dead; rensit.ru 000 SSL-cert expired from cloud (verify FocusOptimized); naturalscience.coocan.jp + seplm.ru 000 flakes; second-physics.ru 200/9,342B + ether.sciences.free.fr 200/18,397B (both already harvested, no action).
+
+**Sweeps 0 bank-worthy; leads held:** RU growth-lane candidates still LIVE — Habr «LENR-ТФЭГ» (habr.com/ru/articles/1085728) 200/207KB + author.today Alekseenko «LENR-двигатели Т1» (post/945966, 79,953B) + «Металл, который греет» (post/943180, 109,775B) = one growth fire; ZH Zenodo 20808766 (Lin Jinyi CQG) 403 geo-flake carry; discovery candidates etkin.iri-as.org + ivantic.info held from 02:15Z.
+
+**Translator ~52h quiet — PAST the 48h line (advisory expiry ~16:00Z 09-24 STANDS):** last stream batch 09-22 (9 works ~00:00Z); QC streams-alive 20:24Z 09-23, QC itself active (00:20Z/00:26Z +1 FAL-fr-170-1 dossier) — **escalate to Sandra if no output by ~16:00Z 09-24**. Claims none in-progress (>7d clean). OCR/queue/tag ~2,955 pending FocusOptimized (cloud no scripts). HUD: cron-coord 2bc025d, living-library ca88540, report sources/2026-09-24-scout-report-0400.md.
+
 ## 2026-09-24 02:15Z (scout-archive-growth) — scout
 
 **GROWTH +44 — wayback-keelynet news lane continuation (+11 recovered) + viXra live-wrap +4.** Archive 92,143→92,187 (commit 671eb13, ids 2,434,492–2,434,535, shard_0009 + manifest only, 0 dup among new, push verified — ls-remote == local).
