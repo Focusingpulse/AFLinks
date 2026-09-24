@@ -334,6 +334,91 @@ def _norm_key(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _dupe_key(fname):
+    """Cross-convention duplicate key for translation filenames.
+
+    2026-09-24 (Drunvalo, translation-QC): the same work gets re-emitted under
+    DIFFERENT slug conventions, not just new date prefixes — e.g.
+    2026-09-22-korschelt-die-nutzbarmachung-der-lebendigen-kraft-des-aethers-de
+    vs 2026-09-15-korschelt-1892-nutzbarmachung-lebendigen-kraft-aethers-de
+    (articles, years, and hyphenation vary). The date-stripped filename is
+    stable within ONE convention but not across conventions, so ~20 such
+    pairs were entering the feed as duplicates. Key = (source_language,
+    sorted distinctive tokens). Tokens drop stopwords, articles, years, and
+    single characters (mojibake fragments, "um-3-0" digit noise). The SOURCE
+    language is a hard differentiator so genuinely different works
+    (sweeper-ru vs sweeper-it, an EN translation vs a DE source doc of the
+    same subject) never collapse. Exact key equality is only the FIRST
+    pass; _merge_dupe_groups() then fuzzy-merges near keys (one convention
+    adds/drops a word) via union-find.
+    """
+    s = (fname or "").lower()
+    s = re.sub(r"^(19|20)\d{2}[-_]\d{2}[-_]\d{2}[-_.]", "", s)
+    s = re.sub(r"\.md$", "", s)
+    m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh|hu|sv|fa|ko|da|fi|no|nb|ro|bg|he|hi|th|vi|id|tr)([-_](en|fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh))?$", s)
+    src_lang = m.group(1) if m else ""
+    if src_lang:
+        s = s[: m.start()]
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    stop = ("on", "of", "the", "a", "to", "from", "and", "in", "en", "fr",
+            "it", "ru", "de", "es", "el", "pt", "ja", "zh", "pl", "cs",
+            "sr", "uk", "ar", "nl", "der", "die", "das", "des", "dem",
+            "den", "und", "ein", "eine", "la", "le", "les", "un", "une",
+            "du", "los", "las", "il", "lo", "full", "complete",
+            "translation", "translations", "theory", "theorie", "vol",
+            "volume", "day", "present")
+    toks = set()
+    for t in s.split():
+        if len(t) == 1:          # single chars: mojibake frags, "l", digits
+            continue
+        if t in stop or re.fullmatch(r"(18|19|20)\d{2}", t):
+            continue
+        toks.add(t)
+    if not toks:
+        return None              # no signal -> caller falls back to _norm_key
+    return (src_lang, " ".join(sorted(toks)))
+
+
+def _merge_dupe_groups(by_key):
+    """Fuzzy-merge exact-keyed groups of translation works (union-find).
+
+    2026-09-24 (Drunvalo, translation-QC): cross-convention re-emissions of
+    the same work differ by a word or two ("...-um30-it" vs "...-um-3-0-it",
+    "...-chardin-cnrs-fr" vs "...-chardin-fr-en"), so exact key equality
+    alone leaves them as feed duplicates. Two keys merge when the source
+    language matches AND the token sets share >= 3 tokens AND Jaccard
+    overlap >= 0.6. The >= 3 shared-token floor keeps genuinely distinct
+    numbered works apart (goethe-chunk-50 vs goethe-chunk-51 share only
+    "chunk goethe"). Keys with empty token sets never merge.
+    """
+    keys = list(by_key.keys())
+    parent = {k: k for k in keys}
+
+    def find(k):
+        while parent[k] != k:
+            parent[k] = parent[parent[k]]
+            k = parent[k]
+        return k
+
+    def match(a, b):
+        if a[0] != b[0]:
+            return False
+        ta, tb = set(a[1].split()), set(b[1].split())
+        if not ta or not tb:
+            return False
+        inter = ta & tb
+        return len(inter) >= 3 and len(inter) / len(ta | tb) >= 0.6
+
+    for i in range(len(keys)):
+        for j in range(i + 1, len(keys)):
+            if match(keys[i], keys[j]):
+                parent[find(keys[j])] = find(keys[i])
+    merged = {}
+    for k in keys:
+        merged.setdefault(find(k), []).extend(by_key[k])
+    return merged
+
+
 # ── Translation metadata quality guards (2026-09-16) ────────────────────────
 # living-library/synthesis and translations/ frontmatter is normalized by a
 # shared-memory schema pass ("Normalize all shared-memory md frontmatter to
@@ -771,10 +856,11 @@ def main():
             # the feed as duplicates (kelsya 09-20/09-22 pairs, resurrected by
             # every rebuild). The filename is the stable identity across
             # revisions; the title is not.
-            key = _norm_key(re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)) or _norm_key(title or fname)
+            key = _dupe_key(fname) or _norm_key(re.sub(r"^\d{4}-\d{2}-\d{2}-", "", fname)) or _norm_key(title or fname)
             # reverse-sorted glob → first per key is the newest; keep the whole
             # group so metadata can be inherited from older, richer revisions
             by_key.setdefault(key, []).append((path, meta, title, body, fname))
+        by_key = _merge_dupe_groups(by_key)
         for group in by_key.values():
             # 2026-09-23 (Drunvalo, translation-QC): within a revision group,
             # prefer the RICHEST revision, not merely the newest. Date-prefixed
@@ -990,8 +1076,8 @@ def main():
             for _tw in _old_tr:
                 if not isinstance(_tw, dict):
                     continue
-                _base = re.sub(r"^\d{4}-\d{2}-\d{2}-", "",
-                               (_tw.get("file") or "")).lower()
+                _base = _dupe_key(_tw.get("file") or "") or re.sub(
+                    r"^\d{4}-\d{2}-\d{2}-", "", (_tw.get("file") or "")).lower()
                 _rank = (bool(_tw.get("source_url"))
                          and not _is_slug_title(_tw.get("title") or ""),
                          not _is_slug_title(_tw.get("title") or ""))
@@ -999,6 +1085,7 @@ def main():
                     _by_base.setdefault("_noid_" + str(len(_by_base)), []).append((_tw, _rank))
                     continue
                 _by_base.setdefault(_base, []).append((_tw, _rank))
+            _by_base = _merge_dupe_groups(_by_base)
             _repaired = []
             for _base, _cands in _by_base.items():
                 _cands.sort(key=lambda c: c[1], reverse=True)
