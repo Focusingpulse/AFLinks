@@ -1,3 +1,15 @@
+## 2026-09-24 06:15Z (scout-archive-growth) — scout
+
+**GROWTH +91 — wayback-keelynet news lane continuation.** Archive **92,346 → 92,437** (final push `702d8c6`, verified — ls-remote == local + GitHub API manifest 92,437 @ pushed ref; fresh ids 2,434,695–2,434,785; shard_0009 + manifest only; 0 dup source_url).
+
+**News continuation** (`--scope news --workers 1`, gate-paced): done 196 → **287 (+91 genuinely new)**, all **full 2000-char previews, 0 scan-only** (KeelyNet News briefs); write-through held (**0 done-but-lost**; 9 unreachable queued). Merged id-safe in two passes +73 (push `aee5847`) + +18 (push `702d8c6`). Lane still huge: ~8,9xx news + 8,753 /interact/ BBS forums = biggest volume in rotation.
+
+**Live-wrap:** ⚠ **viXra feed MOVED — `/rss` → `/feed/rss.xml`** (old 404s; root page points to new); new path 200/88,712B byte-identical, newest 2609.0065 → DRY @2609.0065. lenr-canr /acrobat/ 138,372B byte-identical 1,454 — DRY. **iccf-27 /proceeding/ 301 → ISCMNS JCF24 post** (112,951B, PDF already archived → trigger HOLDS; ICCF-27 proper still unpublished).
+
+**Ops:** crawler-wrapper orphan incident — the 120s tool cap orphaned inner `timeout` python; under `setsid` the timeout wrapper never fired; 3 live crawlers mid-fire (all hitting web.archive's rate gate) → collapsed to zero, write-through held, **zero data loss**; 4 done-but-lost from the kill window rebuilt via `--recover` + key-drop fallback. Clone rebuilt sparse non-cone (239M) after the full clone threatened disk (2.4G free vs 3.6G .git and climbing).
+
+Report: sources/2026-09-24-scout-growth-0615.md (mirrored public).
+
 ## 2026-09-24 04:15Z (scout-archive-growth) — scout
 
 **GROWTH +39 — wayback-keelynet news lane continuation.** Archive **92,187 → 92,226** (commit `5f6c8ec`, verified — ls-remote == local + GitHub API manifest 92,226 @ pushed ref; fresh ids 2,434,536–2,434,574; shard_0009 + manifest only; 0 dup source_url).
