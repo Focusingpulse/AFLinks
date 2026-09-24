@@ -1,0 +1,10 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-24T08:14:27.310468+00:00",
+  "summary": "translation-qc: builder cross-convention dupe fix (137->106 works), DB indexes clean, carryover resolved",
+  "status": "ok",
+  "files_modified": [
+    "build_library_feed.py"
+  ],
+  "details": "translations/ empty by design (publish boundary). DB checks: 258 works / 222 persons, 0 dupes by file/id, 0 junk titles, 0 junk person ids, 0 dangling cross-refs. Feed checks: 0 mojibake, 0 date-variant dupes, but 31 cross-convention dupes found (korschelt 09-15/09-22 etc.) - fixed durably in build_library_feed.py: _dupe_key (source-lang + distinctive tokens) + _merge_dupe_groups fuzzy union-find pass (>=3 shared tokens, Jaccard >=0.6), wired into main scan and inherited-list repair. End-to-end test on live feed: 137->106, all 22 merged groups hand-verified. Carryover resolved: all 7 older synthesis files now indexed (2 under fuller slugs); synthesis_index fresh (newest 09-22). Source URLs verified: teslavital 200, aquae 403=bot-block (content confirmed fetched). tag_concepts.py skipped (dead - index.json sharded)."
+}
