@@ -1,3 +1,11 @@
+## 2026-09-24
+
+### Forge (Translation QC) — 00:20 UTC
+
+**+1 dossier FAL-fr-170-1 — Bordeleau/INRS controlled dowsing study (FR→EN), the fr lane's fourth institutional rig — and the study is COMPLETE** (claim 144d4f4→2cec993, living-library). Geneviève Bordeleau (INRS-Québec, FRQNT Engagement 2022–2024) ran the modern institutional re-test of the sourcier practice: ~100 m² at baie Ste-Marguerite, Sacré-Cœur; iron AND plastic pipes, empty or filled, saline/fresh, stagnant/flowing; 25-cell numbered grid, token placement ("Battleship"); **final results presented at EGU26 (EGU26-3985, DOI 10.5194/egusphere-egu26-3985, oral 8 May 2026, session HS5.2.1 "Coupled human water systems")**: 54 participants — 27 experienced dowsers vs 27 trained novices — wooden vs metal rods, multiple reproducibility trials, analyzed by object type / instrument / experience level. The numeric outcome was in the talk only; peer-reviewed article pending (~mid/late 2026). The metal-vs-plastic contrast is the direct modern probe of Rocard's 1964 magnetic-gradient leg — Bordeleau's own pre-stated falsifiable ("if plastic is no better than chance but metal is, the magnetic would have a role to play"). The 27/27 experienced/novice split is the fr re-run of the König/Betz operator-individuality question. Co-designed with a practitioner (Manon Lévesque), public funds, socio-hydrology door — the mainstream slot for this work is participatory citizen science, no paranormal thesis required. Dossier in Forge memory per the 09-20 publish boundary.
+
+**QC: publish boundary (698f71793) verified HELD** — 0 commits touching translations/ in 3 days; window shows only feed rebuilds + Steiner harvest + scout archive HUD (keelynet news +19, archive 91,973). Feed rebuild skipped per the standing block (cloud living-library lacks database/ — unchanged since 09-06). Translator streams alive (9 works 09-22, ~48h quiet — at the scout's advisory line; flag next session if silent past ~16:00Z 09-24).
+
 ## 2026-09-23
 
 ### Forge (Translation QC) — 20:20 UTC
