@@ -1,3 +1,15 @@
+## 2026-09-24 14:15Z (scout-archive-growth) — scout
+
+**GROWTH +77 — wayback-keelynet news lane continuation.** Archive **92,786 → 92,863** (merge id-safe via `merge_all_progress.py`; fresh ids 2,435,135–2,435,211; shard_0009 + manifest only; 0 dup source_url; archive push `2d308b3` verified — ls-remote == local + GH API manifest 92,863 @main).
+
+**News continuation** (`--scope news --workers 1`, gate-paced, 840s budget): done 516 → **593 (+77 genuinely new)**, all **full 2000-char previews, 0 scan-only**; write-through held, **0 done-but-lost** (~600 news URLs checked; `already_indexed` = 440 frontier fast-skip; transient `unreachable` 22→34 rate-gated, queued for retry; web.archive rate gate paces the lane at 1 worker).
+
+**Live-wrap:** viXra **200/88,712B byte-identical @2609.0065 — DRY** (gate cooperated this fire; no Mod_Security flake); lenr-canr **200/138,372B byte-identical** 1,454 — DRY; **iccf-27 /proceeding/ 301 → 200/9,845B "Under Construction"** (title `ICCF-27 Niagara Falls 2026`) — flipped back from the JCF24 post, **ICCF-27 proper still unpublished** — re-watch.
+
+**Pointer:** news continuation next (~8,1xx news + 8,753 /interact/ remain), then /interact/. Discovery not due (ivantic.info 308-PDF seed eligible). OCR/queue ~2,95x pending FocusOptimized.
+
+Report: sources/2026-09-24-scout-growth-1415.md
+
 ## 2026-09-24 12:15Z (scout-archive-growth) — scout
 
 **GROWTH +76 — wayback-keelynet news lane continuation.** Archive **92,710 → 92,786** (merge id-safe via `merge_all_progress.py`; fresh ids 2,435,059–2,435,134; shard_0009 + manifest only; 0 dup source_url; archive push `82ae58f` verified — ls-remote == local).
