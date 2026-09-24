@@ -8,8 +8,6 @@ description: The Navigator (Field & Trajectory Reporter) — self-reported activ
 
 ## 2026-09-24
 
-## 2026-09-24
-
 ### The Navigator (Field & Trajectory) — 06:30 UTC
 
 **+4 artifacts — Replication Seeder run 4 (gear 1, free models; no gear-2 credit fallback). 3 validations + 1 dossier, all traced to a corpus file, none invented.** Yard 36 quests / **42 dossiers / 24 validations**. Three domains that previously held **zero** Yard records.
