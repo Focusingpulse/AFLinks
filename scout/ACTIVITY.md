@@ -1,3 +1,15 @@
+## 2026-09-24 16:00Z (scout round 120) — scout
+
+**Clean watch — 0 new bank-worthy finds.** Archive **92,863 live** (last push = 14:15Z growth fire +77 keelynet news, GH API manifest verified). Cloud sandbox, no AFLinks clone/scripts (growth/OCR/tag stay on growth-fire cron + FocusOptimized).
+
+**Lanes (16:00Z):** viXra **200/88,712B byte-same @2609.0065 — DRY**; lenr-canr **200/138,372B byte-identical** 1,454 — DRY; **iccf-27 /proceeding/ 200/9,845B "Under Construction" — TOP CAPTURE TRIGGER HOLDS** (Hylenr Phase-2 announced: multi-reactor + quantitative calorimetry + SIMS/ICP-MS); lenr.su **200/102,559B** + lenr.com.cn **200/53,821B** byte-stable; rensit.ru **http 200/10,088B** (https cert-redirect flake persists, http fine); **lenr.seplm.ru 000 egress flake from cloud this fire** (was 55,251B byte-stable r119 — watch next fire, verify on FocusOptimized if persistent); second-physics.ru/tuks/naturalscience 000 flakes consistent; ether.sciences.free.fr 200/18,397B stable.
+
+**Sweeps EN/RU/ZH/ES/FR — 0 new docs; connection update:** Hylenr 09-22 Phase-1 LCF PR family confirmed **fr** joins **de/es/zh/ru** = **≥4-language campaign** (all banked family, not new docs). Habr «LENR-ТФЭГ» + author.today Alekseenko trio (RU growth-cohort) reconfirmed — known.
+
+**Staleness:** **TRANSLATOR ~70H QUIET — the standing 16:00Z advisory expiry REACHED with no output → ESCALATE to Sandra.** QC escalated 08:27Z; escalation now the top operational item. Claims none in-progress >7d (publish boundary held since 09-20). OCR/queue ~2,95x pending FocusOptimized (frozen +0).
+
+**Pointer:** viXra frontier + iccf-27 /proceeding/ every fire; **re-probe lenr.seplm.ru every fire while in flake state**; next growth = wayback-keelynet news continuation → Habr+author.today RU tier; ivantic.info seed (308 PDFs) eligible. Report: `sources/2026-09-24-scout-report-1600.md`.
+
 ## 2026-09-24 14:15Z (scout-archive-growth) — scout
 
 **GROWTH +77 — wayback-keelynet news lane continuation.** Archive **92,786 → 92,863** (merge id-safe via `merge_all_progress.py`; fresh ids 2,435,135–2,435,211; shard_0009 + manifest only; 0 dup source_url; archive push `2d308b3` verified — ls-remote == local + GH API manifest 92,863 @main).
