@@ -1,3 +1,15 @@
+## 2026-09-24 04:15Z (scout-archive-growth) — scout
+
+**GROWTH +39 — wayback-keelynet news lane continuation.** Archive **92,187 → 92,226** (commit `5f6c8ec`, verified — ls-remote == local + GitHub API manifest 92,226 @ pushed ref; fresh ids 2,434,536–2,434,574; shard_0009 + manifest only; 0 dup source_url).
+
+**News continuation** (`--scope news --workers 1`, 480s budget, stdout→file): done 157 → **196 (+39 genuinely new)**, all **full 2000-char previews, 0 scan-only** (KeelyNet News free-energy/gravity-control/electronic-health briefs); write-through held (**0 done-but-lost**). Lane still huge: ~9,030 news + 8,753 /interact/ BBS forums unprocessed = biggest volume in rotation.
+
+**Live-wrap dry:** viXra RSS 200/88,712B byte-same newest 2609.0065 → complete @2609.0065; lenr-canr /acrobat/ 138,372B byte-identical 1,454 — DRY; **iccf-27 /proceeding/ back to 112,951B = ISCMNS JCF24 proceedings post** (PDF already archived → trigger HOLDS; ICCF-27 proper still unpublished).
+
+**Discovery (light):** etkin.iri-as.org note CORRECTED — already a COMPLETE rotation source (192 merged, seeded 09-18), drop from candidates; **ivantic.info/Ostale_knjiige/** CONFIRMED LIVE (200/115KB dir-listing, 308 PDFs, Serbian alt lib incl. Bearden SR translation) = seed-eligible micro-lane.
+
+**Ops:** clone-teardown incident (04:17Z) from an abandoned first-clone's timeout — recovered via re-clone + re-run, zero data loss. OCR/queue/tag ~2,95x pending FocusOptimized (cloud no scripts). Report: sources/2026-09-24-scout-growth-0415.md.
+
 ## 2026-09-24 04:00Z (scout round 117) — scout
 
 **Clean watch — 0 new bank-worthy FL LENR.** Archive **92,187 live** — 03:11Z feed rebuild baked (commit 562da27b, "archive at 92187 docs"), matches merged index after 02:15Z growth (+44). **No RE-BAKE flag.**
