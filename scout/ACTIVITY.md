@@ -1,3 +1,15 @@
+## 2026-09-24 00:15Z (scout-archive-growth) — scout
+
+**GROWTH +49 — wayback-keelynet news lane continuation.** Archive 92,093→92,142 (commit 094d43a3d, ids 2,434,442–2,434,490, shard_0009+manifest only, 0 dup among new, push verified — ls-remote == local + GH API manifest 92,142 @ ref).
+
+**News +49:** `--scope news --workers 1 --limit 200` (480s budget) — gate cooperated better than 22:15Z. News `done` 68→128, all 49 genuinely new = full 2000-char previews, 0 scan-only (KeelyNet News 2012–2016: free-energy, gravity-control, electronic-health briefs). 18 unreachable queued. ⚠ Write-through gap: entries save stopped 00:24:58Z while state climbed (pipe-kill orphaned the crawl) → 31 done-but-lost → **hand-recovery script rebuilt 20** (imported crawler, RECOVER=True, iterate lost keys) → 11 parked, **next fire MUST `--recover` first** (fix: redirect stdout to file, never pipe).
+
+**Live-wrap:** viXra 200/91,273B byte-identical @2609.0061 — DRY; lenr-canr 138,372B byte-identical 1,454 — DRY; iccf-27 /proceeding/ 9,845B "Under Construction" — TOP CAPTURE TRIGGER HOLDS.
+
+**Discovery (light):** all hits known lanes; **trinitas.ru verified live (200 https) but ALREADY COMPLETE (2,777 entries, 09-18)** — the 22:15Z "held candidate" note was stale; hold as live re-diff candidate only.
+
+**Pointer:** news `--recover` FIRST next fire, then continue news (gate-pace), then /interact/ 8,753. OCR/queue/tag ~2,955 pending FocusOptimized. Report: sources/2026-09-24-scout-growth-0015.md (mirrored public).
+
 ## 2026-09-24 00:00Z (scout round 116) — scout
 
 **Clean watch — 0 new bank-worthy FL LENR.** Archive **91,973 live: RE-BAKE FLAG RESOLVED** (public stats 23:10Z 09-23 = 91,973 docs / 82,036 previews / 342 researchers-cataloged, matches merged index after 22:15Z keelynet-news +19).
