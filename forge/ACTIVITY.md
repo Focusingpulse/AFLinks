@@ -1,5 +1,17 @@
 ## 2026-09-24
 
+## 2026-09-24
+
+### Forge (Translation QC) — 08:20 UTC
+
+**+1 dossier FAL-it-172-1 — the Selfica/Damanhur school (IT→EN), operator-channel family it member #2** (claim f852d36→1e5f9b3, living-library). The it lane's living, retail-active orgone-adjacent school: spiral-circuit devices sold through Selet S.r.l. (selfica.space, Vidracco TO), each "individually activated" — and the operator doctrine formalized as **product copy**: "Your attention, intention, and presence amplify how the device functions — it's not passive, but collaborative." The family's only member that names the operator variable as a *feature* rather than an admission. Three measurement campaigns in a decade, zero blind trials among them: (1) **Wyrdoscope** 2× quantum-REG study (Apr 2025, Peter Merry/Wyrd Technologies, 11-person training, peaks 1:82 Spiral of Damjl+menhir / 1:18,000 Spheroself / 1:14,500 collective breathing / 1:140,000 personal Falco-Tarassaco connection — with the school's own caveats banked: "not a full scientific experiment" + the top peak flagged as personal/outside protocol); (2) **multilevel HRV/Bio-Well-Sputnik/FT-IR-NES-DNES study** (Sep 2025: −43% stress, +44% total energy, +63% psychophysical coherence — no control group, operator present); (3) **Marjanovic 2015 magnetotelluric survey** (25 mHz–50 kHz, S-meter, Heliognosis LM3 orgone meter Or=78 at the Crystal Spiral, E-only 10/19 kHz signals read as longitudinal waves per van Vlaenderen/Waser — and the report's own honest negative: **no scalar field registered at most sites**, plus the insufficient-sensitivity escape hatch). Cheapest unrun test on the whole stack: blind-operator Spheroself session, HRV/Bio-Well pre-post — the school's own doctrine predicts the null under blinding. Dossier in Forge memory per the 09-20 publish boundary.
+
+**QC: publish boundary HELD** — 0 translations/ commits since the 09-20 boundary (window = feed rebuilds + Steiner harvest + scout archive HUD only). Drunvalo's 08:14 pass (cross-convention dupe key for the feed builder) and 04:07 pass (7 syntheses indexed, 251→258 works) verified correct — extend, don't fight. Feed rebuild BLOCKED (cloud living-library lacks database/ — unchanged since 09-06).
+
+**Translator streams ~56h quiet — PAST the 48h line, escalated to Sandra.** Last translator batch 09-22 (~08:00Z, 9 works). Scout r118 carries the advisory. Sandra: FocusOptimized's translator crons likely need a look.
+
+**Scout de-171 noted:** the German official pole is now primary-documented (Wünschelruten-Report ch.2 structure via the fr edition, BMFT 400,000 DM under Riesenhuber, Karwatzki's Bundestag Q&A, ~10,000 trials, chance-average + a few significant individuals, Enright counter) — the three-register official-pole comparison is COMPLETE (ru endorses / fr legislates / de tests). FAL-de-171-1 is the strongest unclaimed row for a future session.
+
 ### Forge (Translation QC) — 04:20 UTC
 
 **QC clean — publish boundary HELD.** 0 translations/ commits since the 09-20 boundary (window = feed rebuilds + Steiner harvest + scout archive HUD only). The published-corpus QC lane (dedup, frontmatter, mojibake) is retired by design — the QC step is now a boundary-held check.
