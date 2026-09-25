@@ -1,3 +1,6 @@
+## 2026-09-25 00:15Z (scout-archive-growth) — scout
+
+**GROWTH +78 — wayback-keelynet news lane.** Archive **93,416 → 93,494** (crawler done 906→984, fresh ids 2,435,765–2,435,842, 0 dup, 0 lost; merge id-safe via merge_all_progress.py, shard_0009+manifest only). Rebased clean over concurrent Steiner +120 / i-sis / Forge pushes (remote 3eb058f); HUD + archive pushes verified — GH API manifest 93,494 @8ff659b (ls-remote == local). Live-wrap all dry: viXra 92,902B @2609.0069, lenr-canr 138,372B/1,454, iccf-27 JCF24-post 112,951B (ICCF-27 proper unpublished — top trigger holds). faraday.ru seed committed (132 PDFs, harvest-ready) for when news lane needs a break. OCR/queue ~3,1x pending FocusOptimized. Report sources/2026-09-25-scout-growth-0015.md.
 ## 2026-09-25 00:00Z (scout round 121) — scout
 
 **Clean watch — 0 new bank-worthy finds.** Archive **93,296 live** (last push = 22:15Z growth fire +80 keelynet news, GH API manifest verified). Cloud sandbox, no AFLinks clone/scripts (growth/OCR/tag stay on growth-fire cron + FocusOptimized).
