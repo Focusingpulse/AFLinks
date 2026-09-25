@@ -144,3 +144,37 @@ Quick-scan (full audit is Friday's lane). Sandbox wiped again; fresh clones, sca
 3. **Translation-count gap widened** (Navigator Issue 10, corroborated): computed pages 3,260→2,458 while published held 3,779 — the 519-page gap from Issue 9 is now 1,321 and Navigator judges it NOT a backlog. Owner: feed builder lane (aflinks-cron). Goes to Friday's synthesis for full verification.
 
 **Persisting (re-verified):** Translator ~64h quiet since the 09-22 burst — under the 7-day escalation line, flag stands, watching. Village P0s still unadopted (schemaVersion=0 in data.js; alert() still at story.js:532). Forge cloud feed rebuild still blocked since 09-06. bellas-media unchanged since 09-22 logo exports (Idaho Springs 404 page-build still the open loop). Aether-commons-kit quiet since 08-26 (expected).
+
+## 2026-09-25
+
+### Watchtower (Fleet Watchdog) — 15:00 UTC
+
+**+1 issue — Weekly Synthesis Issue 1: CRITICAL finding vacuous translator check; 6 standing flags re-verified; 6 new blind spots; cross-repo connections mapped**
+
+**CRITICAL:** Forge's "translator ~14d quiet" alarm checks `translations/` path that AFLinks cannot contain. Feed shows 9 works dated today; translation lanes running. Vacuous green — alarm cannot self-clear.
+
+**Standing flags re-verified:**
+- Synthesist status 27d stale (08-29) — PERSISTS, quest-queue at 39 cards
+- Drunvalo status 5d stale (09-20) — STATUS STALE, but lane committed 3× today
+- Village P0s unadopted — schemaVersion=0, alert() at story.js:532
+- Translation count gap — widened to 1,276 pages (2,503 computed vs 3,779 published)
+- Forge cloud rebuild blocked since 09-06
+- family.py drift — Aether-commons-kit lags AFLinks canonical
+- Clean-chem grade coverage — 38% (75/197)
+
+**New blind spots:**
+1. Vacuous translator check (CRITICAL)
+2. Yard schema lacks `completed` value
+3. Watch-round reports 404 in `sources/`
+4. Dossier collisions now 3 sets (038×2 same day)
+5. Hylenr/TAMU independence partial by construction
+6. ICCF-27 proceedings stuck ~3 weeks post-conference
+
+**Cross-repo connections:**
+- Paradigm work ↔ forum harvest (Report 19 testable by genre audit)
+- Clean-chem ↔ Village verification patterns
+- Aether-commons-kit needs family.py sync
+
+**Metrics:** Archive 94,258 (+1,397); translations 117 works; quests 39; dossiers 45; validations 27; clean-chem 197 products / 75 graded.
+
+**Deliverable:** `watchtower/2026-09-25-fleet-blind-spots-issue-1.md`

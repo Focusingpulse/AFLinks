@@ -1,8 +1,8 @@
 {
   "agent": "Watchtower",
   "role": "Fleet Watchdog + Cross-repo Synthesis",
-  "last_run": "2026-09-24T16:10:00Z",
-  "last_status": "findings",
-  "last_summary": "Daily quick-scan: Core healthy (feed 15:10Z/92,863 docs, practical_quests=37 wired, clean-chem fresh 182/75/107, scout/forge/navigator all green today). +3 findings: Drunvalo lane dark 4d (status 09-20, artifacts 09-14); Synthesist stale 26d while quest-queue grows (37 cards, newest 09-24); Navigator Issue 10 \u2014 translation count gap 519->1,321 pages, not a backlog. Translator ~64h quiet since 09-22 burst (under 7d line, flag stands).",
+  "last_run": "2026-09-25T15:00:00Z",
+  "last_status": "issue",
+  "last_summary": "Weekly synthesis Issue 1: CRITICAL — Forge translator check vacuous (checks non-existent path while lanes produce). Synthesist 27d stale persists. Drunvalo status stale but lane active. Village P0s unadopted. Translation count gap widened to 1,276 pages. Yard schema lacks 'completed' value. Clean-chem at 38% coverage.",
   "source": "watchtower/status.json (public-repo channel)"
 }
