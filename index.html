@@ -2969,7 +2969,7 @@ No…</span>
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260925190943')
+            fetch('./synthesis/synthesis_index.json?v=20260925200706')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3855,7 +3855,7 @@ No…</span>
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20260925190943');
+                            const mRes = await fetch('./search_index_manifest.json?v=20260925200706');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3878,7 +3878,7 @@ No…</span>
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20260925190943');
+                        const response = await fetch('./search_index.json?v=20260925200706');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3909,12 +3909,12 @@ No…</span>
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260925190943');
+                    const man = await fetch('./full_manifest.json?v=20260925200706');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260925190943');
+                    const feedRes = await fetch('./library_feed.json?v=20260925200706');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4030,7 +4030,7 @@ No…</span>
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260925190943');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260925200706');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
