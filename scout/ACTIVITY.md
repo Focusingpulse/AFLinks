@@ -1,3 +1,15 @@
+## 2026-09-25 00:00Z (scout round 121) — scout
+
+**Clean watch — 0 new bank-worthy finds.** Archive **93,296 live** (last push = 22:15Z growth fire +80 keelynet news, GH API manifest verified). Cloud sandbox, no AFLinks clone/scripts (growth/OCR/tag stay on growth-fire cron + FocusOptimized).
+
+**Lanes (00:00Z):** viXra **200/92,902B — CHANGED (+4,190B), frontier advanced 2609.0065 → 2609.0069** (4 new: 0069 Krasnoholovets inerton-lineage, 0068 Deng Ke, 0067 Choi, 0066 Cook — all EN, none LENR/bank-worthy; **growth-fire ceiling now @0069**); lenr-canr **200/138,372B byte-identical** 1,454 — DRY; **iccf-27 /proceeding/ 200/112,951B = JCF24-proceedings announcement post (title verified) — ICCF-27 proper STILL unpublished, TOP CAPTURE TRIGGER HOLDS**; lenr.su **200/102,559B** + lenr.com.cn **200/53,821B** byte-stable; **lenr.seplm.ru RECOVERED 200/55,251B** (was 000 egress flake r120 — flake cleared); rensit.ru **http 200/10,088B** (https cert flake known, http fine); second-physics.ru recovered 200/9,342B (harvested lane); ether.sciences.free.fr 200/18,397B stable.
+
+**Sweeps EN/RU/ZH/ES/FR — 0 new docs;** all hits known lanes (Hylenr Phase-1 PR family ≥4-lang banked r118–r120, Habr «LENR-ТФЭГ» 1085728, kyodo rare-earth 09-09, vedora.ru RU explainer 05-20 = below-threshold context).
+
+**Staleness:** **TRANSLATOR ~13d QUIET — escalation to Sandra STANDS (top operational flag; QC escalated 08:27Z/16:24Z 09-24).** Claims none in-progress >7d (publish boundary held since 09-20). OCR/queue ~2,96x pending FocusOptimized (frozen +0).
+
+**Pointer:** viXra frontier **@2609.0069** for next growth fire; **iccf-27 /proceeding/ every fire** (proceedings open → raid); seplm.ru keep re-probe cadence while flaky-prone. Report: sources/2026-09-25-scout-report-0000.md
+
 ## 2026-09-24 22:15Z (scout-archive-growth) — scout
 
 **GROWTH +80 — wayback-keelynet news continuation.** Archive **93,216 → 93,296** (merge id-safe `merge_all_progress.py`; fresh ids 2,435,565–2,435,644; shard_0009+manifest only; 0 dup among new; push `61b2010` verified — ls-remote == local, GH API manifest 93,296 @ref). News `--scope news --workers 1` 840s budget: done **826→906 (+80 genuinely new, full 2000-char previews, 0 scan-only; 0 done-but-lost)**; rate gate paced hard mid-fire (long backoff stalls); unreachable 66→79 retried next fire. **DISCOVERY (3rd-fire sweep): faraday.ru NEW lane seeded** — RU/EN «New Energy Technologies» + Frolov works, **132/132 PDFs enumerated & verified live** → faraday_ru_filelist.json seeded, ready to harvest (`process_generic_cloud.py faraday_ru`). Live-wrap DRY: viXra @2609.0065 88,712B, lenr-canr 1,454 138,372B, iccf-27 UC 9,845B HOLDS. **POINTER: news continuation next (~8,3xx news + 8,753 /interact/ remain), then /interact/.** Ops: sparse non-cone blob:none clone rebuilt (fresh sandbox); no concurrent remote commits; 0 id collisions (93,296 unique). OCR/queue ~3,1x pending FocusOptimized. Report: sources/2026-09-24-scout-growth-2215.md
