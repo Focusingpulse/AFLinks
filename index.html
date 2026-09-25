@@ -2047,11 +2047,17 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/00002510.html">
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01523422.html">
     <span class="salvage-person">👤 </span>
-    <span class="salvage-doc-title">Heather WILLAUER, et al. -- Seawater Fuel -- articles &amp;</span>
-    <span class="salvage-preview">Heather WILLAUER, et al. -- Seawater Fuel -- articles &amp; patents ![](0logo.gif) rexresearch.com Heather WILLAUER , et al. Seawater Fuel See also : KANZIUS / Seawater Fuel ... ANDREWS / Seawater Fuel Catalyst ... ANDERSON …</span>
-    <span class="salvage-meta">the archive · Material Sciences &amp; Alchemy · Water Structure &amp; Memory</span>
+    <span class="salvage-doc-title">Measurement of the One-Way Speed of Light</span>
+    <span class="salvage-preview">Title Measurement of the One-Way Speed of Light
+Read in full Link to paper (Internet Archive)
+Author(s) Emil D Gigov
+Keywords speed of light , Measurement, Doppler effect
+Published 2010
+Journal General Science Journal
+No…</span>
+    <span class="salvage-meta">naturalphilosophy.wiki · Alternative Energy Technologies · Patents &amp; Inventions</span>
 </a><!-- SALVAGE:END -->
     </section>
 
@@ -2218,7 +2224,7 @@
             <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-24</span>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-25</span>
         </div>
     </footer>
 
@@ -2963,7 +2969,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260924230932')
+            fetch('./synthesis/synthesis_index.json?v=20260925000532')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3849,7 +3855,7 @@
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20260924230932');
+                            const mRes = await fetch('./search_index_manifest.json?v=20260925000532');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3872,7 +3878,7 @@
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20260924230932');
+                        const response = await fetch('./search_index.json?v=20260925000532');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3903,12 +3909,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260924230932');
+                    const man = await fetch('./full_manifest.json?v=20260925000532');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260924230932');
+                    const feedRes = await fetch('./library_feed.json?v=20260925000532');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4024,7 +4030,7 @@
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260924230932');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260925000532');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
