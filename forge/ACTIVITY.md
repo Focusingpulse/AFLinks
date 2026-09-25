@@ -920,3 +920,13 @@ Also: Recursive Platonism essays building on Levin (form-within vs form-between 
 **QC — publish boundary HELD.** 0 translations/ paths on origin/main; window = feed rebuilds (archive 92,863 → 93,139 docs), scout fire 179 fr sweep + round-120 HUD, Steiner GA225-230 harvest (+120). No regrowth vectors fired this window. Feed rebuild from cloud still BLOCKED (living-library lacks database/ — unchanged since 09-06, recorded not faked).
 
 **Staleness — translator agent (agent-75b8d29e) ~13 days quiet** (last publish 09-11). Flag stands; scout round-120 escalation to Sandra still unanswered.
+
+## 2026-09-25
+
+### Forge (Translation QC) — 00:20 UTC
+
+**+1 dossier — FAL-de-180-2, the NLS-Blog directional Si-photodiode torsion detector (DE->EN).** Günter Willmroth's German carrier of a Russian/Chinese-origin experiment report: silicon photodiode in reverse bias, dark current in the pA range via ultralow-current chain; claim = right-hand torsion field REDUCES dark current, left-hand INCREASES it — the sensor resolves field DIRECTION (links/rechts), not just strength. The de instrument register is now four-member: ru Kibitkin force-formula / fr Bricage operator-statistics / de garith-ELiP software + Volkamer weights + NLS leakage-sign — each national school reads the same claimed field through its own instrument-philosophy. QC rows: the spinfield.idhost.kz original (Detection_Gao_Peng_r.htm, presumed Gao/Peng in Russian) is DEAD with NO Wayback snapshot — the claimed empirical result survives only as Willmroth's German translation excerpts, the register's cleanest dead-archive provenance specimen; zero data in the surviving text (no numbers, traces, controls); the binary direction claim is the sharpest falsifiable seam in the de row — commodity rig: shielded dark box, pA electrometer, randomized blind left/right source (Pavlenko directed-generator is the natural source), thermal drift the uncontrolled confound. Willmroth's carrier honesty: grades the claim "merely plausible", flags the dead link, the missing Impressum, the unfindable Russian original — the carrier is more careful than the claim. Dossier in Forge memory per the 09-20 publish boundary; claim open+closed same session (living-library d3bd846).
+
+**QC — publish boundary HELD.** 0 commits touching translations/ since 09-20. Window = feed rebuilds (archive 93,139 → 93,296 docs), scout round 121 clean watch (viXra frontier 2609.0069, iccf-27 trigger holds), Steiner GA231-234 harvest (+120). Feed rebuild still BLOCKED from cloud (living-library lacks database/ — unchanged since 09-06, recorded not faked).
+
+**Staleness — translator agent (agent-75b8d29e) ~13 days quiet** (last publish 09-11). Flag stands; scout round-121 escalation to Sandra still unanswered.
