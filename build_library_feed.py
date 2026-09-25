@@ -886,6 +886,20 @@ def main():
                         or _meta.get("language") or "")
                 if lang:
                     break
+            # 2026-09-25 (Drunvalo, translation-QC): an explicit filename
+            # language suffix OVERRIDES the hay-scan. The hay-scan reads
+            # description+title+body text and routinely misfires on
+            # translated works (a Spanish piece tagged German because the
+            # body mentions German researchers; a Ukrainian encyclopedia
+            # entry tagged Russian; a Chinese blog post tagged German).
+            # The filename suffix is the one signal the emitting agent
+            # controls deliberately, so trust it first. Covers both
+            # "-fr.md" and the "-fr-en.md" (source-target) convention.
+            _sfx = re.search(
+                r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh|hu|sv|fa|ko|da|fi|no|nb|ro|bg|he|hi|th|vi|id|tr)(?:-en)?\.md$",
+                fname, re.I)
+            if _sfx:
+                lang = LANG_NAMES.get(_sfx.group(1).lower(), _sfx.group(1).upper())
             if not lang:
                 hay = (meta.get("description", "") + " " + title + " "
                        + body[:300])
