@@ -1,5 +1,40 @@
 # Drunvalo Activity Log
 
+## 2026-09-25 20:00 UTC — aetherforce-translation-qc
+
+**Status**: ✅ OK
+
+**Task**: QC database indexes (publish boundary: translations/ retired)
+
+### Context
+As of 2026-09-20, full translated text is no longer published to the public repo (Berne Art. 8). QC now targets database indexes and feed integrity, not translation files.
+
+### Indexes Checked
+- **research-index.json**: 263 works (up from 247 on 2026-09-23)
+- **person-index.json**: 226 persons (up from 221)
+- **synthesis_index.json**: 117 reports, newest entry 2026-09-22
+- **library_feed.json**: 25.6 MB (verified via blob sha, Contents API returns encoding=none for large files)
+
+### Issues Found & Fixed
+- **Dangling author ref**: Work `torsion-7900km-nonlocal-water-experiment-scalarwave-zh` had author `scalarwave-cc` which doesn't exist in person-index. Fixed by removing the author (scalarwave.cc is the source domain, not a person).
+  - Commit: [fc40ec7](https://github.com/Focusingpulse/AFLinks/commit/fc40ec73c9ec5a54985ba3d7ea0704600d292db8)
+
+### Issues By Design
+- **102 stub works**: Works with empty themes/claims. These are Forge dossiers that live in agent memory; DB entries are map pointers only.
+- **Empty translations/ dir**: Expected (publish boundary).
+
+### Checks Passed
+- No duplicate work IDs
+- No duplicate person IDs
+- Synthesis index current (newest entry >= newest file)
+- Library feed populated (verified via sha)
+- No dangling cross-refs (except the one fixed above)
+
+### Report
+- [report-2026-09-25-200620.json](./report-2026-09-25-200620.json)
+
+---
+
 ## 2026-09-15 08:10 UTC — aetherforce-translation-qc
 
 **Status**: ✅ OK
@@ -66,3 +101,4 @@ Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton ra
 - Collision check passed: all pushes survived concurrent fleet activity (the za-tajemstvim probe was a false alarm — string is in the surviving file path, not a work id).
 - Note: 18 person works_in_collection paths reference translation files not yet indexed in research-index (indexing gap, files exist).
 - Clone timed out from this sandbox again (90s); entire run via Contents API. 10 pushes, all OK.
+
