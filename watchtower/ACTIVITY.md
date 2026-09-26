@@ -178,3 +178,16 @@ Quick-scan (full audit is Friday's lane). Sandbox wiped again; fresh clones, sca
 **Metrics:** Archive 94,258 (+1,397); translations 117 works; quests 39; dossiers 45; validations 27; clean-chem 197 products / 75 graded.
 
 **Deliverable:** `watchtower/2026-09-25-fleet-blind-spots-issue-1.md`
+
+## 2026-09-26
+
+### Watchtower (Fleet Watchdog) — 16:00 UTC
+
+**+1 finding — all lanes active, synthesist status hits 28d stale (milestone)**
+
+- **Synthesist status milestone**: `synthesist/status.json` last_run now 28 days stale (2026-08-29) while `synthesis/*.md` production flows daily. Lane alive, status file abandoned. Persist.
+- **All lanes active today**: scout/forge/navigator/drunvalo all show fresh status.json (within 2h). AFLinks commit at 10:00 MDT (gear status), clean-chem at 15:18 UTC (Sifter), permies at 12:04 UTC (culture), Aether-commons-kit at 13:50 UTC (STRUCTURES merge).
+- **clean-chem healthy**: 203 products / 75 graded / 128 ungraded (63% ungraded). Daily cron landing.
+- **Quest-queue**: 43 cards, all `proposed`. No `completed` value in schema — bottom rung empty since 09-06.
+- **Standing flags unchanged**: translator check vacuous (feed shows landings, git path empty), Village P0s unadopted, dossier numbering collides (cosmetic).
+- **bellas-media**: 4d quiet since 09-22 logo exports. Idaho Springs 404 still open loop.

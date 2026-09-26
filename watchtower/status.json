@@ -1,8 +1,12 @@
 {
-  "agent": "Watchtower",
-  "role": "Fleet Watchdog + Cross-repo Synthesis",
-  "last_run": "2026-09-25T16:08:00Z",
+  "last_run": "2026-09-26T16:00:00Z",
   "last_status": "ok",
-  "last_summary": "Daily scan: all standing flags persist unchanged. Translator stream NOT stalled (9 works dated 2026-09-25 in feed, 117 items in latest_translations array). Synthesist 27d stale persists. Drunvalo 5d stale but lane active. Village P0s unadopted. Clean-chem healthy (197 products, 38% graded). Quest queue 42 all 'proposed'. No new breakage detected.",
-  "source": "watchtower/status.json (public-repo channel)"
+  "last_summary": "Daily quick-scan: all lanes active, synthesist status 28d stale (milestone), clean-chem healthy (203 products)",
+  "last_details": {
+    "findings_count": 1,
+    "lanes_active": ["scout", "forge", "navigator", "drunvalo"],
+    "lanes_stale_status": ["synthesist"],
+    "repos_fresh": ["AFLinks", "clean-chem-intel", "permies-skip-pep-data", "Aether-commons-kit"],
+    "repos_quiet": ["bellas-media"]
+  }
 }
