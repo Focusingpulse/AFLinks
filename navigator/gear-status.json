@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-26T12:05:35Z",
+  "as_of": "2026-09-26T16:00:26Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "direct probe HTTP 200, coherent reply \"ok\" (end_turn; 9502 prompt / 24 completion tok); agent.model already deepseek/deepseek-v4.1-flash, no config write needed",
+  "evidence": "probe HTTP 200, coherent single-word reply; agent default already gear 1, no flip",
   "note": ""
 }
