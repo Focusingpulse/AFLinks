@@ -1,13 +1,9 @@
----
-about: Research index for the Aetherforce Living Library
-version: "0.1.0"
-last_updated: "2026-09-25"
----
 {
   "_about": {
     "version": "0.1.0",
     "description": "Research index for the Aetherforce Living Library. Links works to themes, concepts, and cross-references. Maintained by Synthesist.",
-    "last_updated": "2026-09-24"
+    "last_updated": "2026-09-26",
+    "note": "QC 2026-09-26 (Drunvalo): removed YAML frontmatter accidentally prepended 2026-09-25 (breaks json.load); merged 33 cross-convention duplicate re-emissions into their rich keepers (6th damage class: same work, different slug conventions, escapes file-grouping)."
   },
   "works": [
     {
@@ -106,7 +102,7 @@ last_updated: "2026-09-25"
         "safe-compendium-vortex-physics",
         "chaumery-belizal-patent-fr816132-fr-en",
         "field-and-quantum-potential-of-consciousness-it",
-        "extended-theory-of-electromagnetism-de"
+        "extended-theory-of-electromagnetism-de-en"
       ],
       "status": "synthesis",
       "cross_refs": []
@@ -206,8 +202,8 @@ last_updated: "2026-09-25"
       ],
       "cross_references": [
         "akimov-shipov-torsion-research-ru",
-        "shipov-torsion-fields-and-torsion-technologies-ru",
-        "magnitsky-gravity-compressible-ether-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "atsyukovsky-etherodynamics-ru",
         "portance-du-vide-burtin-en",
         "tuo-classical-formalism-maxwell-einstein-vacuum-fr",
@@ -435,7 +431,7 @@ last_updated: "2026-09-25"
         "Ether dynamic approaches to energy crisis"
       ],
       "cross_references": [
-        "magnitsky-gravity-compressible-ether-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "akimov-shipov-torsion-research-ru"
       ],
       "status": "translated",
@@ -757,29 +753,6 @@ last_updated: "2026-09-25"
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "compendium-of-vortex-physics-de",
-      "title": "Compendium of Vortex Physics (SAFE, 1999)",
-      "authors": [
-        "tesla",
-        "schauberger"
-      ],
-      "date": "2026-09-09",
-      "language": "de",
-      "translated": true,
-      "file": "translations/2026-09-09-compendium-of-vortex-physics-de.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "compendium-of-vortex-physics-schauberger-de",
       "title": "Compendium Of Vortex Physics Schauberger",
       "authors": [
@@ -918,26 +891,6 @@ last_updated: "2026-09-25"
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "del-giudice-explains-pollack-s-fourth-phase-of-water-it-2",
-      "title": "Del Giudice Explains Pollack's Fourth Phase of Water",
-      "authors": [
-        "del-giudice"
-      ],
-      "date": "2026-09-10",
-      "language": "it",
-      "translated": true,
-      "file": "translations/2026-09-10-del-giudice-explains-pollack-s-fourth-phase-of-water-it.md",
-      "themes": [
-        "Water, Vortex & Implosion"
-      ],
-      "concepts": [],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "del-giudice-pollack-ez-water-it",
       "title": "Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water (Italian)",
       "authors": [
@@ -971,7 +924,8 @@ last_updated: "2026-09-25"
       "translated": true,
       "file": "translations/2026-08-30-del-giudice-pollack-fourth-phase-water-it.md",
       "themes": [
-        "Biological & Morphogenetic Science"
+        "Biological & Morphogenetic Science",
+        "Water, Vortex & Implosion"
       ],
       "concepts": [
         "aether",
@@ -1231,7 +1185,7 @@ last_updated: "2026-09-25"
       ],
       "cross_references": [
         "akimov-shipov-torsion-research-ru",
-        "magnitsky-gravity-compressible-ether-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "atsyukovsky-etherodynamics-ru",
         "portance-du-vide-burtin-en",
         "tuo-classical-formalism-maxwell-einstein-vacuum-fr",
@@ -1286,40 +1240,16 @@ last_updated: "2026-09-25"
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "extended-theory-of-electromagnetism-de",
-      "title": "Extended Theory of Electromagnetism (Barrett 1993)",
-      "authors": [
-        "shipov",
-        "akimov",
-        "cartan",
-        "tesla"
-      ],
-      "date": "2026-09-10",
-      "language": "de",
-      "translated": true,
-      "file": "translations/2026-09-07-extended-electromagnetism-schadach-de.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity",
-        "scalar",
-        "lenr"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "title": "Extended Theory of Electromagnetism (Based on Barrett 1993)",
       "authors": [
         "schadach",
         "barrett",
         "lindemann",
         "tesla",
-        "drunvalo"
+        "drunvalo",
+        "shipov",
+        "akimov",
+        "cartan"
       ],
       "year": "1998",
       "domain": "gauge-theory, extended-electromagnetism, non-abelian",
@@ -1337,7 +1267,12 @@ last_updated: "2026-09-25"
         "extended_electromagnetism",
         "gauge_theory",
         "non_hertzian_waves",
-        "longitudinal_waves"
+        "longitudinal_waves",
+        "torsion",
+        "aether",
+        "gravity",
+        "scalar",
+        "lenr"
       ],
       "key_claims": [],
       "cross_references": [],
@@ -1454,7 +1389,7 @@ last_updated: "2026-09-25"
         "Technology can harness form-encoded information"
       ],
       "cross_references": [
-        "shipov-torsion-fields-and-torsion-technologies-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
         "ondes-de-forme-centre-ganesha-fr-en",
         "platonic-theory-of-everything-and-spyridis-unified-theory-of-el",
         "safe-compendium-vortex-physics",
@@ -1686,7 +1621,6 @@ last_updated: "2026-09-25"
         "Radioestesia is the discipline concerned with detecting, through instruments such as pendulums, rods, or the human body itself, the energetic variations present in an environment or in a person's body."
       ],
       "cross_references": [
-        "sweeper-fr",
         "tuo-vacuum-tension-fr",
         "akimov-shipov-torsion-research-ru",
         "akimov-shipov-torsion-field-research-ru",
@@ -1733,7 +1667,7 @@ last_updated: "2026-09-25"
       "cross_references": [
         "platonic-theory-of-everything-el",
         "psicogeometria-en",
-        "theorie-de-l-univers-onde-tuo-fr",
+        "tuo-vacuum-tension-fr",
         "field-and-quantum-potential-of-consciousness-it",
         "del-giudice-pollack-fourth-phase-of-water-it"
       ],
@@ -1774,11 +1708,11 @@ last_updated: "2026-09-25"
         "The torus is the universal organizing structure across all traditions"
       ],
       "cross_references": [
-        "spyridis-theory-of-everything-el-en",
+        "platonic-theory-of-everything-and-spyridis-unified-theory-of-el",
         "psicogeometria-materia-energia-es",
         "akimov-shipov-torsion-research-ru",
         "scalar-wave-convergence",
-        "vortex-motor-negentropic-propulsion-es"
+        "vortex-motor-negentropic-propulsion"
       ],
       "status": "synthesis",
       "cross_refs": []
@@ -2035,7 +1969,7 @@ last_updated: "2026-09-25"
       ],
       "cross_references": [
         "shipov-torsion-fields-torsion-technologies-ru",
-        "magnitsky-gravity-ether-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "theorie-phi-scalar-field-coupled-to-baryonic-matter-fr",
         "morphic-resonance-sheldrake-en"
       ],
@@ -2451,7 +2385,7 @@ last_updated: "2026-09-25"
         "antenne-lecher-geobios-fr-en",
         "radionique-vibratis-fr-en",
         "radiesthesie-radionique-ondes-formes-fr-en",
-        "extended-theory-of-electromagnetism-de",
+        "extended-theory-of-electromagnetism-de-en",
         "turenne-theorie-scientifique-turenne-eu-fr-en"
       ],
       "status": "synthesis",
@@ -2470,87 +2404,6 @@ last_updated: "2026-09-25"
       "themes": [],
       "concepts": [
         "aether"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "magnitsky-gravity-compressible-ether-ru",
-      "title": "Gravity in the Theory of Compressible Oscillating Ether",
-      "authors": [
-        "magnitsky"
-      ],
-      "date": "2026-09-07",
-      "language": "ru",
-      "translated": true,
-      "file": "translations/2026-09-07-magnitsky-gravity-compressible-ether-ru.md",
-      "themes": [
-        "Aether, Light & Electricity",
-        "Plasma, Torsion & Cosmology"
-      ],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar",
-        "torsion",
-        "zero_point"
-      ],
-      "key_claims": [
-        "Gravity is compressive (pressing) force, not attractive",
-        "Gravitational constant is not constant — depends on chemical composition",
-        "No gravitational waves or gravitons exist",
-        "Derives Maxwell-Lorentz, Coulomb, Biot-Savart from ether equations",
-        "Electron/proton/neutron mass formulas match experiment to fractions of a percent"
-      ],
-      "cross_references": [
-        "akimov-shipov-torsion-research-ru",
-        "atsyukovsky-etherodynamics-ru",
-        "tuo-classical-formalism-maxwell-einstein-vacuum-fr"
-      ],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "magnitsky-gravity-compressible-oscillating-ether-ru",
-      "title": "Magnitsky Gravity Compressible Oscillating Ether",
-      "authors": [
-        "magnitsky"
-      ],
-      "date": "2026-09-11",
-      "language": "ru",
-      "translated": true,
-      "file": "translations/2026-09-11-magnitsky-gravity-compressible-oscillating-ether-ru.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "magnitsky-gravity-ether-ru",
-      "title": "Magnitsky (2019): Gravity in the Theory of Compressible Oscillating Ether (Russian)",
-      "authors": [
-        "magnitsky"
-      ],
-      "date": "2026-08-28",
-      "language": "ru",
-      "translated": true,
-      "file": "translations/2026-08-28-magnitsky-gravity-ether-ru.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar"
       ],
       "key_claims": [],
       "cross_references": [],
@@ -2578,14 +2431,21 @@ last_updated: "2026-09-25"
         "gravity",
         "scalar",
         "electrogravitics",
-        "compressible_ether"
+        "compressible_ether",
+        "torsion",
+        "zero_point"
       ],
       "key_claims": [
         "﻿---\ndate: 2026-08-29\ntitle: Magnitsky - Gravity in Compressible Oscillating Ether Theory\ndomain: ether-physics\nsource_url: https://newinflow.ru/pdf/pub28.pdf\nlanguage: ru\nauthor: N.A.",
         "Magnitskiy\npublication: Complex Systems, No.",
         "UDC 51-72\n                                     GRAVITY IN THE THEORY OF\n                                      COMPRESSIBLE OSCILLATING ETHER\n                                  N.A.",
         "Magnitsky (Doctor of Phys.-Math.",
-        "Keywords: Compressible oscillating ether, charges, electrostatic and gravitational fields, gravitational constant, ether parameters."
+        "Keywords: Compressible oscillating ether, charges, electrostatic and gravitational fields, gravitational constant, ether parameters.",
+        "Gravity is compressive (pressing) force, not attractive",
+        "Gravitational constant is not constant — depends on chemical composition",
+        "No gravitational waves or gravitons exist",
+        "Derives Maxwell-Lorentz, Coulomb, Biot-Savart from ether equations",
+        "Electron/proton/neutron mass formulas match experiment to fractions of a percent"
       ],
       "cross_references": [
         "akimov-shipov-torsion-research-ru",
@@ -2597,7 +2457,8 @@ last_updated: "2026-09-25"
         "besson-rgh-technical-analysis",
         "tesla-radiant-energy-patents-chercheursduvrai-fr",
         "brazilian-scalar-energy-generator-pt",
-        "synthesis-vacuum-organizational-substrate"
+        "synthesis-vacuum-organizational-substrate",
+        "atsyukovsky-etherodynamics-ru"
       ],
       "status": "translated",
       "source_url": "https://newinflow.ru/pdf/pub28.pdf",
@@ -2896,7 +2757,6 @@ last_updated: "2026-09-25"
         "Thus, certain forms, such as the Great Pyramid of Giza or rock crystal, would be particularly effective at capturing, amplifying, or diffusing these waves."
       ],
       "cross_references": [
-        "sweeper-fr",
         "tuo-vacuum-tension-fr",
         "akimov-shipov-torsion-research-ru",
         "akimov-shipov-torsion-field-research-ru",
@@ -2965,7 +2825,6 @@ last_updated: "2026-09-25"
         "For radiesthesia, forms emit or amplify waves -- some beneficial, others conversely negative."
       ],
       "cross_references": [
-        "sweeper-fr",
         "tuo-vacuum-tension-fr",
         "akimov-shipov-torsion-research-ru",
         "akimov-shipov-torsion-field-research-ru",
@@ -3281,9 +3140,9 @@ last_updated: "2026-09-25"
         "The field's shape matters more than its amplitude"
       ],
       "cross_references": [
-        "shipov-torsion-fields-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
         "field-and-quantum-potential-of-consciousness-it",
-        "theorie-univers-onde-fr",
+        "tuo-vacuum-tension-fr",
         "theorie-phi-scalar-field-coupled-to-baryonic-matter-fr",
         "radiesthesie-histoire-vibratis-fr-en",
         "platonic-theory-of-everything-and-spyridis-unified-theory-of-el"
@@ -3325,7 +3184,7 @@ last_updated: "2026-09-25"
       "cross_references": [
         "origines-geobiologie-geobios-fr-en",
         "field-and-quantum-potential-of-consciousness-it",
-        "extended-theory-of-electromagnetism-de",
+        "extended-theory-of-electromagnetism-de-en",
         "radiesthesie-histoire-vibratis-fr-en",
         "radiesthesie-radionique-ondes-formes-fr-en",
         "ondes-de-forme-historique-gaiamamart-fr-en"
@@ -3555,7 +3414,12 @@ last_updated: "2026-09-25"
       "themes": [
         "Sacred Geometry & Form"
       ],
-      "concepts": [],
+      "concepts": [
+        "torsion",
+        "aether",
+        "gravity",
+        "sacred_geometry"
+      ],
       "key_claims": [],
       "cross_references": [],
       "status": "translated",
@@ -3612,27 +3476,6 @@ last_updated: "2026-09-25"
       ],
       "status": "translated",
       "source_url": "https://psicogeometria.com/",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "psicogeometria-geometry-matter-energy-es",
-      "title": "Psicogeometría: Geometric Qualities of Matter and Energy (Spanish)",
-      "authors": [],
-      "date": "2026-08-29",
-      "language": "es",
-      "translated": true,
-      "file": "translations/2026-08-29-psicogeometria-geometry-matter-energy-es.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity",
-        "sacred_geometry"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -3869,7 +3712,9 @@ last_updated: "2026-09-25"
       "id": "safe-compendium-vortex-physics",
       "title": "Compendium of Vortex Physics (Version 1, Part 1)",
       "authors": [
-        "safe_vortex"
+        "safe_vortex",
+        "tesla",
+        "schauberger"
       ],
       "date": "1999-05-08",
       "language": "de",
@@ -3883,7 +3728,9 @@ last_updated: "2026-09-25"
       "concepts": [
         "aether",
         "torsion",
-        "geometry_sacred"
+        "geometry_sacred",
+        "gravity",
+        "scalar"
       ],
       "key_claims": [
         "Vortex (spiral) is the archetypal phenomenon bridging visible and invisible",
@@ -3893,7 +3740,7 @@ last_updated: "2026-09-25"
         "108-chunk compendium; Introduction partially translated (4 of 108 chunks)"
       ],
       "cross_references": [
-        "magnitsky-gravity-compressible-ether-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "atsyukovsky-etherodynamics-ru",
         "what-is-scalar-energy-fr"
       ],
@@ -4181,58 +4028,6 @@ last_updated: "2026-09-25"
       "cross_refs": []
     },
     {
-      "id": "shipov-torsion-fields-and-torsion-technologies-ru",
-      "title": "Shipov Torsion Fields And Torsion Technologies",
-      "authors": [
-        "shipov",
-        "akimov",
-        "cartan",
-        "tesla"
-      ],
-      "date": "2026-09-11",
-      "language": "ru",
-      "translated": true,
-      "file": "translations/2026-09-11-shipov-torsion-fields-and-torsion-technologies-ru.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "shipov-torsion-fields-ru",
-      "title": "Torsion Fields and Torsion Technologies (G.I. Shipov, RU->EN)",
-      "authors": [
-        "shipov",
-        "akimov",
-        "cartan",
-        "tesla"
-      ],
-      "date": "2026-09-07",
-      "language": "ru",
-      "translated": true,
-      "file": "translations/2026-09-07-shipov-torsion-fields-ru.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "shipov-torsion-fields-torsion-technologies-ru",
       "title": "G. I. Shipov: Torsion Fields and Torsion Technologies (Russian)",
       "authors": [
@@ -4357,25 +4152,6 @@ last_updated: "2026-09-25"
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "spyridis-theory-of-everything-el-en",
-      "title": "Spyridis - Platonic Theory of Everything and Unified Theory of Electro-Strong Interaction (EL→EN)",
-      "authors": [],
-      "date": "2026-09-04",
-      "language": "en",
-      "translated": true,
-      "file": "translations/2026-09-04-spyridis-theory-of-everything-el-en.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "study-on-torsion-fields-de",
       "title": "Study on Torsion Fields (German)",
       "authors": [
@@ -4404,57 +4180,9 @@ last_updated: "2026-09-25"
         "Torsion technology will predominate in 21st century"
       ],
       "cross_references": [
-        "shipov-torsion-fields-and-torsion-technologies-ru"
+        "shipov-torsion-fields-torsion-technologies-ru"
       ],
       "status": "translation",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "sweeper-fr",
-      "title": "Théorie de l'Univers Onde (TUO) — From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology",
-      "authors": [
-        "maillot"
-      ],
-      "date": "unknown",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-08-25-sweeper-fr.md",
-      "themes": [
-        "Plasma, Torsion & Cosmology",
-        "Aether, Light & Electricity",
-        "Sacred Geometry & Form"
-      ],
-      "concepts": [
-        "aether",
-        "scalar",
-        "electrogravitics",
-        "zero_point",
-        "sacred_geometry",
-        "scalar_field",
-        "wave_universe"
-      ],
-      "key_claims": [
-        "**Date:** 2026-08-25\n**Translator:** Translation Sweeper (automated)\n**Source URL:** https://doi.org/10.5281/zenodo.17311741\n**Platform:** Zenodo (CERN)\n**Published:** 2025-01-01\n**Citations:** 0 (as of 2026-08-25)",
-        "Mathematical formalism is internally complete (Friedmann-TUO equations, Noether current, linear perturbations) but requires cosmological observation to validate.",
-        "**French:** Théorie de l'Univers Onde (TUO) : De l'origine électromagnétique du vide à la reformulation covariante de la gravitation et de la cosmologie.",
-        "**English:** Wave Universe Theory (WUT): From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology.",
-        "This deposit presents two foundational works establishing the theoretical framework of the Wave Universe Theory (TUO), a new unified approach to vacuum physics and gravitation."
-      ],
-      "cross_references": [
-        "akimov-shipov-torsion-research-ru",
-        "magnitsky-gravity-compressible-ether-ru",
-        "atsyukovsky-etherodynamics-ru",
-        "scalar-field-galactic-rotation",
-        "portance-du-vide-burtin-en",
-        "tuo-classical-formalism-maxwell-einstein-vacuum-fr",
-        "deba-debailleul-en",
-        "ether-einstein-constante-cosmologique-fr-en",
-        "what-is-scalar-energy-fr",
-        "besson-rgh-technical-analysis"
-      ],
-      "status": "translated",
-      "source_url": "",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -4601,7 +4329,7 @@ last_updated: "2026-09-25"
       "cross_references": [
         "platonic-theory-of-everything-and-spyridis-unified-theory-of-el",
         "matiere-aether-d-benaros-en",
-        "shipov-torsion-fields-and-torsion-technologies-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
         "safe-compendium-vortex-physics",
         "psicogeometria-en",
         "geometria-sacra-del-suono-en"
@@ -4636,7 +4364,7 @@ last_updated: "2026-09-25"
       ],
       "cross_references": [
         "morphic-resonance-sheldrake-en",
-        "shipov-torsion-fields-and-torsion-technologies-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
         "ondes-de-forme-centre-ganesha-fr-en",
         "psicogeometria-en",
         "portance-du-vide-burtin-en",
@@ -4794,7 +4522,7 @@ last_updated: "2026-09-25"
       ],
       "cross_references": [
         "safe-compendium-vortex-physics",
-        "shipov-torsion-fields-and-torsion-technologies-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
         "tuo-classical-formalism-maxwell-einstein-vacuum-fr",
         "prometheus-lenr-reactor-um30-it",
         "del-giudice-pollack-fourth-phase-of-water-it",
@@ -4970,51 +4698,10 @@ last_updated: "2026-09-25"
       ],
       "cross_references": [
         "what-is-scalar-energy-fr",
-        "magnitsky-gravity-compressible-ether-ru"
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru"
       ],
       "status": "translated",
       "source_url": "https://www.chercheursduvrai.fr/accueil/energie-libre/brevets-tesla/",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "theorie-de-l-univers-onde-tuo-fr",
-      "title": "Theorie De L Univers Onde Tuo",
-      "authors": [
-        "tuo"
-      ],
-      "date": "2026-09-11",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-09-11-theorie-de-l-univers-onde-tuo-fr.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "theorie-phi-scalar-field-baryonic-matter-fr",
-      "title": "Theorie Phi Scalar Field Baryonic Matter",
-      "authors": [],
-      "date": "2026-09-11",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-09-11-theorie-phi-scalar-field-baryonic-matter-fr.md",
-      "themes": [],
-      "concepts": [
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -5038,51 +4725,15 @@ last_updated: "2026-09-25"
         "scalar",
         "electrogravitics",
         "sacred_geometry",
-        "scalar_field"
+        "scalar_field",
+        "aether"
       ],
       "key_claims": [
         "Rigorous study of a light scalar field coupled to matter in galaxies:                     file:///C:/Users/fabie/Downloads/paper_pdf.html",
         "Rigorous study of a light scalar field coupled to matter in galaxies:\n                                        application to rotation curves",
         "Fabien TOULGOAT\n                                                              fabientoulgoat@hotmail.com",
         "Galactic rotation curves present significant deviations from Newtonian predictions\n                 based on visible matter.",
-        "This work proposes an alternative model based on a light\n                 scalar field Φ, coupled to baryonic density, capable of locally modifying the effective\n                 gravitation."
-      ],
-      "cross_references": [
-        "sweeper-fr",
-        "tuo-vacuum-tension-fr",
-        "akimov-shipov-torsion-research-ru",
-        "magnitsky-gravity-compressible-ether-ru",
-        "akimov-shipov-torsion-field-research-ru",
-        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
-        "magnitsky-gravity-compressible-oscillating-ether-ru",
-        "magnitsky-gravity-ether-ru"
-      ],
-      "status": "translated",
-      "source_url": "https://zenodo.org/api/records/16728704/files/%C3%89tude%20rigoureuse%20d%27un%20champ%20scalaire%20l%C3%A9ger%20coupl%C3%A9%20%C3%A0%20la%20mati%C3%A8re%20dans%20les%20galaxies.pdf/content",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "theorie-phi-toulgoat-en",
-      "title": "Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies: Application to Rotation Curves",
-      "authors": [],
-      "date": "unknown",
-      "language": "en",
-      "translated": true,
-      "file": "translations/2026-08-29-theorie-phi-toulgoat-en.md",
-      "themes": [
-        "Plasma, Torsion & Cosmology",
-        "Aether, Light & Electricity",
-        "Sacred Geometry & Form"
-      ],
-      "concepts": [
-        "aether",
-        "scalar",
-        "electrogravitics",
-        "sacred_geometry",
-        "scalar_field"
-      ],
-      "key_claims": [
+        "This work proposes an alternative model based on a light\n                 scalar field Φ, coupled to baryonic density, capable of locally modifying the effective\n                 gravitation.",
         "*Fabien TOULGOAT — fabientoulgoat@hotmail.com.",
         "Translated from the French by Forge.*",
         "Galactic rotation curves exhibit significant deviations from the Newtonian predictions based on visible matter.",
@@ -5090,7 +4741,10 @@ last_updated: "2026-09-25"
         "The observed galactic rotation curves reveal a major discordance with the predictions of Newtonian gravity applied to visible matter."
       ],
       "cross_references": [
+        "tuo-vacuum-tension-fr",
         "akimov-shipov-torsion-research-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
+        "akimov-shipov-torsion-field-research-ru",
         "portance-du-vide-burtin-en",
         "tuo-classical-formalism-maxwell-einstein-vacuum-fr",
         "deba-debailleul-en",
@@ -5102,80 +4756,7 @@ last_updated: "2026-09-25"
         "synthesis-vacuum-organizational-substrate"
       ],
       "status": "translated",
-      "source_url": "",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "theorie-univers-onde-fr",
-      "title": "Théorie de l'Univers Onde (TUO): From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology (F. Maillot)",
-      "authors": [
-        "tuo"
-      ],
-      "date": "2026-09-07",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-09-07-theorie-univers-onde-fr.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "theorie-univers-onde-tuo-fr",
-      "title": "theorie-univers-onde-tuo-fr",
-      "authors": [
-        "maillot",
-        "tuo"
-      ],
-      "date": "unknown",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-09-04-tuo-theory-fr-en.md",
-      "themes": [
-        "Plasma, Torsion & Cosmology",
-        "Aether, Light & Electricity",
-        "Sacred Geometry & Form"
-      ],
-      "concepts": [
-        "aether",
-        "scalar",
-        "electrogravitics",
-        "zero_point",
-        "scalar_field",
-        "wave_universe",
-        "gravity"
-      ],
-      "key_claims": [
-        "You are using an outdated browser.",
-        "Please upgrade your browser to improve your experience.",
-        "Théorie de l'Univers Onde (TUO) : From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology.",
-        "This deposit presents two fundamental works establishing the theoretical framework of the Wave Universe Theory (TUO), a new unified approach to vacuum physics and gravitation.",
-        "This first article (Classical formalisms and correspondence with TUO: From Maxwell and Einstein to the vacuum tension field T_v) establishes the mathematical structure of TUO by introducing the scalar Vacuum Tension field (T_v)."
-      ],
-      "cross_references": [
-        "akimov-shipov-torsion-research-ru",
-        "magnitsky-gravity-compressible-ether-ru",
-        "atsyukovsky-etherodynamics-ru",
-        "scalar-field-galactic-rotation",
-        "portance-du-vide-burtin-en",
-        "tuo-classical-formalism-maxwell-einstein-vacuum-fr",
-        "deba-debailleul-en",
-        "ether-einstein-constante-cosmologique-fr-en",
-        "what-is-scalar-energy-fr",
-        "besson-rgh-technical-analysis"
-      ],
-      "status": "translated",
-      "source_url": "https://doi.org/10.5281/zenodo.17311741",
-      "source_language": "fr",
-      "notes": "Zenodo page translation. FR->EN.",
+      "source_url": "https://zenodo.org/api/records/16728704/files/%C3%89tude%20rigoureuse%20d%27un%20champ%20scalaire%20l%C3%A9ger%20coupl%C3%A9%20%C3%A0%20la%20mati%C3%A8re%20dans%20les%20galaxies.pdf/content",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -5211,39 +4792,15 @@ last_updated: "2026-09-25"
       ],
       "cross_references": [
         "akimov-shipov-torsion-research-ru",
-        "shipov-torsion-fields-and-torsion-technologies-ru",
-        "magnitsky-gravity-compressible-ether-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "safe-compendium-vortex-physics",
         "synthesis-vacuum-organizational-substrate",
         "synthesis-rotational-ether-vortex-torsion-lenr",
-        "sweeper-fr",
         "tuo-vacuum-tension-fr"
       ],
       "status": "translated",
       "source_url": "https://trinitas.ru/rus/doc/0231/008b/02311174.htm",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "torsion-physics-newton-to-present-ru",
-      "title": "Torsion Physics Newton To Present",
-      "authors": [
-        "shipov",
-        "cartan"
-      ],
-      "date": "2026-09-11",
-      "language": "ru",
-      "translated": true,
-      "file": "translations/2026-09-11-torsion-physics-newton-to-present-ru.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -5278,33 +4835,11 @@ last_updated: "2026-09-25"
       "cross_references": [
         "akimov-shipov-torsion-research-ru",
         "safe-compendium-vortex-physics",
-        "extended-theory-of-electromagnetism-de",
+        "extended-theory-of-electromagnetism-de-en",
         "radiesthesie-histoire-vibratis-fr-en"
       ],
       "status": "synthesis",
       "cross_refs": []
-    },
-    {
-      "id": "tuo-classical-formalism-fr",
-      "title": "Classical Formalisms and Correspondence with TUO: From Maxwell and Einstein to the Vacuum Tension Field Tv (F. Maillot)",
-      "authors": [
-        "tuo"
-      ],
-      "date": "2026-09-07",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-09-07-tuo-classical-formalism-fr.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
       "id": "tuo-classical-formalism-maxwell-einstein-vacuum-fr",
@@ -5319,56 +4854,25 @@ last_updated: "2026-09-25"
       "file": "translations/2026-09-10-tuo-classical-formalism-from-maxwell-einstein-to-vacuum-tens-fr.md",
       "themes": [
         "Plasma, Torsion & Cosmology",
-        "Aether, Light & Electricity"
-      ],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar",
-        "zero_point"
-      ],
-      "key_claims": [
-        "Vacuum tension Tv is a state property, not a force field",
-        "Tv has no gauge symmetry, no quanta — acts on metric not through it",
-        "Replaces cosmological constant Λ with dynamic local term",
-        "Gravity derivable as g = −∇Tv (bridge to Michaud's confined EM theory)"
-      ],
-      "cross_references": [
-        "portance-du-vide-burtin-en",
-        "scalar-field-galactic-rotation",
-        "akimov-shipov-torsion-research-ru",
-        "magnitsky-gravity-compressible-ether-ru"
-      ],
-      "status": "translated",
-      "source_url": "https://zenodo.org/api/records/17311989/files/1_V.1.1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf/content",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "tuo-maillot-en",
-      "title": "Classical Formalisms and Correspondence with the TUO: From Maxwell and Einstein to the Vacuum Tension Field Tᵥ",
-      "authors": [
-        "tuo"
-      ],
-      "date": "unknown",
-      "language": "en",
-      "translated": true,
-      "file": "translations/2026-08-29-tuo-maillot-en.md",
-      "themes": [
-        "Plasma, Torsion & Cosmology",
         "Aether, Light & Electricity",
         "Sacred Geometry & Form",
         "Consciousness & Subtle Energy"
       ],
       "concepts": [
         "aether",
+        "gravity",
         "scalar",
+        "zero_point",
         "electrogravitics",
         "sacred_geometry",
         "scalar_field",
         "wave_universe"
       ],
       "key_claims": [
+        "Vacuum tension Tv is a state property, not a force field",
+        "Tv has no gauge symmetry, no quanta — acts on metric not through it",
+        "Replaces cosmological constant Λ with dynamic local term",
+        "Gravity derivable as g = −∇Tv (bridge to Michaud's confined EM theory)",
         "*François Maillot — Théorie de l'Univers Onde (TUO).",
         "This document presents the formal correspondence between the Wave-Universe Theory (TUO) and the classical mathematical formalisms of theoretical physics: electromagnetism (Maxwell), general relativity (Einstein), and field theory (covariant Lagrangian).",
         "In the TUO, the dynamics of the vacuum tension field Tᵥ is derived from a least-action principle analogous to that of scalar fields:",
@@ -5376,8 +4880,10 @@ last_updated: "2026-09-25"
         "This formulation allows obtaining the dynamical equations:"
       ],
       "cross_references": [
-        "akimov-shipov-torsion-research-ru",
         "portance-du-vide-burtin-en",
+        "scalar-field-galactic-rotation",
+        "akimov-shipov-torsion-research-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "tuo-classical-formalism-maxwell-einstein-vacuum-fr",
         "deba-debailleul-en",
         "ether-einstein-constante-cosmologique-fr-en",
@@ -5388,7 +4894,7 @@ last_updated: "2026-09-25"
         "synthesis-vacuum-organizational-substrate"
       ],
       "status": "translated",
-      "source_url": "",
+      "source_url": "https://zenodo.org/api/records/17311989/files/1_V.1.1_FormalismeClassiqueTUO_De_MaxwellEinstein_A_Tv.pdf/content",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -5397,7 +4903,8 @@ last_updated: "2026-09-25"
       "title": "Wave Universe Theory (TUO): From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravity and Cosmology",
       "authors": [
         "atsyukovsky",
-        "tuo"
+        "tuo",
+        "maillot"
       ],
       "date": "unknown",
       "language": "fr",
@@ -5416,18 +4923,29 @@ last_updated: "2026-09-25"
         "zero_point",
         "sacred_geometry",
         "scalar_field",
-        "wave_universe"
+        "wave_universe",
+        "gravity"
       ],
       "key_claims": [
         "**Author:** François Maillot\n**Date:** October 10, 2025\n**DOI:** 10.5281/zenodo.17311742 (v1.1)\n**Host:** Zenodo (CERN European Organization for Nuclear Research)\n**Original language:** French",
         "The SPARC calibration proposal (Part II, §5.5) is a concrete observational anchor but untested.",
         "This document presents the formal correspondence between the Wave Universe Theory (TUO) and the classical mathematical formalisms of theoretical physics: electromagnetism (Maxwell), general relativity (Einstein), and field theory (covariant Lagrangian).",
         "Each section explicates the structural link between classical operators, invariants, and tensors and their TUO equivalent, while emphasizing the fundamental conceptual differences: the TUO does not introduce an additional gauge field, but a geometric property of the vacuum itself — the tension Tv.",
-        "In the TUO, the dynamics of the vacuum tension field Tv are derived from a principle of least action analogous to that of scalar fields:"
+        "In the TUO, the dynamics of the vacuum tension field Tv are derived from a principle of least action analogous to that of scalar fields:",
+        "**Date:** 2026-08-25\n**Translator:** Translation Sweeper (automated)\n**Source URL:** https://doi.org/10.5281/zenodo.17311741\n**Platform:** Zenodo (CERN)\n**Published:** 2025-01-01\n**Citations:** 0 (as of 2026-08-25)",
+        "Mathematical formalism is internally complete (Friedmann-TUO equations, Noether current, linear perturbations) but requires cosmological observation to validate.",
+        "**French:** Théorie de l'Univers Onde (TUO) : De l'origine électromagnétique du vide à la reformulation covariante de la gravitation et de la cosmologie.",
+        "**English:** Wave Universe Theory (WUT): From the Electromagnetic Origin of the Vacuum to the Covariant Reformulation of Gravitation and Cosmology.",
+        "This deposit presents two foundational works establishing the theoretical framework of the Wave Universe Theory (TUO), a new unified approach to vacuum physics and gravitation.",
+        "You are using an outdated browser.",
+        "Please upgrade your browser to improve your experience.",
+        "Théorie de l'Univers Onde (TUO) : From the electromagnetic origin of the vacuum to the covariant reformulation of gravitation and cosmology.",
+        "This deposit presents two fundamental works establishing the theoretical framework of the Wave Universe Theory (TUO), a new unified approach to vacuum physics and gravitation.",
+        "This first article (Classical formalisms and correspondence with TUO: From Maxwell and Einstein to the vacuum tension field T_v) establishes the mathematical structure of TUO by introducing the scalar Vacuum Tension field (T_v)."
       ],
       "cross_references": [
         "akimov-shipov-torsion-research-ru",
-        "magnitsky-gravity-compressible-ether-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "atsyukovsky-etherodynamics-ru",
         "scalar-field-galactic-rotation",
         "portance-du-vide-burtin-en",
@@ -5619,9 +5137,8 @@ last_updated: "2026-09-25"
       ],
       "cross_references": [
         "akimov-shipov-torsion-research-ru",
-        "sweeper-fr",
         "tuo-vacuum-tension-fr",
-        "magnitsky-gravity-compressible-ether-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "torsion-physics-from-newton-to-present-day-ru",
         "akimov-shipov-torsion-field-research-ru"
       ],
@@ -5661,7 +5178,7 @@ last_updated: "2026-09-25"
         "Shipov Universal Hologram, Sheldrake morphic fields, form waves, and Benaros memory-in-cohesion are different names for the same phenomenon"
       ],
       "cross_references": [
-        "shipov-torsion-fields-and-torsion-technologies-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
         "morphic-resonance-sheldrake-en",
         "ondes-de-forme-centre-ganesha-fr-en",
         "matiere-aether-d-benaros-en",
@@ -5757,7 +5274,7 @@ last_updated: "2026-09-25"
         "Original Martin Water Vortexer developed 1972 at the Pythagoras-Kepler-School in Lauffen by Schauberger's son."
       ],
       "cross_references": [
-        "compendium-of-vortex-physics-de"
+        "safe-compendium-vortex-physics"
       ],
       "status": "translated",
       "source_url": "https://www.orpanit.de/wissenswertes/viktor-schauberger-und-der-wasserwirbler/",
@@ -5768,7 +5285,8 @@ last_updated: "2026-09-25"
       "id": "vortex-motor-negentropic-propulsion",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
       "authors": [
-        "rivero-hornos-tverjanovich"
+        "rivero-hornos-tverjanovich",
+        "schauberger"
       ],
       "date": "2025-11-17",
       "language": "es",
@@ -5785,7 +5303,9 @@ last_updated: "2026-09-25"
         "ether",
         "propulsion",
         "schauberger",
-        "resonance"
+        "resonance",
+        "aether",
+        "gravity"
       ],
       "key_claims": [
         "Propulsion can be based on implosion (centripetal vortex) rather than explosion (combustion)",
@@ -5810,36 +5330,6 @@ last_updated: "2026-09-25"
       "files": [
         "2026-09-04-vortex-motor-negentropic-propulsion-es.md"
       ],
-      "last_updated": "2026-09-05",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "vortex-motor-negentropic-propulsion-es",
-      "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics (El Motor de Vórtice)",
-      "authors": [
-        "schauberger"
-      ],
-      "date": "2026-09-04",
-      "language": "es",
-      "translated": true,
-      "file": "translations/2026-09-03-vortex-motor-negentropic-propulsion-es.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "source_url": "https://doi.org/10.5281/zenodo.17626722",
-      "domains": [
-        "vortex-physics",
-        "ether-theory",
-        "propulsion",
-        "schauberger"
-      ],
-      "notes": "ES→EN translation. Duplicate of 2026-09-10-el-motor-de-vortice-hacia-una-tecnologia-de-propulsion-negen-es.md.",
       "last_updated": "2026-09-05",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
@@ -5878,10 +5368,10 @@ last_updated: "2026-09-25"
         "Technology can harness the negentropic principle"
       ],
       "cross_references": [
-        "shipov-torsion-fields-and-torsion-technologies-ru",
-        "magnitsky-gravity-compressible-oscillating-ether-ru",
+        "shipov-torsion-fields-torsion-technologies-ru",
+        "magnitsky-gravity-in-compressible-oscillating-ether-theory-ru",
         "schauberger-water-blood-of-the-earth-de",
-        "wilhelm-reich-ether-physics-orgone-experiments-de",
+        "oranur-physics-nasselstein-de",
         "ondes-de-formes-techniques-appareils-fr-en"
       ],
       "status": "synthesis",
@@ -5959,31 +5449,6 @@ last_updated: "2026-09-25"
         "portance-du-vide-burtin-en",
         "tuo-classical-formalism-maxwell-einstein-vacuum-fr"
       ],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "wilhelm-reich-ether-physics-orgone-experiments-de",
-      "title": "Oranur-Physics: Wilhelm Reich, Physicist — An Introduction to Orgone Biophysics (Peter Nasselstein)",
-      "authors": [
-        "nasselstein",
-        "reich"
-      ],
-      "date": "2026-09-11",
-      "language": "de",
-      "translated": true,
-      "file": "translations/2026-09-11-wilhelm-reich-ether-physics-orgone-experiments-de.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity",
-        "scalar",
-        "lenr",
-        "morphic"
-      ],
-      "key_claims": [],
-      "cross_references": [],
       "status": "translated",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
@@ -6132,8 +5597,7 @@ last_updated: "2026-09-25"
         "Primary torsion fields carry information, not energy"
       ],
       "cross_references": [
-        "shipov-torsion-fields-torsion-technologies-ru",
-        "shipov-torsion-fields-and-torsion-technologies-ru"
+        "shipov-torsion-fields-torsion-technologies-ru"
       ],
       "status": "translated",
       "cross_refs": [],
@@ -6789,78 +6253,6 @@ last_updated: "2026-09-25"
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "2026-08-28-theorie-phi-scalar-field-fr",
-      "title": "Rigorous Study of a Light Scalar Field Coupled to Matter in Galaxies (French)",
-      "file": "translations/2026-08-28-theorie-phi-scalar-field-fr.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-08-28-torsion-physics-newton-to-present-ru",
-      "title": "Torsion Physics: From Newton to the Present (Russian)",
-      "file": "translations/2026-08-28-torsion-physics-newton-to-present-ru.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-08-29-sacred-geometry-matter-energy-qualities-es",
-      "title": "Sacred Geometry: Geometric Qualities of Matter and Energy",
-      "file": "translations/2026-08-29-sacred-geometry-matter-energy-qualities-es.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "es",
-      "domains": [
-        "sacred_geometry"
-      ],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-08-29-theorie-univers-onde-tuo-fr",
-      "title": "Skip to main",
-      "file": "translations/2026-08-29-theorie-univers-onde-tuo-fr.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-08-31-tuo-wave-universe-theory-fr",
-      "title": "TUO — Wave Universe Theory (French source)",
-      "file": "translations/2026-08-31-tuo-wave-universe-theory-fr.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "2026-09-03-brazilian-scalar-generator-pt",
       "title": "2026-09-03-brazilian-scalar-generator-pt",
       "file": "translations/2026-09-03-brazilian-scalar-generator-pt.md",
@@ -6889,20 +6281,6 @@ last_updated: "2026-09-25"
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "2026-09-07-theorie-phi-scalar-field-fr",
-      "title": "Theorie Phi Scalar Field Fr",
-      "file": "translations/2026-09-07-theorie-phi-scalar-field-fr.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "2026-09-11-akimov-shipov-torsion-field-research-ru",
       "title": "2026-09-11-akimov-shipov-torsion-field-research-ru",
       "file": "translations/2026-09-11-akimov-shipov-torsion-field-research-ru.md",
@@ -6917,93 +6295,9 @@ last_updated: "2026-09-25"
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "2026-09-11-del-giudice-pollack-fourth-phase-of-water-it",
-      "title": "2026-09-11-del-giudice-pollack-fourth-phase-of-water-it",
-      "file": "translations/2026-09-11-del-giudice-pollack-fourth-phase-of-water-it.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "2026-09-11-field-and-quantum-potential-of-consciousness-it",
       "title": "Field and Quantum Potential of Consciousness",
       "file": "translations/2026-09-11-field-and-quantum-potential-of-consciousness-it.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-09-11-onde-di-forma-e-geometria-sacra-it",
-      "title": "Form Waves and Sacred Geometry (Mario Contino)",
-      "file": "translations/2026-09-11-onde-di-forma-e-geometria-sacra-it.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-09-11-prometheus-lenr-reactor-um30-it",
-      "title": "2026-09-11-prometheus-lenr-reactor-um30-it",
-      "file": "translations/2026-09-11-prometheus-lenr-reactor-um30-it.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-09-11-psicogeometria-geometria-en-materia-y-energia-es",
-      "title": "2026-09-11-psicogeometria-geometria-en-materia-y-energia-es",
-      "file": "translations/2026-09-11-psicogeometria-geometria-en-materia-y-energia-es.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-09-11-tuo-classical-formalism-maxwell-einstein-vacuum-fr",
-      "title": "TUO: classical formalism vs Maxwell-Einstein vacuum (French source)",
-      "file": "translations/2026-09-11-tuo-classical-formalism-maxwell-einstein-vacuum-fr.md",
-      "authors": [],
-      "date": "",
-      "source_url": "",
-      "language": "",
-      "domains": [],
-      "themes": [],
-      "key_claims": [],
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "2026-09-11-vortex-motor-negentropic-propulsion-es",
-      "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics (variant English copy)",
-      "file": "translations/2026-09-11-vortex-motor-negentropic-propulsion-es.md",
       "authors": [],
       "date": "",
       "source_url": "",

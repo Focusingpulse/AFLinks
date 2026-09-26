@@ -419,6 +419,96 @@ def _merge_dupe_groups(by_key):
     return merged
 
 
+def _merge_metadata_dupes(entries):
+    """Dedupe translation feed entries whose FILENAMES differ but whose
+    metadata proves they are the same work (2026-09-26, Drunvalo, QC).
+
+    The filename-keyed dedupe above catches same-convention and
+    cross-convention re-emissions whose slugs still share tokens, but three
+    escape classes survived the 09-25 feed rebuild:
+      1. same slug, one variant carries a language suffix the other lacks
+         (magnitsky-...-ether-ru vs magnitsky-...-ether) -> different keys;
+      2. one slug is a token SUBSET of the other (schauberger-luxembourg-
+         patent-1951 vs schauberger-1951-luxembourg-patent-method-for-
+         controlling-mo) -> Jaccard 0.43 < 0.6 floor;
+      3. completely different slugs for the same work (tuo-vacuum-tension-fr
+         vs sweeper-fr) where only the TITLE and source_url match.
+    Evidence used here is metadata, not the filename: identical normalized
+    title, or identical source_url (a DOI/URL is the strongest work identity
+    we have). Distinct-language pairs never merge (a FR source doc and its
+    EN translation are different artifacts). Keeper = richest entry
+    (authored title + source_url), matching the revision ranking above.
+    """
+    def _norm_t(t):
+        t = re.sub(r"[^a-z0-9 ]+", " ", (t or "").lower())
+        return re.sub(r"\s+", " ", t).strip().rstrip("…").strip()
+
+    # union-find over entries
+    parent = {i: i for i in range(len(entries))}
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    for i in range(len(entries)):
+        for j in range(i + 1, len(entries)):
+            a, b = entries[i], entries[j]
+            if not isinstance(a, dict) or not isinstance(b, dict):
+                continue
+            la, lb = (a.get("language") or ""), (b.get("language") or "")
+            ta, tb = (a.get("target_language") or ""), (b.get("target_language") or "")
+            # same language pair required: distinct-language pairs are
+            # genuinely different artifacts (source doc vs translation)
+            if (la, ta) != (lb, tb):
+                continue
+            same_title = _norm_t(a.get("title")) and _norm_t(a.get("title")) == _norm_t(b.get("title"))
+            # containment: one title's token set fully inside the other's
+            # (trailing author/language words appended to the same title,
+            # e.g. "...orgone biophysics" vs "...orgone biophysics peter
+            # nasselstein"). >=5 shared tokens keeps generic short titles
+            # apart.
+            _lang_toks = {"fr", "de", "ru", "en", "it", "es", "el", "pt", "zh",
+                          "ja", "source", "translation"}
+            sa = set(_norm_t(a.get("title")).split()) - _lang_toks
+            sb = set(_norm_t(b.get("title")).split()) - _lang_toks
+            # slug-title variant: when one side is a filename-derived slug
+            # title ("Tuo Classical Formalism Fr") its tokens are a subset
+            # of the authored title's — floor drops to >=3 for that case.
+            slug_a = _is_slug_title(a.get("title") or "")
+            slug_b = _is_slug_title(b.get("title") or "")
+            floor = 3 if (slug_a or slug_b) else 5
+            contained = (len(sa & sb) >= floor
+                         and (sa <= sb or sb <= sa))
+            ua, ub = (a.get("source_url") or "").strip(), (b.get("source_url") or "").strip()
+            same_url = bool(ua) and ua == ub
+            if same_title or same_url or contained:
+                parent[find(j)] = find(i)
+
+    groups = {}
+    for i in range(len(entries)):
+        groups.setdefault(find(i), []).append(entries[i])
+
+    kept = []
+    for root, members in groups.items():
+        def _rank(e):
+            return (bool(e.get("source_url")) and not _is_slug_title(e.get("title") or ""),
+                    not _is_slug_title(e.get("title") or ""),
+                    bool(e.get("source_url")))
+        members.sort(key=_rank, reverse=True)
+        keeper = dict(members[0])
+        # union metadata from the dropped members
+        for m in members[1:]:
+            for f in ("excerpt",):
+                if not keeper.get(f) and m.get(f):
+                    keeper[f] = m[f]
+            if not keeper.get("source_url") and m.get("source_url"):
+                keeper["source_url"] = m["source_url"]
+        kept.append(keeper)
+    return kept
+
+
 # ── Translation metadata quality guards (2026-09-16) ────────────────────────
 # living-library/synthesis and translations/ frontmatter is normalized by a
 # shared-memory schema pass ("Normalize all shared-memory md frontmatter to
@@ -1168,6 +1258,16 @@ def main():
                   flush=True)
     except Exception as _e:
         print(f"WARN: source-url backfill skipped: {_e}", flush=True)
+    # 2026-09-26 (Drunvalo, translation-QC): metadata-level dedupe as a final
+    # pass — same normalized title or same source_url within one language
+    # pair proves the same work even when the slug conventions diverge so
+    # far that _dupe_key cannot connect them (magnitsky -ru suffix variant,
+    # schauberger token-subset slugs, tuo-vacuum-tension vs sweeper-fr).
+    _pre_meta = len(translation_works)
+    translation_works = _merge_metadata_dupes(translation_works)
+    if len(translation_works) != _pre_meta:
+        print(f"dedupe: metadata-level pass {_pre_meta} -> {len(translation_works)} "
+              f"(same-title/same-url re-emissions dropped)", flush=True)
     feed["latest_translations"] = translation_works
     # ── Counter never-regress guard + diagnostic record (2026-09-22, Cairn) ──
     # pages_translated was the ONLY published counter with no floor. When the
