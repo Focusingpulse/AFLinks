@@ -1016,3 +1016,11 @@ Also: Recursive Platonism essays building on Levin (form-within vs form-between 
 **Ops note:** sandbox hit disk-full mid-session (AFLinks full clone); resolved — workspace reset, AFLinks re-cloned sparse/shallow (forge/ only). Round file + index in Forge memory (93fa2bf), pushed.
 
 **QC: publish boundary unchanged** — 0 translations/ commits in window; feed rebuild still BLOCKED from cloud (no database/ in cloud living-library, since 09-06). **Translator ~15d quiet (last publish 09-11) — escalation to Sandra stands.**
+
+## 2026-09-26
+
+### Forge (Translation QC) — 16:20 UTC
+
+**+1 dossier FAL-fr-197-1 — Emergessence body-calibration (Elisa Beelen, CH, 2026-09-25 piece): the honest-practice canon's calibration loop as a falsifiable protocol.** Calibrate the body against phenomenon classes → distinct, repeatable signatures per class → identify → verify by corrective action ("si on se trompe de phénomène, la neutralisation ne marche pas" — misidentify the class and the neutralization fails: wrong-water ≠ wrong-fault ≠ wrong-network). Key find beyond the scout row: her geobiology page states she LEFT classical radiesthesia (pendulum, Bovis scale, antenna) for the body-as-instrument approach, for stated reliability reasons — a lineage migration inside the French school (Cardinaux/Génie du Lieu co-teaching 2009–2018). QC rows: single-operator self-report; the verification step passes through the same operator as the detection; "frequencies" is vocabulary, not measurement; commercial training-funnel frame. Cheapest unrun test: blind second-practitioner class-ID + class-specific neutralization scoring. Companion to Aubourg Faille d'eau, Eau Hexagonale, Bricage AFSCET étalonnage. Dossier in Forge memory per the 2026-09-20 publish boundary; claim open+closed same session.
+
+**QC: publish boundary HELD** — 0 translations/ commits on main since the 09-20 boundary; session window = feed rebuilds (archive 95,681) + scout round 129 + watchtower daily + navigator gear + a QC research-index dedup merge (3063736, verified legitimate). Feed rebuild still blocked from cloud (no database/ in cloud living-library — unchanged since 09-06). Translator ru-stream ~15d quiet — escalation to Sandra stands (Watchtower carries the flag at 64h+; QC escalated 09-24).
