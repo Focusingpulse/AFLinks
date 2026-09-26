@@ -999,3 +999,20 @@ Also: Recursive Platonism essays building on Levin (form-within vs form-between 
 **QC: publish boundary HELD** — 0 translations/ commits in window (ls-tree: 0 translations/ paths on origin/main; window = feed rebuilds to 95,391 docs + Steiner GA262 harvest + scout keelynet/zenodo batches + navigator gear note only). Feed rebuild still BLOCKED from cloud (no database/ in cloud living-library — unchanged since 09-06, recorded not faked).
 
 **Translator ~15d quiet** (last publish 09-11) — escalation to Sandra stands.
+
+## 2026-09-26
+
+### Forge (Translation QC) — 14:00 UTC
+**Research round 27 (daily outer-rings cron, cloud) — 20 sources, all six lanes. THEME: calibration is the practice.** Strongest convergent epistemic signal in weeks: three unrelated domains landed on the same structure — (a) a French practitioner (Emergessence, Sep 25) states the body-calibration loop explicitly: calibrate against different phenomenon classes, reactions are "systématiques, répétables, différemment selon le type de fréquences," and **neutralization is the falsification test** ("si on se trompe de phénomène, la neutralisation ne marche pas"); (b) electric fish (Nature, Sep 2) solve the identical self-vs-world problem with paired fast/slow synaptic plasticity subtracting self-generated field from sensed field; (c) both new FDA-cleared neuromodulation entrants (MeRT PTSD, Monarch eTNS ADHD) are measure-first. The pendulum, the fish, and the clinic run the same loop: sense → discriminate → act → verify.
+
+**THE SIGNAL (bioenergy layers): root-to-root wound telegraph — Science Advances, Sep 25.** Wounding one Arabidopsis lateral root triggers *millisecond-scale* depolarization in neighboring lateral roots. Mechanism fully named: injury → turgor-pressure drop → pressure wave propagates through the root network → MCA1 mechanosensitive channels open in distant roots → depolarization → Ca²⁺ transient, amplified by glutamate-receptor-like channels; optogenetics confirm Ca²⁺-priming impairs glutamate but not pressure sensing (two separable layers). A physical, non-chemical carrier with named channels — the "subtle carrier as communication stream" claim's cleanest botanical demonstration. Triple for the rail: spruce electrome (anticipation, r20) + root telegraph (mechanism, r27) + electric fish (cancellation circuit).
+
+**Radiesthesia: Emergessence body-calibration piece = FR→EN translation candidate** (round-27 #1 candidate, queues behind Aubourg Faille d'eau dossier FAL-fr-194-1). Also: SIP.US content farm now pollutes the HeartMath lane too ("sound breathing forms") — filter rule extended to all dokuwiki.sip.us results.
+
+**Vibrational tools: PTSD neuromodulation gets its second FDA-cleared channel** — MeRT (EEG-guided individualized TMS, cleared June 2026) lands on the Apollo open platform; Monarch eTNS (first FDA-cleared non-drug pediatric ADHD treatment, trigeminal patch worn during sleep) scales through Firefly's 200k-scan AI-EEG clinician network. Pattern: every entrant is EEG-guided, measure-first — the closed-loop assumption is now regulatory-grade default, and the AI-EEG measurement platform is becoming the prescribing gateway.
+
+**HeartMath: no branded research; diffusion continues downward** — Ohio elementary school board adopts HeartMath for K-5 emotional regulation (HRV ear monitors + breathing). Levin: no lab papers; the cognitive-light-cone vocabulary now reaches Bitcoin-community audiences intact (Stacker News).
+
+**Ops note:** sandbox hit disk-full mid-session (AFLinks full clone); resolved — workspace reset, AFLinks re-cloned sparse/shallow (forge/ only). Round file + index in Forge memory (93fa2bf), pushed.
+
+**QC: publish boundary unchanged** — 0 translations/ commits in window; feed rebuild still BLOCKED from cloud (no database/ in cloud living-library, since 09-06). **Translator ~15d quiet (last publish 09-11) — escalation to Sandra stands.**
