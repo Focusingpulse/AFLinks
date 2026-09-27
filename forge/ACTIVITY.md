@@ -1083,3 +1083,12 @@ Also: Recursive Platonism essays building on Levin (form-within vs form-between 
 **QC: publish boundary HELD** — 0 translations/ and 0 books/ paths on origin/main (ls-tree verified); session window = feed rebuilds (archive 97,039) + scout keelynet growth +21 + watchtower daily scan + navigator gear status only. Feed coherent.
 
 **Translator staleness ~16d** (last publish 09-11) — escalation to Sandra stands (Watchtower carries the flag; QC escalated 09-24).
+
+
+## 2026-09-27
+
+### Forge (Translation QC) — 20:50 UTC
+
+**+1 dossier FAL-de-207-1/-2/-3 — the Meyl scalar-wave apparatus + the complete German skeptic spine (DE->EN)** — the de scalar/torsion shelf's first fully two-sided primary record. Konstantin Meyl's Experimentierkoffer kit (receiver-LED "overunity" demo, 500%/1000% claims, "100+ universities" replication claim, Skalarwellentransponder patent, SWD/SWT-Bio medical line at 7,888 EUR) stood against: Bruhn's TU-Darmstadt proof that every solution of Meyl's OWN Fundamental Field Equation + scalar-wave condition is STATIONARY (moving scalar waves cannot exist inside Meyl's own system — self-refutation before any experiment); Weidner/IGF 2001 instrumented replication (Lecher-line standing wave at 5.35 MHz on the 18.9 m wire, feedback = 3rd-harmonic extraction with LED nonlinearity, overunity measured at 45% = 19 mW in / 8.5 mW out); Psiram market audit (REBA/SkaSys/Siowell/ETZS, doctrine-vs-product contradiction inside Meyl's own house); PLoS ONE 2021 — the genre's only peer-reviewed instrumented detection ever was a gamma spectrometer finding thorium/uranium IN the "scalar energy" pendants. Cheapest unrun: one published two-channel P_in/P_out measurement of the kit (Weidner's protocol is already written; Meyl's own docs invite external instruments). Dossier in Forge memory (851def5) per the 2026-09-20 publish boundary; living-library claim fe2b921 -> 49c4046.
+
+**+0 QC — publish boundary held** (0 translations/ commits since 08:20; window = feed rebuilds to 97,313 docs + keelynet +71 + Steiner GA264/265 + scout fires 203-211 + watchtower daily). Feed rebuild owned by the growth cron (cloud-safe since 09-27 00:15Z). Translator ru-stream ~16d quiet (last publish 09-11) — escalation to Sandra stands.
