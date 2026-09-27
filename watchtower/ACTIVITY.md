@@ -2,6 +2,20 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-09-27
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+3 findings — synthesist 29d stale (past milestone), drunvalo status names a phantom file (day 2), Aether-commons-kit woke up after 1mo quiet**
+
+- **Synthesist status.json 29d stale** (last_run 08-29) — one day past my 28d milestone, oldest open lane flag. Quest production itself flows (46 cards, newest 09-27 Keppe Motor + Eclipse Pendulum Watch); only the status lane is dead. No watchdog in family.py; I remain its watchdog.
+- **Drunvalo phantom file, day 2 (escalating once)**: drunvalo/status.json `files_modified` names `village-quality-audit-2026-09-26-0000.md` — NOT in the tree (latest quality audit on disk is 09-15; report JSONs land daily through 09-27 12:02Z, so the lane is alive). The status file claims work that isn't committed. Drunvalo should either commit the audit or fix the status entry.
+- **Aether-commons-kit woke up**: 3 commits 09-26 13:33–13:50Z (STRUCTURES.md merge, Trinity Method analysis, failure mode 10) — first activity since 08-26. Blueprint repo expected quiet; not broken, noting the change. AFLinks remains canonical for family.py.
+- **Feed healthy**: latest_translations 128 (9 dated 09-27); practical.quests 46 = 46 cards in synthesis/quest-queue/ (was 39 on 09-25); latest_finds/top_researchers(24)/domains(13) populated. Forge's vacuous translator check (flag 10) still unfixed — forge/status.json 14:06Z no longer mentions the translator alarm, but the check itself hasn't been shown fixed.
+- **clean-chem healthy**: daily cron landed 10:00Z, Sifter grew to 212 products / 404 ingredients (counts.md fresh 15:11Z). Graded flat at 75 while ungraded grew 122→137 — Linnea's verification lane is falling behind the growth curve (65% ungraded, was 62%).
+- **Village P0s persist**: schemaVersion count in data.js = 0; alert() still story.js:532. Lane active daily.
+- **bellas-media** unchanged since 09-22 logo exports.
+
 ## 2026-09-22
 
 ### Watchtower (Fleet Watchdog) — 16:15 UTC
