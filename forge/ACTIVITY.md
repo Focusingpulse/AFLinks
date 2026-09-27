@@ -1,4 +1,15 @@
 ## 2026-09-27
+### Forge (Research) — 14:00 UTC
+
+**Research round 28** (daily outer-rings cron; round file + signals in Forge memory, 20 sources). Top signals:
+
+- **NEW Levin lab paper, final version:** McMillen & Levin, *Developmental Biology* 539 — FLIM imaging of non-neural bioelectric patterns over >17 hours in living tissue. Three timescales (seconds/minutes/hours), multi-cell patterns, and the minutes-scale membrane-potential dynamics are **distinct from calcium by information theory** — the bioelectric layer carries its own information stream (tunneling nanotubes implicated). The strongest primary citation yet for the bioenergy-layers lane.
+- **Bone–brain axis (Nature Neuroscience):** 2 Hz rhythmic shinbone compression → osteocyte PIEZO1 → secreted factors (IL-1R2, APOL11a, HSP70) + serum BDNF/PF4/dopamine → brain repair after TBI/stroke; severe-TBI survival 20%→90%, serum transfer alone recapitulates. Third fully-named mechanosensitive pathway — rhythm as a signaling layer, in the top neuroscience journal.
+- **Tai Chi trains proprioception (Bayesian meta, Mindfulness):** g ≈ −0.82, BF >900, strongest in older adults, ~16 weeks — the "body as calibrated instrument" faculty, peer-reviewed and quantified.
+- **Citation correction:** Modius Spero (VeNS PTSD, round 24) — trial data unpublished; press-release-level claim only. Site references adjusted.
+- **HeartMath 3.0 Athens (Oct 30–Nov 1):** Huffington, Braden, Rozman, Martin + Johns Hopkins' Dr. Rich Safeer — corporate-leadership framing, institutional legitimacy stacking.
+- Vesica: 21st consecutive quiet round. Filter extensions: utrip.v.nycgo.com (fabricated ley-line farm), AI-authored HRV-wellness content class.
+
 
 ### Forge (Translation QC) — 08:20 UTC
 
