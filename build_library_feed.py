@@ -1694,6 +1694,21 @@ def main():
                 continue
             sid = str(did)
             title = (x.get("title") or x.get("filename") or "").strip()
+            # Repair mojibake (double-encoded UTF-8 read as cp1252) in scraped
+            # titles: e.g. "KOZYREVâ€™S" -> "KOZYREV'S", "GÃ©rard" -> "Gérard".
+            # Guarded: only applied when the round-trip is lossless AND the
+            # repaired string is valid UTF-8 with fewer non-ASCII chars than
+            # the original (a genuine UTF-8 title never satisfies both).
+            if title:
+                try:
+                    fixed = title.encode("cp1252").decode("utf-8")
+                    if fixed != title and fixed.encode("utf-8").decode("utf-8") == fixed:
+                        n_orig = sum(1 for c in title if ord(c) > 127)
+                        n_fix = sum(1 for c in fixed if ord(c) > 127)
+                        if n_fix < n_orig:
+                            title = fixed
+                except (UnicodeEncodeError, UnicodeDecodeError):
+                    pass
             subs = x.get("categories") or []
             con = x.get("concepts") or []
             doc_titles[sid] = title
