@@ -47,6 +47,19 @@ STATE_PATH = os.path.join(SCRIPT_DIR, "clean_previews_state.json")
 UA = "Mozilla/5.0 (AFLinks preview-cleaner; research archive)"
 MIN_TEXT = 200          # a replacement must hold at least this much real text
 CLEAN_SCORE = 1         # below this, the preview counts as chrome-free
+# A residual site header (wiki name, "Scientists", a TOC) can hold a real
+# document at score 2 forever. The relaxed path accepts those, but only when
+# the drop is large AND the text is substantial AND the residual is still tiny
+# — so a nav-only stub that merely got less bad (15 -> 4) is still refused.
+RELAXED_SCORE = 2       # max residual score the relaxed path will accept
+RELAXED_DROP = 8        # min chrome-score drop for the relaxed path
+RELAXED_MIN_TEXT = 400  # min replacement length for the relaxed path
+# The scan's flag threshold MUST sit strictly above the acceptance ceiling, or
+# the job reports a number it can never reduce: a preview the cleaner accepts
+# at score 2 would still be counted as contaminated at `>= 2`, so a run that
+# replaced 39 previews still printed "39 contaminated" (measured 2026-09-27).
+# Derived, not hardcoded, so the two can never drift apart again.
+CONTAMINATED_SCORE = RELAXED_SCORE + 1
 HTML_EXT = ("html", "htm", "php", "asp", "aspx", "shtml", "")
 _lock = threading.Lock()
 
@@ -115,7 +128,7 @@ def save_json(path, obj, indent=2):
 
 def contaminated(entry):
     p = entry.get("content_preview") or ""
-    return bool(p) and ce.chrome_score(p) >= 2
+    return bool(p) and ce.chrome_score(p) >= CONTAMINATED_SCORE
 
 
 # ---------------------------------------------------------------- scan
@@ -233,7 +246,12 @@ def clean_batch(urls, cache, state, limit, budget, workers, checkpoint_every=25)
         title, text = ce.extract_content(html, u, max_chars=2000)
         score = ce.chrome_score(text)
         with _lock:
-            if len(text) >= MIN_TEXT and score <= CLEAN_SCORE:
+            if len(text) >= MIN_TEXT and score <= RELAXED_SCORE:
+                # A candidate. `improved()` still makes the final per-entry
+                # call, because only it can see the text being replaced — a
+                # score-2 replacement is only worth keeping when the old text
+                # was far worse. Caching it here rather than in the `failed`
+                # bucket is what lets that call ever happen.
                 cache[u] = {"kind": "text", "text": text, "title": title,
                             "ts": int(time.time())}
                 state["failed"].pop(u, None)
@@ -241,7 +259,7 @@ def clean_batch(urls, cache, state, limit, budget, workers, checkpoint_every=25)
                 since_checkpoint[0] += 1
                 if done[0] % 20 == 0:
                     print(f"  cleaned {done[0]}...", flush=True)
-            elif len(text) < MIN_TEXT or score >= 3:
+            else:
                 # The page carries no readable document — it was only ever a
                 # menu. Record that honestly instead of shipping the menu.
                 cache[u] = {"kind": "stub", "text": "",
@@ -249,8 +267,6 @@ def clean_batch(urls, cache, state, limit, budget, workers, checkpoint_every=25)
                 state["failed"].pop(u, None)
                 done[0] += 1
                 since_checkpoint[0] += 1
-            else:
-                state["failed"][u] = {"reason": "ambiguous", "ts": int(time.time())}
             flush = since_checkpoint[0] >= checkpoint_every
             if flush:
                 since_checkpoint[0] = 0
@@ -275,13 +291,28 @@ def improved(old, new):
 
     Without the second condition a nav-only stub page could "improve" from 17
     chrome hits to 4 and still ship a menu to the reader.
+
+    The relaxed path (added 2026-09-27) exists because a residual SITE HEADER
+    is not a menu. A MediaWiki page keeps its own name, a "Scientists" nav box
+    and a table of contents through extraction, which pins the score at 2 no
+    matter how good the body is — 39 naturalphilosophy.org previews measured
+    22-25 -> 2 with 712-924 chars of real title/author/year/abstract were being
+    refused and left as 1,500-char nav blobs. The relaxed path requires ALL
+    THREE of: a large drop (>= RELAXED_DROP), substantial text
+    (>= RELAXED_MIN_TEXT), and a still-tiny residual (<= RELAXED_SCORE). The
+    last one is what keeps the original guarantee: a nav-only stub scores 15
+    regardless of length, so "17 -> 4" still fails.
     """
     if not new or len(new) < MIN_TEXT:
         return False
     so, sn = ce.chrome_score(old), ce.chrome_score(new)
     if sn >= so:
         return False
-    return sn <= CLEAN_SCORE
+    if sn <= CLEAN_SCORE:
+        return True
+    return (sn <= RELAXED_SCORE
+            and (so - sn) >= RELAXED_DROP
+            and len(new) >= RELAXED_MIN_TEXT)
 
 
 def stub_replacement(old):
