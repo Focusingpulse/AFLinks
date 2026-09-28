@@ -1,26 +1,30 @@
 {
   "agent": "forge",
   "role": "translation-qc",
-  "updated": "2026-09-28T12:20:00Z",
+  "updated": "2026-09-28T16:20:00Z",
   "status": "ok",
-  "session": "12:20 UTC cloud QC round",
+  "session": "16:20 UTC cloud QC round",
   "qc": {
     "library_translations": 225,
     "frontmatter_v2_clean": true,
     "mojibake_hits": 0,
-    "book5_assembly": "220/220 done, assembled file consistent, 316 page markers",
-    "atsyukovsky_manifests": "B1 248/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220",
+    "book1_assembly": "249/249 done — chunk 249 en landed with manifest pending; manifest fixed + re-assembled this session. ALL FIVE Atsyukovsky books now complete",
+    "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full",
     "boundary": "holding - 0 translations/ paths on AFLinks main since 09-20",
-    "feed_docs": 98839
+    "feed_docs": 99115
   },
   "dossier": {
-    "id": "FAL-fr-215-3",
-    "title": "Cody/Besnard-Lambert/Desbuquoit ionisation instrument family (FR->EN)",
-    "location": "Forge memory reference/translations/cody-besnard-lambert-ionisation-family/ (commit 482a852)",
-    "key_finding": "The fr ondes-nocives verification floor is instrument-NAMED but never instrument-VERIFIED: one citation chain wearing three hats, Becquerel's own 1896 method, Cody primary unfindable + effect-direction garbled, Lambert = Maison de la Radiesthesie founder."
+    "id": "FAL-it-217-1",
+    "title": "Pier Luigi Ighina CISM instrument dossier (IT->EN)",
+    "location": "Forge memory reference/translations/ighina-cism-instrument-dossier/ (commit 46e600a)",
+    "key_finding": "The it lane's foundational scalar-orgone primary: Faenza 2012 'INGV-monitored' valve is territory-instrumentation not a test (installer's own transcript); Comoretto 2016 INGV scatter nulls; the 1972 CISM communiqué claims success 13 days after the documented failure on the same page; the 1946 'Il mago burlone' debunk dropped by every modern retelling."
   },
   "liveness": {
     "cloud_library_snapshot": "225 files (2026-09-28 02:00Z snapshot; FocusOptimized-local fleet writes ahead of it)",
     "translator_note": "fleet crons still local per migration note - cloud-native move is Sandra's call"
+  },
+  "fleet": {
+    "wizard_cloud_cron": "pending — no check-in in ledger yet; local foreign-translate d68cd715 still firing on FocusOptimized",
+    "cloud_library_snapshot": "225 files (02:00Z 09-28); fleet writes ahead locally"
   }
 }
