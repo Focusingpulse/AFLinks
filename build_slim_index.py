@@ -27,7 +27,10 @@ PREVIEW_LEN = 160
 # Byte budget per shard of the slim index. GitHub rejects any single blob
 # >= 100 MiB (GH001), which is what froze the monolithic search_index.json at
 # ~82.5k docs on 2026-09-22. 60 MiB leaves ~40% headroom under the hard limit.
-DEFAULT_PART_MAX_BYTES = 60 * 1024 * 1024
+DEFAULT_PART_MAX_BYTES = 40 * 1024 * 1024
+# 40 MiB, not 60: the Git Data API (aflinks_api.py write path — git push
+# cannot negotiate a 3.9 GB repo) rejects blobs over ~50 MB with
+# 422 "input too large". Parts must stay under that ceiling.
 SLIM_FIELDS = ["id", "title", "filename", "categories", "meta_categories",
                "primary_person", "patent_numbers", "type", "size_bytes",
                "source_site", "source_url", "last_modified", "content_preview"]

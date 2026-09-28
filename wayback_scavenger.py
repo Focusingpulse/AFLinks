@@ -22,7 +22,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 INDEX = os.path.join(HERE, "index.json")
 UA = "Mozilla/5.0 (AFLinks wayback-scavenger; research archive)"
 CDX = "http://web.archive.org/cdx/search/cdx"
-ARC = "https://web.archive.org/web/{ts}id_/{url}"   # id_ = original bytes
+ARC = "http://web.archive.org/web/{ts}id_/{url}"   # id_ = original bytes
+# NOTE: http (not https) — the sandbox gets IP-blocked on web.archive.org:443
+# after bursts, while port 80 keeps serving. urllib follows the 302 redirect
+# (which may land on a different snapshot ts) and returns the original bytes.
 ACCEPTED_EXTS = (".pdf", ".txt", ".htm", ".html")
 lock = threading.Lock()
 
@@ -32,7 +35,7 @@ except Exception:
     pymupdf = None
 
 
-def cdx_list(domain, limit=0, exts=("pdf",)):
+def cdx_list(domain, limit=0, exts=("pdf",), mimetype=None, urlfilter=None):
     """Return [(timestamp, original_url)] for archived files under domain.
 
     exts limits which extensions are harvested (default: pdf only, the
@@ -41,12 +44,26 @@ def cdx_list(domain, limit=0, exts=("pdf",)):
     """
     alt = "|".join(re.escape(str(e).lstrip(".")) for e in exts)
     url = (f"{CDX}?url={domain}&matchType=domain&output=json&collapse=digest"
-           f"&fl=timestamp,original&filter=original:.*\\.({alt})$"
-           f"&filter=statuscode:200")
+           f"&fl=timestamp,original")
+    if mimetype:
+        # mimetype mode: for extensionless CMS pages (Omeka, Drupal, wikis)
+        # where the URL never carries a file extension.
+        url += f"&filter=mimetype:{mimetype}"
+    else:
+        url += f"&filter=original:.*\\.({alt})$"
+    url += "&filter=statuscode:200"
+    if urlfilter:
+        url += f"&filter=original:{urlfilter}"
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=60) as r:
         rows = json.load(r)
-    out = [(t, o) for t, o in rows[1:]]  # drop header row
+    # dedupe by original URL, keeping the LATEST capture of each page
+    # (collapse=digest still yields multiple snapshots of one URL)
+    latest = {}
+    for t, o in rows[1:]:  # drop header row
+        if o not in latest or t > latest[o][0]:
+            latest[o] = (t, o)
+    out = list(latest.values())
     if limit:
         out = out[:limit]
     return out
@@ -61,18 +78,67 @@ def load_state(domain):
     p = state_path(domain)
     if os.path.isfile(p):
         with open(p, encoding="utf-8") as f:
-            return json.load(f)
+            st = json.load(f)
+            # 'unreachable' is often a Wayback throttle burst (429/conn-refused),
+            # not a dead capture — make it non-permanent so later runs retry it.
+            st["skipped"] = {k: v for k, v in st.get("skipped", {}).items()
+                             if v != "unreachable"}
+            return st
     return {"domain": domain, "done": {}, "skipped": {}}
 
 
 def save_state(st):
-    with open(state_path(st["domain"]), "w", encoding="utf-8") as f:
+    # atomic write: two threads saving concurrently must never leave a
+    # truncated/partial JSON file behind (observed losing done-entries).
+    p = state_path(st["domain"])
+    tmp = p + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
         json.dump(st, f, indent=1)
+    os.replace(tmp, p)
+
+
+def acquire_run_lock(domain):
+    """Prevent two scavenger processes from sweeping the same domain at once.
+    Today's incident: a restart raced the old process and both clobbered
+    each other's state saves. Returns an open fd to hold, or exits."""
+    lock_path = state_path(domain) + ".runlock"
+    try:
+        fd = os.open(lock_path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    except FileExistsError:
+        # stale lock? if older than 2h, break it
+        try:
+            age = time.time() - os.path.getmtime(lock_path)
+        except OSError:
+            age = 999
+        if age > 7200:
+            os.unlink(lock_path)
+            fd = os.open(lock_path, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        else:
+            print(f"another scavenger is running on {domain} "
+                  f"(lock {lock_path}, age {int(age)}s) — exiting.", flush=True)
+            sys.exit(1)
+    os.write(fd, str(os.getpid()).encode())
+    return fd
+
+
+pace_lock = threading.Lock()
+_pace_last = [0.0]
+PACE = 0.7  # min seconds between fetches, ~1.4 req/s across all workers
+
+
+def _pace():
+    with pace_lock:
+        delta = time.time() - _pace_last[0]
+        wait = PACE - delta
+        if wait > 0:
+            time.sleep(wait)
+        _pace_last[0] = time.time()
 
 
 def fetch(url, timeout=60, require_pdf=True):
-    for attempt in (1, 2):
+    for attempt in range(1, 6):
         try:
+            _pace()
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 data = r.read()
@@ -80,9 +146,9 @@ def fetch(url, timeout=60, require_pdf=True):
                     return data
                 return None if require_pdf else (data if len(data) > 100 else None)
         except Exception:
-            if attempt == 2:
+            if attempt == 5:
                 return None
-            time.sleep(2)
+            time.sleep(min(2 ** attempt, 30))  # 2,4,8,16s backoff — Wayback throttles hard
     return None
 
 
@@ -115,16 +181,25 @@ def process(item, st):
     key = f"{ts}_{orig}"
     if key in st["done"] or key in st["skipped"]:
         return None
-    ext = os.path.splitext(orig.split("?")[0])[1].lstrip(".").lower() or "pdf"
+    url_ext = os.path.splitext(orig.split("?")[0])[1].lstrip(".").lower()
     pending_url = ARC.format(ts=ts, url=orig)
     with lock:
         t0 = time.time()
-    data = fetch(pending_url, require_pdf=(ext == "pdf"))
+    data = fetch(pending_url, require_pdf=(url_ext == "pdf"))
     if data is None:
         with lock:
             st["skipped"][key] = "unreachable"
             save_state(st)
         return None
+    ext = url_ext
+    if not ext:
+        # extensionless CMS page: infer from magic bytes / content
+        if data[:4] == b"%PDF":
+            ext = "pdf"
+        elif data[:1] in (b"{", b"[") or data.lstrip()[:1] in (b"{", b"["):
+            ext = "json"
+        else:
+            ext = "html"
     txt = extract(data, ext)
     if not txt or len(txt) < 60:
         with lock:
@@ -134,7 +209,7 @@ def process(item, st):
     entry = {
         "id": None,  # merged by merge_all_progress style below
         "filename": os.path.basename(orig) or orig,
-        "title": os.path.basename(orig).replace(".pdf", "").replace("_", " ").replace("-", " ") or orig,
+        "title": title_for(data, ext, orig),
         "type": "document",
         "extension": f".{ext}",
         "size_bytes": 0,
@@ -156,6 +231,22 @@ def process(item, st):
     return entry
 
 
+def title_for(data, ext, orig):
+    """Prefer the page <title> for CMS/HTML pages; fall back to basename."""
+    if ext in ("html", "htm", "xhtml"):
+        try:
+            raw = data.decode("utf-8", "replace")
+            m = re.search(r"(?is)<title[^>]*>(.*?)</title>", raw)
+            if m:
+                t = " ".join(m.group(1).split()).strip()
+                if t and len(t) >= 3:
+                    return t[:200]
+        except Exception:
+            pass
+    return (os.path.basename(orig).replace(".pdf", "")
+            .replace("_", " ").replace("-", " ") or orig)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--domain", required=True)
@@ -165,17 +256,26 @@ def main():
     ap.add_argument("--exts", default="pdf",
                     help="comma-separated extensions to harvest (default: pdf). "
                          "e.g. --exts txt,html for text archives")
+    ap.add_argument("--mimetype", default=None,
+                    help="harvest by CDX mimetype instead of URL extension, "
+                         "for extensionless CMS pages (e.g. text/html)")
+    ap.add_argument("--urlfilter", default=None,
+                    help="extra CDX regex on original URL (e.g. "
+                         "'.*/items/show/.*' to take only item pages)")
     args = ap.parse_args()
 
     print(f"CDX query: {args.domain} (limit {args.limit})...", flush=True)
     exts = tuple(e.strip().lstrip(".").lower()
                  for e in args.exts.split(",") if e.strip())
-    items = cdx_list(args.domain, args.limit, exts)
+    items = cdx_list(args.domain, args.limit, exts,
+                     mimetype=args.mimetype, urlfilter=args.urlfilter)
     print(f"  archived files found ({'/'.join(exts)}): {len(items)}", flush=True)
     if args.dry_run:
         for ts, u in items[:10]:
             print(f"    {ts[:8]} {u}")
         return
+
+    lock_fd = acquire_run_lock(args.domain)
 
     st = load_state(args.domain)
     new = []
@@ -206,6 +306,11 @@ def main():
         added += 1
     index_io.save(idx)
     print(f"merged {added} new entries -> master index ({len(idx)} total)")
+    os.close(lock_fd)
+    try:
+        os.unlink(state_path(args.domain) + ".runlock")
+    except OSError:
+        pass
 
 
 if __name__ == "__main__":
