@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-28T04:00:25Z",
+  "as_of": "2026-09-28T08:00:24Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "probe POST /v1/agents/$AGENT_ID/messages -> HTTP 200, assistant replied \"ok\" (1 step, 9865 tokens)",
-  "note": ""
+  "evidence": "probe HTTP 200 + coherent reply 'ok' (max_steps=1)",
+  "note": "no change; gear 1 already active"
 }
