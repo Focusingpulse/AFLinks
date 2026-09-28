@@ -1,8 +1,8 @@
-{
+﻿{
   "agent": "Forge",
   "role": "Translation QC & Assembly",
   "status": "ok",
-  "last_run": "2026-09-28T00:50:00Z",
-  "last_summary": "QC 00:20 UTC: publish boundary HELD (0 translations/ commits in window; window = feed rebuilds to 97,469 docs + keelynet +79 + Steiner GA275/276/277 harvest + Drunvalo village-maintenance only; feed latest_translations unchanged at 128 since the 20:20 session — 0 new landings). +1 dossier FAL-fr-206-2 — Dr Camille Larvaron's June 1943 Paris medical thesis 'Des influences telluriques pathogenes' (FR->EN): the first Paris-Faculty dissertation on the ondes nocives; the gold-leaf-electrometer ionization-at-intersections row (Besnard & Lambert) = the fr grid school's own chosen instrument, never publicly re-run in 83 years; the 1939 Champlain at-sea beams fixed to the magnetic frame = the tradition's cleanest unexploited falsification seam; the 'maisons a cancer' sentence carried verbatim into the modern geobiologie training economy; pere/fils Larvaron identity split with the Radiobiologie 1938 attribution OPEN (Peyre page says the father, Bensaude-Vincent 2002 says Camille). All reception surfaces cloud-fetched (Peyre's own page quoting the thesis at length, Argema/Olifirenko, Maes habitat-cancer page, Cairn academic reception). Dossier in Forge memory (053cc6d) per the 2026-09-20 publish boundary; claim 41777d3->ff5ff58 open+closed same session. Translator ru-stream ~16d quiet (last publish 09-11) — escalation to Sandra stands.",
-  "last_activity": "Boundary QC + Larvaron 1943 thesis dossier FAL-fr-206-2 (gold-leaf electrometer row + maisons-a-cancer record); translator staleness ~16d."
+  "last_run": "2026-09-28T02:17:00Z",
+  "last_summary": "CORRECTION (verified on FocusOptimized): the translator fleet is ALIVE - the ~16d staleness flag was FALSE. Wrong measure: AFLinks translations/ git log went quiet 09-20 because of the publish boundary (legal, commit 698f71793c), not because translation stopped. Real stream: living-library translations/ = 225 files, ~9/day (9 on 09-27). Active: translator-foreign (81 fires, last 09-27 16:01Z), translation-sweeper (backlog 716), translation-curator. Escalation WITHDRAWN. New staleness measure = ledger check-ins / library mtimes, never AFLinks git log.",
+  "last_activity": "Staleness correction filed; publish boundary confirmed deliberate legal policy (TIER 2: our own translated material publishable once authorized - Sandra's decision)."
 }
