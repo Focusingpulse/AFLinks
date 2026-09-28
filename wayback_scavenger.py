@@ -32,10 +32,17 @@ except Exception:
     pymupdf = None
 
 
-def cdx_list(domain, limit=0):
-    """Return [(timestamp, original_url)] for archived PDFs under domain."""
+def cdx_list(domain, limit=0, exts=("pdf",)):
+    """Return [(timestamp, original_url)] for archived files under domain.
+
+    exts limits which extensions are harvested (default: pdf only, the
+    historical behaviour). Pass e.g. ("txt", "html", "htm") for text archives
+    like filestore.orgfree.com, where the valuable content is plain text.
+    """
+    alt = "|".join(re.escape(str(e).lstrip(".")) for e in exts)
     url = (f"{CDX}?url={domain}&matchType=domain&output=json&collapse=digest"
-           f"&fl=timestamp,original&filter=original:.*\\.pdf$&filter=statuscode:200")
+           f"&fl=timestamp,original&filter=original:.*\\.({alt})$"
+           f"&filter=statuscode:200")
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=60) as r:
         rows = json.load(r)
@@ -63,7 +70,7 @@ def save_state(st):
         json.dump(st, f, indent=1)
 
 
-def fetch(url, timeout=60):
+def fetch(url, timeout=60, require_pdf=True):
     for attempt in (1, 2):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -71,7 +78,7 @@ def fetch(url, timeout=60):
                 data = r.read()
                 if len(data) > 100 and data[:4] == b"%PDF":
                     return data
-                return None
+                return None if require_pdf else (data if len(data) > 100 else None)
         except Exception:
             if attempt == 2:
                 return None
@@ -79,14 +86,28 @@ def fetch(url, timeout=60):
     return None
 
 
-def extract(data):
-    if pymupdf is None:
-        return ""
+def extract(data, ext="pdf"):
+    ext = (ext or "pdf").lower().lstrip(".")
+    if ext == "pdf":
+        if pymupdf is None:
+            return ""
+        try:
+            doc = pymupdf.open(stream=data, filetype="pdf")
+            return "".join(p.get_text() for p in doc[:4]).strip()
+        except Exception:
+            return ""
+    # text-ish formats: decode, strip markup, collapse whitespace
     try:
-        doc = pymupdf.open(stream=data, filetype="pdf")
-        return "".join(p.get_text() for p in doc[:4]).strip()
+        txt = data.decode("utf-8", "replace")
     except Exception:
         return ""
+    if ext in ("html", "htm", "xhtml"):
+        txt = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", txt)
+        txt = re.sub(r"(?is)<(br|/p|/div|/tr)[^>]*>", "\n", txt)
+        txt = re.sub(r"(?s)<[^>]+>", " ", txt)
+    txt = (txt.replace("&nbsp;", " ").replace("&amp;", "&")
+              .replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"'))
+    return " ".join(txt.split()).strip()
 
 
 def process(item, st):
@@ -94,16 +115,17 @@ def process(item, st):
     key = f"{ts}_{orig}"
     if key in st["done"] or key in st["skipped"]:
         return None
+    ext = os.path.splitext(orig.split("?")[0])[1].lstrip(".").lower() or "pdf"
     pending_url = ARC.format(ts=ts, url=orig)
     with lock:
         t0 = time.time()
-    data = fetch(pending_url)
+    data = fetch(pending_url, require_pdf=(ext == "pdf"))
     if data is None:
         with lock:
             st["skipped"][key] = "unreachable"
             save_state(st)
         return None
-    txt = extract(data)
+    txt = extract(data, ext)
     if not txt or len(txt) < 60:
         with lock:
             st["skipped"][key] = "no_text"
@@ -114,7 +136,7 @@ def process(item, st):
         "filename": os.path.basename(orig) or orig,
         "title": os.path.basename(orig).replace(".pdf", "").replace("_", " ").replace("-", " ") or orig,
         "type": "document",
-        "extension": ".pdf",
+        "extension": f".{ext}",
         "size_bytes": 0,
         "source_url": orig,
         "source_site": f"wayback:{st['domain']}",
@@ -140,11 +162,16 @@ def main():
     ap.add_argument("--limit", type=int, default=10)
     ap.add_argument("--workers", type=int, default=3)
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--exts", default="pdf",
+                    help="comma-separated extensions to harvest (default: pdf). "
+                         "e.g. --exts txt,html for text archives")
     args = ap.parse_args()
 
     print(f"CDX query: {args.domain} (limit {args.limit})...", flush=True)
-    items = cdx_list(args.domain, args.limit)
-    print(f"  archived PDFs found: {len(items)}", flush=True)
+    exts = tuple(e.strip().lstrip(".").lower()
+                 for e in args.exts.split(",") if e.strip())
+    items = cdx_list(args.domain, args.limit, exts)
+    print(f"  archived files found ({'/'.join(exts)}): {len(items)}", flush=True)
     if args.dry_run:
         for ts, u in items[:10]:
             print(f"    {ts[:8]} {u}")
