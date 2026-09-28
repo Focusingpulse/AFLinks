@@ -39,6 +39,7 @@ NOTE (2026-08-29, patched by Forge / translation-qc):
   values before "fixing" the script.
 """
 import json, os, re, sys, glob, datetime, urllib.request, subprocess
+import unicodedata
 
 
 def refresh_shared_repo(path):
@@ -440,7 +441,9 @@ def _merge_metadata_dupes(entries):
     (authored title + source_url), matching the revision ranking above.
     """
     def _norm_t(t):
-        t = re.sub(r"[^a-z0-9 ]+", " ", (t or "").lower())
+        t = unicodedata.normalize("NFKD", (t or "").lower())
+        t = "".join(c for c in t if not unicodedata.combining(c))
+        t = re.sub(r"[^a-z0-9 ]+", " ", t)
         return re.sub(r"\s+", " ", t).strip().rstrip("…").strip()
 
     # union-find over entries
@@ -1268,6 +1271,91 @@ def main():
     if len(translation_works) != _pre_meta:
         print(f"dedupe: metadata-level pass {_pre_meta} -> {len(translation_works)} "
               f"(same-title/same-url re-emissions dropped)", flush=True)
+    # 2026-09-28 (Drunvalo, translation-QC): DB-alignment pass. The inherited
+    # list also carries entries whose work EXISTS in research-index.json but
+    # under a different filename convention (09-03 vortex-motor vs the DB's
+    # 09-10 el-motor-de-vortice, 09-04 spyridis vs 09-10 platonic-theory,
+    # 09-10 study-on-torsion-fields vs 09-11 keeper, 09-02/09-07 extended-EM
+    # vs 09-11 keeper...). Those are stale variants, not distinct works: the
+    # DB entry is the curated identity. Match feed entries to DB works by
+    # normalized-title containment (>=4 shared tokens, one token set inside
+    # the other) or same source_url, then REWRITE the feed entry's file/title/
+    # source_url/date to the DB keeper's. Distinct-language pairs never
+    # align (a source doc and its EN translation are different artifacts).
+    try:
+        _dbw = {}
+        for _w in (_ri.get("works") or []):
+            if _w.get("file"):
+                _dbw[_w["file"].split("/")[-1]] = _w
+        _lang_toks = {"fr", "de", "ru", "en", "it", "es", "el", "pt", "zh",
+                      "ja", "source", "translation"}
+        def _nt(t):
+            # NFKD accent-stripping first: "Psicogeometría" must token-match
+            # "Psicogeometria" (2026-09-28) — the [^a-z0-9] class alone
+            # splits accented words into mojibake-like fragments.
+            t = unicodedata.normalize("NFKD", (t or "").lower())
+            t = "".join(c for c in t if not unicodedata.combining(c))
+            t = re.sub(r"[^a-z0-9 ]+", " ", t)
+            return set(t.split()) - _lang_toks
+        _aligned = 0
+        for _tw in translation_works:
+            if not isinstance(_tw, dict) or not _tw.get("file"):
+                continue
+            _ta = _nt(_tw.get("title"))
+            if not _ta:
+                continue
+            _ua = (_tw.get("source_url") or "").strip()
+            for _fn, _dw in _dbw.items():
+                if _fn == (_tw.get("file") or "").split("/")[-1]:
+                    continue          # already aligned
+                # DB language can be a 2-letter code ("fr") or a full name
+                # ("French", "Russian", "Korean") — normalize both sides
+                # through LANG_NAMES before comparing. DB language is the
+                # SOURCE language; feed language must match it (target is
+                # English for translations).
+                def _lcode(v):
+                    v = (v or "").strip().lower()
+                    if not v:
+                        return ""
+                    if len(v) == 2:
+                        return v
+                    for _c, _n in LANG_NAMES.items():
+                        if _n.lower() == v:
+                            return _c
+                    return v[:2]
+                _lang_a = _lcode(_tw.get("language"))
+                _db_lang = _lcode(_dw.get("language"))
+                if _lang_a != _db_lang and not (_db_lang in ("", "en")
+                        and _lang_a == "en"):
+                    continue
+                _tb = _nt(_dw.get("title"))
+                if not _tb:
+                    continue
+                _ub = (_dw.get("source_url") or "").strip()
+                _same_url = bool(_ua) and bool(_ub) and _ua == _ub
+                _contained = (len(_ta & _tb) >= 4
+                              and (_ta <= _tb or _tb <= _ta))
+                if not (_same_url or _contained):
+                    continue
+                _tw["file"] = _dw["file"]
+                _tw["title"] = _dw.get("title") or _tw.get("title")
+                if _dw.get("source_url"):
+                    _tw["source_url"] = _dw["source_url"]
+                if _dw.get("date"):
+                    _tw["date"] = _dw["date"]
+                _aligned += 1
+                break
+        if _aligned:
+            print(f"align: {_aligned} feed entries rewritten to DB keeper "
+                  f"filenames (stale variants)", flush=True)
+            # aligned entries may now collide on file -> re-run metadata dedupe
+            _pre_al = len(translation_works)
+            translation_works = _merge_metadata_dupes(translation_works)
+            if len(translation_works) != _pre_al:
+                print(f"dedupe: post-align pass {_pre_al} -> "
+                      f"{len(translation_works)}", flush=True)
+    except Exception as _e:
+        print(f"WARN: DB-alignment pass skipped: {_e}", flush=True)
     feed["latest_translations"] = translation_works
     # ── Counter never-regress guard + diagnostic record (2026-09-22, Cairn) ──
     # pages_translated was the ONLY published counter with no floor. When the

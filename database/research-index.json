@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "description": "Research index for the Aetherforce Living Library. Links works to themes, concepts, and cross-references. Maintained by Synthesist.",
     "last_updated": "2026-09-27",
-    "note": "QC 2026-09-26 (Drunvalo): removed YAML frontmatter accidentally prepended 2026-09-25 (breaks json.load); merged 33 cross-convention duplicate re-emissions into their rich keepers (6th damage class: same work, different slug conventions, escapes file-grouping)."
+    "note": "QC 2026-09-28 (Drunvalo): folded 3 duplicate works (akimov-shipov 09-18 re-emission of the trinitas.ru article, schauberger water-blood 09-11 date-variant, acqua-viva 09-06/09-10 pair); added 10 works from the 09-27 translation batch that were in library_feed but missing from the DB (vysotsky-kornilova water memory, tesla turbine, servranx radionique, IET flow technology, radiesthesie, pugach torsind, heliquantix, biodynamic agriculture, adaris akimov plant growth, contino form waves). Previous: QC 2026-09-26 (Drunvalo): removed YAML frontmatter accidentally prepended 2026-09-25 (breaks json.load); merged 33 cross-convention duplicate re-emissions into their rich keepers (6th damage class: same work, different slug conventions, escapes file-grouping)."
   },
   "works": [
     {
@@ -190,7 +190,8 @@
       ],
       "status": "translated",
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "2026-09-18 re-emission (akimov-shipov-torsion-fields-and-their-experimental-manifestations-ru, same trinitas.ru article) folded into this entry 2026-09-28. Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/004a/02310004.htm"
     },
     {
       "id": "analyse-brevets-tesla-energie-radiante-fr",
@@ -3516,29 +3517,6 @@
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "schauberger-acquaviva-it",
-      "title": "Italian translation of Viktor Schauberger's \"Acqua Viva\" (Living Water), a collection of his writings on water, forestry, and natural energy. Translated from Italian by the Translation Sweeper agent.",
-      "authors": [
-        "tesla",
-        "schauberger"
-      ],
-      "date": "2026-09-06",
-      "language": "it",
-      "translated": true,
-      "file": "translations/2026-09-06-schauberger-acquaviva-it.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "schauberger-dynamic-hydroelectric-energy-es",
       "title": "Dynamic Hydroelectric Energy: Schauberger's Suction Turbine and Herbrand's Anomaly",
       "authors": [
@@ -3614,28 +3592,6 @@
       ],
       "status": "translated",
       "notes": "Full DE->EN translation of the oekotrend.ch 2004-revision sampler of Schauberger's 'Wasser — Das Blut der Erde' (210 chunks). First full-length primary Schauberger text in the collection. QC: duplicate file (without source URL) removed 2026-09-09.",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "schauberger-water-blood-of-the-earth-de",
-      "title": "Schauberger Water Blood Of The Earth",
-      "authors": [
-        "schauberger"
-      ],
-      "date": "2026-09-11",
-      "language": "de",
-      "translated": true,
-      "file": "translations/2026-09-11-schauberger-water-blood-of-the-earth-de.md",
-      "themes": [],
-      "concepts": [
-        "torsion",
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
       "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -4479,7 +4435,7 @@
       "status": "translated",
       "source_url": "https://doi.org/10.5281/zenodo.17311741",
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "2026-09-28: folded 2 stub re-emissions of the same zenodo DOI 10.5281/zenodo.17311741 — theorie-de-l-univers-onde-tuo-fr (2026-08-29) and tuo-wave-universe-theory-fr (2026-08-31). Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
       "id": "turenne-biographie-johnben-fr-en",
@@ -5128,28 +5084,6 @@
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
-      "id": "akimov-shipov-torsion-fields-and-their-experimental-manifestations-ru",
-      "title": "A.E. Akimov & G.I. Shipov: Torsion Fields and Their Experimental Manifestations (IITAP RANS Preprint No. 4, 1995)",
-      "authors": [
-        "shipov",
-        "akimov"
-      ],
-      "date": "2026-09-18",
-      "language": "Russian",
-      "translated": true,
-      "file": "translations/2026-09-18-akimov-shipov-torsion-fields-and-their-experimental-manifestations-ru.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "torsion"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "arace-hospital-radiesthesia-relato-pt-en",
       "title": "Radiesthetic Radionics in a São Paulo Hospital: The ARACÊ Experience Report (Suzin et al. 2026)",
       "authors": [],
@@ -5731,7 +5665,8 @@
       "themes": [],
       "key_claims": [],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-15-korschelt-1892-nutzbarmachung-lebendigen-kraft-aethers-de",
@@ -5745,7 +5680,8 @@
       "themes": [],
       "key_claims": [],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-15-lether-fluide-et-tourbillonnaire-des-champs-de-torsion-fr",
@@ -5759,7 +5695,8 @@
       "themes": [],
       "key_claims": [],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-15-zenin-water-as-information-storage-ru",
@@ -5773,7 +5710,8 @@
       "themes": [],
       "key_claims": [],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-17-hecquet-dgnere-toric-resonance-fr-en",
@@ -5787,7 +5725,8 @@
       "themes": [],
       "key_claims": [],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-19-bersez-odf-magnetic-ink-circuits-fr-en",
@@ -5812,7 +5751,8 @@
         "Magnetic ink serves as both circuit medium and orientation agent for the ODF apparatus class"
       ],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-19-curry-network-skeptic-critique-fr-en",
@@ -5834,7 +5774,8 @@
         "Skeptic-side examination of the Curry global grid claim and its evidential basis"
       ],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-19-ephaptic-coupling-brain-field-computer-en",
@@ -5856,7 +5797,8 @@
         "The remaining research seam: endogenous read-write field → external/intentional field interaction"
       ],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-20-bovis-biometro-construction-primary-pt-en",
@@ -5884,7 +5826,8 @@
         "1° = 2 mm; 1 cm = 5° on the Biometer scale"
       ],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-20-xu-jizong-12-meridian-acoustic-resonance-ladder-zh-en",
@@ -5912,7 +5855,8 @@
         "No blinding/expectation control; all rows from same lab"
       ],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-20-la-structure-revelee-kelsya-fiquemont-fr",
@@ -5942,7 +5886,8 @@
       "cross_refs": [
         "2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr"
       ],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr",
@@ -5972,7 +5917,8 @@
       "cross_refs": [
         "2026-09-20-la-structure-revelee-kelsya-fiquemont-fr"
       ],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-20-portance-du-vide-expansion-cosmique-phi-kappa-fr",
@@ -6002,7 +5948,8 @@
       "cross_refs": [
         "portance-du-vide-burtin-en"
       ],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-20-deba-cosmologie-sans-postulats-fr",
@@ -6035,7 +5982,8 @@
         "deba-debailleul-en",
         "deba-cosmology-without-postulates-fr"
       ],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "2026-09-20_AHPNE-Guide-des-sources-archives-energie-climat_EN",
@@ -6061,7 +6009,8 @@
         "179-page reference guide to French energy-climate archival sources"
       ],
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry.",
+      "cross_references": []
     },
     {
       "id": "sergeev-gidrosolenoid-trial-reports-uk-en",
@@ -6271,7 +6220,8 @@
         "At least six independent research traditions (German/Swiss SAFE, Russian torsion (Shipov/Akimov), Austrian implosion (Schauberger), Greek Platonic physics (Spyridis), Italian water coherence (Del Giudice/Pollack), French Tesla radiant analysis) converge on the vortex/spiral as the fundamental pattern of natural organization",
         "Spiral motion is the primary mode of organization, not a secondary phenomenon; straight lines are human abstractions",
         "Understanding the vortex is presented as key to energy, matter, life, and consciousness"
-      ]
+      ],
+      "cross_references": []
     },
     {
       "id": "water-information-medium",
@@ -6304,7 +6254,8 @@
         "Five traditions (Italian QED biophysics, Austrian vortex technology, French form wave theory, British morphic resonance, Mexican psychogeometry) converge on water as an active information medium, not merely a solvent",
         "Coherent water structures carry, store, and transmit biological form",
         "Water is the physical bridge through which vacuum structure becomes biological form"
-      ]
+      ],
+      "cross_references": []
     },
     {
       "id": "geometric-constants-generative-principles",
@@ -6337,7 +6288,8 @@
         "Five traditions (Mexican psychogeometry, Greek Platonic particle physics, French vacuum tension theory, Brazilian scalar engineering, Italian LENR) converge on phi/pi/euler as generative principles rather than human abstractions",
         "Mathematical constants are the 'code' of the vacuum — the substrate from which matter crystallizes",
         "Constants are the generative geometry through which the formless becomes formed"
-      ]
+      ],
+      "cross_references": []
     },
     {
       "id": "longitudinal-waves-non-hertzian-electrodynamics",
@@ -6371,7 +6323,8 @@
         "A class of longitudinal, scalar, and torsion electromagnetic phenomena was eliminated from theoretical consideration by the Heaviside-Hertz reduction of Maxwell's equations",
         "These phenomena are technologically accessible, not merely theoretical: demonstrated by Tesla, formalized by Barrett (1993), rediscovered by Russian, Brazilian, and Spanish researchers",
         "Transverse EM waves are a subset of a richer electromagnetic reality that includes longitudinal, scalar, and torsion modes"
-      ]
+      ],
+      "cross_references": []
     },
     {
       "id": "implosion-negentropy-principle",
@@ -6405,7 +6358,8 @@
         "Seven traditions (Schauberger, Rivero y Hornos, SAFE, Prometheus, Waechter, Del Giudice/Pollack, Manzalini) converge on two fundamental modes of natural process: explosion (centrifugal, entropic) and implosion (centripetal, negentropic)",
         "Nature builds structure, coherence, and life through implosion; industrial technology uses only explosion, which dissipates and destroys",
         "Implosion is quantifiable, reproducible, and technologically applicable; failure to harness it framed as root cause of energy scarcity and ecological destruction"
-      ]
+      ],
+      "cross_references": []
     },
     {
       "id": "vortex-lineage-kelvin-to-modern-free-energy",
@@ -6437,7 +6391,8 @@
         "Vortex physics was mainstream in the mid-19th century (Helmholtz 1858, Kelvin's vortex atom 1867, Maxwell's endorsement, Thomson's Adams Prize 1882) before being abandoned — not suppressed — when quantum mechanics and relativity became dominant",
         "A continuous lineage of researchers (Schauberger, SAFE working group, Shipov) kept developing vortex physics in parallel to mainstream physics",
         "Modern alternative vortex research is a continuation of a program that was mainstream physics in 1867"
-      ]
+      ],
+      "cross_references": []
     },
     {
       "id": "coherence-convergence",
@@ -6472,7 +6427,8 @@
         "Five traditions (Ravatin's coherence fields, Del Giudice/Preparata's QED water domains, Ponce de León's psychogeometry, Karim's BG3 quality scale, Sheldrake's morphogenetic fields) converged on the same word: coherence",
         "Convergent claim: organized structure creates a domain where information is stored and transmitted without conventional energy transfer",
         "A unified coherence framework would need to reconcile mathematical non-localized emission, QED ground-state domains, geometric ordering, measurable spatial resonance, and biological memory fields"
-      ]
+      ],
+      "cross_references": []
     },
     {
       "id": "understanding-water-schauberger-italian-context-it-en",
@@ -6762,7 +6718,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "German",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "water-based-cold-machine-zh",
@@ -6773,7 +6730,8 @@
       "key_claims": [],
       "source_url": "https://www.tech-works.cn/-nd-585.html",
       "language": "Chinese",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "turenne-baguette-coudrier-detecteurs-1935-fr",
@@ -6784,7 +6742,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "French",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "tsinghua-qigong-research-1987-zh",
@@ -6795,7 +6754,8 @@
       "key_claims": [],
       "source_url": "http://www.qingyunju.com/a/qigong/yaowen/guangmi",
       "language": "Chinese",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "torsion-waves-neutrophil-respiratory-burst-pl",
@@ -6806,7 +6766,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "Polish",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "schauberger-natural-flow-guidance-patent-analysis-harthun-de-en",
@@ -6817,7 +6778,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "German",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "radionics-chaumery-belizal-es",
@@ -6828,7 +6790,8 @@
       "key_claims": [],
       "source_url": "https://radionic-international.com/radionica-y-los-modelos-de-chaumery",
       "language": "Spanish",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "qigong-infrared-spectrum-lee-si-chen-zh",
@@ -6839,7 +6802,8 @@
       "key_claims": [],
       "source_url": "https://web.archive.org/web/20200803204038/http://www.ch",
       "language": "Chinese",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "qeg-user-manual-v10-spanish-es-en",
@@ -6850,7 +6814,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "Spanish",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "pollack-fourth-phase-water-ja",
@@ -6861,7 +6826,8 @@
       "key_claims": [],
       "source_url": "https://hado.com/water-memory/pollack/",
       "language": "Japanese",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "intelligent-water-memory-ko",
@@ -6872,7 +6838,8 @@
       "key_claims": [],
       "source_url": "https://www.jejunews.com/news/articleView.html?idxno=2027703",
       "language": "Korean",
-      "date_added": "2026-09-26"
+      "date_added": "2026-09-26",
+      "cross_references": []
     },
     {
       "id": "tesla-radiant-energy-concept-teslavital-fr",
@@ -6883,7 +6850,8 @@
       "key_claims": [],
       "source_url": "https://www.teslavital.fr/nikola-tesla-et-le-concept-denergie-radiante/",
       "language": "French",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "shipov-institute-vacuum-physics-experiments-ru",
@@ -6894,7 +6862,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "Russian",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "lumiere-latente-couleur-plasma-kelsya-fr",
@@ -6905,7 +6874,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "French",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "la-structure-revelee-kelsya-fiquemont-fr",
@@ -6916,7 +6886,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "French",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "korschelt-die-nutzbarmachung-der-lebendigen-kraft-des-aethers-de",
@@ -6927,7 +6898,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "Korean",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "jspf-anomalous-heat-special-section-ja",
@@ -6938,7 +6910,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "Japanese",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "el-motor-de-vortice-mvp-v1-open-source-led-generator-es",
@@ -6949,7 +6922,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "German",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "dynamisation-de-leau-science-du-vortex-aquae-fr",
@@ -6960,7 +6934,8 @@
       "key_claims": [],
       "source_url": "https://www.aquae-officiel.fr/2023/05/05/dynamisation-eau-science-tourbillon/",
       "language": "French",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "benveniste-ma-verite-sur-la-memoire-de-l-eau-fr",
@@ -6971,7 +6946,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "French",
-      "date_added": "2026-09-22"
+      "date_added": "2026-09-22",
+      "cross_references": []
     },
     {
       "id": "morphic-fields-morphic-resonance-sheldrake-pl-en",
@@ -6982,7 +6958,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "Polish",
-      "date_added": "2026-09-20"
+      "date_added": "2026-09-20",
+      "cross_references": []
     },
     {
       "id": "za-tajemstvim-eteru-csaa2-mystery-cs",
@@ -6993,7 +6970,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "Czech",
-      "date_added": "2026-09-17"
+      "date_added": "2026-09-17",
+      "cross_references": []
     },
     {
       "id": "wilhelm-reich-ether-physics-orgone-experiments-de",
@@ -7004,18 +6982,8 @@
       "key_claims": [],
       "source_url": "https://orgonomie.net/hdowrphysik.pdf",
       "language": "German",
-      "date_added": "2026-09-11"
-    },
-    {
-      "id": "theorie-de-l-univers-onde-tuo-fr",
-      "title": "Theorie de l Univers Onde TUO",
-      "file": "translations/2026-09-10-theorie-de-l-univers-onde-tuo-fr.md",
-      "themes": [],
-      "concepts": [],
-      "key_claims": [],
-      "source_url": "https://doi.org/10.5281/zenodo.17311741",
-      "language": "French",
-      "date_added": "2026-09-10"
+      "date_added": "2026-09-11",
+      "cross_references": []
     },
     {
       "id": "magnitsky-gravity-compressible-ether-ru",
@@ -7026,7 +6994,8 @@
       "key_claims": [],
       "source_url": "https://complex-systems.ru/issues/2019-n4",
       "language": "Russian",
-      "date_added": "2026-09-07"
+      "date_added": "2026-09-07",
+      "cross_references": []
     },
     {
       "id": "acqua-viva-viktor-schauberger-it",
@@ -7037,18 +7006,8 @@
       "key_claims": [],
       "source_url": "https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf",
       "language": "Italian",
-      "date_added": "2026-09-10"
-    },
-    {
-      "id": "tuo-wave-universe-theory-fr",
-      "title": "TUO — Wave Universe Theory (French source)",
-      "file": "translations/2026-08-31-tuo-wave-universe-theory-fr.md",
-      "themes": [],
-      "concepts": [],
-      "key_claims": [],
-      "source_url": "",
-      "language": "French",
-      "date_added": "2026-08-31"
+      "date_added": "2026-09-10",
+      "cross_references": []
     },
     {
       "id": "del-giudice-pollack-ez-water-it",
@@ -7059,7 +7018,8 @@
       "key_claims": [],
       "source_url": "",
       "language": "German",
-      "date_added": "2026-08-30"
+      "date_added": "2026-08-30",
+      "cross_references": []
     },
     {
       "id": "sacred-geometry-matter-energy-qualities-es",
@@ -7070,7 +7030,8 @@
       "key_claims": [],
       "source_url": "https://psicogeometria.com/geometriasagrada4-1.html",
       "language": "Spanish",
-      "date_added": "2026-08-29"
+      "date_added": "2026-08-29",
+      "cross_references": []
     },
     {
       "id": "field-and-quantum-potential-of-consciousness-it",
@@ -7457,9 +7418,275 @@
         "safe-compendium-vortex-physics"
       ],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry. Distinct from the SAFE 1999 compendium (safe-compendium-vortex-physics) per Forge QC."
+    },
+    {
+      "id": "vysotsky-kornilova-physical-foundations-water-memory-ru",
+      "title": "Physical Foundations of the Long-Term Memory of Water (Vysotsky & Kornilova, 2004)",
+      "authors": [
+        "vysotsky",
+        "kornilova"
+      ],
+      "date": "2026-09-27",
+      "language": "ru",
+      "translated": true,
+      "file": "translations/2026-09-27-vysotsky-kornilova-physical-foundations-water-memory-ru.md",
+      "themes": [
+        "Water, Life & Biology",
+        "Water Coherence"
+      ],
+      "concepts": [
+        "water_memory",
+        "coherence",
+        "information"
+      ],
+      "key_claims": [
+        "Physical-molecular model of how water acquires long-term memory",
+        "Long-term memory linked to stable supramolecular structures in water"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "tesla-turbine-spanish-wikipedia-es",
+      "title": "Turbina Tesla (Spanish Wikipedia)",
+      "authors": [],
+      "date": "2026-09-27",
+      "language": "es",
+      "translated": true,
+      "file": "translations/2026-09-27-tesla-turbine-spanish-wikipedia-es.md",
+      "themes": [
+        "History of Science",
+        "Alternative Energy Technologies"
+      ],
+      "concepts": [
+        "vortex"
+      ],
+      "key_claims": [
+        "Boundary-layer disc turbine patented by Nikola Tesla (1913)",
+        "Uses smooth parallel discs rather than bladed rotors"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "https://es.wikipedia.org/wiki/Turbina_Tesla",
+      "note": "Spanish Wikipedia article, translated to English. Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "servranx-radionique-60-years-fr",
+      "title": "Servranx — RADIONIQUE (60+ years of radionics publications)",
+      "authors": [
+        "servranx"
+      ],
+      "date": "2026-09-27",
+      "language": "fr",
+      "translated": true,
+      "file": "translations/2026-09-27-servranx-radionique-60-years-fr.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "History of Science"
+      ],
+      "concepts": [
+        "radionics",
+        "radiesthesia"
+      ],
+      "key_claims": [
+        "Overview of the Servranx brothers' 60+ years of radionics publications"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "self-organizing-flow-technology-iet-sv",
+      "title": "Self-organizing Flow Technology — In Viktor Schauberger's Footsteps (IET Forskningsrapporter Nr 1)",
+      "authors": [
+        "hallberg"
+      ],
+      "date": "2026-09-27",
+      "language": "sv",
+      "translated": true,
+      "file": "translations/2026-09-27-self-organizing-flow-technology-iet-sv.md",
+      "themes": [
+        "Vortex & Implosion",
+        "Water, Life & Biology"
+      ],
+      "concepts": [
+        "vortex",
+        "implosion",
+        "water"
+      ],
+      "key_claims": [
+        "Flow self-organization technology traced in Viktor Schauberger's footsteps",
+        "Institute for Ecological Technology research report (Johansson, Ovesen, Hallberg)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "radiesthesie-french-wikipedia-fr",
+      "title": "Radiesthésie (French Wikipedia)",
+      "authors": [],
+      "date": "2026-09-27",
+      "language": "fr",
+      "translated": true,
+      "file": "translations/2026-09-27-radiesthesie-french-wikipedia-fr.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "History of Science"
+      ],
+      "concepts": [
+        "radiesthesia",
+        "dowsing"
+      ],
+      "key_claims": [
+        "French-language encyclopedia overview of radiesthesia"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "https://fr.wikipedia.org/wiki/Radiesth%C3%A9sie",
+      "note": "French Wikipedia article, translated to English. Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "pugach-torsind-anomalous-temporal-effects-uk",
+      "title": "Pugach Torsind — Anomalous Temporal Effects",
+      "authors": [
+        "pugach"
+      ],
+      "date": "2026-09-27",
+      "language": "uk",
+      "translated": true,
+      "file": "translations/2026-09-27-pugach-torsind-anomalous-temporal-effects-uk.md",
+      "themes": [
+        "Plasma, Torsion & Cosmology"
+      ],
+      "concepts": [
+        "torsion"
+      ],
+      "key_claims": [
+        "Torsind torsion-field detector registers anomalous temporal effects",
+        "Full English translation of Pugach's torsind research (Kozyrev lineage)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "heliquantix-support-memory-frequency-imprinting-fr",
+      "title": "Héliquantix — Support Memory and Frequency Imprinting: From Structured Water to Photosensitive Resins",
+      "authors": [],
+      "date": "2026-09-27",
+      "language": "fr",
+      "translated": true,
+      "file": "translations/2026-09-27-heliquantix-support-memory-frequency-imprinting-fr.md",
+      "themes": [
+        "Water, Life & Biology",
+        "Radionics, Radiesthesia & Shape Power"
+      ],
+      "concepts": [
+        "water_memory",
+        "form_resonance"
+      ],
+      "key_claims": [
+        "Extends the water-memory concept to photosensitive resin supports",
+        "Frequency imprinting from structured water to solid supports (6 August 2026)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "biodynamic-agriculture-contemporary-view-es",
+      "title": "Biodynamic Agriculture II: A Contemporary Look (Bio Eco Actual, 2024)",
+      "authors": [],
+      "date": "2026-09-27",
+      "language": "es",
+      "translated": true,
+      "file": "translations/2026-09-27-biodynamic-agriculture-contemporary-view-es.md",
+      "themes": [
+        "Biological & Morphogenetic Science"
+      ],
+      "concepts": [
+        "bioenergy"
+      ],
+      "key_claims": [
+        "Contemporary overview of biodynamic agriculture (Bio Eco Actual, 2024)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "adaris-akimov-torsion-field-plant-growth-ru",
+      "title": "Adaris Institute — Right vs Left Akimov Torsion Fields and Plant Growth (2025)",
+      "authors": [],
+      "date": "2026-09-27",
+      "language": "ru",
+      "translated": true,
+      "file": "translations/2026-09-27-adaris-akimov-torsion-field-plant-growth-ru.md",
+      "themes": [
+        "Plasma, Torsion & Cosmology",
+        "Biological & Morphogenetic Science"
+      ],
+      "concepts": [
+        "torsion",
+        "bioenergy"
+      ],
+      "key_claims": [
+        "Comparative experiment: right vs left torsion fields of the Akimov generator on plant growth (2025)",
+        "Biological processes studied via quantum theory and wave dynamics"
+      ],
+      "cross_references": [
+        "akimov-shipov-torsion-research-ru"
+      ],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "form-waves-and-sacred-geometry-it",
+      "title": "Form Waves and Sacred Geometry (Mario Contino)",
+      "authors": [
+        "contino"
+      ],
+      "date": "2026-09-11",
+      "language": "it",
+      "translated": true,
+      "file": "translations/2026-09-11-form-waves-and-sacred-geometry-it.md",
+      "themes": [
+        "Sacred Geometry & Form",
+        "Radiesthesia, Radionics & Form Waves"
+      ],
+      "concepts": [
+        "form_waves",
+        "sacred_geometry"
+      ],
+      "key_claims": [
+        "Form waves and sacred geometry in Mario Contino's Blog of Mystery research"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     }
   ],
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "research": [
     {
       "title": "Electromagnetic Fields and the Memory of Water: A Challenge That Continues",
