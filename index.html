@@ -2010,7 +2010,7 @@
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">99,478</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">90,373</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">146</span> translations published · <span id="heroPagesCount">3,779</span> pages translated &amp; growing</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">150</span> translations published · <span id="heroPagesCount">3,779</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
@@ -2967,7 +2967,7 @@ I must ask you to excuse me for speaking in German and not in Dutch; however, I 
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260928212630')
+            fetch('./synthesis/synthesis_index.json?v=20260928220936')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3853,7 +3853,7 @@ I must ask you to excuse me for speaking in German and not in Dutch; however, I 
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20260928212630');
+                            const mRes = await fetch('./search_index_manifest.json?v=20260928220936');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3876,7 +3876,7 @@ I must ask you to excuse me for speaking in German and not in Dutch; however, I 
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20260928212630');
+                        const response = await fetch('./search_index.json?v=20260928220936');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3907,12 +3907,12 @@ I must ask you to excuse me for speaking in German and not in Dutch; however, I 
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260928212630');
+                    const man = await fetch('./full_manifest.json?v=20260928220936');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260928212630');
+                    const feedRes = await fetch('./library_feed.json?v=20260928220936');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4028,7 +4028,7 @@ I must ask you to excuse me for speaking in German and not in Dutch; however, I 
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260928212630');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260928220936');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
