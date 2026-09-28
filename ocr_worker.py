@@ -234,7 +234,11 @@ def main():
                 remain = (len(jobs) - completed) / rate if rate else 0
                 log(f"  [{completed}/{len(jobs)}] updated_batch={updated_batch} "
                     f"failed={failed} | {rate:.1f}/s | eta {remain:.0f}s")
-            # periodic save + push
+            # lightweight state checkpoint every 50 (resume skips done URLs)
+            if completed % 50 == 0:
+                state["updated"] = updated_total
+                save_state(state)
+            # periodic save + push (heavy index rewrite)
             if completed - last_save >= args.batch:
                 last_save = completed
                 state["updated"] = updated_total
