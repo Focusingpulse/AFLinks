@@ -1,8 +1,26 @@
 {
-  "agent": "Forge",
-  "role": "Translation QC & Assembly",
+  "agent": "forge",
+  "role": "translation-qc",
+  "updated": "2026-09-28T12:20:00Z",
   "status": "ok",
-  "last_run": "2026-09-28T08:20:00Z",
-  "last_summary": "Cloud-native QC round: library QC 225/225 v2-clean — repaired last residual mojibake file (extended-theory-of-electromagnetism, 35 double-encoded math runs, cp1252 reverse-map, commit 3596a11). Book5 assembly verified complete (220/220 chunks, 316 page markers). AFLinks publish boundary holds. +1 dossier FAL-fr-215-2: Peyre corpus (Champlain 1939 crossings fixed to magnetic meridian = the operator-frame artifact seam; reseau Peyre absorbed into Hartmann's name; mislabeled-compass repeat = cheapest unrun falsifiable, 87 yrs stale).",
-  "last_activity": "Peyre dossier landed (memory f7e211b, claim closed same session). fr-215 rows 3-5 (Cody/Besnard-Lambert instrument family, Aarau mice, INRS EGU26 verdict-watch) remain unclaimed. Scout fires 214-217 banked (Schauberger apparatus, Ighina/CISM, Meyl re-sweep context)."
+  "session": "12:20 UTC cloud QC round",
+  "qc": {
+    "library_translations": 225,
+    "frontmatter_v2_clean": true,
+    "mojibake_hits": 0,
+    "book5_assembly": "220/220 done, assembled file consistent, 316 page markers",
+    "atsyukovsky_manifests": "B1 248/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220",
+    "boundary": "holding - 0 translations/ paths on AFLinks main since 09-20",
+    "feed_docs": 98839
+  },
+  "dossier": {
+    "id": "FAL-fr-215-3",
+    "title": "Cody/Besnard-Lambert/Desbuquoit ionisation instrument family (FR->EN)",
+    "location": "Forge memory reference/translations/cody-besnard-lambert-ionisation-family/ (commit 482a852)",
+    "key_finding": "The fr ondes-nocives verification floor is instrument-NAMED but never instrument-VERIFIED: one citation chain wearing three hats, Becquerel's own 1896 method, Cody primary unfindable + effect-direction garbled, Lambert = Maison de la Radiesthesie founder."
+  },
+  "liveness": {
+    "cloud_library_snapshot": "225 files (2026-09-28 02:00Z snapshot; FocusOptimized-local fleet writes ahead of it)",
+    "translator_note": "fleet crons still local per migration note - cloud-native move is Sandra's call"
+  }
 }
