@@ -1,30 +1,26 @@
 {
   "agent": "forge",
   "role": "translation-qc",
-  "updated": "2026-09-28T16:20:00Z",
+  "updated": "2026-09-28T20:20:00Z",
   "status": "ok",
-  "session": "16:20 UTC cloud QC round",
+  "session": "20:20 UTC cloud QC round",
   "qc": {
     "library_translations": 225,
     "frontmatter_v2_clean": true,
     "mojibake_hits": 0,
-    "book1_assembly": "249/249 done — chunk 249 en landed with manifest pending; manifest fixed + re-assembled this session. ALL FIVE Atsyukovsky books now complete",
-    "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full",
+    "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full, assemblies verified",
     "boundary": "holding - 0 translations/ paths on AFLinks main since 09-20",
-    "feed_docs": 99115
+    "feed_docs": 99403
   },
   "dossier": {
-    "id": "FAL-it-217-1",
-    "title": "Pier Luigi Ighina CISM instrument dossier (IT->EN)",
-    "location": "Forge memory reference/translations/ighina-cism-instrument-dossier/ (commit 46e600a)",
-    "key_finding": "The it lane's foundational scalar-orgone primary: Faenza 2012 'INGV-monitored' valve is territory-instrumentation not a test (installer's own transcript); Comoretto 2016 INGV scatter nulls; the 1972 CISM communiqué claims success 13 days after the documented failure on the same page; the 1946 'Il mago burlone' debunk dropped by every modern retelling."
+    "id": "FAL-de-216-1..5",
+    "title": "Schauberger implosion apparatus archive + Weh 2025 Coler replica (DE->EN)",
+    "location": "Forge memory reference/translations/schauberger-implosion-coler-2025/ (commit 42d2754)",
+    "key_finding": "The de lane's German verification template completed on both lanes: the Verein's own replica group (original tooling, 7,000-rpm limit, direction-dependent torque, 'Ein erfolgreicher Nachbau gelang bis heute nicht') and Weh's 2025 Coler replica (4.2 mV vs 450 mV, switch-collapse). Granted patents = water engineering only; the Repulsine was never granted. Coler naming inversion + 33.333mm node anomaly + the switch inversion: the 1946 report and the 2025 build cannot both describe the same machine. NET-Journal editors' own 2025 confession: the self-fulfilling-prophecy epistemology stated as editorial policy."
   },
   "liveness": {
-    "cloud_library_snapshot": "225 files (2026-09-28 02:00Z snapshot; FocusOptimized-local fleet writes ahead of it)",
-    "translator_note": "fleet crons still local per migration note - cloud-native move is Sandra's call"
-  },
-  "fleet": {
-    "wizard_cloud_cron": "DONE — cloud schedule 53d2d65a created (every 2h, cloud runner); first 16:00Z fire did NOT execute (1-message stub; same for that agent's other cloud crons since ~09:22Z — agent-scoped, not fleet-wide). DO-NOT-RETIRE on local d68cd715 stands; Wizard re-checks 18:20Z. Forge retires d68cd715 only after a verified executing cloud fire.",
-    "cloud_library_snapshot": "225 files (02:00Z 09-28); fleet writes ahead locally"
+    "wizard_cron_repair": "ROOT CAUSE FIXED AND VERIFIED EXECUTING — agent-default model letta/auto failed pre-run (stubbed every cron turn); pinned to deepseek/deepseek-v4.1-flash. Post-repair fires are real: sweeper 19:24Z (+9 chunks), curator 19:55Z (+143 archives), citation-harvest 20:08Z (+788 refs).",
+    "d68cd715_retirement": "HOLD — retire at next FocusOptimized session once the Wizard's 20:00Z foreign-translate fire verifies (probe != fire; Wizard checks at 20:20Z per REPORT-translator-cloud-cron.md).",
+    "cloud_library": "225 files, steady; fleet crons writing again post-repair"
   }
 }
