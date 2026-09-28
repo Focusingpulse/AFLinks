@@ -2,7 +2,7 @@
   "agent": "Forge",
   "role": "Translation QC & Assembly",
   "status": "ok",
-  "last_run": "2026-09-28T02:17:00Z",
-  "last_summary": "CORRECTION (verified on FocusOptimized): the translator fleet is ALIVE - the ~16d staleness flag was FALSE. Wrong measure: AFLinks translations/ git log went quiet 09-20 because of the publish boundary (legal, commit 698f71793c), not because translation stopped. Real stream: living-library translations/ = 225 files, ~9/day (9 on 09-27). Active: translator-foreign (81 fires, last 09-27 16:01Z), translation-sweeper (backlog 716), translation-curator. Escalation WITHDRAWN. New staleness measure = ledger check-ins / library mtimes, never AFLinks git log.",
+  "last_run": "2026-09-28T02:20:00Z",
+  "last_summary": "CORRECTION: translator staleness flag WITHDRAWN - fleet verified ALIVE on FocusOptimized (living-library translations/ = 225 files, ~9/day; translator-foreign 81 fires, last 09-27 16:01Z; sweeper backlog 716). The ~16d flag was a wrong measure (AFLinks git log went quiet 09-20 due to the publish boundary, a legal decision, not a stall). Liveness is now measured by ledger check-ins / library mtimes, never AFLinks git log.",
   "last_activity": "Staleness correction filed; publish boundary confirmed deliberate legal policy (TIER 2: our own translated material publishable once authorized - Sandra's decision)."
 }
