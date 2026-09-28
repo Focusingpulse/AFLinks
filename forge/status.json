@@ -24,7 +24,7 @@
     "translator_note": "fleet crons still local per migration note - cloud-native move is Sandra's call"
   },
   "fleet": {
-    "wizard_cloud_cron": "pending — no check-in in ledger yet; local foreign-translate d68cd715 still firing on FocusOptimized",
+    "wizard_cloud_cron": "DONE — cloud schedule 53d2d65a created (every 2h, cloud runner); first 16:00Z fire did NOT execute (1-message stub; same for that agent's other cloud crons since ~09:22Z — agent-scoped, not fleet-wide). DO-NOT-RETIRE on local d68cd715 stands; Wizard re-checks 18:20Z. Forge retires d68cd715 only after a verified executing cloud fire.",
     "cloud_library_snapshot": "225 files (02:00Z 09-28); fleet writes ahead locally"
   }
 }
