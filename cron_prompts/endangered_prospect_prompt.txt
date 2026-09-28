@@ -9,10 +9,14 @@ The sandbox may have been RESET; bootstrap from GitHub FIRST.
      cd /root/workspace/AFLinks && git sparse-checkout set database forge index_shards cron_prompts scout
    cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
 
-2) FAMILY GATE
-   python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member endangered-prospect
-   Non-zero (budget LOW) => no work, no writes; say "endangered-prospect skipped
-   (family budget low)" and stop. Unknown member => register or proceed (advisory).
+2) FAMILY GATE (skip cleanly when the tooling isn't attached)
+   GATE="$MEMORY_DIR/../cron-coordination/family.py"
+   if [ -f "$GATE" ]; then
+     python3 "$GATE" run-gate --member endangered-prospect || { echo "endangered-prospect: skipped (family budget low)"; exit 0; }
+   else
+     echo "note: cron-coordination shared memory not attached to this agent — family gate skipped"
+   fi
+
 
 3) LANGUAGE ROTATION
    Read rescue/rotation.json for the last language used, then advance:
@@ -66,7 +70,7 @@ The sandbox may have been RESET; bootstrap from GitHub FIRST.
        --message "endangered-prospect: +<n> targets (<lang> corridor)"
 
 8) CHECK IN
-   python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member endangered-prospect \
+   [ -f "$MEMORY_DIR/../cron-coordination/family.py" ] && python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member endangered-prospect \
      --status ok --summary "prospect: +<n> targets, <lang> corridor"
 
 9) REPORT ONE LINE: targets added, highest-risk find, language corridor used.

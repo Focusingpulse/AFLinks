@@ -9,13 +9,17 @@ The sandbox may have been RESET; bootstrap from GitHub FIRST.
      cd /root/workspace/AFLinks && git sparse-checkout set database forge index_shards cron_prompts scout
    cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
 
-2) FAMILY GATE
-   python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member curation-pass
-   Non-zero (budget LOW) => no work, no writes; say "curation-pass skipped
-   (family budget low)" and stop. Unknown member => register or proceed (advisory).
+2) FAMILY GATE (skip cleanly when the tooling isn't attached)
+   GATE="$MEMORY_DIR/../cron-coordination/family.py"
+   if [ -f "$GATE" ]; then
+     python3 "$GATE" run-gate --member curation-pass || { echo "curation-pass: skipped (family budget low)"; exit 0; }
+   else
+     echo "note: cron-coordination shared memory not attached to this agent — family gate skipped"
+   fi
+
 
 3) AUDIT THE CANONICAL CORPUS
-   Work from index.json (via index_io) and report, do not guess:
+   Work from the index (via index_io) and report, do not guess:
    a. DUPLICATES — same source_url, or same title+size_bytes. Canonical-count work.
    b. MISSING SOURCE_URL — an entry with no provenance is unfindable. Flag it.
    c. MISSING / EMPTY categories or meta_categories.
@@ -40,7 +44,7 @@ The sandbox may have been RESET; bootstrap from GitHub FIRST.
          "path": "...", "note": "..."}]}
    This is the honest division of labour: cloud audits, the hub executes.
 
-6) REBUILD IF index.json CHANGED
+6) REBUILD IF THE INDEX CHANGED
    python3 build_library_feed.py
    python3 build_slim_index.py
    python3 bake_stats.py
@@ -51,7 +55,7 @@ The sandbox may have been RESET; bootstrap from GitHub FIRST.
    Write through the API instead; include only files this fire actually changed:
      python3 - <<'EOF'
      import json, os
-     cands = ["index.json","library_feed.json","search_index.json",
+     cands = ["index_shards/manifest.json","library_feed.json","search_index.json",
               "taxonomy_counts.json","rescue/repair-queue.json"]
      json.dump({p: {"file": p} for p in cands if os.path.exists(p)},
                open("/tmp/changes.json","w"))
@@ -60,7 +64,7 @@ The sandbox may have been RESET; bootstrap from GitHub FIRST.
        --message "curation-pass: <fixed> fixed, <flagged> flagged"
 
 8) CHECK IN
-   python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member curation-pass \
+   [ -f "$MEMORY_DIR/../cron-coordination/family.py" ] && python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member curation-pass \
      --status ok --summary "curation: <fixed> fixed, <flagged> flagged"
 
 9) REPORT ONE LINE: duplicates found, entries repaired, items queued for the hub.

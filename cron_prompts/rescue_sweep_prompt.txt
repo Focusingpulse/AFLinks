@@ -9,20 +9,25 @@ not the source. The sandbox may have been RESET; bootstrap from GitHub FIRST.
      cd /root/workspace/AFLinks && git sparse-checkout set database forge index_shards cron_prompts scout
    cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
 
-2) FAMILY GATE
-   python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member rescue-sweep --essential
-   If it exits non-zero (budget LOW): do NO work, no commit, no check-in. Say
-   "rescue-sweep skipped (family budget low)" and stop. If the member is unknown to
-   family.py, register it or proceed — the gate is advisory.
+2) FAMILY GATE (skip cleanly when the tooling isn't attached)
+   GATE="$MEMORY_DIR/../cron-coordination/family.py"
+   if [ -f "$GATE" ]; then
+     python3 "$GATE" run-gate --member rescue-sweep || { echo "rescue-sweep: skipped (family budget low)"; exit 0; }
+   else
+     echo "note: cron-coordination shared memory not attached to this agent — family gate skipped"
+   fi
+
 
 3) GEAR READ
-   GEAR=$(python3 $MEMORY_DIR/../cron-coordination/family.py gear | head -1)
+   GEAR=$(python3 $MEMORY_DIR/../cron-coordination/family.py gear 2>/dev/null | head -1 || echo "quota")
    overdrive -> several domains / larger --limit
    quota     -> ONE domain, modest --limit. Do not burn quota on a wide sweep.
 
 4) PICK TARGETS
    Read site_queue.json -> sites whose status is not "complete".
    Also read rescue/queue.json if it exists (replenished by endangered-prospect).
+   Sites marked crawl_failed or site_down are the highest priority — they were
+   abandoned mid-run and nobody picked them back up.
    If both are empty, take ONE dead domain from SHELF_WORTHY_BACKLOG.md under
    "Remaining sites available to take" and add it to site_queue.json first.
    NEVER re-sweep a domain whose wayback_<domain>.json shows it complete.
@@ -31,7 +36,16 @@ not the source. The sandbox may have been RESET; bootstrap from GitHub FIRST.
    python3 wayback_scavenger.py --domain <domain> --limit <N> --workers 3
    - Resumable and idempotent: state lives in wayback_<domain>.json.
    - Fetches original bytes via https://web.archive.org/web/{ts}id_/{url}.
-   - Merges into index.json itself (dedupes by source_url via index_io).
+   - Merges into the sharded index itself via index_io (dedupes by source_url).
+     The index is SHARDED now: index_shards/manifest.json + shard_NNNN.json.
+     There is no monolithic index.json — do not look for one.
+   - TEXT ARCHIVES: add --exts to harvest non-PDF content, e.g.
+       python3 wayback_scavenger.py --domain <d> --exts txt,html,htm --limit 120
+     Use this when a dead host served .txt/.html rather than PDFs.
+   - Before a sweep, size the domain so you know when it is done:
+       curl -sS "http://web.archive.org/cdx/search/cdx?url=<d>&matchType=domain&output=json&collapse=digest&fl=original&filter=statuscode:200"
+     If every URL is already in wayback_<domain>.json (done+skipped), the domain
+     is COMPLETE — mark it so in site_queue.json and move on. Do not re-sweep.
    - RATE LIMITING: the Wayback Machine throttles hard. On HTTP 429 or a
      connection refusal, sleep and retry with backoff. A 429 is NOT a permanent
      block — the lane works, it just needs pacing. Do not abandon the lane.
@@ -54,7 +68,8 @@ not the source. The sandbox may have been RESET; bootstrap from GitHub FIRST.
      python3 - <<'EOF'
      import json
      changes = {
-       "index.json":                    {"file": "index.json"},
+       "index_shards/manifest.json":   {"file": "index_shards/manifest.json"},
+       # ...plus every index_shards/shard_NNNN.json this fire changed
        "library_feed.json":             {"file": "library_feed.json"},
        "search_index.json":             {"file": "search_index.json"},
        "site_queue.json":               {"file": "site_queue.json"},
@@ -71,9 +86,9 @@ not the source. The sandbox may have been RESET; bootstrap from GitHub FIRST.
    Always include ONLY the files this fire actually changed.
 
 8) CHECK IN
-   python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member rescue-sweep \
+   [ -f "$MEMORY_DIR/../cron-coordination/family.py" ] && python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member rescue-sweep \
      --status ok --summary "rescue-sweep: +<n> docs from <domain>"
    If entry counts changed, also:
-   python3 $MEMORY_DIR/../cron-coordination/family.py archive-growth --entries "<N>"
+   [ -f "$MEMORY_DIR/../cron-coordination/family.py" ] && python3 $MEMORY_DIR/../cron-coordination/family.py archive-growth --entries "<N>"
 
 9) REPORT ONE LINE: domain swept, documents rescued, archive count.

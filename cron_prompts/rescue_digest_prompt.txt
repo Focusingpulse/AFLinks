@@ -11,14 +11,18 @@ The sandbox may have been RESET; bootstrap from GitHub FIRST.
      cd /root/workspace/AFLinks && git sparse-checkout set database forge index_shards cron_prompts scout
    cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
 
-2) FAMILY GATE
-   python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member rescue-digest
-   Non-zero (budget LOW) => no work, no writes; say "rescue-digest skipped
-   (family budget low)" and stop.
+2) FAMILY GATE (skip cleanly when the tooling isn't attached)
+   GATE="$MEMORY_DIR/../cron-coordination/family.py"
+   if [ -f "$GATE" ]; then
+     python3 "$GATE" run-gate --member rescue-digest || { echo "rescue-digest: skipped (family budget low)"; exit 0; }
+   else
+     echo "note: cron-coordination shared memory not attached to this agent — family gate skipped"
+   fi
+
 
 3) GATHER THE WEEK (last 7 days)
-   a. What the rescue-sweep brought in: new index.json entries with archive_ts /
-      provenance in the last 7 days, via `git log --since` on index.json and by
+   a. What the rescue-sweep brought in: new index_shards entries with archive_ts /
+      provenance in the last 7 days, via `git log --since` on index_shards/ and by
       reading the entries' own timestamps.
    b. What endangered-prospect queued: rescue/queue.json targets, highest score.
    c. What curation-pass flagged: rescue/repair-queue.json.
@@ -51,7 +55,7 @@ The sandbox may have been RESET; bootstrap from GitHub FIRST.
        --message "rescue-digest: week of <date>"
 
 6) CHECK IN
-   python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member rescue-digest \
+   [ -f "$MEMORY_DIR/../cron-coordination/family.py" ] && python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member rescue-digest \
      --status ok --summary "rescue digest <date>: <n> rescues, <n> at-risk, <n> gaps"
 
 7) REPORT ONE LINE: digest path, rare-find count, biggest gap named.
