@@ -1,0 +1,79 @@
+Run the RESCUE SWEEP on the cloud sandbox. This is the archive's acquisition lane:
+go OUT and find documents at risk of disappearing, and bring them home with provenance.
+It is NOT a link-audit of what the archive already holds — the repo is the destination,
+not the source. The sandbox may have been RESET; bootstrap from GitHub FIRST.
+
+1) BOOTSTRAP
+   if /root/workspace/AFLinks/.git does not exist:
+     git clone --filter=blob:none --sparse --depth 1 https://github.com/Focusingpulse/AFLinks.git /root/workspace/AFLinks
+     cd /root/workspace/AFLinks && git sparse-checkout set database forge index_shards cron_prompts scout
+   cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
+
+2) FAMILY GATE
+   python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member rescue-sweep --essential
+   If it exits non-zero (budget LOW): do NO work, no commit, no check-in. Say
+   "rescue-sweep skipped (family budget low)" and stop. If the member is unknown to
+   family.py, register it or proceed — the gate is advisory.
+
+3) GEAR READ
+   GEAR=$(python3 $MEMORY_DIR/../cron-coordination/family.py gear | head -1)
+   overdrive -> several domains / larger --limit
+   quota     -> ONE domain, modest --limit. Do not burn quota on a wide sweep.
+
+4) PICK TARGETS
+   Read site_queue.json -> sites whose status is not "complete".
+   Also read rescue/queue.json if it exists (replenished by endangered-prospect).
+   If both are empty, take ONE dead domain from SHELF_WORTHY_BACKLOG.md under
+   "Remaining sites available to take" and add it to site_queue.json first.
+   NEVER re-sweep a domain whose wayback_<domain>.json shows it complete.
+
+5) SWEEP THE DOMAIN
+   python3 wayback_scavenger.py --domain <domain> --limit <N> --workers 3
+   - Resumable and idempotent: state lives in wayback_<domain>.json.
+   - Fetches original bytes via https://web.archive.org/web/{ts}id_/{url}.
+   - Merges into index.json itself (dedupes by source_url via index_io).
+   - RATE LIMITING: the Wayback Machine throttles hard. On HTTP 429 or a
+     connection refusal, sleep and retry with backoff. A 429 is NOT a permanent
+     block — the lane works, it just needs pacing. Do not abandon the lane.
+   - If an item is JS-challenge-gated, retry it through headless Chrome:
+     google-chrome --headless --disable-gpu --no-sandbox --dump-dom <url>
+
+6) REBUILD DERIVED OUTPUT
+   python3 build_library_feed.py
+   python3 build_slim_index.py
+   (tag_concepts.py / run_queue.py / OCR need the Windows hub — OUT OF SCOPE here.
+    Do not pretend to run them; note them for curation-pass instead.)
+
+7) COMMIT + PUSH — READ CAREFULLY
+   `git push` DOES NOT WORK for this repo. AFLinks is ~3.9 GB and push fails with
+   "RPC failed; HTTP 500 / send-pack: unexpected disconnect while reading sideband
+   packet". That is a TRANSFER failure, not a permission failure — auth succeeds.
+   Do NOT burn the fire retrying it. Write through the API instead, which commits
+   server-side and moves only changed blobs:
+
+     python3 - <<'EOF'
+     import json
+     changes = {
+       "index.json":                    {"file": "index.json"},
+       "library_feed.json":             {"file": "library_feed.json"},
+       "search_index.json":             {"file": "search_index.json"},
+       "site_queue.json":               {"file": "site_queue.json"},
+       "wayback_<domain>.json":         {"file": "wayback_<domain>.json"},
+       "<domain>_entries.json":         {"file": "<domain>_entries.json"},
+     }
+     json.dump(changes, open("/tmp/changes.json", "w"))
+     EOF
+
+     GUTHUBN="$GUTHUBN" python3 aflinks_api.py put --manifest /tmp/changes.json \
+       --message "rescue-sweep: +<n> docs from <domain>"
+
+   The manifest key is the path IN THE REPO; the value names the LOCAL file.
+   Always include ONLY the files this fire actually changed.
+
+8) CHECK IN
+   python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member rescue-sweep \
+     --status ok --summary "rescue-sweep: +<n> docs from <domain>"
+   If entry counts changed, also:
+   python3 $MEMORY_DIR/../cron-coordination/family.py archive-growth --entries "<N>"
+
+9) REPORT ONE LINE: domain swept, documents rescued, archive count.

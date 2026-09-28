@@ -1,0 +1,66 @@
+Run the CURATION PASS on the cloud sandbox. This is the "make it shiny" half of the
+archive: everything rescued has to stay findable, correctly categorized, and free of
+duplicates. This pass audits and repairs; it does not acquire.
+The sandbox may have been RESET; bootstrap from GitHub FIRST.
+
+1) BOOTSTRAP
+   if /root/workspace/AFLinks/.git does not exist:
+     git clone --filter=blob:none --sparse --depth 1 https://github.com/Focusingpulse/AFLinks.git /root/workspace/AFLinks
+     cd /root/workspace/AFLinks && git sparse-checkout set database forge index_shards cron_prompts scout
+   cd /root/workspace/AFLinks && git pull --rebase --quiet origin main
+
+2) FAMILY GATE
+   python3 $MEMORY_DIR/../cron-coordination/family.py run-gate --member curation-pass
+   Non-zero (budget LOW) => no work, no writes; say "curation-pass skipped
+   (family budget low)" and stop. Unknown member => register or proceed (advisory).
+
+3) AUDIT THE CANONICAL CORPUS
+   Work from index.json (via index_io) and report, do not guess:
+   a. DUPLICATES — same source_url, or same title+size_bytes. Canonical-count work.
+   b. MISSING SOURCE_URL — an entry with no provenance is unfindable. Flag it.
+   c. MISSING / EMPTY categories or meta_categories.
+   d. ORPHANED LABELS — any category not present in taxonomy_counts.json.
+      taxonomy_counts.json holds the canonical spine. Normalize against it.
+      normalize_categories.py is idempotent — prefer running it over hand-editing.
+   e. EMPTY primary_person on entries that clearly name a researcher.
+   f. MOJIBAKE in title or content_preview.
+   g. Missing concepts[] where the vocabulary clearly applies.
+
+4) REPAIR WHAT IS SAFE
+   Fix directly: mojibake, orphaned labels (via normalize_categories.py), missing
+   source_url where it is recoverable from the same record, dedupe.
+   Do NOT invent provenance. If a source_url genuinely cannot be recovered, leave
+   the entry and flag it in the repair queue — never fabricate a citation.
+
+5) EMIT THE REPAIR QUEUE for the Windows hub
+   Some work needs tools only the hub has (tag_concepts.py, run_queue.py, OCR).
+   Write rescue/repair-queue.json:
+     {"generated_at": "<iso>", "items": [
+        {"id": <entry id>, "issue": "no-preview|needs-ocr|needs-tags|...",
+         "path": "...", "note": "..."}]}
+   This is the honest division of labour: cloud audits, the hub executes.
+
+6) REBUILD IF index.json CHANGED
+   python3 build_library_feed.py
+   python3 build_slim_index.py
+   python3 bake_stats.py
+
+7) COMMIT — READ CAREFULLY
+   `git push` DOES NOT WORK for this repo (AFLinks is ~3.9 GB; push fails with
+   HTTP 500 / send-pack disconnect — a transfer failure, not a permission one).
+   Write through the API instead; include only files this fire actually changed:
+     python3 - <<'EOF'
+     import json, os
+     cands = ["index.json","library_feed.json","search_index.json",
+              "taxonomy_counts.json","rescue/repair-queue.json"]
+     json.dump({p: {"file": p} for p in cands if os.path.exists(p)},
+               open("/tmp/changes.json","w"))
+     EOF
+     GUTHUBN="$GUTHUBN" python3 aflinks_api.py put --manifest /tmp/changes.json \
+       --message "curation-pass: <fixed> fixed, <flagged> flagged"
+
+8) CHECK IN
+   python3 $MEMORY_DIR/../cron-coordination/family.py check-in --member curation-pass \
+     --status ok --summary "curation: <fixed> fixed, <flagged> flagged"
+
+9) REPORT ONE LINE: duplicates found, entries repaired, items queued for the hub.
