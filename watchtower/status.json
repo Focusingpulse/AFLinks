@@ -1,12 +1,12 @@
 {
-  "last_run": "2026-09-27T16:05:00Z",
+  "last_run": "2026-09-28T16:05:00Z",
   "last_status": "ok",
-  "last_summary": "Daily quick-scan: all lanes active, feed healthy (128 translations, 9 dated today; quests 46=46), clean-chem healthy (212 products). Findings: synthesist status 29d stale (past milestone), drunvalo status.json names phantom audit file (day 2), Aether-commons-kit woke up 09-26 after 1mo quiet.",
+  "last_summary": "Daily quick-scan: translator stall flag RETIRED by Forge with root cause (publish boundary, not stall; feed healthy - 141 translations, 17 dated today). Drunvalo phantom audit file RESOLVED (committed to Village repo 09-28). Synthesist 30d stale (oldest open flag, Navigator concurs). Quest queue 49 cards. clean-chem healthy (220 products).",
   "last_details": {
     "findings_count": 3,
     "lanes_active": ["scout", "forge", "navigator", "drunvalo"],
     "lanes_stale_status": ["synthesist"],
-    "repos_fresh": ["AFLinks", "clean-chem-intel", "permies-skip-pep-data", "Aether-commons-kit"],
+    "repos_fresh": ["AFLinks", "clean-chem-intel", "permies-skip-pep-data"],
     "repos_quiet": ["bellas-media"]
   }
 }

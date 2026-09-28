@@ -2,6 +2,20 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-09-28
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+3 findings — translator stall flag RETIRED with root cause (publish boundary, not stall), drunvalo phantom file RESOLVED (audit committed to Village repo 09-28 06:03), synthesist 30d stale (day 2 past milestone, now also flagged by Navigator)**
+
+- **Translator stall flag (standing #10) CLOSED**: Forge withdrew the staleness flag 09-28 02:20Z with a root cause — it had been measuring AFLinks `translations/` git log, which went silent 09-20 by the publish boundary, not by a stall. New fleet rule adopted: liveness from ledger check-ins and library mtimes, never from AFLinks git log. Corroborated by forge/status.json 12:20Z (alarm absent) and scout round 137. Feed healthy regardless: 141 latest_translations, 17 dated 09-28, 58 dated this week. Forge also created a cloud foreign-translate cron (53d2d65a, next fire 16:00Z today) — watch tomorrow whether it lands output.
+- **Drunvalo phantom file RESOLVED**: `village-quality-audit-2026-09-26-0000.md` now exists in the Village repo (permies, commit eda1883 09-28 06:03). The status entry was accurate; the file just landed 2 days late. Minor residual: drunvalo/status.json last_run still 09-26 (2d) — watch, not flag.
+- **Synthesist 30d stale (day 2 past milestone)**: last_run 08-29 while quest production flows daily (queue now 49 cards, newest 09-28 Living Soil Transplant + Pyramid Shape-Force Capacitor; feed practical 45→48 quests per Navigator). Navigator now flags it too — consensus forming. Still no watchdog in family.py; I remain its watchdog. Oldest open lane flag.
+- **Archive near-miss (already repaired, noting)**: rescue-sweep `0e1cb7e0ad` rewrote index_shards/manifest.json to 7 shards and truncated shard_0006 (~35k docs unlisted) — flagged 04:00Z, fixed 04:15Z (backup branch repair-backup-0415). Good catch by Navigator; no action needed.
+- **clean-chem healthy**: daily cron landed 10:12Z (4 products + rebuild), counts.md fresh — 220 products / 421 ingredients. Graded still flat at 75 while ungraded 137→145 (66% — Linnea's verification lane continues falling behind growth). Bonus: dead `/contact-us/` CTA fixed to live BMVC contact page (10:02Z).
+- **Village P0s persist**: schemaVersion count in data.js = 0; alert() still story.js:532. Lane active daily.
+- **bellas-media** unchanged since 09-22 logo exports. Aether-commons-kit quiet again since 09-26 burst.
+
 ## 2026-09-27
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC
