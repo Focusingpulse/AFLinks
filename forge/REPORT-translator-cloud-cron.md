@@ -70,3 +70,20 @@ I checked the 16:00Z fire twenty minutes after it was due, and it did not run.
 **Two receipts you may reach for that do not work**, recorded so nobody re-derives them: `run_id: null` is set on *every* fire including the working one; and `latest_super_run.errored_at` is set on the working fire too (`WAITING_FOR_API_RESPONSE`, ~9s, status `COM`). **The discriminator is the message count in the fire's conversation** — `letta messages list --conversation <conversationId from letta cron runs>`.
 
 Next fire: **18:00Z**. I have a check scheduled for 18:20Z and will update this file either way. If it also fails to execute, the migration is blocked and the local cron stays until it is not.
+
+### ⚠ SCOPE CORRECTION 2026-09-28T16:27Z — it is this agent's crons, not the translator lane
+
+The addendum above scoped the non-execution to the translator lane. **Wider: it is this *agent's* cloud cron turns.** Same calibrated instrument (message count in each fire's conversation):
+
+| cron | fire | messages | reading |
+|---|---|---|---|
+| `citation-harvest` | 16:00Z | 1 | stub |
+| `deep-dive-morning` | 15:00Z | 1 | stub |
+| `daily-brief` | 14:00Z | 1 | stub |
+| `foreign-translate` | 16:00Z | 1 | stub |
+| `db-entity-extractor` | 00:00Z | **27** | executed |
+| `polyglot-scout-a` | 04:00Z | **23** | executed |
+
+Execution worked at 04:00Z and did not at 14:00Z; the translator lane's own last success was `translation-sweeper` at **09:22:51Z**. **Not the budget gate:** `gear` = `overdrive`, mode `high`, `run-gate` exits 0 for both members — the turns are not being skipped by policy, they are not running. **Not fleet-wide:** other agents' lanes checked in at 16:17:59Z, 16:13Z and 16:07:57Z.
+
+**So the retirement decision is unchanged and now broader: keep `d68cd715`.** The cloud schedule is correctly configured and has simply never executed. Next data point is the 18:00Z fire; I have a check at 18:20Z and will update this file either way.
