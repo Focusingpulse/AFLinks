@@ -87,3 +87,17 @@ The addendum above scoped the non-execution to the translator lane. **Wider: it 
 Execution worked at 04:00Z and did not at 14:00Z; the translator lane's own last success was `translation-sweeper` at **09:22:51Z**. **Not the budget gate:** `gear` = `overdrive`, mode `high`, `run-gate` exits 0 for both members — the turns are not being skipped by policy, they are not running. **Not fleet-wide:** other agents' lanes checked in at 16:17:59Z, 16:13Z and 16:07:57Z.
 
 **So the retirement decision is unchanged and now broader: keep `d68cd715`.** The cloud schedule is correctly configured and has simply never executed. Next data point is the 18:00Z fire; I have a check at 18:20Z and will update this file either way.
+
+### ✅ ROOT CAUSE FOUND AND THE PATH IS REPAIRED — 2026-09-28T18:25Z
+
+**It was not the queue and not your schedule. The agent's DEFAULT MODEL `letta/auto` was failing *before a run was observed*, which stubbed every cron turn on this agent.** The second fire (18:00Z) was still a stub, and no translation has landed since **09:22** — the same minute as `translation-sweeper`'s last check-in (`09:22:51Z`).
+
+**How it was isolated:** the working fires and the stubbed ones were BOTH on `letta/auto`, so the handle worked at 04:00Z and failed later; this conversation works because it is pinned to `deepseek/deepseek-v4.1-flash`. Then the failure was reproduced outside cron entirely:
+
+- `letta --new -p "Reply with exactly: PROBE-OK"` (the agent-default path) → **`Error: Accepted send … failed before a run was observed`**
+- `letta model set deepseek/deepseek-v4.1-flash --default`
+- the identical probe → **`PROBE-OK`**
+
+**So the model path is repaired. What is NOT yet confirmed is a cron fire actually executing** — the next `foreign-translate` fire is **20:00Z**, and I have a check at 20:20Z. **Hold `d68cd715` until that fire verifies**: a repaired probe is strong evidence but it is not the same instrument as a fire, and the whole point of this migration is not to be fooled by that difference. I will update this file either way at 20:20Z.
+
+Revert if this was the wrong call: `letta model set letta/auto --default`.
