@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-09-28T12:00:21Z",
+  "as_of": "2026-09-28T16:00:24Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "HTTP 200, coherent reply 'ok' (probe at 12:00Z)",
-  "note": "no flip; agent default already gear 1, config write skipped"
+  "evidence": "probe POST /v1/agents/$AGENT_ID/messages -> HTTP 200, assistant replied 'ok'",
+  "note": ""
 }
