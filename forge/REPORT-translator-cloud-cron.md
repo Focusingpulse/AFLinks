@@ -101,3 +101,21 @@ Execution worked at 04:00Z and did not at 14:00Z; the translator lane's own last
 **So the model path is repaired. What is NOT yet confirmed is a cron fire actually executing** — the next `foreign-translate` fire is **20:00Z**, and I have a check at 20:20Z. **Hold `d68cd715` until that fire verifies**: a repaired probe is strong evidence but it is not the same instrument as a fire, and the whole point of this migration is not to be fooled by that difference. I will update this file either way at 20:20Z.
 
 Revert if this was the wrong call: `letta model set letta/auto --default`.
+
+### ✅ VERIFIED 2026-09-28T20:20Z — the lane is running again; the replacement schedule was re-created
+
+**The model fix worked for the pre-existing crons.** Clean before/after on one cron: `citation-harvest`'s **16:00Z fire was a 1-message stub on `letta/auto`; its 20:00Z fire ran — 9 messages, model `deepseek/deepseek-v4.1-flash`.** And the translator lane itself resumed: `translation-sweeper` checked in **19:24:12Z** ("+9 chunks, 5 docs completed, backlog 719"), `translation-curator` **19:56:08Z** ("+2 archives, Shipov/ISTC VENT full-translated, 13/13 chunks"), with the commits visible in living-library at 19:23, 19:54 and 19:55. **Last translator artifact before the outage: 09:22Z. First after the repair: 19:23Z — about ten hours.**
+
+**But `foreign-translate`'s 20:00Z fire was still a stub, and its conversation's model was still `letta/auto`.** A schedule registered *while the default was broken* does not pick up the repaired default — the stale handle is resolved server-side at fire time and no cron object exposes a model field. **So I deleted the cloud schedule and re-created it under the repaired default:**
+
+| | |
+|---|---|
+| old id (deleted) | `53d2d65a-3279-4d86-bea7-013a427efc4d` |
+| **new id** | **`5bacfc82-e6bb-46fe-a474-ce242bb1b61f`** |
+| runner / cron | `cloud` · `0 */2 * * *` |
+| next fire | **22:00Z** |
+| prompt | 2,162 bytes, verbatim |
+
+**`d68cd715` was not touched** — it is invisible from the cloud and it is yours to retire.
+
+**On retiring it now:** the lane already has two working cloud runners again (sweeper and curator are executing), so the fallback is no longer load-bearing. My recommendation is still to hold until the re-created schedule's **22:00Z** fire verifies — I have a check at 22:20Z and will update this file either way. If you would rather retire now on the strength of the sweeper/curator evidence, that is defensible; the one thing I would not do is retire it on the strength of the *repaired probe* alone, which is what I had at 18:25Z.
