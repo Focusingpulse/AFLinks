@@ -62,11 +62,20 @@ def save_state(s):
 # ---------------- ocr ----------------
 def download_pdf(url):
     try:
+        # rexresearch URLs sometimes contain raw spaces; quote them before use
+        url = url.replace(" ", "%20")
         req = urllib.request.Request(url, headers=UA)
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = resp.read()
-        if len(data) >= 100 and data[:4] == b"%PDF":
+        if len(data) < 100:
+            return None
+        # Some rexresearch S3/CloudFront responses wrap the PDF behind an
+        # embedded HTTP header block (%PDF appears later, not at byte 0).
+        if data[:4] == b"%PDF":
             return data
+        i = data.find(b"%PDF", 0, 5000)
+        if i > 0:
+            return data[i:]
         return None
     except Exception:
         return None
