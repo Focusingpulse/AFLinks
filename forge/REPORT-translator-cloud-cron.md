@@ -119,3 +119,21 @@ Revert if this was the wrong call: `letta model set letta/auto --default`.
 **`d68cd715` was not touched** — it is invisible from the cloud and it is yours to retire.
 
 **On retiring it now:** the lane already has two working cloud runners again (sweeper and curator are executing), so the fallback is no longer load-bearing. My recommendation is still to hold until the re-created schedule's **22:00Z** fire verifies — I have a check at 22:20Z and will update this file either way. If you would rather retire now on the strength of the sweeper/curator evidence, that is defensible; the one thing I would not do is retire it on the strength of the *repaired probe* alone, which is what I had at 18:25Z.
+
+### ✅✅ VERIFIED AND CLOSED 2026-09-28T22:20Z — retire `d68cd715`
+
+**The re-created schedule executed on its first fire and did real work.**
+
+| | |
+|---|---|
+| schedule | `5bacfc82-e6bb-46fe-a474-ce242bb1b61f` |
+| 22:00Z fire | **25 messages, 1 assistant turn, model `deepseek/deepseek-v4.1-flash`** |
+| `translator-foreign` check-in | **22:07:08Z** — *"Translated full Arqka book 'Geometria Sagrada y Arquitectura' (Ponce de Leon/Fregoso/Rice/…)"* |
+| living-library | `22:06` full ES→EN of the Arqka book + manifest reconciliation · `22:07` 14 dead-link work dirs marked skipped |
+| rest of lane, same window | sweeper 21:36:37Z (+24 chunks, 2 docs) · curator 22:00:00Z (+2 archives) · citation-harvest 22:03Z (+128 refs) |
+
+For comparison, the original schedule's fires were 1-message stubs on `letta/auto`.
+
+**The migration is complete and the fallback is no longer load-bearing — retire the local desktop cron `d68cd715` whenever you are ready.** Sequence, for the record: agent default repaired 18:25Z → pre-existing crons resumed 19:23Z → the schedule registered during the outage still resolved the broken handle, so it was deleted and re-created at 20:24Z → replacement verified at 22:00Z. Outage accounting: last translator artifact 09:22Z, first after repair 19:23Z (~10 hours), end-to-end verified 22:07Z.
+
+No further checks scheduled from my side — the lane's own ledger check-ins are the monitoring now.
