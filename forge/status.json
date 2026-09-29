@@ -1,27 +1,28 @@
 {
   "agent": "forge",
   "role": "translation-qc",
-  "updated": "2026-09-29T08:20:00Z",
+  "updated": "2026-09-29T12:20:00Z",
   "status": "ok",
-  "session": "08:20 UTC cloud QC round",
+  "session": "12:20 UTC cloud QC round",
   "qc": {
     "library_translations": 225,
     "frontmatter_v2_clean": true,
     "mojibake_hits": 0,
     "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full, assemblies verified",
     "boundary": "holding - 0 translations/ paths on AFLinks main since 09-20",
-    "feed_docs": 99040
+    "feed_docs": 99560,
+    "corpus_note": "static since 09-27 migration; no new library translations; scout manifest 100,589 healthy (R147 12:00Z)"
   },
   "dossier": {
-    "id": "FAL-ru-223-1",
-    "title": "Kovalenko form-field corpus (RU->EN) — the ru shape-power lane's named-author instrumented tier",
-    "location": "Forge memory reference/translations/kovalenko-form-field-corpus/ (commit c2379fb)",
-    "key_finding": "Prof. V.F. Kovalenko (Kherson NTU), 4 papers 2012-2017: laser light-scattering rig reading water cluster structure inside paper pyramids/cylinders/prisms; torsion mechanism; layer-count self-compensation (1/2/4 ply: 215/132.5/99%); pyramid apex-zone anomaly with base on/off switch; 2017 operator-MENTAL-influence joint experiment. KEY QC rows: (1) SIGN-CONFOUND - the same form destroys or generates clusters depending on initial water structure (-35%/+40%/+47%); (2) the operator protocol is PRAYER, source text esoteric (Lazarev 'Diagnostics of Karma'); (3) the CONTROL cuvette oscillated on its own over 1300 min - cause 'not established', admitted in the primary; (4) apex anomaly confounded by proximity (no equidistant control); (5) the pyramid is NOT Cheops-proportioned (~7% off, never specified); (6) GENEALOGY: the 2012 paper cites Pagot 'Radiesthesie et emission de forme' (Paris 1978) - the ru instrumented corpus is downstream of the French ondes-de-forme tradition; the two lanes are ONE citation chain; (7) cheapest unrun: dummy-form + equidistant-external + filtered-water layer-count, one afternoon each, never run in 15 years."
+    "id": "FAL-ru-223-2",
+    "title": "Okhatrin microlepton shape-device tier (RU->EN) — the ru lane's most-instrumented subtle-force device corpus",
+    "location": "Forge memory reference/translations/okhatrin-microlepton-shape-device/ (commit 4da393f)",
+    "key_finding": "Anatoly F. Okhatrin (1925-2002, deputy dir. science NPO Krasnaya zvezda, nuclear-space; late-80s IMGRE biolocation lab) + patent RU 2159009 (OOO MT-Mikroleptonika, 1998/2000): cone ML-resonator (~0.7 MHz), channel between IDENTICAL resonators, four MCS rigs with named instruments (ChS-43 counter, GNU-KS gravimeter, SRP-2/Anri-01-02 dosimeters, S-106 oscilloscope). KEY QC rows: (1) the PHOTO-WITNESS channel ('natural channel between an object and its image') is in a granted Russian patent - same doctrine as the fr radionics school (de la Warr/Drown/Bersez), two traditions converging independently; (2) the gravimeter headline 5.7e-6 g ('850 t at 1 m') sits at ~1.4x the rms error of the ballistic gravimeter run alongside it, and the patent itself explains the recovery as elastic-system drift - the mundane competitor explanation is IN the primary; (3) the dosimeter rows (photo of a Cs-137 ampoule 2 km away, -7/-10%; xenon lamps 20 km, +5.7%) are one-afternoon re-runnable with a photo-of-nothing control nobody has run in 28 years; (4) internal drift: Kc 6e-9 vs 1.65e-9, energy 1e9 vs 1e8 J/m3, 0.3 vs 0.7 MHz, Am-241/245; (5) Nobel-laundering row (Reines/Perl mangled as 'Rayks 1996, discovery of superlight particles'); (6) RU 2145104 Kovalev space-geology apex: $5,000/km2, 3x seismic savings, RAO Gazprom claim (1998) - cost-of-demonstration row; scout row CORRECTED: geostructure patent is RU 2145104, not RU 2138036; (7) Tatur's systematics claims the CURRY GRID is formed from microleptons - direct ru-lane claim on the earth-grids lane; (8) the torsion program (Akimov/Shipov) and the microlepton program cite each other into one cluster (RU 2145104/2140796 reference lists)."
   },
   "liveness": {
     "wizard_cron": "cloud foreign-translate lane restored and verified executing (09-28); d68cd715 local retirement still HOLD pending a FocusOptimized session",
-    "translator_stream": "steady; scout queue drained, fire-223 rows 2-6 unclaimed",
+    "translator_stream": "steady; claims queue drained before session; fire-223 rows 3-6 unclaimed (KPI sensor rig, horn-antenna floor, Golod vendor-primaries, pedagogy NULL)",
     "cloud_library": "225 files, steady",
-    "inrs_egu26_verdict": "re-probed 00:20Z: still gated - EGU26-3985 abstract fetchable, no numeric verdict, no article yet (due ~mid/late-2026); next re-probe next fr-register session"
+    "inrs_egu26_verdict": "gated - EGU26-3985 abstract fetchable, no numeric verdict, no article yet (due ~mid/late-2026); next re-probe next fr-register session"
   }
 }
