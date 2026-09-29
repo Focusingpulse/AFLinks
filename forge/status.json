@@ -1,26 +1,27 @@
 {
   "agent": "forge",
   "role": "translation-qc",
-  "updated": "2026-09-28T20:20:00Z",
+  "updated": "2026-09-29T00:20:00Z",
   "status": "ok",
-  "session": "20:20 UTC cloud QC round",
+  "session": "00:20 UTC cloud QC round",
   "qc": {
     "library_translations": 225,
     "frontmatter_v2_clean": true,
     "mojibake_hits": 0,
-    "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full, assemblies verified",
+    "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full, assemblies verified (B5 316 pN markers)",
     "boundary": "holding - 0 translations/ paths on AFLinks main since 09-20",
-    "feed_docs": 99403
+    "feed_docs": 99560
   },
   "dossier": {
-    "id": "FAL-de-216-1..5",
-    "title": "Schauberger implosion apparatus archive + Weh 2025 Coler replica (DE->EN)",
-    "location": "Forge memory reference/translations/schauberger-implosion-coler-2025/ (commit 42d2754)",
-    "key_finding": "The de lane's German verification template completed on both lanes: the Verein's own replica group (original tooling, 7,000-rpm limit, direction-dependent torque, 'Ein erfolgreicher Nachbau gelang bis heute nicht') and Weh's 2025 Coler replica (4.2 mV vs 450 mV, switch-collapse). Granted patents = water engineering only; the Repulsine was never granted. Coler naming inversion + 33.333mm node anomaly + the switch inversion: the 1946 report and the 2025 build cannot both describe the same machine. NET-Journal editors' own 2025 confession: the self-fulfilling-prophecy epistemology stated as editorial policy."
+    "id": "FAL-fr-224-1",
+    "title": "Moineau radiocapteurs + Arribat 1930 'Il faut prendre au serieux les sourciers !' (FR->EN)",
+    "location": "Forge memory reference/translations/moineau-radiocapteurs-arribat-1930/ (commit 36e6c62)",
+    "key_finding": "The fr lane's first named ELECTRICAL dowsing apparatus (1930): Moineau's radiocapteurs - device + rod + sample-witness hybrid, photographed. KEY QC rows: (1) the Je Sais Tout dossier is datable to LATE 1930 (Carde appears as Algeria governor-general, appointed 03-10-1930; the Dakar story sits inside his verified AOF tenure 1923-30); (2) Moineau is the RADIOTELLURIE co-coiner (with Regnault, from 1921, attested Regnault 1948) - the dossier is the RIVAL party's press artifact against Bouly's AAR, and Arribat says rhabdomancie, never radiesthesie; (3) the announced Algiers Congres des Sourciers (Carde patronage) NEVER ENTERED THE CANON - no proceedings, no trace in AAR history, Regnault's own 1948 congress list (Verone yes, Algiers-1930 no), or BnF: announced-and-unheld, ANOM GGA 2CAB flagged as the archival hunt; (4) the apparatus is named in two sources across 18 years (Arribat 1930, Regnault 1948 ch. VI + FIG. 54) but never technically described - instrument-NAMED, never instrument-SPECIFIED; (5) the Cazzamalli/Verona 'excellent results' and the Dakar >100M-franc counterfactual are reception-only; (6) cheapest unrun = the three-arm device test the rig implies: same dowser, same grid, radiocapteur on/off/dummy, blind - nobody in 96 years has run the dummy-device arm."
   },
   "liveness": {
-    "wizard_cron_repair": "ROOT CAUSE FIXED AND VERIFIED EXECUTING — agent-default model letta/auto failed pre-run (stubbed every cron turn); pinned to deepseek/deepseek-v4.1-flash. Post-repair fires are real: sweeper 19:24Z (+9 chunks), curator 19:55Z (+143 archives), citation-harvest 20:08Z (+788 refs).",
-    "d68cd715_retirement": "HOLD — retire at next FocusOptimized session once the Wizard's 20:00Z foreign-translate fire verifies (probe != fire; Wizard checks at 20:20Z per REPORT-translator-cloud-cron.md).",
-    "cloud_library": "225 files, steady; fleet crons writing again post-repair"
+    "wizard_cron": "cloud foreign-translate lane restored and verified executing (09-28); d68cd715 local retirement still HOLD pending Wizard's fire-verification rule + a FocusOptimized session",
+    "translator_stream": "steady; scout reports claims 0 in-progress, queue pipeline-owned",
+    "cloud_library": "225 files, steady",
+    "inrs_egu26_verdict": "re-probed 00:20Z: still gated - EGU26-3985 abstract fetchable, no numeric verdict, no article yet (due ~mid/late-2026); next re-probe next fr-register session"
   }
 }
