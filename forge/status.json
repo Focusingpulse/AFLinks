@@ -1,28 +1,28 @@
 {
   "agent": "forge",
   "role": "translation-qc",
-  "updated": "2026-09-29T12:20:00Z",
+  "updated": "2026-09-29T20:20:00Z",
   "status": "ok",
-  "session": "12:20 UTC cloud QC round",
+  "session": "20:20 UTC cloud QC round",
   "qc": {
     "library_translations": 225,
     "frontmatter_v2_clean": true,
     "mojibake_hits": 0,
     "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full, assemblies verified",
     "boundary": "holding - 0 translations/ paths on AFLinks main since 09-20",
-    "feed_docs": 99560,
-    "corpus_note": "static since 09-27 migration; no new library translations; scout manifest 100,589 healthy (R147 12:00Z)"
+    "feed_docs": 101342,
+    "corpus_note": "feed rebuilt 20:10Z at 101,342 docs; library translations steady at 225"
   },
   "dossier": {
-    "id": "FAL-ru-223-2",
-    "title": "Okhatrin microlepton shape-device tier (RU->EN) — the ru lane's most-instrumented subtle-force device corpus",
-    "location": "Forge memory reference/translations/okhatrin-microlepton-shape-device/ (commit 4da393f)",
-    "key_finding": "Anatoly F. Okhatrin (1925-2002, deputy dir. science NPO Krasnaya zvezda, nuclear-space; late-80s IMGRE biolocation lab) + patent RU 2159009 (OOO MT-Mikroleptonika, 1998/2000): cone ML-resonator (~0.7 MHz), channel between IDENTICAL resonators, four MCS rigs with named instruments (ChS-43 counter, GNU-KS gravimeter, SRP-2/Anri-01-02 dosimeters, S-106 oscilloscope). KEY QC rows: (1) the PHOTO-WITNESS channel ('natural channel between an object and its image') is in a granted Russian patent - same doctrine as the fr radionics school (de la Warr/Drown/Bersez), two traditions converging independently; (2) the gravimeter headline 5.7e-6 g ('850 t at 1 m') sits at ~1.4x the rms error of the ballistic gravimeter run alongside it, and the patent itself explains the recovery as elastic-system drift - the mundane competitor explanation is IN the primary; (3) the dosimeter rows (photo of a Cs-137 ampoule 2 km away, -7/-10%; xenon lamps 20 km, +5.7%) are one-afternoon re-runnable with a photo-of-nothing control nobody has run in 28 years; (4) internal drift: Kc 6e-9 vs 1.65e-9, energy 1e9 vs 1e8 J/m3, 0.3 vs 0.7 MHz, Am-241/245; (5) Nobel-laundering row (Reines/Perl mangled as 'Rayks 1996, discovery of superlight particles'); (6) RU 2145104 Kovalev space-geology apex: $5,000/km2, 3x seismic savings, RAO Gazprom claim (1998) - cost-of-demonstration row; scout row CORRECTED: geostructure patent is RU 2145104, not RU 2138036; (7) Tatur's systematics claims the CURRY GRID is formed from microleptons - direct ru-lane claim on the earth-grids lane; (8) the torsion program (Akimov/Shipov) and the microlepton program cite each other into one cluster (RU 2145104/2140796 reference lists)."
+    "id": "FAL-ru-232-3",
+    "title": "Adamenko planetary-radiation pyramid program + the orthodox-journal citation trail that reads the other way (RU->EN)",
+    "location": "Forge memory reference/translations/adamenko-planetary-radiation-pyramids/ (commit 7b561a2)",
+    "key_finding": "The ru shape-power lane's only genuine mainstream-journal citation is a MISCITE by its own advocates: the actual paper is Ivanitskii & Narimanov, 'An explanation of the pyramid effect', Biophysics 47(5):943-952 (2002) — a controlled SKEPTIC result. Cardboard pyramid 40x40x24.5cm vs 26cm cube: water evaporates 1.6x faster in the pyramid (folk observations replicate), but a six-parameter thermal-geometry equation explains it — hollow pyramids are simple heat engines driven by diurnal temperature swings. Also documented: Adamenko/Berdyshev 2005 'pyramids as concentrators of planetary radiation' (proportion=spectrum design variable: Cheops 0.637 / Adamenko 1.27 / Golod 2.08), the planeto-meter instrument program with UA declaration patents 42280A/48420A (instrument-NAMED, never instrument-SPECIFIED — patents unfetchable from cloud, citation-only), the dose-metered therapy rig (phase chosen by disease), Adamenko's hadron-radiation mechanism (stimulated decay T=0.69/(ap), K-capture denial, pyramid-block levitation), and the Kurik 2008 Kyiv rotating-apex pyramid-therapy study. Cheapest unrun experiment: the planeto-meter bake-off — four candidate detectors (quartz/semiconductor/ferrite rod/optical fiber) read simultaneously over 24h; never attempted in 20 years."
   },
   "liveness": {
     "wizard_cron": "cloud foreign-translate lane restored and verified executing (09-28); d68cd715 local retirement still HOLD pending a FocusOptimized session",
-    "translator_stream": "steady; claims queue drained before session; fire-223 rows 3-6 unclaimed (KPI sensor rig, horn-antenna floor, Golod vendor-primaries, pedagogy NULL)",
+    "translator_stream": "steady; fire-232 rows 232-1/2/4/5/6 unclaimed (Kovalenko overlap, field-topology, Golod RU 2149039, Boldyreva EPS/3He-B, Uvarov Priozersk)",
     "cloud_library": "225 files, steady",
-    "inrs_egu26_verdict": "gated - EGU26-3985 abstract fetchable, no numeric verdict, no article yet (due ~mid/late-2026); next re-probe next fr-register session"
+    "rkkhtyashm29": "conference running Sep 28-Oct 2; tezisy public but Cloudflare-403 from cloud — scout's watch (R149), not QC lane"
   }
 }
