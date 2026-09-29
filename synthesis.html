@@ -682,7 +682,7 @@
         /* ─── Init ─── */
         async function loadSynthesis() {
             try {
-                const res = await fetch('./synthesis/synthesis_index.json?v=20260929002531');
+                const res = await fetch('./synthesis/synthesis_index.json?v=20260929004355');
                 if (!res.ok) throw new Error('HTTP ' + res.status);
                 synthEntries = await res.json();
                 // Sanity: only keep entries that look like reports
