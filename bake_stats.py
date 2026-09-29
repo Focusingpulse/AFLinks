@@ -118,9 +118,19 @@ def main() -> int:
                 print(f"{page}: baked #{span_id} = {value}")
 
         # 1b) Doc counts inside meta description / og:description content.
+        # The count is maintained by PATTERN and must never be hardcoded: the
+        # archive grows daily, so a literal number in a meta tag is stale the
+        # next morning. The pattern used to require the number to be followed
+        # immediately by " primary-source". When the description gained a word
+        # ("52,701 cataloged primary-source documents") the pattern silently
+        # stopped matching and the description FROZE at 52,701 for weeks while
+        # og:description, which still matched, kept updating. Allow an optional
+        # word between the number and the phrase so a future reword cannot
+        # freeze it again. [^"] cannot cross the closing quote, so each match
+        # stays inside one attribute value.
         for phrase in ("primary-source", "searchable primary-source"):
             html, n = re.subn(
-                r'(content=")[0-9][0-9,]*( ' + re.escape(phrase) + r')',
+                r'(content="[^"]*?)\b[0-9][0-9,]*( (?:\w+ )?' + re.escape(phrase) + r')',
                 lambda m: m.group(1) + f"{docs:,}" + m.group(2),
                 html,
             )
