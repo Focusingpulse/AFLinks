@@ -1974,7 +1974,7 @@ def main():
             "date": today,
             "kind": "milestone",
             "title": "Atsyukovsky Book 5 — complete in English",
-            "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, now readable end to end.",
+            "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, held in the internal library pending rights review.",
             "rarity": "milestone",
             "href": "./library.html#translationsSection",
         })
