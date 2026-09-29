@@ -1288,7 +1288,11 @@ def main():
             if _w.get("file"):
                 _dbw[_w["file"].split("/")[-1]] = _w
         _lang_toks = {"fr", "de", "ru", "en", "it", "es", "el", "pt", "zh",
-                      "ja", "source", "translation"}
+                      "ja", "cs", "pl", "nl", "sr", "ar", "uk", "source",
+                      "translation", "french", "german", "italian", "spanish",
+                      "russian", "dutch", "czech", "polish", "portuguese",
+                      "greek", "japanese", "arabic", "serbian", "korean",
+                      "chinese", "english"}
         def _nt(t):
             # NFKD accent-stripping first: "Psicogeometría" must token-match
             # "Psicogeometria" (2026-09-28) — the [^a-z0-9] class alone
@@ -1301,6 +1305,13 @@ def main():
         for _tw in translation_works:
             if not isinstance(_tw, dict) or not _tw.get("file"):
                 continue
+            # 2026-09-29 (Drunvalo): if this feed entry's basename already
+            # IS a DB work's file, it is already aligned — do not go looking
+            # for another keeper (the relaxed cross-language guard let the
+            # torsion-fields-pl entry re-align onto the EGS-field synthesis,
+            # which merely shares 4 topic tokens).
+            if (_tw["file"].split("/")[-1]) in _dbw:
+                continue
             _ta = _nt(_tw.get("title"))
             if not _ta:
                 continue
@@ -1310,9 +1321,12 @@ def main():
                     continue          # already aligned
                 # DB language can be a 2-letter code ("fr") or a full name
                 # ("French", "Russian", "Korean") — normalize both sides
-                # through LANG_NAMES before comparing. DB language is the
-                # SOURCE language; feed language must match it (target is
-                # English for translations).
+                # through LANG_NAMES before comparing. 2026-09-29 (Drunvalo):
+                # a feed entry may also be the SOURCE-language doc whose EN
+                # translation is the DB work (stale inherited variant of a
+                # retired translations/ file). Those align to DB keepers whose
+                # language is "" or "en" regardless of the feed entry's own
+                # language — same-language matching stays as the first case.
                 def _lcode(v):
                     v = (v or "").strip().lower()
                     if not v:
@@ -1325,8 +1339,7 @@ def main():
                     return v[:2]
                 _lang_a = _lcode(_tw.get("language"))
                 _db_lang = _lcode(_dw.get("language"))
-                if _lang_a != _db_lang and not (_db_lang in ("", "en")
-                        and _lang_a == "en"):
+                if _lang_a != _db_lang and _db_lang not in ("", "en"):
                     continue
                 _tb = _nt(_dw.get("title"))
                 if not _tb:
@@ -1335,7 +1348,36 @@ def main():
                 _same_url = bool(_ua) and bool(_ub) and _ua == _ub
                 _contained = (len(_ta & _tb) >= 4
                               and (_ta <= _tb or _tb <= _ta))
+                # 2026-09-29 (Drunvalo): slug fallback for stale variants
+                # whose feed title is junk-generic ("Sacred Geometry") and
+                # can never title-match. Evidence = same date prefix AND a
+                # shared distinctive (>=6 char) slug token AND exactly ONE
+                # DB work matches that (date, token) pair — the uniqueness
+                # guard keeps e.g. two same-day Shipov articles from
+                # cross-aligning on the shared "shipov" token.
+                _slug_hit = False
                 if not (_same_url or _contained):
+                    _fd = (_tw.get("file") or "").split("/")[-1]
+                    _fd_date = _fd[:10] if _fd[:4].isdigit() else ""
+                    if _fd_date:
+                        def _stoks(fn):
+                            s = unicodedata.normalize(
+                                "NFKD", fn).lower()
+                            s = "".join(c for c in s
+                                        if not unicodedata.combining(c))
+                            return {t for t in re.split(r"[^a-z0-9]+", s)
+                                    if len(t) >= 6
+                                    and not t.isdigit()
+                                    and t not in _lang_toks}
+                        _shared = _stoks(_fd) & _stoks(_fn)
+                        for _tok in _shared:
+                            _mates = [_m for _m, _dw2 in _dbw.items()
+                                      if _tok in _stoks(_m)
+                                      and _m[:10] == _fd_date]
+                            if len(_mates) == 1 and _mates[0] == _fn:
+                                _slug_hit = True
+                                break
+                if not (_same_url or _contained or _slug_hit):
                     continue
                 _tw["file"] = _dw["file"]
                 _tw["title"] = _dw.get("title") or _tw.get("title")

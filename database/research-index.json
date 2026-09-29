@@ -2,8 +2,8 @@
   "_about": {
     "version": "0.1.0",
     "description": "Research index for the Aetherforce Living Library. Links works to themes, concepts, and cross-references. Maintained by Synthesist.",
-    "last_updated": "2026-09-27",
-    "note": "QC 2026-09-28 (Drunvalo): folded 3 duplicate works (akimov-shipov 09-18 re-emission of the trinitas.ru article, schauberger water-blood 09-11 date-variant, acqua-viva 09-06/09-10 pair); added 10 works from the 09-27 translation batch that were in library_feed but missing from the DB (vysotsky-kornilova water memory, tesla turbine, servranx radionique, IET flow technology, radiesthesie, pugach torsind, heliquantix, biodynamic agriculture, adaris akimov plant growth, contino form waves). Previous: QC 2026-09-26 (Drunvalo): removed YAML frontmatter accidentally prepended 2026-09-25 (breaks json.load); merged 33 cross-convention duplicate re-emissions into their rich keepers (6th damage class: same work, different slug conventions, escapes file-grouping)."
+    "last_updated": "2026-09-29",
+    "note": "QC 2026-09-29 (Drunvalo): added 32 works from the 09-28/09-29 translation batch that were in library_feed but missing from the DB (Zakharov/Mosyagina water clusters, Shipov x2, Pavlita x2, Osaka x2, Schauberger x2, Atsyukovsky German ed., Besson RGH analyses, plus water-structure, biodynamic, sacred-geometry and free-energy sources in NL/CS/JA/SR/AR/PL/PT/ES/EL). Added 15 persons (Zakharov, Mosyagina, Bartušek, Šejvl, Pavlita, Rukhadze, Epanchintseva, Osaka, Wojtkowiak, Kretschmer, Lorenc, Göbel, Bockemühl, Rang, Grander); extended works_in_collection for Shipov, Atsyukovsky, Grachev, Besson, Ponce de León, Pollack, Schauberger, Tesla. QC 2026-09-28 (Drunvalo): folded 3 duplicate works (akimov-shipov 09-18 re-emission of the trinitas.ru article, schauberger water-blood 09-11 date-variant, acqua-viva 09-06/09-10 pair); added 10 works from the 09-27 translation batch that were in library_feed but missing from the DB (vysotsky-kornilova water memory, tesla turbine, servranx radionique, IET flow technology, radiesthesie, pugach tors"
   },
   "works": [
     {
@@ -7616,13 +7616,16 @@
       "translated": true,
       "file": "translations/2026-09-27-biodynamic-agriculture-contemporary-view-es.md",
       "themes": [
-        "Biological & Morphogenetic Science"
+        "Biological & Morphogenetic Science",
+        "Regenerative Agriculture"
       ],
       "concepts": [
-        "bioenergy"
+        "bioenergy",
+        "biodynamic_agriculture"
       ],
       "key_claims": [
-        "Contemporary overview of biodynamic agriculture (Bio Eco Actual, 2024)"
+        "Contemporary overview of biodynamic agriculture (Bio Eco Actual, 2024)",
+        "Biodynamic agriculture II: a contemporary view (Spanish source)"
       ],
       "cross_references": [],
       "status": "translated",
@@ -7683,6 +7686,820 @@
       "status": "translated",
       "cross_refs": [],
       "source_url": "https://mariocontino.it/blog-del-mistero/onde-di-forma-e-geometria-sacra",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-29-torsion-fields-forgotten-force-healing-keytohealth-nl",
+      "title": "Torsievelden: de vergeten kracht achter heling, bewustzijn en kosmische orde (nl->EN)",
+      "authors": [],
+      "date": "2026-09-29",
+      "language": "nl",
+      "translated": true,
+      "file": "translations/2026-09-29-torsion-fields-forgotten-force-healing-keytohealth-nl.md",
+      "themes": [
+        "Plasma, Torsion & Cosmology",
+        "Radionics, Radiesthesia & Shape Power"
+      ],
+      "concepts": [
+        "torsion",
+        "healing",
+        "consciousness"
+      ],
+      "key_claims": [
+        "Torsion fields framed as a forgotten key in healing and consciousness work"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-zakharov-mosyagina-cluster-structure-of-water-ru",
+      "title": "The Cluster Structure of Water (A Review) — Zakharov & Mosyagina, Lebedev Physical Institute",
+      "authors": [
+        "zakharov",
+        "mosyagina"
+      ],
+      "date": "2026-09-28",
+      "language": "ru",
+      "translated": true,
+      "file": "translations/2026-09-28-zakharov-mosyagina-cluster-structure-of-water-ru.md",
+      "themes": [
+        "Water Structure & Memory"
+      ],
+      "concepts": [
+        "water_clusters",
+        "coherence"
+      ],
+      "key_claims": [
+        "Review of experimental and theoretical work on the cluster structure of water (Lebedev Physical Institute preprint, 2011)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-vortici-toroidali-materia-gravita-coscienza-it-en",
+      "title": "Translation: Toroidal Vortices — Matter, Gravity and Consciousness (IT)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "it",
+      "translated": true,
+      "file": "translations/2026-09-28-vortici-toroidali-materia-gravita-coscienza-it-en.md",
+      "themes": [
+        "Plasma, Torsion & Cosmology",
+        "Sacred & Projective Geometry"
+      ],
+      "concepts": [
+        "toroid",
+        "vortex",
+        "consciousness"
+      ],
+      "key_claims": [
+        "Toroidal vortex structures proposed as the common pattern of matter, gravity and consciousness"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "http://riciclaggiodellamemoria.blogspot.com/2018/03/i-vortic",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-voda-s-usporadanou-strukturou-bartusek-cs",
+      "title": "Voda s uspořádanou strukturou (Water with Ordered Structure) — Bartušek / ENERGIS 24 (CS->EN)",
+      "authors": [
+        "bartusek",
+        "sejvl"
+      ],
+      "date": "2026-09-28",
+      "language": "cs",
+      "translated": true,
+      "file": "translations/2026-09-28-voda-s-usporadanou-strukturou-bartusek-cs.md",
+      "themes": [
+        "Water Structure & Memory"
+      ],
+      "concepts": [
+        "structured_water",
+        "coherence"
+      ],
+      "key_claims": [
+        "Lecture account of water with ordered structure (ENERGIS 24, Brno)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-us-ufo-files-tranche-4-de",
+      "title": "Us Ufo Files Tranche 4",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "de",
+      "translated": true,
+      "file": "translations/2026-09-28-us-ufo-files-tranche-4-de.md",
+      "themes": [
+        "Geopolitics & Hidden History"
+      ],
+      "concepts": [
+        "ufo",
+        "declassification"
+      ],
+      "key_claims": [
+        "German coverage of the 4th tranche of released US UFO files"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-umh-energetisiertes-wasser-pollack-ez-de",
+      "title": "UMH — \"Energetisiertes Wasser\" (Pollack EZ water + Grander connection, DE->EN)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "de",
+      "translated": true,
+      "file": "translations/2026-09-28-umh-energetisiertes-wasser-pollack-ez-de.md",
+      "themes": [
+        "Water Structure & Memory"
+      ],
+      "concepts": [
+        "ez_water",
+        "hexagonal_water",
+        "structured_water"
+      ],
+      "key_claims": [
+        "German account of Pollack's EZ (fourth-phase) water and the Grander connection"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-tesla-turbine-pump-tokyo-lab-ja",
+      "title": "Tesla Turbine / Tesla Pump research — Teramoto/Okamoto Lab, Univ. of Tokyo (JA->EN)",
+      "authors": [
+        "tesla"
+      ],
+      "date": "2026-09-28",
+      "language": "ja",
+      "translated": true,
+      "file": "translations/2026-09-28-tesla-turbine-pump-tokyo-lab-ja.md",
+      "themes": [
+        "Energy & Transportation"
+      ],
+      "concepts": [
+        "tesla_turbine",
+        "boundary_layer"
+      ],
+      "key_claims": [
+        "University of Tokyo lab page on Tesla turbine/pump research"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-struktura-vody-epanchintseva-ru",
+      "title": "Структура воды — Epanchintseva (RU->EN)",
+      "authors": [
+        "epanchintseva"
+      ],
+      "date": "2026-09-28",
+      "language": "ru",
+      "translated": true,
+      "file": "translations/2026-09-28-struktura-vody-epanchintseva-ru.md",
+      "themes": [
+        "Water Structure & Memory"
+      ],
+      "concepts": [
+        "water_structure"
+      ],
+      "key_claims": [
+        "Scientific article on water structure (Earth Sciences specialty)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-sogwendel-schauberger-implosion-ev-de",
+      "title": "Sogwendel — Original Schauberger Model (DE->EN)",
+      "authors": [
+        "schauberger"
+      ],
+      "date": "2026-09-28",
+      "language": "de",
+      "translated": true,
+      "file": "translations/2026-09-28-sogwendel-schauberger-implosion-ev-de.md",
+      "themes": [
+        "Vortex & Implosion",
+        "Water, Life & Biology"
+      ],
+      "concepts": [
+        "implosion",
+        "vortex"
+      ],
+      "key_claims": [
+        "Association page on the original Schauberger model (Sogwendel)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-shipov-physical-vacuum-torsion-qm-tesla-ru",
+      "title": "Shipov — Physical Vacuum, Torsion Fields, Quantum Mechanics and N. Tesla's Experiments (RU->EN)",
+      "authors": [
+        "shipov",
+        "tesla"
+      ],
+      "date": "2026-09-28",
+      "language": "ru",
+      "translated": true,
+      "file": "translations/2026-09-28-shipov-physical-vacuum-torsion-qm-tesla-ru.md",
+      "themes": [
+        "Plasma, Torsion & Cosmology",
+        "Aether, Light & Electricity"
+      ],
+      "concepts": [
+        "torsion",
+        "physical_vacuum",
+        "aether"
+      ],
+      "key_claims": [
+        "Shipov on physical vacuum, torsion fields and Tesla's experiments (trinitas.ru)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-shipov-electrotorsion-generators-ru",
+      "title": "Shipov — Electrotorsion Generators in Russia and Abroad (trinitas.ru) (ru->EN)",
+      "authors": [
+        "shipov"
+      ],
+      "date": "2026-09-28",
+      "language": "ru",
+      "translated": true,
+      "file": "translations/2026-09-28-shipov-electrotorsion-generators-ru.md",
+      "themes": [
+        "Plasma, Torsion & Cosmology",
+        "Alternative Energy Technologies"
+      ],
+      "concepts": [
+        "torsion",
+        "electrotorsion_generator"
+      ],
+      "key_claims": [
+        "Shipov on electrotorsion generators in Russia and abroad (trinitas.ru)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-rgh-technical-analyses-besson-fr",
+      "title": "Translation: RGH Technical Analyses (Besson 2025) — degrees of freedom, bounce term, perturbations, CLASS fork",
+      "authors": [
+        "besson"
+      ],
+      "date": "2026-09-28",
+      "language": "fr",
+      "translated": true,
+      "file": "translations/2026-09-28-rgh-technical-analyses-besson-fr.md",
+      "themes": [
+        "Frontier Science"
+      ],
+      "concepts": [
+        "rgh",
+        "degrees_of_freedom",
+        "perturbation"
+      ],
+      "key_claims": [
+        "Technical analyses of the RGH framework: degrees of freedom, bounce term, perturbations, CLASS fork (Zenodo)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "https://zenodo.org/records/17555967",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-pripad-biogeneratoru-pavlita-cs",
+      "title": "The Case of the Biogenerators — Robert Pavlita (cs→en)",
+      "authors": [
+        "pavlita",
+        "kretschmer"
+      ],
+      "date": "2026-09-28",
+      "language": "cs",
+      "translated": true,
+      "file": "translations/2026-09-28-pripad-biogeneratoru-pavlita-cs.md",
+      "themes": [
+        "Frontier Science",
+        "Transhumanism & Psychotronic Warfare"
+      ],
+      "concepts": [
+        "biogenerator",
+        "psychotronics"
+      ],
+      "key_claims": [
+        "Account of Robert Pavlita's biogenerators (Fantastická fakta, republished by Cesty psychotroniky)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "https://www.cestypsychotroniky.cz/index.php/2023/09/07/pripad-biogeneratoru",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-pantachikinon-electrodynamics-synthesis-el-en",
+      "title": "Translation: A Synthesis of the Theory of the Pantachikinon and Modern Electrodynamics (EL)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "el",
+      "translated": true,
+      "file": "translations/2026-09-28-pantachikinon-electrodynamics-synthesis-el-en.md",
+      "themes": [
+        "Electromagnetic Theory",
+        "Aether, Light & Electricity"
+      ],
+      "concepts": [
+        "pantachikinon",
+        "electrodynamics"
+      ],
+      "key_claims": [
+        "Synthesis of the theory of the pantachikinon with modern electrodynamics (Greek source)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "https://geocities.ws/yliko2016/Karydiana",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-osaka-space-art-water-spheres-microgravity-ja",
+      "title": "Space Art and Media Experiments: Water Spheres in Microgravity (Takuro Osaka, 2011; Japanese original, English translation)",
+      "authors": [
+        "takuro-osaka"
+      ],
+      "date": "2026-09-28",
+      "language": "ja",
+      "translated": true,
+      "file": "translations/2026-09-28-osaka-space-art-water-spheres-microgravity-ja.md",
+      "themes": [
+        "Water, Life & Biology"
+      ],
+      "concepts": [
+        "microgravity",
+        "water_spheres",
+        "space_art"
+      ],
+      "key_claims": [
+        "Space art and media experiments: water spheres in microgravity (Osaka, 2011)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-osaka-micro-water-flow-energy-ja",
+      "title": "微小水流が新たなエネルギー源に — Osaka University (2024-11-01) (ja->EN)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "ja",
+      "translated": true,
+      "file": "translations/2026-09-28-osaka-micro-water-flow-energy-ja.md",
+      "themes": [
+        "Water, Life & Biology",
+        "Alternative Energy Technologies"
+      ],
+      "concepts": [
+        "graphene",
+        "micro_water_flow",
+        "energy_harvesting"
+      ],
+      "key_claims": [
+        "Osaka University press release: micro water flows with graphene as a new energy source (2024)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-nikola-tesla-free-energy-sr",
+      "title": "Nikola Tesla Free Energy",
+      "authors": [
+        "tesla"
+      ],
+      "date": "2026-09-28",
+      "language": "sr",
+      "translated": true,
+      "file": "translations/2026-09-28-nikola-tesla-free-energy-sr.md",
+      "themes": [
+        "Alternative Energy Technologies",
+        "Aether, Light & Electricity"
+      ],
+      "concepts": [
+        "free_energy",
+        "tesla"
+      ],
+      "key_claims": [
+        "Serbian article on Tesla's free-energy vision for humanity"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-neznama-energie-pavlita-1966-cs",
+      "title": "Unknown Energy? — Robert Pavlita 1966 press account (cs→en)",
+      "authors": [
+        "pavlita",
+        "lorenc"
+      ],
+      "date": "2026-09-28",
+      "language": "cs",
+      "translated": true,
+      "file": "translations/2026-09-28-neznama-energie-pavlita-1966-cs.md",
+      "themes": [
+        "Frontier Science"
+      ],
+      "concepts": [
+        "biogenerator",
+        "unknown_energy"
+      ],
+      "key_claims": [
+        "1966 press account of Pavlita's 'unknown energy' experiments (Práce, republished by Cesty psychotroniky)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "https://www.cestypsychotroniky.cz/index.php/2023/09/03/neznama-energie/",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-mini-tesla-coil-wireless-power-ar",
+      "title": "Mini Tesla Coil Wireless Power",
+      "authors": [
+        "tesla"
+      ],
+      "date": "2026-09-28",
+      "language": "ar",
+      "translated": true,
+      "file": "translations/2026-09-28-mini-tesla-coil-wireless-power-ar.md",
+      "themes": [
+        "Aether, Light & Electricity"
+      ],
+      "concepts": [
+        "tesla_coil",
+        "wireless_power"
+      ],
+      "key_claims": [
+        "Arabic tutorial article on a mini Tesla coil and wireless power"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-lenr-in-russia-rukhadze-grachev-ru",
+      "title": "LENR в России (Low Energy Nuclear Reactions in Russia) (ru->EN)",
+      "authors": [
+        "rukhadze",
+        "grachev"
+      ],
+      "date": "2026-09-28",
+      "language": "ru",
+      "translated": true,
+      "file": "translations/2026-09-28-lenr-in-russia-rukhadze-grachev-ru.md",
+      "themes": [
+        "Challenges to the Standard Model",
+        "Alternative Energy Technologies"
+      ],
+      "concepts": [
+        "lenr",
+        "cold_fusion"
+      ],
+      "key_claims": [
+        "LENR in Russia: review by Rukhadze & Grachev (Prokhorov Institute)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-hierarchical-water-premelting-nanopores-tus-ja",
+      "title": "Hierarchical Structure and Premelting State of Water Confined in Molecular Nanocrystal Nanopores (ja→en)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "ja",
+      "translated": true,
+      "file": "translations/2026-09-28-hierarchical-water-premelting-nanopores-tus-ja.md",
+      "themes": [
+        "Water Structure & Memory"
+      ],
+      "concepts": [
+        "confined_water",
+        "premelting",
+        "nanopores"
+      ],
+      "key_claims": [
+        "Hierarchical structure and premelting state of water confined in molecular nanocrystal nanopores (Japanese university research)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-goetheanum-goetheanistic-natural-science-training-de",
+      "title": "Ausbildung in Goetheanistischer Naturwissenschaft — Goetheanum (DE->EN)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "de",
+      "translated": true,
+      "file": "translations/2026-09-28-goetheanum-goetheanistic-natural-science-training-de.md",
+      "themes": [
+        "Goethean & Anthroposophical Science"
+      ],
+      "concepts": [
+        "goetheanism",
+        "natural_science_training"
+      ],
+      "key_claims": [
+        "Goetheanum part-time training course in Goetheanistic natural science"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-geometria-sacra-del-suono-e-vibrazione-it",
+      "title": "The Sacred Geometry of Sound and Vibration (La Geometria Sacra del Suono e della Vibrazione)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "it",
+      "translated": true,
+      "file": "translations/2026-09-28-geometria-sacra-del-suono-e-vibrazione-it.md",
+      "themes": [
+        "Sacred & Projective Geometry",
+        "Harmonics, Rhythms & Cycles"
+      ],
+      "concepts": [
+        "sacred_geometry",
+        "sound",
+        "vibration"
+      ],
+      "key_claims": [
+        "The sacred geometry of sound and vibration (Italian source)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-energia-wody-trzeciej-rzeszy-pl-en",
+      "title": "Translation: Water Energy in the Service of the Third Reich (PL)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "pl",
+      "translated": true,
+      "file": "translations/2026-09-28-energia-wody-trzeciej-rzeszy-pl-en.md",
+      "themes": [
+        "Geopolitics & Hidden History",
+        "Water, Life & Biology"
+      ],
+      "concepts": [
+        "water_energy",
+        "third_reich"
+      ],
+      "key_claims": [
+        "Water energy in the service of the Third Reich (Polish blog source)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "http://wszechocean.blogspot.com/2013/11/energia-wody-w-suzbie-trzec",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-chiral-liquid-crystal-water-ice-iii-interface-ja",
+      "title": "Chiral Liquid Crystal-Like Water at the High-Pressure Ice III Interface (ja→en)",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "ja",
+      "translated": true,
+      "file": "translations/2026-09-28-chiral-liquid-crystal-water-ice-iii-interface-ja.md",
+      "themes": [
+        "Water Structure & Memory"
+      ],
+      "concepts": [
+        "chiral_water",
+        "liquid_crystal",
+        "high_pressure_ice"
+      ],
+      "key_claims": [
+        "Chiral liquid-crystal-like water discovered at the high-pressure ice III interface (2024 press release)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-biodinamica-portugal-schauberger-agua-pt",
+      "title": "Biodinámica Portugal — Encontro com a Natureza / Schauberger and water (PT->EN)",
+      "authors": [
+        "schauberger"
+      ],
+      "date": "2026-09-28",
+      "language": "pt",
+      "translated": true,
+      "file": "translations/2026-09-28-biodinamica-portugal-schauberger-agua-pt.md",
+      "themes": [
+        "Regenerative Agriculture",
+        "Water, Life & Biology"
+      ],
+      "concepts": [
+        "biodynamics",
+        "schauberger",
+        "water"
+      ],
+      "key_claims": [
+        "Biodinámica Portugal: meeting nature, Schauberger and water"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-bildekraefte-des-blattes-goebel-de",
+      "title": "Die Bildekräfte des Blattes — Göbel (DE->EN)",
+      "authors": [
+        "goebel",
+        "bockemuhl",
+        "rang"
+      ],
+      "date": "2026-09-28",
+      "language": "de",
+      "translated": true,
+      "file": "translations/2026-09-28-bildekraefte-des-blattes-goebel-de.md",
+      "themes": [
+        "Goethean & Anthroposophical Science"
+      ],
+      "concepts": [
+        "formative_forces",
+        "leaf_morphology",
+        "goetheanism"
+      ],
+      "key_claims": [
+        "The formative forces of the leaf (Göbel, Elemente der Naturwissenschaft 49, 1988)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-badanie-struktur-wody-ip340-wojtkowiak-pl",
+      "title": "Badanie struktur wody (Study of Water Structures) — Wojtkowiak / IP340 (PL->EN)",
+      "authors": [
+        "wojtkowiak"
+      ],
+      "date": "2026-09-28",
+      "language": "pl",
+      "translated": true,
+      "file": "translations/2026-09-28-badanie-struktur-wody-ip340-wojtkowiak-pl.md",
+      "themes": [
+        "Water Structure & Memory"
+      ],
+      "concepts": [
+        "structured_water",
+        "ip340",
+        "tap_nozzle"
+      ],
+      "key_claims": [
+        "Study of water structures produced by a tap nozzle and the IP340 device (Wojtkowiak, Gdańsk 2025)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-atsyukovsky-dynamik-des-athers-1974-de",
+      "title": "Atsyukovsky — The Dynamics of the Aether (1974, German ed.) (de→en)",
+      "authors": [
+        "atsyukovsky"
+      ],
+      "date": "2026-09-28",
+      "language": "de",
+      "translated": true,
+      "file": "translations/2026-09-28-atsyukovsky-dynamik-des-athers-1974-de.md",
+      "themes": [
+        "Aether, Light & Electricity"
+      ],
+      "concepts": [
+        "aether",
+        "aether_dynamics"
+      ],
+      "key_claims": [
+        "The Dynamics of the Aether (Atsyukovsky, Ideen des exakten Wissens 2/1974, German edition)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": "https://ether-wind.narod.ru/Aziukowski_Athers_1974/",
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-arquitectura-biologica-geometria-sagrada-ponce-de-leon-es",
+      "title": "Arquitectura Biológica y Geometría Sagrada (ES->EN)",
+      "authors": [
+        "ponce-de-leon"
+      ],
+      "date": "2026-09-28",
+      "language": "es",
+      "translated": true,
+      "file": "translations/2026-09-28-arquitectura-biologica-geometria-sagrada-ponce-de-leon-es.md",
+      "themes": [
+        "Sacred & Projective Geometry"
+      ],
+      "concepts": [
+        "sacred_geometry",
+        "bioarchitecture"
+      ],
+      "key_claims": [
+        "Biological architecture and sacred geometry (Álvarez Ponce de León)"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "2026-09-28-akhawia-free-energy-arabic-forum-2007-ar",
+      "title": "akhawia-free-energy-arabic-forum-2007",
+      "authors": [],
+      "date": "2026-09-28",
+      "language": "ar",
+      "translated": true,
+      "file": "translations/2026-09-28-akhawia-free-energy-arabic-forum-2007-ar.md",
+      "themes": [
+        "Alternative Energy Technologies"
+      ],
+      "concepts": [
+        "free_energy"
+      ],
+      "key_claims": [
+        "Arabic forum thread (akhawia.net, 2007-2009) on free energy claims"
+      ],
+      "cross_references": [],
+      "status": "translated",
+      "cross_refs": [],
+      "source_url": null,
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     }
   ],
