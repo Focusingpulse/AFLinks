@@ -1,0 +1,10 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-21T04:22:52.746454+00:00",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json database/person-index.json library_feed.json build_library_feed.py"
+  ],
+  "details": "Post-publish-boundary QC (translations/ retired to Forge memory 09-20). Fixed 26 junk 'Full-document translation' titles in research-index (real titles recovered from feed); enriched 3 stub works 09-19 (bersez ODF, curry critique, ephaptic coupling); added Sergeev Gidrosolenoid trial-reports DB entry; +2 persons (patrick-cavalie, jacques-bersez), -1 junk person; fixed burtin/hecquet/sergeev work paths; feed: Wilhelm_Re date fragment -> 2025, 4 mojibake fixes; build_library_feed.py fname[:10] date bug fixed at both call sites. tag_concepts.py skipped: index.json no longer exists (archive sharded to index_shards/, 80,265 docs) \u2014 script predates sharding. Validation battery passed: 0 junk titles, 0 dangling authors, 0 bad feed dates, 0 mojibake."
+}

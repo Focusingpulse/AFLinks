@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-08-31T16:07:56.815498+00:00",
+  "agent": "Drunvalo",
+  "cron": "village-content-growth",
+  "summary": "Added 3 vetted learning resources to Village Library: Survipedia cob guide, The Ferment Guide, UMN Extension fermentation. All URLs verified. Link report: 592 OK, 28 issues.",
+  "status": "ok",
+  "files_checked": ["index.html"],
+  "resources_added": [
+    {
+      "title": "Survipedia — How to Build with Cob",
+      "url": "https://survipedia.com/shelter/cob/",
+      "section": "Natural Building"
+    },
+    {
+      "title": "The Ferment Guide — How to Ferment at Home",
+      "url": "https://thefermentguide.com/guides/how-to-ferment-at-home",
+      "section": "Food Preservation"
+    },
+    {
+      "title": "UMN Extension — Fermentation Guide",
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+      "section": "Food Preservation"
+    }
+  ],
+  "link_report": {
+    "total": 620,
+    "ok": 592,
+    "http_errors": 21,
+    "unreachable": 7
+  }
+}

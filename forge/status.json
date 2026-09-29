@@ -1,26 +1,26 @@
 {
   "agent": "forge",
   "role": "translation-qc",
-  "updated": "2026-09-29T08:20:00Z",
+  "updated": "2026-09-29T00:20:00Z",
   "status": "ok",
-  "session": "08:20 UTC cloud QC round",
+  "session": "00:20 UTC cloud QC round",
   "qc": {
     "library_translations": 225,
     "frontmatter_v2_clean": true,
     "mojibake_hits": 0,
-    "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full, assemblies verified",
+    "atsyukovsky_manifests": "B1 249/249, B2 247/247, B3 210/210, B4 178/178, B5 220/220 — all full, assemblies verified (B5 316 pN markers)",
     "boundary": "holding - 0 translations/ paths on AFLinks main since 09-20",
-    "feed_docs": 99040
+    "feed_docs": 99560
   },
   "dossier": {
-    "id": "FAL-ru-223-1",
-    "title": "Kovalenko form-field corpus (RU->EN) — the ru shape-power lane's named-author instrumented tier",
-    "location": "Forge memory reference/translations/kovalenko-form-field-corpus/ (commit c2379fb)",
-    "key_finding": "Prof. V.F. Kovalenko (Kherson NTU), 4 papers 2012-2017 in biofbe.esrae.ru: laser light-scattering rig (0.65um pointer laser, 4-70deg indicatrix) reading water cluster structure inside paper pyramids/cylinders/prisms; torsion mechanism; layer-count self-compensation (1/2/4 ply: 215/132.5/99%); pyramid apex-zone anomaly with base on/off switch; 2017 operator-MENTAL-influence joint experiment. KEY QC rows: (1) SIGN-CONFOUND - the same form destroys or generates clusters depending on initial water structure (-35%/+40%/+47%), so every headline number is conditional on an uncontrolled initial state; (2) the operator protocol is PRAYER, source text esoteric (Lazarev 'Diagnostics of Karma'); (3) the CONTROL cuvette oscillated on its own over 1300 min - cause 'not established', admitted in the primary; (4) apex anomaly confounded by proximity (no equidistant control); (5) the pyramid is NOT Cheops-proportioned (~7% off, never specified); (6) GENEALOGY: the 2012 paper cites Pagot 'Radiesthesie et emission de forme' (Paris 1978) - the ru instrumented corpus is downstream of the French ondes-de-forme tradition; the two lanes are ONE citation chain; (7) cheapest unrun: dummy-form + equidistant-external + filtered-water layer-count, one afternoon each, never run by anyone in 15 years."
+    "id": "FAL-fr-224-1",
+    "title": "Moineau radiocapteurs + Arribat 1930 'Il faut prendre au serieux les sourciers !' (FR->EN)",
+    "location": "Forge memory reference/translations/moineau-radiocapteurs-arribat-1930/ (commit 36e6c62)",
+    "key_finding": "The fr lane's first named ELECTRICAL dowsing apparatus (1930): Moineau's radiocapteurs - device + rod + sample-witness hybrid, photographed. KEY QC rows: (1) the Je Sais Tout dossier is datable to LATE 1930 (Carde appears as Algeria governor-general, appointed 03-10-1930; the Dakar story sits inside his verified AOF tenure 1923-30); (2) Moineau is the RADIOTELLURIE co-coiner (with Regnault, from 1921, attested Regnault 1948) - the dossier is the RIVAL party's press artifact against Bouly's AAR, and Arribat says rhabdomancie, never radiesthesie; (3) the announced Algiers Congres des Sourciers (Carde patronage) NEVER ENTERED THE CANON - no proceedings, no trace in AAR history, Regnault's own 1948 congress list (Verone yes, Algiers-1930 no), or BnF: announced-and-unheld, ANOM GGA 2CAB flagged as the archival hunt; (4) the apparatus is named in two sources across 18 years (Arribat 1930, Regnault 1948 ch. VI + FIG. 54) but never technically described - instrument-NAMED, never instrument-SPECIFIED; (5) the Cazzamalli/Verona 'excellent results' and the Dakar >100M-franc counterfactual are reception-only; (6) cheapest unrun = the three-arm device test the rig implies: same dowser, same grid, radiocapteur on/off/dummy, blind - nobody in 96 years has run the dummy-device arm."
   },
   "liveness": {
-    "wizard_cron": "cloud foreign-translate lane restored and verified executing (09-28); d68cd715 local retirement still HOLD pending a FocusOptimized session",
-    "translator_stream": "steady; scout queue drained, fire-223 rows 2-6 unclaimed",
+    "wizard_cron": "cloud foreign-translate lane restored and verified executing (09-28); d68cd715 local retirement still HOLD pending Wizard's fire-verification rule + a FocusOptimized session",
+    "translator_stream": "steady; scout reports claims 0 in-progress, queue pipeline-owned",
     "cloud_library": "225 files, steady",
     "inrs_egu26_verdict": "re-probed 00:20Z: still gated - EGU26-3985 abstract fetchable, no numeric verdict, no article yet (due ~mid/late-2026); next re-probe next fr-register session"
   }

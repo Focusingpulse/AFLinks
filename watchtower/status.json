@@ -1,0 +1,12 @@
+{
+  "last_run": "2026-09-28T16:05:00Z",
+  "last_status": "ok",
+  "last_summary": "Daily quick-scan: translator stall flag RETIRED by Forge with root cause (publish boundary, not stall; feed healthy - 141 translations, 17 dated today). Drunvalo phantom audit file RESOLVED (committed to Village repo 09-28). Synthesist 30d stale (oldest open flag, Navigator concurs). Quest queue 49 cards. clean-chem healthy (220 products).",
+  "last_details": {
+    "findings_count": 3,
+    "lanes_active": ["scout", "forge", "navigator", "drunvalo"],
+    "lanes_stale_status": ["synthesist"],
+    "repos_fresh": ["AFLinks", "clean-chem-intel", "permies-skip-pep-data"],
+    "repos_quiet": ["bellas-media"]
+  }
+}
