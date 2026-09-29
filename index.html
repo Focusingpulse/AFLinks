@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tokens.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <meta name="description" content="Aetherforce Knowledge Vault — 52,701 cataloged primary-source documents (36,014 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
+    <meta name="description" content="Aetherforce Knowledge Vault — 99,825 cataloged primary-source documents (36,014 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
     <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
     <meta property="og:description" content="99,825 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
     <meta property="og:type" content="website">
@@ -2002,11 +2002,13 @@
             .kc-chip { font-size: 0.66rem; padding: 5px 8px; }
         }
     </style>
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://focusingpulse.github.io/AFLinks/">
 </head>
 <body>
     <a class="skip-link" href="#results">Skip to results</a>
     <!-- Hero: pirate's paradise, Aetherforce front and center -->
-    <div class="hero pirate-hero">
+    <header class="hero pirate-hero">
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">99,825</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">90,720</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
@@ -2027,7 +2029,7 @@
                 <a class="hc-link" href="https://t.me/aetherforceposts" target="_blank">💬 Telegram</a>
             </div>
         </div>
-    </div>
+    </header>
     <div class="wave-divider" aria-hidden="true"></div>
     <!-- Biosignature divider [aesthetic arrangement of prescribed Karim shapes — biosignatures.js] -->
     <div data-bgsig="divider" data-bg-color="var(--gold, #e8b64c)" aria-hidden="true"></div>
@@ -2176,7 +2178,7 @@
         <span>☰</span> Filters & Categories
     </button>
 
-    <div class="main-container">
+    <main class="main-container" id="main">
         <div class="sidebar" id="sidebar">
             <div class="meta-section-label">Meta-Categories</div>
             <div class="meta-category-list" id="metaCategoryList"></div>
@@ -2199,9 +2201,9 @@
                 <div class="active-filter-display" id="activeFilterDisplay"></div>
             </div>
             <div class="results-grid" id="results"></div>
-            <div class="loading" id="loading">The vault holds <span id="loadingDocCount">99,825</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
+            <div class="loading" id="loading" role="status" aria-live="polite">The vault holds <span id="loadingDocCount">99,825</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
         </div>
-    </div>
+    </main>
 
     <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)" role="dialog" aria-modal="true" aria-label="Document details">
         <div class="modal" id="modal" tabindex="-1"></div>
