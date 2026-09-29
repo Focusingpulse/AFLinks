@@ -1200,7 +1200,7 @@ function renderDomains(list) {
       : '';
     const conns = d.connections.length
       ? '<div class="conns">' + d.connections.map(c =>
-          `<a href="index.html?cat=${encodeURIComponent(c.to)}" target="_blank" class="conn-link">${c.to} <span class="conn-shared">${c.shared}</span></a>`
+          `<a href="index.html?subj=${encodeURIComponent(c.to)}" target="_blank" class="conn-link">${c.to} <span class="conn-shared">${c.shared}</span></a>`
         ).join(' · ') + '</div>'
       : '';
     card.innerHTML = `
