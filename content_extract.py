@@ -118,6 +118,16 @@ SITE_CONTAINERS = [
     ("html5", r'<div[^>]+id="bodyContent"[^>]*>'),
     ("html5", r'<div[^>]+id="content"[^>]*>'),
     ("html5", r'<div[^>]+class="[^"]*content[^"]*"[^>]*>'),
+    # keelynet.com — 1990s table layout, no modern container anywhere. The
+    # article sits in a bordered table's justified cell: `<td align=justify>`.
+    # Kept LAST on purpose: every site that matches an earlier pattern is
+    # untouched, so this only changes pages that previously fell through to
+    # whole-document flattening (i.e. pages whose "preview" was the site menu).
+    # Measured 2026-09-29 on three archived pages (010212a/b/d) that today carry
+    # byte-identical previews: this yields 11,629-11,923 chars of distinct
+    # article text each, chrome_score 0, where the flat path returned the same
+    # 2,000-char nav block for all three.
+    ("keelynet", r'<td[^>]+align\s*=\s*["\']?justify["\']?[^>]*>'),
 ]
 
 # Chrome that lives INSIDE a content container and must go.

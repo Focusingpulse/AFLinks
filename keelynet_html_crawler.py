@@ -18,6 +18,8 @@ Usage:
 """
 import argparse, json, os, re, sys, time, urllib.request, concurrent.futures, threading
 
+import content_extract as ce
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 STATE_PATH = os.path.join(HERE, "wayback_keelynet_com.json")
 ENTRIES_PATH = os.path.join(HERE, "wayback_keelynet_html_entries.json")
@@ -124,6 +126,15 @@ def fetch(url, timeout=45):
 
 
 def strip_html(h):
+    """DEPRECATED — kept only so nothing silently imports a missing name.
+
+    This is the first-generation stripper content_extract.py was written to
+    replace: it deletes script/style and then turns EVERY remaining tag into a
+    space, so a page's menu comes out as prose. On this site the preview is cut
+    at 2,000 chars and the menu is longer than that, so the entire "preview" was
+    the navigation block — byte-identical across hundreds of distinct pages.
+    process() no longer calls this. Do not reintroduce a call.
+    """
     h = re.sub(r"<script.*?</script>|<style.*?</style>", " ", h, flags=re.S | re.I)
     h = re.sub(r"<!--.*?-->", " ", h, flags=re.S)
     h = re.sub(r"<[^>]+>", " ", h)
@@ -131,10 +142,28 @@ def strip_html(h):
     return h
 
 
+def article_title(text, fallback=""):
+    """keelynet's <title> is the SAME site boilerplate on every page
+    ("KeelyNet News 2012 - Free Energy / Gravity Control / Electronic Health /
+    Alternative Science - 01/02/12"), which is why 913 records in the index
+    share one title. The real headline is the first line of the article body,
+    preceded by a date line. Use that.
+    """
+    DATE_LINE = re.compile(r"^\s*\d{1,2}[/-]\d{1,2}[/-]\d{2,4}\s*[-–—:]?\s*$")
+    for ln in (text or "").split("\n"):
+        ln = ln.strip()
+        if not ln or DATE_LINE.match(ln):
+            continue
+        if 8 <= len(ln) <= 200:
+            return ln
+    return fallback
+
+
 def extract_title(h):
+    """Fallback title from the raw <title>, cleaned of site-name decoration."""
     m = re.search(r"<title>(.*?)</title>", h, re.S | re.I)
     if m:
-        t = m.group(1).strip()
+        t = ce.clean_title(m.group(1).strip())
         if t:
             return t[:200]
     return ""
@@ -173,13 +202,19 @@ def process(item, st, scope_slug, existing_norm):
             stx["skip"][key] = "not_html"
             save_state(st)
         return None
-    txt = strip_html(body)
+    # Extract through the shared extractor so site chrome never becomes the
+    # document. See content_extract.py's SITE_CONTAINERS for the keelynet rule.
+    # extract_content() never returns less than the old flat strip did, so this
+    # cannot make a preview worse than it was.
+    _t, txt = ce.extract_content(body, norm, max_chars=2000)
     if len(txt) < 60:
         with lock:
             stx["skip"][key] = "no_text"
             save_state(st)
         return None
-    title = extract_title(body) or re.sub(r"[_\-]+", " ", os.path.basename(orig.split("?")[0])).strip()
+    title = (article_title(txt)
+             or extract_title(body)
+             or re.sub(r"[_\-]+", " ", os.path.basename(orig.split("?")[0])).strip())
     entry = {
         "id": None,
         "filename": os.path.basename(orig.split("?")[0]) or orig,
