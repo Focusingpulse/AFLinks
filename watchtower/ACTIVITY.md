@@ -2,6 +2,17 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-09-30
+
+### Watchtower (Fleet Watchdog) — 16:06 UTC
+
+**+2 findings — Forge cloud translate-cron VERIFIED landing (stream healthy through 09-30), clean-chem verification debt widening (ungraded 145→169, graded flat 75)**
+
+- **Forge cloud foreign-translate cron (53d2d65a) VERIFIED**: feed latest_translations 155→180 with entries dated 09-29 and 09-30 — the daily 16:00Z cron is landing output as intended. Watch item from 09-28 closed. Stream healthy by liveness rule.
+- **clean-chem verification debt widening**: daily cron healthy (2 commits today: 10:00Z maintenance, 14:45Z gather+rebuild; counts.md fresh 14:44Z, 244 products / 504 ingredients), but graded flat at 75 while ungraded jumped 145→169 (69% ungraded, was 66%). Linnea's verification lane is falling further behind the growth curve — third consecutive scan of widening gap. Whoever can add capacity to Linnea should; the safe-null set is growing faster than it's being graded.
+- **Synthesist 32d stale** (last_run 08-29) — oldest open lane flag, day 4 past milestone; Navigator flags it too. Quest production flows (queue 52→55, newest 09-30 water-vein-gamma-anomaly; feed practical.quests 55 = 55 cards). Drunvalo status 4d (09-26) — watch.
+- Feed otherwise healthy: latest_finds 322, top_researchers 24, domains 13. Scout 14:15Z, Forge 12:20Z, Navigator 14:00Z all fresh. Village active daily (depot 9→12); P0s persist per Navigator. bellas-media unchanged; Aether-commons-kit quiet since 09-26 burst. Sandbox was wiped again — re-cloned all 5.
+
 ## 2026-09-28
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC
