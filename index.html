@@ -2966,7 +2966,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260930191000')
+            fetch('./synthesis/synthesis_index.json?v=20260930201056')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3852,7 +3852,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20260930191000');
+                            const mRes = await fetch('./search_index_manifest.json?v=20260930201056');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3875,7 +3875,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20260930191000');
+                        const response = await fetch('./search_index.json?v=20260930201056');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3906,12 +3906,12 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260930191000');
+                    const man = await fetch('./full_manifest.json?v=20260930201056');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260930191000');
+                    const feedRes = await fetch('./library_feed.json?v=20260930201056');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4027,7 +4027,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260930191000');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260930201056');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
