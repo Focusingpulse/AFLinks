@@ -34,6 +34,20 @@ UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"}
 
 AUTHOR = "Scooter <scooter@letta.com>"
 
+# Known-fail URLs (dead 404s / server-truncated 0-page PDFs) are persisted in
+# the repo (index_shards/ocr_known_fail_urls.json) so rebuild fires -- which
+# lose the ephemeral ocr_worker_state.json to sandbox resets -- can skip the
+# re-confirm cycle instead of re-attempting the same 60-ish dead downloads.
+KNOWN_FAIL = os.path.join(HERE, "index_shards", "ocr_known_fail_urls.json")
+
+
+def load_known_fail():
+    try:
+        with open(KNOWN_FAIL, encoding="utf-8") as f:
+            return set(json.load(f).get("urls", {}))
+    except Exception:
+        return set()
+
 
 def log(msg):
     line = f"{time.strftime('%Y-%m-%d %H:%M:%S')}Z {msg}"
@@ -163,7 +177,9 @@ def build_backlog(docs):
     """(url, doc) pairs needing OCR, not yet attempted."""
     state = load_state()
     done = state["done"]
+    known = load_known_fail()
     backlog = []
+    skipped_known = 0
     for d in docs:
         u = d.get("source_url") or ""
         if "rexresearch.com/" not in u or not u.endswith(".pdf"):
@@ -172,7 +188,12 @@ def build_backlog(docs):
             continue
         if u in done:
             continue
+        if u in known:
+            skipped_known += 1
+            continue
         backlog.append((u, d))
+    if skipped_known:
+        log(f"skip-list: {skipped_known} known-fail URLs skipped (not re-attempted)")
     return backlog, state
 
 
