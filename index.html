@@ -2049,11 +2049,12 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01586796.html">
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/02408687.html">
     <span class="salvage-person">👤 </span>
-    <span class="salvage-doc-title">US Fracking Boom a Fallacy</span>
-    <span class="salvage-preview">US ‘Fracking Boom’ a “Fallacy”, New Studies Reveal Toggle navigation Home Article Index Search Contact Online Store US ‘Fracking Boom’ a “Fallacy”, New Studies Reveal US shale gas reserve will run out much sooner than of…</span>
-    <span class="salvage-meta">i-sis.org.uk · Alternative Energy Technologies · Patents &amp; Inventions</span>
+    <span class="salvage-doc-title">The Round Robin [Vol. 3, No. 5, May &amp; June 1947]</span>
+    <span class="salvage-preview">&quot;Telepathy&quot; by Jon Sonall | The Round Robin [Vol. 3, No. 5, May &amp; June 1947]
+We no longer offer ongoing support for the Microsoft Internet Explorer browser, particularly out-of-date editions that pose genuine security ri…</span>
+    <span class="salvage-meta">borderlandsciences.org · Alternative Energy Technologies · Patents &amp; Inventions</span>
 </a><!-- SALVAGE:END -->
     </section>
 
@@ -2220,7 +2221,7 @@
             <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-29</span>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-09-30</span>
         </div>
     </footer>
 
@@ -2965,7 +2966,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260929231102')
+            fetch('./synthesis/synthesis_index.json?v=20260930001246')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3851,7 +3852,7 @@
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20260929231102');
+                            const mRes = await fetch('./search_index_manifest.json?v=20260930001246');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3874,7 +3875,7 @@
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20260929231102');
+                        const response = await fetch('./search_index.json?v=20260930001246');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3905,12 +3906,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260929231102');
+                    const man = await fetch('./full_manifest.json?v=20260930001246');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260929231102');
+                    const feedRes = await fetch('./library_feed.json?v=20260930001246');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4026,7 +4027,7 @@
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260929231102');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260930001246');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
