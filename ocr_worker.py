@@ -81,10 +81,14 @@ def download_pdf(url):
         return None
 
 
-def ocr_pdf(pdf_bytes, max_pages=1):
+def ocr_pdf(pdf_bytes, max_pages=4):
+    """OCR the scan, skipping blank first pages. Some rexresearch scans start
+    with a blank page 0 (e.g. US patent 1,958,918 in karrick2/), so a strict
+    page-0-only pass wrongly reports them unreadable. Scan forward until a page
+    yields real text or max_pages is exhausted; return the first 500 chars."""
     try:
         doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
-        parts = []
+        picked = None
         for i in range(min(max_pages, len(doc))):
             pix = doc[i].get_pixmap(dpi=100)
             with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as f:
@@ -95,8 +99,10 @@ def ocr_pdf(pdf_bytes, max_pages=1):
                     ["tesseract", path, "stdout", "--psm", "6"],
                     capture_output=True, text=True, timeout=60,
                 )
-                if r.stdout and r.stdout.strip():
-                    parts.append(r.stdout.strip())
+                text = r.stdout.strip() if r.stdout else ""
+                if len(text) >= 30:
+                    picked = text
+                    break
             except Exception:
                 pass
             finally:
@@ -105,8 +111,8 @@ def ocr_pdf(pdf_bytes, max_pages=1):
                 except OSError:
                     pass
         doc.close()
-        if parts:
-            c = " ".join(" ".join(parts).split())
+        if picked:
+            c = " ".join(picked.split())
             return c[:500] if len(c) > 20 else None
         return None
     except Exception:
