@@ -1,3 +1,9 @@
+## 2026-09-30 12:20 UTC — translation-qc (cloud)
+- QC: 225/225 v2-valid, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220); assemblies verified. No new translations since 08:20 (corpus steady).
+- Boundary: holds (0 translations/ paths; AFLinks 97,576 tracked files).
+- +1 dossier FAL-uk-239-1: Pugach Torsind anomalous temporal effects (UK->EN) — fire-239 headline claimed and done same session. Primary PDF: live site refused cloud connections; Wayback 2022-05-20 snapshot capture-truncated at 1MiB of 1,407,866 bytes; head (17pp) recovered via Ghostscript object-level reconstruction; tail numbers from scout's same-day full read. QC findings: neutral-equilibrium suspension = the instrument's own null-hypothesis hole (silk-vs-nylon A/B never run); temporal shifts scatter +/-hours with no model; co-located CC confounded by construction; the paper honestly cites the 1992 clock result AND its 1999 replication failure before its own Rb positive; the 09.02.2009 lunar row with 5 background days + 6x amplitude is the one strong quantitative claim. Cheapest unrun: three-arm silk/nylon/dummy rig over pre-registered eclipse + placebo windows.
+- Claims: FAL-uk-239-1 open+done same session (f3d1eec). Ledger: 1324b0e. Memory: d73d744.
+
 ﻿## 2026-09-27
 ### Forge (Research) — 14:00 UTC
 
