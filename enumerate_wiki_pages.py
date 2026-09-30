@@ -96,6 +96,8 @@ def main():
                   f"starting from offset 0 — discovered pages in that file are lost", flush=True)
 
     empty_streak = 0
+    fail_streak = 0
+    stop_reason = "max-offset"
     while offset <= a.max_offset:
         if a.engine == "tiki":
             url = f"{base}/tiki-listpages.php?offset={offset}"
@@ -107,8 +109,14 @@ def main():
         except Exception as e:
             print(f"ERR offset={offset}: {e}", flush=True)
             time.sleep(2)
-            empty_streak += 1
-            if empty_streak > 5:
+            # Fetch failures are NOT empty pages. Track them separately so the
+            # final line can tell "the server will not serve this offset" apart
+            # from "the list ended here" — svpwiki's deep offsets time out
+            # (~O(offset) cost), and the old shared counter made a stalled walk
+            # print the same `DONE` line as a completed one.
+            fail_streak += 1
+            if fail_streak > 5:
+                stop_reason = f"{fail_streak} consecutive fetch failures at offset {offset} (range NOT exhausted)"
                 break
             # Do NOT advance the offset on a fetch failure. svpwiki's
             # listpages endpoint legitimately takes 17-25s, so a timeout is
@@ -126,6 +134,7 @@ def main():
 
         for h in found:
             pages.add(base + "/" + urllib.parse.quote(h, safe="-_.~()%"))
+        fail_streak = 0
         empty_streak = empty_streak + 1 if not found else 0
 
         if offset % a.checkpoint_every == 0:
@@ -134,12 +143,17 @@ def main():
 
         if empty_streak >= 3:
             print(f"stopping: 3 empty pages at offset {offset}", flush=True)
+            stop_reason = "3 consecutive empty pages (list exhausted)"
             break
         offset += a.step
         time.sleep(0.12)
 
     write_state(a.state, a.out, pages, offset)
-    print(f"DONE pages={len(pages)} last_offset={offset}", flush=True)
+    # The final line must say WHY it stopped. A stalled walk (server refusing
+    # deep offsets) and a finished walk used to print identically, so a run
+    # that discovered nothing looked like a completed enumeration.
+    tag = "EXHAUSTED" if stop_reason.startswith("3 consecutive empty") else "INCOMPLETE"
+    print(f"DONE({tag}) pages={len(pages)} last_offset={offset} reason={stop_reason}", flush=True)
 
 
 if __name__ == "__main__":
