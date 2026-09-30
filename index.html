@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tokens.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <meta name="description" content="Aetherforce Knowledge Vault — 101,415 cataloged primary-source documents (36,014 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
+    <meta name="description" content="Aetherforce Knowledge Vault — 101,535 cataloged primary-source documents (36,014 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
     <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
-    <meta property="og:description" content="101,415 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
+    <meta property="og:description" content="101,535 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
     <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png">
@@ -2011,7 +2011,7 @@
     <header class="hero pirate-hero">
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
-        <p>Explore <span id="heroDocCount">101,415</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">92,310</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p>Explore <span id="heroDocCount">101,535</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">92,430</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
         <p class="hero-trans">🗝 <span id="heroTransCount">158</span> translations published · <span id="heroPagesCount">3,779</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
@@ -2071,7 +2071,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
 
     <noscript>
         <div class="noscript-box">
-            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">101,415</span> documents</strong> are still yours to explore:</p>
+            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">101,535</span> documents</strong> are still yours to explore:</p>
             <ul>
                 <li><a href="./stats.json">Live stats (small JSON — agents welcome)</a></li>
                 <li><a href="./index.html?subj=Aether%20Physics">Browse Aether Physics</a></li>
@@ -2202,7 +2202,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
                 <div class="active-filter-display" id="activeFilterDisplay"></div>
             </div>
             <div class="results-grid" id="results"></div>
-            <div class="loading" id="loading" role="status" aria-live="polite">The vault holds <span id="loadingDocCount">101,415</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
+            <div class="loading" id="loading" role="status" aria-live="polite">The vault holds <span id="loadingDocCount">101,535</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
         </div>
     </main>
 
@@ -2966,7 +2966,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20260930001246')
+            fetch('./synthesis/synthesis_index.json?v=20260930001616')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3852,7 +3852,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20260930001246');
+                            const mRes = await fetch('./search_index_manifest.json?v=20260930001616');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3875,7 +3875,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20260930001246');
+                        const response = await fetch('./search_index.json?v=20260930001616');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3906,12 +3906,12 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20260930001246');
+                    const man = await fetch('./full_manifest.json?v=20260930001616');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20260930001246');
+                    const feedRes = await fetch('./library_feed.json?v=20260930001616');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4027,7 +4027,7 @@ We no longer offer ongoing support for the Microsoft Internet Explorer browser, 
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20260930001246');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20260930001616');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
