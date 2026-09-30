@@ -166,9 +166,27 @@ def do_catalog():
     return catalog
 
 
-def ga_index_urls(ga):
-    """Possible index pages for a GA (books/lectures/articles roots)."""
-    return [f"{BASE}/Books/{ga}/", f"{BASE}/Lectures/{ga}/", f"{BASE}/Articles/{ga}/"]
+def ga_index_urls(ga, catalog=None):
+    """Possible index pages for a GA (books/lectures/articles roots).
+
+    The bare /{section}/{ga}/ root is NOT always the content entry point:
+    e.g. GA266's lectures live under /Lectures/GA266/English/UNK1998/EsoC01_index.html
+    and the bare root soft-404s. The catalog's `cycles` list carries the real
+    entry URL per volume, so merge those in (dedup, order preserved).
+    """
+    urls = [f"{BASE}/Books/{ga}/", f"{BASE}/Lectures/{ga}/", f"{BASE}/Articles/{ga}/"]
+    if catalog:
+        for c in catalog.get("cycles", []) or []:
+            if not isinstance(c, dict):
+                continue
+            if c.get("ga") == ga and c.get("url"):
+                urls.append(c["url"])
+    seen, out = set(), []
+    for u in urls:
+        if u not in seen:
+            seen.add(u)
+            out.append(u)
+    return out
 
 
 # --- harvest -----------------------------------------------------------------
@@ -255,6 +273,12 @@ def do_harvest(max_pages=60, only_ga=None):
         # subdirectory links under this GA path (recurse)
         subdirs = [h for h in hrefs if h.endswith("/") and f"/{ga}/" in h
                    and h != idx_url]
+        # sub-INDEX pages under this GA path (recurse). Books nest their chapter
+        # TOC one level down (e.g. /Books/GA005/English/RSPI1960/GA005_index.html
+        # links GA005_c01_1.html ...). These are TOCs, not content — recurse into
+        # them instead of harvesting them, or the whole book is invisible.
+        subidx = [h for h in hrefs if h.endswith(".html") and f"/{ga}/" in h
+                  and re.search(r"_index\.html$", h, re.I) and h != idx_url]
         # dedup by basename within GA (alternate editions collapse)
         by_base = {}
         for h in content:
@@ -269,17 +293,24 @@ def do_harvest(max_pages=60, only_ga=None):
             if pages >= max_pages:
                 break
             n += walk_index(sub, ga, depth + 1)
+        for sub in subidx:
+            if pages >= max_pages:
+                break
+            n += walk_index(sub, ga, depth + 1)
         return n
 
     for ga in gas_list:
         if ga in done_gas and not only_ga:
             continue
         ga_pages = 0
-        for idx_url in ga_index_urls(ga):
+        for idx_url in ga_index_urls(ga, catalog):
             if pages >= max_pages:
                 break
             ga_pages += walk_index(idx_url, ga)
-        if ga_pages and not only_ga:
+        # Only mark a GA done if we finished it. If the page cap was hit mid-GA
+        # the remainder is still unharvested — leave it in the remaining list so
+        # the next run resumes it instead of silently truncating the volume.
+        if ga_pages and not only_ga and pages < max_pages:
             done_gas.add(ga)
             state["done_gas"] = sorted(done_gas)
         gas_done_this_run.append((ga, ga_pages))
