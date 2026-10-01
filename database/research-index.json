@@ -2,7 +2,7 @@
   "_about": {
     "version": "0.1.0",
     "description": "Research index for the Aetherforce Living Library. Links works to themes, concepts, and cross-references. Maintained by Synthesist.",
-    "last_updated": "2026-09-29",
+    "last_updated": "2026-10-01",
     "note": "QC 2026-09-29 (Drunvalo): added 32 works from the 09-28/09-29 translation batch that were in library_feed but missing from the DB (Zakharov/Mosyagina water clusters, Shipov x2, Pavlita x2, Osaka x2, Schauberger x2, Atsyukovsky German ed., Besson RGH analyses, plus water-structure, biodynamic, sacred-geometry and free-energy sources in NL/CS/JA/SR/AR/PL/PT/ES/EL). Added 15 persons (Zakharov, Mosyagina, Bartušek, Šejvl, Pavlita, Rukhadze, Epanchintseva, Osaka, Wojtkowiak, Kretschmer, Lorenc, Göbel, Bockemühl, Rang, Grander); extended works_in_collection for Shipov, Atsyukovsky, Grachev, Besson, Ponce de León, Pollack, Schauberger, Tesla. QC 2026-09-28 (Drunvalo): folded 3 duplicate works (akimov-shipov 09-18 re-emission of the trinitas.ru article, schauberger water-blood 09-11 date-variant, acqua-viva 09-06/09-10 pair); added 10 works from the 09-27 translation batch that were in library_feed but missing from the DB (vysotsky-kornilova water memory, tesla turbine, servranx radionique, IET flow technology, radiesthesie, pugach tors"
   },
   "works": [
@@ -771,7 +771,7 @@
     },
     {
       "id": "deba-cosmology-without-postulates-fr",
-      "title": "Full-document English translation of DEBA - Une Cosmologie Complete sans Postulats, Reponses aux Anomalies (Zenodo 18033125). A coherence-based cosmology explaining CMB anomalies, early SMBHs, dark sector, and Hubble tension without postulates.",
+      "title": "DEBA - A Complete Cosmology Without Postulates, Responses to Anomalies (Zenodo 18033125)",
       "authors": [
         "debailleul"
       ],
@@ -1554,7 +1554,7 @@
     },
     {
       "id": "goethe-and-french-transformism-fr",
-      "title": "Full-document English translation of Dominique Massonnaud, Goethe et le transformisme francais: histoire et actualite (hal-02560509).",
+      "title": "Goethe and French Transformism: History and Actuality (Massonnaud, hal-02560509)",
       "authors": [],
       "date": "2026-09-11",
       "language": "fr",
@@ -9286,6 +9286,141 @@
       "cross_refs": [],
       "source_url": null,
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
+    },
+    {
+      "id": "toute-la-radiesthesie-en-neuf-lecons-le-gall-fr",
+      "title": "Toute la Radiesthésie en neuf leçons (Maurice Le Gall, 1985)",
+      "file": "translations/2026-10-01-toute-la-radiesthesie-en-neuf-lecons-le-gall-fr.md",
+      "language": "fr",
+      "authors": [
+        "le-gall"
+      ],
+      "themes": [
+        "radiesthesia",
+        "dowsing",
+        "french-tradition"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "planetenkrachten-en-levensprocessen-lievegoed-nl",
+      "title": "Planetenkrachten en levensprocessen (Planetary Forces and Life Processes) — Dr. Lievegoed",
+      "file": "translations/2026-10-01-planetenkrachten-en-levensprocessen-lievegoed-nl.md",
+      "language": "nl",
+      "authors": [
+        "lievegoed"
+      ],
+      "themes": [
+        "anthroposophy",
+        "planetary-forces",
+        "biodynamics"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "pamiec-wody-i-jej-struktura-zieba-pl",
+      "title": "Pamięć wody i jej struktura (Water Memory and Its Structure)",
+      "file": "translations/2026-10-01-pamiec-wody-i-jej-struktura-zieba-pl.md",
+      "language": "pl",
+      "authors": [
+        "zieba"
+      ],
+      "themes": [
+        "water-memory",
+        "water-structure"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "keely-tesla-coscienza-che-muove-la-materia-pezzarossa-it",
+      "title": "Keely, Tesla e la coscienza che muove la materia (Keely, Tesla and the Consciousness that Moves Matter)",
+      "file": "translations/2026-10-01-keely-tesla-coscienza-che-muove-la-materia-pezzarossa-it.md",
+      "language": "it",
+      "authors": [
+        "pezzarossa"
+      ],
+      "themes": [
+        "keely",
+        "tesla",
+        "consciousness",
+        "sympathetic-vibration"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "gravitatsionnaya-anomaliya-solnechnykh-zatmeniy-ivanov-ru",
+      "title": "Gravitational Anomaly of Solar Eclipses (Ivanov)",
+      "file": "translations/2026-10-01-gravitatsionnaya-anomaliya-solnechnykh-zatmeniy-ivanov-ru.md",
+      "language": "ru",
+      "authors": [
+        "ivanov"
+      ],
+      "themes": [
+        "gravity-anomaly",
+        "solar-eclipse",
+        "allais-effect"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "distancionnaya-peredacha-informacii-struktura-vody-novikov-ru",
+      "title": "Remote Transmission of Information About the Supramolecular Structure of Water (Novikov, Ermakova)",
+      "file": "translations/2026-10-01-distancionnaya-peredacha-informacii-struktura-vody-novikov-ru.md",
+      "language": "ru",
+      "authors": [
+        "novikov",
+        "ermakova"
+      ],
+      "themes": [
+        "water-structure",
+        "remote-information",
+        "radiesthesia"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "bericht-versuche-wunschelrute-eth-gassmann-de",
+      "title": "Report on Experiments with the Dowsing Rod (ETH Zürich, Gassmann)",
+      "file": "translations/2026-10-01-bericht-versuche-wunschelrute-eth-gassmann-de.md",
+      "language": "de",
+      "authors": [
+        "gassmann"
+      ],
+      "themes": [
+        "dowsing",
+        "radiesthesia",
+        "scientific-study"
+      ],
+      "date": "2026-10-01"
+    },
+    {
+      "id": "agricultura-biodinamica-ii-mirada-contemporanea-es",
+      "title": "Biodynamic Agriculture II: A Contemporary View",
+      "file": "translations/2026-09-28-agricultura-biodinamica-ii-mirada-contemporanea-es.md",
+      "language": "es",
+      "authors": [],
+      "themes": [
+        "biodynamics",
+        "agriculture",
+        "anthroposophy"
+      ],
+      "date": "2026-09-28"
+    },
+    {
+      "id": "magnitsky-gravity-compressible-ether-ru",
+      "title": "Gravity in the Theory of Compressible Oscillating Ether",
+      "file": "translations/2026-09-07-magnitsky-gravity-compressible-ether-ru.md",
+      "language": "ru",
+      "authors": [
+        "magnitsky"
+      ],
+      "themes": [
+        "ether-theory",
+        "gravity",
+        "compressible-ether"
+      ],
+      "source_url": "https://complex-systems.ru/issues/2019-n4",
+      "date": "2026-09-07"
     }
   ],
   "last_updated": "2026-10-01T04:10:00Z",
