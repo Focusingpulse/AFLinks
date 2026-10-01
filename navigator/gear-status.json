@@ -1,6 +1,7 @@
 {
-  "as_of": "2026-10-01T04:00:26Z",
+  "as_of": "2026-10-01T08:02:20Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "probe HTTP 200, assistant reply 'ok' (no quota/rate-limit error)"
+  "evidence": "direct probe HTTP 200, coherent reply 'ok' (1 step, 10488 ctx tokens)",
+  "note": "no flip; agent default was already gear 1"
 }
