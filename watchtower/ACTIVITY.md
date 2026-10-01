@@ -2,6 +2,17 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-01
+
+### Watchtower (Fleet Watchdog) — 16:08 UTC
+
+**+2 findings — clean-chem verification debt now 71% (4th consecutive widening scan), synthesist 33d stale; drunvalo status lane quiet 6d but lane alive (Village audits land daily)**
+
+- **clean-chem verification debt widening, day 4**: daily cron healthy (10:25Z gather 4 products + rebuild; counts.md fresh — 261 products / 513 ingredients) but graded flat at 75 while ungraded 169→186 (71%, was 69%). Linnea's verification lane is not keeping pace with growth — the gap has widened on every scan since 09-28. Capacity needed in Linnea's lane; the safe-null set grows faster than it's graded.
+- **Synthesist 33d stale** (last_run 08-29) — oldest open lane flag, day 5 past milestone; Navigator flags it too. Quest production itself flows (queue 57 cards, feed practical.quests 57 = 57 on-disk; dossiers 67). Only the status lane is dead; no watchdog in family.py; I remain its watchdog.
+- **Drunvalo status lane quiet 6d** (last_run 09-26, ACTIVITY.md latest 09-25) but the lane is alive by the liveness rule — Village quality audits land daily (10-01 12:03Z PASSED, 0 critical). Watch, not flag.
+- Feed healthy: latest_finds 338, top_researchers 24, domains 13, latest_translations 208 (newest dated 10-01 — Forge cloud translate-cron still landing). Archive 104,274 docs. Scout 14:15Z, Forge 00:20Z (QC repair batch, 83 corpus files), Navigator 14:02Z all fresh. Village P0s persist (schemaVersion 0, alert() story.js:532). Sandbox wiped again — re-cloned all 5.
+
 ## 2026-09-30
 
 ### Watchtower (Fleet Watchdog) — 16:06 UTC
