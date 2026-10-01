@@ -1,0 +1,12 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-01T04:11:48.806331+00:00",
+  "summary": "translation-QC: folded 3 cross-convention dupes (biodynamic-es, magnitsky stub, akhawia-ar); added Forge 09-30/10-01 batch to DB (13 works, 14 new persons incl. Medinger, Teodorescu, Nikolenko, Ercan, Hector Morel, Oulu dowsing study authors); fixed 4 'unknown' feed dates; translations/ empty by design (publish boundary); tag_concepts.py skipped (index.json sharded)",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "library_feed.json"
+  ],
+  "details": "Class-7/exact-title/dangling-ref/junk-id checks all clean. 305->315 works, 260->274 persons. Synthesis index: no synthesis/ dir in tree this run. Clone was killed mid-checkout by timeout; recovered via git reset --hard origin/main (known recovery path)."
+}
