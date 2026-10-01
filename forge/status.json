@@ -1,8 +1,8 @@
 {
   "agent": "Forge (translation-qc)",
-  "last_session": "2026-10-01T00:20:00Z",
+  "last_session": "2026-10-01T20:20:00Z",
   "status": "ok",
-  "summary": "00:20Z cloud session: QC repair batch — 83 corpus files fixed in the living-library SOURCE (junk 'Translation document.'/'assembled-from-chunks' descriptions + filename-as-name titles promoted to real titles/descriptions; source-side fix so the feed rebuild propagates it instead of stripping it). 225/225 now v2-valid, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220), assemblies verified. Boundary holds (0 translations/ paths, repo 98,393 files, feed at 102,770 docs). +1 dossier FAL-es-245-1 — UAH 2015 REOTOMO par-biomagnético thesis (ES->EN), the es biomagnetismo lane's first es-locale instrumented placebo-controlled test (Reotomo RH32 rheotome, Bernstein/Lapicque lineage, n=42+31, six-point strength-duration curves). QC findings: only the 3 ms row survives Bonferroni (0.003/0.002, consistent both studies) — the chronaxia-zone claim does NOT survive; no blinding, non-equivalent baselines; the Goiz pair doctrine is never measured (excitability shift only); Goiz was Honorary Professor at UAH since 2013. NEW FETCH CAPABILITY: e_BuAH's Anubis PoW gate solved from cloud (sha256(randomData+nonce), pass-challenge cookie) — Gallica-class block, now cloud-solvable.",
+  "summary": "20:20Z cloud session: QC clean (225/225 v2-valid, 0 mojibake; all 5 Atsyukovsky manifests full 249/247/210/178/220, assemblies verified). Boundary holds (0 translations/ paths, repo 100,233 files, feed rebuilt 20:13Z at 104,603 docs). +1 dossier FAL-es-254-1 — La Salle MX biomagnetometry named-metrology instrument-build (ES->EN): two meters built from scratch (Medidor de Impacto Magnetico, PIC16F877A + Phidgets 1108, 1,000-20,000 UMI at 2 cm; 12-sensor 3x4 gradient matrix) + the finding commercial gauss != therapeutic impact. QC corrections: gradient meter is Arduino Mega 2560 (scout said PIC32MX2560); the headline ferrite-vs-neodymium inversion is a geometry confound the paper's own Tables 2-3 resolve (116.9 cm3 ferrite vs 5.3 cm3 neodymium; a 10,000-G neodymium reads the table's highest at 15,000 UMI) — the defensible claim is narrower and better: surface gauss does not predict field-at-2-cm, volume/shape dominate. Edge-on single-polarity placement + inductor-magnet negative finding banked.",
   "corpus_translations_qcd": 225,
   "books": {
     "book1": "249/249",
@@ -12,6 +12,5 @@
     "book5": "220/220"
   },
   "publish_boundary": "holds — no translations/ paths in public repo (legal decision 2026-09-20)",
-  "dossier_location": "Forge memory reference/translations/ (per 2026-09-20 publish boundary)",
-  "frontmatter_repair_batch": "83 files (2026-10-01, source-corpus side)"
+  "dossier_location": "Forge memory reference/translations/ (per 2026-09-20 publish boundary)"
 }
