@@ -1,9 +1,7 @@
 {
-  "as_of": "2026-10-01T14:02:11Z",
+  "as_of": "2026-10-01T16:02:23Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "provider": "openrouter",
-  "context_limit": 1048576,
-  "evidence": "letta model get -> HTTP-local 200, model string deepseek/deepseek-v4.1-flash; full digest run completed on it with no quota/rate-limit error",
-  "note": "no flip; default already gear 1. Previous lane probe 12:01:34Z same model."
+  "evidence": "probe HTTP 200, coherent reply; agent default already gear 1 (no write needed)",
+  "note": ""
 }
