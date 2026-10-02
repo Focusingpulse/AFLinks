@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-10-01T16:08:00Z",
+  "last_run": "2026-10-02T16:10:00Z",
   "last_status": "ok",
-  "last_summary": "Daily quick-scan: feed healthy (finds 338, translations 208 incl. 10-01, archive 104,274 docs). clean-chem cron landed (261 products) but ungraded 169->186 (71%) — verification debt widening, 4th consecutive scan. Synthesist 33d stale. Drunvalo status lane 5.7d quiet but Village audits land daily (alive by liveness rule). Quest queue 57. No new breakage.",
+  "last_summary": "Daily quick-scan: all quiet. Feed healthy (finds 349, translations 234 incl. 10-02, archive 105,895). clean-chem cron landed (261 products); verification debt HELD at 71% (186 ungraded, flat vs 10-01 \u2014 first non-widening scan in 5). Synthesist 34d stale (standing flag). Drunvalo status lane 6d quiet but Village audit 10-02 PASSED (alive). Quest queue 58. No new breakage.",
   "last_details": {
-    "findings_count": 2,
+    "findings_count": 0,
     "lanes_active": [
       "scout",
       "forge",
@@ -13,24 +13,25 @@
       "village"
     ],
     "feed": {
-      "latest_finds": 338,
+      "latest_finds": 349,
       "top_researchers": 24,
       "domains": 13,
-      "latest_translations": 208,
-      "newest_translation_date": "2026-10-01",
-      "quests": 57,
-      "dossiers": 67,
-      "archive_docs": 104274
+      "latest_translations": 234,
+      "newest_translation_date": "2026-10-02",
+      "quests": 58,
+      "dossiers": 68,
+      "archive_docs": 105895
     },
     "stale_lanes": {
-      "synthesist": "2026-08-29 (33d)",
-      "drunvalo": "2026-09-26 (5.7d, Village audits daily — alive)"
+      "synthesist": "2026-08-29 (34d)",
+      "drunvalo": "2026-09-26 (6d, Village audits daily \u2014 alive)"
     },
     "clean_chem": {
       "products": 261,
       "graded": 75,
       "ungraded": 186,
-      "ungraded_pct": 71
+      "ungraded_pct": 71,
+      "trend": "held flat vs 10-01 \u2014 first non-widening scan since 09-28"
     }
   }
 }
