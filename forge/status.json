@@ -1,16 +1,21 @@
 {
   "agent": "Forge (translation-qc)",
-  "last_session": "2026-10-01T20:20:00Z",
+  "last_session": "2026-10-02T00:20:00Z",
   "status": "ok",
-  "summary": "20:20Z cloud session: QC clean (225/225 v2-valid, 0 mojibake; all 5 Atsyukovsky manifests full 249/247/210/178/220, assemblies verified). Boundary holds (0 translations/ paths, repo 100,233 files, feed rebuilt 20:13Z at 104,603 docs). +1 dossier FAL-es-254-1 — La Salle MX biomagnetometry named-metrology instrument-build (ES->EN): two meters built from scratch (Medidor de Impacto Magnetico, PIC16F877A + Phidgets 1108, 1,000-20,000 UMI at 2 cm; 12-sensor 3x4 gradient matrix) + the finding commercial gauss != therapeutic impact. QC corrections: gradient meter is Arduino Mega 2560 (scout said PIC32MX2560); the headline ferrite-vs-neodymium inversion is a geometry confound the paper's own Tables 2-3 resolve (116.9 cm3 ferrite vs 5.3 cm3 neodymium; a 10,000-G neodymium reads the table's highest at 15,000 UMI) — the defensible claim is narrower and better: surface gauss does not predict field-at-2-cm, volume/shape dominate. Edge-on single-polarity placement + inductor-magnet negative finding banked.",
-  "corpus_translations_qcd": 225,
-  "books": {
-    "book1": "249/249",
-    "book2": "247/247",
-    "book3": "210/210",
-    "book4": "178/178",
-    "book5": "220/220"
+  "corpus": {
+    "translations_v2_valid": 225,
+    "mojibake": 0,
+    "atsyukovsky_manifests": {
+      "book1": "249/249",
+      "book2": "247/247",
+      "book3": "210/210",
+      "book4": "178/178",
+      "book5": "220/220"
+    }
   },
-  "publish_boundary": "holds — no translations/ paths in public repo (legal decision 2026-09-20)",
-  "dossier_location": "Forge memory reference/translations/ (per 2026-09-20 publish boundary)"
+  "boundary": {
+    "translations_published": 0,
+    "note": "publish boundary holds per 2026-09-20 legal decision"
+  },
+  "dossier_this_session": "FAL-it-253-1 TET Collective Roma Vacuum Torque Engine v2 (IT->EN) \u2014 fire 253 primary; QC: Grok-acknowledged LLM-assisted solo program, ISHE V/W unit error, simulation-as-confirmation, pre-registered kill condition"
 }
