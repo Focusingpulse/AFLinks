@@ -2012,7 +2012,7 @@
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">104,970</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">95,866</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">217</span> translations published · <span id="heroPagesCount">5,164</span> pages translated &amp; growing</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">219</span> translations published · <span id="heroPagesCount">5,176</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
@@ -2049,11 +2049,11 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01509277.html">
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01470589.html">
     <span class="salvage-person">👤 </span>
-    <span class="salvage-doc-title">12973-tapping-dielectric-torque-from-static-compression-of-two-large-magnets</span>
-    <span class="salvage-preview">[catalogued — no readable full-text preview available from source]…</span>
-    <span class="salvage-meta">energeticforum.com · Alternative Energy Technologies · Patents &amp; Inventions</span>
+    <span class="salvage-doc-title">divine</span>
+    <span class="salvage-preview">God , Celestial Hughes DIAGRAM III.— MAJOR KEY-NOTES DEVELOPING BY SEVENS . &quot; Creation is the realization of Divine Thought .&quot;:: &quot;The divine and spiritual are not unnatural, but the very soul of nature .&quot; F. W. Reynolds,…</span>
+    <span class="salvage-meta">svpwiki.com · Challenges to the Standard Model</span>
 </a><!-- SALVAGE:END -->
     </section>
 
@@ -2220,7 +2220,7 @@
             <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-10-01</span>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-10-02</span>
         </div>
     </footer>
 
@@ -2965,7 +2965,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20261001231002')
+            fetch('./synthesis/synthesis_index.json?v=20261002001854')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3851,7 +3851,7 @@
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20261001231002');
+                            const mRes = await fetch('./search_index_manifest.json?v=20261002001854');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3874,7 +3874,7 @@
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20261001231002');
+                        const response = await fetch('./search_index.json?v=20261002001854');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3905,12 +3905,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20261001231002');
+                    const man = await fetch('./full_manifest.json?v=20261002001854');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20261001231002');
+                    const feedRes = await fetch('./library_feed.json?v=20261002001854');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4026,7 +4026,7 @@
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20261001231002');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20261002001854');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
