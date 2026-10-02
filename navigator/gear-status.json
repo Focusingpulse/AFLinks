@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-01T20:00:35Z",
+  "as_of": "2026-10-02T00:00:31Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "POST /v1/agents/$AGENT_ID/messages -> HTTP 200, coherent reasoning + single-word reply; no quota/rate-limit error in body",
-  "note": "unchanged - gear 1 healthy, no flip"
+  "evidence": "probe POST /v1/agents/$AGENT_ID/messages -> HTTP 200, coherent assistant reply 'ok'",
+  "note": ""
 }
