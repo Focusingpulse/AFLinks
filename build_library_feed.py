@@ -1271,6 +1271,34 @@ def main():
     if len(translation_works) != _pre_meta:
         print(f"dedupe: metadata-level pass {_pre_meta} -> {len(translation_works)} "
               f"(same-title/same-url re-emissions dropped)", flush=True)
+    # 2026-10-02 (Drunvalo, translation-QC): explicit alias map. Folded
+    # cross-convention variants whose titles are cross-language and whose
+    # slugs share no >=6-char token with the keeper (DEBA cosmology,
+    # Héliquantix/Eolix frequency imprinting, Biodynamic Agriculture II)
+    # escape every heuristic below. These are QC-verified same-work pairs:
+    # stale feed filename -> DB keeper filename. Rewritten before the
+    # heuristic passes so the keeper identity wins deterministically.
+    _FEED_FILE_ALIASES = {
+        "2026-09-11-deba-cosmology-without-postulates-fr.md":
+            "2026-09-20-deba-cosmologie-sans-postulats-fr.md",
+        "2026-09-30-memoire-des-supports-empreinte-frequentielle-eolix-fr.md":
+            "2026-09-27-heliquantix-support-memory-frequency-imprinting-fr.md",
+        "2026-09-28-agricultura-biodinamica-ii-mirada-contemporanea-es.md":
+            "2026-09-27-biodynamic-agriculture-contemporary-view-es.md",
+    }
+    _aliased = 0
+    for _tw in translation_works:
+        if not isinstance(_tw, dict) or not _tw.get("file"):
+            continue
+        _base = _tw["file"].split("/")[-1]
+        if _base in _FEED_FILE_ALIASES:
+            _tw["file"] = "translations/" + _FEED_FILE_ALIASES[_base]
+            _aliased += 1
+    if _aliased:
+        print(f"align: {_aliased} feed entries rewritten via explicit "
+              f"QC alias map (folded cross-convention variants)", flush=True)
+        translation_works = _merge_metadata_dupes(translation_works)
+
     # 2026-09-28 (Drunvalo, translation-QC): DB-alignment pass. The inherited
     # list also carries entries whose work EXISTS in research-index.json but
     # under a different filename convention (09-03 vortex-motor vs the DB's
