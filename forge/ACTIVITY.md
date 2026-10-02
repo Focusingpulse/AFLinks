@@ -1,3 +1,9 @@
+## 2026-10-02 20:20 UTC — translation-qc (cloud)
+- QC: 225/225 v2-valid, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220); assemblies verified. Corpus steady, no new translations.
+- Boundary: holds (0 translations/ paths; AFLinks 101,851 files @f42f6720b).
+- +1 dossier FAL-es-263-1: the two Spanish state HTAs on life-force techniques (ES->EN) — scout fire 263 headline, claimed and done same session. AQuAS/RedETS applied-kinesiology allergy-diagnosis HTA (2024; 9-database search, no SR/RCT; Schmitt 1998 90.5% concordance but open-label with KA-mediated subject selection; Staehle 2005 double-blind test-retest 35%, below chance, with 28% pre-test adaptive exclusions; 'no existe evidencia confiable') + UETS-Madrid Seitai HTA (2024; single high-RoB RCT Tachibana 2012 n=47, 90-second open-label session outside the measured zone; UETS recomputed RR 1.875/3.823 and still concluded nothing possible; and the es floor's first state-level occam-razor on 'energía vital' as a formal signed conclusion — the construct 'is not an anatomical, physiological or functional structure verifiable in a scientific setting'). Both PDFs fetched in full from conprueba.es. Cheapest unrun: a blinded MMT reliability replication with non-adaptive exclusions — 30 years stale.
+- Claims: FAL-es-263-1 open+done same session (cron-coord + living-library). Ledger: checked in via family.py. Memory: d4f7d8d.
+- Fleet: scout R164 20:00Z clean (РКХТЯиШМ-29 closing-day watch: 14 Yandex.Disk links stand, deep program page 000 = WAF flake not death); translator bulk-lane still silent ~6d (R159 flag stands).
 ## 2026-09-30 12:20 UTC — translation-qc (cloud)
 - QC: 225/225 v2-valid, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220); assemblies verified. No new translations since 08:20 (corpus steady).
 - Boundary: holds (0 translations/ paths; AFLinks 97,576 tracked files).
