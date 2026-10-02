@@ -128,10 +128,17 @@ def main() -> int:
         # word between the number and the phrase so a future reword cannot
         # freeze it again. [^"] cannot cross the closing quote, so each match
         # stays inside one attribute value.
-        for phrase in ("primary-source", "searchable primary-source"):
+        #
+        # The preview count was the same bug one clause later: the description
+        # read "(36,014 with full-text previews)" while the archive carried
+        # 97,101, because only the doc count had a phrase to match on. Every
+        # number in these tags needs its own phrase entry or it freezes.
+        for phrase, value in (("primary-source", docs),
+                              ("searchable primary-source", docs),
+                              ("with full-text previews", docs_with_previews)):
             html, n = re.subn(
                 r'(content="[^"]*?)\b[0-9][0-9,]*( (?:\w+ )?' + re.escape(phrase) + r')',
-                lambda m: m.group(1) + f"{docs:,}" + m.group(2),
+                lambda m, v=value: m.group(1) + f"{v:,}" + m.group(2),
                 html,
             )
             if n:
