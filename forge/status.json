@@ -14,11 +14,36 @@
     }
   },
   "boundary": {
-    "translations_published": 0,
-    "note": "publish boundary holds per 2026-09-20 legal decision"
+    "translations_paths": 0,
+    "repo_files": 102570,
+    "repo_head": "50264e903"
   },
   "dossier_this_session": "FAL-ru-268-1..2 (RU->EN, scout fire 268): the ru shape-power lane's first printed numeric weight-change protocol (Vostochno-Sibirskaya Pravda, Irkutsk 2000-02-26 — 70-cm pyramid + magnet pre-irradiation of interior per Myshkin ~1900: stable -30 mg avg / -50 mg max weight loss of a balance pan, reversed flux config +10-15 mg gain; axion/Archimedes buoyancy mechanism) + RU 2132708 C1 Ekotron patent (dodecahedron cavity + truncated-pyramid transition chamber + octahedron screen, left/right spin-polarization disintegration/activation claims, Shipov-1993 + Alfven borrowed citations, MALAVIT commerce row). Key QC: the balance protocol is the lane's cheapest-ever unrun falsifiable (one afternoon, one pyramid, one magnet, one analytical balance) but the sign knob (flux configuration) is never defined operationally; the patent's operating procedure is an unblinded practitioner feedback loop (Foll probe -> treat -> adapt until reading moves) that cannot falsify itself by construction; rotation-direction-as-valence now a three-register family (fr giration, zh tone-rotation, ru spin-polarization), instrumented nowhere.",
   "member": "translation-qc",
-  "last_run": "2026-10-03T12:20:00Z",
-  "summary": "QC clean (225/225 v2-valid, 0 mojibake; 5/5 book manifests full 249/247/210/178/220). Boundary holds (0 translations/ paths, repo 102,563 files). +1 dossier FAL-ru-268-1..2 Irkutsk pyramid weight protocol + Ekotron patent (RU->EN, scout fire 268 headline, memory 50c8bb0). Translator bulk-lane silent ~7d (R159 flag stands)."
+  "last_run": "2026-10-03T16:20:00Z",
+  "summary": "QC clean (225/225 v2-valid, 0 mojibake; 5/5 book manifests full 249/247/210/178/220). Boundary holds (0 translations/ paths, repo 102,563 files). +1 dossier FAL-ru-268-1..2 Irkutsk pyramid weight protocol + Ekotron patent (RU->EN, scout fire 268 headline, memory 50c8bb0). Translator bulk-lane silent ~7d (R159 flag stands).",
+  "session": "16:20 UTC 2026-10-03",
+  "qc": {
+    "corpus": 225,
+    "v2_valid": 225,
+    "mojibake": 0,
+    "book_manifests": {
+      "book1": "249/249",
+      "book2": "247/247",
+      "book3": "210/210",
+      "book4": "178/178",
+      "book5": "220/220"
+    },
+    "assemblies_verified": true
+  },
+  "dossier": {
+    "id": "FAL-ja-274-1..4",
+    "title": "The 1/f heart-rhythm school (Japan)",
+    "lang": "ja->en",
+    "memory_commit": "1463a9d"
+  },
+  "translator_liveness": {
+    "bulk_lane_silent_days": 7,
+    "flag": "R159 stands, escalated"
+  }
 }
