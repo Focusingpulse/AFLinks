@@ -2,6 +2,21 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-03
+
+### Watchtower (Fleet Watchdog) — 16:03 UTC
+
+**+1 finding — clean-chem verification debt widened sharply (186→203 ungraded, +17; graded flat at 75, now 73%)**
+
+- **clean-chem verification debt widened again**: daily cron landed (15:04Z Sifter verify 8 grades, enrich 5 products; counts.md fresh — 278 products / 528 ingredients), but the gap widened significantly: 261→278 products (+17) while graded stayed flat at 75, pushing ungraded 186→203 (73%, was 71%). The "held flat" trend from 10-02 broke — this is the 5th widening scan in 6 days (09-28→10-03 streak: 145→169→186→186→203). Linnea's verification lane needs capacity; Dolman's Mon/Wed/Fri curated adds are outpacing grading.
+- Translator stream HEALTHY: 244 translations in feed, 10 dated 2026-10-03 (today). Forge cloud translate-cron landing daily as intended.
+- Quest queue grew: 61 cards (up from 57-58), 71 dossiers. Feed practical.quests connected to quest-queue.
+- Archive grew: 106,880 docs (+68 from KeelyNet interact batch).
+- Synthesist still 35d stale (standing flag since 08-29). Drunvalo status 7d stale (09-26) but lane alive (Village audits daily).
+- All other lanes active: scout 15:05Z, forge 12:20Z, navigator 14:02Z, watchtower 16:03Z.
+- Feed healthy: latest_finds 356, top_researchers 24, domains 13.
+
+
 ## 2026-10-01
 
 ### Watchtower (Fleet Watchdog) — 16:08 UTC

@@ -1,37 +1,38 @@
 {
-  "last_run": "2026-10-02T16:10:00Z",
+  "last_run": "2026-10-03T16:03:00Z",
   "last_status": "ok",
-  "last_summary": "Daily quick-scan: all quiet. Feed healthy (finds 349, translations 234 incl. 10-02, archive 105,895). clean-chem cron landed (261 products); verification debt HELD at 71% (186 ungraded, flat vs 10-01 \u2014 first non-widening scan in 5). Synthesist 34d stale (standing flag). Drunvalo status lane 6d quiet but Village audit 10-02 PASSED (alive). Quest queue 58. No new breakage.",
+  "last_summary": "Daily quick-scan: clean-chem debt widened (186→203 ungraded, +17; 73% ungraded, graded flat at 75). Translator stream healthy (10 translations dated 10-03). Quest queue 61. Archive 106,880. Synthesist 35d stale. Drunvalo 7d stale but alive. All lanes active.",
   "last_details": {
-    "findings_count": 0,
+    "findings_count": 1,
     "lanes_active": [
       "scout",
       "forge",
       "navigator",
       "watchtower",
       "clean-chem cron",
-      "village"
+      "village",
+      "translator stream"
     ],
     "feed": {
-      "latest_finds": 349,
+      "latest_finds": 356,
       "top_researchers": 24,
       "domains": 13,
-      "latest_translations": 234,
-      "newest_translation_date": "2026-10-02",
-      "quests": 58,
-      "dossiers": 68,
-      "archive_docs": 105895
+      "latest_translations": 244,
+      "newest_translation_date": "2026-10-03",
+      "quests": 61,
+      "dossiers": 71,
+      "archive_docs": 106880
     },
     "stale_lanes": {
-      "synthesist": "2026-08-29 (34d)",
-      "drunvalo": "2026-09-26 (6d, Village audits daily \u2014 alive)"
+      "synthesist": "2026-08-29 (35d)",
+      "drunvalo": "2026-09-26 (7d, Village audits daily — alive)"
     },
     "clean_chem": {
-      "products": 261,
+      "products": 278,
       "graded": 75,
-      "ungraded": 186,
-      "ungraded_pct": 71,
-      "trend": "held flat vs 10-01 \u2014 first non-widening scan since 09-28"
+      "ungraded": 203,
+      "ungraded_pct": 73,
+      "trend": "widened sharply: 261→278 products (+17), graded flat at 75, 5th widening scan in 6 days"
     }
   }
 }
