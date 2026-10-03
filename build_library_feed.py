@@ -1341,6 +1341,19 @@ def main():
             if (_tw["file"].split("/")[-1]) in _dbw:
                 continue
             _ta = _nt(_tw.get("title"))
+            # 2026-10-03 (Drunvalo, translation-QC): non-Latin feed titles
+            # (e.g. the Russian re-emission "Физический вакуум, торсионные
+            # поля..." of the 2026-09-28 Shipov paper) have no Latin tokens
+            # for _nt to match on, so they could never align and accumulated
+            # as stale variants. The excerpt, however, opens with the
+            # translated English title. Fall back to distinctive tokens
+            # (>=3 chars) from the first 240 chars of the excerpt: the
+            # existing containment logic then requires every DB-title token
+            # to appear there (>=4 shared), which only the true keeper
+            # satisfies.
+            if not _ta:
+                _eh = (_tw.get("excerpt") or "")[:240]
+                _ta = {t for t in _nt(_eh) if len(t) >= 3}
             if not _ta:
                 continue
             _ua = (_tw.get("source_url") or "").strip()
