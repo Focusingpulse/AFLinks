@@ -1424,7 +1424,12 @@ def main():
                 _tw["title"] = _dw.get("title") or _tw.get("title")
                 if _dw.get("source_url"):
                     _tw["source_url"] = _dw["source_url"]
-                if _dw.get("date"):
+                # 2026-10-04 (Drunvalo, translation-QC): "unknown" is a
+                # truthy non-date (database_refresh.py fallback for files
+ # without a date prefix). Never copy it over a feed entry's
+                # existing date — it once stamped 4 inherited entries
+                # "unknown" and pushed them to the top of the feed sort.
+                if _dw.get("date") and _dw["date"] != "unknown":
                     _tw["date"] = _dw["date"]
                 _aligned += 1
                 break
