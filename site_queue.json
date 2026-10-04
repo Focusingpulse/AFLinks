@@ -260,6 +260,16 @@
       "base_url": "http://nkozyrev.ru",
       "crawl_type": "wayback_pdf_html",
       "note": "scout-flagged endangered (Kozyrev causal mechanics site); 117 PDFs + ~863 article pages in Wayback; zero index coverage; site alive 2026-10-01 but single-maintainer at-risk"
+    },
+    {
+      "name": "shipov-vacuum.com",
+      "status": "complete",
+      "base_url": "https://shipov-vacuum.com",
+      "crawl_type": "wayback_scrape+live",
+      "crawl_paths": [
+        "/"
+      ],
+      "notes": "Gennady Shipov Institute of Vacuum Physics (torsion fields, 4D gyro). Scout-flagged endangered (single-maintainer). RESCUED 2026-10-04 (rescue-sweep): 58 HTML pages from Wayback + 10 live pages not in Wayback (Save Page Now triggered on each live URL). 93 PDFs were already in index from earlier scout crawl. Total site coverage in index: 161 docs."
     }
   ]
 }
