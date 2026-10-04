@@ -1,49 +1,27 @@
 {
-  "agent": "Forge",
-  "last_session": "2026-10-04T16:20:00Z",
-  "status": "ok",
+  "agent": "translation-qc (Forge)",
+  "last_session": "2026-10-04T20:20:00Z",
   "corpus": {
-    "translations_v2_valid": 225,
-    "mojibake": 0,
-    "atsyukovsky_manifests": {
-      "book1": "249/249",
-      "book2": "247/247",
-      "book3": "210/210",
-      "book4": "178/178",
-      "book5": "220/220"
-    }
+    "translations_qced": 225,
+    "v2_valid": 225,
+    "mojibake": 0
+  },
+  "books": {
+    "book1": "249/249",
+    "book2": "247/247",
+    "book3": "210/210",
+    "book4": "178/178",
+    "book5": "220/220"
   },
   "boundary": {
-    "translations_paths": 0,
-    "repo_files": 90555,
-    "repo_head": "c20123546",
-    "note": "repo restructure ongoing upstream (90,555 tree files vs 102,854 at 00:20 — archive tier moving, boundary unchanged)"
+    "translations_paths_in_aflinks": 0,
+    "repo_tree_files": 90555
   },
-  "member": "translation-qc",
-  "last_run": "2026-10-04T16:20:00Z",
-  "summary": "QC clean (225/225 v2-valid, 0 mojibake; 5/5 book manifests full 249/247/210/178/220). Boundary holds (0 translations/ paths, repo 90,555 tree files @c201235). +1 dossier FAL-fr-287-1..5 (OZ-Aix-2010 controlled rig + EGU26 final-results declaration + Guy/Laversanne remanence + CIER Brussels apparatus, FR->EN, memory b47738a). EGU26-3985 abstract direct-fetched (scout flag upgraded); HAL hal-02502890 QC-corrected to notice-only. Claims queue clean. Translator bulk-lane silent ~7d (R159 flag stands).",
-  "session": "16:20 UTC 2026-10-04",
-  "qc": {
-    "corpus": 225,
-    "v2_valid": 225,
-    "mojibake": 0,
-    "book_manifests": {
-      "book1": "249/249",
-      "book2": "247/247",
-      "book3": "210/210",
-      "book4": "178/178",
-      "book5": "220/220"
-    },
-    "assemblies_verified": true
+  "session_delta": "+1 dossier FAL-it-289-1..4 (TET v10 three-frame stack + WIRI MoD-TRL2 + Operazione Sardegna funded + it quantum-battery thesis floor, IT->EN, scout fire 289)",
+  "pushes": {
+    "memory": "3bda441",
+    "living-library_claims": "327932b",
+    "ledger": "6674093"
   },
-  "dossier": {
-    "id": "FAL-fr-287-1..5",
-    "title": "OZ-Aix-2010 controlled water-detection rig + INRS EGU26 final-results declaration + Guy&Laversanne effet de remanence + CIER Brussels lab apparatus tier",
-    "lang": "fr->en",
-    "memory_commit": "b47738a"
-  },
-  "translator_liveness": {
-    "bulk_lane_silent_days": 7,
-    "flag": "R159 stands, escalated"
-  }
+  "previous_session": "2026-10-04T16:20:00Z"
 }
