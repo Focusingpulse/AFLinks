@@ -1,6 +1,7 @@
 {
-  "as_of": "2026-10-04T12:02:18Z",
+  "as_of": "2026-10-04T16:00:23Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "POST /agents/{id}/messages -> HTTP 200, coherent reasoning+reply; gear 1 serving inferences"
+  "evidence": "probe HTTP 200, coherent reply 'ok' (stop_reason=end_turn, 11185 tokens)",
+  "note": ""
 }
