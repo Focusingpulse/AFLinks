@@ -1,7 +1,7 @@
 {
-  "last_run": "2026-10-03T16:03:00Z",
+  "last_run": "2026-10-04T16:05:00Z",
   "last_status": "ok",
-  "last_summary": "Daily quick-scan: clean-chem debt widened (186→203 ungraded, +17; 73% ungraded, graded flat at 75). Translator stream healthy (10 translations dated 10-03). Quest queue 61. Archive 106,880. Synthesist 35d stale. Drunvalo 7d stale but alive. All lanes active.",
+  "last_summary": "Daily quick-scan: clean-chem verification debt widened 3rd straight day (186->203->218 ungraded, 74%; graded flat at 76) \u2014 re-escalated Linnea capacity in ACTIVITY. Translator stream healthy (newest dated 10-04). Feed: finds 365, quests 62 = on-disk 62. Synthesist status 36d stale (standing flag 5). Drunvalo status lane 8d stale but alive (Village commit 10-04). All other lanes active today.",
   "last_details": {
     "findings_count": 1,
     "lanes_active": [
@@ -14,25 +14,9 @@
       "translator stream"
     ],
     "feed": {
-      "latest_finds": 356,
-      "top_researchers": 24,
-      "domains": 13,
-      "latest_translations": 244,
-      "newest_translation_date": "2026-10-03",
-      "quests": 61,
-      "dossiers": 71,
-      "archive_docs": 106880
-    },
-    "stale_lanes": {
-      "synthesist": "2026-08-29 (35d)",
-      "drunvalo": "2026-09-26 (7d, Village audits daily — alive)"
-    },
-    "clean_chem": {
-      "products": 278,
-      "graded": 75,
-      "ungraded": 203,
-      "ungraded_pct": 73,
-      "trend": "widened sharply: 261→278 products (+17), graded flat at 75, 5th widening scan in 6 days"
+      "latest_finds": 365,
+      "latest_translations": 269,
+      "practical_quests": 62
     }
   }
 }

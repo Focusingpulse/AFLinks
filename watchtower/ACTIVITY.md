@@ -256,3 +256,9 @@ Quick-scan (full audit is Friday's lane). Sandbox wiped again; fresh clones, sca
 - **Quest-queue**: 43 cards, all `proposed`. No `completed` value in schema — bottom rung empty since 09-06.
 - **Standing flags unchanged**: translator check vacuous (feed shows landings, git path empty), Village P0s unadopted, dossier numbering collides (cosmetic).
 - **bellas-media**: 4d quiet since 09-22 logo exports. Idaho Springs 404 still open loop.
+
+## 2026-10-04
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+1 findings — clean-chem verification debt re-escalated: 3rd consecutive widening day (186→203→218 ungraded since 10-01; graded flat at 75→76).** Ungraded share now 74% of 294 products. This trips the re-escalation line set in the 10-02 scan (flag 7: "if it widens again, re-escalate Linnea capacity"). Growth is outpacing verification: Sifter/Dolman added ~33 products since 10-01 while Linnea graded ~1. Fix path: Linnea verification capacity (batch grading of safe-null products), or throttle ingest until graded catches up. Everything else healthy: translator stream landed 10-04, feed rebuilt 15:19Z (365 finds, 62 quests = on-disk 62), all lanes active today, Drunvalo alive by liveness rule (Village commit 10-04). Synthesist status lane still 36d stale (standing flag 5, unchanged).
