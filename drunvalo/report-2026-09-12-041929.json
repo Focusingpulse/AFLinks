@@ -1,0 +1,16 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-12T04:19:29.721244+00:00",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "translations/",
+    "library_feed.json",
+    "database/person-index.json",
+    "database/research-index.json",
+    "archive-graph.json",
+    "family_ledger.json",
+    "synthesis/synthesis_index.json"
+  ],
+  "details": "Full-corpus dedup: 155 translations scanned, 21 duplicate clusters found (31 regrown copies deleted, mostly 2026-09-11 re-emissions of 08-28..09-10 originals). 173 refs remapped across 6 JSON holders + 19 paradigm/synthesis docs; library_feed latest_translations deduped 97->71. Fixed degraded frontmatter on 3 keepers (Wilhelm Reich Oranur-Physics, Vortex Motor, Schauberger Water Vortexer). Deleted orphan Wilhelm_Reich...EN.html.md (0.994 dup). Concept tags refreshed via tag_concepts.py. 5 most recent translations QC'd: enel-omega (clean), wilhelm-reich (frontmatter fixed), vortex-motor (frontmatter fixed), schauberger-water-vortexer (frontmatter fixed), plasma-cosmology (clean). Root cause unchanged: translation pipeline still re-emits sources under new date-prefixed filenames without content-hash check."
+}

@@ -1,0 +1,42 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-02T08:08:20Z",
+  "cron": "aetherforce-translation-qc",
+  "summary": "Checked research-index (353 works), person-index (319 persons), library_feed (225 entries). Fixed 3 dangling cited_by references. No duplicates found. No mojibake found. 83 stub works (no themes/claims). 159 feed entries missing source_url (Forge issue).",
+  "status": "ok",
+  "files_modified": [
+    "database/person-index.json"
+  ],
+  "details": {
+    "research_index": {
+      "works": 353,
+      "duplicates_by_file": 0,
+      "duplicates_by_title": 0,
+      "stub_works": 83,
+      "mojibake_titles": 0
+    },
+    "person_index": {
+      "persons": 319,
+      "duplicates": 0,
+      "dangling_cited_by_before": 6,
+      "dangling_cited_by_after": 3,
+      "fixes": [
+        "li-si-chen: removed work ID from cited_by",
+        "einstein: removed invalid \"benaros\" from cited_by",
+        "peyre: replaced malformed ref with ecoute_energetique"
+      ]
+    },
+    "library_feed": {
+      "entries": 225,
+      "duplicates": 0,
+      "mojibake": 0,
+      "missing_source_url": 159
+    },
+    "notes": [
+      "Remaining 3 dangling cited_by refs are to \"geobios\" (domain/org ref, by-design)",
+      "159 missing source_url entries cannot be backfilled from repo data (Forge issue)",
+      "translations/ directory is intentionally empty (publish boundary 2026-09-20)",
+      "tag_concepts.py skipped - index.json no longer exists (sharded to index_shards/)"
+    ]
+  }
+}

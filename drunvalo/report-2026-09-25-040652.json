@@ -1,0 +1,12 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-25T04:06:52.859058+00:00",
+  "summary": "translation-qc: clean run, no damage found",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "library_feed.json"
+  ],
+  "details": "Sandbox reset, fresh clone OK (84,921 files). translations/ empty BY DESIGN (publish boundary). QC targets verified: research-index 258 works, person-index 222 persons \u2014 no dup ids, no same-file multi-id, no name variants, no junk ids, 0 dangling cross-refs, 0 dangling author refs, 0 bad person work paths. 102 stub works all carry intentional notes (Forge-memory dossiers). Synthesis index fresh (newest 09-22 vs newest file 09-21); the 7 synthesis files flagged 09-23 are now indexed. Feed latest_translations: 108 entries, 0 dup filenames, 0 junk titles, 0 mojibake, 0 bad dates except 1 known (Wilhelm_Re, no recoverable data). 62 empty source_urls remain \u2014 known unrecoverable class, root fix belongs to Forge frontmatter emission. Builder dedupe + backfill + date fixes all holding. No changes needed; report-only run."
+}

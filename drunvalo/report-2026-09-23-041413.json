@@ -1,0 +1,10 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-23T04:14:13.604603+00:00",
+  "summary": "translation-qc round 2 (collision recovery): the 04:07 sync rebuild resurrected feed fixes (known pain #4). Root-caused and fixed DURABLY in build_library_feed.py: (1) translation dedupe now keys on date-stripped filename instead of authored title \u2014 date-prefixed re-emissions of the same file no longer slip in as duplicates; (2) revision groups pick richest metadata (authored title + source_url) over newest-but-degraded; (3) mojibake repaired at emit time (cp1252-correct map, not latin-1); (4) never-regress guard now repairs+dedupes the inherited list instead of copying it verbatim. Feed 144->137 (7 date-variant dup pairs dropped, rich entry kept in all 7). Also this run: 2 dead source URLs fixed, 6 quoted titles cleaned, 208 publish-boundary notes added to research-index, URL audit 36/45 live (7 remaining are bot-walls). tag_concepts.py skipped (dead \u2014 index.json sharded).",
+  "status": "ok",
+  "files_modified": [
+    "build_library_feed.py library_feed.json database/research-index.json"
+  ],
+  "details": ""
+}
