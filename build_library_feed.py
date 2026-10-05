@@ -550,6 +550,28 @@ def _frontmatter_degraded(meta):
     return False
 
 
+
+def _source_url_from_meta(meta):
+    """Resolve a translation's source URL.
+
+    2026-10-05: the translation agents write "Source: https://..." into the
+    description, but the feed only ever read the dedicated `Source URL` /
+    `source_url` key — so 219 of 447 held works published with no source link
+    at all, and the site's "View original source" never appeared for them.
+    Read the dedicated key first, then fall back to the description.
+    """
+    if not isinstance(meta, dict):
+        return ""
+    u = (meta.get("Source URL") or meta.get("source_url") or "").strip()
+    if u:
+        return u
+    for k in ("description", "Description"):
+        d = meta.get(k) or ""
+        m = re.search(r"Source:\s*(https?://[^\s|\"')\]]+)", d, re.I)
+        if m:
+            return m.group(1).rstrip(".,;")
+    return ""
+
 def _has_mojibake(text):
     """True when text carries classic double-encoded UTF-8 sequences."""
     return any(seq in (text or "") for seq in _MOJIBAKE_SEQS)
@@ -971,14 +993,14 @@ def main():
             # Rank: authored title + source_url > authored title > newest.
             def _rev_rank(rev):
                 _meta, _title = rev[1], rev[2]
-                _src = _meta.get("Source URL") or _meta.get("source_url") or ""
+                _src = _source_url_from_meta(_meta)
                 return (bool(_src) and not _is_slug_title(_title),
                         not _is_slug_title(_title))
             group = sorted(group, key=_rev_rank, reverse=True)
             path, meta, title, body, fname = group[0]
             work_src[fname] = path
             domain = meta.get("Domain") or meta.get("domain") or ""
-            src = meta.get("Source URL") or meta.get("source_url") or ""
+            src = _source_url_from_meta(meta)
             # Language: newest revision first, else inherit from any revision
             # of the same work, else scan the metadata/title text for a name.
             lang = ""
@@ -1093,7 +1115,7 @@ def main():
             meta, title, body = parse_md_frontmatter(path)
             key = _norm_key(title or fname)
             domain = meta.get("Domain") or meta.get("domain") or ""
-            src = meta.get("Source URL") or meta.get("source_url") or ""
+            src = _source_url_from_meta(meta)
             lang = meta.get("source_language") or meta.get("Language") or meta.get("language") or ""
             if not lang:
                 m = re.search(r"[_-](fr|de|ru|es|it|el|pt|pl|cs|sr|uk|ar|nl|ja|zh|hu|sv|fa|ko|da|fi|no|nb|ro|bg|he|hi|th|vi|id|tr)\.md$", fname, re.I)
