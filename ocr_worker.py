@@ -182,7 +182,8 @@ def build_backlog(docs):
     skipped_known = 0
     for d in docs:
         u = d.get("source_url") or ""
-        if "rexresearch.com/" not in u or not u.endswith(".pdf"):
+        ul = u.lower()
+        if "rexresearch.com/" not in ul or not ul.endswith(".pdf"):
             continue
         if len(d.get("content_preview") or "") >= 20:
             continue
