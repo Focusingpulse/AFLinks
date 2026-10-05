@@ -1126,6 +1126,41 @@ def main():
                 "content_file": f"translations/{fname}",
                 "excerpt": _fix_mojibake(body.strip()[:220]),
             })
+    # --- 2c. Finding aids: summary + key points (2026-10-05) ---------------
+    # The full translated text is NOT published (PUBLISH BOUNDARY, 2026-09-20).
+    # What IS published is a finding aid: our own summary of what the work says,
+    # plus its key points, drawn from the translation we hold privately. This is
+    # the honest public posture — "we hold this, here is what it says, here is
+    # where it came from" — and it is what the site renders instead of a reader
+    # that could only ever 404 (or, worse, fetch the site's own index page).
+    #
+    # Source of truth: living-library/translations/_finding_aids.json
+    #   { "<translation filename>": {"summary": "...", "points": ["...", ...]} }
+    # Authored by the translation-finding-aid lane; absent keys simply mean the
+    # card falls back to the raw excerpt, so a partial file is always safe.
+    finding_aids = {}
+    if tdir:
+        _fa_path = os.path.join(tdir, "_finding_aids.json")
+        if os.path.isfile(_fa_path):
+            try:
+                finding_aids = load_json(_fa_path) or {}
+            except Exception as _e:
+                print(f"WARN: could not read finding aids: {_e}", flush=True)
+    _fa_hits = 0
+    for _tw in translation_works:
+        _fa = finding_aids.get(_tw.get("file") or "")
+        if not isinstance(_fa, dict):
+            continue
+        _s = str(_fa.get("summary") or "").strip()
+        _pts = [str(p).strip() for p in (_fa.get("points") or []) if str(p).strip()]
+        if _s:
+            _tw["summary"] = _fix_mojibake(_s)
+            _fa_hits += 1
+        if _pts:
+            _tw["points"] = [_fix_mojibake(p) for p in _pts]
+    print(f"  finding aids: {_fa_hits}/{len(translation_works)} translations carry a summary",
+          flush=True)
+
     # Count pages ONLY for the newest revision of each distinct work — old
     # revision files are readable but must not inflate the page total.
     # 2026-09-22 (Cairn) FIX. This used to count a work's pages ONLY when the

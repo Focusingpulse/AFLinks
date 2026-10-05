@@ -225,6 +225,43 @@ input[type="text"] { flex: 1; min-width: 180px; }
   color: var(--bg);
   box-shadow: 0 0 12px var(--glow);
 }
+.translation-card .summary {
+  font-size: 0.86rem;
+  color: var(--text);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.translation-card .points {
+  margin: 2px 0 0;
+  padding-left: 18px;
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  line-height: 1.45;
+}
+.translation-card .points li { margin-bottom: 2px; }
+.hold-note {
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  font-style: italic;
+  line-height: 1.4;
+  border-left: 2px solid var(--gold-dim);
+  padding-left: 8px;
+}
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.card-actions .src-link {
+  font-size: 0.75rem;
+  color: var(--copper);
+  text-decoration: none;
+}
+.card-actions .src-link:hover { text-shadow: 0 0 8px var(--glow); }
 .loading { color: var(--text-dim); font-style: italic; padding: 20px; text-align: center; }
 
 /* Reader modal */
@@ -259,8 +296,16 @@ input[type="text"] { flex: 1; min-width: 180px; }
 #readerTitle { color: var(--gold); font-weight: normal; font-size: 1.25rem; margin-bottom: 8px; padding-right: 30px; line-height: 1.3; }
 #readerMeta { display: flex; gap: 14px; flex-wrap: wrap; font-size: 0.78rem; color: var(--text-dim); margin-bottom: 16px; }
 #readerMeta a { color: var(--copper); }
-#readerBody { font-size: 0.95rem; line-height: 1.65; color: var(--text); white-space: pre-wrap; word-break: break-word; }
+#readerBody { font-size: 0.95rem; line-height: 1.65; color: var(--text); word-break: break-word; }
 .reader-loading { color: var(--text-dim); font-style: italic; }
+.aid-summary { font-size: 1rem; line-height: 1.6; color: var(--text); margin: 0 0 18px; }
+.aid-h { color: var(--gold); font-weight: normal; font-size: 0.95rem; letter-spacing: 1px; margin: 18px 0 8px; }
+.aid-points { margin: 0; padding-left: 20px; line-height: 1.6; }
+.aid-points li { margin-bottom: 6px; }
+.aid-excerpt { font-size: 0.85rem; color: var(--text-dim); line-height: 1.55; border-left: 2px solid var(--gold-dim); padding-left: 12px; }
+#readerBody .hold-note { margin-top: 20px; font-size: 0.8rem; }
+#readerBody .src-link { color: var(--copper); text-decoration: none; }
+#readerBody .src-link:hover { text-shadow: 0 0 8px var(--glow); }
 
 footer {
   text-align: center;
@@ -283,7 +328,8 @@ footer strong { color: var(--text-dim); }
 <a class="skip-link" href="#list">Skip to translations</a>
 <header>
   <h1><span class="ornament">&#10023;</span> Translations <span class="ornament">&#10023;</span></h1>
-  <p>the full cargo manifest — every work the multilingual scouts hauled home</p>
+  <p>the cargo manifest — every work the multilingual scouts hauled home, and what it says</p>
+  <p style="max-width:640px;margin:10px auto 0;font-size:0.8rem;color:var(--text-faint);line-height:1.5;">Each entry is a <strong>finding aid</strong>: a summary and the key points, drawn from a full translation we hold in our private research archive. The translations themselves are not published — the map is public, and it points to the source.</p>
 </header>
 
 <div class="controls" id="controls">
@@ -438,6 +484,8 @@ function render() {
       const pct = Math.round((w.progress_done || 0) / w.progress_total * 100);
       prog = `<div style="height:6px;background:var(--bg);border-radius:3px;overflow:hidden;"><div style="height:100%;width:${pct}%;background:var(--green);"></div></div>`;
     }
+    const hasAid = !!(w.summary || (w.points && w.points.length));
+    const pts = (w.points || []).slice(0, 3);
     card.innerHTML = `
       <h3>${escapeHtml(w.title || 'Untitled')}</h3>
       <div class="meta">
@@ -447,32 +495,43 @@ function render() {
         ${w.is_book ? '<span style="color:var(--green);">&#128214; volume</span>' : ''}
       </div>
       ${prog}
-      <div class="excerpt">${escapeHtml(w.excerpt || '')}</div>
-      <button class="read-btn" data-file="${escapeHtml(w.content_file || '')}">Read &rarr;</button>
+      ${w.summary
+        ? `<div class="summary">${escapeHtml(w.summary)}</div>`
+        : `<div class="excerpt">${escapeHtml(w.excerpt || '')}</div>`}
+      ${pts.length ? `<ul class="points">${pts.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>` : ''}
+      <div class="hold-note">&#128214; Full translation held in our private research archive — not published. Findings are sourced from it.</div>
+      <div class="card-actions">
+        ${hasAid ? '<button class="read-btn">Finding aid &rarr;</button>' : ''}
+        ${w.source_url ? `<a class="src-link" href="${escapeHtml(w.source_url)}" target="_blank" rel="noopener">View original source &#8599;</a>` : ''}
+      </div>
     `;
-    card.querySelector('.read-btn').onclick = () => openReader(w);
+    if (hasAid) card.querySelector('.read-btn').onclick = () => openFindingAid(w);
     el.appendChild(card);
   });
 }
 
-async function openReader(w) {
+/* Finding aid: what the work says, in our words — never the full translated text.
+   The full translation stays in the private archive (publish boundary, 2026-09-20). */
+function openFindingAid(w) {
   const overlay = document.getElementById('readerOverlay');
   document.getElementById('readerTitle').textContent = w.title || 'Translation';
   const metaBits = [`${langLabel(w.language || 'Unknown')} → ${langLabel(w.target_language || 'English')}`];
   if (w.domain) metaBits.push(w.domain);
   if (w.date) metaBits.push(w.date);
   document.getElementById('readerMeta').innerHTML = `<span>${escapeHtml(metaBits.join(' · '))}</span>`;
-  document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Loading translation...</div>';
+
+  let html = '';
+  if (w.summary) html += `<p class="aid-summary">${escapeHtml(w.summary)}</p>`;
+  if (w.points && w.points.length) {
+    html += `<h3 class="aid-h">Key points</h3><ul class="aid-points">${w.points.map(p => `<li>${escapeHtml(p)}</li>`).join('')}</ul>`;
+  }
+  if (w.excerpt) html += `<h3 class="aid-h">Opening lines</h3><div class="aid-excerpt">${escapeHtml(w.excerpt)}</div>`;
+  html += `<div class="hold-note">&#128214; The full translation is held in our private research archive and is not published. The summary and points above are drawn from it.</div>`;
+  if (w.source_url) html += `<p style="margin-top:14px;"><a class="src-link" href="${escapeHtml(w.source_url)}" target="_blank" rel="noopener">View original source &#8599;</a></p>`;
+  document.getElementById('readerBody').innerHTML = html;
+
   overlay.classList.add('show');
   document.body.style.overflow = 'hidden';
-  try {
-    const res = await fetch('./' + String(w.content_file || '').replace(/^\.\//, ''), { cache: 'no-store' });
-    if (!res.ok) throw new Error(res.status);
-    const text = await res.text();
-    document.getElementById('readerBody').textContent = text;
-  } catch (e) {
-    document.getElementById('readerBody').innerHTML = '<div class="reader-loading">Could not load the translation — it may not be published to the site yet.</div>';
-  }
   overlay.querySelector('.reader-modal').focus?.();
 }
 function closeReader() {
