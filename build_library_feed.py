@@ -443,7 +443,15 @@ def _merge_metadata_dupes(entries):
     def _norm_t(t):
         t = unicodedata.normalize("NFKD", (t or "").lower())
         t = "".join(c for c in t if not unicodedata.combining(c))
-        t = re.sub(r"[^a-z0-9 ]+", " ", t)
+        # 2026-10-05: keep Unicode word characters. The ASCII-only class
+        # ([^a-z0-9]) deleted every non-Latin letter, so a wholly Cyrillic,
+        # Arabic or CJK title normalized to its bare language suffix — every
+        # Russian title became the string "ru en", they all matched on
+        # same_title, and all but one were dropped from the feed. Three works
+        # vanished this way on 2026-10-05 (Palenko, Melnik, and any other
+        # all-Cyrillic title sharing a language pair). \w is Unicode-aware in
+        # Python 3, so distinct scripts now stay distinct.
+        t = re.sub(r"[^\w ]+", " ", t, flags=re.UNICODE)
         return re.sub(r"\s+", " ", t).strip().rstrip("…").strip()
 
     # union-find over entries
@@ -1362,7 +1370,10 @@ def main():
             # splits accented words into mojibake-like fragments.
             t = unicodedata.normalize("NFKD", (t or "").lower())
             t = "".join(c for c in t if not unicodedata.combining(c))
-            t = re.sub(r"[^a-z0-9 ]+", " ", t)
+            # 2026-10-05: keep Unicode word characters (same fix as _norm_t
+            # above) — an ASCII-only class empties every non-Latin title, so
+            # Cyrillic/Arabic/CJK works token-matched on nothing.
+            t = re.sub(r"[^\w ]+", " ", t, flags=re.UNICODE)
             return set(t.split()) - _lang_toks
         _aligned = 0
         for _tw in translation_works:
