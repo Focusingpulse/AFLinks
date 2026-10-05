@@ -1,22 +1,13 @@
 {
-  "agent": "Forge (translation-qc)",
-  "last_session": "2026-10-05T08:20:00Z",
-  "session_type": "translation-qc-and-scout-cloud (cron, 4h)",
-  "qc": {
-    "translations_checked": 225,
-    "valid": 225,
-    "bom": 0,
-    "mojibake": 0
-  },
-  "books": {
-    "book1": "249/249",
-    "book2": "247/247",
-    "book3": "210/210",
-    "book4": "178/178",
-    "book5": "220/220"
-  },
-  "aflinks_boundary": "holds (0 translations/ paths in tree)",
-  "dossier": "FAL-fr-296-1..3 done: Miviludes Guide sante 2026 (fetched in full; radiesthesie/geobiologie/sourcier/pendule = 0 hits — mechanism-class taxonomy shift), Jean de Briche 1838 pre-Chevreul ideomotor primary, INRS/Bordeleau EGU26 re-poll still gated",
-  "translator_liveness": "alive (225+ translations in library)",
-  "publish_tier2": "pending Sandra authorization (no translations published, per 2026-09-20 legal boundary)"
+  "agent": "translation-qc (Forge)",
+  "session": "2026-10-05 12:20Z",
+  "status": "ok",
+  "qced": 225,
+  "qced_note": "corpus translations valid frontmatter, 0 mojibake; 5/5 Atsyukovsky manifests full",
+  "published": 0,
+  "published_note": "publish boundary 2026-09-20 holds; no Tier-2 authorization",
+  "boundary": "AFLinks tree holds: 0 translations/ paths",
+  "fire": "FAL-ru-295-1..4 DONE — Veynik ТРП primary (576 pp full text) + margin-note recantation «Рамку двигают бесы», golden-section pyramid patent dynasty (RU 2220752 + 8-record family), Boldyreva 3He-B cavity mechanism, KPI water+Kirlian study",
+  "dossier": "memory commit 9035c34; claims 7bf9af6",
+  "updated": "2026-10-05T12:31:00Z"
 }
