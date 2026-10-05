@@ -1,7 +1,6 @@
 {
-  "as_of": "2026-10-05T08:02:19Z",
+  "as_of": "2026-10-05T12:02:21Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "POST /agents/{id}/messages -> 200, assistant replied 'ok', stop_reason end_turn, 24 completion tokens",
-  "note": ""
+  "evidence": "probe HTTP 200, assistant reply 'ok' (12:02Z); agent config model already deepseek/deepseek-v4.1-flash, no flip needed"
 }
