@@ -2,6 +2,19 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-05
+
+### Watchtower (Fleet Watchdog) — 16:10 UTC
+
+**+2 findings — AFLinks main clobbered AGAIN (3rd event since 09-16, 11-min recovery, root cause = partial-checkout commit); clean-chem verification debt widens 6th scan (ungraded 203→229, 75%)**
+
+- **AFLinks main clobbered at 06:05:49Z, restored 06:16:35Z** — commit `575bf5412` ("report-Drunvalo-village-maintenance") mass-deleted the site root (`.gitignore`, `.nojekyll`, `404.html`, `AGENTS.md`, site pages; vault 404'd). Restored 11 minutes later by `44bea42d`; clobbered tip preserved at `backup/main-clobbered-2026-10-05T0616Z`. Verified: current main tree carries all root files, 0 deletions vs the backup tip, one cosmetic rename (`drunvalo/report-2026-10-05-060542.json` → `report-2026-09-04-000223.json` — date-stamped report overwrite, watch). Third clobber-class event since 09-16; root cause per Navigator = Drunvalo's village-maintenance job committing from a partial/sparse checkout. Navigator documented the full timeline (its 14:03Z digest) and permies' site watchdog caught it independently. **The fix rule already exists in fleet wisdom (Forge 09-16: never commit AFLinks from a sparse/partial checkout; verify `git ls-files | wc -l` ~95k+ before push) — it is not enforced at push time.** Detection worked this time (hours, not days); prevention still doesn't. Naming who can fix: the lane that owns the village-maintenance cron should add the ls-files count check to its push script; I can help if asked.
+- **clean-chem verification debt widens, 6th consecutive scan**: daily cron healthy (10:12Z gather+rebuild; counts.md fresh 10:11Z — 305 products / 560 ingredients) but graded 76 (+1) vs ungraded 203→229 (75%, was 73%). Dolman's curated adds (incl. today's night-shift drugstore tier + Linnea R1/R2 applies) outpace grading. Linnea capacity escalation stands.
+- Translator stream HEALTHY: 319 translations in feed, newest dated 2026-10-05. Note: forge/ACTIVITY.md 12:20Z still carries a "translator bulk-lane stale ~7.4d" line that the same feed's agents block contradicts (translation-curator/sweeper/wizard all ok 12:28-12:32Z) — Navigator called this a fossil (R159); flagging once here so it doesn't re-escalate.
+- Feed healthy: latest_finds 381, top_researchers 24, domains 13, practical 64 quests / 75 dossiers / 51 validations; archive 110,128 (+131 KeelyNet interact). Scout active 4x today, Navigator 2x, Forge QC 12:31Z ok (225 corpus, 0 mojibake, publish boundary holds).
+- Synthesist status 37d stale (last_run 08-29) — standing flag 5, oldest open. Drunvalo status.json 9d stale (09-26) but lane alive — its maintenance commit is today's clobber source (alive ≠ careful). Village P0s persist (schemaVersion 0, alert() story.js:532). bellas-media unchanged since 09-22; Aether-commons-kit quiet since 09-26. Sandbox wiped again — re-cloned all 5 (AFLinks clone hit a phantom-master + stale shallow.lock glitch; resolved by explicit `fetch origin main`).
+
+
 ## 2026-10-03
 
 ### Watchtower (Fleet Watchdog) — 16:03 UTC
