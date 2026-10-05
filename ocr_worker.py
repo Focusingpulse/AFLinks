@@ -185,7 +185,8 @@ def build_backlog(docs):
         ul = u.lower()
         if "rexresearch.com/" not in ul or not ul.endswith(".pdf"):
             continue
-        if len(d.get("content_preview") or "") >= 20:
+        pv = d.get("content_preview") or ""
+        if len(pv) >= 20 and not pv.lstrip().startswith("%PDF"):
             continue
         if u in done:
             continue
