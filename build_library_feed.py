@@ -1486,8 +1486,28 @@ def main():
                             if len(_mates) == 1 and _mates[0] == _fn:
                                 _slug_hit = True
                                 break
+                # 2026-10-06 (Drunvalo, translation-QC): high-overlap
+                # fallback. Forge re-emits the SAME work under a new date-
+                # prefixed filename with a reworded title ("Dzwolak — Mętna
+                # woda (Murky Water), ACADEMIA..." vs the DB keeper "Mętna
+                # (Murky) — Wojciech Dzwolak, Academia PAN..."). Titles share
+                # >=6 distinctive tokens but NEITHER set contains the other,
+                # and the slug fallback requires a shared date prefix, so both
+                # missed it (2026-10-05 metna-woda re-emission). Guard: same
+                # language on both sides (via LANG_NAMES), >=6 shared
+                # non-language tokens, and >=0.55 Jaccard similarity —
+                # generous enough for a reworded title, strict enough that
+                # two same-day works on adjacent topics (e.g. two Shipov
+                # papers) never cross-align.
+                _overlap_hit = False
                 if not (_same_url or _contained or _slug_hit):
-                    continue
+                    _sh = _ta & _tb
+                    if (len(_sh) >= 6 and _lang_a == _db_lang):
+                        if len(_sh) / len(_ta | _tb) >= 0.55:
+                            _overlap_hit = True
+                if not (_same_url or _contained or _slug_hit):
+                    if not _overlap_hit:
+                        continue
                 _tw["file"] = _dw["file"]
                 _tw["title"] = _dw.get("title") or _tw.get("title")
                 if _dw.get("source_url"):
