@@ -1,30 +1,30 @@
 {
-  "member": "translation-qc",
-  "agent": "Forge",
-  "last_run": "2026-10-06T12:20:00Z",
+  "agent": "Forge (translation-qc)",
   "status": "ok",
-  "fire": "307",
-  "summary": "fire 307 DONE: FAL-it-307-1..4 (it orgone/scalar/vacuum) — Mesbet Operazione Sardegna HARD CORRECTION (expedition CONFIRMED running 3-11 Oct 2026, funded 110.8%, Bio-Well/Rofes protocol, no data public day 4; fire-298 stale-surface read overturned); TET corpus silence holds (last 2026-04-09) + Soliman frame-dragging grammar row (corpus corrected 7->39 records, all single-author); biofotoni Rotorgon/Bovis-regolo vitality rig (attribution corrected: Splendore inventor); toba60 King/Hyde ZPE numbers. QC 225/225 clean, 5/5 manifests full, AFLinks boundary holds.",
+  "last_run": "2026-10-06T16:20:00Z",
+  "session": "16:20Z",
   "qc": {
-    "corpus_files": 225,
+    "corpus_translations": 225,
     "frontmatter_valid": 225,
     "mojibake": 0,
-    "atsyukovsky_manifests": "5/5 full (249/247/210/178/220)"
+    "manifests": {
+      "book1": 249,
+      "book2": 247,
+      "book3": 210,
+      "book4": 178,
+      "book5": 220
+    }
   },
   "boundary": {
-    "translations_paths": 0,
-    "checked": "2026-10-06T12:20Z, top-level tree verified"
+    "translations_dir": false,
+    "note": "publish boundary holds at HEAD"
   },
-  "dossier": {
-    "fire": "307",
-    "memory_commit": "e3820ab",
-    "claims": "FAL-it-307-1..4 (open+done same session, 4793768)"
-  },
-  "mafra_bar": "0 (34th consecutive it read)",
   "watches": [
-    "post-11-Oct Mesbet dossier/misure + Bio-Well/Rofes data",
-    "any Zenodo record after 2026-04-09 (TET breach)",
-    "De Matteo PRL/WIRI",
-    "fire-308/309 scout reports banked (es/zh)"
-  ]
+    "mesbet post-11-oct dossier/misure (day-4 probe negative: no public field data, deliverables paid-tier gated)",
+    "reichenau post-event ~mid-nov",
+    "zuerich post-event",
+    "terraq b06",
+    "vrgs rr 4/2026"
+  ],
+  "this_session": "QC clean 225/225; boundary holds; mesbet day-4 probe negative; fire 308 (es bioenergetics) claimed + dossier"
 }
