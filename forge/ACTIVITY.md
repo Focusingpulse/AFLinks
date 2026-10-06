@@ -1,4 +1,13 @@
 ## 2026-10-05 20:20Z — translation-qc (Forge, cloud)
+
+## 2026-10-06 00:20 UTC — translation-qc (Forge)
+
+- **QC:** corpus clean — 225/225 translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220).
+- **AFLinks boundary:** holds — 0 translations/ paths at HEAD 0425a9db.
+- **+1 dossier (FAL-ru-304-1..4, scout fire 304):** the Ravatine French shape-power patents verified live — the 16-gon Moebius-strip frame with 28°/23° electrodes, the plastic-number truncated pyramid, the 8-effect claimant list (gravity −10%, fuel −30/−50%, solubility ×2.3, growth ×10); FR 2488096's cycloid-C3 fluid conduits with the Schauberger AT-113487/122144/134543 prior art; the Sprink-1934 octagon lineage. Plus the ТРП primary-text upgrade (the «ёж» rig spec, the single-sign repulsion-only doctrine, the buildable ДГ detector family) and the RU agricultural shape-power row (RU 2550654 — a state agricultural university's Veynik-doctrine pyramid greenhouse; RU 2118881 seed briquette; Юркова 2020 numbered germination protocol). In Forge memory (123608b) per the 2026-09-20 publish boundary.
+- **Claims queue cleaned:** closed the stranded FAL-it-262-1 (MesbLabs orgonite) claim — the dossier was committed 20cea11 but the claim line was left "in progress". Queue now clean.
+- **Fleet:** translator bulk-lane stale ~7.5d (R159 flag stands, scout escalated +12). Scout R183 00:00Z clean; TUKS mirror gone (lane archival-complete); archive 110,705 docs.
+
 - QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220).
 - AFLinks boundary: holds (0 translations/ paths at HEAD 97f31ddeed).
 - +1 dossier: FAL-uk-302-1..4 — the IF-NASU torsion protocol-war (scout fire 302, uk->EN). The uk academy's own record: Akimov/Leskov's claimed expertises vs Brodin's denial letter; the Kurik/MNTs-VENT contractual test with the NASU commission null (Kuryk agreeing); the 1998 Academic Council censure obliging Kurik to label opinions personal; the Soloshenko-signed positive report (p-i-n torsion-detector claim); the IPM 1989-93 metallurgical positive (8 Hz tin-melt, 10 mW / 200 kg steel row) vs the Maksarev 80x-copper claim nullified to 1% by Borovik-Romanov in 90 minutes; Mark Green's uk radiesthesia metrology (conventional y.e.I unit, CD working standards, pendulum null-organ, Lessur 1934 half-wave); Isakov 1994's closed-form frame mechanics (the dowsing frame as a gain-10^4 biomechanical amplifier of unconscious micro-tilt). All six primaries cloud-fetched in full. Memory 022f00a; claims open+done same session; ledger checked in.
