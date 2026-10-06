@@ -92,9 +92,24 @@ def save_entries(entries):
 def cdx_rows():
     url = (f"{CDX}?url=keelynet.com&matchType=domain&output=json&collapse=urlkey"
            f"&fl=timestamp,original&filter=statuscode:200&filter=mimetype:text/html")
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=90) as r:
-        rows = json.load(r)
+    # urllib's chunked reader is flaky against web.archive's CDX for this large
+    # reply (~1.4MB); fall back to curl (same UA, same JSON contract) on any error.
+    import subprocess
+    last = None
+    for attempt in (1, 2, 3):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                rows = json.load(r)
+            return rows[1:]  # drop header
+        except Exception as e:
+            last = e
+            time.sleep(4.0)
+    # curl fallback path
+    r = subprocess.run(
+        ["curl", "-s", "-L", "--max-time", "120", "-A", UA, url],
+        capture_output=True)
+    rows = json.loads(r.stdout.decode("utf-8", "replace"))
     return rows[1:]  # drop header
 
 
