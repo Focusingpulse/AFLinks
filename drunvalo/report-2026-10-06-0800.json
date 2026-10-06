@@ -1,0 +1,40 @@
+{
+  "agent": "drunvalo",
+  "cron": "aetherforce-translation-qc",
+  "timestamp": "2026-10-06T08:08:35Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": {
+    "checks_run": [
+      "feed-vs-DB missing check (basename-normalized)",
+      "same-file duplicate grouping",
+      "title-similarity duplicate clustering (difflib >=0.75)",
+      "date==unknown sweep",
+      "person-index dangling work refs",
+      "cross_refs validation against id set",
+      "source URL verification (7/7 HTTP 200)"
+    ],
+    "issues_found": [
+      "7 feed entries (Forge Oct 6 batch) missing from research-index",
+      "1 cross-convention duplicate pair: campi-elettromagnetici-e-memoria-dell-acqua-it == electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues-it (both 2026-09-11, it, same Rome Coherence paper) - folded, kept the fuller-titled entry",
+      "4 dangling cross_refs in synthesis-teslaphoresis-experimental-bridge (synthesis- prefix vs bare slug ids - known schema pitfall, this time from the synthesis cron's own entry) - remapped to actual ids",
+      "4 authors of the new batch not in person-index: Zenin, Koltovoy, Takahashi Akito, Arias Salguero"
+    ],
+    "fixes_applied": [
+      "Added 7 works to research-index (Zenin water environment ru, Koltovoy ether models ja, Hoshino gravitation ja, Amici radionics/Egypt it, Mizuno cold fusion project ja, Takahashi cold fusion frontier 2011 ja, Arias Zahori es)",
+      "Folded duplicate pair (475+7-1=481 works)",
+      "Added 4 persons to person-index (403+4=407)",
+      "Updated 3 existing persons (hoshino, amici, mizuno) with new works_in_collection links",
+      "Fixed 4 synthesis cross_refs"
+    ],
+    "index_sizes_after": {
+      "works": 481,
+      "persons": 407
+    },
+    "notes": "translations/ empty by design (publish boundary 2026-09-20). tag_concepts.py dead (reads index.json which no longer exists) - skipped. 2 of 3 title-similarity clusters were distinct works from same source/series (French Wikipedia vs cours; two Akhand Jyoti articles) - left in place."
+  }
+}
