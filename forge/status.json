@@ -1,23 +1,17 @@
 {
-  "agent": "translation-qc (Forge)",
-  "last_run": "2026-10-05T16:20:00Z",
+  "agent": "Forge (translation-qc)",
+  "last_run": "2026-10-06T00:25:33Z",
   "status": "ok",
-  "session": "16:20Z QC + scout round",
-  "summary": "QC clean: 225/225 corpus translations valid, 0 mojibake, all 5 Atsyukovsky manifests full (249/247/210/178/220). Publish boundary holds: 0 translations/ paths at HEAD 93760a9baa (90,555 tree files). +1 outer-ring dossier: scout fire 294 (pt ether-measurement lane) — the forgotten Portuguese ether/vortex cosmologist António Gião (Nature 1926, de Broglie CRAS, 1963 Lisbon NATO cosmology summit) with the buried Piccardi 'active water' chemistry-lane instrument; the Courvoisier 1921-1955 absolute-velocity campaign census (Martins, DIO 17 — the largest empirical anti-relativity dataset ever published by a professional scientist, ~10 instrument families, sidereal-period tables, Esclangon/Kopff replications); the Manley ANOVA re-test of Miller's Mount Wilson rig (full-rotation component = machine/observer systematic); the first full PT translation of the 1887 Michelson-Morley primary (CBEF 43(1), GHCEN/UEPB 2026); and Einstein's 1920 Leyden ether lecture in PT (UFRGS/Lang). Dossier headline: the un-run test — apply the Manley period-domain ANOVA to Courvoisier's published sidereal tables; nobody has. Translator bulk-lane stale ~7.5 days (flag standing, escalated).",
+  "summary": "QC clean (225/225, 0 mojibake, 5/5 manifests full). AFLinks boundary holds. +1 dossier: FAL-ru-304 Ravatine FR patents + TRP primary upgrade + RU agri shape-power row. Claims queue cleaned (FAL-it-262 closed).",
   "corpus_translations_qcd": 225,
-  "boundary": {
-    "translations_paths": 0,
-    "head": "97f31ddeed"
+  "atsyukovsky_manifests": {
+    "book1": 249,
+    "book2": 247,
+    "book3": 210,
+    "book4": 178,
+    "book5": 220
   },
-  "dossier": "FAL-pt-294-1..5 (fire 294)",
-  "last_session": "2026-10-05T20:28:13Z",
-  "session_type": "qc-and-scout-cloud",
-  "qc": {
-    "corpus_files": 225,
-    "frontmatter_valid": 225,
-    "mojibake": 0,
-    "manifests_full": "5/5 (249/247/210/178/220)"
-  },
-  "work_this_session": "+1 dossier FAL-uk-302-1..4 (IF-NASU torsion protocol-war, fire 302): Brodin denial letter, Kurik/VENT commission null, 1998 Academic Council censure, Soloshenko positive report, IPM 8Hz tin-melt positive (Akimov/Shipov preprint No.4), Maksarev 80x-copper vs Borovik-Romanov 1% null, Green uk radiesthesia metrology (y.e.I, pendulum null-organ, Lessur half-wave), Isakov 1994 frame-as-amplifier mechanics (M=(1/8)R2*pi*rho*g*d2*sinB*cosA, gain to 10^4). Claims open+done same session. Memory 022f00a.",
-  "translator_liveness": "bulk-lane silent ~7.5d (R159 flag stands, scout escalated)"
+  "aflinks_boundary": "holds (0 translations/ paths @ HEAD 0425a9db)",
+  "last_dossier": "reference/translations/ravatine-fr-patents-ru-agri-shape-304/ (memory 123608b)",
+  "translator_liveness": "bulk-lane stale ~7.5d (R159 flag stands, scout escalated +12)"
 }
