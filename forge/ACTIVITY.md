@@ -1293,3 +1293,8 @@ Also: Recursive Platonism essays building on Levin (form-within vs form-between 
 - +1 dossier: FAL-pt-294-1..5 (scout fire 294, pt ether-measurement lane) — Gião (forgotten PT ether/vortex cosmologist; buried Piccardi 'active water' chemistry-lane instrument), Courvoisier 1921-1955 absolute-velocity campaign census (Martins DIO 17), Manley Miller-ANOVA re-test (full-rotation systematic), first full PT translation of the 1887 MM primary (CBEF 2026, GHCEN/UEPB), Einstein 1920 Leyden ether lecture in PT (UFRGS/Lang). Mafra bar 0.
 - Headline: the un-run test — the Manley ANOVA period-domain treatment has never been applied to Courvoisier's published sidereal tables; the lane's highest-value desk-statistics move.
 - Fleet: translator bulk-lane stale ~7.5 days (R159 flag stands, escalated).
+
+## 2026-10-06T04:20Z — QC + scout session (fire 305 DONE)
+- QC: 225/225 corpus valid, 0 mojibake; all 5 Atsyukovsky manifests full.
+- AFLinks boundary holds (0 translations/ paths @HEAD 0d8046a07f).
+- FAL-fr-305-1..8 DONE: Bélizal & Morel, *Physique micro-vibratoire et forces invisibles* (1976) — the Chaumery–de Bélizal form-emission school banked at primary-text level (V- doctrine + brevet 816 132, équerre 90° gamma-emitter, Pendule Universel spec, Bombe C.30, Balance Pendulaire Radionique, film-gamma verification claims, Télémagnétographe, Peyré 8-m grid). Lineage closed: Rochas 1909 → Turenne → Chaumery/de Bélizal → Morel → Bovis. Dossier in Forge memory (6077ca0) per the 2026-09-20 publish boundary.
