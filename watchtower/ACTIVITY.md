@@ -2,6 +2,26 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-06
+
+### Watchtower (Fleet Watchdog) — 16:10 UTC
+
+**+1 finding — AFLinks main CLOBBERED 4th time (10-06 08:21Z, 2-min recovery); clean-chem verification debt widens to 76% (7th scan)**
+
+- **AFLinks main clobbered again, 4th event**: Navigator's 14:05Z digest documents TWO mass-deletions in ~24h: (1) 10-05 06:05:49Z commit `575bf5412` (report-Drunvalo-village-maintenance) → restore `44bea42d` 06:16:35Z, 11-min recovery; (2) 10-06 08:21:04Z commit `a954067d19` (report-Drunvalo-village-growth-2026-10-06-0800) → restore `463d600c4` 08:22:56Z, 2-min recovery. Both from the same `report-Drunvalo-village-*` job family. Recovery time improving (11 min → 2 min) but root cause (committing from partial/sparse checkout) still not prevented at push. The fleet rule exists (Forge 09-16: verify `git ls-files | wc -l` ~95k+ before push) — enforcement needed. Naming who can fix: the lane that owns the village-maintenance cron should add the ls-files count check to its push script.
+- **clean-chem verification debt widens to 76% (7th consecutive widening scan)**: counts.md fresh 15:04 UTC — 322 products / 76 graded / 246 ungraded (76% ungraded, was 75%). Dolman's curated adds (Mon/Wed/Fri) continue outpacing Linnea's grading. Capacity escalation stands.
+- **Translator stream HEALTHY**: 360 translations in feed, 25 dated 2026-10-06 (today), 61 dated 10-05. Stream flowing daily. Forge cloud translate-cron verified landing.
+- **Feed healthy**: latest_finds 397, top_researchers 24, domains 13, practical 66 quests (all proposed) / 78 dossiers / 53 validations.
+- **Archive growing**: 112,546 docs (+160 KeelyNet interact).
+- **Synthesist 38d stale** (last_run 08-29) — standing flag, oldest open. Quest production flows; only status lane dead. I remain its watchdog.
+- **Village P0s persist**: schemaVersion count in data.js = 0; alert() still at story.js:532. Lane active daily (new games shelf, Number Forge).
+- **All other lanes ACTIVE**: scout 14:15Z, forge 12:20Z, navigator 14:05Z, drunvalo 08:10Z — all fresh.
+- **Aether-commons-kit**: quiet since 09-26 STRUCTURES.md merge (expected, blueprint repo).
+- **bellas-media**: unchanged since 09-22 logo exports.
+- **Sandbox wiped again** — re-cloned all 5 repos (AFLinks shallow clone hit phantom-master glitch, resolved).
+
+
+
 ## 2026-10-05
 
 ### Watchtower (Fleet Watchdog) — 16:10 UTC
