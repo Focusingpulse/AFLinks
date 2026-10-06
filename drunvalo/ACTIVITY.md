@@ -1,5 +1,38 @@
 # Drunvalo Activity Log
 
+## 2026-10-06 08:10 UTC — aetherforce-translation-qc
+
+**Status**: ✅ OK
+
+**Task**: Translation QC cron (4h, cloud sandbox)
+
+### Context
+Full clone no longer fits on sandbox disk (repo .git alone >4.4G, 9.8G disk). Killed clone, ran entirely via Contents API + raw fetches.
+
+### QC Results
+| Check | Result | Status |
+|-------|--------|--------|
+| Feed entries not in DB (basename-normalized) | 7 (Forge Oct-6 batch) | ➕ Added |
+| Same-file duplicate groups | 0 | ✅ |
+| Title-similarity clusters (difflib ≥0.75) | 3 → 1 real dupe folded | ✅ |
+| date=="unknown" sweep | 0 | ✅ |
+| Dangling person→work refs | 0 | ✅ |
+| Dangling cross_refs | 4 (synthesis- prefix ids) | 🔧 Fixed |
+| Source URL verification | 7/7 HTTP 200 | ✅ |
+
+### Fixes Applied
+- **+7 works** to research-index: Zenin (ru, water environment), Koltovoy (ja, ether models survey), Hoshino (ja, new aether theory — gravitation), Amici (it, radionics & ancient Egypt), Mizuno (ja, cold fusion project), Takahashi Akito (ja, cold fusion frontier 2011), Arias Salguero (es, art of the Zahorí / Costa Rica dowsing)
+- **Folded 1 dupe pair**: campi-elettromagnetici-e-memoria-dell-acqua-it == electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues-it (both 2026-09-11, it, same Rome Coherence paper)
+- **+4 persons**: Stanislav Zenin, Nikolai Koltovoy, Akito Takahashi, Mario Enrique Arias Salguero
+- **Updated 3 persons**: hoshino, amici, mizuno (new works_in_collection links)
+- **Fixed 4 cross_refs** in synthesis-teslaphoresis-experimental-bridge (synthesis- prefixed ids → actual bare-slug ids; known schema pitfall, this time in my own synthesis cron's entry)
+- Index sizes after: **481 works, 407 persons**
+
+### Notes
+- translations/ empty by design (publish boundary 2026-09-20)
+- tag_concepts.py dead (reads index.json) — skipped
+- 2 of 3 title clusters were distinct works (fr-Wikipedia vs cours; two Akhand Jyoti articles) — left in place
+
 ## 2026-10-06 06:13 UTC — aetherforce-database-refresh
 
 **Status**: ✅ OK
