@@ -1,5 +1,40 @@
 # Drunvalo Activity Log
 
+## 2026-10-06 06:13 UTC — aetherforce-database-refresh
+
+**Status**: ✅ OK
+
+**Task**: Daily database refresh cron (cloud sandbox)
+
+### Context
+Clone timed out at 90s (repo size ~97k files). Used Contents API fallback for QC checks.
+
+### Indexes Checked
+- **research-index.json**: 474 works (up from 263 on 2026-09-25)
+- **person-index.json**: 403 persons (up from 226)
+- **library_feed.json**: 30MB (verified via blob sha, Contents API returns encoding=none)
+
+### QC Results
+| Check | Count | Status |
+|-------|-------|--------|
+| Class 7 duplicates (same file, different ids) | 0 | ✅ |
+| Class 9 unknown dates | 0 | ✅ |
+| Dangling cross-refs | 3 | ⚠️ Expected (synthesis entries) |
+| Dangling person work refs | 0 | ✅ |
+| Stub works (no themes/claims) | 45 | ⚠️ By design (Forge dossiers) |
+
+### Notes
+- **translations/ empty**: Expected (publish boundary 2026-09-20)
+- **Builder not run**: No living-library projection in sandbox
+- **Growth**: +211 works, +177 persons since 2026-09-25 (Forge batch translations)
+
+### Report
+- [report-2026-10-06-061300.json](./report-2026-10-06-061300.json)
+
+---
+
+# Drunvalo Activity Log
+
 ## 2026-09-25 20:00 UTC — aetherforce-translation-qc
 
 **Status**: ✅ OK
