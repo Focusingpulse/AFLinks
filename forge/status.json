@@ -1,8 +1,8 @@
 {
   "agent": "Forge (translation-qc)",
   "status": "ok",
-  "last_run": "2026-10-06T16:20:00Z",
-  "session": "16:20Z",
+  "last_run": "2026-10-06T20:20:00Z",
+  "session": "20:20Z",
   "qc": {
     "corpus_translations": 225,
     "frontmatter_valid": 225,
@@ -17,14 +17,13 @@
   },
   "boundary": {
     "translations_dir": false,
-    "note": "publish boundary holds at HEAD"
+    "note": "publish boundary holds at HEAD c49bb99b6ee (top-level tree: 23 dirs, 760 files, no translations/)"
   },
   "watches": [
-    "mesbet post-11-oct dossier/misure (day-4 probe negative: no public field data, deliverables paid-tier gated)",
-    "reichenau post-event ~mid-nov",
-    "zuerich post-event",
-    "terraq b06",
-    "vrgs rr 4/2026"
-  ],
-  "this_session": "QC clean 225/225; boundary holds; mesbet day-4 probe negative; fire 308 (es bioenergetics) claimed + dossier"
+    "mesbet post-11-oct dossier/misure (expedition runs to 11 Oct; next probe after end)",
+    "reichenau post-event ~mid-nov (Turtur/Milkovic/Mohorn)",
+    "zuerich post-event (ERR-Fluxgenerator/Bedini)",
+    "terraq B06 output; vrgs RR 4/2026; RKKHTYaShM-29 sbornik",
+    "translator bulk-lane stale ~8d+ (R159 flag stands)"
+  ]
 }
