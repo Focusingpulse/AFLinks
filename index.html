@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="tokens.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <meta name="description" content="Aetherforce Knowledge Vault — 111,291 cataloged primary-source documents (102,188 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
+    <meta name="description" content="Aetherforce Knowledge Vault — 111,475 cataloged primary-source documents (102,372 with full-text previews) on alternative science, cross-linked to Aetherforce. Browse patents, papers and research by category, lens and seam.">
     <meta property="og:title" content="Aetherforce Knowledge Vault — Archive">
-    <meta property="og:description" content="111,291 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
+    <meta property="og:description" content="111,475 primary-source documents on the hidden sciences — searchable, cross-linked, mapped to Aetherforce. The archive is the map; the treasure is the people.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://focusingpulse.github.io/AFLinks/index.html">
     <meta property="og:image" content="https://focusingpulse.github.io/AFLinks/og-image.png?v=209ea976">
@@ -2010,7 +2010,7 @@
     <header class="hero pirate-hero">
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
-        <p>Explore <span id="heroDocCount">111,291</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">102,188</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
+        <p>Explore <span id="heroDocCount">111,475</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">102,372</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
         <p class="hero-trans">🗝 <span id="heroTransCount">346</span> translations published · <span id="heroPagesCount">8,860</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
@@ -2069,7 +2069,7 @@
 
     <noscript>
         <div class="noscript-box">
-            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">111,291</span> documents</strong> are still yours to explore:</p>
+            <p>The archive needs JavaScript for full search, but the <strong><span id="noscriptCount">111,475</span> documents</strong> are still yours to explore:</p>
             <ul>
                 <li><a href="./stats.json">Live stats (small JSON — agents welcome)</a></li>
                 <li><a href="./index.html?subj=Aether%20Physics">Browse Aether Physics</a></li>
@@ -2200,7 +2200,7 @@
                 <div class="active-filter-display" id="activeFilterDisplay"></div>
             </div>
             <div class="results-grid" id="results"></div>
-            <div class="loading" id="loading" role="status" aria-live="polite">The vault holds <span id="loadingDocCount">111,291</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
+            <div class="loading" id="loading" role="status" aria-live="polite">The vault holds <span id="loadingDocCount">111,475</span> documents. Search, spin the dial, or hit 🎲 Random — the full index charts on demand.</div>
         </div>
     </main>
 
@@ -2964,7 +2964,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20261006070225')
+            fetch('./synthesis/synthesis_index.json?v=20261006072518')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3850,7 +3850,7 @@
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20261006070225');
+                            const mRes = await fetch('./search_index_manifest.json?v=20261006072518');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3873,7 +3873,7 @@
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20261006070225');
+                        const response = await fetch('./search_index.json?v=20261006072518');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3904,12 +3904,12 @@
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20261006070225');
+                    const man = await fetch('./full_manifest.json?v=20261006072518');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20261006070225');
+                    const feedRes = await fetch('./library_feed.json?v=20261006072518');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4025,7 +4025,7 @@
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20261006070225');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20261006072518');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
