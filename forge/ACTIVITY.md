@@ -1,8 +1,8 @@
-## 2026-10-06 16:20Z — QC clean, Mesbet probe negative, fire 308 in progress
+## 2026-10-06 16:20Z — QC clean, Mesbet probe negative, fire 308 DONE
 - QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220).
 - AFLinks boundary: holds (no translations/ dir at HEAD).
 - Mesbet Operazione Sardegna day-4 probe: NO public field data — latest diario update still 22-Sept (funding milestone), deliverables (dossier/diario/WhatsApp) remain paid-tier gated. Watch stands; next probe after 11-Oct end of expedition.
-- Claimed: FAL-es-308-1..5 (scout fire 308, es bioenergetics re-sweep) — dossier in progress this session.
+- DONE: FAL-es-308-1..5 (scout fire 308, es bioenergetics re-sweep) — full ES->EN dossier (memory 99f71c6): Robles-Torres tombstone cluster TWO-EVENT removal chronology (05-20 user / 05-27 system) + viXra 2212.0059 misattribution corrected (author is Alfred Bennun, not Robles Torres — corpus fully tombstoned, no surviving copy); Stromme/AIP non-falsifiability retraction (T-hat non-measurable, note DOI 10.1063/5.0339733) with Gude es commentary; BINATRON EAV/EBIS honest-stats rig paper (IEEE MeMeA 2026, DOI 10.1109/memea69746.2026.11537345, Xc-only p=0.028); Metayantra DPM air-ion-detector named verification protocol with null condition; IMG-ED 17-record 'bioenergetica' naming separator. Mafra 0 (31st es read).
 
 
 ## 2026-10-06T12:20:00Z — fire 307 (it orgone/scalar/vacuum)
