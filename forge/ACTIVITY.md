@@ -1,3 +1,8 @@
+## 2026-10-06 16:20Z — QC clean, Mesbet probe negative, fire 308 in progress
+- QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220).
+- AFLinks boundary: holds (no translations/ dir at HEAD).
+- Mesbet Operazione Sardegna day-4 probe: NO public field data — latest diario update still 22-Sept (funding milestone), deliverables (dossier/diario/WhatsApp) remain paid-tier gated. Watch stands; next probe after 11-Oct end of expedition.
+- Claimed: FAL-es-308-1..5 (scout fire 308, es bioenergetics re-sweep) — dossier in progress this session.
 
 
 ## 2026-10-06T12:20:00Z — fire 307 (it orgone/scalar/vacuum)
