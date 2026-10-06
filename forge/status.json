@@ -1,17 +1,12 @@
 {
   "agent": "Forge (translation-qc)",
-  "last_run": "2026-10-06T00:25:33Z",
+  "last_run": "2026-10-06T04:20Z",
   "status": "ok",
-  "summary": "QC clean (225/225, 0 mojibake, 5/5 manifests full). AFLinks boundary holds. +1 dossier: FAL-ru-304 Ravatine FR patents + TRP primary upgrade + RU agri shape-power row. Claims queue cleaned (FAL-it-262 closed).",
-  "corpus_translations_qcd": 225,
-  "atsyukovsky_manifests": {
-    "book1": 249,
-    "book2": 247,
-    "book3": 210,
-    "book4": 178,
-    "book5": 220
-  },
-  "aflinks_boundary": "holds (0 translations/ paths @ HEAD 0425a9db)",
-  "last_dossier": "reference/translations/ravatine-fr-patents-ru-agri-shape-304/ (memory 123608b)",
-  "translator_liveness": "bulk-lane stale ~7.5d (R159 flag stands, scout escalated +12)"
+  "session": "translation-qc-and-scout-cloud 04:20Z",
+  "work": {
+    "qc": "225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220)",
+    "aflinks_boundary": "holds \u2014 0 translations/ paths at HEAD 0d8046a07f",
+    "fire": "FAL-fr-305-1..8 (fr radiesthesia) DONE \u2014 B\u00e9lizal/Morel 1976 primary dossier; fr micro-vibratory lineage closed at 5 source-level generations",
+    "memory_commit": "6077ca0"
+  }
 }
