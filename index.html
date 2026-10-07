@@ -2011,7 +2011,7 @@
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">115,556</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">106,335</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">377</span> translations published · <span id="heroPagesCount">9,631</span> pages translated &amp; growing</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">384</span> translations published · <span id="heroPagesCount">9,652</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
@@ -2965,7 +2965,7 @@ Mary Rodwell has been researching Star Seeds, children who are born to h…</spa
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20261007093915')
+            fetch('./synthesis/synthesis_index.json?v=20261007102904')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3851,7 +3851,7 @@ Mary Rodwell has been researching Star Seeds, children who are born to h…</spa
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20261007093915');
+                            const mRes = await fetch('./search_index_manifest.json?v=20261007102904');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3874,7 +3874,7 @@ Mary Rodwell has been researching Star Seeds, children who are born to h…</spa
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20261007093915');
+                        const response = await fetch('./search_index.json?v=20261007102904');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3905,12 +3905,12 @@ Mary Rodwell has been researching Star Seeds, children who are born to h…</spa
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20261007093915');
+                    const man = await fetch('./full_manifest.json?v=20261007102904');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20261007093915');
+                    const feedRes = await fetch('./library_feed.json?v=20261007102904');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4026,7 +4026,7 @@ Mary Rodwell has been researching Star Seeds, children who are born to h…</spa
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20261007093915');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20261007102904');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
