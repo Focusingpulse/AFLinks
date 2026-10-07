@@ -196,27 +196,6 @@
       "source_url": "https://www.trinitas.ru/rus/doc/0231/004a/02310004.htm"
     },
     {
-      "id": "analyse-brevets-tesla-energie-radiante-fr",
-      "title": "Analyse Brevets Tesla Energie Radiante",
-      "authors": [
-        "tesla"
-      ],
-      "date": "2026-09-11",
-      "language": "fr",
-      "translated": true,
-      "file": "translations/2026-09-11-analyse-brevets-tesla-energie-radiante-fr.md",
-      "themes": [],
-      "concepts": [
-        "aether",
-        "gravity"
-      ],
-      "key_claims": [],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
       "id": "analyse-des-sch-mas-de-brevet-de-tesla-sur-l-nergie-rayonnan-fr",
       "title": "Analyse des schémas de brevet de TESLA sur l'énergie rayonnante",
       "authors": [
@@ -627,7 +606,7 @@
       "authors": [
         "enel",
         "chaumery",
-        "de_belizal"
+        "de-belizal"
       ],
       "date": "2026-09-11",
       "language": "en",
@@ -719,7 +698,7 @@
       "id": "de-belizal-morel-physique-micro-vibratoire-fr-en",
       "title": "Forge's FR→EN translation of the theoretical core of de Belizal & Morel's 'Physique Micro-Vibratoire et Forces Invisibles' (Desforges, Paris, 1976): the authors' Foreword (Chaumery's death, the V–/V+ story), Introduction, the complete Vocabulary of micro-vibratory physics, and Part One theory chapters 1–14. Source: excerpt posted at studylibfr.com; original book out of print, in copyright — research translation with attribution. Outer-ring / French radiesthesia tradition (Chaumery–de Belizal school).",
       "authors": [
-        "de_belizal",
+        "de-belizal",
         "pa-morel"
       ],
       "date": "2026-09-10",
@@ -1000,7 +979,7 @@
       "title": "Essay on Vibratory Radiesthesia — Review of the Chaumery & de Bélizal Classic",
       "authors": [
         "chaumery",
-        "de_belizal"
+        "de-belizal"
       ],
       "date": "2026-09-08",
       "language": "en",
@@ -1389,7 +1368,9 @@
         "platonic-theory-of-everything-and-spyridis-unified-theory-of-el"
       ],
       "status": "translated",
-      "cross_refs": [],
+      "cross_refs": [
+        "2026-09-28-geometria-sacra-del-suono-e-vibrazione-it"
+      ],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
     {
@@ -1869,7 +1850,7 @@
       "id": "hotie-viviane-broceliande-fr-en",
       "title": "\"Energetic Circuit and Geobiological Study of the Hotie de Viviane - Paimpont - 35\"",
       "authors": [
-        "ecoute_energetique"
+        "ecoute-energetique"
       ],
       "date": "2026-08-29",
       "language": "fr",
@@ -2222,7 +2203,10 @@
       "themes": [
         "Plasma, Torsion & Cosmology",
         "Aether, Light & Electricity",
-        "Sacred Geometry & Form"
+        "Sacred Geometry & Form",
+        "ether-theory",
+        "gravity",
+        "compressible-ether"
       ],
       "concepts": [
         "aether",
@@ -2261,7 +2245,11 @@
       "status": "translated",
       "source_url": "https://newinflow.ru/pdf/pub28.pdf",
       "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry. Also published at https://complex-systems.ru/issues/2019-n4."
+      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry. Also published at https://complex-systems.ru/issues/2019-n4.",
+      "source_urls": [
+        "https://newinflow.ru/pdf/pub28.pdf",
+        "https://complex-systems.ru/issues/2019-n4"
+      ]
     },
     {
       "id": "matiere-aether-d-benaros-en",
@@ -2621,7 +2609,7 @@
       "id": "ondes-de-formes-techniques-appareils-fr-en",
       "title": "Forge's English translation of the de Belizal apparatus articles from 'Ondes de formes: Techniques et appareils' (idoc.tips excerpt of Servranx-era journal articles): Mental vs Physical Radiesthesia; the 1936 Universal Pendulum technical description; the C.30 Bomb; the Disc Emitter; the Geometric Forms definition of ondes de forme; the Micrometer and its Servranx psychotechnics use. Companion to the FR 816,132 patent translation and the Physique Micro-Vibratoire excerpt. Outer-ring / French radiesthesia tradition (Chaumery-de Belizal school).",
       "authors": [
-        "de_belizal",
+        "de-belizal",
         "pa-morel"
       ],
       "date": "2026-09-11",
@@ -7036,7 +7024,7 @@
       "id": "safe-compendium-vortex-physics",
       "title": "Compendium of Vortex Physics (Version 1, Part 1)",
       "authors": [
-        "safe_vortex",
+        "safe-vortex",
         "tesla",
         "schauberger"
       ],
@@ -8163,7 +8151,9 @@
     {
       "id": "2026-09-28-geometria-sacra-del-suono-e-vibrazione-it",
       "title": "The Sacred Geometry of Sound and Vibration (La Geometria Sacra del Suono e della Vibrazione)",
-      "authors": [],
+      "authors": [
+        "toba60"
+      ],
       "date": "2026-09-28",
       "language": "it",
       "translated": true,
@@ -8182,7 +8172,9 @@
       ],
       "cross_references": [],
       "status": "translated",
-      "cross_refs": [],
+      "cross_refs": [
+        "geometria-sacra-del-suono-en"
+      ],
       "source_url": null,
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -9332,23 +9324,6 @@
       "cross_refs": []
     },
     {
-      "id": "magnitsky-gravity-compressible-ether-ru",
-      "title": "Gravity in the Theory of Compressible Oscillating Ether",
-      "file": "translations/2026-09-07-magnitsky-gravity-compressible-ether-ru.md",
-      "language": "ru",
-      "authors": [
-        "magnitsky"
-      ],
-      "themes": [
-        "ether-theory",
-        "gravity",
-        "compressible-ether"
-      ],
-      "source_url": "https://complex-systems.ru/issues/2019-n4",
-      "date": "2026-09-07",
-      "cross_refs": []
-    },
-    {
       "id": "2026-10-02-nova-vodna-paradigma-kravcik-sk",
       "title": "Voda pre ozdravenie klímy — Nová vodná paradigma (Water for the Recovery of the Climate — A New Water Paradigm) (sk->EN)",
       "authors": [
@@ -9688,7 +9663,7 @@
       "id": "2026-10-01-physique-micro-vibratoire-forces-invisibles-belizal-morel-fr",
       "title": "Physique Micro-Vibratoire et Forces Invisibles (A. de Bélizal & P. A. Morel, Desforges, 1976) (fr->EN)",
       "authors": [
-        "de_belizal",
+        "de-belizal",
         "pa-morel"
       ],
       "date": "2026-10-01",
@@ -10512,7 +10487,7 @@
       "title": "O que são Ondas de Forma (What Are Form Waves) — ondes de forme history, Chaumery-Bélizal twelve-emission table (pt→EN)",
       "authors": [
         "chaumery",
-        "de_belizal",
+        "de-belizal",
         "enel"
       ],
       "date": "2026-10-03",
@@ -14699,9 +14674,534 @@
         "Frames cold fusion as a branch of solid-state nuclear phenomena"
       ],
       "cross_refs": []
+    },
+    {
+      "id": "2026-10-07-agua-estructurada-biofisica-consciencia-serna-es",
+      "title": "El Agua Estructurada: Entre la Biofisica, la Consciencia y las Tradiciones Espirituales (es->EN)",
+      "authors": [
+        "carlos-serna"
+      ],
+      "date": "2026-10-07",
+      "language": "es",
+      "translated": true,
+      "file": "translations/2026-10-07-agua-estructurada-biofisica-consciencia-serna-es.md",
+      "themes": [
+        "Water Structure & Memory",
+        "Consciousness & Subtle Energy"
+      ],
+      "concepts": [
+        "structured-water",
+        "water-memory",
+        "biophysics",
+        "consciousness",
+        "spiritual-traditions"
+      ],
+      "key_claims": [
+        "Author: Prof. Eng. Carlos Serna II, PE MS LSSBB Summary The concept of structured water has emerged as a point of confluence between frontier science — in particular cellular biophysics — and multiple traditional and spi"
+      ],
+      "cross_refs": [],
+      "source_url": "https://carlosserna11.substack.com/p/el-agua-estructurada"
+    },
+    {
+      "id": "2026-10-07-attivita-proliferazione-microbica-preparati-biodinamici-it",
+      "title": "Microbial Proliferation Activity of Biodynamic Preparations and Biodynamic Compost (it->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "it",
+      "translated": true,
+      "file": "translations/2026-10-07-attivita-proliferazione-microbica-preparati-biodinamici-it.md",
+      "themes": [
+        "Biological & Morphogenetic Science"
+      ],
+      "concepts": [
+        "biodynamics",
+        "biodynamic-preparations",
+        "compost",
+        "microbial-activity",
+        "agriculture"
+      ],
+      "key_claims": [
+        "Biodynamic agriculture, unlike other agroecological practices, involves the use of humified preparations to stimulate the formation of humus in the soil and to increase the growth and quality of plants. The biodynamic pr"
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.scienzebiodinamiche.org/ricerca/attivita-di-proliferazione-microbica-dei-preparati-biodinamici-e-del-compost-biodinamico/"
+    },
+    {
+      "id": "2026-10-07-campos-morfogeneticos-memoria-invisivel-natureza-garcia-pt",
+      "title": "Campos Morfogeneticos: A Memoria Invisivel da Natureza (pt->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "pt",
+      "translated": true,
+      "file": "translations/2026-10-07-campos-morfogeneticos-memoria-invisivel-natureza-garcia-pt.md",
+      "themes": [
+        "Biological & Morphogenetic Science",
+        "Consciousness & Subtle Energy"
+      ],
+      "concepts": [
+        "morphogenetic-fields",
+        "sheldrake",
+        "formative-causation",
+        "nature-memory"
+      ],
+      "key_claims": [
+        "MORPHOGENETIC FIELDS: THE INVISIBLE MEMORY OF NATURE A deep investigation between science, philosophy, spirituality and controversy --- Introduction Few modern scientific ideas have provoked as much fascination, controve"
+      ],
+      "cross_refs": [],
+      "source_url": "https://rodrigoenok.blogspot.com/2026/02/campos-morfogeneticos-memoria-invisivel.html"
+    },
+    {
+      "id": "2026-10-07-effective-gravity-unifying-gravity-heat-flow-ibaraki-ja",
+      "title": "Effective Gravity: a new thermodynamic force unifying heat flow and gravity (ja->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "ja",
+      "translated": true,
+      "file": "translations/2026-10-07-effective-gravity-unifying-gravity-heat-flow-ibaraki-ja.md",
+      "themes": [
+        "Unified Theory"
+      ],
+      "concepts": [
+        "gravity",
+        "thermodynamics",
+        "heat-flow",
+        "effective-gravity",
+        "ibaraki-university"
+      ],
+      "key_claims": [
+        "February 4, 2026 (Wednesday)\nThe birth of \"Effective Gravity,\" a new concept unifying thermodynamic force and gravity — A new theory predicting the phenomenon of liquid floating in mid-air\n#NEWS\n#Basic Natural Sciences\n#"
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.ibaraki.ac.jp/news/n/2026/02/04014500.html"
+    },
+    {
+      "id": "2026-10-07-energias-vivas-schauberger-coats-es",
+      "title": "Energias Vivas - Viktor Schauberger (Callum Coats, Spanish ed.) (es->EN)",
+      "authors": [
+        "callum-coats",
+        "schauberger"
+      ],
+      "date": "2026-10-07",
+      "language": "es",
+      "translated": true,
+      "file": "translations/2026-10-07-energias-vivas-schauberger-coats-es.md",
+      "themes": [
+        "Vortex & Implosion",
+        "Water, Life & Biology"
+      ],
+      "concepts": [
+        "viktor-schauberger",
+        "living-energy",
+        "vortex",
+        "implosion",
+        "water"
+      ],
+      "key_claims": [
+        "LIVING ENERGIES An exposition of concepts related to the theories of VIKTOR SCHAUBERGER By CALLUM COATS\n\nGATEWAY BOOKS, BATH, UK\n\n1\n\nFirst published in 1996 by GATEWAY BOOKS The Hollies, Wellow, Bath, BA2 8QJ, UK © 1996"
+      ],
+      "cross_refs": [],
+      "source_url": "https://vbook.pub/documents/energas-vivas-viktor-schaubergerpdf-9qwy0g1gg5om"
+    },
+    {
+      "id": "2026-10-07-henerator-elektryky-turbina-tesla-portaltele-uk",
+      "title": "Vcheni rozrobyly henerator elektryky na osnovi turbiny Tesla (Scientists developed an electricity generator based on the Tesla turbine) (uk->EN)",
+      "authors": [
+        "tesla"
+      ],
+      "date": "2026-10-07",
+      "language": "uk",
+      "translated": true,
+      "file": "translations/2026-10-07-henerator-elektryky-turbina-tesla-portaltele-uk.md",
+      "themes": [
+        "Alternative Energy Technologies"
+      ],
+      "concepts": [
+        "tesla-turbine",
+        "generator",
+        "electricity",
+        "bladeless-turbine"
+      ],
+      "key_claims": [
+        "Scientists developed an electricity generator based on the Tesla turbine\n\nPortaltele (portaltele.com.ua), 12.01.2026, author Volodymyr\n\nIn industry, compressed air is usually seen merely as a working resource — it drives"
+      ],
+      "cross_refs": [],
+      "source_url": "https://portaltele.com.ua/news/technology/vcheni-rozrobyly-generator-elektryky-na-osnovi-turbiny-tesla.html"
+    },
+    {
+      "id": "2026-10-07-in-canto-lapidum-music-carved-stone-patire-it",
+      "title": "In-canto Lapidum: music carved in stone at Santa Maria del Patire (it->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "it",
+      "translated": true,
+      "file": "translations/2026-10-07-in-canto-lapidum-music-carved-stone-patire-it.md",
+      "themes": [
+        "Sacred Geometry & Form",
+        "History of Science"
+      ],
+      "concepts": [
+        "medieval-music",
+        "stone-carving",
+        "patire",
+        "sacred-art",
+        "notation"
+      ],
+      "key_claims": [
+        "CORIGLIANO-ROSSANO - If stones could speak, they would tell stories. If they could sing, perhaps they would give back a piece of eternity. It is precisely from this suggestion — which today carries the force of a scienti"
+      ],
+      "cross_refs": [],
+      "source_url": "https://ecodellojonio.it/articoli/ecocult/2026/04/non-sono-decorazioni-al-patire-c-e-musica-incisa-nella-pietra-da-mille-anni"
+    },
+    {
+      "id": "2026-10-07-kozmikus-rejtely-univerzum-magneses-mezo-hirextra-hu",
+      "title": "On the Trail of a Cosmic Mystery: A New Explanation for the Universe's Magnetic Field (hu->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "hu",
+      "translated": true,
+      "file": "translations/2026-10-07-kozmikus-rejtely-univerzum-magneses-mezo-hirextra-hu.md",
+      "themes": [
+        "Plasma, Torsion & Cosmology"
+      ],
+      "concepts": [
+        "magnetic-fields",
+        "cosmology",
+        "universe",
+        "magnetogenesis"
+      ],
+      "key_claims": [
+        "On the Trail of a Cosmic Mystery: A New Explanation Has Been Born for the Universe's Magnetic Field\n\nNew research may answer the long-disputed question of how the universe's vast, ordered magnetic fields can come into be"
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.hirextra.hu/2026/03/16/kozmikus-rejtely-nyomaban-uj-magyarazat-szuletett-az-univerzum-magneses-mezejere/"
+    },
+    {
+      "id": "2026-10-07-onderzoek-wichelroede-landbouw-tno-nl",
+      "title": "Onderzoek naar de betekenis der wichelroede voor de landbouw (Investigation into the Significance of the Dowsing Rod for Agriculture) (nl->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "nl",
+      "translated": true,
+      "file": "translations/2026-10-07-onderzoek-wichelroede-landbouw-tno-nl.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "Geobiology"
+      ],
+      "concepts": [
+        "dowsing",
+        "agriculture",
+        "TNO",
+        "controlled-study",
+        "1955"
+      ],
+      "key_claims": [
+        "1955 report by a Royal Netherlands Academy of Sciences working group.",
+        "Tested dowsing paths against livestock health in 19 Frisian sheds, winter 1952-53.",
+        "Included a trial with monozygotic twin calves at Utrecht's veterinary faculty.",
+        "Also tested bees at the Ambrosiushoeve apiary and potato eelworm on arable land.",
+        "Compared the results of two investigations by the same dowser."
+      ],
+      "cross_refs": [],
+      "source_url": "https://publications.tno.nl/publication/34611974/PqzSTl/1955-onderzoek-wichelroede.pdf"
+    },
+    {
+      "id": "2026-10-07-pendulo-sumergido-energia-olas-urv-huera-energias-renovables-es",
+      "title": "Un ingeniero espanol desarrolla un nuevo generador undimotriz (pendulo sumergido) (es->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "es",
+      "translated": true,
+      "file": "translations/2026-10-07-pendulo-sumergido-energia-olas-urv-huera-energias-renovables-es.md",
+      "themes": [
+        "Alternative Energy Technologies"
+      ],
+      "concepts": [
+        "wave-energy",
+        "submerged-pendulum",
+        "generator",
+        "URV"
+      ],
+      "key_claims": [
+        "How to generate energy with a submerged pendulum and the vibration of water\n\nSaturday, 31 January 2026 — Energías Renovables (ER)\n\n\n---\n\n\nAn engineer at the Universitat Rovira i Virgili (URV, Tarragona) has designed a de"
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.energias-renovables.com/energias_del_mar/un-ingeniero-espa-ol-desarrolla-un-nuevo-20260128"
+    },
+    {
+      "id": "2026-10-07-przez-wiry-i-pod-prad-schauberger-waraxa-przekroj-pl",
+      "title": "Przez wiry i pod prad — Wiktor Schauberger (Monika Waraxa, Przekroj) (pl->EN)",
+      "authors": [
+        "monika-waraxa",
+        "schauberger"
+      ],
+      "date": "2026-10-07",
+      "language": "pl",
+      "translated": true,
+      "file": "translations/2026-10-07-przez-wiry-i-pod-prad-schauberger-waraxa-przekroj-pl.md",
+      "themes": [
+        "Vortex & Implosion",
+        "History of Science"
+      ],
+      "concepts": [
+        "viktor-schauberger",
+        "vortex",
+        "implosion",
+        "biography",
+        "przekroj"
+      ],
+      "key_claims": [
+        "The trout hung motionless in the stream; only up close could you see the tiny movements of its fins. But when the boy dipped his finger into the water, the fish vanished in a flash — and what is more, despite the rushing"
+      ],
+      "cross_refs": [],
+      "source_url": "https://przekroj.org/swiat-ludzie/przez-wiry-i-pod-prad/"
+    },
+    {
+      "id": "2026-10-07-radiaesthesie-werkzeug-physikalische-experimente-teil5-balck-de",
+      "title": "Radiästhesie als wichtiges Werkzeug für physikalische Experimente - Teil 5: Fließendes Wasser - Wasserader im Labor (de->EN)",
+      "authors": [
+        "balck"
+      ],
+      "date": "2026-10-07",
+      "language": "de",
+      "translated": true,
+      "file": "translations/2026-10-07-radiaesthesie-werkzeug-physikalische-experimente-teil5-balck-de.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "Water, Life & Biology"
+      ],
+      "concepts": [
+        "radiesthesia",
+        "flowing-water",
+        "water-veins",
+        "laboratory-experiments",
+        "biosensor"
+      ],
+      "key_claims": [
+        "Friedrich H. Balck\n\nRadiesthesia as an Important Tool\nfor Physical Experiments — Part 5\nFlowing Water — A Water Vein in the Laboratory\n\n1. Flowing Water and Subtle Matter\n\nWhen it comes to explaining geopathic structures"
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.biosensor-physik.de/biosensor/wbm-2018-teil05a-low.pdf"
+    },
+    {
+      "id": "2026-10-07-radiestesia-storia-scuole-strumenti-air-it",
+      "title": "Radiestesia — storia, scuole, strumenti (A.I.R.) (it->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "it",
+      "translated": true,
+      "file": "translations/2026-10-07-radiestesia-storia-scuole-strumenti-air-it.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "History of Science"
+      ],
+      "concepts": [
+        "radiesthesia",
+        "dowsing",
+        "instruments",
+        "schools",
+        "history"
+      ],
+      "key_claims": [
+        "Select a page\n\nA.I.R. | Radiesthesia\n\n;\n\nThe History of Radiesthesia\nAncient Origins\nRadiesthesia sinks its roots into remote epochs, and the practices we today associate with this discipline were already widespread in a"
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.air-radiestesia.it/radiestesia/"
+    },
+    {
+      "id": "2026-10-07-radiesztezia-kerdesek-foldugarzas-brunda-hu",
+      "title": "Kerdesek a radiesztezia temakorebol foldugarzas (hu->EN)",
+      "authors": [
+        "brunda"
+      ],
+      "date": "2026-10-07",
+      "language": "hu",
+      "translated": true,
+      "file": "translations/2026-10-07-radiesztezia-kerdesek-foldugarzas-brunda-hu.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "Geobiology"
+      ],
+      "concepts": [
+        "dowsing",
+        "earth-radiation",
+        "geopathic-stress",
+        "ley-lines",
+        "FAQ"
+      ],
+      "key_claims": [
+        "Describes LEY and St George lines as positive-polarity radiesthetic structures.",
+        "Author says one may stay indefinitely in areas bounded by Curry grid bands.",
+        "Claims negative radiesthetic spaces can contribute to miscarriage and failed pregnancy.",
+        "Says church altar places are traditionally marked by a St George or LEY cross.",
+        "Recommends measuring a suitable spot individually; neutral polarity is the target."
+      ],
+      "cross_refs": [],
+      "source_url": "http://www.fengshuiradiesztezia.hu/gyik.html"
+    },
+    {
+      "id": "2026-10-07-resultado-mas-claro-fusion-fria-madrid-elpais-es",
+      "title": "El resultado mas claro obtenido hasta ahora (Madrid cold fusion, El Pais 1989) (es->EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "es",
+      "translated": true,
+      "file": "translations/2026-10-07-resultado-mas-claro-fusion-fria-madrid-elpais-es.md",
+      "themes": [
+        "Alternative Energy Technologies"
+      ],
+      "concepts": [
+        "cold-fusion",
+        "LENR",
+        "Madrid",
+        "1989",
+        "electrolysis"
+      ],
+      "key_claims": [
+        "\"The clearest result obtained so far\"\n\nTasio Camiñas Esteban / S. Barcia, Madrid - 09 June 1989\n\n, José Manuel Calleja, vice-rector of Research of the Autónoma, stated that it is \"the clearest result of those that have b"
+      ],
+      "cross_refs": [],
+      "source_url": "https://elpais.com/diario/1989/06/09/sociedad/613346401_850215.html"
+    },
+    {
+      "id": "2026-10-07-song-kongzhi-507-institute-superfunction-memoir-zh",
+      "title": "特异功能(507所)研究回忆录 (Song Kongzhi, Memoir of Superhuman-Function Research at Institute 507) (zh->EN)",
+      "authors": [
+        "song-kongzhi"
+      ],
+      "date": "2026-10-07",
+      "language": "zh",
+      "translated": true,
+      "file": "translations/2026-10-07-song-kongzhi-507-institute-superfunction-memoir-zh.md",
+      "themes": [
+        "Consciousness Research"
+      ],
+      "concepts": [
+        "superhuman-functions",
+        "institute-507",
+        "psychokinesis",
+        "china",
+        "memoir",
+        "zhang-baosheng"
+      ],
+      "key_claims": [
+        "Memoir of Research on Superhuman Functions (Institute 507) (Author: Song Kongzhi)\n\nSource: Internet   Author: Unknown\n\nSong Kongzhi and Zhang Baosheng at Institute 507\n\nAuthor: Song Kongzhi. Graduated in 1963 from the De"
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.zhongyf.com/zhuyou/mingren/2022-02-27/129117.html"
+    },
+    {
+      "id": "2026-10-07-su-iki-durumlu-molekuler-yapi-serbestgorus-tr",
+      "title": "Su iki durumlu molekuler yapi — Turkish article on water two-state structure, tr->EN",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "tr",
+      "translated": true,
+      "file": "translations/2026-10-07-su-iki-durumlu-molekuler-yapi-serbestgorus-tr.md",
+      "themes": [
+        "Water Structure & Memory"
+      ],
+      "concepts": [
+        "water",
+        "two-state-structure",
+        "molecular-structure",
+        "physical-chemistry",
+        "quantum-mechanics"
+      ],
+      "key_claims": [
+        "Water, the primary source of humanity and of all biological life on Earth, has been the stage for an unprecedented scientific discovery in the world of physical chemistry and quantum mechanics. Water, until now accepted"
+      ],
+      "cross_refs": []
+    },
+    {
+      "id": "2026-10-07-water-wichelen-radiesthesie-h2o-sept-2016-nl",
+      "title": "Water wichelen en radiësthesie (H2O Sept 2016 companion) (nl->EN)",
+      "authors": [
+        "peter-boorsma"
+      ],
+      "date": "2026-10-07",
+      "language": "nl",
+      "translated": true,
+      "file": "translations/2026-10-07-water-wichelen-radiesthesie-h2o-sept-2016-nl.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power"
+      ],
+      "concepts": [
+        "dowsing",
+        "water-utility",
+        "pipe-location",
+        "practitioners",
+        "H2O-magazine"
+      ],
+      "key_claims": [
+        "Fitter Theo Ruben (Waterbedrijf Groningen) folds dowsing rods from welding wire to trace pipes.",
+        "Paul Atzeni (WML, Limburg) reports best results with a bent knitting needle.",
+        "Ruben notes the rods react inward for one operator and outward for another.",
+        "The article states dowsing has never been scientifically demonstrated.",
+        "Sceptics quoted attribute the effect to amplification of small hand movements."
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.h2owaternetwerk.nl/images/H2O_Sept._16_Wichelroede.pdf"
+    },
+    {
+      "id": "2026-10-07-wyklady-2026-radiestezja-xxi-wieku-wojtkowiak-pl",
+      "title": "Wyklady 2026: Radiestezja XXI wieku (Advanced Torsion-Field Lectures 2026) (pl->EN)",
+      "authors": [
+        "wojtkowiak"
+      ],
+      "date": "2026-10-07",
+      "language": "pl",
+      "translated": true,
+      "file": "translations/2026-10-07-wyklady-2026-radiestezja-xxi-wieku-wojtkowiak-pl.md",
+      "themes": [
+        "Radionics, Radiesthesia & Shape Power",
+        "Plasma, Torsion & Cosmology"
+      ],
+      "concepts": [
+        "radiesthesia",
+        "torsion-fields",
+        "lectures",
+        "diana-wojtkowiak",
+        "torsionfield.eu"
+      ],
+      "key_claims": [
+        "Torsion field\nSearch\nSearch for:\nLectures 2026\nLectures 2026\nWarsaw\n26-27 September 2026\n\"Radiesthesia of the 21st Century\"\nDr Diana Wojtkowiak\nTopics:\nSubtle interactions, particles of the torsion field\nQuantised radiat"
+      ],
+      "cross_refs": [],
+      "source_url": "http://www.torsionfield.eu/?page_id=342"
+    },
+    {
+      "id": "2026-10-07-ziva-voda-latyshev-elektrolyza-psychotronika-cs",
+      "title": "Živá voda (Living Water) — Klub psychotroniky a UFO (cs->EN)",
+      "authors": [
+        "latyshev"
+      ],
+      "date": "2026-10-07",
+      "language": "cs",
+      "translated": true,
+      "file": "translations/2026-10-07-ziva-voda-latyshev-elektrolyza-psychotronika-cs.md",
+      "themes": [
+        "Water, Life & Biology"
+      ],
+      "concepts": [
+        "living-water",
+        "dead-water",
+        "electrolysis",
+        "catholyte",
+        "anolyte",
+        "latyshev"
+      ],
+      "key_claims": [
+        "Latyshev electrolysis: catholyte ('living water') claimed to aid wounds and plants; anolyte ('dead water') to disinfect.",
+        "Catholyte pH can reach about 11; anolyte pH can fall to about 3.",
+        "Salt content drives calcium and magnesium precipitates; iron hydroxide makes catholyte brownish.",
+        "Entry says the anode should be pure carbon, not stainless steel, which dissolves chromium and yellows the solution.",
+        "Cites Petz et al., Casopis lekaru ceskych 114, 163, 1975."
+      ],
+      "cross_refs": [],
+      "source_url": "https://www.psychotronika.cz/x_zivo.htm"
     }
   ],
-  "last_updated": "2026-10-07T08:30:00Z",
+  "last_updated": "2026-10-07T16:10:00Z",
   "research": [
     {
       "title": "Electromagnetic Fields and the Memory of Water: A Challenge That Continues",
