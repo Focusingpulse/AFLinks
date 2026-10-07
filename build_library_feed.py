@@ -1369,6 +1369,12 @@ def main():
         # same Rome Coherence meeting article as the DB keeper.
         "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it.md":
             "2026-09-11-electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues-it.md",
+        # 2026-10-07 (Drunvalo, translation-QC): folded 2026-10-07 QC pair —
+        # same chercheursduvrai.fr Tesla radiant-energy patent analysis as the
+        # 09-10 DB keeper; the DB-alignment pass misses it (only 3 shared
+        # tokens: brevets/brevet and radiante/rayonnante differ).
+        "2026-09-11-analyse-brevets-tesla-energie-radiante-fr.md":
+            "2026-09-10-analyse-des-sch-mas-de-brevet-de-tesla-sur-l-nergie-rayonnan-fr.md",
     }
     _aliased = 0
     for _tw in translation_works:
