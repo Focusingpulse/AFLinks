@@ -1,0 +1,58 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-07T16:10:00Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": {
+    "translations_checked": "translations/ retired (publish boundary); QC on research-index, person-index, library_feed",
+    "standing_checks": {
+      "same_file_dupes": 0,
+      "unknown_dates": 0,
+      "dangling_cross_refs": 0,
+      "person_works_dangling": 0,
+      "feed_same_file_dupes": 0,
+      "feed_mojibake": "0 (earlier regex hit was false positive on legit Portuguese 'SÃO'; precise pattern clean)",
+      "junk_titles": 0
+    },
+    "fixes": [
+      "FOLDED magnitsky-gravity-compressible-ether-ru (09-07 stub) into magnitsky-gravity-in-compressible-oscillating-ether-theory-ru — same paper, verified by fetching newinflow pub28.pdf (= Complex Systems 2019 #4, Magnitsky N.A.)",
+      "FOLDED analyse-brevets-tesla-energie-radiante-fr (09-11) into analyse-des-sch-mas-de-brevet-de-tesla-sur-l-nergie-rayonnan-fr (09-10) — same chercheursduvrai.fr Tesla-patents source, excerpt-confirmed; tesla person ref remapped",
+      "LINKED geometria-sacra-del-suono en (08-29 Forge translation) <-> it (09-28) with mutual cross_refs; added toba60 author to it entry",
+      "NORMALIZED 11 underscore person ids to hyphenated (bauman-paul, centre-ganesha, de-belizal, de-broglie, ecoute-energetique, gray-edwin, lehmann-elisabeth, majorana-salvatore, safe-vortex, schneider-r, valerie-hunt); 18 refs updated",
+      "REMOVED orphaned junk person ',-orcid-0009-0007-1064-2014' (parse artifact, zero refs)",
+      "NOT folded: radiestezja od-podstaw vs mentalna (distinct Sitkowski books); magnitsky pair resolved this run"
+    ],
+    "db_additions": {
+      "works_added": 20,
+      "works_batch": "Forge 2026-10-07 (cs/pl/nl/tr/zh/es/hu/it/de/uk/ja/pt): Latyshev living-water, Wojtkowiak 2026 lectures, H2O water-dowsing, tr water two-state, Song Kongzhi Institute-507 memoir, El País 1989 Madrid cold fusion, Brunda dowsing FAQ, AIR radiesthesia history, Balck Radiästhesie Teil 5, Przekrój Schauberger (Waraxa), URV submerged-pendulum wave energy, TNO 1955 dowsing-in-agriculture, magnetogenesis (hu), In-canto Lapidum medieval stone music, Tesla-turbine generator (uk), Coats Energías Vivas, Ibaraki effective-gravity, morphogenetic fields (pt), biodynamic preparations microbial activity (it), Serna structured water (es)",
+      "persons_added": [
+        "latyshev",
+        "peter-boorsma",
+        "song-kongzhi",
+        "monika-waraxa",
+        "callum-coats",
+        "carlos-serna"
+      ],
+      "persons_linked": [
+        "wojtkowiak",
+        "brunda",
+        "balck",
+        "schauberger x2",
+        "tesla"
+      ]
+    },
+    "index_sizes": {
+      "works": 532,
+      "persons": 436
+    },
+    "commits": {
+      "research-index": "bb4e02660",
+      "person-index": "c26e0c036"
+    },
+    "method": "Contents API (repo exceeds sandbox disk; clone impossible)"
+  }
+}
