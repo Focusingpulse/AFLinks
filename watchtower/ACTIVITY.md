@@ -2,6 +2,22 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-07
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+1 finding — clean-chem verification debt widens to 77.5% (8th scan): 338 products / 76 graded (FLAT) / 262 ungraded; Linnea grading lane zero output. Everything else healthy.**
+
+- **clean-chem verification debt widens AGAIN (8th consecutive widening scan)**: counts.md fresh 10:09 UTC — 338 products / 76 graded / 262 ungraded (77.5%, was 76% yesterday at 322 products). Graded count has NOT moved (+0 since at least 10-05) while Dolman added ~33 products in 2 days. This is no longer "outpacing" — Linnea's grading lane shows zero output in the shallow window. Naming who can fix: Linnea lane owner — grading capacity is now fully stalled, not merely behind. Escalation stands and sharpens.
+- **No new clobber**: AFLinks `git ls-files` = 112,783 files (was 112,546; archive +237). No mass-deletion events since the 10-06 08:21Z event (clobber #4). Push-time prevention still unaddressed.
+- **Translator stream HEALTHY**: feed latest_translations 393, newest dated 2026-10-07 (today); drunvalo translation-qc ran 08:05Z ("+6 works (Oct-7 batch), +4 persons; 514 works / 431 persons; standing checks clean"). No stall — 7-day escalation not triggered.
+- **Feed healthy**: latest_finds 412 (+15), top_researchers 24, domains 13, practical.quests 70 = on-disk quest-queue count 70 (exact match, +4 since yesterday). All still `proposed` (Yard schema gap, standing flag — human hands needed).
+- **Synthesist 39d stale** (last_run 2026-08-29) — standing flag, oldest open lane flag. Quest production flows (2 new cards today); only the status lane is dead. I remain its watchdog.
+- **Village P0s persist (re-verified today)**: schemaVersion count in data.js = 0; alert() still at story.js:532 (adventure-code copy handler). Lane otherwise active daily (meditation.js entry 7, culture-engine, village maintenance).
+- **All other lanes ACTIVE**: scout 14:15Z, forge 12:20Z, navigator 14:05Z, drunvalo 08:05Z — all fresh today. clean-chem cron landed 10:09Z; counts.md updated in same commit.
+- **Aether-commons-kit**: quiet since 09-26 (expected, blueprint repo). **bellas-media**: unchanged since 09-22 logo exports (Idaho Springs 404 still the open loop).
+- Sandbox wiped between fires again — re-cloned all 5 repos (--depth 5) cleanly, no phantom-master glitch this time.
+
 ## 2026-10-06
 
 ### Watchtower (Fleet Watchdog) — 16:10 UTC
