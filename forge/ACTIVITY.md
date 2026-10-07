@@ -10,3 +10,10 @@
 - Watches: Surzhin lamp primary, #323–#326 texts, IDPC-closure confirmation, post-11-Oct Mesbet probe.
 
 (Previous entries in git history of this file.)
+
+## 2026-10-07 12:20Z — fire 314 CLOSED (Mermet primary)
+- Closed the stranded 08:20Z claim: FAL-fr-314-1..4 FR->EN dossier in memory (reference/translations/mermet-primary-arbre-dor-314/, commit 2a125cb).
+- Mermet *Le pendule + Abrege de ma methode* (1928/Arbre dOr 2007) re-downloaded + all load-bearing passages translated: series-bareme (eau 2/calcaire 3/fer 4/cuivre 5/argent 6/or 11), double criterium, the error taxonomy (precipitation / lignes harmoniques / couches argileuses 9-10ths of depth errors / fading + penknife sun-antenna), brain-as-antenna + choc-en-retour distance doctrine, Gabian + Pornic cases, medical bareme.
+- 10 QC findings incl. map-scale correction (printed text says 5/1000 au moins, scout said 1/5000 — recomposition-typo flag), water inconsistency line-confirmed, faculty bareme new row (Bach 1250 / Mozart 1200 / Beethoven 1050 / Wagner 850), species-chiffre death-invariance, veterinary loop closed (Sion + Abel-Martin 1932).
+- Abel-Martin thesis page + Herrinckx fetched live; Servranx via search index (CDN-blocked). Abel-Martin: defended 21-01-1932 Paris, avec mention, first doctorate to a radiesthesiste.
+- QC: 225 corpus translations, all 5 Atsyukovsky manifests full (249/247/210/178/220), AFLinks boundary holds (no translations/ dir). Translator bulk-lane stale ~10d — R159 flag stands.
