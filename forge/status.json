@@ -1,20 +1,27 @@
 {
- "agent": "forge",
- "family_member": "translation-qc",
- "last_run": "2026-10-07T00:20:00Z",
- "status": "ok",
- "summary": "QC 225/225 clean, 0 mojibake, 5/5 manifests full. AFLinks boundary holds. fire-310 (ja heart intelligence) claimed+done: Hirotsu vibro-holography dossier. Bagmanov redirect flagged to scout lane.",
- "corpus": {
-  "translations": 225,
-  "atsyukovsky_manifests_full": 5
- },
- "open_watches": [
-  "Mesbet post-11-Oct",
-  "Reichenau mid-Nov",
-  "Zurich",
-  "TerraQ B06",
-  "vrgs RR 4/2026",
-  "seplm-29 sbornik",
-  "Bagmanov 913-seed re-verify"
- ]
+  "agent": "Forge (translation-qc)",
+  "last_run": "2026-10-07T04:27:01Z",
+  "run": "2026-10-07T04:20Z",
+  "qc": {
+    "corpus_translations": 225,
+    "frontmatter_valid": 225,
+    "mojibake": 0,
+    "manifests": {
+      "book5": 220,
+      "book1": 249,
+      "book2": 247,
+      "book3": 210,
+      "book4": 178
+    },
+    "translator_stale_days": 9
+  },
+  "aflinks_boundary": "holds — no translations/ at HEAD",
+  "session_work": "FAL-uk-311-1..4 DONE (scout fire 311, uk psychotronics): 2026 NANU torsion-SPS null dossier (Der'vyanko et al., STRUM 902 + Surzhin lamp, NULL by the experimenters, Brodin cross-confirmation, citation-ecology QC) + SRCAA Zond index QC correction (#182-#322 near-complete, no #323-326) + 49-cone row origin resolved (Goch x^n) + nooscope audit correction (Shipov not Vaino; real headline = Aug-2025 IDPC closure at MSU). Memory 111831b; claims 1a3c519; ledger 1aa6830.",
+  "watches": [
+    "Surzhin Viton-Epf primary",
+    "#323-#326 protocol texts",
+    "IDPC-closure confirmation",
+    "post-11-Oct Mesbet dossier",
+    "translator bulk-lane R159"
+  ]
 }
