@@ -1,5 +1,37 @@
 # Drunvalo Activity Log
 
+## 2026-10-07 20:05 UTC — aetherforce-translation-qc
+
+**Status**: ✅ OK
+
+**Task**: Translation QC cron (4h, cloud sandbox)
+
+### Context
+Contents-API-only path (clone exceeds sandbox disk — standing). `translations/` retired by design (publish boundary); QC targeted the DB indexes, library_feed, and the feed builder. Verified the 16:00 run's changes all survived (6 new persons present, both folds holding, 0 underscore ids, Oct-7 batch in DB).
+
+### QC Results
+| Check | Result | Status |
+|-------|--------|--------|
+| Same-file duplicate groups (DB) | 0 | ✅ |
+| Title-similarity / containment candidates | 3 → 0 folds (2 cross-linked, 1 false positive) | ✅ |
+| date=="unknown" sweep | 0 | ✅ |
+| Junk ids/titles | 0 | ✅ |
+| Dangling cross_refs | 0 | ✅ |
+| Unresolvable person→work refs | 0 | ✅ |
+| Feed mojibake (precise pattern) | 0 | ✅ |
+| Feed same-file dupes | 0 | ✅ |
+| Newest feed entries not in DB | 6 (Forge Oct-7 batch) | ➕ Added |
+| Stale feed variant of folded work | 1 (brevets-tesla 09-11) | 🔧 Builder alias |
+| Source URL verification | 5/6 HTTP 200; 1 anti-bot 403 | ✅ |
+
+### Fixes Applied
+- **+6 works** to research-index (538): Iguchi (ja, scalar/Tesla-wave longitudinal EM theory), Paolo Villani (it, Cagliari PhD thesis on anomalous nuclear reactions / LENR), Bernard Ledein (fr, Egyptian pendulum & pyramid), Memory-of-water EZ/body-voltage (ko, Quantum Nutrition-5), György Egely (hu, autobiography), Hall dos Reis (pt, Gizmodo magnet-generator news)
+- **+5 persons** (441): iguchi, paolo-villani, bernard-ledein, egely-gyorgy, hall-dos-reis
+- **Cross-linked 2 work pairs** (distinct translations, no fold): de Belizal & Morel *Physique Micro-Vibratoire* fr-en ↔ fr; Goethe scientific-works course intro ↔ full course
+- **Builder alias**: stale feed entry `2026-09-11-analyse-brevets-tesla-energie-radiante-fr.md` → 09-10 keeper (the pair folded at 16:00; the DB-alignment pass missed it — brevets/brevet + radiante/rayonnante token mismatch leaves only 3 shared tokens, below the ≥4 floor)
+- Index sizes after: **538 works, 441 persons**
+
+
 ## 2026-10-06 08:10 UTC — aetherforce-translation-qc
 
 **Status**: ✅ OK
