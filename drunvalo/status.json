@@ -2,15 +2,15 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-07T16:10:00Z",
+    "timestamp": "2026-10-07T20:05:00Z",
     "status": "ok",
-    "summary": "folded 2 dup pairs (magnitsky ru, tesla-brevets fr \u2014 both source-verified); +20 works (Forge Oct-7 batch), +6 persons; 11 underscore person ids normalized; ORCID artifact removed; 532 works / 436 persons"
+    "summary": "+6 works (Forge Oct-7 batch: iguchi ja scalar-wave, villani it LENR thesis, ledein fr egyptian-pendulum, memory-of-water ko, egely-gyorgy hu autobiography, hall-dos-reis pt gizmodo), +5 persons; cross-ref'd belizal-morel + goethe pairs; builder alias for stale brevets-tesla feed entry; 538 works / 441 persons; standing checks clean"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 436,
-  "works": 532,
-  "notes": "Clone too big for disk \u2014 Contents API fallback",
+  "persons": 441,
+  "works": 538,
+  "notes": "Clone too big for disk — Contents API fallback",
   "runs": [
     {
       "cron": "aetherforce-translation-qc",
@@ -23,6 +23,12 @@
       "timestamp": "2026-10-07T16:10:00Z",
       "status": "ok",
       "summary": "folded 2 dup pairs (magnitsky ru, tesla-brevets fr); +20 works, +6 persons; 11 underscore ids normalized; 532 works / 436 persons"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-07T20:05:00Z",
+      "status": "ok",
+      "summary": "+6 works (Forge Oct-7 batch: iguchi ja scalar-wave, villani it LENR thesis, ledein fr egyptian-pendulum, memory-of-water ko, egely-gyorgy hu autobiography, hall-dos-reis pt gizmodo), +5 persons; cross-ref'd belizal-morel + goethe pairs; builder alias for stale brevets-tesla feed entry; 538 works / 441 persons; standing checks clean"
     }
   ]
 }
