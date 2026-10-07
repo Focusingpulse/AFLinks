@@ -452,6 +452,35 @@ def main():
             except Exception as e:
                 print(f"  DOCX-ERR: {e}")
                 preview = ""
+        elif ext == '.doc':
+            # Legacy binary MS-Word .doc text extraction via libreoffice headless
+            # (antiword/catdoc not installed on cloud). Converts to txt in a temp
+            # dir, reads first 2000 chars. Covers archives serving old .doc files
+            # (e.g. buch-der-synergie.de) without shelling to Windows.
+            try:
+                doc_path = tempfile.mktemp(suffix='.doc')
+                doc_data = subprocess.run(['curl','-s','-L','--max-time','40','-A',get_ua(site_name), url], capture_output=True, timeout=50).stdout
+                if doc_data:
+                    with open(doc_path, 'wb') as fh:
+                        fh.write(doc_data)
+                    outdir = tempfile.mkdtemp(prefix='doc2txt_')
+                    r = subprocess.run(['libreoffice','--headless','--convert-to','txt:Text (encoded):UTF8','--outdir',outdir,doc_path],
+                                       capture_output=True, timeout=60)
+                    txt_name = os.path.splitext(os.path.basename(doc_path))[0] + '.txt'
+                    txt_path = os.path.join(outdir, txt_name)
+                    if os.path.exists(txt_path):
+                        with open(txt_path, 'r', encoding='utf-8', errors='replace') as fh:
+                            preview = re.sub(r'\s+', ' ', fh.read()).strip()[:2000]
+                    try:
+                        import shutil
+                        shutil.rmtree(outdir, ignore_errors=True)
+                    except Exception:
+                        pass
+                if os.path.exists(doc_path):
+                    os.unlink(doc_path)
+            except Exception as e:
+                print(f"  DOC-ERR: {e}")
+                preview = ""
         elif ext == '.pptx':
             # OOXML slide-deck text extraction via zip+XML (no external deps).
             # Slide text lives under ppt/slides/slideN.xml as <a:t> runs.
