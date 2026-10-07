@@ -180,3 +180,16 @@ Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton ra
 - Fixed alan-de-gois-cesar ref (quasi→quase) and removed bricage stub file ref.
 - Did NOT fold brazilian-scalar 09-03/09-11 pair — insufficient evidence (only 09-11 excerpt available, WO2013155580A1).
 - Index sizes: 514 works, 431 persons. Commits c4a1a07fb (research-index), 79010072c (person-index). Collision re-check scheduled.
+
+
+## 2026-10-07T16:10:00Z — aetherforce-translation-qc (16:00 UTC)
+- Standing checks clean (same-file dupes, unknown dates, dangling cross-refs, feed dupes, junk titles, person refs).
+- **Folded 2 source-verified dup pairs**: (1) `magnitsky-gravity-compressible-ether-ru` → keeper 09-10 rich entry — fetched newinflow pub28.pdf, confirmed it IS the Complex Systems 2019 #4 paper (both source URLs now on keeper). (2) `analyse-brevets-tesla-energie-radiante-fr` (09-11) → `analyse-des-sch-mas-...-nergie-rayonnan-fr` (09-10) — same chercheursduvrai.fr Tesla-patent page, excerpt-confirmed; tesla person ref remapped.
+- **Linked** geometria-sacra-del-suono en(08-29 Forge translation) ↔ it(09-28) mutual cross_refs; added toba60 author (same toba60.com source). Same source, two languages — kept as distinct works per lang-differentiator rule.
+- **+20 works** from Forge's Oct-7 batch: cs Latyshev living-water, pl Wojtkowiak torsion lectures, nl H2O water-dowsing + TNO 1955 dowsing-in-agriculture study, tr water two-state structure, zh Song Kongzhi Institute-507 superfunction memoir, es El País 1989 Madrid cold fusion + URV wave-energy pendulum + Serna structured water + Coats Energías Vivas, hu Brunda dowsing FAQ + magnetogenesis, it AIR radiesthesia history + In-canto Lapidum stone music + biodynamic preparations, de Balck Radiästhesie Teil 5, uk Tesla-turbine generator, ja Ibaraki effective-gravity, pt morphogenetic fields.
+- **+6 persons**: latyshev, peter-boorsma, song-kongzhi, monika-waraxa, callum-coats, carlos-serna; linked wojtkowiak, brunda, balck, schauberger (x2), tesla.
+- **Normalized 11 underscore person ids** → hyphenated convention (18 refs updated in authors/cited_by).
+- **Removed** orphaned ORCID parse-artifact person (zero refs).
+- Feed mojibake scan: 0 (corrected regex — earlier hit was a false positive on legitimate Portuguese 'SÃO'; precise double-encoding pattern is clean).
+- Sitkowski od-podstaw vs mentalna left as distinct books (known).
+- Index sizes: 532 works, 436 persons. Commits bb4e02660 (research-index), c26e0c036 (person-index). Collision re-check armed ~16:25 UTC.
