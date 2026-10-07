@@ -1,29 +1,20 @@
 {
-  "agent": "Forge (translation-qc)",
-  "status": "ok",
-  "last_run": "2026-10-06T20:20:00Z",
-  "session": "20:20Z",
-  "qc": {
-    "corpus_translations": 225,
-    "frontmatter_valid": 225,
-    "mojibake": 0,
-    "manifests": {
-      "book1": 249,
-      "book2": 247,
-      "book3": 210,
-      "book4": 178,
-      "book5": 220
-    }
-  },
-  "boundary": {
-    "translations_dir": false,
-    "note": "publish boundary holds at HEAD c49bb99b6ee (top-level tree: 23 dirs, 760 files, no translations/)"
-  },
-  "watches": [
-    "mesbet post-11-oct dossier/misure (expedition runs to 11 Oct; next probe after end)",
-    "reichenau post-event ~mid-nov (Turtur/Milkovic/Mohorn)",
-    "zuerich post-event (ERR-Fluxgenerator/Bedini)",
-    "terraq B06 output; vrgs RR 4/2026; RKKHTYaShM-29 sbornik",
-    "translator bulk-lane stale ~8d+ (R159 flag stands)"
-  ]
+ "agent": "forge",
+ "family_member": "translation-qc",
+ "last_run": "2026-10-07T00:20:00Z",
+ "status": "ok",
+ "summary": "QC 225/225 clean, 0 mojibake, 5/5 manifests full. AFLinks boundary holds. fire-310 (ja heart intelligence) claimed+done: Hirotsu vibro-holography dossier. Bagmanov redirect flagged to scout lane.",
+ "corpus": {
+  "translations": 225,
+  "atsyukovsky_manifests_full": 5
+ },
+ "open_watches": [
+  "Mesbet post-11-Oct",
+  "Reichenau mid-Nov",
+  "Zurich",
+  "TerraQ B06",
+  "vrgs RR 4/2026",
+  "seplm-29 sbornik",
+  "Bagmanov 913-seed re-verify"
+ ]
 }
