@@ -2,8 +2,8 @@
   "_about": {
     "version": "0.1.0",
     "description": "Research index for the Aetherforce Living Library. Links works to themes, concepts, and cross-references. Maintained by Synthesist.",
-    "last_updated": "2026-10-05",
-    "note": "QC 2026-09-29 (Drunvalo): added 32 works from the 09-28/09-29 translation batch that were in library_feed but missing from the DB (Zakharov/Mosyagina water clusters, Shipov x2, Pavlita x2, Osaka x2, Schauberger x2, Atsyukovsky German ed., Besson RGH analyses, plus water-structure, biodynamic, sacred-geometry and free-energy sources in NL/CS/JA/SR/AR/PL/PT/ES/EL). Added 15 persons (Zakharov, Mosyagina, Bartušek, Šejvl, Pavlita, Rukhadze, Epanchintseva, Osaka, Wojtkowiak, Kretschmer, Lorenc, Göbel, Bockemühl, Rang, Grander); extended works_in_collection for Shipov, Atsyukovsky, Grachev, Besson, Ponce de León, Pollack, Schauberger, Tesla. QC 2026-09-28 (Drunvalo): folded 3 duplicate works (akimov-shipov 09-18 re-emission of the trinitas.ru article, schauberger water-blood 09-11 date-variant, acqua-viva 09-06/09-10 pair); added 10 works from the 09-27 translation batch that were in library_feed but missing from the DB (vysotsky-kornilova water memory, tesla turbine, servranx radionique, IET flow technology, radiesthesie, pugach tors"
+    "last_updated": "2026-10-07",
+    "note": "QC 2026-10-07 08:00 UTC (Drunvalo): folded bricage cross-convention dupe (bricage-afscet-dowsing-protocol-fr-en -> 2026-10-04-bricage-dowsing-meta-analysis-fr, same AFSCET 2025 paper); added 6 works from the Oct-7 Forge batch (SENTERIS/Varvoglis+Dullin, CEPES, Risy NOTES 6, Levent Aslan on Kozyrev, CIA holographic mind, Korean OpenWiki cold fusion); fixed alan-de-gois-cesar quasi->quase ref; 4 new persons."
   },
   "works": [
     {
@@ -5120,24 +5120,6 @@
         "Long-term DOC trial and viticulture comparisons report humus buildup and quality differences vs organic/conventional farming",
         "Epistemology: goethean science as participatory, on-farm research lineage dating to the 1930s experimental circle"
       ],
-      "cross_references": [],
-      "status": "translated",
-      "cross_refs": [],
-      "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
-    },
-    {
-      "id": "bricage-afscet-dowsing-protocol-fr-en",
-      "title": "Bricage AFSCET 2025 — Testing Dowsing Practice (fr→en)",
-      "authors": [],
-      "date": "2026-09-18",
-      "language": "English",
-      "translated": true,
-      "file": "translations/2026-09-18-bricage-afscet-dowsing-protocol-fr-en.md",
-      "themes": [],
-      "concepts": [
-        "radiesthesia"
-      ],
-      "key_claims": [],
       "cross_references": [],
       "status": "translated",
       "cross_refs": [],
@@ -11743,18 +11725,16 @@
         "Methodology of Science"
       ],
       "concepts": [
-        "radiesthesia",
         "dowsing",
-        "meta_analysis"
+        "meta_analysis",
+        "radiesthesia"
       ],
       "key_claims": [
         "Bricage's 2025 AFSCET paper on testing dowsing practice as a prediction method"
       ],
       "cross_references": [],
       "status": "translated",
-      "cross_refs": [
-        "bricage-afscet-dowsing-protocol-fr-en"
-      ],
+      "cross_refs": [],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry. Added by Drunvalo QC 2026-10-05. Possible re-emission of 'bricage-afscet-dowsing-protocol-fr-en' (2026-09-18) — same AFSCET 2025 conference; flagged for fold at next QC if confirmed."
     },
     {
@@ -14558,9 +14538,170 @@
         "water-consciousness-field-convergence",
         "del-giudice-pollack-fourth-phase-of-water-it"
       ]
+    },
+    {
+      "id": "2026-10-07-rapport-2e-etude-senteris-imi-fr",
+      "title": "Rapport d'une 2e étude avec le centre SENTERIS (Piraeus, June 2023) (fr→EN)",
+      "authors": [
+        "mario-varvoglis",
+        "eric-dullin"
+      ],
+      "date": "2026-10-07",
+      "language": "fr",
+      "translated": true,
+      "file": "translations/2026-10-07-rapport-2e-etude-senteris-imi-fr.md",
+      "source_url": "https://www.metapsychique.org/wp-content/uploads/2023/12/Rapport-Senteris-23.pdf",
+      "themes": [
+        "Consciousness Research",
+        "Methodology of Science"
+      ],
+      "concepts": [
+        "parapsychology",
+        "psychokinesis",
+        "SENTERIS",
+        "Institut Métapsychique International"
+      ],
+      "key_claims": [
+        "Report of the second IMI study with the SENTERIS centre (Piraeus, Greece, June 2023), a series of experiments with a SENTERIS subject",
+        "Conducted by Mario Varvoglis and Eric Dullin under the Institut Métapsychique International"
+      ],
+      "cross_refs": []
+    },
+    {
+      "id": "2026-10-07-psychoenergetika-v-cr-cepes-cs",
+      "title": "Psychoenergetics in the Czech Republic — ČEPES (Czech Psychoenergetic Society) (cs→EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "cs",
+      "translated": true,
+      "file": "translations/2026-10-07-psychoenergetika-v-cr-cepes-cs.md",
+      "source_url": "https://www.cepes.cz/psychoenergetika/v-cr/",
+      "themes": [
+        "Consciousness & Subtle Energy",
+        "History of Science"
+      ],
+      "concepts": [
+        "psychoenergetics",
+        "psychotronics",
+        "ČEPES",
+        "Czech Republic"
+      ],
+      "key_claims": [
+        "Overview of ČEPES, the Czech Psychoenergetic Society, a non-profit affiliated with the Czech Scientific and Technical Society (ČSVTS)",
+        "Describes the origin and purpose of the society and psychoenergetics research in the Czech Republic"
+      ],
+      "cross_refs": []
+    },
+    {
+      "id": "2026-10-07-notes6-experience-trous-de-young-risy-fr",
+      "title": "NOTES 6 — L'expérience des trous de Young (The Young's Holes Experiment — Appendices) (fr→EN)",
+      "authors": [
+        "daniel-risy"
+      ],
+      "date": "2026-10-07",
+      "language": "fr",
+      "translated": true,
+      "file": "translations/2026-10-07-notes6-experience-trous-de-young-risy-fr.md",
+      "source_url": "http://danielrisy.free.fr/NOTES6.pdf",
+      "themes": [
+        "Plasma, Torsion & Cosmology",
+        "Radionics, Radiesthesia & Shape Power"
+      ],
+      "concepts": [
+        "torsion fields",
+        "Young's holes experiment",
+        "radiesthesia witnesses",
+        "experimental methodology"
+      ],
+      "key_claims": [
+        "Appendices to the Young's holes experiment using torsion-field witnesses (CTd right torsion field, Td right clover witness, CTg left torsion field)",
+        "Documents Daniel Risy's experimental notation and witness methodology"
+      ],
+      "cross_refs": []
+    },
+    {
+      "id": "2026-10-07-kozyrev-ether-science-of-time-leventaslan-tr",
+      "title": "Russian Physicist Nikolai A. Kozyrev: Ether and the Science of Time (tr→EN)",
+      "authors": [
+        "levent-aslan"
+      ],
+      "date": "2026-10-07",
+      "language": "tr",
+      "translated": true,
+      "file": "translations/2026-10-07-kozyrev-ether-science-of-time-leventaslan-tr.md",
+      "source_url": "https://www.leventaslan.com/tr-TR/bilimsel/rus-fizikci-nikolai-a-kozyrev-ile-eter-ve-zaman-bilimi",
+      "themes": [
+        "Aether, Light & Electricity",
+        "History of Science"
+      ],
+      "concepts": [
+        "Nikolai Kozyrev",
+        "ether",
+        "science of time",
+        "aether medium"
+      ],
+      "key_claims": [
+        "Turkish-language overview of Kozyrev's ether concept and the science of time",
+        "Discusses the ether as the invisible energy medium and its role in space science"
+      ],
+      "cross_refs": [
+        "kozyrev-experimental-science-of-time-ru"
+      ]
+    },
+    {
+      "id": "2026-10-07-declassified-cia-holographic-mind-earth-chronicles-ru",
+      "title": "Declassified CIA Documents: The Human Mind is a Hologram (Earth Chronicles, ru→EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "ru",
+      "translated": true,
+      "file": "translations/2026-10-07-declassified-cia-holographic-mind-earth-chronicles-ru.md",
+      "source_url": "https://earth-chronicles.ru/news/2026-07-21-193664",
+      "themes": [
+        "Consciousness Research"
+      ],
+      "concepts": [
+        "CIA declassified documents",
+        "holographic mind",
+        "universal hologram",
+        "consciousness"
+      ],
+      "key_claims": [
+        "Collection of four declassified US government documents presenting the human mind as a hologram that tunes in to the universal hologram",
+        "Published by Earth Chronicles (earth-chronicles.ru), 2026-07-21"
+      ],
+      "cross_refs": [
+        "universal-hologram-cosmic-information"
+      ]
+    },
+    {
+      "id": "2026-10-07-cold-fusion-openwiki-ko",
+      "title": "Cold Fusion (Korean OpenWiki overview) (ko→EN)",
+      "authors": [],
+      "date": "2026-10-07",
+      "language": "ko",
+      "translated": true,
+      "file": "translations/2026-10-07-cold-fusion-openwiki-ko.md",
+      "source_url": "https://openwiki.kr/tech/cold_fusion",
+      "themes": [
+        "Alternative Energy Technologies",
+        "Challenges to the Standard Model"
+      ],
+      "concepts": [
+        "cold fusion",
+        "LENR",
+        "nickel",
+        "palladium",
+        "excess energy"
+      ],
+      "key_claims": [
+        "Korean OpenWiki overview of cold fusion: hydrogen reacting with metals such as nickel, palladium and potassium to produce energy",
+        "Frames cold fusion as a branch of solid-state nuclear phenomena"
+      ],
+      "cross_refs": []
     }
   ],
-  "last_updated": "2026-10-07T04:20:00Z",
+  "last_updated": "2026-10-07T08:30:00Z",
   "research": [
     {
       "title": "Electromagnetic Fields and the Memory of Water: A Challenge That Continues",
