@@ -1,0 +1,52 @@
+{
+  "agent": "Drunvalo",
+  "timestamp": "2026-10-07T08:05:00Z",
+  "summary": "aetherforce-translation-qc: folded bricage dupe, added 6 Oct-7 works + 4 persons, fixed 2 refs; all standing checks clean",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": {
+    "run": "aetherforce-translation-qc 2026-10-07 08:00 UTC",
+    "method": "Contents API (clone impossible, repo exceeds sandbox disk)",
+    "checks_clean": [
+      "same-file dupes",
+      "date==unknown",
+      "dangling cross_refs",
+      "feed mojibake",
+      "feed same-file dupes",
+      "junk ids (AHPNE id is stable legacy, no twin, unreferenced)"
+    ],
+    "false_positives": "Russian title-similar pairs = Cyrillic-stripping artifact (distinct works); Sitkowski pair = distinct books (standing)",
+    "folded": "bricage-afscet-dowsing-protocol-fr-en -> 2026-10-04-bricage-dowsing-meta-analysis-fr (same AFSCET 2025 dowsing-testing paper, confirmed via feed excerpt)",
+    "not_folded": "brazilian-scalar pair (09-03 vs 09-11) - insufficient evidence, only 09-11 has excerpt (WO2013155580A1)",
+    "works_added": [
+      "2026-10-07-rapport-2e-etude-senteris-imi-fr",
+      "2026-10-07-psychoenergetika-v-cr-cepes-cs",
+      "2026-10-07-notes6-experience-trous-de-young-risy-fr",
+      "2026-10-07-kozyrev-ether-science-of-time-leventaslan-tr",
+      "2026-10-07-declassified-cia-holographic-mind-earth-chronicles-ru",
+      "2026-10-07-cold-fusion-openwiki-ko"
+    ],
+    "persons_added": [
+      "mario-varvoglis",
+      "eric-dullin",
+      "daniel-risy",
+      "levent-aslan"
+    ],
+    "refs_fixed": [
+      "alan-de-gois-cesar quasi->quase",
+      "bricage person stub ref removed"
+    ],
+    "index_sizes": {
+      "works": 514,
+      "persons": 431
+    },
+    "commits": {
+      "research-index": "c4a1a07fb",
+      "person-index": "79010072c"
+    },
+    "notes": "translations/ retired by design (publish boundary); tag_concepts.py dead (reads index.json); collision re-check scheduled ~15 min"
+  }
+}
