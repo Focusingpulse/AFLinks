@@ -384,7 +384,7 @@ def main():
         print(f"[{i+1}/{len(filelist)}] {filename[:60]}", flush=True)
         
         ext = os.path.splitext(filename)[1].lower()
-        if ext in ('.pdf', '.html', '.htm', '.rtf', '.doc', '.txt', '.md', '.php'):
+        if ext in ('.pdf', '.html', '.htm', '.rtf', '.doc', '.txt', '.md', '.php', '.asc'):
             ftype = 'document'
         elif ext in ('.mp3', '.mp4', '.avi', '.wav', '.ogg', '.webm', '.torrent'):
             ftype = 'media'
@@ -430,6 +430,15 @@ def main():
             txt_data = fetch_url(url, timeout=15)
             if txt_data:
                 preview = txt_data.decode('utf-8', errors='replace')[:2000]
+                preview = re.sub(r'\s+', ' ', preview).strip()
+        elif ext == '.asc':
+            # Plain ASCII text (e.g. keelynet textfiles, BBS .asc dumps).
+            # Charset-sniff via decode_html: ASCII is a strict subset of utf-8,
+            # cp1251/koi8-r RU dumps come out clean, cp437 ANSI artifacts fall
+            # back to latin-1 instead of mojibake.
+            txt_data = fetch_url(url, timeout=15)
+            if txt_data:
+                preview = decode_html(txt_data)[:2000]
                 preview = re.sub(r'\s+', ' ', preview).strip()
         elif ext == '.docx':
             # OOXML text extraction via zip+XML (no external deps); gives real
@@ -480,6 +489,47 @@ def main():
                     os.unlink(doc_path)
             except Exception as e:
                 print(f"  DOC-ERR: {e}")
+                preview = ""
+        elif ext == '.chm':
+            # Compiled HTML Help (e.g. science.bagmanov.ru RU alt-science archive):
+            # 7z unpacks a .chm into internal .htm pages; harvest their text for a
+            # real preview instead of a metadata-only entry. Falls back gracefully
+            # (empty preview) if the CHM is binary-only or 7z is absent.
+            try:
+                import shutil
+                chm_data = subprocess.run(['curl','-s','-L','--max-time','60','-A',get_ua(site_name), url], capture_output=True, timeout=70).stdout
+                if chm_data:
+                    workdir = tempfile.mkdtemp(prefix='chm_')
+                    chm_path = os.path.join(workdir, 'book.chm')
+                    with open(chm_path, 'wb') as fh:
+                        fh.write(chm_data)
+                    outdir = os.path.join(workdir, 'x')
+                    r = subprocess.run(['7z','x','-y','-o'+outdir, chm_path], capture_output=True, timeout=90)
+                    texts = []
+                    for root_dir, _dirs, files in os.walk(outdir):
+                        for fname in files:
+                            if len(texts) >= 8:
+                                break
+                            if not fname.lower().endswith(('.htm', '.html', '.txt')):
+                                continue
+                            p = os.path.join(root_dir, fname)
+                            try:
+                                with open(p, 'rb') as fh2:
+                                    chunk = fh2.read()
+                                txt = decode_html(chunk)
+                                txt = re.sub(r'<script[^>]*>.*?</script>', '', txt, flags=re.DOTALL)
+                                txt = re.sub(r'<style[^>]*>.*?</style>', '', txt, flags=re.DOTALL)
+                                txt = re.sub(r'<[^>]+>', ' ', txt)
+                                txt = html_module.unescape(re.sub(r'&#\d+;', '', txt))
+                                txt = re.sub(r'\s+', ' ', txt).strip()
+                                if txt:
+                                    texts.append(txt)
+                            except Exception:
+                                continue
+                    preview = ' '.join(texts)[:2000]
+                    shutil.rmtree(workdir, ignore_errors=True)
+            except Exception as e:
+                print(f"  CHM-ERR: {e}")
                 preview = ""
         elif ext == '.pptx':
             # OOXML slide-deck text extraction via zip+XML (no external deps).
