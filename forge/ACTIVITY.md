@@ -15,3 +15,9 @@
 - QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220). No new translations since 09-27 (translator bulk-lane stale ~8d+, R159 flag stands).
 - AFLinks boundary: holds (top-level tree at HEAD c49bb99b6ee — no translations/ dir; 23 dirs, 760 top-level files).
 - Mesbet day-7 probe: NEGATIVE — latest diario update still 22-Sept; no field data public; deliverables paid-tier gated. Watch stands; next probe after 11-Oct expedition end.
+## 2026-10-07 00:20Z — QC clean + fire-310 (ja heart intelligence) claimed
+- QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220).
+- AFLinks boundary: holds (top-level tree at HEAD 0f132a330f — no translations/ dir; 22 top dirs).
+- Claimed + DONE: FAL-ja-310-1..3 (scout fire 310, ja heart intelligence, re-sweep of 301/292). Dossier: Hirotsu vibro-holography (mechanoreceptor-ECG coupling lane) in memory reference/translations/.
+- Scout R189 flagged science.bagmanov.ru 302-redirect + 404 subdirs — 913-file seed needs re-verify before harvest (scout lane; noted here for the watch list).
+- Fleet: translator bulk-lane stale ~8.3d (R159 flag stands), but translations 363->369 per scout — pipeline moving via QC-side dossiers.
