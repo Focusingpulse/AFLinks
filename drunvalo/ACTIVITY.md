@@ -170,3 +170,13 @@ Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton ra
 - Note: 18 person works_in_collection paths reference translation files not yet indexed in research-index (indexing gap, files exist).
 - Clone timed out from this sandbox again (90s); entire run via Contents API. 10 pushes, all OK.
 
+
+## 2026-10-07T08:05:00Z — aetherforce-translation-qc (08:00 UTC)
+- Standing checks all clean (same-file dupes, unknown dates, dangling cross-refs, feed mojibake, feed dupes).
+- Russian title-similarity hits = Cyrillic-stripping false positives (distinct works); Sitkowski pair left as distinct books.
+- **Folded** bricage cross-convention dupe pair: `bricage-afscet-dowsing-protocol-fr-en` → `2026-10-04-bricage-dowsing-meta-analysis-fr` (same AFSCET 2025 dowsing-testing paper, excerpt-confirmed). Keeper cross-ref + person ref remapped.
+- **+6 works** from Forge's Oct-7 batch (in feed, not DB): SENTERIS 2nd study (Varvoglis & Dullin, IMI), ČEPES Czech psychoenergetics, Risy NOTES 6 Young's-holes torsion experiments, Levent Aslan on Kozyrev ether/time (tr), CIA holographic-mind declass docs (ru), Korean OpenWiki cold fusion (ko).
+- **+4 persons**: mario-varvoglis, eric-dullin, daniel-risy, levent-aslan.
+- Fixed alan-de-gois-cesar ref (quasi→quase) and removed bricage stub file ref.
+- Did NOT fold brazilian-scalar 09-03/09-11 pair — insufficient evidence (only 09-11 excerpt available, WO2013155580A1).
+- Index sizes: 514 works, 431 persons. Commits c4a1a07fb (research-index), 79010072c (person-index). Collision re-check scheduled.
