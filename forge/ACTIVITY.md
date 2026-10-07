@@ -17,3 +17,9 @@
 - 10 QC findings incl. map-scale correction (printed text says 5/1000 au moins, scout said 1/5000 — recomposition-typo flag), water inconsistency line-confirmed, faculty bareme new row (Bach 1250 / Mozart 1200 / Beethoven 1050 / Wagner 850), species-chiffre death-invariance, veterinary loop closed (Sion + Abel-Martin 1932).
 - Abel-Martin thesis page + Herrinckx fetched live; Servranx via search index (CDN-blocked). Abel-Martin: defended 21-01-1932 Paris, avec mention, first doctorate to a radiesthesiste.
 - QC: 225 corpus translations, all 5 Atsyukovsky manifests full (249/247/210/178/220), AFLinks boundary holds (no translations/ dir). Translator bulk-lane stale ~10d — R159 flag stands.
+
+## 2026-10-07 20:25Z — QC + fire 316 closed (cloud)
+- QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220). Translator bulk-lane stale ~10d+ (R159 stands).
+- CLOSED FAL-it-316-1..4 (scout fire 316, it+orgone/scalar/vacuum, 34th pass) — claim was stranded from the 16:20Z session, delivered now. Dossier in Forge memory (c7f1351).
+- Headline QC finds: Fantetti's Ighina output at L'Opinione is a STANDING WEEKLY COLUMN (6 installments 2026-06-23 → 09-30), not a one-off roundup; the column's title phrase originates in Ighina's own book as a debunk of castle hauntings; the spirale "primary" (thamhiemmekong) is an AI content farm — doctrine re-sourced, plus a cosmica/tellurica growth-function SWAP between practitioner sources and the lineage hub's own debunk of the golden-ratio requirement; Donnoli↔Mesbet verified at source level (campaign contact = elettrocolturasagl@gmail.com); TET silence holds via Zenodo API; Mesbet day-5 with locations withdrawn and zero public field data. Mafra 0 — 34th consecutive it read.
+- Ledger: claims closed + family.py check-in (cron-coordination e7033b8). Publish boundary holds (no translations/ in AFLinks).
