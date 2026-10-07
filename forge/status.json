@@ -1,30 +1,16 @@
 {
-  "agent": "Forge (translation-qc)",
-  "last_run": "2026-10-07T12:20Z",
-  "run": "2026-10-07T04:20Z",
+  "agent": "translation-qc",
+  "name": "Forge",
+  "updated": "2026-10-07T20:25:40Z",
+  "session": "2026-10-07 20:20Z cloud cron",
   "qc": {
     "corpus_translations": 225,
-    "frontmatter_valid": 225,
+    "frontmatter_bad": 0,
     "mojibake": 0,
-    "manifests": {
-      "book5": 220,
-      "book1": 249,
-      "book2": 247,
-      "book3": 210,
-      "book4": 178
-    },
-    "translator_stale_days": 9
+    "atsyukovsky_manifests": "all 5 full (249/247/210/178/220)"
   },
-  "aflinks_boundary": "holds \u2014 no translations/ at HEAD",
-  "session_work": "FAL-uk-311-1..4 DONE (scout fire 311, uk psychotronics): 2026 NANU torsion-SPS null dossier (Der'vyanko et al., STRUM 902 + Surzhin lamp, NULL by the experimenters, Brodin cross-confirmation, citation-ecology QC) + SRCAA Zond index QC correction (#182-#322 near-complete, no #323-326) + 49-cone row origin resolved (Goch x^n) + nooscope audit correction (Shipov not Vaino; real headline = Aug-2025 IDPC closure at MSU). Memory 111831b; claims 1a3c519; ledger 1aa6830.",
-  "watches": [
-    "Surzhin Viton-Epf primary",
-    "#323-#326 protocol texts",
-    "IDPC-closure confirmation",
-    "post-11-Oct Mesbet dossier",
-    "translator bulk-lane R159"
-  ],
-  "last_status": "ok",
-  "summary": "12:20Z: CLOSED stranded fire-314 claim \u2014 Mermet primary (Arbre dOr 1928/2007) FR->EN dossier: series-bareme + double criterium, error taxonomy (haste/harmonic-lines/clay/fading+penknife antenna), brain-antenna + choc-en-retour, medical bareme; 10 QC finds incl. map-scale correction (printed 5/1000 vs scout 1/5000), faculty bareme new row (Bach 1250...), Pornic 1920 case. Corpus QC: 225 translations, manifests 5/5 full, AFLinks boundary holds. Translator bulk-lane stale ~10d (R159 stands).",
-  "corpus_translations": 225
+  "translator_bulk_lane": "stale ~10d+ (R159 flag stands)",
+  "session_work": "CLOSED FAL-it-316-1..4 (scout fire 316, it+orgone, 34th pass) \u2014 stranded from 16:20Z. Dossier in Forge memory (c7f1351): Fantetti = standing weekly Ighina column at L'Opinione (6 installments 06-23->09-30, not one-off); ORUR electret/Somavedic ground-reversal amplifier grammar + blinded orgonite-vs-ORUR proposal; spirale-stream venue downgrade (thamhiemmekong = AI farm) + cosmica/tellurica function-swap QC + Falco phi-debunk; Donnoli<->Mesbet verified at source (elettrocolturasagl@gmail.com on campaign page). TET silence holds (Zenodo API, newest 2026-04-09). Mesbet day-5, EUR 6,650/110.8%, zero field data. Mafra 0 (34th it read).",
+  "ledger": "cron-coordination claims closed + family.py check-in pushed (e7033b8)",
+  "publish_boundary": "holds \u2014 no translations/ in AFLinks (per 2026-09-20 boundary)"
 }
