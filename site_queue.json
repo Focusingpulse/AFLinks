@@ -10,7 +10,7 @@
         "/docs/",
         "/WFCProject/"
       ],
-      "notes": "Arend Lammertink's archive - Eric Dollard, Tesla, parametric excitation, patents \u2014 REACTIVATED 2026-09-03: site returned (HTTP 200), was wrongly marked site_down"
+      "notes": "Arend Lammertink's archive - Eric Dollard, Tesla, parametric excitation, patents — REACTIVATED 2026-09-03: site returned (HTTP 200), was wrongly marked site_down"
     },
     {
       "name": "keelynet.com",
@@ -20,9 +20,9 @@
       "crawl_paths": [
         "/"
       ],
-      "notes": "KEELYNET (dead) \u2014 ~308 archived PDFs in Wayback (CDX-verified 2026-09-03). John Keely / free energy. Harvest with wayback_scavenger.py",
+      "notes": "KEELYNET (dead) — ~308 archived PDFs in Wayback (CDX-verified 2026-09-03). John Keely / free energy. Harvest with wayback_scavenger.py",
       "file_count": 0,
-      "note": "all 308 archived PDFs attempted (46 harvested, 262 skipped) \u2014 verified complete 2026-09-28"
+      "note": "all 308 archived PDFs attempted (46 harvested, 262 skipped) — verified complete 2026-09-28"
     },
     {
       "name": "svpwiki.com",
@@ -33,7 +33,7 @@
         "/",
         "/sitemap.xml"
       ],
-      "notes": "Dale Pond's SVPwiki (15,000-page TikiWiki; Keely/SVP). ALIVE (HTTP 200) \u2014 flipped active->pending 2026-09-03 so run_queue crawls it; 0 files yet",
+      "notes": "Dale Pond's SVPwiki (15,000-page TikiWiki; Keely/SVP). ALIVE (HTTP 200) — flipped active->pending 2026-09-03 so run_queue crawls it; 0 files yet",
       "file_count": 9
     },
     {
@@ -66,7 +66,7 @@
         "/",
         "/forum/"
       ],
-      "notes": "Energetic Forum \u2014 real researcher build logs. vBulletin; thread links need JS/browser. Hard scrape, high rarity. Use browser-use if wget fails.",
+      "notes": "Energetic Forum — real researcher build logs. vBulletin; thread links need JS/browser. Hard scrape, high rarity. Use browser-use if wget fails.",
       "file_count": 0
     },
     {
@@ -77,7 +77,7 @@
       "crawl_paths": [
         "/forum/"
       ],
-      "notes": "OverUnity forum \u2014 build logs, direct researcher comms. JS launcher gate; thread index may need browser. High rarity.",
+      "notes": "OverUnity forum — build logs, direct researcher comms. JS launcher gate; thread index may need browser. High rarity.",
       "file_count": 0
     },
     {
@@ -170,7 +170,7 @@
       "crawl_paths": [
         "/"
       ],
-      "notes": "was ~200+ PDFs alt-science Apache dir \u2014 DEAD 2026-09-03: 302 -> err.freewebhostingarea.com/403.html (parked). Marked site_down, NOT a harvest target",
+      "notes": "was ~200+ PDFs alt-science Apache dir — DEAD 2026-09-03: 302 -> err.freewebhostingarea.com/403.html (parked). Marked site_down, NOT a harvest target",
       "exts": "txt,html,htm",
       "note": "host dead/redirecting; 820 archived files, ~374 .txt (Russian technical library). 27 harvested 2026-09-28; remaining ~336 harvested 2026-09-29. Domain COMPLETE."
     },
@@ -215,7 +215,7 @@
       "crawl_paths": [
         "/"
       ],
-      "notes": "Psionics and radionics research \u2014 0 files found; marked complete 2026-09-03 so run_queue stops spinning on the empty filelist",
+      "notes": "Psionics and radionics research — 0 files found; marked complete 2026-09-03 so run_queue stops spinning on the empty filelist",
       "file_count": 12,
       "note": "rescue-sweep 2026-09-30: all 12 HTML pages harvested via Wayback (snapshot 20260726), merged into index. Site still live but single-maintainer."
     },
@@ -239,7 +239,7 @@
       "crawl_paths": [
         "/"
       ],
-      "notes": "~130+ device pages, INE (Institute for New Energy) directory. NOTE 2026-09-10: index.shtml is dead (404); live index is http://padrak.com/ine/ (no filename). HTML pages are the documents themselves, not just link hubs \u2014 filelist built from index hrefs.",
+      "notes": "~130+ device pages, INE (Institute for New Energy) directory. NOTE 2026-09-10: index.shtml is dead (404); live index is http://padrak.com/ine/ (no filename). HTML pages are the documents themselves, not just link hubs — filelist built from index hrefs.",
       "file_count": 512
     },
     {
@@ -288,7 +288,7 @@
       "status": "complete",
       "base_url": "http://amasci.com",
       "crawl_type": "wayback_rescue",
-      "notes": "Bill Beaty Science Hobbyist \u2014 single-maintainer, HTTPS dead (HTTP-only), 0 index coverage. 2026-10-06 rescue-sweep: core lane done (594 docs: 53 PDF + 244 txt + 297 HTML; user dirs /~ and waflyfishers list archive EXCLUDED as off-corridor). Remaining: ~14.9k hosted user pages + images, NOT pursued. Flagged for curation-pass: weak titles. 2026-10-07: core corridor complete (594 docs); /~* user dirs + flyfishing list excluded as off-corridor. Marked complete by rescue-sweep."
+      "notes": "Bill Beaty Science Hobbyist — single-maintainer, HTTPS dead (HTTP-only), 0 index coverage. 2026-10-06 rescue-sweep: core lane done (594 docs: 53 PDF + 244 txt + 297 HTML; user dirs /~ and waflyfishers list archive EXCLUDED as off-corridor). Remaining: ~14.9k hosted user pages + images, NOT pursued. Flagged for curation-pass: weak titles. 2026-10-07: core corridor complete (594 docs); /~* user dirs + flyfishing list excluded as off-corridor. Marked complete by rescue-sweep."
     },
     {
       "name": "zpenergy.com",
