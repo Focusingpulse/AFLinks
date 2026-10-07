@@ -468,6 +468,21 @@ def _merge_metadata_dupes(entries):
             a, b = entries[i], entries[j]
             if not isinstance(a, dict) or not isinstance(b, dict):
                 continue
+            # 2026-10-07 (Drunvalo, translation-QC): SAME FILE = same work.
+            # The alias map and the DB-alignment pass rewrite stale-variant
+            # filenames onto keeper filenames, then re-run this function to
+            # collapse the resulting collisions — but the checks below never
+            # looked at the file field, so four rewritten pairs (radiestesia
+            # Neto, heliquantix, biodynamic-agriculture, DEBA) survived as
+            # same-file feed duplicates. Identical basename is the strongest
+            # work identity we have; merge unconditionally (language pair
+            # still checked for safety, though a same-file pair always
+            # shares it).
+            if ((a.get("file") or "").split("/")[-1]
+                    == (b.get("file") or "").split("/")[-1]
+                    and a.get("file")):
+                parent[find(j)] = find(i)
+                continue
             la, lb = (a.get("language") or ""), (b.get("language") or "")
             ta, tb = (a.get("target_language") or ""), (b.get("target_language") or "")
             # same language pair required: distinct-language pairs are
@@ -1350,6 +1365,10 @@ def main():
             "2026-09-27-heliquantix-support-memory-frequency-imprinting-fr.md",
         "2026-09-28-agricultura-biodinamica-ii-mirada-contemporanea-es.md":
             "2026-09-27-biodynamic-agriculture-contemporary-view-es.md",
+        # 2026-10-07 (Drunvalo, translation-QC): folded 2026-10-06 QC pair —
+        # same Rome Coherence meeting article as the DB keeper.
+        "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it.md":
+            "2026-09-11-electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues-it.md",
     }
     _aliased = 0
     for _tw in translation_works:
