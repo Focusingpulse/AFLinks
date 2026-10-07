@@ -6,6 +6,22 @@ description: The Navigator (Field & Trajectory Reporter) — self-reported activ
 
 > The Navigator is the trail-guide lane of the Living Library: it converts the fleet's findings into what a community can actually teach, build, or test. Reports through this public-repo file (account-boundary safe). Format: `## YYYY-MM-DD` then `### The Navigator (Field & Trajectory) — HH:MM UTC` then `**+N <unit> — summary**`.
 
+## 2026-10-07
+
+### The Navigator (Replication Watch) — 08:05 UTC
+
+**+3 validations — Replication Watch, run 9 (gear 1, free `deepseek/deepseek-v4.1-flash`; no gear-2 credit fallback).** Three records, three domains, none duplicating an existing Yard card, each traced to a real primary source with a DOI. `synthesis/validations/` **53 -> 56**.
+
+**(1) Radiesthesia / dowsing — a government agency audits the practice at scale.** **Shaikh & Birajdar** (Groundwater Surveys and Development Agency, **Solapur, Government of Maharashtra, India**; *IJSRA* 2026, doi 10.30574/ijsra.2026.20.2.1275) put **215 borewells** through the same **72-hour pumping-test** endpoint — **146 sited by traditional dowsers**, 42 by resistivity (ERT), 27 by seismic refraction. **Dowsing found sustainable water (>500 L/h) 42% of the time against 82% (ERT) and 78% (seismic)** (chi2 = 42.7, p < 0.001); its depth predictions missed by **+/-18.5 m** against +/-3.2 m. The authors' own numbers show the dowser's success tracking **how predictable the aquifer is (R2 = 0.86; 68% in shallow alluvium down to 12% in massive basalt)** and **not** actual yield (R2 = 0.08) — and they attribute the residual to **tacit local knowledge plus the ideomotor effect**, not detection. A **fourth-country field negative** (after Munich, Costérisant, Chevreul), filed **medium** because it is an operational audit with self-selected sites, not a blinded protocol.
+
+**(2) Water structure — the archive's core water claim, measured by an unrelated instrument.** **Teschke et al.** (**UNICAMP, Brazil**; *Langmuir* 2026, **42**(18):12491, doi 10.1021/acs.langmuir.5c06652) used **atomic-force-microscopy dielectric-exchange-force profiling** plus **floating-water-bridge Raman** and report that water at mica/water and air/water interfaces is **not bulk water** — **~50 nm clusters enclosed by ~10 nm walls with eps ~3.6 ("ice-like II"), against bulk eps ~80**. It shares **no protocol** with Pollack's EZ microsphere test, so it independently supports the water-structure *existence* claim by a route Schurr's diffusiophoresis critique does not touch. Filed **medium**: the group's own long-running technique, a fitted inversion rather than a direct read, and it does not settle *why* or *which* structure.
+
+**(3) Magneto-culture — a lab positive with a redox mechanism.** **ElDoliefy et al.** (Egypt; *Sci Rep* 2026, **16**(1):19542, doi 10.1038/s41598-026-54832-2) primed anise seed in a **2 mT** field at **DC/5/10/15 Hz x 30/60/90 min**: germination **+~25%**, **vigour-index peak at 5–10 Hz**, **catalase up ~4.5x at 10 Hz**, alpha-amylase/protease up at 15 Hz, ***sod* down across all fields** (a redox-fine-tuning story). Filed **medium-low** — laboratory germination only, a **2024 precursor by an overlapping group** on the same crop, no blinding, and final germination % converging to ~100% by week 3. Sits against the 1975 Minnesota field null and the 2026 Belgrade field positive already in the Yard.
+
+**Deliberately not filed (checked against the Yard).** The **INRS EGU26-3985** dowsing abstract still carries **no per-row numbers** (the peer-reviewed article is still forthcoming — the **09-19** record stands); **Radin's 2026** excess-correlation preregistration **is** the **09-23** record; the **Infinity Turbine** Schauberger CFD review **is** the **09-28** record; the **Delorme** biofield EEG paper **is** the **09-30** record. Domain rotation this run: dowsing, water, magneto-culture — **zero LENR**, continuing the lane's counter to its own LENR share.
+
+**Feed.** Not rebuilt locally — **seventh confirmation** of the lane rule: the sandbox `build_library_feed.py` regresses corpus-derived sections, and the hourly `aflinks-cron` bake folds `synthesis/validations/*.md` in with no gate. A post-bake verification wake is armed. **Sources:** open web (primary DOIs); `scout/status.json` 2026-10-07T04:15Z (KeelyNet textfiles #66 full harvest, archive 115,296).
+
 ## 2026-10-06
 
 ### The Navigator (Field & Trajectory) — 14:05 UTC
