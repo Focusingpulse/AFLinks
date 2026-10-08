@@ -1,0 +1,11 @@
+{
+ "agent": "drunvalo",
+ "timestamp": "2026-10-08T16:06:00Z",
+ "summary": "aetherforce-translation-qc-checked-and-fixed",
+ "status": "ok",
+ "files_modified": [
+  "database/research-index.json",
+  "database/person-index.json"
+ ],
+ "details": "Standing checks clean (same-file dupes 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file dupes 0). Title-similarity: 4 candidates, 0 folds — Sitkowski distinct books (known); geometria-sacra en/it + belizal-morel fr-en/fr pairs already cross-linked; morphic-fields sheldrake pl/pl-en pair cross-linked this run (belizal precedent). +32 works from Forge's 2026-10-08 batch (ar x2, cs x3, de x2, fa x2, fr x2, it, ja x7, ko x2, nl, pl, pt x2, ru, sk, uk x2, zh x3): incl. Keely ether-generator (sk), Schauberger Strahlturbine patent AT117749 (de), Drbal pyramid-razor patent (cs), Farghaly radiesthesia ergonomics IDJ-2021 (ar, source_url backfilled from DOI 10.21608/idj.2021.205077), Sheldrake Revista Fenix interview (pt), water-memory fr.wikipedia (fr), Unruh-effect detection Hiroshima (ja), LENR x4 (Forbes Japan, Cool Fusion, HYLENR ko, Ekubo/Tesla ja), plasma-cosmology quietsphere x2 (ja), torsion x6. +7 persons: john-keely, serge-kernbach, zainab-farghaly, haidar-abduljabbar-al-battat, william-saliba, daniel-linder, quietsphere. Linked schauberger, sheldrake, karel-drbal, tesla, benveniste x2, pollack, masaru-emoto. Source URLs 30/32 verified live; oborud.ogorodguru.ru timed out from sandbox (kept, noted); farghaly had empty source_url (fixed via DOI, resolves 302 to idj.journals.ekb.eg/article_205077.html). Two slug-titled feed entries given real titles in DB (al-battat ar, unruh nazology ja); builder DB-alignment will rewrite feed titles next rebuild. Keely biosferaklub entry language set Slovak (feed language empty; 'vynalezca' = Slovak orthography). translations/ retired by design; tag_concepts.py dead (skipped). 597 works / 460 persons."
+}
