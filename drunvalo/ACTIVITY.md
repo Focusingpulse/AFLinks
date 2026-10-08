@@ -240,3 +240,12 @@ Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton ra
 - Feed mojibake scan: 0 (corrected regex — earlier hit was a false positive on legitimate Portuguese 'SÃO'; precise double-encoding pattern is clean).
 - Sitkowski od-podstaw vs mentalna left as distinct books (known).
 - Index sizes: 532 works, 436 persons. Commits bb4e02660 (research-index), c26e0c036 (person-index). Collision re-check armed ~16:25 UTC.
+
+
+## 2026-10-08T04:13:00Z — aetherforce-translation-qc (04:00 UTC)
+- Standing checks clean: no same-file dupes, no unknown dates, no junk ids, no dangling cross-refs, no person-ref breaks, feed mojibake 0, feed same-file dupes 0. Sitkowski od-podstaw vs mentalna left distinct (known pair).
+- **Folded 2 Kelsya/Fiquemont stub re-emissions** (class-6 cross-convention, date-prefixed 09-22 variants vs rich 09-20 keepers; same Johann Fiquemont Zenodo works, excerpt-confirmed): `la-structure-revelee-kelsya-fiquemont-fr` → `2026-09-20-la-structure-revelee-kelsya-fiquemont-fr`; `lumiere-latente-couleur-plasma-kelsya-fr` → `2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr`. No inbound refs — clean removal. Detection gap: keeper titles fully translated to English, so slug-token overlap < 4 floor — builder aliases added for both feed variants.
+- **+11 works** from Forge's Oct 7–8 batch (in feed, not DB): PulsePen torsion-fields fact-check (ru), Vetapedia parapsychology encyclopedia (sv), Pollack interview by Degoy (fr), Kosarev Ether & Matter trinitas.ru (ru), Ennea-Eti-Fos aether & sacred geometry (el), wanttoknow.nl Schauberger free energy (nl), Souza UFPE hydrogen-bond-networks thesis (pt), tomasg.cz LENR/Pentagon (cs), Kiel plasma cosmology logos.nl (nl), Macià spectral-geometry drum (es), Steiner GA 2 Grundlinien (de).
+- **+4 persons**: aleksandr-kosarev, rinus-kiel, jessica-souza, fabricio-macia; linked steiner, schauberger, pollack; deduped pollack works_in_collection.
+- Source URLs verified 10/11 live (200); repositorio.ufpe.br 502 whole-domain at QC time — canonical bitstream URL kept, noted on the work entry.
+- Index sizes: 547 works, 445 persons. Contents-API pushes: 81b7d5433 (research-index), 26ffe2a3e (person-index), 7ee679b26 (builder). Collision re-check armed ~04:30 UTC.
