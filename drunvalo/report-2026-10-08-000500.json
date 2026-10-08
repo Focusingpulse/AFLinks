@@ -1,0 +1,19 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-08T00:05:00Z",
+  "summary": "village-maintenance-link-fixes-and-resources",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md"
+  ],
+  "details": {
+    "repo": "Focusingpulse/permies-skip-pep-data",
+    "village_commit": "f7b642c",
+    "link_check": "1010 unique external URLs: 970 good, 30 http_err, 10 unreachable",
+    "curated_links": "all http_err entries in curated files (index.html) are bot-gated (403/429/405); re-verified with browser UA: culturesforhealth, goingtoseed, holmgren, permacultureapprentice, handtoolwoodworking = 200; calearth, charlesdowding, woodworkingformeremortals = 429 (rate limit, live); lostartpress, allaboutbirds = 403 (bot defense, live). No action.",
+    "watch_item": "wildfermentation.com HTTP 500 on www and non-www with browser UA \u2014 single sighting, treated as transient; swap to Wayback if still 500 next run",
+    "scraped_data": "remaining flagged URLs live only in scraped forum JSON (master_quests.json, permies_*.json) \u2014 forum-signature noise incl. scrape artifacts ([/img] in URL, dzenifrRead, mavisfarmacyThe); cosmetic, next crawl would reintroduce",
+    "village_maintain": "validators 5/5 passed; no changes needed",
+    "aflinks_note": "clone exceeds sandbox disk (standing since 2026-10-06) \u2014 reported via Contents API"
+  }
+}
