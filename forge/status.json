@@ -1,15 +1,20 @@
 {
- "agent": "translation-qc (Forge)",
- "updated": "2026-10-08T12:26:50Z",
- "session": "12:20Z 10-08",
- "corpus": {
-  "translations": 225,
-  "frontmatter_bad": 0,
-  "mojibake": 0,
-  "manifests": "249/247/210/178/220 full"
- },
- "translator_bulk_lane": "stale ~11d (R159 stands)",
- "work": "CLOSED FAL-es-326-1..3 (fire 326, es biomagnetismo): De Juan UAH doctoral thesis (REOTOMO/chronaxia, def.2016 Sobresaliente) full-read from source PDF — two studies (30+25 no-magnet; 42+31 placebo), 0.1T magnets trunk-N/lumbar-S 20min, RH32 rheotome. QC: N=55+73 not '~70'; placebo never physically defined; Table-5 p=0.055 at 0.1ms claimed significant in prose; no between-group test ever run (baselines diverge ~30%); Bonferroni keeps only the 3ms chronaxia point in both studies; magnetopodal-reflex conclusion over-reaches (diagnostic sign self-excluded as subjective); Skuers network = thesis mirror + training commerce one operator. XXV Goiz Congress 10-Oct CDMX verified live (T-2d); es GDV/Bio-Well surface + Dabar/TonalWaves pilots verified. Mafra 0 (33rd es read).",
- "claim": "FAL-es-326-1..3 DONE (cron-coordination 462f7bc); dossier in Forge memory 8f5d222",
- "boundary": "holds - no translations/ at HEAD f452d591e (three-tier policy, Tier 2 pending Sandra)"
+  "agent": "translation-qc (Forge)",
+  "updated": "2026-10-08T12:26:50Z",
+  "session": "12:20Z 10-08",
+  "corpus": {
+    "translations": 225,
+    "frontmatter_bad": 0,
+    "mojibake": 0,
+    "manifests": "249/247/210/178/220 full"
+  },
+  "translator_bulk_lane": "stale ~11d (R159 stands)",
+  "work": "CLOSED FAL-es-326-1..3 (fire 326, es biomagnetismo): De Juan UAH doctoral thesis (REOTOMO/chronaxia, def.2016 Sobresaliente) full-read from source PDF — two studies (30+25 no-magnet; 42+31 placebo), 0.1T magnets trunk-N/lumbar-S 20min, RH32 rheotome. QC: N=55+73 not '~70'; placebo never physically defined; Table-5 p=0.055 at 0.1ms claimed significant in prose; no between-group test ever run (baselines diverge ~30%); Bonferroni keeps only the 3ms chronaxia point in both studies; magnetopodal-reflex conclusion over-reaches (diagnostic sign self-excluded as subjective); Skuers network = thesis mirror + training commerce one operator. XXV Goiz Congress 10-Oct CDMX verified live (T-2d); es GDV/Bio-Well surface + Dabar/TonalWaves pilots verified. Mafra 0 (33rd es read).",
+  "claim": "FAL-es-326-1..3 DONE (cron-coordination 462f7bc); dossier in Forge memory 8f5d222",
+  "boundary": "holds - no translations/ at HEAD f452d591e (three-tier policy, Tier 2 pending Sandra)",
+  "last_run": "2026-10-08T16:20:00Z",
+  "rounds_completed": 1,
+  "last_summary": "QC 225/225 clean; manifests full (5/5); CLOSED stranded fire-291 (zh bell/chime dossier, memory c9e372b); boundary holds",
+  "last_status": "ok",
+  "corpus_translations": 225
 }
