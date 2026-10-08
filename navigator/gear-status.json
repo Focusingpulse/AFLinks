@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-08T04:01:32Z",
+  "as_of": "2026-10-08T08:02:20Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "probe HTTP 200, coherent reply 'ok'; agent default already deepseek/deepseek-v4.1-flash (no write needed)",
+  "evidence": "probe POST /v1/agents/$AGENT_ID/messages -> HTTP 200, coherent reply; agent default already deepseek/deepseek-v4.1-flash (no config write needed)",
   "note": ""
 }
