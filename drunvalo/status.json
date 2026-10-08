@@ -2,14 +2,14 @@
  "agent": "drunvalo",
  "last_run": {
   "cron": "aetherforce-translation-qc",
-  "timestamp": "2026-10-08T08:05:00Z",
+  "timestamp": "2026-10-08T16:06:00Z",
   "status": "ok",
-  "summary": "standing checks clean; +18 works (Forge Oct 7-8 remainder: kaznacheev-trofimov ru, sheldrake morphic-fields fr, grosse 1898 ether de, storms LENR es, padligur dowsing de, benda psychotronics it, lu-zuyin/yan-xin qigong zh, + 11 news/encyclopedia), +8 persons; sheldrake/benda/tesla/masaru-emoto linked; 565 works / 453 persons"
+  "summary": "standing checks clean; +32 works (Forge Oct-8 batch, 16 languages), +7 persons (john-keely, serge-kernbach, zainab-farghaly, al-battat, william-saliba, daniel-linder, quietsphere); 8 person links; morphic-fields pl/pl-en cross-linked; farghaly source_url backfilled via DOI; 597 works / 460 persons"
  },
  "job": "aetherforce-translation-qc",
  "status": "ok",
- "persons": 453,
- "works": 565,
+ "persons": 460,
+ "works": 597,
  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
  "runs": [
   {
@@ -41,6 +41,13 @@
    "timestamp": "2026-10-08T08:05:00Z",
    "status": "ok",
    "summary": "+18 works, +8 persons (kaznacheev, trofimov, edmond-storms, wilhelm-grosse, renato-cunha, reiner-padligur, lu-zuyin, yan-xin); 4 persons linked; 565 works / 453 persons; standing checks clean"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-08T16:06:00Z",
+   "status": "ok",
+   "summary": "standing checks clean; +32 works (Forge Oct-8 batch, 16 languages), +7 persons (john-keely, serge-kernbach, zainab-farghaly, al-battat, william-saliba, daniel-linder, quietsphere); 8 person links; morphic-fields pl/pl-en cross-linked; farghaly source_url backfilled via DOI; 597 works / 460 persons"
   }
- ]
+ ],
+ "timestamp": "2026-10-08T16:06:00Z"
 }
