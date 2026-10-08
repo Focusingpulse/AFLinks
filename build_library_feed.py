@@ -1375,6 +1375,14 @@ def main():
         # tokens: brevets/brevet and radiante/rayonnante differ).
         "2026-09-11-analyse-brevets-tesla-energie-radiante-fr.md":
             "2026-09-10-analyse-des-sch-mas-de-brevet-de-tesla-sur-l-nergie-rayonnan-fr.md",
+        # 2026-10-08 (Drunvalo, translation-QC): folded 2026-09-22 Kelsya/Fiquemont
+        # stub re-emissions into the rich 09-20 keepers (same Zenodo works,
+        # excerpt-confirmed). DB-alignment misses both: keeper titles are fully
+        # translated to English so slug-token overlap is below the >=4 floor.
+        "2026-09-22-la-structure-revelee-kelsya-fiquemont-fr.md":
+            "2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
+        "2026-09-22-lumiere-latente-couleur-plasma-kelsya-fr.md":
+            "2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
     }
     _aliased = 0
     for _tw in translation_works:
