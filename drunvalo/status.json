@@ -1,16 +1,16 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-maintenance",
-    "timestamp": "2026-10-08T00:05:00Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-08T04:13:00Z",
     "status": "ok",
-    "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+    "summary": "standing checks clean; folded 2 Kelsya/Fiquemont stub re-emissions into 09-20 keepers; +11 works (Forge Oct 7-8 batch: ru/sv/fr/el/nl/pt/cs/es/de), +4 persons; builder aliases for the folded feed variants; 547 works / 445 persons"
   },
-  "job": "village-maintenance",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 441,
-  "works": 538,
-  "notes": "works/persons unchanged from 2026-10-07 20:05 QC run; AFLinks clone exceeds sandbox disk \u2014 Contents API path",
+  "persons": 445,
+  "works": 547,
+  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; UFPE thesis domain 502 at QC time (whole-domain outage, canonical URL kept)",
   "runs": [
     {
       "cron": "aetherforce-translation-qc",
@@ -28,7 +28,13 @@
       "cron": "village-maintenance",
       "timestamp": "2026-10-08T00:05:00Z",
       "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-08T04:13:00Z",
+      "status": "ok",
+      "summary": "standing checks clean; folded 2 Kelsya/Fiquemont stub re-emissions into 09-20 keepers; +11 works (Forge Oct 7-8 batch: ru/sv/fr/el/nl/pt/cs/es/de), +4 persons; builder aliases for the folded feed variants; 547 works / 445 persons"
     }
   ]
 }
