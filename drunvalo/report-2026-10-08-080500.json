@@ -1,0 +1,39 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-08T08:05:00Z",
+  "summary": "aetherforce-translation-qc: standing checks clean; +18 works (Forge Oct 7-8 remainder: kaznacheev-trofimov ru, sheldrake morphic-fields fr, grosse 1898 ether de, storms LENR es, padligur dowsing de, benda psychotronics it, lu-zuyin/yan-xin qigong zh, + 11 news/encyclopedia), +8 persons; sheldrake/benda/tesla/masaru-emoto linked; 565 works / 453 persons",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "drunvalo/status.json",
+    "drunvalo/ACTIVITY.md"
+  ],
+  "details": {
+    "standing_checks": {
+      "same_file_dupes_db": 0,
+      "unknown_dates": 0,
+      "junk_titles": 0,
+      "dangling_cross_refs": 0,
+      "dangling_person_work_refs": 0,
+      "feed_mojibake": 0,
+      "feed_same_file_dupes": 0,
+      "containment_pairs": 0,
+      "title_similarity_candidates": "3 (all known/false-positive: Sitkowski distinct books; ru date-slug shape match; akhand-jyoti distinct Hindi articles)"
+    },
+    "works_added": 18,
+    "persons_added": 8,
+    "works_total": 565,
+    "persons_total": 453,
+    "url_check": "18/18 live (200/206)",
+    "notes": [
+      "Contents-API-only path (clone exceeds sandbox disk, standing)",
+      "translations/ retired by design; tag_concepts.py dead; synthesis_index.json absent from repo (builder present, artifact not published) \u2014 check noted, not regenerated",
+      "3 persons' works_in_collection deduped (tesla had a doubled entry)"
+    ],
+    "commits": {
+      "research-index": "07e34bd0d",
+      "person-index": "8ff25aad7"
+    }
+  }
+}
