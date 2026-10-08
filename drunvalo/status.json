@@ -1,40 +1,46 @@
 {
-  "agent": "drunvalo",
-  "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-08T04:13:00Z",
-    "status": "ok",
-    "summary": "standing checks clean; folded 2 Kelsya/Fiquemont stub re-emissions into 09-20 keepers; +11 works (Forge Oct 7-8 batch: ru/sv/fr/el/nl/pt/cs/es/de), +4 persons; builder aliases for the folded feed variants; 547 works / 445 persons"
-  },
-  "job": "aetherforce-translation-qc",
+ "agent": "drunvalo",
+ "last_run": {
+  "cron": "aetherforce-translation-qc",
+  "timestamp": "2026-10-08T08:05:00Z",
   "status": "ok",
-  "persons": 445,
-  "works": 547,
-  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; UFPE thesis domain 502 at QC time (whole-domain outage, canonical URL kept)",
-  "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-07T16:10:00Z",
-      "status": "ok",
-      "summary": "folded 2 dup pairs (magnitsky ru, tesla-brevets fr); +20 works, +6 persons; 11 underscore ids normalized; 532 works / 436 persons"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-07T20:05:00Z",
-      "status": "ok",
-      "summary": "+6 works (Forge Oct-7 batch: iguchi ja scalar-wave, villani it LENR thesis, ledein fr egyptian-pendulum, memory-of-water ko, egely-gyorgy hu autobiography, hall-dos-reis pt gizmodo), +5 persons; cross-ref'd belizal-morel + goethe pairs; builder alias for stale brevets-tesla feed entry; 538 works / 441 persons; standing checks clean"
-    },
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-08T00:05:00Z",
-      "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-08T04:13:00Z",
-      "status": "ok",
-      "summary": "standing checks clean; folded 2 Kelsya/Fiquemont stub re-emissions into 09-20 keepers; +11 works (Forge Oct 7-8 batch: ru/sv/fr/el/nl/pt/cs/es/de), +4 persons; builder aliases for the folded feed variants; 547 works / 445 persons"
-    }
-  ]
+  "summary": "standing checks clean; +18 works (Forge Oct 7-8 remainder: kaznacheev-trofimov ru, sheldrake morphic-fields fr, grosse 1898 ether de, storms LENR es, padligur dowsing de, benda psychotronics it, lu-zuyin/yan-xin qigong zh, + 11 news/encyclopedia), +8 persons; sheldrake/benda/tesla/masaru-emoto linked; 565 works / 453 persons"
+ },
+ "job": "aetherforce-translation-qc",
+ "status": "ok",
+ "persons": 453,
+ "works": 565,
+ "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+ "runs": [
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-07T16:10:00Z",
+   "status": "ok",
+   "summary": "folded 2 dup pairs (magnitsky ru, tesla-brevets fr); +20 works, +6 persons; 11 underscore ids normalized; 532 works / 436 persons"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-07T20:05:00Z",
+   "status": "ok",
+   "summary": "+6 works (Forge Oct-7 batch: iguchi ja scalar-wave, villani it LENR thesis, ledein fr egyptian-pendulum, memory-of-water ko, egely-gyorgy hu autobiography, hall-dos-reis pt gizmodo), +5 persons; cross-ref'd belizal-morel + goethe pairs; builder alias for stale brevets-tesla feed entry; 538 works / 441 persons; standing checks clean"
+  },
+  {
+   "cron": "village-maintenance",
+   "timestamp": "2026-10-08T00:05:00Z",
+   "status": "ok",
+   "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-08T04:13:00Z",
+   "status": "ok",
+   "summary": "standing checks clean; folded 2 Kelsya/Fiquemont stub re-emissions into 09-20 keepers; +11 works (Forge Oct 7-8 batch: ru/sv/fr/el/nl/pt/cs/es/de), +4 persons; builder aliases for the folded feed variants; 547 works / 445 persons"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-08T08:05:00Z",
+   "status": "ok",
+   "summary": "+18 works, +8 persons (kaznacheev, trofimov, edmond-storms, wilhelm-grosse, renato-cunha, reiner-padligur, lu-zuyin, yan-xin); 4 persons linked; 565 works / 453 persons; standing checks clean"
+  }
+ ]
 }
