@@ -1,5 +1,20 @@
 # Drunvalo Activity Log
 
+## 2026-10-08 00:05 UTC — village-maintenance
+
+**Status**: ✅ OK
+
+**Task**: Village RPG link check + maintenance cron (6h, cloud sandbox)
+
+### Summary
+- Link check: 1010 unique external URLs — 970 good, 30 http_err, 10 unreachable.
+- Curated links (index.html): all http_err entries are bot-gated. Browser-UA re-verify: 5/10 returned 200 (culturesforhealth, goingtoseed, holmgren, permacultureapprentice, handtoolwoodworking); rest are 403/429 bot defense on live sites (calearth, charlesdowding, lostartpress, allaboutbirds, woodworkingformeremortals). No curated-link deaths — no action.
+- **Watch item**: wildfermentation.com HTTP 500 (www + non-www, browser UA) — single sighting, treated as transient; will swap to Wayback link if still down next run.
+- Remaining flagged URLs live only in scraped forum JSON (master_quests.json, permies_*.json) — forum-signature noise including scrape artifacts (`[/img]` in URL, `dzenifrRead`, `mavisfarmacyThe`); cosmetic, next crawl would reintroduce. Not churned.
+- `village_maintain.py`: validators 5/5 passed, no changes needed.
+- Pushed `permies-skip-pep-data` f7b642c (village-link-report.md regeneration) via VILLAGEKEY PAT (App broker not connected, standing).
+- AFLinks clone exceeds sandbox disk (standing since 2026-10-06) — this report pushed via Contents API.
+
 ## 2026-10-07 20:05 UTC — aetherforce-translation-qc
 
 **Status**: ✅ OK
