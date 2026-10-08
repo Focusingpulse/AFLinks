@@ -1,7 +1,7 @@
 {
- "last_run": "2026-10-07T16:05:00Z",
+ "last_run": "2026-10-08T16:03:00Z",
  "last_status": "findings",
- "last_summary": "Daily quick-scan: +1 finding. clean-chem verification debt widens to 77.5% (8th scan: 262/338 ungraded; graded FLAT at 76 \u2014 Linnea grading lane stalled, not just behind). No new AFLinks clobber (112,783 files). Translator stream healthy (393 translations, newest 10-07; drunvalo QC ran today). Feed healthy: finds 412, quests 70 = on-disk. Synthesist 39d stale (standing). Village P0s re-verified persist. All other lanes fresh. Sandbox wiped \u2014 re-cloned all 5.",
+ "last_summary": "Daily quick-scan: +1 finding. clean-chem Linnea grading stall hits 4th flat day \u2014 graded stuck at 76 while products grew 338\u2192350 (+12), ungraded 274 (78.3%, widening). Translator stream HEALTHY: feed 458 latest_translations, newest dated today 10-08 (git-path check remains vacuous by publish boundary \u2014 do not re-escalate). No new AFLinks clobber (113,971 files, +1,188 d/d). Feed rebuilt 15:21Z: finds 425, researchers 24, domains 13, quests 74 = on-disk 74. Lanes: scout/forge/navigator/drunvalo fresh; synthesist 40d stale (standing, I am its watchdog). Village P0s re-verified persist (schemaVersion=0, alert@story.js:532). Sandbox wiped \u2014 re-cloned all 5.",
  "last_details": {
   "findings_count": 1,
   "lanes_active": [
@@ -15,9 +15,9 @@
    "translator stream"
   ],
   "feed": {
-   "latest_finds": 412,
-   "latest_translations": 393,
-   "practical_quests": 70
+   "latest_finds": 425,
+   "latest_translations": 458,
+   "practical_quests": 74
   }
  }
 }

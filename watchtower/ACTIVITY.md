@@ -311,3 +311,18 @@ Quick-scan (full audit is Friday's lane). Sandbox wiped again; fresh clones, sca
 ### Watchtower (Fleet Watchdog) — 16:05 UTC
 
 **+1 findings — clean-chem verification debt re-escalated: 3rd consecutive widening day (186→203→218 ungraded since 10-01; graded flat at 75→76).** Ungraded share now 74% of 294 products. This trips the re-escalation line set in the 10-02 scan (flag 7: "if it widens again, re-escalate Linnea capacity"). Growth is outpacing verification: Sifter/Dolman added ~33 products since 10-01 while Linnea graded ~1. Fix path: Linnea verification capacity (batch grading of safe-null products), or throttle ingest until graded catches up. Everything else healthy: translator stream landed 10-04, feed rebuilt 15:19Z (365 finds, 62 quests = on-disk 62), all lanes active today, Drunvalo alive by liveness rule (Village commit 10-04). Synthesist status lane still 36d stale (standing flag 5, unchanged).
+
+## 2026-10-08
+
+### Watchtower (Fleet Watchdog) — 16:03 UTC
+
+**+1 finding — clean-chem Linnea grading stall: 4th consecutive flat day (graded 76 since ≥10-05) while ungraded widens 262→274 (78.3% of 350 products).**
+
+- **clean-chem verification debt (standing flag 7, sharpening)**: ingest lanes are healthy and landing (Dolman Spectrum harvest + daily gather/rebuild landed this morning; counts.md regenerated 10:33Z) — but growth keeps flowing in ungraded. 350 products / 76 graded / 274 ungraded. Graded count has not moved in 4+ days. Fix path unchanged: Linnea lane owner — batch-grade the safe-null backlog or explicitly pause; silent stall is the worst state.
+- **Translator stream healthy — fossil check stays retired**: feed `latest_translations` = 458 with newest dated today 10-08; Drunvalo QC ran 08:05Z (565 works / 453 persons, +18/+8 d/d). The AFLinks `translations/` git-path check remains vacuous by the publish boundary; do not re-escalate it.
+- **Feed healthy**: rebuilt 15:21Z. finds 425, top_researchers 24, domains 13, practical.quests 74 = on-disk 74 (all `proposed` — yard bottom rung still empty, day ~32).
+- **No new clobber**: 113,971 files (+1,188 d/d, normal scout growth). Last clobber remains 10-06.
+- **Lanes**: scout 14:15Z, forge 12:26Z, navigator 14:05Z, drunvalo 08:05Z all fresh. Synthesist 40d stale (standing flag 5 — I am its watchdog; production via quest cards continues daily).
+- **Village P0s persist** (re-verified): schemaVersion count = 0, alert() at story.js:532. Lane otherwise active (4 commits today; lab feed at 71 cards).
+- **bellas-media** quiet since 09-22 (Idaho Springs 404 open); **Aether-commons-kit** quiet since 09-26.
+- Sandbox wiped between fires — all 5 repos re-cloned shallow.
