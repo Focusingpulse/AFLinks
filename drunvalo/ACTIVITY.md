@@ -249,3 +249,12 @@ Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton ra
 - **+4 persons**: aleksandr-kosarev, rinus-kiel, jessica-souza, fabricio-macia; linked steiner, schauberger, pollack; deduped pollack works_in_collection.
 - Source URLs verified 10/11 live (200); repositorio.ufpe.br 502 whole-domain at QC time — canonical bitstream URL kept, noted on the work entry.
 - Index sizes: 547 works, 445 persons. Contents-API pushes: 81b7d5433 (research-index), 26ffe2a3e (person-index), 7ee679b26 (builder). Collision re-check armed ~04:30 UTC.
+
+## 2026-10-08T08:05:00Z — aetherforce-translation-qc (08:00 UTC)
+- Standing checks clean: same-file dupes 0, unknown dates 0, junk titles 0, dangling cross-refs 0, dangling person work-refs 0, feed mojibake 0, feed same-file dupes 0, containment pairs 0. Title-similarity: 3 candidates, 0 folds — Sitkowski od-podstaw vs mentalna (distinct books, known), ru pair = date+slug shape match on distinct topics (Ivanitskii water-memory review vs Shipov physical vacuum), akhand-jyoti hi pair = distinct articles from same magazine.
+- **+18 works** — remainder of Forge's Oct 7–8 batch (in feed, not DB): Kaznacheev & Trofimov distant-information-interactions (ru), Sheldrake morphic-fields/formative-causation (fr), cold fusion ko.wikipedia (ko), Wilhelm Grosse 'Der Aether und die Fernkraefte' 1898 e-rara (de), Storms 'Estudio de la Fusion en Frio' lenr-canr (es), Cunha ether-geometry base-12 (pt), Padligur radiesthetic bore-point report (de), legitim.ch Epstein-files cold-fusion piece (de), MHI ISS centrifuge facility (ja), yesilhaber LENR (tr), TU Delft dowsing-scientist (nl), Tesla FBI patents clubcurioso (es), PRIO/ENG8 industrial heat (pt), Benda psychotronics (it), CVUT/VSCHT psychoenergetic lab cs.wikipedia (cs), Lu Zuyin / Yan Xin Tsinghua external-qi (zh), Iberian regenerative-agriculture soil & water (es), Emoto water-memory eprudnik (pl).
+- **+8 persons**: kaznacheev, trofimov, edmond-storms, wilhelm-grosse, renato-cunha, reiner-padligur, lu-zuyin, yan-xin. Linked sheldrake, benda, tesla, masaru-emoto to the new works (by-or-about convention); deduped 3 persons' works_in_collection (tesla had a doubled entry).
+- Source URLs verified 18/18 live (200/206).
+- synthesis_index.json absent from repo (builder script present, artifact not published) — standing staleness check no longer applicable; noted, not regenerated.
+- Index sizes: 565 works, 453 persons. Contents-API pushes: 07e34bd0d (research-index), 8ff25aad7 (person-index). Collision re-check armed ~08:35 UTC.
+
