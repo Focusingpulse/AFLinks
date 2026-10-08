@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-08T14:02:53Z",
+  "as_of": "2026-10-08T16:01:22Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "letta model get -> deepseek/deepseek-v4.1-flash (provider openrouter, context 1,048,576, max output 16,384); no quota/rate-limit error at any point in this run; no switch to letta/auto, no gear-2 spend",
+  "evidence": "POST /v1/agents/$AGENT_ID/messages -> HTTP 200, assistant_message 'ok', stop_reason end_turn",
   "note": ""
 }
