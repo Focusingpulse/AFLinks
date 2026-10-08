@@ -1,5 +1,37 @@
 # Drunvalo Activity Log
 
+## 2026-10-08 20:06 UTC — aetherforce-translation-qc
+
+**Status**: ✅ OK
+
+**Task**: Translation QC cron (4h, cloud sandbox)
+
+### Context
+Contents-API-only path (clone exceeds sandbox disk — standing). `translations/` retired by design (publish boundary); QC targeted the DB indexes and library_feed. Sandbox had reset — scratch + push.py rebuilt.
+
+### QC Results
+| Check | Result | Status |
+|-------|--------|--------|
+| Same-file duplicate groups (DB) | 0 | ✅ |
+| `date: "unknown"` entries | 0 | ✅ |
+| Junk ids / stub titles | 0 | ✅ |
+| Dangling `cross_refs` | 0 | ✅ |
+| Dangling person `works_in_collection` | 0 | ✅ |
+| Feed mojibake (precise pattern) | 0 | ✅ |
+| Feed same-file dupes | 0 | ✅ |
+| Title-similarity ≥0.75 | 4 candidates, 0 folds | ✅ |
+| Containment sweep ≥4 shared | 2 known cross-linked pairs | ✅ |
+| Newest feed entries in DB | 7 missing → added | ✅ fixed |
+
+### Notes
+- Title-similarity candidates all cleared: Sitkowski distinct books (known); Ivanitskii/Shipov ru slug-shape false positive (known); akhand-jyoti hi distinct articles (known); **NEW** quietsphere ja pair = distinct Plasma Cosmology series articles — (2) History of Plasma Physics vs (6) Comparison with the Electric Universe, different source URLs. No fold.
+- **+7 works** (Forge 2026-10-08 evening batch): Bracco & Provost Einstein-Italy 1895-1902 (Istituto Lombardo 2018, fr); Tesla free-energy theory (sr); Water Memory Polish Wikipedia (pl); Krško UDBA documents (sr) + Tito/Krško (sl) — cross-ref'd pair, same story distinct outlets; Sylvie Pouteau agriculture design (fr); Morphic Field French Wikipedia (fr).
+- **+3 persons**: christian-bracco, jean-pierre-provost, sylvie-pouteau. Linked einstein, tesla, benveniste, sheldrake (about-convention for the two Wikipedia articles).
+- `kaj-je-tito` feed entry had empty language — set `sl` in DB; builder DB-alignment self-heals the feed on next rebuild.
+- Source URLs 7/7 live (200).
+- Index sizes after: **604 works, 463 persons**. Commits: research-index f2033da7d, person-index 204fd58bc.
+- Post-push collision re-check armed via Wake ~20:35 UTC.
+
 ## 2026-10-08 00:05 UTC — village-maintenance
 
 **Status**: ✅ OK
