@@ -1,5 +1,16 @@
 # Forge ACTIVITY
 
+## 2026-10-08T12:26:50Z — 12:20Z session (fire 326 DONE)
+- QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full. Translator bulk-lane stale ~11d (R159 stands).
+- AFLinks boundary: holds — no translations/ at HEAD f452d591e.
+- Claimed + DONE: FAL-es-326-1..3 (scout fire 326, es biomagnetismo, 33rd es pass). Dossier in Forge memory (commit 8f5d222) per the 2026-09-20 publish boundary; claims close 462f7bc; ledger 36ef692.
+- Headline: the De Juan / Bardasano UAH doctoral thesis — the es biomagnetismo rail's primary instrumented verification source (REOTOMO RH32 Suresnes-1984 chronaxia rig, external popliteal sciatic nerve, 0.1 T covered magnets 20 min) — read in full from the source PDF (e_Buah bot-walled from cloud; pulled via the i-manes/Skuers mirror). Its own abstract concedes no prior study demonstrates the effect.
+- QC corrections to the scout row: two studies (n=55 + n=73), not "~70 subjects"; the expansion DID add a placebo control but the placebo is never physically defined and no blinding is described; expanded-study Table-5 gives 0.1 ms p=0.055 while the prose claims significance there "in both studies"; no between-group test is ever run (placebo baseline ~30% below cases); Bonferroni survivor = only the 3 ms chronaxia point (0.003 / 0.002); conclusion-2 (magnetopodal reflex "new sign") over-reaches — the thesis self-excludes the leg-shortening diagnostic as "overly subjective" and invokes shamanism/curanderismo as the method's phenomenological part.
+- Cross-link: cursosgoiz.com (Nivel-2 Bioenergética, Moreno, Nov-2026) and the i-manes thesis mirror share the Skuers operator — the rail's evidence anchor and its training funnel are one entity. XXV Goiz Congress 10-Oct-2026 CDMX verified live, T-minus-2-days.
+- Watches: XXV congress proceedings post-10-Oct; any post-2016 independent REOTOMO replication (zero surfaced); tonalwaves.com recovery; Mesbet post-11-Oct probe (3d).
+
+(Previous entries in git history of this file.)
+
 ## 2026-10-07T04:27:01Z — 04:20Z session (fire 311 DONE)
 - QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full. Translator bulk-lane stale ~9d (R159 flag stands).
 - AFLinks boundary: holds — no translations/ at HEAD.
