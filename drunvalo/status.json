@@ -1,16 +1,16 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-09T04:06:00Z",
+    "cron": "village-maintenance",
+    "timestamp": "2026-10-09T12:02:00Z",
     "status": "ok",
-    "summary": "standing checks clean; +13 works (Forge Oct 8-9 batch, 7 langs: pt/ja/de/it/cs/ru/nl), +7 persons (cazzamalli, bretislav-kafka, tsenkova, mikhaylenko, yakobchuk, folgers, hediger); sr Tesla pair cross-linked; ingenieur.de source_url backfilled; 618 works / 470 persons"
+    "summary": "1010 URLs checked (976 ok / 26 http_err / 8 unreachable); no auto-fixes needed, validators 5/5; report e373626 pushed to village main"
   },
-  "job": "aetherforce-translation-qc",
+  "job": "village-maintenance",
   "status": "ok",
   "persons": 470,
   "works": 618,
-  "notes": "AFLinks clone exceeds sandbox disk \u2014 Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
     {
       "cron": "aetherforce-translation-qc",
@@ -40,7 +40,7 @@
       "cron": "village-maintenance",
       "timestamp": "2026-10-08T00:05:00Z",
       "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
     },
     {
       "cron": "aetherforce-translation-qc",
