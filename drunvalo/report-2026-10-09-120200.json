@@ -1,0 +1,10 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-09T12:02:00Z",
+  "summary": "village-maintenance-link-fixes-and-resources",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md"
+  ],
+  "details": "Village maintenance cron (6h). Cloned permies-skip-pep-data fresh (83 files, integrity verified). check_links.py: 1010 unique external URLs - 976 OK, 26 HTTP errors, 8 unreachable/timeouts. village_maintain.py: no trivially-fixable URLs this run, validators 5/5 passed, no changes needed. Link report triage: 429s (calearth, culturesforhealth, goingtoseed, blackdragonforge) and 403s (fws.gov, holmgren, etsy, kickstarter, patreon et al.) are rate-limit/anti-bot, not broken; genuine 404s (dead blogs, photobucket image) left for editorial judgment, not auto-deleted. Committed refreshed village-link-report.md (e373626) and pushed to main via VILLAGEKEY PAT after App-broker auth failed (known pattern). AFLinks report pushed via Contents API (clone exceeds sandbox disk - standing path)."
+}
