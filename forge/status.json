@@ -1,22 +1,16 @@
 {
   "agent": "translation-qc (Forge)",
-  "updated": "2026-10-09T00:25:00Z",
-  "session": "00:20Z 10-09",
-  "corpus": {
-    "translations": 225,
+  "updated": "2026-10-09T12:20Z",
+  "session": "translation-qc-and-scout-cloud 12:20Z",
+  "qc": {
+    "corpus_translations": 225,
     "frontmatter_bad": 0,
     "mojibake": 0,
-    "manifests": "249/247/210/178/220 full"
+    "atsyukovsky_manifests": "249/247/210/178/220 full",
+    "translator_bulk_lane": "stale ~12d (newest content 2026-09-27, R159 stands)"
   },
-  "translator_bulk_lane": "stale ~11.5d (R159 stands)",
-  "work": "CLOSED FAL-ja-328-1..3 (fire 328, ja+heart, 24th pass): the bell-ultrasound->heart bridge tier. BMFSA Salesian 1/f-ultrasonic school full JA->EN from J-STAGE PDFs (40kHz 1/f-AM 30% mod, lambda=-1.00744, A-S801+2xPT-R4, anechoic, myBeat WHS-2, n=20, Group2 P=0.03483 / pooled 0.07473) + NCNP 2025 Sci Rep hypersonic ANS row (FRS/HCS, n=40, context-flexible SNS/PNS, age-dependent) + Nishi-ure Dengaku ritual-HRV primary (ICISIP2021, all-11 LF/HF down, lambda=0.429 non-1/f, Best Presentation Award). 9 QC findings incl: NCNP NS-anchor asymmetry (every FRS>HCS matched by NS>HCS, zero FRS-vs-NS — paper concedes HCS-deficiency reading); Dengaku Table-2 3-axis confound + zero inferential stats; 3-tier ethics gradient (oral-only/oral+docs/committee A2023-061); stressor-is-the-carrier structure = the falsifiable discriminator for the bell carry.",
-  "claim": "FAL-ja-328-1..3 DONE (cron-coordination 0609403); dossier in Forge memory b1622f1; late CLOSE FAL-zh-327 bookkeeping repaired (phantom a94d1c7 never landed; dossier verified on disk 37b472c)",
-  "boundary": "holds - no translations/ at HEAD 85b3b5e49 (three-tier policy, Tier 2 pending Sandra)",
-  "last_run": "2026-10-09T00:20:00Z",
-  "rounds_completed": 1,
-  "last_summary": "QC 225/225 clean; manifests full (5/5); CLOSED fire 328 (ja heart bridge, memory b1622f1); 327 bookkeeping repaired; boundary holds; TET silence holds",
-  "last_status": "ok",
-  "corpus_translations": 225,
-  "summary": "00:20Z cloud: fire 328 CLOSED (ja+heart: BMFSA 1/f-AM ultrasonic parasympathetic school + NCNP 2025 hypersonic ANS + Dengaku ritual-HRV — the register's falsifiable 3-ingredient map for sacred-sound->heart: 1/f-ultrasound / raw HFC / repeating rhythm). 9 QC findings banked. Corpus 225/225 clean, 5 manifests full. AFLinks boundary holds. TET silence holds (newest 2026-04-09). Translator bulk-lane stale ~11.5d. Next: fire 329 (uk) or 330 (pt) per rotation.",
-  "open_claims": []
+  "boundary": "AFLinks holds: no translations/ at HEAD 620d049e1932, 837 top entries, archive 118675",
+  "closed": "FAL-uk-329-1..5 (fire 329 uk psychotronics): Zond Vega instrument purchase + Rivne V.E.G.A. identity (UA 45071); Skywatcher Dog-Whistle/Psionics/EEG-helmet operator rig; #323-#326 protocol frontier (meetings held through #326 16.09.2026, texts pending); Struchaiev TSATU patent cluster (UA 133429 atomizer pinned; UA 146502 Zatsarin->Nikolaev scalar abstract verbatim); CTX-EAG 2026 + ePPO UFO-category data rail (Table 6: 2025 all-source 18,025 vs filtered civilian-unidentified 3,492)",
+  "dossier": "Forge memory reference/translations/uk-vega-skywatcher-eppo-329/ (commit 1c05547) \u2014 publish boundary 2026-09-20",
+  "ledger": "cron-coordination a109d60 + 35ae91b"
 }
