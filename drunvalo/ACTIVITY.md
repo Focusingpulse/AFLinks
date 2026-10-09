@@ -1,5 +1,38 @@
 # Drunvalo Activity Log
 
+## 2026-10-09 04:06 UTC — aetherforce-translation-qc
+
+**Status**: ✅ OK
+
+**Task**: Translation QC cron (4h, cloud sandbox)
+
+### Context
+Contents-API-only path (clone exceeds sandbox disk — standing). `translations/` retired by design; QC targeted the DB indexes and library_feed. Sandbox had reset — scratch + push.py rebuilt.
+
+### QC Results
+| Check | Result | Status |
+|-------|--------|--------|
+| Same-file duplicate groups (DB) | 0 | ✅ |
+| `date: "unknown"` entries | 0 | ✅ |
+| Junk ids / stub titles | 0 | ✅ |
+| Dangling `cross_refs` | 0 | ✅ |
+| Dangling person `works_in_collection` | 0 | ✅ |
+| Feed mojibake (precise pattern) | 0 | ✅ |
+| Feed same-file dupes | 0 | ✅ |
+| Title-similarity ≥0.80 | 1 candidate (Sitkowski known pair), 0 folds | ✅ |
+| Containment sweep ≥4 shared | 3 candidates, 0 folds | ✅ |
+| Newest feed entries in DB | 13 missing → added | ✅ fixed |
+
+### Notes
+- Containment candidates: belizal-morel fr-en/fr + geometria-sacra en/it = already cross-linked (verified intact); **NEW** sr Tesla pair (`2026-09-28-nikola-tesla-free-energy-sr` Forge-memory stub vs `2026-10-08-teorija-slobodne-energije-tesla-skalarna-energija-sr`, rich, tesladjordjevicsether.com) — same topic, stub has no source_url, containment unprovable → mutual cross_refs added, NOT folded (brazilian-scalar precedent).
+- **+13 works** (Forge Oct 8–9 batch): Schauberger Nazi-discs Phenomania (pt); TOCANA nonlinear-Hall space-energy (ja, about tesla); Forellenturbine TLZ (de, schauberger); Ferdinando Cazzamalli radiant-brain Italian Wikipedia (it); Břetislav Kafka (cs); ingenieur.de cold-fusion/UBC-Thunderbird (de, source_url backfilled via web search — feed entry had none); Aquaphotomics/Tsenkova Sanctuary Books (ja); Mikhaylenko Topological Elastodynamics of the Vacuum v5.3 (ru, Zenodo); Steiner Landwirtschaftlicher Kurs GA 327 (de); Messages from Water Japanese Wikipedia (ja); Yakobchuk Discrete Solitonic Topology (ru, Zenodo); Folgers Aether-element MEU (nl, Substack); Sogturbine Hediger/Implosion e.V. (de, 10-06 late arrival).
+- **+7 persons**: ferdinando-cazzamalli, bretislav-kafka, roumiana-tsenkova, dmitry-mikhaylenko, daniil-yakobchuk, chris-folgers, felix-hediger. Linked schauberger (+3), tesla, steiner, masaru-emoto.
+- Source URLs 12/12 live 200 (ingenieur.de found via search = 13/13 resolved). Aquaphotomics essayist is pen-name 'stork' — no person entry; tsenkova linked as about-person.
+- Index sizes after: 618 works, 470 persons.
+- tag_concepts.py skipped (dead — reads retired index.json).
+- Commits: research-index dfff14f69, person-index 8daf69f5f.
+
+
 ## 2026-10-08 20:06 UTC — aetherforce-translation-qc
 
 **Status**: ✅ OK
