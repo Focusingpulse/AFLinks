@@ -1,0 +1,76 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-09T20:07:00Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "drunvalo/status.json",
+    "drunvalo/ACTIVITY.md"
+  ],
+  "details": {
+    "checks": {
+      "same_file_dupes": 0,
+      "title_similarity_candidates": 3,
+      "folds": 0,
+      "containment_candidates": 2,
+      "unknown_dates": 0,
+      "junk_ids": 0,
+      "dangling_cross_refs": 0,
+      "dangling_person_refs": 0,
+      "feed_mojibake": 0,
+      "feed_same_file_dupes": 0
+    },
+    "title_similarity_verdicts": [
+      "radiesthesie-fr-wiki vs radiesthesia-fa-wiki: distinct languages/sources, no action",
+      "sitkowski od-podstaw vs mentalna: known distinct books",
+      "quietsphere ja plasma-cosmology (2) vs (6): known distinct series articles"
+    ],
+    "containment_verdicts": [
+      "geometria-sacra en/it: already cross-linked",
+      "tesla free-energy sr 09-28 vs teorija-slobodne-energije sr 10-08: already mutually cross-referenced, 09-28 is Forge-memory dossier (no source to prove sameness), kept distinct"
+    ],
+    "bartusek_pair": "09-28 ENERGIS-24 lecture account (bartusek+sejvl) vs 10-09 technologis24.cz PDF: verified DISTINCT via PDF text (0 mentions of Sejvl/ENERGIS); kept both, mutual cross_refs added",
+    "added_works": 47,
+    "added_persons": 9,
+    "person_links": 27,
+    "index_sizes": {
+      "works": 665,
+      "persons": 479
+    },
+    "url_check": "44/47 live 200; ufology-news.com timeout (kept, not confirmed dead); keppemotor.com 406 anti-bot (kept); technologis24.cz confirmed live via direct PDF download (parallel-burst 466 was rate-limit)",
+    "tag_concepts_py": "SKIPPED (dead: reads index.json which no longer exists; archive sharded)",
+    "new_persons": [
+      "pietrzak",
+      "gao-peng",
+      "onoda-tomoyuki",
+      "norberto-keppe",
+      "ahmad-y-al-hassan",
+      "fotiadis",
+      "li-sichen",
+      "yamana-reishu",
+      "ilya-ber"
+    ],
+    "linked_persons": [
+      "daniel-risy(+12)",
+      "seiler-h",
+      "servranx",
+      "wojtkowiak",
+      "kovalenko",
+      "bartusek",
+      "alaa-al-halabi",
+      "pollack(+2)",
+      "benveniste(+2)",
+      "hannes-alfven",
+      "akimov",
+      "shipov",
+      "cartan",
+      "valeri-shkatov"
+    ],
+    "pushes": {
+      "research-index": "692f4281c8",
+      "person-index": "5e311343f0"
+    }
+  }
+}
