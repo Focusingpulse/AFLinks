@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-09T08:00:30Z",
+  "as_of": "2026-10-09T12:02:29Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "POST /v1/agents/$AGENT_ID/messages -> HTTP 200, coherent reply ('ok')",
-  "note": "gear 1 healthy; no flip, no config write"
+  "evidence": "probe HTTP 200, coherent reply (single word ok) from deepseek/deepseek-v4.1-flash at 2026-10-09T12:02Z",
+  "note": ""
 }
