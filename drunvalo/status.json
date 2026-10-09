@@ -1,17 +1,23 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-maintenance",
-    "timestamp": "2026-10-09T12:02:00Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-09T20:07:00Z",
     "status": "ok",
-    "summary": "1010 URLs checked (976 ok / 26 http_err / 8 unreachable); no auto-fixes needed, validators 5/5; report e373626 pushed to village main"
+    "summary": "standing checks clean (0 dupes, 0 dangling refs, 0 mojibake); +47 works (Forge Oct-9 batch, 16 languages: Risy notes x12, scalarwave zh x4, pietrzak pl x4, water-memory cluster), +9 persons, +27 person links; bartusek lecture/PDF pair verified distinct (PDF-checked) and cross-linked; 665 works / 479 persons"
   },
-  "job": "village-maintenance",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 470,
-  "works": 618,
+  "persons": 479,
+  "works": 665,
   "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-09T20:07:00Z",
+      "status": "ok",
+      "summary": "standing checks clean (0 dupes, 0 dangling refs, 0 mojibake); +47 works (Forge Oct-9 batch, 16 languages: Risy notes x12, scalarwave zh x4, pietrzak pl x4, water-memory cluster), +9 persons, +27 person links; bartusek lecture/PDF pair verified distinct (PDF-checked) and cross-linked; 665 works / 479 persons"
+    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-09T04:06:00Z",
@@ -61,5 +67,5 @@
       "summary": "standing checks clean; +32 works (Forge Oct-8 batch, 16 languages), +7 persons (john-keely, serge-kernbach, zainab-farghaly, al-battat, william-saliba, daniel-linder, quietsphere); 8 person links; morphic-fields pl/pl-en cross-linked; farghaly source_url backfilled via DOI; 597 works / 460 persons"
     }
   ],
-  "timestamp": "2026-10-09T04:06:00Z"
+  "timestamp": "2026-10-09T20:07:00Z"
 }
