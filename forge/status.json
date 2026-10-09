@@ -1,22 +1,22 @@
 {
   "agent": "translation-qc (Forge)",
-  "updated": "2026-10-08T12:26:50Z",
-  "session": "12:20Z 10-08",
+  "updated": "2026-10-09T00:25:00Z",
+  "session": "00:20Z 10-09",
   "corpus": {
     "translations": 225,
     "frontmatter_bad": 0,
     "mojibake": 0,
     "manifests": "249/247/210/178/220 full"
   },
-  "translator_bulk_lane": "stale ~11d (R159 stands)",
-  "work": "CLOSED FAL-es-326-1..3 (fire 326, es biomagnetismo): De Juan UAH doctoral thesis (REOTOMO/chronaxia, def.2016 Sobresaliente) full-read from source PDF \u2014 two studies (30+25 no-magnet; 42+31 placebo), 0.1T magnets trunk-N/lumbar-S 20min, RH32 rheotome. QC: N=55+73 not '~70'; placebo never physically defined; Table-5 p=0.055 at 0.1ms claimed significant in prose; no between-group test ever run (baselines diverge ~30%); Bonferroni keeps only the 3ms chronaxia point in both studies; magnetopodal-reflex conclusion over-reaches (diagnostic sign self-excluded as subjective); Skuers network = thesis mirror + training commerce one operator. XXV Goiz Congress 10-Oct CDMX verified live (T-2d); es GDV/Bio-Well surface + Dabar/TonalWaves pilots verified. Mafra 0 (33rd es read).",
-  "claim": "FAL-es-326-1..3 DONE (cron-coordination 462f7bc); dossier in Forge memory 8f5d222",
-  "boundary": "holds - no translations/ at HEAD f452d591e (three-tier policy, Tier 2 pending Sandra)",
-  "last_run": "2026-10-08T20:20:00Z",
+  "translator_bulk_lane": "stale ~11.5d (R159 stands)",
+  "work": "CLOSED FAL-ja-328-1..3 (fire 328, ja+heart, 24th pass): the bell-ultrasound->heart bridge tier. BMFSA Salesian 1/f-ultrasonic school full JA->EN from J-STAGE PDFs (40kHz 1/f-AM 30% mod, lambda=-1.00744, A-S801+2xPT-R4, anechoic, myBeat WHS-2, n=20, Group2 P=0.03483 / pooled 0.07473) + NCNP 2025 Sci Rep hypersonic ANS row (FRS/HCS, n=40, context-flexible SNS/PNS, age-dependent) + Nishi-ure Dengaku ritual-HRV primary (ICISIP2021, all-11 LF/HF down, lambda=0.429 non-1/f, Best Presentation Award). 9 QC findings incl: NCNP NS-anchor asymmetry (every FRS>HCS matched by NS>HCS, zero FRS-vs-NS — paper concedes HCS-deficiency reading); Dengaku Table-2 3-axis confound + zero inferential stats; 3-tier ethics gradient (oral-only/oral+docs/committee A2023-061); stressor-is-the-carrier structure = the falsifiable discriminator for the bell carry.",
+  "claim": "FAL-ja-328-1..3 DONE (cron-coordination 0609403); dossier in Forge memory b1622f1; late CLOSE FAL-zh-327 bookkeeping repaired (phantom a94d1c7 never landed; dossier verified on disk 37b472c)",
+  "boundary": "holds - no translations/ at HEAD 85b3b5e49 (three-tier policy, Tier 2 pending Sandra)",
+  "last_run": "2026-10-09T00:20:00Z",
   "rounds_completed": 1,
-  "last_summary": "QC 225/225 clean; manifests full (5/5); CLOSED stranded fire-291 (zh bell/chime dossier, memory c9e372b); boundary holds",
+  "last_summary": "QC 225/225 clean; manifests full (5/5); CLOSED fire 328 (ja heart bridge, memory b1622f1); 327 bookkeeping repaired; boundary holds; TET silence holds",
   "last_status": "ok",
   "corpus_translations": 225,
-  "summary": "20:20Z cloud: fire 327 CLOSED (zh sheng free-reed tier: CAS Acta Acustica rig + JAA timbre space + Harbin dian-reed FEM + QB/T 1947.3-2012; +2025 guqin robot-arm/Xidao patent cluster; +Dunhuang lineage; +NTNU guzheng position law; +NPUST bianzhong full-PDF). 8 QC findings banked. Corpus 225/225 clean, 5 manifests full. AFLinks boundary holds (no translations/). TET silence holds. Translator bulk-lane stale ~11d. Next: fire 328 (ja+heart).",
+  "summary": "00:20Z cloud: fire 328 CLOSED (ja+heart: BMFSA 1/f-AM ultrasonic parasympathetic school + NCNP 2025 hypersonic ANS + Dengaku ritual-HRV — the register's falsifiable 3-ingredient map for sacred-sound->heart: 1/f-ultrasound / raw HFC / repeating rhythm). 9 QC findings banked. Corpus 225/225 clean, 5 manifests full. AFLinks boundary holds. TET silence holds (newest 2026-04-09). Translator bulk-lane stale ~11.5d. Next: fire 329 (uk) or 330 (pt) per rotation.",
   "open_claims": []
 }
