@@ -1,5 +1,43 @@
 # Drunvalo Activity Log
 
+## 2026-10-09 20:07 UTC — aetherforce-translation-qc
+
+**Status**: ✅ OK
+
+**Task**: Translation QC cron (4h, cloud sandbox)
+
+### Context
+Contents-API-only path (clone exceeds sandbox disk — standing). Sandbox had reset; scratch + helpers rebuilt. Forge's Oct-9 batch was large (47 works, 16 languages).
+
+### QC Results
+| Check | Result | Status |
+|-------|--------|--------|
+| Same-file duplicate groups (DB) | 0 | ✅ |
+| `date: "unknown"` entries | 0 | ✅ |
+| Junk ids / stub titles | 0 | ✅ |
+| Dangling `cross_refs` | 0 | ✅ |
+| Dangling person `works_in_collection` refs | 0 | ✅ |
+| Feed mojibake (precise pattern) | 0 | ✅ |
+| Feed same-file dupes | 0 | ✅ |
+| Title-similarity candidates | 3 — 0 folds (fr/fa wiki radiesthesia pair distinct sources; Sitkowski distinct books; quietsphere ja series articles) | ✅ |
+| Containment candidates | 2 — 0 folds (geometria-sacra en/it already cross-linked; sr Tesla pair already cross-referenced, sameness unprovable) | ✅ |
+| tag_concepts.py | SKIPPED (dead — reads retired index.json) | ⏭️ |
+
+### Bartušek pair resolved (verified distinct, cross-linked)
+`2026-09-28-voda-s-usporadanou-strukturou-bartusek-cs` (ENERGIS 24 lecture account, authors bartusek+sejvl) vs new `2026-10-09-usporadana-struktura-vody-bartusek-cs` (technologis24.cz PDF). Downloaded the PDF: 0 mentions of Sejvl or ENERGIS — distinct documents by the same author on the same topic. Kept both, mutual cross_refs added.
+
+### Forge Oct-9 batch → DB (47 works, 9 new persons, 27 person links)
+- **Risy series ×12**: notes 1–5, 7–11 + champ-de-torsion-et-onde-de-forme + varroa radionics (daniel-risy; notes7↔notes11 mutual cross-refs)
+- **scalarwave.cc ×4** (zh): new person gao-peng (gpufo) — 2.2 km non-local torsion experiment, 2016 Moscow conference summary, torsion-communication progress, about page
+- **Pietrzak ×4** (pl): new person — Bovis-scale symbol/shape energy measurements
+- **Water cluster**: onoda-tomoyuki ja (new), yamana-reishu ja (new), provereno ru fact-check (ilya-ber new + benveniste about-link), infopathy ko 30th anniversary (benveniste), FHI twisting-water de, KIT water-fibers de, NEXUS fourth-phase de (pollack), Psiram EZ-Wasser de (pollack about-link)
+- **Torsion**: ru-wiki torsion fields (akimov/shipov/cartan about-links), li-sichen three-books zh (new person), kovalenko form-effect ru, tavole-radioniche-torsionali it
+- **Radiesthesia/dowsing**: wunschelrute de-wiki, radiestesia es-wiki, radionica skepsis nl, ravdoskopia el (fotiadis new), za-podstatou-proutkareni cs, servranx construction-appareils fr, homeopatia-2025 wojtkowiak pl
+- **Other**: keppe-motor pt (norberto-keppe new), plasma-cosmology ja-wiki (hannes-alfven), seiler-h magnetismus-aetherwirbel de, alaa-al-halabi pyramid-energy ar, ahmad-y-al-hassan jabir-chemistry ar (new), srcaa-zond minutes uk, dokuz8 higgs-alternative tr
+- Source URLs: 44/47 live 200; ufology-news timeout (kept), keppemotor 406 anti-bot (kept), technologis24 confirmed live via direct PDF download
+- Index sizes: **665 works / 479 persons**
+- Pushes: research-index `692f4281c8`, person-index `5e311343f0`
+
 ## 2026-10-09 12:02 UTC — village-maintenance
 
 **Status**: ✅ OK
