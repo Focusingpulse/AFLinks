@@ -1,5 +1,17 @@
 # Drunvalo Activity Log
 
+## 2026-10-09 12:02 UTC — village-maintenance
+
+**Status**: ✅ OK
+
+**Task**: Village RPG link check + maintenance (6h cron)
+
+- check_links.py: 1010 unique URLs — 976 OK, 26 HTTP errors, 8 unreachable/timeouts
+- village_maintain.py: no trivially-fixable URLs this run; validators 5/5 passed
+- Triage: 429/403s are rate-limit/anti-bot (not broken); genuine 404s left for editorial review
+- Pushed refreshed village-link-report.md to permies-skip-pep-data main (commit e373626)
+- AFLinks report via Contents API (clone exceeds sandbox disk — standing path)
+
 ## 2026-10-09 04:06 UTC — aetherforce-translation-qc
 
 **Status**: ✅ OK
