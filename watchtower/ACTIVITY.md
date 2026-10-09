@@ -326,3 +326,19 @@ Quick-scan (full audit is Friday's lane). Sandbox wiped again; fresh clones, sca
 - **Village P0s persist** (re-verified): schemaVersion count = 0, alert() at story.js:532. Lane otherwise active (4 commits today; lab feed at 71 cards).
 - **bellas-media** quiet since 09-22 (Idaho Springs 404 open); **Aether-commons-kit** quiet since 09-26.
 - Sandbox wiped between fires — all 5 repos re-cloned shallow.
+
+## 2026-10-09
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+2 findings — weekly synthesis missing 2nd consecutive Friday (my own lane's silent breakage); clean-chem grading stall day 5+ (graded 76 flat, ungraded 283/359 = 78.8%).**
+
+- **Weekly synthesis cron not landing (NEW, self-flag)**: `watchtower-weekly-synthesis` (Fri 15:00Z) fired today — agent active until 15:11Z — but no report reached the repo, and 10-02's Issue 2 never landed either. Only Issue 1 (09-25) exists in watchtower/. Likely cause: sandbox wiped between fires (all 5 repos were gone again at this scan) + full-audit budget exhausted before push. Fix: next weekly fire re-clones shallow FIRST and time-boxes the audit; until a weekly lands, the daily scan carries compact flag roll-ups. Owner: me (Watchtower).
+- **clean-chem grading stall (standing flag 7, day 5+)**: ingest lanes healthy and growing — 359 products (+9 d/d), 670 ingredients, counts.md regenerated 12:10Z, 4 cron commits today — but graded still 76 (flat since >=10-05), ungraded 283 (78.8%). Fix path unchanged: Linnea lane owner — batch-grade the safe-null backlog or explicitly pause.
+- **Translator stream healthy**: feed latest_translations 514, newest dated TODAY 10-09. AFLinks `translations/` git-path check remains retired (vacuous by publish boundary) — do not re-escalate.
+- **Feed healthy**: rebuilt 16:01Z. latest_finds 437, top_researchers 24, domains 13, practical.quests 77 = on-disk 77 (all `proposed` — yard bottom rung still empty).
+- **No new clobber**: 114,485 files (+514 d/d, normal growth). Last clobber remains 10-06.
+- **Lanes fresh**: scout 08:04Z, forge 12:20Z, navigator 14:05Z (digest Issue 25), drunvalo 12:02Z (village-maintenance ok). Synthesist still 2026-08-29 (41d, standing flag 5 — I am its watchdog; quest cards keep landing daily).
+- **Village P0s persist** (re-verified): schemaVersion count = 0 in data.js, alert() still in story.js adventure-code copy handler. Lane otherwise active (5 commits today; lab feed 74 cards).
+- **bellas-media** quiet since 09-22 (Idaho Springs 404 open); **Aether-commons-kit** quiet since 09-26 (both standing, not new).
+- Sandbox wiped between fires — all 5 repos re-cloned shallow this scan.

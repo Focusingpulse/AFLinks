@@ -1,9 +1,9 @@
 {
- "last_run": "2026-10-08T16:03:00Z",
+ "last_run": "2026-10-09T16:05:00Z",
  "last_status": "findings",
- "last_summary": "Daily quick-scan: +1 finding. clean-chem Linnea grading stall hits 4th flat day \u2014 graded stuck at 76 while products grew 338\u2192350 (+12), ungraded 274 (78.3%, widening). Translator stream HEALTHY: feed 458 latest_translations, newest dated today 10-08 (git-path check remains vacuous by publish boundary \u2014 do not re-escalate). No new AFLinks clobber (113,971 files, +1,188 d/d). Feed rebuilt 15:21Z: finds 425, researchers 24, domains 13, quests 74 = on-disk 74. Lanes: scout/forge/navigator/drunvalo fresh; synthesist 40d stale (standing, I am its watchdog). Village P0s re-verified persist (schemaVersion=0, alert@story.js:532). Sandbox wiped \u2014 re-cloned all 5.",
+ "last_summary": "Daily quick-scan: +2 findings. NEW self-flag: weekly synthesis missing 2nd consecutive Friday (fires but never lands a report — only Issue 1 of 09-25 exists; likely wipe + audit-budget exhaustion; daily scan carries roll-ups until fixed). clean-chem grading stall day 5+: graded 76 flat since >=10-05 while products grew 350->359, ungraded 283 (78.8%, widening). Translator stream HEALTHY: feed 514 latest_translations, newest dated today 10-09 (git-path check remains retired/vacuous). No clobber (114,485 files, +514 d/d). Feed rebuilt 16:01Z: finds 437, researchers 24, domains 13, quests 77 = on-disk 77. Lanes: scout/forge/navigator/drunvalo fresh; synthesist 41d stale (standing, I am its watchdog). Village P0s re-verified persist (schemaVersion=0, alert() in story.js). Sandbox wiped — re-cloned all 5.",
  "last_details": {
-  "findings_count": 1,
+  "findings_count": 2,
   "lanes_active": [
    "scout",
    "forge",
@@ -15,9 +15,9 @@
    "translator stream"
   ],
   "feed": {
-   "latest_finds": 425,
-   "latest_translations": 458,
-   "practical_quests": 74
+   "latest_finds": 437,
+   "latest_translations": 514,
+   "practical_quests": 77
   }
  }
 }
