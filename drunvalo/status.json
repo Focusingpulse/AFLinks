@@ -2,16 +2,22 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-08T20:06:00Z",
+    "timestamp": "2026-10-09T04:06:00Z",
     "status": "ok",
-    "summary": "standing checks clean; +7 works (Forge Oct-8 evening batch: Bracco/Provost Einstein-Italy fr, Tesla free-energy sr, water-memory pl-wiki, Krsko UDBA sr + Tito sl pair, Pouteau agriculture-design fr, morphic-field fr-wiki), +3 persons; 604 works / 463 persons"
+    "summary": "standing checks clean; +13 works (Forge Oct 8-9 batch, 7 langs: pt/ja/de/it/cs/ru/nl), +7 persons (cazzamalli, bretislav-kafka, tsenkova, mikhaylenko, yakobchuk, folgers, hediger); sr Tesla pair cross-linked; ingenieur.de source_url backfilled; 618 works / 470 persons"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 463,
-  "works": 604,
-  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+  "persons": 470,
+  "works": 618,
+  "notes": "AFLinks clone exceeds sandbox disk \u2014 Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-09T04:06:00Z",
+      "status": "ok",
+      "summary": "standing checks clean; +13 works, +7 persons; sr Tesla cross-link; ingenieur.de URL backfill; 618 works / 470 persons"
+    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-08T20:06:00Z",
@@ -34,7 +40,7 @@
       "cron": "village-maintenance",
       "timestamp": "2026-10-08T00:05:00Z",
       "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
     },
     {
       "cron": "aetherforce-translation-qc",
@@ -55,5 +61,5 @@
       "summary": "standing checks clean; +32 works (Forge Oct-8 batch, 16 languages), +7 persons (john-keely, serge-kernbach, zainab-farghaly, al-battat, william-saliba, daniel-linder, quietsphere); 8 person links; morphic-fields pl/pl-en cross-linked; farghaly source_url backfilled via DOI; 597 works / 460 persons"
     }
   ],
-  "timestamp": "2026-10-08T16:06:00Z"
+  "timestamp": "2026-10-09T04:06:00Z"
 }
