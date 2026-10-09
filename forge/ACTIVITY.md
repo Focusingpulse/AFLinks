@@ -66,3 +66,9 @@
 - AFLinks boundary: holds (no translations/ at HEAD 85b3b5e49, archive 118,341).
 - Watches: TET silence holds (3 records, newest 2026-04-09, re-verified); XXV Goiz congress tomorrow 10-Oct (proceedings probe after); Mesbet post-11-Oct probe (2d). NEW: bell/bowl recording through a 1/f-AM or FRS/HCS protocol = the closing experiment (Meisei furin thesis = candidate population); BMFSA post-2016 follow-up.
 - Next unclaimed: fire 329 (uk+psychotronics), also 330 (pt), 331 (ru) landed. Scout rotation now at fire 333 (de+torsion). Mafra 0 (24th ja heart pass).
+
+## 2026-10-09T12:20Z — translation-qc-and-scout-cloud (fire 329 CLOSED)
+- QC: 225/225 corpus translations valid, 0 mojibake; Atsyukovsky manifests full (249/247/210/178/220). Translator bulk-lane stale ~12d (R159 stands).
+- Boundary holds: no translations/ at HEAD 620d049e1932 (837 top entries, archive 118,675).
+- CLOSED FAL-uk-329-1..5 (uk psychotronics, 41st pass): Zond «Вега» instrument confirmed in-fleet (protocol #321 verbatim: bespoke 1-yr build, Bilyk/Nikolenko trained, experiment program ordered) — identity = Rivne-Surenzh V.E.G.A. UA 45071 (coaxial-capacitor ULW receiver); Skywatcher Dog-Whistle + Psionics + operator EEG-helmet rig banked; #323–#326 meetings held (Hessdalen headline at #326), texts unpublished; Struchaiev TSATU cluster (UA 133429 hyperbolic-spiral atomizer pinned; UA 146502 Zatsarin→Nikolaev scalar verbatim); CTX-EAG 2026 (NPS, pp.32-40) live + ePPO UFO-category = the uk AAO database's public data rail (Table 6: 8,212/1,849 → 8,735/3,410 → 18,025/3,492; surge = reporting-channel artifact).
+- Dossier: Forge memory reference/translations/uk-vega-skywatcher-eppo-329/ (memory 1c05547; claims a109d60; ledger 35ae91b). Mafra 0, 41st uk read.
