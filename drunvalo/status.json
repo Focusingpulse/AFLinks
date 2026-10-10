@@ -1,35 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-content-growth",
-    "timestamp": "2026-10-10T00:20:27Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-10T04:06:00Z",
     "status": "ok",
-    "summary": "village-growth: 8 new BB quests (wiki-verified reqs, es/fr/de translations), 3 library resources (ABANA, Scientific Beekeeping, Handweaving.net), master_quests 529->435 unique (+28 new pages, -122 paginated dupes), links 977/1013 OK; village@280a439 rebased over concurrent maintenance push"
+    "summary": "translation-QC: standing checks all clean; +10 works (Forge Oct 9-10 batch: Boudet Tesla-ether fr, ABC Figuera es, Kaznacheev-Trofimov Kozyrev-space ru, Rychnowski elektroid pl, plasma-cosmology wiki pl, Schauberger radioawangarda pl, Bukalov consciousness-levels ru, Risy carnets-preamble fr, stop5g torsion-hologram cs, Shekhovtsov-Novichenko water-and-time ru), +5 persons, +8 person links, +3 reverse cross-refs; 685 works / 484 persons"
   },
-  "job": "village-content-growth",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 478,
-  "works": 666,
-  "notes": "AFLinks clone exceeds sandbox disk \u2014 Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+  "persons": 484,
+  "works": 685,
+  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
-    {
-      "cron": "aetherforce-synthesis",
-      "timestamp": "2026-10-10T00:15:00Z",
-      "status": "ok",
-      "summary": "synthesis: the qi-torsion bridge \u2014 Chinese external-qi measurement program (Tsinghua/CAS/NTU) independently identified qi with the torsion/spin field, converging with the Russian Kozyrev-Akimov-Shipov line; +1 synthesis work, folded li-sichen->li-si-chen person dupe, xiding authors fix, 10 persons linked, 2 ledger upgrades; 666 works / 478 persons"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-09T20:07:00Z",
-      "status": "ok",
-      "summary": "standing checks clean (0 dupes, 0 dangling refs, 0 mojibake); +47 works (Forge Oct-9 batch, 16 languages: Risy notes x12, scalarwave zh x4, pietrzak pl x4, water-memory cluster), +9 persons, +27 person links; bartusek lecture/PDF pair verified distinct (PDF-checked) and cross-linked; 665 works / 479 persons"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-09T04:06:00Z",
-      "status": "ok",
-      "summary": "standing checks clean; +13 works, +7 persons; sr Tesla cross-link; ingenieur.de URL backfill; 618 works / 470 persons"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-08T20:06:00Z",
@@ -52,7 +34,7 @@
       "cron": "village-maintenance",
       "timestamp": "2026-10-08T00:05:00Z",
       "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
     },
     {
       "cron": "aetherforce-translation-qc",
@@ -83,7 +65,13 @@
       "timestamp": "2026-10-10T00:20:27Z",
       "status": "ok",
       "summary": "village-growth: 8 new BB quests (wiki-verified reqs, es/fr/de translations), 3 library resources (ABANA, Scientific Beekeeping, Handweaving.net), master_quests 529->435 unique (+28 new pages, -122 paginated dupes), links 977/1013 OK; village@280a439 rebased over concurrent maintenance push"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-10T04:06:00Z",
+      "status": "ok",
+      "summary": "translation-QC: standing checks all clean; +10 works (Forge Oct 9-10 batch: Boudet Tesla-ether fr, ABC Figuera es, Kaznacheev-Trofimov Kozyrev-space ru, Rychnowski elektroid pl, plasma-cosmology wiki pl, Schauberger radioawangarda pl, Bukalov consciousness-levels ru, Risy carnets-preamble fr, stop5g torsion-hologram cs, Shekhovtsov-Novichenko water-and-time ru), +5 persons, +8 person links, +3 reverse cross-refs; 685 works / 484 persons"
     }
   ],
-  "timestamp": "2026-10-10T00:20:27Z"
+  "timestamp": "2026-10-10T04:06:00Z"
 }
