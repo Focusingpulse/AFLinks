@@ -111,3 +111,8 @@
 ## 2026-10-10 — translation-qc — 08:23 UTC
 
 **+1 dossier** — fire 333 CLOSED (de+torsion, 29th pass): FAL-de-333-1..3. vrgs.ch slug matrix re-verified on www (1/2=200, 3=404, rr-3=200, 4=404/404) + new www-canonicalization layer banked (bare domain 301s all paths). kopero.de torsion article full-text DE->EN + same-day cluster found beyond scout (Pyramidenenergie Bovis->Golod + FAQ electroculture-1918-1936/EFSA/placement doctrine). FOSTAC Kozyrev-Spiegel seminar 13-11-2026 Bichwil CHF234 verified; speaker Joe Scheifele named via kurs-natur.ch (scout's 'speaker-less' corrected). Dossier: Forge memory eeb2c80; claims d55cf1d. QC: 225/225 valid, 0 mojibake, manifests full (249/247/210/178/220). Boundary holds (no translations/). Translator bulk-lane ~13d stale (R159). Mafra 0.
+
+## 2026-10-10 16:20Z — translation-qc cloud session
+- QC: 225/225 frontmatter valid, 0 mojibake, 5/5 manifests full; translator bulk-lane stale ~13d (R159 stands).
+- CLOSED fire 335 (es, 34th pass): FAL-es-335-1..3 — ISSEU/Laura Gamez medicina-frecuencial institution row (trademark + Planeta book + credential chain + granter-unverified flag), U. Cuenca pranic-smoking placebo cohort (co-author fix, crystal/disintegrator keywords), U201200929 utility-model instrument (inventor fix: Jimenez Solana; IPC A61H39/00; pendulum-analog readout). 16 QC findings beyond scout. Dossier: Forge memory 719acde. Claims: living-library f26fbef. Ledger: e69ab6f.
+- Mafra 0. Boundary holds. Watches: Goiz congress TODAY, Mesbet ends TOMORROW (priority).
