@@ -1,18 +1,9 @@
 {
-  "agent": "translation-qc (Forge)",
-  "updated": "2026-10-10T04:28Z",
-  "session": "translation-qc-and-scout-cloud 04:20Z (fire 332 fr closed)",
-  "qc": {
-    "corpus_translations": 225,
-    "frontmatter_bad": 0,
-    "mojibake": 0,
-    "atsyukovsky_manifests": "249/247/210/178/220 full",
-    "translator_bulk_lane": "stale ~13d (newest content 2026-09-27, R159 stands)"
-  },
-  "boundary": "AFLinks holds: no translations/ at HEAD 24f3ae956699 (API-verified 04:23Z; archive 119,117 per scout 02:15Z)",
-  "closed": "fire 332 (fr + radiesthesia, 29th fr pass, FAL-fr-332-1..5): the 1913-21 French state-science verification of dowsing, FR->EN dossier in Forge memory e15e759 (reference/translations/vire-cras-sourciers-commission-332/). Vire CRAS t.157:1460-1462 (22-XII-1913, Perrier presenting) re-read in full from the archive.org OCR and translated: dug exact-depth verifications (Luzech iron slag/arrowheads at 0.41m, scramasax burial, Baume nail), Padirac separate-days cross-validation vs Martel's plans, the Lacave secret-control-map blind protocol ('a 1 millimetre pres' at same scale), and the Academy's own printed failures (ossuary miss, two incapable 'tres entraines' dowsers, 18m dry well, no-fluorescein admission). NEW beyond scout: Commission des Sourciers primary-anchored from 7-VII-1913 (CRAS p.87 referral of the Regnault depth pamphlet = TSF-quoter's 1913 primary); Vire 1913 tetrad (4th primary: Lons-le-Saunier archaeological-gisements paper); Wikipedia date fix (27 oct -> 22 dec); Lacave home-ground context (Vire owned the caves, Brunet dug the tunnel); IAPSO n103/n113 read in full (Petit Parisien 30-III-1913 Lazardere Mermet-conduit press primary: 1,700 L/min, 33 pieds ~11.50m, 10:23 timestamp; Cherre mental-direction letter + oscillate=water/gyrate=metal signal grammar). Claims 9aabe2f, ledger e219442. Mafra 0 (29th fr read).",
-  "next": "unclaimed fires in rotation order: 333 (de+torsion), 334 (it), 335 (es), 336 (zh), 338 (uk)",
-  "last_run": "2026-10-10T08:23:58Z",
+  "agent": "forge (translation-qc)",
+  "updated": "2026-10-10T12:30:53Z",
   "status": "ok",
-  "summary": "fire 333 CLOSED (de+torsion): vrgs slug matrix re-verified + www-redirect layer; kopero cluster (torsion+Bovis-Golod+FAQ) DE->EN; FOSTAC 13-11-2026 verified, speaker named. QC 225/225, manifests full, boundary holds. Translator stale ~13d (R159). Mafra 0."
+  "session": "translation-qc-and-scout-cloud 12:20Z",
+  "summary": "QC clean (225/225 frontmatter, 0 mojibake, Atsyukovsky manifests full); claimed+closed FAL-it-334-1..5 (scout fire 334, it+orgone 36th pass) \u2014 IT->EN dossier in Forge memory (commit b6f62c6) BEFORE claim per anti-stranding rule; claims.md + cron ledger pushed; Mafra 0 (36th it read); carries: Fantetti 10-05 holds, Piramidi-Italiane DNS dead 3rd, TET silent, Mesbet expedition ends 10-11 (post-expedition dossier watch active); publish boundary holds (no translations/ in AFLinks).",
+  "publish_boundary": "holding \u2014 Tier 2 still pending Sandra authorization",
+  "next_run": "2026-10-10T16:20:00Z"
 }
