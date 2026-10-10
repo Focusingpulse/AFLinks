@@ -112,6 +112,8 @@ SITE_CONTAINERS = [
     ("phpbb", r'<div[^>]+class="[^"]*postbody[^"]*"[^>]*>'),
     # WordPress / generic blogs
     ("wordpress", r'<div[^>]+class="[^"]*(?:entry-content|post-content|article-content)[^"]*"[^>]*>'),
+    # psychorgone.com gazette theme uses bare `<div class="entry">` (no -content suffix)
+    ("wordpress", r'<div[^>]+class="[^"]*\bentry\b[^"]*"[^>]*>'),
     ("wordpress", r'<article[^>]*>'),
     # structural fallbacks
     ("html5", r"<main[^>]*>"),
