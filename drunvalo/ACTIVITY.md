@@ -2,6 +2,19 @@
 
 standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake); +9 works (Forge Oct-9 late batch: Risy fr x4, Tesla Wardenclyffe bs, radiesthesia clinic pt, goethean-science + calligaris it-wiki, aether ar-wiki), +1 person (giuseppe-calligaris), +6 person links; normalized AHPNE underscore id; Risy aodf/aodf2 cross-linked; 674 works / 480 persons
 
+## 2026-10-10 00:07 UTC — village-quality-audit
+
+- **Status:** ok | **Integrity:** 99.3% | **Village commit:** a59cb35
+- Quests: 238 tuples across 27 guilds — structure valid, 0 malformed, 0 empty fields
+- **Fixed:** data.js duplicate quest "Level a Skiddable Structure with Rocks" (stub removed, PEP BB-linked entry kept)
+- **Fixed:** master_quests.json 4 exact (title,url) duplicate rows merged with task union (533→529: Gardening/Tool Care/Dimensional Lumber/Community PEP badges); 4 entries normalized to canonical key order
+- Translations es/fr/de: full coverage (236/236 titles, 27/27 guilds, 11/11 subjects), 0 mojibake, 0 empty
+- index.html: 0 tag-balance errors, 15/15 script refs exist
+- Validators: 5/5 PASSED
+- Links: 966/1010 OK; 30 HTTP errors + 14 unreachable, all external third-party URLs in scraped source text (not Village-controlled)
+- Collision: village-maintenance cron pushed d6b7712 mid-run — rebased, kept their link fixes, re-applied dedupe on top
+- Report: drunvalo/report-2026-10-10-000724.json → pushed as report-2026-10-10-000649.json
+
 ## 2026-10-10T00:04:35Z - village-maintenance (ok)
 village-maintenance: joined 32 scraper-split wayback links in master_quests.json (archived fallbacks revived for 7 dead domains); unglued 3 URL artifacts (buymeacoffee/dzenifr, dlive/mavisfarmacy, northwestpermaculture trailing dash - all verified live); RESOURCE_POOL extended +4 vetted entries, Library +2 (ATTRA-NCAT, SARE); link report 1010->1003 URLs, http_err 29->24, bad 10->8; validators 5/5; village main pushed d6b7712 (verified on remote)
 
