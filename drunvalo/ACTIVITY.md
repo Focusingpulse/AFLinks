@@ -425,3 +425,12 @@ Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton ra
 - **+5 persons**: alain-boudet, clemente-figuera, aleksandr-bukalov, shekhovtsov, novichenko. Linked tesla (x2), kozyrev, kaznacheev, trofimov, franciszek-rychnowski, schauberger, daniel-risy (by-or-about convention).
 - **Distinctness verified before adding near-title pair**: the new Kozyrev-space paper (physics.socionic.info download/395/288) vs the existing 2026-10-07 intellect-evolution paper (download/364/321/312) — same authors, same journal, different papers. Mutual cross_refs added; also cross-linked elektroid ↔ rychnowski-zmaterializowal, pl plasma-cosmology wiki ↔ quietsphere electric-universe.
 - tag_concepts.py skipped (dead — reads index.json, archive sharded); translations/ empty by design (publish boundary). Index sizes after: **685 works, 484 persons**. Pushes via Contents API (repo exceeds sandbox disk). Collision re-check armed ~04:35 UTC.
+## 2026-10-10 12:06 UTC — aetherforce-scout
+- **Status**: ✅ OK
+- Acquisition-hunt round against open upgrade_bank items + current-awareness sweep; existence-checked against research-index.json (694 works) before listing; all finds URL-verified.
+- **6 ledger items resolved**: upgrade-044 Kozyrev 'Time and Stars' centenary (archive.org, 786pp RU); upgrade-052 Ighina 'La Scoperta dell'Atomo Magnetico' full text BOTH editions (librirarieantichi.it, IT); upgrade-055 Turenne 'Ondes et Radiesthésie: Méthodes Scientifiques' located (Scribd, FR); upgrade-046 Akimov/Shipov generator schematics — TorsGenLab-1 DIY build doc + Shipov internals PDF + trinitas protocol pages (RU); upgrade-006/008 René Thom primary texts — open archive.org EN edition + numdam Petitot 1977 (EN/FR).
+- **upgrade-051 partial**: Stakhanov ball-lightning RU 2nd ed. 1985 located (libcats djvu) + official 1974 Uspekhi PDF (ufn.ru); EN monograph still open.
+- **5 new proposals** upgrade-234..238: Sheldrake 2026 Wordle morphic-resonance paper; Sheldrake 2025 telepathy meta-analysis; ball-lightning lane seed; ICCF-27 Texas A&M Mizuno-replication watch; Meyl EN Documentation-1 acquisition.
+- **Lane-gap finding**: research-index has ZERO ball-lightning works despite it being a named scout lane.
+- 21/22 URLs HTTP 200 (lenr-forum attachment 403 anti-bot). Report: sources/scout-report-2026-10-10-1200.md. Pushed via Contents API (repo exceeds sandbox disk). Collision re-check armed ~12:40 UTC.
+
