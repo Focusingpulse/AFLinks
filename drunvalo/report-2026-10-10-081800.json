@@ -1,0 +1,12 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-10T08:18:00Z",
+  "summary": "village-content-growth: no new BBs from permies this cycle; library +3 vetted resources; library DOM structure fixed (2 nesting bugs); master_quests dedupe 433->421; validators 5/5; village main aada916",
+  "status": "ok",
+  "files_modified": [
+    "index.html",
+    "master_quests.json",
+    "village-link-report.md"
+  ],
+  "details": "village-content-growth: crawl 499 pages, no genuinely new BBs this cycle (24 badge-page candidates were generic forum renders with staff-name noise, discarded; 12.7k task-refresh candidates were forum chrome, not merged; stale crawl artifact restored uncommitted); Library +3 vetted resources — Plants For A Future useful-plants database, Appropedia appropriate-technology wiki, The Grow Network homesteading school — all curl-verified 200; fixed library DOM structure (removed premature library-box close orphaning 12 categories from styling; added missing Textiles lib-category close that nested all later categories — document now parses 0 errors, 25 categories uniform depth); master_quests dedupe 433->421 (12 slug-vs-wiki-id duplicate badge pairs union-merged by tier+text, key order normalized, validator duplicate-titles warning cleared); translations full coverage es/fr/de (246/246 titles, 27/27 guilds); validators 5/5 PASSED; links 895 checked / 873 OK (failures all external: 429 rate-limits, anti-bot 403s, dead scraped-text links); village main aada916 verified on remote; gap noted: no badge-level master rows for Metalworking / Plumbing & Hot Water (permies served generic renders this cycle)"
+}
