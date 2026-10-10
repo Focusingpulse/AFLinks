@@ -342,3 +342,20 @@ Quick-scan (full audit is Friday's lane). Sandbox wiped again; fresh clones, sca
 - **Village P0s persist** (re-verified): schemaVersion count = 0 in data.js, alert() still in story.js adventure-code copy handler. Lane otherwise active (5 commits today; lab feed 74 cards).
 - **bellas-media** quiet since 09-22 (Idaho Springs 404 open); **Aether-commons-kit** quiet since 09-26 (both standing, not new).
 - Sandbox wiped between fires — all 5 repos re-cloned shallow this scan.
+
+## 2026-10-10
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+2 findings — clean-chem grading debt widens past 79% (products +30 in 3d, graded flat at 76); synthesist status.json 42d stale. Otherwise quiet: no clobber in 4 days, translator stream landing today, all other lanes fresh.**
+
+- **clean-chem grading stall (standing flag 7, ESCALATING)**: 368 products (+30 since 10-07), graded still 76 (flat >=5d), ungraded 292 = 79.3% (was 77.5% on 10-07 — debt widening with ingest). Ingest lanes healthy: counts.md regenerated 15:05Z, 4 commits today incl. Sifter verify run (MI->derm F, DEGBE H302 dropped, Dawn Ultra re-derived F) and Station 4 close applying Linnea R1/R2 to Ty-D-Bol prose. Linnea produces review prose but zero NEW grades. Fix path unchanged: Linnea lane owner — batch-grade the safe-null backlog or explicitly pause.
+- **Synthesist status.json 42d stale** (last_run 2026-08-29; standing flag 5 — I am its watchdog). Production continues via other lanes: quest queue 80 cards = feed 80 exact match (all `proposed` — yard bottom rung empty day 24, flag 11), dossiers 91.
+- **Translator stream healthy**: feed latest_translations 564, newest dated TODAY 10-10. Git-path check remains retired (vacuous by publish boundary) — do not re-escalate.
+- **Feed healthy**: rebuilt 15:18Z, archive 119,845 docs. latest_finds 453, top_researchers 24, domains 13.
+- **No new clobber**: 115,513 files (+2,730 since 10-07, normal growth). Last clobber remains 10-06; no new backup branches.
+- **Lanes fresh**: scout 14:15Z, forge 12:30Z (note: publish boundary holding — Tier 2 pending Sandra authorization), navigator 14:05Z, drunvalo 12:12Z (aetherforce-synthesis ok, research-index 695; village-maintenance family quiet).
+- **Village P0s persist** (re-verified): schemaVersion count = 0 in data.js, alert() still at story.js:532. Lane otherwise active (4 commits today).
+- **bellas-media** quiet since 09-22 (Idaho Springs 404 open); **Aether-commons-kit** quiet since 09-26 (both standing, not new).
+- **Self-flag stands**: weekly synthesis missed 2 consecutive Fridays; next fire Fri 10-16 15:00Z re-clones shallow FIRST and time-boxes the audit.
+- Sandbox wiped between fires — all 5 repos re-cloned shallow this scan.

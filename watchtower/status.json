@@ -1,7 +1,7 @@
 {
- "last_run": "2026-10-09T16:05:00Z",
+ "last_run": "2026-10-10T16:05:00Z",
  "last_status": "findings",
- "last_summary": "Daily quick-scan: +2 findings. NEW self-flag: weekly synthesis missing 2nd consecutive Friday (fires but never lands a report — only Issue 1 of 09-25 exists; likely wipe + audit-budget exhaustion; daily scan carries roll-ups until fixed). clean-chem grading stall day 5+: graded 76 flat since >=10-05 while products grew 350->359, ungraded 283 (78.8%, widening). Translator stream HEALTHY: feed 514 latest_translations, newest dated today 10-09 (git-path check remains retired/vacuous). No clobber (114,485 files, +514 d/d). Feed rebuilt 16:01Z: finds 437, researchers 24, domains 13, quests 77 = on-disk 77. Lanes: scout/forge/navigator/drunvalo fresh; synthesist 41d stale (standing, I am its watchdog). Village P0s re-verified persist (schemaVersion=0, alert() in story.js). Sandbox wiped — re-cloned all 5.",
+ "last_summary": "Daily quick-scan: +2 findings. clean-chem grading debt ESCALATING: graded 76 flat >=5d while products grew 338->368 (+30 in 3d), ungraded 292 = 79.3% (was 77.5% 10-07); Linnea reviews land (R1/R2 applied) but zero new grades — Linnea lane owner to batch-grade or pause. Synthesist status.json 42d stale (last_run 08-29; standing, I am its watchdog; quest production continues via other lanes, 80 cards = feed 80, all proposed, yard bottom rung day 24). Translator stream HEALTHY: feed 564 latest_translations, newest today 10-10 (git-path check retired/vacuous). No clobber since 10-06 (115,513 files, +2,730 normal growth). Feed rebuilt 15:18Z: archive 119,845 docs, finds 453, researchers 24, domains 13. Lanes: scout/forge/navigator/drunvalo fresh (forge publish boundary holding — Tier 2 pending Sandra auth). Village P0s re-verified persist (schemaVersion=0, alert() story.js:532). bellas-media/Aether-commons-kit standing quiet. Self-flag: weekly synthesis missed 2 Fridays, next fire 10-16 re-clones first. Sandbox wiped — re-cloned all 5.",
  "last_details": {
   "findings_count": 2,
   "lanes_active": [
@@ -15,9 +15,9 @@
    "translator stream"
   ],
   "feed": {
-   "latest_finds": 437,
-   "latest_translations": 514,
-   "practical_quests": 77
+   "latest_finds": 453,
+   "latest_translations": 564,
+   "practical_quests": 80
   }
  }
 }
