@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-database-refresh",
-    "timestamp": "2026-10-10T06:20:00Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-10T08:06:38Z",
     "status": "ok",
-    "summary": "database-refresh: standing checks clean (no dupes, no unknown dates, no dangling refs, feed mojibake 0); +4 works (Pi-viz Fulop hu, Fischer orgonomic-medicine de, Lassek orgone-accumulator de, Nikolenko motion-quantization ru), +3 persons (fulop-laszlo, jurgen-fischer, heiko-lassek), nikolenko enriched to Oleksandr D., reich linked x2; 7 upgrade_bank items verified completed (magnitsky, drbal-91304, la-foye, ponce-de-leon x2, belizal-morel-microvibratoire x2); tag_concepts skipped (dead), feed rebuild skipped (living-library unavailable); 690 works / 487 persons"
+    "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake, 0 feed same-file dupes); 20 title-similarity + 22 containment candidates eyeballed, 0 folds (Risy notes-series cluster, uk/ru + fa/es Wikipedia editions, stamkos/ennea el, same-site sr Tesla pair, ja Tesla pair all distinct); +4 works from Forge 2026-10-10 batch (Leca ro molecular telekinesis / water memory, Veliky ru drinking water of Ukraine, Manolea ro radiesthesia manual, Purworini+Fitrianingsih id EM-field water plant growth), +5 persons (radu-leca, veliky-nm, aliodor-manolea, fitri-purworini, avin-ainur-fitrianingsih); backfilled 2026-09-28 sr Tesla source_url from feed, canonicalized 2 Wikipedia API-endpoint URLs (ru torsion fields, es radiestesia), mutual cross_refs on same-site sr Tesla pair; source URLs 4/4 live 200; tag_concepts skipped (dead); 694 works / 492 persons"
   },
-  "job": "aetherforce-database-refresh",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 487,
-  "works": 690,
-  "notes": "AFLinks clone exceeds sandbox disk \u2014 Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+  "persons": 492,
+  "works": 694,
+  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-09T12:02:00Z",
-      "status": "ok",
-      "summary": "village-maintenance: 1010 URLs checked, 976 OK; no trivially-fixable URLs; validators 5/5; 429/403s triaged as anti-bot; refreshed link report pushed"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-09T20:07:00Z",
@@ -46,13 +40,13 @@
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-10T00:15:00Z",
       "status": "ok",
-      "summary": "synthesis: the qi-torsion bridge \u2014 Chinese external-qi measurement program (Tsinghua/CAS/NTU) independently identified qi with the torsion/spin field, converging with the Russian Kozyrev-Akimov-Shipov line; +1 synthesis work, folded li-sichen->li-si-chen person dupe, xiding authors fix, 10 persons linked, 2 ledger upgrades; 666 works / 478 persons"
+      "summary": "synthesis: the qi-torsion bridge — Chinese external-qi measurement program (Tsinghua/CAS/NTU) independently identified qi with the torsion/spin field, converging with the Russian Kozyrev-Akimov-Shipov line; +1 synthesis work, folded li-sichen->li-si-chen person dupe, xiding authors fix, 10 persons linked, 2 ledger upgrades; 666 works / 478 persons"
     },
     {
       "cron": "village-content-growth",
       "timestamp": "2026-10-10T00:20:00Z",
       "status": "ok",
-      "summary": "village-content-growth: fresh permies crawl (499 pages) found genuinely new BBs, several only days old \u2014 +8 quests with wiki-verified requirements and full es/fr/de translations (Textiles: Spin and Ply Yarn; Tool Care: Remove Rust/Clean/Oil; Animal Care: Breed Ewe/Lamb + Breed Cow/Calf; Homesteading PEM-traditional: Leather Cordage, Pine Needle Basket, Shell Buttons; Oddball: Plastic Jug Scoop); Library +3 vetted resources (ABANA, Scientific Beekeeping, Handweaving.net); master_quests +28 new pages, 54 refreshed, -122 paginated same-wiki-id dupes (529->435 unique); links 977/1013 OK (failures all forum-signature noise); rebased over concurrent village-maintenance push a59cb35; village main 280a439 verified on remote; validators 5/5"
+      "summary": "village-content-growth: fresh permies crawl (499 pages) found genuinely new BBs, several only days old — +8 quests with wiki-verified requirements and full es/fr/de translations (Textiles: Spin and Ply Yarn; Tool Care: Remove Rust/Clean/Oil; Animal Care: Breed Ewe/Lamb + Breed Cow/Calf; Homesteading PEM-traditional: Leather Cordage, Pine Needle Basket, Shell Buttons; Oddball: Plastic Jug Scoop); Library +3 vetted resources (ABANA, Scientific Beekeeping, Handweaving.net); master_quests +28 new pages, 54 refreshed, -122 paginated same-wiki-id dupes (529->435 unique); links 977/1013 OK (failures all forum-signature noise); rebased over concurrent village-maintenance push a59cb35; village main 280a439 verified on remote; validators 5/5"
     },
     {
       "cron": "village-maintenance",
@@ -64,14 +58,20 @@
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-10T06:08:48Z",
       "status": "ok",
-      "summary": "aetherforce-synthesis: created synthesis/2026-10-10-applied-turn-risy-field-notebooks.md \u2014 the applied turn: Daniel Risy's 18-notebook corpus (danielrisy.free.fr) as the operational layer of the form-wave/torsion convergence; threads: truffle mycorrhizal 'super networks' vs mainstream common-mycorrhizal science, apiary form-waves + quasi-controlled varroa two-hive protocol, biodynamic cosmic-rhythm claim x3 (Steiner GA327, Kozyrev/Kaznacheev-Trofimov, Risy stellar-impulse); five cross-language witnesses (Kovalenko ru form-effect, Pietrzak pl, Servranx fr, tavole torsionali it, Gao Peng zh 2.2km LED/EIS) + BioGeometry; verification grading per claim class. research-index 685->686 (34 cross_refs validated against id set), 10 persons linked, ledger upgrade-232 (complete Risy CARNETS) + upgrade-233 (mycorrhizal cross-validation dossier)."
+      "summary": "aetherforce-synthesis: created synthesis/2026-10-10-applied-turn-risy-field-notebooks.md — the applied turn: Daniel Risy's 18-notebook corpus (danielrisy.free.fr) as the operational layer of the form-wave/torsion convergence; threads: truffle mycorrhizal 'super networks' vs mainstream common-mycorrhizal science, apiary form-waves + quasi-controlled varroa two-hive protocol, biodynamic cosmic-rhythm claim x3 (Steiner GA327, Kozyrev/Kaznacheev-Trofimov, Risy stellar-impulse); five cross-language witnesses (Kovalenko ru form-effect, Pietrzak pl, Servranx fr, tavole torsionali it, Gao Peng zh 2.2km LED/EIS) + BioGeometry; verification grading per claim class. research-index 685->686 (34 cross_refs validated against id set), 10 persons linked, ledger upgrade-232 (complete Risy CARNETS) + upgrade-233 (mycorrhizal cross-validation dossier)."
     },
     {
       "cron": "aetherforce-database-refresh",
       "timestamp": "2026-10-10T06:20:00Z",
       "status": "ok",
       "summary": "database-refresh: standing checks clean (no dupes, no unknown dates, no dangling refs, feed mojibake 0); +4 works (Pi-viz Fulop hu, Fischer orgonomic-medicine de, Lassek orgone-accumulator de, Nikolenko motion-quantization ru), +3 persons (fulop-laszlo, jurgen-fischer, heiko-lassek), nikolenko enriched to Oleksandr D., reich linked x2; 7 upgrade_bank items verified completed (magnitsky, drbal-91304, la-foye, ponce-de-leon x2, belizal-morel-microvibratoire x2); tag_concepts skipped (dead), feed rebuild skipped (living-library unavailable); 690 works / 487 persons"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-10T08:06:38Z",
+      "status": "ok",
+      "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake, 0 feed same-file dupes); 20 title-similarity + 22 containment candidates eyeballed, 0 folds (Risy notes-series cluster, uk/ru + fa/es Wikipedia editions, stamkos/ennea el, same-site sr Tesla pair, ja Tesla pair all distinct); +4 works from Forge 2026-10-10 batch (Leca ro molecular telekinesis / water memory, Veliky ru drinking water of Ukraine, Manolea ro radiesthesia manual, Purworini+Fitrianingsih id EM-field water plant growth), +5 persons (radu-leca, veliky-nm, aliodor-manolea, fitri-purworini, avin-ainur-fitrianingsih); backfilled 2026-09-28 sr Tesla source_url from feed, canonicalized 2 Wikipedia API-endpoint URLs (ru torsion fields, es radiestesia), mutual cross_refs on same-site sr Tesla pair; source URLs 4/4 live 200; tag_concepts skipped (dead); 694 works / 492 persons"
     }
   ],
-  "timestamp": "2026-10-10T06:20:00Z"
+  "timestamp": "2026-10-10T08:06:38Z"
 }
