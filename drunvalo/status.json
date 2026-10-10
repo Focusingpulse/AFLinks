@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-10T08:06:38Z",
+    "cron": "village-content-growth",
+    "timestamp": "2026-10-10T08:18:00Z",
     "status": "ok",
-    "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake, 0 feed same-file dupes); 20 title-similarity + 22 containment candidates eyeballed, 0 folds (Risy notes-series cluster, uk/ru + fa/es Wikipedia editions, stamkos/ennea el, same-site sr Tesla pair, ja Tesla pair all distinct); +4 works from Forge 2026-10-10 batch (Leca ro molecular telekinesis / water memory, Veliky ru drinking water of Ukraine, Manolea ro radiesthesia manual, Purworini+Fitrianingsih id EM-field water plant growth), +5 persons (radu-leca, veliky-nm, aliodor-manolea, fitri-purworini, avin-ainur-fitrianingsih); backfilled 2026-09-28 sr Tesla source_url from feed, canonicalized 2 Wikipedia API-endpoint URLs (ru torsion fields, es radiestesia), mutual cross_refs on same-site sr Tesla pair; source URLs 4/4 live 200; tag_concepts skipped (dead); 694 works / 492 persons"
+    "summary": "village-content-growth: crawl 499 pages, no genuinely new BBs this cycle (24 badge-page candidates were generic forum renders with staff-name noise, discarded; 12.7k task-refresh candidates were forum chrome, not merged; stale crawl artifact restored uncommitted); Library +3 vetted resources — Plants For A Future useful-plants database, Appropedia appropriate-technology wiki, The Grow Network homesteading school — all curl-verified 200; fixed library DOM structure (removed premature library-box close orphaning 12 categories from styling; added missing Textiles lib-category close that nested all later categories — document now parses 0 errors, 25 categories uniform depth); master_quests dedupe 433->421 (12 slug-vs-wiki-id duplicate badge pairs union-merged by tier+text, key order normalized, validator duplicate-titles warning cleared); translations full coverage es/fr/de (246/246 titles, 27/27 guilds); validators 5/5 PASSED; links 895 checked / 873 OK (failures all external: 429 rate-limits, anti-bot 403s, dead scraped-text links); village main aada916 verified on remote; gap noted: no badge-level master rows for Metalworking / Plumbing & Hot Water (permies served generic renders this cycle)"
   },
-  "job": "aetherforce-translation-qc",
+  "job": "village-content-growth",
   "status": "ok",
   "persons": 492,
   "works": 694,
   "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-09T20:07:00Z",
-      "status": "ok",
-      "summary": "translation-QC: standing checks clean; Forge Oct-9 batch 47 works / 9 persons added; bartusek pair verified distinct via source PDF; 665 works / 479 persons"
-    },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-10T00:04:35Z",
@@ -71,7 +65,13 @@
       "timestamp": "2026-10-10T08:06:38Z",
       "status": "ok",
       "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake, 0 feed same-file dupes); 20 title-similarity + 22 containment candidates eyeballed, 0 folds (Risy notes-series cluster, uk/ru + fa/es Wikipedia editions, stamkos/ennea el, same-site sr Tesla pair, ja Tesla pair all distinct); +4 works from Forge 2026-10-10 batch (Leca ro molecular telekinesis / water memory, Veliky ru drinking water of Ukraine, Manolea ro radiesthesia manual, Purworini+Fitrianingsih id EM-field water plant growth), +5 persons (radu-leca, veliky-nm, aliodor-manolea, fitri-purworini, avin-ainur-fitrianingsih); backfilled 2026-09-28 sr Tesla source_url from feed, canonicalized 2 Wikipedia API-endpoint URLs (ru torsion fields, es radiestesia), mutual cross_refs on same-site sr Tesla pair; source URLs 4/4 live 200; tag_concepts skipped (dead); 694 works / 492 persons"
+    },
+    {
+      "cron": "village-content-growth",
+      "timestamp": "2026-10-10T08:18:00Z",
+      "status": "ok",
+      "summary": "village-content-growth: crawl 499 pages, no genuinely new BBs this cycle (24 badge-page candidates were generic forum renders with staff-name noise, discarded; 12.7k task-refresh candidates were forum chrome, not merged; stale crawl artifact restored uncommitted); Library +3 vetted resources — Plants For A Future useful-plants database, Appropedia appropriate-technology wiki, The Grow Network homesteading school — all curl-verified 200; fixed library DOM structure (removed premature library-box close orphaning 12 categories from styling; added missing Textiles lib-category close that nested all later categories — document now parses 0 errors, 25 categories uniform depth); master_quests dedupe 433->421 (12 slug-vs-wiki-id duplicate badge pairs union-merged by tier+text, key order normalized, validator duplicate-titles warning cleared); translations full coverage es/fr/de (246/246 titles, 27/27 guilds); validators 5/5 PASSED; links 895 checked / 873 OK (failures all external: 429 rate-limits, anti-bot 403s, dead scraped-text links); village main aada916 verified on remote; gap noted: no badge-level master rows for Metalworking / Plumbing & Hot Water (permies served generic renders this cycle)"
     }
   ],
-  "timestamp": "2026-10-10T08:06:38Z"
+  "timestamp": "2026-10-10T08:18:00Z"
 }
