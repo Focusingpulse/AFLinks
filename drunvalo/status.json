@@ -1,23 +1,38 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-content-growth",
-    "timestamp": "2026-10-10T08:18:00Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-10T12:08:22Z",
     "status": "ok",
-    "summary": "village-content-growth: crawl 499 pages, no genuinely new BBs this cycle (24 badge-page candidates were generic forum renders with staff-name noise, discarded; 12.7k task-refresh candidates were forum chrome, not merged; stale crawl artifact restored uncommitted); Library +3 vetted resources — Plants For A Future useful-plants database, Appropedia appropriate-technology wiki, The Grow Network homesteading school — all curl-verified 200; fixed library DOM structure (removed premature library-box close orphaning 12 categories from styling; added missing Textiles lib-category close that nested all later categories — document now parses 0 errors, 25 categories uniform depth); master_quests dedupe 433->421 (12 slug-vs-wiki-id duplicate badge pairs union-merged by tier+text, key order normalized, validator duplicate-titles warning cleared); translations full coverage es/fr/de (246/246 titles, 27/27 guilds); validators 5/5 PASSED; links 895 checked / 873 OK (failures all external: 429 rate-limits, anti-bot 403s, dead scraped-text links); village main aada916 verified on remote; gap noted: no badge-level master rows for Metalworking / Plumbing & Hot Water (permies served generic renders this cycle)"
+    "summary": "translation-QC 12:00 UTC: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-similarity 5 candidates / containment 3, 0 folds (Sitkowski distinct books, quietsphere + Risy series, 3 already-cross-linked pairs). Added 9 works from Forge's 2026-10-10 batch (ko/sr x2/hr/hi/ru x3/ro) + 5 persons (nikolina-calasan, smail-dubravic, popov-vp, shkavro-zn, shchukin-vs), linked jeon-mu-sik. tag_concepts.py skipped (dead). 703 works / 497 persons."
   },
-  "job": "village-content-growth",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 492,
-  "works": 694,
-  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
-  "runs": [
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-10T00:04:35Z",
-      "status": "ok",
-      "summary": "village-maintenance: joined 32 scraper-split wayback links in master_quests.json (archived fallbacks revived for 7 dead domains); unglued 3 URL artifacts (buymeacoffee/dzenifr, dlive/mavisfarmacy, northwestpermaculture trailing dash - all verified live); RESOURCE_POOL extended +4 vetted entries, Library +2 (ATTRA-NCAT, SARE); link report 1010->1003 URLs, http_err 29->24, bad 10->8; validators 5/5; village main pushed d6b7712 (verified on remote)"
+  "persons": 497,
+  "works": 703,
+  "notes": {
+    "cron": "aetherforce-translation-qc",
+    "checks": {
+      "same_file_dupes": 0,
+      "unknown_dates": 0,
+      "junk_person_ids": 0,
+      "dangling_cross_refs": 0,
+      "dangling_person_refs": 0,
+      "feed_mojibake": 0,
+      "feed_same_file_dupes": 0,
+      "title_similarity_candidates": 5,
+      "containment_candidates": 3,
+      "folds": 0
     },
+    "works_added": 9,
+    "persons_added": 5,
+    "person_links": 1,
+    "works_total": 703,
+    "persons_total": 497,
+    "tag_concepts_skipped": true,
+    "url_checks": "8/9 live 200; boris-sasho.com PDF 403 anti-bot (kept)"
+  },
+  "runs": [
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-10T00:06:00Z",
@@ -71,7 +86,13 @@
       "timestamp": "2026-10-10T08:18:00Z",
       "status": "ok",
       "summary": "village-content-growth: crawl 499 pages, no genuinely new BBs this cycle (24 badge-page candidates were generic forum renders with staff-name noise, discarded; 12.7k task-refresh candidates were forum chrome, not merged; stale crawl artifact restored uncommitted); Library +3 vetted resources — Plants For A Future useful-plants database, Appropedia appropriate-technology wiki, The Grow Network homesteading school — all curl-verified 200; fixed library DOM structure (removed premature library-box close orphaning 12 categories from styling; added missing Textiles lib-category close that nested all later categories — document now parses 0 errors, 25 categories uniform depth); master_quests dedupe 433->421 (12 slug-vs-wiki-id duplicate badge pairs union-merged by tier+text, key order normalized, validator duplicate-titles warning cleared); translations full coverage es/fr/de (246/246 titles, 27/27 guilds); validators 5/5 PASSED; links 895 checked / 873 OK (failures all external: 429 rate-limits, anti-bot 403s, dead scraped-text links); village main aada916 verified on remote; gap noted: no badge-level master rows for Metalworking / Plumbing & Hot Water (permies served generic renders this cycle)"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-10T12:08:22Z",
+      "status": "ok",
+      "summary": "translation-QC 12:00 UTC: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-similarity 5 candidates / containment 3, 0 folds (Sitkowski distinct books, quietsphere + Risy series, 3 already-cross-linked pairs). Added 9 works from Forge's 2026-10-10 batch (ko/sr x2/hr/hi/ru x3/ro) + 5 persons (nikolina-calasan, smail-dubravic, popov-vp, shkavro-zn, shchukin-vs), linked jeon-mu-sik. tag_concepts.py skipped (dead). 703 works / 497 persons."
     }
   ],
-  "timestamp": "2026-10-10T08:18:00Z"
+  "timestamp": "2026-10-10T12:08:22Z"
 }
