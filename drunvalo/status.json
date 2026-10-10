@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-10T00:06:00Z",
+    "cron": "village-quality-audit",
+    "timestamp": "2026-10-10T00:07:16Z",
     "status": "ok",
-    "summary": "standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake); +9 works (Forge Oct-9 late batch: Risy fr x4, Tesla Wardenclyffe bs, radiesthesia clinic pt, goethean-science + calligaris it-wiki, aether ar-wiki), +1 person (giuseppe-calligaris), +6 person links; normalized AHPNE underscore id; Risy aodf/aodf2 cross-linked; 674 works / 480 persons"
+    "summary": "238 quests/27 guilds clean; fixed 2 (data.js dupe quest removed; 4 master_quests exact-dup rows merged 533->529 + key order normalized); translations es/fr/de full coverage (0 missing/mojibake/empty); index.html clean; 5/5 validators PASSED; links 966/1010 OK (failures external); integrity 99.3%; village commit a59cb35"
   },
-  "job": "aetherforce-translation-qc",
+  "job": "village-quality-audit",
   "status": "ok",
   "persons": 480,
   "works": 674,
-  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+  "notes": "AFLinks clone exceeds sandbox disk \u2014 Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-10T00:06:00Z",
-      "status": "ok",
-      "summary": "standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake); +9 works (Forge Oct-9 late batch: Risy fr x4, Tesla Wardenclyffe bs, radiesthesia clinic pt, goethean-science + calligaris it-wiki, aether ar-wiki), +1 person (giuseppe-calligaris), +6 person links; normalized AHPNE underscore id; Risy aodf/aodf2 cross-linked; 674 works / 480 persons"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-09T20:07:00Z",
@@ -52,7 +46,7 @@
       "cron": "village-maintenance",
       "timestamp": "2026-10-08T00:05:00Z",
       "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
     },
     {
       "cron": "aetherforce-translation-qc",
@@ -71,7 +65,13 @@
       "timestamp": "2026-10-08T16:06:00Z",
       "status": "ok",
       "summary": "standing checks clean; +32 works (Forge Oct-8 batch, 16 languages), +7 persons (john-keely, serge-kernbach, zainab-farghaly, al-battat, william-saliba, daniel-linder, quietsphere); 8 person links; morphic-fields pl/pl-en cross-linked; farghaly source_url backfilled via DOI; 597 works / 460 persons"
+    },
+    {
+      "cron": "village-quality-audit",
+      "timestamp": "2026-10-10T00:07:16Z",
+      "status": "ok",
+      "summary": "238 quests/27 guilds clean; fixed 2 (data.js dupe quest removed; 4 master_quests exact-dup rows merged 533->529 + key order normalized); translations es/fr/de full coverage (0 missing/mojibake/empty); index.html clean; 5/5 validators PASSED; links 966/1010 OK (failures external); integrity 99.3%; village commit a59cb35"
     }
   ],
-  "timestamp": "2026-10-10T00:06:00Z"
+  "timestamp": "2026-10-10T00:07:16Z"
 }
