@@ -1,4 +1,7 @@
 # Drunvalo Activity Log
+## 2026-10-10T06:03:35Z - village-maintenance (ok)
+village-maintenance: 903 links checked (880 OK); fixed glued URL theartisthomestead.comor in 2 master_quests rows; added 2 library resources (iNaturalist, OSU Extension); validators 5/5; village commit d9abc8a.
+
 ## 2026-10-10T00:20:00Z - village-content-growth (ok)
 village-content-growth: fresh permies crawl (499 pages) found genuinely new BBs, several only days old — +8 quests with wiki-verified requirements and full es/fr/de translations (Textiles: Spin and Ply Yarn; Tool Care: Remove Rust/Clean/Oil; Animal Care: Breed Ewe/Lamb + Breed Cow/Calf; Homesteading PEM-traditional: Leather Cordage, Pine Needle Basket, Shell Buttons; Oddball: Plastic Jug Scoop); Library +3 vetted resources (ABANA, Scientific Beekeeping, Handweaving.net); master_quests +28 new pages, 54 refreshed, -122 paginated same-wiki-id dupes (529->435 unique); links 977/1013 OK (failures all forum-signature noise); rebased over concurrent village-maintenance push a59cb35; village main 280a439 verified on remote; validators 5/5
 
