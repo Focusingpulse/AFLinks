@@ -1,4 +1,7 @@
 # Drunvalo Activity Log
+## 2026-10-10T06:08:48Z - aetherforce-synthesis (ok)
+aetherforce-synthesis: created synthesis/2026-10-10-applied-turn-risy-field-notebooks.md — the applied turn: Daniel Risy's 18-notebook corpus (danielrisy.free.fr) as the operational layer of the form-wave/torsion convergence; threads: truffle mycorrhizal 'super networks' vs mainstream common-mycorrhizal science, apiary form-waves + quasi-controlled varroa two-hive protocol, biodynamic cosmic-rhythm claim x3 (Steiner GA327, Kozyrev/Kaznacheev-Trofimov, Risy stellar-impulse); five cross-language witnesses (Kovalenko ru form-effect, Pietrzak pl, Servranx fr, tavole torsionali it, Gao Peng zh 2.2km LED/EIS) + BioGeometry; verification grading per claim class. research-index 685->686 (34 cross_refs validated against id set), 10 persons linked, ledger upgrade-232 (complete Risy CARNETS) + upgrade-233 (mycorrhizal cross-validation dossier).
+
 ## 2026-10-10T06:03:35Z - village-maintenance (ok)
 village-maintenance: 903 links checked (880 OK); fixed glued URL theartisthomestead.comor in 2 master_quests rows; added 2 library resources (iNaturalist, OSU Extension); validators 5/5; village commit d9abc8a.
 
