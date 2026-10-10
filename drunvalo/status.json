@@ -1,71 +1,77 @@
 {
-  "agent": "drunvalo",
-  "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-09T20:07:00Z",
-    "status": "ok",
-    "summary": "standing checks clean (0 dupes, 0 dangling refs, 0 mojibake); +47 works (Forge Oct-9 batch, 16 languages: Risy notes x12, scalarwave zh x4, pietrzak pl x4, water-memory cluster), +9 persons, +27 person links; bartusek lecture/PDF pair verified distinct (PDF-checked) and cross-linked; 665 works / 479 persons"
-  },
-  "job": "aetherforce-translation-qc",
+ "agent": "drunvalo",
+ "last_run": {
+  "cron": "village-maintenance",
+  "timestamp": "2026-10-10T00:04:35Z",
   "status": "ok",
-  "persons": 479,
-  "works": 665,
-  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
-  "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-09T20:07:00Z",
-      "status": "ok",
-      "summary": "standing checks clean (0 dupes, 0 dangling refs, 0 mojibake); +47 works (Forge Oct-9 batch, 16 languages: Risy notes x12, scalarwave zh x4, pietrzak pl x4, water-memory cluster), +9 persons, +27 person links; bartusek lecture/PDF pair verified distinct (PDF-checked) and cross-linked; 665 works / 479 persons"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-09T04:06:00Z",
-      "status": "ok",
-      "summary": "standing checks clean; +13 works, +7 persons; sr Tesla cross-link; ingenieur.de URL backfill; 618 works / 470 persons"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-08T20:06:00Z",
-      "status": "ok",
-      "summary": "standing checks clean; +7 works, +3 persons (bracco, provost, pouteau); Krsko sr/sl cross-ref pair; quietsphere ja pair confirmed distinct; 604 works / 463 persons"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-07T16:10:00Z",
-      "status": "ok",
-      "summary": "folded 2 dup pairs (magnitsky ru, tesla-brevets fr); +20 works, +6 persons; 11 underscore ids normalized; 532 works / 436 persons"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-07T20:05:00Z",
-      "status": "ok",
-      "summary": "+6 works (Forge Oct-7 batch: iguchi ja scalar-wave, villani it LENR thesis, ledein fr egyptian-pendulum, memory-of-water ko, egely-gyorgy hu autobiography, hall-dos-reis pt gizmodo), +5 persons; cross-ref'd belizal-morel + goethe pairs; builder alias for stale brevets-tesla feed entry; 538 works / 441 persons; standing checks clean"
-    },
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-08T00:05:00Z",
-      "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-08T04:13:00Z",
-      "status": "ok",
-      "summary": "standing checks clean; folded 2 Kelsya/Fiquemont stub re-emissions into 09-20 keepers; +11 works (Forge Oct 7-8 batch: ru/sv/fr/el/nl/pt/cs/es/de), +4 persons; builder aliases for the folded feed variants; 547 works / 445 persons"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-08T08:05:00Z",
-      "status": "ok",
-      "summary": "+18 works, +8 persons (kaznacheev, trofimov, edmond-storms, wilhelm-grosse, renato-cunha, reiner-padligur, lu-zuyin, yan-xin); 4 persons linked; 565 works / 453 persons; standing checks clean"
-    },
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-08T16:06:00Z",
-      "status": "ok",
-      "summary": "standing checks clean; +32 works (Forge Oct-8 batch, 16 languages), +7 persons (john-keely, serge-kernbach, zainab-farghaly, al-battat, william-saliba, daniel-linder, quietsphere); 8 person links; morphic-fields pl/pl-en cross-linked; farghaly source_url backfilled via DOI; 597 works / 460 persons"
-    }
-  ],
-  "timestamp": "2026-10-09T20:07:00Z"
+  "summary": "village-maintenance: joined 32 scraper-split wayback links in master_quests.json (archived fallbacks revived for 7 dead domains); unglued 3 URL artifacts (buymeacoffee/dzenifr, dlive/mavisfarmacy, northwestpermaculture trailing dash - all verified live); RESOURCE_POOL extended +4"
+ },
+ "job": "village-maintenance",
+ "status": "ok",
+ "persons": 479,
+ "works": 665,
+ "notes": "AFLinks clone exceeds sandbox disk \u2014 Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+ "runs": [
+  {
+   "cron": "village-maintenance",
+   "timestamp": "2026-10-10T00:04:35Z",
+   "status": "ok",
+   "summary": "village-maintenance: joined 32 scraper-split wayback links in master_quests.json (archived fallbacks revived for 7 dead domains); unglued 3 URL artifacts (buymeacoffee/dzenifr, dlive/mavisfarmacy, northwestpermaculture trailing dash - all verified live); RESOURCE_POOL extended +4"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-09T20:07:00Z",
+   "status": "ok",
+   "summary": "standing checks clean (0 dupes, 0 dangling refs, 0 mojibake); +47 works (Forge Oct-9 batch, 16 languages: Risy notes x12, scalarwave zh x4, pietrzak pl x4, water-memory cluster), +9 persons, +27 person links; bartusek lecture/PDF pair verified distinct (PDF-checked) and cross-linked; 665 works / 479 persons"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-09T04:06:00Z",
+   "status": "ok",
+   "summary": "standing checks clean; +13 works, +7 persons; sr Tesla cross-link; ingenieur.de URL backfill; 618 works / 470 persons"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-08T20:06:00Z",
+   "status": "ok",
+   "summary": "standing checks clean; +7 works, +3 persons (bracco, provost, pouteau); Krsko sr/sl cross-ref pair; quietsphere ja pair confirmed distinct; 604 works / 463 persons"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-07T16:10:00Z",
+   "status": "ok",
+   "summary": "folded 2 dup pairs (magnitsky ru, tesla-brevets fr); +20 works, +6 persons; 11 underscore ids normalized; 532 works / 436 persons"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-07T20:05:00Z",
+   "status": "ok",
+   "summary": "+6 works (Forge Oct-7 batch: iguchi ja scalar-wave, villani it LENR thesis, ledein fr egyptian-pendulum, memory-of-water ko, egely-gyorgy hu autobiography, hall-dos-reis pt gizmodo), +5 persons; cross-ref'd belizal-morel + goethe pairs; builder alias for stale brevets-tesla feed entry; 538 works / 441 persons; standing checks clean"
+  },
+  {
+   "cron": "village-maintenance",
+   "timestamp": "2026-10-08T00:05:00Z",
+   "status": "ok",
+   "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-08T04:13:00Z",
+   "status": "ok",
+   "summary": "standing checks clean; folded 2 Kelsya/Fiquemont stub re-emissions into 09-20 keepers; +11 works (Forge Oct 7-8 batch: ru/sv/fr/el/nl/pt/cs/es/de), +4 persons; builder aliases for the folded feed variants; 547 works / 445 persons"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-08T08:05:00Z",
+   "status": "ok",
+   "summary": "+18 works, +8 persons (kaznacheev, trofimov, edmond-storms, wilhelm-grosse, renato-cunha, reiner-padligur, lu-zuyin, yan-xin); 4 persons linked; 565 works / 453 persons; standing checks clean"
+  },
+  {
+   "cron": "aetherforce-translation-qc",
+   "timestamp": "2026-10-08T16:06:00Z",
+   "status": "ok",
+   "summary": "standing checks clean; +32 works (Forge Oct-8 batch, 16 languages), +7 persons (john-keely, serge-kernbach, zainab-farghaly, al-battat, william-saliba, daniel-linder, quietsphere); 8 person links; morphic-fields pl/pl-en cross-linked; farghaly source_url backfilled via DOI; 597 works / 460 persons"
+  }
+ ],
+ "timestamp": "2026-10-09T20:07:00Z"
 }
