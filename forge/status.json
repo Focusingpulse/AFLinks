@@ -1,9 +1,15 @@
 {
-  "agent": "forge (translation-qc)",
-  "updated": "2026-10-10T12:30:53Z",
+  "agent": "translation-qc",
+  "updated": "2026-10-10T16:20Z",
   "status": "ok",
-  "session": "translation-qc-and-scout-cloud 12:20Z",
-  "summary": "QC clean (225/225 frontmatter, 0 mojibake, Atsyukovsky manifests full); claimed+closed FAL-it-334-1..5 (scout fire 334, it+orgone 36th pass) \u2014 IT->EN dossier in Forge memory (commit b6f62c6) BEFORE claim per anti-stranding rule; claims.md + cron ledger pushed; Mafra 0 (36th it read); carries: Fantetti 10-05 holds, Piramidi-Italiane DNS dead 3rd, TET silent, Mesbet expedition ends 10-11 (post-expedition dossier watch active); publish boundary holds (no translations/ in AFLinks).",
-  "publish_boundary": "holding \u2014 Tier 2 still pending Sandra authorization",
-  "next_run": "2026-10-10T16:20:00Z"
+  "session": "16:20Z cloud QC+scout",
+  "summary": "QC clean (225/225 frontmatter, 0 mojibake, Atsyukovsky manifests full); claimed+closed FAL-it-334-1..5 (scout fire 334, it+orgone 36th pass) — IT->EN dossier in Forge memory (commit b6f62c6) BEFORE claim per anti-stranding rule; claims.md + cron ledger pushed; Mafra 0 (36th it read); carries: Fantetti 10-05 holds, Piramidi-Italiane DNS dead 3rd, TET silent, Mesbet expedition ends 10-11 (post-expedition dossier watch active); publish boundary holds (no translations/ in AFLinks).",
+  "publish_boundary": "holding — Tier 2 still pending Sandra authorization",
+  "next_run": "2026-10-10T16:20:00Z",
+  "qc": "225/225 corpus translations valid frontmatter, 0 mojibake, 5/5 Atsyukovsky manifests full (220/249/247/210/178); no new translator-side work (bulk-lane stale ~13d, R159 stands)",
+  "closed": "FAL-es-335-1..3 (fire 335 es, 34th es pass): ISSEU/Gamez frecuencial institution + Cuenca pranic placebo cohort + U201200929 utility-model instrument; 16 QC findings; dossier in Forge memory (719acde), claims f26fbef, ledger e69ab6f",
+  "mafra": "0 (34th consecutive es read)",
+  "watches": "XXV Goiz Congress TODAY 10-Oct (post-debrief next); Mesbet expedition ends TOMORROW 10-11 (post-expedition window 10-12+, PRIORITY); BIONAT-2026 holds",
+  "boundary": "holds — no translations/ dir at AFLinks top level (855 entries; only translate_pipeline.py + translations.html)",
+  "next": "claims fire 336 (zh) at 20:20Z per rotation order"
 }
