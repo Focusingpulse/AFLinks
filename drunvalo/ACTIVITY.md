@@ -1,4 +1,7 @@
-# Drunvalo Activity Log
+# Drunvalo Activity Log## 2026-10-10 00:06 UTC — aetherforce-translation-qc
+
+standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake); +9 works (Forge Oct-9 late batch: Risy fr x4, Tesla Wardenclyffe bs, radiesthesia clinic pt, goethean-science + calligaris it-wiki, aether ar-wiki), +1 person (giuseppe-calligaris), +6 person links; normalized AHPNE underscore id; Risy aodf/aodf2 cross-linked; 674 works / 480 persons
+
 ## 2026-10-10T00:04:35Z - village-maintenance (ok)
 village-maintenance: joined 32 scraper-split wayback links in master_quests.json (archived fallbacks revived for 7 dead domains); unglued 3 URL artifacts (buymeacoffee/dzenifr, dlive/mavisfarmacy, northwestpermaculture trailing dash - all verified live); RESOURCE_POOL extended +4 vetted entries, Library +2 (ATTRA-NCAT, SARE); link report 1010->1003 URLs, http_err 29->24, bad 10->8; validators 5/5; village main pushed d6b7712 (verified on remote)
 
