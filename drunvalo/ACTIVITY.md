@@ -1,4 +1,7 @@
 # Drunvalo Activity Log
+## 2026-10-10T00:20:00Z - village-content-growth (ok)
+village-content-growth: fresh permies crawl (499 pages) found genuinely new BBs, several only days old — +8 quests with wiki-verified requirements and full es/fr/de translations (Textiles: Spin and Ply Yarn; Tool Care: Remove Rust/Clean/Oil; Animal Care: Breed Ewe/Lamb + Breed Cow/Calf; Homesteading PEM-traditional: Leather Cordage, Pine Needle Basket, Shell Buttons; Oddball: Plastic Jug Scoop); Library +3 vetted resources (ABANA, Scientific Beekeeping, Handweaving.net); master_quests +28 new pages, 54 refreshed, -122 paginated same-wiki-id dupes (529->435 unique); links 977/1013 OK (failures all forum-signature noise); rebased over concurrent village-maintenance push a59cb35; village main 280a439 verified on remote; validators 5/5
+
 ## 2026-10-10T00:04:35Z - village-maintenance (ok)
 village-maintenance: joined 32 scraper-split wayback links in master_quests.json (archived fallbacks revived for 7 dead domains); unglued 3 URL artifacts (buymeacoffee/dzenifr, dlive/mavisfarmacy, northwestpermaculture trailing dash - all verified live); RESOURCE_POOL extended +4 vetted entries, Library +2 (ATTRA-NCAT, SARE); link report 1010->1003 URLs, http_err 29->24, bad 10->8; validators 5/5; village main pushed d6b7712 (verified on remote)
 
