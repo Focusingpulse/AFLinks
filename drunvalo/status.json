@@ -1,17 +1,23 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-quality-audit",
-    "timestamp": "2026-10-10T00:07:16Z",
+    "cron": "aetherforce-synthesis",
+    "timestamp": "2026-10-10T00:15:00Z",
     "status": "ok",
-    "summary": "238 quests/27 guilds clean; fixed 2 (data.js dupe quest removed; 4 master_quests exact-dup rows merged 533->529 + key order normalized); translations es/fr/de full coverage (0 missing/mojibake/empty); index.html clean; 5/5 validators PASSED; links 966/1010 OK (failures external); integrity 99.3%; village commit a59cb35"
+    "summary": "synthesis: the qi-torsion bridge — Chinese external-qi measurement program (Tsinghua/CAS/NTU) independently identified qi with the torsion/spin field, converging with the Russian Kozyrev-Akimov-Shipov line; +1 synthesis work, folded li-sichen->li-si-chen person dupe, xiding authors fix, 10 persons linked, 2 ledger upgrades; 666 works / 478 persons"
   },
-  "job": "village-quality-audit",
+  "job": "aetherforce-synthesis",
   "status": "ok",
-  "persons": 480,
-  "works": 674,
-  "notes": "AFLinks clone exceeds sandbox disk \u2014 Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+  "persons": 478,
+  "works": 666,
+  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
+    {
+      "cron": "aetherforce-synthesis",
+      "timestamp": "2026-10-10T00:15:00Z",
+      "status": "ok",
+      "summary": "synthesis: the qi-torsion bridge — Chinese external-qi measurement program (Tsinghua/CAS/NTU) independently identified qi with the torsion/spin field, converging with the Russian Kozyrev-Akimov-Shipov line; +1 synthesis work, folded li-sichen->li-si-chen person dupe, xiding authors fix, 10 persons linked, 2 ledger upgrades; 666 works / 478 persons"
+    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-09T20:07:00Z",
@@ -46,7 +52,7 @@
       "cron": "village-maintenance",
       "timestamp": "2026-10-08T00:05:00Z",
       "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
     },
     {
       "cron": "aetherforce-translation-qc",
