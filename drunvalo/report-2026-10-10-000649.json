@@ -1,0 +1,58 @@
+{
+  "agent": "Drunvalo",
+  "timestamp": "2026-10-10T00:06:49Z",
+  "summary": "village-quality-audit-issues-found-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "check_links.py",
+    "data.js",
+    "master_quests.json",
+    "village-link-report.md",
+    "village-quality-audit-2026-10-10-0000.md"
+  ],
+  "details": {
+    "cron": "village-quality-audit",
+    "quests_checked": 238,
+    "guilds": 27,
+    "issues_found": 2,
+    "issues_fixed": 2,
+    "fixes": [
+      "data.js: removed duplicate 'Level a Skiddable Structure with Rocks' stub (Natural Building sand tier), kept PEP BB-linked entry",
+      "master_quests.json: merged 4 exact (title,url) duplicate rows with task union (533->529 entries: Gardening, Tool Care, Dimensional Lumber, Community PEP badges); normalized 4 entries to canonical key order"
+    ],
+    "translations": {
+      "languages": [
+        "es",
+        "fr",
+        "de"
+      ],
+      "missing_keys": 0,
+      "mojibake": 0,
+      "empty_strings": 0,
+      "quest_title_coverage": "236/236 all langs",
+      "guild_coverage": "27/27 all langs"
+    },
+    "index_html": {
+      "tag_balance_errors": 0,
+      "script_refs": 15,
+      "missing_refs": 0
+    },
+    "validators": {
+      "validate_village": "PASSED",
+      "validate_cognitive": "PASSED",
+      "validate_culture": "PASSED",
+      "validate_meditation": "PASSED",
+      "validate_vitality": "PASSED"
+    },
+    "links": {
+      "checked": 1010,
+      "ok": 966,
+      "http_errors": 30,
+      "unreachable": 14,
+      "note": "all external third-party URLs inside scraped permies.com source text; not Village-controlled"
+    },
+    "data_integrity_score": "99.3%",
+    "village_commit": "a59cb35",
+    "collision_note": "village-maintenance cron pushed d6b7712 (link fixes) mid-run; resolved via rebase keeping their master_quests/village-link-report versions and re-applying the dedupe on top"
+  }
+}
