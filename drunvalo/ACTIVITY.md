@@ -1,20 +1,4 @@
-# Drunvalo Activity Log## 2026-10-10 00:06 UTC — aetherforce-translation-qc
-
-standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake); +9 works (Forge Oct-9 late batch: Risy fr x4, Tesla Wardenclyffe bs, radiesthesia clinic pt, goethean-science + calligaris it-wiki, aether ar-wiki), +1 person (giuseppe-calligaris), +6 person links; normalized AHPNE underscore id; Risy aodf/aodf2 cross-linked; 674 works / 480 persons
-
-## 2026-10-10 00:07 UTC — village-quality-audit
-
-- **Status:** ok | **Integrity:** 99.3% | **Village commit:** a59cb35
-- Quests: 238 tuples across 27 guilds — structure valid, 0 malformed, 0 empty fields
-- **Fixed:** data.js duplicate quest "Level a Skiddable Structure with Rocks" (stub removed, PEP BB-linked entry kept)
-- **Fixed:** master_quests.json 4 exact (title,url) duplicate rows merged with task union (533→529: Gardening/Tool Care/Dimensional Lumber/Community PEP badges); 4 entries normalized to canonical key order
-- Translations es/fr/de: full coverage (236/236 titles, 27/27 guilds, 11/11 subjects), 0 mojibake, 0 empty
-- index.html: 0 tag-balance errors, 15/15 script refs exist
-- Validators: 5/5 PASSED
-- Links: 966/1010 OK; 30 HTTP errors + 14 unreachable, all external third-party URLs in scraped source text (not Village-controlled)
-- Collision: village-maintenance cron pushed d6b7712 mid-run — rebased, kept their link fixes, re-applied dedupe on top
-- Report: drunvalo/report-2026-10-10-000724.json → pushed as report-2026-10-10-000649.json
-
+# Drunvalo Activity Log
 ## 2026-10-10T00:04:35Z - village-maintenance (ok)
 village-maintenance: joined 32 scraper-split wayback links in master_quests.json (archived fallbacks revived for 7 dead domains); unglued 3 URL artifacts (buymeacoffee/dzenifr, dlive/mavisfarmacy, northwestpermaculture trailing dash - all verified live); RESOURCE_POOL extended +4 vetted entries, Library +2 (ATTRA-NCAT, SARE); link report 1010->1003 URLs, http_err 29->24, bad 10->8; validators 5/5; village main pushed d6b7712 (verified on remote)
 
@@ -399,3 +383,10 @@ Checked the 5 newest translations (all 2026-09-15, Forge-authored): Simoneton ra
 - Source URLs 30/32 verified live (200; uk.wikipedia Cyrillic URL needed percent-encoding client-side — link itself fine). **farghaly entry had EMPTY source_url — backfilled DOI 10.21608/idj.2021.205077** (resolves 302 → idj.journals.ekb.eg/article_205077.html; IDJ vol 11 no 6, pp. 225–232). oborud.ogorodguru.ru timed out from sandbox (urllib + curl) — kept, noted as unverified-timeout, not confirmed dead.
 - Feed-title quality: two slug-titled feed entries (al-battat ar, unruh nazology ja) given real titles in the DB — builder DB-alignment (same source_url) will rewrite feed titles on next rebuild; no builder patch needed. Keely feed title said 'cs' but source is Slovak — DB title corrected to sk.
 - Index sizes: 597 works, 460 persons. Contents-API pushes below. Collision re-check armed ~16:35 UTC.
+
+## 2026-10-10T00:15:00Z — aetherforce-synthesis (00:00 UTC)
+- **New synthesis**: `synthesis/2026-10-10-qi-torsion-bridge-chinese-measurement-program.md` — the qi-torsion bridge. China's institutional measurement program for external qi (Tsinghua/Guangming Daily 1987, Atomic Energy Science and Technology 1988, Lu Zuyin on the Yan Xin experiments, CAS IHEP information water, Lee Si-Chen infrared spectroscopy) independently identified qi with the torsion/spin field (Li 2006, Lee/Tsai/Liang 2016) — the same carrier derived from vacuum physics by the Russian Kozyrev-Akimov-Shipov line. The 2018 Bulgaria 7,900-km experiment claimed Yan-Xin-style remote water-spectra effects from a torsion *generator*, removing the master from the protocol. Second convergence underneath: crystalline qi interacts with geometric structures — the French form-wave claim arising independently in Taiwanese data. 16 sources cited, 19 validated cross_refs.
+- **research-index**: +1 synthesis work (`synthesis-qi-torsion-bridge-chinese-measurement-program`), themes/concepts/key_claims filled; xiding three-books work authors [] -> ['li-si-chen']. 665 -> 666 works.
+- **person-index**: folded `li-sichen` -> `li-si-chen` (Li Sichen = Si-Chen Lee 李嗣涔, same person under alternate romanization, added 2026-10-09; works_in_collection + domains + cited_by merged, note recorded). 479 -> 478 persons. Synthesis linked into works_in_collection of 10 persons (li-si-chen, lu-zuyin, yan-xin, yuan-jiali, yang-yulin, tsai-hsiung-kung, serge-kernbach, kozyrev, akimov, shipov) — by-or-about convention.
+- **family_ledger**: +2 upgrade proposals — Li Si-Chen's three books (full translation target) and CAS/Tsinghua primary qigong papers (1988 journal issue + IHEP information-water studies).
+- Contents-API pushes (repo exceeds sandbox disk). Collision re-check armed ~00:40 UTC.
