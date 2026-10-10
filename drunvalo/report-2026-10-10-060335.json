@@ -1,0 +1,12 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-10T06:03:35Z",
+  "summary": "village-maintenance: 903 links checked (880 OK); fixed glued URL theartisthomestead.comor in 2 master_quests rows; added 2 library resources (iNaturalist, OSU Extension); validators 5/5; village commit d9abc8a",
+  "status": "ok",
+  "files_modified": [
+    "master_quests.json",
+    "index.html",
+    "village-link-report.md"
+  ],
+  "details": "Village RPG 6h maintenance. check_links.py: 903 unique external URLs, 880 good, 15 http_err, 8 unreachable (all external forum-signature noise in scraped task text, not fixed by design). village_maintain.py: fixed 2x glued-URL rows (theartisthomestead.comor), added iNaturalist + OSU Extension Service library resources, validators 5/5 passed. Village repo commit d9abc8a pushed to main."
+}
