@@ -1,23 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-10T04:06:00Z",
-    "status": "ok",
-    "summary": "translation-QC: standing checks all clean; +10 works (Forge Oct 9-10 batch: Boudet Tesla-ether fr, ABC Figuera es, Kaznacheev-Trofimov Kozyrev-space ru, Rychnowski elektroid pl, plasma-cosmology wiki pl, Schauberger radioawangarda pl, Bukalov consciousness-levels ru, Risy carnets-preamble fr, stop5g torsion-hologram cs, Shekhovtsov-Novichenko water-and-time ru), +5 persons, +8 person links, +3 reverse cross-refs; 685 works / 484 persons"
-  },
-  "job": "aetherforce-translation-qc",
+  "last_run": "2026-10-10T06:03:35Z",
+  "job": "village-maintenance",
   "status": "ok",
   "persons": 484,
   "works": 685,
-  "notes": "AFLinks clone exceeds sandbox disk — Contents API path; synthesis_index.json no longer published in repo (builder script present)",
+  "notes": "AFLinks clone exceeds sandbox disk \u2014 Contents API path; synthesis_index.json no longer published in repo (builder script present)",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-08T20:06:00Z",
-      "status": "ok",
-      "summary": "standing checks clean; +7 works, +3 persons (bracco, provost, pouteau); Krsko sr/sl cross-ref pair; quietsphere ja pair confirmed distinct; 604 works / 463 persons"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-07T16:10:00Z",
@@ -34,7 +23,7 @@
       "cron": "village-maintenance",
       "timestamp": "2026-10-08T00:05:00Z",
       "status": "ok",
-      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 — bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
+      "summary": "link check 1010 URLs (970 good); curated-link deaths 0 \u2014 bot-gated links re-verified live; wildfermentation.com 500 watch item; validators 5/5; pushed village f7b642c"
     },
     {
       "cron": "aetherforce-translation-qc",
@@ -71,7 +60,13 @@
       "timestamp": "2026-10-10T04:06:00Z",
       "status": "ok",
       "summary": "translation-QC: standing checks all clean; +10 works (Forge Oct 9-10 batch: Boudet Tesla-ether fr, ABC Figuera es, Kaznacheev-Trofimov Kozyrev-space ru, Rychnowski elektroid pl, plasma-cosmology wiki pl, Schauberger radioawangarda pl, Bukalov consciousness-levels ru, Risy carnets-preamble fr, stop5g torsion-hologram cs, Shekhovtsov-Novichenko water-and-time ru), +5 persons, +8 person links, +3 reverse cross-refs; 685 works / 484 persons"
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-10T06:03:35Z",
+      "status": "ok",
+      "summary": "village-maintenance: 903 links checked (880 OK); fixed glued URL theartisthomestead.comor in 2 master_quests rows; added 2 library resources (iNaturalist, OSU Extension); validators 5/5; village commit d9abc8a"
     }
   ],
-  "timestamp": "2026-10-10T04:06:00Z"
+  "timestamp": "2026-10-10T06:03:35Z"
 }
