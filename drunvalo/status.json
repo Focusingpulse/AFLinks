@@ -1,12 +1,7 @@
 {
   "agent": "drunvalo",
-  "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-10T12:08:22Z",
-    "status": "ok",
-    "summary": "translation-QC 12:00 UTC: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-similarity 5 candidates / containment 3, 0 folds (Sitkowski distinct books, quietsphere + Risy series, 3 already-cross-linked pairs). Added 9 works from Forge's 2026-10-10 batch (ko/sr x2/hr/hi/ru x3/ro) + 5 persons (nikolina-calasan, smail-dubravic, popov-vp, shkavro-zn, shchukin-vs), linked jeon-mu-sik. tag_concepts.py skipped (dead). 703 works / 497 persons."
-  },
-  "job": "aetherforce-translation-qc",
+  "last_run": "2026-10-10T12:06:00+00:00",
+  "job": "aetherforce-scout",
   "status": "ok",
   "persons": 497,
   "works": 703,
@@ -33,12 +28,6 @@
     "url_checks": "8/9 live 200; boris-sasho.com PDF 403 anti-bot (kept)"
   },
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-10T00:06:00Z",
-      "status": "ok",
-      "summary": "standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake); +9 works (Forge Oct-9 late batch: Risy fr x4, Tesla Wardenclyffe bs, radiesthesia clinic pt, goethean-science + calligaris it-wiki, aether ar-wiki), +1 person (giuseppe-calligaris), +6 person links; normalized AHPNE underscore id; Risy aodf/aodf2 cross-linked; 674 works / 480 persons"
-    },
     {
       "cron": "village-quality-audit",
       "timestamp": "2026-10-10T00:07:16Z",
@@ -92,7 +81,13 @@
       "timestamp": "2026-10-10T12:08:22Z",
       "status": "ok",
       "summary": "translation-QC 12:00 UTC: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-similarity 5 candidates / containment 3, 0 folds (Sitkowski distinct books, quietsphere + Risy series, 3 already-cross-linked pairs). Added 9 works from Forge's 2026-10-10 batch (ko/sr x2/hr/hi/ru x3/ro) + 5 persons (nikolina-calasan, smail-dubravic, popov-vp, shkavro-zn, shchukin-vs), linked jeon-mu-sik. tag_concepts.py skipped (dead). 703 works / 497 persons."
+    },
+    {
+      "cron": "aetherforce-scout",
+      "timestamp": "2026-10-10T12:06:00+00:00",
+      "status": "ok",
+      "summary": "aetherforce-scout: 22 finds; 6 upgrade_bank items resolved (044/052/055/046/006/008), 051 partial; 5 new proposals (234-238); ball-lightning lane gap found (0 DB works); 21/22 URLs 200"
     }
   ],
-  "timestamp": "2026-10-10T12:08:22Z"
+  "timestamp": "2026-10-10T12:06:00+00:00"
 }
