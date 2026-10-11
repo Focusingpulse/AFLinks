@@ -1,0 +1,8 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-11T00:06:49Z",
+  "summary": "village-maintenance: link check 895 URLs 876 OK; extended RESOURCE_POOL +9 vetted entries; added 2 library resources (Organic Seed Alliance, eOrganic); validators 5/5 passed",
+  "status": "ok",
+  "files_modified": ["village-link-report.md", "index.html", "village_maintain.py"],
+  "details": "Link check: 895 unique external URLs, 876 OK, 15 http_err, 4 bad -- all failures in scraped master_quests.json forum text (429 rate-limits from our own crawl, 403 anti-bot, transient 5xx); woodworkingformeremortals.com 405 is HEAD-rejection only, GET 301s live to shopwwmm.com. RESOURCE_POOL was exhausted (12/12 used, last free entry blocked by title-level dedupe); extended with 9 curl-verified entries: Organic Seed Alliance, eOrganic, MushroomExpert.com, Fias Co Farm, Open Source Ecology, Farm Hack, Garden Organic, Resilience.org, Savory Institute. village_maintain.py added Organic Seed Alliance + eOrganic to index.html. Validators 5/5. Village commit f45df69 pushed to permies-skip-pep-data main."
+}
