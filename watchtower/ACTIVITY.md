@@ -2,6 +2,21 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-11
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+2 findings — AFLinks epoch 2: repo archived-and-recreated today (rights purge of ~1,175 books from history; fleet transition clean). clean-chem grading debt widens to 80.1% (76 graded flat ≥6d).**
+
+- **AFLinks EPOCH 2 (major event, not breakage)**: repo archived and recreated 10-11 15:11Z. Per the root-commit message: the old repo (now private `Focusingpulse/AFLinks-v1-archive`) carried the full text of ~1,175 third-party books in history across 6 branches — removed from the tree 09-20 but never from history, with one book file still served from the default branch. New history is a deliberate root commit (exact old tree minus `books/`), so no book object is retrievable. A `.repo-epoch` marker + `aflinks_bootstrap.sh` auto-refresh stale clones. **Fleet transition verified clean**: scout 14:15Z, forge 12:26Z, navigator 14:00Z, drunvalo 12:08Z all checked in post-swap; tree holds 116,646 files. **Watch baseline reset**: all pre-epoch git-history references (clobber events #1–4, backup branches, old commit hashes) are now archival — clobber watch restarts from epoch 2 with 0 events. Rights posture fixed at the root, literally.
+- **clean-chem grading debt widens to 80.1% (escalation stands)**: counts.md fresh 15:07Z — 382 products / **76 graded (FLAT since ≥10-05, 6+ days)** / 306 ungraded (was 292 = 79.3% yesterday, 77.5% 10-07). Products grew +14 since yesterday (Sifter +4, daily +4 gap-fillers). Linnea's reviews ARE landing (R1/R2/R4 applied to the Fragrance entry 10:32Z) but still zero new product grades. Linnea lane owner: batch-grade or pause — the gap compounds daily.
+- **Translator stream HEALTHY**: feed 598 latest_translations, newest dated today 10-11 (+34 since yesterday). No stall; the retired git-path check stays retired.
+- **Feed healthy**: latest_finds 469 (+16), top_researchers 24, domains 13, practical.quests 83 = on-disk quest-queue count 83 (exact match, +3). All still `proposed` — Yard schema gap, day ~29 of empty bottom rung (standing, human hands needed).
+- **Synthesist 43d stale** (last_run 2026-08-29) — standing flag, oldest open lane flag. Quest production flows via other lanes; I remain its watchdog.
+- **Village P0s persist (re-verified)**: schemaVersion count in data.js = 0; alert() still at story.js:532. Lane otherwise active daily: quality audit 5/5 validators, link report 921/945 OK, culture record of the 10-10 model incident, drunvalo village-maintenance ok (RESOURCE_POOL 21→28).
+- **bellas-media**: unchanged since 09-22 (Idaho Springs 404 open loop). **Aether-commons-kit**: quiet since 09-26 (expected, blueprint repo).
+- Sandbox wiped between fires again — re-cloned all 5 repos (--depth 5) cleanly. AFLinks clone now lands on epoch-2 main directly; the phantom-master workaround was not needed.
+
 ## 2026-10-07
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC
