@@ -13,22 +13,16 @@
   "notes": "Torsion telecommunication program synthesis (17 sources). 695 works / 495 persons.",
   "runs": [
     {
-      "cron": "village-quality-audit",
-      "timestamp": "2026-10-10T00:07:16Z",
-      "status": "ok",
-      "summary": "238 quests/27 guilds clean; fixed 2 (data.js dupe quest removed; 4 master_quests exact-dup rows merged 533->529 + key order normalized); translations es/fr/de full coverage (0 missing/mojibake/empty); index.html clean; 5/5 validators PASSED; links 966/1010 OK (failures external); integrity 99.3%; village commit a59cb35"
-    },
-    {
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-10T00:15:00Z",
       "status": "ok",
-      "summary": "synthesis: the qi-torsion bridge — Chinese external-qi measurement program (Tsinghua/CAS/NTU) independently identified qi with the torsion/spin field, converging with the Russian Kozyrev-Akimov-Shipov line; +1 synthesis work, folded li-sichen->li-si-chen person dupe, xiding authors fix, 10 persons linked, 2 ledger upgrades; 666 works / 478 persons"
+      "summary": "synthesis: the qi-torsion bridge \u2014 Chinese external-qi measurement program (Tsinghua/CAS/NTU) independently identified qi with the torsion/spin field, converging with the Russian Kozyrev-Akimov-Shipov line; +1 synthesis work, folded li-sichen->li-si-chen person dupe, xiding authors fix, 10 persons linked, 2 ledger upgrades; 666 works / 478 persons"
     },
     {
       "cron": "village-content-growth",
       "timestamp": "2026-10-10T00:20:00Z",
       "status": "ok",
-      "summary": "village-content-growth: fresh permies crawl (499 pages) found genuinely new BBs, several only days old — +8 quests with wiki-verified requirements and full es/fr/de translations (Textiles: Spin and Ply Yarn; Tool Care: Remove Rust/Clean/Oil; Animal Care: Breed Ewe/Lamb + Breed Cow/Calf; Homesteading PEM-traditional: Leather Cordage, Pine Needle Basket, Shell Buttons; Oddball: Plastic Jug Scoop); Library +3 vetted resources (ABANA, Scientific Beekeeping, Handweaving.net); master_quests +28 new pages, 54 refreshed, -122 paginated same-wiki-id dupes (529->435 unique); links 977/1013 OK (failures all forum-signature noise); rebased over concurrent village-maintenance push a59cb35; village main 280a439 verified on remote; validators 5/5"
+      "summary": "village-content-growth: fresh permies crawl (499 pages) found genuinely new BBs, several only days old \u2014 +8 quests with wiki-verified requirements and full es/fr/de translations (Textiles: Spin and Ply Yarn; Tool Care: Remove Rust/Clean/Oil; Animal Care: Breed Ewe/Lamb + Breed Cow/Calf; Homesteading PEM-traditional: Leather Cordage, Pine Needle Basket, Shell Buttons; Oddball: Plastic Jug Scoop); Library +3 vetted resources (ABANA, Scientific Beekeeping, Handweaving.net); master_quests +28 new pages, 54 refreshed, -122 paginated same-wiki-id dupes (529->435 unique); links 977/1013 OK (failures all forum-signature noise); rebased over concurrent village-maintenance push a59cb35; village main 280a439 verified on remote; validators 5/5"
     },
     {
       "cron": "village-maintenance",
@@ -40,7 +34,7 @@
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-10T06:08:48Z",
       "status": "ok",
-      "summary": "aetherforce-synthesis: created synthesis/2026-10-10-applied-turn-risy-field-notebooks.md — the applied turn: Daniel Risy's 18-notebook corpus (danielrisy.free.fr) as the operational layer of the form-wave/torsion convergence; threads: truffle mycorrhizal 'super networks' vs mainstream common-mycorrhizal science, apiary form-waves + quasi-controlled varroa two-hive protocol, biodynamic cosmic-rhythm claim x3 (Steiner GA327, Kozyrev/Kaznacheev-Trofimov, Risy stellar-impulse); five cross-language witnesses (Kovalenko ru form-effect, Pietrzak pl, Servranx fr, tavole torsionali it, Gao Peng zh 2.2km LED/EIS) + BioGeometry; verification grading per claim class. research-index 685->686 (34 cross_refs validated against id set), 10 persons linked, ledger upgrade-232 (complete Risy CARNETS) + upgrade-233 (mycorrhizal cross-validation dossier)."
+      "summary": "aetherforce-synthesis: created synthesis/2026-10-10-applied-turn-risy-field-notebooks.md \u2014 the applied turn: Daniel Risy's 18-notebook corpus (danielrisy.free.fr) as the operational layer of the form-wave/torsion convergence; threads: truffle mycorrhizal 'super networks' vs mainstream common-mycorrhizal science, apiary form-waves + quasi-controlled varroa two-hive protocol, biodynamic cosmic-rhythm claim x3 (Steiner GA327, Kozyrev/Kaznacheev-Trofimov, Risy stellar-impulse); five cross-language witnesses (Kovalenko ru form-effect, Pietrzak pl, Servranx fr, tavole torsionali it, Gao Peng zh 2.2km LED/EIS) + BioGeometry; verification grading per claim class. research-index 685->686 (34 cross_refs validated against id set), 10 persons linked, ledger upgrade-232 (complete Risy CARNETS) + upgrade-233 (mycorrhizal cross-validation dossier)."
     },
     {
       "cron": "aetherforce-database-refresh",
@@ -58,13 +52,19 @@
       "cron": "village-content-growth",
       "timestamp": "2026-10-10T08:18:00Z",
       "status": "ok",
-      "summary": "village-content-growth: crawl 499 pages, no genuinely new BBs this cycle (24 badge-page candidates were generic forum renders with staff-name noise, discarded; 12.7k task-refresh candidates were forum chrome, not merged; stale crawl artifact restored uncommitted); Library +3 vetted resources — Plants For A Future useful-plants database, Appropedia appropriate-technology wiki, The Grow Network homesteading school — all curl-verified 200; fixed library DOM structure (removed premature library-box close orphaning 12 categories from styling; added missing Textiles lib-category close that nested all later categories — document now parses 0 errors, 25 categories uniform depth); master_quests dedupe 433->421 (12 slug-vs-wiki-id duplicate badge pairs union-merged by tier+text, key order normalized, validator duplicate-titles warning cleared); translations full coverage es/fr/de (246/246 titles, 27/27 guilds); validators 5/5 PASSED; links 895 checked / 873 OK (failures all external: 429 rate-limits, anti-bot 403s, dead scraped-text links); village main aada916 verified on remote; gap noted: no badge-level master rows for Metalworking / Plumbing & Hot Water (permies served generic renders this cycle)"
+      "summary": "village-content-growth: crawl 499 pages, no genuinely new BBs this cycle (24 badge-page candidates were generic forum renders with staff-name noise, discarded; 12.7k task-refresh candidates were forum chrome, not merged; stale crawl artifact restored uncommitted); Library +3 vetted resources \u2014 Plants For A Future useful-plants database, Appropedia appropriate-technology wiki, The Grow Network homesteading school \u2014 all curl-verified 200; fixed library DOM structure (removed premature library-box close orphaning 12 categories from styling; added missing Textiles lib-category close that nested all later categories \u2014 document now parses 0 errors, 25 categories uniform depth); master_quests dedupe 433->421 (12 slug-vs-wiki-id duplicate badge pairs union-merged by tier+text, key order normalized, validator duplicate-titles warning cleared); translations full coverage es/fr/de (246/246 titles, 27/27 guilds); validators 5/5 PASSED; links 895 checked / 873 OK (failures all external: 429 rate-limits, anti-bot 403s, dead scraped-text links); village main aada916 verified on remote; gap noted: no badge-level master rows for Metalworking / Plumbing & Hot Water (permies served generic renders this cycle)"
     },
     {
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-10T12:12:00Z",
       "status": "ok",
-      "summary": "aetherforce-synthesis: created synthesis/2026-10-10-torsion-telecommunication-program.md — the torsion telecommunication program: spin-field communication from Shkatov & Zamsha's interstellar-communication proposal through Tomsk instruments (Shkatov detector memoir, Akimov generator, RU2115965 patent) to Gao Peng's scalarwave.cc distance records (2.2 km LED/EIS, 7,900 km Beijing-Stuttgart Kernbach protocol, ~11,000 km Krinker cross-photo), with the Kaznacheev-Trofimov human channel (Polar Circle 1991, Banner of Peace 1993, distant-time advance) as documented precedent, the Japanese qi-instrumentation node (Sasaki spiral qi, Aoki photomultiplier dark current) as third convergence, and the skeptical ledger (Elektrosvyaz debate, RAS commission, PulsePen 2025 fact-check) carried in full. 17 numbered sources, all cross_refs validated against id set. research-index 694->695, person-index 492->495 (+zamsha, mark-krinker, takashi-aoki; 12 persons linked), family_ledger upgrade-234 (Shkatov & Zamsha book) + upgrade-235 (Krinker reports). Contents-API pushes (repo exceeds sandbox disk). Collision re-check armed ~12:40 UTC."
+      "summary": "aetherforce-synthesis: created synthesis/2026-10-10-torsion-telecommunication-program.md \u2014 the torsion telecommunication program: spin-field communication from Shkatov & Zamsha's interstellar-communication proposal through Tomsk instruments (Shkatov detector memoir, Akimov generator, RU2115965 patent) to Gao Peng's scalarwave.cc distance records (2.2 km LED/EIS, 7,900 km Beijing-Stuttgart Kernbach protocol, ~11,000 km Krinker cross-photo), with the Kaznacheev-Trofimov human channel (Polar Circle 1991, Banner of Peace 1993, distant-time advance) as documented precedent, the Japanese qi-instrumentation node (Sasaki spiral qi, Aoki photomultiplier dark current) as third convergence, and the skeptical ledger (Elektrosvyaz debate, RAS commission, PulsePen 2025 fact-check) carried in full. 17 numbered sources, all cross_refs validated against id set. research-index 694->695, person-index 492->495 (+zamsha, mark-krinker, takashi-aoki; 12 persons linked), family_ledger upgrade-234 (Shkatov & Zamsha book) + upgrade-235 (Krinker reports). Contents-API pushes (repo exceeds sandbox disk). Collision re-check armed ~12:40 UTC."
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-11T00:06:49Z",
+      "status": "ok",
+      "summary": "village-maintenance: link check 895 URLs 876 OK (19 failures all external noise in scraped text); RESOURCE_POOL exhausted, extended +9 curl-verified entries; added 2 library resources (Organic Seed Alliance, eOrganic); validators 5/5; village commit f45df69"
     },
     {
       "cron": "aetherforce-scout",
