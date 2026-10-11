@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T17:36:11Z",
+  "generated_at": "2026-10-11T18:18:24Z",
   "library": {
     "researchers": 1867,
     "researchers_cataloged": 1867,
@@ -8,20 +8,20 @@
     "meta_categories": 30,
     "aflinks_docs": 120656,
     "translations": 598,
-    "pages_translated": 13291,
+    "pages_translated": 13349,
     "declassified_finds": 209,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 704,
+    "translation_files": 706,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
       "translation_works": 598,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 13291,
+      "pages_translated_computed": 13349,
       "inherited": [],
-      "pages_translated_published": 13291
+      "pages_translated_published": 13349
     },
     "bridges": 27,
     "archive_entries": 120792,
@@ -62,11 +62,11 @@
     "replication_dossiers": 94,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-11T17:36:11Z",
+      "generated_at": "2026-10-11T18:18:24Z",
       "archive_entries": 120792,
       "aflinks_docs": 120656,
       "translations": 598,
-      "pages_translated": 13291,
+      "pages_translated": 13349,
       "declassified_finds": 209,
       "researchers": 1867,
       "patents": 3044,
@@ -28238,9 +28238,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-10-11T14:13:00Z",
+      "last_run": "2026-10-11T18:09:41Z",
       "last_status": "ok",
-      "last_summary": "run total 78 chunks across 2 docs | full-translated+archived Shipov Vacuum Mechanics and Inertia Fields ru 41 of 41 and Nikitin Supportless Motion ru 37 of 37 | backlog 623 | gear overdrive"
+      "last_summary": "run total 2 docs fully translated and archived from the trinitas.ru Institute of Vacuum Physics vein | Shipov Anomalous Physics and Torsion Fields Part 1 ru 19 of 19 chunks | Afonin Ether and 20th Century Physics ru 41 of 41 chunks | backlog 628 | gear overdrive"
     },
     {
       "member": "translation-sweeper",
@@ -28271,9 +28271,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-11T16:24:01Z",
+      "last_run": "2026-10-11T17:38:46Z",
       "last_status": "ok",
-      "last_summary": "sync: 120787 docs, feed rebuilt"
+      "last_summary": "sync: 120792 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -28387,6 +28387,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-11",
+      "time": "18:09",
+      "agent": "Translation Curator",
+      "summary": "+2 docs — Two full ru->EN translations from the trinitas.ru Institute of Vacuum Physics vein, both with archived sources. (1) G.I. Shipov, 'Anomalous Physics and Torsion Fields, Part 1' (25 pp) — anomalous-experiment base of physics; Ricci torsion as the unifying field; Tolchin inertioid; Descartes' geometrized mechanics; free 4D gyroscope (space-time precession, mechanical induction/self-induction); control of local metric/curvature/torsion; the planned 2007 ISS reactionless-thruster test (reported thwarted by Ginzburg and Fortov); UFO-motion argument; gyroscopic nature of macroquantization. (2) V.V. Afonin, 'Ether and 20th Century Physics' (33 pp) — Cartesian vortex-theory reconstruction: ether with no rest mass, equation of motion without a time derivative, time as a derived function of energy and momentum, the electron as a vortex ring explaining de Broglie, Planck's constant, spin h/2, the uncertainty relation and the discreteness of radiation, and a rational re-derivation of the Michelson null result. Both in copyright, private archive/research use only."
+    },
+    {
+      "date": "2026-10-11",
+      "time": "17:38",
+      "agent": "AFLinks Sync",
+      "summary": "+120792 docs — +120792 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-11",
       "time": "17:24",
@@ -28686,18 +28698,6 @@
       "time": "07:00",
       "agent": "trinitas-index",
       "summary": "+426 articles — trinitas.ru map widened: 6 new section listings found by link-discovery (Публицистика, Golden Section new books, Vernadsky conference, Life Extension theory/people, Praslavic tourism); map now 108 sections, 5141 distinct article URLs; main listing +1 new arrival"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "06:42",
-      "agent": "Translation Sweeper",
-      "summary": "+31 chunks — Full ru->EN translation of G.I. Shipov 'Ether of Tesla, Vacuum of Einstein and the Theory of the Physical Vacuum' (trinitas.ru, 27 pp, 2015), 31/31 chunks, source archived. Shipov's argument that Tesla's 'radiant emission' is the monopole scalar field S_E of the Physical Vacuum theory; Tesla's 1931 Pierce-Arrow ether-energy car, the Brovin generator and single-wire/laser-guided transmission experiments, and the derivation of the Schrodinger equation from the inertia field. Trinitas 0231 vein continues (258 untranslated)."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "06:33",
-      "agent": "Radionics Collection",
-      "summary": "+24 lessons — Collected the 24 spoken lessons of Karl Hans Welz's free 'Magic of the Future' course (magicofthefuture.com) — downloaded, audio-extracted, transcribed with faster-whisper, and mined. Adds the exact wand build, the see/feel/direct/project life-energy exercises, Mesmer's magnetizing protocol, the five laws of life energy, the near-identical vs equivalent structural-link doctrine, and the cattle-prodder experiment in full. Claims recorded as the vendor's own, not endorsed."
     },
     {
       "date": "2026-10-10",
@@ -1301918,11 +1301918,11 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-11T17:36:11Z",
+    "as_of": "2026-10-11T18:18:24Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 501,
-      "pages_translated": 10805,
+      "pages_translated": 10863,
       "declassified": 156,
       "researchers": 732,
       "patents": 209
