@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-11T16:00:31Z",
+  "as_of": "2026-10-11T20:01:29Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "probe HTTP 200, coherent reply 'ok' (12,592 tok); agent default already gear 1 - no write needed",
+  "evidence": "probe POST /v1/agents/$AGENT_ID/messages -> HTTP 200, coherent reply 'ok' (stop_reason end_turn)",
   "note": ""
 }
