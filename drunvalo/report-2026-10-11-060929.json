@@ -1,0 +1,23 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-11T06:09:29Z",
+  "summary": "database-refresh: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake, 0 feed same-file dupes); +6 works from Forge's Oct-11 batch (Shipov trinitas x2: inertia-stagnation 1178-shp + rotation-of-matter quantization 1036-shp, Shipov biography trinitas, Dyatlov polarization-model physical vacuum book, Manganelli Guide de geobiologie 2025 fr, Fontana onde-da-forma geobiologia it), +3 persons (tony-manganelli, andrea-fontana, vladimir-dyatlov), shipov linked x3; mutual cross-refs wired (geobiology fr/it pair + cluster, physical-vacuum ru cluster, shipov inertia pair); URLs 6/6 live 200; ledger: 1 candidate (upgrade-076) HELD - experiment proposal, not a source acquisition; 0 completions; COLLISION: my 06:07Z DB pushes clobbered the concurrent synthesis cron's 06:06Z updates (stale-base class) - three-way merged from its commits, re-applied synthesis-clinical-orgone-line work + myron-sharaf + 12 person links, remote-verified 732 works / 512 persons; tag_concepts skipped (dead), feed rebuild skipped (living-library unavailable), clone skipped (repo exceeds sandbox disk, Contents-API path)",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": {
+    "works": 732,
+    "persons": 512,
+    "feed_entries": 587,
+    "works_added": 7,
+    "persons_added": 4,
+    "standing_checks": "all clean",
+    "ledger_completions": 0,
+    "ledger_held": [
+      "upgrade-076"
+    ],
+    "collision": "synthesis cron stale-base clobber detected and three-way merged within 2 min"
+  }
+}

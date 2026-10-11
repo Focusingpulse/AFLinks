@@ -1,0 +1,77 @@
+{
+  "agent": "drunvalo",
+  "last_run": {
+    "cron": "village-maintenance",
+    "timestamp": "2026-10-11T12:08:00Z",
+    "status": "ok",
+    "summary": "village-maintenance: link check 945 URLs — 925 OK, 20 failures all external noise (burst 429s calearth/charlesdowding/culturesforhealth, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405 wood*formeremortals, dead links in scraped master_quests forum text — none actionable); +2 library resources Garden Organic + Resilience.org (both curl-200 verified); RESOURCE_POOL extended 21->28 (WWOOF, ic.org, Baker Creek rareseeds, Southern Exposure, No-Till Growers, Soil Food Web, Verge Permaculture — all vetted curl-200 + host/title absent); validators 5/5; rebase-resolved concurrent village-quality-audit push (onto-commit pattern for regenerated link report); village commit 8f46c1d"
+  },
+  "job": "village-maintenance",
+  "status": "ok",
+  "persons": 515,
+  "works": 738,
+  "notes": "village-quality-audit: validators 5/5 PASSED (village/cognitive/culture/meditation/vitality). data.js 254 quest tuples (252 unique) - no within-guild dup titles; 2 cross-guild title pairs are distinct guilds (Community Living vs Community), legitimate. translations.js full es/fr/de coverage (all quest titles, 27/27 guilds, 11/11 subjects), 0 mojibake. master_quests.json valid - 423 rows (372 PEP / 31 PEM / 13 SKIP / 7 PEA), 0 dup urls, 0 dup title+framework, canonical key order. index.html 0 parse errors, 15/15 local refs present; 2 duplicate h4 section titles remain (known cosmetic drift, down from 4). Link check 945 URLs: 921 OK / 19 http_err / 5 bad - all external noise (12 index.html-facing re-verified with browser UA: 5 live 200, 5 burst-429, 2 whole-domain bot-block 403 lostartpress/allaboutbirds, none actionable; 12 in scraped forum text not fixed by design). No data issues found; only village-link-report.md refreshed (maintenance preamble preserved). Village commit 9459163 pushed + remote-verified. Data integrity score: 10/10.",
+  "runs": [
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-11T00:12:30Z",
+      "status": "ok",
+      "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake, 0 feed same-file dupes); 6 title-similarity candidates, 0 folds (all known no-fold families). CAUGHT: the 2026-10-10 12:00 UTC QC push had been clobbered by the concurrent synthesis cron's stale-base push (its 9 works + 5 persons silently absent) — re-added; +12 more new works from Forge's 10-10 batch (Reich/orgon-archiv cluster x5 incl. Eva Reich memoir, Risy glossary fr, it-wiki cold fusion, TU Hamburg water capacitor, Jain dhovana water, Quantessence sr pair were part of the re-add, Wellan zh scalar crystallization, akhand-jyoti 1985 prana, yukgaksu pt4). +11 persons (5 re-added + 6 new: eva-reich, kuno-kruse, martin-steinhoff, vasily-artemov, martin-fleischmann, stanley-pons); reich x5 / daniel-risy / jeon-mu-sik / akimov / shipov linked; cross-ref pairs wired (quantessence sr, yukgaksu parts, socionic trio, orgon-archiv cluster, risy 10-10 pair, prana akhand-jyoti, cold-fusion wiki family, uk/ru torsion wiki, wellan/scalarwave). 1 builder alias: 2026-10-10 ru-wiki torsion re-emission (percent-encoded vs raw-Cyrillic URL defeats same-source match). MID-RUN COLLISION: my own 00:10 DB pushes were stale-base and clobbered the 00:09 synthesis update (synthesis-practice-layer work + vincent-reddish + 30 person links) — detected via ACTIVITY.md, three-way merged from commit refs, re-pushed, remote-verified 717 works / 507 persons. tag_concepts skipped (dead). URLs not re-fetched this run (metadata-only QC)."
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-11T04:05:00Z",
+      "status": "ok",
+      "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake, 0 feed same-file dupes); title-similarity 1 candidate / containment 3, 0 folds (quietsphere ja series pair + 3 known cross-linked pairs). +8 works from Forge's Oct 10-11 batch: Shipov trinitas.ru x4 (Tolchin inertioid nonholonomic mechanics 1179-shp, New Scientific Paradigm & Breakthrough Technologies 1165-shp, Scalar Field in Electrodynamics Theory & Experiment 1164-shp, Why Physicists Have Difficulty with Einstein Gravitation & Inertia 1184-shp), Kavouras 'Heilen mit Orgonenergie' orgonomic medicine de (orgon-archiv), Al Jazeera 'The Tesla You Don't Know' ar, 20minutos FBI-declassified Nazi flying saucer es, ru-Wikipedia structured water. 1164 vs 1040-sh scalar-field titles PDF-verified as DISTINCT papers (variable-charge electrodynamics vs Tesla vacuum electrodynamics). +1 person (jorgos-kavouras); person links: shipov x4, einstein x2, tolchin, tesla, masaru-emoto, benveniste, reich. Mutual cross-refs wired: orgon-archiv de trio, scalar-field shipov pair, inertia/inertioid pair. URLs 8/8 live 200. tag_concepts skipped (dead). 725 works / 508 persons."
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-11T06:05:00Z",
+      "status": "ok",
+      "summary": "village-maintenance: link check 897 URLs (876 OK; 21 failures all external noise - burst 429s from our own scan, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405, transient 5xx/timeouts, dead links inside scraped master_quests forum text). 8 index.html failures re-verified with browser UA + delay: culturesforhealth + blackdragonforge 200 (burst noise), 6 live-but-bot-blocked, none actionable. village_maintain.py added 2 library resources: MushroomExpert.com (Kuo field-keyed mushroom ID) + Fias Co Farm (goat-keeping homestead); validators 5/5 passed. Village commit b74537f pushed + remote-verified."
+    },
+    {
+      "cron": "aetherforce-synthesis",
+      "timestamp": "2026-10-11T06:07:00Z",
+      "status": "ok",
+      "summary": "synthesis: created synthesis/2026-10-11-clinical-orgone-line-german-medical-orgonomy.md - the clinical orgone line (post-war German medical-orgonomy school as the third national life-field program): 1980 West Berlin replication group, Lassek 17-terminal-patient ORAC record, Kavouras 3000+/yr country practice, Fischer theory spine, Eva Reich/Kruse-Sharaf/NDR memory line, Harrer+Nasselstein skeptical ledger; five-point convergence with qi + torsion programs; 16 sources, 24 cross_refs validated. research-index 725->726, person-index 508->509 (+myron-sharaf about-convention, 12 persons linked), family_ledger upgrade-243 Kavouras full book + upgrade-244 orgon-archiv.de harvest."
+    },
+    {
+      "cron": "aetherforce-database-refresh",
+      "timestamp": "2026-10-11T06:09:29Z",
+      "status": "ok",
+      "summary": "database-refresh: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake, 0 feed same-file dupes); +6 works from Forge's Oct-11 batch (Shipov trinitas x2: inertia-stagnation 1178-shp + rotation-of-matter quantization 1036-shp, Shipov"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-11T08:05:00Z",
+      "status": "ok",
+      "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake, 0 feed same-file dupes); title-similarity 2 / containment 3 candidates, 0 folds (all known no-fold families: Sitkowski distinct books, quietsphere ja series, 3 already-cross-linked pairs). +1 work from Forge's Oct-11 batch: Etkin 'Does the Schoer Engine Violate the Laws of Physics?' ru->EN (trinitas.ru) — Shawyer EmDrive / Fetta Cannae Drive microwave-cavity thrusters, NASA Eagleworks 2014 test 91.2 uN at 17 W, momentum-conservation defense; PDF fetched primary-source to confirm claims. Mutual cross-refs wired: new work x alternativa-elektromagnitnoy etkin-ru (same author) + x tolchin-inertioid shipov-ru (reactionless-drive claim class). +2 persons via about-convention (roger-shawyer EmDrive inventor, guido-fetta Cannae Drive inventor); valery-etkin linked (already existed, stem-search held). URL 1/1 live 200. tag_concepts skipped (dead). 733 works / 514 persons."
+    },
+    {
+      "cron": "village-content-growth",
+      "timestamp": "2026-10-11T08:24:00Z",
+      "status": "ok",
+      "summary": "village-content-growth: master_quests badge gap closed — PEP Badge Metalworking (440 verified tier-structured BB tasks) and Plumbing and Hot Water (511) junk forum-render rows replaced with wiki-verified content (wiki/108547, wiki/108550). +2 BB rows: Make paper (PEM traditional.straw.paper), Lay 200 Feet of Living Fence (woodland.iron.livingfence). +8 quests 246->254 with full es/fr/de: Metalworking straw x2 + wood, Plumbing straw x2 + wood, Homesteading sand Make Paper, Woodland Care iron Living Fence. +3 vetted library resources: Natural Building Blog, Aprovecho, Solar Cookers International. Crawl 499 pages: 3 genuine candidates vs 34 junk generic renders screened. Link check 943 URLs, 921 OK (22 failures all external noise). Validators 5/5. Village commit 5e7158f pushed and remote-verified."
+    },
+    {
+      "cron": "village-quality-audit",
+      "timestamp": "2026-10-11T12:05:26Z",
+      "status": "ok",
+      "summary": "village-quality-audit: validators 5/5 PASSED (village/cognitive/culture/meditation/vitality). data.js 254 quest tuples (252 unique) - no within-guild dup titles; 2 cross-guild title pairs are distinct guilds (Community Living vs Community), legitimate. translations.js full es/fr/de coverage (all quest titles, 27/27 guilds, 11/11 subjects), 0 mojibake. master_quests.json valid - 423 rows (372 PEP / 31 PEM / 13 SKIP / 7 PEA), 0 dup urls, 0 dup title+framework, canonical key order. index.html 0 parse errors, 15/15 local refs present; 2 duplicate h4 section titles remain (known cosmetic drift, down from 4). Link check 945 URLs: 921 OK / 19 http_err / 5 bad - all external noise (12 index.html-facing re-verified with browser UA: 5 live 200, 5 burst-429, 2 whole-domain bot-block 403 lostartpress/allaboutbirds, none actionable; 12 in scraped forum text not fixed by design). No data issues found; only village-link-report.md refreshed (maintenance preamble preserved). Village commit 9459163 pushed + remote-verified. Data integrity score: 10/10."
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-11T12:07:16Z",
+      "status": "ok",
+      "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake/same-file dupes); title-similarity/containment candidates all known no-fold families; +5 Forge Oct-11 works (Shipov trinitas x4: psychophysics, Newton's-bucket vacuum, diamagnetic levitation, 267-year nonsense; Abdellaziz Schauberger de), +1 person madjid-abdellaziz, shipov x4 + schauberger links, vacuum/inertia/schauberger cluster cross-refs, acqua-viva en/it cross-linked + bogus tesla co-author removed; 738 works / 515 persons; tag_concepts skipped (dead)"
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-11T12:08:00Z",
+      "status": "ok",
+      "summary": "village-maintenance: link check 945 URLs — 925 OK, 20 failures all external noise (burst 429s calearth/charlesdowding/culturesforhealth, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405 wood*formeremortals, dead links in scraped master_quests forum text — none actionable); +2 library resources Garden Organic + Resilience.org (both curl-200 verified); RESOURCE_POOL extended 21->28 (WWOOF, ic.org, Baker Creek rareseeds, Southern Exposure, No-Till Growers, Soil Food Web, Verge Permaculture — all vetted curl-200 + host/title absent); validators 5/5; rebase-resolved concurrent village-quality-audit push (onto-commit pattern for regenerated link report); village commit 8f46c1d"
+    }
+  ],
+  "timestamp": "2026-10-11T12:08:00Z"
+}

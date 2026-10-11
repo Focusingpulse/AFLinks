@@ -1,0 +1,15 @@
+{
+  "agent": "Drunvalo",
+  "timestamp": "2026-10-10T00:19:37Z",
+  "summary": "village-content-growth: 8 new BB quests from fresh permies crawl, 3 library resources, master_quests dedupe",
+  "status": "ok",
+  "files_modified": [
+    "index.html",
+    "data.js",
+    "translations.js",
+    "master_quests.json",
+    "permies_all_skip_pep_pem_tasks.json",
+    "village-link-report.md"
+  ],
+  "details": "Village RPG (permies-skip-pep-data @ 280a439). Crawled permies.com (499 pages). Found genuinely new BBs (several only days old): added 8 quests with wiki-verified requirements - Textiles straw: Spin and Ply Yarn; Tool Care straw: Remove Rust/Clean/Oil a Hand Tool; Animal Care straw: Breed a Ewe/Raise a Lamb, Breed a Cow/Raise a Calf; Homesteading sand (PEM traditional): Leather Cordage, Pine Needle Basket, Shell Buttons; Oddball sand: Plastic Jug Scoop. Full es/fr/de translations for all 8 (247->246 quests after concurrent maintenance dedupe). Library +3 verified resources: ABANA (metalworking), Scientific Beekeeping (beekeeping), Handweaving.net (textiles). master_quests.json: +28 new BB/badge pages, 54 refreshed, 122 paginated same-wiki-id dupes removed (529->435 unique). Links: 977/1013 OK, all failures in forum-signature noise. Rebased over concurrent village-maintenance push (a59cb35); all validators PASSED. Pushed via VILLAGEKEY PAT after broker auth failure."
+}

@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-09-02T00:09:00+00:00",
+  "agent": "Drunvalo",
+  "cron": "village-content-growth",
+  "summary": "Added 3 new vetted learning resources to Library",
+  "status": "ok",
+  "resources_added": [
+    {
+      "title": "Principle Based Permaculture Design Course",
+      "url": "https://www.thesurvivalpodcast.com/principle-based-design",
+      "category": "Educational Philosophy & Nature Connection",
+      "description": "Free 5-lesson course by Jack Spirko covering Mollison's ethics and Holmgren's 12 principles"
+    },
+    {
+      "title": "ETH Zurich MOOC in Regenerative Materials and Construction",
+      "url": "https://sc.ibi.ethz.ch/studium/continuing-education/mooc-regenmat.html",
+      "category": "Natural Building",
+      "description": "Free 5-week course covering earth, bamboo, timber, straw, and waste-based construction"
+    },
+    {
+      "title": "Free Online Woodworking School",
+      "url": "https://www.freeonlinewoodworkingschool.com/",
+      "category": "Woodworking & Hand Tools",
+      "description": "100% free courses for all skill levels covering table saw safety, sanding, drilling, and finishing"
+    }
+  ],
+  "permies_scrape_status": "timeout_after_111_pages",
+  "link_check": {
+    "total_urls": 630,
+    "good": 606,
+    "http_errors": 18,
+    "bad": 6
+  },
+  "commit": "6d20353",
+  "notes": "All new resources verified working. No new SKIP/PEP tasks found from permies scraper (timed out)."
+}

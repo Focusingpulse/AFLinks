@@ -1,0 +1,29 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-11T12:05:26Z",
+  "summary": "village-quality-audit: validators 5/5 PASSED (village/cognitive/culture/meditation/vitality). data.js 254 quest tuples (252 unique) - no within-guild dup titles; 2 cross-guild title pairs are distinct guilds (Community Living vs Community), legitimate. translations.js full es/fr/de coverage (all quest titles, 27/27 guilds, 11/11 subjects), 0 mojibake. master_quests.json valid - 423 rows (372 PEP / 31 PEM / 13 SKIP / 7 PEA), 0 dup urls, 0 dup title+framework, canonical key order. index.html 0 parse errors, 15/15 local refs present; 2 duplicate h4 section titles remain (known cosmetic drift, down from 4). Link check 945 URLs: 921 OK / 19 http_err / 5 bad - all external noise (12 index.html-facing re-verified with browser UA: 5 live 200, 5 burst-429, 2 whole-domain bot-block 403 lostartpress/allaboutbirds, none actionable; 12 in scraped forum text not fixed by design). No data issues found; only village-link-report.md refreshed (maintenance preamble preserved). Village commit 9459163 pushed + remote-verified. Data integrity score: 10/10.",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md"
+  ],
+  "details": {
+    "cron": "village-quality-audit",
+    "repo": "Focusingpulse/permies-skip-pep-data",
+    "village_commit": "9459163",
+    "quests_checked": 254,
+    "quest_tuples_unique": 252,
+    "validators": "5/5 PASSED",
+    "translations": "es/fr/de full coverage, 0 mojibake",
+    "master_quests_rows": 423,
+    "links": {
+      "checked": 945,
+      "ok": 921,
+      "http_err": 19,
+      "bad": 5,
+      "actionable": 0
+    },
+    "issues_found": 0,
+    "issues_fixed": 0,
+    "integrity_score": "10/10"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-26T04:21:51.299554+00:00",
+  "summary": "translation-QC: fixed research-index frontmatter corruption + 6th dup class; metadata-level feed dedupe; indexed 09-25 batch",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "build_library_feed.py",
+    "library_feed.json"
+  ],
+  "details": "New damage class 5b: YAML frontmatter prepended to research-index.json (2026-09-25 QC edit) broke json.load in all consumers \u2014 builder backfill silently skipped, 13 feed entries lost source_urls. Removed. New damage class 6: 33 cross-convention duplicate re-emissions in research-index (same work, different slug conventions, escapes file-grouping) merged into rich keepers, 263->230, 41 cross-refs remapped, 61 person-index refs remapped to keeper files. Builder: new _merge_metadata_dupes() final pass (same-title with token-containment, or same source_url, within one language pair) \u2014 catches lang-suffix, token-subset, and divergent-slug escape classes; feed 117->106. Indexed 4 new 09-25 works (remote-diagnosis-torsion, mausfeld-goethe, ijus-qigong, cymatics-es-en; 230->234) + person Klaus Michael Mausfeld; li-si-chen linked to 2 new works. Verified 5 newest translation source URLs live (all 200). Integrity: 0 dangling cross-refs, 0 missing author persons. tag_concepts.py skipped (dead \u2014 index.json sharded). translations/ absent by design (publish boundary)."
+}

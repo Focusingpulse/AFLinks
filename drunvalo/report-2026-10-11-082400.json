@@ -1,0 +1,30 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-11T08:24:00Z",
+  "summary": "village-content-growth: master_quests badge gap closed — PEP Badge Metalworking (440 verified tier-structured BB tasks) and Plumbing and Hot Water (511) junk forum-render rows replaced with wiki-verified content (wiki/108547, wiki/108550). +2 BB rows: Make paper (PEM traditional.straw.paper), Lay 200 Feet of Living Fence (woodland.iron.livingfence). +8 quests 246->254 with full es/fr/de: Metalworking straw x2 + wood, Plumbing straw x2 + wood, Homesteading sand Make Paper, Woodland Care iron Living Fence. +3 vetted library resources: Natural Building Blog, Aprovecho, Solar Cookers International. Crawl 499 pages: 3 genuine candidates vs 34 junk generic renders screened. Link check 943 URLs, 921 OK (22 failures all external noise). Validators 5/5. Village commit 5e7158f pushed and remote-verified.",
+  "status": "ok",
+  "files_modified": [
+    "data.js",
+    "translations.js",
+    "index.html",
+    "master_quests.json",
+    "permies_all_skip_pep_pem_tasks.json",
+    "village-link-report.md"
+  ],
+  "details": {
+    "village_commit": "5e7158f",
+    "quests_total": 254,
+    "master_quests_rows": 423,
+    "library_resources_added": [
+      "Natural Building Blog",
+      "Aprovecho Research Center",
+      "Solar Cookers International"
+    ],
+    "link_check": {
+      "urls": 943,
+      "ok": 921,
+      "http_err": 17,
+      "bad": 5
+    }
+  }
+}

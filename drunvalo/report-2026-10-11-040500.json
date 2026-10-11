@@ -1,0 +1,23 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-11T04:05:00Z",
+  "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake, 0 feed same-file dupes); title-similarity 1 candidate / containment 3, 0 folds (quietsphere ja series pair + 3 known cross-linked pairs). +8 works from Forge's Oct 10-11 batch: Shipov trinitas.ru x4 (Tolchin inertioid nonholonomic mechanics 1179-shp, New Scientific Paradigm & Breakthrough Technologies 1165-shp, Scalar Field in Electrodynamics Theory & Experiment 1164-shp, Why Physicists Have Difficulty with Einstein Gravitation & Inertia 1184-shp), Kavouras 'Heilen mit Orgonenergie' orgonomic medicine de (orgon-archiv), Al Jazeera 'The Tesla You Don't Know' ar, 20minutos FBI-declassified Nazi flying saucer es, ru-Wikipedia structured water. 1164 vs 1040-sh scalar-field titles PDF-verified as DISTINCT papers (variable-charge electrodynamics vs Tesla vacuum electrodynamics). +1 person (jorgos-kavouras); person links: shipov x4, einstein x2, tolchin, tesla, masaru-emoto, benveniste, reich. Mutual cross-refs wired: orgon-archiv de trio, scalar-field shipov pair, inertia/inertioid pair. URLs 8/8 live 200. tag_concepts skipped (dead). 725 works / 508 persons.",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": {
+    "cron": "aetherforce-translation-qc",
+    "works": 725,
+    "persons": 508,
+    "works_added": 8,
+    "persons_added": 1,
+    "folds": 0,
+    "urls_checked": "8/8 live",
+    "pushes": {
+      "research-index": "1d5c4cc7db2",
+      "person-index": "8d330d9bf78"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-11T06:05:00Z",
+  "summary": "village-maintenance: link check 897 URLs (876 OK; 21 failures all external noise - burst 429s from our own scan, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405, transient 5xx/timeouts, dead links inside scraped master_quests forum text). 8 index.html failures re-verified with browser UA + delay: culturesforhealth + blackdragonforge 200 (burst noise), 6 live-but-bot-blocked, none actionable. village_maintain.py added 2 library resources: MushroomExpert.com (Kuo field-keyed mushroom ID) + Fias Co Farm (goat-keeping homestead); validators 5/5 passed. Village commit b74537f pushed + remote-verified.",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md",
+    "index.html"
+  ],
+  "details": {
+    "village_commit": "b74537f",
+    "links_checked": 897,
+    "links_ok": 876,
+    "http_err": 16,
+    "bad": 5,
+    "resources_added": [
+      "mushroomexpert.com",
+      "fiascofarm.com"
+    ]
+  }
+}

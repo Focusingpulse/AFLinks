@@ -1,0 +1,20 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-10T04:06:00Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": [
+    "Standing checks: same-file dupes 0, dangling cross_refs 0, junk person ids 0, junk work ids 0, date==unknown 0, dangling person works_in_collection refs 0, feed mojibake 0, feed same-file dupes 0",
+    "Title-similarity 7 candidates / 0 folds (known FP families: Cyrillic normalize-to-empty ru pairs, Risy notes-series, quietsphere series); containment 2 candidates, both known cross-linked pairs (belizal-morel fr-en/fr, Tesla sr)",
+    "Feed-not-in-DB check caught Forge Oct 9-10 batch: +10 works (fr/es/ru/pl x3/cs), 10/10 source URLs verified live",
+    "+5 persons: alain-boudet, clemente-figuera, aleksandr-bukalov, shekhovtsov, novichenko; +8 works_in_collection links (tesla x2, kozyrev, kaznacheev, trofimov, franciszek-rychnowski, schauberger, daniel-risy)",
+    "Distinctness verified for near-title pair: 2026-10-10 Kozyrev-space paper (download/395/288) vs 2026-10-07 intellect-evolution paper (download/364/321/312) — same authors/journal, different papers; mutual cross_refs added",
+    "Reverse cross-refs added: kaznacheev-trofimov 10-07, rychnowski-zmaterializowal, quietsphere electric-universe",
+    "tag_concepts.py skipped (dead: reads index.json, archive sharded); translations/ empty by design (publish boundary)",
+    "Index sizes: 685 works, 484 persons. Collision re-check armed ~04:35 UTC"
+  ]
+}

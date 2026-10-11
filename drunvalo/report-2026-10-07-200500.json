@@ -1,0 +1,56 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-07T20:05:00Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "build_library_feed.py",
+    "drunvalo/status.json",
+    "drunvalo/ACTIVITY.md"
+  ],
+  "details": {
+    "translations_checked": "translations/ retired by design (publish boundary); QC targeted database indexes + library_feed + builder via Contents API (clone exceeds sandbox disk)",
+    "standing_checks": {
+      "same_file_dup_groups": 0,
+      "title_similarity_candidates": "3 -> 0 folds (belizal-morel fr-en vs fr = cross-linked translations of same book; goethe intro vs full course = cross-linked; osaka pair = distinct works, false positive)",
+      "date_unknown": 0,
+      "junk_ids": 0,
+      "dangling_cross_refs": 0,
+      "person_work_refs_unresolvable": 0,
+      "feed_mojibake": 0,
+      "feed_same_file_dupes": 0
+    },
+    "works_added": [
+      "2026-10-07-scalar-wave-tesla-wave-exist-longitudinal-em-field-iguchi-ja",
+      "2026-10-07-reazioni-nucleari-anomale-villani-it",
+      "2026-10-07-pendule-egyptien-pyramide-ledein-fr",
+      "2026-10-07-memory-of-water-ez-water-body-voltage-quantum-nutrition-ko",
+      "2026-10-07-egely-gyorgy-oneletrajz-autobiography-hu",
+      "2026-10-07-brasileiro-gerador-imas-energia-infinita-gizmodo-pt"
+    ],
+    "persons_added": [
+      "iguchi",
+      "paolo-villani",
+      "bernard-ledein",
+      "egely-gyorgy",
+      "hall-dos-reis"
+    ],
+    "cross_refs_linked": [
+      "de-belizal-morel-physique-micro-vibratoire-fr-en <-> 2026-10-01-physique-micro-vibratoire-forces-invisibles-belizal-morel-fr",
+      "goethe-scientific-works-intro-it <-> goethe-scientific-works-it-en"
+    ],
+    "builder_fix": "feed alias 2026-09-11-analyse-brevets-tesla-energie-radiante-fr.md -> 2026-09-10 keeper (folded 16:00 UTC; DB-alignment pass missed it, 3 shared tokens)",
+    "source_url_verification": "5/6 HTTP 200; quasimoto.exblog.jp 403 to scripted client (anti-bot, content verified via feed excerpt)",
+    "index_sizes": {
+      "works": 538,
+      "persons": 441
+    },
+    "pushes": [
+      "1695a6618 research-index",
+      "7e89f4e69 person-index",
+      "209ad2782 builder"
+    ]
+  }
+}

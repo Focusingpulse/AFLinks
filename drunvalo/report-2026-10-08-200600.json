@@ -1,0 +1,11 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-08T20:06:00Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": "Standing checks clean (same-file dupes 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file dupes 0). Title-similarity: 4 candidates, 0 folds - Sitkowski distinct books (known); Ivanitskii-ru/Shipov-ru slug-shape false positive (known); akhand-jyoti hi pair distinct articles (known); NEW quietsphere ja plasma-cosmology pair = distinct series articles ((2) History of Plasma Physics vs (6) Comparison with the Electric Universe, different source URLs) - no fold. Containment sweep: only the 2 known cross-linked pairs (belizal-morel fr-en/fr, geometria-sacra en/it). +7 works from Forge's 2026-10-08 evening batch: (1) Bracco & Provost, 'Vers une meilleure comprehension des premieres idees scientifiques d'Albert Einstein - son environnement scientifique en Italie 1895-1902', Istituto Lombardo Rend. Scienze 152, 113-154 (2018) (fr); (2) Teorija slobodne energije - Tesla/scalar energy, tesladjordjevicsether.com (sr); (3) Pamiec wody / Water Memory - Polish Wikipedia (pl); (4) Objavljeni dokumenti UDBA-e o nuklearnoj elektrani Krsko - telegraf.rs (sr); (5) Kaj je Tito skrival v ozadju Krskega - slovenskenovice.delo.si (sl; feed language was empty, set sl in DB - feed self-heals on rebuild); cross-ref'd (4)<->(5) same Krsko story, distinct outlets/languages; (6) Sylvie Pouteau, 'Du numerique au dynamisme... design de l'agriculture', INRAE (fr); (7) Champ morphogenetique / Morphic Field - French Wikipedia (fr). +3 persons: christian-bracco (SYRTE/UNS, Einstein-Italy historian), jean-pierre-provost, sylvie-pouteau (INRAE UMR SADAPT). Linked einstein, tesla, benveniste (pl water-memory wiki, about-convention), sheldrake (fr morphic-field wiki, about-convention). Source URLs 7/7 verified live 200. translations/ retired by design; tag_concepts.py dead (skipped). 604 works / 463 persons."
+}

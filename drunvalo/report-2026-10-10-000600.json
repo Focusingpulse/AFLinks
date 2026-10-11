@@ -1,0 +1,12 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-10T00:06:00Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "drunvalo/"
+  ],
+  "details": "standing checks clean (0 same-file dupes, 0 unknown dates, 0 dangling refs, 0 feed mojibake); +9 works (Forge Oct-9 late batch: Risy fr x4, Tesla Wardenclyffe bs, radiesthesia clinic pt, goethean-science + calligaris it-wiki, aether ar-wiki), +1 person (giuseppe-calligaris), +6 person links; normalized AHPNE underscore id; Risy aodf/aodf2 cross-linked; 674 works / 480 persons; tag_concepts.py skipped (dead, reads nonexistent index.json); all 9 new source URLs live 200"
+}

@@ -1,0 +1,46 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-11T12:07:16Z",
+  "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake/same-file dupes); title-similarity/containment candidates all known no-fold families; +5 Forge Oct-11 works (Shipov trinitas x4: psychophysics, Newton's-bucket vacuum, diamagnetic levitation, 267-year nonsense; Abdellaziz Schauberger de), +1 person madjid-abdellaziz, shipov x4 + schauberger links, vacuum/inertia/schauberger cluster cross-refs, acqua-viva en/it cross-linked + bogus tesla co-author removed; 738 works / 515 persons; tag_concepts skipped (dead)",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": {
+    "cron": "aetherforce-translation-qc",
+    "works": 738,
+    "persons": 515,
+    "checks": {
+      "same_file_dupes": 0,
+      "unknown_dates": 0,
+      "junk_person_ids": 0,
+      "dangling_cross_refs": 0,
+      "dangling_person_refs": 0,
+      "feed_mojibake": 0,
+      "feed_same_file_dupes": 0,
+      "title_similarity_folds": 0,
+      "containment_folds": 0
+    },
+    "works_added": [
+      "2026-10-11-viktor-schauberger-leben-wasser-wirbelideen-abdellaziz-de",
+      "2026-10-11-psikhofizika-i-psikhofizicheskie-tekhnologii-shipov-ru",
+      "2026-10-11-ot-vedra-nyutona-do-teorii-fizicheskogo-vakuuma-shipov-ru",
+      "2026-10-11-levitation-diamagnetics-strong-magnetic-fields-shipov-ru",
+      "2026-10-11-fiziko-matematicheskiy-nonsens-267-let-shipov-ru"
+    ],
+    "persons_added": [
+      "madjid-abdellaziz"
+    ],
+    "persons_linked": [
+      "shipov",
+      "schauberger"
+    ],
+    "fixes": [
+      "acqua-viva en/it mutual cross-refs",
+      "removed bogus tesla co-author from acqua-viva en"
+    ],
+    "urls_verified": "5/5 live 200",
+    "tag_concepts": "skipped (dead: reads absent index.json)"
+  }
+}

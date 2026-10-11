@@ -1,0 +1,92 @@
+{
+  "schema": "curated-pathway-v1",
+  "description": "Curated Pathways — progressive disclosure (Directive D). A 5-document journey per topic: plain-English context → replication angle → full raw source. [prescribed: Master Directive D — never open with 52,000 documents]",
+  "journeys": [
+    {
+      "slug": "the-aether-story",
+      "title": "The Aether Story",
+      "tagline": "Five documents that trace the most consequential wrong turn in physics — from the 'null' experiment to the living thread that survived.",
+      "color": "#6fc9b4",
+      "steps": [
+        {
+          "doc_id": 1511212,
+          "step": 1,
+          "label": "The Experiment Everyone Cites",
+          "context": "The Michelson-Morley experiment (1887) is taught as the 'null result' that killed the aether. But the story is more contested than the textbooks say — and the measurement itself is the hinge of the whole wrong turn.",
+          "replication": "Re-examine the original experimental logic. What exactly did the interferometer measure, and what assumption does the 'null' verdict rest on?"
+        },
+        {
+          "doc_id": 1519596,
+          "step": 2,
+          "label": "The Man Who Found the Wind",
+          "context": "Dayton Miller, the most careful aether-drift experimenter, spent decades re-measuring and found a small but persistent drift the 'null' verdict didn't explain. His 1933 model is the suppressed counter-evidence.",
+          "replication": "Miller's raw data and apparatus are documented — a modern high-precision interferometer could revisit the question with instruments he never had."
+        },
+        {
+          "doc_id": 1519998,
+          "step": 3,
+          "label": "The Mystery Named",
+          "context": "'Ethereal Ether and Michelson's Mystery' — a modern reconciliation attempt: what if the aether isn't 'nothing' but a medium with properties the 1887 experiment was never designed to detect?",
+          "replication": "The conceptual reframe is testable: distinguish 'no aether' from 'aether with specific properties'."
+        },
+        {
+          "doc_id": 1520177,
+          "step": 4,
+          "label": "The Living Thread — Etherodynamics",
+          "context": "Atsyukovsky's General Etherodynamics (chapter abstracts, English translation) — the most complete modern attempt to rebuild physics on an ether foundation. This is the thread that survived the wrong turn.",
+          "replication": "Read the translated abstracts first; the full work is the deep dive. This is where the aether line went from 'refuted' to 'rebuilt'."
+        },
+        {
+          "doc_id": 1508814,
+          "step": 5,
+          "label": "The Full History",
+          "context": "Whittaker's 'A History of the Theories of Aether and Electricity' — the authoritative survey. The raw source that connects every step above into one lineage.",
+          "replication": "The capstone: read the primary history to see how the aether was dismissed and what was lost in the dismissal."
+        }
+      ]
+    },
+    {
+      "slug": "the-wrong-turn-cold-fusion",
+      "title": "The Wrong Turn: Cold Fusion",
+      "tagline": "Born in 1989, dismissed, suppressed, and resurrected as cavitation LENR. Five documents walk the full lineage — and the death certificate ties it together.",
+      "color": "#b06a9e",
+      "steps": [
+        {
+          "doc_id": 432,
+          "step": 1,
+          "label": "The Transmutation Claim",
+          "context": "Adept Alchemy's cold fusion transmutations — the claim that palladium-lattice electrolysis both produces excess heat and transmutes elements. The birth of the modern claim.",
+          "replication": "The palladium-lattice mechanism is the 'wrong mechanism' the death certificate flags. Understand it here, then watch it get replaced."
+        },
+        {
+          "doc_id": 529,
+          "step": 2,
+          "label": "The Commercial Claim",
+          "context": "Andrea Rossi's E-Cat — the most public cold fusion reactor claim. Whether or not it works, its history is central to how the field was perceived and suppressed.",
+          "replication": "This page carries the full Wrong-Turn Lineage section — the death certificate rendered in place."
+        },
+        {
+          "doc_id": 1314,
+          "step": 3,
+          "label": "The Patent Landscape",
+          "context": "Cold fusion patents — the legal record of a field that kept filing even as mainstream physics dismissed it. Patents are claims, not proof; the archive preserves both.",
+          "replication": "Patents specify apparatus — a starting point for what a replication would need to build."
+        },
+        {
+          "doc_id": 3206,
+          "step": 4,
+          "label": "The Survivor: Cavitation",
+          "context": "Mark LeClair's nanospire cavitation jet machining — the surviving thread. The death certificate's 'wrong mechanism' points here: not metal lattice, but cavitation in water.",
+          "replication": "The retry_now line in the certificate names the modern instruments (micro-PIV, nano-calorimetry) that could test this cleanly."
+        },
+        {
+          "doc_id": 2650,
+          "step": 5,
+          "label": "The Superwave Variant",
+          "context": "Dardik's Superwave cold fusion — a third mechanism variant. Together with LeClair it shows the lineage didn't die; it branched and resurfaced.",
+          "replication": "Compare the three mechanisms (lattice, cavitation, superwave) — convergence analysis across the lineage."
+        }
+      ]
+    }
+  ]
+}

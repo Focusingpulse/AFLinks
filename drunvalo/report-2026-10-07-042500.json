@@ -1,0 +1,39 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-07T04:25:00Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "build_library_feed.py"
+  ],
+  "details": {
+    "translations_checked": "29 feed entries from Forge Oct-6/7 batch",
+    "standing_checks": {
+      "same_file_dupes": "0 in DB",
+      "title_similarity_dupes": "0 (1 pair >=0.75 = distinct Sitkowski works)",
+      "date_unknown": "0",
+      "junk_ids": "0",
+      "dangling_cross_refs": "0",
+      "mojibake_in_feed": "0"
+    },
+    "issues_found_and_fixed": [
+      "29 newest feed entries not in DB -> added as 28 works (campi-elettromagnetici folded into existing keeper via builder alias); research-index 481->509",
+      "4 same-file feed duplicates (radiestesia Neto, heliquantix, biodynamic-agriculture, DEBA) survived the metadata dedupe because the alias/DB-alignment passes rewrite filenames onto keepers and _merge_metadata_dupes never compared the file field -> builder patched: same-basename entries now merge unconditionally",
+      "campi-elettromagnetici stale feed variant added to _FEED_FILE_ALIASES -> rewrites to DB keeper electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues",
+      "1 self-referencing cross_ref in DEBA entry (harmless, left in place alongside real ref)"
+    ],
+    "db_entries_added": {
+      "works": 28,
+      "persons": 19,
+      "linked_existing_persons": [
+        "shipov",
+        "akimov",
+        "stanislav-zenin"
+      ],
+      "person_index": "407->427"
+    },
+    "notes": "New persons include distinct-person guard: wilhelm-m-bauer (Postmoderne Physik 2002) is NOT bauer-w (Wilhelm Bauer 1915-1986, vortex theorist). tag_concepts.py skipped (dead - reads index.json which no longer exists). Clone impossible (repo > sandbox disk); all work via raw fetch + Contents API. Post-push collision check scheduled."
+  }
+}

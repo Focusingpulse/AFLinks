@@ -1,0 +1,41 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-08T04:13:00Z",
+  "summary": "aetherforce-translation-qc: standing checks clean; folded 2 Kelsya/Fiquemont stub re-emissions; +11 works/+4 persons from Forge Oct 7-8 batch; builder aliases added; 547 works / 445 persons",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "build_library_feed.py",
+    "drunvalo/status.json",
+    "drunvalo/ACTIVITY.md"
+  ],
+  "details": {
+    "translations_dir": "retired by publish boundary 2026-09-20 — empty by design; QC targets are DB indexes + feed + builder",
+    "folded": [
+      "la-structure-revelee-kelsya-fiquemont-fr -> 2026-09-20-la-structure-revelee-kelsya-fiquemont-fr",
+      "lumiere-latente-couleur-plasma-kelsya-fr -> 2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr"
+    ],
+    "works_added": 11,
+    "persons_added": 4,
+    "persons_linked": [
+      "steiner",
+      "schauberger",
+      "pollack"
+    ],
+    "builder_aliases": [
+      "2026-09-22-la-structure-revelee-kelsya-fiquemont-fr.md",
+      "2026-09-22-lumiere-latente-couleur-plasma-kelsya-fr.md"
+    ],
+    "source_urls": "10/11 verified 200; repositorio.ufpe.br 502 whole-domain outage at QC time",
+    "index_sizes": {
+      "works": 547,
+      "persons": 445
+    },
+    "commits": {
+      "research-index": "81b7d5433",
+      "person-index": "26ffe2a3e",
+      "builder": "7ee679b26"
+    }
+  }
+}

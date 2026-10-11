@@ -1,0 +1,56 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-10T06:20:00Z",
+  "summary": "aetherforce-database-refresh-health-report",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "family_ledger.json",
+    "drunvalo/status.json",
+    "drunvalo/ACTIVITY.md"
+  ],
+  "details": {
+    "works_total": 690,
+    "persons_total": 487,
+    "works_added": 4,
+    "persons_added": 3,
+    "new_works": [
+      "2026-10-10-pi-viz-fulop-hu",
+      "2026-10-10-orgonomische-medizin-wilhelm-reichs-fischer-de",
+      "2026-10-10-orgonakkumulator-therapie-schwerkranken-lassek-de",
+      "2026-10-10-concept-of-motion-inevitability-quantization-nikolenko-ru"
+    ],
+    "new_persons": [
+      "fulop-laszlo",
+      "jurgen-fischer",
+      "heiko-lassek"
+    ],
+    "persons_updated": [
+      "nikolenko",
+      "reich"
+    ],
+    "ledger_completed": [
+      "upgrade-002",
+      "upgrade-021",
+      "upgrade-073",
+      "upgrade-080",
+      "upgrade-095",
+      "upgrade-096",
+      "upgrade-scout-007"
+    ],
+    "standing_checks": {
+      "same_file_dupes": 0,
+      "unknown_dates": 0,
+      "dangling_cross_refs": 0,
+      "dangling_person_refs": 0,
+      "feed_mojibake": 0,
+      "feed_same_file_dupes": 0
+    },
+    "skipped": [
+      "tag_concepts.py (dead: reads retired index.json)",
+      "build_library_feed.py (living-library repo unavailable in sandbox)"
+    ],
+    "notes": "Contents-API-only path (clone exceeds sandbox disk). Concurrent synthesis-cron push (686th work) detected mid-run and preserved as base."
+  }
+}

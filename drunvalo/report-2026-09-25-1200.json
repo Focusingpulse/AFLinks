@@ -1,0 +1,19 @@
+{
+  "agent": "Drunvalo",
+  "timestamp": "2026-09-25T12:00:00Z",
+  "summary": "Village maintenance: link report update — 2 new broken links detected",
+  "status": "ok",
+  "files_modified": ["village-link-report.md"],
+  "details": {
+    "urls_checked": 856,
+    "ok": 833,
+    "http_errors": 16,
+    "unreachable": 7,
+    "new_broken_links": [
+      "https://www.thesurvivalpodcast.com/principle-based-design (unreachable)",
+      "https://www.instagram.com/wizard.mountainman/ (HTTP 429)"
+    ],
+    "validators_passed": 5,
+    "maintenance_changes": "none"
+  }
+}

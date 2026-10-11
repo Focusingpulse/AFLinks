@@ -1,0 +1,13 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-25T08:13:03.368846+00:00",
+  "summary": "translation-qc: 5 newest translations indexed (+5 works, +4 persons: Miolli, Follett, Li Si-Chen, F. Morin); 7 language tags fixed; 5 source_urls+domains recovered; builder lang-suffix patch",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "library_feed.json",
+    "build_library_feed.py"
+  ],
+  "details": "QC of 2026-09-25 feed batch (Schauberger-IT, Follett-FR, torsion-FR, Li Si-Chen-ZH, 7900km-ZH). Fixes: (1) research-index +5 works with themes/claims/cross-refs, all source URLs verified live (locusglobus.it, hal.science, morpheus.fr, airitilibrary.com, scalarwave.cc); (2) person-index +4 persons + Schauberger work ref; (3) feed language tags corrected on 7 entries (hay-scan misfires: zh->Chinese, uk->Ukrainian, es->Spanish x3, empty->French x2); (4) feed source_url/domain backfilled for the 5 new entries; (5) build_library_feed.py: filename lang suffix now overrides hay-scan, and -fr-en.md source-target pattern recognized (root fix for the misfires). Publish boundary held: 0 translations/ commits. tag_concepts.py skipped (dead - reads index.json which no longer exists; archive sharded). Indexes: 263 works, 226 persons. 0 dupes, 0 mojibake, 0 dangling cross-refs."
+}

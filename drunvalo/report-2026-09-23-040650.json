@@ -1,0 +1,10 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-09-23T04:06:50.754648+00:00",
+  "summary": "translation-qc: fixed 2 dead source URLs (baglis.tv.com->baglis.tv, dianda.cqvip->www.cqvip), repaired 12 mojibake sequences in feed, dropped 2 duplicate kelsya feed entries (09-22 re-emissions of 09-20 works), fixed 1 slug title + 6 quoted titles in research-index, added publish-boundary notes to 208 Forge-memory dossier map entries. URL audit: 36/45 live, 7 remaining 403s are bot-walls. Indexes: 248 works, 222 persons, 142 feed entries. tag_concepts.py skipped (dead - reads index.json, sharded).",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json library_feed.json"
+  ],
+  "details": ""
+}
