@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:18:24Z",
+  "generated_at": "2026-10-11T18:30:58Z",
   "library": {
     "researchers": 1867,
     "researchers_cataloged": 1867,
@@ -7,21 +7,21 @@
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 120656,
-    "translations": 598,
-    "pages_translated": 13349,
+    "translations": 599,
+    "pages_translated": 13376,
     "declassified_finds": 209,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 706,
+    "translation_files": 707,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 598,
+      "translation_works": 599,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 13349,
+      "pages_translated_computed": 13376,
       "inherited": [],
-      "pages_translated_published": 13349
+      "pages_translated_published": 13376
     },
     "bridges": 27,
     "archive_entries": 120792,
@@ -62,11 +62,11 @@
     "replication_dossiers": 94,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-11T18:18:24Z",
+      "generated_at": "2026-10-11T18:30:58Z",
       "archive_entries": 120792,
       "aflinks_docs": 120656,
-      "translations": 598,
-      "pages_translated": 13349,
+      "translations": 599,
+      "pages_translated": 13376,
       "declassified_finds": 209,
       "researchers": 1867,
       "patents": 3044,
@@ -373,6 +373,17 @@
       "file": "2026-10-11-ny-metod-se-vattnets-inre-mikroskopiska-struktur-uu-se-sv.md",
       "content_file": null,
       "excerpt": "[Page navigation chrome: \"Search Search. Search suggestions are presented below the search box. Search Search courses and programmes\" / \"English\"]\n\nNew method for seeing water's internal microscopic structure\n\n2025-11-19"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "On a new method of movement in cosmic space (Shipov, ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008b/1162-shp.pdf",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-11-new-method-movement-cosmic-space-4d-gyroscope-shipov-ru.md",
+      "content_file": null,
+      "excerpt": "ON A NEW METHOD OF MOVEMENT IN\n             COSMIC SPACE\n                             Shipov G.I., Academician of the RANS\n\nIntroduction\n  For many years the low efficiency, unreliability and even the danger of devices t"
     },
     {
       "date": "2026-10-11",
@@ -28271,7 +28282,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-11T17:38:46Z",
+      "last_run": "2026-10-11T18:20:18Z",
       "last_status": "ok",
       "last_summary": "sync: 120792 docs, feed rebuilt"
     },
@@ -28387,6 +28398,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-11",
+      "time": "18:20",
+      "agent": "translator-foreign",
+      "summary": "+1 translations — Full ru->EN translation of G.I. Shipov 'On a new method of movement in cosmic space' (trinitas 0231, 29 pp): non-holonomic mechanics of the orientable point / 4D gyroscope and the Tolchin inertioid; source PDF archived"
+    },
+    {
+      "date": "2026-10-11",
+      "time": "18:20",
+      "agent": "AFLinks Sync",
+      "summary": "+120792 docs — +120792 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-10-11",
+      "time": "18:18",
+      "agent": "radionics-collection",
+      "summary": "+136 pages — Twenty-fourth pass: collected magitech.com, Karl Hans Welz's main hub site — 110 pages + 26 catalog/legal pages archived, mined into MAGITECH.md; the 23-page application catalog, the Magick Facts theory sequence, the free-course library, and the site's own disclaimer. Site records that Karl Hans Welz has died."
+    },
+    {
+      "date": "2026-10-11",
+      "time": "18:18",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+96 references — Harvest batch 30 docs: refs.jsonl 34246->34342 (+96 refs); retro-clean kept 34325, dropped 17 (15 fragment, 2 boilerplate). Graph rebuilt: 25513 nodes / 34606 edges / 3023 hubs / 22490 single-cited; overlay 41769 nodes / 54835 edges (29679 cites). Archive queue refreshed (feed live, 120656 docs). Veracity re-check: ch. 12 Hash-Match row (unverified, unchanged) re-probed via two new routes - the ch. 12 page deploys no entity-signature meta tag and carries no real hash (its only hash-like string is the 32-hex placeholder in the chapter's own example), and the Wayback Machine holds no snapshot of the page (scoped negative). 96th consecutive saturated run; recommendation to move the veracity re-check to a weekly cadence stands."
+    },
     {
       "date": "2026-10-11",
       "time": "18:09",
@@ -28674,30 +28709,6 @@
       "time": "07:40",
       "agent": "Translation Curator",
       "summary": "+1 docs — Full ru->EN translation of G.I. Shipov 'Theoretical and experimental study of the space-time precession of a 4D gyroscope and a new method of movement in cosmic space' (trinitas.ru Institute of Vacuum Physics, 27 pp, 2017) - the Tolchin inertioid / 4D gyroscope / field-of-inertia paper; source archived. Found via the trinitas.ru 0231 vein (~257 untranslated articles)."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "07:35",
-      "agent": "Translation Sweeper",
-      "summary": "+15 chunks — Full ru->EN translation of G.I. Shipov 'On the Assessment of My Scientific Work by Russian and Foreign Scientists' (trinitas.ru, 16 pp, 15/15 chunks) - a first-person memoir of the MSU/FIAN years, the solution of Einstein's first and second problems, the field of inertia, and the campaign against torsion research in Russia. Source PDF archived."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "07:28",
-      "agent": "AFLinks Sync",
-      "summary": "+120209 docs — +120209 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "07:08",
-      "agent": "AFLinks Zenodo-RH Worker",
-      "summary": "zenodo-rh batch: 1 new docs, archive 120209"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "07:00",
-      "agent": "trinitas-index",
-      "summary": "+426 articles — trinitas.ru map widened: 6 new section listings found by link-discovery (Публицистика, Golden Section new books, Vernadsky conference, Life Extension theory/people, Praslavic tourism); map now 108 sections, 5141 distinct article URLs; main listing +1 new arrival"
     },
     {
       "date": "2026-10-10",
@@ -33496,6 +33507,17 @@
             "Argues string theory and the Standard Model have not solved these problems.",
             "Positions the Theory of the Physical Vacuum as the alternative."
           ]
+        },
+        {
+          "date": "2026-10-11",
+          "title": "On a new method of movement in cosmic space (Shipov, ru->EN)",
+          "domain": "",
+          "source_url": "https://www.trinitas.ru/rus/doc/0231/008b/1162-shp.pdf",
+          "language": "Russian",
+          "target_language": "English",
+          "file": "2026-10-11-new-method-movement-cosmic-space-4d-gyroscope-shipov-ru.md",
+          "content_file": null,
+          "excerpt": "ON A NEW METHOD OF MOVEMENT IN\n             COSMIC SPACE\n                             Shipov G.I., Academician of the RANS\n\nIntroduction\n  For many years the low efficiency, unreliability and even the danger of devices t"
         },
         {
           "date": "2026-10-11",
@@ -1300218,11 +1300240,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Vízrezonancia Kutatások (Water Resonance Research) — IIREC / Maunawai (hu->EN)",
-        "excerpt": "International Institute for Electromagnetic Compatibility Mag. Dr. WALTER HANNES MEDINGER Ringstr. 64, A-3500 Krems an der Donau",
-        "meta": "Hungarian",
-        "rarity": "fresh from Hungarian",
-        "href": "./library.html#trans-2026-09-30-vizrezonancia-kutatasok-maunawai-iirec-hu.md"
+        "title": "Влияние формы на структуру воды (The influence of form on the structure of water) (ru->EN)",
+        "excerpt": "The Influence of Form on the Structure of Water Kovalenko V. F., Shutov S. V. The influence of a cylindrical form on the light scattering of water has been investigated.",
+        "meta": "Russian",
+        "rarity": "fresh from Russian",
+        "href": "./library.html#trans-2026-09-30-vliyanie-formy-na-strukturu-vody-kovalenko-shutov-ru.md"
       },
       {
         "drawer": "found",
@@ -1301918,11 +1301940,11 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-11T18:18:24Z",
+    "as_of": "2026-10-11T18:30:58Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
-      "translations": 501,
-      "pages_translated": 10863,
+      "translations": 502,
+      "pages_translated": 10890,
       "declassified": 156,
       "researchers": 732,
       "patents": 209
