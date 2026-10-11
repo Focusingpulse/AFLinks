@@ -16,6 +16,7 @@ SITE_UAS = {
     '21sci_tech_com': 'Googlebot/2.1 (+http://www.google.com/bot.html)',
     'ikar_udm_ru': 'Googlebot/2.1 (+http://www.google.com/bot.html)',  # serves Googlebot full+fast; throttles Mozilla to ~16KB then stalls
     'cyberleninka_ru': 'Googlebot/2.1 (+http://www.google.com/bot.html)',  # serves Googlebot full+fast; Mozilla throttled/burst-stubbed (20:15Z empty-preview lesson)
+    'quantumaetherdynamics_org': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',  # full Chrome UA w/ AppleWebKit 403s; short Mozilla UA 200
 }
 
 def get_ua(site_name):
