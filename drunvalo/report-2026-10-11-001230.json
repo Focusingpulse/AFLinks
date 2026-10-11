@@ -1,0 +1,14 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-11T00:12:30Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "build_library_feed.py",
+    "drunvalo/status.json",
+    "drunvalo/ACTIVITY.md"
+  ],
+  "details": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake, 0 feed same-file dupes); 6 title-similarity candidates, 0 folds (all known no-fold families). CAUGHT: the 2026-10-10 12:00 UTC QC push had been clobbered by the concurrent synthesis cron's stale-base push (its 9 works + 5 persons silently absent) — re-added; +12 more new works from Forge's 10-10 batch (Reich/orgon-archiv cluster x5 incl. Eva Reich memoir, Risy glossary fr, it-wiki cold fusion, TU Hamburg water capacitor, Jain dhovana water, Quantessence sr pair were part of the re-add, Wellan zh scalar crystallization, akhand-jyoti 1985 prana, yukgaksu pt4). +11 persons (5 re-added + 6 new: eva-reich, kuno-kruse, martin-steinhoff, vasily-artemov, martin-fleischmann, stanley-pons); reich x5 / daniel-risy / jeon-mu-sik / akimov / shipov linked; cross-ref pairs wired (quantessence sr, yukgaksu parts, socionic trio, orgon-archiv cluster, risy 10-10 pair, prana akhand-jyoti, cold-fusion wiki family, uk/ru torsion wiki, wellan/scalarwave). 1 builder alias: 2026-10-10 ru-wiki torsion re-emission (percent-encoded vs raw-Cyrillic URL defeats same-source match). MID-RUN COLLISION: my own 00:10 DB pushes were stale-base and clobbered the 00:09 synthesis update (synthesis-practice-layer work + vincent-reddish + 30 person links) — detected via ACTIVITY.md, three-way merged from commit refs, re-pushed, remote-verified 717 works / 507 persons. tag_concepts skipped (dead). URLs not re-fetched this run (metadata-only QC)."
+}
