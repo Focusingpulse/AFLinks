@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T20:37:29Z",
+  "generated_at": "2026-10-11T21:21:57Z",
   "library": {
     "researchers": 1867,
     "researchers_cataloged": 1867,
@@ -62,7 +62,7 @@
     "replication_dossiers": 94,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-11T20:37:29Z",
+      "generated_at": "2026-10-11T21:21:57Z",
       "archive_entries": 121043,
       "aflinks_docs": 120656,
       "translations": 602,
@@ -28358,9 +28358,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-10-11T18:09:41Z",
+      "last_run": "2026-10-11T20:37:46Z",
       "last_status": "ok",
-      "last_summary": "run total 2 docs fully translated and archived from the trinitas.ru Institute of Vacuum Physics vein | Shipov Anomalous Physics and Torsion Fields Part 1 ru 19 of 19 chunks | Afonin Ether and 20th Century Physics ru 41 of 41 chunks | backlog 628 | gear overdrive"
+      "last_summary": "run total 66 chunks across 2 docs, both complete and archived: Shipov stagnation-quantum-mechanics ru 41 chunks, Vlasov greatest-revolution-mechanics-3 ru 25 chunks | backlog 624 | gear overdrive"
     },
     {
       "member": "translation-sweeper",
@@ -28391,9 +28391,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-11T19:14:03Z",
+      "last_run": "2026-10-11T20:38:51Z",
       "last_status": "ok",
-      "last_summary": "sync: 120960 docs, feed rebuilt"
+      "last_summary": "sync: 121043 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -28424,9 +28424,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-10-11T15:37:16Z",
+      "last_run": "2026-10-11T20:41:52Z",
       "last_status": "ok",
-      "last_summary": "finds 50 | declassified 207 | this run: 5 declassified across 5 newly covered countries Bosnia Libya Kyrgyzstan Ethiopia Afghanistan, 10 new Track A finds, 0 archived, gear overdrive. NOTE wizard ledger delta is cross-lane contaminated - prior entry was citation-harvest refs count not deep-dive find"
+      "last_summary": "citation-harvest: 30 docs, +487 refs, graph 25790 nodes 3084 hubs, veracity ch.21 row re-probed unchanged"
     },
     {
       "member": "book5-translate",
@@ -28507,6 +28507,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-11",
+      "time": "20:41",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+487 references — citation-harvest: 30 docs fetched, +487 refs (34246->34733); clean kept 34716, dropped 17 (15 fragment, 2 boilerplate); graph 25790 nodes/34997 edges/3084 hubs; archive queue refreshed (120656 docs). Veracity re-check: ch.21 percentage row (unverified) re-probed via the framework's own sitemap.xml inventory — swept all 19 never-checked apex pages plus the Surge V3 documentation subdomains and book index, all 0 hits for the 85/14/<1 split, so the figure is confined to ch.21 + glossary across the framework's entire published footprint; no downloadable edition exists. Status unchanged; receipt materially strengthened. NOTE: derived indexes refs.jsonl/refs.clean.jsonl were absent on this fresh checkout (the known durability defect) and were restored from git history at the 34246 baseline."
+    },
+    {
+      "date": "2026-10-11",
+      "time": "20:38",
+      "agent": "AFLinks Sync",
+      "summary": "+121043 docs — +121043 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-10-11",
+      "time": "20:37",
+      "agent": "Translation Curator",
+      "summary": "+2 docs — Two full ru->EN translations from the trinitas.ru Institute of Vacuum Physics (0231) vein, both with archived source PDFs: (1) G.I. Shipov, 'Stagnation in Theoretical Physics and Ways Out of It. Quantum Mechanics' (30.10.2014, 37 pp) - the quantum-mechanics paper of the stagnation series, deriving the Schrodinger equation from the inertia field, the Madelung hydrodynamic interpretation, quantization in Newton's bucket, the Dzhanibeldov effect, and the Physical Vacuum equations as a unified field theory; (2) V.N. Vlasov, 'The Greatest Revolution in Mechanics 3' (32 pp) - a practitioner-advocate survey of inertioid/reactionless propulsion and centrifugal-force power amplifiers (Tolchin, Shipov, Akimov, Shukalov, Thornson US4631971, Linevich-Ezhov inertor, Milkovic double pendulums) plus the author's own conical-gear inertor scheme. Both in copyright, private archive/research use only."
+    },
     {
       "date": "2026-10-11",
       "time": "20:17",
@@ -28800,24 +28818,6 @@
       "time": "08:33",
       "agent": "AFLinks Sync",
       "summary": "+120656 docs — +120656 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "08:28",
-      "agent": "Translation Sweeper",
-      "summary": "+20 chunks — Two full ru->EN translations from the trinitas.ru Institute of Vacuum Physics vein (G.I. Shipov): 'Accelerated 3D frame of reference and geometrization of inertia forces and fields' (11 chunks) and 'On the levitation of diamagnetics in strong magnetic fields' (9 chunks); both assembled, source PDFs archived. The levitation paper derives diamagnetic levitation as a gyroscopic effect (effective mass depending on spin and field, mu* = mu - (1/2) g s_a H^a), with the Ig Nobel frog levitation as the hook."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "08:28",
-      "agent": "translator-foreign",
-      "summary": "+6 chunks — Full ru->EN translation of Shipov 'Fiziko-matematicheskiy nonsens 267 let' (trinitas.ru), 6 chunks, source archived"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "08:25",
-      "agent": "translator-foreign",
-      "summary": "+7 chunks — Full de->EN translation of Abdellaziz 'Viktor Schauberger: Leben, Wasser und Wirbelideen' (desert-greening.com), 7 chunks, source archived"
     },
     {
       "date": "2026-10-10",
@@ -1304151,89 +1304151,345 @@
         "aether",
         "geometry_sacred"
       ],
-      "2463625": [],
-      "2463626": [],
-      "2463627": [],
-      "2463628": [],
-      "2463629": [],
-      "2463630": [],
-      "2463631": [],
-      "2463632": [],
-      "2463633": [],
-      "2463634": [],
-      "2463635": [],
-      "2463636": [],
-      "2463637": [],
-      "2463638": [],
-      "2463639": [],
-      "2463640": [],
-      "2463641": [],
-      "2463642": [],
-      "2463643": [],
-      "2463644": [],
-      "2463645": [],
-      "2463646": [],
-      "2463647": [],
-      "2463648": [],
-      "2463649": [],
-      "2463650": [],
-      "2463651": [],
-      "2463652": [],
-      "2463653": [],
-      "2463654": [],
-      "2463655": [],
-      "2463656": [],
-      "2463657": [],
-      "2463658": [],
-      "2463659": [],
-      "2463660": [],
-      "2463661": [],
-      "2463662": [],
-      "2463663": [],
-      "2463664": [],
-      "2463665": [],
-      "2463666": [],
-      "2463667": [],
-      "2463668": [],
-      "2463669": [],
-      "2463670": [],
-      "2463671": [],
-      "2463672": [],
-      "2463673": [],
-      "2463674": [],
-      "2463675": [],
-      "2463676": [],
-      "2463677": [],
-      "2463678": [],
-      "2463679": [],
-      "2463680": [],
-      "2463681": [],
-      "2463682": [],
-      "2463683": [],
-      "2463684": [],
-      "2463685": [],
-      "2463686": [],
-      "2463687": [],
-      "2463688": [],
-      "2463689": [],
+      "2463625": [
+        "aether",
+        "p_visualray"
+      ],
+      "2463626": [
+        "aether",
+        "borderland",
+        "p_fieldphys"
+      ],
+      "2463627": [
+        "aether",
+        "scalar"
+      ],
+      "2463628": [
+        "aether",
+        "torsion",
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2463629": [
+        "aether",
+        "p_goethean"
+      ],
+      "2463630": [
+        "aether",
+        "torsion",
+        "cold_fusion",
+        "p_fieldphys"
+      ],
+      "2463631": [
+        "aether",
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2463632": [
+        "aether",
+        "p_visualray",
+        "p_fieldphys"
+      ],
+      "2463633": [
+        "aether"
+      ],
+      "2463634": [
+        "aether",
+        "p_consciousness"
+      ],
+      "2463635": [
+        "aether"
+      ],
+      "2463636": [
+        "aether"
+      ],
+      "2463637": [
+        "aether",
+        "scalar"
+      ],
+      "2463638": [
+        "aether"
+      ],
+      "2463639": [
+        "aether"
+      ],
+      "2463640": [
+        "aether"
+      ],
+      "2463641": [
+        "aether"
+      ],
+      "2463642": [
+        "aether"
+      ],
+      "2463643": [
+        "aether",
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2463644": [
+        "aether"
+      ],
+      "2463645": [
+        "aether"
+      ],
+      "2463646": [
+        "aether"
+      ],
+      "2463647": [
+        "aether",
+        "scalar",
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2463648": [
+        "aether",
+        "scalar"
+      ],
+      "2463649": [
+        "aether",
+        "p_bridge"
+      ],
+      "2463650": [
+        "aether",
+        "scalar",
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2463651": [
+        "aether",
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2463652": [
+        "aether",
+        "scalar"
+      ],
+      "2463653": [
+        "aether"
+      ],
+      "2463654": [
+        "aether",
+        "scalar"
+      ],
+      "2463655": [
+        "aether",
+        "scalar",
+        "p_fieldphys"
+      ],
+      "2463656": [
+        "aether"
+      ],
+      "2463657": [
+        "aether",
+        "scalar",
+        "p_bridge"
+      ],
+      "2463658": [
+        "aether"
+      ],
+      "2463659": [
+        "aether"
+      ],
+      "2463660": [
+        "aether"
+      ],
+      "2463661": [
+        "aether",
+        "p_fieldphys"
+      ],
+      "2463662": [
+        "aether",
+        "p_fieldphys"
+      ],
+      "2463663": [
+        "aether"
+      ],
+      "2463664": [
+        "aether",
+        "geometry_sacred"
+      ],
+      "2463665": [
+        "aether"
+      ],
+      "2463666": [
+        "aether",
+        "p_fieldphys",
+        "p_bridge"
+      ],
+      "2463667": [
+        "aether"
+      ],
+      "2463668": [
+        "aether"
+      ],
+      "2463669": [
+        "aether",
+        "geometry_sacred"
+      ],
+      "2463670": [
+        "aether",
+        "p_fieldphys"
+      ],
+      "2463671": [
+        "aether",
+        "scalar",
+        "p_bridge"
+      ],
+      "2463672": [
+        "aether"
+      ],
+      "2463673": [
+        "aether"
+      ],
+      "2463674": [
+        "aether",
+        "p_fieldphys"
+      ],
+      "2463675": [
+        "aether"
+      ],
+      "2463676": [
+        "aether",
+        "scalar",
+        "geometry_sacred",
+        "p_consciousness",
+        "p_bridge"
+      ],
+      "2463677": [
+        "aether"
+      ],
+      "2463678": [
+        "aether",
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2463679": [
+        "aether",
+        "geometry_sacred",
+        "p_bridge"
+      ],
+      "2463680": [
+        "aether",
+        "scalar",
+        "geometry_sacred"
+      ],
+      "2463681": [
+        "aether"
+      ],
+      "2463682": [
+        "aether",
+        "geometry_sacred",
+        "consciousness",
+        "p_consciousness"
+      ],
+      "2463683": [
+        "aether",
+        "scalar",
+        "p_goethean"
+      ],
+      "2463684": [
+        "aether",
+        "cold_fusion"
+      ],
+      "2463685": [
+        "aether",
+        "geometry_sacred"
+      ],
+      "2463686": [
+        "aether"
+      ],
+      "2463687": [
+        "aether"
+      ],
+      "2463688": [
+        "aether",
+        "tesla"
+      ],
+      "2463689": [
+        "aether",
+        "geometry_sacred"
+      ],
       "2463690": [],
-      "2463691": [],
-      "2463692": [],
-      "2463693": [],
-      "2463694": [],
-      "2463695": [],
-      "2463696": [],
-      "2463697": [],
-      "2463698": [],
-      "2463699": [],
-      "2463700": [],
-      "2463701": [],
-      "2463702": [],
+      "2463691": [
+        "aether",
+        "torsion",
+        "geometry_sacred",
+        "p_fieldphys"
+      ],
+      "2463692": [
+        "aether",
+        "cold_fusion"
+      ],
+      "2463693": [
+        "aether",
+        "cold_fusion",
+        "p_bridge"
+      ],
+      "2463694": [
+        "aether",
+        "torsion",
+        "p_fieldphys",
+        "p_consciousness"
+      ],
+      "2463695": [
+        "aether",
+        "scalar",
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2463696": [
+        "aether",
+        "scalar",
+        "p_bridge"
+      ],
+      "2463697": [
+        "aether",
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2463698": [
+        "aether",
+        "torsion",
+        "p_fieldphys"
+      ],
+      "2463699": [
+        "aether",
+        "tesla"
+      ],
+      "2463700": [
+        "aether"
+      ],
+      "2463701": [
+        "aether",
+        "torsion",
+        "vortex",
+        "p_fieldphys"
+      ],
+      "2463702": [
+        "aether",
+        "torsion",
+        "p_fieldphys"
+      ],
       "2463703": [],
-      "2463704": [],
-      "2463705": [],
-      "2463706": [],
-      "2463707": []
+      "2463704": [
+        "aether",
+        "scalar",
+        "geometry_sacred"
+      ],
+      "2463705": [
+        "aether"
+      ],
+      "2463706": [
+        "aether",
+        "zero_point"
+      ],
+      "2463707": [
+        "aether",
+        "zero_point",
+        "crystal",
+        "p_wrongturn"
+      ]
     }
   },
   "daily_drawers": {
@@ -1305952,7 +1306208,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-11T20:37:29Z",
+    "as_of": "2026-10-11T21:21:57Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 505,
