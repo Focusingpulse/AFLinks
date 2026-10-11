@@ -1383,6 +1383,14 @@ def main():
             "2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
         "2026-09-22-lumiere-latente-couleur-plasma-kelsya-fr.md":
             "2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
+        # 2026-10-11 (Drunvalo, translation-QC): Forge re-emitted the Russian
+        # Wikipedia torsion-fields article with a new 10-10 date prefix while the
+        # 10-09 DB keeper stands. Same source URL after percent-decoding
+        # (unquote): %D0%A2%D0%BE%D1%80%D1%81%D0%B8... == Торсионные_поля.
+        # URL-encoded vs raw-Cyrillic forms also defeat the same-source_url
+        # match in the DB-alignment pass, so this needs the explicit alias.
+        "2026-10-10-torsion-fields-russian-wikipedia-ru.md":
+            "2026-10-09-torsion-fields-russian-wikipedia-ru.md",
     }
     _aliased = 0
     for _tw in translation_works:
