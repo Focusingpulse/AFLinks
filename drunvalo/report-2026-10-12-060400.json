@@ -1,0 +1,10 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-12T06:04:00Z",
+  "summary": "village-maintenance-link-fixes-and-resources",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md"
+  ],
+  "details": "village-maintenance: link check 952 URLs - 924 OK / 22 http_err / 6 bad, ALL external noise (burst 429s from our own scan incl. calearth/charlesdowding/culturesforhealth/goingtoseed/naturalbuildingblog/blackdragonforge, whole-domain bot-block 403s lostartpress + allaboutbirds, woodworkingformeremortals HEAD-rejection/429 known-live, transient 5xx/timeouts, dead links in scraped master_quests forum text - not fixed by design). 15 index-facing failures re-verified with browser UA + 2s delay: 8 confirmed 200 (wwoof, ethz MOOC, permacultureapprentice, naturalbuildingblog, holmgren, handtoolwoodworking, gutenberg), 5 live-but-rate-limited, 2 bot-blocked; none actionable. village_maintain.py added 2 library resources from the pool: Fellowship for Intentional Community (ic.org, live 200 browser-UA, 403 to plain curl = anti-bot) + Baker Creek Heirloom Seeds (rareseeds.com 200); pool now 27 entries remaining free ~3. Validators 5/5 PASSED, HTML parses clean. Village commit 82068be pushed + remote-verified."
+}
