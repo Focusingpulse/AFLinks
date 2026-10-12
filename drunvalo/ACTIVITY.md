@@ -1,4 +1,9 @@
 # Drunvalo Activity Log
+
+## 2026-10-12T12:06:00Z - village-maintenance (ok)
+
+village-maintenance: links 960 checked 935 ok, 25 failures all external noise 14 index-facing re-verified non-actionable; pool extended 12 vetted entries; 2 library resources added The Land Institute and On Pasture; validators 5/5.
+
 ## 2026-10-12T08:16:55Z - village-content-growth (ok)
 
 Crawl 499 pages, ZERO mergeable (permies served forum renders for all badge pages again; artifact restored via git checkout). Library +3 vetted: Natural Homes (naturalhomes.org, Natural Building), Homestead and Chill (homesteadandchill.com, Food Preservation), Common Sense Home (commonsensehome.com, Homesteading) - all curl-200 with real titles, absent from index. Filled the last missing data-i18n key (The Games Shelf) es/fr/de. Validators 5/5. Links 957 checked / 933 OK (24 failures all external noise). Village commit 74f761e pushed.
