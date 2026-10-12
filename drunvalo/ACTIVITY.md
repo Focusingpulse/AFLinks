@@ -1,4 +1,10 @@
 # Drunvalo Activity Log
+## 2026-10-12T08:09:04Z - aetherforce-translation-qc (ok)
+
+Standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0). Title-sim 5 + containment 3 candidates, 0 folds (all known no-fold families: Risy series, Sitkowski, quietsphere, belizal-morel, geometria-sacra, sr Tesla).
+
+Added 10 works from Forge's 2026-10-12 batch + 12 persons; 15 back-ref wirings. Kramers-Kronig source URL 404 at QC time (hosting panel), canonical kept + noted. tag_concepts.py skipped (dead). Indexes: 784 works, 554 persons.
+
 ## 2026-10-12T06:07:43Z - aetherforce-synthesis (ok)
 synthesis: created synthesis/2026-10-12-reactionless-drive-ledger-inertia-torsion.md - Thrust Without Exhaust: the reactionless-drive ledger. Three traditions one structural proposal: Russian inertioid line (Tolchin 1977 -> Shipov nonholonomic derivation -> Chicherin-Menshikov Yubileiny on-orbit ~20 mgf), Western microwave line (Shawyer EmDrive, Yang Juan NWPU 720 mN, Eagleworks 91.2 uN at 17 W via Etkin), German torkado swing model - all asymmetric cyclic motion + finite-speed momentum medium. Theory stack: Shipov inertia-as-real-field program (20+ works) + Bartini L-T. Skeptical ledger in full: Dresden CEAS-2022 null below photon limit (2 orders) + Chicherin-Menshikov's own zero-integral demolition of prior inertioid theory; metrology wall named. 24 sources, 24 cross_refs validated. COLLISION REPAIR: restored scout's 00:06Z ledger work clobbered by my own 00:00 synthesis cron (17 FOUND flips re-applied + 7 proposals re-added as upgrade-249..255); +upgrade-256 Tolchin 1977 +upgrade-257 Dresden SpaceDrive corpus. research-index 774 works, person-index 542 persons (+martin-tajmar +yang-juan, 16 linked). Fresh-base guard fired on all 3 DB pushes (database-refresh pushed mid-run; edits re-applied on top).
 ## 2026-10-12T06:04:00Z - village-maintenance (ok)
