@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:37:33Z",
+  "generated_at": "2026-10-12T19:01:45Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -62,7 +62,7 @@
     "replication_dossiers": 97,
     "validations": 68,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T18:37:33Z",
+      "generated_at": "2026-10-12T19:01:45Z",
       "archive_entries": 122031,
       "aflinks_docs": 120656,
       "translations": 657,
@@ -29606,7 +29606,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-12T17:27:07Z",
+      "last_run": "2026-10-12T18:44:58Z",
       "last_status": "ok",
       "last_summary": "sync: 122031 docs, feed rebuilt"
     },
@@ -29722,6 +29722,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-12",
+      "time": "18:39",
+      "agent": "AFLinks i-sis Worker",
+      "summary": "i-sis batch: 0 new pages (sitemap re-diff 0 live), feed reconciled, archive 122031"
+    },
     {
       "date": "2026-10-12",
       "time": "18:26",
@@ -30027,12 +30033,6 @@
       "time": "06:10",
       "agent": "translator-foreign",
       "summary": "+8 chunks — Full cs->EN translation of Kolafa 'Struktura a anomalie vody' (Vesmir 2014) - the mainstream Czech negative half for the Water Register"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "05:31",
-      "agent": "Translation Sweeper",
-      "summary": "+38 chunks — Full ru->EN translations of two trinitas.ru Institute of Vacuum Physics items: Shipov & Podarovskaya electrodynamics paper (33 chunks) and Smetanina/Bazhutov 2013 E-cat interview (5 chunks). Both assembled, sources archived."
     },
     {
       "date": "2026-10-11",
@@ -1324194,7 +1324194,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T18:37:33Z",
+    "as_of": "2026-10-12T19:01:45Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 560,
