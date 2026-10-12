@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-11T23:23:46Z",
+  "generated_at": "2026-10-12T00:18:03Z",
   "library": {
-    "researchers": 1867,
-    "researchers_cataloged": 1867,
+    "researchers": 1917,
+    "researchers_cataloged": 1917,
     "patents": 3044,
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 120656,
-    "translations": 607,
-    "pages_translated": 13502,
+    "translations": 608,
+    "pages_translated": 13525,
     "declassified_finds": 209,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 720,
+    "translation_files": 722,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 607,
+      "translation_works": 608,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 13502,
+      "pages_translated_computed": 13525,
       "inherited": [],
-      "pages_translated_published": 13502
+      "pages_translated_published": 13525
     },
     "bridges": 27,
     "archive_entries": 121141,
@@ -62,13 +62,13 @@
     "replication_dossiers": 95,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-11T23:23:46Z",
+      "generated_at": "2026-10-12T00:18:03Z",
       "archive_entries": 121141,
       "aflinks_docs": 120656,
-      "translations": 607,
-      "pages_translated": 13502,
+      "translations": 608,
+      "pages_translated": 13525,
       "declassified_finds": 209,
-      "researchers": 1867,
+      "researchers": 1917,
       "patents": 3044,
       "active_agents": 15,
       "atsuyskovsky_books": 1,
@@ -491,6 +491,17 @@
       "file": "2026-10-11-information-induction-radioactive-decay-krasnikov-ru.md",
       "content_file": null,
       "excerpt": "I.I. Krasnikov\n\nThe Method of \"Information Induction\" as a Tool\nfor Controlling the Process of Radioactive Decay\n\nThe article presents results of a study of the mechanism of action of one of the methods used for artifici"
+    },
+    {
+      "date": "2026-10-11",
+      "title": "Инерциоиды – движители постоянной тяги с наложенными гармоническими колебаниями (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/004a/1046-chm.pdf",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-11-inertioids-constant-thrust-harmonic-oscillations-chicherin-menshikov-ru.md",
+      "content_file": null,
+      "excerpt": "1\n                                                    V.G. Chicherin, V.A. Menshikov\n\nInertioids – constant-thrust propulsors\n        with superimposed harmonic oscillations\n\nAbstract\n     On the basis of the mechanics o"
     },
     {
       "date": "2026-10-11",
@@ -15705,6 +15716,34 @@
     },
     {
       "date": "scout-repo",
+      "file": "scout-report-2026-10-12-0000.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Nature 2025 Thunderbird primary",
+          "description": "Chen et al., Nature 644:640-645, https://www.nature.com/articles/s41586-025-09042-7 (200 ✓ OA). Flagged 10-11 12Z for QC add; DB holds only the ingenieur.de secondary.",
+          "url": ""
+        },
+        {
+          "title": "Wang & Pollack 2024 xylem EZ",
+          "description": "Sci Rep 14, https://www.nature.com/articles/s41598-024-62983-3 (200 ✓ OA). Flagged 10-11 12Z with \"recommend direct DB add\"; still absent.",
+          "url": ""
+        },
+        {
+          "title": "spirit",
+          "description": "science.fr/ArchivesScientifiques/** (upgrade-054): 403 anti-bot from the sandbox over both http and https — unconfirmed, likely live in a browser. The crawl-queue add remains open; the Harmonizer's crawler (with different egress) may succeed where curl fails.",
+          "url": ""
+        },
+        {
+          "title": "upgrade",
+          "description": "247**: Callisto pair — final report (callisto.report) + community counter-review (callisto.review). Skeptical-ledger + counter-ledger; acquire both.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "scout-repo",
       "file": "scout-report-2026-10-11-1200.md",
       "scout": "",
       "languages": "",
@@ -28441,9 +28480,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-10-11T20:37:46Z",
+      "last_run": "2026-10-12T00:03:44Z",
       "last_status": "ok",
-      "last_summary": "run total 66 chunks across 2 docs, both complete and archived: Shipov stagnation-quantum-mechanics ru 41 chunks, Vlasov greatest-revolution-mechanics-3 ru 25 chunks | backlog 624 | gear overdrive"
+      "last_summary": "run total 22 chunks across 2 docs, both complete: Chicherin-Menshikov inertioids ru 8/8, Zhigalov Shipov inertioid analysis ru 14/14, both sources archived | backlog 611 | gear overdrive"
     },
     {
       "member": "translation-sweeper",
@@ -28463,9 +28502,9 @@
       "mission": "Catalogs every researcher and work into the dual-index database with practical-applicability flags.",
       "schedule": "daily 6pm MDT",
       "icon": "🗂️",
-      "last_run": "2026-10-11T00:15:22Z",
+      "last_run": "2026-10-12T00:09:02Z",
       "last_status": "ok",
-      "last_summary": "+25 people since last run, 608->633 | added 25 people, 30 works, 23 practical this run | legacy researcher-index +12 append-only | gear overdrive"
+      "last_summary": "+26 people since last run 633->659 | added 25 persons, 31 works, 26 practical this run | gear overdrive"
     },
     {
       "member": "aflinks",
@@ -28474,7 +28513,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-11T22:43:06Z",
+      "last_run": "2026-10-11T23:25:03Z",
       "last_status": "ok",
       "last_summary": "sync: 121141 docs, feed rebuilt"
     },
@@ -28507,9 +28546,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-10-11T20:41:52Z",
+      "last_run": "2026-10-12T00:12:52Z",
       "last_status": "ok",
-      "last_summary": "citation-harvest: 30 docs, +487 refs, graph 25790 nodes 3084 hubs, veracity ch.21 row re-probed unchanged"
+      "last_summary": "citation-harvest: 26 docs fetched, graph 25470 nodes 3024 hubs, veracity About-page MID row re-probed unchanged; refs.jsonl at 34342 after a fresh checkout reset it from the 34733 last recorded"
     },
     {
       "member": "book5-translate",
@@ -28590,6 +28629,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-12",
+      "time": "00:12",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+96 references — citation-harvest: 26 docs fetched of 30, 4 fetch failures; refs 34246 -> 34342, +96 kept, 17 filtered as fragment/boilerplate; graph 25470 nodes / 34606 edges / 3024 hubs; veracity About-page MID mislabel re-checked, status unchanged needs-owner, new receipts: the site-wide Organization JSON-LD names Epimemetics LLC with no foundingDate, the 2016 matches the founder's LinkedIn role-start month Jul 2016, and a second third-party AZ record re-confirms the 2010-08-24 filing. NOTE: this run began with the living-library mount absent, so refs.jsonl was restored from history to the 34246 baseline; the untracked refs.jsonl means the harvest is not accumulating across fresh checkouts, the open durability decision for Cairn/Chris"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "00:08",
+      "agent": "DB Entity Extractor",
+      "summary": "+25 persons — Extracted 25 persons + 31 works from 2026-10-11 scout A/B and deep-dive finds. New: form-wave/geobiology practitioners (Fontana, Prever, Pruvost, Laval, Geotonic), Emma Kunz + Sarriugarte art-history study, COGNITIONIS water-memory review, Wojtkowiak satellite-radiesthesia + cancer + water-structures, Water&Light NMR/FT-IR, Zoeteman RIVM supra-sensory water, UNIST proton tunneling, Korea Univ nanoclusters, Uppsala solvation-shell IRD, DD-fusion foils plateau, Nature CNT confined water, General Fusion LM26, Welz magitech hub, Adaris torsion plant experiment, ReKnowledge Aqive debunk. Legacy researcher-index +25 append-only (1344->1369)."
+    },
+    {
+      "date": "2026-10-12",
+      "time": "00:03",
+      "agent": "Translation Curator",
+      "summary": "+2 docs — Full ru->EN translations of two trinitas.ru Institute of Vacuum Physics papers on inertioid/supportless-motion physics: Chicherin & Menshikov (constant-thrust propulsor, 8 chunks) and Zhigalov (analysis of Shipov's Thailand inertioid experiments, 14 chunks); both sources archived"
+    },
+    {
+      "date": "2026-10-11",
+      "time": "23:24",
+      "agent": "AFLinks Sync",
+      "summary": "+121141 docs — +121141 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-11",
       "time": "23:23",
@@ -28877,30 +28940,6 @@
       "time": "10:55",
       "agent": "Translation Sweeper",
       "summary": "+16 chunks — Full ru->EN translation of G.I. Shipov, 'Nonholonomic Mechanics of Descartes. Experimental Study of the Space-Time Nutation of a 4D Gyroscope' (trinitas.ru Institute of Vacuum Physics, 33 pp) — completed chunks 13-28 (16 chunks), whole document 28/28, assembled. Found via the trinitas.ru 0231 vein; resume of a job left at 12/28 by another lane."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "10:22",
-      "agent": "translator-foreign",
-      "summary": "+3 chunks — Full sv->EN translation of Uppsala University news item on the new IRD X-ray method for probing water's solvation shell (Nature Communications 2025)"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "10:21",
-      "agent": "AFLinks Sync",
-      "summary": "+120656 docs — +120656 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "10:19",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+78 references — Citation harvest: 30 docs fetched, 6 with bibliographies, 24 no_bib, 0 fetch failures; +78 refs (refs.jsonl 34168->34246); clean kept 34229, dropped 17 = 15 fragment + 2 boilerplate; graph 25435 nodes / 34510 edges / 3018 hubs; archive queue refreshed, feed live, 119355 docs. Veracity re-check: ch. 21 percentage row ~85/14/<1 — new receipt: the framework cites an external source for a comparable statistic in ch. 1, whose 50% figure carries a [1] citation to Graphite Oct 2025, so the missing citation for the ch. 21 figure is figure-specific not a house style; ch. 5's 90% figure is likewise uncited; the figure is absent from all marketing and blog surfaces. Status unchanged: unverified."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "10:00",
-      "agent": "Translation Curator",
-      "summary": "+1 archives — Resumed the trinitas.ru Institute of Vacuum Physics vein. Started full ru->EN translation of G.I. Shipov, Nonholonomic Mechanics of Descartes / Experimental Study of the Space-Time Nutation of a 4D Gyroscope (33 pp); 12 of 28 chunks done, source PDF archived. On-axis for the torsion/inertia-field lane."
     },
     {
       "date": "2026-10-10",
@@ -30209,12 +30248,28 @@
   ],
   "news": [
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "kind": "milestone",
       "title": "Atsyukovsky Book 5 — complete in English",
       "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, held in the internal library pending rights review.",
       "rarity": "milestone",
       "href": "./library.html#translationsSection"
+    },
+    {
+      "date": "2026-10-12",
+      "kind": "declassified",
+      "title": "Yemen — The Saudi Special Committee Cables (published 2026)",
+      "excerpt": "Yemen — a trove of classified internal cables of the Special Committee of the Saudi Council of Ministers (2010–2012), the body that has run Riyadh's Yemen polic",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-yemen-saudi-special-committee-cables-md"
+    },
+    {
+      "date": "2026-10-12",
+      "kind": "declassified",
+      "title": "Zimbabwe — High Court Orders Release of the Suppressed Uchena Commission Land Report",
+      "excerpt": "Zimbabwe — the High Court ordered President Mnangagwa to publish the long-suppressed Uchena Commission report into the sale of State land, holding that continue",
+      "rarity": "newly opened",
+      "href": "./library.html#declass-declassified-zimbabwe-uchena-commission-report-court-ordered-release-md"
     },
     {
       "date": "2026-10-11",
@@ -30233,22 +30288,6 @@
       "rarity": "fresh from Dutch",
       "href": "./library.html#trans-2026-10-11-waterstructuur-nmr-ft-ir-water-and-light-nl.md",
       "source_url": "https://waterandlight.eu/waterstructuur-nmr-ft-ir-analysis/"
-    },
-    {
-      "date": "2026-10-11",
-      "kind": "declassified",
-      "title": "Yemen — The Saudi Special Committee Cables (published 2026)",
-      "excerpt": "Yemen — a trove of classified internal cables of the Special Committee of the Saudi Council of Ministers (2010–2012), the body that has run Riyadh's Yemen polic",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-yemen-saudi-special-committee-cables-md"
-    },
-    {
-      "date": "2026-10-11",
-      "kind": "declassified",
-      "title": "Zimbabwe — High Court Orders Release of the Suppressed Uchena Commission Land Report",
-      "excerpt": "Zimbabwe — the High Court ordered President Mnangagwa to publish the long-suppressed Uchena Commission report into the sale of State land, holding that continue",
-      "rarity": "newly opened",
-      "href": "./library.html#declass-declassified-zimbabwe-uchena-commission-report-court-ordered-release-md"
     },
     {
       "date": "2026-10-10",
@@ -1305719,8 +1305758,8 @@
     }
   },
   "daily_drawers": {
-    "as_of": "2026-10-11",
-    "seed": 125340939503668,
+    "as_of": "2026-10-12",
+    "seed": 5229034946507,
     "drawers": [
       {
         "drawer": "declassified",
@@ -1305734,38 +1305773,38 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Tomasz Sitkowski — Współczesne różdżkarstwo i radiestezja (pl->EN)",
-        "excerpt": "A handbook of effective work with the dowsing rod",
-        "meta": "Polish",
-        "rarity": "fresh from Polish",
-        "href": "./library.html#trans-2026-10-05-wspolczesne-rozdzkarstwo-i-radiestezja-sitkowski-pl.md"
+        "title": "Daniel Risy Notes 8 (fr->EN)",
+        "excerpt": "ABBREVIATIONS & WITNESSES CTm torsion field of magnetism Left Trèfle Right Trèfle BIODYNAMICS ASTROLOGY AND TORSION FIELDS Notebook 7 presents the quite fortuitous discov",
+        "meta": "French",
+        "rarity": "fresh from French",
+        "href": "./library.html#trans-2026-10-09-notes8-biodynamie-astrologie-champs-de-torsion-risy-fr.md"
       },
       {
         "drawer": "found",
         "label": "Newly found",
-        "title": "eolix.fr (FR)",
-        "excerpt": "Memory of Supports and Frequency Imprinting: From Structured Water to Photosensitive Resins",
-        "meta": "2026-09-29",
+        "title": "Processor 407/407 (~2 runs; slow external hosts took 30s timeouts each, setsid",
+        "excerpt": "detached after a wrapper-timeout killed the first child mid-run — progress resume-safe). **109/146 full ≥1000-char previews, 37 empty → OCR/scan lane** (ikar, cryofusion,",
+        "meta": "2026-09-20",
         "rarity": "scout find",
         "href": "./library.html"
       },
       {
         "drawer": "rare",
         "label": "Rare",
-        "title": "Thermal and Nuclear Aspects of the Pd/D2O System, Vol.1: A Decade of Research (SPAWAR Technical Report 1862, 2002)",
-        "excerpt": "TECHNICAL REPORT 1862 February 2002 Thermal and Nuclear Aspects of the Pd/D20 System Volume 1: A Decade of Research at Navy Laboratories S. Szpak P. A. Mosier–Boss Editor",
-        "meta": "iscmns.papers",
-        "rarity": "1 of 4 from this host",
-        "href": "./pages/02398309.html"
+        "title": "Atsyukovsky V.A. General Ether Dynamics (Full English Translation, 2nd ed. 2003, 584 pp.)",
+        "excerpt": "В . А . Atsyukov v s kkoy RUSSIAN ACADEMY OF NATURAL SCIENCES Atsyukovsky V.A. General Ether Dynamics. Modeling of structures of matter and fields on the basis of represe",
+        "meta": "trueearthwiki:static.wikitide.net",
+        "rarity": "1 of 1 from this host",
+        "href": "./pages/02447669.html"
       },
       {
         "drawer": "random",
         "label": "Random",
-        "title": "Law of Oscillating Atomic Substances",
-        "excerpt": "Law of Oscillating Atomic Substances \"Coherent atomic substances are capable of oscillating at a pitch varying directly as the density , and inversely as the linear dimen",
-        "meta": "svpwiki.com",
+        "title": "DBGUIDE",
+        "excerpt": "INE Database Guide www.padrak.com/ine/DBGUIDE.html January 25, 2003 Return to the INE Page Institute for New Energy Database Guide Page INE DATABASE GUIDE All Database Fi",
+        "meta": "padrak.com.ine",
         "rarity": "drawn at random",
-        "href": "./pages/01460363.html"
+        "href": "./pages/01499066.html"
       }
     ]
   },
@@ -1307448,13 +1307487,13 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-11T23:23:46Z",
+    "as_of": "2026-10-12T00:18:03Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
-      "translations": 510,
-      "pages_translated": 11016,
+      "translations": 511,
+      "pages_translated": 11039,
       "declassified": 156,
-      "researchers": 732,
+      "researchers": 782,
       "patents": 209
     }
   }
