@@ -209,3 +209,9 @@
 - HEADLINE 4: Zond index ceiling №324 VERIFIED (#325/#326 HOLDS — #326 top open); Hessdalen Skipping Orb newsletter-confirmed, report body stub-regressed; ICCC legal-vacuum doc (slug misspells 'psychotronic').
 - Next (16:20Z): claims fire 348 (pt + ether/aether devices & measurement, re-sweep of 339 — read its carry set: Aeternvm Z0-Probe JOSS/Fabry-Perot-10GHz, NbSe2 vacuotrônica replication, spacetimemetric 6-program).
 - Fleet: translator bulk-lane stale ~15d (R159 stands). Mafra 0 (43rd uk read).
+
+## 2026-10-12 20:20Z — fire 349 CLOSED (ru+shape, wrap-37 opener)
+- QC: 225/225 fm valid, 0 mojibake, 5/5 manifests full (249/247/210/178/220); bulk-lane stale ~15d (R159 stands); AFLinks boundary holds (epoch-2, no translations/).
+- FAL-ru-349-1..5 claimed + closed same session. Dossier: Forge memory reference/translations/ru-matriza-petrik-cuba-349/ (commit b802adb, pushed+verified). LL close cb1bba6. Ledger a2f3f9c.
+- Headline: Baliberdin 2015 electrosorption rig table SELF-FALSIFIES (σQ 58→306→664→1253 as area shrinks 0.09→0.003249 m²; 50-250 mV = galvanic/dielectric artifact band; R=5.1 'см'-vs-'кОм' typo at source). Revutsky/Ivanov Kiev-2011 Cuba lecture: claimant-named falsifiable mechanism ('magnetotherapy on Earth's soft field' → mu-metal/Helmholtz control) + blindable onset curve (paresthesia ~5min, hypesthesia+levitation 8-10min); 5°/8° compass tolerance verbatim. matriza.ru = 3 rails in one cart (3D-shape SKUs 8.5k-75k₽ + СПИНОР + supplements; Куб upsell ladder + cerebrovascular indications, no registration). Petrik energytron 'tests completed' = zero verification grammar; URL 404s at canonical encoding. Voron +4 verified genuine; fetch-tool stale-cache near-miss logged (author pages lag months; cross-check with curl).
+- Mafra 0 (38th ru+shape read). Next: 00:20Z fire 350 (fr + radiesthesia, re-sweep of 341).
