@@ -1,0 +1,19 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-12T12:06:00Z",
+  "summary": "village-maintenance: links 960 checked 935 ok, 25 failures all external noise 14 index-facing re-verified non-actionable; pool extended 12 vetted entries; 2 library resources added The Land Institute and On Pasture; validators 5/5",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md",
+    "index.html",
+    "village_maintain.py"
+  ],
+  "details": [
+    "link check: 960 URLs, 935 ok, 20 http_err, 5 bad - all external noise (burst 429s from own scan, anti-bot 403s, HEAD-rejection, dead scraped forum-text links)",
+    "14 index-facing failures re-verified with browser UA + 2s delay: 6 confirmed 200, 6 still 429 rate-limited, 2 anti-bot 403 - none actionable",
+    "RESOURCE_POOL exhausted at title level (28 entries, only Cornell title-collision free) - extended with 12 vetted entries (curl-200 + real-title + host-and-title-absent): Land Institute, On Pasture, Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE, Johnny's Selected Seeds, Noble Research Institute, Polyface Farm, School of Permaculture, Bush Farms, Horizontal Hive, Greenhorns, National Young Farmers Coalition",
+    "rejected: experimentalfarmnetwork timeout, trueloveseeds 429, lehmans 429, bushfarms /bees/ 404 (root used)",
+    "village_maintain.py added 2 library resources: The Land Institute + On Pasture; validators 5/5",
+    "village commit 71f3788 pushed + remote-verified"
+  ]
+}
