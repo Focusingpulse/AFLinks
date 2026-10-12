@@ -1,0 +1,23 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-12T00:02:30Z",
+  "summary": "village-maintenance: link check 947 URLs — 926 OK, 21 failures all external noise (burst 429s charlesdowding/culturesforhealth/blackdragonforge, whole-domain bot-block 403s lostartpress/allaboutbirds, dead links in scraped master_quests forum text — none actionable); 7 index-facing failures re-verified with browser UA: goingtoseed + gutenberg 200 (burst noise), 5 live-but-rate-limited/bot-blocked; +2 library resources Savory Institute + WWOOF; validators 5/5; village commit 8513698 pushed + remote-verified",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md",
+    "index.html"
+  ],
+  "details": {
+    "urls_checked": 947,
+    "ok": 926,
+    "http_err": 15,
+    "bad": 6,
+    "actionable": 0,
+    "resources_added": [
+      "Savory Institute",
+      "WWOOF"
+    ],
+    "validators": "5/5",
+    "village_commit": "8513698"
+  }
+}
