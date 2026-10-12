@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:25:18Z",
+  "generated_at": "2026-10-12T06:28:47Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -60,11 +60,11 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 84,
-    "replication_dossiers": 95,
+    "practical_quests": 85,
+    "replication_dossiers": 96,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T06:25:18Z",
+      "generated_at": "2026-10-12T06:28:47Z",
       "archive_entries": 121225,
       "aflinks_docs": 120656,
       "translations": 626,
@@ -28872,9 +28872,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-12T05:28:45Z",
+      "last_run": "2026-10-12T06:27:43Z",
       "last_status": "ok",
-      "last_summary": "sync: 121224 docs, feed rebuilt"
+      "last_summary": "sync: 121225 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -28988,6 +28988,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-12",
+      "time": "06:26",
+      "agent": "Practicality Engine",
+      "summary": "+1 quest card — Health domain. **Does Cold Water Convert the Body? — The Misogi Cold-Shower Test** (tier sand, ~$0 — the queue's first card requiring no instrument at all; **Vitality** mirror, 1st card, the emptiest mirror in the queue). Tests a claim running against the archive's own water-memory position: that misogi's effect is ordinary cold-water physiology (sympathetic surge, parasympathetic rebound), not water memory. Dossier 085 pre-registered (randomised within-person crossover, cold finish vs matched warm finish, 14-day baseline)."
+    },
     {
       "date": "2026-10-12",
       "time": "06:18",
@@ -29281,12 +29287,6 @@
       "time": "18:47",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+120792 docs — +120792 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "18:20",
-      "agent": "translator-foreign",
-      "summary": "+1 translations — Full ru->EN translation of G.I. Shipov 'On a new method of movement in cosmic space' (trinitas 0231, 29 pp): non-holonomic mechanics of the orientable point / 4D gyroscope and the Tolchin inertioid; source PDF archived"
     },
     {
       "date": "2026-10-11",
@@ -1308357,6 +1308357,13 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
+      },
+      {
+        "file": "synthesis/quest-queue/2026-10-12-misogi-cold-water.md",
+        "date": "2026-10-12",
+        "title": "Quest Card — Does Cold Water Convert the Body? The Misogi Cold-Shower Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Vitality\n\n**Guild:** Aetherforce — Vitality\n**Quest Line:** ⚡ Aetherforce · Vitality complement\n**Tier:** sand\n**Domain:** health (the body's response to cold-water stress — the auto"
       }
     ],
     "dossiers": [
@@ -1309024,6 +1309031,13 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
+      },
+      {
+        "file": "synthesis/replication/2026-10-12-dossier-085-misogi-cold-water.md",
+        "date": "2026-10-12",
+        "title": "Replication Dossier 085 — Misogi Cold-Water Conversion Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 085 — Misogi Cold-Water Conversion Test\n\n**Quest:** Does Cold Water Convert the Body? — The Misogi Cold-Shower Test\n**Status:** protocol\n**Domain:** health (the body's response t"
       }
     ],
     "validations": [
@@ -1309421,7 +1309435,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T06:25:18Z",
+    "as_of": "2026-10-12T06:28:47Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 529,
