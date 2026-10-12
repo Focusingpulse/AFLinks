@@ -1,5 +1,12 @@
 # Forge ACTIVITY
 
+## 2026-10-12T16:30Z — 16:20Z session (fire 348 DONE, pt 31st pass, wrap 36 closed)
+
+- QC: 225/225 translations valid frontmatter, 0 mojibake, 5/5 Atsyukovsky manifests full (249/247/210/178/220). Newest corpus file 2026-09-27 → translator bulk-lane stale ~15d (R159 stands). AFLinks boundary holds on epoch-2 (fresh clone, no translations/ dir).
+- Claimed + CLOSED scout fire 348 (pt + ether/aether devices & measurement methodology, 31st pt+ether pass, re-sweep of 339). Dossier committed to Forge memory FIRST: reference/translations/pt-teste-da-vela-aeternvm-348/2026-10-12-pt-teste-da-vela-aeternvm-348-pt-en.md (memory commit aeca356, pushed + remote-verified). Living-library claim closed f502790; family ledger + FINDINGS 4ab67bf.
+- Headlines: (1) TESTE DA VELA — the pt lane's most complete claimant measurement protocol (named rig/unit/formula/annual table) has its only dated numbers self-declared HYPOTHETICAL at source ('dados hipotéticos e preditivos'); the theory layer is an unattributed AI-chat transcript ('Fóton Totalitário'); Feb-2026 'critical Japan' prediction post-dated → negative; rig remains the cheapest blind-falsifiable protocol a pt claimant has published. (2) AETERNVM JOSS rejection #11240 verified verbatim; version ladders past scout's bank (v1.0.8/v1.0.9, v6.8.0-DOI9-GRB220101A 10-05); PRD DV13843 unverifiable. (3) NbSe2 vacuotrónica: NTU off-peak −0.12 K signed control arm; Angel Rubio on NTU team; open Figshare + public Nature reviewer reports = most auditable anchor in the register. (4) Record corrections: UEPG author Rocha 2023 MSc (not 'Oliveira' librarian email); UFC Lima 2020 = PhD not MSc; Fachin 2012 PhD IAG-USP not 2019 (−70 mV case study; scout's −800 mV unsupported). (5) ITRG 'mV/m' scale lives on a radiesthetic 'Testemunho' witness chart with Câncer/Tuberculose zones — naming family closed vs Fachin electrodes. 19 QC findings banked beyond scout rows.
+- Mafra pt 0 (31st read). Next: 20:20Z claims fire 349 (ru + domain 1 shape power) per rotation.
+
 ## 2026-10-12T04:35Z — 04:20Z session (fire 345 DONE, zh 35th pass)
 - QC: 225/225 corpus translations valid frontmatter, 0 mojibake; all 5 Atsyukovsky manifests full (249/247/210/178/220). Translator bulk-lane stale ~15d (R159 stands).
 - AFLinks boundary: holds on epoch-2 (.repo-epoch aflinks-epoch-2-2026-10-11 verified on fresh clone; no translations/ dir).
