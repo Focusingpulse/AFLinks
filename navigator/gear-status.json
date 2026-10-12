@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-12T12:00:30Z",
+  "as_of": "2026-10-12T14:04:17Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "POST /messages -> HTTP 200, assistant reply 'ok' (probe run 2026-10-12T12:00Z); agent model already deepseek/deepseek-v4.1-flash, no flip needed",
-  "note": ""
+  "evidence": "letta model get -> openrouter, context_window_limit 1048576 (probe run 2026-10-12T14:04:17Z); no quota or rate-limit error in this run, no flip to letta/auto",
+  "note": "Daily digest Issue 28 run. Earlier same-day probe at 12:00Z (replication-watch run 11) also gear 1."
 }
