@@ -1,34 +1,28 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-maintenance",
-    "timestamp": "2026-10-12T06:04:00Z",
+    "cron": "aetherforce-synthesis",
+    "timestamp": "2026-10-12T06:07:43Z",
     "status": "ok",
-    "summary": "village-maintenance: 952 URLs checked, 28 failures all external noise; +2 library resources (ic.org, rareseeds.com); validators 5/5; village commit 82068be remote-verified"
+    "summary": "reactionless-drive ledger synthesis + scout-ledger collision repair; 774 works / 542 persons"
   },
-  "job": "village-maintenance",
+  "job": "aetherforce-synthesis",
   "status": "ok",
-  "persons": 538,
-  "works": 769,
+  "persons": 542,
+  "works": 774,
   "notes": "village-content-growth: permies crawl 499 pages, zero genuinely new BBs (refresh candidates all forum-chrome noise, not merged; scrape artifact restored). Library +3 vetted resources (all curl-200 + title-verified, absent from index): Verge Permaculture cold-climate permaculture, Down to Earth Design/Sigi Koko natural building, Melissa K. Norris homesteading & preservation. Rejected: paulsellers 403, oasisdesign bot-interstitial, midwestpermaculture 202-interstitial, nativeseeds/mortiseandtenon 429. Merged 4 duplicate library category pairs (Natural Building, Food Preservation, Woodworking, Homesteading): 25->21 categories, 12 duplicate links folded, all 260 unique hrefs preserved. Translations full coverage maintained (252/252 titles es/fr/de). Validators 5/5. Link check 952 URLs / 931 OK (21 failures all external noise). Concurrent-push collision with quality-audit cron resolved via rebase + link-report regeneration. Village commit c79a1b5 remote-verified.",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-11T12:07:16Z",
-      "status": "ok",
-      "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake/same-file dupes); title-similarity/containment candidates all known no-fold families; +5 Forge Oct-11 works (Shipov trinitas x4: psychophysics, Newton's-bucket vacuum, diamagnetic levitation, 267-year nonsense; Abdellaziz Schauberger de), +1 person madjid-abdellaziz, shipov x4 + schauberger links, vacuum/inertia/schauberger cluster cross-refs, acqua-viva en/it cross-linked + bogus tesla co-author removed; 738 works / 515 persons; tag_concepts skipped (dead)"
-    },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-11T12:08:00Z",
       "status": "ok",
-      "summary": "village-maintenance: link check 945 URLs \u2014 925 OK, 20 failures all external noise (burst 429s calearth/charlesdowding/culturesforhealth, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405 wood*formeremortals, dead links in scraped master_quests forum text \u2014 none actionable); +2 library resources Garden Organic + Resilience.org (both curl-200 verified); RESOURCE_POOL extended 21->28 (WWOOF, ic.org, Baker Creek rareseeds, Southern Exposure, No-Till Growers, Soil Food Web, Verge Permaculture \u2014 all vetted curl-200 + host/title absent); validators 5/5; rebase-resolved concurrent village-quality-audit push (onto-commit pattern for regenerated link report); village commit 8f46c1d"
+      "summary": "village-maintenance: link check 945 URLs — 925 OK, 20 failures all external noise (burst 429s calearth/charlesdowding/culturesforhealth, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405 wood*formeremortals, dead links in scraped master_quests forum text — none actionable); +2 library resources Garden Organic + Resilience.org (both curl-200 verified); RESOURCE_POOL extended 21->28 (WWOOF, ic.org, Baker Creek rareseeds, Southern Exposure, No-Till Growers, Soil Food Web, Verge Permaculture — all vetted curl-200 + host/title absent); validators 5/5; rebase-resolved concurrent village-quality-audit push (onto-commit pattern for regenerated link report); village commit 8f46c1d"
     },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-12T00:02:30Z",
       "status": "ok",
-      "summary": "village-maintenance: link check 947 URLs \u2014 926 OK, 21 failures all external noise (burst 429s charlesdowding/culturesforhealth/blackdragonforge, whole-domain bot-block 403s lostartpress/allaboutbirds, dead links in scraped master_quests forum text \u2014 none actionable); 7 index-facing failures re-verified with browser UA: goingtoseed + gutenberg 200 (burst noise), 5 live-but-rate-limited/bot-blocked; +2 library resources Savory Institute + WWOOF; validators 5/5; village commit 8513698 pushed + remote-verified"
+      "summary": "village-maintenance: link check 947 URLs — 926 OK, 21 failures all external noise (burst 429s charlesdowding/culturesforhealth/blackdragonforge, whole-domain bot-block 403s lostartpress/allaboutbirds, dead links in scraped master_quests forum text — none actionable); 7 index-facing failures re-verified with browser UA: goingtoseed + gutenberg 200 (burst noise), 5 live-but-rate-limited/bot-blocked; +2 library resources Savory Institute + WWOOF; validators 5/5; village commit 8513698 pushed + remote-verified"
     },
     {
       "cron": "village-quality-audit",
@@ -71,7 +65,13 @@
       "timestamp": "2026-10-12T06:04:00Z",
       "status": "ok",
       "summary": "village-maintenance: 952 URLs checked, 28 failures all external noise; +2 library resources (ic.org, rareseeds.com); validators 5/5; village commit 82068be remote-verified"
+    },
+    {
+      "cron": "aetherforce-synthesis",
+      "timestamp": "2026-10-12T06:07:43Z",
+      "status": "ok",
+      "summary": "reactionless-drive ledger synthesis + scout-ledger collision repair; 774 works / 542 persons"
     }
   ],
-  "timestamp": "2026-10-12T06:04:00Z"
+  "timestamp": "2026-10-12T06:07:43Z"
 }
