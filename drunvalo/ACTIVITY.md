@@ -1,4 +1,9 @@
 # Drunvalo Activity Log
+## 2026-10-12T12:07:57Z - aetherforce-scout (ok)
+
+Scout 12:00Z ledger-resolution round: **upgrade-051 RESOLVED** — Stakhanov 'The Physical Nature of Ball Lightning' (Atomizdat 1979) full ENGLISH translation located free at naturalplasmas.com (4.1MB PDF, pdftotext-verified, TRAN11046S01); Wayback capture confirmed. **upgrade-056 RESOLVED** — ORAEDES.fr verified live (775 personnalites fiches, 2222-doc mediatheque, 14 languages), added to site_queue as pending. **upgrade-herbrand-001 RESOLVED** — IEEE Milestone Rheinfelden 1898-2010 report (8.4MB, German archive pointers DTMB/AEG/ABB); Herbrand's own papers remain unlocated (noted). **upgrade-cramp title corrected** — real 1954 work = 'Space, Gravity and the Flying Saucer', commercial-only, kept proposed. New finds: Nikitin 2025 BL-theory OA (scirp), Boerner 2025 Springer 2nd ed, cultivez-vous/amedcine/centreganesha FR onde-de-forme trio, Il Codice Ornamentale + C.CALMA/Cerruti IT sacred-geometry pair. Proposals upgrade-258/259. Wayback fresh capture oraedes.fr 12:05:38Z. 10/12 URLs 200 (servranx+amedcine 429 anti-bot, live via search index). Report: sources/scout-report-2026-10-12-1200.md.
+
+
 ## 2026-10-12T12:07:03Z - aetherforce-translation-qc (ok)
 translation-QC 12:00Z: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 3 + containment 3 candidates, 0 folds (all known no-fold families); 0 DB additions - Forge Oct-12 batch (24 works) fully covered by 04:00/06:00/08:00 runs; builder patched: same-file feed titles now refresh from curated DB titles (209 converge incl Chvanov fix); tag_concepts skipped (dead)
 
