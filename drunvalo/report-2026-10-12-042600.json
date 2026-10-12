@@ -1,0 +1,25 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-12T04:26:00Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "library_feed.json",
+    "synthesis/2026-10-11-clinical-orgone-line-german-medical-orgonomy.md"
+  ],
+  "details": {
+    "standing_checks": "same-file dupes 0, unknown dates 0, junk person ids 0, dangling cross_refs 0, dangling person refs 0, feed mojibake 0 (scoped to latest_translations/latest_finds), feed same-file dupes 0. Title-similarity 7 candidates / containment 2, 0 folds (known no-fold families: Risy notes cluster, Sitkowski distinct books, brazilian-scalar held, quietsphere series, sheldrake pl/pl-en + geometria-sacra en/it + sr Tesla pairs already cross-linked).",
+    "major_fix": "FEED/DB MISALIGNMENT RESOLVED: work reich-geiger-mueller-oranur-harrer-de (flagged by 2026-10-11 synthesis run) — feed excerpt proved the dossier contains Gabi Müller's 'Qualitatives Torkado-Modell' (torkado.de/Torkado_Text_2.pdf, PDF-verified), not a Harrer Geiger-Müller text (no such standalone text exists on datadiwan.de; Harrer's GM re-examination is part of ha_001d_). Retitled work as torkado-model-qualitative-gabi-muller-de with verified claims, source_url, inertial-drive cross_refs; new person gabi-muller; synthesis-clinical-orgone-line doc cleaned of 3 phantom citations (cross_refs + 2 inline).",
+    "works_added": 12,
+    "works_detail": "Forge Oct 11-12 batch (11): chicherin+menshikov inertioids (Yubileiny spacecraft thrust), erokhov on Bartini L-T system, shipov+sidorov inertial forces, laval ondes-de-forme (naturopathe.pro), shipov field gyroscopes QM (source_url backfilled from shipov.com), lobova on Shipov vacuum equations, shipov unified-field physical vacuum, korea-university water nanocluster (Small Science 2024 primary DOI), shipov tesla electrodynamics, chuev L-T electromagnetic waves, podorovskaya+shipov essence of matter (Aspect nonlocality). Plus scout-flagged OA primary: Wang & Pollack 2024 xylem EZ water (Sci Rep 14:12071), re-flagged twice and still absent.",
+    "persons_added": 11,
+    "persons_detail": "gabi-muller, chicherin-vg, menshikov-va, erokhov-iv, roberto-oros-di-bartini, sidorov-an, audrey-laval, dong-june-ahn, anqi-wang, chuev-as, podorovskaya-mi; lobova-m enriched (M.A. Lobova, identity assumption documented); shipov +6 works, pollack +1, tesla +1 (about-convention).",
+    "cross_refs": "All new works wired into existing clusters (shipov vacuum cluster, inertioid/propulsion cluster, EZ-water cluster, ondes-de-forme cluster); 17 back-ref wirings on existing works; full id-set validation passed before push.",
+    "feed_fixes": "2 title corrections (Torkado entry, Chuev entry incl. bridges section). tag_concepts.py skipped (dead, reads retired index.json).",
+    "urls": "10/10 new source URLs verified live (doi.org 403 to curl = anti-bot, resolves normally).",
+    "index_sizes": "769 works, 538 persons",
+    "collision_note": "Harmonizer sync rebuilt the feed at 04:17:52Z mid-run; feed was re-fetched fresh and fixes re-applied on the new base before push. research-index/person-index verified unchanged since fetch."
+  }
+}
