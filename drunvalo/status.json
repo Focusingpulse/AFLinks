@@ -1,18 +1,17 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-10-12T00:20:11Z",
-  "job": "village-content-growth",
+  "last_run": {
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-12T04:26:00Z",
+    "status": "ok",
+    "summary": "translation-qc: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 7 + containment 2 candidates, 0 folds (known no-fold families). MAJOR FIX: reich-geiger-mueller-oranur-harrer-de misalignment - feed excerpt proved the dossier is Gabi Muller's Qualitative Torkado Model (PDF-verified), not a Harrer text; retitled as torkado-model-qualitative-gabi-muller-de, new person gabi-muller, synthesis-clinical-orgone doc cleaned of 3 phantom citations. +12 works (Forge Oct 11-12 batch: chicherin+menshikov inertioids, erokhov/chuev Bartini L-T pair, shipov x3 + sidorov + podorovskaya vacuum cluster, lobova on Shipov equations, laval ondes-de-forme, korea water nanocluster + scout-flagged Wang-Pollack xylem EZ primary) +11 persons, lobova-m enriched, shipov/pollack/tesla linked; 17 back-ref wirings; URLs 10/10 live. Feed title fixes x2 (torkado, chuev). Harmonizer feed-rebuild at 04:17Z handled via fresh-base re-apply. tag_concepts skipped (dead). 769 works / 538 persons."
+  },
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 527,
-  "works": 757,
+  "persons": 538,
+  "works": 769,
   "notes": "village-content-growth: permies crawl 499 pages, zero genuinely new BBs (refresh candidates all forum-chrome noise, not merged; scrape artifact restored). Library +3 vetted resources (all curl-200 + title-verified, absent from index): Verge Permaculture cold-climate permaculture, Down to Earth Design/Sigi Koko natural building, Melissa K. Norris homesteading & preservation. Rejected: paulsellers 403, oasisdesign bot-interstitial, midwestpermaculture 202-interstitial, nativeseeds/mortiseandtenon 429. Merged 4 duplicate library category pairs (Natural Building, Food Preservation, Woodworking, Homesteading): 25->21 categories, 12 duplicate links folded, all 260 unique hrefs preserved. Translations full coverage maintained (252/252 titles es/fr/de). Validators 5/5. Link check 952 URLs / 931 OK (21 failures all external noise). Concurrent-push collision with quality-audit cron resolved via rebase + link-report regeneration. Village commit c79a1b5 remote-verified.",
   "runs": [
-    {
-      "cron": "village-content-growth",
-      "timestamp": "2026-10-11T08:24:00Z",
-      "status": "ok",
-      "summary": "village-content-growth: master_quests badge gap closed \u2014 PEP Badge Metalworking (440 verified tier-structured BB tasks) and Plumbing and Hot Water (511) junk forum-render rows replaced with wiki-verified content (wiki/108547, wiki/108550). +2 BB rows: Make paper (PEM traditional.straw.paper), Lay 200 Feet of Living Fence (woodland.iron.livingfence). +8 quests 246->254 with full es/fr/de: Metalworking straw x2 + wood, Plumbing straw x2 + wood, Homesteading sand Make Paper, Woodland Care iron Living Fence. +3 vetted library resources: Natural Building Blog, Aprovecho, Solar Cookers International. Crawl 499 pages: 3 genuine candidates vs 34 junk generic renders screened. Link check 943 URLs, 921 OK (22 failures all external noise). Validators 5/5. Village commit 5e7158f pushed and remote-verified."
-    },
     {
       "cron": "village-quality-audit",
       "timestamp": "2026-10-11T12:05:26Z",
@@ -29,13 +28,13 @@
       "cron": "village-maintenance",
       "timestamp": "2026-10-11T12:08:00Z",
       "status": "ok",
-      "summary": "village-maintenance: link check 945 URLs \u2014 925 OK, 20 failures all external noise (burst 429s calearth/charlesdowding/culturesforhealth, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405 wood*formeremortals, dead links in scraped master_quests forum text \u2014 none actionable); +2 library resources Garden Organic + Resilience.org (both curl-200 verified); RESOURCE_POOL extended 21->28 (WWOOF, ic.org, Baker Creek rareseeds, Southern Exposure, No-Till Growers, Soil Food Web, Verge Permaculture \u2014 all vetted curl-200 + host/title absent); validators 5/5; rebase-resolved concurrent village-quality-audit push (onto-commit pattern for regenerated link report); village commit 8f46c1d"
+      "summary": "village-maintenance: link check 945 URLs — 925 OK, 20 failures all external noise (burst 429s calearth/charlesdowding/culturesforhealth, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405 wood*formeremortals, dead links in scraped master_quests forum text — none actionable); +2 library resources Garden Organic + Resilience.org (both curl-200 verified); RESOURCE_POOL extended 21->28 (WWOOF, ic.org, Baker Creek rareseeds, Southern Exposure, No-Till Growers, Soil Food Web, Verge Permaculture — all vetted curl-200 + host/title absent); validators 5/5; rebase-resolved concurrent village-quality-audit push (onto-commit pattern for regenerated link report); village commit 8f46c1d"
     },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-12T00:02:30Z",
       "status": "ok",
-      "summary": "village-maintenance: link check 947 URLs \u2014 926 OK, 21 failures all external noise (burst 429s charlesdowding/culturesforhealth/blackdragonforge, whole-domain bot-block 403s lostartpress/allaboutbirds, dead links in scraped master_quests forum text \u2014 none actionable); 7 index-facing failures re-verified with browser UA: goingtoseed + gutenberg 200 (burst noise), 5 live-but-rate-limited/bot-blocked; +2 library resources Savory Institute + WWOOF; validators 5/5; village commit 8513698 pushed + remote-verified"
+      "summary": "village-maintenance: link check 947 URLs — 926 OK, 21 failures all external noise (burst 429s charlesdowding/culturesforhealth/blackdragonforge, whole-domain bot-block 403s lostartpress/allaboutbirds, dead links in scraped master_quests forum text — none actionable); 7 index-facing failures re-verified with browser UA: goingtoseed + gutenberg 200 (burst noise), 5 live-but-rate-limited/bot-blocked; +2 library resources Savory Institute + WWOOF; validators 5/5; village commit 8513698 pushed + remote-verified"
     },
     {
       "cron": "village-quality-audit",
@@ -66,7 +65,13 @@
       "timestamp": "2026-10-12T00:20:11Z",
       "status": "ok",
       "summary": "village-content-growth: permies crawl 499 pages, zero genuinely new BBs (refresh candidates all forum-chrome noise, not merged; scrape artifact restored). Library +3 vetted resources (all curl-200 + title-verified, absent from index): Verge Permaculture cold-climate permaculture, Down to Earth Design/Sigi Koko natural building, Melissa K. Norris homesteading & preservation. Rejected: paulsellers 403, oasisdesign bot-interstitial, midwestpermaculture 202-interstitial, nativeseeds/mortiseandtenon 429. Merged 4 duplicate library category pairs (Natural Building, Food Preservation, Woodworking, Homesteading): 25->21 categories, 12 duplicate links folded, all 260 unique hrefs preserved. Translations full coverage maintained (252/252 titles es/fr/de). Validators 5/5. Link check 952 URLs / 931 OK (21 failures all external noise). Concurrent-push collision with quality-audit cron resolved via rebase + link-report regeneration. Village commit c79a1b5 remote-verified."
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-12T04:26:00Z",
+      "status": "ok",
+      "summary": "translation-qc: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 7 + containment 2 candidates, 0 folds (known no-fold families). MAJOR FIX: reich-geiger-mueller-oranur-harrer-de misalignment - feed excerpt proved the dossier is Gabi Muller's Qualitative Torkado Model (PDF-verified), not a Harrer text; retitled as torkado-model-qualitative-gabi-muller-de, new person gabi-muller, synthesis-clinical-orgone doc cleaned of 3 phantom citations. +12 works (Forge Oct 11-12 batch: chicherin+menshikov inertioids, erokhov/chuev Bartini L-T pair, shipov x3 + sidorov + podorovskaya vacuum cluster, lobova on Shipov equations, laval ondes-de-forme, korea water nanocluster + scout-flagged Wang-Pollack xylem EZ primary) +11 persons, lobova-m enriched, shipov/pollack/tesla linked; 17 back-ref wirings; URLs 10/10 live. Feed title fixes x2 (torkado, chuev). Harmonizer feed-rebuild at 04:17Z handled via fresh-base re-apply. tag_concepts skipped (dead). 769 works / 538 persons."
     }
   ],
-  "timestamp": "2026-10-12T00:20:11Z"
+  "timestamp": "2026-10-12T04:26:00Z"
 }
