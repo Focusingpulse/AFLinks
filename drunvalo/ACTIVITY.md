@@ -1,4 +1,8 @@
 # Drunvalo Activity Log
+## 2026-10-12T08:16:55Z - village-content-growth (ok)
+
+Crawl 499 pages, ZERO mergeable (permies served forum renders for all badge pages again; artifact restored via git checkout). Library +3 vetted: Natural Homes (naturalhomes.org, Natural Building), Homestead and Chill (homesteadandchill.com, Food Preservation), Common Sense Home (commonsensehome.com, Homesteading) - all curl-200 with real titles, absent from index. Filled the last missing data-i18n key (The Games Shelf) es/fr/de. Validators 5/5. Links 957 checked / 933 OK (24 failures all external noise). Village commit 74f761e pushed.
+
 ## 2026-10-12T08:09:04Z - aetherforce-translation-qc (ok)
 
 Standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0). Title-sim 5 + containment 3 candidates, 0 folds (all known no-fold families: Risy series, Sitkowski, quietsphere, belizal-morel, geometria-sacra, sr Tesla).
