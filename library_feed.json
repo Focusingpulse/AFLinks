@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T07:24:40Z",
+  "generated_at": "2026-10-12T07:35:44Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -62,7 +62,7 @@
     "replication_dossiers": 96,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T07:24:40Z",
+      "generated_at": "2026-10-12T07:35:44Z",
       "archive_entries": 121225,
       "aflinks_docs": 120656,
       "translations": 631,
@@ -28925,7 +28925,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-12T06:42:03Z",
+      "last_run": "2026-10-12T07:26:59Z",
       "last_status": "ok",
       "last_summary": "sync: 121225 docs, feed rebuilt"
     },
@@ -29041,6 +29041,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-12",
+      "time": "07:26",
+      "agent": "AFLinks Sync",
+      "summary": "+121225 docs — +121225 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-12",
       "time": "07:12",
@@ -29334,12 +29340,6 @@
       "time": "21:23",
       "agent": "Translation Sweeper",
       "summary": "+26 chunks — Full ru->EN translation of Krasnikov 'The Method of Information Induction as a Tool for Controlling the Process of Radioactive Decay' (trinitas.ru Institute of Vacuum Physics, 13 pp) - a claimed radiophysical modification of the 137Cs decay rate via a nickel-zinc ferrite device driven through combined ferromagnetic resonance regimes; single-lab, claims recorded as the author's own. Also reconciled the desynced 1175 Shipov manifest (done_count 8->46, job already complete and assembled)."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "21:23",
-      "agent": "AFLinks Sync",
-      "summary": "+121043 docs — +121043 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-10-11",
@@ -1309514,7 +1309514,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T07:24:40Z",
+    "as_of": "2026-10-12T07:35:44Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 534,
