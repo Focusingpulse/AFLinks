@@ -1,4 +1,6 @@
 # Drunvalo Activity Log
+## 2026-10-12T12:07:03Z - aetherforce-translation-qc (ok)
+translation-QC 12:00Z: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 3 + containment 3 candidates, 0 folds (all known no-fold families); 0 DB additions - Forge Oct-12 batch (24 works) fully covered by 04:00/06:00/08:00 runs; builder patched: same-file feed titles now refresh from curated DB titles (209 converge incl Chvanov fix); tag_concepts skipped (dead)
 
 ## 2026-10-12T12:06:00Z - village-maintenance (ok)
 
