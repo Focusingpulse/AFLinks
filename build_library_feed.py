@@ -1439,6 +1439,7 @@ def main():
             t = re.sub(r"[^\w ]+", " ", t, flags=re.UNICODE)
             return set(t.split()) - _lang_toks
         _aligned = 0
+        _title_fixed = 0
         for _tw in translation_works:
             if not isinstance(_tw, dict) or not _tw.get("file"):
                 continue
@@ -1448,6 +1449,19 @@ def main():
             # torsion-fields-pl entry re-align onto the EGS-field synthesis,
             # which merely shares 4 topic tokens).
             if (_tw["file"].split("/")[-1]) in _dbw:
+                # 2026-10-12 (Drunvalo, translation-QC): same-file entries
+                # are already aligned on identity, but their TITLES still
+                # come from the dossier scan and drift from the curated DB
+                # title — raw frontmatter forms ("(Chvanov)" attribution
+                # artifact on the Chuev work), untranslated Cyrillic, case
+                # drift. The QC loop corrects titles in the DB, yet every
+                # sync rebuild re-emitted the scan title because this pass
+                # skipped same-file entries entirely. The DB title is the
+                # curated identity: refresh it here so the feed self-heals.
+                _dw0 = _dbw[(_tw["file"].split("/")[-1])]
+                if _dw0.get("title") and _tw.get("title") != _dw0["title"]:
+                    _tw["title"] = _dw0["title"]
+                    _title_fixed += 1
                 continue
             _ta = _nt(_tw.get("title"))
             # 2026-10-03 (Drunvalo, translation-QC): non-Latin feed titles
@@ -1562,6 +1576,9 @@ def main():
                     _tw["date"] = _dw["date"]
                 _aligned += 1
                 break
+        if _title_fixed:
+            print(f"align: {_title_fixed} same-file feed titles refreshed "
+                  f"from curated DB titles", flush=True)
         if _aligned:
             print(f"align: {_aligned} feed entries rewritten to DB keeper "
                   f"filenames (stale variants)", flush=True)
