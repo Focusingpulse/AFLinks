@@ -2548,7 +2548,9 @@
       ],
       "status": "translated",
       "source_url": "",
-      "cross_refs": [],
+      "cross_refs": [
+        "2026-10-11-ondes-de-forme-impact-perception-pruvost-fr"
+      ],
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry. Folded duplicate id 'ondes-de-forme-centre-ganesha-fr' (QC 2026-09-30)."
     },
     {
@@ -8679,7 +8681,8 @@
       "cross_refs": [
         "2026-10-11-explanation-tolchin-inertioid-motion-nonholonomic-mechanics-shipov-ru",
         "2026-10-11-problema-inertsii-zastoy-teoreticheskoy-fizike-shipov-ru",
-        "2026-10-11-fiziko-matematicheskiy-nonsens-267-let-shipov-ru"
+        "2026-10-11-fiziko-matematicheskiy-nonsens-267-let-shipov-ru",
+        "2026-10-11-new-method-movement-cosmic-space-4d-gyroscope-shipov-ru"
       ]
     },
     {
@@ -12584,7 +12587,9 @@
       ],
       "cross_references": [],
       "status": "translated",
-      "cross_refs": [],
+      "cross_refs": [
+        "2026-10-11-principles-registering-non-electromagnetic-field-melnik-ru"
+      ],
       "source_url": "https://www.trinitas.ru/rus/doc/0231/004a/02311027.htm",
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
     },
@@ -13424,7 +13429,8 @@
       "cross_references": [],
       "status": "translated",
       "cross_refs": [
-        "2026-10-11-does-schoer-engine-violate-laws-physics-etkin-ru"
+        "2026-10-11-does-schoer-engine-violate-laws-physics-etkin-ru",
+        "2026-10-11-paradoksy-elektrodinamiki-tokamak-konstantinov-ru"
       ],
       "source_url": "https://cyberleninka.ru/article/n/alternativa-elektromagnitnoy-teorii-sveta",
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
@@ -17405,10 +17411,7 @@
       "key_claims": [
         "ingenieur.de (22 Aug 2025, Dominik Hochwarth): a UBC table-top reactor shows fusion rates raised ~15% by electrochemical loading, with measurable neutrons rather than 1980s-style heat claims — reproducible but a billionth of a watt, far from practical energy."
       ],
-      "cross_refs": [
-        "2026-10-12-electrochemical-loading-deuterium-fusion-nature-en",
-        "2026-10-12-revisiting-cold-case-cold-fusion-nature-2019-en"
-      ],
+      "cross_refs": [],
       "translated": true
     },
     {
@@ -20316,7 +20319,10 @@
         "polya-inertsii-anomalnye-eksperimenty-shipov-ru",
         "2026-10-11-why-physicists-difficulty-einstein-gravitation-inertia-shipov-ru",
         "2026-10-11-does-schoer-engine-violate-laws-physics-etkin-ru",
-        "2026-10-11-fiziko-matematicheskiy-nonsens-267-let-shipov-ru"
+        "2026-10-11-fiziko-matematicheskiy-nonsens-267-let-shipov-ru",
+        "2026-10-11-negolonomnaya-mekhanika-dekarta-4d-giroskop-shipov-ru",
+        "2026-10-11-new-method-movement-cosmic-space-4d-gyroscope-shipov-ru",
+        "2026-10-11-bezopornoe-dvizhenie-neskompensirovannaya-sila-ivchenkov-ru"
       ],
       "translated": true
     },
@@ -20552,7 +20558,8 @@
       "cross_refs": [
         "2026-10-11-why-physicists-difficulty-einstein-gravitation-inertia-shipov-ru",
         "polya-inertsii-anomalnye-eksperimenty-shipov-ru",
-        "2026-10-11-rotation-matter-source-quantization-shipov-ru"
+        "2026-10-11-rotation-matter-source-quantization-shipov-ru",
+        "2026-10-11-euler-lacked-newton-intuition-stagnation-shipov-ru"
       ],
       "translated": true,
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
@@ -20708,7 +20715,9 @@
       "status": "translated",
       "cross_refs": [
         "alternativa-elektromagnitnoy-teorii-sveta-etkin-ru",
-        "2026-10-11-explanation-tolchin-inertioid-motion-nonholonomic-mechanics-shipov-ru"
+        "2026-10-11-explanation-tolchin-inertioid-motion-nonholonomic-mechanics-shipov-ru",
+        "2026-10-11-bezopornoe-dvizhenie-neskompensirovannaya-sila-ivchenkov-ru",
+        "2026-10-11-paradoksy-elektrodinamiki-tokamak-konstantinov-ru"
       ],
       "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/1148-etk.pdf",
       "note": "Dossier lives in Forge agent memory (publish boundary 2026-09-20); this is the DB map entry."
@@ -20869,133 +20878,437 @@
       "translated": true
     },
     {
-      "id": "2026-10-12-electrochemical-loading-deuterium-fusion-nature-en",
-      "title": "Electrochemical loading enhances deuterium fusion rates in a metal target (Chen et al., Nature 644:640-645, 2025)",
-      "authors": [
-        "kuo-yi-chen",
-        "curtis-berlinguette"
-      ],
-      "date": "2025-08-20",
-      "language": "en",
+      "id": "2026-10-11-waterstructuur-nmr-ft-ir-water-and-light-nl",
+      "title": "Waterstructuur NMR/FT-IR Analysis (Water and Light BV) (nl->EN)",
+      "file": "translations/2026-10-11-waterstructuur-nmr-ft-ir-water-and-light-nl.md",
+      "date": "2026-10-11",
+      "language": "nl",
+      "authors": [],
+      "source_url": "https://waterandlight.eu/waterstructuur-nmr-ft-ir-analysis/",
       "themes": [
-        "Alternative Energy Technologies",
-        "History of Science"
+        "Water Structure",
+        "Instrumentation"
       ],
       "concepts": [
-        "cold-fusion",
-        "lenr",
-        "electrochemical-loading",
-        "neutron-measurement",
-        "ubc-thunderbird-reactor",
-        "palladium-deuterium",
-        "reference-experiment"
+        "nmr",
+        "ft-ir",
+        "full-spectrum-coherent-water",
+        "water-structure",
+        "water-and-light"
       ],
       "key_claims": [
-        "Benchtop Thunderbird Reactor (UBC, Berlinguette group) combines plasma immersion ion implantation of D+ into a palladium target with electrochemical loading from an adjacent D2O cell - first demonstration of PIII-induced D-D fusion",
-        "Electrochemical loading raises D-D fusion neutron rates by 15(2)% (three campaigns: 15.1%, 11.3%, 18.5%); Berlinguette: 'one volt of electricity achieved what normally requires 800 atmospheres of pressure'",
-        "Hard neutron signatures measured rather than heat; explicitly no net energy gain - framed by the team as the reference experiment answering the 2019 Nature Perspective call"
+        "Water and Light BV — overview of research into Full Spectrum Coherent Water using NMR and FT-IR measurement methods to characterize subtle water structure."
       ],
       "cross_refs": [
-        "2026-10-12-revisiting-cold-case-cold-fusion-nature-2019-en",
-        "2026-10-09-alter-streit-kalter-kernfusion-ingenieur-de",
-        "synthesis-cold-fusion-second-look-institutional-return"
+        "2026-10-11-ny-metod-se-vattnets-inre-mikroskopiska-struktur-uu-se-sv"
       ],
-      "source_url": "https://doi.org/10.1038/s41586-025-09042-7",
-      "file": "translations/2026-10-12-electrochemical-loading-deuterium-fusion-nature-en.md",
-      "note": "Primary source indexed directly by Drunvalo synthesis run (no translation dossier; open access at nature.com). Publication date 2025-08-20."
+      "translated": true
     },
     {
-      "id": "2026-10-12-revisiting-cold-case-cold-fusion-nature-2019-en",
-      "title": "Revisiting the cold case of cold fusion (Berlinguette et al., Nature 570:45-51, 2019 Perspective - Google-funded re-examination)",
+      "id": "2026-10-11-supersensory-assessment-source-water-purification-zoeteman-nl",
+      "title": "Bovenzintuiglijke beoordeling van bronenzuivering van water (Supersensory assessment of source-water purification) (nl->EN)",
+      "file": "translations/2026-10-11-supersensory-assessment-source-water-purification-zoeteman-nl.md",
+      "date": "2026-10-11",
+      "language": "nl",
       "authors": [
-        "curtis-berlinguette"
+        "zoeteman"
       ],
-      "date": "2019",
-      "language": "en",
+      "source_url": "https://edepot.wur.nl/380839",
       "themes": [
-        "Alternative Energy Technologies",
-        "History of Science"
+        "Water",
+        "Radiesthesia"
       ],
       "concepts": [
-        "cold-fusion",
-        "lenr",
-        "google-re-examination",
-        "null-result",
-        "reference-experiment"
+        "supersensory-assessment",
+        "water-quality",
+        "source-water-purification",
+        "zoeteman"
       ],
       "key_claims": [
-        "Google-funded multi-institutional re-examination (2015-2019; UBC, MIT, LBNL, Maryland) of three canonical cold-fusion experimental threads: no evidence of excess heat",
-        "Verdict reframed as under-specified rather than closed: calls for a 'reference experiment' with unambiguous, independently verifiable signatures - answered in 2025 by the Thunderbird Reactor from the same program lineage (Berlinguette co-authors both papers)"
+        "Wageningen (edepot.wur.nl 380839) report on supersensory (bovenzintuiglijke) assessment of water quality and source-water purification; continuation of Zoeteman 1988."
       ],
-      "cross_refs": [
-        "2026-10-12-electrochemical-loading-deuterium-fusion-nature-en",
-        "synthesis-cold-fusion-second-look-institutional-return"
-      ],
-      "source_url": "https://doi.org/10.1038/s41586-019-1256-6",
-      "file": "translations/2026-10-12-revisiting-cold-case-cold-fusion-nature-2019-en.md",
-      "note": "Primary source indexed directly by Drunvalo synthesis run (no translation dossier)."
+      "cross_refs": [],
+      "translated": true
     },
     {
-      "id": "synthesis-cold-fusion-second-look-institutional-return",
-      "title": "The Second Look: Cold Fusion's Institutional Return, 2019-2026 - the Reference Experiment, the Commercial Rim, and the Mechanism Floor",
+      "id": "2026-10-11-sravnenie-modeley-beta-raspada-neytrona-kholodov-ru",
+      "title": "Сравнение моделей бета-распада нейтрона (Comparison of models of neutron beta decay) (ru->EN)",
+      "file": "translations/2026-10-11-sravnenie-modeley-beta-raspada-neytrona-kholodov-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
       "authors": [
-        "drunvalo"
+        "kholodov-l-i",
+        "goryachev-i-v"
       ],
-      "date": "2026-10-12",
-      "language": "en",
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/1127-hlg.pdf",
       "themes": [
-        "Alternative Energy Technologies",
+        "Nuclear Physics",
+        "Foundations of Physics"
+      ],
+      "concepts": [
+        "beta-decay",
+        "neutron",
+        "weak-interaction",
+        "physical-models"
+      ],
+      "key_claims": [
+        "Kholodov L.I. & Goryachev I.V. (trinitas 1127-hlg) — comparison of physical models of neutron beta-decay derived from weak-interaction investigation."
+      ],
+      "cross_refs": [],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-searl-effect-generator-construction-sandberg-ru",
+      "title": "Generator Based on the Searl Effect: Construction and Manufacturing Process (ru->EN)",
+      "file": "translations/2026-10-11-searl-effect-generator-construction-sandberg-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "gunnar-sandberg"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/005a/02311014.htm",
+      "themes": [
+        "Free Energy",
+        "Searl Effect"
+      ],
+      "concepts": [
+        "searl-effect-generator",
+        "construction",
+        "manufacturing-process"
+      ],
+      "key_claims": [
+        "S. Gunnar Sandberg (Institute of Vacuum Physics, Academy of Trinitarianism) — construction and manufacturing process of a generator based on the Searl effect (trinitas 02311014)."
+      ],
+      "cross_refs": [],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-radiestezja-ze-zdjec-satelitarnych-2025-wojtkowiak-pl",
+      "title": "Diana Wojtkowiak - Radiestezja ze zdjęć satelitarnych 2025 (Satellite Radiesthesia 2025) (pl->EN)",
+      "file": "translations/2026-10-11-radiestezja-ze-zdjec-satelitarnych-2025-wojtkowiak-pl.md",
+      "date": "2026-10-11",
+      "language": "pl",
+      "authors": [
+        "wojtkowiak"
+      ],
+      "source_url": "http://www.torsionfield.eu/wordpress/wp-content/uploads/2025/12/05-Radiestezja-ze-zdj%C4%99%C4%87-stelitarnych-2025.pdf",
+      "themes": [
+        "Radiesthesia"
+      ],
+      "concepts": [
+        "satellite-radiesthesia",
+        "tectonic-faults",
+        "iga-1-device",
+        "radiesthetic-grid"
+      ],
+      "key_claims": [
+        "Diana Wojtkowiak (Gdańsk 2025) — radiesthetic surveying from satellite photographs: tectonic faults, threefold densified radiesthetic grids, measurements with the IGA-1 device (Yuri Kravchenko, Ufa) and colour summator."
+      ],
+      "cross_refs": [],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-proektivnaya-kartina-mirozdaniya-shashlov-ru",
+      "title": "В.А. Шашлов - Проективная картина мироздания (The Projective Picture of the Universe) (ru->EN)",
+      "file": "translations/2026-10-11-proektivnaya-kartina-mirozdaniya-shashlov-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "shashlov"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/02311118.htm",
+      "themes": [
+        "Cosmology",
+        "Unified Theory"
+      ],
+      "concepts": [
+        "projective-space",
+        "structure-of-the-universe",
+        "shashlov"
+      ],
+      "key_claims": [
+        "V.A. Shashlov (trinitas 02311118) — a new concept of the structure of the Universe whose principal element is projective space."
+      ],
+      "cross_refs": [],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-principles-registering-non-electromagnetic-field-melnik-ru",
+      "title": "О принципах регистрации неэлектромагнитного поля (On the principles of registering a non-electromagnetic field) (ru->EN)",
+      "file": "translations/2026-10-11-principles-registering-non-electromagnetic-field-melnik-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "melnik"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/02311116.htm",
+      "themes": [
+        "Torsion Fields",
+        "Instrumentation"
+      ],
+      "concepts": [
+        "non-electromagnetic-field",
+        "field-registration",
+        "information-transfer-channels"
+      ],
+      "key_claims": [
+        "I.A. Melnik (Institute of Vacuum Physics, trinitas 02311116) — principles of registering a non-electromagnetic field; definitions of two channels of information transfer."
+      ],
+      "cross_refs": [
+        "registraciya-polya-vrashchayushchiesya-obekty-melnik-ru"
+      ],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-paradoksy-elektrodinamiki-tokamak-konstantinov-ru",
+      "title": "Парадоксы электродинамики, термоядерный синтез и туннельный эффект (Paradoxes of electrodynamics, thermonuclear fusion and the tunnel effect) (ru->EN)",
+      "file": "translations/2026-10-11-paradoksy-elektrodinamiki-tokamak-konstantinov-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "konstantinov-s-i"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/1145-ks.pdf",
+      "themes": [
+        "Electrodynamics",
+        "Nuclear Fusion"
+      ],
+      "concepts": [
+        "maxwell-electrodynamics",
+        "lorentz-gauge",
+        "tokamak",
+        "tunnel-effect"
+      ],
+      "key_claims": [
+        "S.I. Konstantinov (trinitas 1145-ks) — paradoxes of electrodynamics; argues for revising Maxwell's electrodynamics and abandoning the Lorentz gauge, with consequences for thermonuclear fusion and the tunnel effect."
+      ],
+      "cross_refs": [
+        "alternativa-elektromagnitnoy-teorii-sveta-etkin-ru",
+        "2026-10-11-does-schoer-engine-violate-laws-physics-etkin-ru"
+      ],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-ondes-de-forme-impact-perception-pruvost-fr",
+      "title": "Les ondes de forme : quel impact sur notre perception (fr->EN)",
+      "file": "translations/2026-10-11-ondes-de-forme-impact-perception-pruvost-fr.md",
+      "date": "2026-10-11",
+      "language": "fr",
+      "authors": [
+        "patrick-pruvost"
+      ],
+      "source_url": "https://www.bien-etre-geobiologie.fr/post/les-ondes-de-forme-quel-impact-sur-notre-perception",
+      "themes": [
+        "Radiesthesia",
+        "Geobiology"
+      ],
+      "concepts": [
+        "ondes-de-forme",
+        "shape-waves",
+        "perception",
+        "health"
+      ],
+      "key_claims": [
+        "Patrick Pruvost (bien-etre-geobiologie.fr, 2025) — shape waves as energies or vibrations emitted by objects; their influence on perception and health."
+      ],
+      "cross_refs": [
+        "ondes-de-forme-centre-ganesha-fr-en"
+      ],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-ny-metod-se-vattnets-inre-mikroskopiska-struktur-uu-se-sv",
+      "title": "Ny metod för att se vattnets inre mikroskopiska struktur (New method for seeing water's internal microscopic structure) (sv->EN)",
+      "file": "translations/2026-10-11-ny-metod-se-vattnets-inre-mikroskopiska-struktur-uu-se-sv.md",
+      "date": "2026-10-11",
+      "language": "sv",
+      "authors": [],
+      "source_url": "https://www.uu.se/institution/fysik-och-astronomi/forskning/kemisk-och-biomolekylar-fysik/nyheter/arkiv/2025-11-19-ny-metod-for-att-se-vattnets-inre-mikroskopiska-struktur",
+      "themes": [
+        "Water Structure",
+        "Mainstream Science"
+      ],
+      "concepts": [
+        "water-structure",
+        "microscopy",
+        "uppsala-university"
+      ],
+      "key_claims": [
+        "Uppsala University news (2025-11-19) — new method for seeing water's internal microscopic structure (chemical and biomolecular physics)."
+      ],
+      "cross_refs": [
+        "2026-10-11-waterstructuur-nmr-ft-ir-water-and-light-nl"
+      ],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-new-method-movement-cosmic-space-4d-gyroscope-shipov-ru",
+      "title": "On a new method of movement in cosmic space (Shipov, ru->EN)",
+      "file": "translations/2026-10-11-new-method-movement-cosmic-space-4d-gyroscope-shipov-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "shipov"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008b/1162-shp.pdf",
+      "themes": [
+        "Torsion Physics",
+        "Propulsion"
+      ],
+      "concepts": [
+        "4d-gyroscope",
+        "inertial-propulsion",
+        "space-drive",
+        "shipov"
+      ],
+      "key_claims": [
+        "Shipov G.I. (trinitas 1162-shp) — a new method of movement in cosmic space; the low efficiency and danger of rocket propulsion motivates torsion/gyroscopic drives."
+      ],
+      "cross_refs": [
+        "2026-10-11-negolonomnaya-mekhanika-dekarta-4d-giroskop-shipov-ru",
+        "2026-10-11-explanation-tolchin-inertioid-motion-nonholonomic-mechanics-shipov-ru",
+        "polya-inertsii-anomalnye-eksperimenty-shipov-ru"
+      ],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-negolonomnaya-mekhanika-dekarta-4d-giroskop-shipov-ru",
+      "title": "Неголономная механика Декарта. Экспериментальное исследование пространственно-временной нутации 4D гироскопа (Nonholonomic Mechanics of Descartes: 4D gyroscope nutation) (ru->EN)",
+      "file": "translations/2026-10-11-negolonomnaya-mekhanika-dekarta-4d-giroskop-shipov-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "shipov"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/1146-shp.pdf",
+      "themes": [
+        "Torsion Physics",
+        "Mechanics"
+      ],
+      "concepts": [
+        "nonholonomic-mechanics",
+        "descartes",
+        "4d-gyroscope",
+        "space-time-nutation"
+      ],
+      "key_claims": [
+        "Shipov G.I. (trinitas 1146-shp) — Nonholonomic Mechanics of Descartes; experimental study of the space-time nutation of a 4D gyroscope."
+      ],
+      "cross_refs": [
+        "2026-10-11-new-method-movement-cosmic-space-4d-gyroscope-shipov-ru",
+        "2026-10-11-explanation-tolchin-inertioid-motion-nonholonomic-mechanics-shipov-ru",
+        "2026-10-11-euler-lacked-newton-intuition-stagnation-shipov-ru"
+      ],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-information-induction-radioactive-decay-krasnikov-ru",
+      "title": "Метод «информационной индукции» как инструмент управления процессом радиоактивного распада (The Method of Information Induction as a Tool for Controlling Radioactive Decay) (ru->EN)",
+      "file": "translations/2026-10-11-information-induction-radioactive-decay-krasnikov-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "krasnikov-i-i"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/1112-krs.pdf",
+      "themes": [
+        "Consciousness Studies",
+        "Nuclear Physics"
+      ],
+      "concepts": [
+        "information-induction",
+        "radioactive-decay",
+        "intentionality"
+      ],
+      "key_claims": [
+        "I.I. Krasnikov (trinitas 1112-krs) — results of a study of the 'information induction' method as a tool for controlling the process of radioactive decay."
+      ],
+      "cross_refs": [],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-euler-lacked-newton-intuition-stagnation-shipov-ru",
+      "title": "Когда Эйлеру не хватило интуиции Ньютона, в физике возникает застой (When Euler lacked Newton's intuition, stagnation arose in physics) (ru->EN)",
+      "file": "translations/2026-10-11-euler-lacked-newton-intuition-stagnation-shipov-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "shipov"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/1135-shp.pdf",
+      "themes": [
+        "Torsion Physics",
         "History of Science"
       ],
       "concepts": [
-        "cold-fusion",
-        "lenr",
-        "institutional-return",
-        "reference-experiment",
-        "electrochemical-loading",
-        "thunderbird-reactor",
-        "transmutation",
-        "excess-heat",
-        "mechanism-debate",
-        "commercialization"
+        "euler",
+        "newton",
+        "inertia",
+        "stagnation-in-physics"
       ],
       "key_claims": [
-        "Cold fusion's return was institutional, not garage-driven: Google 2015-2019 null result published as a Nature Perspective calling for a reference experiment; NASA Glenn Lattice Confinement Fusion 2020; the call answered in Nature itself by UBC's Thunderbird Reactor (Aug 2025), whose team lead co-authored the 2019 call",
-        "The return changed the evidentiary standard: 1989 offered heat and was destroyed for it; 2025 delivered neutrons on camera at room temperature in Nature, with the energy books explicitly in deficit",
-        "A commercial rim (Cool Fusion + Clean Planet Japan, HYLENR India, ENG8/PRIO Portugal, Prometheus Italy) is building heaters in the open, becoming the field's fourth shelter type after national labs (ENEA, Hokkaido/Osaka, Prokhorov Institute) - company-reported numbers, not independently replicated",
-        "The mechanism floor holds at least six incompatible theories for one anomaly (Storms nanocracks, Takahashi TSC, Jaitner condensed plasmoids, Rukhadze-Grachev plasma-optical, Lebedkin proton loops, NTNU cavitation) - the heterodox torsion/ether candidates carried one shelf over in the rotational-ether synthesis",
-        "Convergent claim across barely-cross-citing traditions: loading is the operative variable (F&P electrolysis, ENEA gas loading, Storms D/Pd>=0.9, Thunderbird 1V=800atm) - Thunderbird promoted the control knob from heterodox parameter to Nature-published effect"
+        "Shipov G.I. (trinitas 1135-shp, shipov-vacuum.com) — when Euler lacked Newton's intuition, stagnation arose in physics; the historical roots of the inertia problem."
       ],
       "cross_refs": [
-        "2026-10-07-resultado-mas-claro-fusion-fria-madrid-elpais-es",
-        "2026-10-10-fusione-nucleare-fredda-cold-fusion-italian-wikipedia-it",
-        "2026-10-04-unbeachtete-forschung-kalte-fusion-lietz-de",
-        "2026-10-08-ich-habe-pons-getoetet-epstein-akten-kalte-fusion-legitim-de",
-        "fusione-fredda-storia-ricerca-italia-enea-it",
-        "2026-10-12-revisiting-cold-case-cold-fusion-nature-2019-en",
-        "2026-10-12-electrochemical-loading-deuterium-fusion-nature-en",
-        "2026-10-09-alter-streit-kalter-kernfusion-ingenieur-de",
-        "2026-10-07-studena-fuze-lenr-navrat-zapovezene-energie-tomasg-cs",
-        "lenr-stove-prototype-coolfusion-mizuno-ja",
-        "cold-fusion-project-mizuno-ja",
-        "2026-10-08-cool-fusion-solid-state-nuclear-reaction-lenr-prtimes-ja",
-        "cold-fusion-frontier-2011-takahashi-ja",
-        "2026-10-08-cold-fusion-new-hydrogen-heater-forbes-japan-ja",
-        "2026-10-08-hylenr-pre-series-a-lenr-thermal-systems-prnasia-ko",
-        "2026-10-08-prio-testa-tecnologia-eng8-calor-industrial-sem-combustao-pt",
-        "prometheus-lenr-reactor-um30-it",
-        "2026-10-08-estudio-fusion-frio-storms-es",
-        "2026-09-28-lenr-in-russia-rukhadze-grachev-ru",
-        "2026-10-04-jaitner-kalte-fusion-lenr-kondensierte-plasmoide-de",
-        "sweeper-ru",
-        "condensed-matter-nuclear-science-zhang-zh",
-        "2026-10-06-cold-fusion-water-fuel-ntnu-cavitation-einfo-zh",
-        "synthesis-rotational-ether-vortex-torsion-lenr",
-        "2026-10-07-reazioni-nucleari-anomale-villani-it",
-        "2026-10-06-cold-fusion-song-of-ice-and-fire-survey-jishuzhan-zh"
+        "2026-10-11-problema-inertsii-zastoy-teoreticheskoy-fizike-shipov-ru",
+        "2026-10-11-negolonomnaya-mekhanika-dekarta-4d-giroskop-shipov-ru"
       ],
-      "source_url": "",
-      "file": "synthesis/2026-10-12-cold-fusion-second-look-institutional-return.md"
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-bio-it-memory-alzheimers-ichimura-ja",
+      "title": "BIO-IT Theory and Practice No. 93 - Memory and Alzheimer's Disease (ja->EN)",
+      "file": "translations/2026-10-11-bio-it-memory-alzheimers-ichimura-ja.md",
+      "date": "2026-10-11",
+      "language": "ja",
+      "authors": [
+        "takemi-ichimura"
+      ],
+      "source_url": "https://bio-it-water.com/93-study-conference2/",
+      "themes": [
+        "Water",
+        "Health"
+      ],
+      "concepts": [
+        "bio-it",
+        "water-information",
+        "memory",
+        "alzheimers-disease"
+      ],
+      "key_claims": [
+        "Takemi Ichimura (BIO-IT WATER Nexus) — 93rd BIO-IT Theory and Practice study meeting (Aug 2023): memory and Alzheimer's disease."
+      ],
+      "cross_refs": [],
+      "translated": true
+    },
+    {
+      "id": "2026-10-11-bezopornoe-dvizhenie-neskompensirovannaya-sila-ivchenkov-ru",
+      "title": "Bezopornoe dvizhenie kak rezultat neskompensirovannoy sily (Reactionless motion as a result of an uncompensated force) (ru->EN)",
+      "file": "translations/2026-10-11-bezopornoe-dvizhenie-neskompensirovannaya-sila-ivchenkov-ru.md",
+      "date": "2026-10-11",
+      "language": "ru",
+      "authors": [
+        "gennady-ivchenkov"
+      ],
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/1143-iv.pdf",
+      "themes": [
+        "Propulsion",
+        "Electrodynamics"
+      ],
+      "concepts": [
+        "reactionless-motion",
+        "uncompensated-force",
+        "electrodynamic-thruster",
+        "photonic-thruster"
+      ],
+      "key_claims": [
+        "Gennady Ivchenkov, Cand. of Tech. Sci. (trinitas 1143-iv) — reactionless ('unsupported') motion as a result of an uncompensated force; electrodynamic and photonic reactionless thrusters."
+      ],
+      "cross_refs": [
+        "2026-10-11-does-schoer-engine-violate-laws-physics-etkin-ru",
+        "2026-10-11-explanation-tolchin-inertioid-motion-nonholonomic-mechanics-shipov-ru"
+      ],
+      "translated": true
     }
   ],
   "last_updated": "2026-10-12",
