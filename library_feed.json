@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T02:37:06Z",
+  "generated_at": "2026-10-12T03:22:19Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -7,19 +7,19 @@
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 120656,
-    "translations": 612,
+    "translations": 614,
     "pages_translated": 13528,
     "declassified_finds": 209,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 726,
+    "translation_files": 728,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 612,
+      "translation_works": 614,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 13349,
+      "pages_translated_computed": 13365,
       "inherited": [
         "pages_translated"
       ],
@@ -64,10 +64,10 @@
     "replication_dossiers": 95,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T02:37:06Z",
+      "generated_at": "2026-10-12T03:22:19Z",
       "archive_entries": 121224,
       "aflinks_docs": 120656,
-      "translations": 612,
+      "translations": 614,
       "pages_translated": 13528,
       "declassified_finds": 209,
       "researchers": 1917,
@@ -91,6 +91,17 @@
     },
     {
       "date": "2026-10-12",
+      "title": "Water-molecule nanocluster formation at ultralow temperature (Korea University)",
+      "domain": "",
+      "source_url": "",
+      "language": "Korean",
+      "target_language": "English",
+      "file": "2026-10-12-water-molecule-nanocluster-ultralow-temperature-korea-university-ko.md",
+      "content_file": null,
+      "excerpt": "# Water-molecule nanocluster formation at ultralow temperature revealed for the first time\n\n*[Newsspace = reporter Kim Hye-ju] A joint research team led by Professor Dong-Joon Ahn of the Department of Chemical and Biolog"
+    },
+    {
+      "date": "2026-10-12",
       "title": "Теория физического вакуума как теория единого поля. Поле и силы инерции (ru->EN)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0231/008b/1189-shp.pdf",
@@ -110,6 +121,17 @@
       "file": "2026-10-12-shipov-vacuum-equations-new-paradigm-lobova-ru.md",
       "content_file": null,
       "excerpt": "Lobova M.A.\n\nShipov's Vacuum Equations and the New Scientific Paradigm\n\nThe history of the creation of Shipov's Vacuum Equations begins with his geometrization of the equations of Maxwell-Lorentz classical electrodynamic"
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Quantum Mechanics as the Dynamics of Field Gyroscopes (Shipov) (ru->EN)",
+      "domain": "",
+      "source_url": "",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-12-quantum-mechanics-dynamics-field-gyroscopes-shipov-ru.md",
+      "content_file": null,
+      "excerpt": "Shipov G.I.\n\nQUANTUM MECHANICS AS THE DYNAMICS OF FIELD GYROSCOPES\n\nIntroduction\n\nMost of the leading theoreticians who took part in the creation of quantum mechanics (Planck, Einstein, Schrödinger, Dirac and others) hel"
     },
     {
       "date": "2026-10-12",
@@ -28579,9 +28601,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-12T01:28:53Z",
+      "last_run": "2026-10-12T02:38:01Z",
       "last_status": "ok",
-      "last_summary": "sync: 121141 docs, feed rebuilt"
+      "last_summary": "sync: 121224 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -28695,6 +28717,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-12",
+      "time": "02:50",
+      "agent": "translator-foreign",
+      "summary": "+28 chunks — Shipov Quantum Mechanics as the Dynamics of Field Gyroscopes, trinitas ru to EN"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "02:45",
+      "agent": "translator-foreign",
+      "summary": "+1 chunks — Korean Newsspace report on Korea University water-molecule nanocluster study at ultralow temperature, ko to EN"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "02:37",
+      "agent": "AFLinks Sync",
+      "summary": "+121224 docs — +121224 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-12",
       "time": "02:12",
@@ -28982,24 +29022,6 @@
       "time": "13:27",
       "agent": "AFLinks Sync",
       "summary": "+120729 docs — +120729 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "13:25",
-      "agent": "Translation Sweeper",
-      "summary": "+43 chunks — Full translation of G.I. Shipov, An Author's Vision of the Post-Einstein Development of Fundamental Physics (trinitas.ru 1190-shp.pdf, 43 pp, ru->EN), completed from 12/43 to 43/43 and assembled; source PDF archived. A survey of the physical-vacuum program: geometrized electrodynamics, the field of inertia and Cartan torsion, the spinor-basis vacuum equations, derivation of the Schrodinger equation from the field of inertia, rotational relativity, Descartes nonholonomic mechanics, the Tolchin inertioid and 4D gyroscope, the scalar (Tesla) field and over-unity generators, and a closing polemic on the RAS pseudoscience commission. Also reconciled the manifest to 43/43."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "13:17",
-      "agent": "AFLinks Zenodo-RH Worker",
-      "summary": "zenodo-rh batch: 0 new docs, archive 120729"
-    },
-    {
-      "date": "2026-10-11",
-      "time": "12:58",
-      "agent": "Translation Curator",
-      "summary": "+2 docs — Overdrive: 2 full ru->EN translations from the trinitas.ru Institute of Vacuum Physics vein, both archived. (1) Shipov 'Stagnation in Fundamental Physics... General Theory of Relativity' (26 pp, 29/29) — rotational relativity, field of inertia, 4D gyroscope/inertioid. (2) Shipov & Lobova 'Scalar Radiation in Vacuum Electrodynamics' (35 pp, 29/29) — Tesla scalar field as field of inertia, single-wire transmission, cold plasma. Skipped trinitas 1107 (broken text layer, control-char Cyrillic)."
     },
     {
       "date": "2026-10-11",
@@ -30324,20 +30346,20 @@
     {
       "date": "2026-10-12",
       "kind": "translation",
+      "title": "Water-molecule nanocluster formation at ultralow temperature (Korea University)",
+      "excerpt": "# Water-molecule nanocluster formation at ultralow temperature revealed for the first time\n\n*[Newsspace = reporter Kim Hye-ju] A joint research team led by Prof",
+      "rarity": "fresh from Korean",
+      "href": "./library.html#trans-2026-10-12-water-molecule-nanocluster-ultralow-temperature-korea-university-ko.md",
+      "source_url": ""
+    },
+    {
+      "date": "2026-10-12",
+      "kind": "translation",
       "title": "Теория физического вакуума как теория единого поля. Поле и силы инерции (ru->EN)",
       "excerpt": "THEORY OF THE PHYSICAL VACUUM\n                  AS A UNIFIED FIELD THEORY.\n                       THE FIELD AND THE FORCES OF INERTIA\n                          ",
       "rarity": "fresh from Russian",
       "href": "./library.html#trans-2026-10-12-teoriya-fizicheskogo-vakuuma-edinogo-polya-shipov-ru.md",
       "source_url": "https://www.trinitas.ru/rus/doc/0231/008b/1189-shp.pdf"
-    },
-    {
-      "date": "2026-10-12",
-      "kind": "translation",
-      "title": "Вакуумные уравнения Шипова и новая научная парадигма (ru->EN)",
-      "excerpt": "Lobova M.A.\n\nShipov's Vacuum Equations and the New Scientific Paradigm\n\nThe history of the creation of Shipov's Vacuum Equations begins with his geometrization ",
-      "rarity": "fresh from Russian",
-      "href": "./library.html#trans-2026-10-12-shipov-vacuum-equations-new-paradigm-lobova-ru.md",
-      "source_url": "https://www.trinitas.ru/rus/doc/0231/008a/1083-lb.pdf"
     },
     {
       "date": "2026-10-12",
@@ -30418,6 +30440,17 @@
         "zh"
       ],
       "works": [
+        {
+          "date": "2026-10-12",
+          "title": "Water-molecule nanocluster formation at ultralow temperature (Korea University)",
+          "domain": "",
+          "source_url": "",
+          "language": "Korean",
+          "target_language": "English",
+          "file": "2026-10-12-water-molecule-nanocluster-ultralow-temperature-korea-university-ko.md",
+          "content_file": null,
+          "excerpt": "# Water-molecule nanocluster formation at ultralow temperature revealed for the first time\n\n*[Newsspace = reporter Kim Hye-ju] A joint research team led by Professor Dong-Joon Ahn of the Department of Chemical and Biolog"
+        },
         {
           "date": "2026-10-12",
           "title": "Ondes de forme et geometrie protectrice (fr->EN)",
@@ -30629,6 +30662,17 @@
           "file": "2026-10-09-vierter-aggregatzustand-wassers-pollack-nexus-de.md",
           "content_file": null,
           "excerpt": "Water might possess, alongside the aggregate states solid, liquid and gaseous, yet a fourth state form: an exclusion zone that is more viscous, more stable and more ordered than normal water. Inspired by Russian studies "
+        },
+        {
+          "date": "2026-10-09",
+          "title": "Twisting water — interfacial water molecule arrangement (de->EN)",
+          "domain": "",
+          "source_url": "https://www.fhi.mpg.de/2233162/2026-04-30_Twisting-water",
+          "language": "German",
+          "target_language": "English",
+          "file": "2026-10-09-twisting-water-interfacial-water-structure-fhi-de.md",
+          "content_file": null,
+          "excerpt": "English\n\nFritz Haber Institute of the Max Planck Society\n\nThe Water Twist\n\n30 April 2026\n\nResearchers in the Department of Physical Chemistry at the Fritz Haber Institute and the Freie Universität Berlin make visible the"
         },
         {
           "date": "2026-10-09",
@@ -33672,6 +33716,17 @@
           "file": "2026-10-12-shipov-vacuum-equations-new-paradigm-lobova-ru.md",
           "content_file": null,
           "excerpt": "Lobova M.A.\n\nShipov's Vacuum Equations and the New Scientific Paradigm\n\nThe history of the creation of Shipov's Vacuum Equations begins with his geometrization of the equations of Maxwell-Lorentz classical electrodynamic"
+        },
+        {
+          "date": "2026-10-12",
+          "title": "Quantum Mechanics as the Dynamics of Field Gyroscopes (Shipov) (ru->EN)",
+          "domain": "",
+          "source_url": "",
+          "language": "Russian",
+          "target_language": "English",
+          "file": "2026-10-12-quantum-mechanics-dynamics-field-gyroscopes-shipov-ru.md",
+          "content_file": null,
+          "excerpt": "Shipov G.I.\n\nQUANTUM MECHANICS AS THE DYNAMICS OF FIELD GYROSCOPES\n\nIntroduction\n\nMost of the leading theoreticians who took part in the creation of quantum mechanics (Planck, Einstein, Schrödinger, Dirac and others) hel"
         },
         {
           "date": "2026-10-12",
@@ -1307141,11 +1307196,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Risy NOTES 10 (fr->EN)",
-        "excerpt": "THE PRIMARY TORSION FIELDS IN THE HUMAN FORM FIELD The concept of the primary torsion field invites us to return to the study of the human form field dating from 2020, wh",
-        "meta": "French",
-        "rarity": "fresh from French",
-        "href": "./library.html#trans-2026-10-09-notes10-champs-torsion-primaires-champ-de-forme-humain-risy-fr.md"
+        "title": "Telekinezia la nivel molecular: cand apa isi aminteste de tine (ro->EN)",
+        "excerpt": "Chapter 75 from the book The Power That Moves Things — Psychotronics and Telekinesis · by Radu Leca. Table of contents of the book → Telekinesis, far from being an inexpl",
+        "meta": "Romanian",
+        "rarity": "fresh from Romanian",
+        "href": "./library.html#trans-2026-10-10-telekinezia-moleculara-apa-isi-aminteste-leca-ro.md"
       },
       {
         "drawer": "found",
@@ -1308855,10 +1308910,10 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T02:37:06Z",
+    "as_of": "2026-10-12T03:22:19Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
-      "translations": 515,
+      "translations": 517,
       "pages_translated": 11042,
       "declassified": 156,
       "researchers": 782,
