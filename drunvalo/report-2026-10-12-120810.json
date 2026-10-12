@@ -1,0 +1,34 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-12T12:08:10Z",
+  "summary": "village-quality-audit: 254 quests/27 guilds clean (0 malformed); translations es/fr/de full coverage 252/252 titles, 27/27 guilds, 98/98 i18n keys, 0 mojibake; master_quests 422 entries valid, 0 dup urls/titles; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 script refs; validators 5/5 PASSED; links 960 checked/933 OK - 27 failures all external noise (anti-bot 403s, burst 429s, transient timeouts), 0 actionable; no fixes needed, no village commit",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "cron": "village-quality-audit",
+    "quests": 254,
+    "guilds": 27,
+    "unique_titles": 252,
+    "translation_coverage": {
+      "es": "252/252",
+      "fr": "252/252",
+      "de": "252/252"
+    },
+    "i18n_keys": "98/98",
+    "mojibake": 0,
+    "master_quests_entries": 422,
+    "bb_markers": "60/60",
+    "validators": "5/5 PASSED",
+    "links": {
+      "checked": 960,
+      "ok": 933,
+      "http_err": 21,
+      "bad": 6,
+      "actionable": 0
+    },
+    "known_deferred": [
+      "Public Art + Organize a Swap in both Community Living.sand and Community.sand (two-cluster drift, deferred to restructuring pass)"
+    ],
+    "village_tip": "6bb19f0 (Village daily, no audit fixes needed)"
+  }
+}
