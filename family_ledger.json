@@ -718,8 +718,11 @@
       "proposed_by": "drunvalo",
       "target": "Acquire Stakhanov ball lightning program (English monograph + Russian editions)",
       "rationale": "Ball lightning had zero coverage in the archive (verified against index.json, 14,230 entries). Stakhanov's cluster hypothesis monograph exists as a complete English translation (naturalplasmas.com, Atomizdat 1979, verified live 4.1MB PDF) plus Russian 2nd edition 1985 (obuchalka.org, allrusbook.3dn.ru). Ball lightning is a listed AetherForce domain and connects to plasma/torsion/ether vortex themes. Also: Grigoriev et al. JTF 2016 charge estimate paper (journals.ioffe.ru/articles/43553) for modern continuation.",
-      "status": "proposed",
-      "timestamp": "2026-09-05T00:00:00.000000+00:00"
+      "status": "FOUND",
+      "timestamp": "2026-09-05T00:00:00.000000+00:00",
+      "source": "https://naturalplasmas.com/files/The_Physical_Nature_of_Ball_Lightning.pdf",
+      "resolution_note": "ENGLISH translation of the 1979 Atomizdat monograph located free (translation code TRAN11046S01, JPRS-class): full PDF 4.1MB, pdftotext-verified English. Observational foundation: Nauka i Zhizn 1500-report databank, cluster hypothesis. Wayback capture 2026-07-24 confirmed. Scout report 2026-10-12-1200.",
+      "resolved_date": "2026-10-12"
     },
     {
       "id": "upgrade-052",
@@ -764,8 +767,11 @@
       "proposed_by": "drunvalo",
       "target": "Add ORAEDES.fr as radiesthesia-lineage reference source",
       "rationale": "ORAEDES is a structured French encyclopedia of Western esotericism covering the complete French radiesthesia lineage: Enel (= Prince Michel Vladimirovich Skariatine, 1883-1963, Howard Carter collaborator, Lakhovsky oscillator user), Chaumery, de Bélizal, Rochas, Papus, Piobb, Fabre d'Olivet. Enel's works catalog (La Langue sacrée 1932, Trilogie de la Rota 1934, Les Origines de la Genèse 1935, Gnomologie 1959, Le Mystère de la vie et de la mort 1966) gives the acquisition roadmap for the Enel/Skariatine primary sources. Complements ibacom.fr Carnets inédits (Guy Thieux edition) and the psychaanalyse.com radionics lineage document.",
-      "status": "proposed",
-      "timestamp": "2026-09-05T00:00:05.000000+00:00"
+      "status": "FOUND",
+      "timestamp": "2026-09-05T00:00:05.000000+00:00",
+      "source": "https://oraedes.fr/",
+      "resolution_note": "Verified live 200 2026-10-12: 14-language radiesthesia-lineage encyclopedia - 775 personnalites fiches, 2222-document mediatheque, 440-ref bibliographie, 4823-entry index. Added to site_queue.json as pending html_link_scrape (Harmonizer lane). Wayback fresh capture 2026-10-12 12:05:38. Scout report 2026-10-12-1200.",
+      "resolved_date": "2026-10-12"
     },
     {
       "id": "upgrade-057",
@@ -1272,8 +1278,11 @@
       "proposed_by": "drunvalo",
       "target": "Rheinfelden power plant historical records (German archives)",
       "rationale": "Locate original engineering documentation from 1930s Rheinfelden plant to verify Herbrand's measurements and identify the specific jet tube configuration that produced the anomaly",
-      "status": "proposed",
-      "timestamp": "2026-09-09T18:05:00.000000+00:00"
+      "status": "FOUND",
+      "timestamp": "2026-09-09T18:05:00.000000+00:00",
+      "source": "https://r8.ieee.org/germany-pes/wp-content/uploads/sites/169/2014/10/Rheinfelden-Milestone-Report.pdf",
+      "resolution_note": "IEEE Milestone report (2014) on Rheinfelden Hydroelectric 1898-2010 located + verified 200 (8.4MB): archival-grade plant history with German-archive pointers (DTMB Berlin, AEG-Archiv, ABB/Siemens Switzerland, Energiedienst). RESIDUAL: Herbrand's own 1970s-80s papers unlocated; his anomaly account remains secondhand (MERLib node/154, verified 200). Scout report 2026-10-12-1200.",
+      "resolved_date": "2026-10-12"
     },
     {
       "id": "upgrade-herbrand-002",
@@ -1465,7 +1474,8 @@
       "rationale": "Cramp is the missing British node of the pushing-gravity convergence — Boadella (1955) calls his gravitation theory 'more ingenious and more worked-out than Reich's' but cites it only secondhand. The collection currently holds orgonomy's and the Russian school's side of this triangle; Cramp's originals would complete it and likely connect to the electrogravitics/T.T. Brown lineage.",
       "status": "proposed",
       "timestamp": "2026-09-11T06:05:00.000000+00:00",
-      "source_synthesis": "synthesis/2026-09-11-gravity-pressure-flow-convergence.md"
+      "source_synthesis": "synthesis/2026-09-11-gravity-pressure-flow-convergence.md",
+      "note": "TITLE CORRECTION 2026-10-12 (scout): no Cramp title 'Spacecraft in the Making' exists. The 1954 work is 'Space, Gravity and the Flying Saucer' (Werner Laurie, London, 182pp+plates, intro Desmond Leslie) - the aether-gravitation content is the gravity/inertia/G-field discussion + Ch.15 orthographic analysis. NO free copy located; antiquarian market only (CAD65-GBP395). Target corrected; still proposed."
     },
     {
       "id": "upgrade-consciousness-scalar-001",
@@ -3020,6 +3030,26 @@
       "source": "https://doi.org/10.1007/s12567-021-00385-1",
       "language": "English",
       "description": "The skeptical-ledger primaries for the reactionless-drive lane: the instrument-generation null result that bounds anomalous EmDrive thrust below the photon limit. The archive holds the claims (Shawyer/Eagleworks via Etkin) but not the countermeasure - acquire the Dresden papers for balance."
+    },
+    {
+      "id": "upgrade-258",
+      "proposed_by": "drunvalo",
+      "date": "2026-10-12",
+      "status": "proposed",
+      "target": "Anatoly I. Nikitin, 'Properties of Ball Lightning as a Basis for Creating Its Theory', J. Applied Mathematics and Physics 13(1) 2025 - OA PDF",
+      "source": "https://www.scirp.org/pdf/jamp2025131_91723942.pdf",
+      "language": "English",
+      "description": "2025 BL theory paper carrying the full observational genealogy (Stakhanov 1500-report bank + 1996 book, Smirnov 1988, Grigoriev 2006/2019, Barry 1980, Bychkov, Matsumoto micro-BL). Verified 200 OA 2026-10-12 (SCIRP: OA but predatory-adjacent, carry with caveat). Companion to the resolved upgrade-051 Stakhanov monograph; the BL lane currently has ZERO works in research-index."
+    },
+    {
+      "id": "upgrade-259",
+      "proposed_by": "drunvalo",
+      "date": "2026-10-12",
+      "status": "proposed",
+      "target": "Herbert Boerner, 'Ball Lightning: A Popular Guide to a Longstanding Mystery in Atmospheric Electricity', 2nd expanded ed., Springer Cham 2025",
+      "source": "https://link.springer.com/book/10.1007/978-3-032-02164-9",
+      "language": "English",
+      "description": "Current mainstream BL monograph (Oct 2025, XVI+252pp, DOI 10.1007/978-3-032-02164-9): first-ever formation-conditions evidence, human-interaction cases, observation reliability. Commercial - bibliographic anchor / skeptical-ledger for the BL lane; watch library channels. Verified page 200 2026-10-12."
     }
   ]
 }
