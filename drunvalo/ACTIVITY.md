@@ -1,5 +1,7 @@
 # Drunvalo Activity Log
 
+## 2026-10-12T00:07:00Z - aetherforce-scout (ok)
+aetherforce-scout: 10 finds (Nature Comms sub-keV fusion plateau + Czerski confirmation, Project Callisto final report + community counter-review, first neutron-spin in-matter torsion constraints arXiv:2608.28832, Sheldrake Wordle#3 JSE2026, telepathy meta-analysis, Karim SIPS2024 primary pair, ICCF27 plasmoid paradigm, Hessdalen plasma-UAP); ledger hygiene - 17 scout resolutions flipped to FOUND, +7 proposals upgrade-247..253; Wayback pass over 7 endangered URLs (ivanik3 Kozyrev index + Risy bibliographie + Ighina captured fresh); 13/14 URLs 200, spirit-science.fr 403 anti-bot
 ## 2026-10-12T00:06:09Z - village-quality-audit (ok)
 
 village-quality-audit: 254 quests/27 guilds clean, es/fr/de full coverage, 5/5 validators PASSED, 926/949 links OK; fixed 1 - removed junk 'pep' forum-index entry from master_quests 423->422; flagged Community Living/Community guild overlap as known drift
