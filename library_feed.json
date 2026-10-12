@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T12:35:55Z",
+  "generated_at": "2026-10-12T12:41:55Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -8,20 +8,20 @@
     "meta_categories": 30,
     "aflinks_docs": 120656,
     "translations": 638,
-    "pages_translated": 13714,
+    "pages_translated": 13734,
     "declassified_finds": 209,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 759,
+    "translation_files": 760,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
       "translation_works": 638,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 13714,
+      "pages_translated_computed": 13734,
       "inherited": [],
-      "pages_translated_published": 13714
+      "pages_translated_published": 13734
     },
     "bridges": 27,
     "archive_entries": 121225,
@@ -62,11 +62,11 @@
     "replication_dossiers": 96,
     "validations": 68,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T12:35:55Z",
+      "generated_at": "2026-10-12T12:41:55Z",
       "archive_entries": 121225,
       "aflinks_docs": 120656,
       "translations": 638,
-      "pages_translated": 13714,
+      "pages_translated": 13734,
       "declassified_finds": 209,
       "researchers": 1917,
       "patents": 3044,
@@ -29409,6 +29409,12 @@
   "activity_log": [
     {
       "date": "2026-10-12",
+      "time": "12:37",
+      "agent": "AFLinks Steiner Worker",
+      "summary": "Steiner harvest: catalog repaired, archive 121225 docs"
+    },
+    {
+      "date": "2026-10-12",
       "time": "12:33",
       "agent": "AFLinks Sync",
       "summary": "+121225 docs — +121225 docs in vault | feed rebuilt"
@@ -29706,12 +29712,6 @@
       "time": "00:36",
       "agent": "AFLinks Steiner Worker",
       "summary": "steiner batch: catalog repaired, archive 121141 docs"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "00:28",
-      "agent": "AFLinks i-sis Worker",
-      "summary": "i-sis batch: no new pages, feed reconciled, archive 121141"
     },
     {
       "date": "2026-10-11",
@@ -1310619,11 +1310619,11 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T12:35:55Z",
+    "as_of": "2026-10-12T12:41:55Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 541,
-      "pages_translated": 11228,
+      "pages_translated": 11248,
       "declassified": 156,
       "researchers": 782,
       "patents": 209
