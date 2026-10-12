@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-content-growth",
-    "timestamp": "2026-10-12T08:17:06Z",
+    "cron": "village-maintenance",
+    "timestamp": "2026-10-12T12:06:00Z",
     "status": "ok",
-    "summary": "village-content-growth: crawl 499 pages zero mergeable (forum renders again, artifact restored); library +3 vetted resources (Natural Homes, Homestead and Chill, Common Sense Home); filled last missing data-i18n key es/fr/de; validators 5/5; links 933/957 OK (failures all external noise)"
+    "summary": "village-maintenance: links 960 checked 935 ok, 25 failures all external noise 14 index-facing re-verified non-actionable; pool extended 12 vetted entries; 2 library resources added The Land Institute and On Pasture; validators 5/5"
   },
-  "job": "village-content-growth",
+  "job": "village-maintenance",
   "status": "ok",
   "persons": 554,
   "works": 784,
   "notes": "village-content-growth: permies crawl 499 pages, zero genuinely new BBs (refresh candidates all forum-chrome noise, not merged; scrape artifact restored). Library +3 vetted resources (all curl-200 + title-verified, absent from index): Verge Permaculture cold-climate permaculture, Down to Earth Design/Sigi Koko natural building, Melissa K. Norris homesteading & preservation. Rejected: paulsellers 403, oasisdesign bot-interstitial, midwestpermaculture 202-interstitial, nativeseeds/mortiseandtenon 429. Merged 4 duplicate library category pairs (Natural Building, Food Preservation, Woodworking, Homesteading): 25->21 categories, 12 duplicate links folded, all 260 unique hrefs preserved. Translations full coverage maintained (252/252 titles es/fr/de). Validators 5/5. Link check 952 URLs / 931 OK (21 failures all external noise). Concurrent-push collision with quality-audit cron resolved via rebase + link-report regeneration. Village commit c79a1b5 remote-verified.",
   "runs": [
-    {
-      "cron": "village-quality-audit",
-      "timestamp": "2026-10-12T00:06:09Z",
-      "status": "ok",
-      "summary": "village-quality-audit: 254 quests/27 guilds clean, es/fr/de full coverage, 5/5 validators PASSED, 926/949 links OK; fixed 1 - removed junk 'pep' forum-index entry from master_quests 423->422; flagged Community Living/Community guild overlap as known drift"
-    },
     {
       "cron": "aetherforce-scout",
       "timestamp": "2026-10-12T00:07:00Z",
@@ -71,7 +65,13 @@
       "timestamp": "2026-10-12T08:17:06Z",
       "status": "ok",
       "summary": "village-content-growth: crawl 499 pages zero mergeable (forum renders again, artifact restored); library +3 vetted resources (Natural Homes, Homestead and Chill, Common Sense Home); filled last missing data-i18n key es/fr/de; validators 5/5; links 933/957 OK (failures all external noise)"
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-12T12:06:00Z",
+      "status": "ok",
+      "summary": "village-maintenance: links 960 checked 935 ok, 25 failures all external noise 14 index-facing re-verified non-actionable; pool extended 12 vetted entries; 2 library resources added The Land Institute and On Pasture; validators 5/5"
     }
   ],
-  "timestamp": "2026-10-12T08:17:06Z"
+  "timestamp": "2026-10-12T12:06:00Z"
 }
