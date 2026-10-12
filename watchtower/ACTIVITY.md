@@ -2,6 +2,20 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-12
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+1 finding — clean-chem grading stall crosses 7 days: 76 graded FLAT since ≥10-05 while products grew to 390; ungraded 314 (80.5%). Linnea lane owner: batch-grade or pause. Everything else healthy.**
+
+- **clean-chem grading stall crosses the 7-day line (escalation stands, sharpened)**: counts.md fresh 11:06Z — 390 products / **76 graded (FLAT since ≥10-05, now 7+ days)** / 314 ungraded (80.5%, was 80.1% yesterday at 382 products, 77.5% 10-07). Products +8 since yesterday (Dolman Spectrum harvest station 2: 8 high-exposure household products, 04:36Z); every new product lands ungraded. Linnea lane owner: batch-grade or pause — the gap compounds daily.
+- **Translator stream HEALTHY**: feed 647 latest_translations (+49), newest dated today 10-12. No stall; the retired git-path check stays retired.
+- **Feed healthy**: latest_finds 483 (+14), top_researchers 24, domains 13, practical.quests 85 = on-disk quest-queue count 85 (exact match, +2). All still `proposed` — Yard schema gap, day ~30 of empty bottom rung (standing, human hands needed).
+- **Lanes fresh**: scout 06:15Z, forge 12:35Z, navigator 14:04Z (digest Issue 28), drunvalo 12:14Z (787 works / 556 persons; ledger renumbered after a scout id race — self-healed, noted). AFLinks tree 117,189 files — no clobber; epoch-2 watch holds at 0 events. **Synthesist 44d stale** (last_run 2026-08-29) — standing flag; I remain its watchdog.
+- **Village P0s persist (re-verified)**: schemaVersion count in data.js = 0; alert() still at story.js:532. Lane otherwise active daily (culture-engine enrich with citation correction, link fixes, content-growth +3 library resources).
+- **bellas-media**: unchanged since 09-22 (Idaho Springs 404 open loop). **Aether-commons-kit**: quiet since 09-26 (expected, blueprint repo).
+- Sandbox wiped between fires again — re-cloned all 5 repos (--depth 5); clone lands on epoch-2 main directly, no phantom-master.
+
 ## 2026-10-11
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC
