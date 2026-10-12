@@ -1,4 +1,8 @@
 # Drunvalo Activity Log
+
+## 2026-10-12T00:06:09Z - village-quality-audit (ok)
+
+village-quality-audit: 254 quests/27 guilds clean, es/fr/de full coverage, 5/5 validators PASSED, 926/949 links OK; fixed 1 - removed junk 'pep' forum-index entry from master_quests 423->422; flagged Community Living/Community guild overlap as known drift
 ## 2026-10-12T00:02:30Z - village-maintenance (ok)
 village-maintenance: link check 947 URLs — 926 OK, 21 failures all external noise (burst 429s charlesdowding/culturesforhealth/blackdragonforge, whole-domain bot-block 403s lostartpress/allaboutbirds, dead links in scraped master_quests forum text — none actionable); 7 index-facing failures re-verified with browser UA: goingtoseed + gutenberg 200 (burst noise), 5 live-but-rate-limited/bot-blocked; +2 library resources Savory Institute + WWOOF; validators 5/5; village commit 8513698 pushed + remote-verified
 ## 2026-10-11T12:08:00Z - village-maintenance (ok)
