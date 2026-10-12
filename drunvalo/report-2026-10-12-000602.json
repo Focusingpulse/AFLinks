@@ -1,0 +1,43 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-12T00:06:02Z",
+  "summary": "village-quality-audit: 254 quests/27 guilds clean, es/fr/de full coverage, 5/5 validators PASSED, 926/949 links OK; fixed 1 - removed junk 'pep' forum-index entry from master_quests (423->422); flagged Community Living/Community guild overlap as known drift",
+  "status": "ok",
+  "files_modified": [
+    "master_quests.json",
+    "village-link-report.md"
+  ],
+  "details": {
+    "cron": "village-quality-audit",
+    "quests_checked": 254,
+    "guilds": 27,
+    "master_quests_entries": 422,
+    "translations": {
+      "es": "252/252 titles, 27/27 guilds, 0 mojibake",
+      "fr": "252/252 titles, 27/27 guilds, 0 mojibake",
+      "de": "252/252 titles, 27/27 guilds, 0 mojibake"
+    },
+    "index_html": "0 parse errors, 15/15 local refs present",
+    "validators": "5/5 PASSED (12 known heuristic false-positive warnings)",
+    "links": {
+      "checked": 949,
+      "ok": 926,
+      "failures": 23,
+      "note": "all failures external scraped-text noise (429 burst, 403 anti-bot, dead external) - not fixed by design"
+    },
+    "cross_reference": "60/60 BB markers resolve to master_quests badge slugs",
+    "issues_found": 2,
+    "issues_fixed": 1,
+    "fixes": [
+      "removed junk 'pep' forum-index entry (permies.com/f/178/, 12 tasks of forum chrome) from master_quests.json 423->422"
+    ],
+    "flagged_not_fixed": [
+      "Community Living vs Community guild overlap: 'Public Art' and 'Organize a Swap' exist in both guilds' sand tiers (near-identical wording) - two-cluster drift class, left for deliberate restructuring pass"
+    ],
+    "village_commits": [
+      "741a730",
+      "f76b3ce"
+    ],
+    "integrity_score": "97.6% links OK; 100% structural checks passed"
+  }
+}
