@@ -179781,5 +179781,36 @@
     "content_preview": "Indirect Prompt Injection in Autonomous LLM Agents Zohaib Muaz University of Agriculture, Faisalabad Citation Format: IEEE | Date: September 11, 2026 Abstract Autonomous Large Language Model (LLM) agents are increasingly vulnerable to indirect prompt injection (IPI) attacks, where adversarial instructions embedded in external data sources manipulate agent behavior without direct user input [1], [2]. These external data can originate from user documents, web retrieval results, or API outputs, leading to unauthorized compliance, sensitive information disclosure, identity spoofing, and cross-agent propagation of unsafe practices [1], [2]. This review synthesizes current research on IPI vulnerabilities and proposed mitigation strategies. Key attack vectors include manipulating webpage HTML via adversarial triggers for web agents [3], [4], poisoning agent skills with tampered content [5], and injecting malicious commands into cloud logs processed by debugging agents [6]. Covert attacks, which execute malicious actions without user-perceptible traces, pose a particularly insidious threat [7]. Existing defenses, such as SecAlign's preference optimization [1], StruQ's structured queries [8], and multilayered zero-trust architectures [2], show promise. More advanced frameworks like ClawGuard enforce user-confirmed rule sets at tool-call boundaries [9], while ZEDD detects semantic shifts in embedding space for zero-shot detection [10]. However, current guardrails often fail against sophisticated, adaptive attacks [11], [6], and frameworks like AgentVigil [12] and MUZZLE [4] demonstrate high success rates in red-teaming exercises. The UReCoM attack further highlights vulnerabilities where benign users unknowingly relay adversarial content, bypassing existing defenses [13]. The pervasive nature and increasing sophistication of IPI necessitate robust, behavior-grounded evaluation metrics [14] and unified defense mechanisms to secure autonomous LLM agents in complex, untrusted en",
     "last_modified": "2026-10-11",
     "source_site": "viXra_org"
+  },
+  {
+    "id": 2470968,
+    "filename": "2610.0045v1.pdf",
+    "title": "2610.0045v1",
+    "type": "document",
+    "extension": ".pdf",
+    "size_bytes": 0,
+    "source_url": "https://vixra.org/pdf/2610.0045v1.pdf",
+    "categories": [
+      "Energy",
+      "Patents",
+      "Electromagnetism",
+      "Quantum & Relativity",
+      "Alternative Physics",
+      "Conspiracy / Politics",
+      "Environment / Climate"
+    ],
+    "meta_categories": [
+      "Alternative Energy Technologies",
+      "Patents & Inventions",
+      "Electromagnetic Theory",
+      "Challenges to the Standard Model",
+      "Geopolitics & Hidden History",
+      "Environment & Climate"
+    ],
+    "patent_numbers": [],
+    "primary_person": "",
+    "content_preview": "Einstein-Cartan electrodynamics: physical four-potential, geometric photon mass, and axial spin coupling Renato Vieira dos Santos ∗ Instituto de Ciência, Tecnologia e Inovação – ICTIN, Universidade Federal de Lavras – UFLA, Campus Paraíso, MG 37950-000, Brazil (Dated: October 11, 2026) If the electromagnetic four-potential is a physical field rather than a gauge class, its irrotational component is physical as well, and the geometry of spacetime can respond to it directly. We develop the consequences of this reading in the context of Einstein-Cartan gravity at the classical level. Imposing metric compatibility and linear dependence of the affine connection on the potential, we derive a unique one-parameter extension of the Levi-Civita connection. The resulting torsion is purely axial, and its Ricci p scalar contributes a term +6λ2 Aµ Aµ that generates Proca electrodynamics with photon mass mγ = 3/(4π) λMPl , where λ is a dimensionless coupling. The same coupling also produces a universal spin-dependent force on matter and an axial-vector coupling to fermions. Because a single parameter controls all four observable sectors, the four sectors are correlated by construction, and the correlation is a signature of the geometric mechanism. We verify that the construction does not generate parity violation in the vacuum propagation of photons, and we confront the framework with laboratory, astrophysical, and cosmological bounds. The solar-wind bound on the photon mass forces λ ≲ 2 × 10−46 , which replaces the unexplained smallness of the photon mass by an unexplained smallness of the geometric coupling. We emphasize that the paper is a classical study; the quantization of the theory and its consequences for unitarity and for the cosmological abundance of longitudinal modes are left open. Three appendices contain the detailed derivations of the uniqueness of the connection, the Ricci scalar computation, and the spin-torsion force. Keywords: Einstein-Cartan gravity; axial tor",
+    "last_modified": "2026-10-12",
+    "source_site": "viXra_org"
   }
 ]
