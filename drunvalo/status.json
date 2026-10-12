@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-maintenance",
-    "timestamp": "2026-10-12T12:06:00Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-12T12:07:03Z",
     "status": "ok",
-    "summary": "village-maintenance: links 960 checked 935 ok, 25 failures all external noise 14 index-facing re-verified non-actionable; pool extended 12 vetted entries; 2 library resources added The Land Institute and On Pasture; validators 5/5"
+    "summary": "translation-QC 12:00Z: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 3 + containment 3 candidates, 0 folds (all known no-fold families); 0 DB additions - Forge Oct-12 batch (24 works) fully covered by 04:00/06:00/08:00 runs; builder patched: same-file feed titles now refresh from curated DB titles (209 converge incl Chvanov fix); tag_concepts skipped (dead)"
   },
-  "job": "village-maintenance",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 554,
   "works": 784,
-  "notes": "village-content-growth: permies crawl 499 pages, zero genuinely new BBs (refresh candidates all forum-chrome noise, not merged; scrape artifact restored). Library +3 vetted resources (all curl-200 + title-verified, absent from index): Verge Permaculture cold-climate permaculture, Down to Earth Design/Sigi Koko natural building, Melissa K. Norris homesteading & preservation. Rejected: paulsellers 403, oasisdesign bot-interstitial, midwestpermaculture 202-interstitial, nativeseeds/mortiseandtenon 429. Merged 4 duplicate library category pairs (Natural Building, Food Preservation, Woodworking, Homesteading): 25->21 categories, 12 duplicate links folded, all 260 unique hrefs preserved. Translations full coverage maintained (252/252 titles es/fr/de). Validators 5/5. Link check 952 URLs / 931 OK (21 failures all external noise). Concurrent-push collision with quality-audit cron resolved via rebase + link-report regeneration. Village commit c79a1b5 remote-verified.",
+  "notes": "QC clean; builder title-refresh patch pushed; Forge Oct-12 batch already fully in DB.",
   "runs": [
-    {
-      "cron": "aetherforce-scout",
-      "timestamp": "2026-10-12T00:07:00Z",
-      "status": "ok",
-      "summary": "aetherforce-scout: 10 finds (Nature Comms sub-keV fusion plateau + Czerski confirmation, Project Callisto final report + community counter-review, first neutron-spin in-matter torsion constraints arXiv:2608.28832, Sheldrake Wordle#3 JSE2026, telepathy meta-analysis, Karim SIPS2024 primary pair, ICCF27 plasmoid paradigm, Hessdalen plasma-UAP); ledger hygiene - 17 scout resolutions flipped to FOUND, +7 proposals upgrade-247..253; Wayback pass over 7 endangered URLs (ivanik3 Kozyrev index + Risy bibliographie + Ighina captured fresh); 13/14 URLs 200, spirit-science.fr 403 anti-bot"
-    },
     {
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-12T00:08:30Z",
@@ -71,7 +65,13 @@
       "timestamp": "2026-10-12T12:06:00Z",
       "status": "ok",
       "summary": "village-maintenance: links 960 checked 935 ok, 25 failures all external noise 14 index-facing re-verified non-actionable; pool extended 12 vetted entries; 2 library resources added The Land Institute and On Pasture; validators 5/5"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-12T12:07:03Z",
+      "status": "ok",
+      "summary": "translation-QC 12:00Z: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 3 + containment 3 candidates, 0 folds (all known no-fold families); 0 DB additions - Forge Oct-12 batch (24 works) fully covered by 04:00/06:00/08:00 runs; builder patched: same-file feed titles now refresh from curated DB titles (209 converge incl Chvanov fix); tag_concepts skipped (dead)"
     }
   ],
-  "timestamp": "2026-10-12T12:06:00Z"
+  "timestamp": "2026-10-12T12:07:03Z"
 }
