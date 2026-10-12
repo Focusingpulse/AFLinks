@@ -1,0 +1,23 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-12T08:16:55Z",
+  "summary": "village-content-growth: crawl 499 pages zero mergeable (forum renders again, artifact restored); library +3 vetted resources (Natural Homes, Homestead and Chill, Common Sense Home); filled last missing data-i18n key es/fr/de; validators 5/5; links 933/957 OK (failures all external noise)",
+  "status": "ok",
+  "files_modified": [
+    "index.html",
+    "translations.js",
+    "village-link-report.md"
+  ],
+  "details": {
+    "crawl": "499 pages, 0 genuinely new BBs; 61 URL-missing all forum-render noise or known variants; 212 task diffs 100% forum chrome; scrape artifact restored via git checkout",
+    "library_additions": [
+      "naturalhomes.org (Natural Building)",
+      "homesteadandchill.com (Food Preservation)",
+      "commonsensehome.com (Homesteading)"
+    ],
+    "i18n": "The Games Shelf — built by the family added es/fr/de (was the only missing data-i18n key across all modules)",
+    "validators": "5/5 PASSED",
+    "links": "957 checked / 933 OK / 24 failures all external noise (anti-bot 403, burst 429, scraped-text dead links)",
+    "village_commit": "74f761e"
+  }
+}
