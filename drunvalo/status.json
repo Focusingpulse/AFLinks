@@ -1,10 +1,10 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-scout",
-    "timestamp": "2026-10-12T12:07:57Z",
+    "cron": "village-quality-audit",
+    "timestamp": "2026-10-12T12:08:10Z",
     "status": "ok",
-    "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
+    "summary": "village-quality-audit: 254 quests/27 guilds clean (0 malformed); translations es/fr/de full coverage 252/252 titles, 27/27 guilds, 98/98 i18n keys, 0 mojibake; master_quests 422 entries valid, 0 dup urls/titles; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 script refs; validators 5/5 PASSED; links 960 checked/933 OK - 27 failures all external noise (anti-bot 403s, burst 429s, transient timeouts), 0 actionable; no fixes needed, no village commit"
   },
   "job": "aetherforce-scout",
   "status": "ok",
@@ -12,12 +12,6 @@
   "works": 784,
   "notes": "QC clean; builder title-refresh patch pushed; Forge Oct-12 batch already fully in DB.",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-12T00:09:48Z",
-      "status": "ok",
-      "summary": "translation-qc: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed translation-mojibake 0, feed same-file 0); title-sim 9 candidates 0 folds (known no-fold families). Caught Forge's Oct-11 batch: +16 works (Shipov trinitas x3, Melnik non-EM field registration, Sandberg Searl generator, Kholodov+Goryachev beta-decay, Konstantinov electrodynamics paradoxes, Krasnikov information-induction decay, Ivchenkov reactionless motion, Shashlov projective universe, Wojtkowiak satellite radiesthesia, Zoeteman supersensory water, Water&Light NMR/FT-IR, Uppsala water microscopy, Pruvost ondes-de-forme, Ichimura BIO-IT Alzheimer's) + 10 persons + shipov/wojtkowiak/melnik links; URLs 16/16 live 200. COLLISION (stale-base): synthesis cron pushed 738->741 at 00:08Z while QC worked; three-way merged onto its base and re-pushed once. tag_concepts skipped (dead). 757 works / 527 persons."
-    },
     {
       "cron": "village-content-growth",
       "timestamp": "2026-10-12T00:20:11Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-12T12:07:57Z",
       "status": "ok",
       "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
+    },
+    {
+      "cron": "village-quality-audit",
+      "timestamp": "2026-10-12T12:08:10Z",
+      "status": "ok",
+      "summary": "village-quality-audit: 254 quests/27 guilds clean (0 malformed); translations es/fr/de full coverage 252/252 titles, 27/27 guilds, 98/98 i18n keys, 0 mojibake; master_quests 422 entries valid, 0 dup urls/titles; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 script refs; validators 5/5 PASSED; links 960 checked/933 OK - 27 failures all external noise (anti-bot 403s, burst 429s, transient timeouts), 0 actionable; no fixes needed, no village commit"
     }
   ],
-  "timestamp": "2026-10-12T12:07:57Z",
+  "timestamp": "2026-10-12T12:08:10Z",
   "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
 }
