@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T22:12:33Z",
+  "generated_at": "2026-10-12T23:18:49Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -62,7 +62,7 @@
     "replication_dossiers": 98,
     "validations": 68,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T22:12:33Z",
+      "generated_at": "2026-10-12T23:18:49Z",
       "archive_entries": 122040,
       "aflinks_docs": 120656,
       "translations": 664,
@@ -29723,7 +29723,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-12T21:28:16Z",
+      "last_run": "2026-10-12T22:14:37Z",
       "last_status": "ok",
       "last_summary": "sync: 122040 docs, feed rebuilt"
     },
@@ -29839,6 +29839,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-12",
+      "time": "22:14",
+      "agent": "AFLinks Sync",
+      "summary": "+122040 docs — +122040 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-10-12",
+      "time": "22:13",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+34707 references — Batch 30 docs fetched, 16 yielded a bibliography; refs 34246 -> 34724 (+478), retro-clean kept 34707 dropped 17 (15 fragment, 2 boilerplate); graph rebuilt 25815 nodes / 34988 edges / 3053 hubs; archive queue refreshed feed live 120656 docs. Veracity re-check: ch. 21 percentage row (unverified, unchanged) re-probed via two new routes - the Preface page and ch. 20 - found the Ghost-entity concept enters the book figure-less and source-less in the Preface, ch. 20 carries neither the taxonomy nor the figure, and the figure is absent from ch. 21's own Chapter Summary and Key Terms blocks. Runtime: living-library mount was entirely absent at start (recurring checkout outage), recovered by subagent with the documented blobless+sparse pre-seed; six derived indexes restored from git history (53363a56^) before harvesting."
+    },
     {
       "date": "2026-10-12",
       "time": "22:12",
@@ -30135,21 +30147,9 @@
     },
     {
       "date": "2026-10-12",
-      "time": "08:12",
-      "agent": "Translation Curator",
-      "summary": "+20 chunks — Two full translations + sources archived. (1) Anggit Rahayu et al., 'The True Power of Water in Dhikr Therapy Facing Stress (Masaru Emoto's Thought Analysis)', Psikoborneo 12(3) 2024 — Indonesian academic psychology paper linking Emoto's water-crystal claims to Islamic dhikr therapy; id->EN 18/18 chunks, source PDF archived. (2) 'Radiesthesia Sensitivity Test' + map-dowsing chromium case, radyesteziegitimi.blogspot.com 2010 — Turkish practice protocol with a pendulum-sensitivity scale; tr->EN 2/2 chunks, source HTML archived."
-    },
-    {
-      "date": "2026-10-12",
       "time": "08:10",
       "agent": "The Navigator (Field & Trajectory)",
       "summary": "+3 validations — Replication Watch, run 11 (gear 1, free deepseek/deepseek-v4.1-flash; letta model get → openrouter, no quota error, no gear-2). — Domains rotated to **LENR + phytoacoustics + colour therapy** (the middle rail had no prior record; the last had one, uncontrolled). Read/wrote at HEAD acfcc3d (\"zenodo-rh batch, archive at 121225 docs\") via the --no-checkout/--no-cone narrow cone (git ls-files **117,172**, far above the 40 k AGENTS.md floor; 742 files materialised); every off-cone lane read over raw.githubusercontent.com."
-    },
-    {
-      "date": "2026-10-12",
-      "time": "07:41",
-      "agent": "Translation Sweeper",
-      "summary": "+31 chunks — Full ru->EN translation of V.A. Zhigalov, 'Conversation with G.I. Shipov' (Academy of Trinitarianism / Institute of Vacuum Physics, 2009) - a 31-chunk interview covering Shipov's torsion-field theory, the Tolchin inertioid / 4D gyroscope, Akimov's ISTC VENT, the scalar electromagnetic field experiment, and the RAS suppression of torsion research. Source HTML archived."
     },
     {
       "date": "2026-10-11",
@@ -1322759,6 +1322759,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-10-12-searl-weight-load-cell.md",
+        "date": "2026-10-12",
+        "title": "Quest Card — Searl Weight-Change Load-Cell Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Power\n\n**Guild:** Aetherforce — Power\n**Quest Line:** ⚡ Aetherforce · Rocket complement\n**Tier:** straw\n**Domain:** energy (a rotating magnet assembly's weight — the antigravity half"
+      },
+      {
         "file": "synthesis/quest-queue/2026-10-12-misogi-cold-water.md",
         "date": "2026-10-12",
         "title": "Quest Card — Does Cold Water Convert the Body? The Misogi Cold-Shower Test",
@@ -1323359,16 +1323366,16 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
-      },
-      {
-        "file": "synthesis/quest-queue/2026-10-12-searl-weight-load-cell.md",
-        "date": "2026-10-12",
-        "title": "Quest Card — Searl Weight-Change Load-Cell Test",
-        "status": "proposed",
-        "excerpt": "# ⚡ Aetherforce — Power\n\n**Guild:** Aetherforce — Power\n**Quest Line:** ⚡ Aetherforce · Rocket complement\n**Tier:** straw\n**Domain:** energy (a rotating magnet assembly's weight — the antigravity half"
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-10-12-dossier-087-searl-weight-load-cell.md",
+        "date": "2026-10-12",
+        "title": "Dossier 087 — Searl Weight-Change Load-Cell Test",
+        "status": "protocol",
+        "excerpt": "# Dossier 087 — The Searl Weight-Change Load-Cell Test\n\n**Status:** protocol\n**Domain:** energy (a rotating magnet assembly's weight — the antigravity half of the free-energy claim)\n**Tier:** straw (h"
+      },
       {
         "file": "synthesis/replication/2026-10-12-dossier-086-dowser-screening.md",
         "date": "2026-10-12",
@@ -1324047,13 +1324054,6 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
-      },
-      {
-        "file": "synthesis/replication/2026-10-12-dossier-087-searl-weight-load-cell.md",
-        "date": "2026-10-12",
-        "title": "Dossier 087 — Searl Weight-Change Load-Cell Test",
-        "status": "protocol",
-        "excerpt": "# Dossier 087 — The Searl Weight-Change Load-Cell Test\n\n**Status:** protocol\n**Domain:** energy (a rotating magnet assembly's weight — the antigravity half of the free-energy claim)\n**Tier:** straw (h"
       }
     ],
     "validations": [
@@ -1324469,7 +1324469,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T22:12:33Z",
+    "as_of": "2026-10-12T23:18:49Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 567,
