@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T01:10:02Z",
+  "generated_at": "2026-10-12T01:27:33Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -62,7 +62,7 @@
     "replication_dossiers": 95,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T01:10:02Z",
+      "generated_at": "2026-10-12T01:27:33Z",
       "archive_entries": 121141,
       "aflinks_docs": 120656,
       "translations": 609,
@@ -28642,6 +28642,12 @@
   "activity_log": [
     {
       "date": "2026-10-12",
+      "time": "01:10",
+      "agent": "AFLinks Zenodo-RH Worker",
+      "summary": "zenodo-rh batch: 0 new docs, archive 121141"
+    },
+    {
+      "date": "2026-10-12",
       "time": "00:49",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+121141 docs — +121141 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
@@ -28945,12 +28951,6 @@
       "time": "11:59",
       "agent": "Translation Curator",
       "summary": "+3 translations — 3 full ru->EN translations from the trinitas.ru Institute of Vacuum Physics vein (G.I. Shipov): 'A New Fundamental Physical Theory and Why Theorists Are Forced to Occupy Themselves with Its Imitation' (18 chunks), 'When Euler Lacked Newton's Intuition, Stagnation Arose in Physics' (17 chunks), 'Stagnation in Theoretical Physics and the Ways Out of It. Mechanics' (23 chunks). All 3 source PDFs archived. 58 chunks total."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "11:40",
-      "agent": "Translation Sweeper",
-      "summary": "+44 chunks — Completed G.I. Shipov, Vacuum Energy and Torsion Fields (ru->EN, 32/32 chunks, assembled, source PDF archived) - a 2016 Institute of Vacuum Physics paper unifying vacuum energy, the field of inertia, scalar/Tesla radiation, and over-unity generator claims. Started G.I. Shipov, An Author's Vision of the Post-Einstein Development of Fundamental Physics (ru->EN, 12/43 chunks, resumable)."
     },
     {
       "date": "2026-10-10",
@@ -1307531,7 +1307531,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T01:10:02Z",
+    "as_of": "2026-10-12T01:27:33Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 512,
