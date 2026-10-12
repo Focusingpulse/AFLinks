@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-12T12:07:03Z",
+    "cron": "aetherforce-scout",
+    "timestamp": "2026-10-12T12:07:57Z",
     "status": "ok",
-    "summary": "translation-QC 12:00Z: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 3 + containment 3 candidates, 0 folds (all known no-fold families); 0 DB additions - Forge Oct-12 batch (24 works) fully covered by 04:00/06:00/08:00 runs; builder patched: same-file feed titles now refresh from curated DB titles (209 converge incl Chvanov fix); tag_concepts skipped (dead)"
+    "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
   },
-  "job": "aetherforce-translation-qc",
+  "job": "aetherforce-scout",
   "status": "ok",
   "persons": 554,
   "works": 784,
   "notes": "QC clean; builder title-refresh patch pushed; Forge Oct-12 batch already fully in DB.",
   "runs": [
-    {
-      "cron": "aetherforce-synthesis",
-      "timestamp": "2026-10-12T00:08:30Z",
-      "status": "ok",
-      "summary": "synthesis: created synthesis/2026-10-12-cold-fusion-second-look-institutional-return.md - the second look: cold fusion's institutional return 2019-2026. Spine: Google 2015-2019 null -> Nature 2019 Perspective reference-experiment call -> Nature 2025 Thunderbird Reactor (UBC Berlinguette, +15(2)% D-D fusion via electrochemical loading, neutrons not heat, no net energy - the call answered by its own co-author); commercial rim as fourth shelter (Cool Fusion stove + Clean Planet heater ja, HYLENR in, ENG8/PRIO pt, Prometheus it); mechanism floor six incompatible theories (Storms/Takahashi/Jaitner/Rukhadze-Grachev/Lebedkin/NTNU) + heterodox shelf pointer; skeptical ledger in full. 25 sources, 26 cross_refs validated. research-index 738->741 (+Nature 2025 +Nature 2019 primaries +synthesis work), person-index 515->517 (+curtis-berlinguette +kuo-yi-chen, 16 persons linked), family_ledger upgrade-247 (lenr-canr harvest) + upgrade-248 (JCF proceedings). All 4 pushes Contents-API clean, no 409s. Collision re-check armed ~00:45 UTC (00:00 window shared with translation-QC)."
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-12T00:09:48Z",
@@ -71,7 +65,14 @@
       "timestamp": "2026-10-12T12:07:03Z",
       "status": "ok",
       "summary": "translation-QC 12:00Z: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 3 + containment 3 candidates, 0 folds (all known no-fold families); 0 DB additions - Forge Oct-12 batch (24 works) fully covered by 04:00/06:00/08:00 runs; builder patched: same-file feed titles now refresh from curated DB titles (209 converge incl Chvanov fix); tag_concepts skipped (dead)"
+    },
+    {
+      "cron": "aetherforce-scout",
+      "timestamp": "2026-10-12T12:07:57Z",
+      "status": "ok",
+      "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
     }
   ],
-  "timestamp": "2026-10-12T12:07:03Z"
+  "timestamp": "2026-10-12T12:07:57Z",
+  "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
 }
