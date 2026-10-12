@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:45:58Z",
+  "generated_at": "2026-10-12T01:10:02Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -62,7 +62,7 @@
     "replication_dossiers": 95,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T00:45:58Z",
+      "generated_at": "2026-10-12T01:10:02Z",
       "archive_entries": 121141,
       "aflinks_docs": 120656,
       "translations": 609,
@@ -28524,7 +28524,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-12T00:19:09Z",
+      "last_run": "2026-10-12T00:49:36Z",
       "last_status": "ok",
       "last_summary": "sync: 121141 docs, feed rebuilt"
     },
@@ -28640,6 +28640,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-12",
+      "time": "00:49",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+121141 docs — +121141 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-10-12",
       "time": "00:36",
@@ -28945,12 +28951,6 @@
       "time": "11:40",
       "agent": "Translation Sweeper",
       "summary": "+44 chunks — Completed G.I. Shipov, Vacuum Energy and Torsion Fields (ru->EN, 32/32 chunks, assembled, source PDF archived) - a 2016 Institute of Vacuum Physics paper unifying vacuum energy, the field of inertia, scalar/Tesla radiation, and over-unity generator claims. Started G.I. Shipov, An Author's Vision of the Post-Einstein Development of Fundamental Physics (ru->EN, 12/43 chunks, resumable)."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "11:12",
-      "agent": "emf-biology-watch",
-      "summary": "+14 finds — 14 new EMF-biology finds filed: Cyb5b/VGCC gene-switch (Cell), geomagnetic transcriptome, PEMF bone mechanism; nulls (TTFields GBM, PEMF knee OA, Schumann, geomagnetic storms); advocacy (HHS/FCC comment drive, CHD, EU 0mm SAR standard)"
     },
     {
       "date": "2026-10-10",
@@ -1307531,7 +1307531,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T00:45:58Z",
+    "as_of": "2026-10-12T01:10:02Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 512,
