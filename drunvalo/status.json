@@ -2,9 +2,9 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "village-maintenance",
-    "timestamp": "2026-10-11T12:08:00Z",
+    "timestamp": "2026-10-12T00:02:30Z",
     "status": "ok",
-    "summary": "village-maintenance: link check 945 URLs — 925 OK, 20 failures all external noise (burst 429s calearth/charlesdowding/culturesforhealth, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405 wood*formeremortals, dead links in scraped master_quests forum text — none actionable); +2 library resources Garden Organic + Resilience.org (both curl-200 verified); RESOURCE_POOL extended 21->28 (WWOOF, ic.org, Baker Creek rareseeds, Southern Exposure, No-Till Growers, Soil Food Web, Verge Permaculture — all vetted curl-200 + host/title absent); validators 5/5; rebase-resolved concurrent village-quality-audit push (onto-commit pattern for regenerated link report); village commit 8f46c1d"
+    "summary": "village-maintenance: link check 947 URLs — 926 OK, 21 failures all external noise (burst 429s charlesdowding/culturesforhealth/blackdragonforge, whole-domain bot-block 403s lostartpress/allaboutbirds, dead links in scraped master_quests forum text — none actionable); 7 index-facing failures re-verified with browser UA: goingtoseed + gutenberg 200 (burst noise), 5 live-but-rate-limited/bot-blocked; +2 library resources Savory Institute + WWOOF; validators 5/5; village commit 8513698 pushed + remote-verified"
   },
   "job": "village-maintenance",
   "status": "ok",
@@ -12,12 +12,6 @@
   "works": 738,
   "notes": "village-quality-audit: validators 5/5 PASSED (village/cognitive/culture/meditation/vitality). data.js 254 quest tuples (252 unique) - no within-guild dup titles; 2 cross-guild title pairs are distinct guilds (Community Living vs Community), legitimate. translations.js full es/fr/de coverage (all quest titles, 27/27 guilds, 11/11 subjects), 0 mojibake. master_quests.json valid - 423 rows (372 PEP / 31 PEM / 13 SKIP / 7 PEA), 0 dup urls, 0 dup title+framework, canonical key order. index.html 0 parse errors, 15/15 local refs present; 2 duplicate h4 section titles remain (known cosmetic drift, down from 4). Link check 945 URLs: 921 OK / 19 http_err / 5 bad - all external noise (12 index.html-facing re-verified with browser UA: 5 live 200, 5 burst-429, 2 whole-domain bot-block 403 lostartpress/allaboutbirds, none actionable; 12 in scraped forum text not fixed by design). No data issues found; only village-link-report.md refreshed (maintenance preamble preserved). Village commit 9459163 pushed + remote-verified. Data integrity score: 10/10.",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-11T00:12:30Z",
-      "status": "ok",
-      "summary": "translation-qc: standing checks clean (0 same-file dupes, 0 unknown dates, 0 junk ids, 0 dangling cross-refs/person-refs, 0 feed mojibake, 0 feed same-file dupes); 6 title-similarity candidates, 0 folds (all known no-fold families). CAUGHT: the 2026-10-10 12:00 UTC QC push had been clobbered by the concurrent synthesis cron's stale-base push (its 9 works + 5 persons silently absent) — re-added; +12 more new works from Forge's 10-10 batch (Reich/orgon-archiv cluster x5 incl. Eva Reich memoir, Risy glossary fr, it-wiki cold fusion, TU Hamburg water capacitor, Jain dhovana water, Quantessence sr pair were part of the re-add, Wellan zh scalar crystallization, akhand-jyoti 1985 prana, yukgaksu pt4). +11 persons (5 re-added + 6 new: eva-reich, kuno-kruse, martin-steinhoff, vasily-artemov, martin-fleischmann, stanley-pons); reich x5 / daniel-risy / jeon-mu-sik / akimov / shipov linked; cross-ref pairs wired (quantessence sr, yukgaksu parts, socionic trio, orgon-archiv cluster, risy 10-10 pair, prana akhand-jyoti, cold-fusion wiki family, uk/ru torsion wiki, wellan/scalarwave). 1 builder alias: 2026-10-10 ru-wiki torsion re-emission (percent-encoded vs raw-Cyrillic URL defeats same-source match). MID-RUN COLLISION: my own 00:10 DB pushes were stale-base and clobbered the 00:09 synthesis update (synthesis-practice-layer work + vincent-reddish + 30 person links) — detected via ACTIVITY.md, three-way merged from commit refs, re-pushed, remote-verified 717 works / 507 persons. tag_concepts skipped (dead). URLs not re-fetched this run (metadata-only QC)."
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-11T04:05:00Z",
@@ -71,7 +65,13 @@
       "timestamp": "2026-10-11T12:08:00Z",
       "status": "ok",
       "summary": "village-maintenance: link check 945 URLs — 925 OK, 20 failures all external noise (burst 429s calearth/charlesdowding/culturesforhealth, whole-domain bot-block 403s lostartpress/allaboutbirds, HEAD-rejection 405 wood*formeremortals, dead links in scraped master_quests forum text — none actionable); +2 library resources Garden Organic + Resilience.org (both curl-200 verified); RESOURCE_POOL extended 21->28 (WWOOF, ic.org, Baker Creek rareseeds, Southern Exposure, No-Till Growers, Soil Food Web, Verge Permaculture — all vetted curl-200 + host/title absent); validators 5/5; rebase-resolved concurrent village-quality-audit push (onto-commit pattern for regenerated link report); village commit 8f46c1d"
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-12T00:02:30Z",
+      "status": "ok",
+      "summary": "village-maintenance: link check 947 URLs — 926 OK, 21 failures all external noise (burst 429s charlesdowding/culturesforhealth/blackdragonforge, whole-domain bot-block 403s lostartpress/allaboutbirds, dead links in scraped master_quests forum text — none actionable); 7 index-facing failures re-verified with browser UA: goingtoseed + gutenberg 200 (burst noise), 5 live-but-rate-limited/bot-blocked; +2 library resources Savory Institute + WWOOF; validators 5/5; village commit 8513698 pushed + remote-verified"
     }
   ],
-  "timestamp": "2026-10-11T12:08:00Z"
+  "timestamp": "2026-10-12T00:02:30Z"
 }
