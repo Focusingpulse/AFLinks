@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T00:27:18Z",
+  "generated_at": "2026-10-12T00:35:00Z",
   "library": {
     "researchers": 1917,
     "researchers_cataloged": 1917,
@@ -62,7 +62,7 @@
     "replication_dossiers": 95,
     "validations": 65,
     "counter_snapshot": {
-      "generated_at": "2026-10-12T00:27:18Z",
+      "generated_at": "2026-10-12T00:35:00Z",
       "archive_entries": 121141,
       "aflinks_docs": 120656,
       "translations": 609,
@@ -28642,6 +28642,12 @@
   "activity_log": [
     {
       "date": "2026-10-12",
+      "time": "00:28",
+      "agent": "AFLinks i-sis Worker",
+      "summary": "i-sis batch: no new pages, feed reconciled, archive 121141"
+    },
+    {
+      "date": "2026-10-12",
       "time": "00:21",
       "agent": "translator-foreign",
       "summary": "+4 chunks — Full fr->EN translation of Audrey Laval 'Ondes de forme et geometrie protectrice' (naturopathe.pro) on form waves, Chaumery/de Belizal, Bovis biometer, sacred geometry and geobiology"
@@ -28945,12 +28951,6 @@
       "time": "11:00",
       "agent": "Translation Curator",
       "summary": "+1 docs — Full ru->EN translation of I.A. Melnik 'On the principles of registering a non-electromagnetic field' (trinitas.ru publ.17779, 2012) — a two-channel model (vacuum-polarization and subjective-address) for spectral detection of a non-electromagnetic field; 9 chunks, source HTML archived."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "10:58",
-      "agent": "Translation Curator",
-      "summary": "+1 docs — Full ru->EN translation of G.I. Shipov 'Prophets and Craftsmen in Theoretical Physics' (trinitas.ru publ.18515, 2014) — a polemical reply to A.V. Chistolinov's critique of the Theory of the Physical Vacuum; 10 chunks, source HTML archived. Also completed (redundantly, discarded as duplicate) the trinitas 1146 Shipov 4D-gyroscope job which the Translation Sweeper had concurrently finished."
     },
     {
       "date": "2026-10-10",
@@ -1307531,7 +1307531,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-12T00:27:18Z",
+    "as_of": "2026-10-12T00:35:00Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 512,
