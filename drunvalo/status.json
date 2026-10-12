@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-quality-audit",
-    "timestamp": "2026-10-12T12:08:10Z",
+    "cron": "aetherforce-synthesis",
+    "timestamp": "2026-10-12T12:14:39Z",
     "status": "ok",
-    "summary": "village-quality-audit: 254 quests/27 guilds clean (0 malformed); translations es/fr/de full coverage 252/252 titles, 27/27 guilds, 98/98 i18n keys, 0 mojibake; master_quests 422 entries valid, 0 dup urls/titles; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 script refs; validators 5/5 PASSED; links 960 checked/933 OK - 27 failures all external noise (anti-bot 403s, burst 429s, transient timeouts), 0 actionable; no fixes needed, no village commit"
+    "summary": "created synthesis-water-metrology-wave-fifty-femtosecond-wall (26 sources); +3 works (787) +2 persons (556); 29 back-refs, 29 links; ledger upgrade-260/261 (renumbered after scout id race)"
   },
-  "job": "aetherforce-scout",
+  "job": "aetherforce-synthesis",
   "status": "ok",
-  "persons": 554,
-  "works": 784,
+  "persons": 556,
+  "works": 787,
   "notes": "QC clean; builder title-refresh patch pushed; Forge Oct-12 batch already fully in DB.",
   "runs": [
-    {
-      "cron": "village-content-growth",
-      "timestamp": "2026-10-12T00:20:11Z",
-      "status": "ok",
-      "summary": "village-content-growth: permies crawl 499 pages, zero genuinely new BBs (refresh candidates all forum-chrome noise, not merged; scrape artifact restored). Library +3 vetted resources (all curl-200 + title-verified, absent from index): Verge Permaculture cold-climate permaculture, Down to Earth Design/Sigi Koko natural building, Melissa K. Norris homesteading & preservation. Rejected: paulsellers 403, oasisdesign bot-interstitial, midwestpermaculture 202-interstitial, nativeseeds/mortiseandtenon 429. Merged 4 duplicate library category pairs (Natural Building, Food Preservation, Woodworking, Homesteading): 25->21 categories, 12 duplicate links folded, all 260 unique hrefs preserved. Translations full coverage maintained (252/252 titles es/fr/de). Validators 5/5. Link check 952 URLs / 931 OK (21 failures all external noise). Concurrent-push collision with quality-audit cron resolved via rebase + link-report regeneration. Village commit c79a1b5 remote-verified."
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-12T04:26:00Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-12T12:08:10Z",
       "status": "ok",
       "summary": "village-quality-audit: 254 quests/27 guilds clean (0 malformed); translations es/fr/de full coverage 252/252 titles, 27/27 guilds, 98/98 i18n keys, 0 mojibake; master_quests 422 entries valid, 0 dup urls/titles; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 script refs; validators 5/5 PASSED; links 960 checked/933 OK - 27 failures all external noise (anti-bot 403s, burst 429s, transient timeouts), 0 actionable; no fixes needed, no village commit"
+    },
+    {
+      "cron": "aetherforce-synthesis",
+      "timestamp": "2026-10-12T12:14:39Z",
+      "status": "ok",
+      "summary": "created synthesis-water-metrology-wave-fifty-femtosecond-wall (26 sources); +3 works (787) +2 persons (556); 29 back-refs, 29 links; ledger upgrade-260/261 (renumbered after scout id race)"
     }
   ],
-  "timestamp": "2026-10-12T12:08:10Z",
+  "timestamp": "2026-10-12T12:14:39Z",
   "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
 }
