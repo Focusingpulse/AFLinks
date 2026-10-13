@@ -1,0 +1,32 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-13T12:07:53Z",
+  "summary": "village-quality-audit: clean run, no fixes. 257 quests/255 unique titles/27 guilds, 0 malformed; es/fr/de 255/255 quests + 27/27 guilds, 0 mojibake, 98/98 i18n keys; master_quests 425 valid, 0 dups; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 refs; 5/5 validators PASSED; links 978 checked/953 OK - 25 failures all external noise, 0 actionable (eorganic.org sandbox-unreachable but live per search index, kept); standing dup-title flag (Public Art, Organize a Swap x2) held, restructuring-class.",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "cron": "village-quality-audit",
+    "quests": 257,
+    "unique_titles": 255,
+    "guilds": 27,
+    "malformed": 0,
+    "translations": {
+      "es": "255/255",
+      "fr": "255/255",
+      "de": "255/255"
+    },
+    "i18n_keys": "98/98",
+    "master_quests_entries": 425,
+    "bb_markers": "60/60",
+    "validators": "5/5 PASSED",
+    "links": {
+      "checked": 978,
+      "ok": 953,
+      "http_err": 19,
+      "bad": 6,
+      "actionable": 0
+    },
+    "village_commit": null,
+    "notes": "No village changes needed. Regenerated link report restored via git checkout (churn + stripped-maintenance-notes class)."
+  }
+}
