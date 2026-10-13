@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-content-growth",
-    "timestamp": "2026-10-13T00:19:23Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-13T04:05:38Z",
     "status": "ok",
-    "summary": "village-content-growth: crawl 499 pages, 3 genuinely NEW BBs verified via wiki pages (smoker PEM traditional.straw, internet-labor PEP commerce sand \\$50 + straw \\$500 - 7yr-old coverage gap, not crawl noise); master_quests 422->425; data.js +3 quests; es/fr/de translations full (255/255); library +3 vetted resources (Root Simple, Fedco Seeds, Grow a Good Life); validators 5/5; link check 969 URLs (new 3 OK); village pushed 4e002ea"
+    "summary": "translation-QC 04:00Z: standing checks clean (same-file 0, unknown-dates 0, junk ids 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0; title-sim 7 + containment 3 candidates, 0 folds - all known no-fold families). Fixed 3 dangling cross_refs on old Drunvalo synthesis works (verification-rail-methodology-synthesis -> verification-rail-methodology). +8 works from Forge Oct 12-13 trinitas batch: Shipov x4 (textbooks-rewritten critique, Conversations 11 4-D gyroscope, Spin-Torsion Fields & Technologies part 2 Roy/Hutchison, Dirac-Takabayashi with Podarovskaya), Smelov x2 (energy"
   },
-  "job": "village-content-growth",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 576,
-  "works": 831,
+  "persons": 580,
+  "works": 839,
   "notes": "village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-12T12:07:03Z",
-      "status": "ok",
-      "summary": "translation-QC 12:00Z: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 3 + containment 3 candidates, 0 folds (all known no-fold families); 0 DB additions - Forge Oct-12 batch (24 works) fully covered by 04:00/06:00/08:00 runs; builder patched: same-file feed titles now refresh from curated DB titles (209 converge incl Chvanov fix); tag_concepts skipped (dead)"
-    },
     {
       "cron": "aetherforce-scout",
       "timestamp": "2026-10-12T12:07:57Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T00:19:23Z",
       "status": "ok",
       "summary": "village-content-growth: crawl 499 pages, 3 genuinely NEW BBs verified via wiki pages (smoker PEM traditional.straw, internet-labor PEP commerce sand \\$50 + straw \\$500 - 7yr-old coverage gap, not crawl noise); master_quests 422->425; data.js +3 quests; es/fr/de translations full (255/255); library +3 vetted resources (Root Simple, Fedco Seeds, Grow a Good Life); validators 5/5; link check 969 URLs (new 3 OK); village pushed 4e002ea"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-13T04:05:38Z",
+      "status": "ok",
+      "summary": "translation-QC 04:00Z: standing checks clean (same-file 0, unknown-dates 0, junk ids 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0; title-sim 7 + containment 3 candidates, 0 folds - all known no-fold families). Fixed 3 dangling cross_refs on old Drunvalo synthesis works (verification-rail-methodology-synthesis -> verification-rail-methodology). +8 works from Forge Oct 12-13 trinitas batch: Shipov x4 (textbooks-rewritten critique, Conversations 11 4-D gyroscope, Spin-Torsion Fields & Technologies part 2 Roy/Hutchison, Dirac-Takabayashi with Podarovskaya), Smelov x2 (energy"
     }
   ],
-  "timestamp": "2026-10-13T00:19:23Z",
-  "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
+  "timestamp": "2026-10-13T04:05:38Z",
+  "summary": "translation-QC 04:00Z: standing checks clean (same-file 0, unknown-dates 0, junk ids 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0; title-sim 7 + containment 3 candidates, 0 folds - all known no-fold families). Fixed 3 dangling cross_refs on old Drunvalo synthesis works (verification-rail-methodology-synthesis -> verification-rail-methodology). +8 works from Forge Oct 12-13 t"
 }
