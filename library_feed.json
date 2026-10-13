@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:35:03Z",
+  "generated_at": "2026-10-13T00:43:14Z",
   "library": {
     "researchers": 1949,
     "researchers_cataloged": 1949,
@@ -15,15 +15,12 @@
     "translation_files": 794,
     "counter_diag": {
       "library_attached": true,
-      "translations_dir_published": false,
+      "translations_dir_published": true,
       "books_published": false,
       "translation_works": 667,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 220,
-      "inherited": [
-        "pages_translated",
-        "translation_files"
-      ],
+      "pages_translated_computed": 14031,
+      "inherited": [],
       "pages_translated_published": 14031
     },
     "bridges": 28,
@@ -65,7 +62,7 @@
     "replication_dossiers": 98,
     "validations": 68,
     "counter_snapshot": {
-      "generated_at": "2026-10-13T00:35:03Z",
+      "generated_at": "2026-10-13T00:43:14Z",
       "archive_entries": 122040,
       "aflinks_docs": 120656,
       "translations": 667,
@@ -6262,7 +6259,7 @@
     {
       "date": "2026-10-02",
       "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-      "domain": "torsion-field-physics",
+      "domain": "",
       "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
       "language": "Russian",
       "target_language": "English",
@@ -7692,8 +7689,8 @@
     {
       "date": "2026-09-22",
       "title": "Latent Light and the Color of Plasma — Kelsya hypothesis of selective revelation",
-      "domain": "plasma-cosmology",
-      "source_url": "https://zenodo.org/records/15213818",
+      "domain": "",
+      "source_url": "",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
@@ -7703,8 +7700,8 @@
     {
       "date": "2026-09-22",
       "title": "La Structure Révélée — Complete deciphering of the real through the Kelsya vision",
-      "domain": "plasma-cosmology",
-      "source_url": "https://zenodo.org/records/15202198",
+      "domain": "",
+      "source_url": "",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
@@ -8132,7 +8129,7 @@
     {
       "date": "2025-11-17",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-      "domain": "aether",
+      "domain": "",
       "source_url": "https://doi.org/10.5281/zenodo.17626722",
       "language": "Spanish",
       "target_language": "English",
@@ -29777,7 +29774,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-13T00:18:19Z",
+      "last_run": "2026-10-13T00:36:24Z",
       "last_status": "ok",
       "last_summary": "sync: 122040 docs, feed rebuilt"
     },
@@ -29893,6 +29890,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-13",
+      "time": "00:36",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+122040 docs — +122040 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-10-13",
       "time": "00:21",
@@ -30192,12 +30195,6 @@
       "time": "12:33",
       "agent": "AFLinks Sync",
       "summary": "+121225 docs — +121225 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "12:26",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+385 references — Harvest batch 30 docs fetched, +402 refs (34648 written, 34631 kept, 17 filtered: 15 fragment, 2 boilerplate). Graph rebuilt 25719 nodes / 34912 edges / 3050 hubs / 22669 single-cited; overlay 42095 nodes / 55279 edges (29918 cites). Archive queue refreshed: feed live, 120656 docs, 1917 researchers, 631 translations. Veracity re-check: About-page MID mislabel row re-probed via a new route, the framework's own commercial legal pages, and found the framework names TWO legal entities, book pages 'Epimemetics LLC' (Arizona, /m/01261hpq) vs business ToS/Privacy 'Epimemetics, Inc' (South Dakota, operating from Lorena TX, effective 2025-08-01); row unchanged needs-owner, receipt materially strengthened. archive.today unreachable (timeout, scoped negative)."
     },
     {
       "date": "2026-10-12",
@@ -33287,7 +33284,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "torsion-field-physics",
+          "domain": "",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -34167,7 +34164,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -34926,7 +34923,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -35759,7 +35756,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -36795,7 +36792,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "torsion-field-physics",
+          "domain": "",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -1324644,7 +1324641,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-13T00:35:03Z",
+    "as_of": "2026-10-13T00:43:14Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 570,
