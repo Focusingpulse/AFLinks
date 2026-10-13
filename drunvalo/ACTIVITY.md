@@ -1,4 +1,7 @@
 # Drunvalo Activity Log
+
+## 2026-10-13T00:03:38Z - village-maintenance (ok)
+village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified
 ## 2026-10-12T12:14:39Z - aetherforce-synthesis (ok)
 
 Created synthesis/2026-10-12-water-metrology-wave-fifty-femtosecond-wall.md - The Fifty-Femtosecond Wall: the October water shelf (~70 works, 16 languages) read as a metrology wave: five instrument classes (resonance spectroscopy, imaging, cryo/ML physical chemistry, electrical, living detectors) vs the 50fs bulk-memory wall (Cowan 2005); both sides independently moved to the interface (EZ/xylem, nanochannels, quenched ice, H-bond topology); two literatures don't cite each other. Skeptical ledger in full (Ivanitskii UFN, provereno, Psiram, Deymond, replication record). +3 works (synthesis + Yu-2026 Explore primary + Cowan-2005 Nature anchor), 29 back-refs, +2 persons (dean-radin, bernd-kroeplin), 29 works_in_collection links, ledger upgrade-260/261 (renumbered after concurrent scout took 258/259). Indexes: 787 works, 556 persons.
