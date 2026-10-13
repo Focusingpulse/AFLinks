@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:14:48Z",
+  "generated_at": "2026-10-13T21:28:25Z",
   "library": {
     "researchers": 1950,
     "researchers_cataloged": 1950,
@@ -11,16 +11,18 @@
     "pages_translated": 14780,
     "declassified_finds": 223,
     "active_agents": 15,
-    "book5_complete": true,
     "translation_files": 883,
     "counter_diag": {
       "library_attached": true,
-      "translations_dir_published": true,
+      "translations_dir_published": false,
       "books_published": false,
       "translation_works": 744,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 14780,
-      "inherited": [],
+      "pages_translated_computed": 0,
+      "inherited": [
+        "pages_translated",
+        "translation_files"
+      ],
       "pages_translated_published": 14780
     },
     "bridges": 25,
@@ -62,7 +64,7 @@
     "replication_dossiers": 101,
     "validations": 70,
     "counter_snapshot": {
-      "generated_at": "2026-10-13T21:14:48Z",
+      "generated_at": "2026-10-13T21:28:25Z",
       "archive_entries": 122422,
       "aflinks_docs": 122389,
       "translations": 744,
@@ -71,7 +73,7 @@
       "researchers": 1950,
       "patents": 3045,
       "active_agents": 15,
-      "atsuyskovsky_books": 1,
+      "atsuyskovsky_books": 0,
       "radiesthesia_books": 0
     }
   },
@@ -7263,7 +7265,7 @@
     {
       "date": "2026-10-02",
       "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-      "domain": "",
+      "domain": "torsion-field-physics",
       "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
       "language": "Russian",
       "target_language": "English",
@@ -8671,8 +8673,8 @@
     {
       "date": "2026-09-22",
       "title": "Latent Light and the Color of Plasma — Kelsya hypothesis of selective revelation",
-      "domain": "",
-      "source_url": "",
+      "domain": "plasma-cosmology",
+      "source_url": "https://zenodo.org/records/15213818",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
@@ -8682,8 +8684,8 @@
     {
       "date": "2026-09-22",
       "title": "La Structure Révélée — Complete deciphering of the real through the Kelsya vision",
-      "domain": "",
-      "source_url": "",
+      "domain": "plasma-cosmology",
+      "source_url": "https://zenodo.org/records/15202198",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
@@ -9111,7 +9113,7 @@
     {
       "date": "2025-11-17",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-      "domain": "",
+      "domain": "aether",
       "source_url": "https://doi.org/10.5281/zenodo.17626722",
       "language": "Spanish",
       "target_language": "English",
@@ -31166,7 +31168,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-13T20:24:12Z",
+      "last_run": "2026-10-13T21:18:34Z",
       "last_status": "ok",
       "last_summary": "sync: 122422 docs, feed rebuilt"
     },
@@ -31282,6 +31284,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-13",
+      "time": "21:18",
+      "agent": "AFLinks Sync",
+      "summary": "+122422 docs — +122422 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-13",
       "time": "20:30",
@@ -31581,12 +31589,6 @@
       "time": "08:35",
       "agent": "Translation Sweeper",
       "summary": "+19 chunks — Full ru->EN translation of A.N. Lipov 'The Golden Section as the Fundamental Morphological Law' (Philosophy and Culture No. 9/33, 2010; trinitas.ru Institute of the Golden Section). A 16-page survey of the golden section as a candidate universal morphological law - the five basic mathematical relations, Pacioli's four arguments for its divinity, phyllotaxis and the Fibonacci/Lucas series, Zeising and the 1896 morphological-law claim, proportional compasses in ancient architecture, the golden number as a base for numeration (Bergman, Stakhov), applications in music (Sabaneyev), heart rhythms (Tsvetkov), elementary-particle decay (Savrukhin) and genetic-code icosahedrality (Volkhonsky), and the Russian cosmism / Florensky context. Source PDF archived."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "08:29",
-      "agent": "Translation Sweeper",
-      "summary": "+8 chunks — Full ru->EN translation of G.V. Khlebnikov 'The Problem of the Relationship between Scientific and Religious Knowledge in Early Pythagoreanism' (trinitas.ru, Institute of the Golden Section, 2006) - an excerpt from the analytical review 'Philosophical Theology of Antiquity' (INION RAN). Covers Babylonian astral religion, number as the divine essence in Pythagoreanism, the celestial harmonies and the music of the spheres, the Pythagorean Union's initiation and psychotechnics, and the Golden Verses. Source archived."
     },
     {
       "date": "2026-10-13",
@@ -32986,14 +32988,6 @@
   "news": [
     {
       "date": "2026-10-13",
-      "kind": "milestone",
-      "title": "Atsyukovsky Book 5 — complete in English",
-      "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, held in the internal library pending rights review.",
-      "rarity": "milestone",
-      "href": "./library.html#translationsSection"
-    },
-    {
-      "date": "2026-10-13",
       "kind": "translation",
       "title": "Chernyaev - Zolotye razmerennosti estestvoznaniya (ru->EN)",
       "excerpt": "A.F. Chernyaev\n\nThe Golden Dimensions\n of natural science\n\nIntroduction\n      There is no doubt that we live in a dynamic world — a world where everything moves",
@@ -33052,15 +33046,7 @@
       "source_url": "https://orgonomie.net/hdowrphysik.pdf"
     }
   ],
-  "atsuyskovsky_books": [
-    {
-      "volume": "5",
-      "title": "Book 5 — Full English Translation (complete)",
-      "progress_done": 220,
-      "progress_total": 220,
-      "assembled": null
-    }
-  ],
+  "atsuyskovsky_books": [],
   "radiesthesia_books": [],
   "bridges": [
     {
@@ -35087,7 +35073,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "",
+          "domain": "torsion-field-physics",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -36000,7 +35986,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -36852,7 +36838,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -37497,7 +37483,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -38986,7 +38972,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "",
+          "domain": "torsion-field-physics",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -1327470,9 +1327456,9 @@
       {
         "drawer": "found",
         "label": "Newly found",
-        "title": "Interact done **7,821 → 7,974 (+153)**; skip 1,923→1,960; entries **15,653 → 15,806 (+153 write",
-        "excerpt": "",
-        "meta": "2026-10-08",
+        "title": "naturalscience.coocan.jp",
+        "excerpt": "back up (200)** — re-diff of root: 67 pdf links vs 66 filelist → the +1 lead (\"denisov mify teorii otnositelnosti.pdf\" with literal spaces) is a **broken-link variant** o",
+        "meta": "2026-10-11",
         "rarity": "scout find",
         "href": "./library.html"
       },
@@ -1329282,7 +1329268,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-13T21:14:48Z",
+    "as_of": "2026-10-13T21:28:25Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 647,
