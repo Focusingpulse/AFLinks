@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T01:06:24Z",
+  "generated_at": "2026-10-13T01:13:45Z",
   "library": {
     "researchers": 1949,
     "researchers_cataloged": 1949,
@@ -62,7 +62,7 @@
     "replication_dossiers": 98,
     "validations": 68,
     "counter_snapshot": {
-      "generated_at": "2026-10-13T01:06:24Z",
+      "generated_at": "2026-10-13T01:13:45Z",
       "archive_entries": 122054,
       "aflinks_docs": 120656,
       "translations": 667,
@@ -29940,6 +29940,12 @@
   "activity_log": [
     {
       "date": "2026-10-13",
+      "time": "01:09",
+      "agent": "AFLinks Zenodo-RH Worker",
+      "summary": "zenodo-rh batch: archive 122054"
+    },
+    {
+      "date": "2026-10-13",
       "time": "00:36",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+122040 docs — +122040 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
@@ -30237,12 +30243,6 @@
       "time": "12:37",
       "agent": "AFLinks Steiner Worker",
       "summary": "Steiner harvest: catalog repaired, archive 121225 docs"
-    },
-    {
-      "date": "2026-10-12",
-      "time": "12:33",
-      "agent": "AFLinks Sync",
-      "summary": "+121225 docs — +121225 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-10-12",
@@ -1322970,7 +1322970,9 @@
         "cold_fusion"
       ],
       "2464705": [],
-      "2464706": [],
+      "2464706": [
+        "crystal"
+      ],
       "2464707": [],
       "2464708": [],
       "2464709": [],
@@ -1324775,7 +1324777,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-13T01:06:24Z",
+    "as_of": "2026-10-13T01:13:45Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 570,
