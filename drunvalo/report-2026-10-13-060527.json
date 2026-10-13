@@ -1,0 +1,12 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-13T06:05:27Z",
+  "summary": "aetherforce-database-refresh-health-report",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "build_library_feed.py"
+  ],
+  "details": "aetherforce-database-refresh: standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0). Title-sim 17 candidates / 0 folds (known no-fold families + wichelen pair kept distinct and cross-linked - insufficient evidence to fold). +10 works from Forge's Oct-13 batch (wojtkowiak pl torsion/cancer, zhdanov ru popular torsion review, Shipov geometrized energy-momentum gravitation, ar bio-energy/sacred-geometry book title-corrected from archive.org, aqualiber pt skeptical dowsing ledger, teija fr water-memory, 4 ja mainstream water-physics primaries: ISSP Langmuir tetrahedral water, NanoLSI protein superstructure, SOKENDAI interfacial-water design, RCAST Nature Physics line-tension reversal). arqka 10-13 feed variant folded into 09-28 keeper (retitled 2nd ed 2019 of the same book, title-page verified; source_url backfilled, builder alias added). +8 persons (andrei-zhdanov, tulio-fonseca, yusuke-tomiyori, takeshi-fukuma, toshiki-sugimoto, hajime-tanaka, mohd-moid, brian-josephson about-convention). URLs 11/11 live 200. build_library_feed.py skipped (needs living-library repo); tag_concepts.py dead (skipped). Ledger: 0 completions (upgrade-113 ARQKA held - sample only, not the complete PDF). Index sizes: 849 works, 588 persons."
+}
