@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T20:22:37Z",
+  "generated_at": "2026-10-13T21:14:48Z",
   "library": {
     "researchers": 1950,
     "researchers_cataloged": 1950,
@@ -62,7 +62,7 @@
     "replication_dossiers": 101,
     "validations": 70,
     "counter_snapshot": {
-      "generated_at": "2026-10-13T20:22:37Z",
+      "generated_at": "2026-10-13T21:14:48Z",
       "archive_entries": 122422,
       "aflinks_docs": 122389,
       "translations": 744,
@@ -31166,9 +31166,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-13T19:22:28Z",
+      "last_run": "2026-10-13T20:24:12Z",
       "last_status": "ok",
-      "last_summary": "sync: 122421 docs, feed rebuilt"
+      "last_summary": "sync: 122422 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -31199,9 +31199,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-10-13T18:17:19Z",
+      "last_run": "2026-10-13T20:30:57Z",
       "last_status": "ok",
-      "last_summary": "+109 clean refs, 30 docs fetched, graph 25544 nodes 34636 edges 3024 hubs; veracity ch21 row re-probed link-graph route unchanged; register saturated 117th run"
+      "last_summary": "citation-harvest +222 refs, graph 25632n/3030 hubs, veracity ch.6 DID anchor re-probed needs-owner"
     },
     {
       "member": "book5-translate",
@@ -31282,6 +31282,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-13",
+      "time": "20:30",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+222 references — Citation-harvest run. Batch 30 docs fetched, 6 yielded bibliographies, 24 no_bib, 0 fetch failures; refs.jsonl 34246 -> 34468 (+222 refs); retro-clean kept 34451, dropped 17 (15 fragment, 2 boilerplate); graph rebuilt 25632 nodes / 34732 edges / 3030 hubs / 22602 single-cited; archive queue refreshed (feed live, 122389 docs, 1950 researchers, 744 translations). Veracity re-check: ch. 6 DID anchor (needs-owner) re-probed via a NEW route - a site-wide census of which DID each of the framework's 33 pages declares, plus a control-validated DIF Universal Resolver run - and found the non-resolving DID did:web:entity-veracity.super-intelligent.ai is the framework's SITE-WIDE identity declaration (all 33 pages carry it), while the apex DID did:web:super-intelligent.ai appears on only 4 pages; the resolver, working correctly against a control (did:web:identity.foundation resolves), rejects both declared DIDs. Status unchanged needs-owner; receipt materially strengthened. Runtime: the living-library mount was ENTIRELY ABSENT at run start (the recurring checkout outage); recovered via blobless+sparse pre-seed, then the six untracked derived indexes were restored from git history (53363a56^) before harvesting."
+    },
+    {
+      "date": "2026-10-13",
+      "time": "20:23",
+      "agent": "AFLinks Sync",
+      "summary": "+122422 docs — +122422 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-13",
       "time": "20:06",
@@ -31575,18 +31587,6 @@
       "time": "08:29",
       "agent": "Translation Sweeper",
       "summary": "+8 chunks — Full ru->EN translation of G.V. Khlebnikov 'The Problem of the Relationship between Scientific and Religious Knowledge in Early Pythagoreanism' (trinitas.ru, Institute of the Golden Section, 2006) - an excerpt from the analytical review 'Philosophical Theology of Antiquity' (INION RAN). Covers Babylonian astral religion, number as the divine essence in Pythagoreanism, the celestial harmonies and the music of the spheres, the Pythagorean Union's initiation and psychotechnics, and the Golden Verses. Source archived."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "08:26",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+213 references — Harvest: 30 docs fetched, refs.jsonl 34246 -> 34459 (+213); retro-clean kept 34442, dropped 17 (15 fragment, 2 boilerplate). Graph 25606 nodes / 34723 edges / 3027 hubs / 22579 single-cited; overlay 41913 nodes / 55025 edges (29776 cites). Archive queue refreshed: feed live, 120656 docs, 1949 researchers, 688 translations. NOTE: the six derived indexes were ABSENT at checkout start (the known untracked-file durability defect) and were restored from git history 53363a56^ before harvesting, so the baseline reset to 34246 rather than accumulating from the last run's 34414 - the re-track-or-relocate decision remains open for Cairn/Chris. Veracity re-check: ch. 21 percentage row re-probed via three new routes (book-host sitemap/robots = tiiny.host 404; independent-citation search; direct fetch of the one candidate third-party page). Status unchanged (unverified - no source, no method, no denominator); receipt materially strengthened. New finding: the search tool's summary attributed a citation (abstractopedia.org) that the page does not contain on direct fetch (0 hits for Wright/entity veracity/85%) - a false positive, and a caution about AI search summaries as evidence. 113th consecutive saturated run."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "08:13",
-      "agent": "translator-foreign",
-      "summary": "+3 docs — Translated 3 trinitas.ru Shipov Besedy (Conversations on the New Torsion Mechanics) 1, 2, 4 ru->EN, 16 chunks"
     },
     {
       "date": "2026-10-13",
@@ -1327440,7 +1327440,9 @@
         "geometry_sacred",
         "p_fieldphys"
       ],
-      "2465096": []
+      "2465096": [
+        "cold_fusion"
+      ]
     }
   },
   "daily_drawers": {
@@ -1329280,7 +1329282,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-13T20:22:37Z",
+    "as_of": "2026-10-13T21:14:48Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 647,
