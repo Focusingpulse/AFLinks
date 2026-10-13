@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-synthesis",
-    "timestamp": "2026-10-13T06:07:00Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-13T08:05:52Z",
     "status": "ok",
-    "summary": "synthesis: The Inconstant Constant - radioactive decay as a field detector. Five traditions (Shnoll cosmophysics, Purdue-Stanford solar-neutrino, Tomsk torsion rotation experiments, Krasnikov information induction, Chinese institutional qigong Am-241) converge on decay counting as the subtle-field transducer; counter-ledger carried in full (Norman same-journal rebuttal, Pomme 12-dataset metrology verdict). +6 primaries + 1 synthesis work, +5 persons (simon-shnoll, jere-jenkins, ephraim-fischbach, eric-norman, steffen-pomme), 14 back-refs wired, 20 cross_refs validated pre-push, 0 dangling. Ledger +2 proposals (upgrade-268 Shnoll corpus+databank, upgrade-269 decay-constancy counter-corpus). Re-applied onto database-refresh fresh base mid-run (fresh-base guard fired, 849/588)."
+    "summary": "translation-QC 08:00 UTC: standing checks clean (same-file 0, unknown dates 0, junk 0, dangling 0 after fix); +4 works from Forge Oct-13 batch (Tsarev crystal-ether ZChV, Akhkozov letter-to-physicists, Gariaev wave-genetics perspectives, van Tilborg mechanical-occultism), +3 persons, 11 back-refs, josephson .md ref fix, karim-amir feed-dupe alias added to builder; tag_concepts skipped (dead). DB: 860 works / 596 persons."
   },
-  "job": "aetherforce-synthesis",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 593,
-  "works": 856,
+  "persons": 596,
+  "works": 860,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-13T00:03:38Z",
-      "status": "ok",
-      "summary": "village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified"
-    },
     {
       "cron": "village-quality-audit",
       "timestamp": "2026-10-13T00:05:38Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T06:07:00Z",
       "status": "ok",
       "summary": "synthesis: The Inconstant Constant - radioactive decay as a field detector. Five traditions (Shnoll cosmophysics, Purdue-Stanford solar-neutrino, Tomsk torsion rotation experiments, Krasnikov information induction, Chinese institutional qigong Am-241) converge on decay counting as the subtle-field transducer; counter-ledger carried in full (Norman same-journal rebuttal, Pomme 12-dataset metrology verdict). +6 primaries + 1 synthesis work, +5 persons (simon-shnoll, jere-jenkins, ephraim-fischbach, eric-norman, steffen-pomme), 14 back-refs wired, 20 cross_refs validated pre-push, 0 dangling. Ledger +2 proposals (upgrade-268 Shnoll corpus+databank, upgrade-269 decay-constancy counter-corpus). Re-applied onto database-refresh fresh base mid-run (fresh-base guard fired, 849/588)."
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-13T08:05:52Z",
+      "status": "ok",
+      "summary": "translation-QC 08:00 UTC: standing checks clean (same-file 0, unknown dates 0, junk 0, dangling 0 after fix); +4 works from Forge Oct-13 batch (Tsarev crystal-ether ZChV, Akhkozov letter-to-physicists, Gariaev wave-genetics perspectives, van Tilborg mechanical-occultism), +3 persons, 11 back-refs, josephson .md ref fix, karim-amir feed-dupe alias added to builder; tag_concepts skipped (dead). DB: 860 works / 596 persons."
     }
   ],
-  "timestamp": "2026-10-13T06:07:00Z",
+  "timestamp": "2026-10-13T08:05:52Z",
   "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
 }
