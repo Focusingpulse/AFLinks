@@ -1,10 +1,10 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-content-growth",
-    "timestamp": "2026-10-13T08:19:03Z",
+    "cron": "village-maintenance",
+    "timestamp": "2026-10-13T12:07:07Z",
     "status": "ok",
-    "summary": "village-content-growth: crawl 499 pages, 0 new BBs (paginated/slug dupes + forum noise; artifact restored); Library +3 vetted resources (Honey Bee Suite beekeeping, Orange Pippin orchards, Survival Gardener food-forest) curl-verified 200; validators 5/5; link check 976 URLs, new links OK, failures all known external noise; translations full coverage es/fr/de 255/255 quests, 27/27 guilds, 98/98 i18n keys; village tip ef09096 remote-verified"
+    "summary": "village-maintenance link check 978 urls clean plus 2 library resources"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
@@ -12,12 +12,6 @@
   "works": 860,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-13T00:07:52Z",
-      "status": "ok",
-      "summary": "translation-QC: standing checks clean; +35 works +13 persons from Forge Oct-12 evening batch; fixed 2 dangling person refs; 12 person links + 8 back-ref wirings; 822 works / 569 persons"
-    },
     {
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-13T00:08:48Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T08:19:03Z",
       "status": "ok",
       "summary": "village-content-growth: crawl 499 pages, 0 new BBs (paginated/slug dupes + forum noise; artifact restored); Library +3 vetted resources (Honey Bee Suite beekeeping, Orange Pippin orchards, Survival Gardener food-forest) curl-verified 200; validators 5/5; link check 976 URLs, new links OK, failures all known external noise; translations full coverage es/fr/de 255/255 quests, 27/27 guilds, 98/98 i18n keys; village tip ef09096 remote-verified"
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-13T12:07:07Z",
+      "status": "ok",
+      "summary": "village-maintenance link check 978 urls clean plus 2 library resources"
     }
   ],
-  "timestamp": "2026-10-13T08:19:03Z",
+  "timestamp": "2026-10-13T12:07:07Z",
   "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
 }
