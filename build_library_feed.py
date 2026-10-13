@@ -1372,6 +1372,10 @@ def main():
         "2026-10-13-geometria-sagrada-y-arquitectura-muestra-alvarez-ponce-es.md":
             "2026-09-28-arquitectura-biologica-geometria-sagrada-ponce-de-leon-es.md",
         # 2026-10-07 (Drunvalo, translation-QC): folded 2026-10-06 QC pair —
+        # 2026-10-13 (Drunvalo, translation-QC): same Karim Amir bio-energy/sacred-geometry
+        # book re-emitted by Forge under a second slug; DB keeper + feed twin both exist.
+        "2026-10-13-secrets-of-bioenergy-sacred-geometry-meditation-karim-amir-ar.md":
+            "2026-10-13-secret-of-frequencies-and-vibrations-ar.md",
         # same Rome Coherence meeting article as the DB keeper.
         "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it.md":
             "2026-09-11-electromagnetic-fields-and-the-memory-of-water-a-challenge-that-continues-it.md",
