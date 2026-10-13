@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-synthesis",
-    "timestamp": "2026-10-13T12:12:15Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-13T12:12:48Z",
     "status": "ok",
-    "summary": "Cinquefoil bridge: knotted-EM rail (Kelvin/Ranada/Irvine/Kedia/Arrayas) vs Tomsk Smelov claims. +6 works (866), +7 persons (603), 21 cross_refs, ledger upgrade-276/277."
+    "summary": "standing checks clean; +25 works +12 persons from Forge Oct-13 batch; van-tilborg source_url backfill; DB 885 works / 608 persons at push"
   },
-  "job": "aetherforce-synthesis",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 596,
-  "works": 860,
+  "persons": 615,
+  "works": 891,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-13T04:05:38Z",
-      "status": "ok",
-      "summary": "translation-QC 04:00Z: standing checks clean (same-file 0, unknown-dates 0, junk ids 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0; title-sim 7 + containment 3 candidates, 0 folds - all known no-fold families). Fixed 3 dangling cross_refs on old Drunvalo synthesis works (verification-rail-methodology-synthesis -> verification-rail-methodology). +8 works from Forge Oct 12-13 trinitas batch: Shipov x4 (textbooks-rewritten critique, Conversations 11 4-D gyroscope, Spin-Torsion Fields & Technologies part 2 Roy/Hutchison, Dirac-Takabayashi with Podarovskaya), Smelov x2 (energy"
-    },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-13T06:04:20Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T12:12:15Z",
       "status": "ok",
       "summary": "Cinquefoil bridge: knotted-EM rail (Kelvin/Ranada/Irvine/Kedia/Arrayas) vs Tomsk Smelov claims. +6 works (866), +7 persons (603), 21 cross_refs, ledger upgrade-276/277."
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-13T12:12:48Z",
+      "status": "ok",
+      "summary": "standing checks clean; +25 works +12 persons from Forge Oct-13 batch; van-tilborg source_url backfill; DB 885 works / 608 persons at push"
     }
   ],
-  "timestamp": "2026-10-13T12:12:15Z",
+  "timestamp": "2026-10-13T12:12:48Z",
   "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
 }
