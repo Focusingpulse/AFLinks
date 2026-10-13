@@ -1,10 +1,10 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-maintenance",
-    "timestamp": "2026-10-13T12:07:07Z",
+    "cron": "village-quality-audit",
+    "timestamp": "2026-10-13T12:07:53Z",
     "status": "ok",
-    "summary": "village-maintenance link check 978 urls clean plus 2 library resources"
+    "summary": "village-quality-audit: clean run, no fixes. 257 quests/255 unique titles/27 guilds, 0 malformed; es/fr/de 255/255 quests + 27/27 guilds, 0 mojibake, 98/98 i18n keys; master_quests 425 valid, 0 dups; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 refs; 5/5 validators PASSED; links 978 checked/953 OK - 25 failures all external noise, 0 actionable (eorganic.org sandbox-unreachable but live per search index, kept); standing dup-title flag (Public Art, Organize a Swap x2) held, restructuring-class."
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
@@ -12,12 +12,6 @@
   "works": 860,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-synthesis",
-      "timestamp": "2026-10-13T00:08:48Z",
-      "status": "ok",
-      "summary": "The Orphan Phenomenon: ball lightning synthesis - observation ledger meets the laboratory. Zero BL works in DB until now; the lane assembled complete in 72h of scout rounds: Stakhanov 1979 foundation (EN free), Nikitin 2025 theory (polarized-water shell), Boerner 2025 mainstream counterweight, 3 lab programs (Gatchina 4000+ plasmoids ~100% reproduction, Prague water-contact births, Shanghai Nature Photonics relativistic THz soliton) + Bychkov plasmatron. Water appears at every node: calorimeter, shell material, birth medium. Vortex-water-LENR cross-links wired. Skeptical ledger in full (Boerner, SCIRP caveat, scaling-not-identity, Callisto null). +9 works +7 persons, 6 back-refs, 3 person links; upgrade-scout-019 completed, upgrade-262/263 proposed. 831 works / 576 persons."
-    },
     {
       "cron": "aetherforce-scout",
       "timestamp": "2026-10-13T00:13:25Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T12:07:07Z",
       "status": "ok",
       "summary": "village-maintenance link check 978 urls clean plus 2 library resources"
+    },
+    {
+      "cron": "village-quality-audit",
+      "timestamp": "2026-10-13T12:07:53Z",
+      "status": "ok",
+      "summary": "village-quality-audit: clean run, no fixes. 257 quests/255 unique titles/27 guilds, 0 malformed; es/fr/de 255/255 quests + 27/27 guilds, 0 mojibake, 98/98 i18n keys; master_quests 425 valid, 0 dups; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 refs; 5/5 validators PASSED; links 978 checked/953 OK - 25 failures all external noise, 0 actionable (eorganic.org sandbox-unreachable but live per search index, kept); standing dup-title flag (Public Art, Organize a Swap x2) held, restructuring-class."
     }
   ],
-  "timestamp": "2026-10-13T12:07:07Z",
+  "timestamp": "2026-10-13T12:07:53Z",
   "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
 }
