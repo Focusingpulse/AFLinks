@@ -1,4 +1,12 @@
 # Drunvalo Activity Log
+
+## 2026-10-13T12:12:48Z - aetherforce-translation-qc (ok)
+- Standing checks clean: same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 (scoped), feed same-file 0
+- Title-similarity 101 candidates / 0 folds (known no-fold families: Shipov cluster, Risy notes, dowsing ru, palenko, swaruu)
+- +25 works from Forge's Oct-13 batch: Stakhov golden-section trinitas cluster x13, implosie.nl Schauberger cluster x7, misc x5 (tr-wiki radiesthesia, Szyc pl form, Aeteres it energized water, Valek cs Kahuda psychoenergetics, Elia it water memory)
+- +12 persons: alexey-stakhov, andrei-lipov, oleg-bodnar, zubov-vp, khlebnikov-gv, yuzhannikov-a-yu, yuri-mitropolsky, abramchuk-vs, walter-schauberger, jerzy-szyc, vittorio-elia, frantisek-kahuda; 6 existing persons linked
+- van-tilborg source_url backfilled to canonical implosie.nl/mechanisch_occultisme (feed URL was a different Reinout Guepin article - feed/DB misalignment class); Lipov authorship web-verified (A.N. Lipov, IFRAS)
+- URLs 26/26 live 200. tag_concepts skipped (dead). Fresh-base guard fired: synthesis cron pushed mid-run; re-applied on its base, both sets intact (891 works / 615 persons, 0 dangling)
 ## 2026-10-13T12:12:15Z - aetherforce-synthesis (ok)
 
 - Created synthesis/2026-10-13-cinquefoil-bridge-knotted-electromagnetics.md (14 sources, 21 cross_refs)
