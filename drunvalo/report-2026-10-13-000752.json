@@ -1,0 +1,22 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-13T00:07:52Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": [
+    "Standing checks all clean: same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, feed mojibake 0 (scoped), feed same-file 0.",
+    "Title-similarity 4 candidates / 0 folds - all known no-fold families (belizal-morel, geometria-sacra, sr-Tesla, quietsphere series).",
+    "Fixed 2 dangling person works_in_collection refs (dean-radin, bernd-kroeplin) - date-prefix restoration to existing 2026-10-05 works.",
+    "Added 35 works from Forge's 2026-10-12 evening batch: Smelov knotted-EM superluminal series x5 (full mutual cross-ref mesh + solitony back-ref), Shipov cluster x8 (incl. Slobodyan vacuum generator, Experiment of the Century, Besedy 7, Meeting with Einstein, Zhigalov interview), radiesthesia x5 (tr x3, ro, sl), water cluster (hu NKFI, bs Flaska, ko UNIST hydrogen-bond, ro Leca ch.51), psychotronics pair (cs Wikipedia + CEPES/Valek), Melnik+Mokeev alpha-decay rotation, Menshikov antigravity, Sandberg Searl Effect, Tatur conservation laws, Nikitin vortex propulsors, Freiman motion-in-vacuum, Yarosh EM critique, Akhkozov Big Bang critique, Evmenenko laser/magnetized-water, Lasko Chladni uk, Hartmann grid el, Emoto dhikr id.",
+    "Added 13 persons: nikitin-av, andrei-slobodyan, mokeev-dyu, evmenenko-vv, akhkozov-yul, freiman-igor, yarosh-vs, evgeny-gubarev, zhigalov-va, lasko-v, nicolae-sfetcu, kwon-oh-hoon, john-searl (stem-searched first).",
+    "Linked 12 existing persons (shipov +7, smelov +5, rejdak +2, einstein/hartmann/tatur/valek/melnik/menshikov-va/radu-leca/masaru-emoto/gunnar-sandberg +1 each).",
+    "Back-ref wirings on 7 existing works (smelov solitony +5, sandberg-searl pair, melnik x2, inertioids, leca ch.75, cvut lab).",
+    "URLs 33/35 live 200; doi.org 403 = known anti-bot class (resolves normally); elartu.tntu.edu.ua timeout from sandbox (canonical kept + noted on work entry).",
+    "tag_concepts.py skipped (dead - reads index.json which no longer exists).",
+    "Index sizes after: 822 works, 569 persons."
+  ]
+}
