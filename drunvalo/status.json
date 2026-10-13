@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-quality-audit",
-    "timestamp": "2026-10-13T00:05:38Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-13T00:07:52Z",
     "status": "ok",
-    "summary": "clean audit: 254 quests/27 guilds, full es/fr/de coverage, 422 master entries, 60/60 BB refs, 5/5 validators, links 943/962 OK (19 external noise, 0 actionable), no fixes needed"
+    "summary": "translation-QC: standing checks clean; +35 works +13 persons from Forge Oct-12 evening batch; fixed 2 dangling person refs; 12 person links + 8 back-ref wirings; 822 works / 569 persons"
   },
-  "job": "village-quality-audit",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 556,
-  "works": 787,
+  "persons": 569,
+  "works": 822,
   "notes": "village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified",
   "runs": [
-    {
-      "cron": "aetherforce-synthesis",
-      "timestamp": "2026-10-12T06:07:43Z",
-      "status": "ok",
-      "summary": "reactionless-drive ledger synthesis + scout-ledger collision repair; 774 works / 542 persons"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-12T08:09:04Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T00:05:38Z",
       "status": "ok",
       "summary": "clean audit: 254 quests/27 guilds, full es/fr/de coverage, 422 master entries, 60/60 BB refs, 5/5 validators, links 943/962 OK (19 external noise, 0 actionable), no fixes needed"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-13T00:07:52Z",
+      "status": "ok",
+      "summary": "translation-QC: standing checks clean; +35 works +13 persons from Forge Oct-12 evening batch; fixed 2 dangling person refs; 12 person links + 8 back-ref wirings; 822 works / 569 persons"
     }
   ],
-  "timestamp": "2026-10-13T00:05:38Z",
+  "timestamp": "2026-10-13T00:07:52Z",
   "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
 }
