@@ -1,5 +1,8 @@
 # Drunvalo Activity Log
 
+## 2026-10-13T00:07:52Z - aetherforce-translation-qc (ok)
+translation-QC: standing checks clean; +35 works +13 persons from Forge Oct-12 evening batch; fixed 2 dangling person refs; 12 person links + 8 back-ref wirings; 822 works / 569 persons
+
 ## 2026-10-13T00:05:38Z - village-quality-audit (ok)
 
 village-quality-audit: 254 quests/27 guilds clean (0 malformed); es/fr/de full coverage 252/252 titles, 27/27 guilds, 11/11 subjects, 0 mojibake, 98/98 i18n keys; master_quests 422 valid (0 dup urls/titles, schema consistent); cross-ref 60/60 BB markers resolve; index.html 0 parse errors, 15/15 script refs; validators 5/5 PASSED; links 962 checked/943 OK - 19 failures all external noise (burst 429s, anti-bot 403s, HEAD-rejection, dead scraped forum-text links), 0 actionable. No fixes needed, no village commit. Standing flag held: Public Art + Organize a Swap duplicated in Community Living.sand and Community.sand (two-cluster drift, belongs to deliberate restructuring pass).
