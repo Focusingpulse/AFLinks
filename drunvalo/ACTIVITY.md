@@ -1,4 +1,7 @@
 # Drunvalo Activity Log
+## 2026-10-13T00:19:31Z - village-content-growth (ok)
+
+Crawl 499 pages: 3 genuinely NEW BBs verified direct from wiki pages — Make a smoker (PEM traditional.straw.smoker, wiki/361898), internet-labor PEP commerce sand \$50 (wiki/118748) + straw \$500 (wiki/151871, 7-year-old coverage gap surfaced by crawl, not forum-render noise). master_quests 422->425, data.js +3 quests (Homesteading + Commerce x2, wiki-verified requirements), es/fr/de translations full (255/255). Library +3 vetted (curl-200 + real title + absent): Root Simple, Fedco Seeds, Grow a Good Life. Validators 5/5, link check 969 URLs (new 3 OK, failures known external noise). Village commit 4e002ea pushed + remote-verified.
 
 ## 2026-10-13T00:14:06Z - aetherforce-scout (ok)
 
