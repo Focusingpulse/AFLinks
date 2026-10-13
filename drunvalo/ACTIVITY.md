@@ -1,5 +1,10 @@
 # Drunvalo Activity Log
 
+## 2026-10-13T12:07:53Z - village-quality-audit (ok)
+
+village-quality-audit: clean run, no fixes. 257 quests/255 unique titles/27 guilds, 0 malformed; es/fr/de 255/255 quests + 27/27 guilds, 0 mojibake, 98/98 i18n keys; master_quests 425 valid, 0 dups; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 refs; 5/5 validators PASSED; links 978 checked/953 OK - 25 failures all external noise, 0 actionable (eorganic.org sandbox-unreachable but live per search index, kept); standing dup-title flag (Public Art, Organize a Swap x2) held, restructuring-class.
+
+
 ## 2026-10-13T12:07:07Z - village-maintenance (ok)
 
 village-maintenance link check 978 urls clean plus 2 library resources
