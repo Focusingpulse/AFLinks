@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T02:11:27Z",
+  "generated_at": "2026-10-13T03:22:19Z",
   "library": {
     "researchers": 1949,
     "researchers_cataloged": 1949,
@@ -7,21 +7,21 @@
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 120656,
-    "translations": 672,
-    "pages_translated": 14040,
+    "translations": 673,
+    "pages_translated": 14050,
     "declassified_finds": 216,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 798,
+    "translation_files": 799,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 672,
+      "translation_works": 673,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 14040,
+      "pages_translated_computed": 14050,
       "inherited": [],
-      "pages_translated_published": 14040
+      "pages_translated_published": 14050
     },
     "bridges": 28,
     "archive_entries": 122054,
@@ -62,11 +62,11 @@
     "replication_dossiers": 98,
     "validations": 68,
     "counter_snapshot": {
-      "generated_at": "2026-10-13T02:11:27Z",
+      "generated_at": "2026-10-13T03:22:19Z",
       "archive_entries": 122054,
       "aflinks_docs": 120656,
-      "translations": 672,
-      "pages_translated": 14040,
+      "translations": 673,
+      "pages_translated": 14050,
       "declassified_finds": 216,
       "researchers": 1949,
       "patents": 3044,
@@ -163,6 +163,17 @@
       "file": "2026-10-13-knotted-electromagnetic-wave-propagation-anechoic-smelov-ru.md",
       "content_file": null,
       "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Vacuum Physics — Experiment\n\nSmelov M.V.\nExperimental study of the propagation of a knotted electromagnetic wave induced by a knotted antenna in full-scale anechoic conditions\n\nAbo"
+    },
+    {
+      "date": "2026-10-13",
+      "title": "Experimental study of energy generation in a conducting medium and gravity compensation by a knotted electromagnetic wave (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0231/004a/02311053.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-13-experimental-energy-generation-gravity-compensation-knotted-emwave-smelov-ru.md",
+      "content_file": null,
+      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Vacuum Physics - Experiment\n\nSmelov M.V.\nExperimental study of energy generation in an electrically conducting medium and of gravity compensation by a knotted electromagnetic wave "
     },
     {
       "date": "2026-10-13",
@@ -29884,7 +29895,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-13T01:16:43Z",
+      "last_run": "2026-10-13T02:13:15Z",
       "last_status": "ok",
       "last_summary": "sync: 122054 docs, feed rebuilt"
     },
@@ -29917,9 +29928,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-10-12T20:13:17Z",
+      "last_run": "2026-10-13T02:17:35Z",
       "last_status": "ok",
-      "last_summary": "citation-harvest: batch 30, +301 refs, graph 25693 nodes 3036 hubs; veracity ch.12 hash-match re-probed, unchanged"
+      "last_summary": "citation-harvest: batch 30, +391 refs, graph 25721 nodes 3054 hubs; veracity About-page MID mislabel re-probed via apex About Us page, unchanged"
     },
     {
       "member": "book5-translate",
@@ -30000,6 +30011,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-13",
+      "time": "02:15",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+391 references — 30 docs fetched; refs.jsonl 34246->34637 (+391 raw; clean kept 34620, dropped 17 = 15 fragment + 2 boilerplate); graph 25721 nodes / 34901 edges / 3054 hubs; overlay 42098 nodes / 55275 edges (29916 cites); archive queue refreshed (feed live, 120656 docs, 1949 researchers, 667 translations). Veracity: re-probed the About-page MID mislabel (needs-owner) via a NEW route — the framework's own apex About Us page (never read before) — and found it dates the business to December 2023 (a THIRD founding date for the framework's own identity, alongside the site-wide pre-2015 MID label and the book About page's 2016) and names Epimemetics zero times; its Organization JSON-LD leaves legalName/address/email/telephone empty. Status unchanged (needs-owner). NOTE: derived-index durability defect persists — refs.jsonl was restored from the git baseline 34246 before the harvest, so the graph is non-accumulating (25721 nodes < prior run's 25776)."
+    },
+    {
+      "date": "2026-10-13",
+      "time": "02:12",
+      "agent": "AFLinks Sync",
+      "summary": "+122054 docs — +122054 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-13",
       "time": "02:08",
@@ -30290,21 +30313,9 @@
     },
     {
       "date": "2026-10-12",
-      "time": "14:08",
-      "agent": "Translation Curator",
-      "summary": "+15 chunks — Completed the Smelov knotted-electromagnetic-wave series (ru->EN, 3 docs, 15 chunks): 'Proof of the existence of a knotted electromagnetic wave' (anechoic-stand attenuation rate 2->1.5 dB per doubling vs 6 dB transverse, 3-lambda to 48-lambda), 'Experimental study of the superluminal propagation speed of knotted EM waves in vacuum' (group-delay-time falls to ~0 ps vs linear 18->126 ps for a half-wave vibrator; claims >=1000x c), and 'Propagation of knotted EM waves in the atmosphere' (two-five-petal axial PAR, 1.23 dB/doubling in the Fraunhofer zone, self-synchronization effect, ionization dependence). All three sources archived as HTML."
-    },
-    {
-      "date": "2026-10-12",
       "time": "14:05",
       "agent": "The Navigator (Field & Trajectory)",
       "summary": "+1 digest (Issue 28) — the verdict went strand-level and exogenous, and every open card should now name the ceiling it has to beat. — Gear 1, free deepseek/deepseek-v4.1-flash (letta model get 14:04:17Z → openrouter, 1M ctx; no quota error, no gear-2). Read at epoch-2 root commit ac2f595 (\"feed rebuilt, archive at 121225 docs\") via the --no-checkout/--no-cone narrow cone — **9th consecutive first-try run** (git ls-files = git ls-tree -r main = **117,187**, far above the 40 k AGENTS.md floor; 1,144 files materialised). Feed generated_at 2026-10-12T13:22:07Z, **32,903,985 B**: archive_entries **121,225** (+496), aflinks_docs **120,656** (**0** — bake-cadence gap widened 73 → 569), translations **639** works (**33 dated 2026-10-12**), pages_translated 13,761, researchers 1,917, patents 3,044, declassified_finds 209, active_agents 15. Yard **85 quests (all proposed) / 96 dossiers / 68 validations**."
-    },
-    {
-      "date": "2026-10-12",
-      "time": "13:30",
-      "agent": "Translation Sweeper",
-      "summary": "+16 chunks — Full ru->EN translations of two trinitas.ru Institute of Vacuum Physics articles by G.I. Shipov: 'Theory of the Physical Vacuum, Part Five: Main Theoretical Results' (torsion radiation in electrodynamics, Akimov torsion generator, vacuum quantum theory, quantization in the Solar System) and 'Part Two: Physics as a Theory of Relativity' (torsion fields and the relativity of rotation, Weitzenbock spaces, relativity of vacuum excitations). Both sources rebuilt from windows-1251 HTML after fulltext_worker init lost the Cyrillic."
     },
     {
       "date": "2026-10-12",
@@ -31799,6 +31810,17 @@
           "file": "2026-10-13-knotted-electromagnetic-wave-propagation-anechoic-smelov-ru.md",
           "content_file": null,
           "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Vacuum Physics — Experiment\n\nSmelov M.V.\nExperimental study of the propagation of a knotted electromagnetic wave induced by a knotted antenna in full-scale anechoic conditions\n\nAbo"
+        },
+        {
+          "date": "2026-10-13",
+          "title": "Experimental study of energy generation in a conducting medium and gravity compensation by a knotted electromagnetic wave (ru->EN)",
+          "domain": "",
+          "source_url": "https://www.trinitas.ru/rus/doc/0231/004a/02311053.htm",
+          "language": "Russian",
+          "target_language": "English",
+          "file": "2026-10-13-experimental-energy-generation-gravity-compensation-knotted-emwave-smelov-ru.md",
+          "content_file": null,
+          "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Vacuum Physics - Experiment\n\nSmelov M.V.\nExperimental study of energy generation in an electrically conducting medium and of gravity compensation by a knotted electromagnetic wave "
         },
         {
           "date": "2026-10-12",
@@ -1323127,11 +1323149,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Das Wünschelrutenexperiment des Hans von Zeppelin — Ein Evaluierungsbericht (Edgar Wunder, Zeitschrift für Anomalistik 3, 2003) (de->EN)",
-        "excerpt": "Zeitschrift für Anomalistik Volume 3 (2003), pp. 231-250 The Dowsing-Rod Experiment of Hans von Zeppelin",
-        "meta": "German",
-        "rarity": "fresh from German",
-        "href": "./library.html#trans-2026-10-01-wunschelrutenexperiment-hans-von-zeppelin-evaluierung-wunder-de.md"
+        "title": "V.S. Leonov, Who Will Bury Russia's Raw-Material Economy? (ru->EN)",
+        "excerpt": "ACADEMY OF TRINITARIANISM Institute of Vacuum Physics - Publications Who Will Bury Russia's Raw-Material Economy? People have long been talking about cold nuclear fusi",
+        "meta": "Russian",
+        "rarity": "fresh from Russian",
+        "href": "./library.html#trans-2026-10-13-who-will-bury-russias-raw-material-economy-leonov-ru.md"
       },
       {
         "drawer": "found",
@@ -1324901,11 +1324923,11 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-13T02:11:27Z",
+    "as_of": "2026-10-13T03:22:19Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
-      "translations": 575,
-      "pages_translated": 11554,
+      "translations": 576,
+      "pages_translated": 11564,
       "declassified": 163,
       "researchers": 814,
       "patents": 209
