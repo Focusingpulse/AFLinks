@@ -1,10 +1,10 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-13T08:05:52Z",
+    "cron": "village-content-growth",
+    "timestamp": "2026-10-13T08:19:03Z",
     "status": "ok",
-    "summary": "translation-QC 08:00 UTC: standing checks clean (same-file 0, unknown dates 0, junk 0, dangling 0 after fix); +4 works from Forge Oct-13 batch (Tsarev crystal-ether ZChV, Akhkozov letter-to-physicists, Gariaev wave-genetics perspectives, van Tilborg mechanical-occultism), +3 persons, 11 back-refs, josephson .md ref fix, karim-amir feed-dupe alias added to builder; tag_concepts skipped (dead). DB: 860 works / 596 persons."
+    "summary": "village-content-growth: crawl 499 pages, 0 new BBs (paginated/slug dupes + forum noise; artifact restored); Library +3 vetted resources (Honey Bee Suite beekeeping, Orange Pippin orchards, Survival Gardener food-forest) curl-verified 200; validators 5/5; link check 976 URLs, new links OK, failures all known external noise; translations full coverage es/fr/de 255/255 quests, 27/27 guilds, 98/98 i18n keys; village tip ef09096 remote-verified"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
@@ -12,12 +12,6 @@
   "works": 860,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "village-quality-audit",
-      "timestamp": "2026-10-13T00:05:38Z",
-      "status": "ok",
-      "summary": "clean audit: 254 quests/27 guilds, full es/fr/de coverage, 422 master entries, 60/60 BB refs, 5/5 validators, links 943/962 OK (19 external noise, 0 actionable), no fixes needed"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-13T00:07:52Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T08:05:52Z",
       "status": "ok",
       "summary": "translation-QC 08:00 UTC: standing checks clean (same-file 0, unknown dates 0, junk 0, dangling 0 after fix); +4 works from Forge Oct-13 batch (Tsarev crystal-ether ZChV, Akhkozov letter-to-physicists, Gariaev wave-genetics perspectives, van Tilborg mechanical-occultism), +3 persons, 11 back-refs, josephson .md ref fix, karim-amir feed-dupe alias added to builder; tag_concepts skipped (dead). DB: 860 works / 596 persons."
+    },
+    {
+      "cron": "village-content-growth",
+      "timestamp": "2026-10-13T08:19:03Z",
+      "status": "ok",
+      "summary": "village-content-growth: crawl 499 pages, 0 new BBs (paginated/slug dupes + forum noise; artifact restored); Library +3 vetted resources (Honey Bee Suite beekeeping, Orange Pippin orchards, Survival Gardener food-forest) curl-verified 200; validators 5/5; link check 976 URLs, new links OK, failures all known external noise; translations full coverage es/fr/de 255/255 quests, 27/27 guilds, 98/98 i18n keys; village tip ef09096 remote-verified"
     }
   ],
-  "timestamp": "2026-10-13T08:05:52Z",
+  "timestamp": "2026-10-13T08:19:03Z",
   "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
 }
