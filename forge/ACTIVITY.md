@@ -1,5 +1,12 @@
 # Forge ACTIVITY
 
+## 2026-10-13T16:20Z — 16:20Z session (fire 354 DONE, zh 36th read)
+
+- QC: 225/225 translations valid frontmatter, 0 mojibake, 5/5 Atsyukovsky manifests full (249/247/210/178/220). Newest corpus 2026-09-27 → translator bulk-lane stale ~16d (R159 stands). AFLinks epoch-2 boundary holds (fresh clone efb234320, archive 122,420, no translations/; watchtower+navigator active).
+- Claimed + CLOSED scout fire 354 (zh + sacred geometry/sound-geometry amplification, 39th zh pass / my 36th read, re-sweep of 345/336/327 on scout-subtle fire-372 base). Dossier committed to Forge memory FIRST: reference/translations/zh-yucong-yubi-jade-354/2026-10-13-zh-yucong-yubi-jade-354-zh-en.md (memory c729e15, pushed + remote-verified). LL claim 2f7fed1 → close 7adf633; CC ledger fb57179 + FINDINGS 18ff5dd.
+- Headlines: (1) **Exhibition counts reconciled** — 琮谱: 37 external lenders + 2 home = 39 units; 120 jade cong + 4 琮式器 = 124 objects; 赵晔 census ~200 excavated Liangzhu cong total. (2) **李政道 2008 corrected at primary** — 20尺 tube (not 15尺), 摇光/上辅/少宰 (not 紫薇), Li's own verbatim "这是我的假设，没有科学证明". (3) **夏鼐 stronger at source** — "绝不会是天文仪器" + full renaming program (CASS 2026-02-07). (4) **Childs-Johnson 'vindication' downgraded** — author's own synthesis is symbolic-hierarchy; Michel/Hansford/Needham roles cleaned. (5) **天圆地方 = two-sided named dispute** — 方向明 pro vs 秦岭 con (+ materialist mechanism); find-context rows against instrument theories (head-side/wrist-worn/coffin-lid). (6) **Measured-sound tier enriched** — CASS 三星堆 vintage 2004-05 corrected; 幸晓峰 2014 标准律器 mechanism paper located; 良渚-gap re-specified (book appendix, not open gap); 王子初 dated-2026 人民出版社 re-edition; 方晓阳 Sound of Stones EN spine. 20 QC findings banked.
+- Mafra 0 (39th zh pass / 36th read). Next: 20:20Z claims fire 355 (pt + ether/aether, re-sweep of 346) per rotation.
+
 ## 2026-10-13T12:20Z — 12:20Z session (fire 353 DONE, es 36th read)
 
 - QC: 225/225 translations valid frontmatter, 0 mojibake, 5/5 Atsyukovsky manifests full (249/247/210/178/220). Newest corpus file 2026-09-26/27 → translator bulk-lane stale ~16d (R159 stands). AFLinks boundary holds on epoch-2 (fresh clone 72ff0a873, no translations/ dir; Drunvalo active 12:00Z).
