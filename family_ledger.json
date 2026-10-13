@@ -741,7 +741,8 @@
       "target": "Mirror Kozyrev texts from legacy hosts (narod.ru + free.fr)",
       "rationale": "Two Kozyrev primary sources verified live on legacy free-hosts with high mortality: re-tech.narod.ru hosts the 1971 Prague paper from the V.V. Nasonov personal archive (the authorial manuscript source); danielrisy.free.fr hosts the JPRS #45238 (1968) Western translation. Both fetched HTTP 200 this round. narod.ru and free.fr are Geocities-equivalent services. Full-text/PDF capture into the archive recommended now.",
       "status": "proposed",
-      "timestamp": "2026-09-05T00:00:02.000000+00:00"
+      "timestamp": "2026-09-05T00:00:02.000000+00:00",
+      "note": "2026-10-13 scout: re-tech.narod.ru half PRESERVED - Prague-1971 paper (fizique/hrono/kozyrev/time_exp_prop.htm) has Wayback captures 2003/2007/2016 + fresh save triggered this round. danielrisy.free.fr JPRS #45238 exact URL still unlocated (site alive, bibliographie freshly captured 2026-10-12). Item stays proposed until the JPRS file is captured."
     },
     {
       "id": "upgrade-054",
@@ -979,7 +980,8 @@
       "status": "proposed",
       "date": "2026-09-07",
       "source": "aetherforce-scout",
-      "timestamp": "2026-09-08T00:08:01.785056+00:00"
+      "timestamp": "2026-09-08T00:08:01.785056+00:00",
+      "note": "2026-10-13 scout ESCALATION: kozyrev-mirrors.su confirmed fully unreachable (000 both schemes, 00:04Z) and CDX wildcard returned ZERO captures (IA flapping - re-verify). The feared loss has likely OCCURRED; resolution path changes from archiving to reconstruction from secondary sources (derived DB work kozyrev-mirrors-corridors-to-other-dimensions-uk has source_url null)."
     },
     {
       "id": "upgrade-scout-002",
@@ -3089,6 +3091,48 @@
       "source": "",
       "language": "English/Russian",
       "description": "Nikitin 2025's in-text genealogy identifies these as the field's data banks. None is in the archive. Residual from upgrade-scout-019: PRR-2020 Tesla-coil lab-BL paper and the USAF-2002 quantum-vacuum plasmoid study, if located, attach here."
+    },
+    {
+      "id": "upgrade-264",
+      "proposed_by": "drunvalo",
+      "date": "2026-10-13",
+      "target": "V.A. Atsyukovsky, 'General Etherodynamics' (2nd ed. 2003, Energoatomizdat, 584pp) - FULL ENGLISH TRANSLATION, 591-page PDF",
+      "source": "https://static.wikitide.net/trueearthwiki/8/82/Atusukovsky_General_Etherdynamics_Full_English_Translation.pdf",
+      "language": "English",
+      "status": "FOUND",
+      "resolution_note": "Complete EN translation of the flagship etherodynamics monograph, located free on trueearthwiki (wikitide static host); 10.7MB PDF downloaded + pdftotext-verified (591pp, front matter + UDC intact, transl. 'alan'). research-index has NO entry for the monograph in any language - the etherodynamics lane held only Book 5 + the 1974 German paper. Wayback save triggered 2026-10-13. RU original multiply preserved (alaa.ucoz.ru official site + archive.org B-001-004-228). Scout report 2026-10-13-0000.",
+      "resolved_date": "2026-10-13"
+    },
+    {
+      "id": "upgrade-265",
+      "proposed_by": "drunvalo",
+      "date": "2026-10-13",
+      "target": "V.A. Atsyukovsky, 'Nachala efirodinamicheskogo estestvoznaniya' Book 5: First Etherodynamic Experiments and Technologies (Petit 2010, 320pp) - free PDF mirrors",
+      "source": "http://naturalscience.world.coocan.jp/atsyukovsky-startup-vol-5-original.pdf",
+      "language": "Russian",
+      "status": "FOUND",
+      "resolution_note": "Two free mirrors verified 200: coocan.jp (Japan) + surin-ether.narod.ru/olderfiles/1/Atsuk_5.pdf. Wayback save triggered for the coocan mirror 2026-10-13. QC BACKFILL: DB work 'atsyukovsky-etherodynamics-ru' IS this book with source_url null - backfill from the coocan URL. Scout report 2026-10-13-0000.",
+      "resolved_date": "2026-10-13"
+    },
+    {
+      "id": "upgrade-266",
+      "proposed_by": "drunvalo",
+      "date": "2026-10-13",
+      "status": "proposed",
+      "target": "Takaaki Matsumoto, 'Steps to the Discovery of Electro-Nuclear Collapse' - Scientist Reference Edition (Bob Greenyer remaster, 289pp, 600-dpi source)",
+      "source": "",
+      "language": "English",
+      "description": "The ball-lightning lane's core primary text, rescued from deteriorating originals via the Nov-Dec 2024 Kickstarter (GBP 34,582 / 212 backers). Commercial edition; known via Tim Ventura's 2026-09-26 account (Medium/Predict). Companion to the completed upgrade-scout-019 BL synthesis."
+    },
+    {
+      "id": "upgrade-267",
+      "proposed_by": "drunvalo",
+      "date": "2026-10-13",
+      "status": "proposed",
+      "target": "Bob Greenyer, 2025-09-28 Prague ELLIA-lab S71 lead-wire replication report - primary writeup",
+      "source": "",
+      "language": "English",
+      "description": "The 2025-09 Advanced Energy Systems Prague workshop replication of Matsumoto's S71 lead-wire experiment: 26um sphere, 22.5um hole, carbon-rich ejecta; Greenyer 'I believe we made a successful replication' with incomplete elemental analysis caveat. Currently known only via Ventura's Medium retelling; locate the primary report (remoteview.substack / MFMP channels)."
     }
   ]
 }
