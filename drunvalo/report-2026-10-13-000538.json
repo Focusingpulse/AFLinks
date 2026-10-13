@@ -1,0 +1,21 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-13T00:05:38Z",
+  "summary": "village-quality-audit: 254 quests/27 guilds clean (0 malformed); es/fr/de full coverage 252/252 titles, 27/27 guilds, 11/11 subjects, 0 mojibake, 98/98 i18n keys; master_quests 422 valid (0 dup urls/titles, schema consistent); cross-ref 60/60 BB markers resolve; index.html 0 parse errors, 15/15 script refs; validators 5/5 PASSED; links 962 checked/943 OK - 19 failures all external noise (burst 429s, anti-bot 403s, HEAD-rejection, dead scraped forum-text links), 0 actionable. No fixes needed, no village commit. Standing flag held: Public Art + Organize a Swap duplicated in Community Living.sand and Community.sand (two-cluster drift, belongs to deliberate restructuring pass).",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "quests_checked": 254,
+    "guilds": 27,
+    "master_quests_entries": 422,
+    "bb_markers_resolved": "60/60",
+    "validators": "5/5 PASSED",
+    "links": "962 checked / 943 OK / 19 external-noise failures / 0 actionable",
+    "issues_found": 0,
+    "issues_fixed": 0,
+    "data_integrity_score": "100%",
+    "standing_flags": [
+      "Public Art + Organize a Swap duplicated in Community Living.sand and Community.sand (restructuring-pass item)"
+    ]
+  }
+}
