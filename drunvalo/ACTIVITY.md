@@ -1,4 +1,8 @@
 # Drunvalo Activity Log
+## 2026-10-13T06:04:20Z - village-maintenance (ok)
+
+village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified
+
 ## 2026-10-13T04:05:38Z - aetherforce-translation-qc (ok)
 
 Standing checks clean (same-file 0, unknown-dates 0, junk 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0; title-sim 7 + containment 3 candidates, 0 folds - known no-fold families). Fixed 3 dangling cross_refs on old Drunvalo synthesis works (verification-rail-methodology-synthesis -> verification-rail-methodology). +8 works from Forge Oct 12-13 trinitas batch: Shipov x4 (classical-electrodynamics textbooks critique, Conversations 11 4-D gyroscope metric control, Spin-Torsion Fields & Technologies part 2 - Roy/Hutchison torsion generators, Dirac-Takabayashi with Podarovskaya), Smelov x2 (knotted-EM energy generation + gravity compensation: 2.33 GHz 100 W phased array, -1.56 mg weight shift, 55 W anomalous cable heat; anechoic propagation with near-zero attenuation 24-57 wavelengths, Tatur foundation + Keysight), Sacco+Tomilin (Tesla/Meyl replication, three-humped resonance, electroscalar waves), Leonov (cold fusion vs RAS anti-pseudoscience polemic, Rossi E-Cat). All 8 sources fetched primary, 8/8 live 200. +4 persons (sacco-b, tomilin-ak, leonov-vs, rustum-roy), 15 back-ref wirings, 13 person works_in_collection links. tag_concepts skipped (dead). 839 works / 580 persons.
