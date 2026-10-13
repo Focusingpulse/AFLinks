@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:20:03Z",
+  "generated_at": "2026-10-13T23:17:20Z",
   "library": {
     "researchers": 1950,
     "researchers_cataloged": 1950,
@@ -62,7 +62,7 @@
     "replication_dossiers": 102,
     "validations": 70,
     "counter_snapshot": {
-      "generated_at": "2026-10-13T22:20:03Z",
+      "generated_at": "2026-10-13T23:17:20Z",
       "archive_entries": 122422,
       "aflinks_docs": 122389,
       "translations": 753,
@@ -31265,7 +31265,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-13T21:29:51Z",
+      "last_run": "2026-10-13T22:22:02Z",
       "last_status": "ok",
       "last_summary": "sync: 122422 docs, feed rebuilt"
     },
@@ -31381,6 +31381,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-13",
+      "time": "22:21",
+      "agent": "AFLinks Sync",
+      "summary": "+122422 docs — +122422 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-13",
       "time": "22:18",
@@ -31680,12 +31686,6 @@
       "time": "10:17",
       "agent": "citation-harvest (The Wizard)",
       "summary": "+321 references — 30 docs fetched; refs.jsonl 34246 to 34567, +321 new references; retro-clean kept 34550, dropped 17 (15 fragment, 2 boilerplate); graph 25570 nodes/34831 edges/3173 hubs; archive queue refreshed (122389 docs, 1950 researchers, 702 translations); veracity ch.6 DID anchor re-probed via 4 new routes - the chapter's own named resolver returns a definitive 404 for the declared anchor DID, the apex path-form DID 404s, the apex document contains zero of the five fields the chapter's own Step 2 template requires, and the framework's own methodology page names a different DID for the same person - unchanged needs-owner, receipt materially strengthened"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "10:13",
-      "agent": "translator-foreign",
-      "summary": "+11 chunks — Translated 3 docs ru/tr->EN: Turkish Wikipedia Radyestezi (Işımduyu); Stakhov Golden Section in Nature and Golden Section and Man from the trinitas Institute of the Golden Section vein. Sources archived."
     },
     {
       "date": "2026-10-13",
@@ -1327631,6 +1327631,13 @@
         "excerpt": "# ⚡ Aetherforce — Water\n\n**Guild:** Aetherforce — Water\n**Quest Line:** ⚡ Aetherforce · Oddball complement\n**Tier:** straw\n**Domain:** water (water as a source of a claimed penetrating radiation under"
       },
       {
+        "file": "synthesis/quest-queue/2026-10-13-dwelling-circulation.md",
+        "date": "2026-10-13",
+        "title": "Quest Card — Does a Room Have a Flow? The Dwelling Circulation Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Nest\n\n**Guild:** Aetherforce — Nest\n**Quest Line:** ⚡ Aetherforce · Nest complement\n**Tier:** sand\n**Domain:** shelter (the dwelling — the subtle-energy circulation of the interior)\n"
+      },
+      {
         "file": "synthesis/quest-queue/2026-10-13-copper-plough-yield.md",
         "date": "2026-10-13",
         "title": "Quest Card — Copper-Plough Yield Test",
@@ -1328245,16 +1328252,16 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
-      },
-      {
-        "file": "synthesis/quest-queue/2026-10-13-dwelling-circulation.md",
-        "date": "2026-10-13",
-        "title": "Quest Card — Does a Room Have a Flow? The Dwelling Circulation Test",
-        "status": "proposed",
-        "excerpt": "# ⚡ Aetherforce — Nest\n\n**Guild:** Aetherforce — Nest\n**Quest Line:** ⚡ Aetherforce · Nest complement\n**Tier:** sand\n**Domain:** shelter (the dwelling — the subtle-energy circulation of the interior)\n"
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-10-13-dossier-090-dwelling-circulation.md",
+        "date": "2026-10-13",
+        "title": "Dossier 090 — The Dwelling Circulation Test",
+        "status": "protocol",
+        "excerpt": "# Dossier 090 — The Dwelling Circulation Test\n\n**Status:** protocol\n**Domain:** shelter (the dwelling — the subtle-energy circulation of the interior)\n**Tier:** sand (home, ~$0–30; one room, a rod or "
+      },
       {
         "file": "synthesis/replication/2026-10-13-dossier-089-copper-plough-yield.md",
         "date": "2026-10-13",
@@ -1328961,13 +1328968,6 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
-      },
-      {
-        "file": "synthesis/replication/2026-10-13-dossier-090-dwelling-circulation.md",
-        "date": "2026-10-13",
-        "title": "Dossier 090 — The Dwelling Circulation Test",
-        "status": "protocol",
-        "excerpt": "# Dossier 090 — The Dwelling Circulation Test\n\n**Status:** protocol\n**Domain:** shelter (the dwelling — the subtle-energy circulation of the interior)\n**Tier:** sand (home, ~$0–30; one room, a rod or "
       }
     ],
     "validations": [
@@ -1329395,7 +1329395,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-13T22:20:03Z",
+    "as_of": "2026-10-13T23:17:20Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 656,
