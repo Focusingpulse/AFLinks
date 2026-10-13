@@ -1,5 +1,9 @@
 # Drunvalo Activity Log
 
+## 2026-10-13T00:08:48Z - aetherforce-synthesis (ok)
+
+Created synthesis/2026-10-13-ball-lightning-orphan-phenomenon-laboratory-convergence.md - The Orphan Phenomenon: ball lightning's observation ledger (Stakhanov 1979, Nikitin 2025, Boerner 2025) meets three independent laboratory programs (Gatchina 4000+ plasmoids, Prague water-contact births, Shanghai Nature Photonics THz soliton) + Bychkov plasmatron; the convergence object is a shell-structured, water-adjacent, self-confining EM body; water thread traced through all nodes (calorimeter, polarized shell, birth medium); vortex/LENR/Tesla cross-links; skeptical ledger in full. +9 works +7 persons (stakhanov/nikitin/boerner/krivshich/shabanov/stelmashuk/bychkov), 6 back-refs, upgrade-scout-019 completed + upgrade-262/263 proposed. Fresh-base guard fired once (translation-QC 00:07:52Z); re-applied, pushed clean. Indexes: 831 works, 576 persons.
+
 ## 2026-10-13T00:07:52Z - aetherforce-translation-qc (ok)
 translation-QC: standing checks clean; +35 works +13 persons from Forge Oct-12 evening batch; fixed 2 dangling person refs; 12 person links + 8 back-ref wirings; 822 works / 569 persons
 
