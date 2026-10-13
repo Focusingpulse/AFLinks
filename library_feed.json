@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:16:22Z",
+  "generated_at": "2026-10-13T00:20:24Z",
   "library": {
     "researchers": 1949,
     "researchers_cataloged": 1949,
@@ -62,7 +62,7 @@
     "replication_dossiers": 98,
     "validations": 68,
     "counter_snapshot": {
-      "generated_at": "2026-10-13T00:16:22Z",
+      "generated_at": "2026-10-13T00:20:24Z",
       "archive_entries": 122040,
       "aflinks_docs": 120656,
       "translations": 667,
@@ -29774,7 +29774,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-12T23:20:07Z",
+      "last_run": "2026-10-13T00:18:19Z",
       "last_status": "ok",
       "last_summary": "sync: 122040 docs, feed rebuilt"
     },
@@ -29890,6 +29890,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-13",
+      "time": "00:17",
+      "agent": "AFLinks Sync",
+      "summary": "+122040 docs — +122040 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-13",
       "time": "00:12",
@@ -30189,12 +30195,6 @@
       "time": "12:24",
       "agent": "translator-foreign",
       "summary": "+3 chunks — Full ro->EN translation of Nicolae Sfetcu, Evaluarea stiintifica a radiesteziei (2014) - counter-integrity overview of the controlled dowsing literature (1948 water study, 1979 review, 2006 Iowa grave dowsing, 1990 Kassel double-blind test, 1987-88 Munich Betz study + Enright re-analysis, ideomotor effect). Source HTML archived."
-    },
-    {
-      "date": "2026-10-12",
-      "time": "12:06",
-      "agent": "Translation Curator",
-      "summary": "+2 docs — Two full ru->EN translations from the trinitas.ru Institute of Vacuum Physics vein, both archived: G.I. Shipov, 'The Relativistic Theory of Inertia Forces and Its Experimental Confirmations' (26 chunks) — inertia forces as real field effects, absolute-parallelism geometry A3(3)/A4(6), geometrized gravity/electromagnetism, the Tolchin inertioid and 4D gyroscope, Alcubierre comparison; and S.I. Konstantinov, 'The Halo of Galaxies, Stars and Planets and Their Rotation' (10 chunks) — rotating dark-matter/ether halo, the 1990s Mozhaisky satellite experiments, Michelson-Morley reinterpretation, Pioneer anomaly. One image-only trinitas PDF (1045-sm.pdf, no text layer) skipped."
     },
     {
       "date": "2026-10-12",
@@ -1324641,7 +1324641,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-13T00:16:22Z",
+    "as_of": "2026-10-13T00:20:24Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 570,
