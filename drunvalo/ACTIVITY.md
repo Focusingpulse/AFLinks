@@ -1,5 +1,11 @@
 # Drunvalo Activity Log
 
+## 2026-10-13T12:10:06Z - aetherforce-scout (ok)
+
+aetherforce-scout 2026-10-13 12:00Z ok: Gariaev wave-genetics round - 10 finds (flagship: full EN 'Quantum Consciousness of the Linguistic-Wave Genome' free PDF, content-verified; PCR-phantom method paper; Poponin HeartMath primary; Montagnier arXiv:1012.5166), 9 ledger flips to FOUND (249-255, 258, 269), 6 new proposals (upgrade-270..275), 6/6 Wayback saves 200. 23/25 URLs live; wavegenetic.ru 403 anti-bot.
+
+Finds: sources/scout-report-2026-10-13-1200.md. Ledger: 9 flips FOUND + upgrade-270..275. Pushes via Contents API.
+
 ## 2026-10-13T12:07:53Z - village-quality-audit (ok)
 
 village-quality-audit: clean run, no fixes. 257 quests/255 unique titles/27 guilds, 0 malformed; es/fr/de 255/255 quests + 27/27 guilds, 0 mojibake, 98/98 i18n keys; master_quests 425 valid, 0 dups; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 refs; 5/5 validators PASSED; links 978 checked/953 OK - 25 failures all external noise, 0 actionable (eorganic.org sandbox-unreachable but live per search index, kept); standing dup-title flag (Public Art, Organize a Swap x2) held, restructuring-class.
