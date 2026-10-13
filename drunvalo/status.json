@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-synthesis",
-    "timestamp": "2026-10-12T12:14:39Z",
+    "cron": "village-maintenance",
+    "timestamp": "2026-10-13T00:03:38Z",
     "status": "ok",
-    "summary": "created synthesis-water-metrology-wave-fifty-femtosecond-wall (26 sources); +3 works (787) +2 persons (556); 29 back-refs, 29 links; ledger upgrade-260/261 (renumbered after scout id race)"
+    "summary": "village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified"
   },
-  "job": "aetherforce-synthesis",
+  "job": "village-maintenance",
   "status": "ok",
   "persons": 556,
   "works": 787,
-  "notes": "QC clean; builder title-refresh patch pushed; Forge Oct-12 batch already fully in DB.",
+  "notes": "village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-12T04:26:00Z",
-      "status": "ok",
-      "summary": "translation-qc: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 7 + containment 2 candidates, 0 folds (known no-fold families). MAJOR FIX: reich-geiger-mueller-oranur-harrer-de misalignment - feed excerpt proved the dossier is Gabi Muller's Qualitative Torkado Model (PDF-verified), not a Harrer text; retitled as torkado-model-qualitative-gabi-muller-de, new person gabi-muller, synthesis-clinical-orgone doc cleaned of 3 phantom citations. +12 works (Forge Oct 11-12 batch: chicherin+menshikov inertioids, erokhov/chuev Bartini L-T pair, shipov x3 + sidorov + podorovskaya vacuum cluster, lobova on Shipov equations, laval ondes-de-forme, korea water nanocluster + scout-flagged Wang-Pollack xylem EZ primary) +11 persons, lobova-m enriched, shipov/pollack/tesla linked; 17 back-ref wirings; URLs 10/10 live. Feed title fixes x2 (torkado, chuev). Harmonizer feed-rebuild at 04:17Z handled via fresh-base re-apply. tag_concepts skipped (dead). 769 works / 538 persons."
-    },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-12T06:04:00Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-12T12:14:39Z",
       "status": "ok",
       "summary": "created synthesis-water-metrology-wave-fifty-femtosecond-wall (26 sources); +3 works (787) +2 persons (556); 29 back-refs, 29 links; ledger upgrade-260/261 (renumbered after scout id race)"
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-13T00:03:38Z",
+      "status": "ok",
+      "summary": "village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified"
     }
   ],
-  "timestamp": "2026-10-12T12:14:39Z",
+  "timestamp": "2026-10-13T00:03:38Z",
   "summary": "upgrade-051 Stakhanov EN located free; ORAEDES verified + queued (056); herbrand-001 IEEE Rheinfelden resolved; cramp title fix; +8 finds BL/FR/IT; +2 proposals 258-259; wayback x2; 10/12 URLs 200"
 }
