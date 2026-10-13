@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-13T04:01:27Z",
+  "as_of": "2026-10-13T08:01:30Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "probe HTTP 200, assistant replied 'ok' (deepseek-v4.1-flash serving)",
+  "evidence": "probe POST /messages -> HTTP 200, assistant_message 'ok'",
   "note": ""
 }
