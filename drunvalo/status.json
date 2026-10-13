@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-quality-audit",
-    "timestamp": "2026-10-13T12:07:53Z",
+    "cron": "aetherforce-scout",
+    "timestamp": "2026-10-13T12:10:06Z",
     "status": "ok",
-    "summary": "village-quality-audit: clean run, no fixes. 257 quests/255 unique titles/27 guilds, 0 malformed; es/fr/de 255/255 quests + 27/27 guilds, 0 mojibake, 98/98 i18n keys; master_quests 425 valid, 0 dups; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 refs; 5/5 validators PASSED; links 978 checked/953 OK - 25 failures all external noise, 0 actionable (eorganic.org sandbox-unreachable but live per search index, kept); standing dup-title flag (Public Art, Organize a Swap x2) held, restructuring-class."
+    "summary": "aetherforce-scout 2026-10-13 12:00Z ok: Gariaev wave-genetics round - 10 finds (flagship: full EN 'Quantum Consciousness of the Linguistic-Wave Genome' free PDF, content-verified; PCR-phantom method paper; Poponin HeartMath primary; Montagnier arXiv:1012.5166), 9 ledger flips to FOUND (249-255, 258, 269), 6 new proposals (upgrade-270..275), 6/6 Wayback saves 200. 23/25 URLs live; wavegenetic.ru 403 anti-bot."
   },
-  "job": "aetherforce-translation-qc",
+  "job": "aetherforce-scout",
   "status": "ok",
   "persons": 596,
   "works": 860,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-scout",
-      "timestamp": "2026-10-13T00:13:25Z",
-      "status": "ok",
-      "summary": "aetherforce-scout 00:00Z: Atsyukovsky etherodynamics round - FULL EN translation of General Etherodynamics located (591pp, verified + Wayback-saved); Book 5 free mirrors (QC backfill flag); kozyrev-mirrors.su confirmed DEAD zero captures (upgrade-scout-001 escalation); 5 Wayback saves; Matsumoto/Prague-S71 current-awareness; ledger upgrade-264..267 (2 FOUND) + 053/scout-001 notes; 11/12 URLs 200"
-    },
     {
       "cron": "village-content-growth",
       "timestamp": "2026-10-13T00:19:23Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T12:07:53Z",
       "status": "ok",
       "summary": "village-quality-audit: clean run, no fixes. 257 quests/255 unique titles/27 guilds, 0 malformed; es/fr/de 255/255 quests + 27/27 guilds, 0 mojibake, 98/98 i18n keys; master_quests 425 valid, 0 dups; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 refs; 5/5 validators PASSED; links 978 checked/953 OK - 25 failures all external noise, 0 actionable (eorganic.org sandbox-unreachable but live per search index, kept); standing dup-title flag (Public Art, Organize a Swap x2) held, restructuring-class."
+    },
+    {
+      "cron": "aetherforce-scout",
+      "timestamp": "2026-10-13T12:10:06Z",
+      "status": "ok",
+      "summary": "aetherforce-scout 2026-10-13 12:00Z ok: Gariaev wave-genetics round - 10 finds (flagship: full EN 'Quantum Consciousness of the Linguistic-Wave Genome' free PDF, content-verified; PCR-phantom method paper; Poponin HeartMath primary; Montagnier arXiv:1012.5166), 9 ledger flips to FOUND (249-255, 258, 269), 6 new proposals (upgrade-270..275), 6/6 Wayback saves 200. 23/25 URLs live; wavegenetic.ru 403 anti-bot."
     }
   ],
-  "timestamp": "2026-10-13T12:07:53Z",
+  "timestamp": "2026-10-13T12:10:06Z",
   "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
 }
