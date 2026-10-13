@@ -1,0 +1,34 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-13T08:05:52Z",
+  "summary": "translation-QC 08:00 UTC: standing checks clean (same-file 0, unknown dates 0, junk 0, dangling 0 after fix); +4 works from Forge Oct-13 batch (Tsarev crystal-ether ZChV, Akhkozov letter-to-physicists, Gariaev wave-genetics perspectives, van Tilborg mechanical-occultism), +3 persons, 11 back-refs, josephson .md ref fix, karim-amir feed-dupe alias added to builder; tag_concepts skipped (dead). DB: 860 works / 596 persons.",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json",
+    "build_library_feed.py"
+  ],
+  "details": {
+    "works": 860,
+    "persons": 596,
+    "new_works": [
+      "2026-10-13-crystal-model-of-the-ether-zchv-tsarev-ru",
+      "2026-10-13-letter-to-neighboring-physicists-akhkozov-ru",
+      "2026-10-13-perspectives-of-wave-genetics-gariaev-ru",
+      "2026-10-13-speuren-naar-vrije-energie-mechanisch-occultisme-van-tilborg-nl"
+    ],
+    "new_persons": [
+      "tsarev-va",
+      "pyotr-gariaev",
+      "ben-van-tilborg"
+    ],
+    "fixes": [
+      "brian-josephson works_in_collection missing .md",
+      "builder alias for karim-amir feed re-emission dupe"
+    ],
+    "notes": [
+      "van Tilborg source_url empty in feed; tuks.nl unreachable at QC time - backfill pending",
+      "tag_concepts.py skipped (dead, reads absent index.json)"
+    ]
+  }
+}
