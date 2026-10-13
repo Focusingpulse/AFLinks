@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:20:18Z",
+  "generated_at": "2026-10-13T15:36:25Z",
   "library": {
     "researchers": 1950,
     "researchers_cataloged": 1950,
@@ -11,16 +11,18 @@
     "pages_translated": 14664,
     "declassified_finds": 220,
     "active_agents": 15,
-    "book5_complete": true,
     "translation_files": 859,
     "counter_diag": {
       "library_attached": true,
-      "translations_dir_published": true,
+      "translations_dir_published": false,
       "books_published": false,
       "translation_works": 724,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 14664,
-      "inherited": [],
+      "pages_translated_computed": 0,
+      "inherited": [
+        "pages_translated",
+        "translation_files"
+      ],
       "pages_translated_published": 14664
     },
     "bridges": 27,
@@ -62,7 +64,7 @@
     "replication_dossiers": 101,
     "validations": 70,
     "counter_snapshot": {
-      "generated_at": "2026-10-13T15:20:18Z",
+      "generated_at": "2026-10-13T15:36:25Z",
       "archive_entries": 122420,
       "aflinks_docs": 122389,
       "translations": 724,
@@ -71,7 +73,7 @@
       "researchers": 1950,
       "patents": 3045,
       "active_agents": 15,
-      "atsuyskovsky_books": 1,
+      "atsuyskovsky_books": 0,
       "radiesthesia_books": 0
     }
   },
@@ -7032,7 +7034,7 @@
     {
       "date": "2026-10-02",
       "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-      "domain": "",
+      "domain": "torsion-field-physics",
       "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
       "language": "Russian",
       "target_language": "English",
@@ -8451,8 +8453,8 @@
     {
       "date": "2026-09-22",
       "title": "Latent Light and the Color of Plasma — Kelsya hypothesis of selective revelation",
-      "domain": "",
-      "source_url": "",
+      "domain": "plasma-cosmology",
+      "source_url": "https://zenodo.org/records/15213818",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
@@ -8462,8 +8464,8 @@
     {
       "date": "2026-09-22",
       "title": "La Structure Révélée — Complete deciphering of the real through the Kelsya vision",
-      "domain": "",
-      "source_url": "",
+      "domain": "plasma-cosmology",
+      "source_url": "https://zenodo.org/records/15202198",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
@@ -8891,7 +8893,7 @@
     {
       "date": "2025-11-17",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-      "domain": "",
+      "domain": "aether",
       "source_url": "https://doi.org/10.5281/zenodo.17626722",
       "language": "Spanish",
       "target_language": "English",
@@ -30896,9 +30898,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-13T13:35:35Z",
+      "last_run": "2026-10-13T15:29:55Z",
       "last_status": "ok",
-      "last_summary": "run total 29 chunks across 3 docs | trinitas 0232 Golden Section vein: Stakhov ternary/Bergman arithmetic 13/13, Alferov golden proportion and quadra 14/14, Stakhov Canada lecture announcement 2/2 | backlog 513 | gear overdrive"
+      "last_summary": "run total 17 chunks across 2 docs | Svetlov Immunity according to Koch 8 of 8 and Can we regrow lost limbs 9 of 9, both complete | backlog 518 wait | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -30918,7 +30920,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-13T14:23:20Z",
+      "last_run": "2026-10-13T15:22:35Z",
       "last_status": "ok",
       "last_summary": "sync: 122420 docs, feed rebuilt"
     },
@@ -31034,6 +31036,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-13",
+      "time": "15:29",
+      "agent": "Translation Sweeper",
+      "summary": "+17 chunks — Opened the trinitas.ru Institute of Life Extension (Институт Продления Жизни) vein; completed 2 full ru->EN translations: Svetlov 'Immunity according to Koch' (Koch's 1919 photochemistry-based oxidation-catalysis theory of immunity/cancer) and Svetlov/Barbarash 'Can we regrow lost limbs?' (stereogenetics; nerve cross-section and the cerebrospinal-fluid waveguide proposal for limb regeneration)"
+    },
+    {
+      "date": "2026-10-13",
+      "time": "15:22",
+      "agent": "AFLinks Sync",
+      "summary": "+122420 docs — +122420 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-13",
       "time": "15:09",
@@ -31333,18 +31347,6 @@
       "time": "05:31",
       "agent": "Translation Sweeper",
       "summary": "+33 chunks — Two full ru->EN translations from the trinitas.ru Institute of Vacuum Physics (0231) vein, 33 chunks total, both assembled and pushed. (1) V.A. Tsarev, Crystal Model of the Ether (ZChV theory) - 10/10; (2) Yu.L. Akhkozov, Letter to Neighbouring Physicists - 23/23. Both sources archived."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "05:27",
-      "agent": "Death Cert Cron",
-      "summary": "+1 record — Wrong-turn claim status record: Grebennikov Cavity Structural Effect (1984-2001) - status died, confidence medium"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "05:21",
-      "agent": "AFLinks Sync",
-      "summary": "+122054 docs — +122054 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-10-12",
@@ -32720,14 +32722,6 @@
   "news": [
     {
       "date": "2026-10-13",
-      "kind": "milestone",
-      "title": "Atsyukovsky Book 5 — complete in English",
-      "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, held in the internal library pending rights review.",
-      "rarity": "milestone",
-      "href": "./library.html#translationsSection"
-    },
-    {
-      "date": "2026-10-13",
       "kind": "translation",
       "title": "Chernyaev - Zolotye razmerennosti estestvoznaniya (ru->EN)",
       "excerpt": "A.F. Chernyaev\n\nThe Golden Dimensions\n of natural science\n\nIntroduction\n      There is no doubt that we live in a dynamic world — a world where everything moves",
@@ -32786,15 +32780,7 @@
       "source_url": "https://orgonomie.net/hdowrphysik.pdf"
     }
   ],
-  "atsuyskovsky_books": [
-    {
-      "volume": "5",
-      "title": "Book 5 — Full English Translation (complete)",
-      "progress_done": 220,
-      "progress_total": 220,
-      "assembled": null
-    }
-  ],
+  "atsuyskovsky_books": [],
   "radiesthesia_books": [],
   "bridges": [
     {
@@ -34746,7 +34732,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "",
+          "domain": "torsion-field-physics",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -35659,7 +35645,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -36500,7 +36486,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -37079,7 +37065,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -38568,7 +38554,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "",
+          "domain": "torsion-field-physics",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -1327019,9 +1327005,9 @@
       {
         "drawer": "found",
         "label": "Newly found",
-        "title": "OCR/queue/tag steps remain **pending FocusOptimized** (Sandra's Windows machine)",
-        "excerpt": "0 new scan-only this fire, so no OCR backlog added.",
-        "meta": "2026-10-11",
+        "title": "lenr",
+        "excerpt": "canr.org /acrobat/ — 200, 138,372B byte-identical (1,454 files) → 0 new",
+        "meta": "scout-repo",
         "rarity": "scout find",
         "href": "./library.html"
       },
@@ -1328831,7 +1328817,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-13T15:20:18Z",
+    "as_of": "2026-10-13T15:36:25Z",
     "baseline": "2026-09-14T22:16:13Z",
     "deltas": {
       "translations": 627,
