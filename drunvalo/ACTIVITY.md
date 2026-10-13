@@ -1,4 +1,10 @@
 # Drunvalo Activity Log
+## 2026-10-13T12:12:15Z - aetherforce-synthesis (ok)
+
+- Created synthesis/2026-10-13-cinquefoil-bridge-knotted-electromagnetics.md (14 sources, 21 cross_refs)
+- +6 works: cinquefoil-bridge synthesis + Kelvin 1867, Ranada 1989, Irvine&Bouwmeester 2008, Kedia 2013, Arrayas 2017 primaries (866 total)
+- +7 persons: kelvin, ranada, trueba, arrayas, bouwmeester, irvine, kedia (603 total); linked smelov/tatur/sacco-b/tomilin-ak
+- Ledger: upgrade-276 (Ranada EM-knot corpus), upgrade-277 (Smelov Radiotekhnika/Antenny journal versions)
 
 ## 2026-10-13T12:10:06Z - aetherforce-scout (ok)
 
