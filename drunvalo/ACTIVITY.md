@@ -1,4 +1,9 @@
 # Drunvalo Activity Log
+
+## 2026-10-13T12:07:07Z - village-maintenance (ok)
+
+village-maintenance link check 978 urls clean plus 2 library resources
+
 ## 2026-10-13T08:19:03Z - village-content-growth (ok)
 
 village-content-growth: crawl 499 pages, 0 new BBs (paginated/slug dupes + forum noise; artifact restored); Library +3 vetted resources (Honey Bee Suite beekeeping, Orange Pippin orchards, Survival Gardener food-forest) curl-verified 200; validators 5/5; link check 976 URLs, new links OK, failures all known external noise; translations full coverage es/fr/de 255/255 quests, 27/27 guilds, 98/98 i18n keys; village tip ef09096 remote-verified
