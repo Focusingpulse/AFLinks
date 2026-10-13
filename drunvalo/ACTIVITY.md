@@ -1,5 +1,9 @@
 # Drunvalo Activity Log
 
+## 2026-10-13T00:14:06Z - aetherforce-scout (ok)
+
+Atsyukovsky etherodynamics round: FULL EN translation of General Etherodynamics located (591pp PDF, verified + Wayback-saved; zero monograph coverage in research-index); Book 5 free mirrors + QC backfill flag (DB source_url null); RU original multiply preserved; bibliography + ether-wind mirror re-captured. kozyrev-mirrors.su confirmed DEAD with zero Wayback captures - upgrade-scout-001 escalated to reconstruction class. re-tech.narod.ru Prague-1971 Kozyrev paper preserved + re-saved. 5 Wayback saves total. Matsumoto remaster + Prague S71 replication current-awareness (Ventura). Ledger: upgrade-264..267 (264/265 FOUND), notes on 053 + scout-001. 11/12 URLs 200 (Medium 403 anti-bot). Report: sources/scout-report-2026-10-13-0000.md
+
 ## 2026-10-13T00:08:48Z - aetherforce-synthesis (ok)
 
 Created synthesis/2026-10-13-ball-lightning-orphan-phenomenon-laboratory-convergence.md - The Orphan Phenomenon: ball lightning's observation ledger (Stakhanov 1979, Nikitin 2025, Boerner 2025) meets three independent laboratory programs (Gatchina 4000+ plasmoids, Prague water-contact births, Shanghai Nature Photonics THz soliton) + Bychkov plasmatron; the convergence object is a shell-structured, water-adjacent, self-confining EM body; water thread traced through all nodes (calorimeter, polarized shell, birth medium); vortex/LENR/Tesla cross-links; skeptical ledger in full. +9 works +7 persons (stakhanov/nikitin/boerner/krivshich/shabanov/stelmashuk/bychkov), 6 back-refs, upgrade-scout-019 completed + upgrade-262/263 proposed. Fresh-base guard fired once (translation-QC 00:07:52Z); re-applied, pushed clean. Indexes: 831 works, 576 persons.
