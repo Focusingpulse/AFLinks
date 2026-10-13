@@ -1365,6 +1365,12 @@ def main():
             "2026-09-27-heliquantix-support-memory-frequency-imprinting-fr.md",
         "2026-09-28-agricultura-biodinamica-ii-mirada-contemporanea-es.md":
             "2026-09-27-biodynamic-agriculture-contemporary-view-es.md",
+        # 2026-10-13 (Drunvalo, database-refresh): same arqka book as the DB keeper —
+        # 'Geometría Sagrada y Arquitectura' is the retitled 2nd ed. (2019) of
+        # 'Biofractal: La Ciencia de la Arquitectura Biológica y La Geometría Sagrada'
+        # (title page verified from the Muestra PDF). Folded in research-index.
+        "2026-10-13-geometria-sagrada-y-arquitectura-muestra-alvarez-ponce-es.md":
+            "2026-09-28-arquitectura-biologica-geometria-sagrada-ponce-de-leon-es.md",
         # 2026-10-07 (Drunvalo, translation-QC): folded 2026-10-06 QC pair —
         # same Rome Coherence meeting article as the DB keeper.
         "2026-09-11-campi-elettromagnetici-e-memoria-dell-acqua-it.md":
