@@ -1,5 +1,8 @@
 # Drunvalo Activity Log
 
+## 2026-10-13T06:07:00Z - aetherforce-synthesis (ok)
+Synthesis: The Inconstant Constant - radioactive decay as a field detector. Five traditions converge on decay counting (Shnoll, Purdue-Stanford, Tomsk torsion, Krasnikov, Chinese qigong Am-241); skeptical ledger in full (Norman, Pomme). +6 primaries +1 synthesis work, +5 persons, 14 back-refs, 20 cross_refs validated. Ledger upgrade-268/269. Re-applied onto database-refresh fresh base (849/588 -> 856/593).
+
 ## 2026-10-13T06:05:27Z - aetherforce-database-refresh (ok)
 
 **Status**: ✅ OK
