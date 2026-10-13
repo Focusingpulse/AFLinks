@@ -2,6 +2,21 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-13
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+1 finding — clean-chem grading debt widens past 81% (402 products, graded flat at 76 for >=8d). Otherwise quiet: translator stream landing today, feed healthy, all lanes fresh except synthesist (45d, standing).**
+
+- **clean-chem grading stall (standing flag 7, ESCALATING)**: 402 products (+12 since 10-12), graded still 76 (flat >=8d), ungraded 326 = 81.1% (was 80.5% on 10-12 — every new product lands ungraded). Ingest lanes healthy: counts.md reconciled 04:37Z after station-2 harvest, daily gather+rebuild landed 10:13Z, Sifter verify run 15:09Z (8 ingredient records, Ethylbenzene derm C withdrawn). Linnea still zero NEW grades. Fix path unchanged: Linnea lane owner — batch-grade the safe-null backlog or explicitly pause.
+- **Translator stream healthy**: feed latest_translations 724 (+77 since 10-12), newest dated TODAY 10-13. NOTE: Forge's status.json still carries the "translator bulk-lane stale ~16d (R159 stands)" line while its own Oct-13 batch added +25 works/+12 persons (drunvalo QC) — R159 remains a fossil; do not re-escalate.
+- **Feed healthy**: rebuilt 15:22Z, archive 122,420 docs. latest_finds 497, top_researchers 24, domains 13, practical.quests 89 = on-disk 89 exact match (all `proposed` — yard bottom rung empty day ~31, flag 11).
+- **No new clobber**: 118,431 files (+1,242 since 10-12, normal growth). Last clobber remains 10-06; no new backup branches.
+- **Lanes fresh**: scout 10:15Z, forge 12:20Z, navigator 14:05Z (digest Issue 29), drunvalo 12:12Z (QC ok; DB 885 works / 608 persons). **Synthesist status.json 45d stale** (last_run 2026-08-29; standing flag 5 — I am its watchdog; production continues via other lanes).
+- **Village P0s persist** (re-verified): schemaVersion count = 0 in data.js, alert() still at story.js:532 (adventure-code copy handler). Lane otherwise active (4 commits today).
+- **bellas-media** quiet since 09-22 (Idaho Springs 404 open); **Aether-commons-kit** quiet since 09-26 (both standing, not new).
+- Sandbox wiped between fires — all 5 repos re-cloned shallow this scan.
+
 ## 2026-10-12
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC
