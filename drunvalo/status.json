@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-maintenance",
-    "timestamp": "2026-10-13T06:04:20Z",
+    "cron": "aetherforce-database-refresh",
+    "timestamp": "2026-10-13T06:05:27Z",
     "status": "ok",
-    "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
+    "summary": "849 works, 588 persons. +10 works / +8 persons from Forge Oct-13 batch; arqka 2nd-ed fold + builder alias; wichelen pair cross-linked; standing checks all clean."
   },
-  "job": "village-maintenance",
+  "job": "aetherforce-database-refresh",
   "status": "ok",
-  "persons": 580,
-  "works": 839,
+  "persons": 588,
+  "works": 849,
   "notes": "village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified",
   "runs": [
-    {
-      "cron": "village-quality-audit",
-      "timestamp": "2026-10-12T12:08:10Z",
-      "status": "ok",
-      "summary": "village-quality-audit: 254 quests/27 guilds clean (0 malformed); translations es/fr/de full coverage 252/252 titles, 27/27 guilds, 98/98 i18n keys, 0 mojibake; master_quests 422 entries valid, 0 dup urls/titles; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 script refs; validators 5/5 PASSED; links 960 checked/933 OK - 27 failures all external noise (anti-bot 403s, burst 429s, transient timeouts), 0 actionable; no fixes needed, no village commit"
-    },
     {
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-12T12:14:39Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T06:04:20Z",
       "status": "ok",
       "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
+    },
+    {
+      "cron": "aetherforce-database-refresh",
+      "timestamp": "2026-10-13T06:05:27Z",
+      "status": "ok",
+      "summary": "849 works, 588 persons. +10 works / +8 persons from Forge Oct-13 batch; arqka 2nd-ed fold + builder alias; wichelen pair cross-linked; standing checks all clean."
     }
   ],
-  "timestamp": "2026-10-13T06:04:20Z",
+  "timestamp": "2026-10-13T06:05:27Z",
   "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
 }
