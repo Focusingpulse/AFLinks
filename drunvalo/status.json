@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-database-refresh",
-    "timestamp": "2026-10-13T06:05:27Z",
+    "cron": "aetherforce-synthesis",
+    "timestamp": "2026-10-13T06:07:00Z",
     "status": "ok",
-    "summary": "849 works, 588 persons. +10 works / +8 persons from Forge Oct-13 batch; arqka 2nd-ed fold + builder alias; wichelen pair cross-linked; standing checks all clean."
+    "summary": "synthesis: The Inconstant Constant - radioactive decay as a field detector. Five traditions (Shnoll cosmophysics, Purdue-Stanford solar-neutrino, Tomsk torsion rotation experiments, Krasnikov information induction, Chinese institutional qigong Am-241) converge on decay counting as the subtle-field transducer; counter-ledger carried in full (Norman same-journal rebuttal, Pomme 12-dataset metrology verdict). +6 primaries + 1 synthesis work, +5 persons (simon-shnoll, jere-jenkins, ephraim-fischbach, eric-norman, steffen-pomme), 14 back-refs wired, 20 cross_refs validated pre-push, 0 dangling. Ledger +2 proposals (upgrade-268 Shnoll corpus+databank, upgrade-269 decay-constancy counter-corpus). Re-applied onto database-refresh fresh base mid-run (fresh-base guard fired, 849/588)."
   },
-  "job": "aetherforce-database-refresh",
+  "job": "aetherforce-synthesis",
   "status": "ok",
-  "persons": 588,
-  "works": 849,
-  "notes": "village-maintenance: 962 links checked, 941 ok, 21 failures all external noise (burst 429s, anti-bot 403s, dead scraped forum-text links); +2 library resources (Agroforestry Research Trust, Ecology Action GROW BIOINTENSIVE); validators 5/5; village tip pushed and remote-verified",
+  "persons": 593,
+  "works": 856,
+  "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-synthesis",
-      "timestamp": "2026-10-12T12:14:39Z",
-      "status": "ok",
-      "summary": "created synthesis-water-metrology-wave-fifty-femtosecond-wall (26 sources); +3 works (787) +2 persons (556); 29 back-refs, 29 links; ledger upgrade-260/261 (renumbered after scout id race)"
-    },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-13T00:03:38Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-13T06:05:27Z",
       "status": "ok",
       "summary": "849 works, 588 persons. +10 works / +8 persons from Forge Oct-13 batch; arqka 2nd-ed fold + builder alias; wichelen pair cross-linked; standing checks all clean."
+    },
+    {
+      "cron": "aetherforce-synthesis",
+      "timestamp": "2026-10-13T06:07:00Z",
+      "status": "ok",
+      "summary": "synthesis: The Inconstant Constant - radioactive decay as a field detector. Five traditions (Shnoll cosmophysics, Purdue-Stanford solar-neutrino, Tomsk torsion rotation experiments, Krasnikov information induction, Chinese institutional qigong Am-241) converge on decay counting as the subtle-field transducer; counter-ledger carried in full (Norman same-journal rebuttal, Pomme 12-dataset metrology verdict). +6 primaries + 1 synthesis work, +5 persons (simon-shnoll, jere-jenkins, ephraim-fischbach, eric-norman, steffen-pomme), 14 back-refs wired, 20 cross_refs validated pre-push, 0 dangling. Ledger +2 proposals (upgrade-268 Shnoll corpus+databank, upgrade-269 decay-constancy counter-corpus). Re-applied onto database-refresh fresh base mid-run (fresh-base guard fired, 849/588)."
     }
   ],
-  "timestamp": "2026-10-13T06:05:27Z",
+  "timestamp": "2026-10-13T06:07:00Z",
   "summary": "village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified"
 }
