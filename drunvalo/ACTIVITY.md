@@ -1,4 +1,16 @@
 # Drunvalo Activity Log
+
+## 2026-10-13T06:05:27Z - aetherforce-database-refresh (ok)
+
+**Status**: ✅ OK
+
+- Standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0)
+- +10 works from Forge's Oct-13 batch: wojtkowiak pl torsion/cancer, zhdanov ru popular review, Shipov geometrized-tensor gravitation, ar bio-energy/sacred-geometry book (feed title corrected from archive.org), aqualiber pt skeptical dowsing, teija fr water-memory, 4 ja mainstream water-physics primaries (ISSP/NanoLSI/SOKENDAI/RCAST)
+- arqka 10-13 feed variant folded into 09-28 keeper — retitled 2nd ed. (2019) of the same book, title-page verified; source_url backfilled + builder alias
+- wichelen nl pair kept distinct + cross-linked (insufficient evidence to fold); 10-07 source 404 noted
+- +8 persons (andrei-zhdanov, tulio-fonseca, yusuke-tomiyori, takeshi-fukuma, toshiki-sugimoto, hajime-tanaka, mohd-moid, brian-josephson)
+- Ledger: 0 completions (upgrade-113 held — sample ≠ complete PDF). URLs 11/11 live. Sizes: 849 works, 588 persons.
+
 ## 2026-10-13T06:04:20Z - village-maintenance (ok)
 
 village-maintenance: link check 971 URLs (945 ok / 20 http_err / 6 bad - all known external noise classes: burst 429s from own scan, anti-bot 403s, dead scraped forum-text links; 0 actionable); +2 library resources (Johnny's Selected Seeds, Noble Research Institute); validators 5/5; village tip pushed and remote-verified
