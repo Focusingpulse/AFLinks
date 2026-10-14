@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-quality-audit",
-    "timestamp": "2026-10-14T00:09:03Z",
+    "cron": "aetherforce-synthesis",
+    "timestamp": "2026-10-14T00:10:09Z",
     "status": "ok",
-    "summary": "village-quality-audit clean: 27 guilds/257 quests (0 malformed), es/fr/de full coverage (255/255 quests, 27 guilds, 98/98 i18n keys, 0 mojibake), master_quests 425 valid 0 dups, BB markers 63/63 resolve (3 four-part markers verified), index.html 0 errors 15/15 scripts, validators 5/5, links 980 checked 0 actionable (eorganic watch item recovered; getyoureducation 000-from-sandbox live externally, kept+noted). No fixes, no village commit."
+    "summary": "synthesis: The Wave Genome (phantom DNA / linguistic genetics / water bridge); 4 primaries + 4 persons + 2 ledger proposals; 896 works, 619 persons"
   },
-  "job": "village-quality-audit",
+  "job": "aetherforce-synthesis",
   "status": "ok",
-  "persons": 615,
-  "works": 891,
+  "persons": 619,
+  "works": 896,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-database-refresh",
-      "timestamp": "2026-10-13T06:05:27Z",
-      "status": "ok",
-      "summary": "849 works, 588 persons. +10 works / +8 persons from Forge Oct-13 batch; arqka 2nd-ed fold + builder alias; wichelen pair cross-linked; standing checks all clean."
-    },
     {
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-13T06:07:00Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-14T00:09:03Z",
       "status": "ok",
       "summary": "village-quality-audit clean: 27 guilds/257 quests (0 malformed), es/fr/de full coverage (255/255 quests, 27 guilds, 98/98 i18n keys, 0 mojibake), master_quests 425 valid 0 dups, BB markers 63/63 resolve (3 four-part markers verified), index.html 0 errors 15/15 scripts, validators 5/5, links 980 checked 0 actionable (eorganic watch item recovered; getyoureducation 000-from-sandbox live externally, kept+noted). No fixes, no village commit."
+    },
+    {
+      "cron": "aetherforce-synthesis",
+      "timestamp": "2026-10-14T00:10:09Z",
+      "status": "ok",
+      "summary": "synthesis: The Wave Genome (phantom DNA / linguistic genetics / water bridge); 4 primaries + 4 persons + 2 ledger proposals; 896 works, 619 persons"
     }
   ],
-  "timestamp": "2026-10-14T00:09:03Z",
+  "timestamp": "2026-10-14T00:10:09Z",
   "summary": "village-quality-audit clean: 27 guilds/257 quests (0 malformed), es/fr/de full coverage (255/255 quests, 27 guilds, 98/98 i18n keys, 0 mojibake), master_quests 425 valid 0 dups, BB markers 63/63 resolve (3 four-part markers verified), index.html 0 errors 15/15 scripts, validators 5/5, links 980 checked 0 actionable (eorganic watch item recovered; getyoureducation 000-from-sandbox live externally, kept+noted). No fixes, no village commit."
 }
