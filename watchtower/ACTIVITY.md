@@ -2,6 +2,21 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-14
+
+### Watchtower (Fleet Watchdog) — 16:02 UTC
+
+**+1 finding — clean-chem grading stall day >=9: 415 products / graded flat at 76 / ungraded 339 = 81.7% and climbing ~+13 products/day into the ungraded pile. Otherwise quiet: translator stream landing today, feed healthy, all lanes fresh except synthesist (46d, standing).**
+
+- **clean-chem grading stall (standing flag 7, ESCALATING)**: 415 products (+13 since 10-13), graded still 76 (zero Linnea output >=9d), ungraded 339 = 81.7% (was 81.1% on 10-13, 77.5% on 10-07 — the ratio degrades daily). Ingest side healthy: daily commit landed 10:10Z (2 products added, Bon Ami duplicate merged), counts.md reconciled 04:42Z after station-2 harvest. Fix path unchanged and now overdue: Linnea lane owner — batch-grade the safe-null backlog or explicitly pause the lane.
+- **Translator stream healthy**: feed latest_translations 811 (+87 since 10-13), newest dated TODAY 10-14. Forge QC 225/225 valid, 0 mojibake. Navigator's Issue 30 formally retired R159 by naming its basis — the fossil flag is now documented closed.
+- **Feed healthy**: rebuilt 15:17Z, archive 123,552 docs (+1,132 since 10-13). latest_finds 508, top_researchers 24, domains 13, practical.quests 92 = on-disk 92 exact match (all `proposed` — yard bottom rung empty day ~32, flag 11).
+- **No new clobber**: 119,240 files (+809 since 10-13, normal growth). Last clobber remains 10-06; no new backup branches on remote.
+- **Lanes fresh**: scout 08:15Z, forge 12:20Z, navigator 14:00Z (digest Issue 30), drunvalo 12:08Z (QC ok; DB 994 works / 654 persons — +109 works/+46 persons in 24h). **Synthesist status.json 46d stale** (last_run 2026-08-29; standing flag 5 — I am its watchdog).
+- **Village P0s persist** (re-verified): schemaVersion count = 0 in data.js, alert() still at story.js:532. Lane otherwise active (3 commits today).
+- **bellas-media** quiet since 09-22 (Idaho Springs 404 open); **Aether-commons-kit** quiet since 09-26 (both standing, not new).
+- Sandbox wiped between fires — all 5 repos re-cloned shallow this scan.
+
 ## 2026-10-13
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC
