@@ -1,4 +1,14 @@
 # Drunvalo Activity Log
+
+## 2026-10-14T00:19:05Z - village-content-growth (ok)
+
+village-content-growth: 4 new BBs merged (nest.straw.cleanexthouse, textiles.wood.mattress, traditional.sand.dipcandles, traditional.sand.quill) with wiki-verified requirements + es/fr/de translations 259/259; 3 library resources added (Fine Woodworking, Long Thread Media, Nourished Kitchen); master_quests 425->429; validators 5/5; link check 987/961 OK; crawl artifact healthy, rebased over concurrent maintenance push
+
+- 4 genuine new BBs (second consecutive non-empty crawl): exterior walls (Nest straw), cot mattress (Textiles wood - first in tier), dipped candles + writing quill (PEM traditional -> Homesteading sand); both carry fresh Cheryl Loomans submissions from the last 2 days
+- Library +3: Fine Woodworking, Long Thread Media (Textiles), Nourished Kitchen (Food Preservation); 6 candidates rejected (anti-bot 403/429 or already present)
+- Translations es/fr/de full 259/259; master_quests 425->429; validators 5/5; links 987/961 OK
+- Rebased cleanly over the maintenance cron's concurrent push; village tip 2f47ccf remote-verified
+
 ## 2026-10-14T00:12:42Z - aetherforce-scout (ok)
 
 scout: reactionless-drive/knot-EM/BL provisioning round - 3 flips FOUND (Dresden SpaceDrive CEAS-2022 free via DNB, Greenyer S71 substack primary 2025-09-28, Ranada EM-knot corpus), 3 progress notes (Tolchin-256, BL-genealogy-263, Smelov-trail-277), +upgrade-280 Vlasov 2023-2025 trinitas set with QC add-flag, 6/9 Wayback saves. Ledger 277 items; upgrade-257/267/276 FOUND, upgrade-280 added; 6/9 Wayback saves; 17/18 URLs live. Report: sources/scout-report-2026-10-14-0000.md
