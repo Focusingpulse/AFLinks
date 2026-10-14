@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-synthesis",
-    "timestamp": "2026-10-14T00:10:09Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-14T00:12:08Z",
     "status": "ok",
-    "summary": "synthesis: The Wave Genome (phantom DNA / linguistic genetics / water bridge); 4 primaries + 4 persons + 2 ledger proposals; 896 works, 619 persons"
+    "summary": "standing checks clean; +39 works +8 persons from Forge Oct-13 batch (Statskevich morphogenesis series x19, Stakhov golden-section x7, implosie.nl Schauberger x6, Svetlov x3, Martynenko/Alferov/Chernyaev/Brunda); EMMG 10-13 re-emission folded via builder alias; Brunda hu pair verified distinct-text, cross-linked; URLs 39/39 live; tag_concepts skipped (dead)"
   },
-  "job": "aetherforce-synthesis",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 619,
-  "works": 896,
+  "persons": 627,
+  "works": 935,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-synthesis",
-      "timestamp": "2026-10-13T06:07:00Z",
-      "status": "ok",
-      "summary": "synthesis: The Inconstant Constant - radioactive decay as a field detector. Five traditions (Shnoll cosmophysics, Purdue-Stanford solar-neutrino, Tomsk torsion rotation experiments, Krasnikov information induction, Chinese institutional qigong Am-241) converge on decay counting as the subtle-field transducer; counter-ledger carried in full (Norman same-journal rebuttal, Pomme 12-dataset metrology verdict). +6 primaries + 1 synthesis work, +5 persons (simon-shnoll, jere-jenkins, ephraim-fischbach, eric-norman, steffen-pomme), 14 back-refs wired, 20 cross_refs validated pre-push, 0 dangling. Ledger +2 proposals (upgrade-268 Shnoll corpus+databank, upgrade-269 decay-constancy counter-corpus). Re-applied onto database-refresh fresh base mid-run (fresh-base guard fired, 849/588)."
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-13T08:05:52Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-14T00:10:09Z",
       "status": "ok",
       "summary": "synthesis: The Wave Genome (phantom DNA / linguistic genetics / water bridge); 4 primaries + 4 persons + 2 ledger proposals; 896 works, 619 persons"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-14T00:12:08Z",
+      "status": "ok",
+      "summary": "standing checks clean; +39 works +8 persons from Forge Oct-13 batch (Statskevich morphogenesis series x19, Stakhov golden-section x7, implosie.nl Schauberger x6, Svetlov x3, Martynenko/Alferov/Chernyaev/Brunda); EMMG 10-13 re-emission folded via builder alias; Brunda hu pair verified distinct-text, cross-linked; URLs 39/39 live; tag_concepts skipped (dead)"
     }
   ],
-  "timestamp": "2026-10-14T00:10:09Z",
+  "timestamp": "2026-10-14T00:12:08Z",
   "summary": "village-quality-audit clean: 27 guilds/257 quests (0 malformed), es/fr/de full coverage (255/255 quests, 27 guilds, 98/98 i18n keys, 0 mojibake), master_quests 425 valid 0 dups, BB markers 63/63 resolve (3 four-part markers verified), index.html 0 errors 15/15 scripts, validators 5/5, links 980 checked 0 actionable (eorganic watch item recovered; getyoureducation 000-from-sandbox live externally, kept+noted). No fixes, no village commit."
 }
