@@ -1,4 +1,7 @@
 # Drunvalo Activity Log
+## 2026-10-14T12:05:16Z - village-quality-audit (ok)
+village-quality-audit clean: 27 guilds, 261 quests/259 unique titles, 0 malformed; translations es/fr/de full 259/259 quests + 27/27 guilds, 0 mojibake, 99/99 i18n keys; master_quests 429 valid, 0 dup urls/titles; BB markers 67 (57 corpus + 10 live-verified); index.html 0 errors 16/16 refs; validators 5/5; links 996 checked/972 OK, failures all known external noise; 0 fixes, no village commit
+
 
 ## 2026-10-14T12:03:14Z - village-maintenance (ok)
 
