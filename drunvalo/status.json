@@ -1,23 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": {
-    "cron": "village-content-growth",
-    "timestamp": "2026-10-14T08:17:03Z",
-    "status": "ok",
-    "summary": "village-content-growth: crawl 499 pages, 0 new BBs (all candidates known classes; churn restored); library +3 vetted resources (Fiberygoodness->Textiles, Learn Your Land->Foraging, Bee Culture->Beekeeping); translations es/fr/de full 259/259; validators 5/5; links 994/971 OK; village tip pushed"
-  },
-  "job": "village-content-growth",
+  "last_run": "2026-10-14T12:03:14Z",
+  "job": "village-maintenance",
   "status": "ok",
   "persons": 647,
   "works": 971,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-14T00:12:08Z",
-      "status": "ok",
-      "summary": "standing checks clean; +39 works +8 persons from Forge Oct-13 batch (Statskevich morphogenesis series x19, Stakhov golden-section x7, implosie.nl Schauberger x6, Svetlov x3, Martynenko/Alferov/Chernyaev/Brunda); EMMG 10-13 re-emission folded via builder alias; Brunda hu pair verified distinct-text, cross-linked; URLs 39/39 live; tag_concepts skipped (dead)"
-    },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-14T00:12:23Z",
@@ -71,8 +60,14 @@
       "timestamp": "2026-10-14T08:17:03Z",
       "status": "ok",
       "summary": "village-content-growth: crawl 499 pages, 0 new BBs (all candidates known classes; churn restored); library +3 vetted resources (Fiberygoodness->Textiles, Learn Your Land->Foraging, Bee Culture->Beekeeping); translations es/fr/de full 259/259; validators 5/5; links 994/971 OK; village tip pushed"
+    },
+    {
+      "cron": "village-maintenance",
+      "timestamp": "2026-10-14T12:03:14Z",
+      "status": "ok",
+      "summary": "village-maintenance: 996 links checked, 974 OK / 16 http_err / 6 bad - all known non-actionable classes (anti-bot 403s, burst 429s, dead scraped forum-text links); 0 actionable. Added 2 library resources: Biodynamic Association + LocalHarvest. Validators 5/5. Village tip remote-verified."
     }
   ],
-  "timestamp": "2026-10-14T08:17:03Z",
+  "timestamp": "2026-10-14T12:03:14Z",
   "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
 }
