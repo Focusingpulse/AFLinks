@@ -1,0 +1,11 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-14T04:07:44Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": "Standing checks clean: same-file dupes 0, unknown dates 0, junk person ids 0, dangling cross_refs 0, dangling person refs 0, feed mojibake 0 (scoped), feed same-file 0. Feed date-gated whole-scan caught Forge Oct-13 evening + Oct-14 trinitas Institute-of-Life-Extension batch (16:00/20:00 windows were quota-blackout, backlog sat). +17 works (Statskevich x10 incl. Methodology 101 cluster + Ling/cell-water heritage + coacervates + modern-medicine/cancer criticism; Svetlov x5; Shishkin microflora; Kuznetsov preconception; Rostovtsev population health), +4 persons (shishkin-ad, viktor-kuznetsov, rostovtsev-vn, gilbert-ling about-convention), statskevich-an +9 links, svetlov-av +5 links, 8 back-ref wirings, all cross_refs validated against id set pre-push. Two junk feed titles (raw trinitas ids 02352171/02352174, one misattributing Rostovtsev as Statskevich) corrected via DB titles - builder title-refresh pass self-heals feed on next rebuild. URLs 17/17 live 200. tag_concepts skipped (dead). research-index 935->952 works, person-index 627->631 persons. Commits: research-index 59034b4fda94, person-index 2f31632b3473."
+}
