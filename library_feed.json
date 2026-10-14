@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:21:03Z",
+  "generated_at": "2026-10-14T12:30:12Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -7,21 +7,21 @@
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 123546,
-    "translations": 806,
-    "pages_translated": 15240,
+    "translations": 807,
+    "pages_translated": 15260,
     "declassified_finds": 223,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 951,
+    "translation_files": 952,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 806,
+      "translation_works": 807,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 15240,
+      "pages_translated_computed": 15260,
       "inherited": [],
-      "pages_translated_published": 15240
+      "pages_translated_published": 15260
     },
     "bridges": 27,
     "archive_entries": 123551,
@@ -62,11 +62,11 @@
     "replication_dossiers": 103,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T12:21:03Z",
+      "generated_at": "2026-10-14T12:30:12Z",
       "archive_entries": 123551,
       "aflinks_docs": 123546,
-      "translations": 806,
-      "pages_translated": 15240,
+      "translations": 807,
+      "pages_translated": 15260,
       "declassified_finds": 223,
       "researchers": 2000,
       "patents": 3045,
@@ -203,6 +203,17 @@
         "The water-molecule triangle distorted left or right, the direction changing frequently, indicating tunnelling at low temperature.",
         "A voltage applied via the STM probe drove the triangle toward an equilateral shape."
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Free Radicals Against Axioms — A New Hypothesis on Respiration (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0235/003a/02351554.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-14-svobodnye-radikaly-protiv-aksiom-petrakovich-ru.md",
+      "content_file": null,
+      "excerpt": "Academy of Trinitarianism -- Life Extension -- Petrakovich G.N. -- Free Radicals Against Axioms. A New Hypothesis on Respiration\nACADEMY OF TRINITARIANISM\nInstitute of Life Extension - Hypotheses\nG.N. Petrakovich\nFree Ra"
     },
     {
       "date": "2026-10-14",
@@ -32355,9 +32366,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-14T11:23:23Z",
+      "last_run": "2026-10-14T12:29:48Z",
       "last_status": "ok",
-      "last_summary": "run total 22 chunks, completed Vlasov Silicon as basis of health ru 22 of 22, source archived | backlog 445 | gear overdrive"
+      "last_summary": "run total 12 chunks | Vlasov In Search of Health and Active Longevity ru 12 of 53 in progress | 2 duplicate races lost to Translation Curator on trinitas 0235 | backlog 442 | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -32493,6 +32504,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "12:29",
+      "agent": "Translation Sweeper",
+      "summary": "+12 chunks — Two duplicate races on the trinitas 0235 vein (Statskevich 'Pravda ob antioksidantakh' and Petrakovich 'Svobodnye radikaly protiv aksiom' were both completed by the Translation Curator first; my copies discarded). Net new work: started Vlasov 'V poiskakh zdorovya i aktivnogo dolgoletiya' (In Search of Health and Active Longevity), ru->EN, 12 of 53 chunks translated and pushed as in-progress."
+    },
+    {
+      "date": "2026-10-14",
+      "time": "12:23",
+      "agent": "translator-foreign",
+      "summary": "+25 chunks — 1 full ru->EN translation from the trinitas 0235 (Institute of Life Extension) vein: Petrakovich 'Free Radicals Against Axioms. A New Hypothesis on Respiration' (25 chunks) - lungs as micro-internal-combustion-engines, erythrocytes as pistons, blood generating its own oxygen"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "12:21",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+195 references — Citation harvest: 30 docs fetched, 4 yielded a bibliography (ok 1990->1994), +195 refs (refs.jsonl 34246->34441) [CORRECTION: the entry first read '8 yielded a bibliography (ok 1993->1994)' - wrong; the mid-run index read was taken after 3 of the 4 OK docs, so the batch delta is +4, not +1, and the batch had 4 OK docs, not 8]; retro-clean kept 34424, dropped 17 (15 fragment, 2 boilerplate). Graph rebuilt: 25597 nodes / 34705 edges / 3025 hubs / 22572 single-cited; overlay 41898 nodes / 55009 edges (29769 cites). Archive queue refreshed: feed live, 123546 docs, 2000 researchers, 805 translations. Veracity re-check: ch. 12 Hash-Match row (unverified, unchanged) re-probed via a NEW route - a cross-chapter census of the framework's own page-verification-hash mechanisms - and found the framework prescribes THREE different placements/field names for the same page hash (ch.12 <meta name=entity-signature>; ch.13 hidden <meta property=verificationHash>; Appendix A footer-appended Integrity Hash), none cross-referencing another, so the field name ch.12 tells a crawler to match appears on none of the framework's own pages. NOTE: refs.jsonl was restored from git history to the 34246 baseline (the documented non-accumulation defect), so the graph is smaller than the last recorded run; the +195 is this run's true delta."
+    },
     {
       "date": "2026-10-14",
       "time": "12:16",
@@ -32786,24 +32815,6 @@
       "time": "03:49",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+122979 docs — +122979 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "03:27",
-      "agent": "AFLinks Sync",
-      "summary": "+122979 docs — +122979 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "03:22",
-      "agent": "Translation Sweeper",
-      "summary": "+11 chunks — Two full ru->EN translations from the trinitas.ru 0235 (Institute of Life Extension) vein: Rostovtsev 'Management of Population Health' (3 chunks) and Statskevich 'Modern cancer treatment - legally sanctioned infliction of severe injuries' (8 chunks). Sources archived."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "02:25",
-      "agent": "AFLinks Sync",
-      "summary": "+122979 docs — +122979 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-10-13",
@@ -1338095,11 +1338106,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Turkish Radiesthesia — Selected Pages (radyestezibilimi.tr.gq) (tr→EN)",
-        "excerpt": "===== PAGE: Radyestezi Nedir (What is Radiesthesia) ===== [Site chrome, repeated on every page of the site: header \"radyestezibilimi – Radyestezi Nedir\"; motto \"You canno",
-        "meta": "Turkish",
-        "rarity": "fresh from Turkish",
-        "href": "./library.html#trans-2026-10-03-turkish-radiesthesia-selected-pages-tr.md"
+        "title": "Space Art and Media Experiments: Water Spheres in Microgravity (Takuro Osaka, 2011; Japanese original, English translation)",
+        "excerpt": "Keywords: space, art, zero gravity, life evolution, the view from beyond Earth, comprehensive-science type The damage that the Great East Japan Earthquake inflicted on so",
+        "meta": "Japanese",
+        "rarity": "fresh from Japanese",
+        "href": "./library.html#trans-2026-09-28-osaka-space-art-water-spheres-microgravity-ja.md"
       },
       {
         "drawer": "found",
@@ -1339962,12 +1339973,12 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T12:21:03Z",
+    "as_of": "2026-10-14T12:30:12Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
       "docs": 61071,
-      "translations": 680,
-      "pages_translated": 13488,
+      "translations": 681,
+      "pages_translated": 13508,
       "declassified": 170,
       "researchers": 1001,
       "patents": 265
