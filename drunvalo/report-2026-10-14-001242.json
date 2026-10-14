@@ -1,0 +1,34 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-14T00:12:42Z",
+  "cron": "aetherforce-scout",
+  "summary": "scout: reactionless-drive/knot-EM/BL provisioning round - 3 flips FOUND (Dresden SpaceDrive CEAS-2022 free via DNB, Greenyer S71 substack primary 2025-09-28, Ranada EM-knot corpus), 3 progress notes (Tolchin-256, BL-genealogy-263, Smelov-trail-277), +upgrade-280 Vlasov 2023-2025 trinitas set with QC add-flag, 6/9 Wayback saves",
+  "status": "ok",
+  "files_modified": [
+    "sources/scout-report-2026-10-14-0000.md",
+    "family_ledger.json"
+  ],
+  "details": {
+    "flips_found": [
+      "upgrade-257",
+      "upgrade-267",
+      "upgrade-276"
+    ],
+    "progress_notes": [
+      "upgrade-256",
+      "upgrade-263",
+      "upgrade-277"
+    ],
+    "new_proposals": [
+      "upgrade-280"
+    ],
+    "wayback_saves_ok": 6,
+    "wayback_saves_failed": 3,
+    "urls_checked": 18,
+    "urls_live": 17,
+    "qc_flags": [
+      "add 5 Vlasov trinitas works",
+      "S71/Dresden-DNB cross-ref wiring available"
+    ]
+  }
+}
