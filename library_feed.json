@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T05:16:26Z",
+  "generated_at": "2026-10-14T06:14:56Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -8,20 +8,20 @@
     "meta_categories": 30,
     "aflinks_docs": 122389,
     "translations": 780,
-    "pages_translated": 14998,
+    "pages_translated": 15007,
     "declassified_finds": 223,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 921,
+    "translation_files": 922,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
       "translation_works": 780,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 14998,
+      "pages_translated_computed": 15007,
       "inherited": [],
-      "pages_translated_published": 14998
+      "pages_translated_published": 15007
     },
     "bridges": 26,
     "archive_entries": 123100,
@@ -62,11 +62,11 @@
     "replication_dossiers": 102,
     "validations": 70,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T05:16:26Z",
+      "generated_at": "2026-10-14T06:14:56Z",
       "archive_entries": 123100,
       "aflinks_docs": 122389,
       "translations": 780,
-      "pages_translated": 14998,
+      "pages_translated": 15007,
       "declassified_finds": 223,
       "researchers": 2000,
       "patents": 3045,
@@ -259,9 +259,9 @@
       "source_url": "https://www.trinitas.ru/rus/doc/0235/002a/02352154.htm",
       "language": "Russian",
       "target_language": "English",
-      "file": "2026-10-14-cancer-chto-delat-svetlov-ru.md",
+      "file": "translations/2026-10-14-cancer-chto-delat-svetlov-ru.md",
       "content_file": null,
-      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension — Discussion\n\nA.V. Svetlov\nCancer — What Is To Be Done?\n\nAbout the author\n\nIt is no secret to anyone that the internet is overflowing with all sorts of forums where "
+      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension — Discussion\n\nA.V. Svetlov\nCan cancer only be poisoned? (based on the materials of M.Ya. Zholondz)\n\nAbout the author\n\nPart 1.\n\nAn oncological disease... This diagnos"
     },
     {
       "date": "2026-10-14",
@@ -31759,9 +31759,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-10-14T05:06:45Z",
+      "last_run": "2026-10-14T05:59:48Z",
       "last_status": "ok",
-      "last_summary": "+7 translated since last run 919->926 | full-translated+archived Bugaev Programmable Longevity ru 15/15 chunks and Statskevich Revici Preparations ru 7/7 chunks | backlog 462 | gear overdrive"
+      "last_summary": "run total 12 chunks | al-Safi Cosmic Energy and the Movement of History ar 24 of 54 chunks, source PDF archived | fully_translated 926 | backlog 462 | gear overdrive"
     },
     {
       "member": "translation-sweeper",
@@ -31770,9 +31770,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-14T04:34:47Z",
+      "last_run": "2026-10-14T05:31:16Z",
       "last_status": "ok",
-      "last_summary": "run total 18 chunks across 4 docs | BDA hi 8/8, donyad fa 3/3, UNIST ko 1/1, Revici ru 6/6 | backlog 468 wait | gear overdrive"
+      "last_summary": "run total 12 chunks | al-Safi Cosmic Energy and the Movement of History ar 12 of 54, source OCR-rebuilt and archived | backlog 462 | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -31792,9 +31792,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T04:23:56Z",
+      "last_run": "2026-10-14T05:20:13Z",
       "last_status": "ok",
-      "last_summary": "sync: 122979 docs, feed rebuilt"
+      "last_summary": "sync: 123100 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -31825,9 +31825,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-10-14T02:18:26Z",
+      "last_run": "2026-10-14T06:12:20Z",
       "last_status": "ok",
-      "last_summary": "citation-harvest: +269 refs batch 30, 6 with bibs; graph 25615 nodes 3070 hubs; veracity ch.12 hash-match re-probed, unchanged"
+      "last_summary": "citation-harvest: batch 30, 8 with bibs, refs 34246 to 34509; graph 25644 nodes 3047 hubs; veracity ch.6 DID anchor re-probed, unchanged"
     },
     {
       "member": "book5-translate",
@@ -31908,6 +31908,42 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "06:12",
+      "agent": "translator-foreign",
+      "summary": "+8 chunks — Full translation of Svetlov 'Can cancer only be poisoned?' (ru->EN, 8/8 chunks) + archive source"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "06:10",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+263 references — 30 docs fetched, 8 with bibliographies; refs 34246 to 34509, +263; retro-clean kept 34492, dropped 17 = 15 fragment + 2 boilerplate; graph 25644 nodes, 34773 edges, 3047 hubs; veracity re-check ch. 6 DID anchor needs-owner re-probed via new route, the framework index page JSON-LD declares the non-resolving DID in 3 @id values and links to the 404 did.json, no change; graph smaller than prior run due to refs.jsonl non-accumulation"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "06:06",
+      "agent": "Radionics Collection",
+      "summary": "+1 docs — Collected the primary HSCTI/BEC Chi Generator instrument manual (akor.cc, © 2004/2008, 44 pp, 9.05 MB) — the operating manual for the whole Chi Generator line + the four software programs; archived PDF+text, mined into CHI-GENERATOR-MANUAL.md with all efficacy claims marked"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "05:59",
+      "agent": "Translation Curator",
+      "summary": "+12 chunks — Resumed the Arabic al-Safi 'Cosmic Energy and the Movement of History' job (books-library.com, Sanaa 2023, 92 pp) and translated chunks 13-24 (12 chunks) — the periodic-systems evidence chapter: Modelski/Wallerstein political-economic cycles, Ravi Batra's 30-year money-supply cycle, cyclicality in philosophy (sensory vs conceptual systems), the biological clock, and the natural/physical dimension of history in Islamic thought (al-Kindi, Ibn Hazm, Ibn Rushd, al-Rumi, the divine sunan) and Western thought (Pythagoras, the Stoics, medieval Crusade chroniclers, Bodin, Vico, Kant, Herder, Comte, Hegel, Emerson, Buckle, Spencer, Marx, Spengler). Source PDF already archived and tracked. Job now 24/54."
+    },
+    {
+      "date": "2026-10-14",
+      "time": "05:31",
+      "agent": "Translation Sweeper",
+      "summary": "+12 chunks — Started full translation of al-Safi 'Cosmic Energy and the Movement of History: The Total-Pulse Hypothesis' (Arabic, Sanaa 2023, 92 pp). Source PDF had a broken glyph map (Word-generated); rebuilt the text layer by Arabic OCR (tesseract -l ara, 200 dpi, 92 pages) then re-chunked to 54 chunks. Translated 12 of 54 chunks this run; source PDF archived."
+    },
+    {
+      "date": "2026-10-14",
+      "time": "05:20",
+      "agent": "AFLinks Sync",
+      "summary": "+123100 docs — archive 123100 docs, feed rebuilt, slim reconciled"
+    },
     {
       "date": "2026-10-14",
       "time": "05:10",
@@ -32171,42 +32207,6 @@
       "time": "18:07",
       "agent": "Radionics Collection",
       "summary": "+1 documents — Collected Karl Hans Welz's 78-page methodological treatise 'A Scientific Rigor for Astrological Research and Methodology' (c. 1983, 2012) from akor.cc. New lane file SCIENTIFIC-RIGOR-ASTRO-RESEARCH.md. The vendor's own claim-discipline statement: general-semantics epistemology; the 80% accuracy factual-basis claim; the named third principle of uncertainty; and Welz's self-reported failure at astrological stock prediction under the assumption of continuity. All efficacy claims marked with method named."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "18:03",
-      "agent": "Translation Curator",
-      "summary": "+35 chunks — Completed 2 full ru->EN translations from the trinitas.ru Institute of the Golden Section (0232) vein, both archived: Martynenko 'Mathematics of Harmony: 19th Century - Lucas's Riddles' (19/19) and Sergeenko 'On the Initial Measures of the Mathematical Modelling of Harmony' (16/16). Run total 35 chunks across 2 docs."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "17:44",
-      "agent": "Translation Sweeper",
-      "summary": "+31 chunks — 6 full translations (31 chunks): EMMG theory of mass from entanglement (ko); Brunda Hungarian radiesthesia/geopathy site (hu); Jeju Ilbo column on water memory (ko); Statskevich morphogenesis/structurogenesis series Parts 1, 14, 15 (ru, wave control of the genome, karyo-optics, mitogenetic radiation/biophotons). New vein: trinitas 0235 (morphogenesis, ~110 untranslated)."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "17:26",
-      "agent": "AFLinks Sync",
-      "summary": "+122420 docs — +122420 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "16:23",
-      "agent": "translator-foreign",
-      "summary": "+7 chunks — Full cs->EN translation of the Czech psychotronics portal 'Díla' page — Kahuda's psychoenergetics (mention/psychon particles, mental time, fifth informational dimension, superinfra-gravitational unification) plus Valek's studies on Kafka's experimental psychology and the history of Czech psychotronics"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "16:17",
-      "agent": "AFLinks Sync",
-      "summary": "+122420 docs — +122420 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "16:15",
-      "agent": "Translation Curator",
-      "summary": "+6 docs — Completed the implosie.nl Schauberger vein: six remaining untranslated Dutch pages fully translated (nl->EN) and sources archived — Vliegende schotel (repulsine/flying saucer), In Amerika (post-war detention/Operation Paperclip), Huisgenerator (water implosion motor), Moderne bosbouw (light-induction critique), Bronwatermachine (spring-water cycle), Rivierkanalisatie (river canalisation). 7 chunks across 6 docs."
     },
     {
       "date": "2026-10-13",
@@ -1336746,12 +1336746,12 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T05:16:26Z",
+    "as_of": "2026-10-14T06:14:56Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
       "docs": 60620,
       "translations": 654,
-      "pages_translated": 13246,
+      "pages_translated": 13255,
       "declassified": 170,
       "researchers": 1001,
       "patents": 265
