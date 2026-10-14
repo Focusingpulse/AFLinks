@@ -1,0 +1,22 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-14T12:03:14Z",
+  "summary": "village-maintenance: 996 links checked, 974 OK / 16 http_err / 6 bad - all known non-actionable classes (anti-bot 403s, burst 429s, dead scraped forum-text links); 0 actionable. Added 2 library resources: Biodynamic Association + LocalHarvest. Validators 5/5. Village tip remote-verified.",
+  "status": "ok",
+  "files_modified": [
+    "index.html",
+    "village-link-report.md"
+  ],
+  "details": {
+    "cron": "village-maintenance",
+    "links_checked": 996,
+    "ok": 974,
+    "http_err": 16,
+    "bad": 6,
+    "actionable": 0,
+    "resources_added": [
+      "Biodynamic Association",
+      "LocalHarvest"
+    ]
+  }
+}
