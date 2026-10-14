@@ -1,18 +1,17 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-10-14T12:03:14Z",
-  "job": "village-maintenance",
+  "last_run": {
+    "cron": "village-quality-audit",
+    "timestamp": "2026-10-14T12:05:16Z",
+    "status": "ok",
+    "summary": "village-quality-audit clean: 27 guilds, 261 quests/259 unique titles, 0 malformed; translations es/fr/de full 259/259 quests + 27/27 guilds, 0 mojibake, 99/99 i18n keys; master_quests 429 valid, 0 dup urls/titles; BB markers 67 (57 corpus + 10 live-verified); index.html 0 errors 16/16 refs; validators 5/5; links 996 checked/972 OK, failures all known external noise; 0 fixes, no village commit"
+  },
+  "job": "village-quality-audit",
   "status": "ok",
   "persons": 647,
   "works": 971,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-14T00:12:23Z",
-      "status": "ok",
-      "summary": "link check 980 urls: 958 ok, 15 http_err, 7 bad - all known external noise classes (burst 429s calearth/charlesdowding/culturesforhealth/goingtoseed/blackdragonforge now 403-to-sandbox-IP, anti-bot 403s, dead scraped forum-text links). 2 new index-facing timeouts: reviver-project.eu re-verified 200 (burst noise); getyoureducation.net hard-down (45s https hang, zero wayback captures) - WATCH ITEM, first failure, link kept per standing rule, canonical swayam.gov.in noted as future swap candidate. "
-    },
     {
       "cron": "aetherforce-scout",
       "timestamp": "2026-10-14T00:12:42Z",
@@ -66,8 +65,14 @@
       "timestamp": "2026-10-14T12:03:14Z",
       "status": "ok",
       "summary": "village-maintenance: 996 links checked, 974 OK / 16 http_err / 6 bad - all known non-actionable classes (anti-bot 403s, burst 429s, dead scraped forum-text links); 0 actionable. Added 2 library resources: Biodynamic Association + LocalHarvest. Validators 5/5. Village tip remote-verified."
+    },
+    {
+      "cron": "village-quality-audit",
+      "timestamp": "2026-10-14T12:05:16Z",
+      "status": "ok",
+      "summary": "village-quality-audit clean: 27 guilds, 261 quests/259 unique titles, 0 malformed; translations es/fr/de full 259/259 quests + 27/27 guilds, 0 mojibake, 99/99 i18n keys; master_quests 429 valid, 0 dup urls/titles; BB markers 67 (57 corpus + 10 live-verified); index.html 0 errors 16/16 refs; validators 5/5; links 996 checked/972 OK, failures all known external noise; 0 fixes, no village commit"
     }
   ],
-  "timestamp": "2026-10-14T12:03:14Z",
+  "timestamp": "2026-10-14T12:05:16Z",
   "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
 }
