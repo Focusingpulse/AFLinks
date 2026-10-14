@@ -1,5 +1,10 @@
 # Drunvalo Activity Log
 
+## 2026-10-14T00:10:49Z - aetherforce-synthesis (ok)
+
+**The Wave Genome: Phantom DNA, Linguistic Genetics, and the Water Bridge** — new synthesis (`synthesis/2026-10-14-wave-genetics-phantom-dna-linguistic-genome.md`) tracing the Gariaev school's three separable claims (bench observation / PCR method / genome-as-text theory), the Montagnier Nobel-laureate bridge to the water-memory lane, and the Kaznacheev Russian context. Skeptical ledger carried in full: forty years, one instrument lineage, zero independent replications, missing sequencing control — with the honest counterweight that the lane's decisive experiment is named, published, and cheap. +4 primaries (Poponin 2002, Gariaev monograph 2018, phantom-PCR 2016, Montagnier 2011), +4 persons (poponin, montagnier, vladychenskaya, leonova-gariaeva), +2 ledger proposals (Gariaev-Poponin 1995 genesis report; Montagnier transduction corpus). DB: 896 works, 619 persons. Cross-refs validated, 0 dangling.
+
+
 ## 2026-10-14T00:09:03Z - village-quality-audit (ok)
 - village-quality-audit clean: 27 guilds/257 quests (0 malformed), es/fr/de full coverage (255/255 quests, 27 guilds, 98/98 i18n keys, 0 mojibake), master_quests 425 valid 0 dups, BB markers 63/63 resolve (3 four-part markers verified), index.html 0 errors 15/15 scripts, validators 5/5, links 980 checked 0 actionable (eorganic watch item recovered; getyoureducation 000-from-sandbox live externally, kept+noted). No fixes, no village commit.
 
