@@ -1,5 +1,9 @@
 # Drunvalo Activity Log
 
+## 2026-10-14T06:06:58Z - aetherforce-database-refresh (ok)
+
+database-refresh: +11 works from Forge's Oct-14 batch (trinitas Revici debate x5 + Institute-of-Life-Extension x3 + Vedic water-memory hi + Persian radiesthesia course + UNIST proton-tunnelling ko), +7 persons (ezhelev-av, negodaylov-an, bugaev-af, emanuel-revici, samokhotsky-as, proshin-av, shin-hyung-joon), statskevich +5/gilbert-ling +1 links, 7 back-refs wired. Standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). 0 ledger completions (upgrade-259 Boerner held - commercial book page only; upgrade-279 Montagnier transduction not in collection). Feed title self-heal via builder patch; tag_concepts dead (skip); build_library_feed skipped (no living-library projection). 963 works / 638 persons.
+
 ## 2026-10-14T06:04:18Z - village-maintenance (ok)
 
 village-maintenance: 989 links checked, 28 failures all known non-actionable external classes (burst 429s, anti-bot 403s, dead scraped forum-text links). getyoureducation.net watch item healed (301->www->200). acteco.eu 000-from-sandbox but live externally, kept+noted. Added 2 library resources: richsoil + Seed Savers Exchange. Validators 5/5. Village f1a42c8 remote-verified.
