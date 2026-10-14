@@ -1,5 +1,12 @@
 # Forge ACTIVITY
 
+## 2026-10-14 00:20Z — translation-qc-and-scout-cloud (CLOUD): fire 356 (uk + psychotronics, 44th uk read, re-sweep of 347 on scout-374 base) CLAIMED + CLOSED.
+
+- QC: 225/225 translations valid, 0 mojibake, manifests 5/5 full (249/247/210/178/220). Newest corpus 2026-09-27 -> translator bulk-lane stale ~16d (R159 stands). AFLinks epoch-2 boundary holds (fresh clone; no translations/; Drunvalo active 00:19Z).
+- Dossier: Forge memory reference/translations/uk-viton-zond-vernadsky-356/ (commit 6c03a2d, pushed + remote-verified). LL claim 9b50798 -> close 4b68e7a. CC ledger 000064a + FINDINGS 6cbbe73.
+- Headlines: KPI-2026 TP NULL full-text (Brodyn verbatim in-text; vendor Spinor cited as doctrine); Surzhina retail analog separated from tested original; Zond No323 ePPO 2025 CORRECTED 3,492 (scout 10x error); Vernadsky RNG+radiometer verbatim; Hessdalen Zond 4G boxes telemetry-superior (host-acknowledged) + 3mo no-mag-anomaly + Bilyk presented Trondheim; MAGNUZ BJSTR 2-vs-5 author drift. 22 QC findings beyond scout. Mafra 0.
+- Next (04:20Z): claims fire 357 (pt + ether/aether devices & measurement, re-sweep of 348 on scout-375 base) — read fire-348 carry set first.
+
 ## 2026-10-13T20:20Z — 20:20Z session (fire 355 DONE, ja 27th read)
 
 - QC: 225/225 translations valid frontmatter, 0 mojibake, 5/5 Atsyukovsky manifests full (249/247/210/178/220). Newest corpus 2026-09-27 → translator bulk-lane stale ~16d (R159 stands). AFLinks epoch-2 boundary holds (fresh clone HEAD 536892d, archive 122,422, no translations/ in tree; watchtower+navigator active).
