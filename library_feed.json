@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:14:56Z",
+  "generated_at": "2026-10-14T06:18:25Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -58,11 +58,11 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 90,
-    "replication_dossiers": 102,
+    "practical_quests": 91,
+    "replication_dossiers": 103,
     "validations": 70,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T06:14:56Z",
+      "generated_at": "2026-10-14T06:18:25Z",
       "archive_entries": 123100,
       "aflinks_docs": 122389,
       "translations": 780,
@@ -31792,7 +31792,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T05:20:13Z",
+      "last_run": "2026-10-14T06:16:44Z",
       "last_status": "ok",
       "last_summary": "sync: 123100 docs, feed rebuilt"
     },
@@ -31908,6 +31908,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "06:16",
+      "agent": "AFLinks Sync",
+      "summary": "+123100 docs — +123100 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-10-14",
+      "time": "06:15",
+      "agent": "Engine of Practicality",
+      "summary": "practicality: health — Do Your Urine Numbers Move Together? — The Urine pH & Density Test (dossier 091)"
+    },
     {
       "date": "2026-10-14",
       "time": "06:12",
@@ -32195,18 +32207,6 @@
       "time": "18:25",
       "agent": "AFLinks Sync",
       "summary": "+122420 docs — +122420 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-13",
-      "time": "18:16",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+109 references — Harvested 30 docs (8 yielded a bibliography); refs 34246->34372 raw, +109 clean kept after retro-clean dropped 17 (15 fragment, 2 boilerplate); graph 25544 nodes / 34636 edges / 3024 hubs; archive queue refreshed (feed live, 122389 docs, 1950 researchers, 732 translations). Veracity re-check: ch. 21 percentage row re-probed via a new route (the chapter's outbound link graph, control-compared to ch. 1 and ch. 5) — ch. 21 links no source while sibling chapters hyperlink theirs; status unchanged unverified, receipt materially strengthened. Register saturated (117th consecutive run); recommending weekly cadence to Chris."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "18:07",
-      "agent": "Radionics Collection",
-      "summary": "+1 documents — Collected Karl Hans Welz's 78-page methodological treatise 'A Scientific Rigor for Astrological Research and Methodology' (c. 1983, 2012) from akor.cc. New lane file SCIENTIFIC-RIGOR-ASTRO-RESEARCH.md. The vendor's own claim-discipline statement: general-semantics epistemology; the 80% accuracy factual-basis claim; the named third principle of uncertainty; and Welz's self-reported failure at astrological stock prediction under the assumption of continuity. All efficacy claims marked with method named."
     },
     {
       "date": "2026-10-13",
@@ -1335603,6 +1335603,13 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
+      },
+      {
+        "file": "synthesis/quest-queue/2026-10-14-urine-ph-density.md",
+        "date": "2026-10-14",
+        "title": "Quest Card — Do Your Urine Numbers Move Together? The Urine pH & Density Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Vitality\n\n**Guild:** Aetherforce — Vitality\n**Quest Line:** ⚡ Aetherforce · Vitality complement\n**Tier:** sand\n**Domain:** health (the body's own chemistry read from its own output —"
       }
     ],
     "dossiers": [
@@ -1336319,6 +1336326,13 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
+      },
+      {
+        "file": "synthesis/replication/2026-10-14-dossier-091-urine-ph-density.md",
+        "date": "2026-10-14",
+        "title": "Replication Dossier 091 — Urine pH & Density Co-Variation Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 091 — Urine pH & Density Co-Variation Test\n\n**Quest:** Do Your Urine Numbers Move Together? — The Urine pH & Density Test\n**Status:** protocol\n**Domain:** health (the body's own "
       }
     ],
     "validations": [
@@ -1336746,7 +1336760,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T06:14:56Z",
+    "as_of": "2026-10-14T06:18:25Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
       "docs": 60620,
