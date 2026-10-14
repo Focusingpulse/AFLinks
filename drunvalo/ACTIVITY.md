@@ -1,5 +1,11 @@
 # Drunvalo Activity Log
 
+## 2026-10-14T12:03:14Z - village-maintenance (ok)
+
+- Link check: 996 URLs - 974 OK / 16 http_err / 6 bad, all known non-actionable classes; 0 actionable
+- Library +2: Biodynamic Association, LocalHarvest; validators 5/5
+- Village commit pushed + remote-verified
+
 ## 2026-10-14T08:17:03Z - village-content-growth (ok)
 village-content-growth: crawl 499 pages, 0 new BBs (all candidates known classes; churn restored); library +3 vetted resources (Fiberygoodness->Textiles, Learn Your Land->Foraging, Bee Culture->Beekeeping); translations es/fr/de full 259/259; validators 5/5; links 994/971 OK; village tip pushed
 
