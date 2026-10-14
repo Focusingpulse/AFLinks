@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-content-growth",
-    "timestamp": "2026-10-14T00:19:05Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-14T04:07:44Z",
     "status": "ok",
-    "summary": "4 new BBs + 3 library resources, translations 259/259, master 425->429, village tip remote-verified"
+    "summary": "+17 trinitas life-extension works, +4 persons, 8 back-refs; all standing checks clean; 952 works / 631 persons"
   },
   "job": "aetherforce-scout",
   "status": "ok",
-  "persons": 627,
-  "works": 935,
+  "persons": 631,
+  "works": 952,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "village-quality-audit",
-      "timestamp": "2026-10-13T12:07:53Z",
-      "status": "ok",
-      "summary": "village-quality-audit: clean run, no fixes. 257 quests/255 unique titles/27 guilds, 0 malformed; es/fr/de 255/255 quests + 27/27 guilds, 0 mojibake, 98/98 i18n keys; master_quests 425 valid, 0 dups; 60/60 BB markers resolve; index.html 0 parse errors, 15/15 refs; 5/5 validators PASSED; links 978 checked/953 OK - 25 failures all external noise, 0 actionable (eorganic.org sandbox-unreachable but live per search index, kept); standing dup-title flag (Public Art, Organize a Swap x2) held, restructuring-class."
-    },
     {
       "cron": "aetherforce-scout",
       "timestamp": "2026-10-13T12:10:06Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-14T00:19:05Z",
       "status": "ok",
       "summary": "4 new BBs + 3 library resources, translations 259/259, master 425->429, village tip remote-verified"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-14T04:07:44Z",
+      "status": "ok",
+      "summary": "+17 trinitas life-extension works, +4 persons, 8 back-refs; all standing checks clean; 952 works / 631 persons"
     }
   ],
-  "timestamp": "2026-10-14T00:19:05Z",
+  "timestamp": "2026-10-14T04:07:44Z",
   "summary": "scout: reactionless-drive/knot-EM/BL provisioning round - 3 flips FOUND (Dresden SpaceDrive CEAS-2022 free via DNB, Greenyer S71 substack primary 2025-09-28, Ranada EM-knot corpus), 3 progress notes (Tolchin-256, BL-genealogy-263, Smelov-trail-277), +upgrade-280 Vlasov 2023-2025 trinitas set with QC add-flag, 6/9 Wayback saves"
 }
