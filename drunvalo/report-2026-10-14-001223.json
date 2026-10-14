@@ -1,0 +1,12 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-14T00:12:23Z",
+  "summary": "village-maintenance-link-fixes-and-resources",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md",
+    "index.html",
+    "village_maintain.py"
+  ],
+  "details": "link check 980 urls: 958 ok, 15 http_err, 7 bad - all known external noise classes (burst 429s calearth/charlesdowding/culturesforhealth/goingtoseed/blackdragonforge now 403-to-sandbox-IP, anti-bot 403s, dead scraped forum-text links). 2 new index-facing timeouts: reviver-project.eu re-verified 200 (burst noise); getyoureducation.net hard-down (45s https hang, zero wayback captures) - WATCH ITEM, first failure, link kept per standing rule, canonical swayam.gov.in noted as future swap candidate. eorganic.org watch item HEALED (absent from failure list). Added 2 library resources: Greenhorns + National Young Farmers Coalition. RESOURCE_POOL exhausted at 40/40 - extended to 51 with 11 vetted entries (richsoil, Seed Savers Exchange, Small Farmer's Journal, MOFGA, Biodynamic Association, LocalHarvest, Stone Barns Center, Soul Fire Farm, Backwoods Home, Project Drawdown, Tillers International); rejected 6 (echocommunity/themarketgardener/realorganicproject/groworganic 403-cloudflare, patternliteracy timeout, geofflawtononline 202-interstitial). Validators 5/5. Village commit pushed + remote-verified."
+}
