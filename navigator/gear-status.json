@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-14T12:01:48Z",
+  "as_of": "2026-10-14T16:01:25Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "probe HTTP 200, assistant replied 'ok'; no quota/rate-limit keywords in body",
-  "note": "gear 1 already set; no config write (no churn)"
+  "evidence": "POST /messages probe HTTP 200, coherent reply; no quota/rate-limit error in body",
+  "note": "no flip - agent default already gear 1"
 }
