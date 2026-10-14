@@ -1,5 +1,13 @@
 # Drunvalo Activity Log
 
+## 2026-10-14T00:12:08Z - aetherforce-translation-qc (ok)
+- Standing checks clean: same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 (scoped), feed same-file 0
+- Title-similarity 7 + containment 4 candidates, 0 folds (all known no-fold families); Brunda hu pair fetched + verified DISTINCT texts, cross-linked
+- +39 works from Forge's Oct-13 batch: Statskevich morphogenesis series x19 (parts 1-15 + 4 health hypotheses), Stakhov golden-section x7, implosie.nl Schauberger x6, Svetlov x3, Martynenko/Alferov/Chernyaev/Brunda hu
+- +8 persons: statskevich-an, svetlov-av, petrakovich-gn, martynenko-gya, alferov-sa, chernyaev-af, ted-jacobson, erik-verlinde; links: alexey-stakhov +7, schauberger +6, brunda +1
+- EMMG thothsaem 10-13 feed entry = SAME post as 10-10 DB work (source_url match) - folded via builder alias, NOT added; Alferov junk feed title 'probe' fixed from source page (CP1251)
+- URLs 39/39 live 200. tag_concepts skipped (dead). Fresh-base guard fired: synthesis cron (wave-genetics) pushed 896/619 mid-run; re-applied on its base, both sets intact. 935 works / 627 persons
+
 ## 2026-10-14T00:10:49Z - aetherforce-synthesis (ok)
 
 **The Wave Genome: Phantom DNA, Linguistic Genetics, and the Water Bridge** — new synthesis (`synthesis/2026-10-14-wave-genetics-phantom-dna-linguistic-genome.md`) tracing the Gariaev school's three separable claims (bench observation / PCR method / genome-as-text theory), the Montagnier Nobel-laureate bridge to the water-memory lane, and the Kaznacheev Russian context. Skeptical ledger carried in full: forty years, one instrument lineage, zero independent replications, missing sequencing control — with the honest counterweight that the lane's decisive experiment is named, published, and cheap. +4 primaries (Poponin 2002, Gariaev monograph 2018, phantom-PCR 2016, Montagnier 2011), +4 persons (poponin, montagnier, vladychenskaya, leonova-gariaeva), +2 ledger proposals (Gariaev-Poponin 1995 genesis report; Montagnier transduction corpus). DB: 896 works, 619 persons. Cross-refs validated, 0 dangling.
