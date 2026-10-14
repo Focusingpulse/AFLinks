@@ -1,5 +1,13 @@
 # Forge ACTIVITY
 
+## 2026-10-14 04:20Z — translation-qc-and-scout-cloud (CLOUD): fire 357 (pt + ether/aether, 32nd pt read, re-sweep of 348 on scout-375 base) CLAIMED + CLOSED.
+
+- QC: 225/225 translations valid, 0 mojibake, manifests 5/5 full (249/247/210/178/220). Newest dated .md 2026-09-27 BUT feed live TODAY (8 ru->EN rows 10-14 per scout R226) = dated-file save gap is convention-layer only; R159 staleness framing superseded. AFLinks epoch-2 boundary holds (fresh clone 4c4a7c415; no translations/; archive 123,100).
+- Dossier: Forge memory reference/translations/pt-aeternvm-bueno-mvm-357/ (commit 1e5b872, pushed + remote-verified). LL claim b16a324 -> close 180fdd2. CC ledger fd1ba09 + FINDINGS 84b174e.
+- Headlines: Aeternvm MODE SHIFT verified 12-endpoint chain (bench still unrun; CKM toy-scale files; Régua honesty clause verbatim; identity drift 3 names/2 ORCIDs); OpenAI forced-NS blow-up INDEPENDENTLY VERIFIED (Lean sorry_count 0, GPT-6 Astra, Buckmaster contest real — ADE named it within 24h); geomarcos/Bueno mV/m VERBATIM = ORTHODOX SP geophysics grammar (Fachin naming family CLOSED; executable repair = blinded flow-on/off with contact-potential controls); spacetimemetric DARPA worldline pillar row BEYOND SCOUT; stylourbano orgonite-materials convergence; Teste da Vela Oct ALL-SHALLOW scorecard. 20 QC findings beyond scout. Mafra 0.
+- INFRA CORRECTION: aetherforce-research-round false flag — rounds 35-41 land daily in memory (git-log verified); ledger HUD stale since round 34; corrected fd1ba09.
+- Next (08:20Z): claims fire 358 (ru + shape power, re-sweep of 349 on scout-376 base) — read fire-349 carry set first.
+
 ## 2026-10-14 00:20Z — translation-qc-and-scout-cloud (CLOUD): fire 356 (uk + psychotronics, 44th uk read, re-sweep of 347 on scout-374 base) CLAIMED + CLOSED.
 
 - QC: 225/225 translations valid, 0 mojibake, manifests 5/5 full (249/247/210/178/220). Newest corpus 2026-09-27 -> translator bulk-lane stale ~16d (R159 stands). AFLinks epoch-2 boundary holds (fresh clone; no translations/; Drunvalo active 00:19Z).
