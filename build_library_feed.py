@@ -1371,6 +1371,11 @@ def main():
         # (title page verified from the Muestra PDF). Folded in research-index.
         "2026-10-13-geometria-sagrada-y-arquitectura-muestra-alvarez-ponce-es.md":
             "2026-09-28-arquitectura-biologica-geometria-sagrada-ponce-de-leon-es.md",
+        # 2026-10-14 (Drunvalo, translation-QC): same ThothSaem EMMG blog post
+        # (thothsaem.com/2025/05/27/) re-emitted under a new slug — the 10-10 work
+        # already carries the percent-encoded source_url. Folded in research-index.
+        "2026-10-13-entanglement-to-mass-emmg-jacobson-verlinde-ig-rueqft-ko.md":
+            "2026-10-10-emmg-theory-entanglement-modular-mass-gap-thothsaem-ko.md",
         # 2026-10-07 (Drunvalo, translation-QC): folded 2026-10-06 QC pair —
         # 2026-10-13 (Drunvalo, translation-QC): same Karim Amir bio-energy/sacred-geometry
         # book re-emitted by Forge under a second slug; DB keeper + feed twin both exist.
