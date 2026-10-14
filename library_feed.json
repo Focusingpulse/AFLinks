@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:19:10Z",
+  "generated_at": "2026-10-14T17:13:00Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -9,7 +9,7 @@
     "aflinks_docs": 123546,
     "translations": 814,
     "pages_translated": 15344,
-    "declassified_finds": 229,
+    "declassified_finds": 233,
     "active_agents": 15,
     "book5_complete": true,
     "translation_files": 962,
@@ -24,9 +24,9 @@
       "pages_translated_published": 15344
     },
     "bridges": 27,
-    "archive_entries": 123552,
+    "archive_entries": 123781,
     "meta_counts": {
-      "Challenges to the Standard Model": 72442,
+      "Challenges to the Standard Model": 72595,
       "Biological & Morphogenetic Science": 1472,
       "Plasma, Torsion & Cosmology": 715,
       "Harmonics, Rhythms & Cycles": 473,
@@ -41,16 +41,16 @@
       "Regenerative Agriculture": 259,
       "Goethean & Anthroposophical Science": 136,
       "Radionics, Radiesthesia & Shape Power": 57,
-      "Alternative Energy Technologies": 59659,
-      "Patents & Inventions": 42955,
-      "Geopolitics & Hidden History": 35622,
-      "Electromagnetic Theory": 16469,
-      "Reference & Technical Data": 4340,
-      "Media & Interviews": 4121,
-      "Environment & Climate": 13121,
-      "Biology, Health & Medicine": 13228,
-      "Frontier Science": 1411,
-      "Rudolf Steiner & Anthroposophy": 7725,
+      "Alternative Energy Technologies": 59787,
+      "Patents & Inventions": 43080,
+      "Geopolitics & Hidden History": 35682,
+      "Electromagnetic Theory": 16502,
+      "Reference & Technical Data": 4341,
+      "Media & Interviews": 4130,
+      "Environment & Climate": 13152,
+      "Biology, Health & Medicine": 13285,
+      "Frontier Science": 1499,
+      "Rudolf Steiner & Anthroposophy": 7726,
       "Acoustics": 1,
       "Alt Science": 1,
       "Alternative Physics": 2,
@@ -62,12 +62,12 @@
     "replication_dossiers": 104,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T16:19:10Z",
-      "archive_entries": 123552,
+      "generated_at": "2026-10-14T17:13:00Z",
+      "archive_entries": 123781,
       "aflinks_docs": 123546,
       "translations": 814,
       "pages_translated": 15344,
-      "declassified_finds": 229,
+      "declassified_finds": 233,
       "researchers": 2000,
       "patents": 3045,
       "active_agents": 15,
@@ -20993,6 +20993,54 @@
     },
     {
       "date": "2026-10-14",
+      "file": "2026-10-14-scout-growth-1615.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Live",
+          "description": "wrap ALL dry first:** lenr-canr /acrobat/ 200/138,466B **1,455 DRY byte-same**; viXra frontier probes 2610.0061–0072 **ALL 404 → HOLDS @0060** (no advance since 08:15Z); iccf-27 /proceeding/ 200/112,579B **JCF24 post again — actual ICCF-27 proceedings STILL not published ~23wk post-conf TOP watch**; svpvril re-diff **67 static** (byte-same); erdmagnetfeld re-diff **static** (30 homepage hrefs all in filelist); RENSIT /vypuski/ **404** (cert/site flux; №6 due 31-Oct); seplm unreachable; borderlands.de **000** from cloud.",
+          "url": ""
+        },
+        {
+          "title": "DISCOVERY probes",
+          "description": "** (1) **journalofscientificexploration.org (JSE)** — full OJS issue-archive enumeration (75 issues / 1,223 galleys) → **already fully covered** (jse_org: 1,167/1,167 in index; the 56 leftover galleys are alternate HTML/PDF versions of covered articles — no genuinely-new article ids) → dead lead. (2) **jnaudin.free.fr (JLN Labs)** — already covered (jnaudin_free_fr). (3) IEREK/distantreader journal archive — off-topic academic-architecture journal. (4) online-lib.ru / djvu.online / klex.ru — ebook/FB2 mirrors, not pipeline-friendly.",
+          "url": ""
+        },
+        {
+          "title": "WINNER",
+          "description": "gehtanders.de — „Das geht anders“ (Arnd Koslowski, Struxdorf DE) German free-energy blog.** WordPress sitemap (1,128 URLs) → 178 posts + 42 pages = **217 content pages** + **12 download-area PDFs** (Meyer/HHO MiTHO-Zelle, Ravi-Zelle, TPP pyramid-energy, NET-Journal Jg21 5-6, HHO-vs-Strom, Auftrieb/Kugelkondensator). All 217 pages spot-checked + all 12 PDFs **live-verified (200/206)**. **0 overlap** with index. Corpus fits the German foreign-language lane AND Sandra's AG/pyramid lane (pyramid-energy TPP/MiTHO/HHO/magnet-motor/Raumenergie/Stanley-Meyer).",
+          "url": ""
+        },
+        {
+          "title": "Processor",
+          "description": "** `process_generic_cloud.py gehtanders_de` → **ALL 229/229 processed** (0 skipped, resume-free single run). Preview quality: **227 full 2,000-char German content previews** + **2 scan-only** (player-embed.html JS-gated; NET-Journal PDF image-scan → OCR lane pending FocusOptimized); 15 short real (boilerplate/cart/donation pages ~311-498 chars). Category spread: Energy 31 / Patents 33 / Alternative Physics 36 / Psionics-Radionics 23 / Biology-Health 8 / Tesla 7 / Quantum-Relativity 7 / Environment-Climate 10 / Conspiracy-Politics 12 / EM 5 / Water-Hydrogen 4 / LENR-CF 4 / other 50.",
+          "url": ""
+        },
+        {
+          "title": "Merge ID",
+          "description": "safe** via merge_all_progress.py: **+229 only / 7 sites checked (0 from all others — idempotent)**; ids **2,466,288–2,466,516** contiguous above max 2,466,287; 0 dup ids / 0 dup new source_url; **manifest + shard_0012 only** (index 123,552 → **123,781**).",
+          "url": ""
+        },
+        {
+          "title": "Archive push 387298d VERIFIED",
+          "description": "`git ls-remote origin main` == `git rev-parse HEAD` (both 387298d5aa..., exit 0).",
+          "url": ""
+        },
+        {
+          "title": "Rotation pointer (ADVANCE)",
+          "description": "** **gehtanders_de = new rotation source** (COMPLETE @229 — static-ish blog, re-diff on wraps/new posts); lenr-canr cheap DRY each fire; viXra re-probe @0061; iccf-27 probe-every-fire (primary bulk source); seplm re-diff on re-open; RENSIT №6 after 31-Oct; svpvril/erdmagnetfeld static; next full DISCOVERY ~3rd-fire cadence.",
+          "url": ""
+        },
+        {
+          "title": "OCR/queue/tag",
+          "description": "** pending FocusOptimized (2 scan-only this fire → NET-Journal scan + player-embed; standing backlog 366 coldfusion/dowsing scans + 4 svpvril empty-preview PDFs).",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
       "file": "2026-10-14-scout-growth-0815.md",
       "scout": "",
       "languages": "",
@@ -32551,9 +32599,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T15:37:13Z",
+      "last_run": "2026-10-14T16:22:43Z",
       "last_status": "ok",
-      "last_summary": "sync: 123552 docs, feed rebuilt"
+      "last_summary": "sync: 123552 docs, feed current, no change this run"
     },
     {
       "member": "archive-raid",
@@ -32617,9 +32665,9 @@
       "mission": "Scouts the archive seas for foreign-language and vanishing research, runs OCR on scanned works, grows the archive — and reads the subtle signals others miss (shape power, radiesthesia, bioenergetics) across rotating languages.",
       "schedule": "every 4h + rotating subtle-energy sweeps",
       "icon": "🔭",
-      "last_run": "2026-10-14T08:15:00Z",
+      "last_run": "2026-10-14T16:15:00Z",
       "last_status": "ok",
-      "last_summary": "scout-archive-growth 08:15Z 10-14 (cloud): GROWTH +5 — viXra live frontier advance 0055→0060 (2610.0056–0060 all 200, 0061 404) — archive 123,101→123,106 (ids 2,465,776–2,465,780 contiguous above max 2,465,775, 0 dup); lenr-canr DRY, iccf-27 UC ~23wk top watch, seplm closed x5, RENSIT no new issue; merge +5/122 sites; push f9e615676 VERIFIED ls-remote==local. Report sources/2026-10-14-scout-growth-0815.md"
+      "last_summary": "scout-archive-growth 16:15Z 10-14 (cloud): GROWTH +229 — NEW SOURCE DISCOVERY gehtanders.de (German free-energy blog: Meyer/HHO MiTHO-Zelle, pyramid energy, magnet motors, Raumenergie, NET-Journal) — archive 123,552→123,781 (ids 2,466,288–2,466,516 contiguous above max 2,466,287, 0 dup); live-wrap ALL dry (viXra HOLDS @0060, lenr-canr DRY 1,455, iccf-27 JCF24 post not ICCF-27 ~23wk TOP, RENSIT 404, svpvril/erdmagnetfeld static); JSE + JLN Labs verified already-covered (dead leads); 229/229 processed (227 full previews + 2 scan-only); merge +229/7 sites id-safe; push 387298d VERIFIED ls-remote==local. Report sources/2026-10-14-scout-growth-1615.md"
     },
     {
       "member": "cure-8er",
@@ -32667,6 +32715,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "16:22",
+      "agent": "AFLinks Sync",
+      "summary": "+123552 docs — archive 123552 docs, feed verified current (no change this run)"
+    },
     {
       "date": "2026-10-14",
       "time": "16:17",
@@ -32980,12 +33034,6 @@
       "summary": "+123100 docs — +123100 docs in vault | feed rebuilt"
     },
     {
-      "date": "2026-10-14",
-      "time": "06:15",
-      "agent": "Engine of Practicality",
-      "summary": "practicality: health — Do Your Urine Numbers Move Together? — The Urine pH & Density Test (dossier 091)"
-    },
-    {
       "date": "2026-10-13",
       "time": "14:05",
       "agent": "The Navigator (Field & Trajectory)",
@@ -33277,6 +33325,18 @@
     },
     {
       "country": "czech",
+      "title": "Czech Republic — ABS eBadatelna Adds South Bohemian StB Fonds (October 2026)",
+      "description": "Czech Republic — The Archiv bezpečnostních složek added digital reproductions of the South Bohemian StB fonds (Krajská správa SNB – správa StB České Budějovice, B 2) to its eBadate",
+      "file": "declassified/czech/abs-ebadatelna-stb-jihocesky-2026.md"
+    },
+    {
+      "country": "czech",
+      "title": "Czech Republic — ABS Publishes Havel's 1966 Prison Letter (October 2026)",
+      "description": "Czech Republic — The Archiv bezpečnostních složek published a copy of Václav Havel's 1966 letter to Jan Beneš, preserved in StB investigation file V-11050, on 6 October 2026.",
+      "file": "declassified/czech/abs-havel-1966-letter.md"
+    },
+    {
+      "country": "czech",
       "title": "Czech Republic — Czech Radio Releases Lost 1968 Havel–Peroutka Interview (September 2026)",
       "description": "Czech Republic — the Czech Radio archive (Archiv Českého rozhlasu) digitised and released for the first time a 72-minute 1968 recording of Václav Havel interviewing Ferdinand Perou",
       "file": "declassified/czech/havel-peroutka-1968-recording.md"
@@ -33316,6 +33376,12 @@
       "title": "Denmark — Historical Cause of Death Register (HDAR) Released (~1M Certificates, 1920–1943)",
       "description": "Denmark's National Archives released the Historical Cause of Death Register (HDAR) on 4 May 2026 — nearly 1 million death certificates from 1920–1943, AI-transcribed into a free, s",
       "file": "declassified/denmark/historical-cause-of-death-register.md"
+    },
+    {
+      "country": "djibouti",
+      "title": "Djibouti — AARO Unresolved UAP Case File DOW-UAP-PR043 (May 2026)",
+      "description": "Djibouti — The US All-domain Anomaly Resolution Office published unresolved UAP case file DOW-UAP-PR043 ('Unresolved UAP Report, Africa, 2025'), a two-second infrared sensor record",
+      "file": "declassified/djibouti/aaro-uap-case-pr043.md"
     },
     {
       "country": "dominican-republic",
@@ -33802,6 +33868,12 @@
       "title": "Norway — Nearly 200 Letters to Vidkun Quisling Published (April 2026)",
       "description": "Norway's National Archives published nearly 200 previously unknown letters and postcards sent to Vidkun Quisling during the WWII occupation on Digitalarkivet, 29 April 2026.",
       "file": "declassified/norway/quisling-letters.md"
+    },
+    {
+      "country": "oman",
+      "title": "Oman — UK Files on Interrogation of Omani Dissidents and the 1973 Executions",
+      "description": "Oman — Declassified UK Ministry of Defence files held at The National Archives documenting British interrogation of Omani dissidents in 1970–71 (the 'five techniques') and the inte",
+      "file": "declassified/oman/oman-interrogation-files.md"
     },
     {
       "country": "pakistan",
@@ -114127,7 +114199,160 @@
         "2466284",
         "2466285",
         "2466286",
-        "2466287"
+        "2466287",
+        "2466289",
+        "2466291",
+        "2466292",
+        "2466293",
+        "2466295",
+        "2466298",
+        "2466299",
+        "2466300",
+        "2466301",
+        "2466302",
+        "2466303",
+        "2466304",
+        "2466305",
+        "2466306",
+        "2466308",
+        "2466309",
+        "2466310",
+        "2466311",
+        "2466312",
+        "2466313",
+        "2466314",
+        "2466315",
+        "2466316",
+        "2466317",
+        "2466318",
+        "2466319",
+        "2466320",
+        "2466322",
+        "2466323",
+        "2466325",
+        "2466326",
+        "2466327",
+        "2466328",
+        "2466329",
+        "2466330",
+        "2466331",
+        "2466335",
+        "2466336",
+        "2466339",
+        "2466340",
+        "2466341",
+        "2466346",
+        "2466347",
+        "2466348",
+        "2466349",
+        "2466351",
+        "2466353",
+        "2466354",
+        "2466363",
+        "2466364",
+        "2466365",
+        "2466366",
+        "2466367",
+        "2466369",
+        "2466371",
+        "2466372",
+        "2466373",
+        "2466374",
+        "2466375",
+        "2466376",
+        "2466377",
+        "2466378",
+        "2466380",
+        "2466381",
+        "2466382",
+        "2466384",
+        "2466385",
+        "2466386",
+        "2466387",
+        "2466388",
+        "2466390",
+        "2466392",
+        "2466393",
+        "2466394",
+        "2466396",
+        "2466397",
+        "2466400",
+        "2466401",
+        "2466402",
+        "2466403",
+        "2466405",
+        "2466406",
+        "2466409",
+        "2466410",
+        "2466411",
+        "2466415",
+        "2466416",
+        "2466419",
+        "2466420",
+        "2466421",
+        "2466423",
+        "2466424",
+        "2466425",
+        "2466426",
+        "2466427",
+        "2466432",
+        "2466433",
+        "2466434",
+        "2466438",
+        "2466442",
+        "2466444",
+        "2466446",
+        "2466449",
+        "2466451",
+        "2466452",
+        "2466454",
+        "2466456",
+        "2466457",
+        "2466458",
+        "2466459",
+        "2466460",
+        "2466461",
+        "2466462",
+        "2466463",
+        "2466464",
+        "2466467",
+        "2466470",
+        "2466471",
+        "2466472",
+        "2466473",
+        "2466475",
+        "2466476",
+        "2466477",
+        "2466478",
+        "2466479",
+        "2466480",
+        "2466482",
+        "2466483",
+        "2466484",
+        "2466485",
+        "2466486",
+        "2466487",
+        "2466488",
+        "2466489",
+        "2466490",
+        "2466491",
+        "2466492",
+        "2466493",
+        "2466497",
+        "2466499",
+        "2466500",
+        "2466501",
+        "2466502",
+        "2466503",
+        "2466504",
+        "2466506",
+        "2466508",
+        "2466509",
+        "2466510",
+        "2466512",
+        "2466514",
+        "2466515",
+        "2466516"
       ],
       "Biological & Morphogenetic Science": [
         "2",
@@ -185386,7 +185611,135 @@
         "2466284",
         "2466285",
         "2466286",
-        "2466287"
+        "2466287",
+        "2466288",
+        "2466289",
+        "2466290",
+        "2466291",
+        "2466292",
+        "2466295",
+        "2466296",
+        "2466300",
+        "2466302",
+        "2466304",
+        "2466305",
+        "2466306",
+        "2466308",
+        "2466309",
+        "2466312",
+        "2466316",
+        "2466317",
+        "2466318",
+        "2466319",
+        "2466320",
+        "2466321",
+        "2466322",
+        "2466323",
+        "2466324",
+        "2466327",
+        "2466328",
+        "2466329",
+        "2466330",
+        "2466331",
+        "2466332",
+        "2466333",
+        "2466334",
+        "2466338",
+        "2466342",
+        "2466346",
+        "2466347",
+        "2466352",
+        "2466355",
+        "2466356",
+        "2466357",
+        "2466358",
+        "2466359",
+        "2466362",
+        "2466363",
+        "2466364",
+        "2466366",
+        "2466367",
+        "2466368",
+        "2466371",
+        "2466373",
+        "2466374",
+        "2466375",
+        "2466376",
+        "2466378",
+        "2466379",
+        "2466380",
+        "2466381",
+        "2466382",
+        "2466385",
+        "2466388",
+        "2466390",
+        "2466391",
+        "2466392",
+        "2466393",
+        "2466394",
+        "2466395",
+        "2466396",
+        "2466397",
+        "2466401",
+        "2466402",
+        "2466403",
+        "2466404",
+        "2466405",
+        "2466406",
+        "2466408",
+        "2466413",
+        "2466414",
+        "2466418",
+        "2466423",
+        "2466425",
+        "2466427",
+        "2466428",
+        "2466429",
+        "2466430",
+        "2466431",
+        "2466432",
+        "2466433",
+        "2466434",
+        "2466435",
+        "2466441",
+        "2466444",
+        "2466448",
+        "2466450",
+        "2466451",
+        "2466452",
+        "2466453",
+        "2466454",
+        "2466455",
+        "2466457",
+        "2466460",
+        "2466461",
+        "2466462",
+        "2466463",
+        "2466465",
+        "2466466",
+        "2466467",
+        "2466472",
+        "2466473",
+        "2466474",
+        "2466480",
+        "2466482",
+        "2466483",
+        "2466485",
+        "2466494",
+        "2466495",
+        "2466497",
+        "2466498",
+        "2466499",
+        "2466500",
+        "2466501",
+        "2466502",
+        "2466504",
+        "2466505",
+        "2466506",
+        "2466507",
+        "2466510",
+        "2466511",
+        "2466515"
       ],
       "Patents & Inventions": [
         "5814",
@@ -228343,7 +228696,132 @@
         "2466283",
         "2466284",
         "2466286",
-        "2466287"
+        "2466287",
+        "2466288",
+        "2466289",
+        "2466291",
+        "2466292",
+        "2466293",
+        "2466294",
+        "2466297",
+        "2466298",
+        "2466299",
+        "2466301",
+        "2466302",
+        "2466303",
+        "2466305",
+        "2466306",
+        "2466307",
+        "2466308",
+        "2466309",
+        "2466310",
+        "2466313",
+        "2466315",
+        "2466316",
+        "2466317",
+        "2466318",
+        "2466319",
+        "2466320",
+        "2466321",
+        "2466323",
+        "2466326",
+        "2466328",
+        "2466329",
+        "2466330",
+        "2466331",
+        "2466332",
+        "2466338",
+        "2466339",
+        "2466347",
+        "2466349",
+        "2466350",
+        "2466352",
+        "2466354",
+        "2466355",
+        "2466357",
+        "2466358",
+        "2466361",
+        "2466363",
+        "2466364",
+        "2466366",
+        "2466367",
+        "2466372",
+        "2466373",
+        "2466374",
+        "2466375",
+        "2466379",
+        "2466382",
+        "2466383",
+        "2466387",
+        "2466389",
+        "2466390",
+        "2466393",
+        "2466394",
+        "2466395",
+        "2466397",
+        "2466398",
+        "2466399",
+        "2466400",
+        "2466401",
+        "2466402",
+        "2466403",
+        "2466405",
+        "2466406",
+        "2466412",
+        "2466413",
+        "2466414",
+        "2466417",
+        "2466419",
+        "2466421",
+        "2466423",
+        "2466424",
+        "2466426",
+        "2466429",
+        "2466430",
+        "2466431",
+        "2466432",
+        "2466433",
+        "2466434",
+        "2466435",
+        "2466436",
+        "2466437",
+        "2466438",
+        "2466439",
+        "2466440",
+        "2466443",
+        "2466444",
+        "2466447",
+        "2466448",
+        "2466449",
+        "2466450",
+        "2466451",
+        "2466452",
+        "2466453",
+        "2466454",
+        "2466457",
+        "2466459",
+        "2466460",
+        "2466461",
+        "2466462",
+        "2466463",
+        "2466464",
+        "2466465",
+        "2466473",
+        "2466479",
+        "2466480",
+        "2466481",
+        "2466482",
+        "2466483",
+        "2466485",
+        "2466486",
+        "2466489",
+        "2466490",
+        "2466495",
+        "2466496",
+        "2466498",
+        "2466500",
+        "2466502",
+        "2466513"
       ],
       "Geopolitics & Hidden History": [
         "5814",
@@ -263967,7 +264445,67 @@
         "2465775",
         "2466282",
         "2466283",
-        "2466287"
+        "2466287",
+        "2466303",
+        "2466308",
+        "2466310",
+        "2466316",
+        "2466318",
+        "2466319",
+        "2466321",
+        "2466323",
+        "2466326",
+        "2466327",
+        "2466328",
+        "2466329",
+        "2466334",
+        "2466336",
+        "2466339",
+        "2466340",
+        "2466343",
+        "2466345",
+        "2466347",
+        "2466354",
+        "2466359",
+        "2466362",
+        "2466366",
+        "2466367",
+        "2466370",
+        "2466377",
+        "2466379",
+        "2466388",
+        "2466389",
+        "2466393",
+        "2466395",
+        "2466403",
+        "2466404",
+        "2466405",
+        "2466409",
+        "2466413",
+        "2466422",
+        "2466424",
+        "2466434",
+        "2466436",
+        "2466437",
+        "2466438",
+        "2466439",
+        "2466440",
+        "2466448",
+        "2466449",
+        "2466450",
+        "2466452",
+        "2466453",
+        "2466455",
+        "2466459",
+        "2466461",
+        "2466462",
+        "2466463",
+        "2466465",
+        "2466479",
+        "2466481",
+        "2466486",
+        "2466496",
+        "2466506"
       ],
       "Electromagnetic Theory": [
         "5826",
@@ -280438,7 +280976,40 @@
         "2465768",
         "2465770",
         "2465772",
-        "2466283"
+        "2466283",
+        "2466289",
+        "2466291",
+        "2466305",
+        "2466306",
+        "2466308",
+        "2466309",
+        "2466317",
+        "2466323",
+        "2466327",
+        "2466330",
+        "2466332",
+        "2466347",
+        "2466381",
+        "2466394",
+        "2466402",
+        "2466405",
+        "2466408",
+        "2466414",
+        "2466443",
+        "2466444",
+        "2466446",
+        "2466450",
+        "2466451",
+        "2466461",
+        "2466465",
+        "2466467",
+        "2466474",
+        "2466480",
+        "2466495",
+        "2466498",
+        "2466501",
+        "2466502",
+        "2466504"
       ],
       "Reference & Technical Data": [
         "5856",
@@ -284780,7 +285351,8 @@
         "2465727",
         "2465742",
         "2465760",
-        "2465761"
+        "2465761",
+        "2466485"
       ],
       "Media & Interviews": [
         "5947",
@@ -288903,7 +289475,16 @@
         "2465695",
         "2465696",
         "2465713",
-        "2465718"
+        "2465718",
+        "2466313",
+        "2466403",
+        "2466438",
+        "2466443",
+        "2466445",
+        "2466450",
+        "2466473",
+        "2466489",
+        "2466490"
       ],
       "Environment & Climate": [
         "62830",
@@ -302026,7 +302607,38 @@
         "2465746",
         "2465748",
         "2465751",
-        "2465757"
+        "2465757",
+        "2466292",
+        "2466293",
+        "2466294",
+        "2466297",
+        "2466302",
+        "2466308",
+        "2466310",
+        "2466322",
+        "2466324",
+        "2466336",
+        "2466340",
+        "2466345",
+        "2466382",
+        "2466398",
+        "2466404",
+        "2466409",
+        "2466410",
+        "2466414",
+        "2466427",
+        "2466431",
+        "2466443",
+        "2466448",
+        "2466450",
+        "2466460",
+        "2466465",
+        "2466479",
+        "2466480",
+        "2466482",
+        "2466506",
+        "2466510",
+        "2466512"
       ],
       "Biology, Health & Medicine": [
         "62855",
@@ -315256,7 +315868,64 @@
         "2465757",
         "2465762",
         "2465771",
-        "2466286"
+        "2466286",
+        "2466289",
+        "2466312",
+        "2466317",
+        "2466323",
+        "2466324",
+        "2466325",
+        "2466327",
+        "2466332",
+        "2466340",
+        "2466344",
+        "2466350",
+        "2466352",
+        "2466355",
+        "2466358",
+        "2466362",
+        "2466367",
+        "2466370",
+        "2466372",
+        "2466375",
+        "2466385",
+        "2466387",
+        "2466393",
+        "2466395",
+        "2466400",
+        "2466411",
+        "2466415",
+        "2466417",
+        "2466418",
+        "2466419",
+        "2466425",
+        "2466427",
+        "2466430",
+        "2466432",
+        "2466435",
+        "2466436",
+        "2466437",
+        "2466438",
+        "2466440",
+        "2466442",
+        "2466445",
+        "2466449",
+        "2466452",
+        "2466457",
+        "2466459",
+        "2466464",
+        "2466473",
+        "2466479",
+        "2466486",
+        "2466489",
+        "2466490",
+        "2466498",
+        "2466499",
+        "2466501",
+        "2466502",
+        "2466504",
+        "2466507",
+        "2466513"
       ],
       "Frontier Science": [
         "239312",
@@ -316669,7 +317338,95 @@
         "2465764",
         "2465770",
         "2465771",
-        "2465774"
+        "2465774",
+        "2466289",
+        "2466290",
+        "2466291",
+        "2466292",
+        "2466295",
+        "2466296",
+        "2466300",
+        "2466302",
+        "2466304",
+        "2466306",
+        "2466307",
+        "2466310",
+        "2466312",
+        "2466313",
+        "2466317",
+        "2466320",
+        "2466325",
+        "2466326",
+        "2466327",
+        "2466330",
+        "2466331",
+        "2466336",
+        "2466337",
+        "2466339",
+        "2466340",
+        "2466341",
+        "2466343",
+        "2466344",
+        "2466345",
+        "2466346",
+        "2466347",
+        "2466349",
+        "2466351",
+        "2466352",
+        "2466360",
+        "2466362",
+        "2466366",
+        "2466367",
+        "2466368",
+        "2466370",
+        "2466371",
+        "2466374",
+        "2466375",
+        "2466376",
+        "2466378",
+        "2466379",
+        "2466395",
+        "2466401",
+        "2466404",
+        "2466405",
+        "2466407",
+        "2466412",
+        "2466413",
+        "2466417",
+        "2466423",
+        "2466425",
+        "2466429",
+        "2466431",
+        "2466432",
+        "2466434",
+        "2466437",
+        "2466441",
+        "2466443",
+        "2466449",
+        "2466450",
+        "2466451",
+        "2466453",
+        "2466454",
+        "2466455",
+        "2466456",
+        "2466457",
+        "2466461",
+        "2466462",
+        "2466464",
+        "2466468",
+        "2466469",
+        "2466472",
+        "2466479",
+        "2466481",
+        "2466482",
+        "2466483",
+        "2466485",
+        "2466495",
+        "2466496",
+        "2466497",
+        "2466500",
+        "2466504",
+        "2466512"
       ],
       "Rudolf Steiner & Anthroposophy": [
         "1554247",
@@ -324396,7 +325153,8 @@
         "2465668",
         "2465689",
         "2465695",
-        "2465705"
+        "2465705",
+        "2466417"
       ],
       "Acoustics": [
         "2397818"
@@ -447965,7 +448723,236 @@
       "2466284": "2610.0058v1",
       "2466285": "2610.0059v1",
       "2466286": "2610.0060v1",
-      "2466287": "Survive the Field: Why the BBP Machine Has Its Form"
+      "2466287": "Survive the Field: Why the BBP Machine Has Its Form",
+      "2466288": "Wasif Kahloon sorgt für viel Wirbel",
+      "2466289": "doch die Welt will ihn nicht haben",
+      "2466290": "Der Low Lenz Fluxgenerator",
+      "2466291": "Die Kalkbatterie nach dem Buch von Prof. Turtur",
+      "2466292": "Chas Campbells Flywheel Generator",
+      "2466293": "CNC Fräse und seine Steuerelektronik",
+      "2466294": "Stromzähler ausgetrickst!",
+      "2466295": "eine uralte Erfindung neu entdeckt",
+      "2466296": "GAP Power magnetische Neutralisation nach Art Porter",
+      "2466297": "die geheimnisvolle Kraft",
+      "2466298": "wie und wofür zeigt euch das Video",
+      "2466299": "Blog für Freie Energie",
+      "2466300": "Bedini Jugend forscht Motor",
+      "2466301": "Wie Freie Energie verhindert wird",
+      "2466302": "Auftriebskraftwerk oder Abtriebskraftwerk",
+      "2466303": "Wie der Hydraulische Widder unser Leben verändern wird",
+      "2466304": "Die Sensation in der Energiewende",
+      "2466305": "Der Fluxgenerator von James B. Schwartz",
+      "2466306": "Nikola Teslas legendärer Pierce Arrow",
+      "2466307": "Der Magnetmotor funktioniert",
+      "2466308": "Das Neutrinopower Zeitalter beginnt heute",
+      "2466309": "Prof. Konstantin Meyl erklärt",
+      "2466310": "Coler Konverter Fachvortrag Thorsten Ludwig",
+      "2466311": "Wasserstoff herstellen",
+      "2466312": "Hocheffiziente Wasserstoff Elektrolyse",
+      "2466313": "Interview Freie Energie mit Inge und Adolf Schneider",
+      "2466314": "Eine neue Sicht auf die Natur",
+      "2466315": "Energie aus dem Nichts",
+      "2466316": "Neutrino die Energiequelle der Zukunft",
+      "2466317": "Wolfgang Wiedergut Testatika und Raumenergie",
+      "2466318": "Das Kompendium für Freie Energie",
+      "2466319": "Wasserkraftwerk mit Unterdruck -Top oder Flop",
+      "2466320": "beginnt die Energie-Revolution in Indien?",
+      "2466321": "Wasserkraftwerk selbstlaufend mit Pelton Turbine",
+      "2466322": "Energie aus der Umgebung schon lange bekannt",
+      "2466323": "Earth Engine Magnetmotor von Dennis Danzik USA",
+      "2466324": "Rasenmäher läuft mit Wasser und Altöl",
+      "2466325": "4-Zylinder GEET-Technik Blockheizkraftwerk läuft mit Altöl Benzin und Wasser",
+      "2466326": "Was läuft falsch in der gegenwärtigen Physik?",
+      "2466327": "Revolutionäre Energietechnologie der Zukunft",
+      "2466328": "LENR Cars Game Changer der Zukunft",
+      "2466329": "warum wir sofort umsteigen sollten",
+      "2466330": "Blog für Freie Energie",
+      "2466331": "Orgonenergie und seine Auswirkung auf das Pflanzenwachstum",
+      "2466332": "Stanley Meyer († 1999)",
+      "2466333": "Daniel Dingle († 2010)",
+      "2466334": "Blog für Freie Energie",
+      "2466335": "Der Linearbeschleuniger",
+      "2466336": "Der Kreisbeschleuniger",
+      "2466337": "V-Gate Magnetmotor und Forschungen",
+      "2466338": "SpaltpolmotorGenerator",
+      "2466339": "Silane brennen mit Stickstoff",
+      "2466340": "Die Trockenzelle (Drycell)",
+      "2466341": "Blog für Freie Energie",
+      "2466342": "Blog für Freie Energie",
+      "2466343": "Blog für Freie Energie",
+      "2466344": "Grundlagen zur Strompyramide",
+      "2466345": "Eigene Versuche zur Strompyramide",
+      "2466346": "Hyperschallpegelvergleich von Pyramidenaufbauten",
+      "2466347": "Eine Einleitung in die Pyramidenenergie",
+      "2466348": "Die Cheops-Pyramide in Gizeh",
+      "2466349": "Die Funktionsweise der Hyperschall Pyramide",
+      "2466350": "Blog für Freie Energie",
+      "2466351": "Bau einer Plexiglaspyramide",
+      "2466352": "Bau einer Rigipspyramide",
+      "2466353": "Versuch zur Mumifizierung",
+      "2466354": "Das Buch von Horst Kirsten",
+      "2466355": "Blog für Freie Energie",
+      "2466356": "Blog für Freie Energie",
+      "2466357": "Blog für Freie Energie",
+      "2466358": "Hard Disk (Festplatten) Magnetmotoren",
+      "2466359": "Anti-Lenz-Effekt nutzen mit Schrittmotor",
+      "2466360": "Sprit-Wassertechnologie",
+      "2466361": "Der WilERK-Wassermotor von Wilhelm Erk",
+      "2466362": "Blog für Freie Energie",
+      "2466363": "Heinrich Schmid Energiekonverter",
+      "2466364": "Blog für Freie Energie",
+      "2466365": "Blog für Freie Energie",
+      "2466366": "Grundlagen der Wasserspaltung",
+      "2466367": "Zellentypen für die Wasserspaltung",
+      "2466368": "Blog für Freie Energie",
+      "2466369": "Maßeinheiten der Elektrolyse",
+      "2466370": "Blog für Freie Energie",
+      "2466371": "Umbau eines 2,8 PS Notstromaggregates",
+      "2466372": "Blog für Freie Energie",
+      "2466373": "Ottomotor läuft mit Vakuum",
+      "2466374": "Blog für Freie Energie",
+      "2466375": "Blog für Freie Energie",
+      "2466376": "Nanopuls Elektrolyse aus Indien",
+      "2466377": "Die Kristall- und Erdbatterie",
+      "2466378": "John Bedini und Robert Adams",
+      "2466379": "Blog für Freie Energie",
+      "2466380": "Motoren mit HHO antreiben",
+      "2466381": "Weitere Einsatzgebiete von HHO / Brownsgas",
+      "2466382": "Grundlagen zu Materialien",
+      "2466383": "Blog für Freie Energie",
+      "2466384": "Aufbau am Beispiel einer Trockenzelle",
+      "2466385": "Stromversorgung einer Elektrolysezelle",
+      "2466386": "Blog für Freie Energie",
+      "2466387": "Blog für Freie Energie",
+      "2466388": "Brennerdüsenglossar für Knallgas",
+      "2466389": "Analyse eines Perpetuum mobile",
+      "2466390": "Blog für Freie Energie",
+      "2466391": "Blog für Freie Energie",
+      "2466392": "Blog für Freie Energie",
+      "2466393": "Blog für Freie Energie",
+      "2466394": "Blog für Freie Energie",
+      "2466395": "Blog für Freie Energie",
+      "2466396": "Blog für Freie Energie",
+      "2466397": "Blog für Freie Energie",
+      "2466398": "Blog für Freie Energie",
+      "2466399": "David Magnetmotor Ansätze",
+      "2466400": "Friedrich Lüling Magnetmotor",
+      "2466401": "Overunity von Leon Raoul Hatem",
+      "2466402": "Der Quantum Energie Generator",
+      "2466403": "Interview Prof. Dr. Claus W. Turtur.",
+      "2466404": "Raumenergiekonverter nach Prof. Claus W. Turtur",
+      "2466405": "Der Biefeld-Brown-Effekt und JLNaudins Lifter",
+      "2466406": "Blog für Freie Energie",
+      "2466407": "MMS (Multiple Mineral Supplement) von Jim Humble",
+      "2466408": "Der Hendershot-Konverter",
+      "2466409": "Blog für Freie Energie",
+      "2466410": "Blog für Freie Energie",
+      "2466411": "Blog für Freie Energie",
+      "2466412": "Wie man Magnetmotoren bauen muss",
+      "2466413": "Blog für Freie Energie",
+      "2466414": "Blog für Freie Energie",
+      "2466415": "Nutzung der Erdmagnetfelder für Pflanzenwachstum",
+      "2466416": "Blog für Freie Energie",
+      "2466417": "Einführung und Patente",
+      "2466418": "Versuchsgrundlagen und Versuchsaufbau",
+      "2466419": "Urzeitcode Versuchsreihen",
+      "2466420": "Magnetfelder und Ihre Auswirkungen auf das Pflanzenwachstum",
+      "2466421": "Besseres Pflanzenwachstum",
+      "2466422": "Ethikkommission genehmigt klinische Studie",
+      "2466423": "Neue Energiekonzepte bewirken den Paradigmenwechsel",
+      "2466424": "Der Wassermotor zum Selbernachbauen",
+      "2466425": "Blog für Freie Energie",
+      "2466426": "Blog für Freie Energie",
+      "2466427": "Blog für Freie Energie",
+      "2466428": "Ammoniak (NH3) als Treibstoff",
+      "2466429": "Blog für Freie Energie",
+      "2466430": "Treibstoff aus Zeitungen",
+      "2466431": "Benzin aus Wasser, CO2 und Sonnenlicht",
+      "2466432": "Stanley Meyers und Walter Jenkins Wasserautos",
+      "2466433": "Treibstoff aus Nano-Aluminium und Wasser",
+      "2466434": "Freie Energie im geschlossenen System",
+      "2466435": "Der Wassermotor zum Nachbauen",
+      "2466436": "Angst und Arroganz; das unheilige Geschwisterpaar.",
+      "2466437": "Blog für Freie Energie",
+      "2466438": "Impfstoff versus Chlordioxid",
+      "2466439": "Blog für Freie Energie",
+      "2466440": "Erfahrungsbericht eines Arztes",
+      "2466441": "Chlordioxid Massenproduktion in Universität El Alto (UPEA) Bolivien",
+      "2466442": "Integrales Bewusstsein in Krisenzeiten",
+      "2466443": "Was Politiker und Ärzte jetzt über Chlordioxid wissen müssen",
+      "2466444": "Strom aus dem Erdmagnetfeld",
+      "2466445": "Blog für Freie Energie",
+      "2466446": "Das Rauschen der Freien Energie",
+      "2466447": "Blog für Freie Energie",
+      "2466448": "Blog für Freie Energie",
+      "2466449": "Der Magnetmotor funktioniert",
+      "2466450": "Wie das Holcomb Energiesystem funktioniert",
+      "2466451": "Besuch bei Holcomb Energy Systems",
+      "2466452": "Blog für Freie Energie",
+      "2466453": "Treibstoff aus Bakterien",
+      "2466454": "Blog für Freie Energie",
+      "2466455": "Treibstoff aus einer Emulsion aus Öl, Wasser und CO2",
+      "2466456": "Magnetsysteme zur Spriteinsparung",
+      "2466457": "Blog für Freie Energie",
+      "2466458": "Blog für Freie Energie",
+      "2466459": "Freie Energie bei Dr. James B. Schwartz",
+      "2466460": "Der SEMP-Generator aus Südkorea",
+      "2466461": "Wie funktioniert der senstionelle AISEG Generator aus Südkorea?",
+      "2466462": "Blog für Freie Energie",
+      "2466463": "Extrakt aus Buch «Autonome Motor-Generator-Systeme (Rotoverter)»",
+      "2466464": "Ein absolutes Highlight für alle, die Zukunft neu denken! 25./26. Juli 2026",
+      "2466465": "Der revolutionäre ERR Fluxgenerator",
+      "2466466": "Freie Energie, Neue Energietechnologien, Forschungen, Dokumentationen, Bücher und Experimente",
+      "2466467": "Blog für Freie Energie",
+      "2466468": "Blog für Freie Energie",
+      "2466469": "Blog für Freie Energie",
+      "2466470": "Blog für Freie Energie",
+      "2466471": "Blog für Freie Energie",
+      "2466472": "Deine Registrierung war erfolgreich",
+      "2466473": "Das NET-Journal stellt sich vor",
+      "2466474": "nichts mehr verpassen!",
+      "2466475": "Veranstaltungen hier buchen:",
+      "2466476": "Blog für Freie Energie",
+      "2466477": "Blog für Freie Energie",
+      "2466478": "Blog für Freie Energie",
+      "2466479": "Wie Sie das Klima retten können und noch viel mehr.",
+      "2466480": "Bewusstsein schaffen durch Vernetzung",
+      "2466481": "Blog für Freie Energie",
+      "2466482": "Blog für Freie Energie",
+      "2466483": "Blog für Freie Energie",
+      "2466484": "Blog für Freie Energie",
+      "2466485": "Living Water VORTEXér Betriebsanleitung",
+      "2466486": "Chlordioxid Studien Empfängerliste",
+      "2466487": "Blog für Freie Energie",
+      "2466488": "Blog für Freie Energie",
+      "2466489": "Blog für Freie Energie",
+      "2466490": "Blog für Freie Energie",
+      "2466491": "player-embed",
+      "2466492": "Blog für Freie Energie",
+      "2466493": "Echtheit von Bewertungen",
+      "2466494": "Hendershot Bauanleitung",
+      "2466495": "Blog für Freie Energie",
+      "2466496": "Blog für Freie Energie",
+      "2466497": "Literatur zu den Themen von MinoTech",
+      "2466498": "Literatur zum Thema Freie Energie",
+      "2466499": "Literatur zum Thema Pyramidenenergie",
+      "2466500": "Literatur zur Lebens- Raum- Orgonenergie",
+      "2466501": "Literatur zum Thema HHO",
+      "2466502": "Literatur zu weiteren innovativen Technologien",
+      "2466503": "Literatur zu uns und unserer Erde",
+      "2466504": "Österreichische Vereinigung für Raumenergie",
+      "2466505": "Auftrieb",
+      "2466506": "Bauanleitung für einen Anti-Chemtrail Reaktor",
+      "2466507": "Die Ravi Zelle - Deutsche Uebersetzung",
+      "2466508": "Gasmengenmessung mit Durchströmsensor FLW-122",
+      "2466509": "Kugelkondensator Berechnungen",
+      "2466510": "MiTHO-Zelle V01",
+      "2466511": "MiTHO-Zelle Varianten",
+      "2466512": "TPPV6",
+      "2466513": "TPP V12-Tutorial Deutsch Gesamt Ver2.8",
+      "2466514": "V12-TPP Pyramide Konstruktionsdaten",
+      "2466515": "Wasser erhitzen - HHO versus Strom",
+      "2466516": "NET-Journal Jg. 21, Heft Nr. 5-6"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -1051808,6 +1052795,1212 @@
         "Alternative Physics",
         "Conspiracy / Politics",
         "LENR / Cold Fusion"
+      ],
+      "2466288": [
+        "Energy",
+        "Patents"
+      ],
+      "2466289": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466290": [
+        "Energy",
+        "Psionics / Radionics"
+      ],
+      "2466291": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466292": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466293": [
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate"
+      ],
+      "2466294": [
+        "Patents",
+        "Environment / Climate"
+      ],
+      "2466295": [
+        "Energy",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466296": [
+        "Energy",
+        "Psionics / Radionics"
+      ],
+      "2466297": [
+        "Patents",
+        "Environment / Climate"
+      ],
+      "2466298": [
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466299": [
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466300": [
+        "Energy",
+        "Quantum & Relativity",
+        "Psionics / Radionics"
+      ],
+      "2466301": [
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466302": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466303": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2466304": [
+        "Energy",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466305": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2466306": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466307": [
+        "Patents",
+        "Psionics / Radionics"
+      ],
+      "2466308": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Tesla"
+      ],
+      "2466309": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Tesla"
+      ],
+      "2466310": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466311": [
+        "Alternative Physics"
+      ],
+      "2466312": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466313": [
+        "Patents",
+        "Alternative Physics",
+        "Music / Audio",
+        "Psionics / Radionics"
+      ],
+      "2466314": [
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2466315": [
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466316": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Finance / Economics"
+      ],
+      "2466317": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466318": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2466319": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2466320": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466321": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics"
+      ],
+      "2466322": [
+        "Energy",
+        "Alternative Physics",
+        "Environment / Climate"
+      ],
+      "2466323": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2466324": [
+        "Energy",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Environment / Climate"
+      ],
+      "2466325": [
+        "Alternative Physics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466326": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Psionics / Radionics"
+      ],
+      "2466327": [
+        "Energy",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "LENR / Cold Fusion",
+        "Psionics / Radionics"
+      ],
+      "2466328": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "LENR / Cold Fusion"
+      ],
+      "2466329": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2466330": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466331": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466332": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "2466333": [
+        "Water / Hydrogen"
+      ],
+      "2466334": [
+        "Energy",
+        "Conspiracy / Politics",
+        "LENR / Cold Fusion"
+      ],
+      "2466335": [
+        "Alternative Physics"
+      ],
+      "2466336": [
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466337": [
+        "Psionics / Radionics"
+      ],
+      "2466338": [
+        "Energy",
+        "Patents"
+      ],
+      "2466339": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Psionics / Radionics"
+      ],
+      "2466340": [
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466341": [
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466342": [
+        "Energy"
+      ],
+      "2466343": [
+        "Conspiracy / Politics",
+        "Psionics / Radionics"
+      ],
+      "2466344": [
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466345": [
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466346": [
+        "Alternative Physics",
+        "LENR / Cold Fusion",
+        "Psionics / Radionics"
+      ],
+      "2466347": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Finance / Economics",
+        "Psionics / Radionics"
+      ],
+      "2466348": [
+        "Borderland Research"
+      ],
+      "2466349": [
+        "Patents",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466350": [
+        "Patents",
+        "Biology / Health"
+      ],
+      "2466351": [
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466352": [
+        "Energy",
+        "Patents",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466353": [
+        "Borderland Research"
+      ],
+      "2466354": [
+        "Patents",
+        "Alternative Physics",
+        "Finance / Economics"
+      ],
+      "2466355": [
+        "Energy",
+        "Patents",
+        "Biology / Health"
+      ],
+      "2466356": [
+        "Energy"
+      ],
+      "2466357": [
+        "Energy",
+        "Patents"
+      ],
+      "2466358": [
+        "Energy",
+        "Patents",
+        "Biology / Health"
+      ],
+      "2466359": [
+        "Energy",
+        "Conspiracy / Politics"
+      ],
+      "2466360": [
+        "Psionics / Radionics"
+      ],
+      "2466361": [
+        "Patents"
+      ],
+      "2466362": [
+        "Energy",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "LENR / Cold Fusion",
+        "Psionics / Radionics"
+      ],
+      "2466363": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity"
+      ],
+      "2466364": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466365": [
+        "Borderland Research"
+      ],
+      "2466366": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466367": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466368": [
+        "Energy",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466369": [
+        "Borderland Research"
+      ],
+      "2466370": [
+        "Finance / Economics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466371": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466372": [
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2466373": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466374": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466375": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466376": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466377": [
+        "Alternative Physics",
+        "Conspiracy / Politics"
+      ],
+      "2466378": [
+        "Energy",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466379": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466380": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen"
+      ],
+      "2466381": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "LENR / Cold Fusion"
+      ],
+      "2466382": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Environment / Climate"
+      ],
+      "2466383": [
+        "Patents"
+      ],
+      "2466384": [
+        "Alternative Physics"
+      ],
+      "2466385": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "2466386": [
+        "Borderland Research"
+      ],
+      "2466387": [
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2466388": [
+        "Energy",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Water / Hydrogen"
+      ],
+      "2466389": [
+        "Patents",
+        "Conspiracy / Politics"
+      ],
+      "2466390": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466391": [
+        "Energy"
+      ],
+      "2466392": [
+        "Energy",
+        "Alternative Physics"
+      ],
+      "2466393": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2466394": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Tesla"
+      ],
+      "2466395": [
+        "Energy",
+        "Patents",
+        "Finance / Economics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466396": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics"
+      ],
+      "2466397": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466398": [
+        "Patents",
+        "Environment / Climate"
+      ],
+      "2466399": [
+        "Patents"
+      ],
+      "2466400": [
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2466401": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466402": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Tesla"
+      ],
+      "2466403": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Finance / Economics",
+        "Music / Audio"
+      ],
+      "2466404": [
+        "Energy",
+        "Conspiracy / Politics",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466405": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Quantum & Relativity",
+        "Conspiracy / Politics",
+        "Psionics / Radionics"
+      ],
+      "2466406": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466407": [
+        "Psionics / Radionics"
+      ],
+      "2466408": [
+        "Energy",
+        "Electromagnetism"
+      ],
+      "2466409": [
+        "Alternative Physics",
+        "Finance / Economics",
+        "Environment / Climate"
+      ],
+      "2466410": [
+        "Alternative Physics",
+        "Environment / Climate"
+      ],
+      "2466411": [
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2466412": [
+        "Patents",
+        "Psionics / Radionics"
+      ],
+      "2466413": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Psionics / Radionics"
+      ],
+      "2466414": [
+        "Energy",
+        "Patents",
+        "Environment / Climate",
+        "Tesla"
+      ],
+      "2466415": [
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2466416": [
+        "Alternative Physics"
+      ],
+      "2466417": [
+        "Patents",
+        "Biology / Health",
+        "Psionics / Radionics",
+        "Anthroposophy / Rudolf Steiner"
+      ],
+      "2466418": [
+        "Energy",
+        "Biology / Health"
+      ],
+      "2466419": [
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2466420": [
+        "Alternative Physics"
+      ],
+      "2466421": [
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466422": [
+        "Finance / Economics"
+      ],
+      "2466423": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "LENR / Cold Fusion",
+        "Psionics / Radionics"
+      ],
+      "2466424": [
+        "Patents",
+        "Alternative Physics",
+        "Finance / Economics"
+      ],
+      "2466425": [
+        "Energy",
+        "Alternative Physics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466426": [
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466427": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Environment / Climate",
+        "LENR / Cold Fusion"
+      ],
+      "2466428": [
+        "Energy"
+      ],
+      "2466429": [
+        "Energy",
+        "Patents",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466430": [
+        "Energy",
+        "Patents",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "2466431": [
+        "Energy",
+        "Patents",
+        "Water / Hydrogen",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466432": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466433": [
+        "Energy",
+        "Patents",
+        "Alternative Physics"
+      ],
+      "2466434": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Psionics / Radionics"
+      ],
+      "2466435": [
+        "Energy",
+        "Patents",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "2466436": [
+        "Patents",
+        "Conspiracy / Politics",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2466437": [
+        "Patents",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466438": [
+        "Patents",
+        "Alternative Physics",
+        "Finance / Economics",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2466439": [
+        "Patents",
+        "Finance / Economics"
+      ],
+      "2466440": [
+        "Patents",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2466441": [
+        "Energy",
+        "Psionics / Radionics"
+      ],
+      "2466442": [
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2466443": [
+        "Patents",
+        "Electromagnetism",
+        "Environment / Climate",
+        "Music / Audio",
+        "Psionics / Radionics"
+      ],
+      "2466444": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Tesla"
+      ],
+      "2466445": [
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2466446": [
+        "Electromagnetism",
+        "Alternative Physics"
+      ],
+      "2466447": [
+        "Patents"
+      ],
+      "2466448": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2466449": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466450": [
+        "Energy",
+        "Patents",
+        "Finance / Economics",
+        "Environment / Climate",
+        "Music / Audio",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466451": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466452": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2466453": [
+        "Energy",
+        "Patents",
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466454": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466455": [
+        "Conspiracy / Politics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466456": [
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466457": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466458": [
+        "Alternative Physics"
+      ],
+      "2466459": [
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Biology / Health"
+      ],
+      "2466460": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Environment / Climate"
+      ],
+      "2466461": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Psionics / Radionics"
+      ],
+      "2466462": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Psionics / Radionics"
+      ],
+      "2466463": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Conspiracy / Politics",
+        "Finance / Economics"
+      ],
+      "2466464": [
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Psionics / Radionics"
+      ],
+      "2466465": [
+        "Energy",
+        "Patents",
+        "Electromagnetism",
+        "Conspiracy / Politics",
+        "Environment / Climate"
+      ],
+      "2466466": [
+        "Energy"
+      ],
+      "2466467": [
+        "Energy",
+        "Alternative Physics",
+        "Tesla"
+      ],
+      "2466468": [
+        "Psionics / Radionics"
+      ],
+      "2466469": [
+        "Psionics / Radionics"
+      ],
+      "2466470": [
+        "Borderland Research"
+      ],
+      "2466471": [
+        "Borderland Research"
+      ],
+      "2466472": [
+        "Energy",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466473": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health",
+        "Music / Audio",
+        "LENR / Cold Fusion"
+      ],
+      "2466474": [
+        "Energy",
+        "Tesla"
+      ],
+      "2466475": [
+        "Borderland Research"
+      ],
+      "2466476": [
+        "Borderland Research"
+      ],
+      "2466477": [
+        "Borderland Research"
+      ],
+      "2466478": [
+        "Borderland Research"
+      ],
+      "2466479": [
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Finance / Economics",
+        "Biology / Health",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466480": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Environment / Climate",
+        "Tesla"
+      ],
+      "2466481": [
+        "Patents",
+        "Finance / Economics",
+        "Psionics / Radionics"
+      ],
+      "2466482": [
+        "Energy",
+        "Patents",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466483": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466484": [
+        "Borderland Research"
+      ],
+      "2466485": [
+        "Patents",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Reference Material",
+        "Psionics / Radionics"
+      ],
+      "2466486": [
+        "Patents",
+        "Quantum & Relativity",
+        "Finance / Economics",
+        "Biology / Health"
+      ],
+      "2466487": [
+        "Borderland Research"
+      ],
+      "2466488": [
+        "Borderland Research"
+      ],
+      "2466489": [
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2466490": [
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Music / Audio"
+      ],
+      "2466491": [
+        "Borderland Research"
+      ],
+      "2466492": [
+        "Borderland Research"
+      ],
+      "2466493": [
+        "Borderland Research"
+      ],
+      "2466494": [
+        "Energy"
+      ],
+      "2466495": [
+        "Energy",
+        "Patents",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466496": [
+        "Patents",
+        "Finance / Economics",
+        "Psionics / Radionics"
+      ],
+      "2466497": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Psionics / Radionics"
+      ],
+      "2466498": [
+        "Energy",
+        "Patents",
+        "Biology / Health",
+        "Tesla"
+      ],
+      "2466499": [
+        "Energy",
+        "Alternative Physics",
+        "Biology / Health"
+      ],
+      "2466500": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Psionics / Radionics"
+      ],
+      "2466501": [
+        "Energy",
+        "Electromagnetism",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "2466502": [
+        "Energy",
+        "Patents",
+        "Alternative Physics",
+        "Biology / Health",
+        "Tesla"
+      ],
+      "2466503": [
+        "Quantum & Relativity"
+      ],
+      "2466504": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Biology / Health",
+        "Tesla",
+        "Psionics / Radionics"
+      ],
+      "2466505": [
+        "Energy"
+      ],
+      "2466506": [
+        "Energy",
+        "Quantum & Relativity",
+        "Alternative Physics",
+        "Finance / Economics",
+        "Environment / Climate"
+      ],
+      "2466507": [
+        "Energy",
+        "Water / Hydrogen",
+        "Biology / Health"
+      ],
+      "2466508": [
+        "Borderland Research"
+      ],
+      "2466509": [
+        "Borderland Research"
+      ],
+      "2466510": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen",
+        "Environment / Climate"
+      ],
+      "2466511": [
+        "Energy",
+        "Water / Hydrogen"
+      ],
+      "2466512": [
+        "Alternative Physics",
+        "Environment / Climate",
+        "Psionics / Radionics"
+      ],
+      "2466513": [
+        "Patents",
+        "Biology / Health"
+      ],
+      "2466514": [
+        "Borderland Research"
+      ],
+      "2466515": [
+        "Energy",
+        "Alternative Physics",
+        "Water / Hydrogen"
+      ],
+      "2466516": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -1338302,7 +1340495,349 @@
       "2466287": [
         "geometry_sacred",
         "crystal"
-      ]
+      ],
+      "2466288": [],
+      "2466289": [
+        "tesla"
+      ],
+      "2466290": [],
+      "2466291": [
+        "tesla"
+      ],
+      "2466292": [],
+      "2466293": [],
+      "2466294": [],
+      "2466295": [],
+      "2466296": [],
+      "2466297": [],
+      "2466298": [],
+      "2466299": [],
+      "2466300": [],
+      "2466301": [],
+      "2466302": [
+        "overunity"
+      ],
+      "2466303": [],
+      "2466304": [],
+      "2466305": [],
+      "2466306": [
+        "tesla"
+      ],
+      "2466307": [],
+      "2466308": [
+        "tesla",
+        "regenerative",
+        "p_wrongturn",
+        "p_nature"
+      ],
+      "2466309": [
+        "tesla"
+      ],
+      "2466310": [],
+      "2466311": [],
+      "2466312": [],
+      "2466313": [],
+      "2466314": [],
+      "2466315": [],
+      "2466316": [],
+      "2466317": [
+        "tesla"
+      ],
+      "2466318": [],
+      "2466319": [],
+      "2466320": [
+        "overunity",
+        "vortex"
+      ],
+      "2466321": [],
+      "2466322": [],
+      "2466323": [],
+      "2466324": [],
+      "2466325": [],
+      "2466326": [
+        "p_wrongturn"
+      ],
+      "2466327": [
+        "cold_fusion"
+      ],
+      "2466328": [
+        "cold_fusion"
+      ],
+      "2466329": [],
+      "2466330": [
+        "tesla"
+      ],
+      "2466331": [
+        "radionics"
+      ],
+      "2466332": [],
+      "2466333": [
+        "geometry_sacred"
+      ],
+      "2466334": [],
+      "2466335": [],
+      "2466336": [],
+      "2466337": [],
+      "2466338": [],
+      "2466339": [],
+      "2466340": [],
+      "2466341": [],
+      "2466342": [],
+      "2466343": [],
+      "2466344": [],
+      "2466345": [],
+      "2466346": [],
+      "2466347": [],
+      "2466348": [],
+      "2466349": [],
+      "2466350": [],
+      "2466351": [],
+      "2466352": [],
+      "2466353": [],
+      "2466354": [],
+      "2466355": [],
+      "2466356": [],
+      "2466357": [],
+      "2466358": [],
+      "2466359": [],
+      "2466360": [],
+      "2466361": [],
+      "2466362": [],
+      "2466363": [],
+      "2466364": [],
+      "2466365": [],
+      "2466366": [],
+      "2466367": [],
+      "2466368": [],
+      "2466369": [],
+      "2466370": [],
+      "2466371": [],
+      "2466372": [],
+      "2466373": [],
+      "2466374": [
+        "keely"
+      ],
+      "2466375": [],
+      "2466376": [
+        "overunity"
+      ],
+      "2466377": [],
+      "2466378": [
+        "overunity"
+      ],
+      "2466379": [],
+      "2466380": [],
+      "2466381": [
+        "radionics"
+      ],
+      "2466382": [],
+      "2466383": [],
+      "2466384": [],
+      "2466385": [],
+      "2466386": [],
+      "2466387": [],
+      "2466388": [],
+      "2466389": [],
+      "2466390": [
+        "zero_point"
+      ],
+      "2466391": [],
+      "2466392": [
+        "overunity"
+      ],
+      "2466393": [],
+      "2466394": [
+        "tesla"
+      ],
+      "2466395": [],
+      "2466396": [],
+      "2466397": [],
+      "2466398": [],
+      "2466399": [],
+      "2466400": [],
+      "2466401": [
+        "overunity"
+      ],
+      "2466402": [
+        "tesla"
+      ],
+      "2466403": [
+        "overunity"
+      ],
+      "2466404": [],
+      "2466405": [
+        "borderland"
+      ],
+      "2466406": [],
+      "2466407": [],
+      "2466408": [],
+      "2466409": [],
+      "2466410": [],
+      "2466411": [],
+      "2466412": [],
+      "2466413": [],
+      "2466414": [
+        "tesla",
+        "geometry_sacred"
+      ],
+      "2466415": [],
+      "2466416": [],
+      "2466417": [],
+      "2466418": [],
+      "2466419": [],
+      "2466420": [],
+      "2466421": [],
+      "2466422": [],
+      "2466423": [
+        "overunity",
+        "cold_fusion",
+        "schauberger",
+        "vortex",
+        "p_wrongturn"
+      ],
+      "2466424": [],
+      "2466425": [
+        "schauberger",
+        "vortex"
+      ],
+      "2466426": [],
+      "2466427": [],
+      "2466428": [],
+      "2466429": [],
+      "2466430": [],
+      "2466431": [],
+      "2466432": [],
+      "2466433": [],
+      "2466434": [],
+      "2466435": [],
+      "2466436": [],
+      "2466437": [],
+      "2466438": [],
+      "2466439": [],
+      "2466440": [],
+      "2466441": [],
+      "2466442": [],
+      "2466443": [],
+      "2466444": [
+        "tesla"
+      ],
+      "2466445": [],
+      "2466446": [],
+      "2466447": [],
+      "2466448": [
+        "regenerative",
+        "p_nature"
+      ],
+      "2466449": [],
+      "2466450": [
+        "tesla"
+      ],
+      "2466451": [
+        "tesla"
+      ],
+      "2466452": [],
+      "2466453": [],
+      "2466454": [],
+      "2466455": [],
+      "2466456": [],
+      "2466457": [],
+      "2466458": [
+        "electrogravitics"
+      ],
+      "2466459": [],
+      "2466460": [],
+      "2466461": [
+        "overunity"
+      ],
+      "2466462": [
+        "overunity"
+      ],
+      "2466463": [
+        "overunity"
+      ],
+      "2466464": [],
+      "2466465": [],
+      "2466466": [],
+      "2466467": [
+        "tesla"
+      ],
+      "2466468": [],
+      "2466469": [],
+      "2466470": [],
+      "2466471": [],
+      "2466472": [],
+      "2466473": [],
+      "2466474": [
+        "tesla"
+      ],
+      "2466475": [],
+      "2466476": [],
+      "2466477": [],
+      "2466478": [],
+      "2466479": [],
+      "2466480": [
+        "tesla",
+        "geometry_sacred"
+      ],
+      "2466481": [],
+      "2466482": [
+        "electrogravitics"
+      ],
+      "2466483": [],
+      "2466484": [],
+      "2466485": [
+        "vortex"
+      ],
+      "2466486": [],
+      "2466487": [],
+      "2466488": [
+        "p_formative"
+      ],
+      "2466489": [],
+      "2466490": [],
+      "2466491": [],
+      "2466492": [],
+      "2466493": [],
+      "2466494": [],
+      "2466495": [
+        "tesla"
+      ],
+      "2466496": [],
+      "2466497": [
+        "radionics",
+        "electrogravitics"
+      ],
+      "2466498": [
+        "tesla"
+      ],
+      "2466499": [],
+      "2466500": [
+        "schauberger",
+        "radionics"
+      ],
+      "2466501": [],
+      "2466502": [
+        "tesla",
+        "electrogravitics"
+      ],
+      "2466503": [],
+      "2466504": [
+        "tesla"
+      ],
+      "2466505": [
+        "electrogravitics"
+      ],
+      "2466506": [],
+      "2466507": [],
+      "2466508": [],
+      "2466509": [],
+      "2466510": [],
+      "2466511": [],
+      "2466512": [],
+      "2466513": [],
+      "2466514": [],
+      "2466515": [],
+      "2466516": []
     }
   },
   "daily_drawers": {
@@ -1338312,11 +1340847,11 @@
       {
         "drawer": "declassified",
         "label": "Declassified",
-        "title": "Mongolia — Dilav Khutagt Intelligence Archive Declassified (February 2026)",
-        "excerpt": "Mongolia — the government decided to publish 1,039 of 1,133 pages on Dilav Khutagt (Telo-tulku) Jamsranjav Bashluu, the 20th-century Mongolian intelligence asset, from th",
-        "meta": "Mongolia",
+        "title": "Argentina CIA Nuclear Program Declassified 1982",
+        "excerpt": "Argentina — CIA declassified report \"Argentina's Nuclear Program: Seeking Self-Sufficiency\" (May 1982) plus US State Department cables reveal the dictatorship's secret nu",
+        "meta": "Argentina",
         "rarity": "newly opened",
-        "href": "./library.html#declass-declassified-mongolia-dilav-khutagt-spy-archive-2026-md"
+        "href": "./library.html#declass-declassified-argentina-cia-nuclear-program-1982-md"
       },
       {
         "drawer": "translated",
@@ -1338330,9 +1340865,9 @@
       {
         "drawer": "found",
         "label": "Newly found",
-        "title": "atsuk.dart.ru (Atsyukovsky site) reachable but CP1251 HTML + Yandex.Disk payload → browser round (flagged 00",
-        "excerpt": "",
-        "meta": "2026-09-22",
+        "title": "US22",
+        "excerpt": "USA / Reykjavik Summit Documents (National Security Archive, 2026-10-10).** Previously secret U.S. and Soviet documents on the 1986 Reagan–Gorbachev summit. → [`declassif",
+        "meta": "2026-10-12",
         "rarity": "scout find",
         "href": "./library.html"
       },
@@ -1338348,11 +1340883,11 @@
       {
         "drawer": "random",
         "label": "Random",
-        "title": "NMac0622",
-        "excerpt": "The Newman's Energy Machine By JL Naudin/M.David created on 06/12/98 - JLN Labs - last update on 06/22/98 06-22-98 - Additional comments from JL Naudin In the two diagram",
-        "meta": "jnaudin.free.fr",
+        "title": "Teach Your Dentists Well -- by Robert Nelson -- A review of",
+        "excerpt": "Teach Your Dentists Well -- by Robert Nelson -- A review of electrodentistry and other long-overdue advances in dental technology ![logo](0logo.gif) rexresearch.com Teach",
+        "meta": "",
         "rarity": "drawn at random",
-        "href": "./pages/02414786.html"
+        "href": "./pages/00004260.html"
       }
     ]
   },
@@ -1340202,13 +1342737,13 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T16:19:10Z",
+    "as_of": "2026-10-14T17:13:00Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
-      "docs": 61072,
+      "docs": 61301,
       "translations": 688,
       "pages_translated": 13592,
-      "declassified": 176,
+      "declassified": 180,
       "researchers": 1001,
       "patents": 265
     }
