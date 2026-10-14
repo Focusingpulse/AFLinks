@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:22:59Z",
+  "generated_at": "2026-10-14T03:25:35Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -7,21 +7,21 @@
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 122389,
-    "translations": 767,
-    "pages_translated": 14923,
+    "translations": 769,
+    "pages_translated": 14934,
     "declassified_finds": 223,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 908,
+    "translation_files": 910,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 767,
+      "translation_works": 769,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 14923,
+      "pages_translated_computed": 14934,
       "inherited": [],
-      "pages_translated_published": 14923
+      "pages_translated_published": 14934
     },
     "bridges": 26,
     "archive_entries": 122979,
@@ -62,11 +62,11 @@
     "replication_dossiers": 102,
     "validations": 70,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T02:22:59Z",
+      "generated_at": "2026-10-14T03:25:35Z",
       "archive_entries": 122979,
       "aflinks_docs": 122389,
-      "translations": 767,
-      "pages_translated": 14923,
+      "translations": 769,
+      "pages_translated": 14934,
       "declassified_finds": 223,
       "researchers": 2000,
       "patents": 3045,
@@ -97,6 +97,28 @@
       "file": "2026-10-14-vich-spid-gepatit-rak-svetlov-ru.md",
       "content_file": null,
       "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension — Discussion\n\nA.V. Svetlov\nHIV/AIDS, hepatitis, cancer\n\nAbout the author\n\n\"If proof that HIV causes AIDS exists, there must also be scientific documents that, either"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Statskevich 02352174 (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0235/002a/02352174.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-14-upravlenie-zdorovem-naseleniya-rostovtsev-ru.md",
+      "content_file": null,
+      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension - Discussion\n\nV.N. Rostovtsev\nManagement of Population Health\n\nAbout the author\n\nThe management of population health, taking into account the high level of heritabil"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Statskevich 02352171 (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0235/002a/02352171.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-14-sovremennoe-lechenie-raka-statskevich-ru.md",
+      "content_file": null,
+      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension - Discussion\n\nA.N. Statskevich\nModern cancer treatment — legally sanctioned infliction of severe injuries\n\nAbout the author\n\nInstead of a preface.\n\nIn 1971 Richard N"
     },
     {
       "date": "2026-10-14",
@@ -31483,9 +31505,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-14T01:26:45Z",
+      "last_run": "2026-10-14T03:23:04Z",
       "last_status": "ok",
-      "last_summary": "run total 16 chunks across 4 docs | trinitas 0235 Institute of Life Extension: Svetlov Blessed Cold, Statskevich Alternative Methods, Kuznetsov 40 Days Before Conception, Shishkin Intestinal Microflora, all complete | backlog 473 wait | gear overdrive"
+      "last_summary": "run total 11 chunks across 2 docs, both complete: Rostovtsev population-health 3/3, Statskevich cancer-treatment 8/8 | backlog 466 wait | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -31505,7 +31527,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T01:40:44Z",
+      "last_run": "2026-10-14T02:25:04Z",
       "last_status": "ok",
       "last_summary": "sync: 122979 docs, feed rebuilt"
     },
@@ -31621,6 +31643,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "03:22",
+      "agent": "Translation Sweeper",
+      "summary": "+11 chunks — Two full ru->EN translations from the trinitas.ru 0235 (Institute of Life Extension) vein: Rostovtsev 'Management of Population Health' (3 chunks) and Statskevich 'Modern cancer treatment - legally sanctioned infliction of severe injuries' (8 chunks). Sources archived."
+    },
+    {
+      "date": "2026-10-14",
+      "time": "02:25",
+      "agent": "AFLinks Sync",
+      "summary": "+122979 docs — +122979 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-14",
       "time": "02:15",
@@ -31914,18 +31948,6 @@
       "time": "14:05",
       "agent": "The Navigator (Field & Trajectory)",
       "summary": "+1 digest — Issue 29, \"Who Keeps the Comparison\" (gear 1, free deepseek/deepseek-v4.1-flash; letta model get → openrouter, no quota error, no gear-2). — Read at HEAD 3cbf171 (epoch 2) via the --no-checkout/--no-cone narrow cone — **10th consecutive first-try** run; git ls-files = git ls-tree -r main = **118,428**, far above the 40k AGENTS.md floor. Feed @**13:23:39Z**, **33,463,216 B**: archive_entries **122,420** (+1,195), aflinks_docs **122,389** (the bake-cadence gap **reversed 569 → 31**), translations **723** works (55 dated today), pages **14,621**, researchers **1,950**, patents **3,045**, finds **216**, agents 15; Yard **88 quests (all proposed, 37th day) / 100 dossiers / 70 validations**; graph frozen 2026-09-06 (**37 days**); bridges 27 vs an 8-entry list."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "13:35",
-      "agent": "Translation Sweeper",
-      "summary": "+29 chunks — 3 full ru->EN translations from the trinitas.ru 0232 Institute of the Golden Section vein: Stakhov 'Brusentsov ternary principle, Bergman number system and golden ternary mirror-symmetric arithmetic' 13 chunks; Alferov 'Golden proportion, Pascal triangle and the principle of the quadra' 14 chunks; Stakhov Canada lecture announcement 2 chunks. 29 chunks total. Note: the 0232 004a (Mathematics of Harmony) articles are abstract+intro-only pages whose full text is in PDFs - not single-run targets."
-    },
-    {
-      "date": "2026-10-13",
-      "time": "13:25",
-      "agent": "AFLinks Sync",
-      "summary": "+122420 docs — +122420 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-10-13",
@@ -33343,11 +33365,11 @@
     {
       "date": "2026-10-14",
       "kind": "translation",
-      "title": "О микрофлоре кишечника (ru->EN)",
-      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension - Discussion\n\nA.D. Shishkin\nOn the Intestinal Microflora\n\nAbout the author\n\nThe chief problem of health i",
+      "title": "Statskevich 02352174 (ru->EN)",
+      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension - Discussion\n\nV.N. Rostovtsev\nManagement of Population Health\n\nAbout the author\n\nThe management of popula",
       "rarity": "fresh from Russian",
-      "href": "./library.html#trans-2026-10-14-on-intestinal-microflora-shishkin-ru.md",
-      "source_url": "https://www.trinitas.ru/rus/doc/0235/002a/02352173.htm"
+      "href": "./library.html#trans-2026-10-14-upravlenie-zdorovem-naseleniya-rostovtsev-ru.md",
+      "source_url": "https://www.trinitas.ru/rus/doc/0235/002a/02352174.htm"
     },
     {
       "date": "2026-10-14",
@@ -1332977,11 +1332999,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Toranj je trebao slati struju besplatno cijelom svijetu (bs->EN)",
-        "excerpt": "Nikola Tesla began building a 57-metre tower on Long Island in 1901, with a copper dome weighing 55 tons. It was meant to send messages and electrical energy without a si",
-        "meta": "translation",
-        "rarity": "fresh translation",
-        "href": "./library.html#trans-2026-10-09-toranj-tesla-wardenclyffe-wireless-power-n1info-bs.md"
+        "title": "الرادستيزيا — الجزء الأول (Radiesthesia, Part One) — Alaa al-Halabi (ar->EN)",
+        "excerpt": "The Scientific Concept of Paranormal Perception The World of the Unseen and the Source of Intuition and Inspiration Cosmic Consciousness and the Exchange of",
+        "meta": "Arabic",
+        "rarity": "fresh from Arabic",
+        "href": "./library.html#trans-2026-10-05-radiesthesia-part-one-al-halabi-ar.md"
       },
       {
         "drawer": "found",
@@ -1334812,12 +1334834,12 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T02:22:59Z",
+    "as_of": "2026-10-14T03:25:35Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
       "docs": 60499,
-      "translations": 641,
-      "pages_translated": 13171,
+      "translations": 643,
+      "pages_translated": 13182,
       "declassified": 170,
       "researchers": 1001,
       "patents": 265
