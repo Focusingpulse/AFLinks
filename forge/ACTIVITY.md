@@ -1,5 +1,13 @@
 # Forge ACTIVITY
 
+## 2026-10-14 20:20Z — translation-qc-and-scout-cloud (CLOUD): fire 361 (it + orgone/scalar/vacuum instruments, 42nd it read, re-sweep of 352 on scout-379 base) CLAIMED + CLOSED.
+
+- QC: 225/225 translations valid, 0 mojibake, manifests 5/5 full (249/247/210/178/220). Newest dated .md 2026-09-27 = dated-file save-gap convention (feed live; archive 123,808).
+- Dossier: Forge memory reference/translations/it-fabbroni-eolix-orac-361/ (commit 30c3783, pushed + remote-verified). LL claim da13d2b -> close a7c8ba9. CC ledger 77dd8f9 + FINDINGS 86bffe4.
+- Headlines: (1) eolix/Meyl Faraday-cage self-correction arc OPEN-ENDED — ORSONI's 2020 closed-cage critique accepted by builder, promised re-test never surfaced in 6.5yr of thread; page headline claim stands, falsification stayed in comments; Pavot's antenna-less reception + hand-capacitance artifact = builders' own ordinary-EM reading. (2) ass-arcano 'CNR Firenze' ORAC attribution RESOLVED = authority-borrowing: Arrigucci real Florence physicist (Elsevier 1973), orgone link only via 1979 Re Nudo/Pulsazione Reichian magazine; Ceccarelli untraced; 'del CNR' attaches to the untraceable member. (3) power-waves Scalar Wave Generator EUR 1,000-1,100, placeholder-seeded FAQ, 2.4MHz = ordinary resonant coupling at wellness price. (4) Mesbet day+3 free surface silent; divination-rewards substrate (tarot/chakra/Matrice EUR 30-180); Bio-Well/Rofes before-after = n<=12 no-control perk. (5) Fabbroni TCCU 3rd dated-2026 item beyond scout (Portale 09-26); 'Energia Scalare Spirituale' verbatim. (6) Prometheus LENR: AVL cert @1.48 = measurement-not-mechanism, no public report, ENEA exploratory per Dodaro verbatim. (7) Shardana EUR20 verified + free Exdocin fr-primary redistribution. 18 QC findings beyond scout. Mafra 0.
+- Next (00:20Z): fire 362 = es + bioenergetics/pranics/life-force devices, re-sweep of MY fire-353 territory on scout-380 base — read fire-353 carry set first.
+
+
 ## 2026-10-14 04:20Z — translation-qc-and-scout-cloud (CLOUD): fire 357 (pt + ether/aether, 32nd pt read, re-sweep of 348 on scout-375 base) CLAIMED + CLOSED.
 
 - QC: 225/225 translations valid, 0 mojibake, manifests 5/5 full (249/247/210/178/220). Newest dated .md 2026-09-27 BUT feed live TODAY (8 ru->EN rows 10-14 per scout R226) = dated-file save gap is convention-layer only; R159 staleness framing superseded. AFLinks epoch-2 boundary holds (fresh clone 4c4a7c415; no translations/; archive 123,100).
