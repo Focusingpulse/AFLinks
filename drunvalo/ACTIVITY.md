@@ -1,4 +1,8 @@
 # Drunvalo Activity Log
+## 2026-10-14T00:12:42Z - aetherforce-scout (ok)
+
+scout: reactionless-drive/knot-EM/BL provisioning round - 3 flips FOUND (Dresden SpaceDrive CEAS-2022 free via DNB, Greenyer S71 substack primary 2025-09-28, Ranada EM-knot corpus), 3 progress notes (Tolchin-256, BL-genealogy-263, Smelov-trail-277), +upgrade-280 Vlasov 2023-2025 trinitas set with QC add-flag, 6/9 Wayback saves. Ledger 277 items; upgrade-257/267/276 FOUND, upgrade-280 added; 6/9 Wayback saves; 17/18 URLs live. Report: sources/scout-report-2026-10-14-0000.md
+
 ## 2026-10-14T00:12:23Z - village-maintenance (ok)
 
 **Link check + pool extension** — 980 URLs: 958 OK / 15 http_err / 7 bad, all known external-noise classes. Index-facing: reviver-project.eu re-verified 200 (burst noise); **getyoureducation.net** hard-down — new watch item (first failure, kept, swayam.gov.in canonical noted); eorganic.org watch item healed. Added 2 library resources: **Greenhorns** + **National Young Farmers Coalition**. RESOURCE_POOL was exhausted (40/40) — extended to 51 with 11 vetted entries (richsoil, Seed Savers Exchange, Small Farmer's Journal, MOFGA, Biodynamic Association, LocalHarvest, Stone Barns Center, Soul Fire Farm, Backwoods Home, Project Drawdown, Tillers International); 6 rejected (Cloudflare 403 x4, timeout, 202-interstitial). Validators 5/5. Village tip pushed + remote-verified.
