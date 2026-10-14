@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:06:12Z",
+  "generated_at": "2026-10-14T23:22:56Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -62,7 +62,7 @@
     "replication_dossiers": 105,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T23:06:12Z",
+      "generated_at": "2026-10-14T23:22:56Z",
       "archive_entries": 123808,
       "aflinks_docs": 123546,
       "translations": 830,
@@ -32803,7 +32803,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T21:33:43Z",
+      "last_run": "2026-10-14T23:11:17Z",
       "last_status": "ok",
       "last_summary": "sync: 123808 docs, feed rebuilt"
     },
@@ -32919,6 +32919,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "23:10",
+      "agent": "AFLinks Sync",
+      "summary": "+123808 docs — +123808 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-14",
       "time": "22:56",
@@ -33224,12 +33230,6 @@
       "time": "10:22",
       "agent": "Translation Sweeper",
       "summary": "+15 chunks — Full translation of A.V. Svetlov, 'The Mechanism of Cancer According to Koch' (trinitas.ru Institute of Life Extension) — a systemic/embryonic-origin theory of cancer built on William Frederick Koch's toxin/antitoxin work; claims recorded as the author's own. Also cites the contactless electrochemical activation (Bakhir) experiment as evidence for isorrhepesis."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "10:16",
-      "agent": "AFLinks Sync",
-      "summary": "+123551 docs — archive 123551 docs, feed rebuilt"
     },
     {
       "date": "2026-10-14",
@@ -1341497,6 +1341497,13 @@
         "excerpt": "# ⚡ Aetherforce — Community\n\n**Guild:** Aetherforce — Community\n**Quest Line:** ⚡ Aetherforce · Community complement\n**Tier:** sand\n**Domain:** community (shared-infra knowledge — how a community eval"
       },
       {
+        "file": "synthesis/quest-queue/2026-10-14-capacitor-weight-buoyancy.md",
+        "date": "2026-10-14",
+        "title": "Quest Card — Does a Charged Capacitor Get Lighter? The Buoyancy-Controlled Weight Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Oddball\n\n**Guild:** Aetherforce — Oddball\n**Quest Line:** ⚡ Aetherforce · Oddball complement\n**Tier:** straw\n**Domain:** energy (a claimed coupling between an imposed electric field "
+      },
+      {
         "file": "synthesis/quest-queue/2026-10-13-laser-magnetized-water-film-trace.md",
         "date": "2026-10-13",
         "title": "Quest Card — Laser-on-Magnetized-Water Film-Trace Test",
@@ -1342125,16 +1342132,16 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
-      },
-      {
-        "file": "synthesis/quest-queue/2026-10-14-capacitor-weight-buoyancy.md",
-        "date": "2026-10-14",
-        "title": "Quest Card — Does a Charged Capacitor Get Lighter? The Buoyancy-Controlled Weight Test",
-        "status": "proposed",
-        "excerpt": "# ⚡ Aetherforce — Oddball\n\n**Guild:** Aetherforce — Oddball\n**Quest Line:** ⚡ Aetherforce · Oddball complement\n**Tier:** straw\n**Domain:** energy (a claimed coupling between an imposed electric field "
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-10-14-dossier-093-capacitor-weight-buoyancy.md",
+        "date": "2026-10-14",
+        "title": "Replication Dossier 093 — Buoyancy-Controlled Capacitor Weight Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 093 — Buoyancy-Controlled Capacitor Weight Test\n\n**Quest:** Does a Charged Capacitor Get Lighter? — The Buoyancy-Controlled Weight Test\n**Status:** protocol\n**Domain:** energy (a"
+      },
       {
         "file": "synthesis/replication/2026-10-14-dossier-092-rod-off-control.md",
         "date": "2026-10-14",
@@ -1342862,13 +1342869,6 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
-      },
-      {
-        "file": "synthesis/replication/2026-10-14-dossier-093-capacitor-weight-buoyancy.md",
-        "date": "2026-10-14",
-        "title": "Replication Dossier 093 — Buoyancy-Controlled Capacitor Weight Test",
-        "status": "protocol",
-        "excerpt": "# Replication Dossier 093 — Buoyancy-Controlled Capacitor Weight Test\n\n**Quest:** Does a Charged Capacitor Get Lighter? — The Buoyancy-Controlled Weight Test\n**Status:** protocol\n**Domain:** energy (a"
       }
     ],
     "validations": [
@@ -1343314,7 +1343314,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T23:06:12Z",
+    "as_of": "2026-10-14T23:22:56Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
       "docs": 61328,
