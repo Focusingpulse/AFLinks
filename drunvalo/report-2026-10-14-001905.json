@@ -1,0 +1,41 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-14T00:19:05Z",
+  "summary": "village-content-growth: 4 new BBs merged (nest.straw.cleanexthouse, textiles.wood.mattress, traditional.sand.dipcandles, traditional.sand.quill) with wiki-verified requirements + es/fr/de translations 259/259; 3 library resources added (Fine Woodworking, Long Thread Media, Nourished Kitchen); master_quests 425->429; validators 5/5; link check 987/961 OK; crawl artifact healthy, rebased over concurrent maintenance push",
+  "status": "ok",
+  "files_modified": [
+    "data.js",
+    "index.html",
+    "master_quests.json",
+    "permies_all_skip_pep_pem_tasks.json",
+    "translations.js"
+  ],
+  "details": {
+    "cron": "village-content-growth",
+    "new_bbs": [
+      "nest.straw.cleanexthouse (PEP Nest straw - first straw-tier Nest quest)",
+      "textiles.wood.mattress (PEP Textiles wood - first wood-tier Textiles quest)",
+      "traditional.sand.dipcandles (PEM -> Homesteading sand)",
+      "traditional.sand.quill (PEM -> Homesteading sand)"
+    ],
+    "library_added": [
+      "finewoodworking.com",
+      "longthreadmedia.com",
+      "nourishedkitchen.com"
+    ],
+    "rejected_candidates": [
+      "growjourney.com 403",
+      "savvygardening.com 403 Cloudflare",
+      "backyardchickens.com 403 Cloudflare",
+      "beeinformed.org 429",
+      "earthbagbuilding.com already present",
+      "builditsolar.com already present"
+    ],
+    "master_quests": "425->429",
+    "quest_titles": "255->259",
+    "translation_coverage": "es/fr/de 259/259, 0 mojibake",
+    "validators": "5/5 PASSED",
+    "link_check": "987 URLs / 961 OK; 3 new links all OK; failures all known external noise",
+    "village_commit": "2f47ccf (rebased over maintenance 1ed4494, clean)"
+  }
+}
