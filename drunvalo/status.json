@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-14T12:05:17Z",
+    "cron": "aetherforce-synthesis",
+    "timestamp": "2026-10-14T12:08:12Z",
     "status": "ok",
-    "summary": "standing checks clean; +20 works Forge Oct-14 batch, +1 person, 12 back-refs; 991 works, 648 persons; tag_concepts skipped (dead)"
+    "summary": "synthesis-structured-cell-association-induction-hydration-arrival; +3 works +6 persons; ledger +2; 991->994 works 648->654 persons"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 648,
-  "works": 991,
+  "persons": 654,
+  "works": 994,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "village-content-growth",
-      "timestamp": "2026-10-14T00:19:05Z",
-      "status": "ok",
-      "summary": "4 new BBs + 3 library resources, translations 259/259, master 425->429, village tip remote-verified"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-14T04:07:44Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-14T12:05:17Z",
       "status": "ok",
       "summary": "standing checks clean; +20 works Forge Oct-14 batch, +1 person, 12 back-refs; 991 works, 648 persons; tag_concepts skipped (dead)"
+    },
+    {
+      "cron": "aetherforce-synthesis",
+      "timestamp": "2026-10-14T12:08:12Z",
+      "status": "ok",
+      "summary": "synthesis-structured-cell-association-induction-hydration-arrival; +3 works +6 persons; ledger +2; 991->994 works 648->654 persons"
     }
   ],
-  "timestamp": "2026-10-14T12:05:17Z",
+  "timestamp": "2026-10-14T12:08:12Z",
   "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
 }
