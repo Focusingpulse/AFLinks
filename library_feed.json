@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T15:16:01Z",
+  "generated_at": "2026-10-14T15:35:34Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -7,21 +7,21 @@
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 123546,
-    "translations": 809,
-    "pages_translated": 15272,
+    "translations": 811,
+    "pages_translated": 15327,
     "declassified_finds": 229,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 955,
+    "translation_files": 957,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 809,
+      "translation_works": 811,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 15272,
+      "pages_translated_computed": 15327,
       "inherited": [],
-      "pages_translated_published": 15272
+      "pages_translated_published": 15327
     },
     "bridges": 27,
     "archive_entries": 123552,
@@ -62,11 +62,11 @@
     "replication_dossiers": 104,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T15:16:01Z",
+      "generated_at": "2026-10-14T15:35:34Z",
       "archive_entries": 123552,
       "aflinks_docs": 123546,
-      "translations": 809,
-      "pages_translated": 15272,
+      "translations": 811,
+      "pages_translated": 15327,
       "declassified_finds": 229,
       "researchers": 2000,
       "patents": 3045,
@@ -176,6 +176,17 @@
       "file": "2026-10-14-vaxande-bevis-neurologiska-dna-oxidativ-stress-stralskyddsstiftelsen-sv.md",
       "content_file": null,
       "excerpt": "[Site navigation chrome: \"Skip to content\", \"Search\"]\n\nGrowing evidence for neurological effects, DNA damage and oxidative stress\n\nPublished 2026-06-11\n\n- 17:51\n\nPhoto: Shutterstock\n\nShares A clear majority, or between 7"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "V poiskakh zdorovya i aktivnogo dolgoletiya (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0235/005a/02351139.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-14-v-poiskakh-zdorovya-i-aktivnogo-dolgoletiya-vlasov-ru.md",
+      "content_file": null,
+      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension — Publications\n\nVlasov V.N.\nIn Search of Health and Active Longevity\n\nAbout the author\n\nBefore I came to understand the most important truth and write this article, "
     },
     {
       "date": "2026-10-14",
@@ -432,6 +443,17 @@
       "file": "translations/2026-10-14-moment-istiny-statskevich-ru.md",
       "content_file": null,
       "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension — Publications\n\nN.D. Shtein\n The Search for Truth (memoirs of a 75-year-old scientist who personally knew A.S. Samokhotsky)\n\nAbout the author\n\nMedicine cannot see th"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "Pod znakom Zolotogo Secheniya - Glava 4.9 Iogann Kepler (Stakhov) (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/100a/02320035.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-14-pod-znakom-zolotogo-secheniya-glava-4-9-kepler-stakhov-ru.md",
+      "content_file": null,
+      "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of the Golden Section — Under the Sign of the \"Golden Section\"\n\nA.P. Stakhov\nUnder the Sign of the \"Golden Section\": Confession of a Studbat's Son. Chapter 4. The Golden Section in th"
     },
     {
       "date": "2026-10-14",
@@ -32474,9 +32496,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-14T13:22:51Z",
+      "last_run": "2026-10-14T15:33:33Z",
       "last_status": "ok",
-      "last_summary": "+12 chunks | Vlasov In Search of Health and Active Longevity 24/53 | backlog 442 wait | gear overdrive"
+      "last_summary": "run total 36 chunks across 3 docs | Vlasov silicon-health memoir 53 of 53 complete | Stakhov Golden Section ch.4.9 Kepler 4 of 4 | ch.4.8 Pacioli 3 of 3 | backlog 446 | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -32496,7 +32518,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T14:24:02Z",
+      "last_run": "2026-10-14T15:18:39Z",
       "last_status": "ok",
       "last_summary": "sync: 123552 docs, feed rebuilt"
     },
@@ -32612,6 +32634,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "15:33",
+      "agent": "Translation Sweeper",
+      "summary": "+3 docs — 3 full ru->EN translations from trinitas.ru (36 chunks): Vlasov 'In Search of Health and Active Longevity' (0235/005a/02351139, 53/53, completed from 24/53) — silicon-and-health memoir; Stakhov 'Under the Sign of the Golden Section' ch.4.9 Kepler (0232/100a/02320035, 4/4) and ch.4.8 Pacioli (0232/100a/02320034, 3/3). Sources archived."
+    },
+    {
+      "date": "2026-10-14",
+      "time": "15:18",
+      "agent": "AFLinks Sync",
+      "summary": "+123552 docs — +123552 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-14",
       "time": "15:09",
@@ -32917,18 +32951,6 @@
       "time": "05:59",
       "agent": "Translation Curator",
       "summary": "+12 chunks — Resumed the Arabic al-Safi 'Cosmic Energy and the Movement of History' job (books-library.com, Sanaa 2023, 92 pp) and translated chunks 13-24 (12 chunks) — the periodic-systems evidence chapter: Modelski/Wallerstein political-economic cycles, Ravi Batra's 30-year money-supply cycle, cyclicality in philosophy (sensory vs conceptual systems), the biological clock, and the natural/physical dimension of history in Islamic thought (al-Kindi, Ibn Hazm, Ibn Rushd, al-Rumi, the divine sunan) and Western thought (Pythagoras, the Stoics, medieval Crusade chroniclers, Bodin, Vico, Kant, Herder, Comte, Hegel, Emerson, Buckle, Spencer, Marx, Spengler). Source PDF already archived and tracked. Job now 24/54."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "05:31",
-      "agent": "Translation Sweeper",
-      "summary": "+12 chunks — Started full translation of al-Safi 'Cosmic Energy and the Movement of History: The Total-Pulse Hypothesis' (Arabic, Sanaa 2023, 92 pp). Source PDF had a broken glyph map (Word-generated); rebuilt the text layer by Arabic OCR (tesseract -l ara, 200 dpi, 92 pages) then re-chunked to 54 chunks. Translated 12 of 54 chunks this run; source PDF archived."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "05:20",
-      "agent": "AFLinks Sync",
-      "summary": "+123100 docs — archive 123100 docs, feed rebuilt, slim reconciled"
     },
     {
       "date": "2026-10-13",
@@ -1338266,11 +1338288,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Feeling the Future — Daryl Bem's Psi Experiments (Arabic translation)",
-        "excerpt": "Skip to content — Arab Psychology × Search the site — Search for: press Enter to search or Esc to close Experimental Psychology · Philosophy of Science and Research Metho",
-        "meta": "Arabic",
-        "rarity": "fresh from Arabic",
-        "href": "./library.html#trans-2026-10-02-feeling-the-future-bem-psi-experiments-arabpsychology-ar.md"
+        "title": "The Fourth State of Water — Plastic Ice VII (demedia.hu)",
+        "excerpt": "[Site navigation chrome — translated]",
+        "meta": "Hungarian",
+        "rarity": "fresh from Hungarian",
+        "href": "./library.html#trans-2026-10-14-fourth-state-of-water-plastic-ice-vii-hu.md"
       },
       {
         "drawer": "found",
@@ -1338335,6 +1338357,13 @@
         "title": "Quest Card — Do Your Urine Numbers Move Together? The Urine pH & Density Test",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Vitality\n\n**Guild:** Aetherforce — Vitality\n**Quest Line:** ⚡ Aetherforce · Vitality complement\n**Tier:** sand\n**Domain:** health (the body's own chemistry read from its own output —"
+      },
+      {
+        "file": "synthesis/quest-queue/2026-10-14-rod-off-control.md",
+        "date": "2026-10-14",
+        "title": "Quest Card — Does the Rod Add Anything? The Rod-Off Control Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Community\n\n**Guild:** Aetherforce — Community\n**Quest Line:** ⚡ Aetherforce · Community complement\n**Tier:** sand\n**Domain:** community (shared-infra knowledge — how a community eval"
       },
       {
         "file": "synthesis/quest-queue/2026-10-13-laser-magnetized-water-film-trace.md",
@@ -1338965,16 +1338994,16 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
-      },
-      {
-        "file": "synthesis/quest-queue/2026-10-14-rod-off-control.md",
-        "date": "2026-10-14",
-        "title": "Quest Card — Does the Rod Add Anything? The Rod-Off Control Test",
-        "status": "proposed",
-        "excerpt": "# ⚡ Aetherforce — Community\n\n**Guild:** Aetherforce — Community\n**Quest Line:** ⚡ Aetherforce · Community complement\n**Tier:** sand\n**Domain:** community (shared-infra knowledge — how a community eval"
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-10-14-dossier-092-rod-off-control.md",
+        "date": "2026-10-14",
+        "title": "Replication Dossier 092 — Rod-Off Control Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 092 — Rod-Off Control Test\n\n**Quest:** Does the Rod Add Anything? — The Rod-Off Control Test\n**Status:** protocol\n**Domain:** community (shared-infra knowledge — how a community "
+      },
       {
         "file": "synthesis/replication/2026-10-14-dossier-091-urine-ph-density.md",
         "date": "2026-10-14",
@@ -1339695,13 +1339724,6 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
-      },
-      {
-        "file": "synthesis/replication/2026-10-14-dossier-092-rod-off-control.md",
-        "date": "2026-10-14",
-        "title": "Replication Dossier 092 — Rod-Off Control Test",
-        "status": "protocol",
-        "excerpt": "# Replication Dossier 092 — Rod-Off Control Test\n\n**Quest:** Does the Rod Add Anything? — The Rod-Off Control Test\n**Status:** protocol\n**Domain:** community (shared-infra knowledge — how a community "
       }
     ],
     "validations": [
@@ -1340147,12 +1340169,12 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T15:16:01Z",
+    "as_of": "2026-10-14T15:35:34Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
       "docs": 61072,
-      "translations": 683,
-      "pages_translated": 13520,
+      "translations": 685,
+      "pages_translated": 13575,
       "declassified": 176,
       "researchers": 1001,
       "patents": 265
