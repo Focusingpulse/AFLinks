@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "aetherforce-database-refresh",
-    "timestamp": "2026-10-14T06:06:58Z",
+    "cron": "aetherforce-synthesis",
+    "timestamp": "2026-10-14T06:12:40Z",
     "status": "ok",
-    "summary": "database-refresh: +11 works from Forge's Oct-14 batch (trinitas Revici debate x5 + Institute-of-Life-Extension x3 + Vedic water-memory hi + Persian radiesthesia course + UNIST proton-tunnelling ko), +7 persons (ezhelev-av, negodaylov-an, bugaev-af, emanuel-revici, samokhotsky-as, proshin-av, shin-hyung-joon), statskevich +5/gilbert-ling +1 links, 7 back-refs wired. Standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). 0 ledger completions (upgrade-259 Boerner held - commercial book page only; upgrade-279 Montagnier transduction not in collection). Feed title self-heal via builder patch; tag_concepts dead (skip); build_library_feed skipped (no living-library projection). 963 works / 638 persons."
+    "summary": "Synthesis: The Harmony Program - golden proportion between the balance beam, the egg, and the skeptical shelf. Vinnitsa school (Stakhov measurement theory, Q_p matrices, 65-patent Fibonacci computers, Mitropolsky endorsement) vs Western aesthetic line (Zeising-Fechner-Hambidge-Ghyka) vs skeptical rail carried in full (Zubov 1937 internal demolition of Ghyka, Markowsky 1992 Parthenon=2.25 not phi + 1835 name origin, Douady-Couder 1992 phyllotaxis reproduced by packing dynamics). DB: +1 synthesis work, +2 primaries no-dossier convention (Markowsky CMJ 1992, Douady-Couder PRL 1992), +7 persons (markowsky, douady, couder, ghyka, hambidge, zeising, fechner), 32 back-refs, 13 existing-person links, 0 dangling cross-refs. Ledger: +2 proposals (Stakhov Mathematics of Harmony EN monograph, Western proportion primaries public-domain acquisition). 952->955 works, 631->638 persons."
   },
-  "job": "aetherforce-database-refresh",
+  "job": "aetherforce-synthesis",
   "status": "ok",
   "persons": 638,
-  "works": 963,
+  "works": 955,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-13T12:12:48Z",
-      "status": "ok",
-      "summary": "standing checks clean; +25 works +12 persons from Forge Oct-13 batch; van-tilborg source_url backfill; DB 885 works / 608 persons at push"
-    },
     {
       "cron": "village-quality-audit",
       "timestamp": "2026-10-14T00:09:03Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-14T06:06:58Z",
       "status": "ok",
       "summary": "database-refresh: +11 works from Forge's Oct-14 batch (trinitas Revici debate x5 + Institute-of-Life-Extension x3 + Vedic water-memory hi + Persian radiesthesia course + UNIST proton-tunnelling ko), +7 persons (ezhelev-av, negodaylov-an, bugaev-af, emanuel-revici, samokhotsky-as, proshin-av, shin-hyung-joon), statskevich +5/gilbert-ling +1 links, 7 back-refs wired. Standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). 0 ledger completions (upgrade-259 Boerner held - commercial book page only; upgrade-279 Montagnier transduction not in collection). Feed title self-heal via builder patch; tag_concepts dead (skip); build_library_feed skipped (no living-library projection). 963 works / 638 persons."
+    },
+    {
+      "cron": "aetherforce-synthesis",
+      "timestamp": "2026-10-14T06:12:40Z",
+      "status": "ok",
+      "summary": "Synthesis: The Harmony Program - golden proportion between the balance beam, the egg, and the skeptical shelf. Vinnitsa school (Stakhov measurement theory, Q_p matrices, 65-patent Fibonacci computers, Mitropolsky endorsement) vs Western aesthetic line (Zeising-Fechner-Hambidge-Ghyka) vs skeptical rail carried in full (Zubov 1937 internal demolition of Ghyka, Markowsky 1992 Parthenon=2.25 not phi + 1835 name origin, Douady-Couder 1992 phyllotaxis reproduced by packing dynamics). DB: +1 synthesis work, +2 primaries no-dossier convention (Markowsky CMJ 1992, Douady-Couder PRL 1992), +7 persons (markowsky, douady, couder, ghyka, hambidge, zeising, fechner), 32 back-refs, 13 existing-person links, 0 dangling cross-refs. Ledger: +2 proposals (Stakhov Mathematics of Harmony EN monograph, Western proportion primaries public-domain acquisition). 952->955 works, 631->638 persons."
     }
   ],
-  "timestamp": "2026-10-14T06:06:58Z",
+  "timestamp": "2026-10-14T06:12:40Z",
   "summary": "scout: reactionless-drive/knot-EM/BL provisioning round - 3 flips FOUND (Dresden SpaceDrive CEAS-2022 free via DNB, Greenyer S71 substack primary 2025-09-28, Ranada EM-knot corpus), 3 progress notes (Tolchin-256, BL-genealogy-263, Smelov-trail-277), +upgrade-280 Vlasov 2023-2025 trinitas set with QC add-flag, 6/9 Wayback saves"
 }
