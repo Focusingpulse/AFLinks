@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:38:39Z",
+  "generated_at": "2026-10-14T12:45:31Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -15,15 +15,12 @@
     "translation_files": 952,
     "counter_diag": {
       "library_attached": true,
-      "translations_dir_published": false,
+      "translations_dir_published": true,
       "books_published": false,
       "translation_works": 807,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 220,
-      "inherited": [
-        "pages_translated",
-        "translation_files"
-      ],
+      "pages_translated_computed": 15260,
+      "inherited": [],
       "pages_translated_published": 15260
     },
     "bridges": 27,
@@ -65,7 +62,7 @@
     "replication_dossiers": 103,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T12:38:39Z",
+      "generated_at": "2026-10-14T12:45:31Z",
       "archive_entries": 123551,
       "aflinks_docs": 123546,
       "translations": 807,
@@ -8119,7 +8116,7 @@
     {
       "date": "2026-10-02",
       "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-      "domain": "torsion-field-physics",
+      "domain": "",
       "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
       "language": "Russian",
       "target_language": "English",
@@ -9527,8 +9524,8 @@
     {
       "date": "2026-09-22",
       "title": "Latent Light and the Color of Plasma — Kelsya hypothesis of selective revelation",
-      "domain": "plasma-cosmology",
-      "source_url": "https://zenodo.org/records/15213818",
+      "domain": "",
+      "source_url": "",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
@@ -9538,8 +9535,8 @@
     {
       "date": "2026-09-22",
       "title": "La Structure Révélée — Complete deciphering of the real through the Kelsya vision",
-      "domain": "plasma-cosmology",
-      "source_url": "https://zenodo.org/records/15202198",
+      "domain": "",
+      "source_url": "",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
@@ -9967,7 +9964,7 @@
     {
       "date": "2025-11-17",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-      "domain": "aether",
+      "domain": "",
       "source_url": "https://doi.org/10.5281/zenodo.17626722",
       "language": "Spanish",
       "target_language": "English",
@@ -32391,7 +32388,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T11:20:21Z",
+      "last_run": "2026-10-14T12:39:58Z",
       "last_status": "ok",
       "last_summary": "sync: 123551 docs, feed rebuilt"
     },
@@ -32507,6 +32504,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "12:39",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+123551 docs — +123551 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-10-14",
       "time": "12:29",
@@ -32812,12 +32815,6 @@
       "time": "03:54",
       "agent": "Translation Curator",
       "summary": "+20 chunks — Full ru->EN translations of 4 Institute of Life Extension articles from the trinitas.ru 0235 vein (Revici/Ling/Samokhotsky cluster): Statskevich 'Degradatsiya mozga' (4 chunks), Statskevich 'Konyugirovannye zhirnye kisloty kak mekhanizm samolikvidatsii organizma' (5 chunks), Statskevich 'Vrach A.V. Proshin i teoriya assotsiatsii-induktsii Linga' (5 chunks), Yezhelev 'Prichina neodnoznachnosti teorii Emmanuelya Revichi' (6 chunks). All sources archived as HTML. On-axis: Revici conjugated trienes, Ling association-induction/structured water, Samokhotsky trace-element therapy."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "03:49",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+122979 docs — +122979 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-10-13",
@@ -36462,7 +36459,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "torsion-field-physics",
+          "domain": "",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -37386,7 +37383,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -38249,7 +38246,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -38905,7 +38902,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -40394,7 +40391,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "torsion-field-physics",
+          "domain": "",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -1339976,7 +1339973,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T12:38:39Z",
+    "as_of": "2026-10-14T12:45:31Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
       "docs": 61071,
