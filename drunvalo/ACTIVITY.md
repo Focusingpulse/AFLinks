@@ -1,4 +1,8 @@
 # Drunvalo Activity Log
+## 2026-10-14T00:12:23Z - village-maintenance (ok)
+
+**Link check + pool extension** — 980 URLs: 958 OK / 15 http_err / 7 bad, all known external-noise classes. Index-facing: reviver-project.eu re-verified 200 (burst noise); **getyoureducation.net** hard-down — new watch item (first failure, kept, swayam.gov.in canonical noted); eorganic.org watch item healed. Added 2 library resources: **Greenhorns** + **National Young Farmers Coalition**. RESOURCE_POOL was exhausted (40/40) — extended to 51 with 11 vetted entries (richsoil, Seed Savers Exchange, Small Farmer's Journal, MOFGA, Biodynamic Association, LocalHarvest, Stone Barns Center, Soul Fire Farm, Backwoods Home, Project Drawdown, Tillers International); 6 rejected (Cloudflare 403 x4, timeout, 202-interstitial). Validators 5/5. Village tip pushed + remote-verified.
+
 
 ## 2026-10-14T00:12:08Z - aetherforce-translation-qc (ok)
 - Standing checks clean: same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 (scoped), feed same-file 0
