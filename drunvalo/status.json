@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-quality-audit",
-    "timestamp": "2026-10-14T12:05:16Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-14T12:05:17Z",
     "status": "ok",
-    "summary": "village-quality-audit clean: 27 guilds, 261 quests/259 unique titles, 0 malformed; translations es/fr/de full 259/259 quests + 27/27 guilds, 0 mojibake, 99/99 i18n keys; master_quests 429 valid, 0 dup urls/titles; BB markers 67 (57 corpus + 10 live-verified); index.html 0 errors 16/16 refs; validators 5/5; links 996 checked/972 OK, failures all known external noise; 0 fixes, no village commit"
+    "summary": "standing checks clean; +20 works Forge Oct-14 batch, +1 person, 12 back-refs; 991 works, 648 persons; tag_concepts skipped (dead)"
   },
-  "job": "village-quality-audit",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 647,
-  "works": 971,
+  "persons": 648,
+  "works": 991,
   "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
   "runs": [
-    {
-      "cron": "aetherforce-scout",
-      "timestamp": "2026-10-14T00:12:42Z",
-      "status": "ok",
-      "summary": "scout: reactionless-drive/knot-EM/BL provisioning round - 3 flips FOUND (Dresden SpaceDrive CEAS-2022 free via DNB, Greenyer S71 substack primary 2025-09-28, Ranada EM-knot corpus), 3 progress notes (Tolchin-256, BL-genealogy-263, Smelov-trail-277), +upgrade-280 Vlasov 2023-2025 trinitas set with QC add-flag, 6/9 Wayback saves"
-    },
     {
       "cron": "village-content-growth",
       "timestamp": "2026-10-14T00:19:05Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-14T12:05:16Z",
       "status": "ok",
       "summary": "village-quality-audit clean: 27 guilds, 261 quests/259 unique titles, 0 malformed; translations es/fr/de full 259/259 quests + 27/27 guilds, 0 mojibake, 99/99 i18n keys; master_quests 429 valid, 0 dup urls/titles; BB markers 67 (57 corpus + 10 live-verified); index.html 0 errors 16/16 refs; validators 5/5; links 996 checked/972 OK, failures all known external noise; 0 fixes, no village commit"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-14T12:05:17Z",
+      "status": "ok",
+      "summary": "standing checks clean; +20 works Forge Oct-14 batch, +1 person, 12 back-refs; 991 works, 648 persons; tag_concepts skipped (dead)"
     }
   ],
-  "timestamp": "2026-10-14T12:05:16Z",
+  "timestamp": "2026-10-14T12:05:17Z",
   "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
 }
