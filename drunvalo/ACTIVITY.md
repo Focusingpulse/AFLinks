@@ -1,4 +1,8 @@
 # Drunvalo Activity Log
+
+## 2026-10-14T12:05:17Z - aetherforce-translation-qc (ok)
+Standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 46 + containment 5 candidates, 0 folds (all known no-fold families). +20 works from Forge's Oct-14 batch (Statskevich x6, Svetlov x2, Revici-line x1, Goncharenko morphogenetic-fields/cavitation, water cluster x5 incl. mainstream TU-Wien/plastic-ice/blue-capacitor, dowsing pro/con pl pair, EMF-evidence sv, spiralrohre de, mesbet pyramids it), +1 person goncharenko-ai, 12 back-ref wirings, 6 person works_in_collection links, 20/20 URLs live. tag_concepts skipped (dead). Indexes 971->991 works, 647->648 persons.
+
 ## 2026-10-14T12:05:16Z - village-quality-audit (ok)
 village-quality-audit clean: 27 guilds, 261 quests/259 unique titles, 0 malformed; translations es/fr/de full 259/259 quests + 27/27 guilds, 0 mojibake, 99/99 i18n keys; master_quests 429 valid, 0 dup urls/titles; BB markers 67 (57 corpus + 10 live-verified); index.html 0 errors 16/16 refs; validators 5/5; links 996 checked/972 OK, failures all known external noise; 0 fixes, no village commit
 
