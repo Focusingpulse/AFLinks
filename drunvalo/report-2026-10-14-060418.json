@@ -1,0 +1,22 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-14T06:04:18Z",
+  "summary": "village-maintenance: 989 links checked, 28 failures all known non-actionable external classes (burst 429s, anti-bot 403s, dead scraped forum-text links). getyoureducation.net watch item healed (301->www->200). acteco.eu 000-from-sandbox but live externally, kept+noted. Added 2 library resources: richsoil + Seed Savers Exchange. Validators 5/5. Village f1a42c8 remote-verified.",
+  "status": "ok",
+  "files_modified": [
+    "village-link-report.md",
+    "index.html"
+  ],
+  "details": {
+    "cron": "village-maintenance",
+    "links_checked": 989,
+    "ok": 961,
+    "http_err": 21,
+    "bad": 7,
+    "resources_added": [
+      "richsoil.com",
+      "seedsavers.org"
+    ],
+    "village_commit": "f1a42c8"
+  }
+}
