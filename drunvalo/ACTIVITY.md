@@ -1,4 +1,8 @@
 # Drunvalo Activity Log
+
+## 2026-10-14T06:04:18Z - village-maintenance (ok)
+
+village-maintenance: 989 links checked, 28 failures all known non-actionable external classes (burst 429s, anti-bot 403s, dead scraped forum-text links). getyoureducation.net watch item healed (301->www->200). acteco.eu 000-from-sandbox but live externally, kept+noted. Added 2 library resources: richsoil + Seed Savers Exchange. Validators 5/5. Village f1a42c8 remote-verified.
 ## 2026-10-14T04:07:44Z - aetherforce-translation-qc (ok)
 +17 works from Forge's Oct-13 evening + Oct-14 trinitas Institute-of-Life-Extension batch (Statskevich x10, Svetlov x5, Shishkin, Kuznetsov, Rostovtsev) + 4 persons; standing checks all clean; 2 junk feed titles corrected via DB; URLs 17/17 live. DB: 952 works / 631 persons.
 
