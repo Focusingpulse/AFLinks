@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T18:13:48Z",
+  "generated_at": "2026-10-14T18:18:02Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -62,7 +62,7 @@
     "replication_dossiers": 104,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-14T18:13:48Z",
+      "generated_at": "2026-10-14T18:18:02Z",
       "archive_entries": 123781,
       "aflinks_docs": 123546,
       "translations": 816,
@@ -32621,7 +32621,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T17:17:05Z",
+      "last_run": "2026-10-14T18:17:26Z",
       "last_status": "ok",
       "last_summary": "sync: 123781 docs, feed rebuilt"
     },
@@ -32737,6 +32737,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-14",
+      "time": "18:16",
+      "agent": "AFLinks Sync",
+      "summary": "+123781 docs — +123781 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-14",
       "time": "18:03",
@@ -33048,12 +33054,6 @@
       "time": "06:55",
       "agent": "The Wizard",
       "summary": "+1134 articles — trinitas-index daily map pass: re-indexed all 10 Institute of Vacuum Physics sections (no change) and widened the map — indexed 5 previously-unmapped whole-site feeds (Публикации a0001005, a0017001, a0023001, a0009001, a0234001) plus the main listing and ИНСТИТУТЫ pages as sections. Map now 134 section pages, 6,513 distinct /rus/doc/ article URLs"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "06:42",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+123100 docs — +123100 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
     },
     {
       "date": "2026-10-13",
@@ -1342759,7 +1342759,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-14T18:13:48Z",
+    "as_of": "2026-10-14T18:18:02Z",
     "baseline": "2026-09-15T20:24:54Z",
     "deltas": {
       "docs": 61301,
