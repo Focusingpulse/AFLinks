@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:18:06Z",
+  "generated_at": "2026-10-15T15:16:01Z",
   "library": {
     "researchers": 2041,
     "researchers_cataloged": 2041,
@@ -9,7 +9,7 @@
     "aflinks_docs": 124108,
     "translations": 874,
     "pages_translated": 15900,
-    "declassified_finds": 233,
+    "declassified_finds": 239,
     "active_agents": 15,
     "book5_complete": true,
     "translation_files": 1039,
@@ -19,8 +19,10 @@
       "books_published": false,
       "translation_works": 874,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 15900,
-      "inherited": [],
+      "pages_translated_computed": 15855,
+      "inherited": [
+        "pages_translated"
+      ],
       "pages_translated_published": 15900
     },
     "bridges": 29,
@@ -58,16 +60,16 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 94,
-    "replication_dossiers": 107,
+    "practical_quests": 95,
+    "replication_dossiers": 108,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T14:18:06Z",
+      "generated_at": "2026-10-15T15:16:01Z",
       "archive_entries": 126517,
       "aflinks_docs": 124108,
       "translations": 874,
       "pages_translated": 15900,
-      "declassified_finds": 233,
+      "declassified_finds": 239,
       "researchers": 2041,
       "patents": 3069,
       "active_agents": 15,
@@ -654,6 +656,17 @@
       "file": "2026-10-15-critical-applications-hamming-code-paradox-stakhov-ru.md",
       "content_file": null,
       "excerpt": "Part I. Critically important applications and the paradox of the Hamming code\n\n1. Introduction\n\nIn recent weeks a lively discussion devoted to \"Fibonacci computers\" [1-4] has unfolded on the AT website. The authors of th"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Kompendium Wirbelphysik Teil 2 (de->EN)",
+      "domain": "",
+      "source_url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_2.pdf",
+      "language": "German",
+      "target_language": "English",
+      "file": "2026-10-15-compendium-of-vortex-physics-part-2-de.md",
+      "content_file": null,
+      "excerpt": "SAFE\n\nCompendium of Vortex Physics\n\nCompendium\nof\n\nVortex Physics\nVersion 1\nPart 2\n8 May 1999\n\nSAFE\nSwiss Association for Free Energy\nSwiss Association for Free Energy\nwww.safeswiss.org\nWorking Group Vortex Physics\nrepre"
     },
     {
       "date": "2026-10-15",
@@ -11025,17 +11038,6 @@
       "excerpt": "- **date:** 2026-08-30\n- **domain:** water-physics, biophysics, quantum-coherence\n- **source_url:** https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/\n- "
     },
     {
-      "date": "2026-08-31",
-      "title": "Compendium of Vortex Physics (Schauberger) — Complete Translation (buch-der-synergie.de)",
-      "domain": "vortex-physics",
-      "source_url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf",
-      "language": "German",
-      "target_language": "English",
-      "file": "2026-08-31-compendium-vortex-physics-complete-de.md",
-      "content_file": null,
-      "excerpt": "- **date:** 2026-08-31\n- **domain:** vortex-physics\n- **source_url:** https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf\n- **language:** de\n- **source_language:** German\n- **translator:** trans"
-    },
-    {
       "date": "2026-09-11",
       "title": "Brazilian Scalar Energy Generator Patent",
       "domain": "",
@@ -11716,6 +11718,54 @@
         {
           "title": "US 2026/0089827 A1",
           "description": "Plasma Reactor (CAPHENIA GmbH)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "file": "2026-10-15-deep-dive-morning-a.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Krivit & Ravnitzky",
+          "description": "Sustained excess heat in gas-phase LENR (peer-reviewed)",
+          "url": ""
+        },
+        {
+          "title": "UC Davis / Berkeley",
+          "description": "deuterium–deuterium fusion in metal foils (Nature Communications)",
+          "url": ""
+        },
+        {
+          "title": "Project Callisto",
+          "description": "nine-year LENR search, no reproducible effect (counter-integrity)",
+          "url": ""
+        },
+        {
+          "title": "Yale",
+          "description": "storing memory on a chip with flowing water (Physical Review X)",
+          "url": ""
+        },
+        {
+          "title": "Aalto / Kanazawa",
+          "description": "peptide hydration shells (Nature Communications)",
+          "url": ""
+        },
+        {
+          "title": "arXiv",
+          "description": "high-harmonic generation probes quantum nuclear fluctuations in liquid water",
+          "url": ""
+        },
+        {
+          "title": "PNAS",
+          "description": "a water-pinning hot spot drives templated tau aggregation",
+          "url": ""
+        },
+        {
+          "title": "Dismofusion (Toulouse)",
+          "description": "solid-state fusion start-up and DARPA MARRS",
           "url": ""
         }
       ]
@@ -33655,7 +33705,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-15T13:20:59Z",
+      "last_run": "2026-10-15T14:19:32Z",
       "last_status": "ok",
       "last_summary": "sync: 126517 docs, feed rebuilt"
     },
@@ -33688,9 +33738,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-10-15T12:11:54Z",
+      "last_run": "2026-10-15T15:16:29Z",
       "last_status": "ok",
-      "last_summary": "citation-harvest: 30 docs fetched, 12 with bibliographies, +368 refs; graph 25696 nodes / 3042 hubs; veracity ch.21 percentage row re-probed, unchanged"
+      "last_summary": "this run: +6 declassified finds across 5 countries RO NLx2 UY ID VN, +9 research finds, 2 sources files, gear overdrive; declassified total now 239 across 115 countries; delta lines vs prior wizard entry use a different metric so are not comparable"
     },
     {
       "member": "book5-translate",
@@ -33771,6 +33821,36 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-15",
+      "time": "15:14",
+      "agent": "Deep-Dive Morning",
+      "summary": "+6 declassified finds — 6 declassified finds across 5 countries (Romania, Netherlands x2, Uruguay, Indonesia, Vietnam) + 9 research finds (LENR, water structure, fluidic memory); gear overdrive"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:25",
+      "agent": "translator-foreign",
+      "summary": "+26 chunks — Full de->EN translation of SAFE Compendium of Vortex Physics Part 2 (Huber's Etherics), 38/38 chunks, source archived"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:21",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+278 references — +278 references — 30 docs fetched, refs.jsonl 34246->34524; retro-clean kept 34507, dropped 17 (15 fragment, 2 boilerplate); graph 25575 nodes / 34788 edges / 3125 hubs / 22450 single-cited; overlay 41885 nodes / 55068 edges; archive queue refreshed (feed live, 124108 docs, 2041 researchers, 872 translations). refs.jsonl was absent on this fresh checkout and was restored from the 53363a56^ baseline (34246) per the documented rule — the graph is bounded by one run's batch (known non-accumulation defect, fix still open for Cairn/Chris). Veracity re-check: ch. 6 DID anchor (needs-owner, unchanged) re-probed via two new routes — the APEX DID resolved hop-by-hop (the framework's own /s/did.json redirect hop labels the resource content-type application/did+ld+json, the DID media type, while the document served has 0 id fields and fails the did:web Method Spec's own Read step 7), and a content-negotiation test (all three DID Accept headers return the same malformed body). Receipt materially strengthened; next in rotation the About-page MID mislabel."
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:21",
+      "agent": "Practicality Engine",
+      "summary": "food: cold-storage energy test (dossier 095) — passive device vs freezer power draw"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:19",
+      "agent": "AFLinks Sync",
+      "summary": "+126517 docs — +126517 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-15",
       "time": "14:00",
@@ -34052,36 +34132,6 @@
       "time": "05:11",
       "agent": "Patent Watch",
       "summary": "+24 patents — 24 new patent filings indexed across target domains: propellantless/anti-gravity (US20260167359A1 photonic propulsion, US20260072053A1 Poynting-vector gravity modification, US20260085669A1 thrust+reverse-rotation, US12722807 electron-momentum propulsion), water/plasma (WO2026022486 H2 plasma reactor, US20260159382 H2 from humid air, US20260022471 magnetically-assisted electrolysis, US20260089827 CAPHENIA plasma reactor, US20260286883 water-arc plasma power, WO2026093112A1 synthetic fuel), acoustic/ultrasonic (WO2026181585, CN224139145U, US12683572, WO2026020726A1), plasma propulsion (CN202610695344 Lanzhou, CN202512044529 VLEO, CN116981146B helicon, CN202610252926 dual-mode, CN116838557A BIT, CN116357537A CNT), dielectric (US20260258547, US20260120956, WO2026210875), torsion/scalar (WO2024039755A1). 8 candidates excluded as already indexed. patent-index.json 3045 -> 3069."
-    },
-    {
-      "date": "2026-10-15",
-      "time": "04:50",
-      "agent": "Translation Curator",
-      "summary": "+2 docs — Full translations of two trinitas.ru 0232 (Institute of the Golden Section) articles: Stakhov's 'Concept of Harmonious Education and the School of the Future' (reply to Konstantinova) and Komarov & Tatur's 'Infinity and Harmony' (transfinite number as a measure of qualitative differences). Both sources archived as HTML."
-    },
-    {
-      "date": "2026-10-15",
-      "time": "04:29",
-      "agent": "Translation Sweeper",
-      "summary": "+24 chunks — 3 full translations, 24 chunks. Kovalenko & Vozdenko 'Study of the spatial distribution of the pyramid form field' (ru->EN, 9/9) and Kovalenko & Zadorozhnyaya 'Influence of the pyramid form field on the structural-informational properties of water' (ru->EN, 9/9) - laser-scattering studies of pyramid form fields acting on water cluster structure (Kherson National Technical University); NEXUS Radiesthesie reading of chapter III of Chaumery & de Belizal Essai de radiesthesie vibratoire, 'Egyptian radiesthesia' (fr->EN, 6/6) - primary-source analysis of the ondes-de-forme lineage with explicit fact/interpretation separation. Sources archived."
-    },
-    {
-      "date": "2026-10-15",
-      "time": "04:23",
-      "agent": "AFLinks Sync",
-      "summary": "+123809 docs — +123809 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "04:16",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+362 references — batch 30 docs fetched, 9 yielded a bibliography, 22 no_bib, 0 fetch failures; +362 refs (refs.jsonl 34246 baseline restored from git history 53363a56^ -> 34608); retro-clean kept 34591 dropped 17 (15 fragment, 2 boilerplate); graph 25741 nodes / 34872 edges / 3034 hubs / 22707 single-cited; overlay 42142 nodes / 55305 edges (29923 cites); archive queue refreshed feed live 123546 docs 2041 researchers 839 translations; veracity re-check: ch. 6 DID anchor needs-owner re-probed via the did:web spec Read algorithm applied literally (fails at HTTP GET step, 404) and a fresh whole-host DID sweep (none of 10 current hosts serves a valid DID document) - status unchanged, receipt strengthened; note the refs baseline reset means the graph is 49 refs below the previous run (the known non-accumulation defect)"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "04:10",
-      "agent": "translator-foreign",
-      "summary": "+2 docs (19 chunks) — Full ru->EN translations from the trinitas.ru 0232 (Institute of the Golden Section) vein, section 100a (Stakhov memoir): (1) A.P. Stakhov, \"My New Book THE MATHEMATICS OF HARMONY. FROM EUCLID TO CONTEMPORARY MATHEMATICS AND COMPUTER SCIENCE Is Published!\" (9/9 chunks) — the announcement of his 2009 World Scientific book, with dedications and acknowledgements (Vorobyov, Volkov, Vitenko, Chefranov, Aigner, Kempe, Mitropolsky, El Naschie, Olsen, Rozin, Raylyan, Soyfer). (2) E.M. Soroko, \"Review of A.P. Stakhov's book The Mathematics of Harmony\" (10/10 chunks) — Soroko's review framing the generalized Fibonacci numbers / generalized golden sections as the mathematical apparatus for the laws of harmony of complex self-organizing systems, with the 62:38 state/private-property golden-ratio claim and the high-redundancy Fibonacci-computer reliability argument (Chernobyl remote-clearing failure). Both sources archived as windows-1251 HTML. NOTE: a duplicate race on Ch.6.11 (02320059) and Ch.7.2 (02320061) — the Translation Curator had already completed both; my redundant copy was discarded."
     },
     {
       "date": "2026-10-14",
@@ -34621,6 +34671,12 @@
     },
     {
       "country": "indonesia",
+      "title": "Indonesia — Israeli State Archives Files on Secret Indonesia–Israel Ties (2026)",
+      "description": "Indonesia — Declassified Israeli State Archives files (1957–1967) surfaced in 2026 (Berliner Zeitung investigation, reported in Indonesian media Oct 2026) document secret Indonesia",
+      "file": "declassified/indonesia/israel-archives-indonesia-1965-1967.md"
+    },
+    {
+      "country": "indonesia",
       "title": "Indonesia — ANRI/BPIP Archival Source Manuscript \"NSA Dasar Negara II\" (August 2026)",
       "description": "Indonesia — The National Archives (ANRI) and BPIP published Volume II of the Naskah Sumber Arsip on the 1945 BPUPK sessions (10–17 July 1945), compiled from authentic ANRI holdings",
       "file": "declassified/indonesia/nsa-dasar-negara-ii.md"
@@ -34879,6 +34935,18 @@
     },
     {
       "country": "netherlands",
+      "title": "Netherlands — Archiefwet Amendment Opens War Archives Online (Sept 2026)",
+      "description": "Netherlands — On 22 September 2026 the Tweede Kamer unanimously passed an amendment to the Archiefwet allowing online publication of restricted war archives; the trigger was the CA",
+      "file": "declassified/netherlands/archiefwet-amendment-cabr-online.md"
+    },
+    {
+      "country": "netherlands",
+      "title": "Netherlands — Defence Releases Drone/UAP Sighting Documents (Oct 2026)",
+      "description": "Netherlands — On 5 October 2026 Defence Minister Yeşilgöz-Zegerius told the Lower House a Woo (Open Government Act) decision had released documents on unidentified drone and flying",
+      "file": "declassified/netherlands/defence-drone-uap-woo-release-2026.md"
+    },
+    {
+      "country": "netherlands",
       "title": "Netherlands — Openbaarheidsdag 2026: ~13,000 Inventory Numbers Opened",
       "description": "The Dutch National Archives' annual Openbaarheidsdag opened restrictions on nearly 13,000 inventory numbers on 1 January 2026, including Cold War security-service dossiers, royal-h",
       "file": "declassified/netherlands/openbaarheidsdag-2026.md"
@@ -35008,6 +35076,12 @@
       "title": "Portugal SIS Partial Declassification of FP-25 Archives",
       "description": "Portugal — SIS (Serviço de Informações de Segurança) announced first partial declassification of FP-25 terrorist organization archives (1985-1990 period) in May 2025, with parliame",
       "file": "declassified/portugal/sis-fp25-declassification.md"
+    },
+    {
+      "country": "romania",
+      "title": "Romania — CNSAS Publishes Securitate Files on Emigration to West Germany (Sept 2026)",
+      "description": "Romania — On 28 September 2026 the CNSAS (National Council for the Study of the Securitate Archives) published Securitate archive documents on Romanian emigration to the Federal Re",
+      "file": "declassified/romania/cnsas-emigration-germany-1987-1989.md"
     },
     {
       "country": "romania",
@@ -35340,6 +35414,12 @@
       "file": "declassified/uruguay/dnii-archive-transfer.md"
     },
     {
+      "country": "uruguay",
+      "title": "Uruguay — Recent-Past Archives Transferred to INDDHH (Sept 2026)",
+      "description": "Uruguay — On 24 September 2026 the Secretaría de Derechos Humanos announced it will transfer its recent-past (dictatorship-era) archives to the INDDHH in compliance with Inter-Amer",
+      "file": "declassified/uruguay/sdh-inddhh-archive-transfer.md"
+    },
+    {
       "country": "usa",
       "title": "USA — Army ERDL Translation of Cazzamalli's Cerebro-Psychic Radiation Experiments (DTIC AD0422217)",
       "description": "USA — US Army Engineer Research & Development Labs (Fort Belvoir) translation and release of Italian neuropsychiatrist Ferdinando Cazzamalli's 1933–1940 brain-radiation experiments",
@@ -35506,6 +35586,12 @@
       "title": "Vietnam — Hoàng Sa / Trường Sa Archival Exhibition (Da Nang, June 2026)",
       "description": "Vietnam — a public exhibition in Da Nang (opened 2026-06-15) of nearly 200 archival documents, maps and images on Hoàng Sa and Trường Sa, drawn from the National Archives Centres, ",
       "file": "declassified/vietnam/hoang-sa-truong-sa-archival-exhibition.md"
+    },
+    {
+      "country": "vietnam",
+      "title": "Vietnam — National Archives Center III Conditional-Access Decision (May 2026)",
+      "description": "Vietnam — Decision No. 523/QĐ-BNV of 13 May 2026 approved the list of archival records subject to conditional access in selected fonds at the National Archives Centers, including N",
+      "file": "declassified/vietnam/nac3-conditional-access-decision-2026.md"
     },
     {
       "country": "vietnam",
@@ -38680,17 +38766,6 @@
           "excerpt": "# Acqua Viva — Viktor Schauberger\n\n*Full translation from it · source: https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf · 106 chunks · assembled 2026-09-10*\n\nCatalogue\n\nAcqua Viva - Viktor Schaub"
         },
         {
-          "date": "2026-08-31",
-          "title": "Compendium of Vortex Physics (Schauberger) — Complete Translation (buch-der-synergie.de)",
-          "domain": "vortex-physics",
-          "source_url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf",
-          "language": "German",
-          "target_language": "English",
-          "file": "2026-08-31-compendium-vortex-physics-complete-de.md",
-          "content_file": null,
-          "excerpt": "- **date:** 2026-08-31\n- **domain:** vortex-physics\n- **source_url:** https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf\n- **language:** de\n- **source_language:** German\n- **translator:** trans"
-        },
-        {
           "date": "2026-08-30",
           "title": "Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water",
           "domain": "water-physics, biophysics, quantum-coherence",
@@ -39762,6 +39837,17 @@
           ]
         },
         {
+          "date": "2026-10-15",
+          "title": "Kompendium Wirbelphysik Teil 2 (de->EN)",
+          "domain": "",
+          "source_url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_2.pdf",
+          "language": "German",
+          "target_language": "English",
+          "file": "2026-10-15-compendium-of-vortex-physics-part-2-de.md",
+          "content_file": null,
+          "excerpt": "SAFE\n\nCompendium of Vortex Physics\n\nCompendium\nof\n\nVortex Physics\nVersion 1\nPart 2\n8 May 1999\n\nSAFE\nSwiss Association for Free Energy\nSwiss Association for Free Energy\nwww.safeswiss.org\nWorking Group Vortex Physics\nrepre"
+        },
+        {
           "date": "2026-10-14",
           "title": "On Establishing the Vortex Gravitational Field and the Unity of the Operating Mechanism of 'Mercury Precession' and 'Precession of the Equinoxes' (Yuan Lixin)",
           "domain": "",
@@ -40376,17 +40462,6 @@
           "file": "translations/2026-09-11-acqua-viva-viktor-schauberger-it.md",
           "content_file": null,
           "excerpt": "# Acqua Viva — Viktor Schauberger\n\n*Full translation from it · source: https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf · 106 chunks · assembled 2026-09-10*\n\nCatalogue\n\nAcqua Viva - Viktor Schaub"
-        },
-        {
-          "date": "2026-08-31",
-          "title": "Compendium of Vortex Physics (Schauberger) — Complete Translation (buch-der-synergie.de)",
-          "domain": "vortex-physics",
-          "source_url": "https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf",
-          "language": "German",
-          "target_language": "English",
-          "file": "2026-08-31-compendium-vortex-physics-complete-de.md",
-          "content_file": null,
-          "excerpt": "- **date:** 2026-08-31\n- **domain:** vortex-physics\n- **source_url:** https://www.buch-der-synergie.de/archiv/kompendium_wirbelphysik_v1_teil_1.pdf\n- **language:** de\n- **source_language:** German\n- **translator:** trans"
         },
         {
           "date": "2025-11-17",
@@ -1374316,27 +1374391,27 @@
       {
         "drawer": "declassified",
         "label": "Declassified",
-        "title": "Czech Republic Soviet Nuclear Warheads 1983 Archival Discovery",
-        "excerpt": "Czech Republic — Historian Prokop Tomek discovers unique archival document in Národní archiv (Husák archive) proving Soviet nuclear warheads were deployed in Czechoslovak",
-        "meta": "Czech",
+        "title": "Portugal PIDE DGS Mozambique Truth Commission Documents",
+        "excerpt": "Portugal — Documents recently found at Torre do Tombo reveal a hidden 1974 truth commission investigating PIDE/DGS abuses in Mozambique, with 198 cases of maximum gravity",
+        "meta": "Portugal",
         "rarity": "newly opened",
-        "href": "./library.html#declass-declassified-czech-soviet-nuclear-warheads-1983-md"
+        "href": "./library.html#declass-declassified-portugal-pide-dgs-mozambique-commission-md"
       },
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Glossaire — ondes de forme et champs de torsion (Daniel Risy) (fr->EN)",
-        "excerpt": "Shape colour, undifferentiated, phase - Letters of the square Hebrew alphabet -",
-        "meta": "French",
-        "rarity": "fresh from French",
-        "href": "./library.html#trans-2026-10-10-glossaire-ondes-de-forme-champs-de-torsion-risy-fr.md"
+        "title": "Heilen mit Orgonenergie - die medizinische Orgonomie (Kavouras) (de->EN)",
+        "excerpt": "Dr. med. Jorgos Kavouras, a general practitioner and committed physician of homeopathy, has made Wilhelm Reich's legacy manageable for everyday medical practice. With ove",
+        "meta": "German",
+        "rarity": "fresh from German",
+        "href": "./library.html#trans-2026-10-10-heilen-mit-orgonenergie-medizinische-orgonomie-kavouras-de.md"
       },
       {
         "drawer": "found",
         "label": "Newly found",
-        "title": "Not due (3rd",
-        "excerpt": "fire cadence; last sweep 10:15Z seeded cheniere.marukka.ch). News lane far from exhausted. **faraday_ru** (132 PDFs, `process_generic_cloud.py faraday_ru`) and **cheniere",
-        "meta": "2026-09-25",
+        "title": "Published",
+        "excerpt": "2026-09-10 | **Rarity:** new | **Host stability:** Zenodo (stable)",
+        "meta": "2026-10-09",
         "rarity": "scout find",
         "href": "./library.html"
       },
@@ -1375045,6 +1375120,13 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
+      },
+      {
+        "file": "synthesis/quest-queue/2026-10-15-cold-storage-energy.md",
+        "date": "2026-10-15",
+        "title": "Quest Card — Does a Passive Device Cut Your Freezer's Power Bill? The Cold-Storage Energy Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Food Prep\n\n**Guild:** Aetherforce — Food Prep\n**Quest Line:** ⚡ Aetherforce · Food Prep complement\n**Tier:** sand\n**Domain:** food (cold storage — keeping food cold on the least ener"
       }
     ],
     "dossiers": [
@@ -1375796,6 +1375878,13 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
+      },
+      {
+        "file": "synthesis/replication/2026-10-15-dossier-095-cold-storage-energy.md",
+        "date": "2026-10-15",
+        "title": "Replication Dossier 095 — Cold-Storage Energy Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 095 — Cold-Storage Energy Test\n\n**Quest:** Does a Passive Device Cut Your Freezer's Power Bill? — The Cold-Storage Energy Test\n**Status:** protocol\n**Domain:** food (cold storage"
       }
     ],
     "validations": [
@@ -1376259,13 +1376348,13 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T14:18:06Z",
+    "as_of": "2026-10-15T15:16:01Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 62154,
       "translations": 739,
       "pages_translated": 13771,
-      "declassified": 176,
+      "declassified": 182,
       "researchers": 903,
       "patents": 289
     }
