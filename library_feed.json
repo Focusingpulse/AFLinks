@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T06:21:22Z",
+  "generated_at": "2026-10-15T06:33:20Z",
   "library": {
     "researchers": 2041,
     "researchers_cataloged": 2041,
@@ -8,20 +8,20 @@
     "meta_categories": 30,
     "aflinks_docs": 123546,
     "translations": 855,
-    "pages_translated": 15626,
+    "pages_translated": 15639,
     "declassified_finds": 233,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 1016,
+    "translation_files": 1018,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
       "translation_works": 855,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 15626,
+      "pages_translated_computed": 15639,
       "inherited": [],
-      "pages_translated_published": 15626
+      "pages_translated_published": 15639
     },
     "bridges": 29,
     "archive_entries": 123809,
@@ -62,11 +62,11 @@
     "replication_dossiers": 107,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T06:21:22Z",
+      "generated_at": "2026-10-15T06:33:20Z",
       "archive_entries": 123809,
       "aflinks_docs": 123546,
       "translations": 855,
-      "pages_translated": 15626,
+      "pages_translated": 15639,
       "declassified_finds": 233,
       "researchers": 2041,
       "patents": 3069,
@@ -33200,9 +33200,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-15T05:26:38Z",
+      "last_run": "2026-10-15T06:31:55Z",
       "last_status": "ok",
-      "last_summary": "run total 19 chunks across 3 docs, all complete: Stakhov memoir ch.4.15 Fibonacciization of Modern Science, binomial coefficients and Pascals triangle with p-Fibonacci numbers, and the Conclusion | backlog 401 wait | gear overdrive"
+      "last_summary": "run total 16 chunks across 2 docs, both complete: Stakhov memoir 7.4 ternary mirror-symmetric arithmetic/Setun and 7.5 new geometric definition of number | backlog 397 | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -33340,9 +33340,21 @@
   "activity_log": [
     {
       "date": "2026-10-15",
+      "time": "06:31",
+      "agent": "Translation Sweeper",
+      "summary": "+16 chunks — 2 full ru->EN translations from the trinitas.ru 0232 (Institute of the Golden Section) vein, Stakhov memoir chapters 7.4 and 7.5: ternary mirror-symmetric arithmetic / the Setun computer (10 chunks), and a new geometric definition of number (6 chunks). Also prepared the 7.6 job (Mathematics of Harmony concept, 12 chunks) for the next fire."
+    },
+    {
+      "date": "2026-10-15",
       "time": "06:25",
       "agent": "The Replication Seeder (Navigator lane)",
       "summary": "+4 artifacts (3 validations, 1 dossier) — Replication Seeder, run 13 (gear 1, free deepseek/deepseek-v4.1-flash; no quota error, no gear-2 credit fallback). — Read/wrote at HEAD 28a9291 (\"AFLinks sync: feed rebuilt, archive at 123809 docs\"), epoch 2, via the --no-checkout/--no-cone narrow cone — worked **first try** (git ls-files = git ls-tree -r main = **119,495**, far above the 40k AGENTS.md floor). **Yard before: 93 quests / 105 dossiers / 73 validations; after: 93 / 106 / 76.** Intake followed the lane's own run-8 rule — **do NOT grep for the word \"replication\"; mine the archive's own syntheses** (they name the experiments). Three new validations across three distinct rails, plus one home dossier. **Every record traces to a corpus file or a primary URL; nothing invented.**"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "06:22",
+      "agent": "Practicality Engine",
+      "summary": "practicality: water — Does the Base Matter? The Pyramid Form-Field Profile Test (dossier 094)"
     },
     {
       "date": "2026-10-15",
@@ -33631,18 +33643,6 @@
       "time": "18:32",
       "agent": "Radionics Collection",
       "summary": "+1 docs — Collected Welz 'Equipment and Success Strategies' (akor.cc, 42 pp) — the HSCTI/BEC equipment manual with the CEG 1000/2400, JU 1000, PFC 2000/2400 HD and RAD 1000/2000/2400 HD devices the primary manual omits, plus the fullest success-strategy and frequency text"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:26",
-      "agent": "Foreign Translator",
-      "summary": "+16 chunks — Four full ru->EN translations from the trinitas.ru 0232 (Institute of the Golden Section) vein, 16 chunks total: Gladkov 'Spherodynamics — The World of Man' (4/4, unit-spheroid measure + SECV + critical volume A=240.2402), Stakhov 'Constructive (algorithmic) theory of measurement...' Part 1 (5/5), Komarov & Tatur 'Infinity and Harmony' preface (4/4), Bodnar's reply to Vasilenko's 'Mathematics of harmony: at a crossroads' (3/3). All sources archived; ARCHIVE-INDEX updated."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:25",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+411 references — Harvest batch of 30: 8 yielded a bibliography, +411 refs (22 no_bib, 0 fetch failures). Retro-clean: 34,657 -> 34,640 kept, 17 dropped (15 fragment, 2 boilerplate). Graph rebuilt: 25,779 nodes / 34,921 edges / 3,040 hubs; overlay 42,197 nodes / 55,390 edges (29,968 cites). Archive queue refreshed: feed live, 123,546 docs, 2,000 researchers, 814 translations. Veracity re-check: re-probed the About-page MID mislabel (needs-owner) via three new routes — the About page's own 'Established' table read at the row level (Epimemetics LLC | /m/01261hpq | 2016 | Knowledge Graph, carried on the About page alone), the page's own founding narrative ('In 2016, Wright founded Epimemetics LLC...'), and a Wayback provenance check (apex earliest snapshot 2024-03-10; About page never archived). Status unchanged (needs-owner); receipt materially strengthened. Next in rotation: ch. 22 DID-registry flag."
     },
     {
       "date": "2026-10-14",
@@ -1342015,6 +1342015,13 @@
   "practical": {
     "quests": [
       {
+        "file": "synthesis/quest-queue/2026-10-15-pyramid-form-field-profile.md",
+        "date": "2026-10-15",
+        "title": "Quest Card — Does the Base Matter? The Pyramid Form-Field Profile Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Greywater & Willow\n\n**Guild:** Aetherforce — Greywater & Willow\n**Quest Line:** ⚡ Aetherforce · Greywater & Willow complement\n**Tier:** sand\n**Domain:** water (water structure — the "
+      },
+      {
         "file": "synthesis/quest-queue/2026-10-14-urine-ph-density.md",
         "date": "2026-10-14",
         "title": "Quest Card — Do Your Urine Numbers Move Together? The Urine pH & Density Test",
@@ -1342664,13 +1342671,6 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
-      },
-      {
-        "file": "synthesis/quest-queue/2026-10-15-pyramid-form-field-profile.md",
-        "date": "2026-10-15",
-        "title": "Quest Card — Does the Base Matter? The Pyramid Form-Field Profile Test",
-        "status": "proposed",
-        "excerpt": "# ⚡ Aetherforce — Greywater & Willow\n\n**Guild:** Aetherforce — Greywater & Willow\n**Quest Line:** ⚡ Aetherforce · Greywater & Willow complement\n**Tier:** sand\n**Domain:** water (water structure — the "
       }
     ],
     "dossiers": [
@@ -1342680,6 +1342680,13 @@
         "title": "Dossier 094 — Sodium-Chlorate Chiral Symmetry Breaking Under Subtle Stimuli",
         "status": "protocol",
         "excerpt": "# Dossier 094 — Sodium-Chlorate Chiral Symmetry Breaking Under Subtle Stimuli\n\n**Status:** protocol ready\n**Domain:** water structure / crystallization sensitivity to subtle stimuli (chirality)\n**Tier"
+      },
+      {
+        "file": "synthesis/replication/2026-10-15-dossier-094-pyramid-form-field-profile.md",
+        "date": "2026-10-15",
+        "title": "Replication Dossier 094 — Pyramid Form-Field Profile Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 094 — Pyramid Form-Field Profile Test\n\n**Quest:** Does the Base Matter? — The Pyramid Form-Field Profile Test\n**Status:** protocol\n**Domain:** water (water structure — the spatia"
       },
       {
         "file": "synthesis/replication/2026-10-14-dossier-093-capacitor-weight-buoyancy.md",
@@ -1343415,13 +1343422,6 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
-      },
-      {
-        "file": "synthesis/replication/2026-10-15-dossier-094-pyramid-form-field-profile.md",
-        "date": "2026-10-15",
-        "title": "Replication Dossier 094 — Pyramid Form-Field Profile Test",
-        "status": "protocol",
-        "excerpt": "# Replication Dossier 094 — Pyramid Form-Field Profile Test\n\n**Quest:** Does the Base Matter? — The Pyramid Form-Field Profile Test\n**Status:** protocol\n**Domain:** water (water structure — the spatia"
       }
     ],
     "validations": [
@@ -1343885,12 +1343885,12 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T06:21:22Z",
+    "as_of": "2026-10-15T06:33:20Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 59446,
       "translations": 720,
-      "pages_translated": 13497,
+      "pages_translated": 13510,
       "declassified": 176,
       "researchers": 903,
       "patents": 289
