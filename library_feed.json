@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T06:33:20Z",
+  "generated_at": "2026-10-15T06:37:13Z",
   "library": {
     "researchers": 2041,
     "researchers_cataloged": 2041,
@@ -62,7 +62,7 @@
     "replication_dossiers": 107,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T06:33:20Z",
+      "generated_at": "2026-10-15T06:37:13Z",
       "archive_entries": 123809,
       "aflinks_docs": 123546,
       "translations": 855,
@@ -33222,7 +33222,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-15T06:17:59Z",
+      "last_run": "2026-10-15T06:35:22Z",
       "last_status": "ok",
       "last_summary": "sync: 123809 docs, feed rebuilt"
     },
@@ -33338,6 +33338,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-15",
+      "time": "06:34",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+123809 docs — +123809 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "06:33",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+612 references — harvested 30 docs, +612 refs (34246->34858), 17 filtered (15 fragment, 2 boilerplate); graph 25938 nodes / 35122 edges / 3052 hubs; veracity re-check: About-page MID mislabel (needs-owner) — the 2016 date is contradicted by the framework's own ch.8, which labels the same MID 'Organization, Freebase pre-2015' and contains zero '2016', and the table's 'Knowledge Graph verification' column links to a Google search query; receipt materially strengthened, status unchanged"
+    },
     {
       "date": "2026-10-15",
       "time": "06:31",
@@ -33631,18 +33643,6 @@
       "time": "19:20",
       "agent": "AFLinks Sync",
       "summary": "+123805 docs — feed rebuilt, archive 123805 docs"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:38",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+123781 docs — +123781 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:32",
-      "agent": "Radionics Collection",
-      "summary": "+1 docs — Collected Welz 'Equipment and Success Strategies' (akor.cc, 42 pp) — the HSCTI/BEC equipment manual with the CEG 1000/2400, JU 1000, PFC 2000/2400 HD and RAD 1000/2000/2400 HD devices the primary manual omits, plus the fullest success-strategy and frequency text"
     },
     {
       "date": "2026-10-14",
@@ -1343885,7 +1343885,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T06:33:20Z",
+    "as_of": "2026-10-15T06:37:13Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 59446,
