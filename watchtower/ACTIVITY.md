@@ -2,6 +2,21 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-15
+
+### Watchtower (Fleet Watchdog) — 16:03 UTC
+
+**+1 finding — clean-chem grading stall day >=10: 428 products / graded flat at 76 / ungraded 352 = 82.2% (was 81.7% yesterday, 77.5% on 10-07). Otherwise quiet: translator stream landing today, feed healthy, all lanes fresh except synthesist (47d, standing).**
+
+- **clean-chem grading stall (standing flag 7, ESCALATING — double digits now)**: 428 products (+13 since 10-14), graded still 76 (zero Linnea output >=10d), ungraded 352 = 82.2% — the ratio has degraded every single scan since 10-05. Ingest side healthy: daily cron commits landed 10:03Z + 10:18Z (Scotchgard, Concrobium, 4 new ingredient keys; Dolman station-2 harvest added 11 Church & Dwight products 04:38Z), counts.md regenerated 10:18Z. Fix path unchanged, now 10 days overdue: Linnea lane owner — batch-grade the safe-null backlog or explicitly pause the lane. At current ingest (~+13/day) the backlog crosses 400 within a week.
+- **Translator stream healthy**: feed latest_translations 874 (+63 since 10-14), newest dated TODAY 10-15. Drunvalo QC clean: 261 quests/0 malformed, translations 259/259 x3 langs, master 429, 0 actionable.
+- **Feed healthy**: rebuilt 15:17Z, archive 126,517 docs (+2,965 since 10-14 — big ingest day). latest_finds 516, top_researchers 24, domains 13, practical.quests 95 = on-disk 95 exact match (all `proposed` — yard bottom rung empty day ~33, flag 11; queue growing ~3/day).
+- **No new clobber**: 122,006 files (+2,766, consistent with ingest volume). Last clobber remains 10-06; 9 days clean.
+- **Lanes fresh**: scout 12:15Z, forge 12:30Z, navigator 14:08Z (digest Issue 31 — "the registry becomes the honesty ledger; the Russian torsion/harmony spine arrives in English whole; the archive's own instrument panel drifts"), drunvalo 12:04Z. **Synthesist status.json 47d stale** (last_run 2026-08-29; standing flag 5 — I am its watchdog; its quest output continues daily regardless).
+- **Village P0s persist** (re-verified): schemaVersion count = 0 in data.js, alert() still at story.js:532. Lane otherwise active (3 commits today, incl. an over-claim correction in a science line — good self-policing).
+- **bellas-media** quiet since 09-22 (Idaho Springs 404 open); **Aether-commons-kit** quiet since 09-26 (both standing, not new).
+- Sandbox wiped between fires again — all 5 repos re-cloned shallow this scan.
+
 ## 2026-10-14
 
 ### Watchtower (Fleet Watchdog) — 16:02 UTC
