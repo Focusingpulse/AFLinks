@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T06:37:13Z",
+  "generated_at": "2026-10-15T06:54:47Z",
   "library": {
     "researchers": 2041,
     "researchers_cataloged": 2041,
@@ -8,20 +8,20 @@
     "meta_categories": 30,
     "aflinks_docs": 123546,
     "translations": 855,
-    "pages_translated": 15639,
+    "pages_translated": 15649,
     "declassified_finds": 233,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 1018,
+    "translation_files": 1019,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
       "translation_works": 855,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 15639,
+      "pages_translated_computed": 15649,
       "inherited": [],
-      "pages_translated_published": 15639
+      "pages_translated_published": 15649
     },
     "bridges": 29,
     "archive_entries": 123809,
@@ -62,11 +62,11 @@
     "replication_dossiers": 107,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T06:37:13Z",
+      "generated_at": "2026-10-15T06:54:47Z",
       "archive_entries": 123809,
       "aflinks_docs": 123546,
       "translations": 855,
-      "pages_translated": 15639,
+      "pages_translated": 15649,
       "declassified_finds": 233,
       "researchers": 2041,
       "patents": 3069,
@@ -33189,9 +33189,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-10-15T06:06:12Z",
+      "last_run": "2026-10-15T06:51:16Z",
       "last_status": "ok",
-      "last_summary": "run total 16 chunks across 2 docs | Stakhov Hamming-code paradox ru 10 of 10 and Brazilian radiesthesia/radionics pt 6 of 6, both complete and archived | backlog 399 | gear overdrive"
+      "last_summary": "+4 docs since last run 1028->1032 | full-translated+archived Stakhov memoir 7.6 concept of the Mathematics of Harmony ru 12/12 chunks | backlog 395 | gear overdrive"
     },
     {
       "member": "translation-sweeper",
@@ -33338,6 +33338,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-15",
+      "time": "06:50",
+      "agent": "Translation Curator",
+      "summary": "+12 chunks — Full ru->EN translation of A.P. Stakhov memoir 7.6 'The concept of the Mathematics of Harmony' (trinitas.ru 0232/100a/0070-sth.pdf, 12 chunks, complete) + source PDF archived. Content: the case for a 'Mathematics of Harmony' as a third mathematical tradition alongside counting/measurement; Kolmogorov's stages of mathematics; the three key problems of ancient mathematics (counting, measurement, harmony); Euclid's golden section; Fibonacci/Lucas/Binet/Klein history; the 20th-21st c. golden-section revival and the Slavic Golden Group."
+    },
+    {
+      "date": "2026-10-15",
+      "time": "06:45",
+      "agent": "The Wizard",
+      "summary": "+2 articles — trinitas-index daily map pass: re-indexed the 3 Institute of Vacuum Physics sections (136/61/52, unchanged) plus 6 rolling site-level feeds; +2 new articles on the main listing feed (00166189 Giza pyramid triangle parameters, on-axis; 00012962 О троичности русского бытия, off-axis); map now 134 sections, 6,576 distinct /rus/doc/ article URLs"
+    },
     {
       "date": "2026-10-15",
       "time": "06:34",
@@ -33631,18 +33643,6 @@
       "time": "19:53",
       "agent": "Translation Sweeper",
       "summary": "+6 chunks — Full translation of YUAN Lixin 'On establishing the vortex gravitational field and the unity of the operating mechanism for the Mercury precession and the Earth precession' (Journal of Yunnan University 2012, zh, 9 pp) - source text rebuilt by Chinese OCR (tesseract chi_sim) from a PDF with a broken CJK glyph map, then translated zh->EN 6/6 chunks and assembled; source PDF archived. A vortex-gravitation model proposing a gravitational analogue of the magnetic field, deriving Earth's precession and Mercury's precession from a single mechanism, and analysing geostationary-satellite perturbation."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "19:30",
-      "agent": "AFLinks Zenodo-RH Worker",
-      "summary": "zenodo-rh batch: 3 new docs, archive 123808"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "19:20",
-      "agent": "AFLinks Sync",
-      "summary": "+123805 docs — feed rebuilt, archive 123805 docs"
     },
     {
       "date": "2026-10-14",
@@ -1343885,12 +1343885,12 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T06:37:13Z",
+    "as_of": "2026-10-15T06:54:47Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 59446,
       "translations": 720,
-      "pages_translated": 13510,
+      "pages_translated": 13520,
       "declassified": 176,
       "researchers": 903,
       "patents": 289
