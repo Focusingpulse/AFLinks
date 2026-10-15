@@ -1,0 +1,28 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-15T04:07:23Z",
+  "summary": "aetherforce-translation-qc: Standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). 61 title-sim + 5 containment candidates, 0 folds (all known no-fold families). +33 works from Forge Oct 14-15 batch (Stakhov memoir/golden-section cluster + padligur/yuan-zh/vlasov/petrakovich/statskevich/martynenko/kharitonov/gladkov/knyshov/malyshkina/butkov/arakelyan/kleshchev), +10 persons, vlasov enriched, 25 person links, 21 back-ref wirings. 2 junk feed titles fixed via curated DB titles. 4 Stakhov source_urls backfilled from trinitas chapter probing. URLs 33/33 live 200. tag_concepts skipped (dead). 1027 works / 664 persons.",
+  "status": "ok",
+  "files_modified": [
+    "database/research-index.json",
+    "database/person-index.json"
+  ],
+  "details": {
+    "checks": [
+      "same-file dupes",
+      "unknown dates",
+      "junk ids",
+      "dangling cross_refs",
+      "dangling person refs",
+      "feed mojibake (scoped)",
+      "feed same-file",
+      "title-similarity",
+      "containment"
+    ],
+    "works_added": 33,
+    "persons_added": 10,
+    "folds": 0,
+    "works_total": 1027,
+    "persons_total": 664
+  }
+}
