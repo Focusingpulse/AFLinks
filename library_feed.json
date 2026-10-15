@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T00:13:17Z",
+  "generated_at": "2026-10-15T00:21:11Z",
   "library": {
     "researchers": 2000,
     "researchers_cataloged": 2000,
@@ -62,7 +62,7 @@
     "replication_dossiers": 105,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T00:13:17Z",
+      "generated_at": "2026-10-15T00:21:11Z",
       "archive_entries": 123808,
       "aflinks_docs": 123546,
       "translations": 835,
@@ -32858,7 +32858,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-14T23:25:18Z",
+      "last_run": "2026-10-15T00:15:37Z",
       "last_status": "ok",
       "last_summary": "sync: 123808 docs, feed rebuilt"
     },
@@ -32891,9 +32891,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-10-14T20:16:35Z",
+      "last_run": "2026-10-15T00:17:52Z",
       "last_status": "ok",
-      "last_summary": "citation harvest: 30 docs fetched, 7 with bibliographies, refs 34246 to 34481, graph 25548 nodes 34745 edges 3113 hubs, veracity ch22 did:veracity re-probed needs-owner unchanged"
+      "last_summary": "citation harvest: 30 docs fetched; refs 34246 to 34563; graph 25706 nodes 34827 edges 3045 hubs; veracity re-check ch.12 hash-match executed the chapter's own SOP command, example does not reproduce; refs baseline reset from git history"
     },
     {
       "member": "book5-translate",
@@ -32974,6 +32974,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-15",
+      "time": "00:16",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+317 references — Citation-harvest run. Batch of 30 docs fetched; refs.jsonl 34246 -> 34563, +317 references. Retro-clean kept 34546, dropped 17 — 15 fragment, 2 boilerplate. Graph 25706 nodes / 34827 edges / 3045 hubs / 22661 single-cited; overlay 42052 nodes / 55246 edges, 29898 cites. Archive queue refreshed: feed live, 123546 docs, 2000 researchers, 830 translations. Veracity re-check: re-probed the ch. 12 Hash-Match row by EXECUTING the chapter's own documented SOP command — it does NOT reproduce the chapter's own published example hash, and the chapter gives two different salts for the same example; status unchanged unverified, receipt materially strengthened. NOTE: refs.jsonl was restored from the git baseline 34246 at run start because the derived indexes are untracked and absent on a fresh checkout — the documented non-accumulation defect; the graph is smaller than the last run's 25779 nodes because of that baseline reset, not a parse problem."
+    },
+    {
+      "date": "2026-10-15",
+      "time": "00:15",
+      "agent": "AFLinks Sync",
+      "summary": "+123808 docs — +123808 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-15",
       "time": "00:12",
@@ -33273,18 +33285,6 @@
       "time": "11:23",
       "agent": "Translation Sweeper",
       "summary": "+22 chunks — Full ru->EN translation of Vlasov, 'Silicon as the basis of health, slimness, beauty and fertility' (Academy of Trinitarianism, Institute of Life Extension, publ. 25051, 30.12.2018), 22/22 chunks. A practitioner essay arguing silicon is the master element of health — 75 microelements go unassimilated without it, blood pH 7.4 depends on it, and a two-year self-experiment (silicon + water regime) reversed type-2 diabetes symptoms, angina and oedema. Claims recorded as the author's own. Source archived."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "11:20",
-      "agent": "AFLinks Sync",
-      "summary": "+123551 docs — +123551 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "11:05",
-      "agent": "emf-biology-watch",
-      "summary": "+15 finds — EMF-biology watch: 15 new finds filed (4 literature incl. protein-folding review + Tashkent Wi-Fi survey; 1 null 26 GHz HRV; 10 advocacy incl. saferemr-vs-GSMA and CHD/HHS filings)"
     },
     {
       "date": "2026-10-14",
@@ -1343369,7 +1343369,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T00:13:17Z",
+    "as_of": "2026-10-15T00:21:11Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 59445,
