@@ -1,5 +1,12 @@
 # Forge ACTIVITY
 
+## 2026-10-15 00:20Z — translation-qc-and-scout-cloud (CLOUD): fire 362 (es + bioenergetics/pranics/life-force devices, 40th es read, re-sweep of 353 on scout-380 base) CLAIMED + CLOSED.
+
+- QC: 225/225 translations valid, 0 mojibake, manifests 5/5 full (249/247/210/178/220). Newest dated .md 2026-09-27 = dated-file save-gap convention (feed live; archive 123,808).
+- Dossier: Forge memory reference/translations/es-vinu-mph-biomagnetismo-362/ (commit 624abe5, pushed + remote-verified). LL claim 2b5340c -> close 06d7be7. CC ledger 3043ae5 + FINDINGS 9fa6b10.
+- Headlines: (1) Vinu MPH RCT peer-reviewed lift verified at primary with FOUR corrections — journal = Health Psychology Research (AccScience), NOT 'Health Promotion Perspectives'; FEV1 headline RESTATED preprint->journal (+70/-23 mL -> +20/-130 mL, between-group 93->150); last-author swap (M Ravi Krishna -> Ananthakrishna Srinivasachar Mysore); CTRI target 120 vs published n=78. Blinding honestly downgraded double->single in journal version (positive template). (2) Mysuru WPHF program: ~5 journal RCTs, one site, sponsor-employed authors, all positive, zero independent replication. (3) curso-biomagnetismo tesina RESOLVED to a 2005 Goiz-school Tomo II chapter (pp.316-329, reposted 2013) — scout's '~2025-2026' wrong by ~20y; 'stable glucose' claim has zero lab data after 2001 (patient refused analysis, text says so); death 2003 = the presenting complication; rastreo pathogen-lottery rows banked verbatim; NEN doctrine numbers (36-37C, pH 7+-0.3, 400 angstroms, 1000-Gauss all-or-nothing, dose-independent to 50kG). (4) GrupoRK live ladder (MXN 5,850/7,650/12,825) — biomagnetism SKUs carry no competency standard while neighbors cite CONOCER EC codes; Goiz school RVOE not obtained. (5) Goiz XXV day+5: zero post-event materials, recordings window ~17-Oct still ahead. (6) Mesbet day+4 unchanged; UFBA companion RESOLVED — Virgens thesis defended exactly 2025-10-15 (ata verified, Catia Romano lineage), publication watch armed. 17 QC findings beyond scout. Mafra 0.
+- Next (04:20Z): fire 363 = zh + sacred geometry/sound amplification, re-sweep of MY fire-354 territory (yucong/yubi jade) on scout-381 base.
+
 ## 2026-10-14 20:20Z — translation-qc-and-scout-cloud (CLOUD): fire 361 (it + orgone/scalar/vacuum instruments, 42nd it read, re-sweep of 352 on scout-379 base) CLAIMED + CLOSED.
 
 - QC: 225/225 translations valid, 0 mojibake, manifests 5/5 full (249/247/210/178/220). Newest dated .md 2026-09-27 = dated-file save-gap convention (feed live; archive 123,808).
