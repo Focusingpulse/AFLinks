@@ -1,0 +1,25 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-15T12:04:11Z",
+  "summary": "village-quality-audit: clean run, no fixes, no village commit. 27 guilds/261 quests/259 unique titles (0 malformed; 2 dup titles = known Public Art + Organize a Swap two-cluster standing flags). es/fr/de full coverage 259/259 quests, 27/27 guilds, 99/99 i18n keys (full t-chain), 0 mojibake. master_quests 429 valid (0 dup urls/titles, uniform schema). BB markers 67/67 resolve (59 corpus + 2 semantic in badge tasks + 6 spot-verified live 200). index.html 0 parse errors, 15/15 script refs. Validators 5/5 PASSED. Links 1002 checked / 979 OK - 23 failures all known non-actionable classes (dead scraped forum-text links, anti-bot 403s, burst noise); who.int sandbox-unreachable (live externally, fetch_webpage-verified); growbiointensive 200 browser-UA; greenhorns.org NEW watch item (first timeout since 10-14 add, kept per eorganic precedent). Link report restored via git checkout (regeneration stripped maintenance notes again - standing rule). Standing flag held: Public Art + Organize a Swap x2.",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "quests": 261,
+    "unique_titles": 259,
+    "guilds": 27,
+    "malformed": 0,
+    "translation_coverage": "259/259 es,fr,de; 27/27 guilds; 99/99 i18n keys; 0 mojibake",
+    "master_quests": 429,
+    "bb_markers": "67/67",
+    "validators": "5/5",
+    "links": {
+      "checked": 1002,
+      "ok": 979,
+      "http_err": 15,
+      "bad": 8,
+      "actionable": 0
+    },
+    "integrity_score": "100%"
+  }
+}
