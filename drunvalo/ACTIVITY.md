@@ -1,5 +1,10 @@
 # Drunvalo Activity Log
 
+## 2026-10-15T20:15:30Z - aetherforce-translation-qc (ok)
+
+QC clean (0 dupes, 0 dangling refs, 0 mojibake); +49 works from Forge's Oct-15 batch (Stakhov/golden-section scene x34, Kovalenko water/form-effect x4, torsion x4, radiesthesia x3, LENR/ether/compendium/torkado x4); +17 persons; kovalenko enriched to Viktor F. Kovalenko; komarov-vm distinct from komarov-sm; nikitin-av identity note; 3 memoir URLs backfilled via trinitas sequential probing; tag_concepts skipped (dead). DB: 1076 works / 681 persons.
+
+
 ## 2026-10-15T12:04:11Z - village-quality-audit (ok)
 
 Clean run, no fixes, no village commit. 261 quests / 259 unique titles / 27 guilds (0 malformed). Translations full coverage es/fr/de (259/259 quests, 27/27 guilds, 99/99 i18n keys, 0 mojibake). master_quests 429 valid, 0 dups. BB markers 67/67 resolve. index.html clean, 15/15 refs. Validators 5/5. Links 1002 checked / 979 OK — 23 failures all known non-actionable external classes; greenhorns.org new watch item (first timeout, kept); who.int sandbox-unreachable but live externally. Link report restored (regeneration stripped maintenance notes — standing rule).
