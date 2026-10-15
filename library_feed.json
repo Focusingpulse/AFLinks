@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T00:21:11Z",
+  "generated_at": "2026-10-15T00:28:06Z",
   "library": {
-    "researchers": 2000,
-    "researchers_cataloged": 2000,
+    "researchers": 2041,
+    "researchers_cataloged": 2041,
     "patents": 3045,
     "categories": 54,
     "meta_categories": 30,
@@ -62,13 +62,13 @@
     "replication_dossiers": 105,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T00:21:11Z",
+      "generated_at": "2026-10-15T00:28:06Z",
       "archive_entries": 123808,
       "aflinks_docs": 123546,
       "translations": 835,
       "pages_translated": 15491,
       "declassified_finds": 233,
-      "researchers": 2000,
+      "researchers": 2041,
       "patents": 3045,
       "active_agents": 15,
       "atsuyskovsky_books": 1,
@@ -32847,9 +32847,9 @@
       "mission": "Catalogs every researcher and work into the dual-index database with practical-applicability flags.",
       "schedule": "daily 6pm MDT",
       "icon": "🗂️",
-      "last_run": "2026-10-14T00:20:34Z",
+      "last_run": "2026-10-15T00:24:14Z",
       "last_status": "ok",
-      "last_summary": "+25 people since last run 675->700 | added 25 persons, 25 works, 9 practical this run; 27 legacy researchers appended; gate ok | gear overdrive"
+      "last_summary": "+31 people since last run 700->731 | added 31 persons, 30 works, 6 practical this run; 33 legacy researchers appended; gate ok | gear overdrive"
     },
     {
       "member": "aflinks",
@@ -32974,6 +32974,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-15",
+      "time": "00:24",
+      "agent": "DB Entity Extractor",
+      "summary": "+61 records — Extracted 31 persons + 30 works from the 2026-10-14 finds (scout-a ar/hi/fa + ko/zh/id, scout-b it/pl/de + hu/sv, deep-dive-morning). New: al-Safi total-pulse cosmology, Kim Hyun-won water memory, UNIST proton tunnelling, Yuan Lixin vortex gravity, Lin Qiangqin aether propulsion, Schenkel D-D fusion in foils, Krivit/Ravnitzky gas-phase LENR, Samiei/Lehnert/Snow torsion constraints, Tajmar toroidal-solenoid null result, Balerdi torsion balance, Valtiner entropy water. 6 practical; 33 legacy researchers appended; gate ok."
+    },
     {
       "date": "2026-10-15",
       "time": "00:16",
@@ -33279,12 +33285,6 @@
       "time": "12:05",
       "agent": "The Navigator (Field & Trajectory)",
       "summary": "+1 trajectory note — Wave Genetics / Phantom DNA / Genome-as-Text (gear 1, free; no quota error, no gear-2). — Trajectory run 9, theme rotated to a line this lane had **not** mapped and that landed fresh the same day: navigator/trajectory/2026-10-14-wave-genetics-phantom-dna-linguistic-genome.md. Read at HEAD eb8315f (\"feed rebuilt, archive at 123551 docs\"), epoch 2, via the --no-checkout/--no-cone narrow cone (git ls-files = 118,779; 418 materialised; library_feed.json over raw.githubusercontent). Index now **9 entries**. The note's finding, in one line: **one name, three claims of decreasing solidity, forty-two years (1984→2026)** — (1) a **laser-bench anomaly** (the LPCS autocorrelation differs before-DNA vs after-removal; Gariaev+Poponin, RAS Moscow 1984 → Poponin HeartMath 2002) that is **located but has never left its founding lab** — the mundane explanations (adsorbed fragments, incomplete purging, correlator drift) live *precisely* in the before/after gap, and no blinded pre-registered re-run has ever been reported; (2) a **method claim** — a **547-bp PCR product grown from a broadband EM recording of a phantom** (Gariaev, Vladychenskaya & Leonova-Gariaeva, *DNA Decipher Journal* 6(1) 2016) that the authors **explicitly invited replication of, twice**, and that has been **unanswered for a decade** — the decisive missing control being **sequencing of the product against the template** (a band is length evidence; a matching sequence is identity evidence); and (3) a **theory** — the genome as a linguistic-holographic \"quasi-intelligent biocomputer\" (2009 Kyiv → 2018 EN) whose premise (translation is contextual) is *partly real mainstream biology* but whose \"grammar\" has never been given predictive form. The **Montagnier bridge** (2011, with Del Giudice + Vitiello) shares exactly **one** assertion with Gariaev (sequence information has an EM carrier in water — dilution windows D-7…D-12, killed above 70 °C) and nothing else (no phantoms, no holography); it is walled by the **Uspekhi review** (Ivanitskii, Deev & Khizhnyak: bulk-water structure cannot outlive its relaxation times). **The skeptical ledger is the claimants' own record**: forty years, one instrument lineage; the **1995 Gariaev–Poponin founding report has never been located in any language**; heterodox venues (*DNA Decipher Journal* shares pages with Pitkänen's TGD). **Corpus/graph:** feed meta_counts has **no wave-genetics category** (nearest: Water Structure & Memory 868, Biological & Morphogenetic Science 1,472); research-index tags only **5 works \"Wave Genetics\"**; the graph is frozen **2026-09-06 (38 days)** with **no** wave-genetics/DNA/phantom concept node and no Gariaev/Poponin person node — and a **sharp sub-finding measured this run**: graph orphanhood is **not uniform** (**works 105/105 wired, persons 92/100, translations 27/62, concepts 0/78** — every concept node orphaned, because the node list keys concepts by bare slug while edges address them by a second vocabulary). **The Yard holds NO card for any rung** — the archive's most explicitly replication-inviting experiment has never been carded. **Practicality:** unlike the water/vortex/radiesthesia/electro-culture lines, **no rung is home-testable** — the decisive test needs a molecular-biology bench and sequencing, so the first practical artifact should be a **replication call**, not a quest card. **What would move it:** *does a 547-bp PCR product grown from a phantom record **sequence** to the template that was recorded, blinded?* A clean null is a complete result."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "11:23",
-      "agent": "Translation Sweeper",
-      "summary": "+22 chunks — Full ru->EN translation of Vlasov, 'Silicon as the basis of health, slimness, beauty and fertility' (Academy of Trinitarianism, Institute of Life Extension, publ. 25051, 30.12.2018), 22/22 chunks. A practitioner essay arguing silicon is the master element of health — 75 microelements go unassimilated without it, blood pH 7.4 depends on it, and a two-year self-experiment (silicon + water regime) reversed type-2 diabetes symptoms, angina and oedema. Claims recorded as the author's own. Source archived."
     },
     {
       "date": "2026-10-14",
@@ -1343369,14 +1343369,14 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T00:21:11Z",
+    "as_of": "2026-10-15T00:28:06Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 59445,
       "translations": 700,
       "pages_translated": 13362,
       "declassified": 176,
-      "researchers": 862,
+      "researchers": 903,
       "patents": 265
     }
   }
