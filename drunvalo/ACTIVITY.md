@@ -1,5 +1,10 @@
 # Drunvalo Activity Log
 
+## 2026-10-15T00:02:54Z — village-maintenance (ok)
+
+village-maintenance: 998 links checked (975 ok), 0 actionable (23 failures all known classes: anti-bot 403s, burst 429s, dead scraped forum-text links); added 2 library resources: Stone Barns Center + Soul Fire Farm; validators 5/5; village tip a524223 remote-verified
+
+
 ## 2026-10-14T12:08:12Z - aetherforce-synthesis (ok)
 
 Synthesis: The Structured Cell - association-induction (Ling 1962), the protoplasmic underground (Schultze 1861, Ernst/Pecs, Nasonov-Troshin/Leningrad), trinitas life-extension school (Statskevich morphogenesis x15, Proshin holographic medicine, Revici 3-round internal debate), and the hydration shell's mainstream arrival (NanoLSI protein superstructure Nature Comms 2026, ISSP tetrahedral, SOKENDAI interfacial design, RCAST line-tension, UNIST trimer proton tunnelling). +3 works (synthesis + damadian-1971 + skou-1957 primaries), +6 persons, 16 person links, 22 back-refs, 0 dangling cross_refs. Ledger upgrade-283 (Ling 1962) + upgrade-284 (Samokhotsky dissertation). 994 works / 654 persons.
