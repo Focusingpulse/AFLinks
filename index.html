@@ -2964,7 +2964,7 @@
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20261015131928')
+            fetch('./synthesis/synthesis_index.json?v=20261015125820')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3850,7 +3850,7 @@
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20261015131928');
+                            const mRes = await fetch('./search_index_manifest.json?v=20261015131738');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3873,7 +3873,7 @@
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20261015131928');
+                        const response = await fetch('./search_index.json?v=20261015125820');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3900,16 +3900,30 @@
                 }
                 document.getElementById('heroDocCount').textContent = allData.length.toLocaleString();
                 try {
-                    const tokRes = await fetch('./token_index.json?v=20260906021833');
-                    tokenIndex = await tokRes.json();
+                    // 2026-10-15: sharded. The token index grew from 9 MB to 69.6 MB once
+                    // it indexed the whole extracted preview, and the Git Data API refuses
+                    // blobs over ~50 MB (HTTP 422), so it could not be published as one
+                    // file. Same pattern as search_index: manifest + parts in parallel,
+                    // with the legacy single file kept as the fallback.
+                    const tmRes = await fetch('./token_index_manifest.json?v=20261015131738');
+                    if (tmRes.ok) {
+                        const tm = await tmRes.json();
+                        const tparts = await Promise.all((tm.parts || []).map(
+                            p => fetch('./' + p.file + '?v=20261015131738').then(r => r.json())));
+                        tokenIndex = { N: tm.N,
+                            tokens: Object.assign({}, ...tparts.map(p => p.tokens || {})) };
+                    } else {
+                        const tokRes = await fetch('./token_index.json?v=20261015131738');
+                        tokenIndex = await tokRes.json();
+                    }
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20261015131928');
+                    const man = await fetch('./full_manifest.json?v=20261015125820');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20261015131928');
+                    const feedRes = await fetch('./library_feed.json?v=20261015125820');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4025,7 +4039,7 @@
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20261015131928');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20261015125820');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }

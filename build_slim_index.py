@@ -40,7 +40,12 @@ SLIM_FIELDS = ["id", "title", "filename", "categories", "meta_categories",
 # Tokens too common (df > cap) are dropped — they carry no signal. Stopwords
 # and short tokens are excluded. Size target: well under 1MB gzipped.
 TOKEN_MAX_DF = 6000
-TOKEN_PREVIEW_CHARS = 70
+# 2026-10-15: was 70. This is the field that ACTUALLY limited search:
+# computeSearchScores() in index.html scores against token_index.json, and
+# search_text is only consulted on the substring FALLBACK path when the token
+# index is unavailable. So indexing 70 chars of a 2000-char preview meant the
+# searchable text was 3.5% of what was extracted. Raised to the whole preview.
+TOKEN_PREVIEW_CHARS = None  # None = use the full preview
 STOPWORDS = set("""the and for with from von der die das und des que les une est et les
 this that these those has had was were are is of in on at to a an it its as by or
 not no be been being but do does did done have having will would can could should
@@ -59,6 +64,8 @@ def main():
     ap.add_argument("--chunk", type=int, default=500)
     ap.add_argument("--input", default="index.json")
     ap.add_argument("--outdir", default=".")
+    ap.add_argument("--skip-bake", action="store_true",
+                    help="do not run bake_stats.py (index-only rebuild)")
     ap.add_argument("--part-max-bytes", type=int, default=DEFAULT_PART_MAX_BYTES,
                     help="byte budget per slim-index shard (default 60 MiB)")
     args = ap.parse_args()
@@ -82,7 +89,13 @@ def main():
         # only, while this line stayed hard-coded at 220 -- so the trim was a
         # silent no-op for three days. Wired up 2026-09-20.
         rec["content_preview"] = pv[:PREVIEW_LEN]
-        rec["search_text"] = pv[:600]
+        # 2026-10-15: the 600-char slice was thrown away 62% of an already-truncated
+        # preview and left 91,342 of 126,517 docs truncated (measured). The master
+        # preview is itself capped at 2000 chars upstream, so indexing the WHOLE
+        # preview costs nothing new to extract and removes the cap entirely.
+        # Do NOT reintroduce a literal here: a magic number that drifts from the
+        # upstream ceiling re-creates this defect silently.
+        rec["search_text"] = pv
         slim.append(rec)
 
     # Sharded slim index. GitHub rejects any single blob >= 100 MiB, and the
@@ -209,7 +222,15 @@ def main():
     # from title/filename/person/patents/categories/meta + short preview slice.
     df = {}
     post = {}
-    for rec in slim:
+    # 2026-10-15: iterate the ORIGINAL docs, not `slim`. `slim` records carry
+    # content_preview already truncated to PREVIEW_LEN (160), so reading the
+    # preview from them caps the token index at 160 chars no matter what
+    # TOKEN_PREVIEW_CHARS says. That was the real ceiling on search: the
+    # front-end's computeSearchScores() scores against token_index.json, so
+    # 126,517 documents averaging ~1,270 chars of extracted preview were
+    # searchable on their first 160 characters only. Caught by rebuilding and
+    # measuring the output rather than trusting the patch.
+    for rec in docs:
         did = rec.get("id")
         if did is None:
             continue
@@ -220,7 +241,8 @@ def main():
             " ".join(rec.get("patent_numbers") or []),
             " ".join(rec.get("categories") or []),
             " ".join(rec.get("meta_categories") or []),
-            (rec.get("content_preview") or "")[:TOKEN_PREVIEW_CHARS],
+            ((rec.get("content_preview") or "") if TOKEN_PREVIEW_CHARS is None
+             else (rec.get("content_preview") or "")[:TOKEN_PREVIEW_CHARS]),
         ])
         seen = set(tokenize(hay))
         for t in seen:
@@ -238,7 +260,8 @@ def main():
     print(f"token index: {len(token_index['tokens'])} tokens -> token_index.json ({tok_kb:.0f} KB)")
 
     _emit_taxonomy_counts(slim, args.outdir)
-    _bake_live_stats()
+    if not args.skip_bake:
+        _bake_live_stats()
 
 
 def _emit_taxonomy_counts(slim, outdir):
