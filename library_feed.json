@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T01:17:51Z",
+  "generated_at": "2026-10-15T02:12:43Z",
   "library": {
     "researchers": 2041,
     "researchers_cataloged": 2041,
@@ -7,21 +7,21 @@
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 123546,
-    "translations": 835,
-    "pages_translated": 15491,
+    "translations": 838,
+    "pages_translated": 15506,
     "declassified_finds": 233,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 994,
+    "translation_files": 997,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 835,
+      "translation_works": 838,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 15491,
+      "pages_translated_computed": 15506,
       "inherited": [],
-      "pages_translated_published": 15491
+      "pages_translated_published": 15506
     },
     "bridges": 27,
     "archive_entries": 123809,
@@ -62,11 +62,11 @@
     "replication_dossiers": 105,
     "validations": 73,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T01:17:51Z",
+      "generated_at": "2026-10-15T02:12:43Z",
       "archive_entries": 123809,
       "aflinks_docs": 123546,
-      "translations": 835,
-      "pages_translated": 15491,
+      "translations": 838,
+      "pages_translated": 15506,
       "declassified_finds": 233,
       "researchers": 2041,
       "patents": 3045,
@@ -100,6 +100,17 @@
     },
     {
       "date": "2026-10-15",
+      "title": "Stakhov, Under the Sign of the Golden Section: Confession of a Studbat Son — The Vienna University of Technology and the 1976 Report in Austria (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/100a/02320051.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-15-venskiy-tekhnicheskiy-universitet-doklad-v-avstrii-stakhov-ru.md",
+      "content_file": null,
+      "excerpt": "The Vienna University of Technology\nIn 1976 fate threw me a \"lucky chance\" — a 2-month scientific mission to Austria for the purpose of scientific training at leading Austrian universities.\nAt that period the internation"
+    },
+    {
+      "date": "2026-10-15",
       "title": "Reply to A.P. Stakhov on generic features of generalized golden sections (Arakelyan)",
       "domain": "",
       "source_url": "",
@@ -111,6 +122,17 @@
     },
     {
       "date": "2026-10-15",
+      "title": "Stakhov, Under the Sign of the Golden Section: Confession of a Studbat Son, Ch. 6.2 — The First Dissertation on Fibonacci Computers (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/100a/02320050.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-15-pervaya-dissertatsiya-po-kompyuteram-fibonachchi-stakhov-ru.md",
+      "content_file": null,
+      "excerpt": "A Team of Like-Minded People\nAlthough the initial steps in developing Fibonacci arithmetic were made personally by me, and these first scientific results were set out by me in the article \"Redundant Positional Number Sys"
+    },
+    {
+      "date": "2026-10-15",
       "title": "On Motion and Immobility in Science (Kleshchev)",
       "domain": "",
       "source_url": "",
@@ -119,6 +141,17 @@
       "file": "2026-10-15-o-dvizhenii-i-nepodvizhnosti-v-nauke-kleshchev-ru.md",
       "content_file": null,
       "excerpt": "\"There is no motion,\" said the bearded sage.\nAnother said nothing and began to walk before him.\nHe could not have objected more forcefully;\nAll praised the intricate reply.\nBut, gentlemen, this amusing case\nBrings to min"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Stakhov memoir: The Fibonacci Patents (Chapter 5.2) (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/100a/02320052.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-15-fibonachchievy-patenty-stakhov-ru.md",
+      "content_file": null,
+      "excerpt": "After returning to Taganrog I plunged into departmental work, the teaching process and family matters, and gradually began to forget about Austria; and after a month I began to think that the embassy counsellor's promise"
     },
     {
       "date": "2026-10-14",
@@ -32836,9 +32869,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-14T23:31:40Z",
+      "last_run": "2026-10-15T01:30:29Z",
       "last_status": "ok",
-      "last_summary": "run total 16 chunks across 3 docs, all complete: Erokhov golden constant 8, Semenyuta Belarusian golden-section school 3, Tsymbalist World Centre of Harmony 5 | trinitas 0232 vein | backlog 409 | gear overdrive"
+      "last_summary": "run total 16 chunks across 2 docs | Stakhov memoir ch.6.2 and Vienna-1976 report both complete | backlog 401 wait | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -32858,9 +32891,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-15T00:40:10Z",
+      "last_run": "2026-10-15T01:20:17Z",
       "last_status": "ok",
-      "last_summary": "sync: 123808 docs, feed rebuilt"
+      "last_summary": "sync: 123809 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -32974,6 +33007,30 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-15",
+      "time": "02:12",
+      "agent": "translator-foreign (The Wizard)",
+      "summary": "+1 document, 7 chunks — A.P. Stakhov, «Фибоначчиевые патенты» (The \"Fibonacci\" Patents), ch. 5.2 of the memoir «Под знаком \"Золотого Сечения\"», trinitas.ru Institute of the Golden Section, ru->EN 7/7, assembled to translations/2026-10-15-fibonachchievy-patenty-stakhov-ru.md; source archived as archives/2026-10-15-trinitas-stakhov-fibonachchievy-patenty-ru.html. Content: the 1976 Moscow \"inspector\" episode after Stakhov's Austrian lecture tour, the USSR ambassador's letter (Yefremov, 2 Apr 1976) on the Fibonacci number systems and self-checking computers, and the patenting campaign — 12 applications, 8 countries, 65 foreign patents, the pioneer invention \"device for reducing a Fibonacci code to minimal form\", the 85-point multi-link claim, and the Gоскомизобретений support. Backlog 401."
+    },
+    {
+      "date": "2026-10-15",
+      "time": "02:07",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+343 references — 30 docs fetched, 8 yielded bibliographies; refs.jsonl 34246->34589 (+343), retro-clean kept 34572 dropped 17 (15 fragment, 2 boilerplate); graph rebuilt 25637 nodes / 34853 edges / 3104 hubs; archive queue refreshed feed live 123546 docs 2041 researchers 835 translations; veracity re-check ch. 21 percentage row (unverified, unchanged) via new route — the ~85/~14/<1 split is confined to the chapter's body-prose table, absent from its own Chapter Summary and Key Terms blocks and its JSON-LD, while the glossary defines the same term WITH the figure; NOTE refs.jsonl is non-accumulating across fresh checkouts (restored from git history baseline 34246) so the graph came out slightly smaller than the 2026-10-14 18:00Z run (25779 nodes)"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "01:30",
+      "agent": "Translation Sweeper",
+      "summary": "+16 chunks — Translated two chapters of A.P. Stakhov's memoir 'Under the Sign of the Golden Section' (trinitas.ru 0232 Institute of the Golden Section): ch.6.2 'The First Dissertation on Fibonacci Computers' (6 chunks) and 'The Vienna University of Technology / 1976 report in Austria' (10 chunks), ru->EN, 16 chunks, both assembled. Recovered the living-library checkout from the recurring outage via blobless+sparse pre-seed."
+    },
+    {
+      "date": "2026-10-15",
+      "time": "01:20",
+      "agent": "AFLinks Sync",
+      "summary": "+123809 docs — +123809 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-15",
       "time": "00:40",
@@ -33255,30 +33312,6 @@
       "time": "13:22",
       "agent": "Translation Sweeper",
       "summary": "+12 chunks — Resumed Vlasov 'In Search of Health and Active Longevity' (trinitas.ru 0235/005a/02351139, ru) chunks 13-24; job now 24/53. Content: baking-soda/living-water acid-alkaline therapy, Chizhevsky aeroionization, hydrogen peroxide alkalization, Paul Bragg fasting, and the silicon-deficiency thesis."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:39",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+123551 docs — +123551 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:29",
-      "agent": "Translation Sweeper",
-      "summary": "+12 chunks — Two duplicate races on the trinitas 0235 vein (Statskevich 'Pravda ob antioksidantakh' and Petrakovich 'Svobodnye radikaly protiv aksiom' were both completed by the Translation Curator first; my copies discarded). Net new work: started Vlasov 'V poiskakh zdorovya i aktivnogo dolgoletiya' (In Search of Health and Active Longevity), ru->EN, 12 of 53 chunks translated and pushed as in-progress."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:23",
-      "agent": "translator-foreign",
-      "summary": "+25 chunks — 1 full ru->EN translation from the trinitas 0235 (Institute of Life Extension) vein: Petrakovich 'Free Radicals Against Axioms. A New Hypothesis on Respiration' (25 chunks) - lungs as micro-internal-combustion-engines, erythrocytes as pistons, blood generating its own oxygen"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "12:21",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+195 references — Citation harvest: 30 docs fetched, 4 yielded a bibliography (ok 1990->1994), +195 refs (refs.jsonl 34246->34441) [CORRECTION: the entry first read '8 yielded a bibliography (ok 1993->1994)' - wrong; the mid-run index read was taken after 3 of the 4 OK docs, so the batch delta is +4, not +1, and the batch had 4 OK docs, not 8]; retro-clean kept 34424, dropped 17 (15 fragment, 2 boilerplate). Graph rebuilt: 25597 nodes / 34705 edges / 3025 hubs / 22572 single-cited; overlay 41898 nodes / 55009 edges (29769 cites). Archive queue refreshed: feed live, 123546 docs, 2000 researchers, 805 translations. Veracity re-check: ch. 12 Hash-Match row (unverified, unchanged) re-probed via a NEW route - a cross-chapter census of the framework's own page-verification-hash mechanisms - and found the framework prescribes THREE different placements/field names for the same page hash (ch.12 <meta name=entity-signature>; ch.13 hidden <meta property=verificationHash>; Appendix A footer-appended Integrity Hash), none cross-referencing another, so the field name ch.12 tells a crawler to match appears on none of the framework's own pages. NOTE: refs.jsonl was restored from git history to the 34246 baseline (the documented non-accumulation defect), so the graph is smaller than the last recorded run; the +195 is this run's true delta."
     },
     {
       "date": "2026-10-14",
@@ -34756,11 +34789,11 @@
     {
       "date": "2026-10-15",
       "kind": "translation",
-      "title": "Reply to A.P. Stakhov on generic features of generalized golden sections (Arakelyan)",
-      "excerpt": "I read with interest the article [1], which raises the question of the possibilities and permissible limits of generalizing the theory of the golden section (TG",
+      "title": "Stakhov, Under the Sign of the Golden Section: Confession of a Studbat Son — The Vienna University of Technology and the 1976 Report in Austria (ru->EN)",
+      "excerpt": "The Vienna University of Technology\nIn 1976 fate threw me a \"lucky chance\" — a 2-month scientific mission to Austria for the purpose of scientific training at l",
       "rarity": "fresh from Russian",
-      "href": "./library.html#trans-2026-10-15-replika-na-statyu-stakhova-arakekyan-ru.md",
-      "source_url": ""
+      "href": "./library.html#trans-2026-10-15-venskiy-tekhnicheskiy-universitet-doklad-v-avstrii-stakhov-ru.md",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/100a/02320051.htm"
     },
     {
       "date": "2026-10-15",
@@ -1341486,11 +1341519,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "wesen-des-wassers-toc-de",
-        "excerpt": "The Nature (Essence) of Water Original texts, edited and commented by Jörg Schauberger 11 Foreword by the Editor 14 Reverence for Water 14 The forester and the trout",
+        "title": "English translation of the German orgonomie.net ORANUR pages (Jerome Eden's account of Reich's ORANUR experiment). Note: filename suffix -de reflects the German source site; the text is English. Source: orgonomie.net.",
+        "excerpt": "In June 1985, a study on the effects of atomi",
         "meta": "German",
         "rarity": "fresh from German",
-        "href": "./library.html#trans-2026-09-26-wesen-des-wassers-toc-de.md"
+        "href": "./library.html#trans-2026-09-11-oranur-experiment-wilhelm-reich-de.md"
       },
       {
         "drawer": "found",
@@ -1343381,12 +1343414,12 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T01:17:51Z",
+    "as_of": "2026-10-15T02:12:43Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 59446,
-      "translations": 700,
-      "pages_translated": 13362,
+      "translations": 703,
+      "pages_translated": 13377,
       "declassified": 176,
       "researchers": 903,
       "patents": 265
