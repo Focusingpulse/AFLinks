@@ -2011,7 +2011,7 @@
         <span class="hero-kicker" data-t="kick">🏴‍☠️ Ahoy, seeker of the hidden sciences</span>
         <h1 data-t="vault-name">Aetherforce Treasure Vault</h1>
         <p>Explore <span id="heroDocCount">123,808</span> archived primary-source documents — patents, papers &amp; research salvaged from the forgotten corners of the web. Of those, <span id="heroPreviewCount">114,027</span> carry full-text previews and the rest arrive weekly. Each cross-linked to Aetherforce articles, shop, and community resources.</p>
-        <p class="hero-trans">🗝 <span id="heroTransCount">830</span> translations published · <span id="heroPagesCount">15,448</span> pages translated &amp; growing</p>
+        <p class="hero-trans">🗝 <span id="heroTransCount">835</span> translations published · <span id="heroPagesCount">15,491</span> pages translated &amp; growing</p>
         <div class="hero-actions">
             <a class="hero-af-link hero-cta-main" data-t="af-main" href="https://www.aetherforce.energy" target="_blank">🌐 Visit Aetherforce.energy — The Main Treasure →</a>
             <a class="hero-af-link" data-t="enter-vault" href="./vault.html">🗝 Enter the Vault</a>
@@ -2048,13 +2048,11 @@
             <span class="salvage-title" data-t="salvage">⚓ Today's Salvage</span>
             <span class="salvage-sub">one artifact pulled fresh from the hold at each build</span>
         </div>
-        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/02446761.html">
+        <!-- SALVAGE:BEGIN --><a class="salvage-card" href="/AFLinks/pages/01498886.html">
     <span class="salvage-person">👤 </span>
-    <span class="salvage-doc-title">Glass ball seesaw stirling engine</span>
-    <span class="salvage-preview">09/30/16 -
-Glass ball seesaw stirling engine
-The best model to learn the principle of stirling engine. The engine consists of glass tube cylinder with glass ball displacer and glass syringe power piston. When heated,it m…</span>
-    <span class="salvage-meta">wayback:keelynet.com</span>
+    <span class="salvage-doc-title">TakahashiAjyouonkakua</span>
+    <span class="salvage-preview">Submital to special issue of JCFRS, December 2011 (Extended Review Paper for JCF12 Invited Talk, December 17-18, 2011, Kobe) 常温核融合フロンティア 2011 高橋 亮人 （大阪大学名誉教授、（株）テクノバ） 2011 年 12 月 前書き 常温核融合の研究は、2008 年の拙著「常温核融合 2008―凝集核融合の…</span>
+    <span class="salvage-meta">lenr-canr.org · Alternative Energy Technologies · Challenges to the Standard Model</span>
 </a><!-- SALVAGE:END -->
     </section>
 
@@ -2221,7 +2219,7 @@ The best model to learn the principle of stirling engine. The engine consists of
             <a href="./labs/labs.html" title="The formalized Replication Yard — protocols, equipment, variables & the replication log">🧪 Peer-Lab</a>
         </div>
         <div class="footer-credit">
-            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-10-14</span>
+            An Aetherforce knowledge project · Source archive from <a href="https://www.rexresearch.com" target="_blank">Rex Research</a> · Built by <a href="https://github.com/Focusingpulse" target="_blank">Focusingpulse</a> · Last updated <span id="lastUpdated">2026-10-15</span>
         </div>
     </footer>
 
@@ -2966,7 +2964,7 @@ The best model to learn the principle of stirling engine. The engine consists of
             const cardsEl = document.getElementById('synthCards');
             const moreEl = document.getElementById('synthMoreLink');
             if (!cardsEl) return;
-            fetch('./synthesis/synthesis_index.json?v=20261014232256')
+            fetch('./synthesis/synthesis_index.json?v=20261015001317')
                 .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
                 .then(list => {
                     const entries = (Array.isArray(list) ? list : []).filter(e => e && e.file && e.title);
@@ -3852,7 +3850,7 @@ The best model to learn the principle of stirling engine. The engine consists of
                         // monolithic file crossed GitHub's 100 MiB blob limit on
                         // 2026-09-22 and could no longer be published.
                         try {
-                            const mRes = await fetch('./search_index_manifest.json?v=20261014232256');
+                            const mRes = await fetch('./search_index_manifest.json?v=20261015001317');
                             if (mRes.ok) {
                                 const m = await mRes.json();
                                 if (m && Array.isArray(m.parts) && m.parts.length) {
@@ -3875,7 +3873,7 @@ The best model to learn the principle of stirling engine. The engine consists of
                                 }
                             }
                         } catch (e) { /* fall through to the monolithic index */ }
-                        const response = await fetch('./search_index.json?v=20261014232256');
+                        const response = await fetch('./search_index.json?v=20261015001317');
                         if (!response.ok) throw new Error('search index unavailable');
                         return response.json();
                     };
@@ -3906,12 +3904,12 @@ The best model to learn the principle of stirling engine. The engine consists of
                     tokenIndex = await tokRes.json();
                 } catch (e) { /* token search optional; substring fallback stays */ }
                 try {
-                    const man = await fetch('./full_manifest.json?v=20261014232256');
+                    const man = await fetch('./full_manifest.json?v=20261015001317');
                     fullManifest = await man.json();
                 } catch (e) { /* chunked detail optional; list still works */ }
                 // Live translation counters from the Living Library feed
                 try {
-                    const feedRes = await fetch('./library_feed.json?v=20261014232256');
+                    const feedRes = await fetch('./library_feed.json?v=20261015001317');
                     const feed = await feedRes.json();
                     const lib = feed.library || {};
                     if (lib.archive_entries != null) {
@@ -4027,7 +4025,7 @@ The best model to learn the principle of stirling engine. The engine consists of
             // before first paint — both tiny next to the 65MB archive index.
             try { await kdLoadHueLexicon(); } catch (e) { kdHueLex = null; }
             try {
-                const sres = await fetch('./synthesis/synthesis_index.json?v=20261014232256');
+                const sres = await fetch('./synthesis/synthesis_index.json?v=20261015001317');
                 const slist = await sres.json();
                 kdSynth = (Array.isArray(slist) ? slist : []).filter(e => e && e.title);
             } catch (e) { kdSynth = []; }
