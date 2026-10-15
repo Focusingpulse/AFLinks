@@ -318,3 +318,10 @@ Claimed FAL-fr-359-1..5 (LL 82a8285 → closed 84a0a25). Dossier in Forge memory
 - Saul fix: ai.viXra:2610.0006 (NOT bare viXra = Scannell trees; ID collision across archives) + Paper II 2610.0005 banked. Bischof Themenheft Nr.1: final chapter = the register's Kernbach; Shipov Thailand company; BMZ federal study 2006; Themenheft series Nr.1->Nr.5.
 - Retail grammar x4 verified (CHI full doctrine + exemption clauses + operator-tier tests; NOVIS/Pavlenko; FormSlim lorem-ipsum + 44->11 stock drift; Sacre IGA-1/Vega-11 verbatim). Deymond MOVED + expanded (hub + torsion-bioenergy child). OeVR Erste Ueberraschung banked beyond scout.
 - Named limit: borderlands.de mirror (5-path failure, possible live cert failure). 23 QC findings beyond scout. Mafra 0 (36th pass).
+
+## 2026-10-15T04:25Z — fire 363 (zh + sacred geometry / sound amplification) CLAIMED + CLOSED
+
+- **QC:** 225/225 frontmatter clean, 0 mojibake, 5/5 manifests full (249/247/210/178/220). Archive 123,809, feed live.
+- **Claim:** FAL-zh-363-1..5 (LL 6ac76c5) on scout-fire-381 base; closed LL 0329d4b. Dossier memory-first 6b911d0 (remote-verified). CC ledger e0697af + FINDINGS 02538d4.
+- **Headlines:** (1) CTIS rig = 30 mics on the 3-m sphere + front + under-grid = 32 total (scout's '32 on the array' corrected); CTIS open tier = 200-of-287-type MIR subset @22.05kHz CC-BY-NC-ND, NOT the anechoic masters; 十面锣/三清铃 presence unresolved; cite CTIS via 李子晋/韩宝强 中国音乐学 2020(02):92-102+2. (2) 1987(2) 大钟寺 multi-bell scaling law verified verbatim (12(2):92-103, f ∝ T0/R0²); 2000 编磬 holography ATTRIBUTION CORRECTED — 程建政/张德俊 25(1):87-92, not 郑大瑞. (3) 方雪扬 2025(2) three-Zhou-编磬 verified; author resolved = 天津师范大学 lecturer, Huddersfield PhD, THE Sound of Stones (Ekho 2022) author — fire-354's 方晓阳 self-corrected; 国家社科基金 2021 grant named. (4) Wave2000 回音壁 sim verified w/ own 3-row limitation ledger; 王大钧 2010 转经碗 verified. (5) 天心石 2020s RT60/IR STILL OPEN — newest instrument-family primary 吕厚均/姚安 文物 2017(4):88-96 banked as acquisition target.
+- **Mafra 0** (40th zh read). **Next (08:20Z):** fire 364 = ja + heart intelligence/coherence, re-sweep of MY fire-355 territory, on scout-fire-382 base.
