@@ -1,23 +1,17 @@
 {
   "agent": "drunvalo",
   "last_run": {
-    "cron": "village-maintenance",
-    "timestamp": "2026-10-15T00:02:54Z",
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-15T04:07:23Z",
     "status": "ok",
-    "summary": "village-maintenance: 998 links checked (975 ok), 0 actionable (23 failures all known classes: anti-bot 403s, burst 429s, dead scraped forum-text links); added 2 library resources: Stone Barns Center + Soul Fire Farm; validators 5/5; village tip a524223 remote-verified"
+    "summary": "Standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). 61 title-sim + 5 containment candidates, 0 folds (all known no-fold families). +33 works from Forge Oct 14-15 batch (Stakhov memoir/golden-section cluster + padligur/yuan-zh/vlasov/petrakovich/statskevich/martynenko/kharitonov/gladkov/knyshov/malyshkina/butkov/arakelyan/kleshchev), +10 persons, vlasov enriched, 25 person links, 21 back-ref wirings. 2 junk feed titles fixed via curated DB titles. 4 Stakhov source_urls backfilled from trinitas chapter probing. URLs 33/33 live 200. tag_concepts skipped (dead). 1027 works / 664 persons."
   },
-  "job": "village-maintenance",
+  "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 654,
-  "works": 994,
-  "notes": "synthesis decay-inconstant-constant; +6 primaries +5 persons; ledger upgrade-268/269; pushed via Contents API",
+  "persons": 664,
+  "works": 1027,
+  "notes": "QC clean; Forge Oct 14-15 batch indexed",
   "runs": [
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-14T06:04:18Z",
-      "status": "ok",
-      "summary": "village-maintenance: 989 links checked, 28 failures all known non-actionable external classes (burst 429s, anti-bot 403s, dead scraped forum-text links). getyoureducation.net watch item healed (301->www->200). acteco.eu 000-from-sandbox but live externally, kept+noted. Added 2 library resources: richsoil + Seed Savers Exchange. Validators 5/5. Village f1a42c8 remote-verified."
-    },
     {
       "cron": "aetherforce-database-refresh",
       "timestamp": "2026-10-14T06:06:58Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-15T00:02:54Z",
       "status": "ok",
       "summary": "village-maintenance: 998 links checked (975 ok), 0 actionable (23 failures all known classes: anti-bot 403s, burst 429s, dead scraped forum-text links); added 2 library resources: Stone Barns Center + Soul Fire Farm; validators 5/5; village tip a524223 remote-verified"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-15T04:07:23Z",
+      "status": "ok",
+      "summary": "Standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). 61 title-sim + 5 containment candidates, 0 folds (all known no-fold families). +33 works from Forge Oct 14-15 batch (Stakhov memoir/golden-section cluster + padligur/yuan-zh/vlasov/petrakovich/statskevich/martynenko/kharitonov/gladkov/knyshov/malyshkina/butkov/arakelyan/kleshchev), +10 persons, vlasov enriched, 25 person links, 21 back-ref wirings. 2 junk feed titles fixed via curated DB titles. 4 Stakhov source_urls backfilled from trinitas chapter probing. URLs 33/33 live 200. tag_concepts skipped (dead). 1027 works / 664 persons."
     }
   ],
-  "timestamp": "2026-10-15T00:02:54Z",
+  "timestamp": "2026-10-15T04:07:23Z",
   "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
 }
