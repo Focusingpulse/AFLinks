@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:18:09Z",
+  "generated_at": "2026-10-15T08:15:29Z",
   "library": {
     "researchers": 2041,
     "researchers_cataloged": 2041,
@@ -11,20 +11,22 @@
     "pages_translated": 15649,
     "declassified_finds": 233,
     "active_agents": 15,
-    "book5_complete": true,
     "translation_files": 1019,
     "counter_diag": {
-      "library_attached": true,
-      "translations_dir_published": true,
+      "library_attached": false,
+      "translations_dir_published": false,
       "books_published": false,
       "translation_works": 855,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 15649,
-      "inherited": [],
+      "pages_translated_computed": 0,
+      "inherited": [
+        "pages_translated",
+        "translation_files"
+      ],
       "pages_translated_published": 15649
     },
     "bridges": 29,
-    "archive_entries": 123809,
+    "archive_entries": 124108,
     "meta_counts": {
       "Challenges to the Standard Model": 72612,
       "Biological & Morphogenetic Science": 1472,
@@ -62,8 +64,8 @@
     "replication_dossiers": 107,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T07:18:09Z",
-      "archive_entries": 123809,
+      "generated_at": "2026-10-15T08:15:29Z",
+      "archive_entries": 124108,
       "aflinks_docs": 123546,
       "translations": 855,
       "pages_translated": 15649,
@@ -71,7 +73,7 @@
       "researchers": 2041,
       "patents": 3069,
       "active_agents": 15,
-      "atsuyskovsky_books": 1,
+      "atsuyskovsky_books": 0,
       "radiesthesia_books": 0
     }
   },
@@ -8644,7 +8646,7 @@
     {
       "date": "2026-10-02",
       "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-      "domain": "",
+      "domain": "torsion-field-physics",
       "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
       "language": "Russian",
       "target_language": "English",
@@ -10052,8 +10054,8 @@
     {
       "date": "2026-09-22",
       "title": "Latent Light and the Color of Plasma — Kelsya hypothesis of selective revelation",
-      "domain": "",
-      "source_url": "",
+      "domain": "plasma-cosmology",
+      "source_url": "https://zenodo.org/records/15213818",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
@@ -10063,8 +10065,8 @@
     {
       "date": "2026-09-22",
       "title": "La Structure Révélée — Complete deciphering of the real through the Kelsya vision",
-      "domain": "",
-      "source_url": "",
+      "domain": "plasma-cosmology",
+      "source_url": "https://zenodo.org/records/15202198",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
@@ -10492,7 +10494,7 @@
     {
       "date": "2025-11-17",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-      "domain": "",
+      "domain": "aether",
       "source_url": "https://doi.org/10.5281/zenodo.17626722",
       "language": "Spanish",
       "target_language": "English",
@@ -35102,14 +35104,6 @@
   "news": [
     {
       "date": "2026-10-15",
-      "kind": "milestone",
-      "title": "Atsyukovsky Book 5 — complete in English",
-      "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, held in the internal library pending rights review.",
-      "rarity": "milestone",
-      "href": "./library.html#translationsSection"
-    },
-    {
-      "date": "2026-10-15",
       "kind": "translation",
       "title": "The Golden Section of Russia: 56 Degrees North Latitude, Not 40 (Butkov)",
       "excerpt": "Slavic Fibonacciists\n\nThe appearance of my second book, \"Codes of the Golden Proportion\" (1984), the publication of articles in the journal \"Tekhnika — Molodezh",
@@ -35143,22 +35137,6 @@
       "href": "./library.html#declass-declassified-zimbabwe-uchena-commission-report-court-ordered-release-md"
     },
     {
-      "date": "2026-10-14",
-      "kind": "paradigm",
-      "title": "Paradigm Signal Report: Every Claim Its Critic",
-      "excerpt": "The Connector's thirty-fifth Paradigm Signal Report. In one day the archive ran a claim's full lifecycle as routine workflow: three syntheses (the Vinnitsa gold",
-      "rarity": "pattern signal",
-      "href": "./synthesis.html#2026-10-14-every-claim-its-critic"
-    },
-    {
-      "date": "2026-10-13",
-      "kind": "paradigm",
-      "title": "Paradigm Signal Report: Convergence Without Custody",
-      "excerpt": "The Connector's thirty-fourth Paradigm Signal Report. In 24 hours the archive assembled three lanes whole that no institution holds: Drunvalo's cinquefoil bridg",
-      "rarity": "pattern signal",
-      "href": "./synthesis.html#2026-10-13-convergence-without-custody"
-    },
-    {
       "date": "",
       "kind": "translation",
       "title": "Oranur-Physics: Wilhelm Reich, Physicist — An Introduction to Orgone Biophysics",
@@ -35168,15 +35146,7 @@
       "source_url": "https://orgonomie.net/hdowrphysik.pdf"
     }
   ],
-  "atsuyskovsky_books": [
-    {
-      "volume": "5",
-      "title": "Book 5 — Full English Translation (complete)",
-      "progress_done": 220,
-      "progress_total": 220,
-      "assembled": null
-    }
-  ],
+  "atsuyskovsky_books": [],
   "radiesthesia_books": [],
   "bridges": [
     {
@@ -37397,7 +37367,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "",
+          "domain": "torsion-field-physics",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -38321,7 +38291,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -39184,7 +39154,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -39852,7 +39822,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -41658,7 +41628,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "",
+          "domain": "torsion-field-physics",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -449809,7 +449779,306 @@
       "2466541": "THE RECURSIVE HARMONIC CODEX: TECHNICAL SPECIFICATION AND COSMOLOGICAL BLUEPRINT FOR REALITY 2.0",
       "2466542": "THE RECURSIVE HARMONIC CODEX OF YNYS PRYDAIN: A STEP-BY-STEP TIMELINE OF WELSH CHRONOLOGY, BARDIC MEMORY, AND GRID ALIGNMENT",
       "2466543": "Comparative Investigation of Late Antique Demonology and Angelic Nomenclature: Decani, Signets, and Christological Interpolations within the Recursive Harmonic Framework",
-      "2466544": "The Inverted Mold: From the compiler the field is infinite and expands forever; from the reader it is finite and collapses forever"
+      "2466544": "The Inverted Mold: From the compiler the field is infinite and expands forever; from the reader it is finite and collapses forever",
+      "2466545": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=3683",
+      "2466546": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=3690",
+      "2466547": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=3696",
+      "2466548": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=3958",
+      "2466549": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=3959",
+      "2466550": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=396",
+      "2466551": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=3993",
+      "2466552": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=3993",
+      "2466553": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=3993",
+      "2466554": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=522",
+      "2466555": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=745",
+      "2466556": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=773",
+      "2466557": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=987",
+      "2466558": "modules.php?name=News&file=article&thold= 1&mode=flat&order=0&sid=646",
+      "2466559": "modules.php?name=News&file=article&sid=1255&mode=nested&order=0&thold= 1",
+      "2466560": "modules.php?name=News&file=article&sid=1609&mode=nested&order=0&thold=0",
+      "2466561": "modules.php?name=News&file=article&sid=1780&mode=nested&order=0&thold=0",
+      "2466562": "modules.php?name=News&file=article&sid=2103&mode=nested&order=0&thold=0",
+      "2466563": "modules.php?name=News&file=article&sid=2754&mode=nested&order=0&thold= 1",
+      "2466564": "modules.php?name=News&file=article&sid=3085&mode=nested&order=0&thold=0",
+      "2466565": "modules.php?name=News&file=article&sid=3088&mode=nested&order=0&thold=0",
+      "2466566": "modules.php?name=News&file=article&sid=3147&mode=nested&order=0&thold=0",
+      "2466567": "modules.php?name=News&file=article&sid=3256&mode=nested&order=0&thold=0",
+      "2466568": "modules.php?name=News&file=article&sid=3308&mode=nested&order=0&thold=0",
+      "2466569": "modules.php?name=News&file=article&sid=3331&mode=nested&order=0&thold=0",
+      "2466570": "modules.php?name=News&file=article&sid=3339&mode=nested&order=0&thold=0",
+      "2466571": "modules.php?name=News&file=article&sid=3341&mode=nested&order=0&thold=0",
+      "2466572": "modules.php?name=News&file=article&sid=2754&mode=nested&order=0&thold= 1",
+      "2466573": "modules.php?name=News&file=article&sid=3384&mode=nested&order=0&thold=0",
+      "2466574": "modules.php?name=News&file=article&sid=3384&mode=nested&order=0&thold=0",
+      "2466575": "modules.php?name=News&file=article&sid=3385&mode=nested&order=0&thold=0",
+      "2466576": "modules.php?name=News&file=article&sid=3385&mode=nested&order=0&thold=0",
+      "2466577": "modules.php?name=News&file=article&sid=3391&mode=nested&order=0&thold=0",
+      "2466578": "modules.php?name=News&file=article&sid=3393&mode=nested&order=0&thold=0",
+      "2466579": "modules.php?name=News&file=article&sid=3396&mode=nested&order=0&thold=0",
+      "2466580": "modules.php?name=News&file=article&sid=3394&mode=nested&order=0&thold=0",
+      "2466581": "modules.php?name=News&file=article&sid=3394&mode=nested&order=0&thold=0",
+      "2466582": "modules.php?name=News&file=article&sid=3400&mode=nested&order=0&thold=0",
+      "2466583": "modules.php?name=News&file=article&sid=3400&mode=nested&order=0&thold=0",
+      "2466584": "modules.php?name=News&file=article&sid=3402&mode=nested&order=0&thold=0",
+      "2466585": "modules.php?name=News&file=article&sid=3402&mode=nested&order=0&thold=0",
+      "2466586": "modules.php?name=News&file=article&sid=3401&mode=nested&order=0&thold=0",
+      "2466587": "modules.php?name=News&file=article&sid=3405&mode=nested&order=0&thold=0",
+      "2466588": "modules.php?name=News&file=article&sid=3409&mode=nested&order=0&thold=0",
+      "2466589": "modules.php?name=News&file=article&sid=3410&mode=nested&order=0&thold=0",
+      "2466590": "modules.php?name=News&file=article&sid=3410&mode=nested&order=0&thold=0",
+      "2466591": "modules.php?name=News&file=article&sid=3404&mode=nested&order=0&thold=0",
+      "2466592": "modules.php?name=News&file=article&sid=3404&mode=nested&order=0&thold=0",
+      "2466593": "modules.php?name=News&file=article&sid=3411&mode=nested&order=0&thold=0",
+      "2466594": "modules.php?name=News&file=article&sid=3411&mode=nested&order=0&thold=0",
+      "2466595": "modules.php?name=News&file=article&sid=3415&mode=nested&order=0&thold=0",
+      "2466596": "modules.php?name=News&file=article&sid=3415&mode=nested&order=0&thold=0",
+      "2466597": "modules.php?name=News&file=article&sid=3418&mode=nested&order=0&thold=0",
+      "2466598": "modules.php?name=News&file=article&sid=3418&mode=nested&order=0&thold=0",
+      "2466599": "modules.php?name=News&file=article&sid=3420&mode=nested&order=0&thold=0",
+      "2466600": "modules.php?name=News&file=article&sid=3420&mode=nested&order=0&thold=0",
+      "2466601": "modules.php?name=News&file=article&sid=3427&mode=nested&order=0&thold=0",
+      "2466602": "modules.php?name=News&file=article&sid=3427&mode=nested&order=0&thold=0",
+      "2466603": "modules.php?name=News&file=article&sid=3428&mode=nested&order=0&thold=0",
+      "2466604": "modules.php?name=News&file=article&sid=3428&mode=nested&order=0&thold=0",
+      "2466605": "modules.php?name=News&file=article&sid=3429&mode=nested&order=0&thold=0",
+      "2466606": "modules.php?name=News&file=article&sid=3429&mode=nested&order=0&thold=0",
+      "2466607": "modules.php?name=News&file=article&sid=3431&mode=nested&order=0&thold=0",
+      "2466608": "modules.php?name=News&file=article&sid=3433&mode=nested&order=0&thold=0",
+      "2466609": "modules.php?name=News&file=article&sid=3433&mode=nested&order=0&thold=0",
+      "2466610": "modules.php?name=News&file=article&sid=3431&mode=nested&order=0&thold=0",
+      "2466611": "modules.php?name=News&file=article&sid=344&mode=nested&order=0&thold=0",
+      "2466612": "modules.php?name=News&file=article&sid=3440&mode=nested&order=0&thold=0",
+      "2466613": "modules.php?name=News&file=article&sid=3443&mode=nested&order=0&thold=0",
+      "2466614": "modules.php?name=News&file=article&sid=3443&mode=nested&order=0&thold=0",
+      "2466615": "modules.php?name=News&file=article&sid=3444&mode=nested&order=0&thold=0",
+      "2466616": "modules.php?name=News&file=article&sid=3440&mode=nested&order=0&thold=0",
+      "2466617": "modules.php?name=News&file=article&sid=3444&mode=nested&order=0&thold=0",
+      "2466618": "modules.php?name=News&file=article&sid=3446&mode=nested&order=0&thold=0",
+      "2466619": "modules.php?name=News&file=article&sid=3446&mode=nested&order=0&thold=0",
+      "2466620": "modules.php?name=News&file=article&sid=3448&mode=nested&order=0&thold=0",
+      "2466621": "modules.php?name=News&file=article&sid=3436&mode=nested&order=0&thold=0",
+      "2466622": "modules.php?name=News&file=article&sid=3450&mode=nested&order=0&thold=0",
+      "2466623": "modules.php?name=News&file=article&sid=3451&mode=nested&order=0&thold=0",
+      "2466624": "modules.php?name=News&file=article&sid=3448&mode=nested&order=0&thold=0",
+      "2466625": "modules.php?name=News&file=article&sid=3452&mode=nested&order=0&thold=0",
+      "2466626": "modules.php?name=News&file=article&sid=3450&mode=nested&order=0&thold=0",
+      "2466627": "modules.php?name=News&file=article&sid=3451&mode=nested&order=0&thold=0",
+      "2466628": "modules.php?name=News&file=article&sid=3452&mode=nested&order=0&thold=0",
+      "2466629": "modules.php?name=News&file=article&sid=3454&mode=nested&order=0&thold=0",
+      "2466630": "modules.php?name=News&file=article&sid=3454&mode=nested&order=0&thold=0",
+      "2466631": "modules.php?name=News&file=article&sid=3455&mode=nested&order=0&thold=0",
+      "2466632": "modules.php?name=News&file=article&sid=3455&mode=nested&order=0&thold=0",
+      "2466633": "modules.php?name=News&file=article&sid=3457&mode=nested&order=0&thold=0",
+      "2466634": "modules.php?name=News&file=article&sid=3457&mode=nested&order=0&thold=0",
+      "2466635": "modules.php?name=News&file=article&sid=3459&mode=nested&order=0&thold=0",
+      "2466636": "modules.php?name=News&file=article&sid=3462&mode=nested&order=0&thold=0",
+      "2466637": "modules.php?name=News&file=article&sid=3463&mode=nested&order=0&thold=0",
+      "2466638": "modules.php?name=News&file=article&sid=3463&mode=nested&order=0&thold=0",
+      "2466639": "modules.php?name=News&file=article&sid=3465&mode=nested&order=0&thold=0",
+      "2466640": "modules.php?name=News&file=article&sid=3465&mode=nested&order=0&thold=0",
+      "2466641": "modules.php?name=News&file=article&sid=3467&mode=nested&order=0&thold=0",
+      "2466642": "modules.php?name=News&file=article&sid=3467&mode=nested&order=0&thold=0",
+      "2466643": "modules.php?name=News&file=article&sid=3468&mode=nested&order=0&thold=0",
+      "2466644": "modules.php?name=News&file=article&sid=3468&mode=nested&order=0&thold=0",
+      "2466645": "modules.php?name=News&file=article&sid=3469&mode=nested&order=0&thold=0",
+      "2466646": "modules.php?name=News&file=article&sid=3464&mode=nested&order=0&thold=0",
+      "2466647": "modules.php?name=News&file=article&sid=3499&mode=nested&order=0&thold=0",
+      "2466648": "modules.php?name=News&file=article&sid=3506&mode=nested&order=0&thold=0",
+      "2466649": "modules.php?name=News&file=article&sid=352&mode=nested&order=0&thold=0",
+      "2466650": "modules.php?name=News&file=article&sid=3558&mode=nested&order=0&thold= 1",
+      "2466651": "modules.php?name=News&file=article&sid=3559&mode=nested&order=0&thold= 1",
+      "2466652": "modules.php?name=News&file=article&sid=3469&mode=nested&order=0&thold=0",
+      "2466653": "modules.php?name=News&file=article&sid=3569&mode=nested&order=0&thold=0",
+      "2466654": "modules.php?name=News&file=article&sid=356&mode=nested&order=0&thold=0",
+      "2466655": "modules.php?name=News&file=article&sid=3572&mode=nested&order=0&thold= 1",
+      "2466656": "modules.php?name=News&file=article&sid=358&mode=nested&order=0&thold=0",
+      "2466657": "modules.php?name=News&file=article&sid=3597&mode=nested&order=0&thold=0",
+      "2466658": "modules.php?name=News&file=article&sid=3598&mode=nested&order=0&thold=0",
+      "2466659": "modules.php?name=News&file=article&sid=3607&mode=nested&order=0&thold=0",
+      "2466660": "modules.php?name=News&file=article&sid=361&mode=nested&order=0&thold=0",
+      "2466661": "modules.php?name=News&file=article&sid=361&mode=nested&order=0&thold=0",
+      "2466662": "modules.php?name=News&file=article&sid=3611&mode=nested&order=0&thold=0",
+      "2466663": "modules.php?name=News&file=article&sid=3614&mode=nested&order=0&thold=0",
+      "2466664": "modules.php?name=News&file=article&sid=3618&mode=nested&order=0&thold=0",
+      "2466665": "modules.php?name=News&file=article&sid=3627&mode=nested&order=0&thold=0",
+      "2466666": "modules.php?name=News&file=article&sid=3629&mode=nested&order=0&thold=0",
+      "2466667": "modules.php?name=News&file=article&sid=3632&mode=nested&order=0&thold=0",
+      "2466668": "modules.php?name=News&file=article&sid=363&mode=nested&order=0&thold=0",
+      "2466669": "modules.php?name=News&file=article&sid=3634&mode=nested&order=0&thold=0",
+      "2466670": "modules.php?name=News&file=article&sid=3639&mode=nested&order=0&thold=0",
+      "2466671": "modules.php?name=News&file=article&sid=3633&mode=nested&order=0&thold=0",
+      "2466672": "modules.php?name=News&file=article&sid=364&mode=nested&order=0&thold=0",
+      "2466673": "modules.php?name=News&file=article&sid=3640&mode=nested&order=0&thold=0",
+      "2466674": "modules.php?name=News&file=article&sid=3626&mode=nested&order=0&thold=0",
+      "2466675": "modules.php?name=News&file=article&sid=3645&mode=nested&order=0&thold=0",
+      "2466676": "modules.php?name=News&file=article&sid=3644&mode=nested&order=0&thold=0",
+      "2466677": "modules.php?name=News&file=article&sid=3643&mode=nested&order=0&thold=0",
+      "2466678": "modules.php?name=News&file=article&sid=3647&mode=nested&order=0&thold=0",
+      "2466679": "modules.php?name=News&file=article&sid=365&mode=nested&order=0&thold=0",
+      "2466680": "modules.php?name=News&file=article&sid=3650&mode=nested&order=0&thold=0",
+      "2466681": "modules.php?name=News&file=article&sid=3651&mode=nested&order=0&thold=0",
+      "2466682": "modules.php?name=News&file=article&sid=3656&mode=nested&order=0&thold=0",
+      "2466683": "modules.php?name=News&file=article&sid=366&mode=nested&order=0&thold=0",
+      "2466684": "modules.php?name=News&file=article&sid=3662&mode=nested&order=0&thold=0",
+      "2466685": "modules.php?name=News&file=article&sid=3663&mode=nested&order=0&thold=0",
+      "2466686": "modules.php?name=News&file=article&sid=3665&mode=nested&order=0&thold=0",
+      "2466687": "modules.php?name=News&file=article&sid=3657&mode=nested&order=0&thold=0",
+      "2466688": "modules.php?name=News&file=article&sid=3667&mode=nested&order=0&thold=0",
+      "2466689": "modules.php?name=News&file=article&sid=367&mode=nested&order=0&thold=0",
+      "2466690": "modules.php?name=News&file=article&sid=3670&mode=nested&order=0&thold=0",
+      "2466691": "modules.php?name=News&file=article&sid=3673&mode=nested&order=0&thold=0",
+      "2466692": "modules.php?name=News&file=article&sid=3674&mode=nested&order=0&thold=0",
+      "2466693": "modules.php?name=News&file=article&sid=3678&mode=nested&order=0&thold=0",
+      "2466694": "modules.php?name=News&file=article&sid=3679&mode=nested&order=0&thold=0",
+      "2466695": "modules.php?name=News&file=article&sid=3680&mode=nested&order=0&thold= 1",
+      "2466696": "modules.php?name=News&file=article&sid=3680&mode=nested&order=0&thold=0",
+      "2466697": "modules.php?name=News&file=article&sid=3683&mode=nested&order=0&thold=0",
+      "2466698": "modules.php?name=News&file=article&sid=369&mode=nested&order=0&thold=0",
+      "2466699": "modules.php?name=News&file=article&sid=3676&mode=nested&order=0&thold=0",
+      "2466700": "modules.php?name=News&file=article&sid=3693&mode=nested&order=0&thold=0",
+      "2466701": "modules.php?name=News&file=article&sid=3695&mode=nested&order=0&thold=0",
+      "2466702": "modules.php?name=News&file=article&sid=3696&mode=nested&order=0&thold=0",
+      "2466703": "modules.php?name=News&file=article&sid=3690&mode=nested&order=0&thold=0",
+      "2466704": "modules.php?name=News&file=article&sid=3700&mode=nested&order=0&thold=0",
+      "2466705": "modules.php?name=News&file=article&sid=3704&mode=nested&order=0&thold=0",
+      "2466706": "modules.php?name=News&file=article&sid=3706&mode=nested&order=0&thold=0",
+      "2466707": "modules.php?name=News&file=article&sid=3707&mode=nested&order=0&thold=0",
+      "2466708": "modules.php?name=News&file=article&sid=3714&mode=nested&order=0&thold=0",
+      "2466709": "modules.php?name=News&file=article&sid=3713&mode=nested&order=0&thold=0",
+      "2466710": "modules.php?name=News&file=article&sid=3715&mode=nested&order=0&thold=0",
+      "2466711": "modules.php?name=News&file=article&sid=3716&mode=nested&order=0&thold=0",
+      "2466712": "modules.php?name=News&file=article&sid=3752&mode=nested&order=0&thold=0",
+      "2466713": "modules.php?name=News&file=article&sid=3795&mode=nested&order=0&thold=0",
+      "2466714": "modules.php?name=News&file=article&sid=3798&mode=nested&order=0&thold=0",
+      "2466715": "modules.php?name=News&file=article&sid=3798&mode=nested&order=0&thold=0",
+      "2466716": "modules.php?name=News&file=article&sid=3798&mode=nested&order=0&thold=0",
+      "2466717": "modules.php?name=News&file=article&sid=382&mode=nested&order=0&thold=0",
+      "2466718": "modules.php?name=News&file=article&sid=3821&mode=nested&order=0&thold=0",
+      "2466719": "modules.php?name=News&file=article&sid=3823&mode=nested&order=0&thold=0",
+      "2466720": "modules.php?name=News&file=article&sid=3823&mode=nested&order=0&thold=0",
+      "2466721": "modules.php?name=News&file=article&sid=3823&mode=nested&order=0&thold=0",
+      "2466722": "modules.php?name=News&file=article&sid=3823&mode=nested&order=0&thold=0",
+      "2466723": "modules.php?name=News&file=article&sid=3835&mode=nested&order=0&thold=0",
+      "2466724": "modules.php?name=News&file=article&sid=3686&mode=nested&order=0&thold=0",
+      "2466725": "modules.php?name=News&file=article&sid=3837&mode=nested&order=0&thold=0",
+      "2466726": "modules.php?name=News&file=article&sid=3837&mode=nested&order=0&thold=0",
+      "2466728": "modules.php?name=News&file=article&sid=384&mode=nested&order=0&thold=0",
+      "2466729": "modules.php?name=News&file=article&sid=385&mode=nested&order=0&thold=0",
+      "2466730": "modules.php?name=News&file=article&sid=3851&mode=nested&order=0&thold=0",
+      "2466731": "modules.php?name=News&file=article&sid=3854&mode=nested&order=0&thold=0",
+      "2466732": "modules.php?name=News&file=article&sid=3853&mode=nested&order=0&thold=0",
+      "2466733": "modules.php?name=News&file=article&sid=3857&mode=nested&order=0&thold=0",
+      "2466734": "modules.php?name=News&file=article&sid=3858&mode=nested&order=0&thold=0",
+      "2466735": "modules.php?name=News&file=article&sid=3848&mode=nested&order=0&thold=0",
+      "2466736": "modules.php?name=News&file=article&sid=3864&mode=nested&order=0&thold=0",
+      "2466737": "modules.php?name=News&file=article&sid=3867&mode=nested&order=0&thold=0",
+      "2466738": "modules.php?name=News&file=article&sid=3868&mode=nested&order=0&thold=0",
+      "2466739": "modules.php?name=News&file=article&sid=3870&mode=nested&order=0&thold=0",
+      "2466740": "modules.php?name=News&file=article&sid=3865&mode=nested&order=0&thold=0",
+      "2466741": "modules.php?name=News&file=article&sid=3870&mode=nested&order=0&thold=0",
+      "2466742": "modules.php?name=News&file=article&sid=3869&mode=nested&order=0&thold=0",
+      "2466743": "modules.php?name=News&file=article&sid=3881&mode=nested&order=0&thold=0",
+      "2466744": "modules.php?name=News&file=article&sid=3870&mode=nested&order=0&thold=0",
+      "2466745": "modules.php?name=News&file=article&sid=3889&mode=nested&order=0&thold=0",
+      "2466746": "modules.php?name=News&file=article&sid=3872&mode=nested&order=0&thold=0",
+      "2466747": "modules.php?name=News&file=article&sid=3889&mode=nested&order=0&thold=0",
+      "2466748": "modules.php?name=News&file=article&sid=3882&mode=nested&order=0&thold=0",
+      "2466749": "modules.php?name=News&file=article&sid=3890&mode=nested&order=0&thold=0",
+      "2466750": "modules.php?name=News&file=article&sid=3895&mode=nested&order=0&thold=0",
+      "2466751": "modules.php?name=News&file=article&sid=3896&mode=nested&order=0&thold=0",
+      "2466752": "modules.php?name=News&file=article&sid=3896&mode=nested&order=0&thold=0",
+      "2466753": "modules.php?name=News&file=article&sid=3898&mode=nested&order=0&thold=0",
+      "2466754": "modules.php?name=News&file=article&sid=3898&mode=nested&order=0&thold=0",
+      "2466755": "modules.php?name=News&file=article&sid=390&mode=nested&order=0&thold=0",
+      "2466756": "modules.php?name=News&file=article&sid=3902&mode=nested&order=0&thold=0",
+      "2466757": "modules.php?name=News&file=article&sid=3902&mode=nested&order=0&thold=0",
+      "2466758": "modules.php?name=News&file=article&sid=3905&mode=nested&order=0&thold=0",
+      "2466759": "modules.php?name=News&file=article&sid=3905&mode=nested&order=0&thold=0",
+      "2466760": "modules.php?name=News&file=article&sid=3908&mode=nested&order=0&thold=0",
+      "2466761": "modules.php?name=News&file=article&sid=3898&mode=nested&order=0&thold=0",
+      "2466763": "modules.php?name=News&file=article&sid=3898&mode=nested&order=0&thold=0",
+      "2466764": "modules.php?name=News&file=article&sid=3908&mode=nested&order=0&thold=0",
+      "2466765": "modules.php?name=News&file=article&sid=3911&mode=nested&order=0&thold=0",
+      "2466768": "modules.php?name=News&file=article&sid=3913&mode=nested&order=0&thold=0",
+      "2466769": "modules.php?name=News&file=article&sid=3913&mode=nested&order=0&thold=0",
+      "2466770": "modules.php?name=News&file=article&sid=3913&mode=nested&order=0&thold=0",
+      "2466771": "modules.php?name=News&file=article&sid=3915&mode=nested&order=0&thold=0",
+      "2466772": "modules.php?name=News&file=article&sid=3915&mode=nested&order=0&thold=0",
+      "2466773": "modules.php?name=News&file=article&sid=3916&mode=nested&order=0&thold=0",
+      "2466774": "modules.php?name=News&file=article&sid=3916&mode=nested&order=0&thold=0",
+      "2466775": "modules.php?name=News&file=article&sid=3915&mode=nested&order=0&thold=0",
+      "2466776": "modules.php?name=News&file=article&sid=3921&mode=nested&order=0&thold=0",
+      "2466777": "modules.php?name=News&file=article&sid=3921&mode=nested&order=0&thold=0",
+      "2466778": "modules.php?name=News&file=article&sid=3921&mode=nested&order=0&thold=0",
+      "2466779": "modules.php?name=News&file=article&sid=3924&mode=nested&order=0&thold=0",
+      "2466780": "modules.php?name=News&file=article&sid=3916&mode=nested&order=0&thold=0",
+      "2466781": "modules.php?name=News&file=article&sid=3924&mode=nested&order=0&thold=0",
+      "2466782": "modules.php?name=News&file=article&sid=3924&mode=nested&order=0&thold=0",
+      "2466783": "modules.php?name=News&file=article&sid=3925&mode=nested&order=0&thold=0",
+      "2466784": "modules.php?name=News&file=article&sid=3925&mode=nested&order=0&thold=0",
+      "2466785": "modules.php?name=News&file=article&sid=3925&mode=nested&order=0&thold=0",
+      "2466786": "modules.php?name=News&file=article&sid=3926&mode=nested&order=0&thold=0",
+      "2466787": "modules.php?name=News&file=article&sid=3928&mode=nested&order=0&thold=0",
+      "2466788": "modules.php?name=News&file=article&sid=3928&mode=nested&order=0&thold=0",
+      "2466789": "modules.php?name=News&file=article&sid=393&mode=nested&order=0&thold=0",
+      "2466790": "modules.php?name=News&file=article&sid=3934&mode=nested&order=0&thold=0",
+      "2466791": "modules.php?name=News&file=article&sid=3928&mode=nested&order=0&thold=0",
+      "2466792": "modules.php?name=News&file=article&sid=3934&mode=nested&order=0&thold=0",
+      "2466793": "modules.php?name=News&file=article&sid=3937&mode=nested&order=0&thold=0",
+      "2466794": "modules.php?name=News&file=article&sid=3937&mode=nested&order=0&thold=0",
+      "2466795": "modules.php?name=News&file=article&sid=3937&mode=nested&order=0&thold=0",
+      "2466797": "modules.php?name=News&file=article&sid=3941&mode=nested&order=0&thold=0",
+      "2466798": "modules.php?name=News&file=article&sid=3941&mode=nested&order=0&thold=0",
+      "2466799": "modules.php?name=News&file=article&sid=3939&mode=nested&order=0&thold=0",
+      "2466800": "modules.php?name=News&file=article&sid=3942&mode=nested&order=0&thold=0",
+      "2466801": "modules.php?name=News&file=article&sid=3934&mode=nested&order=0&thold=0",
+      "2466802": "modules.php?name=News&file=article&sid=3942&mode=nested&order=0&thold=0",
+      "2466803": "modules.php?name=News&file=article&sid=3943&mode=nested&order=0&thold=0",
+      "2466804": "modules.php?name=News&file=article&sid=3943&mode=nested&order=0&thold=0",
+      "2466805": "modules.php?name=News&file=article&sid=3943&mode=nested&order=0&thold=0",
+      "2466806": "modules.php?name=News&file=article&sid=3943&mode=nested&order=0&thold=0",
+      "2466807": "modules.php?name=News&file=article&sid=3945&mode=nested&order=0&thold=0",
+      "2466808": "modules.php?name=News&file=article&sid=3945&mode=nested&order=0&thold=0",
+      "2466809": "modules.php?name=News&file=article&sid=3945&mode=nested&order=0&thold=0",
+      "2466810": "modules.php?name=News&file=article&sid=3947&mode=nested&order=0&thold=0",
+      "2466811": "modules.php?name=News&file=article&sid=3947&mode=nested&order=0&thold=0",
+      "2466812": "modules.php?name=News&file=article&sid=3949&mode=nested&order=0&thold=0",
+      "2466813": "modules.php?name=News&file=article&sid=3949&mode=nested&order=0&thold=0",
+      "2466814": "modules.php?name=News&file=article&sid=3949&mode=nested&order=0&thold=0",
+      "2466815": "modules.php?name=News&file=article&sid=3947&mode=nested&order=0&thold=0",
+      "2466816": "modules.php?name=News&file=article&sid=3952&mode=nested&order=0&thold=0",
+      "2466817": "modules.php?name=News&file=article&sid=3952&mode=nested&order=0&thold=0",
+      "2466818": "modules.php?name=News&file=article&sid=3952&mode=nested&order=0&thold=0",
+      "2466819": "modules.php?name=News&file=article&sid=3953&mode=nested&order=0&thold=0",
+      "2466820": "modules.php?name=News&file=article&sid=3955&mode=nested&order=0&thold=0",
+      "2466821": "modules.php?name=News&file=article&sid=3955&mode=nested&order=0&thold=0",
+      "2466822": "modules.php?name=News&file=article&sid=3958&mode=nested&order=0&thold=0",
+      "2466823": "modules.php?name=News&file=article&sid=3955&mode=nested&order=0&thold=0",
+      "2466824": "modules.php?name=News&file=article&sid=3958&mode=nested&order=0&thold=0",
+      "2466825": "modules.php?name=News&file=article&sid=3959&mode=nested&order=0&thold=0",
+      "2466826": "modules.php?name=News&file=article&sid=3959&mode=nested&order=0&thold=0",
+      "2466827": "modules.php?name=News&file=article&sid=3959&mode=nested&order=0&thold=0",
+      "2466828": "modules.php?name=News&file=article&sid=3961&mode=nested&order=0&thold=0",
+      "2466829": "modules.php?name=News&file=article&sid=3958&mode=nested&order=0&thold=0",
+      "2466830": "modules.php?name=News&file=article&sid=3961&mode=nested&order=0&thold=0",
+      "2466831": "modules.php?name=News&file=article&sid=3961&mode=nested&order=0&thold=0",
+      "2466832": "modules.php?name=News&file=article&sid=3964&mode=nested&order=0&thold=0",
+      "2466833": "modules.php?name=News&file=article&sid=396&mode=nested&order=0&thold=0",
+      "2466834": "modules.php?name=News&file=article&sid=3961&mode=nested&order=0&thold=0",
+      "2466835": "modules.php?name=News&file=article&sid=3964&mode=nested&order=0&thold=0",
+      "2466836": "modules.php?name=News&file=article&sid=3964&mode=nested&order=0&thold=0",
+      "2466837": "modules.php?name=News&file=article&sid=3968&mode=nested&order=0&thold=0",
+      "2466838": "modules.php?name=News&file=article&sid=3968&mode=nested&order=0&thold=0",
+      "2466839": "modules.php?name=News&file=article&sid=3969&mode=nested&order=0&thold=0",
+      "2466840": "modules.php?name=News&file=article&sid=3969&mode=nested&order=0&thold=0",
+      "2466841": "modules.php?name=News&file=article&sid=3968&mode=nested&order=0&thold=0",
+      "2466842": "modules.php?name=News&file=article&sid=3972&mode=nested&order=0&thold=0",
+      "2466843": "modules.php?name=News&file=article&sid=3972&mode=nested&order=0&thold=0",
+      "2466844": "modules.php?name=News&file=article&sid=3969&mode=nested&order=0&thold=0",
+      "2466845": "modules.php?name=News&file=article&sid=3972&mode=nested&order=0&thold=0",
+      "2466846": "modules.php?name=News&file=article&sid=3978&mode=nested&order=0&thold=0",
+      "2466847": "modules.php?name=News&file=article&sid=3978&mode=nested&order=0&thold=0",
+      "2466848": "modules.php?name=News&file=article&sid=3981&mode=nested&order=0&thold=0"
     },
     "meta_cats": {
       "Challenges to the Standard Model": [
@@ -1055029,6 +1055298,903 @@
         "Energy",
         "Patents",
         "Quantum & Relativity"
+      ],
+      "2466545": [
+        "Borderland Research"
+      ],
+      "2466546": [
+        "Borderland Research"
+      ],
+      "2466547": [
+        "Borderland Research"
+      ],
+      "2466548": [
+        "Borderland Research"
+      ],
+      "2466549": [
+        "Borderland Research"
+      ],
+      "2466550": [
+        "Borderland Research"
+      ],
+      "2466551": [
+        "Borderland Research"
+      ],
+      "2466552": [
+        "Borderland Research"
+      ],
+      "2466553": [
+        "Borderland Research"
+      ],
+      "2466554": [
+        "Borderland Research"
+      ],
+      "2466555": [
+        "Borderland Research"
+      ],
+      "2466556": [
+        "Borderland Research"
+      ],
+      "2466557": [
+        "Borderland Research"
+      ],
+      "2466558": [
+        "Borderland Research"
+      ],
+      "2466559": [
+        "Borderland Research"
+      ],
+      "2466560": [
+        "Borderland Research"
+      ],
+      "2466561": [
+        "Borderland Research"
+      ],
+      "2466562": [
+        "Borderland Research"
+      ],
+      "2466563": [
+        "Borderland Research"
+      ],
+      "2466564": [
+        "Borderland Research"
+      ],
+      "2466565": [
+        "Borderland Research"
+      ],
+      "2466566": [
+        "Borderland Research"
+      ],
+      "2466567": [
+        "Borderland Research"
+      ],
+      "2466568": [
+        "Borderland Research"
+      ],
+      "2466569": [
+        "Borderland Research"
+      ],
+      "2466570": [
+        "Borderland Research"
+      ],
+      "2466571": [
+        "Borderland Research"
+      ],
+      "2466572": [
+        "Borderland Research"
+      ],
+      "2466573": [
+        "Borderland Research"
+      ],
+      "2466574": [
+        "Borderland Research"
+      ],
+      "2466575": [
+        "Borderland Research"
+      ],
+      "2466576": [
+        "Borderland Research"
+      ],
+      "2466577": [
+        "Borderland Research"
+      ],
+      "2466578": [
+        "Borderland Research"
+      ],
+      "2466579": [
+        "Borderland Research"
+      ],
+      "2466580": [
+        "Borderland Research"
+      ],
+      "2466581": [
+        "Borderland Research"
+      ],
+      "2466582": [
+        "Borderland Research"
+      ],
+      "2466583": [
+        "Borderland Research"
+      ],
+      "2466584": [
+        "Borderland Research"
+      ],
+      "2466585": [
+        "Borderland Research"
+      ],
+      "2466586": [
+        "Borderland Research"
+      ],
+      "2466587": [
+        "Borderland Research"
+      ],
+      "2466588": [
+        "Borderland Research"
+      ],
+      "2466589": [
+        "Borderland Research"
+      ],
+      "2466590": [
+        "Borderland Research"
+      ],
+      "2466591": [
+        "Borderland Research"
+      ],
+      "2466592": [
+        "Borderland Research"
+      ],
+      "2466593": [
+        "Borderland Research"
+      ],
+      "2466594": [
+        "Borderland Research"
+      ],
+      "2466595": [
+        "Borderland Research"
+      ],
+      "2466596": [
+        "Borderland Research"
+      ],
+      "2466597": [
+        "Borderland Research"
+      ],
+      "2466598": [
+        "Borderland Research"
+      ],
+      "2466599": [
+        "Borderland Research"
+      ],
+      "2466600": [
+        "Borderland Research"
+      ],
+      "2466601": [
+        "Borderland Research"
+      ],
+      "2466602": [
+        "Borderland Research"
+      ],
+      "2466603": [
+        "Borderland Research"
+      ],
+      "2466604": [
+        "Borderland Research"
+      ],
+      "2466605": [
+        "Borderland Research"
+      ],
+      "2466606": [
+        "Borderland Research"
+      ],
+      "2466607": [
+        "Borderland Research"
+      ],
+      "2466608": [
+        "Borderland Research"
+      ],
+      "2466609": [
+        "Borderland Research"
+      ],
+      "2466610": [
+        "Borderland Research"
+      ],
+      "2466611": [
+        "Borderland Research"
+      ],
+      "2466612": [
+        "Borderland Research"
+      ],
+      "2466613": [
+        "Borderland Research"
+      ],
+      "2466614": [
+        "Borderland Research"
+      ],
+      "2466615": [
+        "Borderland Research"
+      ],
+      "2466616": [
+        "Borderland Research"
+      ],
+      "2466617": [
+        "Borderland Research"
+      ],
+      "2466618": [
+        "Borderland Research"
+      ],
+      "2466619": [
+        "Borderland Research"
+      ],
+      "2466620": [
+        "Borderland Research"
+      ],
+      "2466621": [
+        "Borderland Research"
+      ],
+      "2466622": [
+        "Borderland Research"
+      ],
+      "2466623": [
+        "Borderland Research"
+      ],
+      "2466624": [
+        "Borderland Research"
+      ],
+      "2466625": [
+        "Borderland Research"
+      ],
+      "2466626": [
+        "Borderland Research"
+      ],
+      "2466627": [
+        "Borderland Research"
+      ],
+      "2466628": [
+        "Borderland Research"
+      ],
+      "2466629": [
+        "Borderland Research"
+      ],
+      "2466630": [
+        "Borderland Research"
+      ],
+      "2466631": [
+        "Borderland Research"
+      ],
+      "2466632": [
+        "Borderland Research"
+      ],
+      "2466633": [
+        "Borderland Research"
+      ],
+      "2466634": [
+        "Borderland Research"
+      ],
+      "2466635": [
+        "Borderland Research"
+      ],
+      "2466636": [
+        "Borderland Research"
+      ],
+      "2466637": [
+        "Borderland Research"
+      ],
+      "2466638": [
+        "Borderland Research"
+      ],
+      "2466639": [
+        "Borderland Research"
+      ],
+      "2466640": [
+        "Borderland Research"
+      ],
+      "2466641": [
+        "Borderland Research"
+      ],
+      "2466642": [
+        "Borderland Research"
+      ],
+      "2466643": [
+        "Borderland Research"
+      ],
+      "2466644": [
+        "Borderland Research"
+      ],
+      "2466645": [
+        "Borderland Research"
+      ],
+      "2466646": [
+        "Borderland Research"
+      ],
+      "2466647": [
+        "Borderland Research"
+      ],
+      "2466648": [
+        "Borderland Research"
+      ],
+      "2466649": [
+        "Borderland Research"
+      ],
+      "2466650": [
+        "Borderland Research"
+      ],
+      "2466651": [
+        "Borderland Research"
+      ],
+      "2466652": [
+        "Borderland Research"
+      ],
+      "2466653": [
+        "Borderland Research"
+      ],
+      "2466654": [
+        "Borderland Research"
+      ],
+      "2466655": [
+        "Borderland Research"
+      ],
+      "2466656": [
+        "Borderland Research"
+      ],
+      "2466657": [
+        "Borderland Research"
+      ],
+      "2466658": [
+        "Borderland Research"
+      ],
+      "2466659": [
+        "Borderland Research"
+      ],
+      "2466660": [
+        "Borderland Research"
+      ],
+      "2466661": [
+        "Borderland Research"
+      ],
+      "2466662": [
+        "Borderland Research"
+      ],
+      "2466663": [
+        "Borderland Research"
+      ],
+      "2466664": [
+        "Borderland Research"
+      ],
+      "2466665": [
+        "Borderland Research"
+      ],
+      "2466666": [
+        "Borderland Research"
+      ],
+      "2466667": [
+        "Borderland Research"
+      ],
+      "2466668": [
+        "Borderland Research"
+      ],
+      "2466669": [
+        "Borderland Research"
+      ],
+      "2466670": [
+        "Borderland Research"
+      ],
+      "2466671": [
+        "Borderland Research"
+      ],
+      "2466672": [
+        "Borderland Research"
+      ],
+      "2466673": [
+        "Borderland Research"
+      ],
+      "2466674": [
+        "Borderland Research"
+      ],
+      "2466675": [
+        "Borderland Research"
+      ],
+      "2466676": [
+        "Borderland Research"
+      ],
+      "2466677": [
+        "Borderland Research"
+      ],
+      "2466678": [
+        "Borderland Research"
+      ],
+      "2466679": [
+        "Borderland Research"
+      ],
+      "2466680": [
+        "Borderland Research"
+      ],
+      "2466681": [
+        "Borderland Research"
+      ],
+      "2466682": [
+        "Borderland Research"
+      ],
+      "2466683": [
+        "Borderland Research"
+      ],
+      "2466684": [
+        "Borderland Research"
+      ],
+      "2466685": [
+        "Borderland Research"
+      ],
+      "2466686": [
+        "Borderland Research"
+      ],
+      "2466687": [
+        "Borderland Research"
+      ],
+      "2466688": [
+        "Borderland Research"
+      ],
+      "2466689": [
+        "Borderland Research"
+      ],
+      "2466690": [
+        "Borderland Research"
+      ],
+      "2466691": [
+        "Borderland Research"
+      ],
+      "2466692": [
+        "Borderland Research"
+      ],
+      "2466693": [
+        "Borderland Research"
+      ],
+      "2466694": [
+        "Borderland Research"
+      ],
+      "2466695": [
+        "Borderland Research"
+      ],
+      "2466696": [
+        "Borderland Research"
+      ],
+      "2466697": [
+        "Borderland Research"
+      ],
+      "2466698": [
+        "Borderland Research"
+      ],
+      "2466699": [
+        "Borderland Research"
+      ],
+      "2466700": [
+        "Borderland Research"
+      ],
+      "2466701": [
+        "Borderland Research"
+      ],
+      "2466702": [
+        "Borderland Research"
+      ],
+      "2466703": [
+        "Borderland Research"
+      ],
+      "2466704": [
+        "Borderland Research"
+      ],
+      "2466705": [
+        "Borderland Research"
+      ],
+      "2466706": [
+        "Borderland Research"
+      ],
+      "2466707": [
+        "Borderland Research"
+      ],
+      "2466708": [
+        "Borderland Research"
+      ],
+      "2466709": [
+        "Borderland Research"
+      ],
+      "2466710": [
+        "Borderland Research"
+      ],
+      "2466711": [
+        "Borderland Research"
+      ],
+      "2466712": [
+        "Borderland Research"
+      ],
+      "2466713": [
+        "Borderland Research"
+      ],
+      "2466714": [
+        "Borderland Research"
+      ],
+      "2466715": [
+        "Borderland Research"
+      ],
+      "2466716": [
+        "Borderland Research"
+      ],
+      "2466717": [
+        "Borderland Research"
+      ],
+      "2466718": [
+        "Borderland Research"
+      ],
+      "2466719": [
+        "Borderland Research"
+      ],
+      "2466720": [
+        "Borderland Research"
+      ],
+      "2466721": [
+        "Borderland Research"
+      ],
+      "2466722": [
+        "Borderland Research"
+      ],
+      "2466723": [
+        "Borderland Research"
+      ],
+      "2466724": [
+        "Borderland Research"
+      ],
+      "2466725": [
+        "Borderland Research"
+      ],
+      "2466726": [
+        "Borderland Research"
+      ],
+      "2466728": [
+        "Borderland Research"
+      ],
+      "2466729": [
+        "Borderland Research"
+      ],
+      "2466730": [
+        "Borderland Research"
+      ],
+      "2466731": [
+        "Borderland Research"
+      ],
+      "2466732": [
+        "Borderland Research"
+      ],
+      "2466733": [
+        "Borderland Research"
+      ],
+      "2466734": [
+        "Borderland Research"
+      ],
+      "2466735": [
+        "Borderland Research"
+      ],
+      "2466736": [
+        "Borderland Research"
+      ],
+      "2466737": [
+        "Borderland Research"
+      ],
+      "2466738": [
+        "Borderland Research"
+      ],
+      "2466739": [
+        "Borderland Research"
+      ],
+      "2466740": [
+        "Borderland Research"
+      ],
+      "2466741": [
+        "Borderland Research"
+      ],
+      "2466742": [
+        "Borderland Research"
+      ],
+      "2466743": [
+        "Borderland Research"
+      ],
+      "2466744": [
+        "Borderland Research"
+      ],
+      "2466745": [
+        "Borderland Research"
+      ],
+      "2466746": [
+        "Borderland Research"
+      ],
+      "2466747": [
+        "Borderland Research"
+      ],
+      "2466748": [
+        "Borderland Research"
+      ],
+      "2466749": [
+        "Borderland Research"
+      ],
+      "2466750": [
+        "Borderland Research"
+      ],
+      "2466751": [
+        "Borderland Research"
+      ],
+      "2466752": [
+        "Borderland Research"
+      ],
+      "2466753": [
+        "Borderland Research"
+      ],
+      "2466754": [
+        "Borderland Research"
+      ],
+      "2466755": [
+        "Borderland Research"
+      ],
+      "2466756": [
+        "Borderland Research"
+      ],
+      "2466757": [
+        "Borderland Research"
+      ],
+      "2466758": [
+        "Borderland Research"
+      ],
+      "2466759": [
+        "Borderland Research"
+      ],
+      "2466760": [
+        "Borderland Research"
+      ],
+      "2466761": [
+        "Borderland Research"
+      ],
+      "2466763": [
+        "Borderland Research"
+      ],
+      "2466764": [
+        "Borderland Research"
+      ],
+      "2466765": [
+        "Borderland Research"
+      ],
+      "2466768": [
+        "Borderland Research"
+      ],
+      "2466769": [
+        "Borderland Research"
+      ],
+      "2466770": [
+        "Borderland Research"
+      ],
+      "2466771": [
+        "Borderland Research"
+      ],
+      "2466772": [
+        "Borderland Research"
+      ],
+      "2466773": [
+        "Borderland Research"
+      ],
+      "2466774": [
+        "Borderland Research"
+      ],
+      "2466775": [
+        "Borderland Research"
+      ],
+      "2466776": [
+        "Borderland Research"
+      ],
+      "2466777": [
+        "Borderland Research"
+      ],
+      "2466778": [
+        "Borderland Research"
+      ],
+      "2466779": [
+        "Borderland Research"
+      ],
+      "2466780": [
+        "Borderland Research"
+      ],
+      "2466781": [
+        "Borderland Research"
+      ],
+      "2466782": [
+        "Borderland Research"
+      ],
+      "2466783": [
+        "Borderland Research"
+      ],
+      "2466784": [
+        "Borderland Research"
+      ],
+      "2466785": [
+        "Borderland Research"
+      ],
+      "2466786": [
+        "Borderland Research"
+      ],
+      "2466787": [
+        "Borderland Research"
+      ],
+      "2466788": [
+        "Borderland Research"
+      ],
+      "2466789": [
+        "Borderland Research"
+      ],
+      "2466790": [
+        "Borderland Research"
+      ],
+      "2466791": [
+        "Borderland Research"
+      ],
+      "2466792": [
+        "Borderland Research"
+      ],
+      "2466793": [
+        "Borderland Research"
+      ],
+      "2466794": [
+        "Borderland Research"
+      ],
+      "2466795": [
+        "Borderland Research"
+      ],
+      "2466797": [
+        "Borderland Research"
+      ],
+      "2466798": [
+        "Borderland Research"
+      ],
+      "2466799": [
+        "Borderland Research"
+      ],
+      "2466800": [
+        "Borderland Research"
+      ],
+      "2466801": [
+        "Borderland Research"
+      ],
+      "2466802": [
+        "Borderland Research"
+      ],
+      "2466803": [
+        "Borderland Research"
+      ],
+      "2466804": [
+        "Borderland Research"
+      ],
+      "2466805": [
+        "Borderland Research"
+      ],
+      "2466806": [
+        "Borderland Research"
+      ],
+      "2466807": [
+        "Borderland Research"
+      ],
+      "2466808": [
+        "Borderland Research"
+      ],
+      "2466809": [
+        "Borderland Research"
+      ],
+      "2466810": [
+        "Borderland Research"
+      ],
+      "2466811": [
+        "Borderland Research"
+      ],
+      "2466812": [
+        "Borderland Research"
+      ],
+      "2466813": [
+        "Borderland Research"
+      ],
+      "2466814": [
+        "Borderland Research"
+      ],
+      "2466815": [
+        "Borderland Research"
+      ],
+      "2466816": [
+        "Borderland Research"
+      ],
+      "2466817": [
+        "Borderland Research"
+      ],
+      "2466818": [
+        "Borderland Research"
+      ],
+      "2466819": [
+        "Borderland Research"
+      ],
+      "2466820": [
+        "Borderland Research"
+      ],
+      "2466821": [
+        "Borderland Research"
+      ],
+      "2466822": [
+        "Borderland Research"
+      ],
+      "2466823": [
+        "Borderland Research"
+      ],
+      "2466824": [
+        "Borderland Research"
+      ],
+      "2466825": [
+        "Borderland Research"
+      ],
+      "2466826": [
+        "Borderland Research"
+      ],
+      "2466827": [
+        "Borderland Research"
+      ],
+      "2466828": [
+        "Borderland Research"
+      ],
+      "2466829": [
+        "Borderland Research"
+      ],
+      "2466830": [
+        "Borderland Research"
+      ],
+      "2466831": [
+        "Borderland Research"
+      ],
+      "2466832": [
+        "Borderland Research"
+      ],
+      "2466833": [
+        "Borderland Research"
+      ],
+      "2466834": [
+        "Borderland Research"
+      ],
+      "2466835": [
+        "Borderland Research"
+      ],
+      "2466836": [
+        "Borderland Research"
+      ],
+      "2466837": [
+        "Borderland Research"
+      ],
+      "2466838": [
+        "Borderland Research"
+      ],
+      "2466839": [
+        "Borderland Research"
+      ],
+      "2466840": [
+        "Borderland Research"
+      ],
+      "2466841": [
+        "Borderland Research"
+      ],
+      "2466842": [
+        "Borderland Research"
+      ],
+      "2466843": [
+        "Borderland Research"
+      ],
+      "2466844": [
+        "Borderland Research"
+      ],
+      "2466845": [
+        "Borderland Research"
+      ],
+      "2466846": [
+        "Borderland Research"
+      ],
+      "2466847": [
+        "Borderland Research"
+      ],
+      "2466848": [
+        "Borderland Research"
       ]
     },
     "meta_concepts": {
@@ -1055731,42 +1056897,7 @@
         "regenerative"
       ]
     },
-    "concept_names": {
-      "aether": "Aether / Ether Theories",
-      "scalar": "Scalar Wave Phenomena",
-      "torsion": "Torsion Fields",
-      "zero_point": "Zero-Point / Vacuum Energy",
-      "overunity": "Overunity / Free Energy",
-      "cold_fusion": "LENR / Cold Fusion",
-      "tesla": "Tesla Technologies",
-      "keely": "Keely / Sympathetic Vibration",
-      "schauberger": "Schauberger / Implosion",
-      "water_memory": "Water Structure & Memory",
-      "morphic": "Morphogenic / Morphic Fields",
-      "radionics": "Radionics / Radiesthesia",
-      "psychotronic": "Psychotronic / Mind-Matter",
-      "biophoton": "Biophotonics",
-      "electrogravitics": "Electrogravitics / Anti-Gravity",
-      "vortex": "Vortex / Implosion Dynamics",
-      "geometry_sacred": "Sacred Geometry / Harmonics",
-      "crystal": "Crystals / Crystal Energy",
-      "ether_electric": "Electric Universe",
-      "suppression": "Conspiracy / Suppression",
-      "transhuman": "Transhumanism",
-      "regenerative": "Regenerative Agriculture",
-      "borderland": "Borderland Research",
-      "consciousness": "Consciousness Studies",
-      "p_unity": "Unity of Forces — the Subtle Energy Spectrum",
-      "p_goethean": "Goethean Method — Non-Reductionist Science",
-      "p_visualray": "Visual Ray & Alternative Optics",
-      "p_fieldphys": "Field Physics vs Reductionist Particle Models",
-      "p_formative": "Formative Forces & Morphogenesis",
-      "p_consciousness": "Consciousness & Matter — the Mind-Matter Bridge",
-      "p_electriccosmos": "Electric Universe & Plasma Cosmos",
-      "p_wrongturn": "Suppressed Science & Documented Wrong Turns",
-      "p_bridge": "Cross-Field Bridges — Connectors Between Silos",
-      "p_nature": "Nature as Organism — Living Whole"
-    },
+    "concept_names": {},
     "doc_concepts": {
       "1": [],
       "2": [],
@@ -1341932,7 +1343063,306 @@
       ],
       "2466544": [
         "geometry_sacred"
-      ]
+      ],
+      "2466545": [],
+      "2466546": [],
+      "2466547": [],
+      "2466548": [],
+      "2466549": [],
+      "2466550": [],
+      "2466551": [],
+      "2466552": [],
+      "2466553": [],
+      "2466554": [],
+      "2466555": [],
+      "2466556": [],
+      "2466557": [],
+      "2466558": [],
+      "2466559": [],
+      "2466560": [],
+      "2466561": [],
+      "2466562": [],
+      "2466563": [],
+      "2466564": [],
+      "2466565": [],
+      "2466566": [],
+      "2466567": [],
+      "2466568": [],
+      "2466569": [],
+      "2466570": [],
+      "2466571": [],
+      "2466572": [],
+      "2466573": [],
+      "2466574": [],
+      "2466575": [],
+      "2466576": [],
+      "2466577": [],
+      "2466578": [],
+      "2466579": [],
+      "2466580": [],
+      "2466581": [],
+      "2466582": [],
+      "2466583": [],
+      "2466584": [],
+      "2466585": [],
+      "2466586": [],
+      "2466587": [],
+      "2466588": [],
+      "2466589": [],
+      "2466590": [],
+      "2466591": [],
+      "2466592": [],
+      "2466593": [],
+      "2466594": [],
+      "2466595": [],
+      "2466596": [],
+      "2466597": [],
+      "2466598": [],
+      "2466599": [],
+      "2466600": [],
+      "2466601": [],
+      "2466602": [],
+      "2466603": [],
+      "2466604": [],
+      "2466605": [],
+      "2466606": [],
+      "2466607": [],
+      "2466608": [],
+      "2466609": [],
+      "2466610": [],
+      "2466611": [],
+      "2466612": [],
+      "2466613": [],
+      "2466614": [],
+      "2466615": [],
+      "2466616": [],
+      "2466617": [],
+      "2466618": [],
+      "2466619": [],
+      "2466620": [],
+      "2466621": [],
+      "2466622": [],
+      "2466623": [],
+      "2466624": [],
+      "2466625": [],
+      "2466626": [],
+      "2466627": [],
+      "2466628": [],
+      "2466629": [],
+      "2466630": [],
+      "2466631": [],
+      "2466632": [],
+      "2466633": [],
+      "2466634": [],
+      "2466635": [],
+      "2466636": [],
+      "2466637": [],
+      "2466638": [],
+      "2466639": [],
+      "2466640": [],
+      "2466641": [],
+      "2466642": [],
+      "2466643": [],
+      "2466644": [],
+      "2466645": [],
+      "2466646": [],
+      "2466647": [],
+      "2466648": [],
+      "2466649": [],
+      "2466650": [],
+      "2466651": [],
+      "2466652": [],
+      "2466653": [],
+      "2466654": [],
+      "2466655": [],
+      "2466656": [],
+      "2466657": [],
+      "2466658": [],
+      "2466659": [],
+      "2466660": [],
+      "2466661": [],
+      "2466662": [],
+      "2466663": [],
+      "2466664": [],
+      "2466665": [],
+      "2466666": [],
+      "2466667": [],
+      "2466668": [],
+      "2466669": [],
+      "2466670": [],
+      "2466671": [],
+      "2466672": [],
+      "2466673": [],
+      "2466674": [],
+      "2466675": [],
+      "2466676": [],
+      "2466677": [],
+      "2466678": [],
+      "2466679": [],
+      "2466680": [],
+      "2466681": [],
+      "2466682": [],
+      "2466683": [],
+      "2466684": [],
+      "2466685": [],
+      "2466686": [],
+      "2466687": [],
+      "2466688": [],
+      "2466689": [],
+      "2466690": [],
+      "2466691": [],
+      "2466692": [],
+      "2466693": [],
+      "2466694": [],
+      "2466695": [],
+      "2466696": [],
+      "2466697": [],
+      "2466698": [],
+      "2466699": [],
+      "2466700": [],
+      "2466701": [],
+      "2466702": [],
+      "2466703": [],
+      "2466704": [],
+      "2466705": [],
+      "2466706": [],
+      "2466707": [],
+      "2466708": [],
+      "2466709": [],
+      "2466710": [],
+      "2466711": [],
+      "2466712": [],
+      "2466713": [],
+      "2466714": [],
+      "2466715": [],
+      "2466716": [],
+      "2466717": [],
+      "2466718": [],
+      "2466719": [],
+      "2466720": [],
+      "2466721": [],
+      "2466722": [],
+      "2466723": [],
+      "2466724": [],
+      "2466725": [],
+      "2466726": [],
+      "2466728": [],
+      "2466729": [],
+      "2466730": [],
+      "2466731": [],
+      "2466732": [],
+      "2466733": [],
+      "2466734": [],
+      "2466735": [],
+      "2466736": [],
+      "2466737": [],
+      "2466738": [],
+      "2466739": [],
+      "2466740": [],
+      "2466741": [],
+      "2466742": [],
+      "2466743": [],
+      "2466744": [],
+      "2466745": [],
+      "2466746": [],
+      "2466747": [],
+      "2466748": [],
+      "2466749": [],
+      "2466750": [],
+      "2466751": [],
+      "2466752": [],
+      "2466753": [],
+      "2466754": [],
+      "2466755": [],
+      "2466756": [],
+      "2466757": [],
+      "2466758": [],
+      "2466759": [],
+      "2466760": [],
+      "2466761": [],
+      "2466763": [],
+      "2466764": [],
+      "2466765": [],
+      "2466768": [],
+      "2466769": [],
+      "2466770": [],
+      "2466771": [],
+      "2466772": [],
+      "2466773": [],
+      "2466774": [],
+      "2466775": [],
+      "2466776": [],
+      "2466777": [],
+      "2466778": [],
+      "2466779": [],
+      "2466780": [],
+      "2466781": [],
+      "2466782": [],
+      "2466783": [],
+      "2466784": [],
+      "2466785": [],
+      "2466786": [],
+      "2466787": [],
+      "2466788": [],
+      "2466789": [],
+      "2466790": [],
+      "2466791": [],
+      "2466792": [],
+      "2466793": [],
+      "2466794": [],
+      "2466795": [],
+      "2466797": [],
+      "2466798": [],
+      "2466799": [],
+      "2466800": [],
+      "2466801": [],
+      "2466802": [],
+      "2466803": [],
+      "2466804": [],
+      "2466805": [],
+      "2466806": [],
+      "2466807": [],
+      "2466808": [],
+      "2466809": [],
+      "2466810": [],
+      "2466811": [],
+      "2466812": [],
+      "2466813": [],
+      "2466814": [],
+      "2466815": [],
+      "2466816": [],
+      "2466817": [],
+      "2466818": [],
+      "2466819": [],
+      "2466820": [],
+      "2466821": [],
+      "2466822": [],
+      "2466823": [],
+      "2466824": [],
+      "2466825": [],
+      "2466826": [],
+      "2466827": [],
+      "2466828": [],
+      "2466829": [],
+      "2466830": [],
+      "2466831": [],
+      "2466832": [],
+      "2466833": [],
+      "2466834": [],
+      "2466835": [],
+      "2466836": [],
+      "2466837": [],
+      "2466838": [],
+      "2466839": [],
+      "2466840": [],
+      "2466841": [],
+      "2466842": [],
+      "2466843": [],
+      "2466844": [],
+      "2466845": [],
+      "2466846": [],
+      "2466847": [],
+      "2466848": []
     }
   },
   "daily_drawers": {
@@ -1341958,15 +1343388,6 @@
         "href": "./library.html#trans-2026-09-25-remote-diagnosis-torsion-mechanism-scalarwave-zh.md"
       },
       {
-        "drawer": "found",
-        "label": "Newly found",
-        "title": "Practical applicability",
-        "excerpt": "",
-        "meta": "2026-09-13",
-        "rarity": "scout find",
-        "href": "./library.html"
-      },
-      {
         "drawer": "rare",
         "label": "Rare",
         "title": "Leseprobe-Orte der Kraft und Energie",
@@ -1341978,11 +1343399,11 @@
       {
         "drawer": "random",
         "label": "Random",
-        "title": "Академия Тринитаризма -- Дискуссии -- Наука -- Эспиноза А , Корнева М В , Кулигин В А -- Интерференционный метод измерения мгновенной частоты СВЧ импульса",
-        "excerpt": "Академия Тринитаризма -- Дискуссии -- Наука -- Эспиноза А , Корнева М В , Кулигин В А -- Интерференционный метод измерения мгновенной частоты СВЧ импульса P.mt {text-inde",
-        "meta": "trinitas.ru",
+        "title": "5. The Germanic Soul and the German Spirit — GA 64. From a Fateful Time",
+        "excerpt": ", Berlin Translated by Steiner Online Library Compare 5. The Germanic Soul and the German Spirit [ 1 ] In the lectures I have had the privilege of giving here so far this",
+        "meta": "",
         "rarity": "drawn at random",
-        "href": "./pages/02433524.html"
+        "href": "./pages/02423579.html"
       }
     ]
   },
@@ -1343885,10 +1345306,10 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T07:18:09Z",
+    "as_of": "2026-10-15T08:15:29Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
-      "docs": 59446,
+      "docs": 59745,
       "translations": 720,
       "pages_translated": 13520,
       "declassified": 176,
