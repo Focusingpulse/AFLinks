@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T06:16:16Z",
+  "generated_at": "2026-10-15T06:21:22Z",
   "library": {
     "researchers": 2041,
     "researchers_cataloged": 2041,
@@ -7,21 +7,21 @@
     "categories": 54,
     "meta_categories": 30,
     "aflinks_docs": 123546,
-    "translations": 854,
-    "pages_translated": 15624,
+    "translations": 855,
+    "pages_translated": 15626,
     "declassified_finds": 233,
     "active_agents": 15,
     "book5_complete": true,
-    "translation_files": 1015,
+    "translation_files": 1016,
     "counter_diag": {
       "library_attached": true,
       "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 854,
+      "translation_works": 855,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 15624,
+      "pages_translated_computed": 15626,
       "inherited": [],
-      "pages_translated_published": 15624
+      "pages_translated_published": 15626
     },
     "bridges": 29,
     "archive_entries": 123809,
@@ -58,15 +58,15 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 93,
-    "replication_dossiers": 106,
+    "practical_quests": 94,
+    "replication_dossiers": 107,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T06:16:16Z",
+      "generated_at": "2026-10-15T06:21:22Z",
       "archive_entries": 123809,
       "aflinks_docs": 123546,
-      "translations": 854,
-      "pages_translated": 15624,
+      "translations": 855,
+      "pages_translated": 15626,
       "declassified_finds": 233,
       "researchers": 2041,
       "patents": 3069,
@@ -141,6 +141,17 @@
       "file": "2026-10-15-venskiy-tekhnicheskiy-universitet-doklad-v-avstrii-stakhov-ru.md",
       "content_file": null,
       "excerpt": "The Vienna University of Technology\nIn 1976 fate threw me a \"lucky chance\" — a 2-month scientific mission to Austria for the purpose of scientific training at leading Austrian universities.\nAt that period the internation"
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Torsion-Field Detector (Water's Fourth Phase) — Li Sichen (zh->EN)",
+      "domain": "",
+      "source_url": "",
+      "language": "Chinese",
+      "target_language": "English",
+      "file": "2026-10-15-torsion-field-detector-water-fourth-phase-li-sichen-zh.md",
+      "content_file": null,
+      "excerpt": "# 47. Torsion-Field Detector (Water's Fourth Phase)\n\n*Translated from the Traditional Chinese original at sclee.website (Prof. Li Sichen, National Taiwan University), 2021-11-13. Figure references are retained as in the "
     },
     {
       "date": "2026-10-15",
@@ -33211,7 +33222,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-15T05:16:28Z",
+      "last_run": "2026-10-15T06:17:59Z",
       "last_status": "ok",
       "last_summary": "sync: 123809 docs, feed rebuilt"
     },
@@ -33332,6 +33343,18 @@
       "time": "06:25",
       "agent": "The Replication Seeder (Navigator lane)",
       "summary": "+4 artifacts (3 validations, 1 dossier) — Replication Seeder, run 13 (gear 1, free deepseek/deepseek-v4.1-flash; no quota error, no gear-2 credit fallback). — Read/wrote at HEAD 28a9291 (\"AFLinks sync: feed rebuilt, archive at 123809 docs\"), epoch 2, via the --no-checkout/--no-cone narrow cone — worked **first try** (git ls-files = git ls-tree -r main = **119,495**, far above the 40k AGENTS.md floor). **Yard before: 93 quests / 105 dossiers / 73 validations; after: 93 / 106 / 76.** Intake followed the lane's own run-8 rule — **do NOT grep for the word \"replication\"; mine the archive's own syntheses** (they name the experiments). Three new validations across three distinct rails, plus one home dossier. **Every record traces to a corpus file or a primary URL; nothing invented.**"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "06:18",
+      "agent": "translator-foreign",
+      "summary": "+1 docs — Translated Li Sichen 'Torsion-Field Detector (Water's Fourth Phase)' zh->EN 1/1; archived source"
+    },
+    {
+      "date": "2026-10-15",
+      "time": "06:17",
+      "agent": "AFLinks Sync",
+      "summary": "+123809 docs — +123809 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-10-15",
@@ -33620,18 +33643,6 @@
       "time": "18:25",
       "agent": "citation-harvest (The Wizard)",
       "summary": "+411 references — Harvest batch of 30: 8 yielded a bibliography, +411 refs (22 no_bib, 0 fetch failures). Retro-clean: 34,657 -> 34,640 kept, 17 dropped (15 fragment, 2 boilerplate). Graph rebuilt: 25,779 nodes / 34,921 edges / 3,040 hubs; overlay 42,197 nodes / 55,390 edges (29,968 cites). Archive queue refreshed: feed live, 123,546 docs, 2,000 researchers, 814 translations. Veracity re-check: re-probed the About-page MID mislabel (needs-owner) via three new routes — the About page's own 'Established' table read at the row level (Epimemetics LLC | /m/01261hpq | 2016 | Knowledge Graph, carried on the About page alone), the page's own founding narrative ('In 2016, Wright founded Epimemetics LLC...'), and a Wayback provenance check (apex earliest snapshot 2024-03-10; About page never archived). Status unchanged (needs-owner); receipt materially strengthened. Next in rotation: ch. 22 DID-registry flag."
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:16",
-      "agent": "AFLinks Sync",
-      "summary": "+123781 docs — +123781 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-14",
-      "time": "18:03",
-      "agent": "Translation Curator",
-      "summary": "+9 chunks — Two trinitas.ru 0232 (Institute of the Golden Section) debate pieces fully translated ru->EN: Sergienko's reply to Vasilenko's 'Asymptotics of the golden section' (3 chunks) and Alferov's 'On the 4-structural formula and the economy of the GP' (6 chunks). Both carry archived source HTML. Counter-integrity thread inside the golden-section school."
     },
     {
       "date": "2026-10-14",
@@ -35197,6 +35208,17 @@
         "zh"
       ],
       "works": [
+        {
+          "date": "2026-10-15",
+          "title": "Torsion-Field Detector (Water's Fourth Phase) — Li Sichen (zh->EN)",
+          "domain": "",
+          "source_url": "",
+          "language": "Chinese",
+          "target_language": "English",
+          "file": "2026-10-15-torsion-field-detector-water-fourth-phase-li-sichen-zh.md",
+          "content_file": null,
+          "excerpt": "# 47. Torsion-Field Detector (Water's Fourth Phase)\n\n*Translated from the Traditional Chinese original at sclee.website (Prof. Li Sichen, National Taiwan University), 2021-11-13. Figure references are retained as in the "
+        },
         {
           "date": "2026-10-15",
           "title": "Stakhov memoir: The Search for Serial Introduction of Fibonacci Information Systems (Chapter 6.7) (ru->EN)",
@@ -39841,6 +39863,312 @@
       ]
     },
     {
+      "domain": "Water Structure / Memory",
+      "langs": [
+        "cs",
+        "de",
+        "fr",
+        "hu",
+        "it",
+        "ja",
+        "ko",
+        "pl",
+        "ru",
+        "sv",
+        "zh"
+      ],
+      "works": [
+        {
+          "date": "2026-10-15",
+          "title": "Torsion-Field Detector (Water's Fourth Phase) — Li Sichen (zh->EN)",
+          "domain": "",
+          "source_url": "",
+          "language": "Chinese",
+          "target_language": "English",
+          "file": "2026-10-15-torsion-field-detector-water-fourth-phase-li-sichen-zh.md",
+          "content_file": null,
+          "excerpt": "# 47. Torsion-Field Detector (Water's Fourth Phase)\n\n*Translated from the Traditional Chinese original at sclee.website (Prof. Li Sichen, National Taiwan University), 2021-11-13. Figure references are retained as in the "
+        },
+        {
+          "date": "2026-10-14",
+          "title": "Почему о Линге мало кто знает (Why Few People Know About Ling) (Gerald Pollack)",
+          "domain": "",
+          "source_url": "https://www.trinitas.ru/rus/doc/0235/005a/02351118.htm",
+          "language": "Russian",
+          "target_language": "English",
+          "file": "2026-10-14-why-few-know-about-ling-pollack-ru.md",
+          "content_file": null,
+          "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension - Publications\n\nGerald Pollack\n Why Few People Know About Ling\n\nAbout the author\n\n(The Crisis of Modern Science)\n\nIn modern science Gilbert Ling is a deviation, an a",
+          "summary": "An essay by Gerald Pollack, a professor in the Department of Bioengineering at the University of Washington, Seattle, published in 2012 by the Academy of Trinitarianism, on why the cell physiologist Gilbert Ling is largely unknown. Pollack argues that Ling's association-induction theory, first published in book form in 1962 and completed in 1965 with a theory of intracellular water, is the first unified physicochemical account of life at the cellular level, and that its neglect follows from the fragmentation and conservatism of modern science. He cites Ling's three books, the MRI technology built on the theory by Ling's student Raymond Damadian, and his own experiments on ordered water at hydrophilic surfaces.",
+          "points": [
+            "Ling's association-induction theory first appeared in book form in 1962, completed in 1965 with a theory of intracellular water.",
+            "MRI rests on Ling's theory via his student Raymond Damadian, later improved by Paul Lauterbur.",
+            "Pollack reports his own experiments: ordered water at hydrophilic surfaces can reach millions of molecules thick.",
+            "Pollack writes that Ling disputes membrane pumps and holds that intracellular water is ordered, not free liquid.",
+            "An AAAS project (No. 2061, director George Nelson) reportedly found no big ideas in the leading biology textbooks."
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "title": "Water Memory - Myth or Science? (proaktivdirekt.hu)",
+          "domain": "",
+          "source_url": "https://proaktivdirekt.hu/magazin/cikk/a-viz-memoriaja-mitosz-vagy-tudomany",
+          "language": "Hungarian",
+          "target_language": "English",
+          "file": "2026-10-14-viz-memoriaja-mitosz-vagy-tudomany-proaktivdirekt-hu.md",
+          "content_file": null,
+          "excerpt": "Water is one of the most natural elements of our everyday life, yet countless secrets and ideas are attached to it. In recent decades the claim repeatedly resurfaces that water \"remembers\": that it preserves the effects,"
+        },
+        {
+          "date": "2026-10-14",
+          "title": "Does Water Have Memory? (struktureratvatten.se)",
+          "domain": "",
+          "source_url": "https://struktureratvatten.se/har-vatten-minne/",
+          "language": "Swedish",
+          "target_language": "English",
+          "file": "2026-10-14-har-vatten-minne-struktureratvatten-sv.md",
+          "content_file": null,
+          "excerpt": "Does Water Have Memory?\n The mystery of water memory has fascinated researchers and thinkers for decades, and today we stand on the threshold of a revolution in medical science. Researchers from around the world, includi"
+        },
+        {
+          "date": "2026-10-13",
+          "title": "L'Eau, Interface Vibratoire (Teija, France)",
+          "domain": "",
+          "source_url": "https://teija.fr/leau-interface-vibratoire/",
+          "language": "French",
+          "target_language": "English",
+          "file": "2026-10-13-eau-interface-vibratoire-teija-fr.md",
+          "content_file": null,
+          "excerpt": "When H2O Becomes a Carrier of Information — The scandal that shook science\n\n\"What does science tell us about the possibility of the existence of 'water memory'? Scientists who are not well versed in the matter of water t"
+        },
+        {
+          "date": "2026-10-09",
+          "title": "물기억 30주년 기념 (Commemorating 30 Years of 'Water Memory') — Infopathy (ko->EN)",
+          "domain": "",
+          "source_url": "https://www.infopathy.com/ko/posts/30th-anniversary-of-water-memory",
+          "language": "Korean",
+          "target_language": "English",
+          "file": "2026-10-09-water-memory-30th-anniversary-infopathy-ko.md",
+          "content_file": null,
+          "excerpt": "June 2018 marked the 30th anniversary of Dr. Jacques Benveniste's sensational publication relating to \"water memory\". In the 1988 Nature publication \"Human basophil degranulation triggered by very dilute antiserum agains"
+        },
+        {
+          "date": "2026-10-09",
+          "title": "Der vierte Aggregatzustand des Wassers (The Fourth Aggregate State of Water) (de->EN)",
+          "domain": "",
+          "source_url": "https://www.nexus-magazin.de/artikel/lesen/der-vierte-aggregatzustand-des-wassers",
+          "language": "German",
+          "target_language": "English",
+          "file": "2026-10-09-vierter-aggregatzustand-wassers-pollack-nexus-de.md",
+          "content_file": null,
+          "excerpt": "Water might possess, alongside the aggregate states solid, liquid and gaseous, yet a fourth state form: an exclusion zone that is more viscous, more stable and more ordered than normal water. Inspired by Russian studies "
+        },
+        {
+          "date": "2026-10-09",
+          "title": "Su no kioku misogi (ja->EN)",
+          "domain": "",
+          "source_url": "https://note.com/reishu/n/n3b3fb880e241",
+          "language": "Japanese",
+          "target_language": "English",
+          "file": "2026-10-09-su-no-kioku-misogi-water-memory-yamana-ja.md",
+          "content_file": null,
+          "excerpt": "Skip to main content [Water Memory] Is Misogi (Shinto Purification) Occult? — Water-molecule clusters and the theory of information transfer. Yamana Reishū, 18 February 2026, 20:00\n\nDo you believe the claim that \"water h"
+        },
+        {
+          "date": "2026-10-09",
+          "title": "EZ-Wasser (Psiram skeptical encyclopedia) (de->EN)",
+          "domain": "",
+          "source_url": "https://www.psiram.com/de/index.php/EZ-Wasser",
+          "language": "German",
+          "target_language": "English",
+          "file": "2026-10-09-ez-wasser-psiram-skeptical-de.md",
+          "content_file": null,
+          "excerpt": "EZ Water\n\nFrom Psiram\n\nJump to navigation\nJump to search\nEZ water is said to be located at the interface between a water-attracting (hydrophilic) surface and free water, arranged in layers (Source: Pollack 2013)\nEZ water",
+          "summary": "A German-language entry from the skeptical encyclopedia Psiram on 'EZ water' (exclusion zone water), the hypothesis by Gerald Pollack that water at a hydrophilic surface forms a semi-crystalline, contaminant-free layer. The entry describes Pollack's claims, including the formula H3O2 and a 'fourth state' of water, and reports that they are supported by no independent studies and are rejected by mainstream chemistry.",
+          "points": [
+            "EZ water is described as water at the interface between liquid water and a hydrophilic surface, forming a semi-crystalline 'exclusion zone.'",
+            "Pollack is said to call it a '4th state of aggregation' and to give it the formula H3O2 rather than H2O.",
+            "The entry states the few publications on EZ water come, with one exception, all from Pollack himself.",
+            "It notes the lifetime of a hydrogen bond in liquid water is typically 1-20 picoseconds, and stable quasi-crystalline structures are not known.",
+            "It links the topic to polywater and to a market of devices claimed to produce EZ water."
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "title": "If Water Has Memory - What Does It Actually Remember (cs->EN)",
+          "domain": "",
+          "source_url": "https://www.epochtimes.cz/2025/07/06/pokud-ma-voda-pamet-co-si-vlastne-pamatuje",
+          "language": "Czech",
+          "target_language": "English",
+          "file": "2026-10-08-water-memory-what-does-it-remember-engelhart-cs.md",
+          "content_file": null,
+          "excerpt": "The more I immerse myself in the work of researchers who study water — such as Austin, Pollack, Benveniste, Emoto, and Montagnier — the greater the wonder it awakens in me. What might it be quietly teaching us about life"
+        },
+        {
+          "date": "2026-10-08",
+          "title": "Pamięć wody (Water Memory) — Polish Wikipedia (pl->EN)",
+          "domain": "",
+          "source_url": "https://pl.wikipedia.org/wiki/Pami%C4%99%C4%87_wody",
+          "language": "Polish",
+          "target_language": "English",
+          "file": "2026-10-08-pamiec-wody-water-memory-pl-wikipedia-pl.md",
+          "content_file": null,
+          "excerpt": "Water memory\n\nThis article describes theories, methods or practices inconsistent with contemporary medical knowledge.\n\nWater memory – a pseudoscientific hypothesis, unconfirmed in peer-reviewed scientific journals, conce"
+        },
+        {
+          "date": "2026-10-08",
+          "title": "Entretien avec Gerald Pollack (interview by Mederic Degoy, film 'En realite', Nov 2018) (fr->EN)",
+          "domain": "",
+          "source_url": "https://www.editionsextraordinaires.fr/n93:Clients__Salle+de+Presse__Entretien+avec+Gerald+Pollack",
+          "language": "French",
+          "target_language": "English",
+          "file": "2026-10-08-entretien-gerald-pollack-eau-quatrieme-phase-fr.md",
+          "content_file": null,
+          "excerpt": "Interview with Médéric Degoy as part of the film \"En réalité\" in November 2018. Reproduction authorized. Gerald, how did you come to study water? Oh, you're asking me about the work of my life! We began studying muscle c"
+        },
+        {
+          "date": "2026-10-08",
+          "title": "EZ Water (Exclusion Zone): When Water Becomes Morphogenic (Teija) (fr->EN)",
+          "domain": "",
+          "source_url": "https://teija.fr/leau-ez-zone-dexclusion-quand-leau-devient-morphogenique/",
+          "language": "French",
+          "target_language": "English",
+          "file": "2026-10-08-eau-ez-zone-exclusion-morphogenique-teija-fr.md",
+          "content_file": null,
+          "excerpt": "EZ water (exclusion zone): when water becomes morphogenic  contact@teija.fr  October 29, 2025 8:08 pm  No comments  Table of contents  You now know that water has a fourth state. But what Gerald Pollack discovered goes f"
+        },
+        {
+          "date": "2026-10-07",
+          "title": "The Memory of Water: The Effect of Structured Water (EZ Water) on Human Body Voltage [Quantum Nutrition-5] (ko->EN)",
+          "domain": "",
+          "source_url": "https://www.eternity1004.com/2026/04/Quantum-Nutrition-Water.html",
+          "language": "Korean",
+          "target_language": "English",
+          "file": "2026-10-07-memory-of-water-ez-water-body-voltage-quantum-nutrition-ko.md",
+          "content_file": null,
+          "excerpt": "The Memory of Water: The Effect of Structured Water (EZ Water) on Human Body Voltage [Quantum Nutrition-5]\n\n21 April 2026\n\n2 min read\n\nWe think of water merely as a liquid that quenches thirst or carries nutrients. But f"
+        },
+        {
+          "date": "2026-10-05",
+          "title": "Wassergedächtnis: Wie ein pseudowissenschaftlicher Mythos zu einem Millionengeschäft wurde (Deymond Laplasa) (de->EN)",
+          "domain": "",
+          "source_url": "https://deymondlaplasa.com/de/pseudoscience/water-chemistry-myths/memory-of-water/pamyat-vody/",
+          "language": "German",
+          "target_language": "English",
+          "file": "translations/2026-10-05-wassergedaechtnis-pseudowissenschaftlicher-mythos-deymond-de.md",
+          "content_file": null,
+          "excerpt": "🖤 Water remembers prayers, curses and molecules of long-dissolved substances — so claim the advocates of the concept of \"water memory\", which has turned a physical error into a billion-dollar industry. This idea became t",
+          "summary": "A German-language critical article from deymondlaplasa.com arguing that the concept of water memory is a physical error that became a billion-dollar industry. The author traces the idea from Samuel Hahnemann's homeopathy through Jacques Benveniste's 1988 Nature paper and its failed replication, and argues that the structural and electromagnetic memory claims contradict fundamental physics. It is a skeptical review piece, not primary research.",
+          "points": [
+            "Notes homeopathic dilutions often exceed the Avogadro number (6.022e23).",
+            "Dates the modern formulation to Benveniste's 1988 Nature paper on diluted antibodies.",
+            "Reports that a Nature commission could not reproduce Benveniste's results under controlled conditions.",
+            "Groups water memory with structured water and other pseudomedical practices.",
+            "Attributes the concept's spread to its role as homeopathy's theoretical justification."
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "title": "Pamięć wody i jej struktura (Water Memory and Its Structure)",
+          "domain": "",
+          "source_url": "https://jerzyzieba.com/artykuly/2020/7/1/pamiec-wody-i-jej-struktura",
+          "language": "Polish",
+          "target_language": "English",
+          "file": "2026-10-01-pamiec-wody-i-jej-struktura-zieba-pl.md",
+          "content_file": null,
+          "excerpt": "Water Memory and Its Structure\n\nMany scientists around the world are undertaking research aimed at settling the theory of water memory and its structure. Many of them use the concept of water memory and study its energy-"
+        },
+        {
+          "date": "2026-09-30",
+          "title": "Héliquantix — Support Memory and Frequency Imprinting: From Structured Water to Photosensitive Resins",
+          "domain": "",
+          "source_url": "https://eolix.fr/memoire-des-supports-et-empreinte-frequentielle-de-leau-structuree-aux-resines-photosensibles/",
+          "language": "French",
+          "target_language": "English",
+          "file": "translations/2026-09-27-heliquantix-support-memory-frequency-imprinting-fr.md",
+          "content_file": null,
+          "excerpt": "Héliquantix\n\nProducts for vital energy\n\n0\n\nSearch\n\nMemory of supports and frequency imprinting: from structured water to photosensitive resins\n\n6 August 2026\n\nExperiments , Products\n\nThe concept of \"water memory\" — the c"
+        },
+        {
+          "date": "2026-09-28",
+          "title": "UMH — \"Energetisiertes Wasser\" (Pollack EZ water + Grander connection, DE->EN)",
+          "domain": "",
+          "source_url": "",
+          "language": "German",
+          "target_language": "English",
+          "file": "2026-09-28-umh-energetisiertes-wasser-pollack-ez-de.md",
+          "content_file": null,
+          "excerpt": "Energized Water - University Unveils\nthe Secrets of Water\nThe Discovery of Hexagonal Water\n\nHexagonal water: At the University of Washington a fourth state of water has been\ndiscovered, which could explain not only chemi"
+        },
+        {
+          "date": "2026-09-26",
+          "title": "Translation: Intelligent Water Memory (Jeju Ilbo, Korean)",
+          "domain": "",
+          "source_url": "https://www.jejunews.com/news/articleView.html?idxno=2027703",
+          "language": "Korean",
+          "target_language": "English",
+          "file": "translations/2026-09-26-intelligent-water-memory-ko.md",
+          "content_file": null,
+          "excerpt": "Wait! You are currently using Internet Explorer 8 or lower. We recommend using a recent browser!\n\nie\nInternet Explorer 11\nDownload\nchrome\nGoogle Chrome\nDownload\nfirefox\nMozilla Firefox\nDownload\n\n×\nObituary_180419-->\n\nUPD"
+        },
+        {
+          "date": "2026-09-26",
+          "title": "Translation: Gerald Pollack — On the Fourth Phase of Water (hadо.com, Japanese)",
+          "domain": "",
+          "source_url": "https://hado.com/water-memory/pollack/",
+          "language": "Japanese",
+          "target_language": "English",
+          "file": "2026-09-26-pollack-fourth-phase-water-ja.md",
+          "content_file": null,
+          "excerpt": "# Translation: Gerald Pollack — On the Fourth Phase of Water\n\n**Date:** 2026-09-26\n**Translator:** Translation Sweeper (automated)\n**Source URL:** https://hado.com/water-memory/pollack/\n**Domain:** hado.com (I.H.M. Co., "
+        },
+        {
+          "date": "2026-09-18",
+          "title": "The Fourth Phase of Water — Russian Edition TOC",
+          "domain": "",
+          "source_url": "",
+          "language": "Russian",
+          "target_language": "English",
+          "file": "2026-09-18-fourth-phase-of-water-ru-edition-toc-ru.md",
+          "content_file": null,
+          "excerpt": "[Table of contents of the Russian edition — translated for completeness. This is the bookseller excerpt page: it exposes the full TOC of the Russian translation of Gerald Pollack's \"The Fourth Phase of Water\", not the bo"
+        },
+        {
+          "date": "2026-09-06",
+          "title": "Acqua Viva — Viktor Schauberger Part 1",
+          "domain": "",
+          "source_url": "",
+          "language": "Italian",
+          "target_language": "English",
+          "file": "2026-09-06-schauberger-acquaviva-it.md",
+          "content_file": null,
+          "excerpt": "Catalogue\n\nAcqua Viva - Viktor Schauberger Part 1-it·······························1\n     CONTENTS································································· 2\n     EDITOR'S NOTE····································"
+        },
+        {
+          "date": "2026-09-05",
+          "title": "English translation of Acqua Viva (Living Water) by Viktor Schauberger, from the Italian edition. Covers water vortex research, river engineering, forest ecology, implosion technology, and implosion theory.",
+          "domain": "",
+          "source_url": "https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf",
+          "language": "Italian",
+          "target_language": "English",
+          "file": "translations/2026-09-11-acqua-viva-viktor-schauberger-it.md",
+          "content_file": null,
+          "excerpt": "# Acqua Viva — Viktor Schauberger\n\n*Full translation from it · source: https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf · 106 chunks · assembled 2026-09-10*\n\nCatalogue\n\nAcqua Viva - Viktor Schaub"
+        },
+        {
+          "date": "2026-08-30",
+          "title": "Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water",
+          "domain": "water-physics, biophysics, quantum-coherence",
+          "source_url": "https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/",
+          "language": "Italian",
+          "target_language": "English",
+          "file": "2026-08-30-del-giudice-pollack-fourth-phase-water-it.md",
+          "content_file": null,
+          "excerpt": "- **date:** 2026-08-30\n- **domain:** water-physics, biophysics, quantum-coherence\n- **source_url:** https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/\n- "
+        }
+      ]
+    },
+    {
       "domain": "LENR / Cold Fusion",
       "langs": [
         "cs",
@@ -40195,6 +40523,17 @@
         "zh"
       ],
       "works": [
+        {
+          "date": "2026-10-15",
+          "title": "Torsion-Field Detector (Water's Fourth Phase) — Li Sichen (zh->EN)",
+          "domain": "",
+          "source_url": "",
+          "language": "Chinese",
+          "target_language": "English",
+          "file": "2026-10-15-torsion-field-detector-water-fourth-phase-li-sichen-zh.md",
+          "content_file": null,
+          "excerpt": "# 47. Torsion-Field Detector (Water's Fourth Phase)\n\n*Translated from the Traditional Chinese original at sclee.website (Prof. Li Sichen, National Taiwan University), 2021-11-13. Figure references are retained as in the "
+        },
         {
           "date": "2026-10-13",
           "title": "Torsion Fields in Radiesthesia and Cancer (Pola torsyjne w radiestezji i nowotwory, D. Wojtkowiak 2018)",
@@ -41598,300 +41937,6 @@
           "file": "translations/2026-10-13-stakhanov-physical-nature-ball-lightning-en.md",
           "content_file": null,
           "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Vacuum Physics - Theory\n\nG.I. Shipov\nNew Worlds in the Theory of the Physical Vacuum\n\nAbout the author\nThe theories of superstrings and twistors today are the pinnacle of intellect"
-        }
-      ]
-    },
-    {
-      "domain": "Water Structure / Memory",
-      "langs": [
-        "cs",
-        "de",
-        "fr",
-        "hu",
-        "it",
-        "ja",
-        "ko",
-        "pl",
-        "ru",
-        "sv"
-      ],
-      "works": [
-        {
-          "date": "2026-10-14",
-          "title": "Почему о Линге мало кто знает (Why Few People Know About Ling) (Gerald Pollack)",
-          "domain": "",
-          "source_url": "https://www.trinitas.ru/rus/doc/0235/005a/02351118.htm",
-          "language": "Russian",
-          "target_language": "English",
-          "file": "2026-10-14-why-few-know-about-ling-pollack-ru.md",
-          "content_file": null,
-          "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of Life Extension - Publications\n\nGerald Pollack\n Why Few People Know About Ling\n\nAbout the author\n\n(The Crisis of Modern Science)\n\nIn modern science Gilbert Ling is a deviation, an a",
-          "summary": "An essay by Gerald Pollack, a professor in the Department of Bioengineering at the University of Washington, Seattle, published in 2012 by the Academy of Trinitarianism, on why the cell physiologist Gilbert Ling is largely unknown. Pollack argues that Ling's association-induction theory, first published in book form in 1962 and completed in 1965 with a theory of intracellular water, is the first unified physicochemical account of life at the cellular level, and that its neglect follows from the fragmentation and conservatism of modern science. He cites Ling's three books, the MRI technology built on the theory by Ling's student Raymond Damadian, and his own experiments on ordered water at hydrophilic surfaces.",
-          "points": [
-            "Ling's association-induction theory first appeared in book form in 1962, completed in 1965 with a theory of intracellular water.",
-            "MRI rests on Ling's theory via his student Raymond Damadian, later improved by Paul Lauterbur.",
-            "Pollack reports his own experiments: ordered water at hydrophilic surfaces can reach millions of molecules thick.",
-            "Pollack writes that Ling disputes membrane pumps and holds that intracellular water is ordered, not free liquid.",
-            "An AAAS project (No. 2061, director George Nelson) reportedly found no big ideas in the leading biology textbooks."
-          ]
-        },
-        {
-          "date": "2026-10-14",
-          "title": "Water Memory - Myth or Science? (proaktivdirekt.hu)",
-          "domain": "",
-          "source_url": "https://proaktivdirekt.hu/magazin/cikk/a-viz-memoriaja-mitosz-vagy-tudomany",
-          "language": "Hungarian",
-          "target_language": "English",
-          "file": "2026-10-14-viz-memoriaja-mitosz-vagy-tudomany-proaktivdirekt-hu.md",
-          "content_file": null,
-          "excerpt": "Water is one of the most natural elements of our everyday life, yet countless secrets and ideas are attached to it. In recent decades the claim repeatedly resurfaces that water \"remembers\": that it preserves the effects,"
-        },
-        {
-          "date": "2026-10-14",
-          "title": "Does Water Have Memory? (struktureratvatten.se)",
-          "domain": "",
-          "source_url": "https://struktureratvatten.se/har-vatten-minne/",
-          "language": "Swedish",
-          "target_language": "English",
-          "file": "2026-10-14-har-vatten-minne-struktureratvatten-sv.md",
-          "content_file": null,
-          "excerpt": "Does Water Have Memory?\n The mystery of water memory has fascinated researchers and thinkers for decades, and today we stand on the threshold of a revolution in medical science. Researchers from around the world, includi"
-        },
-        {
-          "date": "2026-10-13",
-          "title": "L'Eau, Interface Vibratoire (Teija, France)",
-          "domain": "",
-          "source_url": "https://teija.fr/leau-interface-vibratoire/",
-          "language": "French",
-          "target_language": "English",
-          "file": "2026-10-13-eau-interface-vibratoire-teija-fr.md",
-          "content_file": null,
-          "excerpt": "When H2O Becomes a Carrier of Information — The scandal that shook science\n\n\"What does science tell us about the possibility of the existence of 'water memory'? Scientists who are not well versed in the matter of water t"
-        },
-        {
-          "date": "2026-10-09",
-          "title": "물기억 30주년 기념 (Commemorating 30 Years of 'Water Memory') — Infopathy (ko->EN)",
-          "domain": "",
-          "source_url": "https://www.infopathy.com/ko/posts/30th-anniversary-of-water-memory",
-          "language": "Korean",
-          "target_language": "English",
-          "file": "2026-10-09-water-memory-30th-anniversary-infopathy-ko.md",
-          "content_file": null,
-          "excerpt": "June 2018 marked the 30th anniversary of Dr. Jacques Benveniste's sensational publication relating to \"water memory\". In the 1988 Nature publication \"Human basophil degranulation triggered by very dilute antiserum agains"
-        },
-        {
-          "date": "2026-10-09",
-          "title": "Der vierte Aggregatzustand des Wassers (The Fourth Aggregate State of Water) (de->EN)",
-          "domain": "",
-          "source_url": "https://www.nexus-magazin.de/artikel/lesen/der-vierte-aggregatzustand-des-wassers",
-          "language": "German",
-          "target_language": "English",
-          "file": "2026-10-09-vierter-aggregatzustand-wassers-pollack-nexus-de.md",
-          "content_file": null,
-          "excerpt": "Water might possess, alongside the aggregate states solid, liquid and gaseous, yet a fourth state form: an exclusion zone that is more viscous, more stable and more ordered than normal water. Inspired by Russian studies "
-        },
-        {
-          "date": "2026-10-09",
-          "title": "Su no kioku misogi (ja->EN)",
-          "domain": "",
-          "source_url": "https://note.com/reishu/n/n3b3fb880e241",
-          "language": "Japanese",
-          "target_language": "English",
-          "file": "2026-10-09-su-no-kioku-misogi-water-memory-yamana-ja.md",
-          "content_file": null,
-          "excerpt": "Skip to main content [Water Memory] Is Misogi (Shinto Purification) Occult? — Water-molecule clusters and the theory of information transfer. Yamana Reishū, 18 February 2026, 20:00\n\nDo you believe the claim that \"water h"
-        },
-        {
-          "date": "2026-10-09",
-          "title": "EZ-Wasser (Psiram skeptical encyclopedia) (de->EN)",
-          "domain": "",
-          "source_url": "https://www.psiram.com/de/index.php/EZ-Wasser",
-          "language": "German",
-          "target_language": "English",
-          "file": "2026-10-09-ez-wasser-psiram-skeptical-de.md",
-          "content_file": null,
-          "excerpt": "EZ Water\n\nFrom Psiram\n\nJump to navigation\nJump to search\nEZ water is said to be located at the interface between a water-attracting (hydrophilic) surface and free water, arranged in layers (Source: Pollack 2013)\nEZ water",
-          "summary": "A German-language entry from the skeptical encyclopedia Psiram on 'EZ water' (exclusion zone water), the hypothesis by Gerald Pollack that water at a hydrophilic surface forms a semi-crystalline, contaminant-free layer. The entry describes Pollack's claims, including the formula H3O2 and a 'fourth state' of water, and reports that they are supported by no independent studies and are rejected by mainstream chemistry.",
-          "points": [
-            "EZ water is described as water at the interface between liquid water and a hydrophilic surface, forming a semi-crystalline 'exclusion zone.'",
-            "Pollack is said to call it a '4th state of aggregation' and to give it the formula H3O2 rather than H2O.",
-            "The entry states the few publications on EZ water come, with one exception, all from Pollack himself.",
-            "It notes the lifetime of a hydrogen bond in liquid water is typically 1-20 picoseconds, and stable quasi-crystalline structures are not known.",
-            "It links the topic to polywater and to a market of devices claimed to produce EZ water."
-          ]
-        },
-        {
-          "date": "2026-10-08",
-          "title": "If Water Has Memory - What Does It Actually Remember (cs->EN)",
-          "domain": "",
-          "source_url": "https://www.epochtimes.cz/2025/07/06/pokud-ma-voda-pamet-co-si-vlastne-pamatuje",
-          "language": "Czech",
-          "target_language": "English",
-          "file": "2026-10-08-water-memory-what-does-it-remember-engelhart-cs.md",
-          "content_file": null,
-          "excerpt": "The more I immerse myself in the work of researchers who study water — such as Austin, Pollack, Benveniste, Emoto, and Montagnier — the greater the wonder it awakens in me. What might it be quietly teaching us about life"
-        },
-        {
-          "date": "2026-10-08",
-          "title": "Pamięć wody (Water Memory) — Polish Wikipedia (pl->EN)",
-          "domain": "",
-          "source_url": "https://pl.wikipedia.org/wiki/Pami%C4%99%C4%87_wody",
-          "language": "Polish",
-          "target_language": "English",
-          "file": "2026-10-08-pamiec-wody-water-memory-pl-wikipedia-pl.md",
-          "content_file": null,
-          "excerpt": "Water memory\n\nThis article describes theories, methods or practices inconsistent with contemporary medical knowledge.\n\nWater memory – a pseudoscientific hypothesis, unconfirmed in peer-reviewed scientific journals, conce"
-        },
-        {
-          "date": "2026-10-08",
-          "title": "Entretien avec Gerald Pollack (interview by Mederic Degoy, film 'En realite', Nov 2018) (fr->EN)",
-          "domain": "",
-          "source_url": "https://www.editionsextraordinaires.fr/n93:Clients__Salle+de+Presse__Entretien+avec+Gerald+Pollack",
-          "language": "French",
-          "target_language": "English",
-          "file": "2026-10-08-entretien-gerald-pollack-eau-quatrieme-phase-fr.md",
-          "content_file": null,
-          "excerpt": "Interview with Médéric Degoy as part of the film \"En réalité\" in November 2018. Reproduction authorized. Gerald, how did you come to study water? Oh, you're asking me about the work of my life! We began studying muscle c"
-        },
-        {
-          "date": "2026-10-08",
-          "title": "EZ Water (Exclusion Zone): When Water Becomes Morphogenic (Teija) (fr->EN)",
-          "domain": "",
-          "source_url": "https://teija.fr/leau-ez-zone-dexclusion-quand-leau-devient-morphogenique/",
-          "language": "French",
-          "target_language": "English",
-          "file": "2026-10-08-eau-ez-zone-exclusion-morphogenique-teija-fr.md",
-          "content_file": null,
-          "excerpt": "EZ water (exclusion zone): when water becomes morphogenic  contact@teija.fr  October 29, 2025 8:08 pm  No comments  Table of contents  You now know that water has a fourth state. But what Gerald Pollack discovered goes f"
-        },
-        {
-          "date": "2026-10-07",
-          "title": "The Memory of Water: The Effect of Structured Water (EZ Water) on Human Body Voltage [Quantum Nutrition-5] (ko->EN)",
-          "domain": "",
-          "source_url": "https://www.eternity1004.com/2026/04/Quantum-Nutrition-Water.html",
-          "language": "Korean",
-          "target_language": "English",
-          "file": "2026-10-07-memory-of-water-ez-water-body-voltage-quantum-nutrition-ko.md",
-          "content_file": null,
-          "excerpt": "The Memory of Water: The Effect of Structured Water (EZ Water) on Human Body Voltage [Quantum Nutrition-5]\n\n21 April 2026\n\n2 min read\n\nWe think of water merely as a liquid that quenches thirst or carries nutrients. But f"
-        },
-        {
-          "date": "2026-10-05",
-          "title": "Wassergedächtnis: Wie ein pseudowissenschaftlicher Mythos zu einem Millionengeschäft wurde (Deymond Laplasa) (de->EN)",
-          "domain": "",
-          "source_url": "https://deymondlaplasa.com/de/pseudoscience/water-chemistry-myths/memory-of-water/pamyat-vody/",
-          "language": "German",
-          "target_language": "English",
-          "file": "translations/2026-10-05-wassergedaechtnis-pseudowissenschaftlicher-mythos-deymond-de.md",
-          "content_file": null,
-          "excerpt": "🖤 Water remembers prayers, curses and molecules of long-dissolved substances — so claim the advocates of the concept of \"water memory\", which has turned a physical error into a billion-dollar industry. This idea became t",
-          "summary": "A German-language critical article from deymondlaplasa.com arguing that the concept of water memory is a physical error that became a billion-dollar industry. The author traces the idea from Samuel Hahnemann's homeopathy through Jacques Benveniste's 1988 Nature paper and its failed replication, and argues that the structural and electromagnetic memory claims contradict fundamental physics. It is a skeptical review piece, not primary research.",
-          "points": [
-            "Notes homeopathic dilutions often exceed the Avogadro number (6.022e23).",
-            "Dates the modern formulation to Benveniste's 1988 Nature paper on diluted antibodies.",
-            "Reports that a Nature commission could not reproduce Benveniste's results under controlled conditions.",
-            "Groups water memory with structured water and other pseudomedical practices.",
-            "Attributes the concept's spread to its role as homeopathy's theoretical justification."
-          ]
-        },
-        {
-          "date": "2026-10-01",
-          "title": "Pamięć wody i jej struktura (Water Memory and Its Structure)",
-          "domain": "",
-          "source_url": "https://jerzyzieba.com/artykuly/2020/7/1/pamiec-wody-i-jej-struktura",
-          "language": "Polish",
-          "target_language": "English",
-          "file": "2026-10-01-pamiec-wody-i-jej-struktura-zieba-pl.md",
-          "content_file": null,
-          "excerpt": "Water Memory and Its Structure\n\nMany scientists around the world are undertaking research aimed at settling the theory of water memory and its structure. Many of them use the concept of water memory and study its energy-"
-        },
-        {
-          "date": "2026-09-30",
-          "title": "Héliquantix — Support Memory and Frequency Imprinting: From Structured Water to Photosensitive Resins",
-          "domain": "",
-          "source_url": "https://eolix.fr/memoire-des-supports-et-empreinte-frequentielle-de-leau-structuree-aux-resines-photosensibles/",
-          "language": "French",
-          "target_language": "English",
-          "file": "translations/2026-09-27-heliquantix-support-memory-frequency-imprinting-fr.md",
-          "content_file": null,
-          "excerpt": "Héliquantix\n\nProducts for vital energy\n\n0\n\nSearch\n\nMemory of supports and frequency imprinting: from structured water to photosensitive resins\n\n6 August 2026\n\nExperiments , Products\n\nThe concept of \"water memory\" — the c"
-        },
-        {
-          "date": "2026-09-28",
-          "title": "UMH — \"Energetisiertes Wasser\" (Pollack EZ water + Grander connection, DE->EN)",
-          "domain": "",
-          "source_url": "",
-          "language": "German",
-          "target_language": "English",
-          "file": "2026-09-28-umh-energetisiertes-wasser-pollack-ez-de.md",
-          "content_file": null,
-          "excerpt": "Energized Water - University Unveils\nthe Secrets of Water\nThe Discovery of Hexagonal Water\n\nHexagonal water: At the University of Washington a fourth state of water has been\ndiscovered, which could explain not only chemi"
-        },
-        {
-          "date": "2026-09-26",
-          "title": "Translation: Intelligent Water Memory (Jeju Ilbo, Korean)",
-          "domain": "",
-          "source_url": "https://www.jejunews.com/news/articleView.html?idxno=2027703",
-          "language": "Korean",
-          "target_language": "English",
-          "file": "translations/2026-09-26-intelligent-water-memory-ko.md",
-          "content_file": null,
-          "excerpt": "Wait! You are currently using Internet Explorer 8 or lower. We recommend using a recent browser!\n\nie\nInternet Explorer 11\nDownload\nchrome\nGoogle Chrome\nDownload\nfirefox\nMozilla Firefox\nDownload\n\n×\nObituary_180419-->\n\nUPD"
-        },
-        {
-          "date": "2026-09-26",
-          "title": "Translation: Gerald Pollack — On the Fourth Phase of Water (hadо.com, Japanese)",
-          "domain": "",
-          "source_url": "https://hado.com/water-memory/pollack/",
-          "language": "Japanese",
-          "target_language": "English",
-          "file": "2026-09-26-pollack-fourth-phase-water-ja.md",
-          "content_file": null,
-          "excerpt": "# Translation: Gerald Pollack — On the Fourth Phase of Water\n\n**Date:** 2026-09-26\n**Translator:** Translation Sweeper (automated)\n**Source URL:** https://hado.com/water-memory/pollack/\n**Domain:** hado.com (I.H.M. Co., "
-        },
-        {
-          "date": "2026-09-18",
-          "title": "The Fourth Phase of Water — Russian Edition TOC",
-          "domain": "",
-          "source_url": "",
-          "language": "Russian",
-          "target_language": "English",
-          "file": "2026-09-18-fourth-phase-of-water-ru-edition-toc-ru.md",
-          "content_file": null,
-          "excerpt": "[Table of contents of the Russian edition — translated for completeness. This is the bookseller excerpt page: it exposes the full TOC of the Russian translation of Gerald Pollack's \"The Fourth Phase of Water\", not the bo"
-        },
-        {
-          "date": "2026-09-06",
-          "title": "Acqua Viva — Viktor Schauberger Part 1",
-          "domain": "",
-          "source_url": "",
-          "language": "Italian",
-          "target_language": "English",
-          "file": "2026-09-06-schauberger-acquaviva-it.md",
-          "content_file": null,
-          "excerpt": "Catalogue\n\nAcqua Viva - Viktor Schauberger Part 1-it·······························1\n     CONTENTS································································· 2\n     EDITOR'S NOTE····································"
-        },
-        {
-          "date": "2026-09-05",
-          "title": "English translation of Acqua Viva (Living Water) by Viktor Schauberger, from the Italian edition. Covers water vortex research, river engineering, forest ecology, implosion technology, and implosion theory.",
-          "domain": "",
-          "source_url": "https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf",
-          "language": "Italian",
-          "target_language": "English",
-          "file": "translations/2026-09-11-acqua-viva-viktor-schauberger-it.md",
-          "content_file": null,
-          "excerpt": "# Acqua Viva — Viktor Schauberger\n\n*Full translation from it · source: https://www.agrobuti.it/foto/acquaetere/AcquaViva_viktorSchaubergerIT.pdf · 106 chunks · assembled 2026-09-10*\n\nCatalogue\n\nAcqua Viva - Viktor Schaub"
-        },
-        {
-          "date": "2026-08-30",
-          "title": "Emilio Del Giudice Explains Gerald Pollack's Discovery of the Fourth Phase of Water",
-          "domain": "water-physics, biophysics, quantum-coherence",
-          "source_url": "https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/",
-          "language": "Italian",
-          "target_language": "English",
-          "file": "2026-08-30-del-giudice-pollack-fourth-phase-water-it.md",
-          "content_file": null,
-          "excerpt": "- **date:** 2026-08-30\n- **domain:** water-physics, biophysics, quantum-coherence\n- **source_url:** https://www.acsicraniosacrale.it/emilio-del-giudice-spiega-la-scoperta-di-gerald-pollack-sulla-quarta-fase-dellacqua/\n- "
         }
       ]
     },
@@ -1341906,11 +1341951,11 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "Telekinezia la nivel molecular: cand apa isi aminteste de tine (ro->EN)",
-        "excerpt": "Chapter 75 from the book The Power That Moves Things — Psychotronics and Telekinesis · by Radu Leca. Table of contents of the book → Telekinesis, far from being an inexpl",
-        "meta": "Romanian",
-        "rarity": "fresh from Romanian",
-        "href": "./library.html#trans-2026-10-10-telekinezia-moleculara-apa-isi-aminteste-leca-ro.md"
+        "title": "On the Mechanism of Remote Diagnosis and Remote Treatment (Torsion-Field Experiments, scalarwave.cc)",
+        "excerpt": "Scalar Wave & Torsion Field Research [blog] On the mechanism of remote diagnosis and remote treatment, discussed through torsion-field experiments On December 11, 2016, a",
+        "meta": "Chinese",
+        "rarity": "fresh from Chinese",
+        "href": "./library.html#trans-2026-09-25-remote-diagnosis-torsion-mechanism-scalarwave-zh.md"
       },
       {
         "drawer": "found",
@@ -1342619,6 +1342664,13 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
+      },
+      {
+        "file": "synthesis/quest-queue/2026-10-15-pyramid-form-field-profile.md",
+        "date": "2026-10-15",
+        "title": "Quest Card — Does the Base Matter? The Pyramid Form-Field Profile Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Greywater & Willow\n\n**Guild:** Aetherforce — Greywater & Willow\n**Quest Line:** ⚡ Aetherforce · Greywater & Willow complement\n**Tier:** sand\n**Domain:** water (water structure — the "
       }
     ],
     "dossiers": [
@@ -1343363,6 +1343415,13 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
+      },
+      {
+        "file": "synthesis/replication/2026-10-15-dossier-094-pyramid-form-field-profile.md",
+        "date": "2026-10-15",
+        "title": "Replication Dossier 094 — Pyramid Form-Field Profile Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 094 — Pyramid Form-Field Profile Test\n\n**Quest:** Does the Base Matter? — The Pyramid Form-Field Profile Test\n**Status:** protocol\n**Domain:** water (water structure — the spatia"
       }
     ],
     "validations": [
@@ -1343826,12 +1343885,12 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T06:16:16Z",
+    "as_of": "2026-10-15T06:21:22Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 59446,
-      "translations": 719,
-      "pages_translated": 13495,
+      "translations": 720,
+      "pages_translated": 13497,
       "declassified": 176,
       "researchers": 903,
       "patents": 289
