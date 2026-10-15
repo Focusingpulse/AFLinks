@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:16:01Z",
+  "generated_at": "2026-10-15T15:34:11Z",
   "library": {
     "researchers": 2041,
     "researchers_cataloged": 2041,
@@ -64,7 +64,7 @@
     "replication_dossiers": 108,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-15T15:16:01Z",
+      "generated_at": "2026-10-15T15:34:11Z",
       "archive_entries": 126517,
       "aflinks_docs": 124108,
       "translations": 874,
@@ -33705,7 +33705,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-15T14:19:32Z",
+      "last_run": "2026-10-15T15:17:41Z",
       "last_status": "ok",
       "last_summary": "sync: 126517 docs, feed rebuilt"
     },
@@ -33821,6 +33821,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-15",
+      "time": "15:17",
+      "agent": "AFLinks Sync",
+      "summary": "+126517 docs — +126517 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-15",
       "time": "15:14",
@@ -34126,12 +34132,6 @@
       "time": "05:16",
       "agent": "AFLinks Sync",
       "summary": "+123809 docs — +123809 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "05:11",
-      "agent": "Patent Watch",
-      "summary": "+24 patents — 24 new patent filings indexed across target domains: propellantless/anti-gravity (US20260167359A1 photonic propulsion, US20260072053A1 Poynting-vector gravity modification, US20260085669A1 thrust+reverse-rotation, US12722807 electron-momentum propulsion), water/plasma (WO2026022486 H2 plasma reactor, US20260159382 H2 from humid air, US20260022471 magnetically-assisted electrolysis, US20260089827 CAPHENIA plasma reactor, US20260286883 water-arc plasma power, WO2026093112A1 synthetic fuel), acoustic/ultrasonic (WO2026181585, CN224139145U, US12683572, WO2026020726A1), plasma propulsion (CN202610695344 Lanzhou, CN202512044529 VLEO, CN116981146B helicon, CN202610252926 dual-mode, CN116838557A BIT, CN116357537A CNT), dielectric (US20260258547, US20260120956, WO2026210875), torsion/scalar (WO2024039755A1). 8 candidates excluded as already indexed. patent-index.json 3045 -> 3069."
     },
     {
       "date": "2026-10-14",
@@ -1374471,6 +1374471,13 @@
         "excerpt": "# ⚡ Aetherforce — Greywater & Willow\n\n**Guild:** Aetherforce — Greywater & Willow\n**Quest Line:** ⚡ Aetherforce · Greywater & Willow complement\n**Tier:** sand\n**Domain:** water (water structure — the "
       },
       {
+        "file": "synthesis/quest-queue/2026-10-15-cold-storage-energy.md",
+        "date": "2026-10-15",
+        "title": "Quest Card — Does a Passive Device Cut Your Freezer's Power Bill? The Cold-Storage Energy Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Food Prep\n\n**Guild:** Aetherforce — Food Prep\n**Quest Line:** ⚡ Aetherforce · Food Prep complement\n**Tier:** sand\n**Domain:** food (cold storage — keeping food cold on the least ener"
+      },
+      {
         "file": "synthesis/quest-queue/2026-10-14-urine-ph-density.md",
         "date": "2026-10-14",
         "title": "Quest Card — Do Your Urine Numbers Move Together? The Urine pH & Density Test",
@@ -1375120,16 +1375127,16 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
-      },
-      {
-        "file": "synthesis/quest-queue/2026-10-15-cold-storage-energy.md",
-        "date": "2026-10-15",
-        "title": "Quest Card — Does a Passive Device Cut Your Freezer's Power Bill? The Cold-Storage Energy Test",
-        "status": "proposed",
-        "excerpt": "# ⚡ Aetherforce — Food Prep\n\n**Guild:** Aetherforce — Food Prep\n**Quest Line:** ⚡ Aetherforce · Food Prep complement\n**Tier:** sand\n**Domain:** food (cold storage — keeping food cold on the least ener"
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-10-15-dossier-095-cold-storage-energy.md",
+        "date": "2026-10-15",
+        "title": "Replication Dossier 095 — Cold-Storage Energy Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 095 — Cold-Storage Energy Test\n\n**Quest:** Does a Passive Device Cut Your Freezer's Power Bill? — The Cold-Storage Energy Test\n**Status:** protocol\n**Domain:** food (cold storage"
+      },
       {
         "file": "synthesis/replication/2026-10-15-dossier-094-sodium-chlorate-chirality.md",
         "date": "2026-10-15",
@@ -1375878,13 +1375885,6 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
-      },
-      {
-        "file": "synthesis/replication/2026-10-15-dossier-095-cold-storage-energy.md",
-        "date": "2026-10-15",
-        "title": "Replication Dossier 095 — Cold-Storage Energy Test",
-        "status": "protocol",
-        "excerpt": "# Replication Dossier 095 — Cold-Storage Energy Test\n\n**Quest:** Does a Passive Device Cut Your Freezer's Power Bill? — The Cold-Storage Energy Test\n**Status:** protocol\n**Domain:** food (cold storage"
       }
     ],
     "validations": [
@@ -1376348,7 +1376348,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-15T15:16:01Z",
+    "as_of": "2026-10-15T15:34:11Z",
     "baseline": "2026-09-16T20:34:55Z",
     "deltas": {
       "docs": 62154,
