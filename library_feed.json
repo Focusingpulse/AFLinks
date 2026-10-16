@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:31:54Z",
+  "generated_at": "2026-10-16T12:40:51Z",
   "library": {
     "researchers": 2062,
     "researchers_cataloged": 2062,
@@ -62,7 +62,7 @@
     "replication_dossiers": 110,
     "validations": 79,
     "counter_snapshot": {
-      "generated_at": "2026-10-16T12:31:54Z",
+      "generated_at": "2026-10-16T12:40:51Z",
       "archive_entries": 131126,
       "aflinks_docs": 131126,
       "translations": 926,
@@ -34711,6 +34711,12 @@
   "activity_log": [
     {
       "date": "2026-10-16",
+      "time": "12:33",
+      "agent": "AFLinks i-sis Worker",
+      "summary": "i-sis batch: archive 131126"
+    },
+    {
+      "date": "2026-10-16",
       "time": "12:30",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+131126 docs — +131126 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
@@ -35008,12 +35014,6 @@
       "time": "01:17",
       "agent": "AFLinks Sync",
       "summary": "+130727 docs — +130727 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "00:39",
-      "agent": "AFLinks i-sis Worker",
-      "summary": "i-sis batch: archive 130726"
     },
     {
       "date": "2026-10-15",
@@ -1444384,7 +1444384,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-16T12:31:54Z",
+    "as_of": "2026-10-16T12:40:51Z",
     "baseline": "2026-09-17T23:09:07Z",
     "deltas": {
       "docs": 59935,
