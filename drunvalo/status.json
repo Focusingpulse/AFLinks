@@ -2,22 +2,16 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-16T08:08:49Z",
+    "timestamp": "2026-10-16T16:06:37Z",
     "status": "ok",
-    "summary": "+15 works (Oct-16 batch), +6 persons; checks clean; 1102 works / 692 persons"
+    "summary": "translation-QC: checks clean; +17 Forge Oct-16 works (Stakhov school, Vasilenko skeptical trio, radiesthesia/dowsing x4), +6 persons; Arakelyan-Stakhov debate pair wired"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 692,
-  "works": 1102,
+  "persons": 698,
+  "works": 1119,
   "notes": "QC clean; Forge Oct 14-15 batch indexed",
   "runs": [
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-14T12:03:14Z",
-      "status": "ok",
-      "summary": "village-maintenance: 996 links checked, 974 OK / 16 http_err / 6 bad - all known non-actionable classes (anti-bot 403s, burst 429s, dead scraped forum-text links); 0 actionable. Added 2 library resources: Biodynamic Association + LocalHarvest. Validators 5/5. Village tip remote-verified."
-    },
     {
       "cron": "village-quality-audit",
       "timestamp": "2026-10-14T12:05:16Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-16T08:08:49Z",
       "status": "ok",
       "summary": "+15 works (Oct-16 batch), +6 persons; checks clean; 1102 works / 692 persons"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-16T16:06:37Z",
+      "status": "ok",
+      "summary": "translation-QC: checks clean; +17 Forge Oct-16 works (Stakhov school, Vasilenko skeptical trio, radiesthesia/dowsing x4), +6 persons; Arakelyan-Stakhov debate pair wired"
     }
   ],
-  "timestamp": "2026-10-16T08:08:49Z",
+  "timestamp": "2026-10-16T16:06:37Z",
   "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
 }
