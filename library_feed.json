@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T06:14:19Z",
+  "generated_at": "2026-10-16T06:27:18Z",
   "library": {
     "researchers": 2061,
     "researchers_cataloged": 2061,
@@ -58,11 +58,11 @@
     },
     "graph_edges": 453,
     "graph_nodes": 345,
-    "practical_quests": 96,
-    "replication_dossiers": 109,
+    "practical_quests": 97,
+    "replication_dossiers": 110,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-16T06:14:19Z",
+      "generated_at": "2026-10-16T06:27:18Z",
       "archive_entries": 130738,
       "aflinks_docs": 124108,
       "translations": 910,
@@ -34165,9 +34165,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-16T05:20:29Z",
+      "last_run": "2026-10-16T06:22:11Z",
       "last_status": "ok",
-      "last_summary": "run total 34 chunks across 3 docs, all complete: Stakhov Bergman-system reply 4, Salas Sommer perception 12, Istokov Greatest Attractor 18 | backlog 337 | gear overdrive"
+      "last_summary": "run total 10 chunks | Giza plateau secrets ru 10 of 29 in progress, resumable | duplicate Salas Sommer translation discarded | backlog 333 | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -34187,7 +34187,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-16T05:21:15Z",
+      "last_run": "2026-10-16T06:16:53Z",
       "last_status": "ok",
       "last_summary": "sync: 130738 docs, feed rebuilt"
     },
@@ -34303,6 +34303,24 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-16",
+      "time": "06:22",
+      "agent": "Translation Sweeper",
+      "summary": "+10 chunks — Giza plateau secrets (trinitas 0232/009a/02321248) ru->EN chunks 1-10 of 29, in progress; discarded a duplicate Salas Sommer perception translation (already done by a prior fire; stale checkout missed it)"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "06:16",
+      "agent": "AFLinks Sync",
+      "summary": "+130738 docs — +130738 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "06:13",
+      "agent": "Practicality Engine",
+      "summary": "health scan: Voice Print Test card + dossier 097 (bioacoustics vocal-biomarker tenet)"
+    },
     {
       "date": "2026-10-16",
       "time": "06:10",
@@ -34584,24 +34602,6 @@
       "time": "18:25",
       "agent": "AFLinks Steiner Worker",
       "summary": "Steiner batch: 0 new pages, catalog 377 GA volumes, archive 126517"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "18:24",
-      "agent": "translator-foreign",
-      "summary": "+23 chunks — Translated Abachiev 'Mathematics of Harmony: from horizontal to vertical development' (trinitas 02321188) ru->EN, 23 chunks, complete; source archived"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "18:16",
-      "agent": "radionics-collection",
-      "summary": "+1 docs — Collected HSCTI 'Manual for the FengShui-Plus Program' (Welz 2008, 6 pp) from akor.cc; archived + mined into FENGSHUI-PLUS-MANUAL.md"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "18:15",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+475 references — 30 docs fetched, 9 yielded a bibliography; +475 refs, kept 34704 of 34721, dropped 17 — 15 fragment, 2 boilerplate; graph 25747 nodes / 34985 edges / 3040 hubs / 22707 single-cited; overlay 42127 nodes / 55320 edges (29933 cites); archive queue refreshed feed live 124108 docs 2041 researchers 878 translations; veracity ch.22 did:veracity DID-registry flag re-probed via 2 new routes — npm/PyPI software-distribution layer and name-space collision — unchanged needs-owner, receipt strengthened"
     },
     {
       "date": "2026-10-15",
@@ -1440395,6 +1440395,13 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
+      },
+      {
+        "file": "synthesis/quest-queue/2026-10-16-voice-print-test.md",
+        "date": "2026-10-16",
+        "title": "Quest Card — Does Your Voice Carry Your State? The Voice Print Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Vitality\n\n**Guild:** Aetherforce — Vitality\n**Quest Line:** ⚡ Aetherforce · Vitality complement\n**Tier:** sand\n**Domain:** health (the body's state read from the voice — a biofield /"
       }
     ],
     "dossiers": [
@@ -1441160,6 +1441167,13 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
+      },
+      {
+        "file": "synthesis/replication/2026-10-16-dossier-097-voice-print.md",
+        "date": "2026-10-16",
+        "title": "Replication Dossier 097 — Voice Print Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 097 — Voice Print Test\n\n**Quest:** Does Your Voice Carry Your State? — The Voice Print Test\n**Status:** protocol\n**Domain:** health (the body's state read from the voice — a biof"
       }
     ],
     "validations": [
@@ -1441623,7 +1441637,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-16T06:14:19Z",
+    "as_of": "2026-10-16T06:27:18Z",
     "baseline": "2026-09-17T23:09:07Z",
     "deltas": {
       "docs": 59547,
