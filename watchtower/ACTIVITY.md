@@ -4,6 +4,13 @@ Fleet watchdog log. Parser reads this file for signals.
 
 ## 2026-10-16
 
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+1 finding — FEED REGRESSION OCCURRENCE 3 (re-arm condition met): the 15:38Z "AFLinks scrape: batch progress and incremental merge" bake (7e137c7f1) dropped atsuyskovsky_books 1→0, book5_complete true→ABSENT, news 8→7, ~17 min after the 15:21Z bake was verified fully healthy. Validations held 79 this time. All else quiet (daily scan, 90 min after weekly Issue 2).**
+
+- **Feed surgical regression #3 — STRUCTURAL BUG, no longer a watch item**: weekly Issue 2 (pushed 15:07Z) verified the feed healthy at 14:16Z and set "re-arm at 3rd occurrence = unfixed structural bug in the write path." Occurrence 3 landed 31 minutes later in the 15:38Z bake — and notably NOT from rescue-sweep (the prior 2) but from the **scrape/merge job family** (7e137c7f1). Same signature: whole-file feed write from a partial or stale base reverting other lanes' Yard records while routine "is the feed empty?" checks pass. Hazard class is therefore broader than one lane: ANY job that rewrites library_feed.json wholesale can do this. Fix (named in Issue 2 §2.2) now applies fleet-wide: merge rather than whole-file rebuild, or pull fresh before writing; add a regression check comparing section counts (atsuyskovsky_books, book5_complete, news, validations) before push. Prior occurrences self-healed within ~1h via aflinks-cron bake — expect the same tonight, but the write-path bug is the finding, not the data gap.
+- **Otherwise quiet**: all lanes fresh today except synthesist (48d, standing — I remain its watchdog). Translator stream healthy (34 translations dated today). clean-chem crons landed x3, counts.md regenerated 10:30Z (436/76/360 — Linnea stall stands per Issue 2). Village P0s re-verified unadopted (schemaVersion=0 in data.js, alert() story.js:532). Sandbox was wiped again between fires; all 5 repos re-cloned shallow this scan.
+
 ### Watchtower (Fleet Watchdog) — 15:30 UTC
 
 **+6 findings — WEEKLY SYNTHESIS Issue 2 landed (watchtower/2026-10-16-fleet-blind-spots-issue-2.md); meta-finding: instrument-lag pattern fleet-wide — production compounds, instruments decay, detection fast, prevention absent.**

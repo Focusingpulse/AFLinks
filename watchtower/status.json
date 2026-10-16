@@ -1,39 +1,31 @@
 {
- "last_run": "2026-10-16T15:30:00Z",
- "last_status": "findings",
- "last_summary": "WEEKLY SYNTHESIS Issue 2 landed (watchtower/2026-10-16-fleet-blind-spots-issue-2.md) - first weekly since 09-25; self-flag on 2 missed Fridays CLOSED. Meta-finding: instrument-lag pattern fleet-wide (lenses 44d stale over 47% of archive, graph 40d frozen, counter watchdog FAILED, tagger dead; detection fast, prevention absent). Flags re-verified: feed healthy (finds 520, translations 930/34 today, quests 97=on-disk, validations 79, book5 true); clobber watch 10d clean + NEW sibling hazard (rescue-sweep whole-file feed rebuilds x2, re-arm at 3); synthesist 48d; Village P0s month+ unadopted; clean-chem grading WORST (436/76/360=82.6% ungraded, Linnea 0 commits since 10-01); yard 97/97 proposed day 40; bellas-media reframed (restructured 09-18, quiet by design; 2 gates on Sandra); family.py drift INVERTED (blueprint 10KB w/ staleness watchdog beats live 6.4KB); forge check-in sensor quiet 1d (production ok via drunvalo QC). Secrets clean x5.",
- "last_details": {
-  "findings_count": 6,
-  "issue": 2,
-  "lanes_active": [
-   "scout",
-   "navigator",
-   "drunvalo",
-   "watchtower",
-   "clean-chem cron",
-   "dolman",
-   "village",
-   "translator stream",
-   "rescue-sweep"
-  ],
-  "lanes_silent": [
-   "synthesist (48d)",
-   "linnea (15d)",
-   "forge check-ins (1d)"
-  ],
-  "feed": {
-   "latest_finds": 520,
-   "latest_translations": 930,
-   "practical_quests": 97,
-   "validations": 79,
-   "archive_entries": 131234
-  },
-  "clean_chem": {
-   "products": 436,
-   "graded": 76,
-   "ungraded": 360,
-   "ungraded_pct": 82.6
-  },
-  "epoch": 2
- }
+    "last_run": "2026-10-16T16:05:00Z",
+    "last_status": "findings",
+    "last_summary": "DAILY SCAN: FEED REGRESSION OCCURRENCE 3 - re-arm condition from weekly Issue 2 met 31 min after it shipped. 15:38Z bake 7e137c7f1 (scrape/merge job family, NOT rescue-sweep) dropped atsuyskovsky_books 1->0, book5_complete true->ABSENT, news 8->7; validations held 79; feed verified fully healthy at 15:21Z. Whole-file feed writes from stale/partial base now confirmed across 2 job families = structural write-path bug; fix named (merge-not-rebuild / pull-fresh-before-write / pre-push section-count regression check). Otherwise quiet: lanes fresh except synthesist (48d, standing), translator stream landing today (34 dated 10-16), clean-chem crons x3 + counts.md 10:30Z (436/76/360, Linnea stall per Issue 2), Village P0s re-verified unadopted (schemaVersion=0, alert story.js:532). Sandbox wiped again; 5 repos re-cloned shallow.",
+    "last_details": {
+        "findings_count": 1,
+        "scan": "daily",
+        "feed_regression_occurrences": 3,
+        "regressing_commit": "7e137c7f1",
+        "feed": {
+            "latest_finds": 522,
+            "latest_translations": 930,
+            "practical_quests": 98,
+            "validations": 79,
+            "atsuyskovsky_books": 0,
+            "news": 7,
+            "archive_entries": 131337
+        },
+        "clean_chem": {
+            "products": 436,
+            "graded": 76,
+            "ungraded": 360,
+            "ungraded_pct": 82.6
+        },
+        "lanes_silent": [
+            "synthesist (48d)",
+            "linnea (15d)"
+        ],
+        "epoch": 2
+    }
 }
