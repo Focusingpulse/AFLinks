@@ -1,4 +1,7 @@
 # Drunvalo Activity Log
+
+## 2026-10-16T08:08:49Z - aetherforce-translation-qc (ok)
+translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). +15 works from Forge's Oct-16 batch (trinitas golden-section cluster x10 incl. Istokov attractor, Cherepanov letter to Stakhov, Govorov, Abachiev, Dragavtseva Cheops constants, Stakhov Bergman reply, Vasilenko x2, Istodin, Salas Sommer; Wojtkowiak shape-field memory pl; Egely space-tech vol.3 hu; Callegari 1945 radionic principle + Radionica Italiana form waves it; Houtzaios Lesvian dowsers el). +6 persons (istokov, dragavtseva-na, salas-sommer, callegari, istodin-k, houtzaios). 15/15 source URLs live 200. tag_concepts skipped (dead). 1102 works / 692 persons.
 ## 2026-10-16T04:06:08Z - aetherforce-translation-qc (ok)
 - Standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0)
 - Title-sim 92 + containment 10 candidates, 0 folds (all known no-fold families: Stakhov memoir cluster, Statskevich series, quietsphere, Smelov, beseda pair, 3 cross-linked pairs)
