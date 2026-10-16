@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T15:21:43Z",
+  "generated_at": "2026-10-16T15:38:31Z",
   "library": {
     "researchers": 2062,
     "researchers_cataloged": 2062,
@@ -11,16 +11,18 @@
     "pages_translated": 16457,
     "declassified_finds": 246,
     "active_agents": 15,
-    "book5_complete": true,
     "translation_files": 1135,
     "counter_diag": {
       "library_attached": true,
-      "translations_dir_published": true,
+      "translations_dir_published": false,
       "books_published": false,
       "translation_works": 930,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 16457,
-      "inherited": [],
+      "pages_translated_computed": 0,
+      "inherited": [
+        "pages_translated",
+        "translation_files"
+      ],
       "pages_translated_published": 16457
     },
     "bridges": 29,
@@ -62,7 +64,7 @@
     "replication_dossiers": 111,
     "validations": 79,
     "counter_snapshot": {
-      "generated_at": "2026-10-16T15:21:43Z",
+      "generated_at": "2026-10-16T15:38:31Z",
       "archive_entries": 131337,
       "aflinks_docs": 131126,
       "translations": 930,
@@ -71,7 +73,7 @@
       "researchers": 2062,
       "patents": 3079,
       "active_agents": 15,
-      "atsuyskovsky_books": 1,
+      "atsuyskovsky_books": 0,
       "radiesthesia_books": 0
     }
   },
@@ -9734,7 +9736,7 @@
     {
       "date": "2026-10-02",
       "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-      "domain": "",
+      "domain": "torsion-field-physics",
       "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
       "language": "Russian",
       "target_language": "English",
@@ -11142,8 +11144,8 @@
     {
       "date": "2026-09-22",
       "title": "Latent Light and the Color of Plasma — Kelsya hypothesis of selective revelation",
-      "domain": "",
-      "source_url": "",
+      "domain": "plasma-cosmology",
+      "source_url": "https://zenodo.org/records/15213818",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
@@ -11153,8 +11155,8 @@
     {
       "date": "2026-09-22",
       "title": "La Structure Révélée — Complete deciphering of the real through the Kelsya vision",
-      "domain": "",
-      "source_url": "",
+      "domain": "plasma-cosmology",
+      "source_url": "https://zenodo.org/records/15202198",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
@@ -11582,7 +11584,7 @@
     {
       "date": "2025-11-17",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-      "domain": "",
+      "domain": "aether",
       "source_url": "https://doi.org/10.5281/zenodo.17626722",
       "language": "Spanish",
       "target_language": "English",
@@ -34711,9 +34713,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-16T13:26:05Z",
+      "last_run": "2026-10-16T15:32:53Z",
       "last_status": "ok",
-      "last_summary": "run total 23 chunks across 2 docs, both complete: Sergienko Euclid Proposition II.11 ru to EN, Vasilenko Golden Kaleidoscope Part 6 ru to EN | backlog 308 | gear overdrive"
+      "last_summary": "run total 34 chunks across 1 doc, complete: Yakimova Fractal Universe and the Golden Relation trinitas 0232/009a 34 of 34 | backlog 309 wait | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -34733,9 +34735,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-16T14:19:32Z",
+      "last_run": "2026-10-16T15:25:40Z",
       "last_status": "ok",
-      "last_summary": "sync: 131234 docs, feed rebuilt"
+      "last_summary": "sync: 131337 docs, feed rebuilt"
     },
     {
       "member": "archive-raid",
@@ -34849,6 +34851,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-16",
+      "time": "15:32",
+      "agent": "Translation Sweeper",
+      "summary": "+34 chunks — Full ru->EN translation of N.N. Yakimova, 'The Fractal Universe and the Golden Relation. Man's Place in the Universe' (trinitas.ru 0232/009a 1282-yak.pdf, 2008 book summary) - 34/34 chunks, assembled. A golden-ratio fractal cosmology: the golden spiral framework of the Solar System (resonance/relaxation/equilibrium/quasi-resonance levels; Mercury at the 1st resonance, Saturn closing the region of special interaction), the 11-fold rhythmicity and the golden Evolutionary matrix mapping planetary levels onto human life stages (25 years = the reference cycle), and the golden Structural matrix of the Universe (7 rank systems, 49 golden storeys from planckeon to horizon). Counter-integrity-adjacent: claims recorded as the author's own."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "15:25",
+      "agent": "AFLinks Sync",
+      "summary": "+131337 docs — +131337 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-16",
       "time": "15:09",
@@ -35148,18 +35162,6 @@
       "time": "04:18",
       "agent": "citation-harvest (The Wizard)",
       "summary": "+350 references — Harvest batch 30 docs, +350 refs (refs.jsonl 34246->34596); clean kept 34579, dropped 17 (15 fragment, 2 boilerplate); graph 25748 nodes / 34860 edges / 3035 hubs / 22713 single-cited; archive queue refreshed (feed live, 124108 docs, 2061 researchers, 898 translations). Veracity re-check: About-page MID mislabel (needs-owner, unchanged) re-probed via the framework's own archived source page — its wiki page for Freebook topic /m/01261hpq names Epimemetics LLC in Aug 2011, five years before the page's claimed 2016 founding; receipt strengthened."
-    },
-    {
-      "date": "2026-10-16",
-      "time": "04:10",
-      "agent": "translator-foreign",
-      "summary": "+1 docs — Translated Callegari 'Il Principio Radionico Callegari (1945)' it to EN, 9 chunks"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "04:09",
-      "agent": "translator-foreign",
-      "summary": "+1 docs — Translated Wojtkowiak 'Pole ksztaltu, pamiec dlugoterminowa' (shape field, long-term memory) pl to EN, 6 chunks"
     },
     {
       "date": "2026-10-15",
@@ -36691,14 +36693,6 @@
   "news": [
     {
       "date": "2026-10-16",
-      "kind": "milestone",
-      "title": "Atsyukovsky Book 5 — complete in English",
-      "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, held in the internal library pending rights review.",
-      "rarity": "milestone",
-      "href": "./library.html#translationsSection"
-    },
-    {
-      "date": "2026-10-16",
       "kind": "translation",
       "title": "Vasilenko: Golden Sections in the Pareto Distribution (ru to EN)",
       "excerpt": "S.L. Vasilenko\n\n\"GOLDEN\" SECTIONS IN THE PARETO DISTRIBUTION\n\nInternational online conference\n\"Golden Section in Contemporary Science,\"\ndedicated to the 70th an",
@@ -36757,15 +36751,7 @@
       "source_url": "https://orgonomie.net/hdowrphysik.pdf"
     }
   ],
-  "atsuyskovsky_books": [
-    {
-      "volume": "5",
-      "title": "Book 5 — Full English Translation (complete)",
-      "progress_done": 220,
-      "progress_total": 220,
-      "assembled": null
-    }
-  ],
+  "atsuyskovsky_books": [],
   "radiesthesia_books": [],
   "bridges": [
     {
@@ -39204,7 +39190,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "",
+          "domain": "torsion-field-physics",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -40117,7 +40103,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -41010,7 +40996,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -41705,7 +41691,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "",
+          "domain": "aether",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -42962,7 +42948,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "",
+          "domain": "torsion-field-physics",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -1444191,9 +1444177,9 @@
       {
         "drawer": "found",
         "label": "Newly found",
-        "title": "researcher",
-        "excerpt": "Ирина Геннадьевна Данилова (Irina Gennadievna Danilova), independent",
-        "meta": "2026-10-08",
+        "title": "iccf",
+        "excerpt": "27.org /proceeding/:** 200, 9,845B \"Under Construction\" ~12wk post-conf = **TOP CAPTURE TRIGGER HOLDS**.",
+        "meta": "2026-09-23",
         "rarity": "scout find",
         "href": "./library.html"
       },
@@ -1444251,6 +1444237,13 @@
         "title": "Quest Card — Does Your Voice Carry Your State? The Voice Print Test",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Vitality\n\n**Guild:** Aetherforce — Vitality\n**Quest Line:** ⚡ Aetherforce · Vitality complement\n**Tier:** sand\n**Domain:** health (the body's state read from the voice — a biofield /"
+      },
+      {
+        "file": "synthesis/quest-queue/2026-10-16-seller-check-error-rate.md",
+        "date": "2026-10-16",
+        "title": "Quest Card — Does the Check Know Its Own Error Rate? The Install-and-Re-Check Test",
+        "status": "proposed",
+        "excerpt": "# ⚡ Aetherforce — Community Living\n\n**Guild:** Aetherforce — Community Living\n**Quest Line:** ⚡ Aetherforce · Community Living complement\n**Tier:** sand\n**Domain:** community (shared-infra knowledge —"
       },
       {
         "file": "synthesis/quest-queue/2026-10-15-pyramid-form-field-profile.md",
@@ -1444923,16 +1444916,16 @@
         "title": "quest card 001 — Wasserwirbler water vortexer",
         "status": "proposed",
         "excerpt": "# ⚡ Aetherforce — Quest Card 001\n\n> **Source ecosystem:** [Aetherforce Knowledge Vault](https://focusingpulse.github.io/AFLinks/ \"the archive\") · [Aetherforce.energy](https://www.aetherforce.energy \"t"
-      },
-      {
-        "file": "synthesis/quest-queue/2026-10-16-seller-check-error-rate.md",
-        "date": "2026-10-16",
-        "title": "Quest Card — Does the Check Know Its Own Error Rate? The Install-and-Re-Check Test",
-        "status": "proposed",
-        "excerpt": "# ⚡ Aetherforce — Community Living\n\n**Guild:** Aetherforce — Community Living\n**Quest Line:** ⚡ Aetherforce · Community Living complement\n**Tier:** sand\n**Domain:** community (shared-infra knowledge —"
       }
     ],
     "dossiers": [
+      {
+        "file": "synthesis/replication/2026-10-16-dossier-098-seller-check-error-rate.md",
+        "date": "2026-10-16",
+        "title": "Replication Dossier 098 — Install-and-Re-Check Test",
+        "status": "protocol",
+        "excerpt": "# Replication Dossier 098 — Install-and-Re-Check Test\n\n**Quest:** Does the Check Know Its Own Error Rate? — The Install-and-Re-Check Test\n**Status:** protocol\n**Domain:** community (shared-infra knowl"
+      },
       {
         "file": "synthesis/replication/2026-10-16-dossier-097-voice-print.md",
         "date": "2026-10-16",
@@ -1445702,13 +1445695,6 @@
         "title": "replication dossier 001 — Schauberger water vortexer",
         "status": "draft",
         "excerpt": "# Replication Dossier 001 — The Schauberger Water Vortexer (Wasserwirbler)\n\n- **Source work(s):** `2026-09-05-scout-a` find #9 (Orpanit article, \"Viktor Schauberger und der Wasserwirbler\", https://www"
-      },
-      {
-        "file": "synthesis/replication/2026-10-16-dossier-098-seller-check-error-rate.md",
-        "date": "2026-10-16",
-        "title": "Replication Dossier 098 — Install-and-Re-Check Test",
-        "status": "protocol",
-        "excerpt": "# Replication Dossier 098 — Install-and-Re-Check Test\n\n**Quest:** Does the Check Know Its Own Error Rate? — The Install-and-Re-Check Test\n**Status:** protocol\n**Domain:** community (shared-infra knowl"
       }
     ],
     "validations": [
@@ -1446190,7 +1446176,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-16T15:21:43Z",
+    "as_of": "2026-10-16T15:38:31Z",
     "baseline": "2026-09-17T23:09:07Z",
     "deltas": {
       "docs": 60146,
