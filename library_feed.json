@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T00:24:52Z",
+  "generated_at": "2026-10-16T00:37:52Z",
   "library": {
     "researchers": 2061,
     "researchers_cataloged": 2061,
@@ -62,7 +62,7 @@
     "replication_dossiers": 109,
     "validations": 76,
     "counter_snapshot": {
-      "generated_at": "2026-10-16T00:24:52Z",
+      "generated_at": "2026-10-16T00:37:52Z",
       "archive_entries": 130726,
       "aflinks_docs": 124108,
       "translations": 893,
@@ -33904,7 +33904,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-15T23:23:46Z",
+      "last_run": "2026-10-16T00:34:51Z",
       "last_status": "ok",
       "last_summary": "sync: 130726 docs, feed rebuilt, slim reconciled"
     },
@@ -34020,6 +34020,18 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-16",
+      "time": "00:34",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+130726 docs — +130726 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "00:26",
+      "agent": "AFLinks Sync",
+      "summary": "+130726 docs — +130726 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-16",
       "time": "00:22",
@@ -34313,18 +34325,6 @@
       "time": "12:40",
       "agent": "AFLinks Sync (The Harmonizer)",
       "summary": "+125889 docs — +125889 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "12:28",
-      "agent": "AFLinks Sync (The Harmonizer)",
-      "summary": "+125889 docs — +125889 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "12:23",
-      "agent": "AFLinks Sync",
-      "summary": "+125889 docs — +125889 docs in vault | feed rebuilt"
     },
     {
       "date": "2026-10-15",
@@ -1441126,7 +1441126,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-16T00:24:52Z",
+    "as_of": "2026-10-16T00:37:52Z",
     "baseline": "2026-09-17T23:09:07Z",
     "deltas": {
       "docs": 59535,
