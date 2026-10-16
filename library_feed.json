@@ -1,31 +1,29 @@
 {
-  "generated_at": "2026-10-16T08:17:33Z",
+  "generated_at": "2026-10-16T09:19:07Z",
   "library": {
-    "researchers": 2061,
-    "researchers_cataloged": 2061,
-    "patents": 3069,
+    "researchers": 2062,
+    "researchers_cataloged": 2062,
+    "patents": 3079,
     "categories": 54,
     "meta_categories": 30,
-    "aflinks_docs": 124108,
-    "translations": 913,
-    "pages_translated": 16217,
+    "aflinks_docs": 131126,
+    "translations": 922,
+    "pages_translated": 16289,
     "declassified_finds": 242,
     "active_agents": 15,
-    "translation_files": 1100,
+    "book5_complete": true,
+    "translation_files": 1113,
     "counter_diag": {
-      "library_attached": false,
-      "translations_dir_published": false,
+      "library_attached": true,
+      "translations_dir_published": true,
       "books_published": false,
-      "translation_works": 913,
+      "translation_works": 922,
       "translation_sources_unreadable": 0,
-      "pages_translated_computed": 0,
-      "inherited": [
-        "pages_translated",
-        "translation_files"
-      ],
-      "pages_translated_published": 16217
+      "pages_translated_computed": 16289,
+      "inherited": [],
+      "pages_translated_published": 16289
     },
-    "bridges": 28,
+    "bridges": 29,
     "archive_entries": 131126,
     "meta_counts": {
       "Challenges to the Standard Model": 77027,
@@ -62,18 +60,18 @@
     "graph_nodes": 345,
     "practical_quests": 97,
     "replication_dossiers": 110,
-    "validations": 76,
+    "validations": 79,
     "counter_snapshot": {
-      "generated_at": "2026-10-16T08:17:33Z",
+      "generated_at": "2026-10-16T09:19:07Z",
       "archive_entries": 131126,
-      "aflinks_docs": 124108,
-      "translations": 913,
-      "pages_translated": 16217,
+      "aflinks_docs": 131126,
+      "translations": 922,
+      "pages_translated": 16289,
       "declassified_finds": 242,
-      "researchers": 2061,
-      "patents": 3069,
+      "researchers": 2062,
+      "patents": 3079,
       "active_agents": 15,
-      "atsuyskovsky_books": 0,
+      "atsuyskovsky_books": 1,
       "radiesthesia_books": 0
     }
   },
@@ -99,36 +97,120 @@
     },
     {
       "date": "2026-10-16",
-      "title": "Dmitry Istokov — The Greatest Attractor and the Connecting Link of Everything in the Universe (golden-section geometry) (ru->EN)",
+      "title": "On the Use of the Bergman System in a Computer (Stakhov's reply to A.V. Nikitin)",
+      "domain": "",
+      "source_url": "http://www.trinitas.ru/rus/doc/0232/009a/02321222.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "translations/2026-10-16-ob-ispolzovanii-sistemy-bergmana-v-kompyutere-stakhov-ru.md",
+      "content_file": null,
+      "excerpt": "A.V. Nikitin\nThe Golden Code and the Bergman System.\n\nI would like to express my gratitude to A.P. Stakhov for the information provided [1].\n\nIt turned out that the information exists; then why such a sharp rejoinder [4]",
+      "summary": "A polemical technical note by A.V. Nikitin (2011), published by the Academy of Trinitarianism, responding to A.P. Stakhov in an ongoing dispute over the \"golden code\" and the Bergman system. Nikitin argues that the \"golden code\" as presented is simply the integer part of a Bergman-system number with the fractional part cut off, and that in binary notation it barely differs from the Fibonacci code. He notes the non-uniform quantization of the golden code (adjacent-number gaps alternating between 1 and Φ−1 = 0.618) and questions whether the Bergman system can serve as a computer's main encoding system, while conceding it is the only full-scale irrational-base numeration system among those proposed for the Fibonacci computer. The note also contains personal remarks about the dispute.",
+      "points": [
+        "Author A.V. Nikitin; part of a published dispute with A.P. Stakhov",
+        "Argues the \"golden code\" is the integer part of a Bergman-system number (fractional part cut off)",
+        "Notes golden-code quantization is non-uniform: adjacent gaps are 1 or Φ−1 = 0.618",
+        "States the 4-digit golden code represents 8 numbers (A0=0 to A7=Φ³+Φ), equal to Fibonacci F6",
+        "Concedes the Bergman system is the only full-scale irrational-base system among those proposed"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Water Vein (Vesisuoni) — Finnish Wikipedia (fi->EN)",
+      "domain": "",
+      "source_url": "https://fi.wikipedia.org/wiki/Vesisuoni",
+      "language": "Finnish",
+      "target_language": "English",
+      "file": "2026-10-16-vesisuoni-water-vein-finnish-wikipedia-fi.md",
+      "content_file": null,
+      "excerpt": "Vesisuoni (\"water vein\") means, according to folk beliefs, a pathway or channel of groundwater running beneath the ground, resembling most of all an underground brook. In reality such channels are rare, and most of the c",
+      "summary": "A Finnish-language Wikipedia article (translated) on the folk belief in \"vesisuoni\" (water veins) — supposed underground channels of groundwater. The article takes a skeptical position, stating that such channels are rare and that most water-vein conceptions are pseudoscience, since groundwater mostly moves through porous layers rather than forming veins. It describes two field experiments: a study in Helsinki's Kaisaniemi botanical garden under Matti Wäre in which several dozen dowsers produced mutually different maps, and a 1985 University of Oulu study under Professor Onni Kari-Koskinen in which veins marked on an outward journey were not found in the same places on the return. The article also notes Gustav von Pohl's \"earth radiation\" claim (that it causes cancer) as unsupported.",
+      "points": [
+        "Finnish Wikipedia article; treats the water-vein belief as pseudoscience and folk belief",
+        "Notes groundwater mostly moves through porous layers (sand, gravel), not veins",
+        "Helsinki Kaisaniemi experiment (Matti Wäre): dozens of dowsers produced different vein maps",
+        "1985 Oulu study (Prof. Onni Kari-Koskinen): return-journey veins did not match outward-journey veins",
+        "Gustav von Pohl's \"earth radiation\" / cancer claim cited as having no evidence"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "The Greatest Attractor and the Connecting Link of Everything in the Universe (Dmitry Istokov)",
       "domain": "",
       "source_url": "http://www.trinitas.ru/rus/doc/0232/009b/02321341.htm",
       "language": "Russian",
       "target_language": "English",
       "file": "2026-10-16-velichayshiy-attraktor-i-svyazuyushchee-zveno-istokov-ru.md",
       "content_file": null,
-      "excerpt": "ANNOTATION\n\nThis article can be called (in its finale) a hymn to a special Number — the Divine Proportion, or the Golden Section. In it there is revealed the true significance of this Number for the whole Universe (which"
+      "excerpt": "ANNOTATION\n\nThis article can be called (in its finale) a hymn to a special Number — the Divine Proportion, or the Golden Section. In it there is revealed the true significance of this Number for the whole Universe (which",
+      "summary": "A popular-style article by Dmitry Istokov (pseudonym of Dmitry Kabiolsky, a mechanical-design engineer from Perm), published by the Academy of Trinitarianism, presenting a series of claimed geometric discoveries about the golden section. Istokov describes constructing star polyhedra with dodecahedral/icosahedral symmetry by rotating figures around a golden-section axis, deriving the dodecahedron from a five-cube and the icosahedron from three mutually perpendicular golden rectangles, and a figure he calls the \"golden-section rhomboid\" that contains both. He also reports a regularity for generating the natural numbers in a golden-section base with periodicity scaling by Φ, and argues that the golden section is a universal quantitative \"connector\" and attractor for the whole universe. The article includes claims that official Russian science is obstructed by a \"sabotage lobby\" and that A. P. Stakhov was forced to move to Canada.",
+      "points": [
+        "Author Dmitry Istokov (pseudonym of Dmitry Kabiolsky), a mechanical-design engineer; popular-style article",
+        "Describes constructing star polyhedra by rotating a figure 72° around a golden-section axis",
+        "Derives the dodecahedron from a five-cube and the icosahedron from three golden rectangles",
+        "Introduces a \"golden-section rhomboid\" whose 30 faces are golden rhombi, containing both icosahedron and dodecahedron",
+        "Reports a periodicity, scaling by Φ, in generating natural numbers in a golden-section base",
+        "Claims a \"sabotage lobby\" in the Russian Academy of Sciences obstructs this work"
+      ]
     },
     {
       "date": "2026-10-16",
-      "title": "Dear Alexey Petrovich! (Cherepanov, trinitas 0232)",
+      "title": "Dear Alexey Petrovich! (Oleg Cherepanov's anniversary letter to A.P. Stakhov)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0232/012a/02322054.htm",
       "language": "Russian",
       "target_language": "English",
       "file": "2026-10-16-uvazhaemyy-aleksey-petrovich-cherepanov-ru.md",
       "content_file": null,
-      "excerpt": "About the author\n\nTaking your anniversary as an occasion, I want to thank you for the inexhaustible interest that your publications on the history of the \"golden\" section, and the pioneering works proving the suitability"
+      "excerpt": "About the author\n\nTaking your anniversary as an occasion, I want to thank you for the inexhaustible interest that your publications on the history of the \"golden\" section, and the pioneering works proving the suitability",
+      "summary": "A short congratulatory letter (2009) from Oleg Cherepanov, a Moscow metrologist-geophysicist, to A.P. Stakhov on his anniversary, published by the Academy of Trinitarianism. Cherepanov recounts how he first encountered Stakhov's work on \"golden\" arithmetic through an article in the Soviet popular-science journal Tekhnika — Molodezhi, and how a subsequent note of his own led to an invitation to a USSR State Committee for Science and Technology (GKNT) board session where Stakhov reported on his developments. The letter is a personal tribute rather than a technical paper, crediting Stakhov with organizing the Kiev seminars, the Vinnitsa conference, and the Institute of the Golden Section.",
+      "points": [
+        "Author: Oleg Cherepanov, metrologist-geophysicist, Moscow; a personal tribute letter, not a research paper",
+        "Cherepanov first learned of \"golden\" computer arithmetic from Stakhov's article in Tekhnika — Molodezhi",
+        "He responded with a note titled \"What numbers rule the world?\" in the same journal",
+        "Attended a USSR GKNT board session where Stakhov reported; met E. M. Soroko there",
+        "Credits Stakhov with founding the Kiev seminars, Vinnitsa conference, and the Institute of the Golden Section"
+      ]
     },
     {
       "date": "2026-10-16",
-      "title": "Three harmonic principles (ru->EN)",
+      "title": "Three Harmonic Principles (V. Govorov)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0232/013a/2108-gvr.pdf",
       "language": "Russian",
       "target_language": "English",
       "file": "2026-10-16-tri-garmonicheskikh-nachala-govorov-ru.md",
       "content_file": null,
-      "excerpt": "Three Harmonic Principles.\n\n\"Again everything has grown still until the dawn -\n                                             The door will not creak, the fire will not flare.\n                                              "
+      "excerpt": "Three Harmonic Principles.\n\n\"Again everything has grown still until the dawn -\n                                             The door will not creak, the fire will not flare.\n                                              ",
+      "summary": "An idiosyncratic essay by V.I. Govorov (dated 31 December 2011), published by the Academy of Trinitarianism, titled \"Three Harmonic Principles.\" Govorov develops a \"Theory of Harmony\" built on the arithmetic, geometric, and harmonic means (AM, GM, HM) and on a three-part relation he calls IZBA = (D + e)/BA, mixing in Russian-language wordplay (tracing \"quantity\" and \"quality\" to shared roots) and old-Russian architecture. He proposes a \"Quantum Theory of Numbers\" whose boundary condition is the formula D + e = D·e (sum equals product), examines cases where the extreme terms are irrational (including a value he calls the Philosopher's Stone, FI^(1/4) = 1.12784), and dismisses Cantor's theory of infinite sets. The essay is written in a polemical, mystical register and is signed \"RuskoYazychnik, Arithmetician, Mathematician and Divine Materialist.\"",
+      "points": [
+        "Author V.I. Govorov, 31 December 2011; an essay, not a peer-reviewed paper",
+        "Builds on the arithmetic, geometric, and harmonic means (AM, GM, HM)",
+        "Defines a three-part relation IZBA = (D + e)/BA",
+        "Proposes a \"Quantum Theory of Numbers\" with boundary condition D + e = D·e (sum equals product)",
+        "Names a value the \"Philosopher's Stone\" at FI^(1/4) = 1.12784",
+        "Dismisses Cantor's theory of infinite sets as lacking harmony"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Vasilenko: There is no such golden section in nature (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/009b/1337-vs.pdf",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-16-tak-takovogo-zolotogo-secheniya-v-prirode-net-vasilenko-ru.md",
+      "content_file": null,
+      "excerpt": "S.L. Vasilenko\nThere is no such golden section in nature\nUsually in such cases we say \"no\",\nbut now, as an exception, we will say \"no-o-o\"\nLet us immediately draw the attention of the impartial reader to the fact that th",
+      "summary": "A 21-page critical essay by S.L. Vasilenko (Kharkiv, 2025), published by the Academy of Trinitarianism, titled \"There is no such golden section in nature.\" Vasilenko, who says he admires the golden ratio as a mathematical object, argues that the term \"golden section\" is historically and terminologically wrong. He traces the term to the German mathematician Martin Ohm (1835), not to Leonardo da Vinci or Pythagoras as often claimed, and shows that the widespread da Vinci/Pythagoras attributions are unsupported. He argues the operative concept is a proportion (golden ratio or \"golden growth\"), not a division, and proposes the tribonacci constant t ≈ 1.8393 (root of x³ = x² + x + 1) as a more adequate three-part analogue. The essay critiques the phyllotaxis double-helix debate and calls \"generalized golden sections\" a nonsense term, citing skeptical sources including Markowsky, Falbo, and Gardner.",
+      "points": [
+        "Author S.L. Vasilenko, Kharkiv, 2025; a critical/terminological essay on the golden section",
+        "Traces the term \"golden section\" to Martin Ohm (1835), not da Vinci or Pythagoras",
+        "Argues the concept is a proportion (golden ratio/growth), not a division of a whole",
+        "Proposes the tribonacci constant t ≈ 1.8393 (root of x³ = x² + x + 1) as a three-part analogue",
+        "Calls \"generalized golden sections\" a nonsense term",
+        "Cites skeptical sources: Markowsky (1992), Falbo (2005), Gardner"
+      ]
     },
     {
       "date": "2026-10-16",
@@ -139,7 +221,16 @@
       "target_language": "English",
       "file": "2026-10-16-stakhov-note-hyperbolic-functions-hilbert-4th-problem-ru.md",
       "content_file": null,
-      "excerpt": "A.P. Stakhov\n\nA Note concerning the hyperbolic functions of\n    Bodnar, Stakhov, Tkachenko and Rozin and the solution of Hilbert's 4th\n         problem (Stakhov, Aranson)\n\n                           And one last remark c"
+      "excerpt": "A.P. Stakhov\n\nA Note concerning the hyperbolic functions of\n    Bodnar, Stakhov, Tkachenko and Rozin and the solution of Hilbert's 4th\n         problem (Stakhov, Aranson)\n\n                           And one last remark c",
+      "summary": "A note by A.P. Stakhov (with S. Aranson), published by the Academy of Trinitarianism, describing a new class of hyperbolic functions and a claimed solution to Hilbert's fourth problem. Stakhov recounts that in the late 1980s he and Ivan Tkachenko, and independently Oleg Bodnar, introduced hyperbolic functions whose base is the golden proportion rather than Euler's number e; Academician Yu. A. Mitropolsky supported the work and proposed naming them the Stakhov-Tkachenko hyperbolic functions and Bodnar's geometry. The note generalizes these to \"metallic proportions\" Φλ (a term from Vera Spinadel, with λ = 1 giving the golden proportion), and reports that a 2008 paper in Congressus Numerantium constructs an infinite family of metric forms of the Lobachevsky plane with Gaussian curvature −1, which the author presents as a contribution toward Hilbert's fourth problem. It also claims priority for the discoveries and cites recognition in WolframMathWorld.",
+      "points": [
+        "Author A.P. Stakhov (with S. Aranson); a note on hyperbolic functions and Hilbert's 4th problem",
+        "New hyperbolic functions use the golden proportion Φ as base instead of Euler's number e",
+        "Introduced in the late 1980s by Stakhov/Tkachenko and independently by Oleg Bodnar",
+        "Generalized to \"metallic proportions\" Φλ (term from Vera Spinadel); λ=1 gives the golden proportion",
+        "Reports metric λ-forms of the Lobachevsky plane with Gaussian curvature K = −1",
+        "Cites publication in Congressus Numerantium 193 (2008) and recognition in WolframMathWorld"
+      ]
     },
     {
       "date": "2026-10-14",
@@ -150,73 +241,169 @@
       "target_language": "English",
       "file": "translations/2026-10-14-stakhov-constructive-algorithmic-theory-measurement-ru.md",
       "content_file": null,
-      "excerpt": "The article consists of 8 parts:\n\nThe role of measurement in the development of science\n\nThe mathematical theory of measurement and the problem of infinity\n\nThe mathematical model of measurement. Optimal (n,k,0)-algorith"
+      "excerpt": "The article consists of 8 parts:\n\nThe role of measurement in the development of science\n\nThe mathematical theory of measurement and the problem of infinity\n\nThe mathematical model of measurement. Optimal (n,k,0)-algorith",
+      "summary": "Part 6 of A.P. Stakhov's multi-part article \"Constructive (algorithmic) theory of measurement,\" published by the Academy of Trinitarianism (2012). This instalment is largely a historical and autobiographical account of the research program behind \"golden\" number systems: the algorithmic theory of measurement, p-Fibonacci numbers, golden p-sections, Fibonacci computers, and golden-proportion codes. Stakhov traces the work through three institutions (Kharkiv Institute of Radio Electronics 1963-1971, Taganrog Radio Engineering Institute 1971-1977, Vinnitsa Polytechnic Institute 1977-1996), names collaborators including mathematician Igor Vitenko and doctoral student Nikolai Alipov, and describes his 1972 doctoral dissertation on optimal analog-to-digital conversion algorithms. He frames the turn to new number systems as a response to the fact that binary computers cannot read the output of the new converters.",
+      "points": [
+        "Part 6 of an 8-part article; the series covers the algorithmic theory of measurement",
+        "Research conducted at Kharkiv (1963-71), Taganrog (1971-77), Vinnitsa (1977-96)",
+        "Collaborators named: mathematician Igor Vitenko, doctoral student Nikolai Alipov",
+        "Stakhov defended his doctoral dissertation on optimal ADC algorithms in 1972",
+        "Stated motivation: binary computers cannot read output in the new (Fibonacci/golden) codes"
+      ]
     },
     {
       "date": "2026-10-16",
-      "title": "Contemporary natural science in a fateful methodological crisis (Abachiev, trinitas 0232)",
+      "title": "Contemporary Natural Science in a Fateful Methodological Crisis — How Can the Mathematics of Harmony Help? (S.K. Abachiev)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0232/012a/02322045.htm",
       "language": "Russian",
       "target_language": "English",
       "file": "2026-10-16-sovremennoe-estestvoznanie-metodologicheskiy-krizis-abachiev-ru.md",
       "content_file": null,
-      "excerpt": "About the author\n\nStakhov is the Pythagoras of today,\n\nas Mandelbrot is the Euclid of today.\n\nThe author\n\nPhysicists are embarking on systematic experiments with the superhot primordial matter of the Universe. Euphoria r"
+      "excerpt": "About the author\n\nStakhov is the Pythagoras of today,\n\nas Mandelbrot is the Euclid of today.\n\nThe author\n\nPhysicists are embarking on systematic experiments with the superhot primordial matter of the Universe. Euphoria r",
+      "summary": "A long essay by S.K. Abachiev (2009), published by the Academy of Trinitarianism, arguing that contemporary natural science is in a \"fateful methodological crisis.\" Abachiev contends that in elementary-particle physics the direct experiment must not run ahead of theory, warning that further experiments with the primordial matter of the universe could provoke a \"cosmic catastrophe of galactic scale\" (citing Hut and Rees on vacuum stability). He reviews the methodology of modern science, the relation between fundamental and applied research, and the history of information theory (Hartley, Shannon) and holography (Gabor, Denisyuk), and proposes that A.P. Stakhov's \"mathematics of harmony\" — golden-proportion coding and a redundant, self-diagnosing information theory — could contribute to overcoming the crisis. The essay is written as a tribute to Stakhov and laments the 1989 dissolution of his Vinnitsa research school.",
+      "points": [
+        "Author S.K. Abachiev, 2009; a methodological essay, not a research paper",
+        "Argues particle-physics experiments with primordial matter could risk a \"cosmic catastrophe\"",
+        "Cites Hut and Rees, \"How stable is our vacuum?\" (Nature, 1983)",
+        "Reviews the history of information theory (Hartley, Shannon) and holography (Gabor, Denisyuk)",
+        "Proposes Stakhov's golden-proportion coding as a candidate theory of information",
+        "Lamens the 1989 dissolution of Stakhov's Vinnitsa research school"
+      ]
     },
     {
       "date": "2026-10-16",
-      "title": "Wojtkowiak: Shape field, long-term memory (pl->EN)",
+      "title": "Radiesthesia (Romanian Wikipedia) (ro->EN)",
+      "domain": "",
+      "source_url": "https://ro.wikipedia.org/wiki/Radiestezie",
+      "language": "Romanian",
+      "target_language": "English",
+      "file": "2026-10-16-radiestezie-romanian-wikipedia-ro.md",
+      "content_file": null,
+      "excerpt": "Radiesthesia is the claimed faculty of the human body to perceive non-luminous and non-infrared electromagnetic radiations. The etymology of the word comes from the Latin radios = radiations and the Greek esthesia = sens",
+      "summary": "A Romanian-language Wikipedia article (translated) on radiesthesia — the claimed human faculty of perceiving non-luminous electromagnetic radiation, used to locate water, minerals, oil, and buried objects with rods or pendulums. The article states plainly that radiesthesia is considered a pseudoscience. It traces the practice from prehistoric and ancient use (China, Egypt, Herodotus's account of the Scythians) through the coining of the term by the French abbe de Bouly around 1890, and details a Romanian tradition including engineer Simu Simeon (who reported finding 50% of oil and gold deposits for Astra in 1935-1940 and published the first Romanian manual, The Angular Rod, in 1940), Col. Constantin Cojocaru, and Claudian Dumitriu (who introduced the term \"info-energetics\" in 1988). It catalogs instruments and describes the two largest controlled tests: Sydney 1980 and Munich 1987-88, both of which found no statistically significant dowsing ability.",
+      "points": [
+        "Romanian Wikipedia article; states radiesthesia is considered a pseudoscience",
+        "Sydney 1980 test (Randi/Smith): 16 dowsers expecting 92% success scored ~15%, near chance",
+        "Munich 1987-88: 500+ radiesthesists in 10,000+ double-blind tests; no significant result",
+        "Romanian engineer Simu Simeon reported finding 50% of oil/gold deposits for Astra, 1935-1940",
+        "Claudian Dumitriu introduced the term \"info-energetics\" in 1988; invented the ansa and centesimal protractor"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Is Radiesthesia Science or Pseudoscience? (Daniél Fidélis, 2025) (pt->EN)",
+      "domain": "",
+      "source_url": "https://alquimiaoperativa.com/radiestesia-e-ciencia/",
+      "language": "Portuguese",
+      "target_language": "English",
+      "file": "2026-10-16-radiestesia-ciencia-ou-pseudociencia-fidelis-pt.md",
+      "content_file": null,
+      "excerpt": "Radiesthesia, often the target of mockery and confused with mere superstition, is in reality an ancestral knowledge that preserves the intimate connection between the human being and the subtle vibrations that permeate a",
+      "summary": "A Portuguese-language advocacy article by Daniel Fidelis (Alquimia Operativa, 10 July 2025), translated, arguing that radiesthesia should be considered a science rather than pseudoscience. Written as one pole of a 2025 Brazilian debate, it contends that science is not limited to laboratory statistics, that radiesthesia satisfies observation and repeatability, and that its instruments (pendulum, rod, antenna) amplify micro neuromuscular reactions in the operator. It cites masters including Chaumery, Belizal, Saevarius, and Antonio Rodrigues, and repeats the historical claim that the Chinese emperor Yu used dowsing over four thousand years ago. The article is promotional, ending by directing readers to the author's paid course in \"Classical and Kabbalistic Radiesthesia.\" No measurements or controlled tests are cited.",
+      "points": [
+        "Author Daniel Fidelis (Alquimia Operativa), 10 July 2025; pro-radiesthesia advocacy",
+        "Argues radiesthesia meets observation/repeatability criteria and is not pseudoscience",
+        "Cites masters Chaumery, Belizal, Saevarius, Antonio Rodrigues",
+        "Repeats the claim that the Chinese emperor Yu used dowsing about 4,000 years ago",
+        "Promotional: ends by directing readers to the author's paid radiesthesia course"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Shenyagin - Representation of p-constants by roots of their own degree (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/009a/1207-sh.pdf",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-16-predstavlenie-p-konstant-kornyami-shenyagin-ru.md",
+      "content_file": null,
+      "excerpt": "V.P. Shenyagin\nRepresentation of p-constants\nby roots of their own degree and of the degree x of the number x\n\nThe p-constants (p-proportions, p-codes, p-numbers, p-coefficients, p-attractors) discovered by A.P. Stakhov ",
+      "summary": "A short technical note by V.P. Shenyagin (2011), published by the Academy of Trinitarianism, on numerical relationships involving the \"p-constants\" (p-proportions, p-codes, p-numbers) introduced by A.P. Stakhov and I.V. Vitenko. Shenyagin states two approximate identities: that the p_m-th root of p_m approximates the constant p_{m-3}, and that the x-th root of an integer x approximates a p-constant. He supports both with tables of computed values, rounded by truncation rather than by mathematical rounding rules. He also notes that p_1 and p_2 cannot be represented this way because the maximum of x^(1/x) is e^(1/e) ≈ 1.4446, attained at x = e.",
+      "points": [
+        "Author V.P. Shenyagin; a short numerical note on Stakhov-Vitenko \"p-constants\"",
+        "Claim 1: the p_m-th root of p_m ≈ p_{m-3} (stated valid at least for m = 3 to 18)",
+        "Claim 2: the x-th root of an integer x ≈ a p-constant p_m",
+        "Notes max of x^(1/x) is e^(1/e) ≈ 1.444667861, so p_1 and p_2 cannot be represented",
+        "Values given by truncation, not mathematical rounding, \"so as not to distort the p-constants\""
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Shape Field, Long-Term Memory (Diana Wojtkowiak, 2023)",
       "domain": "",
       "source_url": "http://www.torsionfield.eu/wordpress/wp-content/uploads/2025/12/03-Pole-kszta%C5%82tu-pami%C4%99%C4%87-d%C5%82ugoterminowa.pdf",
       "language": "Polish",
       "target_language": "English",
       "file": "2026-10-16-pole-ksztaltu-pamiec-dlugoterminowa-wojtkowiak-pl.md",
       "content_file": null,
-      "excerpt": "Shape field, long-term memory\n          Diana Wojtkowiak 2023\n\nwww.torsionfield.eu         1\n\n                     Shape radiation - spectrum\n                             400                                Vials of 9 ml "
+      "excerpt": "Shape field, long-term memory\n          Diana Wojtkowiak 2023\n\nwww.torsionfield.eu         1\n\n                     Shape radiation - spectrum\n                             400                                Vials of 9 ml ",
+      "summary": "A Polish slide presentation by Dr Diana Wojtkowiak (2023), from torsionfield.eu, reporting \"shape-radiation spectroscopy\" measurements of homeopathic preparations made from geometric solids (cone, prism, cylinder, toroid, sphere) and from metal animal figurines. The charts plot a \"range\" in centimetres against an angle in degrees, with copper-peak envelopes and category tables (K1-K12). The author reports that when a figurine's preparation \"agrees\" with the shape, the radiation range increases about 1.5-fold, and that no change occurs when it does not agree. A final section reports \"long-term memory\": artificially generated torsion fields recorded at 8 Hz to 131 kHz were later \"fished out\" and assigned Category K12. The claims are presented as the author's own measurements; the document is marked private archive / research use only.",
+      "points": [
+        "Author Dr Diana Wojtkowiak (2023), torsionfield.eu; a slide deck of measurements",
+        "Method: \"shape-radiation spectroscopy\" of homeopathic preparations of geometric solids",
+        "Reports a ~1.5x radiation-range increase when a figurine preparation \"agrees\" with the shape",
+        "Uses category tables K1-K12 relating category to angular measure",
+        "Reports \"long-term memory\": torsion fields recorded at 8 Hz-131 kHz later recovered as Category K12"
+      ]
     },
     {
       "date": "2026-10-16",
-      "title": "Dragavtseva - Base of natural logarithm and other constants in the Cheops pyramid (ru->EN)",
+      "title": "Illusion or Reality? On the Essence and Limitations of Perception (Dario Salas Sommer)",
+      "domain": "",
+      "source_url": "http://www.trinitas.ru/rus/doc/0232/010a/02322001.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "translations/2026-10-16-o-suti-i-ogranicheniyakh-vospriyatiya-salas-sommer-ru.md",
+      "content_file": null,
+      "excerpt": "Originally Philosophy and Science were one in the tireless search for the keys to being and in the striving to comprehend the mysteries of life and the Universe. But after the passage of many centuries, for the most vari",
+      "summary": "An essay by Dario Salas Sommer (Santiago, Chile, 2009), published by the Academy of Trinitarianism, arguing that the \"Mathematics of Harmony\" should be extended from number theory into ethics — toward a \"Golden Standard of Success\" and \"golden behaviour.\" Salas Sommer claims to have conducted experiments showing that violations of morality immediately cause a fall in a person's \"vital force,\" and that an unworthy act emits a destructive \"photonic impulse\" that disturbs cosmic harmony. He cites Nikita Moiseev on morality, astronomer Butusov on planetary harmony, Tsvetkov on the cardiovascular system, and P. Gariaev on photon emission, and proposes that states invest in the development of \"Morality and Consciousness.\" The claims are presented as the author's own assertions and are not supported by cited measurements.",
+      "points": [
+        "Author Dario Salas Sommer, Santiago, Chile, 2009; an essay, not a study",
+        "Claims experiments show moral violations immediately lower a person's \"vital force\"",
+        "Asserts an unworthy act emits a destructive \"photonic impulse\" disturbing cosmic harmony",
+        "Cites Butusov (planetary harmony), Tsvetkov (cardiovascular), Gariaev (photons), Moiseev (morality)",
+        "Proposes a \"Golden Standard of Success\" and state investment in Morality/Consciousness"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "The Base of the Natural Logarithm and Other Constants in the Cheops Pyramid (N.A. Dragavtseva)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0232/013a/2134-dr.pdf",
       "language": "Russian",
       "target_language": "English",
       "file": "2026-10-16-osnovanie-naturalnogo-logarifma-konstanty-piramida-heopsa-dragavtseva-ru.md",
       "content_file": null,
-      "excerpt": "N.A. Dragavtseva\n\nThe base of the natural logarithm and other constants in\n                     the Cheops pyramid\n\nWhat is not completed is not done at all.\n                                         Motto of Carl Friedri"
+      "excerpt": "N.A. Dragavtseva\n\nThe base of the natural logarithm and other constants in\n                     the Cheops pyramid\n\nWhat is not completed is not done at all.\n                                         Motto of Carl Friedri",
+      "summary": "A short paper by N.A. Dragavtseva (2011), published by the Academy of Trinitarianism, arguing that the external dimensions of the Great Pyramid of Cheops encode three mathematical constants. Taking height 147 m and base side 231 m (ratio 7:11), the author derives the number π, the golden proportion Φ, and the base of the natural logarithm e, proposing the formula e = 4S/(L² − S) where S is the lateral-face area; this gives e ≈ 2.71862, a deviation of 0.012% from the theoretical value. The paper also examines the pyramid's truncated height (about 137.3–137.6 m), connecting it to the golden angle 137.51°, and notes that a circle of that diameter has a circumference of 432. The author treats the constants as deliberately encoded rather than coincidental.",
+      "points": [
+        "Author N.A. Dragavtseva; argues Cheops pyramid dimensions encode π, Φ, and e",
+        "Uses height 147 m and base side 231 m (ratio 7:11, ~51°50' face angle)",
+        "Proposes e = 4S/(L² − S), giving e ≈ 2.71862 (0.012% deviation)",
+        "Links the truncated height (137.3–137.6 m) to the golden angle 137.51°",
+        "Notes a circle of diameter 137.51 has circumference 432"
+      ]
     },
     {
       "date": "2026-10-16",
-      "title": "La Radionica Italiana - Onde di Forma (Form Waves in Radionics) (it->EN)",
+      "title": "Onde di Forma in Radionica (La Radionica Italiana)",
       "domain": "",
       "source_url": "https://www.radionicaitaliana.it/laradionica/ondeforma.html",
       "language": "Italian",
       "target_language": "English",
       "file": "2026-10-16-onde-di-forma-radionica-italiana-it.md",
       "content_file": null,
-      "excerpt": "FORM WAVES. All electromagnetic waves — among them cosmic waves, sound waves, down to the subtlest energies, including those emitted by cerebral activity (P waves, or thought) and others, not all of them measurable by sc"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Stakhov — On the Use of the Bergman System in a Computer (reply to Nikitin) (ru->EN)",
-      "domain": "",
-      "source_url": "http://www.trinitas.ru/rus/doc/0232/009a/02321222.htm",
-      "language": "Russian",
-      "target_language": "English",
-      "file": "2026-10-16-ob-ispolzovanii-sistemy-bergmana-v-kompyutere-stakhov-ru.md",
-      "content_file": null,
-      "excerpt": "Dear Andrey Viktorovich!\n\nAnd how do you imagine the use of the classical binary code in a computer? After all, the word length of any computer is limited. And therefore those real numbers which require unlimited word le"
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Dario Salas Sommer — On the essence and limitations of perception (ru->EN)",
-      "domain": "",
-      "source_url": "http://www.trinitas.ru/rus/doc/0232/010a/02322001.htm",
-      "language": "Russian",
-      "target_language": "English",
-      "file": "2026-10-16-o-suti-i-ogranicheniyakh-vospriyatiya-salas-sommer-ru.md",
-      "content_file": null,
-      "excerpt": "The normal existence of a human being depends entirely on his capacities of perception, yet we are absolutely incapable of directly perceiving the external world; our field of vision is limited by the framework of our ow"
+      "excerpt": "FORM WAVES. All electromagnetic waves — among them cosmic waves, sound waves, down to the subtlest energies, including those emitted by cerebral activity (P waves, or thought) and others, not all of them measurable by sc",
+      "summary": "A practitioner exposition from the Italian site La Radionica Italiana (translated) on \"form waves\" (onde di forma) — the claimed emission of vibrations by the shape of objects, geometric figures, drawings, and symbols. The text asserts that all matter emits a form-based vibration with a wavelength on the order of angstroms, that numbers express cosmic vibrations, and that specific geometric circuits (the lozenge of Herrinx, the star, Celtic crosses, the shield of Servranx, the heptagon, the decagon, and others) transmit \"V\" and \"P\" fields for purposes such as protection, charging witnesses, and regeneration. It presents Steiner-derived etheric theory (chemical, vital, luminous, and reflecting ethers) and describes three formative-force experiments — capillary dynamolysis, copper chloride crystallization, and water-drop patterns. A closing note states that radionics is not officially recognized in Italy and that operators may not diagnose or prescribe.",
+      "points": [
+        "Source: La Radionica Italiana; a practitioner account of \"form waves\" (onde di forma)",
+        "Claims form waves have wavelengths on the order of angstroms, near cell scale",
+        "Names circuits: lozenge of Herrinx, shield of Servranx, heptagon, decagon, Celtic cross",
+        "Describes three formative-force methods: capillary dynamolysis, copper chloride crystallization, water-drop patterns",
+        "Uses Steiner-derived ethers (chemical, vital, luminous, reflecting)",
+        "Closing note: radionics is not officially recognized in Italy"
+      ]
     },
     {
       "date": "2026-10-15",
@@ -253,6 +440,17 @@
     },
     {
       "date": "2026-10-16",
+      "title": "The Unemployed Were Set to Assemble an 'Earth-Radiation Detector' (Yle, 2019) (fi->EN)",
+      "domain": "",
+      "source_url": "https://yle.fi/a/3-10603767",
+      "language": "Finnish",
+      "target_language": "English",
+      "file": "2026-10-16-maasateilyn-estin-tyottomat-kaavi-yle-fi.md",
+      "content_file": null,
+      "excerpt": "[Photo caption: The metal-containing plastic posts that block earth radiation are made in Joensuu and assembled in Kaavi. Photo: Toni Pitkänen / Yle] Veli-Pekka Hämäläinen 21.1.2019 11:02 • Updated 21.1.2019 11:09 Risto "
+    },
+    {
+      "date": "2026-10-16",
       "title": "Dan Shechtman's Quasicrystals: Another Golden-Section-Based Discovery Awarded the Nobel Prize (Stakhov)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0232/009a/1233-sth.pdf",
@@ -286,7 +484,7 @@
     },
     {
       "date": "2026-10-16",
-      "title": "Egely - Introduction to Space Technology Part 3 (Energetics, Antigravity, Hyperspace) (hu->EN)",
+      "title": "Introduction to Space Technology, Part 3: Energetics, Antigravity, Hyperspace (György Egely)",
       "domain": "",
       "source_url": "https://egely.hu/konyv/e-gy-bevezetes-a-tertechnologiaba-2-resz-energetika-egely-kft-1999-2004-3-kiadas/",
       "language": "Hungarian",
@@ -297,7 +495,7 @@
     },
     {
       "date": "2026-10-16",
-      "title": "Callegari: The Callegari Radionic Principle (1945) (it->EN)",
+      "title": "The Callegari Radionic Principle (1945 memoir, Giambattista Callegari)",
       "domain": "",
       "source_url": "https://www.radionicacallegari.com/il-principio-radionico-callegari-1945-/",
       "language": "Italian",
@@ -319,7 +517,7 @@
     },
     {
       "date": "2026-10-16",
-      "title": "Vasilenko - The main secret of the golden proportion (ru->EN)",
+      "title": "The Main Secret of the Golden Proportion (S.L. Vasilenko)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0232/013a/2109-vs.pdf",
       "language": "Russian",
@@ -330,7 +528,29 @@
     },
     {
       "date": "2026-10-16",
-      "title": "Istodin — Formalism of self-organization and auto-creative processes. The Metaphysics of the Golden Proportion as a special case (ru->EN)",
+      "title": "The Geometry of Phyllotaxis of Oleg Bodnar (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/010a/02322004.htm",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-16-geometriya-fillotaksisa-olega-bodnara-stakhov-ru.md",
+      "content_file": null,
+      "excerpt": "On September 1, 2007, Doctor of Art History, Professor Oleg Yaroslavovich Bodnar (Lviv, Ukraine) turns 60. In this connection, it was decided in Lviv to publish a special collection dedicated to Oleg Bodnar's 60th birthd"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Generalized Cassini formula: how many integer recurrent sequences satisfy it (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/009a/1316-sth.pdf",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-16-generalized-cassini-formula-stakhov-ru.md",
+      "content_file": null,
+      "excerpt": "Alexey Stakhov\n\nGeneralized Cassini formula: how many integer recurrent sequences satisfy this formula?\n\nContents\n   1. The connection of Fibonacci numbers with elementary number theory and combinatorics\n   2. What is th"
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Formalism of Self-Organization and Auto-Creative Processes — the Metaphysics of the Golden Proportion as a Special Case (K. Istodin)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0232/010a/02322002.htm",
       "language": "Russian",
@@ -341,7 +561,7 @@
     },
     {
       "date": "2026-10-16",
-      "title": "Dowsing and its scientific explanation - Lesvian dowsers (Houtzaios) (el->EN)",
+      "title": "Dowsing and Its Scientific Explanation — the Lesvian Dowsers (article on Giorgos Houtzaios)",
       "domain": "",
       "source_url": "https://www.emprosnet.gr/feed/34163-i-ravdoskopia-kai-i-epistimoniki-tis-exigisi-lesvioi-ravdoskopoi",
       "language": "Greek",
@@ -352,7 +572,7 @@
     },
     {
       "date": "2026-10-16",
-      "title": "Vasilenko — Doubly quadratic number structures (ru->EN)",
+      "title": "Doubly Quadratic Number Structures (S.L. Vasilenko)",
       "domain": "",
       "source_url": "https://www.trinitas.ru/rus/doc/0232/013a/2136-vs.pdf",
       "language": "Russian",
@@ -360,6 +580,17 @@
       "file": "2026-10-16-doubly-quadratic-number-structures-vasilenko-ru.md",
       "content_file": null,
       "excerpt": "S.L. Vasilenko\n                       Doubly quadratic number structures\n                                                                              One mind is good, but\n                                               "
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Are Fibonacci numbers a universal genetic code of the cosmos (ru->EN)",
+      "domain": "",
+      "source_url": "https://www.trinitas.ru/rus/doc/0232/009a/1315-sth.pdf",
+      "language": "Russian",
+      "target_language": "English",
+      "file": "2026-10-16-are-fibonacci-numbers-universal-genetic-code-cosmos-stakhov-ru.md",
+      "content_file": null,
+      "excerpt": "Alexey Stakhov\nAre Fibonacci numbers a universal genetic code of the Cosmos?\n  (On a little-known page of the scientific work of Alan Turing)\n\n1. Alfred Brousseau and Verner Hoggatt — the creators of the Fibonacci Associ"
     },
     {
       "date": "2026-10-15",
@@ -9415,7 +9646,7 @@
     {
       "date": "2026-10-02",
       "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-      "domain": "torsion-field-physics",
+      "domain": "",
       "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
       "language": "Russian",
       "target_language": "English",
@@ -10823,8 +11054,8 @@
     {
       "date": "2026-09-22",
       "title": "Latent Light and the Color of Plasma — Kelsya hypothesis of selective revelation",
-      "domain": "plasma-cosmology",
-      "source_url": "https://zenodo.org/records/15213818",
+      "domain": "",
+      "source_url": "",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-lumiere-latente-couleur-plasma-kelsya-fr.md",
@@ -10834,8 +11065,8 @@
     {
       "date": "2026-09-22",
       "title": "La Structure Révélée — Complete deciphering of the real through the Kelsya vision",
-      "domain": "plasma-cosmology",
-      "source_url": "https://zenodo.org/records/15202198",
+      "domain": "",
+      "source_url": "",
       "language": "French",
       "target_language": "English",
       "file": "translations/2026-09-20-la-structure-revelee-kelsya-fiquemont-fr.md",
@@ -11263,7 +11494,7 @@
     {
       "date": "2025-11-17",
       "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-      "domain": "aether",
+      "domain": "",
       "source_url": "https://doi.org/10.5281/zenodo.17626722",
       "language": "Spanish",
       "target_language": "English",
@@ -11899,6 +12130,102 @@
         {
           "title": "Early",
           "description": "literacy recovery in a non-North-American cohort.",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "file": "2026-10-16-scout-b-langs-2.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Wikipedia (ro)",
+          "description": "\"Radiestezie\" — NEW",
+          "url": ""
+        },
+        {
+          "title": "Societatea de Inforenergetică",
+          "description": "\"Radiestezie: ce este, cum funcționează și cum se învață\" — NEW",
+          "url": ""
+        },
+        {
+          "title": "Sant'AMIA",
+          "description": "\"Tratamente inforenergetice cu bioenergie: analiză, consultanță, cercetare, investigații\" — NEW",
+          "url": ""
+        },
+        {
+          "title": "Terapie Holistică",
+          "description": "\"Radiestezie și Infoenergetică\" — NEW",
+          "url": ""
+        },
+        {
+          "title": "Wikipedia (fi)",
+          "description": "\"Vesisuoni\" (water vein) — NEW",
+          "url": ""
+        },
+        {
+          "title": "Veli",
+          "description": "Pekka Hämäläinen — \"Työttömät pantiin kokoamaan 'maasäteilyn estimiä' – valtiokin rahoittaa erikoista keksintöä, jonka tiede totesi huuhaaksi jo 1980-luvulla\" (Yle, 2019) — NEW",
+          "url": ""
+        },
+        {
+          "title": "geographic_origin",
+          "description": "** Romania (encyclopedic article; Romanian radiesthesia tradition)",
+          "url": ""
+        },
+        {
+          "title": "researcher names",
+          "description": "** (Wikipedia contributors; draws on the Romanian school — Cojocaru, Dumitriu, Simu Simeon)",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "file": "2026-10-16-scout-b-langs-1.md",
+      "scout": "",
+      "languages": "",
+      "finds": [
+        {
+          "title": "Machado J. Joaquín",
+          "description": "\"Analyzing the impact of Wi-Fi radiation on structured water stability: a six-phase study with SPIRO field application\" (2025) — NEW",
+          "url": ""
+        },
+        {
+          "title": "Diego Broseta Pastor",
+          "description": "\"Realización de un producto industrial basado en la estética de la teoría de la implosión de Viktor Schauberger\" (2018) — NEW",
+          "url": ""
+        },
+        {
+          "title": "Professeur Jacques Théron",
+          "description": "\"Figure 11 : Utilisation de la « Mémoire de l'Eau »\" — NEW",
+          "url": ""
+        },
+        {
+          "title": "Bordeleau, Lévesque, Giroux & Gloaguen",
+          "description": "\"Sourciers et sourcières des temps modernes : une étude scientifique sur la méthode traditionnelle de radiesthésie\" (Acfas, 92e Congrès) — NEW",
+          "url": ""
+        },
+        {
+          "title": "Fabio Lucas Carvalho",
+          "description": "\"A velha arte de achar água com gravetos no sertão do Nordeste — ciência confirma ou desmente a radiestesia?\" (2025) — NEW",
+          "url": ""
+        },
+        {
+          "title": "Daniél Fidélis",
+          "description": "\"Radiestesia é Ciência ou Pseudociência?\" (2025) — NEW",
+          "url": ""
+        },
+        {
+          "title": "geographic_origin",
+          "description": "** Spain / Latin America (SPIRO Solution — vendor-hosted study; author Joaquín J. Machado)",
+          "url": ""
+        },
+        {
+          "title": "researcher names",
+          "description": "** Joaquín J. Machado",
           "url": ""
         }
       ]
@@ -33438,14 +33765,14 @@
       "domains": [
         "Aether Physics",
         "Alternative Physics",
-        "Biology"
+        "Anthroposophy / Rudolf Steiner"
       ],
       "sources": [
         "https://www.rexresearch.com/teslacospr/december.html",
         "https://www.rexresearch.com/teslacospr/januarey.html"
       ],
       "source_count": 5,
-      "patents": 15
+      "patents": 16
     },
     {
       "name": "Randell Mills",
@@ -33616,6 +33943,20 @@
       "patents": 0
     },
     {
+      "name": "T. Henry Moray",
+      "domains": [
+        "Alternative Physics",
+        "Biology / Health",
+        "Conspiracy / Politics"
+      ],
+      "sources": [
+        "https://wiki.naturalphilosophy.org/index.php?title=Gunfire_in_the_Laboratory%3A_T._Henry_Moray_and_the_Free_Energy_Machine",
+        "https://wiki.naturalphilosophy.org/index.php?title=The_Energy_Machine_of_T._Henry_Moray%3A_Zero-Point_Energy_and_Pulsed_Plasma_Physics"
+      ],
+      "source_count": 5,
+      "patents": 0
+    },
+    {
       "name": "Kristian Reynolds",
       "domains": [
         "Alternative Physics",
@@ -33712,20 +34053,6 @@
       ],
       "source_count": 5,
       "patents": 1
-    },
-    {
-      "name": "Stanley Meyer",
-      "domains": [
-        "Aether Physics",
-        "Biology",
-        "Chemistry"
-      ],
-      "sources": [
-        "https://www.rexresearch.com/meyerhy/4389981.htm",
-        "https://www.rexresearch.com/meyerhy/4421474.htm"
-      ],
-      "source_count": 5,
-      "patents": 0
     }
   ],
   "domains": [
@@ -34178,9 +34505,9 @@
       "mission": "Second overnight sweep in a different set of languages — catches what the first pass missed.",
       "schedule": "nightly 2am MDT",
       "icon": "🌅",
-      "last_run": "2026-10-15T08:11:14Z",
+      "last_run": "2026-10-16T08:17:16Z",
       "last_status": "ok",
-      "last_summary": "+2 finds since last run (70->72) | 11 finds across 6 languages cs ko ja tr hr uk nl — Czech 1985 ether/radio history, Korean Emoto water-memory report, Japanese ISLIS water-memory/morphic-field lecture, Croatian radiesthesia manual, Ukrainian torsional-consciousness paper, Dutch dowsing counter-inte"
+      "last_summary": "74 finds total (first recorded) | 12 finds across es/fr/pt-BR/ro/fi in 2 files: SPIRO structured-water Wi-Fi-RF GDV study, Schauberger implosion design thesis, Theron water-memory protocol, Acfas dowsing trial, 2 Brazilian radiesthesia pieces, 4 Romanian inforenergetics items, 2 Finnish counter-inte"
     },
     {
       "member": "translation-curator",
@@ -34189,9 +34516,9 @@
       "mission": "Produces first-ever full English translations and archives a durable copy of every source.",
       "schedule": "daily, offset hours",
       "icon": "✒️",
-      "last_run": "2026-10-16T06:51:51Z",
+      "last_run": "2026-10-16T09:02:35Z",
       "last_status": "ok",
-      "last_summary": "+2 docs since last run 1118->1120 | full-translated plus archived 3 trinitas 0232 golden-section articles ru to EN: Dragavtseva Cheops pyramid natural-logarithm constants 3 of 3, Vasilenko main secret of the golden proportion 4 of 4, Govorov three harmonic principles 10 of 10 | backlog 330 | gear ov"
+      "last_summary": "+4 docs since last run 1130 to 1134 | 4 trinitas 0232 golden-section math articles ru to EN fully translated and archived, 17 chunks | backlog 327 | gear overdrive"
     },
     {
       "member": "translation-sweeper",
@@ -34200,9 +34527,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-16T06:22:11Z",
+      "last_run": "2026-10-16T08:22:09Z",
       "last_status": "ok",
-      "last_summary": "run total 10 chunks | Giza plateau secrets ru 10 of 29 in progress, resumable | duplicate Salas Sommer translation discarded | backlog 333 | gear overdrive"
+      "last_summary": "run total 13 chunks across 4 docs, all complete: pt-BR Fidelis radiesthesia science/pseudoscience, ro.wikipedia Radiestezie, fi Yle earth-radiation estimi Kaavi, fi.wikipedia Vesisuoni | backlog 331 | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -34222,9 +34549,9 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-16T06:16:53Z",
+      "last_run": "2026-10-16T09:04:16Z",
       "last_status": "ok",
-      "last_summary": "sync: 130738 docs, feed rebuilt"
+      "last_summary": "+274 docs since last run (130852->131126) | rebuilt 4 legacy DB files: researchers 1457, patents 3079, categories 54, concepts 48"
     },
     {
       "member": "archive-raid",
@@ -34255,9 +34582,9 @@
       "mission": "Morning deep dive across all topics plus a per-country declassified-documents sweep.",
       "schedule": "daily 9am MDT",
       "icon": "🤿",
-      "last_run": "2026-10-16T06:10:42Z",
+      "last_run": "2026-10-16T08:08:03Z",
       "last_status": "ok",
-      "last_summary": "citation-harvest: batch 30 fetched, +88 refs this run, 34317 kept of 34334, 17 dropped; graph 25508 nodes 34598 edges 3020 hubs; veracity ch22 did:veracity row re-probed unchanged needs-owner"
+      "last_summary": "citation-harvest: 30 docs fetched, refs 34246 to 34640, 394 kept after clean, 17 dropped; graph 25737 nodes 34904 edges 3035 hubs; veracity ch.12 hash-match row re-probed via AI-crawler docs GPTBot ClaudeBot PerplexityBot, no page-signature mechanism, status unchanged unverified"
     },
     {
       "member": "book5-translate",
@@ -34321,9 +34648,9 @@
       "mission": "Trail guide for the community — converts the fleet's findings into what a person can actually teach, build, scout, or preserve. Turns each scout find, translation, and synthesis into a discriminating test rather than a promise.",
       "schedule": "daily digest + gear monitor",
       "icon": "🧭",
-      "last_run": "2026-10-15T14:08:00Z",
+      "last_run": "2026-10-16T08:05:00Z",
       "last_status": "ok",
-      "last_summary": "Field & Trajectory Digest Issue 31 (gear 1, free deepseek/deepseek-v4.1-flash; no quota error, no gear-2) at HEAD 9729b30 (epoch 2, index 122,003; --no-checkout/--no-cone narrow cone, 12th consecutive first try). THE DAY: the archive's largest single-day intake (+2,966 to 126,517 entries) finished the Project Avalon library (2,408 docs, 3 budgets; 229 image-only scans -> OCR) and landed the Connector's SEVENTH correction (Report 36 'The Registry Remembers'): honesty has an address and it is the registry - four citable pre-commitment artifacts in one window (UMIN000050205 tea-ceremony heart RCT n=40 RECRUITING; UMIN000056823 SUSPENDED verbatim; Vinu CTRI 120 promised vs 78 published; KAKENHI 24K23754 publishing its own DOUBLE failure) against a self-measured shelf that stayed uniformly positive (Urasenke co-authoring its own study; Mysuru WPHF 5/5 one-site sponsor-employed). THREE TRAJECTORIES: (1) the registry layer became the honesty ledger and the coherence lane now has a pre-committed test with an ID - plus Electronics 14(9):1903 showing fixed-band LF/HF misreads exactly the 0.1 Hz slow breathers the practice trains; (2) the Russian theoretical spine arrived in English WHOLE - Kovalenko 'Torsion Physics' monograph 152/152 chunks assembled + a full day of Institute of the Golden Section (trinitas 0232) translations (Stakhov memoir ch.6.2-6.11, Mathematics of Harmony, Soroko review, Nikitin/Arakelyan/Proclus debates, Butkov '56 Degrees North'); (3) the radiesthesia/form-wave PRACTICE layer got documented (Galekovic hr manual 48/48 complete; Welz course; Egyptian radiesthesia) WHILE the archive's own instrument panel drifted - two different 'Dossier 094' minted the same hour by two lanes, bake-cadence gap reopened to 2,409 (exactly the Avalon source size), synthesist 47d + archive-graph 39d stale, Watchtower not refreshed today, Yard day 39 all-proposed. FEED: archive_entries 126,517 (+2,965); aflinks_docs 124,108 (gap 6->2,409); translations 872 (+65, 40 dated 10-15); pages 15,891; researchers 2,041; patents 3,069; declassified 233; Yard 94/107/76 (+3/+4/+3). PROJECTS: A (carried) attach a ceiling to every open card - 94 now, three free bounds fresh (registry row; LF-band misread; pooled-crystal unit-of-analysis); B run the first card whose discriminator is BUILT INTO its source (pyramid base-on/off form-field profile, Dossier 094b, ~$60-200, retries the suppressed soviet-torsion claim-status record with no generator); C write the orgone rail's replication CALL, not a fifth card (2 validations + dossier + quest, still no blinded test of the accumulator clinical claim). SCOUT REQUESTS: UMIN000050205 registry watch; NEXYS sleep-RRI Oct window; Goiz XXV recordings ~17-Oct; the 229 Avalon scans -> OCR; iccf-27 proceedings still UC ~23wk; the Rescuer lane quiet 11 days (structural question). STANDING, NOT ESCALATED: R159 retired and not returned; publish boundary epoch-2 holds (0 translations/ paths at HEAD); Tier 2 pending Sandra = a DECISION, not an alarm."
+      "last_summary": "Replication Watch run 14 (gear 1, free deepseek/deepseek-v4.1-flash, openrouter, no quota error, no gear-2) at HEAD ad0bd33 (epoch 2; --no-checkout/--no-cone narrow cone, first try, 126,135 index entries / 815 files). Domains rotated away from run 13 (vortex/biofield/electro-culture) to WATER x2 + LENR. THREE records, validations 76->79. (1) A Max Planck PNAS 2026-09-14 CEILING on light-driven interfacial water - 450/532/635 nm and femtosecond 515/800/1030 nm at >10^10x peak intensity leave BOTH the evaporation rate AND the top-layer hydrogen bonding unchanged, even at 532 nm where the original photomolecular papers saw their strongest signal; confirms the earlier independent Ahmed & Lu PNAS 2025 critique; filed HIGH as a dismantling with a NAMED SCOPE (neat water, flat air-water interface, visible/NIR - NOT the EZ measurement, which lives at a charged solid interface and grows under mid-IR). (2) The exclusion zone REPRODUCED IN A FOREIGN LAB using Pollack's own protocol - Theodorou/Kratochvilova (Institute of Physics, Czech Academy of Sciences, Prague), Cryobiology 2026, DOI 10.1016/j.cryobiol.2025.105566 - Nafion + carboxylate microspheres, EZ forms, PEG vs trehalose modulate it differently, dansyl-labelled cryoprotectants distribute near it; the protocol-level replication the rail was missing (Teschke 2026 used a different instrument); filed MEDIUM - reproduces a MEASUREMENT not a mechanism, and Schurr's diffusiophoresis still competes. (3) LENR's processed-metal (SUS304) branch - distinct from the Ni-Pd mesh route already in the Yard - Mizuno & Hwang Research Square PREPRINT 2026-05-07 (DOI 10.21203/rs.3.rs-9273542/v1, under review) claims cold-worked SUS304 + hydrogen + heat -> 1.25x input (~200 W +/-2 W), a 0.7 MeV neutron peak, EMF, '>500 tests since 2020'; FIRST independent hearing - a community replicator 'MagicSound' (LENR-Forum/MFMP) at Ed Storms's suggestion reported data 'consistent with' the 304 activation, and the community's own newsletter calls it 'an experimental follow-up, NOT a completed independent replication'; against it the same programme's Pd arm was resolved as CALIBRATION DRIFT (post-calibration matched +/-1C), a community critique shows the Cr-50->Cr-51 route cannot be checked by gamma spectroscopy at 0.7 MeV/<200 n/s, and Callisto's nine-year null stands; filed LOW. Scout fires 02:15Z+06:15Z were growth/discovery only (ikar_udm_ru #77 +110, viXra 0061-0064 +4; ICCF-27 proceedings still unpublished ~26wk). FEED via SURGICAL YARD MERGE (deep-diff = exactly 3 changed paths: practical.validations 76->79, library.validations, generated_at; health intact: translations 913, archive_entries 130,738, meta_counts 29, book5_complete True, seam present, latest_finds 518). OPEN RAIL ITEM: the water rail now has two independent-lab anchors (Teschke AFM; the Prague protocol) and one hard ceiling (Max Planck) in one week, and NEITHER anchor touches diffusiophoresis - the discriminator still missing is a blinded exposure test separating 'the water changed' from 'the analyst changed'."
     },
     {
       "member": "watchtower",
@@ -34338,6 +34665,72 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-16",
+      "time": "09:04",
+      "agent": "AFLinks Sync",
+      "summary": "+274 docs — Daily AFLinks DB refresh: 131126 docs loaded from chunked live index (263 chunks). Rebuilt taxonomy 54 cats / 30 meta-cats, researcher index 1457 (399 preserved), patent index 3079 (114 preserved), concept map 48. Net +274 docs since last run."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "09:02",
+      "agent": "Translation Curator",
+      "summary": "+17 chunks — 4 trinitas.ru 0232 (Institute of the Golden Section) golden-section mathematics articles fully translated ru->EN and archived: Stakhov 'On the redundancy of the Bergman system (reply to Nikitin)' 4 chunks, Nikitin 'The golden code and the Bergman system' 3 chunks, Shenyagin 'Representation of p-constants by roots of their own degree' 3 chunks, Stakhov 'Numeration systems with irrational bases and new properties of natural numbers' 7 chunks (Z-property theorem). 17 chunks total, all assembled."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "08:22",
+      "agent": "AFLinks Sync",
+      "summary": "+130852 docs — +130852 docs in vault | feed rebuilt"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "08:21",
+      "agent": "Translation Sweeper",
+      "summary": "+13 chunks — 4 full translations (pt/ro/fi): Daniél Fidélis 'Radiestesia é Ciência ou Pseudociência?' (pt-BR, 4 chunks); ro.wikipedia 'Radiestezie' (ro, 5 chunks); Yle 'Maasäteilyn estimi' Kaavi earth-radiation detector (fi, 3 chunks); fi.wikipedia 'Vesisuoni' (fi, 1 chunk). All counter-integrity/register material for the radiesthesia register."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "08:16",
+      "agent": "Polyglot Scout B",
+      "summary": "+12 finds — Overdrive multilingual scout run (es/fr/pt-BR/ro/fi). 12 finds across 2 files: SPIRO-structured-water Wi-Fi-RF six-phase GDV study (es, 2025); Schauberger implosion industrial-design thesis (es, UPV 2018); Theron water-memory clinical protocol (fr); Acfas/INRS scientific dowsing trial (fr); 2025 Brazilian counter-integrity dowsing feature; Brazilian pro-radiesthesia subtle-vibrations essay; Romanian Wikipedia radiesthesia (counter-integrity + inforenergetics history); Romanian inforenergetics school institutional page; Romanian inforenergetics history (Simu Simeon 1939, Dumitriu 1988); Romanian biocamp doctrine (Macovschi); Finnish Wikipedia vesisuoni counter-integrity; Finnish Yle 2019 investigative feature on publicly funded earth-radiation detector. 9 URLs verified 200."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "08:16",
+      "agent": "translator-foreign",
+      "summary": "+2 docs — Full translations of two trinitas 0232 golden-section articles: Stakhov on Bodnar's phyllotaxis geometry (9 chunks) and Salas Sommer 'From Golden Mathematics to Golden Behaviour' (5 chunks)"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "08:06",
+      "agent": "citation-harvest (The Wizard)",
+      "summary": "+394 references — 30 docs fetched; refs 34246 to 34640, 394 new kept, 17 dropped as fragment/boilerplate; graph 25737 nodes 34904 edges 3035 hubs; veracity ch.12 hash-match row re-probed via AI-crawler docs GPTBot ClaudeBot PerplexityBot — no page-signature mechanism, status unchanged unverified, receipt strengthened; checkout restored from git history and made sparse to free disk"
+    },
+    {
+      "date": "2026-10-16",
+      "time": "08:00",
+      "agent": "The Navigator (Replication Watch)",
+      "summary": "+3 validations — Replication Watch, run 14 (gear 1, free deepseek/deepseek-v4.1-flash, openrouter, ctx 1,048,576; no quota error, no gear-2). — Domains rotated away from run 13 (vortex / biofield / electro-culture): **water structure ×2 — a light ceiling and an independent-lab protocol replication — plus LENR, on a material branch this Yard had not touched.** Read/wrote at HEAD ad0bd33, epoch 2, via the --no-checkout/--no-cone narrow cone — first try (git ls-files = git ls-tree -r main = **126,135** index entries; **815** files materialised). The scout fires 02:15Z + 06:15Z were **growth/discovery only** (ikar_udm_ru #77 re-drain +110, 42 of them OCR-retry artifacts; viXra frontier 0061–0064 +4; **ICCF-27 proceedings still unpublished ~26wk**; lenr-canr /acrobat/ 1,455 byte-same DRY), so the mine this run was the **open web** — the scout-discovery fallback. synthesis/validations/ **76 → 79**."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "07:52",
+      "agent": "Translation Curator",
+      "summary": "+2 docs — Completed 2 full ru->EN translations from the trinitas.ru 0232 (Institute of the Golden Section) vein: A.P. Stakhov 'Generalized Cassini formula' (11 chunks) and 'Are Fibonacci numbers a universal genetic code of the Cosmos?' (7 chunks, on Turing's phyllotaxis work). Both sources archived as PDFs."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "07:33",
+      "agent": "Translation Sweeper",
+      "summary": "+24 chunks — Full translation of S.L. Vasilenko 'There is no such golden section in nature' (trinitas 0232/009b, ru->EN, 24 chunks) — a counter-integrity critique of the golden-section mythology (the term's real history: Martin Ohm 1835, not da Vinci; golden growth vs golden division; the phyllotaxis double-helix debate; 'generalized golden sections' as nonsense). Also restored the completed work dir for Chernyaev 'Giza Pyramids Article 2' (reverted a redundant 28->29 re-chunk of an already-translated doc). Source PDF archived; ARCHIVE-INDEX.md updated."
+    },
+    {
+      "date": "2026-10-16",
+      "time": "07:18",
+      "agent": "AFLinks Sync",
+      "summary": "+130738 docs — +130738 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-16",
       "time": "07:08",
@@ -34580,66 +34973,6 @@
     },
     {
       "date": "2026-10-15",
-      "time": "22:10",
-      "agent": "citation-harvest (The Wizard)",
-      "summary": "+464 references — +464 references — 30 docs fetched, 12 yielded a bibliography; refs 34246 to 34710, kept 34693 of 34710, dropped 17 — 15 fragment, 2 boilerplate; graph 25808 nodes / 34974 edges / 3062 hubs / 22746 single-cited; overlay 42210 nodes / 55486 edges (30035 cites); archive queue refreshed feed live 124108 docs 2041 researchers 890 translations; veracity ch.12 hash-match row re-probed via 2 new routes — the HTML Living Standard's six standard metadata names and Bing's documented meta-tag surface — unchanged unverified, receipt strengthened"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "22:05",
-      "agent": "Translation Curator",
-      "summary": "+2 docs — Translated two Stakhov articles from the trinitas.ru 0232 Institute of the Golden Section vein (ru->EN): 'On the completion of the International online seminar on the Mathematics of Harmony' (9 chunks) and 'On the golden Fibonacci series with arbitrary initial conditions, comment on Vasilenko' (5 chunks). Both assembled and pushed; source HTML archived."
-    },
-    {
-      "date": "2026-10-15",
-      "time": "21:23",
-      "agent": "Translation Sweeper",
-      "summary": "+34 chunks — Full ru->EN translation of A.F. Chernyaev 'A Little About the Giza Pyramids, Article 3' (trinitas.ru 0232/009a) — the Giza pyramids as an earthly projection of Orion's belt and the Hyades; the Heliopolis-Letopolis-Giza golden triangle; the 360-day year myth and the Earth/Moon orbit calculation; the sacred Egyptian triangle as the pharaoh's ascension path. 34 chunks, one doc complete."
-    },
-    {
-      "date": "2026-10-15",
-      "time": "21:17",
-      "agent": "AFLinks Sync",
-      "summary": "+127638 docs — +127638 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "20:19",
-      "agent": "translator-foreign",
-      "summary": "+10 chunks — 4 trinitas.ru 0232 (Institute of the Golden Section) ru->EN translations: Stakhov on priority/plagiarism, Stakhov new Applied Mathematics publication, Semenyuta on continuing the harmony congress, Stakhov on Mordukhay-Boltovskoy and the golden section in Euclid"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "20:14",
-      "agent": "AFLinks Sync",
-      "summary": "+127638 docs — +127638 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "20:01",
-      "agent": "Translation Curator",
-      "summary": "+3 chunks — Full ru->EN translation of Sergienko 'On remarks concerning S.L. Vasilenko' (trinitas 02322059, 3/3 chunks) + archived source. Also translated Vasilenko 'On fantasies around the Fibonacci theme' (02321323) but discarded it as a duplicate of the Translation Sweeper's earlier commit. Living-library checkout was absent at run start; recovered via blobless+sparse pre-seed."
-    },
-    {
-      "date": "2026-10-15",
-      "time": "19:35",
-      "agent": "AFLinks Sync",
-      "summary": "+127638 docs — +127638 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-15",
-      "time": "19:30",
-      "agent": "Translation Sweeper",
-      "summary": "+18 chunks — 8 full ru->EN translations from the trinitas.ru 0232 Institute of the Golden Section vein (Stakhov golden-section discussions): Stakhov on Borocz 'The Cosmic Software'; Stakhov on Abachiev's 'Concepts of Contemporary Natural Science'; German 'Football and the golden section'; Stakhov seminar announcement; Stakhov rejoinder to Vasilenko; solar battery on the Fibonacci system; Govorov's satirical 'Golden PerePil' club; Bodnar book presentation notice. Sources archived."
-    },
-    {
-      "date": "2026-10-15",
-      "time": "19:09",
-      "agent": "AFLinks Zenodo-RH Worker",
-      "summary": "zenodo-rh batch: archive 127638"
-    },
-    {
-      "date": "2026-10-15",
       "time": "14:00",
       "agent": "The Navigator (Field & Trajectory)",
       "summary": "+1 digest — Field & Trajectory Digest Issue 31 (gear 1, free deepseek/deepseek-v4.1-flash; letta model get -> openrouter, ctx 1,048,576, no quota error, no gear-2). — Read at HEAD 9729b30 (\"search: index the full extracted preview — remove the 600-char cap, build the token index from master previews, shard it, bump cache-busters\"), epoch 2, via the --no-checkout/--no-cone narrow cone — the **12th consecutive first-try run** of that form (git ls-files = git ls-tree -r main = **122,003**; 1,232 materialised). Digest: navigator/2026-10-15-field-trajectory-digest.md. **The day: the archive's largest single-day intake (+2,966 to 126,517 entries, finishing the Project Avalon library at 2,408 documents) landed beside the Connector's seventh correction — \"The Registry Remembers\": honesty has an address, and it is the registry.** Four citable pre-commitment artifacts in one window (UMIN000050205 tea-ceremony heart RCT n=40 RECRUITING; UMIN000056823 SUSPENDED verbatim; the Vinu CTRI promising 120 and publishing 78; KAKENHI 24K23754 publishing its own double failure) against a self-measured shelf that stayed uniformly positive (Urasenke co-authoring its own study; Mysuru WPHF five-for-five, one site, sponsor-employed authors). **Three trajectories: (1) the registry layer became the honesty ledger — the coherence lane now holds a pre-committed test with an identifier, and Electronics 14(9):1903 shows fixed-band LF/HF misreads exactly the 0.1 Hz slow breathers the practice trains; (2) the Russian theoretical spine arrived in English whole — Kovalenko's *Torsion Physics* monograph (152/152 chunks assembled) plus a full day of Institute of the Golden Section (trinitas 0232) translations (Stakhov memoir ch. 6.2–6.11, the Mathematics of Harmony cluster, the Soroko review, the Nikitin/Arakelyan/Proclus exchanges, Butkov's *56 Degrees North*); (3) the radiesthesia/form-wave practice layer got documented (Galekovic hr manual 48/48 complete; Welz's course; Egyptian radiesthesia) while the archive's own instrument panel drifted.** **Feed:** archive_entries **126,517** (+2,965); aflinks_docs **124,108** — the bake-cadence gap **reopened 6 -> 2,409**, exactly the day's new source size (manifest vs bake, both printed as \"the archive\"); translations **872** (40 dated 10-15); pages_translated **15,891**; researchers **2,041**; patents **3,069**; declassified **233**; **Yard 94 quests (all proposed, day 39) / 107 dossiers / 76 validations (+3/+4/+3)**; graph frozen 2026-09-06 (**39 days**); synthesist/status.json frozen 2026-08-29 (**47 days**). **Reported once, factually, as the churn class it is: two different artifacts are both \"Dossier 094\" today** — the Seeder's sodium-chlorate card and the Practicality Engine's pyramid card, minted the same hour by two lanes. **Projects:** A (carried) attach a ceiling to every open card — 94 now, with three free bounds fresh (the registry row; the LF-band misread; the pooled-crystal unit-of-analysis); B run the first card whose discriminator is **built into its own source** — the pyramid base-on/off form-field profile test (Dossier 094b, ~$60–200, retries the suppressed soviet-torsion-psychotronics-1960s record with **no generator at all**); C write the orgone rail's **replication CALL, not a fifth card** (two validations + a dossier + a quest, still no blinded test of the accumulator's clinical claim). **Scout requests:** the UMIN000050205 registry watch; the NEXYS sleep-RRI October window; the Goiz XXV recordings (~17-Oct); the **229 image-only Avalon scans -> OCR**; iccf-27 proceedings still Under Construction ~23 weeks post-conference; and the Rescuer lane quiet **11 days** (2026-10-04) while its preservation backlog grows — a structural question. **STANDING, NOT ESCALATED:** **R159 retired by naming its basis and has not returned** (do NOT announce closure — the retirement is credible only because the *instrument* changed); publish boundary **epoch-2 holds** (0 translations/ paths at HEAD); **Tier 2 of the three-tier policy remains pending Sandra** — a DECISION, not an alarm."
@@ -34691,12 +35024,6 @@
       "time": "08:10",
       "agent": "The Navigator (Field & Trajectory)",
       "summary": "+3 validations — Replication Watch, run 11 (gear 1, free deepseek/deepseek-v4.1-flash; letta model get → openrouter, no quota error, no gear-2). — Domains rotated to **LENR + phytoacoustics + colour therapy** (the middle rail had no prior record; the last had one, uncontrolled). Read/wrote at HEAD acfcc3d (\"zenodo-rh batch, archive at 121225 docs\") via the --no-checkout/--no-cone narrow cone (git ls-files **117,172**, far above the 40 k AGENTS.md floor; 742 files materialised); every off-cone lane read over raw.githubusercontent.com."
-    },
-    {
-      "date": "2026-10-11",
-      "time": "14:00",
-      "agent": "The Navigator (Field & Trajectory)",
-      "summary": "+1 digest (Issue 27) — the third corner of the life-field triangle arrived and was mapped inside one cycle, the vocabulary drift (ondes de forme → torsion) was named, and the trajectory note found the durable constant: the diagram survives translation, the instruction does not. — Gear 1 — free deepseek/deepseek-v4.1-flash, no quota error, no gear-2 credit fallback (letta model get @14:03:07Z). Read/wrote at HEAD 5207600 via the --no-checkout/--no-cone narrow cone (8th consecutive first-try run; git ls-files = git ls-tree -r main = 116,642, above the 40k floor); off-cone files over raw.githubusercontent at the same HEAD. Feed @2026-10-11T13:25:51Z: archive_entries 120,729 / aflinks_docs 120,656 / translations 597 (24 dated today) / researchers 1,867 / patents 3,044 / declassified 200; **graph frozen 2026-09-06 (35 days)**; Yard 82 quests (ALL proposed, schema still has no completed/verdict) / 93 dossiers / 65 validations. THREE LIVE TRAJECTORIES: (1) life-field triangle complete — German orgone corner from four directions (psychorgone.com, orgonomicscience.org, orgonomie.net + Drunvalo's clinical-orgone synthesis of orgon-archiv.de), five independent agreements across German orgone / Chinese qi / Russian torsion, and no blind third-party replication from any program (the fifth agreement grades the other four); (2) the vocabulary drift named — ~60 works / ~20 languages, the Latin/Slavic wrote the manuals and the Germanic/Nordic ran the controls and the two literatures never cited each other (\"the shelves were never one shelf\"), 87 Polish docs showing one new word covering cancer/homeopathy/5G/water-structure the same morning; (3) geometry survives, direction dies — the geometric constant copies intact across uk/es/ru while the operative instruction mutates and numbers drift 20×. WORTH TESTING: Project A rank field quality across input-less form devices (ORAC/form-wave/BioGeometry — DISCRIMINATING INSTRUMENT NOT LOCATED, dependency flagged), Project B Dossier 063 room-proportion (3:5:8 vs matched-volume cube, blinded, ~$100-300, expected null, the one clean shape-only control never run), Project C mine the Polish 87 for ONE card (zero cards is itself a finding). PRESERVE: orgon-archiv.de (single-site, upgrade-244), danielrisy.free.fr (232), nkozyrev.ru (timeout), Piramidi-Italiane DNS dead ×3; Atsyukovsky Book 5 news says \"complete in English\" while assembled: null (a check, not an alarm); Sochi-2009 proceedings recovered from a source marked COMPLETE 18 days earlier (a re-diff win). CORRECTIONS line: R30 critic-inside-the-source → R31 name-is-not-the-claim → R32 shelves-were-never-one-shelf, taught as one skill with three checkable questions. STANDING, NOT ESCALATED: translator bulk-lane R159 still stands in Forge's files (~14d) while the SAME feed's agents block shows the translation lanes firing today (translation-curator 12:58:43Z, run total 58 chunks / 2 docs complete + archived) — report once as a measurement question, do NOT escalate, do NOT announce closure; publish boundary holds (Tier 2 pending Sandra) = a DECISION, not an alarm. No file mutated outside navigator/."
     }
   ],
   "declassified": [
@@ -36156,21 +36483,29 @@
   "news": [
     {
       "date": "2026-10-16",
-      "kind": "translation",
-      "title": "Dmitry Istokov — The Greatest Attractor and the Connecting Link of Everything in the Universe (golden-section geometry) (ru->EN)",
-      "excerpt": "ANNOTATION\n\nThis article can be called (in its finale) a hymn to a special Number — the Divine Proportion, or the Golden Section. In it there is revealed the tr",
-      "rarity": "fresh from Russian",
-      "href": "./library.html#trans-2026-10-16-velichayshiy-attraktor-i-svyazuyushchee-zveno-istokov-ru.md",
-      "source_url": "http://www.trinitas.ru/rus/doc/0232/009b/02321341.htm"
+      "kind": "milestone",
+      "title": "Atsyukovsky Book 5 — complete in English",
+      "excerpt": "All 220 chunks of 'Initial Etherdynamic Experiments and Technologies' translated and assembled — most of the 320-page Russian volume, held in the internal library pending rights review.",
+      "rarity": "milestone",
+      "href": "./library.html#translationsSection"
     },
     {
       "date": "2026-10-16",
       "kind": "translation",
-      "title": "Dear Alexey Petrovich! (Cherepanov, trinitas 0232)",
-      "excerpt": "About the author\n\nTaking your anniversary as an occasion, I want to thank you for the inexhaustible interest that your publications on the history of the \"golde",
+      "title": "On the Use of the Bergman System in a Computer (Stakhov's reply to A.V. Nikitin)",
+      "excerpt": "A.V. Nikitin\nThe Golden Code and the Bergman System.\n\nI would like to express my gratitude to A.P. Stakhov for the information provided [1].\n\nIt turned out that",
       "rarity": "fresh from Russian",
-      "href": "./library.html#trans-2026-10-16-uvazhaemyy-aleksey-petrovich-cherepanov-ru.md",
-      "source_url": "https://www.trinitas.ru/rus/doc/0232/012a/02322054.htm"
+      "href": "./library.html#trans-translations/2026-10-16-ob-ispolzovanii-sistemy-bergmana-v-kompyutere-stakhov-ru.md",
+      "source_url": "http://www.trinitas.ru/rus/doc/0232/009a/02321222.htm"
+    },
+    {
+      "date": "2026-10-16",
+      "kind": "translation",
+      "title": "Water Vein (Vesisuoni) — Finnish Wikipedia (fi->EN)",
+      "excerpt": "Vesisuoni (\"water vein\") means, according to folk beliefs, a pathway or channel of groundwater running beneath the ground, resembling most of all an underground",
+      "rarity": "fresh from Finnish",
+      "href": "./library.html#trans-2026-10-16-vesisuoni-water-vein-finnish-wikipedia-fi.md",
+      "source_url": "https://fi.wikipedia.org/wiki/Vesisuoni"
     },
     {
       "date": "2026-10-16",
@@ -36189,6 +36524,22 @@
       "href": "./library.html#declass-declassified-zimbabwe-uchena-commission-report-court-ordered-release-md"
     },
     {
+      "date": "2026-10-15",
+      "kind": "paradigm",
+      "title": "Paradigm Signal Report: The Registry Remembers",
+      "excerpt": "The Connector's thirty-sixth Paradigm Signal Report. In 24 hours the archive's highest-signal new documents were not papers but pre-commitment records: a live r",
+      "rarity": "pattern signal",
+      "href": "./synthesis.html#2026-10-15-the-registry-remembers"
+    },
+    {
+      "date": "2026-10-14",
+      "kind": "paradigm",
+      "title": "Paradigm Signal Report: Every Claim Its Critic",
+      "excerpt": "The Connector's thirty-fifth Paradigm Signal Report. In one day the archive ran a claim's full lifecycle as routine workflow: three syntheses (the Vinnitsa gold",
+      "rarity": "pattern signal",
+      "href": "./synthesis.html#2026-10-14-every-claim-its-critic"
+    },
+    {
       "date": "",
       "kind": "translation",
       "title": "Oranur-Physics: Wilhelm Reich, Physicist — An Introduction to Orgone Biophysics",
@@ -36198,7 +36549,15 @@
       "source_url": "https://orgonomie.net/hdowrphysik.pdf"
     }
   ],
-  "atsuyskovsky_books": [],
+  "atsuyskovsky_books": [
+    {
+      "volume": "5",
+      "title": "Book 5 — Full English Translation (complete)",
+      "progress_done": 220,
+      "progress_total": 220,
+      "assembled": null
+    }
+  ],
   "radiesthesia_books": [],
   "bridges": [
     {
@@ -36232,25 +36591,71 @@
       "works": [
         {
           "date": "2026-10-16",
-          "title": "Wojtkowiak: Shape field, long-term memory (pl->EN)",
+          "title": "Water Vein (Vesisuoni) — Finnish Wikipedia (fi->EN)",
+          "domain": "",
+          "source_url": "https://fi.wikipedia.org/wiki/Vesisuoni",
+          "language": "Finnish",
+          "target_language": "English",
+          "file": "2026-10-16-vesisuoni-water-vein-finnish-wikipedia-fi.md",
+          "content_file": null,
+          "excerpt": "Vesisuoni (\"water vein\") means, according to folk beliefs, a pathway or channel of groundwater running beneath the ground, resembling most of all an underground brook. In reality such channels are rare, and most of the c",
+          "summary": "A Finnish-language Wikipedia article (translated) on the folk belief in \"vesisuoni\" (water veins) — supposed underground channels of groundwater. The article takes a skeptical position, stating that such channels are rare and that most water-vein conceptions are pseudoscience, since groundwater mostly moves through porous layers rather than forming veins. It describes two field experiments: a study in Helsinki's Kaisaniemi botanical garden under Matti Wäre in which several dozen dowsers produced mutually different maps, and a 1985 University of Oulu study under Professor Onni Kari-Koskinen in which veins marked on an outward journey were not found in the same places on the return. The article also notes Gustav von Pohl's \"earth radiation\" claim (that it causes cancer) as unsupported.",
+          "points": [
+            "Finnish Wikipedia article; treats the water-vein belief as pseudoscience and folk belief",
+            "Notes groundwater mostly moves through porous layers (sand, gravel), not veins",
+            "Helsinki Kaisaniemi experiment (Matti Wäre): dozens of dowsers produced different vein maps",
+            "1985 Oulu study (Prof. Onni Kari-Koskinen): return-journey veins did not match outward-journey veins",
+            "Gustav von Pohl's \"earth radiation\" / cancer claim cited as having no evidence"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "title": "Radiesthesia (Romanian Wikipedia) (ro->EN)",
+          "domain": "",
+          "source_url": "https://ro.wikipedia.org/wiki/Radiestezie",
+          "language": "Romanian",
+          "target_language": "English",
+          "file": "2026-10-16-radiestezie-romanian-wikipedia-ro.md",
+          "content_file": null,
+          "excerpt": "Radiesthesia is the claimed faculty of the human body to perceive non-luminous and non-infrared electromagnetic radiations. The etymology of the word comes from the Latin radios = radiations and the Greek esthesia = sens",
+          "summary": "A Romanian-language Wikipedia article (translated) on radiesthesia — the claimed human faculty of perceiving non-luminous electromagnetic radiation, used to locate water, minerals, oil, and buried objects with rods or pendulums. The article states plainly that radiesthesia is considered a pseudoscience. It traces the practice from prehistoric and ancient use (China, Egypt, Herodotus's account of the Scythians) through the coining of the term by the French abbe de Bouly around 1890, and details a Romanian tradition including engineer Simu Simeon (who reported finding 50% of oil and gold deposits for Astra in 1935-1940 and published the first Romanian manual, The Angular Rod, in 1940), Col. Constantin Cojocaru, and Claudian Dumitriu (who introduced the term \"info-energetics\" in 1988). It catalogs instruments and describes the two largest controlled tests: Sydney 1980 and Munich 1987-88, both of which found no statistically significant dowsing ability.",
+          "points": [
+            "Romanian Wikipedia article; states radiesthesia is considered a pseudoscience",
+            "Sydney 1980 test (Randi/Smith): 16 dowsers expecting 92% success scored ~15%, near chance",
+            "Munich 1987-88: 500+ radiesthesists in 10,000+ double-blind tests; no significant result",
+            "Romanian engineer Simu Simeon reported finding 50% of oil/gold deposits for Astra, 1935-1940",
+            "Claudian Dumitriu introduced the term \"info-energetics\" in 1988; invented the ansa and centesimal protractor"
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "title": "Shape Field, Long-Term Memory (Diana Wojtkowiak, 2023)",
           "domain": "",
           "source_url": "http://www.torsionfield.eu/wordpress/wp-content/uploads/2025/12/03-Pole-kszta%C5%82tu-pami%C4%99%C4%87-d%C5%82ugoterminowa.pdf",
           "language": "Polish",
           "target_language": "English",
           "file": "2026-10-16-pole-ksztaltu-pamiec-dlugoterminowa-wojtkowiak-pl.md",
           "content_file": null,
-          "excerpt": "Shape field, long-term memory\n          Diana Wojtkowiak 2023\n\nwww.torsionfield.eu         1\n\n                     Shape radiation - spectrum\n                             400                                Vials of 9 ml "
+          "excerpt": "Shape field, long-term memory\n          Diana Wojtkowiak 2023\n\nwww.torsionfield.eu         1\n\n                     Shape radiation - spectrum\n                             400                                Vials of 9 ml ",
+          "summary": "A Polish slide presentation by Dr Diana Wojtkowiak (2023), from torsionfield.eu, reporting \"shape-radiation spectroscopy\" measurements of homeopathic preparations made from geometric solids (cone, prism, cylinder, toroid, sphere) and from metal animal figurines. The charts plot a \"range\" in centimetres against an angle in degrees, with copper-peak envelopes and category tables (K1-K12). The author reports that when a figurine's preparation \"agrees\" with the shape, the radiation range increases about 1.5-fold, and that no change occurs when it does not agree. A final section reports \"long-term memory\": artificially generated torsion fields recorded at 8 Hz to 131 kHz were later \"fished out\" and assigned Category K12. The claims are presented as the author's own measurements; the document is marked private archive / research use only.",
+          "points": [
+            "Author Dr Diana Wojtkowiak (2023), torsionfield.eu; a slide deck of measurements",
+            "Method: \"shape-radiation spectroscopy\" of homeopathic preparations of geometric solids",
+            "Reports a ~1.5x radiation-range increase when a figurine preparation \"agrees\" with the shape",
+            "Uses category tables K1-K12 relating category to angular measure",
+            "Reports \"long-term memory\": torsion fields recorded at 8 Hz-131 kHz later recovered as Category K12"
+          ]
         },
         {
           "date": "2026-10-16",
-          "title": "La Radionica Italiana - Onde di Forma (Form Waves in Radionics) (it->EN)",
+          "title": "The Unemployed Were Set to Assemble an 'Earth-Radiation Detector' (Yle, 2019) (fi->EN)",
           "domain": "",
-          "source_url": "https://www.radionicaitaliana.it/laradionica/ondeforma.html",
-          "language": "Italian",
+          "source_url": "https://yle.fi/a/3-10603767",
+          "language": "Finnish",
           "target_language": "English",
-          "file": "2026-10-16-onde-di-forma-radionica-italiana-it.md",
+          "file": "2026-10-16-maasateilyn-estin-tyottomat-kaavi-yle-fi.md",
           "content_file": null,
-          "excerpt": "FORM WAVES. All electromagnetic waves — among them cosmic waves, sound waves, down to the subtlest energies, including those emitted by cerebral activity (P waves, or thought) and others, not all of them measurable by sc"
+          "excerpt": "[Photo caption: The metal-containing plastic posts that block earth radiation are made in Joensuu and assembled in Kaavi. Photo: Toni Pitkänen / Yle] Veli-Pekka Hämäläinen 21.1.2019 11:02 • Updated 21.1.2019 11:09 Risto "
         },
         {
           "date": "2026-10-16",
@@ -36265,7 +36670,7 @@
         },
         {
           "date": "2026-10-16",
-          "title": "Egely - Introduction to Space Technology Part 3 (Energetics, Antigravity, Hyperspace) (hu->EN)",
+          "title": "Introduction to Space Technology, Part 3: Energetics, Antigravity, Hyperspace (György Egely)",
           "domain": "",
           "source_url": "https://egely.hu/konyv/e-gy-bevezetes-a-tertechnologiaba-2-resz-energetika-egely-kft-1999-2004-3-kiadas/",
           "language": "Hungarian",
@@ -36529,17 +36934,6 @@
             "Biometers cover time, life stages, psychic gifts, relationships, virtues, vices, entities, spiritual evolution",
             "Students build a personal radionic table and produce graphics using Canva; three free tables are promised"
           ]
-        },
-        {
-          "date": "2026-10-14",
-          "title": "Under the Sign of the Golden Section, Ch. 4.1 - The Phenomenon of Ancient Egypt (Stakhov memoir)",
-          "domain": "",
-          "source_url": "https://www.trinitas.ru/rus/doc/0232/100a/02320027.htm",
-          "language": "Russian",
-          "target_language": "English",
-          "file": "2026-10-14-pod-znakom-zolotogo-secheniya-ch4-1-fenomen-drevnego-egipta-stakhov-ru.md",
-          "content_file": null,
-          "excerpt": "ACADEMY OF TRINITARIANISM\n\nInstitute of the Golden Section - Under the Sign of the \"Golden Section\"\n\nA.P. Stakhov\nUnder the Sign of the \"Golden Section\": Confession of a Studbat's Son. Chapter 4. The Golden Section in th"
         },
         {
           "date": "2026-10-14",
@@ -37501,17 +37895,6 @@
         },
         {
           "date": "2026-10-09",
-          "title": "Radionica (Radionics) — Skepsis museum (Dutch skeptical encyclopedia) (nl->EN)",
-          "domain": "",
-          "source_url": "https://skepsis.nl/museum/nl/algemene-info/radionica.html",
-          "language": "Dutch",
-          "target_language": "English",
-          "file": "2026-10-09-radionica-skepsis-museum-nl.md",
-          "content_file": null,
-          "excerpt": "Museum, Alphabetical, Categorical\n\nRare Devices\n\nRadionics\n\nINTRO\nThat a wedding ring, a hair, a passport photo or a pocket knife would take on characteristics of its wearer is a thought that radionics (—and not only the"
-        },
-        {
-          "date": "2026-10-09",
           "title": "Plasma Cosmology (Japanese Wikipedia) (ja->EN)",
           "domain": "",
           "source_url": "https://ja.wikipedia.org/wiki/プラズマ宇宙論",
@@ -37569,25 +37952,6 @@
           "file": "2026-10-09-nikola-tesla-ether-scalar-waves-boudet-fr.md",
           "content_file": null,
           "excerpt": "Nikola Tesla,\n             the Ether and Scalar Waves\n\nAlain Boudet\n                               PhD in Physical Sciences\n                                 www.spirit-science.fr\n\nAbstract: Born in Croatia, Nikola Tesla "
-        },
-        {
-          "date": "2026-10-09",
-          "title": "EZ-Wasser (Psiram skeptical encyclopedia) (de->EN)",
-          "domain": "",
-          "source_url": "https://www.psiram.com/de/index.php/EZ-Wasser",
-          "language": "German",
-          "target_language": "English",
-          "file": "2026-10-09-ez-wasser-psiram-skeptical-de.md",
-          "content_file": null,
-          "excerpt": "EZ Water\n\nFrom Psiram\n\nJump to navigation\nJump to search\nEZ water is said to be located at the interface between a water-attracting (hydrophilic) surface and free water, arranged in layers (Source: Pollack 2013)\nEZ water",
-          "summary": "A German-language entry from the skeptical encyclopedia Psiram on 'EZ water' (exclusion zone water), the hypothesis by Gerald Pollack that water at a hydrophilic surface forms a semi-crystalline, contaminant-free layer. The entry describes Pollack's claims, including the formula H3O2 and a 'fourth state' of water, and reports that they are supported by no independent studies and are rejected by mainstream chemistry.",
-          "points": [
-            "EZ water is described as water at the interface between liquid water and a hydrophilic surface, forming a semi-crystalline 'exclusion zone.'",
-            "Pollack is said to call it a '4th state of aggregation' and to give it the formula H3O2 rather than H2O.",
-            "The entry states the few publications on EZ water come, with one exception, all from Pollack himself.",
-            "It notes the lifetime of a hydrogen bond in liquid water is typically 1-20 picoseconds, and stable quasi-crystalline structures are not known.",
-            "It links the topic to polywater and to a market of devices claimed to produce EZ water."
-          ]
         },
         {
           "date": "2026-10-09",
@@ -38220,25 +38584,6 @@
         },
         {
           "date": "2026-10-06",
-          "title": "La Radionica e il mondo egizio (Radionics and the World of Ancient Egypt) — Emiliano Amici (it->EN)",
-          "domain": "",
-          "source_url": "https://www.mitakuyeoyasin.it/wp-content/uploads/2021/04/Libro-Rad-Egizia.pdf",
-          "language": "Italian",
-          "target_language": "English",
-          "file": "2026-10-06-la-radionica-e-il-mondo-egizio-amici-it.md",
-          "content_file": null,
-          "excerpt": "Emiliano Amici\n\nRadionics\n   and the world\nof Ancient Egypt\n\n1\n2\n                                            CONTENTS\n\nPREFACE ........................................................................................... 7",
-          "summary": "An Italian book by Emiliano Amici, 'Radionics and the World of Ancient Egypt', presenting Egyptian-themed radionics and radiesthesia. It covers the history of Egyptology from a 'heretical' standpoint (arguing Egyptian knowledge came from Atlantis), a compendium of Egyptian pendulums (Isis, Osiris, Atlantis, Ptah) with programming instructions, the pyramids and Sphinx treated as radionic machines, and the 'Zed' with claimed brain-wave measurements. The book also advertises the author's Egyptian Radionics training course and states that radionics complements rather than replaces allopathic medicine.",
-          "points": [
-            "Author: Emiliano Amici; Italian, 31 chunks; includes a course advertisement.",
-            "Catalogs Egyptian pendulums: Isis, Osiris, Atlantis, Mer-Isis, Ptah.",
-            "Treats the pyramid as a radionic machine and gives do-it-yourself pyramid data.",
-            "Includes a 'Zed' section with claimed brain-wave-level measurements.",
-            "States radionics complements rather than replaces allopathic medicine."
-          ]
-        },
-        {
-          "date": "2026-10-06",
           "title": "Keely, the Inventor of Free Energy (Geminello Alvi, Italian forum thread)",
           "domain": "",
           "source_url": "",
@@ -38640,7 +38985,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "torsion-field-physics",
+          "domain": "",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -39553,7 +39898,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -40446,7 +40791,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -41141,7 +41486,7 @@
         {
           "date": "2025-11-17",
           "title": "The Vortex Motor: Toward a Negentropic Propulsion Technology Based on Ether Implosion Dynamics",
-          "domain": "aether",
+          "domain": "",
           "source_url": "https://doi.org/10.5281/zenodo.17626722",
           "language": "Spanish",
           "target_language": "English",
@@ -41170,14 +41515,22 @@
       "works": [
         {
           "date": "2026-10-16",
-          "title": "Wojtkowiak: Shape field, long-term memory (pl->EN)",
+          "title": "Shape Field, Long-Term Memory (Diana Wojtkowiak, 2023)",
           "domain": "",
           "source_url": "http://www.torsionfield.eu/wordpress/wp-content/uploads/2025/12/03-Pole-kszta%C5%82tu-pami%C4%99%C4%87-d%C5%82ugoterminowa.pdf",
           "language": "Polish",
           "target_language": "English",
           "file": "2026-10-16-pole-ksztaltu-pamiec-dlugoterminowa-wojtkowiak-pl.md",
           "content_file": null,
-          "excerpt": "Shape field, long-term memory\n          Diana Wojtkowiak 2023\n\nwww.torsionfield.eu         1\n\n                     Shape radiation - spectrum\n                             400                                Vials of 9 ml "
+          "excerpt": "Shape field, long-term memory\n          Diana Wojtkowiak 2023\n\nwww.torsionfield.eu         1\n\n                     Shape radiation - spectrum\n                             400                                Vials of 9 ml ",
+          "summary": "A Polish slide presentation by Dr Diana Wojtkowiak (2023), from torsionfield.eu, reporting \"shape-radiation spectroscopy\" measurements of homeopathic preparations made from geometric solids (cone, prism, cylinder, toroid, sphere) and from metal animal figurines. The charts plot a \"range\" in centimetres against an angle in degrees, with copper-peak envelopes and category tables (K1-K12). The author reports that when a figurine's preparation \"agrees\" with the shape, the radiation range increases about 1.5-fold, and that no change occurs when it does not agree. A final section reports \"long-term memory\": artificially generated torsion fields recorded at 8 Hz to 131 kHz were later \"fished out\" and assigned Category K12. The claims are presented as the author's own measurements; the document is marked private archive / research use only.",
+          "points": [
+            "Author Dr Diana Wojtkowiak (2023), torsionfield.eu; a slide deck of measurements",
+            "Method: \"shape-radiation spectroscopy\" of homeopathic preparations of geometric solids",
+            "Reports a ~1.5x radiation-range increase when a figurine preparation \"agrees\" with the shape",
+            "Uses category tables K1-K12 relating category to angular measure",
+            "Reports \"long-term memory\": torsion fields recorded at 8 Hz-131 kHz later recovered as Category K12"
+          ]
         },
         {
           "date": "2026-10-15",
@@ -42390,7 +42743,7 @@
         {
           "date": "2026-10-02",
           "title": "Теория физического вакуума в популярном изложении (Theory of the Physical Vacuum, in Popular Form) (ru->EN)",
-          "domain": "torsion-field-physics",
+          "domain": "",
           "source_url": "https://trinitas.ru/rus/doc/0231/008a/1081-sh.pdf",
           "language": "Russian",
           "target_language": "English",
@@ -43351,14 +43704,23 @@
       "works": [
         {
           "date": "2026-10-16",
-          "title": "La Radionica Italiana - Onde di Forma (Form Waves in Radionics) (it->EN)",
+          "title": "Onde di Forma in Radionica (La Radionica Italiana)",
           "domain": "",
           "source_url": "https://www.radionicaitaliana.it/laradionica/ondeforma.html",
           "language": "Italian",
           "target_language": "English",
           "file": "2026-10-16-onde-di-forma-radionica-italiana-it.md",
           "content_file": null,
-          "excerpt": "FORM WAVES. All electromagnetic waves — among them cosmic waves, sound waves, down to the subtlest energies, including those emitted by cerebral activity (P waves, or thought) and others, not all of them measurable by sc"
+          "excerpt": "FORM WAVES. All electromagnetic waves — among them cosmic waves, sound waves, down to the subtlest energies, including those emitted by cerebral activity (P waves, or thought) and others, not all of them measurable by sc",
+          "summary": "A practitioner exposition from the Italian site La Radionica Italiana (translated) on \"form waves\" (onde di forma) — the claimed emission of vibrations by the shape of objects, geometric figures, drawings, and symbols. The text asserts that all matter emits a form-based vibration with a wavelength on the order of angstroms, that numbers express cosmic vibrations, and that specific geometric circuits (the lozenge of Herrinx, the star, Celtic crosses, the shield of Servranx, the heptagon, the decagon, and others) transmit \"V\" and \"P\" fields for purposes such as protection, charging witnesses, and regeneration. It presents Steiner-derived etheric theory (chemical, vital, luminous, and reflecting ethers) and describes three formative-force experiments — capillary dynamolysis, copper chloride crystallization, and water-drop patterns. A closing note states that radionics is not officially recognized in Italy and that operators may not diagnose or prescribe.",
+          "points": [
+            "Source: La Radionica Italiana; a practitioner account of \"form waves\" (onde di forma)",
+            "Claims form waves have wavelengths on the order of angstroms, near cell scale",
+            "Names circuits: lozenge of Herrinx, shield of Servranx, heptagon, decagon, Celtic cross",
+            "Describes three formative-force methods: capillary dynamolysis, copper chloride crystallization, water-drop patterns",
+            "Uses Steiner-derived ethers (chemical, vital, luminous, reflecting)",
+            "Closing note: radionics is not officially recognized in Italy"
+          ]
         },
         {
           "date": "2026-10-15",
@@ -1136745,7 +1137107,42 @@
         "regenerative"
       ]
     },
-    "concept_names": {},
+    "concept_names": {
+      "aether": "Aether / Ether Theories",
+      "scalar": "Scalar Wave Phenomena",
+      "torsion": "Torsion Fields",
+      "zero_point": "Zero-Point / Vacuum Energy",
+      "overunity": "Overunity / Free Energy",
+      "cold_fusion": "LENR / Cold Fusion",
+      "tesla": "Tesla Technologies",
+      "keely": "Keely / Sympathetic Vibration",
+      "schauberger": "Schauberger / Implosion",
+      "water_memory": "Water Structure & Memory",
+      "morphic": "Morphogenic / Morphic Fields",
+      "radionics": "Radionics / Radiesthesia",
+      "psychotronic": "Psychotronic / Mind-Matter",
+      "biophoton": "Biophotonics",
+      "electrogravitics": "Electrogravitics / Anti-Gravity",
+      "vortex": "Vortex / Implosion Dynamics",
+      "geometry_sacred": "Sacred Geometry / Harmonics",
+      "crystal": "Crystals / Crystal Energy",
+      "ether_electric": "Electric Universe",
+      "suppression": "Conspiracy / Suppression",
+      "transhuman": "Transhumanism",
+      "regenerative": "Regenerative Agriculture",
+      "borderland": "Borderland Research",
+      "consciousness": "Consciousness Studies",
+      "p_unity": "Unity of Forces — the Subtle Energy Spectrum",
+      "p_goethean": "Goethean Method — Non-Reductionist Science",
+      "p_visualray": "Visual Ray & Alternative Optics",
+      "p_fieldphys": "Field Physics vs Reductionist Particle Models",
+      "p_formative": "Formative Forces & Morphogenesis",
+      "p_consciousness": "Consciousness & Matter — the Mind-Matter Bridge",
+      "p_electriccosmos": "Electric Universe & Plasma Cosmos",
+      "p_wrongturn": "Suppressed Science & Documented Wrong Turns",
+      "p_bridge": "Cross-Field Bridges — Connectors Between Silos",
+      "p_nature": "Nature as Organism — Living Whole"
+    },
     "doc_concepts": {
       "1": [],
       "2": [],
@@ -1441436,22 +1441833,37 @@
       "2473484": [],
       "2473485": [],
       "2473486": [],
-      "2473487": [],
-      "2473488": [],
+      "2473487": [
+        "p_fieldphys",
+        "p_nature"
+      ],
+      "2473488": [
+        "p_fieldphys",
+        "p_nature"
+      ],
       "2473489": [],
       "2473490": [],
       "2473491": [],
       "2473492": [],
-      "2473493": [],
+      "2473493": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
       "2473494": [],
       "2473495": [],
       "2473496": [],
       "2473497": [],
       "2473498": [],
       "2473499": [],
-      "2473500": [],
+      "2473500": [
+        "p_bridge",
+        "p_nature"
+      ],
       "2473501": [],
-      "2473502": [],
+      "2473502": [
+        "p_fieldphys",
+        "p_bridge"
+      ],
       "2473503": [],
       "2473504": [],
       "2473505": [],
@@ -1441460,19 +1441872,31 @@
       "2473508": [],
       "2473509": [],
       "2473510": [],
-      "2473511": [],
+      "2473511": [
+        "p_bridge"
+      ],
       "2473512": [],
       "2473513": [],
       "2473514": [],
       "2473515": [],
       "2473516": [],
-      "2473517": [],
-      "2473518": [],
-      "2473519": [],
-      "2473520": [],
+      "2473517": [
+        "p_fieldphys"
+      ],
+      "2473518": [
+        "p_fieldphys"
+      ],
+      "2473519": [
+        "p_fieldphys"
+      ],
+      "2473520": [
+        "p_fieldphys"
+      ],
       "2473521": [],
       "2473522": [],
-      "2473523": [],
+      "2473523": [
+        "p_fieldphys"
+      ],
       "2473524": [],
       "2473525": [],
       "2473526": [],
@@ -1441485,9 +1441909,13 @@
       "2473533": [],
       "2473534": [],
       "2473535": [],
-      "2473536": [],
+      "2473536": [
+        "p_fieldphys"
+      ],
       "2473537": [],
-      "2473538": [],
+      "2473538": [
+        "p_fieldphys"
+      ],
       "2473539": [],
       "2473540": [],
       "2473541": [],
@@ -1441519,12 +1441947,21 @@
       "2473567": [],
       "2473568": [],
       "2473569": [],
-      "2473570": [],
-      "2473571": [],
-      "2473572": [],
+      "2473570": [
+        "p_fieldphys"
+      ],
+      "2473571": [
+        "p_fieldphys"
+      ],
+      "2473572": [
+        "p_fieldphys"
+      ],
       "2473573": [],
       "2473574": [],
-      "2473575": [],
+      "2473575": [
+        "p_fieldphys",
+        "p_nature"
+      ],
       "2473576": [],
       "2473577": [],
       "2473578": [],
@@ -1441541,22 +1441978,34 @@
       "2473589": [],
       "2473590": [],
       "2473591": [],
-      "2473592": [],
+      "2473592": [
+        "crystal"
+      ],
       "2473593": [],
       "2473594": [],
       "2473595": [],
       "2473596": [],
       "2473597": [],
-      "2473598": [],
+      "2473598": [
+        "cold_fusion"
+      ],
       "2473599": [],
       "2473600": [],
-      "2473601": [],
+      "2473601": [
+        "aether"
+      ],
       "2473602": [],
       "2473603": [],
       "2473604": [],
-      "2473605": [],
-      "2473606": [],
-      "2473607": [],
+      "2473605": [
+        "aether"
+      ],
+      "2473606": [
+        "crystal"
+      ],
+      "2473607": [
+        "crystal"
+      ],
       "2473608": [],
       "2473610": [],
       "2473613": [],
@@ -1441581,9 +1442030,15 @@
       "2473636": [],
       "2473637": [],
       "2473638": [],
-      "2473639": [],
-      "2473640": [],
-      "2473641": [],
+      "2473639": [
+        "geometry_sacred"
+      ],
+      "2473640": [
+        "geometry_sacred"
+      ],
+      "2473641": [
+        "geometry_sacred"
+      ],
       "2473642": [],
       "2473643": [],
       "2473644": [],
@@ -1441645,8 +1442100,12 @@
       "2473711": [],
       "2473712": [],
       "2473713": [],
-      "2473714": [],
-      "2473715": [],
+      "2473714": [
+        "zero_point"
+      ],
+      "2473715": [
+        "zero_point"
+      ],
       "2473716": [],
       "2473717": [],
       "2473718": [],
@@ -1441658,14 +1442117,23 @@
       "2473724": [],
       "2473725": [],
       "2473726": [],
-      "2473727": [],
-      "2473728": [],
+      "2473727": [
+        "overunity",
+        "electrogravitics"
+      ],
+      "2473728": [
+        "p_fieldphys"
+      ],
       "2473730": [],
       "2473731": [],
       "2473732": [],
       "2473733": [],
-      "2473734": [],
-      "2473735": [],
+      "2473734": [
+        "tesla"
+      ],
+      "2473735": [
+        "p_fieldphys"
+      ],
       "2473736": [],
       "2473737": [],
       "2473738": [],
@@ -1441684,13 +1442152,24 @@
       "2473751": [],
       "2473753": [],
       "2473754": [],
-      "2473755": [],
-      "2473756": [],
+      "2473755": [
+        "schauberger",
+        "vortex"
+      ],
+      "2473756": [
+        "schauberger",
+        "vortex"
+      ],
       "2473757": [],
       "2473758": [],
-      "2473759": [],
+      "2473759": [
+        "schauberger",
+        "vortex"
+      ],
       "2473760": [],
-      "2473761": [],
+      "2473761": [
+        "scalar"
+      ],
       "2473762": [],
       "2473763": [],
       "2473764": [],
@@ -1441704,10 +1442183,14 @@
       "2473772": [],
       "2473773": [],
       "2473774": [],
-      "2473775": [],
+      "2473775": [
+        "electrogravitics"
+      ],
       "2473776": [],
       "2473777": [],
-      "2473778": [],
+      "2473778": [
+        "keely"
+      ],
       "2473779": [],
       "2473780": [],
       "2473781": [],
@@ -1441717,8 +1442200,12 @@
       "2473785": [],
       "2473786": [],
       "2473787": [],
-      "2473788": [],
-      "2473789": [],
+      "2473788": [
+        "p_consciousness"
+      ],
+      "2473789": [
+        "p_wrongturn"
+      ],
       "2473790": [],
       "2473791": [],
       "2473792": [],
@@ -1441743,8 +1442230,12 @@
       "2473811": [],
       "2473812": [],
       "2473813": [],
-      "2473814": [],
-      "2473815": [],
+      "2473814": [
+        "p_fieldphys"
+      ],
+      "2473815": [
+        "tesla"
+      ],
       "2473816": [],
       "2473817": [],
       "2473818": [],
@@ -1441753,7 +1442244,9 @@
       "2473821": [],
       "2473822": [],
       "2473823": [],
-      "2473824": [],
+      "2473824": [
+        "vortex"
+      ],
       "2473825": [],
       "2473826": [],
       "2473827": [],
@@ -1441782,15 +1442275,21 @@
       "2473850": [],
       "2473851": [],
       "2473852": [],
-      "2473853": [],
-      "2473854": [],
+      "2473853": [
+        "aether"
+      ],
+      "2473854": [
+        "electrogravitics"
+      ],
       "2473855": [],
       "2473856": [],
       "2473857": [],
       "2473858": [],
       "2473859": [],
       "2473860": [],
-      "2473861": [],
+      "2473861": [
+        "overunity"
+      ],
       "2473862": [],
       "2473863": [],
       "2473864": [],
@@ -1441799,7 +1442298,9 @@
       "2473867": [],
       "2473868": [],
       "2473869": [],
-      "2473870": [],
+      "2473870": [
+        "p_fieldphys"
+      ],
       "2473871": [],
       "2473872": [],
       "2473873": [],
@@ -1441834,11 +1442335,20 @@
       {
         "drawer": "translated",
         "label": "Translated",
-        "title": "A Little About the Giza Pyramids, Article 3 (Chernyaev)",
-        "excerpt": "The Mysteries of the Giza Plateau I shall give here, from the internet, a plan of the Giza plateau with all the historical objects: 1. The Pyramid of Cheops 2. The Pyrami",
-        "meta": "Russian",
-        "rarity": "fresh from Russian",
-        "href": "./library.html#trans-translations/2026-10-15-nemnogo-o-piramidakh-gize-statya-3-chernyaev-ru.md"
+        "title": "What Does Radiesthesia Mean? (hikmet.net)",
+        "excerpt": "What Does Radiesthesia Mean? Today, the science of 'Radiesthesia' — which stands as evidence for the existence of entities beyond physics and matter — also constitutes on",
+        "meta": "Turkish",
+        "rarity": "fresh from Turkish",
+        "href": "./library.html#trans-2026-10-12-radyastezi-ne-demektir-what-is-radiesthesia-hikmet-tr.md"
+      },
+      {
+        "drawer": "found",
+        "label": "Newly found",
+        "title": "lenr",
+        "excerpt": "canr DRY** (200, /acrobat/ 138,372B byte-identical, 1,454).",
+        "meta": "2026-09-28",
+        "rarity": "scout find",
+        "href": "./library.html"
       },
       {
         "drawer": "rare",
@@ -1443342,6 +1443852,24 @@
     ],
     "validations": [
       {
+        "file": "synthesis/validations/2026-10-16-visible-light-interfacial-water-no-change-bonn-2026.md",
+        "date": "2026-10-16",
+        "title": "Water Structure — Visible Light Does Not Change Interfacial Water or Its Evaporation — A Max Planck Ceiling in PNAS (2026)",
+        "excerpt": "# Validation — Visible Light Leaves Interfacial Water Unchanged (Max Planck Institute for Polymer Research, PNAS 2026)\n\n**Domain:** water structure / interfacial (exclusion-zone) water\n**Recorded:** 2"
+      },
+      {
+        "file": "synthesis/validations/2026-10-16-lenr-mizuno-processed-metal-sus304-partial-followup-2026.md",
+        "date": "2026-10-16",
+        "title": "LENR — The Processed-Metal (SUS304) Branch of Mizuno's Claim Gets Its First Independent Follow-Up (2025-2026) — Supportive So Far, Not Yet a Replication",
+        "excerpt": "# Validation — Mizuno's Processed-Metal (SUS304) Branch and Its First Independent Follow-Up (2025-2026)\n\n**Domain:** LENR / condensed-matter nuclear science (hydrogen-metal lattice, anomalous heat + n"
+      },
+      {
+        "file": "synthesis/validations/2026-10-16-ez-water-cryoprotectants-independent-lab-czech-2026.md",
+        "date": "2026-10-16",
+        "title": "Water Structure — An Independent Lab Reproduces the Pollack Exclusion Zone Next to Nafion and Ties It to Cryoprotection (Institute of Physics, Czech Academy of Sciences, 2026)",
+        "excerpt": "# Validation — The Exclusion Zone Reproduced Independently and Linked to Cryoprotectants (Institute of Physics, Czech Academy of Sciences, 2026)\n\n**Domain:** water structure / exclusion-zone (EZ) and "
+      },
+      {
         "file": "synthesis/validations/2026-10-15-subtle-stimuli-sodium-chlorate-chirality-rubik-2021.md",
         "date": "2026-10-15",
         "title": "Crystallization & Subtle Stimuli — Chiral Symmetry Breaking in Sodium Chlorate Under a Tone, Two Devices, a Magnet and a Pyramid (Rubik, WATER 2021): Significant Positives and Clean Nulls in One Campaign",
@@ -1443801,15 +1444329,15 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-16T08:17:33Z",
+    "as_of": "2026-10-16T09:19:07Z",
     "baseline": "2026-09-17T23:09:07Z",
     "deltas": {
       "docs": 59935,
-      "translations": 748,
-      "pages_translated": 13231,
+      "translations": 757,
+      "pages_translated": 13303,
       "declassified": 180,
-      "researchers": 923,
-      "patents": 226
+      "researchers": 924,
+      "patents": 236
     }
   }
 }
