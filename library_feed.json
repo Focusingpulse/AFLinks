@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T12:17:33Z",
+  "generated_at": "2026-10-16T12:20:54Z",
   "library": {
     "researchers": 2062,
     "researchers_cataloged": 2062,
@@ -62,7 +62,7 @@
     "replication_dossiers": 110,
     "validations": 79,
     "counter_snapshot": {
-      "generated_at": "2026-10-16T12:17:33Z",
+      "generated_at": "2026-10-16T12:20:54Z",
       "archive_entries": 131126,
       "aflinks_docs": 131126,
       "translations": 926,
@@ -34571,9 +34571,9 @@
       "mission": "Budget-burning full-document translator — weaves chunk by chunk until the whole text is English.",
       "schedule": "every 2h + overnight",
       "icon": "🧵",
-      "last_run": "2026-10-16T11:32:43Z",
+      "last_run": "2026-10-16T12:21:16Z",
       "last_status": "ok",
-      "last_summary": "run total 22 chunks across 4 trinitas 0232 golden-section docs, all complete | backlog 318 | gear overdrive"
+      "last_summary": "run total 10 chunks across 3 trinitas 0232 golden-section docs, all complete | backlog 312 wait | gear overdrive"
     },
     {
       "member": "db-entity-extractor",
@@ -34593,7 +34593,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-16T11:15:56Z",
+      "last_run": "2026-10-16T12:19:58Z",
       "last_status": "ok",
       "last_summary": "sync: 131126 docs, feed rebuilt"
     },
@@ -34709,6 +34709,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-16",
+      "time": "12:19",
+      "agent": "AFLinks Sync",
+      "summary": "+131126 docs — +131126 docs in vault | feed rebuilt"
+    },
     {
       "date": "2026-10-16",
       "time": "12:12",
@@ -35008,12 +35014,6 @@
       "time": "00:26",
       "agent": "AFLinks Sync",
       "summary": "+130726 docs — +130726 docs in vault | feed rebuilt"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "00:22",
-      "agent": "AFLinks Steiner Worker",
-      "summary": "Steiner harvest: 0 new docs, 4099 catch-up doc pages, archive 130726"
     },
     {
       "date": "2026-10-15",
@@ -1444384,7 +1444384,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-16T12:17:33Z",
+    "as_of": "2026-10-16T12:20:54Z",
     "baseline": "2026-09-17T23:09:07Z",
     "deltas": {
       "docs": 59935,
