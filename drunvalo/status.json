@@ -2,22 +2,16 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-15T20:15:30Z",
+    "timestamp": "2026-10-16T04:06:08Z",
     "status": "ok",
-    "summary": "QC clean (0 dupes, 0 dangling refs, 0 mojibake); +49 works from Forge's Oct-15 batch (Stakhov/golden-section scene x34, Kovalenko water/form-effect x4, torsion x4, radiesthesia x3, LENR/ether/compendium/torkado x4); +17 persons; kovalenko enriched to Viktor F. Kovalenko; komarov-vm distinct from komarov-sm; nikitin-av identity note; 3 memoir URLs backfilled via trinitas sequential probing; tag_concepts skipped (dead). DB: 1076 works / 681 persons."
+    "summary": "+11 works (Oct 15-16 Forge batch incl Callisto de skeptical-ledger) +5 persons; all standing checks clean; 1087 works / 686 persons"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 681,
-  "works": 1076,
+  "persons": 686,
+  "works": 1087,
   "notes": "QC clean; Forge Oct 14-15 batch indexed",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-14T08:05:53Z",
-      "status": "ok",
-      "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
-    },
     {
       "cron": "village-content-growth",
       "timestamp": "2026-10-14T08:17:03Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-15T20:15:30Z",
       "status": "ok",
       "summary": "QC clean (0 dupes, 0 dangling refs, 0 mojibake); +49 works from Forge's Oct-15 batch (Stakhov/golden-section scene x34, Kovalenko water/form-effect x4, torsion x4, radiesthesia x3, LENR/ether/compendium/torkado x4); +17 persons; kovalenko enriched to Viktor F. Kovalenko; komarov-vm distinct from komarov-sm; nikitin-av identity note; 3 memoir URLs backfilled via trinitas sequential probing; tag_concepts skipped (dead). DB: 1076 works / 681 persons."
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-16T04:06:08Z",
+      "status": "ok",
+      "summary": "+11 works (Oct 15-16 Forge batch incl Callisto de skeptical-ledger) +5 persons; all standing checks clean; 1087 works / 686 persons"
     }
   ],
-  "timestamp": "2026-10-15T20:15:30Z",
+  "timestamp": "2026-10-16T04:06:08Z",
   "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
 }
