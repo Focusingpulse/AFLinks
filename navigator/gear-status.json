@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-15T20:00:28Z",
+  "as_of": "2026-10-16T00:01:48Z",
   "gear": 1,
   "model": "deepseek/deepseek-v4.1-flash",
-  "evidence": "POST /v1/agents/<id>/messages -> HTTP 200, coherent reply 'ok' (openrouter deepseek-v4.1-flash, 1 step)",
+  "evidence": "probe POST /messages HTTP 200, assistant replied 'ok' (1 step); agent config already on gear 1, no write",
   "note": ""
 }
