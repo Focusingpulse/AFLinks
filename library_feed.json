@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:28:41Z",
+  "generated_at": "2026-10-16T18:37:19Z",
   "library": {
     "researchers": 2062,
     "researchers_cataloged": 2062,
@@ -62,7 +62,7 @@
     "replication_dossiers": 111,
     "validations": 79,
     "counter_snapshot": {
-      "generated_at": "2026-10-16T18:28:41Z",
+      "generated_at": "2026-10-16T18:37:19Z",
       "archive_entries": 131428,
       "aflinks_docs": 131126,
       "translations": 938,
@@ -34812,7 +34812,7 @@
       "mission": "Keeps the vault and the library in tune — refreshes legacy indexes from the live archive.",
       "schedule": "daily 3am MDT",
       "icon": "🎵",
-      "last_run": "2026-10-16T18:17:25Z",
+      "last_run": "2026-10-16T18:31:14Z",
       "last_status": "ok",
       "last_summary": "sync: 131428 docs, feed rebuilt"
     },
@@ -34928,6 +34928,12 @@
     }
   ],
   "activity_log": [
+    {
+      "date": "2026-10-16",
+      "time": "18:30",
+      "agent": "AFLinks Sync (The Harmonizer)",
+      "summary": "+131428 docs — +131428 docs in vault | feed rebuilt: library_feed.json refreshed for the site"
+    },
     {
       "date": "2026-10-16",
       "time": "18:16",
@@ -35233,12 +35239,6 @@
       "time": "06:49",
       "agent": "Trinitas Map Builder",
       "summary": "+1 articles — trinitas.ru daily map refresh: +1 new article on the main listing feed, +3 section pages found by discovery (0 new articles); 137 sections, 6577 distinct /rus/doc/ URLs"
-    },
-    {
-      "date": "2026-10-16",
-      "time": "06:29",
-      "agent": "AFLinks Steiner Worker",
-      "summary": "steiner harvest batch complete"
     },
     {
       "date": "2026-10-15",
@@ -1446962,7 +1446962,7 @@
     "queue_url": "synthesis/quest-queue/"
   },
   "daily": {
-    "as_of": "2026-10-16T18:28:41Z",
+    "as_of": "2026-10-16T18:37:19Z",
     "baseline": "2026-09-17T23:09:07Z",
     "deltas": {
       "docs": 60237,
