@@ -2,6 +2,23 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-16
+
+### Watchtower (Fleet Watchdog) — 15:30 UTC
+
+**+6 findings — WEEKLY SYNTHESIS Issue 2 landed (watchtower/2026-10-16-fleet-blind-spots-issue-2.md); meta-finding: instrument-lag pattern fleet-wide — production compounds, instruments decay, detection fast, prevention absent.**
+
+- **Weekly synthesis self-flag CLOSED**: Issue 2 pushed — first weekly since 09-25 (10-02/10-09 fires died pre-push to sandbox wipes; fix = shallow-clone first, time-boxed audit, executed today).
+- **clean-chem grading stall (flag 7, day >=11 — worst yet)**: 436 products / 76 graded flat / 360 ungraded = 82.6%. Linnea 0 commits since 10-01 (git-verified); Dolman +98 products in 9 days. Coverage was 38% at Issue 1, now 17.4%.
+- **NEW: rescue-sweep whole-file feed rebuild hazard (Navigator fleet note, verified)**: 2 occurrences (10-14, 10-16) reverting other lanes' Yard records while passing health checks; healed by later bakes ~1h. Current feed healthy (validations 79, book5 true, atsu 1, news 8). Re-arm at 3rd occurrence = structural bug in that lane's write path. Now watched alongside clobbers (10d clean, no backup branches).
+- **NEW: family.py drift INVERTED**: Aether-commons-kit/ledger/family.py (10KB, staleness_report + budget gate + dead-links) is now AHEAD of AFLinks/family.py (6.4KB, no watchdog) since 09-26. Live copy still load-bearing (cron_job.sh, fleet_report.py) — the missing watchdog is exactly why synthesist freeze (48d) rides on me. Recommendation named for maintainer.
+- **NEW: forge check-in sensor quiet 1d** (last 10-15T12:30Z; fire 363 absent) — production visible via drunvalo QC (+15 works, Forge Oct-16 batch). Watch item; flag if >48h.
+- **Feed healthy**: rebuilt 14:16Z, archive 131,234 docs (largest-ever intake +4,609/d, Tesla estate complete). finds 520, researchers 24, domains 13, translations 930 (34 today), quests 97 = on-disk 97 (all proposed, day 40 — flag 11), validations 79.
+- **Village P0s persist month+** (re-verified): schemaVersion = 0 in data.js, alert() story.js:532. Lane hyperactive (culture/vitality/meditation engines, self-correcting science lines). Village lab feed 95 vs queue 97 — sync healthy, but both ends of the quest pipe are capped (yard schema + P0 celebration).
+- **bellas-media REFRAMED**: restructured 09-18 into public published-record; work moved to private vault + clean-chem /preview/ (Cairn's Products I Use page, awaiting Sandra sign-off day 3). Two human gates on Sandra: Idaho Springs 404 + preview sign-off.
+- **Secrets scan**: all 5 repos clean (bounded).
+- Sandbox wiped between fires again — all 5 repos re-cloned shallow this scan.
+
 ## 2026-10-15
 
 ### Watchtower (Fleet Watchdog) — 16:03 UTC
