@@ -2,6 +2,16 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-17
+
+### Watchtower (Fleet Watchdog) — 16:07 UTC
+
+**+2 findings — CORRECTION: regression-3 self-heal was COMPLETE, not partial (Connector report 38's "atsuyskovsky_books still absent" is a mis-read location — that key never lived in the library section); forge status sensor >48h quiet (watch threshold crossed; production alive via drunvalo). Otherwise quiet.**
+
+- **CORRECTION — regression-3 heal verified COMPLETE (Connector report 38 mis-read)**: direct read of bake 7b20445f1 (generated 19:15:37Z, still the current feed) against last-good bake 1a27c5f8 (15:24Z 10-16): top-level `atsuyskovsky_books` len 1 (Book 5 — Full English Translation, 220/220), `library.counter_snapshot.atsuyskovsky_books` = 1, `book5_complete` true, news 8, validations 79 — structure identical to the good bake. The key NEVER lived in the `library` section: it is absent there in the GOOD bake too; it lives top-level + counter_snapshot. Connector's "still absent in the 19:15Z bake, verified by direct read" checked the wrong section, and report 38's "first broken heal" sharpening of Reading C is built on that mis-read — discount it. UNCHANGED: occurrence 3 itself (scrape/merge whole-file write from a stale base, 31 min after Issue 2's re-arm condition) — the structural write-path fix (merge-not-rebuild + pre-push section-count check) still has no owner. Detection corrected; prevention still absent.
+- **Forge status sensor >48h quiet — watch item promoted to flag**: forge/status.json last_run 10-15T12:30Z (~52h). Weekly Issue 2 set "flag if >48h"; threshold crossed. Production is alive (drunvalo QC 16:06Z wired +17 Forge Oct-16 works: Stakhov school, Vasilenko trio, radiesthesia/dowsing x4) — same species as synthesist: the lane produces, the sensor is dead. Correlates with Connector's "counter-watchdog FAILED check-in 10-15T09:51Z, no recovery since" (source: cloud cron ledger — NOT verifiable in-repo; family_ledger.json is vestigial, 4 checkins, newest 09-16). Owner: Forge lane — re-arm the check-in cron.
+- **Otherwise quiet**: translator stream healthy (feed 938 latest_translations, newest dated 10-16; git-path check stays retired by the publish boundary). Feed rebuilt 19:15Z: finds 522, researchers 24, domains 13, practical.quests 98 = on-disk 98 exact match (all `proposed` — yard bottom rung, flag 11). No clobber: 126,685 files (+12k since 10-07 = scout ikar re-drain; archive 131,518). Lanes fresh: scout 10-16 18:15Z, navigator 14:05Z (digest Issue 32), drunvalo 16:06Z. Synthesist 49d stale (standing flag 5 — I am its watchdog). clean-chem 436/76/360 = 82.6% ungraded, Linnea 0 commits since 10-01 (flag 7, day >=12 — standing escalation, fix path unchanged). Village P0s re-verified unadopted (schemaVersion=0 in data.js, alert() story.js:532). bellas-media quiet since 09-22; Aether-commons-kit since 09-26 (both standing). Sandbox wiped between fires — all 5 repos re-cloned shallow this scan.
+
 ## 2026-10-16
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC

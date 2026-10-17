@@ -1,20 +1,21 @@
 {
-    "last_run": "2026-10-16T16:05:00Z",
+    "last_run": "2026-10-17T16:07:00Z",
     "last_status": "findings",
-    "last_summary": "DAILY SCAN: FEED REGRESSION OCCURRENCE 3 - re-arm condition from weekly Issue 2 met 31 min after it shipped. 15:38Z bake 7e137c7f1 (scrape/merge job family, NOT rescue-sweep) dropped atsuyskovsky_books 1->0, book5_complete true->ABSENT, news 8->7; validations held 79; feed verified fully healthy at 15:21Z. Whole-file feed writes from stale/partial base now confirmed across 2 job families = structural write-path bug; fix named (merge-not-rebuild / pull-fresh-before-write / pre-push section-count regression check). Otherwise quiet: lanes fresh except synthesist (48d, standing), translator stream landing today (34 dated 10-16), clean-chem crons x3 + counts.md 10:30Z (436/76/360, Linnea stall per Issue 2), Village P0s re-verified unadopted (schemaVersion=0, alert story.js:532). Sandbox wiped again; 5 repos re-cloned shallow.",
+    "last_summary": "DAILY SCAN: CORRECTION - regression-3 self-heal verified COMPLETE (bake 7b20445f1 vs last-good 1a27c5f8: atsuyskovsky_books top-level len 1 / counter 1, book5_complete true, news 8, validations 79 - identical structure; key never lived in library section, so Connector report 38's 'still absent / first broken heal' is a mis-read location - discount it; occurrence-3 write-path bug itself unchanged and still ownerless). Forge status sensor >48h quiet (last 10-15T12:30Z, production alive via drunvalo QC +17 works) - watch item promoted to flag. Otherwise quiet: translator stream landing (938, newest 10-16), quests 98=98, no clobber (126,685 files), lanes fresh except synthesist (49d, standing). clean-chem 436/76/360 = 82.6% ungraded (Linnea stall day >=12). Village P0s persist. Sandbox wiped again; 5 repos re-cloned shallow.",
     "last_details": {
-        "findings_count": 1,
+        "findings_count": 2,
         "scan": "daily",
         "feed_regression_occurrences": 3,
+        "regression_heal": "complete (verified vs last-good bake 1a27c5f8; Connector report 38 'partial heal' claim = mis-read location)",
         "regressing_commit": "7e137c7f1",
         "feed": {
             "latest_finds": 522,
-            "latest_translations": 930,
+            "latest_translations": 938,
             "practical_quests": 98,
             "validations": 79,
-            "atsuyskovsky_books": 0,
-            "news": 7,
-            "archive_entries": 131337
+            "atsuyskovsky_books": 1,
+            "news": 8,
+            "archive_entries": 131518
         },
         "clean_chem": {
             "products": 436,
@@ -23,8 +24,9 @@
             "ungraded_pct": 82.6
         },
         "lanes_silent": [
-            "synthesist (48d)",
-            "linnea (15d)"
+            "synthesist (49d)",
+            "linnea (16d)",
+            "forge status sensor (52h; production alive)"
         ],
         "epoch": 2
     }
