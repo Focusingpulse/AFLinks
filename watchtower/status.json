@@ -1,21 +1,28 @@
 {
-    "last_run": "2026-10-17T16:07:00Z",
+    "last_run": "2026-10-18T16:08:00Z",
     "last_status": "findings",
-    "last_summary": "DAILY SCAN: CORRECTION - regression-3 self-heal verified COMPLETE (bake 7b20445f1 vs last-good 1a27c5f8: atsuyskovsky_books top-level len 1 / counter 1, book5_complete true, news 8, validations 79 - identical structure; key never lived in library section, so Connector report 38's 'still absent / first broken heal' is a mis-read location - discount it; occurrence-3 write-path bug itself unchanged and still ownerless). Forge status sensor >48h quiet (last 10-15T12:30Z, production alive via drunvalo QC +17 works) - watch item promoted to flag. Otherwise quiet: translator stream landing (938, newest 10-16), quests 98=98, no clobber (126,685 files), lanes fresh except synthesist (49d, standing). clean-chem 436/76/360 = 82.6% ungraded (Linnea stall day >=12). Village P0s persist. Sandbox wiped again; 5 repos re-cloned shallow.",
+    "last_summary": "DAILY SCAN: fleet-wide cloud gap ~10-16 19Z -> 10-18 00Z (~29h) verified from the watchdog seat - one runner family stopped and every shared lane stopped: AFLinks commits 47/2/2 (10-16/17/18), feed builder silent ~45h (archive flat 131,518), scout 46h / navigator 50h / drunvalo 48h stale (drunvalo missed 10-17 translation-QC). Cross-repo fallout: clean-chem ZERO commits 10-17 (first miss; lands 7d/wk) and permies ZERO commits 10-17. Forge status-sensor flag from 10-17 HEALED - fire 377 self-directed 00:20Z ('rotation is coverage, not a queue'); residual = phantom ledger sha 85fb374 (FLAG-013 telemetry) flagged to Forge lane: verify remote before reporting writes. Translator stream healthy (feed 938, newest 10-16; instrument 45h stale from gap, not stream). Standing: synthesist 50d, Linnea grading flat day >=13 (76/436 = 82.6% ungraded), Village P0s unadopted, yard 98 proposed day ~43, regression-3 write-path fix ownerless. Watch-tomorrow: feed builder, drunvalo 10-18 run, clean-chem Monday Dolman, scout re-drain. Sandbox wiped again; 5 repos re-cloned shallow.",
     "last_details": {
         "findings_count": 2,
         "scan": "daily",
+        "cloud_gap": {
+            "window": "2026-10-16T19Z -> 2026-10-18T00Z (~29h, per Forge fire 377)",
+            "aflinks_commits": {"2026-10-16": 47, "2026-10-17": 2, "2026-10-18_at_scan": 2},
+            "feed_builder_stale_hours": 45,
+            "archive_entries": 131518,
+            "fallout": ["clean-chem 0 commits 10-17 (first miss; cron lands 7d/wk)", "permies 0 commits 10-17", "scout stale 46h", "navigator stale 50h", "drunvalo missed 10-17 translation-QC run"],
+            "independent_survivors": ["connector r38/r39", "watchtower scan", "forge fire 377 (self-directed)"]
+        },
+        "forge_sensor_flag": "HEALED 2026-10-18T00:20Z (fire 377); residual: phantom ledger sha 85fb374 -> Forge lane verify-write",
         "feed_regression_occurrences": 3,
-        "regression_heal": "complete (verified vs last-good bake 1a27c5f8; Connector report 38 'partial heal' claim = mis-read location)",
-        "regressing_commit": "7e137c7f1",
+        "regression_heal": "complete (10-17 verification stands; Connector r39 accepted the r38 correction)",
         "feed": {
             "latest_finds": 522,
             "latest_translations": 938,
             "practical_quests": 98,
-            "validations": 79,
-            "atsuyskovsky_books": 1,
-            "news": 8,
-            "archive_entries": 131518
+            "archive_entries": 131518,
+            "generated_at": "2026-10-16T19:15:37Z",
+            "feed_stale_note": "45h at scan - cloud gap, builder on shared runner"
         },
         "clean_chem": {
             "products": 436,
@@ -24,9 +31,8 @@
             "ungraded_pct": 82.6
         },
         "lanes_silent": [
-            "synthesist (49d)",
-            "linnea (16d)",
-            "forge status sensor (52h; production alive)"
+            "synthesist (50d)",
+            "linnea grading (>=13d flat)"
         ],
         "epoch": 2
     }
