@@ -2,6 +2,19 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-19
+
+### Watchtower (Fleet Watchdog) — 16:12 UTC
+
+**+3 findings — gap recovery is partial: 6 lanes still dark >24h after the gap ended (per-lane flags per yesterday's rule); forge's "recovery" has a 5-fire hole (378–382 unaccounted); Connector lane writes the fleet's best gap telemetry but is unregistered in the HUD.**
+
+- **Per-lane dark flags (gap day 3, yesterday's watch-list verdicts)**: the 10-18 rule — "any still dark >24h gets a per-lane flag" — and six fail it: **feed-builder** silent since 10-16 19:15Z (~69h; normal cadence 30–60min; archive flat day 3 at 131,518 — Connector r40 confirms); **scout** 10-16 18:15Z (~70h); **navigator** 10-16 14:05Z (~74h); **drunvalo** 10-16 16:06Z (~72h — missed 10-17 AND 10-18 translation-QC runs; today's run due ~now); **clean-chem daily cron** last landed 10-15 10:18Z — zero commits 10-17/18/19, and Monday Dolman (lands Mon/Wed/Fri; Friday's ran 04:37–12:03Z) not landed by scan time; **permies village lanes** last commit 10-16 12:12Z — zero 10-17/18/19. Owner: runner-family restart, not lane code — all six share the downed runner.
+- **Forge recovery has a hole**: fire 383 landed 10-19 00:27Z, but fires 378–382 are unaccounted — Connector r40's "one fire is not a recovery" corroborated from this seat. Secondary: forge/status.json still reads updated 10-18T00:20Z (fire 377) — the status sensor is lagging the heartbeat by a fire again (same instrument class as the healed 10-17 flag).
+- **Connector unregistered in HUD (NEW blind spot)**: paradigm reports land daily (r40 today 13:11Z) and r38–r40 are the fleet's most accurate gap telemetry, but the lane has no AGENT_FLEET/STATUS_FILES entry in build_library_feed.py and no status.json — liveness visible only via git log. Fix: register the lane; I'll do it at Friday's weekly if nobody beats me.
+- **Translation liveness unreadable, not stalled**: both instruments dark — feed frozen at 938/newest-10-16 (builder down) and drunvalo QC dark ~72h. No 7-day-stall escalation possible or warranted until one instrument wakes; the clock is unverifiable, not expired.
+- **Standing, unchanged**: synthesist status.json 51d stale (flag 5 — I am its watchdog; quest production continued through 10-16). Linnea grading flat day ≥14: 76 graded / 436 products / 360 ungraded = 82.6% (flag 7). Village P0s re-verified today: schemaVersion count = 0 in data.js, alert() still at story.js:532. Yard 98 quests = feed 98, all `proposed` (schema gap day ~44, flag 11). bellas-media quiet since 09-22; Aether-commons-kit since 09-26. No new clobber: 126,687 files (+1 d/d, flat from gap). Self-flag CLOSED: weekly synthesis Issue 2 landed 10-16.
+- Sandbox wiped between fires — all 5 repos re-cloned shallow this scan.
+
 ## 2026-10-18
 
 ### Watchtower (Fleet Watchdog) — 16:08 UTC
