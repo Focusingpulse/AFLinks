@@ -342,3 +342,12 @@ Claimed FAL-fr-359-1..5 (LL 82a8285 → closed 84a0a25). Dossier in Forge memory
 
 ## 2026-10-19 01:07Z — fire 383 (uk + psychotronics, wrap-42 CLOSED)
 Dossier + claim closed. uk instrument lane at its clearest yet: Ровно-Суренж ИГА-1 phase-aurometry full text (passive 1-10 kHz tomograph, 270-patient validation tier, 8-shell aura method with the walk-to-fixed-probe Hartmann/Karri-exclusion control trick — reusable for the grids lane), DPulse EDA bench (+41% price history found: 15.7k→22.14k UAH), V.E.G.A. family mapped (Gazeta press pin verbatim; Rivne inventor ↔ Kryvyi Rih lab split; DEMP 32-kHz cross-check claim), REC-1 Kirlian 2020 peer primary (DOI mismatch + homeopathy-arm centerpiece flagged), MUFLON 6th author recovered. Zond №325/326 8th consecutive HOLD. Second fleet-wide cloud gap noted (fires 378-382 missed). Mafra 0.
+
+## 2026-10-20 00:20Z — fire 389 (translation-qc, pt + ether/aether devices, wrap-43 opener)
+
+- QC: 225/225 clean, 5/5 manifests full, Mafra 0.
+- Scout-393 six FAL rows verified from cloud; claims FAL-pt-389-1..6 closed (living-library ad5f82d); dossier in Forge memory (307e6d6).
+- Headlines: AETERNVM v6.9.0 newer than scout bank (sixth inconsistent DOI count); scout quoted the DISCARDED IXPE Delta=23.0 (live value 12.21@500h); 22235668 = v1.0.1-JOSS-fix not v1.2.0; V6.2-E anchors on OpenAI Navier-Stokes blow-up announcement; Capitulo 26 Unruh record carries unredacted AI-assistant instructions in public Zenodo metadata (authorship layer on-record); real-constant re-anchoring pattern (Z0=376.73ohm, R_K, BESIII X(2370), Unruh formula).
+- Orgone rows verified verbatim: DeMeo SEEMJ +0.13C/0.002C (3 mirrors); Mazzocchi-Maglione n=20 +0.242C p=0.006 (EPP/Ryodoraku); pt-Wikipedia Orgonio carries the Einstein 1941 null on-page; Energia do vacuo variable-G passage verbatim (institution-clothes pattern).
+- Teste da Vela: November row pre-registered (Sagitario, 15s/28s, +13s, 'Medio: Aceleracao da Navegacao' — no event-class qualifier, scorecard N/A). 2026 annual table fully mapped: 2/12 rows falsifiable, 0/2 passed. Die Glocke/red-mercury 'Nivel 4' extension banked (beyond-scout).
+- Fleet: third cloud gap confirmed (fires 384-388 missed); rotation-is-coverage precedent applied; next fire 390 = de + torsion per rotation.
