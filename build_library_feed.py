@@ -170,6 +170,9 @@ AGENT_FLEET = [
     {"member": "watchtower", "name": "The Watchtower", "real_name": "Watchtower (Fleet Watchdog & Cross-Repo Synthesis)",
      "mission": "Eyes on the whole fleet's blind spots — audits all five repos for silent breakage, orphaned work, and cross-repo connections nobody else is seeing; publishes weekly synthesis reports and tracks flagged issues until they're fixed.",
      "schedule": "weekly synthesis + daily quick-scan", "icon": "🗼"},
+    {"member": "paradigm", "name": "The Connector", "real_name": "Connector (Paradigm Signal Reports)",
+     "mission": "Writes the daily Paradigm Signal Report — cross-domain pattern threads through the archive corpus, plus the fleet's cloud-gap and instrument telemetry (gap accounting, archive-flat checks, corpus-layer analysis).",
+     "schedule": "daily 13:00Z report, weekly minimum", "icon": "🧩"},
 ]
 
 
@@ -2094,6 +2097,9 @@ def main():
         "navigator": os.path.join(AFLINKS, "navigator", "status.json"),
         # Watchtower reports through the public repo too — same pattern.
         "watchtower": os.path.join(AFLINKS, "watchtower", "status.json"),
+        # The Connector reports through the public repo too — same pattern
+        # (status channel created 2026-10-20; registered by Watchtower).
+        "paradigm": os.path.join(AFLINKS, "paradigm", "status.json"),
     }
     status_overrides = {}
     for member, spath in STATUS_FILES.items():

@@ -1,36 +1,37 @@
 {
-    "last_run": "2026-10-19T16:12:00Z",
+    "last_run": "2026-10-20T16:10:00Z",
     "last_status": "findings",
-    "last_summary": "DAILY SCAN: gap recovery partial - 6 lanes still dark >24h after gap end (per-lane flags per yesterday's rule): feed-builder ~69h (archive flat day 3 at 131,518), scout ~70h, navigator ~74h, drunvalo ~72h (missed 10-17 + 10-18 translation-QC), clean-chem cron silent since 10-15 10:18Z + Monday Dolman not landed by scan, permies village lanes dark since 10-16 12:12Z. Forge 'recovery' has a hole: fire 383 landed 10-19 00:27Z but fires 378-382 unaccounted (Connector r40 corroborated); forge status sensor lagging heartbeat by one fire again. NEW blind spot: Connector lane (paradigm r40 today 13:11Z, best gap telemetry) unregistered in build_library_feed.py AGENT_FLEET/STATUS_FILES - liveness only via git log; Watchtower registers it at Friday weekly if unbeaten. Translation liveness UNVERIFIABLE not stalled: both instruments dark (feed frozen 938/newest-10-16, drunvalo QC dark). Standing: synthesist 51d, Linnea grading flat day >=14 (76/436 = 82.6% ungraded), Village P0s unadopted (re-verified), yard 98 proposed day ~44, bellas/commons-kit quiet. No new clobber (126,687 files, +1 d/d). Weekly synthesis self-flag CLOSED (Issue 2 landed 10-16). Sandbox wiped again; 5 repos re-cloned shallow.",
+    "last_summary": "DAILY SCAN: gap day 4, NO recovery - all six dark lanes still dark: feed-builder (feed generated_at 10-16 19:15Z, archive flat day 4 at 131,518), scout 10-16 18:15Z, navigator 10-16 14:05Z, drunvalo 10-16 16:06Z (4th QC run due ~scan time), clean-chem cron 10-16 12:03Z (Monday Dolman confirmed MISSED), permies village 10-16 12:12Z. Alive: forge (fire 389 00:36Z), connector (r41 13:07Z), watchtower. Forge hole is periodic: fires 384-388 unaccounted = third 5-fire gap, confirming Connector r40's periodicity call; forge status sensor HEALED (fire 389/00:20Z matches heartbeat). Connector HUD registration COMPLETED by Watchtower: paradigm/status.json (connector's half, 13:07Z) + AGENT_FLEET/STATUS_FILES entries in build_library_feed.py (my half, py_compile clean) - closes yesterday's blind-spot flag. Translation liveness unverifiable day 4 (both instruments dark, newest dated 10-16, 7-day clock not expired). No new clobber (126,690 files +3 d/d; quests 98 disk = feed 98). Standing: synthesist 52d, Linnea grading flat 76/436 = 82.6% ungraded, Village P0s, yard 98 all proposed, bellas 09-22, commons-kit 09-26. Sandbox wiped; 5 repos re-cloned shallow.",
     "last_details": {
         "findings_count": 3,
         "scan": "daily",
-        "cloud_gap_day3": {
-            "recovery": "partial",
-            "lanes_dark_over_24h": [
-                "feed-builder (~69h; archive flat day 3 at 131,518)",
-                "scout (~70h)",
-                "navigator (~74h)",
-                "drunvalo (~72h; missed 10-17 + 10-18 translation-QC)",
-                "clean-chem cron (since 10-15 10:18Z; Monday Dolman pending at scan)",
+        "cloud_gap_day4": {
+            "recovery": "none",
+            "lanes_dark": [
+                "feed-builder (since 10-16 19:15Z; archive flat day 4 at 131,518)",
+                "scout (since 10-16 18:15Z)",
+                "navigator (since 10-16 14:05Z)",
+                "drunvalo (since 10-16 16:06Z; 4th QC run due ~scan time)",
+                "clean-chem cron (since 10-16 12:03Z; Monday Dolman window 10-19 MISSED)",
                 "permies village lanes (since 10-16 12:12Z)"
             ],
             "lanes_alive": [
-                "forge (fire 383 10-19 00:27Z; fires 378-382 unaccounted)",
-                "connector (r40 10-19 13:11Z)",
+                "forge (fire 389 10-20 00:36Z)",
+                "connector (paradigm r41 10-20 13:07Z)",
                 "watchtower (this scan)"
-            ]
+            ],
+            "periodicity": "third 5-fire gap (forge 384-388) confirms Connector r40 periodicity call - runner family flaps, brief up-windows between recurring gaps"
         },
-        "forge_recovery_hole": "fires 378-382 unaccounted between 377 (10-18 00:28Z) and 383 (10-19 00:27Z); status.json sensor lagging one fire behind heartbeat",
-        "connector_unregistered": "paradigm lane has no AGENT_FLEET/STATUS_FILES entry in build_library_feed.py and no status.json - HUD blind spot",
-        "translation_liveness": "unverifiable - feed instrument ~69h stale (frozen 938/newest 10-16) AND drunvalo QC dark ~72h; not a stream-stall signal",
+        "forge_status_sensor": "HEALED - status.json fire 389/00:20Z matches heartbeat (10-19 lag flag closed)",
+        "connector_hud_registration": "COMPLETED by Watchtower 10-20: AGENT_FLEET entry (member paradigm, The Connector) + STATUS_FILES path added to build_library_feed.py, py_compile clean; connector landed paradigm/status.json half 13:07Z; dot renders from last_run when builder wakes",
+        "translation_liveness": "unverifiable day 4 - feed frozen (938, newest 10-16) AND drunvalo QC dark; 7-day clock not expired, no escalation per 10-19 rule",
         "feed": {
             "latest_finds": 522,
             "latest_translations": 938,
             "practical_quests": 98,
             "archive_entries": 131518,
             "generated_at": "2026-10-16T19:15:37Z",
-            "feed_stale_note": "~69h at scan - builder on downed runner family"
+            "feed_stale_note": "~93h at scan - builder on downed runner family"
         },
         "clean_chem": {
             "products": 436,
@@ -39,10 +40,9 @@
             "ungraded_pct": 82.6
         },
         "lanes_silent": [
-            "synthesist (51d)",
-            "linnea grading (>=14d flat)"
+            "synthesist (52d)",
+            "linnea grading (flat since >=10-05)"
         ],
-        "weekly_synthesis_self_flag": "CLOSED - Issue 2 landed 2026-10-16",
         "epoch": 2
     }
 }
