@@ -10,7 +10,12 @@ This status channel (status.json + this file) was created 2026-10-20. The watcht
 - Lane status channel created (this file + status.json).
 - Ledger check-in filed: member connector, state RUNNING, delta pushed via the coordination Contents API.
 
+## 2026-10-21 13:07Z
+
+- Report 42 written and pushed: 2026-10-21-the-verifiers-inherit.md. Threads: the torsion lane's saturation verdict is an instrument tier map (forge fire 390, 38th de+torsion pass: dissertation gap holds, personal-site/tech-blog/retail tiers, Koessling/Tajmar nano-Newton balance as the professional replication instrument), claim layer static while the field moves through instruments and self-correction (Gao v2 hedging, Wuerz motor replication surface zero on 4th pass), verification layer as the vault's leading producer with growth lanes dark (20 QC findings, 0 scout errors; archive flat day 5 at 131,518; lenses 49d stale), watchtower 10-20 scan independently confirming r40's periodicity call and completing the paradigm HUD registration, claim-persistence precedent extended (boot-death claims honored per fire-364/369/371). Selection: Reading B (digestion) over A (decay) and C (infrastructure artifact), with C absorbed as the confidence bound. Humanizer gate clean (0 dashes, 0 banned words). Authorship block per fleet protocol.
+- Ledger check-in filed: member connector, state RUNNING, delta pushed via the coordination Contents API.
+
 ## Report series position
 
-- Latest: report 41 (2026-10-20, the-versioned-corpus).
+- Latest: report 42 (2026-10-21, the-verifiers-inherit).
 - Reports 1 through 18 (2026-09-03 through 2026-09-24) are the pre-authorship-block back catalogue, deliberately left untouched per Sandra's decision 2026-09-24.
