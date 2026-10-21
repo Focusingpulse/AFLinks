@@ -1,0 +1,1007 @@
+{
+  "generated_at": "2026-10-21T17:45:00Z",
+  "generated_by": "agent-0132a387-e656-42e5-b563-e1f2d6438df3 (Drunvalo, Pattern Keeper)",
+  "purpose": "Complete fleet job manifest for offload to the local Sovereign Network (AnythingLLM/LiteLLM). Every scheduled job, its role, practice, scope, and repos. Chris's mandate 2026-10-21.",
+  "why": "Cloud quota is exhausted account-wide; every cron on user-6295b4a3 fails LISTENER_TURN_FAILED_BEFORE_RUN since 2026-10-16. Fleet ledger shows all 79 identities stalled 2026-10-15 except connector. Cost + sovereignty drive the migration.",
+  "migration_key_facts": [
+    "Jobs are git+python3+webfetch workflows; the LLM orchestrates, scripts do the work (check_links.py, village_maintain.py, scrape_permies.py, report.py, build_library_feed.py, family.py).",
+    "Each job needs: a git checkout of its repo, a GitHub PAT with push access, python3, and a model endpoint. AnythingLLM/LiteLLM on FocusOptimized can host them as scheduled agents.",
+    "Secrets required per repo: AFLinks+coordination = fleet PAT (GITHUB_TOKEN), village = VILLAGEKEY PAT. Never in prompts/URLs.",
+    "Known collision hazard: multiple agents write database/research-index.json + person-index.json in the same hour. Stagger schedules on the new host (e.g. 20-30 min offsets), or serialize DB writers.",
+    "Overlaps to consolidate: village-maintain-v2 (Tutor) vs village-maintenance (Drunvalo); village-quest-sync vs village-content-growth; aflinks-scout-svpwiki-v4 vs aetherforce-scout. Do not run duplicates."
+  ],
+  "agents": {
+    "drunvalo": {
+      "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+      "name": "Drunvalo (Pattern Keeper)",
+      "account": "user-6295b4a3-4b00-4511-8154-4d6e7d422aa5 (Chris's 2nd account)",
+      "pod": "meaning-maker + evidence-keeper (synthesis + QC)",
+      "status": "ALL 8 crons quota-dead since 2026-10-16. Last healthy QC run 2026-10-16 16:00 UTC.",
+      "crons": [
+        {
+          "name": "village-maintenance",
+          "id": "8ae9ce4a-e814-4bb3-ace7-e3724c7f2982",
+          "schedule": "0 */6 * * *",
+          "runner": "cloud-sandbox",
+          "created": "2026-08-29T18:11:48.034Z",
+          "prompt": "Village RPG maintenance cron (cloud sandbox). Repo: https://github.com/Focusingpulse/permies-skip-pep-data.git. Steps: 1) cd /root/workspace; if /root/workspace/village/.git is missing, run: git clone --depth 1 https://github.com/Focusingpulse/permies-skip-pep-data.git village; else cd village and run: git pull --rebase origin main. 2) cd village; run python3 check_links.py. 3) run python3 village_maintain.py. 4) review village-link-report.md for broken links. 5) git add -A; if changes, commit with message: Village maintenance: link fixes and resources. Push: git push origin main. If push fails with auth error, first run: git remote set-url origin https://x-access-token:${VILLAGEKEY}@github.com/Focusingpulse/permies-skip-pep-data.git and then git push origin main. Never print the token value. 6) Report to the AetherForce site: clone https://github.com/Focusingpulse/AFLinks.git --depth 1 to /tmp/aflinks; cd /tmp/aflinks; run python3 drunvalo/report.py --summary village-maintenance-link-fixes-and-resources --status ok --files village-link-report.md; then git add drunvalo/ and git commit -m report-Drunvalo-village-maintenance; push: git push origin main; if auth fails run: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git and push again. Never print the token value. 7) If the AFLinks report step fails, note it and continue. Report what was fixed, what resources were added, and whether the site report was pushed.",
+          "prompt_chars": 1484
+        },
+        {
+          "name": "village-content-growth",
+          "id": "86a2c10e-9cd9-4de9-804e-7ec4c842bb8f",
+          "schedule": "0 */8 * * *",
+          "runner": "cloud-sandbox",
+          "created": "2026-08-29T18:12:11.737Z",
+          "prompt": "Village content growth cron (cloud sandbox). Repo: https://github.com/Focusingpulse/permies-skip-pep-data.git. Steps: 1) cd /root/workspace; if /root/workspace/village/.git is missing, run: git clone --depth 1 https://github.com/Focusingpulse/permies-skip-pep-data.git village; else cd village and run: git pull --rebase origin main. 2) cd village; run python3 scrape_permies.py to check for new SKIP/PEP tasks from permies.com. 3) If new tasks found, integrate them into master_quests.json and data.js following the existing data structure patterns. 4) Add 2-3 new vetted learning resources to the Library section of index.html, from permaculture, homesteading, natural building, food preservation, or woodworking. Only add resources you verify are real and working by fetching the URL. 5) Check translations.js for missing translations and fill gaps. 6) Run python3 check_links.py to verify links. 7) git add -A; if changes: git commit with descriptive message, then push: git push origin main; if auth fails run: git remote set-url origin https://x-access-token:${VILLAGEKEY}@github.com/Focusingpulse/permies-skip-pep-data.git then git push origin main. Never print the token. 8) Report to AetherForce site: clone https://github.com/Focusingpulse/AFLinks.git --depth 1 to /tmp/aflinks; cd /tmp/aflinks; python3 drunvalo/report.py --summary village-content-growth-added-resources --status ok --files index.html; git add drunvalo/; git commit -m report-Drunvalo-village-growth; git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. 9) If permies yields nothing new, focus on enriching existing content: better descriptions, cross-references, learning pathways. Report what was added and ledger status.",
+          "prompt_chars": 1821
+        },
+        {
+          "name": "village-quality-audit",
+          "id": "49b0659e-3c07-4ff1-98ef-346781c382c9",
+          "schedule": "0 */12 * * *",
+          "runner": "cloud-sandbox",
+          "created": "2026-08-29T18:12:21.874Z",
+          "prompt": "Village quality audit cron (cloud sandbox). Repo: https://github.com/Focusingpulse/permies-skip-pep-data.git. Steps: 1) cd /root/workspace; clone if missing (git clone --depth 1 https://github.com/Focusingpulse/permies-skip-pep-data.git village), else cd village and run: git pull --rebase origin main. 2) Validate data.js: all quest objects need id, title, description, category fields; flag malformed entries. 3) Validate translations.js: missing keys, incomplete translations, encoding issues. 4) Validate master_quests.json: valid JSON, duplicate quest IDs, consistent structure. 5) Cross-reference: every quest ID in data.js should exist in master_quests.json and vice versa; report mismatches. 6) Check index.html for broken HTML structure, unclosed tags, missing script references. 7) Run python3 check_links.py and review the link report. 8) Fix issues found directly in the files. 9) If fixes: git add -A, commit Quality-audit-summary, push: git push origin main; if auth fails: git remote set-url origin https://x-access-token:${VILLAGEKEY}@github.com/Focusingpulse/permies-skip-pep-data.git then push. Never print the token. 10) Report to AetherForce site: clone https://github.com/Focusingpulse/AFLinks.git --depth 1 to /tmp/aflinks; cd /tmp/aflinks; python3 drunvalo/report.py --summary village-quality-audit-issues-found-and-fixed --status ok --files check_links.py; git add drunvalo/; git commit -m report-Drunvalo-village-audit; git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. Report: quests checked, issues found and fixed, data integrity score.",
+          "prompt_chars": 1687
+        },
+        {
+          "name": "aetherforce-synthesis",
+          "id": "2276a48a-41f7-4cc9-bf2a-ecbe31e059f0",
+          "schedule": "0 */6 * * *",
+          "runner": "cloud-sandbox",
+          "created": "2026-08-29T18:12:32.651Z",
+          "prompt": "AetherForce synthesis cron (cloud sandbox). Repo: https://github.com/Focusingpulse/AFLinks.git (user Focusingpulse). Steps: 1) cd /root/workspace; clone if missing (git clone --depth 1 https://github.com/Focusingpulse/AFLinks.git aflinks), else cd aflinks and run: git pull --rebase origin main. 2) cd /root/workspace/aflinks. Read the latest translations in translations/ and pick 3-5 recent ones. 3) Read existing synthesis docs in synthesis/ to match format and avoid duplication. 4) Identify cross-domain connections: ether dynamics, torsion fields, scalar fields, BioGeometry, radiesthesia, subtle energy, morphic resonance, sacred geometry, consciousness research. 5) Write a new synthesis doc synthesis/YYYY-MM-DD-topic-slug.md that traces threads through sources, cites researchers and works, identifies convergent claims across independent traditions, notes Western vs Russian-French-Italian intersections, proposes next questions. 6) Update database/research-index.json with new works and database/person-index.json with new researchers. 7) Propose 1-2 upgrade targets by appending to family_ledger.json upgrade_bank (read the file first, preserve existing entries). 8) git add -A, commit Synthesis-topic, push: git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. 9) Report to site: python3 drunvalo/report.py --summary aetherforce-synthesis-connecting-sources --status ok --files synthesis/; git add drunvalo/; git commit -m report-Drunvalo-synthesis; git push origin main. 10) Keep the run bounded: pick ONE strong synthesis topic per run; do not rewrite existing docs. Report: synthesis created, sources connected, upgrades proposed.",
+          "prompt_chars": 1767
+        },
+        {
+          "name": "aetherforce-scout",
+          "id": "5e1805e8-14ef-4968-9ec5-1ab18acafd40",
+          "schedule": "0 */12 * * *",
+          "runner": "cloud-sandbox",
+          "created": "2026-08-29T18:12:43.132Z",
+          "prompt": "AetherForce scout cron (cloud sandbox). Repo: https://github.com/Focusingpulse/AFLinks.git (user Focusingpulse). Steps: 1) cd /root/workspace; clone if missing (git clone --depth 1 https://github.com/Focusingpulse/AFLinks.git aflinks), else cd aflinks and run: git pull --rebase origin main. 2) Review index.json (large, sample only — do not load whole) and family_ledger.json upgrade_bank to know what exists and what is missing. 3) Use web search to find new sources in: ether dynamics, torsion fields, scalar field theory, BioGeometry, radiesthesia, geobiology, sacred geometry, subtle energy, morphic resonance, LENR cold fusion, ball lightning, vacuum zero-point energy, Kozyrev causal mechanics, Akimov Shipov torsion, Atsyukovsky etherodynamics, French onde de forme, Italian psicogeometria. 4) Prioritize: rare or endangered texts disappearing from the web, foreign-language sources, primary sources cited by collection works but not yet acquired. 5) Verify URLs work (fetch them). Record title, author, language, domain, description. 6) Write a scout report to sources/ with date and finds. 7) Append the most important finds to family_ledger.json upgrade_bank (preserve existing entries). 8) git add -A, commit Scout-N-finds, push: git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. 9) Report to site: python3 drunvalo/report.py --summary aetherforce-scout-new-finds --status ok --files sources/; git add drunvalo/; git commit -m report-Drunvalo-scout; git push origin main. Report: number of finds, languages, domains, endangered texts rescued.",
+          "prompt_chars": 1677
+        },
+        {
+          "name": "aetherforce-database-refresh",
+          "id": "f2e027ea-055d-4af9-a02d-72f0292adabe",
+          "schedule": "0 6 * * *",
+          "runner": "cloud-sandbox",
+          "created": "2026-08-29T18:13:01.970Z",
+          "prompt": "AetherForce database refresh cron (cloud sandbox). Repo: https://github.com/Focusingpulse/AFLinks.git (user Focusingpulse). Steps: 1) cd /root/workspace; clone if missing (git clone --depth 1 https://github.com/Focusingpulse/AFLinks.git aflinks), else cd aflinks and run: git pull --rebase origin main. 2) Scan translations/ and extract: researcher names, work titles, domains, languages, source URLs. 3) Update database/person-index.json, adding new researchers, updating source counts and domains. Preserve existing entries. 4) Update database/research-index.json, adding new works and cross-references. Preserve existing entries. 5) Try to rebuild the library feed: python3 build_library_feed.py. It may need the living-library repo which may not be available in this sandbox; if it errors on missing living-library, SKIP gracefully, do not fail the run, note it in the summary. 6) Run python3 tag_concepts.py if present. 7) Check family_ledger.json upgrade_bank and mark items completed if the target source is now in the collection. 8) Generate a health report: total researchers, works, translations, new since last refresh. 9) git add -A, commit Database-refresh-summary, push: git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. 10) Report to site: python3 drunvalo/report.py --summary aetherforce-database-refresh-health-report --status ok --files database/; git add drunvalo/; git commit -m report-Drunvalo-db-refresh; git push origin main. Report the health metrics.",
+          "prompt_chars": 1598
+        },
+        {
+          "name": "drunvalo-memory-mirror",
+          "id": "32f1a245-91a7-4c93-8d74-ef4e7f49f2ed",
+          "schedule": "40 21 * * *",
+          "runner": "cloud-sandbox",
+          "created": "2026-10-09T02:36:22.232Z",
+          "prompt": "Memory mirror run. Step 1: run bash $MEMORY_DIR/reference/fleet-ops/mirror_memory.sh and read the exit code as a decision. rc=0 means mirrored or already current, go to step 2. rc=2 means SECRET SCAN REFUSED, this is a STOP: report the refusing file list and stop. rc=3 means push or verify failed: re-run the script exactly once, then report and stop. rc=4 means no credential: report and stop. rc=5 means the mirror repo is unreachable: report and stop. Do not add retry loops around rate limits. Step 2: verify independently by cloning https://github.com/Focusingpulse/DrunvaloMemory.git into a temp dir with the credential shim from reference/fleet-ops/push-shim.md and compare git rev-parse HEAD^{tree} against the local MemFS tree and file counts. Step 3: report a one-line delta and stop.",
+          "prompt_chars": 795
+        },
+        {
+          "name": "aetherforce-translation-qc",
+          "id": "02c18631-83a4-408f-84bd-78f27e7eb1f3",
+          "schedule": "0 */4 * * *",
+          "runner": "cloud-sandbox",
+          "created": "2026-10-09T02:39:00.666Z",
+          "prompt": "AetherForce translation QC cron (cloud sandbox). Repo: https://github.com/Focusingpulse/AFLinks.git (user Focusingpulse). NOTE: a full clone no longer fits this sandbox's disk — use the GitHub Contents API for reads and writes; resolve the token per reference/fleet-ops/push-shim.md and never print it. Steps: 1) Targets, in priority order: database/research-index.json, database/person-index.json, library_feed.json, build_library_feed.py. NOTE: translations/ and books/ were RETIRED from the public repo by the 2026-09-20 publish boundary — an empty or missing translations/ is BY DESIGN, not damage; do not restore it. 2) Standing checks: a) duplicate works sharing one file under two ids, or the same work re-emitted under a different slug convention; b) dangling cross_refs; c) person ids with junk prefixes (leading quote, underscore variants); d) entries that map a Forge dossier held only in Forge memory are intentional — leave them. 3) Dedupe: keep the richer entry, union themes/concepts/key_claims/cross_refs, remap the refs. 4) Fix issues directly in the files; add DB entries for new Forge-batch works (id = bare slug minus date, file = path, themes/concepts/key_claims from frontmatter). 5) SKIP tag_concepts.py — it is dead (it reads index.json, which no longer exists; the archive is sharded). Note the skip in the report. 6) Preserve each file's existing JSON formatting exactly (research-index.json is indent 2) or the diff explodes — check the original before writing. 7) Push via the Contents API; on a 409 refetch the sha and retry once; then re-fetch a few minutes later and confirm the change survived, because fleet agents push to main concurrently. Never print the token. 8) Report to site (Contents API if there is no local clone): python3 drunvalo/report.py --summary aetherforce-translation-qc-checked-and-fixed --status ok --files database/; then commit and push drunvalo/. 9) Check in to the fleet ledger: clone or pull https://github.com/Focusingpulse/cron-coordination.git into /root/workspace_fleet/cc using the credential shim; run python3 family.py check-in --member drunvalo --status ok --state IDLE --summary '<one line, counts and deltas only — no ids, shas or lists>'; then push cron_ledger.json with the shim. If it fails, note it and continue; do not loop. Report: checks run, issues found and fixed, DB entries added.",
+          "prompt_chars": 2360
+        }
+      ],
+      "cron_practices": {
+        "village-maintenance": "Link check (~950-1000 URLs) + fix broken, add 2 library resources from vetted pool, commit+push village via VILLAGEKEY PAT, report to AFLinks drunvalo/ + fleet ledger check-in. External-noise failures (429/403 anti-bot) are accepted, not churned.",
+        "village-content-growth": "Full permies crawl (499 pages, ~12min), screen new BB candidates against forum-noise signatures, wiki-verify genuine BBs, add quests+translations es/fr/de, +3 vetted library resources, commit village + report.",
+        "village-quality-audit": "Validate data.js/translations.js/master_quests.json (node eval path), BB-marker cross-refs, HTML parse, 5 repo validators, link report. Fix or flag. No commit when clean.",
+        "aetherforce-synthesis": "Pick ONE genuine gap (check synthesis/ first), write synthesis doc with numbered sources, original-language quotes + EN translations, skeptical ledger in full. Fetch PDFs primary (pdftotext, CP1251 for trinitas). Validate all cross_refs against DB id set pre-push. Contents-API pushes (repo exceeds sandbox disk).",
+        "aetherforce-scout": "Web-scout for endangered/foreign/primary sources across the lane topics, verify URLs, Wayback saves, write scout report to sources/, flip ledger items to FOUND (curl-verify first), propose upgrades. Dedup against prior 48h scout rounds.",
+        "aetherforce-database-refresh": "Standing DB QC checks (same-file dupes, unknown dates, junk ids, dangling cross-refs/person refs, feed mojibake), add Forge batch works to indexes, complete verified ledger upgrade items (key on id+target, never id alone), builder alias patches.",
+        "aetherforce-translation-qc": "Every 4h: standing QC checks (same-file 0, title-similarity candidates eyeballed, feed date-gated whole-scan for new works, person links, back-ref wirings, romanization-variant stem search before new person ids), fold verified dupes only, Contents-API pushes, fleet ledger check-in (step 9).",
+        "drunvalo-memory-mirror": "Daily MemFS snapshot to private Focusingpulse/DrunvaloMemory (snapshot commit parented on mirror tip, never plain push)."
+      },
+      "repos": [
+        "Focusingpulse/AFLinks (drunvalo/, synthesis/, database/, sources/, family_ledger.json, build_library_feed.py)",
+        "Focusingpulse/permies-skip-pep-data (full write)",
+        "Focusingpulse/cron-coordination (ledger check-ins)",
+        "Focusingpulse/DrunvaloMemory (mirror)"
+      ]
+    },
+    "cure-8er": {
+      "agent_id": "agent-060fb094-9b9e-4106-ab35-73d554c0d28c",
+      "name": "Cure 8er (The Synthesist)",
+      "account": "user-6295b4a3 (Chris's 2nd account)",
+      "pod": "meaning-maker",
+      "status": "Memory mirror DEAD since 2026-09-26 (25 days). Desktop crons were flagged DEGRADED 19-day silence as of 09-17. Re-home plan documented but parked: no AFLinks checkout in cloud sandbox.",
+      "crons": [
+        {
+          "name": "memory-mirror-daily",
+          "id": "c1f7eee4-6974-48af-9fd3-daa36a18b146",
+          "schedule": "23 4 * * *",
+          "runner": "cloud",
+          "note": "daily 04:23 UTC, own conversation; last successful mirror 2026-09-26"
+        },
+        {
+          "name": "daily-review",
+          "id": "local-desktop (no cloud id)",
+          "schedule": "0 15 * * *",
+          "runner": "local (FocusOptimized desktop app)",
+          "note": "QC new translations, emerging-themes note, propose hunt targets, report via synthesist/log.py"
+        },
+        {
+          "name": "translate-gear1",
+          "id": "local-desktop (no cloud id)",
+          "schedule": "every 2h",
+          "runner": "local",
+          "note": "free models, translate Atsyukovsky chunks at capacity (310-chunk 5-volume set)"
+        },
+        {
+          "name": "translate-gear2",
+          "id": "local-desktop (no cloud id)",
+          "schedule": "every 6h",
+          "runner": "local",
+          "note": "Letta credit fallback, max 2 chunks/run"
+        }
+      ],
+      "role": "Analysis layer: cross-reference findings across languages/domains, synthesis documents, research briefs, QC translations, propose hunt targets. Authorship by agent_id, channel is AGENT-THREADS.md (cannot attach cron-coordination as shared memory from 2nd account).",
+      "repos": [
+        "Focusingpulse/AFLinks (synthesist/, synthesis/, database/, translate_pipeline.py, translation_progress/)",
+        "Focusingpulse/Cure-8er-memory (mirror, dead)"
+      ]
+    },
+    "eloquint": {
+      "agent_id": "agent-57d47bec-dfad-41d0-af6e-ab5ea729d60b",
+      "name": "Eloquint (Voice/Editorial)",
+      "account": "user-6295b4a3 (Chris's 2nd account)",
+      "pod": "voice-editorial",
+      "status": "Memory mirror stale since 2026-10-16 (quota). No work crons registered; lane operates by direct request. Announced 2026-09-24 in AGENT-THREADS.",
+      "crons": [
+        {
+          "name": "eloquint-memory-mirror-daily-cloud",
+          "id": "df9c32eb-ac7b-49a4-9aac-67d573263313",
+          "schedule": "37 4 * * *",
+          "runner": "cloud",
+          "note": "daily 04:37 UTC; last healthy mirror 2026-10-16"
+        }
+      ],
+      "role": "Reader's ear on going-live copy: human voice check, claim traceability, editorial calendar. Annotates drafts; does not publish (needs human signature), does not change facts.",
+      "repos": [
+        "Focusingpulse/Eloquint-memory (mirror)",
+        "reads/annotates fleet copy in cron-coordination + AFLinks"
+      ]
+    },
+    "cairn": {
+      "agent_id": "agent-6d7b07d4-e1e0-42c2-969e-32071de2c5de",
+      "name": "Cairn (BMVC + governance)",
+      "account": "account-01 focusandexcell (Chris's 1st account)",
+      "pod": "operational + governance-watch",
+      "status": "Inventory snapshot 2026-10-15. Fleet HUD + business lanes. Ledger shows its identities (cairn-*) last checked in 2026-10-15.",
+      "crons": [
+        {
+          "name": "Weekly Tray + queue reconciliation",
+          "id": "89592d30-8d57-4930-8538-6c6dc431c3fd",
+          "schedule": "one-time",
+          "runner": "cloud",
+          "description": "Self-scheduled wake: Weekly Tray + queue reconciliation"
+        },
+        {
+          "name": "biweekly-research-sweep",
+          "id": "7820360e-5b3b-48ee-b5a2-e5d21c8097b5",
+          "schedule": "0 9 1,15 * *",
+          "runner": "cloud",
+          "description": "Biweekly deep research sweep (1st & 15th 09:00 UTC): copy/procedures/SEO/AEO/GEO/platforms + BMVC FAQ rotation check (PA"
+        },
+        {
+          "name": "chem-curation",
+          "id": "6e04e03a-3e3d-41f9-85e2-5631793f8ec9",
+          "schedule": "0 21 * * 0",
+          "runner": "cloud",
+          "description": "Clean Chem Intel product curation for BMVC: score ungraded products (bestseller 30%, STR 25%, mountain 20%, hazard 15%, "
+        },
+        {
+          "name": "chem-launch-builder",
+          "id": "ea59d4a2-dcfc-41a9-97b0-683984aff705",
+          "schedule": "0 10 * * 1,4",
+          "runner": "cloud",
+          "description": "Clean Chem Intel site integration for BMVC: embed tool at /products-we-use, Sandra voice wrap, JSON-LD schema, internal "
+        },
+        {
+          "name": "clean-tech-bench",
+          "id": "deebf732-90d5-48cc-9460-cb32ec9a194d",
+          "schedule": "0 9 * * 4",
+          "runner": "cloud",
+          "description": "Weekly clean-tech practicality engine: turns research candidates and direct hunting into priced, linked, purchasable lea"
+        },
+        {
+          "name": "clean-tech-rd",
+          "id": "37e88e9c-0fe9-436a-b484-a3e1b4269190",
+          "schedule": "0 9 * * 2",
+          "runner": "cloud",
+          "description": "Weekly clean-tech research arm: one unit of work per run on the rotation domain (instrument measurement, chemistry, clot"
+        },
+        {
+          "name": "counter-watchdog",
+          "id": "908d6d43-d3f8-4d74-90bd-2ad4e911fc6a",
+          "schedule": "37 */3 * * *",
+          "runner": "cloud",
+          "description": "Public counter integrity with builder diagnostics: fails loudly when any published AFLinks counter regresses or reads ze"
+        },
+        {
+          "name": "cron-summary-digest",
+          "id": "27cec660-ea8c-43a8-8018-069b5245f89b",
+          "schedule": "0 15 2,16 * *",
+          "runner": "cloud",
+          "description": "Biweekly digest (2nd and 16th, 3pm UTC) that checks the 8 upstream crons by name, reads the family ledger for staleness "
+        },
+        {
+          "name": "daily-ops-wake",
+          "id": "746a1559-0607-45e7-baa3-48c5d0e4ac8b",
+          "schedule": "10 6 * * *",
+          "runner": "cloud",
+          "description": "Wake/poke + backstop for daily-ops-watch + MODEL-SAFETY check. Fires daily 06:10 UTC. STEP 0 is THIS AGENT'S ONLY MODEL "
+        },
+        {
+          "name": "daily-ops-watch",
+          "id": "480c457b-c77a-4c41-917d-9f662b520215",
+          "schedule": "0 6 * * *",
+          "runner": "cloud",
+          "description": "Daily operations watchdog + operator audit + scorecard tally (PART C: agency-ai-maturity-scorecard M1/M2/M3). Fires dail"
+        },
+        {
+          "name": "entity-tracker",
+          "id": "2ca261a5-cc60-42d9-9922-ae58999d5758",
+          "schedule": "0 7 * * 5",
+          "runner": "cloud",
+          "description": "Weekly BMVC entity infrastructure tracker (Fri 07:00 UTC) — Layers 3-6 of the 6-layer framework across the 10 canonical "
+        },
+        {
+          "name": "fleet-hud-render",
+          "id": "610bf054-db15-4940-89c4-d823ecec60e2",
+          "schedule": "17 * * * *",
+          "runner": "cloud",
+          "description": "Hourly fleet HUD render and deploy (deterministic path). Renders index.html + the public protocols/ kit from cron-coordi"
+        },
+        {
+          "name": "miranda-archive-retry-window-2",
+          "id": "3d03f6c1-730a-4d28-9a3e-c04cb4e650fd",
+          "schedule": "one-time",
+          "runner": "cloud",
+          "description": "Self-scheduled wake: miranda-archive-retry-window-2"
+        },
+        {
+          "name": "monthly-ai-visibility-check",
+          "id": "1e3f35e5-1f6d-4685-a67f-a4931ddaf955",
+          "schedule": "0 10 1 * *",
+          "runner": "cloud",
+          "description": "Monthly reminder to re-run the ai-visibility-audit for active Stayfound Optimized clients. Fires 1st at 10am UTC. Runs f"
+        },
+        {
+          "name": "persona-drift-monitor",
+          "id": "b0daf117-26c6-4170-9a4b-aa83a68511f7",
+          "schedule": "0 7 * * 3",
+          "runner": "cloud",
+          "description": "Weekly persona-anchor Assistant-Axis audit of the Stayfound agent fleet and client entity positioning. Operationalizes A"
+        },
+        {
+          "name": "red-team-weekly",
+          "id": "b3df43c0-750c-46ab-b55a-6be875692112",
+          "schedule": "0 10 * * 5",
+          "runner": "cloud",
+          "description": "Weekly red-team security audit of the owner's OWN infrastructure (Fridays 4am MDT = 10:00 UTC). Scans sandbox + BMVC sit"
+        },
+        {
+          "name": "site-watch-monthly",
+          "id": "0b56209a-a332-4fe7-9224-4d89e7678d0d",
+          "schedule": "0 16 1 * *",
+          "runner": "cloud",
+          "description": "Monthly scan of site/WATCH-LIST.md in stayfound-vault: check every watch-for signal on every row and report only what ch"
+        },
+        {
+          "name": "watchlist-monthly-scan",
+          "id": "62b3f91f-3f54-4f7e-b8a7-b3fef9b63003",
+          "schedule": "0 15 1 * *",
+          "runner": "cloud",
+          "description": "Monthly (1st, 3pm UTC) structural-bet watchlist scan PLUS the recursive-systems genre track: new artifacts, forensic re-"
+        },
+        {
+          "name": "weak-signals-quarterly",
+          "id": "cf6a3e9c-bbdc-4726-a573-d3df948f2447",
+          "schedule": "0 15 1 1,4,7,10 *",
+          "runner": "cloud",
+          "description": "Quarterly weak-signals discovery scan (6 categories, multiple languages) + internal maturity review of the agency-ai-mat"
+        },
+        {
+          "name": "weekly-ai-pulse",
+          "id": "800e1805-3cfc-49c5-9092-33c2cf98e7ee",
+          "schedule": "0 7 * * 1",
+          "runner": "cloud",
+          "description": "Weekly fast-moving signals pulse for Stayfound Optimized: Google Business Profile and algorithm changes, AI answer-engin"
+        }
+      ],
+      "repos": [
+        "Focusingpulse/cron-coordination (registry owner, HUD render)",
+        "BMVC/CCI business repos (chem curation, launch builder)",
+        "cairn memory mirror"
+      ]
+    },
+    "tutor": {
+      "agent_id": "agent-b73ac550-5671-471e-b3e1-721f948ea063",
+      "name": "Tutor (fleet ops + harvesters)",
+      "account": "account-01 focusandexcell",
+      "pod": "harvester + vault-publishing + fleet ops",
+      "status": "Inventory snapshot 2026-09-30 (39 crons). Owns the hourly AFLinks sync (the Harmonizer) + 5 harvest workers + village pair + model/security watches. aflinks ledger identity: 757 runs, last 2026-10-15.",
+      "crons": [
+        {
+          "name": "aflinks-preview-cleaner",
+          "id": "72ad0dd9-4175-422c-9c8e-faf59b40612e",
+          "schedule": "20 */4 * * *",
+          "runner": "cloud",
+          "description": "Strip nav chrome from harvested AFLinks previews (re-fetch + re-extract), rebuild search index, guarded push. Uses the s"
+        },
+        {
+          "name": "aflinks-scout-svpwiki-v4",
+          "id": "08d413c0-0eae-44e6-b689-358f91b960b8",
+          "schedule": "30 */6 * * *",
+          "runner": "cloud",
+          "description": "SVPwiki Keely vault keeper v5 (incremental via tiki-lastchanges; full 5-step rebuild, guarded push)"
+        },
+        {
+          "name": "aflinks-sync-v2",
+          "id": "48f3463e-b9e5-48fc-97f0-f7adfec0c399",
+          "schedule": "0 * * * *",
+          "runner": "cloud",
+          "description": "AFLinks hourly sync/harmonizer (Tier 1 - injection-hardened)"
+        },
+        {
+          "name": "aflinks-worker-isis-v2",
+          "id": "bef949b9-5e9a-46a1-ab78-dd22211e40f6",
+          "schedule": "20 */6 * * *",
+          "runner": "cloud",
+          "description": "i-sis.org.uk batch scraper (Tier 1 - injection-hardened)"
+        },
+        {
+          "name": "aflinks-worker-padrak-v3",
+          "id": "ba72ff48-2db1-446c-b30b-e6a533546481",
+          "schedule": "40 */6 * * *",
+          "runner": "cloud",
+          "description": "padrak.com/ine batch scraper (Tier 1 - injection-hardened)"
+        },
+        {
+          "name": "aflinks-worker-steiner-v2",
+          "id": "88f3cfee-0c19-4113-a86f-7c6fdf8ce053",
+          "schedule": "10 */6 * * *",
+          "runner": "cloud",
+          "description": "rsarchive.org Steiner harvest (Tier 1 - injection-hardened; includes catalog repair + publishing watch)"
+        },
+        {
+          "name": "aflinks-worker-zenodo-rh-v2",
+          "id": "8c04ba14-42e0-4721-86fc-0c9dda4a6a1d",
+          "schedule": "50 */6 * * *",
+          "runner": "cloud",
+          "description": "Zenodo Recursive Harmonic cluster (Tier 1 - injection-hardened)"
+        },
+        {
+          "name": "ai-advancements-scout",
+          "id": "2cd64105-0115-4014-9224-ae74cd1ad46e",
+          "schedule": "0 15 * * 5",
+          "runner": "cloud",
+          "description": "Weekly AI math/science advancements scout — registers breakthroughs with named model/agent credit, classifies verificati"
+        },
+        {
+          "name": "ai-threat-scout",
+          "id": "7ed19d00-5ca8-4d62-ac95-3bfd588bad22",
+          "schedule": "0 15 * * 1",
+          "runner": "cloud",
+          "description": "Weekly AI threat scout (defense Layer 0) — scans AI-powered scams, agent security incidents, agent framework CVEs, rogue"
+        },
+        {
+          "name": "bmvc-kit-loop",
+          "id": "1fcca55b-0fba-43c2-b1e7-15d114a75489",
+          "schedule": "0 16 * * 2",
+          "runner": "cloud",
+          "description": "Weekly pass staging 2-3 BMVC unit kit concepts for family review; nothing publishes"
+        },
+        {
+          "name": "bmvc-marketing-content",
+          "id": "fcdd185e-23d4-42c0-8e99-9ecaccea3b0a",
+          "schedule": "0 15 * * 1-5",
+          "runner": "cloud",
+          "description": "BMVC marketing content — daily copy production for the truth-calibrated machine. Rotates Mon-Fri: rental-ready pitch, ba"
+        },
+        {
+          "name": "clean-chem-grow",
+          "id": "873dfbf3-2496-43ac-9077-5369a373bdfc",
+          "schedule": "30 4 * * *",
+          "runner": "cloud",
+          "description": "Clean Chem nightly grow: bulk ingest + enrich + guarded push (Tier 1)"
+        },
+        {
+          "name": "clean-chem-maintain-v3",
+          "id": "08935719-554a-4f01-a4a2-12b81efd183b",
+          "schedule": "0 10 * * *",
+          "runner": "cloud",
+          "description": "Clean Chem daily maintenance (Tier 1 - injection-hardened, guarded-push)"
+        },
+        {
+          "name": "connector-scout",
+          "id": "29aaeed2-2c19-4966-b29e-865b7337d708",
+          "schedule": "0 17 * * 2",
+          "runner": "cloud",
+          "description": "Weekly search for cross-field CONNECTORS — rare synthesizers like Thomas Joseph Brown and Robert Gilbert who bridge Goet"
+        },
+        {
+          "name": "culture-engine",
+          "id": "943f7d66-b643-4c00-83d9-a8e9f35a83f8",
+          "schedule": "0 12 * * *",
+          "runner": "cloud",
+          "description": "THE CULTURE ENGINE - grows the Village cultural-elements ledger (village/culture.js): the 64 elements of deep nature con"
+        },
+        {
+          "name": "curator-watch",
+          "id": "dca41a30-b51b-4053-8bc2-258b6e6edd7b",
+          "schedule": "0 19 */2 * *",
+          "runner": "cloud",
+          "description": "CURATOR WATCH - sweeps named human curators (Marc Kaz and future additions) for GitHub repos and tools they point at, sc"
+        },
+        {
+          "name": "daily-brief",
+          "id": "c4341ae5-f70a-484f-bbde-d69dfe739d78",
+          "schedule": "0 12 * * *",
+          "runner": "cloud",
+          "description": "Daily operating brief at 6am Mountain (12:00 UTC) — one list across self/team/family/fleet/client, generated by daily_br"
+        },
+        {
+          "name": "declassified-sweep",
+          "id": "85ccf7e3-569e-4010-8393-ce3a7df090e7",
+          "schedule": "0 16 * * *",
+          "runner": "cloud",
+          "description": "Daily declassified-documents sweep on cloud sandbox. Rotates 2-3 countries per run using per-country portals/nomenclatur"
+        },
+        {
+          "name": "dst-adjust-daily-brief",
+          "id": "a0044e53-2bbd-45b6-8eb0-e04e1255ff07",
+          "schedule": "one-time",
+          "runner": "cloud",
+          "description": "One-shot: US DST ends 2026-11-01, so 12:00 UTC shifts from 6am MDT to 5am MST. Ask Chris whether to move the daily-brief"
+        },
+        {
+          "name": "fleet-security-audit",
+          "id": "94120efd-b239-40ba-9f0e-5a15820098cb",
+          "schedule": "0 15 1 * *",
+          "runner": "cloud",
+          "description": "Monthly fleet security audit (defense Layer 2) — runs fleet_audit.py repo scans (secrets in files and history, gitignore"
+        },
+        {
+          "name": "fleet-security-library",
+          "id": "addf7eba-55e2-474f-bde7-18564d6f16f0",
+          "schedule": "0 16 * * 1",
+          "runner": "cloud",
+          "description": "Weekly sync of the fleet's shared security skill library (cron-coordination/skills/security/). Stages new in-scope defen"
+        },
+        {
+          "name": "gap-scout",
+          "id": "28e2a396-8d16-46a3-bad0-790d6681916c",
+          "schedule": "0 18 * * 1,4",
+          "runner": "cloud",
+          "description": "Gap Scout — twice-weekly coverage scan of the Living Library + archive: tracks what's leading vs what's thin (translatio"
+        },
+        {
+          "name": "interview-radar",
+          "id": "2d1742e4-8abb-4d87-8826-6f10263c8df7",
+          "schedule": "0 13 */2 * *",
+          "runner": "cloud",
+          "description": "INTERVIEW RADAR - tracks the thinkers Chris wants followed: every interview they give, every person they interview, and "
+        },
+        {
+          "name": "meditation-abilities",
+          "id": "7fad6dd4-db76-4a7c-9027-dfe01c8509a7",
+          "schedule": "0 13 * * 3",
+          "runner": "cloud",
+          "description": "Weekly growth + instrumentation of the meditation-to-ability mapping lane. Grows one entry into the Village's meditation"
+        },
+        {
+          "name": "model-cost-watch",
+          "id": "bbfe7f45-7a62-403f-af3a-560a3c9faa4a",
+          "schedule": "0 */2 * * *",
+          "runner": "cloud",
+          "description": "Safety watchdog: reverts the fleet default if it is ever set to a model that can bill Chris. Never promotes anything."
+        },
+        {
+          "name": "model-verifier",
+          "id": "b11bae4b-3c79-450b-a743-8839c5c4850e",
+          "schedule": "0 13,17,21,1,5,9 * * *",
+          "runner": "cloud",
+          "description": "Keeps the fleet on a genuinely free HOSTED model at capacity (Gear 1): re-checks availability + usability every run, rot"
+        },
+        {
+          "name": "monday-briefing",
+          "id": "14b63fd7-68f3-433e-ab05-2e00dd8b994b",
+          "schedule": "0 14 * * 1",
+          "runner": "cloud",
+          "description": "Single consolidated Monday message: fleet activity + BMVC numbers + one next action. Merges captains-log-weekly and mark"
+        },
+        {
+          "name": "onboarding-checkin",
+          "id": "4ee8a0cb-c221-429c-b016-683c4a94835b",
+          "schedule": "0 0 */7 * *",
+          "runner": "cloud",
+          "description": "Weekly check-in with Chris on onboarding and current projects"
+        },
+        {
+          "name": "phase2-death-certs",
+          "id": "79a41e46-19b1-4851-a913-401752daaac0",
+          "schedule": "0 5 * * *",
+          "runner": "cloud",
+          "description": "Daily Wrong-Turn Claim Status Record production (Phase 2 pattern machinery). Reads the candidate queue in cron-coordinat"
+        },
+        {
+          "name": "practicality-engine",
+          "id": "9d4fdd40-9801-44bf-bfa7-0c2a876f9c7c",
+          "schedule": "0 6,14,22 * * *",
+          "runner": "cloud",
+          "description": "THE ENGINE OF PRACTICALITY — scans Aetherforce/AFLinks 3x daily for applicable self-reliance tech; ONE branded quest car"
+        },
+        {
+          "name": "repo-scout",
+          "id": "0628a7f3-ec30-4f05-9395-fbb24f6116f5",
+          "schedule": "0 16 * * 3",
+          "runner": "cloud",
+          "description": "Weekly Repo Scout sweep — GitHub repo discovery ranked by stars, plus supply-chain compromise watch (OSV advisories on t"
+        },
+        {
+          "name": "site-watchdog",
+          "id": "1e31a34c-a59e-47cd-9a75-94e4c2fef573",
+          "schedule": "*/30 * * * *",
+          "runner": "cloud",
+          "description": "Site uptime watchdog — every 30 min checks the published sites (AFLinks, Clean Chem Intel); if a served branch lost its "
+        },
+        {
+          "name": "steiner-fulltext-archive",
+          "id": "afac8cae-3df0-4f4b-9dfc-b1f44c3c9cda",
+          "schedule": "0 3 * * *",
+          "runner": "cloud",
+          "description": "Private full-text insurance snapshot of rsarchive.org Steiner volumes into living-library/archives (resumable, crawl-del"
+        },
+        {
+          "name": "tool-scout",
+          "id": "15a47caa-001b-4ceb-92c4-c1128818aac8",
+          "schedule": "0 0 */7 * *",
+          "runner": "cloud",
+          "description": "Weekly sweep of free-for.dev diffs, HN tool threads, and curator sources; new qualifying tools filed to the shared shelf"
+        },
+        {
+          "name": "trauma-modalities-scout",
+          "id": "0b792a86-3000-4812-a021-e24c00549b87",
+          "schedule": "0 14 * * 1",
+          "runner": "cloud",
+          "description": "Weekly watch for lane #17 - trauma modalities that resolve trauma without re-narrating it (MEM/Causism, constellations, "
+        },
+        {
+          "name": "tutor-memory-mirror",
+          "id": "5057c0e3-150f-48f3-b7a8-cc43e7c6f4fe",
+          "schedule": "30 10 * * *",
+          "runner": "cloud",
+          "description": "Daily mirror of Tutor's MemFS to the private GitHub repo Focusingpulse/tutor-memory - memory sovereignty backup. Snapsho"
+        },
+        {
+          "name": "village-maintain-v2",
+          "id": "02319e34-7cf7-4d72-991c-a70cb316b92c",
+          "schedule": "0 9 * * *",
+          "runner": "cloud",
+          "description": "Village RPG daily maintenance (Tier 1 - injection-hardened)"
+        },
+        {
+          "name": "village-quest-sync",
+          "id": "f7eafdbd-e6cd-4c4c-8cfc-72d02a2dba49",
+          "schedule": "0 7 * * *",
+          "runner": "cloud",
+          "description": "Daily Quest Lab feed sync — mirrors the living-library quest-queue to the Village game Lab screen (quest_cards.js): gene"
+        },
+        {
+          "name": "vitality-engine",
+          "id": "876f285c-d381-4924-95ea-b44fa87cdb6b",
+          "schedule": "0 11 * * *",
+          "runner": "cloud",
+          "description": "THE VITALITY ENGINE — grows the Village's PE / energy-movement library (village/vitality.js) one system per day: traditi"
+        }
+      ],
+      "repos": [
+        "Focusingpulse/AFLinks (sync, workers, previews, search index)",
+        "Focusingpulse/permies-skip-pep-data (village-maintain-v2, village-quest-sync)",
+        "Focusingpulse/cron-coordination",
+        "cron-migration tooling in coord repo"
+      ]
+    },
+    "wizard-translation-lane": {
+      "agent_id": "agent-75b8d29e-76c1-4223-89f5-b2f8708be460 (registry name: Wizard; Drunvalo's run logs call this translation pipeline 'Forge' - same id)",
+      "name": "Wizard / Forge (translation engine)",
+      "account": "account-01 focusandexcell (registry, Chris-verified 2026-09-17)",
+      "pod": "translator",
+      "status": "Translation clock at day 5/7 per Watchtower 2026-10-21. Ledger identities: translation-curator 326 runs, translation-sweeper 349, translator-foreign 211, polyglot-scout-a 34, polyglot-scout-b 36, aflinks-worker-* 100+ each. All stalled 2026-10-15.",
+      "crons": [
+        {
+          "name": "atsyukovsky-translate",
+          "id": "unknown (account-01)",
+          "schedule": "hourly",
+          "runner": "cloud"
+        },
+        {
+          "name": "foreign-translate",
+          "id": "unknown (account-01)",
+          "schedule": "every 2h",
+          "runner": "cloud"
+        }
+      ],
+      "role": "Full-document translation pipeline: source-language capture, chunked translation (~8000 char chunks), dossier emission, database index writes. Known QC hazards documented in Drunvalo run logs: date-prefixed re-emissions, cross-convention dupes, frontmatter degradation - all now guarded by builder patches + QC checks.",
+      "repos": [
+        "Focusingpulse/AFLinks (translations/ retired to Forge memory per publish boundary, database/, translation_progress/)"
+      ]
+    },
+    "other-known-agents": {
+      "note": "IDs from fleet-registry.json (Chris-verified where marked). Most have cron identities in the ledger but job inventories not yet exported.",
+      "members": [
+        {
+          "name": "The Connector",
+          "agent_id": "agent-343da9c5-d71a-452b-87a1-1c0edcdbc54d",
+          "status": "ALIVE - last ledger check-in 2026-10-21T13:08Z (only fleet member alive today)",
+          "jobs": "connector-scout (Tue 17:00), report cadence 42+ runs"
+        },
+        {
+          "name": "The Watchtower",
+          "agent_id": "agent-0add4400-49ae-474a-8741-96b6b6746679",
+          "status": "committed daily scan 2026-10-21 (dark-lane tracker)",
+          "jobs": "site-watchdog (*/30), fleet daily scans"
+        },
+        {
+          "name": "The Sifter",
+          "agent_id": "agent-6b9ed8e7-57f2-4429-a9a4-9e699da186f2",
+          "status": "ledger identity counter-watchdog 150 runs, stalled 10-15"
+        },
+        {
+          "name": "The Navigator",
+          "agent_id": "agent-6791a657-6924-416e-8d80-fe2efb532fad",
+          "status": "digests/gear status per AFLinks commits, stalled 10-15"
+        },
+        {
+          "name": "Forge (translation, distinct from Wizard-id note above per registry)",
+          "agent_id": "agent-34fdf7e8-5d9b-4fbd-921c-b6747c43162c",
+          "status": "Watchtower 2026-10-21: 'forge declares 4th gap' - firing but runs not landing",
+          "jobs": "translation batches (the Oct 13-16 batches were Forge output)"
+        },
+        {
+          "name": "Dolman",
+          "agent_id": "agent-aa68a8b9 (from Drunvalo's records; registry says UNKNOWN)",
+          "account": "account-02 (Sandra)",
+          "status": "aflinks-maintenance every 3h per 09-17 records; 2nd Dolman window missed per Watchtower 10-21"
+        },
+        {
+          "name": "Scooter / Bob / Trellis / Linnea / Captain Happening",
+          "agent_id": "UNKNOWN - Chris to supply",
+          "status": "roles assigned, ids never recorded in any fleet doc"
+        }
+      ]
+    }
+  },
+  "fleet_ledger_workers": {
+    "note": "All 79 cron identities in cron_ledger.json with last check-in and total runs. This is the fleet's worker clock; everything stalled 2026-10-15 except connector.",
+    "members": {
+      "translator-foreign": {
+        "last_run": "2026-10-15T08:25:45Z",
+        "runs_total": 211
+      },
+      "aflinks": {
+        "last_run": "2026-10-15T09:38:55Z",
+        "runs_total": 757
+      },
+      "translation-sweeper": {
+        "last_run": "2026-10-15T09:26:08Z",
+        "runs_total": 349
+      },
+      "translation-curator": {
+        "last_run": "2026-10-15T09:59:16Z",
+        "runs_total": 326
+      },
+      "aflinks-worker-steiner": {
+        "last_run": "2026-10-15T06:23:36Z",
+        "runs_total": 112
+      },
+      "aflinks-worker-svpwiki": {
+        "last_run": "2026-10-15T06:51:58Z",
+        "runs_total": 102
+      },
+      "aflinks-worker-padrak": {
+        "last_run": "2026-10-15T06:58:31Z",
+        "runs_total": 102
+      },
+      "aflinks-worker-zenodo-rh": {
+        "last_run": "2026-10-15T07:16:15Z",
+        "runs_total": 101
+      },
+      "aflinks-worker-isis": {
+        "last_run": "2026-10-15T06:39:27Z",
+        "runs_total": 107
+      },
+      "practicality-engine": {
+        "last_run": "2026-10-15T06:24:19Z",
+        "runs_total": 77
+      },
+      "db-entity-extractor": {
+        "last_run": "2026-10-15T00:24:14Z",
+        "runs_total": 26
+      },
+      "book4-translate": {
+        "last_run": "2026-10-09T01:06:52Z",
+        "runs_total": 1
+      },
+      "translator-ats": {
+        "last_run": "2026-09-12T17:36:01Z",
+        "runs_total": null
+      },
+      "polyglot-scout-a": {
+        "last_run": "2026-10-15T04:09:16Z",
+        "runs_total": 34
+      },
+      "clean-chem-grow": {
+        "last_run": "2026-10-15T04:40:36Z",
+        "runs_total": 27
+      },
+      "phase2-death-certs": {
+        "last_run": "2026-10-14T05:12:04Z",
+        "runs_total": 26
+      },
+      "cairn-ops": {
+        "last_run": "2026-10-11T06:02:37Z",
+        "runs_total": 20
+      },
+      "polyglot-scout-b": {
+        "last_run": "2026-10-15T08:11:14Z",
+        "runs_total": 36
+      },
+      "village": {
+        "last_run": "2026-10-15T09:15:39Z",
+        "runs_total": 88
+      },
+      "clean-chem": {
+        "last_run": "2026-10-14T10:10:51Z",
+        "runs_total": 59
+      },
+      "wizard": {
+        "last_run": "2026-10-15T08:26:55Z",
+        "runs_total": 124
+      },
+      "declassified-sweep": {
+        "last_run": "2026-10-14T16:31:30Z",
+        "runs_total": 27
+      },
+      "book2-translate": {
+        "last_run": "2026-10-09T01:06:37Z",
+        "runs_total": 1
+      },
+      "cairn-entity-tracker": {
+        "last_run": "2026-10-09T07:12:38Z",
+        "runs_total": 5
+      },
+      "cairn-redteam": {
+        "last_run": "2026-10-09T10:08:44Z",
+        "runs_total": 5
+      },
+      "marketing-content": {
+        "last_run": "2026-10-14T15:18:13Z",
+        "runs_total": 23
+      },
+      "clean-chem-maintain": {
+        "last_run": "2026-09-12T10:04:32Z",
+        "runs_total": null
+      },
+      "marketing-digest": {
+        "last_run": "2026-10-12T14:25:02Z",
+        "runs_total": 5
+      },
+      "archive-raid": {
+        "last_run": "2026-10-04T07:09:03Z",
+        "runs_total": 1
+      },
+      "steiner-roots": {
+        "last_run": "2026-09-13T08:09:27Z",
+        "runs_total": null
+      },
+      "aflinks-scraper": {
+        "last_run": "2026-10-09T01:19:24Z",
+        "runs_total": 2
+      },
+      "connector-scout": {
+        "last_run": "2026-10-13T17:15:17Z",
+        "runs_total": 6
+      },
+      "fleet-security-audit": {
+        "last_run": "2026-10-01T15:07:39Z",
+        "runs_total": 2
+      },
+      "steiner-fulltext-archive": {
+        "last_run": "2026-10-15T03:10:18Z",
+        "runs_total": 32
+      },
+      "village-quest-sync": {
+        "last_run": "2026-10-15T07:24:14Z",
+        "runs_total": 28
+      },
+      "fleet-hud-render": {
+        "last_run": "2026-10-15T09:23:44Z",
+        "runs_total": 550
+      },
+      "cairn-chem-launch": {
+        "last_run": "2026-10-08T10:37:43Z",
+        "runs_total": 8
+      },
+      "cairn-chem-curation": {
+        "last_run": "2026-10-04T21:07:06Z",
+        "runs_total": 4
+      },
+      "gap-scout": {
+        "last_run": "2026-10-12T18:30:05Z",
+        "runs_total": 7
+      },
+      "ai-advancements-scout": {
+        "last_run": "2026-10-09T15:20:23Z",
+        "runs_total": 4
+      },
+      "aflinks-preview-cleaner": {
+        "last_run": "2026-10-15T08:43:13Z",
+        "runs_total": 165
+      },
+      "repo-scout": {
+        "last_run": "2026-10-14T16:09:11Z",
+        "runs_total": 4
+      },
+      "fleet-security-library": {
+        "last_run": "2026-10-05T16:05:14Z",
+        "runs_total": 3
+      },
+      "vitality-engine": {
+        "last_run": "2026-10-14T11:17:22Z",
+        "runs_total": 25
+      },
+      "culture-engine": {
+        "last_run": "2026-10-14T12:10:32Z",
+        "runs_total": 24
+      },
+      "ai-threat-scout": {
+        "last_run": "2026-10-12T15:14:04Z",
+        "runs_total": 4
+      },
+      "curator-watch": {
+        "last_run": "2026-10-13T19:06:33Z",
+        "runs_total": 12
+      },
+      "onboarding-checkin": {
+        "last_run": "2026-10-15T00:05:57Z",
+        "runs_total": 6
+      },
+      "bmvc-kit-loop": {
+        "last_run": "2026-10-13T16:18:39Z",
+        "runs_total": 4
+      },
+      "counter-watchdog": {
+        "last_run": "2026-10-15T09:51:35Z",
+        "runs_total": 150
+      },
+      "interview-radar": {
+        "last_run": "2026-10-13T13:07:30Z",
+        "runs_total": 14
+      },
+      "cairn-drift-monitor": {
+        "last_run": "2026-10-07T07:18:01Z",
+        "runs_total": 6
+      },
+      "meditation-abilities": {
+        "last_run": "2026-10-14T13:14:07Z",
+        "runs_total": 4
+      },
+      "aflinks-shard-verify": {
+        "last_run": "2026-09-23T14:12:15Z",
+        "runs_total": 1
+      },
+      "citation-watch": {
+        "last_run": "2026-10-05T15:01:23Z",
+        "runs_total": 7
+      },
+      "model-verifier": {
+        "last_run": "2026-10-15T09:08:46Z",
+        "runs_total": 101
+      },
+      "tutor-memory-mirror": {
+        "last_run": "2026-10-14T10:33:53Z",
+        "runs_total": 22
+      },
+      "daily-brief": {
+        "last_run": "2026-10-14T12:17:43Z",
+        "runs_total": 21
+      },
+      "site-watchdog": {
+        "last_run": "2026-10-15T09:33:32Z",
+        "runs_total": 536
+      },
+      "cairn-pulse": {
+        "last_run": "2026-10-05T07:04:10Z",
+        "runs_total": 4
+      },
+      "cairn-clean-tech-rd": {
+        "last_run": "2026-10-13T09:07:12Z",
+        "runs_total": 4
+      },
+      "patent-watch": {
+        "last_run": "2026-10-15T05:12:33Z",
+        "runs_total": 3
+      },
+      "cairn-research-deep": {
+        "last_run": "2026-10-01T09:09:07Z",
+        "runs_total": 2
+      },
+      "cairn-clean-tech-bench": {
+        "last_run": "2026-10-15T09:15:01Z",
+        "runs_total": 3
+      },
+      "cairn-visibility": {
+        "last_run": "2026-10-01T10:08:12Z",
+        "runs_total": 2
+      },
+      "cairn-weaksignals": {
+        "last_run": "2026-10-01T15:08:29Z",
+        "runs_total": 2
+      },
+      "cairn-watchlist": {
+        "last_run": "2026-10-01T15:08:31Z",
+        "runs_total": 2
+      },
+      "radionics-collection": {
+        "last_run": "2026-10-15T06:16:17Z",
+        "runs_total": 23
+      },
+      "model-cost-watch": {
+        "last_run": "2026-10-15T08:14:59Z",
+        "runs_total": 120
+      },
+      "cairn-digest": {
+        "last_run": "2026-10-02T15:03:04Z",
+        "runs_total": 2
+      },
+      "trauma-modalities-scout": {
+        "last_run": "2026-10-05T14:06:13Z",
+        "runs_total": 1
+      },
+      "duncan-laurie-watch": {
+        "last_run": "2026-10-12T16:27:40Z",
+        "runs_total": 2
+      },
+      "tool-scout": {
+        "last_run": "2026-10-08T00:29:19Z",
+        "runs_total": 1
+      },
+      "trinitas-index": {
+        "last_run": "2026-10-15T06:45:53Z",
+        "runs_total": 8
+      },
+      "translation-finding-aid": {
+        "last_run": "2026-10-15T09:09:18Z",
+        "runs_total": 5
+      },
+      "emf-biology-watch": {
+        "last_run": "2026-10-09T11:09:55Z",
+        "runs_total": 1
+      },
+      "citation-harvest": {
+        "last_run": "2026-10-15T06:37:05Z",
+        "runs_total": 5
+      },
+      "drunvalo": {
+        "last_run": "2026-10-16T16:06:52Z",
+        "runs_total": 4
+      },
+      "connector": {
+        "last_run": "2026-10-21T13:08:11Z",
+        "runs_total": 8
+      }
+    }
+  }
+}

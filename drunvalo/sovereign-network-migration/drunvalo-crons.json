@@ -1,0 +1,138 @@
+[
+  {
+    "id": "8ae9ce4a-e814-4bb3-ace7-e3724c7f2982",
+    "runner": "cloud",
+    "execution_target": "cloud-sandbox",
+    "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+    "conversation_id": "new",
+    "name": "village-maintenance",
+    "description": "Cloud: Village RPG link check + maintenance (every 6h)",
+    "prompt": "Village RPG maintenance cron (cloud sandbox). Repo: https://github.com/Focusingpulse/permies-skip-pep-data.git. Steps: 1) cd /root/workspace; if /root/workspace/village/.git is missing, run: git clone --depth 1 https://github.com/Focusingpulse/permies-skip-pep-data.git village; else cd village and run: git pull --rebase origin main. 2) cd village; run python3 check_links.py. 3) run python3 village_maintain.py. 4) review village-link-report.md for broken links. 5) git add -A; if changes, commit with message: Village maintenance: link fixes and resources. Push: git push origin main. If push fails with auth error, first run: git remote set-url origin https://x-access-token:${VILLAGEKEY}@github.com/Focusingpulse/permies-skip-pep-data.git and then git push origin main. Never print the token value. 6) Report to the AetherForce site: clone https://github.com/Focusingpulse/AFLinks.git --depth 1 to /tmp/aflinks; cd /tmp/aflinks; run python3 drunvalo/report.py --summary village-maintenance-link-fixes-and-resources --status ok --files village-link-report.md; then git add drunvalo/ and git commit -m report-Drunvalo-village-maintenance; push: git push origin main; if auth fails run: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git and push again. Never print the token value. 7) If the AFLinks report step fails, note it and continue. Report what was fixed, what resources were added, and whether the site report was pushed.",
+    "schedule": {
+      "type": "recurring",
+      "cron_expression": "0 */6 * * *"
+    },
+    "recurring": true,
+    "next_scheduled_time": "2026-10-21T18:00:00.000Z",
+    "created_at": "2026-08-29T18:11:48.034Z"
+  },
+  {
+    "id": "86a2c10e-9cd9-4de9-804e-7ec4c842bb8f",
+    "runner": "cloud",
+    "execution_target": "cloud-sandbox",
+    "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+    "conversation_id": "new",
+    "name": "village-content-growth",
+    "description": "Cloud: Grow Village RPG with new quests, resources, SKIP/PEP updates (every 8h)",
+    "prompt": "Village content growth cron (cloud sandbox). Repo: https://github.com/Focusingpulse/permies-skip-pep-data.git. Steps: 1) cd /root/workspace; if /root/workspace/village/.git is missing, run: git clone --depth 1 https://github.com/Focusingpulse/permies-skip-pep-data.git village; else cd village and run: git pull --rebase origin main. 2) cd village; run python3 scrape_permies.py to check for new SKIP/PEP tasks from permies.com. 3) If new tasks found, integrate them into master_quests.json and data.js following the existing data structure patterns. 4) Add 2-3 new vetted learning resources to the Library section of index.html, from permaculture, homesteading, natural building, food preservation, or woodworking. Only add resources you verify are real and working by fetching the URL. 5) Check translations.js for missing translations and fill gaps. 6) Run python3 check_links.py to verify links. 7) git add -A; if changes: git commit with descriptive message, then push: git push origin main; if auth fails run: git remote set-url origin https://x-access-token:${VILLAGEKEY}@github.com/Focusingpulse/permies-skip-pep-data.git then git push origin main. Never print the token. 8) Report to AetherForce site: clone https://github.com/Focusingpulse/AFLinks.git --depth 1 to /tmp/aflinks; cd /tmp/aflinks; python3 drunvalo/report.py --summary village-content-growth-added-resources --status ok --files index.html; git add drunvalo/; git commit -m report-Drunvalo-village-growth; git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. 9) If permies yields nothing new, focus on enriching existing content: better descriptions, cross-references, learning pathways. Report what was added and ledger status.",
+    "schedule": {
+      "type": "recurring",
+      "cron_expression": "0 */8 * * *"
+    },
+    "recurring": true,
+    "next_scheduled_time": "2026-10-22T00:00:00.000Z",
+    "created_at": "2026-08-29T18:12:11.737Z"
+  },
+  {
+    "id": "49b0659e-3c07-4ff1-98ef-346781c382c9",
+    "runner": "cloud",
+    "execution_target": "cloud-sandbox",
+    "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+    "conversation_id": "new",
+    "name": "village-quality-audit",
+    "description": "Cloud: Audit Village RPG data integrity, translations, quests (every 12h)",
+    "prompt": "Village quality audit cron (cloud sandbox). Repo: https://github.com/Focusingpulse/permies-skip-pep-data.git. Steps: 1) cd /root/workspace; clone if missing (git clone --depth 1 https://github.com/Focusingpulse/permies-skip-pep-data.git village), else cd village and run: git pull --rebase origin main. 2) Validate data.js: all quest objects need id, title, description, category fields; flag malformed entries. 3) Validate translations.js: missing keys, incomplete translations, encoding issues. 4) Validate master_quests.json: valid JSON, duplicate quest IDs, consistent structure. 5) Cross-reference: every quest ID in data.js should exist in master_quests.json and vice versa; report mismatches. 6) Check index.html for broken HTML structure, unclosed tags, missing script references. 7) Run python3 check_links.py and review the link report. 8) Fix issues found directly in the files. 9) If fixes: git add -A, commit Quality-audit-summary, push: git push origin main; if auth fails: git remote set-url origin https://x-access-token:${VILLAGEKEY}@github.com/Focusingpulse/permies-skip-pep-data.git then push. Never print the token. 10) Report to AetherForce site: clone https://github.com/Focusingpulse/AFLinks.git --depth 1 to /tmp/aflinks; cd /tmp/aflinks; python3 drunvalo/report.py --summary village-quality-audit-issues-found-and-fixed --status ok --files check_links.py; git add drunvalo/; git commit -m report-Drunvalo-village-audit; git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. Report: quests checked, issues found and fixed, data integrity score.",
+    "schedule": {
+      "type": "recurring",
+      "cron_expression": "0 */12 * * *"
+    },
+    "recurring": true,
+    "next_scheduled_time": "2026-10-22T00:00:00.000Z",
+    "created_at": "2026-08-29T18:12:21.874Z"
+  },
+  {
+    "id": "2276a48a-41f7-4cc9-bf2a-ecbe31e059f0",
+    "runner": "cloud",
+    "execution_target": "cloud-sandbox",
+    "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+    "conversation_id": "new",
+    "name": "aetherforce-synthesis",
+    "description": "Cloud: Generate cross-domain synthesis documents from AFLinks archive (every 6h)",
+    "prompt": "AetherForce synthesis cron (cloud sandbox). Repo: https://github.com/Focusingpulse/AFLinks.git (user Focusingpulse). Steps: 1) cd /root/workspace; clone if missing (git clone --depth 1 https://github.com/Focusingpulse/AFLinks.git aflinks), else cd aflinks and run: git pull --rebase origin main. 2) cd /root/workspace/aflinks. Read the latest translations in translations/ and pick 3-5 recent ones. 3) Read existing synthesis docs in synthesis/ to match format and avoid duplication. 4) Identify cross-domain connections: ether dynamics, torsion fields, scalar fields, BioGeometry, radiesthesia, subtle energy, morphic resonance, sacred geometry, consciousness research. 5) Write a new synthesis doc synthesis/YYYY-MM-DD-topic-slug.md that traces threads through sources, cites researchers and works, identifies convergent claims across independent traditions, notes Western vs Russian-French-Italian intersections, proposes next questions. 6) Update database/research-index.json with new works and database/person-index.json with new researchers. 7) Propose 1-2 upgrade targets by appending to family_ledger.json upgrade_bank (read the file first, preserve existing entries). 8) git add -A, commit Synthesis-topic, push: git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. 9) Report to site: python3 drunvalo/report.py --summary aetherforce-synthesis-connecting-sources --status ok --files synthesis/; git add drunvalo/; git commit -m report-Drunvalo-synthesis; git push origin main. 10) Keep the run bounded: pick ONE strong synthesis topic per run; do not rewrite existing docs. Report: synthesis created, sources connected, upgrades proposed.",
+    "schedule": {
+      "type": "recurring",
+      "cron_expression": "0 */6 * * *"
+    },
+    "recurring": true,
+    "next_scheduled_time": "2026-10-21T18:00:00.000Z",
+    "created_at": "2026-08-29T18:12:32.651Z"
+  },
+  {
+    "id": "5e1805e8-14ef-4968-9ec5-1ab18acafd40",
+    "runner": "cloud",
+    "execution_target": "cloud-sandbox",
+    "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+    "conversation_id": "new",
+    "name": "aetherforce-scout",
+    "description": "Cloud: Scout web for new aetherforce sources, endangered texts, acquisitions (every 12h)",
+    "prompt": "AetherForce scout cron (cloud sandbox). Repo: https://github.com/Focusingpulse/AFLinks.git (user Focusingpulse). Steps: 1) cd /root/workspace; clone if missing (git clone --depth 1 https://github.com/Focusingpulse/AFLinks.git aflinks), else cd aflinks and run: git pull --rebase origin main. 2) Review index.json (large, sample only — do not load whole) and family_ledger.json upgrade_bank to know what exists and what is missing. 3) Use web search to find new sources in: ether dynamics, torsion fields, scalar field theory, BioGeometry, radiesthesia, geobiology, sacred geometry, subtle energy, morphic resonance, LENR cold fusion, ball lightning, vacuum zero-point energy, Kozyrev causal mechanics, Akimov Shipov torsion, Atsyukovsky etherodynamics, French onde de forme, Italian psicogeometria. 4) Prioritize: rare or endangered texts disappearing from the web, foreign-language sources, primary sources cited by collection works but not yet acquired. 5) Verify URLs work (fetch them). Record title, author, language, domain, description. 6) Write a scout report to sources/ with date and finds. 7) Append the most important finds to family_ledger.json upgrade_bank (preserve existing entries). 8) git add -A, commit Scout-N-finds, push: git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. 9) Report to site: python3 drunvalo/report.py --summary aetherforce-scout-new-finds --status ok --files sources/; git add drunvalo/; git commit -m report-Drunvalo-scout; git push origin main. Report: number of finds, languages, domains, endangered texts rescued.",
+    "schedule": {
+      "type": "recurring",
+      "cron_expression": "0 */12 * * *"
+    },
+    "recurring": true,
+    "next_scheduled_time": "2026-10-22T00:00:00.000Z",
+    "created_at": "2026-08-29T18:12:43.132Z"
+  },
+  {
+    "id": "f2e027ea-055d-4af9-a02d-72f0292adabe",
+    "runner": "cloud",
+    "execution_target": "cloud-sandbox",
+    "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+    "conversation_id": "new",
+    "name": "aetherforce-database-refresh",
+    "description": "Cloud: Refresh person/research indexes, library feed, concept tags (daily)",
+    "prompt": "AetherForce database refresh cron (cloud sandbox). Repo: https://github.com/Focusingpulse/AFLinks.git (user Focusingpulse). Steps: 1) cd /root/workspace; clone if missing (git clone --depth 1 https://github.com/Focusingpulse/AFLinks.git aflinks), else cd aflinks and run: git pull --rebase origin main. 2) Scan translations/ and extract: researcher names, work titles, domains, languages, source URLs. 3) Update database/person-index.json, adding new researchers, updating source counts and domains. Preserve existing entries. 4) Update database/research-index.json, adding new works and cross-references. Preserve existing entries. 5) Try to rebuild the library feed: python3 build_library_feed.py. It may need the living-library repo which may not be available in this sandbox; if it errors on missing living-library, SKIP gracefully, do not fail the run, note it in the summary. 6) Run python3 tag_concepts.py if present. 7) Check family_ledger.json upgrade_bank and mark items completed if the target source is now in the collection. 8) Generate a health report: total researchers, works, translations, new since last refresh. 9) git add -A, commit Database-refresh-summary, push: git push origin main; if auth fails: git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/Focusingpulse/AFLinks.git then push. Never print the token. 10) Report to site: python3 drunvalo/report.py --summary aetherforce-database-refresh-health-report --status ok --files database/; git add drunvalo/; git commit -m report-Drunvalo-db-refresh; git push origin main. Report the health metrics.",
+    "schedule": {
+      "type": "recurring",
+      "cron_expression": "0 6 * * *"
+    },
+    "recurring": true,
+    "next_scheduled_time": "2026-10-22T06:00:00.000Z",
+    "created_at": "2026-08-29T18:13:01.970Z"
+  },
+  {
+    "id": "32f1a245-91a7-4c93-8d74-ef4e7f49f2ed",
+    "runner": "cloud",
+    "execution_target": "cloud-sandbox",
+    "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+    "conversation_id": "new",
+    "name": "drunvalo-memory-mirror",
+    "description": "Cloud: mirror Drunvalo MemFS to private GitHub repo DrunvaloMemory (daily 21:40 UTC, light quota window)",
+    "prompt": "Memory mirror run. Step 1: run bash $MEMORY_DIR/reference/fleet-ops/mirror_memory.sh and read the exit code as a decision. rc=0 means mirrored or already current, go to step 2. rc=2 means SECRET SCAN REFUSED, this is a STOP: report the refusing file list and stop. rc=3 means push or verify failed: re-run the script exactly once, then report and stop. rc=4 means no credential: report and stop. rc=5 means the mirror repo is unreachable: report and stop. Do not add retry loops around rate limits. Step 2: verify independently by cloning https://github.com/Focusingpulse/DrunvaloMemory.git into a temp dir with the credential shim from reference/fleet-ops/push-shim.md and compare git rev-parse HEAD^{tree} against the local MemFS tree and file counts. Step 3: report a one-line delta and stop.",
+    "schedule": {
+      "type": "recurring",
+      "cron_expression": "40 21 * * *"
+    },
+    "recurring": true,
+    "next_scheduled_time": "2026-10-21T21:40:00.000Z",
+    "created_at": "2026-10-09T02:36:22.232Z"
+  },
+  {
+    "id": "02c18631-83a4-408f-84bd-78f27e7eb1f3",
+    "runner": "cloud",
+    "execution_target": "cloud-sandbox",
+    "agent_id": "agent-0132a387-e656-42e5-b563-e1f2d6438df3",
+    "conversation_id": "new",
+    "name": "aetherforce-translation-qc",
+    "description": "Cloud: AFLinks translation QC + DB dedupe + fleet ledger check-in (every 4h)",
+    "prompt": "AetherForce translation QC cron (cloud sandbox). Repo: https://github.com/Focusingpulse/AFLinks.git (user Focusingpulse). NOTE: a full clone no longer fits this sandbox's disk — use the GitHub Contents API for reads and writes; resolve the token per reference/fleet-ops/push-shim.md and never print it. Steps: 1) Targets, in priority order: database/research-index.json, database/person-index.json, library_feed.json, build_library_feed.py. NOTE: translations/ and books/ were RETIRED from the public repo by the 2026-09-20 publish boundary — an empty or missing translations/ is BY DESIGN, not damage; do not restore it. 2) Standing checks: a) duplicate works sharing one file under two ids, or the same work re-emitted under a different slug convention; b) dangling cross_refs; c) person ids with junk prefixes (leading quote, underscore variants); d) entries that map a Forge dossier held only in Forge memory are intentional — leave them. 3) Dedupe: keep the richer entry, union themes/concepts/key_claims/cross_refs, remap the refs. 4) Fix issues directly in the files; add DB entries for new Forge-batch works (id = bare slug minus date, file = path, themes/concepts/key_claims from frontmatter). 5) SKIP tag_concepts.py — it is dead (it reads index.json, which no longer exists; the archive is sharded). Note the skip in the report. 6) Preserve each file's existing JSON formatting exactly (research-index.json is indent 2) or the diff explodes — check the original before writing. 7) Push via the Contents API; on a 409 refetch the sha and retry once; then re-fetch a few minutes later and confirm the change survived, because fleet agents push to main concurrently. Never print the token. 8) Report to site (Contents API if there is no local clone): python3 drunvalo/report.py --summary aetherforce-translation-qc-checked-and-fixed --status ok --files database/; then commit and push drunvalo/. 9) Check in to the fleet ledger: clone or pull https://github.com/Focusingpulse/cron-coordination.git into /root/workspace_fleet/cc using the credential shim; run python3 family.py check-in --member drunvalo --status ok --state IDLE --summary '<one line, counts and deltas only — no ids, shas or lists>'; then push cron_ledger.json with the shim. If it fails, note it and continue; do not loop. Report: checks run, issues found and fixed, DB entries added.",
+    "schedule": {
+      "type": "recurring",
+      "cron_expression": "0 */4 * * *"
+    },
+    "recurring": true,
+    "next_scheduled_time": "2026-10-21T20:00:00.000Z",
+    "created_at": "2026-10-09T02:39:00.666Z"
+  }
+]
