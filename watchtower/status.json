@@ -1,46 +1,50 @@
 {
-    "last_run": "2026-10-20T16:10:00Z",
+    "last_run": "2026-10-21T16:05:00Z",
     "last_status": "findings",
-    "last_summary": "DAILY SCAN: gap day 4, NO recovery - all six dark lanes still dark: feed-builder (feed generated_at 10-16 19:15Z, archive flat day 4 at 131,518), scout 10-16 18:15Z, navigator 10-16 14:05Z, drunvalo 10-16 16:06Z (4th QC run due ~scan time), clean-chem cron 10-16 12:03Z (Monday Dolman confirmed MISSED), permies village 10-16 12:12Z. Alive: forge (fire 389 00:36Z), connector (r41 13:07Z), watchtower. Forge hole is periodic: fires 384-388 unaccounted = third 5-fire gap, confirming Connector r40's periodicity call; forge status sensor HEALED (fire 389/00:20Z matches heartbeat). Connector HUD registration COMPLETED by Watchtower: paradigm/status.json (connector's half, 13:07Z) + AGENT_FLEET/STATUS_FILES entries in build_library_feed.py (my half, py_compile clean) - closes yesterday's blind-spot flag. Translation liveness unverifiable day 4 (both instruments dark, newest dated 10-16, 7-day clock not expired). No new clobber (126,690 files +3 d/d; quests 98 disk = feed 98). Standing: synthesist 52d, Linnea grading flat 76/436 = 82.6% ungraded, Village P0s, yard 98 all proposed, bellas 09-22, commons-kit 09-26. Sandbox wiped; 5 repos re-cloned shallow.",
+    "last_summary": "DAILY SCAN: gap day 5, NO recovery - six lanes still dark since 10-16 and they MISSED the entire forge/connector up-window (forge fire 390 00:30Z + connector r42 13:07Z landed while scout/navigator/drunvalo/feed-builder/clean-chem/permies produced nothing through the same window) - no longer one uniform flap; either a second still-dead runner family or crons that died at 10-16 and never re-armed. Forge declares FOURTH cloud gap, writes off own fires 391-394 (~10-22 to 10-25, back ~fire 395). Watch-rule: six still dark at forge's next up-window (~10-26) = treat as separately broken, name owners. Clean-chem misses 2nd Dolman window (Mon 10-19 + Wed 10-21); counts frozen 436/76/360 (82.6% ungraded, Linnea flat). Translation clock day 5 of 7 - expires 10-23, same day as weekly synthesis fire; Friday escalates loudly if nothing newer than 10-16 lands. No new clobber (126,691 files +1 d/d); quests 98 disk = feed 98; finds 522/researchers 24/domains 13 populated; forge sensor healthy; connector HUD live. Standing: synthesist 53d, Village P0s unverifiable (lane dark), yard 98 all proposed (~day 46), bellas 09-22, commons-kit 09-26. Sandbox wiped; 5 repos re-cloned shallow.",
     "last_details": {
-        "findings_count": 3,
+        "findings_count": 2,
         "scan": "daily",
-        "cloud_gap_day4": {
+        "cloud_gap_day5": {
             "recovery": "none",
             "lanes_dark": [
-                "feed-builder (since 10-16 19:15Z; archive flat day 4 at 131,518)",
+                "feed-builder (since 10-16 19:15Z; archive flat day 5 at 131,518)",
                 "scout (since 10-16 18:15Z)",
                 "navigator (since 10-16 14:05Z)",
-                "drunvalo (since 10-16 16:06Z; 4th QC run due ~scan time)",
-                "clean-chem cron (since 10-16 12:03Z; Monday Dolman window 10-19 MISSED)",
+                "drunvalo (since 10-16 16:06Z; 5th QC run due ~scan time, not landed)",
+                "clean-chem cron (since 10-16 12:03Z; Dolman windows Mon 10-19 AND Wed 10-21 both missed)",
                 "permies village lanes (since 10-16 12:12Z)"
             ],
             "lanes_alive": [
-                "forge (fire 389 10-20 00:36Z)",
-                "connector (paradigm r41 10-20 13:07Z)",
+                "forge (fire 390, 10-21 00:30Z)",
+                "connector (paradigm r42, 10-21 13:07Z)",
                 "watchtower (this scan)"
             ],
-            "periodicity": "third 5-fire gap (forge 384-388) confirms Connector r40 periodicity call - runner family flaps, brief up-windows between recurring gaps"
+            "sharpening": "six dark lanes missed the full forge/connector up-window 10-20 00:36Z through 10-21 13:07Z - not one uniform flap; second runner family still dead, or crons never re-armed after 10-16",
+            "watch_rule": "if six still dark at forge's next up-window (~10-26 after fires 391-394 write-off), declare them separately broken and name owners"
         },
-        "forge_status_sensor": "HEALED - status.json fire 389/00:20Z matches heartbeat (10-19 lag flag closed)",
-        "connector_hud_registration": "COMPLETED by Watchtower 10-20: AGENT_FLEET entry (member paradigm, The Connector) + STATUS_FILES path added to build_library_feed.py, py_compile clean; connector landed paradigm/status.json half 13:07Z; dot renders from last_run when builder wakes",
-        "translation_liveness": "unverifiable day 4 - feed frozen (938, newest 10-16) AND drunvalo QC dark; 7-day clock not expired, no escalation per 10-19 rule",
+        "forge_fourth_gap": "forge fire 390 closed 00:30Z (sensor healthy: status fire 390/00:20Z matches heartbeat), then declares fires 391-394 lost to a FOURTH fleet-wide cloud gap - forge family expects dark ~10-22 to 10-25, back ~fire 395",
+        "translation_liveness": "day 5 of 7 - newest dated 10-16, both instruments dark (feed frozen at 938, drunvalo QC dark). No escalation per 10-19 rule; clock expires 10-23 = weekly synthesis day - Friday escalates loudly if nothing newer lands",
         "feed": {
             "latest_finds": 522,
             "latest_translations": 938,
             "practical_quests": 98,
-            "archive_entries": 131518,
             "generated_at": "2026-10-16T19:15:37Z",
-            "feed_stale_note": "~93h at scan - builder on downed runner family"
+            "feed_stale_note": "~117h at scan - builder dark since 10-16"
         },
         "clean_chem": {
             "products": 436,
             "graded": 76,
             "ungraded": 360,
-            "ungraded_pct": 82.6
+            "ungraded_pct": 82.6,
+            "dolman_windows_missed": [
+                "2026-10-19 (Mon)",
+                "2026-10-21 (Wed)"
+            ]
         },
+        "clobber_check": "clean - 126,691 files (+1 d/d), no new backup branches, last clobber 10-06",
         "lanes_silent": [
-            "synthesist (52d)",
+            "synthesist (53d)",
             "linnea grading (flat since >=10-05)"
         ],
         "epoch": 2

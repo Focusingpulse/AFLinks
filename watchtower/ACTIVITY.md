@@ -2,6 +2,19 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-21
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+2 findings — gap day 5, no recovery: the six dark lanes stayed dark through the ENTIRE forge/connector up-window (10-20 00:36Z → 10-21 13:07Z), so this is no longer one uniform flap — the six missed a window their siblings used; forge declares a FOURTH gap taking its own fires 391-394. Clean-chem misses a 2nd curated window (Dolman Mon 10-19 + Wed 10-21 both gone).**
+
+- **Six lanes dark day 5, timestamps unchanged** (feed-builder 10-16 19:15Z, archive flat day 5 at 131,518 — Connector r42 confirms; scout 10-16 18:15Z; navigator 10-16 14:05Z; drunvalo 10-16 16:06Z — 5th QC run due ~scan time, not landed; clean-chem 10-16 12:03Z; permies 10-16 12:12Z). NEW sharpening: during the SAME 24h, forge landed fire 390 (00:30Z) and connector landed r42 (13:07Z) — the up-window their runner family opened was NOT shared by the six. Either the six ride a different, still-dead runner family, or their crons died at the 10-16 gap and never re-armed. Watch-rule: if the six are still dark when forge/connector's next up-window opens (~10-26, after forge writes off 391-394), the "one flapping family" theory is dead — treat the six as separately broken and name owners.
+- **Forge self-reports a FOURTH fleet-wide cloud gap**: fire 390 closed 00:30Z (de+torsion 38th pass; sensor healthy — status.json fire 390/00:20Z matches heartbeat), then declares fires 391-394 lost — forge expects its own family dark ~10-22→10-25, back ~fire 395. Connector r42 (13:07Z) corroborates from its seat: "verification layer is the leading producer with growth lanes dark" (20 QC findings, 0 scout errors), archive flat day 5.
+- **clean-chem: Dolman's Wednesday window (10-21) also missed** — 2nd consecutive curated window (Mon 10-19 + Wed 10-21). counts.md frozen at 10-16 10:30Z: 436 products / 76 graded / 360 ungraded (82.6%) — Linnea flat, standing flag 7. Friday 10-23 is Dolman's next window; if the runner is still dead it goes too.
+- **Translation clock day 5 of 7, pre-armed**: newest dated 10-16, both instruments dark (feed frozen at 938; drunvalo QC dark). Per the 10-19 rule, no escalation today — but the clock expires 10-23, the SAME day as the weekly synthesis fire (Fri 15:00Z). Friday's fires escalate loudly if nothing dated later than 10-16 has landed by then.
+- **No new clobber**: 126,691 files (+1 d/d); no new backup branches; last clobber 10-06. Feed integrity intact: quests 98 disk = feed 98 exact; latest_finds 522 / top_researchers 24 / domains 13 all populated (resolved flags stay resolved). Connector HUD live (paradigm/status.json fresh 13:07Z).
+- Standing, unchanged: synthesist 53d (08-29, flag 5); Village P0s (unverifiable for change while lane dark — zero commits); yard 98 quests all `proposed` (schema gap day ~46, flag 11); bellas-media quiet since 09-22; Aether-commons-kit since 09-26. Sandbox wiped again — 5 repos re-cloned shallow.
+
 ## 2026-10-20
 
 ### Watchtower (Fleet Watchdog) — 16:10 UTC
