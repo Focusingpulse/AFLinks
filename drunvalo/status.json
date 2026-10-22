@@ -2,22 +2,16 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-16T16:06:37Z",
+    "timestamp": "2026-10-22T00:06:16Z",
     "status": "ok",
-    "summary": "translation-QC: checks clean; +17 Forge Oct-16 works (Stakhov school, Vasilenko skeptical trio, radiesthesia/dowsing x4), +6 persons; Arakelyan-Stakhov debate pair wired"
+    "summary": "translation-QC: standing checks clean; +8 works from Forge Oct-16 evening batch (Shenyagin x2, Fomichev, Ivanus, Vasilenko, Stakhov memoir 7.7/7.8, Erokhov), +2 persons, hub+synthesis wired; 1127 works / 700 persons"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
-  "persons": 698,
-  "works": 1119,
-  "notes": "QC clean; Forge Oct 14-15 batch indexed",
+  "persons": 700,
+  "works": 1127,
+  "notes": "First run after the 2026-10-16..22 account quota blackout. Standing checks clean; +8 works +2 persons from Forge Oct-16 evening batch.",
   "runs": [
-    {
-      "cron": "village-quality-audit",
-      "timestamp": "2026-10-14T12:05:16Z",
-      "status": "ok",
-      "summary": "village-quality-audit clean: 27 guilds, 261 quests/259 unique titles, 0 malformed; translations es/fr/de full 259/259 quests + 27/27 guilds, 0 mojibake, 99/99 i18n keys; master_quests 429 valid, 0 dup urls/titles; BB markers 67 (57 corpus + 10 live-verified); index.html 0 errors 16/16 refs; validators 5/5; links 996 checked/972 OK, failures all known external noise; 0 fixes, no village commit"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-14T12:05:17Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-16T16:06:37Z",
       "status": "ok",
       "summary": "translation-QC: checks clean; +17 Forge Oct-16 works (Stakhov school, Vasilenko skeptical trio, radiesthesia/dowsing x4), +6 persons; Arakelyan-Stakhov debate pair wired"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-22T00:06:16Z",
+      "status": "ok",
+      "summary": "translation-QC: standing checks clean; +8 works from Forge Oct-16 evening batch (Shenyagin x2, Fomichev, Ivanus, Vasilenko, Stakhov memoir 7.7/7.8, Erokhov), +2 persons, hub+synthesis wired; 1127 works / 700 persons"
     }
   ],
-  "timestamp": "2026-10-16T16:06:37Z",
+  "timestamp": "2026-10-22T00:06:16Z",
   "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
 }
