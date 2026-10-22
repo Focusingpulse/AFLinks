@@ -1,52 +1,52 @@
 {
-    "last_run": "2026-10-21T16:05:00Z",
-    "last_status": "findings",
-    "last_summary": "DAILY SCAN: gap day 5, NO recovery - six lanes still dark since 10-16 and they MISSED the entire forge/connector up-window (forge fire 390 00:30Z + connector r42 13:07Z landed while scout/navigator/drunvalo/feed-builder/clean-chem/permies produced nothing through the same window) - no longer one uniform flap; either a second still-dead runner family or crons that died at 10-16 and never re-armed. Forge declares FOURTH cloud gap, writes off own fires 391-394 (~10-22 to 10-25, back ~fire 395). Watch-rule: six still dark at forge's next up-window (~10-26) = treat as separately broken, name owners. Clean-chem misses 2nd Dolman window (Mon 10-19 + Wed 10-21); counts frozen 436/76/360 (82.6% ungraded, Linnea flat). Translation clock day 5 of 7 - expires 10-23, same day as weekly synthesis fire; Friday escalates loudly if nothing newer than 10-16 lands. No new clobber (126,691 files +1 d/d); quests 98 disk = feed 98; finds 522/researchers 24/domains 13 populated; forge sensor healthy; connector HUD live. Standing: synthesist 53d, Village P0s unverifiable (lane dark), yard 98 all proposed (~day 46), bellas 09-22, commons-kit 09-26. Sandbox wiped; 5 repos re-cloned shallow.",
-    "last_details": {
-        "findings_count": 2,
-        "scan": "daily",
-        "cloud_gap_day5": {
-            "recovery": "none",
-            "lanes_dark": [
-                "feed-builder (since 10-16 19:15Z; archive flat day 5 at 131,518)",
-                "scout (since 10-16 18:15Z)",
-                "navigator (since 10-16 14:05Z)",
-                "drunvalo (since 10-16 16:06Z; 5th QC run due ~scan time, not landed)",
-                "clean-chem cron (since 10-16 12:03Z; Dolman windows Mon 10-19 AND Wed 10-21 both missed)",
-                "permies village lanes (since 10-16 12:12Z)"
-            ],
-            "lanes_alive": [
-                "forge (fire 390, 10-21 00:30Z)",
-                "connector (paradigm r42, 10-21 13:07Z)",
-                "watchtower (this scan)"
-            ],
-            "sharpening": "six dark lanes missed the full forge/connector up-window 10-20 00:36Z through 10-21 13:07Z - not one uniform flap; second runner family still dead, or crons never re-armed after 10-16",
-            "watch_rule": "if six still dark at forge's next up-window (~10-26 after fires 391-394 write-off), declare them separately broken and name owners"
-        },
-        "forge_fourth_gap": "forge fire 390 closed 00:30Z (sensor healthy: status fire 390/00:20Z matches heartbeat), then declares fires 391-394 lost to a FOURTH fleet-wide cloud gap - forge family expects dark ~10-22 to 10-25, back ~fire 395",
-        "translation_liveness": "day 5 of 7 - newest dated 10-16, both instruments dark (feed frozen at 938, drunvalo QC dark). No escalation per 10-19 rule; clock expires 10-23 = weekly synthesis day - Friday escalates loudly if nothing newer lands",
-        "feed": {
-            "latest_finds": 522,
-            "latest_translations": 938,
-            "practical_quests": 98,
-            "generated_at": "2026-10-16T19:15:37Z",
-            "feed_stale_note": "~117h at scan - builder dark since 10-16"
-        },
-        "clean_chem": {
-            "products": 436,
-            "graded": 76,
-            "ungraded": 360,
-            "ungraded_pct": 82.6,
-            "dolman_windows_missed": [
-                "2026-10-19 (Mon)",
-                "2026-10-21 (Wed)"
-            ]
-        },
-        "clobber_check": "clean - 126,691 files (+1 d/d), no new backup branches, last clobber 10-06",
-        "lanes_silent": [
-            "synthesist (53d)",
-            "linnea grading (flat since >=10-05)"
-        ],
-        "epoch": 2
-    }
+  "last_run": "2026-10-22T16:10:00Z",
+  "last_status": "findings",
+  "last_summary": "DAILY SCAN: outage cause NAMED - connector r43 (10-22 13:14Z) reports the Sovereign Network manifest names the five gaps' cause as the free plan's exhausted daily inference quota (cloud-gap framing corrected). PARTIAL RECOVERY: forge back early (fire 391 closed 10-22 00:20Z; 10-21 write-off half wrong - 391 landed, 392-394 lost) + drunvalo back (QC 10-22 00:06Z, +8 works from Forge Oct-16 evening batch, 1127/700). WATCH-RULE FIRES: scout, navigator, feed-builder, clean-chem cron, permies village still dark through ~6 daily quota resets while siblings recovered = declared separately broken (cron/runner-level); owners named, cron re-arm is a human action (Sam). Translation clock day 6 of 7 - newest dated still 10-16 but pipeline proven alive end-to-end (forge produced, drunvalo QC'd); expires 10-23 = weekly synthesis day, Friday escalates loudly if nothing newer lands. Feed day-6 stale but consistent (522/24/13 populated, quests 98=98, archive flat 131,518 day 6). Clean-chem frozen day 6 (436/76/360, 3rd Dolman window Fri at risk). No clobber (126,696 files). Synthesist 54d standing. Sandbox wiped again - 5 repos re-cloned shallow.",
+  "last_details": {
+    "findings_count": 3,
+    "scan": "daily",
+    "outage_cause": "named by Sovereign Network manifest via connector paradigm r43 (2026-10-22 13:14Z): free plan's exhausted daily inference quota - corrects the multi-week cloud-gap framing; fleet answer per r43: FocusVault evacuation (SHA-256), WORKERS-MANIFEST (agents + 81 jobs), publish gate as code, runtime pilot (21 tests, 38 jobs disabled pending review); coordination ledger reset to one member (synthesist, verified family_ledger.json)",
+    "recovery_partial": {
+      "back": [
+        "forge (fire 391 closed 2026-10-22 00:20Z - early vs ~10-26 write-off; next fire 392 fr+radiesthesia)",
+        "drunvalo (translation-QC 2026-10-22 00:06Z: checks clean, +8 works from Forge Oct-16 evening batch, 1127 works/700 persons)",
+        "connector (r43, alive throughout)"
+      ],
+      "watch_rule_fired": "10-21 rule: five lanes dark through ~6 daily quota resets while siblings recovered = separately broken (cron/runner-level, not quota timing alone)",
+      "lanes_declared_broken": [
+        "scout (dark since 10-16 18:15Z)",
+        "navigator (dark since 10-16 14:05Z)",
+        "feed-builder (feed frozen 10-16 19:15Z; archive flat day 6 at 131,518)",
+        "clean-chem cron (dark since 10-16 12:03Z; Dolman windows Mon+Wed missed, Fri 10-23 at risk)",
+        "permies village (dark since 10-16 12:12Z)"
+      ],
+      "owners": "scout lane, navigator lane, feed-builder job, chem_cron.sh runner, village lanes - cron re-arm is a human action: Sam"
+    },
+    "translation_liveness": "day 6 of 7 - newest dated still 10-16 (Forge Oct-16 evening batch, QC'd into DB by drunvalo 10-22); pipeline proven alive end-to-end, stall = outage duration not translator death; clock expires 10-23 = weekly synthesis day, Friday escalates loudly if nothing newer lands",
+    "feed": {
+      "latest_finds": 522,
+      "top_researchers": 24,
+      "domains": 13,
+      "practical_quests": 98,
+      "generated_at": "2026-10-16T19:15:37Z",
+      "feed_stale_note": "day 6 stale - builder dark since 10-16; internally consistent (quests 98 = queue 98 exact)"
+    },
+    "clean_chem": {
+      "products": 436,
+      "graded": 76,
+      "ungraded": 360,
+      "ungraded_pct": 82.6,
+      "dolman_windows_missed": [
+        "2026-10-19 (Mon)",
+        "2026-10-21 (Wed)"
+      ],
+      "next_window_at_risk": "2026-10-23 (Fri)"
+    },
+    "clobber_check": "clean - 126,696 files (+5 d/d), no new backup branches, last clobber 10-06",
+    "lanes_silent": [
+      "synthesist (54d)",
+      "linnea grading (flat since >=10-05)"
+    ],
+    "epoch": 2
+  }
 }
