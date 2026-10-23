@@ -2,6 +2,21 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-23
+
+### Watchtower (Fleet Watchdog) — 15:17 UTC
+
+**+7 findings — WEEKLY SYNTHESIS ISSUE 3 LANDED: translation clock expired WITH A DIAGNOSIS (QC alive, intake dark — starved, not dead); first repairs landed in the 04:00Z quota seam (drunvalo QC 04:04Z + Dolman nightshift 04:37Z, first clean-chem work in 7d); two self-corrections (forge never went dark; Scooter is a 6th dark lane with the HUD frozen mid-outage); migration manifest cross-checked against reality with 5 corrections filed.**
+
+- **Translation liveness clock EXPIRED today — verdict: starved, not dead.** Newest dated translation still 10-16; drunvalo QC ran twice today (00:11Z, 04:04Z), both clean, 0 new works; DB static 1127/700. The checking joint is alive (9 standing checks clean ×2); the intake joint is dark (scout, 7d). Re-arm = scout, via the migration. Full verdict in Issue 3 §1 flag 4.
+- **First repairs landed — the 04:00Z seam.** Drunvalo's 04:04Z QC (first second-window landing since 10-16, self-declared) + Dolman's nightshift-dolman-build station 2 at 04:37Z (Sal Suds graded 76→77, 437 products, first clean-chem work in 7d) + forge fire 392 closed 00:20Z. Two lanes, two repos, same pre-dawn window, uncoordinated — the post-midnight-UTC quota reset is the fleet's recovery seam. Recommendation to Sam/Chris: re-arm into 00:00-06:00Z while migration pends.
+- **Self-correction 1 — forge never went dark.** Fires 377/383/389/390/391/392 = at least one fire EVERY day of the outage. My 10-21 write-off (391-394 lost) and 10-22 half-correction (392-394 lost) were both wrong. Fire-number arithmetic retired as an activity instrument; commit dates are the instrument.
+- **Self-correction 2 — Scooter is a 6th dark lane** (last commit 10-16 19:06Z), never in the declared-broken five; HUD deploy (Cairn's fleet-hud-render, hourly :17) quiet since 10-17. The public HUD is frozen showing pre-outage state — a reader would not know anything happened. First re-deploy should carry an outage banner.
+- **Migration manifest cross-check (Issue 3 §2.2):** WORKERS-MANIFEST.md vs reality — (a) MY OWN entry is wrong (site-watchdog */30 is Tutor's; my real crons: daily 16:00Z + weekly Fri 15:00Z — correction filed from inside); (b) nightshift-dolman-build absent from the manifest; (c) Scribe/Tutor identity conflict in fleet-registry.json; (d) 9+ UNKNOWN agent_ids; (e) outage date granularity. Owner: drunvalo (author) + Chris (ids).
+- **Standing, re-verified:** watch-rule held (all five broken lanes dark through quota relief); feed frozen day 7 but consistent (522/24/13, quests 98=98, validations 79); clean-chem 437/77/360 = 82.4% ungraded, Linnea 22d silent (recommendation to Sam carried); synthesist 55d (mirror dead 09-26 per manifest); Village P0s unadopted (no schemaVersion in code, alert() at story.js:532; lane dark = no change possible); yard 98/98 proposed day 47; bellas quiet by design (Idaho Springs loop open); commons-kit quiet 27d; secrets CLEAN (bounded scan, all 5 repos); no clobber (126,699 files, +3/d = flatness itself confirms scout dark).
+- **Instruments debt worsening:** tag_concepts dead 7d (reads index.json which no longer exists), paradigm_lenses 51d stale over 47% of archive, archive-graph frozen 09-06. family.py port (Issue 2 §2.3) now overdue — the outage is the proof-of-need; draft starts next daily scan.
+- **10-26 up-window = the falsification schedule** (paradigm r44): five lanes still dark + no human action → wind-down reading gains; re-arms land → diagnosed-pause confirmed. Daily scans 10-24→10-27 carry the verdict. Full report: watchtower/2026-10-23-fleet-blind-spots-issue-3.md.
+
 ## 2026-10-21
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC
