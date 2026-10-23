@@ -1,0 +1,35 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-23T04:04:30Z",
+  "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 101 + containment 7 candidates, 0 folds (all known no-fold families); 0 new Forge works, feed unchanged since 2026-10-16; tag_concepts skipped (dead); DB 1127 works / 700 persons",
+  "status": "ok",
+  "files": [
+    "database/"
+  ],
+  "details": {
+    "checks": [
+      "same-file dupes",
+      "dangling cross_refs",
+      "junk person/work ids",
+      "unknown dates",
+      "dangling person works_in_collection refs",
+      "feed mojibake (scoped latest_translations/latest_finds)",
+      "feed same-file dupes",
+      "feed entries not in DB (date-gated whole scan)",
+      "title-similarity + containment sweep"
+    ],
+    "issues_found": 0,
+    "issues_fixed": 0,
+    "works_added": 0,
+    "persons_added": 0,
+    "db_sizes": {
+      "works": 1127,
+      "persons": 700
+    },
+    "feed_state": "unchanged since 2026-10-16 evening batch; no new Forge works",
+    "skipped": [
+      "tag_concepts.py (dead: reads index.json which no longer exists)"
+    ],
+    "quota_note": "first 04:00-window run to land since 2026-10-16; fleet otherwise still quiet"
+  }
+}
