@@ -1,23 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-22T00:06:16Z",
-    "status": "ok",
-    "summary": "translation-QC: standing checks clean; +8 works from Forge Oct-16 evening batch (Shenyagin x2, Fomichev, Ivanus, Vasilenko, Stakhov memoir 7.7/7.8, Erokhov), +2 persons, hub+synthesis wired; 1127 works / 700 persons"
-  },
+  "last_run": "2026-10-23T00:11:00Z",
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
   "notes": "First run after the 2026-10-16..22 account quota blackout. Standing checks clean; +8 works +2 persons from Forge Oct-16 evening batch.",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-14T12:05:17Z",
-      "status": "ok",
-      "summary": "standing checks clean; +20 works Forge Oct-14 batch, +1 person, 12 back-refs; 991 works, 648 persons; tag_concepts skipped (dead)"
-    },
     {
       "cron": "aetherforce-synthesis",
       "timestamp": "2026-10-14T12:08:12Z",
@@ -71,8 +60,14 @@
       "timestamp": "2026-10-22T00:06:16Z",
       "status": "ok",
       "summary": "translation-QC: standing checks clean; +8 works from Forge Oct-16 evening batch (Shenyagin x2, Fomichev, Ivanus, Vasilenko, Stakhov memoir 7.7/7.8, Erokhov), +2 persons, hub+synthesis wired; 1127 works / 700 persons"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-23T00:11:00Z",
+      "status": "ok",
+      "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0); title-sim 0 + containment 4 candidates all known no-fold families; 0 new Forge works (feed unchanged since 10"
     }
   ],
-  "timestamp": "2026-10-22T00:06:16Z",
-  "summary": "Translation QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0). Title-sim 44 + containment 5 candidates, 0 folds (all known no-fold families: Statskevich morphogenesis series, beseda-7/11, sr Tesla, geometria-sacra en/it, belizal-morel). +5 works from Forge's Oct-14 batch (Pollack on Ling, Statskevich postpone/killer-no-1, Stoleshnikov miracle-grass, al-Safi total-pulse ar) +2 persons (stoleshnikov-ap, muhammad-husayn-al-safi), 5 person links (statskevich +2, pollack, gilbert-ling about, samokhotsky-as about), 8 back-ref wirings, cross_refs validated 0 dangling pre-push. URLs 5/5 live. tag_concepts skipped (dead). 966->971 works, 645->647 persons."
+  "timestamp": "2026-10-23T00:11:00Z",
+  "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0); title-sim 0 + containment 4 candidates all known no-fold families; 0 new Forge works (feed unchanged since 10-16 evening batch, f"
 }
