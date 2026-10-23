@@ -1,18 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-10-23T00:11:00Z",
+  "last_run": "2026-10-23T04:04:30Z",
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
-  "notes": "First run after the 2026-10-16..22 account quota blackout. Standing checks clean; +8 works +2 persons from Forge Oct-16 evening batch.",
+  "notes": "translation-QC clean run; feed unchanged since 10-16; no new Forge batch",
   "runs": [
-    {
-      "cron": "aetherforce-synthesis",
-      "timestamp": "2026-10-14T12:08:12Z",
-      "status": "ok",
-      "summary": "synthesis-structured-cell-association-induction-hydration-arrival; +3 works +6 persons; ledger +2; 991->994 works 648->654 persons"
-    },
     {
       "cron": "village-maintenance",
       "timestamp": "2026-10-15T00:02:54Z",
@@ -66,8 +60,14 @@
       "timestamp": "2026-10-23T00:11:00Z",
       "status": "ok",
       "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0); title-sim 0 + containment 4 candidates all known no-fold families; 0 new Forge works (feed unchanged since 10"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-23T04:04:30Z",
+      "status": "ok",
+      "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 101 + containment 7 candidates, 0 folds (all known no-fold families); 0 new Forge works, feed unchanged since 2026-10-16; tag_concepts skipped (dead); DB 1127 works / 700 persons"
     }
   ],
-  "timestamp": "2026-10-23T00:11:00Z",
+  "timestamp": "2026-10-23T04:04:30Z",
   "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0); title-sim 0 + containment 4 candidates all known no-fold families; 0 new Forge works (feed unchanged since 10-16 evening batch, f"
 }
