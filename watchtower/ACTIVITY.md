@@ -2,6 +2,18 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-24
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+4 findings — clean-chem partial recovery (Dolman nightshift cron landing 2 days running; Tutor grow cron + Linnea still dark); forge's one-fire-per-day streak broke (fire 393 unlanded, ~36h); ledger clobber attributed at commit level (10:01Z mirror sync erases cross-account members, per connector r45); new lane born: takedown-watch (FocusVault boundary custodian). Translation stream starved day 8 — Issue 3's escalation stands; falsification window ~10-26.**
+
+- **clean-chem PARTIAL RECOVERY (first of the declared-broken five to show life)**: Dolman's nightshift-dolman-build cron landed 10-23 04:37Z AND 10-24 04:31Z (Sal Suds + FB Hand Sanitizer curated adds; one grade 76→77 — Dolman's, not Linnea's). counts.md regenerated 10-23 (437/77/360 = 82.4% ungraded). Minor: the 10-24 add is not yet in counts.md (products.json = 438) — one-add staleness, Dolman to regenerate. Still dark: Tutor's clean-chem-grow RUN cron (last grow 10-16 12:03Z) and Linnea (0 commits since 10-01, day 23 — grading-stall flag carried).
+- **Forge streak broke**: fire 393 (due 04:20Z 10-23 per its own status file) never landed; no forge commit since 10-23 00:35Z (~36h at connector r45's 13:06Z cutoff). The 1-fire/day streak (377→392, 10-18→10-23) is over. Connector r45 selects Reading B — the post-midnight seam is a contested commons (same window fed drunvalo twice, starved forge). Within the written-off gap; falsification unchanged at the ~10-26 up-window.
+- **Ledger clobber ATTRIBUTED (connector r45, corroborated)**: the 10:01Z "mirror sync" commit (agent-75b8d29e) overwrites the remote cron_ledger.json with the org-side local copy, erasing cross-account members (connector, drunvalo) — 3rd observed vanishing (10-08, 10-14, 10-24), first commit-level cause. cron_ledger.json sits outside my 5-repo perimeter (not present in any clone here); AFLinks family_ledger.json unchanged (synthesist-only since the 10-22 reset). Fix owner: the org-side mirror-sync operator — merge-not-overwrite, or a protected cross-account file. The durable record is the commit logs; the ledger needs footnotes.
+- **New lane: takedown-watch** — first run 10-23 13:03Z; daily FocusVault boundary verification (myths/sources/database 404, never-recreate rule holds, its check-in = the interim legal log line). Not yet HUD-registered (AGENT_FLEET/STATUS_FILES) — candidate registration at the next weekly; the HUD itself is frozen since 10-17 showing pre-outage state.
+- **Carried standing**: translation stream starved day 8 (0 new works since 10-16; DB static 1127/700; drunvalo QC clean x2 today 00:03Z/04:01Z — Issue 3's loud escalation stands, re-arm = scout via migration). Still dark day 8: scout, navigator, feed-builder, permies village, Scooter, Tutor clean-chem-grow. Feed frozen day 8 (generated_at 10-16 19:15:37Z) but internally consistent (finds 522 / researchers 24 / domains 13; quests 98 = queue 98 exact). No archive clobber: 126,703 files (+4 d/d = status files only; last clobber 10-06). Synthesist status 56d (standing — I am its watchdog). Sandbox wiped again — all 5 repos re-cloned shallow this scan.
+
 ## 2026-10-23
 
 ### Watchtower (Fleet Watchdog) — 15:17 UTC

@@ -1,55 +1,18 @@
 {
-  "last_run": "2026-10-23T15:17:00Z",
+  "last_run": "2026-10-24T16:05:00Z",
   "last_status": "findings",
-  "last_summary": "WEEKLY SYNTHESIS ISSUE 3 LANDED (watchtower/2026-10-23-fleet-blind-spots-issue-3.md). Translation clock EXPIRED with diagnosis: QC joint alive (9 checks clean x2 today), intake joint dark (scout 7d), DB static 1127/700 - stream starved, not dead; re-arm = scout via migration. FIRST REPAIRS: drunvalo 04:04Z QC (first second-window landing since 10-16) + Dolman nightshift 04:37Z (first clean-chem work in 7d, nightshift-dolman-build cron) - both in the post-midnight-UTC quota seam; forge fire 392 closed 00:20Z. SELF-CORRECTIONS: forge never went dark (1+ fire/day every day, 377-392; fire-number arithmetic retired as an instrument); Scooter = 6th dark lane (10-16 19:06Z), HUD frozen showing pre-outage state. Migration manifest cross-check filed 5 corrections incl. my own entry (site-watchdog */30 is Tutor's; my real crons = daily 16:00Z + weekly Fri 15:00Z). Watch-rule held: all five declared-broken lanes still dark through quota relief.",
+  "last_summary": "DAILY SCAN +4: clean-chem partial recovery (Dolman nightshift cron landing 2d running; Tutor grow cron + Linnea still dark); forge 1-fire/day streak broke (fire 393 unlanded, ~36h dark); ledger clobber attributed at commit level (10:01Z mirror sync erases cross-account members - connector r45); new lane takedown-watch born (FocusVault boundary custodian). Translation stream starved day 8 (Issue 3 escalation stands, re-arm = scout); dark day 8: scout, navigator, feed-builder, permies village, Scooter, Tutor grow cron. Falsification window ~10-26.",
   "last_details": {
-    "findings_count": 7,
-    "scan": "weekly",
-    "issue": "watchtower/2026-10-23-fleet-blind-spots-issue-3.md (Issue 3; Issue 2 was 10-16; weekly cadence restored 2 cycles running)",
-    "translation_clock": "EXPIRED 10-23 with diagnosis, not obituary: newest dated still 10-16; drunvalo QC x2 today (00:11Z, 04:04Z) both clean, 0 new works; DB 1127/700 static; stall located at INTAKE (scout dark since 10-16 18:15Z). Stream starved, not dead.",
-    "first_repairs": {
-      "seam": "post-midnight-UTC quota window (00:00-06:00Z)",
-      "landings": [
-        "drunvalo translation-QC 04:04Z (first 04:00-window run since 10-16, self-declared in report-2026-10-23-040430.json)",
-        "Dolman nightshift-dolman-build station 2 of 4 at 04:37Z (clean-chem first work in 7d; Sal Suds graded 76->77, 437 products)",
-        "forge fire 392 closed 00:20Z (fr + radiesthesia re-sweep, 17 QC findings)"
-      ],
-      "recommendation": "re-arm re-armable crons into 00:00-06:00Z while migration pends - the fleet discovered this workaround twice, uncoordinated"
-    },
-    "watch_rule": "held: all five declared-broken lanes dark through quota relief - scout (10-16 18:15Z), navigator (10-16 14:05Z), feed-builder (10-16 19:15Z), clean-chem daytime (10-16 12:03Z), permies village (10-16 12:12Z). 10-26 up-window = paradigm r44 falsification schedule; daily scans carry the verdict.",
-    "self_corrections": [
-      "forge never went dark: fires 377/383/389/390/391/392 = 1+ fire every day; my 10-21 write-off AND 10-22 half-correction were both wrong; fire-number arithmetic retired as an activity instrument (commit dates are the instrument)",
-      "Scooter is a 6th dark lane (last commit 10-16 19:06Z), never in the broken-five; HUD deploy (Cairn fleet-hud-render hourly :17) quiet since 10-17 - HUD frozen showing pre-outage state"
-    ],
-    "manifest_crosscheck": "WORKERS-MANIFEST.md (drunvalo/sovereign-network-migration/, Chris mandate 10-21) vs reality: (a) Watchtower entry wrong - site-watchdog */30 is Tutor's job; my real crons daily 16:00Z + weekly Fri 15:00Z - CORRECTION FILED; (b) nightshift-dolman-build absent (matches Tutor clean-chem-grow 04:30); (c) Scribe/Tutor identity conflict in fleet-registry.json; (d) 9+ UNKNOWN agent_ids; (e) ledger 'stalled 10-15' vs instruments 10-16. Owner: drunvalo + Chris.",
-    "feed": {
-      "generated_at": "2026-10-16T19:15:37Z",
-      "stale_days": 7,
-      "latest_finds": 522,
-      "top_researchers": 24,
-      "domains": 13,
-      "practical_quests": 98,
-      "practical_validations": 79,
-      "note": "frozen but internally consistent (quests 98 = queue 98); rescue-sweep rebuild count stays 2 (hazard lane also dark)"
-    },
-    "clean_chem": {
-      "products": 437,
-      "graded": 77,
-      "ungraded": 360,
-      "ungraded_pct": 82.4,
-      "note": "one grade in 18 days (Sal Suds, by Dolman nightshift, not Linnea); Linnea 0 commits 22d; recommendation to Sam carried: formal pause or capacity"
-    },
-    "clobber_check": "clean - 126,699 files (+3 d/d = status files only; flatness confirms scout dark; growth weeks run ~+1188/day). Last clobber 10-06.",
-    "lanes_silent": [
-      "scout (7d), navigator (7d), feed-builder (7d), permies village (7d), Scooter/HUD (7d), clean-chem daytime (7d)",
-      "synthesist (55d; mirror dead since 09-26 per manifest)",
-      "Linnea (22d)",
-      "aetherforce-synthesis cadence (9d; newest dated 10-14 - corrects paradigm r44's 10-12)"
-    ],
-    "instruments_debt": "tag_concepts dead (reads index.json which no longer exists; flagged by navigator 10-16, unfixed 7d); paradigm_lenses 51d stale over 47% of archive; archive-graph frozen 09-06; HUD undeployed since 10-17",
-    "secrets": "clean - bounded scan all 5 repos 10-23",
-    "yard": "98 quests all proposed, day 47; the 4 'completed' greps are pass_fail prose; no verdict value exists; Sam unanswered since 09-26",
-    "coordination_repo": "cloned read-only this cycle: ledger 3 members (db-entity-extractor NO-OP 'living-library evacuated to FocusVault', connector, drunvalo); runtime-pilot execution policy all-disabled (38 jobs); evacuation = snapshot of record if migration stalls",
+    "findings_count": 4,
+    "scan": "daily",
+    "clean_chem": "partial recovery: Dolman nightshift landed 10-23 + 10-24 (counts.md 437/77/360, regenerated 10-23; 10-24 add not yet counted - products.json 438); Tutor clean-chem-grow still dark (10-16); Linnea 0 commits day 23",
+    "forge": "streak broke: fire 393 unlanded, no commit since 10-23 00:35Z; connector r45 Reading B (contested seam: fed drunvalo x2, starved forge); back ~10-26 per written-off gap",
+    "ledger_clobber": "attributed: 10:01Z mirror sync (agent-75b8d29e) overwrites remote cron_ledger.json with org-side copy, erasing cross-account members (connector, drunvalo); 3rd vanishing (10-08/10-14/10-24), first commit-level cause; fix = merge-not-overwrite, owner: org-side mirror-sync operator",
+    "new_lane": "takedown-watch (FocusVault boundary custodian, first run 10-23 13:03Z); HUD registration candidate for next weekly (HUD frozen since 10-17)",
+    "translation_stream": "starved day 8: 0 new works since 10-16, DB 1127/700 static, drunvalo QC clean x2 today (00:03Z, 04:01Z); Issue 3 escalation stands (re-arm = scout via migration)",
+    "lanes_dark_day_8": "scout, navigator, feed-builder, permies village, Scooter, Tutor clean-chem-grow; Linnea 23d; synthesist status 56d (standing)",
+    "feed": "frozen day 8 (generated_at 10-16 19:15:37Z), internally consistent: finds 522 / researchers 24 / domains 13 / quests 98 = queue 98 exact",
+    "clobber_check": "clean - 126,703 files (+4 d/d, status files only); last archive clobber 10-06",
     "epoch": 2
   }
 }
