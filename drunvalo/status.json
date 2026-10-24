@@ -1,18 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-10-23T04:04:30Z",
+  "last_run": "2026-10-24T00:03:01Z",
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
-  "notes": "translation-QC clean run; feed unchanged since 10-16; no new Forge batch",
+  "notes": "translation-QC clean run; feed unchanged since 2026-10-16; tag_concepts dead (skipped)",
   "runs": [
-    {
-      "cron": "village-maintenance",
-      "timestamp": "2026-10-15T00:02:54Z",
-      "status": "ok",
-      "summary": "village-maintenance: 998 links checked (975 ok), 0 actionable (23 failures all known classes: anti-bot 403s, burst 429s, dead scraped forum-text links); added 2 library resources: Stone Barns Center + Soul Fire Farm; validators 5/5; village tip a524223 remote-verified"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-15T04:07:23Z",
@@ -66,8 +60,14 @@
       "timestamp": "2026-10-23T04:04:30Z",
       "status": "ok",
       "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 101 + containment 7 candidates, 0 folds (all known no-fold families); 0 new Forge works, feed unchanged since 2026-10-16; tag_concepts skipped (dead); DB 1127 works / 700 persons"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-24T00:03:01Z",
+      "status": "ok",
+      "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 18 candidates all known no-fold families, 0 folds; 0 new Forge works, feed unchanged since 2026-10-16; tag_concepts skipped (dead); DB 1127 works / 700 persons"
     }
   ],
-  "timestamp": "2026-10-23T04:04:30Z",
+  "timestamp": "2026-10-24T00:03:01Z",
   "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0); title-sim 0 + containment 4 candidates all known no-fold families; 0 new Forge works (feed unchanged since 10-16 evening batch, f"
 }
