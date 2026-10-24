@@ -1,0 +1,31 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-24T00:03:01Z",
+  "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 18 candidates all known no-fold families, 0 folds; 0 new Forge works, feed unchanged since 2026-10-16; tag_concepts skipped (dead); DB 1127 works / 700 persons",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "checks": [
+      "same-file dupes",
+      "unknown dates",
+      "junk ids",
+      "dangling cross_refs",
+      "dangling person refs",
+      "feed mojibake (scoped)",
+      "feed same-file dupes",
+      "title-similarity + containment",
+      "date-gated feed-vs-DB scan"
+    ],
+    "new_works": 0,
+    "new_persons": 0,
+    "folds": 0,
+    "fixes": 0,
+    "db_state": {
+      "works": 1127,
+      "persons": 700
+    },
+    "feed_newest": "2026-10-16",
+    "tag_concepts": "skipped (dead - reads index.json which no longer exists)",
+    "note": "feed unchanged since 2026-10-16 evening batch; Forge lane silent since the account-wide quota blackout; DB shas unchanged since 2026-10-23 00:11Z"
+  }
+}
