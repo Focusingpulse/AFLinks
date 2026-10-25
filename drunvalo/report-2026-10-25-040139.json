@@ -1,0 +1,32 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-25T04:01:39Z",
+  "cron": "aetherforce-translation-qc",
+  "status": "ok",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "files_modified": [],
+  "details": {
+    "checks_run": [
+      "same-file-dupes",
+      "dangling-cross-refs",
+      "junk-person-ids",
+      "unknown-dates",
+      "dangling-person-refs",
+      "junk-work-ids",
+      "feed-mojibake-scoped",
+      "feed-same-file",
+      "feed-db-completeness",
+      "title-similarity",
+      "containment"
+    ],
+    "issues_found": 0,
+    "issues_fixed": 0,
+    "db_entries_added": 0,
+    "works": 1127,
+    "persons": 700,
+    "new_forge_works": 0,
+    "feed_newest": "2026-10-16",
+    "notes": "All standing checks clean. Title-sim 30 + containment 4 candidates, 0 folds - all known no-fold families (Shipov ru cluster, Risy notes series, Statskevich parts, beseda-7/11, arakelyan debate pair, sr Tesla pair). Feed unchanged since 2026-10-16 evening batch; Forge lane still silent since quota blackout. tag_concepts.py skipped (dead - reads index.json which no longer exists). translations/ empty by design per publish boundary. DB unchanged at 1127/700.",
+    "tag_concepts": "skipped-dead"
+  }
+}
