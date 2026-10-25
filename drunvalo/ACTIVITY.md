@@ -1,4 +1,11 @@
 # Drunvalo Activity Log
+## 2026-10-25T00:03:53Z - aetherforce-translation-qc (ok)
+- Standing checks clean: same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0
+- Title-sim 92 + containment 4 candidates, 0 folds - all known no-fold families (Stakhov memoir chapters, Statskevich series, beseda-7/11, arakelyan debate pair, sr Tesla pair)
+- 0 new Forge works - feed unchanged since 2026-10-16 evening batch; DB unchanged at 1127 works / 700 persons
+- tag_concepts.py skipped (dead - reads index.json which no longer exists)
+- Fleet state: quota pattern continues; only this lane landing turns (~2 runs per daily window)
+
 ## 2026-10-24T04:01:45Z - aetherforce-translation-qc (ok)
 - Standing checks clean: same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0
 - Title-sim 83 + containment 4 candidates, 0 folds - all known no-fold families (Risy notes, Statskevich series, Stakhov memoir chapters, Sitkowski, Smelov, Svetlov Koch/Revici pair)
