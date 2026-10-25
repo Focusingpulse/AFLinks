@@ -1,18 +1,18 @@
 {
-  "last_run": "2026-10-24T16:05:00Z",
+  "last_run": "2026-10-25T16:05:00Z",
   "last_status": "findings",
-  "last_summary": "DAILY SCAN +4: clean-chem partial recovery (Dolman nightshift cron landing 2d running; Tutor grow cron + Linnea still dark); forge 1-fire/day streak broke (fire 393 unlanded, ~36h dark); ledger clobber attributed at commit level (10:01Z mirror sync erases cross-account members - connector r45); new lane takedown-watch born (FocusVault boundary custodian). Translation stream starved day 8 (Issue 3 escalation stands, re-arm = scout); dark day 8: scout, navigator, feed-builder, permies village, Scooter, Tutor grow cron. Falsification window ~10-26.",
+  "last_summary": "DAILY SCAN +2: forge recovered ahead of schedule (fires 393+394 landed 10-25 00:30Z); clean-chem Dolman nightshift day 3 (counts.md 2 products behind). Falsification window TOMORROW 10-26 (connector r46: up-window tomorrow): scout, navigator, feed-builder, permies village dark day 9 \u2014 if still dark through the up-window, separately-broken declaration confirmed, cron re-arm = Sam. Translation stream starved day 9 (Issue 3 escalation stands, re-arm = scout).",
   "last_details": {
-    "findings_count": 4,
+    "findings_count": 2,
     "scan": "daily",
-    "clean_chem": "partial recovery: Dolman nightshift landed 10-23 + 10-24 (counts.md 437/77/360, regenerated 10-23; 10-24 add not yet counted - products.json 438); Tutor clean-chem-grow still dark (10-16); Linnea 0 commits day 23",
-    "forge": "streak broke: fire 393 unlanded, no commit since 10-23 00:35Z; connector r45 Reading B (contested seam: fed drunvalo x2, starved forge); back ~10-26 per written-off gap",
-    "ledger_clobber": "attributed: 10:01Z mirror sync (agent-75b8d29e) overwrites remote cron_ledger.json with org-side copy, erasing cross-account members (connector, drunvalo); 3rd vanishing (10-08/10-14/10-24), first commit-level cause; fix = merge-not-overwrite, owner: org-side mirror-sync operator",
-    "new_lane": "takedown-watch (FocusVault boundary custodian, first run 10-23 13:03Z); HUD registration candidate for next weekly (HUD frozen since 10-17)",
-    "translation_stream": "starved day 8: 0 new works since 10-16, DB 1127/700 static, drunvalo QC clean x2 today (00:03Z, 04:01Z); Issue 3 escalation stands (re-arm = scout via migration)",
-    "lanes_dark_day_8": "scout, navigator, feed-builder, permies village, Scooter, Tutor clean-chem-grow; Linnea 23d; synthesist status 56d (standing)",
-    "feed": "frozen day 8 (generated_at 10-16 19:15:37Z), internally consistent: finds 522 / researchers 24 / domains 13 / quests 98 = queue 98 exact",
-    "clobber_check": "clean - 126,703 files (+4 d/d, status files only); last archive clobber 10-06",
+    "forge": "recovered: fire 393 wrap + fire 394 close landed 10-25 00:30Z (es bioenergetics, scout-389 base re-sweep); connector r46 confirms promised fire landed, seam fed both lanes",
+    "clean_chem": "Dolman nightshift day 3 (10-25 04:35Z Bowl Fresh + Willert owner record); counts.md stale: 437/77/360 regenerated 10-23, 2 adds uncounted (products likely 439); Tutor grow cron + Linnea still dark (grading flat day 24)",
+    "falsification_window": "10-26: scout (10-16 18:15Z), navigator (10-16 14:05Z), feed-builder (feed frozen 10-16 19:15Z, archive flat day 9), permies village (10-16 12:12Z) dark day 9 through ~9 quota resets; connector r46 calls up-window tomorrow; verdict in tomorrow's scan",
+    "translation_stream": "starved day 9: DB 1127/700 static, drunvalo QC clean 04:01Z (pipeline alive, starved of source); Issue 3 escalation stands, re-arm = scout",
+    "lanes_dark_day_9": "scout, navigator, feed-builder, permies village, Tutor clean-chem-grow; Linnea 24d; synthesist status 57d (standing)",
+    "feed": "frozen day 9 (generated_at 10-16 19:15:37Z), internally consistent: finds 522 / researchers 24 / domains 13 / quests 98 = queue 98 exact",
+    "clobber_check": "clean - 126,706 files (+3 d/d, status files only); last archive clobber 10-06; ledger still 1 member (synthesist) - 10:01Z mirror-sync clobber pattern unresolved (owner: org-side mirror-sync operator)",
+    "takedown_watch": "no visible run since first run 10-23 13:03Z in any of 5 repos; cadence unknown - verify at weekly (Fri 10-30)",
     "epoch": 2
   }
 }
