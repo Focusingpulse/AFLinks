@@ -1,18 +1,17 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-10-25T00:03:53Z",
+  "last_run": {
+    "cron": "aetherforce-translation-qc",
+    "timestamp": "2026-10-25T04:01:39Z",
+    "status": "ok",
+    "summary": "Clean run: all standing checks 0, 0 folds, 0 new works (feed unchanged since 10-16), DB 1127/700."
+  },
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
   "notes": "standing checks clean; 0 new works; feed unchanged since 10-16",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-15T20:15:30Z",
-      "status": "ok",
-      "summary": "QC clean (0 dupes, 0 dangling refs, 0 mojibake); +49 works from Forge's Oct-15 batch (Stakhov/golden-section scene x34, Kovalenko water/form-effect x4, torsion x4, radiesthesia x3, LENR/ether/compendium/torkado x4); +17 persons; kovalenko enriched to Viktor F. Kovalenko; komarov-vm distinct from komarov-sm; nikitin-av identity note; 3 memoir URLs backfilled via trinitas sequential probing; tag_concepts skipped (dead). DB: 1076 works / 681 persons."
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-16T04:06:08Z",
@@ -66,8 +65,14 @@
       "timestamp": "2026-10-25T00:03:53Z",
       "status": "ok",
       "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-25T04:01:39Z",
+      "status": "ok",
+      "summary": "Clean run: all standing checks 0, 0 folds, 0 new works (feed unchanged since 10-16), DB 1127/700."
     }
   ],
-  "timestamp": "2026-10-25T00:03:53Z",
+  "timestamp": "2026-10-25T04:01:39Z",
   "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds"
 }
