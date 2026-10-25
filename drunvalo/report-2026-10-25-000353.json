@@ -1,0 +1,30 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-25T00:03:53Z",
+  "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds",
+  "status": "ok",
+  "files_modified": [
+    "database/"
+  ],
+  "details": {
+    "checks": [
+      "same-file dupes 0",
+      "unknown dates 0",
+      "junk person ids 0",
+      "dangling cross_refs 0",
+      "dangling person refs 0",
+      "feed mojibake 0 (scoped latest_translations/latest_finds)",
+      "feed same-file dupes 0"
+    ],
+    "title_similarity": "92 candidates, 0 folds - Stakhov memoir chapter cluster + Statskevich morphogenesis series (known no-fold families)",
+    "containment": "4 candidates, 0 folds - beseda-7/11, statskevich part6/part11, arakelyan debate pair, sr Tesla pair (all previously verified distinct/cross-linked)",
+    "new_works": 0,
+    "feed_state": "unchanged since 2026-10-16 evening batch (938 latest_translations, newest 10-16); all 46 entries dated >= 10-15 verified in DB",
+    "tag_concepts": "skipped (dead - reads index.json which no longer exists)",
+    "db_sizes": {
+      "works": 1127,
+      "persons": 700
+    },
+    "notes": "Quota pattern: only this lane landing turns; ~2 QC runs per daily window ceiling. Sandbox reset - workspace + api.py rebuilt."
+  }
+}
