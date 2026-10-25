@@ -1,18 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-10-24T04:01:45Z",
+  "last_run": "2026-10-25T00:03:53Z",
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
-  "notes": "translation-QC clean run; feed unchanged since 2026-10-16; tag_concepts dead (skipped)",
+  "notes": "standing checks clean; 0 new works; feed unchanged since 10-16",
   "runs": [
-    {
-      "cron": "village-quality-audit",
-      "timestamp": "2026-10-15T12:04:11Z",
-      "status": "ok",
-      "summary": "clean: 261 quests/0 malformed, translations 259/259 x3 langs, master 429, markers 67/67, validators 5/5, links 1002/979, 0 actionable, no fixes"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-15T20:15:30Z",
@@ -66,8 +60,14 @@
       "timestamp": "2026-10-24T04:01:45Z",
       "status": "ok",
       "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works 700 persons; title-sim 83 + containment 4 candidates, 0 folds, all known no-fold families; tag_concepts skipped dead"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-25T00:03:53Z",
+      "status": "ok",
+      "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds"
     }
   ],
-  "timestamp": "2026-10-24T04:01:45Z",
-  "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works 700 persons; title-sim 83 + containment 4 candidates, 0 folds, all known no-fold families; tag_concepts skipped dead"
+  "timestamp": "2026-10-25T00:03:53Z",
+  "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds"
 }
