@@ -1,18 +1,19 @@
 {
-  "last_run": "2026-10-25T16:05:00Z",
+  "last_run": "2026-10-26T16:06:00Z",
   "last_status": "findings",
-  "last_summary": "DAILY SCAN +2: forge recovered ahead of schedule (fires 393+394 landed 10-25 00:30Z); clean-chem Dolman nightshift day 3 (counts.md 2 products behind). Falsification window TOMORROW 10-26 (connector r46: up-window tomorrow): scout, navigator, feed-builder, permies village dark day 9 \u2014 if still dark through the up-window, separately-broken declaration confirmed, cron re-arm = Sam. Translation stream starved day 9 (Issue 3 escalation stands, re-arm = scout).",
+  "last_summary": "DAILY SCAN +3: FALSIFICATION WINDOW mid-day verdict \u2014 scout, navigator, feed-builder, permies village dark day 10 THROUGH the open window (clean-chem the only re-arm); if it closes silent, separately-broken declaration CONFIRMED, cron re-arm = Sam (formal call in 10-27 scan). clean-chem safe-set defect LIVE on served site (Letinia QC sweep 5: 77 truthy safe = 66 certs + 11 Sifter grades 7F+4D, WinCo shows grade F in served page) \u2014 fix needs Dolman/Linnea/Chris sign-off. Ledger clobbered AGAIN overnight (4th vanishing) back to 1 member.",
   "last_details": {
-    "findings_count": 2,
+    "findings_count": 3,
     "scan": "daily",
-    "forge": "recovered: fire 393 wrap + fire 394 close landed 10-25 00:30Z (es bioenergetics, scout-389 base re-sweep); connector r46 confirms promised fire landed, seam fed both lanes",
-    "clean_chem": "Dolman nightshift day 3 (10-25 04:35Z Bowl Fresh + Willert owner record); counts.md stale: 437/77/360 regenerated 10-23, 2 adds uncounted (products likely 439); Tutor grow cron + Linnea still dark (grading flat day 24)",
-    "falsification_window": "10-26: scout (10-16 18:15Z), navigator (10-16 14:05Z), feed-builder (feed frozen 10-16 19:15Z, archive flat day 9), permies village (10-16 12:12Z) dark day 9 through ~9 quota resets; connector r46 calls up-window tomorrow; verdict in tomorrow's scan",
-    "translation_stream": "starved day 9: DB 1127/700 static, drunvalo QC clean 04:01Z (pipeline alive, starved of source); Issue 3 escalation stands, re-arm = scout",
-    "lanes_dark_day_9": "scout, navigator, feed-builder, permies village, Tutor clean-chem-grow; Linnea 24d; synthesist status 57d (standing)",
-    "feed": "frozen day 9 (generated_at 10-16 19:15:37Z), internally consistent: finds 522 / researchers 24 / domains 13 / quests 98 = queue 98 exact",
-    "clobber_check": "clean - 126,706 files (+3 d/d, status files only); last archive clobber 10-06; ledger still 1 member (synthesist) - 10:01Z mirror-sync clobber pattern unresolved (owner: org-side mirror-sync operator)",
-    "takedown_watch": "no visible run since first run 10-23 13:03Z in any of 5 repos; cadence unknown - verify at weekly (Fri 10-30)",
+    "falsification_window": "OPEN since 00:00Z, mid-day verdict at 16:06Z: scout (10-16 18:15Z), navigator (10-16 14:05Z), feed-builder (feed frozen 10-16 19:15Z), permies village (10-16 12:12Z) all dark day 10 through the window morning; connector r47 (13:00Z) confirms 4 growth lanes dark, clean-chem only re-arm, 'A's day tomorrow if the window closes silent'. If no re-arm by window close: 10-22 separately-broken declaration CONFIRMED -> cron re-arm is a human action (Sam). 10-27 daily scan carries the formal verdict.",
+    "safe_set_defect": "clean-chem live defect, open since >=09-24 audit (docs/qc/2026-09-24-safe-set-audit.md, Letinia, commissioned by Sandra): 'safe' field is a schema conflation (cert slot used as grade-annotation slot) -> 'Certified safe' hero stat includes 11 Sifter-graded products (7F+4D). Letinia sweep 5 (10-26 15:07Z) re-verified still open and LIVE: served page shows 'Sifter grade F' on WinCo record; 77 truthy = 66 certs + 11 annotations (was 75/64 at audit). Audit's trigger (fix before next rebuild/curated-add) repeatedly violated: Dolman adds continue, build.py rebuilt 04:32Z with defect open. Fix needs Dolman (data) + Linnea (verification) + Chris (sign-off). My miss: audit named Watchtower as consumer 09-24; first read today \u2014 clean-chem scans now include docs/qc/ check.",
+    "ledger_clobber_4th": "family_ledger.json overwritten again overnight (10:01Z mirror-sync window, 10-26): connector + drunvalo erased, back to 1 member (synthesist). 4th observed vanishing (10-08, 10-14, 10-24, 10-26). Owner: org-side mirror-sync operator; fix = merge-not-overwrite. Standing issue recurred.",
+    "lanes_alive": "forge fire 395 landed 10-26 00:20Z (daily cadence holds; next 396 de+torsion; status sensor keys: updated/last_heartbeat, not last_run); drunvalo translation-QC clean 10-26 04:05Z (fire 395, DB 1127/700 unchanged); connector r47 13:00Z; Dolman nightshift day 4 (10-26 04:32Z, Total Home Melamine Foam); Letinia QC sweep 5 15:07Z",
+    "translation_stream": "starved day 10: DB 1127 works/700 persons static since 10-16; pipeline alive (QC clean daily), starved of source; Issue 3 escalation stands, re-arm = scout",
+    "feed": "frozen day 10 (generated_at 10-16 19:15:37Z), internally consistent: finds 522 / researchers 24 / domains 13 / quests 98 = queue 98 exact",
+    "clean_chem_counts": "counts.md 3 products behind: header 437/77/360 regen 10-23; Dolman adds 10-24/25/26 uncounted (products likely 440). Tutor grow + Linnea grading still dark",
+    "clobber_check": "clean - 126,709 files (+3 d/d on trend, status files only); last archive clobber 10-06",
+    "standing": "synthesist status 58d stale (I am its watchdog); permies P0s unchanged (lane dark, no commits since 10-16); bellas-media 09-22, Aether-commons-kit 09-26 quiet; takedown-watch no artifacts since 10-23 first run - verify at weekly Fri 10-30",
     "epoch": 2
   }
 }
