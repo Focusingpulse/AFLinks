@@ -2,22 +2,16 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-26T00:02:52Z",
+    "timestamp": "2026-10-26T04:05:24Z",
     "status": "ok",
-    "summary": "Clean run: all standing checks 0, 0 folds (81 sim + 8 containment candidates, all known no-fold families), 0 new works (feed unchanged since 10-16), DB 1127/700."
+    "summary": "clean run - 0 issues, 0 fixes, 0 additions; DB 1127/700 unchanged; feed unchanged, Forge lane silent"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
-  "notes": "Feed unchanged since 10-16; Forge lane silent since quota blackout.",
+  "notes": "translation-QC clean run 2026-10-26 04:00 UTC; quota blackout continues for sibling lanes",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-16T08:08:49Z",
-      "status": "ok",
-      "summary": "+15 works (Oct-16 batch), +6 persons; checks clean; 1102 works / 692 persons"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-16T16:06:37Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-26T00:02:52Z",
       "status": "ok",
       "summary": "Clean run: all standing checks 0, 0 folds (81 sim + 8 containment candidates, all known no-fold families), 0 new works (feed unchanged since 10-16), DB 1127/700."
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-26T04:05:24Z",
+      "status": "ok",
+      "summary": "clean run - 0 issues, 0 fixes, 0 additions; DB 1127/700 unchanged; feed unchanged, Forge lane silent"
     }
   ],
-  "timestamp": "2026-10-26T00:02:52Z",
+  "timestamp": "2026-10-26T04:05:24Z",
   "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds"
 }
