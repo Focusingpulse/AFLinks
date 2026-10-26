@@ -1,0 +1,33 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-26T04:05:15Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "checks_run": [
+      "same-file-dupes",
+      "dangling-cross-refs",
+      "junk-person-ids",
+      "unknown-dates",
+      "dangling-person-refs",
+      "feed-mojibake-scoped",
+      "feed-same-file-dupes",
+      "feed-vs-db-completeness",
+      "title-similarity",
+      "containment"
+    ],
+    "issues_found": 0,
+    "issues_fixed": 0,
+    "works_added": 0,
+    "persons_added": 0,
+    "db_state": "1127 works / 700 persons, unchanged since 2026-10-23 00:11Z pushes",
+    "feed_state": "938 latest_translations, newest 2026-10-16, unchanged; Forge lane silent since quota blackout",
+    "title_sim_candidates": 112,
+    "containment_candidates": 39,
+    "folds": 0,
+    "candidate_note": "all candidates in known no-fold families (Risy notes, Statskevich series, Stakhov memoir cluster, Wikipedia language pairs, debate pairs, cross-linked pairs)",
+    "tag_concepts": "skipped (dead - reads index.json which no longer exists)",
+    "quota_note": "second run in the 10-26 daily window; sibling lanes still silent since 2026-10-16 blackout"
+  }
+}
