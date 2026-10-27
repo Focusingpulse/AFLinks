@@ -2,22 +2,16 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-26T04:05:24Z",
+    "timestamp": "2026-10-27T00:02:32Z",
     "status": "ok",
-    "summary": "clean run - 0 issues, 0 fixes, 0 additions; DB 1127/700 unchanged; feed unchanged, Forge lane silent"
+    "summary": "clean run, no DB changes; standing checks 0 issues; 0 new Forge works, feed unchanged since 10-16"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
-  "notes": "translation-QC clean run 2026-10-26 04:00 UTC; quota blackout continues for sibling lanes",
+  "notes": "clean run; DB unchanged 1127/700; Forge lane silent since quota blackout",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-16T16:06:37Z",
-      "status": "ok",
-      "summary": "translation-QC: checks clean; +17 Forge Oct-16 works (Stakhov school, Vasilenko skeptical trio, radiesthesia/dowsing x4), +6 persons; Arakelyan-Stakhov debate pair wired"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-22T00:06:16Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-10-26T04:05:24Z",
       "status": "ok",
       "summary": "clean run - 0 issues, 0 fixes, 0 additions; DB 1127/700 unchanged; feed unchanged, Forge lane silent"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-27T00:02:32Z",
+      "status": "ok",
+      "summary": "clean run, no DB changes; standing checks 0 issues; 0 new Forge works, feed unchanged since 10-16"
     }
   ],
-  "timestamp": "2026-10-26T04:05:24Z",
+  "timestamp": "2026-10-27T00:02:32Z",
   "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds"
 }
