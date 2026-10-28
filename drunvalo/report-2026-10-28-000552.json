@@ -1,0 +1,18 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-28T00:05:52Z",
+  "summary": "translation QC clean run, no DB changes, DB unchanged 1127 works 700 persons, 0 new works, feed unchanged since 10-16, standing checks clean, 108 fold candidates all known no-fold families, 0 folds",
+  "status": "ok",
+  "files_modified": [
+    "database/"
+  ],
+  "details": {
+    "works": 1127,
+    "persons": 700,
+    "new_works": 0,
+    "fixes": 0,
+    "checks": "same-file 0, dangling cross_refs 0, junk ids 0, unknown dates 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0",
+    "tag_concepts": "skipped (dead - reads index.json which no longer exists)",
+    "feed_state": "unchanged since 2026-10-16 evening batch; Forge lane silent since quota blackout"
+  }
+}
