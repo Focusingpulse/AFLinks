@@ -1,23 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": {
-    "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-10-27T00:02:32Z",
-    "status": "ok",
-    "summary": "clean run, no DB changes; standing checks 0 issues; 0 new Forge works, feed unchanged since 10-16"
-  },
+  "last_run": "2026-10-28T00:05:52Z",
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
-  "notes": "clean run; DB unchanged 1127/700; Forge lane silent since quota blackout",
+  "notes": "translation QC clean run; DB unchanged; feed unchanged since 10-16",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-22T00:06:16Z",
-      "status": "ok",
-      "summary": "translation-QC: standing checks clean; +8 works from Forge Oct-16 evening batch (Shenyagin x2, Fomichev, Ivanus, Vasilenko, Stakhov memoir 7.7/7.8, Erokhov), +2 persons, hub+synthesis wired; 1127 works / 700 persons"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-23T00:11:00Z",
@@ -71,8 +60,14 @@
       "timestamp": "2026-10-27T00:02:32Z",
       "status": "ok",
       "summary": "clean run, no DB changes; standing checks 0 issues; 0 new Forge works, feed unchanged since 10-16"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-28T00:05:52Z",
+      "status": "ok",
+      "summary": "translation QC clean run, no DB changes, DB unchanged 1127 works 700 persons, 0 new works, feed unchanged since 10-16, standing checks clean, 108 fold candidates all known no-fold families, 0 folds"
     }
   ],
-  "timestamp": "2026-10-27T00:02:32Z",
+  "timestamp": "2026-10-28T00:05:52Z",
   "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds"
 }
