@@ -1,5 +1,10 @@
 # Drunvalo Activity Log
 
+## 2026-10-28T00:05:52Z - aetherforce-translation-qc (ok)
+- translation QC clean run, no DB changes, DB unchanged 1127 works 700 persons, 0 new works, feed unchanged since 10-16, standing checks clean, 108 fold candidates all known no-fold families, 0 folds
+- DB 1127 works / 700 persons, 0 new works, feed unchanged since 10-16
+- tag_concepts skipped (dead)
+
 ## 2026-10-27T00:02:32Z - aetherforce-translation-qc (ok)
 Clean run, no DB changes. DB unchanged 1127/700 (own 10-23 shas; untouched 4 days). Standing checks all 0 (same-file, dangling refs, junk ids, unknown dates, feed mojibake scoped, feed same-file). Title-sim 0; containment 3 known no-fold families. 0 new Forge works - feed unchanged since 10-16. tag_concepts skipped (dead).
 
