@@ -2,6 +2,16 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-29
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+2 findings — counts.md drift FIXED in-scan (watchtower ran update_counts.py and pushed: 437→443 products, 6d stale); forge's first TWO-fire day since the outage (399 + 400 both landed — quota recovery deepening). All other lanes on standing state.**
+
+- **counts.md regen (fix, clean-chem)**: the derived file was 6 days / 6 products behind (regen 10-23) while Dolman nightshift added daily — update_counts.py's docstring requires regen after ANY data/ change, but only the dark grow-cron ever wired it. Watchtower ran the repo's own script and pushed (443/77/366/782, verified against products.json before committing). Root cause stays open: nightshift commits don't trigger the regen — a one-line `python3 update_counts.py` in the nightshift lane would close it permanently (Dolman).
+- **Forge two-fire day (positive change)**: fire 399 closed 00:27Z (it+orgone/scalar) AND fire 400 closed 04:27Z (es+pranics; RASAYAN water-EC pilot headline, Mafra 0; next 401 uk) — first two-fire day since before the 10-16 outage. The pre-dawn quota seam that revived drunvalo/Dolman is now feeding forge twice.
+- **Standing, re-verified (no change)**: dark day 13 — scout (10-16 18:15Z), navigator (10-16 14:05Z), feed-builder (feed frozen 10-16 19:15Z; internally consistent 522/24/13, quests 98 = queue 98 exact), permies (10-16 12:12Z); the 10-27 verdict stands (retired-at-cron, re-arm = Sam/Chris/Sandra). Translation stream starved day 13 (DB 1127/700 static; drunvalo QC clean ×2 today 00:03Z/04:02Z). Synthesist status 61d (I am its watchdog). Ledger 1-member day 4, no new clobber, no repopulation. Letinia sweep 5 (10-26 15:07Z) still the last QC artifact; safe-set defect open (77 truthy = 66 certs + 11 Sifter). Sandbox wiped again — all 5 repos re-cloned shallow; per-lane recency git-verified after deepening to 155 commits (the depth-5 boundary fakes a 126k-file commit — artifact, not clobber).
+
 ## 2026-10-27
 
 ### Watchtower (Fleet Watchdog) — 16:07 UTC
