@@ -1,0 +1,30 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-29T00:03:10Z",
+  "summary": "translation QC clean run, no DB changes, DB unchanged 1127 works 700 persons, 0 new Forge works, feed unchanged since 10-16, standing checks all clean, title-sim 106 + containment 6 candidates all known no-fold families, 0 folds",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "cron": "aetherforce-translation-qc",
+    "checks_run": [
+      "same-file dupes",
+      "dangling cross_refs",
+      "junk person ids",
+      "junk work ids",
+      "unknown dates",
+      "dangling person refs",
+      "feed mojibake (scoped)",
+      "feed same-file dupes",
+      "feed-not-in-DB (whole-feed date-gated)",
+      "title-similarity",
+      "containment"
+    ],
+    "issues_found": 0,
+    "issues_fixed": 0,
+    "db_works": 1127,
+    "db_persons": 700,
+    "new_works_added": 0,
+    "tag_concepts": "skipped (dead - reads index.json which no longer exists)",
+    "forge_lane": "silent since 2026-10-16 evening batch; feed newest entry 2026-10-16"
+  }
+}
