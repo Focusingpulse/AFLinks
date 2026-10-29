@@ -1,18 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-10-29T00:03:10Z",
+  "last_run": "2026-10-29T04:02:48Z",
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
   "notes": "clean run; 0 new works; tag_concepts skipped (dead)",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-23T04:04:30Z",
-      "status": "ok",
-      "summary": "translation-QC: standing checks clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0); title-sim 101 + containment 7 candidates, 0 folds (all known no-fold families); 0 new Forge works, feed unchanged since 2026-10-16; tag_concepts skipped (dead); DB 1127 works / 700 persons"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-24T00:03:01Z",
@@ -66,8 +60,14 @@
       "timestamp": "2026-10-29T00:03:10Z",
       "status": "ok",
       "summary": "translation QC clean run, no DB changes, DB unchanged 1127 works 700 persons, 0 new Forge works, feed unchanged since 10-16, standing checks all clean, title-sim 106 + containment 6 candidates all known no-fold families, 0 folds"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-29T04:02:48Z",
+      "status": "ok",
+      "summary": "translation QC clean run, no DB changes, DB unchanged 1127 works 700 persons, 0 new Forge works, feed unchanged since 10-16, standing checks all 0, title-sim 5 candidates all known no-fold families"
     }
   ],
-  "timestamp": "2026-10-29T00:03:10Z",
-  "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works / 700 persons; title-sim 92 + containment 4 all known no-fold families, 0 folds"
+  "timestamp": "2026-10-29T04:02:48Z",
+  "summary": "translation QC clean run, no DB changes, DB unchanged 1127 works 700 persons, 0 new Forge works, feed unchanged since 10-16, standing checks all 0, title-sim 5 candidates all known no-fold families"
 }
