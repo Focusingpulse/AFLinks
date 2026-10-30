@@ -1,18 +1,12 @@
 {
   "agent": "drunvalo",
-  "last_run": "2026-10-30T00:02:51Z",
+  "last_run": "2026-10-30T04:03:01Z",
   "job": "aetherforce-translation-qc",
   "status": "ok",
   "persons": 700,
   "works": 1127,
-  "notes": "clean QC run; all standing checks 0; no new Forge works",
+  "notes": "translation QC clean run: standing checks all 0 (same-file dupes, dangling cross-refs, junk ids, unknown dates, person refs, feed mojibake scoped, feed dupes, feed-not-in-DB); title-sim 100 high-ratio candidates all known no-fold families (Statskevich series, Stakhov memoir cluster, Smelov, Sitkowski, Svetlov, Shipov beseda, jenkins/norman, quietsphere, cross-linked pairs); 0 DB changes - DB 1127/700 unchanged since 10-23, Forge lane silent since 10-16 quota blackout; tag_concepts skipped (dead).",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-24T04:01:45Z",
-      "status": "ok",
-      "summary": "translation-QC: standing checks clean; 0 new works, feed unchanged since 10-16; DB 1127 works 700 persons; title-sim 83 + containment 4 candidates, 0 folds, all known no-fold families; tag_concepts skipped dead"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-25T00:03:53Z",
@@ -66,8 +60,14 @@
       "timestamp": "2026-10-30T00:02:51Z",
       "status": "ok",
       "summary": "clean run, no DB changes; DB 1127/700 unchanged; Forge lane silent since 10-16"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-10-30T04:03:01Z",
+      "status": "ok",
+      "summary": "translation QC clean run: standing checks all 0 (same-file dupes, dangling cross-refs, junk ids, unknown dates, person refs, feed mojibake scoped, feed dupes, feed-not-in-DB); title-sim 100 high-ratio candidates all known no-fold families (Statskevich series, Stakhov memoir cluster, Smelov, Sitkowski, Svetlov, Shipov beseda, jenkins/norman, quietsphere, cross-linked pairs); 0 DB changes - DB 1127/700 unchanged since 10-23, Forge lane silent since 10-16 quota blackout; tag_concepts skipped (dead)."
     }
   ],
-  "timestamp": "2026-10-30T00:02:51Z",
+  "timestamp": "2026-10-30T04:03:01Z",
   "summary": "translation QC clean run, no DB changes, DB unchanged 1127 works 700 persons, 0 new Forge works, feed unchanged since 10-16, standing checks all 0, title-sim 5 candidates all known no-fold families"
 }
