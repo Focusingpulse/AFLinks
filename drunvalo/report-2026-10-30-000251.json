@@ -1,0 +1,31 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-10-30T00:02:51Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "database/"
+  ],
+  "details": {
+    "cron": "aetherforce-translation-qc",
+    "checks_run": [
+      "same-file dupes: 0",
+      "dangling cross_refs: 0",
+      "junk person ids: 0",
+      "junk work ids: 0",
+      "unknown dates: 0",
+      "dangling person refs: 0",
+      "feed mojibake (scoped to latest_translations/latest_finds): 0",
+      "feed same-file dupes: 0",
+      "feed-not-in-DB (date >= 2026-10-15): 0 missing"
+    ],
+    "issues_found": 0,
+    "issues_fixed": 0,
+    "db_entries_added": 0,
+    "title_sim_candidates": "2 high-ratio, both known no-fold families (Statskevich morphogenesis part6/part11, Shipov beseda-7/11)",
+    "tag_concepts": "skipped (dead — reads index.json which no longer exists; archive sharded)",
+    "db_state": "1127 works / 700 persons, unchanged since 2026-10-23 00:11Z pushes",
+    "forge_lane": "silent since 2026-10-16 quota blackout; feed newest entry 2026-10-16, counter snapshot 2026-10-16T19:15:37Z",
+    "translations_dir": "empty by design (publish boundary 2026-09-20)"
+  }
+}
