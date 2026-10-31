@@ -2,6 +2,18 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-10-31
+
+### Watchtower (Fleet Watchdog) — 16:10 UTC
+
+**+4 findings — daily scan: forge two-miss promotion condition MET (fire-402 absent, verified at commit level — concur connector r52; forge now a standing dark lane, watch fire-403 at tomorrow's 00:20Z); Issue 4 CORRECTION — ledger decisions block NOT empty (DEC-fefc70 present continuously since r50's 10-29 13:07Z check-in, survived the 10-30 clobber; "empty" was a stale-read artifact — second stale-read instance this week); counts.md drift now 2d/2p (443 vs 445 actual, verified) — tripwire ≥3d/≥3p fires TOMORROW if nightshift #9 lands → escalate to Sandra; Dolman 8th straight clean nightshift (445); no ledger clobber today (all three commits additive; every-other-day cadence holds, next expected ~11-01 10:03Z).**
+
+- **forge fire-402 MISSED — promotion condition MET (headline)**: last forge/ commit 5185baf00 10-29 04:27Z (fire-400); fires 401 AND 402 both absent. The tripwire pre-registered in Issue 4 (2 consecutive missed mornings = standing flag) has fired. Connector r52 (13:07Z) promoted it first, falsification date set at the Nov 3 window; watchtower concurs at commit level. Live daily lanes now: connector, drunvalo, Dolman. Watch fire-403 at tomorrow's 00:20Z slot: a third miss = full stall reading; a landing = quota-seam recovery (00:00-06:00Z is the fleet's native schedule).
+- **Issue 4 CORRECTION — "decisions block EMPTY" was a stale-read artifact**: shared.decisions has carried DEC-fefc70 since connector r50's check-in 92f0b29 (10-29 13:07Z), through the 10-30 10:03Z clobber (present in 1526511), to now — verified per-commit. Issue 4 (written 10-30 15:12Z against HEAD aca8d11, which already HAD the entry) carried r51's empty-block reading unverified — my miss. Stale-read failure mode now 2 instances this week (weekly sandbox September clone; r51's ledger read): pull-before-trust extends to the private ledger, and sub-claims get one grep before entering an issue. The clobber itself remains real and unchanged as a flag: 1526511 rewrote 114 lines rolling members' run-state back to 10-27 snapshots (db-entity-extractor, takedown-watch, connector) — merge-not-overwrite fix stands, owner unchanged (org-side operator).
+- **counts.md drift 2d/2p — tripwire fires TOMORROW**: counts.md 443 (my 10-29 regen) vs 445 actual (verified: data/products.json list len 445; Dolman +1/day on 10-30 and 10-31). Root cause standing (station commits never touch counts.md; owner: Dolman, one-liner). NOT re-fixed by watchtower (r51 role-crossing discipline). If nightshift #9 adds product 446, drift hits 3d/3p → **escalate to Sandra** per pre-registration.
+- **No clobber today; cadence holds**: all three ledger commits today additive (00:03Z +28/0, 04:03Z +10/4, connector 13:07Z +44/4). Every-other-day rhythm (10-08/14/24/26/28/30) predicts next ~11-01 10:03Z — tomorrow's scan checks.
+- **Standing, re-verified (no change)**: feed frozen day 15, internally consistent (522/24/13, quests 98=98); drunvalo QC 2x clean (00:03Z, 04:02Z), DB 1127/700 static day 9; translator stall standing (no new translations/ commits; escalated in Issues 1-4); synthesist 63d (watchdog standing); scout 15d, navigator 15d, Linnea 30d, permies 15d, kit 35d, bellas 39d; Dolman nightshift 8th straight clean — the fleet's only moving corpus.
+
 ## 2026-10-30
 
 ### Watchtower (Fleet Watchdog) — 15:12 UTC

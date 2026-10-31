@@ -1,14 +1,15 @@
 {
- "last_run": "2026-10-30T16:05:00Z",
- "last_status": "daily_scan_all_quiet",
- "last_summary": "Daily scan 10-30 16:00Z: ALL QUIET — zero change since weekly Issue 4 (15:13Z); all 5 repos pulled clean, no forced updates, no commits after the weekly HEAD. Verified: Dolman nightshift landed 04:37Z (444 products), counts.md untouched (root cause standing; drift 1d/1p — tripwire >=3d/>=3p NOT tripped; next Dolman adds Mon 11-02); drunvalo QC clean 04:03Z, DB 1127/700 static (starved, standing); feed frozen day 14, internally consistent (522/24/13, quests 98=98); translator stall standing (escalated in Issue 4); synthesist 62d (watchdog standing); ledger 6th clobber (10:03Z) already counted, connector re-check-in on top, nothing new since. Carries: forge fire-402 decision at tomorrow's 00:20Z slot (fire-401 miss standing — 2 consecutive = standing flag); EU GenAI consultation closes NOV 3 (4 days) — Sam note standing until it closes.",
+ "last_run": "2026-10-31T16:10:00Z",
+ "last_status": "daily_scan_findings",
+ "last_summary": "Daily scan 10-31 16:00Z: FINDINGS — (1) forge two-miss promotion condition MET: fire-402 absent, verified at commit level (last forge/ commit 5185baf00 10-29 04:27Z, fire-400); concur connector r52 (13:07Z, falsification date at Nov 3 window); forge now a standing dark lane — watch fire-403 at 00:20Z (3rd miss = full stall; landing = quota-seam recovery). (2) Issue 4 CORRECTION: ledger decisions block NOT empty — DEC-fefc70 present continuously since r50 check-in 92f0b29 (10-29 13:07Z), survived the 10-30 clobber; Issue 4's 'empty' was a stale-read artifact carried unverified (2nd stale-read instance this week — pull-before-trust extends to the private ledger). (3) counts.md drift 2d/2p (443 vs 445 actual, verified data/products.json) — tripwire fires TOMORROW if nightshift #9 lands -> ESCALATE to Sandra. (4) No ledger clobber today (all three commits additive; every-other-day cadence holds, next expected ~11-01 10:03Z). Dolman 8th straight clean (445, up&up stain remover). Feed frozen day 15 internally consistent (522/24/13, quests 98=98); drunvalo QC 2x clean, DB 1127/700 static day 9; synthesist 63d; EU GenAI closes Nov 3 (3 days) — Sam note standing until closed.",
  "last_details": {
   "scan": "daily",
-  "verdict": "all quiet — no new findings; standing flags unchanged from Issue 4 (watchtower/2026-10-30-fleet-blind-spots-issue-4.md)",
+  "verdict": "findings — forge promoted to standing flag (two-miss tripwire fired); Issue 4 decisions-block claim corrected (stale read); counts tripwire 1 day out",
   "tripwires": [
-   "forge fire-402: if tomorrow 00:20Z slot also misses -> 2 consecutive missed mornings = standing flag",
-   "counts.md drift 1d/1p; >=3d/>=3p -> escalate to Sandra; next Dolman adds Mon 11-02",
-   "EU GenAI closes Nov 3 — carry note to Sam until closed"
+   "counts.md drift 2d/2p; if 11-01 nightshift adds a product -> 3d/3p -> ESCALATE to Sandra (root cause standing: Dolman never regens counts.md; owner Dolman, one-liner)",
+   "forge fire-403: 3rd consecutive miss at 00:20Z = full stall reading; a landing = quota-seam recovery",
+   "next expected ledger clobber ~11-01 10:03Z (every-other-day cadence) — check tomorrow's scan",
+   "EU GenAI consultation closes Nov 3 (3 days) — carry note to Sam until closed"
   ],
   "sandbox_note": "epoch-1 leftover watchtower/2026-09-16-fleet-blind-spots-issue-1.md untracked on this sandbox — deliberately not committed (canonical Issue 1 = 09-25)"
  }
