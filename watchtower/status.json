@@ -1,15 +1,15 @@
 {
- "last_run": "2026-10-31T16:10:00Z",
+ "last_run": "2026-11-01T16:09:00Z",
  "last_status": "daily_scan_findings",
- "last_summary": "Daily scan 10-31 16:00Z: FINDINGS — (1) forge two-miss promotion condition MET: fire-402 absent, verified at commit level (last forge/ commit 5185baf00 10-29 04:27Z, fire-400); concur connector r52 (13:07Z, falsification date at Nov 3 window); forge now a standing dark lane — watch fire-403 at 00:20Z (3rd miss = full stall; landing = quota-seam recovery). (2) Issue 4 CORRECTION: ledger decisions block NOT empty — DEC-fefc70 present continuously since r50 check-in 92f0b29 (10-29 13:07Z), survived the 10-30 clobber; Issue 4's 'empty' was a stale-read artifact carried unverified (2nd stale-read instance this week — pull-before-trust extends to the private ledger). (3) counts.md drift 2d/2p (443 vs 445 actual, verified data/products.json) — tripwire fires TOMORROW if nightshift #9 lands -> ESCALATE to Sandra. (4) No ledger clobber today (all three commits additive; every-other-day cadence holds, next expected ~11-01 10:03Z). Dolman 8th straight clean (445, up&up stain remover). Feed frozen day 15 internally consistent (522/24/13, quests 98=98); drunvalo QC 2x clean, DB 1127/700 static day 9; synthesist 63d; EU GenAI closes Nov 3 (3 days) — Sam note standing until closed.",
+ "last_summary": "Daily scan 11-01 16:00Z: FINDINGS — (1) forge FULL STALL: fire-403 absent at the 00:20Z slot, third consecutive miss (401/402/403; last forge/ commit 5185baf00 10-29 fire-400); the pre-registered rule converts the reading; concur connector r53 (13:17Z). Recovery watch = any forge commit in the 00:00-06:00Z seam (next slot fire-404, 11-02 00:20Z). (2) counts.md tripwire FIRED: drift 3d/3p (443 vs 446 actual, verified data/products.json) — ESCALATION TO SANDRA FILED at clean-chem-intel repo root (ESCALATION-2026-11-01-counts-drift.md; owner Dolman, one-liner update_counts.py in nightshift; NO watchtower regen per r51 role-crossing discipline). (3) Predicted ledger clobber ABSENT: Wizard sync quiet since 10-30 10:03Z; ledger intact (5 members, DEC-fefc70 at shared/decisions[0], connector check-in fb93e6d); no fix landed — pause, not repair; cadence broken, clobber watch now unpredictable. Dolman 9th straight clean (446, Scrubbing Bubbles). Feed frozen day 16 consistent (522/24/13, quests 98=98); drunvalo QC 2x clean, DB 1127/700 static day 10; synthesist 64d; EU GenAI closes Nov 3 (2 days) — legal-watch survey lands tomorrow.",
  "last_details": {
   "scan": "daily",
-  "verdict": "findings — forge promoted to standing flag (two-miss tripwire fired); Issue 4 decisions-block claim corrected (stale read); counts tripwire 1 day out",
+  "verdict": "findings — forge full stall (3rd-miss rule fired, terminal pre-registered state); counts drift escalated to Sandra (file filed in clean-chem root); ledger clobber absent, Wizard sync quiet",
   "tripwires": [
-   "counts.md drift 2d/2p; if 11-01 nightshift adds a product -> 3d/3p -> ESCALATE to Sandra (root cause standing: Dolman never regens counts.md; owner Dolman, one-liner)",
-   "forge fire-403: 3rd consecutive miss at 00:20Z = full stall reading; a landing = quota-seam recovery",
-   "next expected ledger clobber ~11-01 10:03Z (every-other-day cadence) — check tomorrow's scan",
-   "EU GenAI consultation closes Nov 3 (3 days) — carry note to Sam until closed"
+   "forge recovery watch: any forge/ commit in the 00:00-06:00Z seam (next slot fire-404, 11-02 00:20Z) = recovery; continued silence = human re-arm needed (Sam/Chris)",
+   "counts.md: watch nightshift #10 (11-02 ~04:30Z) — a regen closes the escalation; silence = the file stands for Sandra; do NOT regen from watchtower",
+   "ledger: clobber cadence broken (sync quiet since 10-30 10:03Z) — a sync resume = renewed clobber risk; merge-not-overwrite fix still open (org operator)",
+   "EU GenAI consultation closes Nov 3 (2 days) — legal-watch survey lands 11-02; carry note to Sam until closed"
   ],
   "sandbox_note": "epoch-1 leftover watchtower/2026-09-16-fleet-blind-spots-issue-1.md untracked on this sandbox — deliberately not committed (canonical Issue 1 = 09-25)"
  }
