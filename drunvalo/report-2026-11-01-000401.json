@@ -1,0 +1,31 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-11-01T00:04:01Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "works": 1127,
+    "persons": 700,
+    "db_changed": false,
+    "checks": {
+      "same_file_dupes": 0,
+      "dangling_cross_refs": 0,
+      "junk_person_ids": 0,
+      "junk_work_ids": 0,
+      "unknown_dates": 0,
+      "dangling_person_refs": 0,
+      "feed_mojibake_scoped": 0,
+      "feed_same_file_dupes": 0,
+      "feed_not_in_db_since_1015": 0
+    },
+    "title_sim": {
+      "raw": 742,
+      "tightened": 112,
+      "folds": 0,
+      "note": "all within known no-fold families (Stakhov memoir cluster, Statskevich series, goethe chunks, Sitkowski, Smelov, Risy, quietsphere, beseda-7/11, sr Tesla, scalarwave zh, arakelyan debate pair, turenne translation-vs-synthesis distinct classes)"
+    },
+    "tag_concepts": "skipped (dead - reads index.json which no longer exists)",
+    "forge_lane": "silent since 2026-10-16 quota blackout; feed newest entry 2026-10-16"
+  }
+}
