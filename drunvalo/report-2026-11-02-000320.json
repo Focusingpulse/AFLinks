@@ -1,0 +1,42 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-11-02T00:03:20Z",
+  "cron": "aetherforce-translation-qc",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [
+    "drunvalo/report-2026-11-02-000320.json",
+    "drunvalo/status.json",
+    "drunvalo/ACTIVITY.md"
+  ],
+  "details": {
+    "db_state": "1127 works / 700 persons, unchanged since 2026-10-23 (research-index bd341b1bd2ca, person-index be5a5daebc06)",
+    "feed_state": "938 latest_translations, newest 2026-10-16, blob a22f17275165 unchanged",
+    "checks": {
+      "same_file_dupes": 0,
+      "unknown_dates": 0,
+      "junk_work_ids": 0,
+      "junk_person_ids": 0,
+      "dangling_cross_refs": 0,
+      "dangling_person_refs": 0,
+      "feed_mojibake_scoped": 0,
+      "feed_same_file": 0,
+      "feed_not_in_db_ge_1015": 0
+    },
+    "title_similarity": {
+      "raw_candidates": 742,
+      "tightened_candidates": 101,
+      "folds": 0,
+      "known_no_fold_families": [
+        "stakhov-memoir-chapters",
+        "statskevich-morphogenesis-series",
+        "smelov-knotted-em-series",
+        "quietsphere-ja-series",
+        "shipov-beseda-7-11"
+      ]
+    },
+    "db_entries_added": 0,
+    "tag_concepts": "skipped (dead - reads index.json which no longer exists)",
+    "forge_lane": "silent since quota blackout; feed unchanged since 2026-10-16"
+  }
+}
