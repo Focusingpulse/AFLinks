@@ -1,5 +1,10 @@
 # Drunvalo Activity Log
 
+## 2026-11-02T00:03:20Z - aetherforce-translation-qc (ok)
+- Clean run, 0 DB changes (1127/700 unchanged 10 days; Forge lane silent since quota blackout, feed newest 2026-10-16).
+- Standing checks all clean: same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0, feed-not-in-DB 0.
+- Title-sim: 742 raw / 101 tightened candidates, all known no-fold families (Stakhov memoir cluster, Statskevich series, Smelov, quietsphere, beseda-7/11), 0 folds. tag_concepts skipped (dead).
+
 ## 2026-11-01T04:04:03Z - aetherforce-translation-qc (ok)
 
 Clean run, no DB changes. DB unchanged at 1127 works / 700 persons (10 days untouched; Forge lane still silent since the quota blackout, feed newest 2026-10-16). Standing checks all clean: same-file 0, unknown dates 0, junk ids 0, dangling cross_refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0, feed-not-in-DB 0. Title-sim: 742 raw from the permissive shared>=4 filter (known fr-en radiesthesia domain-token inflation), tightened high-ratio/containment scan with the real-token Cyrillic guard yielded 82, ALL known no-fold families (Stakhov memoir chapter cluster, Statskevich 15-part series, Sitkowski, Smelov, beseda-7/11, quietsphere, natuurtoonwet, jenkins-fischbach/norman debate pair, arakelyan debate pair, cross-linked Tesla/goethe pairs). 0 folds. tag_concepts skipped (dead).
