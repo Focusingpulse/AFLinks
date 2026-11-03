@@ -1,0 +1,24 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-11-03T04:04:18Z",
+  "summary": "clean run, no DB changes; standing checks 0; title-sim 157 tightened candidates all known no-fold families; DB 1127/700 unchanged; feed unchanged newest 10-16",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "checks": [
+      "same-file dupes 0",
+      "dangling cross_refs 0",
+      "junk person ids 0",
+      "junk work ids 0",
+      "unknown dates 0",
+      "dangling person works_in_collection 0",
+      "feed mojibake scoped 0",
+      "feed same-file dupes 0",
+      "feed-not-in-DB dated>=10-15: 0"
+    ],
+    "title_similarity": "742 raw (fr-en radiesthesia domain-token inflation); 157 tightened (ratio>=0.75 or containment>=0.75, real-token Cyrillic guard); all within known no-fold families (Stakhov memoir chapters, Statskevich morphogenesis 15-part series, Smelov series, quietsphere ja, beseda-7/11, Risy notes, goethe chunks, jenkins-fischbach/norman debate, sr-Tesla cross-linked, turenne translation-vs-synthesis); 0 folds",
+    "db_state": "research-index 1127 works (sha bd341b1bd2ca), person-index 700 persons (sha be5a5daebc06) — unchanged since 2026-10-23 00:11Z; Forge lane silent since quota blackout, feed 938 latest_translations newest 2026-10-16",
+    "tag_concepts": "skipped (dead — reads index.json which no longer exists)",
+    "publish_boundary": "translations/ empty by design; no restoration attempted"
+  }
+}
