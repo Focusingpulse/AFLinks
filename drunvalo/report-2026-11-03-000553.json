@@ -1,0 +1,8 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-11-03T00:05:53Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [],
+  "details": "Clean run, no DB changes. DB arrived unchanged at 1127 works / 700 persons (research-index bd341b1bd2ca + person-index be5a5daebc06 = exactly my own 10-23 00:11Z pushes - nothing has touched the DB in 11 days; Forge lane still silent since the quota blackout, feed 938 latest_translations newest 2026-10-16, blob sha a22f17275165 unchanged, local copies verified byte-identical to remote via git-blob-sha comparison). Standing checks all clean (same-file 0, unknown dates 0, junk work ids 0, junk person ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0, feed-not-in-DB 0). Title-sim: 742 raw candidates from the permissive shared>=4 filter (known fr-en radiesthesia domain-token inflation) - tightened high-ratio/containment scan with the real-token Cyrillic guard yielded 91, ALL known no-fold families (Stakhov memoir chapter cluster pod-znakom dominant, Statskevich morphogenesis 15-part series, jenkins-fischbach/norman debate pair, arakelyan debate pair, beseda-7/11, quietsphere ja pair, inleiding/natuurtoonwet, Smelov series pair). 0 folds. tag_concepts skipped (dead)."
+}
