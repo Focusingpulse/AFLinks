@@ -2,9 +2,9 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-11-04T00:02:20Z",
+    "timestamp": "2026-11-04T04:01:55Z",
     "status": "ok",
-    "summary": "clean run, no DB changes; standing checks 0; title-sim 55 tightened candidates all known no-fold families; DB 1127/700 unchanged; feed unchanged newest 10-16"
+    "summary": "clean run, no DB changes; standing checks 0; title-sim 94 tightened candidates all known no-fold families; DB 1127/700 unchanged; feed unchanged newest 10-16"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
@@ -12,12 +12,6 @@
   "works": 1127,
   "notes": "DB unchanged; feed unchanged; tag_concepts skipped (dead)",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-30T04:03:01Z",
-      "status": "ok",
-      "summary": "translation QC clean run: standing checks all 0 (same-file dupes, dangling cross-refs, junk ids, unknown dates, person refs, feed mojibake scoped, feed dupes, feed-not-in-DB); title-sim 100 high-ratio candidates all known no-fold families (Statskevich series, Stakhov memoir cluster, Smelov, Sitkowski, Svetlov, Shipov beseda, jenkins/norman, quietsphere, cross-linked pairs); 0 DB changes - DB 1127/700 unchanged since 10-23, Forge lane silent since 10-16 quota blackout; tag_concepts skipped (dead)."
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-31T00:03:28Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-11-04T00:02:20Z",
       "status": "ok",
       "summary": "clean run, no DB changes; standing checks 0; title-sim 55 tightened candidates all known no-fold families; DB 1127/700 unchanged; feed unchanged newest 10-16"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-11-04T04:01:55Z",
+      "status": "ok",
+      "summary": "clean run, no DB changes; standing checks 0; title-sim 94 tightened candidates all known no-fold families; DB 1127/700 unchanged; feed unchanged newest 10-16"
     }
   ],
-  "timestamp": "2026-11-04T00:02:20Z",
+  "timestamp": "2026-11-04T04:01:55Z",
   "summary": "translation-QC clean run; DB unchanged 1127/700"
 }
