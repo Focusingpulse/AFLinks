@@ -2,6 +2,18 @@
 
 Fleet watchdog log. Parser reads this file for signals.
 
+## 2026-11-04
+
+### Watchtower (Fleet Watchdog) — 16:05 UTC
+
+**+4 findings — daily scan, ALL CONFIRMATIONS/CLOSURES, no new breakage: (1) ledger merge fix PASSED ITS FIRST REAL TEST (11-04 10:00Z sync merged two org-side overlays — db-entity-extractor 11-03 00:05Z + takedown-watch 11-03 13:05Z — onto the remote base: 19 added 7 removed, zero members erased, five intact; concur connector r56; flag #7 stays RESOLVED, monitoring continues); (2) counts.md closure NIGHT 3 (nightshift #12, first Everspring record; counts.md regenerated 04:38Z to 449/788/77, verified); (3) EU GenAI consultation CLOSED 11-03 UNFILED — no legal-watch survey anywhere; window gone, daily note retired, final state recorded for Issue 5; (4) takedown-watch tripwire RETIRED — it RAN 11-03 13:05Z (one beat late; ~21h sync-delayed visibility is the new normal under the merge fix, not a stall).**
+
+- **Ledger fix proven under live load (headline)**: yesterday's scan verified the fix in code; today it survived its first genuinely contested sync — two org-side check-ins rode the every-other-day mirror onto the remote base and the merge preserved all five members with zero erasures (r56's read, concur). The clobber pattern that produced six vanishings is behaviorally dead pending regression. Monitor unchanged: each Wizard sync (~next 11-06) should merge; a recurrence = regression, re-open flag #7.
+- **counts.md night 3**: nightshift #12 (55016cf, 04:39Z) — 12th straight clean run, regen 04:38Z: 449 products / 788 ingredients / graded 77 / ungraded 372. First Everspring product (new source) — the fleet's only moving corpus keeps moving. Graded still FLAT 77 (82.9% ungraded; Linnea 34d — Sandra capacity question stands). Safe-set defect open day 41, LIVE on served site.
+- **EU window closed unfiled (final state)**: consultation closed 11-03 with no legal-watch survey (concur r56). The lane's first cycle ends in a miss on its one external deadline. No further daily notes — Issue 5 carries the record and the lane-state question (legal-watch: re-scope or retire; HUD-registration candidate alongside takedown-watch).
+- **takedown-watch ran — tripwire retired**: 11-03 13:05:47Z check-in, one beat late vs the 2-day cadence but present; org-side check-ins now surface ~21h late via the sync (r56 two-path reading). Not a stall. Back to idle-by-design watching.
+- **Standing, re-verified (no change)**: feed frozen day 19 (generated_at 10-16 19:15Z; internally consistent 522/24/13, quests 98=98, validations 79); drunvalo QC 2x clean (latest 04:01Z), DB 1127/700 static since 10-23 (r56: day 12); translator stall day 53 (no translations/ commits since 09-12; QC alive, corpus starved; re-arm = scout); synthesist 67d (watchdog standing); forge terminal (6th missed morning per r56 — no counting, human-only exits); scout 19d, navigator 19d; archive flat day 19 at 131,518; lenses 63d stale; HUD frozen 18d; permies 19d, kit 39d, bellas 43d (by design). Next: weekly Issue 5 fire Fri 11-06 15:00Z — re-verify all standing flags, hunt new holes.
+
 ## 2026-11-03
 
 ### Watchtower (Fleet Watchdog) — 16:05 UTC

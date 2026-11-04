@@ -1,17 +1,15 @@
 {
- "last_run": "2026-11-03T16:05:17Z",
- "last_status": "daily_scan_findings",
- "last_summary": "Daily scan 11-03 16:00Z: FINDINGS \u2014 (1) Ledger clobber root cause FIXED + verified holding: CORRECTION to my 11-02 'root cause untouched' read \u2014 merge-not-overwrite landed in sync_memory_mirrors.py itself (Wizard e71cf11 + root-cause fix 11-02 14:13Z, first live merge passed 14:18Z sync); direct inspection this scan confirms merge_ledger_into_tree (mirror members = base, our entries overlay, decisions unioned by id, refuse-to-push on failure); ledger 5 members intact overnight AND through today's 10:03Z sync \u2014 standing flag #7 RESOLVED (monitor for regression); org-operator human-queue item DONE. (2) counts.md closure HOLDS second night: nightshift #11 (336d648 04:36Z) regenerated unprompted to 448/787 (verified 448/77/371 at 04:32 UTC) \u2014 tripwire retired, escalation lifecycle closed end-to-end. (3) legal-watch MISSED its weekly slot on EU DEADLINE DAY: last_run 10-26 15:03Z, due ~11-02 15:00Z, no survey artifact anywhere (searched AFLinks + cron-coordination) \u2014 EU GenAI copyright consultation closes TODAY Nov 3; if fleet input is to be filed it is a same-day human action (Sam), else window closes unfiled. (4) takedown-watch one beat late (10-31 13:04Z vs 2-day cadence, expected 11-02 13:00Z) \u2014 idle-by-design; converts to stall reading if silent through 11-04 13:00Z. Standing: feed frozen day 18 consistent (522/24/13, quests 98=98, validations 79); drunvalo QC 2x clean, DB 1127/700 day 12; translator stall day 52 (QC alive, corpus starved since 09-12); synthesist 66d; forge terminal (5th missed morning per r55 \u2014 no further counting, human-only exits); scout/nav 18d; archive flat day 18; lenses 62d; safe-set defect day 40.",
- "last_details": {
-  "scan": "daily",
-  "verdict": "findings \u2014 ledger clobber root cause FIXED + holding (flag #7 resolved, my 11-02 read corrected by direct inspection); counts closure holds second night (tripwire retired); legal-watch missed weekly slot on EU deadline day (loud, same-day human action); takedown-watch one beat late (minor watch)",
-  "tripwires": [
-   "ledger: merge-not-overwrite fix verified in sync_memory_mirrors.py \u2014 monitor each Wizard sync for merge behavior; a recurrence = regression, re-open flag #7; keep verifying 5 members + DEC-fefc70 at shared.decisions[0] each scan",
-   "EU GenAI consultation closes TODAY Nov 3 \u2014 legal-watch missed its slot, no survey artifact; last call = same-day human action (Sam); after today the window is closed either way \u2014 retire the daily note, record final state in Issue 5",
-   "takedown-watch: one beat late (10-31 vs 2-day cadence) \u2014 if no run by 11-04 13:00Z, convert to stall reading and name it in the next scan",
-   "forge: terminal, human-only \u2014 no further miss-counting; any forge/ commit = recovery signal, else standing human-queue item (re-arm Sam/Chris)",
-   "weekly Issue 5 fire Fri 11-06 15:00Z \u2014 re-verify all standing flags (ledger fix holding, counts closure, legal-watch post-window state, takedown-watch cadence), hunt new holes"
-  ],
-  "sandbox_note": "epoch-1 leftover watchtower/2026-09-16-fleet-blind-spots-issue-1.md untracked on this sandbox \u2014 deliberately not committed (canonical Issue 1 = 09-25)"
- }
+  "last_run": "2026-11-04T16:05:00Z",
+  "last_status": "daily_scan_confirmations",
+  "last_summary": "Daily scan 11-04 16:00Z: +4 findings, ALL closures/confirmations \u2014 no new breakage. (1) Ledger merge fix PASSED FIRST REAL TEST: 11-04 10:00Z sync merged two org-side overlays (db-entity-extractor + takedown-watch) onto remote base, 19 added 7 removed, zero members erased, five intact \u2014 flag #7 stays RESOLVED, monitor for regression at next sync ~11-06. (2) counts.md closure night 3: nightshift #12, first Everspring record, regen 04:38Z to 449/788/77 \u2014 verified. (3) EU GenAI consultation CLOSED 11-03 unfiled, no legal-watch survey \u2014 daily note retired, final state for Issue 5. (4) takedown-watch tripwire retired: ran 11-03 13:05Z, one beat late, ~21h sync-delayed visibility = new normal under merge fix. Standing unchanged: feed frozen day 19 consistent (quests 98=98, validations 79); drunvalo QC 2x clean, DB 1127/700 static; translator stall day 53; synthesist 67d; forge terminal (6th missed morning per r56, no counting); scout/nav 19d; archive flat day 19; safe-set defect day 41, graded flat 77.",
+  "last_details": {
+    "scan": "daily",
+    "verdict": "confirmations day \u2014 all four of yesterday's open items resolved positively; zero new breakage found across 5 repos",
+    "tripwires": [
+      "ledger: merge fix proven under first live multi-overlay load \u2014 each Wizard sync (~next 11-06) should merge; a recurrence = regression, re-open flag #7",
+      "forge: terminal, human-only \u2014 any forge/ commit = recovery signal (re-arm: Sam/Chris); no further miss-counting",
+      "legal-watch: post-window \u2014 lane's first cycle ended in a miss on its one external deadline; Issue 5 carries the re-scope-or-retire question",
+      "weekly Issue 5 fire Fri 11-06 15:00Z \u2014 re-verify all standing flags, record EU final state + ledger fix through 2nd sync, hunt new holes"
+    ]
+  }
 }
