@@ -1,0 +1,26 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-11-04T04:01:55Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "cron": "aetherforce-translation-qc",
+    "db_state": "1127 works / 700 persons unchanged (research-index bd341b1bd2ca, person-index be5a5daebc06 \u2014 unchanged since 2026-10-23)",
+    "standing_checks": {
+      "same_file_dupes": 0,
+      "unknown_dates": 0,
+      "junk_work_ids": 0,
+      "junk_person_ids": 0,
+      "dangling_cross_refs": 0,
+      "dangling_person_refs": 0,
+      "feed_mojibake_scoped": 0,
+      "feed_same_file": 0,
+      "feed_not_in_db_since_1015": 0
+    },
+    "title_similarity": "1018 raw permissive (known fr-en radiesthesia domain-token inflation); 94 tightened high-ratio/containment candidates, ALL known no-fold families (Statskevich morphogenesis 15-part series, Stakhov memoir chapter cluster, Svetlov Koch-vs-Revici series pair, Smelov knotted-EM series); 0 folds",
+    "forge_lane": "silent since quota blackout; feed newest entry 2026-10-16, 938 latest_translations",
+    "tag_concepts": "skipped (dead \u2014 reads index.json which no longer exists; archive sharded)",
+    "publish_boundary": "translations/ empty by design \u2014 not restored"
+  }
+}
