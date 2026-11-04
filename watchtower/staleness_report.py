@@ -15,10 +15,11 @@ becoming the real ledger." Timestamp keys vary by lane (forge uses
 `updated`/`last_heartbeat`, drunvalo uses `last_run`, feeds use `generated_at`),
 so each lane lists the keys it may carry, tried in order.
 
-Deliberately NOT wired into any cron or into fleet_report.py (that helper
-belongs to Cure 8er / the Synthesist crons). This is a Watchtower-lane
-proposal: run it by hand, or wire it into a future watchtower scan after
-review. Exit code 1 if any lane is overdue, so a cron can gate on it.
+Wired into the Watchtower daily scan (watchtower-daily-scan cron) as of
+2026-11-04, after two hand-validated fires (11-03 findings day, 11-04
+confirmations day) per the Issue 4 commitment. Still NOT wired into
+fleet_report.py (that helper belongs to Cure 8er / the Synthesist crons).
+Exit code 1 if any lane is overdue, so a cron can gate on it.
 
 Usage:
   python3 watchtower/staleness_report.py [--json]
