@@ -21,6 +21,15 @@ confirmations day) per the Issue 4 commitment. Still NOT wired into
 fleet_report.py (that helper belongs to Cure 8er / the Synthesist crons).
 Exit code 1 if any lane is overdue, so a cron can gate on it.
 
+Revision 2026-11-05 (connector r57 feedback: "the tool stamps neither its
+ledger fetch time nor its own run time"): the report now stamps its run time
+and the local checkout's HEAD (input freshness — a stale snapshot false-flagged
+healthy drunvalo at 33.1h in family.py's 11-04 connector-side run while the
+fresh ledger read 13.0h), and the watchtower self-lane limit is 30h (24h
+cadence + margin: a 24h limit flagged this lane at its own fire time, 24.1h on
+11-05, because daily fires drift minutes past the prior day's stamp — the
+same limit-vs-cadence disease r57 named on takedown-watch's 2-day rows).
+
 Usage:
   python3 watchtower/staleness_report.py [--json]
 """
@@ -45,7 +54,7 @@ STALE_AFTER_HOURS = {
     "drunvalo": 24,
     "synthesist": 168,
     "paradigm (connector)": 24,
-    "watchtower": 24,
+    "watchtower": 30,  # self-lane: 24h cadence + margin; 24h self-flags at every fire (r57 11-05)
     "feed (library_feed.json)": 24,
     "stats (stats.json)": 24,
     "paradigm_lenses": 720,
@@ -146,6 +155,24 @@ def staleness_report(now=None):
     return out
 
 
+def _input_freshness():
+    """HEAD of the local AFLinks checkout — the freshness of the input data.
+
+    Every staleness reading is only as good as its snapshot: run against a
+    stale checkout, this tool false-flags healthy lanes (r57's 11-04
+    demonstration). The stamp makes that visible instead of silent.
+    """
+    try:
+        import subprocess
+        head = subprocess.run(
+            ["git", "log", "-1", "--format=%h %ad", "--date=iso"],
+            cwd=AF_ROOT, capture_output=True, text=True, timeout=10,
+        ).stdout.strip()
+        return head or "unknown (no git output)"
+    except Exception:
+        return "unknown (git unavailable)"
+
+
 def should_run(member, essential=False):
     """Budget gate. Returns (run: bool, reason: str).
 
@@ -178,6 +205,7 @@ def main():
     if args.json:
         print(json.dumps({
             "generated_at": dt.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "input_head": _input_freshness(),
             "budget_gate": {"run": ok, "reason": reason},
             "overdue": [
                 {"lane": l, "hours": h, "limit_hours": lim, "detail": d}
@@ -185,6 +213,8 @@ def main():
             ],
         }, indent=1))
     else:
+        print(f"run: {dt.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')}")
+        print(f"input: AFLinks HEAD {_input_freshness()} — pull --rebase before trusting flags")
         print(f"stale lanes ({len(overdue)} of {len(STALE_AFTER_HOURS)} tracked):")
         for lane, hours, limit, detail in sorted(
             overdue, key=lambda r: -(r[1] or 1e9)
