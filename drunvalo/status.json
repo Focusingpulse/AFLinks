@@ -2,9 +2,9 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-11-04T04:01:55Z",
+    "timestamp": "2026-11-05T00:02:03Z",
     "status": "ok",
-    "summary": "clean run, no DB changes; standing checks 0; title-sim 94 tightened candidates all known no-fold families; DB 1127/700 unchanged; feed unchanged newest 10-16"
+    "summary": "clean run, no DB changes; 1127 works 700 persons unchanged; feed newest 10-16; 0 new works; standing checks all clean"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
@@ -12,12 +12,6 @@
   "works": 1127,
   "notes": "DB unchanged; feed unchanged; tag_concepts skipped (dead)",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-31T00:03:28Z",
-      "status": "ok",
-      "summary": "translation QC clean run: standing checks all 0 (same-file dupes, dangling cross-refs, junk ids, unknown dates, person refs, feed mojibake scoped, feed dupes, feed-not-in-DB); titl"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-10-31T04:02:37Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-11-04T04:01:55Z",
       "status": "ok",
       "summary": "clean run, no DB changes; standing checks 0; title-sim 94 tightened candidates all known no-fold families; DB 1127/700 unchanged; feed unchanged newest 10-16"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-11-05T00:02:03Z",
+      "status": "ok",
+      "summary": "clean run, no DB changes; 1127 works 700 persons unchanged; feed newest 10-16; 0 new works; standing checks all clean"
     }
   ],
-  "timestamp": "2026-11-04T04:01:55Z",
+  "timestamp": "2026-11-05T00:02:03Z",
   "summary": "translation-QC clean run; DB unchanged 1127/700"
 }
