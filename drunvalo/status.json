@@ -2,9 +2,9 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-11-05T00:02:03Z",
+    "timestamp": "2026-11-05T04:01:28Z",
     "status": "ok",
-    "summary": "clean run, no DB changes; 1127 works 700 persons unchanged; feed newest 10-16; 0 new works; standing checks all clean"
+    "summary": "clean run; DB unchanged 1127/700; 0 folds"
   },
   "job": "aetherforce-translation-qc",
   "status": "ok",
@@ -12,12 +12,6 @@
   "works": 1127,
   "notes": "DB unchanged; feed unchanged; tag_concepts skipped (dead)",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-10-31T04:02:37Z",
-      "status": "ok",
-      "summary": "Clean run. DB unchanged 1127 works 700 persons. Standing checks all clean, 0 folds, 0 new works. tag_concepts skipped dead."
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-11-01T00:04:01Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-11-05T00:02:03Z",
       "status": "ok",
       "summary": "clean run, no DB changes; 1127 works 700 persons unchanged; feed newest 10-16; 0 new works; standing checks all clean"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-11-05T04:01:28Z",
+      "status": "ok",
+      "summary": "clean run; DB unchanged 1127/700; 0 folds"
     }
   ],
-  "timestamp": "2026-11-05T00:02:03Z",
+  "timestamp": "2026-11-05T04:01:28Z",
   "summary": "translation-QC clean run; DB unchanged 1127/700"
 }
