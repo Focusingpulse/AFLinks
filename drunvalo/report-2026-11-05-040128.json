@@ -1,0 +1,8 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-11-05T04:01:28Z",
+  "summary": "aetherforce-translation-qc-checked-and-fixed",
+  "status": "ok",
+  "files_modified": [],
+  "details": "Clean run. DB unchanged at 1127 works / 700 persons (13 days untouched, Forge lane silent since quota blackout; feed newest 2026-10-16). Standing checks all clean: same-file 0, unknown dates 0, junk ids 0, dangling cross_refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0, feed-not-in-DB 0. Title-sim 1018 raw permissive -> 94 tightened, all known no-fold families (Stakhov memoir chapter cluster, Statskevich morphogenesis series, Smelov pair, Svetlov Koch-vs-Revici pair), 0 folds. tag_concepts skipped (dead - reads index.json which no longer exists)."
+}
