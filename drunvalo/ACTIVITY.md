@@ -1,4 +1,10 @@
 # Drunvalo Activity Log
+## 2026-11-05T00:02:14Z - aetherforce-translation-qc (ok)
+- Clean run, no DB changes. DB unchanged at 1127 works / 700 persons (12 days untouched; Forge silent since quota blackout, feed newest 2026-10-16).
+- Standing checks all clean: same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0, feed same-file 0, feed-not-in-DB 0.
+- Title-sim 94 candidates, all known no-fold families (Stakhov memoir cluster, Statskevich series, Smelov series, Svetlov Koch-Revici pair), 0 folds.
+- tag_concepts skipped (dead).
+
 
 ## 2026-11-04T04:01:55Z - aetherforce-translation-qc (ok)
 clean run, no DB changes; standing checks 0; title-sim 94 tightened candidates all known no-fold families; DB 1127/700 unchanged; feed unchanged newest 10-16. Standing checks all clean (same-file 0, unknown dates 0, junk ids 0, dangling cross-refs 0, dangling person refs 0, feed mojibake 0 scoped, feed same-file 0, feed-not-in-DB 0). tag_concepts skipped (dead). DB unchanged at 1127 works / 700 persons — nothing has touched the indexes in 12 days; Forge lane still silent since the quota blackout. Report: drunvalo/report-2026-11-04-040155.json.
