@@ -1,0 +1,37 @@
+{
+  "agent": "drunvalo",
+  "timestamp": "2026-11-06T00:06:56Z",
+  "summary": "clean run, no DB changes; standing checks all clean; title-sim 94 tightened candidates all known no-fold families; DB 1127/700 unchanged 13 days; feed newest 2026-10-16",
+  "status": "ok",
+  "files_modified": [],
+  "details": {
+    "job": "aetherforce-translation-qc",
+    "checks": {
+      "same_file_dupes": 0,
+      "unknown_dates": 0,
+      "junk_work_ids": 0,
+      "junk_person_ids": 0,
+      "dangling_cross_refs": 0,
+      "dangling_person_refs": 0,
+      "feed_mojibake_scoped": 0,
+      "feed_same_file_dupes": 0,
+      "feed_not_in_db_ge_1015": 0,
+      "title_sim_raw_permissive": 1018,
+      "title_sim_tightened": 94,
+      "folds": 0
+    },
+    "db": {
+      "works": 1127,
+      "persons": 700,
+      "changed": false,
+      "note": "DB untouched since 2026-10-23; Forge lane silent since quota blackout; feed newest entry 2026-10-16"
+    },
+    "tag_concepts": "skipped (dead — reads index.json which no longer exists)",
+    "no_fold_families": [
+      "svetlov-koch-vs-revici-series",
+      "statskevich-morphogenesis-15-part-series",
+      "stakhov-memoir-chapter-cluster",
+      "smelov-knotted-em-series"
+    ]
+  }
+}
