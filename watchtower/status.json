@@ -1,16 +1,33 @@
 {
-  "last_run": "2026-11-05T16:16:00Z",
-  "last_status": "daily_scan_corrections",
-  "last_summary": "Daily scan 11-05 16:00Z: +4 findings \u2014 corrections + instrument repair, zero new breakage. (1) r57's 'never-landed weekly synthesis cron' CONTRADICTED by direct registry inspection: both crons exist (weekly next fire 11-06 15:00Z; issue series 4/4 on Friday slots); kernel of truth named \u2014 no watchtower row in the shared ledger (doctrine: status files are the real ledger); surface question to Issue 5. (2) r56's phantom 11-03 sync premise corrected (no Wizard sync on 11-03; verified) \u2014 the 11-04 takedown-watch retirement survives on its own verification; third unverified-adoption lesson banked. (3) staleness_report.py repaired per r57: stamps run time + input HEAD, watchtower limit 24h to 30h (self-flag boundary artifact); post-fix run = 8 known-dark baselines, zero false positives. (4) Live lanes healthy: nightshift #13 counts 450/788 regen 04:37Z (4th consecutive in-lane), ledger 5 members + DEC-fefc70 intact (no sync since 11-04 10:00Z), drunvalo QC 2x clean, feed frozen day 20 consistent (quests 98=98, validations 79, dossiers 111). Standing unchanged: forge terminal (fire-407 absent), synthesist 68d, scout/nav 20d, archive flat day 20 at 131,518, graded flat 77, safe-set defect day 42.",
+  "last_run": "2026-11-06T15:16:00Z",
+  "last_status": "weekly_synthesis_issue_5",
+  "last_summary": "Weekly synthesis Issue 5 landed on slot (2026-11-06-fleet-blind-spots-issue-5.md). (1) EU GenAI consultation FALSE CLOSURE corrected: deadline EXTENDED to Nov 10 (verified on the Commission's own page + ODIPI/ANICA/AI Chamber); my 11-04 'window gone' was wrong; extension sat in legal-watch's 11-02 survey 2 days; 4 days remain; Sam/Chris: file or decline before Tuesday; rows marked inline in ACTIVITY.md. (2) Two flags RESOLVED and proven: ledger merge fix 2-for-2 under contested load (5 members, 5 overlays, zero erasures; residual: decisions block still empty) + counts.md escalation lifecycle COMPLETE (5 consecutive in-lane regens 447-451; first completed human-queue cycle). (3) NEW: Letinia MISSED its 11-02 sweep — invisible by construction (no registry entry, no ledger row, only surface is its own append log); tripwire Mon 11-09 or escalation to Sandra. (4) Yard disconnected at a third layer: living-library/ is a FocusVault pointer stub; quest cards' dossier paths resolve to nothing; feed predates the 10-20 evacuation. (5) family.py stamps port DELIVERED (kit 867a4a5, r58 clause 4); live-copy adoption named for the Wizard. (6) Clobber-guardian + site-watchdog inventoried; daily-cron re-creation explained; secrets clean; graded FLAT 77 third week (82.9% ungraded; Linnea 36d).",
   "last_details": {
-    "scan": "daily",
-    "verdict": "corrections day \u2014 two r57 corrections applied (cron-registry evidence + phantom premise), own instrument repaired same-day; zero new breakage across 5 repos",
+    "scan": "weekly",
+    "verdict": "verdict held week 3 (growth lanes dark 21d, zero re-arm fires); the interior moved: two resolutions, one false closure corrected with 4 days of window left, one instrument debt paid, one new dark lane found where no instrument watches",
     "tripwires": [
-      "Issue 5 fire TOMORROW Fri 11-06 15:00Z \u2014 daily scan (16:00Z, one hour after slot) verifies it fired; if not, r57's 'never-landed' claim graduates from misreading to live concern",
-      "ledger: Wizard sync expected ~11-06 10:03Z = merge fix SECOND contested test \u2014 must MERGE; recurrence = re-open flag #7",
-      "forge: terminal, human-only \u2014 any forge/ commit = recovery signal (re-arm: Sam/Chris); no further miss-counting",
-      "legal-watch: post-window \u2014 first cycle ended in a miss; Issue 5 carries re-scope-or-retire",
-      "Issue 5 candidates banked today: watchtower ledger-surface question (check-in vs documented doctrine), family.py portability of the staleness stamps fix, sync-bound-row cadence-aware limits (takedown-watch), clobber-guardian.yml + site-watchdog inventory, stale fleet-registry v2_note"
-    ]
+      "EU GenAI consultation window closes Nov 10 — daily note to Sam until closed; NEVER close a deadline watch without re-reading the source (the 11-04 lesson, banked)",
+      "Letinia sweep 6 due Mon 11-09 ~15:07Z — absent = dark-lane list + escalation to Sandra (safe-set defect loses its only weekly verifier)",
+      "ledger: every Wizard sync must MERGE (fix 2-for-2; recurrence = re-open flag #12)",
+      "forge: terminal, human-only — any forge/ commit = recovery signal; no further miss-counting",
+      "counts.md: in-lane regen nightly (5-night streak; a missed regen or count mismatch = flag)"
+    ],
+    "issue": "watchtower/2026-11-06-fleet-blind-spots-issue-5.md",
+    "issue_series": 5,
+    "crons": {
+      "note": "Recorded deliberately (Issue 5 §4.3): this lane holds no member row in the shared ledger by doctrine — status files are the real ledger. This field carries the cron registry state so any reader can verify this lane's cadence from this public surface without cloud-registry access (closes the r57 misreading class at its source).",
+      "watchtower-daily-scan": {
+        "schedule": "0 16 * * * (10am Denver)",
+        "created_at": "2026-11-04T16:08:47.680Z",
+        "recreation_reason": "prompt update 11-04 to wire staleness_report.py into the daily scan (commit 20965eada 16:09Z, one minute later) — reason recorded per the instrument-mutation rule",
+        "next_fire": "2026-11-06T16:00:00Z"
+      },
+      "watchtower-weekly-synthesis": {
+        "schedule": "0 15 * * 5 (Fri 9am Denver)",
+        "created_at": "2026-09-16T01:47:39.705Z",
+        "next_fire": "2026-11-13T15:00:00Z",
+        "landing_record": "Issues 1-5 all on Friday slots: 09-25, 10-16, 10-23, 10-30, 11-06"
+      }
+    }
   }
 }
