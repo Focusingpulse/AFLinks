@@ -18,13 +18,14 @@
       "note": "Recorded deliberately (Issue 5 §4.3): this lane holds no member row in the shared ledger by doctrine — status files are the real ledger. This field carries the cron registry state so any reader can verify this lane's cadence from this public surface without cloud-registry access (closes the r57 misreading class at its source).",
       "watchtower-daily-scan": {
         "schedule": "0 16 * * * (10am Denver)",
-        "created_at": "2026-11-04T16:08:47.680Z",
-        "recreation_reason": "prompt update 11-04 to wire staleness_report.py into the daily scan (commit 20965eada 16:09Z, one minute later) — reason recorded per the instrument-mutation rule",
+        "created_at": "2026-11-06T15:20:45Z",
+        "recreation_reason": "Issue 5 commitment (§4.1, §2.6): prompt update to re-arm the EU Nov-10 tripwire (the 11-04 false closure) and add the Letinia sweep-6 tripwire; prior creation 11-04 16:08:47Z was the staleness-wiring prompt update (commit 20965eada 16:09Z). Reasons recorded at the mutation per the instrument-mutation rule.",
         "next_fire": "2026-11-06T16:00:00Z"
       },
       "watchtower-weekly-synthesis": {
         "schedule": "0 15 * * 5 (Fri 9am Denver)",
-        "created_at": "2026-09-16T01:47:39.705Z",
+        "created_at": "2026-11-06T15:21:11Z",
+        "recreation_reason": "Issue 5 commitment (§2.6): prompt update fixing the stale '16 cards' artifact from its 09-16 authorship (queue holds 98, verified) and adding the source-re-read rule + registry-gap hunting step. Prior creation 09-16 01:47:39Z.",
         "next_fire": "2026-11-13T15:00:00Z",
         "landing_record": "Issues 1-5 all on Friday slots: 09-25, 10-16, 10-23, 10-30, 11-06"
       }
