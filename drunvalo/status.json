@@ -2,7 +2,7 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-11-05T04:01:28Z",
+    "timestamp": "2026-11-06T00:06:56Z",
     "status": "ok",
     "summary": "clean run; DB unchanged 1127/700; 0 folds"
   },
@@ -12,12 +12,6 @@
   "works": 1127,
   "notes": "DB unchanged; feed unchanged; tag_concepts skipped (dead)",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-11-01T00:04:01Z",
-      "status": "ok",
-      "summary": "Clean run. DB unchanged at 1127 works / 700 persons (9 days untouched; Forge lane still silent since the quota blackout, feed newest 2026-10-16). Standing checks all clean: same-file 0, dangling cross"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-11-01T04:04:03Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-11-05T04:01:28Z",
       "status": "ok",
       "summary": "clean run; DB unchanged 1127/700; 0 folds"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-11-06T00:06:56Z",
+      "status": "ok",
+      "summary": "clean run; DB unchanged 1127/700; 0 folds"
     }
   ],
-  "timestamp": "2026-11-05T04:01:28Z",
+  "timestamp": "2026-11-06T00:06:56Z",
   "summary": "translation-QC clean run; DB unchanged 1127/700"
 }
