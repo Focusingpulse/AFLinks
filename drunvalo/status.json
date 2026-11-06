@@ -2,7 +2,7 @@
   "agent": "drunvalo",
   "last_run": {
     "cron": "aetherforce-translation-qc",
-    "timestamp": "2026-11-06T00:06:56Z",
+    "timestamp": "2026-11-06T04:01:55Z",
     "status": "ok",
     "summary": "clean run; DB unchanged 1127/700; 0 folds"
   },
@@ -10,14 +10,8 @@
   "status": "ok",
   "persons": 700,
   "works": 1127,
-  "notes": "DB unchanged; feed unchanged; tag_concepts skipped (dead)",
+  "notes": "Clean run. Forge lane silent since 2026-10-16. Cloud fleet stalled on quota since 10-16; this lane only.",
   "runs": [
-    {
-      "cron": "aetherforce-translation-qc",
-      "timestamp": "2026-11-01T04:04:03Z",
-      "status": "ok",
-      "summary": "clean run, DB unchanged 1127/700, all standing checks 0, 82 title-sim cands all known no-fold families"
-    },
     {
       "cron": "aetherforce-translation-qc",
       "timestamp": "2026-11-02T00:03:20Z",
@@ -71,8 +65,14 @@
       "timestamp": "2026-11-06T00:06:56Z",
       "status": "ok",
       "summary": "clean run; DB unchanged 1127/700; 0 folds"
+    },
+    {
+      "cron": "aetherforce-translation-qc",
+      "timestamp": "2026-11-06T04:01:55Z",
+      "status": "ok",
+      "summary": "clean run; DB unchanged 1127/700; 0 folds"
     }
   ],
-  "timestamp": "2026-11-06T00:06:56Z",
-  "summary": "translation-QC clean run; DB unchanged 1127/700"
+  "timestamp": "2026-11-06T04:01:55Z",
+  "summary": "clean run; DB unchanged 1127/700; 0 folds"
 }
